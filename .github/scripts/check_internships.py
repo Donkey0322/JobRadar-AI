@@ -1,13 +1,16 @@
+# flake8: noqa: E501
 import os
 import re
 import json
 import smtplib
 import ssl
 from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from email.utils import formatdate
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
 import requests  # pyright: ignore[reportMissingModuleSource]
 
@@ -21,6 +24,17 @@ HREF_RE = re.compile(r'href="([^"]+)"')
 
 # 以美中時區決定今天日期 並格式化成 README 使用的樣式 例如 Oct 09
 TODAY_STR = datetime.now(ZoneInfo("America/Chicago")).strftime("%b %d")
+
+
+def clean_link(link: str) -> str:
+    try:
+        parsed = urlparse(link)
+        query = parse_qsl(parsed.query)
+        filtered = [(k, v) for k, v in query if not k.lower().startswith("utm_")]
+        new_query = urlencode(filtered)
+        return urlunparse(parsed._replace(query=new_query))
+    except Exception:
+        return link
 
 
 def load_sent():
@@ -74,12 +88,14 @@ def parse_company_role_link_date(line):
 
 
 def send_email(company, role, link):
-    smtp_host = os.environ.get("SMTP_HOST")
+    link = clean_link(link)
+    
+    smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "587"))
-    smtp_user = os.environ.get("SMTP_USER")
-    smtp_pass = os.environ.get("SMTP_PASS")
-    from_email = os.environ.get("FROM_EMAIL")
-    to_email = os.environ.get("TO_EMAIL")
+    smtp_user = os.environ.get("SMTP_USER", "")
+    smtp_pass = os.environ.get("SMTP_PASS", "")
+    from_email = os.environ.get("FROM_EMAIL", "")
+    to_email = os.environ.get("TO_EMAIL", "")
 
     if not all(
         [smtp_host, smtp_port, smtp_user, smtp_pass, from_email,
@@ -88,28 +104,43 @@ def send_email(company, role, link):
         raise ValueError("Email env not fully configured, skip sending.")
 
     subject = f"[{company}] {role} — {TODAY_STR}"
-    body = f"Company: {company}\nRole: {role}\nLink: {link}"
-
-    msg = MIMEText(body, "plain", "utf-8")
+    # 🧩 HTML 信件樣式
+    html_body = f"""\
+        <html>
+        <body style="font-family: Arial, sans-serif; color: #333; background-color: #fafafa; padding: 30px;">
+            <table align="center" width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:8px;padding:24px;">
+            <tr><td>
+                <h2 style="color:#1a73e8;margin:0;">{company}</h2>
+                <p style="font-size:16px;margin:8px 0 16px;"><b>Role:</b> {role}</p>
+                <a href="{link}" target="_blank" style="display:inline-block;padding:10px 18px;background-color:#1a73e8;color:white;text-decoration:none;border-radius:6px;font-weight:bold;">Apply Now</a>
+                <hr style="border:none;border-top:1px solid #eee;margin:24px 0;">
+                <p style="font-size:13px;color:#888;">Sent automatically on {TODAY_STR}</p>
+            </td></tr>
+            </table>
+        </body>
+        </html>
+    """
+    
+    # MIME Multipart：可擴充純文字 + HTML
+    msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = from_email if from_email else "Unknown"
-    msg["To"] = to_email if to_email else "Unknown"
+    msg["From"] = from_email
+    msg["To"] = to_email
     msg["Date"] = formatdate(localtime=True)
 
+    # 附上純文字備用版本（某些郵件系統會用）
+    plain_text = f"Company: {company}\nRole: {role}\nLink: {link}"
+    msg.attach(MIMEText(plain_text, "plain", "utf-8"))
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+    # 傳送郵件
     context = ssl.create_default_context()
-    with smtplib.SMTP(
-        smtp_host if smtp_host else "Unknown",
-        smtp_port
-    ) as server:
+    with smtplib.SMTP(smtp_host, smtp_port) as server:
         server.starttls(context=context)
-        server.login(
-            smtp_user if smtp_user else "Unknown",
-            smtp_pass if smtp_pass else "Unknown")
-        server.sendmail(
-            from_email if from_email else "Unknown",
-            [to_email if to_email else "Unknown"],
-            msg.as_string()
-        )
+        server.login(smtp_user, smtp_pass)
+        server.sendmail(from_email, [to_email], msg.as_string())
+
+    print(f"✅ Sent pretty email: {company} | {role}")
 
 
 def main():
