@@ -274,7 +274,7 @@ def send_email(company, role, link):
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"] = from_email
+    msg["From"] = f"Summer Intern <{from_email}>"
     msg["To"] = to_email
     msg["Date"] = formatdate(localtime=True)
     msg.attach(MIMEText(plain_text, "plain", "utf-8"))
