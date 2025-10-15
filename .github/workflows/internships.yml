@@ -2,7 +2,7 @@ name: Summer2026 Internships Watcher
 
 on:
   schedule:
-    - cron: "*/20 * * * *"  # 每 20 分鐘
+    - cron: "*/20 9-23 * * *"  # 每天 09:00–23:00，每 20 分鐘
   workflow_dispatch: {}      # 允許手動觸發
 
 permissions:
