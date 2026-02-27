@@ -1,6 +1,11 @@
 import { promises as fs } from "fs";
+import path from "path";
 
-import { SENT_PATH } from "@/constants";
+import type { Job } from "@/types";
+
+import { safeFilename } from "./string";
+
+import { JD_PATH, SENT_PATH } from "@/constants";
 
 export async function loadSent(): Promise<Set<string>> {
   try {
@@ -16,4 +21,9 @@ export async function saveSent(sentSet: Set<string>) {
   const sorted = Array.from(sentSet).sort();
   const json = JSON.stringify(sorted, null, 2);
   await fs.writeFile(SENT_PATH, json, "utf-8");
+}
+
+export async function saveJd(jd: string, job: Job) {
+  const filename = `${safeFilename(job.company)}-${safeFilename(job.role)}-${safeFilename(job.location)}.txt`;
+  await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
 }

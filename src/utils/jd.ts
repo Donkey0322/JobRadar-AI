@@ -3,6 +3,8 @@ import * as cheerio from "cheerio";
 import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
 
+import { saveJd } from "./data";
+
 import analyze from "@/utils/ai";
 import { AIResponseSchema } from "@/validation/ai";
 
@@ -13,7 +15,8 @@ async function getJD(url: string): Promise<string> {
     headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
   });
   if (!resp.ok) {
-    throw new Error(`Failed to fetch text from ${url}`);
+    console.error(`Failed to fetch text from ${url}`);
+    return "";
   }
   const text = await resp.text();
   return text;
@@ -132,6 +135,7 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
   const jdText = await visibleTextFromHtml(html, urlType, job.link);
 
   if (jdText) {
+    await saveJd(jdText, job);
     const aiResponse = await analyze(jdText);
     if (aiResponse) {
       try {
@@ -139,7 +143,7 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
         const validated = AIResponseSchema.parse(parsed);
         return transform(validated);
       } catch (e) {
-        console.warn(`[warn] Error parsing JSON: ${e}`);
+        console.warn(`[${job.company}] Error parsing JSON: ${e}`);
         return null;
       }
     }

@@ -1,4 +1,4 @@
-name: Summer2026 Internships Watcher
+name: US Jobs Watcher
 
 on:
   schedule:
