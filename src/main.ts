@@ -24,7 +24,7 @@ async function main() {
   const toSend: Job[] = [];
   for (const job of newJobs) {
     const key = job.link;
-    if (key in sent) {
+    if (sent.has(key)) {
       continue;
     }
 
