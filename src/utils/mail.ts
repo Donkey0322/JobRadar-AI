@@ -1,7 +1,8 @@
 import nodemailer from "nodemailer";
-import type { Job, JD } from "@/types";
+
+import type { Job } from "@/types";
+
 import { getToday } from "@/utils/string";
-import { promises as fs } from "fs";
 
 function escapeHtml(str: string) {
   return str

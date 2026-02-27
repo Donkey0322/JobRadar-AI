@@ -1,4 +1,5 @@
 import { z } from "zod";
+
 import { SeasonSchema } from "./season";
 
 export const AIResponseSchema = z.object({

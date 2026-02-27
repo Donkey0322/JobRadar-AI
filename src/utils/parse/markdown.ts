@@ -1,5 +1,6 @@
 import type { Job } from "@/types";
-import { containsExcludedSymbols, getToday, HREF_RE, cleanLink } from "@/utils/string";
+
+import { cleanLink, containsExcludedSymbols, getToday, HREF_RE } from "@/utils/string";
 
 export default function parseMarkdown(md: string): Job[] {
   const ROW_START = /^\s*\|/; // regex to match the start of a row: "|"

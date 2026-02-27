@@ -1,7 +1,9 @@
 import * as cheerio from "cheerio";
-import type { Job, JD } from "@/types";
-import analyze from "@/utils/ai";
+
+import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
+
+import analyze from "@/utils/ai";
 import { AIResponseSchema } from "@/validation/ai";
 
 type JobPlatform = "greenhouse" | "workday" | "smartrecruiters" | "oraclecloud" | "unknown";
@@ -61,13 +63,14 @@ async function visibleTextFromHtml(
         break;
       }
       case "workday":
-      case "smartrecruiters":
+      case "smartrecruiters": {
         const meta = $('meta[property="og:description"]').first();
         if (!meta.length) return null;
 
         text = meta.attr("content") ?? "";
         break;
-      default:
+      }
+      default: {
         const script = $('script[type="application/ld+json"]').first();
         if (script.length) {
           text = script.text() + "\n" + $.root().text();
@@ -75,6 +78,7 @@ async function visibleTextFromHtml(
           text = $("body").text();
         }
         break;
+      }
     }
 
     const lines = text

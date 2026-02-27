@@ -1,5 +1,6 @@
-import Source from "@/types/source";
 import path from "path";
+
+import type Source from "@/types/source";
 
 export const SENT_PATH = path.join(process.cwd(), "data", "sent.json");
 

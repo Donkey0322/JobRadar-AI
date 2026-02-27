@@ -1,11 +1,13 @@
-import parseSource from "@/utils/parse";
-import analyzeJD from "@/utils/jd";
-import { SOURCES } from "@/constants";
-import type { Job } from "@/types";
-import { sendEmail } from "@/utils/mail";
 import dotenv from "dotenv";
-import { getToday } from "@/utils/string";
+
+import type { Job } from "@/types";
+
+import { SOURCES } from "@/constants";
 import { loadSent, saveSent } from "@/utils/data";
+import analyzeJD from "@/utils/jd";
+import { sendEmail } from "@/utils/mail";
+import parseSource from "@/utils/parse";
+import { getToday } from "@/utils/string";
 dotenv.config();
 
 async function main() {
