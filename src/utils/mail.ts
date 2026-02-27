@@ -63,7 +63,7 @@ Link: ${link}`;
   if (qualifications.length > 0) {
     htmlBody += `
       <div style="background-color:#f7f9fc;border:1px solid #e3e8ef;border-radius:8px;padding:16px 20px;margin:20px 0;">
-        <p style="font-size:16px;font-weight:bold;margin:0 0 10px;color:#2b579a;">Basic Qualifications</p>
+        <p style="font-size:16px;font-weight:bold;margin:0 0 10px;color:#2b579a;">Qualifications</p>
         <ul style="margin:0;padding-left:0;list-style:none;">
           ${qualifications
             .map(

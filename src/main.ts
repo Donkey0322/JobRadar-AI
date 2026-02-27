@@ -1,28 +1,12 @@
-import { promises as fs } from "fs";
 import parseSource from "@/utils/parse";
 import analyzeJD from "@/utils/jd";
-import { SOURCES, SENT_PATH } from "@/constants";
+import { SOURCES } from "@/constants";
 import type { Job } from "@/types";
 import { sendEmail } from "@/utils/mail";
 import dotenv from "dotenv";
 import { getToday } from "@/utils/string";
+import { loadSent, saveSent } from "@/utils/data";
 dotenv.config();
-
-async function loadSent(): Promise<Set<string>> {
-  try {
-    const content = await fs.readFile(SENT_PATH, "utf-8");
-    const parsed: string[] = JSON.parse(content);
-    return new Set(parsed);
-  } catch {
-    return new Set();
-  }
-}
-
-export async function saveSent(sentSet: Set<string>) {
-  const sorted = Array.from(sentSet).sort();
-  const json = JSON.stringify(sorted, null, 2);
-  await fs.writeFile(SENT_PATH, json, "utf-8");
-}
 
 async function main() {
   const sent = await loadSent();

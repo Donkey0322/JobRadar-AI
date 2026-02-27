@@ -55,6 +55,16 @@ export default async function callGemini(
     - Return ONLY valid JSON.
     - Do NOT include explanations.
     - Follow the schema exactly.
+    - For the qualifications.
+  
+    Formatting rules for qualifications:
+    - Return each qualification as a short, clean bullet phrase.
+    - Start with a capital letter.
+    - Prefer starting with a verb (e.g., "Develop", "Design", "Build") 
+      or an adjective (e.g., "Strong", "Proficient", "Excellent").
+    - Do not rewrite meaning.
+    - Do not add new information.
+    - Keep each qualification concise (under 20 words).
 
     ---BEGIN JD TEXT---
     ${contextText}
