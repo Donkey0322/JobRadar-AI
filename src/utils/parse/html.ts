@@ -1,6 +1,8 @@
 import * as cheerio from "cheerio";
+
+import type { Job, Source } from "@/types";
+
 import { cleanLink, containsExcludedSymbols, normalizeSeason } from "@/utils/string";
-import type { Source, Job } from "@/types";
 import { SeasonSchema } from "@/validation/season";
 
 function normalizeText(s: string): string {
@@ -8,7 +10,7 @@ function normalizeText(s: string): string {
   const normalized = s.normalize("NFKC").trim();
 
   // remove the prefix symbols (🔥、↳ etc.)
-  return normalized.replace(/^[🔥⭐→↳·•\-–—\s]+/, "").trim();
+  return normalized.replace(/^[🔥⭐→↳·•\-–—\s]+/u, "").trim();
 }
 
 function findSoftwareTable($: cheerio.CheerioAPI) {

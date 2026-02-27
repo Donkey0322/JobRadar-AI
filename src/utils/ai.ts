@@ -82,7 +82,9 @@ export default async function callGemini(
   });
 
   // ---- Token usage & cost ----
-  const usage = (response as any).usageMetadata;
+  const usage = (
+    response as { usageMetadata: { promptTokenCount: number; candidatesTokenCount: number } }
+  ).usageMetadata;
 
   if (usage) {
     const inputTokens = usage.promptTokenCount ?? 0;

@@ -1,4 +1,5 @@
 import { promises as fs } from "fs";
+
 import { SENT_PATH } from "@/constants";
 
 export async function loadSent(): Promise<Set<string>> {
