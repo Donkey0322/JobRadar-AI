@@ -2,33 +2,36 @@ name: Summer2026 Internships Watcher
 
 on:
   schedule:
-    - cron: "*/20 14-23 * * *"  # 每天 09:00–23:00，每 20 分鐘
+    - cron: "*/20 14-23 * * *"
     - cron: "*/20 0-4 * * *"
-  workflow_dispatch: {}      # 允許手動觸發
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # 需要回寫 sent.json
+  contents: write
   actions: read
 
 jobs:
   fetch-and-email:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      # ✅ Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: 20
+          cache: "npm"
 
-      - name: Install deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+      # ✅ Install deps
+      - name: Install dependencies
+        run: npm ci
 
+      # ✅ Run your watcher (TypeScript via tsx)
       - name: Run watcher
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
@@ -36,11 +39,12 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
-          TO_EMAIL:   ${{ secrets.TO_EMAIL }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 內建自動提供，或自行設定 PAT 也可
-        run: |
-          python .github/scripts/check_internships.py
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm start
 
+      # ✅ Commit updated sent.json
       - name: Commit and push sent.json if changed
         if: success()
         run: |

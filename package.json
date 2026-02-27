@@ -1,0 +1,25 @@
+{
+  "name": "internships",
+  "version": "1.0.0",
+  "description": "Mail Publisher for Internships",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dev": "tsx watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.35",
+    "@types/nodemailer": "^7.0.11",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@google/genai": "^1.43.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "nodemailer": "^8.0.1",
+    "zod": "^4.3.6"
+  }
+}
