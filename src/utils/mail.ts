@@ -33,10 +33,6 @@ export async function sendEmail(job: Job) {
   const qualifications = jd?.qualifications ?? [];
   const term = season == "New Grad" ? "New Grad" : `${season} Intern`;
 
-  if (!job.company || !job.role || !job.link) {
-    throw new Error("Missing required fields");
-  }
-
   if (requiresUSA === true) {
     role += " 🇺🇸";
   }

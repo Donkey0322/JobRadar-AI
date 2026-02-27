@@ -1,7 +1,7 @@
 {
-  "name": "internships",
+  "name": "us-jobs",
   "version": "1.0.0",
-  "description": "Mail Publisher for Internships",
+  "description": "Mail Publisher for US Jobs",
   "type": "module",
   "scripts": {
     "start": "tsx src/main.ts",

@@ -9,7 +9,8 @@ export async function getSource(url: string): Promise<string> {
     headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
   });
   if (!resp.ok) {
-    throw new Error(`Failed to fetch text from ${url}`);
+    console.error(`Failed to fetch text from ${url}`);
+    return "";
   }
   const text = await resp.text();
   return text;

@@ -48,7 +48,7 @@ export default async function callGemini(
     1. Whether USA citizenship is required.
     2. Whether the employer offers visa sponsorship.
     3. ALL qualifications (basic and preferred combined).
-    4. The internship term. If the term is not clear, return "unsure". If it is a full-time new grad position, return "New Grad".
+    4. The job term. If the term is not clear, return "unsure". If it is a full-time new grad position, return "New Grad".
 
     Rules:
     - If unclear or missing, return "unsure".
@@ -82,9 +82,7 @@ export default async function callGemini(
   });
 
   // ---- Token usage & cost ----
-  const usage = (
-    response as { usageMetadata: { promptTokenCount: number; candidatesTokenCount: number } }
-  ).usageMetadata;
+  const usage = response.usageMetadata;
 
   if (usage) {
     const inputTokens = usage.promptTokenCount ?? 0;

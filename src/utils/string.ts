@@ -54,8 +54,11 @@ export function cleanLink(link: string): string {
   }
 }
 
-const VALID_SEASONS = new Set(["Winter", "Spring", "Summer", "Fall"]);
+function capitalize(s: string) {
+  return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+}
 
+const VALID_SEASONS = new Set(["Winter", "Spring", "Summer", "Fall"]);
 export function normalizeSeason(input: string): string {
   const cleaned = input.trim();
 
@@ -86,6 +89,11 @@ export function normalizeSeason(input: string): string {
   return input;
 }
 
-function capitalize(s: string) {
-  return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+export function safeFilename(name: string): string {
+  return name
+    .normalize("NFKC")
+    .replace(/[^a-zA-Z0-9._-]/g, "_")
+    .replace(/_+/g, "_")
+    .replace(/\s+/g, " ")
+    .trim();
 }

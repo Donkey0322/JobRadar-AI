@@ -2,7 +2,9 @@ import path from "path";
 
 import type Source from "@/types/source";
 
-export const SENT_PATH = path.join(process.cwd(), "data", "sent.json");
+export const DATA_PATH = path.join(process.cwd(), "data");
+export const SENT_PATH = path.join(DATA_PATH, "sent.json");
+export const JD_PATH = path.join(DATA_PATH, "jd");
 
 export const TARGET_SEASONS = [
   "Summer 2026",

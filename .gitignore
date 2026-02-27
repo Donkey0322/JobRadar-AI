@@ -12,6 +12,3 @@ venv.bak/
 # Node modules
 node_modules/
 package-lock.json
-
-# Data
-data/
