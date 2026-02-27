@@ -1,0 +1,45 @@
+import Source from "@/types/source";
+import path from "path";
+
+export const SENT_PATH = path.join(process.cwd(), "data", "sent.json");
+
+export const TARGET_SEASONS = [
+  "Summer 2026",
+  "Fall 2026",
+  "Spring 2027",
+  "Winter 2027",
+  "off-season",
+] as const;
+
+export const SOURCES: Source[] = [
+  {
+    name: "vansh",
+    url: "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/dev/README.md",
+    format: "markdown",
+    type: "summer",
+  },
+  {
+    name: "vansh-off-season",
+    url: "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/refs/heads/dev/OFFSEASON_README.md",
+    format: "markdown",
+    type: "off-season",
+  },
+  {
+    name: "simplify",
+    url: "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/README.md",
+    format: "html",
+    type: "summer",
+  },
+  {
+    name: "simplify-off-season",
+    url: "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/README-Off-Season.md",
+    format: "html",
+    type: "off-season",
+  },
+  {
+    name: "simplify-new-grad",
+    url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
+    format: "html",
+    type: "new-grad",
+  },
+];
