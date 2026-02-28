@@ -39,10 +39,10 @@ export const SOURCES: Source[] = [
     format: "html",
     type: "off-season",
   },
-  {
-    name: "simplify-new-grad",
-    url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
-    format: "html",
-    type: "new-grad",
-  },
+  // {
+  //   name: "simplify-new-grad",
+  //   url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
+  //   format: "html",
+  //   type: "new-grad",
+  // },
 ];
