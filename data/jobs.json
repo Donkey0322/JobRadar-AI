@@ -9,7 +9,19 @@
       "citizenship": false,
       "sponsorship": false,
       "qualifications": [
-        "Pursue a Bachelor\nThe user wants me to extract information from the job description and format it into a JSON object. I need to ensure the JSON adheres to the provided schema and formatting rules. Specifically, I need to extract: `requires_usa_citizenship`, `offers_visa_sponsorship`, `qualifications` (as an array of strings), and `term`. I also need to make sure the qualification strings are concise, start with a verb/adjective, and are under 20 words. I must not include any extra text outside the JSON. Let's go through each field: </s>"
+        "Pursuing a Bachelor's Degree.",
+        "Understand basic business processes.",
+        "Interested in translating requirements to technical solutions.",
+        "Possess strong problem-solving and analytical skills.",
+        "Demonstrate attention to detail.",
+        "Able to manage multiple tasks simultaneously.",
+        "Exhibit effective communication skills, both written and verbal.",
+        "Work independently and as part of a team.",
+        "Willing to learn and contribute in a dynamic environment.",
+        "Able to work full time on site in Oklahoma City.",
+        "Legally authorized to work in the US without sponsorship.",
+        "Maintain a 3.0 GPA.",
+        "Possess previous related experience."
       ],
       "season": "2026 Summer"
     }
