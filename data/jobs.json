@@ -1,0 +1,17 @@
+[
+  {
+    "company": "CACI",
+    "role": "Automations Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-OK-Oklahoma-City/Automations-Intern---Summer-2026_321976",
+    "location": "Oklahoma City, OK",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Pursue a Bachelor\nThe user wants me to extract information from the job description and format it into a JSON object. I need to ensure the JSON adheres to the provided schema and formatting rules. Specifically, I need to extract: `requires_usa_citizenship`, `offers_visa_sponsorship`, `qualifications` (as an array of strings), and `term`. I also need to make sure the qualification strings are concise, start with a verb/adjective, and are under 20 words. I must not include any extra text outside the JSON. Let's go through each field: </s>"
+      ],
+      "season": "2026 Summer"
+    }
+  }
+]

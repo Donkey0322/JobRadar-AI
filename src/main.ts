@@ -1,21 +1,23 @@
-import dotenv from "dotenv";
+import "dotenv/config";
 
 import type { Job } from "@/types";
 
 import { SOURCES } from "@/constants";
-import { loadSent, saveSent } from "@/utils/data";
+import { loadSent, saveJob, saveSent } from "@/utils/data";
 import analyzeJD from "@/utils/jd";
 import { sendEmail } from "@/utils/mail";
 import parseSource from "@/utils/parse";
 import { getToday } from "@/utils/string";
-dotenv.config();
+
+const args = new Set(process.argv.slice(2));
+const isDev = args.has("--dev");
 
 async function main() {
   const sent = await loadSent();
 
   const newJobs: Job[] = [];
 
-  for (const source of SOURCES) {
+  for (const source of SOURCES.filter((source) => !source.disabled)) {
     console.log(`🔍 Parsing ${source.name}...`);
     const jobs = await parseSource(source);
     newJobs.push(...jobs);
@@ -43,12 +45,19 @@ async function main() {
     return;
   }
 
-  for (const job of toSend) {
-    await sendEmail(job);
+  if (!isDev) {
+    for (const job of toSend) {
+      await sendEmail(job);
+    }
+    await saveSent(sent);
   }
 
-  await saveSent(sent);
+  await saveJob(toSend);
+
   console.log(`🎉 Sent ${toSend.length} new job emails for ${getToday()}`);
 }
 
-main();
+main().catch((err) => {
+  console.error("Fatal error:", err);
+  process.exit(1);
+});

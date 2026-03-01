@@ -5,7 +5,7 @@ import type { Job } from "@/types";
 
 import { safeFilename } from "./string";
 
-import { JD_PATH, SENT_PATH } from "@/constants";
+import { JD_PATH, JOB_PATH, SENT_PATH } from "@/constants";
 
 export async function loadSent(): Promise<Set<string>> {
   try {
@@ -26,4 +26,16 @@ export async function saveSent(sentSet: Set<string>) {
 export async function saveJd(jd: string, job: Job) {
   const filename = `${safeFilename(job.company)}-${safeFilename(job.role)}-${safeFilename(job.location)}.txt`;
   await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
+}
+
+export async function saveJob(jobs: Job[]) {
+  try {
+    const content = await fs.readFile(JOB_PATH, "utf-8");
+    const parsed: Job[] = JSON.parse(content);
+    const reversed = parsed.reverse();
+    reversed.push(...jobs);
+    await fs.writeFile(JOB_PATH, JSON.stringify(reversed.reverse(), null, 2), "utf-8");
+  } catch {
+    await fs.writeFile(JOB_PATH, JSON.stringify(jobs, null, 2), "utf-8");
+  }
 }
