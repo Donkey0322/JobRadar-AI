@@ -4,6 +4,7 @@ import type Source from "@/types/source";
 
 export const DATA_PATH = path.join(process.cwd(), "data");
 export const SENT_PATH = path.join(DATA_PATH, "sent.json");
+export const JOB_PATH = path.join(DATA_PATH, "jobs.json");
 export const JD_PATH = path.join(DATA_PATH, "jd");
 
 export const TARGET_SEASONS = [
@@ -39,10 +40,11 @@ export const SOURCES: Source[] = [
     format: "html",
     type: "off-season",
   },
-  // {
-  //   name: "simplify-new-grad",
-  //   url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
-  //   format: "html",
-  //   type: "new-grad",
-  // },
+  {
+    name: "simplify-new-grad",
+    url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
+    format: "html",
+    type: "new-grad",
+    disabled: true,
+  },
 ];

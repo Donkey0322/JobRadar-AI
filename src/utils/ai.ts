@@ -39,7 +39,8 @@ export default async function callGemini(
   model: string = DEFAULT_MODEL
 ): Promise<string | null> {
   if (!GEMINI_API_KEY) {
-    throw new Error("GEMINI_API_KEY is not set");
+    console.error("GEMINI_API_KEY is not set");
+    return null;
   }
   const prompt = `
     You are a recruiting analyst.
