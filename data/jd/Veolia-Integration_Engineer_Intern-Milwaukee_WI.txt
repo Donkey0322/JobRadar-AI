@@ -1,0 +1,28 @@
+Company Description: About Veolia North AmericaVeolia in North America is the top-ranked environmental company in the United States for three consecutive years, and the country’s largest private water operator and technology provider as well as hazardous waste and pollution treatment leader. It offers a full spectrum of water, waste, and energy management services, including water and wastewater treatment, commercial and hazardous waste collection and disposal, energy consulting and resource recovery. Veolia helps commercial, industrial, healthcare, higher education and municipality customers throughout North America. Headquartered in Boston, Veolia has more than 10,000 employees working at more than 350 locations across North America.
+Job Description: Position Purpose:Student Exploration and Experience Development (SEED) is a 12-week internship opportunity at Veolia for students to gain hands-on experience in sustainability and ecological transformation. They will work on real-world projects, receive mentorship from industry professionals, and participate in workshops and networking events. The program aims to nurture talent, promote innovation, and foster meaningful connections between students and industry professionals. Overall, the&nbsp;SEED&nbsp;program provides students with the skills, knowledge, and connections needed to make a positive impact in the industry.An Integration Developer Intern helps connect software systems by coding, testing, and debugging APIs and workflows, focusing on seamless data exchange, often using Muleosft, Python, Java, or shell scripting while learning industry best practices, documenting processes, and supporting existing integrations to ensure reliability and scalability for real-world projects.What You'll Gain:* Hands-on experience in the full Software Development Lifecycle (SDLC).
+* Mentorship from experienced developers.
+* Exposure to enterprise-level systems and project management.
+* The chance to see your work directly impact users and business operations.
+Primary Duties/Responsibilities:* Develop &amp; Code: Write, test, and debug code to build new integrations and enhance existing ones.
+* Connect Systems: Work with APIs and platforms (like Mulesoft, AWS) to link different applications and data sources.
+* Automate: Create scripts for data transfers, transformations, and validation.
+* Test &amp; Troubleshoot: Perform quality assurance, fix bugs, and resolve integration issues.
+* Document: Create and maintain technical specs, data mappings, and support guides.
+* Collaborate: Work with senior developers, analysts, and project managers on solutions.
+* Learn: Research new technologies, participate in code reviews, and stay updated on trends.
+Qualifications: Education/Experience/Background:* Education: Actively pursuing a degree in Computer Science, Software Engineering, or a related field.
+* Programming: Proficiency in languages like Python, Java, or JavaScript, with familiarity with SQL and potentially cloud platforms (AWS).
+* Tools: Exposure to integration tools, APIs, and potentially cloud products (AWS) is a plus.
+* Soft Skills: Strong problem-solving, analytical, communication, and teamwork skills.
+Knowledge/Skills/Abilities:* Understand following protocols - HTTP, HTTPS, JDBC, JMS, REST, and SOAP.
+* Understanding of various data formats, including json, xml, csv, and yaml.
+* Understanding of designing and developing SOAP and REST-based web service interfaces using XML, JSON.
+* Understanding of CI/CD pipelines and source control management.
+* Extensive design experience for real time, near real time, pub/sub, a/synch, messaging/event, batch and APIs integrations.
+* Experience with SQL and relational database.
+Required Certification/Licenses/Training:* Always appreciated but not required.
+* Any participation into programming club or competition is always a plus.
+Physical Requirements:* 3 days a week at the office in Milwaukee.
+* No travel expected.
+* Some early hours meetings may be expected on an exception basis.
+Additional Information: Pay Range:&nbsp; $20.00 to $25.00 Per Hour.Benefits: Interns are considered temporary employees. Medical and basic life insurance coverage is available to temporary employees scheduled to work 20 or more hours per week immediately following 60 days of service. Employees must elect or waive medical coverage within 45 days of their eligibility date.Veolia observes 11 holidays.We are an Equal Opportunity Employer! All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.Disclaimer: The salary, other compensation, and benefits information is accurate as of the date of this posting. The Company reserves the right to modify this information at any time, subject to applicable law.

@@ -1,5 +1,162 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern - Strategic Systems",
+    "link": "https://careers-gdms.icims.com/jobs/71212/job?mobile=true&needsRedirect=false",
+    "location": "Dedham, MA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "qualifications": [
+        "Obtain a Bachelor's degree in Software Engineering or a related STEM field.",
+        "Ability to obtain a Department of Defense Secret security clearance.",
+        "Experience with object-oriented development.",
+        "Experience with Agile methodology.",
+        "Familiarity with SAST tools.",
+        "Experience with GitLab.",
+        "Proficient in Python and Bash.",
+        "Understand software engineering concepts, principles, theories, and processes.",
+        "Experience with Atlassian tools.",
+        "Ability to grasp and apply new information quickly.",
+        "Exhibit strong teamwork and collaborative skills.",
+        "Committed to ongoing professional development."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Larian Studios",
+    "role": "Scripting Intern",
+    "link": "https://jobs.lever.co/larian/05191579-a3e5-4e2d-9ad2-b9b790d60a89/apply",
+    "location": "Quebec City, QC, Canada",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Dev Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29343",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "jd": null
+  },
+  {
+    "company": "NewYork-Presbyterian",
+    "role": "Graduate Web Development Intern",
+    "link": "https://nyp.wd1.myworkdayjobs.com/nypcareers/job/NYPWeill-Cornell-Medical-Center/Summer-2026-Undergraduate-Web-Development-Internship_00878098",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Assist in developing web applications using React, Django, and Python.",
+        "Collaborate with developers on features, troubleshooting, and code reviews.",
+        "Create and organize technical documentation like Epics, Features, User Stories.",
+        "Support testing, quality assurance, and iterative improvements.",
+        "Contribute to team meetings, sprint planning, and Agile workflows.",
+        "Pursue a graduate degree in Computer Science, Information Systems, or Software Engineering.",
+        "Be enrolled in a graduate program with 1 year completed.",
+        "Possess foundational experience with React, Python, or Django.",
+        "Strong problem-solving ability and willingness to learn new technologies.",
+        "Excellent written and verbal communication skills.",
+        "Ability to work collaboratively in a team environment.",
+        "Ability to work independently.",
+        "Good organizational and interpersonal skills.",
+        "Strong analytical skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veolia",
+    "role": "Integration Engineer Intern",
+    "link": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112264792",
+    "location": "Milwaukee, WI",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Actively pursuing a degree in Computer Science, Software Engineering, or a related field.",
+        "Proficient in Python, Java, or JavaScript.",
+        "Familiar with SQL and cloud platforms like AWS.",
+        "Familiar with integration tools, APIs, and cloud products (AWS is a plus).",
+        "Possess strong problem-solving, analytical, communication, and teamwork skills.",
+        "Understand HTTP, HTTPS, JDBC, JMS, REST, and SOAP protocols.",
+        "Understand JSON, XML, CSV, and YAML data formats.",
+        "Understand designing SOAP and REST-based web service interfaces.",
+        "Understand CI/CD pipelines and source control management.",
+        "Extensive design experience for real-time, near real-time, pub/sub, or API integrations.",
+        "Experienced with SQL and relational databases.",
+        "Participation in programming clubs or competitions is a plus."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Schweitzer Engineering Laboratories",
+    "role": "Software Engineer Intern",
+    "link": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-19777-1",
+    "location": "Moscow, ID",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Be a current sophomore or junior student pursuing a degree in Computer Science, MIS, or equivalent with at least one year of technical coursework.",
+        "Ability to work part-time during the school year and full-time during the summer.",
+        "Have programming experience in C#, Java, or equivalent Object-Oriented language.",
+        "Possess practical knowledge of networking, IP addressing, and TCP sockets.",
+        "Exhibit strong writing, documentation, and speaking skills.",
+        "Able to learn new skills and assume new responsibilities.",
+        "Work cooperatively in a team environment.",
+        "Satisfy background check requirements.",
+        "Provide negative drug test results.",
+        "Experience or interest in C#, JavaScript, Typescript, and React.",
+        "Experience or interest in Linux, Postgres, Redis, and Message Brokering.",
+        "Experience or interest in Git, Docker, Kubernetes, Rancher, and Azure."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Samsung",
+    "role": "Software Development Internship - Agentic AI tools",
+    "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6555-Excellence-Way-Plano-TX-USA/Software-Development-Internship--Agentic-AI-tools-_R114687",
+    "location": "Plano, TX",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Pursue a Bachelor's Degree.",
+        "Study Computer Science, Data Engineering, Business Analytics, or related fields.",
+        "Be a rising Senior or recent Graduate.",
+        "Proficient in Python, React, Django, FastAPI, SQL/NoSQL databases, Unix OS, and Bash scripting.",
+        "Experience building Agentic AI solutions.",
+        "Possess strong communication and leadership abilities.",
+        "Exhibit effective multitasking skills.",
+        "Demonstrate onsite collaboration experience."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Wing",
+    "role": "Backend Software Engineering Intern",
+    "link": "https://wing.com/careers/8444972002?gh_jid=8444972002",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "jd": null
+  },
+  {
     "company": "Elsevier",
     "role": "Simulation Software Engineer Intern",
     "link": "https://relx.wd3.myworkdayjobs.com/ElsevierJobs/job/Pennsylvania/Simulation-Software-Engineer-Intern_R110008",
