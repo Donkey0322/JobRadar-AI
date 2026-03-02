@@ -1,5 +1,53 @@
 [
   {
+    "company": "Serval",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Pursue a degree in Computer Science, Engineering, or a related technical field.",
+        "Possess strong fundamentals in computer science.",
+        "Be familiar with at least one backend programming language (Go, Java, Python, or similar).",
+        "Have clear communication skills and the ability to learn quickly.",
+        "Be excited about startups, ownership, and building products.",
+        "Gain exposure to modern backend or cloud technologies.",
+        "Possess experience with Go, gRPC, Kubernetes, React, TypeScript, AWS, or Terraform.",
+        "Have previous internship or project experience at a startup or fast-paced team."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "MFS",
+    "role": "Software Engineer Intern",
+    "link": "https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Software-Engineering-Intern_MFS-231622",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Pursue a Bachelor's degree in computer science or engineering.",
+        "Demonstrate experience in Java, Python, or C#.",
+        "Possess exposure to relational database technology.",
+        "Have API knowledge.",
+        "Gain some SQL experience.",
+        "Ability to take initiative and utilize resources effectively.",
+        "Communicate effectively.",
+        "Strong written communication skills.",
+        "Ability to manage multiple projects simultaneously.",
+        "Possess proven analytical skills.",
+        "Demonstrate ability to develop creative solutions to business needs.",
+        "Experience working in a team, on projects, or in a support role."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "CACI",
     "role": "Automations Intern - Summer 2026",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-OK-Oklahoma-City/Automations-Intern---Summer-2026_321976",
