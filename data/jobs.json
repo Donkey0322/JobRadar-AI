@@ -1,5 +1,97 @@
 [
   {
+    "company": "MAXISIQ",
+    "role": "Software Engineer Intern - Spring - Summer",
+    "link": "https://jobs.smartrecruiters.com/IOMAXISLLC/3743990011915576",
+    "location": "Arlington, VA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Enrolled in Bachelor\b's or Master\b's in CS, CE, SE, or related field",
+        "Possess entry-level experience in C, C++, C#, Python, Java, or Rust",
+        "Possess entry-level experience with Linux/UNIX operating systems",
+        "Demonstrate software development skills",
+        "Able to read and review other developer\b's code",
+        "Skilled in clear written and oral communication",
+        "Understand basic agile software development processes",
+        "Understand basic computer networking concepts (e.g., TCP/IP, UDP)",
+        "Experience with Test-driven development (TDD)",
+        "Experience with system automation"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Custom Applications Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71147/job?mobile=true&needsRedirect=false",
+    "location": "4 locationsScottsdale, AZChantilly, VADedham, MABloomington, MN",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "qualifications": [
+        "Demonstrate a thorough understanding of cybersecurity principles.",
+        "Enrolled in an accredited degree program, preferably in Computer Science, Information Systems, or Computer Engineering.",
+        "Making progress toward a BS/BA in Computer Science, Information Systems, Computer Engineering, or a related field.",
+        "Possess C# and Python programming knowledge and ability.",
+        "Complete coursework or projects in C#/.NET, Python, JavaScript/TypeScript, React, REST, or Angular.",
+        "Have exposure or experience with AI/ML concepts.",
+        "Strong written and visual documentation skills.",
+        "Assist with risk assessments for cloud and on-prem applications and services.",
+        "Help manage an AI-driven Risk Assistant (HITL/HOTL).",
+        "Assist with AI Integration projects into GRC processes.",
+        "Update and track entries in the enterprise Risk Register.",
+        "Support audit readiness and evidence collection, including control documentation.",
+        "Contribute to continuous monitoring and vulnerability oversight using tools.",
+        "Help with enclave and cloud security posture (Azure/AWS).",
+        "Document processes and variances for IT Cyber Security policy consistency.",
+        "Exposed to low-code/no-code platforms (e.g., Appian, ServiceNow) for rapid application development.",
+        "Experienced with a major cloud computing platform (e.g., Microsoft Azure, AWS, Google Cloud).",
+        "Familiar with containerization technologies (e.g., Docker) and CI/CD principles.",
+        "Knowledgeable of relational (SQL) and non-relational (NoSQL) database systems.",
+        "Understand modern front-end design, including UI/UX principles, web accessibility, and component-based design systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Custom Applications Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71145/job?mobile=true&needsRedirect=false",
+    "location": "4 locationsScottsdale, AZChantilly, VADedham, MABloomington, MN",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Demonstrate a thorough understanding of cybersecurity principles.",
+        "Enrolled in an accredited degree program, preferably in Computer Science, Information Systems, or Computer Engineering.",
+        "Progress toward a BS/BA in Computer Science, Information Systems, Computer Engineering, or related field.",
+        "Proficient in C# and Python programming.",
+        "Experience with C#/.NET, Python, JavaScript/TypeScript, React, REST, or Angular through coursework or projects.",
+        "Exposure to AI/ML concepts.",
+        "Strong written and visual documentation skills.",
+        "Assist with risk assessments for cloud and on-prem applications and services.",
+        "Help manage an AI-driven Risk Assistant.",
+        "Assist with AI integration projects into GRC processes.",
+        "Update and track entries in the enterprise Risk Register.",
+        "Support audit readiness and evidence collection for CMMC and privacy controls.",
+        "Contribute to continuous monitoring and vulnerability oversight.",
+        "Help with enclave and cloud security posture (Azure/AWS).",
+        "Document processes and variances for IT Cyber Security policy.",
+        "Exposure to low-code/no-code platforms (e.g., Appian, ServiceNow).",
+        "Experience with major cloud computing platforms (e.g., Azure, AWS, Google Cloud).",
+        "Familiarity with containerization technologies (e.g., Docker) and CI/CD principles.",
+        "Knowledge of relational (SQL) and non-relational (NoSQL) database systems.",
+        "Understand modern front-end design, including UI/UX principles, web accessibility, and component-based design."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Serval",
     "role": "Software Engineer Intern",
     "link": "https://jobs.ashbyhq.com/Serval/d7fb089c-db8a-4877-a5f3-73a09e67f54b/application",
