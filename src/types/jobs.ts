@@ -8,6 +8,7 @@ export interface JD {
 }
 
 export interface Job {
+  id?: number;
   company: string;
   role: string;
   link: string;

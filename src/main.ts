@@ -14,6 +14,7 @@ const isDev = args.has("--dev");
 
 async function main() {
   const sent = await loadSent();
+  let currentId = sent.size;
 
   const newJobs: Job[] = [];
 
@@ -29,6 +30,9 @@ async function main() {
     if (sent.has(key)) {
       continue;
     }
+
+    currentId += 1;
+    job.id = currentId;
 
     const jd = await analyzeJD(job);
     job.jd = jd;
