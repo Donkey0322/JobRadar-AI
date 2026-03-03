@@ -56,7 +56,7 @@ export default async function callGemini(
     - Return ONLY valid JSON.
     - Do NOT include explanations.
     - Follow the schema exactly.
-    - For the qualifications.
+    - For the qualifications:
   
     Formatting rules for qualifications:
     - Return each qualification as a short, clean bullet phrase.

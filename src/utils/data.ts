@@ -3,8 +3,6 @@ import path from "path";
 
 import type { Job } from "@/types";
 
-import { safeFilename } from "./string";
-
 import { JD_PATH, JOB_PATH, SENT_PATH } from "@/constants";
 
 export async function loadSent(): Promise<Set<string>> {
@@ -20,12 +18,24 @@ export async function loadSent(): Promise<Set<string>> {
 export async function saveSent(sentSet: Set<string>) {
   const sorted = Array.from(sentSet).sort();
   const json = JSON.stringify(sorted, null, 2);
-  await fs.writeFile(SENT_PATH, json, "utf-8");
+  try {
+    await fs.writeFile(SENT_PATH, json, "utf-8");
+  } catch (error) {
+    console.error(`Error saving sent: ${error}`);
+  }
 }
 
 export async function saveJd(jd: string, job: Job) {
-  const filename = `${safeFilename(job.company)}-${safeFilename(job.role)}-${safeFilename(job.location)}.txt`;
-  await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
+  if (!job.id) {
+    console.error("Job ID is required");
+    return;
+  }
+  try {
+    const filename = `${job.id}.txt`;
+    await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
+  } catch (error) {
+    console.error(`Error saving JD for job ${job.id}: ${error}`);
+  }
 }
 
 export async function saveJob(jobs: Job[]) {
