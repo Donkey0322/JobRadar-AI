@@ -1,0 +1,25 @@
+About Starburst
+Starburst is the data platform for analytics, applications, and AI, unifying data across clouds and on-premises to accelerate AI innovation. Organizations—from startups to Fortune 500 enterprises in 60+ countries—rely on Starburst for fast data access, seamless collaboration, and enterprise-grade governance on an open hybrid data lakehouse. Wherever data lives, Starburst unlocks its full potential, powering data and AI from development to deployment. By future-proofing data architecture, Starburst helps businesses fuel innovation with AI.About the role
+Starburst's streamlined, easy-to-use, delightful user interfaces and workflows are key value drivers. As an engineering intern on Starburst Galaxy or Enterprise, you’ll work alongside full-time engineers and share ownership of building the user experience. You’ll work closely with UX, and product management to design and build the components to implement new features our customers will love. We will strive to align these components with your chosen field of study. Daily tasks include developing and supporting new and existing product features, working with fellow engineers worldwide, learning new technologies, designing complex systems, and collaborating with various stakeholders across the organization.
+This paid internship will span 10 weeks in Summer 2026 from June 1st, - August 28th.
+As part of our internship program, certain events may require in-person attendance at our Boston Headquarters.
+As a Software Engineering Intern at Starburst you will:
+Design and develop components for Starburst products, including a comprehensive, fully-featured web-based user interface
+Participate in projects from concept to completion
+Continuously improve our engineering processes, tests, and systems that allow us to scale the code base and productivity of the team
+Collaborate with teams globally and operate in a fast-paced environment
+Provide exceptional customer support for both internal and external customers
+Some of the things we look for:
+Passion for Software Engineering (backend systems preferred)
+Rising Senior or recent graduate
+Experience developing software in Java
+Prior experience building SaaS (especially for our SaaS product, Galaxy)
+Demonstration of ownership, grit, and bias for action - core values at Starburst
+Experience contributing to open-source software is a plus
+Where could this role be based?
+Boston, MA with the flexibility to be hybrid.
+Starburst is dedicated to maintaining fair and equitable compensation practices. The salary range provided for this role reflects the minimum and maximum targets for candidates across all U.S. locations and could be inclusive of variable compensation, such as commission or bonus. All employees receive equity packages (ISOs) and have access to a comprehensive benefits offering. Actual compensation packages are determined based on relevant skills, experience, education and training, and specific work location. For more information, connect with the recruiting team or Hiring Manager during the process as they can provide more detailed information about the salary range. Pay Range$25 - $40 USDBuild your career at Starburst
+All-Stars have the opportunity and freedom to realize their true potential. By building alongside top talent, we’re empowered to take ownership of our careers and drive meaningful change. Anchored in industry-proven technology and unprecedented success, All-Stars are taking on the challenge everyday to disrupt our industry – and the future.
+Our global workforce is supported by a competitive Total Rewards program that reflects our commitment to a rewarding and supportive work environment. This includes a variety of benefits like competitive pay, attractive stock grants, flexible paid time off, and more.
+We are committed to fostering an intentional, inclusive, and diverse culture that drives deep engagement, authentic belonging, and an exceptional All-Star experience. We believe that diversity of thought, perspective, background and experience will enable us to own what we do, drive our success and empower our All-Stars to show up authentically.
+Starburst provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
