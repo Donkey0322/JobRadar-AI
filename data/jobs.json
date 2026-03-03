@@ -1,5 +1,106 @@
 [
   {
+    "company": "Phia",
+    "role": "Full Stack Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/phia/71c26b8b-86cd-446d-a63f-8cd8c2a3f162/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3497,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Pursue a degree in Computer Science or related technical field.",
+        "Possess practical experience building web applications.",
+        "Proficient in JavaScript, frontend, and backend frameworks.",
+        "Understand APIs, databases, and web application architecture.",
+        "Familiar with Git, testing practices, and modern development workflows.",
+        "Strong problem-solving skills and curiosity.",
+        "Ability to learn quickly in a fast-paced environment.",
+        "Clear communicator who enjoys collaborating.",
+        "Take ownership of your work."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Frazer-Nash Consultancy",
+    "role": "Software Engineer Apprenticeship",
+    "link": "https://kbr.wd5.myworkdayjobs.com/Frazer_Nash_Careers/job/Rutland-England/Software-Engineer-Apprenticeship_R2118757",
+    "location": "Derby, UK",
+    "season": "2026 Summer",
+    "id": 3496,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Possess a basic understanding of software development principles.",
+        "Demonstrate a strong desire to learn and develop a career in software engineering.",
+        "Hold Level 2 Maths and English (GCSE, Functional Skills or equivalent).",
+        "Provide evidence of working at Level 2 in Maths and English, confirmed by initial assessments by the University of Staffordshire.",
+        "Have a Level 3 qualification or above equivalent to 112 UCAS Tariff points.",
+        "Be able to satisfy clearance criteria for UK National Security Vetting."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Boeing Company",
+    "role": "Millennium Space Systems Intern Program - Ground Software Engineering",
+    "link": "https://boeing.wd1.myworkdayjobs.com/INTERN/job/USA---El-Segundo-CA/Millennium-Space-Systems-Summer-2026-Internship-Program---Ground-Software-Engineering_JR2026498959",
+    "location": "Chantilly, VAEl Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3495,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Write scripts and backend software applications in Python.",
+        "Build RESTful web services using Python webserver frameworks.",
+        "Develop backend interacting with relational, time-series, and document databases.",
+        "Build interactive UIs using Javascript frameworks.",
+        "Familiar with GitLab CI/CD and Infrastructure as Code practices.",
+        "Familiar with containerization and orchestration using Docker, Podman, and Kubernetes.",
+        "Communicate technical details verbally and in writing.",
+        "Maintain strong academic performance (preferred GPA of 3.0 or above).",
+        "Demonstrate exceptional organizational and collaboration skills.",
+        "Possess strong technical experiences through projects, research, or internships.",
+        "Exhibit exceptional communication skills and enthusiasm for engineering and aerospace.",
+        "Be a Junior or Senior class standing."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Boeing Company",
+    "role": "Millennium Space Systems Intern Program - Ground Software Engineering",
+    "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Millennium-Space-Systems-Summer-2026-Internship-Program---Ground-Software-Engineering_JR2026498959-1",
+    "location": "Chantilly, VAEl Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3494,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Write scripts and backend software applications in Python.",
+        "Use Python webserver frameworks (Twisted, Flask, FastAPI).",
+        "Build RESTful web services with message broker architectures.",
+        "Develop backend systems interacting with relational, time-series, and document databases.",
+        "Build interactive UIs using Javascript frameworks.",
+        "Possess familiarity with GitLab CI/CD and Infrastructure as Code practices.",
+        "Understand containerization and container orchestration practices.",
+        "Communicate technical details verbally and in writing effectively.",
+        "Maintain strong academic performance (GPA 3.0+ preferred).",
+        "Demonstrate exceptional organizational and collaboration skills.",
+        "Show strong technical experience through projects, research, or internships.",
+        "Possess exceptional communication skills.",
+        "Have interest and enthusiasm for engineering, aerospace, and a career with Boeing.",
+        "Be a Junior or Senior class standing student."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Proofpoint",
     "role": "Software Engineer Intern",
     "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Oregon/Software-Engineer-Intern_R13822",
