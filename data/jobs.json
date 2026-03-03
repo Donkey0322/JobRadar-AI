@@ -1,5 +1,35 @@
 [
   {
+    "company": "General Motors",
+    "role": "Intern 🎓",
+    "link": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Summer-Intern---Research-and-Development--Connected-Vehicle-System_JR-202604606",
+    "location": "Warren, MI",
+    "season": "2026 Summer",
+    "id": 3498,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Required Master’s degree.",
+        "Preferred Ph.D. degree and strong publication record.",
+        "Possess background in mobile networks and wireless communications.",
+        "Possess background in Cloud/Edge computing and 4G/5G standards.",
+        "Knowledgeable in end-to-end system design and optimization.",
+        "Knowledgeable in protocols for handling heavy data delivery.",
+        "Experience working with data-intensive applications, such as video streaming.",
+        "Experience using tools for video data like Gstreamer and ffmpeg.",
+        "Proficient in software engineering skills: C++, C#, Java/Kotlin, Python.",
+        "Understand multithreading programming and real-time system development.",
+        "Strong in data-driven analytics.",
+        "Highly motivated to conduct quality work.",
+        "Independent in thinking.",
+        "Able to actively communicate with team members.",
+        "Excellent communication skills in writing and verbally."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Phia",
     "role": "Full Stack Engineer Intern",
     "link": "https://jobs.ashbyhq.com/phia/71c26b8b-86cd-446d-a63f-8cd8c2a3f162/application",
