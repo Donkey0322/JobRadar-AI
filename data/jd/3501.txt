@@ -1,0 +1,205 @@
+{
+"@context": "http://schema.org/",
+"@type": "JobPosting",
+"title": "Full Stack Developer Intern",
+"description": "&lt;p&gt;&lt;span&gt;Noda is a data and analytics company for the commercial built environment. We reimagine how modern buildings operate — because a better world needs better buildings. Better buildings are more efficient, more sustainable, and more resilient. They are intelligent, autonomous ecosystems that anticipate and adapt, seamlessly.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;With commercial building operations accounting for nearly 30% of global emissions, we’re on a mission to turn buildings into a force for positive change, powering a more efficient, more sustainable world. We do this with smart software, careful use of modern artificial intelligence, sophisticated data models, and custom interfaces to building systems – and a lot of in-depth knowledge about how commercial buildings actually run.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;We’re a young, nimble company where we very much value creative thinking, a love of team work, and a determination to solve the problem, whatever it is. Priorities can shift fast, so adaptability and flexibility come with the territory. The consequence is that you’ll have a chance to make a real impact, backed by a supportive team.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Please note: This role is only open to current co-op students who are actively enrolled in a recognized Canadian post-secondary co-op program. Recent graduates or non-co-op applicants will not be considered&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Noda is looking for a Full Stack Developer to join our software development team in Ottawa, Canada. You will join a close-knit team of developers using technologies such as JavaScript, React, Node.js, MongoDB, and AWS. You will work within a microservices architecture and participate in automated and continuous delivery practices.&lt;br&gt;&lt;br&gt;The ideal candidate for this position currently enrolled in a Computer Science, Software Engineering, or equivalent program and has a passion for creating cloud-based software in a team environments&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The position will be based out of our Ottawa office, with flexibility to work in a hybrid arrangement.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;In this role, you will:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Design, develop and maintain cloud-based software throughout its entire lifecycle.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Collaborate with the team to drive continuous improvement in our software development practices and product quality.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Interact with our product managers and customers to understand and break down business requirements.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Ensure strong commitment to on-time and quality delivery through an Agile process.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Develop with an automated testing mentality in a CI/CD environment.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;What you will need&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Computer Science, Software Engineering, or equivalent degree.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Excellent communication skills and a strong collaborator.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Experience working in a team environment.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Passion for learning about new technology and building user interfaces.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Demonstrable experience with modern development practices, principles and patterns, including TDD, CI/CD, etc.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Proficient working with AI tooling such as Cursor, Codex, or Claude Code during the development process.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Knowledge of cloud service providers (AWS, Google Cloud) is a plus.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;What will make you stand out&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;JavaScript, Typescript, React, Node.js, Python, Java.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;MongoDB, PostgreSQL, Snowflake, Redis.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;GraphQL, REST, MQTT and other API-related technologies.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;LangChain, LangGraph, MCP, RAG, Vector Stores&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Pub-Sub technologies such as Kafka.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Docker, Kubernetes, AWS&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;MacOS – all developers are issued an Apple MacBook Pro for development.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Why we think you’ll love it here&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Purpose &amp;amp; Impact: Play a part in making buildings more sustainable, directly influencing our planet’s future.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Career Growth: Work under the guidance of our Senior Director of Product Engineering with opportunities to expand your skill set and assume greater responsibility.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Flexibility: We offer a hybrid-friendly environment, combining remote flexibility with in-person collaboration in our Ottawa office.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Competitive Compensation: You’ll receive a compelling salary, healthcare and dental benefits, a retirement savings plan, plus equity participation.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Collaborative Culture: Join an inclusive, innovative team that values curiosity, problem-solving, and continuous learning.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Personal Development: Take advantage of paid personal development days to explore new technologies or deepen your expertise.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Compensation for this co-op role is between $23–$27 CAD per hour, depending on experience and qualifications.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This opportunity is open to students enrolled in a recognized Canadian co-op/internship program and is intended to fulfill a formal co-op placement as part of your academic studies. The position is based in &lt;strong&gt;Ottawa, Canada.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;At Noda, we value diverse perspectives and believe great ideas come from people of all backgrounds. If you&#39;re excited about this role but don’t meet every requirement, we encourage you to apply—we’d love to hear from you!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;And finally: we&#39;ll do everything we can to support you during your application. If you need us to make any adjustments to your recruitment process, please do speak to our recruitment team, who will be happy to support you.&lt;/span&gt;&lt;/p&gt;",
+"identifier": {
+"@type": "PropertyValue",
+"name": "Noda",
+"value": "7325506"
+},
+"datePosted": "2026-03-03T12:46:28-05:00",
+"employmentType": "FULL_TIME",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "Noda",
+"logo": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/588b4ff5-4c37-469b-9116-949cc217b6f3/original.png",
+"sameAs": "https://noda-1720000970.teamtailor.com"
+},
+"jobLocation": [{"@type":"Place","address":{"streetAddress":"7 Bayview Station Rd","addressLocality":"Ottawa","postalCode":"K1Y 2C5","addressCountry":"CA","addressRegion":"Canada","@type":"PostalAddress"}}]
+}
+Full Stack Developer Intern - Noda
+:root {
+--company-primary-bg-color: 255, 255, 255;
+--company-secondary-bg-color: 75, 86, 250;
+--company-secondary-bg-light-5-color: 100, 109, 251;
+--company-secondary-bg-fallback-color: 75, 86, 250;
+--company-primary-text-color: 37, 37, 37;
+--company-primary-text-dark-5-color: 24, 24, 24;
+--company-primary-text-dark-10-color: 11, 11, 11;
+--company-primary-text-light-50-color: 164, 164, 164;
+--company-primary-text-light-77-color: 233, 233, 233;
+--company-secondary-text-color: 255, 255, 255;
+--company-secondary-text-light-5-color: 255, 255, 255;
+--company-secondary-text-light-15-color: 255, 255, 255;
+--company-link-color: 75, 86, 250;
+--company-link-color-on-white: 25, 39, 249;
+--company-color: 75, 86, 250;
+--company-button-text-color: 255, 255, 255;
+--company-button-bg-color: 255, 133, 46;
+--company-button-bg-light-5-color: 255, 148, 71;
+--company-button-bg-light-15-color: 255, 178, 122;
+--company-border-radius: 40px;
+--company-header-font-family: "Raleway";
+--company-header-font-weight: 600;
+--company-body-font-family: "Raleway";
+--company-body-font-weight: 400;
+}
+@font-face {
+font-family: "Raleway";
+src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Raleway-latin-basic-ebabb62b2dcad5077f42ba99ee4512090697283e480976a3e7705750057b63d3.woff2") format("woff2");
+unicode-range: U+0020-007F,U+2000-206F;
+}
+@font-face {
+font-family: "Raleway";
+src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Raleway-latin-supplement-41dc677c72324894b72af5e67650e40995a2dc7a3222dc922585e6f9e80feacb.woff2") format("woff2");
+unicode-range: U+00A0-00FF;
+}
+@font-face {
+font-family: "Raleway";
+src: url("https://assets-aws.teamtailor-cdn.com/assets/careersite/Raleway-other-a0c40c37143ace21b3329d52a61f48917ef33a15b4e5760911c06546962f449b.woff2") format("woff2");
+unicode-range: U+0100-1FFF,U+2070-E007F;
+}
+This website uses cookies to ensure you get the best experience.
+Noda and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it.
+If you consent to it, we will also use cookies for analytics purposes.
+See our Cookie Policy to read more about the cookies we set.
+You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.
+Accept all cookies
+Decline all non-necessary cookies
+Cookie preferences
+Select which cookies you accept
+On this site, we always set cookies that are strictly necessary, meaning they are necessary for the site to function properly.
+If you consent to it, we will also set other types of cookies. You can provide or withdraw your consent to the different types of cookies using the toggles below. You can change or withdraw your consent at any time, by clicking the link “Manage Cookies”, that is always available at the bottom of the site.
+To learn more about what the different types of cookies do, how your data is used when they are set etc, see our Cookie Policy.
+Strictly necessary
+These cookies are necessary to make the site work properly, and are always set when you visit the site.
+Vendors
+Teamtailor
+Analytics
+These cookies collect information to help us understand how the site is being used.
+Vendors
+Teamtailor
+Accept these cookies
+Decline all non-necessary cookies
+Skip to main content
+{
+"@context": "http://schema.org/",
+"@type": "JobPosting",
+"title": "Full Stack Developer Intern",
+"description": "&lt;p&gt;&lt;span&gt;Noda is a data and analytics company for the commercial built environment. We reimagine how modern buildings operate — because a better world needs better buildings. Better buildings are more efficient, more sustainable, and more resilient. They are intelligent, autonomous ecosystems that anticipate and adapt, seamlessly.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;With commercial building operations accounting for nearly 30% of global emissions, we’re on a mission to turn buildings into a force for positive change, powering a more efficient, more sustainable world. We do this with smart software, careful use of modern artificial intelligence, sophisticated data models, and custom interfaces to building systems – and a lot of in-depth knowledge about how commercial buildings actually run.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;We’re a young, nimble company where we very much value creative thinking, a love of team work, and a determination to solve the problem, whatever it is. Priorities can shift fast, so adaptability and flexibility come with the territory. The consequence is that you’ll have a chance to make a real impact, backed by a supportive team.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Please note: This role is only open to current co-op students who are actively enrolled in a recognized Canadian post-secondary co-op program. Recent graduates or non-co-op applicants will not be considered&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;&lt;br&gt;About the Role&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Noda is looking for a Full Stack Developer to join our software development team in Ottawa, Canada. You will join a close-knit team of developers using technologies such as JavaScript, React, Node.js, MongoDB, and AWS. You will work within a microservices architecture and participate in automated and continuous delivery practices.&lt;br&gt;&lt;br&gt;The ideal candidate for this position currently enrolled in a Computer Science, Software Engineering, or equivalent program and has a passion for creating cloud-based software in a team environments&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The position will be based out of our Ottawa office, with flexibility to work in a hybrid arrangement.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;In this role, you will:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Design, develop and maintain cloud-based software throughout its entire lifecycle.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Collaborate with the team to drive continuous improvement in our software development practices and product quality.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Interact with our product managers and customers to understand and break down business requirements.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Ensure strong commitment to on-time and quality delivery through an Agile process.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Develop with an automated testing mentality in a CI/CD environment.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;What you will need&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Computer Science, Software Engineering, or equivalent degree.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Excellent communication skills and a strong collaborator.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Experience working in a team environment.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Passion for learning about new technology and building user interfaces.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Demonstrable experience with modern development practices, principles and patterns, including TDD, CI/CD, etc.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Proficient working with AI tooling such as Cursor, Codex, or Claude Code during the development process.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Knowledge of cloud service providers (AWS, Google Cloud) is a plus.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;What will make you stand out&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;JavaScript, Typescript, React, Node.js, Python, Java.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;MongoDB, PostgreSQL, Snowflake, Redis.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;GraphQL, REST, MQTT and other API-related technologies.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;LangChain, LangGraph, MCP, RAG, Vector Stores&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Pub-Sub technologies such as Kafka.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Docker, Kubernetes, AWS&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;MacOS – all developers are issued an Apple MacBook Pro for development.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Why we think you’ll love it here&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Purpose &amp;amp; Impact: Play a part in making buildings more sustainable, directly influencing our planet’s future.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Career Growth: Work under the guidance of our Senior Director of Product Engineering with opportunities to expand your skill set and assume greater responsibility.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Flexibility: We offer a hybrid-friendly environment, combining remote flexibility with in-person collaboration in our Ottawa office.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Competitive Compensation: You’ll receive a compelling salary, healthcare and dental benefits, a retirement savings plan, plus equity participation.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Collaborative Culture: Join an inclusive, innovative team that values curiosity, problem-solving, and continuous learning.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span&gt;Personal Development: Take advantage of paid personal development days to explore new technologies or deepen your expertise.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Compensation for this co-op role is between $23–$27 CAD per hour, depending on experience and qualifications.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This opportunity is open to students enrolled in a recognized Canadian co-op/internship program and is intended to fulfill a formal co-op placement as part of your academic studies. The position is based in &lt;strong&gt;Ottawa, Canada.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;At Noda, we value diverse perspectives and believe great ideas come from people of all backgrounds. If you&#39;re excited about this role but don’t meet every requirement, we encourage you to apply—we’d love to hear from you!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;And finally: we&#39;ll do everything we can to support you during your application. If you need us to make any adjustments to your recruitment process, please do speak to our recruitment team, who will be happy to support you.&lt;/span&gt;&lt;/p&gt;",
+"identifier": {
+"@type": "PropertyValue",
+"name": "Noda",
+"value": "7325506"
+},
+"datePosted": "2026-03-03T12:46:28-05:00",
+"employmentType": "FULL_TIME",
+"hiringOrganization": {
+"@type": "Organization",
+"name": "Noda",
+"logo": "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/588b4ff5-4c37-469b-9116-949cc217b6f3/original.png",
+"sameAs": "https://noda-1720000970.teamtailor.com"
+},
+"jobLocation": [{"@type":"Place","address":{"streetAddress":"7 Bayview Station Rd","addressLocality":"Ottawa","postalCode":"K1Y 2C5","addressCountry":"CA","addressRegion":"Canada","@type":"PostalAddress"}}]
+}
+Career menu
+Start
+Jobs
+Employee
+Log in as employee
+Candidate
+Log in to Connect
+Homepage
+noda.ai
+Share page
+Facebook
+X
+LinkedIn
+Mail
+.block-cover--with-background-7325506 {
+background-image: url("https://images.teamtailor-cdn.com/images/s3/teamtailor-production/hero_picture_small-v6/image_uploads/022a87b6-7964-4927-97da-e5dec84e7756/original.jpg");
+}
+@media screen and (min-width: 480px) {
+.block-cover--with-background-7325506 {
+background-image: url("https://images.teamtailor-cdn.com/images/s3/teamtailor-production/hero_picture_medium-v6/image_uploads/022a87b6-7964-4927-97da-e5dec84e7756/original.jpg");
+}
+}
+@media screen and (min-width: 768px) {
+.block-cover--with-background-7325506 {
+background-image: url("https://images.teamtailor-cdn.com/images/s3/teamtailor-production/hero_picture_large_full_cover-v6/image_uploads/022a87b6-7964-4927-97da-e5dec84e7756/original.jpg");
+}
+}
+Tech
+·
+Canada
+·
+Hybrid
+Full Stack Developer Intern
+Join Noda as a Full Stack Developer intern and help build intelligent, cloud-based software that transforms commercial buildings into smarter, more sustainable, and more resilient ecosystems.
+Apply for this job
+Noda is a data and analytics company for the commercial built environment. We reimagine how modern buildings operate — because a better world needs better buildings. Better buildings are more efficient, more sustainable, and more resilient. They are intelligent, autonomous ecosystems that anticipate and adapt, seamlessly.With commercial building operations accounting for nearly 30% of global emissions, we’re on a mission to turn buildings into a force for positive change, powering a more efficient, more sustainable world. We do this with smart software, careful use of modern artificial intelligence, sophisticated data models, and custom interfaces to building systems – and a lot of in-depth knowledge about how commercial buildings actually run.We’re a young, nimble company where we very much value creative thinking, a love of team work, and a determination to solve the problem, whatever it is. Priorities can shift fast, so adaptability and flexibility come with the territory. The consequence is that you’ll have a chance to make a real impact, backed by a supportive team.Please note: This role is only open to current co-op students who are actively enrolled in a recognized Canadian post-secondary co-op program. Recent graduates or non-co-op applicants will not be consideredAbout the RoleNoda is looking for a Full Stack Developer to join our software development team in Ottawa, Canada. You will join a close-knit team of developers using technologies such as JavaScript, React, Node.js, MongoDB, and AWS. You will work within a microservices architecture and participate in automated and continuous delivery practices.The ideal candidate for this position currently enrolled in a Computer Science, Software Engineering, or equivalent program and has a passion for creating cloud-based software in a team environmentsThe position will be based out of our Ottawa office, with flexibility to work in a hybrid arrangement.In this role, you will:Design, develop and maintain cloud-based software throughout its entire lifecycle.Collaborate with the team to drive continuous improvement in our software development practices and product quality.Interact with our product managers and customers to understand and break down business requirements.Ensure strong commitment to on-time and quality delivery through an Agile process.Develop with an automated testing mentality in a CI/CD environment.What you will needComputer Science, Software Engineering, or equivalent degree.Excellent communication skills and a strong collaborator.Experience working in a team environment.Passion for learning about new technology and building user interfaces.Demonstrable experience with modern development practices, principles and patterns, including TDD, CI/CD, etc.Proficient working with AI tooling such as Cursor, Codex, or Claude Code during the development process.Knowledge of cloud service providers (AWS, Google Cloud) is a plus.What will make you stand outJavaScript, Typescript, React, Node.js, Python, Java.MongoDB, PostgreSQL, Snowflake, Redis.GraphQL, REST, MQTT and other API-related technologies.LangChain, LangGraph, MCP, RAG, Vector StoresPub-Sub technologies such as Kafka.Docker, Kubernetes, AWSMacOS – all developers are issued an Apple MacBook Pro for development.Why we think you’ll love it herePurpose & Impact: Play a part in making buildings more sustainable, directly influencing our planet’s future.Career Growth: Work under the guidance of our Senior Director of Product Engineering with opportunities to expand your skill set and assume greater responsibility.Flexibility: We offer a hybrid-friendly environment, combining remote flexibility with in-person collaboration in our Ottawa office.Competitive Compensation: You’ll receive a compelling salary, healthcare and dental benefits, a retirement savings plan, plus equity participation.Collaborative Culture: Join an inclusive, innovative team that values curiosity, problem-solving, and continuous learning.Personal Development: Take advantage of paid personal development days to explore new technologies or deepen your expertise.CompensationCompensation for this co-op role is between $23–$27 CAD per hour, depending on experience and qualifications.This opportunity is open to students enrolled in a recognized Canadian co-op/internship program and is intended to fulfill a formal co-op placement as part of your academic studies. The position is based in Ottawa, Canada.At Noda, we value diverse perspectives and believe great ideas come from people of all backgrounds. If you're excited about this role but don’t meet every requirement, we encourage you to apply—we’d love to hear from you!And finally: we'll do everything we can to support you during your application. If you need us to make any adjustments to your recruitment process, please do speak to our recruitment team, who will be happy to support you.
+Department
+Tech
+Locations
+Canada
+Remote status
+Hybrid
+About Noda
+Connect with us to discover our latest job opportunities! Even if nothing suits you right now, stay in touch — your perfect role may be just around the corner!
+Apply for this job
+Tech
+·
+Canada
+·
+Hybrid
+Full Stack Developer Intern
+Join Noda as a Full Stack Developer intern and help build intelligent, cloud-based software that transforms commercial buildings into smarter, more sustainable, and more resilient ecosystems.
+Loading application form
+Career site
+Start
+Jobs
+Data & privacy
+Manage cookies
+noda.ai
+Employee login
+·
+SSO
+Candidate Connect login
+Applicant tracking system
+by Teamtailor
+function trackPageView(url) {
+var searchParams = new URLSearchParams(window.location.search);
+var utmSource = searchParams.get('utm_source');
+window.referrer = window.referrer || utmSource || document.referrer
+var payload = {
+ed: 'T4tSegiCA7fAL4sG4URz+8gxncXfiYXqcpC+jxY8zUEOoWA9EApErmFOUYzd6uEE6KAoVTUBBrBVbFSLaw9skngfp0/60cCthIeuPfkKNXkhUULD/yvKrkT36DlwhcKEY+eA71xuk5nlhBwitDG+68OhM1Ojl8pfXeTs9d5a0Ssu03l83jgpplR9DiJCOz8FmzDHlphcrN9BBFITNWtf95N9rvqY+9ZmUHlbCNufxoeXKcLl/YVwM6+MDLq0UAi0SPm11XTMyx3daqzMVZyj76AhbeU=--5ndbswWYdG/3YLLb--c0r10Wd6osSO2p84n4u0gA==',
+visitor_uuid: window.visitor_uuid,
+referrer: window.referrer,
+data: {
+ua: navigator.userAgent,
+referrer: document.referrer,
+},
+url: url,
+};
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.open('POST', '/pageview', true);
+xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+xmlhttp.withCredentials = true;
+xmlhttp.addEventListener('readystatechange', function () {
+if (xmlhttp.readyState === XMLHttpRequest.DONE) {
+const status = xmlhttp.status;
+if (status === 0 || (status >= 200 && status < 400)) {
+window.visitor_uuid = xmlhttp.responseText;
+}
+}
+})
+xmlhttp.send(JSON.stringify(payload));
+}
+window.trackPageView = trackPageView;
+if (!window.analyticsPageviewCallback) {
+window.analyticsPageviewCallback = true;
+window.addEventListener('turbo:load', function(data){
+window.trackPageView();
+});
+}
