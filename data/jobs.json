@@ -1,5 +1,32 @@
 [
   {
+    "company": "Proofpoint",
+    "role": "Software Engineer Intern",
+    "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Oregon/Software-Engineer-Intern_R13822",
+    "location": "37 locationsConcord, NHMississippiWyomingMontanaTennesseeOklahomaIndianaWest VirginiaAlabamaHawaiiSouth DakotaFloridaSouth CarolinaKentuckyArkansasVermontNevadaNorth DakotaNebraskaNew MexicoOhioLouisianaMinnesotaWisconsinArizonaMissouriMichiganKansasPennsylvaniaDelawareUtahGeorgiaOregonIowaIdahoMaineNorth Carolina",
+    "season": "2026 Summer",
+    "id": 3493,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or a related field",
+        "Possess working knowledge of C# and the .NET ecosystem",
+        "Understand object-oriented programming principles",
+        "Familiarity with REST APIs and basic web concepts",
+        "Possess basic knowledge of Git version control",
+        "Demonstrate strong problem-solving skills and willingness to learn",
+        "Experience with ASP.NET Core",
+        "Familiarity with web frontend technologies",
+        "Exposure to SQL Server, PostgreSQL, or similar databases",
+        "Understand cloud platforms such as Azure or AWS",
+        "Experience building personal, academic, or open-source projects",
+        "Knowledge of testing frameworks"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Mercury",
     "role": "Frontend Engineering Intern",
     "link": "https://job-boards.greenhouse.io/mercury/jobs/5817113004",
