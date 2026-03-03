@@ -1,5 +1,481 @@
 [
   {
+    "company": "Mercury",
+    "role": "Frontend Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/mercury/jobs/5817113004",
+    "location": "5 locationsRemote in USARemote in CanadaNYCSFPortland, OR",
+    "season": "2026 Fall",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Interested in continually honing craft.",
+        "Possess curiosity and willingness to share perspective.",
+        "Appreciate quality in own work and others.",
+        "Communicate well and write clear technical explanations.",
+        "Experience with TypeScript programming language.",
+        "Experience with React (a plus)."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Mercury",
+    "role": "Backend Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/mercury/jobs/5817062004",
+    "location": "NYCSFPortland, OR",
+    "season": "2026 Fall",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Be interested in continually honing your craft.",
+        "Have curiosity and be willing to share your perspective.",
+        "Appreciate quality in your work and that of others.",
+        "Communicate well and write clear explanations of technical decisions.",
+        "Have experience using the Haskell programming language.",
+        "Possess a strong desire to learn Haskell.",
+        "Have familiarity with SQL."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Mercury",
+    "role": "Full-Stack Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/mercury/jobs/5817004004",
+    "location": "5 locationsNYCRemote in USASFPortland, ORRemote in Canada",
+    "season": "2026 Fall",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Be interested in continually honing their craft.",
+        "Have curiosity and be willing to share their perspective.",
+        "Appreciate quality in their work and that of others.",
+        "Communicate well and write clear explanations of technical decisions.",
+        "Experience using Haskell programming language or strong desire to learn it.",
+        "Familiarity with SQL.",
+        "Experience with the TypeScript programming language.",
+        "Experience with React."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Citco",
+    "role": "Software Engineering Intern",
+    "link": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12547",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KLA",
+    "role": "HPC Software Intern 🎓",
+    "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/HPC-Software-Intern_2634216",
+    "location": "Milpitas, CA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Working towards a Master's Level Degree.",
+        "Proficient with C++ and Python programming for embedded and HPC systems.",
+        "Proficient working on Linux environment.",
+        "Possess HPC experience.",
+        "Exposed to Linux kernel and Bash scripting.",
+        "Experienced with Grafana and Prometheus."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "LAIKA Studios",
+    "role": "Software Developer Intern",
+    "link": "https://www.laika.com/careers/job-listing?jobid=7624789&gh_jid=7624789",
+    "location": "Hillsboro, OR",
+    "season": "2026 Summer",
+    "jd": null
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Software-Engineer-Intern_R-00176962",
+    "location": "Morgantown, WVReston, VA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Maintain a minimum 3.0 GPA in a Computer Science or similar Bachelor’s program.",
+        "Experienced with Object-Oriented Programming practices and patterns, Java preferred.",
+        "Experienced with JavaScript and JS frameworks such as React.",
+        "Understand software development process fundamentals.",
+        "Possess a strong, self-motivated desire to learn new technologies.",
+        "Capable of completing tasks independently with minimal supervision.",
+        "Able to work and collaborate effectively within a multi-disciplined engineering team.",
+        "Be a team player, able to express and explain ideas clearly.",
+        "Able to obtain a DoD security clearance.",
+        "Familiar with Cloud Technologies (AWS, Azure, GCP).",
+        "Knowledgeable in a version control system (e.g., Git).",
+        "Familiar with CI/CD processes and tools (e.g., Jenkins).",
+        "Familiar with Infrastructure as Code (Terraform, Helm).",
+        "Familiar with Containerized applications and orchestration (Docker, Kubernetes).",
+        "Familiar with Enterprise Service Bus Technologies (Kafka).",
+        "Knowledgeable in Agile Development methodologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Robert Half",
+    "role": "Software Engineer Intern",
+    "link": "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Virtual-Internship_JR-259698",
+    "location": "San Ramon, CA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Enrolled in an accredited undergraduate degree program.",
+        "Graduation year of 2027.",
+        "Understand object-oriented programming.",
+        "Experienced with at least one programming language.",
+        "Understand databases, data modeling, and data science concepts.",
+        "Knowledge of AI/ML with Python/R packages.",
+        "Knowledge of generative AI and LLM concepts.",
+        "Experienced with GPT models, NLP, and conversational AI technologies.",
+        "Exposure to building web applications or websites.",
+        "Strong attention to detail.",
+        "Able to work in a fast-paced environment.",
+        "Adaptive mindset and desire to learn new technologies quickly.",
+        "Strong critical thinking and analytical skills.",
+        "Able to work full 40-hour weeks virtually.",
+        "Familiar with generative AI tools and platforms.",
+        "Experienced applying AI/ML to marketing or business automation.",
+        "Experienced with Salesforce development.",
+        "Familiar with Salesforce Einstein or other AI-powered tools.",
+        "Exposure to AgentForce or similar AI-powered customer service tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KLA",
+    "role": "HPC Software Intern 🎓",
+    "link": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/HPC-Software-Intern_2634216-2",
+    "location": "Milpitas, CA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Working towards a Master's Level Degree.",
+        "Proficient with C++ and Python programming for embedded and HPC systems.",
+        "Proficient working on Linux environment.",
+        "Possess HPC experience.",
+        "Exposed to Linux kernel and Bash scripting.",
+        "Experienced with Grafana and Prometheus."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Starburst",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/starburst/jobs/5123053008",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Possess passion for Software Engineering (backend systems preferred)",
+        "Be a rising Senior or recent graduate",
+        "Experience developing software in Java",
+        "Possess prior experience building SaaS",
+        "Demonstrate ownership, grit, and bias for action",
+        "Experience contributing to open-source software",
+        "Design and develop components for Starburst products",
+        "Participate in projects from concept to completion",
+        "Continuously improve engineering processes, tests, and systems",
+        "Collaborate with teams globally",
+        "Provide exceptional customer support"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Epicor",
+    "role": "Intern a0103",
+    "link": "https://epicorsoftware.wd5.myworkdayjobs.com/epicorjobs/job/US-Bensalem/Intern---Product-Developer_JR104134",
+    "location": "Delanco, NJ",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or a related technical field.",
+        "Interested in front-end development, modern web technologies, or UI/UX engineering.",
+        "Exposed to C#, .NET, JavaScript/TypeScript, or similar languages.",
+        "Curious about AI-assisted development and willing to experiment with new tools.",
+        "Strong problem-solving skills and attention to detail.",
+        "Good communication and teamwork abilities.",
+        "Experienced with Blazor, Angular, or another component-based UI framework.",
+        "Familiar with Git or other version control systems.",
+        "Exposed to unit testing concepts.",
+        "Completed personal or academic projects involving UI development.",
+        "Interested in modernizing legacy systems or improving development workflows."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Artisan Partners",
+    "role": "Software Developer Intern - Business Applications",
+    "link": "https://www.artisanpartners.com/careers/career-opportunities.html?gh_jid=7668995",
+    "location": "Milwaukee, WI",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Possess strong analytical skills",
+        "Demonstrate attention to detail",
+        "Possess solid interpersonal and communication skills",
+        "Show firm commitment to customer service",
+        "Exhibit creative thinking and problem-solving skills",
+        "Possess a high level of energy and enthusiasm",
+        "Maintain a result-driven mentality",
+        "Familiarity with Snowflake, Microsoft SQL, or DynamoDB",
+        "Familiarity with scripting languages like PowerShell or Python",
+        "Knowledge of object-oriented languages such as Java or C#",
+        "Knowledge of Spring Framework",
+        "Familiarity with AWS services like Lambda, S3, SQS, and SNS",
+        "Familiarity with web technologies including JavaScript/Frameworks and Node.js",
+        "Familiarity with collaboration software like Slack and Confluence"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Compiler Engineering Intern",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280837",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science, Applied Mathematics, Informatics or a related technical discipline.",
+        "Gain 6+ months experience in C/C++ coding, object-oriented programming, data structures.",
+        "Possess Linux and Windows command line experience.",
+        "Possess debugging skills.",
+        "Demonstrate strong problem-solving skills and proactive pursuit of solutions.",
+        "Gain 3+ months experience with compiler technologies.",
+        "Possess experience in compiler development, linker, assembler, and C/C++ run-time libraries.",
+        "Possess experience in code optimization for efficient hardware performance."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nooks",
+    "role": "Nooks Internship",
+    "link": "https://job-boards.greenhouse.io/nooks/jobs/4163199009",
+    "location": "Colorado Springs, COArlington, VA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Be an impact-driven student",
+        "Have experience or interest in designing AI-focused software tools",
+        "Have experience or interest in navigating government contracts and security compliance",
+        "Have experience or interest in project management, finance, and hospitality for classified infrastructure",
+        "Have experience or interest in driving sales, marketing, and customer engagement",
+        "Exhibit high agency and proactive problem-solving",
+        "Possess a strong capacity for grit and entrepreneurial spirit",
+        "Proactively contribute to company culture",
+        "Be capable of maintaining Top Secret/SCI clearance",
+        "Be a Junior or Senior class level student",
+        "Desire to build, break, and improve operations"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premier",
+    "role": "Software Engineer Intern",
+    "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008139",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Possess 0 or more years of work experience.",
+        "Hold a High School Diploma or GED.",
+        "Complete software development-aligned coursework.",
+        "Experience in web-based service architecture and application development.",
+        "Familiarity with Agile Development methodologies.",
+        "Experience with Front-end UI development using JavaScript & React.",
+        "Currently pursuing a bachelor’s or Master’s in Computer Science, Computer Engineering, or Software Engineering.",
+        "Be adaptive and able to change priorities quickly.",
+        "Meet deadlines.",
+        "Exhibit attention to detail.",
+        "Operate computer programs and software.",
+        "Communicate effectively with audiences.",
+        "Make independent decisions.",
+        "Work effectively in a collaborative business environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "ZoomInfo",
+    "role": "Software Engineer Intern - Platform",
+    "link": "https://www.zoominfo.com/careers?gh_jid=8422488002",
+    "location": "Bethesda, MD",
+    "season": "2026 Summer",
+    "jd": null
+  },
+  {
+    "company": "Bank of Montreal",
+    "role": "Junior Developer – Internship - Summer 2026 - Weeks",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/New-York-NY-USA/Junior-Developer--Summer-2026--Internship----10-weeks_R260006808",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Exhibit creative thinking.",
+        "Build and manage relationships.",
+        "Demonstrate emotional agility.",
+        "Proficient in Quality Assurance and Testing.",
+        "Experience with Cloud computing.",
+        "Knowledge of Microservices.",
+        "Skilled in Technology Business Requirements Definition, Analysis and Mapping.",
+        "Possess adaptability.",
+        "Exhibit learning agility.",
+        "Proficient in Programming.",
+        "Skilled in Applications Integration.",
+        "Experience with Test Driven Development.",
+        "Knowledge of System Development Lifecycle.",
+        "Aptitude for Troubleshooting.",
+        "Proficient in System and Technology Integration.",
+        "Strong verbal and written communication skills.",
+        "Excellent collaboration and team skills.",
+        "Strong analytical and problem-solving skills.",
+        "Possess specialized knowledge from education and/or business experience."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Motorola",
+    "role": "Software Engineer Co-op",
+    "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Gatineau-Canada/Software-Engineer-Co-Op_R59901",
+    "location": "Gatineau, QC, Canada",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Practical knowledge of Java development ecosystem.",
+        "0+ years of software development experience.",
+        "Understand object-oriented coding and design.",
+        "Willingness to learn new technologies.",
+        "Be a fast learner with good communication skills.",
+        "Advanced English proficiency (written and oral).",
+        "Able to troubleshoot and debug issues.",
+        "Basic understanding of networking.",
+        "Basic knowledge of analysis, unit, and exploratory testing.",
+        "Currently enrolled in a Bachelor's or Master's in Computer Science or similar field.",
+        "Understand cloud providers (Azure and/or AWS).",
+        "Understand Kubernetes and Docker.",
+        "Understand Agile Scrum.",
+        "Experience working in a CI/CD environment.",
+        "Experience working with large distributed agile teams.",
+        "Experience working in a Linux or Windows environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fidelity Investments",
+    "role": "Intern/Co-op Software Full Stack Engineer",
+    "link": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Full-Stack-Engineer_2125315",
+    "location": "Merrimack, NHBoston, MASmithfield, RI",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Possess a Bachelor\n’s or Master\n’s Degree in a technology-related field.",
+        "Have 1+ years\n’ experience in enterprise development.",
+        "Strong background in object-oriented programming with Python, Java, or TypeScript.",
+        "Strong knowledge of data structures and algorithms.",
+        "Strong experience in Python with libraries like Pandas/Numpy or Spark.",
+        "Knowledge in developing custom data pipelines for various data stores.",
+        "Familiar with extracting data from REST APIs and parallel processing large datasets.",
+        "Knowledge of RDBMS and ODBC.",
+        "Knowledge of cloud computing concepts and deploying applications in the Cloud using CI/CD tools.",
+        "Knowledge of building UI with Angular 2.0+, React, or other MVC frameworks.",
+        "Familiar with Agile and CI/CD for software deployment using tools like Git/Stash/Jenkins."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fidelity Investments",
+    "role": "Co-op – Software Engineer 🎓",
+    "link": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2125311",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Graduate or PHD degree in computer science or related field",
+        "Possess solid programming fundamentals",
+        "Knowledgeable in computing algorithms, data structures, and design patterns",
+        "Understand solid RDBMS concepts",
+        "Exposed to coursework on distributed systems, file systems, data, NoSQL, and SQL processing",
+        "Experienced using latest web-based technologies like jQuery, HTML, and CSS",
+        "Exposure to one or more web-based visualization libraries",
+        "Demonstrated interest or experience in applied software engineering",
+        "Demonstrated interest or experience in web application design and development",
+        "Demonstrated interest or experience in software analysis",
+        "Demonstrated interest or experience in database design",
+        "Demonstrated interest or experience in visualization, prototyping, and experimentation",
+        "Demonstrated interest or experience in Unix/Linux environments",
+        "Demonstrated interest or experience in mobile application development",
+        "Demonstrated interest or experience in distributed and parallel systems",
+        "Demonstrated interest or experience in information retrieval",
+        "Demonstrated interest or experience in networking",
+        "Demonstrated interest or experience in developing large software systems",
+        "Experienced in Java, Python, C, C++, C#, PHP, Objective-C, SWIFT, JavaScript, HTML, CSS, jQuery, SQL, MySQL",
+        "Experienced in software development tools like Eclipse, Visual Studio Code, XCode",
+        "Experienced in visualization tools such as DevExpress, Infragistics, Plot.ly, agGrid, High Charts",
+        "Maintain excellent academic performance",
+        "Possess a passion to learn more about financial markets, products, and processes",
+        "Exhibit excellent verbal and written communication skills",
+        "Demonstrate meticulous attention to detail",
+        "Possess unquestioned integrity"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Software Engineer Intern - Strategic Systems",
     "link": "https://careers-gdms.icims.com/jobs/71212/job?mobile=true&needsRedirect=false",
