@@ -15,6 +15,9 @@ export const TARGET_SEASONS = [
   "off-season",
 ] as const;
 
+export const LOCATIONS = ["USA", "Canada", "UK", "Other"] as const;
+export type Location = (typeof LOCATIONS)[number];
+
 export const SOURCES: Source[] = [
   {
     name: "vansh",

@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-import type { Job } from "@/types";
+import type { Job, Location } from "@/types";
 
 import { getToday } from "@/utils/string";
 
@@ -11,6 +11,19 @@ function escapeHtml(str: string) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
+}
+
+function locationIcon(location: Location) {
+  switch (location) {
+    case "USA":
+      return "";
+    case "Canada":
+      return "🇨🇦";
+    case "UK":
+      return "🇬🇧";
+    default:
+      return "";
+  }
 }
 
 export async function sendEmail(job: Job) {
@@ -30,6 +43,7 @@ export async function sendEmail(job: Job) {
 
   const requiresUSA = jd?.citizenship ?? null;
   const sponsorship = jd?.sponsorship ?? null;
+  const location = jd?.location ?? "Other";
   const qualifications = jd?.qualifications ?? [];
   const term = season == "New Grad" ? "New Grad" : `${season} Intern`;
 
@@ -53,7 +67,10 @@ Link: ${link}`;
   <body style="font-family: Arial, sans-serif; color: #333; background-color: #fafafa; padding: 30px;">
     <table align="center" width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;padding:32px;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
       <tr><td>
-        <h2 style="color:#1a73e8;margin:0;">${company}</h2>
+        <div style="display: flex; align-items: center; justify-content: space-between">
+            <h2 style="color: #1a73e8; margin: 0">${company}</h2>
+            <h2 style="transform: scale(1.1); margin: 0">${locationIcon(location)}</h2>
+        </div>
         <p style="font-size:16px;margin:8px 0 20px;"><b>Role:</b> ${role}</p>
   `;
 
