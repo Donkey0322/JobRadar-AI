@@ -1,5 +1,165 @@
 [
   {
+    "company": "LSEG",
+    "role": "Degree Apprenticeship - Engineering - Nottingham Office",
+    "link": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Nottingham-United-Kingdom/Degree-Apprenticeship---Engineering--Nottingham-Office-_R0117002",
+    "location": "Nottingham, UK",
+    "season": "2026 Fall",
+    "id": 3519,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Completed at least one A Level in Computer Science, Engineering, or Mathematics.",
+        "Demonstrate genuine interest in Engineering.",
+        "Possess enthusiasm for learning and building a career in Engineering.",
+        "Be curious about technology's impact on large companies.",
+        "Understand coding as a beginner and read software code.",
+        "Possess a good understanding of Microsoft applications, especially Excel.",
+        "Studied A level/BTEC subjects in Maths, Science, or Engineering.",
+        "Exhibit an interest in the world of finance.",
+        "Be curious about data and enjoy solving problems.",
+        "Enjoy digging into information and generating new ideas.",
+        "Ability to see the bigger picture and connect different concepts.",
+        "Demonstrate focus, resilience, and adaptability.",
+        "Be a friendly team player.",
+        "Enjoy working with others and communicate effectively.",
+        "Be over 18 years of age.",
+        "Live in England.",
+        "Not be in full-time education at the start date.",
+        "Achieved a Level 3 qualification (104 UCAS points) in Engineering, Maths, or Science.",
+        "Hold 5 GCSEs including English and Maths at Grade 4 (C).",
+        "Not be entered for a qualification of the same type and level."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "LSEG",
+    "role": "Degree Apprenticeship - Engineering - London Office",
+    "link": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/London-United-Kingdom/Degree-Apprenticeship---Engineering--London-Office-_R0116999",
+    "location": "London, UK",
+    "season": "2026 Fall",
+    "id": 3518,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Completed at least one A Level in Computer Science, Engineering, or Mathematics related subject.",
+        "Possess academic background and interest in an Engineering Degree Apprenticeship.",
+        "Demonstrate true interest in Engineering and building a career.",
+        "Curious about how technology powers large companies.",
+        "Understand coding as a beginner and ability to read software code.",
+        "Good understanding of Microsoft applications, particularly Excel.",
+        "Studied A level/BTEC subjects in Maths, Science, or Engineering.",
+        "Interest in how the world of finance works (bonus).",
+        "Curious about data and enjoy solving problems.",
+        "Ability to see the bigger picture and make connections.",
+        "Demonstrate focus, resilience, and adaptability.",
+        "Friendly team player with good communication skills.",
+        "Be over 18 years of age.",
+        "Live in England.",
+        "Not already in full-time education at the start date.",
+        "Achieved Level 3 Qualification (Apprenticeship/A-Levels/BTEC etc.) in Engineering, Maths, or Science with 104 UCAS points (BCC).",
+        "Possess 5 GCSEs including English and Maths at Grade 4 (C).",
+        "Not be entered for a qualification of the same type, content, and level as this qualification."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Monarch Money",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/monarchmoney/b62fbd01-4082-4ddf-9a39-ec0ae1e526ee/application",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3517,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "qualifications": [
+        "Pursue an undergraduate or graduate degree, preferably in Computer Science or a related field",
+        "Anticipate graduation in 2026 or 2027",
+        "Be available for 8 weeks during Summer 2026, beginning in June",
+        "Possess prior internship experience developing and launching products",
+        "Experience modern programming languages (Python, Typescript, Go) and frameworks (Django, React, React Native)",
+        "Proficient with tools like Git",
+        "Comfortable with modern agentic engineering (e.g., Claude Code, Cursor)",
+        "Interest or experience in cloud infrastructure, CI/CD pipelines, security tooling, or developer experience",
+        "Interest or experience in common AI technologies: LLMs, agents, and evaluations",
+        "Possess a product-oriented mindset",
+        "Exhibit excitement about building tools that people love",
+        "Strong communication skills",
+        "Demonstrate a collaborative approach to problem-solving",
+        "Show curiosity and initiative",
+        "Desire to learn in a fast-paced startup environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Western Digital",
+    "role": "Co-op - Systems Integration Engineer",
+    "link": "https://jobs.smartrecruiters.com/WesternDigital/744000112538147",
+    "location": "Rochester, MN",
+    "season": "2026 Summer",
+    "id": 3516,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Pursue a BS/BA degree in CS, CE, EE, or related major",
+        "Utilize object-oriented design concepts in projects",
+        "Familiar with Linux-based systems via command line",
+        "Possess solid communication skills",
+        "Have passion for problem-solving and learning new things"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "LPL Financial Holdings",
+    "role": "Intern - Technology - Software Developer",
+    "link": "https://lplfinancial.wd1.myworkdayjobs.com/university/job/San-Diego-CA/Internship-Summer-2026---Technology--Software-Development_R-046201",
+    "location": "Fort Mill, SCSan Diego, CAAustin, TX",
+    "season": "2026 Summer",
+    "id": 3515,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "qualifications": [
+        "Earn a Bachelor's or advanced degree in Computer Science or related field.",
+        "Possess classroom experience directly related to your preferred role.",
+        "Demonstrate a proactive approach to problem solving and task completion.",
+        "Take ownership of assignments.",
+        "Possess proficient organizational and communication skills.",
+        "Exhibit strong intellectual curiosity.",
+        "Be willing to embrace change and quickly learn new technologies and frameworks.",
+        "Have experience such as an internship, hackathon, or research project.",
+        "Demonstrate strong time management skills.",
+        "Be able to work independently.",
+        "Collaborate effectively with teams.",
+        "Deliver exceptional client experiences.",
+        "Thrive in fast-paced, team-oriented environments.",
+        "Pursue greatness and act with integrity.",
+        "Be driven to help clients succeed.",
+        "Embrace creativity and continuous improvement.",
+        "Participate in the full software development lifecycle.",
+        "Build, configure, and maintain applications on leading cloud platforms.",
+        "Develop backend services using modern programming languages like Python, .NET, Node.js, Typescript.",
+        "Work on interactive web applications with React or Angular frameworks.",
+        "Practice TDD and BDD methodologies.",
+        "Create and maintain automated test scripts and CI/CD pipelines.",
+        "Actively participate in agile ceremonies.",
+        "Write clear documentation for code, APIs, and processes.",
+        "Stay up to date on emerging technologies and best practices.",
+        "Analyze and resolve application defects and system issues.",
+        "Utilize AI tools to optimize development processes."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "TD Bank",
     "role": "Business Systems Analyst - Preferred Candidate",
     "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Business-Systems-Analyst-Intern-Co-op--Summer-2026-_R_1456886",
