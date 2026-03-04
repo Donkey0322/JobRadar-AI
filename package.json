@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/main.ts",
-    "dev": "tsx src/main.ts --dev"
+    "dev": "tsx src/main.ts --dev",
+    "analyze": "tsx scripts/link.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

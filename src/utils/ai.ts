@@ -1,5 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
+import { LOCATIONS } from "@/constants";
+
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY ?? "";
 const DEFAULT_MODEL = "gemini-2.5-flash";
 const JD_SCHEMA = {
@@ -12,6 +14,10 @@ const JD_SCHEMA = {
     offers_visa_sponsorship: {
       type: "string",
       enum: ["yes", "no", "unsure"],
+    },
+    location: {
+      type: "string",
+      enum: LOCATIONS,
     },
     qualifications: {
       type: "array",
@@ -48,11 +54,13 @@ export default async function callGemini(
     Extract from the job description:
     1. Whether USA citizenship is required.
     2. Whether the employer offers visa sponsorship.
+    3. The location of the job.
     3. ALL qualifications (basic and preferred combined).
     4. The job term. If the term is not clear, return "unsure". If it is a full-time new grad position, return "New Grad".
 
     Rules:
     - If unclear or missing, return "unsure".
+    - If sponsorship is not clearly stated, return "unsure".
     - Return ONLY valid JSON.
     - Do NOT include explanations.
     - Follow the schema exactly.

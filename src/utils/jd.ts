@@ -106,6 +106,7 @@ function transform(response: AIResponse): JD {
   return {
     citizenship: toBoolean(response.requires_usa_citizenship),
     sponsorship: toBoolean(response.offers_visa_sponsorship),
+    location: response.location,
     qualifications: response.qualifications,
     season: response.term,
   };
@@ -145,6 +146,26 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
       } catch (e) {
         console.warn(`[${job.company}] Error parsing JSON: ${e}`);
         return null;
+      }
+    }
+  }
+  return null;
+}
+
+export async function analyzeLink(link: string): Promise<JD | null> {
+  const html = await getJD(link);
+  const urlType = detectPlatform(link);
+  const jdText = await visibleTextFromHtml(html, urlType, link);
+
+  if (jdText) {
+    const aiResponse = await analyze(jdText);
+    if (aiResponse) {
+      try {
+        const parsed = JSON.parse(aiResponse);
+        const validated = AIResponseSchema.parse(parsed);
+        return transform(validated);
+      } catch (e) {
+        throw new Error(`Error parsing JSON: ${e}`, { cause: e });
       }
     }
   }
