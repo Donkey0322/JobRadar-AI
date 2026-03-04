@@ -1,5 +1,162 @@
 [
   {
+    "company": "MassMutual Ascend",
+    "role": "Middleware Intern",
+    "link": "https://massmutual.wd1.myworkdayjobs.com/MMAscendCareers/job/Cincinnati-OH/Middleware-Intern--Summer-2026-_R19942",
+    "location": "Cincinnati, OH",
+    "season": "2026 Summer",
+    "id": 3525,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a BS or MS in Computer Science or similar",
+        "Proficient in scripting (PowerShell or other languages)",
+        "Experience with Windows OS",
+        "Familiarity with Active Directory",
+        "Experience with IIS",
+        "Knowledge of Application High Availability concepts",
+        "Possess elite troubleshooting skills",
+        "Understanding of Networking/TCP Communication",
+        "Knowledge of Data Security/Firewalls"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "SoFi",
+    "role": "Intern Software Engineer - Platform",
+    "link": "https://www.sofi.com/careers/sofi-university/7600784003?gh_jid=7600784003",
+    "location": "California",
+    "season": "2026 Summer",
+    "id": 3524,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited US-based university",
+        "Returning to school for at least one quarter or semester after the internship",
+        "Have no more than 12 months of professional full-time work experience",
+        "Willing to relocate to San Francisco Bay Area",
+        "Available to work in the San Francisco HQ office",
+        "Experience building software in a non-academic setting",
+        "Solid understanding of computer science fundamentals",
+        "Knowledge of algorithms, data structures, and systems architecture",
+        "Ability to quickly learn new languages and adopt new technologies",
+        "Intellectual curiosity and affinity for solving problems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mastercard",
+    "role": "Software Engineer Intern",
+    "link": "https://mastercard.wd1.myworkdayjobs.com/Public_Posting_Site/job/London-England-Angel-Lane/Software-Engineer--Internship-Program-2026---London--England--UK_R-257380",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3523,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Exposed to algorithms, data structures, and core computer science concepts.",
+        "Proficient in one or more programming languages (e.g., Java, JavaScript, C#, Python).",
+        "Exposed to automated tests to verify code correctness and expected behavior.",
+        "Knowledgeable in source control management, deployment, and task management tools.",
+        "Strong analytical and problem-solving skills, familiar with debugging tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mastercard",
+    "role": "Software Engineer Intern",
+    "link": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/London-England-Angel-Lane/Software-Engineer--Internship-Program-2026---London--England--UK_R-257380-1",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3522,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Exposure to algorithms, data structures, and core computer science concepts",
+        "Proficient in one or more programming languages",
+        "Exposure to automated tests to verify code correctness",
+        "Knowledge of source control management, deployment, and task management tools",
+        "Strong analytical and excellent problem-solving skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Marmon Holdings",
+    "role": "Engineering Intern",
+    "link": "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Cullman-AL/Engineering-Intern---Summer-2026_JR0000037708-3",
+    "location": "Decatur, AL",
+    "season": "2026 Summer",
+    "id": 3521,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Problem solve and learn about modern technologies",
+        "Communicate ideas and questions effectively",
+        "Engineer in a cross-functional team (Mechanical, Electrical, Software)",
+        "Be an inquisitive self-starter who implements with minimal guidance",
+        "Effectively communicate technical issues and solutions",
+        "Demonstrate ability to share technical information",
+        "Stay current with and help implement modern technologies",
+        "Share knowledge and champion best practices",
+        "Pursue an undergraduate or graduate degree in Mechanical Engineering",
+        "Be a rising junior or senior",
+        "Strong interest in applying Mechanical, Electrical, and AI knowledge",
+        "Comply with deadlines",
+        "Possess problem-solving and critical thinking skills",
+        "Possess excellent organizational skills",
+        "Show interest in technology and process improvement",
+        "Proficient in Microsoft Excel and PowerPoint"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Marmon Holdings",
+    "role": "Engineering Intern",
+    "link": "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Cullman-AL/Engineering-Intern---Summer-2026_JR0000037705-3",
+    "location": "Decatur, AL",
+    "season": "2026 Summer",
+    "id": 3520,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Solve problems and learn modern technologies.",
+        "Communicate ideas and questions effectively.",
+        "Engineer in a cross-functional team.",
+        "Possess an inquisitive nature and be a self-starter.",
+        "Effectively communicate technical issues and solutions.",
+        "Demonstrate ability to share technical information.",
+        "Stay current with and implement modern technologies.",
+        "Share knowledge and champion best practices.",
+        "Pursue an undergraduate or graduate degree in Mechanical Engineering or related field.",
+        "Be a rising junior or senior student.",
+        "Strong interest in applying Mechanical, Electrical, and AI knowledge to practical problems.",
+        "Comply with deadlines.",
+        "Possess problem-solving and critical thinking skills.",
+        "Possess excellent organizational skills.",
+        "Show interest in technology and process improvement.",
+        "Proficient in Microsoft Excel and PowerPoint."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "LSEG",
     "role": "Degree Apprenticeship - Engineering - Nottingham Office",
     "link": "https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Nottingham-United-Kingdom/Degree-Apprenticeship---Engineering--Nottingham-Office-_R0117002",
