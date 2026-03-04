@@ -1,5 +1,26 @@
 [
   {
+    "company": "Skydio",
+    "role": "Autonomy Engineer Intern Summer 2026",
+    "link": "https://jobs.ashbyhq.com/skydio/17f6173b-c96f-4b02-a6b5-da0a91ad95e5/application",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 3526,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate enthusiasm for motion planning, dynamics, controls, 3D graphics, computer vision, deep learning, distributed systems, mobile.",
+        "Possess a solid software engineering foundation.",
+        "Commit to writing clean, well-architected code.",
+        "Proficient in C++ and/or Python.",
+        "Thrive in a fast-paced, collaborative, small team environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "MassMutual Ascend",
     "role": "Middleware Intern",
     "link": "https://massmutual.wd1.myworkdayjobs.com/MMAscendCareers/job/Cincinnati-OH/Middleware-Intern--Summer-2026-_R19942",
