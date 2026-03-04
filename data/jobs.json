@@ -1,5 +1,140 @@
 [
   {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/3F4A83FA7F/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 3533,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/5572271228/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 3532,
+    "jd": null
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/23455C7DD0/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 3531,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "ACI Worldwide",
+    "role": "Intern Software Engineering",
+    "link": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/18763",
+    "location": "Omaha, NE",
+    "season": "2026 Summer",
+    "id": 3530,
+    "jd": null
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern - Toronto - Summer 2026",
+    "link": "https://jobs.ashbyhq.com/snowflake/449c1320-82a0-4bd4-8be6-003265ee0764/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3529,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Canada",
+      "qualifications": [
+        "Be a 3rd/4th year undergraduate, Master's, or PhD student",
+        "Have a major in Computer Science, Computer Engineering, Software Engineering, or related field",
+        "Complete required coursework in algorithms, data structures, and operating systems",
+        "Have recommended coursework in cloud computing, database systems, distributed systems, or real-time programming",
+        "Possess bonus experience in databases, distributed systems, or open source",
+        "Possess excellent programming skills in C++ or Java",
+        "Demonstrate knowledge of data structures and algorithms",
+        "Exhibit strong problem solving and quick learning ability",
+        "Have experience working as part of a team",
+        "Show dedication and passion for technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Empower",
+    "role": "Intern Software Engineer - Backend",
+    "link": "https://empower.wd12.myworkdayjobs.com/empower/job/CO-Greenwood-Village/Summer-2026-Intern--Software-Engineer--Backend-_R0057022-1",
+    "location": "Greenwood Village, CO",
+    "season": "2026 Summer",
+    "id": 3528,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be currently enrolled in a college or university",
+        "Maintain a minimum 3.0 GPA",
+        "Be available for a 10-week internship (May 27 - July 31)",
+        "Desire an in-person office environment in Greenwood Village, CO",
+        "Possess interest in financial services industry",
+        "Have experience with Python, Java, Rest APIs, unit testing",
+        "Demonstrate continuous learning of new technologies",
+        "Possess strong verbal and written communication skills",
+        "Demonstrate critical thinking and problem-solving skills",
+        "Possess strong partnership and collaborative skills",
+        "Be self-directed and comfortable working independently",
+        "Proactively ask questions and seek help",
+        "Approach work with a sense of curiosity",
+        "Work with a customer service mindset",
+        "Ability to see the intern project to conclusion",
+        "Completed two years of bachelor’s degree credits",
+        "Possess experience with MCP, AI, and Agentic Workflows",
+        "Be available for full-time employment by mid-2027",
+        "Preferred major in Computer Science or related field"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veolia",
+    "role": "Drupal Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112719682",
+    "location": "Paramus, NJ",
+    "season": "2026 Summer",
+    "id": 3527,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "High School Diploma/GED required.",
+        "Currently enrolled or recently graduated from Computer Science, Web Development, or related program.",
+        "Experienced with APIs or integrations.",
+        "Basic understanding of PHP, HTML, CSS, and JavaScript.",
+        "Familiar with Drupal or strong interest in CMS-based development.",
+        "Exposed to Git and version control workflows.",
+        "Possess good problem-solving skills and attention to detail.",
+        "Eager to learn, collaborate, and grow as a developer.",
+        "Familiar with Twig, Composer, and Drush.",
+        "Experienced in Agile development environments."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Skydio",
     "role": "Autonomy Engineer Intern Summer 2026",
     "link": "https://jobs.ashbyhq.com/skydio/17f6173b-c96f-4b02-a6b5-da0a91ad95e5/application",
