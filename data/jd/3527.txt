@@ -1,0 +1,21 @@
+Company Description: Veolia in North America is the top-ranked environmental company in the United States for three consecutive years, and the country’s largest private water operator and technology provider as well as hazardous waste and pollution treatment leader. It offers a full spectrum of water, waste, and energy management services, including water and wastewater treatment, commercial and hazardous waste collection and disposal, energy consulting and resource recovery. Veolia helps commercial, industrial, healthcare, higher education and municipality customers throughout North America. Headquartered in Boston, Veolia has more than 10,000 employees working at more than 350 locations across North America.
+Job Description: Student Exploration and Experience Development (SEED) is a 12-week internship opportunity at Veolia for students to gain hands-on experience in sustainability and ecological transformation. They will work on real-world projects, receive mentorship from industry professionals, and participate in workshops and networking events. The program aims to nurture talent, promote innovation, and foster meaningful connections between students and industry professionals. Overall, the&nbsp;SEED&nbsp;program provides students with the skills, knowledge, and connections needed to make a positive impact in the industry.Program Dates: June 1, 2026 to August 21, 2026.Position Purpose:&nbsp;Veolia is seeking a motivated and detail-oriented Drupal Development Intern to join our software team. This is an exciting opportunity to gain hands-on experience with Drupal 9/10 in a collaborative and mission-driven environment. The intern will support ongoing projects and contribute to the development, maintenance, and enhancement of internal and external web applications.Primary Duties/Responsibilities:&nbsp;* Assist with the development and configuration of Drupal websites and applications.
+* Support front-end and back-end development tasks, including theming and module customization.
+* Participate in content migration, bug fixing, and feature enhancements.
+* Collaborate with the Software Technical Lead and other team members on project planning and code reviews.
+* Follow internal development workflows and best practices using Git, Composer, and Drush.
+* Document technical work and contribute to internal knowledge bases.
+* Learn and apply Drupal and web development best practices in a real-world environment.
+Work Environment:* Environments vary by internship function from office to field to plant.
+* Our aim is to provide tangible industry job experience to each intern.
+Qualifications: Education/Experience/Background:&nbsp;* High School Diploma/GED is required.
+* Currently enrolled in or recently graduated from a program in Computer Science, Web Development, or a related field.
+* Experience working with APIs or integrations.
+Knowledge/Skills/Abilities:&nbsp;* Basic understanding of PHP, HTML, CSS, and JavaScript.
+* Familiarity with Drupal (preferred), or a strong interest in learning CMS-based development.
+* Exposure to Git and version control workflows.
+* Good problem-solving skills and attention to detail.
+* Eagerness to learn, collaborate, and grow as a developer.
+* Familiarity with Twig, Composer, and Drush.
+* Previous exposure to Agile development environments.
+Additional Information: Pay Range:&nbsp;$21.00 to $25.00&nbsp;per hour.Benefits: Interns are considered temporary employees. Medical and basic life insurance coverage is available to temporary employees scheduled to work 20 or more hours per week immediately following 60 days of service. Employees must elect or waive medical coverage within 45 days of their eligibility date.Veolia observes 11 holidays.We are an Equal Opportunity Employer! All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.Disclaimer: The salary, other compensation, and benefits information is accurate as of the date of this posting. The Company reserves the right to modify this information at any time, subject to applicable law.
