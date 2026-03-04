@@ -1,5 +1,210 @@
 [
   {
+    "company": "TD Bank",
+    "role": "Business Systems Analyst - Preferred Candidate",
+    "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Business-Systems-Analyst-Intern-Co-op--Summer-2026-_R_1456886",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3514,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Currently enrolled in a relevant technology program",
+        "Possess a thirst for exploring emerging technology",
+        "Familiar with Jira and Confluence",
+        "Proficient with Excel, Visio, SQL, or similar tools",
+        "Able to manage multiple priorities",
+        "Able to work independently, as well as part of a team",
+        "Experience with technology project delivery and agile methodology",
+        "Experience with diagramming and visualization",
+        "Possess hands-on programming experience",
+        "Familiar with various programming languages and technologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Toshiba Global Commerce",
+    "role": "Agentic Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5065014007",
+    "location": "Durham, NC",
+    "season": "2026 Summer",
+    "id": 3513,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "qualifications": [
+        "Be local to Raleigh/Durham, NC area.",
+        "Commit to a fully in-person role, 5 days a week.",
+        "Be familiar with LLM integration (e.g., calling APIs, using Hugging Face or LangChain).",
+        "Possess agentic system knowledge (Prompt Engineering, LLM, RAG, Vector Databases).",
+        "Currently pursue Computer Science/Engineering in Undergraduate Studies.",
+        "Possess excellent analytical skills.",
+        "Work effectively in a fast-paced, team-based environment.",
+        "Exhibit strong communication and interpersonal skills, both verbal and written, proficient in English.",
+        "Demonstrate strong programming skills, including problem determination and debugging.",
+        "Pay attention to detail.",
+        "Participate in agile SDLC and use agile project management tools.",
+        "Use code versioning tools like Git or SVN.",
+        "Possess software development experience with Java, C++, or similar.",
+        "Possess modern web development experience with HTML5, JavaScript, CSS, and JS frameworks (e.g., Angular, React, Vue.JS)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Flagship Pioneering",
+    "role": "IT Automation Engineering",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8433215002",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 3512,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Be a current undergraduate student in Computer Science, Information Systems, or a related field.",
+        "Maintain a minimum GPA of 3.0.",
+        "Be proficient in at least one programming language (e.g., Python, JavaScript).",
+        "Possess a basic understanding of APIs, webhooks, and how web services communicate.",
+        "Be comfortable working with AI tools in a development or productivity context.",
+        "Exhibit strong problem-solving skills and a willingness to learn new tools quickly.",
+        "Possess experience with low-code or no-code automation platforms.",
+        "Have experience building and deploying applications on cloud platforms (e.g., AWS, Azure, GCP).",
+        "Be familiar with version control (Git) and development environments like VS Code."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "SolarWinds",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.solarwinds.com/job-detail/?gh_jid=4644519005&gh_jid=4644519005",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3511,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "qualifications": [
+        "Currently pursuing or recently graduated with a degree in Computer Science, Software Engineering, or a related field.",
+        "Familiar with JavaScript and React for frontend development.",
+        "Understand basic HTML and CSS.",
+        "Experienced or familiar with RESTful APIs for frontend integration.",
+        "Familiar with testing frameworks and integration tests.",
+        "Exposed to version control systems like Git.",
+        "Familiar with backend technologies like Kotlin (optional).",
+        "Strong problem-solving abilities and attention to detail.",
+        "Able to work independently and as part of a team.",
+        "Willing to learn and grow in a collaborative environment.",
+        "Good written and verbal communication skills.",
+        "Experienced with previous internships or personal projects in React or web development.",
+        "Familiar with modern JavaScript tools and frameworks."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Arctic Wolf",
+    "role": "Developer Co-op - Spring Term - May-Aug 2026",
+    "link": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Remote-Canada/Developer-Co-op---Spring-Term--May-Aug-2026--_R26_109",
+    "location": "Remote in CanadaKitchener, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3510,
+    "jd": null
+  },
+  {
+    "company": "KBR",
+    "role": "National Security Solutions – Internship – Tactical vPATSOC Emulator Engineer Intern - Nss",
+    "link": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/National-Security-Solutions--NSS--Internship---Tactical-vPATSOC-Emulator-Engineer-Intern_R2119801",
+    "location": "El Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3509,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "qualifications": [
+        "Pursue a technical degree (Bachelor’s, Graduate’s, or PhD)",
+        "Possess strong analytical and problem-solving skills",
+        "Demonstrate knowledge and application of Python, SQL",
+        "Exhibit a strong desire to learn",
+        "Possess strong verbal and written communication skills",
+        "Commit to a minimum 1-semester summer co-op/internship",
+        "Exhibit strong work ethics and interpersonal skills",
+        "Pass a security pre-screen and obtain a security clearance",
+        "Be a Computer Science undergraduate student",
+        "Hold industry certifications relevant to academic field",
+        "Hold industry certifications relevant to work",
+        "Work independently and take ownership of projects",
+        "Able to return for a subsequent internship/co-op"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "New York Post Holdings",
+    "role": "Software Engineer Intern",
+    "link": "https://dowjones.wd1.myworkdayjobs.com/New_York_Post_Careers/job/NYC---1211-Ave-of-the-Americas/Software-Engineering-Intern_Job_Req_51878",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3508,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "qualifications": [
+        "Progress toward a computer science degree or related field",
+        "Proficient in a modern programming language (Python/Node)",
+        "Familiar with HTTP, JSON, and API best practices",
+        "Strong problem-solving skills",
+        "Attention to detail",
+        "Eagerness to learn",
+        "Interested in media, news, or publishing industries",
+        "Develop and operate AWS or GCP cloud applications and services",
+        "Experience with EC2, Elasticsearch, S3, Vertex AI, Lambdas, DynamoDB, Cloud Functions, Kubernetes, Glue, Athena, and BigQuery",
+        "Operate with Git, JIRA, and agile methodologies",
+        "Navigate full technology stack",
+        "Write clean, testable, and maintainable code",
+        "Collaborate with product, editorial, and data science teams",
+        "Write and present ideas clearly",
+        "Document functional requirements",
+        "Participate in code reviews, architecture discussions, and agile sprint ceremonies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Empower",
+    "role": "Intern Software Engineer",
+    "link": "https://empower.wd12.myworkdayjobs.com/empower/job/MA-Boston---Federal-St/Summer-2026-Intern--Software-Engineer_R0056997",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3507,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "qualifications": [
+        "Enrolled in a college or university (Bachelor's or Master's program).",
+        "Maintain a minimum 3.0 cumulative GPA.",
+        "Available for the full 10-week program (May 27 – July 31, 2026).",
+        "Reside near or reliably commute to Boston, MA.",
+        "Possess hands-on experience with front-end software development tools.",
+        "Experienced with Microsoft Office Suite (Excel, Word, PowerPoint).",
+        "Authorized to work in the U.S. without current or future visa sponsorship.",
+        "Demonstrate strong verbal and written communication skills.",
+        "Able to work independently and within a collaborative team.",
+        "Exhibit a critical thinking and problem-solving mindset.",
+        "Self-directed with a proactive approach to learning.",
+        "Possess professional curiosity and eagerness to explore new tools and ideas.",
+        "Demonstrate accountability and follow-through on individual or team-based goals.",
+        "Achieved at least 2 years of academic progress toward a bachelor's degree.",
+        "Expected to graduate and be available for full-time employment by mid-2027.",
+        "Majored in Computer Science, Information Systems, Software Engineering, Data Analytics, or related technical fields."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Gannet Fleming",
     "role": "Intern – Application Development",
     "link": "https://careers-gannettfleming.icims.com/jobs/13630/job?mobile=true&needsRedirect=false",
