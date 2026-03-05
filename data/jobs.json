@@ -1,5 +1,69 @@
 [
   {
+    "company": "Visa",
+    "role": "Software Engineer Intern - Multiple Teams",
+    "link": "https://jobs.smartrecruiters.com/Visa/744000112931905",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3558,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science, Engineering, CIS/MIS, Cybersecurity, or Business.",
+        "Exhibit strong written and spoken communication skills.",
+        "Proficient in at least one programming language like Java, Python, C++, or HTML.",
+        "Experience writing utilities or automation tools using Selenium, Java, REST, Python.",
+        "Familiar with containerized microservices in Kubernetes environments.",
+        "Demonstrate adaptability and willingness to learn new skills and technologies.",
+        "Familiar with Kubernetes (especially kind cluster).",
+        "Familiar with Jenkins, GitHub Actions, or ArgoCD.",
+        "Familiar with Chainsaw, Prometheus, Splunk, or ClickHouse.",
+        "Familiar with Opensearch/Elasticsearch.",
+        "Familiar with software testing principles.",
+        "Experience working with RDBMS (MySQL) and NoSQL databases (Cassandra).",
+        "Experience developing Agentic Solutions.",
+        "Possess Machine Learning and Data Science background.",
+        "Solid understanding of software engineering concepts and methodologies.",
+        "Document processes, designs, test results, and analysis.",
+        "Lead root cause analysis and track defect resolution.",
+        "Review and provide feedback on development code and test designs.",
+        "Strong ability to collaborate effectively.",
+        "Highly driven, resourceful, and results-oriented.",
+        "Good team player with excellent interpersonal skills.",
+        "Good analytical and problem-solving skills.",
+        "Demonstrate ability to lead and navigate through ambiguity."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Taara",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/taaraconnect/ed52ef53-dca2-433e-a2b7-6003d8be7ea2/application",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 3557,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s, Master’s, or PhD in Computer Science or related technical field.",
+        "Possess a strong foundation in software engineering fundamentals.",
+        "Experience with Golang, Typescript, Python, or C/C++.",
+        "Demonstrate curiosity, persistence, and a prototyping mindset.",
+        "Able to work in the Sunnyvale office at least 3 days per week.",
+        "Experience with Linux system software, RTOS, or hardware sensors.",
+        "Understand networking protocols or distributed systems.",
+        "Experience with web technologies like TypeScript or React.",
+        "Familiar with cloud-based systems (GCP) and data ingestion pipelines."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Cummins",
     "role": "Product Engineering – Co-op Positions",
     "link": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2426243",
