@@ -1,5 +1,33 @@
 [
   {
+    "company": "Cummins",
+    "role": "Product Engineering – Co-op Positions",
+    "link": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2426243",
+    "location": "Columbus, IN",
+    "season": "2026 Summer",
+    "id": 3556,
+    "jd": null
+  },
+  {
+    "company": "Field AI",
+    "role": "Field Application Engineer-Intern",
+    "link": "https://jobs.lever.co/field-ai/626804c5-de5c-4754-88cd-f24c29775f51/apply",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 3555,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Comfortable working in a field environment",
+        "Possess a valid driver\n\t\t\t\t\t\t\t\t\t’s license",
+        "Have reliable transportation"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Altom Transport",
     "role": "Software Development Intern",
     "link": "https://apply.workable.com/altom-transport/j/A1004F0DC3/apply",
