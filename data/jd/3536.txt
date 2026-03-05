@@ -1,0 +1,63 @@
+About League
+Founded in 2014, League is the leading healthcare consumer experience (CX) platform, powered by artificial intelligence (AI), reaching more than 63 million people around the world and delivering the highest level of personalization in the industry. Payers, providers, and consumer health partners build on League’s platform to deliver high-engagement healthcare solutions proven to improve health outcomes. League has raised over $285 million in venture capital funding to date, powering the digital experiences for some of healthcare’s most trusted brands, including Highmark Health, Manulife, Medibank, and Shoppers Drug Mart.
+A&S Backend Engineer
+Join our Apps & Solutions Backend Engineering team and help implement the League platform for our customers. As a Backend Engineer Co-op, you’ll gain hands-on experience designing and building production backend services, APIs, and data systems that support real users at scale.
+We are an AI-forward engineering organization. We leverage modern AI tools extensively across our development lifecycle, from design and prototyping to coding, testing, documentation, and refactoring. We’re looking for candidates who are not only strong engineers but who actively use AI tools to accelerate learning, improve code quality, and increase impact.
+This co-op is your opportunity to sharpen your backend fundamentals while working in a fast-moving, AI-enabled environment where engineering velocity and quality both matter.
+What You’ll Work On
+Designing and building REST and WebSocket APIs
+Developing scalable backend services in Go
+Building new products and integrations
+Writing clean, testable, maintainable production code
+Participating in code reviews and architectural discussions
+Improving test automation and system reliability
+Leveraging AI tools to accelerate development, debugging, documentation, and testing
+Contributing to technical design and implementation planning
+What We’re Looking For
+Core Engineering Skills
+Experience building backend applications (academic, personal, or professional projects)
+Strong programming fundamentals (data structures, APIs, system design basics)
+Hands-on coding experience in Go or another backend language
+Understanding of databases and API design principles
+Exposure to automated testing practices
+AI Tooling & AI-Enabled Development (Strongly Preferred)
+Hands-on experience using AI coding assistants (e.g., ChatGPT, GitHub Copilot, Cursor, Claude, etc.)
+Ability to effectively prompt, evaluate, and iterate with AI tools
+Demonstrated use of AI to improve productivity, code quality, debugging, or learning
+Comfort working in an AI-augmented engineering workflow
+Curiosity about how AI can improve engineering systems and processes
+We strongly prefer candidates who already integrate AI tools into their daily development workflow and can articulate how those tools improve their output.
+Nice to Have
+Previous engineering co-op or internship experience
+Exposure to cloud platforms (GCP preferred)
+Experience contributing to team projects
+Security-related Responsibilities:
+Compliance with Information Security Policies
+Compliance with League’s secure coding practice
+Responsibility and accountability for executing League's policies and procedures
+Notification of HR, Legal, Compliance & Security of any incidents, breaches or policy violations
+As part of your application, please record a 1-minute video answering:👉 “Why do you want to work at League?”Upload your video to Google Drive or YouTube, and share the link in a clickable PDF with your application.
+Please note: This is an in-office position at our Toronto HQ from Monday to Thursday and Fridays are work-from-home. We really value fostering in-person connection and collaboration which is especially advantageous as learning opportunity for a Co-op student.
+Our employees come from different backgrounds, and we celebrate those differences. We are looking for the best candidates for our open roles, but do not expect applicants to meet every qualification in order to be considered. If you are excited about what you could accomplish at League and believe you can add value to our team, we would love to hear from you.
+We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you are an individual in need of assistance at any time during our recruitment process, please contact us at recruitinginfo@league.com.
+Our Application Process:
+Applying to a role you love can be exhausting, and understanding the next steps can feel vague and uncertain. You have done the hard part of submitting your application; let's do ours by sharing potential next steps
+You should receive a confirmation email after submitting your application.
+A recruiter (not a computer) reviews all applications at League.
+If we see alignment with League's needs, a recruiter will reach out to learn more about your goals. The recruiter will also share the team-specific interview process depending on the roles you are exploring.
+The final step is an offer, which we hope you will accept!
+Prior to joining us, we conduct reference and background checks. Additional checks could be required for US Candidates, depending on the role you are exploring.
+Here are some additional resources to learn more about League:
+Learn about our platform, leadership team and partners
+Highmark Health, Google Cloud, League: new digital front door to seamless care
+Former Providence President and Workday EVP of Corporate Strategy join League Board of Directors
+League raises $95 million USD in Series C to build world’s leading healthcare CX platform
+Forbes x League: The Platformization Of Healthcare Is Here
+Fast Company x League: If we want better innovations in healthtech, we need more competition
+Work Location:
+We have a mix of office-centric roles based in our vibrant Toronto office, and remote-eligible roles based anywhere in Canada or US. Each job posting will indicate where the role will be based. Regardless of the role’s posted location, all Toronto-area Leaguers (living within 65 km of our downtown HQ) collaborate in-office Monday through Thursday. Depending on your distance to the office, you’ll enjoy 10 or 20 Flexible Remote Days each quarter for focus and deep-work time. We are committed to fostering a meaningful work environment and connections for all Leaguers regardless of location.
+Recognize and Avoid Employment scams. Practice safe job searching.
+Scammers are getting craftier and leveraging fake job postings to get personal information. Know the warning signs and protect yourself from scammers. Learn more here.
+Use of AI NoticeWe are committed to ensuring fairness and transparency throughout our hiring process. League may use Artificial Intelligence (AI) tools to assist in the screening of applicants for this position. Please check out our stance on using AI in recruitment here.
+Privacy Policy
+Review our Privacy Policy for information on how League is protecting personal data.
