@@ -2,6 +2,518 @@
   {
     "company": "Altom Transport",
     "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/A1004F0DC3/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3554,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Calix",
+    "role": "Software Engineer Intern - Cloud",
+    "link": "https://calix.wd1.myworkdayjobs.com/External/job/Remote---North-America/Software-Engineering-Intern--Cloud_R-11498",
+    "location": "Remote in CanadaRemote in USA",
+    "season": "2026 Summer",
+    "id": 3553,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university pursuing a degree in CS, CE, IT, or related field.",
+        "Possess programming experience in Java or similar object-oriented languages.",
+        "Understand software development fundamentals, including OOP, data structures, and multithreading.",
+        "Familiar with Linux environments and basic command-line tools.",
+        "Have exposure to REST APIs and data formats like JSON and XML.",
+        "Possess basic knowledge of relational or NoSQL databases.",
+        "Understand software version control systems like Git.",
+        "Demonstrate strong curiosity and willingness to learn.",
+        "Possess good problem-solving and analytical skills.",
+        "Ability to work well in a team-oriented environment.",
+        "Exhibit clear communication skills and openness to feedback.",
+        "Possess a passion for building scalable, reliable software systems.",
+        "Able to work for the complete summer break (May-August or June-September).",
+        "Entering junior or senior years with previous work experience (preferred).",
+        "Have exposure to microservices architecture, Spring Boot, or similar frameworks.",
+        "Familiar with containerization concepts like Docker or Kubernetes.",
+        "Aware of CI/CD pipelines, build tools, or automation frameworks.",
+        "Understand basic networking concepts or telecommunications fundamentals.",
+        "Have academic or project exposure to monitoring, logging, or observability tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Parsons",
+    "role": "Engineering Intern",
+    "link": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CA-San-Francisco/Engineering-Intern_R178075-1",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3552,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a college/university program in engineering",
+        "Maintain a strong academic record",
+        "Completed relevant coursework to the position",
+        "Academic or work experience with high-level coding languages like Java, C/C++, JavaScript",
+        "Academic or work experience in programming, analytical and/or math skills",
+        "Academic or work experience applying Software Development concepts, object-oriented design, design patterns, activities, and approaches"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KLA",
+    "role": "Software Engineer Intern - AI/ML 🎓",
+    "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Austin-TX/Software-Engineer--AI-ML--Intern_2532241-1",
+    "location": "Milpitas, CAAustin, TX",
+    "season": "2026 Summer",
+    "id": 3551,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong analytical capabilities",
+        "Familiarity with Machine Learning and Deep Learning solutions",
+        "Exceptional skills in Python, C++, C#, or Java development",
+        "Deep conceptual understanding of multi-threaded and multi-process software systems",
+        "Proficient in Data Structures and algorithms",
+        "Experience with Traditional machine learning (Random Forest, XG Boost, Logistic Regression)",
+        "Experience with Deep Learning for regression, classification, and Generative models",
+        "Proficient in TensorFlow, Pytorch, NumPy, scikit-learn, and other ML/DL frameworks",
+        "Experience with Distributed systems for data management",
+        "Experience with Distributed computing infrastructure",
+        "Experience with Cloud technologies for storage, containerization, and compute clusters",
+        "Familiarity with GPU architectures and data management",
+        "Capability to formulate creative solutions through complex data analysis",
+        "Good communication skills",
+        "Strong team player, motivated by team success",
+        "Strong problem-solving skills",
+        "Currently pursuing a Master's or PhD degree"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Harris Computer",
+    "role": "Software Developer Apprentice",
+    "link": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer-Apprentice_R0040206",
+    "location": "Remote in UK",
+    "season": "2026 Summer",
+    "id": 3550,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Minimum 2:1 degree in relevant discipline.",
+        "Strong problem-solving skills.",
+        "Able to learn multiple programming languages and frameworks.",
+        "Understand core software engineering principles.",
+        "Excellent communication skills.",
+        "Awareness of AI/ML concepts.",
+        "Familiar with cloud platforms and containerization.",
+        "Exposure to Agile methodologies.",
+        "Experience with data-driven applications or AI projects."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "HARMAN International",
+    "role": "Intern - HMI Domain",
+    "link": "https://harman.wd3.myworkdayjobs.com/HARMAN/job/Novi---Michigan-USA---Cabot-Drive/Summer-Intern---HMI-Domain_R-51392-2026",
+    "location": "Novi, MI",
+    "season": "2026 Summer",
+    "id": 3549,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop modern Android applications using Kotlin and Jetpack Compose",
+        "Apply Test-Driven Development (TDD) principles",
+        "Design, implement, and refine new features",
+        "Debug and optimize app performance",
+        "Research and incorporate modern Android development trends",
+        "Work directly with the software development team",
+        "Write clean, efficient, and maintainable code",
+        "Conduct unit testing and debugging",
+        "Contribute to code reviews",
+        "Familiarity with programming languages (Java, Kotlin, C++)",
+        "Completed coursework in computer engineering or computer science",
+        "Strong problem-solving and analytical skills",
+        "Excellent communication and teamwork abilities",
+        "Eager to learn and improve as a software developer",
+        "Experience with Git",
+        "Knowledge of Android Application Development",
+        "Currently enrolled in a related Bachelor's Degree program or higher",
+        "Completed Sophomore year or later",
+        "Taking at least one class in the semester/quarter before participation",
+        "Returning to school for at least one semester upon completion",
+        "Maintain a cumulative 3.0 GPA",
+        "Willing to work in an office in Novi, Michigan",
+        "Able to provide own housing and transportation",
+        "Possess unrestricted work authorization",
+        "Successfully complete a background investigation",
+        "Successfully complete a drug screen",
+        "Provide full work availability from May 18, 2026 through August 7, 2026",
+        "Able to work 40 hours per week"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "MetroStar",
+    "role": "Technology Internship SUMMER 2026",
+    "link": "https://metrostar.com/job-post/?gh_jid=7622353003",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 3548,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a bachelor\t's degree in a related field",
+        "Have at least one previous internship",
+        "Proficient in programming languages like Python and TypeScript",
+        "Strong understanding of data structures, algorithms, and software engineering principles",
+        "Experienced or familiar with API development and integration",
+        "Hands-on experience or familiarity with cloud platforms",
+        "Excellent communication and problem-solving skills",
+        "Enjoy working in a team environment focused on execution",
+        "Possess an active Secret clearance or ability to obtain one"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Udig",
+    "role": "Digital Product Intern",
+    "link": "https://udig.com/careers/job-listing/?gh_jid=7587366003",
+    "location": "Nashville, TNRichmond, VAAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3547,
+    "jd": null
+  },
+  {
+    "company": "Nio",
+    "role": "Systems Verification & Concurrent Kernel Architecture Research Intern 🎓",
+    "link": "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/Systems-Verification---Concurrent-Kernel-Architecture-Research-Intern_R-000139",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3546,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or complete a PhD or Master’s degree in Computer Science or related field.",
+        "Possess relevant research projects and publications.",
+        "Exhibit deep proficiency in C programming language.",
+        "Reason about memory alignment, volatile keywords, and hardware interrupts.",
+        "Comfortable reading ARMv8 assembly to ensure compiler optimizations.",
+        "Understand L1/L2 cache coherency (MESI) and lock hierarchies.",
+        "Grasp why C programs fail on weak-memory hardware without barriers.",
+        "Ability to model software as a discrete state-machine.",
+        "Prefer a proof of absence over a proof of presence for bug detection.",
+        "Demonstrate persistence facing state space explosion or cryptic model-checker errors.",
+        "Capable of pruning models to find rare interleaving failures."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CCC Intelligent Solutions",
+    "role": "Software Engineer Intern Summer 2026",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Software-Engineer-Intern-Summer-2026_0014501",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3545,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Completed Junior year of Bachelor's or pursuing Master's in Computer Science or related field.",
+        "Interest in using AI-assisted coding tools responsibly.",
+        "Experience with C# or object-oriented programming.",
+        "Knowledge of security best practices or OWASP concepts.",
+        "Experience with Git, GitHub, or Azure DevOps.",
+        "Exposure to cloud-native concepts.",
+        "Ability to build simple web applications or REST APIs.",
+        "Proficiency in JavaScript or modern UI frameworks.",
+        "Understanding of SQL fundamentals.",
+        "Familiarity with Azure basics (App Services, Functions, storage).",
+        "Ability to write clean, testable code and learn software design patterns.",
+        "Passion for learning, problem-solving, and collaborating on a team."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Manulife Financial",
+    "role": "Quantitative Development Intern 🎓",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Boston-Massachusetts/Quantitative-Development-Intern_JR26011490",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3544,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working knowledge of Python, machine learning libraries, and AI models.",
+        "MS in financial engineering, data science, computer science, mathematics, statistics, or physics.",
+        "MS in finance with quantitative undergraduate training.",
+        "Strong communication skills.",
+        "Motivated to continually learn and collaborate.",
+        "Previous work experience in software engineering.",
+        "Knowledge of version control, including GitHub or GitLab.",
+        "Understand assumptions and algorithms in machine learning and AI methods."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hewlett Packard (HP)",
+    "role": "Software Engineering Intern - Product Security",
+    "link": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Product-Security---HP-IQ_3160495",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3543,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or a related technical field.",
+        "Possess strong software engineering skills.",
+        "Thrive in a collaborative environment.",
+        "Demonstrate interest in privacy & security.",
+        "Show interest in product design & development.",
+        "Have experience with C, C++, Java, or Python.",
+        "Understand security concepts like cryptography and network security.",
+        "Ability to \"think paranoid\" for threat modeling."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Hewlett Packard (HP)",
+    "role": "Software Engineering Intern - HP IQ",
+    "link": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--Device-Experiences---HP-IQ_3160497",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3542,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or related field",
+        "Strong programming skills in Java or C++",
+        "Strong communication skills and highly collaborative",
+        "Eager to learn and be adaptable",
+        "Passionate about creating user-facing products",
+        "Experience developing for mobile platforms",
+        "Contribute to building framework blocks",
+        "Collaborate with design to prototype interactions",
+        "Solve challenging problems clearly",
+        "Work on new interaction models"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premier",
+    "role": "Software Engineer Intern",
+    "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008178",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 3541,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess 0 or more years of applicable work experience.",
+        "Hold a High School Diploma or GED.",
+        "Completed software development-aligned coursework.",
+        "Experienced in web based service architecture and application development.",
+        "Familiar with Agile Development methodologies.",
+        "Proficient in front-end UI development with JavaScript and React.",
+        "Currently pursuing a bachelor\t#39;s or Master\t#39;s in Computer Science or related field.",
+        "Able to remain in a stationary position for prolonged periods.",
+        "Adaptive to change priorities quickly and meet deadlines.",
+        "Possess strong attention to detail.",
+        "Able to operate computer programs and software.",
+        "Communicate effectively in person and in electronic formats.",
+        "Comfortable with day-to-day contact with co-workers and public.",
+        "Capable of making independent decisions.",
+        "Work collaboratively in a business environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Coherent",
+    "role": "Intern – Software Engineering",
+    "link": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010893",
+    "location": "Fremont, CA",
+    "season": "2026 Summer",
+    "id": 3540,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Roku",
+    "role": "Software Engineer - Mobile",
+    "link": "https://www.weareroku.com/jobs/7621771?gh_jid=7621771",
+    "location": "Manchester, UK",
+    "season": "2026 Summer",
+    "id": 3539,
+    "jd": null
+  },
+  {
+    "company": "Field AI",
+    "role": "Field Application Engineer-Intern",
+    "link": "https://jobs.lever.co/field-ai/911ae37b-8ef2-42aa-aff1-60cdd0317f9f/apply",
+    "location": "Rancho Santa Margarita, CA",
+    "season": "2026 Summer",
+    "id": 3538,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Waymo",
+    "role": "Intern - Planner Reasoning ML/DL 🎓",
+    "link": "https://careers.withwaymo.com/jobs?gh_jid=7393132",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 3537,
+    "jd": null
+  },
+  {
+    "company": "League",
+    "role": "Backend Engineer – Co-op",
+    "link": "https://job-boards.greenhouse.io/leagueinc/jobs/5817040004",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3536,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Build backend applications",
+        "Strong programming fundamentals",
+        "Hands-on coding experience in Go or another backend language",
+        "Understand databases and API design principles",
+        "Exposed to automated testing practices",
+        "Hands-on experience using AI coding assistants",
+        "Effectively prompt, evaluate, and iterate with AI tools",
+        "Demonstrate use of AI to improve productivity, quality, debugging, or learning",
+        "Comfortable working in an AI-augmented engineering workflow",
+        "Curious about how AI can improve engineering systems and processes",
+        "Previous engineering co-op or internship experience",
+        "Exposed to cloud platforms (GCP preferred)",
+        "Contribute to team projects"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "State Street",
+    "role": "Software Engineer Fulltime Intern",
+    "link": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Software-Engineer--Fulltime-Internship--July---Dec-2026-_R-784414",
+    "location": "Quincy, MA",
+    "season": "2026 Summer",
+    "id": 3535,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a final-year undergraduate or graduate student in Computer Science, Software Engineering, or related technical disciplines",
+        "Be interested in converting to a full-time role post-graduation",
+        "Be enthusiastic about building a long-term career in a dynamic, technology-driven organization",
+        "Be an effective communicator with the ability to collaborate in a team-oriented environment",
+        "Be open to feedback and committed to continuous learning and improvement",
+        "Be motivated by real-world problem solving and eager to contribute innovative ideas",
+        "Possess AWS/Azure Certified Developer certification",
+        "Possess AWS/Azure SysOps Administrator or equivalent certification",
+        "Hold a B.S. in Computer Science/Engineering or related fields",
+        "Possess Azure AI Engineer Associate, AWS Machine Learning Specialty, or similar AI/ML certifications",
+        "Exhibit working knowledge of Application Development",
+        "Exhibit working knowledge of System Architecture",
+        "Exhibit working knowledge of Database Management",
+        "Exhibit working knowledge of Analytical Thinking",
+        "Exhibit working knowledge of Problem Solving",
+        "Exhibit working knowledge of Critical Thinking",
+        "Exhibit working knowledge of Data Architecture",
+        "Exhibit working knowledge of JavaScript",
+        "Exhibit working knowledge of Java",
+        "Exhibit working knowledge of C#",
+        "Exhibit working knowledge of Prompt Engineering",
+        "Understand AI/ML Fundamentals (model selection, data preprocessing, evaluation)",
+        "Familiar with LLMs and generative AI applications",
+        "Experienced with cloud-native AI platforms (Azure OpenAI, AWS Bedrock, Google Vertex AI)",
+        "Possess skills in C++",
+        "Possess skills in Spring Boot and Microservices Architecture",
+        "Possess skills in Docker and Kubernetes"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CAE",
+    "role": "Software Engineering Co-op Instructional Systems",
+    "link": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Software-Engineering-Co-op-Instructional-Systems_120458",
+    "location": "Arlington, TX",
+    "season": "2026 Summer",
+    "id": 3534,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess a BS in engineering or related aviation or computer systems discipline.",
+        "Have 1-2+ years of software engineering experience using Object Oriented Design and Qt Framework (4.8+).",
+        "Demonstrate ability to design, develop, document, test, and debug simulation software and systems.",
+        "Understand implementing functional requirements for computer software.",
+        "Proficient in software languages C/C++ and C#.",
+        "Experience in a military simulation and training environment.",
+        "Ability to read, analyze, and interpret professional journals, procedures, or regulations.",
+        "Ability to make effective and persuasive presentations."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
     "link": "https://apply.workable.com/altom-transport/j/3F4A83FA7F/apply",
     "location": "Markham, IL",
     "season": "2026 Summer",
