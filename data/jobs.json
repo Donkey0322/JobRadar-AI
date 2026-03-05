@@ -1,5 +1,80 @@
 [
   {
+    "company": "Caliber",
+    "role": "Technician Apprentice Program – Body Apprentice",
+    "link": "https://calibercollision.wd1.myworkdayjobs.com/caliber/job/Naperville-IL/Technician-Apprentice-Program---Body-Apprentice_R0214848",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3561,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be at least 18 years old",
+        "Possess a valid driver\textquoteright license",
+        "Have previous collision experience or Vo-Tech certification",
+        "Capable of consistent physical activity, including lifting over 50 lbs",
+        "Understand written and verbal instructions",
+        "Prioritize tasks and adapt to a fast-paced environment",
+        "Complete required TAP training and certifications"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CCC Intelligent Solutions",
+    "role": "Software Engineer Intern - Payments",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Software-Engineer-Intern---Payments-Summer-2026_0014504",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3560,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an Associate, Bachelor's or Master's degree.",
+        "Complete sophomore/junior year at a top-tier university.",
+        "Demonstrate excellence in academic studies.",
+        "Possess strong collaborative skills.",
+        "Work well with a team.",
+        "Experience with Java OO development.",
+        "Develop UI with VueJS or similar technology.",
+        "Develop Java REST services using Java, J2EE, Spring, Spring Boot.",
+        "Write SQL queries with Oracle, MySQL aurora, postgres or similar.",
+        "Gain exposure to Storm/Kafka or other Big Data."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CCC Intelligent Solutions",
+    "role": "Software Engineer Intern - Fraud",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Software-Engineer-Intern---Fraud-Summer-2026_0014505",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3559,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "In pursuit of an Associate, Bachelor's, or Master's degree",
+        "Completed sophomore/junior year at a top-tier university",
+        "Demonstrated excellence in academic studies",
+        "Possess strong collaborative skills",
+        "Work well within a team",
+        "Experience with Java OO development",
+        "Experience developing UI with VueJS or similar technology",
+        "Experience developing Java REST services using Java, J2EE, Spring, Spring Boot",
+        "Experience writing SQL queries with Oracle, MySQL Aurora, Postgres, or similar",
+        "Exposure to Storm/Kafka or other Big Data"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Visa",
     "role": "Software Engineer Intern - Multiple Teams",
     "link": "https://jobs.smartrecruiters.com/Visa/744000112931905",
