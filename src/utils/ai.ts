@@ -1,8 +1,11 @@
-import { GoogleGenAI } from "@google/genai";
+import { ApiError, GoogleGenAI } from "@google/genai";
+
+import type { GenerateContentResponse } from "@google/genai";
 
 import { LOCATIONS } from "@/constants";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY ?? "";
+const PERSONAL_GEMINI_API_KEY = process.env.BACKUP_GEMINI_API_KEY ?? "";
 const DEFAULT_MODEL = "gemini-2.5-flash";
 const JD_SCHEMA = {
   type: "object",
@@ -39,6 +42,22 @@ const JD_SCHEMA = {
   },
   required: ["requires_usa_citizenship", "offers_visa_sponsorship", "qualifications", "term"],
 };
+
+function calculateCost(response: GenerateContentResponse) {
+  const usage = response.usageMetadata;
+
+  if (usage) {
+    const inputTokens = usage.promptTokenCount ?? 0;
+    const outputTokens = usage.candidatesTokenCount ?? 0;
+
+    const priceIn = 0.3 / 1_000_000;
+    const priceOut = 2.5 / 1_000_000;
+
+    const cost = inputTokens * priceIn + outputTokens * priceOut;
+
+    console.log(`💲 Actual estimated cost: $${cost.toFixed(6)} USD`);
+  }
+}
 
 export default async function callGemini(
   contextText: string,
@@ -80,30 +99,35 @@ export default async function callGemini(
     ---END JD TEXT---
   `;
 
-  const client = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
-  const response = await client.models.generateContent({
-    model,
-    contents: prompt,
-    config: {
-      responseMimeType: "application/json",
-      responseSchema: JD_SCHEMA,
-    },
-  });
+  try {
+    const client = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
+    const response = await client.models.generateContent({
+      model,
+      contents: prompt,
+      config: {
+        responseMimeType: "application/json",
+        responseSchema: JD_SCHEMA,
+      },
+    });
+    calculateCost(response);
 
-  // ---- Token usage & cost ----
-  const usage = response.usageMetadata;
-
-  if (usage) {
-    const inputTokens = usage.promptTokenCount ?? 0;
-    const outputTokens = usage.candidatesTokenCount ?? 0;
-
-    const priceIn = 0.3 / 1_000_000;
-    const priceOut = 2.5 / 1_000_000;
-
-    const cost = inputTokens * priceIn + outputTokens * priceOut;
-
-    console.log(`💲 Actual estimated cost: $${cost.toFixed(6)} USD`);
+    return response.text ?? null;
+  } catch (e) {
+    if (PERSONAL_GEMINI_API_KEY && e instanceof ApiError && e.status === 429) {
+      console.log("❌ Rate limit exceeded. Retrying with personal API key...");
+      const client = new GoogleGenAI({ apiKey: PERSONAL_GEMINI_API_KEY });
+      const response = await client.models.generateContent({
+        model,
+        contents: prompt,
+        config: {
+          responseMimeType: "application/json",
+          responseSchema: JD_SCHEMA,
+        },
+      });
+      calculateCost(response);
+      return response.text ?? null;
+    }
+    console.error(`Error calling Gemini: ${e}`);
+    return null;
   }
-
-  return response.text ?? null;
 }
