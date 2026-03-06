@@ -1,5 +1,120 @@
 [
   {
+    "company": "Rolls Royce",
+    "role": "Quality Software Intern",
+    "link": "https://jobs.bmwgroup.com/job/Greer-MN-80-Quality-Software-Intern-(Fall-2026)-IN/1370809433/?ats=successfactors",
+    "location": "Evansville, IN",
+    "season": "2026 Fall",
+    "id": 3590,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Information Systems, or Data Analytics.",
+        "Proficient in SQL, Java, R, Python, HTML/CSS.",
+        "Be self-driven.",
+        "Able to absorb information quickly.",
+        "Support daily activities for the Supplier Quality group.",
+        "Support current systems, process improvement initiatives, and workflows.",
+        "Develop reporting tools.",
+        "Maintain reporting systems.",
+        "Perform data analysis.",
+        "Assist department improvement initiatives.",
+        "Support department specialists in daily tasks.",
+        "Perform light coding of front ends and back-ends.",
+        "Steer collaborative partners.",
+        "Develop reporting tools using MS Applications, Oracle, APEX.",
+        "Plan and implement projects and tasks.",
+        "Optimize applications.",
+        "Complete advanced SQL development training.",
+        "Possess general project management knowledge (Scrum vs. Waterfall).",
+        "Complete SAP training.",
+        "Experienced in development from customer requirements to final delivery.",
+        "Understand manufacturing processes for automotive.",
+        "Manage projects.",
+        "Work effectively in complex and diverse environments.",
+        "Handle complex planning and scheduling.",
+        "Skilled in controls software like Oracle, APEX, and SAP.",
+        "Proficient in programming from front-end request to customer handover.",
+        "Possess team management skills and experience.",
+        "Have strong communication and presentation aptitude.",
+        "Build a professional and multi-cultural network.",
+        "Understand supplier quality management."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Rolls Royce",
+    "role": "Metrology Automation Intern/Co-op",
+    "link": "https://jobs.bmwgroup.com/job/Greer-Metrology-Automation-Co-op-(Fall-2026)-Sout/1370727333/?ats=successfactors",
+    "location": "Greer, SC",
+    "season": "2026 Fall",
+    "id": 3589,
+    "jd": null
+  },
+  {
+    "company": "Telligen",
+    "role": "Software Development Intern",
+    "link": "https://jobs.lever.co/telligen/d75b8773-9d78-49f8-9cc9-28e809e28558/apply",
+    "location": "West Des Moines, IA",
+    "season": "2026 Summer",
+    "id": 3588,
+    "jd": null
+  },
+  {
+    "company": "Rolls Royce",
+    "role": "Innovations Software Developer Intern",
+    "link": "https://jobs.bmwgroup.com/job/Spartanburg-TX-S-12-Innovations-Software-Developer-Intern-Fall-2026-SC-29301/1370737533/?ats=successfactors",
+    "location": "Spartanburg, SC",
+    "season": "2026 Summer",
+    "id": 3587,
+    "jd": null
+  },
+  {
+    "company": "Rolls Royce",
+    "role": "Software Engineer Co-op - AI/Data",
+    "link": "https://jobs.bmwgroup.com/job/Greenville-FG-AM-61-Software-Engineer-Coop-Fall-2026-(AIData)-Sout/1370813633/?ats=successfactors",
+    "location": "Greenville, SC",
+    "season": "2026 Summer",
+    "id": 3586,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a minimum cumulative GPA of 3.0.",
+        "Be an enrolled student at an accredited four-year college or university in the United States.",
+        "Complete at least 30 credit hours at time of application.",
+        "Able to work full-time on-site (40 hours / week).",
+        "Maintain a GPA from current university if a transfer student.",
+        "Attach a copy of unofficial transcript.",
+        "Complete and pass a substance abuse test before the work term.",
+        "Maintain enrolled student status during all three rotations."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "SVG Software Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/SVG-Software-Intern--Summer-2026-_R52509",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3585,
+    "jd": null
+  },
+  {
+    "company": "Guidewire",
+    "role": "Front-End Developer Intern",
+    "link": "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/Canada---Toronto/Front-End-Developer-Intern_JR_14453",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3584,
+    "jd": null
+  },
+  {
     "company": "Tencent",
     "role": "Game Research & Development Intern - Engine Research",
     "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Game-Research---Development-Intern--Engine-Research_R107040",
