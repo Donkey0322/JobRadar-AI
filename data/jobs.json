@@ -1,5 +1,466 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/71285/job?mobile=true&needsRedirect=false",
+    "location": "Bridgewater, MA",
+    "season": "2026 Summer",
+    "id": 3579,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or related scientific or technical discipline",
+        "Achieve a standing of sophomore or higher"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Peraton",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-peraton.icims.com/jobs/164209/job?mobile=true&needsRedirect=false",
+    "location": "Hill AFB, UT",
+    "season": "2026 Summer",
+    "id": 3578,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Hold HS diploma and advanced training.",
+        "Possess US citizenship.",
+        "Qualify for Position of Trust.",
+        "Be local to Clearfield, Utah area.",
+        "Pursue a 4-year degree.",
+        "Pursue BS in Computer Science or related field.",
+        "Possess solid programming foundation in Java.",
+        "Able to quickly adapt and learn new technologies.",
+        "Maintain 3.0 GPA or above.",
+        "Currently be a Junior or Senior student.",
+        "Have excellent communication skills.",
+        "Proficient in Microsoft Office.",
+        "Passionate about learning and contributing value.",
+        "Ability to foster team dynamics and collaboration.",
+        "Have strong analytical and problem-solving skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Customer Applications Engineer",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32830",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3577,
+    "jd": null
+  },
+  {
+    "company": "ASSA ABLOY",
+    "role": "Software Developer Intern",
+    "link": "https://assaabloy.jobs2web.com/job/New-Haven-Software-Developer-Intern-CT-06511/1370661333/?ats=successfactors",
+    "location": "New Britain, CT",
+    "season": "2026 Summer",
+    "id": 3576,
+    "jd": null
+  },
+  {
+    "company": "Tatari",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/tatari/jobs/8451504002",
+    "location": "SFLANYC",
+    "season": "2026 Summer",
+    "id": 3575,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Bachelor\nT\nors or Master\nT\ns program in Computer Science or similar",
+        "Planning to return to school after the internship",
+        "Completed a minimum of two years of college/university",
+        "Experienced with Python or similar programming language",
+        "Possess basic understanding of relational databases and SQL",
+        "Possess solid understanding of math and basic statistics",
+        "Experienced with AI/ML tools in academic or personal projects",
+        "Self-motivated and curious, able to work independently",
+        "Able to commit to a 10-week internship between May and August"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tatari",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/tatari/jobs/8451505002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3574,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's program",
+        "Completed a minimum of two years of college/university",
+        "Experienced with Python or similar programming languages",
+        "Possess basic understanding of relational databases and SQL",
+        "Possess solid understanding of math and basic statistics",
+        "Experienced with AI/ML tools in academic or personal projects",
+        "Self-motivated and curious, with ability to work independently",
+        "Able to commit to a minimum 10-week internship"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tatari",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/tatari/jobs/8451506002",
+    "location": "SFLANYC",
+    "season": "2026 Summer",
+    "id": 3573,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's program in Computer Science or similar",
+        "Completed a minimum of two years of college/university",
+        "Experienced with Python or similar programming language",
+        "Possess a basic understanding of relational databases and SQL",
+        "Have a solid understanding of math and basic statistics",
+        "Experienced experimenting with or applying AI/ML tools",
+        "Self-motivated and curious, with the ability to work independently",
+        "Able to commit a minimum 10-weeks internship between May and August"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineer Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Ashburn/Software-Engineer-Intern---Summer-2026_322851",
+    "location": "Ashburn, VA",
+    "season": "2026 Summer",
+    "id": 3572,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a full-time Undergraduate or Graduate program.",
+        "Preferably pursuing a degree in Computer Science or related field.",
+        "Possess entry-level experience and knowledge of coding.",
+        "Experience using REST-based web services.",
+        "Familiarity with Agile software development methodologies.",
+        "Familiarity with modern web technologies such as HTML5, CSS, or JavaScript build tools.",
+        "Familiarity with Java Spring Boot.",
+        "Strong organizational skills and attention to detail.",
+        "Strong verbal and written communication skills.",
+        "Experience with Linux environment and Linux shell scripting.",
+        "Eagerness to learn modern infrastructure and support mission critical systems.",
+        "Familiarity with real-time communication mechanisms.",
+        "Familiarity with Node.",
+        "Familiarity with Spring, Docker, and/or Kubernetes.",
+        "Knowledge of microservices based architecture.",
+        "Familiarity with Elasticsearch and SQL based databases.",
+        "Familiarity with emerging trends in desktop, web, and mobile app development.",
+        "Experience with deployments, DevOps, and/or AWS.",
+        "Experience with Git."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "Software Engineer Intern/Co-op",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineer-Intern-Co-Op_JR-0087991",
+    "location": "Grand Rapids, MIAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3571,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop software for warehouse automation.",
+        "Deliver software projects to customer sites.",
+        "Participate in design and code reviews.",
+        "Provide customer support assistance.",
+        "Support sales process with product expertise.",
+        "Achieve specified targets on time.",
+        "Adhere to software development processes.",
+        "Contribute to process improvement.",
+        "Foster technical excellence and teamwork.",
+        "Working towards Computer Science degree.",
+        "Experienced in software development.",
+        "Experienced in customer interaction.",
+        "Knowledge of industrial automation.",
+        "Experienced in Java.",
+        "Proficient in English.",
+        "Positive attitude and supportive.",
+        "Excellent communication and problem-solving skills."
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
+    "company": "Span",
+    "role": "Mobile Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/span/722b25c6-e62e-44d3-ad9b-b2e1554a12f4/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3570,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's, Master's, or PhD in Computer Science or related field",
+        "Proficient in TypeScript or JavaScript (ES6+)",
+        "Experienced with React or React Native fundamentals",
+        "Strong understanding of data structures, algorithms, and software design principles",
+        "Able to write clean, maintainable, and well-tested code",
+        "Strong communication and collaboration skills",
+        "Enrolled in an accredited college or university",
+        "Experienced with React Native or Expo for mobile development",
+        "Familiar with reactive/real-time data patterns",
+        "Experienced with testing frameworks like Jest, React Testing Library, or Detox",
+        "Knowledgeable in gRPC, Protocol Buffers, or other API technologies",
+        "Understand electrical systems, energy, or cleantech domains",
+        "Contributed to open-source or personal mobile app projects",
+        "Experienced with monorepo tooling"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Alayacare",
+    "role": "Developer Intern",
+    "link": "https://alayacare.com/open-positions?gh_jid=8451707002",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 3569,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Assist in designing, coding, testing, and debugging software features.",
+        "Use GenAI tools to plan, generate, and test code.",
+        "Pair-program with senior developers and participate in code reviews.",
+        "Write and maintain automated tests.",
+        "Help investigate, reproduce, and resolve bugs.",
+        "Participate in team rituals.",
+        "Learn and apply modern development practices.",
+        "Familiarity with at least one programming language.",
+        "Interest in learning development tools and workflows.",
+        "Curiosity about current industry trends.",
+        "Strong communication and collaboration skills.",
+        "Bilingual in French and English is considered an asset."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "Software Engineer Intern/Co-op",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Grand-Rapids-MI-United-States/Software-Engineer-Intern-Co-Op_JR-0087991-1",
+    "location": "Grand Rapids, MIAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3568,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working to complete a Computer Science or related field degree",
+        "Experience with software development or programming",
+        "Experience interacting directly with customers",
+        "Possess knowledge of industrial automation",
+        "Proficient in Java",
+        "Full working proficiency in English",
+        "Demonstrate a positive, \"can-do\" attitude",
+        "Provide guidance and support to team members",
+        "Excellent communication skills",
+        "Excellent problem-solving skills",
+        "Excellent time management skills"
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "Application Developer Intern",
+    "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Phoenix-Arizona-United-States-Of-America/Application-Developer-Intern_JR-021842",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3567,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science or Software Engineering.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint.",
+        "Demonstrate leadership experience through work and school activities.",
+        "Possess an interest or background in technology.",
+        "Exhibit excellent communication, collaboration, and team building skills.",
+        "Be self-driven and independent, capable of working with clear direction.",
+        "Be willing to try new things.",
+        "Currently enrolled in an accredited Undergraduate degree program.",
+        "Complete coursework in your field of study, preferably finishing Junior year by May 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Zeiss",
+    "role": "Intern Software Engineer",
+    "link": "https://zeissgroup.wd3.myworkdayjobs.com/External/job/Dublin-CA/Intern----Software-Engineering_JR_1047725",
+    "location": "Dublin, CA",
+    "season": "2026 Summer",
+    "id": 3566,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor's degree in Computer Science or related STEM field"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CWAN",
+    "role": "Applications Intern-2",
+    "link": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Applications-Intern-2_R11563",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3565,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Basic programming skills in Java",
+        "Strong teamwork skills",
+        "Exceptional analytical skills",
+        "Strong computer skills, including proficiency in Microsoft Office",
+        "Excellent attention to detail and strong documentation skills",
+        "Outstanding verbal and written communication skills",
+        "Strong organizational and interpersonal skills",
+        "Exceptional problem-solving abilities",
+        "Currently pursue a four-year degree in Computer Science or related field",
+        "Learn development tools, best practices, and programming concepts",
+        "Collaborate successfully with peers in software development",
+        "Complete simple coding tasks independently",
+        "Incorporate feedback positively",
+        "Master team's business domain basics",
+        "Engage in design discussions and provide valuable input",
+        "Document, implement, and test high-quality features",
+        "Participate actively and constructively in code reviews"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CWAN",
+    "role": "Applications Intern-1",
+    "link": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---New-York/Applications-Intern-1_R11564",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3564,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Possess basic programming skills in Java",
+        "Possess strong teamwork skills",
+        "Demonstrate exceptional analytical skills",
+        "Possess strong computer skills, including Microsoft Office proficiency",
+        "Exhibit excellent attention to detail and strong documentation skills",
+        "Demonstrate outstanding verbal and written communication skills",
+        "Possess strong organizational and interpersonal skills",
+        "Exhibit exceptional problem-solving abilities",
+        "Be a current student pursuing a four-year degree in Computer Science or related field",
+        "Learn development tools, best practices, and programming concepts quickly",
+        "Collaborate successfully with peers in software development",
+        "Complete simple coding tasks independently",
+        "Incorporate feedback from team leads positively",
+        "Master the team's business domain basics",
+        "Engage in design discussions and provide valuable input",
+        "Document, implement, and test high-quality features",
+        "Participate actively in code reviews and submit code"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Proofpoint",
+    "role": "Backend Engineer Intern",
+    "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Belfast-Northern-Ireland/Backend-Engineer-Intern---Placement-Year-2026_R13856",
+    "location": "Belfast, UK",
+    "season": "2026 Summer",
+    "id": 3563,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Work with Python 3 and AWS to build backend services and distributed systems.",
+        "Collaborate within a cross-functional team.",
+        "Apply a product-aware mindset when designing and implementing solutions.",
+        "Contribute to a positive, supportive team environment.",
+        "Help maintain and support business-critical systems.",
+        "Work with highly sensitive data, following best practices.",
+        "Participate in technical discussions and design reviews.",
+        "Take ownership of well-scoped pieces of work from development to production.",
+        "Experience in backend software development.",
+        "Exposure to AWS or other public cloud platforms.",
+        "Possess a product-focused mindset.",
+        "Ability to identify issues and contribute to solutions proactively.",
+        "Comfortable working within established technical direction.",
+        "Willingness to share knowledge and learn from others.",
+        "Solid problem-solving skills.",
+        "Clear, thoughtful communication skills, both written and verbal."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Micron Technology",
+    "role": "Intern Design Engineer",
+    "link": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Design-Engineer_JR91681",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3562,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursuing MS in Electrical Engineering or BS with 3+ years experience (graduation not prior to Dec 2026)",
+        "Strong coding skills in Python, Bash/Tcl, and comfort with structured data and version control",
+        "Experienced with EDA scripting or APIs and building developer-friendly tools",
+        "Familiar with design flow concepts: PVT corners, simulation, DRC/LVS, EM/IR, signoff readiness",
+        "Interested in AI applications to EDA and physical/analog design workflows",
+        "Understanding of analog, digital, and mixed-signal circuit design",
+        "Familiar with layout planning, matching requirements, and LVS/DRC tools",
+        "Basic knowledge of industry simulators like VCS, HSPICE, Spectre",
+        "Experienced with Cadence tools and verification methodologies",
+        "Strong circuit debugging and problem-solving skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Caliber",
     "role": "Technician Apprentice Program – Body Apprentice",
     "link": "https://calibercollision.wd1.myworkdayjobs.com/caliber/job/Naperville-IL/Technician-Apprentice-Program---Body-Apprentice_R0214848",
