@@ -1,5 +1,56 @@
 [
   {
+    "company": "Tencent",
+    "role": "Game Research & Development Intern - Engine Research",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Game-Research---Development-Intern--Engine-Research_R107040",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3583,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Strong programming skills in C++, Python, or ML frameworks",
+        "Solid foundation in mathematics, including calculus, linear algebra, numerical analysis",
+        "Strong ownership, communication, and collaboration skills",
+        "Currently pursuing or a graduate of Master's or Ph.D. degree",
+        "Degree in Computer Science, Computer Graphics, Machine Learning, Robotics, or related field",
+        "Research experience or publications in computer graphics, vision, ML, or robotics",
+        "Familiarity with game engines, graphics APIs, and GPU programming"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Schweitzer Engineering Laboratories",
+    "role": "Software Engineering Intern",
+    "link": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern_2026-19993",
+    "location": "Moscow, ID",
+    "season": "2026 Summer",
+    "id": 3582,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete at least one year of technical coursework or equivalent programming experience.",
+        "Ability to execute and document defined testing procedures.",
+        "Possess strong writing, documentation, and speaking skills.",
+        "Ability to learn new skills and assume new responsibilities.",
+        "Ability to work cooperatively in a team environment.",
+        "Satisfactory background check results.",
+        "Negative drug test result(s).",
+        "Proficient in Python, JavaScript, or another scripting language.",
+        "Practical knowledge of developing Microsoft Windows applications.",
+        "Knowledge of SQL and database concepts.",
+        "Experience with Git or another revision control and source code management system.",
+        "Familiarity with AI-assisted and/or open-source software development."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Skechers",
     "role": "Full Stack & GenAI Engineer Intern",
     "link": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Full-Stack---GenAI-Engineer-Intern--Summer-2026-_JR125777",
