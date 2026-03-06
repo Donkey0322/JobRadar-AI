@@ -1,5 +1,93 @@
 [
   {
+    "company": "Arch Capital Group",
+    "role": "Software Engineering Intern",
+    "link": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Jersey-City-NJ-United-States-of-America/Software-Engineering-Intern_R26_200",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3597,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Completing study in Computer Science or relevant program",
+        "Maintain a minimum 3.0 GPA or higher",
+        "Be a current Junior, Senior, or graduate student with specific graduation dates",
+        "Possess curiosity, creativity, and willingness to experiment with new technologies",
+        "Strong analytical thinking and problem-solving skills",
+        "Exhibit a self-starter mindset and ability to work independently and collaboratively",
+        "Excellent written and verbal communication skills",
+        "Proficient in Java programming with Spring Boot experience",
+        "Experience with Angular front-end development",
+        "Understand REST APIs, microservices, and integration patterns",
+        "Experience with databases (SQL preferred) and data modeling",
+        "Exposure to AI/ML concepts and modern GenAI patterns",
+        "Familiar with prompt engineering, RAG, and embedding/vector search concepts",
+        "Interest or experience in Agentic AI, including designing auditable and safe behaviors",
+        "Familiarity with cloud platforms (AWS, Azure, GCP) is a plus",
+        "Exposure to Agile methodologies and JIRA",
+        "Experience with version control (Git/GitHub) and basic CI/CD is a plus"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Jabil",
+    "role": "Quality Assurance Intern – Cloud Applications",
+    "link": "https://jabil.wd5.myworkdayjobs.com/en-US/jabil_careers/job/Lexington-KY/Quality-Assurance-Intern---Cloud-Applications_J2437769",
+    "location": "Lexington, KY",
+    "season": "2026 Summer",
+    "id": 3596,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Rising Junior or Senior in Computer Science, Information Systems, or related field",
+        "Maintain a minimum GPA of 3.0",
+        "Exhibit strong attention to detail and methodical testing approach",
+        "Possess familiarity with web applications and basic software development concepts",
+        "Comfortable learning and using Jira and browser developer tools",
+        "Possess basic scripting or programming experience (JavaScript, Python, or similar)",
+        "Demonstrate effective communication",
+        "Be a self-starter with ability to drive work",
+        "Exhibit leadership skills: Agility, Building Trusting Relationships, Decision Making, Resilience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "iPipeline",
+    "role": "Software Developer Intern",
+    "link": "https://careers-ipipeline.icims.com/jobs/1596/software-developer-intern-%28summer-2026--professional-services%29/job",
+    "location": "Exton, PA",
+    "season": "2026 Summer",
+    "id": 3595,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "iPipeline",
+    "role": "Software Developer Intern",
+    "link": "https://careers-ipipeline.icims.com/jobs/1591/software-developer-intern-%28summer-2026---r%26d%29/job",
+    "location": "Fort Lauderdale, FL",
+    "season": "2026 Summer",
+    "id": 3594,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Unwrap",
     "role": "Full Stack Engineer Intern",
     "link": "https://jobs.ashbyhq.com/Unwrap/aa875007-108e-492b-86ad-1849f8740c5a/application",
