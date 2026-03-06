@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "VA-Herndon Office"
+}
+},
+"hiringOrganization" : {
+"name" : "T-Mobile USA, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026 Software Engineering Internship",
+"@type" : "PropertyValue",
+"value" : "REQ347453"
+},
+"datePosted" : "2026-03-06",
+"validThrough" : "2026-03-11",
+"employmentType" : "FULL_TIME",
+"title" : "Summer 2026 Software Engineering Internship",
+"description" : "T-Mobile is synonymous with innovation–and you could be part of the team that disrupted an entire industry! We reinvented customer service, brought real 5G to the nation, and now we’re shaping the future of technology in wireless and beyond. Our work is as exciting as it is rewarding, so consider the career opportunity below as your invitation to grow with us, make big things happen with us, above all, #BEYOU with us. Together, we won’t stop! Get hands-on experience, training—and a leg up on a bright future. Learn. Achieve. Build a career. T-Mobile is revolutionizing the wireless industry for millions of customers nationwide. Working here means rolling up your sleeves and redefining the status quo with a team that has your back every step of the way! This is an 11-week paid learning experience during which you’ll be able to connect and network with other interns and leaders within the company. We invite you to come innovate with mentors who will challenge you to develop meaningful skills. You’ll contribute your creativity and outstanding ideas, while working alongside T-Mobile employees. We’ll give you hands-on projects and the chance to create an immediate impact. What It’s Like The Smart Labs, Automation, and Performance team within the National Quality Engineering organization plays a critical role in advancing T‑Mobile’s network technology capabilities. The team operates across three core functions: Smart Labs: Focused on proof‑of‑concept testing for emerging technologies and network solutions. This includes feasibility studies, aligning research initiatives with cross‑functional teams, driving vendor implementations, evaluating business‑driven technology use cases, and performing deep protocol analysis. Automation and Performance: Responsible for RAN regression automation, load and stress performance evaluation, customer experience assessment, automated failure classification using AI‑driven and rule‑based algorithms, and zero‑touch UE log processing with automated root‑cause identification across multiple RAN software releases and features. Advanced Data Intelligence: The team performs sophisticated data mining across large volumes of test data to enable cutting‑edge troubleshooting techniques and accelerate issue resolution. What You’ll Do As an intern, you will contribute directly to RAN automation and performance engineering initiatives. You will: Support the design, development, testing, and deployment of software applications and tools in the RAN automation space Collaborate with cross‑functional teams to assist with data analysis and technical problem‑solving Participate in data mining and analytics, working with both structured and unstructured datasets to uncover patterns, trends, and actionable insights Write clean, scalable, and maintainable code that supports testing and automation workflows Present project outcomes and key learnings to engineering leadership at the end of the internship Key Responsibilities Develop a strong understanding of the current software stack, architectures, and system interactions Build tools that improve data structuring, visualization, and reporting across diverse testing environments Create meaningful dashboards to effectively communicate technical results and trends Contribute innovative ideas to enhance existing systems, processes, and services Apply AI‑based analysis to increase efficiency in post‑processing, log evaluation, and automated insights What It Takes Foundational knowledge of one or more programming languages (e.g., Python, Java, C++, JavaScript) Exposure to data analysis or data mining concepts (e.g., SQL, pandas, machine learning fundamentals, statistical analysis) Understanding of software development principles, object‑oriented programming, and AI/ML concepts Strong problem‑solving, coding, and analytical abilities Effective communication and collaboration skills in a technical team environment Minimum Qualifications At least 18 years of age Legally authorized to work in the United States Must be actively enrolled in a Bachelors or Graduate degree program Employees of T-Mobile or Metro by T-Mobile are ineligible for Internships Employer does not sponsor work visas for this position. Note that this also applies to individuals who are students in F-1 status who desire sponsorship after they complete their education. Relocation assistance may be provided to program participants who reside more than 50 miles from the internship location. Intern wages range from $26/hour to $47/hour. The successful candidate’s actual pay will be based on education/STEM vs non-STEM designation. Never stop growing! As part of the T-Mobile team, you know the Un-carrier doesn’t have a corporate ladder–it’s more like a jungle gym of possibilities! We love helping our employees grow in their careers, because it’s that shared drive to aim high that drives our business and our culture forward. By applying for this career opportunity, you’re living our values while investing in your career growth–and we applaud it. You’re unstoppable! T-Mobile USA, Inc. is an Equal Opportunity Employer. All decisions concerning the employment relationship will be made without regard to age, race, ethnicity, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, religious affiliation, marital status, citizenship status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law. Discrimination, retaliation or harassment based upon any of these factors is wholly inconsistent with how we do business and will not be tolerated. Talent comes in all forms at the Un-carrier. If you are an individual with a disability and need reasonable accommodation at any point in the application or interview process, please let us know by emailing ApplicantAccommodation@t-mobile.com or calling 1-844-873-9500. Please note, this contact channel is not a means to apply for or inquire about a position and we are unable to respond to non-accommodation related requests. T-Mobile U.S. Inc. (NASDAQ: TMUS) is America’s supercharged Un-carrier, delivering an advanced 4G LTE and transformative nationwide 5G network that will offer reliable connectivity for all. T-Mobile’s customers benefit from its unmatched combination of value and quality, unwavering obsession with offering them the best possible service experience and undisputable drive for disruption that creates competition and innovation in wireless and beyond. Based in Bellevue, Wash., T-Mobile provides services through its subsidiaries and operates its flagship brands, T-Mobile, Metro by T-Mobile and Sprint. For more information please visit: http://www.t-mobile.com We take equal opportunity seriously—by choice. T-Mobile USA, Inc. is an Equal Opportunity Employer. All decisions concerning the employment relationship will be made without regard to age, race, ethnicity, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, religious affiliation, marital status, citizenship status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law. Discrimination, retaliation or harassment based upon any of these factors is wholly inconsistent with how we do business and will not be tolerated. T-Mobile USA, Inc. maintains a drug-free workplace. The unlawful manufacture, sale, distribution, dispensation, possession, or use of a controlled substance or marijuana is prohibited in T-Mobile's workplace and employee conduct in violation of this prohibition is subject to employer discipline, including termination. We are committed to maintaining your trust by respecting and protecting your privacy. For more information about how T-Mobile processes the personal data of job applicants, please visit Applicant Privacy Notice.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "VA-Herndon Office"
+}
+},
+"hiringOrganization" : {
+"name" : "T-Mobile USA, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026 Software Engineering Internship",
+"@type" : "PropertyValue",
+"value" : "REQ347453"
+},
+"datePosted" : "2026-03-06",
+"validThrough" : "2026-03-11",
+"employmentType" : "FULL_TIME",
+"title" : "Summer 2026 Software Engineering Internship",
+"description" : "T-Mobile is synonymous with innovation–and you could be part of the team that disrupted an entire industry! We reinvented customer service, brought real 5G to the nation, and now we’re shaping the future of technology in wireless and beyond. Our work is as exciting as it is rewarding, so consider the career opportunity below as your invitation to grow with us, make big things happen with us, above all, #BEYOU with us. Together, we won’t stop! Get hands-on experience, training—and a leg up on a bright future. Learn. Achieve. Build a career. T-Mobile is revolutionizing the wireless industry for millions of customers nationwide. Working here means rolling up your sleeves and redefining the status quo with a team that has your back every step of the way! This is an 11-week paid learning experience during which you’ll be able to connect and network with other interns and leaders within the company. We invite you to come innovate with mentors who will challenge you to develop meaningful skills. You’ll contribute your creativity and outstanding ideas, while working alongside T-Mobile employees. We’ll give you hands-on projects and the chance to create an immediate impact. What It’s Like The Smart Labs, Automation, and Performance team within the National Quality Engineering organization plays a critical role in advancing T‑Mobile’s network technology capabilities. The team operates across three core functions: Smart Labs: Focused on proof‑of‑concept testing for emerging technologies and network solutions. This includes feasibility studies, aligning research initiatives with cross‑functional teams, driving vendor implementations, evaluating business‑driven technology use cases, and performing deep protocol analysis. Automation and Performance: Responsible for RAN regression automation, load and stress performance evaluation, customer experience assessment, automated failure classification using AI‑driven and rule‑based algorithms, and zero‑touch UE log processing with automated root‑cause identification across multiple RAN software releases and features. Advanced Data Intelligence: The team performs sophisticated data mining across large volumes of test data to enable cutting‑edge troubleshooting techniques and accelerate issue resolution. What You’ll Do As an intern, you will contribute directly to RAN automation and performance engineering initiatives. You will: Support the design, development, testing, and deployment of software applications and tools in the RAN automation space Collaborate with cross‑functional teams to assist with data analysis and technical problem‑solving Participate in data mining and analytics, working with both structured and unstructured datasets to uncover patterns, trends, and actionable insights Write clean, scalable, and maintainable code that supports testing and automation workflows Present project outcomes and key learnings to engineering leadership at the end of the internship Key Responsibilities Develop a strong understanding of the current software stack, architectures, and system interactions Build tools that improve data structuring, visualization, and reporting across diverse testing environments Create meaningful dashboards to effectively communicate technical results and trends Contribute innovative ideas to enhance existing systems, processes, and services Apply AI‑based analysis to increase efficiency in post‑processing, log evaluation, and automated insights What It Takes Foundational knowledge of one or more programming languages (e.g., Python, Java, C++, JavaScript) Exposure to data analysis or data mining concepts (e.g., SQL, pandas, machine learning fundamentals, statistical analysis) Understanding of software development principles, object‑oriented programming, and AI/ML concepts Strong problem‑solving, coding, and analytical abilities Effective communication and collaboration skills in a technical team environment Minimum Qualifications At least 18 years of age Legally authorized to work in the United States Must be actively enrolled in a Bachelors or Graduate degree program Employees of T-Mobile or Metro by T-Mobile are ineligible for Internships Employer does not sponsor work visas for this position. Note that this also applies to individuals who are students in F-1 status who desire sponsorship after they complete their education. Relocation assistance may be provided to program participants who reside more than 50 miles from the internship location. Intern wages range from $26/hour to $47/hour. The successful candidate’s actual pay will be based on education/STEM vs non-STEM designation. Never stop growing! As part of the T-Mobile team, you know the Un-carrier doesn’t have a corporate ladder–it’s more like a jungle gym of possibilities! We love helping our employees grow in their careers, because it’s that shared drive to aim high that drives our business and our culture forward. By applying for this career opportunity, you’re living our values while investing in your career growth–and we applaud it. You’re unstoppable! T-Mobile USA, Inc. is an Equal Opportunity Employer. All decisions concerning the employment relationship will be made without regard to age, race, ethnicity, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, religious affiliation, marital status, citizenship status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law. Discrimination, retaliation or harassment based upon any of these factors is wholly inconsistent with how we do business and will not be tolerated. Talent comes in all forms at the Un-carrier. If you are an individual with a disability and need reasonable accommodation at any point in the application or interview process, please let us know by emailing ApplicantAccommodation@t-mobile.com or calling 1-844-873-9500. Please note, this contact channel is not a means to apply for or inquire about a position and we are unable to respond to non-accommodation related requests. T-Mobile U.S. Inc. (NASDAQ: TMUS) is America’s supercharged Un-carrier, delivering an advanced 4G LTE and transformative nationwide 5G network that will offer reliable connectivity for all. T-Mobile’s customers benefit from its unmatched combination of value and quality, unwavering obsession with offering them the best possible service experience and undisputable drive for disruption that creates competition and innovation in wireless and beyond. Based in Bellevue, Wash., T-Mobile provides services through its subsidiaries and operates its flagship brands, T-Mobile, Metro by T-Mobile and Sprint. For more information please visit: http://www.t-mobile.com We take equal opportunity seriously—by choice. T-Mobile USA, Inc. is an Equal Opportunity Employer. All decisions concerning the employment relationship will be made without regard to age, race, ethnicity, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, religious affiliation, marital status, citizenship status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law. Discrimination, retaliation or harassment based upon any of these factors is wholly inconsistent with how we do business and will not be tolerated. T-Mobile USA, Inc. maintains a drug-free workplace. The unlawful manufacture, sale, distribution, dispensation, possession, or use of a controlled substance or marijuana is prohibited in T-Mobile's workplace and employee conduct in violation of this prohibition is subject to employer discipline, including termination. We are committed to maintaining your trust by respecting and protecting your privacy. For more information about how T-Mobile processes the personal data of job applicants, please visit Applicant Privacy Notice.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "tmobile",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=tmobile&s=External",
+token: "31968483-d74b-4c2b-bc92-36aebef78ab3",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","86e121d8686e100037e6d4083cb50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#E20074","textColor":"#E20074"},"progressBar":{"color":"#E20074"},"button":{"primary":{"color":"#E20074","borderColor":"#E20074","textColor":"#FFFFFF","hover":{"color":"#BA0060","borderColor":"#BA0060","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#000000","textColor":"#000000","hover":{"color":"#E8E8E8","borderColor":"#000000","textColor":"#000000"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"ef7987319e8301011be44eba5ba70001","altText":null}},"banner":{"color":"#E20074","textColor":"#FFFFFF","image":{"id":"ef7987319e8301011be44e20379d0001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

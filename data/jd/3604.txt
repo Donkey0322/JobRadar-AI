@@ -1,0 +1,35 @@
+About Clockwork Systems
+Clockwork.io – Software Driven Fabrics to increase GPU cluster utilization
+Clockwork Systems was founded by Stanford researchers and veteran systems engineers who share a vision for redefining the foundations of distributed computing. As AI workloads grow increasingly complex, traditional infrastructure struggles to meet the demands of performance, reliability, and precise coordination. Clockwork is pioneering a software-driven approach to AI fabrics by delivering cross-stack observability to catch and quickly resolve problems, workload fault tolerance to keep jobs running through failures, and performance acceleration that dynamically routes and paces traffic to avoid congestion.
+To learn more, visit www.clockwork.io.We are looking for Systems Software Engineer Interns who are passionate about low-level systems programming, Linux internals, networking, and performance engineering. You will work with experienced engineers designing and building high-performance distributed systems.
+If you enjoy research, deep systems exploration, and solving hard infrastructure problems, this role is for you.
+Responsibilities
+Design and implement high-performance, scalable systems software
+Develop low-latency infrastructure components in C/C++
+Work across Linux systems, networking stacks, and distributed runtime environments
+Analyze and debug system performance issues
+Optimize applications across CPU, memory, network, and GPU layers
+Collaborate with engineers on systems architecture and performance improvements
+Required Qualifications
+Experience with C/C++ systems programming
+Strong understanding of Linux internals (system calls, memory management, kernel modules)
+Experience with multithreading, concurrency, and synchronization
+Knowledge of TCP/IP networking and socket programming
+Strong understanding of computer architecture (CPU caches, memory hierarchy, multi-core systems)
+Experience with systems debugging and performance analysis tools
+Strong problem-solving and analytical skills
+Preferred Qualifications
+Experience with low-latency networking technologies (RDMA, DPDK, XDP)
+Familiarity with HPC environments or distributed systems
+Experience with MPI, RPC frameworks, or distributed runtimes
+Experience with GPU programming (CUDA, NCCL, GPU kernels)
+Familiarity with RDMA APIs such as libibverbs
+Experience with NIC architecture or network drivers
+Contributions to open-source systems software or Linux kernel
+What We Offer
+Competitive compensation
+Opportunity to work on cutting-edge distributed systems
+Collaborative and inclusive team culture
+Catered lunches
+Located in the heart of Silicon Valley
+Clockwork Systems is an equal opportunity employer. We are committed to building world-class teams by welcoming bright, passionate individuals from all backgrounds. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, religion, age, sex, sexual orientation, gender identity or expression, national origin, disability, or protected veteran status. We believe diversity drives innovation, and we grow stronger together.

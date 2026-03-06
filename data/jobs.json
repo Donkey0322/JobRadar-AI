@@ -1,5 +1,182 @@
 [
   {
+    "company": "Genesis Therapeutics",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/genesis-therapeutics/ba13bf24-9c7a-46c7-9d58-ab4b7a901734/application",
+    "location": "San Mateo, CANYC",
+    "season": "2026 Fall",
+    "id": 3607,
+    "jd": null
+  },
+  {
+    "company": "SSOE Group",
+    "role": "Software Developer Intern",
+    "link": "https://careers-ssoe.icims.com/jobs/3539/job?mobile=true&needsRedirect=false",
+    "location": "Toledo, OH",
+    "season": "2026 Summer",
+    "id": 3606,
+    "jd": null
+  },
+  {
+    "company": "Zebra Technologies",
+    "role": "Intern - Software Engineer - Corporate and Business Services",
+    "link": "https://zebra.eightfold.ai/careers/job/343638073364",
+    "location": "Lake Grove, NY",
+    "season": "2026 Summer",
+    "id": 3605,
+    "jd": null
+  },
+  {
+    "company": "Clockwork Systems",
+    "role": "Systems Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/clockworksystems/jobs/5821303004",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "id": 3604,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with C/C++ systems programming",
+        "Strong understanding of Linux internals",
+        "Experience with multithreading, concurrency, and synchronization",
+        "Knowledge of TCP/IP networking and socket programming",
+        "Strong understanding of computer architecture",
+        "Experience with systems debugging and performance analysis tools",
+        "Strong problem-solving and analytical skills",
+        "Experience with low-latency networking technologies",
+        "Familiarity with HPC environments or distributed systems",
+        "Experience with MPI, RPC frameworks, or distributed runtimes",
+        "Experience with GPU programming",
+        "Familiarity with RDMA APIs such as libibverbs",
+        "Experience with NIC architecture or network drivers",
+        "Contributions to open-source systems software or Linux kernel"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "T-Mobile",
+    "role": "Software Engineer Intern",
+    "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Herndon-Virginia/Summer-2026-Software-Engineering-Internship_REQ347453",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 3603,
+    "jd": null
+  },
+  {
+    "company": "Kaiser Permanente",
+    "role": "IT Bachelor Intern",
+    "link": "https://kp.taleo.net/careersection/external/jobdetail.ftl?job=1410178",
+    "location": "11 locationsWashingtonOregonCaliforniaWashington, DCWaterbury, CTGeorgiaVirginiaColoradoMarylandHawaiiIllinois",
+    "season": "2026 Summer",
+    "id": 3602,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have a High School Diploma or GED.",
+        "Be pursuing or recently graduated with a Bachelor's degree from an accredited university.",
+        "Possess an aptitude to perform data and process analytics.",
+        "Formulate solutions.",
+        "Build effective working relationships.",
+        "Possess strong interpersonal skills.",
+        "Have working knowledge of MS Word, Excel, PowerPoint.",
+        "Maintain a 3.0 GPA or above.",
+        "Demonstrate advanced analytical and problem-solving skills.",
+        "Exhibit excellent verbal and written communication skills.",
+        "Learn quickly and produce high quality work.",
+        "Experience in software development.",
+        "Experience within the Azure Cloud ecosystem.",
+        "Experience with modern JavaScript frameworks.",
+        "Experience with mobile application development.",
+        "Experience in product management.",
+        "Majored in Computer Science or Data Science.",
+        "Proficient in Javascript Frameworks React/Angular/Node JS.",
+        "Proficient in Java.",
+        "Proficient in Oracle SQL.",
+        "Possess Product Management skills.",
+        "Possess Solutioning skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "NVIDIA",
+    "role": "Software Engineering Intern - CUDA Build and Packaging",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--CUDA-Build-and-Packaging---Summer-2026_JR2012415-1",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3601,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue BS, MS, or PhD in Computer Science, Computer Engineering, or related field.",
+        "Experienced with build systems like CMake, scikit-build-core, and packaging in Conda/PyPi.",
+        "Familiar with CI/CD systems like GitHub/GitLab and Docker images.",
+        "Familiar with debugging build system and compiler output in C++, CUDA, Python environments.",
+        "Experienced with software libraries or open-source projects, including testing, profiling, and code reviews.",
+        "Able to work independently and drive projects to completion.",
+        "Clear written communication for design and documentation.",
+        "Knowledgeable in CPU/GPU architecture and its impact on performance.",
+        "Familiar with binary library compilation, linking, packaging, and deployment on Linux/Windows.",
+        "Familiar with compiler infrastructure and tooling like LLVM, Clang, or MLIR.",
+        "Comfortable navigating and debugging large multi-language codebases.",
+        "Interested in developer tools, library design, and enhancing developer productivity."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Precisely",
+    "role": "Full Stack Developer Intern",
+    "link": "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3600,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Computer Science or related field.",
+        "Possess basic knowledge of Python and JavaScript programming.",
+        "Eager to learn about web development frameworks and libraries.",
+        "Interested in object-oriented programming, REST APIs, and data validation.",
+        "Exposed to version control (Git) and testing concepts.",
+        "Possess strong problem-solving and communication skills.",
+        "Willing to take initiative and accept feedback.",
+        "Work effectively in a team and follow instructions.",
+        "Interested in AI/ML-related libraries or frameworks.",
+        "Exposed to backend development, data engineering, or cloud platforms.",
+        "Familiar with frontend technologies (HTML, CSS, React, Vue)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Roku",
+    "role": "Software Engineer Intern - Observability",
+    "link": "https://www.weareroku.com/jobs/7687825?gh_jid=7687825",
+    "location": "Cardiff, UK",
+    "season": "2026 Summer",
+    "id": 3599,
+    "jd": null
+  },
+  {
+    "company": "Golden Hippo",
+    "role": "Web Production Intern",
+    "link": "https://www.golden-careers.com/jobs/4668074005?gh_jid=4668074005",
+    "location": "Canoga Park, LA",
+    "season": "2026 Summer",
+    "id": 3598,
+    "jd": null
+  },
+  {
     "company": "Arch Capital Group",
     "role": "Software Engineering Intern",
     "link": "https://archgroup.wd1.myworkdayjobs.com/careers/job/Jersey-City-NJ-United-States-of-America/Software-Engineering-Intern_R26_200",
