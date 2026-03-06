@@ -59,6 +59,28 @@ function calculateCost(response: GenerateContentResponse) {
   }
 }
 
+async function callGeminiWithRetry(fn: () => Promise<GenerateContentResponse>, retries = 5) {
+  let delay = 2000;
+
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await fn();
+      calculateCost(response);
+      return response;
+    } catch (e) {
+      if (e instanceof ApiError && e.status === 503) {
+        await new Promise((r) => setTimeout(r, delay));
+        delay *= 2;
+        continue;
+      }
+      console.error(`Error calling Gemini: ${e}`);
+      return null;
+    }
+  }
+
+  throw new Error("Gemini failed after retries");
+}
+
 export default async function callGemini(
   contextText: string,
   model: string = DEFAULT_MODEL
@@ -101,22 +123,8 @@ export default async function callGemini(
 
   try {
     const client = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
-    const response = await client.models.generateContent({
-      model,
-      contents: prompt,
-      config: {
-        responseMimeType: "application/json",
-        responseSchema: JD_SCHEMA,
-      },
-    });
-    calculateCost(response);
-
-    return response.text ?? null;
-  } catch (e) {
-    if (PERSONAL_GEMINI_API_KEY && e instanceof ApiError && e.status === 429) {
-      console.log("❌ Rate limit exceeded. Retrying with personal API key...");
-      const client = new GoogleGenAI({ apiKey: PERSONAL_GEMINI_API_KEY });
-      const response = await client.models.generateContent({
+    const fn = () =>
+      client.models.generateContent({
         model,
         contents: prompt,
         config: {
@@ -124,8 +132,23 @@ export default async function callGemini(
           responseSchema: JD_SCHEMA,
         },
       });
-      calculateCost(response);
-      return response.text ?? null;
+    const response = await callGeminiWithRetry(fn);
+    return response?.text ?? null;
+  } catch (e) {
+    if (PERSONAL_GEMINI_API_KEY && e instanceof ApiError && e.status === 429) {
+      console.log("❌ Rate limit exceeded. Retrying with personal API key...");
+      const client = new GoogleGenAI({ apiKey: PERSONAL_GEMINI_API_KEY });
+      const fn = () =>
+        client.models.generateContent({
+          model,
+          contents: prompt,
+          config: {
+            responseMimeType: "application/json",
+            responseSchema: JD_SCHEMA,
+          },
+        });
+      const response = await callGeminiWithRetry(fn);
+      return response?.text ?? null;
     }
     console.error(`Error calling Gemini: ${e}`);
     return null;

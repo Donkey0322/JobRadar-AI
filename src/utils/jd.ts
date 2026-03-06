@@ -65,7 +65,6 @@ async function visibleTextFromHtml(
         text = jd.text();
         break;
       }
-      case "workday":
       case "smartrecruiters": {
         const meta = $('meta[property="og:description"]').first();
         if (!meta.length) return null;
@@ -73,6 +72,7 @@ async function visibleTextFromHtml(
         text = meta.attr("content") ?? "";
         break;
       }
+      case "workday":
       default: {
         const script = $('script[type="application/ld+json"]').first();
         if (script.length) {
@@ -158,6 +158,7 @@ export async function analyzeLink(link: string): Promise<JD | null> {
   const jdText = await visibleTextFromHtml(html, urlType, link);
 
   if (jdText) {
+    // await fs.writeFile("jd.txt", html, "utf-8");
     const aiResponse = await analyze(jdText);
     if (aiResponse) {
       try {
