@@ -1,5 +1,62 @@
 [
   {
+    "company": "Skechers",
+    "role": "Full Stack & GenAI Engineer Intern",
+    "link": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Full-Stack---GenAI-Engineer-Intern--Summer-2026-_JR125777",
+    "location": "El Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3581,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong interest in Full Stack Development and GenAI technologies.",
+        "Passionate about learning new technologies.",
+        "Curiosity-driven mindset.",
+        "Strong verbal and written communication skills.",
+        "Able to work collaboratively in a team environment.",
+        "Demonstrated interest in business-value driven AI solutions.",
+        "Articulate technical and AI ideas in clear business terms.",
+        "Pursuing a degree in Computer Science or related field.",
+        "Familiar with JavaScript, Python, and Java programming.",
+        "Basic knowledge of React, Vue, or similar frameworks.",
+        "Experienced with Node.js or Python backend services and REST APIs.",
+        "Familiar with LLMs, prompt engineering, and AI workflows.",
+        "Exposed to AWS, Git/GitHub.",
+        "Fundamental knowledge of SQL and/or NoSQL databases."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "Application Developer Intern",
+    "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Phoenix-Arizona-United-States-Of-America/Application-Developer-Intern_JR-021842",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3580,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science or Software Engineering",
+        "Maintain a cumulative GPA of 3.0 or higher",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint",
+        "Demonstrate leadership experience through work and school activities",
+        "Possess interest or background in technology",
+        "Exhibit excellent communication, collaboration, and team-building skills",
+        "Be self-driven and independent, capable of working with clear direction",
+        "Demonstrate willingness to try new things",
+        "Currently enrolled in an accredited undergraduate degree program",
+        "Completed coursework in fields of study",
+        "Ideally finishing Junior year by May 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Intern Engineer",
     "link": "https://careers-gdms.icims.com/jobs/71285/job?mobile=true&needsRedirect=false",
