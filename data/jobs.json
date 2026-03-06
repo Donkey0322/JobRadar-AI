@@ -1,5 +1,79 @@
 [
   {
+    "company": "Unwrap",
+    "role": "Full Stack Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/Unwrap/aa875007-108e-492b-86ad-1849f8740c5a/application",
+    "location": "Santa Barbara, CA",
+    "season": "2026 Summer",
+    "id": 3593,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with frontend and backend software systems",
+        "Develop high-quality products that solve real customer problems",
+        "Actively develop software (80%+ of time)",
+        "Own and ship robust, high-quality software",
+        "Comfortable with ambiguous product requirements",
+        "Comfortable meeting with customers"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Unlikely AI",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/unlikelyai/a0f38397-9feb-407c-bb4e-94db4f3157ad/application",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3592,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "UK",
+      "qualifications": [
+        "Strong foundation in computer science fundamentals",
+        "Experience with programming languages such as Python, TypeScript, or similar",
+        "Passion for building products and solving complex problems",
+        "Excellent communication and collaboration skills",
+        "Enthusiasm for learning new technologies and approaches",
+        "Design, build, and deploy features for core products",
+        "Collaborate with cross-functional teams",
+        "Write clean, maintainable code",
+        "Contribute to architectural decisions and technical discussions"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tilde Research",
+    "role": "Kernel Engineer – Intern and Full-time",
+    "link": "https://jobs.ashbyhq.com/tilderesearch/bc4e4071-cf64-4460-8265-b1e5a603d6b8/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3591,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience in deep learning or related research areas.",
+        "Demonstrated exceptional capability in ML kernels.",
+        "Strong open-source contributions.",
+        "Thoughtful technical blog posts or work logs.",
+        "Previous experience with hardware-aligned algorithms.",
+        "Deep familiarity with PyTorch, Triton/TK/TileLang.",
+        "Basic familiarity with CUDA.",
+        "Knowledge of GPU architecture.",
+        "Communicate clearly and effectively.",
+        "Strong algorithmic thinking skills.",
+        "Ability to learn quickly."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Rolls Royce",
     "role": "Quality Software Intern",
     "link": "https://jobs.bmwgroup.com/job/Greer-MN-80-Quality-Software-Intern-(Fall-2026)-IN/1370809433/?ats=successfactors",
