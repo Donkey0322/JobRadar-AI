@@ -1,5 +1,204 @@
 [
   {
+    "company": "Intel",
+    "role": "Compiler Engineering Intern - Performance Tracking and Analysis",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern---Performance-Tracking-and-Analysis_JR0281250",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3615,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards a degree in Computer Science, Computer Engineering or related field",
+        "Possess good knowledge of algorithms and data structures",
+        "Demonstrate excellent development and debugging skills in C/C++/Assembly/Java/Python",
+        "Exhibit excellent written and oral communication skills",
+        "Able to clearly communicate technical details and concepts",
+        "Experienced in Parallel Programming, such as OpenMP, OpenCL, CUDA",
+        "Experienced in CPU and GPU performance tracking and analysis",
+        "Possess good knowledge of compilers like LLVM/GCC, Intel Architecture, or GPU",
+        "Proven track record of analyzing and solving complex technical problems",
+        "Demonstrate precise attention to details",
+        "Motivated to learn and improve product performance"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Proofpoint",
+    "role": "Backend Engineer Intern",
+    "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Belfast-Northern-Ireland/Beckend-Engineer-Intern---Placement-Year-2026_R13855",
+    "location": "Belfast, UK",
+    "season": "2026 Summer",
+    "id": 3614,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Proficient in Python-based microservices.",
+        "Experience with AWS cloud.",
+        "Knowledge of DynamoDB and PostgreSQL.",
+        "Familiarity with Terraform.",
+        "Skilled in Docker, CircleCI, and GitHub.",
+        "Solve problems of diverse scope.",
+        "Analyze data for identifiable factors.",
+        "Demonstrate good judgment in selecting methods for solutions.",
+        "Collaborate with senior engineers.",
+        "Take initiative on tasks.",
+        "Ship code to production using CI/CD.",
+        "Tackle challenges with sensitive data.",
+        "Value outcome-driven work.",
+        "Value collaborative thinking.",
+        "Value data-informed decision-making."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CCC Intelligent Solutions",
+    "role": "Software Engineer Intern - Svt Team",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Software-Engineer-Intern--SVT-Team----Summer-2026_0014516",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3613,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completed sophomore/junior year at a top-tier university",
+        "Demonstrated excellence in academic studies",
+        "Possess strong collaborative skills",
+        "Work well with a team",
+        "Experience with Java OO development",
+        "Proficient in HTML, CSS, Angular, and Vue",
+        "Experienced in Spring, REST (consuming/creating), and Hibernate",
+        "Exposure to Storm/Kafka or other Big Data"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CCC Intelligent Solutions",
+    "role": "Software Engineer Intern",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Software-Engineer-Intern--Consumer----Summer-2026_0014515",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3612,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completed sophomore/junior year at a top-tier university",
+        "Demonstrated excellence in academic studies",
+        "Strong collaborative skills",
+        "Work well with a team",
+        "Experience in Java OO development",
+        "Experience in HTML, CSS, Angular, and Vue",
+        "Experience in Spring, REST (consuming/creating), and Hibernate",
+        "Exposure to Storm/Kafka or other Big Data"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer Intern/Co-op",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32446",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 3611,
+    "jd": null
+  },
+  {
+    "company": "Centerfield",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/centerfield/3bcb68d6-1d15-4554-b804-bb6ee52f2e53/application",
+    "location": "Culver City, CA",
+    "season": "2026 Summer",
+    "id": 3610,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Develop high quality custom scripts to manipulate data.",
+        "Debug and review code.",
+        "Query and manipulate data at scale.",
+        "Integrate third-party APIs.",
+        "Build UI features for customer facing web applications.",
+        "Cross-collaborate with other departments.",
+        "Eager to learn new skills.",
+        "Rising senior or new graduate expecting degree completion by Spring 2026.",
+        "Completion of relevant bootcamps.",
+        "Interest in digital marketing or advertising industry.",
+        "Pursuing a degree in Computer Science or a relevant field.",
+        "Gain knowledge in SQL and relational database concepts.",
+        "Familiarity with data storage and retrieval systems.",
+        "Understand web technologies such as Node.js and Python.",
+        "Working understanding of JavaScript frameworks and libraries like jQuery.",
+        "Develop literacy in Front End languages like HTML, React, and JavaScript.",
+        "Develop literacy in Back End languages like PHP, C#, and Java.",
+        "Working understanding of cloud-based technologies such as AWS and Azure.",
+        "Familiarity with Search Engine Optimization concepts."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veolia",
+    "role": "Integrations Intern",
+    "link": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113259677",
+    "location": "Paramus, NJ",
+    "season": "2026 Summer",
+    "id": 3609,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess High School Diploma/GED",
+        "Working towards a four-year degree",
+        "Achieve Senior status in Computer Science, Data Science, or related major",
+        "Maintain 3.2 Cumulative G.P.A",
+        "Possess strong communication skills",
+        "Demonstrated ability to build collaborative relationships"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Clockwork Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/clockworksystems/jobs/5821413004",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "id": 3608,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s, Master’s, or PhD in Computer Science, EE, or related field.",
+        "Strong programming skills in Python, Java, C++, Go, or JavaScript/TypeScript.",
+        "Experience with frontend frameworks such as React, Angular, Vue.",
+        "Experience with backend frameworks such as Django, Node.js, Spring.",
+        "Solid understanding of databases, REST APIs, and software design principles.",
+        "Knowledge of data structures, algorithms, and full-stack development concepts.",
+        "Strong problem-solving, debugging, and communication skills.",
+        "Experience with cloud platforms like AWS, GCP, Azure.",
+        "Familiarity with containers and orchestration such as Docker, Kubernetes.",
+        "Exposure to low-latency or high-performance systems.",
+        "Previous full-stack project experience."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Genesis Therapeutics",
     "role": "Software Engineer Intern",
     "link": "https://jobs.ashbyhq.com/genesis-therapeutics/ba13bf24-9c7a-46c7-9d58-ab4b7a901734/application",
