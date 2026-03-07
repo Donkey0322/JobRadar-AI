@@ -73,13 +73,14 @@ async function callGeminiWithRetry(fn: () => Promise<GenerateContentResponse>, r
         delay *= 2;
         continue;
       }
-      console.error(`Error calling Gemini: ${e}`);
-      return null;
+      throw e;
     }
   }
 
   throw new Error("Gemini failed after retries");
 }
+
+let RPD_REACHED = false;
 
 export default async function callGemini(
   contextText: string,
@@ -121,34 +122,30 @@ export default async function callGemini(
     ---END JD TEXT---
   `;
 
+  const params = {
+    model,
+    contents: prompt,
+    config: {
+      responseMimeType: "application/json",
+      responseSchema: JD_SCHEMA,
+    },
+  };
+
+  const apiKey = RPD_REACHED ? PERSONAL_GEMINI_API_KEY : GEMINI_API_KEY;
+  if (!apiKey) {
+    return null;
+  }
+
   try {
-    const client = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
-    const fn = () =>
-      client.models.generateContent({
-        model,
-        contents: prompt,
-        config: {
-          responseMimeType: "application/json",
-          responseSchema: JD_SCHEMA,
-        },
-      });
+    const client = new GoogleGenAI({ apiKey });
+    const fn = () => client.models.generateContent(params);
     const response = await callGeminiWithRetry(fn);
     return response?.text ?? null;
   } catch (e) {
-    if (PERSONAL_GEMINI_API_KEY && e instanceof ApiError && e.status === 429) {
+    if (e instanceof ApiError && e.status === 429 && apiKey === GEMINI_API_KEY) {
       console.log("❌ Rate limit exceeded. Retrying with personal API key...");
-      const client = new GoogleGenAI({ apiKey: PERSONAL_GEMINI_API_KEY });
-      const fn = () =>
-        client.models.generateContent({
-          model,
-          contents: prompt,
-          config: {
-            responseMimeType: "application/json",
-            responseSchema: JD_SCHEMA,
-          },
-        });
-      const response = await callGeminiWithRetry(fn);
-      return response?.text ?? null;
+      RPD_REACHED = true;
+      return await callGemini(contextText, model);
     }
     console.error(`Error calling Gemini: ${e}`);
     return null;
