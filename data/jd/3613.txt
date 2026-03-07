@@ -1,0 +1,119 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Chicago (Green St), IL"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "40 CCC Intelligent Solutions Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern (SVT Team) - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "0014516"
+},
+"datePosted" : "2026-03-06",
+"validThrough" : "2026-03-09",
+"employmentType" : "PART_TIME",
+"title" : "Software Engineer Intern (SVT Team) - Summer 2026",
+"description" : "Pay Rate/Hourly Range: The hourly range is $20.00 - $43.00 per hour. Pay is based on factors including school year, program of study, role responsibilities, etc. CCC Intelligent Solutions Inc. (CCC) is a leading cloud platform for the multi-trillion-dollar insurance economy, creating intelligent experiences for insurers, repairers, automakers, part suppliers, and more. At CCC, we’re making life just work by empowering more than 35,000 businesses with industry-leading technology to get drivers back on the road and to health quickly and seamlessly. We’re pushing boundaries with innovative AI solutions that simplify and enhance the claims and repair journey. Through purposeful innovation and the strength of its connections, CCC technologies empower the people and industry relied upon to keep lives moving forward when it matters most. Learn more about CCC at www.cccis.com. The Role Our program is designed to #CCCJumpstart your career! As a Software Engineer Intern on the Casualty Engineering team, you will gain hands-on experience developing modern cloud-based applications using the Microsoft technology stack. You’ll work closely with experienced engineers and technical leaders, contribute to real product features, and learn how modern enterprise software is built—from design and development to testing and delivery. You’ll also participate in CCC’s internship programming, including professional development workshops, intern networking events, and Lunch &amp; Learns with CCC leaders. Key Responsibilities: The Standard Vehicle Team builds and maintains the core products responsible for managing and providing access to vehicle data across the company. These products sit at the heart of CCC’s business, with most major platforms—including Estimating and Valuation—relying on the applications and services delivered by this team. We are seeking a full‑stack developer who will work on a high‑impact, high‑demand product line and gain exposure to critical systems used enterprise‑wide. Requirements: If you have completed your sophomore/junior year at a top-tier university and have demonstrated excellence in your academic studies, this opportunity is right for you. We are looking for candidates who offer strong collaborative skills and work well with a team. Below is a list of technologies we use and are potentially looking for: Java OO development HTML, CSS, Angular, and Vue Experience in Spring, REST (consuming/creating), and Hibernate Exposure to Storm/Kafka or other Big Data would be a plus About CCC's Commitment to Employees: CCC Intelligent Solutions understands that our employees play an integral role in our vision to shape a world where life just works. Our team is defined by our values of Integrity, Customer-Focus, Innovation, Inclusion &amp; Diversity, Tenacity, and Connection. Through diverse perspectives, purposeful innovation, and the strength of connections, our technologies empower the people and industry relied upon to keep lives moving forward when it matters most. At CCC, together everyone can thrive as we innovate and collaborate, creating employee experiences that just work. We are committed to providing opportunities for our people to make real-life impacts, advance in their careers, and contribute to CCC’s success. CCC offers competitive compensation and benefits to support you and your families, including: 401K Match Paid time off Annual Incentive Plan Performance Bonus Comprehensive health insurance Adoption Assistance Tuition Reimbursement Wellness Programs Stock Purchase Plan options Employee Resource Groups For more information about our benefits, please check out our careers site. Here, you belong. You are seen, valued, and respected. We celebrate you for who you are and all you bring. Every voice is heard and is important to our success. You can hear what employees have to say about our culture here If you require reasonable accommodation to complete a job application, please contact (800) 621-8070. Introduce yourself to our recruiters, and we'll get in touch if there's a role that seems like a good match CCC Intelligent Solutions Inc. (CCC) is a leading cloud platform for the multi-trillion-dollar insurance economy, creating intelligent experiences for insurers, repairers, automakers, part suppliers, and more. At CCC, we’re making life just work by empowering more than 35,000 businesses with industry-leading technology to get drivers back on the road and to health quickly and seamlessly. We’re pushing boundaries with innovative AI solutions that simplify and enhance the claims and repair journey. Through purposeful innovation and the strength of its connections, CCC technologies empower the people and industry relied upon to keep lives moving forward when it matters most. Learn more about CCC at www.cccis.com.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Chicago (Green St), IL"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "40 CCC Intelligent Solutions Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern (SVT Team) - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "0014516"
+},
+"datePosted" : "2026-03-06",
+"validThrough" : "2026-03-09",
+"employmentType" : "PART_TIME",
+"title" : "Software Engineer Intern (SVT Team) - Summer 2026",
+"description" : "Pay Rate/Hourly Range: The hourly range is $20.00 - $43.00 per hour. Pay is based on factors including school year, program of study, role responsibilities, etc. CCC Intelligent Solutions Inc. (CCC) is a leading cloud platform for the multi-trillion-dollar insurance economy, creating intelligent experiences for insurers, repairers, automakers, part suppliers, and more. At CCC, we’re making life just work by empowering more than 35,000 businesses with industry-leading technology to get drivers back on the road and to health quickly and seamlessly. We’re pushing boundaries with innovative AI solutions that simplify and enhance the claims and repair journey. Through purposeful innovation and the strength of its connections, CCC technologies empower the people and industry relied upon to keep lives moving forward when it matters most. Learn more about CCC at www.cccis.com. The Role Our program is designed to #CCCJumpstart your career! As a Software Engineer Intern on the Casualty Engineering team, you will gain hands-on experience developing modern cloud-based applications using the Microsoft technology stack. You’ll work closely with experienced engineers and technical leaders, contribute to real product features, and learn how modern enterprise software is built—from design and development to testing and delivery. You’ll also participate in CCC’s internship programming, including professional development workshops, intern networking events, and Lunch &amp; Learns with CCC leaders. Key Responsibilities: The Standard Vehicle Team builds and maintains the core products responsible for managing and providing access to vehicle data across the company. These products sit at the heart of CCC’s business, with most major platforms—including Estimating and Valuation—relying on the applications and services delivered by this team. We are seeking a full‑stack developer who will work on a high‑impact, high‑demand product line and gain exposure to critical systems used enterprise‑wide. Requirements: If you have completed your sophomore/junior year at a top-tier university and have demonstrated excellence in your academic studies, this opportunity is right for you. We are looking for candidates who offer strong collaborative skills and work well with a team. Below is a list of technologies we use and are potentially looking for: Java OO development HTML, CSS, Angular, and Vue Experience in Spring, REST (consuming/creating), and Hibernate Exposure to Storm/Kafka or other Big Data would be a plus About CCC's Commitment to Employees: CCC Intelligent Solutions understands that our employees play an integral role in our vision to shape a world where life just works. Our team is defined by our values of Integrity, Customer-Focus, Innovation, Inclusion &amp; Diversity, Tenacity, and Connection. Through diverse perspectives, purposeful innovation, and the strength of connections, our technologies empower the people and industry relied upon to keep lives moving forward when it matters most. At CCC, together everyone can thrive as we innovate and collaborate, creating employee experiences that just work. We are committed to providing opportunities for our people to make real-life impacts, advance in their careers, and contribute to CCC’s success. CCC offers competitive compensation and benefits to support you and your families, including: 401K Match Paid time off Annual Incentive Plan Performance Bonus Comprehensive health insurance Adoption Assistance Tuition Reimbursement Wellness Programs Stock Purchase Plan options Employee Resource Groups For more information about our benefits, please check out our careers site. Here, you belong. You are seen, valued, and respected. We celebrate you for who you are and all you bring. Every voice is heard and is important to our success. You can hear what employees have to say about our culture here If you require reasonable accommodation to complete a job application, please contact (800) 621-8070. Introduce yourself to our recruiters, and we'll get in touch if there's a role that seems like a good match CCC Intelligent Solutions Inc. (CCC) is a leading cloud platform for the multi-trillion-dollar insurance economy, creating intelligent experiences for insurers, repairers, automakers, part suppliers, and more. At CCC, we’re making life just work by empowering more than 35,000 businesses with industry-leading technology to get drivers back on the road and to health quickly and seamlessly. We’re pushing boundaries with innovative AI solutions that simplify and enhance the claims and repair journey. Through purposeful innovation and the strength of its connections, CCC technologies empower the people and industry relied upon to keep lives moving forward when it matters most. Learn more about CCC at www.cccis.com.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "cccis",
+siteId: "broadbean_external",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=cccis&s=broadbean_external",
+token: "474c0154-730d-4ab2-b1da-e90a77876d37",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","86e121d8686e100037e6d4083cb50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#00407D","textColor":"#3E3D40"},"progressBar":{"color":"#E9600E"},"button":{"primary":{"color":"#0074A3","borderColor":"#0095D0","textColor":"#FFFFFF","hover":{"color":"#002B52","borderColor":"#002B52","textColor":"#FFFFFF"}},"secondary":{"color":"#D9DADB","borderColor":"#9C9E9F","textColor":"#140F11","hover":{"color":"#9C9E9F","borderColor":"#3E3D40","textColor":"#140F11"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"5d01828c2c3110015435a3e17a6d0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#FFFFFF","textColor":"#002B52","image":{"id":"5d01828c2c3110015435a34756e30000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
