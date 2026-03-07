@@ -11,15 +11,21 @@ import { AIResponseSchema } from "@/validation/ai";
 type JobPlatform = "greenhouse" | "workday" | "smartrecruiters" | "oraclecloud" | "unknown";
 
 async function getJD(url: string): Promise<string> {
-  const resp = await fetch(url, {
-    headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
-  });
-  if (!resp.ok) {
-    console.error(`Failed to fetch text from ${url}`);
+  try {
+    const resp = await fetch(url, {
+      headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!resp.ok) {
+      console.error(`Failed to fetch text from ${url}`);
+      return "";
+    }
+    const text = await resp.text();
+    return text;
+  } catch (e) {
+    console.warn(`[warn] Error fetching html from ${url}: ${e}`);
     return "";
   }
-  const text = await resp.text();
-  return text;
 }
 
 async function visibleTextFromHtml(
