@@ -1,5 +1,88 @@
 [
   {
+    "company": "Hendrick Motorsports",
+    "role": "Engineering Intern",
+    "link": "https://hendrick.wd5.myworkdayjobs.com/HMSCareers/job/Hendrick-Technical-Solutions/Engineering-Intern_R-79206",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 3618,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess critical thinking and reasoning skills to solve problems",
+        "Accept responsibility and account for actions",
+        "Perform work accurately and thoroughly",
+        "Communicate effectively using the spoken word",
+        "Pay attention to minute details of projects or tasks",
+        "Make critical decisions following company procedures",
+        "Demonstrate ethical conduct conforming to values and standards",
+        "Be truthful and credible in the workplace",
+        "Possess organizational skills or systematic work methods",
+        "Utilize available time to organize and complete work within deadlines",
+        "Complete assigned tasks under stressful situations",
+        "Enrolled in a 4-year program pursuing a Bachelor degree",
+        "Maintain a minimum 3.0 GPA",
+        "Be at least a sophomore or second-year student in a degree program",
+        "Be a team player with high integrity",
+        "Possess strong attention to detail and problem-solving ability",
+        "Possess strong written, oral, and analytical communication skills",
+        "Effectively multitask, problem solve, and prioritize",
+        "Possess the ability to self-direct",
+        "Work in a fast-paced environment with effective time management",
+        "Have intermediate computer skills relevant to the department",
+        "Possess advanced working knowledge of Excel and spreadsheet creation",
+        "Understand and follow instructions",
+        "Communicate effectively with customers and company personnel",
+        "Maintain regular and predictable attendance",
+        "Possess ability to work a flexible schedule, including evenings, weekends, and holidays",
+        "Read and comprehend instructions, correspondence, and memos",
+        "Present information effectively in one-on-one and small group settings",
+        "Perform basic arithmetic calculations",
+        "Apply common sense to carry out instructions",
+        "Deal with standardized situations"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Roblox",
+    "role": "Software Engineer – Community Apprenticeship",
+    "link": "https://careers.roblox.com/jobs/7654991?gh_jid=7654991",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 3617,
+    "jd": null
+  },
+  {
+    "company": "Precisely",
+    "role": "Python Developer Intern",
+    "link": "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3616,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Computer Science or related field.",
+        "Basic knowledge of Python programming.",
+        "Eager to learn about the Python ecosystem, frameworks, and libraries.",
+        "Interested in object-oriented programming and REST APIs.",
+        "Exposure to version control (Git) and testing concepts.",
+        "Strong problem-solving and communication skills.",
+        "Willing to take initiative and accept feedback.",
+        "Able to work effectively in a team and follow instructions.",
+        "Interested in AI/ML-related Python libraries or frameworks.",
+        "Exposure to backend development or data engineering concepts.",
+        "Familiar with cloud platforms (AWS, GCP, or Azure)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Intel",
     "role": "Compiler Engineering Intern - Performance Tracking and Analysis",
     "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern---Performance-Tracking-and-Analysis_JR0281250",
