@@ -1,0 +1,49 @@
+MaintainX est la plateforme de gestion des workflows mobile-first leader mondial pour les travailleurs industriels et de première ligne. Nous sommes un outil moderne basé sur le cloud et compatible IoT, dédié à la maintenance, à la sécurité et aux opérations des équipements et des installations. MaintainX favorise l’excellence opérationnelle pour plus de 12 000 entreprises, dont Duracell, Univar Solutions Inc., Titan America, McDonald’s, Brenntag, Cintas, Michaels et Shell. Notre ambition est de faire de MaintainX la plateforme de référence pour l’exécution du travail des fabricants, dans les domaines de la maintenance, des opérations et de la sécurité.
+Nous avons récemment finalisé un tour de financement de série D de 150 millions de dollars, portant le financement total à 254 millions de dollars, pour une valorisation de 2,5 milliards de dollars.
+Vous ferez partie d’une équipe d’ingénieurs logiciels hautement motivés et talentueux, dédiée à la conception, à l’amélioration et à la maintenance du produit MaintainX. Notre équipe se distingue par son engagement et sa passion pour la réussite. Vous travaillerez avec des technologies de pointe, en appliquant les meilleures pratiques de développement logiciel, et contribuerez à la livraison de versions destinées à des clients externes.
+Notre pilier de produit de croissance est l'équipe qui est impliquée dans les premières expériences d’un utilisateur sur la plateforme MaintainX. Il s'agit d'une équipe à haute vélocité, axée sur les données, qui se concentre sur la construction d'expériences pour ces nouveaux utilisateurs.
+Notre pilier de produit entreprise se concentre sur les fonctionnalités qui sont directement liées à l'expansion de notre produit pour les entreprises clientes qui ont des besoins plus spécifiques tels que le déploiement sur plusieurs emplacements et la collaboration entre plusieurs usines et emplacements.
+Notre pilier Scale (Devops & Tooling) se concentre sur la capacité de notre produit à évoluer, tant au niveau de l'infrastructure pour nos clients qu'au niveau technique pour permettre à une équipe technique toujours plus nombreuse de s'épanouir.
+Vous ferez partie d'une équipe d'ingénieurs logiciels très motivés et talentueux, dédiés à la construction, l'amélioration et la maintenance du produit MaintainX. Notre équipe se soucie vraiment et a la passion de réussir. Vous travaillerez avec une technologie de pointe, en utilisant les meilleures pratiques logicielles, en produisant des versions logicielles pour des clients externes.
+Ce que vous ferez :
+En collaboration avec notre équipe de développement, aider à développer de nouvelles fonctionnalités et des procédures de test pour notre produit et nos plateformes
+Planification, brainstorming et discussions sur la conception du code avec l'équipe.
+Développement web
+Maintenance et refonte du code existant
+Recherche de nouvelles technologies
+Amélioration du flux de travail, automatisation et tests unitaires
+À propos de vous :
+Vous êtes actuellement inscrit à un programme de licence ou de maîtrise en informatique ou dans un domaine connexe dans un établissement d'enseignement accrédité à Montréal.
+Vous avez une expérience académique ou personnelle avec JavaScript, HTML & CSS.
+Bonus si vous avez des connaissances à travers notre stack (TypeScript, React, React Native, Node.js, MySQL et GraphQL) - Web & Mobile.
+Vous êtes ouvert d'esprit, avec de bonnes compétences analytiques, organisationnelles et de résolution de problèmes.
+Ce que vous y gagnerez :
+Un salaire compétitif
+Une culture du travail où :
+Vous travaillerez aux côtés de personnes du monde entier qui reflètent les principes de MaintainX : Intelligents, Humbles, Optimistes
+Nous croyons en la méritocratie, où les idées et les efforts sont publiquement célébrés.
+Notre mission est de proposer une plateforme unique pour les équipes de maintenance, de réparation et d’opérations afin de maintenir le monde physique en fonctionnement. Nous sommes convaincus que le plus grand atout de toute organisation, ce sont ses collaborateurs. C’est pourquoi nous avons développé une solution intuitive et mobile-first pour améliorer la productivité et la collaboration entre les équipes et les sites.
+MaintainX s’engage à créer un environnement diversifié. Tous les candidats qualifiés seront pris en considération pour un emploi sans distinction de race, de couleur, de religion, de genre, d’identité ou d’expression de genre, d’orientation sexuelle, d’origine nationale, de génétique, de handicap, d’âge ou de statut d’ancien combattant.
+MaintainX is the world leading mobile-first workflow management platform for industrial and frontline workers. We are a modern IoT enabled cloud based tool for maintenance, safety, and operations on equipment and facilities. MaintainX powers operational excellence for 12,000+ businesses including Duracell, Univar Solutions Inc., Titan America, McDonalds, Brenntag, Cintas, Michaels, and Shell. We want MaintainX to be the go-to work execution platform for manufacturers, across Maintenance, Operations and Safety.
+We recently completed a $150 million Series D round, bringing our total funding to $254 million, at a valuation of $2.5 billion.
+You will be part of a team of highly motivated and talented software engineers, dedicated to building, enhancing, and maintaining the MaintainX product. Our team truly cares and has a passion to succeed. You’ll work with leading-edge technology, using software best practices, producing software releases for external customers.
+What you’ll do:
+Jointly with our development team, help develop new features and test procedures for our product and platforms
+Do planning, brainstorming and code design discussions with the team
+Web development
+Maintaining and refactoring of existing code
+Researching new technologies
+Workflow improvements, automation and unit tests
+About you:
+You are currently enrolled in a bachelor or masters in Computer Science.
+You have academic or personal experience with JavaScript, HTML & CSS
+Bonus if you have knowledge across our stack (TypeScript, React, React Native, Node.js, MySQL and GraphQL) - Web & Mobile
+You are open-minded, with good analytical, organizational and problem-solving skills.
+What’s in it for you:
+Competitive salary
+A Work Culture where:
+You’ll work alongside folks across the globe that reflect the MaintainX values: Smart Humble Optimists
+We believe in meritocracy, where ideas and effort are publicly celebrated
+About us:
+Our mission is to deliver one platform for maintenance, repair & operations teams to keep the physical world running. We believe the greatest asset in any organization is the people. That’s why we built an intuitive, mobile-first solution to help boost productivity and collaboration across teams and locations.
+MaintainX is committed to creating a diverse environment. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.

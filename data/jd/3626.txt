@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "100 Church Street"
+}
+},
+"hiringOrganization" : {
+"name" : "HFMS HF Management Services, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern - CBT - 2026 Summer Internship",
+"@type" : "PropertyValue",
+"value" : "R021547"
+},
+"datePosted" : "2026-03-09",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern - CBT - 2026 Summer Internship",
+"description" : "Healthfirst’s 2026 Summer Trailblazer Internship is a 10-week paid program beginning on June 1, 2026. This is an immersive and interactive learning experience that lays a foundation for continued leadership development. Interns do impactful work, collaborating with other interns, employees, and business leaders to solve current business problems and deliver solutions. Who We Are: For nearly 30 years, Healthfirst has been serving New Yorkers. We helped pioneer the value-based healthcare model—where hospitals and physicians are paid based on patient outcomes—because our company was founded on the belief that insurers need to be true partners in the health system. Duties &amp; Responsibilities: • Operate with intellectual curiosity and critically assess existing processes and procedures to identify opportunities for improvement • Hold oneself accountable for the accuracy, completeness, quality, and relevance of deliverables in order to own responsibility for work product • Exhibit collaborative attitude, willingness to work with others on features that included working team(s) made of cross departmental/interdisciplinary users • Additional duties as assigned Minimum Qualifications: • Passion for solving challenging problems using technology • Possess technical curiosity and the desire to learn new things quickly • Ability to prioritize, multi-task and maintain attention to detail • Ability to work in teams and build good working relationships • Excellent interpersonal skills and follow- up skills • Experience with object-oriented programming and ability to learn new programming languages • Very strong verbal and written communication skills required • Ability to work independently and as part of a team • Familiarity with React and Python • Undergraduate students must be a junior or senior at an accredited institution or have graduated within 12 months of the program. Graduate students must be enrolled at an accredited institution or have graduated within 12 months of the program. • Will not require sponsorship for employment • Eligible to work in the U.S. Hiring Range*: Greater New York City Area (NY, NJ, CT residents): $38,200 - $49,920 All Other Locations (within approved locations): $33,300 - $47,840 As a candidate for this position, your salary and related elements of compensation will be contingent upon your work experience, education, licenses and certifications, and any other factors Healthfirst deems pertinent to the hiring decision. In addition to your salary, Healthfirst offers employees a full range of benefits such as, medical, dental and vision coverage, incentive and recognition programs, life insurance, and 401k contributions (all benefits are subject to eligibility requirements). Healthfirst believes in providing a competitive compensation and benefits package wherever its employees work and live. *The hiring range is defined as the lowest and highest salaries that Healthfirst in “good faith” would pay to a new hire, or for a job promotion, or transfer into this role. At this time, Healthfirst will only consider applicants who are presently authorized to work for any employer in the United States and who will not require visa sponsorship from Healthfirst now or in the future, to retain their authorization to work in the United States. WE ARE AN EQUAL OPPORTUNITY EMPLOYER. HF Management Services, LLC complies with all applicable laws and regulations. Applicants and employees are considered for positions and are evaluated without regard to race, color, creed, religion, sex, national origin, sexual orientation, pregnancy, age, disability, genetic information, domestic violence victim status, gender and/or gender identity or expression, military status, veteran status, citizenship or immigration status, height and weight, familial status, marital status, or unemployment status, as well as any other legally protected basis. HF Management Services, LLC shall not discriminate against any disabled employee or applicant in regard to any position for which the employee or applicant is otherwise qualified. If you have a disability under the Americans with Disability Act or a similar law and want a reasonable accommodation to assist with your job search or application for employment, please contact us by sending an email to careers@Healthfirst.org or calling 212-519-1798 . In your email please include a description of the accommodation you are requesting and a description of the position for which you are applying. Only reasonable accommodation requests related to applying for a position within HF Management Services, LLC will be reviewed at the e-mail address and phone number supplied. Thank you for considering a career with HF Management Services, LLC. Know Your Rights All hiring and recruitment at Healthfirst is transacted with a valid “@healthfirst.org” email address only or from a recruitment firm representing our Company. Any recruitment firm representing Healthfirst will readily provide you with the name and contact information of the recruiting professional representing the opportunity you are inquiring about. If you receive a communication from a sender whose domain is not @healthfirst.org, or not one of our recruitment partners, please be aware that those communications are not coming from or authorized by Healthfirst. Healthfirst will never ask you for money during the recruitment or onboarding process. Hiring Range*: Greater New York City Area (NY, NJ, CT residents): $40,200 - $54,570 All Other Locations (within approved locations): $34,900 - $52,000 As a candidate for this position, your salary and related elements of compensation will be contingent upon your work experience, education, licenses and certifications, and any other factors Healthfirst deems pertinent to the hiring decision. In addition to your salary, Healthfirst offers employees a full range of benefits such as, medical, dental and vision coverage, incentive and recognition programs, life insurance, and 401k contributions (all benefits are subject to eligibility requirements). Healthfirst believes in providing a competitive compensation and benefits package wherever its employees work and live. *The hiring range is defined as the lowest and highest salaries that Healthfirst in “good faith” would pay to a new hire, or for a job promotion, or transfer into this role. Healthfirst is New York’s largest not-for-profit health insurer offering it’s nearly 1.7 million members access to high-quality, affordable healthcare. As part of the community for nearly 30 years, Healthfirst’s unique advantage is rooted in its belief that good health doesn’t start in a doctor’s office. The company’s mission is to put its members first by working closely with care providers and community leaders to address broader issues that can impact health and well-being. This value-based care model is the foundation of the company’s sustained growth in one of the most dynamic markets in the country. So, if you are passionate about what you do and want to work for a company that is focused on the future and dedicated to making a difference in people’s lives, then Healthfirst is for you. Click here to navigate back to the career site!",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "100 Church Street"
+}
+},
+"hiringOrganization" : {
+"name" : "HFMS HF Management Services, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern - CBT - 2026 Summer Internship",
+"@type" : "PropertyValue",
+"value" : "R021547"
+},
+"datePosted" : "2026-03-09",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern - CBT - 2026 Summer Internship",
+"description" : "Healthfirst’s 2026 Summer Trailblazer Internship is a 10-week paid program beginning on June 1, 2026. This is an immersive and interactive learning experience that lays a foundation for continued leadership development. Interns do impactful work, collaborating with other interns, employees, and business leaders to solve current business problems and deliver solutions. Who We Are: For nearly 30 years, Healthfirst has been serving New Yorkers. We helped pioneer the value-based healthcare model—where hospitals and physicians are paid based on patient outcomes—because our company was founded on the belief that insurers need to be true partners in the health system. Duties &amp; Responsibilities: • Operate with intellectual curiosity and critically assess existing processes and procedures to identify opportunities for improvement • Hold oneself accountable for the accuracy, completeness, quality, and relevance of deliverables in order to own responsibility for work product • Exhibit collaborative attitude, willingness to work with others on features that included working team(s) made of cross departmental/interdisciplinary users • Additional duties as assigned Minimum Qualifications: • Passion for solving challenging problems using technology • Possess technical curiosity and the desire to learn new things quickly • Ability to prioritize, multi-task and maintain attention to detail • Ability to work in teams and build good working relationships • Excellent interpersonal skills and follow- up skills • Experience with object-oriented programming and ability to learn new programming languages • Very strong verbal and written communication skills required • Ability to work independently and as part of a team • Familiarity with React and Python • Undergraduate students must be a junior or senior at an accredited institution or have graduated within 12 months of the program. Graduate students must be enrolled at an accredited institution or have graduated within 12 months of the program. • Will not require sponsorship for employment • Eligible to work in the U.S. Hiring Range*: Greater New York City Area (NY, NJ, CT residents): $38,200 - $49,920 All Other Locations (within approved locations): $33,300 - $47,840 As a candidate for this position, your salary and related elements of compensation will be contingent upon your work experience, education, licenses and certifications, and any other factors Healthfirst deems pertinent to the hiring decision. In addition to your salary, Healthfirst offers employees a full range of benefits such as, medical, dental and vision coverage, incentive and recognition programs, life insurance, and 401k contributions (all benefits are subject to eligibility requirements). Healthfirst believes in providing a competitive compensation and benefits package wherever its employees work and live. *The hiring range is defined as the lowest and highest salaries that Healthfirst in “good faith” would pay to a new hire, or for a job promotion, or transfer into this role. At this time, Healthfirst will only consider applicants who are presently authorized to work for any employer in the United States and who will not require visa sponsorship from Healthfirst now or in the future, to retain their authorization to work in the United States. WE ARE AN EQUAL OPPORTUNITY EMPLOYER. HF Management Services, LLC complies with all applicable laws and regulations. Applicants and employees are considered for positions and are evaluated without regard to race, color, creed, religion, sex, national origin, sexual orientation, pregnancy, age, disability, genetic information, domestic violence victim status, gender and/or gender identity or expression, military status, veteran status, citizenship or immigration status, height and weight, familial status, marital status, or unemployment status, as well as any other legally protected basis. HF Management Services, LLC shall not discriminate against any disabled employee or applicant in regard to any position for which the employee or applicant is otherwise qualified. If you have a disability under the Americans with Disability Act or a similar law and want a reasonable accommodation to assist with your job search or application for employment, please contact us by sending an email to careers@Healthfirst.org or calling 212-519-1798 . In your email please include a description of the accommodation you are requesting and a description of the position for which you are applying. Only reasonable accommodation requests related to applying for a position within HF Management Services, LLC will be reviewed at the e-mail address and phone number supplied. Thank you for considering a career with HF Management Services, LLC. Know Your Rights All hiring and recruitment at Healthfirst is transacted with a valid “@healthfirst.org” email address only or from a recruitment firm representing our Company. Any recruitment firm representing Healthfirst will readily provide you with the name and contact information of the recruiting professional representing the opportunity you are inquiring about. If you receive a communication from a sender whose domain is not @healthfirst.org, or not one of our recruitment partners, please be aware that those communications are not coming from or authorized by Healthfirst. Healthfirst will never ask you for money during the recruitment or onboarding process. Hiring Range*: Greater New York City Area (NY, NJ, CT residents): $40,200 - $54,570 All Other Locations (within approved locations): $34,900 - $52,000 As a candidate for this position, your salary and related elements of compensation will be contingent upon your work experience, education, licenses and certifications, and any other factors Healthfirst deems pertinent to the hiring decision. In addition to your salary, Healthfirst offers employees a full range of benefits such as, medical, dental and vision coverage, incentive and recognition programs, life insurance, and 401k contributions (all benefits are subject to eligibility requirements). Healthfirst believes in providing a competitive compensation and benefits package wherever its employees work and live. *The hiring range is defined as the lowest and highest salaries that Healthfirst in “good faith” would pay to a new hire, or for a job promotion, or transfer into this role. Healthfirst is New York’s largest not-for-profit health insurer offering it’s nearly 1.7 million members access to high-quality, affordable healthcare. As part of the community for nearly 30 years, Healthfirst’s unique advantage is rooted in its belief that good health doesn’t start in a doctor’s office. The company’s mission is to put its members first by working closely with care providers and community leaders to address broader issues that can impact health and well-being. This value-based care model is the foundation of the company’s sustained growth in one of the most dynamic markets in the country. So, if you are passionate about what you do and want to work for a company that is focused on the future and dedicated to making a difference in people’s lives, then Healthfirst is for you. Click here to navigate back to the career site!",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "healthfirst",
+siteId: "healthfirst",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=healthfirst&s=healthfirst",
+token: "6fcda934-658e-4b0e-89d1-3a188b2e21d7",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"6839d98aa8fc014ed4535e2f2802ef00","altText":"Banner"}},"banner":{"image":{"id":"6839d98aa8fc01074f28782f2802f100","altText":"Logo"}}},"embedded":true},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

@@ -1,5 +1,175 @@
 [
   {
+    "company": "Healthfirst",
+    "role": "Software Engineering Intern",
+    "link": "https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/New-York-NY/Software-Engineering-Intern---CBT---2026-Summer-Internship_R021547",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3626,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Passionate about solving challenging problems using technology.",
+        "Possess technical curiosity and a desire to learn quickly.",
+        "Able to prioritize, multi-task, and maintain attention to detail.",
+        "Able to work in teams and build good relationships.",
+        "Possess excellent interpersonal and follow-up skills.",
+        "Experienced with object-oriented programming.",
+        "Able to learn new programming languages.",
+        "Possess very strong verbal and written communication skills.",
+        "Able to work independently and as part of a team.",
+        "Familiar with React and Python.",
+        "Currently an undergraduate junior or senior at an accredited institution.",
+        "Undergraduate graduated within 12 months of the program.",
+        "Currently a graduate student enrolled at an accredited institution.",
+        "Graduate student graduated within 12 months of the program."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Telesat",
+    "role": "Network Management System Designer Co-op",
+    "link": "https://jobs.lever.co/telesat/bd0fbad4-97c0-406e-8e50-cf2eb24a9421/apply",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3625,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a co-op program",
+        "Attending an accredited Canadian university"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Lightspeed Systems",
+    "role": "Intern",
+    "link": "https://job-boards.greenhouse.io/lightspeedsystems/jobs/7605651003",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3624,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current high school, undergraduate, or graduate student",
+        "Possess interest in technology and innovation",
+        "Have strong written and verbal communication skills",
+        "Possess a problem-solving mindset with critical thinking ability",
+        "Exhibit a self-starter attitude with willingness to take ownership",
+        "Ability to work onsite in South Austin Tuesday\tThursday",
+        "Have prior project, research, leadership, or work experience",
+        "Have exposure to AI tools, SaaS platforms, or technology-based environments"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "MaintainX",
+    "role": "Software Development Intern",
+    "link": "https://job-boards.greenhouse.io/maintainx/jobs/5068433007",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 3623,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a bachelor's or master's in Computer Science",
+        "Academic or personal experience with JavaScript, HTML & CSS",
+        "Knowledge across our stack (TypeScript, React, React Native, Node.js, MySQL, GraphQL)",
+        "Open-minded, with good analytical, organizational, and problem-solving skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bracebridge Capital",
+    "role": "Software Engineer – Business Intelligence Co-op 🎓",
+    "link": "https://job-boards.greenhouse.io/bracebridgecapital/jobs/4671010005",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3622,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold top academic credentials for MS degree in CS, Engineering or Information Systems",
+        "Experience with .NET development platform",
+        "Experience with C# or Java",
+        "Strong object-oriented programming skills",
+        "Proficient in SQL",
+        "Ability to critically evaluate and improve current processes",
+        "Proven ability to produce quality work under time pressure",
+        "Excellent technical skills",
+        "Ability to work collaboratively",
+        "Intellectual curiosity and an eagerness to learn",
+        "Learn, maintain, support, and enhance data acquisition framework",
+        "Create applications, reports, and automated tests",
+        "Design and maintain tools for code performance analysis",
+        "Build out data acquisition framework for new providers",
+        "Improve product documentation"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Veolia",
+    "role": "Integrations Intern",
+    "link": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677",
+    "location": "Paramus, NJ",
+    "season": "2026 Summer",
+    "id": 3621,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Required High School Diploma/GED",
+        "Working towards a four-year degree with Senior status in Computer Science, Data Science, or related major",
+        "Required 3.2 Cumulative G.P.A",
+        "Possess strong communication skills, including written, verbal, listening, presentation, and facilitation",
+        "Demonstrated ability to build collaborative relationships"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "LogicGate",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/logicgate/jobs/4671118005",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3620,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a Bachelor's or Master's degree with Spring or Summer 2026 graduation",
+        "Completed 2+ years of relevant coursework or a software engineering bootcamp",
+        "Experience using a modern programming language (Java, C#, C++, Python, Ruby, JavaScript)",
+        "Strong quantitative, analytical, and problem-solving skills",
+        "Entrepreneurial attitude with a keen eye for detail",
+        "Organized and able to manage multiple priorities simultaneously",
+        "Ability to work hybrid out of Chicago HQ 2-4 days per week",
+        "Enrolled full time as a Junior or Senior in an accredited college or university",
+        "Recently graduated within the past 6 months with an Undergraduate Degree",
+        "Available to work 40 hours per week during the summer"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Axiom Space",
     "role": "Software Application Engineering Intern 🎓",
     "link": "https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Application-Engineering-Intern--Summer-2026-_JR100352",
