@@ -1,5 +1,382 @@
 [
   {
+    "company": "GE Aerospace",
+    "role": "Digital Technology Co-op - Returning Students",
+    "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Co-op---US---Fall-2026---Returning-Students_R5030243-1",
+    "location": "Sharonville, OHLivonia, MI",
+    "season": "2026 Fall",
+    "id": 3642,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Prior GE Aerospace internship experience",
+        "Currently enrolled in an Associate's, Bachelor’s or Master’s Degree program",
+        "Focused in Computer Science, Computer Engineering, Computer Information Systems, IT Security, or relevant STEM majors",
+        "Minimum 3.0 cumulative GPA",
+        "Reliable transportation",
+        "Motivated, personable, and highly organized",
+        "Strong commitment to a career in technology",
+        "Strong analytical and technical skills",
+        "Prior intern, co-op, or research experience in software or IT",
+        "Excellent written and verbal communication skills",
+        "Humble, respectful, receptive, agile, and eager to learn",
+        "Transparent, sharing critical information",
+        "Focused, quick learner, committed, and takes initiative",
+        "Strong communicator, decision-maker, and collaborative team player",
+        "Analytical-minded, creative, and critical thinker",
+        "Demonstrated creative problem-solving skills and proactive learning"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "GE Aerospace",
+    "role": "Digital Technology Co-op",
+    "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Co-op---US---Spring-2027---Returning-Students_R5030091-1",
+    "location": "Sharonville, OHLivonia, MI",
+    "season": "2027 Spring",
+    "id": 3641,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Prior GE Aerospace intern experience required",
+        "Currently enrolled in an Associate's, Bachelor’s or Master’s Degree program",
+        "Degree focused in Computer Science, Computer Engineering, Computer Information Systems, IT Security, Informatics, Information Science/Technology, Management Information Systems, Software Engineering, Security and Risk Analysis, or other relevant STEM majors with Software/IT experience",
+        "Minimum 3.0 cumulative GPA off a 4.0 scale",
+        "Reliable transportation",
+        "Willing to work in Evendale, OH or Livonia, MI",
+        "Motivated, personable, and highly organized",
+        "Strong commitment to a career in technology and a passion for software and information technology",
+        "Strong analytical and technical skills with experience in software industry standards and development tools",
+        "Prior intern, co-op, or research experience in software, IT, or a relevant area",
+        "Excellent written and verbal communication skills",
+        "Humble: respectful, receptive, agile, and eager to learn",
+        "Transparent: shares critical information, speaks with honesty, and contributes constructively",
+        "Focused: quick learner, strategically prioritizes work, committed, and takes initiative",
+        "Leadership ability: strong communicator, decision-maker, and collaborative team player",
+        "Problem solver: analytical-minded, creative, challenges existing processes, and a critical thinker",
+        "Demonstrated creative problem-solving skills and proactive learning"
+      ],
+      "season": "2027 Spring"
+    }
+  },
+  {
+    "company": "Paramount Global",
+    "role": "Junior Game Engineer Intern 🎓",
+    "link": "https://careers.paramount.com/job/Los-Angeles-Junior-Game-Engineer-Intern-(Summer-2026-In-Person-LANY)-CA-90038/1371206300/?ats=successfactors",
+    "location": "Santa Monica, CALANYC",
+    "season": "2026 Summer",
+    "id": 3640,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Unreal Engine",
+        "Proficient in Microsoft Visual Studio",
+        "Proficient in C++",
+        "Be a Junior, Senior, or Master's student in Fall 2026",
+        "Be available to intern full-time for 10 weeks starting in June",
+        "Able to work fully on-site for the program duration",
+        "Authorized to work full-time in the United States"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tekton",
+    "role": "Intern",
+    "link": "https://jobs.lever.co/tekton/f116d72d-66e7-4e8f-9a30-c0d68035e16e/apply",
+    "location": "Grand Rapids, MI",
+    "season": "2026 Summer",
+    "id": 3639,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Arrowstreet Capital",
+    "role": "Software Engineer Intern",
+    "link": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Software-Engineer-Intern--Summer-2026_R1454",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3638,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in an undergraduate program studying computer science or related technical field",
+        "Expected graduation date in May/June 2027",
+        "Proficient in Python, C#, .NET, SQL or other object-oriented languages",
+        "Knowledge of infrastructure-as-code and cloud services",
+        "Exposure to various DevOps technologies",
+        "Applied technology experience through prior internships and academic projects",
+        "Demonstrated interest in a software engineering career path",
+        "Resourceful and able to thrive in a fast-paced environment",
+        "Strong communication, collaboration, and interpersonal skills",
+        "Motivated, curious, enthusiastic, and passionate about technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "X-energy",
+    "role": "Nuclear Engineering Intern",
+    "link": "https://xenergy.wd5.myworkdayjobs.com/X-energyUS/job/Rockville-MD/Nuclear-Engineering-Intern_R100745-1",
+    "location": "North Bethesda, MD",
+    "season": "2026 Summer",
+    "id": 3637,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current student or recent graduate pursuing a degree in nuclear engineering or related field",
+        "Possess educational knowledge in reactor core design and analysis",
+        "Possess educational knowledge in radiation shielding design and analysis",
+        "Possess educational knowledge in nuclear fuel analysis and qualification",
+        "Possess educational knowledge in criticality safety",
+        "Possess educational knowledge in reactor multiphysics analysis, especially pertaining to transient analysis",
+        "Possess educational knowledge in nuclear materials and chemistry",
+        "Possess educational knowledge in nuclear analysis software development, verification and validation",
+        "Possess educational knowledge in other areas of nuclear engineering or nuclear physics relevant to SMR, microreactor, and nuclear facility design",
+        "Proficient in Microsoft Office Suite (Outlook, Word, Excel, PowerPoint)",
+        "Submit at least one letter of recommendation"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "AeroVect",
+    "role": "Software Engineer - Intern - Perception 🎓",
+    "link": "https://jobs.ashbyhq.com/AeroVect/cb3ec12d-5f24-4047-bdc5-f262b60bd3ad/application",
+    "location": "San Bruno, CA",
+    "season": "2026 Summer",
+    "id": 3636,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's degree or higher in Robotics, Computer Science, Electrical Engineering, Mathematics, Physics, or a related field.",
+        "Have prior coursework or project experience in Machine Perception, Computer Vision, or Machine Learning for Robotics or Autonomous systems.",
+        "Familiar with deep learning frameworks such as PyTorch and TensorRT.",
+        "Possess strong programming skills in C++ and Python.",
+        "Have a solid foundation in mathematics including linear algebra, probability, and optimization.",
+        "Experience working in a Linux environment.",
+        "Excellent communication skills and comfort working collaboratively in a fast-paced team.",
+        "Experience with 3D object detection models (LiDAR-based or camera-based).",
+        "Experience with Radar.",
+        "Familiar with sensor fusion techniques across multiple modalities.",
+        "Experience with ROS2.",
+        "Have prior experience at an autonomous driving company or Robotics startup."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Bracebridge Capital",
+    "role": "Software Engineer – Application Development Co-op 🎓",
+    "link": "https://job-boards.greenhouse.io/bracebridgecapital/jobs/4671008005",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3635,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess top academic credentials in pursuit of an MS degree in Computer Science, Engineering or Information Systems",
+        "Understand object-oriented programming",
+        "Possess knowledge of SQL",
+        "Demonstrate intellectual curiosity and eagerness to learn",
+        "Possess knowledge of web development",
+        "Experience with C# and .NET"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Skydio",
+    "role": "GTM Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/skydio/00881c96-cfbe-4716-80e8-947904b40c28/application",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 3634,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Quick learner with strong interest in new technologies.",
+        "Passionate about building high-quality, scalable solutions.",
+        "Strong attention to detail and commitment to clean, maintainable work.",
+        "Familiar with version control systems like Git.",
+        "Possess a foundational understanding of object-oriented programming principles."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "zaimler",
+    "role": "Product Engineering Intern",
+    "link": "https://jobs.lever.co/zaimler/90ffc5be-eb8d-4b14-9bd0-8ac96fa1fce9/apply",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 3633,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "YOU.com",
+    "role": "Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/youcom/jobs/5129928008",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3632,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a BS/MS/PhD in Computer Science, Engineering, or related.",
+        "Have at least one academic term remaining after internship.",
+        "Strong programming skills in Python.",
+        "Solid CS fundamentals including data structures, algorithms, and systems.",
+        "Excellent teamwork and communication skills.",
+        "Eager to learn, innovate, and make an impact."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Amentum",
+    "role": "Software Programmer Intern",
+    "link": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-TN-Tullahoma/Software-Programmer-Intern_R0155989",
+    "location": "Tullahoma, TN",
+    "season": "2026 Summer",
+    "id": 3631,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be currently enrolled in a Bachelor of Science program in Computer Science, Computer Engineering, or Electrical Engineering.",
+        "Possess a strong foundation in software development fundamentals, object-oriented design patterns, version control (Git).",
+        "Ability to work collaboratively in a team to design, develop, and deliver software applications and data acquisition projects.",
+        "Experience with microcontrollers, home automation, or single board computers.",
+        "Familiarity with data acquisition systems and tools from National Instruments, UEI DAQ, Dewesoft, Chell, or Ipetronik.",
+        "Experience with programming languages such as LabVIEW, C#, and .NET.",
+        "Experience with databases, cybersecurity, and data transport technologies like MQTT, Redis, and Kafka."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "AssetWorks",
+    "role": "Software Developer Intern",
+    "link": "https://volarisgroup.wd3.myworkdayjobs.com/AssetWorks/job/Canada---Calgary-AB/Software-Developer-Intern_R60050",
+    "location": "Calgary, AB, Canada",
+    "season": "2026 Summer",
+    "id": 3630,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Hold a BSc in computer science or computer/software engineering.",
+        "Strong C# / Microsoft .NET programming experience.",
+        "Experience with MS SQL DBMS.",
+        "Perform complex product analysis and development tasks.",
+        "Write unit tested and documented JavaScript, HTML, and CSS.",
+        "Ability to work collaboratively within a team.",
+        "Capable of clear and concise communication.",
+        "Knowledge of the oil and gas industry.",
+        "Knowledge of Angular development.",
+        "Familiarity with OpenAPI and RESTful interfaces.",
+        "Experience with mobile application programming."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CWAN",
+    "role": "AI Intern",
+    "link": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Seattle/AI-Intern_R11659",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 3629,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Basic programming skills in Java.",
+        "Strong teamwork skills.",
+        "Exceptional analytical skills.",
+        "Strong computer skills, including proficiency in Microsoft Office.",
+        "Excellent attention to detail and strong documentation skills.",
+        "Outstanding verbal and written communication skills.",
+        "Strong organizational and interpersonal skills.",
+        "Exceptional problem-solving abilities.",
+        "Current student pursuing a four-year degree in Computer Science or related field."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CWAN",
+    "role": "Software Development Intern",
+    "link": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Boise/Software-Development-Intern_R11649",
+    "location": "Boise, ID",
+    "season": "2026 Summer",
+    "id": 3628,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with Java or Kotlin and object-oriented programming fundamentals",
+        "Working knowledge of SQL and relational database concepts",
+        "Strong problem-solving, analytical thinking, and attention to detail",
+        "Ability to communicate clearly and collaborate effectively on a team",
+        "Openness to feedback and willingness to learn quickly",
+        "Experience with SQL Server or PostgreSQL",
+        "Familiarity with DynamoDB or NoSQL concepts",
+        "Exposure to AWS services such as IAM, CloudWatch, S3, EC2, ECS/EKS, Lambda, or RDS/Aurora",
+        "Experience with Git and pull request workflows and CI/CD",
+        "Exposure to backend frameworks and APIs (e.g., REST/JSON)",
+        "Knowledge of AI coding assistant tools",
+        "Familiarity with testing tools (e.g., JUnit) and basic debugging practices",
+        "Currently pursuing a 4-year degree in Computer Science, Software Engineering, or a related field"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Tencent",
+    "role": "Game Research & Development Intern - Engine Research 🎓",
+    "link": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Game-Research---Development-Intern--Engine-Research_R107040-1",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3627,
+    "jd": null
+  },
+  {
     "company": "Healthfirst",
     "role": "Software Engineering Intern",
     "link": "https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/New-York-NY/Software-Engineering-Intern---CBT---2026-Summer-Internship_R021547",
