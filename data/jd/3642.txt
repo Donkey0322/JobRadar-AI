@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Evendale"
+}
+},
+"hiringOrganization" : {
+"name" : "Y99000 General Electric Company",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Digital Technology Co-op – US – Fall 2026 - Returning Students",
+"@type" : "PropertyValue",
+"value" : "R5030243"
+},
+"datePosted" : "2026-03-09",
+"validThrough" : "2026-03-24",
+"employmentType" : "FULL_TIME",
+"title" : "Digital Technology Co-op – US – Fall 2026 - Returning Students",
+"description" : "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft. We have a relentless dedication to the future of safe and more sustainable flight and believe in our talented people to make it happen. Job Description Job Summary: As a Digital Technology intern at GE Aerospace, you'll have the opportunity to learn from industry leaders and work on impactful projects. In this role, you'll build relationships with fellow interns and leaders through intern events, and you'll grow through professional development and mentoring opportunities. Intern assignments are dynamic and challenging, tailored to business needs and the type of work required. You'll gain significant exposure to key IT and Software business leaders and benefit from a global internship support network designed to accelerate your learning and development. This experience can pave the way for a potential full-time position after graduation, either in the Digital Technology Leadership Program or through a direct hire opportunity. Essential Responsibilities: We offer meaningful, impactful work and a vibrant fall events calendar that includes team building, career development opportunities, hackathons, and more. Interns are a vital pipeline for full-time employment opportunities at GE Aerospace, either as direct hires or as members of our world-class early talent leadership programs. Digital Technology Interns are assigned to specific areas of the business based on position availability, interviewer assessments, and applicant preferences. Focus areas may include, but are not limited to, Digital Platforms, Full Stack Development, Cyber Security, Commercial, Data Analytics, ERP, and more. Qualifications/Requirements: Prior GE Aerospace internship experience required Currently enrolled in an Associate's, Bachelor’s or Master’s Degree program at an accredited university or credentialed software accelerator program. Degree focused in Computer Science, Computer Engineering, Computer Information Systems, IT Security, Informatics, Information Science/Technology, Management Information Systems, Software Engineering, Security and Risk Analysis, or other relevant STEM majors with Software/IT experience. Minimum 3.0 cumulative GPA off a 4.0 scale without rounding Reliable transportation, as many of our sites do not have public transportation available Willing to work in Cincinnati, OH or Livonia, MI Eligibility Requirements: Any offer of employment is conditioned upon the successful completion of a background investigation and drug screen. Legal authorization to work in the U.S. is required. We will not sponsor individuals for employment visas, now or in the future, for this job opening. Desired characteristics: Motivated, personable, and highly organized individuals seeking to enhance their technical and professional skills while advancing their careers in technology. A strong commitment to a career in technology and a passion for software and information technology. Strong analytical and technical skills with experience in software industry standards and development tools. Prior intern, co-op, or research experience in software, IT, or a relevant area. Excellent written and verbal communication skills with the ability to articulate clearly. Humble: respectful, receptive, agile, and eager to learn. Transparent: shares critical information, speaks with honesty, and contributes constructively. Focused: quick learner, strategically prioritizes work, committed, and takes initiative. Leadership ability: strong communicator, decision-maker, and collaborative team player. Problem solver: analytical-minded, creative, challenges existing processes, and a critical thinker. Demonstrated creative problem-solving skills and proactive learning. Benefits: Pay rates for this position begin at $20/hour and increase for each undergraduate year completed. Relocation support and housing assistance is available for those who relocate to a new city. Equal Opportunity Employer: GE offers a great work environment, professional development, challenging careers, and competitive compensation. GE is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. This role requires access to U.S. export-controlled information. Therefore, employment will be contingent upon the ability to prove that you meet the status of a U.S. Person as one of the following: U.S. lawful permanent resident, U.S. Citizen, have been granted asylee or refugee status (i.e., a protected individual under the Immigration and Naturalization Act, 8 U.S.C. 1324b(a)(3)). Additional Information GE Aerospace offers a great work environment, professional development, challenging careers, and competitive compensation. GE Aerospace is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. GE Aerospace will only employ those who are legally authorized to work in the United States for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable). Relocation Assistance Provided: Yes At GE Aerospace, we invent the future of flight, lift people up, and bring them home safely. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft. At GE Aerospace, respect for people is core to our culture and commitment to FLIGHT DECK, our proprietary lean operating model. We attract, develop, and retain industry-leading talent from all backgrounds and cultivate communities where people are respected and empowered to reach their fullest potential. For the people of GE Aerospace, their work isn't just a job. It's their passion and purpose. We work and win as one team, accountable to each other and our customers, and we are always finding a better way to climb higher together. We were meant to fly.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Evendale"
+}
+},
+"hiringOrganization" : {
+"name" : "Y99000 General Electric Company",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Digital Technology Co-op – US – Fall 2026 - Returning Students",
+"@type" : "PropertyValue",
+"value" : "R5030243"
+},
+"datePosted" : "2026-03-09",
+"validThrough" : "2026-03-24",
+"employmentType" : "FULL_TIME",
+"title" : "Digital Technology Co-op – US – Fall 2026 - Returning Students",
+"description" : "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft. We have a relentless dedication to the future of safe and more sustainable flight and believe in our talented people to make it happen. Job Description Job Summary: As a Digital Technology intern at GE Aerospace, you'll have the opportunity to learn from industry leaders and work on impactful projects. In this role, you'll build relationships with fellow interns and leaders through intern events, and you'll grow through professional development and mentoring opportunities. Intern assignments are dynamic and challenging, tailored to business needs and the type of work required. You'll gain significant exposure to key IT and Software business leaders and benefit from a global internship support network designed to accelerate your learning and development. This experience can pave the way for a potential full-time position after graduation, either in the Digital Technology Leadership Program or through a direct hire opportunity. Essential Responsibilities: We offer meaningful, impactful work and a vibrant fall events calendar that includes team building, career development opportunities, hackathons, and more. Interns are a vital pipeline for full-time employment opportunities at GE Aerospace, either as direct hires or as members of our world-class early talent leadership programs. Digital Technology Interns are assigned to specific areas of the business based on position availability, interviewer assessments, and applicant preferences. Focus areas may include, but are not limited to, Digital Platforms, Full Stack Development, Cyber Security, Commercial, Data Analytics, ERP, and more. Qualifications/Requirements: Prior GE Aerospace internship experience required Currently enrolled in an Associate's, Bachelor’s or Master’s Degree program at an accredited university or credentialed software accelerator program. Degree focused in Computer Science, Computer Engineering, Computer Information Systems, IT Security, Informatics, Information Science/Technology, Management Information Systems, Software Engineering, Security and Risk Analysis, or other relevant STEM majors with Software/IT experience. Minimum 3.0 cumulative GPA off a 4.0 scale without rounding Reliable transportation, as many of our sites do not have public transportation available Willing to work in Cincinnati, OH or Livonia, MI Eligibility Requirements: Any offer of employment is conditioned upon the successful completion of a background investigation and drug screen. Legal authorization to work in the U.S. is required. We will not sponsor individuals for employment visas, now or in the future, for this job opening. Desired characteristics: Motivated, personable, and highly organized individuals seeking to enhance their technical and professional skills while advancing their careers in technology. A strong commitment to a career in technology and a passion for software and information technology. Strong analytical and technical skills with experience in software industry standards and development tools. Prior intern, co-op, or research experience in software, IT, or a relevant area. Excellent written and verbal communication skills with the ability to articulate clearly. Humble: respectful, receptive, agile, and eager to learn. Transparent: shares critical information, speaks with honesty, and contributes constructively. Focused: quick learner, strategically prioritizes work, committed, and takes initiative. Leadership ability: strong communicator, decision-maker, and collaborative team player. Problem solver: analytical-minded, creative, challenges existing processes, and a critical thinker. Demonstrated creative problem-solving skills and proactive learning. Benefits: Pay rates for this position begin at $20/hour and increase for each undergraduate year completed. Relocation support and housing assistance is available for those who relocate to a new city. Equal Opportunity Employer: GE offers a great work environment, professional development, challenging careers, and competitive compensation. GE is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. This role requires access to U.S. export-controlled information. Therefore, employment will be contingent upon the ability to prove that you meet the status of a U.S. Person as one of the following: U.S. lawful permanent resident, U.S. Citizen, have been granted asylee or refugee status (i.e., a protected individual under the Immigration and Naturalization Act, 8 U.S.C. 1324b(a)(3)). Additional Information GE Aerospace offers a great work environment, professional development, challenging careers, and competitive compensation. GE Aerospace is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. GE Aerospace will only employ those who are legally authorized to work in the United States for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable). Relocation Assistance Provided: Yes At GE Aerospace, we invent the future of flight, lift people up, and bring them home safely. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft. At GE Aerospace, respect for people is core to our culture and commitment to FLIGHT DECK, our proprietary lean operating model. We attract, develop, and retain industry-leading talent from all backgrounds and cultivate communities where people are respected and empowered to reach their fullest potential. For the people of GE Aerospace, their work isn't just a job. It's their passion and purpose. We work and win as one team, accountable to each other and our customers, and we are always finding a better way to climb higher together. We were meant to fly.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "geaerospace",
+siteId: "ge_externalsite",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","fr-CA","fr-FR","it-IT","hu-HU","pt-BR","zh-CN"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=geaerospace&s=ge_externalsite",
+token: "a5799861-6586-4e3c-8b05-5de50ee865e7",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: ["bmp","csv","dat","doc","docx","dwxf","gif","gpg","heic","jpeg","jpg","pdf","pgp","png","raw","rptdesign","tif","tiff","txt","xls","xlsx","xml","xsl","xslt"],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#4181FF","textColor":"#00003D"},"progressBar":{"color":"#00003D"},"button":{"primary":{"color":"#00003D","borderColor":"#00003D","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#00003D","textColor":"#00003D"}},"secondary":{"color":"#FFFFFF","borderColor":"#00003D","textColor":"#00003D","hover":{"color":"#00003D","borderColor":"#FFFFFF","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"e0c961772a9c10017eb712e8e81d0000","altText":null}},"banner":{"borderColor":"#4181FF","textColor":"#00003D","image":{"id":"10f465b3b83710017ecec3508f190001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
