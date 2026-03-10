@@ -1,5 +1,33 @@
 [
   {
+    "company": "Ciena",
+    "role": "Systems Engineer Intern",
+    "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Systems-Engineer-Intern--Summer-2026-_R030287",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3643,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrollment in a Bachelor of Engineering, Computer Science, or equivalent degree program",
+        "Proficiency with Python, JavaScript, and QT",
+        "Knowledge of Web UI concepts including HTML5, CSS, YANG, XML, and JSON",
+        "Understanding of low‑level hardware concepts such as bits, bytes, data types, and memory registers",
+        "Ability to investigate and troubleshoot technical issues methodically",
+        "Strong verbal and written communication skills",
+        "Strong organizational skills and attention to detail",
+        "Experience with optical lab instrumentation or optical networking technologies",
+        "Familiarity with software APIs and hardware/software integration workflows",
+        "Exposure to optical networking terminology and standards as used across the industry",
+        "Experience contributing to software tools used in engineering or lab environments",
+        "Knowledge of automation frameworks or scripting for test environments"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "GE Aerospace",
     "role": "Digital Technology Co-op - Returning Students",
     "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Co-op---US---Fall-2026---Returning-Students_R5030243-1",
