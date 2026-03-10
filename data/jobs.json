@@ -1,5 +1,119 @@
 [
   {
+    "company": "Avnet",
+    "role": "ServiceNow Developer Intern",
+    "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Chandler-Arizona-United-States-Of-America/ServiceNow-Developer-Intern_JR-021916",
+    "location": "Chandler, AZ",
+    "season": "2026 Summer",
+    "id": 3657,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Information Technology",
+        "Maintain a cumulative GPA of 3.0 or higher",
+        "Possess PC skills including Microsoft Outlook, Word, Excel, and PowerPoint",
+        "Demonstrate leadership experience through work and school activities",
+        "Have an interest or background in technology",
+        "Exhibit excellent communication, collaboration, and team-building skills",
+        "Be self-driven and independent",
+        "Show a willingness to try new things",
+        "Be currently enrolled in an accredited Undergraduate degree program",
+        "Have completed coursework in fields of study, typically finishing Junior year by May 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "ServiceNow Developer Intern",
+    "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Chandler-Arizona-United-States-Of-America/ServiceNow-Developer-Intern_JR-021916",
+    "location": "Chandler, AZ",
+    "season": "2026 Summer",
+    "id": 3656,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Majoring in Information Technology",
+        "Maintain a cumulative GPA of 3.0 or higher",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint",
+        "Demonstrate leadership experience through work and school activities",
+        "Possess interest or background in technology",
+        "Exhibit excellent communication, collaboration, and team building skills",
+        "Be self-driven and independent, capable of working with clear direction",
+        "Willing to try new things",
+        "Currently enrolled in an accredited Undergraduate degree program",
+        "Completed coursework in fields of study, ideally finishing Junior year by May 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Neo4j",
+    "role": "Intern - Application Security",
+    "link": "https://boards.greenhouse.io/neo4j/jobs/4661765006",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3655,
+    "jd": null
+  },
+  {
+    "company": "Autodesk",
+    "role": "Intern – Software Developer",
+    "link": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Montreal-QC-CAN/Intern--Software-Developer_25WD92317",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 3654,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a full-time, degree-seeking program with an expected 2026 graduation.",
+        "Strong CS fundamentals in C++.",
+        "Proficient in Java, Python, and Rest API.",
+        "Knowledge of web technologies like JavaScript and HTML.",
+        "Understand AWS and CI/CD (a plus).",
+        "Possess certifications in AWS Development or DevOps (a plus).",
+        "Dedicated to quality and automation with attention to detail.",
+        "Prior software development experience from internships or projects.",
+        "Experience working in team environments and building relationships.",
+        "Passionate about Autodesk or learning about the industry."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Copart",
+    "role": "Software Engineering Intern - Multiple Teams 🎓",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-intern_JR107698",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 3653,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master’s Degree in Computer Science or related field.",
+        "Proficient in Python and Java.",
+        "Experience with web services and SQL.",
+        "Experience with Spring Boot.",
+        "Familiarity with modern Python backend libraries and frameworks.",
+        "Experience with recommendation systems.",
+        "Assist in efficient, secure website development.",
+        "Peer-review code.",
+        "Document technical solutions.",
+        "Communicate proactively with various teams.",
+        "Able to debug complex code structures."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Allstate Insurance Company",
     "role": "ATS Technology Intern Program",
     "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/USA---IL-Remote/XMLNAME-2026-ATS-Technology-Internship-Program_R21520-1",
