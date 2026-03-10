@@ -1,6 +1,65 @@
 [
   {
     "company": "Allstate Insurance Company",
+    "role": "ATS Technology Intern Program",
+    "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/USA---IL-Remote/XMLNAME-2026-ATS-Technology-Internship-Program_R21520-1",
+    "location": "TexasIllinois",
+    "season": "2026 Summer",
+    "id": 3652,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s Degree in Computer Science, Management Information Systems, Business Analytics, or relevant fields.",
+        "Be a current sophomore or junior with expected graduation in 2027 or 2028.",
+        "Be authorized to work in the United States on a full-time basis.",
+        "Possess strong problem-solving and analytical abilities.",
+        "Demonstrate learning agility and willingness to embrace new challenges.",
+        "Desire to actively participate in development workshops and virtual programming events.",
+        "Develop and optimize software using modern tech stacks.",
+        "Troubleshoot and resolve technical issues with automation and root cause analysis.",
+        "Apply human-centered design thinking to ensure user-friendly outcomes.",
+        "Design scalable, reliable, and efficient systems.",
+        "Foster collaboration by demonstrating empathy and a passion for engineering excellence.",
+        "Advocate for consumer-first principles through design thinking and digital innovation.",
+        "Participate in key planning and development ceremonies.",
+        "Analyze and track Key Performance Indicators (KPIs) to measure product success.",
+        "Identify creative solutions by leveraging new technologies and consumer trends.",
+        "Communicate effectively with cross-functional teams to influence outcomes.",
+        "Analyze incidents and problems, following protocols to minimize disruptions.",
+        "Continuously improve processes by identifying and implementing enhancements.",
+        "Prioritize tasks effectively and manage time to meet deadlines.",
+        "Demonstrate strong active listening, verbal, and written communication skills.",
+        "Apply customer-centric principles to understand and address customer needs."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "University of Maryland - College Park",
+    "role": "ARLIS RISC Intern",
+    "link": "https://umd.wd1.myworkdayjobs.com/UMCP/job/University-of-Maryland-College-Park/ARLIS-RISC-Internship_JR103486-1",
+    "location": "Hyattsville, MD",
+    "season": "2026 Summer",
+    "id": 3651,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in or recently graduated from an accredited undergraduate or graduate program",
+        "Knowledge of basic computer applications (Windows, MS Office Suite)",
+        "Perform standard desktop/computer operations",
+        "Communicate in person and via electronic means",
+        "Ability to travel to College Park, MD",
+        "Able to obtain a U.S. security clearance"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Allstate Insurance Company",
     "role": "Business Systems Apprentice",
     "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/Chicago-Merch-Mart/Business-Systems-Apprentice_R27347",
     "location": "Chicago, IL",
