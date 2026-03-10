@@ -1,5 +1,187 @@
 [
   {
+    "company": "Hayden AI",
+    "role": "Intern Software Engineer",
+    "link": "https://jobs.ashbyhq.com/haydenai/0e567d78-e519-486c-9136-bc3eda60954d/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3664,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently in final year of a Bachelor's program, or enrolled in a Master's or PhD program in Computer Science.",
+        "Experience in one or more programming languages: Go, Python.",
+        "Detail-oriented with a high bar for quality and accuracy.",
+        "Curious and self-driven, motivated to dig into problems and find root causes.",
+        "Strong communicator able to document findings and surface issues.",
+        "Collaborative team player thriving in cross-functional environments.",
+        "Organized and reliable, able to manage multiple tasks consistently.",
+        "Comfortable with ambiguity and able to make progress with limited direction."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hayden AI",
+    "role": "Software Engineer - Quality Assurance",
+    "link": "https://jobs.ashbyhq.com/haydenai/5087f5a0-3e5b-42de-a91e-144c25a0606c/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3663,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop and maintain automated tests.",
+        "Build internal tools for issue triage and debugging.",
+        "Support project coordination activities.",
+        "Collaborate with engineers for quality improvements.",
+        "Currently in final year of Bachelor’s program or enrolled in Master’s/PhD program.",
+        "Degree in Computer Science, Mechanical Engineering, or related field.",
+        "Experience in Python, Typescript, or Cypress.",
+        "Experience in front-end testing, embedded systems validation, or model evaluation.",
+        "Possess a detail-oriented approach with high quality standards.",
+        "Curious and self-driven to find root causes.",
+        "Strong communicator who can document and surface issues.",
+        "Collaborative team player in cross-functional environments.",
+        "Organized and reliable, managing multiple tasks consistently.",
+        "Comfortable with ambiguity and able to make progress with limited direction."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Solink",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.ashbyhq.com/solink/506e5910-4e59-4464-b38d-341151fc71d1/application",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3662,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in Computer Science, Software Engineering, or related field.",
+        "Proficient in TypeScript or similar languages.",
+        "Familiar with a front-end framework (e.g., React, Vue).",
+        "Basic understanding of back-end languages and frameworks (e.g., Rust, Node.js, Express).",
+        "Knowledge of version control systems like Git.",
+        "Strong ability to identify, troubleshoot, and resolve issues.",
+        "Excellent verbal and written communication.",
+        "Creative problem-solving ability.",
+        "Experience with REST APIs.",
+        "Exposure to cloud services (AWS, Google Cloud).",
+        "Familiarity with database technologies (SQL or NoSQL)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Allstate Insurance Company",
+    "role": "Software Engineer Apprentice",
+    "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/USA---IL-Remote/Software-Engineer-Apprentice_R27431",
+    "location": "Illinois",
+    "season": "2026 Summer",
+    "id": 3661,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in a 2-year community college or technical program",
+        "Minimum GPA of 3.0",
+        "Pursuing a degree in Computer Science, AI, Data Science, or a related engineering field",
+        "Strong academic performance with interest in AI and machine learning",
+        "Knowledge of Python, Java, or C++",
+        "Familiarity with ML frameworks like TensorFlow, PyTorch, or scikit-learn",
+        "Understanding of AI and ML concepts including supervised learning, deep learning, neural networks, NLP, and reinforcement learning",
+        "SQL skills for data extraction and preparation",
+        "Understanding of linear algebra, probability, and statistics",
+        "Strong analytical thinking and problem-solving abilities",
+        "Clear written and verbal communication",
+        "Ability to work in a fast-paced, collaborative environment",
+        "Curiosity, adaptability, and eagerness to learn new technologies"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hayden AI",
+    "role": "Intern Software Engineer 🎓",
+    "link": "https://jobs.ashbyhq.com/haydenai/b577f0a4-d5c7-450d-b302-5b7b9946c020/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3660,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Master’s or PhD program in Computer Science, Mechanical Engineering, or a related technical field.",
+        "Experienced in Python, C++ programming languages.",
+        "Detail-oriented with a high bar for quality and accuracy.",
+        "Curious and self-driven to find root causes.",
+        "Strong communicator, able to document findings and surface issues.",
+        "Collaborative team player thriving in cross-functional environments.",
+        "Organized and reliable, able to manage multiple tasks and follow through.",
+        "Comfortable with ambiguity, able to make progress with limited direction."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Udemy",
+    "role": "Software Engineering Intern",
+    "link": "https://app.careerpuck.com/job-board/udemy/job/5809832004?gh_jid=5809832004",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3659,
+    "jd": null
+  },
+  {
+    "company": "Allstate Insurance Company",
+    "role": "Technology Product Engineer Apprentice",
+    "link": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/USA---IL-Remote/Technology-Product-Engineer-Apprentice_R27419",
+    "location": "Illinois",
+    "season": "2026 Summer",
+    "id": 3658,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be actively enrolled in a 2-year community college or technical program.",
+        "Maintain a minimum GPA of 3.0.",
+        "Use programming languages and modern tech stacks to build applications.",
+        "Apply core concepts like algorithms, data structures, and database normalization.",
+        "Learn and use modern engineering techniques such as TDD and CI/CD.",
+        "Identify processes for automation and build efficient solutions.",
+        "Support the full product lifecycle from coding to deployment.",
+        "Participate in incident response and investigate root causes.",
+        "Understand how work connects to business goals and user outcomes.",
+        "Write software that supports real value for the product and business.",
+        "Help write technical stories, estimate effort, and prioritize with product managers.",
+        "Pivot when assumptions change or are not validated during development.",
+        "Use human-centered design principles to ensure effective solutions.",
+        "Build solutions that support multiple user journeys and use cases.",
+        "Design and test features end-to-end, including connections to other systems.",
+        "Work within architectural guidelines while contributing to product evolution.",
+        "Apply design principles like SOLID to create flexible, stable, and scalable applications.",
+        "Consider reliability, availability, and performance needs when designing systems.",
+        "Participate in shaping solution design within the product team.",
+        "Demonstrate strong emotional intelligence in team interactions.",
+        "Write clear commit messages and story notes for other engineers.",
+        "Model collaboration, inclusion, and positive team behavior.",
+        "Show passion for engineering and continuous learning."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Avnet",
     "role": "ServiceNow Developer Intern",
     "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Chandler-Arizona-United-States-Of-America/ServiceNow-Developer-Intern_JR-021916",
