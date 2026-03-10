@@ -1,5 +1,85 @@
 [
   {
+    "company": "Palantir",
+    "role": "Forward Deployed Software Engineer Intern",
+    "link": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply",
+    "location": "NYC",
+    "season": "2026 Fall",
+    "id": 3647,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled in or recently graduated within 12 months from an accredited French university",
+        "Be pursuing or have completed a relevant degree or learning program"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Copart",
+    "role": "Software Engineering Intern 🎓",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107699",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 3646,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience developing cutting edge applications",
+        "Possess good knowledge in at least one client side MVC JavaScript framework (preferably ReactJS or ReactNative)",
+        "Experience developing modular front-end components and building web experiences using HTML5, CSS3, JavaScript",
+        "Master web standards, cross-browser compatibility and constraints of the web",
+        "Understand browser rendering behavior and performance",
+        "Possess good written and communication skills",
+        "Experience with Agile methodologies",
+        "Pursue a Master's Degree in Computer Science or other related field with a minimum GPA of 3.5"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Copart",
+    "role": "Software Engineer Intern",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107700",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 3645,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor's degree or higher in Computer Science, Engineering, or similar",
+        "Strong experience with Spring Boot, MVC, and other Spring modules",
+        "Experience with Core Java and multithreaded programming",
+        "Experience writing Unit tests using JUnit and mocking frameworks",
+        "Proficient with JavaScript, HTML5, jQuery, AJAX, CSS, and other JavaScript libraries",
+        "Good knowledge of at least one client-side MVC JavaScript framework, preferably ReactJS or ReactNative",
+        "Experience with Agile Methodologies and tools",
+        "Excellent problem-solving skills",
+        "Understand architecture and development methodologies of n-tier systems",
+        "Possess a can-do attitude",
+        "Demonstrate innovative drive and quick mastery of new technology",
+        "Self-motivated, naturally curious, and able to thrive in a fast-paced environment",
+        "Skilled in documentation, including business logic flows and technical writing",
+        "Able to understand and communicate technology workings and reasons",
+        "Experience with Multi-threading is a must",
+        "Ability to work on real-time web applications",
+        "Experience with Unix, Linux, and Solaris",
+        "Expertise in RESTful Web services",
+        "Experience with application server platforms like Apache and Tomcat",
+        "Experience writing SQL and stored procedures",
+        "Experience with SQL databases such as DB2, MySQL, or Maria",
+        "Experience with Maven, Jenkins, and Git"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "SpotHero",
     "role": "Engineering Intern",
     "link": "https://spothero.com/careers/7695956/?gh_jid=7695956",
