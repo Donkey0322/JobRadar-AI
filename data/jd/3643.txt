@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "Canada- Ottawa- 385 Terry Fox- Bldg B"
+}
+},
+"hiringOrganization" : {
+"name" : "Ciena Canada ULC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Systems Engineer Intern (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "R030287"
+},
+"datePosted" : "2026-03-09",
+"employmentType" : "FULL_TIME",
+"title" : "Systems Engineer Intern (Summer 2026)",
+"description" : "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact. The Opportunity: This eight‑month work term (May–December 2026) offers an opportunity to contribute to next‑generation networking technologies that enable high‑speed connectivity across data centers and optical transport systems. This role supports the development of a software tool that transforms complex raw Common Management Interface Specification (CMIS) data into clear, meaningful insights used across engineering and customer‑facing teams. How you will make an impact: • Support development of a graphical user interface (GUI) and backend components that automate the translation and interpretation of raw CMIS Electrically Erasable Programmable Read‑Only Memory (EEPROM) data • Build logic that adapts to varying CMIS data formats from third‑party routers and platforms • Contribute to lab validation activities, including automated software test execution • Participate in proof‑of‑concept demonstrations and solution evaluations for internal stakeholders • Collaborate with optical, routing, and software engineers to integrate Ciena transmitter technology within diverse platforms • Document technical findings, workflows, and data‑parsing rules to support ongoing tool development • Investigate and troubleshoot issues related to data formats, hardware behavior, or software logic The must haves: • Enrollment in a Bachelor of Engineering, Computer Science, or equivalent degree program (“in progress”) • Proficiency with Python, JavaScript, and QT • Knowledge of Web UI concepts including HTML5, CSS, YANG, XML, and JSON • Understanding of low‑level hardware concepts such as bits, bytes, data types, and memory registers • Ability to investigate and troubleshoot technical issues methodically • Strong verbal and written communication skills • Strong organizational skills and attention to detail Nice to haves: • Experience with optical lab instrumentation or optical networking technologies • Familiarity with software APIs and hardware/software integration workflows • Exposure to optical networking terminology and standards as used across the industry • Experience contributing to software tools used in engineering or lab environments • Knowledge of automation frameworks or scripting for test environments Pay Range: • The hourly pay rate for this position is $25.00-32.00 . Pay ranges at Ciena are designed to accommodate variations in knowledge, skills, experience, market conditions, and locations, reflecting our diverse products, industries, and lines of business. Please note that the pay range information provided in this posting pertains specifically to the primary location, which is the top location listed in case multiple locations are available. In addition to competitive compensation, Ciena offers students access to the Employee Assistance Program (EAP), company-paid holidays, paid sick leave, and vacation pay as required by applicable laws. Not ready to apply? Join our Talent Community to get relevant job alerts straight to your inbox. At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination. Ciena is an Equal Opportunity Employer, including disability and protected veteran status. If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require. Join our Talent Community and get early job alerts, personalized career tips, and insider insights. Discover how Ciena's unique blend of deep humanity and relentless innovation creates an exceptional workplace culture. Explore CienaLife.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "Canada- Ottawa- 385 Terry Fox- Bldg B"
+}
+},
+"hiringOrganization" : {
+"name" : "Ciena Canada ULC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Systems Engineer Intern (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "R030287"
+},
+"datePosted" : "2026-03-09",
+"employmentType" : "FULL_TIME",
+"title" : "Systems Engineer Intern (Summer 2026)",
+"description" : "As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact. The Opportunity: This eight‑month work term (May–December 2026) offers an opportunity to contribute to next‑generation networking technologies that enable high‑speed connectivity across data centers and optical transport systems. This role supports the development of a software tool that transforms complex raw Common Management Interface Specification (CMIS) data into clear, meaningful insights used across engineering and customer‑facing teams. How you will make an impact: • Support development of a graphical user interface (GUI) and backend components that automate the translation and interpretation of raw CMIS Electrically Erasable Programmable Read‑Only Memory (EEPROM) data • Build logic that adapts to varying CMIS data formats from third‑party routers and platforms • Contribute to lab validation activities, including automated software test execution • Participate in proof‑of‑concept demonstrations and solution evaluations for internal stakeholders • Collaborate with optical, routing, and software engineers to integrate Ciena transmitter technology within diverse platforms • Document technical findings, workflows, and data‑parsing rules to support ongoing tool development • Investigate and troubleshoot issues related to data formats, hardware behavior, or software logic The must haves: • Enrollment in a Bachelor of Engineering, Computer Science, or equivalent degree program (“in progress”) • Proficiency with Python, JavaScript, and QT • Knowledge of Web UI concepts including HTML5, CSS, YANG, XML, and JSON • Understanding of low‑level hardware concepts such as bits, bytes, data types, and memory registers • Ability to investigate and troubleshoot technical issues methodically • Strong verbal and written communication skills • Strong organizational skills and attention to detail Nice to haves: • Experience with optical lab instrumentation or optical networking technologies • Familiarity with software APIs and hardware/software integration workflows • Exposure to optical networking terminology and standards as used across the industry • Experience contributing to software tools used in engineering or lab environments • Knowledge of automation frameworks or scripting for test environments Pay Range: • The hourly pay rate for this position is $25.00-32.00 . Pay ranges at Ciena are designed to accommodate variations in knowledge, skills, experience, market conditions, and locations, reflecting our diverse products, industries, and lines of business. Please note that the pay range information provided in this posting pertains specifically to the primary location, which is the top location listed in case multiple locations are available. In addition to competitive compensation, Ciena offers students access to the Employee Assistance Program (EAP), company-paid holidays, paid sick leave, and vacation pay as required by applicable laws. Not ready to apply? Join our Talent Community to get relevant job alerts straight to your inbox. At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination. Ciena is an Equal Opportunity Employer, including disability and protected veteran status. If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require. Join our Talent Community and get early job alerts, personalized career tips, and insider insights. Discover how Ciena's unique blend of deep humanity and relentless innovation creates an exceptional workplace culture. Explore CienaLife.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "ciena",
+siteId: "Careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["ms-MY","da-DK","de-DE","en-US","es","fr-CA","fr-FR","it-IT","hu-HU","nl-NL","no-NO","pl-PL","pt-BR","ro-RO","sk-SK","fi-FI","sv-SE","vi-VN","tr-TR","ru-RU","he-IL","th-TH","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=ciena&s=Careers",
+token: "da4c88b5-e6f7-42f6-959e-c834e37dbafd",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{},"progressBar":{"color":"#96021B"},"button":{"primary":{"color":"#0011FF","borderColor":"#0011FF","textColor":"#FEFEFE","hover":{}},"secondary":{"color":"#FEFEFE","borderColor":"#0011FF","textColor":"#0011FF","hover":{"color":"#0011FF","borderColor":"#0011FF","textColor":"#FEFEFE"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"7079df4bab391001f4c03622dbdf0002","altText":null}},"banner":{"image":{"id":"7079df4bab391001f4c03622dbdf0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
