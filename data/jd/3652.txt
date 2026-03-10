@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - IL (Remote)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Allstate Insurance Co.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 ATS Technology Internship Program",
+"@type" : "PropertyValue",
+"value" : "R21520"
+},
+"datePosted" : "2026-03-10",
+"employmentType" : "FULL_TIME",
+"title" : "2026 ATS Technology Internship Program",
+"description" : "At Allstate, great things happen when our people work together to protect families and their belongings from life’s uncertainties. And for more than 90 years, our innovative drive has kept us a step ahead of our customers’ evolving needs. From advocating for seat belts, air bags and graduated driving laws, to being an industry leader in pricing sophistication, telematics, and, more recently, device and identity protection. Job Description Early Career Internship Program This program is designed to help you start and grow your career in technology at Allstate. Here, we drive innovative, on-demand products and services. Your 12-week internship will expose you to projects that have an impact throughout the organization. Through hands-on work, you will gain valuable experience and insight into your field area of Allstate Technology Solutions (ATS). If you want to understand how a Fortune 100 company develops products, services, and their network in a digital world, apply for this exciting opportunity! Internship Roles as: • Product Engineers • Digital Product Managers • Service Analysts Our internship program is designed to prepare you for future technology careers at Allstate. Interns graduating with their bachelor’s and who are high performers during their internship will have the opportunity to apply to Allstate’s Early Career Technology Development Program – a fast-paced program designed to increase technology skills and accelerate advancement in one of three career treks as a Product Engineer, Digital Product Manager, or Service Analyst. Location: Remote with the opportunity to visit our office locations if local – Northbrook and Chicago, IL; Irving, TX; Charlotte, NC; Scottsdale, AZ Start Date(s): Summer 2026 Job Qualifications Education: Pursuing a Bachelor’s Degree in Computer Science, Management Information Systems, Business Analytics, or other relevant fields. Graduation Timeline: Current sophomores and juniors with an expected graduation date in 2027 or 2028. Work Authorization: Applicants must be currently authorized to work in the United States on a full-time basis. Core Skills: Strong problem-solving and analytical abilities. Adaptability: Demonstrates learning agility and a willingness to embrace new challenges. Engagement: Desire to actively participate in development workshops and virtual programming events. Product Engineer Intern As a Product Engineer Intern, you’ll work with cutting-edge technologies to build, enhance, and maintain Allstate’s digital solutions. You’ll: Develop and optimize software using modern tech stacks. Troubleshoot and resolve technical issues with automation and root cause analysis. Apply human-centered design thinking to ensure user-friendly outcomes. Design scalable, reliable, and efficient systems. Foster collaboration by demonstrating empathy and a passion for engineering excellence. Digital Product Manager Intern As a Digital Product Manager Intern, you’ll drive the development of Allstate’s digital products by combining strategy, design, and delivery. You’ll: Advocate for consumer-first principles through design thinking and digital innovation. Participate in key planning and development ceremonies (e.g., Discovery &amp; Framings, Iteration Planning). Analyze and track Key Performance Indicators (KPIs) to measure product success. Identify creative solutions by leveraging new technologies and consumer trends. Communicate effectively with cross-functional teams to influence outcomes. Service Analyst Intern As a Service Analyst Intern, you’ll help maintain Allstate’s operational excellence by supporting processes and enhancing customer experiences. You’ll: Analyze incidents and problems, following protocols to minimize disruptions. Continuously improve processes by identifying and implementing enhancements. Prioritize tasks effectively and manage time to meet deadlines. Demonstrate strong active listening, verbal, and written communication skills. Apply customer-centric principles to understand and address customer needs. Skills Joining our team isn’t just a job — it’s an opportunity. One that takes your skills and pushes them to the next level. One that encourages you to challenge the status quo. One where you can shape the future of protection while supporting causes that mean the most to you. Joining our team means being part of something bigger – a winning team making a meaningful impact. Allstate generally does not sponsor individuals for employment-based visas for this position. Effective July 1, 2014, under Indiana House Enrolled Act (HEA) 1242, it is against public policy of the State of Indiana and a discriminatory practice for an employer to discriminate against a prospective employee on the basis of status as a veteran by refusing to employ an applicant on the basis that they are a veteran of the armed forces of the United States, a member of the Indiana National Guard or a member of a reserve component. For jobs in San Francisco, please click “here” for information regarding the San Francisco Fair Chance Ordinance. For jobs in Los Angeles, please click “here” for information regarding the Los Angeles Fair Chance Initiative for Hiring Ordinance. To view the “EEO Know Your Rights” poster click “here”. This poster provides information concerning the laws and procedures for filing complaints of violations of the laws with the Office of Federal Contract Compliance Programs. To view the FMLA poster, click “here”. This poster summarizing the major provisions of the Family and Medical Leave Act (FMLA) and telling employees how to file a complaint. It is the Company’s policy to employ the best qualified individuals available for all jobs. Therefore, any discriminatory action taken on account of an employee’s ancestry, age, color, disability, genetic information, gender, gender identity, gender expression, sexual and reproductive health decision, marital status, medical condition, military or veteran status, national origin, race (include traits historically associated with race, including, but not limited to, hair texture and protective hairstyles), religion (including religious dress), sex, or sexual orientation that adversely affects an employee's terms or conditions of employment is prohibited. This policy applies to all aspects of the employment relationship, including, but not limited to, hiring, training, salary administration, promotion, job assignment, benefits, discipline, and separation of employment. At Allstate, we work hard to help people live a good life every day. Allstaters are dedicated to serving clients, customers, and communities, which allows employees to find meaning and value in their work. Allstate offers an environment that fosters innovative thinking where you’ll be able to explore your ideas and feel proud of the work you do. Allstate helps protect nearly 16 million households with auto, home, life, and retirement products. We want every professional connected to Allstate to be committed to giving our customers the best and that means finding the best talent. We want you to be our next great addition. It’s easy to search and apply for a new opportunity with Allstate. Simply use the links below to identify the openings that interest you. About Us",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - IL (Remote)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Allstate Insurance Co.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 ATS Technology Internship Program",
+"@type" : "PropertyValue",
+"value" : "R21520"
+},
+"datePosted" : "2026-03-10",
+"employmentType" : "FULL_TIME",
+"title" : "2026 ATS Technology Internship Program",
+"description" : "At Allstate, great things happen when our people work together to protect families and their belongings from life’s uncertainties. And for more than 90 years, our innovative drive has kept us a step ahead of our customers’ evolving needs. From advocating for seat belts, air bags and graduated driving laws, to being an industry leader in pricing sophistication, telematics, and, more recently, device and identity protection. Job Description Early Career Internship Program This program is designed to help you start and grow your career in technology at Allstate. Here, we drive innovative, on-demand products and services. Your 12-week internship will expose you to projects that have an impact throughout the organization. Through hands-on work, you will gain valuable experience and insight into your field area of Allstate Technology Solutions (ATS). If you want to understand how a Fortune 100 company develops products, services, and their network in a digital world, apply for this exciting opportunity! Internship Roles as: • Product Engineers • Digital Product Managers • Service Analysts Our internship program is designed to prepare you for future technology careers at Allstate. Interns graduating with their bachelor’s and who are high performers during their internship will have the opportunity to apply to Allstate’s Early Career Technology Development Program – a fast-paced program designed to increase technology skills and accelerate advancement in one of three career treks as a Product Engineer, Digital Product Manager, or Service Analyst. Location: Remote with the opportunity to visit our office locations if local – Northbrook and Chicago, IL; Irving, TX; Charlotte, NC; Scottsdale, AZ Start Date(s): Summer 2026 Job Qualifications Education: Pursuing a Bachelor’s Degree in Computer Science, Management Information Systems, Business Analytics, or other relevant fields. Graduation Timeline: Current sophomores and juniors with an expected graduation date in 2027 or 2028. Work Authorization: Applicants must be currently authorized to work in the United States on a full-time basis. Core Skills: Strong problem-solving and analytical abilities. Adaptability: Demonstrates learning agility and a willingness to embrace new challenges. Engagement: Desire to actively participate in development workshops and virtual programming events. Product Engineer Intern As a Product Engineer Intern, you’ll work with cutting-edge technologies to build, enhance, and maintain Allstate’s digital solutions. You’ll: Develop and optimize software using modern tech stacks. Troubleshoot and resolve technical issues with automation and root cause analysis. Apply human-centered design thinking to ensure user-friendly outcomes. Design scalable, reliable, and efficient systems. Foster collaboration by demonstrating empathy and a passion for engineering excellence. Digital Product Manager Intern As a Digital Product Manager Intern, you’ll drive the development of Allstate’s digital products by combining strategy, design, and delivery. You’ll: Advocate for consumer-first principles through design thinking and digital innovation. Participate in key planning and development ceremonies (e.g., Discovery &amp; Framings, Iteration Planning). Analyze and track Key Performance Indicators (KPIs) to measure product success. Identify creative solutions by leveraging new technologies and consumer trends. Communicate effectively with cross-functional teams to influence outcomes. Service Analyst Intern As a Service Analyst Intern, you’ll help maintain Allstate’s operational excellence by supporting processes and enhancing customer experiences. You’ll: Analyze incidents and problems, following protocols to minimize disruptions. Continuously improve processes by identifying and implementing enhancements. Prioritize tasks effectively and manage time to meet deadlines. Demonstrate strong active listening, verbal, and written communication skills. Apply customer-centric principles to understand and address customer needs. Skills Joining our team isn’t just a job — it’s an opportunity. One that takes your skills and pushes them to the next level. One that encourages you to challenge the status quo. One where you can shape the future of protection while supporting causes that mean the most to you. Joining our team means being part of something bigger – a winning team making a meaningful impact. Allstate generally does not sponsor individuals for employment-based visas for this position. Effective July 1, 2014, under Indiana House Enrolled Act (HEA) 1242, it is against public policy of the State of Indiana and a discriminatory practice for an employer to discriminate against a prospective employee on the basis of status as a veteran by refusing to employ an applicant on the basis that they are a veteran of the armed forces of the United States, a member of the Indiana National Guard or a member of a reserve component. For jobs in San Francisco, please click “here” for information regarding the San Francisco Fair Chance Ordinance. For jobs in Los Angeles, please click “here” for information regarding the Los Angeles Fair Chance Initiative for Hiring Ordinance. To view the “EEO Know Your Rights” poster click “here”. This poster provides information concerning the laws and procedures for filing complaints of violations of the laws with the Office of Federal Contract Compliance Programs. To view the FMLA poster, click “here”. This poster summarizing the major provisions of the Family and Medical Leave Act (FMLA) and telling employees how to file a complaint. It is the Company’s policy to employ the best qualified individuals available for all jobs. Therefore, any discriminatory action taken on account of an employee’s ancestry, age, color, disability, genetic information, gender, gender identity, gender expression, sexual and reproductive health decision, marital status, medical condition, military or veteran status, national origin, race (include traits historically associated with race, including, but not limited to, hair texture and protective hairstyles), religion (including religious dress), sex, or sexual orientation that adversely affects an employee's terms or conditions of employment is prohibited. This policy applies to all aspects of the employment relationship, including, but not limited to, hiring, training, salary administration, promotion, job assignment, benefits, discipline, and separation of employment. At Allstate, we work hard to help people live a good life every day. Allstaters are dedicated to serving clients, customers, and communities, which allows employees to find meaning and value in their work. Allstate offers an environment that fosters innovative thinking where you’ll be able to explore your ideas and feel proud of the work you do. Allstate helps protect nearly 16 million households with auto, home, life, and retirement products. We want every professional connected to Allstate to be committed to giving our customers the best and that means finding the best talent. We want you to be our next great addition. It’s easy to search and apply for a new opportunity with Allstate. Simply use the links below to identify the openings that interest you. About Us",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "allstate",
+siteId: "allstate_careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US","fr-CA"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=allstate&s=allstate_careers",
+token: "4319aca8-f76f-4f4e-be26-851bb2ef4da1",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#0E1941","textColor":"#0033A0"},"progressBar":{"color":"#0033A0"},"button":{"primary":{"color":"#0033A0","borderColor":"#0E1941","textColor":"#FFFFFF","hover":{"color":"#0033A0","borderColor":"#0E1941","textColor":"#FFFFFF"}},"secondary":{"color":"#F3F6F9","borderColor":"#F3F6F9","textColor":"#0E1941","hover":{"color":"#FFFFFF","borderColor":"#0033A0","textColor":"#0E1941"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"8265f8fc88521001e59a3de9303c0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#005CB9","textColor":"#005CB9","image":{"id":"8265f8fc88521001e590f2ef2e760002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
