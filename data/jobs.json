@@ -1,5 +1,148 @@
 [
   {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/BE787F70C7/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3700,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "AI Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/AI-Internships_JR-0088855-1",
+    "location": "Grand Rapids, MIPlano, TXAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3699,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Gain practical experience in implementing GenAI and Agentic AI use cases",
+        "Contribute to ongoing projects and learn from real-world challenges",
+        "Assist with research, data analysis, and development tasks",
+        "Participate in team meetings, trainings, and presentations",
+        "Be an innovative thinker",
+        "Be an outstanding teammate",
+        "Be a self-starter committed to personal growth",
+        "Be a future leader driven by passion",
+        "Currently enrolled in a bachelor's degree program in Computer Science, Engineering, Business, or a related field",
+        "Entering Junior or Senior year preferred",
+        "Excellent communication and interpersonal skills",
+        "Ability to work independently and as part of a team"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "F5",
+    "role": "Software Development Engineer - Multiple Teams",
+    "link": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Chelmsford/Software-Development-Engineer-Intern--Chelmsford--MA-_RP1036938",
+    "location": "Lowell, MA",
+    "season": "2026 Summer",
+    "id": 3698,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Completing a bachelors or masters degree in Computer Science or related fields",
+        "Have at least one additional quarter or semester of school remaining",
+        "Enrolled in an accredited college or university in the United States",
+        "Demonstrated experience programming in an object-oriented language",
+        "Demonstrated knowledge in computer science fundamentals",
+        "Experience with Systems & Scripting",
+        "Experience with Infrastructure & DevOps",
+        "Experience with Research & Applications"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Forward Networks",
+    "role": "Intern Engineering",
+    "link": "https://job-boards.greenhouse.io/forwardnetworks/jobs/7651478003",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3697,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Rising senior pursuing Bachelor's or Master's in Computer Science or equivalent",
+        "Previous experience in software engineering",
+        "Proficient in Java, C++, JavaScript, or Python",
+        "Familiar with the software development lifecycle",
+        "Results-oriented, with interest in learning new technologies",
+        "Excellent verbal and written communication skills",
+        "Develop high-performance, reliable code",
+        "Contribute to all stages of development",
+        "Collaborate with engineers",
+        "Execute tasks independently and collaboratively"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "McKesson",
+    "role": "Software Developer Intern",
+    "link": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-QC-Montreal-Ville-Saint-Laurent/Stagiaire-en-dveloppement-logiciel---t-2026---Software-Developer-Intern---Summer-2026_JR0143774-1",
+    "location": "Montréal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 3696,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enroll in a Canadian post-secondary program in Computer Science, Information Systems, IT, Engineering, or a related field",
+        "Understand basic software development lifecycle (SDLC) concepts",
+        "Possess strong communication and collaboration skills",
+        "Be comfortable learning new tools and technologies",
+        "Be detail-oriented and willing to ask questions and seek feedback",
+        "Proficient in French and English, both spoken and written",
+        "Familiar with Jira or similar issue-tracking tools",
+        "Have basic knowledge of HTML",
+        "Have exposure to .NET development",
+        "Have exposure to RPG development"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology – Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/King-of-Prussia-Pennsylvania/Technology---Summer-Intern_R-10388642",
+    "location": "King of Prussia, PA",
+    "season": "2026 Summer",
+    "id": 3695,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue a bachelor's degree with an expected graduation between December 2026 and June 2028",
+        "Have a 3.0+ GPA",
+        "Possess unrestricted work authorization and not require future sponsorship",
+        "Have 0-2 years of professional work experience",
+        "Knowledgeable of Microsoft .NET, C# / C / C++, ASP .NET, Java, JavaScript, JCL, Oracle, Linux, PowerBi or ReactJS",
+        "Advanced knowledge of Excel and PowerPoint",
+        "Experienced working in a fast-paced environment and flexible to changing priorities",
+        "Military-Affiliated applicants encouraged to apply (Veterans, Military Spouses, and Guard/Reservists)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Avnet",
     "role": "Software Developer Intern",
     "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Lexington-Kentucky-United-States-Of-America/Software-Developer-Intern_JR-021960",
