@@ -1,5 +1,178 @@
 [
   {
+    "company": "Insulet Corporation",
+    "role": "Intern EngOps Software Tools",
+    "link": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--EngOps-Software-Tools--June---August-2026--Onsite-_REQ-2025-13506",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 3676,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Engineering or related fields",
+        "Experience in Python",
+        "Ability to quickly grasp new technologies and develop POC/prototypes",
+        "Proficiency in Object-Oriented Design (OOD), Object-Oriented Programming (OOP), and Design Patterns",
+        "Knowledge of front-end and back-end web page design and tools",
+        "Demonstrate work experience with Bluetooth, Web services, Cloud, and API technologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "F5",
+    "role": "Software Development Engineer Intern - AI",
+    "link": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Seattle/Software-Development-Engineer--AI--Intern_RP1036893",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 3675,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science or related fields.",
+        "Have at least one additional quarter/semester of school remaining after the internship.",
+        "Be enrolled in an accredited college or university in the United States.",
+        "Demonstrate programming experience in Python, Java, C++, or Go.",
+        "Possess hands-on exposure to machine learning and deep learning concepts.",
+        "Be familiar with modern LLM tooling and patterns.",
+        "Have exposure to data handling for ML.",
+        "Demonstrate knowledge in computer science fundamentals.",
+        "Be willing to relocate to Seattle, WA.",
+        "Experience API development and backend fundamentals.",
+        "Experience implementing retrieval-driven AI applications.",
+        "Be familiar with fine-tuning approaches and ML experimentation tools.",
+        "Have exposure to containers and modern DevOps.",
+        "Understand observability basics like logging, metrics, and tracing.",
+        "Experience with distributed or data tooling for ML workloads."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mizuho Securities USA",
+    "role": "Commercial Lending Technology Intern",
+    "link": "https://mizuho.wd1.myworkdayjobs.com/Mizuho_Confidential/job/NYC-1285/XMLNAME-2026-Commercial-Lending-Technology-Summer-Internship_R6688",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3674,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with .NET architecture and best practices",
+        "Familiarity with Azure DevOps, CI/CD",
+        "Knowledge of automated testing tools",
+        "Familiarity with VB.NET, C#.NET, MS SQL Server",
+        "Familiarity with JavaScript, ASP.NET, SSRS/SSIS, Bootstrap",
+        "Experience in software installations and configurations",
+        "Knowledge of web-based applications",
+        "Experience with Java 8 console applications (a plus)",
+        "Able to write and test SQL Queries",
+        "Familiarity with technology in financial services",
+        "Awareness of lending and trading practices",
+        "Able to communicate with business users",
+        "Current student graduating May/June 2027",
+        "Majoring in Computer Science, Computer Engineering, Information Systems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Monolithic Power Systems",
+    "role": "IT System Software Intern 🎓",
+    "link": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose-CA/IT-System-Software-Intern_R-1089",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3673,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Recent graduate of Computer Science or related field",
+        "Currently pursuing an MSc degree",
+        "Outstanding Senior year CS major college student",
+        "Achieve an average GPA of 3.5 or above",
+        "Proficient in programming languages like Python, Java, C++, C#, and SQL",
+        "Possess basic knowledge of Windows and Linux operating systems",
+        "Understand IT systems and their business value",
+        "Experience with database or commercial software systems",
+        "Ability to work collaboratively in a team environment",
+        "Excellent problem-solving and critical thinking abilities",
+        "Strong communication skills for non-technical stakeholders"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nelnet",
+    "role": "INTERN Software Quality Specialist",
+    "link": "https://nelnet.wd1.myworkdayjobs.com/en-US/mynelnet/job/Lincoln-NE/INTERN-Software-Quality-Specialist_R22409",
+    "location": "Lincoln, NE",
+    "season": "2026 Summer",
+    "id": 3672,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\nHundreds degree in Computer Science, Information Technology, or a related field",
+        "No prior professional experience required",
+        "Familiarity with NBS products or software testing concepts is a plus",
+        "Ability to stay organized and manage multiple tasks",
+        "Willingness to learn how to read and understand basic programming concepts",
+        "Interest in learning database querying skills (e.g., SQL, MongoDB)",
+        "Ability to understand how business requirements relate to technical solutions"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "RXO",
+    "role": "Managed Transportation AI Intern",
+    "link": "https://rxo.wd501.myworkdayjobs.com/rxojobs/job/Naperville-Illinois/Managed-Transportation-AI-Intern_JR102276",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3671,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue BS in a STEM-based field.",
+        "Have class status as a junior or greater.",
+        "Possess 2 or more years of relevant software development coursework.",
+        "Prefer experience with Python coursework.",
+        "Have development experience with an object-oriented programming language.",
+        "Possess exposure to AI/ML concepts or generative AI tools.",
+        "Experience building AI-driven applications or agents.",
+        "Have experience working with cloud platforms.",
+        "Possess experience with cloud platforms for AI or data-driven solutions.",
+        "Have experience collaborating on product or project teams.",
+        "Experience with a JavaScript framework is a plus.",
+        "Experience in web, mobile, and responsive design is a plus.",
+        "Possess solid technical competency in coding and testing.",
+        "Have strong problem-solving skills.",
+        "Ability to learn new technologies quickly.",
+        "Be self-motivated.",
+        "Ability to work well with minimal supervision or in a team.",
+        "Be open-minded and receptive to feedback.",
+        "Possess strong attention to detail.",
+        "Have strong analytical skills.",
+        "Ability to identify and resolve problems.",
+        "Possess good organizational skills.",
+        "Ability to multitask.",
+        "Have great verbal and written communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Johnson & Johnson",
     "role": "Software Engineering Co-Op",
     "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op---Fall-2026_R-062573",

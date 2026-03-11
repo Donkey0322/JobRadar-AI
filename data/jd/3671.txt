@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USIL-Naperville (2621)"
+}
+},
+"hiringOrganization" : {
+"name" : "1750 RXO CORPORATE SOLUTIONS, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Managed Transportation AI Intern",
+"@type" : "PropertyValue",
+"value" : "JR102276"
+},
+"datePosted" : "2026-02-18",
+"employmentType" : "FULL_TIME",
+"title" : "Managed Transportation AI Intern",
+"description" : "Accelerate your career at RXO RXO is a leading provider of transportation solutions. With cutting-edge technology at the center, we're revolutionizing the industry with our massive network and commitment to finding solutions for every challenge. We create more efficient ways for shippers and carriers to transport goods across North America. Compensation for this role is $20/hr The role may also be eligible for bonus or commission pay. Actual compensation may vary due to factors such as experience and skill set. RXO brings together massive capacity, cutting-edge technology and industry-leading expertise to keep shippers and carriers ahead of the marketplace. At RXO, we’re looking for innovative and collaborative employees who are committed to solving our customers’ challenges. We know we can do big things when we work together – so join us on our mission to disrupt the industry. As a Technology Intern, you will gain valuable knowledge and exposure to our technology team and leadership. Collaborate with high-energy teams to help deliver high-quality results. We’ll help you establish a solid foundation of knowledge about RXO, which will prepare you for advancement within the company. If you’re ready to build a career you can be proud of, we have an opportunity for you to grow with RXO. Pay, benefits and more. We are eager to attract the best, so we offer competitive compensation. This 10 to 12-week internship program will take place in one of multiple locations during the summer of 2026. What you’ll do on a typical day: • Develop software using technologies such as .Net, C#, MS SQL Server, Google Cloud Platform, Python, and emerging AI tools • Participate in the design and development of AI-driven solutions, including building and testing AI agents within cloud environments • Collaborate with product and engineering teams to explore practical AI use cases and support implementation from concept to deployment • Contribute to development of APIs and application infrastructure supporting both traditional and AI-enabled web applications • Apply best coding practices and standards, including experimentation with AI-assisted development workflows • Work in an agile start-up environment with daily standups, live coding collaboration, and continuous integration What you need to succeed at RXO: At a minimum, you’ll need: Pursuing BS in a STEM-based field (ie. Software Engineering, Computer Engineering, etc.) It’d be great if you also have: • Class status as a junior (3rd year) or greater • 2 or more years of relevant software development coursework, including Python preferred • Development experience with at least one object-oriented programming language such as Java, C#, or Python • Exposure to AI/ML concepts, generative AI tools, or building AI-driven applications or agents (academic or project-based experience acceptable) • Experience working with cloud platforms (Google Cloud, AWS, Azure, etc.), especially for AI or data-driven solutions • Experience collaborating on product or project teams to translate technical concepts into practical use cases • Experience with one of the JavaScript frameworks (Angular, ReactJS, VueJS, etc.) is a plus • Experience in web, mobile and responsive design is a plus • Solid technical competency in coding and testing; strong problem-solving skills and ability to learn new technologies quickly • Self-motivated and able to work well with minimal supervision or in a team environment; consult with team members and management as needed • Ability to be open-minded and receptive to feedback in an intellectually rigorous environment • Strong attention to detail and analytical skills with the ability to identify and resolve problems • Good organizational skills with the ability to multitask • Great verbal and written communication skills Be part of something big. Does this sound like you? Check out what else RXO has to offer. Why Join Us: Our Benefits Competitive pay Paid time off includes: up to 8 holidays, up to 2 floating Diversity Days, Hourly: Earn up to 13 days PTO/ Salary: Earn up to 15 days PTO, up to 40 hours bereavement leave, up to 16 hours volunteer time, jury duty, at least 2 weeks family bonding leave, up to 40 hours prenatal care leave 401(k) retirement plan with up to 5% company match Insurance: health, prescription, dental, vision, basic and supplemental life, short and long-term disability, accidental death and personal loss, business travel, legal services, ID theft, accident, critical illness, hospital indemnity Employee Assistance Program (EAP) Tuition reimbursement, adoption assistance Tax-Advantaged Accounts: Health Savings Account, Health Care Flexible Spending Account, Dependent Care Flexible Spending Account, Commuter Spending Account Health Reimbursement Arrangement Our Culture Our values are the key to our unique culture and our ability to deliver for everyone we serve. We do great things when we are inclusive and work together. To perform with excellence, we learn from one another, value diverse perspectives, operate safely and build strong relationships. The Next Step Ready to join our team? We'd love to hear from you. Fill out an application now and join our talent community to learn about future opportunities. We are proud to be an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran. All applicants who receive a conditional offer of employment may be required to take and pass a pre-employment drug test. The above statements are not an exhaustive list of all required responsibilities, duties, and skills for this job classification. Review RXO's candidate privacy statement here and RXO's Privacy Notice to California Job Applicants here. We’re a leading provider of asset-light transportation. We create more efficient ways for shippers and carriers to move freight. We do great things when we are inclusive and work together. To perform with excellence, we learn from one another, value diverse perspectives, operate safely, and build strong relationships. We’re looking forward to getting to know you! Introduce yourself to our talent acquisition team and we'll get in touch if there is a role that aligns to your background.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USIL-Naperville (2621)"
+}
+},
+"hiringOrganization" : {
+"name" : "1750 RXO CORPORATE SOLUTIONS, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Managed Transportation AI Intern",
+"@type" : "PropertyValue",
+"value" : "JR102276"
+},
+"datePosted" : "2026-02-18",
+"employmentType" : "FULL_TIME",
+"title" : "Managed Transportation AI Intern",
+"description" : "Accelerate your career at RXO RXO is a leading provider of transportation solutions. With cutting-edge technology at the center, we're revolutionizing the industry with our massive network and commitment to finding solutions for every challenge. We create more efficient ways for shippers and carriers to transport goods across North America. Compensation for this role is $20/hr The role may also be eligible for bonus or commission pay. Actual compensation may vary due to factors such as experience and skill set. RXO brings together massive capacity, cutting-edge technology and industry-leading expertise to keep shippers and carriers ahead of the marketplace. At RXO, we’re looking for innovative and collaborative employees who are committed to solving our customers’ challenges. We know we can do big things when we work together – so join us on our mission to disrupt the industry. As a Technology Intern, you will gain valuable knowledge and exposure to our technology team and leadership. Collaborate with high-energy teams to help deliver high-quality results. We’ll help you establish a solid foundation of knowledge about RXO, which will prepare you for advancement within the company. If you’re ready to build a career you can be proud of, we have an opportunity for you to grow with RXO. Pay, benefits and more. We are eager to attract the best, so we offer competitive compensation. This 10 to 12-week internship program will take place in one of multiple locations during the summer of 2026. What you’ll do on a typical day: • Develop software using technologies such as .Net, C#, MS SQL Server, Google Cloud Platform, Python, and emerging AI tools • Participate in the design and development of AI-driven solutions, including building and testing AI agents within cloud environments • Collaborate with product and engineering teams to explore practical AI use cases and support implementation from concept to deployment • Contribute to development of APIs and application infrastructure supporting both traditional and AI-enabled web applications • Apply best coding practices and standards, including experimentation with AI-assisted development workflows • Work in an agile start-up environment with daily standups, live coding collaboration, and continuous integration What you need to succeed at RXO: At a minimum, you’ll need: Pursuing BS in a STEM-based field (ie. Software Engineering, Computer Engineering, etc.) It’d be great if you also have: • Class status as a junior (3rd year) or greater • 2 or more years of relevant software development coursework, including Python preferred • Development experience with at least one object-oriented programming language such as Java, C#, or Python • Exposure to AI/ML concepts, generative AI tools, or building AI-driven applications or agents (academic or project-based experience acceptable) • Experience working with cloud platforms (Google Cloud, AWS, Azure, etc.), especially for AI or data-driven solutions • Experience collaborating on product or project teams to translate technical concepts into practical use cases • Experience with one of the JavaScript frameworks (Angular, ReactJS, VueJS, etc.) is a plus • Experience in web, mobile and responsive design is a plus • Solid technical competency in coding and testing; strong problem-solving skills and ability to learn new technologies quickly • Self-motivated and able to work well with minimal supervision or in a team environment; consult with team members and management as needed • Ability to be open-minded and receptive to feedback in an intellectually rigorous environment • Strong attention to detail and analytical skills with the ability to identify and resolve problems • Good organizational skills with the ability to multitask • Great verbal and written communication skills Be part of something big. Does this sound like you? Check out what else RXO has to offer. Why Join Us: Our Benefits Competitive pay Paid time off includes: up to 8 holidays, up to 2 floating Diversity Days, Hourly: Earn up to 13 days PTO/ Salary: Earn up to 15 days PTO, up to 40 hours bereavement leave, up to 16 hours volunteer time, jury duty, at least 2 weeks family bonding leave, up to 40 hours prenatal care leave 401(k) retirement plan with up to 5% company match Insurance: health, prescription, dental, vision, basic and supplemental life, short and long-term disability, accidental death and personal loss, business travel, legal services, ID theft, accident, critical illness, hospital indemnity Employee Assistance Program (EAP) Tuition reimbursement, adoption assistance Tax-Advantaged Accounts: Health Savings Account, Health Care Flexible Spending Account, Dependent Care Flexible Spending Account, Commuter Spending Account Health Reimbursement Arrangement Our Culture Our values are the key to our unique culture and our ability to deliver for everyone we serve. We do great things when we are inclusive and work together. To perform with excellence, we learn from one another, value diverse perspectives, operate safely and build strong relationships. The Next Step Ready to join our team? We'd love to hear from you. Fill out an application now and join our talent community to learn about future opportunities. We are proud to be an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran. All applicants who receive a conditional offer of employment may be required to take and pass a pre-employment drug test. The above statements are not an exhaustive list of all required responsibilities, duties, and skills for this job classification. Review RXO's candidate privacy statement here and RXO's Privacy Notice to California Job Applicants here. We’re a leading provider of asset-light transportation. We create more efficient ways for shippers and carriers to move freight. We do great things when we are inclusive and work together. To perform with excellence, we learn from one another, value diverse perspectives, operate safely, and build strong relationships. We’re looking forward to getting to know you! Introduce yourself to our talent acquisition team and we'll get in touch if there is a role that aligns to your background.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "rxo",
+siteId: "rxojobs",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd501.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd501.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd501.myworkday.com/wday/drs/outage?t=rxo&s=rxojobs",
+token: "41b9f3cc-faf3-46c2-9a7a-5ed2f3be14ae",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#000000","textColor":"#000000"},"progressBar":{"color":"#00F49C"},"button":{"primary":{"color":"#00F49C","borderColor":"#00F49C","textColor":"#000000","hover":{"color":"#404040","borderColor":"#404040","textColor":"#FFFFFF"}},"secondary":{"color":"#00F49C","borderColor":"#00F49C","textColor":"#000000","hover":{"color":"#404040","borderColor":"#404040","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"8c76213334881001013878295c2f0001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#000000","textColor":"#000000","image":{"id":"8c762133348810010138778f948b0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd501.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
