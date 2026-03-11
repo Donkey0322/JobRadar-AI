@@ -1,5 +1,256 @@
 [
   {
+    "company": "Avnet",
+    "role": "Software Developer Intern",
+    "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Lexington-Kentucky-United-States-Of-America/Software-Developer-Intern_JR-021960",
+    "location": "Lexington, KY",
+    "season": "2026 Summer",
+    "id": 3694,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint.",
+        "Demonstrate leadership experience through work and school activities.",
+        "Possess interest or background in technology.",
+        "Exhibit excellent communication, collaboration, and team-building skills.",
+        "Be self-driven and independent.",
+        "Demonstrate a willingness to try new things.",
+        "Be currently enrolled in an accredited undergraduate degree program.",
+        "Complete coursework in your field of study, preferably finishing junior year by May 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "Software Developer Intern - UI Team",
+    "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Lexington-Kentucky-United-States-Of-America/Software-Developer-Intern_JR-021960",
+    "location": "Lexington, KY",
+    "season": "2026 Summer",
+    "id": 3693,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science",
+        "Achieve a cumulative GPA of 3.0 or higher",
+        "Possess PC skills including Microsoft Outlook, Word, Excel, and PowerPoint",
+        "Demonstrate leadership experience through work and school activities",
+        "Have an interest or background in technology",
+        "Possess excellent communication, collaboration, and team-building skills",
+        "Be self-driven and independent",
+        "Be willing to try new things",
+        "Be currently enrolled in an accredited undergraduate degree program",
+        "Complete coursework in your field of study"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "SW Engineering Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71437/job?mobile=true&needsRedirect=false",
+    "location": "Manassas, VA",
+    "season": "2026 Summer",
+    "id": 3692,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related discipline",
+        "Have a standing of a sophomore or higher",
+        "Clear understanding of engineering concepts, principles, theories, and technical standards",
+        "Creative thinker with ability to grasp and apply new information quickly",
+        "Handle increasing responsibilities with growing complexity",
+        "Team player who thrives in collaborative environments",
+        "Commitment to ongoing professional development"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/70859/job?mobile=true&needsRedirect=false",
+    "location": "Bloomington, MN",
+    "season": "2026 Summer",
+    "id": 3691,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program",
+        "Standing of a sophomore or higher"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "HERE Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/80772/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3690,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be an undergraduate student in CS, CE, or another Engineering area.",
+        "Possess proven ability to quickly prototype in Python, Java/JavaScript, Scala, JDBC, and Tableau.",
+        "Gain experience in Amazon Web Services, Glue, IceBerg, ECS/EKS, Athena, Redshift, or SageMaker.",
+        "Have solid experience developing new research ideas.",
+        "Implement prototype systems in a timely manner.",
+        "Efficiently write technical reports.",
+        "Communicate results effectively.",
+        "Be a highly motivated team player."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/F38EC3F3FF/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 3689,
+    "jd": null
+  },
+  {
+    "company": "HERE Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/80793/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3688,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Java/Kotlin",
+        "Experience with Android development (frontend UI and backend)",
+        "Proficient in testing, CI, and Git workflows"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Coherent",
+    "role": "Intern Web Applications and Dbs",
+    "link": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011190",
+    "location": "Tarentum, PA",
+    "season": "2026 Summer",
+    "id": 3687,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Rubrik",
+    "role": "Software Engineering Intern",
+    "link": "https://www.rubrik.com/company/careers/departments/job.7071674?gh_jid=7071674",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "id": 3686,
+    "jd": null
+  },
+  {
+    "company": "Savannah River National Laboratory",
+    "role": "EM University Programs Software Developer Undergraduate Intern",
+    "link": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994",
+    "location": "North Augusta, SC",
+    "season": "2026 Summer",
+    "id": 3685,
+    "jd": null
+  },
+  {
+    "company": "Autodesk",
+    "role": "Intern Software Developer",
+    "link": "https://autodesk.wd1.myworkdayjobs.com/uni/job/Montreal-QC-CAN/Intern--Software-Developer_25WD92310",
+    "location": "Montreal, QC, CanadaToronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3684,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a full-time, degree-seeking program with a 2027 expected graduation date.",
+        "Focused in Computer Science, Statistic, or related fields.",
+        "Proficient in at least one programming language such as Java, Python, or Go.",
+        "Familiar with version control (Git), testing basics, and RESTful or event-driven service patterns.",
+        "Knowledgeable in experimental design and analysis of results.",
+        "Familiar with LLMs, especially in interactive dialog systems and chatbots.",
+        "Experienced in applying Machine Learning or LLM-based tools to existing processes.",
+        "Exposed to AWS or similar cloud platforms."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "AI Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Atlanta-GA-United-States/AI-Internships_JR-0088855",
+    "location": "Grand Rapids, MIPlano, TXAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3683,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an innovative thinker",
+        "Be an outstanding teammate",
+        "Be a self-starter, committed to personal growth",
+        "Be a future leader, driven by passion",
+        "Currently enrolled in a bachelor's degree program in Computer Science, Engineering, Business, or a related field",
+        "Entering junior or senior year preferred",
+        "Possess excellent communication and interpersonal skills",
+        "Ability to work independently and as part of a team"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Zip",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/zip/d404b517-9b02-4206-b49e-5c2986603baa/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3682,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS or MS in Computer Science or related technical field",
+        "Expected graduation between December 2026 and June 2027",
+        "Experience with web applications and API development",
+        "Familiar with Python, Javascript/TypeScript, React, and GraphQL stack",
+        "Able to quickly learn new frameworks, patterns, and programming languages",
+        "Fantastic written and verbal communication skills",
+        "Prior internship experience in a high-growth startup environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Assurant",
     "role": "Software Engineering Intern",
     "link": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Florida-Virtual/Summer-2026--Software-Engineering-Intern_R-112866",
