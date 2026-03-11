@@ -1,5 +1,149 @@
 [
   {
+    "company": "Assurant",
+    "role": "Software Engineering Intern",
+    "link": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/Florida-Virtual/Summer-2026--Software-Engineering-Intern_R-112866",
+    "location": "FloridaGeorgia",
+    "season": "2026 Summer",
+    "id": 3681,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's degree in Computer Science, Software Engineering, Data Science, Information Systems, or a related field",
+        "Strong background in Computer Science or a related engineering discipline",
+        "Strong understanding of object-oriented programming/design, algorithms, and data structures",
+        "Strong understanding of CS fundamentals and practical coding application",
+        "Clear communication skills and the ability to work within a team",
+        "Strong problem-solving skills with attention to detail",
+        "Ability to learn quickly in a fast-paced, Agile environment",
+        "Willingness to work full-time during the 10–12 week summer internship",
+        "Previous internship or relevant coursework/projects",
+        "Exposure to cloud platforms",
+        "Familiarity with Agile methodologies",
+        "Experience with data tools, ETL/ELT concepts, or big-data technologies",
+        "Knowledge of version control systems (e.g., Git) or CI/CD practices"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Rockwell Automation",
+    "role": "Co-op Software Engineering",
+    "link": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Co-op--Software-Engineering--May-2026---December-2026-_R25-7377",
+    "location": "Mayfield Heights, OHMilwaukee, WI",
+    "season": "2026 Summer",
+    "id": 3680,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or advanced degree from an accredited college or university.",
+        "Able to take a semester off from school for co-op program.",
+        "Currently pursuing a degree in Software Engineering or Computer Science.",
+        "Proficient in one or more programming languages (e.g., Angular/Node, C++, Java, Python).",
+        "Strong interest in software development and cutting-edge technologies.",
+        "Familiar with Agile methodology and software development best practices.",
+        "Work on a software development side-project."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Rockwell Automation",
+    "role": "Intern – Innovation Platform Software Engineer",
+    "link": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Innovation-Platform-Software-Engineer_R25-6933",
+    "location": "Milwaukee, WI",
+    "season": "2026 Summer",
+    "id": 3679,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's or advanced degree in Electrical Engineering, Computer Engineering, Computer Science, or related field",
+        "Enrolled in at least one more semester after the internship concludes",
+        "Achieve a minimum cumulative GPA of 2.75 on a 4.0 scale",
+        "At college sophomore level or above",
+        "Experience using Git version control within a software development team",
+        "Experience developing web applications using a frontend framework, specifically Angular",
+        "Experience developing web applications using backend technologies like Express.js and Node.js",
+        "Experience developing personal projects, including web applications",
+        "Knowledge of databases, specifically MongoDB",
+        "Knowledge of frontend technologies like JavaScript, TypeScript, HTML, and CSS",
+        "Be a self-starter, comfortable with uncertainty, and able to navigate complex situations",
+        "Ability to work individually and in a team environment",
+        "Possess good organizational and communication skills",
+        "Demonstrate interest in expanding professional and technical skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Guidewire",
+    "role": "AI Engineering",
+    "link": "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/United-States---Philadelphia-PA/AI-Engineering-Intern_JR_14530",
+    "location": "Philadelphia, PA",
+    "season": "2026 Summer",
+    "id": 3678,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Current student or recent graduate in a relevant technical field.",
+        "Familiar with Python or JavaScript/TypeScript for automation or data.",
+        "Interested in business process automation and system efficiency.",
+        "Able to work with data to create reports or dashboards.",
+        "Strong written and verbal communication skills.",
+        "Possess a collaborative mindset and curiosity for cloud and AI.",
+        "Demonstrated ability to apply AI and data-driven insights.",
+        "Exposed to Java or other enterprise software stacks.",
+        "Experienced with workflow or automation frameworks.",
+        "Familiar with building dashboards using tools like Streamlit or QuickSight.",
+        "Completed projects involving automation, data dashboards, or AI/ML.",
+        "Interested in the P&C insurance domain."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "RXO",
+    "role": "Brokerage AI Intern",
+    "link": "https://rxo.wd501.myworkdayjobs.com/rxojobs/job/Naperville-Illinois/Brokerage-AI-Intern_JR102230",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3677,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS in a STEM-based field",
+        "Have class status as a junior or greater",
+        "Possess 2+ years of relevant software development coursework, including Python",
+        "Have development experience with at least one object-oriented programming language",
+        "Be exposed to AI/ML concepts, generative AI tools, or building AI-driven applications or agents",
+        "Possess experience working with cloud platforms, especially for AI or data-driven solutions",
+        "Collaborate on product or project teams to translate technical concepts into practical use cases",
+        "Experience with one of the JavaScript frameworks (Angular, ReactJS, VueJS, etc.)",
+        "Experience in web, mobile, and responsive design",
+        "Demonstrate solid technical competency in coding and testing",
+        "Possess strong problem-solving skills",
+        "Ability to learn new technologies quickly",
+        "Be self-motivated and able to work well with minimal supervision or in a team environment",
+        "Be open-minded and receptive to feedback in an intellectually rigorous environment",
+        "Exhibit strong attention to detail and analytical skills",
+        "Ability to identify and resolve problems",
+        "Have good organizational skills with the ability to multitask",
+        "Possess great verbal and written communication skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Insulet Corporation",
     "role": "Intern EngOps Software Tools",
     "link": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/San-Diego-California/Intern--EngOps-Software-Tools--June---August-2026--Onsite-_REQ-2025-13506",
