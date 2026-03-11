@@ -1,5 +1,162 @@
 [
   {
+    "company": "Johnson & Johnson",
+    "role": "Software Engineering Co-Op",
+    "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op---Fall-2026_R-062573",
+    "location": "Peabody, MA",
+    "season": "2026 Fall",
+    "id": 3670,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's degree in Computer Science, Biomedical Engineering, or related programs.",
+        "Familiarity with Linux OS.",
+        "Familiarity with at least one web UI framework (such as Angular).",
+        "Experience coding in Javascript, C, Lua, or C#.",
+        "Self-motivated to execute tasks with attention to detail in a timely manner."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "T-Mobile",
+    "role": "Software Engineering Intern",
+    "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2026-Software-Engineering-Internship_REQ346602",
+    "location": "Overland Park, KS",
+    "season": "2026 Summer",
+    "id": 3669,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in Computer Science or related field.",
+        "Strong foundation in data structures and object-oriented design.",
+        "Experience with Java or comparable object-oriented language.",
+        "Familiarity with RESTful API development.",
+        "Experience using Git for version control.",
+        "Understand unit and integration testing principles.",
+        "Prior use of AI tools for code generation or specification-driven development.",
+        "Translate functional requirements into structured technical specifications.",
+        "Design and implement backend services using Java and Spring Boot.",
+        "Build and automate engineering and operational workflows.",
+        "Generate production-ready code via AI-driven specification workflows.",
+        "Review, validate, test, and refine AI-generated code.",
+        "Deploy services into Kubernetes environments.",
+        "Contribute to GitLab CI/CD pipelines and Argo deployment workflows.",
+        "Integrate services with Postgres and Cassandra data stores.",
+        "Collaborate within an agile engineering team.",
+        "Deliver maintainable, scalable, and well-tested backend solutions."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Johnson & Johnson",
+    "role": "Software Engineer Intern",
+    "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Intern_R-062544",
+    "location": "Peabody, MA",
+    "season": "2026 Summer",
+    "id": 3668,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's degree in Computer Science, Biomedical Engineering, or related programs.",
+        "Familiar with Linux OS and at least one web UI framework (such as Angular).",
+        "Possess coding experience in Javascript, C, Lua, or C#.",
+        "Self-motivated and attentive to detail for timely task execution."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Kioxia",
+    "role": "Innovation Lab Intern",
+    "link": "https://jobs.smartrecruiters.com/Kioxia/744000113744318",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3667,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Current student pursuing CS, EE, CPE, MSIS, or other relevant degree",
+        "Compare features of filesystems",
+        "Compare RAID 5, 6, and 10",
+        "Complete appropriate tuning for maximized performance",
+        "Test initial raid sets with FIO",
+        "Create code to run tests with background trim",
+        "Compare normal and Trim performance"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Kaiser Permanente",
+    "role": "Software Developer Bachelor's Intern",
+    "link": "https://kp.taleo.net/careersection/external/jobdetail.ftl?job=1411792",
+    "location": "Pleasanton, CA",
+    "season": "2026 Summer",
+    "id": 3666,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "High School Diploma or GED required",
+        "Pursue or have graduated with a Bachelor's degree",
+        "Possess an aptitude for data and process analytics",
+        "Build effective working relationships",
+        "Demonstrate strong interpersonal skills",
+        "Possess working knowledge of MS Word, Excel, PowerPoint",
+        "Achieve a 3.0 GPA or above",
+        "Exhibit advanced analytical and problem-solving skills",
+        "Demonstrate excellent verbal and written communication skills",
+        "Learn quickly and produce high quality work in short periods",
+        "Proficient in at least one programming language (Python, Java, C#, JavaScript)",
+        "Possess strong CS fundamentals (OOP, data structures, algorithms)",
+        "Have working knowledge of Git/version control",
+        "Write clean, maintainable code with attention to quality",
+        "Familiar with unit testing concepts",
+        "Willing to test and validate your work",
+        "Have clear communication skills",
+        "Able to collaborate in a team environment",
+        "Comfortable working in an Agile/iterative delivery model",
+        "Majoring in Computer Science",
+        "Majoring in Data Science",
+        "Majoring in Math/Statistics"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Diligent Corporation",
+    "role": "Product Builder Intern",
+    "link": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5800451004",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3665,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Computer Science or Product Management student with hands-on experience using AI tools.",
+        "Possess strong customer empathy and problem-solving skills.",
+        "Demonstrate interest in product development through coursework, side projects, or internships.",
+        "Possess excellent analytical skills to translate data into actionable insights.",
+        "Possess strong written and verbal communication skills.",
+        "Work independently and know when to ask for help."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Hayden AI",
     "role": "Intern Software Engineer",
     "link": "https://jobs.ashbyhq.com/haydenai/0e567d78-e519-486c-9136-bc3eda60954d/application",
