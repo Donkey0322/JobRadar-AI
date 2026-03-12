@@ -1,5 +1,41 @@
 [
   {
+    "company": "Salesforce",
+    "role": "Intern",
+    "link": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2026-Intern---Software-Engineer_JR308796",
+    "location": "4 locationsSeattle, WASFNYCBellevue, WA",
+    "season": "2026 Summer",
+    "id": 3717,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a BS/MS in Computer Science or related field.",
+        "Returning to school after Summer 2026 internship.",
+        "Attending a College or University in North America.",
+        "Possess a strong background in Computer Science or related engineering.",
+        "Strong understanding of object-oriented programming/design, algorithms, and data structures.",
+        "Strong understanding of CS fundamentals and practical coding application.",
+        "Demonstrate collaboration skills as a team player.",
+        "Experience using and critically reviewing LLM coding assistants and agentic tools.",
+        "Ability to effectively guide AI tools to achieve desired outcomes.",
+        "Experience using Copilot, Cursor, Claude Code, Gemini, or other agent-based frameworks.",
+        "Proficient in SQL and relational database concepts.",
+        "Proficient in Java, Javascript, and related frameworks.",
+        "Working knowledge of HTML and web technologies.",
+        "Knowledge of front-end and back-end languages.",
+        "Strong communication skills (written, verbal, visual).",
+        "Strong analytical and problem-solving skills.",
+        "Committed to delivering high-quality solutions.",
+        "Self-motivated and eager to learn.",
+        "Experience using telemetry and metrics to drive operational excellence.",
+        "Ability to quickly adapt to new technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Premier Truck Rental",
     "role": "Intern Developer",
     "link": "https://rentptr.com/jobs/?gh_jid=5150736008",
