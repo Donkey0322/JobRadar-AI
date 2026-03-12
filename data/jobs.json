@@ -1,5 +1,192 @@
 [
   {
+    "company": "EisnerAmper",
+    "role": "AI Governance Technical Intern",
+    "link": "https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers/job/Atlanta/XMLNAME-2026-AI-Governance-Technical-Intern_Req-8684",
+    "location": "5 locationsJohns Creek, GAPhiladelphia, PAIselin, Woodbridge Township, NJNYCAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3712,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled or recently graduated with a Bachelor's degree in Computer Science or a related field.",
+        "Strong Python skills and experience building production-grade services.",
+        "Familiarity with NLP/PII detection concepts.",
+        "Experienced with test automation and CI.",
+        "Comfortable with enterprise tooling and automation patterns.",
+        "Strong documentation habits."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hewlett Packard (HP)",
+    "role": "Software Engineer Intern - Cloud Services - HP IQ 🎓",
+    "link": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/San-Francisco-California-United-States-of-America/Software-Engineer-Intern--Cloud-Services---HP-IQ_3160773",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3711,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's or PhD in Computer Science or related field.",
+        "Experience or strong interest in hardware-software integration, cloud services, and AI technologies.",
+        "Ability to work independently in a fast-paced team environment.",
+        "Strong communication and collaboration skills.",
+        "Experience with automation and infrastructure.",
+        "Exposure to building services at scale.",
+        "Familiarity with technologies such as Spring Boot."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nightwing Intelligence Solutions",
+    "role": "Vulnerability Researcher Intern",
+    "link": "https://nwis.wd12.myworkdayjobs.com/NW/job/Annapolis-Junction-MD/Vulnerability-Researcher-Intern---2026_JR101083",
+    "location": "Annapolis Junction, MD",
+    "season": "2026 Summer",
+    "id": 3710,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Maintain a GPA of 3.0+ on a 4.0 scale.",
+        "Experience with C or C++.",
+        "Enrolled in a STEM Bachelor's or Master's degree program.",
+        "Able to obtain and maintain a U.S. government security clearance.",
+        "Understand OS Internals of any major OS.",
+        "Experience reading or writing assembly language.",
+        "Understand various network protocols.",
+        "Understand exploit mitigations like DEP and ASLR.",
+        "Proficient with reverse engineering tools.",
+        "Experience using debuggers like gdb or WinDbg.",
+        "Build and use tools to exploit vulnerabilities in software systems.",
+        "Professional, self-starter with a positive attitude."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nordson",
+    "role": "Intern - Software Engineer",
+    "link": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Rhode-Island---East-Providence/Summer-Intern---Software-Engineer_REQ50054",
+    "location": "Providence, RI",
+    "season": "2026 Summer",
+    "id": 3709,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor\nelor\n’s degree in Engineering or Computer Science",
+        "Possess in-depth knowledge of quality engineering theories, principles, inspection techniques, tools, and equipment",
+        "Demonstrate basic problem-solving experience in root cause corrective action",
+        "Have a systematic approach to problem solving",
+        "Prefer industrial automation programming experience",
+        "Be willing to work in a laboratory setting",
+        "Proficient in Microsoft Office; Excel, Word, and PowerPoint",
+        "Able to read, understand, and interpret technical drawings/documentation",
+        "Ability to work with cross-functional teams"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Thales",
+    "role": "Co-op Software Developer",
+    "link": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Ottawa/COOP-Software-Developer--Summer-Fall-2026--8-months-term-_R0318614",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3708,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Possess a good attitude and ability to work in a dynamic team environment.",
+        "Desire to own an entire solution lifecycle.",
+        "Knowledge of Linux.",
+        "Expertise with Docker and Virtual Machines.",
+        "Experience with GoLang, C/C++, bash, and Python scripting.",
+        "Interest in cryptography, security protocols, and information technology security.",
+        "Excellent oral and written communication skills.",
+        "Possess an Agile mindset.",
+        "Knowledge of AI and ability to work with AI agents.",
+        "Have programming experience."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ensono",
+    "role": "IT Infrastructure & Cloud Operations Intern",
+    "link": "https://www.ensono.com/careers/it-infrastructure-cloud-operations-intern/",
+    "location": "Remote in US",
+    "season": "2026 Summer",
+    "id": 3707,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor's or Master's degree in Computer Science, Information Systems, Engineering, or related field.",
+        "Foundational understanding of cloud platforms (Azure, AWS, or GCP).",
+        "Basic experience with Power BI or similar BI tools.",
+        "Familiarity with scripting languages (PowerShell, Python) is a plus.",
+        "Strong analytical, communication, and problem-solving skills.",
+        "Possess curiosity, willingness to learn, and a passion for modern infrastructure."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "FanThreeSixty",
+    "role": "Software Engineer Intern",
+    "link": "https://osv-tifec.wd5.myworkdayjobs.com/en-US/fanthreesixty/job/FanThreeSixty-Leawood-KS-66211/Software-Engineer-Intern_REQ-5122",
+    "location": "Leawood, KS",
+    "season": "2026 Summer",
+    "id": 3706,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or complete a degree in Computer Science, Software Engineering, or related field.",
+        "Graduate of a coding boot camp.",
+        "Possess foundational knowledge of coding, debugging, and software development principles.",
+        "Familiar with one or more programming languages.",
+        "Understand software development tools and standards, such as Git and code reviews.",
+        "Proficient with Google Workspace tools.",
+        "Demonstrate critical thinking and analytical problem-solving abilities.",
+        "Demonstrate academic achievement, initiative, work ethic, and willingness to learn.",
+        "Strong organizational, communication, and interpersonal skills.",
+        "Organize work effectively, conceptualize and prioritize objectives.",
+        "Strong commitment to seeing tasks through to completion.",
+        "Handle multiple tasks in a fast-paced environment with excellent time management.",
+        "Strategic critical thinking and problem-solving skills.",
+        "Carry out responsibilities with direction.",
+        "Self-motivated learner, eager to succeed and grow professionally.",
+        "Passionate about technology and software development, with a proactive approach."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Transcarent",
+    "role": "Software Engineering Intern - Virtual Primary Care",
+    "link": "https://job-boards.greenhouse.io/transcarent/jobs/5822302004?gh_jid=5822302004",
+    "location": "Seattle, W",
+    "season": "2026 Summer",
+    "id": 3705,
+    "jd": null
+  },
+  {
     "company": "Precisely",
     "role": "AI Engineering Intern",
     "link": "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005",
