@@ -1,5 +1,26 @@
 [
   {
+    "company": "Precisely",
+    "role": "AI Engineering Intern",
+    "link": "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3704,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrollment in a Computer Science, Engineering or related program",
+        "Experience with Python or JavaScript",
+        "Familiarity with APIs, AI tools, or LLM concepts",
+        "Strong problem-solving and communication skills",
+        "Ability to learn quickly in an enterprise environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Altom Transport",
     "role": "Software Development Intern",
     "link": "https://apply.workable.com/altom-transport/j/B1EF4725DA/apply",
