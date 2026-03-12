@@ -1,5 +1,66 @@
 [
   {
+    "company": "Premier Truck Rental",
+    "role": "Intern Developer",
+    "link": "https://rentptr.com/jobs/?gh_jid=5150736008",
+    "location": "Fort Wayne, IN",
+    "season": "2026 Summer",
+    "id": 3716,
+    "jd": null
+  },
+  {
+    "company": "Draper",
+    "role": "Enterprise Application Software Intern",
+    "link": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Enterprise-Application-Software-Intern_JR002296",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 3715,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited full-time undergraduate or graduate degree program",
+        "Excellent written and oral communication skills",
+        "Excellent work ethic with the ability to work independently or in a team environment",
+        "Ability to adapt to ever-changing environments, risks, and vulnerabilities",
+        "Strong computer skills including MS Word, PowerPoint and Excel",
+        "Proficient in programming with Java, Kotlin, Python, C, or C++",
+        "Enthusiasm for learning unfamiliar languages, frameworks, and coding paradigms",
+        "Ability to obtain and maintain a government security clearance"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Leonardo",
+    "role": "Software Graduate Apprentice - Test Systems - Test Systems",
+    "link": "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Software-Graduate-Apprentice--Test-Systems_R0022248",
+    "location": "Edinburgh, UK",
+    "season": "2026 Summer",
+    "id": 3714,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Possess 5 Higher Grades (BBBBC) or equivalent, including mandatory Mathematics and preferably Physics and Computing",
+        "Achieve National 5 (A-C) in English or equivalent qualifications",
+        "Interested in IT and possess technical aptitude in software development",
+        "Understand the importance of communication",
+        "Able to work well as part of a team and on own initiative",
+        "Have the drive and commitment to work through difficult problems to find engineering solutions",
+        "Possess an eager willingness to learn",
+        "Driven to deliver results, sometimes from own initiative",
+        "Patient with problem solving",
+        "Comply with safety instructions and clear process compliance at all times",
+        "Committed to the programme and learning objectives",
+        "Do not already possess a computing or software degree"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Strand Therapeutics",
     "role": "Intern Software",
     "link": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/5824281004",
