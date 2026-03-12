@@ -1,5 +1,33 @@
 [
   {
+    "company": "Strand Therapeutics",
+    "role": "Intern Software",
+    "link": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/5824281004",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3713,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "On track to graduate with a B.S. or M.S. in Computer Science or related discipline",
+        "Possess a background in biology or chemistry",
+        "Experience in the biotechnology industry",
+        "Comfortable using programming languages, especially Python and JavaScript",
+        "Experience with web frameworks like Django, Flask, Vue, or React",
+        "Knowledge of databases (SQL)",
+        "Experience with other data storage and analytics systems",
+        "Comfortable using Unix environments (Linux, shell scripting)",
+        "Experience with common software tooling, including version control with git",
+        "Strong collaboration and interpersonal skills",
+        "Ability to present software concepts to a diverse audience",
+        "Ability to multi-task and prioritize to meet important deadlines"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "EisnerAmper",
     "role": "AI Governance Technical Intern",
     "link": "https://eisneramper.wd1.myworkdayjobs.com/EisnerAmperEarlyCareers/job/Atlanta/XMLNAME-2026-AI-Governance-Technical-Intern_Req-8684",

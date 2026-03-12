@@ -1,0 +1,27 @@
+Company Overview:
+Strand Therapeutics is a clinical stage biotechnology company utilizing synthetic biology to genetically program mRNA to deliver truly revolutionary immunotherapies to patients.
+Building on the idea of creating smart therapies based on Boolean logic circuits, Strand was started by biological engineers working together at MIT who were seeking to apply the concept of the emerging field of mRNA therapeutics. Strand's technology is therapeutic-area and mRNA modality agnostic where therapeutic proteins are encoded onto modified, self-replicating, or circular mRNA backbones which in turn are programmed with cell-specific sensors and circuits.
+Today, Strand has established multiple programmable mRNA platforms with one clinical stage asset and several programs in preclinical development as well as early discovery. Our lead program, STX-001, is currently being evaluated in a Phase 1 clinical trial for solid tumors. Our corporate headquarters is located in the Fenway district of Boston, Massachusetts.
+Become the next standout single strand!
+Job Summary:
+Strand is looking for people who have the enthusiasm and motivation to be a highly contributing member of a team with significant impact on Strand’s cell engineering programs. This opportunity will offer the employee the ability to work in a cross-functional environment and be a part of the future strategy of the company.
+We are looking for an Intern, Software to join the Computational Biology team at Strand Therapeutics. The incoming candidate will work closely with both the computational biology team and experimental teams at Strand to build software tools to streamline and empower R&D. The candidate will be expected to work in an innovative, fast-paced, cross-collaborative biotech environment.
+Primary Responsibilities:
+Design, build, and deploy applications for handling scientific data in collaboration with other scientists and engineers. Applications will be in drug development and integrating biological data.
+Work with stakeholders across the company to integrate data access and computation through APIs. Integrate 3rd party data sources and tools.
+Learn the complete software development lifecycle from conception and requirements gathering to implementation, deployment, and operation.
+Engage with cross-functional project teams and external collaborators to support project planning and execution, and drive adoption of software-based solutions.
+Develop computational pipelines (e.g., with Nextflow or Snakemake) for a variety of research and development applications, with a particular focus on next-generation sequencing (NGS) data and analysis.
+Maintain a well-documented, reusable codebase, and demonstrate good software engineering practices.
+Qualifications:
+On track to graduate with a B.S. or M.S. in Computer Science, Computational Biology, Bioengineering, Data Science, or a related discipline
+Background in biology/chemistry is highly desired; experience in the biotechnology industry is a strong plus.
+Comfortable using programming languages, especially Python and JavaScript. Experience with web frameworks like Django or Flask for backend development and/or Vue or React for frontend development is a plus.
+Knowledge of databases (SQL). Experience with other data storage and analytics systems is a plus.
+Comfortable using Unix environments (Linux, shell scripting).
+Experience with common software tooling, including version control with git.
+Strong collaboration and interpersonal skills. Ability to present software concepts to a diverse audience.
+Ability to multi-task and prioritize to meet important deadlines.
+Strand Therapeutics is an equal opportunity employer. We do not discriminate on the basis of race, color, gender, gender identity, sexual orientation, age, religion, national or ethnic origin, disability, protected veteran status or any other basis protected by applicable law. Strand does not accept unsolicited resumes from any source other than directly from candidates.
+Job Type: Intern
+Hourly Rate: $30 - $33 per hour
