@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "CAN - - Toronto"
+}
+},
+"hiringOrganization" : {
+"name" : "200 Intel Technology of Canada, ULC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Compiler Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "JR0281251"
+},
+"datePosted" : "2026-03-12",
+"employmentType" : "FULL_TIME",
+"title" : "Compiler Engineering Intern",
+"description" : "Job Details: Job Description: At Intel, we're advancing the next generation of foundational software through hardware–software co‑design, building state-of-the-art compilers for AI and machine learning models that unlock the full potential of heterogeneous computing. Our work empowers developers worldwide to take advantage of CPUs, GPUs, and accelerators through cutting-edge tools, libraries, and compilers. By joining our efforts, you’ll contribute to an open ecosystem that drives performance, scalability, and portability across diverse architectures, enabling breakthroughs in AI, high‑performance computing, and more. If you’re passionate about transforming computing technology and making a meaningful impact, this is an opportunity to be part of innovations that truly matter. The Intel Compiler Engineering Team is a high-performing group responsible for creating the industry-leading Intel C/C++/DPC++ and Fortran compilers. As an active leader within LLVM.org—the foundation of our compiler products—we continually push the boundaries of compiler technology to deliver powerful and efficient compilers across all Intel processor platforms, from CPUs to GPUs. We are hiring a Compiler Research and Development Intern to support the co‑design of next‑generation Intel CPU and GPU architectures through compiler innovation aimed at AI and machine-learning model optimization. In this role, you will collaborate with experienced engineers to collect and analyze AI performance data on Intel architectures, contribute to both hardware and software features that improve AI workload performance, and evaluate how compiler optimizations influence hardware design. You’ll gain hands‑on experience with technologies such as LLVM, SYCL, and CUDA while learning how compilers and runtimes integrate across the hardware–software stack to deliver strong performance and reliability for AI workloads. Qualifications: You must possess the below minimum qualifications to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. Requirements listed would be obtained through a combination of industry relevant job experience, internship experiences and or schoolwork/classes/research. Minimum qualifications Currently pursuing a Bachelor’s degree in Computer Science, Computer Engineering, Mathematics, or a related field 3+ months of experience with accelerated computing and parallel programming models Preferred Qualifications Hands-on experience building compilers or compiler components using the LLVM framework, including optimization passes, code generation, or frontend integration• Demonstrated ability to analyze and optimize AI models, language runtimes, scheduling, and memory models to deliver industry-leading performance across heterogeneous architectures (CPU, GPU, and accelerators) SYCL/DPC++ and CUDA programming experiences for accelerated computing on GPUs• Hardware knowledge from modern CPU/GPU architecture and memory system courses and projects Compiler knowledge from modern compiler construction courses and projects 3+ months of hands-on AI model optimization experience using PyTorch for LLM models Knowledge of C/C++, CUDA, and SYCL languages with strong understanding of kernel programming Job Type: Student / Intern Shift: Shift 1 (Canada) Primary Location: Canada, Toronto Additional Locations: Business group: The Software Team drives customer value by enabling differentiated experiences through leadership AI technologies and foundational software stacks, products, and services. The group is responsible for developing the holistic strategy for client and data center software in collaboration with OSVs, ISVs, developers, partners and OEMs. The group delivers specialized NPU IP to enable the AI PC and GPU IP to support all of Intel's market segments. The group also has HW and SW engineering experts responsible for delivering IP, SOCs, runtimes, and platforms to support the CPU and GPU/accelerator roadmap, inclusive of integrated and discrete graphics. Posting Statement: All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance. Position of Trust N/A Annual Salary Range for jobs which could be performed in Canada Salary range dependent on a number of factors including location and experience. Work Model for this Role This role will be eligible for our hybrid work model which allows employees to split their time between working on-site at their assigned Intel site and off-site. * Job posting details (such as work model, location or time type) are subject to change. Canada Accommodation: Intel is committed to a culture of accessibility. Intel provides accommodations to applicants and employees with disabilities. Find information and request accommodation here. * ADDITIONAL INFORMATION: Intel is committed to Responsible Business Alliance (RBA) compliance and ethical hiring practices. We do not charge any fees during our hiring process. Candidates should never be required to pay recruitment fees, medical examination fees, or any other charges as a condition of employment. If you are asked to pay any fees during our hiring process, please report this immediately to your recruiter. Intel’s official careers website. Find your next job and take on projects that shape tomorrow’s technology. Benefits Internships Life at Intel Locations Recruitment Process Discover your place in our world-changing work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "CAN - - Toronto"
+}
+},
+"hiringOrganization" : {
+"name" : "200 Intel Technology of Canada, ULC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Compiler Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "JR0281251"
+},
+"datePosted" : "2026-03-12",
+"employmentType" : "FULL_TIME",
+"title" : "Compiler Engineering Intern",
+"description" : "Job Details: Job Description: At Intel, we're advancing the next generation of foundational software through hardware–software co‑design, building state-of-the-art compilers for AI and machine learning models that unlock the full potential of heterogeneous computing. Our work empowers developers worldwide to take advantage of CPUs, GPUs, and accelerators through cutting-edge tools, libraries, and compilers. By joining our efforts, you’ll contribute to an open ecosystem that drives performance, scalability, and portability across diverse architectures, enabling breakthroughs in AI, high‑performance computing, and more. If you’re passionate about transforming computing technology and making a meaningful impact, this is an opportunity to be part of innovations that truly matter. The Intel Compiler Engineering Team is a high-performing group responsible for creating the industry-leading Intel C/C++/DPC++ and Fortran compilers. As an active leader within LLVM.org—the foundation of our compiler products—we continually push the boundaries of compiler technology to deliver powerful and efficient compilers across all Intel processor platforms, from CPUs to GPUs. We are hiring a Compiler Research and Development Intern to support the co‑design of next‑generation Intel CPU and GPU architectures through compiler innovation aimed at AI and machine-learning model optimization. In this role, you will collaborate with experienced engineers to collect and analyze AI performance data on Intel architectures, contribute to both hardware and software features that improve AI workload performance, and evaluate how compiler optimizations influence hardware design. You’ll gain hands‑on experience with technologies such as LLVM, SYCL, and CUDA while learning how compilers and runtimes integrate across the hardware–software stack to deliver strong performance and reliability for AI workloads. Qualifications: You must possess the below minimum qualifications to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. Requirements listed would be obtained through a combination of industry relevant job experience, internship experiences and or schoolwork/classes/research. Minimum qualifications Currently pursuing a Bachelor’s degree in Computer Science, Computer Engineering, Mathematics, or a related field 3+ months of experience with accelerated computing and parallel programming models Preferred Qualifications Hands-on experience building compilers or compiler components using the LLVM framework, including optimization passes, code generation, or frontend integration• Demonstrated ability to analyze and optimize AI models, language runtimes, scheduling, and memory models to deliver industry-leading performance across heterogeneous architectures (CPU, GPU, and accelerators) SYCL/DPC++ and CUDA programming experiences for accelerated computing on GPUs• Hardware knowledge from modern CPU/GPU architecture and memory system courses and projects Compiler knowledge from modern compiler construction courses and projects 3+ months of hands-on AI model optimization experience using PyTorch for LLM models Knowledge of C/C++, CUDA, and SYCL languages with strong understanding of kernel programming Job Type: Student / Intern Shift: Shift 1 (Canada) Primary Location: Canada, Toronto Additional Locations: Business group: The Software Team drives customer value by enabling differentiated experiences through leadership AI technologies and foundational software stacks, products, and services. The group is responsible for developing the holistic strategy for client and data center software in collaboration with OSVs, ISVs, developers, partners and OEMs. The group delivers specialized NPU IP to enable the AI PC and GPU IP to support all of Intel's market segments. The group also has HW and SW engineering experts responsible for delivering IP, SOCs, runtimes, and platforms to support the CPU and GPU/accelerator roadmap, inclusive of integrated and discrete graphics. Posting Statement: All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance. Position of Trust N/A Annual Salary Range for jobs which could be performed in Canada Salary range dependent on a number of factors including location and experience. Work Model for this Role This role will be eligible for our hybrid work model which allows employees to split their time between working on-site at their assigned Intel site and off-site. * Job posting details (such as work model, location or time type) are subject to change. Canada Accommodation: Intel is committed to a culture of accessibility. Intel provides accommodations to applicants and employees with disabilities. Find information and request accommodation here. * ADDITIONAL INFORMATION: Intel is committed to Responsible Business Alliance (RBA) compliance and ethical hiring practices. We do not charge any fees during our hiring process. Candidates should never be required to pay recruitment fees, medical examination fees, or any other charges as a condition of employment. If you are asked to pay any fees during our hiring process, please report this immediately to your recruiter. Intel’s official careers website. Find your next job and take on projects that shape tomorrow’s technology. Benefits Internships Life at Intel Locations Recruitment Process Discover your place in our world-changing work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "intel",
+siteId: "external",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=intel&s=external",
+token: "848ce898-a513-48e8-ba8c-5a89737bbed8",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#00285A","textColor":"#333333"},"progressBar":{"color":"#0068B5"},"button":{"primary":{"color":"#00285A","borderColor":"#00285A","textColor":"#FFFFFF","hover":{"color":"#00285A","borderColor":"#00285A","textColor":"#FFFFFF"}},"secondary":{"color":"#00285A","borderColor":"#00285A","textColor":"#FFFFFF","hover":{"color":"#00285A","borderColor":"#00285A","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"19eaceeb6d921001bb7d304ecb130000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#FFFFFF","textColor":"#0068B5","image":{"id":"19eaceeb6d921001bb7d2fb506870000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

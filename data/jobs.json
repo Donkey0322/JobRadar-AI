@@ -1,5 +1,474 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71480/job?mobile=true&needsRedirect=false",
+    "location": "United States",
+    "season": "2026 Summer",
+    "id": 3739,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, Mechanical Engineering or related scientific/technical discipline",
+        "Preferably a sophomore standing or higher",
+        "Able to obtain a Department of Defense Secret security clearance",
+        "Apply classroom-learned skills to a program supporting defense",
+        "Work with collaborative teams on various technical projects",
+        "Enhance skill set by working among talented colleagues"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hearst",
+    "role": "Level Up Ventures Intern",
+    "link": "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026310",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3738,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "PowerSchool Group",
+    "role": "AI Engineering",
+    "link": "https://careers-powerschool.icims.com/jobs/52599/job?mobile=true&needsRedirect=false",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 3737,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor\n's or Master\n's degree in Computer Science, Software Engineering, or related field.",
+        "Experience with programming fundamentals like data structures, algorithms, and OOP.",
+        "Strong interest in Artificial Intelligence, machine learning, or AI-assisted development.",
+        "Exposure to AI/ML concepts, LLMs, or data-driven projects.",
+        "Willingness to learn, collaborate, and accept feedback."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fanatics",
+    "role": "AI Intern",
+    "link": "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27180",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3736,
+    "jd": null
+  },
+  {
+    "company": "Planet",
+    "role": "Intern Software Engineer - AI",
+    "link": "https://job-boards.greenhouse.io/planetlabs/jobs/7660168",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3735,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a graduate program in AI, ML, LLMs, or a related field",
+        "Experience using ML methods to classify data",
+        "Experience with MCP, skills, and methods to enable tool use by LLMs",
+        "Experience integrating with or building REST APIs",
+        "Web development experience",
+        "Experience with relational databases",
+        "Developed integrated applications using AI/ML technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Chubb",
+    "role": "AI Engineer Intern",
+    "link": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31333",
+    "location": "Philadelphia, PABedminster, NJNYC",
+    "season": "2026 Summer",
+    "id": 3734,
+    "jd": null
+  },
+  {
+    "company": "Coherent",
+    "role": "Intern Software Application Development",
+    "link": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011259",
+    "location": "Fremont, CA",
+    "season": "2026 Summer",
+    "id": 3733,
+    "jd": null
+  },
+  {
+    "company": "Chubb",
+    "role": "AI Engineer Intern",
+    "link": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31332",
+    "location": "Philadelphia, PABedminster, NJNYC",
+    "season": "2026 Summer",
+    "id": 3732,
+    "jd": null
+  },
+  {
+    "company": "Lawrence Livermore National Laboratory (LLNL)",
+    "role": "Defense Science and Technology Intern Graduate Student",
+    "link": "https://jobs.smartrecruiters.com/LLNL/3743990012117076",
+    "location": "Livermore, CA",
+    "season": "2026 Summer",
+    "id": 3731,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in or completed a Bachelor's, Master's, or graduate degree in relevant fields.",
+        "Experience applying principles of physics, engineering, or computer science to solve problems.",
+        "Excellent written and oral communication skills.",
+        "Ability to work effectively in a team environment.",
+        "Intend to complete a Ph.D. for Math, Physics, and Engineering majors.",
+        "Track record of achievement in your field of study.",
+        "Coding experience (e.g., Python, C++).",
+        "GPA of 3.5 or above."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Developer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Lawton-OK/Software-Developer-Intern_R-00177923",
+    "location": "Lawton, OK",
+    "season": "2026 Summer",
+    "id": 3730,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a bachelor’s or master’s degree program in Computer Science, Software Engineering, Cybersecurity, or related field",
+        "Proficient in programming languages such as C#, C++, Java, and WPF",
+        "Fundamental background in software design patterns",
+        "Able to debug, troubleshoot, and isolate software issues",
+        "Able to adapt to rapidly changing requirements and technologies",
+        "Able to develop technical solutions requiring collaboration, deep analyses, and understanding of impact",
+        "Strong sense of ownership and passion for learning complex problems",
+        "Able to reside in or relocate to the Lawton, OK area",
+        "Able to obtain and maintain a Secret Security Clearance",
+        "Experienced in building prototypes or applications through projects",
+        "Experienced using IDEs and software version control systems",
+        "Experienced working in an Agile Scrum environment",
+        "Knowledgeable of containerization technologies such as Docker or Kubernetes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Forward Deployed Software Engineer Intern",
+    "link": "https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce/apply",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3729,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled at a U.S. university as a sophomore or junior",
+        "Study Engineering in fields such as Computer Science, Mathematics, Software Engineering, Physics, or Data Science",
+        "Proficient in one or more programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "StockX",
+    "role": "iOS Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/stockx/jobs/8451416002",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 3728,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an engineering degree or equivalent.",
+        "Good understanding of the iOS platform.",
+        "Strong analytical, organizational, and communication skills.",
+        "Ability to document features and bug fixes clearly.",
+        "Experience with testing strategies, automation, and CI/CD.",
+        "Excited to work in a fast-paced environment.",
+        "Strong desire to learn and acquire knowledge.",
+        "Experience with observability services (Datadog, Splunk, New Relic).",
+        "Experience with AWS or equivalent cloud providers.",
+        "Experience implementing feature flags (LaunchDarkly)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Sony Pictures Entertainment",
+    "role": "Marketing Operations AI Enablement Intern 🎓",
+    "link": "https://spe.wd1.myworkdayjobs.com/en-US/SonyPicturesEntertainment/job/Culver-City-California/Intern--Marketing-Operations-AI-Enablement--MPG--Summer-2026_JR111770",
+    "location": "Culver City, CA",
+    "season": "2026 Summer",
+    "id": 3727,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's degree in Computer Science, Software Engineering, or related technical field during the internship.",
+        "Strong programming skills with Python proficiency.",
+        "Hands-on experience building and deploying data, AI, or application solutions on Azure or AWS.",
+        "Experience with workflow automation and process optimization.",
+        "Knowledge of AI/ML concepts and applications.",
+        "Demonstrated experience with database management and workflow platforms like Airtable.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent written and verbal communication skills.",
+        "Previous experience in entertainment or media industry.",
+        "Hands-on experience with ChatGPT API or similar large language models.",
+        "Experience with project management tools and methodologies.",
+        "Knowledge of HTML and web technologies.",
+        "Previous internship or work experience in process automation or digital transformation.",
+        "Understand post-production workflows and digital asset management systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Compiler Engineering Intern",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0281251-1",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3726,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue Bachelor\n\t\t\t\t\t\t\t\t’s degree in Computer Science, Computer Engineering, Mathematics, or related field.",
+        "Have 3+ months of experience with accelerated computing and parallel programming models.",
+        "Hands-on experience building compilers or components using LLVM framework.",
+        "Demonstrate ability to analyze and optimize AI models, runtimes, scheduling, and memory models.",
+        "Experience with SYCL/DPC++ and CUDA programming for GPUs.",
+        "Knowledge of modern CPU/GPU architecture and memory systems.",
+        "Knowledge of modern compiler construction.",
+        "Have 3+ months of AI model optimization experience using PyTorch.",
+        "Strong understanding of C/C++, CUDA, and SYCL languages for kernel programming."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KBR",
+    "role": "National Security Solutions Computer Science Intern - NSS",
+    "link": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Computer-Science-Intern_R2120307",
+    "location": "Beavercreek, OH",
+    "season": "2026 Summer",
+    "id": 3725,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build Python-based pipelines for text ingestion, scoring, and dashboard production.",
+        "Implement rules and simple ML classifiers.",
+        "Create scoring rubrics and web dashboards using Streamlit/Dash.",
+        "Export data in CSV/JSON for model tracing and test cases.",
+        "Develop dashboards and visualizations.",
+        "Perform NLP and rule-based text analytics.",
+        "Currently enrolled in a Bachelor's degree in Computer Science, Computer Engineering or related field.",
+        "Proficient in Python, NLP (spaCy), regex, pandas, and data visualization.",
+        "Possess UX sensibility.",
+        "Experience collaborating using Git/GitLab.",
+        "Possess strong work ethics and interpersonal skills.",
+        "Possess strong analytical and problem-solving skills.",
+        "Exhibit excellent written and verbal communication skills.",
+        "Ability to obtain a U.S. Government Secret Security Clearance."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Moderna",
+    "role": "Data Analytics Research 🎓",
+    "link": "https://modernatx.wd1.myworkdayjobs.com/en-US/M_tx/job/Cambridge-Massachusetts/XMLNAME-2026-Co-op--Statistical-AI-ML-Research---Agent-Enablement_R18940",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 3724,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a Master's, doctoral, or advanced undergraduate student in statistics, biostatistics, computational biology, health informatics, data science, or computer science.",
+        "Possess excellent statistical knowledge and quantitative skills to solve scientific and clinical problems.",
+        "Proficient in Python (required) and R (preferred) coding.",
+        "Demonstrate ability in cloud computing platforms, containerization, backend development, and SQL.",
+        "Experienced with GenAI/LLM, including post-training, deployment, and agent development.",
+        "Apply Machine Learning knowledge and experience for solving real-world problems.",
+        "Have hands-on experience in creating visualizations, dashboards, and toolkits.",
+        "Show interest in building practical AI solutions in clinical or biomedical settings.",
+        "Exhibit outstanding analytical, engineering thinking, and communication skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Moderna",
+    "role": "Intern/Co-op",
+    "link": "https://modernatx.wd1.myworkdayjobs.com/en-US/M_tx/job/Cambridge-Massachusetts/XMLNAME-2026-Co-op--Statistical-AI-ML-Research---Agent-Enablement_R18941",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 3723,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a Master, doctoral, or advanced undergraduate student in relevant disciplines.",
+        "Possess excellent statistical knowledge and quantitative skills.",
+        "Experienced in coding in Python and R.",
+        "Demonstrate ability in cloud computing platforms, containerization, backend development, and SQL.",
+        "Experienced with GenAI/LLM including post-training, deployment, and agent development.",
+        "Have Machine Learning knowledge and experience for solving real-world problems.",
+        "Have hands-on experience creating visualizations, dashboards, and toolkits.",
+        "Interested in building practical AI solutions in clinical or biomedical settings.",
+        "Possess outstanding analytical, engineering thinking, and communication skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Carnegie Mellon University",
+    "role": "Malware Analysis Intern",
+    "link": "https://cmu.wd5.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Malware-Analysis-Intern_2023953",
+    "location": "Pittsburgh, PA",
+    "season": "2026 Summer",
+    "id": 3722,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a degree granting program.",
+        "Willingness to travel to various locations.",
+        "Ability to critically think and problem solve.",
+        "Familiarity with low-level computer programming languages, such as C or C++.",
+        "Familiarity with a scripting language, such as Python.",
+        "Basic knowledge of common cybersecurity tools.",
+        "Experience with debugging.",
+        "Ability to collaborate internally and externally with professional engineers and researchers.",
+        "Willingness to learn new technologies with cross-functional teams.",
+        "Be organized, detail-oriented, and able to document and communicate findings.",
+        "Perform binary analysis using reverse engineering tools like Ghidra and IDA Pro.",
+        "Develop scripts and tools to automatically extract key indicators.",
+        "Design and prototype new analysis and tools.",
+        "Analyze and document complex security threats."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Notability",
+    "role": "Android Software Engineer Co-op",
+    "link": "https://job-boards.greenhouse.io/gingerlabsinc/jobs/5129674008",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3721,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an undergraduate Computer Science degree.",
+        "Maintain a minimum 3.2 GPA.",
+        "Experienced in Kotlin programming.",
+        "Interested in developing for the Android framework.",
+        "Strong understanding of programming fundamentals and object oriented design.",
+        "Desire to build and release production-ready code.",
+        "Eager to learn new things.",
+        "Focused on user experience and fulfilling customer needs.",
+        "Experienced using Notability or other note-taking apps.",
+        "Created own Android app or possess past Android development experience.",
+        "Experienced working with any Intellij IDE."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "WSP",
+    "role": "Web Developer Intern",
+    "link": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/82638",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 3720,
+    "jd": null
+  },
+  {
+    "company": "StockX",
+    "role": "Software Engineering Intern - DRC Team",
+    "link": "https://job-boards.greenhouse.io/stockx/jobs/8456940002",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 3719,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an engineering degree or equivalent",
+        "Experience with GoLang or Node.js to build scalable APIs",
+        "Strong analytical, organizational, and communication skills",
+        "Ability to clearly document new features",
+        "Experience with testing strategies, automation, and CI/CD",
+        "Excited to work in a fast-paced environment",
+        "Strong desire to learn and acquire new skills",
+        "Experience with observability services",
+        "Experience with AWS or other cloud providers",
+        "Experience with Postgres, Redis, or DynamoDB",
+        "Experience with event-based architectures (Kafka, SNS, SQS)",
+        "Experience with Javascript, Typescript, React, HTML, CSS"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "F5",
+    "role": "Software Development Engineer Intern",
+    "link": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/Boulder-Louisville/Software-Development-Engineer-Intern--Boulder-_RP1036944",
+    "location": "Lafayette, COBoulder, CO",
+    "season": "2026 Summer",
+    "id": 3718,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completing a bachelor's or master's degree in Computer Science or related fields",
+        "Have at least one additional quarter/semester of school remaining after internship",
+        "Enrolled in an accredited college or university in the United States",
+        "Demonstrated experience programming in an object-oriented language",
+        "Demonstrated knowledge in computer science fundamentals",
+        "Experienced with Systems & Scripting (Linux, Shell scripting)",
+        "Experienced with Infrastructure & DevOps (CI/CD automation, Docker, Kubernetes)",
+        "Experienced with Research & Applications (AI/ML)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Salesforce",
     "role": "Intern",
     "link": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2026-Intern---Software-Engineer_JR308796",

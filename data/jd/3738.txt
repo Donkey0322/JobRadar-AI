@@ -1,0 +1,133 @@
+<ul class="tux">
+<li><a rel="noopener noreferrer" href="/hcmUI/CandidateExperience/en/sites/CX_1/pages/296006/">Life at Hearst</a></li>
+<li><a rel="noopener noreferrer" href="/hcmUI/CandidateExperience/en/sites/CX_1/pages/300002">Blog</a></li>
+<li class="hidden"><a target="_blank" rel="noopener noreferrer" href="http://">Hiring Tips</a></li>
+<li>
+<a class="button primary hearst-blue" href="/hcmUI/CandidateExperience/en/sites/CX_1/my-profile/sign-in">
+<span>Login&nbsp;<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/carat-white.svg"></span>
+</a>
+<ul>
+<li><a href="/hcmUI/CandidateExperience/en/sites/CX_1/my-profile/sign-in">Manage Talent Profile</a></li>
+<li><a href="/hcmUI/CandidateExperience/en/sites/CX_1/tc-join?mode=location">Create Talent Profile</a></li>
+</ul>
+</li>
+</ul>
+<footer class="tux">
+<div class="footer-wrapper container">
+<div class="flex">
+<h2>Connect With Hearst</h2>
+<button class="rtt button">Return To Top&nbsp;<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/carat-white.svg"></button>
+</div>
+<div class="social">
+<ul class="flex">
+<li>
+<a href="https://www.linkedin.com/company/hearst/" target="_blank" rel="noopener noreferrer">
+<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/linkedin-2.svg" alt="LinkedIn">
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/hearst/" target="_blank" rel="noopener noreferrer">
+<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/instagram-2.svg" alt="Instagram">
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/HearstCorp/" target="_blank" rel="noopener noreferrer">
+<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/facebook-2.svg" alt="Facebook">
+</a>
+</li>
+<li>
+<a href="https://twitter.com/Hearst" target="_blank" rel="noopener noreferrer">
+<img src="https://prod-tuxhr-hearst.nyc3.cdn.digitaloceanspaces.com/hearst-orc-tux/main/theme/images/main/icons/x-2.svg" alt="X">
+</a>
+</li>
+</ul>
+</div>
+<div class="main flex">
+<div class="eeo">
+<h4 class="body-3"> Equal Employment Opportunity Statement</h4>
+<p class="body-2">
+We are an Equal Employment Opportunity employer. We do not discriminate in hiring on the basis of sex, gender identity, sexual orientation, race, color, religion, creed, national origin, physical or mental disability, protected veteran status or any other characteristic protected by federal, state or local law. For more information, please visit <a href="https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf" target="_blank" rel="noopener noreferrer">Know Your Rights</a>.
+</p>
+<h4 class="body-3">Reasonable Accommodations</h4>
+<p class="body-2">
+We recognize the diverse needs of our candidates. If you are interested in applying for employment and need assistance or an accommodation to use our website, please contact us by email at <a href="mailto:applicant_accessibility@hearst.com">applicant_accessibility@hearst.com</a>. We will only respond to inquiries concerning requests for reasonable accommodation through this email address.
+</p>
+</div>
+<div class="links flex">
+<div>
+<h4 class="body-3">Hearst Careers</h4>
+<ul class="body-2">
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1">Hearst Overview</a>
+</li>
+<!-- <li class="hidden">
+<a href="http://" target="_blank" rel="noopener noreferrer">Why Hearst</a>
+</li>
+<li class="hidden">
+<a href="http://" target="_blank" rel="noopener noreferrer">Hiring Process</a>
+</li> -->
+<li>
+<a href="/hcmUI/CandidateExperience/en/sites/CX_1/pages/296006/" rel="noopener noreferrer">Inside Hearst</a>
+</li>
+<li>
+<a href="/hcmUI/CandidateExperience/en/sites/CX_1/pages/351007">How We Hire</a>
+</li>
+<li>
+<a href="/hcmUI/CandidateExperience/en/sites/CX_1/pages/300002" rel="noopener noreferrer">Blog</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions">Search Jobs</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/tc-join">Job Alerts</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/company/hearst/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="body-3">Careers by Division</h4>
+<ul class="body-2">
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_7" target="_blank" rel="noopener noreferrer">Corporate Teams</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6" target="_blank" rel="noopener noreferrer">Television</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2" target="_blank" rel="noopener noreferrer">Hearst Health</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_9" target="_blank" rel="noopener noreferrer">Magazines</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_15" target="_blank" rel="noopener noreferrer">Newspapers</a>
+</li>
+<li>
+<a href="https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_12" target="_blank" rel="noopener noreferrer">Transportation</a>
+</li>
+<li>
+<a href="https://careers.fitch.group/" target="_blank" rel="noopener noreferrer">Fitch Group</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="resources body-4">
+<div>
+<a href="https://www.hearst.com/" target="_blank" rel="noopener noreferrer">Hearst.com</a>
+<span>&nbsp;|&nbsp;</span>
+<a href="https://www.hearst.com/-/job-recruitment-scams-warning#xd_co_f=ODJiYjdiYjgtMGI2OC00MWJjLWI3ODItNjJlY2JhZjJlY2I1~" target="_blank" rel="noopener noreferrer">Recruitment Fraud Notice</a>
+</div>
+<div>
+<a href="https://www.hearst.com/-/careers-privacy-notice" target="_blank" rel="noopener noreferrer">Applicant Privacy</a>
+<span>&nbsp;|&nbsp;</span>
+<a href="https://www.hearst.com/-/careers-privacy-notice-uk" target="_blank" rel="noopener noreferrer">UK Applicant Privacy</a>
+<span>&nbsp;|&nbsp;</span>
+<a href="https://www.hearst.com/-/transparency-in-coverage-machine-readable-file" target="_blank" rel="noopener noreferrer">Transparent Coverage</a>
+</div>
+<p class="body-4">&copy; <span id="footer-year"></span> Hearst Communications, Inc. All Rights Reserved.</p>
+</div>
+</div>
+</div>
+</footer>

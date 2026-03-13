@@ -1,0 +1,41 @@
+Help empower our global customers to connect to culture through their passions.Why You’ll Love This Role
+As a Software Engineer, you will be empowered to take ownership of technology decisions and solutions while playing a pivotal role in establishing a successful engineering culture at a fast-growing company.
+This is a great opportunity to leverage your existing skills, to build a world-class team and to have a huge impact on how marketplaces can be redefined. Our technical stack comprises various systems and services built on Amazon Web Services. We use GraphQL, GoLang, NodeJS, CircleCI, Kubernetes, Harness, Terraform, LaunchDarkly and Datadog. The technology scope includes all stacks and services (APIs and event processing systems) responsible for providing a seamless experience for our customers.
+We are looking for a motivated, highly enthusiastic, iOS engineer to join our Sell Team. This team is responsible for supporting and maintaining the existing Seller experience at StockX, as well as building new features and experiences. We own the selling experience on stockx.com, the StockX iOS app, and the StockX Android app. We take pride in building a seamless, easy-to-use experience for our sellers and have fun doing it. We are currently expanding our team to build fault-tolerant, scalable platforms for all the aforementioned areas on iOS and are looking for technology experts to architect, design, and build them.
+What You’ll Do
+Develop, test, and debug the StockX iOS app using Swift and UIKit.
+Build GraphQL APIs that interact with our backend services and REST APIs.
+Utilize MVVMC architecture, design patterns, and best practices.
+Stay up-to-date with any technology changes including changes to the language (Swift), tools (Xcode, Mac OS, etc.), platform (iOS), and devices.
+Work on initiatives from start to finish including A/B testing and quality assurance.
+Work with product owners, designers, and stakeholders to clarify requirements, make technical recommendations, and independently build, deploy, and monitor resilient solutions.
+Collaborate with engineers on the team to take these proposed solutions and architect and design them.
+Efficiently break up large system designs in detailed component design. Help the team to implement, deploy and monitor systems and services.
+Propose and adopt best engineering practices and guide development standards.
+Foster a growth mindset culture. Be a team player.
+Apply considerations around security, scalability, reliability, and performance while proposing and building solutions.
+Use sound technical judgment to consider technology alternatives, impact on affected and adjacent systems, and design choice tradeoffs.
+Provide timely communication to stakeholders and users for resolving issues.
+Learn from a team of experienced professionals.
+About You
+Pursuing an engineering degree or equivalent related experience/training.
+Good understanding of the iOS platform including common conventions.
+Strong analytical, organizational and communication skills.
+Ability to document new features, additions, and bug fixes clearly.
+Experience with testing strategies, automation, and CI/CD pipelines.
+Excited to work in a fast paced and constantly changing environment.
+A strong desire to learn, explore, and acquire knowledge and skills, both within and outside of your primary domain.
+Nice to have skills
+Experience working with observability services (Datadog, Splunk, New Relic)
+Experience working with AWS or another equivalent cloud provider (Azure, GCP, etc).
+Experience implementing feature flags (LaunchDarkly).
+***Please only apply to one role***
+Important Information
+The program will run from May 18th, 2026 to August 7th, 2026
+Subsidized housing is available upon request
+Tuesdays, Wednesdays, & Thursdays are mandatory “In Office” days in our Detroit Office
+Pursuant to the various pay transparency laws/acts, the base salary range is $25 per hour. Compensation is dependent on geography and may vary.
+Pursuant to the San Francisco Fair Chance Ordinance, Los Angeles Fair Chance Initiative for Hiring Ordinance, and any other state or local hiring regulations, we will consider for employment any qualified applicant, including those with arrest and conviction records, in a manner consistent with the applicable regulation.
+About StockX
+StockX is proud to be a Detroit-based technology leader focused on the large and growing online market for sneakers, apparel, accessories, electronics, collectibles, trading cards, and more. StockX's powerful platform connects buyers and sellers of high-demand consumer goods from around the world using dynamic pricing mechanics. This approach affords access and market visibility powered by real-time data that empowers buyers and sellers to determine and transact based on market value. The StockX platform features hundreds of brands across verticals including Jordan Brand, adidas, Nike, Supreme, BAPE, Off-White, Louis Vuitton, Gucci; collectibles from brands including LEGO, KAWS, Bearbrick, and Pop Mart; and electronics from industry-leading manufacturers Sony, Microsoft, Meta, and Apple. Launched in 2016, StockX employs 1,000 people across offices and verification centers around the world. Learn more at www.stockx.com.
+We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. This job description is intended to convey information essential to understanding the scope of the job and the general nature and level of work performed by job holders within this job. However, this job description is not intended to be an exhaustive list of qualifications, skills, efforts, duties, responsibilities or working conditions associated with the position. StockX reserves the right to amend this job description at any time. StockX may utilize AI to rank job applicant submissions against the position requirements to assist in determining candidate alignment.
