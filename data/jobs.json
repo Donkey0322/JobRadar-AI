@@ -1,5 +1,25 @@
 [
   {
+    "company": "Cadence Design Systems",
+    "role": "Product Engineering Intern - Agentic AI",
+    "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/Product-Engineering-Intern--Agentic-AI--Summer-2026-_R53279",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3740,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as student pursuing BS or MS in EE, EECS, or equivalent",
+        "Possess good problem-solving ability",
+        "Understand System Verilog/Verlog languages",
+        "Have a solid programming foundation in Python/C/C++"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Software Engineer Intern",
     "link": "https://careers-gdms.icims.com/jobs/71480/job?mobile=true&needsRedirect=false",
