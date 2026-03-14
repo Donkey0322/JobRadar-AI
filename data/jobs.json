@@ -1,5 +1,29 @@
 [
   {
+    "company": "Hewlett Packard (HP)",
+    "role": "Cryptography Intern",
+    "link": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Bristol-Bristol-City-of-United-Kingdom/Cryptography-Intern_UNI3783",
+    "location": "Bristol, UK",
+    "season": "2026 Summer",
+    "id": 3761,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Study towards a relevant university degree.",
+        "Possess expertise in theoretical or applied cryptography.",
+        "Demonstrate excellent written and verbal communication skills.",
+        "Eager to learn and progress on live projects.",
+        "Have practical experience with cryptographic libraries.",
+        "Be familiar with cryptographic protocols.",
+        "Be aware of system security analysis concepts.",
+        "Possess ability to be innovative in cryptography or its application."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Circle",
     "role": "Intern – Application Security",
     "link": "https://circle.wd1.myworkdayjobs.com/Circle/job/San-Francisco---remote-first-in-US/Intern--Application-Security_JR100899",
