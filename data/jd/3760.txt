@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "U.S. - California"
+}
+},
+"hiringOrganization" : {
+"name" : "Circle Internet Management Services LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Application Security",
+"@type" : "PropertyValue",
+"value" : "JR100899"
+},
+"datePosted" : "2026-02-20",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Application Security",
+"description" : "Circle (NYSE: CRCL) is one of the world’s leading internet financial platform companies, building the foundation of a more open, global economy through digital assets, payment applications, and programmable blockchain infrastructure. Circle’s platform includes the world’s largest regulated stablecoin network anchored by USDC, Circle Payments Network for global money movement, and Arc, an enterprise-grade blockchain designed to become the Economic OS for the internet. Enterprises, financial institutions, and developers use Circle to power trusted, internet-scale financial innovation. Learn more at circle.com. What you’ll be part of: Circle is committed to visibility and stability in everything we do. As we grow as an organization, we're expanding into some of the world's strongest jurisdictions. Speed and efficiency are motivators for our success and our employees live by our company values: High Integrity, Future Forward, Multistakeholder, Mindful, and Driven by Excellence. We have built a flexible work environment where new ideas are encouraged and everyone is a stakeholder. About the Program The Circle Internship Program is a 12-week, remote-first experience running from May 26 to August 14, 2026, designed to give interns hands-on experience building the future of global finance. Interns work on meaningful, real-world projects that support Circle’s mission to enable the frictionless exchange of value. The program includes three in-person experiences designed to deepen learning and connection: Circle Forward Week in Miami Development Week at Circle’s New York City HQ in One World Trade Center Final Showcase Week in the San Francisco Bay Area Throughout the summer, interns are supported by managers, mentors, and a close-knit cohort, with opportunities for learning, growth, and exposure to leaders across the company. What you’ll be responsible for As an Application Security Intern, you will contribute to the Product Security team by building scalable automation that strengthens Circle’s secure development lifecycle. You will focus on developing systems that accelerate the triage and remediation of CodeQL alerts, including AI-assisted workflows that improve signal quality and reduce time-to-resolution for vulnerabilities. Working closely with security and engineering partners, you will help embed automated security controls into CI/CD pipelines and improve the accuracy, efficiency, and scalability of application security processes. What you’ll work on Build automation to streamline the triage and remediation of CodeQL security alerts Design workflows that leverage AI agents to classify and prioritize security findings Tune CodeQL rules to improve static analysis quality and reduce false positives Integrate CodeQL-based security checks and automations into CI/CD pipelines Collaborate with security and engineering teams to embed scalable security controls into development workflows What you’ll bring to Circle Core Requirements Foundational understanding of application security principles Experience with at least one programming language such as Python, JavaScript, or Java Familiarity with secure software development practices and DevSecOps concepts Coursework or project experience in threat modeling or risk analysis Preferred Requirements Exposure to security scanning tools such as SAST, SCA, or CI/CD-integrated security tooling Experience with security platforms such as GitHub Advanced Security, Snyk, Wiz, or similar tools Circle is on a mission to create an inclusive financial future, with transparency at our core. We consider a wide variety of elements when crafting our compensation ranges and total compensation packages. Starting pay is determined by various factors, including but not limited to: relevant experience, skill set, qualifications, and other business and organizational needs. Please note that compensation ranges may differ for candidates in other locations. Base Pay Range: $ - $ We are an equal opportunity employer. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status, or any other protected status required by the laws in the locations where we hire. Additionally, Circle participates in the E-Verify Program in certain locations, as required by law. Should you require accommodations or assistance in our interview process because of a disability, please reach out to accommodations@circle.com for support. We respect your privacy and will connect with you separately from our interview process to accommodate your needs. #LI-Remote Circle believes in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. To accomplish this, we created USDC, a digital currency backed by the US dollar and always redeemable 1:1. We work closely with regulators to ensure our digital dollar guides and surpasses the standards for stablecoins. By doing this, USDC has the potential to change how money moves around the world. Our values of Multistakeholder, Mindful, Driven by excellence, and High integrity drive us to succeed. Valuing our employees as stakeholders is about creating an environment where people can thrive and grow, be challenged and learn constantly – an environment that thrives on diversity by drawing competitive strength from within. Employees take pride in Circle’s culture and values. That’s why community members from around the world say we’re a top place to work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "U.S. - California"
+}
+},
+"hiringOrganization" : {
+"name" : "Circle Internet Management Services LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Application Security",
+"@type" : "PropertyValue",
+"value" : "JR100899"
+},
+"datePosted" : "2026-02-20",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Application Security",
+"description" : "Circle (NYSE: CRCL) is one of the world’s leading internet financial platform companies, building the foundation of a more open, global economy through digital assets, payment applications, and programmable blockchain infrastructure. Circle’s platform includes the world’s largest regulated stablecoin network anchored by USDC, Circle Payments Network for global money movement, and Arc, an enterprise-grade blockchain designed to become the Economic OS for the internet. Enterprises, financial institutions, and developers use Circle to power trusted, internet-scale financial innovation. Learn more at circle.com. What you’ll be part of: Circle is committed to visibility and stability in everything we do. As we grow as an organization, we're expanding into some of the world's strongest jurisdictions. Speed and efficiency are motivators for our success and our employees live by our company values: High Integrity, Future Forward, Multistakeholder, Mindful, and Driven by Excellence. We have built a flexible work environment where new ideas are encouraged and everyone is a stakeholder. About the Program The Circle Internship Program is a 12-week, remote-first experience running from May 26 to August 14, 2026, designed to give interns hands-on experience building the future of global finance. Interns work on meaningful, real-world projects that support Circle’s mission to enable the frictionless exchange of value. The program includes three in-person experiences designed to deepen learning and connection: Circle Forward Week in Miami Development Week at Circle’s New York City HQ in One World Trade Center Final Showcase Week in the San Francisco Bay Area Throughout the summer, interns are supported by managers, mentors, and a close-knit cohort, with opportunities for learning, growth, and exposure to leaders across the company. What you’ll be responsible for As an Application Security Intern, you will contribute to the Product Security team by building scalable automation that strengthens Circle’s secure development lifecycle. You will focus on developing systems that accelerate the triage and remediation of CodeQL alerts, including AI-assisted workflows that improve signal quality and reduce time-to-resolution for vulnerabilities. Working closely with security and engineering partners, you will help embed automated security controls into CI/CD pipelines and improve the accuracy, efficiency, and scalability of application security processes. What you’ll work on Build automation to streamline the triage and remediation of CodeQL security alerts Design workflows that leverage AI agents to classify and prioritize security findings Tune CodeQL rules to improve static analysis quality and reduce false positives Integrate CodeQL-based security checks and automations into CI/CD pipelines Collaborate with security and engineering teams to embed scalable security controls into development workflows What you’ll bring to Circle Core Requirements Foundational understanding of application security principles Experience with at least one programming language such as Python, JavaScript, or Java Familiarity with secure software development practices and DevSecOps concepts Coursework or project experience in threat modeling or risk analysis Preferred Requirements Exposure to security scanning tools such as SAST, SCA, or CI/CD-integrated security tooling Experience with security platforms such as GitHub Advanced Security, Snyk, Wiz, or similar tools Circle is on a mission to create an inclusive financial future, with transparency at our core. We consider a wide variety of elements when crafting our compensation ranges and total compensation packages. Starting pay is determined by various factors, including but not limited to: relevant experience, skill set, qualifications, and other business and organizational needs. Please note that compensation ranges may differ for candidates in other locations. Base Pay Range: $ - $ We are an equal opportunity employer. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status, or any other protected status required by the laws in the locations where we hire. Additionally, Circle participates in the E-Verify Program in certain locations, as required by law. Should you require accommodations or assistance in our interview process because of a disability, please reach out to accommodations@circle.com for support. We respect your privacy and will connect with you separately from our interview process to accommodate your needs. #LI-Remote Circle believes in a future where digital dollars work securely around the world to create a more prosperous global economy for everyone. To accomplish this, we created USDC, a digital currency backed by the US dollar and always redeemable 1:1. We work closely with regulators to ensure our digital dollar guides and surpasses the standards for stablecoins. By doing this, USDC has the potential to change how money moves around the world. Our values of Multistakeholder, Mindful, Driven by excellence, and High integrity drive us to succeed. Valuing our employees as stakeholders is about creating an environment where people can thrive and grow, be challenged and learn constantly – an environment that thrives on diversity by drawing competitive strength from within. Employees take pride in Circle’s culture and values. That’s why community members from around the world say we’re a top place to work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "circle",
+siteId: "Circle",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["id-ID","ms-MY","cs-CZ","da-DK","de-DE","de-CH","et-EE","en-US","es","fr-CA","fr-FR","hr-HR","it-IT","lv-LV","lt-LT","hu-HU","nl-NL","no-NO","pl-PL","pt-BR","ro-RO","sk-SK","sl-SI","fi-FI","sv-SE","vi-VN","tr-TR","el-GR","sr-RS","bg-BG","ru-RU","uk-UA","he-IL","th-TH","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=circle&s=Circle",
+token: "75843ba2-69ac-444d-9ceb-f9ae158b529d",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#9F72FF","textColor":"#3D3652"},"progressBar":{"color":"#9F72FF"},"button":{"primary":{"color":"#B090F5","borderColor":"#B090F5","textColor":"#FFFFFF","hover":{"color":"#9F72FF","borderColor":"#9F72FF","textColor":"#FFFFFF"}},"secondary":{"color":"#B090F5","borderColor":"#B090F5","textColor":"#FFFFFF","hover":{"color":"#9F72FF","borderColor":"#9F72FF","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"465a9e64132310000973ff0aff970002","altText":null}},"banner":{"color":"#CCB6FC","borderColor":"#90D2FF","textColor":"#3D3652","image":{"id":"465a9e64132310000973ff0aff970000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
