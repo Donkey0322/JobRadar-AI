@@ -1,5 +1,386 @@
 [
   {
+    "company": "EBSCO",
+    "role": "Full Stack Software Engineer Intern",
+    "link": "https://careers-ebscoind.icims.com/jobs/1970/job?mobile=true&needsRedirect=false",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3759,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Perform requirement analysis",
+        "Develop API designs and database schemas",
+        "Develop application code with React JS, NodeJS, Java, Spring Boot, REST API",
+        "Utilize AWS services like RDS, Lambda, S3",
+        "Use GitHub for source code management",
+        "Contribute to project documentation including API specs",
+        "Actively participate in team meetings and chats",
+        "Communicate effectively with team members and stakeholders",
+        "Continuously learn and adapt to new development tools and practices",
+        "Collaborate with senior developers on coding standards and agile processes",
+        "Enrolled in an educational or professional program through Summer 2026 or later",
+        "Understand C++, Java, Python, or other OOP languages",
+        "Understand computer architecture, data structures, algorithms, design patterns",
+        "Ability to design and implement code using JavaScript, SCSS, HTML5",
+        "Ability to develop SaaS software with reusable JavaScript components",
+        "Experience in software engineering (internships, co-ops, academic projects)",
+        "Exposure to developing applications with React JS, Node JS, Java, REST APIs",
+        "Foundational understanding of cloud concepts",
+        "Basic experience or exposure to AWS or other cloud providers",
+        "Basic knowledge of CI/CD pipelines (GitHub, Jenkins)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29808",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3758,
+    "jd": null
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer AI/ML",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29326",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3757,
+    "jd": null
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29846",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3756,
+    "jd": null
+  },
+  {
+    "company": "Forerunner",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/forerunner/jobs/5077162007",
+    "location": "4 locationsSFRemote in USANYCPortland, ME",
+    "season": "2026 Summer",
+    "id": 3755,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's or Master's degree in Computer Science, Engineering, or a related field.",
+        "Experienced in building software projects through coursework, internships, open-source contributions, or personal projects.",
+        "Comfortable programming in at least one modern language like TypeScript, JavaScript, Python, or Java.",
+        "Strong foundation in core computer science concepts like data structures, algorithms, and system design.",
+        "Thoughtful problem solver who enjoys tackling ambiguous challenges.",
+        "Communicate clearly and enjoy collaborating with teammates.",
+        "Excited about using technology to help communities adapt to climate change.",
+        "Experienced with web development frameworks like React and Node.js.",
+        "Experienced with React Native mobile development.",
+        "Familiar with SQL or working with data.",
+        "Exposure to cloud platforms such as AWS or GCP.",
+        "Interested in climate tech, civic technology, or government systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Piper Sandler",
+    "role": "Intern Program - Technology - Full Stack Development",
+    "link": "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/XMLNAME-2026-Summer-Internship-Program---Technology--Full-Stack-Development-_R-100077",
+    "location": "Minneapolis, MN",
+    "season": "2026 Summer",
+    "id": 3754,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Data Science, Computer Science, Engineering, Math, Statistics, or another quantitative field.",
+        "Proficient with development languages like C#, ASPX, React, TypeScript, JavaScript, HTML, Python, SQL, CosmosDB/NoSQL, Oracle.",
+        "Proficient with Visual Studio Code, Visual Studio Pro, Github, DevOps, and Office365 products.",
+        "Knowledge of development platforms including web servers, application servers, and server farms.",
+        "Familiar with Cloud platforms such as Azure and GCP.",
+        "Knowledge of Version Control (Git).",
+        "Excellent oral and written communication skills.",
+        "Excellent problem-solving skills.",
+        "Strong analytical ability.",
+        "Be detail-oriented.",
+        "Be an undergraduate or graduate student graduating in December 2026 or Spring 2027.",
+        "Maintain a GPA of 3.3 or above."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29817",
+    "location": "Naperville, IL",
+    "season": "2026 Summer",
+    "id": 3753,
+    "jd": null
+  },
+  {
+    "company": "Worthington Enterprises",
+    "role": "Industrial Applications Developer Intern",
+    "link": "https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/43017",
+    "location": "Columbus, OH",
+    "season": "2026 Summer",
+    "id": 3752,
+    "jd": null
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern Program - Application Development",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Frisco-Texas/Technology-Summer-Internship-Program---Application-Development--Frisco--TX-_R-10389522",
+    "location": "Frisco, TX",
+    "season": "2026 Summer",
+    "id": 3751,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue a Bachelor's degree in Computer Science or related technology field.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Maintain a GPA of 3.0 or higher.",
+        "Possess 0-2 years of professional experience.",
+        "Familiarity with Java, Python, .NET, C#, C++, JavaScript, JCL, Oracle, Cloud, AI, Linux, PowerBi, or ReactJS.",
+        "Demonstrate technical aptitude and eagerness to learn new tools.",
+        "Experience working in a fast-paced environment with flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "ICF International",
+    "role": "Intern - AI Engineering",
+    "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2600855-1",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 3750,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Complete 30 college credit hours towards a bachelor’s degree",
+        "Knowledge of Python, C#",
+        "Experience with Cloud data and AI ecosystems",
+        "Proficient with Git, VS Code, notebooks",
+        "Experience with GenAI/LLM tooling",
+        "Knowledge of prompt frameworks, vector databases",
+        "Knowledge of TensorFlow, PyTorch",
+        "Proficient in Machine Learning",
+        "Understand Software Engineering Principles",
+        "Strong verbal and written communications",
+        "Willing to solve problems in a collaborative environment",
+        "Ability to adapt to a fast-paced work environment",
+        "Demonstrate sound time management"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Software-Engineer-Intern_R-00177800",
+    "location": "Huntsville, AL",
+    "season": "2026 Summer",
+    "id": 3749,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's program in Computer Science or related field.",
+        "Proficient in C#, C++, Java, and WPF.",
+        "Possess fundamental background in software design patterns.",
+        "Able to debug, troubleshoot, and isolate software issues.",
+        "Adaptable to rapidly changing requirements and technologies.",
+        "Able to develop technical solutions requiring collaboration and deep analysis.",
+        "Must be a US Citizen.",
+        "Resident of northern Alabama or willing to relocate to Huntsville, AL.",
+        "Able to obtain and maintain a Secret security clearance.",
+        "Hands-on experience building prototypes or applications.",
+        "Experienced using IDEs and software version control systems.",
+        "Experienced working in an Agile Scrum environment.",
+        "Knowledge of containerization technologies like Docker or Kubernetes."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premera Blue Cross",
+    "role": "Intern - Software Development Engineer",
+    "link": "https://premera.wd5.myworkdayjobs.com/premera/job/Mountlake-Terrace-WA/Summer-Intern--Software-Development-Engineer_R28726-1",
+    "location": "Lynnwood, WA",
+    "season": "2026 Summer",
+    "id": 3748,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a two or four-year undergraduate program, a graduate program, or a recent graduate",
+        "Completed 50% of credits necessary to earn undergraduate degree or certificate",
+        "Take initiative, persevere, stay curious, and are energized by lifelong learning",
+        "Application development experience utilizing C#, REST services, SQL, Azure cloud technologies, CI/CD, TDD, and some AI",
+        "Experience or interest in DevOps developing infrastructure, configuration, deployment scripting, and automation",
+        "Experience or interest in automating using CI/CD tools in an Azure environment with Linux based deployments"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premera Blue Cross",
+    "role": "Intern - Software Development Engineer",
+    "link": "https://premera.wd5.myworkdayjobs.com/premera/job/Mountlake-Terrace-WA/Summer-Intern---Software-Development-Engineer_R28724",
+    "location": "Lynnwood, WA",
+    "season": "2026 Summer",
+    "id": 3747,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in or recently graduated from an undergraduate or graduate program.",
+        "Completed 50% of credits for an undergraduate degree or certificate.",
+        "Take initiative, persevere, stay curious, and be energized by lifelong learning.",
+        "Experience with C#, REST services, SQL, Azure cloud technologies, CI/CD, TDD, and AI.",
+        "Experience or interest in DevOps, infrastructure development, and automation using Kubernetes.",
+        "Experience or interest in automating with CI/CD tools in Azure with Linux deployments.",
+        "Majoring in Computer Science or Computer Engineering."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premera Blue Cross",
+    "role": "Intern - Software Development Engineer",
+    "link": "https://premera.wd5.myworkdayjobs.com/premera/job/Mountlake-Terrace-WA/Summer-Intern--Software-Development-Engineer_R28723-1",
+    "location": "Lynnwood, WA",
+    "season": "2026 Summer",
+    "id": 3746,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a two or four-year undergraduate program, graduate program, or recent graduate (less than 12 months).",
+        "Completed 50% of credits if an undergraduate student.",
+        "Demonstrate initiative, perseverance, curiosity, and a passion for lifelong learning.",
+        "Experience with C#, REST services, SQL, Azure cloud technologies, CI/CD, TDD, and AI.",
+        "Experience or interest in DevOps for infrastructure, configuration, deployment scripting, and automation.",
+        "Experience or interest in automating using CI/CD tools in Azure with Linux deployments."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nextech Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/nextech/e1d4f898-5cae-47c5-9618-020188201371/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3745,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nextech Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/nextech/6a898635-d814-497d-b891-59cc0e3616fa/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3744,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nextech Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/nextech/89d21768-992e-4ba5-ad26-eeea7aa27029/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3743,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Legally authorized to work in the United States",
+        "Able to complete a background check"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Neuralink",
+    "role": "Software Engineer Intern - Internal Apps",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/6083322003",
+    "location": "Fremont, CAAustin, TX",
+    "season": "2026 Summer",
+    "id": 3742,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrated experience shipping an actively used product.",
+        "Possess full-stack engineering capability.",
+        "Able to design and implement elegant software solutions.",
+        "Strong communication and collaborative problem-solving abilities.",
+        "Exhibit ownership mentality and comfort with ambiguity.",
+        "Understand how software works at a fundamental level."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Premera Blue Cross",
+    "role": "Intern - Software Development Engineer",
+    "link": "https://premera.wd5.myworkdayjobs.com/premera/job/Mountlake-Terrace-WA/Summer-Intern---Software-Development-Engineer_R28725",
+    "location": "Lynnwood, WA",
+    "season": "2026 Summer",
+    "id": 3741,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in or recently graduated from an undergraduate or graduate program.",
+        "Completed 50% of required undergraduate credits.",
+        "Possess initiative, perseverance, curiosity, and a passion for learning.",
+        "Experience with HTML5, CSS3, JavaScript, React or Angular.",
+        "Experience with C#, REST services, SQL.",
+        "Familiarity with Azure cloud technologies, CI/CD, TDD, and AI.",
+        "Experience or interest in DevOps for infrastructure development.",
+        "Experience or interest in configuration, deployment scripting, and automation.",
+        "Familiarity with virtual machines, containers, and Kubernetes.",
+        "Experience or interest in automating with CI/CD tools in Azure and Linux."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Cadence Design Systems",
     "role": "Product Engineering Intern - Agentic AI",
     "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/Product-Engineering-Intern--Agentic-AI--Summer-2026-_R53279",

@@ -1,0 +1,248 @@
+{"validThrough":"2027-03-13T01:00:00.000Z","employmentType":"INTERN","@type":"JobPosting","baseSalary":{"minValue":20,"maxValue":26,"@type":"MonetaryAmount","currency":"USD"},"salaryCurrency":"USD","description":"<h2>&nbsp;<\/h2>EBSCO Information Services (EBSCO) delivers a fully optimized research experience, seamlessly integrated with a powerful discovery platform to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EBSCO employs more than 2,700 people worldwide, with most embracing hybrid or remote work models. As an AI-enabled service leader, we thrive on innovation, forward-thinking strategies, and the dedication of our exceptional team. At EBSCO, we\u2019re driven to inspire, empower and support research. Our mission is to transform lives by providing reliable and relevant information \u2014 when, where and how people need it. We\u2019re seeking dynamic, creative individuals whose diverse perspectives will help us achieve this global, inclusive mission. Join us to help make an impact.\n<h2>Your Opportunity<\/h2>\n<p>EBSCO Information Services (EIS) provides a complete and optimized research solution comprised of e-journals, e-books, and research databases \u2014 all combined with the most powerful discovery service to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EIS employs more than3,300 people worldwide. We are the leader in our field due to our cutting-edge technology, forward-thinking philosophy, and top-notch workforce. EIS, a division of EBSCO Industries Inc., based in Birmingham, AL, is ranked in the top 200 of the nation\u2019s largest, privately held corporations according to Forbes magazine. EBSCO is a company that will motivate you, inspire you, and allow you to grow. We are looking for the best. If you are too, we encourage you to explore our unique opportunities.<\/p>\n<p>&nbsp;<\/p>\n<p>Are you looking for an excellent internship opportunity to work remote? We are looking for a candidate who is truly an engineer at heart, enjoys working on a team, and likes to dig in and learn quickly. As a Software Intern, you will work on an Agile development team within the&nbsp; Content domain, responsible for building, testing, and deploying data ingestion tools and components to support EBSCO products and services for our customers. As a member of an Agile development team, you will design and develop software in 2-week iterations as part of an Agile Release Train developing to a SAFe Program Increment. You will make commitments to the business and meet those commitments as a team. You will strive for continuous improvement in knowledge and productivity and display a pattern of continual learning and a desire to broaden your software development and design skills.<\/p>\n<h2>What You'll Do<\/h2>\n<p>An ideal Software Intern will learn to approach software development holistically, gaining hands-on experience in system design and implementation.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Application Development<\/strong><\/p>\n<ul>\n <li>Perform requirement analysis and develop API designs, database schema.<\/li>\n <li>Develop application code using <strong>React JS, NodeJS<\/strong>, <strong>Java,<\/strong>&nbsp;<strong>Spring Boot, REST API, <\/strong>and test cases with documentation.<\/li>\n <li>Use <strong>AWS<\/strong> services such as RDS, Lambda, S3 etc., to design and deliver the solution.<\/li>\n <li>Use <strong>GitHub&nbsp;<\/strong>for source code management.<\/li>\n<\/ul>\n<p><strong>Documentation<\/strong><\/p>\n<ul>\n <li>Contribute to project documentation, including API specifications, deployment instructions, and troubleshooting guides.<\/li>\n<\/ul>\n<p><strong>Collaboration and Communication<\/strong><\/p>\n<ul>\n <li>Actively participate in team meetings and team chats, including daily stand-ups, iteration planning, and retrospectives.<\/li>\n <li>Communicate effectively with team members and stakeholders, providing updates on progress and challenges.<\/li>\n <li>Continuously learn and adapt to new tools, frameworks, and best practices in software development.<\/li>\n <li>Work closely with senior developers to understand coding standards, agile processes, and project management techniques.<\/li>\n<\/ul>\n<h2>About You<\/h2>\n<h2><strong>Education &amp; Experience<\/strong><\/h2>\n<p>Must be enrolled in an educational or professional program through Summer 2026 or later. &nbsp;<\/p>\n<p>Understanding of C++, Java, Python, or any other object-oriented programming language.<\/p>\n<p>Understanding of concepts related to computer architecture, data structures, algorithms, design patterns/practices\u202f\u202f&nbsp;<\/p>\n<p>Ability to design and implement code using Functional and Object-Oriented JavaScript, SCSS, and HTML5<\/p>\n<p>Ability to develop SaaS software using modular, reusable JavaScript components and data visualizations\u202f\u202f<\/p>\n<p>Experience in software engineering (internships, co-ops, bootcamps, or academic projects count).<\/p>\n<p>Exposure to developing applications using <strong>React JS, Node JS<\/strong>,<strong> Java, and REST APIs<\/strong><\/p>\n<p>Foundational understanding of cloud concepts (compute, storage).<\/p>\n<p>Basic experience or exposure to AWS or another major cloud provider.<\/p>\n<p>Basic knowledge of: CI/CD pipelines (<strong>GitHub<\/strong>, <strong>Jenkins<\/strong> etc.)<\/p>\n<h2>Pay Range<\/h2>USD $20.00 - USD $26.00 /Hr.","directApply":true,"title":"Full Stack Software Engineering Intern","@context":"http://schema.org","url":"https://careers-ebscoind.icims.com/jobs/1970/full-stack-software-engineering-intern/job","hiringOrganization":{"@type":"Organization","name":"EBSCO","sameAs":"https://www.ebsco.com/"},"jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Remote","addressRegion":"UNAVAILABLE","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-03-13T00:00:00.000Z","occupationalCategory":"Information Technology"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Full Stack Software Engineering Intern in Remote | Careers at REMOTE - US
+var isMobile = true;
+var link = 'https://careers-ebscoind.icims.com/connect/interests?csrf=D3828773BF706300&hashed=-625886742';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_180.0.0.260302-352e1758b53-11-6/script/portal/login.js');
+var jobId = "1970";
+var fbJobId = "7b6646b9-ee2a-3acc-9bc5-1758dcd6dd2c";
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-ebscoind.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"21kveVStLmBU9jWNT","type":"careers"},"release":"180.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":14485,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave4","build":"platform_180.0.0.260302-352e1758b53-11-6","icimsGAAnonymizeIP":true,"customerId":"2TAFUVEsZwiTKfL9p","region":"US","job":{"positionType":"Intern","company":"REMOTE - US","location":{"zip":"not set","country":"USA","city":"Remote","state":"not set"},"id":"DSgx5Z53TB25sDvD","idRaw":1970,"title":"Full Stack Software Engineering Intern","category":"Information Technology","postedDate":"2026-03-13"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-522NL6DG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-522NL6DG');
+{"validThrough":"2027-03-13T01:00:00.000Z","employmentType":"INTERN","@type":"JobPosting","baseSalary":{"minValue":20,"maxValue":26,"@type":"MonetaryAmount","currency":"USD"},"salaryCurrency":"USD","description":"<h2>&nbsp;<\/h2>EBSCO Information Services (EBSCO) delivers a fully optimized research experience, seamlessly integrated with a powerful discovery platform to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EBSCO employs more than 2,700 people worldwide, with most embracing hybrid or remote work models. As an AI-enabled service leader, we thrive on innovation, forward-thinking strategies, and the dedication of our exceptional team. At EBSCO, we\u2019re driven to inspire, empower and support research. Our mission is to transform lives by providing reliable and relevant information \u2014 when, where and how people need it. We\u2019re seeking dynamic, creative individuals whose diverse perspectives will help us achieve this global, inclusive mission. Join us to help make an impact.\n<h2>Your Opportunity<\/h2>\n<p>EBSCO Information Services (EIS) provides a complete and optimized research solution comprised of e-journals, e-books, and research databases \u2014 all combined with the most powerful discovery service to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EIS employs more than3,300 people worldwide. We are the leader in our field due to our cutting-edge technology, forward-thinking philosophy, and top-notch workforce. EIS, a division of EBSCO Industries Inc., based in Birmingham, AL, is ranked in the top 200 of the nation\u2019s largest, privately held corporations according to Forbes magazine. EBSCO is a company that will motivate you, inspire you, and allow you to grow. We are looking for the best. If you are too, we encourage you to explore our unique opportunities.<\/p>\n<p>&nbsp;<\/p>\n<p>Are you looking for an excellent internship opportunity to work remote? We are looking for a candidate who is truly an engineer at heart, enjoys working on a team, and likes to dig in and learn quickly. As a Software Intern, you will work on an Agile development team within the&nbsp; Content domain, responsible for building, testing, and deploying data ingestion tools and components to support EBSCO products and services for our customers. As a member of an Agile development team, you will design and develop software in 2-week iterations as part of an Agile Release Train developing to a SAFe Program Increment. You will make commitments to the business and meet those commitments as a team. You will strive for continuous improvement in knowledge and productivity and display a pattern of continual learning and a desire to broaden your software development and design skills.<\/p>\n<h2>What You'll Do<\/h2>\n<p>An ideal Software Intern will learn to approach software development holistically, gaining hands-on experience in system design and implementation.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Application Development<\/strong><\/p>\n<ul>\n <li>Perform requirement analysis and develop API designs, database schema.<\/li>\n <li>Develop application code using <strong>React JS, NodeJS<\/strong>, <strong>Java,<\/strong>&nbsp;<strong>Spring Boot, REST API, <\/strong>and test cases with documentation.<\/li>\n <li>Use <strong>AWS<\/strong> services such as RDS, Lambda, S3 etc., to design and deliver the solution.<\/li>\n <li>Use <strong>GitHub&nbsp;<\/strong>for source code management.<\/li>\n<\/ul>\n<p><strong>Documentation<\/strong><\/p>\n<ul>\n <li>Contribute to project documentation, including API specifications, deployment instructions, and troubleshooting guides.<\/li>\n<\/ul>\n<p><strong>Collaboration and Communication<\/strong><\/p>\n<ul>\n <li>Actively participate in team meetings and team chats, including daily stand-ups, iteration planning, and retrospectives.<\/li>\n <li>Communicate effectively with team members and stakeholders, providing updates on progress and challenges.<\/li>\n <li>Continuously learn and adapt to new tools, frameworks, and best practices in software development.<\/li>\n <li>Work closely with senior developers to understand coding standards, agile processes, and project management techniques.<\/li>\n<\/ul>\n<h2>About You<\/h2>\n<h2><strong>Education &amp; Experience<\/strong><\/h2>\n<p>Must be enrolled in an educational or professional program through Summer 2026 or later. &nbsp;<\/p>\n<p>Understanding of C++, Java, Python, or any other object-oriented programming language.<\/p>\n<p>Understanding of concepts related to computer architecture, data structures, algorithms, design patterns/practices\u202f\u202f&nbsp;<\/p>\n<p>Ability to design and implement code using Functional and Object-Oriented JavaScript, SCSS, and HTML5<\/p>\n<p>Ability to develop SaaS software using modular, reusable JavaScript components and data visualizations\u202f\u202f<\/p>\n<p>Experience in software engineering (internships, co-ops, bootcamps, or academic projects count).<\/p>\n<p>Exposure to developing applications using <strong>React JS, Node JS<\/strong>,<strong> Java, and REST APIs<\/strong><\/p>\n<p>Foundational understanding of cloud concepts (compute, storage).<\/p>\n<p>Basic experience or exposure to AWS or another major cloud provider.<\/p>\n<p>Basic knowledge of: CI/CD pipelines (<strong>GitHub<\/strong>, <strong>Jenkins<\/strong> etc.)<\/p>\n<h2>Pay Range<\/h2>USD $20.00 - USD $26.00 /Hr.","directApply":true,"title":"Full Stack Software Engineering Intern","@context":"http://schema.org","url":"https://careers-ebscoind.icims.com/jobs/1970/full-stack-software-engineering-intern/job","hiringOrganization":{"@type":"Organization","name":"EBSCO","sameAs":"https://www.ebsco.com/"},"jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Remote","addressRegion":"UNAVAILABLE","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-03-13T00:00:00.000Z","occupationalCategory":"Information Technology"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Returning Candidate?
+Log back in!
+Full Stack Software Engineering Intern
+Location
+US-Remote
+ID
+2026-1970
+Category
+Information Technology
+Position Type
+Intern
+Remote
+Yes
+EBSCO Information Services (EBSCO) delivers a fully optimized research experience, seamlessly integrated with a powerful discovery platform to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EBSCO employs more than 2,700 people worldwide, with most embracing hybrid or remote work models. As an AI-enabled service leader, we thrive on innovation, forward-thinking strategies, and the dedication of our exceptional team. At EBSCO, we’re driven to inspire, empower and support research. Our mission is to transform lives by providing reliable and relevant information — when, where and how people need it. We’re seeking dynamic, creative individuals whose diverse perspectives will help us achieve this global, inclusive mission. Join us to help make an impact.
+Your Opportunity
+EBSCO Information Services (EIS) provides a complete and optimized research solution comprised of e-journals, e-books, and research databases — all combined with the most powerful discovery service to support the information needs and maximize the research experience of our end-users. Headquartered in Ipswich, MA, EIS employs more than3,300 people worldwide. We are the leader in our field due to our cutting-edge technology, forward-thinking philosophy, and top-notch workforce. EIS, a division of EBSCO Industries Inc., based in Birmingham, AL, is ranked in the top 200 of the nation’s largest, privately held corporations according to Forbes magazine. EBSCO is a company that will motivate you, inspire you, and allow you to grow. We are looking for the best. If you are too, we encourage you to explore our unique opportunities. Are you looking for an excellent internship opportunity to work remote? We are looking for a candidate who is truly an engineer at heart, enjoys working on a team, and likes to dig in and learn quickly. As a Software Intern, you will work on an Agile development team within the Content domain, responsible for building, testing, and deploying data ingestion tools and components to support EBSCO products and services for our customers. As a member of an Agile development team, you will design and develop software in 2-week iterations as part of an Agile Release Train developing to a SAFe Program Increment. You will make commitments to the business and meet those commitments as a team. You will strive for continuous improvement in knowledge and productivity and display a pattern of continual learning and a desire to broaden your software development and design skills.
+What You'll Do
+An ideal Software Intern will learn to approach software development holistically, gaining hands-on experience in system design and implementation. Application DevelopmentPerform requirement analysis and develop API designs, database schema.Develop application code using React JS, NodeJS, Java, Spring Boot, REST API, and test cases with documentation.Use AWS services such as RDS, Lambda, S3 etc., to design and deliver the solution.Use GitHub for source code management.DocumentationContribute to project documentation, including API specifications, deployment instructions, and troubleshooting guides.Collaboration and CommunicationActively participate in team meetings and team chats, including daily stand-ups, iteration planning, and retrospectives.Communicate effectively with team members and stakeholders, providing updates on progress and challenges.Continuously learn and adapt to new tools, frameworks, and best practices in software development.Work closely with senior developers to understand coding standards, agile processes, and project management techniques.
+About You
+Education & ExperienceMust be enrolled in an educational or professional program through Summer 2026 or later. Understanding of C++, Java, Python, or any other object-oriented programming language.Understanding of concepts related to computer architecture, data structures, algorithms, design patterns/practices Ability to design and implement code using Functional and Object-Oriented JavaScript, SCSS, and HTML5Ability to develop SaaS software using modular, reusable JavaScript components and data visualizations Experience in software engineering (internships, co-ops, bootcamps, or academic projects count).Exposure to developing applications using React JS, Node JS, Java, and REST APIsFoundational understanding of cloud concepts (compute, storage).Basic experience or exposure to AWS or another major cloud provider.Basic knowledge of: CI/CD pipelines (GitHub, Jenkins etc.)
+Pay Range
+USD $20.00 - USD $26.00 /Hr.
+Options
+ApplyApply
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+The actual salary offer will carefully consider a wide range of factors including your skills, qualifications, education, training, and experience, as well as the position’s work location.
+EBSCO provides a generous benefits program including:
+-Medical, Dental, Vision, Life and Disability Insurance and Flexible spending accounts
+-Retirement Savings Plan
+-Paid Parental Leave
+-Holidays and Paid Time Off (PTO)
+-Mentoring program
+And much more! Check it out here: https://www.ebsco.com/about/benefits
+We are an equal opportunity employer and comply with all applicable federal, state, and local fair employment practices laws. We strictly prohibit and do not tolerate discrimination against employees, applicants, or any other covered persons because of race, color, sex, pregnancy status, age, national origin or ancestry, ethnicity, religion, creed, sexual orientation, gender identity, status as a veteran, and basis of disability or any other federal, state or local protected class. This policy applies to all terms and conditions of employment, including, but not limited to, hiring, training, promotion, discipline, compensation, benefits, and termination of employment.
+We comply with the Americans with Disabilities Act (ADA), as amended by the ADA Amendments Act, and all applicable state or local law.
+<img src=https://track.jobadx.com/v1/t.gif?utm_pixel=942fd560-b1f9-4020-943c-6eab60acf5c7&v_js=false height="1" width="1" style="display: none" alt="" />
+Not seeing the perfect job?
+Join the EBSCO talent community to receive updates on new opportunities that align with your skills and interests - register using the links below:Experienced Talent CommunityEarly Career/Intern Talent Community
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};
