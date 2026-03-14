@@ -1,5 +1,27 @@
 [
   {
+    "company": "Circle",
+    "role": "Intern – Application Security",
+    "link": "https://circle.wd1.myworkdayjobs.com/Circle/job/San-Francisco---remote-first-in-US/Intern--Application-Security_JR100899",
+    "location": "9 locationsBoston, MAWashington, DCSFAustin, TXLAMiami, FLChicago, ILNYCAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3760,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Understand foundational application security principles.",
+        "Experienced in programming languages such as Python, JavaScript, or Java.",
+        "Familiar with secure software development practices and DevSecOps concepts.",
+        "Experience in threat modeling or risk analysis.",
+        "Exposed to security scanning tools (SAST, SCA, CI/CD-integrated tooling).",
+        "Experienced with security platforms like GitHub Advanced Security, Snyk, or Wiz."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "EBSCO",
     "role": "Full Stack Software Engineer Intern",
     "link": "https://careers-ebscoind.icims.com/jobs/1970/job?mobile=true&needsRedirect=false",
