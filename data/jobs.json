@@ -1,5 +1,32 @@
 [
   {
+    "company": "DotDash Meredith",
+    "role": "Software Engineer Intern",
+    "link": "https://meredith.wd5.myworkdayjobs.com/en-US/EXT/job/Alberta-CAN-Remote/Software-Engineering-Intern_JR15315-1",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 3763,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Possess fundamental coding knowledge",
+        "Demonstrate a growth-mindset",
+        "Willing to learn and ask questions",
+        "Comfortable accepting and incorporating mentor feedback",
+        "Work comfortably in a collaborative, team-oriented environment",
+        "Good written and verbal communication skills",
+        "Familiar with JavaScript, TypeScript, NodeJS, or Vue",
+        "Basic understanding of REST API",
+        "Basic understanding of databases and SQL",
+        "Experience with Git",
+        "Experience with advertising technology is a plus"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "The Federal Reserve System",
     "role": "Software Engineer",
     "link": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Boston-MA/Fall-2026-Co-op--Software-Engineering_R-0000031108",
