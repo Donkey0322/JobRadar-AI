@@ -1,5 +1,28 @@
 [
   {
+    "company": "The Federal Reserve System",
+    "role": "Software Engineer",
+    "link": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Boston-MA/Fall-2026-Co-op--Software-Engineering_R-0000031108",
+    "location": "Boston, MA",
+    "season": "2026 Fall",
+    "id": 3762,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a bachelor's or master's degree in a technical field",
+        "Possess hands-on experience with Python, Git, and Linux",
+        "Proficient with software development tools and environments",
+        "Functional knowledge of software design principles, data structures, and algorithms",
+        "Strong problem-solving and critical thinking skills",
+        "Excellent communication and teamwork skills",
+        "Enthusiastic to learn new technologies and contribute to software solutions"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "Hewlett Packard (HP)",
     "role": "Cryptography Intern",
     "link": "https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Bristol-Bristol-City-of-United-Kingdom/Cryptography-Intern_UNI3783",
