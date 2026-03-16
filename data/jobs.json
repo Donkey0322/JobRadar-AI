@@ -1,5 +1,106 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "SW Engineering Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71507/job?mobile=true&needsRedirect=false",
+    "location": "Brooklyn, OH",
+    "season": "2026 Summer",
+    "id": 3788,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Be enrolled in an accredited degree program in Computer, Systems, Software, Electrical, Mechanical Engineering or related scientific discipline.",
+        "Possess a clear understanding of engineering concepts, principles, theories, and technical standards.",
+        "Be a creative thinker with ability to grasp and apply new information quickly.",
+        "Handle increasing responsibilities with growing complexity.",
+        "Be a team player who thrives in collaborative environments.",
+        "Revel in team success.",
+        "Demonstrate commitment to ongoing professional development for yourself and others."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Sony Pictures Entertainment",
+    "role": "Intern AI Enablement",
+    "link": "https://spe.wd1.myworkdayjobs.com/en-US/SonyPicturesEntertainment/job/Culver-City-California/Intern--AI-Enablement---Summer-2026_JR111804",
+    "location": "Culver City, CA",
+    "season": "2026 Summer",
+    "id": 3787,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in school or university",
+        "Strong familiarity with ChatGPT and generative AI tools",
+        "Experienced with Python or similar scripting languages",
+        "Interested in applied AI in real-world business environments",
+        "Strong communication and organizational skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Gen",
+    "role": "Intern - Software Engineering",
+    "link": "https://gen.wd1.myworkdayjobs.com/careers/job/USA---New-York-New-York/Intern--Software-Engineering---Summer-Internship_55246",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3786,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s or Master’s degree program in Computer Science, Engineering, or related field.",
+        "Strong foundation in Java.",
+        "Familiarity with frameworks like Spring, Spring Boot, and JPA.",
+        "Experience with RESTful APIs and understanding how systems communicate.",
+        "Comfortable using SQL or NoSQL databases to store and query data.",
+        "Proficient in Git and tools like IntelliJ IDEA, GitHub.",
+        "Familiarity with Docker, Kubernetes, or AWS (optional).",
+        "Strong communicator and quick learner.",
+        "Enjoy working on a team.",
+        "Organized, detail-oriented, and able to juggle multiple tasks and deadlines.",
+        "Curious, motivated, and excited to grow as a backend engineer."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Exact Sciences",
+    "role": "Software Engineer Intern",
+    "link": "https://exactsciences.wd1.myworkdayjobs.com/en-CA/Exact_Sciences/job/US---CA---San-Diego/Software-Engineer-Intern---Summer-2026_R26-12810",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 3785,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Current undergraduate or graduate student in relevant field.",
+        "Basic experience in software development.",
+        "Familiarity with programming languages such as Python, Java, or C#.",
+        "Exposure to cloud platforms (AWS, Azure, GCP) and CI/CD pipelines.",
+        "Understanding of RESTful APIs and microservices architecture.",
+        "Familiarity with relational databases (PostgreSQL, MySQL) and data modeling.",
+        "Knowledge of software development best practices.",
+        "Strong problem-solving skills.",
+        "Ability to communicate results clearly and work effectively in a team.",
+        "Exposure to AI/ML applications.",
+        "Experience with version control tools, such as Git/GitHub.",
+        "Contribute to open-source projects or scientific publications in medical informatics.",
+        "Familiarity with data privacy and security standards (HIPAA, GDPR)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Horizon Industries",
     "role": "Appian Intern",
     "link": "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5154890008",
