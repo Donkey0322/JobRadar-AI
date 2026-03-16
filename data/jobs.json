@@ -1,5 +1,101 @@
 [
   {
+    "company": "Horizon Industries",
+    "role": "Appian Intern",
+    "link": "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5154890008",
+    "location": "Vienna, VA",
+    "season": "2026 Summer",
+    "id": 3784,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Exhibit strong analytical, critical, creative thinking, and problem-solving skills.",
+        "Demonstrate strong problem-solving and analytical thinking skills.",
+        "Possess excellent communication and interpersonal skills for collaboration.",
+        "Be detail-oriented, managing multiple tasks and prioritizing accordingly.",
+        "Show a proactive, self-motivated attitude, eager to learn new technologies.",
+        "Perform excellent task management individually and within a team.",
+        "Hold a Bachelor's degree in IT, Computer Science, or a related field."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Dark Wolf Solutions",
+    "role": "Dark Wolf Intern",
+    "link": "https://job-boards.greenhouse.io/darkwolfsolutions/jobs/7666354003",
+    "location": "4 locationsTampa, FLColorado Springs, COOmaha, NEReston, VA",
+    "season": "2026 Summer",
+    "id": 3783,
+    "jd": null
+  },
+  {
+    "company": "Trane Technologies",
+    "role": "Developer Intern",
+    "link": "https://careers.tranetechnologies.com/global/en/job/2601996",
+    "location": "Winona, MN",
+    "season": "2026 Summer",
+    "id": 3782,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a performance-driven, innovative leader",
+        "Understand the importance of collaboration and customer focus",
+        "Ability to work full-time during the summer",
+        "Ability to work part-time during the school year",
+        "Currently enrolled in a BS/BA in Software Development or Computer Science",
+        "Maintain a cumulative overall GPA at or above 3.0",
+        "Achieve Junior year status",
+        "Completed relevant entry-level courses",
+        "Demonstrate enthusiasm for computer science",
+        "Collaborate with others to foster effective teamwork",
+        "Show zeal for new information, knowledge, and experiences",
+        "Solve problems independently",
+        "Actively communicate when unable to solve them",
+        "Establish courses of action for efficient work",
+        "Prioritize tasks based on importance",
+        "Prototype new technology processes",
+        "Develop application enhancements",
+        "Analyze technology efficiency",
+        "Research new solutions",
+        "Operate with object-oriented and web application languages",
+        "Perform data analysis"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Point72",
+    "role": "Technology Intern - UI/UX Engineer - Full Stack",
+    "link": "https://boards.greenhouse.io/point72/jobs/8465224002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3781,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Expected Bachelor's degree between Fall 2026 and Spring 2027",
+        "Proficient in React and TypeScript",
+        "Possess strong visual instinct",
+        "Comfortable working across the stack",
+        "Able to articulate design trade-offs",
+        "Able to manage multiple tasks and deadlines",
+        "Demonstrate strong attention to detail",
+        "Possess strong analytical, writing, verbal communication, and technical skills",
+        "Demonstrate ability to work cooperatively with all levels of the team",
+        "Exhibit professionalism and integrity",
+        "Committed to the highest ethical standards"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Starz",
     "role": "Starz Intern - Software Development-Streaming Video",
     "link": "https://starz.wd5.myworkdayjobs.com/Starz/job/US-Remote/STARZ-Intern--Software-Development-Streaming-Video_JR100333",
