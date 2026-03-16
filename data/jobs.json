@@ -1,5 +1,147 @@
 [
   {
+    "company": "Starz",
+    "role": "Starz Intern - Software Development-Streaming Video",
+    "link": "https://starz.wd5.myworkdayjobs.com/Starz/job/US-Remote/STARZ-Intern--Software-Development-Streaming-Video_JR100333",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3780,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient with C# or similar programming language",
+        "Pursuing a BS Degree in Computer Science or related field",
+        "Possess strong problem-solving skills",
+        "Interested in video technologies, including DRM systems, streaming protocols, and transcoding",
+        "Able to clearly communicate",
+        "Experienced with Cloud Services (AWS/Azure/Google Cloud)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Starz",
+    "role": "Starz Intern - Software Developer",
+    "link": "https://starz.wd5.myworkdayjobs.com/Starz/job/US-Remote/STARZ-Intern--Software-Development_JR100319",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3779,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent oral and written communication skills",
+        "Experience with at least one backend language (e.g., C#, Java)",
+        "Understand APIs, services, and server-side application development",
+        "Experience with JavaScript or TypeScript",
+        "Familiar with a modern frontend framework (e.g., React)",
+        "Basic experience with relational and NoSQL databases",
+        "Understand data modeling and basic querying concepts",
+        "Enrolled in a college or university as a rising junior or senior",
+        "Available to work for the entire program length"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Hewlett Packard (HP)",
+    "role": "Software Engineer Intern - Cloud Services - HP IQ 🎓",
+    "link": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineer-Intern--Cloud-Services---HP-IQ_3160773-1",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3778,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's or PhD degree in Computer Science or related field",
+        "Possess experience or strong interest in hardware-software integration, cloud services, and AI technologies",
+        "Ability to work independently in a small, fast-paced team environment",
+        "Possess strong communication and collaboration skills",
+        "Experience with automation and infrastructure",
+        "Exposure to building services at scale",
+        "Familiarity with technologies like Spring Boot"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Hewlett Packard (HP)",
+    "role": "Cryptography Intern",
+    "link": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Bristol-Bristol-City-of-United-Kingdom/Cryptography-Intern_UNI3783-1",
+    "location": "Bristol, UK",
+    "season": "2026 Summer",
+    "id": 3777,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Pursue a university degree (Doctoral, Master's, or Bachelor's) in a relevant topic",
+        "Possess expertise in theoretical or applied cryptography",
+        "Demonstrate excellent written and verbal communication skills",
+        "Eager to learn and progress on live projects (team or independent)",
+        "Gain practical experience with cryptographic libraries",
+        "Familiar with cryptographic protocols",
+        "Aware of system security analysis concepts",
+        "Able to be innovative in cryptography or its application"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Rochester Regional Health",
+    "role": "RIT Intern/Co-op: Web Applications",
+    "link": "https://rrhs.wd5.myworkdayjobs.com/RRH/job/Riedman---Remote/RIT-Co-op--Web-Applications_REQ_230269",
+    "location": "Rochester, NY",
+    "season": "2026 Summer",
+    "id": 3776,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a student at RIT",
+        "Possess a background in a relevant field of study",
+        "Have a background in programming",
+        "Have a background in analysis of information systems",
+        "Have a background in testing of information systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "ABC Fitness",
+    "role": "Front-End Developer Intern",
+    "link": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Remote-United-States/Front-End-Developer-Intern_REQ-1178",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3775,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s degree in Computer Science, Software Engineering, or a related field.",
+        "Possess academic or project experience with JavaScript/TypeScript and React.js.",
+        "Familiar with modern JavaScript (ES6+).",
+        "Understand basic RESTful APIs and client-server architecture.",
+        "Experienced using Git or other version control systems.",
+        "Strong problem-solving and analytical skills.",
+        "Clear written and verbal communication skills.",
+        "Self-motivated, organized, and comfortable working in a collaborative, fast-paced environment.",
+        "Experienced with NPM and modern front-end tooling.",
+        "Exposed to RxJS or reactive programming concepts.",
+        "Contributed to team-based software projects (academic, open source, or internships)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Bio-Rad Laboratories",
     "role": "Software Product Owner Intern",
     "link": "https://careers-biorad.icims.com/jobs/38272/software-product-owner%2c-intern/job",
