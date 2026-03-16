@@ -1,5 +1,242 @@
 [
   {
+    "company": "Bio-Rad Laboratories",
+    "role": "Software Product Owner Intern",
+    "link": "https://careers-biorad.icims.com/jobs/38272/software-product-owner%2c-intern/job",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 3774,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "HERE",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/80793/software-engineer-intern/job",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3773,
+    "jd": null
+  },
+  {
+    "company": "HERE",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/80772/software-engineer-intern/job",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3772,
+    "jd": null
+  },
+  {
+    "company": "Sprinklr",
+    "role": "AI & Automation Intern",
+    "link": "https://sprinklr.wd1.myworkdayjobs.com/careers/job/United-States---Texas---Austin/AI---Automation-Intern_112798-JOB-1",
+    "location": "Austin, TXTexas",
+    "season": "2026 Summer",
+    "id": 3771,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Information Technology, Engineering, Data Science, or a related field",
+        "Exposure to or coursework involving Azure Logic Apps, Microsoft Copilot Studio, Power Platform, or similar automation / AI platforms",
+        "Familiarity with REST APIs, JSON, and basic API integration concepts",
+        "Basic understanding of one or more scripting languages such as Python, PowerShell, or JavaScript",
+        "Strong analytical and problem-solving skills with curiosity to explore new technologies",
+        "Effective verbal and written communication skills; comfortable engaging with both technical and non-technical stakeholders",
+        "Enthusiastic about learning and working in a fast-paced, cloud-based enterprise IT environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "STCU",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/STCU1/744000114977297",
+    "location": "Liberty Lake, WA",
+    "season": "2026 Summer",
+    "id": 3770,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Live within commuting distance of STCU Headquarters in Liberty Lake, WA",
+        "Currently enrolled in a local college for the entirety of the internship",
+        "Of at least a junior standing, through November 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "iPipeline",
+    "role": "Software Developer Intern",
+    "link": "https://careers-ipipeline.icims.com/jobs/1591/job?mobile=true&needsRedirect=false",
+    "location": "Fort Lauderdale, FL",
+    "season": "2026 Summer",
+    "id": 3769,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or a related field.",
+        "Possess knowledge of basic coding languages (C#, Java, HTML5).",
+        "Understand agile development methodologies.",
+        "Willing to learn new software and technologies.",
+        "Strong problem-solving skills.",
+        "Good interpersonal and communication skills.",
+        "Able to work in a team environment.",
+        "Experience with database management and security.",
+        "Familiar with version control, such as Git."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "iPipeline",
+    "role": "Software Developer Intern",
+    "link": "https://careers-ipipeline.icims.com/jobs/1596/job?mobile=true&needsRedirect=false",
+    "location": "Exton, PA",
+    "season": "2026 Summer",
+    "id": 3768,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Foundational knowledge of programming and design.",
+        "Willingness to work in an Agile environment.",
+        "Basic understanding of web applications.",
+        "Interest in learning JavaScript and other relevant languages.",
+        "Strong attention to detail and quality.",
+        "Ability to prioritize and handle multiple tasks.",
+        "Eagerness to collaborate with co-workers.",
+        "Strong communication skills.",
+        "Ability to learn and problem solve with guidance.",
+        "Be a team player.",
+        "Basic analytical skills.",
+        "Basic understanding of the Software Development Life Cycle (SDLC).",
+        "Interest in software management processes.",
+        "Familiarity with programming languages such as HTML, CSS, JavaScript, Git, Jenkins, .NET, or C++.",
+        "Interest in functional programming.",
+        "Basic understanding of relational database systems and SQL.",
+        "Enthusiasm for learning new tools, technologies, and processes.",
+        "Interest in web services.",
+        "Currently pursuing a degree in Computer Science or a related field.",
+        "Familiarity with VB.NET or other object-oriented programming languages and SQL.",
+        "Interest in learning and working within Agile methodology."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Gamechanger",
+    "role": "Android Software Engineer Intern - Stats and Insights",
+    "link": "https://jobs.ashbyhq.com/gamechanger/63196fe3-e59b-4f98-842f-d92b3eabc9e5/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3767,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science, Software Engineering, or a related technical field.",
+        "Experience building and shipping a technical project.",
+        "Experience developing Android applications using Kotlin and/or Java.",
+        "Ability to independently scope and execute defined work.",
+        "Understand Android fundamentals.",
+        "Experience with modern Android architecture and tooling.",
+        "Familiarity with reactive programming patterns.",
+        "Exposure to data-driven product development."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Gamechanger",
+    "role": "Software Engineer Intern - Core Services",
+    "link": "https://jobs.ashbyhq.com/gamechanger/c13c7bc6-8f36-470c-b7de-787919a0c6f8/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3766,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or a related field.",
+        "Recently complete a software engineering bootcamp.",
+        "Possess 1+ years of experience with JavaScript.",
+        "Possess 1+ years of experience with git / version control.",
+        "Write clean, organized code.",
+        "Present technical work through presentations, written updates, and documentation.",
+        "Demonstrate experience collaborating with others on a shared codebase.",
+        "Be curious, proactive, and excited about building software.",
+        "Be comfortable receiving feedback and putting it into action.",
+        "Be enthusiastic about using technology to enhance people's lives."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cambridge Mobile Telematics",
+    "role": "Software Engineer Intern - Backend",
+    "link": "https://job-boards.greenhouse.io/cmt/jobs/7699299",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 3765,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's degree in CS, EE, Math, or related STEM field.",
+        "Ability to work at least two days per week in the Cambridge, MA office.",
+        "Strong desire to learn and grow in a collaborative environment.",
+        "Proficient in at least one programming language, such as Python or Java.",
+        "Conceptual knowledge or experience in developing applications for cloud, web, or mobile platforms.",
+        "Conceptual knowledge or experience in debugging and troubleshooting complex systems.",
+        "Conceptual knowledge or experience in AI, Machine Learning, or Data Science.",
+        "Strong communication skills, with ability to articulate ideas clearly and effectively.",
+        "Self-motivated and able to work independently on assigned tasks."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CAE",
+    "role": "Software Engineering Intern",
+    "link": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Software-Engineering-Intern_118247-1",
+    "location": "Arlington, TX",
+    "season": "2026 Summer",
+    "id": 3764,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in a related field",
+        "Contribute positively to a collaborative team",
+        "Possess programming or software development experience",
+        "Adapt to a fast-paced environment",
+        "Dedicated to continuous learning",
+        "Proficient in C++, FORTRAN, Ada, or Python",
+        "Experience with Linux OS",
+        "Proficient in MATLAB",
+        "Experience with gaming engines (Unreal, Unity)"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "DotDash Meredith",
     "role": "Software Engineer Intern",
     "link": "https://meredith.wd5.myworkdayjobs.com/en-US/EXT/job/Alberta-CAN-Remote/Software-Engineering-Intern_JR15315-1",
