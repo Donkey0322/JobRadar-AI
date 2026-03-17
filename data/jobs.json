@@ -1,5 +1,115 @@
 [
   {
+    "company": "Micron Technology",
+    "role": "Intern Software Engineer",
+    "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Software-Engineering-Intern_JR94282",
+    "location": "Boise, ID",
+    "season": "2026 Summer",
+    "id": 3792,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Familiarity with object-oriented programming languages like Java, C#, or Python.",
+        "Exposure to scripting languages such as Python, PowerShell, or Bash.",
+        "Introductory experience with SQL database queries.",
+        "Basic experience using Windows and/or Linux environments.",
+        "Possess hands-on experience with object-oriented programming languages.",
+        "Experience using scripting languages for projects, automation, or data tasks.",
+        "Ability to write, understand, and troubleshoot SQL queries.",
+        "Comfortable working in Windows and Linux environments."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Sierra Space",
+    "role": "Software Engineer Intern",
+    "link": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2026-Software-Engineer-Intern_R25419",
+    "location": "Centennial, COLafayette, CO",
+    "season": "2026 Summer",
+    "id": 3791,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an undergraduate degree program.",
+        "Expected graduation between December 2026 and June 2027.",
+        "Passionate about solving problems by leveraging data and technology.",
+        "Excellent written and verbal communication skills.",
+        "Able to work in a highly collaborative team environment.",
+        "Strong organizational skills, detail-oriented, and self-initiated.",
+        "Able to obtain and maintain a U.S. Security Clearance.",
+        "Majoring in Aerospace Engineering.",
+        "Majoring in Software Engineering.",
+        "Majoring in Systems Engineering.",
+        "Majoring in Computer Science.",
+        "Majoring in Information Science."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Guidewire",
+    "role": "Services Solutions Technical Architect Intern",
+    "link": "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/United-States---Philadelphia-PA/Services-Solutions-Technical-Architect-Intern_JR_14531",
+    "location": "Philadelphia, PA",
+    "season": "2026 Summer",
+    "id": 3790,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in programming fundamentals in Java, JavaScript, SQL, or Python.",
+        "Able to implement small, well-defined coding tasks and data transformations.",
+        "Able to build and maintain simple scripts, utilities, and spreadsheet-based tools.",
+        "Comfortable learning and safely using AI-assisted development tools.",
+        "Familiar with Agile basics, including sprints and standups.",
+        "Able to work with backlog and work-tracking tools like Jira or spreadsheets.",
+        "Possess clear written and verbal communication skills.",
+        "Strong collaboration skills in cross-functional settings.",
+        "Self-starter with the ability to break vague ideas into concrete tasks.",
+        "Demonstrate ability to embrace AI and apply data-driven insights.",
+        "Experience with Java, JavaScript, SQL, or Python in projects or internships.",
+        "Hands-on experience using AI tools for coding, documentation, or process automation.",
+        "Prior participation in an Agile team or structured group project.",
+        "Exposed to backlog management and collaboration tools.",
+        "Experienced in creating how-to guides, checklists, or basic training materials.",
+        "Customer-facing or field experience demonstrating follow-up skills.",
+        "Interested in P&C insurance, SaaS/enterprise software, or consulting environments."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "United Parcel Service (UPS)",
+    "role": "UTG Intern/Co-op",
+    "link": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---UPS-SUPPLY-CHAIN-SOLUTIONS-GAAPR/XMLNAME-2026-UTG-Co-Op_R26006947",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 3789,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a student currently enrolled in a degreed college/university program",
+        "Graduated from a degreed college/university program within the last 24 months",
+        "Strong written & verbal communication skills",
+        "Proficient in Database Administration, Data Modeling, Data design, Documentation",
+        "Experienced with ReactJS, TypeScript & Python",
+        "Proficient in Microsoft Office (Access, Excel, Word, PowerPoint, Power Bi)",
+        "Hold a Master’s degree in computer science or a related field (currently enrolled or graduated within the last 24 months)",
+        "Possess 1+ year of hands-on experience working with the listed technologies",
+        "Currently located in the same geographic location as the job (Alpharetta, GA)"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "SW Engineering Intern",
     "link": "https://careers-gdms.icims.com/jobs/71507/job?mobile=true&needsRedirect=false",

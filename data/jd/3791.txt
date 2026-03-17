@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Louisville, CO (Taylor) - CO_CL1"
+}
+},
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026 Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R25419"
+},
+"datePosted" : "2026-03-16",
+"validThrough" : "2026-05-01",
+"employmentType" : "PART_TIME",
+"title" : "Summer 2026 Software Engineer Intern",
+"description" : "Sierra Space Careers: At Sierra Space, we build the missions and systems that keep our world secure in the domain above Earth. Sierra Space team members share a spirit of innovation and collaboration and a belief that we can deliver on the boldest missions in space today. Together with our customers, we aim to safeguard our nation, sustain human presence in space, and secure the freedom of operations in low Earth orbit and beyond. Our success is measured by the trust of those who rely on what we build and deliver, and our technologies keep the United States and its allies mission-ready throughout space. We are mission-driven, and together, we are an extraordinary team. About the Role About You Our mission is driven by an unyielding commitment to advancing space-based technology in service of our customers and safeguarding national security. We seek individuals who are passionate about innovating beyond boundaries and relentlessly pursuing solutions that protect, preserve and empower – to join us in this critical mission. We’re looking for team members who align with our values, mission and goals – while also meeting the minimum qualifications below. The preferred qualifications are a bonus, not a requirement. Launch Your Future at Sierra Space Begin your career journey alongside the industry's most brilliant and innovative minds. At Sierra Space, interns engage with meaningful projects while developing the foundation for an exceptional career in aerospace and defense. Our early career professionals benefit from a distinctive experience—receiving dedicated mentorship while collaborating directly with recognized industry experts on real-world challenges aligned with their academic focus. Bring your knowledge and passion for learning, and we'll provide transformative experience. Summer Intern Academy The Sierra Space Summer Intern Academy runs for 12 weeks during the summer of 2026 for undergrad students graduating between December 2026 and June 2027. Participants work on meaningful projects, network with industry experts, and develop skills at one of our state-of-the-art facilities. Positions Available Software Engineer: Contribute to the development of software that supports spacecraft systems, mission operations, or engineering tools. You will collaborate with development teams to design, build, and test software applications while following modern development practices. Interns may help implement new features, debug existing code, participate in code reviews, and support projects involving artificial intelligence. This role provides practical experience with industry-standard programming languages, development tools, and version control systems while offering insight into the complete software development lifecycle from requirements gathering to deployment. Professional Development During your internship, you will: Master essential business processes and procedures Strengthen your technical expertise through hands-on application and expert guidance Participate in our comprehensive program developed by our University Talent Acquisition team Engage in cross-functional workshops and leadership sessions that provide valuable insights into our operations and Sierra Space's forward-thinking culture Join us in our mission to build the next generation of space innovation and become part of the team that's expanding humanity's reach beyond Earth. Minimum Qualifications Actively enrolled in an undergraduate degree program. Expected graduation date between December 2026-June 2027. Passion for solving problems by leveraging data and technology. Excellent written and verbal communication Ability to work in a highly collaborative team environment. Strong organization skills, detail oriented, and self-initiative. The ability to obtain and maintain a U.S. Security Clearance is required. To conform to U.S. Government international trade regulations, applicant must be a U.S. Citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State or U.S. Department of Commerce. Preferred Majors Aerospace Engineering Software Engineering Systems Engineering Computer Science Information Science Office Environment Corporate, in-person internship Job Location We have opportunities available in the below locations for this role. Louisville, CO Centennial, CO Compensation The pay rate for this internship is $30.00/hour About Sierra Space Headquartered in Colorado, Sierra Space is an industry-leading defense-tech space company. We design, manufacture, and deliver satellites, spacecraft and space subsystems including reusable spaceplanes, hypersonic technologies, propulsion systems, and infrastructure for the nation’s most critical missions. With more than three decades of space flight heritage, expansive classified and unclassified infrastructure and disruptive cutting-edge technology, Sierra Space is trusted by National Security, civil and commercial customers. Our flight-proven technologies advance our customers’ missions, including safeguarding our nation, protecting space-based assets, and enabling the next generation of space exploration and economic development. Sierra Space is dedicated to defining the new era of space defense, strengthening deterrence today and preserving freedom of action for generations to come. Compensation: Pay: $30.00 Elevate Your Career At Sierra Space, we are committed to your personal and professional development. We empower you to make profound and meaningful contributions and foster a vibrant culture of collaboration, where teamwork ignites breakthrough innovations. We also offer a generous benefit package, including medical, dental, and vision plans, 401(k) with 150% match up to 6%, life insurance, 3 weeks paid time off, and more. Sierra Space is an industry-leading space and defense technology company providing satellites, spacecraft, and enabling mission systems and components. We deliver mission-proven technologies to our customers that safeguard our nation, protect space-based assets and enable space exploration. Application Deadline: This role will remain posted until a qualified pool of candidates is identified. Please note: Sierra Space does not accept unsolicited resumes from contract agencies or search firms. Any unsolicited resumes submitted to our website or to Sierra Space team members not through our approved vendor list or Talent Acquisition will be considered property of Sierra Space, and we will not be obligated to pay any referral fees. Sierra Space Corporation is an equal opportunity employer and is committed to working with and providing reasonable accommodations to applicants with disabilities. If you need special assistance or a reasonable accommodation related to applying for employment with Sierra Space or at any stage of the recruitment process, please contact us. About Sierra Space Headquartered in Colorado, Sierra Space is a mission-proven Defense Tech company delivering satellite platforms, critical subsystems, reusable spaceplanes, hypersonic technologies, propulsion systems, and infrastructure for the nation’s most critical missions. With more than three decades of heritage and a record of flight-proven success in space, Sierra Space is trusted by U.S. National Security, Civil customers, and global allies. Our technologies safeguard our nation, sustain human exploration in space, and ensure the freedom of operations beyond Earth. Sierra Space is defining the new era of Space Defense, strengthening deterrence today and preserving freedom of action for generations to come.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Louisville, CO (Taylor) - CO_CL1"
+}
+},
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026 Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R25419"
+},
+"datePosted" : "2026-03-16",
+"validThrough" : "2026-05-01",
+"employmentType" : "PART_TIME",
+"title" : "Summer 2026 Software Engineer Intern",
+"description" : "Sierra Space Careers: At Sierra Space, we build the missions and systems that keep our world secure in the domain above Earth. Sierra Space team members share a spirit of innovation and collaboration and a belief that we can deliver on the boldest missions in space today. Together with our customers, we aim to safeguard our nation, sustain human presence in space, and secure the freedom of operations in low Earth orbit and beyond. Our success is measured by the trust of those who rely on what we build and deliver, and our technologies keep the United States and its allies mission-ready throughout space. We are mission-driven, and together, we are an extraordinary team. About the Role About You Our mission is driven by an unyielding commitment to advancing space-based technology in service of our customers and safeguarding national security. We seek individuals who are passionate about innovating beyond boundaries and relentlessly pursuing solutions that protect, preserve and empower – to join us in this critical mission. We’re looking for team members who align with our values, mission and goals – while also meeting the minimum qualifications below. The preferred qualifications are a bonus, not a requirement. Launch Your Future at Sierra Space Begin your career journey alongside the industry's most brilliant and innovative minds. At Sierra Space, interns engage with meaningful projects while developing the foundation for an exceptional career in aerospace and defense. Our early career professionals benefit from a distinctive experience—receiving dedicated mentorship while collaborating directly with recognized industry experts on real-world challenges aligned with their academic focus. Bring your knowledge and passion for learning, and we'll provide transformative experience. Summer Intern Academy The Sierra Space Summer Intern Academy runs for 12 weeks during the summer of 2026 for undergrad students graduating between December 2026 and June 2027. Participants work on meaningful projects, network with industry experts, and develop skills at one of our state-of-the-art facilities. Positions Available Software Engineer: Contribute to the development of software that supports spacecraft systems, mission operations, or engineering tools. You will collaborate with development teams to design, build, and test software applications while following modern development practices. Interns may help implement new features, debug existing code, participate in code reviews, and support projects involving artificial intelligence. This role provides practical experience with industry-standard programming languages, development tools, and version control systems while offering insight into the complete software development lifecycle from requirements gathering to deployment. Professional Development During your internship, you will: Master essential business processes and procedures Strengthen your technical expertise through hands-on application and expert guidance Participate in our comprehensive program developed by our University Talent Acquisition team Engage in cross-functional workshops and leadership sessions that provide valuable insights into our operations and Sierra Space's forward-thinking culture Join us in our mission to build the next generation of space innovation and become part of the team that's expanding humanity's reach beyond Earth. Minimum Qualifications Actively enrolled in an undergraduate degree program. Expected graduation date between December 2026-June 2027. Passion for solving problems by leveraging data and technology. Excellent written and verbal communication Ability to work in a highly collaborative team environment. Strong organization skills, detail oriented, and self-initiative. The ability to obtain and maintain a U.S. Security Clearance is required. To conform to U.S. Government international trade regulations, applicant must be a U.S. Citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State or U.S. Department of Commerce. Preferred Majors Aerospace Engineering Software Engineering Systems Engineering Computer Science Information Science Office Environment Corporate, in-person internship Job Location We have opportunities available in the below locations for this role. Louisville, CO Centennial, CO Compensation The pay rate for this internship is $30.00/hour About Sierra Space Headquartered in Colorado, Sierra Space is an industry-leading defense-tech space company. We design, manufacture, and deliver satellites, spacecraft and space subsystems including reusable spaceplanes, hypersonic technologies, propulsion systems, and infrastructure for the nation’s most critical missions. With more than three decades of space flight heritage, expansive classified and unclassified infrastructure and disruptive cutting-edge technology, Sierra Space is trusted by National Security, civil and commercial customers. Our flight-proven technologies advance our customers’ missions, including safeguarding our nation, protecting space-based assets, and enabling the next generation of space exploration and economic development. Sierra Space is dedicated to defining the new era of space defense, strengthening deterrence today and preserving freedom of action for generations to come. Compensation: Pay: $30.00 Elevate Your Career At Sierra Space, we are committed to your personal and professional development. We empower you to make profound and meaningful contributions and foster a vibrant culture of collaboration, where teamwork ignites breakthrough innovations. We also offer a generous benefit package, including medical, dental, and vision plans, 401(k) with 150% match up to 6%, life insurance, 3 weeks paid time off, and more. Sierra Space is an industry-leading space and defense technology company providing satellites, spacecraft, and enabling mission systems and components. We deliver mission-proven technologies to our customers that safeguard our nation, protect space-based assets and enable space exploration. Application Deadline: This role will remain posted until a qualified pool of candidates is identified. Please note: Sierra Space does not accept unsolicited resumes from contract agencies or search firms. Any unsolicited resumes submitted to our website or to Sierra Space team members not through our approved vendor list or Talent Acquisition will be considered property of Sierra Space, and we will not be obligated to pay any referral fees. Sierra Space Corporation is an equal opportunity employer and is committed to working with and providing reasonable accommodations to applicants with disabilities. If you need special assistance or a reasonable accommodation related to applying for employment with Sierra Space or at any stage of the recruitment process, please contact us. About Sierra Space Headquartered in Colorado, Sierra Space is a mission-proven Defense Tech company delivering satellite platforms, critical subsystems, reusable spaceplanes, hypersonic technologies, propulsion systems, and infrastructure for the nation’s most critical missions. With more than three decades of heritage and a record of flight-proven success in space, Sierra Space is trusted by U.S. National Security, Civil customers, and global allies. Our technologies safeguard our nation, sustain human exploration in space, and ensure the freedom of operations beyond Earth. Sierra Space is defining the new era of Space Defense, strengthening deterrence today and preserving freedom of action for generations to come.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "sierraspace",
+siteId: "Sierra_Space_External_Career_Site",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=sierraspace&s=Sierra_Space_External_Career_Site",
+token: "52fefbcc-6bc6-45fd-a069-42fc13572068",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true},"banner":{"textColor":"#40474F","image":{"id":"6625e139893a1001f2b892075c600000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
