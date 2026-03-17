@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "United States - Boston Office"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Snyk, Inc.(USA)",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "JR100489"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern",
+"description" : "Snyk is the leader in secure AI software development, helping millions of developers develop fast and stay secure as AI transforms how software is built. Our AI-native Developer Security Platform integrates seamlessly into development and security workflows, making it easy to find, fix, and prevent vulnerabilities — from code and dependencies to containers and cloud. Our mission is to empower every developer to innovate securely in the AI era — boosting productivity while reducing business risk. We’re not your average security company - we build Snyk on One Team, Care Deeply, Customer Centric, and Forward Thinking. It’s how we stay driven, supportive, and always one step ahead as AI reshapes our world. Why this role? As a R&amp;D Engineer Intern at Snyk, you'll use your development skills, passion, and problem-solving abilities to create software that ensures the security of other software products. How You’ll Spend Your Time: Collaborating with our engineers to understand project requirements and contribute meaningfully to the development process. Leveraging best practices and modern technologies to maintain and extend our core services. Working across the full stack and the entire development lifecycle to build, test, deploy, and support high-quality, reliable, and performant services. Promoting code quality through active participation in code reviews and the application of engineering best practices. Contributing directly to products that are used by developer communities around the world. Networking across Snyk, joining \"Impact\" events, building professional soft skills, and engaging with a global cohort of early-career talent. What You’ll Need: An eagerness to learn new technologies and a high degree of adaptability to change. Familiarity with programming languages such as TypeScript or Go. Foundational understanding of relational database design (e.g. PostgreSQL). A proactive attitude and a sense of accountability, paired with the ability to work independently. A passion for problem-solving and a desire to understand the \"why\" behind the code. #LI-WR1 We care deeply about the warm, inclusive environment we’ve created and we value diversity – we welcome applications from those typically underrepresented in tech. If you like the sound of this role but are not totally sure whether you’re the right person, do apply anyway! About Snyk Snyk is committed to creating an inclusive and engaging environment where our employees can thrive as we rally behind our common mission to make the digital world a safer place. From Snyk employee resource groups, to global benefits that help our employees prioritize their health, wellness, financial security, and a work/life blend, we aim to support our employees along their entire journeys here at Snyk. Benefits &amp; Programs Prioritize health, wellness, financial security, and life balance with programs tailored to your location and role. Flexible working hours, work-from home allowances, in-office perks, and time off for learning and self development Generous vacation and wellness time off, country-specific holidays, and 100% paid parental leave for all caregivers Health benefits, employee assistance plans, and annual wellness allowance Country-specific life insurance, disability benefits, and retirement/pension programs, plus mobile phone and education allowances Every day, the world gets more digital thanks to tens of millions of developers building the future faster than ever. But with exponential growth comes exponential risk, as outnumbered security teams struggle to secure mountains of code. This is where Snyk (pronounced “sneak”) comes in. Snyk is a developer security platform that makes it easy for development teams to find, prioritize, and fix security vulnerabilities in code, dependencies, containers, and cloud infrastructure — and do it all right from the start. Snyk is on a mission to make the world a more secure place by empowering developers to develop fast and stay secure. Joining Snyk means embracing our core values: One Team, Care Deeply, Customer Centric, and Forward Thinking. As a member of our team, you’ll have the opportunity to thrive in a dynamic environment where fostering collaboration, leading with empathy, driving business impact, and inspiring trust are at the heart of everything we do.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "United States - Boston Office"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Snyk, Inc.(USA)",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "JR100489"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern",
+"description" : "Snyk is the leader in secure AI software development, helping millions of developers develop fast and stay secure as AI transforms how software is built. Our AI-native Developer Security Platform integrates seamlessly into development and security workflows, making it easy to find, fix, and prevent vulnerabilities — from code and dependencies to containers and cloud. Our mission is to empower every developer to innovate securely in the AI era — boosting productivity while reducing business risk. We’re not your average security company - we build Snyk on One Team, Care Deeply, Customer Centric, and Forward Thinking. It’s how we stay driven, supportive, and always one step ahead as AI reshapes our world. Why this role? As a R&amp;D Engineer Intern at Snyk, you'll use your development skills, passion, and problem-solving abilities to create software that ensures the security of other software products. How You’ll Spend Your Time: Collaborating with our engineers to understand project requirements and contribute meaningfully to the development process. Leveraging best practices and modern technologies to maintain and extend our core services. Working across the full stack and the entire development lifecycle to build, test, deploy, and support high-quality, reliable, and performant services. Promoting code quality through active participation in code reviews and the application of engineering best practices. Contributing directly to products that are used by developer communities around the world. Networking across Snyk, joining \"Impact\" events, building professional soft skills, and engaging with a global cohort of early-career talent. What You’ll Need: An eagerness to learn new technologies and a high degree of adaptability to change. Familiarity with programming languages such as TypeScript or Go. Foundational understanding of relational database design (e.g. PostgreSQL). A proactive attitude and a sense of accountability, paired with the ability to work independently. A passion for problem-solving and a desire to understand the \"why\" behind the code. #LI-WR1 We care deeply about the warm, inclusive environment we’ve created and we value diversity – we welcome applications from those typically underrepresented in tech. If you like the sound of this role but are not totally sure whether you’re the right person, do apply anyway! About Snyk Snyk is committed to creating an inclusive and engaging environment where our employees can thrive as we rally behind our common mission to make the digital world a safer place. From Snyk employee resource groups, to global benefits that help our employees prioritize their health, wellness, financial security, and a work/life blend, we aim to support our employees along their entire journeys here at Snyk. Benefits &amp; Programs Prioritize health, wellness, financial security, and life balance with programs tailored to your location and role. Flexible working hours, work-from home allowances, in-office perks, and time off for learning and self development Generous vacation and wellness time off, country-specific holidays, and 100% paid parental leave for all caregivers Health benefits, employee assistance plans, and annual wellness allowance Country-specific life insurance, disability benefits, and retirement/pension programs, plus mobile phone and education allowances Every day, the world gets more digital thanks to tens of millions of developers building the future faster than ever. But with exponential growth comes exponential risk, as outnumbered security teams struggle to secure mountains of code. This is where Snyk (pronounced “sneak”) comes in. Snyk is a developer security platform that makes it easy for development teams to find, prioritize, and fix security vulnerabilities in code, dependencies, containers, and cloud infrastructure — and do it all right from the start. Snyk is on a mission to make the world a more secure place by empowering developers to develop fast and stay secure. Joining Snyk means embracing our core values: One Team, Care Deeply, Customer Centric, and Forward Thinking. As a member of our team, you’ll have the opportunity to thrive in a dynamic environment where fostering collaboration, leading with empathy, driving business impact, and inspiring trust are at the heart of everything we do.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "snyk",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd103.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd103.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd103.myworkday.com/wday/drs/outage?t=snyk&s=External",
+token: "0bbfdddb-9719-4ce3-810d-3a7653420ba5",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#441C99","textColor":"#441C99"},"progressBar":{"color":"#441C99"},"button":{"primary":{"color":"#441C99","borderColor":"#441C99","textColor":"#FFFFFF","hover":{"color":"#D27AE8","borderColor":"#D27AE8","textColor":"#000000"}},"secondary":{"color":"#051082","textColor":"#FFFFFF","hover":{"color":"#111699"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"1c9480aa27501000d85549bad7cc0001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#441C99","textColor":"#000000","image":{"id":"1c9480aa27501000d8554887a1430001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd103.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
