@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA TX Houston - 1360 Post Oak Blvd"
+}
+},
+"hiringOrganization" : {
+"name" : "C1400 Stewart Title Guaranty Company - United States",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Business Systems Analyst Intern",
+"@type" : "PropertyValue",
+"value" : "INTERN166"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Business Systems Analyst Intern",
+"description" : "At Stewart, we know that success begins with great people. As a Stewart employee, you’ll be joining a company that was named a 2024-2025 Best Company to Work For by U.S. News &amp; World Report, and a 2025 Top Workplace by USA Today. We are committed to helping you own, develop, and nurture your career. We invest in your career journey because we understand that as you grow, so does our company. And our priority is smart growth – by attaining the best people, investing in tools and resources that enable success, and creating a better home for all. You will be part of an inclusive work environment that reflects the customers we serve. You’ll be empowered to use your unique experiences, passion and skills to help our company and the communities we serve constantly evolve and improve. Together, we can achieve our vision of becoming the premier title and real estate services company. Stewart is a global real estate services company, providing title insurance, settlement, underwriting, and lender services through our family of companies. To learn more about Stewart, visit stewart.com/about. More information can be found on stewart.com. Get title industry information and insights at stewart.com/insights. Follow Stewart on Facebook @StewartTitleCo, on Instagram @StewartTitleCo and on LinkedIn @StewartTitle Job Description Job Summary Are you looking to help transform a company and an industry? As a Stewart employee, you’ll be joining a company that is committed to helping you own, develop, and nurture your career while growing our company. We invest in your career journey because we understand that as you grow so does our company. You will be part of a diverse and equitable work environment that reflects the customers we serve. You’ll be empowered to use your unique experiences, passion and skills to help our company constantly evolve and improve. Together, we can achieve our vision of becoming the premier title services company. As a Business Systems Analyst Intern at Stewart, you will have access to work on real-world projects, gain insights from mentors and leaders throughout the organization, and can participate in social and community events to enhance the experience – ultimately providing you with tools to support your transition from college to professional life. Our Summer Internship program runs June 1 – August 7, 2026. During the internship, you will: Assist with gathering product requirements through storyboards, requirements workshops, business process descriptions, and/or workflow analysis Work with other analysts and developers to determine a technical solution and implementation plan based on product requirements May create and/or maintain documentation explaining product and/or application changes Learn about Agile delivery and scrum methodology May participate in Design and Code Reviews and provide input Be assigned projects that help to deliver on customer outcomes and identify business improvements Be supported by a mentor, your manager, various business leaders, and the Human Resources team, all of whom will ensure you have a valuable learning experience Receive coaching and direct support and feedback to enable you to complete assignments and projects to develop skills in your functional area of focus Collaborate with cross-functional teams and interns to inform your project(s) Learn internal processes, systems, and other industry-related information Qualifications: To be successful in this role you will: Be currently enrolled in a bachelor’s or master’s level degree program in Computer Science, Computer Engineering, Computer Technology, MIS, or other related fields. AI aptitude and exposure is key – must have completed AI related coursework, school project work, or other miscellaneous projects outside of school SQL experience preferred Have familiarity with Anthropic, Claude, Abacus, CoPilot, or other AI platforms Be located in Houston, TX for duration of summer program Be able to fulfill the duties of the role in a full-time, hybrid environment for the duration of the 10-week program, located in Houston, TX Thrive in a fast-paced environment and have the passion and energy to leave your mark Have the ability to collaborate and communicate effectively with a wide variety of stakeholders across the organization Be adept at handling a changing workload and intaking a high volume of information be proactive Have a passion for seeking out process enhancements or solutions and simultaneously delivering on your current project workload Be results-oriented, innovative, collaborative, analytical, hands-on, inquisitive, a quick learner, proactive, and have excellent communications skills (both written and verbal) Be extremely organized and attentive to detail while still being able to effectively handle multi-faceted tasks Be available to complete the entire internship program as defined by the communicated program start and end dates Be fluent in oral and written English Be eligible to legally work in the country in which you are applying, without company sponsorship or time restriction Equal Employment Opportunity Employer Stewart is committed to ensuring that its online application process provides an equal employment opportunity to all job seekers, including individuals with disabilities. If you have a disability and need assistance or an accommodation in the application process, please contact us by email at careers@stewart.com. Benefits Stewart offers eligible employees a competitive benefits package that includes, but is not limited to a variety of health and wellness insurance options and programs, paid time off, 401(k) with company match, employee stock purchase program, and employee discounts. Stewart is on a journey to become the premier title services company. We offer personalized service, industry expertise and customized solutions for virtually any type of real estate transaction and are a leading global real estate services provider. At our core, we help make property ownership around the world possible. In doing that, we take every step to foster meaningful relationships through our ingenuity and efforts and are dedicated to going above and beyond to provide the best experience for employees and customers alike. To do so, we know we must sustainably serve our employees, shareholders, customers and our communities at large. That’s why we are committed to creating an inclusive workplace that fosters a deep sense of pride, passion, respect and belonging, while lessening our impact on the environment and providing transparency around the way we do business.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA TX Houston - 1360 Post Oak Blvd"
+}
+},
+"hiringOrganization" : {
+"name" : "C1400 Stewart Title Guaranty Company - United States",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Business Systems Analyst Intern",
+"@type" : "PropertyValue",
+"value" : "INTERN166"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Business Systems Analyst Intern",
+"description" : "At Stewart, we know that success begins with great people. As a Stewart employee, you’ll be joining a company that was named a 2024-2025 Best Company to Work For by U.S. News &amp; World Report, and a 2025 Top Workplace by USA Today. We are committed to helping you own, develop, and nurture your career. We invest in your career journey because we understand that as you grow, so does our company. And our priority is smart growth – by attaining the best people, investing in tools and resources that enable success, and creating a better home for all. You will be part of an inclusive work environment that reflects the customers we serve. You’ll be empowered to use your unique experiences, passion and skills to help our company and the communities we serve constantly evolve and improve. Together, we can achieve our vision of becoming the premier title and real estate services company. Stewart is a global real estate services company, providing title insurance, settlement, underwriting, and lender services through our family of companies. To learn more about Stewart, visit stewart.com/about. More information can be found on stewart.com. Get title industry information and insights at stewart.com/insights. Follow Stewart on Facebook @StewartTitleCo, on Instagram @StewartTitleCo and on LinkedIn @StewartTitle Job Description Job Summary Are you looking to help transform a company and an industry? As a Stewart employee, you’ll be joining a company that is committed to helping you own, develop, and nurture your career while growing our company. We invest in your career journey because we understand that as you grow so does our company. You will be part of a diverse and equitable work environment that reflects the customers we serve. You’ll be empowered to use your unique experiences, passion and skills to help our company constantly evolve and improve. Together, we can achieve our vision of becoming the premier title services company. As a Business Systems Analyst Intern at Stewart, you will have access to work on real-world projects, gain insights from mentors and leaders throughout the organization, and can participate in social and community events to enhance the experience – ultimately providing you with tools to support your transition from college to professional life. Our Summer Internship program runs June 1 – August 7, 2026. During the internship, you will: Assist with gathering product requirements through storyboards, requirements workshops, business process descriptions, and/or workflow analysis Work with other analysts and developers to determine a technical solution and implementation plan based on product requirements May create and/or maintain documentation explaining product and/or application changes Learn about Agile delivery and scrum methodology May participate in Design and Code Reviews and provide input Be assigned projects that help to deliver on customer outcomes and identify business improvements Be supported by a mentor, your manager, various business leaders, and the Human Resources team, all of whom will ensure you have a valuable learning experience Receive coaching and direct support and feedback to enable you to complete assignments and projects to develop skills in your functional area of focus Collaborate with cross-functional teams and interns to inform your project(s) Learn internal processes, systems, and other industry-related information Qualifications: To be successful in this role you will: Be currently enrolled in a bachelor’s or master’s level degree program in Computer Science, Computer Engineering, Computer Technology, MIS, or other related fields. AI aptitude and exposure is key – must have completed AI related coursework, school project work, or other miscellaneous projects outside of school SQL experience preferred Have familiarity with Anthropic, Claude, Abacus, CoPilot, or other AI platforms Be located in Houston, TX for duration of summer program Be able to fulfill the duties of the role in a full-time, hybrid environment for the duration of the 10-week program, located in Houston, TX Thrive in a fast-paced environment and have the passion and energy to leave your mark Have the ability to collaborate and communicate effectively with a wide variety of stakeholders across the organization Be adept at handling a changing workload and intaking a high volume of information be proactive Have a passion for seeking out process enhancements or solutions and simultaneously delivering on your current project workload Be results-oriented, innovative, collaborative, analytical, hands-on, inquisitive, a quick learner, proactive, and have excellent communications skills (both written and verbal) Be extremely organized and attentive to detail while still being able to effectively handle multi-faceted tasks Be available to complete the entire internship program as defined by the communicated program start and end dates Be fluent in oral and written English Be eligible to legally work in the country in which you are applying, without company sponsorship or time restriction Equal Employment Opportunity Employer Stewart is committed to ensuring that its online application process provides an equal employment opportunity to all job seekers, including individuals with disabilities. If you have a disability and need assistance or an accommodation in the application process, please contact us by email at careers@stewart.com. Benefits Stewart offers eligible employees a competitive benefits package that includes, but is not limited to a variety of health and wellness insurance options and programs, paid time off, 401(k) with company match, employee stock purchase program, and employee discounts. Stewart is on a journey to become the premier title services company. We offer personalized service, industry expertise and customized solutions for virtually any type of real estate transaction and are a leading global real estate services provider. At our core, we help make property ownership around the world possible. In doing that, we take every step to foster meaningful relationships through our ingenuity and efforts and are dedicated to going above and beyond to provide the best experience for employees and customers alike. To do so, we know we must sustainably serve our employees, shareholders, customers and our communities at large. That’s why we are committed to creating an inclusive workplace that fosters a deep sense of pride, passion, respect and belonging, while lessening our impact on the environment and providing transparency around the way we do business.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "stewart",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=stewart&s=External",
+token: "131a60cc-bf02-497e-9560-5a673fb59c6b",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#808080","textColor":"#000000"},"progressBar":{"color":"#808080"},"button":{"primary":{"color":"#C0C0C0","borderColor":"#C0C0C0","textColor":"#000000","hover":{"color":"#FFFFFF","borderColor":"#C0C0C0","textColor":"#000000"}},"secondary":{"color":"#C0C0C0","borderColor":"#C0C0C0","textColor":"#000000","hover":{"color":"#C0C0C0","borderColor":"#C0C0C0","textColor":"#000000"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"c377638f49d60120f74b0738eaa40000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#808080","textColor":"#800000","image":{"id":"078bd87264d7011fd29e1509830c0002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

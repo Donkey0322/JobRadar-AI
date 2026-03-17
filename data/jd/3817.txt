@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "MN - Chaska Peavey"
+}
+},
+"hiringOrganization" : {
+"name" : "Entegris, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Product Engineering Intern - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "REQ-10761"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Product Engineering Intern - Summer 2026",
+"description" : "Job Title: Product Engineering Intern - Summer 2026 Job Description: THE ROLE Our site in Chaska, MN is seeking a Product Engineering Intern to join our ER&amp;D team for the Summer, 2026 season. This assignment is intended to be three months in duration. In this role, you will support the engineering team with testing and characterizing prototype samples, minor design work, researching new technologies. What You’ll Do Performing engineering experiments, documenting, analyzing, and reporting results Assembling/designing test/manufacturing fixtures Participating in brainstorming meetings and contributing ideas Researching new technologies What We Seek Attention to detail, good record keeper, Self-starter, takes on additional tasks w/o direction, and completes tasks with minimum supervision once trained Good writing and presentation skills Experience with Solidworks or ProE a plus Desired Major(s) &amp; Graduation Year Mechanical Engineering, Chemical Engineering, or other similar Engineering Fields Must be enrolled in an undergraduate program with a graduation date of December 2026 or later. Would consider students enrolled in a graduate program Eligibility • Must be a currently enrolled student • Available to work 40 hours a week, M-F (8a-5p) beginning in May through August. Why Work at Entegris Lead. Inspire. Innovate. Define Your Future. Not everyone who works for a global company shares the same background, experiences and perspectives. We leverage the differences of our employees to bring new ideas to the table. Every employee throughout the company is encouraged to share input on projects and initiatives. Our decision-making process is truly a collaborative effort as we realize there are leaders at every level of the organization. We put our values at the core of how we operate as an organization — not just when it’s convenient, but in a lasting and meaningful way. We want the time and energy you spend here to have a positive impact on your life inside and outside of the office. What We Offer Our total rewards package goes above and beyond just a paycheck. Whether you’re looking to build your career, improve your health, or protect your wealth, we offer generous benefits to help you achieve your goals. Generous 401(K) plan with an impressive employer match Excellent health, dental and vision insurance packages to fit your needs Flexible work schedule and 11 paid holidays a year Paid time off (PTO) policy that empowers you to take the time you need to recharge Education assistance to support your learning journey Values-driven culture with colleagues that rally around People, Accountability, Creativity and Excellence Entegris does not provide immigration-related sponsorship for this role. Do not apply for this role if you will need Entegris immigration sponsorship (e.g., H1B, TN, STEM OPT, etc.) now or in the future. At Entegris we are committed to providing equal opportunity to all employees and applicants. Our policy is to recruit, hire, train, and reward employees for their individual abilities, achievements, and experience without regard to race, color, religion, sexual orientation, age, national origin, disability, marital or military status. At Entegris, we want you to be part of our culture, which values your unique talents, skills, and experiences. We believe what we do is as important as how we do it. People at our company bring their true selves to work, and are appreciated not only for what they do, but for who they are. This plus the technical complexity of our products and solutions means you can be sure your work is both challenging and changing the world for the better. Learn more about why people enjoy working at Entegris.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "MN - Chaska Peavey"
+}
+},
+"hiringOrganization" : {
+"name" : "Entegris, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Product Engineering Intern - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "REQ-10761"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Product Engineering Intern - Summer 2026",
+"description" : "Job Title: Product Engineering Intern - Summer 2026 Job Description: THE ROLE Our site in Chaska, MN is seeking a Product Engineering Intern to join our ER&amp;D team for the Summer, 2026 season. This assignment is intended to be three months in duration. In this role, you will support the engineering team with testing and characterizing prototype samples, minor design work, researching new technologies. What You’ll Do Performing engineering experiments, documenting, analyzing, and reporting results Assembling/designing test/manufacturing fixtures Participating in brainstorming meetings and contributing ideas Researching new technologies What We Seek Attention to detail, good record keeper, Self-starter, takes on additional tasks w/o direction, and completes tasks with minimum supervision once trained Good writing and presentation skills Experience with Solidworks or ProE a plus Desired Major(s) &amp; Graduation Year Mechanical Engineering, Chemical Engineering, or other similar Engineering Fields Must be enrolled in an undergraduate program with a graduation date of December 2026 or later. Would consider students enrolled in a graduate program Eligibility • Must be a currently enrolled student • Available to work 40 hours a week, M-F (8a-5p) beginning in May through August. Why Work at Entegris Lead. Inspire. Innovate. Define Your Future. Not everyone who works for a global company shares the same background, experiences and perspectives. We leverage the differences of our employees to bring new ideas to the table. Every employee throughout the company is encouraged to share input on projects and initiatives. Our decision-making process is truly a collaborative effort as we realize there are leaders at every level of the organization. We put our values at the core of how we operate as an organization — not just when it’s convenient, but in a lasting and meaningful way. We want the time and energy you spend here to have a positive impact on your life inside and outside of the office. What We Offer Our total rewards package goes above and beyond just a paycheck. Whether you’re looking to build your career, improve your health, or protect your wealth, we offer generous benefits to help you achieve your goals. Generous 401(K) plan with an impressive employer match Excellent health, dental and vision insurance packages to fit your needs Flexible work schedule and 11 paid holidays a year Paid time off (PTO) policy that empowers you to take the time you need to recharge Education assistance to support your learning journey Values-driven culture with colleagues that rally around People, Accountability, Creativity and Excellence Entegris does not provide immigration-related sponsorship for this role. Do not apply for this role if you will need Entegris immigration sponsorship (e.g., H1B, TN, STEM OPT, etc.) now or in the future. At Entegris we are committed to providing equal opportunity to all employees and applicants. Our policy is to recruit, hire, train, and reward employees for their individual abilities, achievements, and experience without regard to race, color, religion, sexual orientation, age, national origin, disability, marital or military status. At Entegris, we want you to be part of our culture, which values your unique talents, skills, and experiences. We believe what we do is as important as how we do it. People at our company bring their true selves to work, and are appreciated not only for what they do, but for who they are. This plus the technical complexity of our products and solutions means you can be sure your work is both challenging and changing the world for the better. Learn more about why people enjoy working at Entegris.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "entegris",
+siteId: "entegriscareers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["ms-MY","de-DE","en-US","en-GB","es","fr-CA","fr-FR","it-IT","he-IL","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=entegris&s=entegriscareers",
+token: "6f2748e6-15c2-44c9-97b0-b74efa78e22d",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#393630","textColor":"#393630"},"progressBar":{"color":"#393630"},"button":{"primary":{"color":"#393630","borderColor":"#393630","textColor":"#FFFFFF","hover":{"color":"#B31A1B","borderColor":"#B31A1B","textColor":"#FFFFFF"}},"secondary":{"color":"#393630","borderColor":"#393630","textColor":"#FFFFFF","hover":{"color":"#870608","borderColor":"#870608","textColor":"#FFFFFF"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"9f75451ca3e51001f83ff883ca350000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#B31A1B","textColor":"#393630","image":{"id":"9f75451ca3e51001f83ff7e90ae90000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

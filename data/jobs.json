@@ -1,5 +1,431 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Linux Automation Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71534/job?mobile=true&needsRedirect=false",
+    "location": "San Antonio, TX",
+    "season": "2026 Summer",
+    "id": 3824,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or related scientific discipline.",
+        "Prefer a standing of a sophomore or higher in degree program.",
+        "Collaborate with experienced teams on technical software and systems projects.",
+        "Interested in automating processes and scripting for Linux environments.",
+        "Strong in problem-solving, troubleshooting, and attention to detail.",
+        "Eager to apply classroom knowledge to real-world defense projects.",
+        "Passionate about national security and defense missions.",
+        "Experienced with scripting languages such as Python or Bash.",
+        "Familiar with automation tools and frameworks like Ansible, Puppet, Jenkins, or OpenQA.",
+        "Able to work well in a collaborative team environment.",
+        "Strong desire to learn and grow in a technical field."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Walter P Moore",
+    "role": "Software Developer Intern - Structural",
+    "link": "https://careers-walterpmoore.icims.com/jobs/4046/job?mobile=true&needsRedirect=false",
+    "location": "11 locationsLas Vegas, NVOrlando, FLHouston, TXEl Paso, TXAustin, TXMiami, FLDallas, TXCharlotte, NCKansas City, MOOklahoma City, OKAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3823,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete at least 12 civil engineering credit hours.",
+        "Pursue a Master's degree in Civil Engineering.",
+        "Proficient in C# programming on .NET.",
+        "Familiar with Python.",
+        "Competent in object-oriented and functional programming paradigms.",
+        "Experienced with CSV and JSON serialization formats.",
+        "Familiar with XML and binary formats.",
+        "Competent in using assembly-based and web-based APIs.",
+        "Familiar with Visual Studio development environment or equivalent.",
+        "Understand unit testing, package management, version control, and AI copilot integration.",
+        "Be proactive and self-driven.",
+        "Possess strong problem-solving and organizational skills.",
+        "Exhibit excellent written and verbal communication skills.",
+        "Be client-service oriented."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fortinet",
+    "role": "Software Development - GenAI",
+    "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3822,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Vantage",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/vantage/19c9753f-25be-4e76-af53-04717bdcc25b/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3821,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience in at least one object-oriented programming language",
+        "Curious and excited to rapidly build, test, and deliver product features",
+        "Available full-time for 10-12 weeks between May and August",
+        "Be a kind person",
+        "Experience with a web framework (e.g., Ruby on Rails, Django, Express.js)",
+        "Experience with a front-end framework (e.g., Vue, React, Angular)",
+        "Previous experience working within a startup environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Meta",
+    "role": "Research Scientist Intern - PyTorch Compiler 🎓",
+    "link": "https://www.metacareers.com/jobs/871535115847099",
+    "location": "Seattle, WAMenlo Park, CANYC",
+    "season": "2026 Summer",
+    "id": 3820,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently obtaining or holds a PhD in Computer Science, Computer Engineering, or related field",
+        "Experienced in ML compiler, Distributed Training, or ML systems",
+        "Proficient in Python or Cuda programming",
+        "Experienced with other ML compiler stacks like PT2 or Triton",
+        "Experienced in performance optimization for ML models",
+        "Proven track record of significant results (grants, fellowships, patents, first-authored publications)",
+        "Experienced in cross-functional teamwork and communication"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "LG Electronics",
+    "role": "AI Intern – Architecture & AI",
+    "link": "https://job-boards.greenhouse.io/lgelectronics/jobs/5156458008",
+    "location": "Englewood, NJ",
+    "season": "2026 Summer",
+    "id": 3819,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Bachelor's degree program at an accredited College/University.",
+        "Rising Sophomore or Rising Junior in a business, data, or analytics related major preferred.",
+        "Programming experience with Python preferred.",
+        "Prior exposure to LLMs or generative AI technologies preferred.",
+        "Familiarity with GiT or version control systems.",
+        "Understanding of APIs and basic software development practices.",
+        "Basic skills in quantitative data analysis.",
+        "Proficient in using Excel for creating charts and infographics.",
+        "Proficiency in tools such as Microsoft Office, Google, Teams, and AI-based drawing tools.",
+        "Demonstrates a strong interest in diverse generations and cultures, particularly food lifestyles.",
+        "Curiosity and enthusiasm for customer observation.",
+        "Ability to extract meaningful insights.",
+        "Strong communication skills.",
+        "Mindset grounded in design thinking.",
+        "Ability to approach and solve problems creatively.",
+        "Outgoing personality."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ivo",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.lever.co/ivo/83b626de-53c8-4505-b0ea-253fdcb83680/apply",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3818,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Entegris",
+    "role": "Product Engineering Intern",
+    "link": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Chaska-MN/Product-Engineering-Intern---Summer-2026_REQ-10761-1",
+    "location": "Shakopee, MN",
+    "season": "2026 Summer",
+    "id": 3817,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Perform engineering experiments.",
+        "Document, analyze, and report results.",
+        "Assemble or design test/manufacturing fixtures.",
+        "Participate in brainstorming meetings and contribute ideas.",
+        "Research new technologies.",
+        "Demonstrate attention to detail.",
+        "Be a good record keeper.",
+        "Be a self-starter.",
+        "Take on additional tasks without direction.",
+        "Complete tasks with minimum supervision once trained.",
+        "Possess good writing skills.",
+        "Possess good presentation skills.",
+        "Experience with Solidworks or ProE (a plus).",
+        "Be enrolled in Mechanical Engineering, Chemical Engineering, or similar fields.",
+        "Be an enrolled undergraduate student with a graduation date of December 2026 or later.",
+        "Be an enrolled graduate student (considered).",
+        "Be a currently enrolled student.",
+        "Available to work 40 hours a week, M-F, beginning in May through August."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Stewart",
+    "role": "Business Systems Analyst Intern",
+    "link": "https://stewart.wd1.myworkdayjobs.com/External/job/USA-TX-Houston---1360-Post-Oak-Blvd/Business-Systems-Analyst-Intern_INTERN166-1",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 3816,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a relevant Bachelor's or Master's degree program.",
+        "Demonstrate AI aptitude and exposure through coursework or projects.",
+        "Familiar with various AI platforms.",
+        "Preferred SQL experience.",
+        "Located in Houston, TX for the summer program.",
+        "Able to work full-time, hybrid in Houston, TX for 10 weeks.",
+        "Thrive in a fast-paced environment.",
+        "Able to collaborate and communicate effectively with stakeholders.",
+        "Adept at handling changing workloads and high information volume.",
+        "Passionate about seeking process enhancements.",
+        "Results-oriented, innovative, collaborative, analytical, and proactive.",
+        "Excellent written and verbal communication skills.",
+        "Extremely organized and attentive to detail.",
+        "Available to complete the entire internship program.",
+        "Fluent in oral and written English.",
+        "Eligible to legally work without company sponsorship or time restriction."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ryder System",
+    "role": "Application Developer Intern",
+    "link": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Coral-Gables-FL-HQ/Application-Developer---Intern_R164542",
+    "location": "Coral Gables, FL",
+    "season": "2026 Summer",
+    "id": 3815,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong verbal and written communication skills.",
+        "Demonstrate leadership capabilities.",
+        "Create and maintain professional relationships.",
+        "Exhibit personal initiative and effective interaction.",
+        "Demonstrate analytical skills.",
+        "Possess strong organizational skills for multiple projects.",
+        "Display confidence in learning new systems and processes quickly.",
+        "Strong intermediate PC skills (Windows, MS Office, MS Project, MS Excel).",
+        "Hold a Bachelor's degree.",
+        "Currently enrolled toward a degree."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Ryder System",
+    "role": "Intern – Application Developer",
+    "link": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Miami-FL-33178/Intern---Application-Developer_R164492",
+    "location": "Miami, FL",
+    "season": "2026 Summer",
+    "id": 3814,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong verbal and written communication skills.",
+        "Show leadership capabilities.",
+        "Create and maintain professional relationships.",
+        "Exhibit personal initiative and interact with all levels of management.",
+        "Demonstrate analytical skills.",
+        "Possess strong analytical and organizational skills to support multiple projects.",
+        "Display confidence in learning new systems and establishing customer rapport.",
+        "Possess strong intermediate PC skills (Windows, MS Office, MS Project, MS Excel).",
+        "Hold a Bachelor's degree.",
+        "Be currently enrolled toward a degree."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Viavi Solutions",
+    "role": "Test Engineering Intern",
+    "link": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Lenexa-KS-USA/Test-Engineering-Intern_260004439-1",
+    "location": "Lenexa, KS",
+    "season": "2026 Summer",
+    "id": 3813,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Engineering, Electrical Engineering, or related technical field.",
+        "Possess knowledge of C/C++ fundamentals, including pointers, memory management, and classes.",
+        "Demonstrate circuit literacy, understanding schematics and basic components.",
+        "Have lab familiarity, including experience with Multimeter or Oscilloscope.",
+        "Gain exposure to RF/Microwave concepts or Electromagnetic theory.",
+        "Possess experience with Embedded Systems (Arduino, Raspberry Pi, STM32)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Waystar",
+    "role": "Application Engineer Co-Op",
+    "link": "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Atlanta-GA/Application-Engineer-Co-Op--GA-Tech-_R3061",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 3812,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess 0-3 years of experience",
+        "Demonstrate basic understanding of programming concepts",
+        "Ability to code in one or more general purpose programming languages",
+        "Experience with SQL",
+        "Experience with infrastructure components such as servers, networking, load balancers, and MQ",
+        "Excellent written and verbal communication skills",
+        "Ability to work in a very fast-paced environment and welcome change",
+        "Highly self-motivated",
+        "Ability to work in both team and solo environments",
+        "Working knowledge of Linux, MySQL, or object-oriented design"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Radiance Technologies",
+    "role": "Modeling Engineer Intern - Analytics - Simulation Sciences",
+    "link": "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/MI---Home/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102058-1",
+    "location": "Michigan",
+    "season": "2026 Summer",
+    "id": 3811,
+    "jd": null
+  },
+  {
+    "company": "Avnet",
+    "role": "AI Engineering Intern",
+    "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Phoenix-Arizona-United-States-Of-America/AI-Engineering-Intern_JR-022037",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3810,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Majoring in Artificial Intelligence, Computer Science, or Information Science.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint.",
+        "Demonstrate leadership experience through work and school activities.",
+        "Possess interest or background in technology.",
+        "Exhibit excellent communication, collaboration, and team-building skills.",
+        "Be self-driven and independent, capable of working with clear direction.",
+        "Willing to try new things.",
+        "Currently enrolled in an accredited Undergraduate degree program.",
+        "Completed coursework, typically finishing Junior year by May 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "AI Engineering Intern",
+    "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Phoenix-Arizona-United-States-Of-America/AI-Engineering-Intern_JR-022037",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3809,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Artificial Intelligence, Computer Science, or Information Science.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint.",
+        "Demonstrate leadership experience through work and school activities.",
+        "Possess interest or background in technology.",
+        "Exhibit excellent communication, collaboration, and team building skills.",
+        "Be self-driven and independent, capable of working with clear direction.",
+        "Demonstrate willingness to try new things.",
+        "Currently enrolled in an accredited Undergraduate degree program.",
+        "Complete coursework in field of study, preferably finishing Junior year by May 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Torch Technologies",
+    "role": "Software Design Engineer Intern",
+    "link": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Design-Engineer-Intern---Summer-2026--Returning-Intern-Only_R794",
+    "location": "Huntsville, AL",
+    "season": "2026 Summer",
+    "id": 3808,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university",
+        "Pursue a Bachelor’s degree in engineering",
+        "Possess prior Torch Technologies internship experience",
+        "Ability to obtain and maintain a Secret security clearance",
+        "Proficient in Python, Java, C, and C++ programming",
+        "Strong knowledge of Object-Oriented Programming (OOP)",
+        "Experience with GUI Development",
+        "Experience handling structured data such as JSON",
+        "Familiarity with Integrated Development Environments (IDEs)",
+        "Experience with Source Control Platforms like GitHub",
+        "Strong problem-solving and analytical thinking skills",
+        "Experience with collaborative software development",
+        "Skilled in technical documentation",
+        "Be at least 18 years old",
+        "Actively enrolled as an undergraduate student",
+        "Maintain a minimum GPA of 3.0",
+        "Ability to commit to a full-time schedule"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Tencent",
     "role": "Engine Developer Intern - Gaming",
     "link": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Engine-Developer-Intern--Gaming_R107109",

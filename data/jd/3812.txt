@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Atlanta, GA"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Waystar, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Application Engineer Co-Op (GA Tech)",
+"@type" : "PropertyValue",
+"value" : "R3061"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "PART_TIME",
+"title" : "Application Engineer Co-Op (GA Tech)",
+"description" : "ABOUT THIS POSITION We're looking for a 3-Semester Application Engineer Co-Op who wants to help simplify and unify healthcare payments across the revenue cycle. We run an agile development team with weekly sprints to quickly deliver code to our clients. Our team prides itself on rapid development, so as a Co-Op, your code will make it to production many times during your term. That's right, at Waystar, our Co-Ops actually push code into production. This is a Co-Op opportunity for current college students only who attend a school that provides academic credit for participating in the alternating 3-term co-op program. If you are no longer in school, please consider our full-time Application Engineering opportunities. WHAT YOU'LL DO As a Co-Op, you will be like any other Application Engineer on the team. We expect you to design, develop and test new features and enhancements on our platform. To do that, you will work with peers, Team Leads, Manager, Directors and the VP of Engineering along with the wider business to build web-scale products. Working knowledge of Linux, MySQL and/or any object-oriented design (PHP, Java, .Net, Ruby) is a plus. But if you're missing one of those and you're eager to learn, we'll teach you what you need to know! Languages: Golang/PHP7/Ruby/Javascript Javascript Frameworks: AngularJS/VueJS Database: MySQL Deployment: Kubernetes on AWS, using Jenkins Development Tools: Atlassian Suite (JIRA, Confluence, Bamboo) As a Waystar engineer, its likely you'll touch them all. We're always evolving too, so maybe you'll help us add a new one to the list WHAT YOU'LL NEED · 0-3 years’ experience · Basic understanding of programming concepts · Can code in one or more general purpose programming languages; C# and .NET programming languages are preferred · Experience with SQL · Experience with infrastructure components such as servers, networking, load balancers, and MQ preferred · Excellent written and verbal communication skills · Ability to work in a very fast-paced environment &amp; welcome change · Highly self-motivated · Ability to work both in team and solo environments ABOUT WAYSTAR Through a smart platform and better experience, Waystar helps providers simplify healthcare payments and yield powerful results throughout the complete revenue cycle. Waystar’s healthcare payments platform combines innovative, cloud-based technology, robust data, and unparalleled client support to streamline workflows and improve financials so providers can focus on what matters most: their patients and communities. Waystar is trusted by 1M+ providers, 1K+ hospitals and health systems, and is connected to over 5K commercial and Medicaid/Medicare payers. We are deeply committed to living out our organizational values: honesty; kindness; passion; curiosity; fanatical focus; best work, always; making it happen; and joyful, optimistic &amp; fun. Waystar products have won multiple Best in KLAS® or Category Leader awards since 2010 and earned multiple #1 rankings from Black Book™ surveys since 2012. The Waystar platform supports more than 500,000 providers, 1,000 health systems and hospitals, and 5,000 payers and health plans. For more information, visit waystar.com or follow @Waystar on Twitter. WAYSTAR PERKS Competitive total rewards (base salary + bonus, if applicable) Customizable benefits package (3 medical plans with Health Saving Account company match) We offer generous paid time off for our non-exempt team members, starting with 3 weeks + 13 paid holidays, including 2 personal floating holidays. We also offer flexible time off for our exempt team members + 13 paid holidays Paid parental leave (including maternity + paternity leave) Education assistance opportunities and free LinkedIn Learning access Free mental health and family planning programs, including adoption assistance and fertility support 401(K) program with company match Pet insurance Employee resource groups Waystar is proud to be an equal opportunity workplace. We celebrate, value, and support diversity and inclusion. Qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, marital status, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Waystar provides cloud-based technology that simplifies and unifies healthcare payments. Together, our technology, data and client support streamline workflows and improve financials for our clients, so that they can focus on their patients. We are deeply committed to living out our organizational values: honesty; kindness; passion; curiosity; fanatical focus; best work, always; making it happen; and joyful, optimistic and fun.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Atlanta, GA"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Waystar, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Application Engineer Co-Op (GA Tech)",
+"@type" : "PropertyValue",
+"value" : "R3061"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "PART_TIME",
+"title" : "Application Engineer Co-Op (GA Tech)",
+"description" : "ABOUT THIS POSITION We're looking for a 3-Semester Application Engineer Co-Op who wants to help simplify and unify healthcare payments across the revenue cycle. We run an agile development team with weekly sprints to quickly deliver code to our clients. Our team prides itself on rapid development, so as a Co-Op, your code will make it to production many times during your term. That's right, at Waystar, our Co-Ops actually push code into production. This is a Co-Op opportunity for current college students only who attend a school that provides academic credit for participating in the alternating 3-term co-op program. If you are no longer in school, please consider our full-time Application Engineering opportunities. WHAT YOU'LL DO As a Co-Op, you will be like any other Application Engineer on the team. We expect you to design, develop and test new features and enhancements on our platform. To do that, you will work with peers, Team Leads, Manager, Directors and the VP of Engineering along with the wider business to build web-scale products. Working knowledge of Linux, MySQL and/or any object-oriented design (PHP, Java, .Net, Ruby) is a plus. But if you're missing one of those and you're eager to learn, we'll teach you what you need to know! Languages: Golang/PHP7/Ruby/Javascript Javascript Frameworks: AngularJS/VueJS Database: MySQL Deployment: Kubernetes on AWS, using Jenkins Development Tools: Atlassian Suite (JIRA, Confluence, Bamboo) As a Waystar engineer, its likely you'll touch them all. We're always evolving too, so maybe you'll help us add a new one to the list WHAT YOU'LL NEED · 0-3 years’ experience · Basic understanding of programming concepts · Can code in one or more general purpose programming languages; C# and .NET programming languages are preferred · Experience with SQL · Experience with infrastructure components such as servers, networking, load balancers, and MQ preferred · Excellent written and verbal communication skills · Ability to work in a very fast-paced environment &amp; welcome change · Highly self-motivated · Ability to work both in team and solo environments ABOUT WAYSTAR Through a smart platform and better experience, Waystar helps providers simplify healthcare payments and yield powerful results throughout the complete revenue cycle. Waystar’s healthcare payments platform combines innovative, cloud-based technology, robust data, and unparalleled client support to streamline workflows and improve financials so providers can focus on what matters most: their patients and communities. Waystar is trusted by 1M+ providers, 1K+ hospitals and health systems, and is connected to over 5K commercial and Medicaid/Medicare payers. We are deeply committed to living out our organizational values: honesty; kindness; passion; curiosity; fanatical focus; best work, always; making it happen; and joyful, optimistic &amp; fun. Waystar products have won multiple Best in KLAS® or Category Leader awards since 2010 and earned multiple #1 rankings from Black Book™ surveys since 2012. The Waystar platform supports more than 500,000 providers, 1,000 health systems and hospitals, and 5,000 payers and health plans. For more information, visit waystar.com or follow @Waystar on Twitter. WAYSTAR PERKS Competitive total rewards (base salary + bonus, if applicable) Customizable benefits package (3 medical plans with Health Saving Account company match) We offer generous paid time off for our non-exempt team members, starting with 3 weeks + 13 paid holidays, including 2 personal floating holidays. We also offer flexible time off for our exempt team members + 13 paid holidays Paid parental leave (including maternity + paternity leave) Education assistance opportunities and free LinkedIn Learning access Free mental health and family planning programs, including adoption assistance and fertility support 401(K) program with company match Pet insurance Employee resource groups Waystar is proud to be an equal opportunity workplace. We celebrate, value, and support diversity and inclusion. Qualified applicants will receive consideration for employment without regard to race, color, religion, age, sex, national origin, disability status, genetics, marital status, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training. Waystar provides cloud-based technology that simplifies and unifies healthcare payments. Together, our technology, data and client support streamline workflows and improve financials for our clients, so that they can focus on their patients. We are deeply committed to living out our organizational values: honesty; kindness; passion; curiosity; fanatical focus; best work, always; making it happen; and joyful, optimistic and fun.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "waystar",
+siteId: "Waystar",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=waystar&s=Waystar",
+token: "eba6881d-f88b-4cd4-a322-81a92453dd16",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{},"progressBar":{"color":"#FF6900"},"button":{"primary":{"color":"#FF6900","borderColor":"#FFFFFF","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#FF6900","textColor":"#FF6900"}},"secondary":{"color":"#FF6900","borderColor":"#FFFFFF","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#FF6900","textColor":"#FF6900"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"3505f5086c0a1001eaa272b076bf0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#FF6900","textColor":"#4C5966","image":{"id":"e064afb626e8016e5b367975a701d84a","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
