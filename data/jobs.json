@@ -1,5 +1,51 @@
 [
   {
+    "company": "Tencent",
+    "role": "Engine Developer Intern - Gaming",
+    "link": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Engine-Developer-Intern--Gaming_R107109",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3807,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Have relevant major in Computer Science or related fields",
+        "Strong proficiency in C++ and Computer Graphics",
+        "Experience building modular and scalable systems",
+        "Deep understanding of Game Engine internals",
+        "Solid English communication skills",
+        "Able to collaborate effectively with international teams",
+        "Submit additional materials like GitHub or portfolio"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Federal Reserve System",
+    "role": "Software Engineering Intern",
+    "link": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Boston-MA/Summer-2026-Intern--Software-Engineering_R-0000031107-1",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3806,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or master's degree in computer science or related field.",
+        "Have hands-on experience with Python, Git, and Linux.",
+        "Proficient with software development tools and environments.",
+        "Possess functional knowledge of software design principles, data structures, and algorithms.",
+        "Strong problem-solving and critical thinking skills.",
+        "Excellent communication and teamwork skills.",
+        "Enthusiastic for learning new technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Cockroach Labs",
     "role": "Engineering Intern",
     "link": "https://www.cockroachlabs.com/careers/job/?gh_jid=6291435",
