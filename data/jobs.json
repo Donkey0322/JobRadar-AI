@@ -1,5 +1,37 @@
 [
   {
+    "company": "UserTesting",
+    "role": "Software Engineer",
+    "link": "https://usertesting.wd12.myworkdayjobs.com/UserTesting/job/Edinburgh/Software-Engineer-Intern_R-101153-1",
+    "location": "Edinburgh, UK",
+    "season": "2026 Summer",
+    "id": 3825,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Contribute to software feature design, development, testing, and deployment.",
+        "Write clean, maintainable, and efficient code.",
+        "Participate in code reviews and improve code quality.",
+        "Collaborate with cross-functional teams.",
+        "Debug and troubleshoot issues.",
+        "Assist in writing unit, integration, and end-to-end tests.",
+        "Document technical designs and processes.",
+        "Learn and apply best practices in software engineering.",
+        "Currently pursuing a Bachelor's or Master's degree in Computer Science or related field.",
+        "Strong understanding of computer science fundamentals.",
+        "Experience with at least one programming language.",
+        "Familiarity with web technologies, APIs, or database systems.",
+        "Understand version control systems like Git.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork skills.",
+        "Eager to learn, take initiative, and contribute."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Linux Automation Intern",
     "link": "https://careers-gdms.icims.com/jobs/71534/job?mobile=true&needsRedirect=false",
