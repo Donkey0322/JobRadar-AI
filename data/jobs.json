@@ -1,5 +1,345 @@
 [
   {
+    "company": "Nasuni",
+    "role": "Software Development Intern - Data Infrastructure C++ Python Go",
+    "link": "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5134719008",
+    "location": "Marlborough, MA",
+    "season": "2026 Summer",
+    "id": 3804,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in Computer Science or related field.",
+        "Proficient in at least one of C++, Python, or Go.",
+        "Understand core computer science concepts, including algorithms and data structures.",
+        "Experienced with Unix-based command line environments like Linux or macOS.",
+        "Ability to collaborate effectively and communicate technical ideas clearly.",
+        "Experience building software systems, APIs, or backend services.",
+        "Strong proficiency in C++ or Go.",
+        "Familiar with Git-based development workflows.",
+        "Exposure to AI-assisted coding tools and validate generated code.",
+        "Experienced with unit testing frameworks or automated testing concepts.",
+        "Academic or personal project experience involving distributed systems, storage platforms, cloud services, or networking protocols.",
+        "Prior internship or development experience in cloud, infrastructure, or storage technology.",
+        "Entering junior or senior year of undergraduate study.",
+        "Graduate student in computer science or related fields."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Uconn Digital Technology Center Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Site/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2026_2503437-2",
+    "location": "Stamford, CT",
+    "season": "2026 Summer",
+    "id": 3803,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Passionate about creating software",
+        "Have common sense in design",
+        "Possess a technical and analytical mindset",
+        "Ready to be disruptive in physical and digital commerce",
+        "Value results",
+        "Influence and collaborate effectively",
+        "Participate in Agile scrums",
+        "Participate in Agile sprints",
+        "Available to attend Agile team meetings",
+        "Possess High School Diploma/GED",
+        "Maintain a 3.0+ GPA",
+        "Have US work authorization",
+        "Able to work on Stamford campus",
+        "Possess relevant technical/development experience",
+        "Strong communication skills",
+        "Desire to work in a fast-paced environment",
+        "Strong attention to detail",
+        "Strong oral and written communication skills",
+        "Strong analytical and problem-solving skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Technology Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Other-Remote-NY/Technology-Intern---Summer-2026_2503436",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3802,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Excellent oral and written communication skills",
+        "Demonstrate critical thinking, judgment, and initiative",
+        "Be a self-motivator with attention to detail",
+        "Proficient with Microsoft Office Products",
+        "Possess proven analytical skills",
+        "Naturally curious and able to learn quickly",
+        "Demonstrate excellent planning and organizational skills",
+        "Engaging personality to work independently and in a team",
+        "Familiar with Agile project management methods",
+        "Registered as a full-time student at Syracuse University",
+        "Maintain a minimum cumulative GPA of 3.0",
+        "Commit 10-20 hours/week during semester or 40 hours/week in summer",
+        "Be 18 years or older",
+        "Possess a high school diploma or equivalent",
+        "Willing to undergo drug test, background investigation, and fingerprinting",
+        "Satisfy Section 19 of Federal Deposit Insurance Act",
+        "Possess legal authorization to work in the U.S."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Technology Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Other-Remote-NY/Technology-Intern_2502625",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3801,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess excellent oral and written communication skills",
+        "Exhibit critical thinking, excellent judgment, and initiative",
+        "Be a self-motivator with great attention to detail",
+        "Proficient with Microsoft Office Products",
+        "Demonstrate proven analytical skills",
+        "Be naturally curious and able to learn quickly",
+        "Possess excellent planning and organizational skills",
+        "Exhibit an engaging personality; able to work independently and in a team",
+        "Familiar with Agile project management methods and practices",
+        "Registered as a full-time student at Syracuse University",
+        "Maintain a cumulative minimum GPA of 3.0",
+        "Be 18 years or older",
+        "Possess a high school diploma or equivalent"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Emerging Technology Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/University-of-Illinois-Site/Emerging-Technology-Intern_2403988-1",
+    "location": "Urbana, IL",
+    "season": "2026 Summer",
+    "id": 3800,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Excellent oral and written communication skills",
+        "Possess critical thinking with excellent judgment and initiative",
+        "Be a self-motivator with great attention to detail",
+        "Proficient with Microsoft Office Products",
+        "Possess proven analytical skills",
+        "Be naturally curious and able to learn quickly",
+        "Demonstrate excellent planning and organizational skills",
+        "Possess an engaging personality and ability to work independently and in a team",
+        "Familiar with Agile project management methods and practices",
+        "Be a registered full-time student at the University of Illinois",
+        "Able to commute to the work location",
+        "Maintain a cumulative minimum GPA of 3.0",
+        "Commit 10-20 hours per week during academic semester or 40 hours per week during summer break",
+        "Be 18 years or older",
+        "Possess a high school diploma or equivalent",
+        "Willing to take a drug test, background investigation, and submit fingerprints",
+        "Satisfy the requirements of Section 19 of the Federal Deposit Insurance Act"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Technology Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Other-Remote-NY/Technology-Intern_2404484-1",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3799,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Exhibit excellent oral and written communication skills.",
+        "Demonstrate critical thinking, excellent judgment, and initiative.",
+        "Be a self-motivator with great attention to detail.",
+        "Proficient in Microsoft Office Products.",
+        "Possess proven analytical skills.",
+        "Be naturally curious with ability to learn quickly.",
+        "Demonstrate excellent planning and organizational skills.",
+        "Possess an engaging personality; work independently and in a team.",
+        "Familiar with Agile project management methods and practices.",
+        "Be a registered full-time student at Syracuse University.",
+        "Maintain a cumulative minimum GPA of 3.0.",
+        "Be 18 years or older.",
+        "Possess a high school diploma or equivalent.",
+        "Satisfy requirements of Section 19 of the Federal Deposit Insurance Act."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Software Engineer Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Canton-Remote-OH/Software-Engineer-Intern---Summer-2026_2503435-2",
+    "location": "Canton, OHOhioCincinnati, OH",
+    "season": "2026 Summer",
+    "id": 3798,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor’s degree in Computer Science",
+        "Strong Computer Science fundamentals in OOAD, design patterns, data structures, algorithms",
+        "Good understanding of Spring, JEE, REST API, UI technologies and frameworks",
+        "Aware of JavaScript front-end frameworks like Angular and React",
+        "Aware of microservice architectural patterns and design",
+        "Exposed to agile methodologies",
+        "Strong desire to learn",
+        "Demonstrate critical thinking and creativity",
+        "Possess good problem-solving skills (data, software, technical)",
+        "Possess good research, writing, and communication skills",
+        "Ability to work well in a team environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Synchrony Financial",
+    "role": "Software Engineer Intern",
+    "link": "https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Canton-Remote-OH/Software-Engineer-Intern_2401218",
+    "location": "Canton, OHOhioCincinnati, OH",
+    "season": "2026 Summer",
+    "id": 3797,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing Bachelor’s level degree in Computer Science",
+        "Strong Computer Science fundamentals in OOAD, design patterns, data structures, and algorithms",
+        "Good understanding of Spring, JEE technologies, REST API and UI technologies and frameworks",
+        "Awareness of JavaScript front-end frameworks like Angular and React",
+        "Awareness of microservice architectural patterns and design",
+        "Exposure to agile methodologies",
+        "Strong desire to learn",
+        "Critical thinking and creativity",
+        "Good problem-solving skills from a data, software, and technical standpoint",
+        "Good research, writing and communication skills",
+        "Able to work well in a team environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/71415/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 3796,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or related scientific discipline.",
+        "Standing of a sophomore or higher preferred.",
+        "Currently pursuing a BS or MS in Computer Science, Software Engineering, or related field.",
+        "Proficient in one or more programming languages (e.g., Java, C++, Python).",
+        "Strong analytical and problem-solving skills.",
+        "Good communication and teamwork skills.",
+        "Experienced with software development methodologies (Agile/Scrum).",
+        "Familiar with version control systems (e.g., Git)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "W.R. Berkley",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-berkley.icims.com/jobs/13671/job?mobile=true&needsRedirect=false",
+    "location": "Overland Park, KS",
+    "season": "2026 Summer",
+    "id": 3795,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in Bachelor's or Master's in Computer Science or related field",
+        "Familiar with object-oriented programming concepts",
+        "Understand basic database concepts",
+        "Strong problem-solving skills and attention to detail",
+        "Understand JavaScript/TypeScript with frontend frameworks",
+        "Familiar with backend development using C#/.NET",
+        "Familiar with unit testing",
+        "Strong communication skills",
+        "Eager to learn and work in a fast-paced environment",
+        "Experience with Angular, C#/.NET, and SQL (plus)",
+        "Experienced with APIs"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Snyk",
+    "role": "Software Engineer Intern",
+    "link": "https://snyk.wd103.myworkdayjobs.com/External/job/United-States---Boston-Office/Software-Engineer-Intern_JR100489",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3794,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Eager to learn new technologies and adaptable to change.",
+        "Familiar with programming languages like TypeScript or Go.",
+        "Understand foundational relational database design (e.g., PostgreSQL).",
+        "Possess a proactive attitude, accountability, and ability to work independently.",
+        "Passionate about problem-solving and understanding code's rationale."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tencent",
+    "role": "Engine Developer Intern - Gaming",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Engine-Developer-Intern--Gaming_R107109-1",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3793,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Possess relevant majors such as Computer Science, Computer Graphics, Digital Media, or Game Development.",
+        "Strong proficiency in C++ and Computer Graphics.",
+        "Experience building modular and scalable systems designed for other developers.",
+        "Deep understanding of Game Engine internals, including multithreading, memory management, and client-server architecture.",
+        "Solid English communication skills, both written and verbal.",
+        "Ability to collaborate effectively with cross-functional, international teams.",
+        "Submit additional materials like GitHub, portfolio, personal projects, or game jam projects."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Micron Technology",
     "role": "Intern Software Engineer",
     "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Software-Engineering-Intern_JR94282",
