@@ -1,5 +1,34 @@
 [
   {
+    "company": "Baxter International",
+    "role": "Software Engineer Intern",
+    "link": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Raleigh-North-Carolina/Software-Engineer-Intern---Summer-2026_JR-196243-1",
+    "location": "Raleigh, NC",
+    "season": "2026 Summer",
+    "id": 3826,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Collaborate with software development team",
+        "Develop and maintain unit and integration test suites",
+        "Participate in design and code reviews",
+        "Participate in team meetings, stand-ups, and retrospectives",
+        "Rising Junior or Senior pursuing a Bachelor’s Degree in Computer Science or related degree",
+        "Knowledge of object-oriented programming, software engineering design patterns and best practices",
+        "Experience developing solutions using C#/.Net and Angular/React",
+        "Experience with unit testing frameworks (e.g., NUnit, MSTest)",
+        "Familiarity with DevOps practices including CI/CD pipelines",
+        "Strong verbal and written communication skills",
+        "Demonstrated leadership qualities and problem-solving skills",
+        "Positive attitude, team-oriented, adaptive to change, and collaborative",
+        "Actively involved in campus or community activities and organizations"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "UserTesting",
     "role": "Software Engineer",
     "link": "https://usertesting.wd12.myworkdayjobs.com/UserTesting/job/Edinburgh/Software-Engineer-Intern_R-101153-1",

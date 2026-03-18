@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "NC0308 - Raleigh, NC"
+}
+},
+"hiringOrganization" : {
+"name" : "00001 HILL-ROM COMPANY, INC. USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "JR - 196243"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern - Summer 2026",
+"description" : "This is where your work makes a difference. At Baxter, we believe every person—regardless of who they are or where they are from—deserves a chance to live a healthy life. It was our founding belief in 1931 and continues to be our guiding principle. We are redefining healthcare delivery to make a greater impact today, tomorrow, and beyond. Our Baxter colleagues are united by our Mission to Save and Sustain Lives. Together, our community is driven by a culture of courage, trust, and collaboration. Every individual is empowered to take ownership and make a meaningful impact. We strive for efficient and effective operations, and we hold each other accountable for delivering exceptional results. Here, you will find more than just a job—you will find purpose and pride. Your Role at Baxter Baxter offers a robust summer internship program based in the Raleigh area that provides meaningful work assignments and projects that immerse students in Baxter’s culture designed to provide practical work experience highlighting what an individual would do in a similar full-time role with the ability to make a business impact. You'll be paired with a mentor, receive support from your manager, and have access to the entire Baxter employee community to ensure your success. As a Software Intern, you will work closely with our software development team and will play a critical role in supporting the development, deployment, and maintenance of our software solutions at Baxter. What you'll be doing Collaborate with the Software Development team to design, implement, and test software applications. Develop and maintain unit and integration test suites. Participate in design and code reviews. Participate in regular team meetings, stand-ups, and retrospectives to ensure open communication and continuous improvement. What you'll bring Baxter is targeting students with proven academic performance and leadership potential. Ideal candidates will combine technical and business knowledge with analytical strength and creative problem-solving abilities. Rising Junior or Senior pursuing a Bachelor’s Degree in Computer Science or related degree. Knowledge of object-oriented programming, software engineering design patterns and best practices. Experience developing solutions using C#/.Net and Angular/React. Experience with unit testing frameworks (e.g. NUnit, MSTest, or similar). Familiarity with DevOps practices including CI/CD pipelines. Strong verbal and written communication skills. Demonstrated leadership qualities and problem-solving skills. Positive attitude, team-oriented, adaptive to change, and collaborative. Actively involved in campus or community activities and organizations, preferably in leadership roles. Baxter is committed to supporting the needs for flexibility in the workplace. We do so through our flexible workplace policy which includes a required minimum number of days a week onsite. This policy provides the benefits of connecting and collaborating in-person in support of our Mission. The flexible workplace policy is subject to local laws and legal requirements. At its discretion, Baxter may decide to adjust, suspend, or discontinue as business needs change. We understand compensation is an important factor as you consider the next step in your career. At Baxter, we are committed to equitable pay for all our employees, and we strive to be more transparent with our pay practices. To that end, this position has a pay rate of $26.00 an hour. US Benefits at Baxter (except for Puerto Rico) This is where your well-being matters. Baxter offers comprehensive compensation and benefits packages for eligible roles. Our health and well-being benefits include medical and dental coverage that start on day one, as well as insurance coverage for basic life, accident, short-term and long-term disability, and business travel accident insurance. Financial and retirement benefits include the Employee Stock Purchase Plan (ESPP), with the ability to purchase company stock at a discount, and the 401(k) Retirement Savings Plan (RSP), with options for employee contributions and company matching. We also offer Flexible Spending Accounts, educational assistance programs, and time-off benefits such as paid holidays, paid time off ranging from 20 to 35 days based on length of service, family and medical leaves of absence, and paid parental leave. Additional benefits include commuting benefits, the Employee Discount Program, the Employee Assistance Program (EAP), and childcare benefits. Join us and enjoy the competitive compensation and benefits we offer to our employees. For additional information regarding Baxter US Benefits, please speak with your recruiter or visit our Benefits site: Benefits | Baxter Equal Employment Opportunity Baxter is an equal opportunity employer. Baxter evaluates qualified applicants without regard to race, color, religion, gender, national origin, age, sexual orientation, gender identity or expression, protected veteran status, disability/handicap status or any other legally protected characteristic. Know Your Rights: Workplace Discrimination is Illegal Reasonable Accommodations Baxter is committed to working with and providing reasonable accommodations to individuals with disabilities globally. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application or interview process, please click on the link here and let us know the nature of your request along with your contact information. Recruitment Fraud Notice Baxter has discovered incidents of employment scams, where fraudulent parties pose as Baxter employees, recruiters, or other agents, and engage with online job seekers in an attempt to steal personal and/or financial information. To learn how you can protect yourself, review our Recruitment Fraud Notice. No matter your role at Baxter, your talent, skills, and time has a direct impact on people's lives. Since 1931, we have been at the forefront of innovation by bringing smarter, more personalized care to patients around the world. Now, we're more determined than ever to make a lasting impact as we are redefining healthcare delivery across the care journey. Our Mission to Save and Sustain Lives motivates us as we create a culture in which each of us can succeed. This is where you belong.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "NC0308 - Raleigh, NC"
+}
+},
+"hiringOrganization" : {
+"name" : "00001 HILL-ROM COMPANY, INC. USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern - Summer 2026",
+"@type" : "PropertyValue",
+"value" : "JR - 196243"
+},
+"datePosted" : "2026-03-17",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern - Summer 2026",
+"description" : "This is where your work makes a difference. At Baxter, we believe every person—regardless of who they are or where they are from—deserves a chance to live a healthy life. It was our founding belief in 1931 and continues to be our guiding principle. We are redefining healthcare delivery to make a greater impact today, tomorrow, and beyond. Our Baxter colleagues are united by our Mission to Save and Sustain Lives. Together, our community is driven by a culture of courage, trust, and collaboration. Every individual is empowered to take ownership and make a meaningful impact. We strive for efficient and effective operations, and we hold each other accountable for delivering exceptional results. Here, you will find more than just a job—you will find purpose and pride. Your Role at Baxter Baxter offers a robust summer internship program based in the Raleigh area that provides meaningful work assignments and projects that immerse students in Baxter’s culture designed to provide practical work experience highlighting what an individual would do in a similar full-time role with the ability to make a business impact. You'll be paired with a mentor, receive support from your manager, and have access to the entire Baxter employee community to ensure your success. As a Software Intern, you will work closely with our software development team and will play a critical role in supporting the development, deployment, and maintenance of our software solutions at Baxter. What you'll be doing Collaborate with the Software Development team to design, implement, and test software applications. Develop and maintain unit and integration test suites. Participate in design and code reviews. Participate in regular team meetings, stand-ups, and retrospectives to ensure open communication and continuous improvement. What you'll bring Baxter is targeting students with proven academic performance and leadership potential. Ideal candidates will combine technical and business knowledge with analytical strength and creative problem-solving abilities. Rising Junior or Senior pursuing a Bachelor’s Degree in Computer Science or related degree. Knowledge of object-oriented programming, software engineering design patterns and best practices. Experience developing solutions using C#/.Net and Angular/React. Experience with unit testing frameworks (e.g. NUnit, MSTest, or similar). Familiarity with DevOps practices including CI/CD pipelines. Strong verbal and written communication skills. Demonstrated leadership qualities and problem-solving skills. Positive attitude, team-oriented, adaptive to change, and collaborative. Actively involved in campus or community activities and organizations, preferably in leadership roles. Baxter is committed to supporting the needs for flexibility in the workplace. We do so through our flexible workplace policy which includes a required minimum number of days a week onsite. This policy provides the benefits of connecting and collaborating in-person in support of our Mission. The flexible workplace policy is subject to local laws and legal requirements. At its discretion, Baxter may decide to adjust, suspend, or discontinue as business needs change. We understand compensation is an important factor as you consider the next step in your career. At Baxter, we are committed to equitable pay for all our employees, and we strive to be more transparent with our pay practices. To that end, this position has a pay rate of $26.00 an hour. US Benefits at Baxter (except for Puerto Rico) This is where your well-being matters. Baxter offers comprehensive compensation and benefits packages for eligible roles. Our health and well-being benefits include medical and dental coverage that start on day one, as well as insurance coverage for basic life, accident, short-term and long-term disability, and business travel accident insurance. Financial and retirement benefits include the Employee Stock Purchase Plan (ESPP), with the ability to purchase company stock at a discount, and the 401(k) Retirement Savings Plan (RSP), with options for employee contributions and company matching. We also offer Flexible Spending Accounts, educational assistance programs, and time-off benefits such as paid holidays, paid time off ranging from 20 to 35 days based on length of service, family and medical leaves of absence, and paid parental leave. Additional benefits include commuting benefits, the Employee Discount Program, the Employee Assistance Program (EAP), and childcare benefits. Join us and enjoy the competitive compensation and benefits we offer to our employees. For additional information regarding Baxter US Benefits, please speak with your recruiter or visit our Benefits site: Benefits | Baxter Equal Employment Opportunity Baxter is an equal opportunity employer. Baxter evaluates qualified applicants without regard to race, color, religion, gender, national origin, age, sexual orientation, gender identity or expression, protected veteran status, disability/handicap status or any other legally protected characteristic. Know Your Rights: Workplace Discrimination is Illegal Reasonable Accommodations Baxter is committed to working with and providing reasonable accommodations to individuals with disabilities globally. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application or interview process, please click on the link here and let us know the nature of your request along with your contact information. Recruitment Fraud Notice Baxter has discovered incidents of employment scams, where fraudulent parties pose as Baxter employees, recruiters, or other agents, and engage with online job seekers in an attempt to steal personal and/or financial information. To learn how you can protect yourself, review our Recruitment Fraud Notice. No matter your role at Baxter, your talent, skills, and time has a direct impact on people's lives. Since 1931, we have been at the forefront of innovation by bringing smarter, more personalized care to patients around the world. Now, we're more determined than ever to make a lasting impact as we are redefining healthcare delivery across the care journey. Our Mission to Save and Sustain Lives motivates us as we create a culture in which each of us can succeed. This is where you belong.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "baxter",
+siteId: "baxter",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","fr-FR","it-IT","pt-BR","ja-JP","zh-CN"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=baxter&s=baxter",
+token: "97467d88-9aec-4787-8d83-e812e324f76f",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#00857D","textColor":"#003399"},"progressBar":{"color":"#00857D"},"button":{"primary":{"color":"#003399","borderColor":"#003399","textColor":"#FFFFFF","hover":{"color":"#7F99CC","borderColor":"#7F99CC","textColor":"#000000"}},"secondary":{"color":"#54585A","borderColor":"#54585A","textColor":"#FFFFFF","hover":{"color":"#A9ABAC","borderColor":"#A9ABAC","textColor":"#000000"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"0294e5c1694510017a7446e98b920000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#00857D","textColor":"#000000","image":{"id":"db35c96e6b751000c5a623a6487b0001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
