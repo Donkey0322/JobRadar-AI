@@ -1,5 +1,126 @@
 [
   {
+    "company": "Generac",
+    "role": "Software Engineer – Co-op",
+    "link": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Toronto-Canada/Software-Engineer--Co-op_JR11651",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 3856,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Be a current Computer Science, Software, Computer, or Electrical Engineering student.",
+        "Proficient in writing software using Golang, Java, C#, Node/Javascript with Typescript, or Python.",
+        "Able to run code on Linux-based systems.",
+        "Experienced with cloud technologies like AWS, Google Cloud (GCP), Azure, or Heroku.",
+        "Familiar with production code deployment and orchestration.",
+        "Care about software stability for excellent customer experience.",
+        "Possess interest or experience in working with databases.",
+        "Eager to improve software craft.",
+        "Be curious, thoughtful, and practical.",
+        "Desire to make a difference in an intellectual and planet-positive environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "Cloud Developer Intern",
+    "link": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Phoenix-Arizona-United-States-Of-America/Cloud-Developer-Intern_JR-022063",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3855,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science or Engineering",
+        "Achieve a cumulative GPA of 3.0 or higher",
+        "Possess PC skills including Microsoft Outlook, Word, Excel, and PowerPoint",
+        "Demonstrate leadership experience through work and school activities",
+        "Have interest or background in technology (highly preferred)",
+        "Exhibit excellent communication, collaboration, and team building skills",
+        "Be self-driven and independent, capable of working with clear direction",
+        "Be willing to try new things",
+        "Currently enrolled in an accredited Undergraduate degree program",
+        "Completed coursework in fields of study (typically finishing Junior year by May 2026)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Vertex Intern",
+    "link": "https://vrtx.wd501.myworkdayjobs.com/vertex_intern/job/San-Diego-CA/Vertex-Summer-Intern-2026--Discovery-Core-Applied-Technology-Group_REQ-27697-2",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 3854,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Design and implement instrument drivers.",
+        "Enhance and troubleshoot existing web applications.",
+        "Develop new applications tailored to end-user needs.",
+        "Evaluate and introduce emerging technologies.",
+        "Possess a software-engineering background.",
+        "Proficient in SQL, C#, JavaScript, HTML, CSS.",
+        "Ability to interface and maintain effective relationships with the team.",
+        "Strong written and verbal communication skills.",
+        "Available for 10-12 weeks during Summer 2026 (May - August).",
+        "Commit to on-site work in San Diego, CA.",
+        "Enrolled in an advanced degree program if graduating before August 2026.",
+        "Preferred UX/UI design skills.",
+        "Preferred Python experience.",
+        "Preferred knowledge of configuration management tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CIBC",
+    "role": "Software Engineer – Apprentice",
+    "link": "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer--Apprentice_2605716",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3853,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop code and test computer programs.",
+        "Review, evaluate, and modify programming systems.",
+        "Participate in technical design, development, and integration of application systems.",
+        "Interact with stakeholders to gather requirements and prepare design specifications.",
+        "Experience with ASP.Net, C#, JavaScript, Jquery, HTML, CSS, SQL Server.",
+        "Strong knowledge of Object Oriented Design, JSON, and RESTFul web services.",
+        "Write Unit Test and UI Automation Tests.",
+        "Know the App Store Publication Process.",
+        "Published own Android or iOS app.",
+        "Experience with Jenkins, Fast Lane, Jira, Confluence, or other build & deploy tools.",
+        "Participate in code reviews and debugging sessions.",
+        "Collaborate with senior developers, project managers, and stakeholders.",
+        "Assist in creating and maintaining technical documentation.",
+        "Continuously improve skills and knowledge of Java and related technologies.",
+        "Basic understanding of C#, Python, JavaScript programming, Jquery, HTML, CSS.",
+        "Familiarity with object-oriented programming concepts.",
+        "Knowledge of SQL and relational databases.",
+        "Understand version control systems such as Git.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork abilities.",
+        "Eagerness to learn and adapt to new technologies and methodologies.",
+        "Experience with Java frameworks such as Spring.",
+        "Familiarity with front-end technologies like HTML, CSS, and JavaScript."
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
     "company": "Primetals Technologies",
     "role": "Engineering Integration Associate Intern",
     "link": "https://mhicareers.com/job/Lake-Mary-Engineering-Integration-Associate-Internship-FL-32746/1375175033/?ats=successfactors",
