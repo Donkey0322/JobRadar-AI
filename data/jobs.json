@@ -1,5 +1,157 @@
 [
   {
+    "company": "Primetals Technologies",
+    "role": "Engineering Integration Associate Intern",
+    "link": "https://mhicareers.com/job/Lake-Mary-Engineering-Integration-Associate-Internship-FL-32746/1375175033/?ats=successfactors",
+    "location": "Lake Mary, FL",
+    "season": "2026 Summer",
+    "id": 3852,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an active student pursuing a Bachelor’s degree in Engineering.",
+        "Understand Requirements Management, Configuration Control, and the V-Model of systems development.",
+        "Possess moderate knowledge in MS Office applications.",
+        "Have a basic understanding of PLM and/or Project Management tools."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Sierra Space",
+    "role": "AI Software Engineer Intern",
+    "link": "https://sierraspace.wd1.myworkdayjobs.com/en-US/Sierra_Space_External_Career_Site/job/Louisville-CO/Summer-2026-AI-Software-Engineer-Intern_R25433",
+    "location": "Lafayette, CO",
+    "season": "2026 Summer",
+    "id": 3851,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an undergraduate degree program",
+        "Expected graduation between December 2026 and June 2027",
+        "Passionate about solving problems using data and technology",
+        "Excellent written and verbal communication",
+        "Able to work in a highly collaborative team environment",
+        "Strong organizational skills, detail-oriented, and self-motivated",
+        "Ability to obtain and maintain a U.S. Security Clearance",
+        "Majoring in Software Engineering",
+        "Majoring in Computer Science"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tokyo Electron",
+    "role": "Software Engineer Intern",
+    "link": "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Software-Engineer-Intern--Summer-2026-_R25-01193",
+    "location": "Chaska, MN",
+    "season": "2026 Summer",
+    "id": 3850,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate accuracy and precision",
+        "Possess excellent communication and problem-solving skills",
+        "Work independently and collaboratively",
+        "Learn and explain software",
+        "Familiar with Java, HTML, JavaScript, CSS, and SQL",
+        "Pursue a Bachelor's or advanced degree in Data Science, Mathematics, Statistics, Economics, or Computer Science"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Generac",
+    "role": "Software Engineer – Co-op",
+    "link": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Toronto-Canada/Software-Engineer--Co-op_JR13063",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3849,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Be a current Computer Science, Software, Computer, or Electrical Engineering student.",
+        "Proficient in writing software using Golang, Java, C#, Node/Javascript with Typescript, or Python.",
+        "Able to run code effectively on Linux-based systems.",
+        "Possess cloud experience with AWS, Google Cloud (GCP), Azure, or Heroku.",
+        "Familiar with the entire code deployment process, from review to orchestration.",
+        "Care about software stability to ensure excellent customer experience 24/7.",
+        "Have an interest or experience in working with databases.",
+        "Eager to improve your software development craft.",
+        "Be curious, thoughtful, and practical.",
+        "Desire to make a positive impact in a stimulating environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Avnet",
+    "role": "Cloud Developer Intern",
+    "link": "https://avnet.wd1.myworkdayjobs.com/external/job/Phoenix-Arizona-United-States-Of-America/Cloud-Developer-Intern_JR-022063",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 3848,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Major in Computer Science or Engineering.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Proficient in Microsoft Outlook, Word, Excel, and PowerPoint.",
+        "Demonstrate leadership experience.",
+        "Possess interest or background in technology.",
+        "Exhibit excellent communication, collaboration, and team-building skills.",
+        "Be self-driven and independent.",
+        "Be willing to try new things.",
+        "Be currently enrolled in an accredited Undergraduate degree program.",
+        "Have completed coursework in your field of study.",
+        "Preferably be finishing Junior year by May 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Otsuka Pharmaceutical",
+    "role": "GenAI Engineer Intern",
+    "link": "https://vhr-otsuka.wd1.myworkdayjobs.com/External/job/Princeton-NJ/Intern-the-Otsuka-Way-2026---GenAI-Engineer-Intern_R11118",
+    "location": "Princeton, NJ",
+    "season": "2026 Summer",
+    "id": 3847,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Data Science, or related technical field.",
+        "Graduating in the next 12-18 months.",
+        "Proficient in Python.",
+        "Familiar with APIs and Git.",
+        "Interested in GenAI testing techniques, tool-calling workflows, or Agentic AI design patterns.",
+        "Curious about LLMs and hands-on experimentation with advanced AI tools.",
+        "Familiar with LLM prompting, prompt engineering, or instruction following models.",
+        "Familiar with Agent frameworks such as LangChain, LangGraph, or MCP.",
+        "Familiar with Vector stores/RAG architectures (e.g., Pinecone, Chroma, FAISS).",
+        "Familiar with Cloud environments such as Azure or AWS.",
+        "Familiar with observability, logging, or evaluation frameworks for GenAI.",
+        "Strong technical writing skills.",
+        "Demonstrate perseverance, unconventional thinking, and humility.",
+        "Able to work in a team environment.",
+        "Able to think creatively to solve complex problems.",
+        "Eager to learn and learn quickly."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Microsoft",
     "role": "Software Engineer: Intern Opportunities for University Students",
     "link": "https://apply.careers.microsoft.com/careers/job/1970393556834019",
