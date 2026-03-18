@@ -1,5 +1,39 @@
 [
   {
+    "company": "SoFi",
+    "role": "Intern Software Engineer - Asset Movement Gateway",
+    "link": "https://www.sofi.com/careers/sofi-university/7595648003?gh_jid=7595648003",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3827,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Write, test, and deploy efficient, scalable code.",
+        "Design, develop, code, and test software systems.",
+        "Work with Java/Kotlin/Flutter/Spring Boot/AWS/PostgreSQL/React/C#.",
+        "Contribute to standard methodologies, architecture, and implementation.",
+        "Translate user stories into technical solutions.",
+        "Participate in design and code reviews.",
+        "Work alongside software architects and senior developers.",
+        "Learn new technologies, tools, and processes.",
+        "Present summer projects to senior leadership.",
+        "Enrolled in an accredited US-based university.",
+        "Returning to school for at least one quarter/semester after internship.",
+        "No more than 12 months of professional full-time work experience.",
+        "Willing to relocate to San Francisco Bay Area.",
+        "Experience building software in a non-academic setting.",
+        "Solid understanding of computer science fundamentals.",
+        "Knowledge of algorithms, data structures, and systems architecture.",
+        "Ability to learn new languages and technologies quickly.",
+        "Intellectual curiosity and affinity for solving problems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Baxter International",
     "role": "Software Engineer Intern",
     "link": "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Raleigh-North-Carolina/Software-Engineer-Intern---Summer-2026_JR-196243-1",
