@@ -1,5 +1,243 @@
 [
   {
+    "company": "Affirm",
+    "role": "Software Engineering Apprentice - Backend",
+    "link": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3837,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Work with a team of engineers to build, maintain, and scale infrastructure",
+        "Ship code and monitor deployment of work",
+        "Work on tasks that contribute to team projects and goals",
+        "Work collaboratively and proactively with team and stakeholders",
+        "Strike the right balance of speed and quality in work",
+        "Contribute to a sense of community on your team",
+        "Must be located within the United States",
+        "Ages 18+",
+        "Achieve technical proficiency via coding school, online certification, community college, or self-taught equivalent",
+        "Previously worked on large scale coding projects",
+        "Excited to learn and thrive in a fast pace environment",
+        "Ability to work both independently and collaboratively",
+        "Have sound judgement for working among ambiguity",
+        "Be able to display empathy, humbleness, and kindness"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Creatify Lab",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 3836,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in React, Python, and frameworks like Django or Flask.",
+        "Familiar with Docker, SQL, and cloud services like AWS, GCP, or Azure.",
+        "Previous experience in video, ads, or AI is a significant plus.",
+        "Possess a fast-paced work style.",
+        "Excellent communication, teamwork, and problem-solving ability.",
+        "Be a genuinely nice person."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hiscox",
+    "role": "Technology Engineering Intern",
+    "link": "https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site/job/London/Technology-Engineering-Intern_R0018823",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3835,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Currently studying for an Undergraduate or Master’s degree (2:1 minimum predicted) in a technical discipline with coding exposure.",
+        "Fluent in business English.",
+        "Numerate.",
+        "Strong interpersonal skills.",
+        "Curious about business operations and technological impact.",
+        "Experience writing code or building models in one or more languages/platforms.",
+        "Eager to learn and explore new things.",
+        "Able to communicate effectively and partner with diverse stakeholders.",
+        "Possess an analytical mindset and a passion for problem-solving.",
+        "Resonate with core values: Courage, Ownership, Human, Connected, Integrity."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Hiscox",
+    "role": "Technology Intern",
+    "link": "https://hiscox.wd3.myworkdayjobs.com/Hiscox_External_Site/job/London/Technology-Intern_R0018822",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3834,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "UK",
+      "qualifications": [
+        "Currently studying for an Undergraduate or Master\n’s degree",
+        "Fluent in business English",
+        "Numerate",
+        "Strong interpersonal skills",
+        "Have permission to work in the UK",
+        "Curious about business and technology's role",
+        "Eager to learn and try new things",
+        "Able to communicate effectively with diverse colleagues",
+        "Possess an analytical mindset",
+        "Resonate with core values (Courage, Ownership, Human, Connected, Integrity)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "AI / Agentic AI / GenAI Intern - IT",
+    "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent_Intern/job/SAN-JOSE/AI---Agentic-AI---GenAI-Intern---IT--Summer--Fall-2026-in-San-Jose-_R53712",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3833,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current student pursuing a BS or MS in CS or equivalent",
+        "Possess strong Python, coding, and analytical skills",
+        "Have experience with data handling tools like Pandas, NumPy, or Excel",
+        "Have experience with Generative AI and Agentic AI",
+        "Demonstrate good communication and documentation skills",
+        "Understand ML/NLP basics",
+        "Be familiar with AI tools like Microsoft/GitHub Copilot, Google AI, and Anthropic AI stacks"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "AI Agentic AI GenAI Intern - Information Technology",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/AI---Agentic-AI---GenAI-Intern---IT--Summer--Fall-2026-in-San-Jose-_R53712-2",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3832,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current student enrolled in BS or MS with a major in CS or equivalent",
+        "Possess strong Python, coding, and analytical skills",
+        "Have experience with data handling (Pandas / NumPy / Excel)",
+        "Possess experience with Generative AI and Agentic AI",
+        "Exhibit good communication and documentation skills",
+        "Familiarity with ML/NLP basics",
+        "Familiarity with AI tools like Microsoft/GitHub Copilot, Google AI, and Anthropic AI stacks"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "AI / Agentic AI / GenAI Intern - IT",
+    "link": "https://cadence.wd1.myworkdayjobs.com/University_Talent/job/SAN-JOSE/AI---Agentic-AI---GenAI-Intern---IT--Summer--Fall-2026-in-San-Jose-_R53712-1",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3831,
+    "jd": null
+  },
+  {
+    "company": "Givelify",
+    "role": "Software Engineering Intern",
+    "link": "https://www.givelify.com/about-us/careers/job-openings/?gh_jid=8466071002",
+    "location": "Remote in USARemote in Canada",
+    "season": "2026 Summer",
+    "id": 3830,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Take ownership of specific coding tasks",
+        "Collaborate with and learn from experienced engineers",
+        "Participate in code reviews",
+        "Gain experience in an agile development environment",
+        "Partner with engineers in an agile cross-functional team",
+        "Prior software development internships or experience",
+        "High School diploma",
+        "Basic software development proficiency",
+        "Experience with presentations at conferences and research work",
+        "Organized, detail-oriented, and self-motivated",
+        "Strong interpersonal and communication skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Judi Health",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/capitalrx/jobs/5156440008",
+    "location": "NYCDenver, CO",
+    "season": "2026 Summer",
+    "id": 3829,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's Degree program",
+        "Entering junior or senior year in Fall 2026",
+        "Studying computer science, software engineering, or related field",
+        "Familiarity with Python, Flask, SQLAlchemy, React, and Typescript",
+        "Basic understanding of SQL",
+        "Exposure to cloud platforms like AWS",
+        "Interest in writing unit tests",
+        "Strong communication and collaboration skills",
+        "Demonstrates initiative and ownership",
+        "Passionate about improving healthcare through technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Generac",
+    "role": "Intern IT - Application Development, Manufacturing Software",
+    "link": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Waukesha-WI---USA/Intern-IT---Application-Development--Manufacturing-Software_JR12526",
+    "location": "Waukesha, WI",
+    "season": "2026 Summer",
+    "id": 3828,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's Degree Program.",
+        "Demonstrate technical aptitude and problem-solving ability.",
+        "Ability to follow oral and written instructions.",
+        "Possess effective verbal and written communication skills.",
+        "Ability to lift up to 25 pounds.",
+        "Possess basic network knowledge, including IP addresses.",
+        "Ability to drive to Waukesha, Whitewater, and Eagle, Wisconsin.",
+        "Pursuing a degree in electrical engineering, IT, computer science, or data science.",
+        "Experience taking apart or fixing internal combustion engines or electric motors.",
+        "Proficient in Microsoft Office Suite."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "SoFi",
     "role": "Intern Software Engineer - Asset Movement Gateway",
     "link": "https://www.sofi.com/careers/sofi-university/7595648003?gh_jid=7595648003",
