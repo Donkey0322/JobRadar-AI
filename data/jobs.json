@@ -1,5 +1,52 @@
 [
   {
+    "company": "Microsoft",
+    "role": "Software Engineer: Intern Opportunities for University Students",
+    "link": "https://apply.careers.microsoft.com/careers/job/1970393556834019",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 3846,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Apply engineering principles to solve complex problems",
+        "Work with stakeholders to determine user requirements",
+        "Learn new engineering methods quickly",
+        "Seek feedback and apply best practices",
+        "Demonstrate skill in time management",
+        "Complete software projects in a cooperative team",
+        "Review current developments to improve product performance",
+        "Drive consistency in monitoring and operations",
+        "Currently pursuing a Bachelor's or Master's degree in Computer Science, Engineering, or related field",
+        "Have at least one semester/term remaining following the completion of the internship",
+        "Possess one year of programming experience in an object-oriented language",
+        "Demonstrate an understanding of computer science fundamentals, including data structures and algorithms",
+        "Experience on game related projects through university course, past internship, or personal project"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Keysight Technologies",
+    "role": "Application Engineering Intern - EV Charging & Grid-Edge Technologies",
+    "link": "https://jobs.keysight.com/jobs/51756?lang=en-us&icims=1",
+    "location": "Neukirchen-Vluyn, GermanyStuttgart, Germany",
+    "season": "2026 Summer",
+    "id": 3845,
+    "jd": null
+  },
+  {
+    "company": "Emerson Electric",
+    "role": "AI Enablement Intern",
+    "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26003350",
+    "location": "Iowa",
+    "season": "2026 Summer",
+    "id": 3844,
+    "jd": null
+  },
+  {
     "company": "EverCommerce",
     "role": "Software Engineer Intern",
     "link": "https://evercommerce.wd1.myworkdayjobs.com/evercommerce_careers/job/Remote--US/EverHealth---Software-Engineer-Internship--Remote--US-_R-106034",
