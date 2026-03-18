@@ -1,5 +1,136 @@
 [
   {
+    "company": "EverCommerce",
+    "role": "Software Engineer Intern",
+    "link": "https://evercommerce.wd1.myworkdayjobs.com/evercommerce_careers/job/Remote--US/EverHealth---Software-Engineer-Internship--Remote--US-_R-106034",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3843,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing Bachelor’s degree as a rising junior or senior in Computer Science, Software Engineering, or related field from an accredited university.",
+        "Proficient in data structures and algorithms.",
+        "Knowledge of object-oriented programming.",
+        "Experience with Python, React, Node.js, and/or Django.",
+        "Experience building web applications or APIs.",
+        "Experience with Git or collaborative development workflows.",
+        "Interested in healthcare technology and SaaS platforms.",
+        "Exercise discretion and good judgment, maintaining confidentiality.",
+        "Possess a positive attitude.",
+        "Approaches projects with creativity, thinking outside the box.",
+        "Effective written and verbal communication skills.",
+        "Proactive, self-motivated, and collaborative in a fast-paced environment.",
+        "Willing to travel for intern kickoff and executive presentations.",
+        "Enthusiastic about technology and committed to professional development.",
+        "Willing to learn and collaborate."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Progyny",
+    "role": "Engineering Intern",
+    "link": "https://progyny.wd5.myworkdayjobs.com/en-US/progyny/job/New-York-New-York/Engineering-Intern_JR101017",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3842,
+    "jd": null
+  },
+  {
+    "company": "Thomson Reuters",
+    "role": "Software Engineer Intern",
+    "link": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/United-States-of-America-Eagan-Minnesota/Software-Engineer-Intern_JREQ199322",
+    "location": "Eagan, MN",
+    "season": "2026 Summer",
+    "id": 3841,
+    "jd": null
+  },
+  {
+    "company": "Arlo",
+    "role": "SW Engineer Intern, iOS (AI-Assisted Development)",
+    "link": "https://arlo.wd12.myworkdayjobs.com/en-US/external_careers/job/Milpitas-CA/SW-Engineer-Intern--iOS--AI-Assisted-Development-_JR100299",
+    "location": "Milpitas, CA",
+    "season": "2026 Summer",
+    "id": 3840,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Computer Science, Software Engineering, or related program.",
+        "Experience with Swift and/or Objective-C.",
+        "Understand iOS fundamentals (UIKit, networking, app lifecycle).",
+        "Possess strong debugging and problem-solving skills.",
+        "Exhibit strong communication skills and ability to collaborate.",
+        "Experience with Combine.",
+        "Familiar with REST APIs, JSON, and authentication flows.",
+        "Experience with unit testing or UI testing on iOS.",
+        "Have prior mobile projects, internships, or published apps.",
+        "Interest in developer productivity tooling, automation, or AI/agent-based workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Arlo",
+    "role": "SW Engineer Intern, Android (AI-Assisted Development)",
+    "link": "https://arlo.wd12.myworkdayjobs.com/en-US/external_careers/job/Milpitas-CA/SW-Engineer-Intern--Android--AI-Assisted-Development-_JR100300",
+    "location": "Milpitas, CA",
+    "season": "2026 Summer",
+    "id": 3839,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Computer Science or related program.",
+        "Experienced with Kotlin and/or Java.",
+        "Understand Android fundamentals.",
+        "Strong debugging and problem-solving skills.",
+        "Strong communication and collaboration skills.",
+        "Experienced with Jetpack Compose.",
+        "Familiar with REST APIs, JSON, and authentication flows.",
+        "Experienced with Android unit/UI testing.",
+        "Possess prior mobile projects, internships, or published apps.",
+        "Interested in developer productivity, automation, or AI workflows."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Year at Palantir, Intern",
+    "link": "https://jobs.lever.co/palantir/030ece08-c341-4959-bdfe-314e89b691ce",
+    "location": "New York, NY",
+    "id": 3838,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Collaborate with fellow engineers on architecture and design decisions.",
+        "Wrangle massive-scale data and use AI to accelerate and enhance critical operations.",
+        "Develop custom applications tailored to customer needs.",
+        "Engage directly with customer stakeholders, from technical teams to executives.",
+        "Shape team strategy and drive projects from ideation to deployment.",
+        "Be an exceptional student willing to do work that matters.",
+        "Familiarity with data structures, storage systems, cloud infrastructure, front-end frameworks, and other technical tools.",
+        "Required active U.S. security clearance or eligibility to obtain one for USG roles.",
+        "Desired active U.S. security clearance or eligibility to obtain one for all other roles.",
+        "Currently enrolled at a U.S. university as a sophomore or junior year.",
+        "Able to join for 1 year.",
+        "Pursue a degree in Engineering, preferably in Computer Science, Mathematics, Software Engineering, Physics, or Data Science.",
+        "Proficient with one or more programming languages, such as Python, Java, C++, TypeScript/JavaScript, or similar.",
+        "Hands-on experience applying AI."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Affirm",
     "role": "Software Engineering Apprentice - Backend",
     "link": "https://job-boards.greenhouse.io/affirm/jobs/7647925003",
