@@ -1,5 +1,69 @@
 [
   {
+    "company": "Cisive",
+    "role": "Intern/Co-op Software Developer",
+    "link": "https://cisive.wd108.myworkdayjobs.com/Cisive/job/Remote---Maryland/Intern--Software-Developer_JR100237",
+    "location": "Maryland",
+    "season": "2026 Summer",
+    "id": 3879,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess a high school diploma or equivalent.",
+        "Currently pursue or recently graduated with a Bachelor's or Master's degree.",
+        "Basic knowledge of Object-Oriented Programming (C#, Java, Python).",
+        "Familiarity with transactional databases (SQL Server, PostgreSQL).",
+        "Exposure to JavaScript frameworks like Angular or Vue.js.",
+        "Strong willingness to learn new technologies.",
+        "Possess a problem-solving mindset with attention to detail.",
+        "Effective communication and collaborative teamwork skills.",
+        "Collaborate to design, develop, and maintain databases, APIs, and UIs.",
+        "Assist in developing JavaScript single-page applications.",
+        "Support migration of legacy codebases to modern architectures.",
+        "Work with transactional databases for data integrity and performance.",
+        "Participate in code reviews, debugging, and team discussions.",
+        "Follow industry best practices for secure software development."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Agentic AI Engineering Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Agentic-AI-Engineering-Intern_R-00178430",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3878,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's degree in Computer Science, AI/ML, Engineering, or related quantitative field.",
+        "Proficient in Python and familiar with a major ML library/framework (e.g., TensorFlow, PyTorch).",
+        "Understand the machine learning lifecycle, including data prep, model training, evaluation, and deployment.",
+        "Demonstrated interest in agentic AI patterns, multi-agent systems, or LLM-based workflows.",
+        "Understand foundational cybersecurity principles for AI systems.",
+        "Familiar with version control systems like Git/GitHub.",
+        "Strong analytical, problem-solving, and communication skills.",
+        "Able to work collaboratively in a team environment.",
+        "Experienced with Retrieval-Augmented Generation (RAG) architectures or vector database technologies.",
+        "Exposed to MLOps platforms or workflows (e.g., MLflow, Kubeflow).",
+        "Familiar with containerization (Docker) and basic orchestration (Kubernetes).",
+        "Hands-on experience with a major cloud platform (AWS, Azure, or GCP).",
+        "Experienced with prompt engineering, LLM fine-tuning, or agent framework development.",
+        "Familiar with Model Context Protocol (MCP) or similar LLM tool standards.",
+        "Knowledgeable of AI ethics, responsible AI practices, or federal AI compliance standards.",
+        "Knowledgeable of AI security frameworks like MITRE ATLAS.",
+        "Contributed to open-source AI/ML projects or possess a public portfolio.",
+        "Prior internship or research experience in national security or defense."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Finra",
     "role": "Graduate Intern - Technology",
     "link": "https://finra.wd1.myworkdayjobs.com/FINRA/job/Rockville-MD-Job-Posting/Graduate-Internship--Technology_R-009805",
