@@ -1,5 +1,139 @@
 [
   {
+    "company": "Red Hat",
+    "role": "Software Engineering",
+    "link": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineering-Co-op_R-055872",
+    "location": "Raleigh, NC",
+    "season": "2026 Fall",
+    "id": 3888,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess working knowledge of written and spoken English",
+        "Demonstrate basic knowledge of and passion for Software Engineering",
+        "Willingness to use Python, Golang, or similar programming languages",
+        "Show passion, curiosity, and desire to create new things",
+        "Willingness to learn and proactively work as part of a wider team"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "T-Mobile",
+    "role": "Compensation Systems Intelligence Intern",
+    "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2026-Compensation-Systems-Intelligence-Intern_REQ348996",
+    "location": "Bellevue, WA",
+    "season": "2026 Summer",
+    "id": 3887,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s or Master’s program in Computer Science, Data Science, Engineering, AI, or a related field",
+        "Strong proficiency in Python and SQL",
+        "Experience building applied AI systems",
+        "Experience in data modeling and structured pipeline design",
+        "Experience integrating APIs and enterprise datasets",
+        "Familiarity with graph databases such as Neo4j",
+        "Interest in workforce analytics, labor economics, or compensation strategy",
+        "Ability to design scalable systems within enterprise constraints",
+        "Strong analytical and structured problem-solving skills",
+        "Ability to translate ambiguous business challenges into technical solutions",
+        "Clear communication skills",
+        "High ownership mindset with a strong builder mentality",
+        "Ability to adapt to shifting priorities",
+        "Professional collaboration with cross-functional stakeholders",
+        "Be at least 18 years of age"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ingram Micro",
+    "role": "Intern - Developer",
+    "link": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Williamsville-NY-United-States-of-America/Summer-Intern---Developer_R-114395",
+    "location": "Cheektowaga, NY",
+    "season": "2026 Summer",
+    "id": 3886,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled or recently graduated from an accredited college/university program.",
+        "Preferably juniors or seniors.",
+        "Possess basic knowledge of Python programming and scripting.",
+        "Familiarity with Microsoft Power Platform tools (Dataverse, Power Automate).",
+        "Have exposure to cloud platforms (preferably GCP) or interest in learning cloud technologies.",
+        "Exhibit strong problem-solving skills and attention to detail.",
+        "Able to work collaboratively in a team environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "F5",
+    "role": "Software Development Engineer – Intern - AI/ML",
+    "link": "https://ffive.wd5.myworkdayjobs.com/en-US/f5jobs/job/San-Jose/Software-Development-Engineer--AI-ML--Intern_RP1037004",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3885,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completing a bachelor’s or master’s degree in AI, Data Science, CS, Software Engineering, IT, or related fields.",
+        "Remaining at least one additional school quarter or semester.",
+        "Enrolled in an accredited college or university in the United States.",
+        "Demonstrated experience programming in an object-oriented language.",
+        "Foundational understanding of AI/ML concepts.",
+        "Demonstrated knowledge in computer science fundamentals.",
+        "Willing to relocate to San Jose, CA for the internship.",
+        "Experienced with Systems and Scripting (e.g., Linux, Shell scripting).",
+        "Experienced with Infrastructure and DevOps (e.g., CI/CD automation, Docker, Kubernetes).",
+        "Experienced building LLM-based applications through projects or coursework.",
+        "Experienced with Research and AI/ML Applications, including exploring existing approaches and proof-of-concepts."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Regions Bank",
+    "role": "ETP Intern/Co-op - Multiple Teams",
+    "link": "https://regions.wd5.myworkdayjobs.com/regions_careers/job/Hoover-AL---Riverchase-Operations-Center-Birmingham-AL/XMLNAME-2026-ETP-Intern---Technology--Operations--Digital--and-Data---Birmingham--AL_R99444",
+    "location": "Hoover, AL",
+    "season": "2026 Summer",
+    "id": 3884,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Interested in developing technical skills and gaining work experience.",
+        "Active in campus leadership or extracurricular activities.",
+        "Possess strong critical thinking skills.",
+        "Intellectually curious.",
+        "Proficient in Microsoft Office.",
+        "Possess strong communication and interpersonal skills.",
+        "Team-oriented with ability to work independently.",
+        "Pursuing an undergraduate or graduate degree in specific fields.",
+        "A rising senior-level college student or master student.",
+        "Maintain a minimum 3.0 GPA.",
+        "Experienced with visualization software.",
+        "Proficient in programming languages.",
+        "Proficient in Python, SQL, or SAS.",
+        "Experienced with Power BI or Tableau.",
+        "Able to quickly learn new technology.",
+        "Dedicated to excellence and achieving results."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics Information Technology",
     "role": "GDIT Intern Program – Software Development Intern",
     "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/GDIT-Summer-Internship-Program---Summer-2026-Software-Development-Internship--_RQ212061-1",
