@@ -1,5 +1,246 @@
 [
   {
+    "company": "Finra",
+    "role": "Graduate Intern - Technology",
+    "link": "https://finra.wd1.myworkdayjobs.com/FINRA/job/Rockville-MD-Job-Posting/Graduate-Internship--Technology_R-009805",
+    "location": "North Bethesda, MD",
+    "season": "2026 Summer",
+    "id": 3877,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a graduate program",
+        "Possess strong work ethic, positive attitude, and professional demeanor",
+        "Exhibit excellent oral and written communication skills",
+        "Demonstrate excellent interpersonal skills",
+        "Able to work with others to meet deadlines",
+        "Perform multiple tasks efficiently and accurately",
+        "Work with sensitive and confidential information"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "ALKU",
+    "role": "Full Stack Developer Intern",
+    "link": "https://boards.greenhouse.io/alku/jobs/7732688",
+    "location": "Andover, MA",
+    "season": "2026 Summer",
+    "id": 3876,
+    "jd": null
+  },
+  {
+    "company": "Fortinet",
+    "role": "Applied AI Engineer – Intern",
+    "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22412",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3875,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Calix",
+    "role": "Software Engineering Intern - Cloud Architecture",
+    "link": "https://calix.wd1.myworkdayjobs.com/External/job/Remote---North-America/Software-Engineering-Intern--Cloud-Architecture_R-11509",
+    "location": "La Ronge, SK, Canada",
+    "season": "2026 Summer",
+    "id": 3874,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Enrolled in a college degree program in Computer Science, Software Engineering, Electrical Engineering, or a related field.",
+        "Completed at least Junior year and have previous internship or work experience (preferred).",
+        "Possess strong programming skills in Python, Java, C++, or similar languages.",
+        "Familiar with cloud computing platforms (e.g., Google Cloud).",
+        "Understand basic artificial intelligence concepts.",
+        "Be detail-oriented.",
+        "Possess strong communication skills.",
+        "Able to work for the complete summer break (May - August or June - September)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "ByteDance",
+    "role": "Software Engineer Intern - Security-Data - BS/MS",
+    "link": "https://jobs.bytedance.com/en/position/7616874229010647349/detail",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3873,
+    "jd": null
+  },
+  {
+    "company": "ByteDance",
+    "role": "Security Software Engineer Project Intern - Network Security - BS/MS",
+    "link": "https://jobs.bytedance.com/en/position/7618396290598045957/detail",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3872,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree/master in Computer Science, Computer Engineering, Information Systems, or other STEM disciplines.",
+        "Proficient in at least one programming language among Go, Python, and C.",
+        "Strong coding capabilities.",
+        "Familiar with common algorithms such as multi-threaded programming, Big Data Analysis, Machine Learning, or Deep Learning.",
+        "Proficient in using open-source tools such as MySQL, Redis, ES, and Hive.",
+        "Master the interaction methods between programming languages and storage sources.",
+        "Strong interest in WAF/BOT protection technology.",
+        "Possess solid foundational knowledge of Cyber Security, including network protocols and attack/defense methods.",
+        "Knowledge of cloud security."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bio-Rad Laboratories",
+    "role": "Software Intern",
+    "link": "https://careers-biorad.icims.com/jobs/38293/software-intern/job",
+    "location": "Hercules, CA",
+    "season": "2026 Summer",
+    "id": 3871,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bio-Rad Laboratories",
+    "role": "Software Operations Intern",
+    "link": "https://careers-biorad.icims.com/jobs/38300/software-operations-intern/job",
+    "location": "Hercules, CA",
+    "season": "2026 Summer",
+    "id": 3870,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bio-Rad Laboratories",
+    "role": "Software Intern",
+    "link": "https://careers-biorad.icims.com/jobs/38302/software-intern/job",
+    "location": "Hercules, CA",
+    "season": "2026 Summer",
+    "id": 3869,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bio-Rad Laboratories",
+    "role": "Software Operations Intern",
+    "link": "https://careers-biorad.icims.com/jobs/38301/software-operations-intern/job",
+    "location": "Hercules, CA",
+    "season": "2026 Summer",
+    "id": 3868,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "GameChanger",
+    "role": "Software Engineer Summer Intern, Fan Experience",
+    "link": "https://jobs.ashbyhq.com/gamechanger/6087eacc-a1d0-41ec-af26-0d1cf1e9e9a1",
+    "location": "New York, NY",
+    "season": "2026 Summer",
+    "id": 3867,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or related field",
+        "Strong fundamentals in computer science and problem-solving",
+        "Demonstrate curiosity, ownership mindset, and proactive communication",
+        "Excited about building products used by real communities",
+        "Experience or interest developing with React, TypeScript, or Node.js"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "GameChanger",
+    "role": "Software Engineer Summer Intern, Revenue Growth",
+    "link": "https://jobs.ashbyhq.com/gamechanger/e782e817-22d9-4524-a653-b94913001dae",
+    "location": "New York, NY",
+    "season": "2026 Summer",
+    "id": 3866,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a Bachelor's or MBA degree in Computer Science.",
+        "Experienced with TypeScript, NodeJS, and React.",
+        "Demonstrated experience building end-to-end web features.",
+        "Exposure to SQL, A/B Testing, Jest, and Playwright.",
+        "Able to independently scope and execute defined work."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Solink",
+    "role": "Software Engineer Co-op - AI/ML",
+    "link": "https://jobs.ashbyhq.com/solink/4460f7ac-b697-4c9c-946d-16196a8ef58b/application",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3865,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in Computer Science, Software Engineering, or related co-op program.",
+        "Experience or coursework in automation tools and scripting languages (e.g., Python, JavaScript).",
+        "Basic knowledge of CI/CD tools (e.g., GitHub Actions, Jenkins, GitLab CI).",
+        "Strong attention to detail, analytical skills, and passion for quality.",
+        "Excellent communication skills and ability to work well within a team.",
+        "Demonstrate a sense of ownership and commitment to supporting projects.",
+        "Familiarity with Git and version control best practices.",
+        "Familiarity with the Linux environment.",
+        "Foundational understanding of how AWS services support SaaS applications for IoT environments.",
+        "Familiarity with performance testing tools and methodologies.",
+        "Excellent command of the English language, both written and verbal.",
+        "Analytical and problem-solving skills to troubleshoot complex issues.",
+        "Passion for technical challenges, drive for success, and ability to multitask effectively.",
+        "Understanding of AI/ML system development and software development lifecycles.",
+        "Familiarity with machine learning and data manipulation frameworks (e.g., PyTorch, Tensorflow).",
+        "Experience using machine vision, vLLM, and LLM models and systems.",
+        "Familiarity with Kubernetes and ML orchestration tools (Kubeflow, Airflow, Flyte).",
+        "Familiarity with Pytest as an automation framework."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "CIBC",
     "role": "Software Engineer – Apprentice",
     "link": "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer--Apprentice_2605991",

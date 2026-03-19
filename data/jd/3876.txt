@@ -1,0 +1,23 @@
+Compensation Range: $18-$25 per hour
+Job Summary:
+ALKU is transforming the staffing industry by being an automation-first, data-driven company where innovation and technology pave the way forward. Our directive is to build high-impact internal applications, interfaces, and integrations to automate processes, optimize workflows, and solve a wide variety of business problems. We are looking for engineers who are passionate about building business-critical tools that automate away the mundane and inefficient, and enable ALKU to scale and grow.
+Duties/Responsibilities:
+As a Full-Stack Developer Intern, you will work closely with a team of Product Owners, Data Analysts, and other Engineers in a fast-paced and agile development environment. You will apply a software-development mindset to solving real business problems with your team. You will do this by designing, developing, testing, and improving our custom applications and automations. You will have the opportunity to contribute to design decisions on our technical architecture, placing an emphasis on scalability and reliability.
+We are looking for future engineers who are comfortable working in a ‘startup-like’ environment and acting as primary contributors to our development efforts, our team culture, and our operating methodologies.
+Sample projects you could work on:
+Build a workflow-management app for our Sales teams
+Build a consultant-skill-management application
+Build an API interface/integration that enables cross-application functionality
+Required Skills/Abilities:
+Familiarity with any combination of JavaScript/TypeScript, React, Node, Python, HTML, CSS
+Nice to have:
+Experience working with AWS Lambda, serverless applications
+Experience with API design, message queues, REST
+Experience integrating data from different systems (using APIs, webhooks, connectors, etc.)
+Experience building cloud-based data pipelines
+On-Site Requirements:
+ALKU promotes a fun on-site work environment and recommends that candidates participate in that part of the culture
+Physical Requirements:
+Prolonged periods of sitting at a desk and working on a computer
+Education and Experience:
+Currently pursuing a bachelor’s degree
