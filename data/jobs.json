@@ -1,5 +1,175 @@
 [
   {
+    "company": "DotDash Meredith",
+    "role": "Transaction Tooling Intern",
+    "link": "https://meredith.wd5.myworkdayjobs.com/en-US/EXT/job/Alberta-CAN-Remote/Transaction-Tooling-Intern_JR15325",
+    "location": "Edmonton, AB, CanadaRemote in Canada",
+    "season": "2026 Summer",
+    "id": 3863,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Work with the team on new features to enhance existing tools",
+        "Turn design mock-ups into functional features",
+        "Integrate with custom and 3rd party APIs",
+        "Collaborate with product management and fellow engineers to plan and execute work",
+        "Attend Agile scrum meetings via Zoom",
+        "Strong desire to learn about real world application development",
+        "Value collaboration and eagerness to give and receive feedback",
+        "Strong fundamentals in software engineering and system design lifecycles",
+        "Motivated problem solver who will proactively troubleshoot and create solutions",
+        "Possess an eye for web design and user experience",
+        "Excellent communication, time management, and organizational skills",
+        "Experience working with Javascript, Typescript, HTML and CSS",
+        "Experience building web applications",
+        "Experience with modern web frameworks such as Vue JS, React, or others",
+        "Experience working with the latest AI coding tools such as Cusor or Claude Code",
+        "Experience with Java"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Athena Health",
+    "role": "Software Engineering Intern",
+    "link": "https://athenahealth.wd1.myworkdayjobs.com/en-US/External/job/Boston-MA/XMLNAME-2026-Summer-Software-Engineering-Intern_R13966",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3862,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Passionate to learn and make a difference developing technologies",
+        "Able to learn and adapt quickly",
+        "Experienced reading and writing code in a programming language",
+        "Experienced working collaboratively towards project goals and deadlines",
+        "Enrolled in a full-time Computer Science or relevant technical academic program"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Amentum",
+    "role": "Software Engineer Intern",
+    "link": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-FL-Cocoa-Beach/Software-Engineer-Summer-Intern_R0156790",
+    "location": "Merritt Island, FL",
+    "season": "2026 Summer",
+    "id": 3861,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a college or university program as a sophomore or above, or a recent graduate.",
+        "Strong written and verbal communication skills.",
+        "Able to manage tasks, stay organized, and meet deadlines.",
+        "Proficient with Microsoft Office (Word, Excel, PowerPoint) or similar tools.",
+        "Willing to learn, adapt, and work in a team environment.",
+        "Interested in SFRC-related fields.",
+        "Able to obtain and maintain a DoD Secret Security Clearance, including U.S. citizenship.",
+        "Experienced with data entry, research methods, or project coordination.",
+        "Familiar with digital collaboration tools (Teams, SharePoint, etc.).",
+        "Possess basic knowledge relevant to the SFRC's focus area."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Amentum",
+    "role": "Process Automation Intern",
+    "link": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-TX-Houston/Summer-2026---Process-Automation-Intern_R0154642-1",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 3860,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university.",
+        "Completed at least 45 credit hours.",
+        "Maintain a minimum 2.8 GPA.",
+        "Working towards a BS or MS degree in computer science.",
+        "Possess computer programming experience.",
+        "Experienced with Excel Macros and Visual Basic.",
+        "Familiar with SQL and Database concepts.",
+        "Know HTTP and web application development.",
+        "Possess strong written and verbal communication skills.",
+        "Familiar with NASA Johnson Space Center organizations, processes, and procedures.",
+        "Experienced with Artificial Intelligence & Machine Learning techniques.",
+        "Experienced in SQL and Excel export/import via APIs.",
+        "Experienced in HTML5, Python, Visual Basic, and JavaScript."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CIBC",
+    "role": "Software Engineer Apprentice",
+    "link": "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer-Apprentice_2606137",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3859,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience with Web Services, XML, Subversion, and GIT.",
+        "Strong knowledge of Object Oriented Design.",
+        "Strong knowledge of .NET, PowerPlatform.",
+        "Strong knowledge of JSON and RESTFul web services.",
+        "Written Unit Test and UI Automation Tests.",
+        "Knowledge of the App Store Publication Process.",
+        "Published own Android or iOS app.",
+        "Experience with Jenkins, Fast Lane, Jira or Confluence.",
+        "Embrace and advocate for change.",
+        "Continuously evolve thinking and working.",
+        "Inspire outcomes by sharing expertise.",
+        "Digitally savvy, adapt to new tools and trends.",
+        "Motivated by collective success and teamwork.",
+        "Live values: trust, teamwork, and accountability.",
+        "Proficient in Application Development.",
+        "Proficient in Application Testing.",
+        "Proficient in Computer Coding.",
+        "Proficient in Database Management.",
+        "Proficient in Debugging.",
+        "Proficient in Financial Management System (FMS).",
+        "Proficient in Systems Troubleshooting.",
+        "Able to Work Collaboratively."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Ingram Micro",
+    "role": "Intern",
+    "link": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Irvine-CA-United-States-of-America/Summer-Intern---AI-COE_R-114227",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 3858,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop Agentic Platform components",
+        "Develop AI agents",
+        "Perform feature engineering",
+        "Actively enrolled or recently graduated from an accredited college/university program",
+        "Preferred current junior or senior student",
+        "Proficient in Python and SQL",
+        "Understand AI infrastructure and its layers",
+        "Understand basic AI concepts"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Vertex Pharmaceuticals",
     "role": "Statistical Programming Intern - Statistical Programming - AI 🎓",
     "link": "https://vrtx.wd501.myworkdayjobs.com/vertex_intern/job/Boston-MA/Vertex-Summer-Intern-2026--Statistical-Programming---LLM-Agent-Development--TFL-Automation-_REQ-27214-1",
