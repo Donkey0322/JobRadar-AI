@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US-FL-Patrick AFB-1 Spacelift (FL110)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Summer Intern",
+"@type" : "PropertyValue",
+"value" : "R0156790"
+},
+"datePosted" : "2026-03-18",
+"employmentType" : "PART_TIME",
+"title" : "Software Engineer Summer Intern",
+"description" : "Amentum is seeing a Software Engineer Intern supporting the Space Force Range Contract (SFRC) for a 10-week summer program. Position Summary The SFRC Summer Intern will support the daily operations, projects, and strategic initiatives of the SFRC team. This role provides hands‑on experience in a professional environment where the intern will assist with research, data collection, administrative tasks, field or technical support (depending on program needs), and coordination of departmental activities. The intern will gain exposure to organizational procedures, teamwork, and real‑world problem‑solving. Key Responsibilities Requirements &amp; Implementation: Develop requirements and work with Stargate developers to deploy a new Lab Systems Reservations capability within the Stargate Application. Utilization Reports: Work with Stargate developers to develop Lab Utilization Metric Reports. Transition Data: Assist Stargate developers in transitioning lab schedule data from old Lab Scheduler tool to Stargate. Documentation: Create user manuals or training aids for the new Stargate process. Document lesson learned. Training &amp; Support: Train engineering staff and managers on the effective use of new scheduling tools and lessons learned. Qualifications Currently enrolled in a college or university program as a sophomore or above (or a recent graduate within the last year). Strong written and verbal communication skills. Ability to manage tasks, stay organized, and meet deadlines. Basic proficiency with Microsoft Office (Word, Excel, PowerPoint) or similar tools. Willingness to learn, adapt, and work in a team environment. Interest in SFRC‑related fields (administration, research, operations, fieldwork, or technical disciplines). Ability to obtain and maintain a DoD Secret Security Clearance, which includes U.S. citizenship Preferred Skills (Optional) Experience with data entry, research methods, or project coordination. Familiarity with digital collaboration tools (Teams, SharePoint, etc.). Basic knowledge relevant to the SFRC’s focus area (e.g., operations, field services, research, conservation, engineering—depending on the organization). Benefits for the Intern Hands‑on experience in a professional setting. Exposure to real‑world projects and operational processes. Mentorship from SFRC professionals. Opportunity to develop communication, teamwork, and organizational skills. Potential for future employment consideration. Compensation Details: $20.00 per hour The compensation range or hourly rate listed for this position is provided as a good-faith estimate of what the company intends to offer for this role at the time this posting was issued. Actual compensation may vary based on factors such as job responsibilities, education, experience, skills, internal equity, market data, applicable collective bargaining agreements, and relevant laws. Benefits Overview: Our health and welfare benefits are designed to support you and your priorities. Offerings include: Health, dental, and vision insurance Paid time off and holidays Retirement benefits (including 401(k) matching) Educational reimbursement Parental leave Employee stock purchase plan Tax-saving options Disability and life insurance Pet insurance Note: Benefits may vary based on employment type, location, and applicable agreements. Positions governed by a Collective Bargaining Agreement (CBA), the McNamara-O'Hara Service Contract Act (SCA), or other employment contracts may include different provisions/benefits. Original Posting: 03/18/2026 - Until Filled Amentum anticipates this job requisition will remain open for at least three days, with a closing date no earlier than three days after the original posting. This timeline may change based on business needs. Amentum is proud to be an Equal Opportunity Employer. Our hiring practices provide equal opportunity for employment without regard to race, sex, sexual orientation, pregnancy (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, ancestry, United States military or veteran status, color, religion, creed, marital or domestic partner status, medical condition, genetic information, national origin, citizenship status, low-income status, or mental or physical disability so long as the essential functions of the job can be performed with or without reasonable accommodation, or any other protected category under federal, state, or local law. Learn more about your rights under Federal laws and supplemental language at Labor Laws Posters. Welcome back! We encourage you to check on the status of your current job applications with us. You can also search for a list of our current job openings and see if there are any new positions that might be a good fit for you. Thank you for continued interest in employment with Amentum. For more than 100 years, Amentum has tackled the world’s toughest challenges to deliver agile and steadfast solutions to the U.S. government and its allies. With more than 50,000 employees on all seven continents and in more than 60 countries, Amentum delivers a broad range of operational support services to meet the critical needs of our clients. Our headquarters are in Chantilly, VA. Find us online at https://www.amentum.com/ If you need a reasonable accommodation for any part of the employment process, please contact us by email at TAOps@amentum.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. EEO including Disability/Protected Veterans Labor Laws Posters Amentum has become aware of unauthorized individuals who are falsely using the Amentum name and /or logo in an attempt to solicit fees from potential job seekers. These deceptive and unauthorized individuals are soliciting money, promising placement in a position with Amentum. Please note any communication requesting any amount of money in exchange for employment with Amentum is fraudulent. These communications do not originate from Amentum and are not associated with the recruitment process. Amentum and its affiliates never charge candidates fees or payments of any kind in order to secure employment. As a precaution, we recommend you do not disclose personal or financial details to anyone as a response to an unsolicited email, social media, or dating website request. Amentum will never as ask for a placement fee or any other fee to expedite the hiring process. If you are contacted by anyone offering employment with Amentum, you should never be asked to pay a fee for recruiting. Amentum personnel will always send email from an identifiable corporate account (ending in @amentum.com) and never from a public email account like Yahoo!, Google, Gmail, or Hotmail. If you are contacted regarding a fraudulent employment proposal, we encourage you to alert your local law enforcement agency/police authority. To read more about Amentum’s commitment to ethics, please click here.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US-FL-Patrick AFB-1 Spacelift (FL110)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Summer Intern",
+"@type" : "PropertyValue",
+"value" : "R0156790"
+},
+"datePosted" : "2026-03-18",
+"employmentType" : "PART_TIME",
+"title" : "Software Engineer Summer Intern",
+"description" : "Amentum is seeing a Software Engineer Intern supporting the Space Force Range Contract (SFRC) for a 10-week summer program. Position Summary The SFRC Summer Intern will support the daily operations, projects, and strategic initiatives of the SFRC team. This role provides hands‑on experience in a professional environment where the intern will assist with research, data collection, administrative tasks, field or technical support (depending on program needs), and coordination of departmental activities. The intern will gain exposure to organizational procedures, teamwork, and real‑world problem‑solving. Key Responsibilities Requirements &amp; Implementation: Develop requirements and work with Stargate developers to deploy a new Lab Systems Reservations capability within the Stargate Application. Utilization Reports: Work with Stargate developers to develop Lab Utilization Metric Reports. Transition Data: Assist Stargate developers in transitioning lab schedule data from old Lab Scheduler tool to Stargate. Documentation: Create user manuals or training aids for the new Stargate process. Document lesson learned. Training &amp; Support: Train engineering staff and managers on the effective use of new scheduling tools and lessons learned. Qualifications Currently enrolled in a college or university program as a sophomore or above (or a recent graduate within the last year). Strong written and verbal communication skills. Ability to manage tasks, stay organized, and meet deadlines. Basic proficiency with Microsoft Office (Word, Excel, PowerPoint) or similar tools. Willingness to learn, adapt, and work in a team environment. Interest in SFRC‑related fields (administration, research, operations, fieldwork, or technical disciplines). Ability to obtain and maintain a DoD Secret Security Clearance, which includes U.S. citizenship Preferred Skills (Optional) Experience with data entry, research methods, or project coordination. Familiarity with digital collaboration tools (Teams, SharePoint, etc.). Basic knowledge relevant to the SFRC’s focus area (e.g., operations, field services, research, conservation, engineering—depending on the organization). Benefits for the Intern Hands‑on experience in a professional setting. Exposure to real‑world projects and operational processes. Mentorship from SFRC professionals. Opportunity to develop communication, teamwork, and organizational skills. Potential for future employment consideration. Compensation Details: $20.00 per hour The compensation range or hourly rate listed for this position is provided as a good-faith estimate of what the company intends to offer for this role at the time this posting was issued. Actual compensation may vary based on factors such as job responsibilities, education, experience, skills, internal equity, market data, applicable collective bargaining agreements, and relevant laws. Benefits Overview: Our health and welfare benefits are designed to support you and your priorities. Offerings include: Health, dental, and vision insurance Paid time off and holidays Retirement benefits (including 401(k) matching) Educational reimbursement Parental leave Employee stock purchase plan Tax-saving options Disability and life insurance Pet insurance Note: Benefits may vary based on employment type, location, and applicable agreements. Positions governed by a Collective Bargaining Agreement (CBA), the McNamara-O'Hara Service Contract Act (SCA), or other employment contracts may include different provisions/benefits. Original Posting: 03/18/2026 - Until Filled Amentum anticipates this job requisition will remain open for at least three days, with a closing date no earlier than three days after the original posting. This timeline may change based on business needs. Amentum is proud to be an Equal Opportunity Employer. Our hiring practices provide equal opportunity for employment without regard to race, sex, sexual orientation, pregnancy (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, ancestry, United States military or veteran status, color, religion, creed, marital or domestic partner status, medical condition, genetic information, national origin, citizenship status, low-income status, or mental or physical disability so long as the essential functions of the job can be performed with or without reasonable accommodation, or any other protected category under federal, state, or local law. Learn more about your rights under Federal laws and supplemental language at Labor Laws Posters. Welcome back! We encourage you to check on the status of your current job applications with us. You can also search for a list of our current job openings and see if there are any new positions that might be a good fit for you. Thank you for continued interest in employment with Amentum. For more than 100 years, Amentum has tackled the world’s toughest challenges to deliver agile and steadfast solutions to the U.S. government and its allies. With more than 50,000 employees on all seven continents and in more than 60 countries, Amentum delivers a broad range of operational support services to meet the critical needs of our clients. Our headquarters are in Chantilly, VA. Find us online at https://www.amentum.com/ If you need a reasonable accommodation for any part of the employment process, please contact us by email at TAOps@amentum.com and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. EEO including Disability/Protected Veterans Labor Laws Posters Amentum has become aware of unauthorized individuals who are falsely using the Amentum name and /or logo in an attempt to solicit fees from potential job seekers. These deceptive and unauthorized individuals are soliciting money, promising placement in a position with Amentum. Please note any communication requesting any amount of money in exchange for employment with Amentum is fraudulent. These communications do not originate from Amentum and are not associated with the recruitment process. Amentum and its affiliates never charge candidates fees or payments of any kind in order to secure employment. As a precaution, we recommend you do not disclose personal or financial details to anyone as a response to an unsolicited email, social media, or dating website request. Amentum will never as ask for a placement fee or any other fee to expedite the hiring process. If you are contacted by anyone offering employment with Amentum, you should never be asked to pay a fee for recruiting. Amentum personnel will always send email from an identifiable corporate account (ending in @amentum.com) and never from a public email account like Yahoo!, Google, Gmail, or Hotmail. If you are contacted regarding a fraudulent employment proposal, we encourage you to alert your local law enforcement agency/police authority. To read more about Amentum’s commitment to ethics, please click here.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "pae",
+siteId: "amentum_careers",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=pae&s=amentum_careers",
+token: "5f2b1715-6818-4aa4-b249-2df5b6491175",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#009F4D","textColor":"#000000"},"progressBar":{"color":"#001489"},"button":{"primary":{"color":"#009F4D","borderColor":"#425563","textColor":"#FFFFFF","hover":{"color":"#425563"}},"secondary":{"color":"#001489","borderColor":"#425563","textColor":"#FFFFFF","hover":{}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true},"banner":{"color":"#FFFFFF","borderColor":"#001489","textColor":"#009F4D","image":{"id":"e3ac025872ff1000a752dd2dfaac0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
