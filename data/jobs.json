@@ -1,5 +1,119 @@
 [
   {
+    "company": "General Dynamics Information Technology",
+    "role": "GDIT Intern Program – Software Development Intern",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/GDIT-Summer-Internship-Program---Summer-2026-Software-Development-Internship--_RQ212061-1",
+    "location": "Arlington, VA",
+    "season": "2026 Summer",
+    "id": 3883,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Software Development Life Cycle (SDLC).",
+        "Experience with Software Implementations.",
+        "Skilled in Software Solution Architecture.",
+        "Knowledge of Software Systems.",
+        "Strong communication skills.",
+        "Ability to build meaningful relationships.",
+        "Identify and correct mistakes.",
+        "Prioritize tasks and responsibilities.",
+        "Actively seek personal and professional development.",
+        "Intuitive ability to solve complex problems.",
+        "Possess intellectual curiosity and a nimble mindset.",
+        "Basic understanding of Microsoft Office products.",
+        "Currently enrolled in a STEM degree program.",
+        "Desire to learn new software languages and technologies.",
+        "Understanding of automation technologies.",
+        "Understanding of software development best practices.",
+        "Understanding of ITSM concepts."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Planet",
+    "role": "Intern Space Systems - Geometric Software Engineer",
+    "link": "https://job-boards.greenhouse.io/planetlabs/jobs/7733188",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3882,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in photogrammetry, engineering, physics, mathematics, or a related field relevant to space imaging platforms.",
+        "Possess a hands-on, collaborative mindset with effective interpersonal skills.",
+        "Demonstrate passion for programming, photography, remote sensing, Earth science, and geography.",
+        "Gain experience with scientific computing in Python in a Unix/Linux environment.",
+        "Have experience with version control and CI/CD workflows.",
+        "Possess a strong foundation in linear algebra, coordinate transformations, and nonlinear optimization.",
+        "Exhibit practical experience solving problems using large cloud-based datasets.",
+        "Possess knowledge of scaling code with cloud computing resources such as AWS or GCP."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "AI Automation Intern",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Burbank-CA-USA/AI-Automation-Intern--Burbank--Summer-2026_10143397-1",
+    "location": "Burbank, CA",
+    "season": "2026 Summer",
+    "id": 3881,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience building automations through coursework or projects.",
+        "Familiar with at least one scripting or programming language.",
+        "Comfortable working with APIs, JSON, and integration concepts.",
+        "Strong analytical and problem-solving skills.",
+        "Strong written and verbal communication skills.",
+        "Ability to collaborate in a team environment.",
+        "Familiarity with workflow automation platforms or RPA concepts.",
+        "Exposure to modern AI/ML concepts like prompt engineering.",
+        "Experience working with data tools (SQL, Power BI/Tableau).",
+        "Understanding of monitoring and reliability concepts.",
+        "Interest in user experience and change management.",
+        "Currently enrolled as a junior or senior in a STEM bachelor's degree.",
+        "Enrolled in an accredited college/university or Disney program.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization.",
+        "Able to provide reliable transportation to/from work.",
+        "Fully available Monday-Friday, 40 hours per week."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KLA",
+    "role": "Software Intern - Data & Automation",
+    "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Software-Intern--Data---Automation-_2634811-1",
+    "location": "Milpitas, CA",
+    "season": "2026 Summer",
+    "id": 3880,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a Bachelor’s or Master’s degree in Computer Science, Computer Engineering, or related technical field.",
+        "Strong software engineering fundamentals with hands-on experience in Python, C++, C#, and SQL.",
+        "Experienced with AI, agent frameworks, and data-driven tools.",
+        "Able to build backend infrastructure, fine-tune language models, analyze large datasets, and implement AI-powered workflows.",
+        "Able to learn and operate across multiple domains like computer science, data science, AI, chemistry, and material science.",
+        "Quick learner with strong collaboration skills.",
+        "Completed at least 2-3 years in a four-year Bachelor's degree program in Computer Science, Computer Engineering, or related field.",
+        "Able to work onsite five days per week in Milpitas, CA."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Cisive",
     "role": "Intern/Co-op Software Developer",
     "link": "https://cisive.wd108.myworkdayjobs.com/Cisive/job/Remote---Maryland/Intern--Software-Developer_JR100237",
