@@ -1,5 +1,269 @@
 [
   {
+    "company": "Redhorse",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.lever.co/redhorsecorp/bc3758c8-0413-4888-b367-10f1bad64692/apply",
+    "location": "Gainesville, VA",
+    "season": "2026 Summer",
+    "id": 3924,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hitachi",
+    "role": "Software Analyst Intern",
+    "link": "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3923,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards a Bachelor's or Master's degree in Engineering, Computer Science, or related fields.",
+        "Possess analysis skills to diagnose issues based on requirements.",
+        "Able to quickly integrate with the team and work with some guidance.",
+        "Practical experience using Microsoft Office Suite programs.",
+        "Experience in web development (JavaScript, CSS, HTML, NodeJS).",
+        "Ability to work a 40-hour week in a hybrid model.",
+        "Available for an 8-month co-op term.",
+        "At least one additional quarter or semester of coursework remaining."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Experian",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.smartrecruiters.com/Experian/744000115927684",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3922,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's program in CS, Computer Engineering, or related field",
+        "Plan to return to school in Fall 2026 to complete degree",
+        "Comfortable writing programs in Python",
+        "Interested in building applications that use AI/LLMs",
+        "Curious about modern tools such as RAG pipelines, vector stores, and agent frameworks",
+        "Familiar with general software development concepts, data structures, and scripting"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Blue Cross Blue Shield",
+    "role": "Associate Intern-UX Design/Web Development - UX Design/Web Development",
+    "link": "https://bcbsa.wd1.myworkdayjobs.com/careers/job/US-IL-Chicago-E-Randolph/Summer-Associate-Intern-UX-Design-Web-Development_JR5807",
+    "location": "Washington, DCChicago, IL",
+    "season": "2026 Summer",
+    "id": 3921,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree.",
+        "Have 1+ year of relevant degree-level experience.",
+        "Demonstrate interpersonal skills.",
+        "Possess effective verbal and written communication skills.",
+        "Exhibit problem-solving and analytical skills.",
+        "Be a self-starter with good time management skills.",
+        "Be proactive and eager to learn.",
+        "Develop computer skills.",
+        "Have experience with Microsoft Excel, Word, PowerPoint, and SharePoint.",
+        "Maintain a minimum GPA of 3.0/4.0.",
+        "Be available to work ten weeks during the summer."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Blue Cross Blue Shield",
+    "role": "Associate Intern-Product Engineering",
+    "link": "https://bcbsa.wd1.myworkdayjobs.com/careers/job/US-IL-Chicago-E-Randolph/Summer-Associate-Intern-Product-Engineering_JR5803",
+    "location": "Washington, DCChicago, IL",
+    "season": "2026 Summer",
+    "id": 3920,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree",
+        "Have 1+ year of relevant degree-level experience",
+        "Demonstrate interpersonal skills",
+        "Possess effective verbal and written communication skills",
+        "Apply problem-solving and analytical skills",
+        "Be a self-starter with good time management skills",
+        "Be proactive and eager to learn",
+        "Develop computer skills",
+        "Experience with Microsoft Excel, Word, PowerPoint, and SharePoint preferred",
+        "Maintain a minimum GPA of 3.0/4.0",
+        "Be available to work ten weeks during the summer",
+        "Possess unrestricted authorization to work in the United States"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Magna",
+    "role": "Intern Software Engineer - Integration and Test",
+    "link": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Southfield-Michigan-US/Intern---Engineering_R00235405",
+    "location": "Southfield, MI",
+    "season": "2026 Summer",
+    "id": 3919,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Bachelor's or Master's in Computer Engineering, Electrical Engineering, or Computer Science.",
+        "Maintain excellent academics with a GPA >= 3.5.",
+        "Possess knowledge of the Software Development Lifecycle.",
+        "Experience with C/C++ software development.",
+        "Be a Junior, Senior, or Master's level student.",
+        "Experience with software integration and debugging techniques.",
+        "Knowledgeable in scripting languages like Python or Bash.",
+        "Familiar with C/C++ standards (C++98, C++11, C++17).",
+        "Familiar with Automotive Communication Protocols and tools.",
+        "Experienced with CI toolchains, Git/GitHub, and configuration management.",
+        "Knowledge of hardware bus interfaces (USB, UART, I2C, SPI).",
+        "Proficient in basic electrical tools (oscilloscope, multimeter).",
+        "Demonstrated strong problem-solving skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Corporate Innovation Intern",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Corporate-Innovation-Intern--Glendale--Summer-2026_10142977-1",
+    "location": "Glendale, CA",
+    "season": "2026 Summer",
+    "id": 3918,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience using Microsoft Azure, Google Cloud platform, and Amazon AWS APIs",
+        "Proficient with writing and deploying code",
+        "Familiar with recent vibe coding tools",
+        "Proficient in navigating different software solutions to build apps",
+        "Proficient in Zoom, Microsoft Office, and Keynote",
+        "Self-starter with ability to work in a fast-paced entrepreneurial environment",
+        "Strong organizational and communication skills",
+        "Required online portfolio of recent, relevant coding work",
+        "Passionate about startups, venture investment, and technology",
+        "Experience preparing presentation materials",
+        "Currently enrolled as a junior or senior pursuing a bachelor’s degree in Engineering, Product Management, Business, Economics, Analytics, or a related discipline"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Littelfuse",
+    "role": "AI Engineering Intern",
+    "link": "https://littelfuse.wd1.myworkdayjobs.com/Littelfuse-Careers/job/Chicago/AI-Engineering-Intern_JR-111239-1",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3917,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in Computer Science, AI/ML, Engineering, or related field.",
+        "Strong proficiency in Python 3.11+.",
+        "Familiar with Git, Docker, and Linux/WSL environments.",
+        "Solid understanding of LLMs, prompt engineering, embeddings, and vector databases.",
+        "Excellent problem-solving, documentation, and communication skills.",
+        "Proven ability to collaborate effectively in cross-functional teams.",
+        "Prior experience with local LLMs, RAG systems, or open-source AI tooling.",
+        "Experience with FastAPI, PostgreSQL, or cloud platforms.",
+        "Prior research experience, including academic papers and experiments.",
+        "Deep passion for Artificial Intelligence."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Software Engineering Intern - AI",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Software-Engineering-Intern--AI--Summer-2026_10143621",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 3916,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Build RAG applications using frameworks like langchain.",
+        "Understand Language Models such as Google Gemini, OpenAI GPT.",
+        "Understand LLM evaluation techniques and prompt engineering basics.",
+        "Understand multi-agentic workflows for LLM applications.",
+        "Proficient in programming languages such as Go, Python, Java, or C++.",
+        "Have exposure to machine learning frameworks like TensorFlow, PyTorch.",
+        "Familiar with data structures, algorithms, and software engineering best practices.",
+        "Strong analytical and problem-solving skills.",
+        "Eager to learn new technologies and adapt to evolving project needs.",
+        "Excellent verbal and written communication skills.",
+        "Have experience with AI or machine learning projects.",
+        "Have exposure to cloud platforms such as AWS, GCP, or Azure.",
+        "Experience with data visualization libraries or tools.",
+        "Possess passion for storytelling or entertainment technology.",
+        "Currently enrolled as a junior or senior in an accredited STEM bachelor’s degree program.",
+        "Be enrolled in a college/university or a Disney program prior to internship.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization.",
+        "Have reliable transportation to and from work.",
+        "Be fully available Monday-Friday, 40 hours per week."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Corporate Innovation Intern",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Corporate-Innovation-Intern--Glendale--Summer-2026_10142977",
+    "location": "Glendale, CA",
+    "season": "2026 Summer",
+    "id": 3915,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience using Microsoft Azure, Google Cloud, and Amazon AWS APIs.",
+        "Proficient with writing and deploying code.",
+        "Familiar with recent vibe coding tools.",
+        "Proficient in navigating different software solutions to build apps.",
+        "Proficient in Zoom, Microsoft Office, and Keynote.",
+        "Self-starter with ability to work in a fast-paced entrepreneurial environment.",
+        "Strong organization and communication skills.",
+        "Provide an online portfolio of recent, relevant coding work.",
+        "Passionate about startups, venture investment, and technology.",
+        "Experience preparing presentation materials.",
+        "Currently enrolled as a junior or senior in a relevant bachelor’s degree.",
+        "Enrolled in an accredited college/university, taking at least one class.",
+        "At least 18 years of age.",
+        "Possess unrestricted work authorization."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Rolls-Royce Motorcars",
     "role": "Software Engineer Co-Op",
     "link": "https://jobs.bmwgroup.com/job/Spartanburg-Software-Engineer-Co-Op-(Fall-2026)-Sout/1376199233/?ats=successfactors",
