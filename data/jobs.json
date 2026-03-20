@@ -1,5 +1,36 @@
 [
   {
+    "company": "Cohesity",
+    "role": "Software Engineering Intern",
+    "link": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2026_R01589-1",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3905,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Competent in Data Structures, Algorithms, and Systems Design",
+        "Proficient in backend development, OOP, distributed systems, Unix/Linux, machine learning, networking, security, or software development",
+        "Passionate about C++, Java, GoLang, or Python",
+        "Possess critical thinking abilities and enjoy solving puzzles",
+        "Actively pursuing a BS, MS, or Ph.D. in Computer Science or related field",
+        "Enrolled in a program of study before and after internship"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Comcast",
+    "role": "ERP Intern: Rising Senior Technology",
+    "link": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1701-John-F-Kennedy-Blvd/ERP-Internship--Rising-Senior-Technology_R415530",
+    "location": "10 locationsWest Chester, PAOrlando, FLEnglewood, NJLAStamford, CTPhiladelphia, PABerwyn, PAMt Laurel Township, NJTrevose, Feasterville-Trevose, PANYC",
+    "season": "2026 Summer",
+    "id": 3904,
+    "jd": null
+  },
+  {
     "company": "DriveWealth",
     "role": "AI Consulting Associate Program – Engineering Intern - AI CAP",
     "link": "https://boards.greenhouse.io/drivewealth/jobs/7673413003",

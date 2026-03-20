@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Cohesity - Santa Clara"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "DQQ Cohesity Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern- Summer 2026",
+"@type" : "PropertyValue",
+"value" : "R01589"
+},
+"datePosted" : "2026-03-20",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern- Summer 2026",
+"description" : "Cohesity is the leader in AI-powered data security. Over 13,600 enterprise customers, including over 85 of the Fortune 100 and nearly 70% of the Global 500, rely on Cohesity to strengthen their resilience while providing Gen AI insights into their vast amounts of data. Formed from the combination of Cohesity with Veritas’ enterprise data protection business, the company’s solutions secure and protect data on-premises, in the cloud, and at the edge. Backed by NVIDIA, IBM, HPE, Cisco, AWS, Google Cloud, and others, Cohesity is headquartered in Santa Clara, CA, with offices around the globe. We’ve been named a Leader by multiple analyst firms and have been globally recognized for Innovation, Product Strength, and Simplicity in Design , and our culture. Want to join the leader in AI-powered data security? It's time for us to reevaluate the world of data management TOGETHER! As a Software Engineering Intern, you will be embedded within one of our engineering squads where you'll work side-by-side with your mentor &amp; teammates to the solve large, complex engineering challenges. You will be working on cutting edge distributed systems technology and building product features that customers will use. We are looking for technically strong and motivated individuals to join our team. You will learn how to develop high quality software and understand the various software development processes to ship successful products. You will work alongside your mentor and your team to build product features and solve real problems at massive scale You'll be exposed to cutting edge technologies in distributed systems and hyper-converged systems space. You'll be a part of our culture and mission in transforming data You will deliver impact while deepening your technical skills WE’D LOVE TO TALK TO YOU IF YOU HAVE MANY OF THE FOLLOWING: You are competent in Data Structures, Algorithms, and Systems Design You have familiarity and proficiency in backend development: OOP, distributed or parallel systems, Unix/Linux environments, machine learning, asynchronous programming, networking, security, and/or software development. You have a passion for in any: C++, Java, GoLang, Python You enjoy solving puzzles and possess critical thinking abilities You are actively pursuing BS, MS, or Ph.D. in Computer Science or related engineering field at accredited university Must be enrolled in a program of study before and after your internship WHY JOIN? · Flexible work culture · Market leader in data storage and security with big growth ahead · Ownership of impactful projects not “busy work” · Paid holidays that fall within your internship · Assigned mentor from your team for continuous support, guidance and feedback · Participation in company wide initiatives including ERGs and Wellness Program · FUN! Work hard but have fun too! Fun interactive connects every week to give your brain a break! · GROW! Development workshops and professional networking events to grow your skills and give you more professional tools · LEARN! Weekly executive series tech talks that plunge you further into the company goals and initiatives and connect you directly with the leadership team · GIVE BACK! Volunteer day to take the time for you to give back · JOIN! This program gives interns the opportunity to showcase their contributions and innovations within the duration of the internship and what they can bring to the table by joining long term! Career growth is a hyperfocus for our early career hires and we value the passion students have bringing in their amazing talents full time into our organization after graduation. Disclosure Pursuant to Applicable State Equal Pay Transparency Laws - This position has a starting pay range as listed below. Actual rate depends upon many factors, including a candidate’s skills, qualifications and experience, location, and therefore a starting salary at the low end, high end, or even above the stated range may be offered. Pay Range : $50-$53/hr Data Privacy Notice for Job Candidates: For information on personal data processing, please see our Privacy Policy. Equal Employment Opportunity Employer (EEOE) Cohesity is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, sex, sexual orientation, national origin or nationality, ancestry, age, disability, gender identity or expression, marital status, veteran status or any other category protected by law. If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, or are limited in the ability or unable to access or use this online application process and need an alternative method for applying, you may contact us at 1-855-9COHESITY or talent@cohesity.com for assistance. In-Office Expectations Cohesity employees who are within a reasonable commute (e.g. within a forty-five (45) minute average travel time) work out of our core offices 2-3 days a week of their choosing. Interested candidates based outside of the designated areas are welcome to apply, provided they have the right to work in the job location. Join our talent community and receive the latest Workday news, content, and be first in line for new job opportunities. At Cohesity, we move fast, think big and act with purpose. As cyberthreats rise, our mission is to protect, secure, and unlock insights from the world’s data. We operate as One Team—driven by bold innovation, speed, and a culture of belonging, accountability, and impact. Join us and help shape one of the most critical missions of our time. At Cohesity, we foster a culture of excellence and innovation, valuing collaboration across the globe. United as one team, we set high standards and pursue ambitious goals, always looking ahead. Explore our values Cohesity is a place where—regardless of background or identity—every voice matters, every identity is celebrated, and collaboration fuels our innovation. Together, we’re building a workplace where each voice contributes to our success, shaping a future where every employee feels seen, supported, connected, and proud. Learn More",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Cohesity - Santa Clara"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "DQQ Cohesity Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern- Summer 2026",
+"@type" : "PropertyValue",
+"value" : "R01589"
+},
+"datePosted" : "2026-03-20",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern- Summer 2026",
+"description" : "Cohesity is the leader in AI-powered data security. Over 13,600 enterprise customers, including over 85 of the Fortune 100 and nearly 70% of the Global 500, rely on Cohesity to strengthen their resilience while providing Gen AI insights into their vast amounts of data. Formed from the combination of Cohesity with Veritas’ enterprise data protection business, the company’s solutions secure and protect data on-premises, in the cloud, and at the edge. Backed by NVIDIA, IBM, HPE, Cisco, AWS, Google Cloud, and others, Cohesity is headquartered in Santa Clara, CA, with offices around the globe. We’ve been named a Leader by multiple analyst firms and have been globally recognized for Innovation, Product Strength, and Simplicity in Design , and our culture. Want to join the leader in AI-powered data security? It's time for us to reevaluate the world of data management TOGETHER! As a Software Engineering Intern, you will be embedded within one of our engineering squads where you'll work side-by-side with your mentor &amp; teammates to the solve large, complex engineering challenges. You will be working on cutting edge distributed systems technology and building product features that customers will use. We are looking for technically strong and motivated individuals to join our team. You will learn how to develop high quality software and understand the various software development processes to ship successful products. You will work alongside your mentor and your team to build product features and solve real problems at massive scale You'll be exposed to cutting edge technologies in distributed systems and hyper-converged systems space. You'll be a part of our culture and mission in transforming data You will deliver impact while deepening your technical skills WE’D LOVE TO TALK TO YOU IF YOU HAVE MANY OF THE FOLLOWING: You are competent in Data Structures, Algorithms, and Systems Design You have familiarity and proficiency in backend development: OOP, distributed or parallel systems, Unix/Linux environments, machine learning, asynchronous programming, networking, security, and/or software development. You have a passion for in any: C++, Java, GoLang, Python You enjoy solving puzzles and possess critical thinking abilities You are actively pursuing BS, MS, or Ph.D. in Computer Science or related engineering field at accredited university Must be enrolled in a program of study before and after your internship WHY JOIN? · Flexible work culture · Market leader in data storage and security with big growth ahead · Ownership of impactful projects not “busy work” · Paid holidays that fall within your internship · Assigned mentor from your team for continuous support, guidance and feedback · Participation in company wide initiatives including ERGs and Wellness Program · FUN! Work hard but have fun too! Fun interactive connects every week to give your brain a break! · GROW! Development workshops and professional networking events to grow your skills and give you more professional tools · LEARN! Weekly executive series tech talks that plunge you further into the company goals and initiatives and connect you directly with the leadership team · GIVE BACK! Volunteer day to take the time for you to give back · JOIN! This program gives interns the opportunity to showcase their contributions and innovations within the duration of the internship and what they can bring to the table by joining long term! Career growth is a hyperfocus for our early career hires and we value the passion students have bringing in their amazing talents full time into our organization after graduation. Disclosure Pursuant to Applicable State Equal Pay Transparency Laws - This position has a starting pay range as listed below. Actual rate depends upon many factors, including a candidate’s skills, qualifications and experience, location, and therefore a starting salary at the low end, high end, or even above the stated range may be offered. Pay Range : $50-$53/hr Data Privacy Notice for Job Candidates: For information on personal data processing, please see our Privacy Policy. Equal Employment Opportunity Employer (EEOE) Cohesity is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, sex, sexual orientation, national origin or nationality, ancestry, age, disability, gender identity or expression, marital status, veteran status or any other category protected by law. If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, or are limited in the ability or unable to access or use this online application process and need an alternative method for applying, you may contact us at 1-855-9COHESITY or talent@cohesity.com for assistance. In-Office Expectations Cohesity employees who are within a reasonable commute (e.g. within a forty-five (45) minute average travel time) work out of our core offices 2-3 days a week of their choosing. Interested candidates based outside of the designated areas are welcome to apply, provided they have the right to work in the job location. Join our talent community and receive the latest Workday news, content, and be first in line for new job opportunities. At Cohesity, we move fast, think big and act with purpose. As cyberthreats rise, our mission is to protect, secure, and unlock insights from the world’s data. We operate as One Team—driven by bold innovation, speed, and a culture of belonging, accountability, and impact. Join us and help shape one of the most critical missions of our time. At Cohesity, we foster a culture of excellence and innovation, valuing collaboration across the globe. United as one team, we set high standards and pursue ambitious goals, always looking ahead. Explore our values Cohesity is a place where—regardless of background or identity—every voice matters, every identity is celebrated, and collaboration fuels our innovation. Together, we’re building a workplace where each voice contributes to our success, shaping a future where every employee feels seen, supported, connected, and proud. Learn More",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "cohesity",
+siteId: "Cohesity_Careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=cohesity&s=Cohesity_Careers",
+token: "9b2716cb-834f-4843-9ef2-03ac15c0656c",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#67BF1B","textColor":"#1D242B"},"progressBar":{"color":"#67BF1B"},"button":{"primary":{"color":"#00FD45","borderColor":"#00FD45","textColor":"#000000","hover":{"color":"#FFFFFF","borderColor":"#00FD45","textColor":"#000000"}},"secondary":{"color":"#0066FF","borderColor":"#0066FF","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#0066FF","textColor":"#000000"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"4ec64768f0ed10010b2da7f013f90001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#67BF1B","textColor":"#1D242B","image":{"id":"4ec64768f0ed10010b2da75621eb0001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
