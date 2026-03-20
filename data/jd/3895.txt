@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Clearwater, Florida, United States"
+}
+},
+"hiringOrganization" : {
+"name" : "TD SYNNEX Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Technology Track | AI and Integration Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R48642"
+},
+"datePosted" : "2026-03-19",
+"employmentType" : "FULL_TIME",
+"title" : "Technology Track | AI and Integration Engineer Intern",
+"description" : "We’re excited for you to Make IT Personal at TD SYNNEX! Our Summer 2026 Internship offers an array of unique, hands-on experience with our business, and is open to all business majors. This application is for students interested in the Summer 2026 Internship Program | Technology Track, which includes an opportunity in Computer Science, Computer Engineering, Artificial Intelligence, and Systems &amp; Cloud. Applicants will be asked to indicate their area of interest when applying. Our program is 10 weeks, full-time, beginning on May 18th. All of our intern projects and goals vary based on major and department and make a valuable and measurable impact on our business. In exchange (or beyond your assigned work), you will be able to network with our top executives during our speaker series, participate in intern bonding events with your peers, job shadow other departments, and get a feel for what it’s like to join a global IT distributor. What We’re Looking For: Technical Majors (including, but not limited to: Computer Science, Computer Engineering, Artificial Intelligence, and Systems &amp; Cloud) Current college student: rising juniors and above, including May 2026 graduate Eligible to work in the U.S. – sponsorship is not provided Availability to work full-time (40 hours per week) for a total of 10 weeks during the program Strong experience with SOAP and REST API integration. Proficiency in Python programming for tool development and automation. Solid understanding of LLMs and AI-based conversational systems. Experience designing user input handling and agent routing logic. Ability to troubleshoot, optimize, and scale AI integration workflows. Strong problem-solving, critical thinking, and communication skills. Students who align with our shared values: Together, We Own It, We Dare to Go, We Grow and Win, and above all, We Do the Right Thing. These principles shape how we work with each other, our partners, and our communities as we drive innovation and create lasting impact. Example job duties: Design and develop AI-powered tools and agents using Python Build and integrate solutions leveraging REST and SOAP APIs Develop and implement agentic workflows that interpret user input and route actions intelligently Work with LLMs to power conversational interfaces and automation use cases Translate business needs into scalable AI-driven solutions Collaborate with cross-functional teams to deploy and optimize AI tools Rapidly prototype and implement real-world use cases and scenarios Prior to being eligible to start your internship, you will be subject to a background check. Key Skills At TD SYNNEX, our values guide everything we do: Together, We Own It, We Dare to Go, We Grow and Win, and above all, We Do the Right Thing. These principles shape how we work with each other, our partners, and our communities as we drive innovation and create lasting impact. What’s In It For You? Elective Benefits: Our programs are tailored to your country to best accommodate your lifestyle. Grow Your Career: Accelerate your path to success (and keep up with the future) with formal programs on leadership and professional development, and many more on-demand courses. Elevate Your Personal Well-Being: Boost your financial, physical, and mental well-being through seminars, events, and our global Life Empowerment Assistance Program. Diversity, Equity &amp; Inclusion: It’s not just a phrase to us; valuing every voice is how we succeed. Join us in celebrating our global diversity through inclusive education, meaningful peer-to-peer conversations, and equitable growth and development opportunities. Make the Most of our Global Organization: Network with other new co-workers within your first 30 days through our onboarding program. Connect with Your Community: Participate in internal, peer-led inclusive communities and activities, including business resource groups, local volunteering events, and more environmental and social initiatives. Don’t meet every single requirement? Apply anyway. At TD SYNNEX, we’re proud to be recognized as a great place to work and a leader in the promotion and practice of diversity, equity and inclusion. If you’re excited about working for our company and believe you’re a good fit for this role, we encourage you to apply. You may be exactly the person we’re looking for! We are an equal opportunity employer and committed to building a team that represents and empowers a variety of backgrounds, perspectives, and skills. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, gender, gender identity or expression, sexual orientation, protected veteran status, disability, genetics, age, or any other characteristic protected by law. TD SYNNEX is an E-Verify company At TD SYNNEX (NYSE: SNX), we’re proud to share an unwavering passion for bringing compelling technology products, services and solutions to the world. We’re an innovative partner that helps our customers maximize the value of IT investments, demonstrate business outcomes and unlock growth opportunities. With diverse backgrounds, expertise and experiences, our co-workers make us who we are. When we seek to understand one another and recognize the power of the individual, we demonstrate respect and dignity; we learn, evolve and unlock potential to achieve outstanding results for our customers and win together. This broad perspective is integral to our commitment to diversity, equity and inclusion. To learn more, visit www.TDSYNNEX.com or follow us on Twitter, LinkedIn, and Facebook",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Clearwater, Florida, United States"
+}
+},
+"hiringOrganization" : {
+"name" : "TD SYNNEX Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Technology Track | AI and Integration Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R48642"
+},
+"datePosted" : "2026-03-19",
+"employmentType" : "FULL_TIME",
+"title" : "Technology Track | AI and Integration Engineer Intern",
+"description" : "We’re excited for you to Make IT Personal at TD SYNNEX! Our Summer 2026 Internship offers an array of unique, hands-on experience with our business, and is open to all business majors. This application is for students interested in the Summer 2026 Internship Program | Technology Track, which includes an opportunity in Computer Science, Computer Engineering, Artificial Intelligence, and Systems &amp; Cloud. Applicants will be asked to indicate their area of interest when applying. Our program is 10 weeks, full-time, beginning on May 18th. All of our intern projects and goals vary based on major and department and make a valuable and measurable impact on our business. In exchange (or beyond your assigned work), you will be able to network with our top executives during our speaker series, participate in intern bonding events with your peers, job shadow other departments, and get a feel for what it’s like to join a global IT distributor. What We’re Looking For: Technical Majors (including, but not limited to: Computer Science, Computer Engineering, Artificial Intelligence, and Systems &amp; Cloud) Current college student: rising juniors and above, including May 2026 graduate Eligible to work in the U.S. – sponsorship is not provided Availability to work full-time (40 hours per week) for a total of 10 weeks during the program Strong experience with SOAP and REST API integration. Proficiency in Python programming for tool development and automation. Solid understanding of LLMs and AI-based conversational systems. Experience designing user input handling and agent routing logic. Ability to troubleshoot, optimize, and scale AI integration workflows. Strong problem-solving, critical thinking, and communication skills. Students who align with our shared values: Together, We Own It, We Dare to Go, We Grow and Win, and above all, We Do the Right Thing. These principles shape how we work with each other, our partners, and our communities as we drive innovation and create lasting impact. Example job duties: Design and develop AI-powered tools and agents using Python Build and integrate solutions leveraging REST and SOAP APIs Develop and implement agentic workflows that interpret user input and route actions intelligently Work with LLMs to power conversational interfaces and automation use cases Translate business needs into scalable AI-driven solutions Collaborate with cross-functional teams to deploy and optimize AI tools Rapidly prototype and implement real-world use cases and scenarios Prior to being eligible to start your internship, you will be subject to a background check. Key Skills At TD SYNNEX, our values guide everything we do: Together, We Own It, We Dare to Go, We Grow and Win, and above all, We Do the Right Thing. These principles shape how we work with each other, our partners, and our communities as we drive innovation and create lasting impact. What’s In It For You? Elective Benefits: Our programs are tailored to your country to best accommodate your lifestyle. Grow Your Career: Accelerate your path to success (and keep up with the future) with formal programs on leadership and professional development, and many more on-demand courses. Elevate Your Personal Well-Being: Boost your financial, physical, and mental well-being through seminars, events, and our global Life Empowerment Assistance Program. Diversity, Equity &amp; Inclusion: It’s not just a phrase to us; valuing every voice is how we succeed. Join us in celebrating our global diversity through inclusive education, meaningful peer-to-peer conversations, and equitable growth and development opportunities. Make the Most of our Global Organization: Network with other new co-workers within your first 30 days through our onboarding program. Connect with Your Community: Participate in internal, peer-led inclusive communities and activities, including business resource groups, local volunteering events, and more environmental and social initiatives. Don’t meet every single requirement? Apply anyway. At TD SYNNEX, we’re proud to be recognized as a great place to work and a leader in the promotion and practice of diversity, equity and inclusion. If you’re excited about working for our company and believe you’re a good fit for this role, we encourage you to apply. You may be exactly the person we’re looking for! We are an equal opportunity employer and committed to building a team that represents and empowers a variety of backgrounds, perspectives, and skills. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, gender, gender identity or expression, sexual orientation, protected veteran status, disability, genetics, age, or any other characteristic protected by law. TD SYNNEX is an E-Verify company At TD SYNNEX (NYSE: SNX), we’re proud to share an unwavering passion for bringing compelling technology products, services and solutions to the world. We’re an innovative partner that helps our customers maximize the value of IT investments, demonstrate business outcomes and unlock growth opportunities. With diverse backgrounds, expertise and experiences, our co-workers make us who we are. When we seek to understand one another and recognize the power of the individual, we demonstrate respect and dignity; we learn, evolve and unlock potential to achieve outstanding results for our customers and win together. This broad perspective is integral to our commitment to diversity, equity and inclusion. To learn more, visit www.TDSYNNEX.com or follow us on Twitter, LinkedIn, and Facebook",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "synnex",
+siteId: "tdsynnexcareers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["cs-CZ","de-DE","en-US","en-CA","en-GB","es","fr-CA","fr-FR","it-IT","nl-NL","pl-PL","pt-BR","tr-TR","ja-JP","zh-CN"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=synnex&s=tdsynnexcareers",
+token: "c32f8a08-e08f-4802-ae40-c808a635a1a2",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"ec8047232418100019db05f44b7f0000","altText":null}},"banner":{"image":{"id":"af2cca97c42a1001041aa52b3fab0002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
