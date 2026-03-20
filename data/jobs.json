@@ -1,5 +1,213 @@
 [
   {
+    "company": "Sierra",
+    "role": "Intern – Agent Development",
+    "link": "https://jobs.ashbyhq.com/Sierra/c74d600c-235c-4d42-8546-b178b7adefc2/application",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 3898,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or master's degree in computer science or related field.",
+        "Strong technical problem-solving skills.",
+        "Possess a builder and tinkerer’s mindset with high agency.",
+        "Excellent communication skills.",
+        "Experience building or deploying AI/LLM systems in production.",
+        "Familiarity with AI agent tools: eval frameworks, agent tooling, RAG pipelines, prompt engineering.",
+        "Prior experience with React, TypeScript, and/or Go.",
+        "Open to students graduating December 2026 - June 2027."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Cooper Companies",
+    "role": "R&D Product Engineering Intern",
+    "link": "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10573",
+    "location": "Bridgeport, CT",
+    "season": "2026 Summer",
+    "id": 3897,
+    "jd": null
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "AI Automation Intern",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Burbank-CA-USA/AI-Automation-Intern--Burbank--Summer-2026_10143397",
+    "location": "Burbank, CA",
+    "season": "2026 Summer",
+    "id": 3896,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience building automations through coursework, projects, internships, or personal work.",
+        "Familiar with at least one scripting or programming language (Python, JavaScript/TypeScript).",
+        "Comfortable working with APIs, JSON, and basic systems integration concepts.",
+        "Possess strong analytical and problem-solving skills.",
+        "Have strong written and verbal communication skills.",
+        "Able to collaborate in a team environment and manage multiple tasks.",
+        "Familiar with workflow automation platforms (Power Automate) or basic RPA concepts.",
+        "Exposed to modern AI/ML concepts like prompt engineering, RAG, or model evaluation.",
+        "Experienced with data tools, including SQL fundamentals and data visualization.",
+        "Understand monitoring and reliability concepts (logging, alerting, error handling).",
+        "Interested in user experience and change management.",
+        "Currently enrolled as a junior or senior in an accredited STEM bachelor's degree program."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "TD Synnex",
+    "role": "Technology Track - AI and Integration Engineer",
+    "link": "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Clearwater-Florida-United-States/Technology-Track---AI-and-Integration-Engineer-Intern_R48642",
+    "location": "Clearwater, FL",
+    "season": "2026 Summer",
+    "id": 3895,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Technical Majors in Computer Science, Computer Engineering, AI, Systems & Cloud.",
+        "Current college student: rising junior or above, including May 2026 graduate.",
+        "Strong experience with SOAP and REST API integration.",
+        "Proficient in Python programming for tool development and automation.",
+        "Solid understanding of LLMs and AI-based conversational systems.",
+        "Experienced in designing user input handling and agent routing logic.",
+        "Able to troubleshoot, optimize, and scale AI integration workflows.",
+        "Possess strong problem-solving, critical thinking, and communication skills.",
+        "Align with company values.",
+        "Design and develop AI-powered tools and agents using Python.",
+        "Build and integrate solutions leveraging REST and SOAP APIs.",
+        "Develop and implement agentic workflows for user input and routing.",
+        "Work with LLMs to power conversational interfaces and automation.",
+        "Translate business needs into scalable AI-driven solutions.",
+        "Collaborate with cross-functional teams to deploy and optimize AI tools.",
+        "Rapidly prototype and implement real-world use cases."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Analog Devices",
+    "role": "Software Engineering Intern",
+    "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Software-Engineering-Intern_R257207-1",
+    "location": "Durham, NC",
+    "season": "2026 Summer",
+    "id": 3894,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a bachelor's degree in Computer Science or related field.",
+        "Proficient with Python and/or Java.",
+        "Understand software development principles.",
+        "Skilled in Typescript, Javascript, and/or HTML/CSS.",
+        "Familiar with version control systems (e.g., Git).",
+        "Strong communication and collaboration skills.",
+        "Eager to learn and take initiative.",
+        "Able to manage time effectively and meet deadlines.",
+        "Willing to learn and use Bash.",
+        "Experienced with Linux or Windows environments."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Veeva Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://jobs.lever.co/veeva/8fd7767d-b134-422c-890b-338ec2e79212/apply",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 3893,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Waymo",
+    "role": "Intern",
+    "link": "https://careers.withwaymo.com/jobs?gh_jid=7733386",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 3892,
+    "jd": null
+  },
+  {
+    "company": "The Trade Desk",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/thetradedesk/jobs/4959712007",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3891,
+    "jd": null
+  },
+  {
+    "company": "Planet",
+    "role": "Intern Software Engineer - Mission Systems",
+    "link": "https://job-boards.greenhouse.io/planetlabs/jobs/7729180",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 3890,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Computer Science, Aerospace Engineering, or similar.",
+        "Experience in Python programming.",
+        "Demonstrate attention to quality, automated testing, code review, and documentation.",
+        "Maintain peer-reviewed code and continuous integration and deployment workflows (GitLab CI, Docker).",
+        "Proficient Linux skills.",
+        "Be a self-starter for solving problems in a dynamic environment.",
+        "Clearly communicate and collaborate with cross-functional teams.",
+        "Experience building services leveraging cloud infrastructure (AWS, GCP).",
+        "Experience with relational database technologies (Postgres, MySQL).",
+        "Experience in API design.",
+        "Knowledge of aerospace concepts."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ingram Micro",
+    "role": "Information Systems Intern - Information Systems",
+    "link": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Irvine-CA-United-States-of-America/Summer-Intern---Information-Systems_R-114341",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 3889,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program, or recently graduated.",
+        "Preferred to be a junior or senior.",
+        "Pursuing a Bachelor’s degree in Computer Science or a related field.",
+        "Have 0-1 year experience in designing and programming APIs and SDLC.",
+        "Good understanding of OOPs and Data Structures.",
+        "Experience with Frontend Development: HTML, CSS, JavaScript, React.",
+        "Experience with Backend Development: C#, Python, or Java.",
+        "Familiarity with Version Control: Git, GitHub.",
+        "Experience with Databases: PostgreSQL or MySQL.",
+        "Familiarity with Microsoft Office Suite and Office 365.",
+        "Possess strong problem-solving skills and willingness to learn new technologies.",
+        "Exposure to Generative AI tools like ChatGPT.",
+        "Excellent communication and teamwork abilities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Red Hat",
     "role": "Software Engineering",
     "link": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineering-Co-op_R-055872",
