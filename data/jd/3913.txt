@@ -1,0 +1,248 @@
+{"hiringOrganization":{"@type":"Organization","name":"Logistics Management Institute","sameAs":"www.lmi.org"},"validThrough":"2027-01-09T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Colorado Springs","addressRegion":"CO","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>LMI is seeking a 2026 Intern Applicants to our Summer 2026 Cohort for Space Systems Engineering opportunities. <\/p>\n<p>&nbsp;<\/p>\n<p><strong>This position will be an on-site role in Colorado Springs, CO*<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>LMI is a new breed of digital solutions provider dedicated to accelerating government impact with innovation and speed. Investing in technology and prototypes ahead of need, LMI brings commercial-grade platforms and mission-ready AI to federal agencies at commercial speed.&nbsp;<\/p>\n<p>Leveraging our mission-ready technology and solutions, proven expertise in federal deployment, and strategic relationships, we enhance outcomes for the government, efficiently and effectively. With a focus on agility and collaboration, LMI serves the defense, space, healthcare, and energy sectors\u2014helping agencies navigate complexity and outpace change. Headquartered in Tysons, Virginia, LMI is committed to delivering impactful results that strengthen missions and drive lasting value.<\/p>\n<p>&nbsp;<\/p>\n<p>As a Space Systems Engineering Intern, you will interact daily with professional Space Systems Engineers, Aerospace Engineers, Software Engineers, UI/UX engineers, Space Systems Engineers, and Operations Analysts that support our customers.&nbsp; You will have the opportunity to directly support software implementation and refine your skills as you progress through the internship. <\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Work as part of an agile analytical team to create novel solutions to our customers\u2019 needs.<\/li>\n <li>Participate in peer reviews of development work to evaluate coding techniques and implementation.<\/li>\n <li>Work with team members of all levels to complete daily tasks, share development knowledge, follow-up and escalate issues appropriately, and recommend design and process improvement.<\/li>\n <li>Evaluate, modify, and implement simulation and analysis tools.<\/li>\n <li>Translate user stories and business requirements into effective designs.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Current enrollment in an undergraduate or graduate program in a Computer Science related discipline.<\/li>\n <li>Availability to work full-time for at least 10-12 weeks for summer 2026.<\/li>\n <li>Ability to work on-site in the office full-time<\/li>\n <li>Strong understanding of software development principles and how to apply them.<\/li>\n <li>Prior experience as a software developer.<\/li>\n <li>Strong interpersonal and listening skills, with ability to develop and maintain professional relationships within LMI and with its clients.<\/li>\n <li>Team-oriented attitude with a growth mindset and willingness to continually learn and apply new technologies.<\/li>\n <li>Previous experience with or a desire to work in the space domain.<\/li>\n<\/ul>\n<p>All internship positions at LMI are paid positions. The pay range for this position is 20-27/hr.<\/p>\n<p>&nbsp;<\/p>\n<p><strong><em>Disclaimer:<\/em><\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>The salary range displayed&nbsp;represents&nbsp;the typical salary range for this position and is not a guarantee of compensation. Individual salaries are&nbsp;determined&nbsp;by&nbsp;various factors&nbsp;including, but not limited to location, internal equity, business considerations, client contract requirements, and candidate qualifications, such as education, experience, skills, and security clearances.<\/p>","directApply":true,"datePosted":"2026-01-09T00:00:00.000Z","title":"Space Systems Engineering Intern - Summer 2026","occupationalCategory":"Internships","@context":"http://schema.org","url":"https://careers-lmi.icims.com/jobs/13505/space-systems-engineering-intern---summer-2026/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+LMI Government Consulting | Position Openings | Space Systems Engineering Intern - Summer 2026 in Colorado Springs, Colorado | Careers at Colorado Springs, CO
+var isMobile = true;
+var link = 'https://careers-lmi.icims.com/connect/interests?csrf=EF85D7C6D4CFB61D&hashed=-435623232';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_180.0.0.260302-352e1758b53-11-6/script/portal/login.js');
+var jobId = "13505";
+var fbJobId = "939964a8-7b43-3563-ae3b-4d7cd68cc65a";
+var icimsSD = {"person":{},"companyName":"LMI","env":"prod","job":{"jid":13505,"jobUrls":[{"name":"careers","url":"https://careers-lmi.icims.com/jobs/13505/space-systems-engineering-intern---summer-2026/job"}],"location":"Colorado Springs, Colorado, United States","title":"Space Systems Engineering Intern - Summer 2026"},"version":"1.015","key":"2","cid":"ILSV8M1C578MY+LWllN1tH1EZZpXRwMCH1aV8CNoM5jo36HfJ3DCeH+cEi+M"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-lmi.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+LMI
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2wRWqVmyqn7TPWcE1","type":"careers"},"release":"180.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":8488,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave2","build":"platform_180.0.0.260302-352e1758b53-11-6","customerGAAccount":"UA-20711805-3","icimsGAAnonymizeIP":true,"customerId":"39fNx5ihtW3bHwct4","region":"US","job":{"positionType":"Hourly Low Fringe/Intern","company":"Colorado Springs, CO","location":{"zip":"not set","country":"USA","city":"Colorado Springs","state":"CO"},"id":"2cLahDBxEcnTfunTw","idRaw":13505,"title":"Space Systems Engineering Intern - Summer 2026","category":"Internships","postedDate":"2026-01-09"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"Logistics Management Institute","sameAs":"www.lmi.org"},"validThrough":"2027-01-09T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Colorado Springs","addressRegion":"CO","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>LMI is seeking a 2026 Intern Applicants to our Summer 2026 Cohort for Space Systems Engineering opportunities. <\/p>\n<p>&nbsp;<\/p>\n<p><strong>This position will be an on-site role in Colorado Springs, CO*<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>LMI is a new breed of digital solutions provider dedicated to accelerating government impact with innovation and speed. Investing in technology and prototypes ahead of need, LMI brings commercial-grade platforms and mission-ready AI to federal agencies at commercial speed.&nbsp;<\/p>\n<p>Leveraging our mission-ready technology and solutions, proven expertise in federal deployment, and strategic relationships, we enhance outcomes for the government, efficiently and effectively. With a focus on agility and collaboration, LMI serves the defense, space, healthcare, and energy sectors\u2014helping agencies navigate complexity and outpace change. Headquartered in Tysons, Virginia, LMI is committed to delivering impactful results that strengthen missions and drive lasting value.<\/p>\n<p>&nbsp;<\/p>\n<p>As a Space Systems Engineering Intern, you will interact daily with professional Space Systems Engineers, Aerospace Engineers, Software Engineers, UI/UX engineers, Space Systems Engineers, and Operations Analysts that support our customers.&nbsp; You will have the opportunity to directly support software implementation and refine your skills as you progress through the internship. <\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Work as part of an agile analytical team to create novel solutions to our customers\u2019 needs.<\/li>\n <li>Participate in peer reviews of development work to evaluate coding techniques and implementation.<\/li>\n <li>Work with team members of all levels to complete daily tasks, share development knowledge, follow-up and escalate issues appropriately, and recommend design and process improvement.<\/li>\n <li>Evaluate, modify, and implement simulation and analysis tools.<\/li>\n <li>Translate user stories and business requirements into effective designs.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Current enrollment in an undergraduate or graduate program in a Computer Science related discipline.<\/li>\n <li>Availability to work full-time for at least 10-12 weeks for summer 2026.<\/li>\n <li>Ability to work on-site in the office full-time<\/li>\n <li>Strong understanding of software development principles and how to apply them.<\/li>\n <li>Prior experience as a software developer.<\/li>\n <li>Strong interpersonal and listening skills, with ability to develop and maintain professional relationships within LMI and with its clients.<\/li>\n <li>Team-oriented attitude with a growth mindset and willingness to continually learn and apply new technologies.<\/li>\n <li>Previous experience with or a desire to work in the space domain.<\/li>\n<\/ul>\n<p>All internship positions at LMI are paid positions. The pay range for this position is 20-27/hr.<\/p>\n<p>&nbsp;<\/p>\n<p><strong><em>Disclaimer:<\/em><\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>The salary range displayed&nbsp;represents&nbsp;the typical salary range for this position and is not a guarantee of compensation. Individual salaries are&nbsp;determined&nbsp;by&nbsp;various factors&nbsp;including, but not limited to location, internal equity, business considerations, client contract requirements, and candidate qualifications, such as education, experience, skills, and security clearances.<\/p>","directApply":true,"datePosted":"2026-01-09T00:00:00.000Z","title":"Space Systems Engineering Intern - Summer 2026","occupationalCategory":"Internships","@context":"http://schema.org","url":"https://careers-lmi.icims.com/jobs/13505/space-systems-engineering-intern---summer-2026/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Space Systems Engineering Intern - Summer 2026
+Job Locations
+US-CO-Colorado Springs
+Posted Date
+2 months ago(1/9/2026 7:19 PM)
+Job ID
+2026-13505
+# of Openings
+2
+Category
+Internships
+Benefit Type
+Hourly Low Fringe/Intern
+Overview
+LMI is seeking a 2026 Intern Applicants to our Summer 2026 Cohort for Space Systems Engineering opportunities. This position will be an on-site role in Colorado Springs, CO* LMI is a new breed of digital solutions provider dedicated to accelerating government impact with innovation and speed. Investing in technology and prototypes ahead of need, LMI brings commercial-grade platforms and mission-ready AI to federal agencies at commercial speed. Leveraging our mission-ready technology and solutions, proven expertise in federal deployment, and strategic relationships, we enhance outcomes for the government, efficiently and effectively. With a focus on agility and collaboration, LMI serves the defense, space, healthcare, and energy sectors—helping agencies navigate complexity and outpace change. Headquartered in Tysons, Virginia, LMI is committed to delivering impactful results that strengthen missions and drive lasting value. As a Space Systems Engineering Intern, you will interact daily with professional Space Systems Engineers, Aerospace Engineers, Software Engineers, UI/UX engineers, Space Systems Engineers, and Operations Analysts that support our customers. You will have the opportunity to directly support software implementation and refine your skills as you progress through the internship.
+Responsibilities
+Work as part of an agile analytical team to create novel solutions to our customers’ needs.Participate in peer reviews of development work to evaluate coding techniques and implementation.Work with team members of all levels to complete daily tasks, share development knowledge, follow-up and escalate issues appropriately, and recommend design and process improvement.Evaluate, modify, and implement simulation and analysis tools.Translate user stories and business requirements into effective designs.
+Qualifications
+Current enrollment in an undergraduate or graduate program in a Computer Science related discipline.Availability to work full-time for at least 10-12 weeks for summer 2026.Ability to work on-site in the office full-timeStrong understanding of software development principles and how to apply them.Prior experience as a software developer.Strong interpersonal and listening skills, with ability to develop and maintain professional relationships within LMI and with its clients.Team-oriented attitude with a growth mindset and willingness to continually learn and apply new technologies.Previous experience with or a desire to work in the space domain.All internship positions at LMI are paid positions. The pay range for this position is 20-27/hr. Disclaimer: The salary range displayed represents the typical salary range for this position and is not a guarantee of compensation. Individual salaries are determined by various factors including, but not limited to location, internal equity, business considerations, client contract requirements, and candidate qualifications, such as education, experience, skills, and security clearances.
+Options
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+LMI is an Equal Opportunity Employer. LMI is committed to the fair treatment of all and to our policy of providing applicants and employees with equal employment opportunities. LMI recruits, hires, trains, and promotes people without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, pregnancy, disability, age, protected veteran status, citizenship status, genetic information, or any other characteristic protected by applicable federal, state, or local law. If you are a person with a disability needing assistance with the application process, please contact accommodations@lmi.org
+Colorado Residents: In any materials you submit, you may redact or remove age-identifying information such as age, date of birth, or dates of school attendance or graduation. You will not be penalized for redacting or removing this information.
+Need help finding the right job?
+We can recommend jobs specifically for you!
+Click here to get started.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

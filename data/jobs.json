@@ -1,5 +1,199 @@
 [
   {
+    "company": "Rolls-Royce Motorcars",
+    "role": "Software Engineer Co-Op",
+    "link": "https://jobs.bmwgroup.com/job/Spartanburg-Software-Engineer-Co-Op-(Fall-2026)-Sout/1376199233/?ats=successfactors",
+    "location": "Spartanburg, SC",
+    "season": "2026 Fall",
+    "id": 3914,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Computer Engineering, Information Systems, or a related field",
+        "Understand Object-oriented programming",
+        "Possess experience in C#, SQL, Python, HTML/CSS, or JavaScript (preferred)",
+        "Maintain a minimum cumulative GPA of 3.0",
+        "Be an enrolled student at an accredited US four-year college or university",
+        "Complete at least 30 credit hours",
+        "Ability to work full-time on-site (40 hours/week)"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "LMI",
+    "role": "Space Systems Engineering Intern",
+    "link": "https://careers-lmi.icims.com/jobs/13505/job?mobile=true&needsRedirect=false",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 3913,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in an undergraduate or graduate program in Computer Science related discipline",
+        "Available to work full-time for 10-12 weeks for summer 2026",
+        "Able to work on-site in the office full-time",
+        "Strong understanding of software development principles",
+        "Possess prior experience as a software developer",
+        "Strong interpersonal and listening skills",
+        "Exhibit a team-oriented attitude with a growth mindset",
+        "Have experience or desire to work in the space domain"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Microsoft",
+    "role": "Software Engineer – The Coalition: Intern Opportunities",
+    "link": "https://apply.careers.microsoft.com/careers/job/1970393556851162",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 3912,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Canada",
+      "qualifications": [
+        "Apply engineering principles to solve complex problems",
+        "Work with stakeholders to determine user requirements",
+        "Quickly learn new engineering methods and incorporate them",
+        "Seek feedback and apply internal or industry best practices",
+        "Demonstrate skill in time management and completing software projects",
+        "Review current developments and proactively seek new knowledge",
+        "Currently pursuing Bachelor's or Master's degree in Computer Science, Engineering, or related field",
+        "Have at least one semester/term remaining following the completion of the internship",
+        "One year of programming experience in an object-oriented language",
+        "Demonstrate an understanding of computer science fundamentals, including data structures and algorithms",
+        "Experience on game-related projects through a university course, past intern experience or a personal project"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Impiricus",
+    "role": "Software Engineer Intern - Full Stack",
+    "link": "https://job-boards.greenhouse.io/impiricus/jobs/5160382008",
+    "location": "Remote in USANYCAtlanta, GA",
+    "season": "2026 Summer",
+    "id": 3911,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a Bachelor's degree in Computer Science or related STEM field.",
+        "Familiar with at least one programming language (e.g., Python, Golang, JavaScript, TypeScript).",
+        "Exposed to web development concepts and frontend frameworks (e.g., React, Next.js).",
+        "Understand basic REST APIs, databases, and version control (Git).",
+        "Interested in learning about cloud platforms, microservices architecture, and modern DevOps practices.",
+        "Curious about AI/LLMs and their application in real-world software systems.",
+        "Possess strong problem-solving skills, eagerness to learn, and ability to work collaboratively."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Revvity",
+    "role": "Full-Stack AI Developer Intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043681-1",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 3910,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong interest in enterprise AI applications",
+        "Familiarity with popular LLMs",
+        "Familiarity with Python, Next.JS, Docker, and full stack technologies",
+        "Basic understanding of prompt engineering concepts",
+        "Proficient in at least one programming language, Python preferred",
+        "Knowledge of machine learning concepts and frameworks",
+        "Able to work in a fast-paced, rapidly changing environment",
+        "Strong problem-solving skills and meticulous attention to detail",
+        "Excellent communication skills, written and verbal",
+        "Understand business processes and enterprise software systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Revvity",
+    "role": "Full-Stack AI Developer Intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043678",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 3909,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong interest in enterprise AI applications.",
+        "Familiar with popular LLMs such as ChatGPT or Claude.",
+        "Familiar with Python, Next.JS, Docker, and full-stack technologies.",
+        "Possess a basic understanding of prompt engineering concepts.",
+        "Proficient in at least one programming language, Python preferred.",
+        "Knowledgeable in machine learning concepts and frameworks (e.g., TensorFlow, PyTorch).",
+        "Able to work in a fast-paced, rapidly changing environment.",
+        "Possess strong problem-solving skills and meticulous attention to detail.",
+        "Excellent written and verbal communication skills.",
+        "Understand business processes and enterprise software systems."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Revvity",
+    "role": "Full-Stack AI Developer Intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043680",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 3908,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong interest in enterprise AI applications.",
+        "Familiarity with popular LLMs like ChatGPT or Claude.",
+        "Familiarity with Python, Next.JS, Docker, and full stack technologies.",
+        "Basic understanding of prompt engineering concepts.",
+        "Proficient in at least one programming language (Python preferred).",
+        "Knowledge of machine learning concepts and frameworks.",
+        "Able to work in a fast-paced, rapidly changing environment.",
+        "Strong problem-solving skills and meticulous attention to detail.",
+        "Excellent written and verbal communication skills.",
+        "Understand business processes and enterprise software systems."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Age of Learning",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/aofl/4b91076d-8937-4dbc-a502-a7d6a66e2e19/apply",
+    "location": "Glendale, CA",
+    "season": "2026 Summer",
+    "id": 3907,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Available to work part-time (25 hours/week) for 10 weeks",
+        "Able to commit to hybrid work in Glendale, CA on Wednesdays and Thursdays",
+        "Legally authorized to work in the U.S. without sponsorship"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "TNS",
     "role": "Web Applications Intern",
     "link": "https://tnsi.wd1.myworkdayjobs.com/Search/job/USA---Reston/Web-Applications-Intern_R2880",
