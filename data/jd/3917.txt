@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Chicago"
+}
+},
+"hiringOrganization" : {
+"name" : "Littelfuse, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "JR-111239"
+},
+"datePosted" : "2026-03-20",
+"employmentType" : "FULL_TIME",
+"title" : "AI Engineering Intern",
+"description" : "Littelfuse is one of America’s Best Mid-Sized Companies (Forbes) and has been named one of the Best Places to Work in Illinois (Best Companies Group) for 11 consecutive years. With its global headquarters in Chicago, Illinois, USA, Littelfuse is a leading, global manufacturer of electronic components serving more than 100,000 end customers across industrial, transportation, and electronics end markets. We have more than 17,000 employees with operations in 15 countries. From semiconductors to sensors… switches to fuses and more… we produce billions of electronic components that help our customers empower a sustainable, connected, and safer world. In 2021, Littelfuse had net sales of $2.1 billion. We are seeking a talented AI Engineering Intern to join our team and make meaningful contributions in our goal to implement AI systems at Littelfuse. This internship focuses on working with large language models (LLMs), user interfaces, developing advanced Retrieval-Augmented Generation (RAG) pipelines, and staying current with the latest advancements in AI technologies. You will work closely with developers and collaborate with cross-functional stakeholders in Engineering, Product Management, Project Management, and IT to design and deliver impactful AI solutions. This high-ownership role offers the opportunity to deliver production-quality code, conduct research experiments, and complete a substantial capstone project suitable for inclusion in your professional portfolio. About your role: Contribute to new features, user interface/experience enhancements, integrations, and tool/function-calling capabilities under team guidance. Help design, implement, and optimize end-to-end RAG pipelines, including data ingestion, chunking, embedding generation, vector storage, retrieval, and post-processing. Evaluate and benchmark system performance, mitigate hallucinations, and document resulting improvements. Monitor emerging developments in LLMs, RAG systems, agentic workflows, and AI tools. Conduct experiments, analyze results, document findings, and deliver weekly insights and recommendations to the team. About You: Currently pursuing a Bachelor’s or Master’s degree in Computer Science, AI/ML, Engineering, or a closely related field (rising juniors, seniors, or recent graduates preferred). Strong proficiency in Python 3.11+ with hands-on experience Familiarity with Git, Docker, and Linux/WSL environments. Solid understanding of LLMs, prompt engineering, embeddings, and vector databases. Excellent problem-solving abilities, documentation skills, and verbal/written communication. Proven ability to collaborate effectively in cross-functional teams and with diverse stakeholders. Preferred Qualifications Prior hands-on experience with local LLMs, RAG systems, or open-source AI tooling. Experience with FastAPI, PostgreSQL, or cloud platforms (Azure, GCP, AWS). Prior research experience, including reading academic papers and conducting experiments. Deep passion for Artificial Intelligence field of study The salary offered will vary depending on your location, job-related skills, knowledge, and experience. Our humble roots date back to 1927, where, in the back of a garage on Chicago’s northside, our founder, Edward Sundt, developed a small, fast-acting, protective fuse for use in sensitive test meters. Sundt wanted to call his new company producing these small fuses, “Little Fuse,” but wasn’t allowed to trademark two such common words. So, instead he went with the one-word, misspelled “Littelfuse.” For more than 95 years, Littelfuse has pioneered innovative products that help empower a sustainable, connected, and safer world. With the ever-evolving electrification and electronification of customer applications, our product technologies are closely linked to sustainable applications such as electric vehicles and EV charging infrastructure, renewable energy and energy storage, factory automation, power management and more. Throughout our history, our people have been the foundation of our success — and that remains true today. Now more than ever, our bright and talented people are a strategic advantage for the company. From the production line to the engineering lab, the office or distribution center, Littelfuse people are an important part of a diverse, talented team of the best and brightest in the industry. While Littelfuse has experienced tremendous growth in recent years, we still maintain a small-company, entrepreneurial approach where your efforts will drive our culture, our business, and the overall success of the organization. No matter where you work or what you do, your contributions will make a difference at Littelfuse — everywhere, every day. Littelfuse is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, gender identity, sexual orientation, disability, protected veteran status, and/or any other protected class under federal, state, or local law.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Chicago"
+}
+},
+"hiringOrganization" : {
+"name" : "Littelfuse, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "JR-111239"
+},
+"datePosted" : "2026-03-20",
+"employmentType" : "FULL_TIME",
+"title" : "AI Engineering Intern",
+"description" : "Littelfuse is one of America’s Best Mid-Sized Companies (Forbes) and has been named one of the Best Places to Work in Illinois (Best Companies Group) for 11 consecutive years. With its global headquarters in Chicago, Illinois, USA, Littelfuse is a leading, global manufacturer of electronic components serving more than 100,000 end customers across industrial, transportation, and electronics end markets. We have more than 17,000 employees with operations in 15 countries. From semiconductors to sensors… switches to fuses and more… we produce billions of electronic components that help our customers empower a sustainable, connected, and safer world. In 2021, Littelfuse had net sales of $2.1 billion. We are seeking a talented AI Engineering Intern to join our team and make meaningful contributions in our goal to implement AI systems at Littelfuse. This internship focuses on working with large language models (LLMs), user interfaces, developing advanced Retrieval-Augmented Generation (RAG) pipelines, and staying current with the latest advancements in AI technologies. You will work closely with developers and collaborate with cross-functional stakeholders in Engineering, Product Management, Project Management, and IT to design and deliver impactful AI solutions. This high-ownership role offers the opportunity to deliver production-quality code, conduct research experiments, and complete a substantial capstone project suitable for inclusion in your professional portfolio. About your role: Contribute to new features, user interface/experience enhancements, integrations, and tool/function-calling capabilities under team guidance. Help design, implement, and optimize end-to-end RAG pipelines, including data ingestion, chunking, embedding generation, vector storage, retrieval, and post-processing. Evaluate and benchmark system performance, mitigate hallucinations, and document resulting improvements. Monitor emerging developments in LLMs, RAG systems, agentic workflows, and AI tools. Conduct experiments, analyze results, document findings, and deliver weekly insights and recommendations to the team. About You: Currently pursuing a Bachelor’s or Master’s degree in Computer Science, AI/ML, Engineering, or a closely related field (rising juniors, seniors, or recent graduates preferred). Strong proficiency in Python 3.11+ with hands-on experience Familiarity with Git, Docker, and Linux/WSL environments. Solid understanding of LLMs, prompt engineering, embeddings, and vector databases. Excellent problem-solving abilities, documentation skills, and verbal/written communication. Proven ability to collaborate effectively in cross-functional teams and with diverse stakeholders. Preferred Qualifications Prior hands-on experience with local LLMs, RAG systems, or open-source AI tooling. Experience with FastAPI, PostgreSQL, or cloud platforms (Azure, GCP, AWS). Prior research experience, including reading academic papers and conducting experiments. Deep passion for Artificial Intelligence field of study The salary offered will vary depending on your location, job-related skills, knowledge, and experience. Our humble roots date back to 1927, where, in the back of a garage on Chicago’s northside, our founder, Edward Sundt, developed a small, fast-acting, protective fuse for use in sensitive test meters. Sundt wanted to call his new company producing these small fuses, “Little Fuse,” but wasn’t allowed to trademark two such common words. So, instead he went with the one-word, misspelled “Littelfuse.” For more than 95 years, Littelfuse has pioneered innovative products that help empower a sustainable, connected, and safer world. With the ever-evolving electrification and electronification of customer applications, our product technologies are closely linked to sustainable applications such as electric vehicles and EV charging infrastructure, renewable energy and energy storage, factory automation, power management and more. Throughout our history, our people have been the foundation of our success — and that remains true today. Now more than ever, our bright and talented people are a strategic advantage for the company. From the production line to the engineering lab, the office or distribution center, Littelfuse people are an important part of a diverse, talented team of the best and brightest in the industry. While Littelfuse has experienced tremendous growth in recent years, we still maintain a small-company, entrepreneurial approach where your efforts will drive our culture, our business, and the overall success of the organization. No matter where you work or what you do, your contributions will make a difference at Littelfuse — everywhere, every day. Littelfuse is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, gender identity, sexual orientation, disability, protected veteran status, and/or any other protected class under federal, state, or local law.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "littelfuse",
+siteId: "Littelfuse-Careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","it-IT","ja-JP","zh-CN"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=littelfuse&s=Littelfuse-Careers",
+token: "04cb9e80-f64c-44b6-92f5-0540e3514ace",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#007E3A","textColor":"#007E3A"},"progressBar":{"color":"#007E3A"},"button":{"primary":{"color":"#007E3A","borderColor":"#007E3A","textColor":"#FCFCFC","hover":{"color":"#FCFCFC","borderColor":"#007E3A","textColor":"#007E3A"}},"secondary":{"borderColor":"#007E3A","textColor":"#007E3A","hover":{"borderColor":"#007E3A","textColor":"#007E3A"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"8b3de58d605e014cd642ec66f501447f","altText":null}},"banner":{"borderColor":"#A2A8A3","textColor":"#575957","image":{"id":"8b3de58d605e01f5e600ec66f501407f","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
