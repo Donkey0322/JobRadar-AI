@@ -1,5 +1,30 @@
 [
   {
+    "company": "TNS",
+    "role": "Web Applications Intern",
+    "link": "https://tnsi.wd1.myworkdayjobs.com/Search/job/USA---Reston/Web-Applications-Intern_R2880",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 3906,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess a strong software development background",
+        "Demonstrate analytical skills",
+        "Proficient in Web UI/UX design",
+        "Skilled in AI tools for software development",
+        "Exhibit problem-solving skills",
+        "Maintain effective communication",
+        "Ability to work collaboratively in a team environment",
+        "Pursue a degree in Computer Science, Computer Engineering, Electrical Engineering, or related technical field",
+        "Complete at least three years of study in a technical field"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Cohesity",
     "role": "Software Engineering Intern",
     "link": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2026_R01589-1",
