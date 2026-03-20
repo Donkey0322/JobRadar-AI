@@ -1,5 +1,60 @@
 [
   {
+    "company": "DriveWealth",
+    "role": "AI Consulting Associate Program – Engineering Intern - AI CAP",
+    "link": "https://boards.greenhouse.io/drivewealth/jobs/7673413003",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3903,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Machine Learning, Mathematics, Engineering, or related technical field.",
+        "Experience programming in Python and SQL.",
+        "Familiarity with APIs, JSON, and basic service integration.",
+        "Understand large language models and their application use.",
+        "Strong curiosity and willingness to explore new technologies.",
+        "Possess a growth mindset and enjoy experimenting.",
+        "Apply systems thinking to workflows and edge cases.",
+        "Communicate technical ideas clearly, both written and verbally.",
+        "Exhibit an ownership mindset, taking responsibility for outcomes.",
+        "Ability to accept feedback and iterate quickly.",
+        "Experience with agentic frameworks (e.g., AWS Strands SDK, Longchain).",
+        "Exposure to cloud platforms or containerized environments.",
+        "Familiarity with cloud environments (AWS preferred).",
+        "Experience building internal tools, CLIs, or low-code web apps.",
+        "Interest in AI evaluation, testing, or reliability techniques."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "DevRev",
+    "role": "Member of Technical Staff Intern 🎓",
+    "link": "https://job-boards.greenhouse.io/devrev/jobs/5820462004",
+    "location": "Palo Alto, CAAustin, TX",
+    "season": "2026 Summer",
+    "id": 3902,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Possess a Ph.D. (2nd year+) or Master's with 4+ years experience in CS, AI, ML, or Data Science.",
+        "Proficient in Python and ML frameworks (PyTorch, TensorFlow).",
+        "Possess solid knowledge of NLP, Deep Learning, and Information Retrieval.",
+        "Experienced with Large Language Models, prompt engineering, or vector embeddings.",
+        "Demonstrate a track record of independent research or impactful projects.",
+        "Published in top-tier AI/ML conferences.",
+        "Experienced with knowledge graphs, SQL-native data layers, or autonomous AI agents.",
+        "Actively contribute to open-source AI projects."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Hearst",
     "role": "Intern Engineering",
     "link": "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026327",
