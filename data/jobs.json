@@ -1,5 +1,116 @@
 [
   {
+    "company": "The Walt Disney Company",
+    "role": "Software Engineering Intern - AI",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Software-Engineering-Intern--AI--Summer-2026_10143621-1",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 3928,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience building RAG applications using frameworks.",
+        "Understand Language Models (Google Gemini, OpenAI GPT, Nova, Mistral).",
+        "Understand LLM evaluation techniques and prompt engineering basics.",
+        "Demonstrate effective problem-solving and communication skills.",
+        "Understand multi-agentic workflows for building LLM applications.",
+        "Proficient in Go, Python, Java, or C++.",
+        "Exposed to machine learning frameworks (TensorFlow, PyTorch, scikit-learn).",
+        "Familiar with data structures, algorithms, and software engineering best practices.",
+        "Strong analytical and problem-solving skills.",
+        "Eager to learn new technologies and adapt to evolving project needs.",
+        "Excellent verbal and written communication skills.",
+        "Experience with AI or machine learning (internship, hackathon, research, or personal project).",
+        "Exposed to cloud platforms (AWS, GCP, Azure).",
+        "Experience with data visualization libraries/tools (Matplotlib, Tableau).",
+        "Passionate about storytelling, entertainment technology, or innovative guest experiences.",
+        "Currently enrolled as a junior or senior in Computer Science, Computer Engineering or other STEM related field."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Posit PBC (formerly RStudio)",
+    "role": "Posit Intern",
+    "link": "https://posit.co/job-detail/?gh_jid=7674250003",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3927,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong coding skills in R or Python.",
+        "Demonstrate a focus on data-related work.",
+        "Comfortable with Git and GitHub.",
+        "Maintain an existing valid GitHub account.",
+        "Able to showcase built projects (software, packages, dashboards, web applications, or data analysis repositories).",
+        "Possess solid working knowledge of HTML/CSS.",
+        "Experience in R, Python, or JavaScript.",
+        "Familiarity with WCAG.",
+        "Familiarity with assistive technology.",
+        "Familiarity with automated testing frameworks.",
+        "Familiarity with open-source workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Software Engineering Intern - Cloud Governance",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Burbank-CA-USA/Software-Engineering-Intern--Cloud-Governance--Summer-2026_10143615",
+    "location": "Seattle, WABurbank, CA",
+    "season": "2026 Summer",
+    "id": 3926,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in at least one modern programming language (Python, NodeJS, Java, or Go).",
+        "Understand how web applications work, including basic API concepts (HTTP, REST, or GraphQL).",
+        "Familiar with database concepts (SQL or NoSQL) and data modeling.",
+        "Strong desire to learn about Cloud Computing (AWS, Azure, GCP) and Software Architecture.",
+        "Communicate technical questions clearly and collaborate effectively in a team setting.",
+        "Experience in software development (internships, capstone projects, or personal coding projects).",
+        "Exposure to a public cloud provider (AWS, Azure, or GCP).",
+        "Familiar with version control systems (like Git).",
+        "Currently enrolled as a junior or senior pursuing a bachelor’s degree in Computer Science or other STEM related field."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Software Engineering Intern - Cloud Governance",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Burbank-CA-USA/Software-Engineering-Intern--Cloud-Governance--Summer-2026_10143615-1",
+    "location": "Seattle, WABurbank, CA",
+    "season": "2026 Summer",
+    "id": 3925,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in modern programming languages (Python, NodeJS, Java, Go).",
+        "Understand web application mechanics and API concepts (HTTP, REST, GraphQL).",
+        "Familiar with database concepts (SQL, NoSQL) and data modeling.",
+        "Strong desire to learn Cloud Computing (AWS, Azure, GCP) and Software Architecture.",
+        "Communicate technical questions clearly and collaborate effectively.",
+        "Experienced in software development (internships, projects).",
+        "Exposed to public cloud providers (AWS, Azure, GCP).",
+        "Familiar with version control systems (Git).",
+        "Enrolled as a junior/senior in Computer Science or STEM bachelor's degree.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Redhorse",
     "role": "Software Developer Intern",
     "link": "https://jobs.lever.co/redhorsecorp/bc3758c8-0413-4888-b367-10f1bad64692/apply",
