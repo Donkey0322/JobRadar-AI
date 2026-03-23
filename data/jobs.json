@@ -1,5 +1,145 @@
 [
   {
+    "company": "Paramount Global",
+    "role": "Paramount Streaming Engineering Intern - Front End",
+    "link": "https://careers.paramount.com/job/Burbank-Paramount-Streaming-Engineering-Intern,-Front-End-(Summer-2026-In-Person-LA)-CA-91505/1375918300/?ats=successfactors",
+    "location": "Burbank, CA",
+    "season": "2026 Summer",
+    "id": 3951,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. or M.S. degree in Computer Science, Software Engineering, or a related field.",
+        "Experience building mobile or web applications using React Native or React.",
+        "Proficient in JavaScript and TypeScript.",
+        "Familiar with state management concepts (e.g., Redux, Context API).",
+        "Understand consuming REST APIs and handling JSON data.",
+        "Familiar with Git version control and collaborative workflows.",
+        "Understand software testing principles and have an interest in Test Driven Development (TDD).",
+        "Exhibit strong problem-solving skills, attention to detail, and a collaborative mindset.",
+        "Possess excellent written and verbal communication skills.",
+        "Have previous internship experience in mobile or web development.",
+        "Experience or strong interest in developing for TV platforms or connected devices.",
+        "Be exposed to monorepo tools like NX.",
+        "Familiar with CI/CD concepts or tools like Github Actions.",
+        "Experience with animation libraries (e.g., Reanimated) or UI testing tools (e.g., Jest, Playwright).",
+        "Possess a passion for streaming entertainment and an interest in Pluto TV and Paramount+ products."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Paramount Global",
+    "role": "Software Engineering Intern",
+    "link": "https://careers.paramount.com/job/New-York-247Sports-Software-Engineering-Intern-(Summer-2026-In-Person-LANY-or-Nashville)-NY-10036/1375918900/?ats=successfactors",
+    "location": "Nashville, TNBurbank, CANYC",
+    "season": "2026 Summer",
+    "id": 3950,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Have a Computer Science or related major.",
+        "Possess knowledge of Git Version Control.",
+        "Be familiar with interacting with REST APIs.",
+        "Have experience with Java, .NET, NodeJS, React, ExpressJS, or similar modern frontend technology frameworks.",
+        "Be an undergraduate student who will be a Junior or Senior in Fall 2026.",
+        "Be available to intern full-time for 10 weeks starting in June.",
+        "Commit to working fully on-site for the program's duration."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Hunt-Valley-Maryland/Technology---Summer-Intern_R-10390314",
+    "location": "Sparks, MD",
+    "season": "2026 Summer",
+    "id": 3949,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursuing a bachelor's degree in Computer Science, Data Science, MIS, Cybersecurity, Technical Project Management, or other Technology Degrees.",
+        "Maintain a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Knowledgeable in Microsoft .NET, C#, C, C++, ASP .NET, Java, JavaScript, JCL, Oracle, Linux, Power BI, or ReactJS.",
+        "Advanced knowledge of Excel and PowerPoint.",
+        "Experience with Software Development using AI assistance (Copilot).",
+        "Experience working in a fast-paced environment.",
+        "Flexible to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Revvity",
+    "role": "Full-Stack AI Developer Intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043679",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 3948,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong interest in enterprise AI applications.",
+        "Familiarity with popular LLMs such as ChatGPT, Claude, or others.",
+        "Familiarity with Python, Next.JS, Docker, and full stack technologies.",
+        "Basic understanding of prompt engineering concepts.",
+        "Proficient in at least one programming language (Python preferred).",
+        "Knowledge of machine learning concepts and frameworks.",
+        "Ability to work in a fast-paced, rapidly changing environment.",
+        "Strong problem-solving skills and meticulous attention to detail.",
+        "Excellent communication skills, both written and verbal.",
+        "Understand business processes and enterprise software systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Auto Club Group",
+    "role": "Innovation Intern",
+    "link": "https://acg.wd1.myworkdayjobs.com/Careers/job/Hybrid---MI/Innovation-Intern_JR15490",
+    "location": "Michigan",
+    "season": "2026 Summer",
+    "id": 3947,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled as a sophomore or junior in a bachelor’s degree program with a minimum 3.0 GPA.",
+        "Studying Computer Science, Software Engineering, AI, Machine Learning, Human Centered Design, or UI/UX.",
+        "Legally authorized to work in the U.S.",
+        "Strong interpersonal, communication, organization, and situational adaptability skills.",
+        "Possess strong analytical and critical thinking skills.",
+        "Demonstrate strong problem-solving skills and attention to detail.",
+        "Able to work in a fast-paced, dynamic environment.",
+        "Capable of multi-tasking and prioritizing tasks effectively.",
+        "Experienced with PC software applications like Word, Excel, PowerPoint, Access.",
+        "Familiar with AI, LLM, Machine Learning, Python, HTML, CSS, Angular/React, Flutter, Swift, Kotlin, or JavaScript.",
+        "Knowledgeable in basic math calculations for transactions.",
+        "Able to learn the full range of ACG products, services, and functions.",
+        "Assist clients with questions, requests, and problem resolution.",
+        "Develop reports, presentations, and recommendations for management.",
+        "Communicate effectively with colleagues and the public.",
+        "Capable of working independently and collaboratively in teams.",
+        "Able to think creatively and ideate.",
+        "Able to learn and adapt to corporate cultures and processes.",
+        "Comfortable with broadly defined responsibilities and limited resources.",
+        "Provide good service to internal and external customers."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Varda Space",
     "role": "Mission Operations Intern",
     "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7663358003",
