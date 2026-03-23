@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "MI-Admin Office Building (AOB)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "ACS Auto Club Services, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Innovation Intern",
+"@type" : "PropertyValue",
+"value" : "JR15490"
+},
+"datePosted" : "2026-03-23",
+"employmentType" : "FULL_TIME",
+"title" : "Innovation Intern",
+"description" : "It’s a great time to join AAA The Auto Club Group! JOIN THE TEAM COMMITTED TO DRIVING YOUR CAREER FORWARD Job Type: Full time Exempt/Non Exempt: Hourly Job Description: Why Intern with the AAA The Auto Club Group (ACG) The ACG Internship Program aims to provide a rich, relevant, and rewarding experience for college students. The goal of the program is to provide interns the opportunity to connect, network, and grow as they work on department-specific projects and is designed to enhance the skills and abilities of young professionals as well as to identify and attract future talent for our organization. In this position with the AAA ACG Innovations team, you will: Drive business results by collaboratively developing various websites, apps, and research that will provide results to benefit The Auto Club Group and the members we serve Broaden your knowledge and create meaningful connections by cross-collaborating among the many business lines of ACG in a wide range of auditing projects A DAY IN THE LIFE of an Innovations Intern ACG is seeking a motivated student to join our team as an Innovations Intern who will work with a small team to develop relevant websites, apps, and research that will highlight areas of strength as well as opportunity for various insurance optimization initiatives. In this position, you will have the opportunity to: Create proof-of-concept AI prototypes Create customer-focused research and conduct in-market testing Gain exposure to design thinking and agile methodologies Conduct market research and evaluate opportunities for technological products’ value propositions in a given market Take part in coding challenges WE ARE LOOKING FOR CANDIDATES WHO Required Qualifications: Must be: A sophomore or junior, fully enrolled in a bachelor’s degree program at an accredited college/university, with a minimum 3.0 GPA Studying a field related to Computer Science, Software Engineering, AI, Machine Learning, Human Centered Design, UI/UX Legally authorized to work in the U.S Must have: Skills: Strong interpersonal skills, communication skills (oral and written), organization skills, and strong situational adaptability Strong analytical and critical thinking skills Strong problem-solving skills and attention to detail Ability to work in a fast-paced, dynamic environment Ability to multi-task and appropriately prioritize tasks to ensure timely solutions to problems that meet business line goals Experience with PC software applications (e.g., Word, Excel, PowerPoint, Access, etc.) Familiarity with AI, LLM, Machine Learning, Python, HTML, CSS, Angular/React, Flutter, Swift, or Kotlin, and JavaScript Knowledge of: Basic math calculations to accurately perform various types of transactions Ability to: Learn the full range ACG products, services and functions to perform the responsibilities of assigned job Assist internal/external client(s) in response to questions, requests and resolution of problems Assist and/or develop reports/presentations/recommendations for management review Communicate effectively with others in a work environment and with the public Work independently and on teams Think creatively and ideate Preferred Qualifications: Ability to learn and adapt to corporate cultures and processes and provide own relevant and effective experience and best practices Be comfortable in an environment where responsibilities are broadly defined, resources are limited, and collaboration is critical to success Ability to provide good service to internal and/or external customers Supervisory Responsibilities: None Compensation and Time Commitment The Auto Club Group will provide compensation of $18.50/hour for 40 hours/week. The interns will be expected to report during the hours of 8:00am – 5:00pm (ET) Monday through Friday for the duration of the program. The program will run from May 18th to August 7th, 2026. Work Environment This position is currently able to work remotely from a home office location for day-to-day operations unless occasional travel for meetings, collaborative activities, or team building activities is specified by leadership. This is subject to change based on amendments and/or modifications to the ACG Flex Work policy. Due to the remote nature of this role, the intern will need to have access to reliable internet and provide their own computer capable of using Android Studio and Android Studio Emulator. Who We Are Become a part of something bigger. The Auto Club Group (ACG) provides membership, travel, insurance, and financial service offerings to approximately 14+ million members and customers across 14 states and 2 U.S. territories through AAA, Meemic, and Fremont brands. ACG belongs to the national AAA federation and is the second largest AAA club in North America. By continuing to invest in more advanced technology, pursuing innovative products, and hiring a highly skilled workforce, AAA continues to build upon its heritage of providing quality service and helping our members enjoy life’s journey through insurance, travel, financial services, and roadside assistance. And when you join our team, one of the first things you’ll notice is that same, whole-hearted, enthusiastic advocacy for each other. We have positions available for every walk of life! AAA prides itself on creating an inclusive and welcoming environment of diverse backgrounds, experiences, and viewpoints, realizing our differences make us stronger. To learn more about AAA The Auto Club Group visit www.aaa.com Important Note: ACG’s Compensation philosophy is to provide a market-competitive structure of fair, equitable and performance-based pay to attract and retain excellent talent that will enable ACG to meet its short and long-term goals. ACG utilizes a geographic pay differential as part of the base salary compensation program. Pay ranges outlined in this posting are based on the various ranges within the geographic areas which ACG operates. Salary at time of offer is determined based on these and other factors as associated with the job and job level. The above statements describe the principal and essential functions, but not all functions that may be inherent in the job. This job requires the ability to perform duties contained in the job description for this position, including, but not limited to, the above requirements. Reasonable accommodations will be made for otherwise qualified applicants, as needed, to enable them to fulfill these requirements. The Auto Club Group, and all its affiliated companies, is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, gender identity, sexual orientation, national origin, disability or protected veteran status. Regular and reliable attendance is essential for the function of this job. AAA The Auto Club Group is committed to providing a safe workplace. Every applicant offered employment within The Auto Club Group will be required to consent to a background and drug screen based on the requirements of the position. The Auto Club Group (ACG) provides membership, travel, insurance and financial services offerings to approximately 13+ million members and customers across 14 states and 2 U.S. territories through the AAA, Meemic and Fremont brands. ACG belongs to the national AAA federation and is the second largest AAA club in North America.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "MI-Admin Office Building (AOB)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "ACS Auto Club Services, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Innovation Intern",
+"@type" : "PropertyValue",
+"value" : "JR15490"
+},
+"datePosted" : "2026-03-23",
+"employmentType" : "FULL_TIME",
+"title" : "Innovation Intern",
+"description" : "It’s a great time to join AAA The Auto Club Group! JOIN THE TEAM COMMITTED TO DRIVING YOUR CAREER FORWARD Job Type: Full time Exempt/Non Exempt: Hourly Job Description: Why Intern with the AAA The Auto Club Group (ACG) The ACG Internship Program aims to provide a rich, relevant, and rewarding experience for college students. The goal of the program is to provide interns the opportunity to connect, network, and grow as they work on department-specific projects and is designed to enhance the skills and abilities of young professionals as well as to identify and attract future talent for our organization. In this position with the AAA ACG Innovations team, you will: Drive business results by collaboratively developing various websites, apps, and research that will provide results to benefit The Auto Club Group and the members we serve Broaden your knowledge and create meaningful connections by cross-collaborating among the many business lines of ACG in a wide range of auditing projects A DAY IN THE LIFE of an Innovations Intern ACG is seeking a motivated student to join our team as an Innovations Intern who will work with a small team to develop relevant websites, apps, and research that will highlight areas of strength as well as opportunity for various insurance optimization initiatives. In this position, you will have the opportunity to: Create proof-of-concept AI prototypes Create customer-focused research and conduct in-market testing Gain exposure to design thinking and agile methodologies Conduct market research and evaluate opportunities for technological products’ value propositions in a given market Take part in coding challenges WE ARE LOOKING FOR CANDIDATES WHO Required Qualifications: Must be: A sophomore or junior, fully enrolled in a bachelor’s degree program at an accredited college/university, with a minimum 3.0 GPA Studying a field related to Computer Science, Software Engineering, AI, Machine Learning, Human Centered Design, UI/UX Legally authorized to work in the U.S Must have: Skills: Strong interpersonal skills, communication skills (oral and written), organization skills, and strong situational adaptability Strong analytical and critical thinking skills Strong problem-solving skills and attention to detail Ability to work in a fast-paced, dynamic environment Ability to multi-task and appropriately prioritize tasks to ensure timely solutions to problems that meet business line goals Experience with PC software applications (e.g., Word, Excel, PowerPoint, Access, etc.) Familiarity with AI, LLM, Machine Learning, Python, HTML, CSS, Angular/React, Flutter, Swift, or Kotlin, and JavaScript Knowledge of: Basic math calculations to accurately perform various types of transactions Ability to: Learn the full range ACG products, services and functions to perform the responsibilities of assigned job Assist internal/external client(s) in response to questions, requests and resolution of problems Assist and/or develop reports/presentations/recommendations for management review Communicate effectively with others in a work environment and with the public Work independently and on teams Think creatively and ideate Preferred Qualifications: Ability to learn and adapt to corporate cultures and processes and provide own relevant and effective experience and best practices Be comfortable in an environment where responsibilities are broadly defined, resources are limited, and collaboration is critical to success Ability to provide good service to internal and/or external customers Supervisory Responsibilities: None Compensation and Time Commitment The Auto Club Group will provide compensation of $18.50/hour for 40 hours/week. The interns will be expected to report during the hours of 8:00am – 5:00pm (ET) Monday through Friday for the duration of the program. The program will run from May 18th to August 7th, 2026. Work Environment This position is currently able to work remotely from a home office location for day-to-day operations unless occasional travel for meetings, collaborative activities, or team building activities is specified by leadership. This is subject to change based on amendments and/or modifications to the ACG Flex Work policy. Due to the remote nature of this role, the intern will need to have access to reliable internet and provide their own computer capable of using Android Studio and Android Studio Emulator. Who We Are Become a part of something bigger. The Auto Club Group (ACG) provides membership, travel, insurance, and financial service offerings to approximately 14+ million members and customers across 14 states and 2 U.S. territories through AAA, Meemic, and Fremont brands. ACG belongs to the national AAA federation and is the second largest AAA club in North America. By continuing to invest in more advanced technology, pursuing innovative products, and hiring a highly skilled workforce, AAA continues to build upon its heritage of providing quality service and helping our members enjoy life’s journey through insurance, travel, financial services, and roadside assistance. And when you join our team, one of the first things you’ll notice is that same, whole-hearted, enthusiastic advocacy for each other. We have positions available for every walk of life! AAA prides itself on creating an inclusive and welcoming environment of diverse backgrounds, experiences, and viewpoints, realizing our differences make us stronger. To learn more about AAA The Auto Club Group visit www.aaa.com Important Note: ACG’s Compensation philosophy is to provide a market-competitive structure of fair, equitable and performance-based pay to attract and retain excellent talent that will enable ACG to meet its short and long-term goals. ACG utilizes a geographic pay differential as part of the base salary compensation program. Pay ranges outlined in this posting are based on the various ranges within the geographic areas which ACG operates. Salary at time of offer is determined based on these and other factors as associated with the job and job level. The above statements describe the principal and essential functions, but not all functions that may be inherent in the job. This job requires the ability to perform duties contained in the job description for this position, including, but not limited to, the above requirements. Reasonable accommodations will be made for otherwise qualified applicants, as needed, to enable them to fulfill these requirements. The Auto Club Group, and all its affiliated companies, is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, gender identity, sexual orientation, national origin, disability or protected veteran status. Regular and reliable attendance is essential for the function of this job. AAA The Auto Club Group is committed to providing a safe workplace. Every applicant offered employment within The Auto Club Group will be required to consent to a background and drug screen based on the requirements of the position. The Auto Club Group (ACG) provides membership, travel, insurance and financial services offerings to approximately 13+ million members and customers across 14 states and 2 U.S. territories through the AAA, Meemic and Fremont brands. ACG belongs to the national AAA federation and is the second largest AAA club in North America.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "acg",
+siteId: "Careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=acg&s=Careers",
+token: "2a0e9f77-e8c3-4f34-92b7-1e002c02f5d4",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#0093CA"},"button":{"primary":{"color":"#DA291C","borderColor":"#DA291C","textColor":"#FFFFFF","hover":{"color":"#B4162D","borderColor":"#B4162D","textColor":"#FFFFFF"}},"secondary":{"color":"#003087","borderColor":"#003087","textColor":"#FFFFFF","hover":{"color":"#004A87","borderColor":"#004A87","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"858f5e9e9ad910015ac7dfa16b250002","altText":null}},"banner":{"color":"#003087","borderColor":"#FFFFFF","textColor":"#FFFFFF"}},"embedded":false},
+geoIpCountryCode: "gb" == null ? "": "gb",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

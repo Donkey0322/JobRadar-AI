@@ -1,0 +1,292 @@
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount+
+Pluto TV
+Showtime
+UK Jobs
+Benefits & Perks
+Global Inclusion
+Internships
+Language
+English (United States)
+View Profile
+Employee Login
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount+
+Pluto TV
+Showtime
+UK Jobs
+Benefits & Perks
+Global Inclusion
+Internships
+Language
+English (United States)
+View Profile
+Employee Login
+Benefits & Perks
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount
+Paramount+
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount Streaming
+Pluto TV
+Showtime
+UK Jobs
+Global Inclusion
+Internships
+View Profile
+Employee Login
+Search by Keyword or Req ID
+Search by Location
+Click Here to Search by Job Function
+Loading...
+Job Function
+All
+Brand
+All
+Job Type
+All
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Paramount Streaming Engineering Intern, Front End (Summer 2026 - In Person - LA)
+45008
+Burbank, CA, US, 91505
+#job-location.job-location-inline {
+display: inline;
+}
+Administrative
+Burbank
+Internship
+On-Site
+#WeAreParamount on a mission to unleash the power of content… you in?We’ve got the brands, we’ve got the stars, we’ve got the power to achieve our mission to entertain the planet – now all we’re missing is… YOU! Becoming a part of Paramount means joining a team of passionate people who not only recognize the power of content but also enjoy a touch of fun and uniqueness. Together, we co-create moments that matter – both for our audiences and our employees – and aim to leave a positive mark on culture.
+College students—kickstart your career at the heart of culture and conversation with entertainment’s most iconic brands! Our Summer Internship Program is a paid, immersive 10-week experience designed to help you explore career paths while bringing your passions and fresh perspectives to work. This well-rounded program not only offers hands-on learning but also serves as a pipeline for future opportunities.Exciting perks tailored just for you!
+Speaker series with industry experts
+Unique networking opportunities & social events
+Complimentary Paramount+ subscription during your internship
+Workshops on crafting your resume, nailing interviews and career strategy
+1:1 mentorship, volunteer opportunities, on-the-job learning and so much more
+The Vega Front End Engineering team within Paramount Streaming works closely with product, design, and service teams to build and maintain streaming experiences for the Paramount+ and Pluto TV applications on Vega-based devices. The team is responsible for developing and maintaining front-end applications using React Native, with a focus on performance, scalability, and consistency. We support the implementation and ongoing evolution of user experiences on the Vega platform.
+· Approximately 50% of the Intern's work involves:Assisting the engineering team with the development of UI components and features for both the Pluto TV and Paramount+ applications running on Amazon’s Vega OS.Identifying and resolving software bugs and performance bottlenecks to ensure a smooth, responsive user experience for both apps on Fire TV Stick hardware.Collaborating with the team to implement React Native features that align with the architectural patterns and constraints of the Vega platform for both streaming services.Participating in code refactoring within the repository to maintain high code standards and optimize shared or app-specific logic for the single-device target.· Approximately 30% of the Intern's work will involve:Writing and maintaining unit tests to ensure robust logic and stability for both the Pluto TV and Paramount+ Vega-based applications.Assisting in the creation and execution of automated functional tests to support Test Driven Development (TDD) specifically for the TV interfaces of both apps.Working with QA engineers to reproduce reported defects and verify fixes directly on Fire TV Stick devices across both product lines.Helping to maintain and improve CI/CD pipelines to ensure efficient deployment and testing on the Vega OS platform for both applications.· Approximately 20% of the Intern's work will involve:- Participating in Agile development ceremonies, including daily stand-ups, sprint planning, and retrospectives focused on the Vega project tracks for both brands.- Engaging in code reviews with Senior Engineers to learn best practices for developing high-performance TV applications and managing multiple app contexts.- Researching and evaluating new libraries or optimization techniques that can maximize performance on Fire TV hardware.- Documenting technical processes, device-specific behaviors, and feature implementations to support knowledge sharing within the team.
+Qualifications:- Currently pursuing a B.S. or M.S. degree in Computer Science, Software Engineering, or a related field.Experience building mobile or web applications using React Native or React through university coursework, personal projects, internships, or hackathons.- Proficiency in JavaScript and TypeScript.- Familiarity with state management concepts (experience with libraries like Redux, Context API, Zustand, or RTK Query is a plus).- Basic understanding of consuming REST APIs and handling JSON data.- Familiarity with Git version control and collaborative workflows (e.g., Pull Requests).- Understanding of software testing principles (unit testing) and an interest in Test Driven Development (TDD).- Strong problem-solving skills, attention to detail, and a collaborative mindset.- Excellent written and verbal communication skills.Nice to Haves:- Previous internship experience in mobile or web development.- Experience or strong interest in developing for TV platforms (Android TV, Fire TV, tvOS) or connected devices.- Exposure to monorepo tools like NX.- Familiarity with CI/CD concepts or tools like Github Actions.- Experience with animation libraries (e.g., Reanimated) or UI testing tools (e.g., Jest, Playwright).- A passion for streaming entertainment and an interest in the Pluto TV and Paramount+ products.
+Eligibility:
+This internship is available to students who will be Juniors or Seniors in the fall of 2026. If you are a graduating Senior, please check our website for full-time job opportunities.
+You must be available to intern full-time (5 days a week/36-40 hours a week) for 10 weeks total starting in June.
+Interns will be required to work fully on-site for the duration of the program. Note: Paramount does not provide financial relocation support or housing stipends.
+Internships are paid at a competitive standard hourly rate (school credit is optional).
+Applicants must be currently authorized to work in the United States on a full‑time basis.
+Employment eligibility to work with Paramount in the United States is required as the company does not engage in sponsorship for internships.
+Paramount Skydance Corporation (NASDAQ: PSKY) is a leading global media and entertainment company that creates premium content and experiences for audiences worldwide. Driven by iconic studios, networks and streaming services, Paramount's portfolio of consumer brands includes CBS, Showtime Networks, Paramount Pictures, Nickelodeon, MTV, Comedy Central, BET, Paramount+, and Pluto TV, among others. Paramount delivers the largest share of the U.S. television audience and boasts one of the industry's most important and extensive libraries of TV and film titles. In addition to offering innovative streaming services and digital video products, the company provides powerful capabilities in production, distribution and advertising solutions.
+ADDITIONAL INFORMATION
+The hourly rate for this position is $45.0.
+The hiring salary range for this position applies to New York, California, Colorado, Washington state, and most other geographies. Starting pay for the successful applicant depends on a variety of job-related factors, including but not limited to geographic location, market demands, experience, training, and education.
+https://www.paramount.com/careers/internships
+Paramount is an equal opportunity employer (EOE) including disability/vet.
+At Paramount, the spirit of inclusion feeds into everything that we do, on-screen and off. From the programming and movies we create to employee benefits/programs and social impact outreach initiatives, we believe that opportunity, access, resources and rewards should be available to and for the benefit of all. Paramount is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ethnicity, ancestry, religion, creed, sex, national origin, sexual orientation, age, citizenship status, marital status, disability, gender identity, gender expression, and Veteran status.
+If you are a qualified individual with a disability or a disabled veteran, you may request a reasonable accommodation if you are unable or limited in your ability to use or access https://www.paramount.com/careers as a result of your disability. You can request reasonable accommodations by calling 212.846.5500 or by sending an email to paramountaccommodations@paramount.com. Only messages left for this purpose will be returned.
+Nearest Major Market: Los Angeles
+Apply now »
+Find similar jobs:
+Paramount+,
+Paramount Streaming,
+Paramount,
+Interns,
+All Current Job Opportunities
+Careers Home
+View All Jobs
+Terms of Use
+Privacy Policy
+California Notice
+Sustainability & ESG
+Your Privacy Choices
+Equal Opportunity Employer
+Reasonable Accommodation
+Contact
+© 2025 Paramount Skydance Corporation
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'viacomcbsi',
+"ssoUrl" : 'https://career41.sapsf.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "99c599fb-6e3b-49e4-9224-681000822353"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1375918300,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"45008-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = '040e2aff-d1e2-480b-97d2-93f2f4a1f694';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1375918300',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.paramount.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["customfield1","customfield2","customfield3"],
+showPicklistAllLocales : true
+};
+//]]>
