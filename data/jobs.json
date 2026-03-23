@@ -1,5 +1,165 @@
 [
   {
+    "company": "Varda Space",
+    "role": "Mission Operations Intern",
+    "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7663358003",
+    "location": "El Segundo, CA",
+    "season": "2026 Fall",
+    "id": 3946,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experienced with full-stack coding in web development languages.",
+        "Experienced deploying, executing, and debugging server-based applications.",
+        "Actively pursuing a degree in Computer Science, Computer Engineering, Software Engineering, Aerospace Engineering, or related field.",
+        "Completed coursework in Python programming, full-stack development, and orbital mechanics.",
+        "Experienced building scalable web applications.",
+        "Understands software data management and scaling techniques.",
+        "Experienced applying code to aerospace systems or complex, high-reliability environments.",
+        "Familiar with Continuous Integration pipelines and Linux environments.",
+        "Possesses previous internship, co-op, or real-world development experience.",
+        "Has hands-on project team experience."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "RR Donnelley",
+    "role": ".Net Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/RRDonnelley/744000116285337",
+    "location": "Warrenville, IL",
+    "season": "2026 Summer",
+    "id": 3945,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing Bachelor or higher degree in Computer Science or related discipline",
+        "Versed in all phases of software development life cycle",
+        "Familiar with C#.net, VB.net, and SQL",
+        "Familiar with MVC, JS, JQuery, and AJAX",
+        "Strong communication and team skills",
+        "Able to work independently or as part of a small team",
+        "Positive attitude and outstanding customer service orientation",
+        "Accurate and attentive to detail"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Torch Technologies",
+    "role": "Software Design Engineer Intern – Returning Interns Only",
+    "link": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Design-Engineer-Intern---Summer-2026--Returning-Interns-Only_R798",
+    "location": "Huntsville, AL",
+    "season": "2026 Summer",
+    "id": 3944,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university pursuing a Bachelor’s degree",
+        "Prior Torch Technologies internship experience",
+        "Ability to obtain and maintain a Secret security clearance",
+        "Experience in Software Programming",
+        "Experience in Continuous Design/Continuous Integration",
+        "Experience in UI/UX storyboarding",
+        "Experience in User Documentation",
+        "Experience in Systems Integration",
+        "Preferred knowledge of Rust",
+        "Preferred knowledge of C++",
+        "Preferred knowledge of Java",
+        "Preferred knowledge of JavaScript",
+        "Preferred knowledge of UML",
+        "Preferred knowledge of Agile Methodology and Delivery",
+        "Be at least 18 years old",
+        "Actively enrolled as an undergraduate student",
+        "Maintain a minimum GPA of 3.0",
+        "Ability to commit to a full-time schedule for the internship duration"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "DoubleVerify",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/doubleverify/jobs/8464443002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3943,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing B.Sc./M.Sc. in Computer Science or a related field",
+        "Passionate about Data and a creative problem solver",
+        "Deep understanding of data structures and algorithms",
+        "Experience writing code in C++, Java, Scala, or Python",
+        "Good knowledge of SQL and RDMS",
+        "Knowledge of Distributed Systems is a plus"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/AUSTIN/Software-Intern_R53568",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3942,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor’s or higher in Computer Science, Engineering, or a related field.",
+        "Strong foundation in data structures and algorithms.",
+        "Have programming experience in C/C++ and Python.",
+        "Familiar with basic software development practices.",
+        "Strong collaboration skills, curiosity, and motivation to learn.",
+        "Familiar with mesh-based data structures or graph representations.",
+        "Have coursework or project experience related to AI/ML.",
+        "Experience using GNNs for engineering and simulation problems.",
+        "Exposure to EDA, CAD/CAE, or other simulation-based domains.",
+        "Interested in performance optimization, parallel computing, or GPU acceleration.",
+        "Experience with ML frameworks like PyTorch or TensorFlow."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software",
+    "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R53568-1",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3941,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor's or higher degree in CS, Engineering, or related field.",
+        "Possess a strong foundation in data structures and algorithms.",
+        "Proficient in C/C++ and Python programming.",
+        "Familiar with basic software development practices.",
+        "Exhibit strong collaboration, curiosity, and learning motivation.",
+        "Familiar with mesh-based data structures or graph representations.",
+        "Possess coursework or project experience in AI/ML.",
+        "Experience using GNNs for engineering/simulation problems.",
+        "Have exposure to EDA, CAD/CAE, or simulation domains.",
+        "Interested in performance optimization, parallel computing, or GPU acceleration.",
+        "Experience with ML frameworks like PyTorch or TensorFlow."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Dmg Media",
     "role": "AI Engineer Intern - Innovation Team",
     "link": "https://www.dmgmedia.co.uk/careers/jobs/id/7739047?gh_jid=7739047",
