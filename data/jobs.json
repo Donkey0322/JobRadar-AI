@@ -1,5 +1,26 @@
 [
   {
+    "company": "Treefera",
+    "role": "Treefera Intern Programme",
+    "link": "https://jobs.ashbyhq.com/treefera/800f0bc8-ca10-4d6e-8b89-f9bc8867e63f/application",
+    "location": "London, UKUnited States",
+    "season": "2026 Summer",
+    "id": 3932,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Be curious and self-directed.",
+        "Willing to take ownership and ask good questions.",
+        "Comfortable working in an ambiguous, fast-moving environment.",
+        "Strongly align with Treefera’s values: curious, rigorous, frugal, emersed.",
+        "Motivated to convert an internship into a permanent role."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Coherent",
     "role": "Intern Software Developer - Document Control - Global Quality",
     "link": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2011079",
