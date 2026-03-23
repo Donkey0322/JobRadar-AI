@@ -1,5 +1,34 @@
 [
   {
+    "company": "Dmg Media",
+    "role": "AI Engineer Intern - Innovation Team",
+    "link": "https://www.dmgmedia.co.uk/careers/jobs/id/7739047?gh_jid=7739047",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 3940,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Research AI opportunities and latest trends.",
+        "Assist in designing and prototyping AI-driven tools.",
+        "Explore ways to optimize prompt and context for AI agents.",
+        "Help develop and test AI automation tools using LLM workflows.",
+        "Collaborate cross-functionally to identify new AI opportunities.",
+        "Contribute to a culture of rapid experimentation and learning.",
+        "Possess a background in AI/ML engineering, data science, or related academic field.",
+        "Understand LLMs, NLP concepts, and AI frameworks.",
+        "Proficient in Python and experienced with APIs.",
+        "Able to assist in code development using agentic IDEs and MCP servers.",
+        "Familiar with cloud services (AWS, Azure, or GCP).",
+        "Able to understand business needs and translate them into AI solutions.",
+        "Possess a genuine interest in emerging technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Erickson Senior Living",
     "role": "Intern – Software Engineer",
     "link": "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0094752",
