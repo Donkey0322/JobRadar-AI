@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "5525 Research Park Drive"
+}
+},
+"hiringOrganization" : {
+"name" : "891 Erickson Senior Living, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern – Software Engineer",
+"@type" : "PropertyValue",
+"value" : "R0094752"
+},
+"datePosted" : "2026-03-19",
+"employmentType" : "FULL_TIME",
+"title" : "Intern – Software Engineer",
+"description" : "Location: Erickson Senior Living SUMMARY: As our IT App Engineering Intern at Erickson Senior Living Community, you will be part of a team that supports and builds applications and integrations for the company. Every day you will join a daily stand-up meeting with your team, write code, analyze software issues, and learn software design. To thrive in this internship, you must have a continuous learning mindset and a passion for technology. We’re looking for an intern with experience: • Support the design and development of IT solutions • Asking questions to clarify work tasks to hone into the problem • Troubleshooting Individually, as well as brainstorming technical issues with a group • Learning new technologies and applications Compensation: $18.00 - $20.00 per hour, based on experience Erickson Senior Living is continuously building new communities, and we are looking to add additional staff to our team to support this growth. Our team leads the implementation and support of technology to all employees and residents. We have been named as a best place to work in ComputerWorld magazine every year for over a decade. With over 240 in the IT Department, we invite you to join our team. Headquartered in Baltimore, Maryland, Erickson Senior Living is one of the country’s largest and most respected providers of senior living and health care with a growing, national network of communities. We help people live better lives by fulfilling our promises of a vibrant lifestyle, financial stability, and focused health and well-being services for those who live and work with us. As part of our team, you'll enjoy flexibility and work-life balance to meet your personal and professional goals, and we are committed to providing you with opportunities to learn and grow. Erickson Senior Living, its affiliates, and managed communities are Equal Opportunity Employers and are committed to providing a workplace free of unlawful discrimination and harassment on the basis of race, color, religion, sex, age, national origin, marital status, veteran status, mental or physical disability, sexual orientation, gender identity or expression, genetic information or any other category protected by federal, state or local law. Since 1983, Erickson Senior Living’s national network of managed communities has been devoted to one mission—helping people live better lives. If you're driven to make a difference and feel passionate about what you do, you'll thrive in an Erickson Senior Living career. Experience a work and social environment beyond the traditional office setting, with access to multiple on-campus dining choices, health and wellness facilities, lush green spaces, and so much more. Come see why we’re among the most respected names in senior living, now serving 27,000 residents with a team of more than 14,000 employees.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "5525 Research Park Drive"
+}
+},
+"hiringOrganization" : {
+"name" : "891 Erickson Senior Living, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern – Software Engineer",
+"@type" : "PropertyValue",
+"value" : "R0094752"
+},
+"datePosted" : "2026-03-19",
+"employmentType" : "FULL_TIME",
+"title" : "Intern – Software Engineer",
+"description" : "Location: Erickson Senior Living SUMMARY: As our IT App Engineering Intern at Erickson Senior Living Community, you will be part of a team that supports and builds applications and integrations for the company. Every day you will join a daily stand-up meeting with your team, write code, analyze software issues, and learn software design. To thrive in this internship, you must have a continuous learning mindset and a passion for technology. We’re looking for an intern with experience: • Support the design and development of IT solutions • Asking questions to clarify work tasks to hone into the problem • Troubleshooting Individually, as well as brainstorming technical issues with a group • Learning new technologies and applications Compensation: $18.00 - $20.00 per hour, based on experience Erickson Senior Living is continuously building new communities, and we are looking to add additional staff to our team to support this growth. Our team leads the implementation and support of technology to all employees and residents. We have been named as a best place to work in ComputerWorld magazine every year for over a decade. With over 240 in the IT Department, we invite you to join our team. Headquartered in Baltimore, Maryland, Erickson Senior Living is one of the country’s largest and most respected providers of senior living and health care with a growing, national network of communities. We help people live better lives by fulfilling our promises of a vibrant lifestyle, financial stability, and focused health and well-being services for those who live and work with us. As part of our team, you'll enjoy flexibility and work-life balance to meet your personal and professional goals, and we are committed to providing you with opportunities to learn and grow. Erickson Senior Living, its affiliates, and managed communities are Equal Opportunity Employers and are committed to providing a workplace free of unlawful discrimination and harassment on the basis of race, color, religion, sex, age, national origin, marital status, veteran status, mental or physical disability, sexual orientation, gender identity or expression, genetic information or any other category protected by federal, state or local law. Since 1983, Erickson Senior Living’s national network of managed communities has been devoted to one mission—helping people live better lives. If you're driven to make a difference and feel passionate about what you do, you'll thrive in an Erickson Senior Living career. Experience a work and social environment beyond the traditional office setting, with access to multiple on-campus dining choices, health and wellness facilities, lush green spaces, and so much more. Come see why we’re among the most respected names in senior living, now serving 27,000 residents with a team of more than 14,000 employees.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "erickson",
+siteId: "external",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd108.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd108.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd108.myworkday.com/wday/drs/outage?t=erickson&s=external",
+token: "5a14245a-6c51-4a89-a1c4-326130665237",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{},"progressBar":{"color":"#00395D"},"button":{"primary":{"color":"#00B156","borderColor":"#00B156","textColor":"#FFFFFF","hover":{"color":"#00B156","borderColor":"#00B156","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#00B156","textColor":"#00B156","hover":{"color":"#EEF1F2","borderColor":"#00B156","textColor":"#00B156"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"73a5e74f7bb210014d325203ce8c0000","altText":null}},"banner":{"color":"#00395D","textColor":"#FFFFFF","image":{"id":"73a5e74f7bb210014d28208f85190001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd108.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

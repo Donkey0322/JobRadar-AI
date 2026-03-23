@@ -1,0 +1,29 @@
+Department: DevelopmentLocation: New York, NY | Atlanta, GA | Remote, USA
+Who We Are
+Impiricus is the first and only AI-powered HCP Engagement Engine. In 2025, Deloitte named Impiricus the #1 fastest growing company in North America for their prestigious Fast 500 list. Founded by a practicing physician and a senior pharmaceutical executive, Impiricus was created to transform how life sciences companies support physicians. We ethically connect HCPs to pharma resources, reduce go-to-market costs and accelerate patient access to the treatments they need.
+With our unique access to the largest opted-in network of HCPs, their insights, and clinical expertise, we are the leading provider of AI technology and real-time channels that life science companies need to deliver clear, reliable, and evidence-based resources directly into the hands of HCPs. Guided by a council of 2000+ trusted HCP advisors, we ensure every interaction is clinically meaningful, ethically grounded and leads to better patient care.
+Job Summary
+As a Software Engineer (Backend) Intern at Impiricus, you will support the development of backend systems and AI-powered features that power our digital healthcare platform. You will work alongside experienced engineers to build APIs, work with databases, and experiment with AI integrations that enhance our products.
+This role is designed for students or recent graduates interested in backend development and applied AI. You will gain hands-on experience with modern backend technologies, cloud infrastructure, and large language model (LLM) integrations while contributing to real product features used in healthcare.
+Responsibilities
+Assist in building and maintaining backend services and APIs that support core product features.
+Work with PostgreSQL databases to help model data, write queries, and support reliable data pipelines.
+Help integrate AI and LLM-based capabilities into backend workflows, including prompt development and API integrations.
+Support the development of services that enable AI-powered features within our healthcare platform.
+Collaborate with frontend engineers, product managers, and designers to help deliver end-to-end features.
+Write clean, well-documented, and tested code while learning backend engineering best practices.
+Participate in code reviews, debugging, and system improvements with guidance from senior engineers.
+Experience
+Currently pursuing or recently completed a Bachelor’s degree in Computer Science or a related STEM field.
+Familiarity with backend programming languages (preferrably Python or Golang).
+Basic understanding of API development and RESTful services.
+Exposure to relational databases and SQL, including writing queries and working with data models.
+Interest in AI/LLMs and prompt engineering, with some coursework or personal projects involving AI tools or APIs.
+Foundational understanding of machine learning or AI concepts.
+Familiarity with Git and collaborative development workflows.
+Exposure to cloud platforms (preferably AWS) is a plus.
+Compensation
+This is a paid internship with an hourly rate of $25, with interns working up to 40 hours per week.
+The program runs for 8 weeks and will be offered in two cohorts. Candidates may participate in the cohort that best aligns with their summer schedule.
+Cohort 1: June 15, 2026 through August 7, 2026Cohort 2: July 6, 2026 through August 28, 2026
+Impiricus provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.

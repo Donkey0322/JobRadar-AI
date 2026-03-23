@@ -1,5 +1,144 @@
 [
   {
+    "company": "Erickson Senior Living",
+    "role": "Intern – Software Engineer",
+    "link": "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0094752",
+    "location": "Baltimore, MD",
+    "season": "2026 Summer",
+    "id": 3939,
+    "jd": null
+  },
+  {
+    "company": "SanMar",
+    "role": "IT Intern, Software Development",
+    "link": "https://job-boards.greenhouse.io/sanmar/jobs/5084702007?gh_jid=5084702007",
+    "location": "Issaquah, WA",
+    "season": "2026 Summer",
+    "id": 3938,
+    "jd": null
+  },
+  {
+    "company": "Skechers",
+    "role": "Cloud Analyst Intern",
+    "link": "https://skechers.wd5.myworkdayjobs.com/one-career-site/job/Manhattan-Beach-CA/Cloud-Analyst-Intern--Summer-2026-_JR126223",
+    "location": "Manhattan Beach, CA",
+    "season": "2026 Summer",
+    "id": 3937,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s or Master’s degree in a related field.",
+        "Understand basic cloud computing concepts (IaaS, PaaS, SaaS).",
+        "Familiarity with AWS core services (EC2, S3, IAM, VPC).",
+        "Possess foundational knowledge of networking concepts.",
+        "Exposure to scripting or programming (Python, JavaScript, or similar).",
+        "Understand basic security principles and identity/access management.",
+        "Strong analytical, problem-solving, and troubleshooting skills.",
+        "Able to learn quickly and work both independently and collaboratively.",
+        "Exposure to Infrastructure as Code tools (Terraform, AWS CloudFormation).",
+        "Familiarity with version control systems like Git.",
+        "Basic knowledge of containerization (Docker) or orchestration tools.",
+        "Experience with Linux or Windows environments.",
+        "Awareness of CI/CD concepts and DevOps practices.",
+        "Interest in cloud security, automation, and platform engineering.",
+        "Ability to document technical processes and communicate clearly."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "BS&A Software",
+    "role": "Customer Solutions Intern (ERP Software)",
+    "link": "https://bsa.applytojob.com/apply/dvXDzc11tD/Customer-Solutions-Intern-ERP-Software",
+    "location": "Lansing, MI",
+    "season": "2026 Summer",
+    "id": 3936,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a Bachelor's degree in a related field.",
+        "Demonstrate strong written and verbal communication skills.",
+        "Have interest in enterprise software, SaaS, or government technology.",
+        "Possess an analytical mindset with strong problem-solving skills.",
+        "Learn quickly and adapt in a fast-paced environment.",
+        "Exhibit strong organizational skills and attention to detail.",
+        "Work collaboratively with team members and customers.",
+        "Experienced with Excel, data analysis, or reporting.",
+        "Exposed to ERP systems or SaaS platforms.",
+        "Understand basic databases or data structures."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CalAmp",
+    "role": "ntern, Engineer Software",
+    "link": "https://careers-calamp.icims.com/jobs/4326/intern%2c-engineer-software---carlsbad%2c-ca-%28summer-2026%29/job",
+    "location": "Carlsbad, Ca",
+    "season": "2026 Summer",
+    "id": 3935,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Coverdash",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/coverdash/52181e3d-c2d4-4982-b7e5-3a51403ec7c3",
+    "location": "New York, NY",
+    "season": "2026 Summer",
+    "id": 3934,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in one or more object-oriented languages (preferably Java).",
+        "Experience building microservices and familiar with Spring architecture.",
+        "Familiar with distributed service-oriented architecture.",
+        "Comfortable integrating complex third-party APIs.",
+        "Comfortable working with complex data models and relational databases (preferably PostgreSQL).",
+        "Experience with highly available and highly scalable systems.",
+        "Able to take a project from scoping requirements through actual launch.",
+        "Actively pursuing Bachelor's in Computer Science or related field, with an expected graduation of Spring 2026.",
+        "Knowledgeable of professional software engineering practices and SDLC."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Impiricus",
+    "role": "Intern - Software Engineer (Backend)",
+    "link": "https://job-boards.greenhouse.io/impiricus/jobs/5160169008",
+    "location": "Atlanta, GANew York, NYRemote in USA",
+    "season": "2026 Summer",
+    "id": 3933,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a Bachelor’s degree in Computer Science or related STEM.",
+        "Familiar with backend programming languages, preferably Python or Golang.",
+        "Understand basic API development and RESTful services.",
+        "Exposed to relational databases and SQL, including writing queries and data models.",
+        "Interested in AI/LLMs and prompt engineering with coursework or projects.",
+        "Understand foundational machine learning or AI concepts.",
+        "Familiar with Git and collaborative development workflows.",
+        "Exposed to cloud platforms, preferably AWS."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Treefera",
     "role": "Treefera Intern Programme",
     "link": "https://jobs.ashbyhq.com/treefera/800f0bc8-ca10-4d6e-8b89-f9bc8867e63f/application",
