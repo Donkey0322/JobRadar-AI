@@ -1,5 +1,182 @@
 [
   {
+    "company": "Varda Space",
+    "role": "Mission Software – Intern - Python",
+    "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7676465003",
+    "location": "El Segundo, CA",
+    "season": "2026 Fall",
+    "id": 3964,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python.",
+        "Understand core computer science fundamentals.",
+        "Able to debug complex software issues.",
+        "Comfortable working in Linux-based environments.",
+        "Experienced in contributing to software projects outside class.",
+        "Knowledgeable in signals and systems, digital design, or embedded development.",
+        "Experienced on college project teams.",
+        "Completed Computer Architecture coursework.",
+        "Completed Operating Systems coursework.",
+        "Completed Software Engineering or Computer Science Fundamentals coursework.",
+        "Completed Data Structures & Algorithms coursework."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Shake Shack",
+    "role": "Intern – AI Engineering",
+    "link": "https://shakeshack.wd5.myworkdayjobs.com/External/job/Atlanta-Support-Center-800-Battery-Avenue-SE-Suite-200-Atlanta-GA-30339/Intern---AI-Engineering_JR12026",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 3963,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a rising college junior or senior",
+        "Assist with the development, testing, and evaluation of AI tools",
+        "Test existing AI features",
+        "Assist in evaluating new AI tools and capabilities",
+        "Help organize data",
+        "Review AI outputs to assess performance and accuracy",
+        "Document learnings, observations, and technical notes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Locus Robotics",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/locusrobotics/jobs/5087491007",
+    "location": "Burlington, MA",
+    "season": "2026 Summer",
+    "id": 3962,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a related degree program, completed Junior year or recent graduate.",
+        "Experience with web technologies like HTML, CSS, JavaScript, and UI frameworks.",
+        "Experience with object-oriented programming languages like C# and .NET.",
+        "Strong problem-solving skills and willingness to learn.",
+        "Proficient English written and verbal communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Rexford Industrial",
+    "role": "Technology Intern - AI and Automation",
+    "link": "https://job-boards.greenhouse.io/rexfordindustrial/jobs/5835020004",
+    "location": "LA",
+    "season": "2026 Summer",
+    "id": 3961,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong interest in AI, automation, and applied business use cases",
+        "Familiarity with Microsoft Power Platform tools",
+        "Exposure to prompt engineering, data extraction, or workflow automation",
+        "Analytical mindset with attention to detail and interest in improving business processes",
+        "Strong communication skills and ability to work across technical and non\ntechnical teams",
+        "Currently enrolled in an accredited college or university"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Zayo",
+    "role": "ServiceNow Intern - Service Order Management - TSM & GenAI Enablement",
+    "link": "https://zayo.wd1.myworkdayjobs.com/zayo_careers/job/CO---Denver/ServiceNow-Intern---Service-Order-Management--TSM---GenAI-Enablement_R0016191",
+    "location": "Denver, CO",
+    "season": "2026 Summer",
+    "id": 3960,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue degree in Information Systems, Computer Science, or related field",
+        "Understand ServiceNow platform and ITSM fundamentals",
+        "Familiar with JavaScript and API integrations",
+        "Interested in GenAI and intelligent automation",
+        "Experienced with ServiceNow TSM or Service Order Management modules",
+        "Familiar with ServiceNow Assist or Now Intelligence"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "T-Mobile",
+    "role": "Software Engineering Intern",
+    "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2026-Software-Engineering-Internship_REQ348619",
+    "location": "Overland Park, KS",
+    "season": "2026 Summer",
+    "id": 3959,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a Bachelor's Degree or equivalent experience",
+        "Degree in Computer Science or Engineering preferred",
+        "Less than 2 years of technical engineering experience preferred",
+        "Strong communication skills",
+        "Excellent customer service skills",
+        "Strong analytical skills",
+        "Proficient in technical writing",
+        "Proficiency with Java, Spring Boot, Python, Oracle, JSON, YAML",
+        "Knowledge of multi-threading concepts",
+        "Understanding of JVM memory management and garbage collection",
+        "Familiarity with Docker, Kubernetes, AWS, and Azure",
+        "Experience with AI development and code testing tools",
+        "Be at least 18 years of age",
+        "Be legally authorized to work in the United States",
+        "Possess a High School Diploma or GED",
+        "Actively enrolled in a degree program or recently graduated"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "T-Mobile",
+    "role": "Software Engineering ServiceNow Intern",
+    "link": "https://tmobile.wd1.myworkdayjobs.com/External/job/Frisco-Texas/Summer-2026-Software-Engineering-ServiceNow-Internship_REQ349675",
+    "location": "Frisco, TX",
+    "season": "2026 Summer",
+    "id": 3958,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor's Degree or equivalent.",
+        "Graduating between December 2026 and June 2027.",
+        "Preferably studying Computer Science or Engineering.",
+        "Less than 2 years of technical engineering experience.",
+        "Proficient with Service or ServiceNow Platform.",
+        "Possess strong communication skills.",
+        "Demonstrate strong customer service skills.",
+        "Have strong analytical skills.",
+        "Proficient in technical writing.",
+        "Be at least 18 years of age.",
+        "Legally authorized to work in the United States.",
+        "Hold a High School Diploma or GED.",
+        "Actively enrolled in a degree program or graduated within the last year.",
+        "Not an employee of T-Mobile or Metro by T-Mobile."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "EquipmentShare",
     "role": "Intern Software Engineer",
     "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=7743526",

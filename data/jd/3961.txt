@@ -1,0 +1,40 @@
+Rexford Industrial Realty, Inc. (NYSE: REXR) is a leading, publicly traded industrial real estate investment and management company operating a $14 Billion industrial real estate portfolio.Technology Intern - AI and Automation
+Position Overview: The AI and Automation Intern will support Rexford’s enterprise AI and automation initiatives by helping design, build, and operationalize AI Agents and automated workflows that streamline core business processes. This role will focus on applying AI Agents built in Copilot Studio, integrating them with platforms such as Power Automate, Salesforce, Yardi, Excel, and SharePoint, and supporting real‑world use cases across Leasing, Legal, Asset Management, and Technology.
+The intern will work closely with the Technology team and cross‑functional partners to explore, prototype, and document AI solutions that improve efficiency, consistency, and decision‑making across the organization.
+Location: Hybrid - Los Angeles, CA
+Key Responsibilities:
+Partner with the Technology team and business stakeholders to design, build, and test AI Agents in Copilot Studio that support document analysis, data extraction, and workflow automation.
+Assist in refining prompts, instructions, and agent behaviors to improve output consistency, accuracy, and usability across repeatable business scenarios.
+Support the documentation, testing, and maintenance of AI Agents to enable broader adoption and reuse.
+Support exploration and implementation of AI use cases already in active testing, including tenant financial analysis, COI compliance review, lease and RFP comparison, and document summarization.
+Help design and support automated workflows using Power Automate, integrating AI Agents with Salesforce, Yardi, Excel, and SharePoint.
+Assist with extracting structured data from unstructured documents (PDFs, Word files) and validating AI outputs for reliability and accuracy.
+Collaborate with cross‑functional teams (Leasing, Legal, Asset Management) to identify opportunities to reduce manual work and improve efficiency through AI and automation.
+Qualifications:
+Strong interest in AI, automation, and applied business use cases.
+Familiarity with Microsoft tools such as Power Platform (Power Automate, Power Apps), Copilot, Excel, and SharePoint is a plus.
+Exposure to prompt engineering, data extraction, or workflow automation preferred.
+Analytical mindset with attention to detail and an interest in improving business processes.
+Strong communication skills and ability to work across technical and non‑technical teams.
+Must be currently enrolled in an accredited college or university at the time of application and throughout the duration of the internship
+What We Offer:
+Hands-on experience with AI Agents and automation projects.
+Opportunities for networking and professional development.
+A dynamic and inclusive work environment.
+Mentorship and guidance from experienced professionals.
+Opportunity to work on real-world projects and make a meaningful impact.
+Dates:
+10 week program beginning June 15, 2026 ending August 21, 2026 ; Weekly, Monday - Thursday
+Compensation: The expected hourly rate for this role is $20. *The actual hourly rate and total compensation offered depend on a variety of factors, which include, without limitation, the qualifications of the individual applicant for the position, years of relevant experience, specific and unique skills, level of education attained, certifications or other professional licenses held, and the location where the job will be performed. The final hourly rate and total compensation will be described in any offer letter.
+*Full-time employees are eligible for the benefits mentioned below. What We Offer
+Comprehensive Benefits Package Including Medical, Dental, Vision, and Life Insurance.
+Flexible Time Off
+Bonus Eligibility & Long-Term Incentives
+401(k) Employer Match Program
+Professional Development Resources
+Robust Health & Wellness Program
+Volunteer and Community Engagement Opportunities
+Employee Resource Groups committed to Diversity, Equity, and Inclusion.
+We are committed to equity in all steps of the recruitment and employment experience. We celebrate diversity and are committed to promoting an inclusive environment for all employees. We do not discriminate based on race, religion, color, national origin, gender identity, sexual orientation, age, marital status, veteran status, or disability. We strive to be a safe place to ask questions, build professional relationships, and develop careers. Qualified applicants with arrest or conviction records will be considered for the position in accordance with the Los Angeles County Fair Chance Ordinance.
+In accordance with the California Consumer Privacy Act (“CCPA”), Rexford Industrial Realty, Inc. (“Rexford”) makes the following disclosure: in connection with an application for employment at Rexford, Rexford is collecting the categories of personal information requested in the application for the purpose of evaluating a potential employment relationship with the applicant. Rexford does not sell personal information. To learn more about Rexford’s privacy policy, please visit https://www.rexfordindustrial.com/privacy-policy
+*These stock grants are subject to approval by the Compensation Committee of the Board of Directors, are currently subject to vesting over a four-year period, with 25% of the grant vesting per year, and require continued employment on the grant date and each applicable vesting date. Actual bonus and stock grants are discretionary based on company and/or individual performance determined by Rexford Industrial in its sole discretion, and the amount of any such bonus and/or stock grant may be less or more than the targets (and may be zero). You must remain employed through the payment date of any such bonus and/or vesting to be eligible for payment/vesting.
