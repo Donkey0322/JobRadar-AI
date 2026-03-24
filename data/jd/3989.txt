@@ -1,0 +1,34 @@
+SUMMARYThe Software Engineering Intern will join the Technology team at GCM Grosvenor, a growing alternative investments firm where technology is central to enabling data-driven decision-making. Our engineers drive innovation by building and extending platforms that support investment decisions, improve operational efficiency, and enhance the employee experience. Interns will work alongside experienced engineers on product-oriented teams, contributing to the development of applications and solutions used across the firm. This role offers hands-on experience with modern engineering practices in a real-world environment.
+This 10-week summer internship is based in our Chicago office and follows a hybrid schedule, with in-office attendance required Tuesday through Thursday.
+RESPONSIBILITIES
+Our Software Engineering Summer Interns will be involved in the following critical activities:
+Join one of our product-oriented software engineering teams for the summer. You will work closely with team members and leaders on engineering projects.
+Create an approach and then design and execute on project deliverables.
+Participate in all team Agile ceremonies.
+Leverage hands on experience with technology and learned practical approaches to solve real-world business problems. Create solutions the team will use beyond the internship period.
+The summer will culminate with an intern presentation showcasing what the intern created and learned throughout the internship program.
+EDUCATION, SKILLS AND EXPERIENCE REQUIREMENTS
+You should apply if you meet most of the following:
+Pursuing a bachelor’s degree in Computer Science, Computer Engineering, or related field (grad date: Dec 2027 – Spring 2028)
+Minimum GPA: 3.5
+Comfortable with object-oriented programming (C#, Python, C++, or Java)
+Working knowledge of SQL and relational databases
+Exposure to web development (HTML, JavaScript, APIs, etc.)
+Familiar with Agile development, cloud technologies, and the software development lifecycle
+You’ll stand out if you also have:
+Experience with NoSQL databases (MongoDB, Redis, etc.)
+Experience with modern frameworks (React, Angular, Vue, etc.)
+Familiarity with automated testing tools (JUnit, Selenium, etc.)
+At a Glance - GCM’s Software Engineering Organization
+A modern software engineering group embedded inside of a financial services firm
+Teams follow a contemporary approach to software engineering focusing on test driven development, pair programing, continuous integration, distributed systems and related best practices
+Teams are empowered to deliver product requirements through cross functional team ownership
+A strong team culture inside and outside the office
+Adaptive to change and feedback from team members
+CULTURE
+We are not afraid to think differently. Embrace new ideas. Dream big. Welcome change. We are a culture of empowerment, accountability, high performance, and trust. Successful team members are self-motivated and energized by working alongside thoughtful and smart colleagues in a fast-paced environment. Individuals who thrive on this team enjoy being a part of an organization focused on excellence. We look for naturally collaborative individuals who enjoy interacting at all levels of the organization.
+Actual base salary may vary based on factors such as individual's experience, skills, and qualifications for the role. Employees may be eligible for a discretionary bonus based on factors such as individual, team, and company performance as well as a comprehensive benefits package.CHICAGO ANNUAL PAY RANGE$75,000 - $80,000 USDABOUT THE FIRM
+GCM Grosvenor (Nasdaq: GCMG) is a global alternative asset management solutions provider with approximately $91 billion in assets under management across private equity, infrastructure, real estate, credit, and absolute return investment strategies.
+The firm has specialized in alternatives for more than 54 years and has a diverse, engaged team of approximately 560 professionals serving a global client base. Eligible employees can elect to participate in comprehensive healthcare coverage (including medical, dental, vision and life insurance), flexible spending accounts, and the employer sponsored retirement plan. Additionally, employees are eligible for paid time off, parental leave, short-term and long-term disability, as well as other care/wellness programs.
+The firm is headquartered in Chicago, with offices in New York, Toronto, London, Frankfurt, Tokyo, Hong Kong, Seoul, and Sydney. For more information, visit: gcmgrosvenor.com.
+EQUAL OPPORTUNITY EMPLOYER M/F/D/V

@@ -1,5 +1,316 @@
 [
   {
+    "company": "GCM Grosvenor",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/7492479003",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 3989,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor\nhere is the JSON requested: ```json {"
+      ],
+      "season": "2027 Spring"
+    }
+  },
+  {
+    "company": "Hippocratic AI",
+    "role": "Agent Deployment Engineer",
+    "link": "https://jobs.ashbyhq.com/Hippocratic%20AI/0437c678-bd5a-429d-b34b-bfd3b70d1793/application",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "id": 3988,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess Bachelor’s degree in CS, Computer Engineering, or related field.",
+        "Have 2+ years of industry experience.",
+        "Proficient in Python.",
+        "Experience with LLM prompting (e.g., chatGPT, Claude).",
+        "Exposed to databases and building simple RESTful APIs.",
+        "Strong problem-solving mindset and eager to learn new technologies.",
+        "Experience with backend development projects (personal or academic).",
+        "Basic understanding of AI/ML concepts or desire to learn.",
+        "Knowledge of modern web frameworks (e.g., Flask, Django).",
+        "Awareness of data privacy and security best practices."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Breeze Airways",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/breezeairways/jobs/7677580003",
+    "location": "Cottonwood Heights, UT",
+    "season": "2026 Summer",
+    "id": 3987,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "0-2 years professional software development experience",
+        "Developing foundation in computer science fundamentals",
+        "Understand Git version control and collaborative workflows",
+        "Strong problem-solving and analytical skills",
+        "Excellent written and verbal communication skills",
+        "Actively enrolled in a 4-year degree in Computer Science or related field",
+        "Self-starter with a positive attitude",
+        "High performance orientation",
+        "Strong attention to detail, organization, and time management",
+        "Able to complete projects with guidance and meet deadlines",
+        "Exemplify Breeze's values"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "SS&C",
+    "role": "Intern – Technical",
+    "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3986,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Work on production system projects.",
+        "Write and test software within a web application framework.",
+        "Collaborate with experienced software engineers.",
+        "Function effectively within an agile team alongside a product owner.",
+        "Define, develop, and estimate user stories and epics.",
+        "Proficient in Angular, VueJS, HTML5, CSS3, JavaScript, TypeScript, Bootstrap, ExtJS, Node JS.",
+        "Experience with Jasmine, Karma, and PostMan for front-end testing.",
+        "Skilled in Java, Spring, SpringBoot, RESTapi, Nodejs, SQL, MongoDB, Postgres.",
+        "Experience with Junit and PowerMock for backend testing."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Teledyne",
+    "role": "Software Engineer Intern",
+    "link": "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Newark-CA/Software-Engineering-Intern_REQ33272-1",
+    "location": "Newark, CA",
+    "season": "2026 Summer",
+    "id": 3985,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess previous experience with AI implementation.",
+        "Be technically savvy.",
+        "Be self-motivated.",
+        "Thrive in a fast-paced environment with multiple priorities.",
+        "Demonstrate independent thinking, clarity, commitment, and collaboration.",
+        "Have demonstrable experience in artificial intelligence implementation.",
+        "Proficient in programming in software environments.",
+        "Possess strong research capabilities comparing large language models.",
+        "Understand requirements for implementing large language models on deployable platforms."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Intern Program - Technology",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Summer-Internship-Program---Technology--Berkeley-Heights--NJ-_R-10390608",
+    "location": "Berkeley Heights, NJ",
+    "season": "2026 Summer",
+    "id": 3984,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursuing a bachelor's degree in Information Technology, Computer Science, Management Information Systems, or related fields.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Familiarity with software development technologies like .NET, C#, Java, JavaScript, Python, R, SQL.",
+        "Familiarity with environments such as Oracle and Linux.",
+        "Experience with data visualization and analytics tools (Power BI and/or Tableau).",
+        "Strong skills in Microsoft Excel and PowerPoint.",
+        "Understand project management methodologies (Agile, Scrum, Waterfall) and tools (JIRA and/or Microsoft Project)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Booz Allen",
+    "role": "University Games Software Developer Intern",
+    "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2026-Summer-Games-Software-Developer-Intern_R0234881",
+    "location": "11 locationsHonolulu, HIAnnapolis Junction, MDColorado Springs, COMcLean, VARome, NYPanama City, FLCharleston, SCAtlanta, GAHuntsville, ALSan Diego, CAEl Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3983,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience with programming languages including Java, JavaScript, C, C++, Assembly, Python, Perl, R, or Bash.",
+        "Experience with machine learning, data mining, statistics, or graph algorithms in academic or internship environments.",
+        "Experience conducting research and writing software.",
+        "Ability to produce technical documentation and create design artifacts.",
+        "Ability to work independently and in teams.",
+        "Ability to obtain a Secret clearance.",
+        "Scheduled to obtain a Bachelor's degree in a Technology, Engineering, or Mathematics field by Winter 2027, Spring 2028, or Summer 2028.",
+        "Excellent critical thinking and analytical skills.",
+        "Excellent verbal and written communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Gen",
+    "role": "Software Engineering Intern",
+    "link": "https://gen.wd1.myworkdayjobs.com/careers/job/USA---Arizona-Tempe/Software-Engineering-Intern_55324",
+    "location": "Tempe, AZ",
+    "season": "2026 Summer",
+    "id": 3982,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Heading into your Junior or Senior year in 2026",
+        "Have a major focused on Computer Science, Computer Information Systems, or Management Information Systems",
+        "Solid understanding of object-oriented design and algorithms",
+        "Strong written, verbal, and collaboration skills",
+        "Able to problem-solve and adapt to changing priorities and technologies in a fast-paced environment",
+        "Familiar with or able to learn current trends and best practices in technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Boston Dynamics",
+    "role": "Software Intern - Multiple Teams",
+    "link": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Software-Intern--General-Software---Warehouse-Robotics--Stretch-Team_R2570",
+    "location": "Waltham, MA",
+    "season": "2026 Summer",
+    "id": 3981,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong CS fundamentals",
+        "Be proficient in Python or C++",
+        "Be familiar with Git and agentic coding tools",
+        "Have prior experience in robotics or warehouse/logistics environments",
+        "Be able to lift up to 50 pounds"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Boston Dynamics",
+    "role": "Software Intern - Multiple Teams 🎓",
+    "link": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Software-Intern--AI-ML---Warehouse-Robotics--Stretch-Team_R2572",
+    "location": "Waltham, MA",
+    "season": "2026 Summer",
+    "id": 3980,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong CS fundamentals as a rising junior, senior, or graduate student in relevant fields.",
+        "Possess strong ML or Data Analysis fundamentals (PyTorch, JAX).",
+        "Be proficient in Python.",
+        "Have experience with modern ML or AI techniques.",
+        "Possess prior internship or project experience in robotics or warehouse/logistics.",
+        "Be able to lift up to 50 pounds."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Compiler Engineering Intern - SYCL Runtime",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern---SYCL-Runtime_JR0281258-1",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 3979,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Computer Science, Computer Engineering or a related field",
+        "Experience with C/C++ (6+ months)",
+        "Good understanding of systems programming",
+        "Experience with hands-on compiler development (1+ years)",
+        "Experience with accelerated computing and parallel programming models (1+ years)",
+        "Demonstrate history of technical contributions to LLVM.org",
+        "Understand modern GPU architectures and compilation targets",
+        "Experience with LLVM sub-projects (Clang, Flang, etc.)",
+        "Hands-on experience building compilers or compiler components using the LLVM framework",
+        "Analyze and optimize language runtimes, scheduling, and memory models",
+        "Experience with SYCL/DPC++ compiler development",
+        "Extensive experience with offload programming models",
+        "Experience with OneAPI or other similar vendor toolchain development"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Applied Materials",
+    "role": "Chemist Intern - Bachelor/Masters 🎓",
+    "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Chemist-Intern--Bachelor-Masters---Santa-Clara--CA-_R2612276",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3978,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist with inorganic, organic and polymer material/chemical screening, characterization and metrology work.",
+        "Able to safely handle different chemicals.",
+        "Lead small development projects involving materials/chemical characterization, screening, QC.",
+        "Conduct material/chemical testing and analysis.",
+        "Keep detailed lab records.",
+        "Support process engineers for material/chemical needs.",
+        "Pursue a Bachelor’s or Master’s degree in Chemistry, Material Science, Chemical Engineering, Polymer Science or a related field.",
+        "Maintain good academic standing with a GPA of 3.0 or above.",
+        "Experience in Materials Characterizations/analytical chemistry preferred.",
+        "Quick learner."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "AtkinsRéalis",
+    "role": "Digital Twin Intern 🎓",
+    "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCACosta-Mesa/Digital-Twin-Intern---Summer-2026_R-151470-1",
+    "location": "Newport Beach, CA",
+    "season": "2026 Summer",
+    "id": 3977,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in data analytics and programming",
+        "Enrolled in a Masters or PhD program in software engineering/computer science",
+        "Possess advanced data analytical skills",
+        "Possess advanced programming/coding skills",
+        "Have project experience in resilience and sustainability"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Cybersecurity Software Engineer Intern",
     "link": "https://careers-gdms.icims.com/jobs/71650/job?mobile=true&needsRedirect=false",

@@ -1,0 +1,37 @@
+Working at Breeze Airways is an exciting endeavor and a serious commitment to bring “The World’s Nicest Airline” to life. We work cross-functionally with truly awesome Team Members to deliver on our mission: “To make the world of travel simple, affordable, and convenient. Improving our guests travel experience using technology, ingenuity and kindness.”Breeze is hiring- join us!
+Breeze Airways is transforming how people travel with a focus on simplicity, kindness, and innovation. As an Intern, Software Engineer, you'll work alongside our engineering team to build the software systems that power our operations, from booking and reservations to in-flight experiences and operations management. You'll contribute to meaningful projects that directly impact thousands of guests flying Breeze every day.
+Here's what you'll do
+Scope of Impact: Individual contributions within a single team
+Build and Ship Features:
+Collaborate with engineers, product managers, and designers to develop software solutions that enhance the Breeze customer and operational experience
+Write clean, maintainable code for front-end and back-end systems using our tech stack (Ruby on Rails, Angular, Go, PostgreSQL)
+Contribute to feature development across our web applications, mobile apps, and internal tools
+Grow your technical skillset and receive mentorship from your team members.
+Ensure Quality:
+Write thorough unit tests and participate in code reviews
+Debug and resolve issues in development and production environments
+Learn and Grow:
+Work under the guidance of other engineers to understand complex systems and best practices
+Continuously expand your technical skills as our platform and technology evolves
+Drive Impact:
+Contribute ideas to improve customer experiences and operational efficiency
+Participate in technical discussions and planning sessions
+Help maintain documentation and share knowledge with the team
+Here's what you'll need to be successful
+Minimum Qualifications
+0-2 years of professional software development experience
+Developing foundation in computer science fundamentals: data structures, algorithms, and system design
+Understanding of Git version control and collaborative development workflows
+Strong problem-solving and analytical skills
+Excellent written and verbal communication skills
+Active enrollment in a 4-year degree in Computer Science or related field
+Skills/Talents
+Self-starter with a positive attitude and strong desire for success
+High performance orientation with ability to work well under pressure
+Strong attention to detail, organization, and time management
+Ability to complete projects with guidance and meet deadlines
+Exemplifies Breeze's values of Safety, Kindness, Integrity, Ingenuity, and Excellence
+Perks of the Job
+Free travel on Breeze Airways ✈️ : After 30 days, enjoy free air travel with an airline that’s redefining the flying experience.
+Breeze Airways provides equal employment opportunities to all Team Members and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws. This policy applies to all terms and conditions of employment, including recruiting hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.
+Breeze Airways will never request your Social Security Number, Driver’s License or Date of Birth on our job postings. Job Postings requesting any or all of this information should be regarded as a scam. To ensure you are applying to an actual Breeze Airways posting, please apply online at www.flybreeze.com then click “Careers” at the bottom of the page.

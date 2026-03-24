@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "Toronto, Canada"
+}
+},
+"hiringOrganization" : {
+"name" : "SS&amp;C Technologies Canada Corp.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Technical",
+"@type" : "PropertyValue",
+"value" : "R40419"
+},
+"datePosted" : "2026-03-24",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Technical",
+"description" : "As a leading financial services and healthcare technology company based on revenue, SS&amp;C is headquartered in Windsor, Connecticut, and has 27,000+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology. Job Description Job Title: Intern - Technical Location(s): Toronto Status: 4-month placement Get To Know The Team: SS&amp;C is leading the way. We continue to look for today’s and tomorrow’s brightest talent, those that embody a spirit to improve not only their lives, but those around them. From college students to seasoned and experienced professionals, we encourage you to reach out and apply to our welcoming and inclusive environment. SS&amp;C prides itself on hiring diverse, honest, dynamic individuals, who value collaboration, accountability, integrity, and innovation to name a few. We are a fast-paced environment, who promote flexibility, authenticity and offer a hybrid working model to ensure employees can manage their day and meet both work and personal commitments. Why You Will Love It Here! Flexibility: Hybrid Work Model &amp; a Business Casual Dress Code, including jeans Your Future: RRSP Matching Program, Professional Development Reimbursement Work/Life Balance: Flexible Personal/Vacation Time Off, Sick Leave, Paid Holidays Your Wellbeing: Medical, Dental, Vision, Employee Assistance Program, Parental Leave Diversity &amp; Inclusion: Committed to Welcoming, Celebrating and Thriving on Diversity Training: Hands-On, Team-Customized, including SS&amp;C Learning Institute Extra Perks: Discounts on fitness clubs, travel and more! What You Will Get To Do: You will work on real projects on our production system as part of our standard scrum team. All interns will have the opportunity to write and test software in a web application framework, while partnering with a group of experienced software engineers who help and challenge them they work on projects that matter to our customers. Work with a product owner within an agile team to define, develop, and estimate user stories and epics. What You Will Bring: Front End: Angular, VueJS, HTML5, CSS3, JavaScript, TypeScript, Bootstrap, ExtJS, Node JS Front End Testing: Jasmine, Karma, PostMan Backend: Java, Spring, SpringBoot, RESTapi, Nodejs, SQL, MongoDB, Postgres Backend testing: Junit, PowerMock We encourage applications from people of all backgrounds to enable us to bring diverse perspectives to our thinking and conversation. SS&amp;C Technologies Canada Corp. fosters a positive, equitable and progressive workforce and is committed to accommodating applicants with disabilities throughout the hiring process. We will work with applicants requesting accommodation at any stage of this process. If you require any accommodation during the application and hiring process, please contact: tacanada@sscinc.com. No phone calls or email applications please. We thank all candidates for their interest, but only those under consideration will be contacted. Salary Range: $25-40/hr This job advertisement is for an existing vacancy which has been posted both internally and externally. You need to be legally eligible to work at the location(s) specified above and, where applicable, must be able to provide a valid work or study permit, if selected for an interview. SS&amp;C uses AI tools to help screen and assess applicants by analyzing resumes and applications to identify candidates whose skills match our needs. These tools support, but do not replace, human decision-making. #LI-LM1 #LI-HYBRID Unless explicitly requested or approached by SS&amp;C Technologies, Inc. or any of its affiliated companies, the company will not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. SS&amp;C Technologies is an Equal Employment Opportunity employer and does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws. As a leading financial services and healthcare technology company based on revenue, SS&amp;C is headquartered in Windsor, Connecticut, and has 27,000+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "Toronto, Canada"
+}
+},
+"hiringOrganization" : {
+"name" : "SS&amp;C Technologies Canada Corp.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Technical",
+"@type" : "PropertyValue",
+"value" : "R40419"
+},
+"datePosted" : "2026-03-24",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Technical",
+"description" : "As a leading financial services and healthcare technology company based on revenue, SS&amp;C is headquartered in Windsor, Connecticut, and has 27,000+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology. Job Description Job Title: Intern - Technical Location(s): Toronto Status: 4-month placement Get To Know The Team: SS&amp;C is leading the way. We continue to look for today’s and tomorrow’s brightest talent, those that embody a spirit to improve not only their lives, but those around them. From college students to seasoned and experienced professionals, we encourage you to reach out and apply to our welcoming and inclusive environment. SS&amp;C prides itself on hiring diverse, honest, dynamic individuals, who value collaboration, accountability, integrity, and innovation to name a few. We are a fast-paced environment, who promote flexibility, authenticity and offer a hybrid working model to ensure employees can manage their day and meet both work and personal commitments. Why You Will Love It Here! Flexibility: Hybrid Work Model &amp; a Business Casual Dress Code, including jeans Your Future: RRSP Matching Program, Professional Development Reimbursement Work/Life Balance: Flexible Personal/Vacation Time Off, Sick Leave, Paid Holidays Your Wellbeing: Medical, Dental, Vision, Employee Assistance Program, Parental Leave Diversity &amp; Inclusion: Committed to Welcoming, Celebrating and Thriving on Diversity Training: Hands-On, Team-Customized, including SS&amp;C Learning Institute Extra Perks: Discounts on fitness clubs, travel and more! What You Will Get To Do: You will work on real projects on our production system as part of our standard scrum team. All interns will have the opportunity to write and test software in a web application framework, while partnering with a group of experienced software engineers who help and challenge them they work on projects that matter to our customers. Work with a product owner within an agile team to define, develop, and estimate user stories and epics. What You Will Bring: Front End: Angular, VueJS, HTML5, CSS3, JavaScript, TypeScript, Bootstrap, ExtJS, Node JS Front End Testing: Jasmine, Karma, PostMan Backend: Java, Spring, SpringBoot, RESTapi, Nodejs, SQL, MongoDB, Postgres Backend testing: Junit, PowerMock We encourage applications from people of all backgrounds to enable us to bring diverse perspectives to our thinking and conversation. SS&amp;C Technologies Canada Corp. fosters a positive, equitable and progressive workforce and is committed to accommodating applicants with disabilities throughout the hiring process. We will work with applicants requesting accommodation at any stage of this process. If you require any accommodation during the application and hiring process, please contact: tacanada@sscinc.com. No phone calls or email applications please. We thank all candidates for their interest, but only those under consideration will be contacted. Salary Range: $25-40/hr This job advertisement is for an existing vacancy which has been posted both internally and externally. You need to be legally eligible to work at the location(s) specified above and, where applicable, must be able to provide a valid work or study permit, if selected for an interview. SS&amp;C uses AI tools to help screen and assess applicants by analyzing resumes and applications to identify candidates whose skills match our needs. These tools support, but do not replace, human decision-making. #LI-LM1 #LI-HYBRID Unless explicitly requested or approached by SS&amp;C Technologies, Inc. or any of its affiliated companies, the company will not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services. SS&amp;C Technologies is an Equal Employment Opportunity employer and does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws. As a leading financial services and healthcare technology company based on revenue, SS&amp;C is headquartered in Windsor, Connecticut, and has 27,000+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "ssctech",
+siteId: "ssctechnologies",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=ssctech&s=ssctechnologies",
+token: "4d0fae01-b6c9-4fe8-8de1-138039ca7926",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#005CB9","textColor":"#0077C8"},"progressBar":{"color":"#0077C8"},"button":{"primary":{"color":"#0077C8","borderColor":"#0077C8","textColor":"#FFFFFF","hover":{"color":"#005CB9","borderColor":"#005CB9","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#005CB9","textColor":"#005CB9","hover":{"color":"#CED3D9","borderColor":"#A1AAB3","textColor":"#333333"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"8185c0a2da5d10015154062ecf200000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#0077C8","textColor":"#0077C8","image":{"id":"8185c0a2da5d1001514e518327ac0002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
