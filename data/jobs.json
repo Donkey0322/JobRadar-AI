@@ -1,5 +1,111 @@
 [
   {
+    "company": "EquipmentShare",
+    "role": "Intern Software Engineer",
+    "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=7743526",
+    "location": "Columbia, MO",
+    "season": "2026 Summer",
+    "id": 3957,
+    "jd": null
+  },
+  {
+    "company": "Mercedes-Benz",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.lever.co/MBRDNA/bf597528-079f-47a1-965f-def393590f02/apply",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 3956,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hearst",
+    "role": "Intern Product and Engineering - AI Agents & Automation",
+    "link": "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026346",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3955,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "DoubleVerify",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/doubleverify/jobs/8464445002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3954,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing B.Sc./M.Sc. in Computer Science or a related field",
+        "Passionate about data and a creative problem solver",
+        "Deep understanding of data structures and algorithms",
+        "Experience writing code in C++, Java, Scala, or Python",
+        "Good knowledge of SQL and RDMS",
+        "Experience and knowledge of distributed systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Pinterest",
+    "role": "Apprentice Engineer",
+    "link": "https://www.pinterestcareers.com/jobs/?gh_jid=7558536",
+    "location": "SFRemote in USA",
+    "season": "2026 Summer",
+    "id": 3953,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a professional from a non-tech background",
+        "Be self-motivated and proactive",
+        "Have 1+ years of experience working collaboratively",
+        "Not be currently enrolled in a Bachelors, Masters, or PhD program",
+        "Proficient in at least one programming language",
+        "Familiar with using AI as a learning and productivity tool"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Proofpoint",
+    "role": "Agentic AI Workflows Intern",
+    "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Sunnyvale-CA/Agentic-AI-Workflows-Intern_R13934",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 3952,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess experience and knowledge of AI platforms and software or AI agent development",
+        "Strong interest in AI and applying emerging technologies in a business environment",
+        "Comfort operating in fast-moving, innovation-driven initiatives with evolving priorities",
+        "Strong attention to detail with a focus on accuracy and user experience",
+        "Experience with AI tools, simulation platforms, learning technologies, or knowledge management systems",
+        "Currently pursuing a bachelor’s degree in a related field",
+        "Able to commit to working from June to August 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Paramount Global",
     "role": "Paramount Streaming Engineering Intern - Front End",
     "link": "https://careers.paramount.com/job/Burbank-Paramount-Streaming-Engineering-Intern,-Front-End-(Summer-2026-In-Person-LA)-CA-91505/1375918300/?ats=successfactors",
