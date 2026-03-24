@@ -1,5 +1,93 @@
 [
   {
+    "company": "KBR",
+    "role": "National Security Solutions Cyber Engineer Intern",
+    "link": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Cyber-Engineer-Intern_R2116574",
+    "location": "Beavercreek, OH",
+    "season": "2026 Summer",
+    "id": 3968,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Bachelor's degree program in Computer Science, Electrical Engineering, or related field",
+        "Proficient in C/C++ and Python for low-level and high-level development",
+        "Knowledgeable in network protocols and security concepts",
+        "Familiar with machine learning models, natural language processing, or AI frameworks",
+        "Able to obtain and maintain a government security clearance",
+        "Understand digital signal processing concepts",
+        "Exposure to AI libraries such as TensorFlow, PyTorch, or LangChain",
+        "Experienced with modular architectures and plugin-based systems",
+        "Basic knowledge of prompt engineering for LLMs",
+        "Hands-on experience with Docker or Kubernetes for container orchestration",
+        "Proficient with Git, GitLab, or similar version control tools",
+        "Experienced using APIs to interface with common AI models",
+        "Familiar with secure AI deployment",
+        "Exposure to protocol reverse engineering tools"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "IBM",
+    "role": "Application Developer Intern - Oracle Middleware",
+    "link": "https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=89833",
+    "location": "Baton Rouge, LA",
+    "season": "2026 Summer",
+    "id": 3967,
+    "jd": null
+  },
+  {
+    "company": "American Rare Earths",
+    "role": "AI Engineer Intern",
+    "link": "https://ats.rippling.com/usare/jobs/8db9bb37-aa5f-40e0-96ac-d1c4ca796aeb",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3966,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a BS (junior or senior standing) or MS program in Computer Science, Data Science, Software Engineering, Applied Mathematics, or a related field.",
+        "Demonstrated experience shipping an AI/ML product or tool.",
+        "Proficient in Python, including working with APIs, data structures, and third-party libraries.",
+        "Have hands-on experience with at least one LLM framework or toolchain.",
+        "Comfortable working with structured data (SQL or Pandas) and unstructured data (PDFs, text corpora).",
+        "Possess strong written communication skills, writing prompts, specs, and documentation.",
+        "Working on a PhD in Computer Science, AI, Data Science, Software Engineering, or similar.",
+        "Experience with retrieval-augmented generation (RAG), vector databases, or embedding pipelines.",
+        "Familiar with industrial, scientific, or time-series data (SCADA, historians, lab reports, assay data).",
+        "Possess background or coursework in a physical science or engineering discipline.",
+        "Experience building multi-step or tool-using agents.",
+        "Exposure to BI tools or data visualization (PowerBI, Streamlit).",
+        "Prior internship or project work in an industrial, energy, or materials company."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Applied Materials",
+    "role": "Computer Science and Algorithms Intern",
+    "link": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/XMLNAME-2026-Summer-Computer-Science-and-Algorithms-Intern--Bachelors---Austin--TX-_R2615685",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 3965,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design and prototype new data structures.",
+        "Support algorithm development for dynamic scheduling.",
+        "Experiment with computational techniques.",
+        "Collaborate with data engineers, optimization specialists, and product teams."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Varda Space",
     "role": "Mission Software – Intern - Python",
     "link": "https://job-boards.greenhouse.io/vardaspace/jobs/7676465003",
