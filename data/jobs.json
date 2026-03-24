@@ -1,5 +1,132 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Cybersecurity Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71650/job?mobile=true&needsRedirect=false",
+    "location": "Manassas, VA",
+    "season": "2026 Summer",
+    "id": 3976,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, Mechanical Engineering, or related discipline.",
+        "Achieve a standing of sophomore or higher.",
+        "Apply classroom-learned skills to defense programs.",
+        "Work with collaborative teams on technical projects."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Transcarent",
+    "role": "Software Engineering Intern",
+    "link": "https://boards.greenhouse.io/transcarent/jobs/5814748004",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3975,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or a related field",
+        "Proficient in at least one modern programming language (Go, Java, Python, TypeScript)",
+        "Interested in security, compliance, and privacy within identity platforms",
+        "Excellent verbal and written communication skills",
+        "Strong problem-solving skills and attention to detail",
+        "Willing to learn and adapt in a fast-paced environment",
+        "Familiar with cloud platforms (AWS, GCP, Azure)",
+        "Exposed to identity platforms like Okta, Ping Identity, Auth0, or AWS IAM",
+        "Understand CI/CD pipelines and Git-based workflows"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Benjamin Moore",
+    "role": "Front End Developer Intern",
+    "link": "https://careers-benjaminmoore.icims.com/jobs/2300/job?mobile=true&needsRedirect=false",
+    "location": "Mahwah, NJ",
+    "season": "2026 Summer",
+    "id": 3974,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a degree in Computer Science or similar field.",
+        "Desire to learn and grow as a Web Developer.",
+        "Educated and experienced in industry standards for web development and content accessibility.",
+        "Strong knowledge of HTML, CSS, and JS Frameworks like Node JS.",
+        "Knowledge of SAP Commerce Cloud is a plus.",
+        "Proficient using Windows and Microsoft Office suite products."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Legal & General",
+    "role": "Intern - Onetech Services",
+    "link": "https://jobs.smartrecruiters.com/LegalAndGeneral/744000116439177",
+    "location": "Brighton, UK",
+    "season": "2026 Summer",
+    "id": 3973,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "On track for a 2.1 Degree in a Technology-related subject",
+        "Be in penultimate year of university, graduating in 2027",
+        "Possess an analytical mindset",
+        "Possess an inquisitive mind and genuine desire to learn",
+        "Demonstrate great communication skills",
+        "Exhibit high levels of energy and commitment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Presence",
+    "role": "Product Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/presencelearning/jobs/8477340002",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 3972,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an undergraduate program in CS, Software Engineering, HCI, or related field",
+        "Proficient in Claude Code, Figma Make, or Loveable",
+        "Available to work up to 25 hours per week",
+        "Familiar with Google Workspace tools",
+        "Excellent verbal and written communication skills",
+        "Able to work independently and collaboratively in a remote team",
+        "Self-motivated, organized, and able to manage priorities",
+        "Strong problem-solving and critical thinking skills",
+        "Enthusiastic about remote work and \"cameras on\" collaboration",
+        "Previous internship or project experience in edtech, healthtech, or consumer product",
+        "Experience building tools for non-technical end users",
+        "Experience contributing to a product or engineering team in an agile environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "American Tower",
+    "role": "Technology Enablement Intern",
+    "link": "https://hdsn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2466",
+    "location": "Burlington, MA",
+    "season": "2026 Summer",
+    "id": 3971,
+    "jd": null
+  },
+  {
     "company": "Northrop Grumman",
     "role": "Software Engineer Intern",
     "link": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_restricted_site/job/United-States-California-Redondo-Beach/XMLNAME-2026-Software-Engineer-Intern---Redondo-Beach-CA_R10214523-2",
