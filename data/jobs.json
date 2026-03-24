@@ -1,5 +1,51 @@
 [
   {
+    "company": "Northrop Grumman",
+    "role": "Software Engineer Intern",
+    "link": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_restricted_site/job/United-States-California-Redondo-Beach/XMLNAME-2026-Software-Engineer-Intern---Redondo-Beach-CA_R10214523-2",
+    "location": "El Segundo, CA",
+    "season": "2026 Summer",
+    "id": 3970,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled full-time in an accredited undergraduate or graduate degree program.",
+        "Will be enrolled full-time in Fall 2026.",
+        "Majoring in STEM (Science, Technology, Engineering or Math).",
+        "Available to work full-time (40 hours per week) for at least 10 weeks during summer 2026.",
+        "Able to obtain and maintain a U.S. Government security clearance.",
+        "Have an overall cumulative GPA of 3.00/4.0 or higher.",
+        "Majoring in Computer Engineering, Computer Science, Software Engineering, Electrical Engineering, or a related discipline.",
+        "Recent programming experience in C++, C, C#, Python, Java, or similar languages."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ingram Micro",
+    "role": "Intern",
+    "link": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Williamsville-NY-United-States-of-America/Summer-Intern---Developer_R-114438",
+    "location": "Buffalo, NY",
+    "season": "2026 Summer",
+    "id": 3969,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program or recent graduate.",
+        "Preferred: Junior or senior academic standing.",
+        "Basic knowledge of Python programming and scripting.",
+        "Familiarity with Microsoft Power Platform tools.",
+        "Exposure to cloud platforms or interest in learning cloud technologies.",
+        "Strong problem-solving, attention to detail, and collaborative skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "KBR",
     "role": "National Security Solutions Cyber Engineer Intern",
     "link": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Cyber-Engineer-Intern_R2116574",
