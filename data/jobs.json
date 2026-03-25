@@ -1,5 +1,231 @@
 [
   {
+    "company": "Western Digital",
+    "role": "Intern - Software Engineer - Web/App Development",
+    "link": "https://jobs.smartrecruiters.com/WesternDigital/744000116691867",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4018,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor\n\t\t\t\t\t\t\t’s degree in computer science or a related field",
+        "Experience full stack app development",
+        "Possess a strong grasp of data structures and algorithms",
+        "Proficient in React, Angular, JavaScript/TypeScript, C#, Java, Python, C++",
+        "Understand HTML, CSS, and basic web development concepts",
+        "Familiar with MSSQL, MySQL, PostgreSQL database systems",
+        "Demonstrate critical thinking and analytical skills",
+        "Experience with Git, GitHub, or Bitbucket",
+        "Collaborate effectively with team members",
+        "Eager to learn new technologies and programming languages",
+        "Possess good communication skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mediaocean",
+    "role": "Prisma Software Engineering Intern",
+    "link": "https://careers.mediaocean.com/job/New-York-Prisma-Software-Engineering-Intern-NY-10271/1376614500/?ats=successfactors",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4017,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor or Master’s degree in Computer Science, Engineering, Mathematics, Physics, or relevant field.",
+        "Possess a basic understanding of software development.",
+        "Have experience with programming languages, especially JavaScript and/or Java.",
+        "Passionate about building responsive and engaging user experiences.",
+        "Write high-quality, well-tested code.",
+        "Passionate about building technology at scale and solving challenges creatively.",
+        "Enjoy working in a highly collaborative environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "DV Trading",
+    "role": "Intern - AI Engineer",
+    "link": "https://job-boards.greenhouse.io/dvtrading/jobs/4677605005",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4016,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS or MS in Computer Science or related field",
+        "Gain hands-on experience using AI tools in real projects",
+        "Build an agent (tools, orchestration, or similar)",
+        "Possess experience with RAG (retrieval design, chunking, evaluation, prototyping)",
+        "Apply RAG to real or simulated internal/knowledge-base data",
+        "Proficient in Python for prototyping and integration",
+        "Comfortable consuming and creating APIs and working with JSON",
+        "Understand YAML for configurations",
+        "Familiar with Git workflow, including branches and merge requests",
+        "Demonstrate strong judgment in data handling and internal policies",
+        "Familiar with Linux fundamentals (shell, processes, logs, troubleshooting)",
+        "Understand networking basics (DNS, TCP/HTTP/S, ports, load balancing)",
+        "Familiar with Kubernetes fundamentals (debugging, pods, services, ingress)",
+        "Experience with coursework or projects involving Kubernetes, Prometheus/Grafana, or OpenTelemetry",
+        "Experience with CI/CD, Terraform/Ansible, or cloud platforms (AWS/GCP/Azure)"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Primetals Technologies",
+    "role": "Digital Support Associate",
+    "link": "https://mhicareers.com/job/Orlando-Digital-Support-Associate-Summer-Internship-FL-32809/1377541633/?ats=successfactors",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 4015,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Junior or Senior pursuing a Bachelor's degree in Computer Science, Computer Engineering, Data Science, or related field.",
+        "Possess advanced computer skills, including Microsoft Office Suite and data analysis software.",
+        "Have programming experience with at least one modern server language.",
+        "Understand Computer Science fundamentals: object-oriented design, data structures, algorithm design, and complexity analysis.",
+        "Be exposed to all stages of development: design, development, testing, and deployment.",
+        "Understand both client and web application architectures.",
+        "Experience with Python (Django framework), Docker, Git, MySQL, MongoDB, and Azure deployment.",
+        "Develop PowerBI reporting.",
+        "Contribute to UI design, code writing, debugging, and third-party service integration.",
+        "Work with M-Query, JSON, SQL, and Python.",
+        "Manage product/application development with minimal guidance.",
+        "Meet project deadlines.",
+        "Estimate work for defined features.",
+        "Implement new features, fix bugs, and improve performance.",
+        "Commit code with detailed notes using source control."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mediaocean",
+    "role": "Core Systems Engineering Intern",
+    "link": "https://careers.mediaocean.com/job/New-York-Prisma-Core-Systems-Engineering-Intern-NY-10271/1376615500/?ats=successfactors",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4014,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor or Master\n\t\t\t\t\t\t\t\t\t\t\t\t’s degree in Computer Science, Software Engineering or related fields",
+        "Possess basic understanding of software development",
+        "Experience with programming languages: Java, Python, Bash scripts, Oracle",
+        "Understand fundamental concepts such as data structures, algorithms, and object-oriented programming",
+        "Familiarity with AI-assisted coding tools (e.g., GitHub Copilot)",
+        "Strong problem-solving skills and ability to learn quickly",
+        "Passionate about building responsive and engaging experiences for users",
+        "Write high quality, well tested code to meet user needs",
+        "Passionate about building technology at scale and solving challenges creatively",
+        "Enjoy working in a highly collaborative environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Saronic",
+    "role": "Full Stack Engineer Intern",
+    "link": "https://jobs.lever.co/saronic/e7e1fa64-1d8d-4348-b145-064787eab591/apply",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4013,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "PsiQuantum",
+    "role": "Intern – Software Engineering",
+    "link": "https://www.psiquantum.com/apply?gh_jid=7679085003",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer",
+    "id": 4012,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing BS/MS/PhD in Computer Science, Engineering, Physics, Math, or related field",
+        "Strong Python skills, including clean API design, OOP, packaging, and testing",
+        "Possess working knowledge of distributed/remote compute concepts and cloud storage fundamentals",
+        "Familiar with quantum computing applications/algorithms, linear algebra, and scientific computing",
+        "Experience with Databricks (Jobs API/SDK, workspace organization, catalog/permissions)",
+        "Experience with AWS (S3, IAM/credentials handling, boto3-style tooling, cost monitoring)",
+        "Experienced with scientific Python stacks and GPU compute (JAX/NumPy/SciPy; performance profiling)",
+        "Exposed to quantum chemistry workflows, tensor factorization, or benchmark-driven research engineering"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Eulerity",
+    "role": "Backend Developer Intern",
+    "link": "https://job-boards.greenhouse.io/eulerity/jobs/4666015006",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4011,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "At least 1 year of experience with AI agents to build, debug, and improve software",
+        "Experienced with LLMs, AI agent frameworks, or AI-assisted product development",
+        "At least 1 year of experience building backend solutions with Java",
+        "Strong willingness to continuously learn and experiment with AI tools",
+        "Understand how to use agents and LLMs to find resources, generate code, and solve problems",
+        "Enjoy coming up with creative solutions to complex problems",
+        "Comfortable working with third-party APIs",
+        "Able to work in conjunction with other team members",
+        "Currently a student graduating in Dec 2026 or later",
+        "Able to commit minimum 30 hours per week"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Assurant",
+    "role": "Software Engineer Intern",
+    "link": "https://assurant.wd1.myworkdayjobs.com/External_Limited_Posting/job/United-States-Virtual/Software-Engineering-Intern_R-113110",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4010,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess a positive attitude and willingness to learn",
+        "Demonstrate stellar interpersonal and communication skills",
+        "Experience with C# and SQL Server",
+        "Working knowledge in writing SQL queries",
+        "Familiarity with Agile development methodologies",
+        "Familiarity with writing testable code and best practices",
+        "Currently enrolled in a bachelor's degree in Computer Science, Software Development, Information Systems, or a related program"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Cirrus Logic",
     "role": "Intern - Software Engineer - AI/ML 🎓",
     "link": "https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply",
