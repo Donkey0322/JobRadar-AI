@@ -1,5 +1,130 @@
 [
   {
+    "company": "Electronic Arts",
+    "role": "Software Engineer Intern ML AI",
+    "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-ML-AI/213550",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Fall",
+    "id": 3994,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s or Master’s degree program in a related field.",
+        "Possess a foundation in machine learning, deep learning, and data-driven system design.",
+        "Proficient in Python, with experience in deep learning frameworks such as PyTorch.",
+        "Familiar with cloud platforms (AWS, GCP, or Azure) and cloud-native tools.",
+        "Experience deploying and managing machine learning models in real-time interactive applications.",
+        "Solid understanding of computer science fundamentals including algorithms, data structures, and software design principles.",
+        "Experience with games.",
+        "Available for a hybrid full-time paid internship in Fall 2026.",
+        "Legally authorized to work in Canada on a full-time basis during the 16-week internship.",
+        "Set to graduate between May 2027 and December 2028."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Carbon Robotics",
+    "role": "Intern – Software Engineering - Full Stack",
+    "link": "https://carbonrobotics.com/job-openings?gh_jid=4664726006",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 3993,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong communication, analytical, and problem-solving skills",
+        "Know Data Structures, Algorithms, Concurrency, or Threading",
+        "Experience with JavaScript, React, Python, or Go",
+        "Pursuing a BSCS or equivalent degree"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "WDI Software Developer Intern-Art and Media Pipeline - Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Art-and-Media-Pipeline--Summer-2026_10146129",
+    "location": "Celebration, FLGlendale, CA",
+    "season": "2026 Summer",
+    "id": 3992,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python and C/C++ programming.",
+        "Strong written and spoken communication skills.",
+        "Able to learn new APIs and SDKs quickly.",
+        "Experience with Autodesk Maya/MotionBuilder scripting and API development.",
+        "Experience with UI/UX prototyping or programming tools.",
+        "Possess 3D math skills and computer graphics programming experience.",
+        "Understand digital art pipelines for VFX and video games.",
+        "Experience with 3D animation rigging.",
+        "Experience with robotics programming.",
+        "Experience with CAD software like SolidWorks.",
+        "Experience with physics-based simulation.",
+        "Develop cross-platform software.",
+        "Experience with computer hardware and input devices.",
+        "Experience with game engine development.",
+        "Currently enrolled as a Junior or higher in Computer Science or related field."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "WDI Software Developer Intern-Art and Media Pipeline",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Art-and-Media-Pipeline--Summer-2026_10146129-2",
+    "location": "Celebration, FLGlendale, CA",
+    "season": "2026 Summer",
+    "id": 3991,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python, C/C++ scripting and compiled languages.",
+        "Strong written and spoken communication skills.",
+        "Able to learn new APIs and SDKs quickly.",
+        "Experience with Autodesk Maya or MotionBuilder scripting and API development.",
+        "Experience with UI/UX prototyping or programming tools.",
+        "Possess 3D math and computer graphics programming experience.",
+        "Understand digital art pipelines for VFX or video games.",
+        "Experience with 3D animation rigging.",
+        "Experience with robotics programming.",
+        "Experience with CAD software like SolidWorks.",
+        "Experience with physics based simulation (Simulink, ANSYS).",
+        "Develop cross-platform software (Windows, Mac OS, Linux).",
+        "Experience with computer hardware and input devices.",
+        "Experience with game engine development."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Applied Materials",
+    "role": "Software Developer Intern",
+    "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Developer-Intern_R2615062",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 3990,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in .NET",
+        "Familiar with AI/ML algorithms and concepts"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "GCM Grosvenor",
     "role": "Software Engineering Intern",
     "link": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/7492479003",
