@@ -1,5 +1,101 @@
 [
   {
+    "company": "CIBC",
+    "role": "Intern - Software Engineer",
+    "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523683",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4021,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a junior or senior Computer Science major or related field.",
+        "Expected graduation date between December 2026 and June 2027.",
+        "Possess a basic understanding of Software Development Life Cycle.",
+        "Understand databases (Oracle, SQL), batch processing, firewalls, FTP/SFTP.",
+        "Have knowledge and experience with Artificial Intelligence.",
+        "Be digitally savvy.",
+        "Be innovative and adaptable to new technologies.",
+        "Possess exceptional interpersonal abilities.",
+        "Have exceptional communication and relationship-building abilities.",
+        "Possess excellent organizational skills.",
+        "Able to multitask effectively.",
+        "Have a strong teamwork and partnership mindset.",
+        "Demonstrate thoroughness in execution.",
+        "Apply a forward-thinking and strategic approach to problem-solving.",
+        "Proficient in programming languages like Python.",
+        "Familiar with Microsoft Office Suite.",
+        "Possess experience with security tools and concepts.",
+        "Demonstrate strong attention to detail.",
+        "Apply creative thinking to software engineering challenges.",
+        "Collaborate effectively within a team.",
+        "Thrive in a fast-paced, client-focused environment.",
+        "Adhere to CIBC policies and standards.",
+        "Conduct oneself according to CIBC’s Code of Conduct.",
+        "Proficient in C++ STL.",
+        "Skilled in Computer Programming.",
+        "Experienced with Engineering Software.",
+        "Experienced with Python Automation.",
+        "Skilled in Python for Data Analysis.",
+        "Familiar with Python Requests.",
+        "Experienced in Python Software Development.",
+        "Skilled in Software Product Engineering.",
+        "Experienced in Software Test Engineering."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Marvell",
+    "role": "AI/ML Intern",
+    "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-ML-Intern---Bachelor-s-Degree_2502807-1",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 4020,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor’s degree in Computer Science or a related field, or equivalent experience.",
+        "Possess a strong understanding of algorithms and machine learning.",
+        "Experience with Python and developing command line tools.",
+        "Willing to learn ASIC design domain.",
+        "Experience with classic Machine Learning algorithms, LLMs, and GNNs.",
+        "Exhibit excellent problem-solving skills.",
+        "Possess strong communication and teamwork skills.",
+        "Demonstrate great English, both verbal and written."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Micron Technology",
+    "role": "Intern EHSS Agentic AI & Multi Agent Orchestration - Enterprise Workflows",
+    "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---EHSS-Agentic-AI---Multi-Agent-Orchestration--Enterprise-Workflows-_JR95617",
+    "location": "Boise, ID",
+    "season": "2026 Summer",
+    "id": 4019,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, Data Science, Engineering, or a related field.",
+        "Demonstrate hands-on experience building agentic workflows or multi-agent systems.",
+        "Possess strong programming skills in Python, TypeScript/JavaScript, or similar.",
+        "Communicate architecture clearly and simply using diagrams and assumptions.",
+        "Design or implement agent frameworks and orchestration patterns.",
+        "Familiar with enterprise workflow and automation platforms.",
+        "Implement guardrails and validation mechanisms for reliable deployment.",
+        "Interested in regulated or safety-critical domains and AI-enabled workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Western Digital",
     "role": "Intern - Software Engineer - Web/App Development",
     "link": "https://jobs.smartrecruiters.com/WesternDigital/744000116691867",

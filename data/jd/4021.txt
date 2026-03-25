@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "IL-70 W Madison St, 8th Fl"
+}
+},
+"hiringOrganization" : {
+"name" : "CIBC Bank USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Summer Intern - Software Engineer",
+"@type" : "PropertyValue",
+"value" : "2523683"
+},
+"datePosted" : "2026-03-25",
+"validThrough" : "2026-04-10",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Summer Intern - Software Engineer",
+"description" : "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and are truly valued for who they are and what they contribute. To learn more about CIBC, please visit CIBC.com CIBC’s Summer Internship Program is a dynamic, 10-12 week experience (June through August) designed to complement your academic training and support your career aspirations. Centered around the core theme of Learn, Connect, Grow, the program offers a comprehensive blend of opportunities to expand your skills and professional network. At CIBC, we enable the work environment most optimal for you to thrive in your role. Details on your work arrangement (proportion of on-site and remote work) will be discussed at the time of your interview. As a Software Engineer Intern, You Will: Learn Engage in hands-on assignments supporting the development and enhancement of software solutions at CIBC. Develop, code, and test end-to-end stack of applications. Review, analyze, and modify programming systems, including coding, testing, and debugging. Participate in technical design, development, and integration of cross-functional, multi-platform application systems. Gain exposure to banking products, services, and industry regulations, including CIBC’s core systems and processes. Ensure adherence to regulatory and information security standards and policies in all aspects of application management. Connect Collaborate with technology and business teams in a dynamic, fast-paced environment. Build strong relationships with technical team members and peers. Lead discussions, listen, and ask the right questions to ensure problems/issues are identified and resolved. Grow Receive mentorship and guidance from experienced leaders. Develop your technical, analytical, and communication skills in a dynamic environment. Embrace and advocate change for optimal solutions and outcomes. Participate in community outreach and leadership development opportunities. Complete mandatory training and employ learnings in daily activities. Who You Are: Currently a junior or senior majoring in Computer Science, Information Technology, Software Engineering, or a related field with an expected graduation date between December 2026 and June 2027. Basic understanding of Software Development Life Cycle, databases (Oracle, SQL), batch processing, firewalls, FTP/SFTP. Knowledge and experience with Artificial Intelligence is an asset. Digitally savvy; innovative and adaptable to new technologies and trends. Exceptional interpersonal, communication, and relationship-building abilities. Excellent organizational skills and ability to multitask. Strong teamwork and partnership mindset. Thoroughness in execution and follow-through. Forward-thinking and strategic approach to problem-solving. Proficient in programming languages (e.g., Python). Familiarity with Microsoft Office Suite: Word, PowerPoint, and Excel. Knowledge of databases, Oracle, SQL, batch processing, firewalls, FTP, SFTP. Experience with security tools and concepts is an asset How You’ll Succeed: Demonstrate strong organizational skills and attention to detail. Apply creative thinking and conceptual problem-solving to software engineering challenges. Collaborate effectively within a team and across departments. Thrive in a fast-paced, client-focused environment. Adhere to all CIBC and Line of Business policies, standards, guidelines, and controls. Conduct yourself in accordance with CIBC’s Code of Conduct, Purpose, and shared values. At CIBC, we offer a competitive total rewards package. This role has an expected hourly rate of $47.00 per hour for the State of Illinois market based on experience, qualifications, and location of the position. CIBC offers a full range of benefits and programs to meet our intern's needs; including 401(k) contribution, Paid Time Off (including Sick Leave and Vacation), and Holidays, in addition to other special perks reserved for our team members. California residents — your privacy rights regarding your actual or prospective employment This position does not offer visa sponsorship At CIBC, your goals are a priority. We start with your strengths, ambitions and strive to create opportunities to tap into your potential. What you need to know CIBC is committed to creating an inclusive environment where all team members and clients feel like they belong. We seek applicants with a wide range of abilities and we provide an accessible candidate experience. If you need accommodation, please contact Mailbox.careers-carrieres@cibc.com You need to be legally eligible to work at the location(s) specified above and, where applicable, must have a valid work or study permit. We may ask you to complete an attribute-based assessment and other skills tests (such as simulation, coding, MS Office). Our goal for the application process is to get to know more about you, all that you have to offer, and give you the opportunity to learn more about us. Expected End Date 2026-08-21 Job Location IL-70 W Madison St, 8th Fl Employment Type Temporary (Fixed Term) Weekly Hours 37.5 Skills C++ STL, Computer Programming, Engineering Software, Microsoft Excel, Microsoft Office, Oracle, Python (Programming Language), Python Automation, Python for Data Analysis, Python Requests, Python Software Development, Software Product Engineering, Software Test Engineering At CIBC, we are in business to help our clients, employees and shareholders achieve what is important to them. Our ability to create value for all CIBC stakeholders is driven by a business culture based on common values: Trust, Teamwork and Accountability. Working with CIBC makes you a part of a work environment committed to our clients, employees and communities - a place where you can excel. Every day, our 44,000 employees help our clients achieve their financial goals, because what matters to our clients, matters to us.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "IL-70 W Madison St, 8th Fl"
+}
+},
+"hiringOrganization" : {
+"name" : "CIBC Bank USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Summer Intern - Software Engineer",
+"@type" : "PropertyValue",
+"value" : "2523683"
+},
+"datePosted" : "2026-03-25",
+"validThrough" : "2026-04-10",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Summer Intern - Software Engineer",
+"description" : "We’re building a relationship-oriented bank for the modern world. We need talented, passionate professionals who are dedicated to doing what’s right for our clients. At CIBC, we embrace your strengths and your ambitions, so you are empowered at work. Our team members have what they need to make a meaningful impact and are truly valued for who they are and what they contribute. To learn more about CIBC, please visit CIBC.com CIBC’s Summer Internship Program is a dynamic, 10-12 week experience (June through August) designed to complement your academic training and support your career aspirations. Centered around the core theme of Learn, Connect, Grow, the program offers a comprehensive blend of opportunities to expand your skills and professional network. At CIBC, we enable the work environment most optimal for you to thrive in your role. Details on your work arrangement (proportion of on-site and remote work) will be discussed at the time of your interview. As a Software Engineer Intern, You Will: Learn Engage in hands-on assignments supporting the development and enhancement of software solutions at CIBC. Develop, code, and test end-to-end stack of applications. Review, analyze, and modify programming systems, including coding, testing, and debugging. Participate in technical design, development, and integration of cross-functional, multi-platform application systems. Gain exposure to banking products, services, and industry regulations, including CIBC’s core systems and processes. Ensure adherence to regulatory and information security standards and policies in all aspects of application management. Connect Collaborate with technology and business teams in a dynamic, fast-paced environment. Build strong relationships with technical team members and peers. Lead discussions, listen, and ask the right questions to ensure problems/issues are identified and resolved. Grow Receive mentorship and guidance from experienced leaders. Develop your technical, analytical, and communication skills in a dynamic environment. Embrace and advocate change for optimal solutions and outcomes. Participate in community outreach and leadership development opportunities. Complete mandatory training and employ learnings in daily activities. Who You Are: Currently a junior or senior majoring in Computer Science, Information Technology, Software Engineering, or a related field with an expected graduation date between December 2026 and June 2027. Basic understanding of Software Development Life Cycle, databases (Oracle, SQL), batch processing, firewalls, FTP/SFTP. Knowledge and experience with Artificial Intelligence is an asset. Digitally savvy; innovative and adaptable to new technologies and trends. Exceptional interpersonal, communication, and relationship-building abilities. Excellent organizational skills and ability to multitask. Strong teamwork and partnership mindset. Thoroughness in execution and follow-through. Forward-thinking and strategic approach to problem-solving. Proficient in programming languages (e.g., Python). Familiarity with Microsoft Office Suite: Word, PowerPoint, and Excel. Knowledge of databases, Oracle, SQL, batch processing, firewalls, FTP, SFTP. Experience with security tools and concepts is an asset How You’ll Succeed: Demonstrate strong organizational skills and attention to detail. Apply creative thinking and conceptual problem-solving to software engineering challenges. Collaborate effectively within a team and across departments. Thrive in a fast-paced, client-focused environment. Adhere to all CIBC and Line of Business policies, standards, guidelines, and controls. Conduct yourself in accordance with CIBC’s Code of Conduct, Purpose, and shared values. At CIBC, we offer a competitive total rewards package. This role has an expected hourly rate of $47.00 per hour for the State of Illinois market based on experience, qualifications, and location of the position. CIBC offers a full range of benefits and programs to meet our intern's needs; including 401(k) contribution, Paid Time Off (including Sick Leave and Vacation), and Holidays, in addition to other special perks reserved for our team members. California residents — your privacy rights regarding your actual or prospective employment This position does not offer visa sponsorship At CIBC, your goals are a priority. We start with your strengths, ambitions and strive to create opportunities to tap into your potential. What you need to know CIBC is committed to creating an inclusive environment where all team members and clients feel like they belong. We seek applicants with a wide range of abilities and we provide an accessible candidate experience. If you need accommodation, please contact Mailbox.careers-carrieres@cibc.com You need to be legally eligible to work at the location(s) specified above and, where applicable, must have a valid work or study permit. We may ask you to complete an attribute-based assessment and other skills tests (such as simulation, coding, MS Office). Our goal for the application process is to get to know more about you, all that you have to offer, and give you the opportunity to learn more about us. Expected End Date 2026-08-21 Job Location IL-70 W Madison St, 8th Fl Employment Type Temporary (Fixed Term) Weekly Hours 37.5 Skills C++ STL, Computer Programming, Engineering Software, Microsoft Excel, Microsoft Office, Oracle, Python (Programming Language), Python Automation, Python for Data Analysis, Python Requests, Python Software Development, Software Product Engineering, Software Test Engineering At CIBC, we are in business to help our clients, employees and shareholders achieve what is important to them. Our ability to create value for all CIBC stakeholders is driven by a business culture based on common values: Trust, Teamwork and Accountability. Working with CIBC makes you a part of a work environment committed to our clients, employees and communities - a place where you can excel. Every day, our 44,000 employees help our clients achieve their financial goals, because what matters to our clients, matters to us.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "cibc",
+siteId: "campus",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US","fr-CA"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=cibc&s=campus",
+token: "da6133c3-1c0e-4985-bab9-7cd6f2ddb104",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"9856f3c44e3f01714c11a823f901de21","altText":null}},"banner":{"textColor":"#17202A","image":{"id":"9856f3c44e3f01a74680a320f901d021","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
