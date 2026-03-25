@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - PA - Oaks"
+}
+},
+"hiringOrganization" : {
+"name" : "181 SEI Global Services, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Intern - SEI Data Office AI Intern",
+"@type" : "PropertyValue",
+"value" : "R0035952"
+},
+"datePosted" : "2026-03-25",
+"validThrough" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Intern - SEI Data Office AI Intern",
+"description" : "Our Internship Program provides undergraduate students with a structured and meaningful learning experience designed to prepare them for future careers and help them make informed decisions about their professional aspirations. This 10-week opportunity focuses on building foundational business knowledge while helping interns understand how to effectively operate and grow in a corporate environment. This opportunity is part of SEI’s broader professional and leadership development continuum, designed to support early career talent as they explore potential career paths. While the internship does not guarantee full-time placement, it provides meaningful exposure to SEI’s culture, ways of working, and development opportunities that may support future consideration for additional early career programs. Interns will work in a hybrid model from our corporate headquarters in Oaks, Pennsylvania. In addition to on-the-job experience, Interns can expect to: Build foundational professional skills and strengthen business, industry, and technical acumen through a weekly seminar series Develop practical workplace capabilities through interactive sessions focused on how work gets done in a corporate environment Participate in an on‑demand summer learning plan curated by our People Development team to support business knowledge and professional development Gain exposure to SEI’s business, teams, and culture through hands‑on experiences and group activities Receive regular coaching and guidance through one‑to‑one sessions with the program manager to support professional growth and career exploration Connect with members of the broader SEI workforce through career story sessions and informal coffee chats Build meaningful relationships with fellow interns through several events held throughout the summer Receive a resume review and professional headshot to support future career opportunities Qualities successful interns bring to SEI Academic achievement in Business or Technology related fields of study such as finance, accounting, economics, marketing, computer science, or data analytics Leadership involvement in university or community organizations (e.g., charities, clubs, athletic teams, honor societies) A grade point average of 3.5 or above General awareness of artificial intelligence (AI) concepts and an interest in learning how AI can be used responsibly and effectively in a professional work environment Strong written and verbal communication skills A strong work ethic and sense of accountability Enthusiasm, curiosity, and active participation Proactiveness and willingness to learn Thoughtful risk-taking and openness to feedback Professionalism, respect, and a collaborative mindset SEI Data Office Overview: New Enterprise initiative that we started in Private Banking and working on expansion across SEI. The team works with client to propose possible solutions for their stated problems. Upon approval of a solution the team working on the development, testing, and delivery of the application code. The team members participate various client discussion with stakeholders at all levels. SEI Data Office AI Intern: We are seeking an AI Engineer Intern to support applied AI initiatives, with a focus on Large Language Models (LLMs), agentic workflows, and AI-assisted automation. This role provides hands-on experience building, evaluating, and iterating on AI-powered solutions that deliver practical outcomes in an enterprise environment. As an intern, you will collaborate with AI engineers, data and software teams, and business stakeholders to identify high-impact use cases and integrate AI capabilities into real workflows. You’ll help prototype and productionize solutions (e.g., retrieval-augmented generation, prompt and tool orchestration, evaluation harnesses, and lightweight MLOps patterns), while learning responsible AI, security, and governance practices relevant to a regulated enterprise. The role is designed to provide meaningful technical mentorship and learning opportunities while contributing to initiatives that advance SEI’s AI strategy. Criteria: Currently pursuing a degree in Computer Science, Engineering, Data Science, or a related technical field Foundational programming skills (Python preferred) and strong analytical/problem-solving ability Understanding of core AI/ML concepts and familiarity with LLM capabilities and limitations Ability to communicate clearly and document technical work for both technical and non-technical audiences Hands-on exposure to LLM frameworks or tooling (e.g., LangChain, Semantic Kernel, prompt orchestration patterns) Exposure to agentic patterns (tool calling, function calling, planning, memory, multi-agent collaboration) Experience with vector search / embeddings and RAG pipelines (indexing, retrieval, relevance evaluation) Familiarity with common AI developer tools (GitHub Copilot or similar) and experimentation workflows Basic understanding of cloud platforms and APIs used to integrate AI services into applications Our Story: We are a technology and asset management company delivering on our promise of building brave futures (SM)—for our clients, our communities, and ourselves. Come build your brave future at SEI. SEI is an Equal Opportunity Employer and so much more… After over 50 years in business, SEI remains a leading global provider of investment processing, investment management, and investment operations solutions. Reflecting our experience within financial services and financial technology our offices encompass an open floor plan and numerous art installations designed to encourage innovation and creativity in our workforce. We recognize that our people are our most valuable asset and that a healthy, happy, and motivated workforce is key to our continued growth. At SEI, we’re (literally) invested in your success. We offer our employees paid parental leave, back-up childcare arrangements, paid volunteer days, education assistance and access to thriving employee networks. SEI is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability status, protected veteran status, or any other characteristic protected by law. AI Acceptable Use in the application and interview process: SEI acknowledges the growing integration of artificial intelligence (AI) tools into individuals’ personal and professional lives. If you intend to incorporate the use of any AI tools at any stage of the application and/or interview process, please ensure you have reviewed and adhere to our AI use guidelines. We are a leader in the investment services industry, recognized for our history of innovation and paradigm-shifting solutions. We help our clients create and manage wealth - including banks, independent advisors, retirement plan sponsors, corporations, not-for-profit organizations, investment managers, hedge-fund managers, high-net-worth families, and more. We operate on principles of openness, integrity, innovation, collaboration and work-life balance - these values allow us to view trends clearly, question, think ahead, challenge convention and ultimately produce comprehensive solutions for big business challenges.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - PA - Oaks"
+}
+},
+"hiringOrganization" : {
+"name" : "181 SEI Global Services, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Intern - SEI Data Office AI Intern",
+"@type" : "PropertyValue",
+"value" : "R0035952"
+},
+"datePosted" : "2026-03-25",
+"validThrough" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Intern - SEI Data Office AI Intern",
+"description" : "Our Internship Program provides undergraduate students with a structured and meaningful learning experience designed to prepare them for future careers and help them make informed decisions about their professional aspirations. This 10-week opportunity focuses on building foundational business knowledge while helping interns understand how to effectively operate and grow in a corporate environment. This opportunity is part of SEI’s broader professional and leadership development continuum, designed to support early career talent as they explore potential career paths. While the internship does not guarantee full-time placement, it provides meaningful exposure to SEI’s culture, ways of working, and development opportunities that may support future consideration for additional early career programs. Interns will work in a hybrid model from our corporate headquarters in Oaks, Pennsylvania. In addition to on-the-job experience, Interns can expect to: Build foundational professional skills and strengthen business, industry, and technical acumen through a weekly seminar series Develop practical workplace capabilities through interactive sessions focused on how work gets done in a corporate environment Participate in an on‑demand summer learning plan curated by our People Development team to support business knowledge and professional development Gain exposure to SEI’s business, teams, and culture through hands‑on experiences and group activities Receive regular coaching and guidance through one‑to‑one sessions with the program manager to support professional growth and career exploration Connect with members of the broader SEI workforce through career story sessions and informal coffee chats Build meaningful relationships with fellow interns through several events held throughout the summer Receive a resume review and professional headshot to support future career opportunities Qualities successful interns bring to SEI Academic achievement in Business or Technology related fields of study such as finance, accounting, economics, marketing, computer science, or data analytics Leadership involvement in university or community organizations (e.g., charities, clubs, athletic teams, honor societies) A grade point average of 3.5 or above General awareness of artificial intelligence (AI) concepts and an interest in learning how AI can be used responsibly and effectively in a professional work environment Strong written and verbal communication skills A strong work ethic and sense of accountability Enthusiasm, curiosity, and active participation Proactiveness and willingness to learn Thoughtful risk-taking and openness to feedback Professionalism, respect, and a collaborative mindset SEI Data Office Overview: New Enterprise initiative that we started in Private Banking and working on expansion across SEI. The team works with client to propose possible solutions for their stated problems. Upon approval of a solution the team working on the development, testing, and delivery of the application code. The team members participate various client discussion with stakeholders at all levels. SEI Data Office AI Intern: We are seeking an AI Engineer Intern to support applied AI initiatives, with a focus on Large Language Models (LLMs), agentic workflows, and AI-assisted automation. This role provides hands-on experience building, evaluating, and iterating on AI-powered solutions that deliver practical outcomes in an enterprise environment. As an intern, you will collaborate with AI engineers, data and software teams, and business stakeholders to identify high-impact use cases and integrate AI capabilities into real workflows. You’ll help prototype and productionize solutions (e.g., retrieval-augmented generation, prompt and tool orchestration, evaluation harnesses, and lightweight MLOps patterns), while learning responsible AI, security, and governance practices relevant to a regulated enterprise. The role is designed to provide meaningful technical mentorship and learning opportunities while contributing to initiatives that advance SEI’s AI strategy. Criteria: Currently pursuing a degree in Computer Science, Engineering, Data Science, or a related technical field Foundational programming skills (Python preferred) and strong analytical/problem-solving ability Understanding of core AI/ML concepts and familiarity with LLM capabilities and limitations Ability to communicate clearly and document technical work for both technical and non-technical audiences Hands-on exposure to LLM frameworks or tooling (e.g., LangChain, Semantic Kernel, prompt orchestration patterns) Exposure to agentic patterns (tool calling, function calling, planning, memory, multi-agent collaboration) Experience with vector search / embeddings and RAG pipelines (indexing, retrieval, relevance evaluation) Familiarity with common AI developer tools (GitHub Copilot or similar) and experimentation workflows Basic understanding of cloud platforms and APIs used to integrate AI services into applications Our Story: We are a technology and asset management company delivering on our promise of building brave futures (SM)—for our clients, our communities, and ourselves. Come build your brave future at SEI. SEI is an Equal Opportunity Employer and so much more… After over 50 years in business, SEI remains a leading global provider of investment processing, investment management, and investment operations solutions. Reflecting our experience within financial services and financial technology our offices encompass an open floor plan and numerous art installations designed to encourage innovation and creativity in our workforce. We recognize that our people are our most valuable asset and that a healthy, happy, and motivated workforce is key to our continued growth. At SEI, we’re (literally) invested in your success. We offer our employees paid parental leave, back-up childcare arrangements, paid volunteer days, education assistance and access to thriving employee networks. SEI is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability status, protected veteran status, or any other characteristic protected by law. AI Acceptable Use in the application and interview process: SEI acknowledges the growing integration of artificial intelligence (AI) tools into individuals’ personal and professional lives. If you intend to incorporate the use of any AI tools at any stage of the application and/or interview process, please ensure you have reviewed and adhere to our AI use guidelines. We are a leader in the investment services industry, recognized for our history of innovation and paradigm-shifting solutions. We help our clients create and manage wealth - including banks, independent advisors, retirement plan sponsors, corporations, not-for-profit organizations, investment managers, hedge-fund managers, high-net-worth families, and more. We operate on principles of openness, integrity, innovation, collaboration and work-life balance - these values allow us to view trends clearly, question, think ahead, challenge convention and ultimately produce comprehensive solutions for big business challenges.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "seic",
+siteId: "SEI_Global_Services",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=seic&s=SEI_Global_Services",
+token: "52c56dd1-2ed9-4671-a6ef-91c5d2ff6747",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#1C1E22","textColor":"#1C1E22"},"progressBar":{"color":"#DA3336"},"button":{"primary":{"color":"#DA3336","borderColor":"#DA3336","textColor":"#FFFFFF","hover":{"color":"#1C1E22","borderColor":"#1C1E22","textColor":"#FFFFFF"}},"secondary":{"color":"#1C1E22","borderColor":"#1C1E22","textColor":"#FFFFFF","hover":{"color":"#DA3336","borderColor":"#FFFFFF","textColor":"#FFFFFF"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"7a2705ce42ef1001aa34993762790001","altText":null}},"banner":{"color":"#1C1E22","borderColor":"#E26FAB","textColor":"#FFFFFF","image":{"id":"7a2705ce42ef1001aa34988e5f520000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
