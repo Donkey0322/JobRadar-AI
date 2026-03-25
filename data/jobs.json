@@ -1,5 +1,91 @@
 [
   {
+    "company": "Uncountable",
+    "role": "Full-Stack Intern",
+    "link": "https://jobs.ashbyhq.com/uncountable/b9495eab-c04c-4333-b338-7dabdbddcaae/application",
+    "location": "4 locationsLondon, UKSFNYCMunich, Germany",
+    "season": "2026 Summer",
+    "id": 3998,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a degree in CS",
+        "Understand computer science fundamentals",
+        "Possess web development skills",
+        "Familiar with modern JavaScript best practices",
+        "Familiar with SQL database design",
+        "Experienced with React"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Freese and Nichols",
+    "role": "Part-Time Intern - Software Developer",
+    "link": "https://freese.wd1.myworkdayjobs.com/Freese_Nichols_External/job/Fort-Worth-Texas/Summer-2026-Part-Time-Internship---Software-Development_JR103553",
+    "location": "Fort Worth, TX",
+    "season": "2026 Summer",
+    "id": 3997,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current student pursuing a BS or MS in IT, CS, Software Engineering, or related fields.",
+        "Have a graduation date of August 2026 or later.",
+        "Proficient in one or more programming languages like .NET, JavaScript, or Python.",
+        "Familiar with coding principles and writing clean, efficient code.",
+        "Able to address programming challenges and think logically.",
+        "Exposed to modern development patterns.",
+        "Familiar with cloud platforms, especially Microsoft Azure.",
+        "Demonstrate interest in software development via self-learning or projects.",
+        "Knowledgeable in data structures, databases, and SQL.",
+        "Involved in student technology organizations or clubs."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Torch Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Software-Engineer-Intern---Summer-2026_R826",
+    "location": "Huntsville, AL",
+    "season": "2026 Summer",
+    "id": 3996,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university pursuing a bachelor’s degree in computer engineering, computer science, data analysis, or a related field",
+        "Ability to obtain and maintain a Secret security clearance",
+        "Familiarity with programming languages such as C++, Python, or MATLAB",
+        "Basic understanding of software development principles, including object-oriented programming and version control tools (e.g., Git)",
+        "Coursework in data structures, algorithms, and operating systems",
+        "Willingness to learn about DC/Low frequency applications and calibration systems",
+        "Strong problem-solving skills and ability to work collaboratively in a team environment",
+        "Active secret clearance",
+        "Familiarity with digital multimeter or calibration equipment is a plus",
+        "At least 18 years old",
+        "Actively enrolled as an undergraduate student at an accredited educational institution",
+        "In good academic standing with a minimum GPA of 3.0",
+        "Ability to commit to a full-time schedule for the duration of the internship"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Arcesium",
+    "role": "Software Engineer",
+    "link": "https://job-boards.greenhouse.io/arcesiumllc/jobs/5088158007",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 3995,
+    "jd": null
+  },
+  {
     "company": "Electronic Arts",
     "role": "Software Engineer Intern ML AI",
     "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-ML-AI/213550",
