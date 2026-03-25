@@ -1,5 +1,92 @@
 [
   {
+    "company": "BenchSci",
+    "role": "BenchSci Software Engineer Intern",
+    "link": "https://jobs.lever.co/benchsci/bac8e1ed-5a5c-4951-a8d8-8b4ce90701c4/apply",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4002,
+    "jd": null
+  },
+  {
+    "company": "Babel Street",
+    "role": "Software Engineer Intern/Co-op",
+    "link": "https://job-boards.greenhouse.io/babelstreet/jobs/7747118",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 4001,
+    "jd": null
+  },
+  {
+    "company": "TNS",
+    "role": "Mobile Telecom Applications Intern",
+    "link": "https://tnsi.wd1.myworkdayjobs.com/Search/job/USA---Seattle/Mobile-Telecom-Applications-Intern_R2851",
+    "location": "Seattle, WA",
+    "season": "2026 Summer",
+    "id": 4000,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong software development background",
+        "Possess analytical and problem-solving skills",
+        "Have effective communication",
+        "Ability to work collaboratively in a team environment",
+        "Pursue a degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field",
+        "Complete at least two years of study",
+        "Complete basic to intermediate development courses in JAVA or a related language",
+        "Possess knowledge of data structures",
+        "Understand object-oriented programming",
+        "Know networking basics",
+        "Familiarity with scripting",
+        "Be familiar with web development using JavaScript, HTML, and CSS",
+        "Have experience with mobile platforms (Android, iOS, React Native)",
+        "Understand the software development lifecycle"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SEI",
+    "role": "Intern – SEI Data Office AI Intern - SEI Data Office AI Intern",
+    "link": "https://seic.wd1.myworkdayjobs.com/SEI_Global_Services/job/USA---PA---Oaks/XMLNAME-2026-Intern---SEI-Data-Office-AI-Intern_R0035952",
+    "location": "Phoenixville, PA",
+    "season": "2026 Summer",
+    "id": 3999,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Achieve academically in Business or Technology fields",
+        "Show leadership in university or community organizations",
+        "Maintain a GPA of 3.5 or above",
+        "Possess general awareness of artificial intelligence (AI) concepts",
+        "Have interest in learning responsible and effective AI use",
+        "Demonstrate strong written and verbal communication skills",
+        "Possess a strong work ethic and sense of accountability",
+        "Show enthusiasm, curiosity, and active participation",
+        "Be proactive and willing to learn",
+        "Exhibit thoughtful risk-taking and openness to feedback",
+        "Maintain professionalism, respect, and a collaborative mindset",
+        "Currently pursue a degree in Computer Science, Engineering, Data Science",
+        "Possess foundational programming skills (Python preferred)",
+        "Demonstrate strong analytical and problem-solving ability",
+        "Understand core AI/ML concepts",
+        "Be familiar with LLM capabilities and limitations",
+        "Communicate clearly and document technical work",
+        "Have hands-on exposure to LLM frameworks or tooling",
+        "Possess exposure to agentic patterns",
+        "Experience with vector search and RAG pipelines",
+        "Be familiar with common AI developer tools (GitHub Copilot or similar)",
+        "Understand experimentation workflows",
+        "Possess basic understanding of cloud platforms and APIs"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Uncountable",
     "role": "Full-Stack Intern",
     "link": "https://jobs.ashbyhq.com/uncountable/b9495eab-c04c-4333-b338-7dabdbddcaae/application",
