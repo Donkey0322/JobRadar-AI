@@ -1,5 +1,115 @@
 [
   {
+    "company": "Cirrus Logic",
+    "role": "Intern - Software Engineer - AI/ML 🎓",
+    "link": "https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply",
+    "location": "Austin, TX",
+    "season": "2026 Fall",
+    "id": 4009,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Liberty University",
+    "role": "IT Computer Lab Apprentice",
+    "link": "https://liberty.wd5.myworkdayjobs.com/lu_job_board_staff/job/Lynchburg-VA/IT-Computer-Lab-Apprentice_R0010391",
+    "location": "Lynchburg, VA",
+    "season": "2026 Summer",
+    "id": 4008,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess basic computer troubleshooting knowledge and experience.",
+        "Proficient with Microsoft Office and standard office technologies.",
+        "Demonstrate strong attention to accuracy and detail.",
+        "Willing to provide exceptional customer service.",
+        "Be prompt and reliable to follow scheduled hours.",
+        "Willing to protect IT systems integrity and follow security policies.",
+        "Experienced in troubleshooting hardware, software, and network issues.",
+        "Experience working in computer labs or similar environments.",
+        "Experienced with Mac and Linux systems.",
+        "Experienced with basic scripting (Power Shell, batch files)."
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/CAD0FCA1A4/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4007,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/DF332E3ECA/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4006,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/72B9354390/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 4005,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "Co-op – Product Engineer",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/116811",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer",
+    "id": 4004,
+    "jd": null
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Intern",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/456743F7DE/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 4003,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "BenchSci",
     "role": "BenchSci Software Engineer Intern",
     "link": "https://jobs.lever.co/benchsci/bac8e1ed-5a5c-4951-a8d8-8b4ce90701c4/apply",
