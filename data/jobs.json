@@ -1,5 +1,125 @@
 [
   {
+    "company": "Bank of Montreal",
+    "role": "Software Developer – Co-op/Intern - Summer 2026 - 4 Months",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Virtual-NY-USA/Software-Developer--Summer-2026---Co-op-Internship----4-Months_R260009503",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4034,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Creative thinking",
+        "Build and manage relationships",
+        "Emotional agility",
+        "Quality Assurance and Testing",
+        "Cloud computing",
+        "Microservices",
+        "Define, analyze, and map technology business requirements",
+        "Adaptability",
+        "Learning Agility",
+        "Proficient in Programming",
+        "Applications Integration",
+        "Test Driven Development",
+        "System Development Lifecycle",
+        "Troubleshooting",
+        "System and Technology Integration",
+        "Strong verbal and written communication skills",
+        "Collaboration and team skills",
+        "Analytical and problem-solving skills",
+        "Data-driven decision making",
+        "Possess 4-6 years of relevant experience",
+        "Hold a post-secondary degree in a related field",
+        "Demonstrate technical proficiency"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premier",
+    "role": "Software Engineer Intern",
+    "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008197",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 4033,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have 0 or more years of work experience",
+        "Possess a High School Diploma or GED",
+        "Complete software development-aligned coursework",
+        "Have experience with web based service architecture and application development",
+        "Proficient in Agile Development methodologies",
+        "Skilled in Front-end UI development with JavaScript & React",
+        "Currently pursuing a Bachelor's or Master's in Computer Science, Computer Engineering, or Software Engineering",
+        "Remain in a stationary position for prolonged periods of time",
+        "Be adaptive and change priorities quickly; meet deadlines",
+        "Possess attention to detail",
+        "Operate computer programs and software",
+        "Communicate effectively with audiences in person and in electronic formats",
+        "Make independent decisions",
+        "Work in a collaborative business environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Premier",
+    "role": "Software Engineer Intern",
+    "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008137",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 4032,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "0 or more years of applicable work experience.",
+        "High School Diploma or GED.",
+        "Software development-aligned coursework.",
+        "Experience with web-based service architecture and application development.",
+        "Familiarity with Agile Development methodologies.",
+        "Experience with front-end UI development using JavaScript and React.",
+        "Currently pursuing a bachelor’s or Master’s in Computer Science, Computer Engineering, or Software Engineering.",
+        "Adaptive and able to change priorities quickly; meet deadlines.",
+        "Strong attention to detail.",
+        "Operate computer programs and software.",
+        "Communicate effectively with audiences in person and in electronic formats.",
+        "Make independent decisions.",
+        "Work in a collaborative business environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Lindy",
+    "role": "Intern Engineering",
+    "link": "https://jobs.ashbyhq.com/lindy/a8e64e62-ecbf-4fbb-bfe8-655633710f20/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4031,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Studying CS or a related field, or self-taught",
+        "Built side projects, hackathon submissions, or open source contributions",
+        "Comfortable in at least one programming language, able to quickly learn new ones",
+        "Familiar with TypeScript, React, or Python",
+        "Experienced with LLM APIs or building on top of AI models",
+        "Familiar with agentic workflows or tool-use patterns",
+        "Built or shipped a product people actually use"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Applied Materials",
     "role": "Computer Science Intern - AI/ML Tools - Bachelor's",
     "link": "https://amat.wd1.myworkdayjobs.com/External/job/HuntsvilleAL/XMLNAME-2026-Summer-Computer-Science-Intern--AI-ML-Tools----Bachelor-s--Huntsville--AL-_R2616144-1",

@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Charlotte, NC"
+}
+},
+"hiringOrganization" : {
+"name" : "300 Premier Healthcare Solutions, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R0008197"
+},
+"datePosted" : "2026-03-26",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern",
+"description" : "Software Engineer Intern What you will be doing: This position collaborates with a team of highly talented software engineers creating software products most of which are in developed in a cutting-edge framework. These products are sold in a Software as a Service (SaaS) model to hospitals and other healthcare sites to assist in improving clinical outcomes, reducing waste, and helping providers order the right screenings for their patients. This position requires someone who is passionate about front-end UI development. Key Responsibilities Responsibility #1– 25% • Writes code and assists in development of new products and enhances and maintains existing products Responsibility #2 – 25% • May analyze and address requirements in product design Responsibility #3 – 25% • May create and execute unit test cases (both automated and manual) Responsibility #4 – 20% • Constant collaboration with the software engineering team Responsibility #5 – #5% Learn new technologies Required Qualifications Work Experience: Years of Applicable Experience - 0 or more years Education: High School Diploma or GED (Required) Preferred Qualifications Skills: Software development-aligned coursework Web based service architecture and application development Agile Development methodologies Front-end UI development with JavaScript &amp; React experience Education: Currently pursuing a bachelor’s or Master’s (MA, MS, MBA) in Computer Science, Computer Engineering, Software Engineering Additional Job Requirements: Remain in a stationary position for prolonged periods of time Be adaptive and change priorities quickly; meet deadlines Attention to detail Operate computer programs and software Ability to communicate effectively with audiences in person and in electronic formats. Day-to-day contact with others (co-workers and/or the public) Making independent decisions Ability to work in a collaborative business environment in close quarters with peers and varying interruptions Working Conditions: Air conditioned office space Travel Requirements: No travel required Physical Demands: Sedentary: Exerting up to 10 pounds of force occasionally, and/or a negligible amount of force frequently or constantly to lift, carry, push, pull or otherwise move objects, including the human body. Sedentary work involves remaining stationary most of the time. Jobs are sedentary if movement is required only occasionally, and all other sedentary criteria are met. Premier’s compensation philosophy is to ensure that compensation is reasonable, equitable, and competitive in order to attract and retain talented and highly skilled employees. Premier’s internal salary range for this role is $52,000 - $78,000. Final salary is dependent upon several market factors including, but not limited to, departmental budgets, internal equity, education, unique skills/experience, and geographic location. Premier utilizes a wide-range salary structure to allow base salary flexibility within our ranges. Qualified full and part time regular employees also receive access to the following benefits: · Health, dental, vision, life and disability insurance · 401k retirement program · Paid time off · Participation in Premier’s employee incentive plans · Tuition reimbursement and professional development opportunities Premier at a glance: Ranked #1 on Charlotte’s Healthiest Employers list for 2019, 2020, 2022, and 2023 and 21st Healthiest Employer in America (2023) Named one of the World’s Most Ethical Companies® by Ethisphere® Institute for the 16th year in a row Modern Healthcare Best in Business Awards: Consultant - Healthcare Management (2024) The only company to be recognized by KLAS twice for Overall Healthcare Management Consulting For a listing of all of our awards, please visit the Awards and Recognition section on our company website. Employees receive: Perks and discounts Access to on-site and online exercise classes Premier is looking for smart, agile individuals like you to help us transform the healthcare industry. Here you will find critical thinkers who have the freedom to make an impact. Colleagues who share your thirst to learn more and do things better. Teammates committed to improving the health of a nation. See why incredible challenges require incredible people. Premier is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to unlawful discrimination because of their age, race, color, religion, national origin, ancestry, citizenship status, sex, sexual orientation, gender identity, gender expression, marital status, familial status, pregnancy status, genetic information, status as a victim of domestic violence, covered military or protected veteran status (e.g., status as a Vietnam Era veteran, disabled veteran, special disabled veteran, Armed Forces Serviced Medal veteran, recently separated veteran, or other protected veteran) disability, or any other applicable federal, state or local protected class, trait or status or that of persons with whom an applicant associates. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. In addition, as a federal contractor, Premier complies with government regulations, including affirmative action responsibilities, where they apply. EEO / AA / Disabled / Protected Veteran Employer. Premier also provides reasonable accommodations to qualified individuals with a disability or those who have a sincerely held religious belief. If you need assistance in the application process, please reply to diversity_and_accommodations@premierinc.com or contact Premier Recruiting at 704.816.5200. Information collected and processed as part of any job application you choose to submit to Premier is subject to Premier’s Privacy Policy. Thank you for your interest in Premier! We will never ask for a financial commitment as part of our interview process with candidates. Any personal details collected in connection with a legitimate offer of employment will be sought only through Premier’s Human Resources platform. Thank you for your interest in joining our team! About Premier, Inc. Premier, Inc. is a leading healthcare improvement company, uniting an alliance of more than 4,350 U.S. hospitals and health systems and approximately 300,000 other providers to transform healthcare. With integrated data and analytics, collaboratives, supply chain solutions, consulting and other services, Premier enables better care and outcomes at a lower cost. Premier plays a critical role in the rapidly evolving healthcare industry, collaborating with members to co-develop long-term innovations that reinvent and improve the way care is delivered to patients nationwide. Headquartered in Charlotte, N.C., Premier is passionate about transforming American healthcare. Please visit Premier’s news and investor sites on www.premierinc.com; as well as Twitter, Facebook, LinkedIn, YouTube, Instagram and Premier’s blog for more information about the company. As an employer, Premier offers full and part time positions as well as contingent work. For those interested in working at Premier but don’t see a current opening that aligns with your skills and abilities, please drop us your resume and indicate what positions interest you.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Charlotte, NC"
+}
+},
+"hiringOrganization" : {
+"name" : "300 Premier Healthcare Solutions, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R0008197"
+},
+"datePosted" : "2026-03-26",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern",
+"description" : "Software Engineer Intern What you will be doing: This position collaborates with a team of highly talented software engineers creating software products most of which are in developed in a cutting-edge framework. These products are sold in a Software as a Service (SaaS) model to hospitals and other healthcare sites to assist in improving clinical outcomes, reducing waste, and helping providers order the right screenings for their patients. This position requires someone who is passionate about front-end UI development. Key Responsibilities Responsibility #1– 25% • Writes code and assists in development of new products and enhances and maintains existing products Responsibility #2 – 25% • May analyze and address requirements in product design Responsibility #3 – 25% • May create and execute unit test cases (both automated and manual) Responsibility #4 – 20% • Constant collaboration with the software engineering team Responsibility #5 – #5% Learn new technologies Required Qualifications Work Experience: Years of Applicable Experience - 0 or more years Education: High School Diploma or GED (Required) Preferred Qualifications Skills: Software development-aligned coursework Web based service architecture and application development Agile Development methodologies Front-end UI development with JavaScript &amp; React experience Education: Currently pursuing a bachelor’s or Master’s (MA, MS, MBA) in Computer Science, Computer Engineering, Software Engineering Additional Job Requirements: Remain in a stationary position for prolonged periods of time Be adaptive and change priorities quickly; meet deadlines Attention to detail Operate computer programs and software Ability to communicate effectively with audiences in person and in electronic formats. Day-to-day contact with others (co-workers and/or the public) Making independent decisions Ability to work in a collaborative business environment in close quarters with peers and varying interruptions Working Conditions: Air conditioned office space Travel Requirements: No travel required Physical Demands: Sedentary: Exerting up to 10 pounds of force occasionally, and/or a negligible amount of force frequently or constantly to lift, carry, push, pull or otherwise move objects, including the human body. Sedentary work involves remaining stationary most of the time. Jobs are sedentary if movement is required only occasionally, and all other sedentary criteria are met. Premier’s compensation philosophy is to ensure that compensation is reasonable, equitable, and competitive in order to attract and retain talented and highly skilled employees. Premier’s internal salary range for this role is $52,000 - $78,000. Final salary is dependent upon several market factors including, but not limited to, departmental budgets, internal equity, education, unique skills/experience, and geographic location. Premier utilizes a wide-range salary structure to allow base salary flexibility within our ranges. Qualified full and part time regular employees also receive access to the following benefits: · Health, dental, vision, life and disability insurance · 401k retirement program · Paid time off · Participation in Premier’s employee incentive plans · Tuition reimbursement and professional development opportunities Premier at a glance: Ranked #1 on Charlotte’s Healthiest Employers list for 2019, 2020, 2022, and 2023 and 21st Healthiest Employer in America (2023) Named one of the World’s Most Ethical Companies® by Ethisphere® Institute for the 16th year in a row Modern Healthcare Best in Business Awards: Consultant - Healthcare Management (2024) The only company to be recognized by KLAS twice for Overall Healthcare Management Consulting For a listing of all of our awards, please visit the Awards and Recognition section on our company website. Employees receive: Perks and discounts Access to on-site and online exercise classes Premier is looking for smart, agile individuals like you to help us transform the healthcare industry. Here you will find critical thinkers who have the freedom to make an impact. Colleagues who share your thirst to learn more and do things better. Teammates committed to improving the health of a nation. See why incredible challenges require incredible people. Premier is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to unlawful discrimination because of their age, race, color, religion, national origin, ancestry, citizenship status, sex, sexual orientation, gender identity, gender expression, marital status, familial status, pregnancy status, genetic information, status as a victim of domestic violence, covered military or protected veteran status (e.g., status as a Vietnam Era veteran, disabled veteran, special disabled veteran, Armed Forces Serviced Medal veteran, recently separated veteran, or other protected veteran) disability, or any other applicable federal, state or local protected class, trait or status or that of persons with whom an applicant associates. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. In addition, as a federal contractor, Premier complies with government regulations, including affirmative action responsibilities, where they apply. EEO / AA / Disabled / Protected Veteran Employer. Premier also provides reasonable accommodations to qualified individuals with a disability or those who have a sincerely held religious belief. If you need assistance in the application process, please reply to diversity_and_accommodations@premierinc.com or contact Premier Recruiting at 704.816.5200. Information collected and processed as part of any job application you choose to submit to Premier is subject to Premier’s Privacy Policy. Thank you for your interest in Premier! We will never ask for a financial commitment as part of our interview process with candidates. Any personal details collected in connection with a legitimate offer of employment will be sought only through Premier’s Human Resources platform. Thank you for your interest in joining our team! About Premier, Inc. Premier, Inc. is a leading healthcare improvement company, uniting an alliance of more than 4,350 U.S. hospitals and health systems and approximately 300,000 other providers to transform healthcare. With integrated data and analytics, collaboratives, supply chain solutions, consulting and other services, Premier enables better care and outcomes at a lower cost. Premier plays a critical role in the rapidly evolving healthcare industry, collaborating with members to co-develop long-term innovations that reinvent and improve the way care is delivered to patients nationwide. Headquartered in Charlotte, N.C., Premier is passionate about transforming American healthcare. Please visit Premier’s news and investor sites on www.premierinc.com; as well as Twitter, Facebook, LinkedIn, YouTube, Instagram and Premier’s blog for more information about the company. As an employer, Premier offers full and part time positions as well as contingent work. For those interested in working at Premier but don’t see a current opening that aligns with your skills and abilities, please drop us your resume and indicate what positions interest you.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "premierinc",
+siteId: "external_professional",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=premierinc&s=external_professional",
+token: "1c790e22-34b3-4d98-a1be-f2d075a6982e",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#2BC1D9","textColor":"#E24301"},"progressBar":{"color":"#0091B3"},"button":{"primary":{"color":"#0091B3","borderColor":"#0091B3","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#0091B3","textColor":"#0091B3"}},"secondary":{"color":"#FFFFFF","borderColor":"#2BC1D9","textColor":"#2BC1D9","hover":{"color":"#2BC1D9","borderColor":"#2BC1D9","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"30f8bcfabfa6100164e94fe26f6c0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#2BC1D9","textColor":"#E24301","image":{"id":"30f8bcfabfa6100164e94f47555c0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
