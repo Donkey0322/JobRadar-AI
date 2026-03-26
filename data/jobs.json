@@ -1,5 +1,31 @@
 [
   {
+    "company": "Marqeta",
+    "role": "Product Security Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/mqreferrals/jobs/7644983",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4035,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Computer Science, Cybersecurity, or a related field",
+        "Possess foundational understanding of software development and common security concepts",
+        "Be familiar with at least one programming language",
+        "Be familiar with at least one cloud platform, such as AWS",
+        "Demonstrate curiosity and eagerness to learn about application security",
+        "Exhibit strong communication skills and a collaborative mindset",
+        "Hold Cybersecurity or Cloud Computing Certifications",
+        "Contribute to open source software",
+        "Participate in Capture the Flag or other cybersecurity events",
+        "Provide examples of practical applications in AppSec, DevSecOps, or Offensive Security"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Bank of Montreal",
     "role": "Software Developer – Co-op/Intern - Summer 2026 - 4 Months",
     "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Virtual-NY-USA/Software-Developer--Summer-2026---Co-op-Internship----4-Months_R260009503",
