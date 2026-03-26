@@ -1,5 +1,30 @@
 [
   {
+    "company": "Applied Materials",
+    "role": "Computer Science Intern - AI/ML Tools - Bachelor's",
+    "link": "https://amat.wd1.myworkdayjobs.com/External/job/HuntsvilleAL/XMLNAME-2026-Summer-Computer-Science-Intern--AI-ML-Tools----Bachelor-s--Huntsville--AL-_R2616144-1",
+    "location": "Huntsville, AL",
+    "season": "2026 Summer",
+    "id": 4030,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop new software using AI/ML tools.",
+        "Update and modify existing software using AI/ML tools.",
+        "Possess excellent programming skills.",
+        "Have a background in GPU programming.",
+        "Be familiar with AI/ML packages for software development.",
+        "Demonstrate ability to think originally and learn quickly.",
+        "Be enrolled in a Bachelor's degree program in an AI related field.",
+        "Maintain good academic standing at your university.",
+        "Achieve a preferred GPA of 3.0 or above on a 4.0 scale."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Dordt University",
     "role": "Application Developer Intern - Azure Cloud Migration",
     "link": "https://ibmglobal.avature.net/en_US/careers/JobDetail?jobId=89826",
