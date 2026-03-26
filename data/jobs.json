@@ -1,5 +1,99 @@
 [
   {
+    "company": "Peak Energy",
+    "role": "Manufacturing Software Intern",
+    "link": "https://www.peakenergy.com/careers/jobs?job_id=5090304007&gh_jid=5090304007",
+    "location": "Burlingame, CA",
+    "season": "2026 Summer",
+    "id": 4026,
+    "jd": null
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern - AI/ML 🎓",
+    "link": "https://jobs.ashbyhq.com/snowflake/22c1e3be-f58d-4ed9-bcca-2b6aa1f8393f/application",
+    "location": "Menlo Park, CABellevue, WA",
+    "season": "2026 Summer",
+    "id": 4025,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program.",
+        "Hold a Master's or PhD class level.",
+        "Major in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or related field.",
+        "Complete recommended coursework in artificial intelligence, machine learning, deep learning.",
+        "Complete recommended coursework in federated learning, efficient LLMs, information retrieval.",
+        "Complete recommended coursework in predictive & generative modeling, natural language processing.",
+        "Complete recommended coursework in differential privacy, cloud computing, distributed & operating systems.",
+        "Publish research in AI, ML, NLP, CV, or contribute to open source.",
+        "Demonstrate excellent programming skills in Python, Golang, and Java.",
+        "Possess preferred knowledge of Pytorch or CUDA.",
+        "Experience collaborating as part of a team.",
+        "Dedicated and passionate about technology."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Energy Vault",
+    "role": "Intern Software Engineer",
+    "link": "https://jobs.lever.co/EnergyVault/6df5f1b9-8fce-4717-aaa0-98768ef28eeb/apply",
+    "location": "Vienna, VA",
+    "season": "2026 Summer",
+    "id": 4024,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Western Alliance",
+    "role": "Intern - Computer Science Majors",
+    "link": "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Phoenix-AZ/Summer-2026-Internship---Computer-Science-Majors_R12232",
+    "location": "Dallas, TXPhoenix, AZ",
+    "season": "2026 Summer",
+    "id": 4023,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science, software engineering, or a related field.",
+        "Strong analytical and problem-solving skills.",
+        "Familiarity with programming languages, standards, and cloud platforms.",
+        "Excellent communication and teamwork abilities.",
+        "Interest in financial services and enterprise technology."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Western Alliance",
+    "role": "Intern - Computer Science Majors",
+    "link": "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2026-Internship---Computer-Science-Majors_R12233",
+    "location": "Dallas, TXPhoenix, AZIrving, TX",
+    "season": "2026 Summer",
+    "id": 4022,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science or related field.",
+        "Strong analytical and problem-solving skills.",
+        "Familiarity with programming languages, standards, and cloud platforms.",
+        "Excellent communication and teamwork abilities.",
+        "Interest in financial services and enterprise technology."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "CIBC",
     "role": "Intern - Software Engineer",
     "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523683",
