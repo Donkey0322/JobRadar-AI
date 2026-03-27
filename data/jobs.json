@@ -1,5 +1,53 @@
 [
   {
+    "company": "Valsoft Corporation",
+    "role": "Software Engineering Intern",
+    "link": "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 4045,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "RTX",
+    "role": "DevSecOps Software Intern - Summer 2026",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-REMOTE/DevSecOps-Software-Intern--Summer-2026--Remote-_01830286",
+    "location": "Waterbury, CT",
+    "season": "2026 Summer",
+    "id": 4044,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Requires a High School Diploma or equivalent",
+        "Pursuing a Bachelor’s or advanced degree in an applicable discipline",
+        "Knowledge of DevSecOps/DevOps for software development",
+        "Knowledge of aerospace standards, certifications, and compliance",
+        "Experience with Virtualization, Cloud Strategy, Security, CI/CD, Test Automation",
+        "Knowledge of Object or Component-Oriented Development Software",
+        "Experienced in Software Version Control",
+        "Knowledgeable in API Integration"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Applied Materials",
+    "role": "Application Engineer Intern 🎓",
+    "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2026-Summer---Application-Engineer-Intern--Santa-Clara--CA-_R2520060",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 4043,
+    "jd": null
+  },
+  {
     "company": "BECU",
     "role": "Software Developer Intern",
     "link": "https://becu.wd1.myworkdayjobs.com/en-US/External/job/Remote-WA/XMLNAME-2026-Software-Developer-Intern_R-13179",
