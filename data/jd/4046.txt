@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US - I.S. PARSIPPANY (NJPRS)"
+}
+},
+"hiringOrganization" : {
+"name" : "GSV UPS General Services",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Co Op Web Development",
+"@type" : "PropertyValue",
+"value" : "R26009532"
+},
+"datePosted" : "2026-03-27",
+"validThrough" : "2026-04-04",
+"employmentType" : "FULL_TIME",
+"title" : "Co Op Web Development",
+"description" : "Before you apply to a job, select your language preference from the options available at the top right of this page. Explore your next opportunity at a Fortune Global 500 organization. Envision innovative possibilities, experience our rewarding culture, and work with talented teams that help you become better every day. We know what it takes to lead UPS into tomorrow—people with a unique combination of skill + passion. If you have the qualities and drive to lead yourself or teams, there are roles ready to cultivate your skills and take you to the next level. Job Description: The Information Technology Web Development Co-Op collaborates with the team and support departments (when needed) on projects that contribute to the success of the team and the organization. The incumbent will have exposure to various aspects of Web Development, including analysis, design and code and test phases. Responsibilities Works with business and internal teams on user stories and requirements. Assist in design, code and test of solutions. Documents and reports status to stakeholders. Preferences Possesses strong communication (written/verbal) skills Strong analytical mindset and a genuine interest in working with application development technologies. Familiarity with data analysis tools such as Excel, Python, R, Java, .NET, Angular or SQL Demonstrates complex problem solving, cognitive flexibility and computational thinking Other Criteria: Must be currently located in the same geographic location as the job. - Required. Must be a student currently enrolled in a degreed college/university program or graduated from a degreed college/university program within the last 24 months. Employee Type: Intern UPS is committed to providing a workplace free of discrimination, harassment, and retaliation. Other Criteria: UPS is an equal opportunity employer. UPS does not discriminate on the basis of race/color/religion/sex/national origin/veteran/disability/age/sexual orientation/gender identity or any other characteristic protected by law. Basic Qualifications: Must be a U.S. Citizen or National of the U.S., an alien lawfully admitted for permanent residence, or an alien authorized to work in the U.S. for this employer. Pay Range: Pay for this internship is based on several factors, including but not limited to geographic location, education level, and course of study. The base pay ranges from $13.35/hour to $30.00/hour for Undergraduate Interns or $22.60/hour to $52.00/hour for Postgraduate Interns. Hired applicants may be eligible for 401(k) retirement program, Discounted Employee Stock Purchase Program, and personal time. In 1907, two teenage entrepreneurs in a Seattle basement started with a $100 loan and created what would become the world’s largest package delivery service. Today, operating in more than 220 countries and territories, UPS is committed to moving our world forward by delivering what matters. UPS and its more than 500,000 UPSers around the globe are a transportation and logistics leader, offering innovative solutions to customers, big and small. UPS understands and appreciates its responsibility to help build safe, stronger and more resilient communities founded on justice and economic opportunity for all, supported by a healthy, sustainable global environment.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US - I.S. PARSIPPANY (NJPRS)"
+}
+},
+"hiringOrganization" : {
+"name" : "GSV UPS General Services",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Co Op Web Development",
+"@type" : "PropertyValue",
+"value" : "R26009532"
+},
+"datePosted" : "2026-03-27",
+"validThrough" : "2026-04-04",
+"employmentType" : "FULL_TIME",
+"title" : "Co Op Web Development",
+"description" : "Before you apply to a job, select your language preference from the options available at the top right of this page. Explore your next opportunity at a Fortune Global 500 organization. Envision innovative possibilities, experience our rewarding culture, and work with talented teams that help you become better every day. We know what it takes to lead UPS into tomorrow—people with a unique combination of skill + passion. If you have the qualities and drive to lead yourself or teams, there are roles ready to cultivate your skills and take you to the next level. Job Description: The Information Technology Web Development Co-Op collaborates with the team and support departments (when needed) on projects that contribute to the success of the team and the organization. The incumbent will have exposure to various aspects of Web Development, including analysis, design and code and test phases. Responsibilities Works with business and internal teams on user stories and requirements. Assist in design, code and test of solutions. Documents and reports status to stakeholders. Preferences Possesses strong communication (written/verbal) skills Strong analytical mindset and a genuine interest in working with application development technologies. Familiarity with data analysis tools such as Excel, Python, R, Java, .NET, Angular or SQL Demonstrates complex problem solving, cognitive flexibility and computational thinking Other Criteria: Must be currently located in the same geographic location as the job. - Required. Must be a student currently enrolled in a degreed college/university program or graduated from a degreed college/university program within the last 24 months. Employee Type: Intern UPS is committed to providing a workplace free of discrimination, harassment, and retaliation. Other Criteria: UPS is an equal opportunity employer. UPS does not discriminate on the basis of race/color/religion/sex/national origin/veteran/disability/age/sexual orientation/gender identity or any other characteristic protected by law. Basic Qualifications: Must be a U.S. Citizen or National of the U.S., an alien lawfully admitted for permanent residence, or an alien authorized to work in the U.S. for this employer. Pay Range: Pay for this internship is based on several factors, including but not limited to geographic location, education level, and course of study. The base pay ranges from $13.35/hour to $30.00/hour for Undergraduate Interns or $22.60/hour to $52.00/hour for Postgraduate Interns. Hired applicants may be eligible for 401(k) retirement program, Discounted Employee Stock Purchase Program, and personal time. In 1907, two teenage entrepreneurs in a Seattle basement started with a $100 loan and created what would become the world’s largest package delivery service. Today, operating in more than 220 countries and territories, UPS is committed to moving our world forward by delivering what matters. UPS and its more than 500,000 UPSers around the globe are a transportation and logistics leader, offering innovative solutions to customers, big and small. UPS understands and appreciates its responsibility to help build safe, stronger and more resilient communities founded on justice and economic opportunity for all, supported by a healthy, sustainable global environment.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "hcmportal",
+siteId: "Search",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","fr-CA","fr-FR","it-IT","nl-NL","pl-PL","pt-BR","vi-VN","tr-TR","ru-RU","th-TH","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=hcmportal&s=Search",
+token: "1a0e8b83-ea3c-497f-9d0b-22f4c6b98a13",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"progressBar":{"color":"#00857D"},"button":{"primary":{"color":"#00857D","borderColor":"#00858D","textColor":"#FFFFFF","hover":{"color":"#000000","borderColor":"#000000","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#000000","textColor":"#000000","hover":{"color":"#000000","borderColor":"#000000","textColor":"#FFFFFF"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":false,"height":250,"image":{"id":"843f1d7cd8ac1001a5c690f10f610000","altText":null}},"banner":{"color":"#000000","borderColor":"#00857D","textColor":"#FFFFFF","image":{"id":"15c65da7621901561e0e6644f323a25b","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

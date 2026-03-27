@@ -1,5 +1,63 @@
 [
   {
+    "company": "Elekta",
+    "role": "Software Engineering Intern",
+    "link": "https://elekta.wd3.myworkdayjobs.com/Elekta_Careers/job/San-Jose/Software-Engineering-Intern_R2026-0496",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4047,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled college student in a technology related bachelor's or graduate program",
+        "Maintain a cumulative GPA of 3.3 or above",
+        "Proficient in Python, C#, Java, or similar languages",
+        "Resourceful in finding information and answers",
+        "Highly motivated",
+        "Strong critical thinking and analytical skills",
+        "Able to prioritize work and achieve project goals in a timely manner",
+        "Dedicated to helping others",
+        "Experience with unit testing frameworks and test automation tools",
+        "Familiar with Git and modern development workflows",
+        "Interest in software quality, engineering tooling, or cybersecurity",
+        "Exposure to AI/ML or large language models (LLMs)",
+        "Interest in AI-assisted developer tools or automation"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "United Parcel Service (UPS)",
+    "role": "Co-op Web Development",
+    "link": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/US---IS-PARSIPPANY-NJPRS/Co-Op-Web-Development_R26009532",
+    "location": "Parsippany-Troy Hills, NJ",
+    "season": "2026 Summer",
+    "id": 4046,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong communication (written/verbal) skills",
+        "Have a strong analytical mindset",
+        "Show a genuine interest in working with application development technologies",
+        "Be familiar with data analysis tools such as Excel, Python, R, Java, .NET, Angular or SQL",
+        "Demonstrate complex problem solving",
+        "Exhibit cognitive flexibility",
+        "Possess computational thinking",
+        "Be currently located in the same geographic location as the job",
+        "Be a student currently enrolled in a degreed college/university program",
+        "Or, have graduated from a degreed college/university program within the last 24 months",
+        "Be a U.S. Citizen or National of the U.S.",
+        "Or, be an alien lawfully admitted for permanent residence",
+        "Or, be an alien authorized to work in the U.S. for this employer"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Valsoft Corporation",
     "role": "Software Engineering Intern",
     "link": "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply",
