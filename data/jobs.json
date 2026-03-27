@@ -1,5 +1,36 @@
 [
   {
+    "company": "BECU",
+    "role": "Software Developer Intern",
+    "link": "https://becu.wd1.myworkdayjobs.com/en-US/External/job/Remote-WA/XMLNAME-2026-Software-Developer-Intern_R-13179",
+    "location": "WashingtonTexasArizona",
+    "season": "2026 Summer",
+    "id": 4042,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled full-time in a Bachelor's or Master's degree program.",
+        "Graduated from a Bachelor's or Master's degree program within the past twelve months.",
+        "Knowledgeable in computer science fundamentals.",
+        "Familiar with object-oriented design, data structures, and algorithms.",
+        "Experienced with modern development tools and technologies, including AI-assisted coding tools.",
+        "Able to collaborate with developers, analysts, and partners.",
+        "Contribute to building software features, prototypes, and solutions.",
+        "Support coding, testing, debugging, and documentation efforts.",
+        "Follow programming standards, team processes, and development best practices.",
+        "Assist in identifying issues and supporting debugging and problem-solving.",
+        "Support activities related to data models, database scripts, and system updates.",
+        "Contribute to continuous integration and deployment activities.",
+        "Participate in team discussions, planning sessions, and collaborative problem-solving.",
+        "Assist in basic analysis to understand technical or business requirements.",
+        "Contribute to team goals and take on additional responsibilities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Copart",
     "role": "Software Engineer Intern",
     "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR108058",
