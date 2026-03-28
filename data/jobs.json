@@ -1,5 +1,65 @@
 [
   {
+    "company": "Zip",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/zip/caa5ba75-3b38-4d29-88cd-69a90b01fd6f/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4050,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Canada",
+      "qualifications": [
+        "Pursuing a BS or MS in Computer Science or a related technical field.",
+        "Expected graduation date between April 2027 - October 2027.",
+        "Experienced with web applications and API development.",
+        "Familiarity with Python, Javascript/TypeScript, React, and GraphQL.",
+        "Able to quickly learn new frameworks, architecture patterns, and programming languages.",
+        "Possess fantastic written and verbal communication skills.",
+        "Have prior internship experience in a high-growth startup environment.",
+        "Design and build highly reliable and resilient products and features.",
+        "Work closely with cross-functional product and customer-facing teams.",
+        "Write high-quality, extensible, and maintainable code.",
+        "Design and build scalable frontend applications and components.",
+        "Design and build APIs to drive existing and new features."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "General Dynamics Information Technology",
+    "role": "Software Developer Intern",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Developer--Intern-_RQ216769",
+    "location": "Albany, NY",
+    "season": "2026 Summer",
+    "id": 4049,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Microsoft Excel",
+        "Proficient in Microsoft PowerPoint",
+        "Possess software knowledge",
+        "Currently enrolled in an associate's, bachelor's or master's STEM degree program",
+        "Basic understanding of Microsoft Office suite",
+        "Desire to learn new software languages and technologies",
+        "Strong communication skills",
+        "Ability to build meaningful relationships",
+        "Self-aware and able to correct mistakes",
+        "Prioritize tasks and responsibilities",
+        "Actively seek personal and professional development",
+        "Intuitive, with ability to solve complex problems",
+        "Possess genuine intellectual curiosity and a nimble mindset",
+        "Understanding of automation technologies",
+        "Understanding of software development best practices",
+        "Understanding of ITSM concepts"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Legal & General",
     "role": "Intern Onetech Services",
     "link": "https://jobs.smartrecruiters.com/LegalAndGeneral/744000117360110",
