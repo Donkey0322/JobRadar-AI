@@ -1,5 +1,38 @@
 [
   {
+    "company": "Kinaxis",
+    "role": "Intern Developer - Front End Technologies",
+    "link": "https://careers-kinaxis.icims.com/jobs/34493/job?mobile=true&needsRedirect=false",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4051,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Develop high quality code for web client and application server.",
+        "Enhance product quality by fixing bugs.",
+        "Write tests and improve product performance.",
+        "Contribute to our reusable component library.",
+        "Collaborate with development, QA, and UX teams.",
+        "Currently enrolled in a program focused on software development.",
+        "Experienced building web applications.",
+        "Possess personal projects on GitHub.",
+        "Maintain an open mindset for learning and improving.",
+        "Exhibit strong problem-solving skills.",
+        "Possess strong communication skills.",
+        "Proficient in TypeScript, JavaScript, C#.",
+        "Experienced with a front-end framework like React, Vue, or Angular.",
+        "Knowledgeable in unit testing and end-to-end testing.",
+        "Familiar with functional programming.",
+        "Proficient in CSS and CSS in JS.",
+        "Understand REST APIs."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Zip",
     "role": "Software Engineer Intern",
     "link": "https://jobs.ashbyhq.com/zip/caa5ba75-3b38-4d29-88cd-69a90b01fd6f/application",
