@@ -1,5 +1,160 @@
 [
   {
+    "company": "Atomic Semi",
+    "role": "Rust Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/atomicsemi/009d0819-c688-4ab9-8816-a3c7ab002470/application",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 4063,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Provide a portfolio (e.g., GitHub).",
+        "Pursue a BS in Computer Science or Computer Engineering, or demonstrate exceptional software engineering skill.",
+        "Strong programming skills in Rust, or C++/systems programming experience and a desire to learn Rust quickly.",
+        "Solid understanding of systems fundamentals: memory, performance, concurrency.",
+        "Experience building non-trivial software projects from scratch.",
+        "Interested in real-time systems, computational geometry, algorithms, GPU programming, or visualization.",
+        "Experience with interactive software like Figma, Blender, or CAD tools.",
+        "Background in compiling to WebAssembly or building rich applications.",
+        "Familiarity with schema evolution, database migrations, or serialization formats.",
+        "Understand collaborative or distributed systems.",
+        "Exposure to geometry, graph algorithms, optimization, or simulation.",
+        "Experience with graphics rendering pipelines.",
+        "Exposure to advanced 2D/3D visualization or novel user interfaces."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Atomic Semi",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/atomicsemi/947338ca-e135-4398-9aa3-79e131bc03d5/application",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 4062,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS in Computer Science or Computer Engineering, or demonstrate exceptional software engineering skill.",
+        "Strong programming skills in Rust, Go, or Typescript.",
+        "Solid understanding of systems fundamentals: memory, performance, concurrency.",
+        "Experience building non-trivial software projects from scratch.",
+        "Interested in databases, visualization, or data processing pipelines.",
+        "Experience with interactive software such as Figma, Blender, CAD tools, KiCad, or scientific computing environments.",
+        "Familiarity with schema evolution, database migrations, or serialization formats.",
+        "Understand collaborative or distributed systems.",
+        "Appreciate seminal computer science texts.",
+        "Exposure to advanced 2D/3D visualization, simulation, or novel user interfaces."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Salesforce",
+    "role": "Scholar - Futureforce Tech Launchpad",
+    "link": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2026-Scholar---Futureforce-Tech-Launchpad_JR324012",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4061,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be currently enrolled in a US college or university.",
+        "Be starting junior year in Fall 2026 or graduating in 2028.",
+        "Pursue a course of study in computer science or software.",
+        "Intend to pursue a career in software development.",
+        "Complete an introductory programming (CS 1-type) class.",
+        "Be familiar with core programming concepts.",
+        "Receive a confirmation email from CodePath.org."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cooper Standard",
+    "role": "Intern Python Programming/Virtual Validation",
+    "link": "https://cooperstandard.wd1.myworkdayjobs.com/CooperStandard/job/Northville-Michigan/Intern---Python-Programming-Virtual-Validation_R018010",
+    "location": "Novi, MI",
+    "season": "2026 Summer",
+    "id": 4060,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a 2nd or 3rd year level student",
+        "Pursue a bachelor's degree in computer sciences",
+        "Maintain a minimum 2.8 GPA",
+        "Possess Python programming experience",
+        "Prefer AI and machine learning experience",
+        "Have basic knowledge and understanding of databases",
+        "Ability to work remotely"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Salesforce",
+    "role": "Scholar - Futureforce Tech Launchpad",
+    "link": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2026-Scholar---Futureforce-Tech-Launchpad_JR324012-1",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4059,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be currently enrolled in a US college or university.",
+        "Be starting your junior year of college in Fall 2026 or graduating in 2028.",
+        "Pursue a course of study related to computer science and software.",
+        "Intend to pursue a career in software development.",
+        "Complete a CS 1-type class, like Intro to Programming.",
+        "Familiarity with core programming concepts.",
+        "Proficient in HTML, CSS, JavaScript, and APIs.",
+        "Experience with Node/Express, React, Postgres, SQL, and Heroku.",
+        "Gain exposure to LLMs, AWS, D3.js, MongoDB, GraphQL, and Kafka.",
+        "Develop soft skills and collaboration abilities.",
+        "Receive a confirmation email from CodePath."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Developer",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32692",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4058,
+    "jd": null
+  },
+  {
+    "company": "Quantum Workplace",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.lever.co/QuantumWorkplace/029a2d0e-102d-4c4d-b3c9-5c01084f5708/apply",
+    "location": "Omaha, NE",
+    "season": "2026 Summer",
+    "id": 4057,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completed at least one project where code was written and shipped",
+        "Able to live and work in Omaha, NE during the internship"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Boston Medical Center",
     "role": "Software Developer Intern - Infectious Diseases Research",
     "link": "https://bmc.wd1.myworkdayjobs.com/BMC/job/Boston/Software-Developer-Student-Intern--Infectious-Diseases-Research_47533-1",
