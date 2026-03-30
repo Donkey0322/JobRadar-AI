@@ -1,5 +1,58 @@
 [
   {
+    "company": "Boston Medical Center",
+    "role": "Software Developer Intern - Infectious Diseases Research",
+    "link": "https://bmc.wd1.myworkdayjobs.com/BMC/job/Boston/Software-Developer-Student-Intern--Infectious-Diseases-Research_47533-1",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4056,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an undergraduate degree program (CS, IT, CE, or equivalent), beyond sophomore year.",
+        "Able to perform multiple tasks and prioritize duties.",
+        "Able to work independently.",
+        "Excellent interpersonal, verbal, and written communication skills.",
+        "Interested in performing new and varied work assignments.",
+        "Flexible with work assignments.",
+        "Comfortable writing code in Python.",
+        "Experience with C/C++.",
+        "Basic knowledge of Microsoft Office.",
+        "Experience with Git and GitHub.",
+        "Basic knowledge of TypeScript, HTML, CSS/SCSS.",
+        "Experience with SQL.",
+        "Understanding of cloud technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Snyk",
+    "role": "Software Engineer Intern",
+    "link": "https://snyk.wd103.myworkdayjobs.com/External/job/United-Kingdom---London-Office/Software-Engineer-Intern_JR100496",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4055,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Familiarity with at least one programming language",
+        "Curiosity for infrastructure concepts like message queues, databases, or cloud computing",
+        "Proactive problem-solving mindset",
+        "Strong communication skills and a team-first mentality",
+        "Currently pursuing or recently graduated with a degree in Computer Science, Engineering, or a related technical field",
+        "Experience with Docker or Kubernetes in personal or school projects",
+        "Basic understanding of Kafka or Snowflake",
+        "Passionate about automation and Infrastructure as Code concepts"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Farsight",
     "role": "Software Engineering Intern",
     "link": "https://jobs.ashbyhq.com/farsight/096cdc49-06ae-4724-8f46-c58184e98334",
