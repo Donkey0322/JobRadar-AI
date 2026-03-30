@@ -1,5 +1,53 @@
 [
   {
+    "company": "Farsight",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/farsight/096cdc49-06ae-4724-8f46-c58184e98334",
+    "location": "New York, NY",
+    "season": "2026 Summer",
+    "id": 4054,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Computer Science or related program.",
+        "Experienced with Python and an understanding of cloud-based infrastructure like AWS.",
+        "Available full-time for 10-12 weeks between May and August.",
+        "Strong interest in learning and understanding generative AI technology."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Johnson Controls",
+    "role": "Software Engineering Intern",
+    "link": "https://jci.wd5.myworkdayjobs.com/en-US/jci/job/Milwaukee-Wisconsin-United-States-of-America/Software-Engineering-Intern_WD30264038",
+    "location": "Milwaukee, WI",
+    "season": "2026 Summer",
+    "id": 4053,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Bachelor's program in Computer Engineering, Software Engineering, or Computer Science.",
+        "Ability to work 10+ hours per week during semesters and 40 hours during breaks.",
+        "Adaptable to work in a dynamic environment with task flexibility.",
+        "Experience of 1+ year in C/C++, C#, or Python.",
+        "Solid analytical, problem-solving, and troubleshooting skills.",
+        "Possess an inquisitive nature and ability to learn quickly in CI/CD Pipeline areas.",
+        "Experience with Build Tools and Processes (e.g., CMake, Jenkins).",
+        "Proficient in Asset Configuration and Management (e.g., GitHub, Artifactory).",
+        "Knowledge of Data Protection/Security Methodologies (e.g., HSM, PKI).",
+        "Familiarity with Automated testing philosophies and tools (e.g., Google Test, Robot).",
+        "Familiarity with Code Analysis Tools (e.g., LINT, CodeQL).",
+        "Culturally sensitive and experienced with global teams."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Guidewire",
     "role": "Services Solutions Technical Architect Intern",
     "link": "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/United-States---Philadelphia-PA/Services-Solutions-Technical-Architect-Intern_JR_14535",
