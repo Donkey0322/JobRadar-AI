@@ -1,5 +1,112 @@
 [
   {
+    "company": "RR Donnelley",
+    "role": "Application Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/RRDonnelley/744000117759513",
+    "location": "Logan, UT",
+    "season": "2026 Summer",
+    "id": 4080,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a full-time student pursuing a Bachelor or higher degree in Computer Science, Information Technology, or Computer Engineering.",
+        "Have experience or related coursework in Python and/or Perl.",
+        "Possess working knowledge of Unix or Linux operating systems.",
+        "Experience working with data stored in XML and/or JSON format is preferred.",
+        "Possess good verbal and written communication skills.",
+        "Understand general business concepts and apply them effectively.",
+        "Exhibit a positive attitude and outstanding customer service.",
+        "Demonstrate accuracy and attention to detail."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Samsung",
+    "role": "Software Engineer Backend Intern",
+    "link": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Engineer--Backend-Internship_R115950",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 4079,
+    "jd": null
+  },
+  {
+    "company": "Myriad Genetics",
+    "role": "Software Engineer Architect – Technology Intern",
+    "link": "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6018",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4078,
+    "jd": null
+  },
+  {
+    "company": "Myriad Genetics",
+    "role": "Software Engineer Technology",
+    "link": "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6020",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4077,
+    "jd": null
+  },
+  {
+    "company": "Accenture",
+    "role": "Youth Apprenticeship 2 - Technology NAELFY26",
+    "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/NY---New-York/CareerWise-Youth-Apprenticeship-2---Technology-NAELFY26_R00321766",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4076,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Participate in CareerWise while pursuing a High School Diploma.",
+        "Interested in an alternative path in technology.",
+        "Eager to kickstart a career after high school.",
+        "Comfortable navigating technology and computers.",
+        "Possess interest or experience in full-stack development.",
+        "Possess interest or experience in native cloud programming.",
+        "Possess interest or experience in data analytics.",
+        "Possess interest or experience in agile project management.",
+        "Energized by solving problems.",
+        "Enjoy learning independently.",
+        "Possess a learning mindset and welcome feedback.",
+        "Reliable and responsible.",
+        "Enjoy accomplishing things as part of a team."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Point72",
+    "role": "AI Intern - Long/Short Equities",
+    "link": "https://boards.greenhouse.io/point72/jobs/8486146002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4075,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science, Computer Engineering, or related field",
+        "Have hands-on programming experience in Python",
+        "Be familiar with SQL or equivalent data query languages",
+        "Possess practical experience implementing or integrating AI models or APIs",
+        "Demonstrate experience using coding-focused developer tools and AI code assistants",
+        "Identify manual or repetitive workflows and propose automation opportunities",
+        "Collaborate with data teams to access, validate, and instrument datasets",
+        "Possess strong problem-solving skills",
+        "Be curious about AI tools",
+        "Show eagerness to learn in a fast-paced team environment",
+        "Commit to the highest ethical standards"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Sargent & Lundy",
     "role": "Software Engineer Intern",
     "link": "https://careers-sargentlundy.icims.com/jobs/23200/job?mobile=true&needsRedirect=false",
