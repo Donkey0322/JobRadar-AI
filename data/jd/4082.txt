@@ -1,0 +1,286 @@
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.revolutioncompany.com/#website","url":"https://www.revolutioncompany.com/","name":"Revolution Sustainable Solutions","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.revolutioncompany.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.revolutioncompany.com/join-our-team/#webpage","url":"https://www.revolutioncompany.com/join-our-team/","name":"Join the Revolution team","isPartOf":{"@id":"https://www.revolutioncompany.com/#website"},"datePublished":"2021-11-02T14:43:14+00:00","dateModified":"2022-01-10T03:29:26+00:00","description":"With a strategic vision, a dedicated team, and endless possibilities, we\u2019re getting one step closer to reaching our goal every day.","breadcrumb":{"@id":"https://www.revolutioncompany.com/join-our-team/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.revolutioncompany.com/join-our-team/"]}]},{"@type":"BreadcrumbList","@id":"https://www.revolutioncompany.com/join-our-team/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.revolutioncompany.com/"},{"@type":"ListItem","position":2,"name":"Join Our Team"}]}]}
+Join the Revolution team
+{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.revolutioncompany.com/#website","url":"https://www.revolutioncompany.com/","name":"Revolution Sustainable Solutions","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.revolutioncompany.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.revolutioncompany.com/join-our-team/#webpage","url":"https://www.revolutioncompany.com/join-our-team/","name":"Join the Revolution team","isPartOf":{"@id":"https://www.revolutioncompany.com/#website"},"datePublished":"2021-11-02T14:43:14+00:00","dateModified":"2022-01-10T03:29:26+00:00","description":"With a strategic vision, a dedicated team, and endless possibilities, we\u2019re getting one step closer to reaching our goal every day.","breadcrumb":{"@id":"https://www.revolutioncompany.com/join-our-team/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.revolutioncompany.com/join-our-team/"]}]},{"@type":"BreadcrumbList","@id":"https://www.revolutioncompany.com/join-our-team/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.revolutioncompany.com/"},{"@type":"ListItem","position":2,"name":"Join Our Team"}]}]}
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.revolutioncompany.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.3"}};
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+.container .search-field {
+color: #000;
+border: 0;
+outline: 0;
+}
+.member-gallery .blocks-gallery-item img {
+width: 100%;
+height: 98px !important;
+object-fit: contain;
+}
+.pdf-container {
+max-width: 1110px;
+margin-left: auto;
+margin-right: auto;
+}
+/* Hide some temporarily incomplete modules */
+.hidden {
+display: none;
+}
+/* Fixes product names when description text is missing */
+.row > article.product.alt .inner,
+.slick-slide article.product.alt .inner {
+width: 100%;
+}
+/* Fixes product names on product pages */
+.type-product .entry-title span,
+.type-product .entry-title a {
+padding-left: 0.25em !important;
+padding-right: 0.25em !important;
+}
+/* Fixes article module when in mobile */
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-3, .has-4-columns .block-editor-inner-blocks .wp-block-columns.block-editor-block-list__block.wp-block .wp-block-column, .wp-block-gallery.columns-4 .blocks-gallery-grid .blocks-gallery-item {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 50% !important;
+flex: 0 0 50% !important;
+max-width: 50% !important;
+}
+}
+/* Fixes footer spacing */
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-3, .has-4-columns .block-editor-inner-blocks .wp-block-columns.block-editor-block-list__block.wp-block .wp-block-column.footer-1, .wp-block-gallery.columns-4 .blocks-gallery-grid .blocks-gallery-item.footer-1 {
+max-width: 33% !important;
+}
+}
+.block-5 {
+width: 100%;
+}
+.wp-block-gallery.member-gallery .blocks-gallery-grid .blocks-gallery-item {
+margin: 0 !important;
+padding: 0 !important;
+}
+.wp-block-gallery.member-gallery .blocks-gallery-grid .blocks-gallery-item img {
+padding: 10px !important;
+}
+/* Make the Hubspot forms look like Gravityforms */
+.gform_wrapper :not(li) > label {
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 8px;
+display: inline-block;
+padding: 0;
+}
+.gform_wrapper ul {
+list-style: none;
+}
+.gform_wrapper li input {
+margin-right: 0.5em;
+}
+.hs_i_m_interested_in {
+margin-top:2em;
+}
+.hs-button {
+display: -webkit-inline-box;
+display: -ms-inline-flexbox;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+height: 49px;
+font-size: 18px;
+border-radius: 0;
+font-weight: 700;
+color: #000;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+background-color: transparent;
+border: 2px solid #000;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+-webkit-appearance: button;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+margin-top: 2em;
+}
+.hs-button:hover {
+color: #fff;
+background-color: #000;
+border-color: #000;
+}
+.hs-button::after {
+content: "TEST";
+}
+.content ul.hs-error-msgs {
+padding-left: 0;
+margin-top: 0.5em;
+color: #df0a0a;
+}
+/* Testimonial Slider with Image */
+@media (max-width: 768px) {
+.testimonial-slideshow-image .image-side img {
+margin-left: auto;
+margin-right: auto;
+}
+}
+var _tvq = window._tvq = window._tvq || [];
+(function() {
+var u = (("https:" == document.location.protocol) ?
+"https://collector-8806.tvsquared.com/"
+:
+"http://collector-8806.tvsquared.com/"
+);
+_tvq.push(['setSiteId', "TV-18189036-1"]);
+_tvq.push(['setTrackerUrl', u + 'tv2track.php']);
+_tvq.push([function() {
+this.deleteCustomVariable(5, 'page')
+}]);
+_tvq.push(['trackPageView']);
+var d = document,
+g = d.createElement('script'),
+s = d.getElementsByTagName('script')[0];
+g.type = 'text/javascript';
+g.defer = true;
+g.async = true;
+g.src = u + 'tv2track.js';
+s.parentNode.insertBefore(g, s);
+})();
+var JUri = 'https://bactronix.pfgsandbox.com/',
+breakpoints = {"laptop":1200,"tablet":1024,"tablet-portrait":768,"phone":667,"phone-portrait":375},
+menuBreakpoint = 768,
+disableResponsive = false,
+gridboxVersion = '2.8.6',
+themeData = {"id":1,"theme":"9","page":{"option":"com_gridbox","view":"page","id":1}};
+.banner-slideshow .image {
+xbackground-position: left !important;
+}
+Contact About Sustainability Sustainability Our Sustainability Commitment Affiliations & Certifications Sustainability Report Solutions Solutions Our Revolutionary Approach Custom Closed-Loop Programs Sustainable Products Collections & Recycling Sustainable Materials Products Products View All Products Agricultural Films & Bags Carryout Bags Food Prep Irrigation Polytube Plastic Sheeting Recycled Resins Stretch Films Trash Bags Markets Resources Resources View All Resources Articles News and Press Product Collateral Careers About Contact Us Locations Sustainability Our Sustainability Commitment Affiliations & Certifications Solutions Our Revolutionary Approach Custom Closed Loop Programs Sustainable Products Collections & Recycling Sustainable Materials Products View All Products Agricultural Films & Bags Carryout Bags Food Prep Irrigation Polytube Plastic Sheeting Recycled Resins Stretch Films Trash Bags Markets Resources All Resources Articles News and Press Careers
+Are you ready to redefine possible?
+With a strategic vision, a dedicated team, and endless possibilities, we’re getting one step closer to reaching our goal every day. Join us.
+jQuery(function ($) {
+var pageBlock = $('#banner-slideshow-block_6176cbc82db4e');
+pageBlock.find('.page-banner-slideshow').slick({
+fade: true,
+infinite: true,
+speed: 1000,
+cssEase: 'linear',
+arrows: true,
+autoplay: true
+});
+});
+var useAutoScrolling = false;
+if (window.addEventListener) {
+window.addEventListener('message', icims_handlePostMessage, false);
+} else if (window.attachEvent) {
+window.attachEvent('onmessage', icims_handlePostMessage);
+}
+function icims_handlePostMessage(event) {
+// If this is not a message from an icims domain, ignore it.
+if (event.origin.indexOf('icims.com') == -1) return;
+var data = event.data;
+if (typeof data === "string") {
+try {
+data = ICIMS.jsonDecode(data);
+} catch(e) {
+data = event.data;
+}
+}
+try {
+if (data && data.height && !isNaN(data.height)) {
+document.getElementById('icims_content_iframe').height = parseInt(data.height);
+} else if ((data && 'x' in data && 'y' in data && !isNaN(parseInt(data.x)) && !isNaN(parseInt(data.y)))) {
+top.scrollTo(parseInt(data.x), parseInt(data.y));
+} else if(data && data.pageTitle){
+window.document.title = data.pageTitle;
+}
+} catch (e) {}
+}
+function getCookie(name) {
+var match = document.cookie.match(name + '=(.*?)(;|$)');
+if (match) return unescape(match[1]);
+else return "";
+}
+function updateUrl(url) {
+try {
+history.replaceState({}, '', url);
+} catch (e) {}
+}
+icimsAddOnload(function() {
+var icimsFrame = document.createElement('iframe');
+var iFrameHeight = 500;
+icimsFrame.id = 'icims_content_iframe';
+icimsFrame.name = 'icims_content_iframe';
+icimsFrame.src = 'https:\/\/careers-revolutioncompany.icims.com\/jobs\/2869\/full-stack-developer-intern\/job?in_iframe=1';
+icimsFrame.setAttribute('style', 'width: 100%;border: none;margin: 0px');
+iFrameHeight = 500;
+icimsFrame.setAttribute('height', iFrameHeight);
+icimsFrame.setAttribute('title', 'iCIMS Content iFrame');
+icimsFrame.onload=function() {
+try {
+window.parent.parent.scrollTo(0,0);
+} catch (e) {}
+};
+document.getElementById('icims_iframe_span').appendChild(icimsFrame);
+try {
+var height = getCookie('cookie_icims_iframe_content_height');
+if (height > 0 && typeof style !== 'undefined') style.height = height + 'px';
+} catch(e) {}
+document.getElementById('icims_content_iframe').onreadystatechange = function() {
+try{
+if ('interactive' == this.readyState) {
+window.scroll(1,1);
+}
+} catch(e) {}
+};
+try {
+var height = 0;
+if (navigator.userAgent.indexOf("Firefox")!=-1) height = document.body.offsetHeight + 16;
+else height = document.body.scrollHeight;
+document.cookie="cookie_icims_iframe_content_height="+height+";SameSite=Strict;Secure;path=/;";
+} catch(e) {}
+});
+<iframe src="https://careers-revolutioncompany.icims.com/jobs/2869/full-stack-developer-intern/job?in_iframe=1" id="noscript_icims_content_iframe" name="noscript_icims_content_iframe" title="Noscript iCIMS Content iFrame" style="width:100%;" height="500"></iframe>
+833.806.0356info@revolutioncompany.com
+Follow Us
+AboutWho We Are
+Contact Us
+Careers
+SustainabilityOur Sustainability Commitment
+Affiliations & Certifications
+Sustainability Report
+SolutionsOur Revolutionary Approach
+Custom Closed-Loop Programs
+Sustainable Products
+Collections & Recycling
+Sustainable Materials
+ProductsView All Products
+Agricultural Films & Bags
+Carryout Bags
+Food Prep
+Irrigation Polytube
+Plastic Sheeting
+Recycled Resins
+Stretch Films
+Trash Bags
+Markets
+ResourcesView All Resources
+Articles
+News and Press
+Product Collateral
+CareersLocations
+Join Our Team
+Proud Member of:
+© 2022 Revolution Company. All right reserved. | Privacy Policy
+/* <![CDATA[ */
+var admin_url = {"ajax_url":"https:\/\/www.revolutioncompany.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */

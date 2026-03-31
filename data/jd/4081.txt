@@ -1,0 +1,74 @@
+US Careers Portal Visit Careers Portal Kiosk mode //<![CDATA[ window.gon={};gon.priority_country_codes=["US","GB","AU","IE"];gon.company={"uid":"8d672184bb3335c103499c3f4bd5a671"};gon.page={"uid":"e7cec18f38decee2b9c86cb7e3c53909"};gon.i18n={"job_search_form":{"jobs":"Jobs","categories":"Categories","departments":"Departments","cities":"Cities","countries":"Countries"},"enable_cookies":"We've detected that your browser cookies are disabled. Please enable your cookies to use this website","form_error":"Sorry! There was a problem sending this form"};gon.configuration={"field_mapping_names":["string_field_1","string_field_2","string_field_3","string_field_4","string_field_5","string_field_6","string_field_7","string_field_8","string_field_9","string_field_10","dropdown_field_1","dropdown_field_2","dropdown_field_3","dropdown_field_4","dropdown_field_5","dropdown_field_6","dropdown_field_7","dropdown_field_8","dropdown_field_9","dropdown_field_10"]};gon.migrate_cookie={"active":false,"from_domain":null};gon.heatmap_tracking={"active":true,"links":{"create":{"url":"/api/v1/public/page_event_sequences.json"}}};gon.ct={"active":true,"links":{"create":{"url":"/api/v1/public/candidate_events.json"}}};gon.links={"meta_data":{"url":"/me/candidates/meta_data?company_id=8d672184bb3335c103499c3f4bd5a671\u0026page_id=e7cec18f38decee2b9c86cb7e3c53909","method":"GET","format":"json"},"consent":{"url":"/me/candidates/consent?company_id=8d672184bb3335c103499c3f4bd5a671","method":"GET","format":"json"},"location":{"url":"/me/candidates/location","method":"POST","format":"json"},"job_search":{"url":"https://careers.bio-rad.com/jobs/search"}};gon.third_party_analytics={"google_analytics":{"tracking_code":"UA-191055565-1"}}; //]]> Apply Now
+var useAutoScrolling = false;
+if (window.addEventListener) {
+window.addEventListener('message', icims_handlePostMessage, false);
+} else if (window.attachEvent) {
+window.attachEvent('onmessage', icims_handlePostMessage);
+}
+function icims_handlePostMessage(event) {
+// If this is not a message from an icims domain, ignore it.
+if (event.origin.indexOf('icims.com') == -1) return;
+var data = event.data;
+if (typeof data === "string") {
+try {
+data = ICIMS.jsonDecode(data);
+} catch(e) {
+data = event.data;
+}
+}
+try {
+if (data && data.height && !isNaN(data.height)) {
+document.getElementById('icims_content_iframe').height = parseInt(data.height);
+} else if ((data && 'x' in data && 'y' in data && !isNaN(parseInt(data.x)) && !isNaN(parseInt(data.y)))) {
+top.scrollTo(parseInt(data.x), parseInt(data.y));
+} else if(data && data.pageTitle){
+window.document.title = data.pageTitle;
+}
+} catch (e) {}
+}
+function getCookie(name) {
+var match = document.cookie.match(name + '=(.*?)(;|$)');
+if (match) return unescape(match[1]);
+else return "";
+}
+function updateUrl(url) {
+try {
+history.replaceState({}, '', url);
+} catch (e) {}
+}
+icimsAddOnload(function() {
+var icimsFrame = document.createElement('iframe');
+var iFrameHeight = 500;
+icimsFrame.id = 'icims_content_iframe';
+icimsFrame.name = 'icims_content_iframe';
+icimsFrame.src = 'https:\/\/careers-biorad.icims.com\/jobs\/38316\/test-engineering-intern-%28software%29\/job?in_iframe=1';
+icimsFrame.setAttribute('style', 'width: 100%;border: none;margin: 0px');
+iFrameHeight = 500;
+icimsFrame.setAttribute('height', iFrameHeight);
+icimsFrame.setAttribute('title', 'iCIMS Content iFrame');
+icimsFrame.onload=function() {
+try {
+window.parent.parent.scrollTo(0,0);
+} catch (e) {}
+};
+document.getElementById('icims_iframe_span').appendChild(icimsFrame);
+try {
+var height = getCookie('cookie_icims_iframe_content_height');
+if (height > 0 && typeof style !== 'undefined') style.height = height + 'px';
+} catch(e) {}
+document.getElementById('icims_content_iframe').onreadystatechange = function() {
+try{
+if ('interactive' == this.readyState) {
+window.scroll(1,1);
+}
+} catch(e) {}
+};
+try {
+var height = 0;
+if (navigator.userAgent.indexOf("Firefox")!=-1) height = document.body.offsetHeight + 16;
+else height = document.body.scrollHeight;
+document.cookie="cookie_icims_iframe_content_height="+height+";SameSite=Strict;Secure;path=/;";
+} catch(e) {}
+});
+<iframe src="https://careers-biorad.icims.com/jobs/38316/test-engineering-intern-%28software%29/job?in_iframe=1" id="noscript_icims_content_iframe" name="noscript_icims_content_iframe" title="Noscript iCIMS Content iFrame" style="width:100%;" height="500"></iframe>
+Company www.bio-rad.com Contact Us ©2021 Bio-Rad Laboratories, Inc. More Info Pay Transparency Nondiscrimination Provision EEO is the Law Poster EEO is the Law Supplement Learn more about Bio-Rad Accessibility/ Disability Access: If you require assistance or an accommodation with the application process, please contact 510-741-4122. Candidate Details × Your Privacy Matters Before you visit, we want to let you know we use cookies to offer you a better browsing experience. To learn more about how we use cookies, please review Bio-Rad's Cookie Policy. We would appreciate your confirmation by either accepting or declining our cookies. You may change your cookie preferences under the Settings icon at any time. I accept I do not accept .icims_height_fix {background: none;background-image:none;display: initial;padding: 0px;max-width: 100%!important;width: 100%!important;}.parent_width_fix {max-width: 100%!important;} body{display:inherit!important;}
