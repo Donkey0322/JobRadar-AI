@@ -1,5 +1,35 @@
 [
   {
+    "company": "Revolution",
+    "role": "Full Stack Developer Intern",
+    "link": "https://careers-revolutioncompany.icims.com/jobs/2869/full-stack-developer-intern/job",
+    "location": "Dallas. TX",
+    "season": "2026 Summer",
+    "id": 4082,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Bio-Rad Laboratories",
+    "role": "Test Engineering Intern (Software)",
+    "link": "https://careers-biorad.icims.com/jobs/38316/test-engineering-intern-%28software%29/job",
+    "location": "Hercules, CA",
+    "season": "2026 Summer",
+    "id": 4081,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "RR Donnelley",
     "role": "Application Developer Intern",
     "link": "https://jobs.smartrecruiters.com/RRDonnelley/744000117759513",
