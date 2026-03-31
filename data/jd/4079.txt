@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "645 Clyde Avenue, Mountain View, CA, USA"
+}
+},
+"hiringOrganization" : {
+"name" : "Samsung Electronics America, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer, Backend Internship",
+"@type" : "PropertyValue",
+"value" : "R115950"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-05-25",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer, Backend Internship",
+"description" : "Position Summary Our vision is what your eyes see. Here at Samsung, we've successfully changed the way TV sets were viewed - once hunky, bulky sets that displayed dull colors to attractive, thin and sleek panels that captivate viewers with vibrant colors and life-like realism. We're at it again - with a new endeavor - changing the way you interact with Smart-TVs. As we revolutionize the TV viewing experience once again, we want to do the same for the way you interact with the next generation of our products and services. We're putting together a team of world-class engineers that would help us make this vision a reality. If you're ready to take on this challenge and see your work dazzle millions of users, we'd love to hear from you! Responsibilities will include: • Build high quality image processing tools using latest Gen AI technologies • Build high throughput/availability, cloud based, advertisement solutions • Quickly prototyping and developing consumer-facing services that will be displayed on millions of devices • Ability to effectively communicate ideas to peers and distributed teams • Contributing towards building a system with a test driven development / Agile approach • Rapid deployment, monitoring, and troubleshooting around the cloud hosted environments Necessary Skills / Attributes: • Experience in CNN, GAN, Transformer architecture, Image segmentation • Experience in open source Image processing frameworks • Experience in Golang / Python • Experience in Windows, Linux • Strong knowledge in Computer Science foundations (Data structures) • BS/MS in Computer Science/Engineering or equivalent experience Not-Required but Preferred: • Experience in backend Ad technologies such as RTB, DSP, and DMP. • Experience on large-scale multi-tier cloud applications and environments • Extensive experience with Amazon AWS, and other Amazon cloud offerings • Experience working in multi-threaded &amp; concurrency-driven environments and an understanding of the benefits and pitfalls of concurrency. Role and Responsibilities The qualified candidate will possess the following: • Excellent verbal and written communications skills • Consider yourself a curious, high-level thinker • Passion for quality and writing clean, solid, readable code that scales and performs well • Experience with the Agile Methodology • Module / feature ownership Skills and Qualifications * Please visit Samsung membership to see Privacy Policy, which defaults according to your location. You can change Country/Language at the bottom of the page. If you are European Economic Resident, please click here. At Samsung, we believe that innovation and growth are driven by an inclusive culture and a diverse workforce. We aim to create a global team where everyone belongs and has equal opportunities, inspiring our talent to be their true selves. Together, we are building a better tomorrow for our customers, partners, and communities. * Samsung Electronics America, Inc. and its subsidiaries are committed to employing a diverse workforce, and provide Equal Employment Opportunity for all individuals regardless of race, color, religion, gender, age, national origin, marital status, sexual orientation, gender identity, status as a protected veteran, genetic information, status as a qualified individual with a disability, or any other characteristic protected by law. Reasonable Accommodations for Qualified Individuals with Disabilities During the Application Process Samsung Electronics America is committed to providing reasonable accommodations for qualified individuals with disabilities in our job application process. If you have a disability and require a reasonable accommodation in order to participate in the application process, please contact our Reasonable Accommodation Team (855-557-3247) or SEA_Accommodations_Ext@sea.samsung.com for assistance. This number is for accommodation requests only and is not intended for general employment inquiries. Job Alerts: If you would like to be notified of new opportunities when they are posted, please click here. You will be asked to create an account first if you do not already have one. Samsung Electronics is a global leader in technology, opening new possibilities for people everywhere. Through relentless innovation and discovery, we are transforming the worlds of TVs, smartphones, wearable devices, tablets, digital appliances, and network systems, and the entire semiconductor industry with our memory, system LSI, foundry, and LED solutions. Samsung is also leading in the development of the Internet of Things through, among others, our Smart Home and Digital Health initiatives. Since being established in 1969, Samsung Electronics has grown into one of the world’s leading technology companies, and become recognized as one of the top global brands. Our network now extends across the world, and Samsung takes great pride in the creativity and diversity of its talented people, who drive our growth. To discover more, please visit our official newsroom at (https://news.samsung.com/global/).",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "645 Clyde Avenue, Mountain View, CA, USA"
+}
+},
+"hiringOrganization" : {
+"name" : "Samsung Electronics America, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer, Backend Internship",
+"@type" : "PropertyValue",
+"value" : "R115950"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-05-25",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer, Backend Internship",
+"description" : "Position Summary Our vision is what your eyes see. Here at Samsung, we've successfully changed the way TV sets were viewed - once hunky, bulky sets that displayed dull colors to attractive, thin and sleek panels that captivate viewers with vibrant colors and life-like realism. We're at it again - with a new endeavor - changing the way you interact with Smart-TVs. As we revolutionize the TV viewing experience once again, we want to do the same for the way you interact with the next generation of our products and services. We're putting together a team of world-class engineers that would help us make this vision a reality. If you're ready to take on this challenge and see your work dazzle millions of users, we'd love to hear from you! Responsibilities will include: • Build high quality image processing tools using latest Gen AI technologies • Build high throughput/availability, cloud based, advertisement solutions • Quickly prototyping and developing consumer-facing services that will be displayed on millions of devices • Ability to effectively communicate ideas to peers and distributed teams • Contributing towards building a system with a test driven development / Agile approach • Rapid deployment, monitoring, and troubleshooting around the cloud hosted environments Necessary Skills / Attributes: • Experience in CNN, GAN, Transformer architecture, Image segmentation • Experience in open source Image processing frameworks • Experience in Golang / Python • Experience in Windows, Linux • Strong knowledge in Computer Science foundations (Data structures) • BS/MS in Computer Science/Engineering or equivalent experience Not-Required but Preferred: • Experience in backend Ad technologies such as RTB, DSP, and DMP. • Experience on large-scale multi-tier cloud applications and environments • Extensive experience with Amazon AWS, and other Amazon cloud offerings • Experience working in multi-threaded &amp; concurrency-driven environments and an understanding of the benefits and pitfalls of concurrency. Role and Responsibilities The qualified candidate will possess the following: • Excellent verbal and written communications skills • Consider yourself a curious, high-level thinker • Passion for quality and writing clean, solid, readable code that scales and performs well • Experience with the Agile Methodology • Module / feature ownership Skills and Qualifications * Please visit Samsung membership to see Privacy Policy, which defaults according to your location. You can change Country/Language at the bottom of the page. If you are European Economic Resident, please click here. At Samsung, we believe that innovation and growth are driven by an inclusive culture and a diverse workforce. We aim to create a global team where everyone belongs and has equal opportunities, inspiring our talent to be their true selves. Together, we are building a better tomorrow for our customers, partners, and communities. * Samsung Electronics America, Inc. and its subsidiaries are committed to employing a diverse workforce, and provide Equal Employment Opportunity for all individuals regardless of race, color, religion, gender, age, national origin, marital status, sexual orientation, gender identity, status as a protected veteran, genetic information, status as a qualified individual with a disability, or any other characteristic protected by law. Reasonable Accommodations for Qualified Individuals with Disabilities During the Application Process Samsung Electronics America is committed to providing reasonable accommodations for qualified individuals with disabilities in our job application process. If you have a disability and require a reasonable accommodation in order to participate in the application process, please contact our Reasonable Accommodation Team (855-557-3247) or SEA_Accommodations_Ext@sea.samsung.com for assistance. This number is for accommodation requests only and is not intended for general employment inquiries. Job Alerts: If you would like to be notified of new opportunities when they are posted, please click here. You will be asked to create an account first if you do not already have one. Samsung Electronics is a global leader in technology, opening new possibilities for people everywhere. Through relentless innovation and discovery, we are transforming the worlds of TVs, smartphones, wearable devices, tablets, digital appliances, and network systems, and the entire semiconductor industry with our memory, system LSI, foundry, and LED solutions. Samsung is also leading in the development of the Internet of Things through, among others, our Smart Home and Digital Health initiatives. Since being established in 1969, Samsung Electronics has grown into one of the world’s leading technology companies, and become recognized as one of the top global brands. Our network now extends across the world, and Samsung takes great pride in the creativity and diversity of its talented people, who drive our growth. To discover more, please visit our official newsroom at (https://news.samsung.com/global/).",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "sec",
+siteId: "Samsung_Careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","fr-FR","pl-PL","pt-BR","vi-VN","ru-RU","th-TH","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=sec&s=Samsung_Careers",
+token: "71502a20-5f3a-4a0e-8f38-3d5a45e040be",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"7de48e35f8cb01d2d8f2099e231dc9d2","altText":null}},"banner":{"borderColor":"#005CB9","image":{"id":"7de48e35f8cb01f2dd6a079e231dc7d2","altText":null}}},"embedded":false},
+geoIpCountryCode: "gb" == null ? "": "gb",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
