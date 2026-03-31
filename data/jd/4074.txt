@@ -1,0 +1,345 @@
+{"hiringOrganization":{"@type":"Organization","name":"Sargent & Lundy","sameAs":"www.sargentlundy.com"},"validThrough":"2026-03-31T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"55 East Monroe Street","@type":"PostalAddress","postalCode":"60603","addressLocality":"Chicago","addressRegion":"IL","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Description<\/h2>\n<p>We are seeking a Software Engineer Intern to join our Full Stack Development team. In this role, you will contribute to the design, development, and delivery of web applications and services that support Sargent &amp; Lundy\u2019s internal operations and client-facing solutions. This hands-on internship blends back-end and front-end development with scripting, automation, and cross-functional collaboration \u2014 providing real-world experience across the full software development lifecycle.<\/p>\n<p>&nbsp;<\/p>\n<p>Key Responsibilities include:<\/p>\n<p>&nbsp;<\/p>\n<p>Application Development<\/p>\n<ul>\n <li>Develop and maintain RESTful APIs using C# .NET, following established architectural patterns and coding standards.<\/li>\n <li>Build and enhance interactive, user-facing web applications using modern frameworks and libraries such as React, MVC, and related technologies.<\/li>\n <li>Develop ad-hoc scripts and utilities to support business operations and streamline internal workflows using Python, Go, PowerShell, or other appropriate languages.<\/li>\n<\/ul>\n<p>Collaboration &amp; Delivery<\/p>\n<ul>\n <li>Collaborate with fellow developers, IT professionals, and end users to design, build, and integrate both homegrown and commercial applications.<\/li>\n <li>Coordinate internal customer requirements, architect programmatic solutions, execute thorough testing, and produce clear documentation of completed work.<\/li>\n<\/ul>\n<p>Innovation &amp; Continuous Improvement<\/p>\n<ul>\n <li>Continuously learn and present new techniques at Communities of Practice sessions to IT staff.<\/li>\n <li>Evaluate and recommend open-source tools, libraries, and other add-ins that can accelerate development timelines and improve code quality.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>We do not sponsor employees for work authorization in the U.S. for this position.<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>Required Qualifications:<\/p>\n<ul>\n <li>Currently pursuing a Bachelor\u2019s degree in Computer Science, Software Engineering, Information Technology, or a related technical field.<\/li>\n <li>Strong problem-solving and analytical thinking skills with a desire to tackle complex technical challenges.<\/li>\n <li>Excellent verbal and written communication skills, with the ability to collaborate effectively across technical and non-technical audiences.<\/li>\n <li>Experience or academic coursework in the following:\n <ul>\n <li>C# / .NET<\/li>\n <li>React<\/li>\n <li>HTML, CSS, JavaScript, JSON<\/li>\n <li>MVC architecture<\/li>\n <li>SOAP and REST APIs<\/li>\n <li>SQL Server<\/li>\n <li>Visual Studio<\/li>\n <li>Microsoft Azure (Portal, DevOps)<\/li>\n <li>GitHub<\/li>\n <\/ul><\/li>\n<\/ul>\n<p>Desired Qualifications:<\/p>\n<ul>\n <li>Experience with Active Directory concepts including authentication, authorization, and identity management.<\/li>\n <li>Familiarity with Power BI for data visualization and business intelligence reporting.<\/li>\n <li>Exposure to ASP.NET Core Web APIs and modern, cross-platform API development.<\/li>\n <li>Knowledge of Azure Functions and API Management (APIM).<\/li>\n <li>Understanding of microservices architecture and distributed system design.<\/li>\n <li>Passion for continuous learning and advancing best practices in software engineering.<\/li>\n <li>Ability to work in a fast-paced, multidisciplinary environment with high visibility and accountability.<\/li>\n<\/ul>\n<h2>Award-Winning Benefits<\/h2>\n<p>At Sargent &amp; Lundy, we care about the health and well-being of our employees. Our commitment extends beyond the workplace, offering comprehensive healthcare plans and generous paid time off to support our team members in every aspect of their lives. We understand the importance of work-life balance, which is why we are proud to provide competitive, award-winning benefits. Our dedication to employee satisfaction has earned us the prestigious Top Workplaces Culture Excellence Award for compensation and benefits in 2022, 2023, and 2024.<\/p>\n<p>&nbsp;<\/p>Health &amp; WellnessFinancial BenefitsWork-Life Balance\n<ul>\n <li>Health Plans: Medical, Dental, Vision<\/li>\n <li>Life &amp; Accident Insurance<\/li>\n <li>Disability Coverage<\/li>\n <li>Employee Assistance Program (EAP)<\/li>\n <li>Back-Up Daycare<\/li>\n <li>FSA &amp; HSA<\/li>\n<\/ul>\n<ul>\n <li>401(k)<\/li>\n <li>Pre-Tax Commuter Account<\/li>\n <li>Merit Scholarship Program<\/li>\n <li>Employee Discount Program<\/li>\n <li>Corporate Charitable Giving Program<\/li>\n <li>Tuition Assistance<\/li>\n <li>First Professional Licensure Bonus<\/li>\n <li>Employee Referral Bonus<\/li>\n<\/ul>\n<ul>\n <li>Paid Annual Personal/Sick Time (PST)<\/li>\n <li>Paid Vacation<\/li>\n <li>Paid Holidays<\/li>\n <li>Paid Parental Leave<\/li>\n <li>Paid Bereavement Leave<\/li>\n <li>Flexible Work Arrangements<\/li>\n<\/ul>\n<h2>Compensation Range<\/h2>$17.50 - $27.00\n<h2>Transparency Statement<\/h2>Sargent &amp; Lundy discloses compensation ranges that comply with all local and state regulations. The total compensation package for eligible positions will include a base salary or an hourly rate and a comprehensive benefits package, reflecting our commitment to rewarding performance and supporting the overall well-being of our employees. Individuals may also be eligible to participate in our yearly discretionary bonus.\n<h2>Awards &amp; Recognition<\/h2>\n<p><\/p>\n<h2>Equal Opportunity<\/h2>\n<p>Sargent &amp; Lundy is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, disability status, protected veteran status, or any protected status as defined by applicable law.<\/p>","directApply":true,"datePosted":"2026-03-30T00:00:00.000Z","title":"Software Engineer Intern (Summer 2026)","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-sargentlundy.icims.com/jobs/23200/software-engineer-intern-%28summer-2026%29/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Software Engineer Intern (Summer 2026) in Chicago, Illinois | Careers at Chicago, IL - 55 E Monroe
+var isMobile = true;
+var link = 'https://careers-sargentlundy.icims.com/connect/interests?csrf=E5AA5DCEA9D7A532&hashed=-435684861';
+var _c2a = _c2a || [];
+_c2a.push(['View', '23200', null, 'Software Engineer Intern (Summer 2026) in Chicago, Illinois | Careers at Chicago, IL - 55 E Monroe']);
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn00.icims.com/a/images.icims.com/content/platform_180.1.0.260320-fcc7c3838d0-11-2/script/portal/login.js');
+var jobId = "23200";
+var fbJobId = "8b08f707-cb8f-3f71-bece-81c20f8fee4f";
+var icimsSD = {"person":{},"companyName":"Sargent & Lundy","env":"prod","job":{"zipCode":"60603","jid":23200,"jobUrls":[{"name":"careers","url":"https://careers-sargentlundy.icims.com/jobs/23200/software-engineer-intern-%28summer-2026%29/job"}],"location":"Chicago, Illinois, United States","title":"Software Engineer Intern (Summer 2026)"},"version":"1.015","key":"2","cid":"INmmVgcL+vUxNmbQ3h8XqEWpMvi7q04MRJL+RSxooeUJJS/yyrldHp48Eesx"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-sargentlundy.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+Sargent & Lundy
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"25YwyAMmPkL62MKHt","type":"careers"},"release":"180.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":6247,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"EarlyAccess","build":"platform_180.1.0.260320-fcc7c3838d0-11-2","customerGAAccount":"swille@sargentlundy.com","icimsGAAnonymizeIP":true,"customerId":"4rzPRvJ8P7HwjckL","customerGA4Account":"G-3ZLM5BMJE0","region":"US","job":{"positionType":"Part Time - Temporary","company":"Chicago, IL - 55 E Monroe","location":{"zip":"60603","country":"USA","city":"Chicago","state":"IL"},"id":"XbKQpBfVRQgdhqwM","idRaw":23200,"title":"Software Engineer Intern (Summer 2026)","category":"Information Technology","postedDate":"2026-03-30"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"Sargent & Lundy","sameAs":"www.sargentlundy.com"},"validThrough":"2026-03-31T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"55 East Monroe Street","@type":"PostalAddress","postalCode":"60603","addressLocality":"Chicago","addressRegion":"IL","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Description<\/h2>\n<p>We are seeking a Software Engineer Intern to join our Full Stack Development team. In this role, you will contribute to the design, development, and delivery of web applications and services that support Sargent &amp; Lundy\u2019s internal operations and client-facing solutions. This hands-on internship blends back-end and front-end development with scripting, automation, and cross-functional collaboration \u2014 providing real-world experience across the full software development lifecycle.<\/p>\n<p>&nbsp;<\/p>\n<p>Key Responsibilities include:<\/p>\n<p>&nbsp;<\/p>\n<p>Application Development<\/p>\n<ul>\n <li>Develop and maintain RESTful APIs using C# .NET, following established architectural patterns and coding standards.<\/li>\n <li>Build and enhance interactive, user-facing web applications using modern frameworks and libraries such as React, MVC, and related technologies.<\/li>\n <li>Develop ad-hoc scripts and utilities to support business operations and streamline internal workflows using Python, Go, PowerShell, or other appropriate languages.<\/li>\n<\/ul>\n<p>Collaboration &amp; Delivery<\/p>\n<ul>\n <li>Collaborate with fellow developers, IT professionals, and end users to design, build, and integrate both homegrown and commercial applications.<\/li>\n <li>Coordinate internal customer requirements, architect programmatic solutions, execute thorough testing, and produce clear documentation of completed work.<\/li>\n<\/ul>\n<p>Innovation &amp; Continuous Improvement<\/p>\n<ul>\n <li>Continuously learn and present new techniques at Communities of Practice sessions to IT staff.<\/li>\n <li>Evaluate and recommend open-source tools, libraries, and other add-ins that can accelerate development timelines and improve code quality.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>We do not sponsor employees for work authorization in the U.S. for this position.<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p>Required Qualifications:<\/p>\n<ul>\n <li>Currently pursuing a Bachelor\u2019s degree in Computer Science, Software Engineering, Information Technology, or a related technical field.<\/li>\n <li>Strong problem-solving and analytical thinking skills with a desire to tackle complex technical challenges.<\/li>\n <li>Excellent verbal and written communication skills, with the ability to collaborate effectively across technical and non-technical audiences.<\/li>\n <li>Experience or academic coursework in the following:\n <ul>\n <li>C# / .NET<\/li>\n <li>React<\/li>\n <li>HTML, CSS, JavaScript, JSON<\/li>\n <li>MVC architecture<\/li>\n <li>SOAP and REST APIs<\/li>\n <li>SQL Server<\/li>\n <li>Visual Studio<\/li>\n <li>Microsoft Azure (Portal, DevOps)<\/li>\n <li>GitHub<\/li>\n <\/ul><\/li>\n<\/ul>\n<p>Desired Qualifications:<\/p>\n<ul>\n <li>Experience with Active Directory concepts including authentication, authorization, and identity management.<\/li>\n <li>Familiarity with Power BI for data visualization and business intelligence reporting.<\/li>\n <li>Exposure to ASP.NET Core Web APIs and modern, cross-platform API development.<\/li>\n <li>Knowledge of Azure Functions and API Management (APIM).<\/li>\n <li>Understanding of microservices architecture and distributed system design.<\/li>\n <li>Passion for continuous learning and advancing best practices in software engineering.<\/li>\n <li>Ability to work in a fast-paced, multidisciplinary environment with high visibility and accountability.<\/li>\n<\/ul>\n<h2>Award-Winning Benefits<\/h2>\n<p>At Sargent &amp; Lundy, we care about the health and well-being of our employees. Our commitment extends beyond the workplace, offering comprehensive healthcare plans and generous paid time off to support our team members in every aspect of their lives. We understand the importance of work-life balance, which is why we are proud to provide competitive, award-winning benefits. Our dedication to employee satisfaction has earned us the prestigious Top Workplaces Culture Excellence Award for compensation and benefits in 2022, 2023, and 2024.<\/p>\n<p>&nbsp;<\/p>Health &amp; WellnessFinancial BenefitsWork-Life Balance\n<ul>\n <li>Health Plans: Medical, Dental, Vision<\/li>\n <li>Life &amp; Accident Insurance<\/li>\n <li>Disability Coverage<\/li>\n <li>Employee Assistance Program (EAP)<\/li>\n <li>Back-Up Daycare<\/li>\n <li>FSA &amp; HSA<\/li>\n<\/ul>\n<ul>\n <li>401(k)<\/li>\n <li>Pre-Tax Commuter Account<\/li>\n <li>Merit Scholarship Program<\/li>\n <li>Employee Discount Program<\/li>\n <li>Corporate Charitable Giving Program<\/li>\n <li>Tuition Assistance<\/li>\n <li>First Professional Licensure Bonus<\/li>\n <li>Employee Referral Bonus<\/li>\n<\/ul>\n<ul>\n <li>Paid Annual Personal/Sick Time (PST)<\/li>\n <li>Paid Vacation<\/li>\n <li>Paid Holidays<\/li>\n <li>Paid Parental Leave<\/li>\n <li>Paid Bereavement Leave<\/li>\n <li>Flexible Work Arrangements<\/li>\n<\/ul>\n<h2>Compensation Range<\/h2>$17.50 - $27.00\n<h2>Transparency Statement<\/h2>Sargent &amp; Lundy discloses compensation ranges that comply with all local and state regulations. The total compensation package for eligible positions will include a base salary or an hourly rate and a comprehensive benefits package, reflecting our commitment to rewarding performance and supporting the overall well-being of our employees. Individuals may also be eligible to participate in our yearly discretionary bonus.\n<h2>Awards &amp; Recognition<\/h2>\n<p><\/p>\n<h2>Equal Opportunity<\/h2>\n<p>Sargent &amp; Lundy is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, disability status, protected veteran status, or any protected status as defined by applicable law.<\/p>","directApply":true,"datePosted":"2026-03-30T00:00:00.000Z","title":"Software Engineer Intern (Summer 2026)","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-sargentlundy.icims.com/jobs/23200/software-engineer-intern-%28summer-2026%29/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Software Engineer Intern (Summer 2026)
+City
+Chicago
+State
+IL
+Country
+United States
+Area of Interest
+Information Technology
+Type
+Part Time - Temporary
+Job ID
+2026-23200
+Business Group
+Chief Operations Officer Group
+Department
+Information Technical Services
+Description
+We are seeking a Software Engineer Intern to join our Full Stack Development team. In this role, you will contribute to the design, development, and delivery of web applications and services that support Sargent & Lundy’s internal operations and client-facing solutions. This hands-on internship blends back-end and front-end development with scripting, automation, and cross-functional collaboration — providing real-world experience across the full software development lifecycle. Key Responsibilities include: Application DevelopmentDevelop and maintain RESTful APIs using C# .NET, following established architectural patterns and coding standards.Build and enhance interactive, user-facing web applications using modern frameworks and libraries such as React, MVC, and related technologies.Develop ad-hoc scripts and utilities to support business operations and streamline internal workflows using Python, Go, PowerShell, or other appropriate languages.Collaboration & DeliveryCollaborate with fellow developers, IT professionals, and end users to design, build, and integrate both homegrown and commercial applications.Coordinate internal customer requirements, architect programmatic solutions, execute thorough testing, and produce clear documentation of completed work.Innovation & Continuous ImprovementContinuously learn and present new techniques at Communities of Practice sessions to IT staff.Evaluate and recommend open-source tools, libraries, and other add-ins that can accelerate development timelines and improve code quality.
+Qualifications
+We do not sponsor employees for work authorization in the U.S. for this position. Required Qualifications:Currently pursuing a Bachelor’s degree in Computer Science, Software Engineering, Information Technology, or a related technical field.Strong problem-solving and analytical thinking skills with a desire to tackle complex technical challenges.Excellent verbal and written communication skills, with the ability to collaborate effectively across technical and non-technical audiences.Experience or academic coursework in the following:C# / .NETReactHTML, CSS, JavaScript, JSONMVC architectureSOAP and REST APIsSQL ServerVisual StudioMicrosoft Azure (Portal, DevOps)GitHubDesired Qualifications:Experience with Active Directory concepts including authentication, authorization, and identity management.Familiarity with Power BI for data visualization and business intelligence reporting.Exposure to ASP.NET Core Web APIs and modern, cross-platform API development.Knowledge of Azure Functions and API Management (APIM).Understanding of microservices architecture and distributed system design.Passion for continuous learning and advancing best practices in software engineering.Ability to work in a fast-paced, multidisciplinary environment with high visibility and accountability.
+Award-Winning Benefits
+At Sargent & Lundy, we care about the health and well-being of our employees. Our commitment extends beyond the workplace, offering comprehensive healthcare plans and generous paid time off to support our team members in every aspect of their lives. We understand the importance of work-life balance, which is why we are proud to provide competitive, award-winning benefits. Our dedication to employee satisfaction has earned us the prestigious Top Workplaces Culture Excellence Award for compensation and benefits in 2022, 2023, and 2024. Health & WellnessFinancial BenefitsWork-Life BalanceHealth Plans: Medical, Dental, VisionLife & Accident InsuranceDisability CoverageEmployee Assistance Program (EAP)Back-Up DaycareFSA & HSA401(k)Pre-Tax Commuter AccountMerit Scholarship ProgramEmployee Discount ProgramCorporate Charitable Giving ProgramTuition AssistanceFirst Professional Licensure BonusEmployee Referral BonusPaid Annual Personal/Sick Time (PST)Paid VacationPaid HolidaysPaid Parental LeavePaid Bereavement LeaveFlexible Work Arrangements
+Compensation Range
+$17.50 - $27.00
+Transparency Statement
+Sargent & Lundy discloses compensation ranges that comply with all local and state regulations. The total compensation package for eligible positions will include a base salary or an hourly rate and a comprehensive benefits package, reflecting our commitment to rewarding performance and supporting the overall well-being of our employees. Individuals may also be eligible to participate in our yearly discretionary bonus.
+Awards & Recognition
+Equal Opportunity
+Sargent & Lundy is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, disability status, protected veteran status, or any protected status as defined by applicable law.
+Options
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+(function(d, s, id) {
+var js;
+if (d.getElementById(id) || typeof(icimsAsyncLoadScript) === 'undefined') return;
+var jobtargetJssdkParams = new Array();
+jobtargetJssdkParams['id'] = id;
+jobtargetJssdkParams['data-applicant-info'] = 'false';
+icimsAsyncLoadScript('https://analytics.click2apply.net/ats/icims/v1.0.js', jobtargetJssdkParams);
+}(document, 'script', 'jobtarget-jssdk'));
+Software Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

@@ -1,5 +1,322 @@
 [
   {
+    "company": "Sargent & Lundy",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-sargentlundy.icims.com/jobs/23200/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4074,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or related.",
+        "Possess strong problem-solving and analytical thinking skills.",
+        "Exhibit excellent verbal and written communication skills.",
+        "Experience with C# / .NET.",
+        "Experience with React.",
+        "Proficient in HTML, CSS, JavaScript, JSON.",
+        "Knowledge of MVC architecture.",
+        "Experience with SOAP and REST APIs.",
+        "Proficient in SQL Server.",
+        "Experience with Visual Studio.",
+        "Familiarity with Microsoft Azure Portal and DevOps.",
+        "Experience with GitHub.",
+        "Experience with Active Directory concepts.",
+        "Familiarity with Power BI for data visualization.",
+        "Exposure to ASP.NET Core Web APIs.",
+        "Knowledge of Azure Functions and API Management.",
+        "Understand microservices and distributed system design.",
+        "Demonstrate passion for continuous learning in software engineering.",
+        "Ability to work in a fast-paced, multidisciplinary environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "RGA Reinsurance Company",
+    "role": "Intern - Global Technology",
+    "link": "https://rgare.wd1.myworkdayjobs.com/en-US/Careers/job/United-States-Chesterfield-MO-RGA-HQ/Summer-Intern---Global-Technology_J25776",
+    "location": "Chesterfield, MO",
+    "season": "2026 Summer",
+    "id": 4073,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's Degree in Computer Science, Information Systems or related.",
+        "Have training or exposure to modern language.",
+        "Possess training or exposure to relational/NoSQL databases.",
+        "Have exposure to basic programming concepts and logic.",
+        "Desire to develop programming skills.",
+        "Demonstrate ability to quickly learn new technologies.",
+        "Able to solve standard problems using education and judgment.",
+        "Possess effective communication skills.",
+        "Proficient in JavaScript, Java, Groovy, Go, C#, .Net, or Python.",
+        "Have hands-on application development experience."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Schweitzer Engineering Laboratories",
+    "role": "Software Engineer Intern",
+    "link": "https://selinc.wd1.myworkdayjobs.com/SEL/job/Idaho---Boise/Software-Engineer-Intern_2026-20510",
+    "location": "Boise, ID",
+    "season": "2026 Summer",
+    "id": 4072,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Current student pursuing a degree in computer science or equivalent with at least one year of technical coursework completed",
+        "Programming experience in C#, C++, Java or equivalent OO programming language",
+        "Passionate about testing and debugging",
+        "Ability to execute and document defined testing procedures",
+        "Strong writing, documentation, and speaking skills",
+        "Ability to learn new skills and assume new responsibilities",
+        "Ability to work cooperatively in a team environment",
+        "Satisfactory background check results to SEL",
+        "Negative drug test result(s)",
+        "Familiarity with scripting languages such as JavaScript or Python",
+        "Familiarity with TypeScript and frontend frameworks such as React",
+        "Knowledge of SQL and database concepts",
+        "Experience working with API's",
+        "Practical knowledge of developing Microsoft Windows applications",
+        "Experience using revision control and source code management systems such as Git, Mercurial, SVN, and Rational ClearCase"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Manulife Financial",
+    "role": "Full Stack Software Developer Intern",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Boston-Massachusetts/Full-Stack-Software-Developer-Intern_JR26030537",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4071,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Full Stack Development experience.",
+        "Proficiency in AEM (asset).",
+        "Foundational knowledge of JavaScript, React, HTML, CSS/Sass, and basic Java.",
+        "Strong problem-solving skills.",
+        "Ability to investigate solutions thoughtfully.",
+        "Willingness to learn, ask questions, and embrace new challenges.",
+        "Good communication skills.",
+        "Collaborative, team-focused approach.",
+        "Interest in accessibility, design systems, cloud services, and modern tooling.",
+        "Hold a degree in Computer Science or related field, or equivalent experience.",
+        "Familiarity with Git/GitHub.",
+        "Knowledge of basic software engineering practices.",
+        "Exposure to agile workflows."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Assurant",
+    "role": "Software Engineering Intern",
+    "link": "https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Florida-Virtual/Summer-2026--Software-Engineering-Intern_R-112866-1",
+    "location": "FloridaGeorgia",
+    "season": "2026 Summer",
+    "id": 4070,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s degree in Computer Science or related field",
+        "Strong background in Computer Science or related engineering discipline",
+        "Strong understanding of object-oriented programming/design, algorithms, and data structures",
+        "Strong understanding of CS fundamentals and practical coding application",
+        "Clear communication skills and ability to work within a team",
+        "Strong problem‑solving skills with attention to detail",
+        "Ability to learn quickly in a fast‑paced, Agile environment",
+        "Willingness to work full‑time during the 10–12 week summer internship",
+        "Previous internship or relevant coursework/projects",
+        "Exposure to cloud platforms",
+        "Familiarity with Agile methodologies",
+        "Experience with data tools, ETL/ELT concepts, or big‑data technologies",
+        "Knowledge of version control systems (e.g., Git) or CI/CD practices",
+        "Proficient in SQL/Data Services"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Harris Computer",
+    "role": "Intern Developer",
+    "link": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/New-York-United-States/Intern---Developer_R0040830",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4069,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experienced in front-end development with JavaScript frameworks, HTML5, CSS/SCSS/SASS.",
+        "Experienced in consuming REST APIs with auth, error handling, and async data flows.",
+        "Experienced in backend development with Java.",
+        "Experienced with AI assistance tools like MS Copilot for coding.",
+        "Experienced with SQL, including MSSQL and Oracle.",
+        "Proficient with Git, Bitbucket, Jira, and Jenkins.",
+        "Experienced with the full SDLC.",
+        "Excellent written and verbal communication skills.",
+        "Familiar with public or higher education sectors."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "RTX",
+    "role": "Software Engineer Intern",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-1127-CUST--1127-W-2320-South--2320-S-External-Site/Software-Engineering-Intern----Summer-2026----Onsite-_01792654-1",
+    "location": "West Valley City, UT",
+    "season": "2026 Summer",
+    "id": 4068,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a Bachelor’s or advanced degree in an applicable discipline",
+        "Ability to obtain a U.S. government security clearance",
+        "Experienced developing in C++ in a Linux environment",
+        "Proficient with scripting languages such as Python, Linux script, or bash",
+        "Experienced with Object Oriented Design and Development",
+        "Possess software development experience (internship, co-op, or academic project)",
+        "Skilled at working both in a team environment and individually",
+        "Experienced with Rust",
+        "Experienced with Qt",
+        "Experienced with User Interface development",
+        "Experienced with Angular web GUI development",
+        "Experienced with Multithreading Embedded SW Design",
+        "Experienced in integrating software with hardware",
+        "Proficient with Configuration Management tools, such as git",
+        "Experienced maintaining and using build processes (makefiles, CMake)",
+        "Knowledgeable about network protocols, such as TCP/IP",
+        "Understanding of telecommunications systems concepts and signal processing",
+        "Understanding of International Telecommunication Union (ITU) Standards"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Software-Engineer-Intern_R-00179571",
+    "location": "Arlington, VA",
+    "season": "2026 Summer",
+    "id": 4067,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in Bachelor's or Master's program in Computer Science or related field",
+        "Experienced in at least one of Python, Java, or C++",
+        "Eligible to obtain and maintain a DoD Secret security clearance",
+        "Experienced in building prototypes or applications",
+        "Exposed to data engineering or analytics",
+        "Familiar with Git/GitHub, VS Code, or Jupyter Notebooks",
+        "Familiar with Backend technologies like REST APIs, microservices, SQL, Docker, or Linux",
+        "Familiar with Frontend technologies like JavaScript/TypeScript or React",
+        "Familiar with Data/ML libraries like NumPy, Pandas, scikit-learn, PyTorch, or TensorFlow",
+        "Familiar with Cloud and CI/CD basics like AWS/Azure or build pipelines",
+        "Interested in secure software development practices",
+        "Familiar with Rust",
+        "Able to obtain DoD Top Secret security clearance with polygraph"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Planet",
+    "role": "Calibration/Validation Intern - Lunar Pipeline",
+    "link": "https://job-boards.greenhouse.io/planetlabs/jobs/7729221",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4066,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Earth/Planetary Science, Aerospace Engineering, or a related field.",
+        "Experience with scientific computing in Python within a Unix/Linux environment.",
+        "Conduct research projects and present findings.",
+        "Possess a hands-on, collaborative mindset with effective interpersonal skills.",
+        "Experience with image registration, mosaicking, and spatial transformations.",
+        "Knowledge of coordinate transformations, pointing geometry, or spacecraft ephemeris.",
+        "Passion for photography, remote sensing, Earth science, and geography.",
+        "Development skills in JavaScript and React.",
+        "Experience with FastAPI, SQL, and PostgreSQL.",
+        "Familiarity with computer vision libraries and techniques for aligning unreferenced images.",
+        "Understand Object-Oriented Programming (OOP) and version control using Git."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Astranis",
+    "role": "Software Engineer Intern - Data Platform",
+    "link": "https://job-boards.greenhouse.io/astranis/jobs/4667477006",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4065,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. or M.S. in Computer Science or equivalent.",
+        "Strong proficiency in Python.",
+        "Experience with databases like Postgres or time-series databases.",
+        "Experience with API design (REST, gRPC, Protocol Buffers).",
+        "Experience with time-series data or telemetry systems.",
+        "Experience with async Python programming.",
+        "Experience with Kubernetes."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Udemy",
+    "role": "Front End Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/udemybedi/jobs/5841184004",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4064,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Learn technology stack and development processes.",
+        "Collaborate with cross-functional teams.",
+        "Design and implement new user-facing features.",
+        "Review code for quality, accessibility, and performance.",
+        "Document, monitor, and maintain new features.",
+        "Educated in computer science or related analytical disciplines.",
+        "Experienced with modern frontend technologies.",
+        "Knowledgeable in developing responsive web applications.",
+        "Familiar with modern frontend patterns and best practices.",
+        "Strong verbal and written communication skills.",
+        "Troubleshooting and problem-solving abilities.",
+        "Able to work effectively in a team."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Atomic Semi",
     "role": "Rust Software Engineering Intern",
     "link": "https://jobs.ashbyhq.com/atomicsemi/009d0819-c688-4ab9-8816-a3c7ab002470/application",

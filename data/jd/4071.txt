@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA, Massachusetts, Boston, 200 Berkeley Street"
+}
+},
+"hiringOrganization" : {
+"name" : "Company 19 - John Hancock Life Insurance Company (U.S.A.)",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Full Stack Software Developer Intern",
+"@type" : "PropertyValue",
+"value" : "JR26030537"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Full Stack Software Developer Intern",
+"description" : "3-5 sentence summary about the role considering these questions: what is the opportunity? How is this role contributing to our mission? What will they get from this opportunity? Position Responsibilities: Learn to build AEM components using React, HTML/CSS, JavaScript, HTL, and basic Java. Support the creation of accessible UI following WCAG standard methodologies. Collaborate with UX, content authors, and engineers to deliver consistent experiences. Participate in agile ceremonies and contribute to team discussions and code reviews. Assist in fixing front‑end or authoring issues and help improve performance and stability. Grow your skills across AEM, cloud tooling, accessibility, and full‑stack concepts. Required Qualifications: Full Stack Development experience. AEM would be an asset. Foundational knowledge of JavaScript, React, HTML, CSS/Sass, and basic Java. Strong problem‑solving skills and the ability to investigate solutions thoughtfully before seeking guidance. A willingness to learn, ask questions, and embrace new challenges. Good communication skills and a collaborative, team‑focused approach. Interest in accessibility, design systems, cloud services, and modern tooling. Preferred Qualifications: A degree in Computer Science or a related field, or equivalent experience gained through hands-on projects or practical work. Familiarity with Git/GitHub and basic software engineering practices. Exposure to agile workflows from school, internships, or personal projects. When you join our team: We’ll empower you to learn and grow the career you want. We’ll recognize and support you in a flexible environment where well-being and inclusion are more than just words. As part of our global team, we’ll support you in shaping the future you want to see. The role being advertised is an existing vacancy. We use data and analytics technologies, such as artificial intelligence (AI), and automated processing tools, to analyze and process the information you provide to us or third parties in the application process. For more information, please refer to our personal information collection statement. About Manulife and John Hancock Manulife Financial Corporation is a leading international financial services provider, helping people make their decisions easier and lives better. To learn more about us, visit https://www.manulife.com/en/about/our-story.html. Manulife is an Equal Opportunity Employer At Manulife/John Hancock, we embrace our diversity. We strive to attract, develop and retain a workforce that is as diverse as the customers we serve and to foster an inclusive work environment that embraces the strength of cultures and individuals. We are committed to fair recruitment, retention, advancement and compensation, and we administer all of our practices and programs without discrimination on the basis of race, ancestry, place of origin, colour, ethnic origin, citizenship, religion or religious beliefs, creed, sex (including pregnancy and pregnancy-related conditions), sexual orientation, genetic characteristics, veteran status, gender identity, gender expression, age, marital status, family status, disability, or any other ground protected by applicable law. It is our priority to remove barriers to provide equal access to employment. A Human Resources representative will work with applicants who request a reasonable accommodation during the application process. All information shared during the accommodation request process will be stored and used in a manner that is consistent with applicable laws and Manulife/John Hancock policies. To request a reasonable accommodation in the application process, contact hr@manulife.com. Working Arrangement Hybrid Know Your Rights I Family &amp; Medical Leave I Employee Polygraph Protection I Right to Work I E-Verify Company: John Hancock Life Insurance Company (U.S.A.) We are committed to creating a workplace that offers unlimited opportunities for employees to realize their career goals. Whether it’s working abroad, exploring a new career direction or simply progressing in their chosen field, we help our employees reach their full potential.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA, Massachusetts, Boston, 200 Berkeley Street"
+}
+},
+"hiringOrganization" : {
+"name" : "Company 19 - John Hancock Life Insurance Company (U.S.A.)",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Full Stack Software Developer Intern",
+"@type" : "PropertyValue",
+"value" : "JR26030537"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Full Stack Software Developer Intern",
+"description" : "3-5 sentence summary about the role considering these questions: what is the opportunity? How is this role contributing to our mission? What will they get from this opportunity? Position Responsibilities: Learn to build AEM components using React, HTML/CSS, JavaScript, HTL, and basic Java. Support the creation of accessible UI following WCAG standard methodologies. Collaborate with UX, content authors, and engineers to deliver consistent experiences. Participate in agile ceremonies and contribute to team discussions and code reviews. Assist in fixing front‑end or authoring issues and help improve performance and stability. Grow your skills across AEM, cloud tooling, accessibility, and full‑stack concepts. Required Qualifications: Full Stack Development experience. AEM would be an asset. Foundational knowledge of JavaScript, React, HTML, CSS/Sass, and basic Java. Strong problem‑solving skills and the ability to investigate solutions thoughtfully before seeking guidance. A willingness to learn, ask questions, and embrace new challenges. Good communication skills and a collaborative, team‑focused approach. Interest in accessibility, design systems, cloud services, and modern tooling. Preferred Qualifications: A degree in Computer Science or a related field, or equivalent experience gained through hands-on projects or practical work. Familiarity with Git/GitHub and basic software engineering practices. Exposure to agile workflows from school, internships, or personal projects. When you join our team: We’ll empower you to learn and grow the career you want. We’ll recognize and support you in a flexible environment where well-being and inclusion are more than just words. As part of our global team, we’ll support you in shaping the future you want to see. The role being advertised is an existing vacancy. We use data and analytics technologies, such as artificial intelligence (AI), and automated processing tools, to analyze and process the information you provide to us or third parties in the application process. For more information, please refer to our personal information collection statement. About Manulife and John Hancock Manulife Financial Corporation is a leading international financial services provider, helping people make their decisions easier and lives better. To learn more about us, visit https://www.manulife.com/en/about/our-story.html. Manulife is an Equal Opportunity Employer At Manulife/John Hancock, we embrace our diversity. We strive to attract, develop and retain a workforce that is as diverse as the customers we serve and to foster an inclusive work environment that embraces the strength of cultures and individuals. We are committed to fair recruitment, retention, advancement and compensation, and we administer all of our practices and programs without discrimination on the basis of race, ancestry, place of origin, colour, ethnic origin, citizenship, religion or religious beliefs, creed, sex (including pregnancy and pregnancy-related conditions), sexual orientation, genetic characteristics, veteran status, gender identity, gender expression, age, marital status, family status, disability, or any other ground protected by applicable law. It is our priority to remove barriers to provide equal access to employment. A Human Resources representative will work with applicants who request a reasonable accommodation during the application process. All information shared during the accommodation request process will be stored and used in a manner that is consistent with applicable laws and Manulife/John Hancock policies. To request a reasonable accommodation in the application process, contact hr@manulife.com. Working Arrangement Hybrid Know Your Rights I Family &amp; Medical Leave I Employee Polygraph Protection I Right to Work I E-Verify Company: John Hancock Life Insurance Company (U.S.A.) We are committed to creating a workplace that offers unlimited opportunities for employees to realize their career goals. Whether it’s working abroad, exploring a new career direction or simply progressing in their chosen field, we help our employees reach their full potential.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "manulife",
+siteId: "MFCJH_adminJobs",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US","fr-CA","vi-VN","ja-JP","zh-CN","zh-TW"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=manulife&s=MFCJH_adminJobs",
+token: "9c9e285d-dc3b-419e-982a-917c14848f28",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: ["csv","doc","docx","dwxf","eml","gif","heic","heif","htm","html","ics","jpeg","jpg","m4a","md","mp4","msg","pdf","png","ppt","pptx","properties","rptdesign","rtf","svg","tif","tiff","txt","weba","wxf","xlm","xls","xlsm","xlsx","xml","xslt","zip"],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"8dca1ffdfd89015cf6c1ab0f65011695","altText":null}},"banner":{"image":{"id":"8dca1ffdfd8901b105d53a0b65010a95","altText":"Logo"}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

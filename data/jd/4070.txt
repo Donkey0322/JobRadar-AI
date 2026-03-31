@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Florida Virtual"
+}
+},
+"hiringOrganization" : {
+"name" : "American Bankers Insurance Company of Florida",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026: Software Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "R-112866"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-04-01",
+"employmentType" : "OTHER",
+"title" : "Summer 2026: Software Engineering Intern",
+"description" : "About the Role As a Software Engineering Intern at Assurant, you’ll gain hands‑on experience designing, building, and improving technology that supports real business needs. You’ll work alongside engineers, analysts, and product partners to develop reliable and scalable software solutions in an Agile environment. This internship is designed to help you apply what you’re learning in school to meaningful, real‑world projects- while expanding your technical skills and professional network. What You’ll Do Contribute to the development of applications, services, or data solutions Write, test, debug, and document code following engineering best practices Support the creation and enhancement of system components, APIs, or data pipelines Research and troubleshoot technical issues across the software development lifecycle Participate in Agile ceremonies such as stand-ups, sprint planning, and retrospectives Collaborate with engineers, product owners, QA, and cross-functional teammates Learn and apply new tools, technologies, and development techniques Help ensure software quality, performance, and maintainability What You Bring Currently enrolled and working towards a Bachelor’s degree in Computer Science, Software Engineering, Data Science, Information Systems, or a related field Strong background in Computer Science or a related engineering discipline. Strong understanding of object-oriented programming/design, algorithms, and data structures and how to efficiently implement them into a solution Strong understanding of CS fundamentals and practical coding application Clear communication skills and the ability to work within a team Strong problem‑solving skills with attention to detail Ability to learn quickly in a fast‑paced, Agile environment Willingness to work full‑time during the 10–12 week summer interns Helpful Experience Previous internship or relevant coursework/projects Exposure to cloud platforms Familiarity with Agile methodologies Experience with data tools, ETL/ELT concepts, or big‑data technologies Knowledge of version control systems (e.g., Git) or CI/CD practices SQL/Data Services Program Highlights Paid, full-time internship (10–12 weeks) Mentorship from both technical and leadership team members Opportunities for hands-on learning, tech talks, and project showcases A collaborative environment Supportive culture focused on continuous learning and innovation Pay Range: $0.00 - $0.00 Any posted pay range considers a wide range of compensation factors, including candidate background, experience and work location, while also allowing for salary growth within the position. If there is no posting end date listed then this is a pipeline requisition, and we will continue to collect applications on an ongoing basis. Helping People Thrive in a Connected World Connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive. Learn more at jobs.assurant.com. For U.S. benefit information, visit myassurantbenefits.com. For benefit information outside the U.S., please speak with your recruiter. What’s the culture like at Assurant? Our unique culture is a big reason why talented people choose Assurant. Named a Best/Great Place to Work in 15 countries and awarded the Fortune America’s Most Innovative Companies recognition, we bring together top talent around the world. Although we have a wide variety of skills and experiences, we share common characteristics that are uniquely Assurant. A passion for service. An ability to innovate in practical ways. And a willingness to take chances. We call our culture The Assurant Way. Company Overview Assurant is a leading global business services company that supports, protects, and connects major consumer purchases. A Fortune 500 company with a presence in 21 countries, Assurant supports the advancement of the connected world by partnering with the world’s leading brands to develop innovative solutions and deliver an enhanced customer experience through mobile device solutions, extended service contracts, vehicle protection services, renters insurance, lender-placed insurance products, and other specialty products. Equal Opportunity Statement Assurant is an Equal Employment Opportunity employer and does not use or consider race, color, religion, sex, national origin, age, disability, veteran status, sexual orientation, gender identity, or any other characteristic protected by federal, state, or local law in employment decisions. Job Scam Alert Please be aware that during Assurant's application process, we will never ask for personal information such as your Social Security number, bank account details, or passwords. Learn more about what to look out for and how to report a scam here. We work with the world’s top brands to make smart devices simpler. Vehicles last longer. Homes more secure. Problems easier to solve. And we volunteer in communities all over the globe to help the world become a greener, better place. We come from a variety of countries, cultures, and backgrounds. But we’re united by our enduring values of common sense, common decency, uncommon thinking, and uncommon results. So connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Florida Virtual"
+}
+},
+"hiringOrganization" : {
+"name" : "American Bankers Insurance Company of Florida",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Summer 2026: Software Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "R-112866"
+},
+"datePosted" : "2026-03-30",
+"validThrough" : "2026-04-01",
+"employmentType" : "OTHER",
+"title" : "Summer 2026: Software Engineering Intern",
+"description" : "About the Role As a Software Engineering Intern at Assurant, you’ll gain hands‑on experience designing, building, and improving technology that supports real business needs. You’ll work alongside engineers, analysts, and product partners to develop reliable and scalable software solutions in an Agile environment. This internship is designed to help you apply what you’re learning in school to meaningful, real‑world projects- while expanding your technical skills and professional network. What You’ll Do Contribute to the development of applications, services, or data solutions Write, test, debug, and document code following engineering best practices Support the creation and enhancement of system components, APIs, or data pipelines Research and troubleshoot technical issues across the software development lifecycle Participate in Agile ceremonies such as stand-ups, sprint planning, and retrospectives Collaborate with engineers, product owners, QA, and cross-functional teammates Learn and apply new tools, technologies, and development techniques Help ensure software quality, performance, and maintainability What You Bring Currently enrolled and working towards a Bachelor’s degree in Computer Science, Software Engineering, Data Science, Information Systems, or a related field Strong background in Computer Science or a related engineering discipline. Strong understanding of object-oriented programming/design, algorithms, and data structures and how to efficiently implement them into a solution Strong understanding of CS fundamentals and practical coding application Clear communication skills and the ability to work within a team Strong problem‑solving skills with attention to detail Ability to learn quickly in a fast‑paced, Agile environment Willingness to work full‑time during the 10–12 week summer interns Helpful Experience Previous internship or relevant coursework/projects Exposure to cloud platforms Familiarity with Agile methodologies Experience with data tools, ETL/ELT concepts, or big‑data technologies Knowledge of version control systems (e.g., Git) or CI/CD practices SQL/Data Services Program Highlights Paid, full-time internship (10–12 weeks) Mentorship from both technical and leadership team members Opportunities for hands-on learning, tech talks, and project showcases A collaborative environment Supportive culture focused on continuous learning and innovation Pay Range: $0.00 - $0.00 Any posted pay range considers a wide range of compensation factors, including candidate background, experience and work location, while also allowing for salary growth within the position. If there is no posting end date listed then this is a pipeline requisition, and we will continue to collect applications on an ongoing basis. Helping People Thrive in a Connected World Connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive. Learn more at jobs.assurant.com. For U.S. benefit information, visit myassurantbenefits.com. For benefit information outside the U.S., please speak with your recruiter. What’s the culture like at Assurant? Our unique culture is a big reason why talented people choose Assurant. Named a Best/Great Place to Work in 15 countries and awarded the Fortune America’s Most Innovative Companies recognition, we bring together top talent around the world. Although we have a wide variety of skills and experiences, we share common characteristics that are uniquely Assurant. A passion for service. An ability to innovate in practical ways. And a willingness to take chances. We call our culture The Assurant Way. Company Overview Assurant is a leading global business services company that supports, protects, and connects major consumer purchases. A Fortune 500 company with a presence in 21 countries, Assurant supports the advancement of the connected world by partnering with the world’s leading brands to develop innovative solutions and deliver an enhanced customer experience through mobile device solutions, extended service contracts, vehicle protection services, renters insurance, lender-placed insurance products, and other specialty products. Equal Opportunity Statement Assurant is an Equal Employment Opportunity employer and does not use or consider race, color, religion, sex, national origin, age, disability, veteran status, sexual orientation, gender identity, or any other characteristic protected by federal, state, or local law in employment decisions. Job Scam Alert Please be aware that during Assurant's application process, we will never ask for personal information such as your Social Security number, bank account details, or passwords. Learn more about what to look out for and how to report a scam here. We work with the world’s top brands to make smart devices simpler. Vehicles last longer. Homes more secure. Problems easier to solve. And we volunteer in communities all over the globe to help the world become a greener, better place. We come from a variety of countries, cultures, and backgrounds. But we’re united by our enduring values of common sense, common decency, uncommon thinking, and uncommon results. So connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "assurant",
+siteId: "Assurant_Careers",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","es","fr-CA","fr-FR","it-IT","nl-NL","pt-BR","ja-JP","zh-CN","zh-TW"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=assurant&s=Assurant_Careers",
+token: "b1741890-15e4-40e4-8109-160a4313f48e",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#0066CC","textColor":"#303340"},"progressBar":{"color":"#E37500"},"button":{"primary":{"color":"#0066CC","textColor":"#FFFFFF","hover":{"color":"#1A54AB"}},"secondary":{"color":"#0066CC","textColor":"#FFFFFF","hover":{"color":"#1A54AB","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"1dba313c0f3501ad8dee2ecf5701f40d","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#1A54AB","textColor":"#0066CC","image":{"id":"1dba313c0f3501947ba42dcf5701f20d","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
