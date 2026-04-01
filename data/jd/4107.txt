@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "VA543: 22270 Pacific Blvd, Dulles 22270 Pacific Boulevard Building CC5, Sterling, VA, 20166-6924 USA"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Nightwing Intelligence Solutions, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern - 2026",
+"@type" : "PropertyValue",
+"value" : "JR101535"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern - 2026",
+"description" : "Nightwing provides technically advanced full-spectrum cyber, data operations, systems integration and intelligence mission support services to meet our customers’ most demanding challenges. Our capabilities include cyber space operations, cyber defense and resiliency, vulnerability research, ubiquitous technical surveillance, data intelligence, lifecycle mission enablement, and software modernization. Nightwing brings disruptive technologies, agility, and competitive offerings to customers in the intelligence community, defense, civil, and commercial markets. Nightwing is seeking a motivated Software Engineer Intern to join our dynamic engineering team in Spring and Summers of 2026. This is an excellent opportunity to gain hands-on experience in all phases of the software development lifecycle, working on real-world projects with guidance from experienced engineers. You will have the chance to contribute to production code, learn modern development practices, and work in a collaborative environment. Responsibilities: Assist in the design, development, testing, and maintenance of software applications. Write clean, scalable, and efficient code under the guidance of senior engineers. Debug and troubleshoot issues in existing software. Participate in code reviews, design discussions, and pair programming sessions. Collaborate with cross-functional teams, including product management, QA, and other engineers. Contribute to technical documentation and user guides. Conduct performance testing and debugging. Learn and implement software engineering best practices and standards. Stay up-to-date with the latest industry trends and technologies. Qualifications: Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field. Strong foundation in at least one programming language such as Java, Python, C++, or JavaScript. Basic understanding of software development principles and data structures. Familiarity with version control systems like Git is a plus. Strong analytical and problem-solving skills. Excellent verbal and written communication skills. Ability to work effectively in a team-oriented environment. At Nightwing, we value collaboration and teamwork. You’ll have the opportunity to work alongside talented individuals who are passionate about what they do. Together, we’ll leverage our collective expertise to drive innovation, solve complex problems, and deliver exceptional results for our clients. Thank you for considering joining us as we embark on this new journey and shape the future of cybersecurity and intelligence together as part of the Nightwing team. Nightwing is An Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age or any other federally protected class. Previously part of a leading Fortune 100 company and headquartered in Dulles, VA; Nightwing became independent in 2024 but continues to support the nation’s most mission impactful initiatives. When we formed Nightwing, we brought a deep set of credentials and an unfaltering commitment to the mission. For over four decades, our team has been providing some of the world’s most technically advanced full-spectrum cyber, data operations, systems integration and intelligence support services to the U.S. government on its most important missions. At Nightwing, we value collaboration and teamwork. You’ll have the opportunity to work alongside talented individuals who are passionate about what they do. Together, we’ll leverage our collective expertise to drive innovation, solve complex problems, and deliver exceptional results for our clients. Thank you for considering joining us as we embark on this new journey and shape the future of cybersecurity and intelligence together as part of the Nightwing team.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "VA543: 22270 Pacific Blvd, Dulles 22270 Pacific Boulevard Building CC5, Sterling, VA, 20166-6924 USA"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Nightwing Intelligence Solutions, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineer Intern - 2026",
+"@type" : "PropertyValue",
+"value" : "JR101535"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineer Intern - 2026",
+"description" : "Nightwing provides technically advanced full-spectrum cyber, data operations, systems integration and intelligence mission support services to meet our customers’ most demanding challenges. Our capabilities include cyber space operations, cyber defense and resiliency, vulnerability research, ubiquitous technical surveillance, data intelligence, lifecycle mission enablement, and software modernization. Nightwing brings disruptive technologies, agility, and competitive offerings to customers in the intelligence community, defense, civil, and commercial markets. Nightwing is seeking a motivated Software Engineer Intern to join our dynamic engineering team in Spring and Summers of 2026. This is an excellent opportunity to gain hands-on experience in all phases of the software development lifecycle, working on real-world projects with guidance from experienced engineers. You will have the chance to contribute to production code, learn modern development practices, and work in a collaborative environment. Responsibilities: Assist in the design, development, testing, and maintenance of software applications. Write clean, scalable, and efficient code under the guidance of senior engineers. Debug and troubleshoot issues in existing software. Participate in code reviews, design discussions, and pair programming sessions. Collaborate with cross-functional teams, including product management, QA, and other engineers. Contribute to technical documentation and user guides. Conduct performance testing and debugging. Learn and implement software engineering best practices and standards. Stay up-to-date with the latest industry trends and technologies. Qualifications: Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field. Strong foundation in at least one programming language such as Java, Python, C++, or JavaScript. Basic understanding of software development principles and data structures. Familiarity with version control systems like Git is a plus. Strong analytical and problem-solving skills. Excellent verbal and written communication skills. Ability to work effectively in a team-oriented environment. At Nightwing, we value collaboration and teamwork. You’ll have the opportunity to work alongside talented individuals who are passionate about what they do. Together, we’ll leverage our collective expertise to drive innovation, solve complex problems, and deliver exceptional results for our clients. Thank you for considering joining us as we embark on this new journey and shape the future of cybersecurity and intelligence together as part of the Nightwing team. Nightwing is An Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age or any other federally protected class. Previously part of a leading Fortune 100 company and headquartered in Dulles, VA; Nightwing became independent in 2024 but continues to support the nation’s most mission impactful initiatives. When we formed Nightwing, we brought a deep set of credentials and an unfaltering commitment to the mission. For over four decades, our team has been providing some of the world’s most technically advanced full-spectrum cyber, data operations, systems integration and intelligence support services to the U.S. government on its most important missions. At Nightwing, we value collaboration and teamwork. You’ll have the opportunity to work alongside talented individuals who are passionate about what they do. Together, we’ll leverage our collective expertise to drive innovation, solve complex problems, and deliver exceptional results for our clients. Thank you for considering joining us as we embark on this new journey and shape the future of cybersecurity and intelligence together as part of the Nightwing team.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "nwis",
+siteId: "NW",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd12.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd12.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd12.myworkday.com/wday/drs/outage?t=nwis&s=NW",
+token: "dde2f151-fec1-4295-84d6-2812f854aa9a",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: ["csv","doc","docx","dwxf","gif","html","ics","jpeg","jpg","json","pdf","png","ppt","pptx","properties","rptdesign","svg","txt","xlm","xls","xlsm","xlsx","xml","xsl","xslt","zip"],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#B1FF7A","textColor":"#000000"},"progressBar":{"color":"#B1FF7A"},"button":{"primary":{"color":"#B1FF7A","borderColor":"#B1FF7A","textColor":"#000000","hover":{"color":"#000000","borderColor":"#B1FF7A","textColor":"#B1FF7A"}},"secondary":{"color":"#000000","borderColor":"#B1FF7A","textColor":"#B1FF7A","hover":{"color":"#B1FF7A","borderColor":"#B1FF7A","textColor":"#000000"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":false,"height":375},"banner":{"color":"#000000","borderColor":"#B1FF7A","textColor":"#B1FF7A","image":{"id":"aa62ff0927631001cab48e7d9e020002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd12.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

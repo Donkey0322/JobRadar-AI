@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA WV Summit Point (73 J. Christopher Stevens Way, Bldg 53-53J)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "001 Parsons Government Services Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "R179160"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern (Summer 2026)",
+"description" : "In a world of possibilities, pursue one with endless opportunities. Imagine Next! At Parsons, you can imagine a career where you thrive, work with exceptional people, and be yourself. Guided by our leadership vision of valuing people, embracing agility, and fostering growth, we cultivate an innovative culture that empowers you to achieve your full potential. Unleash your talent and redefine what’s possible. Job Description: Parsons is looking for amazingly talented Software Engineering Interns to join our team! Join Parsons and build your expertise in the Counter-UAS and AI/ML fields. Are you ready to be at the forefront of two of the highest growth areas most innovative areas of engineering today? Parsons is seeking a dynamic and driven individuals to join our CUAS team and help build, test and deploy the next generation of CUAS systems to protect both our warfighters and critical infrastructure and events here at home. By joining Parsons, you will be part of a dedicated team that values innovation, excellence, and the impact of work on national and global security. Your contributions will not only advance your career by exposing you to innovative new technologies but also ensure the safety of countless lives. Your Next Mission Awaits If you are passionate about contributing to a safer world and ready to take on a challenge that will transform your career, we want to hear from you. Join Parsons and be part of a company where your work makes a difference every day. Embark on this exciting journey with Parsons—where the future of Army communications is in your hands. Apply now to become a key player in our mission-critical projects and take your career to new heights! As a Software Engineer at Parsons, you will play a crucial role in troubleshooting and developing technical solutions to some of the most pressing safety issues of our time. This position requires a blend of creativity, technical expertise, a collaborative mindset and the ability to complete assignments with limited supervision. Position will be in-office at our Summit Point, WV facility. What You May Be Doing: Supporting ongoing operations at our CUAS Center of Excellence and Integration Lab in Summit Point, WV (about 1 hour outside DC). Setting up and running CUAS sensor and effector tests. Collecting and analyzing data. Integrating new CUAS sensors and effectors with the DroneArmor CUAS C2 software. Adding new features and capabilities to Parsons DroneArmor CUAS C2 Software product line. Developing algorithms and training data libraries for next-generation CUAS focused AI/ML algorithms. Supporting the demonstration of Parsons’ CUAS capabilities that you have helped to develop to potential customers. What Required Skills You Will Bring: In-progress pursuit of a Bachelor's or Masters Degree in Computer Science, Electronics Engineering, Cyber Security, or a related field. Must have a current/active Secret clearance or the ability to secure one (be a US Citizen). Ability to work locally full time or hybrid in our Summit Point, WV CUAS Integration and Test Facility (1 hour outside DC / Northern Virginia). Excellent verbal and written communication skills. Ability to work collaboratively in a team environment and independently when required. What Desired Skills You May Bring: Expertise with Java software development. Proficiency in developing and implementing custom software algorithms and applications. Familiarity with COTS and GOTS software applications. Experience with Application Programming Interfaces (APIs). Proficiency in coding interface messaging software components. Experience in designing, testing, debugging and documenting software. Experience with Atlassian Products &amp; GIT Experience with Docker, Swing, React Expertise in with AI/ML algorithm development and training. Experience working with or developing Geospatial Systems and processing/transforming geospatial data. Security Clearance Requirement: None This position is part of our Federal Solutions team. The Federal Solutions segment delivers resources to our US government customers that ensure the success of missions around the globe. Our intelligent employees drive the state of the art as they provide services and solutions in the areas of defense, security, intelligence, infrastructure, and environmental. We promote a culture of excellence and close-knit teams that take pride in delivering, protecting, and sustaining our nation's most critical assets, from Earth to cyberspace. Throughout the company, our people are anticipating what’s next to deliver the solutions our customers need now. Salary Range: $22.93 - $40.14 We value our employees and want our employees to take care of their overall wellbeing, which is why we offer best-in-class benefits such as 401K! Parsons is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, veteran status or any other protected status. We truly invest and care about our employee’s wellbeing and provide endless growth opportunities as the sky is the limit, so aim for the stars! Imagine next and join the Parsons quest—APPLY TODAY! Parsons is aware of fraudulent recruitment practices. To learn more about recruitment fraud and how to report it, please refer to https://www.parsons.com/fraudulent-recruitment/. Founded in 1944, Parsons Corporation, a digitally enabled solutions provider, is focused on creating the future of the defense, intelligence, and critical infrastructure markets. From Earth to outer space, we deliver tomorrow’s solutions today. Equipped with the capabilities required to take on any defense, intelligence, or critical infrastructure challenge, our agile, innovative, and disruptive approach enables us to deliver solutions at the speed of relevance. Our people are our greatest asset. We strive to be an employer of choice that engages employees in the community and creates rewarding career paths to cultivate a resilient workforce that is ready for the future. For more about Parsons, visit parsons.com and follow us on Facebook, Twitter, LinkedIn, and YouTube.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA WV Summit Point (73 J. Christopher Stevens Way, Bldg 53-53J)"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "001 Parsons Government Services Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "R179160"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern (Summer 2026)",
+"description" : "In a world of possibilities, pursue one with endless opportunities. Imagine Next! At Parsons, you can imagine a career where you thrive, work with exceptional people, and be yourself. Guided by our leadership vision of valuing people, embracing agility, and fostering growth, we cultivate an innovative culture that empowers you to achieve your full potential. Unleash your talent and redefine what’s possible. Job Description: Parsons is looking for amazingly talented Software Engineering Interns to join our team! Join Parsons and build your expertise in the Counter-UAS and AI/ML fields. Are you ready to be at the forefront of two of the highest growth areas most innovative areas of engineering today? Parsons is seeking a dynamic and driven individuals to join our CUAS team and help build, test and deploy the next generation of CUAS systems to protect both our warfighters and critical infrastructure and events here at home. By joining Parsons, you will be part of a dedicated team that values innovation, excellence, and the impact of work on national and global security. Your contributions will not only advance your career by exposing you to innovative new technologies but also ensure the safety of countless lives. Your Next Mission Awaits If you are passionate about contributing to a safer world and ready to take on a challenge that will transform your career, we want to hear from you. Join Parsons and be part of a company where your work makes a difference every day. Embark on this exciting journey with Parsons—where the future of Army communications is in your hands. Apply now to become a key player in our mission-critical projects and take your career to new heights! As a Software Engineer at Parsons, you will play a crucial role in troubleshooting and developing technical solutions to some of the most pressing safety issues of our time. This position requires a blend of creativity, technical expertise, a collaborative mindset and the ability to complete assignments with limited supervision. Position will be in-office at our Summit Point, WV facility. What You May Be Doing: Supporting ongoing operations at our CUAS Center of Excellence and Integration Lab in Summit Point, WV (about 1 hour outside DC). Setting up and running CUAS sensor and effector tests. Collecting and analyzing data. Integrating new CUAS sensors and effectors with the DroneArmor CUAS C2 software. Adding new features and capabilities to Parsons DroneArmor CUAS C2 Software product line. Developing algorithms and training data libraries for next-generation CUAS focused AI/ML algorithms. Supporting the demonstration of Parsons’ CUAS capabilities that you have helped to develop to potential customers. What Required Skills You Will Bring: In-progress pursuit of a Bachelor's or Masters Degree in Computer Science, Electronics Engineering, Cyber Security, or a related field. Must have a current/active Secret clearance or the ability to secure one (be a US Citizen). Ability to work locally full time or hybrid in our Summit Point, WV CUAS Integration and Test Facility (1 hour outside DC / Northern Virginia). Excellent verbal and written communication skills. Ability to work collaboratively in a team environment and independently when required. What Desired Skills You May Bring: Expertise with Java software development. Proficiency in developing and implementing custom software algorithms and applications. Familiarity with COTS and GOTS software applications. Experience with Application Programming Interfaces (APIs). Proficiency in coding interface messaging software components. Experience in designing, testing, debugging and documenting software. Experience with Atlassian Products &amp; GIT Experience with Docker, Swing, React Expertise in with AI/ML algorithm development and training. Experience working with or developing Geospatial Systems and processing/transforming geospatial data. Security Clearance Requirement: None This position is part of our Federal Solutions team. The Federal Solutions segment delivers resources to our US government customers that ensure the success of missions around the globe. Our intelligent employees drive the state of the art as they provide services and solutions in the areas of defense, security, intelligence, infrastructure, and environmental. We promote a culture of excellence and close-knit teams that take pride in delivering, protecting, and sustaining our nation's most critical assets, from Earth to cyberspace. Throughout the company, our people are anticipating what’s next to deliver the solutions our customers need now. Salary Range: $22.93 - $40.14 We value our employees and want our employees to take care of their overall wellbeing, which is why we offer best-in-class benefits such as 401K! Parsons is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, veteran status or any other protected status. We truly invest and care about our employee’s wellbeing and provide endless growth opportunities as the sky is the limit, so aim for the stars! Imagine next and join the Parsons quest—APPLY TODAY! Parsons is aware of fraudulent recruitment practices. To learn more about recruitment fraud and how to report it, please refer to https://www.parsons.com/fraudulent-recruitment/. Founded in 1944, Parsons Corporation, a digitally enabled solutions provider, is focused on creating the future of the defense, intelligence, and critical infrastructure markets. From Earth to outer space, we deliver tomorrow’s solutions today. Equipped with the capabilities required to take on any defense, intelligence, or critical infrastructure challenge, our agile, innovative, and disruptive approach enables us to deliver solutions at the speed of relevance. Our people are our greatest asset. We strive to be an employer of choice that engages employees in the community and creates rewarding career paths to cultivate a resilient workforce that is ready for the future. For more about Parsons, visit parsons.com and follow us on Facebook, Twitter, LinkedIn, and YouTube.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "parsons",
+siteId: "search",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US","es","fr-CA"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=parsons&s=search",
+token: "a759dc80-430a-40bf-a146-b3a1942fdcc2",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"bf8841d6fabe011f914b882127023001","altText":"Banner"}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

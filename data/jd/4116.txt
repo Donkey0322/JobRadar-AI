@@ -1,0 +1,119 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - CA - 1200 Grand Central Ave"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "5014 Disney Entertainment &amp; Sports LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern, Summer 2026",
+"@type" : "PropertyValue",
+"value" : "10135078"
+},
+"datePosted" : "2026-04-01",
+"validThrough" : "2026-04-03",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern, Summer 2026",
+"description" : "Job Posting Title: Software Engineering Intern, Summer 2026 Req ID: 10135078 Job Description: Technology is at the heart of Disney’s past, present, and future. Disney Entertainment and ESPN Product &amp; Technology is a global organization of engineers, product developers, designers, technologists, data scientists, and more – all working to build and advance the technological backbone for Disney’s media business globally. The team marries technology with creativity to build world-class products, enhance storytelling, and drive velocity, innovation, and scalability for our businesses. We are Storytellers and Innovators. Creators and Builders. Entertainers and Engineers. We work with every part of The Walt Disney Company’s media portfolio to advance the technological foundation and consumer media touch points serving millions of people around the world. Here are a few reasons why we think you’d love working here: Building the future of Disney’s media: Our Technologists are designing and building the products and platforms that will power our media, advertising, and distribution businesses for years to come. Reach, Scale &amp; Impact: More than ever, Disney’s technology and products serve as a signature doorway for fans' connections with the company’s brands and stories. Disney+. Hulu. ESPN. ABC. ABC News…and many more. These products and brands – and the unmatched stories, storytellers, and events they carry – matter to millions of people globally. Innovation: We develop and implement groundbreaking products and techniques that shape industry norms, and solve complex and distinctive technical problems. Ad Platforms is responsible for Disney’s industry-leading ad technology and products – driving advertising performance, innovation, and value in Disney’s sports, news, and entertainment content, across all media platforms. We are looking for a motivated AI Intern to join our Ads Campaign &amp; Policy Management team. You will work on an innovative, real-world projects that leverage Large Language Models (LLMs), data analytics, and ad-tech domain intelligence to enhance user experience and optimize campaign performance. You’ll get hands-on experience building production-grade AI features — from data ingestion and model integration to user-facing insights — in a highly collaborative environment with our UX, Product, and Platform Engineering teams. What You Will Do: Collaborate with Product and Engineering to understand ad campaign and policy management data models. Design and develop backend APIs for data retrieval, persistence, and AI query processing. Implement retrieval-augmented generation (RAG) or embedding-based pipelines using OpenAI or similar APIs. Conduct experiments to measure and improve accuracy and relevance of AI outputs. Visualize analytics and AI recommendations through simple dashboards or reports. Document system design, workflows, and experimental findings. Required Qualifications &amp; Skills: Experience with Python, Node.js, or Java for backend/API development Strong analytical and problem-solving mindset Eagerness to learn new AI technologies and apply them practically Good communication and collaboration skills Curiosity about advertising technology, campaign optimization, and user engagement Preferred Technical Skills: Familiarity with OpenAI API (GPT, embeddings) SQL and relational databases (PostgreSQL, MySQL) Experience with vector databases (pgvector, Pinecone, or FAISS) Basic understanding of ML/AI concepts, prompt engineering, or NLP Frontend integration (React / Streamlit / internal dashboards) is a plus Education: Junior or Senior year preferred Currently enrolled undergraduate student in an accredited college/university, pursuing a Bachelor’s degree in Computer Science or related field Eligibility Requirements &amp; Program Information Candidates for this opportunity MUST meet all of the below requirements: Be enrolled in an accredited college/university pursuing a degree taking at least one class in the semester/quarter (spring/fall) prior to participation in the internship program AND returning to school the semester/quarter following the internship OR currently participating in a Disney College Program or Disney Internship. Current Disney Interns, College, International, or Culinary Program Participants: You may only work for ONE consecutive year (12 months) in any combination of an internship and/or program. Be at least 18 years of age Possess unrestricted work authorization Additional Information Fully available from M-F, 40 hours each week for the entire program duration: May/June - August/September 2026 (12 weeks) Able to provide own housing for the duration internship program Able to provide/have reliable transportation to/from work The pay rate for this role in Glendale, CA or Santa Monica, CA is $42.00 per hour. Select benefits may be provided as part of the compensation package, such as medical, financial, and/or other benefits, dependent on the level and position offered. To learn more about our benefits visit: https://jobs.disneycareers.com/benefits. Job Posting Segment: Disney Entertainment and ESPN Product &amp; Technology Job Posting Primary Business: Ad Platforms Primary Job Posting Category: Technology Intern Employment Type: Full time Primary City, State, Region, Postal Code: Glendale, CA, USA Alternate City, State, Region, Postal Code: USA - CA - 2500 Broadway Street Date Posted: 2025-11-10 About The Walt Disney Company: The Walt Disney Company, together with its subsidiaries and affiliates, is a leading diversified international family entertainment and media enterprise with the following business segments: media networks, parks and resorts, studio entertainment, consumer products and interactive media. From humble beginnings as a cartoon studio in the 1920s to its preeminent name in the entertainment industry today, Disney proudly continues its legacy of creating world-class stories and experiences for every member of the family. Disney’s stories, characters and experiences reach consumers and guests from every corner of the globe. With operations in more than 40 countries, our employees and cast members work together to create entertainment experiences that are both universally and locally cherished.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA - CA - 1200 Grand Central Ave"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "5014 Disney Entertainment &amp; Sports LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern, Summer 2026",
+"@type" : "PropertyValue",
+"value" : "10135078"
+},
+"datePosted" : "2026-04-01",
+"validThrough" : "2026-04-03",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern, Summer 2026",
+"description" : "Job Posting Title: Software Engineering Intern, Summer 2026 Req ID: 10135078 Job Description: Technology is at the heart of Disney’s past, present, and future. Disney Entertainment and ESPN Product &amp; Technology is a global organization of engineers, product developers, designers, technologists, data scientists, and more – all working to build and advance the technological backbone for Disney’s media business globally. The team marries technology with creativity to build world-class products, enhance storytelling, and drive velocity, innovation, and scalability for our businesses. We are Storytellers and Innovators. Creators and Builders. Entertainers and Engineers. We work with every part of The Walt Disney Company’s media portfolio to advance the technological foundation and consumer media touch points serving millions of people around the world. Here are a few reasons why we think you’d love working here: Building the future of Disney’s media: Our Technologists are designing and building the products and platforms that will power our media, advertising, and distribution businesses for years to come. Reach, Scale &amp; Impact: More than ever, Disney’s technology and products serve as a signature doorway for fans' connections with the company’s brands and stories. Disney+. Hulu. ESPN. ABC. ABC News…and many more. These products and brands – and the unmatched stories, storytellers, and events they carry – matter to millions of people globally. Innovation: We develop and implement groundbreaking products and techniques that shape industry norms, and solve complex and distinctive technical problems. Ad Platforms is responsible for Disney’s industry-leading ad technology and products – driving advertising performance, innovation, and value in Disney’s sports, news, and entertainment content, across all media platforms. We are looking for a motivated AI Intern to join our Ads Campaign &amp; Policy Management team. You will work on an innovative, real-world projects that leverage Large Language Models (LLMs), data analytics, and ad-tech domain intelligence to enhance user experience and optimize campaign performance. You’ll get hands-on experience building production-grade AI features — from data ingestion and model integration to user-facing insights — in a highly collaborative environment with our UX, Product, and Platform Engineering teams. What You Will Do: Collaborate with Product and Engineering to understand ad campaign and policy management data models. Design and develop backend APIs for data retrieval, persistence, and AI query processing. Implement retrieval-augmented generation (RAG) or embedding-based pipelines using OpenAI or similar APIs. Conduct experiments to measure and improve accuracy and relevance of AI outputs. Visualize analytics and AI recommendations through simple dashboards or reports. Document system design, workflows, and experimental findings. Required Qualifications &amp; Skills: Experience with Python, Node.js, or Java for backend/API development Strong analytical and problem-solving mindset Eagerness to learn new AI technologies and apply them practically Good communication and collaboration skills Curiosity about advertising technology, campaign optimization, and user engagement Preferred Technical Skills: Familiarity with OpenAI API (GPT, embeddings) SQL and relational databases (PostgreSQL, MySQL) Experience with vector databases (pgvector, Pinecone, or FAISS) Basic understanding of ML/AI concepts, prompt engineering, or NLP Frontend integration (React / Streamlit / internal dashboards) is a plus Education: Junior or Senior year preferred Currently enrolled undergraduate student in an accredited college/university, pursuing a Bachelor’s degree in Computer Science or related field Eligibility Requirements &amp; Program Information Candidates for this opportunity MUST meet all of the below requirements: Be enrolled in an accredited college/university pursuing a degree taking at least one class in the semester/quarter (spring/fall) prior to participation in the internship program AND returning to school the semester/quarter following the internship OR currently participating in a Disney College Program or Disney Internship. Current Disney Interns, College, International, or Culinary Program Participants: You may only work for ONE consecutive year (12 months) in any combination of an internship and/or program. Be at least 18 years of age Possess unrestricted work authorization Additional Information Fully available from M-F, 40 hours each week for the entire program duration: May/June - August/September 2026 (12 weeks) Able to provide own housing for the duration internship program Able to provide/have reliable transportation to/from work The pay rate for this role in Glendale, CA or Santa Monica, CA is $42.00 per hour. Select benefits may be provided as part of the compensation package, such as medical, financial, and/or other benefits, dependent on the level and position offered. To learn more about our benefits visit: https://jobs.disneycareers.com/benefits. Job Posting Segment: Disney Entertainment and ESPN Product &amp; Technology Job Posting Primary Business: Ad Platforms Primary Job Posting Category: Technology Intern Employment Type: Full time Primary City, State, Region, Postal Code: Glendale, CA, USA Alternate City, State, Region, Postal Code: USA - CA - 2500 Broadway Street Date Posted: 2025-11-10 About The Walt Disney Company: The Walt Disney Company, together with its subsidiaries and affiliates, is a leading diversified international family entertainment and media enterprise with the following business segments: media networks, parks and resorts, studio entertainment, consumer products and interactive media. From humble beginnings as a cartoon studio in the 1920s to its preeminent name in the entertainment industry today, Disney proudly continues its legacy of creating world-class stories and experiences for every member of the family. Disney’s stories, characters and experiences reach consumers and guests from every corner of the globe. With operations in more than 40 countries, our employees and cast members work together to create entertainment experiences that are both universally and locally cherished.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "disney",
+siteId: "disneycareerdc",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","en-CA","en-GB","es","fr-FR","it-IT","pt-BR","tr-TR","ru-RU","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=disney&s=disneycareerdc",
+token: "dd282954-1cf6-4159-9c5a-a7506bfe1422",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"button":{"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"3b10235e8c3a10015cdc7cef8b690000","altText":null}},"banner":{"image":{"id":"09d06da40bef1001566bc62394690002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

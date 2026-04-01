@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Irvine, CA"
+}
+},
+"hiringOrganization" : {
+"name" : "CliftonLarsonAllen LLP",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Engineer Intern - Summer 2026 - SoCal",
+"@type" : "PropertyValue",
+"value" : "R17205"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "PART_TIME",
+"title" : "AI Engineer Intern - Summer 2026 - SoCal",
+"description" : "We’re looking for an AI Engineering Intern who is early in their career and eager to learn how real-world AI solutions are designed, built, and deployed. This intern will work closely with senior AI leaders on the hands-on development of scalable AI products, gaining exposure to the full AI lifecycle from data preparation and experimentation to evaluation, deployment, and continuous improvement, while building a strong foundation in Python, machine learning, and modern applied AI techniques. We strive every day to exemplify our CLA values – curious, collaborative, transparent, inclusive, and reliable. We are looking for individuals who believe in accountability for one’s actions, take the initiative to make their vision a reality and place honesty, professionalism, conscientiousness and trust above all else. CLA is dedicated to building a culture that welcomes different beliefs and perspectives, so we can truly know and help our clients, communities, and each other. Our Irvine, CA is seeking an AI Engineer Intern. Come and see for yourself! PRIMARY RESPONSIBILITIES Build reusable components for AI workflows under the guidance of senior team members Prepare and transform data for machine learning, optimization, and LLM applications Develop and test APIs, pipelines, notebooks, and backend services that support AI solutions Run experiments, track results, and summarize findings in a clear and structured way Support model evaluation, prompt evaluation, and error analysis Help operationalize solutions through deployment packaging, logging, alerting, and basic monitoring Debug issues across data, model, and application layers Follow engineering best practices for code quality, testing, documentation, and security Stay current on relevant Azure AI, Databricks, and applied AI tooling MINIMUM REQUIREMENTS Working towards the achievement of a Bachelor’s degree in computer science, data science, statistics, engineering, mathematics, or a related field strongly preferred Basic understanding of cloud-based AI and data platforms (e.g., Azure AI services, Azure ML, Databricks) Familiarity with common generative AI concepts such as prompt design, retrieval-augmented generation (RAG), and evaluations Introductory awareness of MLOps concepts, including model lifecycle, deployment, and monitoring General knowledge of vector search, document processing, and AI-enabled search workflows Exposure to applied modeling concepts (e.g., time series or anomaly detection) and building simple APIs or backend services Reliable transportation Our approach to compensation emphasizes collaboration and career growth. We pay competitive wages and view compensation as an investment in our people. Factors such as geography, experience, education, skills, and knowledge may impact position of pay within the range. The compensation rate for this role in Irvine, CA is $36.40. #HC1 Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities Click here to learn about your hiring rights. Wellness at CLA To support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more. To view a complete list of benefits click here. Start your inspired career When you join CLA, you’ll have the opportunity to design your own inspired career. Career growth is about having new experiences and lots of exposure to different roles that stretch your comfort zone, expand your skills, and shape you as a leader. It’s not so much about climbing a ladder or acquiring new titles — it’s the discovery of your strengths and the outer reaches of your true potential. At CLA, you have the freedom to explore many opportunities, including your choice of industry specialization, service capability, career path, and mobility. Watch our video to see why people join CLA. About CLA CLA exists to create opportunities for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services. With nearly 9,000 people, more than 130 U.S. locations, and a global vision, we promise to know you and help you. For more information visit CLAconnect.com. Investment advisory services are offered through CliftonLarsonAllen Wealth Advisors, LLC, an SEC-registered investment advisor. Wellness at CLA Wellness is shaped by our promise to know you and help you. We create opportunities for our people to live well and be happy by focusing on their physical, financial, social, and emotional well-being. Click here to learn more about CLA’s benefit offerings. CLA is an equal opportunity employer All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, disability status, protected veteran status, national origin, or any other characteristic protected by law. Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities Click here to learn about your hiring rights. If you require reasonable accommodation when completing an application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please contact mypeoplesolutions@claconnect.com",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Irvine, CA"
+}
+},
+"hiringOrganization" : {
+"name" : "CliftonLarsonAllen LLP",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Engineer Intern - Summer 2026 - SoCal",
+"@type" : "PropertyValue",
+"value" : "R17205"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "PART_TIME",
+"title" : "AI Engineer Intern - Summer 2026 - SoCal",
+"description" : "We’re looking for an AI Engineering Intern who is early in their career and eager to learn how real-world AI solutions are designed, built, and deployed. This intern will work closely with senior AI leaders on the hands-on development of scalable AI products, gaining exposure to the full AI lifecycle from data preparation and experimentation to evaluation, deployment, and continuous improvement, while building a strong foundation in Python, machine learning, and modern applied AI techniques. We strive every day to exemplify our CLA values – curious, collaborative, transparent, inclusive, and reliable. We are looking for individuals who believe in accountability for one’s actions, take the initiative to make their vision a reality and place honesty, professionalism, conscientiousness and trust above all else. CLA is dedicated to building a culture that welcomes different beliefs and perspectives, so we can truly know and help our clients, communities, and each other. Our Irvine, CA is seeking an AI Engineer Intern. Come and see for yourself! PRIMARY RESPONSIBILITIES Build reusable components for AI workflows under the guidance of senior team members Prepare and transform data for machine learning, optimization, and LLM applications Develop and test APIs, pipelines, notebooks, and backend services that support AI solutions Run experiments, track results, and summarize findings in a clear and structured way Support model evaluation, prompt evaluation, and error analysis Help operationalize solutions through deployment packaging, logging, alerting, and basic monitoring Debug issues across data, model, and application layers Follow engineering best practices for code quality, testing, documentation, and security Stay current on relevant Azure AI, Databricks, and applied AI tooling MINIMUM REQUIREMENTS Working towards the achievement of a Bachelor’s degree in computer science, data science, statistics, engineering, mathematics, or a related field strongly preferred Basic understanding of cloud-based AI and data platforms (e.g., Azure AI services, Azure ML, Databricks) Familiarity with common generative AI concepts such as prompt design, retrieval-augmented generation (RAG), and evaluations Introductory awareness of MLOps concepts, including model lifecycle, deployment, and monitoring General knowledge of vector search, document processing, and AI-enabled search workflows Exposure to applied modeling concepts (e.g., time series or anomaly detection) and building simple APIs or backend services Reliable transportation Our approach to compensation emphasizes collaboration and career growth. We pay competitive wages and view compensation as an investment in our people. Factors such as geography, experience, education, skills, and knowledge may impact position of pay within the range. The compensation rate for this role in Irvine, CA is $36.40. #HC1 Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities Click here to learn about your hiring rights. Wellness at CLA To support our CLA family members, we focus on their physical, financial, social, and emotional well-being and offer comprehensive benefit options that include health, dental, vision, 401k and much more. To view a complete list of benefits click here. Start your inspired career When you join CLA, you’ll have the opportunity to design your own inspired career. Career growth is about having new experiences and lots of exposure to different roles that stretch your comfort zone, expand your skills, and shape you as a leader. It’s not so much about climbing a ladder or acquiring new titles — it’s the discovery of your strengths and the outer reaches of your true potential. At CLA, you have the freedom to explore many opportunities, including your choice of industry specialization, service capability, career path, and mobility. Watch our video to see why people join CLA. About CLA CLA exists to create opportunities for our clients, our people, and our communities through industry-focused wealth advisory, digital, audit, tax, consulting, and outsourcing services. With nearly 9,000 people, more than 130 U.S. locations, and a global vision, we promise to know you and help you. For more information visit CLAconnect.com. Investment advisory services are offered through CliftonLarsonAllen Wealth Advisors, LLC, an SEC-registered investment advisor. Wellness at CLA Wellness is shaped by our promise to know you and help you. We create opportunities for our people to live well and be happy by focusing on their physical, financial, social, and emotional well-being. Click here to learn more about CLA’s benefit offerings. CLA is an equal opportunity employer All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, disability status, protected veteran status, national origin, or any other characteristic protected by law. Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities Click here to learn about your hiring rights. If you require reasonable accommodation when completing an application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please contact mypeoplesolutions@claconnect.com",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "cliftonlarsonallen",
+siteId: "CLA",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US","fr-FR","ja-JP"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=cliftonlarsonallen&s=CLA",
+token: "78613baa-6f27-415e-ac20-4d4761299b60",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#39A5A7","textColor":"#2E334E"},"progressBar":{"color":"#39A5A7"},"button":{"primary":{"color":"#2E334E","borderColor":"#979797","textColor":"#FFFFFF","hover":{"color":"#1F2A3E","borderColor":"#1F2A3E","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#2E334E","textColor":"#2E334E","hover":{"color":"#2E334E","borderColor":"#2E334E","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"399a72ba5fbf012ec087c2d3ac01a734","altText":null}},"banner":{"color":"#7DD2D3","borderColor":"#39A5A7","textColor":"#000000","image":{"id":"399a72ba5fbf012f082ac1d3ac01a534","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

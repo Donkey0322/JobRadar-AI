@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "300 North Beach Street, Daytona Beach, FL, 32114"
+}
+},
+"hiringOrganization" : {
+"name" : "001 Brown &amp; Brown, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Technology Solutions Internship",
+"@type" : "PropertyValue",
+"value" : "R26_0000001247"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Technology Solutions Internship",
+"description" : "Built on meritocracy, our unique company culture rewards self-starters and those who are committed to doing what is best for our customers. The Brown &amp; Brown, Inc.’s (B&amp;B) Technology Solutions’ award-winning paid internship program is a project-based experience designed to provide talented undergraduate students an opportunity to contribute meaningful work to our world-class team. As part of a leading global insurance brokerage, the intern role based out of Daytona Beach, FL, will be exposed to a range of learning opportunities, including working with new technologies, developing and troubleshooting system modifications, fostering innovation, and providing application support. In addition to the role’s day-to-day responsibilities, the internship program has been carefully curated for interns to experience our collaborative, teammate-centric culture of Meritocracy that truly makes Brown &amp; Brown a certified Great Places to Work®. The internship experience will include mentorship, teammate partnership, a speaker series, networking opportunities with leadership, and a community engagement project. Brown &amp; Brown is committed to converting high-performing interns into full-time employment opportunities as we continue to look to grow our team of 23,000+ teammates. Our program provides talented students the chance to gain experience in real-world enterprise projects and exposure to learn from our supportive and approachable Technology Solutions team of subject matter experts, all while exploring the opportunity for employment after graduation. How You Will Contribute: Data gathering, analysis, and reporting Exploring Cloud, Security, AI, Data, or Project Management initiatives Support tasks tied to project milestones, recommendations and collaborating with cross-functional teams Complete assigned projects and deliverables, presenting recommendations at the conclusion of the internship to leaders Actively participate in all internship program elements Perform duties as assigned by department leadership Skills &amp; Experience to be Successful: Actively enrolled in an Associate’s or Bachelor’s Degree, preferred in a STEM related field Expected graduation: December 2026 or later Minimum GPA: 3.0 Involvement in student organizations, project work, tech clubs, hackathons, or competitions (preferred) Volunteer work with a technical component or volunteer work that directly gives back to the community (preferred) Demonstrated passion for learning and applying emerging technologies (preferred) Teammate Benefits &amp; Total Well-Being We go beyond standard benefits, focusing on the total well-being of our teammates, including: Health Benefits: Medical/Rx, Dental, Vision, Life Insurance, Disability Insurance Financial Benefits: ESPP; 401k; Student Loan Assistance; Tuition Reimbursement Mental Health &amp; Wellness: Free Mental Health &amp; Enhanced Advocacy Services Beyond Benefits: Paid Time Off, Holidays, Preferred Partner Discounts and more. Not reflective of all benefits. Enrollment waiting periods or eligibility criteria may apply to certain benefits. Benefit details and offerings may vary for subsidiary entities or in specific geographic locations. The Power To Be Yourself As an Equal Opportunity Employer, we are committed to fostering an inclusive environment comprised of people from all backgrounds, with a variety of experiences and perspectives, guided by our Diversity, Inclusion &amp; Belonging (DIB) motto, “The Power to Be Yourself”. We think of ourselves as a team, so we have teammates - not employees. We strive to attract people who are competitive, driven, and disciplined. Built on meritocracy, our unique company culture rewards self-starters and those who are committed to doing what is best for our customers. Founded in 1939 as a small, two-partner firm, Brown &amp; Brown (NYSE: BRO) and our team of companies have grown into one of the world’s largest insurance brokerages while staying true to our foundation of trust, resilience, and delivering results. With a team that is as connected locally as it is globally, our high-performing, highly collaborative team delivers innovative risk and insurance solutions. We look for individuals who embrace our culture, thrive in a collaborative environment, are driven to grow and succeed, and are committed to always doing what is right. With a unique culture built on integrity, superior capabilities and grit, we value teamwork, trust and courage. We think of ourselves as a team, so we have teammates—not employees, and leaders—not managers. Everything we do is about the greater “WE”—never “me.” While diverse in abilities and experience, we are all connected through our core values, a commitment to our local communities and a shared mission—always doing what is best for our customers. If you are an existing Brown &amp; Brown teammate, please click here to apply to a job on our internal career site.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "300 North Beach Street, Daytona Beach, FL, 32114"
+}
+},
+"hiringOrganization" : {
+"name" : "001 Brown &amp; Brown, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Technology Solutions Internship",
+"@type" : "PropertyValue",
+"value" : "R26_0000001247"
+},
+"datePosted" : "2026-04-01",
+"employmentType" : "FULL_TIME",
+"title" : "Technology Solutions Internship",
+"description" : "Built on meritocracy, our unique company culture rewards self-starters and those who are committed to doing what is best for our customers. The Brown &amp; Brown, Inc.’s (B&amp;B) Technology Solutions’ award-winning paid internship program is a project-based experience designed to provide talented undergraduate students an opportunity to contribute meaningful work to our world-class team. As part of a leading global insurance brokerage, the intern role based out of Daytona Beach, FL, will be exposed to a range of learning opportunities, including working with new technologies, developing and troubleshooting system modifications, fostering innovation, and providing application support. In addition to the role’s day-to-day responsibilities, the internship program has been carefully curated for interns to experience our collaborative, teammate-centric culture of Meritocracy that truly makes Brown &amp; Brown a certified Great Places to Work®. The internship experience will include mentorship, teammate partnership, a speaker series, networking opportunities with leadership, and a community engagement project. Brown &amp; Brown is committed to converting high-performing interns into full-time employment opportunities as we continue to look to grow our team of 23,000+ teammates. Our program provides talented students the chance to gain experience in real-world enterprise projects and exposure to learn from our supportive and approachable Technology Solutions team of subject matter experts, all while exploring the opportunity for employment after graduation. How You Will Contribute: Data gathering, analysis, and reporting Exploring Cloud, Security, AI, Data, or Project Management initiatives Support tasks tied to project milestones, recommendations and collaborating with cross-functional teams Complete assigned projects and deliverables, presenting recommendations at the conclusion of the internship to leaders Actively participate in all internship program elements Perform duties as assigned by department leadership Skills &amp; Experience to be Successful: Actively enrolled in an Associate’s or Bachelor’s Degree, preferred in a STEM related field Expected graduation: December 2026 or later Minimum GPA: 3.0 Involvement in student organizations, project work, tech clubs, hackathons, or competitions (preferred) Volunteer work with a technical component or volunteer work that directly gives back to the community (preferred) Demonstrated passion for learning and applying emerging technologies (preferred) Teammate Benefits &amp; Total Well-Being We go beyond standard benefits, focusing on the total well-being of our teammates, including: Health Benefits: Medical/Rx, Dental, Vision, Life Insurance, Disability Insurance Financial Benefits: ESPP; 401k; Student Loan Assistance; Tuition Reimbursement Mental Health &amp; Wellness: Free Mental Health &amp; Enhanced Advocacy Services Beyond Benefits: Paid Time Off, Holidays, Preferred Partner Discounts and more. Not reflective of all benefits. Enrollment waiting periods or eligibility criteria may apply to certain benefits. Benefit details and offerings may vary for subsidiary entities or in specific geographic locations. The Power To Be Yourself As an Equal Opportunity Employer, we are committed to fostering an inclusive environment comprised of people from all backgrounds, with a variety of experiences and perspectives, guided by our Diversity, Inclusion &amp; Belonging (DIB) motto, “The Power to Be Yourself”. We think of ourselves as a team, so we have teammates - not employees. We strive to attract people who are competitive, driven, and disciplined. Built on meritocracy, our unique company culture rewards self-starters and those who are committed to doing what is best for our customers. Founded in 1939 as a small, two-partner firm, Brown &amp; Brown (NYSE: BRO) and our team of companies have grown into one of the world’s largest insurance brokerages while staying true to our foundation of trust, resilience, and delivering results. With a team that is as connected locally as it is globally, our high-performing, highly collaborative team delivers innovative risk and insurance solutions. We look for individuals who embrace our culture, thrive in a collaborative environment, are driven to grow and succeed, and are committed to always doing what is right. With a unique culture built on integrity, superior capabilities and grit, we value teamwork, trust and courage. We think of ourselves as a team, so we have teammates—not employees, and leaders—not managers. Everything we do is about the greater “WE”—never “me.” While diverse in abilities and experience, we are all connected through our core values, a commitment to our local communities and a shared mission—always doing what is best for our customers. If you are an existing Brown &amp; Brown teammate, please click here to apply to a job on our internal career site.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "bbinsurance",
+siteId: "careers",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=bbinsurance&s=careers",
+token: "43a44c05-5707-4970-91cf-3f30903d5037",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#5FAF4A","textColor":"#002855"},"progressBar":{"color":"#002855"},"button":{"primary":{"color":"#002855","borderColor":"#002855","textColor":"#FFFFFF","hover":{"color":"#C7C8CA","borderColor":"#002855","textColor":"#002855"}},"secondary":{"color":"#C7C8CA","borderColor":"#002855","textColor":"#002855","hover":{"color":"#FFFFFF","borderColor":"#002855","textColor":"#002855"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"5e20d75877df1002058748fd60210000","altText":null}},"banner":{"borderColor":"#0066CC","textColor":"#002855","image":{"id":"5b768c14a91c100205c69b0f720f0001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
