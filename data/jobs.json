@@ -1,5 +1,470 @@
 [
   {
+    "company": "Mackenzie Investments",
+    "role": "Intern",
+    "link": "https://careersen-mackenzieinvestments.icims.com/jobs/5845/job?mobile=true&needsRedirect=false",
+    "location": "Greater Toronto Area, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4124,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Contribute to design and implementation of analytics, research workflows, and decision-support tools.",
+        "Build and maintain software and infrastructure that power systematic research and data workflows.",
+        "Monitor, troubleshoot, and improve live production processes.",
+        "Collaborate with teammates across platform and portfolio engineering teams.",
+        "Participate actively in a modern software development environment.",
+        "Proven academic performance in a quantitative discipline.",
+        "Active programming proficiency, fluent in Python.",
+        "Experience with other languages like JavaScript/TypeScript, C++/Java, MATLAB, R, or Rust.",
+        "Hands-on experience working with large datasets within the Python ecosystem.",
+        "Working knowledge of both SQL and NoSQL databases.",
+        "Enthusiasm for applying modern development tools and best practices.",
+        "Foundational understanding of financial markets.",
+        "Motivation to deepen knowledge of fixed income and quantitative finance.",
+        "Familiarity with statistics, econometrics, and related forecasting techniques.",
+        "Mindset oriented toward independent thinking, curiosity, and creative problem-solving.",
+        "High attention to detail and consistent focus on accurate, high-quality work.",
+        "Effective interpersonal, verbal, and written communication skills.",
+        "Ability to contribute in both remote and in-person collaborative environments."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "RR Donnelley",
+    "role": "Application Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/RRDonnelley/744000118179454",
+    "location": "Logan, UT",
+    "season": "2026 Summer",
+    "id": 4123,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a full-time student pursuing a Bachelor or higher degree in Computer Science, Information Technology, or Computer Engineering",
+        "Have experience or related coursework in Python and/or Perl",
+        "Possess working knowledge of navigating Unix or Linux operating systems",
+        "Have experience working with data stored in XML and/or JSON format",
+        "Possess good verbal and written communication skills",
+        "Exhibit a positive attitude and outstanding customer service",
+        "Demonstrate accuracy and attention to detail"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Brown & Brown Insurance",
+    "role": "Technology Solutions Intern",
+    "link": "https://bbinsurance.wd1.myworkdayjobs.com/careers/job/Daytona-Beach-FL-USA/Technology-Solutions-Internship_R26_0000001247",
+    "location": "Daytona Beach, FL",
+    "season": "2026 Summer",
+    "id": 4122,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an Associate's or Bachelor's Degree",
+        "Preferred in a STEM related field",
+        "Expected graduation: December 2026 or later",
+        "Minimum GPA: 3.0",
+        "Involvement in student organizations, project work, tech clubs, hackathons, or competitions (preferred)",
+        "Volunteer work with a technical component or directly giving back to the community (preferred)",
+        "Demonstrated passion for learning and applying emerging technologies (preferred)",
+        "Perform data gathering, analysis, and reporting",
+        "Explore Cloud, Security, AI, Data, or Project Management initiatives",
+        "Support tasks tied to project milestones, recommendations and collaborating with cross-functional teams",
+        "Complete assigned projects and deliverables",
+        "Present recommendations at the conclusion of the internship to leaders",
+        "Actively participate in all internship program elements",
+        "Perform duties as assigned by department leadership"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Santander",
+    "role": "Application Development Intern",
+    "link": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Dallas/Application-Development-Intern--Auto-_Req1556843",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 4121,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an undergraduate or graduate student graduating between December 2026 and May/June 2027.",
+        "Study Information Technology or a related field.",
+        "Maintain a cumulative GPA of 3.0 or above.",
+        "Demonstrate intellectual curiosity and courage.",
+        "Possess strong written and spoken English communication skills.",
+        "Be an analytical thinker with strong attention to detail.",
+        "Be organized and manage time and multiple tasks efficiently.",
+        "Ability to work independently on special projects.",
+        "Ability to contribute effectively to a team environment.",
+        "Have coursework or exposure to Computer Science, finance, economics, or business.",
+        "Familiarity with at least one modern programming language.",
+        "Basic understanding of RESTful APIs.",
+        "Exposure to version control systems.",
+        "Experience with writing unit tests or using testing frameworks.",
+        "Willingness to ask questions and take initiative."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CliftonLarsonAllen",
+    "role": "AI Engineer Intern",
+    "link": "https://cliftonlarsonallen.wd1.myworkdayjobs.com/CLA/job/Irvine-CA/AI-Engineer-Intern---Summer-2026---SoCal_R17205",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 4120,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build reusable components for AI workflows.",
+        "Prepare and transform data for machine learning.",
+        "Develop and test APIs, pipelines, notebooks, and backend services.",
+        "Run experiments, track results, and summarize findings.",
+        "Support model evaluation, prompt evaluation, and error analysis.",
+        "Help operationalize solutions through deployment packaging.",
+        "Debug issues across data, model, and application layers.",
+        "Follow engineering best practices for code quality, testing, documentation, and security.",
+        "Stay current on relevant Azure AI, Databricks, and applied AI tooling.",
+        "Working towards a Bachelor’s degree in computer science or a related field.",
+        "Basic understanding of cloud-based AI and data platforms.",
+        "Familiarity with common generative AI concepts.",
+        "Introductory awareness of MLOps concepts.",
+        "General knowledge of vector search, document processing, and AI-enabled search workflows.",
+        "Exposure to applied modeling concepts and building simple APIs or backend services.",
+        "Reliable transportation."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Parsons",
+    "role": "Software Engineering Intern",
+    "link": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US-WV---Summit-Point/Software-Engineering-Intern--Summer-2026-_R179160-1",
+    "location": "Bluemont, VA",
+    "season": "2026 Summer",
+    "id": 4119,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's in Computer Science or related field.",
+        "Possess or be able to secure a Secret clearance.",
+        "Work full time or hybrid in Summit Point, WV.",
+        "Excellent verbal and written communication.",
+        "Work collaboratively in a team and independently.",
+        "Expertise in Java software development.",
+        "Proficient in developing custom software algorithms and applications.",
+        "Familiar with COTS and GOTS software applications.",
+        "Experience with Application Programming Interfaces (APIs).",
+        "Proficient in coding interface messaging software.",
+        "Experience designing, testing, debugging, and documenting software.",
+        "Experience with Atlassian Products and GIT.",
+        "Experience with Docker, Swing, React.",
+        "Expertise in AI/ML algorithm development and training.",
+        "Experience with Geospatial Systems and data processing."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Scientific Research Corporation",
+    "role": "Intern Engineer - Junior",
+    "link": "https://careers-scires.icims.com/jobs/11083/job?mobile=true&needsRedirect=false",
+    "location": "North Charleston, SC",
+    "season": "2026 Summer",
+    "id": 4118,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited Bachelor\r\n’s or Master\r\n’s program.",
+        "Experience with JavaScript/TypeScript.",
+        "Experience with React or other modern front\r\n‑end frameworks.",
+        "Experience with Node.js (Express or similar).",
+        "Maintain a minimum 3.0 GPA.",
+        "Completed at least two years of relevant coursework.",
+        "Familiarity with RESTful API design and consumption.",
+        "Basic understanding of version control systems (Git).",
+        "Basic understanding of collaborative workflows (GitHub/GitLab).",
+        "Exposure to database concepts (SQL or NoSQL).",
+        "Exposure to cloud services (AWS GovCloud, Azure Government).",
+        "Knowledge of secure coding practices.",
+        "Interest in DoD cyber\r\n‑security standards.",
+        "Strong problem\r\n‑solving abilities.",
+        "Willingness to learn new technologies quickly.",
+        "Effective written and verbal communication skills.",
+        "Ability to work in a team\r\n‑oriented environment.",
+        "Prior internship or project experience in full\r\n‑stack development."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Scientific Research Corporation",
+    "role": "Intern Engineer - Junior",
+    "link": "https://careers-scires.icims.com/jobs/11082/job?mobile=true&needsRedirect=false",
+    "location": "North Charleston, SC",
+    "season": "2026 Summer",
+    "id": 4117,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in an accredited Bachelor\n\n's or Master\n\n's program in computer science or related field.",
+        "Demonstrate experience with JavaScript/TypeScript.",
+        "Demonstrate experience with React or other modern front-end frameworks.",
+        "Demonstrate experience with Node.js (Express or similar).",
+        "Achieve a minimum 3.0 GPA and complete at least two years of relevant coursework.",
+        "Familiar with RESTful API design and consumption.",
+        "Understand version control systems (Git) and collaborative workflows.",
+        "Have exposure to database concepts (SQL or NoSQL) and cloud services.",
+        "Possess knowledge of secure coding practices and DoD cyber-security standards.",
+        "Exhibit strong problem-solving abilities and willingness to learn quickly.",
+        "Possess effective written and verbal communication skills; work in a team-oriented environment.",
+        "Have prior internship or project experience in full-stack development."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Walt Disney Company",
+    "role": "Software Engineering Intern",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Software-Engineering-Intern--Summer-2026_10135078-2",
+    "location": "Santa Monica, CAGlendale, CA",
+    "season": "2026 Summer",
+    "id": 4116,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience with Python, Node.js, or Java for backend/API development.",
+        "Possess strong analytical and problem-solving mindset.",
+        "Eager to learn new AI technologies and apply them practically.",
+        "Have good communication and collaboration skills.",
+        "Curious about advertising technology, campaign optimization, and user engagement.",
+        "Familiarity with OpenAI API (GPT, embeddings).",
+        "Proficient in SQL and relational databases (PostgreSQL, MySQL).",
+        "Experience with vector databases (pgvector, Pinecone, or FAISS).",
+        "Understand basic ML/AI concepts, prompt engineering, or NLP.",
+        "Experience with frontend integration (React, Streamlit, internal dashboards).",
+        "Currently enrolled undergraduate student in Computer Science or related field.",
+        "Be a Junior or Senior year student.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Primerica",
+    "role": "Architecture Intern",
+    "link": "https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Architecture-Intern_R-140032026",
+    "location": "Duluth, GA",
+    "season": "2026 Summer",
+    "id": 4115,
+    "jd": null
+  },
+  {
+    "company": "Best Egg",
+    "role": "Backend Software Engineering Intern",
+    "link": "https://jobs.lever.co/BestEgg/35e80bd9-f511-4131-adbd-d17ccb5dd285/apply",
+    "location": "Wilmington, DE",
+    "season": "2026 Summer",
+    "id": 4114,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Best Egg",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/BestEgg/3b828fc3-4fb0-49e8-9832-458c1fd437a9/apply",
+    "location": "Wilmington, DE",
+    "season": "2026 Summer",
+    "id": 4113,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Diligent Corporation",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5834974004",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 4112,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Possess a self-driven mindset and strong analytical skills",
+        "Have university-level programming coursework or comparable coding boot camp qualification",
+        "Seeking education in programming, platform development, and AI systems",
+        "Capable of working unsupervised for extended periods",
+        "Able to work on-site in the Vancouver Office",
+        "Have exposure to fullstack web applications",
+        "Have exposure to AI tools for software development enhancement",
+        "Have exposure to cloud environments (AWS, Azure, or GCP)",
+        "Have exposure to AI and LLM applications",
+        "Have exposure to infrastructure-as-code, CI/CD pipelines, and observability practices",
+        "Possess a passion for continuous learning and AI transformation"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/4D70F68A2B/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4111,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/7398D5FB11/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4110,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/CCBCDB1197/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 4109,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "PDK Runset Development Software Engineer 🎓",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/PDK-Runset-Development-Software-Engineer-Intern_JR0281081",
+    "location": "Hillsboro, OR",
+    "season": "2026 Summer",
+    "id": 4108,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a MS degree in Electrical/Computer Engineering, Computer Science, or related field",
+        "Experience in VLSI in Circuits and Digital Design",
+        "Maintain a 3.0 GPA or higher",
+        "Experience with Unix/Linux operating system",
+        "Experience with C++, Python, Perl, or TCL",
+        "Experience with software repository management tools like Git",
+        "Experience with DRC/LVS/Extraction run sets and EDA tools",
+        "Experience with VLSI design process, reliability verification, and ESD concepts",
+        "Experience with semiconductor device physics, models, and parasitic extraction"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nightwing Intelligence Solutions",
+    "role": "Software Engineer Intern",
+    "link": "https://nwis.wd12.myworkdayjobs.com/NW/job/Sterling-VA/Software-Engineer-Intern---2026_JR101535",
+    "location": "Dulles, VA",
+    "season": "2026 Summer",
+    "id": 4107,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
+        "Possess a strong foundation in a programming language such as Java, Python, C++, or JavaScript.",
+        "Understand basic software development principles and data structures.",
+        "Familiarity with version control systems like Git is a plus.",
+        "Exhibit strong analytical and problem-solving skills.",
+        "Demonstrate excellent verbal and written communication skills.",
+        "Work effectively in a team-oriented environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Ryan",
+    "role": "Intern - AI Engineer",
+    "link": "https://ryan.wd1.myworkdayjobs.com/RyanCareers/job/Plano/Summer-2026-Intern--AI-Engineer_R0018338-1",
+    "location": "Plano, TX",
+    "season": "2026 Summer",
+    "id": 4106,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Working toward a Bachelor’s or Master’s degree in CS or AI",
+        "Anticipate graduation within one year of internship",
+        "Maintain a minimum GPA of 2.8",
+        "Complete 6-12 Accounting or technical hours",
+        "Experienced with Python and software development practices",
+        "Familiar with large language models and model APIs",
+        "Exposed to retrieval systems, ML concepts, or AI app development",
+        "Strong problem-solving and analytical skills",
+        "Able to work in a fast-paced environment and manage priorities",
+        "Strong written and verbal communication skills",
+        "Able to work independently and collaboratively",
+        "Demonstrated curiosity in emerging AI technologies",
+        "Intermediate knowledge of Microsoft Office applications",
+        "Knowledgeable in Python and modern development tools",
+        "Experienced with version control, APIs, and cloud platforms",
+        "Intermediate knowledge of Microsoft Word, Access, Excel, PowerPoint, Outlook, and Internet research",
+        "Possess a valid driver's license"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Hermeus",
     "role": "Human Machine Interface – Software Engineering Intern - Human Machine Interface",
     "link": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67/apply",
