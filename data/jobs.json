@@ -1,5 +1,50 @@
 [
   {
+    "company": "Hermeus",
+    "role": "Human Machine Interface – Software Engineering Intern - Human Machine Interface",
+    "link": "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67/apply",
+    "location": "Atlanta, GA",
+    "season": "2026 Fall",
+    "id": 4105,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Complete at least one previous internship.",
+        "Completed junior year of study or are a graduate student.",
+        "Experience with human-machine interaction programs.",
+        "Experience with JavaScript.",
+        "Experience with TypeScript.",
+        "Experience with C/C++.",
+        "Experience with Python.",
+        "Experience with Java.",
+        "Experience with Backend Development.",
+        "Experience with UI.",
+        "Experience with Simulation."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Octopus Energy",
+    "role": "Octopus in Colour Intern - Backend Engineer",
+    "link": "https://jobs.lever.co/octoenergy/763336cc-befe-4df8-882d-f3fff44a9e87/apply",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4104,
+    "jd": null
+  },
+  {
+    "company": "Reply",
+    "role": "Industry Engineer Intern",
+    "link": "https://jobs.lever.co/reply/aec47b06-f377-4721-b60c-c2d3d393386f/apply",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 4103,
+    "jd": null
+  },
+  {
     "company": "Torch Technologies",
     "role": "Engineering Intern",
     "link": "https://starfish.wd501.myworkdayjobs.com/Careers/job/Huntsville-AL/Engineering-Intern---Summer-2026_R839",
