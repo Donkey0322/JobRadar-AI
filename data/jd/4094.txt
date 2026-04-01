@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "2676 San Diego CA"
+}
+},
+"hiringOrganization" : {
+"name" : "00180 Dynetics, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Mission Operations Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R-00179551"
+},
+"datePosted" : "2026-03-31",
+"employmentType" : "FULL_TIME",
+"title" : "Mission Operations Engineer Intern",
+"description" : "The Leidos Space Division, whose primary products are IR Payloads that are hosted on satellites in earth orbit, is in need of a Mission Operations Engineer - Intern to join our San Diego-based team in the summer of 2026. This unique opportunity will allow you to participate in a space program, supporting flight operations and software designed for use during operational missions. Selected applicants will find challenging work that prepares them for their careers in the space domain. This internship will broaden the intern’s knowledge with industry standard tools and real-time operating systems, and provide a mechanism to understand system design, integration, and test. Primary Responsibilities: The Mission Operations Engineer - Intern will work in a small team environment, developing tools to help automate payload operations including checkout of telemetry / data. Further, this intern will build and test operational scripts for controlling the on-orbit payload during operational missions. Additional Responsibilities: Support design, regression, and verification testing of ground system application software. Provide / author technical documentation, participate in design, code, and software peer reviews. Basic Qualifications Pursuing a degree in the field of Computer Science, Computer Engineering, Electrical Engineering, or Physics that is currently enrolled in an accredited college or university. Familiarity with space systems including fundamentals of orbital mechanics. Minimum two years of experience programming in C++, Java, Matlab, and/or Python. Familiarity with software version control tools (i.e., Git, GitLab, etc.) is a plus. Able to debug software and troubleshoot software related issues. Must be US Citizen. If you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 — and moving faster than anyone else dares. Original Posting: March 31, 2026 For U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above. Pay Range: Pay Range $48,100.00 - $86,950.00 The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law. Leidos Leidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $17.2 billion for the fiscal year ended January 2, 2026. For more information, visit www.Leidos.com. Pay and Benefits Pay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available here. Securing Your Data Leidos will never ask you to provide payment-related information at any part of the employment application process. And Leidos will communicate with you only through emails that are sent from a Leidos.com email address. If you receive an email purporting to be from Leidos that asks for payment-related information or any other personal information, please report the email to spam.leidos@leidos.com. Commitment and Diversity All qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "2676 San Diego CA"
+}
+},
+"hiringOrganization" : {
+"name" : "00180 Dynetics, Inc",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Mission Operations Engineer Intern",
+"@type" : "PropertyValue",
+"value" : "R-00179551"
+},
+"datePosted" : "2026-03-31",
+"employmentType" : "FULL_TIME",
+"title" : "Mission Operations Engineer Intern",
+"description" : "The Leidos Space Division, whose primary products are IR Payloads that are hosted on satellites in earth orbit, is in need of a Mission Operations Engineer - Intern to join our San Diego-based team in the summer of 2026. This unique opportunity will allow you to participate in a space program, supporting flight operations and software designed for use during operational missions. Selected applicants will find challenging work that prepares them for their careers in the space domain. This internship will broaden the intern’s knowledge with industry standard tools and real-time operating systems, and provide a mechanism to understand system design, integration, and test. Primary Responsibilities: The Mission Operations Engineer - Intern will work in a small team environment, developing tools to help automate payload operations including checkout of telemetry / data. Further, this intern will build and test operational scripts for controlling the on-orbit payload during operational missions. Additional Responsibilities: Support design, regression, and verification testing of ground system application software. Provide / author technical documentation, participate in design, code, and software peer reviews. Basic Qualifications Pursuing a degree in the field of Computer Science, Computer Engineering, Electrical Engineering, or Physics that is currently enrolled in an accredited college or university. Familiarity with space systems including fundamentals of orbital mechanics. Minimum two years of experience programming in C++, Java, Matlab, and/or Python. Familiarity with software version control tools (i.e., Git, GitLab, etc.) is a plus. Able to debug software and troubleshoot software related issues. Must be US Citizen. If you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 — and moving faster than anyone else dares. Original Posting: March 31, 2026 For U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above. Pay Range: Pay Range $48,100.00 - $86,950.00 The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law. Leidos Leidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $17.2 billion for the fiscal year ended January 2, 2026. For more information, visit www.Leidos.com. Pay and Benefits Pay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available here. Securing Your Data Leidos will never ask you to provide payment-related information at any part of the employment application process. And Leidos will communicate with you only through emails that are sent from a Leidos.com email address. If you receive an email purporting to be from Leidos that asks for payment-related information or any other personal information, please report the email to spam.leidos@leidos.com. Commitment and Diversity All qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "leidos",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=leidos&s=External",
+token: "e3ba40ae-0c24-49f6-87a0-c44297552d6b",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#201747","textColor":"#850F89"},"progressBar":{"color":"#850F89"},"button":{"primary":{"color":"#850F89","borderColor":"#850F89","textColor":"#FFFFFF","hover":{"color":"#201747","borderColor":"#201747","textColor":"#FFFFFF"}},"secondary":{"color":"#850F89","borderColor":"#850F89","textColor":"#FFFFFF","hover":{"color":"#201747","borderColor":"#201747","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"cbe3ebaf5dfb1001b695b5926b2d0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#850F89","textColor":"#000000","image":{"id":"cbe3ebaf5dfb1001b695b4f85e890001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

@@ -1,0 +1,33 @@
+Omnicom Health is the largest healthcare marketing and communications network in the world—partnering with clients to achieve meaningful change through better, more innovative communications. With more than 5,000 dedicated healthcare communications specialists from every corner of science, medicine, marketing, and communications, we recognize that it takes the best of talent to deliver the best of health.
+Title: 2026 Bold Beginners - Full Stack Developer Intern
+Location: New York, NY
+Department/Discipline: Technology/Engingeering
+Responsibilities:
+Learn full stack web development through actively engaging in training sessions, code reviews, and hands-on development projects
+Support senior developers in designing, building, and maintaining web applications and internal tools
+Develop and enhance user-facing features using modern front-end technologies (HTML, CSS, JavaScript, React, Vue, or Angular)
+Build and optimize back-end APIs and database structures using server-side languages and frameworks
+Collaborate with product managers, designers, and fellow developers to implement new features and functionality
+Participate in debugging, testing, and troubleshooting of applications and code
+Write clean, well-documented, and maintainable code following established coding standards and best practices
+Assist in managing version control (Git), code repositories, and CI/CD pipelines
+Attend and participate in weekly team meetings, standups, and code reviews
+Contribute to technical documentation and knowledge sharing within the team
+Experience:
+Currently enrolled in or recently graduated from a Computer Science, Software Engineering, or related degree program
+Strong foundational knowledge of web development concepts and architecture
+Proficiency in at least one front-end language/framework (JavaScript, React, Vue, Angular, or similar)
+Proficiency in at least one back-end language (Python, Node.js, Java, C#, PHP, or similar)
+Experience with SQL and relational databases (MySQL, PostgreSQL, or similar)
+Familiarity with Git and version control systems
+Strong problem-solving skills and ability to learn new technologies quickly
+Strong written and verbal communication, and critical thinking skills
+Ability to work in a fast-paced environment, both independently and as part of a team
+Excellent organizational skills, strong attention to detail, and ability to manage multiple tasks
+Experience with RESTful APIs and understanding of HTTP protocols, a plus
+Familiarity with cloud platforms (AWS, GCP, Azure) or containerization (Docker), a plus
+Interest in healthcare technology or healthcare marketing applications, a plus
+Portfolio or GitHub profile demonstrating previous projects and coding abilities, a plus
+The range below represents the low and high end of the base salary someone in this role may earn as an employee of an Omnicom Health company in the United States. Salaries will vary based on various factors including but not limited to professional and academic experience, training, associated responsibilities, and other business and organizational needs. The range listed is just one component of our total compensation package for employees. Salary decisions are dependent on the circumstances of each hire.
+$19 - $20/HR
+Omnicom Health is committed to hiring and developing exceptional talent. We agree that talent is uniquely distributed, and we’re focused on developing inclusive teams that can bring the best solutions to everything we do. We strongly believe that celebrating what makes us different makes us better together. Join us—we look forward to getting to know you. We will process your personal data in accordance with our Recruitment Privacy Notice.
