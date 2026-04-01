@@ -1,5 +1,136 @@
 [
   {
+    "company": "Fresenius Medical Care",
+    "role": "GenAI Engineering Intern/Co-op",
+    "link": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0239696-1",
+    "location": "Andover, MA",
+    "season": "2026 Fall",
+    "id": 4087,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Candidate for Bachelor\nas or Master\nas in Computer Science, Data Science, Biomedical Engineering, Health Informatics, or a related technical field",
+        "Strong interest in Cognitive Science/Psychology",
+        "Solid understanding of Large Language Models (LLMs), Prompt Engineering, and Retrieval-Augmented Generation (RAG)",
+        "Proficiency in Python, including libraries like Pandas, NumPy, or frameworks like LangChain / LlamaIndex / LangGraph",
+        "Experience organizing unstructured data and working with Knowledge Bases or Vector DBs",
+        "Familiarity with software testing methodologies",
+        "Experience testing AI outputs for bias or hallucination",
+        "Demonstrated ability to conduct self-driven research",
+        "Eagerness to learn new tools and methods quickly",
+        "Familiarity with Microsoft Azure, AWS, or other cloud platforms",
+        "Entry level knowledge of Dialysis industry",
+        "Energetic, curious, learner/growth/problem solver mindset",
+        "Positive attitude and enjoys working in teams"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71739/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 4086,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer Engineering, Software Engineering, or related discipline",
+        "Achieve sophomore academic standing or higher",
+        "Possess Department of Defense Secret security clearance (preferred)",
+        "Able to obtain Secret security clearance",
+        "Meet eligibility for access to classified information",
+        "Apply classroom-learned skills to defense programs",
+        "Work with collaborative teams on technical projects"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Intuitive Surgical",
+    "role": "Software Engineer Intern 🎓",
+    "link": "https://jobs.smartrecruiters.com/Intuitive/744000117991662",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 4085,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited degree-seeking program.",
+        "Available for full-time 10-12 week internship starting May or June.",
+        "Possess formal training in 3D visualization.",
+        "Proficient in Javascript and GIT.",
+        "Familiar with WebGL, OpenGL, or ThreeJS.",
+        "Familiar with React Native.",
+        "Currently enrolled in Master's or Doctorate in CS, CE, ECE, or related field.",
+        "Familiar with CUDA programming.",
+        "Familiar with Web-Assembly.",
+        "Experienced with Medical Image Processing."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Primerica",
+    "role": "Application Development Intern",
+    "link": "https://primerica.wd1.myworkdayjobs.com/pri/job/Duluth-GA/Application-Development-Intern_R-139032026",
+    "location": "Duluth, GA",
+    "season": "2026 Summer",
+    "id": 4084,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a junior or senior in college",
+        "Pursue computer science or computer engineering",
+        "Have experience with Python, Node, Javascript",
+        "Possess strong analytic and critical thinking skills",
+        "Document and validate work by comparing to code and executing applications",
+        "Build research capabilities in Genesys platform or a new Vue application",
+        "Design, develop, and document software related to IVR systems",
+        "Use flowcharting software to document existing systems",
+        "Perform frontend development in Genesys or Vue",
+        "Have exposure to backend API development",
+        "Design and implement analytic dashboards that support call centers"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern Program",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Omaha-Nebraska/Technology-Internship-Program--Omaha--NE-_R-10385189",
+    "location": "Omaha, NE",
+    "season": "2026 Summer",
+    "id": 4083,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursuing a bachelor's degree.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Achieve a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Familiarity with .NET, Java, JavaScript, Python, SQL, COBOL, PowerBi, Tableau.",
+        "Experience in application or software development.",
+        "Advanced knowledge of Excel and PowerPoint.",
+        "Work effectively in a fast-paced environment.",
+        "Demonstrate flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Revolution",
     "role": "Full Stack Developer Intern",
     "link": "https://careers-revolutioncompany.icims.com/jobs/2869/full-stack-developer-intern/job",
