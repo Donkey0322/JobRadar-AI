@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Waltham"
+}
+},
+"hiringOrganization" : {
+"name" : "USC0 Revvity, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Intern global Operations",
+"@type" : "PropertyValue",
+"value" : "JR-044111"
+},
+"datePosted" : "2026-04-02",
+"employmentType" : "FULL_TIME",
+"title" : "AI Intern global Operations",
+"description" : "Job TitleAI Intern global Operations Location(s)Waltham About Us Revvity is a developer and provider of end-to-end solutions designed to help scientists, researchers, and clinicians solve the world’s greatest health challenges. We pair the enthusiasm of an industry disruptor with the experience of a longtime leader. Our team of 11,000+ colleagues from around the globe are vital to our success and the reason we’re able to push boundaries in pursuit of better human health. Find your future at Revvity AI Intern – Global Operations About You: You’re an engineer at heart who’s passionate about how AI, generative models, and automation can enhance global operations. You enjoy turning ideas into prototypes, integrating data systems, and applying AI to solve real business problems. You’re curious, collaborative, and motivated to deliver measurable impact across supply chain, manufacturing, and service operations. You work well across technical and functional boundaries, translating business pain points into workable AI solutions. You value transparency and collective success, thriving in globally distributed, fast-moving environments. What You’ll Do Within 30 Days Complete onboarding and get familiar with Revvity’s enterprise systems, data architecture, and current AI initiatives. Set up your development environment (GitHub, Docker, Next.js, internal APIs), and review existing AI integrations. Shadow data and operations analysts to understand how information flows across global functions. Identify early opportunities for process automation or AI augmentation. Beyond 60 Days Build and iterate AI prototypes and proof-of-concepts that automate or enhance business processes (e.g., reporting, forecasting, supplier interactions). Develop data pipelines and retrieval layers to connect AI tools with enterprise data sources. Implement prompt engineering and RAG-based workflows for internal search, summarization, and decision support. Prototype AI assistant interfaces or agent workflows integrated with ERP and operations platforms. Evaluate model behavior—accuracy, latency, bias, and business impact—using clearly defined metrics. Collaborate with DevOps and IT teams to ensure deployment scalability and security. Present your work to both technical and operational leaders, translating AI capabilities into operational outcomes. Requirements Strong interest in AI for enterprise operations and digital transformation. Solid experience with Python and API development (REST or GraphQL). Understanding of LLMs and related stacks (embeddings, vector databases, fine-tuning workflows). Familiarity with Next.js, React, or TypeScript for internal tooling or prototype UIs. Proficiency with Docker and foundational cloud deployment (Azure, GCP, or AWS). Exposure to data processing and pipeline design (pandas, SQL, or similar). Comfortable working with ambiguity and learning quickly in fast-moving projects. Bonus: Experience with ERP integration (SAP, Oracle) or workflow automation tools like ServiceNow or Power Automate. Our Values in Action Embrace the unknown: Tackle unstructured, cross-domain problems where standard playbooks don’t exist. Partner with purpose: Collaborate with product, analytics, and business teams to design scalable AI use cases. Passion for people: Build tools that make global operations smarter, faster, and more human-centered. Collaborate for success: Bring transparency and technical rigor to every project, ensuring AI builds trust—not complexity. This internship offers a hands-on opportunity to design, build, and test AI-powered solutions embedded within a global enterprise environment. You’ll collaborate across data, operations, and engineering teams to bring next-generation AI capabilities into real business contexts, turning experimentation into measurable transformation. The pay range for this full-time position is a salary $20.00 - $30.00 USD Hourly. This range reflects the minimum and maximum target for a new hire in this position. The pay offered to the successful candidate will take into account internal equity, work location, and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process. Please note that base pay is only one part of our total compensation package and is determined within a range. This range allows for the successful candidate to have an opportunity to progress within the position and develop at our company. This base pay range does not take into account bonuses, equity, or other benefits which may be applicable and are dependent on the level and position offered. #LI-MB1 What do we offer? We provide competitive and comprehensive benefits to our employees. Below are some highlights of our benefits: Medical, Dental, and Vision Insurance Options Life and Disability Insurance Paid Time-Off Parental Benefits Compassionate Care Leave 401k with Company Match Employee Stock Purchase Plan Learn more about Revvity’s benefits by visiting our Bswift page. Log-In instructions are provided towards the bottom of the Bswift page. *For benefit-eligible roles only. Part-time and temporary roles may not be eligible for all benefits listed. Please reach out to your recruiter for more information. Revvity is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to any characteristic or status protected by applicable federal, state, and/or local laws. If you are an applicant with a disability that requires reasonable accommodation to complete any part of the application process or are limited in the ability—or unable to use—the online application system and need an alternative method for applying, you may contact OpenJobs@revvity.com. Revvity is a developer and provider of end-to-end solutions designed to help scientists, researchers, and clinicians solve the world’s greatest health challenges. We pair the enthusiasm of an industry disruptor with the experience of a longtime leader. Our team of 11,000+ colleagues from around the globe are vital to our success and the reason we’re able to push boundaries in pursuit of better human health. Find your future at Revvity",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Waltham"
+}
+},
+"hiringOrganization" : {
+"name" : "USC0 Revvity, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "AI Intern global Operations",
+"@type" : "PropertyValue",
+"value" : "JR-044111"
+},
+"datePosted" : "2026-04-02",
+"employmentType" : "FULL_TIME",
+"title" : "AI Intern global Operations",
+"description" : "Job TitleAI Intern global Operations Location(s)Waltham About Us Revvity is a developer and provider of end-to-end solutions designed to help scientists, researchers, and clinicians solve the world’s greatest health challenges. We pair the enthusiasm of an industry disruptor with the experience of a longtime leader. Our team of 11,000+ colleagues from around the globe are vital to our success and the reason we’re able to push boundaries in pursuit of better human health. Find your future at Revvity AI Intern – Global Operations About You: You’re an engineer at heart who’s passionate about how AI, generative models, and automation can enhance global operations. You enjoy turning ideas into prototypes, integrating data systems, and applying AI to solve real business problems. You’re curious, collaborative, and motivated to deliver measurable impact across supply chain, manufacturing, and service operations. You work well across technical and functional boundaries, translating business pain points into workable AI solutions. You value transparency and collective success, thriving in globally distributed, fast-moving environments. What You’ll Do Within 30 Days Complete onboarding and get familiar with Revvity’s enterprise systems, data architecture, and current AI initiatives. Set up your development environment (GitHub, Docker, Next.js, internal APIs), and review existing AI integrations. Shadow data and operations analysts to understand how information flows across global functions. Identify early opportunities for process automation or AI augmentation. Beyond 60 Days Build and iterate AI prototypes and proof-of-concepts that automate or enhance business processes (e.g., reporting, forecasting, supplier interactions). Develop data pipelines and retrieval layers to connect AI tools with enterprise data sources. Implement prompt engineering and RAG-based workflows for internal search, summarization, and decision support. Prototype AI assistant interfaces or agent workflows integrated with ERP and operations platforms. Evaluate model behavior—accuracy, latency, bias, and business impact—using clearly defined metrics. Collaborate with DevOps and IT teams to ensure deployment scalability and security. Present your work to both technical and operational leaders, translating AI capabilities into operational outcomes. Requirements Strong interest in AI for enterprise operations and digital transformation. Solid experience with Python and API development (REST or GraphQL). Understanding of LLMs and related stacks (embeddings, vector databases, fine-tuning workflows). Familiarity with Next.js, React, or TypeScript for internal tooling or prototype UIs. Proficiency with Docker and foundational cloud deployment (Azure, GCP, or AWS). Exposure to data processing and pipeline design (pandas, SQL, or similar). Comfortable working with ambiguity and learning quickly in fast-moving projects. Bonus: Experience with ERP integration (SAP, Oracle) or workflow automation tools like ServiceNow or Power Automate. Our Values in Action Embrace the unknown: Tackle unstructured, cross-domain problems where standard playbooks don’t exist. Partner with purpose: Collaborate with product, analytics, and business teams to design scalable AI use cases. Passion for people: Build tools that make global operations smarter, faster, and more human-centered. Collaborate for success: Bring transparency and technical rigor to every project, ensuring AI builds trust—not complexity. This internship offers a hands-on opportunity to design, build, and test AI-powered solutions embedded within a global enterprise environment. You’ll collaborate across data, operations, and engineering teams to bring next-generation AI capabilities into real business contexts, turning experimentation into measurable transformation. The pay range for this full-time position is a salary $20.00 - $30.00 USD Hourly. This range reflects the minimum and maximum target for a new hire in this position. The pay offered to the successful candidate will take into account internal equity, work location, and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process. Please note that base pay is only one part of our total compensation package and is determined within a range. This range allows for the successful candidate to have an opportunity to progress within the position and develop at our company. This base pay range does not take into account bonuses, equity, or other benefits which may be applicable and are dependent on the level and position offered. #LI-MB1 What do we offer? We provide competitive and comprehensive benefits to our employees. Below are some highlights of our benefits: Medical, Dental, and Vision Insurance Options Life and Disability Insurance Paid Time-Off Parental Benefits Compassionate Care Leave 401k with Company Match Employee Stock Purchase Plan Learn more about Revvity’s benefits by visiting our Bswift page. Log-In instructions are provided towards the bottom of the Bswift page. *For benefit-eligible roles only. Part-time and temporary roles may not be eligible for all benefits listed. Please reach out to your recruiter for more information. Revvity is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to any characteristic or status protected by applicable federal, state, and/or local laws. If you are an applicant with a disability that requires reasonable accommodation to complete any part of the application process or are limited in the ability—or unable to use—the online application system and need an alternative method for applying, you may contact OpenJobs@revvity.com. Revvity is a developer and provider of end-to-end solutions designed to help scientists, researchers, and clinicians solve the world’s greatest health challenges. We pair the enthusiasm of an industry disruptor with the experience of a longtime leader. Our team of 11,000+ colleagues from around the globe are vital to our success and the reason we’re able to push boundaries in pursuit of better human health. Find your future at Revvity",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "revvity",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","en-CA","en-GB","es","fr-FR","pt-BR","fi-FI","ja-JP","zh-CN","ko-KR"],
+clientOrigin: "https://wd103.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd103.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd103.myworkday.com/wday/drs/outage?t=revvity&s=External",
+token: "4abffb2b-c214-4035-aab6-8c2d0b68a5b5",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#0039A6","textColor":"#000000"},"progressBar":{"color":"#0039A6"},"button":{"primary":{"color":"#0039A6","borderColor":"#0039A6","textColor":"#FFFFFF","hover":{"color":"#0039A6","borderColor":"#0039A6","textColor":"#FFFFFF"}},"secondary":{"color":"#0039A6","borderColor":"#0039A6","textColor":"#FFFFFF","hover":{"color":"#0039A6","borderColor":"#0039A6","textColor":"#FFFFFF"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"ddb84f2b3611100162f102f54f4d0004","altText":null}},"banner":{"color":"#FFFFFF","textColor":"#000000","image":{"id":"ddb84f2b3611100162f1025baf180002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd103.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

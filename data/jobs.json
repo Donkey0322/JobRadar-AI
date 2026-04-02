@@ -1,5 +1,159 @@
 [
   {
+    "company": "Sentry",
+    "role": "Software Engineer – Intern",
+    "link": "https://jobs.ashbyhq.com/sentry/d2e3391f-9401-410a-b8a6-de3bf5f762b7/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4142,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in an undergraduate or post-graduate degree program in Computer Science (or similar)",
+        "Experience with Python, JavaScript, or a similar dynamic programming language",
+        "At least 1 previous internship or equivalent practical experience",
+        "Experience working with GitHub",
+        "Collaborating with a team on an engineering project",
+        "Ability to pick up a new programming language quickly",
+        "Known fundamentals of algorithms and data structures",
+        "Willing to relocate to Toronto for the duration of your internship"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Sentry",
+    "role": "Software Engineer – Intern",
+    "link": "https://jobs.ashbyhq.com/sentry/5e112240-922a-48f1-8865-9e7f89687f39/application",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 4141,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Computer Science degree program.",
+        "Experienced with Python, JavaScript, or similar dynamic languages.",
+        "Possess at least one prior internship or equivalent practical experience.",
+        "Experienced working with GitHub.",
+        "Able to collaborate on engineering projects.",
+        "Able to learn new programming languages quickly.",
+        "Know fundamentals of algorithms and data structures.",
+        "Willing to relocate to San Francisco for the internship duration."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "KLA",
+    "role": "Digital Transformation & AI Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/AnnArbor/job/Ann-Arbor-MI/Digital-Transformation---AI-Intern_2635323-1",
+    "location": "Ann Arbor, MI",
+    "season": "2026 Summer",
+    "id": 4140,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficiency in Python and SQL for data analysis, validation, and prototyping",
+        "Experience or strong interest in building AI/LLM\nbased agents and prompt\ndriven workflows",
+        "Familiarity with LLMs and agent concepts",
+        "Strong analytical skills with attention to edge cases and failure modes",
+        "Clear documentation and communication skills",
+        "Requires less than 1 year of related experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ditto AI",
+    "role": "Product Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/dittoai/e62fb0ab-8cd6-4344-b273-edffe1129437/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4139,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Shipped consumer products to real users.",
+        "Iterated products based on learned insights.",
+        "Possess strong product instincts.",
+        "Comfortable across frontend, backend, and AI.",
+        "Understand stateful and autonomous systems.",
+        "Excited by AI as the execution layer.",
+        "Thrive in early-stage, ambiguous environments.",
+        "2+ years building consumer-facing products.",
+        "Experienced in owning product outcomes.",
+        "Strong in TypeScript and/or Python with modern web frameworks.",
+        "Experienced building backend systems.",
+        "Experienced with stateful systems.",
+        "Exposed to LLM pipelines, agents, or orchestration frameworks.",
+        "Experienced with A/B testing, experimentation, or growth loops.",
+        "Possess a mindset of shipping fast and iterating on data.",
+        "Experienced with event-driven or distributed systems.",
+        "Experienced building autonomous or AI-driven workflows.",
+        "Experienced with observability, logging, and debugging AI systems.",
+        "Experienced with reinforcement learning, evaluation, or ranking systems."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Revvity",
+    "role": "AI Intern Global Operations",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/AI-Intern-global-Operations_JR-044111",
+    "location": "Waltham, MA",
+    "season": "2026 Summer",
+    "id": 4138,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Strong interest in AI for enterprise operations and digital transformation.",
+        "Solid experience with Python and API development.",
+        "Understand LLMs and related stacks.",
+        "Familiar with Next.js, React, or TypeScript.",
+        "Proficient with Docker and foundational cloud deployment.",
+        "Exposed to data processing and pipeline design.",
+        "Comfortable working with ambiguity and learning quickly.",
+        "Experience with ERP integration or workflow automation tools."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "U.S. Venture",
+    "role": "Software Development Intern",
+    "link": "https://usventure.wd1.myworkdayjobs.com/usvexternal/job/WI---Appleton/Software-Development-Intern---US-AutoForce_R6759",
+    "location": "Appleton, WI",
+    "season": "2026 Summer",
+    "id": 4137,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a current student pursuing a bachelor's degree in Computer Science/Software Engineering or a related field (as of May 2026)",
+        "Have Junior or Senior status (preferred)",
+        "Possess interest in web application development",
+        "Have experience in C#, HTML, CSS",
+        "Utilize Git or a similar version control system",
+        "Experience APIs using REST principles (preferred)",
+        "Understand object-oriented programming languages",
+        "Be eager to learn new technologies and frameworks",
+        "Be an agile thinker capable of working effectively as part of a team"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Snyk",
     "role": "Software Engineer Intern - Container",
     "link": "https://snyk.wd103.myworkdayjobs.com/External/job/United-States---Boston-Office/Software-Engineer-Intern--Container-_JR100491",
