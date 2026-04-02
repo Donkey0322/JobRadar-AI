@@ -1,5 +1,33 @@
 [
   {
+    "company": "BillionToOne",
+    "role": "AI Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/billiontoone/jobs/4680728005",
+    "location": "Menlo Park, CA",
+    "season": "2026 Summer",
+    "id": 4135,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or recently completed a Bachelor's, Master's, or PhD degree.",
+        "Familiar with Python and basic SQL.",
+        "Exposed to LLM APIs through coursework, personal projects, or hackathons.",
+        "Strong communication skills.",
+        "Eager to learn how business problems translate into technical solutions.",
+        "Self-directed.",
+        "Comfortable asking questions in a fast-paced, ambiguous environment.",
+        "Experienced with personal projects, hackathons, or coursework involving LLMs or ML.",
+        "Exposed to retrieval architectures, vector databases, or embedding models.",
+        "Familiar with cloud platforms such as AWS, GCP, or Azure.",
+        "Experienced with ML frameworks like scikit-learn, PyTorch, or TensorFlow.",
+        "Interested in healthcare, biotech, or regulated industries."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Sarasota County",
     "role": "Web Development / SharePoint Design Intern",
     "link": "https://scgov.wd5.myworkdayjobs.com/SCGOV/job/Cattleman/Web-Development---SharePoint-Design-Intern---Onsite-Summer-2026-Internship_R20666",
