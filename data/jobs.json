@@ -1,5 +1,32 @@
 [
   {
+    "company": "Snyk",
+    "role": "Software Engineer Intern - Container",
+    "link": "https://snyk.wd103.myworkdayjobs.com/External/job/United-States---Boston-Office/Software-Engineer-Intern--Container-_JR100491",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4136,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Eager to learn new technologies.",
+        "Highly adaptable to change.",
+        "Possess an AI-native orientation towards software engineering.",
+        "Familiar with programming languages such as TypeScript or Go.",
+        "Understand foundational relational database design (e.g., PostgreSQL).",
+        "Strong sense of accountability and ownership.",
+        "Proactive and able to drive projects to completion.",
+        "Eager to seek feedback.",
+        "Passionate about problem-solving.",
+        "Experience with building, running, and managing containers (e.g., Docker, Kubernetes).",
+        "Active interest in cybersecurity, DevSecOps, and AI security."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "BillionToOne",
     "role": "AI Engineering Intern",
     "link": "https://job-boards.greenhouse.io/billiontoone/jobs/4680728005",
