@@ -1,5 +1,181 @@
 [
   {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Intern",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/1523EB2B8B/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 4131,
+    "jd": null
+  },
+  {
+    "company": "Intel",
+    "role": "AI Software Graduate Intern 🎓",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/AI-Software-Graduate-Intern_JR0282612",
+    "location": "Hillsboro, OR",
+    "season": "2026 Summer",
+    "id": 4130,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Stewart",
+    "role": "Application Development Intern",
+    "link": "https://stewart.wd1.myworkdayjobs.com/External/job/USA-MI-Plymouth---40600-Ann-Arbor-Rd/Application-Development-Intern_INTERN168",
+    "location": "Plymouth, MI",
+    "season": "2026 Summer",
+    "id": 4129,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Own scoped engineering projects with business value.",
+        "Write production-quality code for enterprise applications.",
+        "Collaborate with dev leads and senior engineers on code reviews and designs.",
+        "Utilize modern AI development tools.",
+        "Participate in agile planning sessions and ceremonies.",
+        "Prototype and iterate on features, incorporating feedback.",
+        "Currently pursuing a Bachelor's in Computer Science or related field.",
+        "Completed coursework in data structures and algorithms.",
+        "Able to work full-time, in-person in Plymouth, MI.",
+        "Strong programming fundamentals and problem-solving skills.",
+        "Self-motivated and autonomous.",
+        "Excited to build production-level software.",
+        "Curious about AI-assisted development and LLMs.",
+        "Available to travel to Houston, TX as required."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ryan",
+    "role": "Intern - AI Engineer",
+    "link": "https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2026-Intern--AI-Engineer_R0018338",
+    "location": "Plano, TX",
+    "season": "2026 Summer",
+    "id": 4128,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design, develop, and implement agentic AI systems.",
+        "Build and optimize retrieval-augmented generation (RAG) pipelines.",
+        "Develop and maintain evaluation frameworks.",
+        "Conduct rapid prototyping and experimentation.",
+        "Integrate LLM APIs into production systems.",
+        "Implement AI safety and trust mechanisms.",
+        "Analyze system performance and iterate on solutions.",
+        "Collaborate with cross-functional teams.",
+        "Working toward a Bachelor’s or Master’s degree in Computer Science or AI.",
+        "Anticipate graduation date within one year of internship.",
+        "Maintain a minimum Overall and Major GPA of 2.8.",
+        "Possess a minimum of 6 – 12 Accounting or technical hours.",
+        "Experience with Python and software development best practices.",
+        "Familiarity with large language models (LLMs) and model APIs.",
+        "Exposure to retrieval systems, machine learning concepts, or AI application development.",
+        "Strong problem-solving and analytical skills.",
+        "Ability to work in a fast-paced, innovative environment.",
+        "Ability to manage multiple priorities.",
+        "Strong written and verbal communication skills.",
+        "Ability to work independently and collaboratively.",
+        "Demonstrated curiosity in emerging AI technologies and trends.",
+        "Intermediate knowledge of Microsoft Office applications and Outlook.",
+        "Knowledge of Python.",
+        "Familiarity with modern development tools and environments.",
+        "Experience with version control systems (e.g., Git), APIs, and cloud-based platforms.",
+        "Knowledge of Internet navigation and research.",
+        "Possess a valid driver's license."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Strata Decision Technology",
+    "role": "Intern Software Engineer",
+    "link": "https://job-boards.greenhouse.io/stratacareers/jobs/7685893003",
+    "location": "Chicago, ILSt. Louis, MO",
+    "season": "2026 Summer",
+    "id": 4127,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree or higher in Computer Science or related field.",
+        "Expected graduation in Winter 2026 or Spring 2027.",
+        "Love programming.",
+        "Seek out challenges and solve problems.",
+        "Enjoy experimenting with new tools and programming techniques.",
+        "Take initiative and work with limited guidance.",
+        "Possess a passion for software."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SpecterOps",
+    "role": "Product Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/specterops/jobs/8489953002",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4126,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an Undergraduate/Graduate degree in Computer Science, cybersecurity, or a related technical discipline.",
+        "Commit to an 11-week internship (20-30 hours weekly).",
+        "Desire to embody core values.",
+        "Familiar with version control systems such as Git.",
+        "Experienced with containerization technologies like Docker.",
+        "Knowledgeable in software testing principles and tools.",
+        "Exposed to front-end web development libraries like React.",
+        "Understand relational or graph-based database systems (e.g., PostgreSQL, Neo4j).",
+        "Strong problem-solving skills and a passion for learning new technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SpecterOps",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/specterops/jobs/8490047002",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4125,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an Undergraduate or Graduate degree in Computer Science, Cybersecurity, Data Science, or related technical field.",
+        "Commit to an 11-week internship (20–30 hours weekly).",
+        "Experience with Python and/or Go.",
+        "Comfortable writing code and working through technical problems.",
+        "Interest in cybersecurity and how real-world assessments are conducted.",
+        "Curiosity about AI/ML or large language models and their application to real data.",
+        "Ability to learn quickly, and work both independently and collaboratively.",
+        "Desire to embody SpecterOps' core values.",
+        "Familiarity with Docker or containerized environments.",
+        "Exposure to AWS or other cloud platforms.",
+        "Experience with APIs, data processing, or backend development.",
+        "Basic understanding of LLMs or generative AI concepts.",
+        "Previous exposure to cybersecurity concepts, tools, or coursework.",
+        "Interest in combining software engineering, data analysis, and cybersecurity.",
+        "Strong problem-solving skills and a passion for learning new technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Mackenzie Investments",
     "role": "Intern",
     "link": "https://careersen-mackenzieinvestments.icims.com/jobs/5845/job?mobile=true&needsRedirect=false",
