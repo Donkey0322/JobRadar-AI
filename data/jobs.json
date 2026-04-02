@@ -1,5 +1,78 @@
 [
   {
+    "company": "Sarasota County",
+    "role": "Web Development / SharePoint Design Intern",
+    "link": "https://scgov.wd5.myworkdayjobs.com/SCGOV/job/Cattleman/Web-Development---SharePoint-Design-Intern---Onsite-Summer-2026-Internship_R20666",
+    "location": "Sarasota, FL",
+    "season": "2026 Summer",
+    "id": 4134,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 16-17 years old with parental consent, or 18 and above.",
+        "Be eligible to work in the United States.",
+        "Be an active, enrolled student seeking a Bachelor's of Science in Civil Engineering or related field.",
+        "Work toward a bachelor’s degree in Sustainability, Environmental Science, Construction Management, Mechanical Engineering or closely related field."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "AAA Club Alliance",
+    "role": "Insurance Classic Intern",
+    "link": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Insurance-Classic-Intern_JR202635721",
+    "location": "Coppell, TX",
+    "season": "2026 Summer",
+    "id": 4133,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Senior enrolled in Computer Science, Software Engineering, IT, Data Science, or related field.",
+        "Possess strong analytical thinking and problem-solving abilities.",
+        "Have hands-on experience with Java, HTML, CSS, Microsoft SQL Server, or VB .NET.",
+        "Familiarity with SOAP and REST APIs, Java web services, and SQL database linking.",
+        "Familiarity with CI/CD tools such as Git, GitHub, or Jenkins.",
+        "Exposure to code development tools like Eclipse or VS Code.",
+        "Proficiency in Microsoft Office Suite, including Excel, Word, and PowerPoint.",
+        "Experience with data analytics tools such as Tableau or Python.",
+        "Exhibit exceptional attention to detail and strong organizational skills.",
+        "Be self-motivated, eager to learn, and able to apply new knowledge quickly.",
+        "Possess effective verbal and written communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "S&P Global",
+    "role": "Software Engineering Intern - Commercial Technology",
+    "link": "https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Software-Engineering-Intern--Commercial-Technology_326692-2",
+    "location": "Hyderabad, Telangana, IndiaChennai, Tamil Nadu, IndiaNYC",
+    "season": "2026 Summer",
+    "id": 4132,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or related field.",
+        "Have exposure to Java, React JS, Angular JS, or PostgreSQL.",
+        "Familiar with Git and REST APIs.",
+        "Demonstrate interest in GenAI and emerging technologies.",
+        "Develop features for front-end and back-end platforms.",
+        "Work with PostgreSQL databases.",
+        "Contribute to GenAI and LLM integration initiatives.",
+        "Support DotCMS content management workflows.",
+        "Participate in agile ceremonies.",
+        "Collaborate with product and QA teams."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Al Warren Oil Company",
     "role": "Software Developer Intern",
     "link": "https://apply.workable.com/al-warren-oil-company-inc/j/1523EB2B8B/apply",
