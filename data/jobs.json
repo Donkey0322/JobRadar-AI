@@ -1,5 +1,152 @@
 [
   {
+    "company": "Gannett Fleming",
+    "role": "Intern Application Development",
+    "link": "https://careers-gannettfleming.icims.com/jobs/13833/job?mobile=true&needsRedirect=false",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 4159,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist in developing applications using C# and .NET framework.",
+        "Support web development projects with ASP.NET Core, JavaScript, and frameworks.",
+        "Contribute to database design with SQL Server, Oracle, and/or PostgreSQL.",
+        "Collaborate on troubleshooting efforts to enhance customer experience.",
+        "Pursue a bachelor’s degree in Computer Science.",
+        "Demonstrate experience with object-oriented programming in .NET framework.",
+        "Familiar with SQL Server or SQLite database management systems.",
+        "Possess strong communication skills and a customer-focused mindset.",
+        "Adapt and excel in a fast-paced environment.",
+        "Manage multiple projects and meet deadlines.",
+        "Exposed to front-end frameworks like React or JavaScript.",
+        "Exposed to MAUI mobile development."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "AI Engineering Intern",
+    "link": "https://jobs.lever.co/actian/7e55f709-5eb0-472e-bdc4-d89f93b0608f/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4158,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "Software Development Intern",
+    "link": "https://jobs.lever.co/actian/a6717e63-db81-4a37-86e2-5b5f3c41e735/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4157,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "Software Development Intern - Vector AI",
+    "link": "https://jobs.lever.co/actian/0e93f417-524a-4137-a3be-5e74d9db75c7/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4156,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "Engineering Intern - Pipeline Observability and Lineage",
+    "link": "https://jobs.lever.co/actian/dc54b4ff-b83c-48c8-9d9c-169d3d251ef6/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4155,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Military Pathways – Technology Intern Program",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Military-Pathways---Technology-Internship-Program_R-10391447",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 4154,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\nelor\n’s degree in a related technology field.",
+        "Maintain a 3.0+ GPA.",
+        "Expected graduation between August 2026 and June 2028.",
+        "Possess unrestricted work authorization.",
+        "Be part of the military community.",
+        "Have 4-8 years of military service, with no more than 10 years.",
+        "Possess 0-2 years of civilian professional work experience.",
+        "Be familiar with technologies such as .NET, JCL, Java, JavaScript, Python, R, SQL, COBOL, Power BI, Tableau.",
+        "Gain application or software development experience.",
+        "Possess strong written and verbal communication skills.",
+        "Demonstrate a detail-oriented mindset.",
+        "Possess strong organizational skills.",
+        "Manage multiple priorities in a fast-paced environment.",
+        "Experience using Excel and PowerPoint.",
+        "Exhibit technical aptitude and adaptability.",
+        "Quickly learn new systems and tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Amentum",
+    "role": "Software Developer Intern - Nissc - Cos",
+    "link": "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-CO-Colorado-Springs/Software-Developer-Intern---NISSC---COS_R0158196",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 4153,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Eligible to receive a secret clearance",
+        "Possess a High School Diploma or GED",
+        "Working towards a Bachelor's degree in computer science, engineering, or related field",
+        "Demonstrate a solid understanding of object-oriented programming concepts",
+        "Have a basic understanding of Java, C++, or Python",
+        "Ability to work independently and as part of a team",
+        "Possess excellent problem solving and debugging skills",
+        "Demonstrate strong written and verbal communication skills",
+        "Experience with software development tools (Eclipse, Visual Studio, Git)",
+        "Experience with web development technologies (HTML, CSS, JavaScript, PHP)",
+        "Experience with VMware Software"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "KLA",
     "role": "Software Engineering Intern 🎓",
     "link": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern_2635363-1",
