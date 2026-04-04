@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US Brightree Peachtree Corners (Corp Office)"
+}
+},
+"hiringOrganization" : {
+"name" : "111 ResMed SaaS Holdings Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Automation Intern",
+"@type" : "PropertyValue",
+"value" : "JR_047985"
+},
+"datePosted" : "2026-02-05",
+"employmentType" : "FULL_TIME",
+"title" : "Automation Intern",
+"description" : "As an intern at ResMed, you’ll gain hands-on experience, learn from experts, and collaborate with teams that do truly amazing things. Over the course of our 12-week internship experience you will have the opportunity to: Work directly with a mentor in your field of study while finding solutions to real-world problems Strengthen and enhance enterprise CI/CD pipelines used by production software teams Collaborate with software engineers, QA, and DevOps teams Gain exposure to large-scale healthcare software platforms and engineering best practices Build a professional network through team and company-wide events Let's Talk About Responsibilities: As a Software Engineering Intern focused on CI/CD and Test Automation, you will work directly with experienced engineers and DevOps leaders to strengthen our continuous integration and deployment processes. Primary responsibilities include: Integrating automated testing into build and deployment pipelines Cleaning up, organizing, and refactoring existing integration and UI test suites Classifying tests into logical categories (unit, integration, UI, regression, etc.) Embedding automated tests into CI/CD pipeline stages so tests run automatically when related user stories are built Ensuring tighter synchronization between development and testing efforts Helping reduce feedback cycles and improve overall release quality The right candidate will have foundational knowledge of software development concepts and will rely on mentorship, documented standards, and established engineering practices to complete assigned tasks. This is a hybrid role based in Peachtree Corners, GA, with flexibility for remote participation in team meetings as needed. Employer will not sponsor applicants for employment visa status. Basic Qualifications (Required Skills / Experience) Ability to work full-time for 12 weeks during Summer 2025; program dates are May 18th – August 7th, 2026, OR June 15th – September 4th, 2026 Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, Information Systems, or a related field Familiarity with software development fundamentals (version control, build processes, basic testing concepts) Exposure to one or more programming languages such as C#, Java, Python, or JavaScript Preferred Qualifications (Desired Skills / Experience) Coursework or project experience with automated testing frameworks Familiarity with CI/CD tools such as Azure DevOps, GitHub Actions, or similar Understanding of integration testing, UI testing, and test automation concepts Strong critical thinking and problem-solving skills Excellent communication, collaboration, and organizational skills Interest in DevOps, automation, and improving software quality at scale Pay Range: Please note that the salary information shown below is a general guideline only. Salaries are based upon candidate experience and qualifications, as well as market and business considerations. We are shaping the future at ResMed, and we recognize the need to build on and broaden our existing skills and continue to attract and retain the world’s best talent. All Interns will be hired through our staffing provider partner and will not be a direct employee of ResMed, your Recruiter will provide more details. Individual pay decisions will be made by our staffing provider partner and are based on a variety of factors, such as the candidate’s geographic work location, relevant qualifications, work experience, and skills. Pay Range for this position: $23.25 - $42.75/hour, depending on experience &amp; job classification Equal Opportunity Employer ResMed is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law. #techintern Joining us is more than saying “yes” to making the world a healthier place. It’s discovering a career that’s challenging, supportive and inspiring. Where a culture driven by excellence helps you not only meet your goals, but also create new ones. We focus on creating a diverse and inclusive culture, encouraging individual expression in the workplace and thrive on the innovative ideas this generates. If this sounds like the workplace for you, apply now! We commit to respond to every applicant. Resmed (NYSE:RMD, ASX: RMD) creates life-changing health technologies that people love. We’re relentlessly committed to pioneering innovative technology to empower millions of people in more than 140 countries to live happier, healthier lives. Our AI-powered digital health solutions, cloud-connected devices and intelligent software make home healthcare more personalized, accessible and effective. Ultimately, Resmed envisions a world where every person can achieve their full potential through better sleep and breathing, with care delivered in their own home. Learn more about how we’re redefining sleep health at Resmed.com and follow @Resmed.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US Brightree Peachtree Corners (Corp Office)"
+}
+},
+"hiringOrganization" : {
+"name" : "111 ResMed SaaS Holdings Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Automation Intern",
+"@type" : "PropertyValue",
+"value" : "JR_047985"
+},
+"datePosted" : "2026-02-05",
+"employmentType" : "FULL_TIME",
+"title" : "Automation Intern",
+"description" : "As an intern at ResMed, you’ll gain hands-on experience, learn from experts, and collaborate with teams that do truly amazing things. Over the course of our 12-week internship experience you will have the opportunity to: Work directly with a mentor in your field of study while finding solutions to real-world problems Strengthen and enhance enterprise CI/CD pipelines used by production software teams Collaborate with software engineers, QA, and DevOps teams Gain exposure to large-scale healthcare software platforms and engineering best practices Build a professional network through team and company-wide events Let's Talk About Responsibilities: As a Software Engineering Intern focused on CI/CD and Test Automation, you will work directly with experienced engineers and DevOps leaders to strengthen our continuous integration and deployment processes. Primary responsibilities include: Integrating automated testing into build and deployment pipelines Cleaning up, organizing, and refactoring existing integration and UI test suites Classifying tests into logical categories (unit, integration, UI, regression, etc.) Embedding automated tests into CI/CD pipeline stages so tests run automatically when related user stories are built Ensuring tighter synchronization between development and testing efforts Helping reduce feedback cycles and improve overall release quality The right candidate will have foundational knowledge of software development concepts and will rely on mentorship, documented standards, and established engineering practices to complete assigned tasks. This is a hybrid role based in Peachtree Corners, GA, with flexibility for remote participation in team meetings as needed. Employer will not sponsor applicants for employment visa status. Basic Qualifications (Required Skills / Experience) Ability to work full-time for 12 weeks during Summer 2025; program dates are May 18th – August 7th, 2026, OR June 15th – September 4th, 2026 Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, Information Systems, or a related field Familiarity with software development fundamentals (version control, build processes, basic testing concepts) Exposure to one or more programming languages such as C#, Java, Python, or JavaScript Preferred Qualifications (Desired Skills / Experience) Coursework or project experience with automated testing frameworks Familiarity with CI/CD tools such as Azure DevOps, GitHub Actions, or similar Understanding of integration testing, UI testing, and test automation concepts Strong critical thinking and problem-solving skills Excellent communication, collaboration, and organizational skills Interest in DevOps, automation, and improving software quality at scale Pay Range: Please note that the salary information shown below is a general guideline only. Salaries are based upon candidate experience and qualifications, as well as market and business considerations. We are shaping the future at ResMed, and we recognize the need to build on and broaden our existing skills and continue to attract and retain the world’s best talent. All Interns will be hired through our staffing provider partner and will not be a direct employee of ResMed, your Recruiter will provide more details. Individual pay decisions will be made by our staffing provider partner and are based on a variety of factors, such as the candidate’s geographic work location, relevant qualifications, work experience, and skills. Pay Range for this position: $23.25 - $42.75/hour, depending on experience &amp; job classification Equal Opportunity Employer ResMed is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law. #techintern Joining us is more than saying “yes” to making the world a healthier place. It’s discovering a career that’s challenging, supportive and inspiring. Where a culture driven by excellence helps you not only meet your goals, but also create new ones. We focus on creating a diverse and inclusive culture, encouraging individual expression in the workplace and thrive on the innovative ideas this generates. If this sounds like the workplace for you, apply now! We commit to respond to every applicant. Resmed (NYSE:RMD, ASX: RMD) creates life-changing health technologies that people love. We’re relentlessly committed to pioneering innovative technology to empower millions of people in more than 140 countries to live happier, healthier lives. Our AI-powered digital health solutions, cloud-connected devices and intelligent software make home healthcare more personalized, accessible and effective. Ultimately, Resmed envisions a world where every person can achieve their full potential through better sleep and breathing, with care delivered in their own home. Learn more about how we’re redefining sleep health at Resmed.com and follow @Resmed.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "resmed",
+siteId: "ResMed_External_Careers",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","fr-FR","zh-CN"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=resmed&s=ResMed_External_Careers",
+token: "6b8a1de5-460d-4031-a042-a179ce484233",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"progressBar":{"color":"#0099DB"},"button":{"primary":{"color":"#0099DB","borderColor":"#0099DB","textColor":"#E6E6E7","hover":{"color":"#ED1B2F","borderColor":"#ED1B2F","textColor":"#E6E6E7"}},"secondary":{"color":"#9B9B9E","borderColor":"#9B9B9E","textColor":"#424243","hover":{"color":"#424243","borderColor":"#E6E6E7","textColor":"#E6E6E7"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"095705d398791001341a8acfc8b20000","altText":null}},"banner":{"borderColor":"#0099DB","textColor":"#424243","image":{"id":"095705d398791001341a8a3623a90000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

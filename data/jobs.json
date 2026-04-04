@@ -1,5 +1,31 @@
 [
   {
+    "company": "Resmed",
+    "role": "Automation Intern",
+    "link": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Atlanta-GA-United-States/Automation-Intern_JR_047985",
+    "location": "Norcross, GA",
+    "season": "2026 Summer",
+    "id": 4167,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Ability to work full-time for 12 weeks during Summer 2026",
+        "Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, Information Systems, or a related field",
+        "Familiarity with software development fundamentals",
+        "Exposure to programming languages like C#, Java, Python, or JavaScript",
+        "Experience with automated testing frameworks",
+        "Familiarity with CI/CD tools (Azure DevOps, GitHub Actions)",
+        "Understand integration, UI, and test automation concepts",
+        "Strong critical thinking and problem-solving skills",
+        "Excellent communication, collaboration, and organizational skills",
+        "Interest in DevOps, automation, and improving software quality"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Securitas",
     "role": "Intern AI & Automation",
     "link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/169188",
