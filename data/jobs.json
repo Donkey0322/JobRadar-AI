@@ -1,5 +1,26 @@
 [
   {
+    "company": "Motorola",
+    "role": "Software Engineering Intern",
+    "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-Engineering-Intern---Summer-2026_R63617",
+    "location": "Allen, TX",
+    "season": "2026 Summer",
+    "id": 4168,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in manual testing with Lab infrastructure experience.",
+        "Experienced in designing and developing both on-prem and cloud-based applications.",
+        "Passionate about shipping high-quality, secure software to security-conscious customers.",
+        "Currently pursuing a Bachelor's or Master's degree in Computer Science, Information Technology or an allied discipline.",
+        "Have a graduation date on or after December 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Resmed",
     "role": "Automation Intern",
     "link": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Atlanta-GA-United-States/Automation-Intern_JR_047985",
