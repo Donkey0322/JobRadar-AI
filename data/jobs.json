@@ -1,5 +1,39 @@
 [
   {
+    "company": "Securitas",
+    "role": "Intern AI & Automation",
+    "link": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/169188",
+    "location": "Parsippany-Troy Hills, NJ",
+    "season": "2026 Summer",
+    "id": 4166,
+    "jd": null
+  },
+  {
+    "company": "Bank of Montreal",
+    "role": "Intern System Support",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Intern-System-Support_R260010147",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4165,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in post-secondary degree or diploma in computer science or related information systems and technology field",
+        "Knowledge of SQL",
+        "Other programming skills",
+        "Experience with Dynamics and the Microsoft Power platform, W360 and/or Charles River",
+        "Excellent interpersonal skills, with a proven ability to work effectively with teams",
+        "Interested in investigating complex problems and making sense of information",
+        "Willing and capable of understanding new business processes and technology quickly",
+        "An excellent communicator",
+        "Able to thrive independently in a fast-paced environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Premier",
     "role": "Software Engineer Intern",
     "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008144",
