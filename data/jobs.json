@@ -1,5 +1,157 @@
 [
   {
+    "company": "Premier",
+    "role": "Software Engineer Intern",
+    "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008144",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 4164,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "High School Diploma or GED",
+        "Complete software development-aligned coursework",
+        "Experienced with web-based service architecture and application development",
+        "Proficient in Agile Development methodologies",
+        "Skilled in front-end UI development with JavaScript and React",
+        "Currently pursuing a bachelor’s or Master’s degree in Computer Science, Computer Engineering, or Software Engineering",
+        "Adaptive to change priorities quickly and meet deadlines",
+        "Possess attention to detail",
+        "Able to operate computer programs and software",
+        "Communicate effectively with audiences",
+        "Capable of making independent decisions",
+        "Work in a collaborative business environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Tonal",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/tonal/0b7e9f3c-7658-4fef-8273-c7f12957c6cb/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4163,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's degree in Engineering or related field.",
+        "Comfortable writing code in at least one programming language.",
+        "Highly resourceful and proactive in using AI tools.",
+        "Strong problem-solving ability.",
+        "Strong written and verbal communication skills.",
+        "Driven to learn new skills and be adaptable.",
+        "Passionate about health, fitness, or consumer hardware.",
+        "Thrive in a fast-paced environment.",
+        "Contribute to product roadmap execution.",
+        "Explore, prototype, and build automation solutions.",
+        "Collaborate with engineering and product teams.",
+        "Leverage AI for test creation, validation, and issue triaging.",
+        "Participate in team meetings and sprint ceremonies.",
+        "Prepare reports and presentations.",
+        "Communicate and collaborate daily with team members."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Genuine Parts Company",
+    "role": "Software Developer Intern",
+    "link": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/Software-Developer-Intern_R26_0000010973",
+    "location": "Birmingham, AL",
+    "season": "2026 Summer",
+    "id": 4162,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working on a BS degree in a computer-related field",
+        "Working knowledge of SQL",
+        "Working knowledge of Linux shell and Windows scripting",
+        "Working knowledge of software development languages (Java preferred)",
+        "Familiarity with cloud platforms and technologies (Google Cloud preferred)",
+        "Familiarity with DevSecOps processes and tools",
+        "High-level understanding of full lifecycle development",
+        "Ability to work within a team",
+        "Excellent communication skills (verbal and written)",
+        "Self-motivated and know when to seek guidance",
+        "Be a self-starter, capable of working independently and as part of a team",
+        "Capable of learning new tools and technologies",
+        "Strong problem-solving skills using a variety of methods"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Trane Technologies",
+    "role": "Developer Intern",
+    "link": "https://careers.tranetechnologies.com/global/en/job/92601996",
+    "location": "Winona, MN",
+    "season": "2026 Summer",
+    "id": 4161,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a performance-driven, innovative leader.",
+        "Understand the importance of collaboration and customer focus.",
+        "Ability to work full-time during the Summer.",
+        "Ability to work part-time during the school year.",
+        "Currently enrolled in a BS/BA in Software Development or Computer Science.",
+        "Maintain a cumulative overall GPA at or above 3.0.",
+        "Possess junior year status or completed relevant entry level courses.",
+        "Demonstrate enthusiasm for computer science.",
+        "Collaborate with others to foster effective teamwork.",
+        "Possess zeal for new information, knowledge, and experiences.",
+        "Solve problems independently.",
+        "Actively communicate when unable to solve problems.",
+        "Establish efficient courses of action for self and others.",
+        "Prioritize tasks based on importance.",
+        "Experience with prototyping new technology processes.",
+        "Ability to develop application enhancements.",
+        "Ability to analyze technology efficiency.",
+        "Experience researching new solutions.",
+        "Operate with object-oriented and web application languages.",
+        "Skilled in data analysis."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "TikTok",
+    "role": "Software Engineer Project Intern - Model Infrastructure",
+    "link": "https://lifeattiktok.com/search/7624284785283746053",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4160,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing an Undergraduate/Master in Software Development, Computer Science, or related technical discipline",
+        "Strong programming skills in C++ and Python",
+        "Solid understanding of Computer Architecture and the GPU software stack (CUDA, Triton, or NCCL)",
+        "Experience with deep learning frameworks (e.g., PyTorch, TensorFlow)",
+        "Desire to \"look under the hood\" of model execution runtimes",
+        "Strong interest in solving system-level bottlenecks in large-scale distributed environments",
+        "Experience with Transformer-based architectures and 3D parallelism (TP/PP/DP)",
+        "Deep understanding of the torch.compile stack, including TorchDynamo and TorchInductor",
+        "Hands-on experience writing high-performance kernels or optimizing collective communication",
+        "Familiarity with RDMA networking, high-performance storage, or specialized Parameter Server architectures",
+        "Success in programming competitions (ACM-ICPC)",
+        "Contribute to prominent open-source AI infrastructure or high-performance computing projects"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Gannett Fleming",
     "role": "Intern Application Development",
     "link": "https://careers-gannettfleming.icims.com/jobs/13833/job?mobile=true&needsRedirect=false",
