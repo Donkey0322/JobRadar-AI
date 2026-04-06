@@ -1,5 +1,139 @@
 [
   {
+    "company": "Preferred Risk Insurance Services",
+    "role": "Internship: Full Stack Developer (Java)",
+    "link": "https://priscorp.applicantpro.com/jobs/4042721",
+    "location": "Bedford Park, IL",
+    "season": "2026 Summer",
+    "id": 4173,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Support development of web applications using Java and JavaScript.",
+        "Learn about designing, developing, and implementing microservices architecture.",
+        "Collaborate with cross-functional teams to assist in designing and shipping new features.",
+        "Contribute to maintaining efficient, reusable, and reliable code.",
+        "Engage in problem-solving to identify, troubleshoot, and resolve bottlenecks and bugs.",
+        "Participate in code reviews and collaborative learning.",
+        "Work closely with mentors on UI/UX design implementations.",
+        "Support data storage solutions integration tasks.",
+        "Experience Agile development methodologies in a real-world setting.",
+        "Gain exposure to DevOps culture, including continuous integration and deployment processes.",
+        "Possess basic knowledge of Java and JavaScript.",
+        "Eager to learn about modern web frameworks and development practices.",
+        "Interested in DevOps tools and practices.",
+        "Familiar with relational databases.",
+        "Curious about Agile development methodologies.",
+        "Pursue a Bachelor's degree in Computer Science, Engineering, or a related field."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Preferred Risk Insurance Services",
+    "role": "Internship: Full Stack Developer (C# .Net Core and React)",
+    "link": "https://priscorp.applicantpro.com/jobs/4042878",
+    "location": "Bedford Park, IL",
+    "season": "2026 Summer",
+    "id": 4172,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist developing web applications using C# (.NET) and React.",
+        "Support design and implementation of APIs and backend services.",
+        "Collaborate to build and enhance application features.",
+        "Write clean, maintainable, and well-documented code.",
+        "Help troubleshoot issues, fix bugs, and improve application performance.",
+        "Participate in code reviews and team discussions.",
+        "Contribute to UI/UX implementation and front-end improvements.",
+        "Work with databases and data integration tasks.",
+        "Gain exposure to Agile development practices.",
+        "Learn and support CI/CD and deployment processes.",
+        "Leverage modern development tools, including AI-assisted tools.",
+        "Basic understanding of C#/.NET and/or JavaScript.",
+        "Familiar with web development fundamentals.",
+        "Understand object-oriented programming concepts.",
+        "Exposure to relational databases (SQL).",
+        "Interested in learning modern software development practices.",
+        "Familiar with Git or version control systems.",
+        "Strong problem-solving skills.",
+        "Good communication and teamwork skills.",
+        "Currently pursuing a Bachelor's degree in a related field.",
+        "Exposure to cloud platforms (e.g., Azure).",
+        "Familiar with Agile/Scrum methodologies.",
+        "Experienced with API tools (Postman, Swagger).",
+        "Understand agentic AI-driven development workflows and tools."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "AllTrails",
+    "role": "Android Engineer Intern, Disco",
+    "link": "https://jobs.lever.co/alltrails/f934fba7-5159-4dab-a6ff-8cbda90579dd",
+    "location": "Remote in US",
+    "season": "2026 Summer",
+    "id": 4171,
+    "jd": null
+  },
+  {
+    "company": "AllTrails",
+    "role": "Android Engineer Intern, Core",
+    "link": "https://jobs.lever.co/alltrails/431d989a-3c29-4a15-a869-fc0a2e3f6043",
+    "location": "Remote in US",
+    "season": "2026 Summer",
+    "id": 4170,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited Undergraduate degree program.",
+        "Be a second or third-year Bachelor student.",
+        "Graduate between December 2027 and June 2029.",
+        "Demonstrate internship alignment with field of study or career goals.",
+        "Pursue a degree in Computer Science, Mathematics, Software Engineering, or a related field.",
+        "Possess a solid understanding of the command line.",
+        "Proficient in Kotlin, Java, Scala, or Swift.",
+        "Have prior experience with SQL.",
+        "Familiar with software engineering fundamentals."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cartesian",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201825009",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 4169,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Write clean, effective code",
+        "Default to simple, maintainable solutions",
+        "Possess good instincts for complexity",
+        "Take problems end-to-end",
+        "Pragmatically fix issues",
+        "Feel responsible for the broader system",
+        "Tackle unfamiliar problems across the stack",
+        "Pick up new tools, domains, and skills quickly",
+        "Actively seek and use feedback",
+        "Prioritize team success",
+        "Be a good listener, collaborator, and communicator",
+        "Have a low ego and high standards"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Motorola",
     "role": "Software Engineering Intern",
     "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-Engineering-Intern---Summer-2026_R63617",

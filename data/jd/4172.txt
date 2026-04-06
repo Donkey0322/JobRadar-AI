@@ -1,0 +1,618 @@
+{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Internship: Full Stack Developer (C# .Net Core and React)","url":"https:\/\/priscorp.applicantpro.com\/jobs\/4042878.html","description":"<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Internship: Full Stack Developer (C# .Net Core and React) - Begin Your Career at Preferred Risk Insurance Services!<\/strong><\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Location:<\/strong> Bedford Park, IL<\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>About Preferred Risk Insurance Services:<\/strong> We leverage technology and innovation to stay at the forefront of the insurance industry. We're offering an internship for a Full Stack Developer Intern skilled in C# .Net Core and React. This role provides an opportunity to contribute to the front-end and back-end development of our progressive insurance applications, under guidance and mentorship.<\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Duties &amp; Responsibilities:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Assist in developing web applications using C# (.NET) and React.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Support the design and implementation of APIs and backend services.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Collaborate with team members to build and enhance application features.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Write clean, maintainable, and well-documented code with guidance from senior engineers.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Help troubleshoot issues, fix bugs, and improve application performance.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Participate in code reviews and team discussions to learn best practices.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Contribute to UI\/UX implementation and front-end improvements.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Work with databases and data integration tasks.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Gain exposure to Agile development practices in a team environment.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Learn and support CI\/CD and deployment processes.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Leverage modern development tools, including AI-assisted and agent-based coding tools, to enhance productivity and development workflows<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Knowledge, Skills, and Abilities:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Basic understanding of C#\/.NET and\/or JavaScript (React preferred).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with web development fundamentals (HTML, CSS, REST APIs).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Understanding of object-oriented programming concepts.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Exposure to relational databases (SQL) is a plus.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Interest in learning modern software development practices, including AI-assisted development workflows.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with Git or version control systems.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Strong problem-solving skills and willingness to learn.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Good communication and teamwork skills.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Currently pursuing a Bachelor's degree in Computer Science, Engineering, or related field.<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Preferred:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Exposure to cloud platforms (e.g., Azure).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with Agile\/Scrum methodologies.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Experience with API tools (Postman, Swagger).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Understanding of agentic AI-driven development workflows and tools is a strong plus (e.g., multi-step code generation, task automation, or AI-assisted engineering workflows).<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Why Join Us?<\/strong> As an intern at Preferred Risk Insurance Services, you'll be part of a team that values innovation, excellence, and the unique contributions of all its members. You'll gain practical experience, mentorship, and opportunities to grow in a dynamic company environment.<\/span><\/p>\n<br \/>","identifier":{"@type":"PropertyValue","name":"Preferred Risk Insurance","sameAs":"4042878"},"datePosted":"2026-04-02 00:00:00","validThrough":"2031-04-02 00:00:00T23:59","employmentType":"TEMPORARY","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","unitText":"HOUR","minValue":"16","maxValue":"20"}},"hiringOrganization":{"@type":"Organization","name":"Preferred Risk Insurance","sameAs":"https:\/\/priscorp.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"","addressLocality":"Bedford Park","addressRegion":"IL","postalCode":"60638","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":"41.76417230000000","longitude":"-87.78125239999997"}}}
+import { initVue } from '/js/web-components/applicant-pro-components.js?version=1775486678';
+window.initVue = initVue;
+// Helper sleep method
+const sleep = (milliseconds) => {
+return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+// Our component loader function which waits until our `module` files have been loaded
+window.bootstrapVue = async function(mountSelector, componentsToLoad, mountingData) {
+const csrfToken = "";
+const isMobile = 0;
+// Default value for the mounting data if none was given
+mountingData = mountingData || {};
+// Add the csrf token to every component's mountingData
+mountingData.csrfToken = csrfToken;
+mountingData.isMobile = isMobile;
+if(typeof mountingData.courierCurrentRouteData === 'undefined') {
+mountingData.courierCurrentRouteData = {"domain_id":"7949","career_site_name":"Preferred Risk Insurance","root_domain_title":"isolved Talent Acquisition","root_domain_id":"4","organization_id":"5857","organization_name":"Warrior Invictus","user_id":0,"use_autocomplete":"1","csrfToken":""};
+}
+// Wait until the initVue exists
+while (!window.initVue) {
+await sleep(50);
+}
+return await initVue(mountSelector, componentsToLoad, mountingData, {"primary":"#007b9d","secondary":"#e6e6e6","accent":"#b1b1b1"});
+}
+window.bootstrapVue('#toaster', [ 'WaveToaster' ]);
+Internship: Full Stack Developer (C# .Net Core and React) - Bedford Park, IL - Preferred Risk Insurance Jobs
+$(function() {
+$('input,textarea').placeholder();
+A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+V.init();
+A.useN = true;
+A.newValidation = true;
+A.isMobile = 0;
+});
+html {
+font-size: 62.5%;
+}
+.panel-default {
+border-color: #ddd;
+}
+.panel {
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid transparent;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.panel-body {
+padding: 15px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+#apply_container {
+padding: 0 15px 0 5px;
+}
+#apply_container #apply_button {
+font-size:1.2em;
+padding: 1rem 0;
+}
+#job_piper_alerts_widget {
+margin-top: 10px;
+}
+#job_piper_alerts_widget h3 {
+margin-top: .5rem;
+}
+#job_piper_alerts_widget .refer-first-pane-btn {
+font-size: 1.2em;
+}
+.fade.show, .show {
+opacity: 1;
+}
+function breakout() {
+var request_uri = "/jobs/4042878";
+if(request_uri.includes('?') && V.checkRequestUri(request_uri) > 0) {
+// removed xss from url parameter and refresh the page
+var new_uri = request_uri . split('?')[0];
+window.top.location="https://priscorp.applicantpro.com" + new_uri;
+} else {
+if(window.top != window.self) {
+window.top.location="https://priscorp.applicantpro.com//jobs/4042878";
+}
+}
+}
+JobsLogin
+#mobile_menus .list-group-item {
+border-color: #e2e2e2;
+}
+.navbar-nav {
+flex-direction: row;
+}
+ul#menuLinks li + li {
+border: none;
+}
+.navbar-right {
+float: right;
+margin-right: 0;
+}
+.list-group {
+padding-left: 0;
+margin-bottom: 20px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+#mainArea {
+margin-top: 0px;
+}
+ul#menuLinks li {
+padding: 10px 0px;
+}
+}
+@media (min-width: 767px) and (max-width: 991px) {
+.container {
+max-width: 90%!important;
+min-width: auto!important;
+}
+}
+.extra-padding-top {
+margin: 20px;
+}
+.text-left table, .text-left iframe, .text-left img {
+max-width : 100%!important;
+}
+$(function() {
+$('#email_me_job').on('click', function() {
+Analytics.addAction('email_me_job_button', { listing_id : 4042878 });
+});
+$('#download_job_description').on('click', function() {
+// TODO - Download the full job description file
+});
+Analytics.addParams({ listing_id : '4042878' });
+});
+{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Internship: Full Stack Developer (C# .Net Core and React)","url":"https:\/\/priscorp.applicantpro.com\/jobs\/4042878.html","description":"<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Internship: Full Stack Developer (C# .Net Core and React) - Begin Your Career at Preferred Risk Insurance Services!<\/strong><\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Location:<\/strong> Bedford Park, IL<\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>About Preferred Risk Insurance Services:<\/strong> We leverage technology and innovation to stay at the forefront of the insurance industry. We're offering an internship for a Full Stack Developer Intern skilled in C# .Net Core and React. This role provides an opportunity to contribute to the front-end and back-end development of our progressive insurance applications, under guidance and mentorship.<\/span><\/p>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Duties &amp; Responsibilities:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Assist in developing web applications using C# (.NET) and React.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Support the design and implementation of APIs and backend services.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Collaborate with team members to build and enhance application features.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Write clean, maintainable, and well-documented code with guidance from senior engineers.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Help troubleshoot issues, fix bugs, and improve application performance.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Participate in code reviews and team discussions to learn best practices.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Contribute to UI\/UX implementation and front-end improvements.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Work with databases and data integration tasks.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Gain exposure to Agile development practices in a team environment.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Learn and support CI\/CD and deployment processes.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Leverage modern development tools, including AI-assisted and agent-based coding tools, to enhance productivity and development workflows<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Knowledge, Skills, and Abilities:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Basic understanding of C#\/.NET and\/or JavaScript (React preferred).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with web development fundamentals (HTML, CSS, REST APIs).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Understanding of object-oriented programming concepts.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Exposure to relational databases (SQL) is a plus.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Interest in learning modern software development practices, including AI-assisted development workflows.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with Git or version control systems.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Strong problem-solving skills and willingness to learn.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Good communication and teamwork skills.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Currently pursuing a Bachelor's degree in Computer Science, Engineering, or related field.<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Preferred:<\/strong><\/span><\/p>\n<ul>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Exposure to cloud platforms (e.g., Azure).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Familiarity with Agile\/Scrum methodologies.<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Experience with API tools (Postman, Swagger).<\/span><\/li>\n<li><span style=\"color:#000000;font-family:'times new roman', times, serif;\">Understanding of agentic AI-driven development workflows and tools is a strong plus (e.g., multi-step code generation, task automation, or AI-assisted engineering workflows).<\/span><\/li>\n<\/ul>\n<p style=\"line-height:normal;\"><span style=\"font-family:'times new roman', times, serif;\"><strong>Why Join Us?<\/strong> As an intern at Preferred Risk Insurance Services, you'll be part of a team that values innovation, excellence, and the unique contributions of all its members. You'll gain practical experience, mentorship, and opportunities to grow in a dynamic company environment.<\/span><\/p>\n<br \/>","identifier":{"@type":"PropertyValue","name":"Preferred Risk Insurance","sameAs":"4042878"},"datePosted":"2026-04-02 00:00:00","validThrough":"2031-04-02 00:00:00T23:59","employmentType":"TEMPORARY","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","unitText":"HOUR","minValue":"16","maxValue":"20"}},"hiringOrganization":{"@type":"Organization","name":"Preferred Risk Insurance","sameAs":"https:\/\/priscorp.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"","addressLocality":"Bedford Park","addressRegion":"IL","postalCode":"60638","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":"41.76417230000000","longitude":"-87.78125239999997"}}}
+$(function() {
+window.bootstrapVue(
+"#job_detail",
+[ 'JobDetail' ],
+{ componentData: { token : "", organizationId : 5857, domainId : 7949, domainTitle : "Preferred Risk Insurance", jobListingId : 4042878, jobInfo : {"mdiCalendar":"Posted 02-Apr-2026 (EST)","mdiMapMarker":"Bedford Park, IL, USA","mdiDollar":"16-20 per hour *Published ranges are estimates. Offered compensation will be based on experience, skills, education, certifications, and geographic location.","mdiBulletList":"Hourly","mdiInbox":"Seasonal"}, showEmailMeSimilarJobs : 1, mailToUrl : "mailto:?subject=Internship%3A%20%20Full%20Stack%20Developer%20%28C%23%20.Net%20Core%20and%20React%29%20at%20Preferred%20Risk%20Insurance&body=Apply%20for%20the%20Internship%3A%20%20Full%20Stack%20Developer%20%28C%23%20.Net%20Core%20and%20React%29%20at%20Preferred%20Risk%20Insurance%20using%20the%20link%20below.%0A%0Ahttps%3A%2F%2Fwww.applicantpro.com%2Fopenings%2Fpriscorp%2Fjobs%2F4042878", siteCss : {"accent":"#150248"}, useChatToApplyFlag : false, airaEnabled : false, }}
+);
+});
+$(function() {
+A.setTempName('apply');
+A.setTempDir('/jobs/');
+A.getJson('getCsrfToken', '', function(result) {
+if(result && Reflect.has(result, 'token')) {
+$('input[name="csrf_token"]').val(result.token);
+A.attachPostParam('csrf_token', result.token);
+}
+});
+$('#job_piper_alerts_widget').show();
+// Hide job piper to reduce confusion
+$('#contact_number').on('keyup', function() {
+$('#job_piper_alerts_widget').fadeOut(200);
+});
+$('#apply').on('submit', function () {
+var $t = $(this), formIsValid = V.form('apply'), appData;
+if(formIsValid) {
+appData = AS.get('applicationInfo') || {};
+appData.job_listing_id = '4042878';
+appData.ad_version_id = '';
+appData.i = '0';
+appData.first_name = $('#first_name').val();
+appData.last_name = $('#last_name').val();
+appData.email = $('#email').val();
+appData.contact_number = $('#contact_number').val();
+appData.contact_number_type = $('#contact_number_type').val();
+appData.text_approval = $('#text_approval').val();
+appData.applicant_consent_approval = $('#applicant_consent_approval').val();
+appData.info_use_consent = $('#info_use_consent').val();
+if(!$('#info_use_consent').prop('checked')) {
+V.field($('#info_use_consent'));
+V.addError("Please indicate that you have read and agree to the Applicant Information Use & Privacy Policy");
+return false;
+}
+AS.set('applicationInfo', appData, 2700);
+$('#apply_container').animate({ opacity: 0 }, 200);
+A.setTempName('apply');
+A.setTempDir('/jobs/');
+A.skipNotify = true;
+A.getHTMLAsPost('initialForm', 'apply', '', function(result) {
+if(result) {
+$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+// Hide job piper to reduce confusion
+$('#job_piper_alerts_widget').fadeOut(200);
+}
+});
+}
+return false;
+});
+$('#contact_number_type').on('change', function () {
+if (this.value == 2) {
+$('#text_approval_div').show();
+$('#text_approval').attr('disabled', false);
+} else {
+$('#text_approval_div').hide();
+$('#text_approval').attr('disabled', true);
+}
+});
+if('') {
+var appData = AS.get('applicationInfo');
+} else {
+var appData = null;
+}
+if(typeof(appData) != 'undefined') {
+for(var i in appData) {
+// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+$('#' + i).val(appData[i]);
+}
+}
+$('#applicant_consent_approval').on('change', function() {
+var $t = $(this), hasPhoneCallOption = $('#text_approval option[value="2"]').length, isPhoneCallSelected = $('#text_approval option[value="2"]:selected').length;
+if($t.val() === "1") {
+$('#text_approval option[value="1"]').prop('disabled', false);
+} else {
+$('#text_approval option[value="1"]').prop('disabled', true);
+if(hasPhoneCallOption && isPhoneCallSelected) {
+$('#text_approval option[value="2"]').prop('selected', true);
+} else {
+$('#text_approval option[value="0"]').prop('selected', true);
+}
+}
+});
+$('#info_use_consent').on('change', function() {
+if(!$('#info_use_consent').prop('checked')) {
+V.addError("Please indicate that you have read and agree to the Applicant Information Use & Privacy Policy");
+} else {
+V.removeError("Please indicate that you have read and agree to the Applicant Information Use & Privacy Policy");
+}
+});
+$('#seek_button').on('click', function() {
+authSocSeek();
+});
+setContactInfoFields();
+// Track form abandonment
+if((Reflect.has(window, 'ga')))
+ga('send', 'event', 'apply-now-view-form', 'apply-step-1-viewed', 'Apply Step 1 - Viewed', 1);
+$('#apply').trackEngagement({
+trackFilledOutFormFields : true,
+abandonmentCategory: 'apply-now-abandonment',
+abandonmentAction: 'apply-step-1-abandonedForm',
+abandonedLabel: 'Apply Step 1 - Left form unchanged',
+notAbandonedLabel : 'Apply Step 1 - Filled out form',
+submitCategory: 'apply-now-submit',
+submitAction: 'apply-now-1-submitted'
+});
+const script = document.createElement('script');
+script.async = true;
+script.src = 'https://integration.seek.com/panels/SeekApi.js';
+script.type = 'text/javascript';
+document.body.appendChild(script);
+window.SEEK_PANEL_DEBUG = true
+// Auto-fill form if seek-prefill-id is present
+});
+$(function() {
+$('#email').on('input blur', function() {
+$t = $(this);
+typeDelay(function() {
+$t.val(Txt.clean($t.val(), { stripHtml : true }).replace(/(mailto\:|')+/ig, ''));
+}, 500);
+});
+}
+);
+window.funID = '7949';
+function getParameterByName(name, url) {
+if (!url) url = window.location.href;
+name = name.replace(/[\[\]]/g, "\\$&");
+var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+results = regex.exec(url);
+if (!results) return null;
+if (!results[2]) return '';
+return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+function setContactInfoFields() {
+var fname = getParameterByName("fname");
+var lname = getParameterByName("lname");
+var email = getParameterByName("email");
+var phone = getParameterByName("phone");
+if(fname)
+$('#first_name').val(fname);
+if(lname)
+$('#last_name').val(lname);
+if(email)
+$('#email').val(email);
+if(phone)
+$('#contact_number').val(phone);
+}
+/**
+* Seek V2 Process
+*
+*/
+async function getSeekButton(seek_token = '') {
+const applicationUri = window.location.href;
+let postBody = {
+domainId: 7949,
+input: {
+applicationUri,
+}
+};
+if(seek_token !== '') {
+postBody.input.seek_token = seek_token;
+}
+const request = await fetch('/core/api/seek-get-redirect-button', {
+method: 'POST',
+headers: {
+'Content-Type': 'application/json'
+},
+body: JSON.stringify(postBody)
+});
+if (!request.ok) {
+return;
+}
+const { data } = await request.json();
+// Check if we have the applyWithSeekButton data
+if (data && data.url && data.buttonLabel && data.images && data.images.accent) {
+// Find the existing SEEK button container and replace it
+const seekButtonContainer = document.querySelector('#seek_v2_button');
+if (seekButtonContainer) {
+// Create the new button HTML
+const newSeekButton = document.createElement('a');
+newSeekButton.href = data.url;
+newSeekButton.setAttribute('aria-roledescription', 'link');
+const buttonImage = document.createElement('img');
+buttonImage.setAttribute('aria-roledescription', 'link');
+buttonImage.alt = data.buttonLabel;
+buttonImage.src = data.images.accent;
+buttonImage.style.width = '100%';
+buttonImage.style.height = 'auto';
+newSeekButton.appendChild(buttonImage);
+// Replace the existing button with the new one
+seekButtonContainer.parentNode.replaceChild(newSeekButton, seekButtonContainer);
+}
+}
+}
+async function fillSeekProfile(seek_prefill_id, seek_token) {
+if (!seek_prefill_id) {
+return;
+}
+const request = await fetch('/core/api/prefill-with-seek', {
+method: 'POST',
+headers: {
+'Content-Type': 'application/json'
+},
+body: JSON.stringify({
+seek_prefill_id,
+seek_token
+})
+});
+if (!request.ok) {
+return;
+}
+const { data } = await request.json();
+// Check if data is not empty
+if (!data || Object.keys(data).length === 0) {
+return;
+}
+// Generate unique token and get existing application data
+var unique_token = A.generateUniqueID();
+var appData = AS.get('applicationInfo') || {};
+// Store the SEEK data and metadata
+appData.seek_prefill_id = seek_prefill_id;
+appData.seek_token = seek_token;
+appData.seek_unique_token = unique_token;
+appData.seek_full_profile = data;
+const userData = data.user || {};
+if("first_name" in userData) {
+// appData.first_name = userData.firstName;
+$('#first_name').val(userData.first_name);
+}
+if("last_name" in userData) {
+// appData.last_name = userData.lastName;
+$('#last_name').val(userData.last_name);
+}
+if("email" in userData) {
+// appData.email = userData.emailAddress;
+$('#email').val(userData.email);
+}
+if("contact_number" in userData) {
+// appData.contact_number = userData.phoneNumber;
+$('#contact_number').val(userData.contact_number);
+}
+if("contact_number_type" in userData) {
+// appData.contact_number_type = userData.phoneNumberType;
+$('#contact_number_type').val(userData.contact_number_type);
+}
+// Mark this as a SEEK submission
+window.isSeekSubmit = true;
+$('#is_seek_application').val(1);
+// Store the application data
+AS.set('applicationInfo', appData, 2700);
+// Auto-submit the form
+$('#apply').submit();
+}
+Apply Now
+<p class="text-danger">You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click <a href="/help/" title="Help Area">here</a> for assistance.</p>
+.seek-apply-btn {
+display: block;
+width: 100%;
+height: 45px;
+line-height: 45px;
+background: #e60278;
+color: #fff;
+border-radius: 4px;
+box-shadow: 0 1px 2px 0 rgba(64,64,64,0.5);
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+font-family: Helvetica, Arial;
+}
+.seek-apply-btn:hover {
+background: #fd0585;
+box-shadow: 0 1px 2px 0 rgba(64,64,64,0.4);
+text-decoration: none;
+}
+.seek-apply-btn:active {
+background: #cd026b;
+box-shadow: 0 1px 2px 0 rgba(64,64,64,0.7);
+}
+.seek-apply-btn__image {
+display: inline-block;
+height: 30px;
+width: 75px;
+margin: -1px 0 0 9px;
+vertical-align: middle;
+background: url(/images/seek-apply-with-logo.svg) no-repeat;
+background-size: 100% 100%;
+}
+* Fields Are Required
+What is your full name?
+First Name
+Last Name
+How can we contact you?
+Email
+Phone Number
+Number Type
+Home
+Cell
+Work
+What is your preferred method of communication?
+Email
+Text Message
+Please indicate if you agree to isolved Talent Acquisition's Applicant Communication Policy.
+Yes, I agree to be contacted by text messages
+No, I do not agree to receive text messages
+I agree to isolved Talent Acquisition's Privacy Policy and Terms of Service.*
+Apply for this Position
+Apply for this Position
+Sign Up For Job Alerts!
+$(function() {
+var sidebar_options = {
+api_key: "77256f6a_apppro_priscorp",
+style: "sidebar",
+title: "Internship: Full Stack Developer (C# .Net Core and React)",
+source: "4_job"
+};
+referWidget("create", sidebar_options, "refer-widget");
+});
+Resources
+Job Opportunities
+Hiring Software Maintained by isolved Talent Acquisition - © 2026
+Refresh
+body {
+margin-bottom: 60px !important;
+}
+var faqButtons = [{"page":"instructions","link":"https:\/\/applicantsupport.crunch.help"},{"page":"resume","link":"https:\/\/applicantsupport.crunch.help\/example-category#resume-q-a"},{"page":"additional_questions","link":"https:\/\/applicantsupport.crunch.help\/example-category#additional-job-questions-q-a"},{"page":"screening","link":"https:\/\/applicantsupport.crunch.help\/example-category#additional-job-questions-q-a"},{"page":"employment","link":"https:\/\/applicantsupport.crunch.help\/example-category#employment-history-q-a"},{"page":"education","link":"https:\/\/applicantsupport.crunch.help\/example-category#education-q-a"},{"page":"references","link":"https:\/\/applicantsupport.crunch.help\/example-category#references-q-a"},{"page":"eeoc","link":"https:\/\/applicantsupport.crunch.help"},{"page":"disclosure","link":"https:\/\/applicantsupport.crunch.help"},{"page":"source","link":"https:\/\/applicantsupport.crunch.help\/example-category#source-q-a"},{"page":"submit","link":"https:\/\/applicantsupport.crunch.help\/example-category#submit-application-q-a","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/applicantsupport.crunch.help\/general-questions#general-q-a","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/applicantsupport.crunch.help\/my-account#my-account-q-a","label":"Common Account Questions"},{"page":"login","link":"https:\/\/applicantsupport.crunch.help\/my-account#login-q-a","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/applicantsupport.crunch.help\/example-category#job-description-q-a","label":"Common Job Questions"}];
+$(function() {
+$('#faq_bar_form').on('submit', function() {
+var value = $('#faq_bar_searchCriteria').val();
+if(value) {
+A.setTempName('support');
+A.setTempDir('/jobs/');
+A.set('recordSearch', { from_page_url : window.location.href, keyword : value, csrf_token : $("input[name=csrf_token]").val() });
+var newWindow = window.open("https://applicantsupport.crunch.help/search?searchQuery=" + encodeURIComponent(value), "_blank");
+} else
+N.addError("Please enter a search term to search our FAQs");
+return false;
+});
+$('#common_faq_button').on('click', function() {
+var newWindow = window.open($(this).data('link'), "_blank");
+});
+var path = window.location.pathname, name;
+switch(true) {
+case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+name = 'login';
+break;
+case path.indexOf('/account/') != -1:
+name = 'my_account';
+break;
+case path.indexOf('/jobs/') != -1:
+case path.indexOf('/internaljobs/') != -1:
+name = 'listing_info';
+break;
+case path.indexOf('/apply/') != -1:
+name = '';
+break;
+}
+changeCommonQuestionsText(name);
+});
+function changeCommonQuestionsText(name) {
+var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+for(var i in faqButtons) {
+if(faqButtons[i]['page'] == name) {
+$button.show();
+label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+$button.text(label);
+$button.data('link', faqButtons[i]['link']);
+found = true;
+break;
+}
+}
+if(!found)
+$button.hide();
+}
+Search the FAQ here
+Go
+Common Questions
+!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-1QL0HHW9LT');
+var exit_survey_enabled = '0';
+var fired = '0';
+var thanks = '0'
+$(function() {
+$('#leaving').on('change', function() {
+if($(this).val() != 0)
+$('#notice').css('display', 'block');
+else
+$('#notice').css('display', 'none');
+if( $(this).val() == 'Other' )
+$('#reason').css('display', 'block');
+else
+$('#reason').css('display', 'none');
+});
+});
+if(exit_survey_enabled != 0) {
+$('#left').on('click', function() {
+var answer = $('#leaving').val();
+if(answer != 0) {
+var domain_id = '7949';
+var job = '4042878';
+var app = '';
+if(answer == 'Other') {
+if( $('#reason').val() != '' ) {
+answer = $('#reason').val();
+} else {
+answer = 'Other (Non Specified)';
+}
+}
+$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+$('#ouibounce-modal').hide();
+$('#ouibounce-referio-modal').css('display', 'block');
+}
+});
+}
+// if you want to use the 'fire' or 'disable' fn,
+// you need to save OuiBounce to an object
+if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+var modal = '';
+$('html').on( 'mouseleave', function() {
+if(fired == 0) {
+fired = 1;
+modal = ouibounce(document.getElementById('ouibounce-modal'), {
+aggressive: false,
+timer: 0,
+callback: function() {
+$('#top-nav').css('z-index', '0');
+$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'});
+if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+modal.disable();
+}
+});
+modal.fire();
+}
+});
+setInterval( function() {
+$('select').click(
+function(e) {
+e = e || window.event;
+e.stopPropagation();
+if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+modal.disable();
+}
+);
+$('select').mouseleave(
+function(e) {
+e = e || window.event;
+e.stopPropagation();
+if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+modal.disable();
+}
+);
+}, 1000);
+$('body').on('click', function() {
+$('#ouibounce-modal').hide();
+$('#ouibounce-referio-modal').hide();
+});
+$('#ouibounce-modal .modal').on('click', function(e) {
+e.stopPropagation();
+});
+$('#ouibounce-referio-modal .modal').on('click', function(e) {
+e.stopPropagation();
+});
+$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+$('#ouibounce-referio-modal').hide();
+});
+}
+$(function() {
+Analytics.addAction();
+});
+$(function() {
+$('select').attr('role', 'combobox');
+$('.dropdown').attr('role', 'combobox');
+});
