@@ -1,5 +1,410 @@
 [
   {
+    "company": "CACI",
+    "role": "Computer Science Intern/Co-op",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Computer-Science-Co-op-Intern---Fall-2026_324263",
+    "location": "Danbury, CT",
+    "season": "2026 Fall",
+    "id": 4205,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop moderate-sized desktop applications in a Windows environment using a C-based language.",
+        "Utilize MatLab, Mathematica, Python, or equivalent mathematical modeling tools.",
+        "Pursue a bachelor’s degree in computer science, engineering, mathematics, physics, or a related field as a sophomore or above.",
+        "Possess a strong mathematics background, including calculus and linear algebra."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Aledade",
+    "role": "Intern - AI Researcher 🎓",
+    "link": "https://jobs.lever.co/aledade/78c0450d-60f4-4260-b60d-3ea4120377eb/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4204,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be legally eligible to work in the United States",
+        "Be available for a full-time (40 hrs/week) internship, Monday-Friday",
+        "Be available from June 1st, 2026 to August 7th, 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intapp",
+    "role": "Software Engineer Intern",
+    "link": "https://intapp.wd1.myworkdayjobs.com/Intapp/job/Charlotte-NC/Software-Engineer-Intern_R2024898-1",
+    "location": "Charlotte, NC",
+    "season": "2026 Summer",
+    "id": 4203,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a 4-year technical degree as a Junior or Senior.",
+        "Achieve high academic performance in Computer Science.",
+        "Gain experience with modern programming languages.",
+        "Demonstrate commitment to teamwork and strong communication.",
+        "Be excited to solve technical problems.",
+        "Possess C#, .Net, Angular, Java, or Python development experience.",
+        "Experience SQL Server or Postgres.",
+        "Thrive in an energizing environment.",
+        "Exhibit a bias towards finding solutions.",
+        "Be detail-oriented and organized.",
+        "Live within commuting distance of Charlotte, NC."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Rackner",
+    "role": "Rackner AI Innovation Fellowship – Startup Accelerator Intern",
+    "link": "https://job-boards.greenhouse.io/rackner/jobs/4681781005",
+    "location": "Hyattsville, MD",
+    "season": "2026 Summer",
+    "id": 4202,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Reside in a HUBZone",
+        "Participate in a hybrid model",
+        "Currently enrolled student or recent graduate in a relevant field",
+        "Possess background in Computer Science, Software Engineering, Data Science, or Business",
+        "Strong software development experience",
+        "Experience with programming languages such as Python, JavaScript, or Java",
+        "Familiar with AI/ML tools (TensorFlow, PyTorch, HuggingFace)",
+        "Knowledge of cloud platforms (AWS, Azure, GCP)",
+        "Understand APIs, microservices, or distributed systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fidelity Investments",
+    "role": "Co-op – Software Engineer",
+    "link": "https://fmr.wd1.myworkdayjobs.com/targeted/job/Boston-MA/Co-op--Software-Engineer_2127396",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4201,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Interested in future digital experiences.",
+        "Interested in emerging technologies like VR, Generative and Agentic AI.",
+        "Comfortable with ambiguity, inquisitive, and eager to learn.",
+        "Possess problem-solving skills and critical thinking.",
+        "Passionate about human-centric design.",
+        "Able to work collaboratively in a team.",
+        "Possess strong interpersonal and communication skills.",
+        "Demonstrate excellent presentation and facilitation skills.",
+        "Currently enrolled in Computer Science, Engineering, Information Systems, or related field.",
+        "Experienced in Production Support and analysis.",
+        "Confirmed skills in root cause analysis.",
+        "Familiar with Game Engines (Unity, Unreal) and WebXR.",
+        "Experienced with macOS and Windows operating systems.",
+        "Experienced with JavaScript, Python, C#, iOS, and Android development.",
+        "Able to rapidly pick up new concepts and programming libraries.",
+        "Knowledgeable in web services (JSON, XML, REST, SOAP).",
+        "Possess technical design and analysis skills.",
+        "Participate in design and code reviews.",
+        "Demonstrate strong written and verbal communication.",
+        "Collaborate with technical partners and development teams.",
+        "Comfortable with Adobe Creative Suite and Figma.",
+        "Participated in extracurricular clubs.",
+        "Possess one previous co-op experience."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "RA Capital Management",
+    "role": "AI Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/5177331008",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4200,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Master\nasters or Bachelor\nasters degree in Computer Science, Machine Learning, Data Science, or related field",
+        "Have coursework or project experience in AI/ML",
+        "Possess prior internship or meaningful project experience in software engineering",
+        "Gain exposure to healthcare and/or finance domains",
+        "Demonstrate strong Python programming skills",
+        "Familiarity with JavaScript and/or Java",
+        "Understand machine learning fundamentals",
+        "Experience with at least one deep learning framework",
+        "Familiarity with cloud platforms",
+        "Comfort with Git, containerization basics, and command-line workflows",
+        "Interest in or experience with agentic coding tools and AI workflow frameworks",
+        "Experience with LLM application development",
+        "Familiarity with agent frameworks, MCP integrations, or multi-agent architectures",
+        "Experience building data pipelines or working with large-scale datasets",
+        "Contribute to open-source projects or possess a strong personal project portfolio",
+        "Exhibit excellent English communication skills",
+        "Possess strong problem-solving abilities and an investigative mindset",
+        "Ability to work in a collaborative, mentorship-driven environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Agentic AI Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Chantilly/Agentic-AI-Intern---Summer-2026_323923",
+    "location": "Chantilly, VAReston, VA",
+    "season": "2026 Summer",
+    "id": 4199,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a Bachelor’s in CS/Engineering or equivalent.",
+        "Have 0-2 years experience building software.",
+        "Proficient in Python (FastAPI, Flask) or TypeScript/Node (Express, Next.js).",
+        "Familiar with LLM APIs and prompt engineering basics.",
+        "Experienced with Git, RESTAPIs, and CI/CD concepts.",
+        "Possess basic knowledge of cloud (AWS/Azure) and containers (Docker).",
+        "Exhibit strong communication and curiosity.",
+        "Exposed to LangChain, LangGraph, Ango, and Langfuse.",
+        "Exposed to OpenWebUI.",
+        "Understand RAG concepts and vector databases.",
+        "Familiar with GenAI models."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineer Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CO-Colorado-Springs/Software-Engineering-Intern---Summer-2026_324248",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 4198,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a current university Sophomore, Junior, or Senior pursuing a STEM Degree",
+        "Work towards a BS/BE in Computer Science, Computer Engineering, or EE",
+        "Have experience programming in Python and C++",
+        "Understand Object-Oriented Design"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineer Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324471",
+    "location": "Van Buren Charter Township, MI",
+    "season": "2026 Summer",
+    "id": 4197,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Ability to obtain a Top Secret U.S. Government Security Clearance",
+        "Working toward a degree in Computer Science, Electrical Engineering, Physics, Math, or related field",
+        "Interest in learning remote sensing technologies",
+        "Proficient in programming languages such as Python, Java, C++, or Javascript",
+        "Excellent problem-solving and analytical skills",
+        "Ability to work independently within a team to advance software development",
+        "Ability to work onsite",
+        "Proficient in an additional programming language",
+        "Familiarity with Linux and cloud development environments (AWS preferred)",
+        "Knowledge of radar or electro-optical fields",
+        "Academic experience in digital signal processing",
+        "Knowledge of Scrum/Agile Development and experience with Jira",
+        "Experience writing software implementing algorithms"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Configuration Management Intern/Co-op",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Configuration-Management-Co-op-Intern---Summer---Fall-2026_324469",
+    "location": "Danbury, CT",
+    "season": "2026 Summer",
+    "id": 4196,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science, computer engineering, or related field",
+        "Gain project or school related work in data analysis, Java programming, web development",
+        "Familiar with complex applications, installations, testing and debugging code",
+        "Proficient in Java, JSON, Excel, VB, XML, SQL"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Netwrix",
+    "role": "Software Engineering Intern",
+    "link": "https://ats.rippling.com/netwrix-corporation/jobs/95977180-8005-434e-a490-4ca254ae3f2f",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4195,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's in Computer Science or related field.",
+        "Familiar with at least one backend programming language.",
+        "Understand basic web application architecture.",
+        "Curious and willing to learn new tools and domains quickly.",
+        "Strong communication skills; explain concepts clearly.",
+        "Experience with data visualization, dashboards, or frontend frameworks.",
+        "Exposed to cloud platforms or container technologies.",
+        "Interested in cybersecurity, data governance, or identity security.",
+        "Familiar with AI/ML concepts, LLMs, or agentic AI patterns.",
+        "Prior experience in performance analysis or profiling."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Air Liquide",
+    "role": "Intern Software Development",
+    "link": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/Montreal-QC---Boul-Ren-Lvesque-O-ALC-HO---Support-functions---AME-Hub/Intern-of-Software-Development_R10088842",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 4194,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Graduate or undergraduate",
+        "0-1 years experience"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "EarnIn",
+    "role": "Software Engineer Intern - Backend",
+    "link": "https://job-boards.greenhouse.io/earnin/jobs/7775677",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 4193,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a Bachelor's or Master's degree in Computer Science or a related technical field.",
+        "Possess a strong foundation in computer science fundamentals.",
+        "Proficient in at least one programming language such as Java, Kotlin, Python, or Go.",
+        "Familiar with backend development concepts such as APIs and databases.",
+        "Have exposure to relational or NoSQL databases.",
+        "Demonstrate curiosity and willingness to learn.",
+        "Able to make thoughtful decisions and communicate tradeoffs and ideas.",
+        "Possess strong written and verbal communication skills.",
+        "Have prior internship experience."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Technical Innovation Analyst",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7775203",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4192,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Pursue a degree in Computer Science or a related field.",
+        "Available for a full-time 12-week internship in London (June - September).",
+        "Possess hands-on experience with AI/LLM tooling and cloud-first demo environments.",
+        "Familiar with or rapidly learn Cloudflare Workers development.",
+        "Knowledgeable in industry threat intelligence data sources and automation tools.",
+        "Able to own high-impact projects end-to-end and deliver portfolio-ready results.",
+        "Strong understanding of AI technologies including AI agents and LLMs.",
+        "Proficient in operating systems, networking, Internet technologies, and coding.",
+        "Strong analytical skills to collect, organize, analyze, and disseminate information.",
+        "Demonstrate focus on automation, data engineering, and rapid prototyping.",
+        "Excellent written and presentation skills for effective communication.",
+        "Self-starter who enjoys fast-paced, innovative cloud services environments."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "IXL Learning",
+    "role": "Software Engineer – Intern",
+    "link": "https://www.ixl.com/company/jobs?gh_jid=8486939002",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 4191,
+    "jd": null
+  },
+  {
+    "company": "IXL Learning",
+    "role": "Software Engineer Intern",
+    "link": "https://www.ixl.com/company/jobs?gh_jid=8486934002",
+    "location": "Raleigh, NC",
+    "season": "2026 Summer",
+    "id": 4190,
+    "jd": null
+  },
+  {
+    "company": "Construction Resources",
+    "role": "Web / Full-Stack Development Intern",
+    "link": "https://job-boards.greenhouse.io/constructionresources/jobs/5171622008",
+    "location": "Decatur, GA",
+    "season": "2026 Summer",
+    "id": 4189,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Next.js or equivalent front-end frameworks (React, Vue.js, Angular).",
+        "Strong in Java core concepts and object-oriented programming.",
+        "Skilled in SQL (basic to intermediate queries, joins, aggregations).",
+        "Understand fundamental web technologies (HTML, CSS, JavaScript).",
+        "Familiar with REST APIs and JSON data formats.",
+        "Possess exposure to backend frameworks (Spring Boot or similar).",
+        "Understand basic authentication, authorization, and security concepts.",
+        "Familiar with cloud platforms (Azure, AWS, or similar).",
+        "Experienced with CI/CD concepts or tooling.",
+        "Demonstrate web or full-stack development through personal projects, GitHub, or coursework.",
+        "Pursuing a degree in Computer Science, Software Engineering, Information Systems, or a related field.",
+        "Exhibit strong problem-solving skills and attention to detail.",
+        "Able to learn quickly and adapt in a fast-paced environment.",
+        "Possess good communication and collaborative skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Software Engineer Intern",
     "link": "https://careers-gdms.icims.com/jobs/71864/job?mobile=true&needsRedirect=false",
