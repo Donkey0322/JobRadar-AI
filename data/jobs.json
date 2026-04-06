@@ -1,5 +1,87 @@
 [
   {
+    "company": "Bank of Montreal",
+    "role": "Software Engineer - Co-op/Intern",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Software-Engineer---Summer-2026--Co-op-Internship----8-months_R260001556",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4176,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Creative thinking skills",
+        "Build and manage relationships",
+        "Demonstrate emotional agility",
+        "Proficient in Quality Assurance and Testing",
+        "Experience with Cloud computing",
+        "Knowledge of Microservices",
+        "Define, analyze, and map technology business requirements",
+        "Exhibit adaptability",
+        "Possess learning agility",
+        "Strong programming skills",
+        "Experience with applications integration",
+        "Practice Test Driven Development",
+        "Understand the System Development Lifecycle",
+        "Skilled in troubleshooting",
+        "Perform system and technology integration",
+        "Strong verbal and written communication",
+        "Excellent collaboration and team skills",
+        "Strong analytical and problem-solving skills",
+        "Capable of data-driven decision making",
+        "Gain technical proficiency through education or experience",
+        "Motivated with a strong desire to learn"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Bank of Montreal",
+    "role": "Software Application Developer – Co-op/Intern - 8 months",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Software-Application-Developer--Summer-2026--Co-op-Internship----8-months_R260001792",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4175,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Creative thinking",
+        "Build and manage relationships",
+        "Demonstrate emotional agility",
+        "Proficient in Quality Assurance and Testing",
+        "Knowledge of Cloud computing",
+        "Understand Microservices",
+        "Define, analyze, and map Technology Business Requirements",
+        "Demonstrate adaptability",
+        "Possess learning agility",
+        "Proficient in programming",
+        "Skilled in applications integration",
+        "Practice Test Driven Development",
+        "Understand System Development Lifecycle",
+        "Skilled in troubleshooting",
+        "Proficient in system and technology integration",
+        "Strong verbal and written communication skills",
+        "Excellent collaboration and team skills",
+        "Strong analytical and problem-solving skills",
+        "Strong desire to learn",
+        "Possess specialized knowledge from education or business experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "WSP",
+    "role": "Software Developer Intern",
+    "link": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/84271",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 4174,
+    "jd": null
+  },
+  {
     "company": "Preferred Risk Insurance Services",
     "role": "Internship: Full Stack Developer (Java)",
     "link": "https://priscorp.applicantpro.com/jobs/4042721",
