@@ -1,0 +1,42 @@
+Parachute Health is transforming post-acute care through the leading digital ordering platform for medical equipment and supplies. We replace the outdated, error-prone paper and fax process, which negatively impacts over 30 million patients annually, with a system that’s 10 times faster. Our platform connects a vast network of Home Medical Equipment (HME) providers, clinicians, and payors across all 50 states, ensuring millions of patients get the life-saving products they need quickly and efficiently.
+Join our team and make a difference in patient care.Are you passionate about software engineering and looking for an exciting remote opportunity to gain hands-on experience? We're looking for a talented and motivated Software Engineer Intern to join our team at Parachute Health.
+As a Software Engineer Intern at Parachute Health, you'll have the opportunity to work on a mission-oriented team, learn new skills, and contribute to the development of innovative solutions that will help us continue to improve patient outcomes. Plus, you'll be gaining experience working with a team that values creativity, curiosity and collaboration! We believe in the value of asking questions and learning out loud together.
+You will:
+Receive 1:1 mentorship
+Design, develop, and implement solutions that support our mission to modernize healthcare communication
+Write clean, maintainable, and efficient code that meets the needs of our stakeholders
+Collaborate with cross-functional teams to identify and solve complex problems related to healthcare communication
+Participate in code reviews, testing, and debugging to ensure high-quality software delivery
+Use the company’s approved AI tools as appropriate for your work
+Your qualifications:
+We expect successful results from college students, bootcamp grads, self-taught developers, open source developers, or back-to-workforce career status. No professional engineering experience expected
+Proficiency in Ruby and/or React
+Must be willing and able to ask endless questions!
+Excellent written and verbal communication skills
+Strong problem-solving and analytical skills
+Work effectively in a team: be able to collaborate with teammates while giving and taking action on received feedback
+Although we leverage AI tools during our day today, you will not have access to these during our interview
+Nice to have:
+Interest and/or experience in healthtech or healthcare
+NY, SF, Denver area
+Expected Hours and Compensation:
+Hours: Maximum 28 hrs/week
+Hourly rate: $40/hr
+Duration: 12 weeks
+This role does not come with any promise or expectation of a full-time role to follow.
+Interview Overview:
+At Parachute Health our engineer interview process is meant to simulate what it would be like to work together in real life. That means that you can expect from our engineering interview:
+A relevant problem similar to something you could experience in our codebase
+The discussion to simulate a pairing session - feel free to ask questions as we work through the problem together
+Use search as needed - We all do!
+No AI tooling during the interview
+Interview process:
+Take-home code screen via https://coderpad.io/
+30-minute Phone Screen with our recruiter
+2-hour Final Interview
+1 hour code interview on https://coderpad.io in Ruby or Typescript (your choice)
+1 hour behavioral interview with an engineering manager
+At Parachute Health, we value diversity and strive to create an inclusive and welcoming work environment. We encourage candidates from all backgrounds to apply!
+We can't wait to hear from you! If you're excited about this opportunity, please apply below. Let's work together to improve healthcare communication and make a positive impact on patient outcomes.California job applicants may access the Notice of Collection of Personal Information and Privacy Policy with information and rights required by the California Privacy Rights Act (CPRA) the link here.
+We are proud to be an equal opportunity employer that does not discriminate on the basis of actual or perceived race, color, creed, religion, national origin, ancestry, citizenship status, age, sex or gender (including pregnancy, childbirth related medical conditions and lactation), gender identity or gender expression (including transgender status), sexual orientation, marital status, military service and veteran status, disability, genetic information, or any other characteristic protected by applicable federal, state, or local laws and ordinances.
+This role is not eligible for employer visa sponsorship. Applicants must be legally authorized to work in the United States at the time of application and for the duration of employment. The Company does not sponsor employment authorization for this position, nor will it provide assistance in obtaining temporary work authorization

@@ -1,0 +1,239 @@
+{"hiringOrganization":{"@type":"Organization","name":"Alcami Corporation","sameAs":"https://www.alcami.com"},"validThrough":"2027-04-06T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"2320 Scientific Park Drive","@type":"PostalAddress","postalCode":"28405","addressLocality":"Wilmington","addressRegion":"NC","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"INTERN","@type":"JobPosting","description":"<h2>&nbsp;<\/h2>\n<p>At Alcami, we deliver reliable solutions that unlock the potential of transformative medicines from discovery to commercialization, through trusted partnership with our clients, recognized industry expertise and proven regulatory track record.<\/p>\n<p>&nbsp;<\/p>\n<p>Are you interested in joining our team?<\/p>\n<h2>Job Summary<\/h2>\n<p>The AI Intern will support Alcami\u2019s efforts to embed AI into day-to-day workflows by designing and building practical AI-driven solutions that improve efficiency and decision-making.<\/p>\n<p>This role provides hands-on experience working with tools such as Microsoft Copilot and evaluating emerging large language models (e.g., ChatGPT, Claude) and agent-based workflows. The intern will translate real business problems into usable AI solutions that are intuitive, scalable, and aligned with enterprise systems.<\/p>\n<p>The expectation is to deliver one or more working AI use cases or prototypes that can be adopted or scaled within the organization.<\/p>\n<p>The Alcami Intern will complete company onboarding activities and provide feedback to ensure our onboarding program is efficient and engaging. Interns will develop their skills and increase their knowledge of CDMO regulations and activities while working in a world-class pharmaceutical environment.<\/p>\n<p>The Alcami Intern Program is a minimum 10-week paid program. Alcami interns are provided hands-on work experience building upon knowledge and skills learned in the classroom. Interns work side-by-side industry leaders in a dynamic, fast-paced environment who are passionate about being part of a team developing life-saving drugs around the world. The program concludes with individual presentations to Alcami leaders.<\/p>\n<h2>On-Site Expectations<\/h2>\n<ul>\n <li>100% on-site position.<\/li>\n <li>1st Shift: Monday - Friday, 8:00am - 5:00pm.<\/li>\n<\/ul>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Work with stakeholders to define clear problem statements and identify high-value AI use cases.<\/li>\n <li>Design, build, and iterate on at least one end-to-end AI use case (from problem definition to working prototype).<\/li>\n <li>Develop and test AI-driven workflows (e.g., Copilot agents, automation pipelines, or LLM-based solutions).<\/li>\n <li>Evaluate AI tools (e.g., Copilot, ChatGPT, Claude) for usability, accuracy, and scalability.<\/li>\n <li>Integrate AI solutions into existing workflows and systems (e.g., SAP, MasterControl).<\/li>\n <li>Document use cases, solution approaches, and outcomes.<\/li>\n <li>Develop simple user guidance and training materials.<\/li>\n <li>Present outcomes and recommendations to leadership.<\/li>\n <li>The intern will complete all onboarding activities and provide feedback for process improvements.<\/li>\n <li>The intern will be trained on proper techniques and documentation in a GMP environment. Techniques will depend on the group and area.<\/li>\n <li>Interns will be trained on safety and quality expectations, and are expected to maintain safety and quality standards, and report safety observations according to company policy.<\/li>\n <li>Upon completion of the internship, incumbents will conduct individual presentations to Alcami leaders.<\/li>\n <li>Other duties as assigned.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Enrolled in a 4-year college or university pursuing a bachelor\u2019s degree in Computer Science, Data Science, Information Systems, Engineering, or a field related to the internship.<\/li>\n<\/ul>\n<h2>Knowledge, Skills, and Abilities<\/h2>\n<ul>\n <li>Strong analytical and problem-solving skills.<\/li>\n <li>Strong coding skills (Python, SQL) or experience with low-code/no-code tools (Power Platform).<\/li>\n <li>Ability to design and build AI-driven solutions.<\/li>\n <li>Familiarity with AI tools (Copilot, ChatGPT, Claude) preferred.<\/li>\n <li>Strong communication and cross-functional collaboration skills.<\/li>\n <li>High attention to detail and ability to produce quality work.<\/li>\n <li>Good verbal and written communication and documentation skills required.<\/li>\n <li>Strong detail orientation and organizational skills required.<\/li>\n <li>Good problem-solving and basic trouble-shooting ability required.<\/li>\n <li>Willingness to collaborate with other team members.<\/li>\n <li>Good knowledge of Microsoft Office including Word, Excel, and PowerPoint.<\/li>\n <li>Follows all safety policies and leads by example a safety-first culture.<\/li>\n <li>Produces high quality work products with a focus on first time right.<\/li>\n <li>Complies with the company code of conduct, policies, and regulatory standards.<\/li>\n<\/ul>\n<h2>Travel Expectations<\/h2>\n<ul>\n <li>Minimal travel between local locations may be expected.<\/li>\n<\/ul>\n<h2>Physical Demands and Work Environment<\/h2>\n<p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. While performing the duties of this job, the employee is regularly required to use hands to finger, handle, or feel; reach with hands and arms; talk or hear and smell. The employee is frequently required to stand. The employee is occasionally required to walk; sit and stoop, kneel, crouch, or crawl. The employee must regularly lift and/or move up to 10 pounds, frequently lift and/or move up to 25 pounds and occasionally lift and/or move up to 50 pounds. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception and ability to adjust focus.<\/p>\n<p>While performing the duties of this job, the employee is frequently exposed to moving mechanical parts and the risk of electrical shock, burn hazards and microbial contamination. The employee is occasionally exposed to fumes or airborne particles, toxic or caustic chemicals and vibration. The noise level in the work environment is usually moderate. The employee will be required to wear the appropriate personal protective equipment for specific job duties to be performed. Such personal protective equipment may include, but not limited to safety eyewear, various types of respirators/breathing apparatus, lab coats, full protective body coverings, various types of gloves, etc.<\/p>","directApply":true,"datePosted":"2026-04-06T00:00:00.000Z","title":"AI Intern","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-alcami.icims.com/jobs/2020/ai-intern/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+AI Intern in Wilmington, North Carolina | Careers at Tech Center Wilmington
+var isMobile = true;
+var link = 'https://careers-alcami.icims.com/connect/interests?csrf=242C636C578170A6&hashed=-625882188';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_180.1.0.260320-fcc7c3838d0-11-2/script/portal/login.js');
+var jobId = "2020";
+var fbJobId = "3dba2917-d79a-3847-9187-522891ae89f5";
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-alcami.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+Alcami
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2veWpo7D4UprJvX3c","type":"careers"},"release":"180.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":14902,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave3","build":"platform_180.1.0.260320-fcc7c3838d0-11-2","icimsGAAnonymizeIP":true,"customerId":"2oNwc8ptQ159935n3","region":"US","job":{"positionType":"Intern","company":"Tech Center Wilmington","location":{"zip":"28405","country":"USA","city":"Wilmington","state":"NC"},"id":"eyhtQn1oyTwzjWpU","idRaw":2020,"title":"AI Intern","category":"Information Technology","postedDate":"2026-04-06"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"Alcami Corporation","sameAs":"https://www.alcami.com"},"validThrough":"2027-04-06T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"2320 Scientific Park Drive","@type":"PostalAddress","postalCode":"28405","addressLocality":"Wilmington","addressRegion":"NC","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"INTERN","@type":"JobPosting","description":"<h2>&nbsp;<\/h2>\n<p>At Alcami, we deliver reliable solutions that unlock the potential of transformative medicines from discovery to commercialization, through trusted partnership with our clients, recognized industry expertise and proven regulatory track record.<\/p>\n<p>&nbsp;<\/p>\n<p>Are you interested in joining our team?<\/p>\n<h2>Job Summary<\/h2>\n<p>The AI Intern will support Alcami\u2019s efforts to embed AI into day-to-day workflows by designing and building practical AI-driven solutions that improve efficiency and decision-making.<\/p>\n<p>This role provides hands-on experience working with tools such as Microsoft Copilot and evaluating emerging large language models (e.g., ChatGPT, Claude) and agent-based workflows. The intern will translate real business problems into usable AI solutions that are intuitive, scalable, and aligned with enterprise systems.<\/p>\n<p>The expectation is to deliver one or more working AI use cases or prototypes that can be adopted or scaled within the organization.<\/p>\n<p>The Alcami Intern will complete company onboarding activities and provide feedback to ensure our onboarding program is efficient and engaging. Interns will develop their skills and increase their knowledge of CDMO regulations and activities while working in a world-class pharmaceutical environment.<\/p>\n<p>The Alcami Intern Program is a minimum 10-week paid program. Alcami interns are provided hands-on work experience building upon knowledge and skills learned in the classroom. Interns work side-by-side industry leaders in a dynamic, fast-paced environment who are passionate about being part of a team developing life-saving drugs around the world. The program concludes with individual presentations to Alcami leaders.<\/p>\n<h2>On-Site Expectations<\/h2>\n<ul>\n <li>100% on-site position.<\/li>\n <li>1st Shift: Monday - Friday, 8:00am - 5:00pm.<\/li>\n<\/ul>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Work with stakeholders to define clear problem statements and identify high-value AI use cases.<\/li>\n <li>Design, build, and iterate on at least one end-to-end AI use case (from problem definition to working prototype).<\/li>\n <li>Develop and test AI-driven workflows (e.g., Copilot agents, automation pipelines, or LLM-based solutions).<\/li>\n <li>Evaluate AI tools (e.g., Copilot, ChatGPT, Claude) for usability, accuracy, and scalability.<\/li>\n <li>Integrate AI solutions into existing workflows and systems (e.g., SAP, MasterControl).<\/li>\n <li>Document use cases, solution approaches, and outcomes.<\/li>\n <li>Develop simple user guidance and training materials.<\/li>\n <li>Present outcomes and recommendations to leadership.<\/li>\n <li>The intern will complete all onboarding activities and provide feedback for process improvements.<\/li>\n <li>The intern will be trained on proper techniques and documentation in a GMP environment. Techniques will depend on the group and area.<\/li>\n <li>Interns will be trained on safety and quality expectations, and are expected to maintain safety and quality standards, and report safety observations according to company policy.<\/li>\n <li>Upon completion of the internship, incumbents will conduct individual presentations to Alcami leaders.<\/li>\n <li>Other duties as assigned.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Enrolled in a 4-year college or university pursuing a bachelor\u2019s degree in Computer Science, Data Science, Information Systems, Engineering, or a field related to the internship.<\/li>\n<\/ul>\n<h2>Knowledge, Skills, and Abilities<\/h2>\n<ul>\n <li>Strong analytical and problem-solving skills.<\/li>\n <li>Strong coding skills (Python, SQL) or experience with low-code/no-code tools (Power Platform).<\/li>\n <li>Ability to design and build AI-driven solutions.<\/li>\n <li>Familiarity with AI tools (Copilot, ChatGPT, Claude) preferred.<\/li>\n <li>Strong communication and cross-functional collaboration skills.<\/li>\n <li>High attention to detail and ability to produce quality work.<\/li>\n <li>Good verbal and written communication and documentation skills required.<\/li>\n <li>Strong detail orientation and organizational skills required.<\/li>\n <li>Good problem-solving and basic trouble-shooting ability required.<\/li>\n <li>Willingness to collaborate with other team members.<\/li>\n <li>Good knowledge of Microsoft Office including Word, Excel, and PowerPoint.<\/li>\n <li>Follows all safety policies and leads by example a safety-first culture.<\/li>\n <li>Produces high quality work products with a focus on first time right.<\/li>\n <li>Complies with the company code of conduct, policies, and regulatory standards.<\/li>\n<\/ul>\n<h2>Travel Expectations<\/h2>\n<ul>\n <li>Minimal travel between local locations may be expected.<\/li>\n<\/ul>\n<h2>Physical Demands and Work Environment<\/h2>\n<p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. While performing the duties of this job, the employee is regularly required to use hands to finger, handle, or feel; reach with hands and arms; talk or hear and smell. The employee is frequently required to stand. The employee is occasionally required to walk; sit and stoop, kneel, crouch, or crawl. The employee must regularly lift and/or move up to 10 pounds, frequently lift and/or move up to 25 pounds and occasionally lift and/or move up to 50 pounds. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception and ability to adjust focus.<\/p>\n<p>While performing the duties of this job, the employee is frequently exposed to moving mechanical parts and the risk of electrical shock, burn hazards and microbial contamination. The employee is occasionally exposed to fumes or airborne particles, toxic or caustic chemicals and vibration. The noise level in the work environment is usually moderate. The employee will be required to wear the appropriate personal protective equipment for specific job duties to be performed. Such personal protective equipment may include, but not limited to safety eyewear, various types of respirators/breathing apparatus, lab coats, full protective body coverings, various types of gloves, etc.<\/p>","directApply":true,"datePosted":"2026-04-06T00:00:00.000Z","title":"AI Intern","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-alcami.icims.com/jobs/2020/ai-intern/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Returning Candidate?
+Log back in!
+AI Intern
+Location
+US-NC-Wilmington
+ID
+2026-2020
+Category
+Information Technology
+Position Type
+Intern
+Working Hours
+1st Shift: Monday - Friday, 8:00am - 5:00pm
+At Alcami, we deliver reliable solutions that unlock the potential of transformative medicines from discovery to commercialization, through trusted partnership with our clients, recognized industry expertise and proven regulatory track record. Are you interested in joining our team?
+Job Summary
+The AI Intern will support Alcami’s efforts to embed AI into day-to-day workflows by designing and building practical AI-driven solutions that improve efficiency and decision-making.This role provides hands-on experience working with tools such as Microsoft Copilot and evaluating emerging large language models (e.g., ChatGPT, Claude) and agent-based workflows. The intern will translate real business problems into usable AI solutions that are intuitive, scalable, and aligned with enterprise systems.The expectation is to deliver one or more working AI use cases or prototypes that can be adopted or scaled within the organization.The Alcami Intern will complete company onboarding activities and provide feedback to ensure our onboarding program is efficient and engaging. Interns will develop their skills and increase their knowledge of CDMO regulations and activities while working in a world-class pharmaceutical environment.The Alcami Intern Program is a minimum 10-week paid program. Alcami interns are provided hands-on work experience building upon knowledge and skills learned in the classroom. Interns work side-by-side industry leaders in a dynamic, fast-paced environment who are passionate about being part of a team developing life-saving drugs around the world. The program concludes with individual presentations to Alcami leaders.
+On-Site Expectations
+100% on-site position.1st Shift: Monday - Friday, 8:00am - 5:00pm.
+Responsibilities
+Work with stakeholders to define clear problem statements and identify high-value AI use cases.Design, build, and iterate on at least one end-to-end AI use case (from problem definition to working prototype).Develop and test AI-driven workflows (e.g., Copilot agents, automation pipelines, or LLM-based solutions).Evaluate AI tools (e.g., Copilot, ChatGPT, Claude) for usability, accuracy, and scalability.Integrate AI solutions into existing workflows and systems (e.g., SAP, MasterControl).Document use cases, solution approaches, and outcomes.Develop simple user guidance and training materials.Present outcomes and recommendations to leadership.The intern will complete all onboarding activities and provide feedback for process improvements.The intern will be trained on proper techniques and documentation in a GMP environment. Techniques will depend on the group and area.Interns will be trained on safety and quality expectations, and are expected to maintain safety and quality standards, and report safety observations according to company policy.Upon completion of the internship, incumbents will conduct individual presentations to Alcami leaders.Other duties as assigned.
+Qualifications
+Enrolled in a 4-year college or university pursuing a bachelor’s degree in Computer Science, Data Science, Information Systems, Engineering, or a field related to the internship.
+Knowledge, Skills, and Abilities
+Strong analytical and problem-solving skills.Strong coding skills (Python, SQL) or experience with low-code/no-code tools (Power Platform).Ability to design and build AI-driven solutions.Familiarity with AI tools (Copilot, ChatGPT, Claude) preferred.Strong communication and cross-functional collaboration skills.High attention to detail and ability to produce quality work.Good verbal and written communication and documentation skills required.Strong detail orientation and organizational skills required.Good problem-solving and basic trouble-shooting ability required.Willingness to collaborate with other team members.Good knowledge of Microsoft Office including Word, Excel, and PowerPoint.Follows all safety policies and leads by example a safety-first culture.Produces high quality work products with a focus on first time right.Complies with the company code of conduct, policies, and regulatory standards.
+Travel Expectations
+Minimal travel between local locations may be expected.
+Physical Demands and Work Environment
+The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. While performing the duties of this job, the employee is regularly required to use hands to finger, handle, or feel; reach with hands and arms; talk or hear and smell. The employee is frequently required to stand. The employee is occasionally required to walk; sit and stoop, kneel, crouch, or crawl. The employee must regularly lift and/or move up to 10 pounds, frequently lift and/or move up to 25 pounds and occasionally lift and/or move up to 50 pounds. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception and ability to adjust focus.While performing the duties of this job, the employee is frequently exposed to moving mechanical parts and the risk of electrical shock, burn hazards and microbial contamination. The employee is occasionally exposed to fumes or airborne particles, toxic or caustic chemicals and vibration. The noise level in the work environment is usually moderate. The employee will be required to wear the appropriate personal protective equipment for specific job duties to be performed. Such personal protective equipment may include, but not limited to safety eyewear, various types of respirators/breathing apparatus, lab coats, full protective body coverings, various types of gloves, etc.
+Options
+ApplyApplySubmit a ReferralRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+About Us
+Alcami is a contract development and manufacturing organization headquartered in North Carolina with over 40 years of experience advancing products through every stage of the development lifecycle. At Alcami, we are a team of dynamic, agile individuals committed to developing life-saving drugs around the world. A mindset of collaboration, innovation, responsiveness, accountability, and customer focus inspires us to be the most efficient, safe, and reliable choice for our customers and the patients they serve. In return, we offer challenging careers, professional growth, and the opportunity to be part of our skilled team with over 40 years of experience as champions that are dedicated, trustworthy, and relentless to advancing products through every stage of the development cycle. Alcami offers an extraordinary opportunity, a competitive salary, and an exceptional benefits package including medical, dental, vision and prescription coverage, life, LTD, STD, 401(k) with match and immediate vesting, and tuition reimbursement / student loan forgiveness.
+Diversity and Inclusion
+Alcami is an Equal Opportunity / Affirmative Action employer and will consider all qualified applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};
