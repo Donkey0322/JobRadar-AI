@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "245 Summer St, Boston MA"
+}
+},
+"hiringOrganization" : {
+"name" : "Fidelity Technology Group, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Co-op, Software Engineer",
+"@type" : "PropertyValue",
+"value" : "2127396"
+},
+"datePosted" : "2026-04-06",
+"validThrough" : "2026-04-30",
+"employmentType" : "FULL_TIME",
+"title" : "Co-op, Software Engineer",
+"description" : "Job Description: Software Engineer Co-op: FCAT (Fidelity Center for Applied Technology) The company Fidelity Center for Applied Technology (FCAT https://fcatalyst.com/overview) drives innovation to advance Fidelity’s market leadership. FCAT teams assess, test, and scale concepts and ideas involving blockchain, artificial intelligence, fintech, quantum computing, and emerging technologies to enhance customer experiences and keep Fidelity at the forefront of the financial services industry. Celebrating 25 years of innovation, FCAT focuses on these cutting-edge technologies and sociocultural trends to shape the future of financial services. What you’ll be working on As a co-op student, you will collaborate with FCAT’s design team, leveraging speculative design philosophies, user research methodologies, and design thinking to envision and create future experiences. Our speculative design practice combines creativity, strategy, and rigorous research to craft products, spaces, and vivid storytelling, taking a holistic approach to design innovation. We challenge conventional problem-solving by adopting fresh perspectives to envision bold alternatives—think sci-fi meets financial investing. Your Role You will work alongside and support our experienced design team from research and ideation to sketching and rapid prototyping. You will assist in creating multimodal outputs while developing a full story arc. Most projects are iterative and driven by multiple feedback cycles. What We’re Looking For We seek someone eager to engage in groundbreaking collaboration, with a bias towards action, the ability to embrace failure, and a strong intellectual curiosity. We value individuals who can play, learn, and have fun. We believe the world would be a better place if we rolled up our sleeves and made prototypes to get quick feedback from real users. Qualifications Core Qualifications Interest in the future of digital experiences Interested in emerging technologies (e.g. VR, Generative and Agentic AI) Comfortable with ambiguity, inquisitive and eager to learn Problem-solving skills, ability to think critically about design challenges, conceptualize and communicate ideas effectively Passionate about human-centric approach in all actions and decisions Able to work collaboratively within a team environment Strong inter-personal and communication skills Excellent presentation and facilitation skills Currently enrolled in Computer Science, Engineering, Information Systems, or a related technical field required Experience in Production Support and/or Analysis with ability to work across geographic locations, providing resolution to incidents Confirmed skills in root cause analysis of incidents Familiarity with Game Engines (Unity, Unreal), WebXR, and other libraries that support immersive experiences Experience with macOS and Windows operating systems Experience with programming languages like JavaScript, Python, C#, iOS and Android app development and support is a plus Ability to rapidly pick up new concepts and programming libraries Knowledge of web services (JSON, XML, REST, SOAP, etc.) integrating with APIs and RESTful web services Technical design and analysis skills and work in fast-paced environment Participate in design reviews, code reviews, and standard methodologies Communication and collaboration skills; both written and verbal Work with technical partners on incidents and collaborate with development teams for resolution to build partnerships Preferred: Comfortable with software including but not limited to Adobe Creative Suite and Figma Participation in extracurricular clubs such as Scout, Sandbox, etc. One previous co-op experience The base salary range for this position is $20 - $32 per hour. Placement in the range will vary based on job responsibilities and scope, geographic location, candidate’s relevant experience, and other factors. Note, the application window closes when the position is filled or unposted. Most roles at Fidelity are Hybrid, requiring associates to work onsite every other week (all business days, M–F) in a Fidelity office. This does not apply to Remote or fully Onsite roles. Some roles may have unique onsite requirements. Please consult with your recruiter for the specific expectations for this position. Please be advised that Fidelity’s business is governed by the provisions of the Securities Exchange Act of 1934, the Investment Advisers Act of 1940, the Investment Company Act of 1940, ERISA, numerous state laws governing securities, investment and retirement-related financial activities and the rules and regulations of numerous self-regulatory organizations, including FINRA, among others. Those laws and regulations may restrict Fidelity from hiring and/or associating with individuals with certain Criminal Histories. Certifications: Category: Administration At Fidelity, we are passionate about making our financial expertise broadly accessible and effective in helping people live the lives they want! We are a privately held company that places a high degree of value in creating and nurturing a work environment that attracts the best talent and reflects our commitment to our associates. We are proud of our diverse and inclusive workplace where we respect and value our associates for their unique perspectives and experiences. For information about working at Fidelity, visit FidelityCareers.com. Fidelity Investments is an equal opportunity employer. Fidelity will reasonably accommodate applicants with disabilities who need adjustments to participate in the application or interview process. To initiate a request for an accommodation please contact the following: For roles based in the US: Contact the HR Leave of Absence/Accommodation Team by sending an email to accommodations@fmr.com, or by calling 800-835-5099, prompt 2, option 2 For roles based in Ireland: Contact AccommodationsIreland@fmr.com For roles based in Germany: Contact Accommodationsgermany@fmr.com Fidelity Privacy Policy",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "245 Summer St, Boston MA"
+}
+},
+"hiringOrganization" : {
+"name" : "Fidelity Technology Group, LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Co-op, Software Engineer",
+"@type" : "PropertyValue",
+"value" : "2127396"
+},
+"datePosted" : "2026-04-06",
+"validThrough" : "2026-04-30",
+"employmentType" : "FULL_TIME",
+"title" : "Co-op, Software Engineer",
+"description" : "Job Description: Software Engineer Co-op: FCAT (Fidelity Center for Applied Technology) The company Fidelity Center for Applied Technology (FCAT https://fcatalyst.com/overview) drives innovation to advance Fidelity’s market leadership. FCAT teams assess, test, and scale concepts and ideas involving blockchain, artificial intelligence, fintech, quantum computing, and emerging technologies to enhance customer experiences and keep Fidelity at the forefront of the financial services industry. Celebrating 25 years of innovation, FCAT focuses on these cutting-edge technologies and sociocultural trends to shape the future of financial services. What you’ll be working on As a co-op student, you will collaborate with FCAT’s design team, leveraging speculative design philosophies, user research methodologies, and design thinking to envision and create future experiences. Our speculative design practice combines creativity, strategy, and rigorous research to craft products, spaces, and vivid storytelling, taking a holistic approach to design innovation. We challenge conventional problem-solving by adopting fresh perspectives to envision bold alternatives—think sci-fi meets financial investing. Your Role You will work alongside and support our experienced design team from research and ideation to sketching and rapid prototyping. You will assist in creating multimodal outputs while developing a full story arc. Most projects are iterative and driven by multiple feedback cycles. What We’re Looking For We seek someone eager to engage in groundbreaking collaboration, with a bias towards action, the ability to embrace failure, and a strong intellectual curiosity. We value individuals who can play, learn, and have fun. We believe the world would be a better place if we rolled up our sleeves and made prototypes to get quick feedback from real users. Qualifications Core Qualifications Interest in the future of digital experiences Interested in emerging technologies (e.g. VR, Generative and Agentic AI) Comfortable with ambiguity, inquisitive and eager to learn Problem-solving skills, ability to think critically about design challenges, conceptualize and communicate ideas effectively Passionate about human-centric approach in all actions and decisions Able to work collaboratively within a team environment Strong inter-personal and communication skills Excellent presentation and facilitation skills Currently enrolled in Computer Science, Engineering, Information Systems, or a related technical field required Experience in Production Support and/or Analysis with ability to work across geographic locations, providing resolution to incidents Confirmed skills in root cause analysis of incidents Familiarity with Game Engines (Unity, Unreal), WebXR, and other libraries that support immersive experiences Experience with macOS and Windows operating systems Experience with programming languages like JavaScript, Python, C#, iOS and Android app development and support is a plus Ability to rapidly pick up new concepts and programming libraries Knowledge of web services (JSON, XML, REST, SOAP, etc.) integrating with APIs and RESTful web services Technical design and analysis skills and work in fast-paced environment Participate in design reviews, code reviews, and standard methodologies Communication and collaboration skills; both written and verbal Work with technical partners on incidents and collaborate with development teams for resolution to build partnerships Preferred: Comfortable with software including but not limited to Adobe Creative Suite and Figma Participation in extracurricular clubs such as Scout, Sandbox, etc. One previous co-op experience The base salary range for this position is $20 - $32 per hour. Placement in the range will vary based on job responsibilities and scope, geographic location, candidate’s relevant experience, and other factors. Note, the application window closes when the position is filled or unposted. Most roles at Fidelity are Hybrid, requiring associates to work onsite every other week (all business days, M–F) in a Fidelity office. This does not apply to Remote or fully Onsite roles. Some roles may have unique onsite requirements. Please consult with your recruiter for the specific expectations for this position. Please be advised that Fidelity’s business is governed by the provisions of the Securities Exchange Act of 1934, the Investment Advisers Act of 1940, the Investment Company Act of 1940, ERISA, numerous state laws governing securities, investment and retirement-related financial activities and the rules and regulations of numerous self-regulatory organizations, including FINRA, among others. Those laws and regulations may restrict Fidelity from hiring and/or associating with individuals with certain Criminal Histories. Certifications: Category: Administration At Fidelity, we are passionate about making our financial expertise broadly accessible and effective in helping people live the lives they want! We are a privately held company that places a high degree of value in creating and nurturing a work environment that attracts the best talent and reflects our commitment to our associates. We are proud of our diverse and inclusive workplace where we respect and value our associates for their unique perspectives and experiences. For information about working at Fidelity, visit FidelityCareers.com. Fidelity Investments is an equal opportunity employer. Fidelity will reasonably accommodate applicants with disabilities who need adjustments to participate in the application or interview process. To initiate a request for an accommodation please contact the following: For roles based in the US: Contact the HR Leave of Absence/Accommodation Team by sending an email to accommodations@fmr.com, or by calling 800-835-5099, prompt 2, option 2 For roles based in Ireland: Contact AccommodationsIreland@fmr.com For roles based in Germany: Contact Accommodationsgermany@fmr.com Fidelity Privacy Policy",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "fmr",
+siteId: "targeted",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=fmr&s=targeted",
+token: "423a7824-4f8d-4d9a-92d2-6fa547d3ab90",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#368727","textColor":"#368727"},"progressBar":{"color":"#F98A3C"},"button":{"primary":{"color":"#368727","borderColor":"#368727","textColor":"#FFFFFF","hover":{"color":"#FEFEFE","borderColor":"#368727","textColor":"#368727"}},"secondary":{"color":"#FFFFFF","borderColor":"#368727","textColor":"#368727","hover":{"color":"#C6C6C6","borderColor":"#368727","textColor":"#368727"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"64f0d81bba7901f18d0287371a01b5a1","altText":null}},"banner":{"color":"#368727","borderColor":"#368727","textColor":"#FFFFFF","image":{"id":"64f0d81bba7901bcfaa486371a01b4a1","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

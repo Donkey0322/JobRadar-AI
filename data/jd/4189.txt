@@ -1,0 +1,47 @@
+Web / Full‑Stack Development Intern
+Position Summary
+The Web / Full‑Stack Development Intern will support the Technology team in designing, developing, and enhancing internal web applications and business solutions. This role offers hands‑on experience working with modern web frameworks, backend services, and enterprise data systems in a real‑world business environment.
+The ideal candidate is passionate about software development, eager to learn, and interested in building scalable, user‑friendly applications that support business operations.
+Key Responsibilities
+Assist in the development and enhancement of internal web applications using (e.g., React, Vue.js, Angular)
+Develop and maintain front‑end components, pages, and user workflows
+Support backend development using Java, including service logic and API integrations
+Write and optimize SQL queries to retrieve and manipulate application data
+Collaborate with designers, analysts, and senior engineers to understand requirements and implement solutions
+Participate in code reviews, testing, debugging, and documentation
+Use version control tools (e.g., Git) and follow established coding standards and best practices
+Contribute to small projects, prototypes, or feature enhancements from design through deployment
+Required Technical Skillset
+Next.js or equivalent scripting/front‑end framework (React, Vue.js, Angular)
+Java (core concepts, object‑oriented programming)
+SQL (basic to intermediate queries, joins, aggregations)
+Fundamental understanding of web technologies (HTML, CSS, JavaScript)
+Familiarity with REST APIs and JSON data formats
+Preferred / Nice‑to‑Have Skills
+Exposure to backend frameworks (Spring Boot or similar)
+Basic understanding of authentication, authorization, and security concepts
+Familiarity with cloud platforms (Azure, AWS, or similar)
+Experience with CI/CD concepts or tooling
+Personal projects, GitHub repositories, or coursework demonstrating web or full‑stack development
+Qualifications
+Currently pursuing a degree in Computer Science, Software Engineering, Information Systems, or a related field
+Strong problem‑solving skills and attention to detail
+Ability to learn quickly and adapt in a fast‑paced environment
+Good communication skills and ability to work collaboratively in a team setting
+What You’ll Gain
+Hands‑on experience building real enterprise applications
+Exposure to full‑stack development in a corporate technology environment
+Mentorship from experienced software engineers and technology leaders
+Practical understanding of how technology solutions support business operations
+A strong foundation for a future career in software or application development
+Portfolio Encouraged
+Applicants are encouraged to include links to GitHub repositories, class projects, or personal web applications.
+BENEFITSMedicalDentalVisionEmployer Paid Basic Employee Life and AD&D InsuranceEmployer Paid Long Term DisabilityFlexible Spending AccountsVoluntary Short-Term DisabilityVoluntary Life and AD&D InsuranceVoluntary Accident InsuranceVoluntary Critical Illness Insurance
+EEOAt Construction Resources, our people are the driving force behind everything we do. Construction Resources is an equal opportunity employer that aspires to be the best in the business by building an associate experience that celebrates growth, development, and purpose.
+PHYSICAL DEMANDSThe physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job.
+While performing the duties of this job, the employee is regularly required to speak or hear. The employee is frequently required to sit for extended periods of time, stand, walk, climb stairs, use hands to finger, handle or feel, and reach with hands and arms. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception and ability to adjust focus.
+POSITION TYPE/EXPECTED HOURS OF WORKThis is a full-time position that requires overtime as business needs dictate.
+OTHER DUTIESPlease note: this job description is not designed to cover or contain a comprehensive listing of activities, duties, or responsibilities that are required of the employee for this job. Duties, responsibilities, and activities may change at any time, with or without notice.
+PRIVACY NOTICEWe value your privacy and want to ensure transparency regarding the collection and processing of your personal data. As part of our recruitment process, we require your explicit consent to collect, store, and process your personal information, including but not limited to your resume, contact details, professional experience, and other relevant data.
+This data will be used solely for recruitment and hiring purposes in accordance with our privacy policy and applicable data protection regulations. Your information will be stored securely and will not be shared with third parties without your consent.
+By submitting your application, you agree to the collection and processing of your personal data for the purposes stated above. You may withdraw your consent at any time by contacting us at recruitment@crhomeusa.com.

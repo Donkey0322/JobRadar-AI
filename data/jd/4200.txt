@@ -1,0 +1,55 @@
+Imagine if you had the skills, knowledge, and teammates to both understand the root of the world’s most pressing problems and build the technologies and companies best positioned to solve them. RA Capital has done exactly that for more than two decades, backing bold ideas in medicines to further human health and now expanding into Planetary Health to improve how efficiently we utilize the world’s precious resources.
+RA Capital is among the leading providers of capital and services to the most promising innovators in the world. We invest flexibly—seed to IPO and beyond, anywhere in the world—with $10 B+ under management and a culture that prizes curiosity, rigor, and collaborative debate. We are investors who not only fund companies but get elbow deep in building them. From helping them recruit talent to helping them recruit patients for their studies to helping match them to strategic partners and even going to Washington to win reforms, RA Capital’s large team has people with nearly every relevant expertise one might need to turn an idea into a cure that actually helps people.
+If you live for first-principles problem-solving with great colleagues, thrive on complexity, and want to do meaningful work that ripples across industries and ecosystems, you’ll feel at home at RA Capital. Here, questions are welcomed, ideas are tested, and victories are shared. Even our lawyers are creative and engaging. And don’t get us started on our compliance team’s wicked sense of humor; nothing about what we do is boring.
+Are you ready to bring your creativity, discipline and collaborative spirit to help us invent the future? Join us and you’ll collaborate daily with investors, founders, physicians, biologists, engineers, economists, and reform advocates who think in systems and act with urgency.
+Join us to invent a happier, healthier, more productive future - and have fun doing it.
+Role Overview
+As an AI Engineering Intern, you’ll work at the intersection of software development, large language models, predictive analytics, and investment analysis. You’ll tackle real problems on production systems—not toy projects—and gain hands-on experience building AI/ML solutions that transform how we identify and evaluate investment opportunities in biomedical and climate technologies.
+Key Responsibilities
+Assist in designing and developing end-to-end AI applications, from prototype through deployment
+Build and iterate on AI agents, workflows, and tool integrations (e.g., MCP servers, agentic pipelines)
+Contribute to production-grade forecasting or classification systems with attention to latency, scalability, and robustness
+Help develop full-stack AI applications with both frontend and backend components
+Work with proprietary research data to train, evaluate, and improve ML or GenAI models
+Participate in code reviews, design discussions, and cross-functional collaboration with analysts and investors
+Academic & Experience Requirements
+Currently pursuing a Master’s or Bachelor’s degree in Computer Science, Machine Learning, Data Science, or a related field
+Coursework or project experience in AI/ML (e.g., deep learning, NLP, reinforcement learning, computer vision)
+Prior internship or meaningful project experience in software engineering preferred
+Exposure to healthcare and/or finance domains is a plus
+Technical Requirements
+Strong Python programming skills
+Familiarity with JavaScript and/or Java
+Understanding of machine learning fundamentals (regression, classification, clustering, neural networks)
+Experience with at least one deep learning framework (PyTorch preferred)
+Familiarity with cloud platforms (AWS preferred—SageMaker, Bedrock, or similar)
+Comfort with Git, containerization basics (Docker), and command-line workflows
+Interest in or experience with agentic coding tools (e.g., Claude Code, Codex) and AI workflow frameworks
+Nice to Have
+Experience with LLM application development (prompt engineering, RAG, fine-tuning)
+Familiarity with agent frameworks, MCP integrations, or multi-agent architectures
+Experience building data pipelines or working with large-scale datasets
+Contributions to open-source projects or a strong personal project portfolio
+What You’ll Gain
+Hands-on experience building AI systems that directly impact investment decisions in breakthrough medical and climate technologies
+Mentorship from senior engineers and exposure to a proven team of analysts and investors
+Access to extensive proprietary datasets and real-world AI/ML challenges at production scale
+A collaborative, sandbox-style environment where our work feels like play—and when our investments succeed, people live longer, healthier lives
+Additional Requirements
+Excellent English communication skills for collaboration with team members and stakeholders
+Strong problem-solving abilities and investigative mindset
+Ability to work in a collaborative, mentorship-driven environment
+Must be authorized to work in the United States for the duration of the internship
+Must be able to work out of our Boston office this summer
+Ability to join us on June 1st and commit full-time for 10-12 weeks
+Compensation & Internship Experience
+This is a paid, hourly internship position. Compensation is competitive within the industry and commensurate with experience and level of study. Eligibility for additional benefits may vary based on the duration and structure of the internship.
+In addition to financial compensation, interns can expect the following:
+Exposure to real-world projects and hands-on work
+Mentorship from experienced professionals
+Opportunities for professional development within a collaborative team environment
+RA sponsored lunch on designated days
+Access to RA-sponsored events, speaker series, and social activities
+Participation in wellness and community-focused initiatives
+Massachusetts Internship Hourly Pay Range$20 - $30 USD
+​RA Capital is an equal opportunity employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you require an accommodation during the interview process, please reach out to careers@racap.com for assistance.

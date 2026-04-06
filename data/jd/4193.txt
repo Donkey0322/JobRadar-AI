@@ -1,0 +1,34 @@
+About EarnIn
+As one of the first pioneers of earned wage access, our passion at EarnIn is building products that deliver real-time financial flexibility for those with the unique needs of living paycheck to paycheck. Our community members access their earnings as they earn them, with options to spend, save, and grow their money without mandatory fees, interest rates, or credit checks.
+We’re fortunate to have an incredibly experienced leadership team, combined with world-class funding partners like A16Z, Matrix Partners, DST, Ribbit Capital, and a very healthy core business with a tremendous runway. We’re growing fast and are excited to continue bringing world-class talent onboard to help shape the next chapter of our growth journey.
+POSITION SUMMARY
+We are seeking a motivated Backend Engineering Intern to join our 12-week internship program. In this role, you will work on real-world backend systems, contribute to production services, and collaborate closely with engineers, product managers, and cross-functional partners. The Offers team is a fast-growing, high-impact area at EarnIn, focused on building systems that deliver personalized, scalable value to our community members. This is an opportunity to gain hands-on experience building backend services, working with modern microservice architectures, and solving problems at scale in a fast-paced fintech environment.
+This role requires hybrid work from our Mountain View office, with 2 days per week in person. The internship pays $30/hour, with an expected 40 hours per week over the 12-week program.
+WHAT YOU'LL DO
+Contribute to the design, development, and maintenance of backend services for the Offers platform
+Build APIs and services that power user-facing features and partner integrations
+Collaborate with product, design, data science, and analytics teams to deliver end-to-end solutions
+Write clean, maintainable, and efficient code following engineering best practices
+Participate in code reviews, testing, and debugging to ensure high-quality software
+Gain exposure to distributed systems, microservices architecture, and cloud infrastructure
+Learn and apply industry-standard tools and technologies used in large-scale systems
+WHAT YOU'LL LEARN
+How to build backend systems that power real-world financial products at scale
+Designing and developing APIs and services with production-quality standards
+Fundamentals of scalable system design and microservice architecture
+Writing clean, maintainable, and efficient code in a collaborative codebase
+Working cross-functionally with product, design, and data partners to ship features end-to-end
+Debugging, testing, and improving system reliability in a live production environment
+WHAT WE'RE LOOKING FOR
+Currently pursuing or recently completed a Bachelor’s or Master’s degree in Computer Science or a related technical field
+Strong foundation in computer science fundamentals, including data structures, algorithms, and debugging
+Proficiency in at least one programming language such as Java, Kotlin, Python, Go, or similar
+Familiarity with backend development concepts such as APIs and databases
+Exposure to relational or NoSQL databases (e.g., Postgres, MySQL, DynamoDB) is a plus
+Demonstrated curiosity and willingness to learn
+Ability to make thoughtful decisions and clearly communicate tradeoffs and ideas
+Strong written and verbal communication skills
+Prior internship experience is a plus, but not required
+#LI-Hybrid
+At EarnIn, we believe that the best way to build a financial system that works for everyday people is by hiring a team that represents our diverse community. Our team is diverse not only in background and experience but also in perspective. We celebrate our diversity and strive to create a culture of belonging. EarnIn does not unlawfully discriminate based on race, color, religion, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, legally protected medical condition, family care status, military or veteran status, marital status, registered domestic partner status, sexual orientation, genetic information, or any other basis protected by local, state, or federal laws. EarnIn is an E-Verify participant.
+EarnIn does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job postings. No fee will be paid to third parties who submit unsolicited candidates directly to our hiring managers or HR team.
