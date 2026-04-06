@@ -1,5 +1,283 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71864/job?mobile=true&needsRedirect=false",
+    "location": "Pittsburgh, PA",
+    "season": "2026 Summer",
+    "id": 4188,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, or Mechanical Engineering.",
+        "Preference for a standing of a sophomore or higher.",
+        "Design, build, test, deploy, and improve software services and platforms.",
+        "Collaborate with other engineers to perform code reviews.",
+        "Maintain and improve code quality.",
+        "Reduce technical debt.",
+        "Research, learn, communicate, and apply new technologies.",
+        "Develop software and systems products in UNIX, Linux, and Windows environments.",
+        "Integrate as a member of a software development team.",
+        "Complete assigned tasks to expand technical skills.",
+        "Learn systems to update information.",
+        "Populate repositories with targeted data.",
+        "Research and document various data processes.",
+        "Abide by all security and safety procedures.",
+        "Proficient in Java, JavaScript/TypeScript, HTML, CSS, Ansible.",
+        "Experienced with Spring Boot, React/Redux frameworks.",
+        "Proficient with Gradle, NodeJS, AWS/Azure tools.",
+        "Comfortable working with IDEs (VSCode, IntelliJ, etc.).",
+        "Experienced with various Server Frameworks, DOM, and Java Web App Platform (Tomcat).",
+        "Adept with Microsoft Office, especially Excel, PowerPoint, and Word.",
+        "Comfortable working with Windows 10, 11, and Linux.",
+        "Knowledge of Data Structures, Algorithms & Complexity.",
+        "Knowledge of Object-Oriented Programming in Java.",
+        "Knowledge of Database Management Systems.",
+        "Knowledge of Advanced Programming.",
+        "Knowledge of Operating Systems.",
+        "Knowledge of Computer Architecture.",
+        "Knowledge of Software Engineering."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Alcami",
+    "role": "AI Intern",
+    "link": "https://careers-alcami.icims.com/jobs/2020/job?mobile=true&needsRedirect=false",
+    "location": "Wilmington, NC",
+    "season": "2026 Summer",
+    "id": 4187,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a 4-year college or university.",
+        "Pursuing a bachelor\b\bas degree in Computer Science, Data Science, Information Systems, Engineering, or a related field.",
+        "Strong analytical and problem-solving skills.",
+        "Strong coding skills (Python, SQL).",
+        "Experience with low-code/no-code tools (Power Platform).",
+        "Ability to design and build AI-driven solutions.",
+        "Familiarity with AI tools (Copilot, ChatGPT, Claude) preferred.",
+        "Strong communication and cross-functional collaboration skills.",
+        "High attention to detail and ability to produce quality work.",
+        "Good verbal and written communication and documentation skills.",
+        "Strong detail orientation and organizational skills.",
+        "Good problem-solving and basic troubleshooting ability.",
+        "Willingness to collaborate with other team members.",
+        "Good knowledge of Microsoft Office including Word, Excel, and PowerPoint.",
+        "Follow all safety policies.",
+        "Produce high quality work products.",
+        "Comply with the company code of conduct, policies, and regulatory standards."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Aledade",
+    "role": "Intern - AI Researcher 🎓",
+    "link": "https://jobs.lever.co/aledade/c60c9ff9-7011-43a0-802c-d3c3d91b0291/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4186,
+    "jd": null
+  },
+  {
+    "company": "Cummins",
+    "role": "Product Engineering Intern",
+    "link": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2426244",
+    "location": "Columbus, IN",
+    "season": "2026 Summer",
+    "id": 4185,
+    "jd": null
+  },
+  {
+    "company": "KLA",
+    "role": "Digital Transformation & AI Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Digital-Transformation---AI-Intern_2635323-3",
+    "location": "Ann Arbor, MI",
+    "season": "2026 Summer",
+    "id": 4184,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python and SQL.",
+        "Experienced or interested in building AI/LLM-based agents.",
+        "Familiar with LLMs and agent concepts.",
+        "Strong analytical skills.",
+        "Clear documentation and communication skills.",
+        "Less than 1 year of related experience."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ribbon",
+    "role": "Unix/Linux Systems Engineer – Co-op",
+    "link": "https://vhr-genband.wd1.myworkdayjobs.com/ribboncareers/job/Canada-Ontario-Ottawa/Unix-Linux-Systems-Engineer--Co-op-_REQ-2026-2919",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4183,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Bachelor\nR\n\t\t\t\ts degree in Computer Science, Computer Engineering, Electrical Engineering, or a related field.",
+        "Experience with Unix/Linux operating systems.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and teamwork abilities.",
+        "Proficient in programming and scripting languages (e.g., Python, Bash, Perl).",
+        "Experience with automation tools and frameworks.",
+        "Possess AI interfaces/API development skills.",
+        "Knowledgeable in network protocols and services."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Airbnb",
+    "role": "Engineering Apprentice",
+    "link": "https://careers.airbnb.com/positions/7773917?gh_jid=7773917",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 4182,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Less than one year of professional software engineering experience",
+        "Do not have a 4-year degree in Computer Science or equivalent technical degree",
+        "Acquired coding skills through online courses, community college, bootcamp, or self-taught",
+        "Knowledge of writing basic functions and implementing control flow in a programming language",
+        "Understand basics of at least one technical framework",
+        "Proficient in converting problems to code and explaining approach",
+        "Ability to communicate technical concepts clearly and collaborate effectively",
+        "Not currently enrolled in a university program",
+        "Work authorization for employment in the United States",
+        "Based in the California Bay Area"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineering Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CO-Colorado-Springs/Software-Engineering-Intern---Summer-2026_324241",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 4181,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a current university Sophomore, Junior, or Senior pursuing a STEM Degree.",
+        "Working towards a BS/BE in Computer Science, Computer Engineering, or EE.",
+        "Experience programming in Python and C++.",
+        "Understand Object-Oriented Design."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineering Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Software-Engineering-Intern---Summer-2026_324251",
+    "location": "Danbury, CT",
+    "season": "2026 Summer",
+    "id": 4180,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop code in C++, C#, or Python.",
+        "Develop software tests.",
+        "Generate and update requirements, test plans, and release documentation.",
+        "Process data.",
+        "Develop moderate-sized desktop applications in a Windows environment using a C-based language (C++, C#, Java, Python).",
+        "Complete at least one year towards a relevant bachelor's degree, and be currently enrolled."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineering Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CO-Colorado-Springs/Software-Engineering-Intern---Summer-2026_324250",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 4179,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Current university Sophomore, Junior or Senior",
+        "Pursuing a STEM Degree",
+        "Working towards a BS/BE in Computer Science, Computer Engineering, EE",
+        "Experience programming in Python and C++",
+        "Understanding of Object-Oriented Design"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "State Street",
+    "role": "Software Engineer Intern - Intern",
+    "link": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer-Intern--6-Month-intern--July--Dec_R-787596",
+    "location": "Burlington, MA",
+    "season": "2026 Summer",
+    "id": 4178,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong work ethic",
+        "Adapt to change and learn new skills quickly",
+        "Excellent communication and interpersonal skills",
+        "Exposure to the financial industry is a plus",
+        "Flexible and able to work in a fast-paced environment",
+        "Enrolled in a Computer Science program",
+        "Proficient in Java, C#, SQL, Perl, XML",
+        "Exposed to object-oriented programming, data structures, software engineering"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Parachute Health",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/parachutehealth/jobs/4772847007",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4177,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Ruby and/or React",
+        "Able to ask endless questions",
+        "Excellent written and verbal communication skills",
+        "Strong problem-solving and analytical skills",
+        "Collaborate effectively with teammates",
+        "Give and take feedback effectively",
+        "Interested in healthtech or healthcare"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Bank of Montreal",
     "role": "Software Engineer - Co-op/Intern",
     "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Software-Engineer---Summer-2026--Co-op-Internship----8-months_R260001556",
