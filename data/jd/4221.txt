@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Austin, TX"
+}
+},
+"hiringOrganization" : {
+"name" : "SiFive, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Platform Technology",
+"@type" : "PropertyValue",
+"value" : "R-101065"
+},
+"datePosted" : "2026-04-06",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Platform Technology",
+"description" : "About SiFive As the pioneers who introduced RISC-V to the world, SiFive is transforming the future of compute by bringing the limitless potential of RISC-V to the highest performance and most data-intensive applications in the world. SiFive’s unrivaled compute platforms are continuing to enable leading technology companies around the world to innovate, optimize and deliver the most advanced solutions of tomorrow across every market segment of chip design, including artificial intelligence, machine learning, automotive, data center, mobile, and consumer. With SiFive, the future of RISC-V has no limits. At SiFive, we are always excited to connect with talented individuals, who are just as passionate about driving innovation and changing the world as we are. Our constant innovation and ongoing success is down to our amazing teams of incredibly talented people, who collaborate and support each other to come up with truly groundbreaking ideas and solutions. Solutions that will have a huge impact on people's lives; making the world a better place, one processor at a time. Are you ready? To learn more about SiFive’s phenomenal success and to see why we have won the GSA’s prestigious Most Respected Private Company Award (for the fourth time!), check out our website and Glassdoor pages. Job Description: The Role As a part of platform technologies, you will design, build, deploy, and support industry leading design and verification languages and tools. You will apply language design, compiler implementation, type systems, and more to create safe, efficient, usable design and verification environments. Responsibilities: Architect and implement language features and compiler internals that drive a functional language to enable development and delivery of SiFive’s RISC-V core IP product. Develop tools required by a language ecosystem. Architect and design quality code to facilitate meeting expanding requirements for business processes, efficiency and usability. Interface with design, verification and other teams within SiFive to define the next generation of flow automation. Qualifications Strong C++17skills Familiarity with functional programming languages such as OCaml, scala, haskell, lisp, or f# Experience with Linux operating systems and standard development environments and toosl Experience defining build rules in a build system Bonuses: Formal systems (either HW or SW) Type checking experience Interest in HW/CompArch CIRCT/MLIR/LLVM experience Location negotiable. If you want to do incredible work and be challenged by exciting, truly innovative projects that will test the boundaries of your skills and creativity, then SiFive is the place for you! Be proud of your work. Do things better. Join SiFive. In addition to base pay, this role may be eligible for variable/ incentive compensation and/ or equity. In addition, this role is eligible for a comprehensive, competitive benefits package which may include healthcare and retirement plans, paid time off, and more! Additional Information: This position requires a successful background and reference checks and satisfactory proof of your right to work in United States of America Any offer of employment for this position is also contingent on the Company verifying that you are a authorized for access to export-controlled technology under applicable export control laws or, if you are not already authorized, our ability to successfully obtain any necessary export license(s) or other approvals. SiFive is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. As an E-Verify employer, we use this system to confirm the employment eligibility of all new hires in accordance with federal law. All applicants will be required to complete a Form I-9, Employment Eligibility Verification, upon hire. We do not use E-Verify to pre-screen job candidates and will comply with all E-Verify regulations. Championed by leaders who chose to make a real difference, SiFive led the RISC-V revolution—creating a tremendous wave with the strength to remove economic hurdles and create opportunities for all. Now that we’ve made history, you have the opportunity to write the future. If you love to be challenged, you can join the best of the best and get rewarded for doing something that truly matters.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Austin, TX"
+}
+},
+"hiringOrganization" : {
+"name" : "SiFive, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Platform Technology",
+"@type" : "PropertyValue",
+"value" : "R-101065"
+},
+"datePosted" : "2026-04-06",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Platform Technology",
+"description" : "About SiFive As the pioneers who introduced RISC-V to the world, SiFive is transforming the future of compute by bringing the limitless potential of RISC-V to the highest performance and most data-intensive applications in the world. SiFive’s unrivaled compute platforms are continuing to enable leading technology companies around the world to innovate, optimize and deliver the most advanced solutions of tomorrow across every market segment of chip design, including artificial intelligence, machine learning, automotive, data center, mobile, and consumer. With SiFive, the future of RISC-V has no limits. At SiFive, we are always excited to connect with talented individuals, who are just as passionate about driving innovation and changing the world as we are. Our constant innovation and ongoing success is down to our amazing teams of incredibly talented people, who collaborate and support each other to come up with truly groundbreaking ideas and solutions. Solutions that will have a huge impact on people's lives; making the world a better place, one processor at a time. Are you ready? To learn more about SiFive’s phenomenal success and to see why we have won the GSA’s prestigious Most Respected Private Company Award (for the fourth time!), check out our website and Glassdoor pages. Job Description: The Role As a part of platform technologies, you will design, build, deploy, and support industry leading design and verification languages and tools. You will apply language design, compiler implementation, type systems, and more to create safe, efficient, usable design and verification environments. Responsibilities: Architect and implement language features and compiler internals that drive a functional language to enable development and delivery of SiFive’s RISC-V core IP product. Develop tools required by a language ecosystem. Architect and design quality code to facilitate meeting expanding requirements for business processes, efficiency and usability. Interface with design, verification and other teams within SiFive to define the next generation of flow automation. Qualifications Strong C++17skills Familiarity with functional programming languages such as OCaml, scala, haskell, lisp, or f# Experience with Linux operating systems and standard development environments and toosl Experience defining build rules in a build system Bonuses: Formal systems (either HW or SW) Type checking experience Interest in HW/CompArch CIRCT/MLIR/LLVM experience Location negotiable. If you want to do incredible work and be challenged by exciting, truly innovative projects that will test the boundaries of your skills and creativity, then SiFive is the place for you! Be proud of your work. Do things better. Join SiFive. In addition to base pay, this role may be eligible for variable/ incentive compensation and/ or equity. In addition, this role is eligible for a comprehensive, competitive benefits package which may include healthcare and retirement plans, paid time off, and more! Additional Information: This position requires a successful background and reference checks and satisfactory proof of your right to work in United States of America Any offer of employment for this position is also contingent on the Company verifying that you are a authorized for access to export-controlled technology under applicable export control laws or, if you are not already authorized, our ability to successfully obtain any necessary export license(s) or other approvals. SiFive is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. As an E-Verify employer, we use this system to confirm the employment eligibility of all new hires in accordance with federal law. All applicants will be required to complete a Form I-9, Employment Eligibility Verification, upon hire. We do not use E-Verify to pre-screen job candidates and will comply with all E-Verify regulations. Championed by leaders who chose to make a real difference, SiFive led the RISC-V revolution—creating a tremendous wave with the strength to remove economic hurdles and create opportunities for all. Now that we’ve made history, you have the opportunity to write the future. If you love to be challenged, you can join the best of the best and get rewarded for doing something that truly matters.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "sifive",
+siteId: "sifivecareers",
+locale: "en-US",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=sifive&s=sifivecareers",
+token: "09eaa800-4d83-4e93-82af-0aaee7ea6057",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#41656E","textColor":"#111111"},"progressBar":{"color":"#3A474A"},"button":{"primary":{"color":"#0875E1","borderColor":"#333D47","textColor":"#FFFFFF","hover":{"color":"#005CB9","borderColor":"#333D47","textColor":"#FFFFFF"}},"secondary":{"color":"#F0F1F2","borderColor":"#E8EBED","textColor":"#333D47","hover":{"color":"#E8EBED","borderColor":"#005CB9","textColor":"#333D47"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"18cb87040e711001c06a446a5c780000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#41595E","textColor":"#292D2E","image":{"id":"05392915719d1001c0494f1da7fb0001","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

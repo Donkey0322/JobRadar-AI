@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United Kingdom",
+"addressLocality" : "Stafford"
+}
+},
+"hiringOrganization" : {
+"name" : "AL8238 UK Grid Solutions Limited",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "NPI Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "R5037154"
+},
+"datePosted" : "2026-04-07",
+"employmentType" : "FULL_TIME",
+"title" : "NPI Engineering Intern",
+"description" : "Job Description Summary GE Vernova is seeking sharp, personable, highly organized intern who are looking for the opportunity to grow their technical and professional skills while building a career with unlimited potential. Interns will work with NPI Embedded software and Tools development team. Job Description Roles and Responsibilities: • Understanding of the HVDC Control system plant network comprising of IEC-61850 capable IEDs, Switches and PLCs with the available material and guidance from development Team. • Generating the specification to emulate the Plant communication system with the appropriate guidance from Principal Engineer/Senior Engineer • Setting up of the emulation system along with programming the behaviour for proof of concept, that involves programming in popular languages like Python, C# • Generation of Test cases and running the tests to prove the system as per specification Required Qualifications &amp; Skills: • Currently enrolled in a bachelor’s Degree program at an accredited university • Bachelors in Computer Science/ Computer Networks/ Information Technology/ Software Engineering • Proficient in any programming language like C, C++, Python, Java, C# • Excellent organizational and multitasking skills, with attention to detail. • Strong communication skills to work effectively with internal teams and suppliers Key Competencies: • Analytical and problem-solving skills, with the ability to trouble shoot computing systems associated with networks. • Strong organizational and time management skills. NO VISA SUPPORT Additional Information Relocation Assistance Provided: No Addressing the climate crisis is an urgent global priority and we take our responsibility seriously. That is our singular mission at GE Vernova: continuing to electrify the world while simultaneously working to help decarbonize it. If we want our energy future to be different…we must be different. Our mission is embedded in our name. We retain our treasured legacy, “GE,” in our name as an enduring and hard-earned badge of quality and ingenuity. “Ver” / “verde” signal Earth’s verdant and lush ecosystems. “Nova,” from the Latin “novus,” nods to a new, innovative era of lower carbon energy that GE Vernova will help deliver. Together, we have The Energy to Change the World. www.gevernova.com",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United Kingdom",
+"addressLocality" : "Stafford"
+}
+},
+"hiringOrganization" : {
+"name" : "AL8238 UK Grid Solutions Limited",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "NPI Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "R5037154"
+},
+"datePosted" : "2026-04-07",
+"employmentType" : "FULL_TIME",
+"title" : "NPI Engineering Intern",
+"description" : "Job Description Summary GE Vernova is seeking sharp, personable, highly organized intern who are looking for the opportunity to grow their technical and professional skills while building a career with unlimited potential. Interns will work with NPI Embedded software and Tools development team. Job Description Roles and Responsibilities: • Understanding of the HVDC Control system plant network comprising of IEC-61850 capable IEDs, Switches and PLCs with the available material and guidance from development Team. • Generating the specification to emulate the Plant communication system with the appropriate guidance from Principal Engineer/Senior Engineer • Setting up of the emulation system along with programming the behaviour for proof of concept, that involves programming in popular languages like Python, C# • Generation of Test cases and running the tests to prove the system as per specification Required Qualifications &amp; Skills: • Currently enrolled in a bachelor’s Degree program at an accredited university • Bachelors in Computer Science/ Computer Networks/ Information Technology/ Software Engineering • Proficient in any programming language like C, C++, Python, Java, C# • Excellent organizational and multitasking skills, with attention to detail. • Strong communication skills to work effectively with internal teams and suppliers Key Competencies: • Analytical and problem-solving skills, with the ability to trouble shoot computing systems associated with networks. • Strong organizational and time management skills. NO VISA SUPPORT Additional Information Relocation Assistance Provided: No Addressing the climate crisis is an urgent global priority and we take our responsibility seriously. That is our singular mission at GE Vernova: continuing to electrify the world while simultaneously working to help decarbonize it. If we want our energy future to be different…we must be different. Our mission is embedded in our name. We retain our treasured legacy, “GE,” in our name as an enduring and hard-earned badge of quality and ingenuity. “Ver” / “verde” signal Earth’s verdant and lush ecosystems. “Nova,” from the Latin “novus,” nods to a new, innovative era of lower carbon energy that GE Vernova will help deliver. Together, we have The Energy to Change the World. www.gevernova.com",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "gevernova",
+siteId: "only_confidential_executive_recruiting",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=gevernova&s=only_confidential_executive_recruiting",
+token: "0d089dda-fa91-4835-aa64-b4f27f2902aa",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#2A6E6F","textColor":"#212121"},"progressBar":{"color":"#005E60"},"button":{"primary":{"color":"#C8FF08","borderColor":"#C8FF08","textColor":"#005E60","hover":{"color":"#DAFE5E","borderColor":"#DAFE5E","textColor":"#005E60"}},"secondary":{"textColor":"#005E60","hover":{"color":"#C8FF08","borderColor":"#C8FF08","textColor":"#005E60"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"863aca887b9b10014e9cc90e22390002","altText":null}},"banner":{"image":{"id":"863aca887b9b10014e9cc90e22390000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
