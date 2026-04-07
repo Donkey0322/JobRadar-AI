@@ -1,5 +1,235 @@
 [
   {
+    "company": "Cadence Design Systems",
+    "role": "Software Intern 🎓",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Intern_R54246",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4230,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have MS/PhD in EE/CS or related discipline",
+        "Strong programming skills in C++",
+        "Deep familiarity with object-oriented programming methods",
+        "Possess prior knowledge and experience with multi-threaded programming",
+        "Experience with numerical analysis techniques",
+        "Familiarity with delay calculation methods for nanometer circuits"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Intern 🎓",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Intern_R54240",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4229,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong problem solving skills",
+        "Strong analysis skills",
+        "Strong programming skills",
+        "Deep knowledge of up-to-date placement technologies",
+        "MS or PhD in EE or CS",
+        "Relevant industry experience preferred",
+        "Relevant graduate school research preferred"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Intern 🎓",
+    "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern_R54240-1",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4228,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong problem-solving skills",
+        "Strong analysis skills",
+        "Strong programming skills",
+        "Deep knowledge of up-to-date placement technologies",
+        "Possess MS or PhD in EE or CS",
+        "Relevant industry experience or graduate school research"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Intern 🎓",
+    "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern_R54246-1",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4227,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Earn MS/PhD in EE/CS or related discipline.",
+        "Possess strong programming skills in C++.",
+        "Demonstrate deep familiarity with object-oriented programming methods.",
+        "Have prior knowledge and experience with multi-threaded programming.",
+        "Understand numerical analysis techniques.",
+        "Be familiar with delay calculation methods for nanometer circuits."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "PatientPoint",
+    "role": "Application Security Analyst Intern",
+    "link": "https://job-boards.greenhouse.io/patientpoint/jobs/4654805005",
+    "location": "Cincinnati, OH",
+    "season": "2026 Summer",
+    "id": 4226,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\nH\nE\nN\nS\nI\nV\nE\n or Master’s degree in a related field.",
+        "Understand basic application security concepts.",
+        "Familiar with at least one programming language.",
+        "Understand web technologies.",
+        "Analyze security findings and communicate risks.",
+        "Possess strong problem-solving skills.",
+        "Willing to learn secure coding practices.",
+        "Exposed to SAST, DAST, or SCA tools.",
+        "Familiar with Git, GitHub, or CI/CD pipelines.",
+        "Know secure SDLC principles.",
+        "Understand AI skills.",
+        "Experience reviewing code for security issues.",
+        "Interested in vulnerability research and threat modeling."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Fishers-Indiana/Technology---Summer-Intern_R-10373070",
+    "location": "Fishers, IN",
+    "season": "2026 Summer",
+    "id": 4225,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Make progress towards completion of a bachelor's degree by December 2026 / May 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess sophisticated Excel and PowerPoint knowledge.",
+        "Have experience working in a fast-paced environment.",
+        "Be flexible to changing priorities.",
+        "Encouraged to apply if military-affiliated (Veterans, Military Spouses, and Guard/Reservists).",
+        "Possess knowledge of Microsoft .NET, C#, C, C++, ASP .NET, Java, JavaScript, JCL, Oracle, Linux, PowerBi or ReactJS."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Eulerity",
+    "role": "Android Developer Intern",
+    "link": "https://job-boards.greenhouse.io/eulerity/jobs/4671031006",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4224,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a student based in the NYC tri-state area.",
+        "Have at least 1 year of Android development experience using Kotlin, Jetpack Compose, and Android Studio.",
+        "Proficient in Kotlin with a solid understanding of Android SDK and frameworks.",
+        "Build with AI coding tools like Claude Code or Copilot.",
+        "Possess strong prompting skills for LLMs.",
+        "Possess strong UI development skills in Jetpack Compose/XML and Android libraries.",
+        "Possess knowledge of Android design patterns and architectures.",
+        "Have experience with Git.",
+        "Take ownership of tasks and work independently and collaboratively.",
+        "Possess a genuinely AI-native development workflow.",
+        "Have experience building or fine-tuning prompts for code generation.",
+        "Shipped real projects outside of coursework.",
+        "Possess hands-on experience with Agile development frameworks.",
+        "Have experience with unit testing and automated testing tools.",
+        "Comfortable working with large data volumes and performance at scale."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Eulerity",
+    "role": "Mobile iOS Developer Intern",
+    "link": "https://job-boards.greenhouse.io/eulerity/jobs/4671025006",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4223,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a student based in the New York City Tri-State Area.",
+        "Possess at least 1 year of iOS development experience using SwiftUI, UIKit, and Xcode.",
+        "Proficient in Swift with a solid understanding of iOS frameworks.",
+        "Build with AI tools like Claude Code, Copilot, or similar.",
+        "Possess strong prompting skills for high-quality output from LLMs.",
+        "Possess strong UI development skills in SwiftUI/UIKit.",
+        "Experience with iOS libraries and APIs like CocoaPods, SPM, Firebase.",
+        "Knowledgeable in iOS design patterns and architectures (e.g., MVVM, MVC).",
+        "Experienced with Git.",
+        "Capable of taking ownership and working independently and collaboratively.",
+        "Be genuinely AI-native, restructuring development workflow around AI tools.",
+        "Experienced building or fine-tuning prompts for code generation, debugging, or testing.",
+        "Shipped something real outside of coursework (side project, hackathon app, App Store release).",
+        "Hands-on experience with Agile development frameworks.",
+        "Experienced with unit testing and automated testing tools.",
+        "Comfortable working with large volumes of data and considering performance at scale."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "BigCommerce",
+    "role": "Intern – Software Engineering - TypeScript / Full Stack",
+    "link": "https://bigcommerce.wd12.myworkdayjobs.com/Commerce/job/US---GA---Atlanta-Office/Intern--Software-Engineering---Typescript---Full-Stack_JR102475",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 4222,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have experience with web development through coursework, projects, or internships",
+        "Be strongly proficient in a programming language",
+        "Possess a desire to learn in a fast-paced environment",
+        "Have strong written and verbal communication skills",
+        "Exhibit great problem-solving and analytical skills",
+        "Have experience with TypeScript and JavaScript runtimes",
+        "Have experience with web development technologies like React and Next.js",
+        "Have experience with REST, GraphQL, and building APIs",
+        "Have experience with CI/CD methodologies and technologies",
+        "Have experience with cloud infrastructure providers like GCP, Vercel, and Cloudflare"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "SiFive",
     "role": "Intern Platform Technology",
     "link": "https://sifive.wd1.myworkdayjobs.com/en-US/sifivecareers/job/Austin-Texas-United-States/Intern---Platform-Technology_R-101065",

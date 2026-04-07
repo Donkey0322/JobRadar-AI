@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US - GA - Atlanta Office"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Commerce.com US, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Software Engineering - Typescript / Full Stack",
+"@type" : "PropertyValue",
+"value" : "JR102475"
+},
+"datePosted" : "2026-04-07",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Software Engineering - Typescript / Full Stack",
+"description" : "Welcome to the Agentic Commerce Era At Commerce, our mission is to empower businesses to innovate, grow, and thrive with our open, AI-driven commerce ecosystem. As the parent company of BigCommerce, Feedonomics, and Makeswift, we connect the tools and systems that power growth, enabling businesses to unlock the full potential of their data, deliver seamless and personalized experiences across every channel, and adapt swiftly to an ever-changing market. Simply said, we help businesses confidently solve complex commerce challenges so they can build smarter, adapt faster, and grow on their own terms. If you want to be part of a team of bold builders, sharp thinkers, and technical trailblazers, working together to shape the future of commerce, this is the place for you. At Makeswift we're on a mission to build the best tool for creative minds to bring their ideas to the world. The concept is simple: combine the experience of a buttery-smooth, elegant design tool with the infrastructure required to go to production. Instead of mocking up static images and prototypes, build production-ready websites out of live components. Growing team? Version control and real-time collaboration. Working with React engineers? Reuse their work by integrating existing components directly into Makeswift. Our vision is to open up our APIs and foster a component ecosystem that will bridge the gap between developers and designers. Makeswift is looking for an Intern, Software Engineering to participate in our summer internship program. Makeswift, acquired by Commerce in 2023, is a drag and drop website builder that gives marketers visual freedom and developers full control to design, ship, and scale modern frontends. As an intern at Makeswift, you’ll have an opportunity to learn on the job and experience what it takes to build production systems. You will be in a fast-paced environment and work closely with our engineers to ship software that has real customer impact. It will also be an opportunity to explore what a future full-time role at Makeswift or Commerce would look like. This role is in-person and ON-SITE in Atlanta, GA. What You’ll Do: You’ll be working with a team that’s responsible for Makeswift’s infrastructure, APIs, and integrations. Below are some of the projects that you might work on: Contribute to Makeswift’s BigCommerce integration, which will be rolled out to tens of thousands of storefronts with billions of dollars in revenue. Expand Makeswift’s APIs with MCP servers for Makeswift’s or other external AI agents. Instrument Makeswift’s backend for improved observability. Set up internal preview environments to make it easier for developers and agents to contribute to Makeswift’s codebase and iterate before going to production. Build a CDN to make Makeswift sites more reliable by isolating them from the management API. Who You Are: Must-Haves Experience with web development either through coursework, personal projects or past internships. Strong proficiency in a programming language. A desire to learn and participate in a fast-paced environment. Strong written and verbal communication skills. Great problem solving and analytical skills. Nice-to-Haves Experience with TypeScript and JavaScript runtimes (e.g., Node.js, Bun, Deno, etc.). Experience with web development technologies like React and Next.js. Experience with REST, GraphQL, and building APIs. Experience with CI/CD methodologies and related technologies (e.g., GitHub Actions). Experience with cloud infrastructure providers like GCP, Vercel, and Cloudflare. This position is in-person and ON-SITE in Atlanta, GA. Hiring Process We focus our hiring process on understanding your problem-solving and analytical skills. We also look for a strong cultural fit. We don’t do LeetCode, but we might give you a take-home assignment so you can showcase your technical skills. At a high level, the process might look like this: Recruiter phone screen Hiring manager screen Take-home assignment Technical interview (assignment follow-up) Final stage (cultural interview) #LI-LH1 #LI-REMOTE The exact salary will be dependent on the successful candidate’s location, relevant knowledge, skills, and qualifications. Inclusion and Belonging At Commerce, we believe that celebrating the unique histories, perspectives and abilities of every employee makes a difference for our company, our customers and our community. We are an equal opportunity employer and the inclusive atmosphere we build together will make room for every person to contribute, grow and thrive. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the interview process, to perform essential job functions and to receive other benefits and privileges of employment. If you need an accommodation in order to interview at Commerce, please let us know during any of your interactions with our recruiting team. Learn more about the Commerce team, culture and benefits at https://www.commerce.com/careers/ Protect Yourself Against Hiring Scams: Our Corporate Disclaimer Commerce, along with many other employers, has become the subject of fraudulent job offers to hopeful prospective job seekers. Be advised: Commerce does not offer jobs to individuals who do not go through our formal hiring process. Commerce will never: require payment of recruitment fees from candidates; request personally identifiable information through unsanctioned websites or applications; attempt to solicit money from you as part of the hiring process or as part of an employment offer; solicit money to complete visa requirements as part of a job offer. If you receive unsolicited offers of employment from Commerce, we urge you to be extremely cautious and avoid engaging or responding. The Commerce story is one of global growth, incredible talent, and unstoppable passion in all we do. Despite our huge success so far, we’re still just getting started! Explore our history, mission and values. You’ll see we’re set on shaping the now - and the future - of ecommerce. Don’'t Miss Out! Like what you see but suffering from some serious FOMO? Join our Commerce Talent Community, and plug in to our latest news and career opportunities. We’re a group of clever, committed, curious people, unleashing talent in all we do. We believe in the power of togetherness, striving at the edge of what’s possible, impacting the lives of billions of people for the better. In all we do, We Do Extraordinary–and that’s no small feat! Our people are our power. It’s only through dedication, collaboration, and inspiration that we can Do Extraordinary. We’re natural problem-solvers, champions of empowering businesses, and hungry learners… but we also play nerf wars in the office, support each other, and hang out outside of work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US - GA - Atlanta Office"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Commerce.com US, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Software Engineering - Typescript / Full Stack",
+"@type" : "PropertyValue",
+"value" : "JR102475"
+},
+"datePosted" : "2026-04-07",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Software Engineering - Typescript / Full Stack",
+"description" : "Welcome to the Agentic Commerce Era At Commerce, our mission is to empower businesses to innovate, grow, and thrive with our open, AI-driven commerce ecosystem. As the parent company of BigCommerce, Feedonomics, and Makeswift, we connect the tools and systems that power growth, enabling businesses to unlock the full potential of their data, deliver seamless and personalized experiences across every channel, and adapt swiftly to an ever-changing market. Simply said, we help businesses confidently solve complex commerce challenges so they can build smarter, adapt faster, and grow on their own terms. If you want to be part of a team of bold builders, sharp thinkers, and technical trailblazers, working together to shape the future of commerce, this is the place for you. At Makeswift we're on a mission to build the best tool for creative minds to bring their ideas to the world. The concept is simple: combine the experience of a buttery-smooth, elegant design tool with the infrastructure required to go to production. Instead of mocking up static images and prototypes, build production-ready websites out of live components. Growing team? Version control and real-time collaboration. Working with React engineers? Reuse their work by integrating existing components directly into Makeswift. Our vision is to open up our APIs and foster a component ecosystem that will bridge the gap between developers and designers. Makeswift is looking for an Intern, Software Engineering to participate in our summer internship program. Makeswift, acquired by Commerce in 2023, is a drag and drop website builder that gives marketers visual freedom and developers full control to design, ship, and scale modern frontends. As an intern at Makeswift, you’ll have an opportunity to learn on the job and experience what it takes to build production systems. You will be in a fast-paced environment and work closely with our engineers to ship software that has real customer impact. It will also be an opportunity to explore what a future full-time role at Makeswift or Commerce would look like. This role is in-person and ON-SITE in Atlanta, GA. What You’ll Do: You’ll be working with a team that’s responsible for Makeswift’s infrastructure, APIs, and integrations. Below are some of the projects that you might work on: Contribute to Makeswift’s BigCommerce integration, which will be rolled out to tens of thousands of storefronts with billions of dollars in revenue. Expand Makeswift’s APIs with MCP servers for Makeswift’s or other external AI agents. Instrument Makeswift’s backend for improved observability. Set up internal preview environments to make it easier for developers and agents to contribute to Makeswift’s codebase and iterate before going to production. Build a CDN to make Makeswift sites more reliable by isolating them from the management API. Who You Are: Must-Haves Experience with web development either through coursework, personal projects or past internships. Strong proficiency in a programming language. A desire to learn and participate in a fast-paced environment. Strong written and verbal communication skills. Great problem solving and analytical skills. Nice-to-Haves Experience with TypeScript and JavaScript runtimes (e.g., Node.js, Bun, Deno, etc.). Experience with web development technologies like React and Next.js. Experience with REST, GraphQL, and building APIs. Experience with CI/CD methodologies and related technologies (e.g., GitHub Actions). Experience with cloud infrastructure providers like GCP, Vercel, and Cloudflare. This position is in-person and ON-SITE in Atlanta, GA. Hiring Process We focus our hiring process on understanding your problem-solving and analytical skills. We also look for a strong cultural fit. We don’t do LeetCode, but we might give you a take-home assignment so you can showcase your technical skills. At a high level, the process might look like this: Recruiter phone screen Hiring manager screen Take-home assignment Technical interview (assignment follow-up) Final stage (cultural interview) #LI-LH1 #LI-REMOTE The exact salary will be dependent on the successful candidate’s location, relevant knowledge, skills, and qualifications. Inclusion and Belonging At Commerce, we believe that celebrating the unique histories, perspectives and abilities of every employee makes a difference for our company, our customers and our community. We are an equal opportunity employer and the inclusive atmosphere we build together will make room for every person to contribute, grow and thrive. We will ensure that individuals with disabilities are provided reasonable accommodation to participate in the interview process, to perform essential job functions and to receive other benefits and privileges of employment. If you need an accommodation in order to interview at Commerce, please let us know during any of your interactions with our recruiting team. Learn more about the Commerce team, culture and benefits at https://www.commerce.com/careers/ Protect Yourself Against Hiring Scams: Our Corporate Disclaimer Commerce, along with many other employers, has become the subject of fraudulent job offers to hopeful prospective job seekers. Be advised: Commerce does not offer jobs to individuals who do not go through our formal hiring process. Commerce will never: require payment of recruitment fees from candidates; request personally identifiable information through unsanctioned websites or applications; attempt to solicit money from you as part of the hiring process or as part of an employment offer; solicit money to complete visa requirements as part of a job offer. If you receive unsolicited offers of employment from Commerce, we urge you to be extremely cautious and avoid engaging or responding. The Commerce story is one of global growth, incredible talent, and unstoppable passion in all we do. Despite our huge success so far, we’re still just getting started! Explore our history, mission and values. You’ll see we’re set on shaping the now - and the future - of ecommerce. Don’'t Miss Out! Like what you see but suffering from some serious FOMO? Join our Commerce Talent Community, and plug in to our latest news and career opportunities. We’re a group of clever, committed, curious people, unleashing talent in all we do. We believe in the power of togetherness, striving at the edge of what’s possible, impacting the lives of billions of people for the better. In all we do, We Do Extraordinary–and that’s no small feat! Our people are our power. It’s only through dedication, collaboration, and inspiration that we can Do Extraordinary. We’re natural problem-solvers, champions of empowering businesses, and hungry learners… but we also play nerf wars in the office, support each other, and hang out outside of work.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "bigcommerce",
+siteId: "Commerce",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd12.myworkday.com",
+language: null,
+cdnEndpoint: "prod-wd12.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd12.myworkday.com/wday/drs/outage?t=bigcommerce&s=Commerce",
+token: "648dcdd9-408f-4b87-8f3f-6ee77745e854",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#6058FF","textColor":"#170245"},"progressBar":{"color":"#6058FF"},"button":{"primary":{"color":"#6058FF","borderColor":"#6058FF","textColor":"#FFFFFF","hover":{"color":"#2D2D83","borderColor":"#2D2D83","textColor":"#FFFFFF"}},"secondary":{"color":"#6058FF","borderColor":"#6058FF","textColor":"#FFFFFF","hover":{"color":"#2D2D83","borderColor":"#2D2D83","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"604aec61b92810018f5eeeb31c810000","altText":null}},"banner":{"color":"#F5F3F2","borderColor":"#6058FF","textColor":"#170245","image":{"id":"604aec61b92810018f5eee191b6f0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "prod-wd12.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

@@ -1,0 +1,58 @@
+Join PatientPoint to be part of a dynamic team creating change in and around the doctor’s office. As a leading digital health company, we innovate to positively impact patient behaviors. Our purpose-driven approach offers an inspirational career opportunity where you can contribute to improving health outcomes for millions of patients nationwide.
+Job Summary This role supports application security efforts by assisting with static and dynamic testing, secure code reviews, threat modeling, and vulnerability research under senior mentorship. The intern will help triage findings, document risks, contribute to security tooling and automation, and collaborate with engineers to promote secure coding practices. The role is designed to provide hands-on exposure to real-world AppSec tools, OWASP standards, and how security integrates into modern DevOps workflows.
+What You Will Do
+Security Testing & Analysis
+Assist in performing static (SAST) and dynamic (DAST) application security testing.
+Help triage findings from automated scanners.
+Participate in manual testing (under guidance) for common vulnerabilities such as SQL injection, XSS, or broken authentication.
+Secure Code Review
+Review code changes for security issues (often with senior mentorship).
+Learn to use tools like SonarQube, Checkmarx, Fortify, or GitHub Advanced Security.
+Document findings and recommend secure coding practices.
+Threat Modeling & Research
+Support threat modeling exercises by documenting potential attack paths.
+Research emerging vulnerabilities, CVEs, and security advisories relevant to the tech stack.
+Track security trends and update the team.
+Tooling & Automation
+Help integrate security tools into the CI/CD pipeline.
+Write scripts for automating repetitive tasks (e.g., log parsing, results consolidation).
+Support vulnerability management platforms (e.g., Jira, DefectDojo, Kenna).
+Security Awareness & Documentation
+Draft and maintain internal documentation for secure coding guidelines.
+Assist in preparing developer training materials (e.g., OWASP Top 10 examples).
+Work with engineers to clarify security requirements during development.
+Learning & Development Focus
+Since this is an intern role, the responsibilities usually balance hands-on tasks with learning opportunities:
+Exposure to OWASP Top 10 and CWE/SANS Top 25.
+Mentorship in real-world vulnerability assessment and remediation.
+Understanding how security integrates with agile/DevOps workflows.
+Typical Tools You Might Use
+SAST/DAST tools: Burp Suite, OWASP ZAP, Fortify, Checkmarx
+Dependency scanning: Snyk, Dependabot, Black Duck
+CI/CD & version control: GitHub/GitLab, Jenkins
+Issue tracking: Jira, ServiceNow
+Learning resources: OWASP Juice Shop, HackTheBox, PortSwigger Academy
+What We Need
+Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Data Science, Cybersecurity, Information Technology, or a related field
+Basic understanding of application security concepts (OWASP Top 10, common web vulnerabilities)
+Familiarity with at least one programming or scripting language (Python, JavaScript, Java, or similar)
+Understanding of web technologies (HTTP/S, REST APIs, JSON, authentication mechanisms)
+Ability to analyze security findings and communicate risks clearly
+Strong problem-solving skills and attention to detail
+Willingness to learn secure coding practices and security testing tools
+Desired Qualifications
+Exposure to SAST, DAST, or SCA tools (e.g., Checkmarx, ZAP, Burp Suite)
+Familiarity with Git, GitHub, or CI/CD pipelines
+Knowledge of secure SDLC principles
+Understanding of AI skills
+What You Will Need to Succeed
+Experience reviewing code for security issues
+Interest in vulnerability research and threat modeling
+Base Salary Band: $25 - $26/hr Compensation: At PatientPoint, we are committed to providing competitive pay and benefits that are in line with industry standards. We analyze and carefully consider several factors when determining compensation, including skills, qualifications, geographic location, and professional experience, which can cause your compensation to vary.
+About PatientPoint: PatientPoint® is the Point of Change company, transforming the healthcare experience through the strategic delivery of behavior-changing content at critical moments of care. As the nation’s largest and most impactful digital network in 30,000 physician offices, we connect patients, providers and health brands with relevant information that is proven to drive healthier decisions and better outcomes. Learn more at patientpoint.com.
+Latest News & Innovations:
+Named A Best Place to Work! Read More
+Mike Walsh, COO answers "What Makes a Great Leader". Read More
+Recognized on Vault’s Top Internship List. Read More
+What We Offer: We know you bring your whole self to work every day, and we are committed to supporting our full-time teammates with a comprehensive range of modernized benefits and cultural perks. We offer competitive compensation, flexible time off to recharge, hybrid work options, mental and emotional wellness resources, a 401K plan, and more. While these benefits are available to full-time team members, we strive to create a positive and supportive environment for all teammates.
+PatientPoint recognizes that privacy is important to you. Please read the PatientPoint privacy policy, we want you to be familiar with how we may collect, use, and disclose your information. Employer is EOE/M/F/D/V
