@@ -1,5 +1,135 @@
 [
   {
+    "company": "SiFive",
+    "role": "Intern Platform Technology",
+    "link": "https://sifive.wd1.myworkdayjobs.com/en-US/sifivecareers/job/Austin-Texas-United-States/Intern---Platform-Technology_R-101065",
+    "location": "6 locationsBoston, MAAustin, TXCambridge, UKSanta Clara, CABerkeley, CAMarseille, France",
+    "season": "2026 Summer",
+    "id": 4221,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong C++17 skills.",
+        "Familiarity with functional programming languages such as OCaml, Scala, Haskell, Lisp, or F#.",
+        "Experience with Linux operating systems and standard development environments.",
+        "Experience defining build rules in a build system.",
+        "Experience with formal systems (either hardware or software).",
+        "Experience with type checking.",
+        "Interest in hardware/computer architecture.",
+        "Experience with CIRCT/MLIR/LLVM."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "Product Engineer Intern",
+    "link": "https://jobs.lever.co/actian/a28a9ac3-70eb-4c5d-818b-d090b618df78/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4220,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "GE Vernova",
+    "role": "NPI Engineering Intern",
+    "link": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Stafford/NPI-Engineering-Intern_R5037154-1",
+    "location": "Stoke-on-Trent, UK",
+    "season": "2026 Summer",
+    "id": 4219,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "UK",
+      "qualifications": [
+        "Currently enrolled in a bachelor’s degree program",
+        "Bachelors in Computer Science/ Computer Networks/ Information Technology/ Software Engineering",
+        "Proficient in any programming language like C, C++, Python, Java, C#",
+        "Excellent organizational and multitasking skills, with attention to detail",
+        "Strong communication skills to work effectively with internal teams and suppliers",
+        "Analytical and problem-solving skills, with the ability to troubleshoot computing systems associated with networks",
+        "Strong organizational and time management skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "GE Vernova",
+    "role": "NPI Engineering Intern",
+    "link": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Stafford/NPI-Engineering-Intern_R5037154-2",
+    "location": "Stoke-on-Trent, UK",
+    "season": "2026 Summer",
+    "id": 4218,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "UK",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's Degree program",
+        "Hold a Bachelor's in Computer Science or related field",
+        "Proficient in programming languages like C, Python, Java, C#",
+        "Excellent organizational and multitasking skills",
+        "Strong communication skills",
+        "Possess analytical and problem-solving skills",
+        "Strong organizational and time management skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Delta Dental",
+    "role": "Intern - Application Development",
+    "link": "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101248",
+    "location": "East Lansing, MI",
+    "season": "2026 Summer",
+    "id": 4217,
+    "jd": null
+  },
+  {
+    "company": "Fortive",
+    "role": "Software Engineering Intern - AI Enablement",
+    "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9439",
+    "location": "Kansas City, MO",
+    "season": "2026 Summer",
+    "id": 4216,
+    "jd": null
+  },
+  {
+    "company": "Fortive",
+    "role": "Software Engineering Intern",
+    "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9437",
+    "location": "Minneapolis, MN",
+    "season": "2026 Summer",
+    "id": 4215,
+    "jd": null
+  },
+  {
+    "company": "Fortive",
+    "role": "Software Engineering Intern - AI Enablement",
+    "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9440",
+    "location": "Kansas City, MO",
+    "season": "2026 Summer",
+    "id": 4214,
+    "jd": null
+  },
+  {
+    "company": "Fortive",
+    "role": "Software Engineering Intern - AI Enablement",
+    "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9452",
+    "location": "Minneapolis, MN",
+    "season": "2026 Summer",
+    "id": 4213,
+    "jd": null
+  },
+  {
     "company": "Notion",
     "role": "Software Engineer Intern",
     "link": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application",
