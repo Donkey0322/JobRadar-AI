@@ -1,5 +1,172 @@
 [
   {
+    "company": "Notion",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/notion/5b15697c-fa91-4511-9482-c98a6ff29f90/application",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 4212,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a bachelor's or master’s degree in computer science, engineering, or related field.",
+        "Must graduate before Summer 2027.",
+        "Possess previous internship experience.",
+        "Working towards proficiency in one or more programming languages like Typescript, Node.js, or Python.",
+        "Enjoy discovering problems as much as solving them.",
+        "Able to problem-solve and adapt to changing priorities in a fast-paced, dynamic environment.",
+        "Enthusiastic about AI, having built or prototyped features with AI technologies.",
+        "Possess thoughtful problem-solving skills, able to decompose tricky problems.",
+        "Prioritize users, thinking critically about the implications of what you're building.",
+        "Flexible about technology, able to learn new technologies as you go.",
+        "Communicate nuanced ideas clearly and empathetically.",
+        "Be a collaborative team player.",
+        "Have expertise with specific technologies in our stack, including Typescript, React, Python.",
+        "Write clean, secure, tested, and documented code.",
+        "Design and enhance the Notion product with new AI-first capabilities.",
+        "Develop, fix, and debug full-stack software."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Verkada",
+    "role": "Backend Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/verkada/jobs/5099422007",
+    "location": "San Mateo, CA",
+    "season": "2026 Fall",
+    "id": 4211,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Able to work at Verkada HQ during Fall 2026.",
+        "Actively pursuing a Bachelor's or Master's degree in Computer Science or similar technical field.",
+        "Possess prior internship experience developing and launching products.",
+        "Familiar with Python or Golang.",
+        "Familiar with Distributed Systems.",
+        "Familiar with Operating Systems.",
+        "Familiar with AWS.",
+        "Familiar with Docker.",
+        "Comfortable working in an agile team software development environment.",
+        "Familiar with REST APIs (a plus).",
+        "Familiar with Linux servers (a plus)."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Verkada",
+    "role": "Frontend Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/verkada/jobs/5099529007",
+    "location": "San Mateo, CA",
+    "season": "2026 Fall",
+    "id": 4210,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Ability to work at Verkada HQ during Fall 2026",
+        "Actively pursuing a Bachelor's or Master's degree in Computer Science or similar technical field of study and graduating by June 2027",
+        "Have internship experience developing and launching products",
+        "Experience building reusable components, utilizing CSS pre-processors, and building pixel-perfect user interfaces",
+        "Proficient understanding of JavaScript or TypeScript, including contexts, prototypes/classes, and closures",
+        "Experience working with a modern web framework such as Angular.js, React, or Vue",
+        "Possess an eye for design, product details, and polish"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "AI Solutions Intern",
+    "link": "https://jobs.lever.co/actian/01c8697e-5880-4084-ac27-542d13306bce/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4209,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Actian",
+    "role": "AI Engineer - Database Performance Knowledge",
+    "link": "https://jobs.lever.co/actian/6638beee-45f5-46ac-9dc1-fbde7f1b5310/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4208,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Verkada",
+    "role": "iOS Engineering Intern - Native Streaming",
+    "link": "https://job-boards.greenhouse.io/verkada/jobs/5100623007",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 4207,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Ability to work at Verkada HQ",
+        "Actively pursue a degree in Computer Science",
+        "Proficient in Swift and iOS SDK",
+        "Experience writing multi-threaded, asynchronous code",
+        "Experience working with backend server APIs",
+        "Solid UI development and unit testing skills",
+        "Solid understanding of fundamental Computer Science concepts",
+        "Excellent interpersonal skills",
+        "Ability to work well alongside engineers of all levels"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Bot Auto",
+    "role": "Intern Software Engineer - Autonomous Driving Platform",
+    "link": "https://job-boards.greenhouse.io/botauto/jobs/5178234008",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4206,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in CS, Engineering, or related field.",
+        "Solid programming skills in C++, Python, or Go.",
+        "Experience delivering features or services in a collaborative team.",
+        "Familiarity with modern C++, memory management, and concurrency.",
+        "Understand CI/CD, containerization, and cloud platforms.",
+        "Comfort with structured data, APIs, and developer tooling.",
+        "Experience with autonomous driving simulation tools like Carla or LGSVL.",
+        "Familiarity with ROS or robotics software systems.",
+        "Background in OpenGL, OpenCV, or image processing libraries.",
+        "Exposure to real-time systems, fleet scheduling, or HMI design.",
+        "Experience with cross-platform systems or multi-component software integration.",
+        "Eager to learn and take ownership of challenging problems.",
+        "Strong communication and collaboration skills.",
+        "Committed to engineering excellence, clean code, and team success."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "CACI",
     "role": "Computer Science Intern/Co-op",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Computer-Science-Co-op-Intern---Fall-2026_324263",
