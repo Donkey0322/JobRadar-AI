@@ -1,0 +1,36 @@
+Company Introduction
+At Bot Auto, we are revolutionizing the transportation of goods with our cutting-edge autonomous trucks, enhancing the quality of life for communities around the globe. With the agility of a start-up and the wisdom of seasoned experts, Bot Auto boasts a team that has achieved numerous world-firsts and unparalleled innovations. United by a shared vision, we create miracles and propel the future of transportation. Join us and transform your dreams into reality.
+About the Role
+Our Platform Team develops and maintains the core systems that power our self-driving truck technology—including simulation engines, metric systems, cloud computing platforms, operational schedulers, and HMI solutions. We’re looking for a versatile software engineer with solid engineering fundamentals to join us in building scalable tools and infrastructure for autonomous driving.
+As a Software Engineer Intern on the Platform Team, you will contribute to the design, development, and integration of testing tools, backend services, front-end interfaces, and cloud infrastructure. You’ll work closely with senior engineers and cross-functional partners to deliver production-ready systems and internal tools that support the broader autonomous vehicle stack.
+Key Responsibilities
+System Development & Integration
+Contribute to the development of simulation systems, testing tools, metric pipelines, cloud infrastructure, and HMI modules
+Write production-quality code in C++, Python, or Go to support core platform features
+Write unit/integration tests, conduct code reviews, and maintain clear technical documentation
+Cloud & DevOps Support
+Assist in building and maintaining CI/CD pipelines (e.g., GitHub Actions, Jenkins)
+Support containerization and deployment processes using Docker and Kubernetes
+Help manage and scale services on AWS, GCP, or Azure
+Cross-functional Collaboration
+Partner with product managers, operations teams, and engineers from Perception, Planning, and Control
+Help define and clarify requirements and ensure smooth integration with the autonomous driving system
+Required Qualifications
+Education & Experience
+Currently pursuing a Bachelor's or Master's degree in Computer Science, Engineering, or a related field, with an expected graduation date in 2026 or early 2027.
+Solid programming skills in C++, Python, or Go
+End-to-end experience delivering features or services within a collaborative engineering team
+Technical Skills
+C++: Familiarity with modern C++ (C++11 and beyond), memory management, and concurrency
+Cloud & DevOps: Basic understanding of CI/CD, containerization, and cloud platforms
+Data Tools: Comfort working with structured data, APIs, and developer tooling
+Bonus Qualifications
+Experience with autonomous driving simulation tools such as Carla, LGSVL, or similar
+Familiarity with ROS or robotics software systems
+Background in OpenGL, OpenCV, or other graphics/image processing libraries
+Exposure to real-time systems, fleet scheduling, or HMI design
+Experience working on cross-platform systems or integrating complex multi-component software stacks
+Soft Skills
+Eagerness to learn and take ownership of challenging problems
+Strong communication and collaboration skills
+A commitment to engineering excellence, clean code, and team success
