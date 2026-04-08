@@ -1,5 +1,91 @@
 [
   {
+    "company": "ArteraAI",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.lever.co/artera/e404f923-0387-4086-8ab0-55988a1564d0/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4234,
+    "jd": null
+  },
+  {
+    "company": "RTX",
+    "role": "Software Engineer Intern",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2026---Onsite-_01832599",
+    "location": "Melbourne, FL",
+    "season": "2026 Summer",
+    "id": 4233,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a High School Diploma or equivalent",
+        "Pursue a Bachelor’s or advanced degree in an applicable discipline",
+        "Experience writing scripts or automation tools using Python",
+        "Familiarity with Linux based development environments",
+        "Understand software build systems or CI/CD pipelines",
+        "Interest in aerospace, embedded systems, or safety-critical software development",
+        "Familiarity with GitHub, GitLab, Jira, and requirements management tools",
+        "Complete coursework or projects related to embedded systems, software testing, or software engineering processes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Anduril",
+    "role": "Software Engineer Intern",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5071345007",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 4232,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, Engineering, Mathematics, Physics, or related field.",
+        "Be a rising senior returning to school for academic studies after the internship.",
+        "Familiarity with algorithms, data structures, storage systems, cloud infrastructure, front-end frameworks, and technical tools.",
+        "Proficiency in C++, Go, Rust, Java, and Python.",
+        "Desire to work on software and applications with real-world impact.",
+        "Bias for action to solve and fix problems.",
+        "Naturally curious about technologies and tools.",
+        "Low-ego, high ownership, and mission oriented."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Attentive",
+    "role": "AI Intern",
+    "link": "https://job-boards.greenhouse.io/attentive/jobs/4209296009",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4231,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build marketing automation workflows using AI coding tools.",
+        "Prototype solutions quickly to turn ideas into working demos.",
+        "Help design and test agent-driven workflows.",
+        "Iterate on existing systems by improving reliability, outputs, and performance.",
+        "Translate marketing problems into structured prompts, workflows, or lightweight code.",
+        "Document effective solutions and contribute to reusable patterns and playbooks.",
+        "Possess a builder mindset, inclined to create solutions.",
+        "Demonstrate AI curiosity and continuous learning about agents.",
+        "Have AI experience using tools like Claude Code, Codex, and Cursor.",
+        "Comfortable writing simple scripts in Python or JavaScript.",
+        "Comfortable working with APIs or structured data.",
+        "Comfortable using no-code or low-code tools to automate workflows.",
+        "Comfortable with ambiguity, with support and collaboration."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Cadence Design Systems",
     "role": "Software Intern 🎓",
     "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Intern_R54246",
