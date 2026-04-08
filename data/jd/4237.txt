@@ -1,0 +1,117 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "DDMI - Okemos"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Delta Dental Plan of Michigan, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Internship - Application Development",
+"@type" : "PropertyValue",
+"value" : "JR101251"
+},
+"datePosted" : "2026-04-08",
+"employmentType" : "PART_TIME",
+"title" : "Internship - Application Development",
+"description" : "Job Title: Internship - Application Development Number of Positions: 0 Location: Okemos, MI Location Specifics: Hybrid Position Job Summary: At Delta Dental of Michigan, Ohio, and Indiana we work to improve oral health through benefit plans, advocacy and community support, and we amplify this mission by investing in initiatives that build healthy, smart, vibrant communities. We are one of the largest dental plan administrators in the country, and are part of the Delta Dental Plans Association, which operates two of the largest dental networks in the nation. At Delta Dental, we celebrate our All In culture. It’s a mindset, feeling and attitude we wrap around all that we do – from taking charge of our careers, to helping colleagues and lending a hand in the community. Position Description We are looking for a highly talented and motivated undergraduate or graduate student who is pursuing a degree in Computer Science, Computer Engineering, or related technical fields. As an Application Development Intern, you will: Work on cutting-edge, large scale, enterprise business application platforms Contribute to our next-generation platform leveraging browser-based clients written in Angular, backed by Java based REST services, and highly scalable and complex backend systems, conforming to strict security standards. Gain first-hand experience on modern system architecture, such as Service-Oriented Architecture (SOA), Event-Driven Architecture (EDA), Web frameworks, and enabling technology such as REST, JSON, Kafka, containerization, RPA, content management systems etc. Apply the fundamentals from Computer Science/Engineering curriculum onto real-world problems. Communicate your work to other teams and develop your skills explaining technical subjects to a business audience A successful candidate will: Be self-motivated and able to contribute in a team setting Excel at problem solving, with strong analytical and critical thinking skills Have demonstrated experience programming in at least one of the mainstream languages such as Java, Python, C++, etc. Have some experience or knowledge in modern web application development languages and frameworks such as HTML/CSS, Angular/React etc. Show solid skills in data structure and algorithms design/analysis Have good understanding of software architecture, Object-Oriented (OO) analysis/design, and commonly used design patterns such as factory, composite, etc. #LI-Hybrid Minimum Requirements: Must be currently enrolled in an undergraduate or graduate program and have completed at least one course or equivalent experience with programming in Java, Python, C++, or other similar languages. The company will provide equal employment and advancement opportunity within the context of its unique business environment without regard to race, color, religion, gender, gender identity, gender expression, age, national origin, familial status, citizenship, genetic information, disability, sex, sexual orientation, marital status, pregnancy, height, weight, military status, or any other status protected under federal, state, or local law or ordinance. Delta Dental of Michigan, Ohio, and Indiana has been a dental benefits leader for more than 60 years, and today with our affiliates, we are one of the largest dental plan administrators in the country. It’s our mission to improve oral health through benefit plans, advocacy and community support, and we amplify this mission by making investments that build healthy, smart, vibrant communities. We celebrate diverse thought and foster a culture where employees go All In – for the company, themselves, their colleagues and their communities. Employees are offered a comprehensive benefits package that includes medical, dental and vision coverage, short- and long-term disability, life insurance, 401(k) savings plans, flexible spending accounts, and tuition reimbursement or educational assistance. Employees are also eligible for annual incentive compensation based on annual business goals. Additionally, employees receive eight hours of paid volunteer time each year, access to an on-staff health coach and personal trainer, plus many other perks. Delta Dental is an Equal Opportunity Employer.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "DDMI - Okemos"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Delta Dental Plan of Michigan, Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Internship - Application Development",
+"@type" : "PropertyValue",
+"value" : "JR101251"
+},
+"datePosted" : "2026-04-08",
+"employmentType" : "PART_TIME",
+"title" : "Internship - Application Development",
+"description" : "Job Title: Internship - Application Development Number of Positions: 0 Location: Okemos, MI Location Specifics: Hybrid Position Job Summary: At Delta Dental of Michigan, Ohio, and Indiana we work to improve oral health through benefit plans, advocacy and community support, and we amplify this mission by investing in initiatives that build healthy, smart, vibrant communities. We are one of the largest dental plan administrators in the country, and are part of the Delta Dental Plans Association, which operates two of the largest dental networks in the nation. At Delta Dental, we celebrate our All In culture. It’s a mindset, feeling and attitude we wrap around all that we do – from taking charge of our careers, to helping colleagues and lending a hand in the community. Position Description We are looking for a highly talented and motivated undergraduate or graduate student who is pursuing a degree in Computer Science, Computer Engineering, or related technical fields. As an Application Development Intern, you will: Work on cutting-edge, large scale, enterprise business application platforms Contribute to our next-generation platform leveraging browser-based clients written in Angular, backed by Java based REST services, and highly scalable and complex backend systems, conforming to strict security standards. Gain first-hand experience on modern system architecture, such as Service-Oriented Architecture (SOA), Event-Driven Architecture (EDA), Web frameworks, and enabling technology such as REST, JSON, Kafka, containerization, RPA, content management systems etc. Apply the fundamentals from Computer Science/Engineering curriculum onto real-world problems. Communicate your work to other teams and develop your skills explaining technical subjects to a business audience A successful candidate will: Be self-motivated and able to contribute in a team setting Excel at problem solving, with strong analytical and critical thinking skills Have demonstrated experience programming in at least one of the mainstream languages such as Java, Python, C++, etc. Have some experience or knowledge in modern web application development languages and frameworks such as HTML/CSS, Angular/React etc. Show solid skills in data structure and algorithms design/analysis Have good understanding of software architecture, Object-Oriented (OO) analysis/design, and commonly used design patterns such as factory, composite, etc. #LI-Hybrid Minimum Requirements: Must be currently enrolled in an undergraduate or graduate program and have completed at least one course or equivalent experience with programming in Java, Python, C++, or other similar languages. The company will provide equal employment and advancement opportunity within the context of its unique business environment without regard to race, color, religion, gender, gender identity, gender expression, age, national origin, familial status, citizenship, genetic information, disability, sex, sexual orientation, marital status, pregnancy, height, weight, military status, or any other status protected under federal, state, or local law or ordinance. Delta Dental of Michigan, Ohio, and Indiana has been a dental benefits leader for more than 60 years, and today with our affiliates, we are one of the largest dental plan administrators in the country. It’s our mission to improve oral health through benefit plans, advocacy and community support, and we amplify this mission by making investments that build healthy, smart, vibrant communities. We celebrate diverse thought and foster a culture where employees go All In – for the company, themselves, their colleagues and their communities. Employees are offered a comprehensive benefits package that includes medical, dental and vision coverage, short- and long-term disability, life insurance, 401(k) savings plans, flexible spending accounts, and tuition reimbursement or educational assistance. Employees are also eligible for annual incentive compensation based on annual business goals. Additionally, employees receive eight hours of paid volunteer time each year, access to an on-staff health coach and personal trainer, plus many other perks. Delta Dental is an Equal Opportunity Employer.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "rhsc",
+siteId: "delta_dental_of_michigan",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=rhsc&s=delta_dental_of_michigan",
+token: "89c16668-d3bd-4ca6-93af-4a914bb4d7bd",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#2DB035","textColor":"#2DB035"},"progressBar":{"color":"#2DB035"},"button":{"primary":{"color":"#FFFFFF","borderColor":"#2DB035","textColor":"#2DB035","hover":{"color":"#2DB035","borderColor":"#2DB035","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#2DB035","textColor":"#2DB035","hover":{"color":"#2DB035","borderColor":"#2DB035","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"d03f426bad43100514dafc667b460001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#2DB035","textColor":"#000000","image":{"id":"d03f426bad43100514dafbccfb290004","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

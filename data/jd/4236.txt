@@ -1,0 +1,119 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "East Aurora 1"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Moog Military Aircraft LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Software Engineering",
+"@type" : "PropertyValue",
+"value" : "R-26-17015"
+},
+"datePosted" : "2026-04-08",
+"validThrough" : "2026-04-15",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Software Engineering",
+"description" : "Moog is a performance culture that empowers people to achieve great things. Our people enjoy solving interesting technical challenges in a culture where everyone trusts each other to do the right thing. For you, working with us can mean deeper job satisfaction, better rewards, and a great quality of life inside and outside of work. Job Title: Intern, Software Engineering Reporting To: Manager, Engrg. Work Schedule: Onsite – Buffalo, NY The Software Engineering team within our Military Aircraft Group is seeking a summer block intern. The intern will have an onsite work schedule in East Aurora, NY To be considered for this role, here’s what you’ll need to bring with you: Enrolled in a Computer Engineering, Computer Science, Electrical Engineering, Industrial Engineering, Mechanical Engineering, or Software Engineering or other related Bachelor's or Master's Degree program, at an accredited university. GPA of at least 3.0; exact GPA requirement will be specified by department. Ability to relocate for the duration of the internship. Students within the Moog U.S. Internship Program are expected to have a professional disposition, effective communication skills, a strong desire to learn, a positive attitude, and the ability to work in a team environment. In this role you will: Contribute to the preparation and execution of key engineering tasks at Moog. Provide technical support to engineers, as needed. Provide input on project processes, strategies, and execution. Operate as a multidisciplinary member of a team of creative, independent individuals. Represent Moog in a manner consistent with its technical and professional reputation. How we care for you: Work/Life Balance: Flexible paid time off, holidays, and relocation assistance Collaborative and Welcoming Workplace: Inclusive culture rooted in our values, enhanced by Employee Resource Groups, and team-building activities. Additional site-specific benefits may be offered Salary Range Transparency: Buffalo, NY $25.00–$31.00 Hourly Salary Range Disclaimer The base salary range represents the low and high end of the Moog salary range for this position in the given work location. Actual salaries will vary depending on factors including but not limited to location, experience, and performance. The range(s) listed is just one component of Moog's total compensation package for employees. Other rewards may include annual bonuses, employee stock purchase plan, an open paid time off policy, and many region-specific benefits. This position requires access to U.S. export-controlled information. EOE/AA Minority/Female/Sexual Orientation/Gender Identity/Disability/Veteran Moog is an Equal Opportunity Employer, and as such affirms the right of every person to participate in all aspects of employment without regard to race, religion, color, national origin, citizenship, sex, sexual orientation, gender identity, age, veteran status, disability, genetic information, or any other protected characteristic. If you are interested in applying for employment and need special assistance or an accommodation to apply for a posted position, contact our Human Resources department via phone at 844-367-5787. No unsolicited agency submittals please. Agency partners must be invited to participate in a search by our Talent Acquisition Team and have signed terms in place prior to any submittal. Absent compliance with these pre-conditions resumes submitted directly to any Moog Inc. employee or affiliate will not qualify for fee payment, and therefore become the property of Moog Inc. No job matches right now? Drop your resume here and tell us about your career interests! Hear directly from our employees about why Moog is a great place to work!",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "East Aurora 1"
+}
+},
+"applicantLocationRequirements" : {
+"@type" : "Country",
+"name" : "United States of America"
+},
+"jobLocationType" : "TELECOMMUTE",
+"hiringOrganization" : {
+"name" : "Moog Military Aircraft LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern, Software Engineering",
+"@type" : "PropertyValue",
+"value" : "R-26-17015"
+},
+"datePosted" : "2026-04-08",
+"validThrough" : "2026-04-15",
+"employmentType" : "FULL_TIME",
+"title" : "Intern, Software Engineering",
+"description" : "Moog is a performance culture that empowers people to achieve great things. Our people enjoy solving interesting technical challenges in a culture where everyone trusts each other to do the right thing. For you, working with us can mean deeper job satisfaction, better rewards, and a great quality of life inside and outside of work. Job Title: Intern, Software Engineering Reporting To: Manager, Engrg. Work Schedule: Onsite – Buffalo, NY The Software Engineering team within our Military Aircraft Group is seeking a summer block intern. The intern will have an onsite work schedule in East Aurora, NY To be considered for this role, here’s what you’ll need to bring with you: Enrolled in a Computer Engineering, Computer Science, Electrical Engineering, Industrial Engineering, Mechanical Engineering, or Software Engineering or other related Bachelor's or Master's Degree program, at an accredited university. GPA of at least 3.0; exact GPA requirement will be specified by department. Ability to relocate for the duration of the internship. Students within the Moog U.S. Internship Program are expected to have a professional disposition, effective communication skills, a strong desire to learn, a positive attitude, and the ability to work in a team environment. In this role you will: Contribute to the preparation and execution of key engineering tasks at Moog. Provide technical support to engineers, as needed. Provide input on project processes, strategies, and execution. Operate as a multidisciplinary member of a team of creative, independent individuals. Represent Moog in a manner consistent with its technical and professional reputation. How we care for you: Work/Life Balance: Flexible paid time off, holidays, and relocation assistance Collaborative and Welcoming Workplace: Inclusive culture rooted in our values, enhanced by Employee Resource Groups, and team-building activities. Additional site-specific benefits may be offered Salary Range Transparency: Buffalo, NY $25.00–$31.00 Hourly Salary Range Disclaimer The base salary range represents the low and high end of the Moog salary range for this position in the given work location. Actual salaries will vary depending on factors including but not limited to location, experience, and performance. The range(s) listed is just one component of Moog's total compensation package for employees. Other rewards may include annual bonuses, employee stock purchase plan, an open paid time off policy, and many region-specific benefits. This position requires access to U.S. export-controlled information. EOE/AA Minority/Female/Sexual Orientation/Gender Identity/Disability/Veteran Moog is an Equal Opportunity Employer, and as such affirms the right of every person to participate in all aspects of employment without regard to race, religion, color, national origin, citizenship, sex, sexual orientation, gender identity, age, veteran status, disability, genetic information, or any other protected characteristic. If you are interested in applying for employment and need special assistance or an accommodation to apply for a posted position, contact our Human Resources department via phone at 844-367-5787. No unsolicited agency submittals please. Agency partners must be invited to participate in a search by our Talent Acquisition Team and have signed terms in place prior to any submittal. Absent compliance with these pre-conditions resumes submitted directly to any Moog Inc. employee or affiliate will not qualify for fee payment, and therefore become the property of Moog Inc. No job matches right now? Drop your resume here and tell us about your career interests! Hear directly from our employees about why Moog is a great place to work!",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "moog",
+siteId: "moog_external_career_site",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["cs-CZ","de-DE","en-US","es","fr-FR","it-IT","lt-LT","nl-NL","pt-BR","ja-JP","zh-CN","ko-KR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=moog&s=moog_external_career_site",
+token: "f7b19da5-d55c-4038-9b8b-7f130770c1fb",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#87212E","textColor":"#333D47"},"progressBar":{"color":"#87212E"},"button":{"primary":{"color":"#87212E","borderColor":"#333D47","textColor":"#FDFCFC","hover":{"color":"#87212E","borderColor":"#333D47","textColor":"#FDFCFC"}},"secondary":{"color":"#333D47","borderColor":"#87212E","textColor":"#E8EBED","hover":{"color":"#E8EBED","borderColor":"#87212E","textColor":"#333D47"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"526333edf4c41001f77da5dd3def0007","altText":null}},"banner":{"color":"#87212E","borderColor":"#87212E","textColor":"#FDFCFC","image":{"id":"526333edf4c41001f77da5dd3def0002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
