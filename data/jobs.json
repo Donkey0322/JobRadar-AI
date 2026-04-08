@@ -1,5 +1,31 @@
 [
   {
+    "company": "SoFi",
+    "role": "Intern – Software Engineer",
+    "link": "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
+    "location": "California",
+    "season": "2026 Summer",
+    "id": 4235,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited US-based university for a Bachelor's or Master's degree",
+        "Expected graduation date of December 2026 or Spring 2027",
+        "Returning to school for at least one quarter or semester after the internship",
+        "Have no more than 12 months of professional full-time work experience",
+        "Willing to relocate to San Francisco Bay Area for in-office work",
+        "Experience building software in a non-academic setting",
+        "Solid understanding of computer science fundamentals",
+        "Knowledge of algorithms, data structures, and systems architecture",
+        "Able to quickly learn new languages and adopt new technologies",
+        "Intellectual curiosity and an affinity for solving problems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "ArteraAI",
     "role": "Software Engineer Intern",
     "link": "https://jobs.lever.co/artera/e404f923-0387-4086-8ab0-55988a1564d0/apply",
