@@ -1,5 +1,525 @@
 [
   {
+    "company": "Rolls-Royce Motorcars",
+    "role": "Quality Systems Apex Intern",
+    "link": "https://jobs.bmwgroup.com/job/Spartanburg-Quality-Systems-Apex-Co-Op-(Fall-2026)-Sout/1381872233/?ats=successfactors",
+    "location": "Spartanburg, SC",
+    "season": "2026 Fall",
+    "id": 4259,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a degree in Computer Science, Information Technologies, Engineering, or a related field.",
+        "Possess experience with SQL programming.",
+        "Have experience in application development.",
+        "Proficient in Microsoft Office.",
+        "Maintain a minimum cumulative GPA of 3.0.",
+        "Be an enrolled student at an accredited four-year college or university in the United States.",
+        "Complete at least 30 credit hours by the time of application.",
+        "Work full-time on-site (40 hours/week).",
+        "Maintain a GPA from current university for transfer students.",
+        "Attach an unofficial transcript.",
+        "Pass a substance abuse test before the work term."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Electronic Arts",
+    "role": "Software Engineer Intern 🎓",
+    "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Frostbite/210911",
+    "location": "Orlando, FL",
+    "season": "2026 Fall",
+    "id": 4258,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a master's degree in a related field.",
+        "Experience with C#, C++ or similar object-oriented language.",
+        "Experience debugging applications with Visual Studio.",
+        "Enrolled in an accredited master's degree program in Fall 2026, graduating no earlier than Spring 2027."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TDS",
+    "role": "IT Intern – Software Engineer",
+    "link": "https://external-telecom-teldta.icims.com/jobs/29099/job?mobile=true&needsRedirect=false",
+    "location": "Madison, WIRemote in USA",
+    "season": "2026 Summer",
+    "id": 4257,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete at least 20+ working hours Monday - Friday 8:00 AM-5:00 PM CST.",
+        "Be 18+ years of age.",
+        "Currently pursuing an Associate’s or Bachelor’s degree in information systems, computer science, programming, business, or related field.",
+        "Have two or more semesters of related technology coursework.",
+        "Comfortable with Python, JavaScript, React.",
+        "Possess knowledge of Relational Database Management System concepts and SQL.",
+        "Possess basic knowledge of software development life cycle (SDLC).",
+        "Able to analyze complex technical information.",
+        "Exhibit excellent problem solving and logical thinking skills.",
+        "Possess excellent interpersonal skills, including strong verbal and written communication.",
+        "Able to plan and organize multiple tasks.",
+        "Proficient with Windows, Linux, MS Office, and various IDEs.",
+        "Exhibit solid work ethic and demonstrated ability to meet deadlines.",
+        "Assertive, proactive, and seek work and clarification on issues/concerns.",
+        "Self-motivated and able to act independently, demonstrate sound judgment.",
+        "Dependable, accountable, responsive, and committed to follow-through activities.",
+        "Able to work both independently and on team assignments."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altera Corporation",
+    "role": "FPGA Tools Engineer – Intern",
+    "link": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Tools-Engineer---Intern_R02343",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4256,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS Degree in Computer Science, Machine Learning or related fields",
+        "Proficient in Java/C/Python",
+        "Possess good technical, analytical, and communication skills",
+        "Exhibit passion to learn and prove yourself"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Axos Bank",
+    "role": "Software Development Intern",
+    "link": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern---Summer-2026_JR3504",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 4255,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Contribute to the design, development, and implementation of projects.",
+        "Work closely with the team.",
+        "Learn modern technologies, frameworks, and tools.",
+        "Collaborate with experienced engineers.",
+        "Deliver innovative solutions.",
+        "Assist in developing new features or modules.",
+        "Write clean, efficient, and maintainable code.",
+        "Demonstrate initiative and desire to learn.",
+        "Communicate progress and blockers effectively."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Citizens Financial Group",
+    "role": "Software Engineer Intern – Enterprise Technology & Security",
+    "link": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45976",
+    "location": "United States",
+    "season": "2026 Summer",
+    "id": 4254,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fortinet",
+    "role": "Software Development Intern",
+    "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22609",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 4253,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "Software Engineer Intern - Software Execution",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineer-Intern---Software-Execution_JR-0079895",
+    "location": "Grand Rapids, MI",
+    "season": "2026 Summer",
+    "id": 4252,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Expertise in at least one programming language.",
+        "Experience in C# and JavaScript.",
+        "Exposure to nodeJS or Angular.",
+        "Able to write and tune SQL queries.",
+        "Good foundation in algorithms, design patterns, and data structures.",
+        "Familiarity with Agile Scrum software development.",
+        "Knowledge of software/hardware setup and configuration.",
+        "Strong analytical and problem-solving skills.",
+        "Exceptional ability to work with cross-functional teams.",
+        "Work in a scrum development team environment.",
+        "Translate requirements into software development tasks.",
+        "Participate in architecture reviews.",
+        "Generate requirements documentation.",
+        "Proactive in taking on new tasks.",
+        "Able to learn and apply new tools and technologies."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/DD5B767858/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 4251,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Intern",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/63DEF1E57B/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 4250,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/B0B6133D55/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4249,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Westinghouse Electric Company",
+    "role": "Application Development Intern",
+    "link": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Application-Development-Intern-Summer-2026-NC/1380751200/?ats=successfactors",
+    "location": "Grove City, PA",
+    "season": "2026 Summer",
+    "id": 4248,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in computer science",
+        "Maintain a minimum GPA of 3.0",
+        "Completed Sophomore year of college",
+        "Write HTML, CSS, and JavaScript",
+        "Experience with object-oriented programming"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "APEX Analytix",
+    "role": "NET Application Developer Intern",
+    "link": "https://ats.rippling.com/apexanalytix-careers/jobs/e4557482-8bb2-4c04-a074-41566107e6f1",
+    "location": "Greensboro, NC",
+    "season": "2026 Summer",
+    "id": 4247,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist in ASP.Net/C#, .NET Core, and Typescript development",
+        "Support REST based services development including Web API and OData",
+        "Write queries using LINQ and Entity Framework",
+        "Participate in unit, integration, and systems testing",
+        "Assist in writing and maintaining SQL/Postgres queries and stored procedures",
+        "Support deployment of solutions to Kubernetes clusters",
+        "Collaborate with the development team during standups, code reviews, and sprint planning",
+        "Communicate with the team to identify and escalate roadblocks",
+        "Responsible for following corporate security policies and best practices",
+        "Foundational understanding of C# and object-oriented programming principles",
+        "Basic knowledge of SQL (writing queries, understanding joins and filters)",
+        "Familiarity with HTML, CSS, and JavaScript",
+        "Exposure to or coursework in .NET Core or ASP.NET",
+        "Basic understanding of version control systems (Git, TFS, or Gitea)",
+        "Strong problem-solving and analytical thinking skills",
+        "Eagerness to learn and adapt to new technologies",
+        "Exposure to TypeScript",
+        "Familiarity with Entity Framework or other ORM tools",
+        "Basic understanding of REST APIs and web services",
+        "Basic understanding of Design Patterns",
+        "Knowledge of DOM objects handling, jQuery, JavaScript, CSS",
+        "Awareness of agile development methodologies (Scrum, Kanban)",
+        "Coursework or personal projects involving web application development",
+        "Familiarity with Docker or Kubernetes concepts",
+        "Experience with any front-end frameworks or libraries (React, Angular, etc.)",
+        "Currently pursuing or recently completed a Bachelor's degree in Computer Science, Software Engineering, Information Technology, or a related field",
+        "No prior professional experience required",
+        "Academic projects, personal projects, hackathons, or prior internships are a plus",
+        "Agile Methodology awareness",
+        "Excellent communication skills",
+        "Strong willingness to learn and take initiative",
+        "Organizational and planning skills, including task completion with guidance",
+        "Commitment to excellent customer service and product development",
+        "Strong problem analysis and decision-making ability",
+        "Excellent interpersonal skills",
+        "Self-motivated and enthusiastic",
+        "Ability to continually evolve/improve productivity and learn new development trends"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tessera Labs",
+    "role": "Software Engineer Intern - Backend",
+    "link": "https://jobs.ashbyhq.com/tessera-labs/dce8d8e5-f169-4bdb-b1c2-f4754fca31e7/application",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4246,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently graduate with a degree in Computer Science, Engineering, or related field.",
+        "Familiar with Python and basic backend frameworks (FastAPI, Flask, or Django).",
+        "Understand basic databases (PostgreSQL, MySQL, or similar) and SQL queries.",
+        "Interested in distributed systems, cloud services, and scalable backend architectures.",
+        "Possess strong problem-solving skills and eagerness to learn.",
+        "Able to work in a fast-paced, collaborative startup environment.",
+        "Experienced with message queues, caching, or event-driven systems.",
+        "Exposed to AI/ML concepts or integrating models into applications.",
+        "Familiar with cloud platforms (AWS, GCP, or Azure).",
+        "Understand API design principles and RESTful conventions."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineering Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324254",
+    "location": "Van Buren Charter Township, MI",
+    "season": "2026 Summer",
+    "id": 4245,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Obtain and maintain a Top Secret U.S. Government Security Clearance.",
+        "Working towards a degree in Computer Science, Electrical Engineering, Physics, Math, or related field.",
+        "Interested in learning remote sensing technologies.",
+        "Proficient in programming languages like Python, Java, C++, or Javascript.",
+        "Possess excellent problem-solving and analytical skills.",
+        "Work effectively in a team environment and complete tasks independently.",
+        "Ability to work onsite.",
+        "Possess programming skills in an additional language.",
+        "Familiar with development in Linux and/or cloud environments (AWS preferred).",
+        "Knowledgeable in radar or electro-optical fields.",
+        "Experience with digital signal processing.",
+        "Knowledgeable in Scrum/Agile Development and Jira.",
+        "Write software implementing algorithms."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineer Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324256",
+    "location": "Van Buren Charter Township, MI",
+    "season": "2026 Summer",
+    "id": 4244,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Ability to obtain and maintain a Top Secret U.S. Government Security Clearance",
+        "Working toward a degree in Computer Science, Electrical Engineering, Physics, Math, or a related field",
+        "Interested in learning remote sensing technologies",
+        "Programming skills in Python, Java, C++, Javascript, or a similar language",
+        "Excellent problem-solving and analytical skills",
+        "Ability to work within a team environment to advance large software development packages",
+        "Ability to work onsite",
+        "Programming skills in an additional language",
+        "Familiarity developing in Linux and/or in a cloud environment (AWS preferred)",
+        "Knowledge of or background in radar or electro-optical fields",
+        "Academic experience in digital signal processing",
+        "Scrum/Agile Development knowledge and experience with Jira",
+        "Experience writing software implementing algorithms"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CACI",
+    "role": "Software Engineering Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324253",
+    "location": "Van Buren Charter Township, MI",
+    "season": "2026 Summer",
+    "id": 4243,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Ability to obtain and maintain a Top Secret U.S. Government Security Clearance",
+        "Working toward a degree in Computer Science, Electrical Engineering, Physics, Math, or a related field",
+        "Interested in learning remote sensing technologies",
+        "Proficient in Python, Java, C++, Javascript, or a similar programming language",
+        "Excellent problem-solving and analytical skills",
+        "Ability to work within a team environment and complete tasks independently",
+        "Ability to work onsite",
+        "Proficient in an additional programming language",
+        "Familiar with development in Linux and/or a cloud environment (AWS preferred)",
+        "Knowledgeable in radar or electro-optical fields",
+        "Experienced in academic digital signal processing",
+        "Knowledgeable in Scrum/Agile Development and experienced with Jira",
+        "Experienced writing software implementing algorithms"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Software Engineer Intern 🎓",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer-Intern_JR0281270",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 4242,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue MS or PhD degree in Computer Science, Computer Engineering, Electrical Engineering, or related discipline",
+        "Have 3+ months of experience in Agile and/or SCRUM model",
+        "Demonstrate working knowledge of .NET Stack with hands-on experience",
+        "Possess in-depth knowledge of Object-Oriented Programming (C#/WPF, Asp.Net, or Java)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "EarnIn",
+    "role": "Mobile Engineer Intern - iOS",
+    "link": "https://job-boards.greenhouse.io/earnin/jobs/7773844",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 4241,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently completed a Bachelor’s or Master’s in Computer Science or related field",
+        "Strong foundation in computer science fundamentals",
+        "Proficient in Swift with an interest in iOS development",
+        "Curious to learn or experience in front-end web development",
+        "Familiar with mobile development concepts or iOS frameworks",
+        "Curious and willing to learn",
+        "Able to communicate ideas clearly and collaborate effectively",
+        "Possess strong written and verbal communication skills",
+        "Excited to build user-facing products",
+        "Prior internship or project experience a plus"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Product Marketing Engineer Intern – Intern - AI & Automation",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7781953",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4240,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in CS or Engineering.",
+        "Commit to a 12-week summer internship.",
+        "Work in office 3-5 days a week in Austin.",
+        "Possess strong skills in TypeScript/JavaScript, React, and Tailwind CSS.",
+        "Build and consume RESTful APIs.",
+        "Work with SQL or NoSQL databases.",
+        "Be proficient with Git/GitHub.",
+        "Possess hands-on experience with AI coding environments.",
+        "Be a self-starter.",
+        "Take a technical requirement from 0 to 1.",
+        "Possess experience building and deploying projects on Cloudflare Developer Platform.",
+        "Possess previous experience in a startup environment.",
+        "Build independent projects in public."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "iSpot.tv",
+    "role": "Engineering",
+    "link": "https://job-boards.greenhouse.io/ispottv/jobs/4683077005",
+    "location": "Bellevue, WA",
+    "season": "2026 Summer",
+    "id": 4239,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, or related field",
+        "Completed at least two years of undergraduate coursework",
+        "Strong foundation in data structures, algorithms, and software design",
+        "Experienced with at least one programming language like Python, Java, or Go",
+        "Hands-on experience using AI coding tools",
+        "Proficient in Python or Java",
+        "Familiar with SQL basics",
+        "Exposed to Git and version control",
+        "Experienced with Linux/command line basics",
+        "Familiar with web frameworks or scripting",
+        "Strong curiosity and ability to work through ambiguous problems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Tessera Labs",
     "role": "Software Engineering Intern - Frontend",
     "link": "https://jobs.ashbyhq.com/tessera-labs/4614d053-2c8f-4317-8cd2-1d1290721b06/application",
