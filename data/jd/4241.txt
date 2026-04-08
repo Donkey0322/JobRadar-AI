@@ -1,0 +1,33 @@
+About EarnIn
+As one of the first pioneers of earned wage access, our passion at EarnIn is building products that deliver real-time financial flexibility for those with the unique needs of living paycheck to paycheck. Our community members access their earnings as they earn them, with options to spend, save, and grow their money without mandatory fees, interest rates, or credit checks.
+We’re fortunate to have an incredibly experienced leadership team, combined with world-class funding partners like A16Z, Matrix Partners, DST, Ribbit Capital, and a very healthy core business with a tremendous runway. We’re growing fast and are excited to continue bringing world-class talent onboard to help shape the next chapter of our growth journey.POSITION SUMMARY
+We are seeking a motivated iOS Engineering Intern to join our 12-week internship program. In this role, you will work on real-world mobile features that directly impact our community members and contribute to production iOS applications. You will collaborate closely with iOS, backend, product, and design teams to build intuitive, performant, and reliable mobile experiences. This is an opportunity to gain hands-on experience developing user-facing features, working with modern iOS technologies, and shipping code in a fast-paced fintech environment.
+This role requires hybrid work from our Mountain View office, with 2 days per week in person. The internship pays $30/hour, with an expected 40 hours per week over the 12-week program.
+WHAT YOU'LL DO
+Contribute to the development and enhancement of features in EarnIn’s iOS application and web surfaces
+Collaborate with backend engineers to integrate APIs and deliver seamless end-to-end user experiences
+Write clean, maintainable, and efficient Swift and React code following engineering best practices
+Participate in code reviews, testing, and debugging to ensure high-quality releases
+Work closely with product and design teams to translate requirements into intuitive mobile experiences
+Gain exposure to modern iOS and web development paradigms and tools
+Learn and apply best practices for performance, reliability, and usability in mobile applications
+WHAT YOU'LL LEARN
+How to build and ship production-quality features in a large-scale iOS and web application
+Best practices for writing clean, maintainable, and performant mobile code
+Fundamentals of mobile and web architecture and modern development paradigms
+How to collaborate with backend, product, and design teams to deliver end-to-end features
+Debugging, testing, and improving client-side performance and reliability
+Working in a fast-paced, product-driven environment with real user impact
+WHAT WE'RE LOOKING FOR
+Currently pursuing or recently completed a Bachelor’s or Master’s degree in Computer Science or a related technical field
+Strong foundation in computer science fundamentals, including data structures, algorithms, and debugging
+Proficiency in Swift with an interest in iOS development
+Curiosity to learn or experience in front end web development(e.g., HTML, CSS, JavaScript/TypeScript, React)
+Familiarity with mobile development concepts or iOS frameworks (e.g., UIKit or SwiftUI) is a plus
+Curiosity and willingness to learn
+Ability to communicate ideas clearly and collaborate effectively with cross-functional teams
+Strong written and verbal communication skills
+Excited to build user-facing products and improve the mobile experience for real users
+Prior internship or project experience is a plus, but not required
+#LI-HybridAt EarnIn, we believe that the best way to build a financial system that works for everyday people is by hiring a team that represents our diverse community. Our team is diverse not only in background and experience but also in perspective. We celebrate our diversity and strive to create a culture of belonging. EarnIn does not unlawfully discriminate based on race, color, religion, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, legally protected medical condition, family care status, military or veteran status, marital status, registered domestic partner status, sexual orientation, genetic information, or any other basis protected by local, state, or federal laws. EarnIn is an E-Verify participant.
+EarnIn does not accept unsolicited resumes from individual recruiters or third-party recruiting agencies in response to job postings. No fee will be paid to third parties who submit unsolicited candidates directly to our hiring managers or HR team.

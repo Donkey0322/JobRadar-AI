@@ -1,0 +1,47 @@
+Immigration / Work Authorization Notice: At this time, iSpot does not provide visa sponsorship or immigration support for this role. Applicants must already be authorized to work in the United States on a full-time, permanent basis without the need for current or future sponsorship.
+iSpot competes for the best talent. Our compensation packages consist of salary and equity in one of Seattle’s hottest start-ups, as well as other standard benefits. Most importantly, we provide a really interesting working experience, and the chance to contribute to the success of something great.
+What You'll Be Part Of: At iSpot.tv, you'll join a fast-moving engineering team building the industry-leading real-time TV advertising measurement platform.
+This internship is intentionally designed around AI-first software development. You will work alongside senior engineers to use AI code agents to build new systems and migrate existing ones, helping accelerate how we deliver software.
+You will not just learn engineering. You will help shape how modern engineering gets done.
+You will contribute to the development and maintenance of scalable systems that process billions of TV ad impressions daily, gaining hands-on experience across backend services, data pipelines, and cloud infrastructure.
+Responsibilities:
+● Use AI-ML code agents (for example, Kiro, Copilot, Claude, Cursor, or similar) to design, build, and migrate software systems
+● Take ownership of clearly scoped projects, delivering working, high-quality solutions
+● Partner with senior engineers to rethink how systems are built using AI-assisted workflows
+● Contribute to migrating or modernizing existing services, pipelines, or tools using AI-driven approaches
+● Write, test, and iterate on code with a strong emphasis on quality, maintainability, and performance
+● Participate in code reviews and incorporate feedback to improve both code and approach
+● Document your work, including:
+○ What you built
+○ How AI was used
+○ What worked and what did not
+● Share learnings with the team to help improve overall engineering productivity and practices
+Qualifications and Education Requirements:
+● Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, or a related field
+● Completion of at least two years of undergraduate coursework preferred
+● Strong foundation in data structures, algorithms, and software design principles
+● Experience with at least one programming language (Python, Java, Go, or similar)
+● Hands-on experience using AI coding tools (Kiro, Copilot, Codex, Claude, Cursor, etc.)
+Preferred Skills:
+● Python or Java (through coursework or personal projects)
+● Basic familiarity with SQL
+● Exposure to Git and version control concepts
+● Experience with Linux/command line basics
+● Familiarity with any web framework or scripting is a plus
+● Strong curiosity, willingness to learn, and ability to work through ambiguous problems
+What Success Looks Like
+● You complete one or more meaningful projects end-to-end
+● Your work meets high quality standards (readable, tested, production-ready)
+● You demonstrate effective use of AI tools and agents to accelerate development
+● You help document and share new patterns for AI-assisted engineering
+Additional Notes:
+● This is a hands-on, builder-focused internship, not a shadowing role
+● You will be expected to take ownership and deliver real outcomes
+● You will work both independently and collaboratively in a remote environment
+● This role is ideal for someone excited about the intersection of:
+○ AI
+○ software engineering
+○ Real-world impact at scale
+If you don't feel you met every single requirement for the role, don't rule yourself out. Please apply anyway!
+iSpot is an equal opportunity employer. All applicants will receive consideration for employment without regard to race, ethnicity, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please contact our HR team.
+California Residents applying for positions at iSpot can access our California Consumer Privacy Act here.
