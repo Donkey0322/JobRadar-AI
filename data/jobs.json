@@ -1,5 +1,38 @@
 [
   {
+    "company": "Amazon",
+    "role": "Software Development Engineer Intern",
+    "link": "https://amazon.jobs/en/jobs/10387163/software-development-engineer-internship-fall-2026-canada",
+    "location": "6 locationsWinnipeg, MB, CanadaToronto, ON, CanadaVictoria, BC, CanadaCalgary, AB, CanadaOttawa, ON, CanadaVancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 4269,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Experience with at least one general-purpose programming language",
+        "Experience with data structure implementation, basic algorithm development, or object-oriented design",
+        "Enrolled in a Bachelor's degree or above in Computer Science or related STEM fields",
+        "Able to work 40 hours/week for a 12-week internship",
+        "Expected conferral date between October 2026 and September 2029",
+        "Experience from previous technical internship(s) or project experience",
+        "Experience with AI tools for development and productivity",
+        "Experience with Cloud platforms (preferably AWS)",
+        "Experience with Database systems (SQL and NoSQL)",
+        "Experience contributing to open-source projects",
+        "Experience with Version control systems",
+        "Experience debugging and troubleshooting complex systems",
+        "Demonstrated ability to learn and adapt to new technologies quickly",
+        "Basic understanding of Software Development Lifecycle (SDLC)",
+        "Strong problem-solving and analytical skills",
+        "Excellent written and verbal communication skills"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "Cloudflare",
     "role": "Global Customer Services – AI Builder Intern",
     "link": "https://boards.greenhouse.io/cloudflare/jobs/7736663",
