@@ -1,5 +1,49 @@
 [
   {
+    "company": "Cloudflare",
+    "role": "Global Customer Services – AI Builder Intern",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7736663",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4268,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, Business or a related technical field",
+        "Basic experience with programming or scripting (e.g., JavaScript, Python, or similar)",
+        "Experience building AI Agents and / or other applications leveraging AI",
+        "Experience connecting disparate systems via REST APIs",
+        "Familiarity with web development concepts, APIs, RAG, Git or developer platforms",
+        "Strong problem-solving and analytical skills",
+        "Ability to learn quickly in a fast-paced technical environment",
+        "Strong communication and collaboration skills to explain complex technical AI concepts to non-technical stakeholders",
+        "Experience in a customer facing role",
+        "Experience deploying applications leveraging Cloudflare Workers AI"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Robert Bosch Venture Capital",
+    "role": "ETAS Agile Project Delivery Intern",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000119560837",
+    "location": "York, UK",
+    "season": "2026 Summer",
+    "id": 4267,
+    "jd": null
+  },
+  {
+    "company": "Concept Plus",
+    "role": "AI Development Intern",
+    "link": "https://ats.rippling.com/conceptplus/jobs/ba9c388a-7b1b-4779-b3b2-efc0e69154d7",
+    "location": "Fairfax, VA",
+    "season": "2026 Summer",
+    "id": 4266,
+    "jd": null
+  },
+  {
     "company": "Waystar",
     "role": "Application Engineer – Intern",
     "link": "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Lehi-UT/Application-Engineer---Intern_R2979-1",
