@@ -1,5 +1,144 @@
 [
   {
+    "company": "Waystar",
+    "role": "Application Engineer – Intern",
+    "link": "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Lehi-UT/Application-Engineer---Intern_R2979-1",
+    "location": "Lehi, UT",
+    "season": "2026 Summer",
+    "id": 4265,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be tech-savvy",
+        "Be solution-oriented",
+        "Be passionate about software development",
+        "Be passionate about problem-solving",
+        "Be passionate about building impactful tools"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ryder System",
+    "role": "Integration IT Developer Intern",
+    "link": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Miami-FL-33178/Integration-IT-Developer-Intern---Remote_R164517",
+    "location": "5 locationsMiami, FLSouth CarolinaGeorgiaNorth CarolinaMichigan",
+    "season": "2026 Summer",
+    "id": 4264,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess High School Diploma or equivalent",
+        "Currently enrolled in Computer Science or related IT field",
+        "Completed second or higher year of college",
+        "Experience with C#.NET (or C++) and SQL",
+        "Able to learn C#.NET and Microsoft Azure IPaaS concepts",
+        "Possess good communication skills with technical and non-technical teams",
+        "Demonstrate strong oral and written communication skills",
+        "Able to create and maintain professional relationships",
+        "Able to work independently and as part of a team",
+        "Flexible and self-driven in a fast-paced environment",
+        "Capable of multi-tasking and highly organized",
+        "Detail oriented with excellent follow-up",
+        "Possess general knowledge of business operations"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/E39B5461D5/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 4263,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Tencent",
+    "role": "Game Research & Development Intern - Engine Research 🎓",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Los-Angeles/Game-Research---Development-Intern--Engine-Research_R105487-1",
+    "location": "LA",
+    "season": "2026 Summer",
+    "id": 4262,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong coding skills in C++, Python, TensorFlow/Torch.",
+        "Solid knowledge in calculus, linear algebra, and basic numerical analysis.",
+        "Possess a strong sense of responsibility.",
+        "Demonstrate good communication skills.",
+        "Enrolled in a master's or Ph.D. level program.",
+        "Have publications on computer graphics/vision, machine learning, and robotics.",
+        "Familiar with game engine, graphics APIs, and GPU programming."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Software Engineering Intern 🎓",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering-Intern_JR0281271-1",
+    "location": "Hillsboro, OR",
+    "season": "2026 Summer",
+    "id": 4261,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a MS degree in Electrical Engineer, Computer Science Engineering, Computer Engineering, Systems Engineering or Mechanical Engineering or related field.",
+        "Have 1+ years of experience in a Lab or Industry setup.",
+        "Possess hands-on experience.",
+        "Experience with Agile SW development, validation and applications model."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Zendesk",
+    "role": "Software Engineer Intern",
+    "link": "https://zendesk.wd1.myworkdayjobs.com/zendesk/job/Austin-Texas-United-States-of-America/Software-Engineer-Intern_R34607",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4260,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Computer Science, IT, or related Master's or Bachelor's program.",
+        "Returning to school following the completion of the internship.",
+        "Possess foundational knowledge of object-oriented programming languages.",
+        "Understand API concepts and software architecture principles.",
+        "Familiar with version control systems like Git/GitHub.",
+        "Aware of Agile Scrum methodologies.",
+        "Write clear and concise technical documentation.",
+        "Fluent in English.",
+        "Experience with Node.js, Python, or Bash scripting.",
+        "Exposed to cloud computing concepts like AWS, GCP, or Azure.",
+        "Understand iPaaS and low-code platforms.",
+        "Basic understanding of CI/CD pipelines.",
+        "Familiar with logging and monitoring tools.",
+        "Familiar with cloud databases.",
+        "Demonstrate interest in automation using AI, machine learning, or NLP."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Rolls-Royce Motorcars",
     "role": "Quality Systems Apex Intern",
     "link": "https://jobs.bmwgroup.com/job/Spartanburg-Quality-Systems-Apex-Co-Op-(Fall-2026)-Sout/1381872233/?ats=successfactors",
