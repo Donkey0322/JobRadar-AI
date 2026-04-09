@@ -1,0 +1,31 @@
+A Career with Point72's L/S Equities Team
+Long/Short Equity is Point72’s core strategy and its success is dependent upon our sector-based investing teams. Using fundamental research, our research analysts inform the investment strategies of our portfolio managers. Through our Point72 University, you have access to an unparalleled training and coaching curriculum to help foster your success. We offer you a clear path based on your abilities, willingness to work hard, and performance. Join us if you're looking for a career at the forefront of investing.
+THE AI ENGINEER INTERNSHIPWe are a fundamental equity investing team focused primarily on the technology sector. We are seeking an AI engineer intern to work closely with us to build custom software, internal tools, and workflow automations that improve research efficiency and decision-making. This is a hands-on role for a student who enjoys building practical tools in a fast-paced, intellectually rigorous environment. You will help design and implement software that supports our day-to-day investment workflows, data organization, research processes, and team productivity.
+what you’ll do
+Gain exposure to building internal software tools to improve the team’s research and operating workflows
+Gain exposure to developing automations for various tasks across research, data collection, note organization, and internal reporting
+Gain exposure to creating applications, scripts, dashboards, and utilities for internal use
+Help structure and integrate data from multiple sources into usable internal workflows
+Work directly with the investors on identifying bottlenecks and designing practical technical solutions
+Assist with prototyping quickly, iterating based on feedback, and shipping tools that have immediate impact
+SUMMER INTERNSHIP PROGRAM AT POINT72
+In addition to the learning and development you'll receive in your day-to-day role with your team, as a part of our summer internship program you will:
+Work alongside your fellow interns and be mentored by experienced professionals
+Meet your peers through designated intern programming, volunteer opportunities, and social events
+Attend sessions with senior leaders discussing their expertise and career paths
+Get hands-on access to best-in-class tools and resources
+Gain exposure to groups and functions with unique responsibilities and perspectives on our industry
+Develop technical, writing, and presentation skills
+WHAT'S REQUIRED
+Currently pursuing a bachelor's degree in computer science, computer engineering, or a closely related field
+Commitment to the highest ethical standards
+Hands-on programming experience in Python and familiarity with SQL or equivalent data query languages
+Practical experience implementing or integrating AI models or AI APIs into applications
+Experience with LLM workflows, developer tools, browser automation, or internal tooling
+Familiarity with SQL, JavaScript/TypeScript, data visualization, or cloud-based development
+Experience building dashboards, research tools, or workflow software
+Prior internship, research, or project work demonstrating initiative and technical maturity
+Commitment to the highest ethical standards
+ABOUT POINT72
+Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry's brightest talent by cultivating an investor-led culture and committing to our people's long-term growth. For more information, visit https://point72.com/.
+The annual base salary is $130,000-$1450,000 (USD) which will be prorated based on internship start and end date. Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things.

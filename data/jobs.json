@@ -1,5 +1,585 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71947/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 4295,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, or Electrical Engineering",
+        "Preferred standing of a Junior or higher",
+        "Obtain a Secret security clearance within a reasonable amount of time",
+        "Meet eligibility requirements for access to classified information"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Engineering Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71884/job?mobile=true&needsRedirect=false",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 4294,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology",
+        "Enroll in an accredited degree program in Computer, Systems, Software, Electrical, or Mechanical Engineering",
+        "Have a standing of sophomore or higher"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Belden",
+    "role": "Software Engineering Intern",
+    "link": "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380960800/?ats=successfactors",
+    "location": "Rochester, NY",
+    "season": "2026 Summer",
+    "id": 4293,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a relevant engineering or computer science degree",
+        "Basic knowledge of software development techniques and tools",
+        "Experienced with compiled and scripting languages",
+        "Familiar with networking concepts",
+        "Exposed to relational databases",
+        "Willing to research and integrate external software packages",
+        "Experienced with web application development and JavaScript frameworks",
+        "Exposed to time-series databases and SNMP"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Belden",
+    "role": "Software Engineering Intern",
+    "link": "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380970600/?ats=successfactors",
+    "location": "Rochester, NY",
+    "season": "2026 Summer",
+    "id": 4292,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Computer Engineering, Software Engineering, or Computer Science degree.",
+        "Completed at least two years of degree (one year for graduate students).",
+        "Possess basic knowledge of software development techniques and tools.",
+        "Experience with both a compiled language and a scripting language (Python preferred).",
+        "Familiarity with networking concepts, including IP addressing, sockets, and routing.",
+        "Exposure to relational databases (MySQL, SQLite, or similar).",
+        "Willingness to research and integrate external software packages.",
+        "Experience with web application development and JavaScript frameworks (Node, Angular).",
+        "Exposure to time-series databases and SNMP."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Belden",
+    "role": "Software Engineering Intern",
+    "link": "https://careers.belden.com/job/Rochester-Software-Engineering-Coop-NY-14623/1380965600/?ats=successfactors",
+    "location": "Rochester, NY",
+    "season": "2026 Summer",
+    "id": 4291,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing Computer/Software Engineering or Computer Science degree (2+ years completed).",
+        "Possess basic knowledge of software development techniques and tools.",
+        "Experienced with a compiled and a scripting language (Python preferred).",
+        "Familiar with networking concepts (IP addressing, sockets, routing).",
+        "Exposed to relational databases (MySQL, SQLite, or similar).",
+        "Willing to research and integrate external software packages.",
+        "Experienced with web application development and JavaScript frameworks (Node, Angular).",
+        "Exposed to time-series databases and SNMP."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Firemon",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.lever.co/firemon/6071bd55-2b14-4da9-8b67-542f2a025137/apply",
+    "location": "Kansas City, KS",
+    "season": "2026 Summer",
+    "id": 4290,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382415233/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4289,
+    "jd": null
+  },
+  {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382416533/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4288,
+    "jd": null
+  },
+  {
+    "company": "Tradeweb",
+    "role": "Tradeweb International Intern Program - JavaScript UI Developer - Technology Division",
+    "link": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301721",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4287,
+    "jd": null
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Engineering Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/BOSTON-02/Software-Engineering-Intern_R52450",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4286,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a bachelor's degree program in Computer Science or a related field.",
+        "Proficient in C and C++ programming languages.",
+        "Familiar with Qt, Visual Studio, and Perforce (preferred).",
+        "Excellent verbal and written communication skills.",
+        "Excellent debug and problem-solving skills.",
+        "Strong curiosity and a passion for learning."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Engineering Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/BOSTON-02/Software-Engineering-Intern_R52449",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4285,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Fluent in Python or C++ or Java",
+        "Deep understanding of analytical geometry",
+        "Willing to read research papers on a variety of topics",
+        "Work with a small group of senior developers in a pair programming style",
+        "Talking knowledge of various machine learning techniques",
+        "Deep passion to write software",
+        "Ability to communicate complex ideas"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Aprio",
+    "role": "Intern AI & Automation Engineering",
+    "link": "https://jobs.lever.co/Aprio/9e6ecbf0-3945-4d49-a8bd-ae70e9caba4b/apply",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 4284,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Engineering Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BOSTON-02/Software-Engineering-Intern_R52449-1",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4283,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Fluent in Python, C++, or Java.",
+        "Possess deep understanding of analytical geometry.",
+        "Willing to read research papers on a variety of topics.",
+        "Collaborate with senior developers in pair programming.",
+        "Familiar with various machine learning techniques.",
+        "Have a deep passion for writing software.",
+        "Communicate complex ideas effectively."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cadence Design Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BOSTON-02/Software-Engineering-Intern_R52450-1",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4282,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a bachelor's degree program for Computer Science or related field",
+        "Proficient in C and C++ programming languages",
+        "Familiarity with Qt, Visual Studio, and Perforce preferred",
+        "Excellent verbal and written communication skills",
+        "Excellent debug and problem-solving skills",
+        "Strong curiosity and a passion for learning"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Onto Innovation",
+    "role": "Software Engineer Intern",
+    "link": "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Budd-Lake-NJ/Software-Engineer-Internship_R-5711",
+    "location": "Stanhope, NJ",
+    "season": "2026 Summer",
+    "id": 4281,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or related field.",
+        "Completed sophomore or junior year.",
+        "Familiar with C# or C++.",
+        "Possess excellent problem-solving skills.",
+        "Demonstrate strong communication and collaboration skills.",
+        "Be highly inquisitive and eager to learn.",
+        "Proficient in C#/.NET.",
+        "Interested in the semiconductor industry.",
+        "Interested in machine vision, algorithms, or HW/SW interactions."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Toshiba Global Commerce",
+    "role": "Agentic Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5103766007",
+    "location": "Frisco, TX",
+    "season": "2026 Summer",
+    "id": 4280,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be local to Raleigh/Durham, NC area.",
+        "Familiarity with LLM integration frameworks.",
+        "Knowledge of Agentic System concepts.",
+        "Pursue a Computer Science/Engineering major in undergraduate studies.",
+        "Excellent analytical skills.",
+        "Work effectively in a fast-paced, team-based environment.",
+        "Strong communication and interpersonal skills.",
+        "Possess strong programming skills.",
+        "Aptitude for problem determination and debugging.",
+        "Demonstrate attention to detail.",
+        "Communicate effectively in English.",
+        "Participate in agile SDLC using project management tools.",
+        "Use code versioning tools like Git or SVN.",
+        "Experience with software development using Java, C++, or similar.",
+        "Experience with modern web development using HTML5, JavaScript, CSS, and JS frameworks."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Uline",
+    "role": "Software Developer Intern",
+    "link": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/Software-Developer-Internship---Summer-2026_R262813",
+    "location": "5 locationsWaukegan, ILMilwaukee, WIPleasant Prairie, WIMorton Grove, ILKenosha, WI",
+    "season": "2026 Summer",
+    "id": 4279,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Participate in full stack application design and development.",
+        "Collaborate in an Agile Scrum team to develop software.",
+        "Develop software using Java, Angular, C#, .NET, JPA, and SQL.",
+        "Troubleshoot and resolve software-related issues.",
+        "Maintain code using unit testing.",
+        "Use GIT to track source code changes.",
+        "Work with business analysts to gather requirements.",
+        "Be a Junior-status college student.",
+        "Pursue a bachelor’s degree in IT, Computer Science, or a related field.",
+        "Have two semesters of programming experience.",
+        "Possess strong collaboration skills.",
+        "Possess strong communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Application Development Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Fishers-Indiana/Application-Development---Summer-Intern_R-10381706",
+    "location": "Fishers, IN",
+    "season": "2026 Summer",
+    "id": 4278,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue a bachelor's degree in Computer Science, Data Science, Management Information Systems, Cybersecurity, Technical Project Management, or other Technology Degrees.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess unrestricted U.S. work authorization.",
+        "Have 0-2 years of professional work experience.",
+        "Knowledge of Microsoft .NET, C# / C / C++, ASP .NET.",
+        "Knowledge of Java, JavaScript, JCL, Oracle, Linux.",
+        "Knowledge of Power BI or ReactJS.",
+        "Advanced knowledge of Excel and PowerPoint.",
+        "Experience working in a fast-paced environment.",
+        "Possess flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Athena Health",
+    "role": "Software Engineering Intern",
+    "link": "https://athenahealth.wd1.myworkdayjobs.com/en-US/External/job/Boston-MA/XMLNAME-2026-Summer-Software-Engineering-Intern_R13769",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 4277,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a passion to learn and make a difference developing enabling technologies",
+        "Ability to learn and adapt quickly",
+        "Experience reading and writing code in a programming language",
+        "Experience working collaboratively towards project goals and deadlines",
+        "Enrolled in a full-time Computer Science or relevant technical academic program"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cotiviti",
+    "role": "Temporary Intern - Business Systems Analyst",
+    "link": "https://careers-cotiviti.icims.com/jobs/18432/job?mobile=true&needsRedirect=false",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4276,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in a technical area, with expected graduation this year.",
+        "Preferred coursework in Healthcare Systems and Operations.",
+        "Possess strong relationship-building and customer orientation skills.",
+        "Proficient with Microsoft Office Suite.",
+        "Work effectively independently and in a team environment.",
+        "Interact sensitively and diplomatically with business users.",
+        "Translate business needs into product features.",
+        "Apply consistent and effective critical thinking skills.",
+        "Exhibit strict attention to detail in actions and documentation.",
+        "Work with a sense of urgency.",
+        "Possess strong organizational skills, including thorough documentation.",
+        "Demonstrate strong written and verbal communication skills.",
+        "Maintain a professional demeanor in communications.",
+        "Exhibit a positive and helpful demeanor with stakeholders.",
+        "Practice active listening skills.",
+        "Manage multiple tasks simultaneously, prioritize, and meet deadlines.",
+        "Maintain strict confidentiality of sensitive information.",
+        "Be driven and a self-starter.",
+        "Adapt flexibly to an ever-changing environment.",
+        "Work effectively within a matrix organization.",
+        "Communicate with others to exchange information.",
+        "Solve problems and think critically.",
+        "Complete tasks independently.",
+        "Interpret data.",
+        "Make timely decisions in a workflow context.",
+        "Maintain focus.",
+        "Remain in a stationary position for prolonged periods.",
+        "Perform repeating motions with wrists, hands, or fingers.",
+        "Provide high-speed internet access and office setup.",
+        "Provide a dedicated, secure work area."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Baird",
+    "role": "Intern - Automation & AI Solutions",
+    "link": "https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---Automation---AI-Solutions--Milwaukee--WI-_R2026441-1",
+    "location": "Milwaukee, WI",
+    "season": "2026 Summer",
+    "id": 4275,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in Computer Science, Data Science, Information Systems, or a related field.",
+        "Anticipate graduation date of May 2027 or later.",
+        "Proficient in at least one programming language (Python preferred).",
+        "Possess working knowledge of SQL and relational data concepts.",
+        "Demonstrate curiosity and enthusiasm for automation and artificial intelligence.",
+        "Able to clearly communicate technical concepts to non-technical stakeholders.",
+        "Possess a self-starter mindset to take ownership and prioritize effectively.",
+        "Strong problem-solving skills and high attention to detail.",
+        "Comfortable working collaboratively with cross-functional teams."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Trane Technologies",
+    "role": "Engineering Intern",
+    "link": "https://careers.tranetechnologies.com/global/en/job/92502599",
+    "location": "St Paul, MN",
+    "season": "2026 Summer",
+    "id": 4274,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a performance-driven, innovative leader",
+        "Understand the importance of collaboration and customer focus",
+        "Collaborate with others to foster effective teamwork",
+        "Exhibit zeal for new information, knowledge, and experiences",
+        "Rapidly resolve problems to maximize customer satisfaction",
+        "Establish courses of action for efficient work",
+        "Prioritize tasks based on importance",
+        "Willingness to be mobile and relocate anywhere in the United States",
+        "Pursue a BS/MS in Computer Science, Computer Engineering, or Software Engineering",
+        "Achieve a cumulative overall GPA at or above 3.0",
+        "Have at least one internship or work experience",
+        "Demonstrated leadership skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Point72",
+    "role": "AI Engineer Intern - Long/Short Equities",
+    "link": "https://boards.greenhouse.io/point72/jobs/8500448002",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4273,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in computer science or related field.",
+        "Commit to the highest ethical standards.",
+        "Possess hands-on programming experience in Python and SQL.",
+        "Implement or integrate AI models or APIs into applications.",
+        "Work with LLM workflows, developer tools, or internal tooling.",
+        "Be familiar with SQL, JavaScript/TypeScript, or cloud development.",
+        "Build dashboards, research tools, or workflow software.",
+        "Demonstrate initiative and technical maturity through prior work."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Cypress Creek Renewables",
+    "role": "AI Automation Intern",
+    "link": "https://ccrenew.com/careers/job-listing/?gh_jid=7793341",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 4272,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Engineering, Business, Data Science, or related field",
+        "Strong interest in AI, automation, and digital transformation",
+        "Familiarity with AI tools such as Claude, ChatGPT, Microsoft Copilot, or similar platforms",
+        "Basic understanding of automation tools (n8n, Zapier, Power Automate) is a plus",
+        "Exposure to agentic AI concepts is preferred but not required",
+        "Strong analytical and problem-solving skills",
+        "Ability to translate business needs into technical solutions",
+        "Excellent communication and collaboration skills",
+        "Possess speed, curiosity, and creativity",
+        "Experience with scripting (Python, JavaScript) or APIs",
+        "Familiarity with process mapping or business analysis",
+        "Exposure to cloud platforms (AWS) or SaaS tools",
+        "Interest in finance, operations, or renewable energy"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Bot Auto",
+    "role": "Intern Software Engineer-Operation Platforms",
+    "link": "https://job-boards.greenhouse.io/botauto/jobs/5182922008",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4271,
+    "jd": null
+  },
+  {
+    "company": "Bot Auto",
+    "role": "Intern Software Engineer-AI Agents",
+    "link": "https://job-boards.greenhouse.io/botauto/jobs/5182929008",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 4270,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue Bachelor\nPursue Bachelor’s or Master’s in Computer Science or related field",
+        "Strong programming skills in Python, Go, Java, or JavaScript/TypeScript",
+        "Solid understanding of data structures, algorithms, and software engineering fundamentals",
+        "Familiarity with machine learning or large language models",
+        "Strong curiosity about AI systems and eagerness to explore new technologies",
+        "Hands-on experience with LLM APIs or agent frameworks",
+        "Experience building backend systems, APIs, or distributed systems",
+        "Familiarity with prompt engineering, RAG, or vector databases",
+        "Exposure to evaluation methods for AI systems",
+        "Experience with cloud platforms or containerization",
+        "Interest in applying AI to real-world problems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Amazon",
     "role": "Software Development Engineer Intern",
     "link": "https://amazon.jobs/en/jobs/10387163/software-development-engineer-internship-fall-2026-canada",
