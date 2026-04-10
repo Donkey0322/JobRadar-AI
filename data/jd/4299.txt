@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Oak Brook"
+}
+},
+"hiringOrganization" : {
+"name" : "The Chamberlain Group LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Software Development myQ Middleware (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "JR29900"
+},
+"datePosted" : "2026-04-10",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Software Development myQ Middleware (Summer 2026)",
+"description" : "About Chamberlain Group: Chamberlain Group is a global leader in access solutions. Our leading brands like LiftMaster, Chamberlain, Merlin and Grifco are found in millions of homes and commercial applications across the globe. Our innovative products powered by the myQ digital ecosystem provide customers with smart access solutions to move safely through garages, homes, communities, businesses, and storage facilities. At Chamberlain Group, we hire smart people to work on cool products for a connected world. About our Internship Program: At Chamberlain Group, our interns work on real, meaningful projects that are at the center of our business strategy and our company’s transformation. Our program offers you: Development &amp; Skills Training: We offer informative workplace success sessions to hone your skills, covering topics from time management to effective communication. Networking: Events are open to interns and full-time employees to encourage early-career networking and guidance opportunities. Mentorship: You’ll be assigned a full-time employee as your mentor who will guide you throughout your program. Conversations with Leaders: Meet with and learn from our CEO and other leaders at CG through intimate and authentic Q&amp;A sessions. Community Giving: Attend volunteer outings with other interns to give back in the community. Essential Duties and Responsibilities: In this role, you will be responsible for applying knowledge of software engineering principles and practices in assisting with developing and maintaining development platforms for the Chamberlain’s myQ program. This includes middleware that serves as the foundation for myQ residential and commercial platforms. To accomplish this, you’ll will work with other developers and other functions including Engineering, Product Ownership, Marketing, Quality Assurance, Operations, and Customer Service to understand and translate product requirements into technical requirements, verify development matches product owner expectations, and maintain a high-quality code base. Essential Functions: Work using Agile methodologies such as Scrum to develop middleware Analyze requirements, collaborate with architects and senior engineers to produce thoughtful software designs of moderate scope and complexity Participate in peer reviews and pull requests to yield high quality software Contribute to technical discussions in community of practice, design review, or other technical meeting forums Ensure adherence to coding standards and other best practices to create reusable code Minimum Qualifications: Currently pursuing a bachelor’s or master’s degree in in computer engineering, computer science, software engineering, information systems, electrical engineering, or a related field in a program of study at an accredited college or university Must be able to work from our Oakbrook, IL office (15 miles west of Chicago) 3 days a week Preferred Qualifications: Understanding of OOP, SOLID, and RESTful services Basic understanding of dependency injection and cloud development Good communication skills and the ability to work cross functionally with front end and quality engineers Ability to debug, troubleshoot, and self-diagnose issues in software development Ability to interface with scrum team, product owners, and scrum masters for ticket/issue management Experience with Git or similar code version control tools We are currently only considering applicants for internship and co-op positions who do not require employment sponsorship now or in the future. Candidates working on OPT authorization will not be considered. Chamberlain Group wants all of its employees to succeed and encourages people of all backgrounds to apply. We’re proud to be an Equal Opportunity Employer, and you’ll be considered for this role regardless of race, color, religion, sex, national origin, age, sexual orientation, ancestry; marital, disabled or veteran status. We’re committed to fostering an environment where people of all lived experiences feel welcome. Persons with disabilities who anticipate needing accommodations for any part of the application process may contact, in confidence Recruiting@Chamberlain.com. Chamberlain Group (CG) is a global leader in intelligent access and Blackstone portfolio company. Powered by our myQ technology, we make access simple and secure for millions of homeowners, businesses, and communities worldwide. Our flagship brands, LiftMaster® and Chamberlain® , are found in 51+ million homes, and 14 million+ people rely on the myQ® app daily. Chamberlain Group also includes Systems, LLC, a leading manufacturer of loading dock equipment for over 60 years, and Controlled Products Systems Group, a leading wholesale distributor of access control equipment in the U.S. Follow us on LinkedIn and Instagram.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "Oak Brook"
+}
+},
+"hiringOrganization" : {
+"name" : "The Chamberlain Group LLC",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Software Development myQ Middleware (Summer 2026)",
+"@type" : "PropertyValue",
+"value" : "JR29900"
+},
+"datePosted" : "2026-04-10",
+"employmentType" : "FULL_TIME",
+"title" : "Intern - Software Development myQ Middleware (Summer 2026)",
+"description" : "About Chamberlain Group: Chamberlain Group is a global leader in access solutions. Our leading brands like LiftMaster, Chamberlain, Merlin and Grifco are found in millions of homes and commercial applications across the globe. Our innovative products powered by the myQ digital ecosystem provide customers with smart access solutions to move safely through garages, homes, communities, businesses, and storage facilities. At Chamberlain Group, we hire smart people to work on cool products for a connected world. About our Internship Program: At Chamberlain Group, our interns work on real, meaningful projects that are at the center of our business strategy and our company’s transformation. Our program offers you: Development &amp; Skills Training: We offer informative workplace success sessions to hone your skills, covering topics from time management to effective communication. Networking: Events are open to interns and full-time employees to encourage early-career networking and guidance opportunities. Mentorship: You’ll be assigned a full-time employee as your mentor who will guide you throughout your program. Conversations with Leaders: Meet with and learn from our CEO and other leaders at CG through intimate and authentic Q&amp;A sessions. Community Giving: Attend volunteer outings with other interns to give back in the community. Essential Duties and Responsibilities: In this role, you will be responsible for applying knowledge of software engineering principles and practices in assisting with developing and maintaining development platforms for the Chamberlain’s myQ program. This includes middleware that serves as the foundation for myQ residential and commercial platforms. To accomplish this, you’ll will work with other developers and other functions including Engineering, Product Ownership, Marketing, Quality Assurance, Operations, and Customer Service to understand and translate product requirements into technical requirements, verify development matches product owner expectations, and maintain a high-quality code base. Essential Functions: Work using Agile methodologies such as Scrum to develop middleware Analyze requirements, collaborate with architects and senior engineers to produce thoughtful software designs of moderate scope and complexity Participate in peer reviews and pull requests to yield high quality software Contribute to technical discussions in community of practice, design review, or other technical meeting forums Ensure adherence to coding standards and other best practices to create reusable code Minimum Qualifications: Currently pursuing a bachelor’s or master’s degree in in computer engineering, computer science, software engineering, information systems, electrical engineering, or a related field in a program of study at an accredited college or university Must be able to work from our Oakbrook, IL office (15 miles west of Chicago) 3 days a week Preferred Qualifications: Understanding of OOP, SOLID, and RESTful services Basic understanding of dependency injection and cloud development Good communication skills and the ability to work cross functionally with front end and quality engineers Ability to debug, troubleshoot, and self-diagnose issues in software development Ability to interface with scrum team, product owners, and scrum masters for ticket/issue management Experience with Git or similar code version control tools We are currently only considering applicants for internship and co-op positions who do not require employment sponsorship now or in the future. Candidates working on OPT authorization will not be considered. Chamberlain Group wants all of its employees to succeed and encourages people of all backgrounds to apply. We’re proud to be an Equal Opportunity Employer, and you’ll be considered for this role regardless of race, color, religion, sex, national origin, age, sexual orientation, ancestry; marital, disabled or veteran status. We’re committed to fostering an environment where people of all lived experiences feel welcome. Persons with disabilities who anticipate needing accommodations for any part of the application process may contact, in confidence Recruiting@Chamberlain.com. Chamberlain Group (CG) is a global leader in intelligent access and Blackstone portfolio company. Powered by our myQ technology, we make access simple and secure for millions of homeowners, businesses, and communities worldwide. Our flagship brands, LiftMaster® and Chamberlain® , are found in 51+ million homes, and 14 million+ people rely on the myQ® app daily. Chamberlain Group also includes Systems, LLC, a leading manufacturer of loading dock equipment for over 60 years, and Controlled Products Systems Group, a leading wholesale distributor of access control equipment in the U.S. Follow us on LinkedIn and Instagram.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "chamberlain",
+siteId: "Chamberlain_Group",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=chamberlain&s=Chamberlain_Group",
+token: "e950bee1-2f3b-4459-accc-f8e1bb9075e5",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#45BFB0","textColor":"#217DB6"},"progressBar":{"color":"#45BFB0"},"button":{"primary":{"color":"#002F6C","borderColor":"#002F6C","textColor":"#FFFFFF","hover":{"color":"#D9E1E2","borderColor":"#002F6C","textColor":"#002F6C"}},"secondary":{"color":"#D9E1E2","borderColor":"#D9E1E2","textColor":"#002F6C","hover":{"color":"#217DB6","borderColor":"#217DB6","textColor":"#D9E1E2"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"156b8262a9d11000bf50ffc901640000","altText":null}},"banner":{"color":"#002F6C","borderColor":"#D9E1E2","textColor":"#FFFFFF","image":{"id":"156b8262a9d11000c02bfa5b69ec0000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
