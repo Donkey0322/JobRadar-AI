@@ -1,0 +1,25 @@
+Pioneering Medicines (PM) is dedicated to conceiving and developing a broad portfolio of life-changing treatments by leveraging and expanding the use of Flagship’s multiple bioplatforms and Flagship’s proprietary innovation process. By harnessing the power of Flagship’s first-in-category platforms, Pioneering Medicines creates and advances novel medicines, partnering with Flagship companies to accelerate the extension of their portfolios into new areas and show that the platform can be applied more broadly, thereby delivering benefits to more patients, sooner. With a highly experienced drug development team and access to the wide ecosystem of Flagship companies, Pioneering Medicines is well positioned to conceive new medicine ideas both internally and in collaboration with strategic partners and advance these assets through to significant value inflection. Pioneering Medicines currently has multiple programs ongoing with plans to have more than 20 programs in 2025-2026. Pioneering Medicines works with external strategic partners including Novo Nordisk, Pfizer, and the Cystic Fibrosis Foundation and continues to engage in discussions on potential partnerships.
+Co-op: Digital Tools & AI Builder — CMC TechOps at Flagship Pioneering
+Overview
+We're looking for a builder. Someone who sees a messy spreadsheet, a clunky workflow, or tedious manual tasks and thinks: “I could fix that”. You'll join the Technical Operations team at Pioneering Medicines and use the latest tools like Claude Code, Cursor, ChatGPT, and more to build real applications; dashboards, automation tools, data pipelines, AI-powered workflows, that our team uses every day to develop medicines.
+This isn't a "shadow someone and take notes" co-op. You'll own projects end to end, launch things people rely on, have the freedom to pick the tools and approaches that make sense, and have access to best-in-class tools & expertise. If you've been building side projects, hacking on AI tools, or just love the feeling of making something that works, this is your chance to do it at a company developing 20+ drug programs across multiple modalities and diseases areas.
+What You'll Actually Do
+You'll work across nearly every function in TechOps, process and analytical development, portfolio & program management, finance, contracts, and regulatory building tools that make these teams faster and smarter. Some examples of what's on the table:
+Build and iterate on React-based dashboards and internal web apps that track drug development portfolios, resource forecasting, and program milestones
+Create AI-powered workflows to automate document generation, data extraction, and reporting
+Connect data across systems (Smartsheet, SharePoint, Benchling, and others) into unified, usable tools
+Prototype new approaches, if you find a better way to solve a problem, pitch it and build it
+Work directly with senior leaders across CMC functions to understand their pain points and turn them into working software
+What We're Looking For
+Currently pursuing an undergraduate or graduate degree in Computer Science, Data Science, Engineering, or a related field
+Hands-on experience building applications - not just coursework, but ideally projects you can show us (GitHub repos, deployed apps, and side projects all count)
+Familiarity with at least some of: React/JavaScript, Python, HTML/CSS, SQL, or similar
+Experience with or strong interest in AI-assisted development tools (Cursor, Claude Code, GitHub Copilot, Replit Agent, etc.)
+Comfort working with ambiguity, you'll often get a problem, not a spec
+Ability to work on-site in Cambridge, MA
+Bonus Points
+You've built something with an LLM API (Claude, OpenAI, etc.)
+Experience with data visualization libraries (Recharts, D3, Plotly)
+Familiarity with life sciences, pharma, or drug development
+You've contributed to open-source projects or have a portfolio/blog showing your work
+The pay range for this role is $25 - $35 per hour. This role is a short-term engagement that is not eligible for health and welfare benefits. Retirement benefits may be available after completing a set number of hours. Compensation and benefits information is based on Pioneering Medicines's good faith estimate as of the date of publication and may be modified in the future.

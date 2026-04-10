@@ -1,5 +1,30 @@
 [
   {
+    "company": "Flagship Pioneering",
+    "role": "Digital Tools & AI Builder CMC Techops Co-op",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8499501002",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 4298,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an undergraduate or graduate degree in Computer Science, Data Science, Engineering, or a related field",
+        "Possess hands-on experience building applications and projects",
+        "Be familiar with React/JavaScript, Python, HTML/CSS, SQL, or similar",
+        "Have experience with or strong interest in AI-assisted development tools",
+        "Comfortably work with ambiguity",
+        "Built something with an LLM API (Claude, OpenAI, etc.)",
+        "Possess experience with data visualization libraries (Recharts, D3, Plotly)",
+        "Be familiar with life sciences, pharma, or drug development",
+        "Contributed to open-source projects or have a portfolio/blog"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Software Engineer Intern",
     "link": "https://careers-gdms.icims.com/jobs/71986/job?mobile=true&needsRedirect=false",
