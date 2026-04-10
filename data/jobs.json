@@ -1,5 +1,165 @@
 [
   {
+    "company": "NAV CANADA",
+    "role": "Junior Software Developer Co-op",
+    "link": "https://navcanada.wd10.myworkdayjobs.com/NAV_Careers/job/Ottawa/Jr-Software-Developer-Coop_JR-7911",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4304,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Understand core programming concepts, data structures, and software development fundamentals.",
+        "Be familiar with operating systems and basic software architecture principles.",
+        "Possess strong oral and written communication skills.",
+        "Work effectively both independently and as part of a collaborative, team-based environment.",
+        "Be curious, adaptable, and self-motivated with a strong interest in learning new technologies.",
+        "Be a registered full-time student.",
+        "Return to full-time studies in the fall 2026.",
+        "Be legally able to work in Canada."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Generac",
+    "role": "IT Intern – Web Development",
+    "link": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Waukesha-WI---USA/IT-Intern---Web-Development_JR13465",
+    "location": "Waukesha, WI",
+    "season": "2026 Summer",
+    "id": 4303,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in a Bachelor\n\n's or Master\n\n's degree program.",
+        "Experienced with coding or programming (.Net).",
+        "Possess technical aptitude and problem-solving ability.",
+        "Able to follow oral and written instructions.",
+        "Effective communication skills and attention to detail.",
+        "Pursue a degree in Computer Science, Data Science, or IT.",
+        "Prior experience with coding projects, website design, or technical troubleshooting.",
+        "Possess basic web development knowledge (HTML, CSS, JavaScript).",
+        "Familiar with web frameworks (Angular, Vue).",
+        "Knowledge of version control systems (Git, GitHub, GitLab).",
+        "Knowledge of project/backlog management systems (ADO, Jira).",
+        "Knowledge of UI/UX principles and web accessibility standards."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Qualitest",
+    "role": "Digital Engineering CoE Intern",
+    "link": "https://careers.qualitestgroup.com/job/Santa-Clara-Digital-Engineering-CoE-Intern-CA-95054/54914944/?ats=successfactors",
+    "location": "California",
+    "season": "2026 Summer",
+    "id": 4302,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an undergraduate degree in Computer Science or a related field",
+        "Available to start within 1 week",
+        "Possess basic knowledge of programming concepts",
+        "Strong willingness to learn and grow in a technical environment",
+        "Able to work remotely from the U.S."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "Procurement Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Atlanta-GA-United-States/Procurement-Intern_JR-0088786-1",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 4301,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be an innovative thinker",
+        "Be an extraordinary teammate",
+        "Be a self-starter",
+        "Seek to be a future leader",
+        "Be a full-time student at an accredited U.S. college or university",
+        "Actively pursue a degree in Computer Science, Data Science, Engineering, Business Analytics, Supply Chain, or related field",
+        "Be a sophomore, junior, or senior",
+        "Support development of AI and automation prototypes for Procurement use cases",
+        "Assist with data preparation, testing, validation, and documentation",
+        "Collaborate with Procurement, IT, and AI teams to translate business needs into technical solutions",
+        "Contribute to building an internal developer platform",
+        "Have an interest in AI/ML, automation, and modern developer tools",
+        "Have programming or data analysis experience",
+        "Participate in various Future Talent Programming events"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "iHeartMedia",
+    "role": "Software Engineer Intern",
+    "link": "https://iheartmedia.wd5.myworkdayjobs.com/External_iHM/job/San-Antonio-TX-Stone-Oak/Software-Engineer-Intern_Req37982-2",
+    "location": "San Antonio, TX",
+    "season": "2026 Summer",
+    "id": 4300,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a team player.",
+        "Possess knowledge of JavaScript, HTML, CSS, and Test tools.",
+        "Desirable to have database knowledge.",
+        "Collaborate with a small team.",
+        "Assist in developing UI components and Backend APIs.",
+        "Write test cases for functional testing.",
+        "Create SQL scripts.",
+        "Conduct research and analysis on new tools and technologies.",
+        "Prepare and deliver reports.",
+        "Learn job processes and requirements.",
+        "Possess working knowledge of React/NodeJS/Typescript/Python.",
+        "Have hands-on experience in HTML, CSS, and testing technologies.",
+        "Preferred to have knowledge of Relational/NoSQL databases.",
+        "Exhibit excellent written and spoken communication skills.",
+        "Able to work independently and efficiently.",
+        "Possess knowledge of the cloud.",
+        "Have a career interest in the media industry."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Chamberlain Group",
+    "role": "Intern Software Developer Myq Middleware",
+    "link": "https://chamberlain.wd1.myworkdayjobs.com/Chamberlain_Group/job/Oak-Brook-IL/Intern---Software-Development-myQ-Middleware--Summer-2026-_JR29900",
+    "location": "Western Springs, IL",
+    "season": "2026 Summer",
+    "id": 4299,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s or master’s degree in computer engineering, computer science, software engineering, information systems, electrical engineering, or a related field.",
+        "Ability to work from the Oakbrook, IL office 3 days a week.",
+        "Understand OOP, SOLID, and RESTful services.",
+        "Possess a basic understanding of dependency injection and cloud development.",
+        "Good communication skills and ability to work cross-functionally.",
+        "Ability to debug, troubleshoot, and self-diagnose software issues.",
+        "Ability to interface with scrum teams, product owners, and scrum masters.",
+        "Experience with Git or similar code version control tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Flagship Pioneering",
     "role": "Digital Tools & AI Builder CMC Techops Co-op",
     "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8499501002",
