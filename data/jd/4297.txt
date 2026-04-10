@@ -1,0 +1,344 @@
+{"hiringOrganization":{"@type":"Organization","name":"General Dynamics Mission Systems, Inc","sameAs":"https://gdmissionsystems.com/"},"validThrough":"2027-04-10T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"8201 E McDowell Road","@type":"PostalAddress","postalCode":"85257","addressLocality":"Scottsdale","addressRegion":"AZ","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Basic Qualifications <\/h2>\n<p>Candidates should demonstrate a thorough understanding of engineering technology.&nbsp; Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, other related scientific or technical discipline with a preference for a standing of a Junior or higher.&nbsp;&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Department of Defense&nbsp;Secret security clearance is&nbsp;preferred at time of hire. Candidates must be able to obtain a Secret clearance within a reasonable amount of time from date of hire. Applicants selected will be subject to a U.S. Government security investigation and must meet eligibility requirements for access to classified information. Due to the nature of work performed within our facilities, U.S. citizenship is required.<\/p>\n<h2>Responsibilities for this Position<\/h2>\n<p><strong>REPRESENTATIVE DUTIES AND TASKS:<\/strong><\/p>\n<p>Apply your classroom-learned skills to a program supporting the defense of our country. GDMS has an immediate opening for an Engineering Intern to join our team. The position provides an opportunity to work on projects that support some of our nation\u2019s fundamental defense services. GDMS employees work closely with esteemed customers to develop solutions that allow them to carry out high-stakes national security missions.<\/p>\n<p>&nbsp;<\/p>\n<p>The selected candidate will work with collaborative teams on various technical projects associated with our core mission. In addition to receiving a competitive wage, the Engineering Intern will enhance their skill set by working among a talented and technically accomplished group of colleagues. Interns will also enjoy a flexible work environment where contributions are recognized and rewarded.<\/p>\n<p>&nbsp;<\/p>\n<p>#LI-Hybrid<\/p>\n<h2>Salary Note<\/h2>Hidden (255973)\n<h2>Combined Salary Range<\/h2>USD $29.00 - USD $29.00 /Yr.\n<h2>Company Overview<\/h2>\n<p>General Dynamics Mission Systems (GDMS) engineers a diverse portfolio of high technology solutions, products and services that enable customers to successfully execute missions across all domains of operation. With a global team of 12,000+ top professionals, we partner with the best in industry to expand the bounds of innovation in the defense and scientific arenas. Given the nature of our work and who we are, we value trust, honesty, alignment and transparency. We offer highly competitive benefits and pride ourselves in being a great place to work with a shared sense of purpose. You will also enjoy a flexible work environment where contributions are recognized and rewarded. If who we are and what we do resonates with you, we invite you to join our high-performance team!<\/p>\n<p>Equal Opportunity Employer / Individuals with Disabilities / Protected Veterans<\/p>","directApply":true,"datePosted":"2026-04-10T00:00:00.000Z","title":"Software Engineer - Intern","occupationalCategory":"Engineering-Software","@context":"http://schema.org","url":"https://careers-gdms.icims.com/jobs/71986/software-engineer---intern/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Find a Job - General Dynamics Mission Systems Software Engineer - Intern in Scottsdale, Arizona | Careers at HAZSD01-Scottsdale-8201 E McDowell Rd
+var isMobile = true;
+var link = 'https://careers-gdms.icims.com/connect/interests?csrf=F833F30401A415B8&hashed=-435801947';
+var _c2a = _c2a || [];
+_c2a.push(['View', '71986', null, 'Software Engineer - Intern in Scottsdale, Arizona | Careers at HAZSD01-Scottsdale-8201 E McDowell Rd']);
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+var isNewAesthetics = true;
+var mobileWidthThreshold = 550;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_180.1.0.260320-fcc7c3838d0-11-2/script/portal/login.js');
+var jobId = "71986";
+var fbJobId = "aee3e56a-9085-338e-a98a-9aa384292815";
+var icimsSD = {"person":{},"companyName":"General Dynamics Mission Systems","env":"prod","job":{"zipCode":"85257","jid":71986,"jobUrls":[{"name":"GDMS Career Portal","url":"https://careers-gdms.icims.com/jobs/71986/software-engineer---intern/job"}],"location":"Scottsdale, Arizona, United States","title":"Software Engineer - Intern"},"version":"1.015","key":"1","cid":"ILAB02GxHO1KKA8/ev3hIie8lGFz/yKDbSsGIQY1UbD8iWcrO2P3Fcsw1ckQ"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-gdms.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"3oJw79PuXM6sDDZMr","type":"careers"},"release":"180.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":2498,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave4","build":"platform_180.1.0.260320-fcc7c3838d0-11-2","customerGAAccount":"UA-49239540-5","icimsGAAnonymizeIP":true,"customerId":"6B6zRSPcMJktn3sr","region":"US","job":{"positionType":"not set","company":"HAZSD01-Scottsdale-8201 E McDowell Rd","location":{"zip":"85257","country":"USA","city":"Scottsdale","state":"AZ"},"id":"2emHHjjsvnKM5k5SC","idRaw":71986,"title":"Software Engineer - Intern","category":"Engineering-Software","postedDate":"2026-04-09"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"General Dynamics Mission Systems, Inc","sameAs":"https://gdmissionsystems.com/"},"validThrough":"2027-04-10T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"8201 E McDowell Road","@type":"PostalAddress","postalCode":"85257","addressLocality":"Scottsdale","addressRegion":"AZ","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Basic Qualifications <\/h2>\n<p>Candidates should demonstrate a thorough understanding of engineering technology.&nbsp; Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, other related scientific or technical discipline with a preference for a standing of a Junior or higher.&nbsp;&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Department of Defense&nbsp;Secret security clearance is&nbsp;preferred at time of hire. Candidates must be able to obtain a Secret clearance within a reasonable amount of time from date of hire. Applicants selected will be subject to a U.S. Government security investigation and must meet eligibility requirements for access to classified information. Due to the nature of work performed within our facilities, U.S. citizenship is required.<\/p>\n<h2>Responsibilities for this Position<\/h2>\n<p><strong>REPRESENTATIVE DUTIES AND TASKS:<\/strong><\/p>\n<p>Apply your classroom-learned skills to a program supporting the defense of our country. GDMS has an immediate opening for an Engineering Intern to join our team. The position provides an opportunity to work on projects that support some of our nation\u2019s fundamental defense services. GDMS employees work closely with esteemed customers to develop solutions that allow them to carry out high-stakes national security missions.<\/p>\n<p>&nbsp;<\/p>\n<p>The selected candidate will work with collaborative teams on various technical projects associated with our core mission. In addition to receiving a competitive wage, the Engineering Intern will enhance their skill set by working among a talented and technically accomplished group of colleagues. Interns will also enjoy a flexible work environment where contributions are recognized and rewarded.<\/p>\n<p>&nbsp;<\/p>\n<p>#LI-Hybrid<\/p>\n<h2>Salary Note<\/h2>Hidden (255973)\n<h2>Combined Salary Range<\/h2>USD $29.00 - USD $29.00 /Yr.\n<h2>Company Overview<\/h2>\n<p>General Dynamics Mission Systems (GDMS) engineers a diverse portfolio of high technology solutions, products and services that enable customers to successfully execute missions across all domains of operation. With a global team of 12,000+ top professionals, we partner with the best in industry to expand the bounds of innovation in the defense and scientific arenas. Given the nature of our work and who we are, we value trust, honesty, alignment and transparency. We offer highly competitive benefits and pride ourselves in being a great place to work with a shared sense of purpose. You will also enjoy a flexible work environment where contributions are recognized and rewarded. If who we are and what we do resonates with you, we invite you to join our high-performance team!<\/p>\n<p>Equal Opportunity Employer / Individuals with Disabilities / Protected Veterans<\/p>","directApply":true,"datePosted":"2026-04-10T00:00:00.000Z","title":"Software Engineer - Intern","occupationalCategory":"Engineering-Software","@context":"http://schema.org","url":"https://careers-gdms.icims.com/jobs/71986/software-engineer---intern/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Search Again
+Returning Candidate?
+Log back in!
+Software Engineer - Intern
+Posted Date
+13 hours ago(4/10/2026 1:44 AM)
+ID
+2026-71986
+Job Location
+US-AZ-Scottsdale
+Required Clearance
+Secret, obtainable within reasonable time based on requirements
+Category
+Engineering-Software
+Employment Type
+Intern
+Hiring Company
+General Dynamics Mission Systems, Inc.
+Basic Qualifications
+Candidates should demonstrate a thorough understanding of engineering technology. Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, other related scientific or technical discipline with a preference for a standing of a Junior or higher. Department of Defense Secret security clearance is preferred at time of hire. Candidates must be able to obtain a Secret clearance within a reasonable amount of time from date of hire. Applicants selected will be subject to a U.S. Government security investigation and must meet eligibility requirements for access to classified information. Due to the nature of work performed within our facilities, U.S. citizenship is required.
+Responsibilities for this Position
+REPRESENTATIVE DUTIES AND TASKS:Apply your classroom-learned skills to a program supporting the defense of our country. GDMS has an immediate opening for an Engineering Intern to join our team. The position provides an opportunity to work on projects that support some of our nation’s fundamental defense services. GDMS employees work closely with esteemed customers to develop solutions that allow them to carry out high-stakes national security missions. The selected candidate will work with collaborative teams on various technical projects associated with our core mission. In addition to receiving a competitive wage, the Engineering Intern will enhance their skill set by working among a talented and technically accomplished group of colleagues. Interns will also enjoy a flexible work environment where contributions are recognized and rewarded. #LI-Hybrid
+Salary Note
+Hidden (255973)
+Combined Salary Range
+USD $29.00 - USD $29.00 /Yr.
+Company Overview
+General Dynamics Mission Systems (GDMS) engineers a diverse portfolio of high technology solutions, products and services that enable customers to successfully execute missions across all domains of operation. With a global team of 12,000+ top professionals, we partner with the best in industry to expand the bounds of innovation in the defense and scientific arenas. Given the nature of our work and who we are, we value trust, honesty, alignment and transparency. We offer highly competitive benefits and pride ourselves in being a great place to work with a shared sense of purpose. You will also enjoy a flexible work environment where contributions are recognized and rewarded. If who we are and what we do resonates with you, we invite you to join our high-performance team!Equal Opportunity Employer / Individuals with Disabilities / Protected Veterans
+Apply
+Apply for this job onlineApplyShareRefer this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Need help finding the right job?
+We can recommend jobs specifically for you!
+Click here to get started.
+Interested in this opportunity? Socialize this job opportunity to a friend, colleague, or family member:
+(function(d, s, id) {
+var js;
+if (d.getElementById(id) || typeof(icimsAsyncLoadScript) === 'undefined') return;
+var jobtargetJssdkParams = new Array();
+jobtargetJssdkParams['id'] = id;
+jobtargetJssdkParams['data-applicant-info'] = 'false';
+icimsAsyncLoadScript('https://analytics.click2apply.net/ats/icims/v1.0.js', jobtargetJssdkParams);
+}(document, 'script', 'jobtarget-jssdk'));
+General Dynamics is an Equal Opportunity/Affirmative Action Employer that is committed to hiring a diverse and talented workforce. EOE/Disability/Veteran.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

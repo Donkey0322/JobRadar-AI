@@ -1,5 +1,25 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/71986/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 4297,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, or Electrical Engineering.",
+        "Prefer a standing of a Junior or higher.",
+        "Possess or obtain a Department of Defense Secret security clearance."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Fortive",
     "role": "AI / Software Engineering Intern",
     "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9464",
