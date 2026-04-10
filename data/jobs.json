@@ -1,5 +1,169 @@
 [
   {
+    "company": "Vanguard",
+    "role": "Application Engineer Intern/Co-op",
+    "link": "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---Charlotte_177074",
+    "location": "Charlotte, NC",
+    "season": "2026 Fall",
+    "id": 4311,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Able to start in September and end in mid-late March.",
+        "Able to work a hybrid model, with 3 days onsite.",
+        "Pursuing a degree in a related field or equivalent experience.",
+        "Possess 0-3 years of developer experience.",
+        "Good written and oral communication skills.",
+        "Good analysis and problem-solving skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "The Aerospace Corporation",
+    "role": "Digital Engineering Software Developer Graduate Intern",
+    "link": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2026-Digital-Engineering-Software-Developer-Graduate-Intern_R015074",
+    "location": "El Segundo, CA",
+    "season": "2026 Summer",
+    "id": 4310,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong written and oral communication skills",
+        "Work well in a team environment",
+        "Possess organizational, time management, and project management skills",
+        "Demonstrate flexibility and adaptability to changing needs",
+        "Possess interpersonal skills to coordinate efforts",
+        "Currently enrolled full-time in an accredited Master's/PhD degree program",
+        "Available to work full-time for a minimum of 10 weeks",
+        "Ability to return to a Master's/PhD degree program full-time after internship",
+        "Completed Bachelor's degree by internship start date",
+        "Achieve a minimum GPA of 3.0",
+        "Experienced with Microsoft Office applications",
+        "Possess programming experience in Java, C, C++, or Python",
+        "Have relevant project experience or coursework in digital engineering",
+        "Possess knowledge of data structures and algorithms",
+        "Experienced with modeled based systems engineering",
+        "Developed AI/ML",
+        "Ability to obtain and maintain a security clearance",
+        "Maintain a GPA of 3.5 or higher",
+        "Possess an active security clearance",
+        "Familiar with launch vehicle and satellite payloads",
+        "Familiar with software development processes and tools",
+        "Experienced with Linux/Unix systems, network architecture, and cyber security",
+        "Experienced with machine learning and AI development",
+        "Experienced with MBSE and its deployments",
+        "Experienced with Fortran, Ada, and shell scripting",
+        "Familiar with concept of Monte Carlo and its applications",
+        "Knowledgeable in Atlassian tool suite"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "City of Baltimore",
+    "role": "Digital Services Engineering Intern - Ncs - Bcit",
+    "link": "https://baltimorecity.wd1.myworkdayjobs.com/External/job/401-E-Fayette-St/Digital-Services-Engineering-Intern--NCS----BCIT_R0017096",
+    "location": "Baltimore, MD",
+    "season": "2026 Summer",
+    "id": 4309,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Engineering, Information Systems, or a related field",
+        "Basic proficiency in at least one programming language (e.g., JavaScript, PHP, React, Node.js)",
+        "Familiarity with web development concepts (HTML, CSS, APIs)",
+        "Familiarity with Drupal CMS platform",
+        "Understanding of version control systems (e.g., Bitbucket, Git)",
+        "Strong problem-solving skills and attention to detail",
+        "Ability to learn quickly and adapt in a fast-paced environment",
+        "Strong communication and collaboration skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "KION Group",
+    "role": "Procurement Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Atlanta-GA-United-States/Procurement-Intern_JR-0088786",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 4308,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an innovative thinker.",
+        "Be an extraordinary teammate.",
+        "Be a self-starter committed to continuous learning.",
+        "Be a future leader driven by passion.",
+        "Be a full-time student at an accredited U.S. college or university.",
+        "Actively pursue a degree in Computer Science, Data Science, Engineering, Business Analytics, Supply Chain, or related fields.",
+        "Be currently a sophomore, junior, or senior student.",
+        "Support development of AI and automation prototypes for Procurement use cases.",
+        "Assist with data preparation, testing, validation, and documentation.",
+        "Collaborate with Procurement, IT, and AI teams to translate business needs into technical solutions.",
+        "Contribute to building an internal developer platform for AI systems.",
+        "Possess interest in AI/ML, automation, and modern developer tools.",
+        "Have programming or data analysis experience.",
+        "Participate in Future Talent Programming events."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hootsuite",
+    "role": "Intern/Co-op - Internal AI Operations",
+    "link": "https://careers.hootsuite.com/job/?gh_jid=7808288",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 4307,
+    "jd": null
+  },
+  {
+    "company": "Pearson",
+    "role": "Associate Software Engineering Intern",
+    "link": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23097",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4306,
+    "jd": null
+  },
+  {
+    "company": "Rocket Lawyer",
+    "role": "AI/ML Intern",
+    "link": "https://job-boards.greenhouse.io/rocketlawyer/jobs/5185465008",
+    "location": "6 locationsCaliforniaSFArizonaColoradoUtahNorth Carolina",
+    "season": "2026 Summer",
+    "id": 4305,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a BS, MS, or PhD in Computer Science, Mathematics, Statistics, or a related field",
+        "Understand basic machine learning concepts and algorithms",
+        "Familiar with generative AI technologies and models",
+        "Interest or experience working with large language models (LLMs) and generative AI",
+        "Possess strong programming skills in Python",
+        "Experience with backend Python frameworks (e.g., FastAPI, Flask, Django)",
+        "Familiar with vector databases",
+        "Possess additional programming skills in languages such as Java, Kotlin, or NodeJS",
+        "Knowledge of SQL",
+        "Interested in building user-facing products",
+        "Understand microservices architectures and distributed systems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "NAV CANADA",
     "role": "Junior Software Developer Co-op",
     "link": "https://navcanada.wd10.myworkdayjobs.com/NAV_Careers/job/Ottawa/Jr-Software-Developer-Coop_JR-7911",
