@@ -18,5 +18,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
-  "cSpell.words": ["Ashby"]
+  "cSpell.words": ["Ashby", "icims", "oraclecloud", "smartrecruiters"]
 }

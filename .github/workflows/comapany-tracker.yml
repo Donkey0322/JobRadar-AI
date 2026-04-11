@@ -10,7 +10,7 @@ permissions:
   actions: read
 
 jobs:
-  fetch-and-email:
+  track-new-posts:
     runs-on: ubuntu-latest
 
     steps:
@@ -45,6 +45,7 @@ jobs:
         run: |
           npm run company
           npm run crawler
+          npm run company
 
       # ✅ Commit updated sent.json
       - name: Commit and push sent.json if changed

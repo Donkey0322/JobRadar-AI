@@ -4,7 +4,15 @@ import type { Company } from "./type";
 import type { Job } from "@/types";
 
 import callGemini from "./ai";
-import { fetchAshby, fetchCustom, fetchGreenhouse, fetchLever, fetchWorkday } from "./ats";
+import {
+  fetchAshby,
+  fetchCustom,
+  fetchGreenhouse,
+  fetchLever,
+  fetchOracleCloud,
+  fetchSmartRecruiters,
+  fetchWorkday,
+} from "./ats";
 
 import { loadCompanies } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
@@ -23,6 +31,12 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
       return fetchAshby(company, urls);
     case "custom":
       return fetchCustom(company, urls);
+    case "smartrecruiters":
+      return fetchSmartRecruiters(company, urls);
+    case "oraclecloud":
+      return fetchOracleCloud(company, urls);
+    case "icims":
+      return [];
     default:
       company.ats satisfies never;
       return [];

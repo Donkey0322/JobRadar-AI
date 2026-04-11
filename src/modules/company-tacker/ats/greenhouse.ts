@@ -16,6 +16,20 @@ interface GreenhouseJob {
 export function urlToGreenhouseCompany(url: URL): Company {
   const parts = url.pathname.split("/").filter(Boolean);
   const identifier = parts[0];
+  const host = url.hostname;
+
+  // embed
+  if (!host.endsWith("greenhouse.io")) {
+    const identifier = host.replace("www.", "").split(".")[0] ?? "";
+    return {
+      name: identifier,
+      ats: "greenhouse",
+      identifier,
+      domain: url.origin,
+      page: `https://boards-api.greenhouse.io/v1/boards/${identifier}/jobs`,
+      urls: [],
+    };
+  }
 
   return {
     name: identifier,
