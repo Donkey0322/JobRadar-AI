@@ -1,5 +1,853 @@
 [
   {
+    "company": "vanguard",
+    "role": "2026 Spring/Summer Application Engineer Co-op - Charlotte",
+    "link": "https://vanguard.wd5.myworkdayjobs.com/contractors_restricted/job/Charlotte-NC/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---Charlotte_177074",
+    "location": "Charlotte, NC",
+    "id": 4341,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Able to start in September and end in mid-late March.",
+        "Able to work a hybrid model.",
+        "Pursue a degree in a related field or equivalent.",
+        "Possess 0-3 years of developer experience.",
+        "Good written and oral communication skills.",
+        "Good analysis and problem-solving skills."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "pae",
+    "role": "Intern - Electrical Test/Design Engineer",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Electrical-Test-Design-Engineer_R0158884",
+    "location": "US-AL-Huntsville",
+    "id": 4340,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrollment in Electrical Engineering or related BS degree program",
+        "Completed sophomore year of studies with at least a 3.0 GPA",
+        "ABET accredited program preferred",
+        "Provide own transportation",
+        "Possess proper STAR-ID driver’s license for Redstone Arsenal admittance",
+        "Proactive between formal assignments, complete tasks with minimal direction",
+        "Design and develop electrical subsystems",
+        "Flexible in work assignments, efficiently transitioning between objectives",
+        "Identify system gaps, propose and develop appropriate solutions",
+        "Experienced in preparing/presenting technical presentations",
+        "Skilled in Microsoft Products: PowerPoint, Excel, Word, Teams, Outlook",
+        "Strong communication skills",
+        "Experienced in design, development, documentation, and performance testing of space flight systems",
+        "Experienced in design and development of electrical systems",
+        "Understand imagery systems and/or imagery analysis",
+        "Coordinate and integrate various disciplines including mechanical, ground support, and imagery",
+        "Experienced in working with space flight hardware"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "onehealthineers",
+    "role": "2026 Software & Data Science Internships",
+    "link": "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/CYA-G/XMLNAME-2026-Software---Data-Science-Internships_R-23658",
+    "location": "6 Locations",
+    "id": 4339,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Bachelor's or Master's degree program.",
+        "Rising junior or senior status preferred.",
+        "Passionate about work.",
+        "Compelled to assist healthcare providers.",
+        "Demonstrates initiative and creativity.",
+        "Open to debate for continuous improvement.",
+        "Trusts in team tenacity.",
+        "Strives for excellence in execution.",
+        "Translates listening into meaningful action.",
+        "Perform structured academic training-on-the-job.",
+        "Perform all assigned programs and activities.",
+        "Learn and acquire relevant theory and techniques.",
+        "Support other qualified staff.",
+        "Able to work with US controlled technology."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "modernatx",
+    "role": "Automation Engineering, Clinical Biomarker Lab 2026 Intern",
+    "link": "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Norwood-Massachusetts/Automation-Engineering--Clinical-Biomarker-Lab-2026-Intern_R19068",
+    "location": "",
+    "id": 4338,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS in Biology, Engineering, Biotechnology, or a related field.",
+        "Strong interest in laboratory automation and robotics.",
+        "Possess exposure or coursework in automation systems (e.g., Hamilton, Tecan).",
+        "Exhibit a strong problem-solving mindset and willingness to learn.",
+        "Possess good organizational skills and attention to detail.",
+        "Able to work independently and collaboratively.",
+        "Demonstrate effective written and verbal communication skills.",
+        "Familiar with basic programming or scripting.",
+        "Experienced with Jira or version control tools (e.g., Git, Bitbucket)."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "masco",
+    "role": "Intern, Software Engineering",
+    "link": "https://masco.wd1.myworkdayjobs.com/masco/job/US---California---Vista/Intern--Software-Engineering_REQ52776",
+    "location": "US - California - Vista",
+    "id": 4337,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Being a current college Junior, Senior, or recent graduate.",
+        "Strong interest in hands-on, project-driven work.",
+        "Excellent communication, organization, and problem-solving skills.",
+        "Able to work independently and as part of a team.",
+        "Proficient in relevant project tools like Microsoft 365, data, or design tools.",
+        "Maintain a GPA of 3.0 or higher (preferred).",
+        "Experienced in Python or similar programming.",
+        "Experienced with Raspberry-Pi.",
+        "Experienced in SQL programming.",
+        "Experienced with Pytorch/Tensorflow.",
+        "Experienced in Flutter/Dart programming."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "kla",
+    "role": "Algorithm Engineer Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Algorithm-Engineer-Intern_2635538",
+    "location": "Milpitas, CA",
+    "id": 4336,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Perform electromagnetic simulations to assess optical inspection sensitivity.",
+        "Evaluate and benchmark computational methods and algorithms.",
+        "Explore new concepts to reduce simulation turnaround time.",
+        "Analyze and compare CPU- and GPU-accelerated solutions.",
+        "Collaborate with researchers and engineers to translate simulation insights.",
+        "Strong foundation in computational methods for physics simulations.",
+        "Experience working in Linux-based HPC environments.",
+        "Proficient in Python and C++.",
+        "Experience setting up and running electromagnetic simulations of nano-scale structures.",
+        "Familiar with commonly used electromagnetic simulation tools, frameworks, or libraries.",
+        "Experience with parallel computing, GPU acceleration, or heterogeneous computing.",
+        "Hands-on experience configuring and optimizing GPU environments.",
+        "Currently pursuing an M.S. or Ph.D. in Physics, Electrical Engineering, Computer Science, Mathematics, or Optics.",
+        "Focus on electromagnetism, optics, or computational physics."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Twilio",
+    "role": "Technical Video Content Intern, Developer Ecosystem",
+    "link": "https://job-boards.greenhouse.io/twilio/jobs/7748961",
+    "location": "Remote - US",
+    "id": 4335,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a Junior or Senior in an accredited university.",
+        "Studying Computer Science, Communications, Film, or a related field preferred.",
+        "Possess a basic understanding of creating and editing short-form content.",
+        "Have foundational knowledge of web-based technologies, including APIs and HTTP methods/requests.",
+        "Proficient in at least one programming language.",
+        "Demonstrate strong developer empathy and ability to explain technical concepts clearly.",
+        "Possess strong collaboration and project management skills with deadline adherence.",
+        "Basic hands-on experience with video editing tools.",
+        "Familiar with tools for screen capture, livestreams, or recordings.",
+        "Experience working with Airtable or similar content planning tools."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "The New York Times",
+    "role": "Full-stack Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624814005",
+    "location": "New York, NY",
+    "id": 4334,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have at least 6 months of full stack engineering experience.",
+        "Possess 6+ months of professional experience with current web technologies.",
+        "Familiar with at least one modern server-side programming language.",
+        "Experience working in a highly collaborative environment.",
+        "Enjoy finding creative solutions to technical challenges."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Lucid Motors",
+    "role": "Intern, CAE Engineer, Summer 2026",
+    "link": "https://job-boards.greenhouse.io/lucidmotors/jobs/4953783007",
+    "location": "Newark, CA",
+    "id": 4333,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build and preprocess FE models using ANSA/HyperMesh.",
+        "Run LS-DYNA simulations (frontal, side, rear, pedestrian).",
+        "Post-process and interpret crash results.",
+        "Support CAE-to-test correlation activities.",
+        "Automate CAE workflows using Python/MATLAB.",
+        "Assist with surrogate modeling, ML datasets, and early-stage optimization.",
+        "Document results for engineering reviews.",
+        "Gain experience with full-vehicle crash CAE for EV platforms.",
+        "Gain exposure to lightweight structures and safety engineering.",
+        "Gain experience with AI-enabled CAE workflows.",
+        "Receive mentorship from experienced crash engineers.",
+        "Experienced with LS-DYNA crash simulation.",
+        "Proficient in ANSA and/or HyperMesh.",
+        "Basic CAE automation (Python/MATLAB).",
+        "Interested in ML, surrogate modeling, or inverse design.",
+        "Strong communication and cross-functional collaboration skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "BillionToOne",
+    "role": "Process Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/billiontoone/jobs/4677675005",
+    "location": "Union City, CA",
+    "id": 4332,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's or Master's degree in a relevant scientific or engineering discipline",
+        "Proven experience conducting scientific research within an academic or industrial laboratory environment",
+        "Prior hands-on experience with core molecular biology techniques",
+        "Exceptional analytical reasoning and quantitative problem-solving skills, with experience in data analysis using tools like Python or R",
+        "A driven, creative, and passionate mindset, with a strong willingness to go above and beyond to solve problems",
+        "Strong communication skills, able to articulate complex data and insights clearly",
+        "Demonstrated ability to work independently and collaboratively in a fast-paced environment"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Auctane ",
+    "role": "CyberSecurity Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/auctane/jobs/7656333003",
+    "location": "Austin, TX",
+    "id": 4331,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop preventative and detective controls.",
+        "Help secure cloud and corporate IT infrastructure.",
+        "Identify threats and develop remediations.",
+        "Work with the global security team.",
+        "Eager to learn about technology and security problems.",
+        "Experienced in Computer Science, Software Development, Data Science, or Cyber Security coursework.",
+        "Strong analytical, problem-solving, and communication skills.",
+        "Experienced in AWS/GCP, Containers, Python, and C#.",
+        "Located in or near the Austin, Texas area."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Aquatic Capital Management",
+    "role": "Software Engineer, Intern (Summer 2027) ",
+    "link": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+    "location": "Chicago",
+    "id": 4330,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue BS, MS, or PhD in scientific disciplines",
+        "Solid programming skills in Python and/or C++",
+        "Strong understanding of algorithms, systems, and computer architecture",
+        "Curious about how things work",
+        "Able to thrive in a collaborative, fast-paced environment",
+        "Learn software design and testing techniques",
+        "Strong bias for action",
+        "Driven by accountability and urgency",
+        "Desire to independently seek best solutions",
+        "Prefer working in a team focused on Research goals",
+        "Comfortable giving and receiving actionable feedback",
+        "Motivated by an ambitious environment"
+      ],
+      "season": "2027 Spring"
+    },
+    "season": "2027 Spring"
+  },
+  {
+    "company": "iheartmedia",
+    "role": "Software Engineer Intern",
+    "link": "https://iheartmedia.wd5.myworkdayjobs.com/external_ihm/job/San-Antonio-TX-Stone-Oak/Software-Engineer-Intern_Req37982-2",
+    "location": "San Antonio, TX (Stone Oak)",
+    "id": 4329,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in JavaScript, HTML, CSS, and Test tools",
+        "Possess database knowledge",
+        "Assist in developing UI components and Backend APIs",
+        "Write test cases for functional testing",
+        "Create SQL scripts",
+        "Conduct research and analysis on new tools and technologies",
+        "Prepare and deliver reports",
+        "Learn job processes and requirements",
+        "Working knowledge of React/NodeJS/Typescript/Python",
+        "Experience with HTML, CSS, and testing technologies like Cypress/Playwright/Jest",
+        "Knowledge of Relational/NoSQL databases",
+        "Excellent written and spoken communication skills",
+        "Ability to work independently and efficiently",
+        "Knowledge of cloud technologies",
+        "Interest in a career in the media industry"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Plant Engineering Intern (Summer 2026) (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Plant-Engineering-Intern--Summer-2026---Onsite-_01836986",
+    "location": "US-CT-WINDSOR LOCKS-B1 ~ 1 Hamilton Rd ~ BLDG 1",
+    "id": 4328,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Requires a High School Diploma or equivalent",
+        "Pursuing a Bachelor’s or advanced degree in an applicable discipline",
+        "U.S. citizenship is required",
+        "Pursuing an engineering degree (mechanical/electrical)",
+        "Ability to read Process & Instrumentation Diagram, Schematics, One-lines",
+        "A willingness to learn",
+        "An open mind to assisting with creating new processes",
+        "Experience in CAD",
+        "Proficient with AutoCAD software",
+        "Experience in a manufacturing environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Intern: Summer 2026 - Mechanical Engineer (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-G--400-Main-St--BLDG-G/Intern--Summer-2026---Mechanical-Engineer--Onsite-_01832259",
+    "location": "US-CT-EAST HARTFORD-G ~ 400 Main St ~ BLDG G",
+    "id": 4327,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Advanced degree in a relevant engineering or science field.",
+        "Actively enrolled through the completion of the internship session.",
+        "Possess a minimum of 60 hours of college credit.",
+        "Maintain a minimum cumulative GPA of 3.0.",
+        "Create software using common programming languages like C#, C++, Python, Java, or FORTRAN.",
+        "Proficient in CAD modeling.",
+        "Experienced with O365 Tools.",
+        "Collaborate with a team to develop innovative ideas.",
+        "Communicate clear and effective messages to a broad audience.",
+        "Use GitHub to manage software versioning.",
+        "Create technical documents and user manuals."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "gdit",
+    "role": "Summer 2026 Software Developer Business Solutions Analyst (Intern)",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Developer-Business-Solutions-Analyst--Intern-_RQ217195-3",
+    "location": "USA NY Albany",
+    "id": 4326,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an associate's, bachelor's or master's degree program in Computer Science, Information Systems, Business Analytics, or a related field from a United States-based college or university.",
+        "Proficient with Microsoft Office Suite (Work, Excel, SharePoint, PowerPoint, and Teams).",
+        "Strong Excel skills, including pivot tables, formulas, and data organization.",
+        "Understand basic data visualization and dashboard design.",
+        "Strong communication skills.",
+        "Ability to build meaningful relationships with team members.",
+        "Able to identify and correct mistakes.",
+        "Able to ask for help when needed.",
+        "Prioritize tasks and responsibilities.",
+        "Actively seek ways to develop personally and professionally.",
+        "Possess intuitiveness to identify and solve complex problems related to rapidly changing technology.",
+        "Demonstrate genuine, intellectual curiosity and a nimble mindset.",
+        "Experienced with Power BI, Tableau, or similar dashboard tools.",
+        "Basic knowledge of SQL or data handling.",
+        "Familiar with software development lifecycle (SDLC) or Agile practices."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "gdit",
+    "role": "Summer 2026 Software Developer (Intern)",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Developer--Intern-_RQ216779-2",
+    "location": "USA NY Albany",
+    "id": 4325,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in software applications",
+        "Skilled in SQL database queries",
+        "Experienced in web development",
+        "Enrolled in a US-based associate's, bachelor's, or master's STEM degree program",
+        "Completed coursework in core languages and Object-Oriented programming, including Java",
+        "Completed coursework in System Design, Data Structure, Application Frameworks, and Web Development",
+        "Basic understanding of Microsoft Office Suite",
+        "Completed AI coursework",
+        "Familiar with Git version control, SQL databases, RESTful API’s, Testing, and Cybersecurity",
+        "Strong communication skills",
+        "Ability to build meaningful relationships",
+        "Self-aware, able to identify and correct mistakes, and ask for help",
+        "Ability to prioritize tasks and responsibilities",
+        "Proactive in seeking personal and professional development",
+        "Intuitive ability to identify and solve complex technical problems",
+        "Possess intellectual curiosity and a nimble mindset",
+        "Familiar with IT systems and proficient in various programming languages",
+        "Understand software development best practices",
+        "Understand automation technologies and ITSM concepts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "gdit",
+    "role": "Summer 2026 Software Tester (Intern)",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Tester--Intern-_RQ217196-2",
+    "location": "USA NY Albany",
+    "id": 4324,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Java",
+        "Object-Oriented Programming (OOP)",
+        "Web Development",
+        "Enrolled in a US-based STEM degree program.",
+        "Completed coursework in core languages and OOP, including Java.",
+        "Completed coursework in System Design, Data Structure, Application Framework, and Web Development.",
+        "Basic understanding of Microsoft Office Suite.",
+        "Experienced in testing methodologies (unit, integration, system).",
+        "Familiar with Git, SQL databases, testing, and cybersecurity.",
+        "Strong communication skills.",
+        "Build meaningful relationships with team members.",
+        "Identify and correct mistakes, and ask for help.",
+        "Prioritize tasks and responsibilities.",
+        "Actively seek personal and professional development.",
+        "Intuitive ability to solve complex tech problems.",
+        "Genuine intellectual curiosity and a nimble mindset.",
+        "Familiar with IT systems and proficient in programming languages.",
+        "Understand software development best practices.",
+        "Understand automation technologies and ITSM concepts."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "disney",
+    "role": "Systems Reliability Engineering Intern, Seattle, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Systems-Reliability-Engineering-Intern--Seattle--Summer-2026_10143606",
+    "location": "Seattle, WA, USA",
+    "id": 4323,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python, Terraform, or AWS",
+        "Familiar with Agile, Lean, or Kanban methodologies",
+        "Experienced with web application architecture",
+        "Understand software engineering practices",
+        "Understand networking and security",
+        "Understand operational best practices",
+        "Currently enrolled as a junior or senior pursuing a bachelor\nH's degree in Computer Science or other STEM related field at an accredited college or university"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Robinhood",
+    "role": "Engineering Manager, International",
+    "link": "https://boards.greenhouse.io/robinhood/jobs/7539771?t=gh_src=&gh_jid=7539771",
+    "location": "Menlo Park, CA; New York, NY",
+    "id": 4322,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Lead a high-performing team.",
+        "Manage, mentor, and grow a team of engineers.",
+        "Drive delivery of complex projects end-to-end.",
+        "Partner closely with product, design, data, and engineering teams.",
+        "Contribute to technical direction and guide system design decisions.",
+        "Establish strong engineering practices.",
+        "Actively recruit and retain top engineers.",
+        "Operate with ownership and accountability.",
+        "Possess 6–9 years of software engineering experience.",
+        "Have 1+ years of experience managing engineers.",
+        "Demonstrate a track record of supporting performance and career development.",
+        "Hold a solid foundation in distributed systems and backend architecture.",
+        "Able to engage in technical discussions.",
+        "Proven ability to deliver complex projects from inception to production.",
+        "Experience working closely with product and design to ship features.",
+        "Be a clear and structured communicator.",
+        "Build a strong, accountable, and collaborative team.",
+        "Set clear expectations and maintain a high performance bar.",
+        "Foster an inclusive environment with trust and psychological safety.",
+        "Navigate ambiguity with sound judgment and bias for action."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Redwood Materials",
+    "role": "Mechanical Engineering Intern",
+    "link": "https://boards.greenhouse.io/redwoodmaterials/jobs/5819163004?gh_jid=5819163004",
+    "location": "McCarran, NV",
+    "id": 4321,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Lead and support technical design of new mechanical processing equipment",
+        "Conduct high-level technical troubleshooting of equipment and electromechanical systems",
+        "Develop prototypes, research projects, and experiments for new processes",
+        "Pursuing a B.S. or advanced degree in mechanical engineering",
+        "Have prior engineering internship experience with a leading company",
+        "Possess hands-on experience building products or projects",
+        "Experience or coursework with thermodynamics, gas combustion, and chemical processes",
+        "Working knowledge of major mechanical design software packages",
+        "Experience or coursework with automation and programmable control systems",
+        "Highly self-motivated, entrepreneurial mindset",
+        "Able to lift and carry up to 50 lbs as needed",
+        "Able to wear proper personal protective equipment (PPE)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Redwood Materials",
+    "role": "Energy Optimization Engineering Intern",
+    "link": "https://boards.greenhouse.io/redwoodmaterials/jobs/5807877004?gh_jid=5807877004",
+    "location": "San Francisco, California, United States",
+    "id": 4320,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Apply time-series forecasting and machine learning algorithms.",
+        "Integrate multi-horizon forecasts into intelligent EMS.",
+        "Develop high-fidelity mathematical models of BESS and Microgrid components.",
+        "Utilize Mixed-Integer Programming and other mathematical optimization techniques.",
+        "Conduct large-scale EMS simulations and scenario testing.",
+        "Collaborate with Cloud Software Engineers to deploy optimization engines.",
+        "Design and maintain high-performance APIs.",
+        "Possess an MS or PhD in Energy Engineering, Electrical Engineering, Operations Research, Applied Mathematics, or a related field.",
+        "Strong background in optimization with applications to electricity market problems.",
+        "Strong background in time series data forecasting applied to energy systems.",
+        "Excellent first-principles physics understanding of electrical and mechanical systems.",
+        "Strong communication and collaboration skills.",
+        "Familiarity with AI techniques in energy markets."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Software Engineer Intern, Anduril Frontier Systems",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5029463007?gh_jid=5029463007",
+    "location": "Irvine, California, United States",
+    "id": 4319,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's, Master's, or PhD in Computer Science or related field",
+        "Demonstrate ability to build projects from 0 to 1",
+        "Proficient in programming languages like Rust, C/C++, Go, or Typescript",
+        "Possess a bias for action to solve problems",
+        "Naturally curious about technologies and tools",
+        "Low-ego, high ownership, and mission oriented"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Software Engineer Intern",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5071345007?gh_jid=5071345007",
+    "location": "Reston, Virginia, United States",
+    "id": 4318,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's in Computer Science or related field",
+        "Be a rising senior returning to school for academic studies",
+        "Familiar with algorithms, data structures, storage systems, cloud infrastructure, and front-end frameworks",
+        "Proficient in C++, Go, Rust, Java, and Python",
+        "Desire to work on software with real-world impact",
+        "Possess a bias for action and problem-solving",
+        "Naturally curious about technologies and tools",
+        "Low-ego, high ownership, and mission-oriented"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Senior Program Chief Engineer, International Programs",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5080710007?gh_jid=5080710007",
+    "location": "Irvine, California, United States",
+    "id": 4317,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess 8+ years experience as Chief Engineer, Technical Program Manager, Technical Product Manager, Engineering Manager, or Engineer.",
+        "Proven client-facing technical program management or systems engineering experience within foreign military sales and international engagements.",
+        "Strong familiarity with robotics, sensor integrations, or computer vision systems and their architecture.",
+        "Experienced in a systems engineering role.",
+        "Proven experience leading a technical team of peers to field hardware or software products to real operating environments.",
+        "Experienced working in a rapidly iterating test environment with high levels of integration with software development teams.",
+        "Solid technical aptitude to understand technical designs, software development lifecycle, challenges, and risks.",
+        "Able to work closely and effectively with engineering teams.",
+        "Ability to work with internal and external stakeholders across a wide range of technical comfort.",
+        "Excellent written and verbal communication skills.",
+        "Able to obtain a minimum Secret Clearance.",
+        "Able to travel up to 25% of the time.",
+        "Strong technical, analytical, and quantitative skills with the ability to use data and metrics.",
+        "Experienced in building programs for software and testing deliverables from the ground up.",
+        "Able to work within organizations with minimal structure and direction.",
+        "Experienced in rolling out potentially disruptive organizational process changes.",
+        "Experienced with tools like JIRA and Confluence.",
+        "Possess a Bachelor’s Degree in Computer Science or an Engineering discipline."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Perception Engineering Intern",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/4830032007?gh_jid=4830032007",
+    "location": "Costa Mesa, California, United States",
+    "id": 4316,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Hold a BS in Robotics, Computer Science, Mechatronics, Electrical Engineering, Mechanical Engineering, or related field.",
+        "Possess strong knowledge of 3D computer vision concepts.",
+        "Be fluent in standard domain libraries (numpy, opencv, pytorch, etc).",
+        "Demonstrate a proven understanding of data structures, algorithms, concurrency, and code optimization.",
+        "Gain experience with Python, PyTorch, or C++ programming languages.",
+        "Have experience deploying software to end customers.",
+        "Be willing to travel 25%.",
+        "Be eligible to obtain an active U.S. Secret security clearance.",
+        "Hold an MS or PhD in Robotics, Computer Science, Engineering, or related field.",
+        "Possess experience with perception systems for aerial robotics or other highly dynamic platforms.",
+        "Have experience with real-world sensor integrations.",
+        "Gain experience with GPU / CUDA programming for accelerated computer vision processing.",
+        "Possess knowledge of path planning algorithms and their integration with perception systems."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Industrial Engineer Intern",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5089667007?gh_jid=5089667007",
+    "location": "Ashville, Ohio, United States",
+    "id": 4315,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or recently obtained a Bachelor\nas or Master\nas degree in Industrial Engineering or related STEM field.",
+        "Possess prior work or project experience applying Industrial Engineering or Lean Methodologies.",
+        "Able to read technical documentation for manufacturing processes.",
+        "Able to work through ambiguity and be a self-starter.",
+        "Motivated to plan aggressively and deliver objectives on time.",
+        "Demonstrate strong skills in teamwork, drive for results, and business acumen.",
+        "Must be a U.S. Person.",
+        "Possess prior work designing or setting up new production lines or factories.",
+        "Experienced with engineering design software, such as AutoCad or LucidChart.",
+        "Experienced in conducting manufacturing time studies.",
+        "Have experience with Lean Manufacturing, Continuous Improvement, and Six Sigma principles.",
+        "Experienced interacting with data via visualization applications or SQL queries.",
+        "Able to completely own a value chain from start to finish for business improvement.",
+        "Possess prior experience with ERP, WMS, and MES systems.",
+        "Experienced with production process simulation software.",
+        "Ability to obtain Government Clearance."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Anduril Industries",
+    "role": "Chief Engineer, International Programs",
+    "link": "https://boards.greenhouse.io/andurilindustries/jobs/5081059007?gh_jid=5081059007",
+    "location": "Costa Mesa, California, United States",
+    "id": 4314,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess Aerospace, Mechanical, Electrical, or Software Engineering Degree",
+        "Have 10+ years of technical engineering experience",
+        "Proven experience developing and executing detailed action strategies",
+        "Experience managing technical development projects or programs",
+        "Experience building and leading technical teams",
+        "Experience with aircraft system design, prototype and test",
+        "Experience with supporting or leading customer facing technical discussions",
+        "Able to obtain and hold a U.S. security clearance",
+        "Experience with unmanned aircraft system design, prototype and test",
+        "Experience with Foreign Military Sales, Direct commercial sales of defense systems",
+        "Experience with foreign military design standards and airworthiness processes",
+        "Experience integrating foreign vendor engineering and manufacturing teams",
+        "Familiarity with ITAR, EAR regulations and processes",
+        "Experience with foreign military and US export requirements for cyber security and anti-tamper",
+        "Experience managing USG programs",
+        "Possess Active DoD TS clearance"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "baxter",
+    "role": "Manufacturing Engineer Intern",
+    "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Mountain-Home-Arkansas/Manufacturing-Engineer-Intern_JR-199670-1",
+    "location": "Mountain Home, Arkansas",
+    "id": 4313,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Bachelor’s degree program in Manufacturing Engineering or a related field.",
+        "Understand basic engineering principles and manufacturing processes.",
+        "Proficient in Microsoft Office Suite.",
+        "Possess excellent problem-solving skills.",
+        "Have strong communication and interpersonal skills.",
+        "Able to work well in teams.",
+        "Creative, highly motivated, and dependable.",
+        "Enthusiastic about engineering and technology.",
+        "Proficient in written and verbal communication.",
+        "Possess basic knowledge of CAD design.",
+        "Able to use SolidWorks or Autodesk Inventor software.",
+        "Experienced in 2D and 3D computer-aided design."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "baltimorecity",
+    "role": "Digital Services Engineering Intern (NCS) - BCIT",
+    "link": "https://baltimorecity.wd1.myworkdayjobs.com/external/job/401-E-Fayette-St/Digital-Services-Engineering-Intern--NCS----BCIT_R0017096",
+    "location": "401 E Fayette St",
+    "id": 4312,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Engineering, Information Systems, or related field",
+        "Basic proficiency in at least one programming language",
+        "Familiarity with web development concepts (HTML, CSS, APIs)",
+        "Familiarity with Drupal CMS platform",
+        "Understanding of version control systems (e.g., Bitbucket, Git)",
+        "Strong problem-solving skills and attention to detail",
+        "Ability to learn quickly and adapt in a fast-paced environment",
+        "Strong communication and collaboration skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Vanguard",
     "role": "Application Engineer Intern/Co-op",
     "link": "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---Charlotte_177074",
