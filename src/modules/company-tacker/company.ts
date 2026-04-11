@@ -6,26 +6,40 @@ import type { Company } from "./type";
 import { urlToAshbyCompany } from "./ats/ashby";
 import { urlToCustomCompany } from "./ats/custom";
 import { urlToGreenhouseCompany } from "./ats/greenhouse";
+import { urlToIcimsCompany } from "./ats/icims";
 import { urlToLeverCompany } from "./ats/lever";
+import { urlToOracleCloudCompany } from "./ats/oraclecloud";
+import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
+import { classifyATS } from "./ats";
 
 import { COMPANY_PATH } from "@/constants";
 
 function extractCompany(urlStr: string): Company | null {
   try {
     const url = new URL(urlStr);
-    const host = url.hostname;
+    const ats = classifyATS(url);
 
-    if (host.includes("greenhouse.io")) {
-      return urlToGreenhouseCompany(url);
-    } else if (host.endsWith("lever.co")) {
-      return urlToLeverCompany(url);
-    } else if (host.includes("workdayjobs.com")) {
-      return urlToWorkdayCompany(url);
-    } else if (host.includes("ashbyhq.com")) {
-      return urlToAshbyCompany(url);
-    } else {
-      return urlToCustomCompany(url);
+    switch (ats) {
+      case "greenhouse":
+        return urlToGreenhouseCompany(url);
+      case "lever":
+        return urlToLeverCompany(url);
+      case "workday":
+        return urlToWorkdayCompany(url);
+      case "ashby":
+        return urlToAshbyCompany(url);
+      case "smartrecruiters":
+        return urlToSmartRecruitersCompany(url);
+      case "icims":
+        return urlToIcimsCompany(url);
+      case "oraclecloud":
+        return urlToOracleCloudCompany(url);
+      case "custom":
+        return urlToCustomCompany(url);
+      default:
+        ats satisfies never;
+        return null;
     }
   } catch {
     return null;
@@ -51,10 +65,6 @@ export async function buildCompanyList(urls: string[]): Promise<Company[]> {
 
   const result = Array.from(map.values());
 
-  // const count = result.reduce((acc, company) => acc + (company.ats !== "custom" ? 1 : 0), 0);
-  // console.log(`🎉 Built ${count} companies`);
-
   await fs.writeFile(COMPANY_PATH, JSON.stringify(result, null, 2), "utf-8");
-
   return result;
 }

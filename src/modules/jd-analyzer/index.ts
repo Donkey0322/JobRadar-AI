@@ -4,13 +4,12 @@ import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
 
 import { saveJd } from "../../utils/data";
+import { classifyATS } from "../company-tacker/ats";
 
 import { parseGreenhouse } from "./ats/greenhouse";
 
 import analyze from "@/modules/jd-analyzer/ai";
 import { AIResponseSchema } from "@/validation/ai";
-
-type JobPlatform = "greenhouse" | "workday" | "smartrecruiters" | "oraclecloud" | "unknown";
 
 async function getJD(url: string): Promise<string> {
   try {
@@ -106,27 +105,9 @@ function transform(response: AIResponse): JD {
   };
 }
 
-export function detectPlatform(url: string): JobPlatform {
-  try {
-    const u = new URL(url);
-    const host = u.hostname;
-
-    if (u.searchParams.get("gh_jid")) return "greenhouse";
-
-    if (host.includes("greenhouse")) return "greenhouse";
-    if (host.includes("workday")) return "workday";
-    if (host.includes("smartrecruiters")) return "smartrecruiters";
-    if (host.includes("oraclecloud")) return "oraclecloud";
-
-    return "unknown";
-  } catch {
-    return "unknown";
-  }
-}
-
 export default async function analyzeJD(job: Job): Promise<JD | null> {
   const html = await getJD(job.link);
-  const urlType = detectPlatform(job.link);
+  const urlType = classifyATS(new URL(job.link));
   const jdText = await visibleTextFromHtml(html, urlType, job.link);
 
   if (jdText) {
@@ -148,7 +129,7 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
 
 export async function analyzeLink(link: string): Promise<JD | null> {
   const html = await getJD(link);
-  const urlType = detectPlatform(link);
+  const urlType = classifyATS(new URL(link));
   const jdText = await visibleTextFromHtml(html, urlType, link);
 
   if (jdText) {

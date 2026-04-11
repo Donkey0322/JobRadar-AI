@@ -1,6 +1,16 @@
+export type ATS =
+  | "greenhouse"
+  | "lever"
+  | "workday"
+  | "ashby"
+  | "oraclecloud"
+  | "smartrecruiters"
+  | "icims"
+  | "custom";
+
 export interface Company {
   name: string;
-  ats: "greenhouse" | "lever" | "workday" | "ashby" | "custom";
+  ats: ATS;
   identifier: string;
   domain: string;
   page: string;
