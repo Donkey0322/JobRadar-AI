@@ -26,6 +26,18 @@ function locationIcon(location: Location) {
   }
 }
 
+function toTerm(season: Job["season"]) {
+  switch (season) {
+    case undefined:
+    case "unsure":
+      return "Intern";
+    case "New Grad":
+      return "New Grad";
+    default:
+      return `${season} Intern`;
+  }
+}
+
 export async function sendEmail(job: Job) {
   const { company, link, season, jd } = job;
   let { role } = job;
@@ -45,7 +57,8 @@ export async function sendEmail(job: Job) {
   const sponsorship = jd?.sponsorship ?? null;
   const location = jd?.location ?? "Other";
   const qualifications = jd?.qualifications ?? [];
-  const term = season == "New Grad" ? "New Grad" : `${season} Intern`;
+
+  const term = toTerm(season);
 
   if (requiresUSA === true) {
     role += " 🇺🇸";

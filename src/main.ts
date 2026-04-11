@@ -1,27 +1,25 @@
-import "dotenv/config";
-
-import type { Job } from "@/types";
+import type { Job } from "./types";
 
 import { SOURCES } from "@/constants";
-import { loadSent, saveJob, saveSent } from "@/utils/data";
-import analyzeJD from "@/utils/jd";
-import { sendEmail } from "@/utils/mail";
-import parseSource from "@/utils/parse";
+import parseSource from "@/modules/github-parser";
+import analyzeJD from "@/modules/jd-analyzer";
+import { sendEmail } from "@/modules/job-alert";
+import { loadSent } from "@/utils/data";
+import { saveJob, saveSent } from "@/utils/data";
 import { getToday } from "@/utils/string";
 
-const args = new Set(process.argv.slice(2));
-const isDev = args.has("--dev");
-
-async function main() {
+export default async function processor(jobs: Job[] = [], main = true, isDev = false) {
   const sent = await loadSent();
   let currentId = sent.size;
 
-  const newJobs: Job[] = [];
+  const newJobs: Job[] = jobs;
 
-  for (const source of SOURCES.filter((source) => !source.disabled)) {
-    console.log(`🔍 Parsing ${source.name}...`);
-    const jobs = await parseSource(source);
-    newJobs.push(...jobs);
+  if (main) {
+    for (const source of SOURCES.filter((source) => !source.disabled)) {
+      console.log(`🔍 Parsing ${source.name}...`);
+      const jobs = await parseSource(source);
+      newJobs.push(...jobs);
+    }
   }
 
   const toSend: Job[] = [];
@@ -60,8 +58,3 @@ async function main() {
 
   console.log(`🎉 Sent ${toSend.length} new job emails for ${getToday()}`);
 }
-
-main().catch((err) => {
-  console.error("Fatal error:", err);
-  process.exit(1);
-});

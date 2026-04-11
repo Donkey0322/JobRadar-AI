@@ -1,0 +1,59 @@
+name: Company Tracker
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  fetch-and-email:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ✅ Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      # ✅ Install deps
+      - name: Install dependencies
+        run: npm ci
+
+      # ✅ Run your watcher (TypeScript via tsx)
+      - name: Run company tracker
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BACKUP_GEMINI_API_KEY: ${{ secrets.BACKUP_GEMINI_API_KEY }}
+        run: |
+          npm run company
+          npm run crawler
+
+      # ✅ Commit updated sent.json
+      - name: Commit and push sent.json if changed
+        if: success()
+        run: |
+          if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
+            git config user.name "actions-bot"
+            git config user.email "actions@github.com"
+            git add data/
+            git commit -m "chore: update sent.json"
+            git push
+          fi
