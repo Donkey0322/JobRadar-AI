@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern, withinDays } from "../utils";
+import { isTarget, withinDays } from "../utils";
 
 interface GreenhouseJob {
   company_name: string;
@@ -53,7 +53,7 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>) {
 
     const interns: GreenhouseJob[] = data.jobs.filter(
       (job: GreenhouseJob) =>
-        isTechIntern(job.title) &&
+        isTarget(job.title) &&
         !urls.has(job.absolute_url) &&
         (withinDays(job.first_published) || withinDays(job.updated_at))
     );

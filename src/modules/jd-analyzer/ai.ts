@@ -133,6 +133,7 @@ export default async function callGemini(
 
   const apiKey = RPD_REACHED ? PERSONAL_GEMINI_API_KEY : GEMINI_API_KEY;
   if (!apiKey) {
+    console.error("API key is not set");
     return null;
   }
 

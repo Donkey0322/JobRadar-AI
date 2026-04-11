@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern, withinDays } from "../utils";
+import { isTarget, withinDays } from "../utils";
 
 interface SmartRecruitersJob {
   id: string;
@@ -40,7 +40,7 @@ export async function fetchSmartRecruiters(company: Company, urls: Set<string>) 
 
     const interns: SmartRecruitersJob[] = data.content.filter(
       (job: SmartRecruitersJob) =>
-        isTechIntern(job.name) &&
+        isTarget(job.name) &&
         !urls.has(`${company.domain}/${company.name}/${job.id}`) &&
         withinDays(job.releasedDate)
     );

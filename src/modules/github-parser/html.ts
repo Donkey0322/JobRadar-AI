@@ -3,6 +3,7 @@ import * as cheerio from "cheerio";
 import type { Job, Source } from "@/types";
 
 import { cleanLink, containsExcludedSymbols, normalizeSeason } from "@/utils/string";
+import { Target } from "@/validation/config";
 import { SeasonSchema } from "@/validation/season";
 
 function normalizeText(s: string): string {
@@ -51,7 +52,7 @@ export default function parseHtml(html: string, source: Source): Job[] {
     // | Company | Role | Location | Season | Application/Link | Age |
     const cols = tds.map((_, td) => $(td).text().trim()).get();
     if (cols.length === 5) {
-      const season = source.type === "new-grad" ? "New Grad" : "2026 Summer";
+      const season = source.type === Target.NEW_GRAD ? "New Grad" : "2026 Summer";
       cols.splice(3, 0, season);
       tds.splice(3, 0, `<td>${season}</td>`);
     }

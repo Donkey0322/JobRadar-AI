@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern } from "../utils";
+import { isTarget } from "../utils";
 
 interface WorkdayJob {
   title: string;
@@ -68,7 +68,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
   const interns = results.filter(
     (job: WorkdayJob) =>
       job?.title &&
-      isTechIntern(job.title) &&
+      isTarget(job.title) &&
       !urls.has(`${company.domain}${job.externalPath}`) &&
       job.postedOn === "Posted Today"
   );

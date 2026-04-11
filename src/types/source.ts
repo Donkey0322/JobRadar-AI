@@ -1,8 +1,10 @@
+import type { Target } from "@/validation/config";
+
 interface Source {
   name: string;
   url: string;
   format: "markdown" | "html";
-  type: "summer" | "off-season" | "new-grad";
+  type: Target;
   disabled?: boolean;
 }
 
