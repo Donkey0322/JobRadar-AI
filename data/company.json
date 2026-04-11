@@ -6,7 +6,8 @@
     "domain": "http://altruist.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/altruist/jobs",
     "urls": [
-      "http://altruist.com/join-altruist/?gh_jid=5601833004"
+      "http://altruist.com/join-altruist/?gh_jid=5601833004",
+      "https://altruist.com/join-altruist/5601805004?gh_jid=5601805004"
     ]
   },
   {
