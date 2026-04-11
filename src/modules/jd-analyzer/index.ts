@@ -3,9 +3,11 @@ import * as cheerio from "cheerio";
 import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
 
-import { saveJd } from "./data";
+import { saveJd } from "../../utils/data";
 
-import analyze from "@/utils/ai";
+import { parseGreenhouse } from "./ats/greenhouse";
+
+import analyze from "@/modules/jd-analyzer/ai";
 import { AIResponseSchema } from "@/validation/ai";
 
 type JobPlatform = "greenhouse" | "workday" | "smartrecruiters" | "oraclecloud" | "unknown";
@@ -42,33 +44,19 @@ async function visibleTextFromHtml(
 
     switch (urlType) {
       case "greenhouse": {
-        const u = new URL(url);
-        const jobId = u.searchParams.get("gh_jid");
+        const parsed = parseGreenhouse(url);
+        if (!parsed) return null;
 
-        // embed greenhouse
-        if (jobId) {
-          const companyMatch = html.match(
-            /boards\.greenhouse\.io\/embed\/job_board\/js\?for=([a-z0-9]+)/i
-          );
+        const { company, jobId } = parsed;
 
-          const company = companyMatch?.[1];
-          if (!company) return null;
+        const apiUrl = `https://boards-api.greenhouse.io/v1/boards/${company}/jobs/${jobId}`;
+        const res = await fetch(apiUrl);
 
-          const apiUrl = `https://boards-api.greenhouse.io/v1/boards/${company}/jobs/${jobId}`;
-          const res = await fetch(apiUrl);
-          if (!res.ok) return null;
+        if (!res.ok) return null;
 
-          const data = await res.json();
-          text = JSON.stringify(data);
-          break;
-        }
+        const data = await res.json();
+        text = JSON.stringify(data);
 
-        // normal greenhouse
-        const jd = $("div.job__description.body").first();
-        if (!jd.length) return null;
-
-        jd.find("meta.job__pay-ranges").remove();
-        text = jd.text();
         break;
       }
       case "smartrecruiters": {

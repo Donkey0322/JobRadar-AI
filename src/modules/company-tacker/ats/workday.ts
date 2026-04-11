@@ -1,0 +1,82 @@
+import type { Company } from "../type";
+
+import { isTechIntern } from "../utils";
+
+interface WorkdayJob {
+  title: string;
+  postedOn: string;
+  locationsText: string;
+  externalPath: string;
+}
+
+export function urlToWorkdayCompany(url: URL): Company {
+  const name = url.hostname.split(".")[0];
+  const parts = url.pathname.split("/").filter(Boolean);
+  const isLocale = (str: string) => /^[a-z]{2}-[A-Z]{2}$/.test(str);
+  const careerPage = (parts.find((p) => !isLocale(p)) || "").toLowerCase();
+
+  return {
+    name,
+    ats: "workday",
+    identifier: `${name}-${careerPage}`,
+    domain: `${url.origin}/${careerPage}`,
+    page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
+    urls: [],
+  };
+}
+
+export async function fetchWorkday(company: Company, urls: Set<string>) {
+  let offset = 0;
+  const limit = 20;
+  let hasMore = true;
+
+  const results: WorkdayJob[] = [];
+
+  try {
+    while (hasMore) {
+      const res = await fetch(company.page, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          appliedFacets: {},
+          limit,
+          offset,
+          searchText: "software",
+        }),
+      });
+
+      if (!res.ok) {
+        // console.log(company.name, res.status, res.statusText, res.url);
+        return [];
+      }
+
+      const data = await res.json();
+
+      const jobs = data.jobPostings || [];
+      results.push(...jobs);
+
+      offset += limit;
+      hasMore = jobs.length === limit && jobs[jobs.length - 1].postedOn === "Posted Today";
+    }
+  } catch (error) {
+    console.error(`Error fetching workday jobs for ${company}: ${error}`);
+    return [];
+  }
+
+  const interns = results.filter(
+    (job: WorkdayJob) =>
+      job?.title &&
+      isTechIntern(job.title) &&
+      !urls.has(`${company.domain}${job.externalPath}`) &&
+      job.postedOn === "Posted Today"
+  );
+
+  return interns.map((job: WorkdayJob) => ({
+    company: company.name,
+    role: job.title,
+    link: `${company.domain}${job.externalPath}`,
+    location: job.locationsText ?? "",
+  }));
+}

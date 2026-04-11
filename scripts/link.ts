@@ -1,7 +1,7 @@
 #!/usr/bin/env tsx
 import "dotenv/config";
 
-import { analyzeLink } from "../src/utils/jd";
+import { analyzeLink } from "../src/modules/jd-analyzer";
 
 async function main() {
   const link = process.argv[2];

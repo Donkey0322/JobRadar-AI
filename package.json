@@ -4,9 +4,12 @@
   "description": "Mail Publisher for US Jobs",
   "type": "module",
   "scripts": {
-    "start": "tsx src/main.ts",
-    "dev": "tsx src/main.ts --dev",
-    "analyze": "tsx scripts/link.ts"
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts --dev",
+    "analyze": "tsx scripts/link.ts",
+    "company": "tsx scripts/company.ts",
+    "crawler": "tsx scripts/crawler.ts",
+    "crawler:dev": "tsx scripts/crawler.ts --dev"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -29,6 +32,7 @@
     "cheerio": "^1.2.0",
     "dotenv": "^17.3.1",
     "nodemailer": "^8.0.1",
+    "p-limit": "^7.3.0",
     "zod": "^4.3.6"
   }
 }

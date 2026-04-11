@@ -1,9 +1,10 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+import type { Company } from "../modules/company-tacker/type";
 import type { Job } from "@/types";
 
-import { JD_PATH, JOB_PATH, SENT_PATH } from "@/constants";
+import { COMPANY_PATH, JD_PATH, JOB_PATH, SENT_PATH } from "@/constants";
 
 export async function loadSent(): Promise<Set<string>> {
   try {
@@ -47,5 +48,15 @@ export async function saveJob(jobs: Job[]) {
     await fs.writeFile(JOB_PATH, JSON.stringify(reversed.reverse(), null, 2), "utf-8");
   } catch {
     await fs.writeFile(JOB_PATH, JSON.stringify(jobs, null, 2), "utf-8");
+  }
+}
+
+export async function loadCompanies(): Promise<Company[]> {
+  try {
+    const content = await fs.readFile(COMPANY_PATH, "utf-8");
+    const parsed: Company[] = JSON.parse(content);
+    return parsed;
+  } catch {
+    return [];
   }
 }

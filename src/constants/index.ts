@@ -6,6 +6,7 @@ export const DATA_PATH = path.join(process.cwd(), "data");
 export const SENT_PATH = path.join(DATA_PATH, "sent.json");
 export const JOB_PATH = path.join(DATA_PATH, "jobs.json");
 export const JD_PATH = path.join(DATA_PATH, "jd");
+export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 
 export const TARGET_SEASONS = [
   "Summer 2026",
