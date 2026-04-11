@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern, withinDays } from "../utils";
+import { isTarget, withinDays } from "../utils";
 
 interface OracleCloudJob {
   Id: string;
@@ -46,9 +46,7 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>) {
 
     const interns: OracleCloudJob[] = data.items?.[0]?.requisitionList?.filter(
       (job: OracleCloudJob) =>
-        isTechIntern(job.Title) &&
-        !urls.has(composeUrl(company, job.Id)) &&
-        withinDays(job.PostedDate)
+        isTarget(job.Title) && !urls.has(composeUrl(company, job.Id)) && withinDays(job.PostedDate)
     );
 
     return interns.map((job) => ({

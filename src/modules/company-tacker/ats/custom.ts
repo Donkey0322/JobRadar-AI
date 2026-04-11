@@ -3,7 +3,7 @@
 
 import type { Company } from "../type";
 
-import { isTechIntern } from "../utils";
+import { isTarget } from "../utils";
 import { withinDays } from "../utils";
 
 interface MicrosoftJob {
@@ -65,7 +65,7 @@ export async function fetchCustom(company: Company, urls: Set<string>) {
 
       const interns: MicrosoftJob[] = data?.data?.positions.filter(
         (job: MicrosoftJob) =>
-          isTechIntern(job.name) &&
+          isTarget(job.name) &&
           !urls.has(`${company.domain}/${job.url}`) &&
           (withinDays(job.creationTs * 1000) || withinDays(job.postedTs * 1000))
       );
@@ -102,7 +102,7 @@ export async function fetchCustom(company: Company, urls: Set<string>) {
         .map(({ fields }: { fields: AmazonJob }) => fields)
         .filter(
           (job: AmazonJob) =>
-            isTechIntern(job.title?.[0] ?? "") &&
+            isTarget(job.title?.[0] ?? "") &&
             !urls.has(`https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`) &&
             (withinDays(job.createdDate?.[0] * 1000) || withinDays(job.updatedDate?.[0] * 1000))
         );

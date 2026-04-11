@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern, withinDays } from "../utils";
+import { isTarget, withinDays } from "../utils";
 
 interface LeverJob {
   company_name: string;
@@ -39,8 +39,7 @@ export async function fetchLever(company: Company, urls: Set<string>) {
     const data = await res.json();
 
     const interns: LeverJob[] = data.filter(
-      (job: LeverJob) =>
-        isTechIntern(job.text) && !urls.has(job.hostedUrl) && withinDays(job.createdAt)
+      (job: LeverJob) => isTarget(job.text) && !urls.has(job.hostedUrl) && withinDays(job.createdAt)
     );
 
     return interns.map((job: LeverJob) => ({

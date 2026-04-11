@@ -2,6 +2,7 @@ import nodemailer from "nodemailer";
 
 import type { Job, Location } from "@/types";
 
+import { CONFIG } from "@/constants";
 import { getToday } from "@/utils/string";
 
 function escapeHtml(str: string) {
@@ -42,12 +43,12 @@ export async function sendEmail(job: Job) {
   const { company, link, season, jd } = job;
   let { role } = job;
 
-  const smtpHost = process.env.SMTP_HOST ?? "smtp.gmail.com";
-  const smtpPort = Number(process.env.SMTP_PORT ?? "587");
-  const smtpUser = process.env.SMTP_USER ?? "";
-  const smtpPass = process.env.SMTP_PASS ?? "";
-  const fromEmail = process.env.FROM_EMAIL ?? "";
-  const toEmail = process.env.TO_EMAIL ?? "";
+  const smtpHost = CONFIG.sender.host;
+  const smtpPort = CONFIG.sender.port;
+  const smtpUser = CONFIG.sender.user;
+  const smtpPass = CONFIG.sender.pass;
+  const fromEmail = CONFIG.sender.email;
+  const toEmail = CONFIG.receiver.email;
 
   if (!smtpHost || !smtpPort || !smtpUser || !smtpPass || !fromEmail || !toEmail) {
     throw new Error("Email env not fully configured, skip sending.");

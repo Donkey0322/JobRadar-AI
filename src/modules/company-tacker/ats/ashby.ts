@@ -1,6 +1,6 @@
 import type { Company } from "../type";
 
-import { isTechIntern, withinDays } from "../utils";
+import { isTarget, withinDays } from "../utils";
 
 interface AshbyJob {
   title: string;
@@ -31,8 +31,7 @@ export async function fetchAshby(company: Company, urls: Set<string>) {
     const data = await res.json();
 
     const interns: AshbyJob[] = data.jobs.filter(
-      (job: AshbyJob) =>
-        isTechIntern(job.title) && !urls.has(job.jobUrl) && withinDays(job.publishedAt)
+      (job: AshbyJob) => isTarget(job.title) && !urls.has(job.jobUrl) && withinDays(job.publishedAt)
     );
 
     return interns.map((job) => ({
