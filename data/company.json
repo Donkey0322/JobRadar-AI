@@ -1,45 +1,43 @@
 [
   {
-    "name": "altruist.com",
-    "ats": "custom",
-    "identifier": "altruist.com",
+    "name": "altruist",
+    "ats": "greenhouse",
+    "identifier": "altruist",
     "domain": "http://altruist.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/altruist/jobs",
     "urls": [
-      "http://altruist.com/join-altruist/?gh_jid=5601833004",
-      "https://altruist.com/join-altruist/"
+      "http://altruist.com/join-altruist/?gh_jid=5601833004"
     ]
   },
   {
-    "name": "block.xyz",
-    "ats": "custom",
-    "identifier": "block.xyz",
+    "name": "block",
+    "ats": "greenhouse",
+    "identifier": "block",
     "domain": "http://block.xyz",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/block/jobs",
     "urls": [
       "http://block.xyz/careers/jobs/4904196008?gh_jid=4904196008",
       "http://block.xyz/careers/jobs/4904198008?gh_jid=4904198008",
       "http://block.xyz/careers/jobs/5083061008?gh_jid=5083061008",
-      "http://block.xyz/careers/jobs/5083063008?gh_jid=5083063008",
-      "https://block.xyz/careers/jobs/4904196008"
+      "http://block.xyz/careers/jobs/5083063008?gh_jid=5083063008"
     ]
   },
   {
-    "name": "corp.skillz.com",
-    "ats": "custom",
-    "identifier": "corp.skillz.com",
+    "name": "corp",
+    "ats": "greenhouse",
+    "identifier": "corp",
     "domain": "http://corp.skillz.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
     "urls": [
       "http://corp.skillz.com/careers-list/?gh_jid=7308505"
     ]
   },
   {
     "name": "fa-etum-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-etum-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "http://fa-etum-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41054"
     ]
@@ -79,11 +77,11 @@
     ]
   },
   {
-    "name": "prizepicks.com",
-    "ats": "custom",
-    "identifier": "prizepicks.com",
+    "name": "prizepicks",
+    "ats": "greenhouse",
+    "identifier": "prizepicks",
     "domain": "http://prizepicks.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/prizepicks/jobs",
     "urls": [
       "http://prizepicks.com/position?gh_jid=7387802003",
       "http://prizepicks.com/position?gh_jid=7409184003"
@@ -100,22 +98,22 @@
     ]
   },
   {
-    "name": "spotandtango.com",
-    "ats": "custom",
-    "identifier": "spotandtango.com",
+    "name": "spotandtango",
+    "ats": "greenhouse",
+    "identifier": "spotandtango",
     "domain": "http://www.spotandtango.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/spotandtango/jobs",
     "urls": [
       "http://www.spotandtango.com/careers?gh_jid=4660329005",
       "http://www.spotandtango.com/careers?gh_jid=4666691005"
     ]
   },
   {
-    "name": "squarespace.com",
-    "ats": "custom",
-    "identifier": "squarespace.com",
+    "name": "squarespace",
+    "ats": "greenhouse",
+    "identifier": "squarespace",
     "domain": "http://www.squarespace.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/squarespace/jobs",
     "urls": [
       "http://www.squarespace.com/about/careers?gh_jid=7567536"
     ]
@@ -339,11 +337,11 @@
     ]
   },
   {
-    "name": "akunacapital.com",
-    "ats": "custom",
-    "identifier": "akunacapital.com",
+    "name": "akunacapital",
+    "ats": "greenhouse",
+    "identifier": "akunacapital",
     "domain": "https://akunacapital.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/akunacapital/jobs",
     "urls": [
       "https://akunacapital.com/job-details?gh_jid=6996427",
       "https://akunacapital.com/job-details?gh_jid=7055471",
@@ -351,11 +349,11 @@
     ]
   },
   {
-    "name": "alayacare.com",
-    "ats": "custom",
-    "identifier": "alayacare.com",
+    "name": "alayacare",
+    "ats": "greenhouse",
+    "identifier": "alayacare",
     "domain": "https://alayacare.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/alayacare/jobs",
     "urls": [
       "https://alayacare.com/open-positions?gh_jid=8451707002"
     ]
@@ -486,6 +484,16 @@
     ]
   },
   {
+    "name": "altruist.com",
+    "ats": "custom",
+    "identifier": "altruist.com",
+    "domain": "https://altruist.com",
+    "page": "",
+    "urls": [
+      "https://altruist.com/join-altruist/"
+    ]
+  },
+  {
     "name": "amat",
     "ats": "workday",
     "identifier": "amat-external",
@@ -550,11 +558,11 @@
     ]
   },
   {
-    "name": "amperity.com",
-    "ats": "custom",
-    "identifier": "amperity.com",
+    "name": "amperity",
+    "ats": "greenhouse",
+    "identifier": "amperity",
     "domain": "https://amperity.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/amperity/jobs",
     "urls": [
       "https://amperity.com/careers/7404458?gh_jid=7404458&gh_src=053ff1fc1us&gh_jid=7404458"
     ]
@@ -582,25 +590,34 @@
     ]
   },
   {
-    "name": "app.careerpuck.com",
-    "ats": "custom",
-    "identifier": "app.careerpuck.com",
+    "name": "app",
+    "ats": "greenhouse",
+    "identifier": "app",
     "domain": "https://app.careerpuck.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/app/jobs",
     "urls": [
       "https://app.careerpuck.com/job-board/domino-data-lab/job/7296515?gh_jid=7296515",
       "https://app.careerpuck.com/job-board/domino-data-lab/job/7299212?gh_jid=7299212",
       "https://app.careerpuck.com/job-board/lyft/job/8128890002?gh_jid=8128890002",
       "https://app.careerpuck.com/job-board/lyft/job/8130804002?gh_jid=8130804002",
       "https://app.careerpuck.com/job-board/lyft/job/8131695002?gh_jid=8131695002",
-      "https://app.careerpuck.com/job-board/lyft/job/8134376002",
-      "https://app.careerpuck.com/job-board/lyft/job/8149465002",
       "https://app.careerpuck.com/job-board/lyft/job/8168725002?gh_jid=8168725002",
       "https://app.careerpuck.com/job-board/lyft/job/8168727002?gh_jid=8168727002",
       "https://app.careerpuck.com/job-board/lyft/job/8168731002?gh_jid=8168731002",
       "https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002",
       "https://app.careerpuck.com/job-board/lyft/job/8218030002?gh_jid=8218030002",
       "https://app.careerpuck.com/job-board/udemy/job/5809832004?gh_jid=5809832004"
+    ]
+  },
+  {
+    "name": "app.careerpuck.com",
+    "ats": "custom",
+    "identifier": "app.careerpuck.com",
+    "domain": "https://app.careerpuck.com",
+    "page": "",
+    "urls": [
+      "https://app.careerpuck.com/job-board/lyft/job/8134376002",
+      "https://app.careerpuck.com/job-board/lyft/job/8149465002"
     ]
   },
   {
@@ -808,11 +825,11 @@
     ]
   },
   {
-    "name": "artofproblemsolving.com",
-    "ats": "custom",
-    "identifier": "artofproblemsolving.com",
+    "name": "artofproblemsolving",
+    "ats": "greenhouse",
+    "identifier": "artofproblemsolving",
     "domain": "https://artofproblemsolving.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/artofproblemsolving/jobs",
     "urls": [
       "https://artofproblemsolving.com/careers/job/7493807003?gh_jid=7493807003"
     ]
@@ -825,11 +842,20 @@
     "page": "",
     "urls": [
       "https://asana.com/jobs/apply/7071272",
-      "https://asana.com/jobs/apply/7078075?gh_jid=7078075",
-      "https://asana.com/jobs/apply/7078079?gh_jid=7078079",
-      "https://asana.com/jobs/apply/7078082?gh_jid=7078082",
       "https://asana.com/jobs/apply/7078152",
       "https://asana.com/jobs/apply/7078192"
+    ]
+  },
+  {
+    "name": "asana",
+    "ats": "greenhouse",
+    "identifier": "asana",
+    "domain": "https://asana.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
+    "urls": [
+      "https://asana.com/jobs/apply/7078075?gh_jid=7078075",
+      "https://asana.com/jobs/apply/7078079?gh_jid=7078079",
+      "https://asana.com/jobs/apply/7078082?gh_jid=7078082"
     ]
   },
   {
@@ -1022,11 +1048,11 @@
     ]
   },
   {
-    "name": "avathon.com",
-    "ats": "custom",
-    "identifier": "avathon.com",
+    "name": "avathon",
+    "ats": "greenhouse",
+    "identifier": "avathon",
     "domain": "https://avathon.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/avathon/jobs",
     "urls": [
       "https://avathon.com/company/careers-job-listing/?gh_jid=4655249005"
     ]
@@ -1091,11 +1117,11 @@
     ]
   },
   {
-    "name": "award.co",
-    "ats": "custom",
-    "identifier": "award.co",
+    "name": "award",
+    "ats": "greenhouse",
+    "identifier": "award",
     "domain": "https://award.co",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/award/jobs",
     "urls": [
       "https://award.co/position?gh_jid=4322220004"
     ]
@@ -1246,11 +1272,11 @@
     ]
   },
   {
-    "name": "base.org",
-    "ats": "custom",
-    "identifier": "base.org",
+    "name": "base",
+    "ats": "greenhouse",
+    "identifier": "base",
     "domain": "https://base.org",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/base/jobs",
     "urls": [
       "https://base.org/careers?gh_jid=7341088"
     ]
@@ -1360,6 +1386,16 @@
     "page": "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/bx_external_site/jobs",
     "urls": [
       "https://blackstone.wd1.myworkdayjobs.com/bx_external_site/job/New-York/XMLNAME-2026-Blackstone-Data-Science-Summer-Analyst_39996"
+    ]
+  },
+  {
+    "name": "block.xyz",
+    "ats": "custom",
+    "identifier": "block.xyz",
+    "domain": "https://block.xyz",
+    "page": "",
+    "urls": [
+      "https://block.xyz/careers/jobs/4904196008"
     ]
   },
   {
@@ -1841,11 +1877,11 @@
     ]
   },
   {
-    "name": "boomi.com",
-    "ats": "custom",
-    "identifier": "boomi.com",
+    "name": "boomi",
+    "ats": "greenhouse",
+    "identifier": "boomi",
     "domain": "https://boomi.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/boomi/jobs",
     "urls": [
       "https://boomi.com/boomi-jobs/?gh_jid=5764486004"
     ]
@@ -1953,11 +1989,11 @@
     ]
   },
   {
-    "name": "c3.ai",
-    "ats": "custom",
-    "identifier": "c3.ai",
+    "name": "c3",
+    "ats": "greenhouse",
+    "identifier": "c3",
     "domain": "https://c3.ai",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/c3/jobs",
     "urls": [
       "https://c3.ai/job-description/8106513002?gh_jid=8106513002"
     ]
@@ -2198,11 +2234,11 @@
     ]
   },
   {
-    "name": "campus-globalcareers-atlassian.icims.com",
-    "ats": "custom",
-    "identifier": "campus-globalcareers-atlassian.icims.com",
+    "name": "atlassian",
+    "ats": "icims",
+    "identifier": "atlassian",
     "domain": "https://campus-globalcareers-atlassian.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/atlassian/jobs",
     "urls": [
       "https://campus-globalcareers-atlassian.icims.com/jobs/21019/software-engineer-intern%2c-2026-summer-canada/job"
     ]
@@ -2236,11 +2272,11 @@
     ]
   },
   {
-    "name": "carbonrobotics.com",
-    "ats": "custom",
-    "identifier": "carbonrobotics.com",
+    "name": "carbonrobotics",
+    "ats": "greenhouse",
+    "identifier": "carbonrobotics",
     "domain": "https://carbonrobotics.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/carbonrobotics/jobs",
     "urls": [
       "https://carbonrobotics.com/job-openings?gh_jid=4664726006"
     ]
@@ -2266,52 +2302,52 @@
     ]
   },
   {
-    "name": "careers-alcami.icims.com",
-    "ats": "custom",
-    "identifier": "careers-alcami.icims.com",
+    "name": "alcami",
+    "ats": "icims",
+    "identifier": "alcami",
     "domain": "https://careers-alcami.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/alcami/jobs",
     "urls": [
       "https://careers-alcami.icims.com/jobs/2020/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-aluminumdynamics.icims.com",
-    "ats": "custom",
-    "identifier": "careers-aluminumdynamics.icims.com",
+    "name": "aluminumdynamics",
+    "ats": "icims",
+    "identifier": "aluminumdynamics",
     "domain": "https://careers-aluminumdynamics.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/aluminumdynamics/jobs",
     "urls": [
       "https://careers-aluminumdynamics.icims.com/jobs/6351/job"
     ]
   },
   {
-    "name": "careers-benjaminmoore.icims.com",
-    "ats": "custom",
-    "identifier": "careers-benjaminmoore.icims.com",
+    "name": "benjaminmoore",
+    "ats": "icims",
+    "identifier": "benjaminmoore",
     "domain": "https://careers-benjaminmoore.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/benjaminmoore/jobs",
     "urls": [
       "https://careers-benjaminmoore.icims.com/jobs/2300/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-berkley.icims.com",
-    "ats": "custom",
-    "identifier": "careers-berkley.icims.com",
+    "name": "berkley",
+    "ats": "icims",
+    "identifier": "berkley",
     "domain": "https://careers-berkley.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/berkley/jobs",
     "urls": [
       "https://careers-berkley.icims.com/jobs/12803/job?mobile=true&needsRedirect=false",
       "https://careers-berkley.icims.com/jobs/13671/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-biorad.icims.com",
-    "ats": "custom",
-    "identifier": "careers-biorad.icims.com",
+    "name": "biorad",
+    "ats": "icims",
+    "identifier": "biorad",
     "domain": "https://careers-biorad.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/biorad/jobs",
     "urls": [
       "https://careers-biorad.icims.com/jobs/38272/software-product-owner%2c-intern/job",
       "https://careers-biorad.icims.com/jobs/38293/software-intern/job",
@@ -2322,52 +2358,52 @@
     ]
   },
   {
-    "name": "careers-calamp.icims.com",
-    "ats": "custom",
-    "identifier": "careers-calamp.icims.com",
+    "name": "calamp",
+    "ats": "icims",
+    "identifier": "calamp",
     "domain": "https://careers-calamp.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/calamp/jobs",
     "urls": [
       "https://careers-calamp.icims.com/jobs/4326/intern%2c-engineer-software---carlsbad%2c-ca-%28summer-2026%29/job"
     ]
   },
   {
-    "name": "careers-carollo.icims.com",
-    "ats": "custom",
-    "identifier": "careers-carollo.icims.com",
+    "name": "carollo",
+    "ats": "icims",
+    "identifier": "carollo",
     "domain": "https://careers-carollo.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/carollo/jobs",
     "urls": [
       "https://careers-carollo.icims.com/jobs/4133/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-cfins.icims.com",
-    "ats": "custom",
-    "identifier": "careers-cfins.icims.com",
+    "name": "cfins",
+    "ats": "icims",
+    "identifier": "cfins",
     "domain": "https://careers-cfins.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/cfins/jobs",
     "urls": [
       "https://careers-cfins.icims.com/jobs/4748/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-chickfila.icims.com",
-    "ats": "custom",
-    "identifier": "careers-chickfila.icims.com",
+    "name": "chickfila",
+    "ats": "icims",
+    "identifier": "chickfila",
     "domain": "https://careers-chickfila.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/chickfila/jobs",
     "urls": [
       "https://careers-chickfila.icims.com/jobs/18992/digital-transformation-and-technology-software-engineer-intern---summer-2026/job",
       "https://careers-chickfila.icims.com/jobs/18992/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-cotiviti.icims.com",
-    "ats": "custom",
-    "identifier": "careers-cotiviti.icims.com",
+    "name": "cotiviti",
+    "ats": "icims",
+    "identifier": "cotiviti",
     "domain": "https://careers-cotiviti.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/cotiviti/jobs",
     "urls": [
       "https://careers-cotiviti.icims.com/jobs/18285/job?mobile=true&needsRedirect=false",
       "https://careers-cotiviti.icims.com/jobs/18319/job?mobile=true&needsRedirect=false",
@@ -2375,52 +2411,52 @@
     ]
   },
   {
-    "name": "careers-daifuku-america.icims.com",
-    "ats": "custom",
-    "identifier": "careers-daifuku-america.icims.com",
+    "name": "america",
+    "ats": "icims",
+    "identifier": "america",
     "domain": "https://careers-daifuku-america.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/america/jobs",
     "urls": [
       "https://careers-daifuku-america.icims.com/jobs/21071/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-daytonfreight.icims.com",
-    "ats": "custom",
-    "identifier": "careers-daytonfreight.icims.com",
+    "name": "daytonfreight",
+    "ats": "icims",
+    "identifier": "daytonfreight",
     "domain": "https://careers-daytonfreight.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/daytonfreight/jobs",
     "urls": [
       "https://careers-daytonfreight.icims.com/jobs/16715/software-developer-intern/job"
     ]
   },
   {
-    "name": "careers-eaglepicher.icims.com",
-    "ats": "custom",
-    "identifier": "careers-eaglepicher.icims.com",
+    "name": "eaglepicher",
+    "ats": "icims",
+    "identifier": "eaglepicher",
     "domain": "https://careers-eaglepicher.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/eaglepicher/jobs",
     "urls": [
       "https://careers-eaglepicher.icims.com/jobs/3039/job?mobile=true&needsRedirect=false",
       "https://careers-eaglepicher.icims.com/jobs/3042/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-eagleview.icims.com",
-    "ats": "custom",
-    "identifier": "careers-eagleview.icims.com",
+    "name": "eagleview",
+    "ats": "icims",
+    "identifier": "eagleview",
     "domain": "https://careers-eagleview.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/eagleview/jobs",
     "urls": [
       "https://careers-eagleview.icims.com/jobs/2594/job"
     ]
   },
   {
-    "name": "careers-ebscoind.icims.com",
-    "ats": "custom",
-    "identifier": "careers-ebscoind.icims.com",
+    "name": "ebscoind",
+    "ats": "icims",
+    "identifier": "ebscoind",
     "domain": "https://careers-ebscoind.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/ebscoind/jobs",
     "urls": [
       "https://careers-ebscoind.icims.com/jobs/1938/job?mobile=true&needsRedirect=false",
       "https://careers-ebscoind.icims.com/jobs/1953/job?mobile=true&needsRedirect=false",
@@ -2428,32 +2464,32 @@
     ]
   },
   {
-    "name": "careers-empiricalfoods.icims.com",
-    "ats": "custom",
-    "identifier": "careers-empiricalfoods.icims.com",
+    "name": "empiricalfoods",
+    "ats": "icims",
+    "identifier": "empiricalfoods",
     "domain": "https://careers-empiricalfoods.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/empiricalfoods/jobs",
     "urls": [
       "https://careers-empiricalfoods.icims.com/jobs/2972/job",
       "https://careers-empiricalfoods.icims.com/jobs/2972/software-engineering-intern---summer-2026/job"
     ]
   },
   {
-    "name": "careers-fult.icims.com",
-    "ats": "custom",
-    "identifier": "careers-fult.icims.com",
+    "name": "fult",
+    "ats": "icims",
+    "identifier": "fult",
     "domain": "https://careers-fult.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/fult/jobs",
     "urls": [
       "https://careers-fult.icims.com/jobs/23337/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-gannettfleming.icims.com",
-    "ats": "custom",
-    "identifier": "careers-gannettfleming.icims.com",
+    "name": "gannettfleming",
+    "ats": "icims",
+    "identifier": "gannettfleming",
     "domain": "https://careers-gannettfleming.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/gannettfleming/jobs",
     "urls": [
       "https://careers-gannettfleming.icims.com/jobs/13630/job?mobile=true&needsRedirect=false",
       "https://careers-gannettfleming.icims.com/jobs/13631/job?mobile=true&needsRedirect=false",
@@ -2461,11 +2497,11 @@
     ]
   },
   {
-    "name": "careers-gdms.icims.com",
-    "ats": "custom",
-    "identifier": "careers-gdms.icims.com",
+    "name": "gdms",
+    "ats": "icims",
+    "identifier": "gdms",
     "domain": "https://careers-gdms.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/gdms/jobs",
     "urls": [
       "https://careers-gdms.icims.com/jobs/67649/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/67909/job?mobile=true&needsRedirect=false",
@@ -2517,11 +2553,11 @@
     ]
   },
   {
-    "name": "careers-here.icims.com",
-    "ats": "custom",
-    "identifier": "careers-here.icims.com",
+    "name": "here",
+    "ats": "icims",
+    "identifier": "here",
     "domain": "https://careers-here.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/here/jobs",
     "urls": [
       "https://careers-here.icims.com/jobs/80772/job?mobile=true&needsRedirect=false",
       "https://careers-here.icims.com/jobs/80772/software-engineer-intern/job",
@@ -2531,11 +2567,11 @@
     ]
   },
   {
-    "name": "careers-hexagonpositioning.icims.com",
-    "ats": "custom",
-    "identifier": "careers-hexagonpositioning.icims.com",
+    "name": "hexagonpositioning",
+    "ats": "icims",
+    "identifier": "hexagonpositioning",
     "domain": "https://careers-hexagonpositioning.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/hexagonpositioning/jobs",
     "urls": [
       "https://careers-hexagonpositioning.icims.com/jobs/2858/autonomy-research-intern/job",
       "https://careers-hexagonpositioning.icims.com/jobs/2860/job?mobile=true&needsRedirect=false",
@@ -2544,21 +2580,21 @@
     ]
   },
   {
-    "name": "careers-i3-corps.icims.com",
-    "ats": "custom",
-    "identifier": "careers-i3-corps.icims.com",
+    "name": "corps",
+    "ats": "icims",
+    "identifier": "corps",
     "domain": "https://careers-i3-corps.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/corps/jobs",
     "urls": [
       "https://careers-i3-corps.icims.com/jobs/4970/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-ice.icims.com",
-    "ats": "custom",
-    "identifier": "careers-ice.icims.com",
+    "name": "ice",
+    "ats": "icims",
+    "identifier": "ice",
     "domain": "https://careers-ice.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/ice/jobs",
     "urls": [
       "https://careers-ice.icims.com/jobs/11596/job?mobile=true&needsRedirect=false",
       "https://careers-ice.icims.com/jobs/11603/job?mobile=true&needsRedirect=false",
@@ -2566,11 +2602,11 @@
     ]
   },
   {
-    "name": "careers-ipipeline.icims.com",
-    "ats": "custom",
-    "identifier": "careers-ipipeline.icims.com",
+    "name": "ipipeline",
+    "ats": "icims",
+    "identifier": "ipipeline",
     "domain": "https://careers-ipipeline.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/ipipeline/jobs",
     "urls": [
       "https://careers-ipipeline.icims.com/jobs/1591/job?mobile=true&needsRedirect=false",
       "https://careers-ipipeline.icims.com/jobs/1591/software-developer-intern-%28summer-2026---r%26d%29/job",
@@ -2579,21 +2615,21 @@
     ]
   },
   {
-    "name": "careers-kimley-horn.icims.com",
-    "ats": "custom",
-    "identifier": "careers-kimley-horn.icims.com",
+    "name": "horn",
+    "ats": "icims",
+    "identifier": "horn",
     "domain": "https://careers-kimley-horn.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/horn/jobs",
     "urls": [
       "https://careers-kimley-horn.icims.com/jobs/22314/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-kinaxis.icims.com",
-    "ats": "custom",
-    "identifier": "careers-kinaxis.icims.com",
+    "name": "kinaxis",
+    "ats": "icims",
+    "identifier": "kinaxis",
     "domain": "https://careers-kinaxis.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/kinaxis/jobs",
     "urls": [
       "https://careers-kinaxis.icims.com/jobs/33678/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/33688/job?mobile=true&needsRedirect=false",
@@ -2606,11 +2642,11 @@
     ]
   },
   {
-    "name": "careers-lmi.icims.com",
-    "ats": "custom",
-    "identifier": "careers-lmi.icims.com",
+    "name": "lmi",
+    "ats": "icims",
+    "identifier": "lmi",
     "domain": "https://careers-lmi.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/lmi/jobs",
     "urls": [
       "https://careers-lmi.icims.com/jobs/13492/job?mobile=true&needsRedirect=false",
       "https://careers-lmi.icims.com/jobs/13505/job?mobile=true&needsRedirect=false",
@@ -2618,41 +2654,41 @@
     ]
   },
   {
-    "name": "careers-magaero.icims.com",
-    "ats": "custom",
-    "identifier": "careers-magaero.icims.com",
+    "name": "magaero",
+    "ats": "icims",
+    "identifier": "magaero",
     "domain": "https://careers-magaero.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/magaero/jobs",
     "urls": [
       "https://careers-magaero.icims.com/jobs/8098/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-ntrepidcorp.icims.com",
-    "ats": "custom",
-    "identifier": "careers-ntrepidcorp.icims.com",
+    "name": "ntrepidcorp",
+    "ats": "icims",
+    "identifier": "ntrepidcorp",
     "domain": "https://careers-ntrepidcorp.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/ntrepidcorp/jobs",
     "urls": [
       "https://careers-ntrepidcorp.icims.com/jobs/1814/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-origamirisk.icims.com",
-    "ats": "custom",
-    "identifier": "careers-origamirisk.icims.com",
+    "name": "origamirisk",
+    "ats": "icims",
+    "identifier": "origamirisk",
     "domain": "https://careers-origamirisk.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/origamirisk/jobs",
     "urls": [
       "https://careers-origamirisk.icims.com/jobs/3855/job"
     ]
   },
   {
-    "name": "careers-peraton.icims.com",
-    "ats": "custom",
-    "identifier": "careers-peraton.icims.com",
+    "name": "peraton",
+    "ats": "icims",
+    "identifier": "peraton",
     "domain": "https://careers-peraton.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/peraton/jobs",
     "urls": [
       "https://careers-peraton.icims.com/jobs/158530/job?mobile=true&needsRedirect=false",
       "https://careers-peraton.icims.com/jobs/158532/job?mobile=true&needsRedirect=false",
@@ -2664,96 +2700,98 @@
     ]
   },
   {
-    "name": "careers-powerschool.icims.com",
-    "ats": "custom",
-    "identifier": "careers-powerschool.icims.com",
+    "name": "powerschool",
+    "ats": "icims",
+    "identifier": "powerschool",
     "domain": "https://careers-powerschool.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/powerschool/jobs",
     "urls": [
       "https://careers-powerschool.icims.com/jobs/52599/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-rambus.icims.com",
-    "ats": "custom",
-    "identifier": "careers-rambus.icims.com",
+    "name": "rambus",
+    "ats": "icims",
+    "identifier": "rambus",
     "domain": "https://careers-rambus.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/rambus/jobs",
     "urls": [
       "https://careers-rambus.icims.com/jobs/22360/job",
       "https://careers-rambus.icims.com/jobs/22361/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-revolutioncompany.icims.com",
-    "ats": "custom",
-    "identifier": "careers-revolutioncompany.icims.com",
+    "name": "revolutioncompany",
+    "ats": "icims",
+    "identifier": "revolutioncompany",
     "domain": "https://careers-revolutioncompany.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/revolutioncompany/jobs",
     "urls": [
       "https://careers-revolutioncompany.icims.com/jobs/2869/full-stack-developer-intern/job"
     ]
   },
   {
-    "name": "careers-sargentlundy.icims.com",
-    "ats": "custom",
-    "identifier": "careers-sargentlundy.icims.com",
+    "name": "sargentlundy",
+    "ats": "icims",
+    "identifier": "sargentlundy",
     "domain": "https://careers-sargentlundy.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/sargentlundy/jobs",
     "urls": [
       "https://careers-sargentlundy.icims.com/jobs/23200/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-sas.icims.com",
-    "ats": "custom",
-    "identifier": "careers-sas.icims.com",
+    "name": "sas",
+    "ats": "icims",
+    "identifier": "sas",
     "domain": "https://careers-sas.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/sas/jobs",
     "urls": [
       "https://careers-sas.icims.com/jobs/40120/job?mobile=true&needsRedirect=false",
       "https://careers-sas.icims.com/jobs/40478/job?mobile=true&needsRedirect=false",
       "https://careers-sas.icims.com/jobs/40704/job?mobile=true&needsRedirect=false",
-      "https://careers-sas.icims.com/jobs/40723/job?mobile=true&needsRedirect=false"
+      "https://careers-sas.icims.com/jobs/40723/job?mobile=true&needsRedirect=false",
+      "https://ideas-sas.icims.com/jobs/40100/job?mobile=true&needsRedirect=false",
+      "https://ideas-sas.icims.com/jobs/40116/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-scires.icims.com",
-    "ats": "custom",
-    "identifier": "careers-scires.icims.com",
+    "name": "scires",
+    "ats": "icims",
+    "identifier": "scires",
     "domain": "https://careers-scires.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/scires/jobs",
     "urls": [
       "https://careers-scires.icims.com/jobs/11082/job?mobile=true&needsRedirect=false",
       "https://careers-scires.icims.com/jobs/11083/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-sharpusa.icims.com",
-    "ats": "custom",
-    "identifier": "careers-sharpusa.icims.com",
+    "name": "sharpusa",
+    "ats": "icims",
+    "identifier": "sharpusa",
     "domain": "https://careers-sharpusa.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/sharpusa/jobs",
     "urls": [
       "https://careers-sharpusa.icims.com/jobs/8679/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-shawmut.icims.com",
-    "ats": "custom",
-    "identifier": "careers-shawmut.icims.com",
+    "name": "shawmut",
+    "ats": "icims",
+    "identifier": "shawmut",
     "domain": "https://careers-shawmut.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/shawmut/jobs",
     "urls": [
       "https://careers-shawmut.icims.com/jobs/6685/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-sig.icims.com",
-    "ats": "custom",
-    "identifier": "careers-sig.icims.com",
+    "name": "sig",
+    "ats": "icims",
+    "identifier": "sig",
     "domain": "https://careers-sig.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/sig/jobs",
     "urls": [
       "https://careers-sig.icims.com/jobs/9382/job",
       "https://careers-sig.icims.com/jobs/9859/job",
@@ -2761,94 +2799,94 @@
     ]
   },
   {
-    "name": "careers-snapon.icims.com",
-    "ats": "custom",
-    "identifier": "careers-snapon.icims.com",
+    "name": "snapon",
+    "ats": "icims",
+    "identifier": "snapon",
     "domain": "https://careers-snapon.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/snapon/jobs",
     "urls": [
       "https://careers-snapon.icims.com/jobs/16233/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-spscommerce.icims.com",
-    "ats": "custom",
-    "identifier": "careers-spscommerce.icims.com",
+    "name": "spscommerce",
+    "ats": "icims",
+    "identifier": "spscommerce",
     "domain": "https://careers-spscommerce.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/spscommerce/jobs",
     "urls": [
       "https://careers-spscommerce.icims.com/jobs/9785/software-engineer-intern-%28talent-pool%29/job",
       "https://careers-spscommerce.icims.com/jobs/9793/software-engineer-intern-%28talent-pool%29/job"
     ]
   },
   {
-    "name": "careers-ssoe.icims.com",
-    "ats": "custom",
-    "identifier": "careers-ssoe.icims.com",
+    "name": "ssoe",
+    "ats": "icims",
+    "identifier": "ssoe",
     "domain": "https://careers-ssoe.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/ssoe/jobs",
     "urls": [
       "https://careers-ssoe.icims.com/jobs/3478/job?mobile=true&needsRedirect=false",
       "https://careers-ssoe.icims.com/jobs/3539/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-steeldynamics.icims.com",
-    "ats": "custom",
-    "identifier": "careers-steeldynamics.icims.com",
+    "name": "steeldynamics",
+    "ats": "icims",
+    "identifier": "steeldynamics",
     "domain": "https://careers-steeldynamics.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/steeldynamics/jobs",
     "urls": [
       "https://careers-steeldynamics.icims.com/jobs/7087/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-stifel.icims.com",
-    "ats": "custom",
-    "identifier": "careers-stifel.icims.com",
+    "name": "stifel",
+    "ats": "icims",
+    "identifier": "stifel",
     "domain": "https://careers-stifel.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/stifel/jobs",
     "urls": [
       "https://careers-stifel.icims.com/jobs/8188/job?mobile=true&needsRedirect=false",
       "https://careers-stifel.icims.com/jobs/8210/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-stonex.icims.com",
-    "ats": "custom",
-    "identifier": "careers-stonex.icims.com",
+    "name": "stonex",
+    "ats": "icims",
+    "identifier": "stonex",
     "domain": "https://careers-stonex.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/stonex/jobs",
     "urls": [
       "https://careers-stonex.icims.com/jobs/13829/job"
     ]
   },
   {
-    "name": "careers-uwcu.icims.com",
-    "ats": "custom",
-    "identifier": "careers-uwcu.icims.com",
+    "name": "uwcu",
+    "ats": "icims",
+    "identifier": "uwcu",
     "domain": "https://careers-uwcu.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/uwcu/jobs",
     "urls": [
       "https://careers-uwcu.icims.com/jobs/5992/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-walterpmoore.icims.com",
-    "ats": "custom",
-    "identifier": "careers-walterpmoore.icims.com",
+    "name": "walterpmoore",
+    "ats": "icims",
+    "identifier": "walterpmoore",
     "domain": "https://careers-walterpmoore.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/walterpmoore/jobs",
     "urls": [
       "https://careers-walterpmoore.icims.com/jobs/4046/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careers-werfen.icims.com",
-    "ats": "custom",
-    "identifier": "careers-werfen.icims.com",
+    "name": "werfen",
+    "ats": "icims",
+    "identifier": "werfen",
     "domain": "https://careers-werfen.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/werfen/jobs",
     "urls": [
       "https://careers-werfen.icims.com/jobs/9804/job?mobile=true&needsRedirect=false",
       "https://careers-werfen.icims.com/jobs/9827/job?mobile=true&needsRedirect=false",
@@ -2857,11 +2895,11 @@
     ]
   },
   {
-    "name": "careers-westernsouthern.icims.com",
-    "ats": "custom",
-    "identifier": "careers-westernsouthern.icims.com",
+    "name": "westernsouthern",
+    "ats": "icims",
+    "identifier": "westernsouthern",
     "domain": "https://careers-westernsouthern.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/westernsouthern/jobs",
     "urls": [
       "https://careers-westernsouthern.icims.com/jobs/23681/software-quality-testing-intern-%28full-year-2026%29/job"
     ]
@@ -2891,14 +2929,38 @@
     ]
   },
   {
-    "name": "careers.airbnb.com",
-    "ats": "custom",
-    "identifier": "careers.airbnb.com",
+    "name": "careers",
+    "ats": "greenhouse",
+    "identifier": "careers",
     "domain": "https://careers.airbnb.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
     "urls": [
       "https://careers.airbnb.com/positions/7453837?gh_jid=7453837",
-      "https://careers.airbnb.com/positions/7773917?gh_jid=7773917"
+      "https://careers.airbnb.com/positions/7773917?gh_jid=7773917",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521",
+      "https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137",
+      "https://careers.datadoghq.com/detail/7406578/?gh_jid=7406578",
+      "https://careers.duolingo.com/jobs/8150883002?gh_jid=8150883002",
+      "https://careers.duolingo.com/jobs/8155655002?gh_jid=8155655002",
+      "https://careers.formlabs.com/job/7384134/apply/?gh_jid=7384134",
+      "https://careers.formlabs.com/job/7520649/apply/?gh_jid=7520649",
+      "https://careers.hootsuite.com/job/?gh_jid=7808288",
+      "https://careers.roblox.com/jobs/7206219?gh_jid=7206219",
+      "https://careers.roblox.com/jobs/7654991?gh_jid=7654991",
+      "https://careers.withwaymo.com/jobs/2026-summer-intern-phd-software-engineer-predictive-planner-ml-dl-mountain-view-california-united-states?gh_jid=7368864",
+      "https://careers.withwaymo.com/jobs?gh_jid=7269233",
+      "https://careers.withwaymo.com/jobs?gh_jid=7280481",
+      "https://careers.withwaymo.com/jobs?gh_jid=7298453",
+      "https://careers.withwaymo.com/jobs?gh_jid=7306072",
+      "https://careers.withwaymo.com/jobs?gh_jid=7315982",
+      "https://careers.withwaymo.com/jobs?gh_jid=7325018",
+      "https://careers.withwaymo.com/jobs?gh_jid=7342413",
+      "https://careers.withwaymo.com/jobs?gh_jid=7347429",
+      "https://careers.withwaymo.com/jobs?gh_jid=7393132",
+      "https://careers.withwaymo.com/jobs?gh_jid=7565624",
+      "https://careers.withwaymo.com/jobs?gh_jid=7733386"
     ]
   },
   {
@@ -2933,18 +2995,6 @@
       "https://careers.appian.com/jobs/7201589-product-manager-intern",
       "https://careers.appian.com/jobs/7201603-information-security-engineer",
       "https://careers.appian.com/jobs/7201613-software-engineering-intern"
-    ]
-  },
-  {
-    "name": "careers.aqr.com",
-    "ats": "custom",
-    "identifier": "careers.aqr.com",
-    "domain": "https://careers.aqr.com",
-    "page": "",
-    "urls": [
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521"
     ]
   },
   {
@@ -3120,9 +3170,7 @@
     "urls": [
       "https://careers.datadoghq.com/detail/7127832/",
       "https://careers.datadoghq.com/detail/7158137/",
-      "https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137",
-      "https://careers.datadoghq.com/detail/7367016/",
-      "https://careers.datadoghq.com/detail/7406578/?gh_jid=7406578"
+      "https://careers.datadoghq.com/detail/7367016/"
     ]
   },
   {
@@ -3165,10 +3213,8 @@
     "page": "",
     "urls": [
       "https://careers.duolingo.com/jobs/8150883002",
-      "https://careers.duolingo.com/jobs/8150883002?gh_jid=8150883002",
       "https://careers.duolingo.com/jobs/8155399002",
-      "https://careers.duolingo.com/jobs/8155655002",
-      "https://careers.duolingo.com/jobs/8155655002?gh_jid=8155655002"
+      "https://careers.duolingo.com/jobs/8155655002"
     ]
   },
   {
@@ -3194,17 +3240,6 @@
     "page": "",
     "urls": [
       "https://careers.fedex.com/software-engineer-intern-summer-2026/job/P25-284903-1"
-    ]
-  },
-  {
-    "name": "careers.formlabs.com",
-    "ats": "custom",
-    "identifier": "careers.formlabs.com",
-    "domain": "https://careers.formlabs.com",
-    "page": "",
-    "urls": [
-      "https://careers.formlabs.com/job/7384134/apply/?gh_jid=7384134",
-      "https://careers.formlabs.com/job/7520649/apply/?gh_jid=7520649"
     ]
   },
   {
@@ -3260,16 +3295,6 @@
     "page": "",
     "urls": [
       "https://careers.homedepot.com/job/22430119/software-engineer-internship-summer-2026-remote-remote"
-    ]
-  },
-  {
-    "name": "careers.hootsuite.com",
-    "ats": "custom",
-    "identifier": "careers.hootsuite.com",
-    "domain": "https://careers.hootsuite.com",
-    "page": "",
-    "urls": [
-      "https://careers.hootsuite.com/job/?gh_jid=7808288"
     ]
   },
   {
@@ -3595,9 +3620,7 @@
     "page": "",
     "urls": [
       "https://careers.roblox.com/jobs/7114765?fbclid=PAZXh0bgNhZW0CMTEAAacJ6fn8yHQ6R-Xp_hftOF2j9kC4QiKk5Q_8hTSWMPHEkd9N_hiA62Myxz0ULA_aem_yhDi7BqGgqyKbKlnOnSspw",
-      "https://careers.roblox.com/jobs/7167598",
-      "https://careers.roblox.com/jobs/7206219?gh_jid=7206219",
-      "https://careers.roblox.com/jobs/7654991?gh_jid=7654991"
+      "https://careers.roblox.com/jobs/7167598"
     ]
   },
   {
@@ -3768,19 +3791,7 @@
       "https://careers.withwaymo.com/jobs/2026-summer-intern-bs-ms-generative-synthetic-data-mountain-view-california-united-states",
       "https://careers.withwaymo.com/jobs/2026-summer-intern-bs-ms-software-engineer-sqr-san-francisco-california-united-states",
       "https://careers.withwaymo.com/jobs/2026-summer-intern-bs-ms-software-engineering-commercialization-mountain-view-california-united-states-san-francisco",
-      "https://careers.withwaymo.com/jobs/2026-summer-intern-bs-ms-systems-engineering-behaviors-san-francisco-california-united-states",
-      "https://careers.withwaymo.com/jobs/2026-summer-intern-phd-software-engineer-predictive-planner-ml-dl-mountain-view-california-united-states?gh_jid=7368864",
-      "https://careers.withwaymo.com/jobs?gh_jid=7269233",
-      "https://careers.withwaymo.com/jobs?gh_jid=7280481",
-      "https://careers.withwaymo.com/jobs?gh_jid=7298453",
-      "https://careers.withwaymo.com/jobs?gh_jid=7306072",
-      "https://careers.withwaymo.com/jobs?gh_jid=7315982",
-      "https://careers.withwaymo.com/jobs?gh_jid=7325018",
-      "https://careers.withwaymo.com/jobs?gh_jid=7342413",
-      "https://careers.withwaymo.com/jobs?gh_jid=7347429",
-      "https://careers.withwaymo.com/jobs?gh_jid=7393132",
-      "https://careers.withwaymo.com/jobs?gh_jid=7565624",
-      "https://careers.withwaymo.com/jobs?gh_jid=7733386"
+      "https://careers.withwaymo.com/jobs/2026-summer-intern-bs-ms-systems-engineering-behaviors-san-francisco-california-united-states"
     ]
   },
   {
@@ -3796,22 +3807,22 @@
     ]
   },
   {
-    "name": "careersen-mackenzieinvestments.icims.com",
-    "ats": "custom",
-    "identifier": "careersen-mackenzieinvestments.icims.com",
+    "name": "mackenzieinvestments",
+    "ats": "icims",
+    "identifier": "mackenzieinvestments",
     "domain": "https://careersen-mackenzieinvestments.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/mackenzieinvestments/jobs",
     "urls": [
       "https://careersen-mackenzieinvestments.icims.com/jobs/5628/summer-2026---investment-management---fixed-income-software-developer-platform-intern/job",
       "https://careersen-mackenzieinvestments.icims.com/jobs/5845/job?mobile=true&needsRedirect=false"
     ]
   },
   {
-    "name": "careersus-shure.icims.com",
-    "ats": "custom",
-    "identifier": "careersus-shure.icims.com",
+    "name": "shure",
+    "ats": "icims",
+    "identifier": "shure",
     "domain": "https://careersus-shure.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/shure/jobs",
     "urls": [
       "https://careersus-shure.icims.com/jobs/4405/job",
       "https://careersus-shure.icims.com/jobs/4426/job",
@@ -3891,11 +3902,11 @@
     ]
   },
   {
-    "name": "ccrenew.com",
-    "ats": "custom",
-    "identifier": "ccrenew.com",
+    "name": "ccrenew",
+    "ats": "greenhouse",
+    "identifier": "ccrenew",
     "domain": "https://ccrenew.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ccrenew/jobs",
     "urls": [
       "https://ccrenew.com/careers/job-listing/?gh_jid=7663697",
       "https://ccrenew.com/careers/job-listing/?gh_jid=7793341"
@@ -4390,11 +4401,11 @@
     ]
   },
   {
-    "name": "culturebiosciences.com",
-    "ats": "custom",
-    "identifier": "culturebiosciences.com",
+    "name": "culturebiosciences",
+    "ats": "greenhouse",
+    "identifier": "culturebiosciences",
     "domain": "https://culturebiosciences.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/culturebiosciences/jobs",
     "urls": [
       "https://culturebiosciences.com/careers?gh_jid=7646386003"
     ]
@@ -4412,10 +4423,10 @@
   },
   {
     "name": "cva.fa.us1.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "cva.fa.us1.oraclecloud.com",
-    "domain": "https://cva.fa.us1.oraclecloud.com",
-    "page": "",
+    "domain": "https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job",
+    "page": "https://cva.fa.us1.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/8023"
     ]
@@ -4712,20 +4723,20 @@
   },
   {
     "name": "ebcs.fa.em2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ebcs.fa.em2.oraclecloud.com",
-    "domain": "https://ebcs.fa.em2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ebcs.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38201"
     ]
   },
   {
     "name": "ebgj.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ebgj.fa.us2.oraclecloud.com",
-    "domain": "https://ebgj.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ebgj.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/248277",
       "https://ebgj.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/250023",
@@ -4745,10 +4756,10 @@
   },
   {
     "name": "ebwb.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ebwb.fa.us2.oraclecloud.com",
-    "domain": "https://ebwb.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ebwb.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10449",
       "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/10509"
@@ -4756,20 +4767,20 @@
   },
   {
     "name": "ebwg.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ebwg.fa.us2.oraclecloud.com",
-    "domain": "https://ebwg.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ebwg.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/18763"
     ]
   },
   {
     "name": "ebwh.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ebwh.fa.us2.oraclecloud.com",
-    "domain": "https://ebwh.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job",
+    "page": "https://ebwh.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/80607",
       "https://ebwh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/80620"
@@ -4777,10 +4788,10 @@
   },
   {
     "name": "ecge.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ecge.fa.us2.oraclecloud.com",
-    "domain": "https://ecge.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job",
+    "page": "https://ecge.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20252172",
       "https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20252178"
@@ -4798,10 +4809,10 @@
   },
   {
     "name": "ecnf.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ecnf.fa.us2.oraclecloud.com",
-    "domain": "https://ecnf.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ecnf.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301412",
       "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301413",
@@ -4838,10 +4849,10 @@
   },
   {
     "name": "edel.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "edel.fa.us2.oraclecloud.com",
-    "domain": "https://edel.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://edel.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22412",
@@ -4850,20 +4861,20 @@
   },
   {
     "name": "edix.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "edix.fa.us2.oraclecloud.com",
-    "domain": "https://edix.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://edix.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://edix.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://edix.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8623"
     ]
   },
   {
     "name": "eedu.fa.em3.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "eedu.fa.em3.oraclecloud.com",
-    "domain": "https://eedu.fa.em3.oraclecloud.com",
-    "page": "",
+    "domain": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job",
+    "page": "https://eedu.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/202506294",
       "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/202506296"
@@ -4871,10 +4882,10 @@
   },
   {
     "name": "eeho.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "eeho.fa.us2.oraclecloud.com",
-    "domain": "https://eeho.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job",
+    "page": "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/311347",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/314479",
@@ -4896,10 +4907,10 @@
   },
   {
     "name": "eevd.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "eevd.fa.us6.oraclecloud.com",
-    "domain": "https://eevd.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://eevd.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2025662",
       "https://eevd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2026032",
@@ -4912,30 +4923,30 @@
   },
   {
     "name": "egcu.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "egcu.fa.us6.oraclecloud.com",
-    "domain": "https://egcu.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://egcu.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3588"
     ]
   },
   {
     "name": "egup.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "egup.fa.us2.oraclecloud.com",
-    "domain": "https://egup.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://egup.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20256900"
     ]
   },
   {
     "name": "ehzq.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ehzq.fa.us2.oraclecloud.com",
-    "domain": "https://ehzq.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://ehzq.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ehzq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/113348"
     ]
@@ -4953,20 +4964,20 @@
   },
   {
     "name": "ejhp.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ejhp.fa.us6.oraclecloud.com",
-    "domain": "https://ejhp.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job",
+    "page": "https://ejhp.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2540039"
     ]
   },
   {
     "name": "ejko.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ejko.fa.us2.oraclecloud.com",
-    "domain": "https://ejko.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job",
+    "page": "https://ejko.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/13568",
       "https://ejko.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/13572"
@@ -4974,10 +4985,10 @@
   },
   {
     "name": "ejta.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ejta.fa.us6.oraclecloud.com",
-    "domain": "https://ejta.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://ejta.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7840",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8106",
@@ -4990,20 +5001,20 @@
   },
   {
     "name": "ekaw.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ekaw.fa.us2.oraclecloud.com",
-    "domain": "https://ekaw.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ekaw.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/169188"
     ]
   },
   {
     "name": "ekgn.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ekgn.fa.us6.oraclecloud.com",
-    "domain": "https://ekgn.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://ekgn.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6018",
       "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/6020"
@@ -5043,10 +5054,10 @@
   },
   {
     "name": "emit.fa.ca3.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "emit.fa.ca3.oraclecloud.com",
-    "domain": "https://emit.fa.ca3.oraclecloud.com",
-    "page": "",
+    "domain": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://emit.fa.ca3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/82638",
       "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/84271"
@@ -5112,29 +5123,26 @@
   },
   {
     "name": "eofe.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "eofe.fa.us2.oraclecloud.com",
-    "domain": "https://eofe.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job",
+    "page": "https://eofe.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70343",
       "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70373"
     ]
   },
   {
-    "name": "epicgames.com",
-    "ats": "custom",
-    "identifier": "epicgames.com",
+    "name": "epicgames",
+    "ats": "greenhouse",
+    "identifier": "epicgames",
     "domain": "https://epicgames.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs",
     "urls": [
       "https://epicgames.com/careers/jobs/5635299004?gh_jid=5635299004",
       "https://epicgames.com/careers/jobs/5635306004?gh_jid=5635306004",
       "https://epicgames.com/careers/jobs/5641341004?gh_jid=5641341004",
-      "https://epicgames.com/careers/jobs/5662697004?gh_jid=5662697004",
-      "https://www.epicgames.com/site/en-US/careers/jobs/5620310004",
-      "https://www.epicgames.com/site/en-US/careers/jobs/5623220004",
-      "https://www.epicgames.com/site/en-US/careers/jobs/5635299004"
+      "https://epicgames.com/careers/jobs/5662697004?gh_jid=5662697004"
     ]
   },
   {
@@ -5180,10 +5188,10 @@
   },
   {
     "name": "erqh.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
-    "domain": "https://erqh.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job",
+    "page": "https://erqh.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/22709",
       "https://erqh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/22778"
@@ -5221,10 +5229,10 @@
   },
   {
     "name": "ewvl.fa.us8.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ewvl.fa.us8.oraclecloud.com",
-    "domain": "https://ewvl.fa.us8.oraclecloud.com",
-    "page": "",
+    "domain": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994"
     ]
@@ -5279,31 +5287,31 @@
     ]
   },
   {
-    "name": "external-telecom-teldta.icims.com",
-    "ats": "custom",
-    "identifier": "external-telecom-teldta.icims.com",
+    "name": "teldta",
+    "ats": "icims",
+    "identifier": "teldta",
     "domain": "https://external-telecom-teldta.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/teldta/jobs",
     "urls": [
       "https://external-telecom-teldta.icims.com/jobs/29099/job?mobile=true&needsRedirect=false"
     ]
   },
   {
     "name": "fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job",
+    "page": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs/job/53997"
     ]
   },
   {
     "name": "fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/840",
       "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/886",
@@ -5312,30 +5320,30 @@
   },
   {
     "name": "fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-eqpz-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1781"
     ]
   },
   {
     "name": "fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-erqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/3018008"
     ]
   },
   {
     "name": "fa-espx-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-espx-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2426243",
       "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2426244",
@@ -5344,10 +5352,10 @@
   },
   {
     "name": "fa-essf-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-essf-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/10003456",
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/10003500",
@@ -5357,10 +5365,10 @@
   },
   {
     "name": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12547",
       "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13829"
@@ -5368,10 +5376,10 @@
   },
   {
     "name": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/23811",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26503",
@@ -5458,10 +5466,10 @@
   },
   {
     "name": "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31332",
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/31333"
@@ -5469,30 +5477,30 @@
   },
   {
     "name": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/2257"
     ]
   },
   {
     "name": "fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1013/job",
+    "page": "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1013/job/155"
     ]
   },
   {
     "name": "fa-exki-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-exki-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26727",
       "https://fa-exki-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/27180"
@@ -5500,10 +5508,10 @@
   },
   {
     "name": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2514",
       "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2536",
@@ -5512,20 +5520,20 @@
   },
   {
     "name": "fa-exty-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-exty-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/116811"
     ]
   },
   {
     "name": "fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1224",
       "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1251",
@@ -5543,10 +5551,10 @@
   },
   {
     "name": "fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/43017"
     ]
@@ -6224,20 +6232,20 @@
   },
   {
     "name": "hccz.fa.em3.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hccz.fa.em3.oraclecloud.com",
-    "domain": "https://hccz.fa.em3.oraclecloud.com",
-    "page": "",
+    "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
+    "page": "https://hccz.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23097"
     ]
   },
   {
     "name": "hcgn.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hcgn.fa.us2.oraclecloud.com",
-    "domain": "https://hcgn.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hcgn.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/44416",
       "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/44487",
@@ -6250,20 +6258,20 @@
   },
   {
     "name": "hcjy.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hcjy.fa.us2.oraclecloud.com",
-    "domain": "https://hcjy.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hcjy.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10573"
     ]
   },
   {
     "name": "hckz.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hckz.fa.us2.oraclecloud.com",
-    "domain": "https://hckz.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hckz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hckz.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hckz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8405",
       "https://hckz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/7965",
@@ -6287,20 +6295,20 @@
   },
   {
     "name": "hcor.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hcor.fa.us2.oraclecloud.com",
-    "domain": "https://hcor.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hcor.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://hcor.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hcor.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/3830"
     ]
   },
   {
     "name": "hcsb.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hcsb.fa.us2.oraclecloud.com",
-    "domain": "https://hcsb.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hcsb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://hcsb.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hcsb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/2208682"
     ]
@@ -6318,10 +6326,10 @@
   },
   {
     "name": "hcwp.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hcwp.fa.us2.oraclecloud.com",
-    "domain": "https://hcwp.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hcwp.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2009947",
       "https://hcwp.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2010407",
@@ -6334,20 +6342,20 @@
   },
   {
     "name": "hdde.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hdde.fa.us2.oraclecloud.com",
-    "domain": "https://hdde.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://hdde.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3571"
     ]
   },
   {
     "name": "hdjq.fa.us2.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hdjq.fa.us2.oraclecloud.com",
-    "domain": "https://hdjq.fa.us2.oraclecloud.com",
-    "page": "",
+    "domain": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hdjq.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/25029303",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26000953",
@@ -6368,10 +6376,10 @@
   },
   {
     "name": "hdsn.fa.us6.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "hdsn.fa.us6.oraclecloud.com",
-    "domain": "https://hdsn.fa.us6.oraclecloud.com",
-    "page": "",
+    "domain": "https://hdsn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hdsn.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://hdsn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2466"
     ]
@@ -6399,11 +6407,11 @@
     ]
   },
   {
-    "name": "helsing.ai",
-    "ats": "custom",
-    "identifier": "helsing.ai",
+    "name": "helsing",
+    "ats": "greenhouse",
+    "identifier": "helsing",
     "domain": "https://helsing.ai",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs",
     "urls": [
       "https://helsing.ai/jobs/4703320101?gh_jid=4703320101"
     ]
@@ -6549,11 +6557,11 @@
     ]
   },
   {
-    "name": "hq-lifeway.icims.com",
-    "ats": "custom",
-    "identifier": "hq-lifeway.icims.com",
+    "name": "lifeway",
+    "ats": "icims",
+    "identifier": "lifeway",
     "domain": "https://hq-lifeway.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/lifeway/jobs",
     "urls": [
       "https://hq-lifeway.icims.com/jobs/26908/job?mobile=true&needsRedirect=false"
     ]
@@ -6593,10 +6601,10 @@
   },
   {
     "name": "ibqbjb.fa.ocs.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "ibqbjb.fa.ocs.oraclecloud.com",
-    "domain": "https://ibqbjb.fa.ocs.oraclecloud.com",
-    "page": "",
+    "domain": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job",
+    "page": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/113495",
       "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/125981",
@@ -6617,17 +6625,6 @@
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2600855-1",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Data-Scientist_R2503058",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Full-Stack-Developer--Remote-_R2503169"
-    ]
-  },
-  {
-    "name": "ideas-sas.icims.com",
-    "ats": "custom",
-    "identifier": "ideas-sas.icims.com",
-    "domain": "https://ideas-sas.icims.com",
-    "page": "",
-    "urls": [
-      "https://ideas-sas.icims.com/jobs/40100/job?mobile=true&needsRedirect=false",
-      "https://ideas-sas.icims.com/jobs/40116/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -8479,7 +8476,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rfsmart/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/rfsmart/jobs/5099760008"
+      "https://job-boards.greenhouse.io/rfsmart/jobs/5099760008",
+      "https://www.rfsmart.com/current-job-openings?hsCtaTracking=a3b29f1a-3e28-4c56-a139-07e3b9ec3fd9%7Cbba890fe-3ad1-476d-8c70-aa0677d1814f&gh_jid=4909114008"
     ]
   },
   {
@@ -11543,22 +11541,52 @@
     ]
   },
   {
-    "name": "jobs.smartrecruiters.com",
-    "ats": "custom",
-    "identifier": "jobs.smartrecruiters.com",
+    "name": "AECOM2",
+    "ats": "smartrecruiters",
+    "identifier": "AECOM2",
     "domain": "https://jobs.smartrecruiters.com",
-    "page": "",
+    "page": "https://api.smartrecruiters.com/v1/companies/AECOM2/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/AECOM2/744000084664630",
       "https://jobs.smartrecruiters.com/AECOM2/744000084666005",
       "https://jobs.smartrecruiters.com/AECOM2/744000089107316",
+      "https://jobs.smartrecruiters.com/AECOM2/744000119962488",
+      "https://jobs.smartrecruiters.com/AECOM2/744000119962637",
+      "https://jobs.smartrecruiters.com/AECOM2/744000119963126"
+    ]
+  },
+  {
+    "name": "AbbVie",
+    "ats": "smartrecruiters",
+    "identifier": "AbbVie",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/AbbVie/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/AbbVie/3743990009655358",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010021336",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010092486",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010279234",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010279276",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990010999336",
-      "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603",
+      "https://jobs.smartrecruiters.com/AbbVie/3743990010999336"
+    ]
+  },
+  {
+    "name": "Blinqlabs",
+    "ats": "smartrecruiters",
+    "identifier": "Blinqlabs",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Blinqlabs/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"
+    ]
+  },
+  {
+    "name": "BoschGroup",
+    "ats": "smartrecruiters",
+    "identifier": "BoschGroup",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/BoschGroup/744000063043596",
       "https://jobs.smartrecruiters.com/BoschGroup/744000086062996",
       "https://jobs.smartrecruiters.com/BoschGroup/744000089131715",
@@ -11566,20 +11594,84 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000108819329",
       "https://jobs.smartrecruiters.com/BoschGroup/744000110888641",
       "https://jobs.smartrecruiters.com/BoschGroup/744000119560837",
-      "https://jobs.smartrecruiters.com/CapTechConsulting/744000084976114",
-      "https://jobs.smartrecruiters.com/Codeage/743999669081604",
-      "https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990009919466",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000119999447"
+    ]
+  },
+  {
+    "name": "CapTechConsulting",
+    "ats": "smartrecruiters",
+    "identifier": "CapTechConsulting",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/CapTechConsulting/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/CapTechConsulting/744000084976114"
+    ]
+  },
+  {
+    "name": "Codeage",
+    "ats": "smartrecruiters",
+    "identifier": "Codeage",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Codeage/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Codeage/743999669081604"
+    ]
+  },
+  {
+    "name": "CornerstoneBuildingBrandsCareers",
+    "ats": "smartrecruiters",
+    "identifier": "CornerstoneBuildingBrandsCareers",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/CornerstoneBuildingBrandsCareers/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/CornerstoneBuildingBrandsCareers/3743990009919466"
+    ]
+  },
+  {
+    "name": "Experian",
+    "ats": "smartrecruiters",
+    "identifier": "Experian",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Experian/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/Experian/744000089133739",
       "https://jobs.smartrecruiters.com/Experian/744000089133882",
       "https://jobs.smartrecruiters.com/Experian/744000089134695",
       "https://jobs.smartrecruiters.com/Experian/744000089137803",
       "https://jobs.smartrecruiters.com/Experian/744000089140956",
       "https://jobs.smartrecruiters.com/Experian/744000107713011",
-      "https://jobs.smartrecruiters.com/Experian/744000115927684",
+      "https://jobs.smartrecruiters.com/Experian/744000115927684"
+    ]
+  },
+  {
+    "name": "GDMSI",
+    "ats": "smartrecruiters",
+    "identifier": "GDMSI",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/GDMSI/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/GDMSI/744000101380164",
-      "https://jobs.smartrecruiters.com/GDMSI/744000102172913",
+      "https://jobs.smartrecruiters.com/GDMSI/744000102172913"
+    ]
+  },
+  {
+    "name": "IOMAXISLLC",
+    "ats": "smartrecruiters",
+    "identifier": "IOMAXISLLC",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/IOMAXISLLC/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/IOMAXISLLC/3743990010573726",
-      "https://jobs.smartrecruiters.com/IOMAXISLLC/3743990011915576",
+      "https://jobs.smartrecruiters.com/IOMAXISLLC/3743990011915576"
+    ]
+  },
+  {
+    "name": "Intuitive",
+    "ats": "smartrecruiters",
+    "identifier": "Intuitive",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Intuitive/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/Intuitive/744000098687568",
       "https://jobs.smartrecruiters.com/Intuitive/744000098726007",
       "https://jobs.smartrecruiters.com/Intuitive/744000100115805",
@@ -11589,23 +11681,104 @@
       "https://jobs.smartrecruiters.com/Intuitive/744000107332945",
       "https://jobs.smartrecruiters.com/Intuitive/744000107599647",
       "https://jobs.smartrecruiters.com/Intuitive/744000108384376",
-      "https://jobs.smartrecruiters.com/Intuitive/744000117991662",
+      "https://jobs.smartrecruiters.com/Intuitive/744000117991662"
+    ]
+  },
+  {
+    "name": "Kioxia",
+    "ats": "smartrecruiters",
+    "identifier": "Kioxia",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Kioxia/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/Kioxia/744000111923246",
-      "https://jobs.smartrecruiters.com/Kioxia/744000113744318",
-      "https://jobs.smartrecruiters.com/LLNL/3743990012117076",
-      "https://jobs.smartrecruiters.com/Laxir1/743999834183955",
+      "https://jobs.smartrecruiters.com/Kioxia/744000113744318"
+    ]
+  },
+  {
+    "name": "LLNL",
+    "ats": "smartrecruiters",
+    "identifier": "LLNL",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/LLNL/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/LLNL/3743990012117076"
+    ]
+  },
+  {
+    "name": "Laxir1",
+    "ats": "smartrecruiters",
+    "identifier": "Laxir1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Laxir1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Laxir1/743999834183955"
+    ]
+  },
+  {
+    "name": "LegalAndGeneral",
+    "ats": "smartrecruiters",
+    "identifier": "LegalAndGeneral",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/LegalAndGeneral/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/LegalAndGeneral/744000116439177",
-      "https://jobs.smartrecruiters.com/LegalAndGeneral/744000117360110",
+      "https://jobs.smartrecruiters.com/LegalAndGeneral/744000117360110"
+    ]
+  },
+  {
+    "name": "LinkedIn3",
+    "ats": "smartrecruiters",
+    "identifier": "LinkedIn3",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/LinkedIn3/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/LinkedIn3/744000085237793",
       "https://jobs.smartrecruiters.com/LinkedIn3/744000085238101",
-      "https://jobs.smartrecruiters.com/LinkedIn3/744000095054345",
+      "https://jobs.smartrecruiters.com/LinkedIn3/744000095054345"
+    ]
+  },
+  {
+    "name": "NBCUniversal3",
+    "ats": "smartrecruiters",
+    "identifier": "NBCUniversal3",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000092794882",
-      "https://jobs.smartrecruiters.com/NBCUniversal3/744000092797675",
-      "https://jobs.smartrecruiters.com/NorthwesternMutual/85751711",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000092797675"
+    ]
+  },
+  {
+    "name": "NorthwesternMutual",
+    "ats": "smartrecruiters",
+    "identifier": "NorthwesternMutual",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/NorthwesternMutual/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"
+    ]
+  },
+  {
+    "name": "RESPECInc",
+    "ats": "smartrecruiters",
+    "identifier": "RESPECInc",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/RESPECInc/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/RESPECInc/744000082291065",
       "https://jobs.smartrecruiters.com/RESPECInc/744000083554085",
       "https://jobs.smartrecruiters.com/RESPECInc/744000083769455",
-      "https://jobs.smartrecruiters.com/RESPECInc/744000091427095",
+      "https://jobs.smartrecruiters.com/RESPECInc/744000091427095"
+    ]
+  },
+  {
+    "name": "RRDonnelley",
+    "ats": "smartrecruiters",
+    "identifier": "RRDonnelley",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/RRDonnelley/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/RRDonnelley/744000107176440",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000107406515",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000107406775",
@@ -11614,14 +11787,68 @@
       "https://jobs.smartrecruiters.com/RRDonnelley/744000108599875",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000116285337",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000117759513",
-      "https://jobs.smartrecruiters.com/RRDonnelley/744000118179454",
-      "https://jobs.smartrecruiters.com/STCU1/744000114977297",
+      "https://jobs.smartrecruiters.com/RRDonnelley/744000118179454"
+    ]
+  },
+  {
+    "name": "STCU1",
+    "ats": "smartrecruiters",
+    "identifier": "STCU1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/STCU1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/STCU1/744000114977297"
+    ]
+  },
+  {
+    "name": "Sandisk",
+    "ats": "smartrecruiters",
+    "identifier": "Sandisk",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Sandisk/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/Sandisk/35ac1ec2-57ee-47cf-b63f-88726edb677c",
-      "https://jobs.smartrecruiters.com/Sandisk/744000102165035",
+      "https://jobs.smartrecruiters.com/Sandisk/744000102165035"
+    ]
+  },
+  {
+    "name": "ServiceNow",
+    "ats": "smartrecruiters",
+    "identifier": "ServiceNow",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/ServiceNow/744000079993731",
-      "https://jobs.smartrecruiters.com/ServiceNow/744000083014485",
-      "https://jobs.smartrecruiters.com/Skyward1/744000107535692",
-      "https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000083014485"
+    ]
+  },
+  {
+    "name": "Skyward1",
+    "ats": "smartrecruiters",
+    "identifier": "Skyward1",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Skyward1/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Skyward1/744000107535692"
+    ]
+  },
+  {
+    "name": "TreehouseStrategyAndCommunicatio",
+    "ats": "smartrecruiters",
+    "identifier": "TreehouseStrategyAndCommunicatio",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/TreehouseStrategyAndCommunicatio/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721"
+    ]
+  },
+  {
+    "name": "VeoliaEnvironnementSA",
+    "ats": "smartrecruiters",
+    "identifier": "VeoliaEnvironnementSA",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/VeoliaEnvironnementSA/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000099432185",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000105871616",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000107150265",
@@ -11632,7 +11859,16 @@
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112264792",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112719682",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113259677",
-      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677",
+      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677"
+    ]
+  },
+  {
+    "name": "Visa",
+    "ats": "smartrecruiters",
+    "identifier": "Visa",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Visa/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/Visa/744000087984147",
       "https://jobs.smartrecruiters.com/Visa/744000087985095",
       "https://jobs.smartrecruiters.com/Visa/744000087985465",
@@ -11652,25 +11888,97 @@
       "https://jobs.smartrecruiters.com/Visa/744000109724860",
       "https://jobs.smartrecruiters.com/Visa/744000109725804",
       "https://jobs.smartrecruiters.com/Visa/744000109726105",
-      "https://jobs.smartrecruiters.com/Visa/744000112931905",
-      "https://jobs.smartrecruiters.com/Wabtec/3743990012167326",
+      "https://jobs.smartrecruiters.com/Visa/744000112931905"
+    ]
+  },
+  {
+    "name": "Wabtec",
+    "ats": "smartrecruiters",
+    "identifier": "Wabtec",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Wabtec/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Wabtec/3743990012167326"
+    ]
+  },
+  {
+    "name": "WellmarkInc",
+    "ats": "smartrecruiters",
+    "identifier": "WellmarkInc",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/WellmarkInc/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/WellmarkInc/744000080810130",
-      "https://jobs.smartrecruiters.com/WellmarkInc/744000098956137",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000098956137"
+    ]
+  },
+  {
+    "name": "WesternDigital",
+    "ats": "smartrecruiters",
+    "identifier": "WesternDigital",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/WesternDigital/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/WesternDigital/744000112538147",
-      "https://jobs.smartrecruiters.com/WesternDigital/744000116691867",
-      "https://jobs.smartrecruiters.com/barkbackLlc/90864007",
-      "https://jobs.smartrecruiters.com/intuitive/744000105233605-camera-image-processing-algorithm-intern",
-      "https://jobs.smartrecruiters.com/ni/Solidigm/4a9d87fd-e7af-42bc-9a12-6d085428b40d-ai-software-engineering-intern",
-      "https://jobs.smartrecruiters.com/oneclick-ui/company/RESPECInc/publication/643d3be0-a063-4b49-8b31-049c95eb74a5?dcr_ci=RESPECInc",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000116691867"
+    ]
+  },
+  {
+    "name": "barkbackLlc",
+    "ats": "smartrecruiters",
+    "identifier": "barkbackLlc",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/barkbackLlc/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/barkbackLlc/90864007"
+    ]
+  },
+  {
+    "name": "intuitive",
+    "ats": "smartrecruiters",
+    "identifier": "intuitive",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/intuitive/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/intuitive/744000105233605-camera-image-processing-algorithm-intern"
+    ]
+  },
+  {
+    "name": "ni",
+    "ats": "smartrecruiters",
+    "identifier": "ni",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/ni/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/ni/Solidigm/4a9d87fd-e7af-42bc-9a12-6d085428b40d-ai-software-engineering-intern"
+    ]
+  },
+  {
+    "name": "oneclick-ui",
+    "ats": "smartrecruiters",
+    "identifier": "oneclick-ui",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/oneclick-ui/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/oneclick-ui/company/RESPECInc/publication/643d3be0-a063-4b49-8b31-049c95eb74a5?dcr_ci=RESPECInc"
+    ]
+  },
+  {
+    "name": "sandisk",
+    "ats": "smartrecruiters",
+    "identifier": "sandisk",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/sandisk/postings",
+    "urls": [
       "https://jobs.smartrecruiters.com/sandisk/744000093026280-genai-ai-ml-engineering-intern"
     ]
   },
   {
-    "name": "jobs.solarwinds.com",
-    "ats": "custom",
-    "identifier": "jobs.solarwinds.com",
+    "name": "jobs",
+    "ats": "greenhouse",
+    "identifier": "jobs",
     "domain": "https://jobs.solarwinds.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
     "urls": [
       "https://jobs.solarwinds.com/job-detail/?gh_jid=4644519005&gh_jid=4644519005"
     ]
@@ -11764,10 +12072,10 @@
   },
   {
     "name": "jpmc.fa.oraclecloud.com",
-    "ats": "custom",
+    "ats": "oraclecloud",
     "identifier": "jpmc.fa.oraclecloud.com",
-    "domain": "https://jpmc.fa.oraclecloud.com",
-    "page": "",
+    "domain": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
+    "page": "https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210700938",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210653529",
@@ -12432,11 +12740,11 @@
     ]
   },
   {
-    "name": "metrostar.com",
-    "ats": "custom",
-    "identifier": "metrostar.com",
+    "name": "metrostar",
+    "ats": "greenhouse",
+    "identifier": "metrostar",
     "domain": "https://metrostar.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/metrostar/jobs",
     "urls": [
       "https://metrostar.com/job-post/?gh_jid=7622353003"
     ]
@@ -12813,11 +13121,11 @@
     ]
   },
   {
-    "name": "ninjatrader.com",
-    "ats": "custom",
-    "identifier": "ninjatrader.com",
+    "name": "ninjatrader",
+    "ats": "greenhouse",
+    "identifier": "ninjatrader",
     "domain": "https://ninjatrader.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ninjatrader/jobs",
     "urls": [
       "https://ninjatrader.com/careers/internships/?gh_jid=4613350006",
       "https://ninjatrader.com/careers/internships/?gh_jid=4613355006",
@@ -13296,11 +13604,11 @@
     ]
   },
   {
-    "name": "posit.co",
-    "ats": "custom",
-    "identifier": "posit.co",
+    "name": "posit",
+    "ats": "greenhouse",
+    "identifier": "posit",
     "domain": "https://posit.co",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/posit/jobs",
     "urls": [
       "https://posit.co/job-detail/?gh_jid=7674250003"
     ]
@@ -13677,11 +13985,11 @@
     ]
   },
   {
-    "name": "rentptr.com",
-    "ats": "custom",
-    "identifier": "rentptr.com",
+    "name": "rentptr",
+    "ats": "greenhouse",
+    "identifier": "rentptr",
     "domain": "https://rentptr.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/rentptr/jobs",
     "urls": [
       "https://rentptr.com/jobs/?gh_jid=5150736008"
     ]
@@ -13756,11 +14064,11 @@
     ]
   },
   {
-    "name": "ripple.com",
-    "ats": "custom",
-    "identifier": "ripple.com",
+    "name": "ripple",
+    "ats": "greenhouse",
+    "identifier": "ripple",
     "domain": "https://ripple.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ripple/jobs",
     "urls": [
       "https://ripple.com/careers/all-jobs/job/7455900?gh_jid=7455900",
       "https://ripple.com/careers/all-jobs/job/7455922?gh_jid=7455922",
@@ -14047,11 +14355,11 @@
     ]
   },
   {
-    "name": "seatgeek.com",
-    "ats": "custom",
-    "identifier": "seatgeek.com",
+    "name": "seatgeek",
+    "ats": "greenhouse",
+    "identifier": "seatgeek",
     "domain": "https://seatgeek.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/seatgeek/jobs",
     "urls": [
       "https://seatgeek.com/jobs/7298481?gh_jid=7298481"
     ]
@@ -14295,11 +14603,11 @@
     ]
   },
   {
-    "name": "spothero.com",
-    "ats": "custom",
-    "identifier": "spothero.com",
+    "name": "spothero",
+    "ats": "greenhouse",
+    "identifier": "spothero",
     "domain": "https://spothero.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/spothero/jobs",
     "urls": [
       "https://spothero.com/careers/7695956/?gh_jid=7695956"
     ]
@@ -14325,11 +14633,11 @@
     ]
   },
   {
-    "name": "staff-emory.icims.com",
-    "ats": "custom",
-    "identifier": "staff-emory.icims.com",
+    "name": "emory",
+    "ats": "icims",
+    "identifier": "emory",
     "domain": "https://staff-emory.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/emory/jobs",
     "urls": [
       "https://staff-emory.icims.com/jobs/160910/job?mobile=true&needsRedirect=false"
     ]
@@ -14422,7 +14730,16 @@
     "domain": "https://stripe.com",
     "page": "",
     "urls": [
-      "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115",
+      "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115"
+    ]
+  },
+  {
+    "name": "stripe",
+    "ats": "greenhouse",
+    "identifier": "stripe",
+    "domain": "https://stripe.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+    "urls": [
       "https://stripe.com/jobs/search?gh_jid=7206389"
     ]
   },
@@ -14506,11 +14823,11 @@
     ]
   },
   {
-    "name": "symphony.com",
-    "ats": "custom",
-    "identifier": "symphony.com",
+    "name": "symphony",
+    "ats": "greenhouse",
+    "identifier": "symphony",
     "domain": "https://symphony.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/symphony/jobs",
     "urls": [
       "https://symphony.com/company/apply?gh_jid=7267890",
       "https://symphony.com/company/apply?gh_jid=7267903"
@@ -14773,11 +15090,11 @@
     ]
   },
   {
-    "name": "tower-research.com",
-    "ats": "custom",
-    "identifier": "tower-research.com",
+    "name": "tower-research",
+    "ats": "greenhouse",
+    "identifier": "tower-research",
     "domain": "https://tower-research.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/tower-research/jobs",
     "urls": [
       "https://tower-research.com/open-positions/?gh_jid=6651908",
       "https://tower-research.com/open-positions/?gh_jid=6790327",
@@ -14816,11 +15133,11 @@
     ]
   },
   {
-    "name": "triafed.com",
-    "ats": "custom",
-    "identifier": "triafed.com",
+    "name": "triafed",
+    "ats": "greenhouse",
+    "identifier": "triafed",
     "domain": "https://triafed.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/triafed/jobs",
     "urls": [
       "https://triafed.com/jobs/?gh_jid=4952056008"
     ]
@@ -14871,11 +15188,11 @@
     ]
   },
   {
-    "name": "udig.com",
-    "ats": "custom",
-    "identifier": "udig.com",
+    "name": "udig",
+    "ats": "greenhouse",
+    "identifier": "udig",
     "domain": "https://udig.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/udig/jobs",
     "urls": [
       "https://udig.com/careers/job-listing/?gh_jid=7587366003"
     ]
@@ -14916,11 +15233,11 @@
     ]
   },
   {
-    "name": "university-uber.icims.com",
-    "ats": "custom",
-    "identifier": "university-uber.icims.com",
+    "name": "uber",
+    "ats": "icims",
+    "identifier": "uber",
     "domain": "https://university-uber.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/uber/jobs",
     "urls": [
       "https://university-uber.icims.com/jobs/149140/job",
       "https://university-uber.icims.com/jobs/149140/job?mobile=true&needsRedirect=false",
@@ -14948,31 +15265,31 @@
     ]
   },
   {
-    "name": "uscareers-docusign.icims.com",
-    "ats": "custom",
-    "identifier": "uscareers-docusign.icims.com",
+    "name": "docusign",
+    "ats": "icims",
+    "identifier": "docusign",
     "domain": "https://uscareers-docusign.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/docusign/jobs",
     "urls": [
       "https://uscareers-docusign.icims.com/jobs/28360/software-engineer-intern/job"
     ]
   },
   {
-    "name": "uscareers-lennox.icims.com",
-    "ats": "custom",
-    "identifier": "uscareers-lennox.icims.com",
+    "name": "lennox",
+    "ats": "icims",
+    "identifier": "lennox",
     "domain": "https://uscareers-lennox.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/lennox/jobs",
     "urls": [
       "https://uscareers-lennox.icims.com/jobs/50063/job"
     ]
   },
   {
-    "name": "uscareers-waters.icims.com",
-    "ats": "custom",
-    "identifier": "uscareers-waters.icims.com",
+    "name": "waters",
+    "ats": "icims",
+    "identifier": "waters",
     "domain": "https://uscareers-waters.icims.com",
-    "page": "",
+    "page": "https://api.icims.com/v1/companies/waters/jobs",
     "urls": [
       "https://uscareers-waters.icims.com/jobs/25174/job?mobile=true&needsRedirect=false",
       "https://uscareers-waters.icims.com/jobs/25342/job?mobile=true&needsRedirect=false",
@@ -15415,11 +15732,11 @@
     ]
   },
   {
-    "name": "wing.com",
-    "ats": "custom",
-    "identifier": "wing.com",
+    "name": "wing",
+    "ats": "greenhouse",
+    "identifier": "wing",
     "domain": "https://wing.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/wing/jobs",
     "urls": [
       "https://wing.com/careers/8203613002?gh_jid=8203613002",
       "https://wing.com/careers/8203737002?gh_jid=8203737002",
@@ -15461,21 +15778,21 @@
     ]
   },
   {
-    "name": "8am.com",
-    "ats": "custom",
-    "identifier": "8am.com",
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
     "domain": "https://www.8am.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4622069006"
     ]
   },
   {
-    "name": "acadian-asset.com",
-    "ats": "custom",
-    "identifier": "acadian-asset.com",
+    "name": "acadian-asset",
+    "ats": "greenhouse",
+    "identifier": "acadian-asset",
     "domain": "https://www.acadian-asset.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/acadian-asset/jobs",
     "urls": [
       "https://www.acadian-asset.com/careers/open-positions?gh_jid=4645552006"
     ]
@@ -15502,11 +15819,11 @@
     ]
   },
   {
-    "name": "american-equity.com",
-    "ats": "custom",
-    "identifier": "american-equity.com",
+    "name": "american-equity",
+    "ats": "greenhouse",
+    "identifier": "american-equity",
     "domain": "https://www.american-equity.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/american-equity/jobs",
     "urls": [
       "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
     ]
@@ -15523,21 +15840,21 @@
     ]
   },
   {
-    "name": "artisanpartners.com",
-    "ats": "custom",
-    "identifier": "artisanpartners.com",
+    "name": "artisanpartners",
+    "ats": "greenhouse",
+    "identifier": "artisanpartners",
     "domain": "https://www.artisanpartners.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/artisanpartners/jobs",
     "urls": [
       "https://www.artisanpartners.com/careers/career-opportunities.html?gh_jid=7668995"
     ]
   },
   {
-    "name": "asm.com",
-    "ats": "custom",
-    "identifier": "asm.com",
+    "name": "asm",
+    "ats": "greenhouse",
+    "identifier": "asm",
     "domain": "https://www.asm.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/asm/jobs",
     "urls": [
       "https://www.asm.com/open-vacancies/?gh_jid=4742577101",
       "https://www.asm.com/open-vacancies/?gh_jid=4742602101"
@@ -15554,31 +15871,31 @@
     ]
   },
   {
-    "name": "bill.com",
-    "ats": "custom",
-    "identifier": "bill.com",
+    "name": "bill",
+    "ats": "greenhouse",
+    "identifier": "bill",
     "domain": "https://www.bill.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/bill/jobs",
     "urls": [
       "https://www.bill.com/job?5588103004=&gh_jid=5588103004"
     ]
   },
   {
-    "name": "brex.com",
-    "ats": "custom",
-    "identifier": "brex.com",
+    "name": "brex",
+    "ats": "greenhouse",
+    "identifier": "brex",
     "domain": "https://www.brex.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/brex/jobs",
     "urls": [
       "https://www.brex.com/careers/8434389002?gh_jid=8434389002"
     ]
   },
   {
-    "name": "calicolabs.com",
-    "ats": "custom",
-    "identifier": "calicolabs.com",
+    "name": "calicolabs",
+    "ats": "greenhouse",
+    "identifier": "calicolabs",
     "domain": "https://www.calicolabs.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/calicolabs/jobs",
     "urls": [
       "https://www.calicolabs.com/careers/?gh_jid=8326850002"
     ]
@@ -15631,21 +15948,21 @@
     ]
   },
   {
-    "name": "clever.com",
-    "ats": "custom",
-    "identifier": "clever.com",
+    "name": "clever",
+    "ats": "greenhouse",
+    "identifier": "clever",
     "domain": "https://www.clever.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/clever/jobs",
     "urls": [
       "https://www.clever.com/about/careers?gh_jid=7315275"
     ]
   },
   {
-    "name": "cockroachlabs.com",
-    "ats": "custom",
-    "identifier": "cockroachlabs.com",
+    "name": "cockroachlabs",
+    "ats": "greenhouse",
+    "identifier": "cockroachlabs",
     "domain": "https://www.cockroachlabs.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs",
     "urls": [
       "https://www.cockroachlabs.com/careers/job/?gh_jid=6291435"
     ]
@@ -15675,11 +15992,11 @@
     ]
   },
   {
-    "name": "digitalocean.com",
-    "ats": "custom",
-    "identifier": "digitalocean.com",
+    "name": "digitalocean",
+    "ats": "greenhouse",
+    "identifier": "digitalocean",
     "domain": "https://www.digitalocean.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/digitalocean/jobs",
     "urls": [
       "https://www.digitalocean.com/careers/position/apply/?gh_jid=7572448",
       "https://www.digitalocean.com/careers/position/apply/?gh_jid=7572450",
@@ -15697,21 +16014,21 @@
     ]
   },
   {
-    "name": "dltrading.io",
-    "ats": "custom",
-    "identifier": "dltrading.io",
+    "name": "dltrading",
+    "ats": "greenhouse",
+    "identifier": "dltrading",
     "domain": "https://www.dltrading.io",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/dltrading/jobs",
     "urls": [
       "https://www.dltrading.io/careers?gh_jid=7452690003"
     ]
   },
   {
-    "name": "dmgmedia.co.uk",
-    "ats": "custom",
-    "identifier": "dmgmedia.co.uk",
+    "name": "dmgmedia",
+    "ats": "greenhouse",
+    "identifier": "dmgmedia",
     "domain": "https://www.dmgmedia.co.uk",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/dmgmedia/jobs",
     "urls": [
       "https://www.dmgmedia.co.uk/careers/jobs/id/7739047?gh_jid=7739047"
     ]
@@ -15737,11 +16054,23 @@
     ]
   },
   {
-    "name": "equipmentshare.com",
+    "name": "epicgames.com",
     "ats": "custom",
-    "identifier": "equipmentshare.com",
-    "domain": "https://www.equipmentshare.com",
+    "identifier": "epicgames.com",
+    "domain": "https://www.epicgames.com",
     "page": "",
+    "urls": [
+      "https://www.epicgames.com/site/en-US/careers/jobs/5620310004",
+      "https://www.epicgames.com/site/en-US/careers/jobs/5623220004",
+      "https://www.epicgames.com/site/en-US/careers/jobs/5635299004"
+    ]
+  },
+  {
+    "name": "equipmentshare",
+    "ats": "greenhouse",
+    "identifier": "equipmentshare",
+    "domain": "https://www.equipmentshare.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/equipmentshare/jobs",
     "urls": [
       "https://www.equipmentshare.com/careers/openings/?gh_jid=7600003",
       "https://www.equipmentshare.com/careers/openings/?gh_jid=7600004",
@@ -15752,21 +16081,21 @@
     ]
   },
   {
-    "name": "esri.com",
-    "ats": "custom",
-    "identifier": "esri.com",
+    "name": "esri",
+    "ats": "greenhouse",
+    "identifier": "esri",
     "domain": "https://www.esri.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/esri/jobs",
     "urls": [
       "https://www.esri.com/careers/5040071007?gh_jid=5040071007"
     ]
   },
   {
-    "name": "exiger.com",
-    "ats": "custom",
-    "identifier": "exiger.com",
+    "name": "exiger",
+    "ats": "greenhouse",
+    "identifier": "exiger",
     "domain": "https://www.exiger.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/exiger/jobs",
     "urls": [
       "https://www.exiger.com/careers/5751719004?gh_jid=5751719004",
       "https://www.exiger.com/careers/?gh_jid=5751662004",
@@ -15774,11 +16103,11 @@
     ]
   },
   {
-    "name": "exptechinc.com",
-    "ats": "custom",
-    "identifier": "exptechinc.com",
+    "name": "exptechinc",
+    "ats": "greenhouse",
+    "identifier": "exptechinc",
     "domain": "https://www.exptechinc.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/exptechinc/jobs",
     "urls": [
       "https://www.exptechinc.com/careers/?gh_jid=4916425007",
       "https://www.exptechinc.com/careers/?gh_jid=4942441007",
@@ -15787,42 +16116,42 @@
     ]
   },
   {
-    "name": "fastly.com",
-    "ats": "custom",
-    "identifier": "fastly.com",
+    "name": "fastly",
+    "ats": "greenhouse",
+    "identifier": "fastly",
     "domain": "https://www.fastly.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/fastly/jobs",
     "urls": [
       "https://www.fastly.com/about/jobs/apply?gh_jid=7512114"
     ]
   },
   {
-    "name": "flyzipline.com",
-    "ats": "custom",
-    "identifier": "flyzipline.com",
+    "name": "flyzipline",
+    "ats": "greenhouse",
+    "identifier": "flyzipline",
     "domain": "https://www.flyzipline.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/flyzipline/jobs",
     "urls": [
       "https://www.flyzipline.com/careers/open-roles?gh_jid=7561784003",
       "https://www.flyzipline.com/careers/open-roles?gh_jid=7561786003"
     ]
   },
   {
-    "name": "givelify.com",
-    "ats": "custom",
-    "identifier": "givelify.com",
+    "name": "givelify",
+    "ats": "greenhouse",
+    "identifier": "givelify",
     "domain": "https://www.givelify.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/givelify/jobs",
     "urls": [
       "https://www.givelify.com/about-us/careers/job-openings/?gh_jid=8466071002"
     ]
   },
   {
-    "name": "globalrelay.com",
-    "ats": "custom",
-    "identifier": "globalrelay.com",
+    "name": "globalrelay",
+    "ats": "greenhouse",
+    "identifier": "globalrelay",
     "domain": "https://www.globalrelay.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/globalrelay/jobs",
     "urls": [
       "https://www.globalrelay.com/careers/jobs?gh_jid=5815419004",
       "https://www.globalrelay.com/careers/jobs?gh_jid=5815433004",
@@ -15830,11 +16159,11 @@
     ]
   },
   {
-    "name": "golden-careers.com",
-    "ats": "custom",
-    "identifier": "golden-careers.com",
+    "name": "golden-careers",
+    "ats": "greenhouse",
+    "identifier": "golden-careers",
     "domain": "https://www.golden-careers.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/golden-careers/jobs",
     "urls": [
       "https://www.golden-careers.com/jobs/4668074005?gh_jid=4668074005"
     ]
@@ -15863,44 +16192,54 @@
     ]
   },
   {
-    "name": "grammarly.com",
-    "ats": "custom",
-    "identifier": "grammarly.com",
+    "name": "grammarly",
+    "ats": "greenhouse",
+    "identifier": "grammarly",
     "domain": "https://www.grammarly.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/grammarly/jobs",
     "urls": [
       "https://www.grammarly.com/careers/jobs/engineering/software-engineering-intern-summer-2026-?gh_jid=7255327"
     ]
   },
   {
-    "name": "guild.com",
-    "ats": "custom",
-    "identifier": "guild.com",
+    "name": "guild",
+    "ats": "greenhouse",
+    "identifier": "guild",
     "domain": "https://www.guild.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/guild/jobs",
     "urls": [
       "https://www.guild.com/open-positions-at-guild?gh_jid=7740252"
     ]
   },
   {
-    "name": "hbk.com",
-    "ats": "custom",
-    "identifier": "hbk.com",
+    "name": "hbk",
+    "ats": "greenhouse",
+    "identifier": "hbk",
     "domain": "https://www.hbk.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
   },
   {
-    "name": "hubspot.com",
-    "ats": "custom",
-    "identifier": "hubspot.com",
+    "name": "hubspot",
+    "ats": "greenhouse",
+    "identifier": "hubspot",
     "domain": "https://www.hubspot.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hubspot/jobs",
     "urls": [
       "https://www.hubspot.com/careers/jobs/7283237?gh_jid=7283237",
       "https://www.hubspot.com/careers/jobs/7283239?gh_jid=7283239"
+    ]
+  },
+  {
+    "name": "hudsonrivertrading",
+    "ats": "greenhouse",
+    "identifier": "hudsonrivertrading",
+    "domain": "https://www.hudsonrivertrading.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hudsonrivertrading/jobs",
+    "urls": [
+      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7297919"
     ]
   },
   {
@@ -15910,7 +16249,6 @@
     "domain": "https://www.hudsonrivertrading.com",
     "page": "",
     "urls": [
-      "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7297919",
       "https://www.hudsonrivertrading.com/hrt-job/algorithm-development-quant-research-internship-summer-2026-2/",
       "https://www.hudsonrivertrading.com/hrt-job/algorithm-trader-quantitative-trader-internship-summer-2026/",
       "https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-summer-2026-2/"
@@ -15929,31 +16267,31 @@
     ]
   },
   {
-    "name": "intersystems.com",
-    "ats": "custom",
-    "identifier": "intersystems.com",
+    "name": "intersystems",
+    "ats": "greenhouse",
+    "identifier": "intersystems",
     "domain": "https://www.intersystems.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/intersystems/jobs",
     "urls": [
       "https://www.intersystems.com/careers/careers-search/?gh_jid=7241533003"
     ]
   },
   {
-    "name": "ithaka.org",
-    "ats": "custom",
-    "identifier": "ithaka.org",
+    "name": "ithaka",
+    "ats": "greenhouse",
+    "identifier": "ithaka",
     "domain": "https://www.ithaka.org",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ithaka/jobs",
     "urls": [
       "https://www.ithaka.org/job/4645220005?gh_jid=4645220005"
     ]
   },
   {
-    "name": "ixl.com",
-    "ats": "custom",
-    "identifier": "ixl.com",
+    "name": "ixl",
+    "ats": "greenhouse",
+    "identifier": "ixl",
     "domain": "https://www.ixl.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ixl/jobs",
     "urls": [
       "https://www.ixl.com/company/careers?gh_jid=8128629002",
       "https://www.ixl.com/company/careers?gh_jid=8182869002",
@@ -16002,11 +16340,11 @@
     ]
   },
   {
-    "name": "jumptrading.com",
-    "ats": "custom",
-    "identifier": "jumptrading.com",
+    "name": "jumptrading",
+    "ats": "greenhouse",
+    "identifier": "jumptrading",
     "domain": "https://www.jumptrading.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs",
     "urls": [
       "https://www.jumptrading.com/careers/6900970/?gh_jid=6900970",
       "https://www.jumptrading.com/careers/7026718/?gh_jid=7026718",
@@ -16027,11 +16365,11 @@
     ]
   },
   {
-    "name": "laika.com",
-    "ats": "custom",
-    "identifier": "laika.com",
+    "name": "laika",
+    "ats": "greenhouse",
+    "identifier": "laika",
     "domain": "https://www.laika.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/laika/jobs",
     "urls": [
       "https://www.laika.com/careers/job-listing?jobid=7624789&gh_jid=7624789"
     ]
@@ -16068,11 +16406,11 @@
     ]
   },
   {
-    "name": "mastercontrol.com",
-    "ats": "custom",
-    "identifier": "mastercontrol.com",
+    "name": "mastercontrol",
+    "ats": "greenhouse",
+    "identifier": "mastercontrol",
     "domain": "https://www.mastercontrol.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/mastercontrol/jobs",
     "urls": [
       "https://www.mastercontrol.com/careers/job-listings/role/?role=4601626005&gh_jid=4601626005"
     ]
@@ -16110,13 +16448,26 @@
     ]
   },
   {
-    "name": "mlb.com",
-    "ats": "custom",
-    "identifier": "mlb.com",
+    "name": "mlb",
+    "ats": "greenhouse",
+    "identifier": "mlb",
     "domain": "https://www.mlb.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/mlb/jobs",
     "urls": [
       "https://www.mlb.com/careers/opportunities?gh_jid=7389240"
+    ]
+  },
+  {
+    "name": "mongodb",
+    "ats": "greenhouse",
+    "identifier": "mongodb",
+    "domain": "https://www.mongodb.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+    "urls": [
+      "https://www.mongodb.com/careers/job/?gh_jid=7239049",
+      "https://www.mongodb.com/careers/job/?gh_jid=7239454",
+      "https://www.mongodb.com/careers/job/?gh_jid=7292730",
+      "https://www.mongodb.com/careers/job/?gh_jid=7335932"
     ]
   },
   {
@@ -16126,62 +16477,59 @@
     "domain": "https://www.mongodb.com",
     "page": "",
     "urls": [
-      "https://www.mongodb.com/careers/job/?gh_jid=7239049",
-      "https://www.mongodb.com/careers/job/?gh_jid=7239454",
-      "https://www.mongodb.com/careers/job/?gh_jid=7292730",
-      "https://www.mongodb.com/careers/job/?gh_jid=7335932",
       "https://www.mongodb.com/careers/jobs/7239047",
       "https://www.mongodb.com/careers/jobs/7239454",
       "https://www.mongodb.com/careers/jobs/7335932"
     ]
   },
   {
-    "name": "nasuni.com",
-    "ats": "custom",
-    "identifier": "nasuni.com",
+    "name": "nasuni",
+    "ats": "greenhouse",
+    "identifier": "nasuni",
     "domain": "https://www.nasuni.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nasuni/jobs",
     "urls": [
       "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5134719008",
       "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5158479008"
     ]
   },
   {
-    "name": "nextiva.com",
-    "ats": "custom",
-    "identifier": "nextiva.com",
+    "name": "nextiva",
+    "ats": "greenhouse",
+    "identifier": "nextiva",
     "domain": "https://www.nextiva.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nextiva/jobs",
     "urls": [
-      "https://www.nextiva.com/company/careers-listing?gh_jid=8196740002"
+      "https://www.nextiva.com/company/careers-listing?gh_jid=8196740002",
+      "https://www.nextiva.com/company/careers-listing?gh_jid=8419782002"
     ]
   },
   {
-    "name": "nuharborsecurity.com",
-    "ats": "custom",
-    "identifier": "nuharborsecurity.com",
+    "name": "nuharborsecurity",
+    "ats": "greenhouse",
+    "identifier": "nuharborsecurity",
     "domain": "https://www.nuharborsecurity.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nuharborsecurity/jobs",
     "urls": [
       "https://www.nuharborsecurity.com/careers?gh_jid=7256174"
     ]
   },
   {
-    "name": "nuro.ai",
-    "ats": "custom",
-    "identifier": "nuro.ai",
+    "name": "nuro",
+    "ats": "greenhouse",
+    "identifier": "nuro",
     "domain": "https://www.nuro.ai",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nuro/jobs",
     "urls": [
       "https://www.nuro.ai/careersitem?gh_jid=7351061"
     ]
   },
   {
-    "name": "okta.com",
-    "ats": "custom",
-    "identifier": "okta.com",
+    "name": "okta",
+    "ats": "greenhouse",
+    "identifier": "okta",
     "domain": "https://www.okta.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/okta/jobs",
     "urls": [
       "https://www.okta.com/company/careers/opportunity/7235551?gh_jid=7235551",
       "https://www.okta.com/company/careers/opportunity/7547852?gh_jid=7547852",
@@ -16202,13 +16550,29 @@
     ]
   },
   {
-    "name": "peakenergy.com",
-    "ats": "custom",
-    "identifier": "peakenergy.com",
+    "name": "peakenergy",
+    "ats": "greenhouse",
+    "identifier": "peakenergy",
     "domain": "https://www.peakenergy.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/peakenergy/jobs",
     "urls": [
       "https://www.peakenergy.com/careers/jobs?job_id=5090304007&gh_jid=5090304007"
+    ]
+  },
+  {
+    "name": "pinterestcareers",
+    "ats": "greenhouse",
+    "identifier": "pinterestcareers",
+    "domain": "https://www.pinterestcareers.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/pinterestcareers/jobs",
+    "urls": [
+      "https://www.pinterestcareers.com/job-form?gh_jid=7202269",
+      "https://www.pinterestcareers.com/job-form?gh_jid=7210881",
+      "https://www.pinterestcareers.com/job-form?gh_jid=7241510",
+      "https://www.pinterestcareers.com/job-form?gh_jid=7241588",
+      "https://www.pinterestcareers.com/jobs/7257996/software-engineer-intern-summer-term-2026-toronto/?gh_jid=7257996",
+      "https://www.pinterestcareers.com/jobs/?gh_jid=7262794",
+      "https://www.pinterestcareers.com/jobs/?gh_jid=7558536"
     ]
   },
   {
@@ -16218,25 +16582,18 @@
     "domain": "https://www.pinterestcareers.com",
     "page": "",
     "urls": [
-      "https://www.pinterestcareers.com/job-form?gh_jid=7202269",
-      "https://www.pinterestcareers.com/job-form?gh_jid=7210881",
-      "https://www.pinterestcareers.com/job-form?gh_jid=7241510",
-      "https://www.pinterestcareers.com/job-form?gh_jid=7241588",
       "https://www.pinterestcareers.com/jobs/7202269/software-engineer-intern-2026-remote-us/",
       "https://www.pinterestcareers.com/jobs/7210881/software-engineer-intern-2026/",
       "https://www.pinterestcareers.com/jobs/7241510/software-engineer-intern-2026/",
-      "https://www.pinterestcareers.com/jobs/7257996/software-engineer-intern-summer-term-2026-toronto/",
-      "https://www.pinterestcareers.com/jobs/7257996/software-engineer-intern-summer-term-2026-toronto/?gh_jid=7257996",
-      "https://www.pinterestcareers.com/jobs/?gh_jid=7262794",
-      "https://www.pinterestcareers.com/jobs/?gh_jid=7558536"
+      "https://www.pinterestcareers.com/jobs/7257996/software-engineer-intern-summer-term-2026-toronto/"
     ]
   },
   {
-    "name": "precisely.com",
-    "ats": "custom",
-    "identifier": "precisely.com",
+    "name": "precisely",
+    "ats": "greenhouse",
+    "identifier": "precisely",
     "domain": "https://www.precisely.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/precisely/jobs",
     "urls": [
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
@@ -16244,33 +16601,23 @@
     ]
   },
   {
-    "name": "psiquantum.com",
-    "ats": "custom",
-    "identifier": "psiquantum.com",
+    "name": "psiquantum",
+    "ats": "greenhouse",
+    "identifier": "psiquantum",
     "domain": "https://www.psiquantum.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/psiquantum/jobs",
     "urls": [
       "https://www.psiquantum.com/apply?gh_jid=7679085003"
     ]
   },
   {
-    "name": "redventures.com",
-    "ats": "custom",
-    "identifier": "redventures.com",
+    "name": "redventures",
+    "ats": "greenhouse",
+    "identifier": "redventures",
     "domain": "https://www.redventures.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/redventures/jobs",
     "urls": [
       "https://www.redventures.com/careers/positions/open?gh_jid=7589458"
-    ]
-  },
-  {
-    "name": "rfsmart.com",
-    "ats": "custom",
-    "identifier": "rfsmart.com",
-    "domain": "https://www.rfsmart.com",
-    "page": "",
-    "urls": [
-      "https://www.rfsmart.com/current-job-openings?hsCtaTracking=a3b29f1a-3e28-4c56-a139-07e3b9ec3fd9%7Cbba890fe-3ad1-476d-8c70-aa0677d1814f&gh_jid=4909114008"
     ]
   },
   {
@@ -16284,22 +16631,23 @@
     ]
   },
   {
-    "name": "rubrik.com",
-    "ats": "custom",
-    "identifier": "rubrik.com",
+    "name": "rubrik",
+    "ats": "greenhouse",
+    "identifier": "rubrik",
     "domain": "https://www.rubrik.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/rubrik/jobs",
     "urls": [
       "https://www.rubrik.com/company/careers/departments/job.7071669?gh_jid=7071669",
-      "https://www.rubrik.com/company/careers/departments/job.7071674?gh_jid=7071674"
+      "https://www.rubrik.com/company/careers/departments/job.7071674?gh_jid=7071674",
+      "https://www.rubrik.com/company/careers/departments/job.7542911?gh_jid=7542911"
     ]
   },
   {
-    "name": "sagesure.com",
-    "ats": "custom",
-    "identifier": "sagesure.com",
+    "name": "sagesure",
+    "ats": "greenhouse",
+    "identifier": "sagesure",
     "domain": "https://www.sagesure.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sagesure/jobs",
     "urls": [
       "https://www.sagesure.com/careers/current-job-openings/?gh_jid=4607807006"
     ]
@@ -16359,38 +16707,47 @@
     ]
   },
   {
+    "name": "skydio",
+    "ats": "greenhouse",
+    "identifier": "skydio",
+    "domain": "https://www.skydio.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/skydio/jobs",
+    "urls": [
+      "https://www.skydio.com/jobs/7493211003?gh_jid=7493211003",
+      "https://www.skydio.com/jobs/7494622003?gh_jid=7494622003",
+      "https://www.skydio.com/jobs/7494672003?gh_jid=7494672003",
+      "https://www.skydio.com/jobs/7506906003?gh_jid=7506906003"
+    ]
+  },
+  {
     "name": "skydio.com",
     "ats": "custom",
     "identifier": "skydio.com",
     "domain": "https://www.skydio.com",
     "page": "",
     "urls": [
-      "https://www.skydio.com/jobs/7493211003?gh_jid=7493211003",
       "https://www.skydio.com/jobs/7493238003",
-      "https://www.skydio.com/jobs/7494622003?gh_jid=7494622003",
-      "https://www.skydio.com/jobs/7494672003?gh_jid=7494672003",
       "https://www.skydio.com/jobs/7498514003",
-      "https://www.skydio.com/jobs/7498519003",
-      "https://www.skydio.com/jobs/7506906003?gh_jid=7506906003"
+      "https://www.skydio.com/jobs/7498519003"
     ]
   },
   {
-    "name": "smxtech.com",
-    "ats": "custom",
-    "identifier": "smxtech.com",
+    "name": "smxtech",
+    "ats": "greenhouse",
+    "identifier": "smxtech",
     "domain": "https://www.smxtech.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/smxtech/jobs",
     "urls": [
       "https://www.smxtech.com/careers/?gh_jid=7611490003",
       "https://www.smxtech.com/careers/?gh_jid=7611533003"
     ]
   },
   {
-    "name": "sofi.com",
-    "ats": "custom",
-    "identifier": "sofi.com",
+    "name": "sofi",
+    "ats": "greenhouse",
+    "identifier": "sofi",
     "domain": "https://www.sofi.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
     "urls": [
       "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
       "https://www.sofi.com/careers/sofi-university/7585152003?gh_jid=7585152003",
@@ -16412,11 +16769,11 @@
     ]
   },
   {
-    "name": "tanium.com",
-    "ats": "custom",
-    "identifier": "tanium.com",
+    "name": "tanium",
+    "ats": "greenhouse",
+    "identifier": "tanium",
     "domain": "https://www.tanium.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/tanium/jobs",
     "urls": [
       "https://www.tanium.com/careers/7228031?gh_jid=7228031",
       "https://www.tanium.com/careers/7228059?gh_jid=7228059",
@@ -16455,11 +16812,11 @@
     ]
   },
   {
-    "name": "trlm.com",
-    "ats": "custom",
-    "identifier": "trlm.com",
+    "name": "trlm",
+    "ats": "greenhouse",
+    "identifier": "trlm",
     "domain": "https://www.trlm.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/trlm/jobs",
     "urls": [
       "https://www.trlm.com/apply/4993466007?gh_jid=4993466007"
     ]
@@ -16496,11 +16853,11 @@
     ]
   },
   {
-    "name": "verition.com",
-    "ats": "custom",
-    "identifier": "verition.com",
+    "name": "verition",
+    "ats": "greenhouse",
+    "identifier": "verition",
     "domain": "https://www.verition.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/verition/jobs",
     "urls": [
       "https://www.verition.com/open-positions?gh_jid=5037983007"
     ]
@@ -16516,11 +16873,11 @@
     ]
   },
   {
-    "name": "weareroku.com",
-    "ats": "custom",
-    "identifier": "weareroku.com",
+    "name": "weareroku",
+    "ats": "greenhouse",
+    "identifier": "weareroku",
     "domain": "https://www.weareroku.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/weareroku/jobs",
     "urls": [
       "https://www.weareroku.com/jobs/7460657?gh_jid=7460657",
       "https://www.weareroku.com/jobs/7460693?gh_jid=7460693",
@@ -16593,11 +16950,11 @@
     ]
   },
   {
-    "name": "zoominfo.com",
-    "ats": "custom",
-    "identifier": "zoominfo.com",
+    "name": "zoominfo",
+    "ats": "greenhouse",
+    "identifier": "zoominfo",
     "domain": "https://www.zoominfo.com",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs",
     "urls": [
       "https://www.zoominfo.com/careers?gh_jid=8422488002",
       "https://www.zoominfo.com/careers?gh_jid=8422490002",
@@ -16606,11 +16963,11 @@
     ]
   },
   {
-    "name": "x.company",
-    "ats": "custom",
-    "identifier": "x.company",
+    "name": "x",
+    "ats": "greenhouse",
+    "identifier": "x",
     "domain": "https://x.company",
-    "page": "",
+    "page": "https://boards-api.greenhouse.io/v1/boards/x/jobs",
     "urls": [
       "https://x.company/careers/8328378002?gh_jid=8328378002",
       "https://x.company/careers/8398742002?gh_jid=8398742002"
