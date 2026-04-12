@@ -1,5 +1,76 @@
 [
   {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944733/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4356,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience in interaction and visual design",
+        "Familiar with at least one programming language (C#)",
+        "Possess frontend web development skills",
+        "Able to translate complex technical workflows into simple, visual solutions",
+        "Understand basic testing concepts",
+        "Proactive with a strong desire to learn"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944933/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4355,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Basic understanding of testing concepts",
+        "Knowledge of software development",
+        "Ability to code in .net environment",
+        "Good understanding of xml and TCP/IP protocol",
+        "Basic understanding of Hardware and Embedded Software",
+        "General IT knowledge",
+        "Basic understanding of network administration",
+        "A proactive attitude with a strong desire to learn"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944833/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4354,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong understanding of Object-Oriented Programming (OOP) concepts",
+        "Proficient in at least one programming language (preferably C#)",
+        "Good analytical and problem-solving skills",
+        "Strong communication skills (verbal and written)",
+        "Self-driven, proactive mindset with a strong willingness to learn",
+        "Exposure to IoT systems, embedded systems, or automation testing",
+        "Basic understanding of test automation frameworks or tools",
+        "Familiarity with version control systems (e.g., Git)",
+        "Understanding of software testing fundamentals"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "ASM",
     "role": "Process Engineering Intern",
     "link": "https://www.asm.com/open-vacancies/?gh_jid=4832509101",
