@@ -1,5 +1,31 @@
 [
   {
+    "company": "nvidia",
+    "role": "Software Verification Student",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590",
+    "location": "2 Locations",
+    "id": 4351,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a B.Sc. student in Computer Science, Software/Computer/Electrical/Communication Engineering or related field, with at least 3 semesters remaining.",
+        "Strong programming skills in Python, with clear motivation for automation and tooling.",
+        "Possess solid software fundamentals: problem-solving, clean coding, debugging, and basic design.",
+        "Able to learn new technologies quickly, work independently, and take ownership from design to tested delivery.",
+        "Be a team player with good communication skills and able to work in a fast-paced, global environment.",
+        "Knowledgeable in one or more networking areas: Ethernet, VLANs, TCP/UDP/IP, QoS, L2/L3 routing, ECMP, EVPN, RDMA/RoCE.",
+        "Possess hands-on experience with software testing or verification (unit/integration tests, test methodologies, QA automation frameworks).",
+        "Experienced with Python-based test frameworks (e.g., pytest) and CI tools (Jenkins, GitLab CI).",
+        "Familiar with containers, virtualization, or cloud-style deployments (Kubernetes, Docker) for distributed testing environments.",
+        "Have prior exposure to high-performance or AI networking concepts (GPU clusters, NCCL, AI training/inference workloads, or NVIDIA networking products)."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Entegris",
     "role": "Specialty Coatings Research and Development",
     "link": "https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Bedford-MA/Specialty-Coatings-Research-and-Development-Co-Op---Fall-2026_REQ-10160",
