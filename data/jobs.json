@@ -1,5 +1,27 @@
 [
   {
+    "company": "disney",
+    "role": "Software Engineering Intern, Data Products, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Burbank-CA-USA/Software-Engineering-Intern--Data-Products--Summer-2026_10143613",
+    "location": "Burbank, CA, USA",
+    "id": 4352,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a junior or senior in Computer Science or STEM bachelor’s degree",
+        "Develop software using Java and/or Python",
+        "Work with data and develop database queries using SQL",
+        "Collaborate effectively in a fast-paced team environment",
+        "Experience with Snowflake or other cloud data platforms",
+        "Experience with AI applications and frameworks"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "nvidia",
     "role": "Software Verification Student",
     "link": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590",
