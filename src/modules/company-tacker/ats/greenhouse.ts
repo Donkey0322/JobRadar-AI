@@ -2,6 +2,8 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { GREENHOUSE_API_URL } from "@/constants/ats";
+
 interface GreenhouseJob {
   company_name: string;
   title: string;
@@ -26,7 +28,7 @@ export function urlToGreenhouseCompany(url: URL): Company {
       ats: "greenhouse",
       identifier,
       domain: url.origin,
-      page: `https://boards-api.greenhouse.io/v1/boards/${identifier}/jobs`,
+      page: `${GREENHOUSE_API_URL}/${identifier}/jobs`,
       urls: [],
     };
   }
@@ -36,7 +38,7 @@ export function urlToGreenhouseCompany(url: URL): Company {
     ats: "greenhouse",
     identifier,
     domain: url.origin,
-    page: `https://boards-api.greenhouse.io/v1/boards/${identifier}/jobs`,
+    page: `${GREENHOUSE_API_URL}/${identifier}/jobs`,
     urls: [],
   };
 }

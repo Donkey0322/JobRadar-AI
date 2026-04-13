@@ -6,7 +6,7 @@ import type { AIResponse } from "@/validation/ai";
 import { saveJd } from "../../utils/data";
 import { classifyATS } from "../company-tacker/ats";
 
-import { parseGreenhouse } from "./ats/greenhouse";
+import { fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
 
 import analyze from "@/modules/jd-analyzer/ai";
 import { AIResponseSchema } from "@/validation/ai";
@@ -43,29 +43,23 @@ async function visibleTextFromHtml(
 
     switch (urlType) {
       case "greenhouse": {
-        const parsed = parseGreenhouse(url);
-        if (!parsed) return null;
-
-        const { company, jobId } = parsed;
-
-        const apiUrl = `https://boards-api.greenhouse.io/v1/boards/${company}/jobs/${jobId}`;
-        const res = await fetch(apiUrl);
-
-        if (!res.ok) return null;
-
-        const data = await res.json();
-        text = JSON.stringify(data);
-
+        const jd = await fetchGreenhouseJD(url);
+        if (!jd) return null;
+        text = jd;
         break;
       }
       case "smartrecruiters": {
-        const meta = $('meta[property="og:description"]').first();
-        if (!meta.length) return null;
-
-        text = meta.attr("content") ?? "";
+        const jd = await fetchSmartRecruitersJD(url);
+        if (!jd) return null;
+        text = jd;
         break;
       }
-      case "workday":
+      case "workday": {
+        const jd = await fetchWorkdayJD(url);
+        if (!jd) return null;
+        text = jd;
+        break;
+      }
       default: {
         const script = $('script[type="application/ld+json"]').first();
         if (script.length) {
@@ -116,8 +110,13 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
     if (aiResponse) {
       try {
         const parsed = JSON.parse(aiResponse);
-        const validated = AIResponseSchema.parse(parsed);
-        return transform(validated);
+        const validated = AIResponseSchema.safeParse(parsed);
+        if (validated.success) {
+          return transform(validated.data);
+        } else {
+          console.warn(`[${job.company}] Error parsing JSON: ${parsed}, error: ${validated.error}`);
+          return null;
+        }
       } catch (e) {
         console.warn(`[${job.company}] Error parsing JSON: ${e}`);
         return null;

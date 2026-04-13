@@ -1,5 +1,3 @@
-#!/usr/bin/env npx tsx
-
 import { classifyATS } from "../company-tacker/ats";
 
 import {

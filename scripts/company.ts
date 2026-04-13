@@ -1,5 +1,3 @@
-#!/usr/bin/env tsx
-
 import "dotenv/config";
 
 import { buildCompanyList } from "../src/modules/company-tacker/company";

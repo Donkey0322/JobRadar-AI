@@ -1,5 +1,3 @@
-#!/usr/bin/env npx tsx
-
 import { getLastPathNumber } from "./utils";
 
 export function getGreenhouseKey(u: URL): string | null {
