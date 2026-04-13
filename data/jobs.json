@@ -1,5 +1,45 @@
 [
   {
+    "company": "kla",
+    "role": "System Engineering Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Engineering-Intern_2532514",
+    "location": "Milpitas, CA",
+    "id": 4192,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess a background in engineering or physics with optics experience.",
+        "Currently enrolled in graduate-level studies or undergraduate with 2+ years of laboratory experience.",
+        "Demonstrate hands-on experience in a laboratory environment.",
+        "Experienced with laser systems, optical alignment, and detection systems.",
+        "Proficient in scripting with MATLAB, Python, etc."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "freseniusmedicalcare",
+    "role": "Software Engineering Co-op",
+    "link": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Software-Engineering-Co-op_R0239275",
+    "location": "Lawrence, MA, USA",
+    "id": 4191,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursuing a college degree in a similar major.",
+        "Possess previous work experience.",
+        "Exhibit excellent oral and written communication skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "ASM",
     "role": "Process Engineering Intern",
     "link": "https://www.asm.com/open-vacancies/?gh_jid=4832572101",

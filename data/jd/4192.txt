@@ -1,38 +1,107 @@
-About Us
-At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.
-At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a "normalized" problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.
-Available Location: London, UK
-About The Team
-The CxO Transformation Partners (CXTP) team serves as trusted advisors to Cloudflare’s most senior customers and prospects. We are a highly strategic group who simplify technical complexity and align our solutions with large-scale business objectives. Our mission is to unlock commercial outcomes by bridging the gap between deep technical capabilities and executive-level strategic goals.
-About The Internship
-The Technical Innovation Analyst Intern will accelerate key automation and AI initiatives for the Field CxO team, focusing on data engineering and rapid prototyping to enhance the team’s ability to drive strategic customer outcomes and scale across the GTM organization. This role involves designing automated reporting frameworks, executive briefing dashboards, and AI-powered tools using capabilities sourced from the Cloudflare Developer platform and AI frameworks developed by the Cloudflare AI Factory. The intern will work in a high-impact, hands-on environment, collaborating cross-functionally with product managers, engineering, and the CISO team, while being paired with a dedicated Field CxO mentor. Everything built will see tangible impact on executive meetings, customer engagements, and internal efficiency.
-What You’ll Get To Do In This Role
-Experiment with LLMs to build assistants that can summarize customer environments, develop tailor-made briefing content, or simulate “what-if” threat scenarios to support executive-level strategy sessions.
-Own at least one flagship project end-to-end, such as the automated reporting framework, providing a strong portfolio deliverable and presentation to leadership.
-Example projects may include:
-Develop a scalable, automated monthly reporting system that consolidates CxO team activities, customer impact metrics, and historical insights, including building the foundation for an AI-powered data collection and summarisation methodology.
-Design and implement automated AI data-driven dashboards that integrate Cloudflare signals, industry threat feeds, and customer-specific telemetry to provide tailored visual insights for CxO-led customer meetings and executive briefings.
-Leverage AI to analyse internal data and event metrics to identify high-value customer opportunities and enable proactive, strategic outreach.
-Build lightweight Cloudflare WorkersAI and Agentic prototypes or AI-driven proof-of-concepts (e.g., Zero Trust flows, AI-based log analysis, or cyber-resilience simulations) to illustrate Cloudflare capabilities during customer engagements.
-Qualifications
-Currently pursuing a degree in Computer Science or a related field.
-Available for a full-time 12-week internship, working from our London office 3 days a week during the summer (June - September).
-Hands-on experience with AI/LLM tooling and cloud-first demo environments, not just for chat but data extraction, summarization, and content generation.
-Familiarity with or ability to rapidly learn Cloudflare Workers development.
-Knowledge of industry threat intelligence data sources and automation tools.
-Ability to own a high-impact project end-to-end and deliver portfolio-ready results.
-Strong understanding of AI technologies such as AI agents, Remote MCP servers and LLMs
-Proficient in operating systems, networking, Internet technologies (SSL/TLS/HTTP/SSH etc) and ability to write code to solve simple problems.
-Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy.
-Demonstrated focus on automation, data engineering, and rapid prototyping principles.
-Excellent written and presentation skills. This role demands someone who is gifted in their ability to communicate effectively with all stakeholders, including executives, product management, sales, and marketing.
-Self-starter who truly enjoys working in a fast-paced, innovative cloud services company.
-What Makes Cloudflare Special?
-We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.
-Project Galileo: Since 2014, we've equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.
-Athenian Project: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we've provided services to more than 425 local government election websites in 33 states.
-1.1.1.1: We released 1.1.1.1 to help fix the foundation of the Internet by building a faster, more secure and privacy-centric public DNS resolver. This is available publicly for everyone to use - it is the first consumer-focused service Cloudflare has ever released. Here’s the deal - we don’t store client IP addresses never, ever. We will continue to abide by our privacy commitment and ensure that no user data is sold to advertisers or used to target consumers.
-Sound like something you’d like to be a part of? We’d love to hear from you!
-This position may require access to information protected under U.S. export control laws, including the U.S. Export Administration Regulations. Please note that any offer of employment may be conditioned on your authorization to receive software or technology controlled under these U.S. export laws without sponsorship for an export license.
-Cloudflare is proud to be an equal opportunity employer. We are committed to providing equal employment opportunity for all people and place great value in both diversity and inclusiveness. All qualified applicants will be considered for employment without regard to their, or any other person's, perceived or actual race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, national origin, ancestry, citizenship, age, physical or mental disability, medical condition, family care status, or any other basis protected by law. We are an AA/Veterans/Disabled Employer.
-Cloudflare provides reasonable accommodations to qualified individuals with disabilities. Please tell us if you require a reasonable accommodation to apply for a job. Examples of reasonable accommodations include, but are not limited to, changing the application process, providing documents in an alternate format, using a sign language interpreter, or using specialized equipment. If you require a reasonable accommodation to apply for a job, please contact us via e-mail at hr@cloudflare.com or via mail at 101 Townsend St. San Francisco, CA 94107.
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA-CA-Milpitas-KLA"
+}
+},
+"hiringOrganization" : {
+"name" : "1000 KLA Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "System Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "2532514"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "System Engineering Intern",
+"description" : "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&amp;D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world’s leading technology providers to accelerate the delivery of tomorrow’s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us. Group/Division With over 40 years of semiconductor process control experience, chipmakers around the globe rely on KLA to ensure that their fabs ramp next-generation devices to volume production quickly and cost-effectively. Enabling the movement towards advanced chip design, KLA's Global Products Group (GPG), which is responsible for creating all of KLA’s metrology and inspection products, is looking for the best and the brightest research scientist, software engineers, application development engineers, and senior product technology process engineers. The Surfscan group includes a team of engineers, technology development, apps engineers and product marketing focused on technology that enables wafer, IC and equipment manufacturers to develop, qualify and monitor their process tools. Defects and process non-uniformities detected on Surfscan equipment allow for early identification of yield excursions. The flagship Surfscan products include the SPx platforms for wafer surface quality and wafer defect inspection tools and systems for inspection of polished wafers, epi wafers and engineered substrates during the wafer fabrication process. Job Description/Preferred Qualifications SFS systems design team is seeking a summer intern to develop and perform measurements and alignments on optical test benches to qualify subsystem level components and modules such as sensors, actuators, and light sources. The intern will then analyze the quantitative data to provide qualitative results and drive decisions. It is also desired for the intern to have the ability to model the expected results. The individual is expected to be highly motivated and able to work independently with guidance from senior engineers. Preferred Qualification: - Background in engineering or physics with experience in optics. - Candidate is currently in graduate level studies. - Hands on experience in laboratory environment. - Experience with laser systems, optical alignment, and detection systems. - Scripting experience with MATLAB, Python, etc. Minimum Qualifications - Background in engineering or physics with experience in optics. - Candidate is currently in graduate level studies or undergrade with 2+ years of laboratory experience. - Hands on experience in laboratory environment. - Experience with laser systems, optical alignment, and detection systems. - Scripting experience with MATLAB, Python, etc. Base Pay Range: $25.00 - $35.00 based on pursuit of a Primary Location: USA-CA-Milpitas-KLA KLA’s total rewards package for employees may also include participation in performance incentive programs and eligibility for additional benefits including but not limited to: medical, dental, vision, life, and other voluntary benefits, 401(K) including company matching, employee stock purchase program (ESPP), student debt assistance, tuition reimbursement program, development and career growth opportunities and programs, financial planning benefits, wellness benefits including an employee assistance program (EAP), paid time off and paid company holidays, and family care and bonding leave. Interns are eligible for some of the benefits listed. Our pay ranges are determined by role, level, and location. The range displayed reflects the pay for this position in the primary location identified in this posting. Actual pay depends on several factors, including state minimum pay wage rates, location, job-related skills, experience, and relevant education level or training. We are committed to complying with all applicable federal and state minimum wage requirements where applicable. If applicable, your recruiter can share more about the specific pay range for your preferred location during the hiring process. KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at talent.acquisition@kla.com or at +1-408-352-2808 to request accommodation. Be aware of potentially fraudulent job postings or suspicious recruiting activity by persons that are currently posing as KLA employees. KLA never asks for any financial compensation to be considered for an interview, to become an employee, or for equipment. Further, KLA does not work with any recruiters or third parties who charge such fees either directly or on behalf of KLA. Please ensure that you have searched KLA’s Careers website for legitimate job postings. KLA follows a recruiting process that involves multiple interviews in person or on video conferencing with our hiring managers. If you are concerned that a communication, an interview, an offer of employment, or that an employee is not legitimate, please send an email to talent.acquisition@kla.com to confirm the person you are communicating with is an employee. We take your privacy very seriously and confidentially handle your information. KLA is hiring talented engineers, physicists, data scientists and other problem-solvers all across the US. Do you have a passion for solving complex technical challenges? Check out our job openings! KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at talent.acquisition@kla.com or at +1-408-352-2808 to request accommodation. For additional information, view the US Know Your Rights poster on the U.S. Equal Employment Opportunity Commission website. We do not accept resumes from headhunters, placement agencies, or other suppliers that have not signed a formal agreement with us.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "USA-CA-Milpitas-KLA"
+}
+},
+"hiringOrganization" : {
+"name" : "1000 KLA Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "System Engineering Intern",
+"@type" : "PropertyValue",
+"value" : "2532514"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "System Engineering Intern",
+"description" : "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&amp;D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world’s leading technology providers to accelerate the delivery of tomorrow’s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us. Group/Division With over 40 years of semiconductor process control experience, chipmakers around the globe rely on KLA to ensure that their fabs ramp next-generation devices to volume production quickly and cost-effectively. Enabling the movement towards advanced chip design, KLA's Global Products Group (GPG), which is responsible for creating all of KLA’s metrology and inspection products, is looking for the best and the brightest research scientist, software engineers, application development engineers, and senior product technology process engineers. The Surfscan group includes a team of engineers, technology development, apps engineers and product marketing focused on technology that enables wafer, IC and equipment manufacturers to develop, qualify and monitor their process tools. Defects and process non-uniformities detected on Surfscan equipment allow for early identification of yield excursions. The flagship Surfscan products include the SPx platforms for wafer surface quality and wafer defect inspection tools and systems for inspection of polished wafers, epi wafers and engineered substrates during the wafer fabrication process. Job Description/Preferred Qualifications SFS systems design team is seeking a summer intern to develop and perform measurements and alignments on optical test benches to qualify subsystem level components and modules such as sensors, actuators, and light sources. The intern will then analyze the quantitative data to provide qualitative results and drive decisions. It is also desired for the intern to have the ability to model the expected results. The individual is expected to be highly motivated and able to work independently with guidance from senior engineers. Preferred Qualification: - Background in engineering or physics with experience in optics. - Candidate is currently in graduate level studies. - Hands on experience in laboratory environment. - Experience with laser systems, optical alignment, and detection systems. - Scripting experience with MATLAB, Python, etc. Minimum Qualifications - Background in engineering or physics with experience in optics. - Candidate is currently in graduate level studies or undergrade with 2+ years of laboratory experience. - Hands on experience in laboratory environment. - Experience with laser systems, optical alignment, and detection systems. - Scripting experience with MATLAB, Python, etc. Base Pay Range: $25.00 - $35.00 based on pursuit of a Primary Location: USA-CA-Milpitas-KLA KLA’s total rewards package for employees may also include participation in performance incentive programs and eligibility for additional benefits including but not limited to: medical, dental, vision, life, and other voluntary benefits, 401(K) including company matching, employee stock purchase program (ESPP), student debt assistance, tuition reimbursement program, development and career growth opportunities and programs, financial planning benefits, wellness benefits including an employee assistance program (EAP), paid time off and paid company holidays, and family care and bonding leave. Interns are eligible for some of the benefits listed. Our pay ranges are determined by role, level, and location. The range displayed reflects the pay for this position in the primary location identified in this posting. Actual pay depends on several factors, including state minimum pay wage rates, location, job-related skills, experience, and relevant education level or training. We are committed to complying with all applicable federal and state minimum wage requirements where applicable. If applicable, your recruiter can share more about the specific pay range for your preferred location during the hiring process. KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at talent.acquisition@kla.com or at +1-408-352-2808 to request accommodation. Be aware of potentially fraudulent job postings or suspicious recruiting activity by persons that are currently posing as KLA employees. KLA never asks for any financial compensation to be considered for an interview, to become an employee, or for equipment. Further, KLA does not work with any recruiters or third parties who charge such fees either directly or on behalf of KLA. Please ensure that you have searched KLA’s Careers website for legitimate job postings. KLA follows a recruiting process that involves multiple interviews in person or on video conferencing with our hiring managers. If you are concerned that a communication, an interview, an offer of employment, or that an employee is not legitimate, please send an email to talent.acquisition@kla.com to confirm the person you are communicating with is an employee. We take your privacy very seriously and confidentially handle your information. KLA is hiring talented engineers, physicists, data scientists and other problem-solvers all across the US. Do you have a passion for solving complex technical challenges? Check out our job openings! KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at talent.acquisition@kla.com or at +1-408-352-2808 to request accommodation. For additional information, view the US Know Your Rights poster on the U.S. Equal Employment Opportunity Commission website. We do not accept resumes from headhunters, placement agencies, or other suppliers that have not signed a formal agreement with us.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "kla",
+siteId: "ur",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["en-US"],
+clientOrigin: "https://www.myworkday.com",
+language: null,
+cdnEndpoint: "www.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=kla&s=ur",
+token: "892825a6-b17c-4a95-a370-568dc1a99459",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{},"progressBar":{"color":"#00A7E1"},"button":{"primary":{"color":"#00A7E1","borderColor":"#00A7E1","textColor":"#FFFFFF","hover":{"color":"#005CB9","borderColor":"#005CB9","textColor":"#FFFFFF"}},"secondary":{"color":"#00A7E1","borderColor":"#00A7E1","textColor":"#FFFFFF","hover":{"color":"#CED3D9","borderColor":"#A1AAB3","textColor":"#333333"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"a4f6855b9b841001c987bb25038e0000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#FFFFFF","textColor":"#494949","image":{"id":"b428329975c11001875e8afb0f110002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
