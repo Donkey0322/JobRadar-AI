@@ -1,117 +1,261 @@
-{
-"jobLocation" : {
-"@type" : "Place",
-"address" : {
-"@type" : "PostalAddress",
-"addressCountry" : "United States of America",
-"addressLocality" : "147 CHANTILLY VA (COMMONWEALTH BUILDING A)"
+{"@context":"https://schema.org","@type":"JobPosting","title":"Software Engineer Intern - Summer","datePosted":"2026-02-25T21:31:43-06:00","hiringOrganization":{"@type":"Organization","name":"Arrow International, Inc.","logo":"https://recruiting.paylocity.com/recruiting/jobs/GetLogoFile?moduleId=29458"},"description":"<p>Description</p><p>Arrow International is the world's largest manufacturer and supplier of charitable gaming products and solutions. We produce and distribute a wide array of products including consumables (pull tab tickets, bingo paper and ink, etc.) as well as world class, state-of-the-art, electronic gaming products. Our products are sold, installed, and operated in numerous social and gaming venues around the world. We continue to grow at a record pace and offer this exciting career opportunity to join our team where we are focused on attracting and engaging exceptional talent, empowering colleagues to achieve fulfilling careers, and creating fun and engaging products that are second to none for our customers.</p><p><br/></p><p><strong>Position Summary</strong></p><p>Arrow International, Inc. is seeking to add a Software Engineer intern (<strong>Paid</strong>) to our Electronic Gaming Development team. This position is integral to the development of and successful launch of new and exciting electronic gaming products, as part of our newly formed Electronic Gaming Division. As an Intern you will work with Unity and C# to develop cutting edge 3D Games. Primary responsibilities will be to create a game by combining ideas, concepts, art, and assets with existing and new code into a functional and engaging game. <strong>This is a Summer Internship slated to start in the middle of May.&nbsp;</strong></p><p><br/></p><p><strong>Primary Roles and Responsibilities</strong></p><ul><li>Excellent understanding of computer science fundamentals (OOP, data structures, algorithms) Practical experience in C#.</li><li>General understanding of common development practices (version control, agile development) Ability to quickly understand, debug, and modify existing code Strong analytical technical problem-solving skills.</li><li>Applicants must be able to work at our studio in Las Vegas, NV.</li></ul><p>Requirements</p><p><strong>Experience and Education</strong></p><ul><li>Degree or working towards a degree in computer science, computer engineering, or related field.</li><li>Strong understanding of object-oriented programming principles in C# required.</li><li>Unity experience preferred.</li><li>Experience in Casino or Slot Related Industries is nice to have.</li></ul>","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"6543 Las Vegas Blvd S","addressLocality":"Las Vegas","addressRegion":"NV","postalCode":"89119-3223","addressCountry":"US"}}}
+window.dataLayer = [{"recruiting_module_number":"CS189930","global_environment":"PRODPROD","product_type":"Talent","product_type_detail":"Recruiting","platform":"web","version":"26.4.1.426"}];
+//<!-- Google Tag Manager (Paylo) -->
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NXMFCP7');
+//<!--End Google Tag Manager(Paylo)-- >
+//<!-- Google Tag Manager (Recruiting) -->
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NCS49ZS');
+//<!-- End Google Tag Manager (Recruiting) -->
+Arrow International Inc - Software Engineer Intern - Summer
+.icon-building:before {
+content: "\e623";
 }
-},
-"applicantLocationRequirements" : {
-"@type" : "Country",
-"name" : "United States of America"
-},
-"jobLocationType" : "TELECOMMUTE",
-"hiringOrganization" : {
-"name" : "02 CACI, INC.-FEDERAL",
-"@type" : "Organization",
-"sameAs" : ""
-},
-"identifier" : {
-"name" : "Agentic AI Intern - Summer 2026",
-"@type" : "PropertyValue",
-"value" : "323923"
-},
-"datePosted" : "2026-04-06",
-"employmentType" : "PART_TIME",
-"title" : "Agentic AI Intern - Summer 2026",
-"description" : "Job Title: Agentic AI Intern - Summer 2026 Job Category: Intern/Co-op Time Type: Part time Minimum Clearance Required to Start: None Employee Type: Part-Time On-Call Percentage of Travel Required: Up to 25% Type of Travel: Local * * * The Opportunity: We’re seeking a Junior GenAI Developer passionate about creating and delivering AI-driven solutions—from crafting effective prompts and integrating models to building evaluation frameworks and implementing safety guardrails. In this role, you’ll collaborate closely with senior engineers and product managers to prototype, refi ne, and deploy GenAI capabilities that make a real difference for our customers. Responsibilities: Prototype and integrate LLMs (OpenAI, Azure OpenAI, Anthropic, etc.) into web services, apps, and workflows. Support the design and development of intelligent chatbots and autonomous agents using cutting-edge GenAI technologies to support content analysis, content gap identification, content summarization and like activities. Implement and optimize RAG (Retrieval Augmented Generation) systems to provide accurate information retrieval and contextual responses Write prompt chains, system prompts, and structured outputs (JSON/XML/Markdown) for reliable responses. Build evaluation harnesses: test sets, metrics, and A/B experiments. Develop, manage, and deploy intelligent AI agents to include knowledge retrieval (RAG), allowing interaction with external APIs, databases, and applications. Develop connectors and RAG pipelines. Use open-source platforms for debugging, testing, testing, and monitoring generative AI applications Implement guardrails and safety (content and safety filters, PII scrubbing, hallucination detection, policy enforcement). Develop, manage, and deploy intelligent AI agents to include knowledge retrieval (RAG), allowing interaction with external APIs, databases, and applications. Develop connectors and RAG pipelines. Contribute to backend services (Python/TypeScript) and micro-APIs to operationalize AI features. Write observability hooks: logging, tracing, prompt/version tracking, feedback loops. Collaborate on model selection and cost/performance tradeoff s (latency, throughput, token cost, quality). Document prompt patterns, playbooks, and API usage; share learnings in reviews/demos. Qualifications: Required: Bachelor’s in CS/Engineering or equivalent experience (internships count). 0–2 years building soft ware(internships count). Hands-on with at least one: Python (FastAPI, Flask) or TypeScript/Node (Express, Next.js). Familiarity with LLM APIs (OpenAI/Azure OpenAI/Anthropic) and prompt engineering basics. Experience with Git, RESTAPIs, and CI/CD concepts. Basic knowledge of cloud (AWS desired, Azure acceptable) and containers (Docker). Strong communication and curiosity Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future Desired: Exposure to LangChain, LangGraph, Ango, and Langfuse Exposure to OpenWebUI Understanding of RAG concepts and vector databases. Familiarity with GenAI models - What You Can Expect: A culture of integrity. At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation. An environment of trust. CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality. A focus on continuous growth. Together, we will advance our nation's most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy. Pay Range: There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits. Since this position can be worked in more than one location, the range shown is the national average for the position. The proposed salary range for this position is: $39,900-$79,900 CACI is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any other protected characteristic. Click on Search Jobs to find and apply to CACI openings.",
-"@context" : "http://schema.org",
-"@type" : "JobPosting"
+.custom-link-color {
+padding-right: 10px;
+color: #0052a1
 }
-{
-"jobLocation" : {
-"@type" : "Place",
-"address" : {
-"@type" : "PostalAddress",
-"addressCountry" : "United States of America",
-"addressLocality" : "147 CHANTILLY VA (COMMONWEALTH BUILDING A)"
+.at-share-btn-elements {
+padding-top: 5px;
 }
-},
-"applicantLocationRequirements" : {
-"@type" : "Country",
-"name" : "United States of America"
-},
-"jobLocationType" : "TELECOMMUTE",
-"hiringOrganization" : {
-"name" : "02 CACI, INC.-FEDERAL",
-"@type" : "Organization",
-"sameAs" : ""
-},
-"identifier" : {
-"name" : "Agentic AI Intern - Summer 2026",
-"@type" : "PropertyValue",
-"value" : "323923"
-},
-"datePosted" : "2026-04-06",
-"employmentType" : "PART_TIME",
-"title" : "Agentic AI Intern - Summer 2026",
-"description" : "Job Title: Agentic AI Intern - Summer 2026 Job Category: Intern/Co-op Time Type: Part time Minimum Clearance Required to Start: None Employee Type: Part-Time On-Call Percentage of Travel Required: Up to 25% Type of Travel: Local * * * The Opportunity: We’re seeking a Junior GenAI Developer passionate about creating and delivering AI-driven solutions—from crafting effective prompts and integrating models to building evaluation frameworks and implementing safety guardrails. In this role, you’ll collaborate closely with senior engineers and product managers to prototype, refi ne, and deploy GenAI capabilities that make a real difference for our customers. Responsibilities: Prototype and integrate LLMs (OpenAI, Azure OpenAI, Anthropic, etc.) into web services, apps, and workflows. Support the design and development of intelligent chatbots and autonomous agents using cutting-edge GenAI technologies to support content analysis, content gap identification, content summarization and like activities. Implement and optimize RAG (Retrieval Augmented Generation) systems to provide accurate information retrieval and contextual responses Write prompt chains, system prompts, and structured outputs (JSON/XML/Markdown) for reliable responses. Build evaluation harnesses: test sets, metrics, and A/B experiments. Develop, manage, and deploy intelligent AI agents to include knowledge retrieval (RAG), allowing interaction with external APIs, databases, and applications. Develop connectors and RAG pipelines. Use open-source platforms for debugging, testing, testing, and monitoring generative AI applications Implement guardrails and safety (content and safety filters, PII scrubbing, hallucination detection, policy enforcement). Develop, manage, and deploy intelligent AI agents to include knowledge retrieval (RAG), allowing interaction with external APIs, databases, and applications. Develop connectors and RAG pipelines. Contribute to backend services (Python/TypeScript) and micro-APIs to operationalize AI features. Write observability hooks: logging, tracing, prompt/version tracking, feedback loops. Collaborate on model selection and cost/performance tradeoff s (latency, throughput, token cost, quality). Document prompt patterns, playbooks, and API usage; share learnings in reviews/demos. Qualifications: Required: Bachelor’s in CS/Engineering or equivalent experience (internships count). 0–2 years building soft ware(internships count). Hands-on with at least one: Python (FastAPI, Flask) or TypeScript/Node (Express, Next.js). Familiarity with LLM APIs (OpenAI/Azure OpenAI/Anthropic) and prompt engineering basics. Experience with Git, RESTAPIs, and CI/CD concepts. Basic knowledge of cloud (AWS desired, Azure acceptable) and containers (Docker). Strong communication and curiosity Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future Desired: Exposure to LangChain, LangGraph, Ango, and Langfuse Exposure to OpenWebUI Understanding of RAG concepts and vector databases. Familiarity with GenAI models - What You Can Expect: A culture of integrity. At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation. An environment of trust. CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality. A focus on continuous growth. Together, we will advance our nation's most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy. Pay Range: There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits. Since this position can be worked in more than one location, the range shown is the national average for the position. The proposed salary range for this position is: $39,900-$79,900 CACI is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any other protected characteristic. Click on Search Jobs to find and apply to CACI openings.",
-"@context" : "http://schema.org",
-"@type" : "JobPosting"
+.at-share-btn-elements:focus {
+border: 1px solid #000000;
 }
-window.workday = window.workday || {
-tenant: "caci",
-siteId: "external",
-locale: "",
-requestLocale: "en-US",
-supportedLocales:["en-US"],
-clientOrigin: "https://www.myworkday.com",
-language: null,
-cdnEndpoint: "www.myworkdaycdn.com",
-useCdn: true,
-maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=caci&s=external",
-token: "0c711e7f-e8a5-4118-bd79-f9671c24d119",
-environment: "PROD",
-isExternal: true,
-appName: "cxs",
-postingAvailable: true,
-allowedFileTypes: [],
-blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
-toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
-branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#0875E1"},"button":{"primary":{"color":"#0875E1","borderColor":"#0875E1","textColor":"#FFFFFF","hover":{"color":"#005CB9","borderColor":"#005CB9","textColor":"#FFFFFF"}},"secondary":{"color":"#F0F1F2","borderColor":"#CED3D9","textColor":"#333333","hover":{"color":"#CED3D9","borderColor":"#A1AAB3","textColor":"#333333"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true},"banner":{"color":"#FFFFFF","borderColor":"#FFFFFF","textColor":"#494949","image":{"id":"fb07fa6ac28a10019b673f6fb9650001","altText":null}}},"embedded":false},
-geoIpCountryCode: "us" == null ? "": "us",
+#breadcrumb span {
+display: block;
+float: left;
+max-width: calc(100% - 32px);
+min-width: 60px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#breadcrumb .breadcrumb-link {
+color: #000;
+}
+#breadcrumb .breadcrumb-title {
+color: #808080;
+}
+#applicant-tracking .branding-button-color, .branding-button-color {
+background-color: #ff8800; /* use button color*/
+border: 1px solid #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-button-outline-color, .branding-button-outline-color {
+color: #ff8800; /* use button color*/
+background-color: #fff;
+border: 1px solid #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-button-outline-color:disabled, .branding-button-outline-color:disabled {
+color: #ccc;
+background-color: transparent;
+border-color: #ccc;
+}
+#applicant-tracking .branding-button-color-as-background-color, .branding-button-color-as-background-color {
+background-color: #ff8800; /* use button color*/
+border-color: #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-upload-button-color div.k-dropzone div.k-button.k-upload-button,
+.branding-upload-button-color div.k-dropzone div.k-button.k-upload-button {
+background-color: #ff8800; /* use button color*/
+border: 1px solid #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-button-color:hover, .branding-button-color:hover {
+background-color: #efae69; /* use button hover color*/
+border: 1px solid #efae69; /* use button hover color*/
+}
+#applicant-tracking .branding-button-outline-color:hover, .branding-button-outline-color:hover {
+color: #fff;
+background-color: #ff8800; /* use button color*/
+border: 1px solid #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-button-color:active, .branding-button-color:active {
+background-color: #8b1910; /* use button clicked color*/
+border: 1px solid #8b1910; /* use button clicked color*/
+}
+.k-pager-numbers .k-state-selected {
+background-color: #ff8800; /* use button color*/
+}
+#applicant-tracking .branding-background-color, .branding-background-color {
+background-color: #f5f5f5 !important;
+}
+#applicant-tracking .branding-link-color, .branding-link-color, #applicant-tracking .k-pager-nav.k-link:link {
+color: #0052a1; /* use link color*/
+}
+#applicant-tracking .k-pager-wrap > .k-link.k-state-disabled,
+#applicant-tracking .k-pager-wrap > .k-link.k-state-disabled:hover {
+color: #ccc;
+background-color: #fff;
+}
+#applicant-tracking .branding-link-color.outline, .branding-link-color.outline {
+border: 1px solid #0052a1; /* use link color*/
+}
+#applicant-tracking .branding-link-color:hover, .branding-link-color:hover {
+color: #3385d4; /* use link hover color*/
+}
+#applicant-tracking .k-pager-wrap .k-pager-numbers .k-link:hover,
+#applicant-tracking .k-pager-nav.k-link:hover{
+background-color: #3385d4; /* use link hover color*/
+color: #fff;
+}
+#applicant-tracking .k-pager-wrap .k-pager-numbers .k-link:active,
+#applicant-tracking .k-pager-nav.k-link:active{
+background-color: #002c7b; /* use link hover color*/
+color: #fff;
+}
+#applicant-tracking .branding-link-color.outline:hover, .branding-link-color.outline:hover {
+background-color: #3385d4; /* use link hover color*/
+border: 1px solid #3385d4; /* use link hover color*/
+color: #ffffff;
+}
+#applicant-tracking .branding-link-color:active, .branding-link-color:active {
+color: #002c7b; /* use link clicked color*/
+}
+#applicant-tracking .branding-link-color.outline:active, .branding-link-color.outline:active {
+color: #ffffff;
+background-color: #002c7b; /* use link clicked color*/
+border: 1px solid #002c7b; /* use link clicked color*/
+}
+/* resume and cover letter branding styles */
+.k-button.k-upload-button {
+color: #ffffff;
+background-color: #ff8800 !important; /* use button color*/
+border: 1px solid #ff8800 !important; /* use button color*/
+}
+.k-button.k-upload-button:hover {
+background-color: #efae69 !important; /* use link hover color*/
+border-color: #efae69 !important; /* use link hover color*/
+}
+.k-button.k-upload-button:active {
+background-color: #8b1910 !important; /* use link hover color*/
+border-color: #8b1910 !important; /* use link hover color*/
+}
+#applicant-tracking .branding-font, .branding-font {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+/* Everything below this element should be the branding font, but this element is overridden for calcs */
+#applicant-tracking #applyDecisionModal div.modal-divided-content * {
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {
+return;
+}
+js = d.createElement(s);
+js.id = id;
+js.src = "https://analytics.click2apply.net/ats/paylocity/v1.0.js";
+js.setAttribute("data-applicant-info", "false");
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'jobtarget-jssdk'));
+window.onbeforeunload = function (e) {
+if (window.hasOwnProperty('unsavedChanges') && window.unsavedChanges) {
+var dialogText =
+'You have unsaved changes. Leaving this page without submitting your application will cause all progress to be lost? Are you sure you want to leave this page?';
+e.returnValue = dialogText;
+setTimeout(() => window.paylocityLoadingModal && window.paylocityLoadingModal.hide(), 1000);
+return dialogText;
+}
 };
-function createScriptTag (src) {
-var scriptTag = document.createElement('script');
-scriptTag.src = src;
-scriptTag.setAttribute('defer', 'true');
-scriptTag.setAttribute('crossorigin', 'anonymous');
-return scriptTag;
+<h2>In order to use this site, it is necessary to enable JavaScript.</h2>
+<h3>
+Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.
+</h3>
+if (window !== window.parent) {
+var framedSource = "";
+try {
+var framedSource = document.location.ancestorOrigins[0];
+var url = "/Recruiting/Jobs/LogIframeHit" + "?domain=" + encodeURIComponent(framedSource);
+if (window.location.href !== "")
+url += "&accessedPage=" + encodeURIComponent(window.location.href);
+var request = new XMLHttpRequest();
+request.open('get', url, true);
+request.send();
+} catch (e) {
+console.log("log iframe errored with: " + JSON.stringify(e));
 }
-var isIE = typeof Symbol === 'undefined';
-var sharedAssetPath = '/wday/asset/uic-shared-vendors';
-var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
-var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
-var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
-var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
-sharedVendorsLoaderScript.onload = function () {
-var jobsScriptSrcFilename = isIE
-? 'cx-jobs-ie.min.js'
-: 'cx-jobs.min.js';
-var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
-var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
-jobsScript.onerror = function () {
-window.workday.useCdn = false;
-var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
-document.head.removeChild(jobsScript);
-document.head.appendChild(jobsScriptFromClientOrigin);
 }
-document.head.appendChild(jobsScript);
+All Jobs
+>
+Software Engineer Intern - Summer
+Arrow International Inc
+Apply
+Software Engineer Intern - Summer
+Las Vegas, NV
+•
+Engineering/Software
+Apply
+Job Type
+Internship
+Description
+Arrow International is the world's largest manufacturer and supplier of charitable gaming products and solutions. We produce and distribute a wide array of products including consumables (pull tab tickets, bingo paper and ink, etc.) as well as world class, state-of-the-art, electronic gaming products. Our products are sold, installed, and operated in numerous social and gaming venues around the world. We continue to grow at a record pace and offer this exciting career opportunity to join our team where we are focused on attracting and engaging exceptional talent, empowering colleagues to achieve fulfilling careers, and creating fun and engaging products that are second to none for our customers.Position SummaryArrow International, Inc. is seeking to add a Software Engineer intern (Paid) to our Electronic Gaming Development team. This position is integral to the development of and successful launch of new and exciting electronic gaming products, as part of our newly formed Electronic Gaming Division. As an Intern you will work with Unity and C# to develop cutting edge 3D Games. Primary responsibilities will be to create a game by combining ideas, concepts, art, and assets with existing and new code into a functional and engaging game. This is a Summer Internship slated to start in the middle of May. Primary Roles and ResponsibilitiesExcellent understanding of computer science fundamentals (OOP, data structures, algorithms) Practical experience in C#.General understanding of common development practices (version control, agile development) Ability to quickly understand, debug, and modify existing code Strong analytical technical problem-solving skills.Applicants must be able to work at our studio in Las Vegas, NV.
+Requirements
+Experience and EducationDegree or working towards a degree in computer science, computer engineering, or related field.Strong understanding of object-oriented programming principles in C# required.Unity experience preferred.Experience in Casino or Slot Related Industries is nice to have.
+Apply
+View All Jobs
+Powered by
+Privacy Policy
+Payroll & HR Software
+{"@context":"https://schema.org","@type":"JobPosting","title":"Software Engineer Intern - Summer","datePosted":"2026-02-25T21:31:43-06:00","hiringOrganization":{"@type":"Organization","name":"Arrow International, Inc.","logo":"https://recruiting.paylocity.com/recruiting/jobs/GetLogoFile?moduleId=29458"},"description":"<p>Description</p><p>Arrow International is the world's largest manufacturer and supplier of charitable gaming products and solutions. We produce and distribute a wide array of products including consumables (pull tab tickets, bingo paper and ink, etc.) as well as world class, state-of-the-art, electronic gaming products. Our products are sold, installed, and operated in numerous social and gaming venues around the world. We continue to grow at a record pace and offer this exciting career opportunity to join our team where we are focused on attracting and engaging exceptional talent, empowering colleagues to achieve fulfilling careers, and creating fun and engaging products that are second to none for our customers.</p><p><br/></p><p><strong>Position Summary</strong></p><p>Arrow International, Inc. is seeking to add a Software Engineer intern (<strong>Paid</strong>) to our Electronic Gaming Development team. This position is integral to the development of and successful launch of new and exciting electronic gaming products, as part of our newly formed Electronic Gaming Division. As an Intern you will work with Unity and C# to develop cutting edge 3D Games. Primary responsibilities will be to create a game by combining ideas, concepts, art, and assets with existing and new code into a functional and engaging game. <strong>This is a Summer Internship slated to start in the middle of May.&nbsp;</strong></p><p><br/></p><p><strong>Primary Roles and Responsibilities</strong></p><ul><li>Excellent understanding of computer science fundamentals (OOP, data structures, algorithms) Practical experience in C#.</li><li>General understanding of common development practices (version control, agile development) Ability to quickly understand, debug, and modify existing code Strong analytical technical problem-solving skills.</li><li>Applicants must be able to work at our studio in Las Vegas, NV.</li></ul><p>Requirements</p><p><strong>Experience and Education</strong></p><ul><li>Degree or working towards a degree in computer science, computer engineering, or related field.</li><li>Strong understanding of object-oriented programming principles in C# required.</li><li>Unity experience preferred.</li><li>Experience in Casino or Slot Related Industries is nice to have.</li></ul>","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"6543 Las Vegas Blvd S","addressLocality":"Las Vegas","addressRegion":"NV","postalCode":"89119-3223","addressCountry":"US"}}}
+(function init() {
+if (window.document.documentMode) {
+setTimeout(function () {
+$('.vjs-play-control').css("font-size", "9px").css("margin-top", "-7px");
+$('button[title="Seek back 10 seconds"]').css("font-size", "8px").css("margin-top", "-5px");
+$('.vjs-mute-control').css("font-size", "9px").css("margin-top", "-7px");
+$('.vjs-fullscreen-control').css("font-size", "9px").css("margin-top", "-7px");
+$('.vjs-subs-caps-button ').css("font-size", "9px").css("margin-top", "-7px");
+}, 1200);
+}
+})()
+(window.jQuery)||document.write('<script src="/Recruiting/bundles/jquery"><\/script>');
+(window.React)||document.write('<script src="/Recruiting/bundles/React"><\/script>');
+(window.ReactDOM)||document.write('<script src="/Recruiting/bundles/ReactDOM"><\/script>');
+(window._)||document.write('<script src="/Recruiting/bundles/Lodash"><\/script>');
+(window.Immutable)||document.write('<script src="/Recruiting/bundles/Immutable"><\/script>');
+(window.moment)||document.write('<script src="/Recruiting/bundles/Moment"><\/script>');
+(function () {
+window.atsPublic = window.atsPublic || {};
+window.atsPublic.baseUrl = function () {
+return "/Recruiting";
 };
-document.head.appendChild(sharedVendorsLoaderScript);
-var uxInsightsAssetPath = '/wday/asset/client-analytics';
-var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
-var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
-var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
-document.head.appendChild(uxInsightsScript);
+window.ATSPublicBaseUrl = 'https://recruiting.paylocity.com/Recruiting/';
+window.ATSJobDetailsBaseUrl = '/Recruiting/Jobs/Details/';
+window.ATSJobApplyBaseUrl = '/Recruiting/Jobs/Apply/';
+window.FileUploadUrl = 'https://recruiting.paylocity.com' + '/Recruiting/Jobs/FileUpload';
+window.PaylocityCdnLogoUrl = 'https://cdn.paylocity.com/cdn/branding/paylocity-logo-left.svg';
+window.illustrationsBaseUrl = 'https://prdasecunavenda.azureedge.net/cdn/citrus/illustrations/';
+})();
+function inIframe() {
+try {
+return window.self !== window.top;
+} catch (e) {
+return true;
+}
+}
+document.addEventListener("DOMContentLoaded",
+function () {
+// Purposely not using jQuery on this next line
+document.getElementById('applicant-tracking').style.display = 'block';
+if (window.jQuery) {
+if (jQuery("#LayoutLogoImage").length === 0) {
+jQuery("#LayoutLogoName").css("display", "block");
+}
+jQuery('#LayoutLogoSection').css("visibility", "visible");
+jQuery("link[rel='preload']").attr('rel', 'stylesheet');
+}
+if (inIframe()) {
+var applyLinks = document.getElementsByClassName('apply-link-marker');
+for (var i = 0; i < applyLinks.length; i++) {
+applyLinks[i].target = "_blank";
+applyLinks[i].rel = "nofollow";
+}
+}
+});
+window.pageData = {"jobTitle":"Software Engineer Intern - Summer","moduleName":"Arrow International Inc","showSocialWidget":true};
