@@ -9,6 +9,10 @@ export * from "./smart";
 export * from "./icims";
 export * from "./custom";
 
+const hostToATS: Record<string, ATS> = {
+  "stripe.com": "greenhouse",
+};
+
 export function classifyATS(url: URL): ATS {
   const host = url.hostname;
 
@@ -29,6 +33,6 @@ export function classifyATS(url: URL): ATS {
   } else if (host.endsWith("icims.com")) {
     return "icims";
   } else {
-    return "custom";
+    return hostToATS[host] ?? "custom";
   }
 }

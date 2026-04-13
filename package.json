@@ -9,7 +9,8 @@
     "analyze": "tsx scripts/link.ts",
     "company": "tsx scripts/company.ts",
     "crawler": "tsx scripts/crawler.ts",
-    "crawler:dev": "tsx scripts/crawler.ts --dev"
+    "crawler:dev": "tsx scripts/crawler.ts --dev",
+    "dedup": "tsx scripts/dedup.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

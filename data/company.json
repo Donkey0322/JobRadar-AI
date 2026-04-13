@@ -14461,22 +14461,13 @@
     ]
   },
   {
-    "name": "stripe.com",
-    "ats": "custom",
-    "identifier": "stripe.com",
-    "domain": "https://stripe.com",
-    "page": "",
-    "urls": [
-      "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115"
-    ]
-  },
-  {
     "name": "stripe",
     "ats": "greenhouse",
     "identifier": "stripe",
     "domain": "https://stripe.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
     "urls": [
+      "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115",
       "https://stripe.com/jobs/search?gh_jid=7206389",
       "https://stripe.com/jobs/search?gh_jid=7206494",
       "https://stripe.com/jobs/search?gh_jid=7210115",

@@ -12,9 +12,7 @@ import {
 } from "./ats";
 import { normalizeUrl } from "./utils";
 
-import { loadSent, saveSent } from "@/utils/data";
-
-function getJobKey(url: string) {
+export function getJobKey(url: string) {
   try {
     const u = new URL(url);
     const ats = classifyATS(u);
@@ -52,7 +50,7 @@ function getJobKey(url: string) {
   }
 }
 
-function groupUrlsByKey(urls: string[]) {
+export function groupUrlsByKey(urls: string[]) {
   const map = new Map<string, string[]>();
 
   for (const url of urls) {
@@ -86,14 +84,3 @@ export function deduplicate(urls: string[]) {
   const json = mapToJson(grouped);
   return Object.values(json).map((urls) => urls[0]);
 }
-
-async function main() {
-  const sent = await loadSent();
-  const deduped = deduplicate(Array.from(sent));
-  await saveSent(new Set(deduped));
-
-  console.log("original:", sent.size);
-  console.log("unique jobs:", deduped.length);
-}
-
-main();
