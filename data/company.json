@@ -10405,6 +10405,16 @@
     ]
   },
   {
+    "name": "jobs.dayforcehcm.com",
+    "ats": "custom",
+    "identifier": "jobs.dayforcehcm.com",
+    "domain": "https://jobs.dayforcehcm.com",
+    "page": "",
+    "urls": [
+      "https://jobs.dayforcehcm.com/en-US/otg/CANDIDATEPORTAL/jobs/39712"
+    ]
+  },
+  {
     "name": "jobs.disneycareers.com",
     "ats": "custom",
     "identifier": "jobs.disneycareers.com",
