@@ -4432,6 +4432,7 @@
     "domain": "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg",
     "page": "https://dickssportinggoods.wd1.myworkdayjobs.com/wday/cxs/dickssportinggoods/dsg/jobs",
     "urls": [
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/06083-GameChanger/Android-Software-Engineer-Summer-Intern--Stats---Insights_202605593",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/en-US/DSG/job/06083-GameChanger/Software-Engineer-Summer-Intern--Revenue-Growth_202605375",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/en-US/DSG/job/Customer-Support-Center/Software-Engineering---Summer-2026-Corporate-Internship_202508673-1"
     ]
@@ -5889,7 +5890,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01817134-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineering-Intern--Summer-2026---Onsite-_01805319-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373"
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineering-Intern--Summer-2026---Onsite-_01835947"
     ]
   },
   {
@@ -6689,7 +6691,10 @@
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Financial-Systems-Developer-Intern_J2439302",
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Programmer-Analyst-Intern_J2437601",
       "https://jabil.wd5.myworkdayjobs.com/en-US/Jabil_Careers/job/St-PetersburgTampa-FL/Cloud-Engineering-Intern_J2429234",
-      "https://jabil.wd5.myworkdayjobs.com/en-US/jabil_careers/job/Lexington-KY/Quality-Assurance-Intern---Cloud-Applications_J2437769"
+      "https://jabil.wd5.myworkdayjobs.com/en-US/jabil_careers/job/Lexington-KY/Quality-Assurance-Intern---Cloud-Applications_J2437769",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446133",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446136",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446137"
     ]
   },
   {
@@ -13205,6 +13210,7 @@
     "page": "https://pae.wd1.myworkdayjobs.com/wday/cxs/pae/amentum_careers/jobs",
     "urls": [
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Electrical-Test-Design-Engineer_R0158884",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Summer-2026-Mechanical-Engineer-Intern_R0159061",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-AL-Huntsville/Guidance--Navigation--and-Control-Intern_R0154043",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-AL-Huntsville/SLS-Mission-Analysis-Intern_R0154111",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-CO-Colorado-Springs/Software-Developer-Intern---NISSC---COS_R0158196",
@@ -13375,7 +13381,8 @@
     "domain": "https://polaris.wd5.myworkdayjobs.com/polarisjobs",
     "page": "https://polaris.wd5.myworkdayjobs.com/wday/cxs/polaris/polarisjobs/jobs",
     "urls": [
-      "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Wyoming-MN-USA/High-School-Software-Intern_R28794"
+      "https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Wyoming-MN-USA/High-School-Software-Intern_R28794",
+      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Roseau-MN-USA/Manufacturing-Engineer-Intern_R29375"
     ]
   },
   {
@@ -14471,8 +14478,10 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
     "urls": [
       "https://stripe.com/jobs/search?gh_jid=7206389",
+      "https://stripe.com/jobs/search?gh_jid=7206494",
       "https://stripe.com/jobs/search?gh_jid=7210115",
-      "https://stripe.com/jobs/search?gh_jid=7216664"
+      "https://stripe.com/jobs/search?gh_jid=7216664",
+      "https://stripe.com/jobs/search?gh_jid=7360840"
     ]
   },
   {

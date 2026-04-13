@@ -1,5 +1,191 @@
 [
   {
+    "company": "Stripe",
+    "role": "Software Engineer, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7206494",
+    "location": "Dublin",
+    "id": 4224,
+    "jd": null
+  },
+  {
+    "company": "Stripe",
+    "role": "Software Engineer, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7360840",
+    "location": "London",
+    "id": 4223,
+    "jd": null
+  },
+  {
+    "company": "polaris",
+    "role": "Manufacturing Engineer Intern",
+    "link": "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Roseau-MN-USA/Manufacturing-Engineer-Intern_R29375",
+    "location": "Roseau, MN, USA",
+    "id": 4222,
+    "jd": null
+  },
+  {
+    "company": "pae",
+    "role": "Summer 2026 Mechanical Engineer Intern",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Summer-2026-Mechanical-Engineer-Intern_R0159061",
+    "location": "US-TX-Houston",
+    "id": 4221,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university with 45+ credit hours",
+        "Maintain a minimum 2.8 GPA",
+        "Some experience with CAD Software",
+        "Proficient in MS Office",
+        "Good written and oral communication skills",
+        "Current student in Mechanical, Marine, or Aerospace Engineering",
+        "Experience with Autodesk Inventor, Creo",
+        "Eager to learn the engineering workflow lifecycle",
+        "Mechanically inclined",
+        "Able to work in a team environment to solve design problems"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "jabil",
+    "role": "Cloud & Infrastructure Manufacturing Test Developer Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446137",
+    "location": "Austin, TX",
+    "id": 4220,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Electrical Engineering, Computer Engineering, Computer Science, or related field",
+        "Maintain a GPA of 3.0 or higher",
+        "Be available to work in Austin, TX from May 18, 2026 to August 7, 2026",
+        "Have basic experience with Python, Java, or BASH",
+        "Possess interest in computer hardware and software tools for server, networking, and storage device testing",
+        "Be exposed to or willing to learn IPMI, Redfish, mprime, FIO, Linpack, ptugen, and memtester",
+        "Possess strong problem-solving and critical-thinking skills",
+        "Have basic exposure to or curiosity about cloud hardware and data analytics tools",
+        "Demonstrate enthusiasm for learning in a fast-paced environment",
+        "Have interest in manufacturing hardware testing and process optimization",
+        "Exhibit good communication and teamwork skills",
+        "Possess a self-starter mindset with initiative"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "jabil",
+    "role": "Cloud & Infrastructure Manufacturing Test Developer Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446133",
+    "location": "Austin, TX",
+    "id": 4219,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a relevant Engineering or Computer Science degree",
+        "Achieve a GPA of 3.0 or higher",
+        "Available to work in Austin, TX from May 18, 2026 to August 7, 2026",
+        "Basic experience with programming or scripting languages such as Python, Java, or BASH",
+        "Interested in working with computer hardware and software tools",
+        "Willingness to learn tools like IPMI, Redfish, mprime, FIO, Linpack, ptugen, and memtester",
+        "Strong problem-solving and critical-thinking skills",
+        "Curiosity about cloud hardware and data analytics tools",
+        "Enthusiastic for learning in a fast-paced environment",
+        "Interested in manufacturing hardware testing optimization",
+        "Good communication and teamwork skills",
+        "Possess a self-starter mindset and take initiative"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "jabil",
+    "role": "Cloud & Infrastructure Manufacturing Test Developer Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446136",
+    "location": "Austin, TX",
+    "id": 4218,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a degree in Electrical Engineering, Computer Engineering, Computer Science, or a related field.",
+        "Maintain a GPA of 3.0 or higher.",
+        "Available to work in Austin, TX from May 18, 2026 to August 7, 2026.",
+        "Basic experience with programming or scripting languages like Python, Java, or BASH.",
+        "Interested in working with computer hardware and software tools for server, networking, and storage.",
+        "Exposure to or willingness to learn tools like IPMI, Redfish, mprime, FIO, Linpack, ptugen, and memtester.",
+        "Strong problem-solving and critical-thinking skills, with an interest in data-based decisions.",
+        "Basic exposure to or curiosity about cloud hardware and data analytics tools.",
+        "Enthusiastic for learning and working in a fast-paced, startup-like environment.",
+        "Interested in manufacturing hardware testing and process optimization.",
+        "Good communication skills and ability to work effectively with others.",
+        "Possess a self-starter mindset with initiative and follow-through."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Software Engineering Intern (Summer 2026) (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineering-Intern--Summer-2026---Onsite-_01835947",
+    "location": "US-NY-BINGHAMTON-288 ~ 31 Lewis Rd ~ LEWIS",
+    "id": 4217,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or advanced degree in an applicable discipline",
+        "Experience developing software using C or C++",
+        "Adaptable to change",
+        "Determined to accomplish tasks based on program schedule",
+        "Collaborate with teammates to make the best decisions",
+        "Enjoy learning new technologies",
+        "Self-motivated",
+        "Contribute to a positive work environment",
+        "Excellent communication skills (written and oral)",
+        "Support design, development, and maintenance of embedded software",
+        "Integrate software into complex aircraft systems",
+        "Develop and conduct complex tests and debug systems"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "dickssportinggoods",
+    "role": "Android Software Engineer Summer Intern, Stats & Insights",
+    "link": "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/06083-GameChanger/Android-Software-Engineer-Summer-Intern--Stats---Insights_202605593",
+    "location": "06083 GameChanger",
+    "id": 4216,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's degree in Computer Science, Software Engineering, or a related technical field",
+        "Experience building and shipping a technical project (coursework, internship, research, hackathon, or personal project)",
+        "Experience developing Android applications using Kotlin (preferred) and/or Java",
+        "Ability to independently scope and execute defined work with guidance",
+        "Understanding of Android fundamentals (activities/fragments, networking, state management, multi-module architecture)",
+        "Experience with modern Android architecture and tooling (Jetpack Compose, MVVM, Kotlin Coroutines, StateFlow/SharedFlow)",
+        "Familiarity with reactive programming patterns (RxJava or Kotlin Flow)",
+        "Exposure to data-driven product development (analytics, experimentation, or metrics-driven iteration)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Astranis",
     "role": "Embedded Software Developer, Network/Payload Software Intern (Summer 2026)",
     "link": "https://job-boards.greenhouse.io/astranis/jobs/4601134006",
