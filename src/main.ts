@@ -3,6 +3,7 @@ import type { Job } from "./types";
 import { SOURCES } from "@/constants";
 import parseSource from "@/modules/github-parser";
 import analyzeJD from "@/modules/jd-analyzer";
+import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { sendEmail } from "@/modules/mail-alert";
 import { loadSent } from "@/utils/data";
 import { saveJob, saveSent } from "@/utils/data";
@@ -10,6 +11,8 @@ import { getToday } from "@/utils/string";
 
 export default async function processor(jobs: Job[] = [], main = true, isDev = false) {
   const sent = await loadSent();
+  const keys = new Set(groupUrlsByKey(Array.from(sent)).keys());
+  console.log(keys);
   let currentId = sent.size;
 
   const newJobs: Job[] = jobs;
@@ -24,8 +27,8 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
 
   const toSend: Job[] = [];
   for (const job of newJobs) {
-    const key = job.link;
-    if (sent.has(key)) {
+    const key = getJobKey(job.link);
+    if (keys.has(key)) {
       continue;
     }
 
@@ -39,7 +42,7 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
     }
 
     toSend.push(job);
-    sent.add(key);
+    sent.add(job.link);
   }
 
   if (toSend.length === 0) {
