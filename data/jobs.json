@@ -1,5 +1,38 @@
 [
   {
+    "company": "leidos",
+    "role": "Software Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Intern_R-00180640",
+    "location": "San Diego, CA",
+    "id": 4226,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a U.S. Citizen",
+        "Ability to obtain a DoD security clearance",
+        "Enrolled in a Bachelor\t\ts Degree program in Computer Engineering, Electrical Engineering, Computer Science or related field",
+        "Completed at least 1 year of curriculum with a minimum 3.0 GPA",
+        "Experience with Matlab, C/C++ or similar language",
+        "Proven record of innovation for developing complex software",
+        "Adaptability to new challenges",
+        "Strong motivation to grow and learn in new areas",
+        "Possess Secret or higher-level clearance (preferred)",
+        "Analytical skills and experience in software design and development (preferred)",
+        "Academic projects focused on software design and development (preferred)",
+        "Work in small teams or individually to achieve program success",
+        "Communicate results in briefings and written material",
+        "Take direction from Team or Task Lead",
+        "Develop software models in Matlab or C++",
+        "Analyze results from simulation or real data",
+        "Plan and perform analytical and engineering research, design development, and other assignments"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Tenstorrent University Jobs",
     "role": "Software Intern - AI Compilers",
     "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4968219007",
