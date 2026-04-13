@@ -5871,7 +5871,8 @@
     "urls": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01817134-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineering-Intern--Summer-2026---Onsite-_01805319-1",
-      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2"
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373"
     ]
   },
   {
@@ -11397,7 +11398,9 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000108819329",
       "https://jobs.smartrecruiters.com/BoschGroup/744000110888641",
       "https://jobs.smartrecruiters.com/BoschGroup/744000119560837",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000119999447"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000119999447",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000120276177",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000120347608"
     ]
   },
   {
@@ -11611,7 +11614,8 @@
     "page": "https://api.smartrecruiters.com/v1/companies/Sandisk/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/Sandisk/35ac1ec2-57ee-47cf-b63f-88726edb677c",
-      "https://jobs.smartrecruiters.com/Sandisk/744000102165035"
+      "https://jobs.smartrecruiters.com/Sandisk/744000102165035",
+      "https://jobs.smartrecruiters.com/Sandisk/744000120277653"
     ]
   },
   {
@@ -11773,7 +11777,8 @@
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/sandisk/postings",
     "urls": [
-      "https://jobs.smartrecruiters.com/sandisk/744000093026280-genai-ai-ml-engineering-intern"
+      "https://jobs.smartrecruiters.com/sandisk/744000093026280-genai-ai-ml-engineering-intern",
+      "https://jobs.smartrecruiters.com/sandisk/744000120277653"
     ]
   },
   {
@@ -13758,7 +13763,8 @@
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043679",
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043680",
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043681-1",
-      "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/AI-Intern-global-Operations_JR-044111"
+      "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/AI-Intern-global-Operations_JR-044111",
+      "https://revvity.wd103.myworkdayjobs.com/external/job/Turku/Software-development-intern_JR-044076"
     ]
   },
   {
@@ -15537,7 +15543,12 @@
     "urls": [
       "https://www.asm.com/open-vacancies/?gh_jid=4742577101",
       "https://www.asm.com/open-vacancies/?gh_jid=4742602101",
-      "https://www.asm.com/open-vacancies/?gh_jid=4832509101"
+      "https://www.asm.com/open-vacancies/?gh_jid=4832509101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4832515101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4832566101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4832569101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4832572101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4839258101"
     ]
   },
   {
