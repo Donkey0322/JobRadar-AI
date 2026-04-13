@@ -1,5 +1,166 @@
 [
   {
+    "company": "ASM",
+    "role": "Process Engineering Intern",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4832572101",
+    "location": "Japan > Tokyo (Tama-shi)",
+    "id": 4190,
+    "jd": null
+  },
+  {
+    "company": "ASM",
+    "role": "Process Engineering Intern",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4832569101",
+    "location": "Japan > Tokyo (Tama-shi)",
+    "id": 4189,
+    "jd": null
+  },
+  {
+    "company": "ASM",
+    "role": "Mechanical Engineer Intern",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4839258101",
+    "location": "Japan > Tokyo (Tama-shi)",
+    "id": 4188,
+    "jd": null
+  },
+  {
+    "company": "ASM",
+    "role": "Mechanical Engineering Intern",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4832515101",
+    "location": "Japan > Tokyo (Tama-shi)",
+    "id": 4187,
+    "jd": null
+  },
+  {
+    "company": "ASM",
+    "role": "Electrical Engineer Intern",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4832566101",
+    "location": "Japan > Tokyo (Tama-shi)",
+    "id": 4186,
+    "jd": null
+  },
+  {
+    "company": "revvity",
+    "role": "Software development intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/external/job/Turku/Software-development-intern_JR-044076",
+    "location": "Turku",
+    "id": 4185,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Ongoing studies in software engineering, computer science, or a related field.",
+        "Basic experience or strong interest in C# or similar programming languages.",
+        "Interest in AI-assisted software development and secure coding practices.",
+        "Willingness to work on-site in Turku.",
+        "Good written and spoken English.",
+        "Curious, motivated, and eager to learn in a professional R&D environment.",
+        "Fluent Finnish (considered a plus).",
+        "Interest or experience in cybersecurity, vulnerability management, or secure development (considered a plus)."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Sandisk",
+    "role": "[July Onwards Intake] Internship - Product Development Engineering (Memory Reliability)",
+    "link": "https://jobs.smartrecruiters.com/sandisk/744000120277653",
+    "location": "Batu Kawan, Penang, Malaysia",
+    "id": 4184,
+    "jd": null
+  },
+  {
+    "company": "Sandisk",
+    "role": "[July Onwards Intake] Internship - Product Development Engineering (Memory Reliability)",
+    "link": "https://jobs.smartrecruiters.com/Sandisk/744000120277653",
+    "location": "Batu Kawan, Penang, Malaysia",
+    "id": 4183,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Hold a Master's or Bachelor's Degree in Electrical/Electronics Engineering or related field",
+        "Possess a good attitude and willingness to learn",
+        "Ability to work effectively with a team",
+        "Perform test execution of NAND memory reliability qual and DOE",
+        "Develop scripts to automate log parsing and analysis",
+        "Document engineering activities"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Bosch Group",
+    "role": "Undergraduate Student Test Engineer",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000120276177",
+    "location": "Clayton, VIC, Australia",
+    "id": 4182,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Other",
+      "qualifications": [
+        "Completed a minimum of 2 years towards a Mechatronics Undergraduate degree.",
+        "Demonstrate strong communication skills.",
+        "Possess strong programming skills in Python, Java, C++, Perl.",
+        "Demonstrate knowledge of hardware debugging techniques.",
+        "Display excellent problem-solving skills.",
+        "Demonstrate knowledge of software quality standards and testing procedures.",
+        "Be proficient in Microsoft Office.",
+        "Maintain a strong interest in innovation and on-the-job learning."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch Group",
+    "role": "[Bosch HcP - Internship] Production Engineering Intern - MSE2",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000120347608",
+    "location": "An Phuoc Commune, Dong Nai, Vietnam",
+    "id": 4181,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a final-year Engineering student",
+        "Possess intermediate English proficiency",
+        "Proficient in Microsoft Office",
+        "Have a strong learning mindset",
+        "Possess good physical health",
+        "Be enthusiastic, reliable, patient, and highly motivated"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "globalhr",
+    "role": "Intern - BU66 Engineering",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373",
+    "location": "SG-01-SINGAPORE-005 B1 ~ 5 Tuas Dr 2 ~ 5 TUAS DR 2-005 B1",
+    "id": 4180,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Undergraduate in Aerospace, Mechanical, Materials Engineering, or related fields.",
+        "Proficient in MS Office.",
+        "Possess Data Analytics skills using various software.",
+        "Able to understand basic technical instructions and SOP.",
+        "Keen interest in the Aerospace MRO industry."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "calix",
     "role": "Optical Engineering Intern",
     "link": "https://calix.wd1.myworkdayjobs.com/external/job/Minneapolis/Optical-Engineering-Intern_R-11517",
