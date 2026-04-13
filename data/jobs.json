@@ -1,5 +1,107 @@
 [
   {
+    "company": "Astranis",
+    "role": "Embedded Software Developer, Network/Payload Software Intern (Summer 2026)",
+    "link": "https://job-boards.greenhouse.io/astranis/jobs/4601134006",
+    "location": "San Francisco",
+    "id": 4215,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. in Computer Science, Electrical or Computer Engineering, Aerospace, or equivalent technical degree.",
+        "Experience with C++, Python, and scripting languages.",
+        "Demonstrated ability to design, write, and test software from scratch.",
+        "Experience with RF and Signal processing.",
+        "Experience with real-time operating systems."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "disney",
+    "role": "WDI Software Developer Intern- Art and Media Pipeline, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Art-and-Media-Pipeline--Summer-2026_10146129",
+    "location": "2 Locations",
+    "id": 4214,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python, C/C++ programming.",
+        "Strong written and spoken communication skills.",
+        "Able to learn new APIs and SDKs quickly.",
+        "Experience with Autodesk Maya and/or MotionBuilder scripting and API.",
+        "Experience with UI/UX prototyping or programming.",
+        "Possess 3D math and computer graphics programming skills.",
+        "Understand digital art pipelines for VFX or video games.",
+        "Experience with 3D Animation rigging.",
+        "Experienced in Robotics programming.",
+        "Experience with CAD software (SolidWorks or equivalent).",
+        "Experience with physics-based simulation (Simulink, ANSYS).",
+        "Develop cross-platform software (Windows, Mac OS, Linux).",
+        "Experience with computer hardware and input devices.",
+        "Experience with game engine development.",
+        "Currently enrolled as a Junior or higher in Computer Science or similar field."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "disney",
+    "role": "WDW Industrial Engineering Intern, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/WDW-Industrial-Engineering-Intern--Summer-2026_WDW-0000303102",
+    "location": "Bay Lake, FL, USA",
+    "id": 4213,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong verbal and written communication skills.",
+        "Demonstrate strong interpersonal skills.",
+        "Apply strong analytical, problem-solving, and decision-making skills.",
+        "Be willing to learn new software applications.",
+        "Have prior related work experience with a focus on problem-solving.",
+        "Be currently enrolled in an Industrial Engineering program.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Be enrolled in an accredited college/university.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Point72 ",
+    "role": "Summer 2027 Quantitative Developer Internship",
+    "link": "https://boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
+    "location": "New York",
+    "id": 4212,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Undergraduate degree or higher in math, computer science, or other quantitative fields",
+        "Strong analytical skills with attention to details",
+        "Strong passion in applying new technologies to trading",
+        "Proficiency in Python and either C++ or Java",
+        "Good communication skills",
+        "Proficiency with Linux environment",
+        "Knowledge of numerical computing is a plus",
+        "Commitment to the highest ethical standards"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Zscaler",
     "role": "Software Engineer Intern, Software Development",
     "link": "https://job-boards.greenhouse.io/zscaler/jobs/5103680007",
