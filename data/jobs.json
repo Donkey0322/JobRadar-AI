@@ -1,5 +1,61 @@
 [
   {
+    "company": "smucker",
+    "role": "Plant Systems Engineering Intern, Orrville, OH Fall 2026",
+    "link": "https://smucker.wd5.myworkdayjobs.com/us_external_careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
+    "location": "Orrville, OH",
+    "id": 4194,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Attain at least Sophomore standing in a related field of study.",
+        "Maintain a minimum overall GPA of 3.0.",
+        "Possess a basic understanding of computer systems, networking, and operating systems.",
+        "Experience with one or more programming languages like Python, C++, SQL, VBA, or C#.",
+        "Proficient in Microsoft Office applications.",
+        "Able to work effectively in a team environment and demonstrate a willingness to learn.",
+        "Strong written and verbal communication skills.",
+        "Available to work full-time during the internship period.",
+        "Able to meet all safety expectations, including wearing required PPE and following GMP.",
+        "Experience with Cloud.",
+        "Experience with Virtual servers."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "cae",
+    "role": "R&D Software Engineer Co-op",
+    "link": "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/R-D-Software-Engineer-Co-op_121119",
+    "location": "Tampa",
+    "id": 4193,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited bachelor's degree program in Engineering, Software Engineering, or Computer Science.",
+        "Maintain a minimum GPA of 3.0.",
+        "Willing to learn new procedures and applications.",
+        "Possess good diagnostic and troubleshooting skills.",
+        "Be detail oriented.",
+        "Have excellent communication skills.",
+        "Able to work with minimal supervision.",
+        "Knowledgeable in Frontend development (Angular, React, Vue, Typescript).",
+        "Knowledgeable in Backend development (C#, .NET, C++, Python, Node).",
+        "Knowledgeable in Data storage and messaging (PostgreSQL, Neo4J, RabbitMq, Kafka, WebSockets).",
+        "Knowledgeable in DevOps (Docker, Kubernetes, ArgoCD, OpenShift, Jenkins, Terraform, GitLab Runner).",
+        "Knowledgeable in Cloud Systems (Azure, GCP, AWS).",
+        "Knowledgeable in Virtual Reality and 3D modeling (Unreal Engine, Unity)."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "kla",
     "role": "System Engineering Intern",
     "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Engineering-Intern_2532514",
