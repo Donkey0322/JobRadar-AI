@@ -1,5 +1,47 @@
 [
   {
+    "company": "calix",
+    "role": "Optical Engineering Intern",
+    "link": "https://calix.wd1.myworkdayjobs.com/external/job/Minneapolis/Optical-Engineering-Intern_R-11517",
+    "location": "Minneapolis",
+    "id": 4179,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Rising Junior or Senior in Electrical, Optical Engineering, or Physics degree program.",
+        "Knowledge of optical communications concepts.",
+        "Experience with test instrumentation (e.g., Fiber Optic Power Meter, Optical Spectrum Analysis).",
+        "Ability to author and integrate Python code for test equipment remote control.",
+        "Able to coordinate actions in a fast-paced team environment.",
+        "Knowledge of embedded systems software via command line.",
+        "Knowledge of Internet Protocol.",
+        "Programming experience with Python for scripting.",
+        "Ability to present experimental results in lab reports.",
+        "Able to work for the complete summer break."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "calix",
+    "role": "Software Engineering Intern - Cloud Platform",
+    "link": "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Engineering-Intern---Cloud-Platform_R-11583-1",
+    "location": "Remote - North America",
+    "id": 4178,
+    "jd": null
+  },
+  {
+    "company": "calix",
+    "role": "Software Project Management Intern",
+    "link": "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Project-Management-Intern_R-11503",
+    "location": "Remote - North America",
+    "id": 4177,
+    "jd": null
+  },
+  {
     "company": "On the Go",
     "role": "Software Intern",
     "link": "https://jobs.dayforcehcm.com/en-US/otg/CANDIDATEPORTAL/jobs/39712",
