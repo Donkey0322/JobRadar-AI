@@ -1,1 +1,109 @@
-AI Solutions InternUS-RemoteMarketing – Corporate Marketing /Intern /RemoteSubmit your applicationResume/CV ATTACH RESUME/CVCouldn't auto-read resume.Analyzing resume...Success!File exceeds the maximum upload size of 100MB. Please try a smaller size.Full name✱Email✱Phone Current location No location found. Try entering a different locationLoadingCurrent company LinksLinkedIn URLTwitter URLGitHub URLPortfolio URLOther websiteActian Privacy PolicyI agree to the terms set forth in the Actian Privacy Policy at https://www.actian.com/privacy-policy/YesNoAdditional informationU.S. Equal Employment Opportunity information (Completion is voluntary and will not subject you to adverse treatment)Our company values diversity. To ensure that we comply with reporting requirements and to learn more about how we can increase diversity in our candidate pool, we invite you to voluntarily provide demographic information in a confidential survey at the end of this application. Providing this information is optional. It will not be accessible or used in the hiring process, and has no effect on your opportunity for employment.GenderSelect ...MaleFemaleDecline to self-identifyRaceSelect ...Hispanic or LatinoWhite (Not Hispanic or Latino)Black or African American (Not Hispanic or Latino)Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)Asian (Not Hispanic or Latino)American Indian or Alaska Native (Not Hispanic or Latino)Two or More Races (Not Hispanic or Latino)Decline to self-identifyHispanic or LatinoA person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race.White (Not Hispanic or Latino)A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.Black or African American (Not Hispanic or Latino)A person having origins in any of the black racial groups of Africa.Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands.Asian (Not Hispanic or Latino)A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.American Indian or Alaska Native (Not Hispanic or Latino)A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.Two or More Races (Not Hispanic or Latino)All persons who identify with more than one of the above five races.Veteran statusSelect ...I am a veteranI am not a veteranDecline to self-identifyYes, Actian Corporation can contact me about future job opportunities for up to 1 yearPrivacy policySubmit applicationWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.Jobs powered by var gaCode = "";var gaAllowLinker = false;if (gaCode.startsWith('UA')) {window.initializeGoogleAnalytics = function() {(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', gaCode, {name: "customer",allowLinker: gaAllowLinker,});ga('customer.set', 'anonymizeIp', true);ga('customer.send', 'pageview');}} else {window.initializeGoogleAnalytics = function() {window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', gaCode);if (gaAllowLinker) {gtag('set', 'linker', 'lever.co');}}}/*We only want to not initialize Google Analytics and Segment on load if the following is true:- `gdpr` is enabled for the account- the account has the `cookieBanner` enabled- the account has the `optIn` cookieBanner typeThis is the only case where an applicant has to explicitly opt-in to the cookie consent before we can load GA/Segment*/(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e863a7e98731251',t:'MTc3NTUzNTUwOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA"
+}
+},
+"hiringOrganization" : {
+"name" : "C01 Carrier Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern - Summer",
+"@type" : "PropertyValue",
+"value" : "30203896"
+},
+"datePosted" : "2026-04-13",
+"validThrough" : "2026-05-08",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern - Summer",
+"description" : "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating solutions that matter for people and our planet for generations to come. From the beginning, we've led in inventing new technologies and entirely new industries. Today, we continue to lead because we have a world-class, diverse workforce that puts the customer at the center of everything we do. For more information, visit corporate.carrier.com or follow Carrier on social media at @Carrier. About this Role Carrier is seeking a motivated, results-oriented college student to join the Commercial Airside (AHU) New Product Development team as an intern for 2026. The Carrier internship experience offers interns an environment that provides practical, challenging, and meaningful on-the-job work experience and the opportunity to apply knowledge and demonstrate strengths to assist Carrier in achieving its business strategy. The successful candidate will work on programming and optimizing of selection software and other software tools for new products and options to support the growth of the Commercial Airside business. General Responsibilities Apply software engineering principles to code parametric engineering designs Analyze existing code to catch up on current software and systems Documentation and maintenance of code over time Utilize Agile methodologies for product development Participate in continuous improvement activities including standard work, Kaizen and VSM events Key Responsibilities Understand pre-existing Java code behind the current, highly configurable product offering to assist in code optimization efforts Work with others on the engineering and software teams on the backend for the next generation cloud based front end for selection software Develop test cases to validate Product Design and Software Assist the maintenance and optimization of hardware infrastructure to support software optimization. Attend company functions, lunch and learns, and networking events Shadow multiple office positions and train in a variety of tasks Basic Qualifications Must be currently pursuing a Bachelor's or Master's degree program, majoring in Computer Science, Software Engineering or any Engineering field. Must have an overall GPA of 3.0 or higher. Must be eligible to work in the US without sponsorship. Preferred Qualifications Proficiency in Java, XML Database. Proficiency in VBA, xQuery, JavaScript, RegEx, grep, awk, sed, SQL, DROOLS, Cloud computing, Agile mindset, Scrum experience. Knowledge of PTC’s Pro/Engineer (Creo) and WindChill applications. Proficiency in Microsoft Office applications. Strong organizational, analytical, and problem-solving skills. Self-driven and proactive. Ability to manage multiple tasks and priorities. Ability to communicate effectively at all levels. Team player and willing to collaborate with others on projects. Sheet metal, mechanical and electrical design experience. HVAC engineering/design/manufacturing experience. Highly organized with strong attention to detail, while managing multiple priorities. Pay Range The annual salary for this position is $ 36,750–$127,500. Applications will be accepted for at least 3 days from Job Posting Date. Job Posting Date: 04/13/2026 Carrier is An Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age or any other federally protected class. Job Applicant's Privacy Notice: Click on this link to read the Job Applicant's Privacy Notice At Carrier we make modern life possible by delivering groundbreaking systems and services that help homes, buildings and shipping become safer, smarter and more sustainable. We exceed the expectations of our customers by anticipating industry trends, working tirelessly to master and revolutionize them. Our team of approximately 56,000 dedicated individuals continues to mold industry standards by pursuing the latest research and developments to improve the lives of our customers. We’re constantly growing, seeking out talented, likeminded people who are committed to our primary duty: to be the world’s first choice in security, shipping and HVAC technology.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA"
+}
+},
+"hiringOrganization" : {
+"name" : "C01 Carrier Corporation",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Intern - Summer",
+"@type" : "PropertyValue",
+"value" : "30203896"
+},
+"datePosted" : "2026-04-13",
+"validThrough" : "2026-05-08",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Intern - Summer",
+"description" : "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating solutions that matter for people and our planet for generations to come. From the beginning, we've led in inventing new technologies and entirely new industries. Today, we continue to lead because we have a world-class, diverse workforce that puts the customer at the center of everything we do. For more information, visit corporate.carrier.com or follow Carrier on social media at @Carrier. About this Role Carrier is seeking a motivated, results-oriented college student to join the Commercial Airside (AHU) New Product Development team as an intern for 2026. The Carrier internship experience offers interns an environment that provides practical, challenging, and meaningful on-the-job work experience and the opportunity to apply knowledge and demonstrate strengths to assist Carrier in achieving its business strategy. The successful candidate will work on programming and optimizing of selection software and other software tools for new products and options to support the growth of the Commercial Airside business. General Responsibilities Apply software engineering principles to code parametric engineering designs Analyze existing code to catch up on current software and systems Documentation and maintenance of code over time Utilize Agile methodologies for product development Participate in continuous improvement activities including standard work, Kaizen and VSM events Key Responsibilities Understand pre-existing Java code behind the current, highly configurable product offering to assist in code optimization efforts Work with others on the engineering and software teams on the backend for the next generation cloud based front end for selection software Develop test cases to validate Product Design and Software Assist the maintenance and optimization of hardware infrastructure to support software optimization. Attend company functions, lunch and learns, and networking events Shadow multiple office positions and train in a variety of tasks Basic Qualifications Must be currently pursuing a Bachelor's or Master's degree program, majoring in Computer Science, Software Engineering or any Engineering field. Must have an overall GPA of 3.0 or higher. Must be eligible to work in the US without sponsorship. Preferred Qualifications Proficiency in Java, XML Database. Proficiency in VBA, xQuery, JavaScript, RegEx, grep, awk, sed, SQL, DROOLS, Cloud computing, Agile mindset, Scrum experience. Knowledge of PTC’s Pro/Engineer (Creo) and WindChill applications. Proficiency in Microsoft Office applications. Strong organizational, analytical, and problem-solving skills. Self-driven and proactive. Ability to manage multiple tasks and priorities. Ability to communicate effectively at all levels. Team player and willing to collaborate with others on projects. Sheet metal, mechanical and electrical design experience. HVAC engineering/design/manufacturing experience. Highly organized with strong attention to detail, while managing multiple priorities. Pay Range The annual salary for this position is $ 36,750–$127,500. Applications will be accepted for at least 3 days from Job Posting Date. Job Posting Date: 04/13/2026 Carrier is An Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age or any other federally protected class. Job Applicant's Privacy Notice: Click on this link to read the Job Applicant's Privacy Notice At Carrier we make modern life possible by delivering groundbreaking systems and services that help homes, buildings and shipping become safer, smarter and more sustainable. We exceed the expectations of our customers by anticipating industry trends, working tirelessly to master and revolutionize them. Our team of approximately 56,000 dedicated individuals continues to mold industry standards by pursuing the latest research and developments to improve the lives of our customers. We’re constantly growing, seeking out talented, likeminded people who are committed to our primary duty: to be the world’s first choice in security, shipping and HVAC technology.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "carrier",
+siteId: "jobs",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["id-ID","ms-MY","cs-CZ","da-DK","de-DE","de-CH","en-US","es","fr-CA","fr-FR","hr-HR","it-IT","hu-HU","nl-NL","no-NO","pl-PL","pt-BR","ro-RO","sk-SK","sl-SI","fi-FI","sv-SE","vi-VN","tr-TR","el-GR","sr-RS","bg-BG","ru-RU","uk-UA","he-IL","ar","th-TH","ja-JP","zh-CN","zh-TW","ko-KR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=carrier&s=jobs",
+token: "b96c06b3-ec96-41a9-9ddf-11bcb8e6732c",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"progressBar":{"color":"#152C73"},"button":{"primary":{"color":"#152C73","borderColor":"#152C73","textColor":"#FFFFFF","hover":{"color":"#617080","borderColor":"#617080","textColor":"#FFFFFF"}},"secondary":{"color":"#152C73","borderColor":"#152C73","textColor":"#FFFFFF","hover":{"color":"#617080","borderColor":"#617080","textColor":"#FFFFFF"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true},"banner":{"color":"#1891F6","borderColor":"#1891F6","textColor":"#FFFFFF","image":{"id":"1afd7c2bf42501881f19ed4d67629546","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

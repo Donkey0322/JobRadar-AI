@@ -1,5 +1,66 @@
 [
   {
+    "company": "Zscaler",
+    "role": "Software Engineer Intern, Software Development",
+    "link": "https://job-boards.greenhouse.io/zscaler/jobs/5103680007",
+    "location": "San Jose, California, USA",
+    "id": 4211,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor's or Master's degree in Computer Science, Software Engineering, or Data Engineering.",
+        "Develop software modules using Python, Rust, and Java.",
+        "Strong analytical thinking, problem-solving, and communication skills.",
+        "Motivated self-starter with a passion for innovation and technology.",
+        "Familiarity with cloud service providers like AWS, Azure, or Google Cloud Platform.",
+        "Experience with modern front-end or back-end web frameworks."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "HOWMET ENGINE SYSTEMS",
+    "role": "Intern - Engineering",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117167",
+    "location": "Martinsville, VA, United States",
+    "id": 4210,
+    "jd": null
+  },
+  {
+    "company": "carrier",
+    "role": "Software Engineering Intern - Summer",
+    "link": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Software-Engineering-Intern---Summer_30203896-1",
+    "location": "CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
+    "id": 4209,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, or any Engineering field",
+        "Maintain a GPA of 3.0 or higher",
+        "Proficient in Java, XML Database",
+        "Proficient in VBA, xQuery, JavaScript, RegEx, grep, awk, sed, SQL, DROOLS",
+        "Experienced with Cloud computing, Agile mindset, Scrum",
+        "Knowledgeable of PTC\n\t\t\t\t\t\t\t\t’s Pro/Engineer (Creo) and WindChill applications",
+        "Proficient in Microsoft Office applications",
+        "Strong organizational, analytical, and problem-solving skills",
+        "Self-driven and proactive",
+        "Able to manage multiple tasks and priorities",
+        "Able to communicate effectively at all levels",
+        "A team player, willing to collaborate on projects",
+        "Experienced in sheet metal, mechanical, and electrical design",
+        "Experienced in HVAC engineering, design, or manufacturing",
+        "Highly organized with strong attention to detail"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Stripe",
     "role": "Software Engineer, Intern (Summer)",
     "link": "https://stripe.com/jobs/search?gh_jid=7210115",
