@@ -3,7 +3,7 @@ import type { Job } from "./types";
 import { SOURCES } from "@/constants";
 import parseSource from "@/modules/github-parser";
 import analyzeJD from "@/modules/jd-analyzer";
-import { sendEmail } from "@/modules/job-alert";
+import { sendEmail } from "@/modules/mail-alert";
 import { loadSent } from "@/utils/data";
 import { saveJob, saveSent } from "@/utils/data";
 import { getToday } from "@/utils/string";
