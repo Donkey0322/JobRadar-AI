@@ -1694,6 +1694,7 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/point72/jobs",
     "urls": [
+      "https://boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
       "https://boards.greenhouse.io/point72/jobs/8150574002",
       "https://boards.greenhouse.io/point72/jobs/8465224002",
       "https://boards.greenhouse.io/point72/jobs/8486146002",
@@ -4495,8 +4496,10 @@
     "domain": "https://disney.wd5.myworkdayjobs.com/disneycareerdc",
     "page": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareerdc/jobs",
     "urls": [
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/WDW-Industrial-Engineering-Intern--Summer-2026_WDW-0000303102",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Burbank-CA-USA/Software-Engineering-Intern--Data-Products--Summer-2026_10143613",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Celebration-FL-USA/WDI-Software-Developer-Intern--Summer-2026_10135513-1",
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Art-and-Media-Pipeline--Summer-2026_10146129",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Systems-Reliability-Engineering-Intern--Seattle--Summer-2026_10143606",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Vancouver-BC-Canada/Technical-Assistant-Intern---Summer-2026--Open-to-Canadian-Citizens---PR-only-_10138557"
     ]
@@ -6909,6 +6912,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/astranis/jobs/4601134006",
       "https://job-boards.greenhouse.io/astranis/jobs/4643730006",
       "https://job-boards.greenhouse.io/astranis/jobs/4648080006",
       "https://job-boards.greenhouse.io/astranis/jobs/4667477006"
