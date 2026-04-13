@@ -1,5 +1,124 @@
 [
   {
+    "company": "Tenstorrent University Jobs",
+    "role": "Software Intern - AI Compilers",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4968219007",
+    "location": "Austin, Texas, United States",
+    "id": 4225,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a final year BS/MS or PhD candidate in EE/ECE/CE/CS with a strong GPA.",
+        "Have experience with algorithms, data structures, and software development in C/C++.",
+        "Possess Python expertise.",
+        "Be familiar with machine learning, compilers, parallel programming, or computer architecture.",
+        "Possess strong problem-solving and analytical skills."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Software Intern - AI Compilers",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501189007",
+    "location": "Santa Clara, California, United States",
+    "id": 4224,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a final year BS/MS or PhD candidate in EE/ECE/CE/CS with a strong GPA",
+        "Experience with algorithms, data structures, and software development in C/C++",
+        "Proficient in Python expertise",
+        "Familiarity with and passion for machine learning, compilers, or parallel programming",
+        "Familiarity with high-performance and massively parallel systems",
+        "Familiarity with processor and computer architecture",
+        "Strong problem solving and analytical skills"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Intern, Physical Design Engineer - Chiplets",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4961094007",
+    "location": "Santa Clara, California, United States",
+    "id": 4223,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Deeply curious about high-performance silicon build and delivery.",
+        "Comfortable handling timing reports, power grids, clock trees, and layout blocks.",
+        "Interested in chiplet impact on physical design, integration, and packaging.",
+        "Enjoys solving problems with design constraints.",
+        "Expertise in physical implementation flow from RTL to silicon.",
+        "Strong collaborator to align physical implementation with architecture.",
+        "Perform feasibility studies of fundamental CPU paths.",
+        "Practical problem-solver improving flow efficiency, automating tasks."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Design Verification Software Intern",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4522665007",
+    "location": "North America",
+    "id": 4222,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a Bachelor's program",
+        "Strong programming skills, C++, Python, SystemVerilog preferred",
+        "Solid experience with the Linux operating system",
+        "Experience with version control, Git preferred",
+        "Interested in CPUs, hardware design, and/or programming",
+        "Willingness to learn and adapt"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Design Verification Engineer, Intern   ",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4873756007",
+    "location": "Boston, Massachusetts, United States",
+    "id": 4221,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S., M.S., or PhD in Electrical Engineering, Computer Engineering, or Computer Science.",
+        "Strong understanding of digital logic design and computer architecture.",
+        "Familiar with HDLs such as Verilog/SystemVerilog.",
+        "Comfortable working in Linux-based development environments.",
+        "Proficient in scripting languages like Python, Shell, or Perl.",
+        "Detail-oriented problem solver.",
+        "Collaborative team member with clear communication skills.",
+        "Develop and maintain SystemVerilog/UVM testbenches.",
+        "Write and refine verification test plans.",
+        "Develop constrained-random and directed tests.",
+        "Analyze functional and code coverage results.",
+        "Contribute to automation and infrastructure.",
+        "Partner with cross-functional teams."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Stripe",
     "role": "Software Engineer, Intern",
     "link": "https://stripe.com/jobs/search?gh_jid=7206494",
