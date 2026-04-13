@@ -1,119 +1,16 @@
-{
-"jobLocation" : {
-"@type" : "Place",
-"address" : {
-"@type" : "PostalAddress",
-"addressCountry" : "United States of America",
-"addressLocality" : "600 DANBURY CT"
-}
-},
-"applicantLocationRequirements" : {
-"@type" : "Country",
-"name" : "United States of America"
-},
-"jobLocationType" : "TELECOMMUTE",
-"hiringOrganization" : {
-"name" : "02 CACI, INC.-FEDERAL",
-"@type" : "Organization",
-"sameAs" : ""
-},
-"identifier" : {
-"name" : "Computer Science Co-op/Intern - Fall 2026",
-"@type" : "PropertyValue",
-"value" : "324263"
-},
-"datePosted" : "2026-04-06",
-"validThrough" : "2026-04-17",
-"employmentType" : "PART_TIME",
-"title" : "Computer Science Co-op/Intern - Fall 2026",
-"description" : "Job Title: Computer Science Co-op/Intern - Fall 2026 Job Category: Intern/Co-op Time Type: Part time Minimum Clearance Required to Start: None Employee Type: Part-Time On-Call Percentage of Travel Required: None Type of Travel: None * * * The Opportunity: Our Student Program provides amazing opportunities to develop functional job skills and gain real-world experience and expertise. We offer spring, fall and year-round internships and co-ops in fields across the company, including engineering, finance, and business development. As a Computer Science Co-op, you will provide prototyping, coding, testing, scripting and document generation in support of software development activities. You will perform data analysis using proprietary software systems in support of on-going contracts and develop automation software for program-specific data flows on those contracts. You will also develop breadboard implementations of algorithms in MatLab or Mathematica environments based upon mathematical descriptions of algorithm approaches in order to come up with creative solutions to problems. You will benefit from working side by side with a talented and experienced group of professionals eager to mentor. Responsibilities: Algorithm prototyping Code development in C++, C# and/or Python Software test development Requirements, test plan, and release documentation generation and updates Data processing Qualifications: Required: Development of moderate-sized desktop applications in a Windows environment using a C-based language (C++, C#, Java, Python) MatLab, Mathematica, Python or equivalent mathematical modeling tools Current sophomore or above pursuing a bachelor’s degree in computer science, computer engineering, mathematics, physics or related field Strong mathematics background including completion of calculus and linear algebra courses Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future EHS/Environmental Requirements: This job operates in a professional office environment. While performing the duties of this job, the employee routinely is required to use hands to keyboard, communicate, listen to, and interpret instructions and remain stationary for extended periods of the time. This would require the ability to move around the campus and occasionally move/lift items weighing up to 25lbs. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions of the job. - What You Can Expect: A culture of integrity. At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation. An environment of trust. CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality. A focus on continuous growth. Together, we will advance our nation's most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy. Pay Range: There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits. The proposed salary range for this position is: $45,900 - $91,900 CACI is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any other protected characteristic. Click on Search Jobs to find and apply to CACI openings.",
-"@context" : "http://schema.org",
-"@type" : "JobPosting"
-}
-{
-"jobLocation" : {
-"@type" : "Place",
-"address" : {
-"@type" : "PostalAddress",
-"addressCountry" : "United States of America",
-"addressLocality" : "600 DANBURY CT"
-}
-},
-"applicantLocationRequirements" : {
-"@type" : "Country",
-"name" : "United States of America"
-},
-"jobLocationType" : "TELECOMMUTE",
-"hiringOrganization" : {
-"name" : "02 CACI, INC.-FEDERAL",
-"@type" : "Organization",
-"sameAs" : ""
-},
-"identifier" : {
-"name" : "Computer Science Co-op/Intern - Fall 2026",
-"@type" : "PropertyValue",
-"value" : "324263"
-},
-"datePosted" : "2026-04-06",
-"validThrough" : "2026-04-17",
-"employmentType" : "PART_TIME",
-"title" : "Computer Science Co-op/Intern - Fall 2026",
-"description" : "Job Title: Computer Science Co-op/Intern - Fall 2026 Job Category: Intern/Co-op Time Type: Part time Minimum Clearance Required to Start: None Employee Type: Part-Time On-Call Percentage of Travel Required: None Type of Travel: None * * * The Opportunity: Our Student Program provides amazing opportunities to develop functional job skills and gain real-world experience and expertise. We offer spring, fall and year-round internships and co-ops in fields across the company, including engineering, finance, and business development. As a Computer Science Co-op, you will provide prototyping, coding, testing, scripting and document generation in support of software development activities. You will perform data analysis using proprietary software systems in support of on-going contracts and develop automation software for program-specific data flows on those contracts. You will also develop breadboard implementations of algorithms in MatLab or Mathematica environments based upon mathematical descriptions of algorithm approaches in order to come up with creative solutions to problems. You will benefit from working side by side with a talented and experienced group of professionals eager to mentor. Responsibilities: Algorithm prototyping Code development in C++, C# and/or Python Software test development Requirements, test plan, and release documentation generation and updates Data processing Qualifications: Required: Development of moderate-sized desktop applications in a Windows environment using a C-based language (C++, C#, Java, Python) MatLab, Mathematica, Python or equivalent mathematical modeling tools Current sophomore or above pursuing a bachelor’s degree in computer science, computer engineering, mathematics, physics or related field Strong mathematics background including completion of calculus and linear algebra courses Must be legally authorized to work in the United States without the need for employer sponsorship, now or at any time in the future EHS/Environmental Requirements: This job operates in a professional office environment. While performing the duties of this job, the employee routinely is required to use hands to keyboard, communicate, listen to, and interpret instructions and remain stationary for extended periods of the time. This would require the ability to move around the campus and occasionally move/lift items weighing up to 25lbs. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions of the job. - What You Can Expect: A culture of integrity. At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation. An environment of trust. CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality. A focus on continuous growth. Together, we will advance our nation's most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy. Pay Range: There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits. The proposed salary range for this position is: $45,900 - $91,900 CACI is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any other protected characteristic. Click on Search Jobs to find and apply to CACI openings.",
-"@context" : "http://schema.org",
-"@type" : "JobPosting"
-}
-window.workday = window.workday || {
-tenant: "caci",
-siteId: "external",
-locale: "",
-requestLocale: "en-US",
-supportedLocales:["en-US"],
-clientOrigin: "https://www.myworkday.com",
-language: null,
-cdnEndpoint: "www.myworkdaycdn.com",
-useCdn: true,
-maintenancePageUrl: "https://www.myworkday.com/wday/drs/outage?t=caci&s=external",
-token: "1f640b89-d443-4a83-b83e-70cc65bfe45f",
-environment: "PROD",
-isExternal: true,
-appName: "cxs",
-postingAvailable: true,
-allowedFileTypes: [],
-blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
-toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
-branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#0875E1"},"button":{"primary":{"color":"#0875E1","borderColor":"#0875E1","textColor":"#FFFFFF","hover":{"color":"#005CB9","borderColor":"#005CB9","textColor":"#FFFFFF"}},"secondary":{"color":"#F0F1F2","borderColor":"#CED3D9","textColor":"#333333","hover":{"color":"#CED3D9","borderColor":"#A1AAB3","textColor":"#333333"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true},"banner":{"color":"#FFFFFF","borderColor":"#FFFFFF","textColor":"#494949","image":{"id":"fb07fa6ac28a10019b673f6fb9650001","altText":null}}},"embedded":false},
-geoIpCountryCode: "us" == null ? "": "us",
-};
-function createScriptTag (src) {
-var scriptTag = document.createElement('script');
-scriptTag.src = src;
-scriptTag.setAttribute('defer', 'true');
-scriptTag.setAttribute('crossorigin', 'anonymous');
-return scriptTag;
-}
-var isIE = typeof Symbol === 'undefined';
-var sharedAssetPath = '/wday/asset/uic-shared-vendors';
-var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
-var cdnOrigin = 'https://' + "www.myworkdaycdn.com";
-var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
-var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
-sharedVendorsLoaderScript.onload = function () {
-var jobsScriptSrcFilename = isIE
-? 'cx-jobs-ie.min.js'
-: 'cx-jobs.min.js';
-var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
-var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
-jobsScript.onerror = function () {
-window.workday.useCdn = false;
-var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
-document.head.removeChild(jobsScript);
-document.head.appendChild(jobsScriptFromClientOrigin);
-}
-document.head.appendChild(jobsScript);
-};
-document.head.appendChild(sharedVendorsLoaderScript);
-var uxInsightsAssetPath = '/wday/asset/client-analytics';
-var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
-var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
-var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
-document.head.appendChild(uxInsightsScript);
+Company Description: Work with Us. Change the World.At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations.There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world.We're one global team driven by our common purpose to deliver a better world. Join us.
+Job Description: AECOM is seeking a Mechanical Engineering Intern to be based in Roanoke, VA.This position is expected to begin&nbsp;Summer 2026. The responsibilities of this position include, but are not limited to:* Performs a variety of assignments designed to develop professional work knowledge and abilities, requiring application of standard techniques, procedures and criteria in carrying out tasks.
+* Limited exercise of judgment is required on details of work and in making preliminary selections and adaptations of science alternatives.
+* Learn the preparation of architectural/engineering drawings related to Mechanical (HVAC/Plumbing) engineering systems for commercial and governmental facilities.
+* Help to deliver complete, accurate, and coordinated project design assignments within time and budget parameters while satisfying client contractual obligations.
+* Perform field investigations for incorporation of existing conditions into construction documents.
+* Perform construction administration duties, such as shop drawing review.
+* Work within a project team environment.
+Qualifications: Minimum Requirements: * Candidates must be pursuing a Bachelor’s degree in Mechanical Engineering or related field and must have completed at least 1 year of study. Candidates who have recently graduated with a Bachelor’s degree and plan to continue with the Master’s degree are eligible to apply for these positions. &nbsp;Recent graduates must have been enrolled in their bachelor’s degree in the most previous school term with an interest in pursuing an advanced degree in the same or similar discipline at the conclusion of the internship.
+Preferred Qualifications: * Strong written and verbal communication skills.
+* Proficient with Microsoft Office Word, Excel, and PowerPoint.
+* Previous internship experience is a plus.
+* Experience with Revit is a plus.
+Additional Information: * Relocation assistance is not available for this position.
+* Sponsorship for US employment authorization is not available now or in the future for this position.
+About AECOM&nbsp;AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&amp;D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options,&nbsp;well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan.&nbsp;AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com.&nbsp;What makes AECOM a great place to work&nbsp;You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity.&nbsp;As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.&nbsp;

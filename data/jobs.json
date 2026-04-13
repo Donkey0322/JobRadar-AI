@@ -1,5 +1,145 @@
 [
   {
+    "company": "Stripe",
+    "role": "Software Engineer, Intern (Summer)",
+    "link": "https://stripe.com/jobs/search?gh_jid=7210115",
+    "location": "San Francisco, Seattle, New York City",
+    "id": 4208,
+    "jd": null
+  },
+  {
+    "company": "Stripe",
+    "role": "PhD Machine Learning Engineer, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7216664",
+    "location": "San Francisco, New York City, Seattle",
+    "id": 4207,
+    "jd": null
+  },
+  {
+    "company": "Bosch Group",
+    "role": "2026 Summer Materials Engineering Co-Op",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000120503077",
+    "location": "Charleston, SC, United States",
+    "id": 4206,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a 4-year engineering program with a concentration in materials or mechanical engineering",
+        "Sophomore (2nd year) or higher standing preferred",
+        "Possess basic materials and materials testing coursework",
+        "Experience writing technical reports and conducting detailed data analysis",
+        "Self-driven and motivated to complete tasks",
+        "Enjoy challenges both inside and outside chosen engineering discipline",
+        "Proficient in MS Excel (VBA), PowerPoint, Power BI, and Python",
+        "Possess excellent writing and communication skills",
+        "Accomplished and proficient in creating and delivering clear, concise presentations"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "AECOM",
+    "role": "Mechanical Engineering Intern",
+    "link": "https://jobs.smartrecruiters.com/AECOM2/744000120500038",
+    "location": "Roanoke, VA, United States",
+    "id": 4205,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Mechanical Engineering or related field, with at least 1 year of study completed",
+        "Recently graduate with a Bachelor's degree, planning to pursue an advanced degree",
+        "Strong written and verbal communication skills",
+        "Proficient with Microsoft Office Word, Excel, and PowerPoint",
+        "Previous internship experience",
+        "Experience with Revit"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Rocket Lawyer",
+    "role": "Web Publishing Intern",
+    "link": "https://job-boards.greenhouse.io/rocketlawyer/jobs/5178003008",
+    "location": "Arizona ; California; Colorado ; North Carolina ; Utah ",
+    "id": 4204,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Ability to read, write, and speak American English",
+        "Pursuing or recently completed a degree in Marketing, Communications, Digital Media, Information Systems, or related field",
+        "Strong attention to detail and organizational skills",
+        "Interest in web publishing, digital operations, or CMS platforms",
+        "Clear written communication skills",
+        "Ability to manage multiple tasks in a structured environment",
+        "Experience working with a CMS",
+        "Basic familiarity with HTML/CSS",
+        "Experience using project management tools",
+        "Interest in legal tech, SaaS, or product operations"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Electrical Engineering Intern (Summer 2026)(Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical-Engineering-Intern--Summer-2026--Onsite-_01837215",
+    "location": "US-IN-FT WAYNE-150A ~ 1010 Production Rd ~ BLDG 150A",
+    "id": 4203,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Have a High School Diploma or equivalent",
+        "Pursue a Bachelor's or advanced degree in an applicable discipline",
+        "Experience with embedded systems, programming, or PCB layout",
+        "Possess previous internship or relevant project experience"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "2026 Intern - Production Test Engineering Intern - Onsite (TX)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-FORT-BLISS-11005-CUST--11005-Fort-Bliss--BLDG-11005-External-Site/XMLNAME-2026-Intern---Production-Test-Engineering-Intern---Onsite--TX-_01837277",
+    "location": "US-TX-FORT BLISS-11005-CUST ~ 11005 Fort Bliss ~ BLDG 11005 (External Site)",
+    "id": 4202,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Advanced degree in STEM",
+        "Have a minimum of 30 hours by the start of Summer 2026",
+        "Experience with Microsoft Office tools (Excel, PPT, Project, or Word)",
+        "Experience/education with data analysis",
+        "U.S. citizenship is required",
+        "Preferred majors in Electrical Engineering, Computer Engineering, or Software Engineering",
+        "Desired 3.0 cumulative GPA",
+        "Experience with hands-on hardware integration and troubleshooting",
+        "Experience with technical writing",
+        "Excellent interpersonal skills",
+        "Excellent written and verbal communication skills",
+        "Ability to multi-task in a fast-paced environment",
+        "Ability to develop sustaining solutions to routine technical problems",
+        "Experience/education with interpretation of technical documentation",
+        "Experience/education with project execution"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "JB&B",
     "role": "Software Engineering Intern",
     "link": "https://jbb.applytojob.com/apply/SCtkdVCvur/Software-Engineering-Intern",

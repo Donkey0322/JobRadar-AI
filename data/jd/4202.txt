@@ -1,63 +1,109 @@
-Title: Rackner AI Innovation Fellowship (Startup Accelerator Internship)
-Location: College Park (Hybrid – ~50% Minimum In-Person)
-Who We Are
-Rackner is a cloud-native software consultancy delivering innovative solutions for startups, enterprises, and the public sector. We are a fast-growing, mission-driven organization focused on solving complex challenges through cutting-edge technologies.
-Our expertise spans end-to-end application development, DevSecOps, AI/ML, and systems architecture, with a strong emphasis on cloud-first and cost-effective innovation. We partner with organizations ranging from early-stage startups to large federal agencies, enabling digital transformation and delivering high-impact, scalable solutions.
-Position Overview
-The Rackner AI Innovation Fellowship is a hands-on research and development program designed to explore and build next-generation solutions using artificial intelligence, cloud computing, and emerging technologies.
-This fellowship offers a unique opportunity for students and early-career technologists to work in a startup-like environment while gaining real-world experience developing impactful solutions aligned with Rackner’s mission.
-The program runs year-round, with:
-Part-time participation during the academic year
-Full-time engagement during the summer
-Fellows will work in collaborative teams (ideally groups of 2–3 participants) to take ideas from concept to prototype, focusing on real-world applications, scalability, and measurable impact. Teams that already have strong working relationships are encouraged to apply together.
-Each team will receive funding for cloud infrastructure and AI tools to support development. At the conclusion of the program, teams will present their solutions, findings, and working prototypes to Rackner leadership.
-Key Responsibilities
-Collaborate in small teams to design, develop, and prototype innovative AI/ML and cloud-based solutions
-Conduct research on emerging technologies, including LLMs, cloud platforms, and cybersecurity frameworks
-Build and deploy applications using modern cloud platforms (AWS, Azure, or GCP)
-Develop proof-of-concept solutions with measurable impact
-Apply software engineering best practices (version control, testing, documentation)
-Analyze technical feasibility and potential business value of solutions
-Present findings, demos, and final prototypes to leadership
-Manage project timelines and contribute to team-based innovation
-Focus Areas
-Large Language Models (LLMs) and AI-enabled applications
-Cloud-native development and distributed systems
-Cybersecurity and secure system design
-B2B platforms and enterprise solutions
-Government and public sector technology
-Qualifications (Required)
-Must reside in a HUBZone(Verify eligibility: https://maps.certify.sba.gov/hubzone/map)
-Ability to participate in a hybrid model (~50% in-person in College Park)
-Currently enrolled student or recent graduate in a relevant field
-Preferred Qualifications
-Background in Computer Science, Software Engineering, Data Science, or Business
-Strong preference for candidates with software development experience
-Experience with programming languages such as Python, JavaScript, or Java
-Familiarity with AI/ML tools (TensorFlow, PyTorch, HuggingFace)
-Knowledge of cloud platforms (AWS, Azure, GCP)
-Understanding of APIs, microservices, or distributed systems
-Candidate Profile (What We’re Looking For)
-HUBZone candidates strongly encouraged to apply(Goal: Build a cohort of at least 9 HUBZone participants, including current interns)
-Team-oriented applicants
-Preference for candidates applying in teams of 2–3
-Teams with prior working relationships or strong collaboration experience are highly encouraged
-Balanced technical + business mindset
-Ideal team composition: 2 technical (software-focused) + 1 business-oriented member
-Candidates with business, product, or entrepreneurial experience are a plus
-High energy and motivation
-Demonstrated strong work ethic
-Passion for innovation, problem-solving, and building new solutions
-Ability to thrive in fast-paced, ambiguous, startup-like environments
-Startup Accelerator Opportunity
-Participants will have the opportunity to convert their project into a startup by buying back their intellectual property (IP) in exchange for equity, creating a direct pathway from fellowship to entrepreneurship.
-Additional Benefits
-Industry-leading weekly pay schedule
-Hybrid work environment with strong in-person collaboration
-Access to cutting-edge AI tools and cloud resources
-Professional development and certification support
-Opportunity to build real-world portfolio projects
-Exposure to startup and enterprise innovation
-Home office support
-Why Join Rackner?
-This fellowship is more than an internship, it’s an opportunity to innovate, build, and potentially launch your own venture while working on impactful technologies that support both commercial and federal missions.
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US-TX-FORT BLISS-11005-CUST ~ 11005 Fort Bliss ~ BLDG 11005 (External Site)"
+}
+},
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Intern - Production Test Engineering Intern - Onsite (TX)",
+"@type" : "PropertyValue",
+"value" : "01837277"
+},
+"datePosted" : "2026-04-13",
+"validThrough" : "2026-04-17",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Intern - Production Test Engineering Intern - Onsite (TX)",
+"description" : "Date Posted: 2026-04-13 Country: United States of America Location: US-TX-FORT BLISS-11005-CUST ~ 11005 Fort Bliss ~ BLDG 11005 (External Site) Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. Raytheon brings the strength of more than 100 years of experience and renowned engineering expertise to meet the needs of today’s mission and stay ahead of tomorrow’s threat. We deliver solutions that help our nation and allies defend freedoms and deter aggression, creating a safer, more secure world. Join us and help shape the future of aerospace and defense. Production Test Engineers (PTE) are part of a manufacturing team who support the test process through one or more phases of the product life cycle, including product development, transition to production, sustained production and depot activities. PTEs validates and ensures compliance of the prime hardware to technical data package requirements and supporting test equipment. Interns will support the troubleshooting and problem solving of test failures while identifying opportunities in test processes to improve efficiency, yields, and capacity. This position is onsite at our Ft. Bliss (El Paso, TX) facility. What You Will Do: Support the validation of new or modified test equipment for production use Ensure the operation of test equipment and associated work instructions are accurate Ensure test equipment and software meet the test requirements specified for the product Monitor and improve the test process through analysis of predictive metrics of trends, failure modes, and test yields Perform preliminary investigation of problem resolution Maintain changes to the test equipment technical data package which includes drawings, test instructions, test position manuals, and system software Assist in non-routine fault isolation, diagnosis and repair of the product or test equipment Lead root cause and corrective action investigations and present findings Qualifications You Must Have: Must be pursuing a Bachelor’s or Advanced degree in Science, Technology, Engineering, or Mathematics (STEM) Must have a minimum of 30 hours by the start of Summer 2026 Experience with Microsoft Office tools (Excel, PPT, Project, or Word) Experience/education with data analysis U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. *Experience may be obtained through on‑the‑job experience, research, coursework, or projects. Qualifications We Prefer: Preferred majors in Electrical Engineering, Computer Engineering, or Software Engineering 3.0 cumulative GPA desired Experience with hands-on hardware integration and troubleshooting Experience with technical writing Excellent interpersonal skills Excellent written and verbal communication skills Ability to multi task in a fast paced environment Ability to develop sustaining solutions to routine technical problems Experience/education with interpretation of technical documentation Experience/education with project execution Experience/education with data analysis What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Learn More &amp; Apply Now! Location: Fort Bliss facility in El Paso, TX Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. Relocation assistance is NOT available for this role Please upload a copy of your most recent transcripts with your resume when applying to this requisition. Include your cumulative GPA and projected graduation date on your resume. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate’s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company’s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms RTX is an aerospace and defense company that provides advanced systems and services for commercial, military and government customers worldwide. It comprises three industry-leading businesses – Collins Aerospace, Pratt &amp; Whitney, and Raytheon. Its 195,000 employees enable the company to operate at the edge of known science as they imagine and deliver solutions that push the boundaries in quantum physics, electric propulsion, directed energy, hypersonics, avionics and cybersecurity. The company, formed in 2020 through the combination of Raytheon Company and the United Technologies Corporation aerospace businesses, is headquartered in Arlington, Virginia.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "US-TX-FORT BLISS-11005-CUST ~ 11005 Fort Bliss ~ BLDG 11005 (External Site)"
+}
+},
+"hiringOrganization" : {
+"name" : "",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "2026 Intern - Production Test Engineering Intern - Onsite (TX)",
+"@type" : "PropertyValue",
+"value" : "01837277"
+},
+"datePosted" : "2026-04-13",
+"validThrough" : "2026-04-17",
+"employmentType" : "FULL_TIME",
+"title" : "2026 Intern - Production Test Engineering Intern - Onsite (TX)",
+"description" : "Date Posted: 2026-04-13 Country: United States of America Location: US-TX-FORT BLISS-11005-CUST ~ 11005 Fort Bliss ~ BLDG 11005 (External Site) Position Role Type: Onsite U.S. Citizen, U.S. Person, or Immigration Status Requirements: U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. Security Clearance Type: None/Not Required Security Clearance Status: Not Required Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. Raytheon brings the strength of more than 100 years of experience and renowned engineering expertise to meet the needs of today’s mission and stay ahead of tomorrow’s threat. We deliver solutions that help our nation and allies defend freedoms and deter aggression, creating a safer, more secure world. Join us and help shape the future of aerospace and defense. Production Test Engineers (PTE) are part of a manufacturing team who support the test process through one or more phases of the product life cycle, including product development, transition to production, sustained production and depot activities. PTEs validates and ensures compliance of the prime hardware to technical data package requirements and supporting test equipment. Interns will support the troubleshooting and problem solving of test failures while identifying opportunities in test processes to improve efficiency, yields, and capacity. This position is onsite at our Ft. Bliss (El Paso, TX) facility. What You Will Do: Support the validation of new or modified test equipment for production use Ensure the operation of test equipment and associated work instructions are accurate Ensure test equipment and software meet the test requirements specified for the product Monitor and improve the test process through analysis of predictive metrics of trends, failure modes, and test yields Perform preliminary investigation of problem resolution Maintain changes to the test equipment technical data package which includes drawings, test instructions, test position manuals, and system software Assist in non-routine fault isolation, diagnosis and repair of the product or test equipment Lead root cause and corrective action investigations and present findings Qualifications You Must Have: Must be pursuing a Bachelor’s or Advanced degree in Science, Technology, Engineering, or Mathematics (STEM) Must have a minimum of 30 hours by the start of Summer 2026 Experience with Microsoft Office tools (Excel, PPT, Project, or Word) Experience/education with data analysis U.S. citizenship is required, as only U.S. citizens are authorized to access information under this program/contract. *Experience may be obtained through on‑the‑job experience, research, coursework, or projects. Qualifications We Prefer: Preferred majors in Electrical Engineering, Computer Engineering, or Software Engineering 3.0 cumulative GPA desired Experience with hands-on hardware integration and troubleshooting Experience with technical writing Excellent interpersonal skills Excellent written and verbal communication skills Ability to multi task in a fast paced environment Ability to develop sustaining solutions to routine technical problems Experience/education with interpretation of technical documentation Experience/education with project execution Experience/education with data analysis What We Offer Our values drive our actions, behaviors, and performance with a vision for a safer, more connected world. At RTX we value: Trust, Respect, Accountability, Collaboration, and Innovation. Learn More &amp; Apply Now! Location: Fort Bliss facility in El Paso, TX Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. Relocation assistance is NOT available for this role Please upload a copy of your most recent transcripts with your resume when applying to this requisition. Include your cumulative GPA and projected graduation date on your resume. As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote. The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate’s work experience, location, education/training, and key skills. Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement. Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company’s performance. This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply. RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window. RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act. Privacy Policy and Terms: Click on this link to read the Policy and Terms RTX is an aerospace and defense company that provides advanced systems and services for commercial, military and government customers worldwide. It comprises three industry-leading businesses – Collins Aerospace, Pratt &amp; Whitney, and Raytheon. Its 195,000 employees enable the company to operate at the edge of known science as they imagine and deliver solutions that push the boundaries in quantum physics, electric propulsion, directed energy, hypersonics, avionics and cybersecurity. The company, formed in 2020 through the combination of Raytheon Company and the United Technologies Corporation aerospace businesses, is headquartered in Arlington, Virginia.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "globalhr",
+siteId: "rec_rtx_ext_gateway",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","en-CA","en-GB","es","fr-CA","fr-FR","pl-PL","zh-CN"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=globalhr&s=rec_rtx_ext_gateway",
+token: "dc858253-2e55-4758-940d-a2ff741b26da",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#DF5858","textColor":"#CE1127"},"progressBar":{"color":"#CE1127"},"button":{"primary":{"color":"#CE1127","borderColor":"#CE1127","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#CE1127","textColor":"#CE1127"}},"secondary":{"color":"#EAE8E8","borderColor":"#EAE8E8","textColor":"#000000","hover":{"color":"#000000","borderColor":"#000000","textColor":"#EAE8E8"}},"shape":"PILL"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"6e7cf98541af100867a09670ff740000","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#CE1127","textColor":"#000000","image":{"id":"8f2e1703a2c61008678579ec94750002","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
