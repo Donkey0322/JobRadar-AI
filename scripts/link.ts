@@ -1,4 +1,3 @@
-#!/usr/bin/env tsx
 import "dotenv/config";
 
 import { analyzeLink } from "../src/modules/jd-analyzer";

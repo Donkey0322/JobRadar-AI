@@ -2,6 +2,8 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { SMART_RECRUITERS_API_URL } from "@/constants/ats";
+
 interface SmartRecruitersJob {
   id: string;
   name: string;
@@ -23,7 +25,7 @@ export function urlToSmartRecruitersCompany(url: URL): Company {
     ats: "smartrecruiters",
     identifier,
     domain: url.origin,
-    page: `https://api.smartrecruiters.com/v1/companies/${identifier}/postings`,
+    page: `${SMART_RECRUITERS_API_URL}/${identifier}/postings`,
     urls: [],
   };
 }

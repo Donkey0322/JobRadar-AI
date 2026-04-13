@@ -1,4 +1,3 @@
-#!/usr/bin/env npx tsx
 import type { ATS } from "../type";
 
 export * from "./greenhouse";

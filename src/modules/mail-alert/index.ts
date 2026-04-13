@@ -23,7 +23,7 @@ function locationIcon(location: Location) {
     case "UK":
       return "🇬🇧";
     default:
-      return "";
+      return "🌎";
   }
 }
 

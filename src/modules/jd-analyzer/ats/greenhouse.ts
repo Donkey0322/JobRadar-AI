@@ -1,3 +1,5 @@
+import { GREENHOUSE_API_URL } from "@/constants/ats";
+
 export function parseGreenhouse(url: string) {
   const u = new URL(url);
 
@@ -24,4 +26,27 @@ export function parseGreenhouse(url: string) {
   }
 
   return null;
+}
+
+export async function fetchGreenhouseJD(url: string) {
+  const parsed = parseGreenhouse(url);
+  if (!parsed) return null;
+
+  const { company, jobId } = parsed;
+
+  const apiUrl = `${GREENHOUSE_API_URL}/${company}/jobs/${jobId}`;
+
+  try {
+    const res = await fetch(apiUrl);
+    if (!res.ok) {
+      console.error(`Failed to fetch greenhouse JD from ${apiUrl}: ${res.statusText}`);
+      return null;
+    }
+
+    const data = await res.json();
+    return JSON.stringify(data);
+  } catch (error) {
+    console.error(`Error fetching greenhouse JD from ${apiUrl}: ${error}`);
+    return null;
+  }
 }
