@@ -1,5 +1,31 @@
 [
   {
+    "company": "BlackSky",
+    "role": "Machine Learning Engineer (MLE) Intern",
+    "link": "https://boards.greenhouse.io/blacksky/jobs/8499022002?gh_jid=8499022002",
+    "location": "Herndon, VA",
+    "id": 1005,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Studying Computer Science, Data Science, Mathematics, or a related technical field.",
+        "Proficient in Python.",
+        "Experienced with PyTorch.",
+        "Strong problem-solving skills.",
+        "Excellent communication skills.",
+        "Able to report to Herndon, VA office at least 2x per week.",
+        "Graduate student (master's or PhD).",
+        "Prior internship experience.",
+        "Familiar with computer vision or geospatial technology.",
+        "Familiar with Agile and Git."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Appian Corporation ",
     "role": "Software Engineering Intern",
     "link": "https://job-boards.greenhouse.io/appian/jobs/7727768",
