@@ -16,6 +16,7 @@ export async function fetchWorkdayJD(url: string) {
     if (!res.ok) return null;
 
     const data = await res.json();
+    if (!data) return null;
     return JSON.stringify(data);
   } catch (error) {
     console.error(`Error fetching workday JD from ${apiUrl}: ${error}`);

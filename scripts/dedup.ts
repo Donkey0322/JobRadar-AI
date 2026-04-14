@@ -1,11 +1,11 @@
 import { deduplicate } from "../src/modules/job-dedup";
-import { loadSent } from "../src/utils/data";
-import { saveSent } from "../src/utils/data";
+import { loadUrls } from "../src/utils/data";
+import { saveUrls } from "../src/utils/data";
 
 async function main() {
-  const sent = await loadSent();
+  const sent = await loadUrls();
   const deduped = deduplicate(Array.from(sent));
-  await saveSent(new Set(deduped));
+  await saveUrls(new Set(deduped));
 
   console.log("original:", sent.size);
   console.log("unique jobs:", deduped.length);

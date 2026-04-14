@@ -1,10 +1,10 @@
 import "dotenv/config";
 
 import { buildCompanyList } from "../src/modules/company-tacker/company";
-import { loadSent } from "../src/utils/data";
+import { loadUrls } from "../src/utils/data";
 
 async function main() {
-  const urls = await loadSent();
+  const urls = await loadUrls();
   const links = Array.from(urls);
 
   const companies = await buildCompanyList(links);

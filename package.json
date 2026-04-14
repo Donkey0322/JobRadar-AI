@@ -9,7 +9,6 @@
     "analyze": "tsx scripts/link.ts",
     "company": "tsx scripts/company.ts",
     "crawler": "tsx scripts/crawler.ts",
-    "crawler:dev": "tsx scripts/crawler.ts --dev",
     "dedup": "tsx scripts/dedup.ts"
   },
   "devDependencies": {
@@ -26,7 +25,8 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.56.1"
+    "typescript-eslint": "^8.56.1",
+    "inquirer": "^13.4.1"
   },
   "dependencies": {
     "@google/genai": "^1.43.0",
