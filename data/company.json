@@ -1563,7 +1563,8 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/blacksky/jobs",
     "urls": [
-      "https://boards.greenhouse.io/blacksky/jobs/8374456002"
+      "https://boards.greenhouse.io/blacksky/jobs/8374456002",
+      "https://boards.greenhouse.io/blacksky/jobs/8499022002?gh_jid=8499022002"
     ]
   },
   {
