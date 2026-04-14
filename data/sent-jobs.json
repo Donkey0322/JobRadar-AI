@@ -1,5 +1,33 @@
 [
   {
+    "company": "Appian Corporation ",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/appian/jobs/7727768",
+    "location": "McLean, Virginia",
+    "id": 1003,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess previous industry software development experience and a passion for technology",
+        "Drive to dig into the code, pair program, collaborate, and present features",
+        "Have a team-oriented mindset and collaborative approach to solutions",
+        "Familiarity in object-oriented programming languages like Java and C++",
+        "Undergraduate student pursuing a Bachelor's in CS or related field",
+        "Possess strong analytical, communication, and problem-solving skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "gehc",
+    "role": "Engineering Intern",
+    "link": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Phoenix/Engineering-Intern_R4039198-2",
+    "location": "Phoenix"
+  },
+  {
     "company": "Nasuni",
     "role": "Software Engineering Intern - Python",
     "link": "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5142962008",
