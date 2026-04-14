@@ -3,44 +3,22 @@ import * as cheerio from "cheerio";
 import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
 
-import { saveJd } from "../../utils/data";
 import { classifyATS } from "../company-tacker/ats";
 
+import { fetchAshbyJD } from "./ats/ashby";
 import { fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
 
 import analyze from "@/modules/jd-analyzer/ai";
 import { AIResponseSchema } from "@/validation/ai";
 
-async function getJD(url: string): Promise<string> {
+export async function getJD(url: string): Promise<string | null> {
   try {
-    const resp = await fetch(url, {
-      headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
-      signal: AbortSignal.timeout(5000),
-    });
-    if (!resp.ok) {
-      console.error(`Failed to fetch text from ${url}`);
-      return "";
-    }
-    const text = await resp.text();
-    return text;
-  } catch (e) {
-    console.warn(`[warn] Error fetching html from ${url}: ${e}`);
-    return "";
-  }
-}
+    // 1. classify ATS
+    const urlType = classifyATS(new URL(url));
 
-async function visibleTextFromHtml(
-  html: string,
-  urlType: string,
-  url: string
-): Promise<string | null> {
-  if (!html) return null;
-
-  const $ = cheerio.load(html);
-
-  try {
     let text = "";
 
+    // 2. ATS-specific handling
     switch (urlType) {
       case "greenhouse": {
         const jd = await fetchGreenhouseJD(url);
@@ -60,17 +38,43 @@ async function visibleTextFromHtml(
         text = jd;
         break;
       }
+      case "ashby": {
+        const jd = await fetchAshbyJD(url);
+        if (!jd) return null;
+        text = jd;
+        break;
+      }
+
+      // fallback: raw HTML scraping
       default: {
+        const res = await fetch(url, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)",
+          },
+          // signal: AbortSignal.timeout(5000),
+        });
+
+        if (!res.ok) {
+          console.error(`Failed to fetch text from ${url}`);
+          return null;
+        }
+
+        const html = await res.text();
+        const $ = cheerio.load(html);
+
         const script = $('script[type="application/ld+json"]').first();
+
         if (script.length) {
           text = script.text() + "\n" + $.root().text();
         } else {
           text = $("body").text();
         }
+
         break;
       }
     }
 
+    // normalize text
     const lines = text
       .split("\n")
       .map((ln) => ln.replace(/\s+/g, " ").trim())
@@ -78,7 +82,7 @@ async function visibleTextFromHtml(
 
     return lines.length ? lines.join("\n") : null;
   } catch (e) {
-    console.warn(`[warn] Error extracting text: ${e}`);
+    console.warn(`[warn] Error fetching JD from ${url}: ${e}`);
     return null;
   }
 }
@@ -99,20 +103,17 @@ function transform(response: AIResponse): JD {
   };
 }
 
-export default async function analyzeJD(job: Job): Promise<JD | null> {
-  const html = await getJD(job.link);
-  const urlType = classifyATS(new URL(job.link));
-  const jdText = await visibleTextFromHtml(html, urlType, job.link);
+export default async function analyzeJD(job: Job): Promise<{ jd: JD; plainText: string } | null> {
+  const jd = await getJD(job.link);
 
-  if (jdText) {
-    await saveJd(jdText, job);
-    const aiResponse = await analyze(jdText);
+  if (jd) {
+    const aiResponse = await analyze(jd);
     if (aiResponse) {
       try {
         const parsed = JSON.parse(aiResponse);
         const validated = AIResponseSchema.safeParse(parsed);
         if (validated.success) {
-          return transform(validated.data);
+          return { jd: transform(validated.data), plainText: jd };
         } else {
           console.warn(`[${job.company}] Error parsing JSON: ${parsed}, error: ${validated.error}`);
           return null;
@@ -127,13 +128,10 @@ export default async function analyzeJD(job: Job): Promise<JD | null> {
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
-  const html = await getJD(link);
-  const urlType = classifyATS(new URL(link));
-  const jdText = await visibleTextFromHtml(html, urlType, link);
+  const jd = await getJD(link);
 
-  if (jdText) {
-    // await fs.writeFile("jd.txt", html, "utf-8");
-    const aiResponse = await analyze(jdText);
+  if (jd) {
+    const aiResponse = await analyze(jd);
     if (aiResponse) {
       try {
         const parsed = JSON.parse(aiResponse);

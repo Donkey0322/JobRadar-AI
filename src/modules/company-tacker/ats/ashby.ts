@@ -2,7 +2,10 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
-interface AshbyJob {
+import { ASHBY_API_URL } from "@/constants/ats";
+
+export interface AshbyJob {
+  id: string;
   title: string;
   location: string;
   jobUrl: string;
@@ -16,7 +19,7 @@ export function urlToAshbyCompany(url: URL): Company {
     ats: "ashby",
     identifier,
     domain: url.origin,
-    page: `https://api.ashbyhq.com/posting-api/job-board/${identifier}`,
+    page: `${ASHBY_API_URL}/${identifier}`,
     urls: [],
   };
 }

@@ -1,0 +1,235 @@
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWQV4J9X" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Search by Keyword
+Clear
+Language
+Deutsch (Deutschland)
+English (United States)
+Español (México)
+Français (France)
+Magyar (Magyarország)
+Português (Brasil)
+View Profile
+Employee Login
+#content {
+padding-top: 5px;
+}
+Search by Keyword
+Show More Options
+Loading...
+Country/Region
+All
+City
+All
+Job Field I
+All
+Job Field II
+All
+Working Hours
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+MN-80 Quality Software Intern (Fall 2026)
+A good student experience is never hands-off. We are dedicated to fostering a dynamic learning environment where students actively engage in practical experiences throughout their time with us. From the beginning, students are entrusted with specific responsibilities, ensuring they play a significant role in their learning journey. As valued team members, students are also encouraged to share and implement their own ideas, enhancing both their personal growth and the collective success of the team.
+Description:
+Support the daily activities with systems/application for the Supplier Quality group.
+Student will support current systems (development and maintenance), process improvement initiatives, on-going processes, and workflows.
+Further development of reporting tools
+Maintenance of reporting systems
+Data analysis
+Assist department improvement initiatives
+Support department specialists in daily tasks
+Light coding of front ends and back-ends (with direction from the team and leads)
+Steering your collaborative partners
+Developing tools used for reporting (MS Applications, Oracle, APEX, …)
+Plan and implement projects and tasks related to assignment from management.
+Application optimizations
+Advanced SQL Development Training.
+General Project Mgt related to IT development (Scrum vs. Waterfall)
+SAP Training
+Experience from customer requirements to final development
+Knowledge of the manufacturing process for automotive
+Project management
+Working in a complex and diverse environment
+Complex planning and scheduling
+Controls skills and software (Oracle, APEX, SAP, and others)
+Programming (Front request to handover to customer)
+Team management skills and experience
+Communication and presentation aptitude
+Networking – building a professional and multi-cultural network
+Understanding of supplier quality management
+Qualifications:
+Pursuing a degree in Computer Science, Information Systems, Data Analytics
+Base computer language: E.G SQL, JAVA, R, Python, HTML/CSS, …
+Self-driven
+Ability to absorb information quickly
+Possess a minimum cumulative GPA of 3.0 (not just in major)
+Have enrolled student status at an accredited four-year college or university in the United States.
+Completed at least 30 credit hours at time of application.
+Ability to work full-time on-site (40 hours / week).
+Transfer students must have a GPA from current university.
+MUST ATTACH A COPY OF UNOFFICIAL TRANSCRIPT
+Complete and pass a substance abuse test before the work term.
+THE WORK TERM DATES ARE August 10 2026-December 11 2026
+BMW Manufacturing Company is an equal opportunity employer. It is the policy of BMW MC to provide equal employment opportunity (EEO) to all qualified persons regardless of age, race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status.
+Apply now »
+Find similar jobs:
+Legal Disclaimer
+Cookies
+Imprint
+Contact
+Data protection information
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'bmwag',
+"ssoUrl" : 'https://career5.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "0a96259d-f62d-4b25-a8a4-3bbbd6a30726"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1370809433,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"180553-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'ac135831-8e1b-41d5-8060-7f36432d59e0';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1370809433',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'jobs.bmwgroup.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["country","city","customfield1","customfield2","customfield5"],
+showPicklistAllLocales : false
+};
+//]]>

@@ -1,0 +1,332 @@
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+$(document).ready(function() {
+$("#skipLink").click(function (e) {
+e.preventDefault();
+$("#content").focus().css('outline','none');
+var offset = $(':target').offset();
+var fixedHeaderHeight = $("#header").innerHeight();
+var scrollto = offset.top - fixedHeaderHeight;
+$('html, body').animate({scrollTop:scrollto}, 0);
+});
+});
+Skip to main content
+JOB SEARCH
+CAREER CENTER
+FEATURED JOBS
+Business Professional
+Engineering
+Interns
+Nucor Technical Academy
+Production Operation
+Sales Training
+EXPERIENCE
+About Nucor
+Why Nucor
+DISCOVER
+Locations
+Product Groups
+JOIN TALENT NETWORK
+Search by Keyword
+Search by Location
+Search by Postal Code
+Search by Location
+Search by Postal Code
+Distance
+2 mi
+5 mi
+10 mi
+30 mi
+50 mi
+75 mi
+100 mi
+Search by Postal Code
+Search by Location
+Clear
+//<![CDATA[
+var params = {
+geolocation: {
+NO_MATCH_FOUND: 'Postal\x20code\x20not\x20supported.'
+,SUGGESTION_LIMIT: 10
+,SUGGESTION_MINIMUM_CHARACTERS: 2
+,PAGE_LOCALE: 'en_US'
+}
+};
+//]]>
+JOB SEARCH
+CAREER CENTER
+FEATURED JOBS
+Business Professional
+Engineering
+Interns
+Nucor Technical Academy
+Production Operation
+Sales Training
+EXPERIENCE
+About Nucor
+Why Nucor
+DISCOVER
+Locations
+Product Groups
+JOIN TALENT NETWORK
+View Profile
+#content {
+padding-top: 15px;
+}
+//<![CDATA[
+$(document).on('resizeFixedHeader', function () {
+$('#fixedHeaderInlineStyle').remove();
+$("<style type='text/css' id='fixedHeaderInlineStyle'>@media only screen and (min-width: 767px) { body { padding-top: " + $('#header').outerHeight(true) + "px;} }</style>").appendTo("head");
+}).trigger('resizeFixedHeader');
+$(window).on( "ready", function() {
+$(document).trigger('resizeFixedHeader');
+});
+$(window).on( "load", function() {
+$(document).trigger('resizeFixedHeader');
+});
+//]]>
+Search by Keyword
+Search by Location
+Search by Postal Code
+Search by Location
+Search by Postal Code
+Distance
+2 mi
+5 mi
+10 mi
+30 mi
+50 mi
+75 mi
+100 mi
+Search by Postal Code
+Search by Location
+Show More Options
+Loading...
+Division
+All
+Job Category
+All
+Clear
+//<![CDATA[
+var params = {
+geolocation: {
+NO_MATCH_FOUND: 'Postal\x20code\x20not\x20supported.'
+,SUGGESTION_LIMIT: 10
+,SUGGESTION_MINIMUM_CHARACTERS: 2
+,PAGE_LOCALE: 'en_US'
+}
+};
+//]]>
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+UX / UI Designer - Full Stack Intern
+Apply now »
+Date: Mar 31, 2026
+Location:
+Portland, TN, US, 37148
+#job-location.job-location-inline {
+display: inline;
+}
+Company:
+Nucor
+Job Details
+Division: Kirby Building Systems LLC
+Location: Portland, TN, United States
+Other Available Locations: N/A
+Welcome to Nucor, where our unique culture sets us apart. Joining Nucor means becoming part of North America's largest steel and steel products manufacturer, offering unmatched career opportunities and stability. We are known for our innovative sustainability practices and are the continent's largest recycler. Our vibrant culture, built on personal connections and teamwork, empowers every team member with the freedom to innovate and contribute to our collective success. Experience a workplace where safety, efficiency, and meaningful personal connections define every day, enriching both our teammates and the communities we serve.
+We are seeking a UX/UI Designer who owns the user experience end-to-end and has the technical depth to fully implement their designs into working applications for various Innovation Initiatives in the Nucor Building Group’s Innovation team. This is a design-led role with full-stack capability used to accelerate delivery, reduce design-to-build friction on novel and innovative UI elements and interaction designs patterns.
+Basic Job Functions:
+The UX/UI Designer – Full Stack Intern will support the design and implementation of digital experiences from concept through delivery for POCs. While the primary emphasis is on UX and UI design, the intern will also develop complete frontend and backend solutions for POCs (Proof of concept) with mentorship and collaboration from the broader team.
+Key responsibilities include:
+UX and UI design activities:
+User flows, wireframes, prototypes, and UI screens
+Translate designs into functional, responsive user interfaces
+Develop front-end features using modern JavaScript frameworks such as React.
+Build supporting backend services and APIs as needed for the experience
+Work alongside legacy and core development teams to align with existing standards
+Participate in code reviews and design critiques.
+Use AI assisted UX Design and development tools to accelerate learning and delivery
+Minimum Qualifications:
+Currently pursuing or recently completed a degree in Design, Human Computer Interaction (HCI) Computer Science, or related field
+Strong interest in UX/UI design with hands on building
+Working knowledge of: React JS and/or Angular JS, TypeScript, HTML5, CSS3
+Exposure to backend development concepts using: NET (C#, ASP.NET Core Web API) and/or Python
+Entity Framework and SQL (academic or project experience acceptable)
+Familiarity with REST APIs and Gitbased version control
+Willingness to learn, receive feedback, and collaborate across disciplines
+Depth of expertise is not required - curiosity, design sensibility, and the ability to build and learn are most important. Preferred Qualifications:
+UX Design Portfolio or class projects that show: UX/UI design work and something you’ve built
+Experience completing small projects end-to-end (design → working UI)
+Exposure to: TypeScript .NET or Python backend concepts, SQL or basic data modeling
+Interest in using AI-assisted tools (Claude Code, GitHub Copilot) to support learning and productivity
+Interest in enterprise or internal business applications
+About Us:
+Nucor Buildings Group (NBG), a proud Nucor product group, is one of North America’s largest and most experienced manufacturers of metal building systems. With multiple locations throughout the United States, NBG is proud to design world-class building solutions tailored to meet the needs of any market including commercial, industrial, agricultural, and institutional. Our brands include American Buildings, CBC Steel Buildings, Kirby Building Systems, and Nucor Building Systems.
+Why Nucor?
+When you join Nucor, America’s largest steel manufacturer and recycler, you’ll help create a variety of steel products that become so much more, for so many people. And you won’t do it alone. Our supportive culture builds each other up, values family, relationships, and puts safety above anything else. With the freedom to take your ideas to the next level, there’s no end to what you can achieve.
+Nucor is an Equal Opportunity/Affirmative Action Employer – M/F/Disabled/Vets – and a drug – free workplace.
+Nearest Major Market: Nashville
+Apply now »
+Find similar jobs:
+Information_Technology
+Applicants have rights under federal employment laws
+Terms and Conditions
+Privacy Policy
+California Privacy Rights
+Job Applicant Notice
+Accomodation
+Know Your Rights
+Pay Discrimination
+Family and Medical Leave Act
+Employee Polygraph Protection Act
+Copyright © 2020 Nucor Corporation. All rights reserved.
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'nucorcorpo',
+"ssoUrl" : 'https://career4.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "700258f7-6b9b-4084-a2d6-33df3a85a1a0"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1378401000,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"153425-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = '8f022f0c-906b-4f94-a318-cfc7a8d33fdc';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1378401000',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'jobs.nucor.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["facility","department"],
+showPicklistAllLocales : false
+};
+//]]>

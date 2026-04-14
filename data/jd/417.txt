@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "521 NEWPARK BLVD, NEWMARKET, ON L3X 2S2, CANADA"
+}
+},
+"hiringOrganization" : {
+"name" : "Magna Closures Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Co-op",
+"@type" : "PropertyValue",
+"value" : "R00238361"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Co-op",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: The Mechatronics, Mirrors and Lighting group specializes in automotive technologies that are driving the future of mobility. Combining a deep systems knowledge to develop unique vehicle access experiences, intelligent visions systems and advanced automotive lighting technologies, MML's expertise light the path to innovation, safety and styling. Job Responsibilities: Salary Range: $21.00-$25.46/Hour RESPONSIBILITIES: Utilizing Web Development in Vue3.js, React, Python, Azure DevOps, and AI integration to build cutting-edge applications, with integration to mechanical simulation and CAD software Construct Backend Frameworks using Flask and Python with connections to external sources and databases Taking ownership to complete the Frontend development (UI/UX design, implementation) for projects Generally assigned to software processes, automations, internal applications, existing business and/or minor modifications Supports the complete development for the designated products including, but not limited to design, build and test activities, in accordance with standard operating procedures and the product delivery process Build internal analytical and software tools to streamline engineering processes to support large volumes of projects Supports customer requirements, regulations and product specifications into the design of the designated products, ensuring compliance with operational, cost, timing, safety, reliability, quality, and manufacturing feasibility parameters Analyzes products and formulates engineering conclusions by the application of engineering and/or mathematical principles and tools Consults and collaborates with personnel in various engineering and design activities relative to product development requirements Supports global CAE activities as a global team Supports effective communications within the project team and the customer, supplier, manufacturing and quality communities with guidance from engineering management or senior engineering personnel. Maintains all appropriate documentation Understands and follows existing policies, procedures, work instructions and standards and makes recommendations for continuous improvements Follows Magna’s Code of Conduct &amp; Ethics and related compliance policies Perform other duties as required QUALIFICATIONS &amp; SKILLS: Working towards a bachelor’s degree in engineering, Computer Science or related fields from an accredited university Good understanding of Engineering Mechanics and Dynamics is preferred, particularly in the areas of rigid body force analysis and travel calculations Strong communication, organization, and teamwork skills are required Ability to work independently and adapt to fast-paced environments Experience with one of the programming languages is required: Python, MATLAB, C++, VBA Experience in the following skill sets is an asset: Proficient in frontend technologies: HTML5, CSS3, JavaScript ES6+, TypeScript Familiar with frameworks: React.js, Vue.js 3, Angular, Next.js, Nuxt.js, Gatsby, Vite Knowledge of state management: Redux Toolkit, Zustand, Jotai, Pinia, Vuex, NgRx Styling tools: Tailwind CSS, Bootstrap, Styled-components, Emotion Backend experience: FastAPI, Flask, Django, Express.js, NestJS Database skills: SQL Server, Redis, Prisma, TypeORM Exposure to CI/CD tools: Docker, GitHub Actions, GitLab CI AI/ML experience: TensorFlow, PyTorch, scikit-learn, transformers Data tools: pandas, numpy, matplotlib, Power BI, Tableau Familiarity with design tools: Figma, Adobe XD, Storybook Understanding of scalable architecture: Microservices, SOA, Event-driven, Serverless, DDD, API-first, N-tier Security &amp; authentication knowledge: OAuth 2.0 (Authorization Code/PKCE), Microsoft Entra ID SSO, JWT lifecycle management Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Intern (Fixed Term) (Trainee) Group: Magna Mechatronics, Mirrors &amp; Lighting We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "521 NEWPARK BLVD, NEWMARKET, ON L3X 2S2, CANADA"
+}
+},
+"hiringOrganization" : {
+"name" : "Magna Closures Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Co-op",
+"@type" : "PropertyValue",
+"value" : "R00238361"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Co-op",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: The Mechatronics, Mirrors and Lighting group specializes in automotive technologies that are driving the future of mobility. Combining a deep systems knowledge to develop unique vehicle access experiences, intelligent visions systems and advanced automotive lighting technologies, MML's expertise light the path to innovation, safety and styling. Job Responsibilities: Salary Range: $21.00-$25.46/Hour RESPONSIBILITIES: Utilizing Web Development in Vue3.js, React, Python, Azure DevOps, and AI integration to build cutting-edge applications, with integration to mechanical simulation and CAD software Construct Backend Frameworks using Flask and Python with connections to external sources and databases Taking ownership to complete the Frontend development (UI/UX design, implementation) for projects Generally assigned to software processes, automations, internal applications, existing business and/or minor modifications Supports the complete development for the designated products including, but not limited to design, build and test activities, in accordance with standard operating procedures and the product delivery process Build internal analytical and software tools to streamline engineering processes to support large volumes of projects Supports customer requirements, regulations and product specifications into the design of the designated products, ensuring compliance with operational, cost, timing, safety, reliability, quality, and manufacturing feasibility parameters Analyzes products and formulates engineering conclusions by the application of engineering and/or mathematical principles and tools Consults and collaborates with personnel in various engineering and design activities relative to product development requirements Supports global CAE activities as a global team Supports effective communications within the project team and the customer, supplier, manufacturing and quality communities with guidance from engineering management or senior engineering personnel. Maintains all appropriate documentation Understands and follows existing policies, procedures, work instructions and standards and makes recommendations for continuous improvements Follows Magna’s Code of Conduct &amp; Ethics and related compliance policies Perform other duties as required QUALIFICATIONS &amp; SKILLS: Working towards a bachelor’s degree in engineering, Computer Science or related fields from an accredited university Good understanding of Engineering Mechanics and Dynamics is preferred, particularly in the areas of rigid body force analysis and travel calculations Strong communication, organization, and teamwork skills are required Ability to work independently and adapt to fast-paced environments Experience with one of the programming languages is required: Python, MATLAB, C++, VBA Experience in the following skill sets is an asset: Proficient in frontend technologies: HTML5, CSS3, JavaScript ES6+, TypeScript Familiar with frameworks: React.js, Vue.js 3, Angular, Next.js, Nuxt.js, Gatsby, Vite Knowledge of state management: Redux Toolkit, Zustand, Jotai, Pinia, Vuex, NgRx Styling tools: Tailwind CSS, Bootstrap, Styled-components, Emotion Backend experience: FastAPI, Flask, Django, Express.js, NestJS Database skills: SQL Server, Redis, Prisma, TypeORM Exposure to CI/CD tools: Docker, GitHub Actions, GitLab CI AI/ML experience: TensorFlow, PyTorch, scikit-learn, transformers Data tools: pandas, numpy, matplotlib, Power BI, Tableau Familiarity with design tools: Figma, Adobe XD, Storybook Understanding of scalable architecture: Microservices, SOA, Event-driven, Serverless, DDD, API-first, N-tier Security &amp; authentication knowledge: OAuth 2.0 (Authorization Code/PKCE), Microsoft Entra ID SSO, JWT lifecycle management Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Intern (Fixed Term) (Trainee) Group: Magna Mechatronics, Mirrors &amp; Lighting We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "magna",
+siteId: "Magna",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["cs-CZ","de-DE","en-US","es","fr-CA","fr-FR","it-IT","hu-HU","pl-PL","pt-BR","ro-RO","sk-SK","sl-SI","tr-TR","sr-RS","ru-RU","ar","th-TH","ja-JP","zh-CN","ko-KR"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=magna&s=Magna",
+token: "f06894bd-41fd-4854-b3e3-72dd3a99fda6",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#DA291C"},"button":{"primary":{"color":"#DA291C","borderColor":"#DA291C","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"secondary":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"efe4e8b9c65c100197e142b3afc10001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#000000","image":{"id":"efe4e8b9c65c100197e142199ee70000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

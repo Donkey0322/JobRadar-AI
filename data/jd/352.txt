@@ -1,0 +1,174 @@
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+$(document).ready(function() {
+$("#skipLink").click(function (e) {
+e.preventDefault();
+$("#content").focus().css('outline','none');
+var offset = $(':target').offset();
+var fixedHeaderHeight = $("#header").innerHeight();
+var scrollto = offset.top - fixedHeaderHeight;
+$('html, body').animate({scrollTop:scrollto}, 0);
+});
+});
+Skip to main content
+Life at Belden
+Search by Keyword
+Life at Belden
+Language
+English (United States)
+View Profile
+#content {
+padding-top: 5px;
+}
+//<![CDATA[
+$(document).on('resizeFixedHeader', function () {
+$('#fixedHeaderInlineStyle').remove();
+$("<style type='text/css' id='fixedHeaderInlineStyle'>@media only screen and (min-width: 767px) { body { padding-top: " + $('#header').outerHeight(true) + "px;} }</style>").appendTo("head");
+}).trigger('resizeFixedHeader');
+$(window).on( "ready", function() {
+$(document).trigger('resizeFixedHeader');
+});
+$(window).on( "load", function() {
+$(document).trigger('resizeFixedHeader');
+});
+//]]>
+Search by Keyword
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Software Engineering Coop
+Date: Apr 9, 2026
+Company:
+Belden Inc
+Sorry, this position has been filled.
+Life at Belden
+//<![CDATA[
+$(function()
+{
+var ctid = '48407c77-28fa-4998-a72e-545b85af9098';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'beldeninc',
+"ssoUrl" : 'https://career4.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "e67a142c-d4e7-4c4e-9817-e6289cd28305"
+}
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1380965600',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.belden.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>

@@ -1,0 +1,221 @@
+By continuing to use and navigate this website, you are agreeing to the use of cookies.
+Accept
+Close
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Language
+English (United States)
+View Profile
+Language
+English (United States)
+View Profile
+Language
+English (United States)
+View Profile
+Search by Keyword
+Show More Options
+Loading...
+Location
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Prisma Core Systems Engineering Intern
+Date: Mar 25, 2026
+Company:
+Mediaocean
+Sorry, this position has been filled.
+Privacy policy
+Cookies policy
+Terms and conditions
+Do not sell or share my personal information
+Company
+DE&I
+Newsroom
+Careers
+Contact us
+Platform
+Ad Infrastructure
+Ad Tech
+Partner Network
+Education
+Resources
+Events
+Articles
+Insights
+Reports
+Creative Showcase
+Press Coverage
+//<![CDATA[
+$(function()
+{
+var ctid = 'a5f1ecf5-89fb-4a22-9165-09ef35e1e777';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'mediaocean',
+"ssoUrl" : 'https://career8.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "be9b09d4-a3c9-4cfc-a304-abacc3ffcb34"
+}
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+if (Cookies && !Cookies.get('rmk12')) {
+$('.ukCookiePolicy').show();
+$('#cookie-close').click(function () {
+closeBanner();
+});
+$('#cookie-acknowledge').click(function () {
+closeBanner(true);
+});
+/**
+* Closes the cookie banner, optionally dropping a cookie to keep the banner from reappearing.
+* @param {boolean=} bDropCookie - If true, a cookie will be dropped to prevent the banner from
+* being shown again.
+*/
+function closeBanner(bDropCookie) {
+if (bDropCookie) {
+Cookies.set('rmk12', 1, {
+expires: (function () {
+var i = new Date;
+i.setFullYear(i.getFullYear() + 30);
+return i;
+}())
+});
+}
+$('div.ukCookiePolicy').remove();
+/* When the banner is removed, the fixed header may need to be resized. If there is no fixed
+header, this event goes unhandled. Please see header.xhtml. */
+$(document).trigger('resizeFixedHeader');
+$("#skipLink").focus();
+}
+}
+//]]>
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1376615500',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.mediaocean.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["location"],
+showPicklistAllLocales : false
+};
+//]]>

@@ -1,0 +1,221 @@
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWQV4J9X" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Search by Keyword
+Clear
+Language
+Deutsch (Deutschland)
+English (United States)
+Español (México)
+Français (France)
+Magyar (Magyarország)
+Português (Brasil)
+View Profile
+Employee Login
+#content {
+padding-top: 5px;
+}
+Search by Keyword
+Show More Options
+Loading...
+Country/Region
+All
+City
+All
+Job Field I
+All
+Job Field II
+All
+Working Hours
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+TX-S-12 Innovations Software Developer Intern Fall 2026
+Battery specialists at the BMW Group are in their element. The ability to convert energy into determination and vision into reality is particularly necessary. The reaction product needs to be unparalleled driving pleasure - our vehicles' hallmark.Description:
+Software development for the battery plant Unreal Engine 5 project including gameplay mechanic development, VR/AR development, 3D data pipeline development, as well as department dashboard support, database development/support, and other innovation projects decided by management. Develops and implements software solutions using Unreal Engine 5 to achieve project goals related to game mechanics, 3D data pipeline development, database connections, and networking.
+Participates in cross-functional project teams to support software development activities within the department.
+Assists in the creation and maintenance of user and support documentation for areas of responsibility, ensuring clear communication of software functionalities.
+Provides technical support to department for resolving issues related to Unreal Engine 5 and other software projects.
+Develops and optimizes algorithms and systems for automatic control and data management within projects.
+Supports department targets and goals for project completion, quality assurance, and efficient resource utilization.
+Understands and applies principles of Agile development and collaborative problem-solving in software projects.
+Adheres to coding standards and best practices.
+Adheres to 5S and Safety Standards and Principles.
+Performs other duties as assigned by management.
+Qualifications:
+BA/BS Degree in Computer Science (preferred), Computer Engineering, Electrical Engineering, or similar degree
+Preferred: Base knowledge of C/C++, problem solving, passion for software development.
+Optional: Unreal Engine 5, Unity, Gadot, Software Version Control (Unity version control/Perforce)
+Assignment Training Plan (Technical and Process Skill Development): List any training the student will receive on BMW specific systems and processes (such as PQM, TAIS, CAMS, CATIA, Nuclos, etc.)
+Unreal Engine 5
+FactoryVerse/Omniverse
+PlantCon/IPS systems
+Unreal Engine 5 software development (VR/AR)
+Software architecture and design
+Project steering
+Presentation techniques
+BMW Project work international within the Gen6 Network (TS)THE WORK TERM
+DATES ARE August 10 2026-December 11 2026
+BMW Manufacturing Company is an equal opportunity employer. It is the policy of BMW MC to provide equal employment opportunity (EEO) to all qualified persons regardless of age, race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status.
+Nearest Major Market: Spartanburg
+Nearest Secondary Market: South Carolina
+Apply now »
+Find similar jobs:
+Legal Disclaimer
+Cookies
+Imprint
+Contact
+Data protection information
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'bmwag',
+"ssoUrl" : 'https://career5.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "f2dfd852-dde1-4bf0-a4aa-74d5495c1635"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1370737533,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"181375-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = '3e0a8cd5-0713-49a5-a49d-1102c102ff39';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1370737533',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'jobs.bmwgroup.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["country","city","customfield1","customfield2","customfield5"],
+showPicklistAllLocales : false
+};
+//]]>

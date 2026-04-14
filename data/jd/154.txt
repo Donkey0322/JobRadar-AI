@@ -1,0 +1,107 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "26360 American Drive,48034,Southfield,US"
+}
+},
+"hiringOrganization" : {
+"name" : "Magna Electronics Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Software Engineering",
+"@type" : "PropertyValue",
+"value" : "R00235405"
+},
+"datePosted" : "2026-03-24",
+"employmentType" : "PART_TIME",
+"title" : "Intern - Software Engineering",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: Transforming mobility. Making automotive technology that is smarter, cleaner, safer and lighter. That’s what we’re passionate about at Magna Electronics, and we do it by creating world-class Electronic systems. We are a premier supplier for the global automotive industry with full capabilities in design, development, testing and manufacturing of complex Electronic systems. Our name stands for quality, environmental consciousness, and safety. Innovation is what drives us and we drive innovation. Dream big and create the future of mobility at Magna Electronics. Job Responsibilities: Position Overview As a Software Engineering Student at Magna Electronics, you will join a team of software professionals, implementing cutting edge technologies on both existing and new development products of Autonomous Driving. Essential Duties and Responsibilities: Perform all phases of the Software Development Life Cycle; design, code, test, integration, verification, and integration support, facilitated by an Agile software development workflow. Support scripting (CAPL/Python/MATLAB scripting/Batch) to automate the embedded development tasks and develop the tool documentation. Support the team to debug and test the real time ADAS safety critical applications Learn and become proficient with your skills in many different technical areas including object-oriented software development, real-time embedded development for multi-core and multi-processor systems, development for multiple operating systems (QNX, Linux, etc). As well as cyber security/product protections, image/signal processing, image/data fusion, application development, and other development to support test and verification. Qualifications: Currently enrolled in an accredited degree program pursing a bachelor’s or master’s degree in computer engineering, Electrical Engineering, Computer Science or similar technology degrees Excellent academics (cumulative GPA greater than or equal to 3.5 as a rule) Knowledge of SW Development Lifecycle Software development experience in C/C++ Education / Experience Junior, Senior, or Master Student level Special Knowledge / Skills: Experience with Software integration and debugging techniques. Knowledge of Scripting Languages preferred (Python/Bash scripting experience) Familiarity and understanding of differences between relevant C/C++ standards (i.e., C++98; C++11; C++17, etc.) Familiarity and understanding of Automotive Communication Protocols and tools Experience with Software Continuous Integration (CI) toolchains/pipelines, Git/GitHub/ (configuration management, automated unit testing, static analysis, etc.). Knowledge of hardware bus interfaces, such as USB, UART, I2C and SPI Proficiency in use of basic electrical tools, i.e., oscilloscope, multimeter Demonstrated success in resolving technical challenges by leveraging strong problem-solving skills. Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Student / Co-Op Group: Magna Electronics We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "26360 American Drive,48034,Southfield,US"
+}
+},
+"hiringOrganization" : {
+"name" : "Magna Electronics Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Intern - Software Engineering",
+"@type" : "PropertyValue",
+"value" : "R00235405"
+},
+"datePosted" : "2026-03-24",
+"employmentType" : "PART_TIME",
+"title" : "Intern - Software Engineering",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: Transforming mobility. Making automotive technology that is smarter, cleaner, safer and lighter. That’s what we’re passionate about at Magna Electronics, and we do it by creating world-class Electronic systems. We are a premier supplier for the global automotive industry with full capabilities in design, development, testing and manufacturing of complex Electronic systems. Our name stands for quality, environmental consciousness, and safety. Innovation is what drives us and we drive innovation. Dream big and create the future of mobility at Magna Electronics. Job Responsibilities: Position Overview As a Software Engineering Student at Magna Electronics, you will join a team of software professionals, implementing cutting edge technologies on both existing and new development products of Autonomous Driving. Essential Duties and Responsibilities: Perform all phases of the Software Development Life Cycle; design, code, test, integration, verification, and integration support, facilitated by an Agile software development workflow. Support scripting (CAPL/Python/MATLAB scripting/Batch) to automate the embedded development tasks and develop the tool documentation. Support the team to debug and test the real time ADAS safety critical applications Learn and become proficient with your skills in many different technical areas including object-oriented software development, real-time embedded development for multi-core and multi-processor systems, development for multiple operating systems (QNX, Linux, etc). As well as cyber security/product protections, image/signal processing, image/data fusion, application development, and other development to support test and verification. Qualifications: Currently enrolled in an accredited degree program pursing a bachelor’s or master’s degree in computer engineering, Electrical Engineering, Computer Science or similar technology degrees Excellent academics (cumulative GPA greater than or equal to 3.5 as a rule) Knowledge of SW Development Lifecycle Software development experience in C/C++ Education / Experience Junior, Senior, or Master Student level Special Knowledge / Skills: Experience with Software integration and debugging techniques. Knowledge of Scripting Languages preferred (Python/Bash scripting experience) Familiarity and understanding of differences between relevant C/C++ standards (i.e., C++98; C++11; C++17, etc.) Familiarity and understanding of Automotive Communication Protocols and tools Experience with Software Continuous Integration (CI) toolchains/pipelines, Git/GitHub/ (configuration management, automated unit testing, static analysis, etc.). Knowledge of hardware bus interfaces, such as USB, UART, I2C and SPI Proficiency in use of basic electrical tools, i.e., oscilloscope, multimeter Demonstrated success in resolving technical challenges by leveraging strong problem-solving skills. Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Student / Co-Op Group: Magna Electronics We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "magna",
+siteId: "Magna",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["cs-CZ","de-DE","en-US","es","fr-CA","fr-FR","it-IT","hu-HU","pl-PL","pt-BR","ro-RO","sk-SK","sl-SI","tr-TR","sr-RS","ru-RU","ar","th-TH","ja-JP","zh-CN","ko-KR"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=magna&s=Magna",
+token: "b06226ba-b11b-4f13-9484-398a70489f20",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#DA291C"},"button":{"primary":{"color":"#DA291C","borderColor":"#DA291C","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"secondary":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"efe4e8b9c65c100197e142b3afc10001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#000000","image":{"id":"efe4e8b9c65c100197e142199ee70000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

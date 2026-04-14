@@ -5,15 +5,16 @@ import parseSource from "@/modules/github-parser";
 import analyzeJD from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { sendEmail } from "@/modules/mail-alert";
-import { loadSent } from "@/utils/data";
-import { saveJob, saveSent } from "@/utils/data";
+import { loadJobs, loadUrls, saveJd } from "@/utils/data";
+import { saveJob, saveUrls } from "@/utils/data";
 import { getToday } from "@/utils/string";
 
 export default async function processor(jobs: Job[] = [], main = true, isDev = false) {
-  const sent = await loadSent();
-  const keys = new Set(groupUrlsByKey(Array.from(sent)).keys());
-  console.log(keys);
-  let currentId = sent.size;
+  const urls = await loadUrls();
+  const keys = new Set(groupUrlsByKey(Array.from(urls)).keys());
+  const sent_jobs = await loadJobs();
+
+  let currentId = sent_jobs.length;
 
   const newJobs: Job[] = jobs;
 
@@ -32,17 +33,20 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
       continue;
     }
 
-    currentId += 1;
-    job.id = currentId;
-
     const jd = await analyzeJD(job);
-    job.jd = jd;
-    if (!job.season) {
-      job.season = jd?.season;
+    if (jd) {
+      currentId += 1;
+      job.id = currentId;
+      job.jd = jd.jd;
+      if (!job.season) {
+        job.season = jd.jd.season;
+      }
+      await saveJd(jd.plainText, job);
     }
 
     toSend.push(job);
-    sent.add(job.link);
+    urls.add(job.link);
+    keys.add(key);
   }
 
   if (toSend.length === 0) {
@@ -54,7 +58,7 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
     for (const job of toSend) {
       await sendEmail(job);
     }
-    await saveSent(sent);
+    await saveUrls(urls);
   }
 
   await saveJob(toSend);

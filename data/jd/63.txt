@@ -1,0 +1,66 @@
+Who We AreStories & ResourcesThe KP DifferenceOur LocationsMission & HistoryInnovationLife & CultureWorking HereDiversity & InclusionDisabilityMilitaryIn Our CommunityCareer AreasNursing CareersDigital CareersClinical CareersBusiness CareersIT CareersEarly CareersUniversity ConnectionTemporary ContractEarly CareersPhysicians & DentistsExec & LeadersOur Hiring ProcessSearching Jobs & Submitting InterestPre-Hire AssessmentsFAQsAccommodationsMy ProfileEmployee Job SearchTalent NetworkJob SearchCloseMenuWho We AreStories & ResourcesThe KP DifferenceOur LocationsMission & HistoryInnovationLife & CultureWorking HereInclusion, & DiversityDisabilityMilitaryIn Our CommunityCareer AreasClinical Careers
+Nursing Careers
+All Clinical CareersMental HealthRehab ServicesBusiness Careers
+Sales & Marketing
+All Business CareersIT Careers
+Digital Careers
+All IT CareersEarly Careers
+Internships
+University ConnectionEarly CareersTemporary ContractPhysicians & DentistsExec & LeadersOur Hiring Process
+Hiring Process Overview
+Searching Jobs & Submitting InterestPre-Hire AssessmentsFAQsAccommodationsTalent NetworkJob SearchMy AccountGo to the main content section.|My Account OptionsSign InThis service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes.Click OK to reset the timer to {0} minutes.You have been signed out.This service is set to sign out after {0} minutes of inactivity.My Job PageMy Submissions|Beginning of the main content section.
+var _ftl = {
+_acts:[['reqListAllJobsPage','joblist'],['requisitionDescriptionPage','jobdetail'],['requisitionDescriptionViewPage','jobview'],['requisitionDescriptionPrintablePage','jobprint'],['unavailableRequisitionPrintablePage','jobprintunavailable'],['reqListBasicPage','jobsearch'],['reqListAdvancedPage','moresearch'],['unavaibleRequisitionPage','unavailablerequisition'],['myJobCartPage','mycart'],['reqListPersonalizedPage','myjobs'],['mySavedSearchesPage','mysearches'],['applicationStatusDetailPage','applicationstatusdetail'],['applicationStatusDetailPrintableFormatPage','applicationstatusdetailprint'],['myReferralsPage','myreferrals'],['mySubmissionsPage','mysubmissions'],['withdrawApplicationConfirmationPage','withdrawapplicationconfirm'],['confirmCandidatePage','confirmcandidate'],['correspondenceListPage','emaillist'],['correspondenceDetailPage','emaildetail'],['correspondencePrintableFormatPage','emailprint'],['requestErrorPage','error'],['notAvailablePage','notavailable'],['noJavaScriptPage','nojavascript'],['unsupportedPage','unsupported'],['selectorPage','selector'],['ftlpspage','ftlps']],
+_ints:['topNavInterface','requisitionUnavailableInterface','bottomBarInterface'],
+topNavInterface: {
+_ctls: [],
+_hles: ['userNameLabel','technicalHelpInfoTop','ID421','ID468'],
+_pars: [],
+_prps: [['ID421','myJobPageTabActionS','title',""],['ID468','mySubmissionsTabAction','title',""]],
+_mpts: [],
+_hpts: [],
+_lsts: []
+},
+requisitionUnavailableInterface: {
+_ctls: [],
+_hles: ['backToHomePageAction','ID541','backAction','ID569','ID589','ID601'],
+_pars: [],
+_prps: [['ID541','backToHomePageAction','title',""],['ID569','backAction','title',""]],
+_mpts: [],
+_hpts: [],
+_lsts: []
+},
+bottomBarInterface: {
+_ctls: [],
+_hles: ['technicalHelpInfoBottom'],
+_pars: [],
+_prps: [],
+_mpts: [],
+_hpts: [],
+_lsts: []
+},
+setup: function() {
+var api = _ftl_api;
+api.fillForm('topNavInterface', []);
+ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel1','');
+ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel2a','topNavInterface.tabJS');
+ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel2b','topNavInterface.tabMY');
+api.fillInterface('topNavInterface', ['Welcome. You are not signed in.','','Go to the section My Job Page','Open the page My Submissions']);
+api.fillForm('requisitionUnavailableInterface', []);
+api.fillInterface('requisitionUnavailableInterface', [' ','Return to the Career section home page','Back to prior page','Return to the previous page','The job is no longer available.','The job description you are trying to view is no longer available.']);
+api.fillForm('bottomBarInterface', []);
+api.fillInterface('bottomBarInterface', ['']);
+api.updateFloats();
+},
+init: function() {
+var api = _ftl_api;
+secform_initForm(document.getElementById('ftlform'));
+api.restoreScroll('');
+ftlconfirm_init('topNavInterface','topNavInterface.confirmBeaconReset');
+ftlconfirm_init('topNavInterface','topNavInterface.confirmBeaconTimedOut');
+ftlUtil_crossFrameScripting('topNavInterface');
+ftlUtil_installSessionBeacon('topNavInterface','3600000','2400000','300000');
+}
+}
+_ftl_api.setup();
+Connect With UsVisit us on TwitterVisit us on GlassdoorVisit us on LinkedInVisit us on YouTubeVisit us on Facebook©2021 Kaiser PermanenteAccommodation InfoTerms & ConditionsPrivacy PracticesEEO StatementTechnical InformationFraud NoticeSitemapContact Web Manager

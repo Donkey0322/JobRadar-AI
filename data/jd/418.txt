@@ -1,0 +1,85 @@
+Join our Talent Network
+Skip to main content
+Menu
+Careers Home
+Search Jobs
+Saved Jobs
+Early Career
+Job Seeker Portal
+About Us
+Loading job
+Back to Search Results
+Previous Opportunity
+Next Opportunity
+Technical Intern, Compiler Software
+Location: Santa Clara, CA, United States
+Share:
+Apply Now
+Save Job
+Saved
+// Save Jobs functionality
+var is_job_saved = false;
+var job_index;
+var job_saved_message;
+var c_jobs_temp = localStorage.getItem('c_jobs') ? JSON.parse(localStorage.getItem('c_jobs')) : [];
+var saved_jobs_query;
+// Detecting if job has been saved
+if (c_jobs_temp.indexOf('AC-3082') >= 0) {
+$('.job-saved').removeClass('hide');
+is_job_saved = true;
+job_index = c_jobs_temp.indexOf('AC-3082');
+$('.saved-jobs-alert__check').toggleClass('removed');
+}
+else {
+is_job_saved = false;
+$('.save-job').removeClass('hide');
+}
+function savejob(jobid) {
+window.location.replace('/jobs/17398918-technical-intern-compiler-software?savejob=1');
+}
+Description Invent the future with us.Ampere is a semiconductor design company for a new era, leading the future of computing with an innovative approach to CPU design focused on high-performance, energy efficient AI compute. As a pioneer in the new frontier of energy efficient high-performance computing, Ampere is part of the Softbank Group of companies driving sustainable computing for AI, Cloud, and edge applications. Join us at Ampere and work alongside a passionate and growing team - we’d love to have you apply! About the role:In this role, you will work together with team members to design, implement, and optimize compiler components. You will also write and debug a significant amount of code, primarily on the Linux platform. This position is a great opportunity to tackle complex technical challenges and find innovative solutions. What you’ll achieve:Learn the intricacies of compiler design and implementation, getting hands-on experience with the entire development processExplore the software ecosystem and understand how it intersects with AI hardware architectureCollaborate with Ampere compiler team to establish a solid foundation for Ampere toolchain, contributing to its growth and optimizationDevelop your skills in teamwork, communication, and problem solvingAbout you:Proficient in high-level programming languages, with mandatory skills in C/C++ and Python.Exposure to compiler technologies is required, ideally within the LLVM software ecosystem.Familiar with common industry Instruction Set Architectures (ISAs), preferably ARM AArch64, and comfortable reading assembly code.Basic understanding of computer system hardware architecture, with a preference for knowledge of ARM AArch64.Strong hands-on experience working in Linux environments, including using various development and debugging tools.Interest or experience in embedded systems programming is a plus, such as understanding MCU programming workflows and bare-metal system boot procedures.Education:Candidate must be pursuing a Master's degree in computer science, computer engineering, electrical engineering or a related field.What we’ll offer:At Ampere we believe in taking care of our interns and providing a competitive rewards package that includes an hourly rate and comprehensive benefits. The pay range for this role is between $52 and 57 per hour. Benefits highlights include: Premium medical, dental, and vision insuranceMentorship and on-the-job training from industry expertsA comfortable and ergo friendly desk set-up, designed to optimize your posture and enhance your work experienceVibrant game rooms to unwind and bond with colleaguesA variety of healthy snacks, energizing espresso, and refreshing drinks to keep you fueled and focused throughout the day And there is much more than compensation and benefits. At Ampere, we foster an inclusive culture that empowers our interns to do more and grow more. We are excited to share more about our internship opportunities with you through the interview process. Internships are open to all eligible students regardless of age including veterans who returned to school. Ampere is an inclusive and equal opportunity employer and welcomes applicants from all backgrounds. All qualified applicants will receive consideration for employment without regard to race, color, national origin, citizenship, religion, age, veteran and/or military status, sex, sexual orientation, gender, gender identity, gender expression, physical or mental disability, or any other basis protected by federal, state or local law.
+Share:
+talemetry.share();
+Apply Now
+Similar Jobs
+// Ajax load similar jobs
+ajaxloadjobs('https://careers.amperecomputing.com/search/jobs/?q=Technical Intern, Compiler Software&location=Santa Clara, CA, United States&per_page=4&ns_job_id=17398918&ns_similar_jobs=1',function() {
+loadjob();
+});
+// Job Details page: Previous and Next Opportunity buttons
+$('.job-details__similar-jobs-item').each(function() {
+if ($(this).hasClass('AC-3082')) {
+$(this).addClass('hide');
+var prev_link = $(this).prev().find('a').attr('href');
+var next_link = $(this).next().find('a').attr('href');
+if (typeof prev_link != 'undefined') {
+$('a#job-details__prev-link').attr('href',prev_link).removeClass('hide');
+}
+if (typeof next_link != 'undefined') {
+$('a#job-details__next-link').attr('href',next_link).removeClass('hide');
+}
+}
+});
+Ampere Computing
+4655 Great America Parkway Suite 601
+Santa Clara, CA 95054
+twitter
+facebook
+linkedin
+youtube
+git hub
+Job Seeker Portal
+About
+Contact Us
+Privacy Policy
+Cookie Use Policy
+CCPA Policy Notice
+TIC
+EEO Employer
+Sitemap
+© 2026 Ampere Computing LLC. All rights reserved. Ampere, Altra and the A and Ampere logos are registered trademarks or trademarks of Ampere Computing.
+$(document).foundation();
+<img height="1" width="1" src="https://sitestats.ttcportals.com/101461824-db95.gif" alt="stats" />
+var clicky_custom = clicky_custom || {};
+clicky_custom.sticky_data_disable = 1;
+(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ec163a249d1d94a',t:'MTc3NjE1NTg1Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();

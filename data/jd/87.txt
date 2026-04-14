@@ -1,0 +1,333 @@
+{"hiringOrganization":{"@type":"Organization","name":"PowerSchool Group LLC","sameAs":"www.powerschool.com/"},"validThrough":"2027-03-12T01:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Dallas","addressRegion":"TX","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"FULL_TIME","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>At PowerSchool, we are a dedicated team of innovators guided by our shared purpose of powering personalized education for students around the world. From the central office to the classroom to the home, PowerSchool supports the entire educational ecosystem as the global leader of cloud-based software for K-12 education. Our employees make it all possible, and a career with us means you\u2019re joining a successful team committed to engaging, empowering, and improving the K-12 education experience everywhere.<\/p>\n<h3>Team Overview<\/h3>\n<p>Our Research &amp; Development (R&amp;D) team is the technical talent at the heart of our product suite, overseeing the product development lifecycle from concept to delivery. From engineering to quality assurance to data science, the R&amp;D team ensures our customers seamlessly use our products and can depend on their consistency.<\/p>\n<h2>Responsibilities<\/h2>\n<p><strong>About the Internship<\/strong><\/p>\n<p>Are you a Computer Science student interested in <strong>Artificial Intelligence<\/strong>&nbsp;and real\u2011world software development? Join our engineering team at a leading <strong>K\u201112 education technology SaaS company<\/strong>, where you\u2019ll work on production software used by schools, educators, and administrators across the country.<\/p>\n<p>In this role, you\u2019ll use your Computer Science foundation and interest in Artificial Intelligence to tackle <strong>real, complex technical challenges<\/strong>. You\u2019ll be encouraged to think creatively, experiment, and propose new approaches as you:<\/p>\n<ul>\n <li>Explore how <strong>AI techniques<\/strong>&nbsp;(e.g., automation, LLMs, data\u2011assisted decision\u2011making, or intelligent workflows) can improve software functionality and developer productivity<\/li>\n <li>Prototype and test new ideas, learning through iteration and feedback<\/li>\n <li>Contribute fresh perspectives and innovative solutions as part of a collaborative engineering team<\/li>\n<\/ul>\n<p><strong>What You\u2019ll Do<\/strong><\/p>\n<p>As a Software Developer Intern, you\u2019ll:<\/p>\n<ul>\n <li>Work alongside experienced software engineers on a cloud\u2011based SaaS platform<\/li>\n <li>Help design, build, and test new software features<\/li>\n <li>Participate in code reviews and team discussions<\/li>\n <li>Assist with prototyping and exploring <strong>AI\u2011powered features and tools<\/strong><\/li>\n <li>Gain experience with modern development workflows and best practices<\/li>\n<\/ul>\n<p><strong>What You\u2019ll Gain<\/strong><\/p>\n<ul>\n <li>Real\u2011world experience working on <strong>production software<\/strong><\/li>\n <li>Mentorship from professional software engineers<\/li>\n <li>Exposure to <strong>AI\u2011first development practices<\/strong><\/li>\n <li>Resume\u2011ready experience in SaaS, cloud, and modern engineering tools<\/li>\n <li>A supportive environment focused on learning and growth<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<h2>Qualifications<\/h2>\n<h3>Minimum Qualifications<\/h3>\n<ul>\n <li><p><strong>Required:<\/strong><\/p>\n <ul>\n <li>Currently pursuing a <strong>Bachelor\u2019s or Master\u2019s degree<\/strong>&nbsp;in Computer Science, Software Engineering, or a related field<\/li>\n <li>Coursework or experience in programming fundamentals (data structures, algorithms, OOP)<\/li>\n <li>Strong interest in <strong>Artificial Intelligence, machine learning, or AI\u2011assisted development<\/strong><\/li>\n <li>Exposure to AI/ML concepts, LLMs, or data\u2011driven projects<\/li>\n <li>Willingness to learn, collaborate, and take feedback<\/li>\n <\/ul><\/li>\n<\/ul>\n<h2>Compensation &amp; Benefits<\/h2> \n<h3>Compensation &amp; Benefits<\/h3> \n<p>PowerSchool offers the following benefits:<\/p> \n<ul> \n <li>Comprehensive Insurance Coverage (including Medical, Dental, Vision, Pharmacy benefits, Life Insurance and AD&amp;D)<\/li> \n <li>Flexible Spending Accounts and Health Savings Accounts<\/li> \n <li>Short-Term Disability and Long-Term Disability<\/li> \n <li>Comprehensive 401(k) plan<\/li> \n <li>Generous Parental Leave<\/li> \n <li>Unrestricted paid time off (known as Discretionary Time Off - DTO)<\/li> \n <li>Wellness Program, including ClassPass &amp; Employee Assistance Program<\/li> \n <li>Tuition Reimbursement<\/li> \n <li>Optional Benefits: Pet Insurance, Identity Theft Protection, Student Debt Repayment Program and Prepaid Legal coverage<\/li> \n<\/ul> \n<p>A reasonable estimate of the base compensation range for this position is $74,000 - $92,500 USD. This compensation range is specific to the United States and it incorporates many factors including but not limited to an applicant's skills and prior relevant experience and training; licensures, degrees, and certifications; internal equity; internal pay ranges; and market data/range parameters.<\/p> \n<h2>EEO Commitment<\/h2>\n<h3>EEO Commitment<\/h3>\n<p><em>PowerSchool is committed to a diverse and inclusive workplace. PowerSchool is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Our inclusive culture empowers PowerSchoolers to deliver the best results for our customers. We not only celebrate the diversity of our workforce, we celebrate the diverse ways we work. If you have a disability and need an accommodation regarding our recruiting process, please let us know by emailing accomodations@powerschool.com.<\/em><\/p>","directApply":true,"datePosted":"2026-03-12T00:00:00.000Z","title":"Intern, AI Engineering","@context":"http://schema.org","url":"https://careers-powerschool.icims.com/jobs/52599/2026-52599/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Intern, Engineering - IC0 (SOFENG - Software Engineering) in Dallas, Texas | Careers at Dallas
+var isMobile = true;
+var link = 'https://careers-powerschool.icims.com/connect/interests?csrf=BF6FA61E030C9615&hashed=-625980113';
+var _c2a = _c2a || [];
+_c2a.push(['View', '52599', null, 'Intern, Engineering - IC0 (SOFENG - Software Engineering) in Dallas, Texas | Careers at Dallas']);
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_181.0.0.260327-7c6fdc8e325-11-5/script/portal/login.js');
+var jobId = "52599";
+var fbJobId = "caec1dfd-1145-369f-81ae-7da4510221a8";
+var icimsSD = {"person":{},"companyName":"PowerSchool Group LLC","env":"prod","job":{"jid":52599,"jobUrls":[{"name":"United States","url":"https://careers-powerschool.icims.com/jobs/52599/intern%2c-engineering---ic0-%28sofeng---software-engineering%29/job"}],"location":"Dallas, Texas, United States","title":"Intern, Engineering - IC0 (SOFENG - Software Engineering)"},"version":"1.015","key":"2","cid":"IM6/zv4HfsGKNQigpDKgobnzq5B5Q4vPSSaXXulf0PNpTdbdtAxarQkzcyN8"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-powerschool.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2oanc22gwTq9yEdKn","type":"careers"},"release":"181.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":11036,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave2","build":"platform_181.0.0.260327-7c6fdc8e325-11-5","icimsGAAnonymizeIP":true,"customerId":"rvefHb1XW6mzZxLU","region":"US","job":{"positionType":"Full Time","company":"Dallas","location":{"zip":"not set","country":"USA","city":"Dallas","state":"TX"},"id":"2tDYEfWJp9BZvL7o5","idRaw":52599,"title":"Intern, Engineering - IC0 (SOFENG - Software Engineering)","category":"not set","postedDate":"2026-03-12"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"PowerSchool Group LLC","sameAs":"www.powerschool.com/"},"validThrough":"2027-03-12T01:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Dallas","addressRegion":"TX","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"FULL_TIME","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>At PowerSchool, we are a dedicated team of innovators guided by our shared purpose of powering personalized education for students around the world. From the central office to the classroom to the home, PowerSchool supports the entire educational ecosystem as the global leader of cloud-based software for K-12 education. Our employees make it all possible, and a career with us means you\u2019re joining a successful team committed to engaging, empowering, and improving the K-12 education experience everywhere.<\/p>\n<h3>Team Overview<\/h3>\n<p>Our Research &amp; Development (R&amp;D) team is the technical talent at the heart of our product suite, overseeing the product development lifecycle from concept to delivery. From engineering to quality assurance to data science, the R&amp;D team ensures our customers seamlessly use our products and can depend on their consistency.<\/p>\n<h2>Responsibilities<\/h2>\n<p><strong>About the Internship<\/strong><\/p>\n<p>Are you a Computer Science student interested in <strong>Artificial Intelligence<\/strong>&nbsp;and real\u2011world software development? Join our engineering team at a leading <strong>K\u201112 education technology SaaS company<\/strong>, where you\u2019ll work on production software used by schools, educators, and administrators across the country.<\/p>\n<p>In this role, you\u2019ll use your Computer Science foundation and interest in Artificial Intelligence to tackle <strong>real, complex technical challenges<\/strong>. You\u2019ll be encouraged to think creatively, experiment, and propose new approaches as you:<\/p>\n<ul>\n <li>Explore how <strong>AI techniques<\/strong>&nbsp;(e.g., automation, LLMs, data\u2011assisted decision\u2011making, or intelligent workflows) can improve software functionality and developer productivity<\/li>\n <li>Prototype and test new ideas, learning through iteration and feedback<\/li>\n <li>Contribute fresh perspectives and innovative solutions as part of a collaborative engineering team<\/li>\n<\/ul>\n<p><strong>What You\u2019ll Do<\/strong><\/p>\n<p>As a Software Developer Intern, you\u2019ll:<\/p>\n<ul>\n <li>Work alongside experienced software engineers on a cloud\u2011based SaaS platform<\/li>\n <li>Help design, build, and test new software features<\/li>\n <li>Participate in code reviews and team discussions<\/li>\n <li>Assist with prototyping and exploring <strong>AI\u2011powered features and tools<\/strong><\/li>\n <li>Gain experience with modern development workflows and best practices<\/li>\n<\/ul>\n<p><strong>What You\u2019ll Gain<\/strong><\/p>\n<ul>\n <li>Real\u2011world experience working on <strong>production software<\/strong><\/li>\n <li>Mentorship from professional software engineers<\/li>\n <li>Exposure to <strong>AI\u2011first development practices<\/strong><\/li>\n <li>Resume\u2011ready experience in SaaS, cloud, and modern engineering tools<\/li>\n <li>A supportive environment focused on learning and growth<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<h2>Qualifications<\/h2>\n<h3>Minimum Qualifications<\/h3>\n<ul>\n <li><p><strong>Required:<\/strong><\/p>\n <ul>\n <li>Currently pursuing a <strong>Bachelor\u2019s or Master\u2019s degree<\/strong>&nbsp;in Computer Science, Software Engineering, or a related field<\/li>\n <li>Coursework or experience in programming fundamentals (data structures, algorithms, OOP)<\/li>\n <li>Strong interest in <strong>Artificial Intelligence, machine learning, or AI\u2011assisted development<\/strong><\/li>\n <li>Exposure to AI/ML concepts, LLMs, or data\u2011driven projects<\/li>\n <li>Willingness to learn, collaborate, and take feedback<\/li>\n <\/ul><\/li>\n<\/ul>\n<h2>Compensation &amp; Benefits<\/h2> \n<h3>Compensation &amp; Benefits<\/h3> \n<p>PowerSchool offers the following benefits:<\/p> \n<ul> \n <li>Comprehensive Insurance Coverage (including Medical, Dental, Vision, Pharmacy benefits, Life Insurance and AD&amp;D)<\/li> \n <li>Flexible Spending Accounts and Health Savings Accounts<\/li> \n <li>Short-Term Disability and Long-Term Disability<\/li> \n <li>Comprehensive 401(k) plan<\/li> \n <li>Generous Parental Leave<\/li> \n <li>Unrestricted paid time off (known as Discretionary Time Off - DTO)<\/li> \n <li>Wellness Program, including ClassPass &amp; Employee Assistance Program<\/li> \n <li>Tuition Reimbursement<\/li> \n <li>Optional Benefits: Pet Insurance, Identity Theft Protection, Student Debt Repayment Program and Prepaid Legal coverage<\/li> \n<\/ul> \n<p>A reasonable estimate of the base compensation range for this position is $74,000 - $92,500 USD. This compensation range is specific to the United States and it incorporates many factors including but not limited to an applicant's skills and prior relevant experience and training; licensures, degrees, and certifications; internal equity; internal pay ranges; and market data/range parameters.<\/p> \n<h2>EEO Commitment<\/h2>\n<h3>EEO Commitment<\/h3>\n<p><em>PowerSchool is committed to a diverse and inclusive workplace. PowerSchool is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Our inclusive culture empowers PowerSchoolers to deliver the best results for our customers. We not only celebrate the diversity of our workforce, we celebrate the diverse ways we work. If you have a disability and need an accommodation regarding our recruiting process, please let us know by emailing accomodations@powerschool.com.<\/em><\/p>","directApply":true,"datePosted":"2026-03-12T00:00:00.000Z","title":"Intern, AI Engineering","@context":"http://schema.org","url":"https://careers-powerschool.icims.com/jobs/52599/2026-52599/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Intern, AI Engineering
+Job Locations
+US-TX-Dallas
+ID
+2026-52599
+Type
+Full Time
+Overview
+At PowerSchool, we are a dedicated team of innovators guided by our shared purpose of powering personalized education for students around the world. From the central office to the classroom to the home, PowerSchool supports the entire educational ecosystem as the global leader of cloud-based software for K-12 education. Our employees make it all possible, and a career with us means you’re joining a successful team committed to engaging, empowering, and improving the K-12 education experience everywhere.Team OverviewOur Research & Development (R&D) team is the technical talent at the heart of our product suite, overseeing the product development lifecycle from concept to delivery. From engineering to quality assurance to data science, the R&D team ensures our customers seamlessly use our products and can depend on their consistency.
+Responsibilities
+About the InternshipAre you a Computer Science student interested in Artificial Intelligence and real‑world software development? Join our engineering team at a leading K‑12 education technology SaaS company, where you’ll work on production software used by schools, educators, and administrators across the country.In this role, you’ll use your Computer Science foundation and interest in Artificial Intelligence to tackle real, complex technical challenges. You’ll be encouraged to think creatively, experiment, and propose new approaches as you:Explore how AI techniques (e.g., automation, LLMs, data‑assisted decision‑making, or intelligent workflows) can improve software functionality and developer productivityPrototype and test new ideas, learning through iteration and feedbackContribute fresh perspectives and innovative solutions as part of a collaborative engineering teamWhat You’ll DoAs a Software Developer Intern, you’ll:Work alongside experienced software engineers on a cloud‑based SaaS platformHelp design, build, and test new software featuresParticipate in code reviews and team discussionsAssist with prototyping and exploring AI‑powered features and toolsGain experience with modern development workflows and best practicesWhat You’ll GainReal‑world experience working on production softwareMentorship from professional software engineersExposure to AI‑first development practicesResume‑ready experience in SaaS, cloud, and modern engineering toolsA supportive environment focused on learning and growth
+Qualifications
+Minimum QualificationsRequired:Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related fieldCoursework or experience in programming fundamentals (data structures, algorithms, OOP)Strong interest in Artificial Intelligence, machine learning, or AI‑assisted developmentExposure to AI/ML concepts, LLMs, or data‑driven projectsWillingness to learn, collaborate, and take feedback
+Compensation & Benefits
+Compensation & BenefitsPowerSchool offers the following benefits:Comprehensive Insurance Coverage (including Medical, Dental, Vision, Pharmacy benefits, Life Insurance and AD&D)Flexible Spending Accounts and Health Savings AccountsShort-Term Disability and Long-Term DisabilityComprehensive 401(k) planGenerous Parental LeaveUnrestricted paid time off (known as Discretionary Time Off - DTO)Wellness Program, including ClassPass & Employee Assistance ProgramTuition ReimbursementOptional Benefits: Pet Insurance, Identity Theft Protection, Student Debt Repayment Program and Prepaid Legal coverageA reasonable estimate of the base compensation range for this position is $74,000 - $92,500 USD. This compensation range is specific to the United States and it incorporates many factors including but not limited to an applicant's skills and prior relevant experience and training; licensures, degrees, and certifications; internal equity; internal pay ranges; and market data/range parameters.
+EEO Commitment
+EEO CommitmentPowerSchool is committed to a diverse and inclusive workplace. PowerSchool is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Our inclusive culture empowers PowerSchoolers to deliver the best results for our customers. We not only celebrate the diversity of our workforce, we celebrate the diverse ways we work. If you have a disability and need an accommodation regarding our recruiting process, please let us know by emailing accomodations@powerschool.com.
+Options
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Connect With Us!
+Not ready to apply? Connect with us for general consideration.
+(function(d, s, id) {
+var js;
+if (d.getElementById(id) || typeof(icimsAsyncLoadScript) === 'undefined') return;
+var jobtargetJssdkParams = new Array();
+jobtargetJssdkParams['id'] = id;
+jobtargetJssdkParams['data-applicant-info'] = 'false';
+icimsAsyncLoadScript('https://analytics.click2apply.net/ats/icims/v1.0.js', jobtargetJssdkParams);
+}(document, 'script', 'jobtarget-jssdk'));
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

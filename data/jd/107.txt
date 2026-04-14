@@ -1,0 +1,249 @@
+{"validThrough":"2027-03-17T00:00:00.000Z","employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Details<\/h2>\n<p><\/p>\n<p>&nbsp;<\/p>\n<p>Intrepid Direct Insurance (IDI) is a rapidly growing direct to consumer property and casualty insurance company. A member of the W. R. Berkley Corporation, a fortune 500 company, rated A+ (Superior) by A.M. Best, Intrepid Direct\u2019s vision is to <strong>make life better for business<\/strong>. The insurance industry has not evolved with innovation like other major industries.&nbsp;We\u2019re here to change that. We are making life better for our customers, shareholders, and our team members by leveraging data and technology as insurance experts for our targeted customers. You will be part of a highly collaborative team of talented and focused professionals. Join a group that enjoys working together, trusts each other, and takes pride in our hard-earned success.<\/p>\n<p>&nbsp;<\/p>\n<p>https://intrepiddirect.com/<\/p>\n<p>&nbsp;<\/p>\n<p>The Company is an equal employment opportunity employer.<\/p>\n<h2>Responsibilities<\/h2>\n<p>Intrepid Direct is looking for a motivated<strong> Software Engineer Intern<\/strong> to join our team for a 12-week period. This position will learn about our engineering SDLC process, assist with daily production support items, learn about unit and integration testing, and contribute enhancements to our codebase. As part of the internship, you will be paired up with one of our cross functional engineering teams. This team will teach you the ins and outs of how an engineering team functions and how technology helps support insurance operations.<\/p>\n<p>&nbsp;<\/p>\n<p>Key functions include but are not limited to:<\/p>\n<ul>\n <li>Plan work assignments with assigned team members.<\/li>\n <li>Collaborate with team to work on well-defined technical tasks.<\/li>\n <li>Debug and troubleshoot technical issues.<\/li>\n <li>Assist with implementation of features in existing applications.<\/li>\n <li>Contribute to additional development tasks, including UI, API, and database integrations.<\/li>\n <li>Create and update unit and integration tests.<\/li>\n <li>Manage code changes using Git.<\/li>\n <li>Participate in code reviews.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Enrolled in a Bachelor\u2019s or Master\u2019s degree program in Computer Science or related field.<\/li>\n <li>Familiarity with object-oriented programming concepts.<\/li>\n <li>Basic understanding of related databases.<\/li>\n <li>Strong problem-solving skills and attention to detail.<\/li>\n <li>Understanding of JavaScript/TypeScript with frontend development frameworks.<\/li>\n <li>Familiarity with backend development using C#/.NET.<\/li>\n <li>Familiarity with unit testing.<\/li>\n <li>Strong communication skills.<\/li>\n <li>Eager to learn and work in a fast-paced environment.<\/li>\n <li>Angular, C#/.NET, and SQL experience is a plus, but not required.<\/li>\n <li>Experience using APIs.<\/li>\n<\/ul>\n<h2>Additional Company Details<\/h2>We do not accept unsolicited resumes from third party recruiting agencies or firms. The actual salary for this position will be determined by a number of factors, including the scope, complexity and location of the role; the skills, education, training, credentials and experience of the candidate; and other conditions of employment.\n<h2>Sponsorship Details<\/h2>Sponsorship not Offered for this Role","industry":"Insurance","directApply":true,"title":"Software Engineer Intern","@context":"http://schema.org","url":"https://careers-berkley.icims.com/jobs/13671/software-engineer-intern/job","hiringOrganization":{"@type":"Organization","name":"Berkley","sameAs":"UNAVAILABLE"},"responsibilities":"Intrepid Direct is looking for a motivated Software Engineer Intern to join our team for a 12-week period. This position will learn about our engineering SDLC process, assist with daily production support items, learn about unit and integration testing, and contribute enhancements to our codebase. As part of the internship, you will be paired up with one of our cross functional engineering teams. This team will teach you the ins and outs of how an engineering team functions and how technology helps support insurance operations.\r\n \r\nKey functions include but are not limited to:\r\n- Plan work assignments with assigned team members.\r\n- Collaborate with team to work on well-defined technical tasks.\r\n- Debug and troubleshoot technical issues.\r\n- Assist with implementation of features in existing applications.\r\n- Contribute to additional development tasks, including UI, API, and database integrations.\r\n- Create and update unit and integration tests.\r\n- Manage code changes using Git.\r\n- Participate in code reviews.","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"5400 W 110th Street","@type":"PostalAddress","postalCode":"66211","addressLocality":"Overland Park","addressRegion":"KS","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-03-17T00:00:00.000Z","experienceRequirements":"Internship","occupationalCategory":"Hourly/Temporary Positions"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Software Engineer Intern in Overland Park, Kansas | Careers at KS, Overland Park
+var isMobile = true;
+var link = 'https://careers-berkley.icims.com/connect/interests?csrf=F315F7ECCAB016B5&hashed=-435592702';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_181.0.0.260327-7c6fdc8e325-11-5/script/portal/login.js');
+var jobId = "13671";
+var fbJobId = "440b0751-226b-3334-92b3-ce8959e738d5";
+var icimsSD = {"person":{},"companyName":"Berkley","env":"prod","job":{"zipCode":"66211","jid":13671,"jobUrls":[{"name":"Careers (External)","url":"https://careers-berkley.icims.com/jobs/13671/software-engineer-intern/job"}],"location":"Overland Park, Kansas, United States","title":"Software Engineer Intern"},"version":"1.015","key":"2","cid":"IAwx494yW22fl9xvmIltdgJTBUKosECY7EC3No3tEersOTNaH7YqK6YDL0/H"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-berkley.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+Berkley
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2DWADS3TbTtnHyxqK","type":"careers"},"release":"181.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":9513,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave4","build":"platform_181.0.0.260327-7c6fdc8e325-11-5","icimsGAAnonymizeIP":true,"customerId":"8B1q9CiRMV582kEt","region":"US","job":{"positionType":"Intrepid Direct Insurance","company":"KS, Overland Park","location":{"zip":"66211","country":"USA","city":"Overland Park","state":"KS"},"id":"2ZoUYBX9oSVXFJW5o","idRaw":13671,"title":"Software Engineer Intern","category":"Hourly/Temporary Positions","postedDate":"2026-03-17"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"validThrough":"2027-03-17T00:00:00.000Z","employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Details<\/h2>\n<p><\/p>\n<p>&nbsp;<\/p>\n<p>Intrepid Direct Insurance (IDI) is a rapidly growing direct to consumer property and casualty insurance company. A member of the W. R. Berkley Corporation, a fortune 500 company, rated A+ (Superior) by A.M. Best, Intrepid Direct\u2019s vision is to <strong>make life better for business<\/strong>. The insurance industry has not evolved with innovation like other major industries.&nbsp;We\u2019re here to change that. We are making life better for our customers, shareholders, and our team members by leveraging data and technology as insurance experts for our targeted customers. You will be part of a highly collaborative team of talented and focused professionals. Join a group that enjoys working together, trusts each other, and takes pride in our hard-earned success.<\/p>\n<p>&nbsp;<\/p>\n<p>https://intrepiddirect.com/<\/p>\n<p>&nbsp;<\/p>\n<p>The Company is an equal employment opportunity employer.<\/p>\n<h2>Responsibilities<\/h2>\n<p>Intrepid Direct is looking for a motivated<strong> Software Engineer Intern<\/strong> to join our team for a 12-week period. This position will learn about our engineering SDLC process, assist with daily production support items, learn about unit and integration testing, and contribute enhancements to our codebase. As part of the internship, you will be paired up with one of our cross functional engineering teams. This team will teach you the ins and outs of how an engineering team functions and how technology helps support insurance operations.<\/p>\n<p>&nbsp;<\/p>\n<p>Key functions include but are not limited to:<\/p>\n<ul>\n <li>Plan work assignments with assigned team members.<\/li>\n <li>Collaborate with team to work on well-defined technical tasks.<\/li>\n <li>Debug and troubleshoot technical issues.<\/li>\n <li>Assist with implementation of features in existing applications.<\/li>\n <li>Contribute to additional development tasks, including UI, API, and database integrations.<\/li>\n <li>Create and update unit and integration tests.<\/li>\n <li>Manage code changes using Git.<\/li>\n <li>Participate in code reviews.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Enrolled in a Bachelor\u2019s or Master\u2019s degree program in Computer Science or related field.<\/li>\n <li>Familiarity with object-oriented programming concepts.<\/li>\n <li>Basic understanding of related databases.<\/li>\n <li>Strong problem-solving skills and attention to detail.<\/li>\n <li>Understanding of JavaScript/TypeScript with frontend development frameworks.<\/li>\n <li>Familiarity with backend development using C#/.NET.<\/li>\n <li>Familiarity with unit testing.<\/li>\n <li>Strong communication skills.<\/li>\n <li>Eager to learn and work in a fast-paced environment.<\/li>\n <li>Angular, C#/.NET, and SQL experience is a plus, but not required.<\/li>\n <li>Experience using APIs.<\/li>\n<\/ul>\n<h2>Additional Company Details<\/h2>We do not accept unsolicited resumes from third party recruiting agencies or firms. The actual salary for this position will be determined by a number of factors, including the scope, complexity and location of the role; the skills, education, training, credentials and experience of the candidate; and other conditions of employment.\n<h2>Sponsorship Details<\/h2>Sponsorship not Offered for this Role","industry":"Insurance","directApply":true,"title":"Software Engineer Intern","@context":"http://schema.org","url":"https://careers-berkley.icims.com/jobs/13671/software-engineer-intern/job","hiringOrganization":{"@type":"Organization","name":"Berkley","sameAs":"UNAVAILABLE"},"responsibilities":"Intrepid Direct is looking for a motivated Software Engineer Intern to join our team for a 12-week period. This position will learn about our engineering SDLC process, assist with daily production support items, learn about unit and integration testing, and contribute enhancements to our codebase. As part of the internship, you will be paired up with one of our cross functional engineering teams. This team will teach you the ins and outs of how an engineering team functions and how technology helps support insurance operations.\r\n \r\nKey functions include but are not limited to:\r\n- Plan work assignments with assigned team members.\r\n- Collaborate with team to work on well-defined technical tasks.\r\n- Debug and troubleshoot technical issues.\r\n- Assist with implementation of features in existing applications.\r\n- Contribute to additional development tasks, including UI, API, and database integrations.\r\n- Create and update unit and integration tests.\r\n- Manage code changes using Git.\r\n- Participate in code reviews.","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"5400 W 110th Street","@type":"PostalAddress","postalCode":"66211","addressLocality":"Overland Park","addressRegion":"KS","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-03-17T00:00:00.000Z","experienceRequirements":"Internship","occupationalCategory":"Hourly/Temporary Positions"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Software Engineer Intern
+Location Name
+KS, Overland Park
+ID
+2026-13671
+Date Posted
+4 weeks ago(3/17/2026 1:56 PM)
+Company
+Intrepid Direct Insurance
+Primary Location
+US-KS-Overland Park
+Category
+Hourly/Temporary Positions
+Company Details
+Intrepid Direct Insurance (IDI) is a rapidly growing direct to consumer property and casualty insurance company. A member of the W. R. Berkley Corporation, a fortune 500 company, rated A+ (Superior) by A.M. Best, Intrepid Direct’s vision is to make life better for business. The insurance industry has not evolved with innovation like other major industries. We’re here to change that. We are making life better for our customers, shareholders, and our team members by leveraging data and technology as insurance experts for our targeted customers. You will be part of a highly collaborative team of talented and focused professionals. Join a group that enjoys working together, trusts each other, and takes pride in our hard-earned success. https://intrepiddirect.com/ The Company is an equal employment opportunity employer.
+Responsibilities
+Intrepid Direct is looking for a motivated Software Engineer Intern to join our team for a 12-week period. This position will learn about our engineering SDLC process, assist with daily production support items, learn about unit and integration testing, and contribute enhancements to our codebase. As part of the internship, you will be paired up with one of our cross functional engineering teams. This team will teach you the ins and outs of how an engineering team functions and how technology helps support insurance operations. Key functions include but are not limited to:Plan work assignments with assigned team members.Collaborate with team to work on well-defined technical tasks.Debug and troubleshoot technical issues.Assist with implementation of features in existing applications.Contribute to additional development tasks, including UI, API, and database integrations.Create and update unit and integration tests.Manage code changes using Git.Participate in code reviews.
+Qualifications
+Enrolled in a Bachelor’s or Master’s degree program in Computer Science or related field.Familiarity with object-oriented programming concepts.Basic understanding of related databases.Strong problem-solving skills and attention to detail.Understanding of JavaScript/TypeScript with frontend development frameworks.Familiarity with backend development using C#/.NET.Familiarity with unit testing.Strong communication skills.Eager to learn and work in a fast-paced environment.Angular, C#/.NET, and SQL experience is a plus, but not required.Experience using APIs.
+Additional Company Details
+We do not accept unsolicited resumes from third party recruiting agencies or firms.The actual salary for this position will be determined by a number of factors, including the scope, complexity and location of the role; the skills, education, training, credentials and experience of the candidate; and other conditions of employment.
+Sponsorship Details
+Sponsorship not Offered for this Role
+Options
+Create Profile & ApplyApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Connect With Us!
+Not ready to apply? Connect with us for general consideration.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};
