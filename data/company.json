@@ -6971,6 +6971,12 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/asteraearlycareer2026/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4598394005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605619005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605622005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605684005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4624887005",
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4638279005",
       "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4649807005"
     ]
   },
@@ -8729,7 +8735,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4623927005",
       "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624587005",
-      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624814005"
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624814005",
+      "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624816005"
     ]
   },
   {
@@ -13296,6 +13303,8 @@
     "urls": [
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Electrical-Test-Design-Engineer_R0158884",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Software-Systems-Engineer_R0159110",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159056",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159060",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Electrical-Engineering-Intern---Summer-2026_R0155999",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Summer-2026-Mechanical-Engineer-Intern_R0159061",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-AL-Huntsville/Guidance--Navigation--and-Control-Intern_R0154043",

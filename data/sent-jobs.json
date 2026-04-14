@@ -1,5 +1,218 @@
 [
   {
+    "company": "pae",
+    "role": "Chemical Engineering Intern – Oak Ridge",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159056",
+    "location": "US-TN-Oak Ridge"
+  },
+  {
+    "company": "pae",
+    "role": "Chemical Engineering Intern – Oak Ridge",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159060",
+    "location": "US-TN-Oak Ridge"
+  },
+  {
+    "company": "The New York Times",
+    "role": "iOS Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624816005",
+    "location": "New York, NY",
+    "id": 1012,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "At least 6 months of iOS experience",
+        "Understand iOS design patterns, memory management, and multi-threading",
+        "Hands-on iOS Swift experience, including unit tests and SwiftUI integration",
+        "Good product sense to translate goals into quality code"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "Photonics Integrated Circuits Engineer (Intern 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4624887005",
+    "location": "San Jose, CA",
+    "id": 1011,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have PhD or MS degree in Electrical Engineering, Applied Physics, or Physics.",
+        "Experience in design, simulations, tape-out/fabrication, and measurements of integrated photonic devices and circuits.",
+        "Deep understanding of photonic devices and integrated circuits, especially for high-speed optical communications.",
+        "Familiarity with simulation tools for photonic devices and integrated circuits.",
+        "Knowledge of optical transceivers.",
+        "Knowledge of electronic circuits interfacing with photonic devices and integrated circuits.",
+        "Relevant research publications or patents in photonics.",
+        "Familiarity with programming/scripting languages such as Python, Matlab, or C.",
+        "Strong technical independent contributor with proven ability to drive results.",
+        "Excellent teamwork, presentation, and documentation skills.",
+        "Ability to collaborate with global teams and deliver under pressure with strict deadlines."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "Hardware Test Engineer (Internship 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4638279005",
+    "location": "San Jose, CA",
+    "id": 1010,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Support post-silicon validation of connectivity products",
+        "Hold B.S. or M.S. in EE or related field",
+        "Complete coursework in RF/microwave and communication systems",
+        "Possess working knowledge of analog and digital circuit design fundamentals",
+        "Gain lab experience with oscilloscopes, VNA, and Sourcemeter",
+        "Proficient in scripting or software development with Python, C/C++, or Java",
+        "Experience using Python for lab instrument automation and control",
+        "Experience with microcontroller projects or custom PC builds",
+        "Knowledge of Signal Integrity, S-Parameters, SERDES, and Jitter Decomposition",
+        "Experience with PCI Express or other high-speed serial interfaces"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "Hardware Electrical Engineer - EED (Intern 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4598394005",
+    "location": "San Jose, CA",
+    "id": 1009,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist with hardware development",
+        "Assist with bring-up",
+        "Assist with design reviews",
+        "Conduct electronic measurements and analysis",
+        "Develop hardware for testing",
+        "Perform schematic entry and PCB layout",
+        "Design circuits",
+        "Assist with validation",
+        "Manage BOM",
+        "Pursue a bachelor's with honors in electrical engineering",
+        "Possess a strong background in electrical engineering",
+        "Demonstrate a self-starting, strong initiative, and can-do attitude",
+        "Have a strong understanding of circuit design and analysis",
+        "Have a strong understanding of microelectronics",
+        "Have a strong understanding of electronics test",
+        "Possess strong debugging skills",
+        "Be proficient in Microsoft Office",
+        "Have experience with PCB layout",
+        "Have experience with schematic entry",
+        "Have experience with oscilloscopes and electronics lab equipment"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "Electrical Validation Engineer (Internship 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605684005",
+    "location": "San Jose, CA",
+    "id": 1008,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Support post-silicon validation of connectivity products",
+        "Currently pursuing B.S. or M.S. in EE or a related field",
+        "Completed coursework in RF/microwave and communication systems",
+        "Possess working knowledge of analog and digital circuit design fundamentals",
+        "Experienced with lab equipment including oscilloscopes, VNAs, and Sourcemeters",
+        "Proficient in scripting or software development with Python, C/C++, or Java",
+        "Apply Python for automation and control of lab instruments",
+        "Engaged in projects with microcontrollers like Arduino/Raspberry Pi",
+        "Familiar with Signal Integrity, S-Parameters, SERDES architecture, and Jitter Decomposition",
+        "Experience with PCI Express or other high-speed serial interfaces such as USB"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "ATE Test Engineer (Internship 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605622005",
+    "location": "San Jose, CA",
+    "id": 1007,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong academic and technical background in electrical engineering",
+        "Pursuing Bachelor's in EE is required",
+        "Pursuing Master's is preferred",
+        "Coursework including detailed C++ s/w design with microprocessor coding a plus",
+        "Working knowledge of high-speed protocols like PCIe, Ethernet, Infiniband, DDR, NVMe, USB",
+        "Professional attitude with ability to execute on multiple tasks",
+        "Strong team player with excellent communication skills",
+        "Entrepreneurial, open-mind behavior and can-do attitude",
+        "Collaborate with design team to define test strategy, create and own test plan",
+        "Fluent in data processing using high level programming languages including familiarity with modern databases",
+        "Knowledge with PCB board design and validation techniques",
+        "Strong knowledge and development of DFT techniques implemented in silicon",
+        "Knowledge of control interfaces \tI2C, I3C, SPI, MDIO, JTAG",
+        "Knowledge of high speed communication protocols operating at 16Gbps and higher",
+        "Semiconductor development coursework with firm understanding of the design flow and implementation",
+        "Experience with lab equipment including protocol analyzers and oscilloscopes"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "Analog/Mixed-Signal Engineer - SerDes (PhD Intern 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605619005",
+    "location": "Irvine, CA or San Jose, CA",
+    "id": 1006,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master’s or PhD degree in EE",
+        "Possess hands-on experience designing high-speed mixed-signal circuits",
+        "Understand biasing, band-gaps, reference circuits, opamps, and comparators",
+        "Demonstrate a solid track-record in analog circuit implementation for high-speed data transmission",
+        "Have design and tapeout experience in advanced CMOS nodes (20nm or newer)",
+        "Possess solid fundamentals in transistor-level design, feedback/stability analysis, and noise/jitter analysis",
+        "Know TIA design and drivers for optical applications",
+        "Possess experience in RFIC design for wireless or wireline communication systems",
+        "Be a strong technical independent contributor with proven ability to drive results",
+        "Exhibit excellent teamwork, presentation, and documentation skills",
+        "Collaborate with global teams across multiple time zones and deliver under pressure with strict deadlines",
+        "Possess strong experience in lab chip bring-up and debugging efforts",
+        "Have relevant research publications or patents in analog or RF IC design",
+        "Be familiar with programming/scripting languages such as Python, Matlab, or C",
+        "Possess experience with PCB design",
+        "Be familiar with Verilog RTL or DSP design concepts",
+        "Know optical transceivers",
+        "Possess expertise in ESD protection techniques and IC packaging methodologies"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "BlackSky",
     "role": "Machine Learning Engineer (MLE) Intern",
     "link": "https://boards.greenhouse.io/blacksky/jobs/8499022002?gh_jid=8499022002",
