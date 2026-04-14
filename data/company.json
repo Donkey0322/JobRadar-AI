@@ -2275,6 +2275,7 @@
     "page": "https://api.icims.com/v1/companies/berkley/jobs",
     "urls": [
       "https://careers-berkley.icims.com/jobs/12803/job?mobile=true&needsRedirect=false",
+      "https://careers-berkley.icims.com/jobs/13197/job?mobile=true&needsRedirect=false",
       "https://careers-berkley.icims.com/jobs/13671/job?mobile=true&needsRedirect=false"
     ]
   },
@@ -5803,7 +5804,8 @@
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/OH05-01-Beachwood-Science-Park-Drive/Software-Engineering-Intern---Workflow-Platform_R4036410-2",
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/OH05-01-Beachwood-Science-Park-Drive/Software-Engineering-Intern_R4036411-1",
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Salt-Lake-City/Software-Engineering-Intern-Summer-2026_R4028914-1",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Phoenix/Engineering-Intern_R4039198-2"
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Phoenix/Engineering-Intern_R4039198-2",
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-Software-Engineering--f-m-d-_R4037928-1"
     ]
   },
   {
@@ -5824,7 +5826,8 @@
     "domain": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal",
     "page": "https://geisinger.wd5.myworkdayjobs.com/wday/cxs/geisinger/geisingerexternal/jobs",
     "urls": [
-      "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate--Software-Development-_R-92541"
+      "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate--Software-Development-_R-92541",
+      "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Applications-_R-94324"
     ]
   },
   {
