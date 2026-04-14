@@ -1999,6 +1999,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/US-NE-Omaha/Software-Development-Engineering-Intern---Summer-2026_318647",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-OK-Oklahoma-City/Automations-Intern---Summer-2026_321976",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-OK-Oklahoma-City/Software-Development-Intern---Summer-2026_317306",
+      "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-Austin/Software-Engineer-Intern---Summer-2026_316653",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-San-Antonio/Software-Engineering-Intern---Summer-2026_322038",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Ashburn/AI-Prompt-Engineer-Intern_321469",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Ashburn/Program-Operations-Intern_318326",
@@ -2041,7 +2042,8 @@
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SANTA-FE-01/Intern---Scientific-Developer-Target-Exploration_R52829-2",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SANTA-FE-01/Intern-Backend-Developer_R52938",
       "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/AUSTIN-03/Software-R-D-Intern--Summer_R52361-1",
-      "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Intern_R51989-1?Indeed="
+      "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/SAN-JOSE/Software-Intern_R51989-1?Indeed=",
+      "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54380-1"
     ]
   },
   {
@@ -4517,6 +4519,7 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/WDI-Figure-Programming-Intern--Summer-Fall-2026_10131865",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Art-and-Media-Pipeline--Summer-2026_10146129-2",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Software-Engineering-Intern--Summer-2026-_10135863",
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/ABC-News-Product-Management-and-Engineering-Intern--Summer-Fall-2026_10147928",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/Software-Engineering-Intern--Summer-2026_10135070",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/WABC-TV--ABC7--7-on-Your-Side-Intern--Spring-2026_10131139",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Software-Engineering-Intern--Summer-2026_10135329-1",
@@ -10841,6 +10844,7 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/hermeus?mode=json",
     "urls": [
+      "https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db",
       "https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67/apply"
     ]
   },
@@ -13288,6 +13292,8 @@
     "page": "https://pae.wd1.myworkdayjobs.com/wday/cxs/pae/amentum_careers/jobs",
     "urls": [
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Electrical-Test-Design-Engineer_R0158884",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Software-Systems-Engineer_R0159110",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Electrical-Engineering-Intern---Summer-2026_R0155999",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Summer-2026-Mechanical-Engineer-Intern_R0159061",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-AL-Huntsville/Guidance--Navigation--and-Control-Intern_R0154043",
       "https://pae.wd1.myworkdayjobs.com/en-US/amentum_careers/job/US-AL-Huntsville/SLS-Mission-Analysis-Intern_R0154111",
@@ -16325,6 +16331,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/nasuni/jobs",
     "urls": [
       "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5134719008",
+      "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5142962008",
       "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5158479008"
     ]
   },
