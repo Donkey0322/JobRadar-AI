@@ -1,5 +1,39 @@
 [
   {
+    "company": "Geisinger",
+    "role": "Intern Undergraduate IT",
+    "link": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Applications-_R-94324",
+    "location": "Pennsylvania",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "W.R. Berkley",
+    "role": "Automation Engineering Co-Op",
+    "link": "https://careers-berkley.icims.com/jobs/13197/job?mobile=true&needsRedirect=false",
+    "location": "Grimes, IA",
+    "season": "2026 Summer",
+    "id": 1015,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Information Systems, Engineering, or related field.",
+        "Familiar with Power Automate, Power Platform, or similar low-code tools.",
+        "Understand basic APIs, webhooks, and data integration concepts.",
+        "Possess knowledge of scripting languages like JavaScript or Python.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication and collaboration abilities.",
+        "Self-starter with passion for process improvement and technology.",
+        "Experience with n8n or other open-source automation platforms.",
+        "Exposure to enterprise systems like Salesforce, Service Now, Microsoft Dynamics.",
+        "Understand microservices architecture and event-driven systems.",
+        "Experience utilizing AI Platforms within workflows for efficiency."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "pae",
     "role": "Chemical Engineering Intern – Oak Ridge",
     "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159056",
