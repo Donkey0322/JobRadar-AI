@@ -1,5 +1,26 @@
 [
   {
+    "company": "The Joint Commission",
+    "role": "Software Development Intern",
+    "link": "https://careers-jointcommission.icims.com/jobs/7225/job?mobile=true&needsRedirect=false",
+    "location": "Lombard, IL",
+    "season": "2026 Summer",
+    "id": 4244,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with Web API, C#, and REST Services.",
+        "Familiar with AngularJS JavaScript Framework, HTML, and CSS.",
+        "Currently enrolled in a computer science or related degree program.",
+        "Familiar with the software development life cycle.",
+        "Excellent verbal and written communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "TD Bank",
     "role": "Software Engineer Intern/Co-op",
     "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Software-Engineer-Intern-Co-op--Fall-2026-_R_1481069",
