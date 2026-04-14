@@ -1,5 +1,115 @@
 [
   {
+    "company": "ptc",
+    "role": "Software Engineer Intern",
+    "link": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR111950",
+    "location": "Boston, MA, USA"
+  },
+  {
+    "company": "moog",
+    "role": "Intern, Software Engineering",
+    "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-16800",
+    "location": "Buffalo, NY",
+    "id": 982,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Computer Engineering, Computer Science Engineering, or Software Engineering Bachelor's or Master's Degree program",
+        "Maintain a GPA of at least 3.0",
+        "Able to relocate for the duration of the internship",
+        "Possess a professional disposition",
+        "Demonstrate effective communication skills",
+        "Exhibit a strong desire to learn",
+        "Maintain a positive attitude",
+        "Able to work in a team environment",
+        "Participate in the design and implementation of software for embedded aircraft control systems",
+        "Contribute to the preparation and execution of key engineering tasks",
+        "Provide technical support to engineers",
+        "Provide input on project processes, strategies, and execution",
+        "Operate as a multidisciplinary member of a team",
+        "Represent Moog professionally"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch Group",
+    "role": "Intern, Engineering Application Mechanics - New Brake Systems",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000120702643",
+    "location": "Plymouth, MI, United States",
+    "id": 981,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in or completed third year of a Bachelor's degree in Mechanical Engineering or related discipline",
+        "Demonstrated ability to quickly learn and apply new software tools and technologies",
+        "Have a hands-on, practical approach to problem-solving and learning",
+        "Possess strong attention to detail and organizational skills",
+        "Familiarity with CAD software and/or simulation tools",
+        "Experience with data analysis or visualization tools",
+        "Knowledge of hydraulic systems or vehicle dynamics"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Paint Stores Group",
+    "role": "2026 Fall Engineering Co-Op - Holland, MI",
+    "link": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2605884",
+    "location": "Holland, MI, United States"
+  },
+  {
+    "company": "Paint Stores Group",
+    "role": "2026 Fall Engineering Co-op Program - Holland, MI",
+    "link": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2604100",
+    "location": "Holland, MI, United States"
+  },
+  {
+    "company": "Paint Stores Group",
+    "role": "2026 Fall Engineering Co-Op Program - Marengo, IL",
+    "link": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2604106",
+    "location": "Marengo, IL, United States"
+  },
+  {
+    "company": "Paint Stores Group",
+    "role": "2026 Fall Engineering Co-Op Program - Garland, TX",
+    "link": "https://ejhp.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs/job/2604091",
+    "location": "Garland, TX, United States"
+  },
+  {
+    "company": "caci",
+    "role": "Mechanical Engineer Summer Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-DC-Washington/Mechanical-Engineer-Summer-Intern---Summer-2026_324850",
+    "location": "US DC Washington",
+    "id": 980,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in Electrical, Marine, or related Engineering.",
+        "Possess strong verbal and written communication skills for technical issues.",
+        "Create graphical representations and PowerPoints.",
+        "Possess strong analytical skills.",
+        "Willing to travel up to 10% of the time.",
+        "Perform design shipchecks on MSC and Navy ships.",
+        "Maintain a minimum 3.0 GPA.",
+        "Possess strong interpersonal and communication skills.",
+        "Demonstrate attention to detail.",
+        "Be a self-starter, hard worker, and capable of multi-tasking.",
+        "Have entry-level experience with AutoCAD, SolidWorks, or similar CAD software."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "InterSystems",
     "role": "Sales Engineer Working Student",
     "link": "https://www.intersystems.com/careers/careers-search/?gh_jid=7593713003",
