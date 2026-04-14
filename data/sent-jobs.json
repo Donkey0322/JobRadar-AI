@@ -1,5 +1,34 @@
 [
   {
+    "company": "kla",
+    "role": "Algorithm Engineering Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2531392",
+    "location": "Ann Arbor, MI"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Developer GTM Intern – Enterprise Sales & AI Automation (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7789256?gh_jid=7789256",
+    "location": "In-Office",
+    "id": 991,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Engineering, Business, or related field",
+        "Interest in enterprise sales, developer ecosystems, and technical product adoption",
+        "Hands-on experience with AI tools (LLMs, automation, no-code) or eagerness to learn",
+        "Strong analytical skills and a bias toward action",
+        "Excellent written and verbal communication skills",
+        "Be a self-starter who thrives in ambiguity",
+        "Ability to commit to a minimum 12-week summer internship"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Xylem",
     "role": "Application Engineer – Intern",
     "link": "https://xylem.wd5.myworkdayjobs.com/en-US/xylem-careers/job/Cheektowaga-New-York/Application-Engineer---Intern_R47633",
