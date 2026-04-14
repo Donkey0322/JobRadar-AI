@@ -753,6 +753,7 @@
       "https://apply.workable.com/altom-transport/j/FCF5E0B4FC/apply",
       "https://apply.workable.com/coldquanta/j/32919D6F52/apply",
       "https://apply.workable.com/eluvio/j/B37F02D08D/apply",
+      "https://apply.workable.com/enfos-inc/j/7364AA5599/",
       "https://apply.workable.com/evolv-technology/j/AFBA309834/apply",
       "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply"
     ]
@@ -1597,7 +1598,8 @@
       "https://boards.greenhouse.io/cloudflare/jobs/7774167",
       "https://boards.greenhouse.io/cloudflare/jobs/7774224",
       "https://boards.greenhouse.io/cloudflare/jobs/7775203",
-      "https://boards.greenhouse.io/cloudflare/jobs/7781953"
+      "https://boards.greenhouse.io/cloudflare/jobs/7781953",
+      "https://boards.greenhouse.io/cloudflare/jobs/7789256?gh_jid=7789256"
     ]
   },
   {
@@ -6472,6 +6474,16 @@
     "page": "https://huntsman.wd1.myworkdayjobs.com/wday/cxs/huntsman/huntsman/jobs",
     "urls": [
       "https://huntsman.wd1.myworkdayjobs.com/Huntsman/job/USA---Texas---Houston---The-Woodlands---Corporate-Office/IT---Infrastructure-Internship_J-018965-1"
+    ]
+  },
+  {
+    "name": "hyundaiautoeveramerica.applytojob.com",
+    "ats": "custom",
+    "identifier": "hyundaiautoeveramerica.applytojob.com",
+    "domain": "https://hyundaiautoeveramerica.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://hyundaiautoeveramerica.applytojob.com/apply/RkFmYUEyd3/Software-Engineer-Intern"
     ]
   },
   {
@@ -12109,6 +12121,7 @@
     "urls": [
       "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Milpitas-CA/Software-Engineering-Intern_2532385-1",
       "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Totowa-NJ/VC---Software-Developer-Intern_2532831",
+      "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2531392",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Algorithm-Engineer-Intern_2635538",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Engineering-Intern_2532514"
     ]
@@ -16811,6 +16824,16 @@
     "page": "https://xenergy.wd5.myworkdayjobs.com/wday/cxs/xenergy/x-energyus/jobs",
     "urls": [
       "https://xenergy.wd5.myworkdayjobs.com/X-energyUS/job/Rockville-MD/Nuclear-Engineering-Intern_R100745-1"
+    ]
+  },
+  {
+    "name": "xylem",
+    "ats": "workday",
+    "identifier": "xylem-xylem-careers",
+    "domain": "https://xylem.wd5.myworkdayjobs.com/xylem-careers",
+    "page": "https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs",
+    "urls": [
+      "https://xylem.wd5.myworkdayjobs.com/en-US/xylem-careers/job/Cheektowaga-New-York/Application-Engineer---Intern_R47633"
     ]
   },
   {
