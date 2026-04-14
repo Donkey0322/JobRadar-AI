@@ -1,5 +1,49 @@
 [
   {
+    "company": "ENFOS",
+    "role": "Frontend Engineering Intern (UI/UX Focus)",
+    "link": "https://apply.workable.com/enfos-inc/j/7364AA5599/",
+    "location": "Durham, NC",
+    "season": "2026 Summer",
+    "id": 989,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hyundai AutoEver America",
+    "role": "Software Engineer Intern",
+    "link": "https://hyundaiautoeveramerica.applytojob.com/apply/RkFmYUEyd3/Software-Engineer-Intern",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 988,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist in development, testing, and support of solutions.",
+        "Support teams by analyzing requirements and documenting processes.",
+        "Collaborate with engineers, analysts, and project teams.",
+        "Participate in troubleshooting and continuous improvement efforts.",
+        "Create and maintain documentation for systems and workflows.",
+        "Apply problem-solving skills to recommend effective solutions.",
+        "Pursue a bachelor's degree in computer science or related field.",
+        "Possess strong analytical and problem-solving skills.",
+        "Exhibit excellent communication and documentation skills.",
+        "Demonstrate passion for learning and professional growth.",
+        "Ability to work independently and collaboratively.",
+        "Complete coursework in software engineering, cloud technologies, cybersecurity, data analysis, or business systems.",
+        "Familiarity with cloud platforms such as Azure, AWS, or GCP."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "ptc",
     "role": "Software Engineer Intern",
     "link": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR111950",
