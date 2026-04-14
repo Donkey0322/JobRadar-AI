@@ -1,5 +1,27 @@
 [
   {
+    "company": "gehc",
+    "role": "Internship Software Engineering (f/m/d)",
+    "link": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-Software-Engineering--f-m-d-_R4037928-1",
+    "location": "Zipf",
+    "id": 1017,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a student in Electrical, Mechanical, Biomedical Engineering, or related technical field.",
+        "Proficient in programming and database querying (Python, SQL).",
+        "Able to read and interpret technical drawings and specifications.",
+        "Excellent problem-solving skills and meticulous attention to detail.",
+        "Strong communication and teamwork skills for cross-functional collaboration.",
+        "Fluent in German and English (written and spoken)."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Geisinger",
     "role": "Intern Undergraduate IT",
     "link": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Applications-_R-94324",
