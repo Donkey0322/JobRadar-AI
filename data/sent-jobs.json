@@ -1,5 +1,130 @@
 [
   {
+    "company": "Nasuni",
+    "role": "Software Engineering Intern - Python",
+    "link": "https://www.nasuni.com/about-us/careers/open-positions/?gh_jid=5142962008",
+    "location": "Boston, Massachusetts, United States"
+  },
+  {
+    "company": "pae",
+    "role": "Intern - Software Systems Engineer",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Software-Systems-Engineer_R0159110",
+    "location": "US-AL-Huntsville"
+  },
+  {
+    "company": "pae",
+    "role": "Electrical Engineering Intern - Summer 2026",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Electrical-Engineering-Intern---Summer-2026_R0155999",
+    "location": "US-TN-Oak Ridge",
+    "id": 999,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Current student in pursuit of a Bachelor of Science degree in Electrical Engineering",
+        "Must be at least a rising Junior",
+        "Working knowledge of Microsoft Office programs",
+        "United States Citizenship",
+        "Achieve a 3.0 GPA or higher",
+        "Working knowledge of AutoCAD",
+        "Possess a previous internship related to your field of study",
+        "Reside in the Oak Ridge, TN area",
+        "Exhibit self-driven time management and organizational skills",
+        "U.S. Citizenship is required for access to this project",
+        "Possess a valid driver's license",
+        "Ability to work in a team atmosphere",
+        "Maintain professional behavior",
+        "Pass a pre-employment drug and background check"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "role": "Mission Systems Platform Intern - (Summer/Fall 2026)",
+    "link": "https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db",
+    "location": "Atlanta, GA",
+    "id": 998,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Engineering, Computer Science, IT, or related field",
+        "Familiar with Linux and/or Windows systems",
+        "Exposed to basic networking concepts",
+        "Experienced with hardware (PC builds, wiring, electronics)",
+        "Able to work in cross-functional teams",
+        "Enthusiastic about aviation and Hermeus' mission",
+        "Excellent written and verbal communication skills",
+        "Able to lift equipment (~50 lbs) and work in physical environments",
+        "Maintain a GPA of 3.0 or above",
+        "Experienced with home labs, servers, or virtualization",
+        "Exposed to networking hardware, cabling, or RF systems",
+        "Experienced with CAD, 3D printing, or fabrication",
+        "Familiar with video streaming, comms systems, or simulation setups",
+        "Understand basic power systems, cooling, or facility infrastructure",
+        "Experienced in documenting builds, systems, or processes"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "disney",
+    "role": "ABC News Product Management and Engineering Intern, Summer/Fall 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/ABC-News-Product-Management-and-Engineering-Intern--Summer-Fall-2026_10147928",
+    "location": "New York, NY, USA",
+    "id": 997,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Familiarity with video/television production and workflows",
+        "Experience with multi-tasking in an evolving and collaborative work environment",
+        "Experience with Microsoft Office (Outlook, Excel, Word, PowerPoint)",
+        "Previous experience in video or television production",
+        "Previous academic or work experience in technology and/or IT processes",
+        "Familiarity with a wide range of broadcast technologies",
+        "Familiarity with system administration, software development lifecycle, technical writing, or media platforms",
+        "Major or previous coursework in Broadcast Journalism, Communications, Video Production, Engineering, Information Technology",
+        "Junior or Senior year preferred"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "cadence",
+    "role": "Software Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54380-1",
+    "location": "SAN JOSE"
+  },
+  {
+    "company": "caci",
+    "role": "Software Engineer Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-Austin/Software-Engineer-Intern---Summer-2026_316653",
+    "location": "US TX Austin",
+    "id": 996,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a Sophomore, Junior, or Senior pursuing a relevant Bachelor's or Master's degree",
+        "Maintain a minimum 3.0 GPA",
+        "Familiar with hardware or software tools at an appropriate academic level",
+        "Experience working in a team environment",
+        "Possess an inquisitive nature",
+        "Demonstrate a strong desire to learn"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "300.3500.0200 MAMMOGRAPHY - R & D - CONNECTIVITY, US",
     "role": "Software Engineering Internship",
     "link": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11406",
