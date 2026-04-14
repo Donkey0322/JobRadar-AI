@@ -1,5 +1,415 @@
 [
   {
+    "company": "TD Bank",
+    "role": "Software Engineer Intern/Co-op",
+    "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Software-Engineer-Intern-Co-op--Fall-2026-_R_1481069",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4243,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in a relevant technology program",
+        "Understand Data Structures and Algorithms",
+        "Understand OOP concepts and SOLID Principles",
+        "Possess strong coding, debugging, and problem-solving skills",
+        "Understand at least one programming language and relational databases",
+        "Have a thirst for exploring emerging technology",
+        "Familiar with various programming languages and web technologies",
+        "Familiar with source code management like GIT",
+        "Familiar with Jira and Confluence",
+        "Familiar with cloud technologies",
+        "Practical experience in data management and database development"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TD Bank",
+    "role": "Mobile Software Engineer Intern/Co-op",
+    "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Mobile-Software-Engineer-Intern-Co-op--Fall-2026-_R_1481070",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4242,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a relevant technology program",
+        "Strong knowledge of object-oriented design, implementation, and maintenance",
+        "Understand Data Structures and Algorithms",
+        "Strong coding, debugging, and problem-solving skills",
+        "Quickly learn new technologies",
+        "Demonstrate leadership and communication skills",
+        "Analytical thinking to develop customer-centric solutions",
+        "Ability to work in a fast-paced, collaborative environment",
+        "Familiar with source code management such as GIT",
+        "Familiar with Jira and Confluence",
+        "Familiar with Android SDK (level 21 and later) and open-source libraries (Retrofit, Dagger2)",
+        "Experienced with Android development tools (Android Studio, Gradle, Emulator)",
+        "Experienced in Android development with Kotlin and Java",
+        "Experienced in iOS development with Swift",
+        "Objective-C experience is nice to have",
+        "Experienced with iOS development tools (Xcode, storyboards)"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TD Bank",
+    "role": "Portfolio Analytics Developer Intern/Co-Op",
+    "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/161-Bay-Street-Corporate-Toronto-Ontario/TD-Asset-Management-Portfolio-Analytics-Developer-Intern-Co-Op--Fall-2026-_R_1482934",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4241,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong software development skills",
+        "Ability to learn new technologies and business concepts quickly",
+        "Experience with JavaScript, especially React and Redux frameworks",
+        "Experience with REST APIs and MVC frameworks",
+        "Proficient in Python",
+        "Experience with SQL and database design",
+        "Proficient in Git version control",
+        "Familiarity with software development in a Linux-based environment",
+        "Comfortable working in a team environment",
+        "Interest or coursework in finance",
+        "Enrolled in an undergraduate degree in Computer Science, Engineering, or Mathematics"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TD Bank",
+    "role": "Business System Analyst Intern/Co-op",
+    "link": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Business-System-Analyst-Intern-Co-op--Fall-2026-_R_1481052",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 4240,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a relevant technology program",
+        "Thirst for exploring emerging technology",
+        "Familiar with Jira and Confluence",
+        "Proficient with Excel, Visio, SQL, or similar tools",
+        "Able to manage multiple priorities and work independently",
+        "Experience with technology project delivery and agile methodology",
+        "Prior experience with diagramming and visualization",
+        "Hands-on programming experience (asset)",
+        "Define, develop, and document business requirements",
+        "Participate in agile pod teams and ceremonies",
+        "Collaborate to deliver end-to-end capabilities",
+        "Participate in Proof of Concept on new technologies",
+        "Provide recommendations with usability analysis",
+        "Conduct program/system research and analysis",
+        "Respond to business and user inquiries",
+        "Troubleshoot and resolve application defects",
+        "Apply SDLC and PMLC methodologies",
+        "Continuously enhance knowledge of technology trends"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Bank of Montreal",
+    "role": "Application Software Developer – Co-op/Intern",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Application-Software-Developer--Summer-2026--Co-op-Internship----4-months_R260011465",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 4239,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Creative thinking",
+        "Build and manage relationships",
+        "Emotional agility",
+        "Proficient in Quality Assurance and Testing",
+        "Knowledge of Cloud computing",
+        "Understand Microservices",
+        "Proficient in Technology Business Requirements Definition, Analysis and Mapping",
+        "Adaptability",
+        "Learning Agility",
+        "Proficient in Programming",
+        "Knowledge of Applications Integration",
+        "Understand Test Driven Development",
+        "Knowledge of System Development Lifecycle",
+        "Strong troubleshooting skills",
+        "Proficient in System and Technology Integration",
+        "Strong verbal and written communication skills",
+        "Strong collaboration and team skills",
+        "Strong analytical and problem-solving skills",
+        "Motivated with a strong desire to learn",
+        "Possess specialized knowledge from education and/or business experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Dover",
+    "role": "Engineer – Software Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1383322133/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 4238,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Convert legacy VB6 applications to modern C#.",
+        "Work directly with senior developers to gain domain knowledge.",
+        "Add testing scenarios to applications after completion.",
+        "Possess a proactive attitude with a strong desire to learn.",
+        "Exhibit a \"to do\" attitude and finish work on time.",
+        "Be a fast learner and responsible.",
+        "Ability to code in a .Net environment.",
+        "Possess basic knowledge of C# programming."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Magna",
+    "role": "Software Engineering Intern",
+    "link": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Lowell-Massachusetts-US/Software-Engineering-Summer-Intern_R00238234-1",
+    "location": "Lowell, MA",
+    "season": "2026 Summer",
+    "id": 4237,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or a related field",
+        "Understand basic programming concepts and data structures",
+        "Familiar with at least one programming language",
+        "Able to learn new technologies quickly",
+        "Strong problem-solving and analytical skills",
+        "Effective written and verbal communication skills",
+        "Experience with web or application development frameworks",
+        "Familiar with version control systems like Git",
+        "Familiar with databases, APIs, or cloud platforms",
+        "Possess prior software development experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Parsons",
+    "role": "Space Ops Software Engineer Intern",
+    "link": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Colorado-Springs/Space-Ops-Software-Engineer-Intern--Summer-2026-_R179543-1",
+    "location": "Colorado Springs, CO",
+    "season": "2026 Summer",
+    "id": 4236,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in computer science or related field.",
+        "Complete at least two years of undergraduate curriculum and maintain a 3.0 GPA.",
+        "Strong analytical and problem-solving skills.",
+        "Experience developing software applications in Java.",
+        "Comfortable learning new tools and concepts quickly.",
+        "Good interpersonal and communication skills in English.",
+        "Be a US Citizen.",
+        "Demonstrated leadership ability through community or campus involvement.",
+        "Possess a positive team-first attitude, willingness to learn, and strong initiative.",
+        "Familiar with object-oriented software design using Java, C++, C#.",
+        "Experience with Rust programming language.",
+        "Experience with Vue JavaScript framework.",
+        "Experience with agile software development techniques.",
+        "Experience with IDE tools like VS Code, IntelliJ, Eclipse.",
+        "Knowledge of CM tools such as Git."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Becton Dickinson",
+    "role": "Product Engineering Intern",
+    "link": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-GA---Covington-BMD/Intern---Product-Engineering_R-542887",
+    "location": "Monroe, GA",
+    "season": "2026 Summer",
+    "id": 4235,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess analytical/strategic thinking ability and mental agility.",
+        "Demonstrate strong attention to detail.",
+        "Exhibit excellent listening and problem-solving skills.",
+        "Have strong interpersonal communication skills.",
+        "Be proficient in personal computer use with intermediate keyboarding.",
+        "Proficient in Microsoft Word, PowerPoint, and Excel.",
+        "Experience with 3-D CAD systems (plus).",
+        "High school degree required.",
+        "Currently pursuing college education in engineering or related field.",
+        "Experience solving problems and making recommendations.",
+        "Experience executing projects in a team environment.",
+        "Able to read, analyze, and interpret business documents.",
+        "Able to effectively present information and respond to questions.",
+        "Able to perform basic mathematical operations.",
+        "Able to compute rate, ratio, percentage, and interpret bar graphs.",
+        "Basic understanding of data analysis techniques (plus).",
+        "Able to solve practical problems with concrete variables.",
+        "Able to interpret various forms of instructions."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "BlueScope",
+    "role": "Software Developer Intern",
+    "link": "https://bluescopenac.wd5.myworkdayjobs.com/en-US/BNACareers/job/MO-Kansas-City/Software-Developer-Intern-Year-2_REQ-2530",
+    "location": "Kansas City, MO",
+    "season": "2026 Summer",
+    "id": 4234,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Learn to apply acquired skills in a professional setting",
+        "Network with different functional areas within the business"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "BlueScope",
+    "role": "Software Developer Intern",
+    "link": "https://bluescopenac.wd5.myworkdayjobs.com/en-US/BNACareers/job/MO-Kansas-City/Software-Developer-Intern-Year-3_REQ-2531",
+    "location": "Kansas City, MO",
+    "season": "2026 Summer",
+    "id": 4233,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess skills acquired in school related to areas of interest"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "BlueScope",
+    "role": "Software Developer Intern",
+    "link": "https://bluescopenac.wd5.myworkdayjobs.com/en-US/BNACareers/job/MO-Kansas-City/Software-Developer-Intern-Year-2_REQ-2532",
+    "location": "Kansas City, MO",
+    "season": "2026 Summer",
+    "id": 4232,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Commvault",
+    "role": "AI & Support Automation Intern",
+    "link": "https://job-boards.greenhouse.io/commvault/jobs/5051703008",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 4231,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with scripting, API integration, and LLM workflow automation.",
+        "Strong communication skills.",
+        "Possess a customer-focused mindset.",
+        "Ability to multitask and prioritize.",
+        "Familiarity with CRM software.",
+        "Be at least 17 years of age.",
+        "Currently enrolled at an accredited institution.",
+        "Enrolled at an accredited institution in Fall 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SumUp",
+    "role": "Sumup Accelerator – Fullstack Engineering Intern",
+    "link": "https://sumup.com/careers/positions/8488447002?gh_jid=8488447002",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4230,
+    "jd": null
+  },
+  {
+    "company": "SumUp",
+    "role": "SumUp Accelerator – Mobile Engineering Intern - Android / iOS",
+    "link": "https://sumup.com/careers/positions/8488446002?gh_jid=8488446002",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 4229,
+    "jd": null
+  },
+  {
+    "company": "Efficient Computer",
+    "role": "Compiler Intern",
+    "link": "https://job-boards.greenhouse.io/efficientcomputer/jobs/4218297009",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 4228,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s degree program in Computer Science or related field.",
+        "Experienced with compiler design and computer architecture.",
+        "Familiar with C++ and low-level programming.",
+        "Experienced with MLIR and LLVM.",
+        "Familiar with hardware design flow and SystemVerilog."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tenstorrent",
+    "role": "Applied AI Workflow Automation Intern",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5104002007",
+    "location": "4 locationsToronto, ON, CanadaAustin, TXSanta Clara, CAFort Collins, CO",
+    "season": "2026 Summer",
+    "id": 4227,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Computer Engineering, Software Engineering, or related fields.",
+        "Comfortable building scripts, tools, or lightweight applications in Python or other programming languages.",
+        "Interested in applied AI, LLMs, agentic systems, workflow automation, or retrieval systems.",
+        "Comfortable working with APIs and integrating across multiple tools and systems.",
+        "Able to turn ambiguous workflow problems into practical technical solutions.",
+        "Excited to work with technical and non-technical teams.",
+        "Build and improve AI-driven workflow automation systems.",
+        "Design and implement automation using Python, APIs, scripts, and LLM-based tools.",
+        "Develop and maintain structured knowledge and retrieval systems.",
+        "Integrate automation into various tools and internal applications."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "leidos",
     "role": "Software Intern",
     "link": "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Intern_R-00180640",
