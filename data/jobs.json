@@ -1,5 +1,159 @@
 [
   {
+    "company": " ALO",
+    "role": "Site Merchandising & Web Operations Intern",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5783250004?gh_jid=5783250004",
+    "location": "Beverly Hills, California, United States",
+    "id": 4250,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Marketing, Business, E-commerce, or a related field.",
+        "Proficient in Microsoft Excel with ability to analyze data and create presentations.",
+        "Proactive and driven with strong attention to detail.",
+        "Possess organizational skills.",
+        "Maintain a strategic mindset for digital merchandising.",
+        "Excellent communication and collaboration skills.",
+        "Work effectively within cross-functional teams.",
+        "Experience with e-commerce platforms (e.g., Shopify, Magento).",
+        "Familiarity with analytical tools (e.g., Google Analytics, Tableau, Heap).",
+        "Experience with content management systems.",
+        "Have an analytical mindset to interpret data trends.",
+        "Contribute to strategic merchandising decisions.",
+        "Passionate about e-commerce, digital marketing, and the fashion industry.",
+        "Demonstrate creative problem-solving skills.",
+        "Contribute innovative ideas to improve customer experience."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": " ALO",
+    "role": "Engineering Intern - HR/Payroll Systems",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5781892004?gh_jid=5781892004",
+    "location": "Beverly Hills, California, United States",
+    "id": 4249,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or recently completed a degree in Computer Science.",
+        "Good knowledge of programming languages such as JAVA, SQL, PL/SQL, PYTHON, or C.",
+        "Good knowledge of financial processes, accounting procedures, and financial applications.",
+        "Proficient in Microsoft Office (PowerPoint, Excel, Visio), Lucid Charts, and Google Docs.",
+        "Excellent written, verbal, and listening skills.",
+        "Ability to document requirements with keen attention to detail.",
+        "Ability to speak effectively to business and IT partners."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": " ALO",
+    "role": "Engineering Intern – Business Technology Operations (Operations Data & Visibility)",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5781932004?gh_jid=5781932004",
+    "location": "Beverly Hills, California, United States",
+    "id": 4248,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Data Science, Information Systems, or a related technical field.",
+        "Strong working knowledge of SQL and relational databases.",
+        "Experience with data modeling, ETL/ELT concepts, and analytical workflows.",
+        "Familiarity with Python, Java, or C# programming languages.",
+        "Interested in data analytics, business intelligence, and operational reporting.",
+        "Strong problem-solving skills and ability to work with ambiguous requirements.",
+        "Communicate technical concepts clearly to stakeholders.",
+        "Passionate for learning new technologies.",
+        "Exposed to cloud data platforms (AWS, Azure).",
+        "Experience with BI tools like ThoughtSpot, Tableau, or Power BI.",
+        "Coursework or projects involving supply chain, logistics, or operations analytics."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": " ALO",
+    "role": "Engineering Intern - Business Technology Operations (Foundational PIM)",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5781907004?gh_jid=5781907004",
+    "location": "Beverly Hills, California, United States",
+    "id": 4247,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Data Science, Information Systems, or a related technical field.",
+        "Strong working knowledge of SQL and relational databases.",
+        "Understand data modeling concepts, including entities, attributes, relationships, and normalization.",
+        "Experienced with or exposed to ETL / ELT pipelines and data integration concepts.",
+        "Familiar with one or more programming or scripting languages such as Python, Java, or C#.",
+        "Interested in enterprise systems, data platforms, and foundational architecture.",
+        "Strong problem-solving skills.",
+        "Able to communicate technical concepts clearly to both technical and non-technical stakeholders.",
+        "Desire to build systems that will be used and extended by others over time.",
+        "Exposed to Product Information Management (PIM), Master Data Management (MDM), or data governance concepts.",
+        "Familiar with cloud data platforms (AWS, Azure).",
+        "Experienced in integrating data from SaaS platforms.",
+        "Completed coursework or projects involving data architecture or enterprise systems."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": " ALO",
+    "role": "Data Engineering Intern",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5789987004?gh_jid=5789987004",
+    "location": "San Ramon, California, United States",
+    "id": 4246,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a BS or MS in Computer Science, Data Engineering, or related field",
+        "Strong SQL and Python skills",
+        "Experience with APIs, data ingestion, and transformation frameworks",
+        "Familiarity with data warehouse concepts and performance tuning",
+        "Experience with eCommerce or retail datasets",
+        "Familiarity with customer segmentation or recommendation systems"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": " ALO",
+    "role": "Data Engineering Intern",
+    "link": "https://boards.greenhouse.io/aloyoga/jobs/5789977004?gh_jid=5789977004",
+    "location": "Beverly Hills, California, United States; San Ramon, California, United States",
+    "id": 4245,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a BS or MS in Computer Science, Data Engineering, or related field.",
+        "Possess strong SQL and Python skills.",
+        "Experience with APIs, data ingestion, and transformation frameworks.",
+        "Familiarity with data warehouse concepts and performance tuning.",
+        "Experience with eCommerce or retail datasets.",
+        "Familiarity with customer segmentation or recommendation systems."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "The Joint Commission",
     "role": "Software Development Intern",
     "link": "https://careers-jointcommission.icims.com/jobs/7225/job?mobile=true&needsRedirect=false",
