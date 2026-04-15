@@ -5827,6 +5827,7 @@
     "page": "https://geisinger.wd5.myworkdayjobs.com/wday/cxs/geisinger/geisingerexternal/jobs",
     "urls": [
       "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate--Software-Development-_R-92541",
+      "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Application-Developer-_R-94604",
       "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Applications-_R-94324"
     ]
   },
@@ -7992,7 +7993,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/lgelectronics/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/lgelectronics/jobs/5156458008"
+      "https://job-boards.greenhouse.io/lgelectronics/jobs/5156458008",
+      "https://job-boards.greenhouse.io/lgelectronics/jobs/5187935008"
     ]
   },
   {
@@ -9221,6 +9223,16 @@
     ]
   },
   {
+    "name": "Ontic",
+    "ats": "ashby",
+    "identifier": "Ontic",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/Ontic",
+    "urls": [
+      "https://jobs.ashbyhq.com/Ontic/c2fa0616-b853-4cf1-a39e-137220f77a73/application"
+    ]
+  },
+  {
     "name": "PAR%20Technology",
     "ats": "ashby",
     "identifier": "PAR%20Technology",
@@ -9737,6 +9749,25 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/lindy",
     "urls": [
       "https://jobs.ashbyhq.com/lindy/a8e64e62-ecbf-4fbb-bfe8-655633710f20/application"
+    ]
+  },
+  {
+    "name": "marianaminerals",
+    "ats": "ashby",
+    "identifier": "marianaminerals",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/marianaminerals",
+    "urls": [
+      "https://jobs.ashbyhq.com/marianaminerals/3632d6b6-386a-441d-bb28-ee98b11650dc",
+      "https://jobs.ashbyhq.com/marianaminerals/3d0923a9-f0cf-4d96-91c9-5988665bf2f5",
+      "https://jobs.ashbyhq.com/marianaminerals/4a03388b-7f1c-4c52-9bfc-27c5e6431880",
+      "https://jobs.ashbyhq.com/marianaminerals/56508bc2-b1af-40c3-8340-d974334d8d6c",
+      "https://jobs.ashbyhq.com/marianaminerals/7974b67d-92d8-49a5-bef5-079320962aee",
+      "https://jobs.ashbyhq.com/marianaminerals/82cddcc9-9f9d-4f9d-be2b-80d532777416",
+      "https://jobs.ashbyhq.com/marianaminerals/a291cd14-c56e-4e33-a06f-2708bb08269f",
+      "https://jobs.ashbyhq.com/marianaminerals/a8d2878d-bd25-4eff-9957-3925901bc40d/application",
+      "https://jobs.ashbyhq.com/marianaminerals/aea63917-11ec-4474-b417-e232192c14d4",
+      "https://jobs.ashbyhq.com/marianaminerals/dd98bfe4-4126-46e2-b8e4-f502df27d8e9"
     ]
   },
   {
@@ -12347,6 +12378,16 @@
     ]
   },
   {
+    "name": "lighting",
+    "ats": "workday",
+    "identifier": "lighting-jobs-and-careers",
+    "domain": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers",
+    "page": "https://lighting.wd3.myworkdayjobs.com/wday/cxs/lighting/jobs-and-careers/jobs",
+    "urls": [
+      "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Software-Engineering-Intern--Cooper-Lighting-Solutions--Summer-2026-_363549-1"
+    ]
+  },
+  {
     "name": "littelfuse",
     "ats": "workday",
     "identifier": "littelfuse-littelfuse-careers",
@@ -12354,6 +12395,18 @@
     "page": "https://littelfuse.wd1.myworkdayjobs.com/wday/cxs/littelfuse/littelfuse-careers/jobs",
     "urls": [
       "https://littelfuse.wd1.myworkdayjobs.com/Littelfuse-Careers/job/Chicago/AI-Engineering-Intern_JR-111239-1"
+    ]
+  },
+  {
+    "name": "livanova",
+    "ats": "workday",
+    "identifier": "livanova-search",
+    "domain": "https://livanova.wd5.myworkdayjobs.com/search",
+    "page": "https://livanova.wd5.myworkdayjobs.com/wday/cxs/livanova/search/jobs",
+    "urls": [
+      "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Design-Verification-Engineer-Intern_JR-14386",
+      "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Electrical-Engineering-Summer-Intern_JR-14215",
+      "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Systems-Engineering---AI-Workflows-Intern_JR-14385"
     ]
   },
   {
@@ -13023,6 +13076,7 @@
     "domain": "https://nio.wd3.myworkdayjobs.com/nio_careers",
     "page": "https://nio.wd3.myworkdayjobs.com/wday/cxs/nio/nio_careers/jobs",
     "urls": [
+      "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Agent-Intern--Semantic-Search-_R-000148",
       "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/Systems-Verification---Concurrent-Kernel-Architecture-Research-Intern_R-000139"
     ]
   },
@@ -14161,6 +14215,17 @@
     ]
   },
   {
+    "name": "sbasite",
+    "ats": "workday",
+    "identifier": "sbasite-sba_communications_careers",
+    "domain": "https://sbasite.wd5.myworkdayjobs.com/sba_communications_careers",
+    "page": "https://sbasite.wd5.myworkdayjobs.com/wday/cxs/sbasite/sba_communications_careers/jobs",
+    "urls": [
+      "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101703",
+      "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101706"
+    ]
+  },
+  {
     "name": "sbdinc",
     "ats": "workday",
     "identifier": "sbdinc-stanley_black_decker_career_site",
@@ -15094,7 +15159,8 @@
       "https://university-uber.icims.com/jobs/153349/job?mobile=true&needsRedirect=false",
       "https://university-uber.icims.com/jobs/155244/job?mobile=true&needsRedirect=false",
       "https://university-uber.icims.com/jobs/155963/job?mobile=true&needsRedirect=false",
-      "https://university-uber.icims.com/jobs/156281/job?mobile=true&needsRedirect=false"
+      "https://university-uber.icims.com/jobs/156281/job?mobile=true&needsRedirect=false",
+      "https://university-uber.icims.com/jobs/158324/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -16706,7 +16772,8 @@
       "https://www.uber.com/global/en/careers/list/152174/",
       "https://www.uber.com/global/en/careers/list/153349/",
       "https://www.uber.com/global/en/careers/list/155963/",
-      "https://www.uber.com/global/en/careers/list/156281/"
+      "https://www.uber.com/global/en/careers/list/156281/",
+      "https://www.uber.com/global/en/careers/list/158324/"
     ]
   },
   {
