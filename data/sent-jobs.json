@@ -1,5 +1,161 @@
 [
   {
+    "company": "ssctech",
+    "role": "Software Engineering Co-op",
+    "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineering-Co-op_R42258",
+    "location": "Waltham MA - 10 CityPoint"
+  },
+  {
+    "company": "pluralsight",
+    "role": "Software Engineer Intern",
+    "link": "https://pluralsight.wd1.myworkdayjobs.com/careers/job/Hybrid---Texas-Westlake/Software-Engineer-Intern_R0013955",
+    "location": "Hybrid - Texas (Westlake)",
+    "id": 513,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Love exploring new technologies and keeping technical skills sharp",
+        "Attentive to quality code and processes",
+        "Passionate about collaboration, innovation, learning, and excellence",
+        "Learn from the technical abilities of others",
+        "Amazing communicator and effective influencer",
+        "Analytical, conscientious, and quality-driven",
+        "Design, build, and support high performance distributed systems",
+        "Write unit tests, perform code reviews, and participate in design discussions",
+        "Understand basic principles of Source Control, Unit Testing, Test Driven Development, and Pair or Mob Programming",
+        "Current junior pursuing an undergraduate degree in CS or related field",
+        "Software Development training through formal coursework or equivalent experience",
+        "Familiarity or interest in HTML, CSS, JavaScript, React TypeScript, C#, Python, SQL, Java",
+        "Familiarity or interest in Ruby on Rails",
+        "Familiarity or interest in Test Driven Development and collaborative programming",
+        "Familiarity or interest in the Software Development Life Cycle",
+        "Familiarity or interest in building RESTful Web Services",
+        "Ability to interact well in a team environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "disney",
+    "role": "WDI Software Developer Intern, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Summer-2026_10148308",
+    "location": "Glendale, CA, USA",
+    "id": 512,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess knowledge of modern software development practices, including version control and workflow management tools.",
+        "Experienced with C/C++.",
+        "Experienced with JavaScript (Node & Vue).",
+        "Demonstrate proven technical writing, documentation, and communication skills.",
+        "Experienced with Rails/Go, .NET, Python, or Unreal.",
+        "Experienced with MS Visual Studio.",
+        "Experienced with ShotGrid Pipeline Development, AutoDesk Maya, Motion Builder, AutoCAD Touch Designer, Motion Builder, Unity, or BIM.",
+        "Eager to learn new programming languages and work within complicated systems.",
+        "Currently enrolled as a Junior or higher in Computer Science, Information Systems, Software, Electrical, Electronics Engineering, or comparable."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "cmegroup",
+    "role": "Data Sales Intern - Year Round",
+    "link": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Chicago---20-S-Wacker/Data-Sales-Intern---Year-Round_34297",
+    "location": "Chicago - 20 S. Wacker",
+    "id": 511,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Research industry events by region",
+        "Interact and support clients",
+        "Maintain customer outreach lists",
+        "Assist with customer research and survey management",
+        "Support sales campaign management",
+        "Provide analysis and reporting support for data sales",
+        "Assist Business Analyst with projects and reporting",
+        "Assist in additional business project initiatives",
+        "Strong Google Workspace skills",
+        "Familiarity with Salesforce",
+        "Strong written and verbal communication skills",
+        "Experience working in a team environment",
+        "Possess a technical background or displayed interest in financial data",
+        "Currently enrolled in a four-year college institution",
+        "Pursuing a Bachelor\nHolding a degree in Business Administration, Finance, Marketing, Communications or related field",
+        "Maintain a GPA of at least 3.0",
+        "Attending a Chicagoland University",
+        "Ability to be in the Chicago office 2-3 times a week",
+        "Ability to work 20-30 hours per week during the school year",
+        "Ability to work 30-40 hours per week during the summer"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "caci",
+    "role": "Business Systems Analyst Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Business-Systems-Analyst-Intern---Summer-2026_320830",
+    "location": "Remote (Any State)",
+    "id": 510,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's degree in Computer Science, Computer Engineering, or Software Engineering.",
+        "Ability to obtain and pass a Tier 2 MBI background check.",
+        "Strong problem-solving, troubleshooting, and communication skills.",
+        "Ability to work independently and collaboratively with a team.",
+        "Quick to learn and apply new skills.",
+        "Minimum GPA of 3.0 or higher.",
+        "Previous internship, co-op, or other work experience.",
+        "Demonstrate leadership and teamwork capabilities.",
+        "Possess interpersonal communication skills.",
+        "Knowledge of Agile methodologies."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "baltimorecity",
+    "role": "Geographic Information Systems (GIS) Intern (NCS) - BCIT",
+    "link": "https://baltimorecity.wd1.myworkdayjobs.com/external/job/401-E-Fayette-St/Geographic-Information-Systems--GIS--Intern--NCS----BCIT_R0017030",
+    "location": "401 E Fayette St",
+    "id": 509,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop mapping applications",
+        "Manage GIS data",
+        "Produce cartography and maps",
+        "Manage Open Baltimore open data platform",
+        "Document projects and workflows technically",
+        "Engage in training",
+        "Proficient with ESRI software",
+        "Proficient in Microsoft Office",
+        "Complete coursework in information technology, computer science, or business analytics",
+        "Possess strong organization skills",
+        "Be a critical thinker",
+        "Possess project management skills",
+        "Present recommendations clearly and concisely",
+        "Maintain confidentiality of sensitive information"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Flagship Pioneering Co-Op Program",
     "role": "Technical Development Co-Op",
     "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8395103002",

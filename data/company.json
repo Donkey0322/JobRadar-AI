@@ -1187,7 +1187,8 @@
     "domain": "https://baltimorecity.wd1.myworkdayjobs.com/external",
     "page": "https://baltimorecity.wd1.myworkdayjobs.com/wday/cxs/baltimorecity/external/jobs",
     "urls": [
-      "https://baltimorecity.wd1.myworkdayjobs.com/External/job/401-E-Fayette-St/Digital-Services-Engineering-Intern--NCS----BCIT_R0017096"
+      "https://baltimorecity.wd1.myworkdayjobs.com/External/job/401-E-Fayette-St/Digital-Services-Engineering-Intern--NCS----BCIT_R0017096",
+      "https://baltimorecity.wd1.myworkdayjobs.com/external/job/401-E-Fayette-St/Geographic-Information-Systems--GIS--Intern--NCS----BCIT_R0017030"
     ]
   },
   {
@@ -1977,6 +1978,7 @@
     "page": "https://caci.wd1.myworkdayjobs.com/wday/cxs/caci/external/jobs",
     "urls": [
       "https://caci.wd1.myworkdayjobs.com/external/job/Nationwide/GMU-Scholar-Program---Summer-2026-Internship_320170",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Business-Systems-Analyst-Intern---Summer-2026_320830",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Digital-Transformation-Intern---Summer-2026_322108-1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Software-Development-Engineer-Intern---Summer-2026_320651",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Software-Development-Intern---Summer-2026_320833",
@@ -4041,6 +4043,7 @@
     "domain": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers",
     "page": "https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs",
     "urls": [
+      "https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Chicago---20-S-Wacker/Data-Sales-Intern---Year-Round_34297",
       "https://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/Chicago---20-S-Wacker/Year-Long-Technology-Internship--Summer-2026-Spring-2027-_33070"
     ]
   },
@@ -4551,6 +4554,7 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Bay-Lake-FL-USA/WDW-Industrial-Engineering-Intern--Summer-2026_WDW-0000303102",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Burbank-CA-USA/Software-Engineering-Intern--Data-Products--Summer-2026_10143613",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Celebration-FL-USA/WDI-Software-Developer-Intern--Summer-2026_10135513-1",
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/WDI-Software-Developer-Intern--Summer-2026_10148308",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Systems-Reliability-Engineering-Intern--Seattle--Summer-2026_10143606",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Vancouver-BC-Canada/Technical-Assistant-Intern---Summer-2026--Open-to-Canadian-Citizens---PR-only-_10138557"
     ]
@@ -13536,6 +13540,7 @@
     "domain": "https://pluralsight.wd1.myworkdayjobs.com/careers",
     "page": "https://pluralsight.wd1.myworkdayjobs.com/wday/cxs/pluralsight/careers/jobs",
     "urls": [
+      "https://pluralsight.wd1.myworkdayjobs.com/careers/job/Hybrid---Texas-Westlake/Software-Engineer-Intern_R0013955",
       "https://pluralsight.wd1.myworkdayjobs.com/en-US/Careers/job/Hybrid---Texas-Westlake/Software-Engineer-Intern_R0013956",
       "https://pluralsight.wd1.myworkdayjobs.com/en-US/Careers/job/Hybrid---Texas-Westlake/Software-Engineer-Intern_R0013960"
     ]
@@ -14544,7 +14549,8 @@
     "domain": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies",
     "page": "https://ssctech.wd1.myworkdayjobs.com/wday/cxs/ssctech/ssctechnologies/jobs",
     "urls": [
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineering-Co-op_R42258"
     ]
   },
   {
