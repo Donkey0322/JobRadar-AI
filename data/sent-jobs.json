@@ -1,5 +1,93 @@
 [
   {
+    "company": "Signify",
+    "role": "Software Engineering Intern",
+    "link": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Software-Engineering-Intern--Cooper-Lighting-Solutions--Summer-2026-_363549-1",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 1026,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Current student pursuing bachelor's or master's degree in computer science, computer engineering, or related field.",
+        "Exposure to Object-Oriented Programming (OOP) languages like Java, Swift, or Angular.",
+        "Related experience from prior internships, college projects, or employment.",
+        "Mobile app development experience a plus."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Geisinger",
+    "role": "Intern Undergraduate IT - Application Developer",
+    "link": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Application-Developer-_R-94604",
+    "location": "Pennsylvania",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Ontic",
+    "role": "Analytics & AI Intern",
+    "link": "https://jobs.ashbyhq.com/Ontic/c2fa0616-b853-4cf1-a39e-137220f77a73/application",
+    "location": "Austin, TXRemote in USA",
+    "season": "2026 Summer",
+    "id": 1025,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a degree in Computer Science, Engineering, Data Science, or a related field",
+        "Strong in SQL and/or Python; have built things, not just taken classes",
+        "Deeply curious about AI/LLMs and how they work in practice",
+        "Comfortable navigating ambiguity and figuring things out independently",
+        "Have a builder mindset; like shipping real projects",
+        "Strong problem solver with attention to detail",
+        "Clear communicator who can explain ideas simply",
+        "Experience with LLMs, RAG, or agent frameworks",
+        "Familiarity with data tools like dbt or Snowflake",
+        "Possess side projects, hackathons, or open-source contributions"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nio",
+    "role": "AI Agent Intern - Semantic Search 🎓",
+    "link": "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Agent-Intern--Semantic-Search-_R-000148",
+    "location": "San Jose, CA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "LG Electronics",
+    "role": "Intern Environmental Health and Safety - Environmental Health and Safety",
+    "link": "https://job-boards.greenhouse.io/lgelectronics/jobs/5187935008",
+    "location": "Englewood, NJ",
+    "season": "2026 Summer",
+    "id": 1024,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Bachelor's degree program.",
+        "Rising Sophomore or Junior in business, data, or analytics major preferred.",
+        "Programming experience with Python preferred.",
+        "Prior exposure to LLMs or generative AI technologies preferred.",
+        "Familiar with GiT or version control systems.",
+        "Understand APIs and basic software development practices.",
+        "Proficient in quantitative data analysis and Excel for charts.",
+        "Proficient in Microsoft Office, Google, Teams, and AI drawing tools.",
+        "Strong interest in diverse generations and cultures.",
+        "Curious and enthusiastic for customer observation, extract insights.",
+        "Grounded in design thinking, solve problems creatively.",
+        "Possess strong communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Uber",
     "role": "PhD Software Engineer Intern - Data Storage 🎓",
     "link": "https://university-uber.icims.com/jobs/158324/job?mobile=true&needsRedirect=false",
