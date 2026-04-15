@@ -1,5 +1,65 @@
 [
   {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineer-Intern_R-00180869",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 518,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design, develop, troubleshoot, and debug software source code.",
+        "Participate in the full software development lifecycle.",
+        "Use Agile development tools such as Jira, Confluence, and Bitbucket/Git.",
+        "Support creation and updating of documentation for design, development, and testing.",
+        "Identify potential roadblocks and develop solutions.",
+        "Develop maintainable code that matches specifications.",
+        "Develop automated tests leveraging continuous integration.",
+        "Work closely with engineers to develop technical designs for new products.",
+        "Pursuing a Bachelor's Degree in Computer Science.",
+        "Experience with Object-Oriented Programming practices and patterns.",
+        "Experience with JavaScript and JS frameworks such as React.",
+        "Solid understanding of software development process fundamentals.",
+        "Strong, self-motivated desire to learn new programming languages, tools, and techniques.",
+        "Ability to work and collaborate effectively within a multi-disciplined engineering team.",
+        "Able to obtain a DoD Secret Security Clearance.",
+        "Familiarity with basic web technologies (HTML, CSS, XML, REST, JSON).",
+        "Knowledge of a version control system (e.g., Git).",
+        "Knowledge of Agile Development methodologies."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Netwrix",
+    "role": "Documentation Technology Intern",
+    "link": "https://ats.rippling.com/netwrix-corporation/jobs/dbe87309-bf9f-4c9f-8b1d-6687bb664dbe",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 517,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a college student (rising sophomore, junior, or senior)",
+        "Possess strong reading comprehension and writing skills",
+        "Able to work independently with limited supervision",
+        "Demonstrate strong communication skills",
+        "Willing to learn new tools and frameworks",
+        "Experience working with LLMs and AI tools",
+        "Familiar with IDEs like VS Code",
+        "Possess programming experience in any language (JavaScript, TypeScript, Python preferred)",
+        "Experience with command line interface (CLI) tools",
+        "Familiar with Git or other source control systems, including GitHub"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "tsys",
     "role": "Corporate Development Intern",
     "link": "https://tsys.wd1.myworkdayjobs.com/tsys/job/Atlanta-Georgia-USA/Corporate-Development-Intern_R0070582",
