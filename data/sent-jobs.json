@@ -1,5 +1,39 @@
 [
   {
+    "company": "roche",
+    "role": "Internship in Innovation & Sustainability - Neurology Synapse Project",
+    "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Panama-City/Internship-in-Innovation---Sustainability---Neurology-Synapse-Project_202604-109104",
+    "location": "Panama City",
+    "id": 519,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Currently enrolled in a final-year Bachelor's or Master's program.",
+        "Studying Marketing, Business, Biomedical Sciences, Medicine, Neuroscience, Biotechnology, Health Management, or related field.",
+        "Interested in applying knowledge in a modern work environment.",
+        "Proficient in Google tools.",
+        "Confident using AI tools and presentation software.",
+        "Strong structured thinking.",
+        "Able to turn complex information into clear outputs.",
+        "Comfortable working with multiple stakeholders.",
+        "Able to collaborate across functions, countries, and cultures.",
+        "Independent and proactive.",
+        "Able to move projects forward with guidance and ownership.",
+        "Fluent in English and Spanish."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "NI FN BBN SDAN DU AP Hardening 1 (L06)",
+    "role": "Software Quality Assurance Coop",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34636",
+    "location": "United States"
+  },
+  {
     "company": "Leidos",
     "role": "Software Engineer Intern",
     "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineer-Intern_R-00180869",
