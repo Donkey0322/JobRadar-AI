@@ -1,1 +1,239 @@
-{"jobPostingInfo":{"id":"21ee6cec190f100100ea2c0391da0000","title":"Software Engineering Intern","jobDescription":"<p style=\"text-align:left\"><i><span class=\"emphasis-3\">Copart, Inc. a technology leader and the premier online vehicle auction platform globally, with over 200 facilities located across the world, Copart links vehicle sellers to more than 750,000 buyers in over 190 countries. We believe in providing an unmatched experience, every day and everywhere, driven by our people, processes, and technology. </span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span>Copart is looking for interns to work on the development of application projects for our global expansion. You will work with Program Managers, Business Analysts, and Team Leads to understand requirements, and develop and modify existing applications</span></p><p><span>Other duties he/she will be required to perform are as follows:</span></p><ul><li><span>Develop efficient, secure applications, peer-review code, and document solutions within an agile-blended software environment</span></li><li><span>Communicate proactively with teammates, infrastructure, security, and quality assurance to continuously improve processes and engineering excellence</span></li><li><span>Experience with Multi-threading is a must for this position</span></li><li><span>Ability to work on real-time web applications.</span></li></ul><p><span><b><u>Required Skills:</u></b></span></p><ul><li><span>Bachelor&#39;s degree or higher in computer science, Engineering or similar</span></li><li><span>Strong experience with Spring Boot, MVC and other Spring modules.</span></li><li><span>Experience with Core Java and multithreaded programming.</span></li><li><span>Experience with writing Unit tests using JUnit and mocking frameworks.</span></li><li><span>Experience with Java Script, HTML5, jQuery, AJAX, CSS and other JavaScript libraries.</span></li><li><span>Good knowledge in at least one client side MVC JavaScript framework (preferably ReactJS or ReactNative)</span></li><li><span>Experience with Agile Methodologies and tools</span></li><li><span>Excellent problem-solving skills</span></li><li><span>Understanding of architecture and development methodologies of n-tier systems</span></li><li><span>Can-do attitude</span></li><li><span>Innovative drive and experience coupled with quick mastery of new technology, language, or development environment</span></li><li><span>Self-motivated, naturally curious, and able to thrive in a fast-paced and client-focused environment.</span></li><li><span>Skilled in documentation including business logic flows and technical writing</span></li><li><span>Able to understand and communicate not just how certain technologies work, but why</span></li></ul><p><span><b><u>Additional Skills (nice to haves):</u></b></span></p><ul><li><span>Experience with Unix, Linux and Solaris.</span></li><li><span>RESTful Web service expertise.</span></li><li><span>Experience with application server platforms: Apache, Tomcat.. etc.</span></li><li><span>Experience writing SQL and stored procedures.</span></li><li><span>Experience with SQL databases: DB2, MySQL, Maria.. etc.</span></li><li><span>Experience with Maven, Jenkins, Git. </span></li></ul><p><span>#LI-MS1</span></p><h2><br /> </h2><p><span>#LI-MS1</span></p>&amp;#xa;&amp;#xa;<p style=\"text-align:left\"><i>At Copart, we are focused on harnessing the power of diversity, inclusion, and collaboration. By embracing diverse perspectives, we open doors to innovation and unleash the full potential of our team. We are dedicated to fostering a workplace where everyone feels appreciated, included, and inspired to grow and contribute meaningfully.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">E-Verify Program Participant: Copart participates in the Department of Homeland Security U.S. Citizenship and Immigration Services&#39; E-Verify program (For U.S. applicants and employees only). Please click below to learn more about the E-Verify program:</p><ul><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf\" target=\"_blank\">E-verify Participation</a></li><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/IER_RightToWorkPoster%20Eng_Es.pdf\" target=\"_blank\">Right to Work</a></li></ul><p style=\"text-align:inherit\"></p>","location":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-03-10","timeType":"Full time","jobReqId":"JR107700","jobPostingId":"Software-Engineering-Intern_JR107700","jobPostingSiteId":"Copart","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"logoImage":{"src":"/wday/cxs/copart/copart/sidebarimage/db44e9b276b1100b2c4efbc4d41f0000","alt":"Logo"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"US TX IT Product Dev 728","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107700","questionnaireId":"ded8cb16da7310017a52d97429a20000"},"hiringOrganization":{"name":"Copart, Inc","url":""},"similarJobs":[{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106984","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-02-11"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR105863","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2025-11-23"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106605","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-01-30"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106983","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-02-11"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107699","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-03-10"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101987","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2025-06-11"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2025-06-11"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106971","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2026-02-26"},{"title":"Software Engineering Intern","externalPath":"/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106129","timeType":"Full time","locationsText":"Dallas, TX - Headquarters","postedOn":"Posted 30+ Days Ago","startDate":"2025-12-22"}],"userAuthenticated":false}
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount+
+Pluto TV
+Showtime
+UK Jobs
+Benefits & Perks
+Global Inclusion
+Internships
+Language
+English (United States)
+View Profile
+Employee Login
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount+
+Pluto TV
+Showtime
+UK Jobs
+Benefits & Perks
+Global Inclusion
+Internships
+Language
+English (United States)
+View Profile
+Employee Login
+Benefits & Perks
+Jobs
+BET
+CBS
+CBS News and Stations
+CBS Sports
+CBS Studios
+MTV
+Network 10
+Nickelodeon
+Nickelodeon Animation
+Paramount
+Paramount+
+Paramount Animation
+Paramount Networks International
+Paramount Pictures
+Paramount Streaming
+Pluto TV
+Showtime
+UK Jobs
+Global Inclusion
+Internships
+View Profile
+Employee Login
+Search by Keyword or Req ID
+Search by Location
+Click Here to Search by Job Function
+Loading...
+Job Function
+All
+Brand
+All
+Job Type
+All
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Sorry, this position is no longer accepting applications. Please use the Search bar above to search for additional opportunities or return to the home page by clicking on “Careers Home” below or the Paramount logo above.
+Careers Home
+View All Jobs
+Terms of Use
+Privacy Policy
+California Notice
+Sustainability & ESG
+Your Privacy Choices
+Equal Opportunity Employer
+Reasonable Accommodation
+Contact
+© 2025 Paramount Skydance Corporation
+//<![CDATA[
+$(function()
+{
+var ctid = '76e95b99-d90a-4d8e-8860-ee1aee557473';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'viacomcbsi',
+"ssoUrl" : 'https://career41.sapsf.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "be3e74d7-207e-46e1-b700-6b3377e1dcd4"
+}
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1371206300',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.paramount.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["customfield1","customfield2","customfield3"],
+showPicklistAllLocales : true
+};
+//]]>

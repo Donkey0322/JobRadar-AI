@@ -1,306 +1,107 @@
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
-//<![CDATA[
-$(function()
 {
-/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
-if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-$("#skipLink").attr('class', 'skipLinkSafari');
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "521 NEWPARK BLVD, NEWMARKET, ON L3X 2S2, CANADA"
 }
-});
-//]]>
-Skip to main content
-Home
-Search by Location
-View Jobs by Language
-View All Global Jobs
-View All Jobs in Chinese
-View All Jobs in English
-View All Jobs in French
-View All Jobs in German
-View All Jobs in Italian
-View All Jobs in Portuguese
-View All Jobs in Slovak
-View All Jobs in Spanish
-View All Jobs in Swedish
-View All Jobs in Polish
-Recruitment Fraud Notice
-Search by Keyword
-Search by Location
-Clear
-Home
-Search by Location
-View Jobs by Language
-View All Global Jobs
-View All Jobs in Chinese
-View All Jobs in English
-View All Jobs in French
-View All Jobs in German
-View All Jobs in Italian
-View All Jobs in Portuguese
-View All Jobs in Slovak
-View All Jobs in Spanish
-View All Jobs in Swedish
-View All Jobs in Polish
-Recruitment Fraud Notice
-Site Language
-Dansk (Danmark)
-Deutsch (Deutschland)
-English (United Kingdom)
-English (United States)
-Español (México)
-Français (France)
-Italiano (Italia)
-Polski
-Português (Brasil)
-Slovencina (Slovensko)
-Svenska (Konungariket Sverige)
-简体中文 (中国大陆)
-View Profile
-#content {
-padding-top: 0px;
+},
+"hiringOrganization" : {
+"name" : "Magna Closures Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Co-op",
+"@type" : "PropertyValue",
+"value" : "R00238361"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Co-op",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: The Mechatronics, Mirrors and Lighting group specializes in automotive technologies that are driving the future of mobility. Combining a deep systems knowledge to develop unique vehicle access experiences, intelligent visions systems and advanced automotive lighting technologies, MML's expertise light the path to innovation, safety and styling. Job Responsibilities: Salary Range: $21.00-$25.46/Hour RESPONSIBILITIES: Utilizing Web Development in Vue3.js, React, Python, Azure DevOps, and AI integration to build cutting-edge applications, with integration to mechanical simulation and CAD software Construct Backend Frameworks using Flask and Python with connections to external sources and databases Taking ownership to complete the Frontend development (UI/UX design, implementation) for projects Generally assigned to software processes, automations, internal applications, existing business and/or minor modifications Supports the complete development for the designated products including, but not limited to design, build and test activities, in accordance with standard operating procedures and the product delivery process Build internal analytical and software tools to streamline engineering processes to support large volumes of projects Supports customer requirements, regulations and product specifications into the design of the designated products, ensuring compliance with operational, cost, timing, safety, reliability, quality, and manufacturing feasibility parameters Analyzes products and formulates engineering conclusions by the application of engineering and/or mathematical principles and tools Consults and collaborates with personnel in various engineering and design activities relative to product development requirements Supports global CAE activities as a global team Supports effective communications within the project team and the customer, supplier, manufacturing and quality communities with guidance from engineering management or senior engineering personnel. Maintains all appropriate documentation Understands and follows existing policies, procedures, work instructions and standards and makes recommendations for continuous improvements Follows Magna’s Code of Conduct &amp; Ethics and related compliance policies Perform other duties as required QUALIFICATIONS &amp; SKILLS: Working towards a bachelor’s degree in engineering, Computer Science or related fields from an accredited university Good understanding of Engineering Mechanics and Dynamics is preferred, particularly in the areas of rigid body force analysis and travel calculations Strong communication, organization, and teamwork skills are required Ability to work independently and adapt to fast-paced environments Experience with one of the programming languages is required: Python, MATLAB, C++, VBA Experience in the following skill sets is an asset: Proficient in frontend technologies: HTML5, CSS3, JavaScript ES6+, TypeScript Familiar with frameworks: React.js, Vue.js 3, Angular, Next.js, Nuxt.js, Gatsby, Vite Knowledge of state management: Redux Toolkit, Zustand, Jotai, Pinia, Vuex, NgRx Styling tools: Tailwind CSS, Bootstrap, Styled-components, Emotion Backend experience: FastAPI, Flask, Django, Express.js, NestJS Database skills: SQL Server, Redis, Prisma, TypeORM Exposure to CI/CD tools: Docker, GitHub Actions, GitLab CI AI/ML experience: TensorFlow, PyTorch, scikit-learn, transformers Data tools: pandas, numpy, matplotlib, Power BI, Tableau Familiarity with design tools: Figma, Adobe XD, Storybook Understanding of scalable architecture: Microservices, SOA, Event-driven, Serverless, DDD, API-first, N-tier Security &amp; authentication knowledge: OAuth 2.0 (Authorization Code/PKCE), Microsoft Entra ID SSO, JWT lifecycle management Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Intern (Fixed Term) (Trainee) Group: Magna Mechatronics, Mirrors &amp; Lighting We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
 }
-Search by Keyword
-Search by Location
-Show More Options
-Loading...
-Category
-All
-Operating Company
-All
-Work Arrangement
-All
-Job Function
-All
-Clear
-Select how often (in days) to receive an alert:
-Create Alert
-form.emailsubscribe-form {
-display: none;
-}
-×
-Select how often (in days) to receive an alert:
-Apply now »
-Apply now
-Apply Now
-Start applying with LinkedIn
-Start
-Please wait...
-a.dialogApplyBtn {
-display: none;
-}
-Engineer, Software Intern
-Location:
-Austin, TX, US, 78728
-#job-location.job-location-inline {
-display: inline;
-}
-Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
-This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
-We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
-About the Role
-Dover Fueling Solutions is looking for a highly motivated Summer Intern to join our Test Automation team. This role offers an exciting opportunity to work on real-world IoT-enabled fueling and automation systems, while gaining hands-on experience in software quality engineering and test automation.
-Interns will have the opportunity to explore the domain, understand end-to-end system behavior, and contribute to building reliable, high-quality solutions.
-Key Responsibilities
-Assist in developing and maintaining test automation frameworks
-Contribute to end-to-end system test automation across integrated platforms
-Work on mobile application test automation (Android/iOS as applicable)
-Develop and execute automated test scripts for IoT-based applications and systems
-Collaborate with development and QA teams to understand requirements and define test scenarios
-Participate in debugging, issue analysis, and root cause identification
-Contribute to improving test coverage, quality processes, and automation efficiency
-Document test cases, results, and technical learnings
-Required Skills & Qualifications
-Strong understanding of Object-Oriented Programming (OOP) concepts
-Proficiency in at least one programming language (preferably C#)
-Good analytical and problem-solving skills
-Strong communication skills (verbal and written)
-Self-driven, proactive mindset with a strong willingness to learn (“go-getter” attitude)
-Preferred Qualifications
-Educational qualification to be mentioned
-Exposure to IoT systems, embedded systems, or automation testing
-Basic understanding of test automation frameworks or tools
-Familiarity with version control systems (e.g., Git)
-Understanding of software testing fundamentals
-What You’ll Gain
-Hands-on experience in IoT-based test automation within Dover Fueling Solutions
-Exposure to real-world fueling and automation domain systems
-Mentorship from experienced QA and engineering professionals
-Opportunity to work with modern tools, frameworks, and engineering practices
-A strong foundation in software quality engineering and automation
-We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
-All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
-Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
-Nearest Major Market: Austin
-Job Segment:
-Summer Internship, Testing, Embedded, Entry Level Engineer, Software Engineer, Entry Level, Technology, Engineering
-Apply now »
-Apply now
-Apply Now
-Start applying with LinkedIn
-Start
-Please wait...
-a.dialogApplyBtn {
-display: none;
-}
-Find similar jobs:
-View All Jobs in English,
-View All Jobs,
-View All Jobs,
-Ver todos los trabajos globales,
-Alle globalen Jobs anzeigen
-Dover Home
-View Page Index
-Top Job Searches
-Privacy Policy
-//<![CDATA[
-j2w.init({
-"cookiepolicy" : 1,
-"useSSL" : true,
-"isUsingSSL" : true,
-"isResponsive" : true,
-"categoryId" : 0,
-"siteTypeId" : 1,
-"ssoCompanyId" : 'DOVER',
-"ssoUrl" : 'https://career2.successfactors.eu',
-"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
-"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
-"hasATSUserID" : false,
-"useCASWorkflow" : true,
-"brand" : "",
-"dpcsStateValid" : true
-});
-j2w.TC.init({
-"seekConfig" : {
-"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
-"id" : 'successfactors12',
-"advertiserid" : ''
-}
-});
-$.ajaxSetup({
-cache : false,
-headers : {
-"X-CSRF-Token" : "bc9d58d8-89d9-4b02-befe-3e178cfa3636"
-}
-});
-//]]>
-//<![CDATA[
-j2w.Apply.init({
-jobID : 1382944833,
-locale : 'en_US',
-relocateApplyURL : '',
-subscribeAtApply : true,
-useOnPageBusinessCard : false,
-applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"65941-en_US","email":""}
-});
-//]]>
-//<![CDATA[
-j2w.init({
-"cookiepolicy" : 1,
-"useSSL" : true,
-"isUsingSSL" : true,
-"isResponsive" : true,
-"categoryId" : 0,
-"siteTypeId" : 1,
-"ssoCompanyId" : 'DOVER',
-"ssoUrl" : 'https://career2.successfactors.eu',
-"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
-"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
-"hasATSUserID" : false,
-"useCASWorkflow" : true,
-"brand" : "",
-"dpcsStateValid" : true
-});
-j2w.TC.init({
-"seekConfig" : {
-"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
-"id" : 'successfactors12',
-"advertiserid" : ''
-}
-});
-$.ajaxSetup({
-cache : false,
-headers : {
-"X-CSRF-Token" : "bc9d58d8-89d9-4b02-befe-3e178cfa3636"
-}
-});
-//]]>
-//<![CDATA[
-j2w.SAB.init({
-profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
-jobID : '1382944833',
-locale : 'en_US',
-autoOpen : { open : false }
-});
-//]]>
-//<![CDATA[
-$(function()
 {
-var ctid = '04daf31a-cdfb-4e67-a8ce-ef2542c3d0c6';
-var referrer = '';
-var landing = document.location.href;
-var brand = '';
-$.ajax({ url: '/services/t/l'
-,data: 'referrer='+ encodeURIComponent(referrer)
-+ '&ctid=' + ctid
-+ '&landing=' + encodeURIComponent(landing)
-+ '&brand=' + brand
-,dataType: 'json'
-,cache: false
-,success: function(){}
-});
-});
-//]]>
-//<![CDATA[
-$(function() {
-$('input:submit,button:submit').each(function(){
-var submitButton = $(this);
-if(submitButton.val() == '') submitButton.val('');
-});
-$('input, textarea').placeholder();
-});
-//]]>
-const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
-jobAlertSpans?.forEach((jobEl) => {
-jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
-});
-//<![CDATA[
-var subscribeWidgetSetup = {
-action : 'subscribe',
-usingJobAlertsManager : false
-};
-//]]>
-//<![CDATA[
-$(function() {
-$('.emailsubscribe-button').click(function (e) {
-e.preventDefault();
-var $frequency = $('.subscribe-frequency').val();
-var rcmLoggedIn = false;
-var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
-var result = j2w.Agent.validateFrequency($frequency);
-if (!result.length) {
-j2w.TC.collectForCASWorkflow({
-"emailAddress": '',
-"action": action,
-"socialSrc": '',
-"frequency": parseFloat($frequency)
-});
-} else {
-if (j2w.Args.get('isResponsive')) {
-$('.frequency-error-message').html(result.concat('<br/>'));
-$('.frequency-error').removeClass('hidden');
-} else {
-alert(result.join('\n'));
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "Canada",
+"addressLocality" : "521 NEWPARK BLVD, NEWMARKET, ON L3X 2S2, CANADA"
 }
+},
+"hiringOrganization" : {
+"name" : "Magna Closures Inc.",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Software Engineering Co-op",
+"@type" : "PropertyValue",
+"value" : "R00238361"
+},
+"datePosted" : "2026-04-13",
+"employmentType" : "FULL_TIME",
+"title" : "Software Engineering Co-op",
+"description" : "Job descriptions may display in multiple languages based on your language selection. What we offer: At Magna, you can expect an engaging and dynamic environment where you can help to develop industry-leading automotive technologies. We invest in our employees, providing them with the support and resources they need to succeed. As a member of our global team, you can expect exciting, varied responsibilities as well as a wide range of development prospects. Because we believe that your career path should be as unique as you are. Group Summary: The Mechatronics, Mirrors and Lighting group specializes in automotive technologies that are driving the future of mobility. Combining a deep systems knowledge to develop unique vehicle access experiences, intelligent visions systems and advanced automotive lighting technologies, MML's expertise light the path to innovation, safety and styling. Job Responsibilities: Salary Range: $21.00-$25.46/Hour RESPONSIBILITIES: Utilizing Web Development in Vue3.js, React, Python, Azure DevOps, and AI integration to build cutting-edge applications, with integration to mechanical simulation and CAD software Construct Backend Frameworks using Flask and Python with connections to external sources and databases Taking ownership to complete the Frontend development (UI/UX design, implementation) for projects Generally assigned to software processes, automations, internal applications, existing business and/or minor modifications Supports the complete development for the designated products including, but not limited to design, build and test activities, in accordance with standard operating procedures and the product delivery process Build internal analytical and software tools to streamline engineering processes to support large volumes of projects Supports customer requirements, regulations and product specifications into the design of the designated products, ensuring compliance with operational, cost, timing, safety, reliability, quality, and manufacturing feasibility parameters Analyzes products and formulates engineering conclusions by the application of engineering and/or mathematical principles and tools Consults and collaborates with personnel in various engineering and design activities relative to product development requirements Supports global CAE activities as a global team Supports effective communications within the project team and the customer, supplier, manufacturing and quality communities with guidance from engineering management or senior engineering personnel. Maintains all appropriate documentation Understands and follows existing policies, procedures, work instructions and standards and makes recommendations for continuous improvements Follows Magna’s Code of Conduct &amp; Ethics and related compliance policies Perform other duties as required QUALIFICATIONS &amp; SKILLS: Working towards a bachelor’s degree in engineering, Computer Science or related fields from an accredited university Good understanding of Engineering Mechanics and Dynamics is preferred, particularly in the areas of rigid body force analysis and travel calculations Strong communication, organization, and teamwork skills are required Ability to work independently and adapt to fast-paced environments Experience with one of the programming languages is required: Python, MATLAB, C++, VBA Experience in the following skill sets is an asset: Proficient in frontend technologies: HTML5, CSS3, JavaScript ES6+, TypeScript Familiar with frameworks: React.js, Vue.js 3, Angular, Next.js, Nuxt.js, Gatsby, Vite Knowledge of state management: Redux Toolkit, Zustand, Jotai, Pinia, Vuex, NgRx Styling tools: Tailwind CSS, Bootstrap, Styled-components, Emotion Backend experience: FastAPI, Flask, Django, Express.js, NestJS Database skills: SQL Server, Redis, Prisma, TypeORM Exposure to CI/CD tools: Docker, GitHub Actions, GitLab CI AI/ML experience: TensorFlow, PyTorch, scikit-learn, transformers Data tools: pandas, numpy, matplotlib, Power BI, Tableau Familiarity with design tools: Figma, Adobe XD, Storybook Understanding of scalable architecture: Microservices, SOA, Event-driven, Serverless, DDD, API-first, N-tier Security &amp; authentication knowledge: OAuth 2.0 (Authorization Code/PKCE), Microsoft Entra ID SSO, JWT lifecycle management Awareness, Unity, Empowerment: At Magna, we believe that a diverse workforce is critical to our success. That’s why we are proud to be an equal opportunity employer. We hire on the basis of experience and qualifications, and in consideration of job requirements, regardless of, in particular, color, ancestry, religion, gender, origin, sexual orientation, age, citizenship, marital status, disability or gender identity. Magna takes the privacy of your personal information seriously. We discourage you from sending applications via email or traditional mail to comply with GDPR requirements and your local Data Privacy Law. AI-Assisted Screening Disclosure As part of our commitment to a fair, consistent, and efficient recruitment process, we may use artificial intelligence (AI) tools to assist in the initial screening of applications submitted through our Workday system. These tools help identify qualifications and experience that align with the role requirements. Please note that AI is used solely to support our recruiters. Final decisions are always made by the hiring manager and the hiring team. Importantly, no applicant data is shared externally through these AI tools. All information remains securely within our systems and is handled in accordance with our privacy and data protection policies. Under conditions defined by applicable law, you may have the right to request an explanation of how AI is used to support decision-making. If you have any questions or concerns about this process, feel free to contact our Talent Attraction team. Worker Type: Intern (Fixed Term) (Trainee) Group: Magna Mechatronics, Mirrors &amp; Lighting We see a future where everyone can live and move without limitations. That’s why we are developing technologies, systems and concepts that make vehicles safer and cleaner, while serving our communities, the planet and, above all, people. In the right environment, your ideas can turn into industry-changing automotive technologies and improve the lives of people around the world. Let's create the future of mobility, together. Learn more about us: Sustainability Innovation Interview-Tips",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
 }
-});
-});
-//]]>
-//<![CDATA[
-var j2w = j2w || {};
-j2w.search = j2w.search || {};
-j2w.search.options = {
-isOpen: false,
-facets: ["department","facility","customfield3","customfield4"],
-showPicklistAllLocales : false
+window.workday = window.workday || {
+tenant: "magna",
+siteId: "Magna",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["cs-CZ","de-DE","en-US","es","fr-CA","fr-FR","it-IT","hu-HU","pl-PL","pt-BR","ro-RO","sk-SK","sl-SI","tr-TR","sr-RS","ru-RU","ar","th-TH","ja-JP","zh-CN","ko-KR"],
+clientOrigin: "https://wd3.myworkday.com",
+language: null,
+cdnEndpoint: "wd3.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd3.myworkday.com/wday/drs/outage?t=magna&s=Magna",
+token: "13987b24-a2bb-4d58-a257-564efa1b5ff4",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#005CB9","textColor":"#333333"},"progressBar":{"color":"#DA291C"},"button":{"primary":{"color":"#DA291C","borderColor":"#DA291C","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"secondary":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C","hover":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#DA291C"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"efe4e8b9c65c100197e142b3afc10001","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#DA291C","textColor":"#000000","image":{"id":"efe4e8b9c65c100197e142199ee70000","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
 };
-//]]>
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd3.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);

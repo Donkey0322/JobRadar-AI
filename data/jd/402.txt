@@ -1,296 +1,36 @@
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
-//<![CDATA[
-$(function()
-{
-/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
-if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-$("#skipLink").attr('class', 'skipLinkSafari');
+You need to enable JavaScript to run this app.
+var configsFromHost = {"sessionJWT":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIwV0c2OCIsImp0aSI6IjAwMDowV0c2ODowIiwic3ViIjoiMCIsInN5c3RlbSI6ImF0cyIsInByb2NfY2VudGVyIjoiMDAwIiwiY2xpZW50Y29kZSI6IjBXRzY4IiwicGF5cm9sbFByb2ZpbGVDb2RlIjoiMFdHNjgiLCJlZUNvZGUiOiIiLCJpc0ludGVybmFsSm9iQm9hcmQiOiIiLCJmZWF0dXJlcyI6W3siQ2FuZGlkYXRlQXBwbGljYXRpb25SZWRlc2lnbiI6MX0seyJDYXJlZXJQb3J0YWxSZWRlc2lnbiI6MX0seyJDZW50cmFsSW5wdXRWYWxpZGF0b3JzIjoxfSx7IkFkZFByb25vdW5GaWVsZFRvQVRTIjoxfSx7IkVtcGxveWVlUGhvbmV0aWNzIjowfSx7IklUSU5OdW1iZXIiOjF9LHsiUHJldmVudEFwcGxpY2F0aW9uc1RvQ2xvc2VkT3JFeHBpcmVkSm9icyI6MX0seyJQcmV2ZW50U3BhbUFwcGxpY2F0aW9ucyI6MX0seyJBVFNDYW5kaWRhdGVQb3J0YWxUcmFuc2xhdGlvbnMiOjB9LHsiUHJldmlvdXNMZWdhbExhc3ROYW1lIjoxfSx7InByZWZlcnJlZE5hbWUiOjF9LHsiQ2FuZGlkYXRlUHJvZmlsZVBob3RvVXBsb2FkIjoxfSx7IkluZm9ybUNhbmRpZGF0ZUFwcGxpY2F0aW9uTm90Q29tcGxldGUiOjF9LHsiQXRzVXRvcGlhQ2FyZWVyUG9ydGFsRW5oYW5jZW1lbnRzIjoxfSx7IkF0c0luc3RpdHV0aW9uVHlwZXNVcGRhdGUiOjB9LHsiQXBwbGljYW50VHJhY2tpbmdTdGFuZGFyZHMiOjF9LHsiSGlkZVByaW9yUGF5UmF0ZSI6MH0seyJBZGRyZXNzVmFsaWRhdGlvbkF1dG9Db21wbGV0ZSI6MH0seyJTaXhEZWNpbWFsUmF0ZVJvdW5kaW5nQW5kRGlzcGxheSI6MH0seyJEZWxheWVkQXBwbGljYXRpb25TdGF0dXNVcGRhdGVzIjoxfSx7IkFUU1ByZWZlcnJlZE5hbWUiOjF9LHsiRGlzYWJsZVByb25vdW5zQ2xpZW50U2V0dGluZyI6MX0seyJBcHBsaWNhdGlvblByZXZpZXciOjB9LHsiQ2FuZGlkYXRlUHJpdmFjeVBvbGljeUFja25vd2xlZGdlbWVudCI6MX0seyJBVFNGbGFnRGVmYXVsdCI6MX0seyJFeHBhbmRlZEFUU0FwcGxpY2F0aW9uQVBJIjoxfSx7IlBhdXNlUmVxdWlzaXRpb25zIjowfSx7IkludGVybmF0aW9uYWxDdXJyZW5jaWVzT25SZXFzQW5kT2ZmZXJzIjoxfSx7IkFUU0N1cnJlbnRseUVucm9sbGVkIjoxfSx7IkFUU0NvbmZpZ3VyZUNhbmRpZGF0ZVByb2ZpbGVTZXR0aW5ncyI6MH0seyJBVFNUb1dPVENXb3JrZmxvdyI6MH0seyJXb3RjUXVlc3Rpb25uYWlyZUNvbXBsaWFuY2VVcGRhdGVzIjoxfSx7IlNlYXRzVGllZFRvUmVxdWlzaXRpb25zIjowfSx7IkZURUZpZWxkT25SZXF1aXNpdGlvbnNBbmRPZmZlcnMiOjF9LHsiQ2FyZWVyUG9ydGFsSG90Sm9iSW5kaWNhdG9yIjowfV0sImNsaWVudFNldHRpbmdzIjp7ImRpc2FibGVkUHJvbm91bnMiOmZhbHNlfSwiaWF0IjoxNzc2MjM1NDY3LjUxODc0MjA4NDUwMzE3MzgyODEyNSwibmJmIjoxNzc2MjM1NDY3LjUxODc0MjA4NDUwMzE3MzgyODEyNSwiZXhwIjoxNzc2MjQyNjY3fQ.lufdw8UJ_HgNCbwqWcvtdnfEXTU6Zsd7cY9sFvV70VAa5FYLGqxwTOLpN5UV1YdxA8MzG1C1R_-r-sYQFT4PNUCgN5x0rVoHYdndgSwZ8t5pvI4Pl2DiroII5pbd-YS4IQ96Qj-UF4UT_Rc_xbyJTkM1A5aILodsWJBVDUVMyc8m6N6R9OZh2TE2euzM8V_-Tec-Z9uGmNJQsGoGPflxh_hpkLHiQbQeysdDLV9pxf5Qw7jWof5IyskbfceLei7biQZhoPSEeEoMDK08EaJ2f_p5myz2fTKwFhoFmMaH342uRq1DMY8wzoUu4FQV04XZd9gyI3XWJsDYSMaBkDwsTg","libConfig":"{\"isDevEnvironment\":false,\"isQaEnvironment\":false,\"locale\":\"en-US\",\"translationHighlights\":false,\"atsClMantlePreambleUrl\":\"\",\"portalCustomizationPreviewPreambleUrl\":\"\",\"atsClMantleServiceUrl\":\"\",\"atsPortalMantlePreambleUrl\":\"https:\\\/\\\/portal-applicant-tracking.us-cent.paycomonline.net\\\/career-portal\\\/sprawl.json\",\"atsPortalMantleServiceUrl\":\"https:\\\/\\\/portal-applicant-tracking.us-cent.paycomonline.net\\\/\",\"textMessagingPreviewPreambleUrl\":\"\",\"candidateApplicationPreambleUrl\":\"https:\\\/\\\/portal-applicant-tracking.us-cent.paycomonline.net\\\/candidate-application\\\/sprawl.json\",\"googleMapsApiKey\":\"AIzaSyDdeAAD5ob5w3WTmTMiekIVnr_mcCVfc2w\",\"isGlobalHCMEnabled\":false,\"isPhotoUploadAllowed\":true,\"isJobPayRateAllowed\":true}","primaryColor":"#ffffff","secondaryColor":"#53575a","loadingElement":"<div class=\"portal-sprawl-loader-container\"><div class=\"portal-sprawl-loader\"><\/div><\/div>","i18n":"en-US-translation-set.json"};
+var Mountable = Sprawl('@paycom/sprawl')('Mountable');
+configsFromHost['loading'] = new Mountable(element => {
+element.innerHTML = configsFromHost.loadingElement;
+return element;
+});
+Sprawl.mount(
+document.getElementById('e5544a1cf49f01e2'),
+new URL('https://portal-applicant-tracking.us-cent.paycomonline.net/career-portal/sprawl.json', String(window.location)),
+configsFromHost
+);
+.portal-sprawl-loader-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
-});
-//]]>
-Skip to main content
-Home
-Search by Location
-View Jobs by Language
-View All Global Jobs
-View All Jobs in Chinese
-View All Jobs in English
-View All Jobs in French
-View All Jobs in German
-View All Jobs in Italian
-View All Jobs in Portuguese
-View All Jobs in Slovak
-View All Jobs in Spanish
-View All Jobs in Swedish
-View All Jobs in Polish
-Recruitment Fraud Notice
-Search by Keyword
-Search by Location
-Clear
-Home
-Search by Location
-View Jobs by Language
-View All Global Jobs
-View All Jobs in Chinese
-View All Jobs in English
-View All Jobs in French
-View All Jobs in German
-View All Jobs in Italian
-View All Jobs in Portuguese
-View All Jobs in Slovak
-View All Jobs in Spanish
-View All Jobs in Swedish
-View All Jobs in Polish
-Recruitment Fraud Notice
-Site Language
-Dansk (Danmark)
-Deutsch (Deutschland)
-English (United Kingdom)
-English (United States)
-Español (México)
-Français (France)
-Italiano (Italia)
-Polski
-Português (Brasil)
-Slovencina (Slovensko)
-Svenska (Konungariket Sverige)
-简体中文 (中国大陆)
-View Profile
-#content {
-padding-top: 0px;
+.portal-sprawl-loader {
+border-width: 4px;
+border-style: solid;
+border-color: #ffffff lightgray lightgray;
+border-image: initial;
+border-radius: 50%;
+width: 96px;
+height: 96px;
+animation: 2s linear 0s infinite normal none running animation-portal-loader;
 }
-Search by Keyword
-Search by Location
-Show More Options
-Loading...
-Category
-All
-Operating Company
-All
-Work Arrangement
-All
-Job Function
-All
-Clear
-Select how often (in days) to receive an alert:
-Create Alert
-form.emailsubscribe-form {
-display: none;
+@keyframes animation-portal-loader {
+0% {
+transform: rotate(0deg);
 }
-×
-Select how often (in days) to receive an alert:
-Apply now »
-Apply now
-Apply Now
-Start applying with LinkedIn
-Start
-Please wait...
-a.dialogApplyBtn {
-display: none;
-}
-Engineer, Software Intern
-Location:
-Austin, TX, US, 78728
-#job-location.job-location-inline {
-display: inline;
-}
-Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
-This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
-We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
-About the Role
-Dover Fueling Solutions is looking for a creative and motivated Summer Intern to join our team to enhance the quality and efficiency of EMV protocol testing efforts. This role offers an exciting opportunity to work on real-world fueling systems while gaining hands-on experience in software quality engineering.
-Interns will have the opportunity to explore the domain, understand end-to-end system behavior, and contribute to building intuitive solutions that simplify complex technical workflows.
-Key Responsibilities
-Work with Product, Dev and QA to understand customer specific requirements
-Create a library for customer specific test scripts to test all EMV protocol commands and events.
-Create an automated solution to execute these scripts and report the results.
-Preferred Qualifications
-Basic understanding of testing concepts and knowledge of software development.
-Ability to code in .net environment
-Good understanding of xml and TCP/IP protocol
-Basic understanding of Hardware and Embedded Software.
-General IT knowledge.
-Basic understanding of network administration.
-A proactive attitude with a strong desire to learn.
-What You’ll Gain
-Hands-on experience in hardware setup, networking configurations, and test automation.
-Exposure to fuel dispenser ecosystem and specifically the payment terminal
-Mentorship from experienced QA and engineering professionals.
-The opportunity to work with modern tools, frameworks, and engineering practices.
-We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
-All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
-Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
-Nearest Major Market: Austin
-Job Segment:
-Testing, Summer Internship, Embedded, Network Administrator, Quality Engineer, Technology, Entry Level, Engineering
-Apply now »
-Apply now
-Apply Now
-Start applying with LinkedIn
-Start
-Please wait...
-a.dialogApplyBtn {
-display: none;
-}
-Find similar jobs:
-View All Jobs in English,
-View All Jobs,
-View All Jobs,
-Ver todos los trabajos globales,
-Alle globalen Jobs anzeigen
-Dover Home
-View Page Index
-Top Job Searches
-Privacy Policy
-//<![CDATA[
-j2w.init({
-"cookiepolicy" : 1,
-"useSSL" : true,
-"isUsingSSL" : true,
-"isResponsive" : true,
-"categoryId" : 0,
-"siteTypeId" : 1,
-"ssoCompanyId" : 'DOVER',
-"ssoUrl" : 'https://career2.successfactors.eu',
-"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
-"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
-"hasATSUserID" : false,
-"useCASWorkflow" : true,
-"brand" : "",
-"dpcsStateValid" : true
-});
-j2w.TC.init({
-"seekConfig" : {
-"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
-"id" : 'successfactors12',
-"advertiserid" : ''
-}
-});
-$.ajaxSetup({
-cache : false,
-headers : {
-"X-CSRF-Token" : "6d869ea8-8aee-4ae5-a73a-df55d16a54f5"
-}
-});
-//]]>
-//<![CDATA[
-j2w.Apply.init({
-jobID : 1382944933,
-locale : 'en_US',
-relocateApplyURL : '',
-subscribeAtApply : true,
-useOnPageBusinessCard : false,
-applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"65950-en_US","email":""}
-});
-//]]>
-//<![CDATA[
-j2w.init({
-"cookiepolicy" : 1,
-"useSSL" : true,
-"isUsingSSL" : true,
-"isResponsive" : true,
-"categoryId" : 0,
-"siteTypeId" : 1,
-"ssoCompanyId" : 'DOVER',
-"ssoUrl" : 'https://career2.successfactors.eu',
-"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
-"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
-"hasATSUserID" : false,
-"useCASWorkflow" : true,
-"brand" : "",
-"dpcsStateValid" : true
-});
-j2w.TC.init({
-"seekConfig" : {
-"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
-"id" : 'successfactors12',
-"advertiserid" : ''
-}
-});
-$.ajaxSetup({
-cache : false,
-headers : {
-"X-CSRF-Token" : "6d869ea8-8aee-4ae5-a73a-df55d16a54f5"
-}
-});
-//]]>
-//<![CDATA[
-j2w.SAB.init({
-profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
-jobID : '1382944933',
-locale : 'en_US',
-autoOpen : { open : false }
-});
-//]]>
-//<![CDATA[
-$(function()
-{
-var ctid = '04a0cd90-dcfd-4911-ad70-9b95080b27cc';
-var referrer = '';
-var landing = document.location.href;
-var brand = '';
-$.ajax({ url: '/services/t/l'
-,data: 'referrer='+ encodeURIComponent(referrer)
-+ '&ctid=' + ctid
-+ '&landing=' + encodeURIComponent(landing)
-+ '&brand=' + brand
-,dataType: 'json'
-,cache: false
-,success: function(){}
-});
-});
-//]]>
-//<![CDATA[
-$(function() {
-$('input:submit,button:submit').each(function(){
-var submitButton = $(this);
-if(submitButton.val() == '') submitButton.val('');
-});
-$('input, textarea').placeholder();
-});
-//]]>
-const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
-jobAlertSpans?.forEach((jobEl) => {
-jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
-});
-//<![CDATA[
-var subscribeWidgetSetup = {
-action : 'subscribe',
-usingJobAlertsManager : false
-};
-//]]>
-//<![CDATA[
-$(function() {
-$('.emailsubscribe-button').click(function (e) {
-e.preventDefault();
-var $frequency = $('.subscribe-frequency').val();
-var rcmLoggedIn = false;
-var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
-var result = j2w.Agent.validateFrequency($frequency);
-if (!result.length) {
-j2w.TC.collectForCASWorkflow({
-"emailAddress": '',
-"action": action,
-"socialSrc": '',
-"frequency": parseFloat($frequency)
-});
-} else {
-if (j2w.Args.get('isResponsive')) {
-$('.frequency-error-message').html(result.concat('<br/>'));
-$('.frequency-error').removeClass('hidden');
-} else {
-alert(result.join('\n'));
+100% {
+transform: rotate(360deg);
 }
 }
-});
-});
-//]]>
-//<![CDATA[
-var j2w = j2w || {};
-j2w.search = j2w.search || {};
-j2w.search.options = {
-isOpen: false,
-facets: ["department","facility","customfield3","customfield4"],
-showPicklistAllLocales : false
-};
-//]]>

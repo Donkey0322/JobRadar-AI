@@ -1,1 +1,174 @@
-{"jobPostingInfo":{"id":"a8a834106f391001a6498fd800950000","title":"Software Developer Internship - Summer 2026","jobDescription":"<div><p><b>Software Developer Internship</b></p><p><b>Paid Internship - Summer 2026</b></p><p><b>Corporate Headquarters</b></p><p><b>12575 Uline Drive, Pleasant Prairie, WI 53158</b></p><p></p><p><b>Ready to boost your technical skills and kick-start your career? Join Uline as a 2026 Software Developer Intern! </b>You&#39;ll get hands-on experience working alongside IT experts to develop custom software solutions for our growing North American company!</p><p></p><p><b>A 2025 Handshake Early Talent Award-winning company!</b></p><p></p><p><b>Position Responsibilities</b></p></div><div><div><div><div><div><ul><li><p>Participate in full stack application design and development.</p></li><li><p>Collaborate in an Agile Scrum team to develop software using technologies like Java, Angular, C#, .NET, JPA and SQL.</p></li><li><p>Troubleshoot and resolve software-related issues and maintain code using unit testing.</p></li><li><p>Use GIT to track source code changes.</p></li><li><p>Work with business analysts to gather requirements.</p></li></ul><p></p><p><b>Minimum Requirements</b></p><ul><li><p><b>This full-time, 12-week internship is open to Junior-status college students only.</b></p></li><li><p>Pursuing a bachelor’s degree in IT, Computer Science or a related field with two semesters of programming experience.</p></li><li><p>Strong collaboration and communication skills.</p></li></ul><p></p><div><p><b>Benefits of a Uline Internship</b></p><ul><li><p>Gain professional work experience by executing meaningful business projects.</p></li><li><p>Work with a dedicated mentor assigned specifically to you.</p></li><li><p>Live nearby in complementary housing for out-of-town interns.</p></li><li><p>Join a positive and collaborative in-person work environment.</p></li><li><p>Earn competitive pay over summer and the potential to join Uline full-time upon graduation.</p></li></ul><p></p><p><b>Intern Perks</b></p><ul><li><p>&#34;Lunch and Learn&#34; sessions to expand your business and industry knowledge.</p></li><li><p>Outings and networking events with interns across all departments.</p></li><li><p>On-site café with meals prepared fresh by executive chefs.</p></li><li><p>First-class fitness center with sauna and walking trails.</p></li></ul><p></p><div><p><b>About Uline</b></p><p></p><p>Uline, a family-owned company, is North America’s leading distributor of shipping, industrial, and packaging materials with over 9,800 employees across 14 locations.</p><p></p><p>Uline is a <u>drug-free workplace</u>. All new hires must complete a pre-employment <u>hair follicle drug screening</u>. All positions are on-site.</p><p></p><p>EEO/AA Employer/Vet/Disabled</p><p></p><p>#LI-JT2</p><p>#CORP</p><p>(#IN-PPINH)</p></div></div></div></div></div></div></div><p></p><p></p><p>Our employees make the difference and we are committed to offering exceptional benefits and perks!<span> </span>Explore <a href=\"https://www.uline.jobs/#working-here\" target=\"_blank\">Uline.jobs</a> to learn more!</p>","location":"Pleasant Prairie, WI","additionalLocations":["Milwaukee, WI","Waukegan, IL","Glenview, IL","Kenosha, WI"],"postedOn":"Posted 5 Days Ago","startDate":"2026-04-09","timeType":"Full time","jobReqId":"R262813","jobPostingId":"Software-Developer-Internship---Summer-2026_R262813","jobPostingSiteId":"Uline_Careers","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"Corporate (H2)","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://uline.wd1.myworkdayjobs.com/Uline_Careers/job/Pleasant-Prairie-WI/Software-Developer-Internship---Summer-2026_R262813","questionnaireId":"f1af4e784d4d100157c976f5a6850000","secondaryQuestionnaireId":"80fe803fb502100157a2ce13f1430000"},"hiringOrganization":{"name":"Uline, Inc.","url":""},"similarJobs":[{"title":"UX Research Internship - Summer 2026","externalPath":"/job/Pleasant-Prairie-WI/UX-Research-Internship---Summer-2026_R261389","timeType":"Full time","locationsText":"5 Locations","postedOn":"Posted 30+ Days Ago","startDate":"2026-03-04"},{"title":"Product Marketing Internship - Summer 2026","externalPath":"/job/Pleasant-Prairie-WI/Product-Marketing-Internship---Summer-2026_R260523","timeType":"Full time","locationsText":"5 Locations","postedOn":"Posted 18 Days Ago","startDate":"2026-03-27"},{"title":"Warehouse Management Internship - Summer 2026","externalPath":"/job/Kenosha-WI/Warehouse-Management-Internship---Summer-2026_R260830","timeType":"Full time","locationsText":"4 Locations","postedOn":"Posted 30+ Days Ago","startDate":"2026-03-10"},{"title":"Photography Internship - Summer 2026","externalPath":"/job/Pleasant-Prairie-WI/Photography-Internship---Summer-2026_R260709","timeType":"Full time","locationsText":"5 Locations","postedOn":"Posted 30+ Days Ago","startDate":"2026-01-21"},{"title":"Software Developer - Web","externalPath":"/job/Pleasant-Prairie-WI/Software-Developer---Web_R262330-1","timeType":"Full time","locationsText":"3 Locations","postedOn":"Posted 18 Days Ago","startDate":"2026-03-27"}],"userAuthenticated":false}
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+$(document).ready(function() {
+$("#skipLink").click(function (e) {
+e.preventDefault();
+$("#content").focus().css('outline','none');
+var offset = $(':target').offset();
+var fixedHeaderHeight = $("#header").innerHeight();
+var scrollto = offset.top - fixedHeaderHeight;
+$('html, body').animate({scrollTop:scrollto}, 0);
+});
+});
+Skip to main content
+Life at Belden
+Search by Keyword
+Life at Belden
+Language
+English (United States)
+View Profile
+#content {
+padding-top: 5px;
+}
+//<![CDATA[
+$(document).on('resizeFixedHeader', function () {
+$('#fixedHeaderInlineStyle').remove();
+$("<style type='text/css' id='fixedHeaderInlineStyle'>@media only screen and (min-width: 767px) { body { padding-top: " + $('#header').outerHeight(true) + "px;} }</style>").appendTo("head");
+}).trigger('resizeFixedHeader');
+$(window).on( "ready", function() {
+$(document).trigger('resizeFixedHeader');
+});
+$(window).on( "load", function() {
+$(document).trigger('resizeFixedHeader');
+});
+//]]>
+Search by Keyword
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Software Engineering Coop
+Date: Apr 9, 2026
+Company:
+Belden Inc
+Sorry, this position has been filled.
+Life at Belden
+//<![CDATA[
+$(function()
+{
+var ctid = '0cfa2ad5-ded3-4e43-a28b-4db498dd9ca7';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'beldeninc',
+"ssoUrl" : 'https://career4.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "6922a437-cf0a-4f03-be2f-6904d7888b84"
+}
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1380970600',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.belden.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>

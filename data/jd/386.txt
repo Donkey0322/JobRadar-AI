@@ -1,1 +1,306 @@
-{"absolute_url":"https://job-boards.greenhouse.io/auctane/jobs/7656333003","data_compliance":[{"type":"gdpr","requires_consent":false,"requires_processing_consent":false,"requires_retention_consent":false,"retention_period":null,"demographic_data_consent_applies":false}],"education":"education_optional","internal_job_id":5728639003,"location":{"name":"Austin, TX"},"metadata":null,"id":7656333003,"updated_at":"2026-04-10T11:35:59-04:00","requisition_id":"3247","title":"CyberSecurity Engineering Intern","company_name":"Auctane ","first_published":"2026-03-19T12:34:25-04:00","language":"en","content":"&lt;div class=&quot;content-intro&quot;&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;&lt;img style=&quot;display: block; margin-left: auto; margin-right: auto; max-width: 100%;&quot; src=&quot;https://brand.auctane.com/uploads/fhmikF1ylz02TLjtkC429w.png&quot; alt=&quot;&quot; width=&quot;600&quot;&gt;&lt;/h2&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;About us&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;At Auctane, we are united by a passion to help businesses deliver — whatever their size, wherever they are, and however they operate. We make it possible for businesses to meet the ever-changing requirements of their industry and customer expectations. Auctane products enable hundreds of thousands of businesses to annually mail and ship billions of items — over $200 billion worth — to recipients around the globe.&lt;/p&gt;\n&lt;p&gt;The Auctane family of mailing and shipping software products includes ShipStation, Stamps.com, ShipStation API, Metapack, GlobalPost, and Packlink. Our partners include Amazon, UPS, USPS, eBay, BigCommerce, Shopify, WooCommerce, and Walmart.&lt;/p&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Our values&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img style=&quot;max-width: 100%;&quot; src=&quot;https://postimg.cc/N5Q8NR10&quot; alt=&quot;&quot;&gt;Win as One. Delight Customers. Deliver Great Outcomes.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;About the role&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;This is an internship role within the Information Technology department and under the &lt;span style=&quot;text-decoration: underline;&quot;&gt;Information Security Office Group&lt;/span&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;2026 Auctane Summer Internship Program:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Please read before applying&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Eligibility:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Must be&lt;em&gt; &lt;/em&gt;currently enrolled in an accredited undergraduate or graduate university program. Students graduating in May 2026 are not eligible for the program&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Duration:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Paid, 9-week internship&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Schedule:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;40 hours per week, with the exception of the week of July 4th.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Program Dates:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;June 9, 2026 — First day of onsite orientation&lt;/li&gt;\n&lt;li&gt;August 13, 2026 — Final day of the program&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Location:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Hybrid role based in Austin, TX&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;In-office: Tuesday, Wednesday, Thursday&lt;/li&gt;\n&lt;li&gt;Remote: Monday and Friday&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Interviews:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Interviews will be conducted on a rolling basis through March 31st&lt;/p&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;What will you be doing?&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop preventative and detective controls based on gaps identification&lt;/li&gt;\n&lt;li&gt;Help secure cloud and corporate IT infrastructure&lt;/li&gt;\n&lt;li&gt;Identify threats and develop remediations against those threats&lt;/li&gt;\n&lt;li&gt;Working with the global security team to learn and support security programs and their success&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;What are we looking for?&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Eagerness to learn and be curious about technology and security problems&lt;/li&gt;\n&lt;li&gt;Experience in Computer Science, Software Development, Data Science, Cyber Security or similar courseworks&lt;/li&gt;\n&lt;li&gt;Strong analytical, problem-solving, and communication skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;What will make you stand out?&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience in AWS/GCP, Containers, Python, C#, and similar technologies&lt;/li&gt;\n&lt;li&gt;Located in or near the Austin, Texas area&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;The Tech&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Google Suite&lt;/li&gt;\n&lt;li&gt;Public Cloud Infrastructure services&lt;/li&gt;\n&lt;li&gt;AI tools and technologies&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p style=&quot;color: #11003a; font-weight: bold; padding: 8px; border: 3px solid #5C50FF; margin-top: 8px; margin-bottom: 8px; text-align: center; font-size: 12px; border-radius: 8px;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;What do we offer?&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;🏠 We are a hybrid company. All team members at Auctane in Austin come into the office Tuesdays, Wednesdays and Thursdays.&lt;/li&gt;\n&lt;li&gt;🏟️ Company events, we work hard, play hard! We do our best every day, even at our regular team-building events.&lt;/li&gt;\n&lt;li&gt;🏢 Attractive office space in the heart of central Austin, Texas (free drinks, snacks…).&lt;/li&gt;\n&lt;li&gt;🍽Indulge in weekly catered lunches at our office – a delicious perk to fuel your work.&lt;/li&gt;\n&lt;li&gt;🏋🏾‍♀️Fitness center in the office with Tonal Mirrors, Pelotons, free weights, etc.&lt;/li&gt;\n&lt;li&gt;💪🏽We offer gym discounts to help you stay fit and healthy!&lt;/li&gt;\n&lt;li&gt;💜 An inclusive, casual and upbeat work environment. The personality and opinions of each of our team members are important and valid; we aim to offer all employees a safe environment where they can be themselves and thrive.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Additional Position Duties:&lt;/strong&gt; (The following is a list of what all employees, except those with medical accommodation, may be regularly required to do.)&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Sit for prolonged periods of time&lt;/li&gt;\n&lt;li&gt;Utilize wrist and hands for a prolonged period of time&lt;/li&gt;\n&lt;li&gt;Walk short distances&lt;/li&gt;\n&lt;li&gt;Stand for short periods&lt;/li&gt;\n&lt;li&gt;Speaking and conversing with others&lt;/li&gt;\n&lt;li&gt;Lift up to 25lbs without assistance up to chest height&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Equal Opportunity Employer/Veterans/Disabled&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;If you are based in California, we encourage you to read this important information about the ShipStation Privacy Policy for California residents&lt;a href=&quot;https://www.shipstation.com/privacy-policy/&quot;&gt; linked here.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;","departments":[{"id":4013992003,"name":" IT","child_ids":[],"parent_id":null}],"offices":[{"id":4026509003,"name":"Austin - United States","location":"Austin, Texas, United States","child_ids":[],"parent_id":null}]}
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Search by Keyword
+Search by Location
+Clear
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Site Language
+Dansk (Danmark)
+Deutsch (Deutschland)
+English (United Kingdom)
+English (United States)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski
+Português (Brasil)
+Slovencina (Slovensko)
+Svenska (Konungariket Sverige)
+简体中文 (中国大陆)
+View Profile
+#content {
+padding-top: 0px;
+}
+Search by Keyword
+Search by Location
+Show More Options
+Loading...
+Category
+All
+Operating Company
+All
+Work Arrangement
+All
+Job Function
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Engineer, Software Intern
+Location:
+Austin, TX, US, 78728
+#job-location.job-location-inline {
+display: inline;
+}
+Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
+This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
+We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
+About the Role
+Dover Fueling Solutions is looking for a highly motivated Summer Intern to join our Test Automation team. This role offers an exciting opportunity to work on real-world IoT-enabled fueling and automation systems, while gaining hands-on experience in software quality engineering and test automation.
+Interns will have the opportunity to explore the domain, understand end-to-end system behavior, and contribute to building reliable, high-quality solutions.
+Key Responsibilities
+Assist in developing and maintaining test automation frameworks
+Contribute to end-to-end system test automation across integrated platforms
+Work on mobile application test automation (Android/iOS as applicable)
+Develop and execute automated test scripts for IoT-based applications and systems
+Collaborate with development and QA teams to understand requirements and define test scenarios
+Participate in debugging, issue analysis, and root cause identification
+Contribute to improving test coverage, quality processes, and automation efficiency
+Document test cases, results, and technical learnings
+Required Skills & Qualifications
+Strong understanding of Object-Oriented Programming (OOP) concepts
+Proficiency in at least one programming language (preferably C#)
+Good analytical and problem-solving skills
+Strong communication skills (verbal and written)
+Self-driven, proactive mindset with a strong willingness to learn (“go-getter” attitude)
+Preferred Qualifications
+Educational qualification to be mentioned
+Exposure to IoT systems, embedded systems, or automation testing
+Basic understanding of test automation frameworks or tools
+Familiarity with version control systems (e.g., Git)
+Understanding of software testing fundamentals
+What You’ll Gain
+Hands-on experience in IoT-based test automation within Dover Fueling Solutions
+Exposure to real-world fueling and automation domain systems
+Mentorship from experienced QA and engineering professionals
+Opportunity to work with modern tools, frameworks, and engineering practices
+A strong foundation in software quality engineering and automation
+We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
+All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
+Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
+Nearest Major Market: Austin
+Job Segment:
+Summer Internship, Testing, Embedded, Entry Level Engineer, Software Engineer, Entry Level, Technology, Engineering
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Find similar jobs:
+View All Jobs in English,
+View All Jobs,
+View All Jobs,
+Ver todos los trabajos globales,
+Alle globalen Jobs anzeigen
+Dover Home
+View Page Index
+Top Job Searches
+Privacy Policy
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d9d5d3f2-8e3a-46b4-b9bc-1ae4ef7fbe2a"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1382944833,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : false,
+applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"65941-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d9d5d3f2-8e3a-46b4-b9bc-1ae4ef7fbe2a"
+}
+});
+//]]>
+//<![CDATA[
+j2w.SAB.init({
+profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
+jobID : '1382944833',
+locale : 'en_US',
+autoOpen : { open : false }
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'b82d1910-7cfd-4875-a767-56bf9943ab1f';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["department","facility","customfield3","customfield4"],
+showPicklistAllLocales : false
+};
+//]]>

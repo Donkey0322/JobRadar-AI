@@ -1,1 +1,630 @@
-{"jobPostingInfo":{"id":"b5cc2eee6e7d100173c55ae6c5360000","title":"Insurance Classic Intern","jobDescription":"Insurance Classic Intern<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>Join AAA’s Roadways College Internship Program!</b></p><p>AAA has an exciting opportunity to join the Insurance Classic Team for a 10-week internship. Interns should have a career aspiration and passion for technology, collaboration, and creative problem-solving. Interns will actively participate in programs contributing to meaningful projects and work closely each week with the Insurance Classic Team.</p><p></p><p><b>About the Roadways College Internship Program:</b></p><p>Over the summer program, interns receive tools and resources for their growth and development that will help them prepare for the current and future workforce, including:</p><ul><li><p>Understanding how to align business strategy with key objectives and initiatives</p></li><li><p>Using behavioral and communication tools to enhance their personal image</p></li><li><p>Demonstrating flexibility, agility, and the ability to respond effectively to change</p></li><li><p>Cultivating relationships to increase collaboration and build trust</p></li></ul><p></p><p><b>What You’ll Do:</b></p><ul><li><p>Collaborate with Insurance Classic team members on various projects and tasks</p></li><li><p>Attend weekly operational and strategic insight sessions with senior leaders</p></li><li><p>Attend learning and development sessions to further enhance your leadership skills</p></li><li><p>Design and deliver interactive, audience-ready presentations using Microsoft Office tools (including, but not limited to, PowerPoint)</p></li><li><p>Network with executives and senior leaders across different business units</p></li><li><p>Participate in team building and volunteer events</p></li><li><p>Participate in job shadowing/hands-on activities</p></li></ul><p></p><p><b>What You’ll Need:</b></p><ul><li><p>Must be a Senior enrolled in a college/university with emphasis in Computer Science, Software Engineering, Information Technology, Data Science, or a related field.</p></li><li><p>Strong analytical thinking and problem‑solving abilities.</p></li><li><p>Hands‑on experience with programming languages such as Java, HTML, CSS, Microsoft SQL Server, and/or VB .NET.</p></li><li><p>Basic familiarity with SOAP and REST APIs, designing Java web services, and linking them to SQL databases.</p></li><li><p>Familiarity with CI/CD tools like Git, GitHub, or Jenkins.</p></li><li><p>Exposure to code development tools such as Eclipse or VS Code is a plus.</p></li><li><p>Proficiency in Microsoft Office Suite (Excel, Word, PowerPoint).</p></li><li><p>Experience with data analytics tools (e.g., Tableau, Python) is an added advantage.</p></li><li><p>Exceptional attention to detail and strong organizational skills.</p></li><li><p>Self‑motivated, eager to learn, willing to ask questions, and able to apply new knowledge quickly.</p></li><li><p>Effective verbal and written communication skills.</p></li></ul><p></p><p><b>Internship Eligibility:</b></p><ul><li><p>Must commit to the entirety of the program, June 8th through August 14th</p></li><li><p>Must commit to working full time, 40 hours per week</p></li><li><p>Must be willing to commute to the office daily</p></li><li><p>The pay for this position will be $27 per hour</p></li></ul><p>#interns</p><p></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Auto Club Enterprises is the largest club within the national AAA federation. We have nearly 17,000 employees in 24 states helping more than 18 million members. The strength of our organization is our employees. Bringing together and supporting different cultures, backgrounds, personalities, and strengths creates a team capable of delivering legendary, lifetime service to our members. When we embrace our diversity – we win. All of Us! With our national brand recognition, long-standing reputation since 1900, and constantly growing membership, we are seeking career-minded, service-driven professionals to join our team.<p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">Through dedicated employees we proudly deliver legendary service and beneficial products that provide members peace of mind and value.”</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">AAA is an Equal Opportunity Employer</p><p></p><p>Our organization participates in E-Verify</p>","location":"Coppell, TX","postedOn":"Posted Yesterday","startDate":"2026-04-13","timeType":"Full time","jobReqId":"JR202635721","jobPostingId":"Insurance-Classic-Intern_JR202635721","jobPostingSiteId":"careers","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"Coppell - 0760","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Insurance-Classic-Intern_JR202635721","questionnaireId":"ca9979c3826b1001ba69dc380ab20000","secondaryQuestionnaireId":"3142f67760d901cb924aa7b67b2b4e1d"},"hiringOrganization":{"name":"AAATX AAA Texas LLC","url":""},"similarJobs":[{"title":"Dev Ops Engineer Intern","externalPath":"/job/Coppell-TX/Dev-Ops-Engineer-Intern_JR202635774","timeType":"Full time","locationsText":"Coppell, TX","postedOn":"Posted Yesterday","startDate":"2026-04-13"}],"userAuthenticated":false}
+What We Do
+Products
+Solutions
+Support & Services
+Partners
+Resources
+Company
+Contact Us
+Global Offices
+Next Community
+Learn About Nutanix
+We're looking for dreamers, builders and innovators.
+The job listing no longer exists.
+Open Positions
+Location:
+Select By Location
+{{ item.name }}
+Category:
+Select By Group
+{{ item.name }}
+Keyword:
+Search
+Featured Jobs
+Member of Technical Staff 4 (Backend Developer)
+Vancouver,
+British Columbia
+Tech Lead / Software Engineering Manager- (Virtualization/ Hypervisor/Kernel)
+San Jose,
+California
+Cloud Native Sales Specialist
+Milan,
+Italy
+Software Engineering Intern (Undergraduate ONLY; Summer 2026)
+San Jose,
+California
+Open Positions
+Accounting & Finance
+Job listing
+Job location
+Accountant
+Bangalore,
+India
+International Payroll Specialist
+2 Locations
+Senior Director, Corporate FP&A & Forecasting
+San Jose,
+California
+Senior Payroll Specialist
+Bangalore,
+India
+Sr. Finance Manager, Corporate FP&A
+San Jose,
+California
+Business Development
+Job listing
+Job location
+Business Development Director - Google
+Seattle,
+Washington
+Business Intelligence Analyst
+Bangalore,
+India
+Director, Digital Sovereignty
+2 Locations
+Engineering
+Job listing
+Job location
+Engineering Manager (Cloud Infrastructure)
+Belgrade,
+Serbia
+Engineering Manager- Core Infra
+Bangalore,
+India
+FullStack Developer - Applied AI
+Durham,
+North Carolina
+Junior Software Engineer (Virtualisation/Systems Engineering)
+Cambridge,
+United Kingdom
+Linux Kernel Developer
+Bangalore,
+India
+Member of Technical Staff 3/ 4 [DevOPs - 5-8 yrs experience]
+Bangalore,
+India
+Member of Technical Staff - 3
+Bangalore,
+India
+Member of Technical Staff - Nutanix Flow
+Vancouver,
+British Columbia
+Member of Technical Staff 2- AI/ML
+2 Locations
+Member of Technical Staff 3 - NDB
+San Jose,
+California
+Member Of Technical Staff 3 - QA
+San Jose,
+California
+Member of Technical staff 3 [3-5years]-Software Development System Engineer [Python/Go]
+Bangalore,
+India
+Member of Technical Staff 3 QA - Python Automation, Virtualization
+Bangalore,
+India
+Member of Technical Staff 3- DevEx (Storage)
+San Jose,
+California
+Member of Technical Staff 4 (Backend Developer)
+Vancouver,
+British Columbia
+Member of Technical Staff 4 (Backend Developer)
+Vancouver,
+British Columbia
+Member of Technical Staff 4 (Backend Developer)
+Vancouver,
+British Columbia
+Member of Technical Staff 4 (CPaaS Data Platform Team)
+San Jose,
+California
+MTS 4 - QA
+Bangalore,
+India
+NLP Architect
+San Jose,
+California
+Show More
+Facilities
+Job listing
+Job location
+Director, Real Estate & Workplace, Global Strategy & Programs
+San Jose,
+California
+Physical Security and Safety Project Coordinator
+San Jose,
+California
+Regional Space Planner - EMEA
+London,
+United Kingdom
+Workplace Manager
+London,
+United Kingdom
+Workplace Program Manager, APAC
+Bangalore,
+India
+Human Resources
+Job listing
+Job location
+Director, Global People Services
+Durham,
+North Carolina
+Executive Candidate Experience Specialist
+United States,
+United States
+Global Mobility & Immigration Specialist
+Durham,
+North Carolina
+Global People Services Manager
+Belgrade,
+Serbia
+People Business Partner
+Durham,
+North Carolina
+Regional HR Business Partner
+Tokyo,
+Japan
+Senior Talent Advisor (12 month fixed term contract)
+Belgrade,
+Serbia
+Senior Workday Analyst
+Bangalore,
+India
+Senior Workday Analyst
+United States,
+United States
+Sr. Talent Advisor - EMEA Emerging Talent
+Belgrade,
+Serbia
+Workday QA Analyst
+Bangalore,
+India
+Information Technology
+Job listing
+Job location
+CyberArk Systems Engineer
+San Jose,
+California
+Finance Transformation Manager
+Austin,
+Texas
+Global IT Support Engineer
+Mexico City,
+Mexico
+Linux Site Reliability Engineer
+Durham,
+North Carolina
+MTS 4 - Staff UiPath Developer
+Bangalore,
+India
+Senior IT Business Analyst
+San Jose,
+California
+Senior Salesforce Developer
+San Jose,
+California
+Senior Salesforce Developer
+Vancouver,
+British Columbia
+Staff Business Analyst (Order to Cash)
+San Jose,
+California
+Staff Salesforce Developer
+Bangalore,
+India
+Staff Salesforce Developer
+San Jose,
+California
+Staff Salesforce Developer
+Vancouver,
+British Columbia
+Workday Payroll Business Analyst
+Bangalore,
+India
+Legal
+Job listing
+Job location
+Commercial Counsel
+Kuala Lumpur,
+Malaysia
+Senior Legal Counsel - Commercial
+Bangalore,
+India
+Manufacturing & Operations
+Job listing
+Job location
+Staff Manufacturing Quality Engineer
+San Jose,
+California
+Marketing
+Job listing
+Job location
+Intel Partner Marketing Manager
+Durham,
+North Carolina
+Product Support
+Job listing
+Job location
+Manager, Worldwide Support
+Barcelona,
+Spain
+Manager, Worldwide Support
+Mexico City,
+Mexico
+Resolution Manager
+Barcelona,
+Spain
+Resolution Manager - WW Support
+Durham,
+North Carolina
+Resolution Manager - WW Support
+Mexico City,
+Mexico
+Senior Serviceability Engineer
+Bangalore,
+India
+Senior Serviceability Engineer
+Bangalore,
+India
+Senior Technical Support Engineer (SRE)
+Barcelona,
+Spain
+Senior Technical Support Engineer (SRE)
+Hoofddorp,
+Netherlands
+Serviceability Engineer – Prism Central Product Support
+Bangalore,
+India
+Serviceability Engineer-Core Data Path / Prism
+Durham,
+North Carolina
+Sr. Systems Reliability Engineer
+Mexico City,
+Mexico
+SRE II (L2 Tech Support+ Virtualization)4-8yrs Bangalore/Pune
+Pune,
+India
+SRE III (L3 Tech Support+ Virtualization) 8-14yrs Pune
+Pune,
+India
+SRE III (L3 Tech Support+ Virtualization)8-14yrs Bangalore
+2 Locations
+Statistical Analyst - Support Data Analytics
+Mexico City,
+Mexico
+Systems Reliability Engineer
+Tokyo,
+Japan
+Systems Reliability Engineer 2 -Enterprise Tech Support (Virtualization & Networking)
+Bangalore,
+India
+Systems Reliability Engineer 2/3 - Enterprise Tech Support (Virtualization & Networking)
+2 Locations
+Systems Reliability Engineer II
+Bangalore,
+India
+Show More
+Professional Services
+Job listing
+Job location
+AI Initiatives Program Manager-Customer Success
+Durham,
+North Carolina
+Associate Technical Account Manager
+Mexico City,
+Mexico
+Enterprise Architect
+Singapore,
+Singapore
+Kubernetes Consulting Architect (m/f/d)
+2 Locations
+Learning Administrator 3
+Bangalore,
+India
+Manager, Technical Account Manager
+Pune,
+India
+Resident Architect
+Madrid,
+Spain
+Resident Consultant
+Mexico City,
+Mexico
+Resident Consultant
+Singapore,
+Singapore
+Resident Consultant
+Tokyo,
+Japan
+Senior Consultant
+Singapore,
+Singapore
+Senior Consultant
+Singapore,
+Singapore
+Senior Consultant - Hyperconverged Infrastructure and Cloud
+Rome,
+Italy
+Senior Consultant AI/Kubernetes
+Belgrade,
+Serbia
+Senior Consultant, Professional Services
+Tokyo,
+Japan
+Senior Consultant, Professional Services
+Tokyo,
+Japan
+Senior Database Consultant
+Riyadh,
+Saudi Arabia
+Senior Database Consultant
+Rome,
+Italy
+Senior Database Consultant
+10 Locations
+Senior Database Consultant
+2 Locations
+Show More
+Sales
+Job listing
+Job location
+Advisory Enterprise Account Manager
+Milwaukee,
+Wisconsin
+Advisory Enterprise Account Manager - NYC
+2 Locations
+Advisory Solution Architect, Hybrid Multi-Cloud
+Tokyo,
+Japan
+Associate Subscription Account Manager
+2 Locations
+Channel Sales Manager
+Tokyo,
+Japan
+Channel Sales Manager
+Delhi,
+India
+Channel Sales Manager
+Manila,
+Philippines
+Channel Sales Manager - WWT
+St. Louis,
+Missouri
+Cloud Native Sales Specialist
+Milan,
+Italy
+Cloud Native Solutions Architect
+Paris,
+France
+Commercial Account Manager
+2 Locations
+Commercial Account Manager
+2 Locations
+Commercial Account Manager
+Seattle,
+Washington
+Commercial Account Manager, Florida
+3 Locations
+Commercial Account Manager, Phoenix
+2 Locations
+Commercial Account Manager- Orange County
+Irvine,
+California
+Country Manager, Indonesia
+Jakarta,
+Indonesia
+Director, Channel Systems Engineer
+Singapore,
+Singapore
+Enterprise Account Manager
+Mumbai,
+India
+Enterprise Account Manager
+Jakarta,
+Indonesia
+Show More
+Sales Strategy & Operations
+Job listing
+Job location
+APJ Sales Strategic Initiatives Manager
+Bangalore,
+India
+Channel Operations Analyst
+Bangalore,
+India
+Strategy & Operations
+Job listing
+Job location
+Associate, Corporate Strategy
+San Jose,
+California
+Manager, Corporate Strategy
+2 Locations
+Job Seeker Tools
+Check Your Application
+Sign-up for Job Alerts
+Powered by Jobvite
+We're Social
+.outline{fill: #3e6d9c;}
+.buttons{fill: #70a4d8;}
+Request a Demo
+.outline{fill: #3e6d9c;}
+.tie{fill: #70a4d8;}
+Contact Sales
+What We Do
+Solutions
+Products
+Resources
+Our Customers
+Tech Terms
+Connect with Nutanix
+Contact Us
+Support Team
+Blog
+Events
+Next Community
+Company Info
+Global Offices
+Leadership
+Newsroom
+Investor Relations
+Social Responsibility
+Trust
+Diversity and Inclusion
+Resources
+Careers
+Current Openings
+Life At Nutanix
+Applicant Privacy Notice •
+Nutanix Privacy Statement •
+Cookies •
+Terms of Use / Do Not Sell my Personal Information
+© Nutanix document.write(new Date().getFullYear());, all rights reserved.
+Back to Top
+angular.module('preloadedData', []).constant('preloadedData', {
+companyAnalytics: 'UA-40341815-1',
+enableResumeParsing: true,
+numberFormat: "##,###,###,###,###.####",
+companyEId: 'qKr9VfwZ',
+linkedInApiKey: '7557fkcarvxieo',
+isAWLIEnabled: '${isAWLIEnabled}',
+facebookApiId: '48354194572',
+dropBoxApiKey: 'w5fg28zznqcyg4w',
+baseUrl: '/nutanix',
+cdnURL: '//d3igejkwe1ucjd.cloudfront.net',
+releaseVersion: '260407164829',
+careersiteName: 'nutanix',
+careersiteDomainName: 'jobvite.com',
+careersiteSourceTypeId: 'PQmHWfwz'
+}).constant('i18n', {
+I18N_RESUME_PREVIEW: 'Resume Preview',
+I18N_NO_RESUME_FOUND: 'No resume found',
+I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',
+I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',
+I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',
+I18N_RECOMMENDER: 'Recommender:',
+I18N_CURRENT: 'Current',
+I18N_PAST: 'Past',
+I18N_EDUCATION: 'Education',
+I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',
+I18N_PATENTS: 'Patents',
+I18N_SUMMARY: 'Summary',
+I18N_SPECIALTIES: 'Specialties',
+I18N_EXPERIENCE: 'Experience',
+I18N_RECOMMENDATIONS: 'Recommendations',
+I18N_PRESENT: 'Present',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec',
+COMMON_PAST_WEEK: 'Past 7 days',
+COMMON_PAST_MONTH: 'Past 30 days',
+COMMON_PAST_3_MONTHS: 'Past 90 days',
+COMMON_CUSTOM_RANGE: 'Custom Range',
+I18N_FROM: 'From',
+I18N_TO: 'To',
+I18N_ANY: 'Any',
+I18N_FILE_UPLOAD_SIZE_CHECK_ERROR: 'File size shall not exceed 10MB',
+I18N_MALICIOUS_CONTENT: 'The file upload was blocked for security reasons. Please check the file for any potentially harmful content or links and try again.',
+I18N_NO_REMOTE: 'No Remote',
+I18N_REMOTE: 'Remote'
+});
+Jobvite = {
+baseUrl: 'https://app.jobvite.com'
+}
+What We Do
+Products
+Solutions
+Company
+Partners
+Support & Services
+Resources
+Contact Us
+$('header .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+$('footer .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+var lastScrollTop = 0;
+$(window).scroll(function (event) {
+var st = $(this).scrollTop();
+if (st > 0) {
+if (st > lastScrollTop) {
+// downscroll code
+$('header').addClass('nav-down');
+$('header').addClass('smaller')
+} else {
+// uproll code
+$('header').removeClass('smaller');
+$('header').removeClass('nav-down');
+$('header').addClass('nav-up')
+}
+} else {
+$('header').removeClass('nav-up');
+$('header').removeClass('smaller');
+}
+lastScrollTop = st;
+});
+jQuery(document).ready(function() {
+var offset = 250;
+var duration = 300;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.back-to-top').fadeIn(duration);
+} else {
+jQuery('.back-to-top').fadeOut(duration);
+}
+});
+jQuery('.back-to-top').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});

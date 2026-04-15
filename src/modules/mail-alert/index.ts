@@ -22,8 +22,10 @@ function locationIcon(location: Location) {
       return "🇨🇦";
     case "UK":
       return "🇬🇧";
-    default:
+    case "Other":
       return "🌎";
+    default:
+      return "";
   }
 }
 

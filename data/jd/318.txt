@@ -1,1 +1,153 @@
-{"jobPostingInfo":{"id":"e4bc5db91bcc10015fd544f0ca990000","title":"Software Engineering Intern - Summer 2026","jobDescription":"Job Title: Software Engineering Intern - Summer 2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Job Category: Intern/Co-op<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Time Type: Part time<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Minimum Clearance Required to Start: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Employee Type: Part-Time On-Call<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Percentage of Travel Required: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Type of Travel: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>* * *<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><br /><b><u>The Opportunity:</u></b></p><p>We are seeking an aspiring software engineer for an internship in Ypsilanti, MI. In this role, you will learn about some of the newest remote sensing products used by our government customers that keep our country safe. If this sounds interesting and you have a programming background in Java, C&#43;&#43;, Javascript, or a similar language, this might be the job for you!</p><p></p><p>This internship is onsite at our facility in Ypsilanti, MI. As part of the work you can expect to learn about synthetic aperture radar, cutting edge products, and the technologies that have made us a “go to” partner for our customers for nearly 80 years., The internship(s) will start circa mid-May and candidates will be expected to spend up to 90 days in this internship. This work requires candidates to be able to obtain and maintain a Top Secret U.S. Government Security Clearance.</p><p><br /><br /><br /><b><u>Responsibilities:</u></b></p><ul><li>Collaborate with the program manager, engineers, and other stakeholders to define software requirements and specifications</li><li>Design and implement efficient, flexible solutions that can scale for mission critical applications</li><li>Work closely with the DevOps team to deploy new features and maintain system stability</li><li>Write robust test suites to ensure code correctness</li><li>Apply software standards and processes to produce high quality, extensible, and maintainable software packages</li><li>Debug, refactor, and reimplement existing software codebases into new systems and on new platforms</li><li>Participate in all aspects of the development lifecycle, including planning, requirements development, software design, implementation and build, documentation, testing, deployment, and maintenance</li><li>Effectively collaborate across a diverse team of engineers, product owners, and scrum masters</li></ul><p><br /><br /><b><u>Qualifications:</u></b><br /><br /><i>Required: </i></p><ul><li>Ability to obtain and maintain a Top Secret U.S. Government Security Clearance</li><li>Working toward a degree in Computer Science, Electrical Engineering, Physics, Math, or a related field</li><li>Interest in learning remote sensing technologies</li><li>Programming skills in Python, Java, C&#43;&#43;, Javascript, or a similar language</li><li>Excellent problem-solving and analytical skills</li><li>Ability to work within a team environment to advance large software development packages by taking on and completing tasks independently</li><li>Ability to work onsite</li></ul><p><br /><i>Desired:</i></p><ul><li>Programming skills in an additional language</li><li>Familiarity developing in Linux and/or in a cloud environment (AWS preferred)</li><li>Knowledge of or background in radar or electro-optical fields</li><li>Academic experience in digital signal processing</li><li>Scrum/Agile Development knowledge and experience with Jira</li><li>Experience writing software implementing algorithms</li></ul><p></p><p><b>EHS/Environmental Requirements:</b></p><p>This job operates in a professional office environment. While performing the duties of this job, the employee routinely is required to use hands to keyboard, communicate, listen to, and interpret instructions and remain stationary for extended periods of the time. This would require the ability to move around the campus and occasionally move/lift items weighing up to 40 lbs. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions of the job.</p><p></p><p><span><span><b>Pre-employment Screenings:</b></span></span></p><p><span><span>Employment is contingent upon satisfactory completion of several pre-employment requirements to include a credit check, background check, and drug screen.</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>-<p></p><p></p><p><b><u>What You Can Expect:</u></b></p><p><b> A culture of integrity.</b></p><p>At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation.</p><p><b>An environment of trust.</b></p><p>CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality.</p><p><b>A focus on continuous growth.</b></p><p>Together, we will advance our nation&#39;s most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy.</p><p></p><p><br /></p><p><b><u>Pay Range</u></b>: </p><p>There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits.</p><p></p><p>The proposed salary range for this position is: </p>$41,900 - $83,800<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div></div><div><i>CACI is <span><span><span><span>an Equal Opportunity Employer.</span></span></span></span> All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any <span><span><span><span>other protected characteristic.</span></span></span></span></i></div>","location":"US MI Ypsilanti","postedOn":"Posted 6 Days Ago","startDate":"2026-04-08","timeType":"Part time","jobReqId":"324254","jobPostingId":"Software-Engineering-Intern---Summer-2026_324254","jobPostingSiteId":"External","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"605 YPSILANTI MI","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"remoteType":"Onsite","externalUrl":"https://caci.wd1.myworkdayjobs.com/External/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324254","questionnaireId":"cabee52113e4100107ab21f4851f0000"},"hiringOrganization":{"name":"02 CACI, INC.-FEDERAL","url":""},"similarJobs":[{"title":"Software Engineering Intern - Summer 2026","externalPath":"/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324253","timeType":"Part time","locationsText":"US MI Ypsilanti","postedOn":"Posted 6 Days Ago","startDate":"2026-04-08","remoteType":"Onsite"},{"title":"Software Engineering Intern - Summer 2026","externalPath":"/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324471","timeType":"Part time","locationsText":"US MI Ypsilanti","postedOn":"Posted 7 Days Ago","startDate":"2026-04-07","remoteType":"Onsite"},{"title":"Software Engineering Intern - Summer 2026","externalPath":"/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324256","timeType":"Part time","locationsText":"US MI Ypsilanti","postedOn":"Posted 6 Days Ago","startDate":"2026-04-08","remoteType":"Onsite"}],"userAuthenticated":false}
+Skip to content
+Electronic Arts
+Open Roles
+About EA
+EA Careers
+EA News
+Login
+English - US
+ChineseEnglish - USFinnishFrançaisItalianKoreanMalayPolishRomanianSpanishSwedish
+Software Engineer Intern - Fall
+Home
+...
+Open Roles
+Role Detail
+General Information
+Locations: Orlando, Florida, United States of America
+Role ID
+210911
+Worker Type
+Intern - Temporary Employee
+Studio/Department
+CT - Frostbite
+Work Model
+Hybrid
+Description & Requirements
+Electronic Arts creates next-level entertainment experiences that inspire players and fans around the world. Here, everyone is part of the story. Part of a community that connects across the globe. A place where creativity thrives, new perspectives are invited, and ideas matter. A team where everyone makes play happen.
+Join EA’s world-class Intern Experience! Connect, learn, and grow through immersive onboarding, hands-on work, and curated events designed to help you thrive. Along the way, you’ll build skills, form connections with interns across the company, and have fun alongside future industry leaders. Learn more: Early Careers - Official EA SiteFrostbite is EA's proprietary game engine. Its versatile tools and cutting-edge technology power creation on some of the world's most iconic and visually stunning games, including titles from EA SPORTS and Battlefield. Frostbite provides a unified platform that empowers developers to create hyper-realistic worlds, intricate gameplay, and lifelike animations with unmatched speed and quality. By joining Frostbite, you'll be at the forefront of game engine innovation, collaborating with top-tier developers to push the boundaries of interactive realism and immersive gameplay. Shape the future of gaming technology and leave your mark on the next generation of games.This is a hybrid / in-office role located in Orlando, FL, and you will report to a Development Director on the Frostbite team.Responsibilities:You will work directly with software development and quality assurance teams to add or improve functionality in areas such as Animation or UI for the Frostbite engine.You will work with engineers on the team to learn patterns and designs that are used.You will investigate and fix bugs in our code base.You will attend team meetings and present progress information.Qualifications:You are pursuing a master's degree in a related field.You have experience with C#, C++ or similar object-oriented language.You have experience debugging applications with Visual Studio.At this time, we are considering Master's students who will be enrolled in an accredited degree program in the Fall of 2026, slated to graduate no earlier than Spring 2027. Applicants must be legally authorized to work in the US on a full-time basis during the 12-week internship. Visa sponsorship is not available for this position.Please ensure that your graduation date is visible on your resume.
+About Electronic ArtsWe’re proud to have an extensive portfolio of games and experiences, locations around the world, and opportunities across EA. We value adaptability, resilience, creativity, and curiosity. From leadership that brings out your potential, to creating space for learning and experimenting, we empower you to do great work and pursue opportunities for growth.We adopt a holistic approach to our benefits programs, emphasizing physical, emotional, financial, career, and community wellness to support a balanced life. Our packages are tailored to meet local needs and may include healthcare coverage, mental well-being support, retirement savings, paid time off, family leaves, complimentary games, and more. We nurture environments where our teams can always bring their best to what they do.Electronic Arts is an equal opportunity employer. All employment decisions are made without regard to race, color, national origin, ancestry, sex, gender, gender identity or expression, sexual orientation, age, genetic information, religion, disability, medical condition, pregnancy, marital status, family status, veteran status, or any other characteristic protected by law. We will also consider employment qualified applicants with criminal records in accordance with applicable law. EA also makes workplace accommodations for qualified individuals with disabilities as required by applicable law.
+Post To
+External careers site, Internal careers site
+LinkedInID
+3108034
+Back to Role List
+Apply
+Share this role:
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+© 2026
+Electronic Arts Inc.
+Copyright ©
+2026
+Candidate Privacy Notice
+|
+Notice at Collection (California)
+/**
+* This variable will define every property we need to pass to Templates core library as we can't define twig variables on JS files.
+*/
+var twigConfig = {
+"pageParameters": {
+"personSort": null,
+"personSortDirection": null,
+"jobSort": null,
+"jobSortDirection": null,
+"jobRecordsPerPage": "",
+"personRecordsPerPage": ""
+},
+"jobLabel": "job",
+"STEP_INDEX": "" || null,
+"wizardModalViewEnabled": "" || false,
+"wizardHasErrors": "" || false,
+"sortedBy": "Sorted by ",
+"loading": "Loading ",
+"plugins": {
+"popper": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/popper.min.js"
+},
+"tooltip": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy-bundle.umd.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy.css"
+},
+"popup": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.css"
+},
+"slider": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.css"
+},
+"google": {
+"jsMarkerCluster": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/googlemaps/markerclusterer.js",
+"apiKey": ""
+}
+},
+"menu": {"typeByDefault":"visible","itemsThreshold":8,"headerHeightDefault":5.5,"typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024},"toggleSide":"right","panelFrom":"right","panelEffect":"over"},
+"search": {"typeByDefault":"visible","typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024,"preventTabsConflicts":true}},
+"results": {"resultsDisplayTypeByDefault":"listed","resultsDisplayTypeBelowBreakpoint":{"enabled":true,"type":"grided","breakpoint":750},"resultsItemTypeByDefault":"result","resultsItemTypeBelowBreakpoint":{"enabled":true,"type":"card","breakpoint":750}},
+"stickyAside": 0,
+"stickyHeader": 1,
+"stickyBanner": 0,
+"page": {
+"PORTAL_BASE_REAL_URL": "https://jobs.ea.com/portal/4",
+"wizardPageBackTo": "",
+},
+"relatedJobs": {
+"relatedJobsEnabled": 1,
+"url": "https://jobs.ea.com/en_US/careers/WidgetRelatedJobs?3_139_3=8301&amp;jobId=210911",
+"selector": "#relatedJobs"
+},
+"convertDatesToUserTZ": {
+"CSSClass": "timelocal",
+"convertDatesToUserTZEnabled": 1,
+"loggedUserTZ": Intl.DateTimeFormat().resolvedOptions().timeZone,
+"weekday": "long",
+"day": "numeric",
+"month": "long",
+"hour": "numeric",
+"minute": "numeric",
+"hour12": "1",
+},
+"userLang": "en_US",
+"breadcrumbsEnabled": 1,
+"googleMapsEnabled": 0,
+"googleMarkerClusterEnabled": 0,
+"googleParameters": {
+"dataUrl": "//jobs.ea.com/en_US/careers/Home/210911",
+"centerLatitude": 0,
+"centerLongitude": 0,
+"startZoom": 3,
+"infoWindowCSSClassDiv": "info-window",
+"infoWindowCSSClassHeader": "info-window__header",
+"infoWindowCSSClassLink": "link info-window__link"
+},
+"browsingHistory": {
+"browsingHistoryEnabled": 1,
+"url": "https://jobs.ea.com/en_US/careers/BrowsingHistoryList?3_139_3=%5B8301%5D",
+"selector": "#browsingHistory"
+},
+"widgetRelatedJobs": {
+"relatedJobsEnabled": 1,
+"url": "https://jobs.ea.com/en_US/careers/WidgetRelatedJobs?3_139_3=8301&amp;jobId=210911",
+"selector": "#widgetRelatedJobs"
+},
+"widgetOpenPositions":{
+"url": "",
+"selector": "#widgetOpenPositions"
+},
+"widgetRecommendations":{
+"widgetRecommendationsEnabled": 1,
+"url": "",
+"selector": "#widgetRecommendations"
+},
+"languageSwitcherFlagsPath": "https://templates-static-assets.avacdn.net/assets/flags",
+"enableLanguageSwitcherFlags": 0,
+"enableSectionCollapsibleAccordionDisplay": 0
+};
+var lightbox;
+var slider;
+var Templates;
+pjQuery(function() { var domManager = new DomManager(); domManager.run(); });
+var service = EventManager.getInstance();

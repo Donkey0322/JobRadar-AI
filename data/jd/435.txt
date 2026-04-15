@@ -1,1 +1,294 @@
-{"jobPostingInfo":{"id":"5ce34cd2cb5c10367fe5203ea01f0000","title":"Software Engineering Intern (Summer 2026) (Onsite)","jobDescription":"<p style=\"text-align:left\"><b>Date Posted:</b></p>2026-04-13<p style=\"text-align:left\"><b>Country:</b></p>United States of America<p style=\"text-align:left\"><b>Location:</b></p>US-NY-BINGHAMTON-288 ~ 31 Lewis Rd ~ LEWIS<p style=\"text-align:left\"><b>Position Role Type:</b></p>Onsite<p><b><span>U.S. Citizen, U.S. Person, or Immigration Status Requirements:</span> </b></p>The ability to obtain and maintain a U.S. government issued security clearance is required.​ U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance<p><b>Security Clearance Type: </b></p>DoD Clearance: Secret<p><b>Security Clearance Status: </b></p>Active and existing security clearance required after day 1<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div><div>Are you ready to explore the world of aerospace and defense? Do you want to learn from and collaborate with some of the greatest minds in the industry? At RTX, our internships, co-ops, and full-time careers provide an exceptional foundation to work on complex problems, advance your skills and create a safer, more connected world. Discover opportunities to make a difference at RTX. </div></div><div><div><div><div><div><div><div><div><div><p></p><p>As a Software Engineering Intern, you’ll become a key contributor where your skills and input make a big difference. In this role, you’ll work alongside a team designing, developing, and testing embedded software and development tools. </p><p>Candidates are expected to be adaptable to change, determined to accomplish tasks based on program schedule, collaborate with teammates in order to make the best decisions, enjoy learning new technologies, be self-motivated and contribute to a positive work environment. </p><p>As an intern in this organization, you will get to work on the cutting-edge technology around autonomy and unmanned aircrafts. </p><p></p><p>Candidates are also required to have excellent communication skills to communicate technical issues and status in both written and oral form to customers. The candidate must be adaptable to change, determined to accomplish tasks based on program schedule, collaborate with teammates in order to make the best decisions, enjoy learning new technologies, be self-motivated and contribute to a positive work environment. </p><p></p><p><b>What You Will Do:</b></p><ul><li><p>Support the design, demonstrate, develop, and maintain embedded software for unmanned aircraft products. </p></li><li><p>Integrate software into complex aircraft systems </p></li><li><p>Develop and conduct complex tests and debug systems that contain logical and mathematical solutions. </p></li></ul><p></p><p><b>Qualifications You Must Have:</b></p><ul><li><p>Requires a High School Diploma or equivalent and student must be pursuing a Bachelor’s or advanced degree in an applicable discipline. </p></li></ul><p></p><p><b>Qualifications We Prefer:</b></p><ul><li><p>Experience developing software using the C or C&#43;&#43; languages </p></li></ul><p></p><p>Collins Aerospace, a Raytheon Technologies company, is a leader in technologically advanced and intelligent solutions for the global aerospace and defense industry. Collins Aerospace has the capabilities, comprehensive portfolio and expertise to solve customers’ toughest challenges and to meet the demands of a rapidly evolving global market. </p><p></p><p>Do you want to be a part of something bigger? A team whose impact stretches across the world, and even beyond? At Collins Aerospace, our Mission Systems team helps civilian, military and government customers complete their most complex missions — whatever and wherever they may be. Our customers depend on us for intelligent and secure communications, missionized systems for specialized aircraft and spacecraft and collaborative space solutions. By joining our team, you’ll have your own critical part to play in ensuring our customer succeeds today while anticipating their needs for tomorrow. Are you up for the challenge? Join our mission today. </p><p></p><p><b>WE ARE REDEFINING AEROSPACE.</b> </p><p></p><p><b>This position is eligible for relocation.</b> </p><p>Please consider the following role type definitions as you apply for this role. </p><p></p><p><u>Onsite:</u> Employees who are working in Onsite roles will work primarily onsite. This includes all production and maintenance employees, as they are essential to the development of our products. </p><p>Regardless of your role type, collaboration and innovation are critical to our business and all employees will have access to digital tools so they can work with colleagues around the world – and access to Collins sites when their work requires in-person meetings. </p><p></p><p>At Collins, the paths we pave together lead to limitless possibility. And the bonds we form – with our customers and with each other -- propel us all higher, again and again. </p><p> </p><p>Apply now and be part of the team that’s redefining aerospace, every day.</p></div></div></div></div></div></div></div></div></div><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><i><b>As part of our commitment to maintaining a secure hiring process, candidates may be asked to attend select steps of the interview process in-person at one of our office locations, regardless of whether the role is designated as on-site, hybrid or remote.</b></i></p><p></p>The salary range for this role is 37,000 USD - 82,000 USD. The salary range provided is a good faith estimate representative of all experience levels. RTX considers several factors when extending an offer, including but not limited to, the role, function and associated responsibilities, a candidate’s work experience, location, education/training, and key skills.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Hired applicants may be eligible for benefits, including but not limited to, medical, dental, vision, life insurance, short-term disability, long-term disability, 401(k) match, flexible spending accounts, flexible work schedules, employee assistance program, Employee Scholar Program, parental leave, paid time off, and holidays. Specific benefits are dependent upon the specific business unit as well as whether or not the position is covered by a collective-bargaining agreement.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Hired applicants may be eligible for annual short-term and/or long-term incentive compensation programs depending on the level of the position and whether or not it is covered by a collective-bargaining agreement. Payments under these annual programs are not guaranteed and are dependent upon a variety of factors including, but not limited to, individual performance, business unit performance, and/or the company’s performance.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>This role is a U.S.-based role. If the successful candidate resides in a U.S. territory, the appropriate pay structure and benefits will apply.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>RTX anticipates the application window closing approximately 40 days from the date the notice was posted. However, factors such as candidate flow and business necessity may require RTX to shorten or extend the application window.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span class=\"emphasis-2\"><i>RTX is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. RTX provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act.</i> </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Privacy Policy and Terms:</b></p><p style=\"text-align:left\"><span>Click on this </span><a target=\"_blank\" href=\"http://www.rtx.com/privacy/Job-Applicant-Privacy-Notice\">link</a><span> to read the Policy and Terms</span></p>","location":"US-NY-BINGHAMTON-288 ~ 31 Lewis Rd ~ LEWIS","postedOn":"Posted Yesterday","startDate":"2026-04-13","timeType":"Full time","jobReqId":"01835947","jobPostingId":"Software-Engineering-Intern--Summer-2026---Onsite-_01835947","jobPostingSiteId":"Private_Posting_No_TMP","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"US-NY-BINGHAMTON-288 ~ 31 Lewis Rd ~ LEWIS","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineering-Intern--Summer-2026---Onsite-_01835947","questionnaireId":"1d1eac2ec47e102cc2d242c2cd8a0000","secondaryQuestionnaireId":"faee67f283e41001ea4b9417784a0000","timeLeftToApply":"19 hours left to apply","endDate":"2026-04-15","jobPostingEndDateAsText":"End Date: April 15, 2026"},"hiringOrganization":{"name":"","url":""},"similarJobs":[],"userAuthenticated":false}
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Search by Keyword
+Search by Location
+Clear
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Site Language
+Dansk (Danmark)
+Deutsch (Deutschland)
+English (United Kingdom)
+English (United States)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski
+Português (Brasil)
+Slovencina (Slovensko)
+Svenska (Konungariket Sverige)
+简体中文 (中国大陆)
+View Profile
+#content {
+padding-top: 0px;
+}
+Search by Keyword
+Search by Location
+Show More Options
+Loading...
+Category
+All
+Operating Company
+All
+Work Arrangement
+All
+Job Function
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Engineer, Software Intern
+Location:
+Austin, TX, US, 78728
+#job-location.job-location-inline {
+display: inline;
+}
+Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
+This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
+We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
+About the Role
+Dover Fueling Solutions, ClearView, is looking for a intuitive and motivated Summer Intern to join ClearView team to modernize the legacy soul with new technology This role offers an exciting opportunity to work on real-world fueling systems while gaining hands-on experience in software quality engineering.
+The role with get to understand the applications and the business logic behind creating the day close of inventory and sales at the end of day happening at the gas stations.
+Key Responsibilities
+Convert the legacy VB6 applications to modern technology c#.
+Directly work with senior developers to gain the domain knowledge.
+After finishing the applications add the testing scenarios to test the application.
+Preferred Qualifications
+A proactive attitude with a strong desire to learn.
+To do attitude and to finish the work on time.
+Should be fast learner and responsible.
+Ability to code in .Net environment.
+Basin knowledge of c# programming
+What You’ll Gain
+Basic knowledge of azure dev-ops and git hub and branching strategies.
+.Net, C# and queueing mechanisms
+Mentorship from experienced developers.
+The opportunity to work with modern tools, frameworks, and engineering practices.
+We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
+All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
+Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
+Nearest Major Market: Austin
+Job Segment:
+Summer Internship, Testing, Entry Level Engineer, Software Engineer, Intern, Entry Level, Technology, Engineering
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Find similar jobs:
+View All Jobs in English,
+View All Jobs,
+View All Jobs,
+Ver todos los trabajos globales,
+Alle globalen Jobs anzeigen
+Dover Home
+View Page Index
+Top Job Searches
+Privacy Policy
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "89813f0c-70f9-41f6-a24e-e2feb80f7903"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1383322133,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : false,
+applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"66003-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "89813f0c-70f9-41f6-a24e-e2feb80f7903"
+}
+});
+//]]>
+//<![CDATA[
+j2w.SAB.init({
+profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
+jobID : '1383322133',
+locale : 'en_US',
+autoOpen : { open : false }
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = '24e12bac-8318-404c-a3d1-553771fad49c';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["department","facility","customfield3","customfield4"],
+showPicklistAllLocales : false
+};
+//]]>

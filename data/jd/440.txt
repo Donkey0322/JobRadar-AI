@@ -1,1 +1,335 @@
-{"jobPostingInfo":{"id":"739762d280641000c7740f1576440000","title":"Manufacturing Engineer Intern","jobDescription":"<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>At Polaris Inc., we have fun doing what we love by driving change and innovation. We empower employees to take on challenging assignments and roles with an elevated level of responsibility in our agile working environment. Our people make us who we are, and we create incredible products and experiences that empower us to Think Outside.</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Job Summary</p><p>As a Manufacturing Engineering Intern, you will collaborate daily with Manufacturing Engineers, Process Technicians, Assembly Leadership, and Assembly Operators to ensure production goals are met. This role is designed to support production teams in daily production, to develop processes, troubleshoot equipment, optimize operations, and special projects.</p><p>Location: Roseau, MN</p><p>Job Level: Individual Contributor</p><p>Responsibilities</p><p>• Set up &amp; support MES systems for the manufacturing of snowmobiles, engines, and drivetrain components.</p><p>• Collaborate with Tool &amp; Die Department to maintain current tooling as well as design and build new tooling to assist in the manufacturing process.</p><p>• Work with technicians to improve automated equipment to increase efficiency and utilization</p><p>• Collaborate with Tool &amp; Die Department, Manufacturing Engineers, and Technicians in the deployment of automated equipment</p><p>• Troubleshoot manufacturing equipment when required to minimize production downtime</p><p>• Maintain PLC recipes to ensure the quality and manufacturing standards are met</p><p>• Assist in equipment relocation, set up, and validation</p><p>• Maintain a clean and organized work area in compliance with 5S and safety standards</p><p>• Assist others and fill in for absenteeism in assembly positions</p><p>Experience &amp;amp; Skills</p><p>• Basic knowledge of CAD software (SolidWorks, AutoCAD, Creo Parametric)</p><p>• Strong analytical, problems solving, and communication skills</p><p>• Proficient in Microsoft Office Suite (Excel, Word, PowerPoint).</p><p>• Ability to work in a fast-paced, industrial, or manufacturing environment</p><p>Education</p><p>• Currently pursuing a degree in Mechanical Engineer, Industrial Engineering, Manufacturing Engineering, or a related field.</p><p></p><p><b><span>The starting pay range for Minnesota is $23.50 to $31.50 per hour, plus eligibility for <span><span>overtime. Individual</span></span> pay and positioning within the range are determined through a wide variety of factors including but not limited to education, experience, knowledge, skills, and geography. While individual pay could fall anywhere in the range based on these factors, it is not common to start at the high end or top of the range.</span></b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>To qualify for this position, former employees must be eligible for rehire, and current employees must be in good standing.</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>We are an ambitious, resourceful, and driven workforce, which empowers us to Think Outside.<span> </span>Apply today!</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p><b>About Polaris</b></p><p></p><p><span><span>As the global leader in powersports, Polaris Inc. (NYSE: PII) pioneers product breakthroughs and enriching experiences and services that have invited people to discover the joy of being outdoors since our founding in 1954. Polaris&#39; high-quality product line-up includes the Polaris RANGER®, RZR® and Polaris GENERAL™ side-by-side off-road vehicles; Sportsman® all-terrain off-road vehicles; military and commercial off-road vehicles; snowmobiles; Slingshot® moto-roadsters; Aixam quadricycles; Goupil electric vehicles; and pontoon and deck boats, including industry-leading Bennington pontoons. Polaris enhances the riding experience with a robust portfolio of parts, garments, and accessories. Proudly headquartered in Minnesota, Polaris serves more than 100 countries across the globe. <a href=\"https://www.polaris.com/en-us/\" target=\"_blank\">www.polaris.com</a></span></span></p><p></p><p></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>EEO Statement</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><i>Polaris Inc. is an Equal Opportunity Employer and will make all employment-related decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, national origin, age, disability, marital status, familial status, status with regard to public assistance, membership or activity in a local commission, protected veteran status, or any other status protected by applicable law. Applicants with a disability that are in need of an accommodation to complete the application process, or otherwise need assistance or an accommodation in the recruiting process, should contact Human Resources at 800-765-2747 or </i><a target=\"_blank\" href=\"mailto:Talent.Acquisition&#64;Polaris.com\"><i><span><span class=\"WCO0\">Talent.Acquisition&#64;Polaris.com</span></span></i></a><i>. To read more about employment discrimination protection under U.S. federal law, see: </i><a target=\"_blank\" href=\"https://nam10.safelinks.protection.outlook.com/?url&#61;https%3A%2F%2Fwww.eeoc.gov%2Fsites%2Fdefault%2Ffiles%2F2022-10%2FEEOC_KnowYourRights_screen_reader_10_20.pdf&amp;data&#61;05%7C02%7CWorkdayCommunications%40polaris.com%7Cc5c2eb8d86244cd2fc3408dd4d073a65%7C85f78c4cad11473596240b2c11611dff%7C0%7C0%7C638751415633263085%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata&#61;UdgUmgvVCMYfxnasexpS259skBSqinESpt213WZbs%2BI%3D&amp;reserved&#61;0\"><i>Know Your Rights: Workplace Discrimination is Illegal (eeoc.gov)</i></a>.</p>","location":"Roseau, MN, USA","postedOn":"Posted Yesterday","startDate":"2026-04-13","timeType":"Full time","jobReqId":"R29375","jobPostingId":"Manufacturing-Engineer-Intern_R29375","jobPostingSiteId":"PolarisJobs","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"Roseau Plant","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://polaris.wd5.myworkdayjobs.com/PolarisJobs/job/Roseau-MN-USA/Manufacturing-Engineer-Intern_R29375","questionnaireId":"d1024e542e7e1001d51356e068890000"},"hiringOrganization":{"name":"PII01 Polaris Industries Inc.","url":""},"similarJobs":[],"userAuthenticated":false}
+{"hiringOrganization":{"@type":"Organization","name":"Joint Commission","sameAs":"www.jointcommission.org"},"validThrough":"2027-04-13T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"One Renaissance Blvd","@type":"PostalAddress","postalCode":"60181","addressLocality":"Oakbrook Terrace","addressRegion":"IL","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>We are looking for a full time or part time software development intern to join our team for an eight-week period lasting from mid-May, 2026 to mid-August, 2026. The internship requires 16 hours of on-site work per week and the rest remote.<\/p>\n<p>&nbsp;<\/p>\n<p>The ideal candidate will have base-level knowledge in Web API with C# and familiar with AngularJS JavaScript Framework as well as standard HTML and CSS and be enrolled in an undergraduate or graduate degree program in computer science. Our paid software development internship provides an opportunity for students to gain practical experience with current software development techniques and train under professionals with dozens of years of experience in the software development field. The intern will work with a team of developers to design, develop, and test software applications for our company.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Assist the design team with accomplishing tasks related to the development of new software that streamlines the Extranet or Standards &amp; Measures Teams<\/li>\n <li>Test software applications that the development team builds for efficiency and note any bugs.<\/li>\n <li>&nbsp;Document application development processes as well as API and systems<\/li>\n <li>&nbsp;Participate in code reviews with experienced web developers<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Entry-level experience Web API, C# and REST Services.<\/li>\n <li>Familiar with AngularJS JavaScript Framework, HTML and CSS<\/li>\n <li>Currently enrolled in undergraduate or graduate degree program in computer science or a related field<\/li>\n <li>Familiar with software development life cycle<\/li>\n <li>Excellent verbal and written communication skills<\/li>\n<\/ul>\n<p><strong>Benefits Of This Internship<\/strong><\/p>\n<ul>\n <li>Practical experience with current software development techniques<\/li>\n <li>Shadowing, mentoring, and training opportunities with experienced developers<\/li>\n <li>Opportunity to participate in code reviews for software used by thousands of employees.<\/li>\n <li>Proper paperwork offered to fulfill course credit for an institution.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<h2>Equal Opportunity Field<\/h2>\n<p>We offer a comprehensive benefit package. For a complete overview of our benefits package, please visit our Joint Commission Career Page&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>We are an Equal Opportunity Employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other status protected by law.<\/p>\n<h2>Min<\/h2>\n<h2>Max<\/h2>","directApply":true,"datePosted":"2026-04-13T00:00:00.000Z","title":"Software Development Internship","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-jointcommission.icims.com/jobs/7225/software-development-internship/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Career Opportunities | Joint Commission | Software Development Internship in Oakbrook Terrace, Illinois | Careers at One Renaissance Blvd
+var isMobile = true;
+var link = 'https://careers-jointcommission.icims.com/connect/interests?csrf=7DA56055C00ACCDF&hashed=-435680057';
+var _c2a = _c2a || [];
+_c2a.push(['View', '7225', null, 'Software Development Internship in Oakbrook Terrace, Illinois | Careers at One Renaissance Blvd']);
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_181.0.0.260327-7c6fdc8e325-11-5/script/portal/login.js');
+var jobId = "7225";
+var fbJobId = "5e1634f9-84d8-3e64-8327-204fb6566bd5";
+var icimsSD = {"person":{},"companyName":"The Joint Commission","env":"prod","job":{"zipCode":"60181","jid":7225,"jobUrls":[{"name":"careers","url":"https://careers-jointcommission.icims.com/jobs/7225/software-development-internship/job"}],"location":"Oakbrook Terrace, Illinois, United States","title":"Software Development Internship"},"version":"1.015","key":"2","cid":"IBw/s9tJ/jUWJ91iFAhCse2KGEjVvNnVvPT2hMZT0RTgKGfq/X2tSqa4zroa"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-jointcommission.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+The Joint Commission
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2ULLdAH5BGaGyFgGB","type":"careers"},"release":"181.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":6746,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave2","build":"platform_181.0.0.260327-7c6fdc8e325-11-5","icimsGAAnonymizeIP":true,"customerId":"2nuF326uFevQH91fF","region":"US","job":{"positionType":"not set","company":"One Renaissance Blvd","location":{"zip":"60181","country":"USA","city":"Oakbrook Terrace","state":"IL"},"id":"qdZWfG8aJXwPPctQ","idRaw":7225,"title":"Software Development Internship","category":"Information Technology","postedDate":"2026-04-13"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"Joint Commission","sameAs":"www.jointcommission.org"},"validThrough":"2027-04-13T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"One Renaissance Blvd","@type":"PostalAddress","postalCode":"60181","addressLocality":"Oakbrook Terrace","addressRegion":"IL","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Overview<\/h2>\n<p>We are looking for a full time or part time software development intern to join our team for an eight-week period lasting from mid-May, 2026 to mid-August, 2026. The internship requires 16 hours of on-site work per week and the rest remote.<\/p>\n<p>&nbsp;<\/p>\n<p>The ideal candidate will have base-level knowledge in Web API with C# and familiar with AngularJS JavaScript Framework as well as standard HTML and CSS and be enrolled in an undergraduate or graduate degree program in computer science. Our paid software development internship provides an opportunity for students to gain practical experience with current software development techniques and train under professionals with dozens of years of experience in the software development field. The intern will work with a team of developers to design, develop, and test software applications for our company.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Assist the design team with accomplishing tasks related to the development of new software that streamlines the Extranet or Standards &amp; Measures Teams<\/li>\n <li>Test software applications that the development team builds for efficiency and note any bugs.<\/li>\n <li>&nbsp;Document application development processes as well as API and systems<\/li>\n <li>&nbsp;Participate in code reviews with experienced web developers<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<ul>\n <li>Entry-level experience Web API, C# and REST Services.<\/li>\n <li>Familiar with AngularJS JavaScript Framework, HTML and CSS<\/li>\n <li>Currently enrolled in undergraduate or graduate degree program in computer science or a related field<\/li>\n <li>Familiar with software development life cycle<\/li>\n <li>Excellent verbal and written communication skills<\/li>\n<\/ul>\n<p><strong>Benefits Of This Internship<\/strong><\/p>\n<ul>\n <li>Practical experience with current software development techniques<\/li>\n <li>Shadowing, mentoring, and training opportunities with experienced developers<\/li>\n <li>Opportunity to participate in code reviews for software used by thousands of employees.<\/li>\n <li>Proper paperwork offered to fulfill course credit for an institution.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<h2>Equal Opportunity Field<\/h2>\n<p>We offer a comprehensive benefit package. For a complete overview of our benefits package, please visit our Joint Commission Career Page&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>We are an Equal Opportunity Employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other status protected by law.<\/p>\n<h2>Min<\/h2>\n<h2>Max<\/h2>","directApply":true,"datePosted":"2026-04-13T00:00:00.000Z","title":"Software Development Internship","occupationalCategory":"Information Technology","@context":"http://schema.org","url":"https://careers-jointcommission.icims.com/jobs/7225/software-development-internship/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Software Development Internship
+Job Locations
+US-IL-Oakbrook Terrace
+Job ID
+2026-7225
+# of Openings
+2
+Category
+Information Technology
+Overview
+We are looking for a full time or part time software development intern to join our team for an eight-week period lasting from mid-May, 2026 to mid-August, 2026. The internship requires 16 hours of on-site work per week and the rest remote. The ideal candidate will have base-level knowledge in Web API with C# and familiar with AngularJS JavaScript Framework as well as standard HTML and CSS and be enrolled in an undergraduate or graduate degree program in computer science. Our paid software development internship provides an opportunity for students to gain practical experience with current software development techniques and train under professionals with dozens of years of experience in the software development field. The intern will work with a team of developers to design, develop, and test software applications for our company.
+Responsibilities
+Assist the design team with accomplishing tasks related to the development of new software that streamlines the Extranet or Standards & Measures TeamsTest software applications that the development team builds for efficiency and note any bugs. Document application development processes as well as API and systems Participate in code reviews with experienced web developers
+Qualifications
+Entry-level experience Web API, C# and REST Services.Familiar with AngularJS JavaScript Framework, HTML and CSSCurrently enrolled in undergraduate or graduate degree program in computer science or a related fieldFamiliar with software development life cycleExcellent verbal and written communication skillsBenefits Of This InternshipPractical experience with current software development techniquesShadowing, mentoring, and training opportunities with experienced developersOpportunity to participate in code reviews for software used by thousands of employees.Proper paperwork offered to fulfill course credit for an institution.
+Equal Opportunity Field
+We offer a comprehensive benefit package. For a complete overview of our benefits package, please visit our Joint Commission Career Page We are an Equal Opportunity Employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other status protected by law.
+Options
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex!important;flex-direction:column;align-items:center;text-align:center;margin-bottom:60px;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex!important;}}
+(function(w, d, s) {
+if (w !== w.top) return;
+w['_jobchat_host'] = 'https://app.textrecruit.com';
+w['_jobchat_account'] = '62b377f0ae444a1bf9f9e104';
+w['_jobchat_namespace'] = 'JC';
+var o = d.createElement(s);
+o.async = 1;
+o.src = w['_jobchat_host'] + '/js/jobchat.js';
+var y = d.getElementsByTagName(s)[0];
+y.parentNode.insertBefore(o, y);
+})(window, document, 'script');
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

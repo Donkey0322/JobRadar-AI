@@ -1,1 +1,296 @@
-{"absolute_url":"https://job-boards.greenhouse.io/lucidmotors/jobs/4953783007","data_compliance":[{"type":"gdpr","requires_consent":false,"requires_processing_consent":false,"requires_retention_consent":false,"retention_period":null,"demographic_data_consent_applies":false}],"education":"education_optional","internal_job_id":4541797007,"location":{"name":"Newark, CA"},"metadata":[{"id":4966939007,"name":"Employee Class","value":"Intern","value_type":"single_select"},{"id":9381284007,"name":"HR Business Partner","value":{"name":"Adam Dazell","email":"adamdazell@lucidmotors.com","user_id":4229285007,"employee_id":"130022"},"value_type":"user"},{"id":13097521007,"name":"Division","value":"Engineering & Software","value_type":"short_text"},{"id":17433629007,"name":"Job Function","value":"INT","value_type":"short_text"},{"id":17433628007,"name":"Sub Function","value":"INTERN","value_type":"short_text"}],"id":4953783007,"updated_at":"2026-04-14T03:26:07-04:00","requisition_id":"80021431 #1 - October 22, 2025 3:56 PM","title":"Intern, CAE Engineer, Summer 2026","company_name":"Lucid Motors","first_published":"2026-04-06T13:10:39-04:00","language":"en","content":"&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;u&gt;&lt;strong&gt;Leading the future in luxury electric and mobility&lt;/strong&gt;&lt;/u&gt;&lt;/div&gt;\n&lt;div&gt;At Lucid, we set out to introduce the most captivating, luxury electric vehicles that elevate the human experience and transcend the perceived limitations of space, performance, and intelligence. Vehicles that are intuitive, liberating, and designed for the future of mobility.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;We plan to lead in this new era of luxury electric by returning to the fundamentals of great design – where every decision we make is in service of the individual and environment. Because when you are no longer bound by convention, you are free to define your own experience.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Come work alongside some of the most accomplished minds in the industry. Beyond providing competitive salaries, we’re providing a community for innovators who want to make an immediate and significant impact. If you are driven to create a better, more sustainable future, then this is the right place for you.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;\n&lt;h3&gt;Role Overview&lt;/h3&gt;\n&lt;p&gt;&lt;span class=&quot;TextRun SCXW83200806 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW83200806 BCX0&quot;&gt;The Crash CAE Intern will support the Vehicle Safety and Structural Engineering teams by&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW83200806 BCX0&quot;&gt;assisting&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW83200806 BCX0&quot;&gt;&amp;nbsp;in the development, simulation, and optimization of vehicle crashworthiness performance. This role focuses on running crash simulations, preparing high‑quality FE models, analyzing results, and helping integrate AI‑driven methods into the CAE workflow. The intern will work closely with senior CAE engineers, test engineering, and cross‑functional design teams to accelerate the development of safe, lightweight, high‑performance electric vehicles.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW83200806 BCX0&quot; data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;hr&gt;\n&lt;h3&gt;You Will:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and preprocess FE models using &lt;strong&gt;ANSA/HyperMesh&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Run &lt;strong&gt;LS‑DYNA&lt;/strong&gt; simulations (frontal, side, rear, pedestrian)&lt;/li&gt;\n&lt;li&gt;Post‑process and interpret crash results&lt;/li&gt;\n&lt;li&gt;Support CAE–to–test correlation activities&lt;/li&gt;\n&lt;li&gt;Automate CAE workflows using &lt;strong&gt;Python/MATLAB&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Assist with surrogate modeling, ML datasets, and early‑stage optimization studies&lt;/li&gt;\n&lt;li&gt;Document results for engineering reviews&lt;/li&gt;\n&lt;li&gt;Gain experience with full‑vehicle crash CAE for EV platforms&lt;/li&gt;\n&lt;li&gt;Gain exposure to lightweight structures and safety engineering&lt;/li&gt;\n&lt;li&gt;Gain experience with AI‑enabled CAE workflows&lt;/li&gt;\n&lt;li&gt;Receive mentorship from experienced crash engineers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr&gt;\n&lt;h3&gt;You Bring:&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;LS‑DYNA crash simulation experience&lt;/li&gt;\n&lt;li&gt;ANSA and/or HyperMesh proficiency&lt;/li&gt;\n&lt;li&gt;Basic CAE automation (Python/MATLAB)&lt;/li&gt;\n&lt;li&gt;Interest in ML, surrogate modeling, or inverse design&lt;/li&gt;\n&lt;li&gt;Strong communication and cross‑functional collaboration skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr&gt;&lt;/div&gt;\n&lt;p&gt;At Lucid, we don’t just welcome diversity - we celebrate it! Lucid Motors is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, national or ethnic origin, age, religion, disability, sexual orientation, gender, gender identity and expression, marital status, and any other characteristic protected under applicable State or Federal laws and regulations.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Additional Compensation and Benefits&lt;/strong&gt;: Lucid offers a wide range of competitive benefits, including medical, dental, vision, life insurance, disability insurance, vacation, and 401k. The successful candidate may also be eligible to participate in Lucid’s equity program and/or a discretionary annual incentive program, subject to the rules governing such programs. &amp;nbsp;(Cash or equity incentive awards, if any, will depend on various factors, including, without limitation, individual and company performance.)&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;By Submitting your application, you understand and agree that your personal data will be processed in accordance with our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://lucidmotors.com/media/document/candidate-privacy-notice.pdf&quot;&gt;Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;. If you are a California resident, please refer to our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://www.lucidmotors.com/s3fs-public/pdf/california-candidate-privacy-notice.pdf&quot;&gt;California Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;&lt;u&gt;To all recruitment agencies&lt;/u&gt;&lt;/strong&gt;: &lt;em&gt;Lucid Motors &lt;strong&gt;does not&lt;/strong&gt; accept agency resumes. Please do not forward resumes to our careers alias or other Lucid Motors employees. Lucid Motors is not responsible for any fees related to unsolicited resumes.&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;","departments":[{"id":4064134007,"name":"Vehicle Engineering, Engineering & Software","child_ids":[],"parent_id":4064131007}],"offices":[{"id":4027053007,"name":"Newark, CA","location":"Newark, CA","child_ids":[],"parent_id":4027047007}]}
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Search by Keyword
+Search by Location
+Clear
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Site Language
+Dansk (Danmark)
+Deutsch (Deutschland)
+English (United Kingdom)
+English (United States)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski
+Português (Brasil)
+Slovencina (Slovensko)
+Svenska (Konungariket Sverige)
+简体中文 (中国大陆)
+View Profile
+#content {
+padding-top: 0px;
+}
+Search by Keyword
+Search by Location
+Show More Options
+Loading...
+Category
+All
+Operating Company
+All
+Work Arrangement
+All
+Job Function
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Engineer, Software Intern
+Location:
+Austin, TX, US, 78728
+#job-location.job-location-inline {
+display: inline;
+}
+Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
+This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
+We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
+Dover Fueling Solutions is looking for a creative and motivated Summer Intern to join our team to build a tool for identifying and diagnosing issues within system/application logs. This role offers an exciting opportunity to work on real-world fueling systems while gaining hands-on experience in software quality engineering.
+Interns will have the opportunity to explore the domain, understand end-to-end system behavior, and contribute to building intuitive solutions that simplify complex technical workflows.
+Key Responsibilities
+Develop UX functional specifications and wireframes.
+Create visual designs for the frontend UI.
+Build a Proof of Concept (PoC) for a working web app tool.
+Required Skills & Preferred Qualifications
+Experience in interaction and visual design.
+Familiarity with at least one programming language (C#).
+Frontend web development skills.
+Ability to translate complex technical workflows into simple, visual solutions.
+Basic understanding of testing concepts.
+A proactive attitude with a strong desire to learn.
+What You’ll Gain
+Experience in Data-Driven Design and Information Architecture.
+Knowledge of interaction and visual design principles for managing high data density.
+The ability to bridge the gap between design and code workflows.
+Mentorship from experienced QA and engineering professionals.
+Exposure to modern tools, frameworks, and engineering practices.
+A strong foundation in software quality engineering.
+We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
+All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
+Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
+Nearest Major Market: Austin
+Job Segment:
+Summer Internship, Testing, Entry Level Engineer, Software Engineer, Engineer, Entry Level, Technology, Engineering
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Find similar jobs:
+View All Jobs in English,
+View All Jobs,
+View All Jobs,
+Ver todos los trabajos globales,
+Alle globalen Jobs anzeigen
+Dover Home
+View Page Index
+Top Job Searches
+Privacy Policy
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d8d30de3-f700-4236-85ce-b9449dea9fcc"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1382944733,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : false,
+applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"65939-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d8d30de3-f700-4236-85ce-b9449dea9fcc"
+}
+});
+//]]>
+//<![CDATA[
+j2w.SAB.init({
+profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
+jobID : '1382944733',
+locale : 'en_US',
+autoOpen : { open : false }
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'dbb0aacf-29b7-47f9-8e12-9ed1d157f779';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["department","facility","customfield3","customfield4"],
+showPicklistAllLocales : false
+};
+//]]>

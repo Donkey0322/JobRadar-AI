@@ -1,1 +1,224 @@
-{"id":"dce8d8e5-f169-4bdb-b1c2-f4754fca31e7","title":"Software Engineering Intern, Backend","department":"Product","team":"Product & Engineering","employmentType":"FullTime","location":"San Jose Office (HQ)","secondaryLocations":[],"publishedAt":"2026-04-08T19:56:13.392+00:00","isListed":true,"isRemote":null,"workplaceType":null,"address":{"postalAddress":{"addressRegion":"California","addressCountry":"United States","addressLocality":"San Jose"}},"jobUrl":"https://jobs.ashbyhq.com/tessera-labs/dce8d8e5-f169-4bdb-b1c2-f4754fca31e7","applyUrl":"https://jobs.ashbyhq.com/tessera-labs/dce8d8e5-f169-4bdb-b1c2-f4754fca31e7/application","descriptionHtml":"<p style=\"min-height:1.5em\">About Tessera Labs Tessera Labs is redefining how enterprises adopt and operationalize Artificial Intelligence. Backed by Foundation Capital and led by a world-class founding team, we build multi-agent AI systems that can automate complex business workflows across platforms like SAP, Salesforce, Workday, Snowflake, MuleSoft, and more. Our mission: Bring real AI automation to the enterprise — with speed, precision, and measurable impact. We move fast, operate with extreme ownership, and build at the frontier of applied AI.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Location: </strong>San Jose, CA or Remote<br /><strong>Duration: </strong>10–12 weeks<br /><strong>Hours: </strong>40 hours max per week<br /><strong>Start Date: </strong>June 2026</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">At Tessera Labs, we’re building AI-powered automation systems that streamline complex enterprise workflows. Our technology integrates with platforms like SAP, Salesforce, and Workday, and our multi-agent AI systems optimize operations at scale.</p><p style=\"min-height:1.5em\">We’re looking for a Backend Engineer Intern who is eager to learn and contribute to real backend systems in a fast-paced startup environment. You’ll work alongside experienced engineers to develop APIs, support data pipelines, and help integrate AI-driven features.</p><p style=\"min-height:1.5em\"></p><h3><strong>What You’ll Do</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Assist in developing RESTful APIs and backend services using Python (FastAPI, SQLAlchemy).<br /></p></li><li><p style=\"min-height:1.5em\">Help implement and maintain database schemas, queries, and caching strategies.<br /></p></li><li><p style=\"min-height:1.5em\">Support integration of backend services with AI models and enterprise systems.<br /></p></li><li><p style=\"min-height:1.5em\">Collaborate on scalable, event-driven architectures and data pipelines.<br /></p></li><li><p style=\"min-height:1.5em\">Learn best practices for cloud deployment (AWS or GCP), observability, and security.<br /></p></li></ul><p style=\"min-height:1.5em\"></p><h3><strong>What We’re Looking For</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Currently pursuing or recently graduated with a degree in Computer Science, Engineering, or related field.<br /></p></li><li><p style=\"min-height:1.5em\">Familiarity with Python and basic backend frameworks (FastAPI, Flask, or Django).<br /></p></li><li><p style=\"min-height:1.5em\">Basic understanding of databases (PostgreSQL, MySQL, or similar) and SQL queries.<br /></p></li><li><p style=\"min-height:1.5em\">Interest in distributed systems, cloud services, and scalable backend architectures.<br /></p></li><li><p style=\"min-height:1.5em\">Strong problem-solving skills and eagerness to learn from experienced engineers.<br /></p></li><li><p style=\"min-height:1.5em\">Ability to work in a fast-paced, collaborative startup environment.<br /></p></li></ul><p style=\"min-height:1.5em\"></p><h3><strong>Nice to Have</strong></h3><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Experience with message queues, caching, or event-driven systems.<br /></p></li><li><p style=\"min-height:1.5em\">Exposure to AI/ML concepts or integrating models into applications.<br /></p></li><li><p style=\"min-height:1.5em\">Familiarity with cloud platforms (AWS, GCP, or Azure).</p></li><li><p style=\"min-height:1.5em\">Understanding of API design principles and RESTful conventions.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">No third party may recruit, solicit candidates, publish job opportunities, use Tessera Labs’ name or branding, or represent that they are acting on behalf of Tessera Labs without prior written authorization. Any such activity conducted without explicit written consent is strictly prohibited.<br /></p><p style=\"min-height:1.5em\"></p>","descriptionPlain":"About Tessera Labs Tessera Labs is redefining how enterprises adopt and operationalize Artificial Intelligence. Backed by Foundation Capital and led by a world-class founding team, we build multi-agent AI systems that can automate complex business workflows across platforms like SAP, Salesforce, Workday, Snowflake, MuleSoft, and more. Our mission: Bring real AI automation to the enterprise — with speed, precision, and measurable impact. We move fast, operate with extreme ownership, and build at the frontier of applied AI.\n\nLocation: San Jose, CA or Remote\nDuration: 10–12 weeks\nHours: 40 hours max per week\nStart Date: June 2026\n\nAt Tessera Labs, we’re building AI-powered automation systems that streamline complex enterprise workflows. Our technology integrates with platforms like SAP, Salesforce, and Workday, and our multi-agent AI systems optimize operations at scale.\n\nWe’re looking for a Backend Engineer Intern who is eager to learn and contribute to real backend systems in a fast-paced startup environment. You’ll work alongside experienced engineers to develop APIs, support data pipelines, and help integrate AI-driven features.\n\n\nWHAT YOU’LL DO\n\n - Assist in developing RESTful APIs and backend services using Python (FastAPI, SQLAlchemy).\n \n\n - Help implement and maintain database schemas, queries, and caching strategies.\n \n\n - Support integration of backend services with AI models and enterprise systems.\n \n\n - Collaborate on scalable, event-driven architectures and data pipelines.\n \n\n - Learn best practices for cloud deployment (AWS or GCP), observability, and security.\n \n\n\nWHAT WE’RE LOOKING FOR\n\n - Currently pursuing or recently graduated with a degree in Computer Science, Engineering, or related field.\n \n\n - Familiarity with Python and basic backend frameworks (FastAPI, Flask, or Django).\n \n\n - Basic understanding of databases (PostgreSQL, MySQL, or similar) and SQL queries.\n \n\n - Interest in distributed systems, cloud services, and scalable backend architectures.\n \n\n - Strong problem-solving skills and eagerness to learn from experienced engineers.\n \n\n - Ability to work in a fast-paced, collaborative startup environment.\n \n\n\nNICE TO HAVE\n\n - Experience with message queues, caching, or event-driven systems.\n \n\n - Exposure to AI/ML concepts or integrating models into applications.\n \n\n - Familiarity with cloud platforms (AWS, GCP, or Azure).\n\n - Understanding of API design principles and RESTful conventions.\n\nNo third party may recruit, solicit candidates, publish job opportunities, use Tessera Labs’ name or branding, or represent that they are acting on behalf of Tessera Labs without prior written authorization. Any such activity conducted without explicit written consent is strictly prohibited.\n"}
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWQV4J9X" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Search by Keyword
+Clear
+Language
+Deutsch (Deutschland)
+English (United States)
+Español (México)
+Français (France)
+Magyar (Magyarország)
+Português (Brasil)
+View Profile
+Employee Login
+#content {
+padding-top: 5px;
+}
+Search by Keyword
+Show More Options
+Loading...
+Country/Region
+All
+City
+All
+Job Field I
+All
+Job Field II
+All
+Working Hours
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Quality Systems Apex Co-Op (Fall 2026)
+A good student experience is never hands-off. We are dedicated to fostering a dynamic learning environment where students actively engage in practical experiences throughout their time with us. From the beginning, students are entrusted with specific responsibilities, ensuring they play a significant role in their learning journey. As valued team members, students are also encouraged to share and implement their own ideas, enhancing both their personal growth and the collective success of the team.
+Description:
+The purpose of this position is to provide the Assembly Quality Management IT Systems (Programming) Team with support on Quality Data Application development, validation, and analytics.
+Position primarily utilizes Oracle APEX for data reporting and management. BMW uses Siemens IPS-Q database for assembly defect documentation and tracking.
+Position will be a contributing member to the Quality Reporting and Application development.
+The qualified intern should expect to contribute and improve in the following functions:
+Support with validation and refinement of current applications
+Working with users to define needs and project plan
+Provide support for problem investigation
+Conduct quality data review
+Leads technical projects to ensure long term requirements of systems management and planning are met.
+Recommends and implements quality improvement efforts. Stays up to date on future innovations, technical trends and applies this to future changes.
+Tests and updates software for main quality systems to ensure latest user enhancements.
+Conducts training for end users after software updates and improvements are implemented.
+Possible project applications may include: Electronic Job Sign in reporting, Problem Solving Database, Key Performance Indicator reporting, Closed Defect Reporting
+Performs other duties as assigned by management
+Qualifications:
+Preferred degrees: Computer Science/Information Technologies/Engineering or Related field
+Experience with programing in SQL
+Application development
+Microsoft Office
+Possess a minimum cumulative GPA of 3.0 (not just in major)
+Have enrolled student status at an accredited four-year college or university in the United States
+Completed at least 30 credit hours at time of application
+Ability to work full-time on-site (40 hours/week)
+Transfer students must have a GPA from current university
+MUST ATTACH A COPY OF UNOFFICIAL TRANSCRIPT.
+Complete and pass a substance abuse test before the work term
+THE WORK TERM DATES ARE AUGUST 10, 2026 – DECEMBER 11, 2026
+Must be an enrolled student during all three rotations.
+BMW Manufacturing Company is an equal opportunity employer. It is the policy of BMW MC to provide equal employment opportunity (EEO) to all qualified persons regardless of age, race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status.
+Apply now »
+Find similar jobs:
+Legal Disclaimer
+Cookies
+Imprint
+Contact
+Data protection information
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'bmwag',
+"ssoUrl" : 'https://career5.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "cf8c31b9-f14b-40bb-a89e-6818016b8711"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1381872233,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"182108-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'fe672c15-7c2a-4d41-8f9c-0febd59490d4';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1381872233',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'jobs.bmwgroup.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["country","city","customfield1","customfield2","customfield5"],
+showPicklistAllLocales : false
+};
+//]]>

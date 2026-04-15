@@ -1,1 +1,174 @@
-{"jobPostingInfo":{"id":"55498a719c171001b2f0a2e63a850001","title":"Internship – Automation & AI Solutions (Milwaukee, WI)","jobDescription":"<p><b>About the Role:</b></p><p>The Automation &amp; AI Solutions Intern works directly with technology partners and business leaders to design, build and deploy automation and artificial intelligence solutions used in live deal workflows. This is a hands-on engineering role focused on delivering production-ready tools that improve efficiency, decision-making and execution across the investment banking deal lifecycle. The intern will be embedded within Baird’s Global Investment Banking Technology Solutions team and will partner closely with deal teams and functional groups to identify manual, repetitive processes and translate them into scalable automation and AI-driven solutions.</p><p></p><p><span>This is a hybrid internship, offering flexibility to work Tuesday, Wednesday and Thursday in our downtown Milwaukee, WI office and Monday and Friday remote.</span> The intern must be able to work full-time during the summer, 37.5-40 hours per week.</p><p></p><p><b>The Impact You’ll Make:</b></p><ul><li><p>Identify and automate manual processes across the Global Investment Banking deal lifecycle using Power Automate and Power Apps</p></li><li><p>Design and build end-to-end workflow solutions that integrate data from systems such as Salesforce, SQL, Snowflake, SharePoint, and Excel</p></li><li><p>Prototype, test, and deliver AI-enabled use cases using tools such as Microsoft Copilot, Copilot Studio, ChatGPT, Claude, and Rogo</p></li><li><p>Build custom Copilot agents and AI-driven tools to support research, document synthesis, data extraction and decision support</p></li><li><p>Actively participate in discussions with business and technology stakeholders and present delivered solutions and outcomes</p></li><li><p>Produce clear technical documentation to ensure long-term maintainability and scalability of delivered solutions</p></li></ul><p></p><p><b>What You’ll Bring to Baird:</b></p><ul><li><p>Currently pursuing a bachelor’s degree in Computer Science, Data Science, Information Systems or a related field</p></li><li><p>Anticipated graduation date of May 2027 or later</p></li><li><p>Proficiency in at least one programming language (Python preferred)</p></li><li><p>Working knowledge of SQL and relational data concepts</p></li><li><p>Curiosity and enthusiasm for automation and artificial intelligence, with hands-on experimentation using tools such as Power Automate, Copilot, or large language models</p></li><li><p>Ability to clearly communicate technical concepts to non-technical stakeholders</p></li><li><p>Self-starter mindset with the ability to take ownership, prioritize effectively, and work independently in a fast-paced environment</p></li><li><p>Strong problem-solving skills with a high level of attention to detail </p></li><li><p>Comfort working collaboratively and in person with cross-functional teams</p></li></ul><p></p><p><b>About Our Intern Program:</b></p><p>Jumpstart your career with Baird’s high-impact summer intern program! You’ll gain real-world experience, connect with inspiring leaders and grow through hands-on projects, mentorship and dynamic events. From our Intern Welcome and Baird Gives Back Day to firmwide networking and professional development, you’ll be part of a vibrant, collaborative culture that values your voice and fuels your future. To learn more, check out this <a href=\"https://vimeo.com/180199212\" target=\"_blank\">video</a>.</p><p></p><p><i>Baird is not currently hiring individuals for this position who now or in the future require sponsorship for employment visa status</i>.</p><p></p><p><i><span>Baird is committed to diversity and provides employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, pregnancy, citizenship, national origin, age, disability, military service, veteran status, sexual orientation, gender identity or expression, genetic information, or any other status protected by law.</span> </i></p>","location":"WI-Milwaukee","postedOn":"Posted 5 Days Ago","startDate":"2026-04-09","timeType":"Full time","jobReqId":"R2026441","jobPostingId":"Internship---Automation---AI-Solutions--Milwaukee--WI-_R2026441-1","jobPostingSiteId":"Careers","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"Milwaukee - 14","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"remoteType":"Hybrid","externalUrl":"https://wd1.myworkdaysite.com/recruiting/baird/Careers/job/WI-Milwaukee/Internship---Automation---AI-Solutions--Milwaukee--WI-_R2026441-1","questionnaireId":"bc0bca5561501001b524a2929b490000"},"hiringOrganization":{"name":"Robert W. Baird & Co. Incorporated","url":""},"similarJobs":[{"title":"Internship – Data & Analytics (Milwaukee, WI)","externalPath":"/job/WI-Milwaukee/Internship---Data---Analytics--Milwaukee--WI-_R2026442-1","timeType":"Full time","locationsText":"WI-Milwaukee","postedOn":"Posted 5 Days Ago","startDate":"2026-04-09","remoteType":"Hybrid"}],"userAuthenticated":false}
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+$(document).ready(function() {
+$("#skipLink").click(function (e) {
+e.preventDefault();
+$("#content").focus().css('outline','none');
+var offset = $(':target').offset();
+var fixedHeaderHeight = $("#header").innerHeight();
+var scrollto = offset.top - fixedHeaderHeight;
+$('html, body').animate({scrollTop:scrollto}, 0);
+});
+});
+Skip to main content
+Life at Belden
+Search by Keyword
+Life at Belden
+Language
+English (United States)
+View Profile
+#content {
+padding-top: 5px;
+}
+//<![CDATA[
+$(document).on('resizeFixedHeader', function () {
+$('#fixedHeaderInlineStyle').remove();
+$("<style type='text/css' id='fixedHeaderInlineStyle'>@media only screen and (min-width: 767px) { body { padding-top: " + $('#header').outerHeight(true) + "px;} }</style>").appendTo("head");
+}).trigger('resizeFixedHeader');
+$(window).on( "ready", function() {
+$(document).trigger('resizeFixedHeader');
+});
+$(window).on( "load", function() {
+$(document).trigger('resizeFixedHeader');
+});
+//]]>
+Search by Keyword
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Software Engineering Coop
+Date: Apr 9, 2026
+Company:
+Belden Inc
+Sorry, this position has been filled.
+Life at Belden
+//<![CDATA[
+$(function()
+{
+var ctid = '85431daa-f70b-473d-a1fc-e90013809252';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 3,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'beldeninc',
+"ssoUrl" : 'https://career4.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "af7b3304-1279-4e39-9a12-d072deb1a87d"
+}
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1380965600',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'careers.belden.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>

@@ -1,1 +1,296 @@
-{"absolute_url":"https://job-boards.greenhouse.io/billiontoone/jobs/4677675005","data_compliance":[{"type":"gdpr","requires_consent":false,"requires_processing_consent":false,"requires_retention_consent":false,"retention_period":null,"demographic_data_consent_applies":false}],"internal_job_id":4357642005,"location":{"name":"Union City, CA"},"metadata":null,"id":4677675005,"updated_at":"2026-04-10T14:30:27-04:00","requisition_id":"367","title":"Process Engineering Intern","company_name":"BillionToOne","first_published":"2026-03-25T17:55:49-04:00","language":"en","content":"&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;Ready to redefine what&#39;s possible in molecular diagnostics?&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Join a team of brilliant, passionate innovators determined to transform healthcare. At BillionToOne, we&#39;ve built a category-defining, publicly traded company on Nasdaq where transparency fuels trust, collaboration drives breakthroughs, and every contribution moves the needle on our mission to make life-changing diagnostics accessible to all. We don&#39;t just aim for incremental improvements; we build products that are 10x better than anything that exists today.&lt;/p&gt;\n&lt;p&gt;Our scientists, engineers, sales executives, and visionaries are united by an unwavering commitment to changing the standard of care in prenatal and cancer diagnostics. This is where cutting-edge science meets human compassion, and every innovation you contribute helps remove the fear of the unknown from some of life&#39;s most critical medical moments.&lt;/p&gt;\n&lt;p&gt;If you&#39;re driven by purpose, energized by innovation, and ready to help shape the future of precision medicine at scale, this is where you belong.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We seek a &lt;strong&gt;Process Engineering Intern&lt;/strong&gt; whose academic interests span molecular diagnostics, process optimization and quantitative problem solving. This internship offers an immersive dive into the tools and systems used to develop, monitor and troubleshoot category defining cfDNA-based NIPT assays in a fast paced and rapidly growing biotech. You will build broad expertise spanning molecular techniques, laboratory automation, and data analysis while contributing directly to technology that transforms patient lives one molecule at a time. The Process Engineering Intern is an onsite position at our Union City, CA laboratory and reports to the Senior Development Scientist.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, execute, and analyze wet lab experiments to improve process efficiency and assay reliability.&lt;/li&gt;\n&lt;li&gt;Evaluate new molecular biology techniques and technologies to enhance assay performance.&lt;/li&gt;\n&lt;li&gt;Perform complex manual and automated laboratory procedures (e.g., nucleic acid extraction, PCR, sequencing, reagent preparation).&lt;/li&gt;\n&lt;li&gt;Collaborate with the team to analyze complex data, diagnose issues, and implement solutions.&lt;/li&gt;\n&lt;li&gt;Maintain a safe and organized lab environment, strictly adhering to all safety and quality protocols.&lt;/li&gt;\n&lt;li&gt;Present project progress, data, and technical insights to the team and department.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a Bachelor&#39;s or Master&#39;s degree in a relevant scientific or engineering discipline (e.g., Bioengineering, Chemical Engineering, Molecular Biology, Biochemistry, Chemistry or Physics).&lt;/li&gt;\n&lt;li&gt;Proven experience conducting scientific research within an academic or industrial laboratory environment.&lt;/li&gt;\n&lt;li&gt;Prior hands-on experience with core molecular biology techniques (e.g., PCR, DNA/RNA extraction, sequencing).&lt;/li&gt;\n&lt;li&gt;Exceptional analytical reasoning and quantitative problem-solving skills, with experience in data analysis using tools like Python or R.&lt;/li&gt;\n&lt;li&gt;A driven, creative, and passionate mindset, with a strong willingness to go above and beyond to solve problems.&lt;/li&gt;\n&lt;li&gt;Strong communication skills, able to articulate complex data and insights clearly.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to work independently and collaboratively in a fast-paced environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Benefits And Perks:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li1&quot;&gt;Working with a team of ‘rockstars’ who bring out the best in everyone&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Open, transparent culture that includes weekly Town Hall meetings&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;The ability to indirectly or directly change the lives of hundreds of thousand patients&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Free daily on-site lunches provided from top eateries&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Latest and greatest hardware (laptop, lab equipment, facilities)&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;A variety of perks on campus (state of the art gym, restaurant)&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Free on-site EV charging (compatible with all EVs, including Tesla)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;At BillionToOne, we are proud to offer a combination of (1) competitive base pay, and (2) the opportunity for professional growth.&lt;/p&gt;\n&lt;p&gt;For this position, the base pay rate is&amp;nbsp;&lt;span data-sheets-root=&quot;1&quot;&gt;$25&lt;/span&gt; per hour.&lt;/p&gt;\n&lt;div class=&quot;styles--2Kv6p&quot; data-ui=&quot;careers-page-content&quot;&gt;\n&lt;div&gt;\n&lt;div class=&quot;job-preview__description\n job-preview__description--reflow\n &quot; data-test-description=&quot;&quot;&gt;\n&lt;p&gt;&lt;em&gt;BillionToOne is an equal opportunity employer. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;For more information about how we protect your information, we encourage you to review our &lt;a href=&quot;https://billiontoone.com/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;BillionToOne is a next-generation molecular diagnostics company on a mission to make powerful, accurate diagnostic tests accessible to everyone. Our revolutionary QCT molecular counting technology enhances disease detection resolution by over a thousandfold using cell-free DNA,a breakthrough that has already transformed the lives of over half a million patients worldwide.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Our Impact&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.unityscreen.com/&quot;&gt;&lt;strong&gt;Unity Complete™&lt;/strong&gt;&lt;/a&gt; is the only non-invasive prenatal screen capable of assessing fetal risk for both common recessive conditions and aneuploidies from a single maternal blood sample. Our &lt;a href=&quot;https://www.northstaronc.com/&quot;&gt;&lt;strong&gt;Northstar®&lt;/strong&gt;&lt;/a&gt; liquid biopsy test uniquely combines treatment selection with real-time monitoring, giving oncologists unprecedented precision in cancer care.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Our Growth&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;From $0 to $150M+ in Annual Recurring Revenue in just five years. In 2025, we completed one of the most successful IPOs for a medical diagnostics company, building on nearly $400M in private funding,including our $130M Series D in 2024 and backed by world-class investors including Hummingbird, Adams Street Partners, Neuberger Berman, Baillie Gifford, and Premji Invest.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Our Recognition&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Forbes named us one of &lt;strong&gt;America&#39;s Best Startup Employers for 2025&lt;/strong&gt; and we&#39;re &lt;strong&gt;Great Place to Work certified&lt;/strong&gt;, with 100% of our people willing to go the extra mile, even as we&#39;ve scaled to over 700 employees.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Our Future&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Headquartered in Menlo Park with facilities in Union City, CA, and a new lab opening in Austin, TX in 2027, we&#39;re continuing to push the boundaries of what&#39;s possible in molecular diagnostics. We&#39;re just getting started.&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;Ready to help us change the world, one molecule at a time? Learn more at&lt;a href=&quot;https://www.billiontoone.com&quot;&gt; billiontoone.com&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;","departments":[{"id":4000970005,"name":"Process Engineering - Prenatal","child_ids":[],"parent_id":null}],"offices":[{"id":4017731005,"name":"Lab 3.0","location":"Union City, California, United States","child_ids":[],"parent_id":null}]}
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Search by Keyword
+Search by Location
+Clear
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Site Language
+Dansk (Danmark)
+Deutsch (Deutschland)
+English (United Kingdom)
+English (United States)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski
+Português (Brasil)
+Slovencina (Slovensko)
+Svenska (Konungariket Sverige)
+简体中文 (中国大陆)
+View Profile
+#content {
+padding-top: 0px;
+}
+Search by Keyword
+Search by Location
+Show More Options
+Loading...
+Category
+All
+Operating Company
+All
+Work Arrangement
+All
+Job Function
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Engineer, Software Intern
+Location:
+Austin, TX, US, 78728
+#job-location.job-location-inline {
+display: inline;
+}
+Our Summer Internship Program is designed to provide meaningful, hands-on experience where you will work on real projects, solve real business challenges, and collaborate with leaders across the organization.
+This is more than an internship—it’s an opportunity to accelerate your development, expand your perspective, and begin shaping your career with purpose.
+We are looking for curious, driven, and high-potential individuals ready to learn, contribute, and grow. If you are eager to make an impact, challenge yourself, and be part of a team that values innovation and continuous improvement, we invite you to apply and take the first step toward your future with us.
+About the Role
+Dover Fueling Solutions is looking for a creative and motivated Summer Intern to join our team to enhance the quality and efficiency of EMV protocol testing efforts. This role offers an exciting opportunity to work on real-world fueling systems while gaining hands-on experience in software quality engineering.
+Interns will have the opportunity to explore the domain, understand end-to-end system behavior, and contribute to building intuitive solutions that simplify complex technical workflows.
+Key Responsibilities
+Work with Product, Dev and QA to understand customer specific requirements
+Create a library for customer specific test scripts to test all EMV protocol commands and events.
+Create an automated solution to execute these scripts and report the results.
+Preferred Qualifications
+Basic understanding of testing concepts and knowledge of software development.
+Ability to code in .net environment
+Good understanding of xml and TCP/IP protocol
+Basic understanding of Hardware and Embedded Software.
+General IT knowledge.
+Basic understanding of network administration.
+A proactive attitude with a strong desire to learn.
+What You’ll Gain
+Hands-on experience in hardware setup, networking configurations, and test automation.
+Exposure to fuel dispenser ecosystem and specifically the payment terminal
+Mentorship from experienced QA and engineering professionals.
+The opportunity to work with modern tools, frameworks, and engineering practices.
+We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
+All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
+Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact dfs.hrinquiries@doverfs.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
+Nearest Major Market: Austin
+Job Segment:
+Testing, Summer Internship, Embedded, Network Administrator, Quality Engineer, Technology, Entry Level, Engineering
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Find similar jobs:
+View All Jobs in English,
+View All Jobs,
+View All Jobs,
+Ver todos los trabajos globales,
+Alle globalen Jobs anzeigen
+Dover Home
+View Page Index
+Top Job Searches
+Privacy Policy
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d4f0e7a2-9e6f-4c99-8eaa-503e65d8a2e0"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1382944933,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : false,
+applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"65950-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "d4f0e7a2-9e6f-4c99-8eaa-503e65d8a2e0"
+}
+});
+//]]>
+//<![CDATA[
+j2w.SAB.init({
+profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
+jobID : '1382944933',
+locale : 'en_US',
+autoOpen : { open : false }
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'bc0f6dfc-399a-4980-8a96-c8c63635f515';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["department","facility","customfield3","customfield4"],
+showPicklistAllLocales : false
+};
+//]]>

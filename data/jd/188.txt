@@ -1,1 +1,335 @@
-{"jobPostingInfo":{"id":"d32883019c1b100111583d5d1f9b0001","title":"Software Engineering Intern","jobDescription":"<p style=\"text-align:left\"><b>Be visionary</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets that require advanced technology and high reliability. These markets include aerospace and defense, factory automation, air and water quality environmental monitoring, electronics design and development, oceanographic research, deepwater oil and gas exploration and production, medical imaging and pharmaceutical research.</span><span>​</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">We are looking for individuals who thrive on making an impact and want the excitement of being on a team that wins.</p><p style=\"text-align:inherit\"> </p><p style=\"text-align:left\"><b>Job Description</b></p><p style=\"text-align:inherit\"> </p><p><b>Join Our Team as a Software Engineering Intern at Teledyne ETM!</b></p><p></p><p>At <b>Teledyne ETM</b>, we design and build cutting-edge high-voltage and high-power electronic subsystems that power communications, radar/EW, test and measurement, medical, and security markets worldwide. Our products thrive in the toughest environments, and so do we—because we’re committed to helping our customers succeed.</p><p></p><p><b>What’s the role?</b><br />We’re offering a full-time paid summer internship where an intern can assist in researching and implementing various artificial intelligence (AI) implementations for external and internal project initiatives. You will help develop code, integrate large language model(s), and train and test for deployment. This is a temporary position.</p><p></p><p><b>What makes you a great fit?</b><br />You have previous experience with AI implementation. You’re technically savvy, self-motivated, and thrive in a fast-paced environment with multiple priorities. We value independent thinkers who bring clarity, commitment, and collaboration to everything they do.</p><p></p><p><b>What You’ll Do</b></p><ul><li>Assist in researching and implementing various artificial intelligence implementations for external and internal project initiatives. </li><li>Develop code, integrate large language model(s), train and test for deployment. </li></ul><p></p><p><b>What You’ll Need</b></p><ul><li>Demonstrable experience in artificial intelligence implementation and programming in software environments</li><li>Strong research capabilities comparing and contrasting different large language models and the requirements for implementing on deployable platforms</li><li>Applicants must be either a U.S. citizen, U.S. national, legal permanent resident, asylee, refugee, or must be eligible to apply for and obtain the appropriate export control license from the U.S. Departments of State or Commerce</li></ul><p></p><p><b>Why You’ll Love Working Here</b></p><ul><li>Paid full-time internship in a global organization</li><li>A welcoming, collaborative culture focused on problem-solving</li></ul><p></p><p><b>Ready to Apply?</b></p><p>If this sounds like the perfect role for you, apply today through our online portal:</p><p><a href=\"https://flir.wd1.myworkdayjobs.com/flircareers/jobs?q&#61;newark\" target=\"_blank\">https://flir.wd1.myworkdayjobs.com/flircareers/jobs?q&#61;newark</a></p><p style=\"text-align:inherit\"> </p><p style=\"text-align:left\"><b>Salary Range: </b></p>$50,600.00-$67,500.000<p></p><p></p><p><b><u>Pay Transparency</u></b></p><p>The anticipated salary range listed for this role is only an estimate. Actual compensation for successful candidates is carefully determined based on several factors including, but not limited to, location, <span>local regulations (such as minimum wage),</span> education/training, work experience, key skills, and type of position.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Teledyne and all of our employees are committed to conducting business with the highest ethical standards. We require all employees to comply with all applicable laws, regulations, rules and regulatory orders. Our reputation for honesty, integrity and high ethics is as important to us as our reputation for making innovative sensing solutions.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Teledyne is an Equal <span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WKM1\">Opportunity/Affirmative</span></span></span></span></span></span></span></span></span></span></span></span></span></span> Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, age, or any other characteristic or non-merit based factor made unlawful by federal, state, or local laws. ​</span></p>","location":"US - Newark, CA","postedOn":"Posted 21 Days Ago","startDate":"2026-03-24","timeType":"Full time","jobReqId":"REQ33272","jobPostingId":"Software-Engineering-Intern_REQ33272-1","jobPostingSiteId":"flircareers","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09"},"canApply":true,"posted":true,"includeResumeParsing":true,"jobRequisitionLocation":{"descriptor":"US - Newark, CA","country":{"descriptor":"United States of America","id":"bc33aa3152ec42d4995f4791a106ed09","alpha2Code":"US"}},"externalUrl":"https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Newark-CA/Software-Engineering-Intern_REQ33272-1","questionnaireId":"72e2ba97b71b1001faeb3f5e2b9c0000"},"hiringOrganization":{"name":"Teledyne ETM, Inc.","url":""},"similarJobs":[],"userAuthenticated":false}
+Skip to content
+Electronic Arts
+Open Roles
+About EA
+EA Careers
+EA News
+Login
+English - US
+ChineseEnglish - USFinnishFrançaisItalianKoreanMalayPolishRomanianSpanishSwedish
+Our Open Roles
+Home
+Open Roles
+Filter roles by
+Filter roles by
+KeywordsSearch keywords related to roles, including location, title, studio, or skills!CountryJob CategoryWorker TypeStudio/DepartmentWork ModelSearch
+1-20
+of 431
+results
+Sort by
+Name
+ID
+Posted date
+City
+State
+Country
+DICE Engine Tech Quality Intern
+Stockholm, Sweden • Role ID 213543 • Intern - Temporary Employee • EA Studios - DICE Stockholm
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Data Analyst (RFT - Vancouver - FC Modes & Features)
+Vancouver, Canada • Role ID 213151 • Regular Employee • EA Studios - SPORTS
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Accountant II, Controllership
+Hyderabad, India • Role ID 213595 • Regular Employee • Finance
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Software Engineer
+Vancouver, Canada • Vancouver, Canada, British Columbia
+• Role ID 213635 • Temporary Employee • CT - IT
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Site Reliability Engineer
+Bucharest, Romania • Role ID 213684 • Regular Employee • CT - IT
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Cinematic Designer
+Vancouver, Canada • Role ID 213736 • Temporary Employee • EA Studios - SPORTS
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Senior Director, Executive Compensation
+Redwood City, United States of America • Austin, United States of America, Texas • Orlando, United States of America, Florida • Los Angeles - Del Rey, United States of America, California
+• Role ID 209716 • Regular Employee • People Experience & Workplaces
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Localization Business Development Regional Lead
+Shanghai, China • Shanghai, China, Shanghai
+• Role ID 213001 • Regular Employee • Bus Affairs, Bus Dev & Corp Dev
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Environment Art Intern
+Stockholm, Sweden • Role ID 213540 • Intern - Temporary Employee • EA Studios - DICE Stockholm
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Game Design Intern
+Stockholm, Sweden • Role ID 213541 • Intern - Temporary Employee • EA Studios - DICE Stockholm
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Game Design Intern
+Stockholm, Sweden • Role ID 213542 • Intern - Temporary Employee • EA Studios - DICE Stockholm
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Site Reliabiltiy Engineer II
+Hyderabad, India • Role ID 213554 • Regular Employee • EA Mobile - Pogo
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+AI Enablement Engineer - EA Experiences
+Galway, Ireland • Role ID 213591 • Regular Employee • Marketing
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Cinematic Animator
+Orlando, United States of America • Role ID 213627 • Regular Employee • EA Studios - SPORTS
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Build and Release Engineer - Platform & Developer Productivity
+Madrid, Spain • Role ID 213638 • Regular Employee • CT - IT
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Game Designer
+Orlando, United States of America • Role ID 213652 • Regular Employee • EA Studios - SPORTS
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Service Health & Incident Response Specialist
+Offsite - Malaysia, Malaysia • Role ID 213669 • Regular Employee • Fan Growth
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Senior Technical Program Manager - Marketplace
+Vancouver, Canada • Role ID 213687 • Regular Employee • CT - Infrastructure & Platform
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+Technical Program Manager III
+Vancouver, Canada • Role ID 213688 • Regular Employee • CT - Infrastructure & Platform
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+People Practices Coordinator (Temporary Part Time)
+Madrid, Spain • Role ID 213697 • Temporary - with Benefits (EU & Malaysia) • People Experience & Workplaces
+More Information
+Share
+LinkedIn
+X
+WhatsApp
+Email
+Facebook
+1-20
+of 431
+results
+Page
+1
+2
+3
+4
+5
+6
+Next >>
+Didn't find what you're looking for?
+Create a job alert
+© 2026
+Electronic Arts Inc.
+Copyright ©
+2026
+Candidate Privacy Notice
+|
+Notice at Collection (California)
+/**
+* This variable will define every property we need to pass to Templates core library as we can't define twig variables on JS files.
+*/
+var twigConfig = {
+"pageParameters": {
+"personSort": null,
+"personSortDirection": null,
+"jobSort": null,
+"jobSortDirection": null,
+"jobRecordsPerPage": "",
+"personRecordsPerPage": ""
+},
+"jobLabel": "job",
+"STEP_INDEX": "" || null,
+"wizardModalViewEnabled": "" || false,
+"wizardHasErrors": "" || false,
+"sortedBy": "Sorted by ",
+"loading": "Loading ",
+"plugins": {
+"popper": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/popper.min.js"
+},
+"tooltip": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy-bundle.umd.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/tippy/tippy.css"
+},
+"popup": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/glightbox/glightbox.min.css"
+},
+"slider": {
+"js": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.js",
+"css": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/swiper/swiper-bundle.min.css"
+},
+"google": {
+"jsMarkerCluster": "https://templates-static-assets.avacdn.net/jsLibrary/plugins/googlemaps/markerclusterer.js",
+"apiKey": ""
+}
+},
+"menu": {"typeByDefault":"visible","itemsThreshold":8,"headerHeightDefault":5.5,"typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024},"toggleSide":"right","panelFrom":"right","panelEffect":"over"},
+"search": {"typeByDefault":"visible","typeBelowBreakpoint":{"enabled":true,"type":"toggleable","breakpoint":1024,"preventTabsConflicts":true}},
+"results": {"resultsDisplayTypeByDefault":"listed","resultsDisplayTypeBelowBreakpoint":{"enabled":true,"type":"grided","breakpoint":750},"resultsItemTypeByDefault":"result","resultsItemTypeBelowBreakpoint":{"enabled":true,"type":"card","breakpoint":750}},
+"stickyAside": 0,
+"stickyHeader": 1,
+"stickyBanner": 0,
+"page": {
+"PORTAL_BASE_REAL_URL": "https://jobs.ea.com/portal/4",
+"wizardPageBackTo": "",
+},
+"relatedJobs": {
+"relatedJobsEnabled": 1,
+"url": "",
+"selector": "#relatedJobs"
+},
+"convertDatesToUserTZ": {
+"CSSClass": "timelocal",
+"convertDatesToUserTZEnabled": 1,
+"loggedUserTZ": Intl.DateTimeFormat().resolvedOptions().timeZone,
+"weekday": "long",
+"day": "numeric",
+"month": "long",
+"hour": "numeric",
+"minute": "numeric",
+"hour12": "1",
+},
+"userLang": "en_US",
+"breadcrumbsEnabled": 1,
+"googleMapsEnabled": 0,
+"googleMarkerClusterEnabled": 0,
+"googleParameters": {
+"dataUrl": "//jobs.ea.com/en_US/careers/Home/",
+"centerLatitude": 0,
+"centerLongitude": 0,
+"startZoom": 3,
+"infoWindowCSSClassDiv": "info-window",
+"infoWindowCSSClassHeader": "info-window__header",
+"infoWindowCSSClassLink": "link info-window__link"
+},
+"browsingHistory": {
+"browsingHistoryEnabled": 1,
+"url": "",
+"selector": "#browsingHistory"
+},
+"widgetRelatedJobs": {
+"relatedJobsEnabled": 1,
+"url": "",
+"selector": "#widgetRelatedJobs"
+},
+"widgetOpenPositions":{
+"url": "",
+"selector": "#widgetOpenPositions"
+},
+"widgetRecommendations":{
+"widgetRecommendationsEnabled": 1,
+"url": "",
+"selector": "#widgetRecommendations"
+},
+"languageSwitcherFlagsPath": "https://templates-static-assets.avacdn.net/assets/flags",
+"enableLanguageSwitcherFlags": 0,
+"enableSectionCollapsibleAccordionDisplay": 0
+};
+var lightbox;
+var slider;
+var Templates;
+pjQuery(function() { var domManager = new DomManager(); domManager.run(); });
+var service = EventManager.getInstance();
+service.addEventHandler(EventManager.EVENT_LOAD_NAME, function() {AccessibleErrorValidationHandler.setWizardValidationAccessible.apply(this, ["There are some errors, please correct them.","Show details","Hide details",""])}, EventManager.PRIORITY_MEDIUM);

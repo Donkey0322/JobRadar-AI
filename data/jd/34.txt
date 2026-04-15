@@ -134,7 +134,7 @@ Privacy center
 //<![CDATA[
 $(function()
 {
-var ctid = 'b0a3bec8-46b9-48ad-8a83-0351666ff9c6';
+var ctid = '5f8af04e-c2bf-4adf-8403-e90fcda00778';
 var referrer = '';
 var landing = document.location.href;
 var brand = '';
@@ -185,7 +185,7 @@ j2w.TC.init({
 $.ajaxSetup({
 cache : false,
 headers : {
-"X-CSRF-Token" : "cfa7ba3e-689b-44d5-a039-799c71b38621"
+"X-CSRF-Token" : "1112d554-4ea2-4d5c-8f69-4dabf8144d25"
 }
 });
 //]]>
