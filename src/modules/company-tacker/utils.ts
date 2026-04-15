@@ -3,14 +3,23 @@ import { Target } from "@/validation/config";
 
 const TECH_WORDS = [
   "software",
-  "engineer",
-  "developer",
+  "system",
+  "develop",
   "backend",
+  "back-end",
   "frontend",
+  "front-end",
   "full stack",
+  "full-stack",
+  "fullstack",
   "platform",
   "web",
   "mobile",
+  "data",
+  "ai",
+  "cloud",
+  "swe",
+  "devops",
 ];
 const INTERN_WORDS = ["intern", "internship", "co-op", "coop", "student"];
 const NEW_GRAD_WORDS = [

@@ -135,10 +135,17 @@ export async function analyzeLink(link: string): Promise<JD | null> {
     if (aiResponse) {
       try {
         const parsed = JSON.parse(aiResponse);
-        const validated = AIResponseSchema.parse(parsed);
-        return transform(validated);
+        const validated = AIResponseSchema.safeParse(parsed);
+        if (validated.success) {
+          return transform(validated.data);
+        } else {
+          console.log("parsed", parsed);
+          console.warn(`Error parsing JSON:, error: ${validated.error}`);
+          return null;
+        }
       } catch (e) {
-        throw new Error(`Error parsing JSON: ${e}`, { cause: e });
+        console.warn(`Error parsing JSON: ${e}`);
+        return null;
       }
     }
   }

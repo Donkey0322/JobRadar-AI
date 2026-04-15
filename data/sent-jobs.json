@@ -4,7 +4,6 @@
     "role": "Electrical Engineering Summer Intern",
     "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Electrical-Engineering-Summer-Intern_JR-14215",
     "location": "Houston, Texas, United States",
-    "id": 1039,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -14,14 +13,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 496
   },
   {
     "company": "livanova",
     "role": "Design Verification Engineer Intern",
     "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Design-Verification-Engineer-Intern_JR-14386",
     "location": "Houston, Texas, United States",
-    "id": 1038,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -34,14 +33,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 495
   },
   {
     "company": "marianaminerals",
     "role": "Project Engineering Intern",
     "link": "https://jobs.ashbyhq.com/marianaminerals/3632d6b6-386a-441d-bb28-ee98b11650dc",
     "location": "San Francisco HQ",
-    "id": 1037,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -56,14 +55,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 494
   },
   {
     "company": "marianaminerals",
     "role": "Field Engineering Intern ",
     "link": "https://jobs.ashbyhq.com/marianaminerals/aea63917-11ec-4474-b417-e232192c14d4",
     "location": "Moab Office",
-    "id": 1036,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -77,14 +76,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 493
   },
   {
     "company": "marianaminerals",
     "role": "Field Engineering Intern ",
     "link": "https://jobs.ashbyhq.com/marianaminerals/82cddcc9-9f9d-4f9d-be2b-80d532777416",
     "location": "Houston, TX",
-    "id": 1035,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -98,14 +97,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 492
   },
   {
     "company": "marianaminerals",
     "role": "Mining Engineering Intern",
     "link": "https://jobs.ashbyhq.com/marianaminerals/dd98bfe4-4126-46e2-b8e4-f502df27d8e9",
     "location": "Houston, TX",
-    "id": 1034,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -119,14 +118,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 491
   },
   {
     "company": "marianaminerals",
     "role": "Chemical Engineering Intern ",
     "link": "https://jobs.ashbyhq.com/marianaminerals/56508bc2-b1af-40c3-8340-d974334d8d6c",
     "location": "Houston, TX",
-    "id": 1033,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -145,14 +144,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 490
   },
   {
     "company": "marianaminerals",
     "role": "Mechanical Engineering Intern ",
     "link": "https://jobs.ashbyhq.com/marianaminerals/a291cd14-c56e-4e33-a06f-2708bb08269f",
     "location": "Houston, TX",
-    "id": 1032,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -169,14 +168,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 489
   },
   {
     "company": "marianaminerals",
     "role": "Process Engineering Intern",
     "link": "https://jobs.ashbyhq.com/marianaminerals/4a03388b-7f1c-4c52-9bfc-27c5e6431880",
     "location": "San Francisco HQ",
-    "id": 1031,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -191,14 +190,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 488
   },
   {
     "company": "marianaminerals",
     "role": "Mechanical Engineering Intern",
     "link": "https://jobs.ashbyhq.com/marianaminerals/3d0923a9-f0cf-4d96-91c9-5988665bf2f5",
     "location": "San Francisco HQ",
-    "id": 1030,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -218,14 +217,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 487
   },
   {
     "company": "marianaminerals",
     "role": "Machine Learning Engineering Intern ",
     "link": "https://jobs.ashbyhq.com/marianaminerals/7974b67d-92d8-49a5-bef5-079320962aee",
     "location": "Ann Arbor, MI",
-    "id": 1029,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -241,7 +240,8 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 486
   },
   {
     "company": "Signify",
@@ -249,7 +249,6 @@
     "link": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Software-Engineering-Intern--Cooper-Lighting-Solutions--Summer-2026-_363549-1",
     "location": "Atlanta, GA",
     "season": "2026 Summer",
-    "id": 1026,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -261,14 +260,16 @@
         "Mobile app development experience a plus."
       ],
       "season": "2026 Summer"
-    }
+    },
+    "id": 485
   },
   {
     "company": "Geisinger",
     "role": "Intern Undergraduate IT - Application Developer",
     "link": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Application-Developer-_R-94604",
     "location": "Pennsylvania",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 484
   },
   {
     "company": "Ontic",
@@ -276,7 +277,6 @@
     "link": "https://jobs.ashbyhq.com/Ontic/c2fa0616-b853-4cf1-a39e-137220f77a73/application",
     "location": "Austin, TXRemote in USA",
     "season": "2026 Summer",
-    "id": 1025,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -294,14 +294,16 @@
         "Possess side projects, hackathons, or open-source contributions"
       ],
       "season": "unsure"
-    }
+    },
+    "id": 483
   },
   {
     "company": "Nio",
     "role": "AI Agent Intern - Semantic Search 🎓",
     "link": "https://nio.wd3.myworkdayjobs.com/NIO_Careers/job/San-Jose-US/AI-Agent-Intern--Semantic-Search-_R-000148",
     "location": "San Jose, CA",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 482
   },
   {
     "company": "LG Electronics",
@@ -309,7 +311,6 @@
     "link": "https://job-boards.greenhouse.io/lgelectronics/jobs/5187935008",
     "location": "Englewood, NJ",
     "season": "2026 Summer",
-    "id": 1024,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -329,7 +330,8 @@
         "Possess strong communication skills."
       ],
       "season": "2026 Summer"
-    }
+    },
+    "id": 481
   },
   {
     "company": "Uber",
@@ -337,7 +339,6 @@
     "link": "https://university-uber.icims.com/jobs/158324/job?mobile=true&needsRedirect=false",
     "location": "Sunnyvale, CA",
     "season": "2026 Summer",
-    "id": 1021,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -354,7 +355,8 @@
         "Experienced in handling multimodality data in the industry."
       ],
       "season": "2026 Summer"
-    }
+    },
+    "id": 480
   },
   {
     "company": "Uber",
@@ -362,7 +364,6 @@
     "link": "https://www.uber.com/global/en/careers/list/158324/",
     "location": "Sunnyvale, CA",
     "season": "2026 Summer",
-    "id": 1020,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -387,7 +388,6 @@
     "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Systems-Engineering---AI-Workflows-Intern_JR-14385",
     "location": "Houston, TX",
     "season": "2026 Summer",
-    "id": 1019,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -400,21 +400,24 @@
         "Maintain a GPA of 3.6 or higher."
       ],
       "season": "2026 Summer"
-    }
+    },
+    "id": 479
   },
   {
     "company": "SBA Communications Corporation",
     "role": "Asset Development Intern",
     "link": "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101703",
     "location": "Florida",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 478
   },
   {
     "company": "SBA Communications Corporation",
     "role": "Asset Development Intern",
     "link": "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101706",
     "location": "Florida",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 477
   },
   {
     "company": "Mariana Minerals",
@@ -422,7 +425,6 @@
     "link": "https://jobs.ashbyhq.com/marianaminerals/a8d2878d-bd25-4eff-9957-3925901bc40d/application",
     "location": "SFAnn Arbor, MI",
     "season": "2026 Summer",
-    "id": 1018,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -437,14 +439,14 @@
         "Exhibit clear communication skills and willingness to collaborate across teams."
       ],
       "season": "unsure"
-    }
+    },
+    "id": 476
   },
   {
     "company": "gehc",
     "role": "Internship Software Engineering (f/m/d)",
     "link": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-Software-Engineering--f-m-d-_R4037928-1",
     "location": "Zipf",
-    "id": 1017,
     "jd": {
       "citizenship": false,
       "sponsorship": null,
@@ -459,14 +461,16 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 475
   },
   {
     "company": "Geisinger",
     "role": "Intern Undergraduate IT",
     "link": "https://geisinger.wd5.myworkdayjobs.com/geisingerexternal/job/Work-from-Home/Intern-Undergraduate-IT--Applications-_R-94324",
     "location": "Pennsylvania",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 474
   },
   {
     "company": "W.R. Berkley",
@@ -474,7 +478,6 @@
     "link": "https://careers-berkley.icims.com/jobs/13197/job?mobile=true&needsRedirect=false",
     "location": "Grimes, IA",
     "season": "2026 Summer",
-    "id": 1015,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -493,26 +496,28 @@
         "Experience utilizing AI Platforms within workflows for efficiency."
       ],
       "season": "unsure"
-    }
+    },
+    "id": 473
   },
   {
     "company": "pae",
     "role": "Chemical Engineering Intern – Oak Ridge",
     "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159056",
-    "location": "US-TN-Oak Ridge"
+    "location": "US-TN-Oak Ridge",
+    "id": 472
   },
   {
     "company": "pae",
     "role": "Chemical Engineering Intern – Oak Ridge",
     "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Chemical-Engineering-Intern---Oak-Ridge_R0159060",
-    "location": "US-TN-Oak Ridge"
+    "location": "US-TN-Oak Ridge",
+    "id": 471
   },
   {
     "company": "The New York Times",
     "role": "iOS Engineering Intern",
     "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4624816005",
     "location": "New York, NY",
-    "id": 1012,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -525,14 +530,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 470
   },
   {
     "company": "Astera Labs Early Career",
     "role": "Photonics Integrated Circuits Engineer (Intern 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4624887005",
     "location": "San Jose, CA",
-    "id": 1011,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -552,14 +557,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 469
   },
   {
     "company": "Astera Labs Early Career",
     "role": "Hardware Test Engineer (Internship 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4638279005",
     "location": "San Jose, CA",
-    "id": 1010,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -578,14 +583,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 468
   },
   {
     "company": "Astera Labs Early Career",
     "role": "Hardware Electrical Engineer - EED (Intern 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4598394005",
     "location": "San Jose, CA",
-    "id": 1009,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -614,14 +619,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 467
   },
   {
     "company": "Astera Labs Early Career",
     "role": "Electrical Validation Engineer (Internship 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605684005",
     "location": "San Jose, CA",
-    "id": 1008,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -640,14 +645,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 466
   },
   {
     "company": "Astera Labs Early Career",
     "role": "ATE Test Engineer (Internship 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605622005",
     "location": "San Jose, CA",
-    "id": 1007,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -672,14 +677,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 465
   },
   {
     "company": "Astera Labs Early Career",
     "role": "Analog/Mixed-Signal Engineer - SerDes (PhD Intern 2026)",
     "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605619005",
     "location": "Irvine, CA or San Jose, CA",
-    "id": 1006,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
@@ -706,14 +711,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 464
   },
   {
     "company": "BlackSky",
     "role": "Machine Learning Engineer (MLE) Intern",
     "link": "https://boards.greenhouse.io/blacksky/jobs/8499022002?gh_jid=8499022002",
     "location": "Herndon, VA",
-    "id": 1005,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -732,14 +737,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 463
   },
   {
     "company": "Appian Corporation ",
     "role": "Software Engineering Intern",
     "link": "https://job-boards.greenhouse.io/appian/jobs/7727768",
     "location": "McLean, Virginia",
-    "id": 1003,
     "jd": {
       "citizenship": false,
       "sponsorship": null,
@@ -754,7 +759,8 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 462
   },
   {
     "company": "gehc",
@@ -772,14 +778,14 @@
     "company": "pae",
     "role": "Intern - Software Systems Engineer",
     "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Software-Systems-Engineer_R0159110",
-    "location": "US-AL-Huntsville"
+    "location": "US-AL-Huntsville",
+    "id": 461
   },
   {
     "company": "pae",
     "role": "Electrical Engineering Intern - Summer 2026",
     "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Electrical-Engineering-Intern---Summer-2026_R0155999",
     "location": "US-TN-Oak Ridge",
-    "id": 999,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -808,7 +814,6 @@
     "role": "Mission Systems Platform Intern - (Summer/Fall 2026)",
     "link": "https://jobs.lever.co/hermeus/86fd77a9-6498-43df-bfe0-2159aa6933db",
     "location": "Atlanta, GA",
-    "id": 998,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -832,14 +837,14 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 460
   },
   {
     "company": "disney",
     "role": "ABC News Product Management and Engineering Intern, Summer/Fall 2026",
     "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/New-York-NY-USA/ABC-News-Product-Management-and-Engineering-Intern--Summer-Fall-2026_10147928",
     "location": "New York, NY, USA",
-    "id": 997,
     "jd": {
       "citizenship": false,
       "sponsorship": null,
@@ -857,20 +862,21 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 459
   },
   {
     "company": "cadence",
     "role": "Software Intern",
     "link": "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54380-1",
-    "location": "SAN JOSE"
+    "location": "SAN JOSE",
+    "id": 458
   },
   {
     "company": "caci",
     "role": "Software Engineer Intern - Summer 2026",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-Austin/Software-Engineer-Intern---Summer-2026_316653",
     "location": "US TX Austin",
-    "id": 996,
     "jd": {
       "citizenship": null,
       "sponsorship": false,
@@ -885,7 +891,8 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 457
   },
   {
     "company": "300.3500.0200 MAMMOGRAPHY - R & D - CONNECTIVITY, US",
@@ -903,20 +910,21 @@
     "company": "aero",
     "role": "2026 Data Platform Software Engineering Intern",
     "link": "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2026-Data-Platforms-Engineering-Grad-Intern_R014481",
-    "location": "2 Locations"
+    "location": "2 Locations",
+    "id": 456
   },
   {
     "company": "kla",
     "role": "Algorithm Engineering Intern",
     "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2531392",
-    "location": "Ann Arbor, MI"
+    "location": "Ann Arbor, MI",
+    "id": 455
   },
   {
     "company": "Cloudflare",
     "role": "Developer GTM Intern – Enterprise Sales & AI Automation (Summer 2026)",
     "link": "https://boards.greenhouse.io/cloudflare/jobs/7789256?gh_jid=7789256",
     "location": "In-Office",
-    "id": 991,
     "jd": {
       "citizenship": null,
       "sponsorship": false,
@@ -932,14 +940,16 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 454
   },
   {
     "company": "Xylem",
     "role": "Application Engineer – Intern",
     "link": "https://xylem.wd5.myworkdayjobs.com/en-US/xylem-careers/job/Cheektowaga-New-York/Application-Engineer---Intern_R47633",
     "location": "Cheektowaga, NY",
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 453
   },
   {
     "company": "ENFOS",
@@ -947,14 +957,14 @@
     "link": "https://apply.workable.com/enfos-inc/j/7364AA5599/",
     "location": "Durham, NC",
     "season": "2026 Summer",
-    "id": 989,
     "jd": {
       "citizenship": null,
       "sponsorship": null,
       "location": "Other",
       "qualifications": [],
       "season": "unsure"
-    }
+    },
+    "id": 452
   },
   {
     "company": "Hyundai AutoEver America",
@@ -962,7 +972,6 @@
     "link": "https://hyundaiautoeveramerica.applytojob.com/apply/RkFmYUEyd3/Software-Engineer-Intern",
     "location": "Irvine, CA",
     "season": "2026 Summer",
-    "id": 988,
     "jd": {
       "citizenship": false,
       "sponsorship": null,
@@ -983,20 +992,21 @@
         "Familiarity with cloud platforms such as Azure, AWS, or GCP."
       ],
       "season": "unsure"
-    }
+    },
+    "id": 451
   },
   {
     "company": "ptc",
     "role": "Software Engineer Intern",
     "link": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR111950",
-    "location": "Boston, MA, USA"
+    "location": "Boston, MA, USA",
+    "id": 450
   },
   {
     "company": "moog",
     "role": "Intern, Software Engineering",
     "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-16800",
     "location": "Buffalo, NY",
-    "id": 982,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -1019,14 +1029,14 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 449
   },
   {
     "company": "Bosch Group",
     "role": "Intern, Engineering Application Mechanics - New Brake Systems",
     "link": "https://jobs.smartrecruiters.com/BoschGroup/744000120702643",
     "location": "Plymouth, MI, United States",
-    "id": 981,
     "jd": {
       "citizenship": true,
       "sponsorship": false,
@@ -1042,7 +1052,8 @@
       ],
       "season": "unsure"
     },
-    "season": "unsure"
+    "season": "unsure",
+    "id": 448
   },
   {
     "company": "Paint Stores Group",
@@ -1073,7 +1084,6 @@
     "role": "Mechanical Engineer Summer Intern - Summer 2026",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-DC-Washington/Mechanical-Engineer-Summer-Intern---Summer-2026_324850",
     "location": "US DC Washington",
-    "id": 980,
     "jd": {
       "citizenship": null,
       "sponsorship": false,
@@ -1093,7 +1103,8 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer"
+    "season": "2026 Summer",
+    "id": 447
   },
   {
     "company": "InterSystems",
@@ -1131,7 +1142,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 467
+    "id": 446
   },
   {
     "company": " ALO",
@@ -1154,7 +1165,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 466
+    "id": 445
   },
   {
     "company": " ALO",
@@ -1181,7 +1192,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 465
+    "id": 444
   },
   {
     "company": " ALO",
@@ -1210,7 +1221,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 464
+    "id": 443
   },
   {
     "company": " ALO",
@@ -1232,7 +1243,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 463
+    "id": 442
   },
   {
     "company": " ALO",
@@ -1254,7 +1265,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 462
+    "id": 441
   },
   {
     "company": "The Joint Commission",
@@ -1275,7 +1286,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 461
+    "id": 440
   },
   {
     "company": "TD Bank",
@@ -1302,7 +1313,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 460
+    "id": 439
   },
   {
     "company": "TD Bank",
@@ -1334,7 +1345,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 459
+    "id": 438
   },
   {
     "company": "TD Bank",
@@ -1361,7 +1372,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 458
+    "id": 437
   },
   {
     "company": "TD Bank",
@@ -1395,7 +1406,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 457
+    "id": 436
   },
   {
     "company": "Bank of Montreal",
@@ -1454,7 +1465,7 @@
       ],
       "season": "unsure"
     },
-    "id": 456
+    "id": 435
   },
   {
     "company": "Magna",
@@ -1480,7 +1491,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 455
+    "id": 434
   },
   {
     "company": "Parsons",
@@ -1511,7 +1522,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 454
+    "id": 433
   },
   {
     "company": "Becton Dickinson",
@@ -1545,7 +1556,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 453
+    "id": 432
   },
   {
     "company": "BlueScope",
@@ -1563,7 +1574,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 452
+    "id": 431
   },
   {
     "company": "BlueScope",
@@ -1580,7 +1591,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 451
+    "id": 430
   },
   {
     "company": "BlueScope",
@@ -1595,7 +1606,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 450
+    "id": 429
   },
   {
     "company": "Commvault",
@@ -1618,8 +1629,7 @@
         "Enrolled at an accredited institution in Fall 2026."
       ],
       "season": "2026 Summer"
-    },
-    "id": 449
+    }
   },
   {
     "company": "SumUp",
@@ -1656,7 +1666,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 448
+    "id": 428
   },
   {
     "company": "Tenstorrent",
@@ -1682,7 +1692,7 @@
       ],
       "season": "unsure"
     },
-    "id": 447
+    "id": 427
   },
   {
     "company": "leidos",
@@ -1715,7 +1725,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 446
+    "id": 426
   },
   {
     "company": "Tenstorrent University Jobs",
@@ -1736,7 +1746,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 445
+    "id": 425
   },
   {
     "company": "Tenstorrent University Jobs",
@@ -1759,7 +1769,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 444
+    "id": 424
   },
   {
     "company": "Tenstorrent University Jobs",
@@ -1783,7 +1793,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 443
+    "id": 423
   },
   {
     "company": "Tenstorrent University Jobs",
@@ -1805,7 +1815,7 @@
       "season": "2026 Fall"
     },
     "season": "2026 Fall",
-    "id": 442
+    "id": 422
   },
   {
     "company": "Tenstorrent University Jobs",
@@ -1834,7 +1844,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 441
+    "id": 421
   },
   {
     "company": "Stripe",
@@ -1856,7 +1866,7 @@
     "link": "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Roseau-MN-USA/Manufacturing-Engineer-Intern_R29375",
     "location": "Roseau, MN, USA",
     "jd": null,
-    "id": 440
+    "id": 420
   },
   {
     "company": "pae",
@@ -1882,7 +1892,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 439
+    "id": 419
   },
   {
     "company": "jabil",
@@ -1910,7 +1920,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 438
+    "id": 418
   },
   {
     "company": "jabil",
@@ -1938,7 +1948,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 437
+    "id": 417
   },
   {
     "company": "jabil",
@@ -1966,7 +1976,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 436
+    "id": 416
   },
   {
     "company": "globalhr",
@@ -1993,8 +2003,7 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer",
-    "id": 435
+    "season": "2026 Summer"
   },
   {
     "company": "dickssportinggoods",
@@ -2017,8 +2026,7 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer",
-    "id": 434
+    "season": "2026 Summer"
   },
   {
     "company": "Astranis",
@@ -2039,7 +2047,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 433
+    "id": 415
   },
   {
     "company": "disney",
@@ -2070,7 +2078,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 432
+    "id": 414
   },
   {
     "company": "disney",
@@ -2095,8 +2103,7 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer",
-    "id": 431
+    "season": "2026 Summer"
   },
   {
     "company": "Point72 ",
@@ -2120,7 +2127,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 430
+    "id": 413
   },
   {
     "company": "Zscaler",
@@ -2142,7 +2149,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 429
+    "id": 412
   },
   {
     "company": "HOWMET ENGINE SYSTEMS",
@@ -2180,7 +2187,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 428
+    "id": 411
   },
   {
     "company": "Stripe",
@@ -2219,7 +2226,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 427
+    "id": 410
   },
   {
     "company": "AECOM",
@@ -2241,7 +2248,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 426
+    "id": 409
   },
   {
     "company": "Rocket Lawyer",
@@ -2267,7 +2274,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 425
+    "id": 408
   },
   {
     "company": "globalhr",
@@ -2287,7 +2294,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 424
+    "id": 407
   },
   {
     "company": "globalhr",
@@ -2318,7 +2325,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 423
+    "id": 406
   },
   {
     "company": "JB&B",
@@ -2344,7 +2351,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 422
+    "id": 405
   },
   {
     "company": "Sandhills Global",
@@ -2369,7 +2376,7 @@
       ],
       "season": "unsure"
     },
-    "id": 421
+    "id": 404
   },
   {
     "company": "Arrow International",
@@ -2394,7 +2401,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 420
+    "id": 403
   },
   {
     "company": "HealthStream",
@@ -2409,7 +2416,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 419
+    "id": 402
   },
   {
     "company": "Ampere",
@@ -2417,8 +2424,7 @@
     "link": "https://careers.amperecomputing.com/jobs/17398918-technical-intern-compiler-software",
     "location": "Santa Clara, CA",
     "season": "2026 Summer",
-    "jd": null,
-    "id": 418
+    "jd": null
   },
   {
     "company": "Magna",
@@ -2451,7 +2457,7 @@
       ],
       "season": "unsure"
     },
-    "id": 417
+    "id": 401
   },
   {
     "company": "Healthesystems",
@@ -2486,7 +2492,7 @@
       "season": "2026 Fall"
     },
     "season": "2026 Fall",
-    "id": 416
+    "id": 400
   },
   {
     "company": "cae",
@@ -2515,7 +2521,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 415
+    "id": 399
   },
   {
     "company": "kla",
@@ -2536,7 +2542,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 414
+    "id": 398
   },
   {
     "company": "freseniusmedicalcare",
@@ -2613,7 +2619,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 413
+    "id": 397
   },
   {
     "company": "Sandisk",
@@ -2621,7 +2627,7 @@
     "link": "https://jobs.smartrecruiters.com/sandisk/744000120277653",
     "location": "Batu Kawan, Penang, Malaysia",
     "jd": null,
-    "id": 412
+    "id": 396
   },
   {
     "company": "Sandisk",
@@ -2643,7 +2649,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 411
+    "id": 395
   },
   {
     "company": "Bosch Group",
@@ -2667,7 +2673,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 410
+    "id": 394
   },
   {
     "company": "Bosch Group",
@@ -2689,7 +2695,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 409
+    "id": 393
   },
   {
     "company": "globalhr",
@@ -2710,7 +2716,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 408
+    "id": 392
   },
   {
     "company": "calix",
@@ -2736,7 +2742,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 407
+    "id": 391
   },
   {
     "company": "calix",
@@ -2744,7 +2750,7 @@
     "link": "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Engineering-Intern---Cloud-Platform_R-11583-1",
     "location": "Remote - North America",
     "jd": null,
-    "id": 406
+    "id": 390
   },
   {
     "company": "calix",
@@ -2752,7 +2758,7 @@
     "link": "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Project-Management-Intern_R-11503",
     "location": "Remote - North America",
     "jd": null,
-    "id": 405
+    "id": 389
   },
   {
     "company": "On the Go",
@@ -2778,8 +2784,7 @@
         "Possess strong work ethic, integrity, high energy, and a positive attitude"
       ],
       "season": "2026 Summer"
-    },
-    "id": 404
+    }
   },
   {
     "company": "Dover",
@@ -2801,7 +2806,7 @@
       ],
       "season": "unsure"
     },
-    "id": 403
+    "id": 388
   },
   {
     "company": "Dover",
@@ -2825,7 +2830,7 @@
       ],
       "season": "unsure"
     },
-    "id": 402
+    "id": 387
   },
   {
     "company": "Dover",
@@ -2850,7 +2855,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 401
+    "id": 386
   },
   {
     "company": "ASM",
@@ -2879,7 +2884,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 400
+    "id": 385
   },
   {
     "company": "nvidia",
@@ -2932,7 +2937,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 399
+    "id": 384
   },
   {
     "company": "Altruist",
@@ -2974,7 +2979,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 398
+    "id": 383
   },
   {
     "company": "AECOM",
@@ -2998,7 +3003,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 397
+    "id": 382
   },
   {
     "company": "AECOM",
@@ -3020,7 +3025,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 396
+    "id": 381
   },
   {
     "company": "AECOM",
@@ -3037,7 +3042,7 @@
       "season": "New Grad"
     },
     "season": "New Grad",
-    "id": 395
+    "id": 380
   },
   {
     "company": "Behaviour Interactive",
@@ -3058,7 +3063,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 394
+    "id": 379
   },
   {
     "company": "vanguard",
@@ -3080,7 +3085,7 @@
       "season": "2026 Fall"
     },
     "season": "2026 Fall",
-    "id": 393
+    "id": 378
   },
   {
     "company": "pae",
@@ -3192,7 +3197,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 392
+    "id": 377
   },
   {
     "company": "kla",
@@ -3222,7 +3227,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 391
+    "id": 376
   },
   {
     "company": "Twilio",
@@ -3248,7 +3253,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 390
+    "id": 375
   },
   {
     "company": "The New York Times",
@@ -3269,7 +3274,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 389
+    "id": 374
   },
   {
     "company": "Lucid Motors",
@@ -3301,7 +3306,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 388
+    "id": 373
   },
   {
     "company": "BillionToOne",
@@ -3324,7 +3329,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 387
+    "id": 372
   },
   {
     "company": "Auctane ",
@@ -3349,7 +3354,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 386
+    "id": 371
   },
   {
     "company": "Aquatic Capital Management",
@@ -3377,7 +3382,7 @@
       "season": "2027 Spring"
     },
     "season": "2027 Spring",
-    "id": 385
+    "id": 370
   },
   {
     "company": "iheartmedia",
@@ -3408,7 +3413,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 384
+    "id": 369
   },
   {
     "company": "globalhr",
@@ -3434,7 +3439,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 383
+    "id": 368
   },
   {
     "company": "globalhr",
@@ -3460,8 +3465,7 @@
       ],
       "season": "2026 Summer"
     },
-    "season": "2026 Summer",
-    "id": 382
+    "season": "2026 Summer"
   },
   {
     "company": "gdit",
@@ -3492,7 +3496,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 381
+    "id": 367
   },
   {
     "company": "gdit",
@@ -3527,7 +3531,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 380
+    "id": 366
   },
   {
     "company": "gdit",
@@ -3562,7 +3566,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 379
+    "id": 365
   },
   {
     "company": "disney",
@@ -3620,7 +3624,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 378
+    "id": 364
   },
   {
     "company": "Redwood Materials",
@@ -3648,7 +3652,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 377
+    "id": 363
   },
   {
     "company": "Redwood Materials",
@@ -3677,7 +3681,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 376
+    "id": 362
   },
   {
     "company": "Anduril Industries",
@@ -3699,7 +3703,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 375
+    "id": 361
   },
   {
     "company": "Anduril Industries",
@@ -3723,7 +3727,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 374
+    "id": 360
   },
   {
     "company": "Anduril Industries",
@@ -3757,7 +3761,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 373
+    "id": 359
   },
   {
     "company": "Anduril Industries",
@@ -3786,7 +3790,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 372
+    "id": 358
   },
   {
     "company": "Anduril Industries",
@@ -3818,7 +3822,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 371
+    "id": 357
   },
   {
     "company": "Anduril Industries",
@@ -3850,7 +3854,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 370
+    "id": 356
   },
   {
     "company": "baxter",
@@ -3878,7 +3882,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 369
+    "id": 355
   },
   {
     "company": "baltimorecity",
@@ -3902,7 +3906,7 @@
       "season": "2026 Summer"
     },
     "season": "2026 Summer",
-    "id": 368
+    "id": 354
   },
   {
     "company": "Vanguard",
@@ -3924,7 +3928,7 @@
       ],
       "season": "unsure"
     },
-    "id": 367
+    "id": 353
   },
   {
     "company": "The Aerospace Corporation",
@@ -3967,7 +3971,7 @@
       ],
       "season": "unsure"
     },
-    "id": 366
+    "id": 352
   },
   {
     "company": "City of Baltimore",
@@ -3991,7 +3995,7 @@
       ],
       "season": "unsure"
     },
-    "id": 365
+    "id": 351
   },
   {
     "company": "KION Group",
@@ -4020,8 +4024,7 @@
         "Participate in Future Talent Programming events."
       ],
       "season": "unsure"
-    },
-    "id": 364
+    }
   },
   {
     "company": "Hootsuite",
@@ -4064,7 +4067,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 363
+    "id": 350
   },
   {
     "company": "NAV CANADA",
@@ -4088,7 +4091,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 362
+    "id": 349
   },
   {
     "company": "Generac",
@@ -4116,7 +4119,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 361
+    "id": 348
   },
   {
     "company": "Qualitest",
@@ -4137,7 +4140,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 360
+    "id": 347
   },
   {
     "company": "KION Group",
@@ -4166,8 +4169,7 @@
         "Participate in various Future Talent Programming events"
       ],
       "season": "unsure"
-    },
-    "id": 359
+    }
   },
   {
     "company": "iHeartMedia",
@@ -4200,7 +4202,7 @@
       ],
       "season": "unsure"
     },
-    "id": 358
+    "id": 346
   },
   {
     "company": "Chamberlain Group",
@@ -4248,7 +4250,7 @@
       ],
       "season": "unsure"
     },
-    "id": 357
+    "id": 345
   },
   {
     "company": "General Dynamics Mission Systems",
@@ -4268,7 +4270,7 @@
       ],
       "season": "unsure"
     },
-    "id": 356
+    "id": 344
   },
   {
     "company": "Fortive",
@@ -4315,7 +4317,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 355
+    "id": 343
   },
   {
     "company": "Belden",
@@ -4339,7 +4341,7 @@
       ],
       "season": "unsure"
     },
-    "id": 354
+    "id": 342
   },
   {
     "company": "Belden",
@@ -4364,7 +4366,7 @@
       ],
       "season": "unsure"
     },
-    "id": 353
+    "id": 341
   },
   {
     "company": "Belden",
@@ -4388,7 +4390,7 @@
       ],
       "season": "unsure"
     },
-    "id": 352
+    "id": 340
   },
   {
     "company": "Firemon",
@@ -4403,7 +4405,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 351
+    "id": 339
   },
   {
     "company": "Dover",
@@ -4412,7 +4414,7 @@
     "location": "Austin, TX",
     "season": "2026 Summer",
     "jd": null,
-    "id": 350
+    "id": 338
   },
   {
     "company": "Dover",
@@ -4421,7 +4423,7 @@
     "location": "Austin, TX",
     "season": "2026 Summer",
     "jd": null,
-    "id": 349
+    "id": 337
   },
   {
     "company": "Tradeweb",
@@ -4451,7 +4453,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 348
+    "id": 336
   },
   {
     "company": "Cadence Design Systems",
@@ -4474,7 +4476,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 347
+    "id": 335
   },
   {
     "company": "Aprio",
@@ -4489,7 +4491,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 346
+    "id": 334
   },
   {
     "company": "Cadence Design Systems",
@@ -4512,7 +4514,7 @@
       ],
       "season": "unsure"
     },
-    "id": 345
+    "id": 333
   },
   {
     "company": "Cadence Design Systems",
@@ -4534,7 +4536,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 344
+    "id": 332
   },
   {
     "company": "Onto Innovation",
@@ -4559,7 +4561,7 @@
       ],
       "season": "unsure"
     },
-    "id": 343
+    "id": 331
   },
   {
     "company": "Toshiba Global Commerce",
@@ -4590,7 +4592,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 342
+    "id": 330
   },
   {
     "company": "Uline",
@@ -4618,7 +4620,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 341
+    "id": 329
   },
   {
     "company": "Fiserv",
@@ -4734,7 +4736,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 340
+    "id": 328
   },
   {
     "company": "Trane Technologies",
@@ -4785,7 +4787,7 @@
       ],
       "season": "unsure"
     },
-    "id": 339
+    "id": 327
   },
   {
     "company": "Cypress Creek Renewables",
@@ -4880,7 +4882,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 338
+    "id": 326
   },
   {
     "company": "Cloudflare",
@@ -4906,7 +4908,7 @@
       ],
       "season": "unsure"
     },
-    "id": 337
+    "id": 325
   },
   {
     "company": "Robert Bosch Venture Capital",
@@ -4915,7 +4917,7 @@
     "location": "York, UK",
     "season": "2026 Summer",
     "jd": null,
-    "id": 336
+    "id": 324
   },
   {
     "company": "Concept Plus",
@@ -4924,7 +4926,7 @@
     "location": "Fairfax, VA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 335
+    "id": 323
   },
   {
     "company": "Waystar",
@@ -4973,7 +4975,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 334
+    "id": 322
   },
   {
     "company": "Altom Transport",
@@ -4988,7 +4990,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 333
+    "id": 321
   },
   {
     "company": "Tencent",
@@ -5060,7 +5062,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 332
+    "id": 320
   },
   {
     "company": "Rolls-Royce Motorcars",
@@ -5087,7 +5089,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 331
+    "id": 319
   },
   {
     "company": "Electronic Arts",
@@ -5107,7 +5109,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 330
+    "id": 318
   },
   {
     "company": "TDS",
@@ -5139,8 +5141,7 @@
         "Able to work both independently and on team assignments."
       ],
       "season": "unsure"
-    },
-    "id": 329
+    }
   },
   {
     "company": "Altera Corporation",
@@ -5183,8 +5184,7 @@
         "Communicate progress and blockers effectively."
       ],
       "season": "2026 Summer"
-    },
-    "id": 328
+    }
   },
   {
     "company": "Citizens Financial Group",
@@ -5199,7 +5199,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 327
+    "id": 317
   },
   {
     "company": "Fortinet",
@@ -5214,7 +5214,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 326
+    "id": 316
   },
   {
     "company": "KION Group",
@@ -5245,7 +5245,7 @@
       ],
       "season": "unsure"
     },
-    "id": 325
+    "id": 315
   },
   {
     "company": "Altom Transport",
@@ -5260,7 +5260,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 324
+    "id": 314
   },
   {
     "company": "Al Warren Oil Company",
@@ -5275,7 +5275,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 323
+    "id": 313
   },
   {
     "company": "Altom Transport",
@@ -5290,7 +5290,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 322
+    "id": 312
   },
   {
     "company": "Westinghouse Electric Company",
@@ -5311,7 +5311,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 321
+    "id": 311
   },
   {
     "company": "APEX Analytix",
@@ -5364,7 +5364,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 320
+    "id": 310
   },
   {
     "company": "Tessera Labs",
@@ -5390,7 +5390,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 319
+    "id": 309
   },
   {
     "company": "CACI",
@@ -5419,7 +5419,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 318
+    "id": 308
   },
   {
     "company": "CACI",
@@ -5448,7 +5448,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 317
+    "id": 307
   },
   {
     "company": "CACI",
@@ -5477,7 +5477,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 316
+    "id": 306
   },
   {
     "company": "Intel",
@@ -5522,7 +5522,7 @@
       ],
       "season": "unsure"
     },
-    "id": 315
+    "id": 305
   },
   {
     "company": "Cloudflare",
@@ -5551,7 +5551,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 314
+    "id": 304
   },
   {
     "company": "iSpot.tv",
@@ -5578,7 +5578,7 @@
       ],
       "season": "unsure"
     },
-    "id": 313
+    "id": 303
   },
   {
     "company": "Tessera Labs",
@@ -5587,7 +5587,7 @@
     "location": "San Jose, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 312
+    "id": 302
   },
   {
     "company": "Delta Dental",
@@ -5596,7 +5596,7 @@
     "location": "East Lansing, MI",
     "season": "2026 Summer",
     "jd": null,
-    "id": 311
+    "id": 301
   },
   {
     "company": "Moog",
@@ -5604,8 +5604,7 @@
     "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17015",
     "location": "Buffalo, NY",
     "season": "2026 Summer",
-    "jd": null,
-    "id": 310
+    "jd": null
   },
   {
     "company": "SoFi",
@@ -5685,7 +5684,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 309
+    "id": 300
   },
   {
     "company": "Attentive",
@@ -5714,7 +5713,7 @@
       ],
       "season": "unsure"
     },
-    "id": 308
+    "id": 299
   },
   {
     "company": "Cadence Design Systems",
@@ -5736,7 +5735,7 @@
       ],
       "season": "unsure"
     },
-    "id": 307
+    "id": 298
   },
   {
     "company": "Cadence Design Systems",
@@ -5801,7 +5800,7 @@
       ],
       "season": "unsure"
     },
-    "id": 306
+    "id": 297
   },
   {
     "company": "PatientPoint",
@@ -5882,7 +5881,7 @@
       ],
       "season": "unsure"
     },
-    "id": 305
+    "id": 296
   },
   {
     "company": "Eulerity",
@@ -5914,7 +5913,7 @@
       ],
       "season": "unsure"
     },
-    "id": 304
+    "id": 295
   },
   {
     "company": "BigCommerce",
@@ -5940,7 +5939,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 303
+    "id": 294
   },
   {
     "company": "SiFive",
@@ -5964,7 +5963,7 @@
       ],
       "season": "unsure"
     },
-    "id": 302
+    "id": 293
   },
   {
     "company": "Actian",
@@ -5979,7 +5978,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 301
+    "id": 292
   },
   {
     "company": "GE Vernova",
@@ -6001,8 +6000,7 @@
         "Strong organizational and time management skills"
       ],
       "season": "unsure"
-    },
-    "id": 300
+    }
   },
   {
     "company": "GE Vernova",
@@ -6024,8 +6022,7 @@
         "Strong organizational and time management skills"
       ],
       "season": "unsure"
-    },
-    "id": 299
+    }
   },
   {
     "company": "Delta Dental",
@@ -6034,7 +6031,7 @@
     "location": "East Lansing, MI",
     "season": "2026 Summer",
     "jd": null,
-    "id": 298
+    "id": 291
   },
   {
     "company": "Fortive",
@@ -6098,7 +6095,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 297
+    "id": 290
   },
   {
     "company": "Verkada",
@@ -6125,7 +6122,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 296
+    "id": 289
   },
   {
     "company": "Verkada",
@@ -6148,7 +6145,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 295
+    "id": 288
   },
   {
     "company": "Actian",
@@ -6163,7 +6160,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 294
+    "id": 287
   },
   {
     "company": "Actian",
@@ -6178,7 +6175,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 293
+    "id": 286
   },
   {
     "company": "Verkada",
@@ -6203,7 +6200,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 292
+    "id": 285
   },
   {
     "company": "Bot Auto",
@@ -6252,7 +6249,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 291
+    "id": 284
   },
   {
     "company": "Aledade",
@@ -6271,7 +6268,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 290
+    "id": 283
   },
   {
     "company": "Intapp",
@@ -6322,7 +6319,7 @@
       ],
       "season": "unsure"
     },
-    "id": 289
+    "id": 282
   },
   {
     "company": "Fidelity Investments",
@@ -6361,7 +6358,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 288
+    "id": 281
   },
   {
     "company": "RA Capital Management",
@@ -6468,7 +6465,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 287
+    "id": 280
   },
   {
     "company": "CACI",
@@ -6488,7 +6485,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 286
+    "id": 279
   },
   {
     "company": "Netwrix",
@@ -6514,7 +6511,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 285
+    "id": 278
   },
   {
     "company": "Air Liquide",
@@ -6556,7 +6553,7 @@
       ],
       "season": "unsure"
     },
-    "id": 284
+    "id": 277
   },
   {
     "company": "Cloudflare",
@@ -6673,7 +6670,7 @@
       ],
       "season": "unsure"
     },
-    "id": 283
+    "id": 276
   },
   {
     "company": "Alcami",
@@ -6706,7 +6703,7 @@
       ],
       "season": "unsure"
     },
-    "id": 282
+    "id": 275
   },
   {
     "company": "Aledade",
@@ -6715,7 +6712,7 @@
     "location": "Remote in USA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 281
+    "id": 274
   },
   {
     "company": "Cummins",
@@ -6745,7 +6742,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 280
+    "id": 273
   },
   {
     "company": "Ribbon",
@@ -6813,7 +6810,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 279
+    "id": 272
   },
   {
     "company": "CACI",
@@ -6878,7 +6875,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 278
+    "id": 271
   },
   {
     "company": "Parachute Health",
@@ -7011,7 +7008,7 @@
       ],
       "season": "unsure"
     },
-    "id": 277
+    "id": 270
   },
   {
     "company": "Preferred Risk Insurance Services",
@@ -7051,7 +7048,7 @@
       ],
       "season": "unsure"
     },
-    "id": 276
+    "id": 269
   },
   {
     "company": "AllTrails",
@@ -7060,7 +7057,7 @@
     "location": "Remote in US",
     "season": "2026 Summer",
     "jd": null,
-    "id": 275
+    "id": 268
   },
   {
     "company": "AllTrails",
@@ -7084,8 +7081,7 @@
         "Familiar with software engineering fundamentals."
       ],
       "season": "2026 Summer"
-    },
-    "id": 274
+    }
   },
   {
     "company": "Cartesian",
@@ -7113,7 +7109,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 273
+    "id": 267
   },
   {
     "company": "Motorola",
@@ -7248,7 +7244,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 272
+    "id": 266
   },
   {
     "company": "Genuine Parts Company",
@@ -7312,7 +7308,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 271
+    "id": 265
   },
   {
     "company": "TikTok",
@@ -7340,7 +7336,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 270
+    "id": 264
   },
   {
     "company": "Gannett Fleming",
@@ -7382,7 +7378,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 269
+    "id": 263
   },
   {
     "company": "Actian",
@@ -7397,7 +7393,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 268
+    "id": 262
   },
   {
     "company": "Actian",
@@ -7412,7 +7408,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 267
+    "id": 261
   },
   {
     "company": "Actian",
@@ -7427,7 +7423,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 266
+    "id": 260
   },
   {
     "company": "Fiserv",
@@ -7459,7 +7455,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 265
+    "id": 259
   },
   {
     "company": "Amentum",
@@ -7530,7 +7526,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 264
+    "id": 258
   },
   {
     "company": "Tandem Diabetes Care",
@@ -7560,7 +7556,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 263
+    "id": 257
   },
   {
     "company": "KLA",
@@ -7607,7 +7603,7 @@
       ],
       "season": "unsure"
     },
-    "id": 262
+    "id": 256
   },
   {
     "company": "EisnerAmper",
@@ -7845,7 +7841,7 @@
       ],
       "season": "unsure"
     },
-    "id": 261
+    "id": 255
   },
   {
     "company": "Revvity",
@@ -7893,7 +7889,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 260
+    "id": 254
   },
   {
     "company": "Snyk",
@@ -7920,7 +7916,7 @@
       ],
       "season": "unsure"
     },
-    "id": 259
+    "id": 253
   },
   {
     "company": "BillionToOne",
@@ -7948,7 +7944,7 @@
       ],
       "season": "unsure"
     },
-    "id": 258
+    "id": 252
   },
   {
     "company": "Sarasota County",
@@ -7968,7 +7964,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 257
+    "id": 251
   },
   {
     "company": "AAA Club Alliance",
@@ -7995,7 +7991,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 256
+    "id": 250
   },
   {
     "company": "S&P Global",
@@ -8029,7 +8025,7 @@
     "location": "Elk Grove Village, IL",
     "season": "2026 Summer",
     "jd": null,
-    "id": 255
+    "id": 249
   },
   {
     "company": "Intel",
@@ -8073,7 +8069,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 254
+    "id": 248
   },
   {
     "company": "Ryan",
@@ -8138,7 +8134,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 253
+    "id": 247
   },
   {
     "company": "SpecterOps",
@@ -8226,7 +8222,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 252
+    "id": 246
   },
   {
     "company": "RR Donnelley",
@@ -8249,7 +8245,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 251
+    "id": 245
   },
   {
     "company": "Brown & Brown Insurance",
@@ -8403,7 +8399,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 250
+    "id": 244
   },
   {
     "company": "Scientific Research Corporation",
@@ -8431,7 +8427,7 @@
       ],
       "season": "unsure"
     },
-    "id": 249
+    "id": 243
   },
   {
     "company": "The Walt Disney Company",
@@ -8469,7 +8465,7 @@
     "location": "Duluth, GA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 248
+    "id": 242
   },
   {
     "company": "Best Egg",
@@ -8484,7 +8480,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 247
+    "id": 241
   },
   {
     "company": "Best Egg",
@@ -8499,7 +8495,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 246
+    "id": 240
   },
   {
     "company": "Diligent Corporation",
@@ -8526,7 +8522,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 245
+    "id": 239
   },
   {
     "company": "Altom Transport",
@@ -8541,7 +8537,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 244
+    "id": 238
   },
   {
     "company": "Altom Transport",
@@ -8556,7 +8552,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 243
+    "id": 237
   },
   {
     "company": "Altom Transport",
@@ -8571,7 +8567,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 242
+    "id": 236
   },
   {
     "company": "Intel",
@@ -8676,7 +8672,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 241
+    "id": 235
   },
   {
     "company": "Octopus Energy",
@@ -8685,7 +8681,7 @@
     "location": "London, UK",
     "season": "2026 Summer",
     "jd": null,
-    "id": 240
+    "id": 234
   },
   {
     "company": "Reply",
@@ -8694,7 +8690,7 @@
     "location": "Detroit, MI",
     "season": "2026 Summer",
     "jd": null,
-    "id": 239
+    "id": 233
   },
   {
     "company": "Torch Technologies",
@@ -8747,7 +8743,7 @@
       ],
       "season": "unsure"
     },
-    "id": 238
+    "id": 232
   },
   {
     "company": "Coherent",
@@ -8762,7 +8758,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 237
+    "id": 231
   },
   {
     "company": "Dusty Robotics",
@@ -8852,7 +8848,7 @@
       ],
       "season": "unsure"
     },
-    "id": 236
+    "id": 230
   },
   {
     "company": "Leidos",
@@ -8931,7 +8927,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 235
+    "id": 229
   },
   {
     "company": "SoFi",
@@ -9042,7 +9038,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 234
+    "id": 228
   },
   {
     "company": "Bot Auto",
@@ -9148,7 +9144,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 233
+    "id": 227
   },
   {
     "company": "Primerica",
@@ -9175,7 +9171,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 232
+    "id": 226
   },
   {
     "company": "Fiserv",
@@ -9227,8 +9223,7 @@
       "location": "USA",
       "qualifications": [],
       "season": "unsure"
-    },
-    "id": 231
+    }
   },
   {
     "company": "RR Donnelley",
@@ -9252,7 +9247,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 230
+    "id": 225
   },
   {
     "company": "Samsung",
@@ -9261,7 +9256,7 @@
     "location": "Mountain View, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 229
+    "id": 224
   },
   {
     "company": "Myriad Genetics",
@@ -9306,7 +9301,7 @@
       ],
       "season": "unsure"
     },
-    "id": 228
+    "id": 223
   },
   {
     "company": "Point72",
@@ -9333,7 +9328,7 @@
       ],
       "season": "unsure"
     },
-    "id": 227
+    "id": 222
   },
   {
     "company": "Sargent & Lundy",
@@ -9613,7 +9608,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 226
+    "id": 221
   },
   {
     "company": "Udemy",
@@ -9641,7 +9636,7 @@
       ],
       "season": "unsure"
     },
-    "id": 225
+    "id": 220
   },
   {
     "company": "Atomic Semi",
@@ -9670,7 +9665,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 224
+    "id": 219
   },
   {
     "company": "Atomic Semi",
@@ -9696,7 +9691,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 223
+    "id": 218
   },
   {
     "company": "Salesforce",
@@ -9792,7 +9787,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 222
+    "id": 217
   },
   {
     "company": "Boston Medical Center",
@@ -9844,7 +9839,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 221
+    "id": 216
   },
   {
     "company": "Farsight",
@@ -9864,7 +9859,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 220
+    "id": 215
   },
   {
     "company": "Johnson Controls",
@@ -9989,7 +9984,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 219
+    "id": 214
   },
   {
     "company": "General Dynamics Information Technology",
@@ -10042,7 +10037,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 218
+    "id": 213
   },
   {
     "company": "Elekta",
@@ -10113,7 +10108,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 217
+    "id": 212
   },
   {
     "company": "RTX",
@@ -10310,7 +10305,7 @@
       ],
       "season": "unsure"
     },
-    "id": 216
+    "id": 211
   },
   {
     "company": "Semtech",
@@ -10371,7 +10366,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 215
+    "id": 210
   },
   {
     "company": "Bank of Montreal",
@@ -10488,7 +10483,7 @@
       ],
       "season": "unsure"
     },
-    "id": 214
+    "id": 209
   },
   {
     "company": "Applied Materials",
@@ -10513,7 +10508,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 213
+    "id": 208
   },
   {
     "company": "Dordt University",
@@ -10541,7 +10536,7 @@
       ],
       "season": "unsure"
     },
-    "id": 212
+    "id": 207
   },
   {
     "company": "TikTok",
@@ -10567,7 +10562,7 @@
       ],
       "season": "unsure"
     },
-    "id": 211
+    "id": 206
   },
   {
     "company": "Peak Energy",
@@ -10776,7 +10771,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 210
+    "id": 205
   },
   {
     "company": "Mediaocean",
@@ -10799,7 +10794,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 209
+    "id": 204
   },
   {
     "company": "DV Trading",
@@ -10830,7 +10825,7 @@
       ],
       "season": "unsure"
     },
-    "id": 208
+    "id": 203
   },
   {
     "company": "Primetals Technologies",
@@ -10861,7 +10856,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 207
+    "id": 202
   },
   {
     "company": "Mediaocean",
@@ -10887,7 +10882,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 206
+    "id": 201
   },
   {
     "company": "Saronic",
@@ -10902,7 +10897,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 205
+    "id": 200
   },
   {
     "company": "PsiQuantum",
@@ -10951,7 +10946,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 204
+    "id": 199
   },
   {
     "company": "Assurant",
@@ -10988,7 +10983,7 @@
       "qualifications": [],
       "season": "2026 Fall"
     },
-    "id": 203
+    "id": 198
   },
   {
     "company": "Liberty University",
@@ -11014,7 +11009,7 @@
       ],
       "season": "New Grad"
     },
-    "id": 202
+    "id": 197
   },
   {
     "company": "Altom Transport",
@@ -11029,7 +11024,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 201
+    "id": 196
   },
   {
     "company": "Altom Transport",
@@ -11044,7 +11039,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 200
+    "id": 195
   },
   {
     "company": "Altom Transport",
@@ -11059,7 +11054,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 199
+    "id": 194
   },
   {
     "company": "Howmet Aerospace",
@@ -11082,7 +11077,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 198
+    "id": 193
   },
   {
     "company": "BenchSci",
@@ -11091,7 +11086,7 @@
     "location": "Toronto, ON, Canada",
     "season": "2026 Summer",
     "jd": null,
-    "id": 197
+    "id": 192
   },
   {
     "company": "Babel Street",
@@ -11129,7 +11124,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 196
+    "id": 191
   },
   {
     "company": "SEI",
@@ -11189,7 +11184,7 @@
       ],
       "season": "unsure"
     },
-    "id": 195
+    "id": 190
   },
   {
     "company": "Freese and Nichols",
@@ -11251,7 +11246,7 @@
     "location": "NYC",
     "season": "2026 Summer",
     "jd": null,
-    "id": 194
+    "id": 189
   },
   {
     "company": "Electronic Arts",
@@ -11277,7 +11272,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 193
+    "id": 188
   },
   {
     "company": "Carbon Robotics",
@@ -11327,7 +11322,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 192
+    "id": 187
   },
   {
     "company": "The Walt Disney Company",
@@ -11374,7 +11369,7 @@
       ],
       "season": "unsure"
     },
-    "id": 191
+    "id": 186
   },
   {
     "company": "GCM Grosvenor",
@@ -11416,7 +11411,7 @@
       ],
       "season": "unsure"
     },
-    "id": 190
+    "id": 185
   },
   {
     "company": "Breeze Airways",
@@ -11467,7 +11462,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 189
+    "id": 184
   },
   {
     "company": "Teledyne",
@@ -11492,7 +11487,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 188
+    "id": 183
   },
   {
     "company": "Fiserv",
@@ -11562,7 +11557,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 187
+    "id": 182
   },
   {
     "company": "Boston Dynamics",
@@ -11604,7 +11599,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 186
+    "id": 181
   },
   {
     "company": "Intel",
@@ -11658,7 +11653,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 185
+    "id": 180
   },
   {
     "company": "AtkinsRéalis",
@@ -11723,7 +11718,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 184
+    "id": 179
   },
   {
     "company": "Benjamin Moore",
@@ -11745,7 +11740,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 183
+    "id": 178
   },
   {
     "company": "Legal & General",
@@ -11767,7 +11762,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 182
+    "id": 177
   },
   {
     "company": "Presence",
@@ -11795,7 +11790,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 181
+    "id": 176
   },
   {
     "company": "American Tower",
@@ -11877,7 +11872,7 @@
       ],
       "season": "unsure"
     },
-    "id": 180
+    "id": 175
   },
   {
     "company": "IBM",
@@ -11914,7 +11909,7 @@
       ],
       "season": "unsure"
     },
-    "id": 179
+    "id": 174
   },
   {
     "company": "Applied Materials",
@@ -11960,7 +11955,7 @@
       ],
       "season": "unsure"
     },
-    "id": 178
+    "id": 173
   },
   {
     "company": "Shake Shack",
@@ -11983,7 +11978,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 177
+    "id": 172
   },
   {
     "company": "Locus Robotics",
@@ -12025,7 +12020,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 176
+    "id": 171
   },
   {
     "company": "Zayo",
@@ -12047,7 +12042,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 175
+    "id": 170
   },
   {
     "company": "T-Mobile",
@@ -12130,7 +12125,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 174
+    "id": 169
   },
   {
     "company": "Hearst",
@@ -12145,7 +12140,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 173
+    "id": 168
   },
   {
     "company": "DoubleVerify",
@@ -12167,7 +12162,7 @@
       ],
       "season": "unsure"
     },
-    "id": 172
+    "id": 167
   },
   {
     "company": "Pinterest",
@@ -12211,7 +12206,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 171
+    "id": 166
   },
   {
     "company": "Paramount Global",
@@ -12242,7 +12237,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 170
+    "id": 165
   },
   {
     "company": "Paramount Global",
@@ -12265,7 +12260,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 169
+    "id": 164
   },
   {
     "company": "Fiserv",
@@ -12374,7 +12369,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 168
+    "id": 163
   },
   {
     "company": "RR Donnelley",
@@ -12398,7 +12393,7 @@
       ],
       "season": "unsure"
     },
-    "id": 167
+    "id": 162
   },
   {
     "company": "Torch Technologies",
@@ -12453,7 +12448,7 @@
       ],
       "season": "unsure"
     },
-    "id": 166
+    "id": 161
   },
   {
     "company": "Cadence Design Systems",
@@ -12480,7 +12475,7 @@
       ],
       "season": "unsure"
     },
-    "id": 165
+    "id": 160
   },
   {
     "company": "Cadence Design Systems",
@@ -12507,7 +12502,7 @@
       ],
       "season": "unsure"
     },
-    "id": 164
+    "id": 159
   },
   {
     "company": "Dmg Media",
@@ -12582,7 +12577,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 163
+    "id": 158
   },
   {
     "company": "BS&A Software",
@@ -12608,7 +12603,7 @@
       ],
       "season": "unsure"
     },
-    "id": 162
+    "id": 157
   },
   {
     "company": "CalAmp",
@@ -12623,7 +12618,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 161
+    "id": 156
   },
   {
     "company": "Coverdash",
@@ -12648,7 +12643,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 160
+    "id": 155
   },
   {
     "company": "Impiricus",
@@ -12672,7 +12667,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 159
+    "id": 154
   },
   {
     "company": "Treefera",
@@ -12701,7 +12696,7 @@
     "location": "Santa Clara, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 158
+    "id": 153
   },
   {
     "company": "ByteDance",
@@ -12710,7 +12705,7 @@
     "location": "San Jose, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 157
+    "id": 152
   },
   {
     "company": "Guild Education",
@@ -12840,7 +12835,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 156
+    "id": 151
   },
   {
     "company": "Hitachi",
@@ -12885,7 +12880,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 155
+    "id": 150
   },
   {
     "company": "Blue Cross Blue Shield",
@@ -12967,7 +12962,7 @@
       ],
       "season": "unsure"
     },
-    "id": 154
+    "id": 149
   },
   {
     "company": "The Walt Disney Company",
@@ -13019,7 +13014,7 @@
       ],
       "season": "unsure"
     },
-    "id": 153
+    "id": 148
   },
   {
     "company": "The Walt Disney Company",
@@ -13055,7 +13050,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 152
+    "id": 147
   },
   {
     "company": "The Walt Disney Company",
@@ -13107,7 +13102,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 151
+    "id": 146
   },
   {
     "company": "LMI",
@@ -13157,7 +13152,7 @@
       ],
       "season": "unsure"
     },
-    "id": 150
+    "id": 145
   },
   {
     "company": "Impiricus",
@@ -13180,7 +13175,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 149
+    "id": 144
   },
   {
     "company": "Revvity",
@@ -13274,7 +13269,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 148
+    "id": 143
   },
   {
     "company": "TNS",
@@ -13395,7 +13390,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 147
+    "id": 142
   },
   {
     "company": "KLA",
@@ -13474,7 +13469,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 146
+    "id": 141
   },
   {
     "company": "Cooper Companies",
@@ -13580,7 +13575,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 145
+    "id": 140
   },
   {
     "company": "Waymo",
@@ -13650,8 +13645,7 @@
         "Excellent communication and teamwork abilities."
       ],
       "season": "2026 Summer"
-    },
-    "id": 144
+    }
   },
   {
     "company": "Red Hat",
@@ -13920,7 +13914,7 @@
       ],
       "season": "unsure"
     },
-    "id": 143
+    "id": 139
   },
   {
     "company": "Leidos",
@@ -13984,7 +13978,7 @@
     "location": "Andover, MA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 142
+    "id": 138
   },
   {
     "company": "Fortinet",
@@ -13999,7 +13993,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 141
+    "id": 137
   },
   {
     "company": "Calix",
@@ -14031,7 +14025,7 @@
     "location": "San Jose, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 140
+    "id": 136
   },
   {
     "company": "ByteDance",
@@ -14056,7 +14050,7 @@
       ],
       "season": "unsure"
     },
-    "id": 139
+    "id": 135
   },
   {
     "company": "Bio-Rad Laboratories",
@@ -14071,7 +14065,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 138
+    "id": 134
   },
   {
     "company": "Bio-Rad Laboratories",
@@ -14085,8 +14079,7 @@
       "location": "USA",
       "qualifications": [],
       "season": "unsure"
-    },
-    "id": 137
+    }
   },
   {
     "company": "Bio-Rad Laboratories",
@@ -14100,8 +14093,7 @@
       "location": "USA",
       "qualifications": [],
       "season": "unsure"
-    },
-    "id": 136
+    }
   },
   {
     "company": "Bio-Rad Laboratories",
@@ -14115,8 +14107,7 @@
       "location": "USA",
       "qualifications": [],
       "season": "unsure"
-    },
-    "id": 135
+    }
   },
   {
     "company": "GameChanger",
@@ -14284,7 +14275,7 @@
       ],
       "season": "unsure"
     },
-    "id": 134
+    "id": 133
   },
   {
     "company": "Athena Health",
@@ -14461,7 +14452,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 133
+    "id": 132
   },
   {
     "company": "Generac",
@@ -14598,7 +14589,7 @@
       ],
       "season": "unsure"
     },
-    "id": 132
+    "id": 131
   },
   {
     "company": "Sierra Space",
@@ -14754,7 +14745,7 @@
       ],
       "season": "unsure"
     },
-    "id": 131
+    "id": 130
   },
   {
     "company": "Keysight Technologies",
@@ -14763,7 +14754,7 @@
     "location": "Neukirchen-Vluyn, GermanyStuttgart, Germany",
     "season": "2026 Summer",
     "jd": null,
-    "id": 130
+    "id": 129
   },
   {
     "company": "Emerson Electric",
@@ -14772,7 +14763,7 @@
     "location": "Iowa",
     "season": "2026 Summer",
     "jd": null,
-    "id": 129
+    "id": 128
   },
   {
     "company": "EverCommerce",
@@ -14819,7 +14810,7 @@
     "location": "Eagan, MN",
     "season": "2026 Summer",
     "jd": null,
-    "id": 128
+    "id": 127
   },
   {
     "company": "Arlo",
@@ -14845,7 +14836,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 127
+    "id": 126
   },
   {
     "company": "Arlo",
@@ -14871,7 +14862,7 @@
       ],
       "season": "unsure"
     },
-    "id": 126
+    "id": 125
   },
   {
     "company": "Palantir",
@@ -14901,7 +14892,7 @@
       "season": "unsure"
     },
     "season": "unsure",
-    "id": 125
+    "id": 124
   },
   {
     "company": "Affirm",
@@ -14931,7 +14922,7 @@
       ],
       "season": "unsure"
     },
-    "id": 124
+    "id": 123
   },
   {
     "company": "Creatify Lab",
@@ -14953,7 +14944,7 @@
       ],
       "season": "unsure"
     },
-    "id": 123
+    "id": 122
   },
   {
     "company": "Hiscox",
@@ -15026,7 +15017,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 122
+    "id": 121
   },
   {
     "company": "Cadence Design Systems",
@@ -15049,7 +15040,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 121
+    "id": 120
   },
   {
     "company": "Cadence Design Systems",
@@ -15058,7 +15049,7 @@
     "location": "San Jose, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 120
+    "id": 119
   },
   {
     "company": "Givelify",
@@ -15110,7 +15101,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 119
+    "id": 118
   },
   {
     "company": "Generac",
@@ -15284,7 +15275,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 118
+    "id": 117
   },
   {
     "company": "Fortinet",
@@ -15299,7 +15290,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 117
+    "id": 116
   },
   {
     "company": "Vantage",
@@ -15344,7 +15335,7 @@
       ],
       "season": "unsure"
     },
-    "id": 116
+    "id": 115
   },
   {
     "company": "LG Electronics",
@@ -15376,7 +15367,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 115
+    "id": 114
   },
   {
     "company": "Ivo",
@@ -15391,7 +15382,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 114
+    "id": 113
   },
   {
     "company": "Entegris",
@@ -15664,7 +15655,7 @@
       ],
       "season": "unsure"
     },
-    "id": 113
+    "id": 112
   },
   {
     "company": "The Federal Reserve System",
@@ -15687,7 +15678,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 112
+    "id": 111
   },
   {
     "company": "Cockroach Labs",
@@ -15759,7 +15750,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 111
+    "id": 110
   },
   {
     "company": "Synchrony Financial",
@@ -15792,7 +15783,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 110
+    "id": 109
   },
   {
     "company": "Synchrony Financial",
@@ -15908,7 +15899,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 109
+    "id": 108
   },
   {
     "company": "Synchrony Financial",
@@ -15959,7 +15950,7 @@
       ],
       "season": "unsure"
     },
-    "id": 108
+    "id": 107
   },
   {
     "company": "W.R. Berkley",
@@ -15986,7 +15977,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 107
+    "id": 106
   },
   {
     "company": "Snyk",
@@ -16007,7 +15998,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 106
+    "id": 105
   },
   {
     "company": "Tencent",
@@ -16030,7 +16021,7 @@
       ],
       "season": "unsure"
     },
-    "id": 105
+    "id": 104
   },
   {
     "company": "Micron Technology",
@@ -16113,7 +16104,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 104
+    "id": 103
   },
   {
     "company": "United Parcel Service (UPS)",
@@ -16207,7 +16198,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 103
+    "id": 102
   },
   {
     "company": "Exact Sciences",
@@ -16266,7 +16257,7 @@
     "location": "4 locationsTampa, FLColorado Springs, COOmaha, NEReston, VA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 102
+    "id": 101
   },
   {
     "company": "Trane Technologies",
@@ -16329,7 +16320,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 101
+    "id": 100
   },
   {
     "company": "Starz",
@@ -16351,7 +16342,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 100
+    "id": 99
   },
   {
     "company": "Starz",
@@ -16376,7 +16367,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 99
+    "id": 98
   },
   {
     "company": "Hewlett Packard (HP)",
@@ -16422,7 +16413,7 @@
       ],
       "season": "unsure"
     },
-    "id": 98
+    "id": 97
   },
   {
     "company": "Rochester Regional Health",
@@ -16539,7 +16530,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 97
+    "id": 96
   },
   {
     "company": "iPipeline",
@@ -16744,7 +16735,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 96
+    "id": 95
   },
   {
     "company": "Hewlett Packard (HP)",
@@ -16768,7 +16759,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 95
+    "id": 94
   },
   {
     "company": "Circle",
@@ -16790,7 +16781,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 94
+    "id": 93
   },
   {
     "company": "EBSCO",
@@ -16904,7 +16895,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 93
+    "id": 92
   },
   {
     "company": "Nokia",
@@ -17077,7 +17068,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 92
+    "id": 91
   },
   {
     "company": "Nextech Systems",
@@ -17092,7 +17083,7 @@
       "qualifications": [],
       "season": "2026 Summer"
     },
-    "id": 91
+    "id": 90
   },
   {
     "company": "Nextech Systems",
@@ -17110,7 +17101,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 90
+    "id": 89
   },
   {
     "company": "Neuralink",
@@ -17132,7 +17123,7 @@
       ],
       "season": "unsure"
     },
-    "id": 89
+    "id": 88
   },
   {
     "company": "Premera Blue Cross",
@@ -17213,7 +17204,7 @@
       "qualifications": [],
       "season": "unsure"
     },
-    "id": 88
+    "id": 87
   },
   {
     "company": "PowerSchool Group",
@@ -17234,7 +17225,7 @@
       ],
       "season": "unsure"
     },
-    "id": 87
+    "id": 86
   },
   {
     "company": "Fanatics",
@@ -17281,7 +17272,7 @@
     "location": "Fremont, CA",
     "season": "2026 Summer",
     "jd": null,
-    "id": 86
+    "id": 85
   },
   {
     "company": "Chubb",
@@ -17313,7 +17304,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 85
+    "id": 84
   },
   {
     "company": "Leidos",
@@ -17360,7 +17351,7 @@
       ],
       "season": "unsure"
     },
-    "id": 84
+    "id": 83
   },
   {
     "company": "StockX",
@@ -17468,7 +17459,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 83
+    "id": 82
   },
   {
     "company": "Moderna",
@@ -17571,8 +17562,7 @@
         "Experienced working with any Intellij IDE."
       ],
       "season": "unsure"
-    },
-    "id": 82
+    }
   },
   {
     "company": "WSP",
@@ -19256,8 +19246,7 @@
         "Strong ownership mindset and willingness to take initiative."
       ],
       "season": "2026 Summer"
-    },
-    "id": 56
+    }
   },
   {
     "company": "Techtronic Industries",
@@ -19292,7 +19281,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 55
+    "id": 56
   },
   {
     "company": "Palantir",
@@ -19310,7 +19299,7 @@
       ],
       "season": "2026 Fall"
     },
-    "id": 54
+    "id": 55
   },
   {
     "company": "Copart",
@@ -19334,7 +19323,7 @@
       ],
       "season": "unsure"
     },
-    "id": 53
+    "id": 54
   },
   {
     "company": "Copart",
@@ -19372,7 +19361,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 52
+    "id": 53
   },
   {
     "company": "SpotHero",
@@ -19493,7 +19482,7 @@
       ],
       "season": "2026 Summer"
     },
-    "id": 51
+    "id": 52
   },
   {
     "company": "Tekton",
@@ -19532,7 +19521,8 @@
         "Motivated, curious, enthusiastic, and passionate about technology"
       ],
       "season": "2026 Summer"
-    }
+    },
+    "id": 51
   },
   {
     "company": "X-energy",

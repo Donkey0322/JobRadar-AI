@@ -14,7 +14,7 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
   const keys = new Set(groupUrlsByKey(Array.from(urls)).keys());
   const sent_jobs = await loadJobs();
 
-  let currentId = sent_jobs.length;
+  let currentId = sent_jobs.find((job) => job.id)?.id ?? 0;
 
   const newJobs: Job[] = jobs;
 

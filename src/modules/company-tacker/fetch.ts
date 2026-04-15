@@ -15,7 +15,6 @@ import {
 } from "./ats";
 
 import { loadCompanies } from "@/utils/data";
-import { renderProgress } from "@/utils/dev";
 
 const limit = pLimit(20);
 
@@ -56,19 +55,10 @@ export default async function crawler() {
 
   const startTime = Date.now();
 
-  let completed = 0;
-  const total = companies.length;
-
-  renderProgress(0, total);
-
   const results = await Promise.all(
     companies.map((company) =>
       limit(async () => {
         const jobs = await fetchJobs(company, companyUrls[`${company.ats}:${company.identifier}`]);
-
-        completed++;
-        renderProgress(completed, total);
-
         return jobs;
       })
     )
