@@ -1,5 +1,113 @@
 [
   {
+    "company": "Uber",
+    "role": "PhD Software Engineer Intern - Data Storage 🎓",
+    "link": "https://university-uber.icims.com/jobs/158324/job?mobile=true&needsRedirect=false",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 1021,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Ph.D. program studying distributed systems, machine learning, or a related engineering field.",
+        "Have at least one semester/quarter of education left after the internship.",
+        "Knowledgeable in underlying technical foundations of distributed systems, ML workflows.",
+        "Experienced in one or more object-oriented languages (C++, Java, Python, Go).",
+        "Able to communicate effectively with technical and business partners.",
+        "Experienced in simplifying business problems into technical problems.",
+        "Possess research mentality with a bias towards action.",
+        "Experienced in presenting at academic conferences and publishing.",
+        "Experienced in handling multimodality data in the industry."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Uber",
+    "role": "PhD Software Engineer Intern - Data Storage 🎓",
+    "link": "https://www.uber.com/global/en/careers/list/158324/",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 1020,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Ph.D. program studying distributed systems, machine learning, or a related engineering field.",
+        "Have at least one semester/quarter of education left following the internship.",
+        "Possess knowledge of underlying technical foundations of distributed systems, machine learning workflows.",
+        "Experience in one or more object-oriented languages, including C++, Java, Python, or Go.",
+        "Ability to communicate effectively with both technical and business partners.",
+        "Experience simplifying/converting business problems into technical problems.",
+        "Demonstrate a research mentality with a bias towards action to structure a project.",
+        "Experience presenting at industry recognized academic conferences and a good publishing record.",
+        "Experience with handling multimodality data in the industry."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "LivaNova",
+    "role": "Systems Engineering & AI Workflows Intern",
+    "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Systems-Engineering---AI-Workflows-Intern_JR-14385",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 1019,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Systems Engineering, Computer Engineering, Computer Science, Electrical Engineering, or related field.",
+        "Have interest in AI, automation, or engineering productivity tools.",
+        "Expose to Python or similar scripting languages through academic or personal projects.",
+        "Possess strong written communication and documentation skills.",
+        "Maintain a GPA of 3.6 or higher."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SBA Communications Corporation",
+    "role": "Asset Development Intern",
+    "link": "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101703",
+    "location": "Florida",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "SBA Communications Corporation",
+    "role": "Asset Development Intern",
+    "link": "https://sbasite.wd5.myworkdayjobs.com/SBA_Communications_Careers/job/FL---Virtual/Intern---Asset-Development_JR101706",
+    "location": "Florida",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Mariana Minerals",
+    "role": "Full-Stack Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/marianaminerals/a8d2878d-bd25-4eff-9957-3925901bc40d/application",
+    "location": "SFAnn Arbor, MI",
+    "season": "2026 Summer",
+    "id": 1018,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or related field.",
+        "Possess strong programming fundamentals (Python, JavaScript/TypeScript, or similar).",
+        "Familiar with web development (frontend frameworks and backend basics).",
+        "Gain hands-on experience through projects, coursework, or internships.",
+        "Ability to break down problems and build end-to-end solutions.",
+        "Comfortable working in ambiguous environments and learning quickly.",
+        "Exhibit clear communication skills and willingness to collaborate across teams."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "gehc",
     "role": "Internship Software Engineering (f/m/d)",
     "link": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-Software-Engineering--f-m-d-_R4037928-1",
