@@ -1,5 +1,106 @@
 [
   {
+    "company": "Astera Labs Early Career",
+    "role": "Business Development Intern (2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4685368005",
+    "location": "San Jose, CA",
+    "id": 522,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a degree in engineering, computer science, business, or related areas.",
+        "Strong interest in AI, technology, or innovation.",
+        "Curious mindset and willingness to learn new concepts.",
+        "Able to organize information and present ideas clearly.",
+        "Familiar with presentation tools like PowerPoint.",
+        "Interested in AI infrastructure, cloud computing, or hardware systems.",
+        "Exposed to basic technical or business concepts.",
+        "Experienced with research, presentations, or team projects."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "globalhr",
+    "role": "2026 Raytheon Part Time Co-op - SW Platform Engineer (Remote)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C27--1727-Cityline-Dr--CITYLINE-C27/XMLNAME-2026-Raytheon-Part-Time-Co-op---SW-Platform-Engineer--Remote-_01838467",
+    "location": "4 Locations",
+    "id": 521,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Senior or Post-Graduate student",
+        "Expect to graduate in May 2027 or August 2027",
+        "Major in Computer Science or related STEM field",
+        "Experienced in software development using scripting languages like Python",
+        "Ability to obtain and maintain a U.S. government TS/SCI security clearance",
+        "Able to apply basic engineering principles, theories, and concepts",
+        "Able to develop solutions to routine technical problems",
+        "Strong team player with good interpersonal skills",
+        "Excellent written and verbal communication skills",
+        "Knowledgeable in Linux, Windows, or related System Operating systems",
+        "Experienced with development tools like Ansible, Docker, Kubernetes, GIT, Jenkins, Jira",
+        "Experienced with Network design and architecture schemes",
+        "Experienced with Cloud Technologies such as AWS, Google",
+        "Experienced with DevSecOps Toolsets as a user or implementor",
+        "Familiar with Software Development Lifecycle, including Agile philosophy",
+        "Experienced with Cybersecurity Concepts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "freseniusmedicalcare",
+    "role": "Embedded Software Engineering Co-op",
+    "link": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Embedded-Software-Engineering-Co-op_R0240653-1",
+    "location": "Lawrence, MA, USA"
+  },
+  {
+    "company": "draper",
+    "role": "Embedded Software Intern",
+    "link": "https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Embedded-Software-Intern_JR002159-1",
+    "location": "Cambridge, MA",
+    "id": 520,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop and maintain embedded software systems",
+        "Collaborate with cross-functional teams",
+        "Debug and troubleshoot firmware issues",
+        "Write and maintain documentation for firmware design",
+        "Support integration and validation of firmware",
+        "Contribute to continuous software integration and development",
+        "Design, develop, and enhance engineering solutions",
+        "Implement, test, perform analysis, and provide documentation support",
+        "Generate and present test reports",
+        "Complete assignments to develop practical knowledge",
+        "Enrolled in an accredited full-time undergraduate or graduate degree program",
+        "Excellent written and oral communication skills",
+        "Excellent work ethic, able to work independently or in a team",
+        "Adapt to ever-changing environments, risks, and vulnerabilities",
+        "Strong computer skills including MS Word, PowerPoint and Excel",
+        "Possess working knowledge of C/C++ programming for embedded systems",
+        "Familiar with Python for scripting and automation tasks",
+        "Understand microcontrollers, digital interfaces, and embedded development environments",
+        "Experienced with embedded debugging tools",
+        "Exposed to real-time operating systems (RTOS)",
+        "Experienced with C#, Java, Rust or Android development",
+        "Familiar with version control systems such as Git",
+        "Strong problem-solving skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "roche",
     "role": "Internship in Innovation & Sustainability - Neurology Synapse Project",
     "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Panama-City/Internship-in-Innovation---Sustainability---Neurology-Synapse-Project_202604-109104",
