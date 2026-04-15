@@ -1,5 +1,69 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Systems Intern - Cybersecurity and Linux Administration",
+    "link": "https://careers-gdms.icims.com/jobs/72046/job?mobile=true&needsRedirect=false",
+    "location": "San Antonio, TX",
+    "season": "2026 Summer",
+    "id": 515,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, or Mechanical Engineering.",
+        "Preference for a standing of a sophomore or higher.",
+        "Enrolled in a Cybersecurity Engineer or related software/systems degree program.",
+        "Understand information systems security principles and technologies.",
+        "Possess strengths in problem solving, troubleshooting, and attention to detail.",
+        "Possess knowledge of networking protocols, data encryption, and firewalls.",
+        "Willing to undergo nomination and investigation for Top Secret clearance.",
+        "Possess passion for national security and defense missions.",
+        "Ability to work well in a collaborative team environment.",
+        "Strong desire to learn and grow in a technical field.",
+        "Identify opportunities to apply AI for continuous improvement and innovation."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nutanix",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.jobvite.com/nutanix/job/oTIbyfw4?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 514,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's in Computer Science or a related engineering field",
+        "Possess a strong understanding of complex distributed systems",
+        "Have experience designing and developing reliable, efficient software",
+        "Be familiar with OS internals and good design practices",
+        "Be proficient in C++, Go, and Python",
+        "Work effectively as part of a dynamic team",
+        "Demonstrate excellent problem-solving and innovation skills",
+        "Possess strong communication and customer support abilities",
+        "Design and develop reliable, efficient data-path software",
+        "Solve complex customer requirements with innovative solutions",
+        "Collaborate with technical staff to create design documents",
+        "Generate code to enhance product features and efficiency",
+        "Define project objectives with a mentor"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tencent",
+    "role": "IT Application Developer – Intern - AI-Driven IT Ops 🎓",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Application-Developer--AI-Driven-IT-Ops--Intern_R107285",
+    "location": "Palo Alto, CA",
+    "season": "2026 Summer"
+  },
+  {
     "company": "ssctech",
     "role": "Software Engineering Co-op",
     "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineering-Co-op_R42258",
