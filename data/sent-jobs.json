@@ -1,5 +1,34 @@
 [
   {
+    "company": "tsys",
+    "role": "Corporate Development Intern",
+    "link": "https://tsys.wd1.myworkdayjobs.com/tsys/job/Atlanta-Georgia-USA/Corporate-Development-Intern_R0070582",
+    "location": "Atlanta, Georgia, USA"
+  },
+  {
+    "company": "globalhr",
+    "role": "2026 Raytheon Summer Intern- Software Engineer (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Raytheon-Summer-Intern--Software-Engineer--Onsite-_01838378",
+    "location": "US-CO-AURORA-S77 ~ 16470 E Hughes Dr ~ BLDG S77",
+    "id": 516,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Sophomore, Junior, Senior, or Post-Graduate in STEM by Summer 2026.",
+        "Develop object-oriented software using C++ and Python.",
+        "Possess knowledge of data structures.",
+        "Obtain and maintain a U.S. government TS/SCI security clearance.",
+        "Have experience with Agile development.",
+        "Demonstrate excellent verbal and written communication skills.",
+        "Show interest in satellite ground system software and related technologies."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Systems Intern - Cybersecurity and Linux Administration",
     "link": "https://careers-gdms.icims.com/jobs/72046/job?mobile=true&needsRedirect=false",
