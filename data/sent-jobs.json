@@ -1,5 +1,124 @@
 [
   {
+    "company": "Flagship Pioneering Co-Op Program",
+    "role": "Technical Development Co-Op",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8395103002",
+    "location": "Cambridge, MA USA",
+    "id": 508,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a B.S. or M.S. candidate in biochemistry, chemistry, chemical engineering, or a related field",
+        "Demonstrate ability to follow procedures, safely operate laboratory instruments, and execute experiments with some supervision",
+        "Be a quick learner, motivated, organized, with attention to detail and excellent problem-solving skills",
+        "Possess strong communication and interpersonal skills",
+        "Be competent with MS Excel and PowerPoint"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Flagship Pioneering Co-Op Program",
+    "role": "Data Science Co-Op",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8480502002",
+    "location": "Cambridge, MA USA",
+    "id": 507,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Fluent in Python",
+        "Experience implementing ML methods with standard tools and packages (e.g., PyTorch, JAX)",
+        "Ready to deep dive into biology/physics/chemistry of platform companies",
+        "Experience with publications in CS, ML, Computational Chemistry/Biology, or similar computational fields",
+        "Experience with generative models, natural language processing, graphical neural networks, reinforcement learning, or similar",
+        "Familiarity with software development, including git and public cloud computing resources"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Flagship Pioneering Co-Op Program",
+    "role": "Bioinformatics Co-Op: Computation Biology & Data Science",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8203697002",
+    "location": "Boston, MA USA",
+    "id": 506,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in a related field.",
+        "Experience analyzing high-throughput sequencing data.",
+        "Proficient in Python or R for data analysis.",
+        "Familiar with bioinformatics tools (e.g., FASTQC, STAR).",
+        "Experience with Linux/Unix and Git.",
+        "Experience with cloud environments (AWS, GCP) or Docker.",
+        "Interested in machine learning and LLMs in biology.",
+        "Strong communication skills for interdisciplinary teams."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Flagship Pioneering Co-Op Program",
+    "role": "Analytical Development Co-Op",
+    "link": "https://job-boards.greenhouse.io/fspco-op012325/jobs/8443127002",
+    "location": "Cambridge, MA USA",
+    "id": 505,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Learn laboratory separation techniques like HPLC/UPLC",
+        "Use chemical, biochemical, and biophysical assays",
+        "Assist with developing lab methods and analytical workflows",
+        "Run tests to measure concentration, purity, and stability",
+        "Prepare samples, buffers, and mobile phases",
+        "Keep detailed and organized experiment records",
+        "Share findings and participate in scientific discussions",
+        "Studying chemistry, biochemistry, or related field",
+        "Strong interest in analytical and biotech drug development",
+        "Highly organized and adaptable to fast-paced environment",
+        "Excited to perform benchwork and learn new techniques",
+        "Team-oriented with demonstrated communication skills",
+        "Ability to work in a matrixed and fast-paced team"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "CMTelematics",
+    "role": "Data Science Intern",
+    "link": "https://job-boards.greenhouse.io/cmt/jobs/7818122",
+    "location": "Cambridge, MA",
+    "id": 504,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Open to Bachelor’s, Master’s, PhD students, and recent grads.",
+        "Possess strong investigative skills and intellectual curiosity.",
+        "Fluent in statistical analysis and data wrangling.",
+        "Experience with geospatial data is a plus.",
+        "Familiar with software for data manipulation, analysis, and visualization.",
+        "Demonstrate strong technical communication skills.",
+        "Identify AI tool output and verify result accuracy."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "AECOM",
     "role": "Geographic Information Systems Intern",
     "link": "https://jobs.smartrecruiters.com/AECOM2/744000120781867",

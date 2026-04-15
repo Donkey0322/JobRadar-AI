@@ -7274,7 +7274,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/cmt/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/cmt/jobs/7657520",
-      "https://job-boards.greenhouse.io/cmt/jobs/7699299"
+      "https://job-boards.greenhouse.io/cmt/jobs/7699299",
+      "https://job-boards.greenhouse.io/cmt/jobs/7818122"
     ]
   },
   {
@@ -7624,7 +7625,11 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/fspco-op012325/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/fspco-op012325/jobs/8203697002",
+      "https://job-boards.greenhouse.io/fspco-op012325/jobs/8395103002",
       "https://job-boards.greenhouse.io/fspco-op012325/jobs/8433215002",
+      "https://job-boards.greenhouse.io/fspco-op012325/jobs/8443127002",
+      "https://job-boards.greenhouse.io/fspco-op012325/jobs/8480502002",
       "https://job-boards.greenhouse.io/fspco-op012325/jobs/8499501002"
     ]
   },
