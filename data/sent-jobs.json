@@ -1,5 +1,197 @@
 [
   {
+    "company": "AECOM",
+    "role": "Geographic Information Systems Intern",
+    "link": "https://jobs.smartrecruiters.com/AECOM2/744000120781867",
+    "location": "Baltimore, MD, United States",
+    "id": 503,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s Degree in GIS, Geography, Environmental Science, Data Science, Water Resource Engineering, or Computer Science.",
+        "Completed 2 years of study in an applicable program.",
+        "Experience with ESRI ArcGISPro and ArcGIS Online.",
+        "Strong understanding of spatial data.",
+        "Strong troubleshooting and problem-solving skills.",
+        "Strong desire to work in a fast-paced team environment.",
+        "Excellent time management skills.",
+        "Develop web maps and Esri field solutions for data collection and review.",
+        "Experience working with underground utility industry or environmental/natural resources.",
+        "Experience reading technical drawings."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Voyager Technologies, Inc.",
+    "role": "2026 Voyager Summer Internship - Science Development",
+    "link": "https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4117026009",
+    "location": "Denver, CO",
+    "id": 502,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Interview potential tenants",
+        "Collaborate cross-functionally",
+        "Participate in team meetings",
+        "Support day-to-day activities",
+        "Meet project deliverables",
+        "Contribute ideas for process improvement",
+        "Currently enrolled in an undergraduate program",
+        "Strong research background",
+        "Work independently and collaboratively",
+        "Strong communication and interpersonal skills",
+        "Ability to travel for program events",
+        "Previous internship or project experience"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bandwidth",
+    "role": "AI Graphic Design Intern - Summer 2026",
+    "link": "https://job-boards.greenhouse.io/bandwidth/jobs/7815899",
+    "location": "Raleigh, NC",
+    "id": 501,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in Graphic Design, Digital Media, or a related field",
+        "Strong skills in Adobe Photoshop and Illustrator",
+        "Experience with Generative AI platforms and prompt engineering",
+        "Solid grasp of typography, color theory, composition, and grid systems",
+        "Adaptable mindset with ability to learn new software and AI features",
+        "Critical eye for quality, spotting and fixing AI artifacts",
+        "Online portfolio showcasing design work and AI integration process",
+        "Basic motion graphics or video editing skills (After Effects/Premiere Pro)",
+        "Familiarity with ethical/copyright considerations of AI art"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Astera Labs Early Career",
+    "role": "AI/ML Intern Silicon Development Automation",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4656081005",
+    "location": "San Jose, CA",
+    "id": 500,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing BS or MS in Computer Science, Electrical Engineering, Computer Engineering, or related field",
+        "Relevant coursework in machine learning and VLSI design",
+        "Strong Python programming skills",
+        "Understand machine learning fundamentals",
+        "Experience in deep learning or generative AI",
+        "Experience in VLSI design (frontend or backend)",
+        "Experience in EDA tools or design automation",
+        "Show ML/AI development experience via projects or coursework",
+        "Demonstrate chip design/verification projects",
+        "Combine AI and hardware design work in projects"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Marketing Campaigns and Account Based Marketing Intern  (3 months - Fall 2026))",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7733377?gh_jid=7733377",
+    "location": "In-Office",
+    "id": 499,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Assist with logistical planning and execution of virtual webinars and in-person trade shows.",
+        "Support the development and deployment of digital ad campaigns.",
+        "Coordinate the readiness of marketing assets.",
+        "Help manage and track leads generated from events and campaigns.",
+        "Contribute to post-event and campaign reporting.",
+        "Participate in team meetings and contribute ideas for improving marketing processes.",
+        "Currently pursuing a Bachelor's degree in Marketing, Communications, Business, or a related field.",
+        "Available for a full-time 12-week internship in the London office during the fall (Sept-Dec).",
+        "Possess strong organizational skills with a keen eye for detail.",
+        "Possess excellent written and verbal communication skills.",
+        "Familiarity with digital marketing concepts and platforms is a plus.",
+        "Maintain a proactive attitude with a desire to learn.",
+        "Ability to collaborate effectively within a team and with cross-functional partners.",
+        "Proficient with standard office productivity tools.",
+        "Previous experience with event coordination or digital campaign support.",
+        "Understand lead tracking and CRM systems."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Business Analyst Intern, Revenue Operations (AI Innovation) (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7761468?gh_jid=7761468",
+    "location": "In-Office",
+    "id": 498,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in a quantitative field.",
+        "Proficient in Microsoft Excel, including advanced functions.",
+        "Strong analytical and problem-solving skills.",
+        "Excellent communication skills, written and verbal.",
+        "Curious and proactive in learning new tools and methodologies.",
+        "Available for a full-time 12-week internship from May to August."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Amazon",
+    "role": "2026  Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting",
+    "link": "https://amazon.jobs/en/jobs/10391774",
+    "location": "US, WA, Seattle",
+    "id": 497,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a PhD program",
+        "Able to relocate for the internship",
+        "Experienced in programming with Java, C++, Python, or related languages",
+        "Commit to a 40-hour/week, 12-week minimum internship",
+        "Experienced with Knowledge Graphs and Extraction",
+        "Experienced with Neural Networks/GNNs",
+        "Experienced with Data Structures and Algorithms",
+        "Experienced with Time Series",
+        "Experienced with Machine Learning",
+        "Experienced with Natural Language Processing",
+        "Experienced with Deep Learning",
+        "Experienced with Large Language Models",
+        "Experienced with Graph Modeling",
+        "Experienced with Programming/Scripting Languages",
+        "Published in top-tier peer-reviewed conferences or journals",
+        "Experienced in building ML models or developing algorithms for business applications",
+        "Experienced with deep learning frameworks like MxNet and TensorFlow"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "livanova",
     "role": "Electrical Engineering Summer Intern",
     "link": "https://livanova.wd5.myworkdayjobs.com/search/job/Houston-Texas-United-States/Electrical-Engineering-Summer-Intern_JR-14215",

@@ -1,0 +1,110 @@
+console.log('Page authentication status:', false);
+console.log('Internal user status:', false);<iframe src= "https://www.googletagmanager.com/ns.html?id=GTM-WJSMBWKS" sandbox="allow-scripts allow-same-origin" height= "0" width= "0" style= "display: none; visibility: hidden;" title= "Google Tag Manager"></iframe>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'DC-11435057');Skip to main content×HomeTeamsLocationsJob categoriesMy careerMy applicationsMy profileAccount securitySettingsSign outResourcesAccommodationsBenefitsInclusive experiencesHow We HireLeadership principlesWorking at AmazonFAQ if (typeof talentbrew_pixel !== 'undefined') talentbrew_pixel.init({category:'careersite', conversion_event:'page-view', 'job_id':'10391774'}); gtag('event', 'conversion', {
+'allow_custom_scripts': true,
+'send_to': 'DC-11435057/amazo0/amazo0+standard'
+});<img src="https://ad.doubleclick.net/ddm/activity/src=11435057;type=amazo0;cat=amazo0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>CXT.CLIENT_SIDE_METRICS.addUETag("jobShowPage");2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science RecruitingJob ID: 10391774 | Amazon.com Services LLCApply nowCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addLoadMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addBodyBeginMarkerForWidget("jobShowPageApplyButton")
+$('#apply-button').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Apply', action: 'Click', label: '10391774',
+directCallIdentifier: 'applicationStart',
+jobDetails: {id: '10391774', title: '2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting', category: 'Machine Learning Science', division: 'studentprograms'}});
+if (true && typeof talentbrew_pixel !== 'undefined') {
+talentbrew_pixel.fire({category:'careersite', conversion_event:'apply-click', 'job_id':'10391774'});
+}
+if (false) {
+var TTTH_DataLayer = {
+"event": "ApplyNowClick",
+"jobID": "10391774",
+"jobName": "2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting"
+}
+}
+});DescriptionUnleash Your Potential as an AI TrailblazerAt Amazon, we're on a mission to revolutionize the way people discover and access information. Our Applied Science team is at the forefront of this endeavor, pushing the boundaries of recommender systems and information retrieval. We're seeking brilliant minds to join us as interns and contribute to the development of cutting-edge AI solutions that will shape the future of personalized experiences.As an Applied Science Intern focused on Recommender Systems and Information Retrieval in Machine Learning, you'll have the opportunity to work alongside renowned scientists and engineers, tackling complex challenges in areas such as deep learning, natural language processing, and large-scale distributed systems. Your contributions will directly impact the products and services used by millions of Amazon customers worldwide.Imagine a role where you immerse yourself in groundbreaking research, exploring novel machine learning models for product recommendations, personalized search, and information retrieval tasks. You'll leverage natural language processing and information retrieval techniques to unlock insights from vast repositories of unstructured data, fueling the next generation of AI applications. Throughout your journey, you'll have access to unparalleled resources, including state-of-the-art computing infrastructure, cutting-edge research papers, and mentorship from industry luminaries. This immersive experience will not only sharpen your technical skills but also cultivate your ability to think critically, communicate effectively, and thrive in a fast-paced, innovative environment where bold ideas are celebrated.Join us at the forefront of applied science, where your contributions will shape the future of AI and propel humanity forward. Seize this extraordinary opportunity to learn, grow, and leave an indelible mark on the world of technology. Must be eligible and available for a full-time (40h / week) 12 week internship between May 2026 and September 2026Amazon has positions available for Machine Learning Applied Science Internships in, but not limited to Arlington, VA; Bellevue, WA; Boston, MA; New York, NY; Palo Alto, CA; San Diego, CA; Santa Clara, CA; Seattle, WA.Key job responsibilitiesWe are particularly interested in candidates with expertise in: Knowledge Graphs and Extraction, Programming/Scripting Languages, Time Series, Machine Learning, Natural Language Processing, Deep Learning,Neural Networks/GNNs, Large Language Models, Data Structures and Algorithms, Graph Modeling, Collaborative Filtering, Learning to Rank, Recommender SystemsIn this role, you'll collaborate with brilliant minds to develop innovative frameworks and tools that streamline the lifecycle of machine learning assets, from data to deployed models in areas at the intersection of Knowledge Management within Machine Learning. You will conduct groundbreaking research into emerging best practices and innovations in the field of ML operations, knowledge engineering, and information management, proposing novel approaches that could further enhance Amazon's machine learning capabilities.The ideal candidate should possess the ability to work collaboratively with diverse groups and cross-functional teams to solve complex business problems. A successful candidate will be a self-starter, comfortable with ambiguity, with strong attention to detail and the ability to thrive in a fast-paced, ever-changing environment.A day in the life- Design, implement, and experimentally evaluate new recommendation and search algorithms using large-scale datasets- Develop scalable data processing pipelines to ingest, clean, and featurize diverse data sources for model training- Conduct research into the latest advancements in recommender systems, information retrieval, and related machine learning domains- Collaborate with cross-functional teams to integrate your innovative solutions into production systems, impacting millions of Amazon customers worldwide- Communicate your findings through captivating presentations, technical documentation, and potential publications, sharing your knowledge with the global AI communityBasic Qualifications- Are enrolled in a PhD- Can relocate to where the internship is based- Experience programming in Java, C++, Python or related language- Work 40 hours/week minimum and commit to 12 week internship minimum- Experience with one or more of the following: Knowledge Graphs and Extraction, Neural Networks/GNNs, Data Structures and Algorithms, Time Series, Machine Learning, Natural Language Processing, Deep Learning, Large Language Models, Graph Modeling, Knowledge Graphs and Extraction, Programming/Scripting LanguagesPreferred Qualifications- Have publications at top-tier peer-reviewed conferences or journals- Experience building machine learning models or developing algorithms for business application- Experience with popular deep learning frameworks such as MxNet and Tensor FlowAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.The starting pay for this position is listed below. Final starting pay will be based on factors including experience, qualifications, and location. Starting Day 1 of employment, Amazon offers EAP, Mental Health Support, Medical Advice Line, 401(k) matching. Learn more about our benefits at https://hiring.amazon.com/why-amazon/benefits.USA, WA, SEATTLE - 142,800.00 - 193,200.00 USD annuallyUSA, WA, Seattle - 142,800.00 - 193,200.00 USD annuallyCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarker()Job detailsUSA, WA, SeattleInternships for studentsMachine Learning ScienceShare this job$('#facebook-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'facebook'}});
+});
+$('#linkedin-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'linkedin'}});
+});
+$('#twitter-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'twitter'}});
+});
+$('#email-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'email link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'email'}});
+});
+$('#print-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'print link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'print'}});
+});JOIN US ONDOWNLOAD OUR APP$('#facebook-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'facebook'}});
+});
+$('#linkedin-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'linkedin'}});
+});
+$('#instagram-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'instagram link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'instagram'}});
+});
+$('#twitter-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'twitter'}});
+});
+$('#app-store-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'app store link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'app_store'}});
+});
+$('#google-play-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'google play link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'google_play'}});
+});Find CareersJob CategoriesTeamsLocationsMilitary careersHourlyWorking At AmazonCultureBenefitsAmazon NewsletterInclusive experiencesLeadership PrinciplesHelpFAQHow We HireApplication statusAccommodationsLegal disclosures and noticesAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Privacy and DataImpressum© 1996-2026, Amazon.com, Inc. or its affiliatesconst pageAnalyticsEvent = new Event('pageAnalytics')
+// TODO - Finish analytics refactor and remove unused static page data object
+var ANALYTICS_DATA = {
+businessCategory: "studentprograms",
+contentType: "Job Details Page",
+internalOrExternal: "guest",
+jobCategory: "Machine Learning Science",
+jobCountryCode: "USA",
+jobId: "10391774",
+jobTitle: "2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting",
+jobTeam: "",
+locale: "en",
+stage: "production"
+};
+var digitalData = {
+// Used by events with context-specific information
+eventData: {},
+// Used by the /jobs resource pages
+job: {
+category: "Machine Learning Science",
+countryCode: "USA",
+division: "studentprograms",
+id: "10391774",
+jobLocation: "single",
+jobFindingMethod: document.referrer.split('?')[0] || ' ',
+title: "2026 Fall Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting",
+relatedJobId: []
+},
+page: {
+// Used by all pages
+pageInfo: {
+countryLanguage: "en",
+pageName: "Amazon.jobs | Job Details Page",
+pageType: "", // pageType is only populated to track the 404 error page
+advertisingCookieID: "8d92c93a-7516-4929-b37a-6d795676cf58",
+analyticsCookieID: "63ff83d1-7e00-4c8e-9ff2-f370009a4127",
+siteSection: "amazon jobs",
+tabName: "",
+userID: "",
+userActionStoreId: "63ff83d1-7e00-4c8e-9ff2-f370009a4127",
+peopleSoftId: "",
+userType: "guest",
+userAuthMode: ""
+},
+experiment: {
+experimentDetails: null
+}
+}
+};
+window.dispatchEvent(pageAnalyticsEvent)
