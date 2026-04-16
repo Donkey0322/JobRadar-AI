@@ -1,5 +1,131 @@
 [
   {
+    "company": "Ripple ",
+    "role": "Software Engineer Intern, GTreasury (Summer 2026)",
+    "link": "https://ripple.com/careers/all-jobs/job/7822192?gh_jid=7822192",
+    "location": "Chicago, Illinois, United States",
+    "id": 559,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Replace file-based logging with structured logging.",
+        "Migrate raw ADO.NET SQL queries.",
+        "Rebuild SAML 2.0 token creation.",
+        "Develop a React app to replace legacy aspx pages.",
+        "Currently enrolled in an Undergraduate degree in Computer Science or related field.",
+        "Available to work for 12 weeks during Summer 2026.",
+        "Intent to return to degree-program after internship.",
+        "Experienced in at least one programming language."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Physical Design Intern - CPU/AI Hardware",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4526301007",
+    "location": "Austin, Texas, United States; Santa Clara, California, United States",
+    "id": 558,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a BS, MS, or PhD in EE, ECE, CE, or CS",
+        "Solid understanding of logic design, VLSI, and transistor-level concepts",
+        "Familiar with PnR tools, timing analysis, and power optimization techniques",
+        "Comfortable scripting in Tcl, Perl, Shell, or Python",
+        "Support key physical design tasks",
+        "Analyze and improve design PPA",
+        "Collaborate with front-end, PD, and architecture teams",
+        "Explore and implement new flows, tools, or RTL experiments"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Machine Learning for Physical Design Intern - CPU/AI Hardware   ",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4968215007",
+    "location": "Santa Clara, California, United States",
+    "id": 557,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS/MS/PhD in EE/ECE/CE/CS",
+        "Possess deep knowledge of math, probability, statistics, and algorithms",
+        "Experience solving problems with Machine Learning models",
+        "Skilled in algorithms, data structures, and software development using Python and C/C++",
+        "Develop ML-based tools to improve PPA and turnaround time for chip implementation",
+        "Collaborate with PD engineers to develop ML tools for synthesis, PnR, timing closure, and power grid analysis",
+        "Select appropriate datasets, data representation methods, and implement new algorithms",
+        "Run machine learning tests, perform statistical analysis, and fine-tune models"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Data Movement Architecture Intern",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4999339007",
+    "location": "Austin, Texas, United States; Fort Collins, Colorado, United States; North America; Santa Clara, California, United States",
+    "id": 556,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a highly motivated student",
+        "Be curious about data movement in AI/CPU systems",
+        "Comfortable interpreting simulation data",
+        "Strong communicator for multidisciplinary teams",
+        "Pursue MS/PhD in Computer Engineering, CS, or EE",
+        "Solid understanding of computer architecture topics",
+        "Proficient in C/C++ and scripting languages like Python or Shell",
+        "Experience with RTL design and simulation"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "CPU Core Performance Verification Intern - CPU/AI Hardware",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501134007",
+    "location": "Austin, Texas, United States",
+    "id": 555,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS, MS, or PhD in EE, ECE, CE, or CS with strong academic performance.",
+        "Experience with assembly, C/C++, and scripting in Python or Perl.",
+        "Familiar with CPU architecture and performance concepts.",
+        "Comfortably work through complex debug problems.",
+        "Create performance test plans and write stimulus.",
+        "Run simulations and emulations to validate performance metrics.",
+        "Bring up and debug workloads.",
+        "Investigate mismatches between RTL and performance models."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "BlackSky",
+    "role": "Software Development Engineer in Test (SDET) Intern",
+    "link": "https://boards.greenhouse.io/blacksky/jobs/8499008002?gh_jid=8499008002",
+    "location": "Herndon, VA"
+  },
+  {
     "company": "Okta",
     "role": "AI Content Operations Intern (Summer 2026)",
     "link": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
