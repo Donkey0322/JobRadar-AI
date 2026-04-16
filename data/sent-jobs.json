@@ -1,5 +1,63 @@
 [
   {
+    "company": "SS&C",
+    "role": "Software Engineer Intern – Co-op",
+    "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineer-Intern---Co-op_R42466",
+    "location": "Waltham, MA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "RTX",
+    "role": "Pratt & Whitney Future Ready Lab Intern - F135 Program Digital Solutions",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---F135-Program-Digital-Solutions_01812510",
+    "location": "Hartford, CT",
+    "season": "2026 Summer",
+    "id": 529,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Learn to utilize PowerApps and PowerPlatforms for business process automations.",
+        "Work collaboratively with users, stakeholders, and Agile Development teams.",
+        "Learn CI/CD philosophy and a \"digital first\" mentality.",
+        "Document learnings and best practices for business process automations.",
+        "Perform Data as a Product Development/ETL from MRO&U ASoTs.",
+        "Perform full stack Python/HTML/CSS/JavaScript development in a Cloud-based environment.",
+        "Required to read, write, and speak English.",
+        "Enrolled in Engineering, Computer Science, a STEM field, or Business degree program.",
+        "Currently enrolled at East Hartford AOE, Hartford Public High School (HPHS), Pathways Academy, or New Britain MET.",
+        "Rising senior (summer between 11th and 12th grade).",
+        "Maintain a minimum 2.5 GPA.",
+        "Commit to all dates and times of the internship.",
+        "Be at least 16 years of age.",
+        "Agile trained (practitioner, scrum master, product owner, JIRA).",
+        "Familiarity using Jira, Confluence, Data Bricks, PowerApps, PowerPlatforms.",
+        "Familiarity with Application Program Interface (API) design and documentation.",
+        "Familiarity with SQL, Python, HTML, CSS, JavaScript (Vue.js).",
+        "Interest in modeling and simulation tools, workflows, and project management.",
+        "Interest in concepts and technologies for seamless data exchange across platforms.",
+        "Ability to collaborate effectively in a virtual and in-person environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/E5312B3CB9/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 528,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "comcast",
     "role": "Comcast Global Audit Data Solutions – Data Architecture and Engineering Co-op",
     "link": "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/PA---Philadelphia-1701-John-F-Kennedy-Blvd/Comcast-Global-Audit-Data-Solutions---Data-Architecture-and-Engineering-Co-op_R435369",
