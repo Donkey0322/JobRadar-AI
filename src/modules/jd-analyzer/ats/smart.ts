@@ -1,5 +1,6 @@
 import { SMART_RECRUITERS_API_URL } from "@/constants/ats";
 import { getLastPathNumber } from "@/modules/job-dedup/utils";
+import { logger } from "@/utils/logger";
 
 export async function fetchSmartRecruitersJD(url: string) {
   const u = new URL(url);
@@ -19,7 +20,7 @@ export async function fetchSmartRecruitersJD(url: string) {
     if (!data) return null;
     return JSON.stringify(data);
   } catch (error) {
-    console.error(`Error fetching smart recruiters JD from ${apiUrl}: ${error}`);
+    logger.error({ err: error, apiUrl }, "❌ Error fetching smart recruiters JD");
     return null;
   }
 }

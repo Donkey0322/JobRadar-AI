@@ -1,6 +1,7 @@
 import "dotenv/config";
 
 import processor from "@/main";
+import { logger } from "@/utils/logger";
 
 const args = new Set(process.argv.slice(2));
 const isDev = args.has("--dev");
@@ -10,6 +11,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("Fatal error:", err);
+  logger.fatal({ err }, "❌ Fatal error");
   process.exit(1);
 });

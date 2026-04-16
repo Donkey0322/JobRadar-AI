@@ -2,6 +2,8 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { logger } from "@/utils/logger";
+
 interface OracleCloudJob {
   Id: string;
   Title: string;
@@ -56,7 +58,7 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>) {
       location: job.PrimaryLocation,
     }));
   } catch (error) {
-    console.error(`Error fetching greenhouse jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching oracle cloud jobs");
     return [];
   }
 }

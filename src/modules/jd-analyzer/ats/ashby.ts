@@ -1,6 +1,7 @@
 import type { AshbyJob } from "@/modules/company-tacker/ats/ashby";
 
 import { ASHBY_API_URL } from "@/constants/ats";
+import { logger } from "@/utils/logger";
 
 export async function fetchAshbyJD(url: string) {
   const u = new URL(url);
@@ -13,7 +14,7 @@ export async function fetchAshbyJD(url: string) {
   try {
     const res = await fetch(apiUrl);
     if (!res.ok) {
-      console.error(`Failed to fetch ashby JD from ${apiUrl}: ${res.statusText}`);
+      logger.error({ apiUrl, statusText: res.statusText }, "❌ Failed to fetch ashby JD");
       return null;
     }
 
@@ -22,7 +23,7 @@ export async function fetchAshbyJD(url: string) {
     if (!jd) return null;
     return JSON.stringify(jd);
   } catch (error) {
-    console.error(`Error fetching ashby JD from ${apiUrl}: ${error}`);
+    logger.error({ err: error, apiUrl }, "❌ Error fetching ashby JD");
     return null;
   }
 }

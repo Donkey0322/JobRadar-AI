@@ -2,6 +2,8 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { logger } from "@/utils/logger";
+
 interface LeverJob {
   company_name: string;
   text: string;
@@ -49,7 +51,7 @@ export async function fetchLever(company: Company, urls: Set<string>) {
       location: job.categories?.location ?? "",
     }));
   } catch (error) {
-    console.error(`Error fetching lever jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching lever jobs");
     return [];
   }
 }

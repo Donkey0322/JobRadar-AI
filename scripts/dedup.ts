@@ -1,14 +1,17 @@
-import { deduplicate } from "../src/modules/job-dedup";
-import { loadUrls } from "../src/utils/data";
-import { saveUrls } from "../src/utils/data";
+import { deduplicate } from "@/modules/job-dedup";
+import { loadUrls } from "@/utils/data";
+import { saveUrls } from "@/utils/data";
+import { logger } from "@/utils/logger";
 
 async function main() {
   const sent = await loadUrls();
   const deduped = deduplicate(Array.from(sent));
   await saveUrls(new Set(deduped));
 
-  console.log("original:", sent.size);
-  console.log("unique jobs:", deduped.length);
+  logger.info({ original: sent.size, unique: deduped.length }, "✅ Successfully deduped urls");
 }
 
-main();
+main().catch((err) => {
+  logger.fatal({ err }, "❌ Fatal error");
+  process.exit(1);
+});

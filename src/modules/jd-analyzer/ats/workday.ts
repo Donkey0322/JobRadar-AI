@@ -1,3 +1,5 @@
+import { logger } from "@/utils/logger";
+
 export async function fetchWorkdayJD(url: string) {
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
@@ -19,7 +21,7 @@ export async function fetchWorkdayJD(url: string) {
     if (!data) return null;
     return JSON.stringify(data);
   } catch (error) {
-    console.error(`Error fetching workday JD from ${apiUrl}: ${error}`);
+    logger.error({ err: error, apiUrl }, "❌ Error fetching workday JD");
     return null;
   }
 }

@@ -8,10 +8,11 @@ import { classifyATS } from "../company-tacker/ats";
 import { fetchAshbyJD } from "./ats/ashby";
 import { fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
 
-import analyze from "@/modules/jd-analyzer/ai";
+import analyzeJD from "@/modules/jd-analyzer/ai";
+import { logger } from "@/utils/logger";
 import { AIResponseSchema } from "@/validation/ai";
 
-export async function getJD(url: string): Promise<string | null> {
+export async function getRawJD(url: string): Promise<string | null> {
   try {
     // 1. classify ATS
     const urlType = classifyATS(new URL(url));
@@ -55,7 +56,7 @@ export async function getJD(url: string): Promise<string | null> {
         });
 
         if (!res.ok) {
-          console.error(`Failed to fetch text from ${url}`);
+          logger.error({ url }, "❌ Failed to fetch text");
           return null;
         }
 
@@ -82,7 +83,7 @@ export async function getJD(url: string): Promise<string | null> {
 
     return lines.length ? lines.join("\n") : null;
   } catch (e) {
-    console.warn(`[warn] Error fetching JD from ${url}: ${e}`);
+    logger.warn({ err: e, url }, "❌ Error fetching JD");
     return null;
   }
 }
@@ -103,48 +104,53 @@ function transform(response: AIResponse): JD {
   };
 }
 
-export default async function analyzeJD(job: Job): Promise<{ jd: JD; plainText: string } | null> {
-  const jd = await getJD(job.link);
+export default async function getJD(
+  job: Job
+): Promise<{ jd: JD | null; rawJD: string; cost: number }> {
+  const rawJD = await getRawJD(job.link);
 
-  if (jd) {
-    const aiResponse = await analyze(jd);
-    if (aiResponse) {
+  if (rawJD) {
+    const { result, cost } = await analyzeJD(rawJD);
+    if (result) {
       try {
-        const parsed = JSON.parse(aiResponse);
+        const parsed = JSON.parse(result);
         const validated = AIResponseSchema.safeParse(parsed);
         if (validated.success) {
-          return { jd: transform(validated.data), plainText: jd };
+          return { jd: transform(validated.data), rawJD, cost };
         } else {
-          console.warn(`[${job.company}] Error parsing JSON: ${parsed}, error: ${validated.error}`);
-          return null;
+          logger.warn(
+            { company: job.company, parsed, err: validated.error },
+            "⚠️ Error parsing JSON"
+          );
+          return { jd: null, rawJD, cost };
         }
       } catch (e) {
-        console.warn(`[${job.company}] Error parsing JSON: ${e}`);
-        return null;
+        logger.warn({ company: job.company, err: e }, "⚠️ Error parsing JSON");
+        return { jd: null, rawJD, cost };
       }
     }
   }
-  return null;
+  return { jd: null, rawJD: "", cost: 0 };
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
-  const jd = await getJD(link);
+  const jd = await getRawJD(link);
 
   if (jd) {
-    const aiResponse = await analyze(jd);
-    if (aiResponse) {
+    const { result, cost } = await analyzeJD(jd);
+    if (result) {
       try {
-        const parsed = JSON.parse(aiResponse);
+        const parsed = JSON.parse(result);
         const validated = AIResponseSchema.safeParse(parsed);
         if (validated.success) {
+          logger.info({ cost }, "💰 Analyze JD cost");
           return transform(validated.data);
         } else {
-          console.log("parsed", parsed);
-          console.warn(`Error parsing JSON:, error: ${validated.error}`);
+          logger.warn({ err: validated.error }, "⚠️ Error parsing JSON");
           return null;
         }
       } catch (e) {
-        console.warn(`Error parsing JSON: ${e}`);
+        logger.warn({ err: e }, "⚠️ Error parsing JSON");
         return null;
       }
     }

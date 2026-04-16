@@ -3,6 +3,7 @@ import type { Company } from "../type";
 import { isTarget, withinDays } from "../utils";
 
 import { GREENHOUSE_API_URL } from "@/constants/ats";
+import { logger } from "@/utils/logger";
 
 interface GreenhouseJob {
   company_name: string;
@@ -67,7 +68,7 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>) {
       location: job.location?.name ?? "",
     }));
   } catch (error) {
-    console.error(`Error fetching greenhouse jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching greenhouse jobs");
     return [];
   }
 }

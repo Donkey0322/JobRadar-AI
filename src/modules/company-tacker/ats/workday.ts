@@ -2,6 +2,8 @@ import type { Company } from "../type";
 
 import { isTarget } from "../utils";
 
+import { logger } from "@/utils/logger";
+
 interface WorkdayJob {
   title: string;
   postedOn: string;
@@ -61,7 +63,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
       hasMore = jobs.length === limit && jobs[jobs.length - 1].postedOn === "Posted Today";
     }
   } catch (error) {
-    console.error(`Error fetching workday jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching workday jobs");
     return [];
   }
 

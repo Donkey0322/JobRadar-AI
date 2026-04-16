@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 import type { Job, Location } from "@/types";
 
 import { CONFIG } from "@/constants";
+import { logger } from "@/utils/logger";
 import { getToday } from "@/utils/string";
 
 function escapeHtml(str: string) {
@@ -142,5 +143,5 @@ Link: ${link}`;
     html: htmlBody,
   });
 
-  console.log(`✅ Sent email: ${company} | ${role}`);
+  logger.info({ company, role }, "✉️ Sent email");
 }

@@ -1,10 +1,11 @@
 import { promises as fs } from "fs";
 import inquirer from "inquirer";
 
-import type { Job } from "../src/types";
+import type { Job } from "@/types";
 
-import processor from "../src/main";
-import { analyzeLink } from "../src/modules/jd-analyzer";
+import processor from "@/main";
+import { analyzeLink } from "@/modules/jd-analyzer";
+import { logger } from "@/utils/logger";
 
 export async function promptJob(): Promise<Job> {
   const answers: Job = await inquirer.prompt([
@@ -70,7 +71,7 @@ async function main() {
 
   // ❗Cannot use -l and -f together
   if (link && file) {
-    console.error("❌ Cannot use -l and -f together");
+    logger.error("❌ Cannot use -l and -f together");
     process.exit(1);
   }
 
@@ -81,19 +82,18 @@ async function main() {
     try {
       new URL(link);
     } catch {
-      console.error("❌ Invalid URL");
+      logger.error("❌ Invalid URL");
       process.exit(1);
     }
 
     const jd = await analyzeLink(link);
 
     if (!jd) {
-      console.log("No result");
+      logger.info("❌ No result");
       return;
     }
 
-    console.log("\n✅ Result:");
-    console.log(JSON.stringify(jd, null, 2));
+    logger.info("\n ✏️ Result:\n%s", JSON.stringify(jd, null, 2));
     return;
   }
 
@@ -113,6 +113,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("❌ Error:", err);
+  logger.fatal({ err }, "❌ Error");
   process.exit(1);
 });

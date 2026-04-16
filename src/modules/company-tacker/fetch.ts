@@ -3,7 +3,7 @@ import pLimit from "p-limit";
 import type { Company } from "./type";
 import type { Job } from "@/types";
 
-import callGemini from "./ai";
+import classifyLocations from "./ai";
 import {
   fetchAshby,
   fetchCustom,
@@ -15,6 +15,7 @@ import {
 } from "./ats";
 
 import { loadCompanies } from "@/utils/data";
+import { logger } from "@/utils/logger";
 
 const limit = pLimit(20);
 
@@ -64,16 +65,18 @@ export default async function crawler() {
     )
   );
 
-  process.stdout.write("\n");
-
   const newJobs = results.flat();
   const endTime = Date.now();
 
-  const inUS = await callGemini(newJobs);
-  const inUSJobs = newJobs.filter((job, index) => inUS?.[index] ?? false);
+  const inUS = await classifyLocations(newJobs);
+  const inUSJobs = newJobs.filter((_, index) => inUS?.[index] ?? false);
 
-  console.log(
-    `🎉 Crawled ${inUSJobs.length} jobs in ${((endTime - startTime) / 1000).toFixed(2)}s`
+  logger.info(
+    {
+      jobCount: inUSJobs.length,
+      durationSec: ((endTime - startTime) / 1000).toFixed(2),
+    },
+    "🔍 Crawl finished"
   );
 
   return inUSJobs;
