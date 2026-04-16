@@ -1288,6 +1288,7 @@
     "page": "https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs",
     "urls": [
       "https://baxter.wd1.myworkdayjobs.com/baxter/job/Mountain-Home-Arkansas/Manufacturing-Engineer-Intern_JR-199670-1",
+      "https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-software-Engineer---Co-op_JR-199655-1",
       "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Raleigh-North-Carolina/Software-Engineer-Intern---Summer-2026_JR-196243-1"
     ]
   },
@@ -2022,6 +2023,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/US-DC-Washington/Mechanical-Engineer-Summer-Intern---Summer-2026_324850",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-FL-Sarasota/Software-Engineering-Intern---Summer-2026_317415",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-IL-Lisle/Software-Engineering-Intern---Summer-2026_317161",
+      "https://caci.wd1.myworkdayjobs.com/external/job/US-IL-Lisle/Software-Engineering-Intern---Summer-2026_325016",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-MD-Hanover/Cloud-Software-Intern---Summer-2026_317536",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324253",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-MI-Ypsilanti/Software-Engineering-Intern---Summer-2026_324254",
@@ -8780,6 +8782,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/tenstorrentuniversity/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501164007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501189007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4522665007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4873659007",
@@ -11907,7 +11910,8 @@
     "page": "https://api.smartrecruiters.com/v1/companies/TheNielsenCompany/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/TheNielsenCompany/2fc0f14c-a4f3-4768-9881-0a181061a224",
-      "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456"
+      "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456",
+      "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012640528"
     ]
   },
   {

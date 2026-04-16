@@ -1,6 +1,112 @@
 [
   {
     "company": "The Nielsen Company",
+    "role": "AI-Powered OSS Supply Chain Security Intern",
+    "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012640528",
+    "location": "New York, NY, United States",
+    "id": 552,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Software Engineering, Cybersecurity, or Data Science.",
+        "Comfortable reading and navigating multiple languages (Python, Java, or JavaScript/Node.js).",
+        "Proficient in using Git/GitLab.",
+        "Correlate external threat intelligence with internal technical data.",
+        "Understand CI/CD pipelines and triggering security scans."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Machine Learning for Physical Design Intern - CPU/AI Hardware   ",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501164007",
+    "location": "Austin, Texas, United States",
+    "id": 551,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue BS/MS/PhD in EE/ECE/CE/CS.",
+        "Possess deep knowledge of math, probability, statistics, and algorithms.",
+        "Experienced in solving problems with Machine Learning models.",
+        "Skilled in algorithms, data structures, and software development using Python and C/C++.",
+        "Develop ML-based tools to improve PPA and turnaround time for chip implementation.",
+        "Collaborate with PD engineers to develop ML tools for synthesis, PnR, timing closure, and power grid analysis.",
+        "Select appropriate datasets, data representation methods, and implement new algorithms.",
+        "Run machine learning tests, perform statistical analysis, and fine-tune models."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "caci",
+    "role": "Software Engineering Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-IL-Lisle/Software-Engineering-Intern---Summer-2026_325016",
+    "location": "US IL Lisle",
+    "id": 550,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an undergraduate or graduate degree in a related discipline",
+        "Possess strong communication skills",
+        "Demonstrate ability to work in collaborative teams",
+        "Adapt to dynamic project requirements",
+        "Have coursework or experience in object-oriented design",
+        "Have coursework or experience in C, C++, and/or Java",
+        "Have coursework or experience in scripting languages like Python or BASH",
+        "Have coursework or experience in Linux operating systems",
+        "Familiar with developing software for real-time environments",
+        "Experienced in embedded software development",
+        "Understand networking protocols like UDP, TCP, and SCTP",
+        "Know distributed computing theories and practices",
+        "Familiar with cellular and Wi-Fi communication"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "baxter",
+    "role": "Associate software Engineer – Co-op",
+    "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-software-Engineer---Co-op_JR-199655-1",
+    "location": "Skaneateles, NY",
+    "id": 549,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s Degree in a technical subject area",
+        "Possess strong interpersonal skills for collaborative work",
+        "Be a strategic problem solver with excellent attention to detail",
+        "Demonstrate organizational skills to progress on many tasks in parallel",
+        "Show adaptability and openness to change",
+        "Continuously look for ways to improve and simplify complex work",
+        "Have knowledge of C++",
+        "Experience with embedded systems (a plus)",
+        "Assist in building and operating prototypes",
+        "Create and complete hardware builds",
+        "Perform hardware testing",
+        "Support testing and development of Biomedical test systems",
+        "Research and test technologies for future medical products",
+        "Follow company processes",
+        "Communicate and work effectively on a team",
+        "Participate in team meetings to drive innovation"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "The Nielsen Company",
     "role": "Information Security AI Strategy Intern",
     "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456",
     "location": "New York, NY, United States",
