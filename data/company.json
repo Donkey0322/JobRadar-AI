@@ -66,6 +66,16 @@
     ]
   },
   {
+    "name": "invoicecloud",
+    "ats": "greenhouse",
+    "identifier": "invoicecloud",
+    "domain": "http://invoicecloud.net",
+    "page": "https://boards-api.greenhouse.io/v1/boards/invoicecloud/jobs",
+    "urls": [
+      "http://invoicecloud.net/careers/open-positions?gh_jid=7702184003"
+    ]
+  },
+  {
     "name": "bree",
     "ats": "ashby",
     "identifier": "bree",
@@ -691,6 +701,7 @@
       "https://apply.workable.com/al-warren-oil-company-inc/j/456743F7DE/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/61C7AD9DE9/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/63DEF1E57B/apply",
+      "https://apply.workable.com/al-warren-oil-company-inc/j/7D9DB96275/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/85303430BC/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/8E2D790DF8/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/A390327878/apply",
@@ -711,6 +722,7 @@
       "https://apply.workable.com/altom-transport/j/14AE343331/apply",
       "https://apply.workable.com/altom-transport/j/2D4E55F954/apply",
       "https://apply.workable.com/altom-transport/j/31A4E5CD7D/apply",
+      "https://apply.workable.com/altom-transport/j/357ECC5BCF/apply",
       "https://apply.workable.com/altom-transport/j/3A3D08CBC1/apply",
       "https://apply.workable.com/altom-transport/j/3B715DED10/apply",
       "https://apply.workable.com/altom-transport/j/3E05AD54B0/apply",
@@ -749,6 +761,8 @@
       "https://apply.workable.com/altom-transport/j/DF332E3ECA/apply",
       "https://apply.workable.com/altom-transport/j/E39B5461D5/apply",
       "https://apply.workable.com/altom-transport/j/E444879C9E/apply",
+      "https://apply.workable.com/altom-transport/j/E5312B3CB9/apply",
+      "https://apply.workable.com/altom-transport/j/E562C56242/apply",
       "https://apply.workable.com/altom-transport/j/E6CE0B5487/apply",
       "https://apply.workable.com/altom-transport/j/F1DC42E598/apply",
       "https://apply.workable.com/altom-transport/j/F38EC3F3FF/apply",
@@ -1189,6 +1203,7 @@
     "page": "https://baltimorecity.wd1.myworkdayjobs.com/wday/cxs/baltimorecity/external/jobs",
     "urls": [
       "https://baltimorecity.wd1.myworkdayjobs.com/External/job/401-E-Fayette-St/Digital-Services-Engineering-Intern--NCS----BCIT_R0017096",
+      "https://baltimorecity.wd1.myworkdayjobs.com/External/job/City-Hall/Office-of-the-Comptroller---Interns-Fellows_R0017211",
       "https://baltimorecity.wd1.myworkdayjobs.com/external/job/401-E-Fayette-St/Geographic-Information-Systems--GIS--Intern--NCS----BCIT_R0017030"
     ]
   },
@@ -5115,6 +5130,17 @@
     ]
   },
   {
+    "name": "equinix",
+    "ats": "workday",
+    "identifier": "equinix-external",
+    "domain": "https://equinix.wd1.myworkdayjobs.com/external",
+    "page": "https://equinix.wd1.myworkdayjobs.com/wday/cxs/equinix/external/jobs",
+    "urls": [
+      "https://equinix.wd1.myworkdayjobs.com/External/job/Dallas/Software-Engineering-Intern_JR-160092",
+      "https://equinix.wd1.myworkdayjobs.com/External/job/Redwood-City/Enterprise-AI-Intern_JR-160096"
+    ]
+  },
+  {
     "name": "ercot",
     "ats": "workday",
     "identifier": "ercot-ercot_careers",
@@ -5777,6 +5803,16 @@
   {
     "name": "gdit",
     "ats": "workday",
+    "identifier": "gdit-external_career_site",
+    "domain": "https://gdit.wd5.myworkdayjobs.com/external_career_site",
+    "page": "https://gdit.wd5.myworkdayjobs.com/wday/cxs/gdit/external_career_site/jobs",
+    "urls": [
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ213390-3"
+    ]
+  },
+  {
+    "name": "gdit",
+    "ats": "workday",
     "identifier": "gdit-gdit_earlytalent",
     "domain": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent",
     "page": "https://gdit.wd5.myworkdayjobs.com/wday/cxs/gdit/gdit_earlytalent/jobs",
@@ -5963,6 +5999,7 @@
     "page": "https://globalhr.wd5.myworkdayjobs.com/wday/cxs/globalhr/private_posting_no_tmp/jobs",
     "urls": [
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01817134-1",
+      "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---F135-Program-Digital-Solutions_01812510",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineering-Intern--Summer-2026---Onsite-_01805319-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373",
@@ -5980,6 +6017,7 @@
     "urls": [
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AL200-401-Jan-Davis-Drive-Huntsville-401-Jan-Davis-Drive---Huntsville-AL-35806-USA/XMLNAME-2026-Systems-Engineering-Intern---Onsite---Huntsville--AL_01804908",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AZ201-RMS-AP-Bldg-801-1151-East-Hermans-Road-Building-801-Tucson-AZ-85756-USA/XMLNAME-2026-Intern---Software-Engineer--Test-Equipment---Onsite_01790571",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Engineering-Product-Integrity-tools-and-process-improvements_01838292",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Stage---Ingnieur-de-projet-numrique---Digital-Project-Engineer_01808645",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA550-Fullerton-CA-Bldg-675-1801-West-Hughes-Drive-Building-675-Fullerton-CA-92834-USA/XMLNAME-2026-Intern---Software-Engineering-Intern---Onsite--CA-_01806456",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA601-Goleta-EW-Bldg-H01-6380-Hollister-Avenue-Building-H01-Goleta-CA-93117-USA/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite---CA-_01810527",
@@ -10082,6 +10120,17 @@
     ]
   },
   {
+    "name": "socure",
+    "ats": "ashby",
+    "identifier": "socure",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/socure",
+    "urls": [
+      "https://jobs.ashbyhq.com/socure/017556d2-e70b-41aa-8309-01337c734fd9/application",
+      "https://jobs.ashbyhq.com/socure/e54f1700-c922-4bcc-a087-45b24717f974/application"
+    ]
+  },
+  {
     "name": "solink",
     "ats": "ashby",
     "identifier": "solink",
@@ -13422,6 +13471,7 @@
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Colorado-Springs/Space-Ops-Software-Engineer-Intern--Summer-2026-_R179543-1",
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---CO-Westminster/Software-Development-Intern---Summer-2026_R176219-2",
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---MD-Annapolis-Junction/Full-Stack-Software-Developer-Intern--Summer-2026-_R176475-1",
+      "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---Remote-Any-Location/Software-Developer-Intern---Summer-2026_R179664-1",
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---VA-Centreville/Engineering-Co-Op-Summer-2026--TS-Required-_R172366-2",
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---VA-Centreville/Engineering-Co-Op-Summer-2026_R175093-1",
       "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US-WV---Summit-Point/Identity-Solutions---Intern-Summer-2026_R174371-1",
@@ -13777,6 +13827,16 @@
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Software-Engineer-Intern--Summer-2026-_HR101836",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Huntsville-AL/Junior-Web-Developer-and-Database-Administrator-Intern_HR102015",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/MI---Home/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102058-1"
+    ]
+  },
+  {
+    "name": "rakuten",
+    "ats": "workday",
+    "identifier": "rakuten-rakutenadvertising",
+    "domain": "https://rakuten.wd1.myworkdayjobs.com/rakutenadvertising",
+    "page": "https://rakuten.wd1.myworkdayjobs.com/wday/cxs/rakuten/rakutenadvertising/jobs",
+    "urls": [
+      "https://rakuten.wd1.myworkdayjobs.com/RakutenAdvertising/job/San-Mateo-California/Intern---AI-Engineer_1031662-2"
     ]
   },
   {
@@ -14570,6 +14630,7 @@
     "page": "https://ssctech.wd1.myworkdayjobs.com/wday/cxs/ssctech/ssctechnologies/jobs",
     "urls": [
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineer-Intern---Co-op_R42466",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineering-Co-op_R42258"
     ]
   },
@@ -14804,6 +14865,16 @@
     "urls": [
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Clearwater-Florida-United-States/Technology-Track---AI-and-Integration-Engineer-Intern_R48642",
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/San-Antonio-Texas-United-States/Summer-2026-Internship-Program---Technology-Track-----Information-Technology---Artificial-Intelligence---Data---Analytics---Cybersecurity---Systems---Cloud_R43486"
+    ]
+  },
+  {
+    "name": "talentmanagementsolution",
+    "ats": "workday",
+    "identifier": "talentmanagementsolution-jonassoftwarecanada",
+    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada",
+    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwarecanada/jobs",
+    "urls": [
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2"
     ]
   },
   {
@@ -16535,6 +16606,7 @@
       "https://www.pinterestcareers.com/job-form?gh_jid=7241510",
       "https://www.pinterestcareers.com/job-form?gh_jid=7241588",
       "https://www.pinterestcareers.com/jobs/7257996/software-engineer-intern-summer-term-2026-toronto/?gh_jid=7257996",
+      "https://www.pinterestcareers.com/jobs/?gh_jid=7258004",
       "https://www.pinterestcareers.com/jobs/?gh_jid=7262794",
       "https://www.pinterestcareers.com/jobs/?gh_jid=7558536"
     ]
