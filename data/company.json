@@ -822,6 +822,16 @@
     ]
   },
   {
+    "name": "arrcusinc.applytojob.com",
+    "ats": "custom",
+    "identifier": "arrcusinc.applytojob.com",
+    "domain": "https://arrcusinc.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://arrcusinc.applytojob.com/apply/83oGigKKrr/InternNetworking-Software-Development-Engineer-2026"
+    ]
+  },
+  {
     "name": "arrowstreetcapital",
     "ats": "workday",
     "identifier": "arrowstreetcapital-campus_careers",
@@ -11890,6 +11900,17 @@
     ]
   },
   {
+    "name": "TheNielsenCompany",
+    "ats": "smartrecruiters",
+    "identifier": "TheNielsenCompany",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/TheNielsenCompany/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/TheNielsenCompany/2fc0f14c-a4f3-4768-9881-0a181061a224",
+      "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456"
+    ]
+  },
+  {
     "name": "TreehouseStrategyAndCommunicatio",
     "ats": "smartrecruiters",
     "identifier": "TreehouseStrategyAndCommunicatio",
@@ -15378,7 +15399,8 @@
     "urls": [
       "https://vanguard.wd5.myworkdayjobs.com/contractors_restricted/job/Charlotte-NC/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---Charlotte_177074",
       "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Charlotte-NC/Application-Engineer-Co-op---Charlotte_171146",
-      "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Malvern-PA/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---PA_171551"
+      "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Malvern-PA/XMLNAME-2026-Spring-Summer-Application-Engineer-Co-op---PA_171551",
+      "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Manchester-United-Kingdom/Technology--IST--Internship---Summer-2026_175112-1"
     ]
   },
   {

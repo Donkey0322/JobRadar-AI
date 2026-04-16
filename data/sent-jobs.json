@@ -1,5 +1,25 @@
 [
   {
+    "company": "The Nielsen Company",
+    "role": "Information Security AI Strategy Intern",
+    "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456",
+    "location": "New York, NY, United States",
+    "id": 548,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Cybersecurity, Data Science, or a related field",
+        "Strong understanding of core security concepts",
+        "Foundational knowledge of AI/ML concepts",
+        "Excellent communication skills to explain complex technical concepts"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Nielsen",
     "role": "Cloud Resilience & Security Automation Intern",
     "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/2fc0f14c-a4f3-4768-9881-0a181061a224",
