@@ -1,5 +1,59 @@
 [
   {
+    "company": "Nielsen",
+    "role": "Cloud Resilience & Security Automation Intern",
+    "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/2fc0f14c-a4f3-4768-9881-0a181061a224",
+    "location": "New York, NY",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Vanguard",
+    "role": "Technology – Intern",
+    "link": "https://vanguard.wd5.myworkdayjobs.com/en-US/contractors_restricted/job/Manchester-United-Kingdom/Technology--IST--Internship---Summer-2026_175112-1",
+    "location": "Manchester, UK",
+    "season": "2026 Summer",
+    "id": 547,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Strong technical aptitude and curiosity",
+        "Analytical and problem-solving mindset",
+        "Possess organizational skills and attention to detail",
+        "Demonstrate leadership potential",
+        "Exhibit professional maturity, humility, and strong communication",
+        "Show initiative and independence",
+        "Possess a growth mindset and adaptability",
+        "Demonstrate drive, resilience, and motivation to succeed"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Arrcus",
+    "role": "Intern-Networking Software Development Engineer 🎓",
+    "link": "https://arrcusinc.applytojob.com/apply/83oGigKKrr/InternNetworking-Software-Development-Engineer-2026",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 546,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an MS in Computer Engineering/Computer Science or equivalent degree.",
+        "Complete college-level coursework in Data Structures, Algorithms, and Operating Systems.",
+        "Complete college-level coursework in Computer Networks, Network Routing & Switching Protocols, and Network Infrastructure.",
+        "Demonstrate strong proficiency in C.",
+        "Possess interest in networking, systems, and cloud technologies.",
+        "Able to work both independently and collaboratively in a fast-paced environment.",
+        "Be curious, proactive, and eager to learn."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Ridealso",
     "role": "Software Engineering Intern, Firmware - Summer 2026",
     "link": "https://jobs.ashbyhq.com/Ridealso/09ab1145-d0b5-4578-838d-039d195771a7",
