@@ -1,5 +1,288 @@
 [
   {
+    "company": "RTX",
+    "role": "Intern - Software Designer - Web based Tool Development",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Software-Designer---Web-based-Tool-Development_01838371",
+    "location": "Mississauga, ON, Canada",
+    "season": "2026 Fall",
+    "id": 569,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Eligible to work in Canada",
+        "Enrolled in a Canadian university throughout your internship",
+        "Able to work on-site in the province where hired",
+        "Pursuing a bachelor's or master's degree in Computer Science, Software Engineering, Computer Engineering, or other Engineering discipline with strong programing skills",
+        "Demonstrated work experience in SQL, PHP, HTML, CSS, Bootstrap, D3/JQuery, JavaScript, Git, XML, JSON, API",
+        "Understand relational databases",
+        "Familiar with creating user-friendly and easy-to-navigate web pages",
+        "Able to create user guides and help files",
+        "Able to effectively communicate and work with team members",
+        "Self-directed, willing to learn and adapt",
+        "Excellent communication skills in English (spoken/written)",
+        "Knowledge of layouts, graphic fundamentals, and print",
+        "Experienced in LaTeX, Python, Visual Basic, C++, Symfony PHP framework",
+        "Strong organizational skills and ability to work under pressure with competing and varying priorities"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Wash U",
+    "role": "Software Engineering Intern",
+    "link": "https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-Medical-Campus/Software-Engineering-Intern--Time-Limited-Remote----WashU-IT_JR93463",
+    "location": "St. Louis, MO",
+    "season": "2026 Summer",
+    "id": 568,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess analytical thinking",
+        "Understand Artificial Intelligence algorithms",
+        "Proficient in C++ Programming Language",
+        "Possess strong communication skills",
+        "Perform data analysis",
+        "Experience with feature engineering",
+        "Proficient with Git",
+        "Demonstrate independent problem solving",
+        "Proficient in JavaScript",
+        "Experience with Linux environments",
+        "Knowledge of Machine Learning (ML)",
+        "Proficient in Python Programming Language",
+        "Experience with PyTorch",
+        "Experience with scikit-learn",
+        "Experience with Tensorflow",
+        "Experience with web application frameworks",
+        "Work collaboratively"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Axos Bank",
+    "role": "Automation Analyst Intern",
+    "link": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 567,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop, configure, and enhance automation solutions",
+        "Participate in all phases of the Software Development Life Cycle (SDLC)",
+        "Assist with documenting functional requirements, technical designs, and process flows",
+        "Build and test workflows, integrations, and basic UI components",
+        "Support user acceptance testing (UAT) and quality assurance",
+        "Monitor and troubleshoot automation workflows",
+        "Collaborate with analysts, developers, and business partners",
+        "Follow SDLC governance, change management, and documentation standards"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Canon",
+    "role": "Software Intern",
+    "link": "https://external-canoncareers.icims.com/jobs/34092/job?mobile=true&needsRedirect=false",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 566,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s or higher degree in Computer Science, Statistics, Mathematics, or a related field.",
+        "Enrolled as an undergraduate student, junior entering senior year by Summer 2026.",
+        "Strong written and verbal communication skills.",
+        "Advanced proficiency in Google Workspace including Sheets, Docs, Slides, Chat, Calendar, and Drive.",
+        "Ability to thrive as a collaborative team player.",
+        "Ability to work independently with confidence and enthusiasm.",
+        "Hands-on experience coding in Python.",
+        "Hands-on experience in front-end development, preferably with JavaScript/React or similar frameworks.",
+        "Experience with reading from and writing to REST-based web services.",
+        "Familiarity with ChatGPT or other AI-based tools, as well as AI prompting.",
+        "Experience integrating with GenAI models via APIs.",
+        "Ability to quickly learn new tools and technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Canon",
+    "role": "Software Intern",
+    "link": "https://external-canoncareers.icims.com/jobs/34090/job?mobile=true&needsRedirect=false",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 565,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled undergraduate student, junior entering senior year as of Summer 2026.",
+        "Pursue a Bachelor's or Master's degree in Computer Science, Computer Engineering, Mathematics, or a related field.",
+        "Have at least two years into your major (strongly preferred).",
+        "Possess strong written and verbal communication skills.",
+        "Advanced proficiency in Google Workspace (Sheets, Docs, Slides, Chat, Calendar, Drive).",
+        "Able to thrive as a collaborative team player and work independently.",
+        "Experience in Python, JavaScript, C#, or C++.",
+        "Basic experience integrating with web-based APIs (REST).",
+        "Comfortable working with JSON.",
+        "Experience with cloud technologies and services (AWS, GCP, or Azure) is a plus.",
+        "Possess excellent interpersonal skills.",
+        "Willing to come up to speed on technologies you may be unfamiliar with.",
+        "Have hands-on exposure to developing software applications."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Stifel",
+    "role": "Information Systems Intern",
+    "link": "https://careers-stifel.icims.com/jobs/8189/job?mobile=true&needsRedirect=false",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 564,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop an understanding of Stifel business, data models, and technology.",
+        "Refine inbound business requests from users and product management.",
+        "Use logic and reasoning when assessing business requirements.",
+        "Assist Development team in design, implementation, integration, and revision control.",
+        "Perform limited due diligence to ensure quality and accuracy.",
+        "Work according to standards set by Project and Development managers.",
+        "Understand company applications and business practices.",
+        "Research best practices and develop solutions and recommendations.",
+        "Understand financial industry terminology and concepts.",
+        "Research problems from beginning to end, creating detailed documentation.",
+        "Strong analytical skills for identifying complex relationships and recommending uses.",
+        "Possess introductory development skills and desire to learn.",
+        "Pursue a degree in Finance, IT, Computer Science, or Business with one year completed.",
+        "Experienced with office productivity, reporting, and technical documentation software.",
+        "Experienced with development technologies such as C#/.NET, Java/C++, JavaScript, Python.",
+        "Experienced with relational databases and SQL.",
+        "Proficient in Microsoft Excel, Word, PowerPoint, and Outlook.",
+        "Exposed to C#/.NET, Java/C++, or equivalent relational database systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Very Good Security",
+    "role": "Application Security Intern",
+    "link": "https://jobs.lever.co/verygoodsecurity/32fe92a6-13d5-4132-b77c-a7a5ed74f38b/apply",
+    "location": "United States",
+    "season": "2026 Summer",
+    "id": 563,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Engineer-Intern_R-00180872",
+    "location": "Gaithersburg, MD",
+    "season": "2026 Summer",
+    "id": 562,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Obtain and maintain Top Secret/SCI with Polygraph clearance",
+        "Currently enrolled in Computer Science, Engineering, or related undergraduate program",
+        "Experience with at least one major programming language",
+        "Strong understanding of object-oriented programming",
+        "Excellent problem solving and debugging skills",
+        "Ability to work independently and as part of a team",
+        "Strong written and verbal communication skills",
+        "Experience with multiple programming languages",
+        "Experience with software development tools",
+        "Experience with databases",
+        "Experience with web development technologies"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Kognitos",
+    "role": "Software Engineer Intern - AI-Native",
+    "link": "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 561,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or related field",
+        "Strong programming fundamentals in Python, JavaScript, or similar",
+        "Comfortable building with modern development tools and workflows",
+        "Familiar with Git and collaborative development",
+        "Solid understanding of core CS concepts",
+        "Strong problem-solving ability and curiosity",
+        "Clear communicator and team-oriented",
+        "Experience using AI coding tools",
+        "Build projects using LLMs, APIs, or automation workflows",
+        "Familiar with modern web stacks",
+        "Exposed to cloud platforms like AWS, GCP, Azure",
+        "Prior internship, startup, or side project experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Trumid",
+    "role": "AI Automation Intern",
+    "link": "https://job-boards.greenhouse.io/trumid/jobs/7703392003",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 560,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Graduated within two years or graduating by May 2028.",
+        "Think in AI tools and naturally identify friction.",
+        "Intellectually curious to understand and improve processes.",
+        "Resilient and proactive in finding solutions.",
+        "Challenge norms and propose smarter processes.",
+        "Think about ownership, impact, and scale.",
+        "Bring energy and genuine enthusiasm to work.",
+        "Automate real workflows across Tech Ops and HR.",
+        "Generate and prototype ideas for AI transformation.",
+        "Learn operations and help improve them.",
+        "Monitor and share emerging AI research and tools.",
+        "Own and solve internal challenges using AI.",
+        "Able to work in-office in New York.",
+        "Pursue a degree in Computer Science, AI/ML, Data Science, Information Systems, or a related STEM field.",
+        "Hands-on experience with AI-native tools (e.g., Claude, Cursor, Codex).",
+        "Basic experience with Python or TypeScript.",
+        "Familiarity with business operations tools is a bonus.",
+        "Experience with side projects or automation outside coursework.",
+        "Self-sufficient enough to get unstuck before asking for help."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Ripple ",
     "role": "Software Engineer Intern, GTreasury (Summer 2026)",
     "link": "https://ripple.com/careers/all-jobs/job/7822192?gh_jid=7822192",
