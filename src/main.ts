@@ -11,6 +11,7 @@ import { logger } from "@/utils/logger";
 import { getToday } from "@/utils/string";
 
 export default async function processor(jobs: Job[] = [], main = true, isDev = false) {
+  logger.info("🔍 Starting processor");
   const urls = await loadUrls();
   const keys = new Set(groupUrlsByKey(Array.from(urls)).keys());
   const sent_jobs = await loadJobs();
@@ -65,5 +66,5 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
   }
   await saveUrls(urls);
   await saveJob(toSend);
-  logger.info({ totalCost }, "💰 Total cost");
+  logger.info({ totalCost }, "💰 Processed jobs: Total cost");
 }

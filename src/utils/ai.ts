@@ -35,10 +35,10 @@ async function callGeminiWithRetry(fn: () => Promise<GenerateContentResponse>, r
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fn();
-      calculateCost(response);
       return response;
     } catch (e) {
       if (e instanceof ApiError && e.status === 503) {
+        logger.warn("⚠️ Gemini is busy; retrying...");
         await new Promise((r) => setTimeout(r, delay));
         delay *= 2;
         continue;
