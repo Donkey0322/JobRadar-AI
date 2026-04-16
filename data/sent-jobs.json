@@ -1,5 +1,317 @@
 [
   {
+    "company": "RTX",
+    "role": "Intern",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Engineering-Product-Integrity-tools-and-process-improvements_01838292",
+    "location": "Mississauga, ON, CanadaLongueuil, QC, Canada",
+    "season": "2026 Fall",
+    "id": 539,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Eligible to work in Canada",
+        "Enrolled in a Canadian university throughout your internship",
+        "Able to work on-site in the province where you are hired",
+        "Pursuing a degree in either Aerospace or Mechanical Engineering",
+        "Excellent communication skills in English (spoken/written)",
+        "Professional, able to work independently",
+        "Thorough knowledge of the discipline and the role",
+        "Strong organizational skills",
+        "Able to work under pressure with competing and varying priorities",
+        "Proficient in project management"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Jonas Software",
+    "role": "Jonas Intern",
+    "link": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 538,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in or recently graduated from a recognized post-secondary institution",
+        "Legally eligible to work in Canada or the U.S.",
+        "Available to work full-time during the internship term",
+        "Passionate about technology and eager to learn"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Pinterest",
+    "role": "Software Engineer Intern",
+    "link": "https://www.pinterestcareers.com/jobs/?gh_jid=7258004",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Rakuten Advertising",
+    "role": "AI Engineer Intern 🎓",
+    "link": "https://rakuten.wd1.myworkdayjobs.com/RakutenAdvertising/job/San-Mateo-California/Intern---AI-Engineer_1031662-2",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "General Dynamics Information Technology",
+    "role": "Software Developer Intern",
+    "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ213390-3",
+    "location": "Annapolis Junction, MD",
+    "season": "2026 Summer",
+    "id": 537,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in C/C++",
+        "Experience in collaborating",
+        "Skilled in JavaScript",
+        "Skilled in Java software development",
+        "Skilled in Python software development",
+        "Have 0+ years of related experience",
+        "Completed at least 2 years of education towards a Computer Science, Computer Engineering, Cybersecurity, or similar Engineering degree",
+        "Demonstrate experience in software development and programming languages",
+        "Demonstrate experience in software design/development best practices and methodologies",
+        "Possess a passion for solving complex software engineering problems",
+        "Continuously learn and work effectively in a collaborative team environment",
+        "Interested in developing engineering soft skills like demoing and public speaking",
+        "Eligible to obtain a TS/SCI with POLY clearance"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Parsons",
+    "role": "Software Developer Intern",
+    "link": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/US---Remote-Any-Location/Software-Developer-Intern---Summer-2026_R179664-1",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 536,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a Bachelor's Degree in Computer Science or related studies",
+        "Experience with a server-side language",
+        "Demonstrated data problem-solving skills",
+        "Self-driven and motivated",
+        "Excellent oral and written communication skills",
+        "Proficiency with server-side languages like C#, Java, NodeJS, Python",
+        "Familiarity with relational databases like SQL Server, MySQL",
+        "Proficiency in HTML, CSS, JavaScript",
+        "Effective communication and problem-solving abilities",
+        "Familiarity with version control systems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "City of Baltimore",
+    "role": "Office of the Comptroller Interns/Fellows Intern",
+    "link": "https://baltimorecity.wd1.myworkdayjobs.com/External/job/City-Hall/Office-of-the-Comptroller---Interns-Fellows_R0017211",
+    "location": "Baltimore, MD",
+    "season": "2026 Summer",
+    "id": 535,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Fundamental understanding of programming concepts, especially Python.",
+        "Understand relational databases and SQL.",
+        "Basic knowledge of web development (HTML, CSS, JavaScript).",
+        "Familiarity with client-server architecture and web applications.",
+        "Understand IT systems and networking basics.",
+        "Awareness of software development lifecycle principles.",
+        "Basic understanding of APIs, data integration, and AI/automation concepts.",
+        "General knowledge of information security practices.",
+        "Write and modify Python code in existing applications.",
+        "Design, create, and modify SQL databases and tables.",
+        "Perform data migration and validation.",
+        "Develop basic web interfaces and dashboards.",
+        "Configure or work within web hosting environments (IIS preferred).",
+        "Build and structure intranet or SharePoint sites.",
+        "Integrate multiple systems (database, ticketing, web interface).",
+        "Develop simple AI-driven query interfaces.",
+        "Analyze existing systems and identify improvements.",
+        "Troubleshoot technical issues and debug code.",
+        "Interpret user requirements and translate into technical solutions.",
+        "Clearly document technical work.",
+        "Communicate progress, issues, and solutions to supervisors.",
+        "Collaborate effectively with team members.",
+        "Ability to learn quickly and adapt to existing systems and tools.",
+        "Ability to work independently and as part of a team.",
+        "Ability to manage time and meet deadlines.",
+        "Ability to handle multiple projects simultaneously.",
+        "Ability to follow technical instructions and security protocols.",
+        "Ability to think critically and solve problems creatively.",
+        "Ability to translate technical concepts into user-friendly solutions.",
+        "Ability to maintain confidentiality and integrity of internal systems.",
+        "Junior or Senior-level college student.",
+        "Major in Computer Science, Information Technology, or MIS.",
+        "Experience with Python, SQL, and web development (HTML, CSS, JavaScript).",
+        "Familiarity with IIS (Internet Information Services).",
+        "Familiarity with SharePoint or intranet platforms.",
+        "Basic understanding of APIs and AI/ML concepts."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/357ECC5BCF/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/E562C56242/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Internship",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/7D9DB96275/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 534,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Equinix",
+    "role": "Software Engineering Intern",
+    "link": "https://equinix.wd1.myworkdayjobs.com/External/job/Dallas/Software-Engineering-Intern_JR-160092",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 533,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university or college",
+        "Enrolled in your penultimate year of a Bachelor’s or Master’s degree",
+        "Majoring in Computer Science, Software Engineering, Computer Engineering, or related fields",
+        "Expected graduation between December 2026 – September 2027",
+        "Available to work full‑time for the entire duration of the Summer Internship Program",
+        "Foundational understanding of software development and object‑oriented programming concepts",
+        "Familiarity with Java, Python, JavaScript, or similar programming languages",
+        "Strong analytical and problem‑solving skills",
+        "Clear written and verbal communication skills; business proficiency in English",
+        "Strong curiosity, positive attitude, and willingness to learn",
+        "Experience building applications through coursework, projects, or hackathons",
+        "Familiarity with web technologies (HTML, CSS, JavaScript) or modern frameworks",
+        "Basic understanding of APIs, databases, and data structures",
+        "Exposure to Git, CI/CD pipelines, or cloud platforms",
+        "Coursework or experience with Agile or iterative development methodologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Socure",
+    "role": "Engineering Intern-Docv & Device",
+    "link": "https://jobs.ashbyhq.com/socure/017556d2-e70b-41aa-8309-01337c734fd9/application",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 532,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Engineering, Data Science, or similar",
+        "Experience in Go, Python, or Java",
+        "Familiar with data analysis or ML concepts",
+        "Understand APIs and backend systems",
+        "Able to work through ambiguity and iterate quickly",
+        "Strong communication skills",
+        "Exposure to fraud, identity, or security domains",
+        "Experience with behavioral or event-based data",
+        "Familiar with SQL, Spark, or large-scale data tools",
+        "Experience with dashboards or data visualization"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Socure",
+    "role": "Engineering Intern - AI Agents - Data & Riskos 🎓",
+    "link": "https://jobs.ashbyhq.com/socure/e54f1700-c922-4bcc-a087-45b24717f974/application",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 531,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Master's degree in Computer Science or related field.",
+        "Active student whose studies align with the work.",
+        "Prior software development experience.",
+        "Experience in AI/ML systems, LLM applications, data engineering, or distributed systems.",
+        "Strong understanding of data structures, algorithms, complexity, and system design.",
+        "Basic understanding of backend services, APIs, databases, and web applications.",
+        "Basic understanding of frontend fundamentals and a modern framework.",
+        "Basic understanding of servers, cloud, containers, monitoring, and logging.",
+        "Basic proficiency in a backend programming language (Go, Java, or Python).",
+        "Familiarity with Git and common development workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "InvoiceCloud",
+    "role": "Software Engineering Intern",
+    "link": "http://invoicecloud.net/careers/open-positions?gh_jid=7702184003",
+    "location": "Boston, MA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Equinix",
+    "role": "Enterprise AI Intern",
+    "link": "https://equinix.wd1.myworkdayjobs.com/External/job/Redwood-City/Enterprise-AI-Intern_JR-160096",
+    "location": "San Carlos, CA",
+    "season": "2026 Summer",
+    "id": 530,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a BS or MS in Computer Science, AI, Data Science, or related field.",
+        "Currently enrolled in an accredited university/college, in penultimate year of bachelor's or master’s degree studies.",
+        "Interested in the intersection of Data Center Providers and Artificial Intelligence in a Go-To-Market context.",
+        "Available to work full-time during summer internship (June–August) in Northern California, Dallas, or DC.",
+        "Strong written and verbal communication skills.",
+        "Collaborative, detail-oriented, and eager to learn in a fast-paced environment.",
+        "Strong understanding of LLMs, Prompt Engineering, and Agentic Frameworks (LangChain, AutoGen, CrewAI).",
+        "Proficient in Python and experienced with API integration (REST, GraphQL).",
+        "Familiar with Google BigQuery, Snowflake, Amazon Redshift, and SQL for querying customer databases.",
+        "Able to build technical agents to solve vague business problems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "SS&C",
     "role": "Software Engineer Intern – Co-op",
     "link": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Waltham-MA---10-CityPoint/Software-Engineer-Intern---Co-op_R42466",
