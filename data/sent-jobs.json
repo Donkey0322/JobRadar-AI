@@ -1,5 +1,52 @@
 [
   {
+    "company": "Okta",
+    "role": "AI Content Operations Intern (Summer 2026)",
+    "link": "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
+    "location": "Chicago, Illinois",
+    "id": 554,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree (graduating December 2026 or Spring 2027) in Data Science, Information Management, Library and Information Science, Digital Media, Cognitive Science, or related fields.",
+        "Experience with AI Prompt Engineering, LLM Familiarity, Data Tooling, and Technical Troubleshooting.",
+        "Possess hyper-detail orientation, process-mindedness, and analytical thinking.",
+        "Demonstrate an inquisitive nature, adaptability, and clear communication skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Software Engineering Intern - (Summer 2026)  (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826-Ast/Software-Engineering-Intern----Summer-2026----Onsite-_01838965",
+    "location": "US-CA-SAN JOSE-826 ~ 200 Holger Way ~ BLDG 826, Ast",
+    "id": 553,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop object-oriented C++ software solutions.",
+        "Understand the software development lifecycle.",
+        "Write Python, MATLAB, or similar scripting languages.",
+        "Ability to work independently and in a small team.",
+        "Pursuing a Bachelor's or advanced degree.",
+        "Ability to obtain a U.S. government security clearance.",
+        "Experience with C, C++, Java, or Python.",
+        "Experience with data structures, object-oriented principles, and algorithms.",
+        "Experience with Unix/Linux and related utilities.",
+        "Familiarity with version control and defect tracking tools.",
+        "Knowledge of network and communication protocols."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "The Nielsen Company",
     "role": "AI-Powered OSS Supply Chain Security Intern",
     "link": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012640528",
