@@ -3,6 +3,7 @@ import type { Company } from "../type";
 import { isTarget, withinDays } from "../utils";
 
 import { ASHBY_API_URL } from "@/constants/ats";
+import { logger } from "@/utils/logger";
 
 export interface AshbyJob {
   id: string;
@@ -44,7 +45,7 @@ export async function fetchAshby(company: Company, urls: Set<string>) {
       location: job.location,
     }));
   } catch (error) {
-    console.error(`Error fetching ashby jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching ashby jobs");
     return [];
   }
 }

@@ -3,6 +3,7 @@ import type { Company } from "../type";
 import { isTarget, withinDays } from "../utils";
 
 import { SMART_RECRUITERS_API_URL } from "@/constants/ats";
+import { logger } from "@/utils/logger";
 
 interface SmartRecruitersJob {
   id: string;
@@ -54,7 +55,7 @@ export async function fetchSmartRecruiters(company: Company, urls: Set<string>) 
       location: job.location.fullLocation ?? "",
     }));
   } catch (error) {
-    console.error(`Error fetching greenhouse jobs for ${company}: ${error}`);
+    logger.error({ err: error, company: company.name }, "❌ Error fetching smart recruiters jobs");
     return [];
   }
 }

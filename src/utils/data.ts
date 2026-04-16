@@ -5,6 +5,7 @@ import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { COMPANY_PATH, JD_PATH, JOB_PATH, URLS_PATH } from "@/constants";
+import { logger } from "@/utils/logger";
 
 export async function loadUrls(): Promise<Set<string>> {
   try {
@@ -22,7 +23,7 @@ export async function saveUrls(urlsSet: Set<string>) {
   try {
     await fs.writeFile(URLS_PATH, json, "utf-8");
   } catch (error) {
-    console.error(`Error saving urls: ${error}`);
+    logger.error({ err: error }, "❌ Error saving urls");
   }
 }
 
@@ -38,14 +39,14 @@ export async function loadJobs(): Promise<Job[]> {
 
 export async function saveJd(jd: string, job: Job) {
   if (!job.id) {
-    console.error("Job ID is required");
+    logger.error("❌ Job ID is required");
     return;
   }
   try {
     const filename = `${job.id}.txt`;
     await fs.writeFile(path.join(JD_PATH, filename), jd, "utf-8");
   } catch (error) {
-    console.error(`Error saving JD for job ${job.id}: ${error}`);
+    logger.error({ err: error, jobId: job.id }, "❌ Error saving JD");
   }
 }
 
