@@ -101,15 +101,15 @@ async function main() {
   if (file !== undefined) {
     const filePath = file ?? "scripts/job.json";
     const content = await fs.readFile(filePath, "utf8");
-    const jobs: Job = JSON.parse(content);
+    const job: Job = JSON.parse(content);
 
-    await processor([jobs], false, false);
+    await processor([job], false, true);
     return;
   }
 
   // 3. default → add mode
   const job = await promptJob();
-  await processor([job], false, false);
+  await processor([job], false, true);
 }
 
 main().catch((err) => {

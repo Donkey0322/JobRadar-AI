@@ -16,7 +16,6 @@ export async function getRawJD(url: string): Promise<string | null> {
   try {
     // 1. classify ATS
     const urlType = classifyATS(new URL(url));
-
     let text = "";
 
     // 2. ATS-specific handling
