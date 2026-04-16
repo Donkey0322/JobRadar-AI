@@ -1,5 +1,62 @@
 [
   {
+    "company": "Lucid Motors",
+    "role": "Intern, Electrical Machines Testing & Data Analytics, Summer 2026",
+    "link": "https://job-boards.greenhouse.io/lucidmotors/jobs/4953725007",
+    "location": "Newark, CA",
+    "id": 542,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Plan and execute electrical machine characterization tests",
+        "Conduct loss and thermal measurements",
+        "Support instrumentation and data acquisition",
+        "Ensure data quality through validation and documentation",
+        "Develop MATLAB/Simulink and Python scripts",
+        "Extract key KPIs like efficiency and thermal behavior",
+        "Assist with surrogate modeling, UQ, and ML-based analytics",
+        "Gain experience in electrical machine testing",
+        "Build MATLAB and Python toolchains",
+        "Exposure to advanced modeling techniques",
+        "Strong background in electrical engineering",
+        "Hands-on experience with electrical machine testing",
+        "Proficient in MATLAB/Simulink and Python",
+        "Familiar with efficiency mapping and loss segregation",
+        "Familiar with frequency-domain analysis and sensor calibration",
+        "Familiar with statistical methods and uncertainty estimation",
+        "Interest in surrogate modeling, UQ, or ML workflows"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "2026 Raytheon Part Time Co-op - Software  Engineer (Remote)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/XMLNAME-2026-Raytheon-Part-Time-Co-op---Software--Engineer--Remote-_01838516",
+    "location": "4 Locations",
+    "id": 541,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a Senior or Post-Graduate in Computer Science or a related STEM major",
+        "Develop object-oriented software using Java in a Linux environment",
+        "Troubleshoot software errors and provide fixes in a modern IDE",
+        "Experience with Agile development",
+        "Develop software using C++, Javascript, and Python",
+        "Work with applications in the AWS Cloud",
+        "Experience with microservices, Docker, Kubernetes, and containerized applications",
+        "Possess excellent verbal and written communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Tesla",
     "role": "Internship, UX Design, Design Studio (Fall 2026)",
     "link": "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819",
