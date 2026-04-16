@@ -1145,6 +1145,7 @@
     "domain": "https://axos.wd5.myworkdayjobs.com/axos",
     "page": "https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/axos/jobs",
     "urls": [
+      "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507",
       "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern---Summer-2026_JR3504",
       "https://axos.wd5.myworkdayjobs.com/en-US/axos/job/HQ---San-Diego-CA/Software-Development-Intern---Summer-2026_JR3503-1"
     ]
@@ -2823,6 +2824,7 @@
     "page": "https://api.icims.com/v1/companies/stifel/jobs",
     "urls": [
       "https://careers-stifel.icims.com/jobs/8188/job?mobile=true&needsRedirect=false",
+      "https://careers-stifel.icims.com/jobs/8189/job?mobile=true&needsRedirect=false",
       "https://careers-stifel.icims.com/jobs/8210/job?mobile=true&needsRedirect=false"
     ]
   },
@@ -5273,6 +5275,17 @@
     ]
   },
   {
+    "name": "canoncareers",
+    "ats": "icims",
+    "identifier": "canoncareers",
+    "domain": "https://external-canoncareers.icims.com",
+    "page": "https://api.icims.com/v1/companies/canoncareers/jobs",
+    "urls": [
+      "https://external-canoncareers.icims.com/jobs/34090/job?mobile=true&needsRedirect=false",
+      "https://external-canoncareers.icims.com/jobs/34092/job?mobile=true&needsRedirect=false"
+    ]
+  },
+  {
     "name": "teldta",
     "ats": "icims",
     "identifier": "teldta",
@@ -6032,6 +6045,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AL200-401-Jan-Davis-Drive-Huntsville-401-Jan-Davis-Drive---Huntsville-AL-35806-USA/XMLNAME-2026-Systems-Engineering-Intern---Onsite---Huntsville--AL_01804908",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/AZ201-RMS-AP-Bldg-801-1151-East-Hermans-Road-Building-801-Tucson-AZ-85756-USA/XMLNAME-2026-Intern---Software-Engineer--Test-Equipment---Onsite_01790571",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Engineering-Product-Integrity-tools-and-process-improvements_01838292",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Software-Designer---Web-based-Tool-Development_01838371",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Stage---Ingnieur-de-projet-numrique---Digital-Project-Engineer_01808645",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA550-Fullerton-CA-Bldg-675-1801-West-Hughes-Drive-Building-675-Fullerton-CA-92834-USA/XMLNAME-2026-Intern---Software-Engineering-Intern---Onsite--CA-_01806456",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA601-Goleta-EW-Bldg-H01-6380-Hollister-Avenue-Building-H01-Goleta-CA-93117-USA/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite---CA-_01810527",
@@ -8906,6 +8920,16 @@
     ]
   },
   {
+    "name": "trumid",
+    "ats": "greenhouse",
+    "identifier": "trumid",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/trumid/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/trumid/jobs/7703392003"
+    ]
+  },
+  {
     "name": "truveta",
     "ats": "greenhouse",
     "identifier": "truveta",
@@ -9292,6 +9316,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/Hippocratic%20AI",
     "urls": [
       "https://jobs.ashbyhq.com/Hippocratic%20AI/0437c678-bd5a-429d-b34b-bfd3b70d1793/application"
+    ]
+  },
+  {
+    "name": "Kognitos",
+    "ats": "ashby",
+    "identifier": "Kognitos",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/Kognitos",
+    "urls": [
+      "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application"
     ]
   },
   {
@@ -11378,6 +11412,16 @@
     ]
   },
   {
+    "name": "verygoodsecurity",
+    "ats": "lever",
+    "identifier": "verygoodsecurity",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/verygoodsecurity?mode=json",
+    "urls": [
+      "https://jobs.lever.co/verygoodsecurity/32fe92a6-13d5-4132-b77c-a7a5ed74f38b/apply"
+    ]
+  },
+  {
     "name": "viget",
     "ats": "lever",
     "identifier": "viget",
@@ -11466,6 +11510,7 @@
     "urls": [
       "https://jobs.lever.co/zoox/07ac26ee-0594-41d8-928e-7cf1e373e2dd",
       "https://jobs.lever.co/zoox/0a53e7a7-bbbf-4834-bcd4-f0372e388dfa/apply",
+      "https://jobs.lever.co/zoox/15aa4a31-81e0-4f7a-b9d9-5bc64eb2afb8",
       "https://jobs.lever.co/zoox/3a7c0c4b-4f23-4136-99a9-df64b341a0fd",
       "https://jobs.lever.co/zoox/4770d734-9d08-4eae-abb5-6002495ca147/apply",
       "https://jobs.lever.co/zoox/5b8ec01c-fdc6-4e05-b077-051f28384b6f",
@@ -12390,6 +12435,7 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00173305-1",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Chantilly-VA/Software-Development-Intern_R-00176297",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Eagan-MN/STEM-Software-Engineering-Intern_R-00167920",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Engineer-Intern_R-00180872",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Huntsville-AL/Software-Engineer-Intern_R-00177800",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Lawton-OK/Software-Developer-Intern_R-00177923",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Newport-News-VA/Junior-Software-Engineer_R-00177107",
@@ -15831,6 +15877,16 @@
     "page": "",
     "urls": [
       "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?jobId=555080"
+    ]
+  },
+  {
+    "name": "wustl",
+    "ats": "workday",
+    "identifier": "wustl-external",
+    "domain": "https://wustl.wd1.myworkdayjobs.com/external",
+    "page": "https://wustl.wd1.myworkdayjobs.com/wday/cxs/wustl/external/jobs",
+    "urls": [
+      "https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-Medical-Campus/Software-Engineering-Intern--Time-Limited-Remote----WashU-IT_JR93463"
     ]
   },
   {

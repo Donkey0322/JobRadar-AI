@@ -1,5 +1,34 @@
 [
   {
+    "role": "Software Engineer Intern, Perception Data",
+    "link": "https://jobs.lever.co/zoox/15aa4a31-81e0-4f7a-b9d9-5bc64eb2afb8",
+    "location": "Foster City, CA",
+    "id": 570,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s in Computer Science, Computer Engineering, Electrical Engineering, Robotics, or a related field",
+        "Proficient in Python, including data-oriented libraries like pandas, NumPy, PyArrow",
+        "Experienced with at least one web framework (e.g., FastAPI, Flask, Django) or frontend framework (e.g., Vue, React, Angular) with TypeScript",
+        "Understand fundamental computer vision concepts (e.g., object detection, image classification, 2D/3D bounding boxes, point clouds)",
+        "Experienced with SQL or large-scale data processing tools (e.g., Databricks, PySpark)",
+        "Experienced working with Git and code review workflows",
+        "Possess strong problem-solving skills and ability to work independently",
+        "Experienced with ML frameworks like PyTorch or TensorFlow for vision tasks",
+        "Familiar with embedding models (e.g., CLIP/OpenCLIP) or VLMs for data curation or retrieval",
+        "Experienced with distributed computing or pipeline orchestration frameworks (e.g., Spark/PySpark, Airflow)",
+        "Exposed to cloud infrastructure (AWS S3, Databricks)",
+        "Familiar with protobuf for structured data serialization",
+        "Experience with data mining, active learning, or dataset curation for ML training",
+        "Experienced with LiDAR/camera sensor data in autonomous driving or robotics contexts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "RTX",
     "role": "Intern - Software Designer - Web based Tool Development",
     "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Software-Designer---Web-based-Tool-Development_01838371",
