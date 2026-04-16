@@ -10,7 +10,6 @@ const TECH_WORDS = [
   "frontend",
   "front-end",
   "full stack",
-  "full-stack",
   "fullstack",
   "platform",
   "web",
@@ -32,25 +31,27 @@ const NEW_GRAD_WORDS = [
   "new graduate",
 ];
 
+function buildPatterns(words: string[]) {
+  return words.map((word) => {
+    const pattern = word.replace(/\s+/g, "\\s+").replace(/-/g, "[- ]?");
+    return new RegExp(`\\b${pattern}\\b`, "i");
+  });
+}
+const INTERN_PATTERNS = buildPatterns(INTERN_WORDS);
+const NEW_GRAD_PATTERNS = buildPatterns(NEW_GRAD_WORDS);
+const TECH_PATTERNS = buildPatterns(TECH_WORDS);
+
 function isTechIntern(title: string) {
   const t = title.toLowerCase();
-  const isIntern = INTERN_WORDS.some((word) => {
-    const pattern = word.replace("-", "[- ]?");
-    const regex = new RegExp(`\\b${pattern}\\b`, "i");
-    return regex.test(t);
-  });
-  const isTech = TECH_WORDS.some((word) => t.includes(word));
+  const isIntern = INTERN_PATTERNS.some((regex) => regex.test(t));
+  const isTech = TECH_PATTERNS.some((regex) => regex.test(t));
   return isIntern && isTech;
 }
 
 function isTechNewGrad(title: string) {
   const t = title.toLowerCase();
-  const isTech = TECH_WORDS.some((word) => t.includes(word));
-  const NEW_GRAD_PATTERNS = NEW_GRAD_WORDS.map((word) => {
-    const pattern = word.replace(/\s+/g, "\\s+").replace("-", "[- ]?");
-    return new RegExp(`\\b${pattern}\\b`, "i");
-  });
-  const isNewGrad = NEW_GRAD_PATTERNS.some((r) => r.test(t));
+  const isTech = TECH_PATTERNS.some((regex) => regex.test(t));
+  const isNewGrad = NEW_GRAD_PATTERNS.some((regex) => regex.test(t));
   return isTech && isNewGrad;
 }
 

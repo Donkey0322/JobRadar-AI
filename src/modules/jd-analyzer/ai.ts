@@ -2,7 +2,7 @@ import { ApiError, GoogleGenAI } from "@google/genai";
 
 import type { GenerateContentResponse } from "@google/genai";
 
-import { LOCATIONS } from "@/constants";
+import { LOCATIONS, SEASONS } from "@/constants";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY ?? "";
 const PERSONAL_GEMINI_API_KEY = process.env.BACKUP_GEMINI_API_KEY ?? "";
@@ -28,19 +28,16 @@ const JD_SCHEMA = {
     },
     term: {
       type: "string",
-      enum: [
-        "2026 Winter",
-        "2026 Spring",
-        "2026 Summer",
-        "2026 Fall",
-        "2027 Spring",
-        "2027 Winter",
-        "New Grad",
-        "unsure",
-      ],
+      enum: SEASONS,
     },
   },
-  required: ["requires_usa_citizenship", "offers_visa_sponsorship", "qualifications", "term"],
+  required: [
+    "requires_usa_citizenship",
+    "offers_visa_sponsorship",
+    "qualifications",
+    "term",
+    "location",
+  ],
 };
 
 function calculateCost(response: GenerateContentResponse) {

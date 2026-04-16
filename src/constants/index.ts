@@ -16,16 +16,17 @@ export const JOB_PATH = path.join(DATA_PATH, "sent-jobs.json");
 export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 
-export const TARGET_SEASONS = [
-  "Summer 2026",
-  "Fall 2026",
-  "Spring 2027",
-  "Winter 2027",
-  "off-season",
-] as const;
-
 export const LOCATIONS = ["USA", "Canada", "UK", "Other"] as const;
 export type Location = (typeof LOCATIONS)[number];
+
+export const SEASONS = [
+  "2026 Summer",
+  "2026 Fall",
+  "2027 Spring",
+  "2027 Winter",
+  "New Grad",
+  "unsure",
+] as const;
 
 export const CONFIG: Config & { sender: { pass: string } } = {
   target: parsedConfig.target,

@@ -58,10 +58,8 @@ export default async function processor(jobs: Job[] = [], main = true, isDev = f
     for (const job of toSend) {
       await sendEmail(job);
     }
-    await saveUrls(urls);
+    console.log(`🎉 Sent ${toSend.length} new job emails for ${getToday()}`);
   }
-
+  await saveUrls(urls);
   await saveJob(toSend);
-
-  console.log(`🎉 Sent ${toSend.length} new job emails for ${getToday()}`);
 }
