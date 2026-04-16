@@ -1,5 +1,39 @@
 [
   {
+    "company": "Ridealso",
+    "role": "Software Engineering Intern, Firmware - Summer 2026",
+    "link": "https://jobs.ashbyhq.com/Ridealso/09ab1145-d0b5-4578-838d-039d195771a7",
+    "location": "Palo Alto",
+    "id": 545,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Engineering, Electrical Engineering, Computer Science, or related field.",
+        "Proficient in C programming.",
+        "Understand embedded systems fundamentals.",
+        "Experience with Python scripting.",
+        "Experience with ARM Cortex-M microcontrollers.",
+        "Familiar with CI/CD systems.",
+        "Experience with build systems like Bazel, West, CMake, Make.",
+        "Proficient with Git version control.",
+        "Apply a structured software development approach.",
+        "Possess intellectual curiosity and willingness to learn.",
+        "Strong analytical and problem-solving abilities.",
+        "Effective team collaboration across departments.",
+        "Clearly communicate knowledge gaps and learning needs.",
+        "Adaptable in fast-paced environments.",
+        "Self-motivated with strong initiative.",
+        "Expected graduation date of 2027.",
+        "Experience with RTOS.",
+        "Previous internship or project experience in relevant industries."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "ensemblehp",
     "role": "Data Integration Intern",
     "link": "https://ensemblehp.wd5.myworkdayjobs.com/ensemblehealthpartnerscareers/job/Remote---Nationwide/Data-Integration-Intern_R040764",
