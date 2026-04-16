@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "dev": "tsx src/index.ts --dev",
-    "analyze": "tsx scripts/link.ts",
+    "jobctl": "tsx scripts/link.ts",
     "company": "tsx scripts/company.ts",
     "crawler": "tsx scripts/crawler.ts",
     "dedup": "tsx scripts/dedup.ts"

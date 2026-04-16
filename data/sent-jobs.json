@@ -1,5 +1,42 @@
 [
   {
+    "company": "Tesla",
+    "role": "Internship, UX Design, Design Studio (Fall 2026)",
+    "link": "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819",
+    "location": "Fremont, California"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Crypto Researcher (Full-time)",
+    "link": "https://www.jumptrading.com/hr/job?gh_jid=7362357",
+    "location": "Chicago",
+    "season": "New Grad",
+    "id": 540,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Monitor crypto landscape",
+        "Translate industry trends into strategy",
+        "Aggregate information to produce valuable content",
+        "Empower the team through research",
+        "Contribute to partners on code and strategy",
+        "Produce actionable insights from data",
+        "Identify early-stage opportunities",
+        "Communicate research insights through writing and presentations",
+        "Obsessed with crypto industry",
+        "Well-versed in blockchain development disciplines",
+        "Excellent written and verbal communicator",
+        "Balance research with actionable results",
+        "Excited by fast-paced, lean organization",
+        "Kind, communicative, resourceful, and self-sufficient",
+        "Reliable and predictable availability"
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
     "company": "RTX",
     "role": "Intern",
     "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Internship---Fall-2026---Engineering-Product-Integrity-tools-and-process-improvements_01838292",

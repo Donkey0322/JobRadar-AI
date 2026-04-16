@@ -3,7 +3,7 @@ import { GREENHOUSE_API_URL } from "@/constants/ats";
 export function parseGreenhouse(url: string) {
   const u = new URL(url);
 
-  // case 1: embed
+  // case 1: embed (boards.greenhouse.io)
   const jobIdFromQuery = u.searchParams.get("gh_jid");
   const companyFromQuery = u.searchParams.get("for");
 
@@ -14,10 +14,19 @@ export function parseGreenhouse(url: string) {
     };
   }
 
-  // case 2: normal path
-  const parts = u.pathname.split("/").filter(Boolean);
+  // case 2: custom domain with gh_jid (e.g. jumptrading)
+  if (jobIdFromQuery) {
+    const hostname = u.hostname;
+    const company = hostname.replace(/^www\./, "").split(".")[0];
 
-  // /stripe/jobs/1234567
+    return {
+      company,
+      jobId: jobIdFromQuery,
+    };
+  }
+
+  // case 3: normal greenhouse path
+  const parts = u.pathname.split("/").filter(Boolean);
   if (parts.length >= 3 && parts[1] === "jobs") {
     return {
       company: parts[0],
