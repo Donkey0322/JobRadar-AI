@@ -1,5 +1,50 @@
 [
   {
+    "role": "PhD Research Intern, Physical AI in Perception",
+    "link": "https://jobs.lever.co/zoox/aab5dc76-6ee6-419c-90ce-4a852d9fdeec",
+    "location": "Foster City, CA",
+    "id": 593,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Ph.D program in Computer Science, ECE, or related field, with specialization in CV/NLP/ML.",
+        "Experienced in multi-modal modeling with deep understanding of VLM, vision foundation models, flow-matching, temporal modeling, and RL.",
+        "Proficient in PyTorch and modern transformer-based model design.",
+        "Published in top-tier AI conferences.",
+        "Experienced in building foundation or end-to-end driving models or working on LLM/VLM architectures.",
+        "Knowledgeable in RLHF/DPO/GRPO and trajectory prediction for safety.",
+        "Maintain good academic standing.",
+        "Completed at least one previous industry internship, co-op, or relevant project."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "globalhr",
+    "role": "Intern: Summer 2026 - Control Diagnostic System",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Intern--Summer-2026---Control-Diagnostic-System_01792836-1",
+    "location": "US-PR-AGUADILLA-110 ~ Rd 110 N Km 28.8 ~ RD110",
+    "id": 592,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in Computer Science, Mechanical, Aerospace, Computer, Software, or Electrical Engineering",
+        "Maintain a minimum GPA of 3.0",
+        "Understand gas turbine jet engine operation and sub-systems",
+        "Proficient in C++, MATLAB, Java, or Python programming",
+        "Experience with modeling tools like NPSS, Dymola, or Simulink",
+        "Ability to execute in a multidisciplinary environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Royal Bank of Canada",
     "role": "Salesforce Developer Co-op",
     "link": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/MISSISSAUGA-Ontario-Canada/Salesforce-Developer--Summer-2026-Co-op--4-Months-_R-0000159550",
