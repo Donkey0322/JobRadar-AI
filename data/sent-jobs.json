@@ -1,5 +1,56 @@
 [
   {
+    "company": "Verkada",
+    "role": "Embedded Software Engineering Intern - Fall 2026",
+    "link": "https://job-boards.greenhouse.io/verkada/jobs/5099596007",
+    "location": "San Mateo, CA United States",
+    "id": 578,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Design, develop, test, deploy, maintain, and improve embedded and server-side software.",
+        "Effectively manage priorities, deadlines, and deliverables.",
+        "Develop features in C, C++, Go, and Python for embedded software and firmware.",
+        "Design, develop, and verify embedded software, firmware, and drivers.",
+        "Work with new technologies critical to product development.",
+        "Collaborate with product management and cross-functional teams.",
+        "Experiment and test new development boards.",
+        "Make regular contributions to existing codebase for new features.",
+        "Collaborate with senior engineers to define new product specs.",
+        "Ability to work at Verkada HQ during Fall 2026.",
+        "Actively pursuing a Bachelor's or Master's in Computer Science.",
+        "Possess internship experience developing and launching products.",
+        "Experience with Embedded Linux, C, USB, I2C, and Yocto.",
+        "Familiar with Linux servers, device drivers, and kernel patches.",
+        "Comfortable working in an agile team environment."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "cadence",
+    "role": "Software Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R52814-1",
+    "location": "SAN JOSE",
+    "id": 577,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a BS or Master's in Computer Science or Engineering.",
+        "Excellent programming skill in scripting language.",
+        "Possess background in physical verification, testing, and relational databases.",
+        "Good communication skills for geographically distributed teams."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Context",
     "role": "Intern",
     "link": "https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application",
