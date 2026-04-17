@@ -1,5 +1,39 @@
 [
   {
+    "company": "Royal Bank of Canada",
+    "role": "Salesforce Developer Co-op",
+    "link": "https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/MISSISSAUGA-Ontario-Canada/Salesforce-Developer--Summer-2026-Co-op--4-Months-_R-0000159550",
+    "location": "Mississauga, ON, Canada",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intel",
+    "role": "Agentic AI Software Research Intern",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Agentic-AI-Software-Research-Intern_JR0282977",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 591,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's degree in Computer Science, Computer Engineering, Mathematics, Statistics, or related technical field",
+        "Possess strong, practical Python coding skills",
+        "Comfortable with Git/version control, debugging, and API integration",
+        "Understand basic data structures and algorithms",
+        "Possess coursework or practical experience in machine learning, deep learning, or NLP",
+        "Familiarity with LLMs, prompt engineering, context windows, and model capabilities",
+        "Ability to pick up new frameworks and concepts quickly",
+        "Ability to debug when things break and make progress on loosely defined problems",
+        "Ability to explain technical work clearly in writing and verbally",
+        "Genuinely excited about agentic AI, autonomous systems, and research questions",
+        "Possess a builder mentality to ship working prototypes quickly"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Revvity",
     "role": "Web and Marketing Intern",
     "link": "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/Intern---Web-and-Marketing_JR-044137",
