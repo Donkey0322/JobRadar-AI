@@ -1,5 +1,85 @@
 [
   {
+    "role": "Modeling & Simulation Software Engineering Intern - Fall 2026",
+    "link": "https://jobs.lever.co/hermeus/49f7cf3f-bf66-44ca-bf97-ee0f7180a68d",
+    "location": "Los Angeles, CA",
+    "id": 602,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in a relevant technical field",
+        "Be proficient in Julia or scientific computing languages",
+        "Understand 6DOF dynamics and simulation principles",
+        "Be familiar with modeling physical systems",
+        "Have experience with data validation and analysis",
+        "Possess a strong understanding of engineering first principles",
+        "Demonstrate ability to work in cross-functional teams",
+        "Have enthusiasm for aviation and Hermeus' mission",
+        "Possess excellent written and verbal communication skills",
+        "Maintain a GPA of 3.0 or above"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "role": "Executive Intelligence & AI Strategy Intern",
+    "link": "https://jobs.lever.co/actian/9dcc3a2f-9408-4b7d-9305-ef03ba3e4523",
+    "location": "US-Remote",
+    "id": 601,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Architect the Executive Dossier Engine",
+        "Map the Relationship Heatmap using data",
+        "Develop an AI-driven predictive outreach strategy",
+        "Research and implement AI tools for net-new relationship modeling",
+        "Test engagement hypotheses to determine effective outreach styles",
+        "Proficient in CRM & CS Platforms like Salesforce or ChurnZero",
+        "Possess advanced prompt engineering ability",
+        "Proficient in using AI for market research skills",
+        "Experienced in data visualization with Tableau or Salesforce CRM",
+        "Interested in C-level corporate strategy and executive relationships",
+        "Actively enrolled in a college degree program",
+        "Legally authorized to work in the country of employment",
+        "Located in the United States during the internship"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Amazon",
+    "role": "2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics",
+    "link": "https://amazon.jobs/en/jobs/3127861",
+    "location": "US, CA, San Francisco",
+    "id": 600,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a PhD program",
+        "Able to relocate for the internship",
+        "Experience programming in Java, C++, or Python",
+        "Available for a full-time 12-week internship",
+        "Strong background in machine learning, deep learning, or robotics",
+        "Publication record at science conferences",
+        "Experience with multimodal LLMs, world models, or image/video tokenization",
+        "Proficient in Python, PyTorch, or JAX",
+        "Excellent problem-solving, attention to detail, and teamwork skills",
+        "Publications at top-tier peer-reviewed conferences or journals",
+        "Experience designing experiments and statistical analysis"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "role": "Hardware-In-the-Loop Software Engineering Intern - Fall 2026",
     "link": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
     "location": "Atlanta, GA",
