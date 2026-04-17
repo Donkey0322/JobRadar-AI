@@ -7960,6 +7960,16 @@
     ]
   },
   {
+    "name": "hyannisportresearch",
+    "ats": "greenhouse",
+    "identifier": "hyannisportresearch",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hyannisportresearch/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/hyannisportresearch/jobs/6667961003"
+    ]
+  },
+  {
     "name": "ibkr",
     "ats": "greenhouse",
     "identifier": "ibkr",
@@ -8345,6 +8355,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/northmarq/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/northmarq/jobs/4902344008"
+    ]
+  },
+  {
+    "name": "northspyre",
+    "ats": "greenhouse",
+    "identifier": "northspyre",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/northspyre/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/northspyre/jobs/7704668003"
     ]
   },
   {
@@ -10585,6 +10605,7 @@
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210835",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210854",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210881",
+      "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210894",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210906",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210923",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210926",
@@ -12714,6 +12735,7 @@
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Full-Stack-Software-Engineer_JR26010479",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Full-Stack-Software-Engineer_JR26010481",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Software-Engineering_JR25110669",
+      "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-2026-Co-op---Automation-Developer_JR26041117",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Summer-Intern-Co-op-2026---Software-Engineering_JR25090419"
     ]
   },
@@ -15028,6 +15050,16 @@
     "page": "https://tandemdiabetes.wd12.myworkdayjobs.com/wday/cxs/tandemdiabetes/tandemdiabetes/jobs",
     "urls": [
       "https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes/job/California---High-Bluff/AI-Solutions-Intern_JR100960-2"
+    ]
+  },
+  {
+    "name": "tcenergy",
+    "ats": "workday",
+    "identifier": "tcenergy-career_site_tc",
+    "domain": "https://tcenergy.wd3.myworkdayjobs.com/career_site_tc",
+    "page": "https://tcenergy.wd3.myworkdayjobs.com/wday/cxs/tcenergy/career_site_tc/jobs",
+    "urls": [
+      "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Spokane-Washington/Operations-Digital-Transformation-Team-Intern_JR-10074"
     ]
   },
   {
