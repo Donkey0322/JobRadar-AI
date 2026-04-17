@@ -1568,7 +1568,8 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/apptronik/jobs",
     "urls": [
-      "https://boards.greenhouse.io/apptronik/jobs/5789359004"
+      "https://boards.greenhouse.io/apptronik/jobs/5789359004",
+      "https://boards.greenhouse.io/apptronik/jobs/5828414004?gh_jid=5828414004"
     ]
   },
   {
@@ -15358,7 +15359,8 @@
     "page": "https://uhaul.wd1.myworkdayjobs.com/wday/cxs/uhaul/uhauljobs/jobs",
     "urls": [
       "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/Android-Developer-Intern_R242635",
-      "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/iOS-Developer-Intern_R242642"
+      "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/iOS-Developer-Intern_R242642",
+      "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Phoenix-Arizona/Software-Development-Summer-Intern_R242785"
     ]
   },
   {
