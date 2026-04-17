@@ -1,5 +1,135 @@
 [
   {
+    "company": "Electronic Arts",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210894",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Fall",
+    "id": 610,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards a Bachelor's degree in Computer Science or equivalent.",
+        "Experience with C#, C++, or Python programming languages.",
+        "Understand the interaction between software, hardware, and networks.",
+        "General understanding of AI technology and Machine Learning basics.",
+        "Understand software development life cycle and engineering methodologies.",
+        "Quick learner of new technologies and paradigms.",
+        "Possess strong problem-solving and analytical skills.",
+        "Proactive in task completion and issue escalation.",
+        "Creative and logical thinker, finding ingenious solutions.",
+        "Basic knowledge of technical writing."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Manulife Financial",
+    "role": "Co-op",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-2026-Co-op---Automation-Developer_JR26041117",
+    "location": "Kitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 609,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working on a degree in Computer Science, Engineering, Data Science/Analytics",
+        "Experience with SQL, C#.NET, and MS Power Platform",
+        "Passionate about agile delivery for automation solutions",
+        "Strong work ethic with a proactive, flexible attitude",
+        "Strong time management, planning, and communication skills",
+        "Understanding of the financial services industry",
+        "Proficient with Visual Studio or comparable IDE"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TC Energy",
+    "role": "Operations Digital Transformation Intern",
+    "link": "https://tcenergy.wd3.myworkdayjobs.com/CAREER_SITE_TC/job/Spokane-Washington/Operations-Digital-Transformation-Team-Intern_JR-10074",
+    "location": "Spokane, WA",
+    "season": "2026 Summer",
+    "id": 608,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in Computer Sciences, Engineering, Data Sciences, or related undergraduate degree.",
+        "Completed at least one semester of undergraduate education.",
+        "Enrolled at an accredited University/Polytechnic.",
+        "Returning to school for at least one semester after the work term.",
+        "Experienced with agentic AI systems and development.",
+        "Demonstrate a safety mindset.",
+        "Exhibit TC Energy corporate values.",
+        "Possess strong interpersonal and communicative skills.",
+        "Committed to building and maintaining stakeholder relationships.",
+        "Able to accurately analyze information.",
+        "Able to deal with ambiguity.",
+        "Experienced working in dynamic, challenging environments.",
+        "Adaptable to changing priorities.",
+        "Able to multi-task effectively.",
+        "Possess strong organizational and time management skills.",
+        "Committed to continuous improvement and personal development.",
+        "Proficient with Microsoft Office products (Excel, PowerPoint, Power BI)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "HPR (Hyannis Port Research)",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/hyannisportresearch/jobs/6667961003",
+    "location": "Needham, MA",
+    "season": "2026 Summer",
+    "id": 607,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS/MS in Computer Engineering, Computer Science, or related field with Sophomore standing or higher.",
+        "Complete courses in Data Structures & Algorithms, Operating Systems, Machine Structure & Assembly-Language, Performance Engineering, and/or Networks & Protocols.",
+        "Maintain at least a 3.0 cumulative GPA.",
+        "Possess relevant programming experience from internships or academics.",
+        "Demonstrate ability to read and write C code.",
+        "Familiar with Linux Bash/Shell environment.",
+        "Possess programming experience developing Python or Java applications.",
+        "Possess strong technical skills and interest in expanding coding knowledge.",
+        "Capable of working collaboratively in a fast-paced environment.",
+        "Desire to work with low-level technologies.",
+        "Familiar with network socket programming and TCP."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Northspyre",
+    "role": "AI Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/northspyre/jobs/7704668003",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 606,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS or MS in Computer Science, Computer Engineering, or related field",
+        "Possess strong CS fundamentals",
+        "Have hands-on experience with LLMs, AI agents, or AI/ML pipelines",
+        "Be comfortable working in Python and at least one modern AI/ML framework",
+        "Demonstrate a portfolio or GitHub showing real working projects"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "uhaul",
     "role": "Software Development Summer Intern",
     "link": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Phoenix-Arizona/Software-Development-Summer-Intern_R242785",
