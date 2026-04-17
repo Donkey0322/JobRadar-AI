@@ -1,5 +1,249 @@
 [
   {
+    "company": "Global Relay",
+    "role": "Co-op (Software Development / Testing / AI) - expression of interest",
+    "link": "https://www.globalrelay.com/careers/jobs?gh_jid=5645073004",
+    "location": "Vancouver, British Columbia, Canada",
+    "id": 588,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Ambitious young professionals eager to kickstart careers",
+        "Drive to learn and explore various areas of interest",
+        "Passionate about tackling complex challenges with creativity",
+        "Committed to quality, integrity, candor, and continuous improvement",
+        "Collaborative spirit and ability to thrive in dynamic teams"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Stripe",
+    "role": "Software Engineer, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7532256",
+    "location": "Sydney, Australia",
+    "id": 587,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Strong fundamental understanding of computer science",
+        "Familiarity with programming languages",
+        "Experience from previous internships or multi-person projects",
+        "Able to learn unfamiliar systems through research and mentorship",
+        "At least 2 years of university education or equivalent",
+        "Specialized knowledge balanced with general skills",
+        "Understand and experience writing high quality pull requests",
+        "Familiar with navigating and managing work in new code bases",
+        "Able to write clearly to explain work"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Stripe",
+    "role": "PhD Data Scientist, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7285974",
+    "location": "Toronto, Ontario, Canada",
+    "id": 586,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in a quantitative PhD program, graduating in Winter 2026 or Spring/Summer 2027.",
+        "Experienced with a scientific computing language (Python, R) and SQL.",
+        "Knowledgeable in machine learning, statistics, optimization, product analytics, causal inference, or experimentation.",
+        "Experienced communicating and collaborating with multidisciplinary stakeholders.",
+        "Experienced writing and debugging data pipelines.",
+        "Demonstrated ability to evaluate and receive feedback from mentors, peers, and stakeholders.",
+        "Able to learn new systems and form understanding through research and mentorship."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Stripe",
+    "role": "Data Analyst, Intern (Master's degree)",
+    "link": "https://stripe.com/jobs/search?gh_jid=7285986",
+    "location": "Toronto, Ontario, Canada",
+    "id": 585,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in a quantitative Master's degree program",
+        "Experienced with scientific computing languages (Python, R) and SQL",
+        "Experienced communicating and collaborating with multidisciplinary stakeholders",
+        "Experienced writing and debugging data pipelines",
+        "Demonstrated ability to evaluate and receive feedback",
+        "Able to learn new systems and form an understanding"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch Group",
+    "role": "[EAB] Automation & AI Tooling Intern (Python/ML/Simulink)",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000121335917",
+    "location": "Ho Chi Minh, , Vietnam",
+    "id": 584,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Undergraduate student in Computer Science, IT, Electrical/Automotive Engineering, or related field",
+        "Strong Python, C\\C++ programming skills",
+        "Able to join full-time for 6 months",
+        "Basic knowledge of Machine Learning fundamentals",
+        "Basic knowledge of Signal processing concepts",
+        "Basic knowledge of Data structures & algorithms",
+        "Possess logical thinking, curiosity, and willingness to learn automotive systems",
+        "Good English communication and teamwork skills",
+        "Experience with Boosting models (XGBoost, LightGBM, CatBoost)",
+        "Familiarity with sensor data, time-series, or anomaly detection",
+        "Basic understanding of MATLAB/Simulink",
+        "Experience with GUI development (Tkinter, PyQt, PySimpleGUI)",
+        "Experience with data automation / scripting / tool development",
+        "Knowledge of vehicle dynamics or physics"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Software Engineering Intern, Kernel Optimization (Serbia)",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5096351007",
+    "location": "Belgrade, Serbia",
+    "id": 583,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Enrolled in final year BSc or MSc studies in Computer Science or related field.",
+        "Comfortable with programming languages including C++ and Python.",
+        "Solid foundation in algorithms and data structures.",
+        "Curious about kernel development, low-level and tensor optimizations.",
+        "Implement and optimize kernels for convolution-based operations.",
+        "Analyze and optimize low-level code for performance.",
+        "Collaborate with ML engineers and data scientists.",
+        "Write unit tests and debug kernel-level code."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Intern, Scaleout Software (Fabric)",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4972015007",
+    "location": "Toronto, Ontario, Canada",
+    "id": 582,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Highly motivated student seeking an 8-16 month PEY term.",
+        "Excited by writing assembly and counting CPU cycles.",
+        "Take ownership of assigned internship work.",
+        "Proficient in C/C++.",
+        "Enthusiastic about high-performance computing and massively parallel systems.",
+        "Possess a solid foundation in Computer Architecture, Parallel Programming, and Software Design."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Graphcore",
+    "role": "2026 Summer Intern - Platform QA",
+    "link": "https://job-boards.greenhouse.io/graphcore/jobs/8426617002",
+    "location": "Bristol, UK",
+    "id": 581,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Currently studying Computer Science or a similar degree.",
+        "Strong programming experience in Python, Go, C++, or infrastructure-as-code.",
+        "Experience working in Linux environments.",
+        "Automate building and testing with continuous integration systems.",
+        "Write strong, impartial reports for various readers.",
+        "Aptitude for planning and executing responsibilities.",
+        "Experience with Containerisation, Virtualisation, and Workload scheduling.",
+        "Experience in quality assurance or testing teams.",
+        "Experience with Atlassian suite and CI/CD platforms."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "DoubleVerify",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/doubleverify/jobs/8452605002",
+    "location": "Ghent-Belgium",
+    "id": 580,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Currently a Master's student in Computer Science or a related field",
+        "Be a problem solver first",
+        "Enjoy collaborating and be proactive",
+        "Work independently",
+        "Familiarity with JavaScript/TypeScript, serverless workers, web technologies, automated software testing, browser APIs, code profiling",
+        "Possess good data analysis skills",
+        "Have Open Source contributions or public GitHub projects"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "DoubleVerify",
+    "role": "DevOps Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/doubleverify/jobs/8452592002",
+    "location": "Ghent-Belgium",
+    "id": 579,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Interested in understanding how technology works",
+        "Not afraid to tackle complex systems and problems",
+        "Show initiative and autonomy",
+        "Collaborate with genuine curiosity about improving systems",
+        "Active student in a computer science degree",
+        "Possess a basic understanding of Linux and scripting",
+        "Proficient in programming languages like Python, NodeJs, or Go"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Cloud Data Services",
+    "role": "Intern - Software Engineer (Product Architecture)",
+    "link": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2313",
+    "location": "Poland"
+  },
+  {
     "company": "Verkada",
     "role": "Embedded Software Engineering Intern - Fall 2026",
     "link": "https://job-boards.greenhouse.io/verkada/jobs/5099596007",
