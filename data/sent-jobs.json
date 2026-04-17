@@ -1,5 +1,63 @@
 [
   {
+    "role": "Hardware-In-the-Loop Software Engineering Intern - Fall 2026",
+    "link": "https://jobs.lever.co/hermeus/10d69ef6-a754-42ab-833c-76adf01367bf",
+    "location": "Atlanta, GA",
+    "id": 599,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Configure and maintain test benches.",
+        "Develop and implement test and automation scripts.",
+        "Debug signal and communication issues.",
+        "Assist in validating vehicle and flight deck control systems.",
+        "Document test results and maintain accurate records.",
+        "Collaborate with cross-functional engineering teams.",
+        "Pursue a degree in Computer Engineering, Computer Science, Electrical Engineering, or a related technical field.",
+        "Proficient in Julia or experienced with Python, MATLAB, or C++.",
+        "Experienced with hardware integrations and embedded computers (Raspberry PIs, Arduinos, STM32s).",
+        "Strong understanding of engineering first principles.",
+        "Demonstrated ability to work within cross-functional teams.",
+        "Enthusiastic about aviation and Hermeus' mission.",
+        "Excellent written and verbal communication skills.",
+        "GPA of 3.0 or above."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Amazon",
+    "role": "2026 Fall Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting",
+    "link": "https://amazon.jobs/en/jobs/10394934",
+    "location": "US, WA, Seattle",
+    "id": 598,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a PhD program",
+        "Able to relocate to the internship location",
+        "Experience programming in Java, C++, Python or related language",
+        "Available for full-time (40 hours per week) internship for the whole duration",
+        "Have publications at top-tier peer-reviewed conferences or journals",
+        "Experience building models for business applications",
+        "Expertise in LLMs, NLP/NLU, Gen AI, Transformers, Fine-Tuning",
+        "Expertise in Recommendation Systems, Deep Learning, NER",
+        "Proficient in Statistics, Neural Networks, Question Answering",
+        "Ability to work collaboratively with diverse groups and cross-functional teams",
+        "Self-starter, comfortable with ambiguity",
+        "Strong attention to detail",
+        "Ability to thrive in a fast-paced, ever-changing environment"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "kiongroup",
     "role": "Software Development in Test Intern",
     "link": "https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Software-Development-in-Test-Intern_JR-0082729",
