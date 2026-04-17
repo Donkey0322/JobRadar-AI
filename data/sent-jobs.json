@@ -1,5 +1,30 @@
 [
   {
+    "company": "Lennox International",
+    "role": "IT Co-Op",
+    "link": "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false",
+    "location": "Letchworth, AR",
+    "season": "2026 Summer",
+    "id": 571,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Information Technology, MIS, or related field.",
+        "Ability to work onsite for 12 months.",
+        "Ability to work in a manufacturing environment.",
+        "Strong written and verbal communication.",
+        "Strong analytical and problem-solving skills.",
+        "Exposure to or coursework in .NET, C#, or SQL Server.",
+        "Experience with Visual Studio.",
+        "Exposure to analytics, dashboards, or reporting tools.",
+        "Interest in manufacturing or operational data systems."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "role": "Software Engineer Intern, Perception Data",
     "link": "https://jobs.lever.co/zoox/15aa4a31-81e0-4f7a-b9d9-5bc64eb2afb8",
     "location": "Foster City, CA",
