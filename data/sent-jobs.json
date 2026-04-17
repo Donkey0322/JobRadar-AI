@@ -1,5 +1,74 @@
 [
   {
+    "company": "Context",
+    "role": "Intern",
+    "link": "https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 576,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have high agency and comfort with ambiguity",
+        "Possess excellent communication skills",
+        "Be technically fluent with fullstack engineering experience"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Uhaul",
+    "role": "iOS Developer Intern",
+    "link": "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/iOS-Developer-Intern_R242642",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 575,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working knowledge of Swift and Xcode.",
+        "Understand iOS app lifecycle, SwiftUI, and Apple’s Human Interface Guidelines.",
+        "Ability to debug issues using Xcode tools and logs.",
+        "Experience committing and managing code with Git.",
+        "Familiarity with Swift language features including enums, properties, and concurrency.",
+        "Exposure to offline storage solutions like UserDefaults or Core Data.",
+        "Exposure to OOP concepts and iOS design patterns (MVVM, delegation).",
+        "Basic understanding of iOS networking, RESTful APIs, and JSON.",
+        "Experience integrating third-party libraries with Swift Package Manager."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Uhaul",
+    "role": "Android Developer Intern",
+    "link": "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/Android-Developer-Intern_R242635",
+    "location": "Phoenix, AZ",
+    "season": "2026 Summer",
+    "id": 574,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have working knowledge of Kotlin and Android Studio.",
+        "Understand Android app architecture, Jetpack Compose, and Material Design.",
+        "Able to debug issues and reason through problems using Android Studio tools and Logcat.",
+        "Experience committing and managing code using Git.",
+        "Familiar with Kotlin language features (data classes, sealed classes, higher-order functions, null safety, basic coroutines).",
+        "Exposure to local data storage solutions (SharedPreferences, Room, or similar).",
+        "Exposure to Android architecture concepts (MVVM, Unidirectional Data Flow, Repository patterns).",
+        "Understand networking on Android, consuming RESTful APIs and working with JSON.",
+        "Experience integrating third-party libraries or SDKs using Maven."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "baxter",
     "role": "Intern, R&D Embedded Software",
     "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Raleigh-North-Carolina/Intern--R-D-Embedded-Software_JR-200229-1",
