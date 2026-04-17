@@ -1,5 +1,107 @@
 [
   {
+    "company": "kiongroup",
+    "role": "Software Development in Test Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Software-Development-in-Test-Intern_JR-0082729",
+    "location": "4 Locations",
+    "id": 597,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design, script, and execute comprehensive software tests",
+        "Identify and report bugs",
+        "Collaborate with global teams",
+        "Work collaboratively with experienced professionals",
+        "Gain practical experience in software development",
+        "Contribute to ongoing projects",
+        "Assist with research, data analysis, and development tasks",
+        "Participate in team meetings, trainings, and presentations",
+        "Currently enrolled in a bachelor's degree program in Computer Science, Software Engineering, or a related field",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and interpersonal skills",
+        "Ability to work independently and as part of a team",
+        "Possess a passion for technology and a desire to learn"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Rocket Lawyer",
+    "role": "UX Research Intern, AI Experience",
+    "link": "https://job-boards.greenhouse.io/rocketlawyer/jobs/5181711008",
+    "location": "Arizona ; California; Colorado ; North Carolina ; Utah ",
+    "id": 596,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Human-Computer Interaction, Psychology, Sociology, Design, or a related field.",
+        "Strong interest in UX research, AI experiences, and user behavior.",
+        "Foundational knowledge of qualitative research methods.",
+        "Strong organizational and note-taking skills.",
+        "Clear written and verbal communication skills.",
+        "Ability to collaborate in cross-functional teams and learn in a fast-moving environment.",
+        "Experience conducting user interviews or usability tests.",
+        "Familiarity with research tools such as Dovetail, UserTesting, Lookback.",
+        "Exposure to AI products or interest in human-AI interaction.",
+        "Basic understanding of product experimentation or analytics.",
+        "Interest in legal tech, fintech, or other regulated industries."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "abcfinancial",
+    "role": "Software Engineer - Intern",
+    "link": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Dallas-TX/Software-Engineer---Intern_REQ-1248",
+    "location": "Dallas, TX",
+    "id": 595,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in Computer Science, Software Engineering, or a related area.",
+        "Experience with various programming languages.",
+        "Possess strong communication and presentation skills.",
+        "Be self-motivated and results-oriented.",
+        "Interact with cross-functional teams.",
+        "Possess strong problem-solving abilities.",
+        "Have highly developed analytical and organizational skills.",
+        "Work in a fast-paced environment.",
+        "Complete sophomore year of college.",
+        "Learn to resolve technical issues through debugging, research, and investigation."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Squarespace",
+    "role": "Software Engineering Intern - Summer 2026",
+    "link": "http://www.squarespace.com/about/careers?gh_jid=7589065",
+    "location": "Dublin",
+    "id": 594,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Experience in JavaScript",
+        "Currently enrolled student, graduating in December 2026 or Spring 2027",
+        "Pursue a BS or MS in Computer Science, Computer Engineering, or a related technical discipline",
+        "Possess a foundation in computer science with competencies in data structures, algorithms, and software design practices"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "role": "PhD Research Intern, Physical AI in Perception",
     "link": "https://jobs.lever.co/zoox/aab5dc76-6ee6-419c-90ce-4a852d9fdeec",
     "location": "Foster City, CA",

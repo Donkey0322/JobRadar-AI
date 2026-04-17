@@ -126,7 +126,8 @@
     "domain": "http://www.squarespace.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/squarespace/jobs",
     "urls": [
-      "http://www.squarespace.com/about/careers?gh_jid=7567536"
+      "http://www.squarespace.com/about/careers?gh_jid=7567536",
+      "http://www.squarespace.com/about/careers?gh_jid=7589065"
     ]
   },
   {
@@ -190,6 +191,7 @@
     "domain": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices",
     "page": "https://abcfinancial.wd5.myworkdayjobs.com/wday/cxs/abcfinancial/abcfinancialservices/jobs",
     "urls": [
+      "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Dallas-TX/Software-Engineer---Intern_REQ-1248",
       "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Remote-United-States/Front-End-Developer-Intern_REQ-1178"
     ]
   },
@@ -8548,6 +8550,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/rocketlawyer/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/rocketlawyer/jobs/5178003008",
+      "https://job-boards.greenhouse.io/rocketlawyer/jobs/5181711008",
       "https://job-boards.greenhouse.io/rocketlawyer/jobs/5185465008"
     ]
   },
@@ -12315,6 +12318,7 @@
       "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Atlanta-GA-United-States/Procurement-Intern_JR-0088786",
       "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineer-Intern---Software-Execution_JR-0079895",
       "https://kiongroup.wd3.myworkdayjobs.com/en-US/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineer-Intern-Co-Op_JR-0087991",
+      "https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Software-Development-in-Test-Intern_JR-0082729",
       "https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0082104"
     ]
   },
