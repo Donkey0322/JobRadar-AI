@@ -5516,6 +5516,7 @@
     "domain": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
+      "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2313",
       "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2514",
       "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2536",
       "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2539"
@@ -7546,6 +7547,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/doubleverify/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8452592002",
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8452605002",
       "https://job-boards.greenhouse.io/doubleverify/jobs/8464443002",
       "https://job-boards.greenhouse.io/doubleverify/jobs/8464445002"
     ]
@@ -7848,6 +7851,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/graphcore/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/graphcore/jobs/8426617002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8441326002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8441333002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8441356002"
@@ -8811,8 +8815,10 @@
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4961094007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4968215007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4968219007",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4972015007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4973823007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4999339007",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5096351007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5104002007"
     ]
   },
@@ -11728,7 +11734,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000120276177",
       "https://jobs.smartrecruiters.com/BoschGroup/744000120347608",
       "https://jobs.smartrecruiters.com/BoschGroup/744000120503077",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000120702643"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000120702643",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000121335917"
     ]
   },
   {
@@ -14832,7 +14839,10 @@
       "https://stripe.com/jobs/search?gh_jid=7206389",
       "https://stripe.com/jobs/search?gh_jid=7206494",
       "https://stripe.com/jobs/search?gh_jid=7216664",
-      "https://stripe.com/jobs/search?gh_jid=7360840"
+      "https://stripe.com/jobs/search?gh_jid=7285974",
+      "https://stripe.com/jobs/search?gh_jid=7285986",
+      "https://stripe.com/jobs/search?gh_jid=7360840",
+      "https://stripe.com/jobs/search?gh_jid=7532256"
     ]
   },
   {
@@ -16296,6 +16306,7 @@
     "domain": "https://www.globalrelay.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/globalrelay/jobs",
     "urls": [
+      "https://www.globalrelay.com/careers/jobs?gh_jid=5645073004",
       "https://www.globalrelay.com/careers/jobs?gh_jid=5815419004",
       "https://www.globalrelay.com/careers/jobs?gh_jid=5815433004",
       "https://www.globalrelay.com/careers/jobs?gh_jid=5815444004"
