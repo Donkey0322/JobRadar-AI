@@ -1,5 +1,35 @@
 [
   {
+    "company": "uhaul",
+    "role": "Software Development Summer Intern",
+    "link": "https://uhaul.wd1.myworkdayjobs.com/uhauljobs/job/Phoenix-Arizona/Software-Development-Summer-Intern_R242785",
+    "location": "Phoenix, Arizona",
+    "id": 605,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be currently enrolled in an accredited degree program",
+        "Be passionate about software development and eager to learn",
+        "Possess a strong foundation in object-oriented programming principles and a language",
+        "Understand the relationship between web applications, APIs, and databases",
+        "Have familiarity with manual and automated testing processes",
+        "Possess excellent verbal and written communication skills",
+        "Thrive in a fast-paced and collaborative environment",
+        "Maintain a minimum GPA of 3.0 or greater"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Apptronik",
+    "role": "Software Engineer Intern",
+    "link": "https://boards.greenhouse.io/apptronik/jobs/5828414004?gh_jid=5828414004",
+    "location": "Austin, TX"
+  },
+  {
     "company": "westernunion",
     "role": "Software Engineer - Intern",
     "link": "https://westernunion.wd5.myworkdayjobs.com/westernunionjobs/job/Denver---WU-HQ/Software-Engineer---Intern_JR0128141-1",
