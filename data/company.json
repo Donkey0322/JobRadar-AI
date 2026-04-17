@@ -1289,6 +1289,8 @@
     "page": "https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs",
     "urls": [
       "https://baxter.wd1.myworkdayjobs.com/baxter/job/Mountain-Home-Arkansas/Manufacturing-Engineer-Intern_JR-199670-1",
+      "https://baxter.wd1.myworkdayjobs.com/baxter/job/Raleigh-North-Carolina/Intern--Embedded-Software-R-D_JR-200230-1",
+      "https://baxter.wd1.myworkdayjobs.com/baxter/job/Raleigh-North-Carolina/Intern--R-D-Embedded-Software_JR-200229-1",
       "https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-software-Engineer---Co-op_JR-199655-1",
       "https://baxter.wd1.myworkdayjobs.com/en-US/baxter/job/Raleigh-North-Carolina/Software-Engineer-Intern---Summer-2026_JR-196243-1"
     ]
@@ -15384,7 +15386,8 @@
     "domain": "https://uscareers-lennox.icims.com",
     "page": "https://api.icims.com/v1/companies/lennox/jobs",
     "urls": [
-      "https://uscareers-lennox.icims.com/jobs/50063/job"
+      "https://uscareers-lennox.icims.com/jobs/50063/job",
+      "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"
     ]
   },
   {

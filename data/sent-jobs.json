@@ -1,5 +1,66 @@
 [
   {
+    "company": "baxter",
+    "role": "Intern, R&D Embedded Software",
+    "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Raleigh-North-Carolina/Intern--R-D-Embedded-Software_JR-200229-1",
+    "location": "Raleigh, North Carolina",
+    "id": 573,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate proven academic performance.",
+        "Exhibit leadership potential.",
+        "Combine technical and business knowledge.",
+        "Possess analytical strength.",
+        "Show creative problem-solving abilities.",
+        "Be a rising Junior or Senior pursuing a relevant Bachelor’s or Master’s Degree.",
+        "Knowledge of object-oriented programming.",
+        "Understand software engineering design patterns and best practices.",
+        "Experience developing solutions using C#/.Net and Angular/React.",
+        "Experience with unit testing frameworks (e.g., NUnit, MSTest).",
+        "Familiarity with DevOps practices, including CI/CD pipelines.",
+        "Possess strong verbal and written communication skills.",
+        "Demonstrate leadership qualities and problem-solving skills.",
+        "Maintain a positive attitude, be team-oriented, adaptive, and collaborative.",
+        "Actively involve in campus or community activities."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "baxter",
+    "role": "Intern, Embedded Software R&D",
+    "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Raleigh-North-Carolina/Intern--Embedded-Software-R-D_JR-200230-1",
+    "location": "Raleigh, North Carolina",
+    "id": 572,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Collaborate with the Software Development team to design, implement, and test software applications",
+        "Develop and maintain unit and integration test suites",
+        "Participate in design and code reviews",
+        "Participate in regular team meetings, stand-ups, and retrospectives",
+        "Possess proven academic performance and leadership potential",
+        "Be a Rising Junior or Senior pursuing a Bachelor’s or Master’s Degree in Computer Science, Software Engineering, or related degree",
+        "Have knowledge of object-oriented programming, software engineering design patterns and best practices",
+        "Possess experience developing solutions using C#/.Net and Angular/React",
+        "Have experience with unit testing frameworks (e.g. NUnit, MSTest, or similar)",
+        "Be familiar with DevOps practices including CI/CD pipelines",
+        "Possess strong verbal and written communication skills",
+        "Demonstrate leadership qualities and problem-solving skills",
+        "Exhibit a positive attitude, team-oriented, adaptive to change, and collaborative",
+        "Be actively involved in campus or community activities and organizations, preferably in leadership roles"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Lennox International",
     "role": "IT Co-Op",
     "link": "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false",
