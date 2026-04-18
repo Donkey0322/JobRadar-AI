@@ -14209,6 +14209,7 @@
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043679",
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043680",
       "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-043681-1",
+      "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044247",
       "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/AI-Intern-global-Operations_JR-044111",
       "https://revvity.wd103.myworkdayjobs.com/External/job/Waltham/Intern---Web-and-Marketing_JR-044137",
       "https://revvity.wd103.myworkdayjobs.com/external/job/Turku/Software-development-intern_JR-044076"
@@ -16016,6 +16017,16 @@
     "page": "",
     "urls": [
       "https://www.accenture.com/us-en/careers/jobdetails?id=R00285547_en&title=Technology+Summer+Analyst+-+NAELFY26"
+    ]
+  },
+  {
+    "name": "actblue",
+    "ats": "greenhouse",
+    "identifier": "actblue",
+    "domain": "https://www.actblue.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/actblue/jobs",
+    "urls": [
+      "https://www.actblue.com/careers/available-positions/?gh_jid=8430069002"
     ]
   },
   {
