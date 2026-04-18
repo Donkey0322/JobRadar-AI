@@ -1,5 +1,66 @@
 [
   {
+    "company": "Revvity",
+    "role": "Full-Stack AI Developer Intern",
+    "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044247",
+    "location": "Remote in Canada",
+    "season": "2026 Summer",
+    "id": 616,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Strong interest in enterprise AI applications.",
+        "Familiarity with popular LLMs like ChatGPT or Claude.",
+        "Familiarity with Python, Next.JS, Docker, and full stack technologies.",
+        "Basic understanding of prompt engineering concepts.",
+        "Proficiency in at least one programming language, Python preferred.",
+        "Knowledge of machine learning concepts and frameworks.",
+        "Ability to work in a fast-paced environment.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent written and verbal communication skills.",
+        "Understand business processes and enterprise software systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "ActBlue",
+    "role": "Full time Intern",
+    "link": "https://www.actblue.com/careers/available-positions/?gh_jid=8430069002",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 615,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Assist senior staff in developing applications",
+        "Document and test new applications and features",
+        "Research and investigate technical issues",
+        "Proactively learn new technologies",
+        "Provide administrative support to staff",
+        "Participate in skill-developing projects and programs",
+        "Join and contribute to department meetings",
+        "Conduct original research and prepare findings",
+        "Build a strong intern cohort, network, and collaborate",
+        "Interact directly with colleagues, clients, or external constituencies",
+        "Work on other job-related tasks",
+        "Currently enrolled in an undergraduate program with at least one full academic year remaining",
+        "Computer science or STEM major preferred for Tech Interns",
+        "Exposure to and interest in technology preferred for Tech Interns",
+        "Excellent organization and communication skills",
+        "Exceptional attention to detail",
+        "Ability to learn and adapt to new technologies and systems",
+        "Strong commitment to ActBlue’s mission",
+        "Available to work 40 hours per week from May 26th to August 14th, 2026"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Five9",
     "role": "Agentic AI Applied Scientist Internship - NLP",
     "link": "https://www.five9.com/about/careers/job-detail?gh_jid=5969160004",
