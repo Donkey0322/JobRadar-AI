@@ -1,5 +1,30 @@
 [
   {
+    "company": "Abcfinancial",
+    "role": "Software Engineer - Intern",
+    "link": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Dallas-TX/Software-Engineer---Intern_REQ-1246",
+    "location": "Dallas, TX",
+    "id": 618,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a bachelor's degree in Computer Science or related field.",
+        "Experience with various programming languages.",
+        "Strong communication and presentation skills.",
+        "Self-motivated and results-oriented.",
+        "Able to interact with cross-functional teams.",
+        "Strong problem-solving abilities.",
+        "Highly developed analytical and organizational skills.",
+        "Able to work in a fast-paced environment.",
+        "Completed sophomore year of college."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Tencent",
     "role": "Software Engineering Intern - Backend Development",
     "link": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Software-Engineering-Intern--Backend-Development_R107174",
