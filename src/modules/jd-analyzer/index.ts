@@ -1,5 +1,7 @@
 import * as cheerio from "cheerio";
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { JD, Job } from "@/types";
 import type { AIResponse } from "@/validation/ai";
 
@@ -55,7 +57,7 @@ export async function getRawJD(url: string): Promise<string | null> {
         });
 
         if (!res.ok) {
-          logger.error({ url }, "❌ Failed to fetch text");
+          logger.error({ url }, `${RED_CROSS} Failed to fetch text`);
           return null;
         }
 
@@ -82,7 +84,7 @@ export async function getRawJD(url: string): Promise<string | null> {
 
     return lines.length ? lines.join("\n") : null;
   } catch (e) {
-    logger.warn({ err: e, url }, "❌ Error fetching JD");
+    logger.error({ err: e, url }, `${RED_CROSS} Error fetching JD`);
     return null;
   }
 }

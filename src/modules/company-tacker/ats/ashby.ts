@@ -1,9 +1,12 @@
+import { ASHBY_API_URL } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
-import { ASHBY_API_URL } from "@/constants/ats";
 import { logger } from "@/utils/logger";
+import { capitalize } from "@/utils/string";
 
 export interface AshbyJob {
   id: string;
@@ -39,13 +42,13 @@ export async function fetchAshby(company: Company, urls: Set<string>) {
     );
 
     return interns.map((job) => ({
-      company: company.name,
+      company: capitalize(company.name),
       role: job.title,
       link: job.jobUrl,
       location: job.location,
     }));
   } catch (error) {
-    logger.error({ err: error, company: company.name }, "❌ Error fetching ashby jobs");
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching ashby jobs`);
     return [];
   }
 }

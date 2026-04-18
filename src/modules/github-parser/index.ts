@@ -1,3 +1,5 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { Job, Source } from "@/types";
 
 import parseHtml from "./html";
@@ -11,7 +13,7 @@ export async function getSource(url: string): Promise<string> {
     headers: { "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)" },
   });
   if (!resp.ok) {
-    logger.error({ url }, "❌ Failed to fetch text");
+    logger.error({ url }, `${RED_CROSS} Failed to fetch text`);
     return "";
   }
   const text = await resp.text();

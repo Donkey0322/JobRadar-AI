@@ -1,4 +1,6 @@
 import { SMART_RECRUITERS_API_URL } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
+
 import { getLastPathNumber } from "@/modules/job-dedup/utils";
 import { logger } from "@/utils/logger";
 
@@ -20,7 +22,7 @@ export async function fetchSmartRecruitersJD(url: string) {
     if (!data) return null;
     return JSON.stringify(data);
   } catch (error) {
-    logger.error({ err: error, apiUrl }, "❌ Error fetching smart recruiters JD");
+    logger.error({ err: error, apiUrl }, `${RED_CROSS} Error fetching smart recruiters JD`);
     return null;
   }
 }

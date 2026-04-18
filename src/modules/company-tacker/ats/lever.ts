@@ -1,16 +1,19 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
 import { logger } from "@/utils/logger";
+import { capitalize } from "@/utils/string";
 
 interface LeverJob {
-  company_name: string;
-  text: string;
-  hostedUrl: string;
-  createdAt: number;
+  company_name: string; // company name
+  text: string; // job title
+  hostedUrl: string; // job URL
+  createdAt: number; // job creation date
   categories: {
-    location?: string;
+    location?: string; // job location
   };
 }
 
@@ -45,13 +48,13 @@ export async function fetchLever(company: Company, urls: Set<string>) {
     );
 
     return interns.map((job: LeverJob) => ({
-      company: job.company_name,
+      company: capitalize(company.name),
       role: job.text,
       link: job.hostedUrl,
       location: job.categories?.location ?? "",
     }));
   } catch (error) {
-    logger.error({ err: error, company: company.name }, "❌ Error fetching lever jobs");
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching lever jobs`);
     return [];
   }
 }

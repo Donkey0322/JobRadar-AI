@@ -1,6 +1,7 @@
+import { SOURCES } from "@/constants";
+
 import type { Job } from "./types";
 
-import { SOURCES } from "@/constants";
 import parseSource from "@/modules/github-parser";
 import analyzeJD from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";

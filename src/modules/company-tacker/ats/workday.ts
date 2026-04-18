@@ -1,8 +1,11 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "../type";
 
 import { isTarget } from "../utils";
 
 import { logger } from "@/utils/logger";
+import { capitalize } from "@/utils/string";
 
 interface WorkdayJob {
   title: string;
@@ -63,7 +66,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
       hasMore = jobs.length === limit && jobs[jobs.length - 1].postedOn === "Posted Today";
     }
   } catch (error) {
-    logger.error({ err: error, company: company.name }, "❌ Error fetching workday jobs");
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching workday jobs`);
     return [];
   }
 
@@ -76,7 +79,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
   );
 
   return interns.map((job: WorkdayJob) => ({
-    company: company.name,
+    company: capitalize(company.name),
     role: job.title,
     link: `${company.domain}${job.externalPath}`,
     location: job.locationsText ?? "",

@@ -1,4 +1,6 @@
 import { GREENHOUSE_API_URL } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
+
 import { logger } from "@/utils/logger";
 
 export function parseGreenhouse(url: string) {
@@ -49,7 +51,10 @@ export async function fetchGreenhouseJD(url: string) {
   try {
     const res = await fetch(apiUrl);
     if (!res.ok) {
-      logger.error({ apiUrl, statusText: res.statusText }, "❌ Failed to fetch greenhouse JD");
+      logger.error(
+        { apiUrl, statusText: res.statusText },
+        `${RED_CROSS} Failed to fetch greenhouse JD`
+      );
       return null;
     }
 
@@ -57,7 +62,7 @@ export async function fetchGreenhouseJD(url: string) {
     if (!data) return null;
     return JSON.stringify(data);
   } catch (error) {
-    logger.error({ err: error, apiUrl }, "❌ Error fetching greenhouse JD");
+    logger.error({ err: error, apiUrl }, `${RED_CROSS} Error fetching greenhouse JD`);
     return null;
   }
 }

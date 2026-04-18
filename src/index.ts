@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { RED_CROSS } from "./constants/log";
 
 import processor from "@/main";
 import { logger } from "@/utils/logger";
@@ -11,6 +12,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  logger.fatal({ err }, "❌ Fatal error");
+  logger.fatal({ err }, `${RED_CROSS} Fatal error`);
   process.exit(1);
 });

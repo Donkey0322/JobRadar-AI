@@ -1,5 +1,7 @@
 import { ApiError, GoogleGenAI } from "@google/genai";
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { GenerateContentResponse } from "@google/genai";
 
 import { logger } from "@/utils/logger";
@@ -58,7 +60,7 @@ export default async function callGemini(
   model: string = DEFAULT_MODEL
 ): Promise<AIResponse> {
   if (!GEMINI_API_KEY) {
-    logger.error("❌ GEMINI_API_KEY is not set");
+    logger.error(`${RED_CROSS} GEMINI_API_KEY is not set`);
     return { result: null, cost: 0 };
   }
 
@@ -73,7 +75,7 @@ export default async function callGemini(
 
   const apiKey = RPD_REACHED ? PERSONAL_GEMINI_API_KEY : GEMINI_API_KEY;
   if (!apiKey) {
-    logger.error("❌ API key is not set");
+    logger.error(`${RED_CROSS} API key is not set`);
     return { result: null, cost: 0 };
   }
 
@@ -88,7 +90,7 @@ export default async function callGemini(
       RPD_REACHED = true;
       return await callGemini(prompt, schema, model);
     }
-    logger.error({ err: e }, "❌ Error calling Gemini");
+    logger.error({ err: e }, `${RED_CROSS} Error calling Gemini`);
     return { result: null, cost: 0 };
   }
 }
