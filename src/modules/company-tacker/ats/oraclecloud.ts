@@ -1,8 +1,11 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
 import { logger } from "@/utils/logger";
+import { capitalize } from "@/utils/string";
 
 interface OracleCloudJob {
   Id: string;
@@ -41,7 +44,7 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>) {
       return [];
     }
 
-    const companyName =
+    const companyName: string =
       data.items?.[0]?.organizationsFacet.length > 0
         ? data.items?.[0]?.organizationsFacet[0].Name
         : "";
@@ -52,13 +55,16 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>) {
     );
 
     return interns.map((job) => ({
-      company: companyName,
+      company: capitalize(companyName),
       role: job.Title,
       link: composeUrl(company, job.Id),
       location: job.PrimaryLocation,
     }));
   } catch (error) {
-    logger.error({ err: error, company: company.name }, "❌ Error fetching oracle cloud jobs");
+    logger.error(
+      { err: error, company: company.name },
+      `${RED_CROSS} Error fetching oracle cloud jobs`
+    );
     return [];
   }
 }

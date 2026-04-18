@@ -1,8 +1,10 @@
+import { GREENHOUSE_API_URL } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
-import { GREENHOUSE_API_URL } from "@/constants/ats";
 import { logger } from "@/utils/logger";
 
 interface GreenhouseJob {
@@ -68,7 +70,10 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>) {
       location: job.location?.name ?? "",
     }));
   } catch (error) {
-    logger.error({ err: error, company: company.name }, "❌ Error fetching greenhouse jobs");
+    logger.error(
+      { err: error, company: company.name },
+      `${RED_CROSS} Error fetching greenhouse jobs`
+    );
     return [];
   }
 }

@@ -1,6 +1,8 @@
+import { ASHBY_API_URL } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
+
 import type { AshbyJob } from "@/modules/company-tacker/ats/ashby";
 
-import { ASHBY_API_URL } from "@/constants/ats";
 import { logger } from "@/utils/logger";
 
 export async function fetchAshbyJD(url: string) {
@@ -14,7 +16,7 @@ export async function fetchAshbyJD(url: string) {
   try {
     const res = await fetch(apiUrl);
     if (!res.ok) {
-      logger.error({ apiUrl, statusText: res.statusText }, "❌ Failed to fetch ashby JD");
+      logger.error({ apiUrl, statusText: res.statusText }, `${RED_CROSS} Failed to fetch ashby JD`);
       return null;
     }
 
@@ -23,7 +25,7 @@ export async function fetchAshbyJD(url: string) {
     if (!jd) return null;
     return JSON.stringify(jd);
   } catch (error) {
-    logger.error({ err: error, apiUrl }, "❌ Error fetching ashby JD");
+    logger.error({ err: error, apiUrl }, `${RED_CROSS} Error fetching ashby JD`);
     return null;
   }
 }

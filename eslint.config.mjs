@@ -24,19 +24,18 @@ export default [
       "simple-import-sort": simpleImportSort,
     },
     rules: {
-      // ✅ simple-import-sort
       "simple-import-sort/imports": [
         "warn",
         {
           groups: [
             ["^@?\\w"],
 
-            ["env", "AppConstants"],
+            ["env", "constants"],
 
             ["^.*\\u0000$"],
 
             [
-              "^(components|context|hooks|icons|layout|lib|modules|services|shared|theme|utils|constants)(/.*|$)",
+              "^(components|context|hooks|icons|layout|lib|modules|services|shared|theme|utils)(/.*|$)",
             ],
 
             ["^\\u0000"],
@@ -52,7 +51,6 @@ export default [
         },
       ],
 
-      // ✅ type import 強制
       "@typescript-eslint/consistent-type-imports": [
         "error",
         {

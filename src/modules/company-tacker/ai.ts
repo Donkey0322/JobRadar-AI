@@ -1,3 +1,5 @@
+import { RED_CROSS } from "@/constants/log";
+
 import type { Job } from "@/types";
 
 import callGemini from "@/utils/ai";
@@ -40,13 +42,13 @@ ${JSON.stringify(jobs)}
     const parsed: boolean[] = JSON.parse(text);
 
     if (!Array.isArray(parsed) || parsed.length !== jobs.length) {
-      logger.error({ parsed }, "❌ Length mismatch");
+      logger.error({ parsed }, `${RED_CROSS} Length mismatch`);
       return new Array(jobs.length).fill(true);
     }
 
     return parsed;
   } catch {
-    logger.error({ text }, "❌ JSON parse failed");
+    logger.error({ text }, `${RED_CROSS} JSON parse failed`);
     return new Array(jobs.length).fill(true);
   }
 }

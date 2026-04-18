@@ -1,6 +1,8 @@
+import { LOCATIONS, SEASONS } from "@/constants";
+import { RED_CROSS } from "@/constants/log";
+
 import type { AIResponse } from "@/utils/ai";
 
-import { LOCATIONS, SEASONS } from "@/constants";
 import callGemini from "@/utils/ai";
 import { logger } from "@/utils/logger";
 
@@ -74,7 +76,7 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
     const response = await callGemini(prompt, JD_SCHEMA);
     return response ?? null;
   } catch (e) {
-    logger.error({ err: e }, "❌ Error calling Gemini");
+    logger.error({ err: e }, `${RED_CROSS} Error calling Gemini`);
     return { result: null, cost: 0 };
   }
 }

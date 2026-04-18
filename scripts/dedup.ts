@@ -1,3 +1,5 @@
+import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
+
 import { deduplicate } from "@/modules/job-dedup";
 import { loadUrls } from "@/utils/data";
 import { saveUrls } from "@/utils/data";
@@ -8,10 +10,13 @@ async function main() {
   const deduped = deduplicate(Array.from(sent));
   await saveUrls(new Set(deduped));
 
-  logger.info({ original: sent.size, unique: deduped.length }, "✅ Successfully deduped urls");
+  logger.info(
+    { original: sent.size, unique: deduped.length },
+    `${GREEN_CHECKMARK} Successfully deduped urls`
+  );
 }
 
 main().catch((err) => {
-  logger.fatal({ err }, "❌ Fatal error");
+  logger.fatal({ err }, `${RED_CROSS} Fatal error`);
   process.exit(1);
 });

@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import inquirer from "inquirer";
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { Job } from "@/types";
 
 import processor from "@/main";
@@ -71,7 +73,7 @@ async function main() {
 
   // ❗Cannot use -l and -f together
   if (link && file) {
-    logger.error("❌ Cannot use -l and -f together");
+    logger.error(`${RED_CROSS} Cannot use -l and -f together`);
     process.exit(1);
   }
 
@@ -82,14 +84,14 @@ async function main() {
     try {
       new URL(link);
     } catch {
-      logger.error("❌ Invalid URL");
+      logger.error(`${RED_CROSS} Invalid URL`);
       process.exit(1);
     }
 
     const jd = await analyzeLink(link);
 
     if (!jd) {
-      logger.info("❌ No result");
+      logger.info(`${RED_CROSS} No result`);
       return;
     }
 
@@ -113,6 +115,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  logger.fatal({ err }, "❌ Error");
+  logger.fatal({ err }, `${RED_CROSS} Error`);
   process.exit(1);
 });
