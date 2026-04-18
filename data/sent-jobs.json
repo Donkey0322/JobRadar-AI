@@ -1,5 +1,28 @@
 [
   {
+    "company": "Tencent",
+    "role": "Software Engineering Intern - PC Game Client Development",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Software-Engineering-Intern_R107162-1",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 619,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Bachelor's degree in computer-related majors",
+        "Good foundation in computer theory",
+        "Basic understanding of client debugging and performance optimization",
+        "Development experience in at least one programming language (Java, C#, Objective-C, C/C++)",
+        "Experience in Unity/Unreal or other game engine development is preferred",
+        "Responsible and passionate",
+        "Good team collaboration and communication skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Abcfinancial",
     "role": "Software Engineer - Intern",
     "link": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Dallas-TX/Software-Engineer---Intern_REQ-1246",
