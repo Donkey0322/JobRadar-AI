@@ -1,5 +1,33 @@
 [
   {
+    "company": "Five9",
+    "role": "Agentic AI Applied Scientist Internship - NLP",
+    "link": "https://www.five9.com/about/careers/job-detail?gh_jid=5969160004",
+    "location": "San Ramon, CA (Hybrid)",
+    "id": 614,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be part of an agile team developing a scalable application platform",
+        "Test GenAI integration with Knowledge Distiller and Azure OpenAI",
+        "Utilize Java Spring Framework, Spring Boot, and reactive programming",
+        "Document testing procedures and environment",
+        "Communicate testing results clearly",
+        "Proficient in Java, Reactive programming, and JavaScript",
+        "Understand PaaS hosted relational and no-SQL databases",
+        "Develop automated test cases with tools like Junit",
+        "Familiar with Web Technologies and web standards",
+        "Familiar with client-side JavaScript Toolkits like React",
+        "Positive, self-motivated, and enthusiastic attitude",
+        "Proactive verbal and written communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Leidos",
     "role": "Software Engineering Intern",
     "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering-Intern_R-00181087",
