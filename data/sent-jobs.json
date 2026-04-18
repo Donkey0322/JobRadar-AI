@@ -1,5 +1,27 @@
 [
   {
+    "company": "Tencent",
+    "role": "Software Engineering Intern - Backend Development",
+    "link": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Software-Engineering-Intern--Backend-Development_R107174",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 617,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Hold a Bachelor's degree in Computer Science or equivalent",
+        "Experienced in C/C++, Go, Python, or PHP",
+        "Understand backend distributed systems and Cloud-Native technologies",
+        "Understand most aspects of game programming",
+        "Be responsible and passionate, with good collaboration skills",
+        "Experience with AI coding tools"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Revvity",
     "role": "Full-Stack AI Developer Intern",
     "link": "https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-Stack-AI-Developer-Intern_JR-044247",
