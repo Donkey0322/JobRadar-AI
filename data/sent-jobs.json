@@ -1,5 +1,92 @@
 [
   {
+    "company": "Leidos",
+    "role": "Software Engineering Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering-Intern_R-00181087",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 613,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working on a Bachelor's Degree in Computer Science, Math, Engineering or related field.",
+        "Able to obtain and maintain a Public Trust.",
+        "Understand Java programming language and its constructs.",
+        "Understand Spring / Spring Boot or other dependency injection framework.",
+        "Experience with JUnit, Mockito, Rest Assured, or other Java testing frameworks.",
+        "Understand RESTful API design and HTTP web service patterns.",
+        "Experience with AngularJS, jQuery, ReactJS, or Express/Node.js frameworks.",
+        "Experience using Git and Maven.",
+        "Strong communication and writing skills.",
+        "Have passion and drive to expand coding skills.",
+        "Experience with modern software development tools (CI/CD, Bitbucket, Jenkins, Jira).",
+        "Experience with Apache POI, iText, PDFBox, or similar file conversion libraries.",
+        "Experience with Tableau and reporting."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineering Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Software-Engineering-Intern_R-00181070",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 612,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Java programming language.",
+        "Understand Java language constructs like collections, streams, lambdas, threads, garbage collection.",
+        "Experience with Spring/Spring Boot or other dependency injection/IoC frameworks.",
+        "Experience with JUnit, Mockito, Rest Assured, or other Java testing frameworks/tools.",
+        "Understand RESTful API design principles and HTTP web service utilization patterns.",
+        "Working on a Bachelor's Degree in Computer Science, Mathematics, Engineering, or a related field.",
+        "Able to obtain and maintain a Public Trust.",
+        "Experience with frameworks such as AngularJS, jQuery, ReactJS, or Express/Node.js.",
+        "Experience using Git and Maven.",
+        "Strong communication and writing skills.",
+        "Possess passion and drive to expand coding skills.",
+        "Experience with modern software development tools (CI/CD, Bitbucket, Jenkins, Jira, Confluence).",
+        "Experience with Apache POI, iText, PDFBox, or similar file format conversion libraries.",
+        "Experience with Tableau or reporting."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Five9",
+    "role": "Software Developer AI Insights Intern",
+    "link": "https://www.five9.com/about/careers/job-detail?gh_jid=5973615004",
+    "location": "San Ramon, CA",
+    "season": "2026 Summer",
+    "id": 611,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop scalable, highly available application platforms using modern PaaS platforms like GCP.",
+        "Test Generative Artificial Intelligence (GenAI) integration with Knowledge Distiller and Azure OpenAI.",
+        "Utilize Java Spring Framework, Spring Boot, and reactive programming for microservices.",
+        "Document testing procedures and environment.",
+        "Communicate testing results clearly.",
+        "Proficient in Java and JavaScript, desirable reactive programming (rxjava).",
+        "Understand PaaS hosted relational and no-SQL databases (mySQL, BigTable, DataStore).",
+        "Develop automated test cases with modern tools like Junit.",
+        "Familiar with Web Technologies (HTML, CSS, DOM, JavaScript) and web standards (HTML5).",
+        "Desirable familiarity with client-side JavaScript Toolkits such as React.",
+        "Positive, self-motivated, enthusiastic, and strong sense of ownership.",
+        "Proactive verbal and written communication skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Electronic Arts",
     "role": "Software Engineer Intern",
     "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210894",
