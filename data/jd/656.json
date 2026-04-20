@@ -1,0 +1,43 @@
+{
+  "jobPostingInfo": {
+    "id": "82ffcc9e66d91001897d6bdad7900000",
+    "title": "Intern, Software Engineering - June 2026",
+    "jobDescription": "<p><b>Software Engineering Consulting Intern – Azure Application Development</b></p><p><b>Role Overview</b></p><p>As an <b>Avanade Software Engineering Consulting Intern in the US</b>, you’ll join client-facing delivery teams to help design and build modern applications on Microsoft Azure. This internship is designed for students nearing graduation who are excited about applying their academic foundation in software engineering to real world business and technology challenges facing delivery teams to help design and build modern, cloud-based solutions on Microsoft Azure.‑facing delivery teams to help design and build modern, cloud‑based solutions on Microsoft Azure. This internship is designed for students nearing graduation who are excited about applying their academic foundation in software engineering to real‑world business and technology challenges.</p><p>You’ll gain hands-on experience with cloud application development while working alongside experienced consultants, developers, and architects in a collaborative, fast paced consulting environment.‑on experience with enterprise application development while working alongside experienced consultants, developers, and architects in a collaborative, fast‑paced consulting environment.</p><p>At Avanade, we’re building teams of people who dream big, take ownership, and are curious about what’s next—especially when it comes to cloud, AI, and modern software development.</p><div></div><p><b>What You’ll Do</b></p><p>With guidance and mentorship, you will:</p><ul><li>Contribute to the design and development of features that solve real client business problems</li><li>Support the development of server-side logic and REST APIs using <b>C#/.NET</b> or Java side logic and REST APIs using ‑side logic and REST APIs using</li><li>Assist with integrating applications with <b>Azure PaaS services</b> such as Azure App Services, Azure Functions, and Service Bus</li><li>Help implement data access layers using <b>Azure SQL</b> and ORM technologies (e.g., Entity Framework or Hibernate)</li><li>Translate business and technical requirements into structured problem statements and solution approaches</li><li>Communicate clearly with both technical and non‑technical team members and client stakeholders</li><li>Learn and apply modern industry development practices, including DevOps workflows and AI assisted development tools.‑assisted development tools</li></ul><div></div><p><b>What We’re Looking For</b></p><ul><li>Students on track to complete in 2026 of a <b>bachelor&#39;s degree in computer science, Computer Engineering, or a related field</b></li><li>Coursework or academic projects involving <b>software development, cloud computing, or web services</b></li><li>Familiarity with at least one programming language such as <b>C#, .NET, or Java</b></li><li>Exposure (academic or personal projects) to:<ul><li>RESTful APIs or backend services</li><li>Cloud platforms (especially <b>Microsoft Azure</b>)</li><li>Databases such as SQL Server or Azure SQL</li><li>AI Development tools</li></ul></li><li>Curiosity about modern technologies including <b>cloud, data, AI, and microservices</b></li><li>Strong communication, collaboration, and interpersonal skills</li><li>Ability to work in fast-paced environments, manage ambiguity, and seek feedback</li><li>Interest in a future <b>full‑time career in technology consulting</b></li></ul><p>Prior professional experience is <b>not required</b>. Technical and process specific upskilling will be provided as part of the internship.‑specific upskilling will be provided as part of the internship.</p><div></div><p></p><ul></ul><p>.</p><p><b>About You</b></p><p>You’ll thrive in this role if you:</p><ul><li>Enjoy working collaboratively and bringing energy and curiosity to your work</li><li>Take ownership of your tasks and follow through on commitments</li><li>Are comfortable learning in ambiguous environments and adapting quickly</li><li>Are passionate about technology and how it creates business value</li><li>Are excited about modern software development, including the use of <b>AI in the Software Development Lifecycle (SDLC)</b></li></ul><div></div><p><b>Why This Internship</b></p><ul><li>Handson experience delivering <b>real, client-facing consulting solutions</b>‑on experience delivering <b>‑facing consulting solutions</b></li><li>Exposure to enterprise-scale Azure application ‑scale Azure application development</li><li>Mentorship from experienced consultants and engineers</li><li>Insight into consulting delivery models, teamwork, and client engagement</li><li>Opportunity to build skills aligned to a potential <b>full‑time consulting or software engineering role</b> at Avanade</li></ul><p></p><p><span>Compensation at Avanade varies depending on a wide array of factors, which may include but are not limited to the specific office location, role, skill set, and level of experience. As required by local law, Avanade provides a reasonable range of compensation for roles that may be hired as set forth below.<br />We anticipate this job posting will be posted until 03/20/2026.</span></p><p><span> </span></p><p><span> </span></p><p>Role Location Hourly Rate Range</p><p>California $25.00<br />Cleveland $25.00<br />Colorado $25.00<br />District of Columbia $25.00<br />Illinois $25.00<br />Maryland $25.00<br />Massachusetts $25.00<br />Minnesota $25.00<br />New York $25.00<br />New Jersey $25.00<br />Washington $25.00</p><p>.</p>",
+    "location": "Los Angeles, 6181 W Centinela Ave, Corp",
+    "additionalLocations": [
+      "Seattle, 1910 Fairview, Avanade"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-20",
+    "timeType": "Full time",
+    "jobReqId": "R00319370",
+    "jobPostingId": "Intern--Software-Engineering---June-2026_R00319370",
+    "jobPostingSiteId": "AvanadeCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Los Angeles, 6181 W Centinela Ave, Corp",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/Intern--Software-Engineering---June-2026_R00319370",
+    "questionnaireId": "3053a3e02aeb10007b84146294670000",
+    "timeLeftToApply": "2 days left to apply",
+    "endDate": "2026-04-23",
+    "jobPostingEndDateAsText": "End Date: April 23, 2026"
+  },
+  "hiringOrganization": {
+    "name": "1026 Avanade Inc. Company",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

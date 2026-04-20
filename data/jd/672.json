@@ -1,0 +1,190 @@
+{
+  "id": "744000121848194",
+  "name": "Software Engineering Internships – Academic Year",
+  "uuid": "a6fd1a39-9ddb-4a14-826b-d2b50421e7cc",
+  "jobId": "fce92370-5b89-450c-b189-d7c113356203",
+  "jobAdId": "629ece10-2c25-4971-a303-230734f375a8",
+  "defaultJobAd": true,
+  "refNumber": "REF38774X",
+  "company": {
+    "name": "NBCUniversal",
+    "identifier": "NBCUniversal3"
+  },
+  "location": {
+    "city": "New York",
+    "region": "NY",
+    "country": "us",
+    "address": "30 Rockefeller Plaza",
+    "postalCode": "10111",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "40.7589796",
+    "longitude": "-73.979766",
+    "fullLocation": "New York, NY, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "629a702fa5f501537e34487d",
+      "fieldLabel": "Confidential",
+      "valueId": "a7237982-c3e0-4d7e-b925-b4f41ebfbf43",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "629a7efc9e8fe455b48bdb49",
+      "fieldLabel": "Hiring Process",
+      "valueId": "ce569ef1-1bea-46d4-bee8-f969b30e6119",
+      "valueLabel": "Manual"
+    },
+    {
+      "fieldId": "629a7219971e1e096455db09",
+      "fieldLabel": "Business Segment",
+      "valueId": "60000008",
+      "valueLabel": "Operations & Technology"
+    },
+    {
+      "fieldId": "629a7cd7e54cc35a67877748",
+      "fieldLabel": "Work Location State",
+      "valueId": "New York",
+      "valueLabel": "New York"
+    },
+    {
+      "fieldId": "664f9833f5a86d73a8b0eb08",
+      "fieldLabel": "Posting Only Process",
+      "valueId": "Posting Only",
+      "valueLabel": "Posting Only"
+    },
+    {
+      "fieldId": "629a7db8971e1e096455db0b",
+      "fieldLabel": "Work Location Country",
+      "valueId": "USA",
+      "valueLabel": "USA"
+    },
+    {
+      "fieldId": "62913b22a5f501537e3447e8",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "NBCUniversal"
+    },
+    {
+      "fieldId": "629a83e16b5e1160899f7b3a",
+      "fieldLabel": "Semester/Cohort",
+      "valueId": "64d0517d-6c1c-4e3a-9660-0b9a051270ce",
+      "valueLabel": "Academic Year"
+    },
+    {
+      "fieldId": "629a7b451837eb0875aeb3a7",
+      "fieldLabel": "Work Location Address",
+      "valueId": "30 Rockefeller Plaza",
+      "valueLabel": "30 Rockefeller Plaza"
+    },
+    {
+      "fieldId": "664f990575af9c1aa8694b05",
+      "fieldLabel": "Posting Only Job Number",
+      "valueLabel": "REF38774X"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "629a70adb18f834e058f2b4d",
+      "fieldLabel": "Position Title",
+      "valueLabel": "Software Engineering Internships - Academic Year"
+    },
+    {
+      "fieldId": "629a79d59e8fe455b48bdb48",
+      "fieldLabel": "Work Location Name",
+      "valueId": "20000274",
+      "valueLabel": "New York (NBC) NY US"
+    },
+    {
+      "fieldId": "629a72959e8fe455b48bdb47",
+      "fieldLabel": "Sub Business",
+      "valueId": "1326",
+      "valueLabel": "Engineering - 1326"
+    },
+    {
+      "fieldId": "629a7b9e971e1e096455db0a",
+      "fieldLabel": "Work Location City",
+      "valueId": "New York",
+      "valueLabel": "New York"
+    },
+    {
+      "fieldId": "629a7d536b5e1160899f7b39",
+      "fieldLabel": "Work Location Zip Code",
+      "valueId": "10112-0002",
+      "valueLabel": "10112-0002"
+    },
+    {
+      "fieldId": "629a7f999e8fe455b48bdb4a",
+      "fieldLabel": "Hire Type",
+      "valueId": "fb9b1567-0ca4-4f64-b9d5-d878c6ec01f6",
+      "valueLabel": "Enterprise Internship"
+    },
+    {
+      "fieldId": "65568016b1660e254215017f",
+      "fieldLabel": "Business Group",
+      "valueId": "80000004",
+      "valueLabel": "NBCU HQ"
+    }
+  ],
+  "releasedDate": "2026-04-20T17:40:37.436Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121848194-software-engineering-internships-academic-year",
+  "applyUrl": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121848194-software-engineering-internships-academic-year?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/NBCUniversal3/publication/a6fd1a39-9ddb-4a14-826b-d2b50421e7cc?dcr_ci=NBCUniversal3",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations &amp; Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information.</p><p>Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Looking&#xa0;to&#xa0;ace&#xa0;your&#xa0;upcoming&#xa0;academic&#xa0;year?&#xa0;As an NBCUniversal Academic Year intern,&#xa0;you’ll&#xa0;work on real projects, be part of our&#xa0;collaborative&#xa0;culture, and get the support you need to grow&#xa0;-&#xa0;across two full semesters.&#xa0;Our Internship Program is all about impact, giving you the chance to contribute to meaningful work while building skills that matter. If&#xa0;you’re&#xa0;curious, driven, and excited about media, entertainment, and technology,&#xa0;we provide an&#xa0;environment designed to help you learn and grow every day.&#xa0;</p><p>In addition to&#xa0;all of&#xa0;our internships being paid, we will also offer the following for our&#xa0;Academic Year&#xa0;interns: &#xa0;</p><ul><li>Paid time off for mental health,&#xa0;academic&#xa0;exams, and personal holidays. &#xa0;</li><li>Robust networking,&#xa0;learning&#xa0;and&#xa0;professional&#xa0;development opportunities.&#xa0;</li><li>Complimentary Peacock subscription for the duration of the internship.&#xa0;&#xa0;</li><li>Free admission to Universal&#xa0;Parks to use&#xa0;during your internship.&#xa0;</li><li>Access to mental health resources,&#xa0;including counseling sessions.&#xa0;</li></ul><p>&#xa0;</p><p><u>Academic Year Internship Program Details&#xa0;</u></p><p><strong>Program Dates:</strong>&#xa0;September 21, 2026 – April 23, 2027&#xa0;</p><p><strong>Time Commitment</strong>:&#xa0;16-24 hours per week.&#xa0;Exact schedule to be determined based on business need. &#xa0;We will do our best to accommodate course schedules.&#xa0;</p><p><strong>Format:&#xa0;</strong>Opportunities listed will require an intern to work&#xa0;from&#xa0;New York, NY.&#xa0;&#xa0;</p><p><u>Academic Year&#xa0;Recruitment Timeline&#xa0;</u></p><p><strong>April 20</strong>:&#xa0;Applications open&#xa0;</p><p><strong>May 8:</strong>&#xa0;Applications close at 11:59pm ET&#xa0;(we recommend you&#xa0;submit&#xa0;your application as soon as possible&#xa0;–&#xa0;applications&#xa0;may&#xa0;close earlier due to applicant volume!)&#xa0;&#xa0;</p><p><strong>Early May – Mid June</strong>: First round video interviews &#xa0;</p><p><strong>Mid June&#xa0;– Mid July:</strong> Second round interviews &#xa0;</p><p><strong>Throughout July</strong>: Selected candidates receive offers &#xa0;</p><p>&#xa0;</p><p>To Apply:&#xa0;</p><ul><li>Submit a one-page resume that outlines your work experience, accomplishments, and your graduation month and year.&#xa0;</li><li>Submit a cover letter that highlights your passion for NBCUniversal&#xa0;and&#xa0;your top areas of interest (opportunities listed below).&#xa0;</li><li>Upload a transcript (unofficial transcripts are fine) that confirms your status as an actively enrolled student in a degree-granting program.&#xa0;</li></ul><p><strong>Media Group:</strong> The Media Group at NBCU supports a powerhouse collection of consumer-first brands including Peacock, NBC, Bravo, NBC Sports, and NBCU International. With unequalled scale, our teams make the most out of every opportunity to collaborate and learn from one another. We’re always looking for ways to innovate faster, accelerate our growth and consistently offer the very best in consumer experience. But most of&#xa0;all, we’re backed by a culture of respect. We embrace authenticity and inspire people to thrive. &#xa0;</p><p>Areas of placement may include, but are not limited to:&#xa0;</p><ul><li><p><strong>Global Delivery – Portfolio Operations:&#xa0;</strong>The Project Coordinator Intern will provide project coordination and administrative support to the Portfolio Operations team within Global Delivery. The Portfolio Operations team partners closely with&#xa0;cross‑functional&#xa0;groups across the NBCUniversal Global Streaming organization to support the planning, coordination, and execution of new features and platform enhancements.&#xa0;The ideal candidate is a highly motivated&#xa0;self‑starter&#xa0;with strong organizational and time management skills, a willingness to learn, and the ability to adapt quickly to new tools and processes. This role offers&#xa0;hands‑on&#xa0;exposure to project management, operational tooling, and&#xa0;enterprise‑scale&#xa0;delivery initiatives within a&#xa0;fast‑paced&#xa0;streaming environment.&#xa0;</p></li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Basic Requirements:&#xa0;</strong></p><ul><li>Must be actively enrolled in a degree-granting program at an accredited institution during the entire duration of the program (September 2026&#xa0;through April 2027). December 2026 graduates are not eligible for this&#xa0;Academic Year Internship Program. &#xa0;</li><li>Current class standing&#xa0;of&#xa0;sophomore&#xa0;or above (30 credits).&#xa0;</li><li>Must be presently authorized to work for any employer in the United States and must not require work visa sponsorship from NBCUniversal now or in the future to retain&#xa0;authorization to work in the United States.&#xa0;</li><li>Must be available to work&#xa0;16-24 hours per week&#xa0;from September 21, 2026 – April 23, 2027.&#xa0;</li><li>Must&#xa0;be willing to work in&#xa0;New York, NY.&#xa0;</li></ul><p>For further clarification, candidates currently on any student or exchange visa (e.g. F-1 CPT, F-1 OPT, J-1, M-1) are not eligible to apply unless they&#xa0;will be&#xa0;able to change or adjust to another status that grants work authorization without NBCUniversal sponsorship.&#xa0;&#xa0;</p><p>NBCUniversal is an E-Verify company, requiring all employees to have an active Social Security number. Any candidate receiving an internship offer must complete I-9 form with Social Security number within 3 days of hire.&#xa0;&#xa0;&#xa0;</p><p><strong>Desired Characteristics:&#xa0;</strong></p><ul><li>Students with class standing of junior or above preferred.&#xa0;</li><li>Cumulative GPA of 3.0 or above.&#xa0;</li><li>Interest in the processes behind the Software Development Lifecycle (SDLC).&#xa0;&#xa0;</li><li>Interest&#xa0;in project management methodologies and operational delivery models.&#xa0;&#xa0;</li><li>Familiarity with Atlassian tools (Jira and Confluence) for reporting, documentation, and site administration a plus.&#xa0;</li><li>Experience in coding languages&#xa0;a plus.&#xa0;</li></ul><p>The hourly rate for student interns is $30.00.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law.</p><p>If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 30,
+    "max": 40,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "entertainment",
+    "label": "Entertainment"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
