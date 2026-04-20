@@ -1,5 +1,124 @@
 [
   {
+    "company": "Bosch group",
+    "role": "Software Engineering Intern/Co-op- Summer 2026",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000121879097",
+    "location": "Fountain Inn, SC, United States",
+    "id": 649,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or master's degree in Computer Engineering, Comp. Science, or relevant technical field.",
+        "Proficient in C# programming language.",
+        "Familiar with C/C++ programming language.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and collaboration abilities.",
+        "Experience with Embedded Systems (CAN, Non-Volatile Memory).",
+        "Experience with AI Vision."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tri",
+    "role": "Human-Centered AI Intern: Human-Computer Interaction",
+    "link": "https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19",
+    "location": "Los Altos, CA",
+    "id": 648,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Scope research projects aligned with HCI, Conversational AI, and Organizational Behavior agenda.",
+        "Evaluate conversational AI platforms, design and prototype alternative solutions.",
+        "Drive end-to-end research plans, seeking regular feedback.",
+        "Develop a taxonomy for understanding factors in difficult workplace conversations.",
+        "Present findings in research meetings to departments, leadership, and partners.",
+        "Produce work informing internal strategy and aiming for academic publication.",
+        "Currently enrolled in a PhD degree program.",
+        "Demonstrate a track record of implementing research projects.",
+        "Demonstrated experience with prototype design and mixed-methods research.",
+        "Familiar with messy, real-world data and critical, creative thinking.",
+        "Able to reason across multiple levels of analysis and translate research insights.",
+        "Desire to work on challenging, open-ended research projects.",
+        "Desire to be part of a highly interdisciplinary team.",
+        "Demonstrated ability to work autonomously while proactively soliciting feedback.",
+        "Interested in wellbeing, organizational behavior, emotional labor, or the future of work.",
+        "Experience in Future-of-Work research or organizational behavior."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "FPGA Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4532863007",
+    "location": "Santa Clara, California, United States",
+    "id": 647,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have a background in computer science, ML, or a related field.",
+        "Be comfortable in C/C++ and Python, with one or more FPGA or embedded projects.",
+        "Be exposed to digital design (Verilog, SystemVerilog, VHDL) and comfortable with clocks, FIFOs, and streaming interfaces.",
+        "Be proficient in Linux and command line; version control with git is second nature.",
+        "Be curious about how hardware, firmware, and software fit together."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "SingleStore",
+    "role": "Software Engineer Intern, Helios(Summer 2026)",
+    "link": "https://job-boards.greenhouse.io/singlestore/jobs/7782709",
+    "location": "United States",
+    "id": 646,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": true,
+      "location": "Other",
+      "qualifications": [
+        "Enrolled in a B.S. degree in Computer Science, Electrical, Computer Engineering or related discipline",
+        "Deep understanding of CS fundamentals",
+        "Strong programming skills with JavaScript, Golang, or TypeScript",
+        "Passionate about building highly reliable software",
+        "Firm grasp of algorithms and data structures",
+        "Understand core CS fundamentals, including operating systems, distributed systems, concurrency, multithreading, and server architectures"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Caci",
+    "role": "Embedded Software Engineering Co-op/Intern - Fall 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Embedded-Software-Engineering-Co-op-Intern---Fall-2026_324261",
+    "location": "US CT Danbury",
+    "id": 645,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a current university Junior or Senior",
+        "Work towards a BS/BE in computer science or computer engineering",
+        "Experience programming in C++ or C#",
+        "Interest in embedded programming and hardware",
+        "Understand Object-Oriented Design"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Philips",
     "role": "MR Software Intern",
     "link": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/MR-Software-Intern_581831",

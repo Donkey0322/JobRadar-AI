@@ -2030,6 +2030,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/US-CO-Denver/Software-Engineer--AI-ML-Intern---Summer-2026_323833",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Computer-Science-Co-op-Intern---Fall-2026_324263",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Configuration-Management-Co-op-Intern---Summer---Fall-2026_324469",
+      "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Embedded-Software-Engineering-Co-op-Intern---Fall-2026_324261",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Software-Engineering-Intern---Summer-2026_324251",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-DC-Washington/Mechanical-Engineer-Summer-Intern---Summer-2026_324850",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-FL-Sarasota/Software-Engineering-Intern---Summer-2026_317415",
@@ -8718,7 +8719,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/singlestore/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/singlestore/jobs/7118095"
+      "https://job-boards.greenhouse.io/singlestore/jobs/7118095",
+      "https://job-boards.greenhouse.io/singlestore/jobs/7782709"
     ]
   },
   {
@@ -8850,6 +8852,7 @@
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501189007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4522665007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4526301007",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4532863007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4873659007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4873756007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4961094007",
@@ -11458,6 +11461,7 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
     "urls": [
+      "https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19",
       "https://jobs.lever.co/tri/7468a62e-09de-4fb6-b5a2-779dfbb94e73",
       "https://jobs.lever.co/tri/a5a628cd-44a9-4ff6-aeba-c775c516dfd2",
       "https://jobs.lever.co/tri/eef0e312-6b25-44e4-b2df-0d3a4ee3533e"
@@ -11792,7 +11796,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000120503077",
       "https://jobs.smartrecruiters.com/BoschGroup/744000120702643",
       "https://jobs.smartrecruiters.com/BoschGroup/744000121335917",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000121872182"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000121872182",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000121879097"
     ]
   },
   {
