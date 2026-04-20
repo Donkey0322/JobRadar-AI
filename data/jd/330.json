@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5103766007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4616218007,
+  "location": {
+    "name": "Frisco, TX"
+  },
+  "metadata": [
+    {
+      "id": 4488092007,
+      "name": "Job Family",
+      "value": "INTERN - Internships",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 5103766007,
+  "updated_at": "2026-04-09T12:09:48-04:00",
+  "requisition_id": "1734",
+  "title": "Agentic Software Engineering Intern",
+  "company_name": "Toshiba Global Commerce Solutions - External",
+  "first_published": "2026-04-09T12:09:48-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;&lt;strong&gt;Summer 2026 Internship:&amp;nbsp;&lt;/strong&gt;This position is located at our Frisco, TX office. .&amp;nbsp; Expected program dates are May 18 – August 7, 2026. Anticipated working hours will be 40 per week, 5 days a week on-site.&amp;nbsp; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Note: &lt;/strong&gt;Toshiba Global Commerce Solutions will not be providing visa sponsorship for this position now or in the future. Therefore, in order to be considered for this position, &lt;strong&gt;you must have the ability to work without a need for current or future visa sponsorship&lt;/strong&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Introduction:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The Agentic Software Engineering Intern contributes within the software development team to learn and aid with development, test, and support of Toshiba’s Point of Sale (POS) solutions in the retail marketplace, collaborating within the agile development team in a fast-paced, customer-first environment. These solutions include point of sale (POS), customer loyalty solutions, and mobile applications (Android, iOS). Many technologies are used, including SaaS (Software as a Service), SOA (Service Oriented Architecture), MoM (Message Oriented Middleware), cloud computing, enterprise, and desktop Java development.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Must Have:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Must be local to Raleigh/Durham, NC area. This is a fully in-person role at least 5 days a week in person.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Familiarity with LLM integration (e.g., calling APIs, using Hugging Face or LangChain frameworks).&lt;/li&gt;\n&lt;li&gt;Agentic System Knowledge (Prompt Engineering, LLM, RAG, Vector Databases)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Assist engineers in a subset of the following areas as assigned:&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Programming duties include coding, design, testing, system maintenance, building defined features, investigation/troubleshooting, and fixing/verifying defects&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Resolution of technical challenges requiring a narrow scope of domain and discipline knowledge&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Implementation of product and solution features, according to guidance; solutions involve enterprise-, cloud- and client-side components which may leverage Java, JavaScript, and modern UI frameworks, RESTful microservices with JSON &amp;amp; Swagger, and relational and no-SQL databases&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Participate in the design, development, implementation, testing, and maintenance of systems supporting a variety of applications and business-critical functionality.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work directly within the agile development team and stakeholders to help with existing requirements, adhere to timelines, and meet deliverables.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Learn about TGCS product offerings and how clients use them.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Learn about how TGCS products go from an idea to a fully-fledged product.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Skills:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing Computer Science/Engineering major in Undergraduate Studies&lt;/li&gt;\n&lt;li&gt;Excellent analytical skills&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Ability to work in a fast paced, team-based environment&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Strong communication and interpersonal skills&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Programming and analytical skills, problem determination and debugging, attention to detail, teamwork and excellent communication skills.&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Effective verbal and written communication; able to read, write, and speak English proficiently &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Skills:&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Participation in agile SDLC; usage of agile project management tools &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Ability to use code versioning tools like Git, SVN, etc.&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Software development experience with Java, C++, or similar&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Modern web development experience, including application of HTML5, JavaScript, CSS, and various JS frameworks such as Angular, React, or Vue.JS.&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About the Company:&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Toshiba Global Commerce Solutions, Inc., is a dynamic billion-dollar global company based in Research Triangle Park, NC, providing retail store solutions to your favorite brands. Have you ever been in a hurry and made use of the self-checkout at Lowe’s Foods, earned fuel rewards at Kroger, or just paid for purchases at retailers such as Walmart, Michaels, Carrefour, The Gap, Calvin Klein, Boots, Cencosud, BJ’s, or Costco? These are just a few examples of our in-store solutions and impressive customer base that made us the world&#39;s installed market share leader. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The nature of retail is changing quickly, so if you share our &#39;Together Commerce&#39; vision of a seamless two-way, participatory shopping experience, let’s get together to drive the new economy. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;EEO:&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Toshiba is an equal opportunity/affirmative action employer that evaluates qualified applicants without regard to age, ancestry, color, religious creed, disability, marital status, medical condition, genetic information, military or veteran status, national origin, race, sex, gender, gender identity, gender expression and sexual orientation or any other protected factor. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Individuals who need a reasonable accommodation because of a disability for any part of the employment process should email benefits@toshibagcs.com to request an accommodation.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;DIVERSITY, EQUITY &amp;amp; INCLUSION:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We at Toshiba Global Commerce Solutions firmly believe that our people are an integral part to the success of our customers. Furthermore, we’re committed to Diversity, Equity, and Inclusion for all our people as highlighted by our&amp;nbsp;5 Core Principles (Create Outreach, Foster Belonging, Unleash Opportunity, Diverse Cultural Engagement and Culture of Transparency).&amp;nbsp; We’re passionate about our customers&amp;nbsp;the retail industry and becoming a more responsible company as we help create a brighter future.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4015307007,
+      "name": "314510 - Innovation & Incubation",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4015509007,
+      "name": "Frisco, TX",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4045883007
+    }
+  ]
+}

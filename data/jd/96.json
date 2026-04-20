@@ -1,0 +1,100 @@
+{
+  "id": "744000114977297",
+  "name": "Software Developer Intern",
+  "uuid": "c24a3377-c329-4164-8a3c-790e804a24bd",
+  "jobId": "da6544e3-93b0-49e8-a56d-3c6af4d4aa67",
+  "jobAdId": "345f8c24-c037-4e5a-80cb-2a64a8932bc8",
+  "defaultJobAd": true,
+  "refNumber": "Software Development - 2225D",
+  "company": {
+    "name": "STCU",
+    "identifier": "STCU1"
+  },
+  "location": {
+    "city": "Liberty Lake",
+    "region": "WA",
+    "country": "us",
+    "address": "1620 North Signal Drive",
+    "postalCode": "99019",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "47.6725034",
+    "longitude": "-117.1005463",
+    "fullLocation": ", "
+  },
+  "customField": [
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "5a7a1cf7b60a5e20ef9bcc7b",
+      "fieldLabel": "Department",
+      "valueId": "1051678",
+      "valueLabel": "Software Development"
+    },
+    {
+      "fieldId": "5a7a1cf7b60a5e20ef9bcc7a",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "STCU"
+    }
+  ],
+  "releasedDate": "2026-03-16T13:33:55.224Z",
+  "creator": {
+    "name": "Renee Huling",
+    "avatarUrl": "https://c.smartrecruiters.com/sr-employee-image-prod-aws-dc5/5d0ecca8886c4e2a940547ee?r=s3-eu-central-1&_1568676725942"
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/STCU1/744000114977297-software-developer-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/STCU1/744000114977297-software-developer-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/STCU1/publication/c24a3377-c329-4164-8a3c-790e804a24bd?dcr_ci=STCU1",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>STCU</strong>&#xa0;is consistently rated one of the top-performing credit unions in the nation, and has been named one of Fortune Magazine’s Great Places to Work. We look for employees who have a strong desire to serve others, are lifelong learners, are committed to working hard, have a fun-loving attitude, and who want to make a difference in our members’ lives. We love people who share our core values: Joyfulness, generosity, belonging, goodness, and striving. We believe in being a force for good in the community, while helping members achieve their financial goals and dreams.</p><p><strong>STCU offers excellent benefits:&#xa0;</strong></p><ul><li>Paid time off - plus paid holidays!</li><li>Medical, dental and vision insurance&#xa0;</li><li>Flexible schedules with opportunity to work remote</li><li>Training and career development</li></ul><p>An overview of the benefits can be found&#xa0;<a href=\"https://c.smartrecruiters.com/sr-company-attachments-prod-aws-dc5/5a6f61d7e4b0e735532aff10/e70c4ea0-3b78-4a47-a202-e7a1b03e1f45?r=s3-eu-central-1\">here</a>. &#xa0;<br>\nSalary range: $19.26 - $20.00 per hour&#xa0;</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>*<strong>Must live within commuting distance of the STCU Headquarters located in Liberty Lake, WA.*</strong></p><p>The <strong>Software Developer Intern </strong>is responsible for designing, documenting, developing and supporting custom software solutions for STCU using modern programing languages with supervision. This position will work as a learning and developing member of an Agile/SCRUM team and work with subject matter experts and stakeholders to ensure our custom software solutions meet the needs of the credit union.</p><p><strong>Duration</strong>: May - November 2026</p><p><strong>Hours per week</strong>: 40 hours per week</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Eligibility</strong>: Candidates must currently live within commuting distance to Headquarters in Liberty Lake, WA. Candidates must currently be enrolled in a local college for the entirety of the internship and of at least a junior standing, through November 2026.&#xa0;</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Ready to apply? Click on I'm interested!</p>"
+      }
+    }
+  },
+  "active": false,
+  "visibility": "INTERNAL",
+  "industry": {
+    "id": "financial_services",
+    "label": "Financial Services"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "department": {
+    "id": 1051678,
+    "label": "Software Development"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

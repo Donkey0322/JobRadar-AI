@@ -1,0 +1,115 @@
+{
+  "id": "3743990012633456",
+  "name": "Information Security AI Strategy Intern",
+  "uuid": "6f74ca95-24db-47c7-8306-2429031bee8c",
+  "jobId": "0832ea89-d76e-4a91-9f62-74700cfe7c01",
+  "jobAdId": "16171541-cdd9-4a37-93c1-a0ca6e4defe8",
+  "defaultJobAd": true,
+  "refNumber": "71730448-20260406",
+  "company": {
+    "name": "The Nielsen Company",
+    "identifier": "TheNielsenCompany"
+  },
+  "location": {
+    "city": "New York",
+    "region": "NY",
+    "country": "us",
+    "remote": false,
+    "hybrid": true,
+    "hybridDescription": "3-4 Days in office",
+    "fullLocation": "New York, NY, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "67bc424e73ec3643190b8781",
+      "fieldLabel": "Department",
+      "valueId": "3000000000348942",
+      "valueLabel": "Administration"
+    },
+    {
+      "fieldId": "67bc424e73ec3643190b8780",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "The Nielsen Company"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "6813d2f74e9bb33c0e343e2c",
+      "fieldLabel": "Compensation Min",
+      "valueId": "0",
+      "valueLabel": "$0"
+    },
+    {
+      "fieldId": "6813d362836c215e9164e007",
+      "fieldLabel": "Compensation Max",
+      "valueId": "0",
+      "valueLabel": "$0"
+    }
+  ],
+  "releasedDate": "2026-04-16T13:53:31.982Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456-information-security-ai-strategy-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990012633456-information-security-ai-strategy-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/TheNielsenCompany/publication/6f74ca95-24db-47c7-8306-2429031bee8c?dcr_ci=TheNielsenCompany",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Nielsen, we are passionate about our work to power a better media future for all people by providing powerful insights that drive client decisions and deliver extraordinary results. Our talented, global workforce is dedicated to capturing audience engagement with content - wherever and whenever it’s consumed. Together, we are proudly rooted in our deep legacy as we stand at the forefront of the media revolution. When you join Nielsen, you will join a dynamic team committed to excellence, perseverance, and the ambition to make an impact together. We champion you, because when you succeed, we do too. We enable your best to power our future.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We are seeking a high-caliber, inquisitive intern to perform a comprehensive audit of our existing Information Security technology stack through the lens of Artificial Intelligence. Your mission is to identify manual, high-friction, or data-heavy security processes and design AI-driven frameworks to automate or enhance them.</p><p>This is not just a \"shadowing\" role; you will be responsible for building a roadmap of five high-impact AI implementation projects that will influence our security strategy for the coming year.<br>\n&#xa0;</p><p>Key Responsibilities</p><ul><li><p>Tech Stack Audit: Perform a deep dive into our current security tooling (SIEM, EDR, Firewall, IAM, and GRC platforms) to understand data flows and manual touchpoints.</p></li><li><p>Gap Analysis: Identify \"toil\"—repetitive tasks performed by security engineers—that are ripe for optimization via Machine Learning (ML) or Large Language Models (LLMs).</p></li><li><p>Use Case Development: Research and design five specific project proposals. This includes defining the problem statement, the AI/ML approach (e.g., NLP for policy review, anomaly detection for logs), and the expected ROI.</p></li><li><p>Feasibility Assessment: Evaluate the data privacy and security risks associated with deploying AI within the security stack (e.g., prompt injection, data leakage).</p></li><li><p>Stakeholder Briefing: Present your final \"AI in Security\" roadmap to the CISO and senior leadership.</p></li></ul><p>The Deliverable</p><p>The cornerstone of this internship is a Strategic AI Opportunities Report, detailing five distinct projects. Each project summary must include:</p><ol><li><p>Current State vs. Future State: A \"before and after\" workflow analysis.</p></li><li><p>Technical Approach: The specific AI model type or toolset required.</p></li><li><p>Outcome Metrics: Expected reduction in Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), or manual hours saved.</p></li><li><p>Risk Profile: Potential pitfalls or biases the AI might introduce.</p></li></ol><p>Examples of Potential Projects</p><ul><li><p>Automated Firewall Audit: Using LLMs to parse complex firewall port requests against existing security policies to flag \"high-risk\" openings automatically.</p></li><li><p>Identity Analytics: Applying clustering algorithms to identify stale, risky or unprotected AWS access keys.</p></li><li><p>Incident Summary Generation: Automating the creation of post-mortem reports by synthesizing SIEM alerts and analyst notes into a cohesive narrative.</p></li></ul><p>&#xa0;</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>&#xa0;</p><ul><li><p>Currently pursuing a degree in Computer Science, Cybersecurity, Data Science, or a related field.</p></li><li><p>Strong understanding of core security concepts (Networking, IAM, OWASP Top 10).</p></li><li><p>Foundational knowledge of AI/ML concepts (Prompt engineering, RAG, or data analysis).</p></li><li><p>Excellent communication skills with the ability to explain complex technical concepts to non-technical stakeholders.</p></li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<div sr-tagline=\"\"></div><p><strong>Enabling your best to power a better media future.</strong></p><p><strong>Holistic Rewards: </strong>We are committed to an inclusive benefits package that supports our employees and their families. This includes comprehensive health and wellness plans, a 401(k) with a Nielsen company match, and a generous paid time off policy. Depending on the role, additional benefits may include a company-provided vehicle and/or discretionary incentive/bonus eligibility.</p><p><strong>Compensation Transparency: </strong>The posted base salary range is a reasonable estimate that&#xa0; may be adjusted based on the final work location of the selected employee. Individual pay within the range is determined by factors such as experience, training, geography, certifications, and business needs. Beyond base salary, this role may be eligible for bonuses, equity, or other incentives<strong>.</strong></p>\n<p>Nielsen makes hiring decisions without regard to disability status, protected veteran status, or membership in any other protected class.</p>\n<p>Please be aware that job-seekers may be at risk of targeting by scammers seeking personal data or money. Nielsen recruiters will only contact you through official job boards, LinkedIn, or email with a&#xa0;<a href=\"http://nielsen.com/\">nielsen.com</a>&#xa0;domain. Be cautious of any outreach claiming to be from Nielsen via other messaging platforms or personal email addresses. Always verify that email communications come from an @<a href=\"http://nielsen.com/\">nielsen.com</a>&#xa0;address. If you're unsure about the authenticity of a job offer or communication, please contact Nielsen directly through our official website or verified social media channels.</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 0,
+    "max": 0,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "broadcast_media",
+    "label": "Broadcast Media"
+  },
+  "function": {
+    "id": "project_management",
+    "label": "Project Management"
+  },
+  "department": {
+    "id": 3000000000348942,
+    "label": "Administration"
+  },
+  "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "jobPostingInfo": {
+    "id": "40d6a3331f2310019b9d39e284420000",
+    "title": "National Security Solutions (NSS) - Computer Science Intern",
+    "jobDescription": "<p style=\"text-align:left\"><b>Title:</b></p>National Security Solutions (NSS) - Computer Science Intern<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>Who We Are</b></p><p>KBR Mission Technical Solutions delivers full life cycle professional and technical solutions that improve operational readiness and drive innovation. Our solutions help ensure mission success on land, air, sea, space and cyberspace for the Department of Defense, Intelligence Community, NASA and other federal agencies. KBR’s areas of expertise include engineering, logistics, operations, science, program management, mission IT and cybersecurity. KBR strives to create a safer, more secure and sustainable world by bringing together the best and brightest to deliver technologies and solutions that help our customers accomplish their most critical missions and objectives.</p><p></p><p><b>The Mission Ahead</b></p><p>This role is with KBR’s Mission Tech Solutions (MTS). At KBR MTS, we don&#39;t just envision a world that&#39;s safer, more secure, and sustainable - we create it. Our legacy of delivering advanced full life cycle professional and technical solutions is matched only by our commitment to operational readiness and innovation. As stewards of critical missions for the Department of Defense, Intelligence Community, NASA, and other key federal entities, we excel in engineering, logistics, operations, science, program management, mission IT, and cybersecurity. United in our quest for excellence, KBR stands at the vanguard, ready to transform possibilities into impactful realities for a better tomorrow.</p><p></p><p><b>Why Join KBR?</b></p><ul><li>Mentorship from experienced subject matter experts</li><li>Cutting edge projects, relevant to real world challenges</li><li>Work in a collaborative and dynamic team environment</li><li>Networking opportunities with other technologists and executives</li><li>Competitive pay and great company culture</li></ul><p></p><p><b>As a National Security Solutions – Computer Science Intern, you will:</b></p><ul><li>Build a Python-based pipeline that ingests requirement text (sanitized), scores it against rule sets (ambiguity, atomicity, verifiability), and produces dashboards</li><li>Implement rules (e.g., weak words, passive voice) &#43; simple ML classifier</li><li>Create a scoring rubric and web dashboard (Streamlit/Dash)</li><li>Export CSV/JSON for trace into models and test cases</li><li>Dashboard and visualization development</li><li>NLP and rule-based text analytics</li></ul><p></p><p>Selected interns for this paid opportunity will be provided with the opportunity to mentor with experienced professionals, gain experience and establish a name for themselves in this high demand career field.</p><p></p><p><b>Required Skillset:</b></p><ul><li>Currently enrolled and pursuing a Bachelor&#39;s degree in Computer Science, Computer Engineering or Technical Related field.</li><li>Proficient in Python, NLP (spaCy), regex, pandas, data viz; UX sensibility</li><li>Experience collaborating in Git/GitLab</li><li>Strong work ethics and interpersonal skills</li><li>Strong analytical and problem-solving skills</li><li>Excellent written and verbal communication skills</li></ul><p></p><p>Scheduled Weekly Hours: Average 40 hours per week, 10 weeks in duration during the period of Summer 2026</p><p></p><p><b>Requirement:</b></p><ul><li>Security Clearance: Ability to obtain a U.S. Government Secret Security Clearance.</li><li>Internship will be at the Beavercreek KBR office with the potential for some remote/hybrid work.</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p>Belong, Connect and Grow at KBR<br /><br />At KBR, we are passionate about our people and our Zero Harm culture. These inform all that we do and are at the heart of our commitment to, and ongoing journey toward being a People First company. That commitment is central to our team of team’s philosophy and fosters an environment where everyone can Belong, Connect and Grow. We Deliver – Together. </p><p></p><p>KBR is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</p><p></p><p></p><p></p>",
+    "location": "Beavercreek Township, Ohio",
+    "postedOn": "Posted 30+ Days Ago",
+    "startDate": "2026-03-12",
+    "timeType": "Part time",
+    "jobReqId": "R2120307",
+    "jobPostingId": "National-Security-Solutions--NSS----Computer-Science-Intern_R2120307",
+    "jobPostingSiteId": "KBR_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA, Beavercreek Township, 3725 Pentagon Boulevard, Suite 210, Ohio",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Computer-Science-Intern_R2120307",
+    "questionnaireId": "0987f530dc51019a55f13d18d500cc5e"
+  },
+  "hiringOrganization": {
+    "name": "1805 KBR Wyle Services, LLC",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "National Security Solutions (NSS) - Technical Intern",
+      "externalPath": "/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Technical-Intern_R2118285",
+      "timeType": "Part time",
+      "locationsText": "Beavercreek Township, Ohio",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-16"
+    },
+    {
+      "title": "National Security Solutions (NSS) Systems Engineering Internship",
+      "externalPath": "/job/Chantilly-Virginia/National-Security-Solutions--NSS--Systems-Engineering-Internship_R2112154",
+      "timeType": "Part time",
+      "locationsText": "11 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-11-06"
+    },
+    {
+      "title": "National Security Solutions (NSS) Semiconductor Research Internship",
+      "externalPath": "/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS--Semiconductor-Research-Internship_R2120005",
+      "timeType": "Part time",
+      "locationsText": "Beavercreek Township, Ohio",
+      "postedOn": "Posted 19 Days Ago",
+      "startDate": "2026-03-26"
+    },
+    {
+      "title": "National Security Solutions (NSS) - Cyber Engineer Intern",
+      "externalPath": "/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Cyber-Engineer-Intern_R2116574",
+      "timeType": "Part time",
+      "locationsText": "Beavercreek Township, Ohio",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-12-16"
+    },
+    {
+      "title": "National Security Solutions (NSS) - Generative AI Intern",
+      "externalPath": "/job/Beavercreek-Township-Ohio/National-Security-Solutions--NSS----Generative-AI-Intern_R2119182",
+      "timeType": "Part time",
+      "locationsText": "Beavercreek Township, Ohio",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-17"
+    }
+  ],
+  "userAuthenticated": false
+}

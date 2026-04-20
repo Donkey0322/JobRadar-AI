@@ -1,0 +1,80 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lucidmotors/jobs/4953725007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 4541768007,
+  "location": {
+    "name": "Newark, CA"
+  },
+  "metadata": [
+    {
+      "id": 4966939007,
+      "name": "Employee Class",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 9381284007,
+      "name": "HR Business Partner",
+      "value": {
+        "name": "Veronica Bruner",
+        "email": "veronicabruner@lucidmotors.com",
+        "user_id": 4531046007,
+        "employee_id": "309527"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 13097521007,
+      "name": "Division",
+      "value": "Engineering & Software",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433629007,
+      "name": "Job Function",
+      "value": "INT",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433628007,
+      "name": "Sub Function",
+      "value": "INTERN",
+      "value_type": "short_text"
+    }
+  ],
+  "id": 4953725007,
+  "updated_at": "2026-04-16T04:38:57-04:00",
+  "requisition_id": "80021416 #1 - October 22, 2025 3:56 PM",
+  "title": "Intern, Electrical Machines Testing & Data Analytics, Summer 2026",
+  "company_name": "Lucid Motors",
+  "first_published": "2026-04-06T13:09:34-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;u&gt;&lt;strong&gt;Leading the future in luxury electric and mobility&lt;/strong&gt;&lt;/u&gt;&lt;/div&gt;\n&lt;div&gt;At Lucid, we set out to introduce the most captivating, luxury electric vehicles that elevate the human experience and transcend the perceived limitations of space, performance, and intelligence. Vehicles that are intuitive, liberating, and designed for the future of mobility.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;We plan to lead in this new era of luxury electric by returning to the fundamentals of great design – where every decision we make is in service of the individual and environment. Because when you are no longer bound by convention, you are free to define your own experience.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Come work alongside some of the most accomplished minds in the industry. Beyond providing competitive salaries, we’re providing a community for innovators who want to make an immediate and significant impact. If you are driven to create a better, more sustainable future, then this is the right place for you.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;\n&lt;div&gt;\n&lt;h2&gt;Role Overview&lt;/h2&gt;\n&lt;div data-olk-copy-source=&quot;MessageBody&quot;&gt;We are seeking a highly motivated and detail-oriented Electrical Engineering PhD (or strong MS) intern to join our Electrical Machines / Drive Unit Engineering team for Summer 2026. In this role, you will support experimental characterization of electrical machines (e.g., loss measurements, efficiency mapping, thermal/operational behavior) and perform data post-processing and signal analysis using MATLAB/Simulink and Python. If time allows, you will also explore surrogate modeling and uncertainty quantification (UQ) using statistical and machine-learning methods to accelerate machine characterization and insight generation.&lt;/div&gt;\n&lt;div&gt;This internship is ideal for someone who enjoys hands-on lab work, rigorous data analysis, and building practical engineering tools that improve test throughput and model fidelity.&lt;/div&gt;\n&lt;hr&gt;\n&lt;h2&gt;You Will:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Plan and execute &lt;strong&gt;electrical machine characterization tests&lt;/strong&gt;, including torque‑speed and efficiency mapping&lt;/li&gt;\n&lt;li&gt;Conduct &lt;strong&gt;loss and thermal measurements&lt;/strong&gt; across operating conditions&lt;/li&gt;\n&lt;li&gt;Support &lt;strong&gt;instrumentation and data acquisition&lt;/strong&gt;, working with power analyzers, torque sensors, speed sensors, thermocouples/RTDs, and DAQ systems&lt;/li&gt;\n&lt;li&gt;Ensure data quality through &lt;strong&gt;calibration checks, repeatability validation, filtering, and documentation&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Develop &lt;strong&gt;MATLAB/Simulink and Python scripts&lt;/strong&gt; for signal processing, data cleaning, visualization, and reporting&lt;/li&gt;\n&lt;li&gt;Extract key KPIs such as &lt;strong&gt;efficiency, loss breakdowns, harmonics/THD, and thermal steady‑state behavior&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Assist with &lt;strong&gt;surrogate modeling, uncertainty quantification, and ML‑based analytics&lt;/strong&gt; for performance and loss prediction&lt;/li&gt;\n&lt;li&gt;Gain experience performing &lt;strong&gt;high‑quality electrical machine testing&lt;/strong&gt; and translating data into engineering insights&lt;/li&gt;\n&lt;li&gt;Opportunity to build &lt;strong&gt;MATLAB and Python toolchains&lt;/strong&gt; used in production engineering workflows&lt;/li&gt;\n&lt;li&gt;Exposure to &lt;strong&gt;advanced modeling techniques&lt;/strong&gt;, including surrogate models and uncertainty quantification&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr&gt;\n&lt;h2&gt;You Bring:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong background in &lt;strong&gt;electrical engineering&lt;/strong&gt;, with focus on electrical machines and drives&lt;/li&gt;\n&lt;li&gt;Hands‑on experience with &lt;strong&gt;electrical machine testing or experimental lab work&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Proficiency in &lt;strong&gt;MATLAB/Simulink&lt;/strong&gt; and &lt;strong&gt;Python&lt;/strong&gt; for data analysis and automation&lt;/li&gt;\n&lt;li&gt;Familiarity with one or more of the following:\n&lt;ul&gt;\n&lt;li&gt;Efficiency mapping and loss segregation (copper, iron, mechanical losses)&lt;/li&gt;\n&lt;li&gt;Frequency‑domain analysis (FFT, harmonic analysis) and sensor calibration&lt;/li&gt;\n&lt;li&gt;Statistical methods and basic uncertainty estimation&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Interest in &lt;strong&gt;surrogate modeling, UQ, or ML‑enabled engineering workflows&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;At Lucid, we don’t just welcome diversity - we celebrate it! Lucid Motors is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, national or ethnic origin, age, religion, disability, sexual orientation, gender, gender identity and expression, marital status, and any other characteristic protected under applicable State or Federal laws and regulations.&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Additional Compensation and Benefits&lt;/strong&gt;: Lucid offers a wide range of competitive benefits, including medical, dental, vision, life insurance, disability insurance, vacation, and 401k. The successful candidate may also be eligible to participate in Lucid’s equity program and/or a discretionary annual incentive program, subject to the rules governing such programs. &amp;nbsp;(Cash or equity incentive awards, if any, will depend on various factors, including, without limitation, individual and company performance.)&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;By Submitting your application, you understand and agree that your personal data will be processed in accordance with our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://lucidmotors.com/media/document/candidate-privacy-notice.pdf&quot;&gt;Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;. If you are a California resident, please refer to our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://www.lucidmotors.com/s3fs-public/pdf/california-candidate-privacy-notice.pdf&quot;&gt;California Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;&lt;u&gt;To all recruitment agencies&lt;/u&gt;&lt;/strong&gt;: &lt;em&gt;Lucid Motors &lt;strong&gt;does not&lt;/strong&gt; accept agency resumes. Please do not forward resumes to our careers alias or other Lucid Motors employees. Lucid Motors is not responsible for any fees related to unsolicited resumes.&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4064136007,
+      "name": "Drive Unit Engineering & Operations",
+      "child_ids": [],
+      "parent_id": 4064131007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4027053007,
+      "name": "Newark, CA",
+      "location": "Newark, CA",
+      "child_ids": [],
+      "parent_id": 4027047007
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/mqreferrals/jobs/7644983",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3368337,
+  "location": {
+    "name": "Remote, USA"
+  },
+  "metadata": [
+    {
+      "id": 11338538,
+      "name": "Job Description",
+      "value": "-",
+      "value_type": "url"
+    },
+    {
+      "id": 31244266,
+      "name": "Equity Minimum - Premium Plus",
+      "value": "0.0",
+      "value_type": "number"
+    },
+    {
+      "id": 31244339,
+      "name": "Equity Target - Premium Plus",
+      "value": "0.0",
+      "value_type": "number"
+    },
+    {
+      "id": 31244355,
+      "name": "Equity Minimum - Premium",
+      "value": "0.0",
+      "value_type": "number"
+    },
+    {
+      "id": 31244367,
+      "name": "Equity Target - Premium",
+      "value": "0.0",
+      "value_type": "number"
+    },
+    {
+      "id": 17538883,
+      "name": "Premium Plus OTE Range",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 17538884,
+      "name": "Premium OTE Range",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 17538913,
+      "name": "National OTE Range",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 36844557,
+      "name": "International OTE Range",
+      "value": null,
+      "value_type": "short_text"
+    }
+  ],
+  "id": 7644983,
+  "updated_at": "2026-04-02T21:20:12-04:00",
+  "requisition_id": "JR466",
+  "title": "Intern - Product Security Engineering",
+  "company_name": "MQ Referrals Only",
+  "first_published": "2026-03-26T14:26:44-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;We are seeking a &lt;strong&gt;Product Security Engineering Intern&lt;/strong&gt; to join our team. This role will support the processes and technologies used to secure our products and systems while gaining hands-on experience in a fast-paced FinTech environment.&lt;/p&gt;\n&lt;p&gt;We work &lt;a href=&quot;https://www.marqeta.com/blog/2022/05/10/flexible-first&quot;&gt;Flexible First&lt;/a&gt;. This role can be performed remotely anywhere within the United States or from our Oakland office. We’d love for you to join us!&lt;/p&gt;\n&lt;p&gt;This will be a 12 week internship program, beginning on June 8th and running through August 28th, 2026.&lt;/p&gt;\n&lt;p&gt;This position is not for an existing vacancy.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;The Impact You’ll Have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Assist with security design reviews and threat modeling under the guidance of senior engineers&lt;/li&gt;\n&lt;li&gt;Help build and maintain automated security testing tools integrated into CI/CD pipelines&lt;/li&gt;\n&lt;li&gt;Support the creation of security education and training materials for engineering teams&lt;/li&gt;\n&lt;li&gt;Research and document secure architecture patterns and best practices&lt;/li&gt;\n&lt;li&gt;Assist in proof of concept evaluations for application security solutions&lt;/li&gt;\n&lt;li&gt;Contribute to the day-to-day operations of the Product Security Team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing or recently completed a degree in Computer Science, Cybersecurity, or a related field&lt;/li&gt;\n&lt;li&gt;Foundational understanding of software development and common security concepts (e.g., OWASP Top 10)&lt;/li&gt;\n&lt;li&gt;Familiarity with at least one programming language (e.g., Python, Java, Go, or JavaScript) and at least one cloud platform, such as AWS&lt;/li&gt;\n&lt;li&gt;Curiosity and eagerness to learn about application security, cloud infrastructure, and CI/CD workflows&lt;/li&gt;\n&lt;li&gt;Strong communication skills and a collaborative mindset&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Nice-To-Haves&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Cybersecurity or Cloud Computing Certifications&lt;/li&gt;\n&lt;li&gt;Open source software contributions&lt;/li&gt;\n&lt;li&gt;Involvement in Capture the Flag or other cybersecurity competitions or events&lt;/li&gt;\n&lt;li&gt;Examples of practical applications of skills in the areas of AppSec, DevSecOps, or Offensive Security&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Typical Process&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Application Submission&lt;/li&gt;\n&lt;li&gt;Recruiter Video Call&lt;/li&gt;\n&lt;li&gt;Hiring Manager Video Call&lt;/li&gt;\n&lt;li&gt;Final Round consisting of 1-2, 45-60 min calls&lt;/li&gt;\n&lt;li&gt;Offer!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Compensation and Benefits&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Marqeta is a Flex First company which allows you to choose your best working environment, whether that be from home or at a company office. To support Flex First, we calibrate pay to a competitive value according to working location. Compensation is aligned according to three tiers within the United States:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;National&lt;/strong&gt;: A baseline tier that applies to most of the geographic territory of the United States.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Premium&lt;/strong&gt;: Slightly elevated from the National tier, and oriented toward a narrower set of higher cost-of-living areas, such as Los Angeles CA and Seattle WA&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Premium Plus&lt;/strong&gt;: A tier for the most expensive working areas, like the San Francisco Bay area and New York City.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Visit &lt;a href=&quot;https://www.marqeta.com/company/salaryzones&quot;&gt;this page&lt;/a&gt; or consult with a Recruiter to determine which tier would be applicable to you.&lt;/p&gt;\n&lt;p&gt;When determining pay, we consider several factors including, but not limited to, skills, prior experience, and work location. The 2026 Internship &lt;strong&gt;hourly rate&lt;/strong&gt; is:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;National: $45/hr&lt;/li&gt;\n&lt;li&gt;Premium: $49/hr&lt;/li&gt;\n&lt;li&gt;Premium Plus: $53/hr&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Along with monetary compensation, Marqeta offers Interns:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3 Vacation Days&lt;/li&gt;\n&lt;li&gt;A Remote, Flex First Environment&lt;/li&gt;\n&lt;li&gt;A Mentor and Intern Buddy&lt;/li&gt;\n&lt;li&gt;Real Life Projects&lt;/li&gt;\n&lt;/ul&gt;",
+  "departments": [
+    {
+      "id": 38382,
+      "name": "CyberSecurity",
+      "child_ids": [],
+      "parent_id": 29345
+    }
+  ],
+  "offices": [
+    {
+      "id": 332453,
+      "name": "Job Requisition - Premium+/Premium/National",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

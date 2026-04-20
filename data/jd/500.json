@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4656081005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4417246005,
+  "location": {
+    "name": "San Jose, CA"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "CTO Organization",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4656081005,
+  "updated_at": "2026-04-14T18:27:17-04:00",
+  "requisition_id": "2259",
+  "title": "AI/ML Intern Silicon Development Automation",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2026-02-05T18:45:39-05:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;span data-olk-copy-source=&quot;MessageBody&quot;&gt;Position Overview&lt;/span&gt;&lt;/h2&gt;\n&lt;p&gt;We are seeking an AI/ML intern to support the development of AI-enabled workflows that accelerate silicon chip design processes. You will work with generative AI or deep learning techniques to assist in optimizing EDA (Electronic Design Automation) workflows, in &amp;nbsp;frontend design or verification tasks.&lt;/p&gt;\n&lt;h2&gt;Key Responsibilities&lt;/h2&gt;\n&lt;h3&gt;AI/ML Development Support&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;div&gt;Assist in developing AI-enabled automation solutions for silicon development workflows including circuit design, verification, debugging.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;Support integration of domain-specific EDA tools with LLM capabilities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Technical Implementation&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;div&gt;Write Python code for AI agents or assistants&amp;nbsp;and&amp;nbsp;evaluations for the front-end design and verifcation workflow.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Build&amp;nbsp;tools, agent skills&amp;nbsp;for processing design and verification code and data.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Contribute to evaluation frameworks for&amp;nbsp;evaluation&amp;nbsp;AI systems.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Participate in building benchmark datasets for silicon development AI applications.&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Apply context engineering techniques to solve&amp;nbsp;design and verification problems.&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Required Qualifications&lt;/h2&gt;\n&lt;h3&gt;Education&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing BS or MS in Computer Science, Electrical Engineering, Computer Engineering, or related field&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Relevant coursework in machine learning and VLSI design&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Technical Skills&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong Python programming skills&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Understanding of machine learning fundamentals&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;Coursework or project experience in one or more:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep learning or generative AI&lt;/li&gt;\n&lt;li&gt;VLSI design (frontend or backend)&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;EDA tools or design automation&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;\n&lt;div&gt;Academic projects, coursework, or GitHub repositories showing:&lt;/div&gt;\n&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;ML/AI development experience, OR&lt;/li&gt;\n&lt;li&gt;Chip design/verification projects, OR&lt;/li&gt;\n&lt;li&gt;Combination of AI and hardware design work&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What You&#39;ll Gain&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Hands-on experience applying AI/ML to real-world chip design challenges&lt;/li&gt;\n&lt;li&gt;\n&lt;div&gt;Exposure to generative AI and agentic workflows in chip design&lt;/div&gt;\n&lt;/li&gt;\n&lt;li&gt;Mentorship from experienced engineers in AI and silicon development\n&lt;div&gt;&lt;/div&gt;\n&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4133890005,
+      "name": "CTO",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000118005,
+      "name": "San Jose, CA",
+      "location": "San Jose, California, United States",
+      "child_ids": [],
+      "parent_id": 4019546005
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "jobPostingInfo": {
+    "id": "80b54c2528e310011730b13222ab0000",
+    "title": "Software Intern, AI/ML — Warehouse Robotics, Stretch Team",
+    "jobDescription": "<p><b><b>Location:</b><span> </span></b><span>Waltham, MA (Public transportation accessible from Boston/Alewife) </span>Start Date:<span> June 2026 </span></p><p></p><p><span>Are you a rising junior, rising senior, or graduate student in Robotics, Computer Science, or a related field, motivated and excited to create industry-transforming robotic systems for warehouse logistics?</span></p><p></p><p><span>Boston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. We are now a recognized leader in automation solutions for warehouse logistics.</span></p><p></p><p><b><b>The Team</b></b></p><p><span>Our team builds the software that powers Stretch, Boston Dynamics&#39; robot for warehouse automation. In this role you will be paired with a senior developer who will mentor you as you collaborate on different projects.</span></p><p></p><p><span>Your main role will be as a software developer building and improving the AI and machine learning systems that support warehouse robotic operations. Depending on your skills, there are opportunities to contribute in many areas, such as:</span></p><ul><li><p><span>Machine learning and computer vision for perception and decision-making</span></p></li><li><p><span>Training, fine-tuning, and evaluating models for robotic applications</span></p></li><li><p><span>ML infrastructure including data pipelines, experiment tracking, and model deployment</span></p></li><li><p><span>Simulation and testing environments for validating ML-driven behavior</span></p></li></ul><p></p><p><b><b>Day-to-Day Activities</b></b></p><ul><li><p><span>Design, write, analyze, and debug code</span></p></li><li><p><span>Work within a team to gather, refine, and document requirements</span></p></li><li><p><span>Communicate designs and progress with the larger team</span></p></li><li><p><span>Hands-on interaction with robotic hardware in active warehouse settings</span></p></li></ul><p></p><p><b><b>Desired Skills</b></b></p><ul><li><p><span>Strong CS fundamentals for rising juniors, rising seniors, or graduate students (Master&#39;s or PhD) in Computer Science, Robotics, or related field </span></p></li><li><p><span>Strong ML or Data Analysis fundamentals (PyTorch, JAX)</span></p></li><li><p><span>Proficiency in Python</span></p></li><li><p><span>Experience with modern ML or AI techniques (e.g., Computer Vision, Machine Learning, Deep Learning, Reinforcement Learning, Optimization, or similar areas); experience with VLAs or VLMs is a plus</span></p></li><li><p><span>Prior internship or project experience in robotics or warehouse/logistics environments is a plus</span></p></li></ul><p></p><p><b><b>Physical Requirements</b></b></p><ul><li><p><span>Must be able to lift up to 50 pounds</span></p></li></ul><p></p><p><i>We encourage candidates from all backgrounds to apply. If you&#39;re excited about warehouse robotics and meet some but not all of the qualifications listed above, we&#39;d still love to hear from you.</i></p><p></p><p></p><p>The hourly pay range for this position is between $30-$45/ hour. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills, education and experience. This range represents a good faith estimate of compensation at the time of posting.</p>",
+    "location": "Waltham Office (POST)",
+    "postedOn": "Posted 21 Days Ago",
+    "startDate": "2026-03-24",
+    "timeType": "Full time",
+    "jobReqId": "R2572",
+    "jobPostingId": "Software-Intern--AI-ML---Warehouse-Robotics--Stretch-Team_R2572",
+    "jobPostingSiteId": "Boston_Dynamics",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Waltham Office (POST)",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics/job/Waltham-Office-POST/Software-Intern--AI-ML---Warehouse-Robotics--Stretch-Team_R2572",
+    "questionnaireId": "7028ac54a42f01a936e8991aa301cb3f"
+  },
+  "hiringOrganization": {
+    "name": "Boston Dynamics, Inc.",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Electronics Manufacturing & Supply Chain Engineering Intern",
+      "externalPath": "/job/Waltham-Office-POST/Electronics-Manufacturing---Supply-Chain-Engineering-Intern_R2502",
+      "locationsText": "Waltham Office (POST)",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-09"
+    },
+    {
+      "title": "Atlas VLA Research Intern",
+      "externalPath": "/job/Waltham-Office-POST/Atlas-VLA-Research-Intern_R2486",
+      "timeType": "Full time",
+      "locationsText": "Waltham Office (POST)",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-05"
+    }
+  ],
+  "userAuthenticated": false
+}

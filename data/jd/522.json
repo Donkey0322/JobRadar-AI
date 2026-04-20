@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4685368005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4430679005,
+  "location": {
+    "name": "San Jose, CA"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "Product Management",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4685368005,
+  "updated_at": "2026-04-15T14:16:11-04:00",
+  "requisition_id": "2461",
+  "title": "Business Development Intern (2026)",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2026-04-15T14:16:11-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong data-olk-copy-source=&quot;MessageBody&quot;&gt;Role Overview&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a curious and motivated intern to join our Business Development team, focusing on the rapidly evolving space of AI hardware and custom silicon.&lt;/p&gt;\n&lt;p&gt;This role is designed for individuals who are interested in AI, technology, and how large-scale systems are built and scaled, rather than requiring deep technical expertise. The intern will learn how companies evaluate partners for custom silicon projects and how to translate complex technology concepts into clear business insights.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Conduct research on AI hardware trends, including accelerators, connectivity solutions, and system scaling approaches.&lt;/li&gt;\n&lt;li&gt;Help identify and organize key factors customers consider when selecting a custom silicon partner, such as:&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability to scale performance (compute and connectivity)&lt;/li&gt;\n&lt;li&gt;Execution speed and time-to-market&lt;/li&gt;\n&lt;li&gt;Cost and efficiency (power, total cost of ownership)&lt;/li&gt;\n&lt;li&gt;Ecosystem and partnership strength&lt;/li&gt;\n&lt;li&gt;Risk and reliability&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Support the creation of simple business frameworks that explain:&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Why customers choose one solution over another&lt;/li&gt;\n&lt;li&gt;What differentiates competing approaches&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Assist in developing business development materials, including:&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Presentation slides&lt;/li&gt;\n&lt;li&gt;Market summaries&lt;/li&gt;\n&lt;li&gt;Competitive comparisons&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work with team members to turn complex ideas into clear, structured, and easy-to-understand content.&lt;/li&gt;\n&lt;li&gt;Contribute to discussions on how to scale AI systems efficiently, especially through better connectivity and system-level design.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;By the end of the internship, the candidate will:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Understand the basics of AI hardware and system scaling, including the role of connectivity.&lt;/li&gt;\n&lt;li&gt;Learn how to break down complex topics into simple business frameworks and key concepts.&lt;/li&gt;\n&lt;li&gt;Gain exposure to how large customers (e.g., cloud and AI companies) make technology partnership decisions.&lt;/li&gt;\n&lt;li&gt;Build skills in structured thinking, storytelling, and presentation.&lt;/li&gt;\n&lt;li&gt;Develop confidence in working across both technical and business topics.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a degree in any field (engineering, computer science, business, or related areas).&lt;/li&gt;\n&lt;li&gt;Strong interest in AI, technology, or innovation.&lt;/li&gt;\n&lt;li&gt;Curious mindset and willingness to learn new concepts.&lt;/li&gt;\n&lt;li&gt;Ability to organize information and present ideas clearly.&lt;/li&gt;\n&lt;li&gt;Basic familiarity with presentation tools (PowerPoint)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Interest in AI infrastructure, cloud computing, or hardware systems.&lt;/li&gt;\n&lt;li&gt;Exposure to basic technical or business concepts (no deep expertise required).&lt;/li&gt;\n&lt;li&gt;Experience with research, presentations, or team projects&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Success Looks Like&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Able to create clear and simple frameworks explaining complex topics.&lt;/li&gt;\n&lt;li&gt;Produces structured summaries that help others quickly understand key ideas.&lt;/li&gt;\n&lt;li&gt;Contributes to at least one presentation or business potential assessment&lt;/li&gt;\n&lt;li&gt;Demonstrates growth in understanding how AI systems scale and how business decisions are made.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4000198005,
+      "name": "Product Management",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000118005,
+      "name": "San Jose, CA",
+      "location": "San Jose, California, United States",
+      "child_ids": [],
+      "parent_id": 4019546005
+    }
+  ]
+}

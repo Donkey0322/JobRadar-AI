@@ -1,0 +1,58 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/tatari/jobs/8451506002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 6375966002,
+  "location": {
+    "name": "San Francisco, California, United States"
+  },
+  "metadata": null,
+  "id": 8451506002,
+  "updated_at": "2026-03-09T14:11:16-04:00",
+  "requisition_id": "494",
+  "title": "Software Engineer Intern",
+  "company_name": "Tatari",
+  "first_published": "2026-03-05T15:40:41-05:00",
+  "language": "en",
+  "content": "&lt;p&gt;Tatari is on a mission to revolutionize TV advertising. Founded in 2016 to help transform the antiquated world of TV advertising through the intelligent application of AI and machine learning, Tatari helps some of the world’s fastest growing brands including &lt;em&gt;Chime, Calm, Tecovas, Manscaped, Saatva, and Liquid I.V&lt;/em&gt;., reach their customers using linear and streaming TV ads. Our platform combines sophisticated media buying with proprietary analytics to turn TV advertising into an automated, digital-like experience, enabling businesses of any size to advertise on TV.&lt;/p&gt;\n&lt;p&gt;That approach has earned Tatari broad industry recognition, including being named &lt;a href=&quot;https://www.tatari.tv/insights/tatari-named-best-ctv-adtech-platform-in-2025-martech-breakthrough-awards&quot;&gt;Best CTV AdTech Platform&lt;/a&gt; in the 8th annual &lt;em&gt;MarTech Breakthrough Awards&lt;/em&gt;, as well as honors from &lt;em&gt;Digiday&lt;/em&gt; (&lt;a href=&quot;https://www.tatari.tv/insights/tatari-awarded-best-ctv-ad-platform&quot;&gt;Best Connected TV Platform)&lt;/a&gt;, &lt;em&gt;AdExchanger&lt;/em&gt; (&lt;a href=&quot;https://www.tatari.tv/insights/tatari-wins-adexchangers-2023-most-innovative-tv-advertising-technology-award&quot;&gt;Most Innovative TV Advertising Technology&lt;/a&gt;), and &lt;em&gt;Business Insider &lt;/em&gt;(&lt;a href=&quot;https://www.tatari.tv/insights/business-insider-names-Tatari-a-2023-hottest-adtech-company&quot;&gt;Hottest AdTech Companies)&lt;/a&gt;. Tatari has also been recognized as the &lt;a href=&quot;https://www.tatari.tv/insights/inc-magazine-names-tatari-a-best-workplace-for-the-3rd-year-in-a-row&quot;&gt;Best Place to Work&lt;/a&gt; by &lt;em&gt;Inc. Magazine&lt;/em&gt;. Backed by an executive team of former founders and senior leaders from companies including Shazam, TrueCar, AdapTV, LiveRail, Amazon, Google, Meta, Microsoft, and Yahoo, Tatari continues to scale rapidly as TV advertising enters its next major era.&lt;/p&gt;\n&lt;p&gt;As an intern for the summer of 2026, you will join one of our backend engineering teams (listed below) and contribute to the development of our medi buying and measurement platform. In this role you will design, build, and improve product features that directly impact our customers. This internship offers the opportunity to take ownership of a meaningful project, work with real-world data, and gain hands-on experience building scalable systems in a fast-paced technology environment.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Campaign Management: &lt;/strong&gt;The Campaign Manager team builds and owns Tatari’s media buying applications and pipelines. The team focuses on delivering campaign planning applications and features that allows media buyers – both internal and external – to plan, execute and optimize TV campaigns using powerful intuitive tools provided by Tatari’s data and ML models, and drive self-service platforms.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Media Intelligence: &lt;/strong&gt;The Media Intelligence team builds the AI/ML systems that power automated media planning, audience targeting, and prediction models for clearance and performance across linear and streaming television. Our focus is on intelligent automation, predictive insights, and AI-powered tools that enable optimal, data-driven campaign decisions. Our work is at the intersection of AI/ML engineering, data pipelines, and product to make media intelligence available to every Tatari client.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Reporting and Measurement: &lt;/strong&gt;The Reporting and Measurement pillar consists of 2 different verticals that focus on building the products and systems that help clients understand how their TV campaigns are performing. Intuitive Reporting (IR) owns the client-facing measurement and reporting platform, including the dashboards, APIs, and analytics that turn TV advertising data into clear, actionable insights for brands and agencies. RAM Data Quality (RDQ) owns the integrity of the data behind every report and dashboard at Tatari, building the systems that keep our measurement data accurate, complete, and trustworthy at scale. It&#39;s the foundation that everything else, including our AI-powered products, depends on.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Own and deliver a summer project from initial scoping through final implementation&lt;/li&gt;\n&lt;li&gt;Work with our backend and data teams to develop new features, analytics, and data systems.&lt;/li&gt;\n&lt;li&gt;Focus on a combination of systems tooling, data automation, data analysis and statistics, and transforming messy real-world data into elegant results.&lt;/li&gt;\n&lt;li&gt;Participate in team discussions, code reviews, and collaborative problem-solving throughout the internship.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in a Bachelor’s or Master’s program in Computer Science or similar, and planning to return to school after the internship&lt;/li&gt;\n&lt;li&gt;Completed a minimum of two years of college/university&lt;/li&gt;\n&lt;li&gt;Experience with Python (or similar programming language)&lt;/li&gt;\n&lt;li&gt;Basic understanding of relational databases and SQL (MySQL, Postgres, etc.)&lt;/li&gt;\n&lt;li&gt;Solid understanding of math and basic statistics&lt;/li&gt;\n&lt;li&gt;Experience experimenting with or applying AI/ML tools in academic or personal projects&lt;/li&gt;\n&lt;li&gt;Self motivated and curious, with the ability to work independently while also asking thoughtful questions&lt;/li&gt;\n&lt;li&gt;Able to commit a minimum of 10-weeks internship between May and August&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Benefits + Perks:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary ($35-45/hourly)&lt;/li&gt;\n&lt;li&gt;You can pick where you want to be for the summer: San Francisco, Los Angeles, or New York City!&lt;/li&gt;\n&lt;li&gt;Hybrid schedule: 2-3 days per week&lt;/li&gt;\n&lt;li&gt;Snacks, drinks, and catered lunches at the office&lt;/li&gt;\n&lt;li&gt;Team building events&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Laptop and peripherals provided&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;At Tatari, we believe in the importance of cultivating teams with diverse backgrounds and offering equal opportunities to all. We strive to create a welcoming, inclusive environment where every team member feels valued and diversity is celebrated.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-DNI&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4041179002,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4021978002,
+      "name": "Los Angeles",
+      "location": "Los Angeles, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4021977002,
+      "name": "New York",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4021979002,
+      "name": "San Francisco",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

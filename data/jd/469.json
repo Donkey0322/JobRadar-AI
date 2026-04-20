@@ -1,0 +1,73 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4624887005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4402382005,
+  "location": {
+    "name": "San Jose, CA"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "CTO Organization",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4624887005,
+  "updated_at": "2026-04-14T18:27:17-04:00",
+  "requisition_id": "2110",
+  "title": "Photonics Integrated Circuits Engineer (Intern 2026)",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2025-10-30T12:53:02-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Description:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a photonic integrated circuit (PIC) engineer, you will work on the design, simulations, tape-out, and measurements of photonic devices and integrated circuits in various semiconductor processes.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Basic Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;PhD or MS degree in Electrical Engineering, Applied Physics, or Physics is preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Desired Experience:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience in design, simulations, tape-out/fabrication, and measurements of integrated photonic devices and integrated circuits&lt;/li&gt;\n&lt;li&gt;Deep understanding of photonic devices and integrated circuits preferably in the context of high-speed optical communications (waveguides, waveguide bends and crossings, power splitters, couplers, interferometers, modulators, detectors)&lt;/li&gt;\n&lt;li&gt;Familiarity in simulation tools for photonic devices and integrated circuits&lt;/li&gt;\n&lt;li&gt;Knowledge of optical transceivers&lt;/li&gt;\n&lt;li&gt;Knowledge of electronic circuits that interface with photonic devices and integrated circuits is a plus&lt;/li&gt;\n&lt;li&gt;Relevant research publications and/or patents in photonics&lt;/li&gt;\n&lt;li&gt;Familiarity in programming/scripting languages such as Python, Matlab, or C&lt;/li&gt;\n&lt;li&gt;Strong technical independent contributor with a proven ability to drive results&lt;/li&gt;\n&lt;li&gt;Excellent teamwork, presentation, and documentation skills&lt;/li&gt;\n&lt;li&gt;Ability to collaborate with global teams across multiple time zones and deliver under pressure with strict deadlines&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4140921005,
+      "name": "Optical",
+      "child_ids": [],
+      "parent_id": 4000196005
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000118005,
+      "name": "San Jose, CA",
+      "location": "San Jose, California, United States",
+      "child_ids": [],
+      "parent_id": 4019546005
+    },
+    {
+      "id": 4019546005,
+      "name": "United States",
+      "location": null,
+      "child_ids": [
+        4055745005,
+        4053188005,
+        4000118005,
+        4000732005,
+        4017614005,
+        4000148005,
+        4050370005,
+        4019545005
+      ],
+      "parent_id": null
+    }
+  ]
+}

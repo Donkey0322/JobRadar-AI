@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/arcesiumllc/jobs/5088158007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 4609106007,
+  "location": {
+    "name": "New York"
+  },
+  "metadata": [
+    {
+      "id": 11700588007,
+      "name": "Job Description (First Line)",
+      "value": "Arcesium seeks an exceptional Software Engineer Intern to join our Technology team for the summer.",
+      "value_type": "long_text"
+    }
+  ],
+  "id": 5088158007,
+  "updated_at": "2026-03-25T10:01:18-04:00",
+  "requisition_id": "5386",
+  "title": "Software Engineer Intern",
+  "company_name": "Arcesium LLC",
+  "first_published": "2026-03-25T10:01:18-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div&gt;\n&lt;h2&gt;&lt;strong&gt;Company Overview&lt;/strong&gt;&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div&gt;\n&lt;p&gt;Arcesium is a global financial technology firm that solves complex data-driven challenges faced by some of the world’s most sophisticated financial institutions. We constantly innovate our platform and capabilities to meet tomorrow’s challenges, anticipate the risks our clients encounter, and design advanced solutions to help our clients achieve transformational business outcomes. &amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Financial technology is a high-growth industry as change and innovation continue to disrupt the status-quo and prompt major transformation. Arcesium is at a particularly interesting time in our own growth as we look to leverage our successfully established market position and expand operations in pursuit of strategic new business opportunities. We value intellectual curiosity, proactive ownership, and collaboration with colleagues, and we empower you to meaningfully contribute from day one and accelerate your professional development.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Position Summary&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Arcesium seeks an exceptional Software Engineer Intern to join our Technology team for the summer. The goal of our summer internship program is to give exposure to the projects and environment here at Arcesium. On the development team, the Intern will learn about and contribute to shipping the applications and features which power our business.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;- Work directly with full-time engineers on our core platform and related products&lt;br&gt;- Learn about how to build and scale a modern cloud-based enterprise SaaS business&lt;br&gt;- Collaborate with our development team to help build next generation software&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;- A demonstrated passion for technology and innovative problem solving&lt;br&gt;- A basic understanding of web application design, comfort with at least one programming language, and a desire to learn about new technologies and systems&lt;br&gt;- A strong academic background in computer science and at least three years of either personal or professional coding experience&lt;br&gt;- Professional or personal experience with Java, Kotlin, TypeScript, SQL, and/or AWS (this is a strong plus)&lt;br&gt;- Exceptional verbal and written communication skills as well as the ability to construct rigorous arguments&lt;/p&gt;\n&lt;p&gt;The expected monthly salary for this position is $10,000. Our compensation package also includes a one-time housing stipend.&lt;/p&gt;\n&lt;p&gt;Arcesium&#39;s Personal Data Privacy Notice for Candidates is linked &lt;a href=&quot;https://www.arcesium.com/wp-content/uploads/2022/07/Personal-Data-Privacy-Policy-Candidates.pdf&quot;&gt;here&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Recruiting Security&lt;br&gt;&lt;/strong&gt;Emails from genuine Arcesium recruiters who are employees of the company will always come from the @arcesium.com domain. In some cases, you may also be contacted by independent search firms engaged to recruit on our behalf; emails from their employees should always come from their firm&#39;s applicable domain. We&#39;ll never ask for your banking information or any payment as part of the recruiting process. If something seems off or you&#39;re contacted by an unexpected third party, please reach out to us at &lt;a href=&quot;mailto:careers@arcesium.com&quot;&gt;careers@arcesium.com&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Arcesium is an equal opportunity employer.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4034287007,
+      "name": "Transaction and Reference Data",
+      "child_ids": [],
+      "parent_id": 4034270007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4022019007,
+      "name": "New York",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4022018007
+    }
+  ]
+}

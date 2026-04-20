@@ -1,0 +1,58 @@
+{
+  "jobPostingInfo": {
+    "id": "7fb16f5f8c831000e03b8ab46c2e0000",
+    "title": "SW Engineer Intern, iOS (AI-Assisted Development)",
+    "jobDescription": "<p style=\"text-align:left\"><b><span>About Arlo: </span></b><br /><br /><span>At Arlo, we&#39;re passionate about creating innovative and reliable solutions that help people protect what matters most to them. Our team is dedicated to delivering products that exceed our customers&#39; expectations, while always pushing the boundaries of what&#39;s possible in the world of protection technology. We believe that everyone deserves to feel safe and secure, whether they&#39;re at home or away, and we&#39;re committed to providing our customers with the peace of mind they need to live their lives without worry. Arlo’s deep expertise in AI- and CV-powered analytics, cloud services, user experience, product design, and innovative wireless and RF connectivity enables the delivery of a seamless, smart security experience for Arlo users that is easy to set up and interact with every day.</span></p><p style=\"text-align:inherit\"></p><p><b><span>Location:</span></b><span> Milpitas, CA, USA (Hybrid In-Office)</span><br /><b><span>Duration:</span></b><span> 4-month Internship (Full-Time)</span></p><p></p><p><b><span>About the Role</span></b></p><p><span>We</span><span>’</span><span>re hiring an </span><b><span>iOS Engineering Intern </span></b><span>to join our team in Milpitas, CA. You</span><span>’</span><span>ll help build and improve iOS experiences used by customers, working alongside engineers to ship high-quality, production-ready features.</span></p><p><span>This internship may align with multiple product areas including our Growth team, where you’ll work on user-facing experiences that drive adoption, engagement, and product success.</span><span> </span></p><p><span>This role will actively engage with our AI and agent-driven engineering strategy, contributing to the design, prototyping, and integration of AI-assisted workflows and developer agents that elevate how teams build, test, and ship software. The focus is on using AI not as a product feature, but as a multiplier for engineering speed, quality, and decision-making across the development lifecycle.</span></p><p><span>You’ll work alongside senior engineers in a fast-paced, real-world environment, and experience Silicon Valley engineering culture firsthand.</span></p><p></p><p><b><span>What You</span></b><b><span>’</span></b><b><span>ll Do</span></b></p><p><span><span>•<span> </span></span></span><span>Develop and ship features in an iOS app</span></p><p><span><span>•<span> </span></span></span><span>Collaborate with product and design to build polished user experiences</span></p><p><span><span>•<span> </span></span></span><span>Improve app performance, reliability, and maintainability</span></p><p><span><span>•<span> </span></span></span><span>Write clean, testable code and participate in code reviews</span></p><p><span><span>•<span> </span></span></span><span>Debug issues and help improve the overall mobile development workflow</span></p><p><span><span>•<span> </span></span></span><span>Support Growth initiatives, improving onboarding, retention, and user engagement</span></p><p><span><span>•<span> </span></span></span><span>Contribute to AI-assisted workflows and internal tooling that help teams ship faster with higher quality</span></p><p><b><span> </span></b></p><p><b><span>What We</span></b><b><span>’</span></b><b><span>re Looking For</span></b></p><p><b><span>Required</span></b></p><p><span><span>•<span> </span></span></span><span>Currently enrolled in Computer Science, Software Engineering, or related program</span></p><p><span><span>•<span> </span></span></span><span>Experience with Swift and/or Objective-C</span></p><p><span><span>•<span> </span></span></span><span>Understanding of iOS fundamentals (UIKit, networking, app lifecycle)</span></p><p><span><span>•<span> </span></span></span><span>Strong debugging and problem-solving skills</span></p><p><span><span>•<span> </span></span></span><span>Strong communication skills and ability to collaborate in a team environment</span></p><p><b><span>Nice to Have</span></b></p><p><span><span>•<span> </span></span></span><span>Experience with Combine</span></p><p><span><span>•<span> </span></span></span><span>Familiarity with REST APIs, JSON, authentication flows</span></p><p><span><span>•<span> </span></span></span><span>Experience with unit testing / UI testing on iOS</span></p><p><span><span>•<span> </span></span></span><span>Prior mobile projects, internships, or apps published to the App Store</span></p><p><span><span>•<span> </span></span></span><span>Interest in developer productivity tooling, automation, or AI/agent-based workflows</span></p><p></p><p><i>The pay range for this position reflects the minimum and maximum target for new hire salaries at commencement of employment and is expected to be between USD $4,000 - $6,900/month. However, base pay offered may vary depending on multiple factors, including role, job-related knowledge, skills, relevant education and experience. </i></p><p></p><p>We’re committed to inclusivity and selecting the strongest candidate—no matter their background. Even if you don’t meet every listed qualification, we encourage you to apply. We’re happy to support growth in areas essential to the role. Interested in learning more about our workplace? Visit and follow our <a href=\"https://www.linkedin.com/company/arlo-smart-home/\" target=\"_blank\">LinkedIn</a>, and <a href=\"https://www.glassdoor.com/Overview/Working-at-Arlo-Technologies-EI_IE1979333.11,28.htm\" target=\"_blank\">Glassdoor</a> pages to read employee insights and get updates of what it’s like to be part of Arlo.</p><p></p><p>Arlo is proud to be an Equal Opportunity Employer. We value inclusion and are committed to inclusive, and harassment-free workplace. We prohibit discrimination and harassment based on all legally protected statuses in all hiring and employment.</p><p></p><p>We provide reasonable accommodations to applicants and employees with disabilities, who are pregnant or have a related medical condition, or who have sincerely held religious beliefs, observances, and practices. Pursuant to applicable state and municipal Fair Chance Laws and Ordinances, the Company will consider for employment qualified applicants with arrest and conviction records.</p>",
+    "location": "Milpitas, CA",
+    "postedOn": "Posted 29 Days Ago",
+    "startDate": "2026-03-16",
+    "timeType": "Full time",
+    "jobReqId": "JR100299",
+    "jobPostingId": "SW-Engineer-Intern--iOS--AI-Assisted-Development-_JR100299",
+    "jobPostingSiteId": "External_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/arlo/external_careers/sidebarimage/b25d62672b9c10060f62e9ac68730000",
+      "alt": "Arlo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US - California - Milpitas",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://arlo.wd12.myworkdayjobs.com/External_Careers/job/Milpitas-CA/SW-Engineer-Intern--iOS--AI-Assisted-Development-_JR100299",
+    "questionnaireId": "045d453e589910002a29b5af504b0000"
+  },
+  "hiringOrganization": {
+    "name": "Arlo Technologies, Inc.",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "SW Engineer Intern, Android (AI-Assisted Development)",
+      "externalPath": "/job/Milpitas-CA/SW-Engineer-Intern--Android--AI-Assisted-Development-_JR100300",
+      "timeType": "Full time",
+      "locationsText": "Milpitas, CA",
+      "postedOn": "Posted 29 Days Ago",
+      "startDate": "2026-03-16"
+    },
+    {
+      "title": "Staff Engineer - Engineering Platform",
+      "externalPath": "/job/Milpitas-CA/Staff-Engineer---Engineering-Platform_JR100312",
+      "timeType": "Full time",
+      "locationsText": "Milpitas, CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-02"
+    }
+  ],
+  "userAuthenticated": false
+}

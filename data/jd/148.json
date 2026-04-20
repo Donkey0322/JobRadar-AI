@@ -1,0 +1,78 @@
+{
+  "jobPostingInfo": {
+    "id": "ef0545d788d11001fcf91323a02a0000",
+    "title": "AI Engineering Intern",
+    "jobDescription": "<p style=\"text-align:left\"><span>Littelfuse is one of America’s Best Mid-Sized Companies (Forbes) and has been named one of the Best Places to Work in Illinois (Best Companies Group) for 11 consecutive years. With its global headquarters in Chicago, Illinois, USA, Littelfuse is a leading, global manufacturer of electronic components serving more than 100,000 end customers across industrial, transportation, and electronics end markets. We have more than 17,000 employees with operations in 15 countries. From semiconductors to sensors… switches to fuses and more… we produce billions of electronic components that help our customers empower a sustainable, connected, and safer world. In 2021, Littelfuse had net sales of $2.1 billion.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>We are seeking a talented AI Engineering Intern to join our team and make meaningful contributions in our goal to implement AI systems at Littelfuse. This internship focuses on working with large language models (LLMs), user interfaces, developing advanced Retrieval-Augmented Generation (RAG) pipelines, and staying current with the latest advancements in AI technologies.</p><p>You will work closely with developers and collaborate with cross-functional stakeholders in Engineering, Product Management, Project Management, and IT to design and deliver impactful AI solutions. This high-ownership role offers the opportunity to deliver production-quality code, conduct research experiments, and complete a substantial capstone project suitable for inclusion in your professional portfolio.</p><p></p><p><span class=\"emphasis-2\"><b>About your role:</b></span></p><ul><li><p>Contribute to new features, user interface/experience enhancements, integrations, and tool/function-calling capabilities under team guidance. </p></li><li><p>Help design, implement, and optimize end-to-end RAG pipelines, including data ingestion, chunking, embedding generation, vector storage, retrieval, and post-processing. </p></li><li><p>Evaluate and benchmark system performance, mitigate hallucinations, and document resulting improvements.</p></li><li><p>Monitor emerging developments in LLMs, RAG systems, agentic workflows, and AI tools. </p></li><li><p>Conduct experiments, analyze results, document findings, and deliver weekly insights and recommendations to the team.</p></li></ul><p></p><p><span class=\"emphasis-2\"><b>About You:</b></span></p><ul><li><p>Currently pursuing a Bachelor’s or Master’s degree in Computer Science, AI/ML, Engineering, or a closely related field (rising juniors, seniors, or recent graduates preferred). </p></li><li><p>Strong proficiency in Python 3.11&#43; with hands-on experience</p></li><li><p>Familiarity with Git, Docker, and Linux/WSL environments. </p></li><li><p>Solid understanding of LLMs, prompt engineering, embeddings, and vector databases. </p></li><li><p>Excellent problem-solving abilities, documentation skills, and verbal/written communication. </p></li><li><p>Proven ability to collaborate effectively in cross-functional teams and with diverse stakeholders.</p></li></ul><p></p><p><span class=\"emphasis-2\"><b>Preferred Qualifications </b></span></p><ul><li><p>Prior hands-on experience with local LLMs, RAG systems, or open-source AI tooling. </p></li><li><p>Experience with FastAPI, PostgreSQL, or cloud platforms (Azure, GCP, AWS). </p></li><li><p>Prior research experience, including reading academic papers and conducting experiments.</p></li><li><p>Deep passion for Artificial Intelligence field of study</p></li></ul><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>The salary offered will vary depending on your location, job-related skills, knowledge, and experience.<p></p><p></p>",
+    "location": "Chicago",
+    "postedOn": "Posted 25 Days Ago",
+    "startDate": "2026-03-20",
+    "timeType": "Full time",
+    "jobReqId": "JR-111239",
+    "jobPostingId": "AI-Engineering-Intern_JR-111239-1",
+    "jobPostingSiteId": "Littelfuse-Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "videoInfo": {
+      "javascriptUrl": "https://www.myworkday.com/wday/backpack-hub/muse/wday/js/player.js",
+      "params": {
+        "application_context": "recruiting-external-site",
+        "toggles": "{\"wmc-22189\":true,\"wmc-22331\":true,\"wmc-27882\":true,\"wmc-13658\":true,\"wmc-13737\":true,\"wmc-11701\":true,\"wmc-24807\":true,\"muse-709\":false,\"wmc-5825\":false,\"wmc-5951\":false,\"wmc-14911\":true,\"wmc-8321\":false,\"wmc-15802\":true,\"wmc-20855\":true,\"wmc-20732\":false,\"wmc-16527\":true,\"wmc-9846\":false,\"wmc-21592\":true,\"wmc-21615\":true,\"wmc-15670\":true,\"wmc-21593\":false,\"wmc-12835\":true,\"wmc-14182\":true,\"wmc-14284\":true,\"wmc-15011\":true,\"uxlx-1\":true,\"wmc-11369\":false,\"wmc-7256\":false,\"wmc-15073\":true,\"wmc-28241\":false,\"wmc-14151\":false,\"wmc-8819\":false,\"wmc-18120\":true,\"wmc-14717\":true,\"wmc-3252\":true,\"wmc-16759\":true,\"wmc-19376\":false,\"wmc-27242\":true,\"wmc-8159\":false,\"wmc-11052\":false,\"wmc-12740\":true,\"wmc-8655\":true,\"muse-660\":true,\"wmc-8656\":true,\"wmc-12008\":true,\"wmc-16585\":true,\"wmc-15743\":true,\"wmc-16466\":true,\"wmc-7540\":false,\"wmc-13388\":true,\"wmc-10060\":false,\"lrn-965\":true,\"lrn-1802\":true,\"lrn-32769\":true,\"wmc-16519\":false,\"wmc-10948\":true,\"wmc-23952\":false,\"wmc-16065\":true,\"wmc-13055\":true,\"wmc-13187\":false,\"wmc-13094\":true,\"wmc-6386\":false,\"wmc-2787\":true,\"wmc-16278\":true,\"wmc-24972\":true,\"wmc-12913\":true,\"wmc-19864\":false,\"wmc-15663\":true,\"wmc-25344\":true,\"wmc-17760\":true,\"wmc-12857\":true,\"wmc-20760\":true,\"muse-7\":true,\"wmc-15869\":true,\"wmc-17540\":false,\"wmc-12033\":true,\"wmc-15981\":true,\"wmc-17354\":true,\"wmc-7007\":false,\"wmc-6460\":true,\"wmc-12094\":true,\"wmc-16142\":true,\"wmc-14718\":true,\"wmc-12770\":true,\"wmc-13879\":false,\"wmc-15592\":true,\"wmc-14424\":true,\"wmc-15591\":true,\"ml-25093\":false,\"wmc-13937\":true,\"wmc-2454\":true,\"wmc-16758\":true,\"wmc-23128\":true,\"wmc-5060\":false,\"wmc-12011\":true,\"wmc-17752\":true,\"wmc-13132\":true,\"lrn-34912\":true,\"wmc-10693\":true,\"wmc-13235\":true,\"wmc-13594\":true,\"wmc-7714\":false,\"wmc-22778\":false,\"wmc-2867\":true,\"wmc-22777\":false,\"wmc-22776\":true,\"wmc-13605\":true,\"wmc-12981\":true,\"wmc-13322\":true,\"wmc-13502\":true,\"wmc-24587\":false,\"wmc-21680\":false,\"wmc-10558\":true,\"wmc-13719\":true,\"wmc-16896\":true,\"wmc-12951\":true,\"wmc-14572\":false,\"wmc-13074\":true,\"wmc-13075\":true,\"wmc-13783\":true,\"wmc-16223\":true,\"wmc-11305\":true,\"wmc-9432\":false,\"wmc-17199\":true,\"wmc-14658\":true,\"wmc-16736\":true,\"wmc-12079\":false,\"wmc-12078\":false,\"wmc-7504\":true,\"wmc-25101\":true,\"wmc-12075\":true,\"wmc-13811\":false,\"wmc-13458\":true,\"wmc-16897\":true,\"wmc-7659\":false,\"wmc-13786\":true,\"wmc-16670\":true,\"wmc-1599\":true,\"wmc-1598\":false,\"wmc-17590\":true,\"wmc-22768\":false,\"wmc-18600\":true,\"wmc-12481\":true,\"wmc-14914\":true,\"wmc-7783\":true,\"wmc-18117\":false,\"wmc-24046\":true,\"wmc-24047\":true,\"wmc-12724\":false,\"wmc-9250\":true,\"wmc-16310\":true,\"wmc-11574\":true,\"wmc-16194\":true,\"wmc-15661\":true,\"wmc-619\":false,\"wmc-2496\":false,\"wmc-15408\":false,\"wmc-16878\":true,\"wmc-13572\":true,\"wmc-15853\":true,\"wmc-15834\":true,\"wmc-17198\":true,\"wmc-13245\":true,\"wmc-14403\":true,\"wmc-17505\":true,\"wmc-20495\":true,\"wmc-3182\":true,\"wmc-7505\":true,\"wmc-6806\":false,\"wmc-26460\":true,\"wmc-14937\":true,\"wmc-6628\":false,\"wmc-11780\":true,\"wmc-9377\":true,\"wmc-13684\":true,\"wmc-13429\":true,\"wmc-18129\":true,\"wmc-15400\":true,\"wmc-14534\":true,\"wmc-15160\":true,\"wmc-15285\":true,\"wmc-9803\":false,\"wmc-15252\":true,\"wmc-21767\":true,\"wmc-2129\":true,\"wmc-8224\":true,\"wmc-13160\":true,\"wmc-14883\":true,\"wmc-18153\":false,\"currentSystemVersion\":\"2026.15\",\"lrn-12626\":true,\"lrn-14483\":true}",
+        "type": "video",
+        "media_id": "f8ad0bb9987c01e3cc583a224606d295",
+        "public_path": "https://www.myworkday.com/wday/backpack-hub/muse-web-client/2026.14.132",
+        "poster": "https://wd1-media.myworkdaycdn.com/m/fYuD/CDD10AC533CFE133/zkOCWUy3VrBjmIApYAhhR5FG698SF6dD/5ldo2c/progressive.h264.360p.v7.mp4-00002.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJ4LRQF2KD4436UJA%2F20260415%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260415T063937Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Signature=5e21aeca8c258f6369803137b967373f8227fcdeacfad111db3c32bfaed276e7&__token__=exp=1776249577~hmac=c8fafd36d6e1cd9358ee0b5004e6c9c100a10098e335582835824e4327b62cc5",
+        "user_agreement": {
+          "accepted": false,
+          "acceptance_url": "https://www.myworkday.com/wday/backpack-hub/littelfuse/user_agreement/27b3f872096510001029d985b6ae0043",
+          "required": false,
+          "terms_url": "/littelfuse/inst/22761$1/rel-task/2998$37225"
+        },
+        "tracking_url": "https://www.myworkday.com/wday/backpack-hub/littelfuse/stats/play_events/f8ad0bb9987c01e3cc583a224606d295",
+        "report_url": "https://www.myworkday.com/wday/backpack-hub/littelfuse/report/player_issue/f8ad0bb9987c01e3cc583a224606d295",
+        "content_type": "video",
+        "duration": 265,
+        "created_on_ms": 1544214247000,
+        "tracks": [],
+        "sources": [
+          {
+            "url": "https://wd1-media.myworkdaycdn.com/m/playlist/fYuD/CDD10AC533CFE133/zkOCWUy3VrBjmIApYAhhR5FG698SF6dD/5ldo2c/HLSv4.v7.m3u8?duration=265.381&__token__=exp=1776249577~hmac=bd150830ac14bd73321ec126176a45c1e71a39c1ca160340d4a074a76e6b262f",
+            "type": "application/x-mpegURL",
+            "quality": "Auto",
+            "hd_label": "",
+            "size": 0,
+            "duration": 265381
+          }
+        ],
+        "muse": {
+          "interactions": [],
+          "videoDuration": 265.343,
+          "skipRestricted": false,
+          "disallowRetries": false,
+          "restrictAccess": false
+        }
+      }
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Chicago",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://littelfuse.wd1.myworkdayjobs.com/Littelfuse-Careers/job/Chicago/AI-Engineering-Intern_JR-111239-1",
+    "questionnaireId": "c556dc41c3231000adae4a019a3e0000",
+    "secondaryQuestionnaireId": "cd9fdf3293b01001502cfbb4edca0000"
+  },
+  "hiringOrganization": {
+    "name": "Littelfuse, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

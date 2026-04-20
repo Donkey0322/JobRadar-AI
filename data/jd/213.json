@@ -1,0 +1,204 @@
+{
+  "id": "744000117360110",
+  "name": "Intern - OneTech Services - Brighton & Hove - 2026",
+  "uuid": "03dc4ed6-0822-442b-b205-62c6a658974a",
+  "jobId": "c19a4836-e783-4f3c-8ebb-23f9bf0d838f",
+  "jobAdId": "2aacd44b-1aee-48bf-81bb-7b52d855d47c",
+  "defaultJobAd": true,
+  "refNumber": "REF6041O",
+  "company": {
+    "name": "LegalAndGeneral",
+    "identifier": "LegalAndGeneral"
+  },
+  "location": {
+    "city": "Brighton and Hove",
+    "region": "England",
+    "country": "gb",
+    "address": "The Droveway",
+    "postalCode": "BN3",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "50.8423998",
+    "longitude": "-0.1686424",
+    "fullLocation": "Brighton and Hove, England, United Kingdom"
+  },
+  "customField": [
+    {
+      "fieldId": "64e332889deed531fc9472b8",
+      "fieldLabel": "Will the jobholder be identified as Code Staff?",
+      "valueId": "No",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "64e3331277723f6ab23892ed",
+      "fieldLabel": "Is this role a BAU or Project role? If the role is STOM-funded please select ‘Project STOM’",
+      "valueId": "BAU",
+      "valueLabel": "BAU"
+    },
+    {
+      "fieldId": "64e33021f6873c462e4bb024",
+      "fieldLabel": "Primary Location",
+      "valueId": "XXLG_HOV1",
+      "valueLabel": "Hove, One City Park"
+    },
+    {
+      "fieldId": "64e33052019df61694a3eec5",
+      "fieldLabel": "Job Family",
+      "valueId": "XXLG_ITC",
+      "valueLabel": "IT & Change"
+    },
+    {
+      "fieldId": "64e330df7f9a7214b016e4b8",
+      "fieldLabel": "Requisition title",
+      "valueLabel": "OneTech Intern"
+    },
+    {
+      "fieldId": "64e33105bcf464275488fba3",
+      "fieldLabel": "Working Hours",
+      "valueLabel": "35"
+    },
+    {
+      "fieldId": "64e3306dc878197521f50e64",
+      "fieldLabel": "Permanent/Regular or Fixed Term Contract/Temporary",
+      "valueId": "T",
+      "valueLabel": "Fixed Term Contract (UK and ROW) / Temporary (US)"
+    },
+    {
+      "fieldId": "64e32ecdc878197521f50e63",
+      "fieldLabel": "L&G Business Unit",
+      "valueId": "Legal & General Group IT & Digital",
+      "valueLabel": "Legal & General Group IT & Digital"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "gb",
+      "valueLabel": "United Kingdom"
+    },
+    {
+      "fieldId": "64e32f389deed531fc9472b6",
+      "fieldLabel": "L&G Job function",
+      "valueId": "GROUP TECHNOLOGY CHANGE",
+      "valueLabel": "GROUP TECHNOLOGY CHANGE"
+    },
+    {
+      "fieldId": "64e32f09f6873c462e4bb023",
+      "fieldLabel": "L&G sub Business Unit",
+      "valueId": "GROUP TECHNOLOGY",
+      "valueLabel": "GROUP TECHNOLOGY"
+    },
+    {
+      "fieldId": "642eee093849f628c99d1d70",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "LegalAndGeneral"
+    },
+    {
+      "fieldId": "64e32fd463eec97ffb0826a8",
+      "fieldLabel": "Grade",
+      "valueId": "1",
+      "valueLabel": "1"
+    },
+    {
+      "fieldId": "642eee093849f628c99d1d71",
+      "fieldLabel": "Department",
+      "valueId": "13359491",
+      "valueLabel": "ID & ACCESS MANAGEMENT - 620342"
+    },
+    {
+      "fieldId": "64e330b7b732695a04551c69",
+      "fieldLabel": "Location",
+      "valueId": "0fc94100-40d0-4bf5-9e17-1f433e6c47be",
+      "valueLabel": "UK"
+    },
+    {
+      "fieldId": "64e32fff14d46b36b0ae0e9d",
+      "fieldLabel": "Cost Centre",
+      "valueId": "C620342",
+      "valueLabel": "C620342"
+    },
+    {
+      "fieldId": "64e331b5b732695a04551c6b",
+      "fieldLabel": "Regulated Role",
+      "valueId": "No",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "64e3313d019df61694a3eec6",
+      "fieldLabel": "Hiring manager",
+      "valueLabel": "TBC"
+    },
+    {
+      "fieldId": "64e3334fbcf464275488fba6",
+      "fieldLabel": "Does the role require the jobholder to be an 'overseer' under the FCA/PRA Training and Competence?",
+      "valueId": "No",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "64e33158019df61694a3eec7",
+      "fieldLabel": "Recruitment workflow",
+      "valueId": "Future Talent Hiring",
+      "valueLabel": "Future Talent Hiring"
+    },
+    {
+      "fieldId": "64e3309e9deed531fc9472b7",
+      "fieldLabel": "Duration of contract",
+      "valueLabel": "8 weeks"
+    }
+  ],
+  "releasedDate": "2026-03-27T17:16:49.181Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/LegalAndGeneral/744000117360110-intern-onetech-services-brighton-hove-2026",
+  "applyUrl": "https://jobs.smartrecruiters.com/LegalAndGeneral/744000117360110-intern-onetech-services-brighton-hove-2026?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/LegalAndGeneral/publication/03dc4ed6-0822-442b-b205-62c6a658974a?dcr_ci=LegalAndGeneral",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Legal &amp; General (L&amp;G) is a leading UK financial services group and major global investor.&#xa0;</p><p><strong>We’ve been safeguarding people’s financial futures since 1836, and strive to build a better society, while improving the lives of our customers and creating value for shareholders.</strong>&#xa0;</p><p>We are one of the world’s largest asset managers and provide powerful asset origination capabilities. Together, these underpin our retirement and protection solutions: we are an international player in pension risk transfer, in UK and US life insurance, and in UK workplace pensions and retirement income.&#xa0;&#xa0;</p><p>Our Group Functions provide the services that all areas of the business need. This requires a talented and diverse team behind the scenes, who enable everyone at L&amp;G to do what they do best. &#xa0;</p><p>Joining us means helping to improve the lives of our customers and contributing to the success of the business every day.&#xa0;</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><strong><em>Are you looking for an exciting opportunity to earn while you learn?</em></strong></p><p>The L&amp;G OneTech Services internship is an 8-week programme, running from June to August. &#xa0;You’ll rotate through our core technology teams, gaining hands-on experience in&#xa0;<strong>IT </strong><strong>Security Operations, Digital Web Applications, DevOps, and Cloud Infrastructure.</strong>&#xa0;You’ll work on real-world projects, learn from industry experts, and help us build and secure the future of our digital products.</p><p>OneTech Services is a department of L&amp;G that specialised in Technology solutions supporting the rest of the organisation.</p><p><strong><u>What you might work on</u></strong></p><p>During your 8-week placement in June and August, you’ll:</p><ul><li>Kick off with an induction to introduce you to L&amp;G and prepare for an exciting internship</li><li>Work directly with several teams in different disciplines to gain insight into varied areas of Technology, including Software Development, DevOps, Cloud &amp; Security.</li><li>Learn from colleagues</li><li>Network with fellow interns and build lasting connections</li><li>Finish with an opportunity to present what you’ve learned to senior Technology leaders.</li></ul><p><strong><u>What you will experience</u></strong></p><p>You will be paired with a buddy who will support you throughout your 8-week placement.&#xa0; You will spend time working with several different teams and experience day-to-day teamwork, and be asked to solve real problems.</p><ul><li><strong>IT Security Operations (SecOps):</strong>&#xa0;Learn the art of defense. You’ll assist with vulnerability scans, help monitor security alerts, and learn how we protect our data and users from emerging threats.</li><li><strong>Digital Web Applications:</strong>&#xa0;Get under the hood of our customer-facing products. You’ll work with our application developers to write clean code, squash bugs, and push new features to live environments.</li><li><strong>DevOps:</strong>&#xa0;See how code actually gets to the \"outside world.\" You’ll dive into CI/CD pipelines, automation scripts, and learn how we bridge the gap between development and operations to keep things running smoothly.</li><li><strong>Cloud &amp; Infrastructure:</strong>&#xa0;Explore the backbone of our tech stack. You’ll assist our Cloud Engineers in managing AWS/Azure/GCP environments, learning about scalability, containers (Docker/K8s), and infrastructure-as-code.</li></ul><p><u><strong>Who we’re looking for</strong></u></p><p>No prior industry experience is required, but we’ll want to see that you have the tools to develop quickly. These include:</p><ul><li>On track for a 2.1 Degree in a Technology-related subject</li><li>In your penultimate of university (i.e. graduating in 2027)</li><li>Analytical mind-set</li><li>Possess an inquisitive mind, and have a genuine desire to learn</li><li>Great communication&#xa0;skills</li><li>High levels of energy and commitment</li></ul><p><strong>#FutureTalent&#xa0;#FTInternships</strong></p><ul></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": ""
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Whatever your role, we reward ability, performance and attitude with a package that looks after all the things that are important to you. Your hard work will be rewarded when you join us.</p><div sr-tagline=\"\"></div><p>At L&amp;G, we believe it's possible to generate positive returns today while helping to build a better future for all.&#xa0;</p><p>If you join us, you’ll be part of a welcoming, inclusive culture, with opportunities to collaborate with people of diverse backgrounds, views, and experiences. Guided by leaders with integrity who care about your future and wellbeing. Empowered through initiatives which support people to develop their careers and excel.</p><p>We care passionately about outcomes rather than attendance and are therefore open to discussing all kinds of flexible working options including part-time, term-time and job shares.&#xa0;Although some roles have limited flexibility due to customer demand, we accommodate requests when we can.&#xa0;</p><p>It doesn’t matter if you don’t meet every single criterion in this advert. Instead, think about what you excel at and what else you can bring in terms of strengths, potential and connection to our purpose.&#xa0;</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "department": {
+    "id": 13359491,
+    "label": "ID & ACCESS MANAGEMENT - 620342"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en-GB",
+    "label": "English (UK)",
+    "labelNative": "English (UK)"
+  }
+}

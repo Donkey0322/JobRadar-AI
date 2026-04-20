@@ -1,0 +1,43 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/impiricus/jobs/5160169008",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4446739008,
+  "location": {
+    "name": "Atlanta, GA | NYC, NY | Remote, USA"
+  },
+  "metadata": null,
+  "id": 5160169008,
+  "updated_at": "2026-04-03T17:05:35-04:00",
+  "requisition_id": "173",
+  "title": "Intern - Software Engineer (Backend)",
+  "company_name": "Impiricus",
+  "first_published": "2026-03-20T13:53:33-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;&lt;strong&gt;Department:&lt;/strong&gt;&amp;nbsp;Development&lt;br&gt;&lt;strong&gt;&lt;br&gt;Location: &lt;/strong&gt;New York, NY | Atlanta, GA | Remote, USA&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Impiricus is the first and only AI-powered HCP Engagement Engine. In 2025, Deloitte named Impiricus the #1 fastest growing company in North America for their prestigious Fast 500 list. Founded by a practicing physician and a senior pharmaceutical executive, Impiricus was created to transform how life sciences companies support physicians. We ethically connect HCPs to pharma resources, reduce go-to-market costs and accelerate patient access to the treatments they need.&lt;/p&gt;\n&lt;p&gt;With our unique access to the largest opted-in network of HCPs, their insights, and clinical expertise, we are the leading provider of AI technology and real-time channels that life science companies need to deliver clear, reliable, and evidence-based resources directly into the hands of HCPs. Guided by a council of 2000+ trusted HCP advisors, we ensure every interaction is clinically meaningful, ethically grounded and leads to better patient care.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Summary&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a &lt;strong&gt;Software Engineer (Backend) Intern&lt;/strong&gt; at Impiricus, you will support the development of backend systems and AI-powered features that power our digital healthcare platform. You will work alongside experienced engineers to build APIs, work with databases, and experiment with AI integrations that enhance our products.&lt;/p&gt;\n&lt;p&gt;This role is designed for students or recent graduates interested in backend development and applied AI. You will gain hands-on experience with modern backend technologies, cloud infrastructure, and large language model (LLM) integrations while contributing to real product features used in healthcare.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;br&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Assist in building and maintaining backend services and APIs that support core product features.&lt;/li&gt;\n&lt;li&gt;Work with PostgreSQL databases to help model data, write queries, and support reliable data pipelines.&lt;/li&gt;\n&lt;li&gt;Help integrate AI and LLM-based capabilities into backend workflows, including prompt development and API integrations.&lt;/li&gt;\n&lt;li&gt;Support the development of services that enable AI-powered features within our healthcare platform.&lt;/li&gt;\n&lt;li&gt;Collaborate with frontend engineers, product managers, and designers to help deliver end-to-end features.&lt;/li&gt;\n&lt;li&gt;Write clean, well-documented, and tested code while learning backend engineering best practices.&lt;/li&gt;\n&lt;li&gt;Participate in code reviews, debugging, and system improvements with guidance from senior engineers.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing or recently completed a Bachelor’s degree in Computer Science or a related STEM field.&lt;/li&gt;\n&lt;li&gt;Familiarity with backend programming languages (preferrably Python or Golang).&lt;/li&gt;\n&lt;li&gt;Basic understanding of API development and RESTful services.&lt;/li&gt;\n&lt;li&gt;Exposure to relational databases and SQL, including writing queries and working with data models.&lt;/li&gt;\n&lt;li&gt;Interest in AI/LLMs and prompt engineering, with some coursework or personal projects involving AI tools or APIs.&lt;/li&gt;\n&lt;li&gt;Foundational understanding of machine learning or AI concepts.&lt;/li&gt;\n&lt;li&gt;Familiarity with Git and collaborative development workflows.&lt;/li&gt;\n&lt;li&gt;Exposure to cloud platforms (preferably AWS) is a plus.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;br&gt;Compensation&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This is a paid internship with an hourly rate of $25, with interns working up to 40 hours per week.&lt;/p&gt;\n&lt;p&gt;The program runs for 8 weeks and will be offered in two cohorts. Candidates may participate in the cohort that best aligns with their summer schedule.&lt;/p&gt;\n&lt;p&gt;Cohort 1: June 15, 2026 through August 7, 2026&lt;br&gt;Cohort 2: July 6, 2026 through August 28, 2026&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Important Notice&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;To protect candidates, please note that all communication from our team will come directly from an @impiricus.com email address. We do not engage third party recruiters to schedule interviews for this role. If you receive outreach from anyone outside of our domain claiming to represent Impiricus, please disregard and let us know by forwarding the message to&amp;nbsp;&lt;a href=&quot;mailto:careers@impiricus.com&quot;&gt;careers@impiricus.com&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Impiricus provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4016095008,
+      "name": "Development",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4012822008,
+      "name": "Impiricus HQ",
+      "location": "Atlanta, Georgia, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

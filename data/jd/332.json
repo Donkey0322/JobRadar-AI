@@ -1,0 +1,46 @@
+{
+  "jobPostingInfo": {
+    "id": "03b9e8dd50ca1001b0fe91e5b6760000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "<h2><b><span class=\"emphasis\">At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.</span></b></h2><p>The Allegro Development team is looking for an intern to join them this summer. As a member of this team, you’ll gain hands on experience working with enterprise level software and solving real world problems. This particular team has a wide range of responsibilities, including application GUIs, network-based solutions, 2D graphics, and much more. You’ll have the opportunity to work in one or more of these areas, all while learning about the software development process and broadening your skillset.</p><p></p><p>Key Responsibilities:</p><p>• Design, develop, test, and improve software.</p><p>• Develop code for quality, scalability, and debuggability.</p><p>• Take ownership of an appropriately sized project.</p><p></p><p>Requirements:</p><p>• Must be enrolled in a bachelor degree program for Computer Science or a related field.</p><p>• Programming Languages: C and C&#43;&#43;</p><p>• Familiarity with Qt, Visual Studio, and Perforce preferred, but not required.</p><p>• Excellent verbal and written communication skills.</p><p>• Excellent debug and problem solving skills.</p><p>• Strong curiosity and a passion for learning.</p><h2><span class=\"emphasis\"><b>We’re doing work that matters. Help us solve what others can’t.</b></span></h2>",
+    "location": "BOSTON 02",
+    "postedOn": "Posted 5 Days Ago",
+    "startDate": "2026-04-09",
+    "timeType": "Full time",
+    "jobReqId": "R52450",
+    "jobPostingId": "Software-Engineering-Intern_R52450-1",
+    "jobPostingSiteId": "External_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "BOSTON 02",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BOSTON-02/Software-Engineering-Intern_R52450-1",
+    "questionnaireId": "6598c240a7d1013fc7a28f6e5f16c953"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/BOSTON-02/Software-Engineering-Intern_R52449-1",
+      "timeType": "Full time",
+      "locationsText": "BOSTON 02",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-04-09"
+    }
+  ],
+  "userAuthenticated": false
+}

@@ -1,0 +1,59 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4501164007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4312635007,
+  "location": {
+    "name": "Austin, Texas, United States"
+  },
+  "metadata": [
+    {
+      "id": 5559162007,
+      "name": "Location Type",
+      "value": "On-Site",
+      "value_type": "single_select"
+    },
+    {
+      "id": 20546174007,
+      "name": "Careers Page Tile",
+      "value": [
+        "Hardware"
+      ],
+      "value_type": "multi_select"
+    }
+  ],
+  "id": 4501164007,
+  "updated_at": "2026-04-16T14:21:06-04:00",
+  "requisition_id": "20230361",
+  "title": "Machine Learning for Physical Design Intern - CPU/AI Hardware ",
+  "company_name": "Tenstorrent University Jobs",
+  "first_published": "2024-08-30T10:42:41-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in software models, compilers, platforms, networking, and semiconductors. Our diverse team of technologists have developed a high performance RISC-V CPU from scratch, and share a passion for AI and a deep desire to build the best AI platform possible. We value collaboration, curiosity, and a commitment to solving hard problems. We are growing our team and looking for contributors of all seniorities.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;As an intern in the Physical Design (PD) team, you will work on high-performance designs going into industry leading AI/ML architectures. The student coming into this role will develop ML-based tools and flows to improve the PPA (Performance Power Area) and turnaround time for all aspects of chip implementation from synthesis to tapeout for various IPs. The work is done collaboratively with a group of highly experienced engineers across various domains of the ASIC.&lt;/p&gt;\n&lt;p&gt;This role is on-site, 40 hours, based out of Santa Clara, CA or Austin, TX.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are&lt;/strong&gt;&lt;/p&gt;\n&lt;div class=&quot;paragraph normal ng-star-inserted&quot; data-start-index=&quot;800&quot;&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;span class=&quot;ng-star-inserted&quot;&gt;Currently pursuing a BS/MS/PhD in EE/ECE/CE/CS&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; data-start-index=&quot;846&quot;&gt;.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Possessing deep knowledge of&amp;nbsp;&lt;span class=&quot;ng-star-inserted&quot;&gt;math, probability, statistics, and algorithms&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; data-start-index=&quot;929&quot;&gt;.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Experienced in solving problems with Machine Learning models.&lt;/li&gt;\n&lt;li&gt;Skilled in algorithms, data structures, and software development using&amp;nbsp;&lt;span class=&quot;ng-star-inserted&quot;&gt;Python and C/C++&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; data-start-index=&quot;1094&quot;&gt;.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;strong&gt;&lt;br&gt;What We Need&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability to develop ML-based tools to improve PPA and turnaround time for chip implementation.&lt;/li&gt;\n&lt;li&gt;Work closely with other PD engineers to develop ML tools for areas such as synthesis, PnR, timing closure, and power grid analysis.&lt;/li&gt;\n&lt;li&gt;Responsibility for selecting appropriate datasets, data representation methods, and implementing new algorithms.&lt;/li&gt;\n&lt;li&gt;Capability to run machine learning tests, perform statistical analysis, and fine-tune models using test results.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Will Learn&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;How to apply ML systems and flows to high-performance designs for industry-leading AI/ML architectures.&lt;/li&gt;\n&lt;li&gt;Practical experience in extending existing ML systems and implementing cutting-edge algorithms.&lt;/li&gt;\n&lt;li&gt;Gain exposure to core physical design fundamentals, including synthesis, place and route, and timing analysis.&lt;/li&gt;\n&lt;li&gt;Experience collaborating with a group of highly experienced engineers across various domains of the ASIC implementation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;\n&lt;div&gt;\n&lt;p&gt;&lt;em&gt;Compensation for all interns at Tenstorrent ranges from $50/hr - $70/hr including base and variable compensation targets. Experience, skills, education, background and location all impact the actual offer made.&lt;/em&gt;&lt;/p&gt;\n&lt;em&gt;Tenstorrent offers a highly competitive compensation package and benefits, and we are an equal opportunity employer.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;em&gt;Due to U.S. Export Control laws and regulations, Tenstorrent is required to ensure compliance with licensing regulations when transferring technology to nationals of certain countries that have been licensing conditions set&amp;nbsp; by the U.S. government.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;em&gt;Our engineering positions and certain engineering support positions require access to information, systems, or technologies that are subject to U.S. Export Control laws and regulations, please note that citizenship/permanent residency, asylee and refugee information and/or documentation will be required and considered as Tenstorrent moves through the employment process.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;em&gt;If a U.S. export license is required, employment will not begin until a license with acceptable conditions is granted by the U.S. government.&amp;nbsp; If a U.S. export license with acceptable conditions is not granted by the U.S. government, then the offer of employment will be rescinded.&lt;/em&gt;&lt;/div&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;This offer of employment is contingent upon the applicant being eligible to access U.S. export-controlled technology. Due to U.S. export laws, including those codified in the U.S. Export Administration Regulations (EAR), the Company is required to ensure compliance with these laws when transferring technology to nationals of certain countries (such as EAR Country Groups D:1, E1, and E2). These requirements apply to persons located in the U.S. and all countries outside the U.S. As the position offered will have direct and/or indirect access to information, systems, or technologies subject to these laws, the offer may be contingent upon your citizenship/permanent residency status or ability to obtain prior license approval from the U.S. Commerce Department or applicable federal agency. If employment is not possible due to U.S. export laws, any offer of employment will be rescinded.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4029766007,
+      "name": "University",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4022993007,
+      "name": "Austin",
+      "location": "Austin, Texas, United States",
+      "child_ids": [],
+      "parent_id": 4023685007
+    }
+  ]
+}

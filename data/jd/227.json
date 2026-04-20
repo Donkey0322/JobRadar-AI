@@ -1,0 +1,188 @@
+{
+  "id": "744000117991662",
+  "name": "Software Engineer Intern",
+  "uuid": "70287521-2269-4a2f-8fc8-f3892386cf26",
+  "jobId": "0fb45d69-ae74-4eca-8640-32efb3ecc3d1",
+  "jobAdId": "01cdabee-c809-4e7f-ad52-6bbaaeb86e77",
+  "defaultJobAd": true,
+  "refNumber": "JOB212599",
+  "company": {
+    "name": "Intuitive",
+    "identifier": "Intuitive"
+  },
+  "location": {
+    "city": "Sunnyvale",
+    "region": "CA",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": ", "
+  },
+  "customField": [
+    {
+      "fieldId": "61211c9b1fa63c2955669260",
+      "fieldLabel": "Req Type",
+      "valueId": "02abe029-28ea-4290-a89f-e8139bdc15c4",
+      "valueLabel": "UR - Intern"
+    },
+    {
+      "fieldId": "6121170e1fa63c295566925d",
+      "fieldLabel": "Company Name",
+      "valueId": "3100",
+      "valueLabel": "Intuitive Surgical OPS"
+    },
+    {
+      "fieldId": "61211320bc01bb71bbfc4a1a",
+      "fieldLabel": "Fixed/ Variable",
+      "valueId": "f108189e-76a0-4a13-9074-efcc3a12c5ab",
+      "valueLabel": "Fixed"
+    },
+    {
+      "fieldId": "61211d107c9ac71cd5f99177",
+      "fieldLabel": "Career Site Category",
+      "valueId": "fcd8045c-1621-41d9-8992-5dc498d4875e",
+      "valueLabel": "Students & University"
+    },
+    {
+      "fieldId": "61dbc8e386045b73323f2e92",
+      "fieldLabel": "Ways of Working",
+      "valueId": "0d789130-ad37-4a27-b38e-0859562642a4",
+      "valueLabel": "Onsite - This job is fully onsite."
+    },
+    {
+      "fieldId": "612111e01fa63c295566925a",
+      "fieldLabel": "Posting Type",
+      "valueId": "0750fadd-8943-4911-865a-0b5f4870b34a",
+      "valueLabel": "Public - Internal & External"
+    },
+    {
+      "fieldId": "6410bb26309ea26650581aaa",
+      "fieldLabel": "Min. Salary Region 1",
+      "valueId": "44 USD",
+      "valueLabel": "44 USD"
+    },
+    {
+      "fieldId": "6410bbab651dfc03edd37964",
+      "fieldLabel": "Min. Salary Region 2",
+      "valueId": "37 USD",
+      "valueLabel": "37 USD"
+    },
+    {
+      "fieldId": "612116e2bc01bb71bbfc4a1c",
+      "fieldLabel": "Shift",
+      "valueId": "d5adea7f-e29a-4609-9de6-f7b7a0cf285a",
+      "valueLabel": "Day"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "6121193bfb73b03a3f26c476",
+      "fieldLabel": "Functional Area (HCM)",
+      "valueId": "Engineering",
+      "valueLabel": "Engineering"
+    },
+    {
+      "fieldId": "6410bbd849b73721b73a38ec",
+      "fieldLabel": "Max. Salary Region 2",
+      "valueId": "49 USD",
+      "valueLabel": "49 USD"
+    },
+    {
+      "fieldId": "612116747c9ac71cd5f99171",
+      "fieldLabel": "Business Unit",
+      "valueId": "US",
+      "valueLabel": "United States BU"
+    },
+    {
+      "fieldId": "612117b30bb2e12534f85548",
+      "fieldLabel": "Job code",
+      "valueId": "12748",
+      "valueLabel": "12748"
+    },
+    {
+      "fieldId": "6410bb936ab3004eaed0458f",
+      "fieldLabel": "Max. Salary Region 1",
+      "valueId": "58 USD",
+      "valueLabel": "58 USD"
+    },
+    {
+      "fieldId": "6410b3786ab3004eaed0458e",
+      "fieldLabel": "Job Family Code (HCM)",
+      "valueId": "Engineering",
+      "valueLabel": "Engineering"
+    },
+    {
+      "fieldId": "612118931fa63c295566925f",
+      "fieldLabel": "Employee Type",
+      "valueId": "EMP2",
+      "valueLabel": "Intern (Fixed Term)"
+    },
+    {
+      "fieldId": "6121137e0bb2e12534f85545",
+      "fieldLabel": "Global Job Level (HCM)",
+      "valueId": "P1",
+      "valueLabel": "Professional 1 (5)"
+    },
+    {
+      "fieldId": "612108ea7c9ac71cd5f9916c",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Intuitive"
+    }
+  ],
+  "releasedDate": "2026-03-31T20:58:26.388Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/Intuitive/744000117991662-software-engineer-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/Intuitive/744000117991662-software-engineer-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Intuitive/publication/70287521-2269-4a2f-8fc8-f3892386cf26?dcr_ci=Intuitive",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>It started with a simple idea: what if surgery could be less invasive and recovery less painful? Nearly 30 years later, that question still fuels everything we do at <strong>Intuitive</strong>. As a global leader in <strong>robotic-assisted surgery</strong> and <strong>minimally invasive care</strong>, our technologies—like the <strong>da Vinci surgical system</strong> and <strong>Ion</strong>—have transformed how care is delivered for millions of patients worldwide.</p><p>We’re a team of engineers, clinicians, and innovators united by one purpose: to make surgery smarter, safer, and more human. Every day, our work helps care teams perform with greater precision and patients recover faster, improving outcomes around the world.</p><p>The problems we solve demand creativity, rigor, and collaboration. The work is challenging, but deeply meaningful—because every improvement we make has the potential to change a life.</p><p>If you’re ready to contribute to something bigger than yourself and help <strong>transform the future of healthcare</strong>, you’ll find your purpose here.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><strong>Primary Function of Position&#xa0;</strong><br>\nThe intern will help make key enhancements to a rapidly growing and recently commercialized product. The product spans mobile app, web, cloud, desktop software, ML algorithms and hospital installed software. Primary focus of intern will be to prototype 3D visualization algorithms to display anatomic structures for surgical planning purpose. The intern will be supervised by senior engineers.</p><p><strong>Essential Job Duties&#xa0;</strong></p><ul><li>Develop 3D visualization feature for mobile and/or web apps to display anatomic structures</li><li>Develop interactive 3D image processing algorithms for mobile or web apps</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required Skills and Experience</strong>:</p><p><strong>University Hiring Program Eligibility Requirements:</strong></p><ul><li>University Enrollment: Must be currently enrolled in and returning to an accredited degree-seeking academic program after the internship.</li><li>Internship Work Period: Must be available to work full-time (approximately 40 hours per week) during a 10-12 week period starting May or June. Specific start dates are shared during the recruiting process.</li></ul><p><strong>Job Duty Requirements:</strong></p><ul><li>Formal training in 3D visualization, covering hardware, algorithms, and software</li><li>Proficient in Javascript, GIT</li><li>Familiar with WebGL, or OpenGL, or ThreeJS</li><li>Familiar with React Native</li></ul><p><strong>Required Education and Training:</strong></p><ul><li>Current enrollment in a Computer Science, Computer Engineering, Electrical &amp; Computer Engineering, or related degree-seeking program at the Master’s, or Doctorate level.</li></ul><p><strong>Preferred Skills and Experience&#xa0;</strong></p><ul><li>Familiar with CUDA programming</li><li>Familiar with Web-Assembly</li><li>Experience with Medical Image Processing</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<div sr-tagline=\"\"></div><p>Due to the nature of our business and the role, please note that Intuitive and/or your customer(s) may require that you show current proof of vaccination against certain diseases including COVID-19.&#xa0; Details can vary by role.</p><p>Intuitive is an Equal Opportunity Employer.&#xa0;We provide equal employment opportunities to all qualified applicants and employees, and prohibit discrimination and harassment of any type, without regard to race, sex, pregnancy, sexual orientation, gender identity, national origin, color, age, religion, protected veteran or disability status, genetic information or any other status protected under federal, state, or local applicable laws.</p><p><a href=\"https://careers.intuitive.com/en/eeo-and-aap/\">Mandatory Notices</a></p><p>U.S. Export Controls Disclaimer:&#xa0;&#xa0;In accordance with the U.S. Export Administration Regulations (15 CFR §743.13(b)), some roles at Intuitive Surgical may be subject to U.S. export controls for prospective employees who are nationals from countries currently on embargo or sanctions status.</p><p>Certain information you provide as part of the application will be used for purposes of determining whether Intuitive Surgical will need to (i) obtain an export license from the U.S. Government on your behalf (note: the government’s licensing process can take 3 to 6+ months) or (ii) implement a Technology Control Plan (“TCP”) (note: typically adds 2 weeks to the hiring process).&#xa0;&#xa0;</p><p>For any Intuitive role subject to export controls, final offers are contingent upon obtaining an approved export license and/or an executed TCP prior to the prospective employee’s start date, which may or may not be flexible, and within a timeframe that does not unreasonably impede the hiring need. If applicable, candidates will be notified and instructed on any requirements for these purposes.&#xa0;</p><p>We will consider for employment qualified applicants with arrest and conviction records in accordance with fair chance laws.</p><p>We provide market-competitive compensation packages, inclusive of base pay (paid at an hourly rate), benefits, and a housing allowance. It would not be typical for someone to be hired at the top end of range for the role, as actual pay will be determined based on several factors, including relevant skills and experience for this internship, degree-seeking academic program (PhD, Master’s, Bachelor’s, etc), year in school, and location. The hourly rate is prorated against the intern program salaries listed and total program compensation will be based on internship duration.</p>"
+      }
+    }
+  },
+  "active": false,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "medical_device",
+    "label": "Medical Device"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

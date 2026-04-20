@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "59d1fbd642c11001761dfb147fb00000",
+    "title": "COOP Software Developer *Summer/Fall 2026 (8 months term)",
+    "jobDescription": "Location: Ottawa, Canada<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Thales people architect identity management and data protection solutions at the heart of digital security. Business and governments rely on us to bring trust to the billons of digital interactions they have with people. Our technologies and services help banks exchange funds, people cross borders, energy become smarter and much more. More than 30,000 organizations already rely on us to verify the identities of people and things, grant access to digital services, analyze vast quantities of information and encrypt data to make the connected world more secure.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>This is a hybrid role in Ottawa, ON Canada.</b></p><p><br /><b>Position Summary</b></p><p><br />At our <b>Ottawa office</b>, we develop leading-edge technologies that help secure the cloud, digital transactions, the mobile world, and the Internet of Things (IoT). Our security solutions play a vital role in today’s digital landscape, helping protect the systems and data that organizations and individuals rely on every day.<br /> </p><p>Thales is a unique company to join and a great place to build your career. Here, you’ll have the opportunity to develop a dynamic and rewarding career in a collaborative environment where your contributions are valued, your potential is recognized, and your growth and development are actively supported.</p><p><br />We are looking for COOP students to join our engineering teams. You bring:</p><p><br />A good attitude and demonstrated ability to work well in a dynamic team environment</p><p>A desire to own an entire solution: understanding the requirement; designing the solution; implementing the feature; writing automated tests; and, drafting the information needed by the customer to use the solution</p><p>Knowledge of Linux</p><p>Expertise with Docker, Virtual Machines</p><p>Experience with GoLang, C/C&#43;&#43;, bash, python scripting</p><p>Interest in cryptography, security protocols and the importance security serves in information technology</p><p>Excellent oral and written communication skills</p><p>Agile mindset<br /> </p><p>Your programming experience is the foundation to your success on our teams. We will educate you about our products, industry and customers with on-the-job training through mentorship with skilled, experienced peers. You will have an opportunity to work on products that secure critical infrastructures in the global economy.</p><p><br /><b>Key Areas of Responsibility </b></p><p><br />Working within the team</p><p>Develop new services into the product</p><p><br /><b>Basic Qualifications</b><br /> </p><p>A good attitude and demonstrated ability to work well in a dynamic team environment</p><p>Ai knowledge and ability to work with Ai agents</p><p>A desire to own an entire solution: understanding the requirement; designing the solution; implementing the feature; writing automated tests; and, drafting the information needed by the customer to use the solution</p><p>Knowledge of Linux</p><p>Expertise with Docker, Virtual Machines</p><p>Experience with GoLang, C/C&#43;&#43;, bash, python scripting</p><p>Interest in cryptography, security protocols and the importance security serves in information technology</p><p>Excellent oral and written communication skills</p><p>Agile mindset</p><p><br /><b>Why Join Us? </b></p><p><br />OUR COMMITMENT TO STEM <br /> </p><p>Advancing science, technology, engineering, and mathematics (STEM) education is a critical focus for Thales. Our future success depends on our collective of highly trained, highly capable technical talent, and we’re committed to providing our co-ops with in-depth experience in these areas.</p><p><br />From supporting global engineering and technology nonprofits like Technovation, to offering different leadership development programs and bursaries to female students, including the Canadian Industrial Leadership Award (CILA), we take pride in our role in inspiring the STEM leaders of tomorrow.<br /> <br />Supporting non-profit STEM partnerships and projects is a worldwide commitment for Thales, and is further supported through our Solidarity Program, which encourages employees to contribute their knowledge, expertise, time and energy to support important causes.<br /> </p><p>#LI-Hybrid<br />#LI-WM1</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p></p><p style=\"text-align:left\">Thales provides an extensive benefits program for all full-time employees working 24 or more hours per week and their eligible dependents, including the following: </p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">• Company paid Extended Health, Dental, HSA, Life, AD&amp;D, Short-term Disability, Cancer Care Program, travel insurance, Employee Assistance Plan and Well-Being program.</p><p style=\"text-align:left\">• Retirement Savings Plans (RRSP, DCPP, TFSA) with a company contribution and a match to a DCPP, with no vesting period.</p><p style=\"text-align:left\">• Company paid holidays, vacation days, and paid sick leave. </p><p style=\"text-align:left\">• Voluntary Life, AD&amp;D, Critical Illness, Long-Term Disability.</p><p style=\"text-align:left\">• Employee Discounts on home, auto, and gym membership.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Thales is an equal opportunity employer which values diversity and inclusivity in the workplace. Thales is committed to providing accommodations in all parts of the interview process. Applicants selected for an interview who require accommodation are asked to advise accordingly upon the invitation for an interview. We will work with you to meet your needs. All accommodation information provided will be treated as confidential and used only for the purpose of providing an accessible candidate experience.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+    "location": "Ottawa",
+    "postedOn": "Posted 30+ Days Ago",
+    "startDate": "2026-03-11",
+    "timeType": "Full time",
+    "jobReqId": "R0318614",
+    "jobPostingId": "COOP-Software-Developer--Summer-Fall-2026--8-months-term-_R0318614",
+    "jobPostingSiteId": "Careers",
+    "country": {
+      "descriptor": "Canada",
+      "id": "a30a87ed25634629aa6c3958aa2b91ea"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Ottawa 20 Colonnade",
+      "country": {
+        "descriptor": "Canada",
+        "id": "a30a87ed25634629aa6c3958aa2b91ea",
+        "alpha2Code": "CA"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/COOP-Software-Developer--Summer-Fall-2026--8-months-term-_R0318614",
+    "questionnaireId": "3a1c6456e3b9019c9f30a4dbe101219f"
+  },
+  "hiringOrganization": {
+    "name": "Thales DIS CPL Canada, Inc",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

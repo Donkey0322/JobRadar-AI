@@ -1,0 +1,71 @@
+{
+  "jobPostingInfo": {
+    "id": "7c108d76152d1000f6ab23203e9c0000",
+    "title": "Engine Developer Intern, Gaming",
+    "jobDescription": "<h1><b><u>About the Hiring Team</u></b></h1>Level Infinite is Tencent’s global gaming brand. It is a global game publisher offering a comprehensive network of services for games, development teams, and studios around the world.<br><br>We are dedicated to delivering engaging and original gaming experiences to a worldwide audience, whenever and wherever they choose to play while building a community that fosters inclusivity, connection, and accessibility. Level Infinite also provides a wide range of services and resources to our network of developers and partner studios around the world to help them unlock the true potential of their games.<p></p><h1><b><u>What the Role Entails</u></b></h1><p>As an Game Engine Developer in our Research and Development (R&amp;D) department, you will build the foundational systems that power projects across our global network of studios. Unlike a standard production role, you will focus on creating scalable, high-performance tools and modular engine extensions that solve shared technical challenges for multiple overseas teams.</p><p></p><h1><b><u>Who We Look For</u></b></h1><p>(1) Relevant majors such as <b>Computer Science, Computer Graphics, Digital Media, Game Development</b>, or related fields.</p><p>(2) Engineering Excellence: Strong proficiency in C&#43;&#43; and Computer Graphics.<br />(3) System Design: Experience building modular and scalable systems designed for use by other developers.<br />(4) Advanced Engine Knowledge: Deep understanding of Game Engine internals, including multithreading, memory management, and client-server architecture.<br />(5) Solid English communication skills, both written and verbal.</p><p>(6) Collaboration: Ability to collaborate effectively with cross-functional, international teams across different time zones.</p><p></p><p>* Additional materials submitted with the application (e.g., <b>GitHub</b>, <b>portfolio</b>, <b>personal projects</b>, or <b>game jam projects</b>) will be a strong plus.</p><p>* Strong preference for candidates available for a <b>6-month full-time onsite internship</b>.</p><p></p><h1><u><b>Equal Employment Opportunity at Tencent</b></u></h1><p>As an equal opportunity employer, we firmly believe that diverse voices fuel our innovation and allow us to better serve our users and the community. We foster an environment where every employee of Tencent feels supported and inspired to achieve individual and common goals.</p>",
+    "location": "UK-London",
+    "postedOn": "Posted 28 Days Ago",
+    "startDate": "2026-03-17",
+    "timeType": "Full time",
+    "jobReqId": "R107109",
+    "jobPostingId": "Engine-Developer-Intern--Gaming_R107109",
+    "jobPostingSiteId": "OA_Huoshui_Platform",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/tencent/oa_huoshui_platform/sidebarimage/c6ea69587c03100132dd40b44ad70001",
+      "alt": "01000: Biz Intro =N - Dept Into = Y - Join us = N - Lang=EN - General"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "UK-London",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "remoteType": "Onsite",
+    "externalUrl": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Engine-Developer-Intern--Gaming_R107109",
+    "questionnaireId": "996e5ca7e8851001972d00c938eb0000",
+    "secondaryQuestionnaireId": "87c21034dbaf1000c58d109e103a0000"
+  },
+  "hiringOrganization": {
+    "name": "IMAGE FRAME INVESTMENT (UK) LIMITED",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Software Engineering Intern, Backend Development",
+      "externalPath": "/job/UK-London/Software-Engineering-Intern--Backend-Development_R107174",
+      "timeType": "Full time",
+      "locationsText": "UK-London",
+      "postedOn": "Posted 6 Days Ago",
+      "startDate": "2026-04-08",
+      "remoteType": "Onsite"
+    },
+    {
+      "title": "Software Engineering Intern, PC Game Client Development",
+      "externalPath": "/job/UK-London/Software-Engineering-Intern_R107162",
+      "timeType": "Full time",
+      "locationsText": "UK-London",
+      "postedOn": "Posted 6 Days Ago",
+      "startDate": "2026-04-08",
+      "remoteType": "Onsite"
+    },
+    {
+      "title": "Senior AI Software Engineer, Coding Agent",
+      "externalPath": "/job/UK-London/Senior-AI-Software-Engineer--Coding-Agent_R106672",
+      "timeType": "Full time",
+      "locationsText": "UK-London",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-12-29",
+      "remoteType": "Onsite"
+    }
+  ],
+  "userAuthenticated": false
+}

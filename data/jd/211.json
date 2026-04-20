@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "18f4d6bd97bc1000bb47002184c70000",
+    "title": "Network Engineer Intern (12 Months)",
+    "jobDescription": "<p>As the global leader in high-speed connectivity, Ciena is committed to a people-first approach. Our teams enjoy a culture focused on prioritizing a flexible work environment that empowers individual growth, well-being, and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact.</p><p></p><div><div>As a Placement AI Operations Software Engineer, this 12‑month opportunity offers hands‑on experience shaping AI‑enhanced network engineering workflows at Ciena. The role contributes to advancing best‑in‑class service delivery across EMEA by supporting the development of Large Language Model (LLM) capabilities and strengthening next‑generation network infrastructure that underpins Artificial Intelligence (AI) workloads.</div><div></div><div><b>How you will make an impact:</b></div><div>• Contribute to the development and training of Large Language Model (LLM) capabilities using existing datasets and network engineering expertise.<br />• Support the evolution of network engineering workflows by integrating AI‑driven enhancements.<br />• Assist with network design, configuration, and implementation activities with a strong focus on DevOps practices.<br />• Participate in troubleshooting and performance analysis to help resolve real‑world network issues.<br />• Collaborate with Network Engineers, Project Managers, Systems Engineers, and Solution Architects across global teams.<br />• Document configurations, workflows, and updates to strengthen communication and knowledge sharing.<br />• Engage in ongoing learning through workshops, training sessions, and exposure to advanced optical, routing, and switching technologies.</div><div></div><p></p><div><b>The must haves:</b></div><div>• Working toward a Bachelor’s degree in a business or technical program.<br />• Foundational knowledge of DevOps tools and practices, including Jira, GitHub, Python, Jinja, Ansible, and Linux.<br />• Solid understanding of programming principles, Artificial Intelligence (AI), and networking fundamentals.<br />• Demonstrated ability to work collaboratively in team environments.<br />• Strong sense of urgency, integrity, adaptability, and commitment to learning.</div><div></div><div><b>Nice to haves:</b></div><div>• Exposure to photonics, routing, switching, or network security technologies.<br />• Interest in developing AI‑enhanced automation for network engineering.<br />• Familiarity with service delivery environments within global technology organizations.<br />• Experience documenting technical processes or creating workflow diagrams.<br />• Interest in travel or collaboration with international teams.</div><div></div></div><p style=\"text-align:left !important\"><br />At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination.</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">Ciena is an Equal Opportunity Employer, including disability and protected veteran status.</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require.</p>",
+    "location": "Remote-UK",
+    "additionalLocations": [
+      "Remote-Germany"
+    ],
+    "postedOn": "Posted 18 Days Ago",
+    "startDate": "2026-03-27",
+    "timeType": "Full time",
+    "jobReqId": "R030434",
+    "jobPostingId": "Network-Engineer-Intern--12-Months-_R030434",
+    "jobPostingSiteId": "Careers",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Remote-UK Zone 2",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "externalUrl": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Remote-UK/Network-Engineer-Intern--12-Months-_R030434",
+    "questionnaireId": "f6140daf8a9e1001af7ffa6e67910000",
+    "secondaryQuestionnaireId": "beb076e8aa3f100115d6c240ac180000"
+  },
+  "hiringOrganization": {
+    "name": "Ciena Spain S.L.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

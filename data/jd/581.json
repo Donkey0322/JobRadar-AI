@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/graphcore/jobs/8426617002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 6365778002,
+  "location": {
+    "name": "Bristol, UK"
+  },
+  "metadata": [
+    {
+      "id": 5143264002,
+      "name": "If part time (Number of hours)",
+      "value": "0.0",
+      "value_type": "number"
+    },
+    {
+      "id": 98848339002,
+      "name": "Number of positions",
+      "value": "0.0",
+      "value_type": "number"
+    }
+  ],
+  "id": 8426617002,
+  "updated_at": "2026-04-17T04:27:57-04:00",
+  "requisition_id": "1405",
+  "title": "2026 Summer Intern - Platform QA",
+  "company_name": "Graphcore",
+  "first_published": "2026-02-18T05:12:12-05:00",
+  "language": "en",
+  "content": "&lt;h2&gt;&lt;strong&gt;About Graphcore&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;At Graphcore, we’re building the future of AI compute.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;We’re a team of semiconductor, software and AI experts, with deep experience in creating the complete AI compute stack - from silicon and software to infrastructure at datacenter scale.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;As part of the SoftBank Group, backed by significant long-term investment, we are delivering key technology into the fast-growing SoftBank AI ecosystem. To meet the vast and exciting AI opportunity, Graphcore is expanding its teams around the world. We are bringing together the brightest minds to solve the toughest problems, in a place where everyone has the opportunity to make an impact on the company, our products and the future of artificial intelligence.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Job Summary&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are looking for an intern to join our Platform Quality Assurance group. You will learn how to creatively exercise our product and provide feedback to the engineering delivery and product management teams. This helps them make decisions about engineering effort and the trajectory of the product. Working in either the component Quality Assurance team you will develop a close working relationship with the relevant development teams; or working in the integration Quality Assurance exercising the aggregated and composed system at a much larger scale with a bias towards informing the product management team.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;You will provide valuable observations and measurements of the product, looking beyond the natural focus of the delivery and product teams, painting a comprehensive behavioural picture of the product in typical and atypical scenarios.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Responsibilities and Duties&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Supporting the execution of tests and reports optimised for the different decision-making readers including delivery engineering and the product management teams.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Supporting the organisation of a repository of results &amp;amp; collaboration with the QA team.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Developing or refining your skills in the domain area of the product component or the system in aggregate and at scale.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Specific domains include Workload Management (Kubernetes, Ray, and so on); Cloud Development; Management &amp;amp; Observability&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Skills and Experience&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Essential:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently studying towards and Undergraduate/ Master’s Degree in Computer Science, or similar degree.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Strong relevant programming experience Python/Go/C++/infrastructure-as-code scripting or related to the domain.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Experience working in Linux environments.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Automation of building/testing with continuous integration systems.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Strong impartial report writing optimised for the reader.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Aptitude for planning, constructing, and executing responsibilities &amp;amp; duties above.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Desirable:&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Domain experience of the products under test: Containerisation (e.g. Docker), Virtualisation and Provisioning, Workload and job scheduling (e.g. Kubernetes, Ray) on high core-count machines and rack-scale installations.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Experience in quality assurance/testing teams.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Experience with the Atlassian suite and CI/CD platforms such as Jenkins; GitHub or GitLab actions.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We welcome people of different backgrounds and experiences; we’re committed to building an inclusive work environment that makes Graphcore a great home for everyone. We offer an equal opportunity process and understand that there are visible and invisible differences in all of us. We can provide a flexible approach to interview and encourage you to chat to us if you require any reasonable adjustments.&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4069541002,
+      "name": "Internships",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4010843002,
+      "name": "Bristol",
+      "location": "Bristol, UK",
+      "child_ids": [],
+      "parent_id": 4031346002
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "jobPostingInfo": {
+    "id": "86b7089e0a11100207e896a0ffd30000",
+    "title": "Software Engineer - Intern",
+    "jobDescription": "<p><b>Software Engineer Intern – Denver, CO</b></p><p></p><p><b>Role Responsibilities</b></p><p>Are you interested in getting your start in Technology? Do you want to work in a global company with enterprise level technology? Are you interested in joining a globally diverse organization where our unique contributions are recognized and celebrated, allowing each of us to thrive? Then it’s time to join Western Union as an Intern!</p><ul><li>In this role, you will work with outstanding engineering teams and support/develop on global applications with new technologies and standards. </li></ul><p></p><p><b>Role Requirements </b></p><ul><li>Must be at least 18 years of age or older. </li><li>Must be enrolled in a college degree program and have earned 60 credit hours by the end of May 2026.</li><li>Pursuing a bachelor’s or master’s degree in computer science, Information Systems, Software Engineering, or a closely related field. </li><li>Experience in Reactjs, Javascript, Typescript is mandatory.</li><li>React Native is a huge plus.</li><li>Understanding of computer science fundamentals, data structures, algorithms, OOPs, and OOA/D</li><li>Understanding in modern programming languages (for example, Java/Angular/Python) and design patterns.</li><li>Ability to work independently and as part of a team. </li><li>Must be available to participate in the 12-week program from June 1 to August 21 at Western Union Headquarters in Denver, CO. <b>Please note that travel and housing allowances are not provided.</b></li></ul><p></p><ul><li><b><i>*Applicants must be currently authorized to work in the United States on a full-time basis. Western Union will not sponsor applicants for work visas for this position.</i></b></li></ul><p></p><p><b>Work Shift</b></p><p><b>HYBRID - </b>Western Union values in-person collaboration, problem solving, and ideation whenever possible. We believe this fosters common ways of working and supports how we execute initiatives for our customers. The expectation is to work from the office a minimum of three days a week.</p><p></p><p><b>Location</b>: 7001 E. Belleview Ave., Denver, CO 80237</p><ul><li><i>*Applicants must be based in Denver or willing to relocate to Denver to work from the Denver office a minimum of three days a week. Western Union will not assist with relocation costs for this position.</i></li></ul><p></p><p>For residents of Colorado, California, Connecticut, Delaware, Minnesota, and Pennsylvania: Please do not respond to any questions on this initial application that may seek age-identifying information such as age, date of birth, or dates of school attendance or graduation. You may also redact this information from any materials you submit during the application process. You will not be penalized for redacting or removing this information.</p><p></p><p><b><span>Salary</span></b></p><p>The hourly rate is $25.00 per hour.</p><p></p><p><b>Other Details</b></p><p>We are passionate about honoring our employee&#39;s identity and fostering a feeling of belonging. <span>Our commitment is to provide an inclusive culture that celebrates the unique backgrounds and perspectives of our global teams while reflecting the communities we serve. We do not discriminate based on race, color, national origin, religion, political affiliation, sex (including pregnancy), sexual orientation, gender identity, age, disability, marital status, or veteran status. The company will provide accommodation to applicants, including those with disabilities, during the recruitment process, following applicable laws.</span></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p></p><p>Estimated Job Posting End Date:</p>04-23-2026<p>This application window is a good-faith estimate of the time that this posting will remain open. This posting will be promptly updated if the deadline is extended or the role is filled.</p>",
+    "location": "Denver - WU HQ",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-17",
+    "timeType": "Full time",
+    "jobReqId": "JR0128141",
+    "jobPostingId": "Software-Engineer---Intern_JR0128141-1",
+    "jobPostingSiteId": "WesternUnionJobs",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Denver - WU HQ",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://westernunion.wd5.myworkdayjobs.com/WesternUnionJobs/job/Denver---WU-HQ/Software-Engineer---Intern_JR0128141-1",
+    "questionnaireId": "12f3a2c3578e1001a2898517fa240000",
+    "secondaryQuestionnaireId": "86b7089e0a11100104bd0a3a80d20000",
+    "timeLeftToApply": "5 days left to apply",
+    "endDate": "2026-04-23",
+    "jobPostingEndDateAsText": "End Date: April 23, 2026"
+  },
+  "hiringOrganization": {
+    "name": "312 Western Union, LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

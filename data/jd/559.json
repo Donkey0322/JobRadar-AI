@@ -1,0 +1,69 @@
+{
+  "absolute_url": "https://ripple.com/careers/all-jobs/job/7822192?gh_jid=7822192",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3414732,
+  "location": {
+    "name": "Chicago, Illinois, United States"
+  },
+  "metadata": [
+    {
+      "id": 6527,
+      "name": "Worker Sub - Type",
+      "value": "Intern (Fixed Term)",
+      "value_type": "single_select"
+    },
+    {
+      "id": 16961716,
+      "name": "Time Type",
+      "value": "Full time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 16961117,
+      "name": "Primary Location",
+      "value": "Chicago",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22682917,
+      "name": "Additional Locations",
+      "value": null,
+      "value_type": "multi_select"
+    }
+  ],
+  "id": 7822192,
+  "updated_at": "2026-04-16T16:04:00-04:00",
+  "requisition_id": "26326",
+  "title": "Software Engineer Intern, GTreasury (Summer 2026)",
+  "company_name": "Ripple ",
+  "first_published": "2026-04-16T16:02:59-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;GTreasury, now a Ripple solution, was acquired by Ripple in 2025, marking a significant expansion into the multi-trillion-dollar corporate finance arena.&lt;/p&gt;\n&lt;p&gt;GTreasury has more than 40 years of experience supporting some of the world’s largest and most sophisticated companies. Integrating its treasury command center into Ripple’s technology stack gives corporates the ability to move, manage and optimize liquidity in real-time, across traditional and digital assets, under one expanded umbrella.&lt;/p&gt;\n&lt;p&gt;As a Software Engineer Intern with GTreasury, you&#39;ll have the outstanding opportunity to modernize a critical internal SSO application. You will embark on a full ownership journey, migrating from ASP.NET Web Forms to ASP.NET Core Web API with a React frontend. Guided by experienced mentors, you&#39;ll ship and validate each layer incrementally, gaining valuable insights into both modern and legacy systems. This is a real project with real users, ensuring a meaningful experience with tangible outcomes!&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;What you&#39;ll do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Replace file-based logging with structured logging using ILogger and Serilog&lt;/li&gt;\n&lt;li&gt;Migrate raw ADO.NET SQL queries to Entity Framework Core or Dapper&lt;/li&gt;\n&lt;li&gt;Rebuild SAML 2.0 token creation using Microsoft, Identity Model, Tokens and Saml2&lt;/li&gt;\n&lt;li&gt;Develop a React app to replace legacy aspx pages&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What you&#39;ll bring&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in an Undergraduate degree in Computer Science, Software Engineering, or a related field&lt;/li&gt;\n&lt;li&gt;Available to work for 12 weeks during Summer 2026, beginning in May or June&lt;/li&gt;\n&lt;li&gt;Intent to return to degree-program after the completion of the internship&lt;/li&gt;\n&lt;li&gt;Experience in at least one programming language like C++, Python, Java, or Golang&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;hr&gt;\n&lt;p&gt;&lt;strong&gt;WHO WE ARE:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Do Your Best Work&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The opportunity to build in a fast-paced start-up environment with experienced industry leaders&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A learning environment where you can dive deep into the latest technologies and make an impact.&amp;nbsp; A professional development budget to support other modes of learning.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Thrive in an environment where no matter what race, ethnicity, gender, origin, or culture they identify with, every employee is a respected, valued, and empowered part of the team.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In-office collaboration for moments that matter is important to our culture, and we give managers and teams the flexibility to decide which 10+ days a month they come in.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bi-weekly all-company meeting - business updates and ask me anything style discussion with our Leadership Team&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We come together for moments that matter which include team offsites, team bonding activities, happy hours and more!&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Take Control of Your Finances&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Competitive salary, bonuses, and equity&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Competitive benefits that cover physical and mental healthcare, retirement, family forming, and family support&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee giving match&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Mobile phone stipend&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Take Care of Yourself&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;R&amp;amp;R days so you can rest and recharge&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Generous wellness reimbursement and weekly onsite &amp;amp; virtual programming&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Generous vacation policy - work with your manager to take time off when you need it&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Industry-leading parental leave policies. Family planning benefits.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Catered lunches, fully-stocked kitchens with premium snacks/beverages, and plenty of fun events&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;em data-stringify-type=&quot;italic&quot;&gt;Benefits listed above are for full-time employees.&amp;nbsp;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;hr&gt;\n&lt;div&gt;&lt;em&gt;Ripple is an Equal Opportunity Employer. We’re committed to building a diverse and inclusive team. We do not discriminate against qualified employees or applicants because of race, color, religion, gender identity, sex, sexual identity, pregnancy, national origin, ancestry, citizenship, age, marital status, physical disability, mental disability, medical condition, military status, or any other characteristic protected by local law or ordinance.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;em&gt;Please find our &lt;a href=&quot;https://ripple.com/legal/eu-privacy-notice/&quot; target=&quot;_blank&quot;&gt;UK/EU Applicant Privacy Notice &lt;/a&gt;and our &lt;a href=&quot;https://ripple.com/legal/ca-applicant-privacy-notice/&quot; target=&quot;_blank&quot;&gt;California Applicant Privacy Notice&lt;/a&gt; for reference.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 1780,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 334697,
+      "name": "Chicago, IL, United States",
+      "location": "Chicago, Illinois, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

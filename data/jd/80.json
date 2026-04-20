@@ -1,0 +1,43 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/strandtherapeutics/jobs/5824281004",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 5062027004,
+  "location": {
+    "name": "Boston, Massachusetts"
+  },
+  "metadata": null,
+  "id": 5824281004,
+  "updated_at": "2026-03-12T06:30:25-04:00",
+  "requisition_id": "232",
+  "title": "Intern, Software",
+  "company_name": "Strand Therapeutics",
+  "first_published": "2026-03-12T06:30:25-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Company Overview:&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Strand Therapeutics is a clinical stage biotechnology company utilizing synthetic biology to genetically program mRNA to deliver truly revolutionary immunotherapies to patients.&lt;/p&gt;\n&lt;p&gt;Building on the idea of creating smart therapies based on Boolean logic circuits, Strand was started by biological engineers working together at MIT who were seeking to apply the concept of the emerging field of mRNA therapeutics. Strand&#39;s technology is therapeutic-area and mRNA modality agnostic where therapeutic proteins are encoded onto modified, self-replicating, or circular mRNA backbones which in turn are programmed with cell-specific sensors and circuits.&lt;/p&gt;\n&lt;p&gt;Today, Strand has established multiple programmable mRNA platforms with one clinical stage asset and several programs in preclinical development as well as early discovery. Our lead program, STX-001, is currently being evaluated in a Phase 1 clinical trial for solid tumors. Our corporate headquarters is located in the Fenway district of Boston, Massachusetts.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Become the next standout single &lt;em&gt;strand!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Job Summary:&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Strand is looking for people who have the enthusiasm and motivation to be a highly contributing member of a team with significant impact on Strand’s cell engineering programs. This opportunity will offer the employee the ability to work in a cross-functional environment and be a part of the future strategy of the company.&lt;/p&gt;\n&lt;p&gt;We are looking for an Intern, Software to join the Computational Biology team at Strand Therapeutics. The incoming candidate will work closely with both the computational biology team and experimental teams at Strand to build software tools to streamline and empower R&amp;amp;D. The candidate will be expected to work in an innovative, fast-paced, cross-collaborative biotech environment.&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Primary Responsibilities:&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, build, and deploy applications for handling scientific data in collaboration with other scientists and engineers. Applications will be in drug development and integrating biological data.&lt;/li&gt;\n&lt;li&gt;Work with stakeholders across the company to integrate data access and computation through APIs. Integrate 3rd party data sources and tools.&lt;/li&gt;\n&lt;li&gt;Learn the complete software development lifecycle from conception and requirements gathering to implementation, deployment, and operation.&lt;/li&gt;\n&lt;li&gt;Engage with cross-functional project teams and external collaborators to support project planning and execution, and drive adoption of software-based solutions.&lt;/li&gt;\n&lt;li&gt;Develop computational pipelines (e.g., with Nextflow or Snakemake) for a variety of research and development applications, with a particular focus on next-generation sequencing (NGS) data and analysis.&lt;/li&gt;\n&lt;li&gt;Maintain a well-documented, reusable codebase, and demonstrate good software engineering practices.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;u&gt;Qualifications:&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;On track to graduate with a B.S. or M.S. in Computer Science, Computational Biology, Bioengineering, Data Science, or a related discipline&lt;/li&gt;\n&lt;li&gt;Background in biology/chemistry is highly desired; experience in the biotechnology industry is a strong plus.&lt;/li&gt;\n&lt;li&gt;Comfortable using programming languages, especially Python and JavaScript. Experience with web frameworks like Django or Flask for backend development and/or Vue or React for frontend development is a plus.&lt;/li&gt;\n&lt;li&gt;Knowledge of databases (SQL). Experience with other data storage and analytics systems is a plus.&lt;/li&gt;\n&lt;li&gt;Comfortable using Unix environments (Linux, shell scripting).&lt;/li&gt;\n&lt;li&gt;Experience with common software tooling, including version control with git.&lt;/li&gt;\n&lt;li&gt;Strong collaboration and interpersonal skills. Ability to present software concepts to a diverse audience.&lt;/li&gt;\n&lt;li&gt;Ability to multi-task and prioritize to meet important deadlines.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Strand Therapeutics is an equal opportunity employer. We do not discriminate on the basis of race, color, gender, gender identity, sexual orientation, age, religion, national or ethnic origin, disability, protected veteran status or any other basis protected by applicable law. Strand does not accept unsolicited resumes from any source other than directly from candidates.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Job Type: Intern&lt;/p&gt;\n&lt;p&gt;Hourly Rate: $30 - $33 per hour&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4014315004,
+      "name": "Computational Biology",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4032063004,
+      "name": "Overland",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

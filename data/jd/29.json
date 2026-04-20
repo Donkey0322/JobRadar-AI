@@ -1,0 +1,110 @@
+{
+  "id": "744000112931905",
+  "name": "Software Engineer, Intern - Summer 2026, Austin",
+  "uuid": "6ca459b0-f4c5-4c0a-a066-c79f8d4bdade",
+  "jobId": "d13dd575-9994-42c1-9b4a-b9caebf3e619",
+  "jobAdId": "78be79d8-b31e-4906-872d-8ca9fda711dd",
+  "defaultJobAd": true,
+  "refNumber": "REF97251O",
+  "company": {
+    "name": "Visa",
+    "identifier": "Visa"
+  },
+  "location": {
+    "city": "Austin",
+    "region": "TX",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "30.267153",
+    "longitude": "-97.7430608",
+    "fullLocation": ", "
+  },
+  "customField": [
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "5bd89e45b1f60b7aea922c5b",
+      "fieldLabel": "Visa Inc. or Visa in Europe job?",
+      "valueId": "3a568048-d1c9-4741-be56-36b4f3addff7",
+      "valueLabel": "Visa Inc."
+    },
+    {
+      "fieldId": "58914413e4b04f807e6ee84f",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Visa"
+    },
+    {
+      "fieldId": "57ac0c81e4b06e7ab19310e1",
+      "fieldLabel": "Job Family Group",
+      "valueId": "ADM",
+      "valueLabel": "Corporate Services and Administration"
+    },
+    {
+      "fieldId": "58b7e4d1e4b0885c92cd9895",
+      "fieldLabel": "Department",
+      "valueId": "868537",
+      "valueLabel": "Technology and Operations"
+    }
+  ],
+  "releasedDate": "2026-03-05T13:39:43.102Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/Visa/744000112931905-software-engineer-intern-summer-2026-austin",
+  "applyUrl": "https://jobs.smartrecruiters.com/Visa/744000112931905-software-engineer-intern-summer-2026-austin?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Visa/publication/6ca459b0-f4c5-4c0a-a066-c79f8d4bdade?dcr_ci=Visa",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Visa is a world leader in digital payments, facilitating more than 215 billion payments transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories each year. Our mission is to connect the world through the most innovative, convenient, reliable and secure payments network, enabling individuals, businesses and economies to thrive.</p><p>When you join Visa, you join a culture of purpose and belonging – where your growth is priority, your identity is embraced, and the work you do matters. We believe that economies that include everyone everywhere, uplift everyone everywhere. Your work will have a direct impact on billions of people around the world – helping unlock financial access to enable the future of money movement.</p><p><strong>Join Visa: A Network Working for Everyone.</strong></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>As a Software Engineer Intern, you will be placed in one of the technology organizations at Visa and specific assignments will depend on upon your skills sets, interest, and team needs. &#xa0;</p><p>We are seeking Software Engineer interns across our Technology organization. As an intern, you will take on meaningful work, engage in out-of-the-box problem solving, and participate in global case challenges and impactful initiatives. You will get the chance to work with multiple teams, systems, and products through a wide variety of data sources. From technology to business, we are looking for people who can innovate, collaborate and bring Visa into the next level of a rapidly evolving digital marketplace.&#xa0;</p><p>During the internship, you will work on one or more hands-on projects with the team. Our summer internship also equips you with social and professional networking events and developmental workshops, designed to provide you the resources and training to have an impactful summer.&#xa0;</p><p>Some examples of previous summer intern projects:&#xa0;</p><ul><li><p>Self-serve deployment of Kafka clusters using Docker and Kubernetes with auto scale up capability&#xa0;</p></li></ul><ul><li><p>Creating a natural language Chatbot for searching CDISI knowledge base&#xa0;</p></li></ul><ul><li><p>Developing a prototype that would automate payments at gas stations&#xa0;</p></li></ul><ul><li><p>Automating process for removing duplicate compromised account numbers using low latency algorithms&#xa0;</p></li></ul><ul><li><p>Improving the usage of Visa Checkout across all mobile and web devices&#xa0;</p></li></ul><ul><li><p>Developing testing tools to identify errors in internal systems&#xa0;</p></li></ul><ul><li><p>Creating visual monitoring tools to uncover transaction errors&#xa0;</p></li></ul><ul><li><p>Analyze, design, code and unit test software solutions and enhancements for an application that applies business logic and routes digital currency of global transactions&#xa0;</p></li></ul><ul><li><p>Develop a robust app factory to be used to create hundreds of mobile banking applications for iOS and Android with a single click&#xa0;</p></li></ul><ul><li><p>Implementation of a single development lifecycle, from Analysis and Design, Build, QA, Security, and Deployment. Begin to learn best and secure coding practices and standards&#xa0;</p></li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>Basic Qualifications&#xa0;</p><ul><li>Students pursuing a Bachelor’s degree in Computer Science, Computer Engineering, CIS/MIS, Cybersecurity, Business or a related field, with a graduation date in December 2026-August 2027</li><li>Strong communications skills, specifically, the absence of repeated grammatical or typographical errors, clear and concise written and spoken communications that demonstrate professional judgment.&#xa0;</li></ul><p>Preferred Qualifications</p><ul><li>Proficiency in at least one programming language or technology including, but not limited, to Java, C/C++, C#, .NET, python, Javascript, HTML&#xa0;</li><li>Experience with Write utilities / automation tools using Selenium, Java, REST, Python, Groovy, and more</li><li>Exposure to containerized microservices in Kubernetes environments (e.g., class projects, labs, internships).</li><li>Demonstrated adaptability and willingness to learn new skills and technologies.</li><li>Familiarity with some of the following (preferred but not required):<ul><li>Kubernetes (especially kind cluster)</li><li>Jenkins, GitHub Actions, or ArgoCD</li><li>Chainsaw, Prometheus, Splunk, ClickHouse</li><li>Opensearch/Elasticsearch</li></ul></li><li>Familiarity with software testing principles&#xa0;</li><li>Experience or knowledge&#xa0;in working with both RDBMS (preferably MySQL) and NoSQL databases (preferably Cassandra)</li><li>Experience in developing Agentic Solution</li><li>Machine learning and data science background is great</li><li>Solid understanding of software engineering concepts and methodologies&#xa0;</li><li>Document process, designs, test results, and analysis&#xa0;</li><li>Lead root cause analysis and track defect resolution to completion&#xa0;</li><li>Review and provide feedback on development code, test designs and test cases&#xa0;</li><li>Strong ability to collaborate&#xa0;</li><li>Highly driven, resourceful and results oriented&#xa0;</li><li>Good team player and excellent interpersonal skills&#xa0;</li><li>Good analytical and problem-solving skills&#xa0;</li><li>Demonstrated ability to lead and navigate through ambiguity</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong><u>U.S. APPLICANTS ONLY:</u></strong>&#xa0;The estimated hourly range for a new hire into this position is $35/hr to $40/hr. The hourly rate may vary depending on job-related factors which may include knowledge, skills, experience, and location.</p><p><strong><u>Work Hours:</u></strong>&#xa0;Varies upon the needs of the department.</p><p><strong><u>Work Authorization:</u></strong>&#xa0;Visa will not sponsor applicants for work visas in connection with this position. Future sponsorship will not be considered.</p><p><strong><u>This is a hybrid position.</u></strong>&#xa0;Expectation of days in office will be confirmed by your hiring manager.&#xa0;</p><p><strong><u>Travel Requirements:</u></strong>&#xa0;This position requires travel&#xa0;5-10% of the time.</p><p><strong><u>Mental/Physical Requirements:</u></strong>&#xa0;This position will be performed in an office setting.&#xa0; The position will require the incumbent to sit and stand at a desk, communicate in person and by telephone, frequently operate standard office equipment, such as telephones and computers.</p><p>Visa is an EEO Employer.&#xa0; Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status.&#xa0; Visa will also consider for employment qualified applicants with criminal histories in a manner consistent with EEOC guidelines and applicable local law.</p><p>Visa will consider for employment qualified applicants with criminal histories in a manner consistent with applicable local law, including the requirements of Article 49 of the San Francisco Police Code.</p>"
+      }
+    }
+  },
+  "active": false,
+  "visibility": "INTERNAL",
+  "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "department": {
+    "id": 868537,
+    "label": "Technology and Operations"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

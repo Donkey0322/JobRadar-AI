@@ -1,0 +1,79 @@
+{
+  "jobPostingInfo": {
+    "id": "05421cc95135100122b3194e79dd0000",
+    "title": "Software Developer Intern",
+    "jobDescription": "<p><b>Who We Are</b></p><p></p><p>Applied Materials is a global leader in materials engineering solutions used to produce virtually every new chip and advanced display in the world. We design, build and service cutting-edge equipment that helps our customers manufacture display and semiconductor chips – the brains of devices we use every day. As the foundation of the global electronics industry, Applied enables the exciting technologies that literally connect our world – like AI and IoT. If you want to push the boundaries of materials science and engineering to create next generation technology, join us to deliver material innovation that changes the world. </p><p></p><p><b>What We Offer</b></p><p></p><p>Location:</p>Santa Clara,CA<p></p><p>You’ll benefit from a supportive work culture that encourages you to learn, develop, and grow your career as you take on challenges and drive innovative solutions for our customers. We empower our team to push the boundaries of what is possible—while learning every day in a supportive leading global company. Visit our Careers website to learn more. </p><p></p><p>At Applied Materials, we care about the health and wellbeing of our employees. We’re committed to providing programs and support that encourage personal and professional growth and care for you at work, at home, or wherever you may go. Learn more about our <a href=\"https://hrportal.ehr.com/applied/\" target=\"_blank\"><span><u>benefits</u></span></a>. </p><p></p><p>Software Developer with .NET background needed for projects in data analytics.</p><p>Experience in .NET required. Experience or knowledge of AI/ML algorithms and concepts preferred.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Additional Information</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Time Type:</b></p>Full time<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Employee Type:</b></p>Intern / Student<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Travel:</b></p>No<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Relocation Eligible:</b></p>No<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">The salary offered to a selected candidate will be based on multiple factors including location, hire grade, job-related knowledge, skills, experience, and with consideration of internal equity of our current team members. In addition to a comprehensive benefits package, candidates may be eligible for other forms of compensation such as participation in a bonus and a stock award program, as applicable.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">For all sales roles, the posted salary range is the Target Total Cash (TTC) range for the role, which is the sum of base salary and target bonus amount at 100% goal achievement.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Applied Materials is an Equal Opportunity Employer. Qualified applicants will receive consideration for employment without regard to race, color, national origin, citizenship, ancestry, religion, creed, sex, sexual orientation, gender identity, age, disability, veteran or military status, or any other basis prohibited by law.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">In addition, Applied endeavors to make our <a href=\"https://www.appliedmaterials.com/us/en/careers.html\" target=\"_blank\"><span><u>careers site</u></span></a> accessible to all users. If you would like to contact us regarding accessibility of our website or need assistance completing the application process, please contact us via e-mail at <span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WKM0\">Accommodations_Program&#64;amat.com,</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span> or by calling our HR Direct Help Line at 877-612-7547, option 1, and following the prompts to speak to an HR Advisor. This contact is for accommodation requests only and cannot be used to inquire about the status of applications.</p>",
+    "location": "Santa Clara,CA",
+    "postedOn": "Posted 21 Days Ago",
+    "startDate": "2026-03-24",
+    "timeType": "Full time",
+    "jobReqId": "R2615062",
+    "jobPostingId": "Software-Developer-Intern_R2615062",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Santa Clara,CA",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Software-Developer-Intern_R2615062",
+    "questionnaireId": "c5106acde94910020da2371e9d090000",
+    "secondaryQuestionnaireId": "d3d19d574b901001738c96fe07650000"
+  },
+  "hiringOrganization": {
+    "name": "0001 Applied Materials, Inc",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Java Developer - Intern",
+      "externalPath": "/job/Santa-ClaraCA/Java-Developer_R2612898",
+      "timeType": "Full time",
+      "locationsText": "Santa Clara,CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-20"
+    },
+    {
+      "title": "Software Engineer",
+      "externalPath": "/job/Santa-ClaraCA/Software-Engineer_R2611493-1",
+      "timeType": "Full time",
+      "locationsText": "Santa Clara,CA",
+      "postedOn": "Posted 28 Days Ago",
+      "startDate": "2026-03-17"
+    },
+    {
+      "title": "Software Engineer",
+      "externalPath": "/job/Santa-ClaraCA/Software-Engineer_R2615801",
+      "timeType": "Full time",
+      "locationsText": "Santa Clara,CA",
+      "postedOn": "Posted 6 Days Ago",
+      "startDate": "2026-04-08"
+    },
+    {
+      "title": "Software Engineer ||",
+      "externalPath": "/job/Santa-ClaraCA/Software-Engineer---_R2616988",
+      "timeType": "Full time",
+      "locationsText": "6 Locations",
+      "postedOn": "Posted Yesterday",
+      "startDate": "2026-04-13"
+    },
+    {
+      "title": "Software Engineer II - (E2)",
+      "externalPath": "/job/Santa-ClaraCA/Software-Engineer-II----E2-_R2617379",
+      "timeType": "Full time",
+      "locationsText": "Santa Clara,CA",
+      "postedOn": "Posted 4 Days Ago",
+      "startDate": "2026-04-10"
+    }
+  ],
+  "userAuthenticated": false
+}

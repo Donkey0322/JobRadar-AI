@@ -1,0 +1,77 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/zscaler/jobs/5103680007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 4616184007,
+  "location": {
+    "name": "San Jose, California, USA"
+  },
+  "metadata": [
+    {
+      "id": 4203262007,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4363861007,
+      "name": "Additional Job Post Location",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4363809007,
+      "name": "Division",
+      "value": "Agentic AI",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4391305007,
+      "name": "Geo/Region",
+      "value": "AMS",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 5103680007,
+  "updated_at": "2026-04-13T12:59:55-04:00",
+  "requisition_id": "18699",
+  "title": "Software Engineer Intern, Software Development",
+  "company_name": "Zscaler",
+  "first_published": "2026-04-13T12:59:55-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;About &lt;strong&gt;Zscaler&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Zscaler accelerates digital transformation to ensure our customers can be more agile, efficient, resilient, and secure. As an &lt;strong&gt;AI-forward enterprise&lt;/strong&gt;, we are constantly pushing the envelope, leveraging the world’s largest security data lake to power our cloud-native Zero Trust Exchange platform. This innovation protects our customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location.&lt;/p&gt;\n&lt;p&gt;Here, &lt;strong&gt;impact in your role matters more than title&lt;/strong&gt; and trust is built on results. We say, impact over activity. We seek innovators who actively use AI to amplify their impact and who thrive in an environment where we leverage intelligent systems to stay ahead of evolving threats. We believe in transparency and value &lt;strong&gt;constructive, honest debate&lt;/strong&gt;—we’re focused on getting to the best ideas, faster. We build high-performing teams that can make an impact quickly and with high quality. To do this, we are building a culture of execution centered on &lt;strong&gt;customer obsession&lt;/strong&gt;, collaboration, ownership, and accountability.&lt;/p&gt;\n&lt;p&gt;We value high-impact, high-accountability with a sense of urgency where you’re enabled to do your best work and embrace your potential. If you’re driven by purpose, thrive on solving complex challenges, and want to be part of the team that’s helping to secure the AI age, we invite you to bring your talents to Zscaler and help shape the future of cybersecurity.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a Software Development Engineer Intern to join our team in a hybrid capacity in San Jose, CA, reporting to the VP Software Development within the Engineering department. The core purpose of a Software Development Intern is to support the engineering lifecycle by writing clean, maintainable code and assisting in the deployment of scalable software features. By collaborating with senior developers on real-world applications, you help accelerate product delivery and enhance the overall user experience, directly contributing to the team&#39;s technical innovation and operational goals.&lt;/p&gt;\n&lt;p&gt;What you’ll do (Role Expectations)&lt;/p&gt;\n&lt;p&gt;At Zscaler, interns don&#39;t watch from the sidelines — you write code that runs in production, on&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This is what engineering looks like in 2025. And you will learn it here, from engineers who build it every day.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You will design, build, and ship software features using a modern AI-native development workflow. That means working with the same cutting-edge tools redefining how the best engineers work today — Claude Code, GitHub Copilot, and agentic coding assistants that let you move faster, think bigger, and spend your energy solving hard problems instead of writing boilerplate.&lt;/li&gt;\n&lt;li&gt;Identify, track, and resolve software defects discovered during testing or reported by users to improve application stability and performance&lt;/li&gt;\n&lt;li&gt;Participate in peer code reviews to ensure adherence to best practices, maintain code quality, and foster a culture of continuous learning within the engineering team&lt;/li&gt;\n&lt;li&gt;Develop automated tests to validate the integrity of new code, ensuring that deployments do not introduce regressions into the existing system&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are (Success Profile)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You thrive in ambiguity. You&#39;re comfortable building the path as you walk it. You thrive in a dynamic environment, seeing ambiguity not as a hindrance, but as the raw material to build something meaningful.&lt;/li&gt;\n&lt;li&gt;You act like an owner. Your passion for the mission fuels your bias for action. You operate with integrity because you genuinely care about the outcome. You adapt to what’s needed, navigating seamlessly between high-level strategy and hands-on execution.&lt;/li&gt;\n&lt;li&gt;You are a problem-solver. You seek out challenges because you are energized by finding solutions, knowing that solving the hard problems delivers the biggest impact.&lt;/li&gt;\n&lt;li&gt;You are a high-trust collaborator. You are ambitious for the team, not just yourself. You embrace our challenge culture by giving and receiving ongoing feedback—knowing that candor delivered with clarity and respect is the truest form of teamwork and the fastest way to earn trust.&lt;/li&gt;\n&lt;li&gt;You are a learner. You have a true growth mindset and never stop developing yourself, actively seeking feedback to become a better partner and a stronger teammate. You love what you do and you do it with purpose.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What We’re Looking for (Minimum Qualifications)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing Bachelor’s or Master’s degree in Computer Science, Software Engineering, or Data Engineering&lt;/li&gt;\n&lt;li&gt;Ability to develop software modules using languages like Python, Rust and Java&lt;/li&gt;\n&lt;li&gt;Strong analytical thinking, problem solving, and communication skills&lt;/li&gt;\n&lt;li&gt;Motivated self-starter with a passion for innovation and technology&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Will Make You Stand Out (Preferred Qualifications)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Familiarity with cloud service providers like AWS, Azure, or Google Cloud Platform, particularly regarding serverless functions or containerization tools like Docker and Kubernetes&lt;/li&gt;\n&lt;li&gt;Experience with modern front-end frameworks (e.g., React, Vue) or back-end web frameworks (e.g., Node.js, Django, Spring Boot), demonstrating the ability to work across the entire application stack&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-AL1&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;#LI-Hybrid&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;Zscaler’s salary ranges are benchmarked and are determined by role and level. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position across all US locations and could be higher or lower based on a multitude of factors, including job-related skills, experience, and relevant education or training.&lt;/p&gt;\n&lt;p&gt;The base salary range listed for this full-time position excludes commission/ bonus/ equity (if applicable) + benefits.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Pay Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$45&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$65 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p data-pm-slice=&quot;1 3 []&quot;&gt;At Zscaler, we are committed to building a team that reflects the communities we serve and the customers we work with. We foster an inclusive environment that values all backgrounds and perspectives, emphasizing collaboration and belonging. Join us in our mission to make doing business seamless and secure.&lt;/p&gt;\n&lt;p&gt;Our Benefits program is one of the most important ways we support our employees. Zscaler proudly offers comprehensive and inclusive benefits to meet the diverse needs of our employees and their families throughout their life stages, including:&lt;/p&gt;\n&lt;div class=&quot;has-nudge&quot; data-nudge-id=&quot;5eb9419b-6a4d-4451-bfa6-e2eb96084be0&quot;&gt;\n&lt;ul&gt;\n&lt;li&gt;Various health plans&lt;/li&gt;\n&lt;li&gt;Time off plans for vacation and sick time&lt;/li&gt;\n&lt;li&gt;Parental leave options&lt;/li&gt;\n&lt;li&gt;Retirement options&lt;/li&gt;\n&lt;li&gt;Education reimbursement&lt;/li&gt;\n&lt;li&gt;In-office perks, and more!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Learn more about Zscaler’s Future of Work strategy, hybrid working model, and benefits &lt;a href=&quot;https://www.zscaler.com/careers&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;By applying for this role, you adhere to applicable laws, regulations, and Zscaler policies, including those related to security and privacy standards and guidelines.&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;Zscaler is committed to providing equal employment opportunities to all individuals. We strive to create a workplace where employees are treated with respect and have the chance to succeed. All qualified applicants will be considered for employment without regard to race, color, religion, sex (including pregnancy or related medical conditions), age, national origin, sexual orientation, gender identity or expression, genetic information, disability status, protected veteran status, or any other characteristic protected by federal, state, or local laws. &lt;em&gt;See more information by clicking on the &lt;/em&gt;&lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf&quot;&gt;&lt;em&gt;Know Your Rights: Workplace Discrimination is Illegal &lt;/em&gt;&lt;/a&gt;&lt;em&gt;link.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Pay Transparency&lt;/p&gt;\n&lt;p&gt;Zscaler complies with all applicable federal, state, and local pay transparency rules.&lt;/p&gt;\n&lt;p&gt;Zscaler is committed to providing reasonable support (called accommodations or adjustments) in our recruiting processes for candidates who are differently abled, have long term conditions, mental health conditions or sincerely held religious beliefs, or who are neurodivergent or require pregnancy-related support.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4050994007,
+      "name": "Agentic AI",
+      "child_ids": [
+        4050995007,
+        4061494007,
+        4046322007,
+        4063192007,
+        4050999007,
+        4061495007,
+        4038680007,
+        4059816007
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4007291007,
+      "name": "Office - San Jose, USA",
+      "location": "San Jose, California, USA",
+      "child_ids": [],
+      "parent_id": 4007290007
+    }
+  ]
+}

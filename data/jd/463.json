@@ -1,0 +1,43 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/blacksky/jobs/8499022002?gh_jid=8499022002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 6394889002,
+  "location": {
+    "name": "Herndon, VA"
+  },
+  "metadata": null,
+  "id": 8499022002,
+  "updated_at": "2026-04-14T17:23:27-04:00",
+  "requisition_id": "578",
+  "title": "Machine Learning Engineer (MLE) Intern",
+  "company_name": "BlackSky",
+  "first_published": "2026-04-14T17:23:27-04:00",
+  "language": "en",
+  "content": "&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Machine Learning Engineer (MLE) Intern&lt;br&gt;&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;BlackSky&lt;/strong&gt; is a real-time intelligence company. We own and operate the world&#39;s most advanced space-based intelligence platform and provide customers satellite imagery, automated analytics, and high-frequency monitoring of strategic locations, economic assets, and events from around the globe. BlackSky is trusted by the most demanding allied military and intelligence organizations and commercial companies to deliver foresight into critical matters that affect national security and the economy. BlackSky&#39;s data enables governments and businesses to see, understand and anticipate change as it happens, giving them the ultimate strategic advantage so they can act quickly. Our global team works with cutting-edge technology to make a difference around the world and prides itself on being people-first, customer-focused and fun.&lt;/p&gt;\n&lt;p&gt;BlackSky is looking for a Machine Learning Engineer (MLE) Intern to join our AI team for a Summer 2026 internship. Under the guidance of experienced engineers, you will assist in developing, deploying, and evaluating machine learning models that power BlackSky’s geospatial intelligence platform. This is a great opportunity for a highly-motivated individual eager to apply Computer Vision concepts in a real-world, fast-paced environment. As an intern, you will gain hands-on experience with high-cadence satellite imagery and learn how to build production-grade ML solutions.&lt;/p&gt;\n&lt;p&gt;This position is based in Herndon, VA and the candidate must be able to work from that office on a hybrid basis. This is a paid summer internship position.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Model Development: Collaborate with the engineering team to build and refine Computer Vision models tailored for geospatial data.&lt;/li&gt;\n&lt;li&gt;Multi-Image Processing: Gain experience developing architectures that handle multiple images passing to models for temporal or change-detection analysis.&lt;/li&gt;\n&lt;li&gt;Model Deployment: Collaborate with DevOps engineers to package, containerize, and deploy production-ready ML models into BlackSky’s platform.&lt;/li&gt;\n&lt;li&gt;Testing &amp;amp; Evaluation: Participate in code reviews, debug software issues, and contribute to the technical documentation of ML workflows.&lt;/li&gt;\n&lt;li&gt;Continuous Learning: Participate in team discussions on best practices in computer vision, geospatial technology, and software engineering.&lt;/li&gt;\n&lt;li&gt;Other job&lt;strong&gt;-&lt;/strong&gt;related duties as assigned.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Rising junior, senior, or grad student studying Computer Science, Data Science, Mathematics, or a related technical field.&lt;/li&gt;\n&lt;li&gt;Proficiency in Python is required.&lt;/li&gt;\n&lt;li&gt;Prior experience with PyTorch.&lt;/li&gt;\n&lt;li&gt;Strong problem-solving skills and an eagerness to learn and adapt in a fast-paced environment.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and the ability to work effectively in a collaborative team setting.&lt;/li&gt;\n&lt;li&gt;Must be able to report to Herndon, VA office at least 2x per week.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Graduate student preferred (master’s or PhD).&lt;/li&gt;\n&lt;li&gt;Prior internship experience.&lt;/li&gt;\n&lt;li&gt;Familiarity with computer vision and / or geospatial technology (GIS systems and satellite imagery processing).&lt;/li&gt;\n&lt;li&gt;Familiarity with software development methods such as Agile, version control (Git).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;BlackSky is committed to hiring and retaining a diverse workforce. We are proud to be an Equal Opportunity/Affirmative Action Employer All Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, age, national origin, sexual orientation, gender identity, disability, protected veteran status or any other characteristic protected by law.&lt;/p&gt;\n&lt;p&gt;To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR) you must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.&lt;/p&gt;\n&lt;p&gt;EEO/AAP/ Pay Transparency Statements:&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdf&quot;&gt;https://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdf&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.dol.gov/ofccp/regs/compliance/posters/pdf/OFCCP_EEO_Supplement_Final_JRF_QA_508c.pdf&quot;&gt;https://www.dol.gov/ofccp/regs/compliance/posters/pdf/OFCCP_EEO_Supplement_Final_JRF_QA_508c.pdf&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4127887002,
+      "name": "Technology/AI & ML 60-110",
+      "child_ids": [],
+      "parent_id": 4076688002
+    }
+  ],
+  "offices": [
+    {
+      "id": 4015344002,
+      "name": "Herndon 2+ days in office",
+      "location": "Herndon 2+ days in office",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

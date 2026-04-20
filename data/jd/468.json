@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4638279005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4408696005,
+  "location": {
+    "name": "San Jose, CA"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "Hardware Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4638279005,
+  "updated_at": "2026-04-14T18:27:17-04:00",
+  "requisition_id": "2158",
+  "title": "Hardware Test Engineer (Internship 2026)",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2026-04-08T11:26:50-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Job Responsibilities:&amp;nbsp;&lt;/p&gt;\n&lt;table style=&quot;height: 80px; width: 1080px;&quot; width=&quot;714&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=&quot;width: 1065.88px;&quot; width=&quot;77&quot;&gt;Support post-silicon validation of connectivity products, solving lab challenges across hardware and software while collaborating with cross-functional teams&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;p&gt;Qualifications&amp;nbsp;&lt;/p&gt;\n&lt;table style=&quot;height: 362px; width: 2087px;&quot; width=&quot;1773&quot;&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td style=&quot;width: 355.982px;&quot; width=&quot;271&quot;&gt;Support post-silicon validation of connectivity products, solving lab challenges across hardware and software while collaborating with cross-functional teams&lt;/td&gt;\n&lt;td style=&quot;width: 256.711px;&quot; width=&quot;184&quot;&gt;In B.S. or M.S. in EE or related field&lt;/td&gt;\n&lt;td style=&quot;width: 290.94px;&quot; width=&quot;214&quot;&gt;Coursework focused in RF/microwave, communication systems.&lt;/td&gt;\n&lt;td style=&quot;width: 252.149px;&quot; width=&quot;180&quot;&gt;Working knowledge of analog and digital circuit design fundametals.&lt;/td&gt;\n&lt;td style=&quot;width: 256.711px;&quot; width=&quot;184&quot;&gt;Lab experience with equipment such as oscilloscopes, Vector Network Analyzer (VNA), and Sourcemeter&lt;/td&gt;\n&lt;td style=&quot;width: 288.659px;&quot; width=&quot;212&quot;&gt;Scripting or software development in programing languages such as Python (preferred), C/C++ or Java.&lt;/td&gt;\n&lt;td style=&quot;width: 290.972px;&quot; width=&quot;214&quot;&gt;Experience with using python for automation and control of lab instruments&lt;br&gt;Project experience with microcontrollers or using computers as components, such as Arduino/Raspberry Pi projects or building custom PC’s.&amp;nbsp;&lt;br&gt;Knowledge of Signal Integrity, S-Parameters, SERDES architecture, Jitter Decomposition&lt;br&gt;Experience working with PCI Express PCIe&amp;nbsp; or other high-speed serial interfaces such as USB&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4025526005,
+      "name": "Hardware Engineering",
+      "child_ids": [],
+      "parent_id": 4000196005
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000118005,
+      "name": "San Jose, CA",
+      "location": "San Jose, California, United States",
+      "child_ids": [],
+      "parent_id": 4019546005
+    }
+  ]
+}
