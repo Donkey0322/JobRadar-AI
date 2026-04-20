@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/singlestore/jobs/7782709",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 3406053,
+  "location": {
+    "name": "Lisbon, Portugal "
+  },
+  "metadata": null,
+  "id": 7782709,
+  "updated_at": "2026-04-20T16:40:40-04:00",
+  "requisition_id": "ENGINT124",
+  "title": "Software Engineer Intern, Helios(Summer 2026)",
+  "company_name": "SingleStore",
+  "first_published": "2026-04-20T16:33:49-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h1&gt;&lt;strong&gt;Software Engineer Intern, Helios(Summer 2026)&lt;/strong&gt;&lt;/h1&gt;\n&lt;p&gt;at SingleStore&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Lisbon, Portugal&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;em&gt;Position Overview&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;em&gt;As a Software Engineer, Intern, you&#39;ll have the opportunity to spend 12 weeks working on one (or more) of the engineering teams at SingleStore. You will be at the forefront of real-time technology that’s revolutionizing how companies run their businesses every day. With a continuous release cycle, our engineers are accustomed to moving quickly in a rapid production environment. To do this successfully, we work collaboratively and creatively across teams to maximize our opportunity for impact. We also believe it’s important to celebrate our wins together, whether it be at a local spot or getting out of the city for some exploring.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;As a Software Engineer, Intern, you will be empowered to own your projects end-to-end and be an active contributor throughout the product life cycle. To expedite your growth path, you will partner with engineers who deeply care about your success and will lend their expertise to your professional development. Our engineers are not just technical partners/mentors, but are also business partners who are exposed to all areas of the business, working with teams such as product, marketing, and sales.&lt;/em&gt;&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;em&gt;Role and Responsibilities&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;em&gt;Our Software Engineers work on small, collaborative teams to help drive our company forward. &lt;/em&gt;&lt;em&gt;Our interns are responsible for projects that are deployed continuously into production over the course of their internship.&lt;/em&gt;&lt;em&gt; Your work will include everything from writing new features to testing software and you’ll gain a significant understanding of both the product and the business.&lt;/em&gt;&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;em&gt;Required Skills and Experience&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;Helios Team&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Enrolled in a B.S. Degree in Computer Science, Electrical Engineering, Computer Engineering, or related discipline&lt;/em&gt;&lt;em&gt;Deep understanding of C.S. fundamentals&lt;/em&gt;&lt;em&gt;Strong programming skills with JavaScript, Golang or TypeScript&lt;/em&gt;&lt;em&gt;Passionate about building highly reliable software&lt;/em&gt;&lt;em&gt;Firm grasp of algorithms and data structures&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Preferred skill and experience&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Understanding of core C.S. fundamentals, in particular operating systems, distributed systems, concurrency, multithreading, and server architectures&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;SingleStore delivers the cloud-native database with the speed and scale to power the world’s data-intensive applications. With a distributed SQL database that introduces simplicity to your data architecture by unifying transactions and analytics, SingleStore empowers digital leaders to deliver exceptional, real-time data experiences to their customers. SingleStore is venture-backed and headquartered in San Francisco with offices in Sunnyvale, Raleigh, Seattle, Boston, London, Lisbon, Bangalore, Dublin and Kyiv.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Consistent with our commitment to diversity &amp;amp; inclusion, we value individuals with the ability to work on diverse teams and with a diverse range of people.&lt;/p&gt;\n&lt;p&gt;Sponsorship is available for this position and other select roles&lt;/p&gt;\n&lt;p&gt;Please note that SingleStore’s COVID-19 vaccination policy requires that team members in the United States be fully vaccinated, including a booster shot with one of the United States FDA-approved vaccine options to meet in person for SingleStore business or to work from one of our U.S. office locations. &lt;em&gt;[It is expected that this will be a requirement for this role]&lt;/em&gt;. If an exemption and/or accommodation to our vaccination policy is requested, a member of the Human Resources department will be available to begin the interactive accommodation process.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;To all recruitment agencies: SingleStore does not accept agency resumes. Please do not forward resumes to SingleStore employees. SingleStore is not responsible for any fees related to unsolicited resumes and will not pay fees to any third-party agency or company that does not have a signed agreement with the Company.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 66701,
+      "name": "Helios Dev",
+      "child_ids": [],
+      "parent_id": 1001
+    }
+  ],
+  "offices": [
+    {
+      "id": 27070,
+      "name": "Lisbon",
+      "location": "Lisboa, Portugal",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
