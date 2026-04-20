@@ -1,5 +1,27 @@
 [
   {
+    "company": "Volarisgroup",
+    "role": "Software Engineer Intern",
+    "link": "https://volarisgroup.wd3.myworkdayjobs.com/assetworks/job/United-States---Wayne-PA/Software-Engineer-Intern_R66512",
+    "location": "United States - Wayne, PA",
+    "id": 638,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop and maintain full-stack features using Angular and C#",
+        "Build and enhance RESTful APIs and backend services",
+        "Consult with development team on technical approach and solution implementations",
+        "Utilize AI coding assistants daily for code generation",
+        "Review all AI-generated code for adherence to best practices",
+        "Create unit, integration, and automated end-to-end tests"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Moog",
     "role": "Intern, Software Engineering",
     "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17220",
