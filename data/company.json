@@ -2530,7 +2530,10 @@
       "https://careers-gdms.icims.com/jobs/71884/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/71947/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/71986/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/72046/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/72046/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72141/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72142/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72143/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -7302,6 +7305,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/capitalrx/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/capitalrx/jobs/5153808008",
+      "https://job-boards.greenhouse.io/capitalrx/jobs/5153861008",
       "https://job-boards.greenhouse.io/capitalrx/jobs/5156440008"
     ]
   },
@@ -10868,6 +10873,16 @@
     ]
   },
   {
+    "name": "allegiantair",
+    "ats": "lever",
+    "identifier": "allegiantair",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/allegiantair?mode=json",
+    "urls": [
+      "https://jobs.lever.co/allegiantair/812aec26-220f-450f-990e-008015cf5596/apply"
+    ]
+  },
+  {
     "name": "alltrails",
     "ats": "lever",
     "identifier": "alltrails",
@@ -11925,7 +11940,9 @@
     "page": "https://api.smartrecruiters.com/v1/companies/NBCUniversal3/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/NBCUniversal3/744000092794882",
-      "https://jobs.smartrecruiters.com/NBCUniversal3/744000092797675"
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000092797675",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000121816498",
+      "https://jobs.smartrecruiters.com/NBCUniversal3/744000121818455"
     ]
   },
   {
@@ -12397,6 +12414,7 @@
       "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Totowa-NJ/VC---Software-Developer-Intern_2532831",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2531392",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Algorithm-Engineer-Intern_2635538",
+      "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Intern--IOT-_2532211",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Engineering-Intern_2532514"
     ]
   },
@@ -12601,7 +12619,8 @@
       "https://lifeattiktok.com/search/7609019984313452805",
       "https://lifeattiktok.com/search/7609047550392191237",
       "https://lifeattiktok.com/search/7621299118434961669",
-      "https://lifeattiktok.com/search/7624284785283746053"
+      "https://lifeattiktok.com/search/7624284785283746053",
+      "https://lifeattiktok.com/search/7629500062003218741"
     ]
   },
   {
@@ -13074,7 +13093,8 @@
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science---Manufacturing-Operation-Platform_R-25-12319",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--IT-Computer-Science_R-24-11983",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-16800",
-      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17015"
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17015",
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17220"
     ]
   },
   {
@@ -16156,6 +16176,16 @@
     "page": "",
     "urls": [
       "https://www.careers.zurich.com/job/Schaumburg-Digital-Transformation-Intern-(Summer-2026)-IL-60159/1330698057/?ats=successfactors"
+    ]
+  },
+  {
+    "name": "chargepoint",
+    "ats": "greenhouse",
+    "identifier": "chargepoint",
+    "domain": "https://www.chargepoint.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/chargepoint/jobs",
+    "urls": [
+      "https://www.chargepoint.com/about/opportunities/software-qa-engineering-intern?gh_jid=8505201002"
     ]
   },
   {

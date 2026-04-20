@@ -1,5 +1,175 @@
 [
   {
+    "company": "Moog",
+    "role": "Intern, Software Engineering",
+    "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17220",
+    "location": "Buffalo, NY",
+    "id": 637,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled in a related Bachelor's or Master's Degree program",
+        "Maintain a GPA of at least 3.0",
+        "Be able to relocate for the internship",
+        "Have a professional disposition",
+        "Possess effective communication skills",
+        "Demonstrate a strong desire to learn",
+        "Maintain a positive attitude",
+        "Be able to work in a team environment",
+        "Participate in design and implementation of software for embedded aircraft control systems",
+        "Contribute to preparation and execution of key engineering tasks",
+        "Provide technical support to engineers",
+        "Provide input on project processes, strategies, and execution",
+        "Operate as a multidisciplinary team member",
+        "Represent Moog consistent with its reputation"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Kla",
+    "role": "Software Intern (IOT)",
+    "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Intern--IOT-_2532211",
+    "location": "Milpitas, CA",
+    "id": 636,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's level degree.",
+        "Possess debugging skills with knowledge in machine control.",
+        "Proficient in C#, Python, or Java programming.",
+        "Proficient in developing applications for Linux and Windows OS.",
+        "Strong in Object Oriented Concepts, Data Structures and Algorithms.",
+        "Possess background in Robotics, Sensors, Control Systems, Healthcare.",
+        "Experience with Data analytics.",
+        "Develop native applications with Web Frameworks.",
+        "Experience with Machine Learning.",
+        "Have a passion for Physics.",
+        "Program autonomous systems."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Nbcuniversal",
+    "role": "Platform Distribution & Partnerships Internship – Academic Year",
+    "link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121818455",
+    "location": "New York, NY, United States",
+    "id": 635,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be actively enrolled in a degree-granting program.",
+        "Have current class standing of sophomore or above.",
+        "Possess current work authorization in the US not requiring future sponsorship.",
+        "Be available to work 16-24 hours per week.",
+        "Be willing to work in New York, NY.",
+        "Prefer students with class standing of junior or above.",
+        "Maintain a cumulative GPA of 3.0 or above.",
+        "Seek a degree in business, communications, finance, or marketing (for Sales).",
+        "Possess marketing or business experience (for Marketing)."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Nbcuniversal",
+    "role": "Platform Distribution & Partnerships Internship – Academic Year",
+    "link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121816498",
+    "location": "Universal City, CA, United States",
+    "id": 634,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in a degree-granting program",
+        "Current class standing of sophomore or above (30 credits)",
+        "Authorized to work for any employer in the United States without visa sponsorship",
+        "Available to work 16-24 hours per week from September 21, 2026 – April 23, 2027",
+        "Willing to work in Universal City, CA",
+        "Preferred: Class standing of junior or above",
+        "Achieve cumulative GPA of 3.0 or above",
+        "Motivated self-starter",
+        "Adaptable problem solver",
+        "Data-driven individual",
+        "Process-driven individual",
+        "Possess strong verbal, writing, and presentation skills",
+        "Experience in Digital Distribution, Entertainment industry, or DTC a plus",
+        "Solid Project Management skills",
+        "Bachelor’s degree in supply chain management, or product management experience",
+        "Experience in marketing or business (for Marketing roles)"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Judi Health",
+    "role": "Data Engineering Summer Intern (Graduate Level)",
+    "link": "https://job-boards.greenhouse.io/capitalrx/jobs/5153861008",
+    "location": "Denver, Colorado, United States; New York, New York, United States; Remote",
+    "id": 633,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Masters degree in Computer Science, IT, or a related field",
+        "Knowledge of Python, Java, SQL, JSON, and XML",
+        "Familiarity with data warehousing architecture techniques and Kimball methodology",
+        "Ability to design, implement, and maintain complex data pipelines",
+        "Analyze the data landscape and architect scalable data solutions",
+        "Excellent communication skills",
+        "Be self-motivated and detail-oriented",
+        "Tackle intricate technical challenges",
+        "Experience as a Data Engineer in healthcare or PBM sector",
+        "Knowledge of Airflow, dbt, and Snowflake"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Judi Health",
+    "role": "AI / Machine Learning Summer Intern (Graduate level)",
+    "link": "https://job-boards.greenhouse.io/capitalrx/jobs/5153808008",
+    "location": "Denver, Colorado, United States; New York, New York, United States",
+    "id": 632,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Investigate and experiment with AI and ML solutions.",
+        "Develop improvements to models for new content generation.",
+        "Apply tools and methodologies for large-scale data processing.",
+        "Ensure integrity and robustness of ML solutions with automated testing.",
+        "Document and communicate development processes and details.",
+        "Ensure security and compliance of healthcare data, adhering to HIPAA.",
+        "Responsible for adherence to Capital Rx Code of Conduct.",
+        "Pursuing a masters or doctoral degree in relevant fields.",
+        "Good understanding of Machine Learning fundamentals.",
+        "Basic understanding of OOP, Design Patterns, efficient algorithms, and SDLC.",
+        "Decent proficiency in Python.",
+        "Good problem-solving skills, attention to detail, and logical thinking.",
+        "Some experience crafting, conducting, and interpreting experiments.",
+        "Good written communication skills for remote collaboration."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "General Dynamics Mission Systems",
     "role": "Software Engineer Intern",
     "link": "https://careers-gdms.icims.com/jobs/72141/job?mobile=true&needsRedirect=false",
