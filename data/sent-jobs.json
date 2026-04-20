@@ -1,5 +1,144 @@
 [
   {
+    "company": "Volarisgroup",
+    "role": "DevOps- Intern",
+    "link": "https://volarisgroup.wd3.myworkdayjobs.com/assetworks/job/United-States---Wayne-PA/DevOps--Intern_R66227",
+    "location": "2 Locations",
+    "id": 625,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Computer Science or related program",
+        "Strong interest in DevOps, Cloud Computing, and AI automation",
+        "Basic understanding of DevOps concepts",
+        "Familiarity with a programming/scripting language",
+        "Understanding of version control systems",
+        "Strong problem-solving and analytical skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Rbc",
+    "role": "2026 Fall Student Opportunities RBC Borealis -Machine Learning Software Engineer, 4-8 Months",
+    "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-RBC-Borealis--Machine-Learning-Software-Engineer--4-8-Months_R-0000168679-1",
+    "location": "3 Locations",
+    "id": 624,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working on a bachelor's or master's degree in Computer Science, Computer Engineering, Software Engineering, or equivalent.",
+        "Possess software development experience, including co-op and internships.",
+        "Experienced with writing software in C++, C#, Java, or Python.",
+        "Familiar with the Unix command line and bash scripting.",
+        "Experience with Deep Learning packages (Tensorflow, Theano, Keras, PyTorch) is an asset.",
+        "Exposure to distributed computing frameworks (Hadoop, Spark), SQL, NoSQL, and graph databases is an asset.",
+        "Actively learn.",
+        "Adaptable.",
+        "Communicate effectively.",
+        "Creative.",
+        "Build strong interpersonal relationships.",
+        "Listen effectively.",
+        "Committed to personal development.",
+        "Show personal initiative.",
+        "Work collaboratively in teams."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Rbc",
+    "role": "2026 Fall Student Opportunities Technology & Operations - Software Developer, 12 Months",
+    "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/RBC-WATERPARK-PLACE-88-QUEENS-QUAY-WTORONTO/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--12-Months_R-0000168720-1",
+    "location": "2 Locations",
+    "id": 623,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Canadian post-secondary institution with a focus on computer science, engineering, or technology.",
+        "Possess leadership acumen and a passion for a dynamic business environment.",
+        "Exhibit excellent interpersonal and highly developed communication skills (verbal and written).",
+        "Be a creative, analytical, self-driven thinker capable of working in a fast-paced environment.",
+        "Have strong MS Office skills (Word, Outlook, Excel, PowerPoint).",
+        "Understand or have experience with programming languages, databases, platforms, frameworks, design techniques, tools, code management tooling, or web technologies.",
+        "Possess knowledge of the Software Development Life Cycle (SDLC) including Agile, Waterfall, and Iterative methods.",
+        "Have knowledge of Unified Modeling Language (UML).",
+        "Be able to hand-code all components and have cross-browser development experience."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Rbc",
+    "role": "2026 Fall Student Opportunities Technology & Operations - Software Developer, 4 Months",
+    "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--4-Months_R-0000168621-1",
+    "location": "2 Locations",
+    "id": 622,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Canadian post-secondary institution focusing on computer science, engineering, or technology.",
+        "Possess leadership acumen for a dynamic business environment.",
+        "Exhibit excellent interpersonal and communication skills.",
+        "Be a creative, analytical, self-driven thinker.",
+        "Capable of working in a fast-paced environment.",
+        "Possess strong MS Office skills (Word, Outlook, Excel, PowerPoint).",
+        "Experience or understanding of programming languages, databases, platforms, frameworks, and web technologies.",
+        "Understand the Software Development Life Cycle (SDLC) including Agile, Waterfall, and Iterative methods.",
+        "Familiarity with Unified Modeling Language (UML).",
+        "Ability to hand-code all components.",
+        "Experience in Cross Browser development.",
+        "Active learning ability.",
+        "Demonstrate adaptability.",
+        "Strong communication skills.",
+        "Show creativity.",
+        "Good interpersonal relationship skills.",
+        "Ability to listen effectively.",
+        "Commitment to personal development.",
+        "Exhibit personal initiative.",
+        "Strong teamwork ability."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Rbc",
+    "role": "2026 Fall Student Opportunities Technology & Operations - Software Developer, 8 Months",
+    "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--8-Months_R-0000168529",
+    "location": "6 Locations",
+    "id": 621,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in a Canadian post-secondary institution with a focus on computer science, engineering, or technology",
+        "Possess leadership acumen and passion for dynamic business environments",
+        "Demonstrate excellent interpersonal and communication skills",
+        "Be a creative, analytical, self-driven thinker capable of fast-paced work",
+        "Strong MS Office skills including Word, Outlook, Excel, and PowerPoint",
+        "Experience or understanding of programming languages, databases, platforms, frameworks, design techniques, tools, code management, or web technologies",
+        "Knowledge of Software Development Life Cycle (SDLC) methods like Agile, Waterfall, and Iterative",
+        "Knowledge of Unified Modeling Language (UML)",
+        "Ability to hand-code components and cross-browser development experience"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Point72",
     "role": "Investment Analyst Intern, Point72 Academy",
     "link": "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081",
