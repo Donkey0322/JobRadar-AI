@@ -1,5 +1,84 @@
 [
   {
+    "company": "Philips",
+    "role": "MR Software Intern",
+    "link": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/MR-Software-Intern_581831",
+    "location": "Suzhou",
+    "id": 644,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Majored in software or computer science.",
+        "Fluent in written and oral English.",
+        "Able to attend internship 3-5 days for at least 3 months."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Software Engineering Intern/Co-op",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000121872182",
+    "location": "Fountain Inn, SC, United States",
+    "id": 643,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or master's degree in a relevant technical field.",
+        "Proficient in C# programming language.",
+        "Familiar with C/C++ programming language.",
+        "Strong problem-solving skills and attention to detail.",
+        "Excellent communication and collaboration abilities."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Emerson",
+    "role": "Software Engineering Intern",
+    "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26004081",
+    "location": "Austin, TX, United States",
+    "id": 642,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Gehc",
+    "role": "Internship in Software Architecture & Production IT (Bachelor/Master, 6 Months)",
+    "link": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-in-Software-Architecture---Production-IT--Bachelor-Master--6-Months-_R4037285-1",
+    "location": "Zipf",
+    "id": 641,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Enroll in a Bachelor’s or Master’s program in Computer Science or related fields.",
+        "Possess initial experience or strong interest in software architecture or industrial software.",
+        "Basic programming knowledge in at least one language.",
+        "Familiarity with SQL, databases, data analysis tools, or web development (optional).",
+        "Ability to think analytically and solve technical problems.",
+        "Strong communication skills, initiative, and willingness to learn.",
+        "Good command of English; German language skills are an advantage.",
+        "Available for a 6-month internship."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Kla",
     "role": "Software Engineering Intern",
     "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2532227",
