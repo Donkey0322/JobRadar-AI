@@ -1,5 +1,526 @@
 [
   {
+    "company": "NBCUniversal",
+    "role": "Software Engineering Internships Intern - Academic Year",
+    "link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121848194",
+    "location": "NYC",
+    "season": "2026 Fall",
+    "id": 672,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in a degree-granting program (Sep 2026 – Apr 2027)",
+        "Class standing of sophomore or above (30 credits)",
+        "Available to work 16-24 hours per week (Sep 21, 2026 – Apr 23, 2027)",
+        "Willing to work in New York, NY",
+        "Preferred class standing of junior or above",
+        "Maintain a cumulative GPA of 3.0 or above",
+        "Interested in Software Development Lifecycle (SDLC) processes",
+        "Interested in project management methodologies and operational delivery models",
+        "Familiar with Atlassian tools (Jira and Confluence)",
+        "Experienced in coding languages"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "NBCUniversal",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121851427",
+    "location": "North Hollywood, LA",
+    "season": "2026 Fall",
+    "id": 671,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in a degree-granting program",
+        "Maintain current class standing of sophomore or above",
+        "Available to work 16-24 hours per week",
+        "Willing to work in Universal City, CA",
+        "Prefer class standing of junior or above",
+        "Maintain a cumulative GPA of 3.0 or above",
+        "Possess basic programming knowledge in Core Java, TypeScript, or Python",
+        "Understand test automation concepts, frameworks, and tools",
+        "Know the Software Development Life Cycle (SDLC)",
+        "Familiar with JavaScript, TypeScript preferred",
+        "Familiar with Git and CI/CD concepts",
+        "Familiar with web services, RESTful APIs, and LLM/prompt engineering",
+        "Familiar with relational and NoSQL data sources",
+        "Familiar with AWS services"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Draper",
+    "role": "Human Systems and Visualization Intern",
+    "link": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Human-Systems-and-Visualization-Intern_JR002426",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer",
+    "id": 670,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited full-time undergraduate or graduate degree program",
+        "Familiarity with front end software development and data visualization, preferably C++ or Python",
+        "Familiarity with Matlab",
+        "Progress towards an Aerospace Engineering, Computer Science, or other relevant degree",
+        "Familiarity with AFSIM",
+        "Excellent written and oral communication skills",
+        "Excellent work ethic with ability to work independently or in a team environment",
+        "Ability to adapt to ever-changing environments, risks, and vulnerabilities",
+        "Strong computer skills including MS Word, PowerPoint, and Excel",
+        "Familiarity with creating and delivering presentations of engineering designs",
+        "Familiarity with Guidance, Navigation, control technologies, and Kalman Filters",
+        "Basic knowledge of dynamics and linear algebra"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "W.R. Berkley",
+    "role": "Engineering Intern",
+    "link": "https://careers-berkley.icims.com/jobs/13894/job?mobile=true&needsRedirect=false",
+    "location": "Mt Laurel Township, NJ",
+    "season": "2026 Summer",
+    "id": 669,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Engineering, MIS, Business, or related field.",
+        "Demonstrate interest and skill in software engineering, web development, or automation.",
+        "Strong analytical skills.",
+        "Creative problem-solving ability.",
+        "Able to learn new skills quickly.",
+        "Be a team player.",
+        "Preferred: C# and object-oriented programming experience.",
+        "Preferred: HTML, CSS, JavaScript experience.",
+        "Preferred: SQL experience.",
+        "Preferred: Knowledge of Agile Methodology or Scrum."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veeva Systems",
+    "role": "Software Engineer in Test Intern",
+    "link": "https://jobs.lever.co/veeva/02b4428c-240e-456a-80d2-59ef8e6a013c/apply",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 668,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Canada",
+      "qualifications": [
+        "Maintain a GPA of 3.0 or higher",
+        "Enrolled in an undergraduate or master's program",
+        "Willing to work on-site in Toronto 4 days/week",
+        "Willing to relocate to Toronto",
+        "Proficient in multiple programming languages (e.g., Java, Python, C++)",
+        "Submit a recent academic transcript",
+        "Submit a cover letter for non-traditional applicants"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Uber",
+    "role": "PhD Software Engineer Intern - Search 🎓",
+    "link": "https://university-uber.icims.com/jobs/158579/job?mobile=true&needsRedirect=false",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 667,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in a Ph.D. program studying distributed systems, machine learning, or related engineering.",
+        "Have at least one semester/quarter of education left after internship.",
+        "Possess knowledge of technical foundations in distributed systems and machine learning workflows.",
+        "Gain experience in one or more object-oriented languages (C++, Java, Python, Go).",
+        "Communicate effectively with technical and business partners.",
+        "Simplify business problems into technical problems.",
+        "Exhibit a research mentality with a bias towards action.",
+        "Present at industry-recognized academic conferences and have a good publishing record.",
+        "Handle multimodal data in an industry setting."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Application Development Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Application-Development----Summer-Intern_R-10390245",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 666,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess 0-2 years of professional experience in application development, software engineering, or related technical environment.",
+        "Develop or test code using C++, Python, Java, or similar object-oriented programming languages.",
+        "Work with relational database management systems to query, update, or validate application data.",
+        "Use Microsoft Excel and PowerPoint for technical analysis, reporting, or presentations.",
+        "Currently pursue a Bachelor's degree in Computer Science, Data Science, MIS, Cybersecurity, Technical Project Management, or related field.",
+        "Use Atlassian tools like JIRA, Confluence, or Bitbucket for project tracking and version control.",
+        "Participate in team-based development projects with changing priorities and deadlines.",
+        "Maintain a 3.0+ cumulative grade point average.",
+        "Possess military-affiliated experience (Veterans, Military Spouses, Guard/Reservists)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Application Development- Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Application-Development--Summer-Intern_R-10390264",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 665,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue a bachelor's degree in Computer Science or related fields.",
+        "Maintain a 3.0+ GPA.",
+        "Possess unrestricted U.S. work authorization without future sponsorship.",
+        "Have 0-2 years of professional work experience.",
+        "Possess knowledge of AI tools and platforms.",
+        "Know .NET, Java, Spring boot, MySQL.",
+        "Be familiar with Atlassian tools such as JIRA, Confluence, and Bitbucket.",
+        "Have advanced knowledge of Excel and PowerPoint.",
+        "Possess experience working in a fast-paced environment.",
+        "Demonstrate flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Blue Cross and Blue Shield of Kansas",
+    "role": "Application Development Intern",
+    "link": "https://bcbsks.wd1.myworkdayjobs.com/External/job/Topeka/Application-Development-Intern_R2026162",
+    "location": "Topeka, KS",
+    "season": "2026 Summer",
+    "id": 664,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess a proactive and adaptable startup mindset",
+        "Demonstrate strong ownership and accountability",
+        "Experience with SDLC, application development, .NET, Python, C#, Mainframe, or database analysis",
+        "Ability to work with minimal supervision",
+        "Have practical understanding of AI concepts and applications",
+        "Familiarity with Azure, AWS, or GCP cloud platforms",
+        "Demonstrate creativity and innovation",
+        "Possess strong critical thinking and problem-solving skills",
+        "Exhibit emerging leadership capabilities",
+        "Have excellent verbal and written communication skills",
+        "Possess working knowledge of MS Office and IT fundamentals",
+        "Currently enrolled in a bachelor's degree program with junior status",
+        "Prefer a cumulative GPA of 3.0 or above",
+        "Authorized to work in the U.S. without company sponsorship",
+        "Have strong analytical and interpersonal skills",
+        "Display maturity and professionalism",
+        "Demonstrate responsibility, pride in work, flexibility, and dependability"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Arcadis",
+    "role": "Developer Intern - Portfolio Insights",
+    "link": "https://ebcs.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39922",
+    "location": "Houston, TX",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Uber",
+    "role": "PhD Software Engineer Intern 🎓",
+    "link": "https://www.uber.com/global/en/careers/list/158579/",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Summer",
+    "id": 663,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Ph.D. program in distributed systems, machine learning, or related engineering.",
+        "Have at least one semester/quarter of education remaining after the internship.",
+        "Possess knowledge of technical foundations in distributed systems and machine learning workflows.",
+        "Experienced in one or more object-oriented languages, including C++, Java, Python, or Go.",
+        "Able to communicate effectively with technical and business partners.",
+        "Experienced in simplifying business problems into technical problems.",
+        "Demonstrate a research mentality with a bias for action to structure projects.",
+        "Experienced in presenting at academic conferences and possessing a good publishing record.",
+        "Experienced with handling multimodal data in the industry."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "First American",
+    "role": "AI Undergraduate Intern",
+    "link": "https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Undergraduate-Internship_R056023",
+    "location": "Orange, CA",
+    "season": "2026 Summer",
+    "id": 662,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Business, Computer Science, Data Science, or related field",
+        "Strong interest in artificial intelligence, product management, and business strategy",
+        "Excellent written and verbal communication skills",
+        "Manage multiple projects and work collaboratively across teams",
+        "Possess an analytical mindset with attention to detail and problem-solving skills",
+        "Familiar with AI tools, such as GPT-based platforms",
+        "Willing to learn about Mortgage, Real Estate, Financial, or Title Insurance industries",
+        "Able to solve problems, be detailed oriented, and conscientious",
+        "Concerned for the customer and represent the company professionally",
+        "Potential to excel in Communication, Customer Focus, Ethics & Integrity, Teamwork, Adaptability, Productivity, and Initiative",
+        "Outstanding interpersonal skills"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Development Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Chantilly-VA/Software-Development-Intern_R-00181305",
+    "location": "Chantilly, VAReston, VA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Vendelux",
+    "role": "Product Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/vendelux/58bd403e-6ad2-4f85-8d0f-db9ee33f068a/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 661,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Familiar with at least one object-oriented programming language",
+        "Willing to work across a codebase and learn",
+        "Strong communication skills",
+        "Detail-oriented with a sense of ownership",
+        "Curious about how products are built and shipped",
+        "Experienced with third-party integrations or APIs",
+        "Familiar with TypeScript/JavaScript or Python",
+        "Possess a customer service mindset",
+        "Experienced with modern cloud infrastructure (AWS, GCP)",
+        "Comfortable with AI-assisted development tools"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Mark43",
+    "role": "Mobile Engineer Intern",
+    "link": "https://mark43.com/list-job/7819132?gh_jid=7819132",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 660,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience developing Android applications using Kotlin.",
+        "Demonstrate mobile development skills through projects.",
+        "Familiarity with core internet technologies (REST, JSON, HTTP).",
+        "Basic understanding of mobile architecture and application lifecycle.",
+        "Strong foundation in computer science fundamentals.",
+        "Humble, open, and curious, with a willingness to learn.",
+        "Strong sense of ownership and accountability.",
+        "Collaborative mindset and enthusiasm for mission-driven software."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "PathAI",
+    "role": "Machine Learning Intern, AI Product and ML Core",
+    "link": "https://www.pathai.com/career/job-post?gh_jid=8202342002",
+    "location": "Boston, MA</br>New York, NY</br>Remote",
+    "id": 659,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue M.S. or Ph.D. in Computer Science, Electrical Engineering, or Biomedical Engineering with a focus on Computer Vision and Machine Learning.",
+        "Strong programming skills in Python.",
+        "Hands-on experience with ML frameworks (e.g., PyTorch, TensorFlow).",
+        "Solid grasp of machine learning and/or computer vision fundamentals.",
+        "Excellent communication skills.",
+        "Desire to work in a highly collaborative, cross-functional environment.",
+        "Passionate about improving patient outcomes.",
+        "High impact contributions through AI/ML publications, open-source projects, or AI based products."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Pinterest",
+    "role": "Machine Learning Intern, PhD",
+    "link": "https://www.pinterestcareers.com/jobs/7255640/phd-fall-machine-learning-intern-atg-visual-multimodal-and-recommender-systems/?jr_id=69e683219b6eb37e26f80c4f&gh_jid=7255640",
+    "location": "<details><summary>**4 locations**</summary>San Francisco, CA</br>Palo Alto, CA</br>Seattle, WA</br>New York, NY</details>"
+  },
+  {
+    "company": "Tesla",
+    "role": "Software Engineer Intern, Vehicle Engineering",
+    "link": "https://www.tesla.com/careers/search/job/267767?jr_id=69dd6930bc6f6622c9912106",
+    "location": "Palo Alto, CA</br>Fremont, CA"
+  },
+  {
+    "company": "TikTok",
+    "role": "Software Engineer Intern, Recommendation Infrastructure",
+    "link": "https://lifeattiktok.com/referral/tiktok/campus/position/7537493362585979154/detail?token=MzsxNzU3OTM3MTgyMDE1OzczNzM0OTcwMTcxNzQxMzIyNDA7MDsy",
+    "location": "Seattle, WA",
+    "id": 658,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "ABC News",
+    "role": "Product Management and Engineering Intern",
+    "link": "https://jobs.disneycareers.com/job/new-york/abc-news-product-management-and-engineering-intern-summer-fall-2026/391/93958488896",
+    "location": "New York, NY",
+    "id": 657,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Familiar with video/television production and its workflows.",
+        "Experienced in multi-tasking and prioritizing multiple projects in collaborative environments.",
+        "Proficient in Microsoft Office (Outlook, Excel, Word, PowerPoint).",
+        "Have previous academic, extracurricular, internship, or professional experience in video or television production.",
+        "Possess academic or work experience in technology, IT processes, troubleshooting, or problem-solving.",
+        "Familiar with a wide range of broadcast technologies.",
+        "Familiar with system administration, software development lifecycle, technical writing, or media platforms.",
+        "Hold a major or previous coursework in Broadcast Journalism, Communications, Video Production, Engineering, Information Technology (IT), or a related field.",
+        "Be in junior or senior year of study (preferred).",
+        "Enrolled in an accredited college/university pursuing a degree or currently participating in a Disney College Program or Disney Internship.",
+        "Be at least 18 years of age.",
+        "Possess unrestricted work authorization.",
+        "Not completed one year of continual employment on a Disney internship or Disney College Program.",
+        "Able to maintain a consistent, reliable work schedule throughout the internship.",
+        "Available to work 40 hours per week during a Monday through Friday schedule, 9am – 5pm ET.",
+        "Able to provide own housing for the duration of the internship program in the New York, New York area.",
+        "Able to provide reliable transportation to/from work."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Avanade",
+    "role": "Software Engineering Intern",
+    "link": "https://accenture.wd103.myworkdayjobs.com/en-GB/AvanadeCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/Intern--Software-Engineering---June-2026_R00319370?jr_id=69e6a556f8fa2f3ec32a3173",
+    "location": "Los Angeles, CA</br>Seattle, WA",
+    "id": 656,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete a bachelor's degree in computer science, computer engineering, or a related field by 2026",
+        "Possess coursework or academic projects in software development, cloud computing, or web services",
+        "Familiar with at least one programming language like C#, .NET, or Java",
+        "Exposed to RESTful APIs or backend services",
+        "Exposed to cloud platforms, especially Microsoft Azure",
+        "Exposed to databases such as SQL Server or Azure SQL",
+        "Exposed to AI development tools",
+        "Curious about modern technologies including cloud, data, AI, and microservices",
+        "Strong communication, collaboration, and interpersonal skills",
+        "Able to work in fast-paced environments, manage ambiguity, and seek feedback",
+        "Interested in a future full-time career in technology consulting",
+        "Enjoy working collaboratively, bringing energy and curiosity",
+        "Take ownership of tasks and follow through on commitments",
+        "Comfortable learning in ambiguous environments and adapting quickly",
+        "Passionate about technology and its business value",
+        "Excited about modern software development, including AI in the Software Development Lifecycle (SDLC)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intercontinental Exchange, Inc.",
+    "role": "Artificial Intelligence, Data & Machine Learning Intern",
+    "link": "https://careers.ice.com/jobs/12830?lang=en-us&iis=LinkedIn&iisn=Linkedin&mode=apply&jr_id=69e67bb27820c036924d0af9",
+    "location": "New York, NY",
+    "id": 655,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a degree program at an accredited university",
+        "Advancing to junior year of study",
+        "Strong proficiency in Python",
+        "Experience with Large Language Models (LLMs)",
+        "Solid background in Machine Learning and Data Science",
+        "Experience with model development, statistical analysis, and data-driven decision-making",
+        "Demonstrate strong written and oral communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Skyworks",
+    "role": "Analog IC Design Co-op",
+    "link": "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100",
+    "location": "Irvine, CA",
+    "id": 654,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an Electrical Engineering or related BS, MS, or PhD program",
+        "Commit to work onsite for 6 months (June/July to December 2026)",
+        "Possess strong desire to learn, grow, and make an impact",
+        "Demonstrate strong career interest in analog circuit design",
+        "Willing to share knowledge and collaborate with others",
+        "Proficient with Microsoft Word, Excel, PowerPoint, and Outlook",
+        "Experience with Cadence Virtuoso and SPICE (highly preferred)",
+        "Exposure to lab tools like Oscilloscope, Function Generator, Multimeter"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Lighting",
     "role": "Advanced Development Software Intern , Cooper Lighting Solutions (Summer 2026)",
     "link": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Advanced-Development-Software-Intern---Cooper-Lighting-Solutions--Summer-2026-_363846",
