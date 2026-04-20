@@ -1,5 +1,56 @@
 [
   {
+    "company": "Kla",
+    "role": "Software Engineering Intern",
+    "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2532227",
+    "location": "Milpitas, CA",
+    "id": 640,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in C# and C++",
+        "Strong understanding of Object-Oriented Design/Programming",
+        "Familiar with multithreading concepts",
+        "Experience with WPF GUI design",
+        "Knowledge of image processing and pattern matching",
+        "Background in OpenCV",
+        "Experience with Microsoft Visual Studio 2022",
+        "Familiar with Git/GitHub for source control",
+        "Knowledge of Python",
+        "Experience with robotics",
+        "Familiar with SQL or MongoDB",
+        "Currently pursuing a Master's Level Degree in Computer Science or Software Engineering",
+        "Within 1 year of graduation"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Baxter",
+    "role": "Associate Software Engineer Co-op",
+    "link": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-Software-Engineer-Co-op_JR-200487-1",
+    "location": "Skaneateles, NY",
+    "id": 639,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s Degree in Electrical, Software Engineering, Biomedical, or a comparable technical field.",
+        "Possess strong interpersonal skills for cross-functional collaboration.",
+        "Be a strategic problem solver with excellent attention to detail.",
+        "Demonstrate organizational skills and manage multiple tasks in parallel.",
+        "Show adaptability, openness to change, and continuous improvement.",
+        "Proficient in writing code/scripts, preferably in Python, Java, or C#."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Volarisgroup",
     "role": "Software Engineer Intern",
     "link": "https://volarisgroup.wd3.myworkdayjobs.com/assetworks/job/United-States---Wayne-PA/Software-Engineer-Intern_R66512",
