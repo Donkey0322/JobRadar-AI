@@ -18,7 +18,7 @@ export function parseGreenhouse(url: string) {
   }
 
   // case 2: custom domain with gh_jid (e.g. jumptrading)
-  if (jobIdFromQuery) {
+  if (jobIdFromQuery && !u.hostname.includes("greenhouse.io")) {
     const hostname = u.hostname;
     const company = hostname.replace(/^www\./, "").split(".")[0];
 
