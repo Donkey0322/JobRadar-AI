@@ -1,5 +1,80 @@
 [
   {
+    "company": "ICF International",
+    "role": "Intern - AI Engineering",
+    "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2601362",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 701,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Complete a minimum of 30 college credit hours toward a bachelor's degree in computer science or relevant discipline",
+        "Be a US citizen or lawful permanent resident",
+        "Demonstrate interest or experience in using AI coding assistants for software development tasks",
+        "Familiarity with at least one programming language (e.g., Python, JavaScript, Java)",
+        "Familiarity with GenAI/LLM tooling (e.g., prompt frameworks, vector databases, LLM APIs)",
+        "Experience with version control systems (e.g., Git)",
+        "Exposure to cloud platforms (e.g., AWS, Azure, Google Cloud)",
+        "Possess strong analytical and problem-solving skills, with interest in data and systems thinking",
+        "Excellent communication skills and ability to work collaboratively in a team environment",
+        "Enthusiasm for learning new technologies and applying them to real-world challenges"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veolia",
+    "role": "Drupal Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000122126237",
+    "location": "Paramus, NJ",
+    "season": "2026 Summer",
+    "id": 700,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Required High School Diploma/GED",
+        "Currently enrolled or recently graduated from a program in Computer Science, Web Development, or a related field",
+        "Experience working with APIs or integrations",
+        "Possess a basic understanding of PHP, HTML, CSS, and JavaScript",
+        "Familiarity with Drupal or strong interest in CMS-based development",
+        "Exposure to Git and version control workflows",
+        "Demonstrate good problem-solving skills and attention to detail",
+        "Eager to learn, collaborate, and grow as a developer",
+        "Familiarity with Twig, Composer, and Drush",
+        "Previous exposure to Agile development environments"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "MAG Aerospace",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-magaero.icims.com/jobs/8179/job?mobile=true&needsRedirect=false",
+    "location": "Aberdeen, MD",
+    "season": "2026 Summer",
+    "id": 699,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or a related technical field.",
+        "Possess foundational knowledge of one or more programming languages (e.g., Python, Java, C#, JavaScript).",
+        "Understand basic data structures, algorithms, and object-oriented programming concepts.",
+        "Work collaboratively, ask thoughtful questions, and proactively seek feedback.",
+        "Demonstrate strong problem-solving abilities and a willingness to learn.",
+        "Gain prior internship or project experience working on real-world software applications.",
+        "Hold a Secret Clearance."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Fortinet inc.",
     "role": "AI Intern",
     "link": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22741",
