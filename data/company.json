@@ -2687,7 +2687,8 @@
     "domain": "https://careers-magaero.icims.com",
     "page": "https://api.icims.com/v1/companies/magaero/jobs",
     "urls": [
-      "https://careers-magaero.icims.com/jobs/8098/job?mobile=true&needsRedirect=false"
+      "https://careers-magaero.icims.com/jobs/8098/job?mobile=true&needsRedirect=false",
+      "https://careers-magaero.icims.com/jobs/8179/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -6712,6 +6713,7 @@
     "page": "https://icf.wd5.myworkdayjobs.com/wday/cxs/icf/icfexternal_career_site/jobs",
     "urls": [
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2600855-1",
+      "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2601362",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Data-Scientist_R2503058",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Full-Stack-Developer--Remote-_R2503169"
     ]
@@ -12150,7 +12152,8 @@
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112264792",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000112719682",
       "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113259677",
-      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677"
+      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000113515677",
+      "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000122126237"
     ]
   },
   {
