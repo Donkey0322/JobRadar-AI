@@ -1,5 +1,154 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-gdms.icims.com/jobs/72048/job?mobile=true&needsRedirect=false",
+    "location": "San Antonio, TXScottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 706,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering, or related scientific or technical discipline.",
+        "Enrolled in a Software Engineering, Information Technology, or Computer Science program.",
+        "Interested in Software Testing, Cybersecurity, Rust, and Bash scripting within a Linux-based environment.",
+        "Strong in problem-solving, troubleshooting, and attention to detail.",
+        "Eager to apply classroom knowledge to real-world defense projects.",
+        "Willing to undergo nomination and investigation for Secret clearance.",
+        "Passionate about national security and defense missions.",
+        "Able to work well in a collaborative team environment.",
+        "Strong desire to learn and grow in a technical field.",
+        "Identify opportunities to apply AI for continuous improvement and innovation."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Information Technology",
+    "role": "Software Developer Intern",
+    "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ218741-1",
+    "location": "Annapolis Junction, MD",
+    "season": "2026 Summer",
+    "id": 705,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in C/C++",
+        "Experience collaborating",
+        "Skilled in JavaScript",
+        "Experience in Java software development",
+        "Experience in Python software development",
+        "Have 0+ years of related experience",
+        "Completed at least 2 years of a Computer Science or similar engineering degree",
+        "Demonstrated experience in software development",
+        "Proficient in programming languages such as Python, Java, C/C++, Rust, JavaScript/TypeScript",
+        "Demonstrated experience in software design best practices",
+        "Possess a passion for solving complex software engineering problems",
+        "Commit to continuous learning",
+        "Work effectively in a collaborative team environment",
+        "Interest in developing engineering soft skills",
+        "Exhibit excellent technical aptitude",
+        "Capable of learning and absorbing new information",
+        "Demonstrate reliability and accountability",
+        "Collaborate effectively with mentors and team members",
+        "Comply with all relevant policies and processes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Information Technology",
+    "role": "Software Developer Intern",
+    "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ218740-1",
+    "location": "Annapolis Junction, MD",
+    "season": "2026 Summer",
+    "id": 704,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in C/C++, JavaScript, Python, Java, Rust, or TypeScript",
+        "Experience in software development",
+        "Experience with software design/development best practices and methodologies",
+        "Possess at least 2 years of education towards a Computer Science, Computer Engineering, Cybersecurity, or similar Engineering degree",
+        "Have 0+ years of related experience",
+        "Passionate about solving complex software engineering problems",
+        "Committed to continuous learning",
+        "Able to work effectively in a collaborative team environment",
+        "Interested in developing engineering soft skills like demoing, building presentations, and public speaking",
+        "Exhibit excellent technical aptitude",
+        "Demonstrate reliability and accountability",
+        "Collaborate effectively with mentors and team members"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nutanix",
+    "role": "Software Engineering Intern - C++/Linux/Distributed Systems",
+    "link": "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 703,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Strong programming in C++/Python",
+        "Strong understanding of Linux operating systems",
+        "Familiarity with systems concepts, including multi-threading and multiprocessor architecture",
+        "Demonstrate self-motivation and a strong sense of ownership",
+        "Exhibit due diligence and independent problem-solving skills",
+        "Enrollment in a relevant Computer Science or Engineering degree program",
+        "Strong communication skills for collaboration with peers and mentors",
+        "Ability to adapt to a fast-paced, open work environment"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Newton Research",
+    "role": "Software Engineering Intern / Junior Developer - Backend + AI",
+    "link": "https://job-boards.greenhouse.io/newtonresearch/jobs/5195476008",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 702,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Solid Python fundamentals",
+        "Familiarity with web APIs (HTTP, JSON)",
+        "Comfortable with Git (branching, rebasing)",
+        "Experience with at least one database",
+        "Genuine curiosity about AI/ML",
+        "Ability to debug AI-generated code",
+        "Experience with Django or Flask",
+        "Exposure to React/TypeScript",
+        "Familiarity with Docker",
+        "Experience with vector databases or LLM frameworks",
+        "Contribute to open-source projects",
+        "Have a deployed project to demo"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "skillz",
+    "role": "Engineering Co-op",
+    "link": "http://corp.skillz.com/careers-list/?gh_jid=7813108",
+    "location": "Las Vegas, NV",
+    "season": "2026 Summer"
+  },
+  {
     "company": "ICF International",
     "role": "Intern - AI Engineering",
     "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2601362",
