@@ -7361,7 +7361,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/cartesiansystems/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201825009"
+      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201825009",
+      "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201901009"
     ]
   },
   {
