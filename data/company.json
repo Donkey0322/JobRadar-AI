@@ -1870,7 +1870,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs",
     "urls": [
       "https://boards.greenhouse.io/spacex/jobs/8149154002",
-      "https://boards.greenhouse.io/spacex/jobs/8190526002"
+      "https://boards.greenhouse.io/spacex/jobs/8190526002",
+      "https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002"
     ]
   },
   {
@@ -11850,7 +11851,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000120702643",
       "https://jobs.smartrecruiters.com/BoschGroup/744000121335917",
       "https://jobs.smartrecruiters.com/BoschGroup/744000121872182",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000121879097"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000121879097",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000122057467"
     ]
   },
   {
@@ -12801,6 +12803,7 @@
     "domain": "https://lumentum.wd5.myworkdayjobs.com/lite",
     "page": "https://lumentum.wd5.myworkdayjobs.com/wday/cxs/lumentum/lite/jobs",
     "urls": [
+      "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_2026516",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Calibration-and-Test-Software-Engineer-Co-op-Intern_20251385",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_20251390"
     ]
@@ -13494,6 +13497,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quantum-Computing-Software-Intern---Summer-2026_JR2010186-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--CUDA-Build-and-Packaging---Summer-2026_JR2012415-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Omniverse---Summer-2026_JR2007644",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Autonomous-Vehicles-and-Robotics_JR2003207",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Computer-Architecture_JR2003201-1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Deep-Learning-Computer-Architecture_JR2003202",

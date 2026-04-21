@@ -1,0 +1,174 @@
+{
+  "id": "744000122057467",
+  "name": "Software Development Intern",
+  "uuid": "8b9a58fc-6e9c-4414-a5a4-0c060170e52d",
+  "jobId": "bc90b65e-c8b1-42fa-bc44-3a65ebbd1589",
+  "jobAdId": "39eadbe7-9b20-4f53-a533-be4285266156",
+  "defaultJobAd": true,
+  "refNumber": "REF283112W",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Farmington Hills",
+    "region": "MI",
+    "country": "us",
+    "address": "Hills Tech Drive",
+    "postalCode": "48331",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "42.4902256",
+    "longitude": "-83.4231391",
+    "fullLocation": "Farmington Hills, MI, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+      "valueLabel": "Unlimited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "Farmington Hills, MI",
+      "valueLabel": "Farmington Hills, MI"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+      "valueLabel": "Direct"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "ff7c69f3-f89c-498c-9a0e-25f4dad301d4",
+      "valueLabel": "Full-time and/or part-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "452d373f-a87b-44d4-a434-d35322829142",
+      "valueLabel": "Power Solutions"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "9ceea6ff-37fa-40a0-90e7-51fcc4977094",
+      "valueLabel": "US_N"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "be4d6fc1-6a9b-46e3-8a81-d5c3c23eae66",
+      "valueLabel": "PS"
+    }
+  ],
+  "releasedDate": "2026-04-21T15:06:29.758Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000122057467-software-development-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000122057467-software-development-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/8b9a58fc-6e9c-4414-a5a4-0c060170e52d?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Are you an intern looking to build your skills with practical experience and work with customers delivering new products to new markets?&#xa0; Bosch Ridecare is seeking an intern to support our team in developing demonstrators and next generation products.&#xa0; &#xa0;Our Vision is&#xa0;“We shape the future of transportation. Every day, we make rides more comfortable, safe, and secure.”&#xa0; We decide and move fast to increase our learning speed in the market to fulfill customer needs and unlock as much value as possible from our services.</p><p>Bosch RideCare operates within the Connected Services product area of Bosch, which develops state of the art solutions as well as advanced features leading to the future of vehicle electronics.&#xa0; The Ridecare team works with international colleagues and&#xa0;focuses on innovating and developing solutions for fleet customers in many new market segments.</p><p>Apply now to become part of the exciting and growing field of mobility solutions.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Support Software and Go-To-Market teams in ensuring seamless customer experiences for the RideCare product line. This role focuses on supporting local application engineering development, Go-To-Market initiatives, customer demonstrator development, and local operating needs. It is an exciting opportunity to work in a collaborative, fast-paced environment where you'll contribute to customer satisfaction and data-driven decisions—and yes, sometimes that means rolling up your sleeves on tasks that aren't always glamorous.</p><p><strong>Responsibilities:</strong></p><ul><li>Collaborate with Go-To-Market and Engineering teams to support demonstrator development for product marketing.</li><li>Support the&#xa0;Engineering team with system evaluations, performance tracking and data collection of next generation devices</li><li>Document processes, workflows, and best practices on internal wikis and knowledge-sharing platforms to strengthen organizational learning.</li><li>Take on additional projects and operational support tasks as needed to help the team succeed.</li></ul><p>&#xa0;</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required Qualifications:</strong></p><p>&#xa0;</p><ul><li>Currently enrolled in a program for Computer Science, Data Science, Information Technology, Systems Engineering, or a related field</li><li>Minimum of two semesters completed with a cumulative GPA of 3.0 or higher</li><li>Proficiency with data analytics tools such as Excel, Power BI, or Tableau</li><li>Strong communication skills (oral and written) to collaborate effectively with global team members and customers</li><li>Self-motivated and able to work both independently and collaboratively</li></ul><p>&#xa0;</p><p><strong>Preferred Qualifications:</strong></p><p>&#xa0;</p><ul><li>Experience with scripting languages such as Python or SQL</li><li>Hands-on experience with Linux environments, including embedded systems</li><li>Familiarity with hardware development, including Single Board Computers such as Arduino and Raspberry Pi</li></ul><p>&#xa0;</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Indefinite U.S. work authorized individuals only.&#xa0; Future sponsorship for work authorization unavailable.&#xa0;</strong></p><p>Individual pay is determined based on several factors, including, but not limited to, work experience and job knowledge, complexity of the role, job location, etc.</p><p>In addition to your base salary, Bosch offers a comprehensive benefits package that includes health, dental, and vision plans; health savings accounts (HSA); flexible spending accounts; 401(K) retirement plans with an employer match; wellness programs; life insurance; short- and long-term disability insurance; paid time off; parental leave, adoption assistance; and reimbursement of education expenses.</p><p>Learn more about our full benefits offerings by visiting: www.myboschbenefits.com. Pay ranges included in the postings generally reflect base salary; certain positions may include bonus, commission, or additional benefits.</p><p><strong>Equal Opportunity Employer, including disability / veterans.&#xa0;</strong></p><p><em><strong>Please note that employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.</strong></em></p>"
+      },
+      "videos": {
+        "title": "Videos To Watch",
+        "urls": [
+          "https://youtu.be/f8qDrhPGCzE?si=__unUwlrG8JS8nAQ"
+        ]
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+  },
+  "function": {
+    "id": "business_development",
+    "label": "Business Development"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

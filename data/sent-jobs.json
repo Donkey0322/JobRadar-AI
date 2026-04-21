@@ -1,5 +1,35 @@
 [
   {
+    "company": "Bosch group",
+    "role": "Software Development Intern",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000122057467",
+    "location": "Farmington Hills, MI, United States",
+    "id": 679,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a program for Computer Science, Data Science, Information Technology, Systems Engineering, or a related field",
+        "Completed a minimum of two semesters with a cumulative GPA of 3.0 or higher",
+        "Proficient with data analytics tools such as Excel, Power BI, or Tableau",
+        "Strong oral and written communication skills",
+        "Self-motivated and able to work independently and collaboratively",
+        "Experience with scripting languages such as Python or SQL",
+        "Hands-on experience with Linux environments, including embedded systems",
+        "Familiar with hardware development, including Single Board Computers such as Arduino and Raspberry Pi"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "SpaceX",
+    "role": "Fall 2026 Software Engineering Internship/Co-op",
+    "link": "https://boards.greenhouse.io/spacex/jobs/8403219002?gh_jid=8403219002",
+    "location": "Flexible - Any SpaceX Site"
+  },
+  {
     "company": "NVIDIA",
     "role": "Software Engineering Intern - Robot Learning Platform 🎓",
     "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
