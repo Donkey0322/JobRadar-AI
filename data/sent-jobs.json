@@ -1,5 +1,38 @@
 [
   {
+    "company": "Cartesian Systems",
+    "role": "Mobile Engineering Intern (Summer/Fall 2026)",
+    "link": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201901009",
+    "location": "Cambridge, MA",
+    "id": 682,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Ship dashboards, APIs, and tools",
+        "Build efficient data pipelines",
+        "Train, deploy, and monitor ML models",
+        "Design mobile (Android) SDKs",
+        "Scale Kubernetes-based infrastructure on Azure",
+        "Fuse RFID and computer vision data",
+        "Write clean, effective code",
+        "Default to simple, maintainable solutions",
+        "Take problems end-to-end",
+        "Fix issues pragmatically",
+        "Tackle unfamiliar problems across the stack",
+        "Pick up new tools and skills quickly",
+        "Actively seek feedback",
+        "Take initiative to expand impact",
+        "Focus decisions on team success",
+        "Be a good listener, collaborator, and communicator",
+        "Maintain low ego, high standards"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Zoll",
     "role": "Software Engineering Intern/Co-op, Predictive Algorithms",
     "link": "https://zoll.wd5.myworkdayjobs.com/zollmedicalcorp/job/Pittsburgh-PA/Software-Engineering-Intern-Co-op--Predictive-Algorithms_R18332",
