@@ -1,5 +1,52 @@
 [
   {
+    "company": "Western Alliance",
+    "role": "Intern - Computer Science Majors",
+    "link": "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Dallas-TX/Summer-2026-Internship---Computer-Science-Majors_R12241",
+    "location": "Dallas, TXPhoenix, AZIrving, TX",
+    "season": "2026 Summer",
+    "id": 674,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in computer science or related field",
+        "Possess strong analytical and problem-solving skills",
+        "Be familiar with programming languages, standards, and cloud platforms",
+        "Demonstrate excellent communication and teamwork abilities",
+        "Have an interest in financial services and enterprise technology"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Togetherwork",
+    "role": "AI Engineering Intern",
+    "link": "https://togetherwork.com/application/?gh_jid=8515267002",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 673,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled at UT Austin as a junior/senior or graduate student in a relevant field",
+        "Hands-on experience with Claude (Anthropic) enterprise features",
+        "Understand prompt engineering best practices for business process improvement",
+        "Familiarity with Python for scripting, API integrations, or data manipulation",
+        "Student in the Machine Learning and AI Concentration program",
+        "Familiarity with Zendesk or PM tools",
+        "Experience using Anthropic Claude API or OpenAI API for custom integrations",
+        "Exposure to workflow automation platforms like Zapier or Power Automate",
+        "Familiarity with REST APIs, webhooks, or data pipeline concepts",
+        "Experience with no-code/low-code platforms"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "NBCUniversal",
     "role": "Software Engineering Internships Intern - Academic Year",
     "link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000121848194",
