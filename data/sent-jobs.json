@@ -1,5 +1,60 @@
 [
   {
+    "company": "Zoll",
+    "role": "Software Engineering Intern/Co-op, Predictive Algorithms",
+    "link": "https://zoll.wd5.myworkdayjobs.com/zollmedicalcorp/job/Pittsburgh-PA/Software-Engineering-Intern-Co-op--Predictive-Algorithms_R18332",
+    "location": "Pittsburgh, PA",
+    "id": 681,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled in a related engineering field",
+        "Possess a High School Diploma and active enrollment in a co-operative education program of an accredited university",
+        "Understand software development methodologies and possess basic programming skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Pae",
+    "role": "Intern - Software Systems Engineer",
+    "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Intern---Software-Systems-Engineer_R0159674",
+    "location": "US-AL-Huntsville",
+    "id": 680,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor of Science degree in Engineering or related STEM",
+        "Completed sophomore year of degree program",
+        "Able to provide own transportation",
+        "Maintain a minimum of 3.0 out of 4.0 overall GPA",
+        "Strong problem-solving skills",
+        "Pragmatic application of design theory and analytical skills",
+        "Ability to work and thrive in a team environment",
+        "Strong written and verbal communication skills",
+        "Ability to read basic design schematics and diagrams",
+        "Proficient with MS Office applications (Excel, PowerPoint, Word)",
+        "Understand Data Collection and Preparation",
+        "Understand Data Analysis and Interpretation",
+        "Understand Reporting",
+        "Understand Data Management",
+        "Collaborate closely with teams",
+        "Understand Software Development and Testing practices",
+        "Knowledge of SharePoint, JIRA, DOORS or DOORS Next Gen (DNG)",
+        "Understand Git version control and repository management",
+        "Understand engineering documentation development and review cycles",
+        "Understand flight operations, mission control, or ground support (plus)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Bosch group",
     "role": "Software Development Intern",
     "link": "https://jobs.smartrecruiters.com/BoschGroup/744000122057467",
