@@ -1,5 +1,54 @@
 [
   {
+    "company": "NVIDIA",
+    "role": "Software Engineering Intern - Robot Learning Platform 🎓",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
+    "location": "CaliforniaSanta Clara, CAUnited States",
+    "season": "2026 Fall",
+    "id": 678,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing an MS or PhD degree in Computer Science, Mechanical Engineering, or Robotics",
+        "Experienced in software development with Python and deep-learning software (Pytorch, Tensorflow, Jax)",
+        "Experienced with robotics and simulation workflows, including reinforcement and imitation learning in physics-based simulators",
+        "Experienced training robots in simulation and deploying policies sim-to-real",
+        "Published in major AI and robotics conferences"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Lumentum",
+    "role": "Process Software Automation Co-op/Intern",
+    "link": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_2026516",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer",
+    "id": 677,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Develop hardware drivers using C#",
+        "Develop cloud-based data management solutions using Python and Cloud Platforms",
+        "Run manufacturing tests to characterize and validate products",
+        "Analyze test data to identify patterns and root-causes",
+        "Solve complex problems in multi-disciplinary teams",
+        "Pursue a degree in Engineering, Engineering Physics, or equivalent",
+        "Excellent verbal and written communication skills",
+        "Desire to succeed and do things right",
+        "Ability to master new skills and apply new tools",
+        "Experienced in algorithms, data structures, and OOP",
+        "Experienced with any source-control system like Git or SVN",
+        "Experienced with any cloud provider like AWS, GCP, or Azure"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Viavisolutions",
     "role": "Software Development Intern",
     "link": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Germantown-MD-USA/Software-Development-Intern_260004594-1",

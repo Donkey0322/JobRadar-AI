@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "ad2dc7df1dc11000df1353edadd70000",
+    "title": "Software Engineering Intern, Robot Learning Platform - Fall 2026",
+    "jobDescription": "<p>Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work.</p><p></p><p>Isaac Lab is NVIDIA’s flagship product for robotic learning, supporting both large-scale parallelized reinforcement learning and teleoperation and imitation learning. We maintain an open-source project for Isaac Lab that has been acknowledged by the robotics community and has been used by top research labs and the industry as a core simulation tool for training robots. Our team is seeking a software engineering intern to join the Isaac Lab team and propel our flagship platform for robot learning to new heights! Our mission is to become the industry&#39;s leading tool, redefining how autonomous systems are trained and crafting the future of robotics and AI. Come join the team and see how we can make a lasting impact on the world!</p><p></p><p><b>What you&#39;ll be doing:</b></p><ul><li><p>Develop the next features for our platform, such as integration with Newton simulation, scalable perception-in-the-loop reinforcement learning and learning from demonstration via tele-operation.</p></li><li><p>Participate in open-source development of Isaac Lab, including engaging with the robotics industrial and research communities.</p></li><li><p>Scale training massively in the cloud, while ensuring the highest performance with extensive benchmarking, profiling, and optimizations.</p></li><li><p>Build and improve the robot asset pipeline, importing URDF/MJCF models, authoring new environments, and validating physical fidelity against real-world hardware.</p></li><li><p>Bridge the sim-to-real gap by working on domain randomization, system identification, and transfer techniques that move policies from simulation onto physical robots.</p></li></ul><p></p><p><b>What we need to see:</b></p><ul><li><p>Pursuing MS or PhD degree in Computer Science, Mechanical Engineering, Robotics, or similar program area.</p></li><li><p>Experience in software development with Python and the deep-learning software stack (Pytorch, Tensorflow, Jax, etc.).</p></li><li><p>Experience with robotics and simulation workflows, including reinforcement learning and imitation learning in simulators such as Isaac Lab, Isaac Gym, MuJoCo, or other physics-based simulators.</p></li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li><p>Experience training a robot in simulation and deployed the policy sim-to-real.</p></li><li><p>Publications in major AI and robotics conferences.</p></li></ul><p></p><p>NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you&#39;re creative and autonomous, we want to hear from you! </p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until April 24, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Yesterday",
+    "startDate": "2026-04-20",
+    "timeType": "Full time",
+    "jobReqId": "JR2015575",
+    "jobPostingId": "Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
+    "questionnaireId": "028095df097b1001ac9358c586600000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
