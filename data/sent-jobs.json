@@ -1,5 +1,402 @@
 [
   {
+    "company": "Thermofisher",
+    "role": "Software Intern",
+    "link": "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Pleasanton-California-USA/Software-Intern_R-01340600",
+    "location": "Pleasanton, California, USA",
+    "id": 696,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master’s or Ph.D. in Computer Science, Data Science, Machine Learning, or a related technical field.",
+        "Hands-on experience with machine learning, LLMs, transformers, and agent frameworks.",
+        "Experience building RAG pipelines using vector search and AWS data lakes.",
+        "Strong skills in Java, Spring Framework, and REST API development.",
+        "Experience with AngularJS or modern JavaScript frameworks.",
+        "Familiarity with PostgreSQL, Tomcat, Apache, or Nginx.",
+        "Working knowledge of automation testing frameworks (JUnit, Selenium).",
+        "Familiarity with GitHub Actions, CI/CD pipelines, and containerized deployments.",
+        "Familiarity with cybersecurity tools like CodeQL, SonarQube, SBOM generation, and Qualys.",
+        "Experience deploying LLMs on cloud platforms (AWS Bedrock, SageMaker, or Azure OpenAI).",
+        "Understand secure software development and vulnerability management protocols.",
+        "Familiarity with scientific or laboratory workflows."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "U.S. Public Policy and AI Innovation Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7802906?gh_jid=7802906",
+    "location": "In-Office",
+    "id": 695,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in technology, engineering, public policy, law, or a related field.",
+        "Demonstrate strong interest in Internet and technology policy, cybersecurity, privacy, and AI issues.",
+        "Possess prior experience building and deploying AI tools and applications using modern developer workflows.",
+        "Apply strong research, writing, and analytical skills to distill legislative and regulatory texts.",
+        "Exhibit a self-starter mentality, comfortable navigating ambiguity and initiating new projects.",
+        "Show willingness to learn, ask questions, and dig deep into novel issue sets with diligence.",
+        "Have strong interpersonal and communication skills to articulate complex concepts.",
+        "Be proficient in English, both written and oral.",
+        "Gain prior experience teaching AI tooling or adoption to a non-technical user base.",
+        "Acquire prior experience in government, public policy organizations, trade associations, or technology companies.",
+        "Familiarity with Cloudflare’s products, cloud computing infrastructure, and how the Internet works."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Software Engineer Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7296929?gh_jid=7296929",
+    "location": "In-Office",
+    "id": 694,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Deliver projects with autonomy and support.",
+        "Collaborate cross-functionally.",
+        "Work with a mentor for career guidance.",
+        "Build a professional network.",
+        "Present projects to the company.",
+        "Learn from executives and leadership.",
+        "Develop skills through workshops.",
+        "Contribute to the Cloudflare blog and Cloudflare.tv.",
+        "Pursue a degree in Computer Science, Engineering, Mathematics, Statistics or relevant field.",
+        "Demonstrate critical thinking and adaptability.",
+        "Exhibit curiosity, empathy, and ability to deliver.",
+        "Commit to a minimum 12-week summer internship.",
+        "Work in the Lisbon office 3-4 days a week.",
+        "Demonstrate passion for software development."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Sales Revenue AI Tools Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7770160?gh_jid=7770160",
+    "location": "In-Office",
+    "id": 693,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be curious, technically sharp, and motivated by helping others.",
+        "Write working code in Python, JavaScript, or a similar language independently.",
+        "Understand how the web works: HTTP, REST APIs, DNS, TLS.",
+        "Explain built work to technical and non-technical audiences.",
+        "Be curious and self-directed.",
+        "Experience with LLMs, AI APIs, or prompt engineering.",
+        "Used Cloudflare developer platform (Workers, R2, Pages) or similar.",
+        "Experience with data analysis or lightweight dashboarding.",
+        "Shipped projects as part of a team (university capstone, hackathon, open source, or internship).",
+        "Finishing or close to a degree in computer science, software engineering, or data science.",
+        "Commit to a minimum 12-week summer internship from May to August 2026.",
+        "Work in the Singapore office 3-5 days a week.",
+        "Leverage cutting-edge technologies like Gemini, Notebook LM, and Cloudflare Workers."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Sales Project Manager Intern (AI Innovation) (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7773799?gh_jid=7773799",
+    "location": "In-Office",
+    "id": 692,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Business, Project Management, Operations, Data Science, or a related field.",
+        "Be available for a full-time 12-week internship in Austin or San Francisco during summer.",
+        "Possess a strong interest in AI/Automation, process improvement, program management, and technology exploration.",
+        "Possess strong organizational, communication, and analytical skills.",
+        "Be a natural problem-solver, adept at process mapping and optimization."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Revenue Operations Intern - Enablement (AI Innovation) (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7761397?gh_jid=7761397",
+    "location": "In-Office",
+    "id": 691,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Business, Operations, Communications, or a related field",
+        "Possess strong organizational and communication skills",
+        "Have an interest in revenue operations, enablement, or program management",
+        "Able to work cross-functionally and manage multiple tasks",
+        "Available for a full-time 12-week internship in Austin during summer (May-Aug)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "People Team Intern - HR Operations & AI Innovation (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7708637?gh_jid=7708637",
+    "location": "In-Office",
+    "id": 690,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a Bachelor's degree or relevant HR program.",
+        "Demonstrate exceptional organization.",
+        "Possess a detailed-oriented mindset.",
+        "Exhibit AI fluency.",
+        "Experience with LLMs or automation tools.",
+        "Show data literacy.",
+        "Master spreadsheets and data visualization.",
+        "Be adaptable in fast-paced environments.",
+        "Have strong written and verbal communication skills.",
+        "Commit to a minimum 12-week summer internship.",
+        "Work in the Lisbon office 3-5 days a week.",
+        "Experience managing internal Wikis.",
+        "Familiar with HR compliance, processes, and tools.",
+        "Possess a background in Project Management or Business Operations."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "People Team Intern - HR Operations & AI Innovation (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7606240?gh_jid=7606240",
+    "location": "In-Office",
+    "id": 689,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's degree or HR program",
+        "Exceptional organizational skills",
+        "Possess a detail-oriented mindset",
+        "Familiar with AI tools and applications",
+        "Comfortable analyzing data and using spreadsheets",
+        "Adaptable to fast-paced environments",
+        "Strong written and verbal communication",
+        "Ability to commit to a 12-week summer internship",
+        "Experience managing internal Wikis",
+        "Familiar with HR compliance and processes",
+        "Background in Project Management or Business Operations",
+        "Support end-to-end project lifecycles",
+        "Manage project timelines and stakeholders",
+        "Identify and improve HR workflows with AI",
+        "Leverage AI for communications and documentation",
+        "Work on system automation and testing",
+        "Analyze people data for trends",
+        "Make data-driven recommendations to leadership",
+        "Maintain and audit internal documentation",
+        "Become a power user of proprietary tools",
+        "Help teams leverage platforms for decision-making"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "People Team Intern - HR Operations & AI Innovation (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7708660?gh_jid=7708660",
+    "location": "In-Office",
+    "id": 688,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Support end-to-end project lifecycles for People Team initiatives.",
+        "Identify manual HR workflows and leverage AI solutions.",
+        "Explore generative and agentic AI to streamline communications.",
+        "Work on system automation projects and assist with testing.",
+        "Analyze people data to identify trends.",
+        "Make recommendations to leadership based on data insights.",
+        "Maintain and audit internal documentation and knowledge base.",
+        "Become a power user and internal champion for proprietary tools.",
+        "Currently pursuing a Bachelor's degree or relevant HR program.",
+        "Exceptional organizational skills.",
+        "Possess a detailed-oriented mindset.",
+        "Familiarity with AI tools and their business applications.",
+        "Experience with LLMs or automation tools is a plus.",
+        "Comfortable analyzing data and using it to solve problems.",
+        "Master spreadsheets and data visualization.",
+        "Adaptability in a fast-paced environment.",
+        "Strong written and verbal communication skills.",
+        "Ability to commit to a minimum 12-week summer internship.",
+        "Work in the London office 3-5 days a week.",
+        "Experience managing internal Wikis.",
+        "Familiarity with HR compliance, processes, and program administration.",
+        "Background in Project Management (PMO) or Business Operations."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Marketing Project Manager Intern (AI Innovation) (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7729606?gh_jid=7729606",
+    "location": "In-Office",
+    "id": 687,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Business, Project Management, Operations, Data Science, or a related field.",
+        "Be a Business Strategy or Tech-focused student.",
+        "Possess a strong interest in AI/Automation, process improvement, program management, and technology exploration.",
+        "Strong organizational, communication, and analytical skills.",
+        "Ability to manage multiple tasks and translate ideas into structured documentation.",
+        "Be a natural problem-solver.",
+        "Enjoy mapping out processes using tools like Lucidchart or Miro."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Marketing: AI Discoverability & Optimization Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7729719?gh_jid=7729719",
+    "location": "In-Office",
+    "id": 686,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a background in a quantitative or marketing field",
+        "MBA or MS degree preferred",
+        "Possess a passion for optimization beyond descriptive analysis",
+        "Available for a full-time 12-week summer internship",
+        "Work 3-5 days a week from the Austin office",
+        "Proficient in navigating large datasets using Excel/Google Sheets, SQL, or Python",
+        "Have a foundational understanding of SEO",
+        "Strong interest in AEO and Coding Agent information retrieval",
+        "Demonstrate marketing intuition for user search behavior in AI environments",
+        "Desire to build AI-powered workflows for analysis and creative output",
+        "Experience or coursework in AEO or GEO",
+        "Experience with technical documentation or open-source contributions",
+        "Proficient with SEMRush or Adobe Analytics"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Legal Intern – Policy & Public Sector (AI & Cybersecurity Focus) (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7779151?gh_jid=7779151",
+    "location": "In-Office",
+    "id": 685,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Track and analyze emerging AI legislation and frameworks across North America.",
+        "Monitor updates to cybersecurity mandates and frameworks.",
+        "Assist in reviewing and updating public sector compliance materials.",
+        "Draft legal memos, policy briefs, and internal guidance documents.",
+        "Currently enrolled as a 1L or 2L in an ABA-accredited law school.",
+        "Strong demonstrated interest in technology law, public policy, cybersecurity, and AI.",
+        "Excellent legal research and writing skills.",
+        "Possess a self-starter mentality and comfort with ambiguity.",
+        "Ability to commit to a minimum 12-week summer internship.",
+        "Ability to work in the Washington D.C. office 3-5 days a week.",
+        "Prior experience in government, public policy, or technology.",
+        "Familiarity with Cloudflare products and cloud computing.",
+        "Coursework or certifications in data privacy, cybersecurity, or national security law."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Data Engineer Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7374706?gh_jid=7374706",
+    "location": "In-Office",
+    "id": 684,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Work through data solution lifecycle stages.",
+        "Possess knowledge of modern enterprise data architectures.",
+        "Identify key metrics and build executive dashboards.",
+        "Perform analysis and communicate findings for data-driven decisions.",
+        "Collaborate closely with various business teams.",
+        "Currently enrolled in M.S. in Computer Science, Engineering, or STEM.",
+        "Experienced with Go, Python, SQL, Java, or equivalent.",
+        "Experienced with distributed systems (e.g., Spark).",
+        "Hands-on experience in data pipelines/frameworks development.",
+        "Ability to learn new skills and technologies quickly.",
+        "Excellent communication and problem-solving skills.",
+        "Ability to commit to a 12-week summer internship.",
+        "Familiar with container-based deployments like Docker and Kubernetes.",
+        "Experienced with JavaScript, Typescript, and React."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Data Analytics Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7668989?gh_jid=7668989",
+    "location": "In-Office",
+    "id": 683,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's in a quantitative field.",
+        "Possess strong analytical and problem-solving skills.",
+        "Experience with SQL and data analysis tools.",
+        "Communicate insights clearly to diverse audiences.",
+        "Curiosity about product analytics and data-driven decisions.",
+        "Experience with data visualization tools.",
+        "Familiarity with experimentation and A/B testing.",
+        "Exposure to cloud data warehouses.",
+        "Interest in Internet infrastructure or security."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Cartesian Systems",
     "role": "Mobile Engineering Intern (Summer/Fall 2026)",
     "link": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4201901009",
