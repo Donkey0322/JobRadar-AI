@@ -1,5 +1,32 @@
 [
   {
+    "company": "Abb",
+    "role": "Intern software engineer / mathematics",
+    "link": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Utrecht-Utrecht-Netherlands/Intern-software-engineer---mathematics_JR00030746",
+    "location": "2 Locations",
+    "id": 709,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Be a WO (University) student in Computer Science or a closely related field.",
+        "Possess a solid understanding of search algorithms and algorithmic problem solving.",
+        "Have strong software development skills.",
+        "Experience with .NET and/or AWS cloud environments.",
+        "Able to work independently and accurately.",
+        "Have a good command of English, both spoken and written.",
+        "Research and experiment with state-of-the-art search and optimization algorithms.",
+        "Analyze existing routing algorithms and identify performance improvements.",
+        "Explore new algorithmic approaches or advanced routing features.",
+        "Work with real-world datasets and maritime domain knowledge.",
+        "Translate research outcomes into practical software solutions and prototypes."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Atomicsemi",
     "role": "Infrastructure Software Engineering Intern - Fall",
     "link": "https://jobs.ashbyhq.com/atomicsemi/867c67f7-20b5-4726-b9da-85a760d3851e",
