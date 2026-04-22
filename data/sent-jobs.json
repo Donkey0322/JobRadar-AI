@@ -1,5 +1,81 @@
 [
   {
+    "company": "Moog",
+    "role": "Intern, Software Engineering",
+    "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17369",
+    "location": "Buffalo, NY",
+    "id": 726,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's Degree program in Computer Engineering, Computer Science, Electrical Engineering, or related field.",
+        "Maintain a GPA of at least 3.0.",
+        "Able to relocate for the internship duration.",
+        "Possess a professional disposition.",
+        "Demonstrate effective communication skills.",
+        "Exhibit a strong desire to learn.",
+        "Maintain a positive attitude.",
+        "Able to work effectively in a team environment."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Caci",
+    "role": "Software/Network Engineering Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-NJ-Florham-Park/Software-Network-Engineering-Intern---Summer-2026_318063",
+    "location": "US NJ Florham Park",
+    "id": 725,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a graduating high school senior or pursuing a degree in Computer Science, Software Engineering, Computer Networking, or related field.",
+        "Familiar with software engineering process concepts.",
+        "Familiar with Windows, Linux, or Unix development.",
+        "Possess software development skills in JavaScript, Python, C/C++, or comparable.",
+        "Use development tools like editors, compilers, and debuggers.",
+        "Know IP networking or telecommunications equipment installation, configuration, and maintenance.",
+        "Experience debugging system-level issues with lab equipment.",
+        "Willing and able to quickly learn new technologies.",
+        "Possess strong oral and written communication skills.",
+        "Achieve a minimum GPA of 3.0 or higher.",
+        "Have previous internship, co-op, or work experience.",
+        "Participate in professional, community, or extracurricular activities."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Assetmark",
+    "role": "Software Engineering Intern",
+    "link": "https://assetmark.wd5.myworkdayjobs.com/assetmark_careers/job/Austin-TX/Software-Engineering-Intern_Req-003804",
+    "location": "Austin, TX",
+    "id": 724,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS or MS degree in computer science or related field",
+        "Be at least an academic junior or senior",
+        "Possess strong programming skills in Java, Python, C#, or JavaScript",
+        "Familiarity with software development methodologies and tools",
+        "Exhibit excellent problem-solving and analytical skills",
+        "Possess strong communication and interpersonal skills",
+        "Ability to work independently and collaboratively",
+        "Passion for learning and current technologies"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Schonfeld ",
     "role": "2026 Campus Recruiting and AI Innovation Sophomore Summer Internship",
     "link": "https://job-boards.greenhouse.io/schonfeld/jobs/7609105",
