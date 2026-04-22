@@ -1,0 +1,75 @@
+{
+  "absolute_url": "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4452179101,
+  "location": {
+    "name": "Education fields required"
+  },
+  "metadata": [
+    {
+      "id": 8643446101,
+      "name": "Full-time/ Part-time",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643447101,
+      "name": "Expected travel amount",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643448101,
+      "name": "Education level",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643464101,
+      "name": "Experience level",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643480101,
+      "name": "Field of interest",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4830113101,
+  "updated_at": "2026-04-22T15:54:34-04:00",
+  "requisition_id": "12095",
+  "title": "Software Engineering Intern (Spring 2027)",
+  "company_name": "ASM",
+  "first_published": "2026-04-22T15:54:34-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Step into a career with ASM, where cutting edge technology meets collaborative culture. &lt;/strong&gt;​&lt;/p&gt;\n&lt;p&gt;For over 55 years ASM has been ahead of what’s next, at the forefront of innovation and what’s technologically possible. With more than 4,500 ASMers representing 70 nationalities, our people and our advanced semiconductor devices are playing a crucial role in trends such as 5G, cloud computing, AI, and autonomous driving. But&amp;nbsp;we’re more than just a tech company. We value diversity, inclusion and sustainability as we strive to make a positive impact on the world.&amp;nbsp; Our development programs help support your growth, shaping your future and pushing the boundaries of innovation to unleash potential.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Step into a career with ASM, where&amp;nbsp;cutting edge&amp;nbsp;technology meets collaborative culture. At ASM, we are: &amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;An industry pioneer in innovation and advanced technology, leading&amp;nbsp;what&#39;s&amp;nbsp;next in semiconductor development &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A global team of 4,500+ professionals from 70+ nationalities across 16 locations worldwide &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Have a portfolio of 2,900+ patents with breakthrough developments in ALD and epitaxy semiconductor deposition &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Develop technology powering critical advances in 5G, cloud computing, AI, autonomous driving, medical devices, and green energy &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;The first semiconductor company with approved Net Zero targets,&amp;nbsp;demonstrating&amp;nbsp;leadership in sustainability &amp;nbsp;&lt;br&gt; &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt; &lt;strong&gt;About the Internship&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Our&amp;nbsp;Spring&amp;nbsp;internship provides&amp;nbsp;a hands-on experience in the fast-paced and exciting semiconductor industry. Our interns will work alongside industry projects and gain valuable insights into our core engineering roles. This program is designed to grow and shape the industry leaders of tomorrow, offering a chance to learn, develop and build the skills needed for a successful career in the semiconductor field. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What to expect&lt;/strong&gt; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This position is a paid internship that is expected to start &lt;strong&gt;January/February 2027&amp;nbsp;&lt;/strong&gt;and continue through&amp;nbsp;&lt;strong&gt;April/May 2027&lt;/strong&gt;. The duration will be 12 weeks, full time and on-site. Our internship program is for students who are actively enrolled in a full-time academic program. Recent graduates seeking employment after graduation and not returning to school should apply for our Early Career opportunities. &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;International Students:&amp;nbsp;&lt;/strong&gt;Please consult with your school&#39;s international office&amp;nbsp;prior to your application&amp;nbsp;on your ability to&amp;nbsp;pursue this internship opportunity.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;h3&gt;What You’ll Do&lt;/h3&gt;\n&lt;p&gt;As a &lt;strong&gt;Software Engineering&lt;/strong&gt; intern at ASM, you’ll have the opportunity to collaborate with some of the brightest engineers and teams across the globe. Some of the potential projects you’ll have exposure to and the opportunity to work with include:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to the Config Automation Project, improving how tool and platform configurations are generated, validated, and managed through automated workflows.&lt;/li&gt;\n&lt;li&gt;Develop and extend configuration options used by the automation system (e.g., tool, platform, or feature-specific parameters).&lt;/li&gt;\n&lt;li&gt;Support backend services and APIs responsible for creating, updating, and validating configuration packages.&lt;/li&gt;\n&lt;li&gt;Contribute to utilities such as configuration validators or comparators to detect conflicts and differences between configurations.&lt;/li&gt;\n&lt;li&gt;Improve developer workflows and CI/CD processes related to building and testing configurations.&lt;/li&gt;\n&lt;li&gt;Write clear documentation and basic test coverage to ensure changes are maintainable and understandable by the broader team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;h3&gt;What You’ll Bring&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a&lt;strong&gt; &lt;/strong&gt;Bachelor’s or Master’s degree in Computer Science, Software Engineering, Computer Engineering, or a related technical field.&lt;/li&gt;\n&lt;li&gt;Junior, Senior, or Graduate student preferred.&lt;/li&gt;\n&lt;li&gt;Prior coursework or internship experience in software development, systems programming, or backend development is a plus.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt; &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As an intern, you will gain hands-on experience by working on industry-related projects, providing you with valuable exposure to real-world processes and the opportunity to apply your skills in a professional setting. &amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Learn from the Best&lt;/strong&gt;: Get the chance to work alongside world-class engineers and industry leaders who are shaping the future of technology—your personal dream team of innovators! &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Step into the Future&lt;/strong&gt;: Dive into one of the fastest-growing industries on the planet. From AI to 5G,&amp;nbsp;you&#39;ll&amp;nbsp;be right at the heart of the tech revolution. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Hands-On with Cutting-Edge Tech&lt;/strong&gt;: Experience the latest and greatest in semiconductor design, testing, and fabrication.&amp;nbsp;You’ll&amp;nbsp;be working with the coolest tools and gadgets out there. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Network Like a Pro&lt;/strong&gt;: Meet and connect with brilliant minds from all over the&amp;nbsp;world, and&amp;nbsp;make friendships that could open doors to amazing future career opportunities. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Make a Real Impact&lt;/strong&gt;: Work on groundbreaking projects that power everything from smartphones to self-driving cars. Your contributions will help shape tomorrow’s world. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Challenge Your Mind&lt;/strong&gt;: Sharpen your problem-solving skills as you take on real-world challenges,&amp;nbsp;pushing&amp;nbsp;boundaries and&amp;nbsp;thinking outside the box. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Apply today to be part of what’s next.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We make the tech that enables the chips in devices which improve lives around the world. We do this with an eye to the future, pushing the boundaries of what’s possible through cutting-edge innovation, and driving the next wave of technological breakthroughs that shape how we live, work, and connect.&lt;/p&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;To learn more about ASM, find us at&amp;nbsp;&lt;a href=&quot;https://www.asm.com/&quot; target=&quot;_blank&quot;&gt;asm.com&lt;/a&gt; and&amp;nbsp;on &lt;a href=&quot;https://www.linkedin.com/company/asm/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.facebook.com/ASMOfficialCompany&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.instagram.com/asmofficialcompany/&quot; target=&quot;_blank&quot;&gt;Instagram,&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://twitter.com/ASMofficialco&quot; target=&quot;_blank&quot;&gt;X&amp;nbsp;&lt;/a&gt;and&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/c/ASM_Official&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;\n&lt;hr&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;&lt;em&gt;ASM is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, age, nationality, social or ethnic origin, sexual orientation, gender, gender identify or expression, marital status, pregnancy, political affiliation, disability, genetic information, veteran status, or any other characteristic protected by law.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4065687101,
+      "name": "SU3.Global Software- CSA",
+      "child_ids": [],
+      "parent_id": 4065650101
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017218101,
+      "name": "AZ Phoenix (ASM America Inc.)",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4016252101
+    }
+  ]
+}

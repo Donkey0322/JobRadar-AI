@@ -1,5 +1,76 @@
 [
   {
+    "company": "ASM",
+    "role": "Software Engineering Intern (Spring 2027)",
+    "link": "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
+    "location": "Education fields required",
+    "id": 730,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, or related technical field.",
+        "Be a Junior, Senior, or Graduate student.",
+        "Possess prior coursework or internship experience in software development, systems programming, or backend development."
+      ],
+      "season": "2027 Spring"
+    },
+    "season": "2027 Spring"
+  },
+  {
+    "company": "Truveta",
+    "role": "ML PhD Intern - LLMs & Generative AI",
+    "link": "https://job-boards.greenhouse.io/truveta/jobs/5712997004",
+    "location": "Seattle, WA",
+    "id": 729,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Ph.D. in Computer Science, EE, or related field with a focus on ML, NLP, LLMs, or Generative AI.",
+        "Possess strong theoretical and practical background in NLP.",
+        "Proficient in deep learning frameworks and NLP/Generative AI libraries.",
+        "Exhibit solid Python programming skills.",
+        "Demonstrate excellent problem-solving and analytical abilities.",
+        "Possess strong communication and collaboration skills.",
+        "Experience with distributed parallel training and large-scale models.",
+        "Familiarity with parameter-efficient tuning, RLHF, and prompt engineering.",
+        "Familiar with training multi-modal foundation models.",
+        "Familiar with cloud infrastructure and deploying ML models.",
+        "Have a track record of ML/NLP publications and contributions."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Truveta",
+    "role": "Agentic AI Software Testing Intern – Intelligence Platform (IPA)",
+    "link": "https://job-boards.greenhouse.io/truveta/jobs/5837714004",
+    "location": "Seattle, WA",
+    "id": 728,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. in Computer Science, Engineering, or a related technical field",
+        "Strong analytical and organizational skills",
+        "Excellent written communication skills",
+        "Collaborate effectively in a team-based development environment",
+        "Experience in software QA or manual testing",
+        "Familiar with Azure DevOps workflows and pull request validation",
+        "Experience testing web and mobile application builds",
+        "Exposed to bug tracking systems like Jira or Azure DevOps",
+        "Interested in AI systems, automation, or AI-assisted testing approaches"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Amazon",
     "role": "Data Engineer Internship - Fall 2026 (US)",
     "link": "https://amazon.jobs/en/jobs/10399655",
