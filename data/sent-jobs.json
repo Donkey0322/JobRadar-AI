@@ -1,5 +1,32 @@
 [
   {
+    "company": "Johnson & Johnson",
+    "role": "Technology Co-Op",
+    "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-Any-City/Technology-2026-Fall-Co-Op_R-029591",
+    "location": "10 locationsNew Hope, PAWest Chester, PABridgewater Township, NJHorsham, PAShepherdsville, KYIrvine, CASanta Clara, CAEdison, NJAmbler, PAPeabody, MA",
+    "season": "2026 Fall",
+    "id": 722,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Build solutions for business partners and drive value",
+        "Contribute individually or as a team member",
+        "Work with key stakeholders to accomplish goals and objectives",
+        "Build awareness and experience of key capability skills",
+        "Conduct data and process analysis",
+        "Maintain a cumulative GPA of 3.0 or higher",
+        "Currently enrolled in a Bachelor's or Master's degree program",
+        "Pursue studies in Information Management, IT, Computer Engineering, MIS, Computer Science, Software Engineering, Data Science, Cybersecurity, Graphic Design, or Mathematics",
+        "Commit to full-time work (40 hours/week) from June 22, 2026, to December 18, 2026",
+        "Possess a passion for a career in technology",
+        "Be an undergraduate sophomore or above by start date"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "Rbc",
     "role": "Fall 2026 Student - Data Analyst, Commercial Banking (4 months)",
     "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/Fall-2026-Student---Data-Analyst--Commercial-Banking_R-0000168978",
