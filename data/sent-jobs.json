@@ -1,5 +1,103 @@
 [
   {
+    "company": "Axway",
+    "role": "Software Engineering Intern",
+    "link": "https://careers-axway.icims.com/jobs/8657/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 738,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess basic knowledge of Java or JavaScript.",
+        "Demonstrate strong problem-solving skills and attention to detail."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "By Light Professional IT Services",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs-bylight.icims.com/jobs/10946/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 737,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Assist in building and refining features for Android application.",
+        "Write clean, maintainable Python and Java for backend support.",
+        "Collaborate on core performance modules written in C++.",
+        "Participate in agile ceremonies and peer code reviews.",
+        "Debug complex issues and propose creative solutions.",
+        "Ability to work as a member of a technical team.",
+        "Possess strong interest in cybersecurity, software, and IT.",
+        "Perform strongly in a relevant degree program while working part-time."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/154CB55D2E/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 736,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/D926279465/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 735,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Jabil",
+    "role": "Programmer Analyst Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Progammer-Analyst-I_J2439588",
+    "location": "St. Petersburg, FL",
+    "season": "2026 Summer",
+    "id": 734,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a major in Computer Science, Information Technology, Software Engineering, or related field",
+        "Be a Sophomore, Junior, or Senior",
+        "Understand basic programming languages such as C#, Java, Python",
+        "Familiar with relational databases and basic SQL querying",
+        "Possess knowledge of Software Development Lifecycle (SDLC) methodologies",
+        "Strong analytical and problem-solving skills with attention to detail",
+        "Excellent written and verbal communication skills",
+        "Ability to work effectively independently and as part of a team",
+        "Eager to learn new technologies and adapt to changing environments",
+        "Prior internship experience in a programming or IT role is a plus"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Rbc",
     "role": "2026 Fall Student Opportunities Capital Markets, QTS - Software Developer, 4 months, Halifax",
     "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/90-WESTERN-PKYBEDFORD/XMLNAME-2026-Fall-Student-Opportunities-Capital-Markets--QTS---Software-Developer--4-months--Halifax_R-0000169401-1",
