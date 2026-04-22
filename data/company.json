@@ -30,7 +30,8 @@
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
     "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7308505"
+      "http://corp.skillz.com/careers-list/?gh_jid=7308505",
+      "http://corp.skillz.com/careers-list/?gh_jid=7813108"
     ]
   },
   {
@@ -2569,6 +2570,7 @@
       "https://careers-gdms.icims.com/jobs/71947/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/71986/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72046/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72048/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72141/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72142/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72143/job?mobile=true&needsRedirect=false"
@@ -5906,7 +5908,9 @@
     "domain": "https://gdit.wd5.myworkdayjobs.com/external_career_site",
     "page": "https://gdit.wd5.myworkdayjobs.com/wday/cxs/gdit/external_career_site/jobs",
     "urls": [
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ213390-3"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ213390-3",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ218740-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Summer-2026-Software-Developer-Internship_RQ218741-1"
     ]
   },
   {
@@ -7267,7 +7271,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/billiontoone/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/billiontoone/jobs/4677675005",
-      "https://job-boards.greenhouse.io/billiontoone/jobs/4680728005"
+      "https://job-boards.greenhouse.io/billiontoone/jobs/4680728005",
+      "https://job-boards.greenhouse.io/billiontoone/jobs/4687612005"
     ]
   },
   {
@@ -8384,6 +8389,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/mwinternshipprogram/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/7998360002"
+    ]
+  },
+  {
+    "name": "newtonresearch",
+    "ats": "greenhouse",
+    "identifier": "newtonresearch",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/newtonresearch/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/newtonresearch/jobs/5195476008"
     ]
   },
   {
@@ -10769,6 +10784,7 @@
       "https://jobs.jobvite.com/idtus/job/oZflyfwR?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/inogen/job/oz8IzfwI?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/o7Ghyfwm?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oTIbyfw4?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oUvFyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/ocuUzfwT?nl=1&nl=1&fr=false",
