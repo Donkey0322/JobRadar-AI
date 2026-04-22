@@ -4888,6 +4888,16 @@
     ]
   },
   {
+    "name": "ecyq.fa.em2.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "ecyq.fa.em2.oraclecloud.com",
+    "domain": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "urls": [
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6519"
+    ]
+  },
+  {
     "name": "edel.fa.us2.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "edel.fa.us2.oraclecloud.com",
@@ -9650,6 +9660,7 @@
       "https://jobs.ashbyhq.com/atomicsemi/009d0819-c688-4ab9-8816-a3c7ab002470/application",
       "https://jobs.ashbyhq.com/atomicsemi/0eaedaf8-25e7-4f35-8a18-7a71a28959d0/application",
       "https://jobs.ashbyhq.com/atomicsemi/12d49f8f-ca71-43d0-84a9-dc3b558454c2/application",
+      "https://jobs.ashbyhq.com/atomicsemi/867c67f7-20b5-4726-b9da-85a760d3851e",
       "https://jobs.ashbyhq.com/atomicsemi/947338ca-e135-4398-9aa3-79e131bc03d5/application"
     ]
   },

@@ -1,5 +1,32 @@
 [
   {
+    "company": "Atomicsemi",
+    "role": "Infrastructure Software Engineering Intern - Fall",
+    "link": "https://jobs.ashbyhq.com/atomicsemi/867c67f7-20b5-4726-b9da-85a760d3851e",
+    "location": "San Francisco Office",
+    "id": 708,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Provide a portfolio demonstrating software engineering excellence and curiosity",
+        "Pursue a BS in Computer Science or Computer Engineering, or demonstrate exceptional software engineering skill",
+        "Possess strong programming skills in Rust, Go, or other systems-oriented languages",
+        "Have a solid understanding of Linux systems, networking fundamentals, and distributed systems concepts",
+        "Experience building or maintaining non-trivial infrastructure, automation, or tooling projects",
+        "Demonstrate interest in systems reliability, observability, infrastructure automation, or performance optimization",
+        "Experience with configuration management or fleet management at scale",
+        "Have a background in monitoring and observability tools",
+        "Familiarity with performance profiling and capacity planning",
+        "Experience with database administration, backup strategies, or disaster recovery",
+        "Exposure to secret management systems or PKI"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "DNV",
     "role": "Electric Grid Intern",
     "link": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6519",
