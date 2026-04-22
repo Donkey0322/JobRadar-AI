@@ -1,5 +1,36 @@
 [
   {
+    "company": "The Allen Institute for Artificial Intelligence",
+    "role": "Research Internship, AI for Science",
+    "link": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7366257",
+    "location": "Seattle, WA",
+    "id": 731,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete a PhD with research experience in Computer Science or a related field.",
+        "Focus on one or more of the team’s active research areas.",
+        "Possess a publication record in AI-related venues.",
+        "Strong software engineering skills.",
+        "Experience with system building (e.g., React, Typescript).",
+        "Experience with deep learning frameworks (e.g., PyTorch).",
+        "Experience with agentic frameworks (e.g., Autogen).",
+        "Experience in agentic planning, reasoning, learning, and evaluation.",
+        "Experience in automated and AI-assisted scientific discovery.",
+        "Experience in data-driven discovery.",
+        "Experience in Human-AI collaboration, literature sensemaking, and research ideation.",
+        "Experience in Human-Agent Collaboration (proactivity, long-running agent, memory, context management).",
+        "Experience in scientific literature understanding, RAG, multi-doc summarization.",
+        "Experience in continual learning, representation, and reasoning.",
+        "Experience in post-training, model tuning, distillation, and specialization."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "ASM",
     "role": "Software Engineering Intern (Spring 2027)",
     "link": "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
