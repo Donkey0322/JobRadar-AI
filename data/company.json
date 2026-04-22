@@ -677,6 +677,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556752823",
       "https://apply.careers.microsoft.com/careers/job/1970393556834019",
       "https://apply.careers.microsoft.com/careers/job/1970393556851162",
+      "https://apply.careers.microsoft.com/undefined",
       "https://jobs.careers.microsoft.com/global/en/job/1860947/Software-Engineer%3A-Fullstack-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860979/Software-Engineer%3A-AI%2FML-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860982/Software-Engineer%3A-Systems-Intern-Opportunities-for-University-Students%2C-Redmond",
@@ -1820,7 +1821,8 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/purestorage/jobs",
     "urls": [
-      "https://boards.greenhouse.io/purestorage/jobs/7258723"
+      "https://boards.greenhouse.io/purestorage/jobs/7258723",
+      "https://job-boards.greenhouse.io/purestorage/jobs/7842564"
     ]
   },
   {
@@ -4955,7 +4957,8 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325250",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325256",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325487",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325817"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/325817",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/331838"
     ]
   },
   {
@@ -5953,6 +5956,7 @@
     "domain": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite",
     "page": "https://geaerospace.wd5.myworkdayjobs.com/wday/cxs/geaerospace/ge_externalsite/jobs",
     "urls": [
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Bengaluru/Data-Science-Intern_R5033126-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Co-op---US---Fall-2026---Returning-Students_R5030243-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Digital-Technology-Co-op---US---Spring-2027---Returning-Students_R5030091-1"
     ]
@@ -6333,6 +6337,7 @@
     "page": "https://harriscomputer.wd3.myworkdayjobs.com/wday/cxs/harriscomputer/1/jobs",
     "urls": [
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/New-York-United-States/Intern---Developer_R0040830",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Mumbai-Vikroli/Software-Intern_R0040956-1",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer-Apprentice_R0040206"
     ]
   },
@@ -6343,7 +6348,8 @@
     "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
     "page": "https://hccz.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23097"
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23097",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23814"
     ]
   },
   {
@@ -7161,6 +7167,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/asteraearlycareer2026/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005",
       "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4598394005",
       "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605619005",
       "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4605622005",
@@ -8994,7 +9001,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/thetradedesk/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/thetradedesk/jobs/4787577007",
-      "https://job-boards.greenhouse.io/thetradedesk/jobs/4959712007"
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/4959712007",
+      "https://job-boards.greenhouse.io/thetradedesk/jobs/5033765007"
     ]
   },
   {
@@ -10321,6 +10329,7 @@
     "urls": [
       "https://jobs.ashbyhq.com/snowflake/22c1e3be-f58d-4ed9-bcca-2b6aa1f8393f/application",
       "https://jobs.ashbyhq.com/snowflake/449c1320-82a0-4bd4-8be6-003265ee0764/application",
+      "https://jobs.ashbyhq.com/snowflake/7347bb03-93a2-4c96-99ad-ac7861f3ecfe",
       "https://jobs.ashbyhq.com/snowflake/83990726-7d4e-439c-8112-34213173adcc/application",
       "https://jobs.ashbyhq.com/snowflake/b07d88f5-753c-4b44-ad77-672b8db46f2e/application",
       "https://jobs.ashbyhq.com/snowflake/c8f90874-33ff-433d-be44-d09567a08041/application"
@@ -11899,7 +11908,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000121335917",
       "https://jobs.smartrecruiters.com/BoschGroup/744000121872182",
       "https://jobs.smartrecruiters.com/BoschGroup/744000121879097",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000122057467"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000122057467",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000122248117"
     ]
   },
   {
@@ -12528,6 +12538,7 @@
       "https://kla.wd1.myworkdayjobs.com/en-US/UR/job/Totowa-NJ/VC---Software-Developer-Intern_2532831",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2531392",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Algorithm-Engineer-Intern_2635538",
+      "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Marketing-Analyst-Intern_2533113",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2532227",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Intern--IOT-_2532211",
       "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Engineering-Intern_2532514"
@@ -14180,6 +14191,8 @@
     "urls": [
       "https://rbc.wd3.myworkdayjobs.com/en-US/RBCEARLYTALENT1/job/Jersey-City-New-Jersey-United-States-of-America/XMLNAME-2026-Capital-Markets---Quantitative-Technology-Services-Summer-Analyst_R-0000140751-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/RBC-WATERPARK-PLACE-88-QUEENS-QUAY-WTORONTO/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--12-Months_R-0000168720-1",
+      "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/Fall-2026-Student---Data-Analyst--Commercial-Banking_R-0000168978",
+      "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/Fall-2026-Student---Data-Analyst--Personal-Banking_R-0000168782",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-RBC-Borealis--Machine-Learning-Software-Engineer--4-8-Months_R-0000168679-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--4-Months_R-0000168621-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--8-Months_R-0000168529"

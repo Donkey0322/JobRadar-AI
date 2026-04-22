@@ -1,0 +1,36 @@
+{
+  "jobPostingInfo": {
+    "id": "7809c5c2fcae1001392e62bf602f0001",
+    "title": "Software Intern",
+    "jobDescription": "",
+    "location": "Office - Mumbai (Vikroli)",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-22",
+    "timeType": "Full time",
+    "jobReqId": "R0040956",
+    "jobPostingId": "Software-Intern_R0040956-1",
+    "jobPostingSiteId": "1",
+    "country": {
+      "descriptor": "India",
+      "id": "c4f78be1a8f14da0ab49ce1162348a5e"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Office - Mumbai (Vikroli)",
+      "country": {
+        "descriptor": "India",
+        "id": "c4f78be1a8f14da0ab49ce1162348a5e",
+        "alpha2Code": "IN"
+      }
+    },
+    "externalUrl": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Mumbai-Vikroli/Software-Intern_R0040956-1"
+  },
+  "hiringOrganization": {
+    "name": "Bizmatics India Private Limited",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

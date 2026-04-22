@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4371873005,
+  "location": {
+    "name": "Vancouver, Canada"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "Product Applications Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4562833005,
+  "updated_at": "2026-04-22T01:10:03-04:00",
+  "requisition_id": "1765",
+  "title": "Platform Applications Engineer Intern (8-month Co-Op)",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2025-05-08T16:38:35-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At Astera Labs, we design cutting-edge connectivity solutions that power the world’s largest cloud service providers, server, and networking OEMs. As a &lt;strong&gt;Platform Application Engineer Intern&lt;/strong&gt;, you’ll play a pivotal role in building and supporting the platforms that enable these products to thrive in real-world deployments through.&lt;/p&gt;\n&lt;p&gt;You’ll create and maintain tools that make our products seamless to integrate, highly debuggable, and delightful to use for both customers and internal engineering teams. Your work will span software, systems, and silicon – developing automation, diving into labs with state-of-the-art equipment, and collaborating closely with customers to solve the toughest technical challenges. Beyond execution, you’ll influence product direction by driving innovation, providing feedback to design teams, and streamlining validation and deployment processes.&lt;/p&gt;\n&lt;p&gt;This is a high-impact, hands-on role at the intersection of hardware and software, where curiosity, creativity, and technical depth come together to define the next generation of datacenter infrastructure.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Basic Qualifications&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing a Bachelor’s degree or higher in Electrical Engineering, Computer Engineering, or Computer Science&lt;/li&gt;\n&lt;li&gt;Experience in software development with C, C++, C#, and/or Python.&lt;/li&gt;\n&lt;li&gt;Entrepreneurial mindset with a customer-first attitude and a bias toward action&lt;/li&gt;\n&lt;li&gt;Excellent written and oral communication&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Experience&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Comfort working with software/firmware associated with semiconductor products, such as; Firmware development with C-language, scripting with Python or other equivalent programming languages.&lt;/li&gt;\n&lt;li&gt;Hands-on experience building, configuring, and troubleshooting computer systems, with a fundamental understanding of core components such as CPUs, GPUs, memory, storage, motherboards, PCIe devices, and how these components interact at the platform level.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred experience&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Firsthand experience with lab equipment such as protocol analyzers/exercisers, high-speed oscilloscopes, or BERTs.&lt;/li&gt;\n&lt;li&gt;Triaging complex customer reported issues which require taking into account multiple layers of conditions; for instance, silicon, firmware, hardware board design, and system environment.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Development/support for PCIe or Ethernet Switch or Retimer products.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;PCIe compliance testing methodology and troubleshooting.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Understanding of Data Center systems like Servers, JBOGs/JBODs, Networking switches/routers/interconnects etc.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4000702005,
+      "name": "Product Applications",
+      "child_ids": [],
+      "parent_id": 4000196005
+    }
+  ],
+  "offices": [
+    {
+      "id": 4003931005,
+      "name": "Vancouver, BC, Canada",
+      "location": "Vancouver, British Columbia, Canada",
+      "child_ids": [],
+      "parent_id": 4004709005
+    }
+  ]
+}
