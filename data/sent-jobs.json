@@ -1,5 +1,36 @@
 [
   {
+    "company": "Amazon",
+    "role": "Data Engineer Internship - Fall 2026 (US)",
+    "link": "https://amazon.jobs/en/jobs/10399655",
+    "location": "US, WA, Seattle",
+    "id": 727,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Commit to a 40 hours/week minimum and 12-week maximum internship",
+        "Be enrolled in an academic program physically located in the United States",
+        "Experience with data transformation",
+        "Experience with database, data warehouse, or data lake solutions",
+        "Proficient in SQL",
+        "Experience with one or more scripting languages (e.g., Python, KornShell, Scala)",
+        "Currently enrolled in or will receive a Bachelor\nD\nDegree, Master's Degree, or advanced technical degree in Computer Science, Computer Engineering, Information Management, Information Systems, or an equivalent technical discipline with an expected conferral date between October 2026 – December 2029",
+        "Experience with AWS",
+        "Experience building data pipelines or automated ETL processes",
+        "Knowledge of writing and optimizing SQL queries in a business environment with large-scale, complex datasets",
+        "Experience with big data processing technology (e.g., Hadoop or Apache Spark), data warehouse technical architecture, infrastructure components, ETL, and reporting/analytic tools and environments",
+        "Experience with data visualization software (e.g., AWS QuickSight or Tableau) or open-source project",
+        "Previous technical internship(s) or demonstrated project experience",
+        "Knowledge of basics of designing and implementing a data schema like normalization, relational model vs dimensional model"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Moog",
     "role": "Intern, Software Engineering",
     "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17369",
