@@ -9087,7 +9087,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/truveta/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/truveta/jobs/5656952004",
-      "https://job-boards.greenhouse.io/truveta/jobs/5659745004"
+      "https://job-boards.greenhouse.io/truveta/jobs/5659745004",
+      "https://job-boards.greenhouse.io/truveta/jobs/5712997004",
+      "https://job-boards.greenhouse.io/truveta/jobs/5837714004"
     ]
   },
   {
@@ -16277,6 +16279,7 @@
     "urls": [
       "https://www.asm.com/open-vacancies/?gh_jid=4742577101",
       "https://www.asm.com/open-vacancies/?gh_jid=4742602101",
+      "https://www.asm.com/open-vacancies/?gh_jid=4830113101",
       "https://www.asm.com/open-vacancies/?gh_jid=4832509101",
       "https://www.asm.com/open-vacancies/?gh_jid=4832515101",
       "https://www.asm.com/open-vacancies/?gh_jid=4832566101",
