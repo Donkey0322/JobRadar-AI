@@ -1,5 +1,62 @@
 [
   {
+    "company": "Rbc",
+    "role": "2026 Fall Student Opportunities Capital Markets, QTS - Software Developer, 4 months, Halifax",
+    "link": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/90-WESTERN-PKYBEDFORD/XMLNAME-2026-Fall-Student-Opportunities-Capital-Markets--QTS---Software-Developer--4-months--Halifax_R-0000169401-1",
+    "location": "90 WESTERN PKY:BEDFORD",
+    "id": 733,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Analyze business requirements",
+        "Design, develop, and code applications",
+        "Perform code reviews",
+        "Conduct application testing",
+        "Manage application releases and incidents",
+        "Handle project work and daily support",
+        "Increase department efficiencies",
+        "Working towards a Computer Science or related degree",
+        "Maintain academic excellence",
+        "Experience developing in UNIX/Linux or Windows environments",
+        "Proficient in Java, C#, C/C++, Python, JavaScript, HTML, CSS",
+        "Be a self-starter",
+        "Possess strong analytical and interpersonal skills",
+        "Ability to work in a fast-paced environment",
+        "Manage multiple competing priorities",
+        "Strong MS Office skills",
+        "Experience presenting to stakeholders"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Fiserv",
+    "role": "Corporate Technology Internship - Application Development / Software Engineering",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Corporate-Technology-Internship---Application-Development---Software-Engineering_R-10387789",
+    "location": "Sunnyvale, California",
+    "id": 732,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in Computer Science, Data Science, Management Information Systems, Cybersecurity, Technical Project Management, or other Technology Degrees.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Demonstrate knowledge of Microsoft .NET, C#, C, C++, ASP .NET, Java, JavaScript, JCL, Oracle, Linux, PowerBi or ReactJS.",
+        "Possess advanced knowledge of Excel and PowerPoint.",
+        "Possess experience working in a fast-paced environment.",
+        "Show flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "The Allen Institute for Artificial Intelligence",
     "role": "Research Internship, AI for Science",
     "link": "https://job-boards.greenhouse.io/thealleninstitute/jobs/7366257",
