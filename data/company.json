@@ -3013,6 +3013,7 @@
       "https://careers.duolingo.com/jobs/8155655002?gh_jid=8155655002",
       "https://careers.formlabs.com/job/7384134/apply/?gh_jid=7384134",
       "https://careers.formlabs.com/job/7520649/apply/?gh_jid=7520649",
+      "https://careers.hellofresh.com/global/en/job/7848068?gh_jid=7848068",
       "https://careers.hootsuite.com/job/?gh_jid=7808288",
       "https://careers.roblox.com/jobs/7206219?gh_jid=7206219",
       "https://careers.roblox.com/jobs/7654991?gh_jid=7654991",
@@ -15383,6 +15384,16 @@
       "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Austin-RiverSouth/Software-Engineer-Intern--Summer-2026-_R25-01193",
       "https://tel.wd3.myworkdayjobs.com/tel-careers/job/Chaska/Software-Engineer-Intern--Summer-2026-_R25-01189",
       "https://tel.wd3.myworkdayjobs.com/tel-careers/job/North-Chelmsford/Software-Engineer-Intern--Summer-2026-_R25-01190"
+    ]
+  },
+  {
+    "name": "tencent",
+    "ats": "workday",
+    "identifier": "tencent-lightspeed",
+    "domain": "https://tencent.wd1.myworkdayjobs.com/lightspeed",
+    "page": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/lightspeed/jobs",
+    "urls": [
+      "https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/US-California-Los-Angeles/Game-Research---Development-Intern--Engine-Research_R107344"
     ]
   },
   {
