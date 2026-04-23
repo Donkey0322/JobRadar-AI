@@ -1,5 +1,50 @@
 [
   {
+    "company": "SK Hynix Memory Solution",
+    "role": "Product Application Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4230723009",
+    "location": "San Jose, CA",
+    "id": 748,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Obtain a Bachelor's degree in EE, CS, CE, or related field",
+        "Proficient in programming languages such as Python, C/C++",
+        "Familiar with software testing or automation scripting",
+        "Possess strong analytical and problem-solving skills",
+        "Familiar with Linux/Windows OS, command-line tools, and storage utilities",
+        "Have previous related project experiences",
+        "Demonstrate excellent communication and collaboration skills"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "H&CO",
+    "role": "Software Development Intern",
+    "link": "https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507",
+    "location": "Coral Gables, FL",
+    "id": 747,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field",
+        "Possess basic knowledge of one or more programming languages (e.g., Java, Python, C#, JavaScript)",
+        "Familiarity with data structures, algorithms, and object-oriented programming concepts",
+        "Strong problem-solving skills and attention to detail",
+        "Able to work independently and as part of a team",
+        "Strong communication and willingness to learn"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Figure",
     "role": "Embedded Software Intern",
     "link": "https://job-boards.greenhouse.io/figureai/jobs/4397706006?jr_id=69e82790e0cd471b2f12fc60",
