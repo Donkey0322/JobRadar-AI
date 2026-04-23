@@ -2,6 +2,173 @@
   {
     "company": "Axway",
     "role": "Software Engineering Intern",
+    "link": "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 745,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, or a related field.",
+        "Possess basic knowledge of programming languages (e.g., Java, Python).",
+        "Understand software development principles and data structures.",
+        "Familiar with APIs, REST services, or integration concepts.",
+        "Demonstrate strong problem-solving skills and eagerness to learn."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern Program",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Technology-Intern-Program_R-10393338",
+    "location": "Alpharetta, GAMarietta, GA",
+    "season": "2026 Summer",
+    "id": 744,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Actively pursue a bachelor's degree with expected graduation between December 2026 and June 2028 in specified technology fields",
+        "Maintain a 3.0+ GPA",
+        "Possess 0-2 years of professional work experience",
+        "Possess knowledge of Microsoft .NET, C#, Java, JavaScript, Oracle, Linux, PowerBi, or ReactJS",
+        "Demonstrate advanced knowledge of Excel and PowerPoint",
+        "Exhibit experience working in a fast-paced environment and adapting to changing priorities"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Caterpillar Inc.",
+    "role": "Part Time Intern - Digital and Analytics",
+    "link": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mesa-Arizona/Part-Time-Intern---Digital-and-Analytics_R0000365100",
+    "location": "Mesa, AZ",
+    "season": "2026 Summer",
+    "id": 743,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled full time in Computer Science or related degree at a 4-year University/College",
+        "Completed 12 credit hours prior to program start",
+        "Achieve a minimum 3.0/4.0 cumulative GPA",
+        "Demonstrated leadership experience",
+        "Possess previous technical internship, co-op, or research experience",
+        "Participated in school clubs or student organizations",
+        "Demonstrate experience with machine learning and building agents using LLMs"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Internship",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/A4487B349D/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 742,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/FDAB8A6B2D/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 741,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "ether.fi",
+    "role": "GTM Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/ether.fi/6dcb712c-8fe5-4725-ad6a-0e9771af22cb/application",
+    "location": "NYCDenver, CO",
+    "season": "2026 Summer",
+    "id": 740,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Ship quality software often with little oversight",
+        "Comfortable working across the stack",
+        "Be a self-starter and fast learner",
+        "Interest in crypto, fintech, or on-chain products"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/XMLNAME---Intern---Software-Engineer-_R-00181496",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 739,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop, troubleshoot, and debug mission critical software.",
+        "Participate in the full software development lifecycle.",
+        "Use Agile development tools like Jira, Confluence, and Bitbucket/Git.",
+        "Support creation and updating of documentation for design, development and testing.",
+        "Identify potential roadblocks and develop solutions with the team.",
+        "Plan and estimate development tasks to improve performance.",
+        "Develop maintainable code matching specifications.",
+        "Use automated testing with continuous integration.",
+        "Own delivery of small parts of a system or application.",
+        "Collaborate with engineers on technical design for new product development.",
+        "Build customer-first software solutions as part of a team.",
+        "Ongoing studies in Computer Science or similar field with 3.0 GPA.",
+        "Experience with Object Oriented Programming practices and patterns.",
+        "Experience with JavaScript and frameworks like React.",
+        "Solid understanding of software development process fundamentals.",
+        "Strong desire to learn new programming languages, tools, and techniques.",
+        "Ability to complete tasks independently with minimal supervision.",
+        "Ability to work and collaborate effectively in a multi-disciplined team.",
+        "Be a team player, able to express and explain ideas.",
+        "Ability to obtain a DoD security clearance.",
+        "Required U.S. Citizenship.",
+        "Familiarity with Cloud Technologies (AWS, Azure, GCP).",
+        "Knowledge of a version control system (e.g., Git).",
+        "Familiarity with CI/CD processes and tools (Jenkins).",
+        "Familiarity with Infrastructure as Code (Terraform, Helm).",
+        "Familiarity with Containerized applications and orchestration.",
+        "Familiarity with Enterprise Service Bus Technologies (Kafka).",
+        "Knowledge of Agile Development methodologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "SoFi",
+    "role": "Software Engineer Intern - AMG Core Rails",
+    "link": "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
+    "location": "SF",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Axway",
+    "role": "Software Engineering Intern",
     "link": "https://careers-axway.icims.com/jobs/8657/job?mobile=true&needsRedirect=false",
     "location": "Scottsdale, AZ",
     "season": "2026 Summer",
