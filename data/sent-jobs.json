@@ -1,5 +1,50 @@
 [
   {
+    "company": "Vertiv group corporation",
+    "role": "Data Science Internship (Summer 2026)",
+    "link": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20271120",
+    "location": "Westerville, OH, United States",
+    "id": 751,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "19109 speedpay rd",
+    "role": "Intern Software Engineering",
+    "link": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19060",
+    "location": "Norcross, GA, United States"
+  },
+  {
+    "company": "Caci",
+    "role": "Software Engineer Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CO-Denver/Software-Engineer-Intern---Summer-2026_325121",
+    "location": "US CO Denver",
+    "id": 750,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or a related field",
+        "Understand User Interfaces, cross-browser compatibility, web functions, and standards",
+        "Familiar with Java, JavaScript, HTML, CSS, Web UI Design, Security Principles",
+        "Familiar with Object-Oriented Design, Web Services, Groovy, Grails, and Angular",
+        "General knowledge of Python and Java for backend development",
+        "Possess programming skills and experience",
+        "Basic knowledge of Docker Containers",
+        "Familiar with build tools such as Jenkins, GitLab, and CI/CD philosophies"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Salesforce",
     "role": "Summer 2027 Intern - Software Engineer",
     "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
