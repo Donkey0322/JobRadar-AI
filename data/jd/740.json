@@ -1,0 +1,45 @@
+{
+  "id": "6dcb712c-8fe5-4725-ad6a-0e9771af22cb",
+  "title": "Intern GTM Engineer",
+  "department": "Engineering",
+  "team": "Engineering",
+  "employmentType": "FullTime",
+  "location": "Cayman",
+  "secondaryLocations": [
+    {
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "New York",
+          "addressCountry": "United States",
+          "addressLocality": "New York City"
+        }
+      }
+    },
+    {
+      "location": "Denver",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "Colorado",
+          "addressCountry": "United States",
+          "addressLocality": "Denver"
+        }
+      }
+    }
+  ],
+  "publishedAt": "2026-04-22T18:10:48.574+00:00",
+  "isListed": true,
+  "isRemote": false,
+  "workplaceType": "OnSite",
+  "address": {
+    "postalAddress": {
+      "addressRegion": "Cayman Islands",
+      "addressCountry": "Cayman Islands",
+      "addressLocality": "Grand Cayman"
+    }
+  },
+  "jobUrl": "https://jobs.ashbyhq.com/ether.fi/6dcb712c-8fe5-4725-ad6a-0e9771af22cb",
+  "applyUrl": "https://jobs.ashbyhq.com/ether.fi/6dcb712c-8fe5-4725-ad6a-0e9771af22cb/application",
+  "descriptionHtml": "<h1>About <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Ether.fi\">Ether.fi</a></h1><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Ether.fi\"><strong>Ether.fi</strong></a> is one of the fastest growing fintech companies in the world. We have over $10B AUM and a team of 30 nearly all technical staff. We've been profitable day one and are focusing on building real consumer applications for millions of users.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">The future we envision is true on-chain banking. Our current products — Stake, Liquid, and Cash — enable users to earn high yields and spend their digital assets in the real world with ease.</p><p style=\"min-height:1.5em\"></p><h1>Position Overview</h1><p style=\"min-height:1.5em\">We are looking for a hungry, resourceful intern to contribute to our GTM efforts by automating processes and contributing to growth-oriented product development.</p><p style=\"min-height:1.5em\"></p><h1>What You'll Do</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Build our funnel tracking system for our iOS and Android apps (AppsFlyer, Amplitude).</p></li><li><p style=\"min-height:1.5em\">Develop internal tools to automate lead generation and cold outreach processes.</p></li><li><p style=\"min-height:1.5em\">Build growth-oriented features in our web and/or mobile products.</p></li><li><p style=\"min-height:1.5em\">Instrument and optimize even-driven notification systems, referral flows and onboarding funnels.</p></li></ul><p style=\"min-height:1.5em\"></p><h1>What We're Looking For</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You ship quality software often with little oversight</p></li><li><p style=\"min-height:1.5em\">Comfortable working across the stack</p></li><li><p style=\"min-height:1.5em\">Self-starter, fast learner, all the usual stuff</p></li><li><p style=\"min-height:1.5em\">Brownie points if you have an interest in crypto, fintech, or on-chain products</p></li></ul><p style=\"min-height:1.5em\"></p><h1>Term</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">April - August (we are flexible), but there’s opportunity for an ongoing partnership if you’re a good fit.</p></li></ul><p style=\"min-height:1.5em\"></p><h1>Perks</h1><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Directly contribute to the growth of one of the fastest growing fintechs</p></li><li><p style=\"min-height:1.5em\">Work closely with a small, high-output team</p></li><li><p style=\"min-height:1.5em\">Opportunity for full-time employment</p></li></ul>",
+  "descriptionPlain": "ABOUT ETHER.FI http://Ether.fi\n\nEther.fi http://Ether.fi is one of the fastest growing fintech companies in the world. We have over $10B AUM and a team of 30 nearly all technical staff. We've been profitable day one and are focusing on building real consumer applications for millions of users.\n\nThe future we envision is true on-chain banking. Our current products — Stake, Liquid, and Cash — enable users to earn high yields and spend their digital assets in the real world with ease.\n\n\nPOSITION OVERVIEW\n\nWe are looking for a hungry, resourceful intern to contribute to our GTM efforts by automating processes and contributing to growth-oriented product development.\n\n\nWHAT YOU'LL DO\n\n - Build our funnel tracking system for our iOS and Android apps (AppsFlyer, Amplitude).\n\n - Develop internal tools to automate lead generation and cold outreach processes.\n\n - Build growth-oriented features in our web and/or mobile products.\n\n - Instrument and optimize even-driven notification systems, referral flows and onboarding funnels.\n\n\nWHAT WE'RE LOOKING FOR\n\n - You ship quality software often with little oversight\n\n - Comfortable working across the stack\n\n - Self-starter, fast learner, all the usual stuff\n\n - Brownie points if you have an interest in crypto, fintech, or on-chain products\n\n\nTERM\n\n - April - August (we are flexible), but there’s opportunity for an ongoing partnership if you’re a good fit.\n\n\nPERKS\n\n - Directly contribute to the growth of one of the fastest growing fintechs\n\n - Work closely with a small, high-output team\n\n - Opportunity for full-time employment"
+}
