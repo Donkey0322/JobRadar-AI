@@ -2605,7 +2605,11 @@
       "https://careers-gdms.icims.com/jobs/72048/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72141/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72142/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/72143/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/72143/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72205/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72206/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72207/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -4064,7 +4068,8 @@
     "domain": "https://chamberlain.wd1.myworkdayjobs.com/chamberlain_group",
     "page": "https://chamberlain.wd1.myworkdayjobs.com/wday/cxs/chamberlain/chamberlain_group/jobs",
     "urls": [
-      "https://chamberlain.wd1.myworkdayjobs.com/Chamberlain_Group/job/Oak-Brook-IL/Intern---Software-Development-myQ-Middleware--Summer-2026-_JR29900"
+      "https://chamberlain.wd1.myworkdayjobs.com/Chamberlain_Group/job/Oak-Brook-IL/Intern---Software-Development-myQ-Middleware--Summer-2026-_JR29900",
+      "https://chamberlain.wd1.myworkdayjobs.com/chamberlain_group/job/Oak-Brook-IL/Intern---AI-ML-Software-Engineer--Summer-2026-_JR30646"
     ]
   },
   {
@@ -13599,6 +13604,16 @@
     "page": "",
     "urls": [
       "https://novatechengineering.applytojob.com/apply/QQtk09v3wl/Software-Development-CoOp"
+    ]
+  },
+  {
+    "name": "nphosting",
+    "ats": "workday",
+    "identifier": "nphosting-fdfcareers",
+    "domain": "https://nphosting.wd5.myworkdayjobs.com/fdfcareers",
+    "page": "https://nphosting.wd5.myworkdayjobs.com/wday/cxs/nphosting/fdfcareers/jobs",
+    "urls": [
+      "https://nphosting.wd5.myworkdayjobs.com/FDFCareers/job/San-Antonio-TX/AI-Automation-Engineer-Intern_REQ-027680"
     ]
   },
   {
