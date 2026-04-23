@@ -2331,6 +2331,16 @@
     ]
   },
   {
+    "name": "career41.sapsf.com",
+    "ats": "custom",
+    "identifier": "career41.sapsf.com",
+    "domain": "https://career41.sapsf.com",
+    "page": "",
+    "urls": [
+      "https://career41.sapsf.com/career?career_ns=job_listing&company=hcollp&career_job_req_id=3507"
+    ]
+  },
+  {
     "name": "alcami",
     "ats": "icims",
     "identifier": "alcami",
@@ -8856,6 +8866,16 @@
     "urls": [
       "https://job-boards.greenhouse.io/singlestore/jobs/7118095",
       "https://job-boards.greenhouse.io/singlestore/jobs/7782709"
+    ]
+  },
+  {
+    "name": "skhynixmemorysolutionsamericainc",
+    "ats": "greenhouse",
+    "identifier": "skhynixmemorysolutionsamericainc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/skhynixmemorysolutionsamericainc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4230723009"
     ]
   },
   {
