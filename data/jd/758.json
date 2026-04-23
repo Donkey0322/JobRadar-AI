@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "c537b49af7851001a7a7643ce8020001",
+    "title": "Software Engineering Intern",
+    "jobDescription": "<h2><b><span class=\"emphasis\">At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.</span></b></h2><p><span>Responsible for designing, developing, troubleshooting and debugging PCB/package/chip thermal analysis software.<br />Works on extremely complex problems where analysis of situations or data requires an evaluation of intangible variance factors.</span></p><div><div><div><div><p></p><p><span>Position Requirements:</span></p><ul><li><p><span>The candidate should be attending a BS, MS or PhD program in ME/EE/CS, have strong programming skills in C&#43;&#43;, and deep familiarity with object-oriented programming methods. </span></p></li><li><p><span>Prior knowledge and experience with <span><span>distributed/multi-threaded</span></span> programming, numerical analysis techniques, meshing techniques, finite-element based thermal simulation, CFD analysis, and in-depth understanding of electric cooling of PCB/package/chip preferred. </span></p></li><li><p><span>Experience on automatic design optimization for thermal targets is a plus.</span></p></li></ul></div></div></div></div><h2><span class=\"emphasis\"><b>We’re doing work that matters. Help us solve what others can’t.</b></span></h2>",
+    "location": "SAN JOSE",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-23",
+    "timeType": "Full time",
+    "jobReqId": "R54365",
+    "jobPostingId": "Software-Engineering-Intern_R54365-1",
+    "jobPostingSiteId": "Univ_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "SAN JOSE 10",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern_R54365-1",
+    "questionnaireId": "6598c240a7d1013fc7a28f6e5f16c953"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

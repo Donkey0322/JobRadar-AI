@@ -1,0 +1,168 @@
+{
+  "id": "744000122518830",
+  "name": "AI R&D Intern",
+  "uuid": "dd506dad-fa1f-4f7b-bc0a-0ded00db2a3e",
+  "jobId": "15902edc-6386-4710-a050-5662d82bccc0",
+  "jobAdId": "26915cd9-1ac3-40d1-ba94-e72206a13db4",
+  "defaultJobAd": true,
+  "refNumber": "REF284447W",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Sunnyvale",
+    "region": "CA",
+    "country": "us",
+    "address": "Santa Trinita Avenue",
+    "postalCode": "94085",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "37.382764",
+    "longitude": "-122.0002622",
+    "fullLocation": "Sunnyvale, CA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+      "valueLabel": "Unlimited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "74e3aea0-cc7a-4c14-9adc-c3e33e9f4aef",
+      "valueLabel": "Sunnyvale, CA"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+      "valueLabel": "Direct"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "ff7c69f3-f89c-498c-9a0e-25f4dad301d4",
+      "valueLabel": "Full-time and/or part-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "b4e099f0-c66a-4d81-b9ce-b9d1d34e310b",
+      "valueLabel": "CR"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "9ceea6ff-37fa-40a0-90e7-51fcc4977094",
+      "valueLabel": "US_N"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "CR",
+      "valueLabel": "CR"
+    }
+  ],
+  "releasedDate": "2026-04-23T17:59:30.551Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000122518830-ai-r-d-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000122518830-ai-r-d-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/dd506dad-fa1f-4f7b-bc0a-0ded00db2a3e?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>We Are Bosch.</strong></p><p>&#xa0;</p><p>At Bosch, we shape the future by inventing high-quality technologies and services that spark</p><p>enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding</p><p>Bosch teams around the world. Their creativity is the key to innovation through connected living,</p><p>mobility, or industry.</p><p>&#xa0;</p><p>Let’s grow together, enjoy more, and inspire each other. <strong>Work #LikeABosch</strong></p><p>&#xa0;</p><p>• Reinvent yourself: At Bosch, you will evolve.</p><p>• Discover new directions: At Bosch, you will find your place.</p><p>• Balance your life: At Bosch, your job matches your lifestyle.</p><p>• Celebrate success: At Bosch, we celebrate you.</p><p>• Be yourself: At Bosch, we value values.</p><p>• Shape tomorrow: At Bosch, you change lives.</p><p>The Bosch Research and Technology Center North America with offices in Sunnyvale, California, Pittsburgh, Pennsylvania and Cambridge, Massachusetts is a part of the global Bosch Group (www.bosch.com), a company with over 70-billion-euro revenue, 400,000 employees worldwide, a very diverse product portfolio, and a history spanning over 125 years. The Research and Technology Center North America (RTC-NA) is dedicated to providing technologies and system solutions for various Bosch business fields, primarily in the field of artificial intelligence, energy technologies, internet technologies, circuit design, semiconductors and wireless, as well as advanced MEMS design.</p><p>As a part of the global research, our AI research in Silicon Valley focuses on Foundation Models, Big Data Visual Analytics, Explainable AI (XAI), Natural Language Processing, 3D Perception &amp; Mixed Reality, Cloud Robotics, Data Science, AI Platform, Time-series Analysis. We develop scalable, intelligent, and trustworthy AIoT solutions to enable inspiring UX for Bosch products and services in application areas such as automated driving, advanced driver assistance systems (ADAS), robotics, smart manufacturing, enterprise AI, health care, smart home and building solutions.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>In this internship, you will:</p><ul><li>Collaborate with mentors and other colleagues to conduct AI R&amp;D to address academic and industrial challenges for Bosch applications such as ADAS, AI agents, etc.&#xa0;</li><li>Apply research results to real-world applications with high quality implementation.</li><li>Integrate the resulting system/software into existing Bosch platform.</li><li>Summarize research findings in high-quality paper and/or patent submissions.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Minimum Qualifications:</strong></p><ul><li>M.S.&#xa0;student in Computer Science or related fields</li><li>Solid python and/or C++ programming skills</li><li>Good communication and team-working skills</li><li>Minimum GPA of 3.0</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><em>The U.S. base salary range for this intern position is <strong>$39.00 - $64.00</strong>. Within the range, individual pay is determined based on several factors, including, but not limited to, type of degree, work experience and job knowledge, complexity of the role, type of position, job location, etc. Your Hiring Manager can share more details about the specific salary range for this position during the interview process.*</em></p><p>BOSCH is a proud supporter of STEM (Science, Technology, Engineering &amp; Mathematics) Initiatives</p><p>· FIRST Robotics (For Inspiration and Recognition of Science and Technology)</p><p>· AWIM (A World In Motion)</p><p><em>Equal Opportunity Employer, including disability / veterans. </em><em> </em></p><p><em>*Bosch adheres to Federal, State, and Local laws regarding drug-testing. Employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.</em>&#xa0;</p><p>&#xa0;</p><p>&#xa0;</p><p>&#xa0;</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "research",
+    "label": "Research"
+  },
+  "function": {
+    "id": "research",
+    "label": "Research"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
