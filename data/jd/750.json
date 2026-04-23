@@ -1,0 +1,64 @@
+{
+  "jobPostingInfo": {
+    "id": "bafa5f19e42210019b067e9d87d30000",
+    "title": "Software Engineer Intern - Summer 2026",
+    "jobDescription": "Job Title: Software Engineer Intern - Summer 2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Job Category: Intern/Co-op<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Time Type: Part time<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Minimum Clearance Required to Start: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Employee Type: Part-Time On-Call<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Percentage of Travel Required: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Type of Travel: None<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Anticipated Posting End: 5/18/2026<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><br /><b><u>The Opportunity:</u></b><br />CACI is seeking a talented Junior Software Engineer Intern to join our dynamic team. As an intern, you will play a crucial role in enabling national security missions through the creation and delivery of innovative, technology-centric solutions. This internship offers an unparalleled opportunity to grow, advance, and collaborate on multidisciplinary projects that integrate software with various engineering and scientific disciplines.<br /><br /><b><u>Responsibilities:</u></b></p><ul><li>Assist in providing software engineering and web development expertise in support of software development and day-to-day operations of system operations and maintenance activities.</li><li>Collaborate with a team to develop and maintain a web-based thin-client software application.</li><li>Contribute to the development and maintenance of back-end services and processing.</li><li>Participate in the design and development of new capabilities and applications.</li><li>Derive requirements through interactions with project management and systems engineering teams.</li><li>Develop, test, deploy, and maintain software applications under supervision.</li><li>Adhere to software deployment best practices and configuration management workflows.</li><li>Support integration testing efforts.</li><li>Gain exposure to multidisciplinary solutions and products such as simulations, avionics, command and control systems, medical devices, sensors, and electro-mechanical systems.</li></ul><p><br /><b><u>Qualifications:</u></b><br /><br /><i>Required: </i></p><ul><li>Currently pursuing a Bachelor’s degree in Computer Science, Software Engineering, or a related field.</li><li>Basic understanding of User Interfaces (UIs), cross-browser compatibility, general web functions, and standards.</li><li>Web Development Skills: Familiarity with Java, JavaScript, HTML, HTML5, CSS, cross-browser compatibility, Web User Interface Design, Security Principles, Object-Oriented Design, Web Services, Groovy, Grails, and Angular.</li><li>Backend Development Skills: General knowledge of Python and Java.</li><li>No clearance requirement to begin employment. Interns will be required to obtain TS/SCI clearance as a condition of continued employment.</li><li>Some programming skills and experience.</li><li>Basic knowledge of Docker Containers.</li><li>Familiarity with build tools such as Jenkins, GitLab, and CI/CD development philosophies.</li></ul><p><br /><i>Desired:</i></p><ul><li>Some programming skills/experience</li><li>Docker Containers</li><li>Build tools such a Jenkins, Gitlab, and CI/CD development philosophies</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>-<p></p><p></p><p><b><u>What You Can Expect:</u></b></p><p><b> A culture of integrity.</b></p><p>At CACI, we place character and innovation at the center of everything we do. As a valued team member, you’ll be part of a high-performing group dedicated to our customer’s missions and driven by a higher purpose – to ensure the safety of our nation.</p><p><b>An environment of trust.</b></p><p>CACI values the unique contributions that every employee brings to our company and our customers - every day. You’ll have the autonomy to take the time you need through a unique flexible time off benefit and have access to robust learning resources to make your ambitions a reality.</p><p><b>A focus on continuous growth.</b></p><p>Together, we will advance our nation&#39;s most critical missions, build on our lengthy track record of business success, and find opportunities to break new ground — in your career and in our legacy.</p><p></p><p><br /></p><p><b><u>Pay Range</u></b>: </p><p>There are a host of factors that can influence final salary including, but not limited to, geographic location, Federal Government contract labor categories and contract wage rates, relevant prior work experience, specific skills and competencies, education, and certifications. Our employees value the flexibility at CACI that allows them to balance quality work and their personal lives. We offer competitive compensation, benefits and learning and development opportunities. Our broad and competitive mix of benefits options is designed to support and protect employees and their families. At CACI, you will receive comprehensive benefits such as; healthcare, wellness, financial, retirement, family support, continuing education, and time off benefits.</p><p></p><p>The proposed salary range for this position is: </p>$43,900 - 87,900 USD<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div></div><div><i>CACI is <span><span><span><span>an Equal Opportunity Employer.</span></span></span></span> All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, age, national origin, disability, status as a protected veteran, or any <span><span><span><span>other protected characteristic.</span></span></span></span></i></div>",
+    "location": "US CO Denver",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-23",
+    "timeType": "Part time",
+    "jobReqId": "325121",
+    "jobPostingId": "Software-Engineer-Intern---Summer-2026_325121",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "437 DENVER CO",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://caci.wd1.myworkdayjobs.com/External/job/US-CO-Denver/Software-Engineer-Intern---Summer-2026_325121",
+    "questionnaireId": "cabee52113e4100107ab21f4851f0000",
+    "timeLeftToApply": "24 days left to apply",
+    "endDate": "2026-05-18",
+    "jobPostingEndDateAsText": "End Date: May 18, 2026"
+  },
+  "hiringOrganization": {
+    "name": "02 CACI, INC.-FEDERAL",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Data Science Intern - Summer 2026",
+      "externalPath": "/job/US-CO-Denver/Data-Science-Intern---Summer-2026_324806",
+      "timeType": "Part time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 9 Days Ago",
+      "startDate": "2026-04-14",
+      "remoteType": "Hybrid",
+      "timeLeftToApply": "6 days left to apply",
+      "jobPostingEndDateAsText": "End Date: April 30, 2026"
+    },
+    {
+      "title": "Software Engineer, AI/ML Intern - Summer 2026",
+      "externalPath": "/job/US-CO-Denver/Software-Engineer--AI-ML-Intern---Summer-2026_323833",
+      "timeType": "Part time",
+      "locationsText": "US CO Denver",
+      "postedOn": "Posted 23 Days Ago",
+      "startDate": "2026-03-31",
+      "remoteType": "Onsite",
+      "timeLeftToApply": "21 days left to apply",
+      "jobPostingEndDateAsText": "End Date: May 15, 2026"
+    }
+  ],
+  "userAuthenticated": false
+}
