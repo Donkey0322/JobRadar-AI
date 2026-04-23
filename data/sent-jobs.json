@@ -1,5 +1,51 @@
 [
   {
+    "company": "Bosch group",
+    "role": "AI R&D Intern",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000122518830",
+    "location": "Sunnyvale, CA, United States",
+    "id": 759,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an M.S. student in Computer Science or related fields",
+        "Possess solid Python and/or C++ programming skills",
+        "Demonstrate good communication and team-working skills",
+        "Maintain a minimum GPA of 3.0"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Cadence",
+    "role": "Software Engineering Intern",
+    "link": "https://cadence.wd1.myworkdayjobs.com/univ_careers/job/SAN-JOSE/Software-Engineering-Intern_R54365-1",
+    "location": "SAN JOSE",
+    "id": 758,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Attending a BS, MS or PhD program in ME/EE/CS",
+        "Strong programming skills in C++",
+        "Deep familiarity with object-oriented programming methods",
+        "Prior knowledge and experience with distributed/multi-threaded programming",
+        "Knowledge of numerical analysis techniques",
+        "Knowledge of meshing techniques",
+        "Experience with finite-element based thermal simulation",
+        "Experience with CFD analysis",
+        "In-depth understanding of electric cooling of PCB/package/chip",
+        "Experience with automatic design optimization for thermal targets"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Chamberlain",
     "role": "Intern - AI/ML Software Engineer (Summer 2026)",
     "link": "https://chamberlain.wd1.myworkdayjobs.com/chamberlain_group/job/Oak-Brook-IL/Intern---AI-ML-Software-Engineer--Summer-2026-_JR30646",
