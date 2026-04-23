@@ -1,5 +1,35 @@
 [
   {
+    "company": "Figure",
+    "role": "Embedded Software Intern",
+    "link": "https://job-boards.greenhouse.io/figureai/jobs/4397706006?jr_id=69e82790e0cd471b2f12fc60",
+    "location": "San Jose, CA",
+    "id": 746,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Implement and test embedded software in C++",
+        "Develop Python scripts for data management, test automation or robot calibration",
+        "Contribute to development of CI/CD infrastructure",
+        "Support hardware/software integration in the lab",
+        "Final-year undergraduate student or recent graduate in Computer Science",
+        "Complete a minimum 10 weeks internship",
+        "Showcase extra-academic activities on hardware/software projects",
+        "Fluent with C++ and Python",
+        "Deep understanding of Linux",
+        "Good knowledge of computer architecture, communication buses and protocols",
+        "Comfortable using lab instruments and debugging tools",
+        "Experience with the Bazel build system",
+        "Experience with Docker containers",
+        "Experience with Rust"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Axway",
     "role": "Software Engineering Intern",
     "link": "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false",
