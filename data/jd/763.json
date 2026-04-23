@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "68b0cd1ea2321001ae8e6c864ad80000",
+    "title": "Software Intern - QA Engineering - Summer 2026",
+    "jobDescription": "<p style=\"text-align:left !important\">At ABB, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world.</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">This Position reports to:</p>R&amp;D Manager – North America<h3><br /> </h3><p>This internship is a full-time summer position scheduled for 2026, with a hybrid work model requiring three days per week onsite at the Dorval office. This position of Software Engineer is centered on the development, enhancement, and validation of software components across multiple projects. The role emphasizes contributing throughout the entire Software Development Lifecycle (SDLC), ensuring alignment with project timelines, quality standards, and organizational policies. It promotes Agile methodologies, continuous improvement, and collaborative teamwork within self-organizing, cross-functional teams to foster innovation and operational excellence.</p><p></p><p><b>Responsibilities</b></p><p>The intern will become an integral member of a specialized IoT team, contributing to improving software quality through the implementation of new procedures, structures, and tools. The role involves hands-on development, validation, and documentation tasks aligned with team priorities.</p><p></p><h3>Software Development &amp; Lifecycle Management</h3><ul><li>Demonstrates advanced proficiency in software engineering principles.</li><li>Engages in designing, developing, testing, deploying, and maintaining software solutions.</li><li>Incorporates practices such as Quality Engineering, DevOps, Cybersecurity, Release Management, and Support.</li><li>Independently manages all SDLC phases: Requirements gathering, Conceptualization and prototyping, Design and coding, Testing and deployment, Post-release support and maintenance</li></ul><p></p><h3>Methodologies &amp; Practices</h3><ul><li>Implements Agile methodologies to enable iterative, incremental delivery.</li><li>Prioritizes automation across development, testing, deployment, and maintenance to boost efficiency.</li><li>Applies innovative thinking for project initiation, troubleshooting, and process improvements.</li><li>Keeps abreast of emerging trends and technologies in software engineering.</li></ul><p></p><h3>Software Architecture &amp; Quality</h3><ul><li>Develops structured, maintainable, and well-documented codebases.</li><li>Applies software architecture principles and design patterns to enhance modularity, scalability, and performance.</li><li>Focuses on achieving optimal software metrics related to modularity, performance, and system robustness.</li></ul><p></p><p></p><p><b>Requirements</b></p><p>The ideal candidate must demonstrate a comprehensive set of technical competencies and linguistic proficiency:</p><ul><li>Student completing their bachelor degree in software or related engineering field</li></ul><p></p><h3>Programming &amp; Core Development</h3><ul><li>Proficiency in languages such as JavaScript, Python, C/C&#43;&#43;, or equivalent.</li><li>Deep understanding of software engineering best practices, including coding standards, testing, and deployment.</li><li>Ability to produce modular, maintainable, and thoroughly documented code.</li></ul><p></p><h3>DevOps &amp; Deployment</h3><ul><li>Familiarity with DevOps practices, including CI/CD pipelines.</li><li>Experience with cloud-based development environments.</li><li>Knowledge of software architecture and design patterns to support system scalability and robustness.</li></ul><p></p><h3>Quality Assurance &amp; Testing</h3><ul><li>Expertise in QA methodologies, including test automation, debugging, and performance testing.</li><li>Focus on ensuring software reliability, robustness, and resilience.</li><li>Capable of integrating new technologies into existing workflows for continuous improvement.</li></ul><p></p><h3>Compliance &amp; Best Practices</h3><ul><li>Ensures all activities comply with ABB standards, processes, and cybersecurity policies.</li><li>Promotes adherence to Free and Open-Source Software (FOSS) policies, ensuring ethical and legal use of open-source components.</li></ul><p></p><ul></ul><p><b>Why ABB? </b></p><p>We empower you to take initiative, challenge ideas, and lead with confidence. You’ll grow through meaningful work, continuous learning, and support that’s tailored to your goals. Every idea you share and every action you take contributes to something bigger. </p><p></p><p>#ABBCareers </p><p>#RunwithABB </p><p>#Runwhatrunstheworld </p><p>#LI-hybrid </p><p></p><h3> </h3><p style=\"text-align:left !important\"></p><p style=\"text-align:left !important\">Employment Equity &amp; Inclusion Statement (Canada)</p><p>ABB values the dedication, commitment, and expertise of all our employees. As an Employment Equity Employer, we are committed to fostering an inclusive and diverse workplace. We actively support the principles of the Employment Equity Act and strive to build a workforce that reflects Canada’s diversity, including:</p><p></p><p>• Women</p><p>• Indigenous Peoples</p><p>• Members of visible minorities</p><p>• Persons with disabilities</p><p></p><p>ABB is committed to providing reasonable accommodations to applicants with disabilities. If you require accommodation during any stage of the recruitment process, we encourage you to let us know.</p>",
+    "location": "Dorval, Quebec, Canada",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-23",
+    "timeType": "Full time",
+    "jobReqId": "JR00032762",
+    "jobPostingId": "Software-Intern---QA-Engineering---Summer-2026_JR00032762",
+    "jobPostingSiteId": "External_Career_Page",
+    "country": {
+      "descriptor": "Canada",
+      "id": "a30a87ed25634629aa6c3958aa2b91ea"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Dorval, Quebec, Canada",
+      "country": {
+        "descriptor": "Canada",
+        "id": "a30a87ed25634629aa6c3958aa2b91ea",
+        "alpha2Code": "CA"
+      }
+    },
+    "externalUrl": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Software-Intern---QA-Engineering---Summer-2026_JR00032762",
+    "questionnaireId": "8dfe7469d4ff1001a969c7dfe2220000",
+    "timeLeftToApply": "20 days left to apply",
+    "endDate": "2026-05-14",
+    "jobPostingEndDateAsText": "End Date: May 14, 2026"
+  },
+  "hiringOrganization": {
+    "name": "CATBL ABB Electrification Canada Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
