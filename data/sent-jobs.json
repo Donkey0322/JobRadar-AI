@@ -1,5 +1,153 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/72205/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 756,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems, Software, Electrical, Mechanical Engineering or related.",
+        "Currently pursuing a BS or MS in Computer Science, Software Engineering, or related field.",
+        "Proficient in one or more programming languages (e.g., Java, C++, Python).",
+        "Possess strong analytical and problem-solving skills.",
+        "Possess good communication and teamwork skills.",
+        "Identify opportunities to apply AI for continuous improvement and innovation.",
+        "Experienced with software development methodologies (Agile/Scrum).",
+        "Familiar with version control systems (e.g., Git)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 755,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related scientific or technical discipline.",
+        "Maintain a standing of sophomore or higher in an accredited degree program.",
+        "Assist in the design, development, and testing of software applications.",
+        "Collaborate with cross-functional engineering teams.",
+        "Participate in code reviews and technical discussions.",
+        "Document software designs and processes.",
+        "Support debugging and troubleshooting efforts.",
+        "Pursue a BS or MS in Computer Science, Software Engineering, or related field.",
+        "Proficient in one or more programming languages (e.g., Java, C++, Python).",
+        "Possess strong analytical and problem-solving skills.",
+        "Possess good communication and teamwork skills.",
+        "Identify opportunities to apply AI for continuous improvement and innovation.",
+        "Experience with software development methodologies (Agile/Scrum).",
+        "Familiar with version control systems (e.g., Git)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/72206/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 754,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology",
+        "Enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or related scientific or technical discipline with a preference for a standing of a sophomore or higher",
+        "Currently pursuing a BS or MS in Computer Science, Software Engineering, or related field",
+        "Proficient in one or more programming languages (e.g., Java, C++, Python)",
+        "Strong analytical and problem-solving skills",
+        "Good communication and teamwork skills",
+        "Identify opportunities to apply AI for continuous improvement and innovation",
+        "Experienced with software development methodologies (Agile/Scrum)",
+        "Familiar with version control systems (e.g., Git)"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Intern Software Engineer",
+    "link": "https://careers-gdms.icims.com/jobs/72207/job?mobile=true&needsRedirect=false",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 753,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, or Mechanical Engineering.",
+        "Maintain a standing of a sophomore or higher.",
+        "Currently pursuing a BS or MS in Computer Science, Software Engineering, or related field.",
+        "Proficient in one or more programming languages (e.g., Java, C++, Python).",
+        "Strong analytical and problem-solving skills.",
+        "Good communication and teamwork skills.",
+        "Identify opportunities to apply AI for continuous improvement and innovation.",
+        "Experience with software development methodologies (Agile/Scrum).",
+        "Familiar with version control systems (e.g., Git)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "FirstDay Foundation",
+    "role": "AI Automation Engineer Intern 🎓",
+    "link": "https://nphosting.wd5.myworkdayjobs.com/FDFCareers/job/San-Antonio-TX/AI-Automation-Engineer-Intern_REQ-027680",
+    "location": "San Antonio, TX",
+    "season": "2026 Summer",
+    "id": 752,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled graduate student.",
+        "Pursue a Master's degree in Computer Science, AI, or a closely related field.",
+        "Design and build AI-driven automation workflows.",
+        "Develop and deploy automation scripts.",
+        "Assist in building AI-powered document processing pipelines.",
+        "Prototype and implement LLM-driven solutions.",
+        "Support integration of AI capabilities into SaaS platforms.",
+        "Create and maintain data pipelines for AI/ML.",
+        "Collaborate to enhance analytics through AI augmentation.",
+        "Develop automation use cases for legacy data migration.",
+        "Assist in designing secure AI patterns.",
+        "Build internal tools or dashboards for AI outputs.",
+        "Self-motivated and dependable.",
+        "Detail-oriented and organized.",
+        "Possess intellectual curiosity in AI and automation.",
+        "Proficient in Python and/or JavaScript.",
+        "Familiar with SQL.",
+        "Exposed to AI/ML concepts, including LLMs, NLP, and document intelligence.",
+        "Familiar with API integration and middleware concepts.",
+        "Experienced with version control systems (Git/Bitbucket) and basic CI/CD processes.",
+        "Possess working knowledge of data pipeline tools and ETL processes.",
+        "Familiar with one or more enterprise platforms (Salesforce, Workday, SharePoint, or EHR systems).",
+        "Strong written and verbal communication skills.",
+        "Able to work collaboratively across cross-functional teams.",
+        "Possess analytical thinking and problem-solving mindset."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Vertiv group corporation",
     "role": "Data Science Internship (Summer 2026)",
     "link": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20271120",
