@@ -1,5 +1,34 @@
 [
   {
+    "company": "Hello Fresh",
+    "role": "AI Operations & Automation Intern",
+    "link": "https://careers.hellofresh.com/global/en/job/7848068?gh_jid=7848068",
+    "location": "NYC",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Tencent",
+    "role": "Game Research & Development Intern - Engine Research 🎓",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Lightspeed/job/US-California-Los-Angeles/Game-Research---Development-Intern--Engine-Research_R107344",
+    "location": "LA",
+    "season": "2026 Summer",
+    "id": 761,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong coding skills in C++, Python, TensorFlow/Torch.",
+        "Have solid knowledge in calculus, linear algebra, and numerical analysis.",
+        "Demonstrate a strong sense of responsibility and good communication skills.",
+        "Be a graduate student in a master's or Ph.D. level program.",
+        "Have publications on computer graphics/vision, machine learning, and robotics.",
+        "Be familiar with game engine, graphics APIs, and GPU programming."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Jci",
     "role": "Internship - Data Center Thermal Products Engineer",
     "link": "https://jci.wd5.myworkdayjobs.com/jci/job/New-Freedom-Pennsylvania-United-States-of-America/Internship---Data-Center-Thermal-Products-Engineer_WD30266466",
