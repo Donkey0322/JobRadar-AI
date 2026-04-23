@@ -1,5 +1,272 @@
 [
   {
+    "company": "Leggett & Platt",
+    "role": "Software Engineer Intern",
+    "link": "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 769,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s degree in Computer Science or related field.",
+        "Possess foundational knowledge of software development concepts and programming languages.",
+        "Demonstrate strong problem-solving and analytical skills.",
+        "Communicate effectively with technical and non-technical stakeholders.",
+        "Exhibit curiosity, adaptability, and eagerness to learn.",
+        "Experience with web development (frontend and/or backend).",
+        "Familiarity with APIs, databases, or cloud-based platforms.",
+        "Interest in employer branding, recruiting technology, or early-career talent programs.",
+        "Exposure to agile development, CI/CD, or version control systems."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "SW Engineering Intern",
+    "link": "https://careers-gdms.icims.com/jobs/72229/job?mobile=true&needsRedirect=false",
+    "location": "Manassas, VA",
+    "season": "2026 Summer",
+    "id": 768,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, or Mechanical Engineering.",
+        "Prefer a standing of a sophomore or higher.",
+        "Clear understanding of engineering concepts, principles, theories, and technical standards.",
+        "Creative thinker with ability to grasp and apply new information quickly.",
+        "Handle increasing responsibilities with growing complexity.",
+        "Team player who thrives in collaborative environments.",
+        "Commitment to ongoing professional development.",
+        "Demonstrated proficiency in Java and/or Javascript.",
+        "Comfort developing in a Linux environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "IT Intern - Hit",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117348",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "IT Intern",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117346",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "IT Intern",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117344",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "IT Intern - Hit",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117347",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Thales",
+    "role": "Software Engineer Intern",
+    "link": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Cincinnati/Software-Engineer-Intern_R0325488-1",
+    "location": "Cincinnati, OH",
+    "season": "2026 Summer",
+    "id": 767,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficiency in Python",
+        "Familiarity with Object Oriented Programming",
+        "Experience with documentation and report writing",
+        "Maintain a minimum 3.0 GPA or equivalent",
+        "Ability to quickly pick up internal processes",
+        "Proficiency with C/C++",
+        "Experience utilizing GIT",
+        "Familiar with Fuzzy Logic",
+        "Experience with controls science and/or optimization"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Fenwick & West",
+    "role": "Business Innovation Intern",
+    "link": "https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers/job/Silicon-Valley/Marketing-Intern_R2863-1",
+    "location": "7 locationsBoston, MASeattle, WASanta Monica, CAWashington, DCSFNYCMountain View, CA",
+    "season": "2026 Summer",
+    "id": 766,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a CS, data science, information systems, or related technical degree program.",
+        "Hands-on experience with programming (Python preferred), APIs, LLMs, or automation tools.",
+        "Translate ideas into working prototypes, measure effectiveness, and iterate based on evidence.",
+        "Demonstrate ability to work with non-technical users and translate needs into technical requirements.",
+        "Possess cloud platform experience (Azure Databricks, Microsoft Fabric, or similar).",
+        "Exhibit a bias toward building and shipping solutions.",
+        "Enrolled in a college degree program.",
+        "Strong attention to detail and organizational skills.",
+        "Clear written and verbal communication skills.",
+        "Ability to work collaboratively in a professional environment.",
+        "Interest in marketing, communications, AI, and/or data.",
+        "Familiarity with Microsoft Office and related tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Tencent",
+    "role": "Game Research & Development Intern - Engine Research",
+    "link": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Game-Research---Development-Intern--Engine-Research_R107363-1",
+    "location": "Bellevue, WA",
+    "season": "2026 Summer",
+    "id": 765,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong coding skills in C++, Python, TensorFlow/Torch",
+        "Solid knowledge in calculus, linear algebra, and basic numerical analysis",
+        "Possess a strong sense of responsibility and good communication skills",
+        "Enrolled in a master's or Ph.D. level program",
+        "Published work in computer graphics/vision, machine learning, or robotics",
+        "Familiar with game engines, graphics APIs, and GPU programming"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hello Fresh",
+    "role": "AI Operations & Automation Intern",
+    "link": "https://careers.hellofresh.com/global/en/job/7848068",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 764,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Act as a force multiplier",
+        "Amplify the President\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s impact",
+        "Rapidly prototype tools",
+        "Automate workflows",
+        "Automate and streamline executive operations",
+        "Use Claude Code and Cowork to build autonomous agents",
+        "Eliminate manual bottlenecks in executive operations",
+        "Build live demos for AI adoption",
+        "Support strategic evangelism for AI",
+        "Apply \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\"vibe coding\" principles",
+        "Build, test, and iterate on internal tools",
+        "Collaborate closely with the Chief of Staff",
+        "Identify high-leverage opportunities for AI-driven process improvements",
+        "Familiar with LLMs and prompt engineering",
+        "Proficient in agentic tools like Claude Code",
+        "Able to build software and automate tasks",
+        "Agile and fast in high-pressure environments",
+        "Able to pivot quickly based on executive feedback",
+        "Passionate about the future of AI",
+        "Demonstrate AI\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s power through working products",
+        "Proactive builder of functional solutions",
+        "Outcome-oriented with a focus on user experience",
+        "Build intuitive tools that solve problems",
+        "Recently completed a Bachelor\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s degree in Computer Science",
+        "Recently completed a Bachelor\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s degree in Software Engineering",
+        "Recently completed a Bachelor\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s degree in Data Science",
+        "Recently completed a Bachelor\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s degree in a related technical field",
+        "Proven experience using Claude (Code/Cowork)",
+        "Experienced with GitHub Copilot",
+        "Mastery of similar AI-assisted development environments",
+        "Strong foundational skills in Python",
+        "Strong foundational skills in JavaScript",
+        "Portfolio with AI-accelerated development projects",
+        "Portfolio with AI-automated complex process projects",
+        "Ability to work intuitively and rapidly",
+        "Translate high-level executive goals into functional tools with speed and agility"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "ABB",
+    "role": "Software Intern - Quality Assurance",
+    "link": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Dorval-Quebec-Canada/Software-Intern---QA-Engineering---Summer-2026_JR00032762",
+    "location": "Pointe-Claire, QC, Canada",
+    "season": "2026 Summer",
+    "id": 763,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Demonstrate advanced proficiency in software engineering principles.",
+        "Engage in designing, developing, testing, deploying, and maintaining software solutions.",
+        "Incorporate Quality Engineering, DevOps, Cybersecurity, Release Management, and Support practices.",
+        "Manage all SDLC phases independently, including requirements, design, testing, deployment, and support.",
+        "Implement Agile methodologies for iterative and incremental delivery.",
+        "Prioritize automation across development, testing, deployment, and maintenance.",
+        "Apply innovative thinking for project initiation, troubleshooting, and process improvements.",
+        "Keep abreast of emerging trends and technologies in software engineering.",
+        "Develop structured, maintainable, and well-documented codebases.",
+        "Apply software architecture principles and design patterns.",
+        "Achieve optimal software metrics for modularity, performance, and robustness.",
+        "Completing a bachelor's degree in software or related engineering field.",
+        "Proficient in JavaScript, Python, C/C++, or equivalent.",
+        "Deep understanding of software engineering best practices.",
+        "Produce modular, maintainable, and thoroughly documented code.",
+        "Familiar with DevOps practices and CI/CD pipelines.",
+        "Experienced with cloud-based development environments.",
+        "Knowledgeable in software architecture and design patterns.",
+        "Expert in QA methodologies, test automation, debugging, and performance testing.",
+        "Ensure software reliability, robustness, and resilience.",
+        "Capable of integrating new technologies for continuous improvement.",
+        "Comply with ABB standards, processes, and cybersecurity policies.",
+        "Promote adherence to Free and Open-Source Software (FOSS) policies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "IEM",
+    "role": "Application Engineering Tools & Resource Catalog Intern",
+    "link": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231416009",
+    "location": "Franklin, TN",
+    "season": "2026 Summer",
+    "id": 762,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Catalog existing training materials and engineering documents.",
+        "Organize and upload content into SharePoint.",
+        "Tag resources by type, product, and audience.",
+        "Cross-reference uploaded materials against a gap analysis.",
+        "Prepare an inventory summary.",
+        "Draft maintenance recommendations and suggest content owners."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Hello Fresh",
     "role": "AI Operations & Automation Intern",
     "link": "https://careers.hellofresh.com/global/en/job/7848068?gh_jid=7848068",
