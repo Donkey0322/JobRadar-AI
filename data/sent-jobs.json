@@ -1,5 +1,31 @@
 [
   {
+    "company": "Verkada",
+    "role": "AI Software Engineering Intern - Fall 2026",
+    "link": "https://job-boards.greenhouse.io/verkada/jobs/5117760007",
+    "location": "San Mateo, CA United States",
+    "id": 785,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Able to work at Verkada HQ during fall 2026.",
+        "Actively pursue a Bachelor's or Master's degree in Computer Science or similar technical field, graduating by June 2027.",
+        "Experienced in AI or Machine Learning, gained through an internship or research.",
+        "Strong ability to quickly build and iterate on new ideas in ambiguous problem spaces.",
+        "Experienced or interested in working with video, audio, and sensor data.",
+        "Familiar with modern machine learning approaches, especially multimodal or large models.",
+        "Comfortable experimenting with and applying large video and audio language models.",
+        "Solid engineering skills with a focus on shipping production-ready systems.",
+        "Able to balance rapid prototyping with scalable, reliable system design.",
+        "Self-driven mindset with a bias toward action and exploration."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Five9",
     "role": "Intern Associate Platform Engineer",
     "link": "https://www.five9.com/about/careers/job-detail?gh_jid=5981370004",
