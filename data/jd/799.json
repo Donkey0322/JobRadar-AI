@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "faf326119b8b10020639c2ce8bc20000",
+    "title": "Software Engineering Intern, JAX - Fall 2026",
+    "jobDescription": "<p><span><span>Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the world.</span> </span></p><p></p><p>Join our team in developing sophisticated performance optimizations for deep learning frameworks using JAX, a powerful tool that combines automatic differentiation with XLA for high-performance machine learning research. We are committed to creating a fast, modular, and coordinated platform for a wide range of deep learning solutions. Together, we will push the boundaries of AI and scientific computing to new frontiers! If you&#39;re a skilled programmer with a knack for elegant design and a passion for developing customer-facing solutions, this is your opportunity to make a lasting impact on our groundbreaking work. We&#39;re looking for highly motivated individuals with excellent verbal and written communication skills who are ready to tackle complex challenges in AI and scientific computing.</p><p></p><p><b>What You Will Be Doing:</b></p><ul><li><p>Make meaningful contributions to JAX by designing and implementing core components that drive phenomenal performance on the NVIDIA AI platform.</p></li><li><p>Increase the efficiency of teams developing JAX-based systems by develop tools that streamline the application of deep learning research and simulations to real-world products.</p></li></ul><p></p><p><b>What We Need To See:</b></p><ul><li><p>Pursuing a MS or PhD in Computer Science, Computer Engineering or equivalent program area.</p></li><li><p>Understanding of JAX, Autograd, tracing, code generation and DSL compilers</p></li><li><p>Working proficiency in Python, familiarity with C&#43;&#43;,</p></li><li><p>Knowledge of machine learning frameworks (e.g., PyTorch, TensorFlow, scikit-learn)</p></li></ul><p></p><p><b>Ways To Stand Out From The Crowd:</b></p><ul><li><p>Familiar with distributed systems, services, or Deep Learning at large scale</p></li><li><p>Ability to work optimally with multi-functional teams</p></li><li><p>Proven technical foundation in CPU and GPU architectures, numeric libraries, modular software design</p></li></ul><p></p><p>NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you&#39;re creative and autonomous, we want to hear from you!</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until April 28, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-24",
+    "timeType": "Full time",
+    "jobReqId": "JR2009745",
+    "jobPostingId": "Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
+    "questionnaireId": "3403860341171001f57d5c603f290000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
