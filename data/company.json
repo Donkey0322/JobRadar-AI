@@ -5378,7 +5378,8 @@
     "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994",
-      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2048"
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2048",
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2062"
     ]
   },
   {
@@ -6272,6 +6273,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-ANAHEIM-406--160-N-Riverview-Dr--BLDG-406-Ste-150/Software-Engineering-Intern--Summer-2026---Onsite-_01820474",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-SAN-JOSE-826--200-Holger-Way--BLDG-826-Ast/Software-Engineering-Intern----Summer-2026----Onsite-_01838965",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01812811",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/XMLNAME-2026-Raytheon-Part-Time-Co-op---SW-Platform-Engineer--Remote-_01840339",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01818590",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01820796",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S77--16470-E-Hughes-Dr--BLDG-S77/XMLNAME-2026-Intern---Software-Engineer-Intern---Onsite--CO-_01823508",
@@ -9223,7 +9225,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/twilio/jobs/7560246",
       "https://job-boards.greenhouse.io/twilio/jobs/7560248",
-      "https://job-boards.greenhouse.io/twilio/jobs/7748961"
+      "https://job-boards.greenhouse.io/twilio/jobs/7748961",
+      "https://job-boards.greenhouse.io/twilio/jobs/7850821"
     ]
   },
   {
@@ -10956,6 +10959,7 @@
       "https://jobs.jobvite.com/inogen/job/oz8IzfwI?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/o7Ghyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/nutanix/job/oFskyfwJ?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oTIbyfw4?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oUvFyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/ocuUzfwT?nl=1&nl=1&fr=false",
@@ -11535,6 +11539,7 @@
       "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
       "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
       "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+      "https://jobs.lever.co/palantir/9410b487-c6c0-4178-903c-3311ce6b1861/apply",
       "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply",
       "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
       "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
@@ -16745,7 +16750,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/five9/jobs",
     "urls": [
       "https://www.five9.com/about/careers/job-detail?gh_jid=5969160004",
-      "https://www.five9.com/about/careers/job-detail?gh_jid=5973615004"
+      "https://www.five9.com/about/careers/job-detail?gh_jid=5973615004",
+      "https://www.five9.com/about/careers/job-detail?gh_jid=5981370004"
     ]
   },
   {
