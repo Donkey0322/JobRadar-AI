@@ -1,5 +1,142 @@
 [
   {
+    "company": "Verizon",
+    "role": "AI Software Engineering Intern",
+    "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Dublin-Ireland/AI-Software-Engineering-Intern_R-1093515",
+    "location": "Dublin, Ireland",
+    "id": 775,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue or recently complete a Bachelor's or Master's Degree in Computer Science, Software Engineering, or equivalent.",
+        "Possess knowledge/experience in Object-Oriented Programming, Web Development, Unit Testing, Software Design Patterns, Algorithms, and Data Structures.",
+        "Have programming experience with C#, Java, Python, or relevant languages.",
+        "Be fluent in English.",
+        "Showcase work through university and personal projects.",
+        "Demonstrate strong work ethic and willingness to learn.",
+        "Work well with instruction and autonomously.",
+        "Possess previous work or volunteering experience.",
+        "Exhibit excellent interpersonal skills, motivation, and a positive attitude."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Verizon",
+    "role": "Software Engineering Intern",
+    "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Firenze-Italy/Software-Engineering-Intern_R-1093517",
+    "location": "Firenze, Italy",
+    "id": 774,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue or recently completed a Bachelor's or Master's Degree in Computer Science, Software Engineering, or equivalent.",
+        "Possess knowledge and/or experience in Object Oriented Programming, Web Development, Unit Testing, Software Design Patterns, Algorithms and Data Structures.",
+        "Have programming experience with C#, Java, Python, or relevant languages.",
+        "Fluent in English.",
+        "Showcase work through university curriculum and personal projects.",
+        "Demonstrate a strong work ethic and willingness to learn.",
+        "Able to work well with instruction and autonomously.",
+        "Possess previous work experience, related or unrelated to degree, or volunteering experience.",
+        "Exhibit excellent interpersonal skills, motivation, and a positive attitude."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Roche",
+    "role": "Internship in Innovation & Sustainability - For students in the field of Data Science, Data Analytics, Computer Science, Software Engineering, or Artificial Intelligence / Machine Learning",
+    "link": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Pune/Internship-in-Innovation---Sustainability---For-students-in-the-field-of-Data-Science--Data-Analytics--Computer-Science--Software-Engineering--or-Artificial-Intelligence---Machine-Learning_202604-110176",
+    "location": "Pune",
+    "id": 773,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Enrolled or completed Bachelor's or Master's studies in Data Science, Data Analytics, Computer Science, Software Engineering, or AI/ML within the last 12 months",
+        "Proficient in SQL and experienced in querying and analyzing large-scale datasets",
+        "Familiar with Snowflake or similar cloud data platforms (BigQuery, Redshift)",
+        "Able to use R for data analysis and prototyping",
+        "Experienced with data visualization tools such as Shiny dashboards",
+        "Basic knowledge of AI or machine learning for pattern detection is an advantage",
+        "A structured and analytical problem solver with strong attention to detail",
+        "Ability to turn findings into practical recommendations",
+        "A collaborative and independent communicator with strong English skills",
+        "Genuine curiosity for sustainability and AI",
+        "Extract and analyze compute usage data from Snowflake",
+        "Develop a methodology to estimate the carbon footprint of analytics workloads",
+        "Identify high-impact and inefficient queries",
+        "Build a prototype dashboard or application to visualize carbon impact",
+        "Apply AI, machine learning, or LLM-based techniques to analyze SQL queries",
+        "Generate optimization recommendations",
+        "Validate findings through a pilot use case",
+        "Document the methodology, assumptions, and limitations of the carbon estimation approach",
+        "Prepare a final report and presentation with key insights, optimization opportunities, and recommendations for scaling"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Sandisk",
+    "role": "#1 KR - FPE CE FrontEnd Intern For CY26 Autumn Semeter",
+    "link": "https://jobs.smartrecruiters.com/Sandisk/744000122622249",
+    "location": "Seoul, Seoul, Korea, republic of",
+    "id": 772,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Major in Computer/Electronic/Electrical Engineering or Computer Science",
+        "Understand basic firmware analysis",
+        "Familiar with C/C++/Python development",
+        "Possess basic communication skills in Korean and English"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Sandisk",
+    "role": "#2 KR - FPE CE Backend Intern For CY26 Autumn Semeter",
+    "link": "https://jobs.smartrecruiters.com/Sandisk/744000122620564",
+    "location": "Seoul, Seoul, Korea, republic of",
+    "id": 771,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Major in Computer, Electronic, or Electrical Engineering or Computer Science",
+        "Basic understanding of analyzing firmware",
+        "Familiarity with C/C++/Python development",
+        "Basic communication skill in both Korean and English"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Bosch group",
+    "role": "[BD] Software Developer Intern (Backend/ JavaScript / APIs / CI/CD )",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000122589949",
+    "location": "Hanoi, , Vietnam"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Intern, AIoT Software Developer",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000122598249",
+    "location": "Singapore, , Singapore"
+  },
+  {
     "company": "Industrial Electric Manufacturing",
     "role": "Intern - Productivity Data & Industrial Events",
     "link": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231433009",

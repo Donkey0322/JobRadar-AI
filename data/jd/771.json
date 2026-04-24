@@ -1,0 +1,130 @@
+{
+  "id": "744000122620564",
+  "name": "#2 KR - FPE CE Backend Intern For CY26 Autumn Semeter",
+  "uuid": "fddddee9-a6a0-491f-a2fb-8cc53a5afb58",
+  "jobId": "86418e8c-bbf3-4f69-b60d-a6b2882b9075",
+  "jobAdId": "8d4d405b-70e0-4acc-9550-8d7ab63b1382",
+  "defaultJobAd": true,
+  "refNumber": "REF31899H",
+  "company": {
+    "name": "Sandisk",
+    "identifier": "Sandisk"
+  },
+  "location": {
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "kr",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "37.56521290000001",
+    "longitude": "126.9773517",
+    "fullLocation": "Seoul, Seoul, Korea, republic of"
+  },
+  "customField": [
+    {
+      "fieldId": "669686519a20c22e85ee4de0",
+      "fieldLabel": "Positions",
+      "valueId": "P-0000189391",
+      "valueLabel": "#2 KR - FPE CE Backend Intern For CY26 Autumn Semeter (Unfilled)--P-0000189391"
+    },
+    {
+      "fieldId": "668e9411f0907530e1eeabc6",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Sandisk"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "kr",
+      "valueLabel": "Republic of Korea"
+    },
+    {
+      "fieldId": "6696897ee6ac421451ccecb6",
+      "fieldLabel": "Job Type (exemption status)",
+      "valueId": "5f54df38-41d3-4559-9067-0b50c42e6e4f",
+      "valueLabel": "Exempt position - Please see related compensation & benefits details below"
+    },
+    {
+      "fieldId": "669686a4d629634de16f0706",
+      "fieldLabel": "Business Function",
+      "valueId": "Engineering Support",
+      "valueLabel": "Engineering Support"
+    },
+    {
+      "fieldId": "6696868b17cd5c69db0ae8c6",
+      "fieldLabel": "Job Profile",
+      "valueId": "100131",
+      "valueLabel": "Intern 3, Engineering Support - 100131"
+    },
+    {
+      "fieldId": "6695842d77387650053fec10",
+      "fieldLabel": "Requisition Type",
+      "valueId": "78e86a23-1960-4c86-aa20-0f9695e85e60",
+      "valueLabel": "UR - Intern"
+    },
+    {
+      "fieldId": "6696883ca98410178a5f464e",
+      "fieldLabel": "Work Location",
+      "valueId": "LOC_WDT_KR1101",
+      "valueLabel": "Seoul Office--LOC_WDT_KR1101"
+    },
+    {
+      "fieldId": "6696887abc85fd294de46c98",
+      "fieldLabel": "Company",
+      "valueId": "CO_SD Sandisk Korea Ltd",
+      "valueLabel": "KR-SanDisk Korea Limited--CO_SD Sandisk Korea Ltd"
+    }
+  ],
+  "releasedDate": "2026-04-24T08:21:14.439Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/Sandisk/744000122620564--2-kr-fpe-ce-backend-intern-for-cy26-autumn-semeter",
+  "applyUrl": "https://jobs.smartrecruiters.com/Sandisk/744000122620564--2-kr-fpe-ce-backend-intern-for-cy26-autumn-semeter?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Sandisk/publication/fddddee9-a6a0-491f-a2fb-8cc53a5afb58?dcr_ci=Sandisk",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "회사 설명",
+        "text": "<p>Sandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today’s needs and tomorrow’s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we’re living in and that we have the power to shape.</p><p>&#xa0;</p><p>Sandisk meets people and businesses at the intersection of their aspirations and the moment, enabling them to keep moving and pushing possibility forward. We do this through the balance of our powerhouse manufacturing capabilities and our industry-leading portfolio of products that are recognized globally for innovation, performance and quality.</p><p>&#xa0;</p><p>Sandisk has two facilities recognized by the World Economic Forum as part of the Global Lighthouse Network for advanced 4IR innovations. These facilities were also recognized as Sustainability Lighthouses for breakthroughs in efficient operations. With our global reach, we ensure the global supply chain has access to the Flash memory it needs to keep our world moving forward.</p>"
+      },
+      "jobDescription": {
+        "title": "직무 설명",
+        "text": "<ol><li>Support to develop, debug, validate, and on embedded multi-core architectures&#xa0;</li><li>Support to initiate first FA on customer issues</li><li>Support to automate FW trace anaysis</li></ol>"
+      },
+      "qualifications": {
+        "title": "자격 요건",
+        "text": "<ol><li>Major In Computer/Electronic/Electrical Engineering or Computer Science&#xa0;</li><li>Basic understanding of analyzing&#xa0;firmware</li><li>Familiarity with C/C++/Python&#xa0;development&#xa0;</li><li>Basic communication skill in both Korean and English&#xa0;</li></ol>"
+      },
+      "additionalInformation": {
+        "title": "추가 정보",
+        "text": "<p>Sandisk thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution.</p><p>Sandisk is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at <a href=\"mailto:jobs.accommodations@sandisk.com\" rel=\"noopener noreferrer\">jobs.accommodations@sandisk.com</a> to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "computer_hardware",
+    "label": "Computer Hardware"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "ko",
+    "label": "Korean",
+    "labelNative": "한국어"
+  }
+}
