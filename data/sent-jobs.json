@@ -1,5 +1,37 @@
 [
   {
+    "company": "DV Trading",
+    "role": "2026 Summer Internship - DevOps Engineer",
+    "link": "https://job-boards.greenhouse.io/dvtrading/jobs/4677094005",
+    "location": "Chicago",
+    "id": 779,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Deploy and operate workloads on Kubernetes.",
+        "Work in a GitOps model using Argo CD.",
+        "Extend observability with OpenTelemetry, Prometheus, and Grafana.",
+        "Triage alerts end-to-end.",
+        "Build dashboards and panels from existing metrics.",
+        "Participate in platform upgrades.",
+        "Support migration of services from bare metal to Kubernetes.",
+        "Contribute to internal AI-assisted tooling.",
+        "Pursue a BS or MS in Computer Science or a related field.",
+        "Demonstrate hands-on Linux fundamentals.",
+        "Understand networking basics (DNS, TCP/HTTP/S, ports, load balancing).",
+        "Proficient in Git workflow.",
+        "Use Python for automation and scripting.",
+        "Interested in SRE/DevOps practices.",
+        "Experience with Kubernetes, Prometheus/Grafana, CI/CD, Terraform/Ansible, or cloud platforms.",
+        "Experience with AI coding assistants and agent patterns."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "SharkNinja",
     "role": "Summer 2026: Applied AI & Analytics Intern (May to August)",
     "link": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669665006",

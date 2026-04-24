@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/dvtrading/jobs/4677094005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4426687005,
+  "location": {
+    "name": "Chicago"
+  },
+  "metadata": null,
+  "id": 4677094005,
+  "updated_at": "2026-04-24T10:18:19-04:00",
+  "requisition_id": "299",
+  "title": "2026 Summer Internship - DevOps Engineer",
+  "company_name": "DV Trading",
+  "first_published": "2026-03-24T18:14:37-04:00",
+  "language": "en",
+  "content": "&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;About Us&lt;/strong&gt;:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Founded more than 15 years ago and headquartered in Chicago, the DV Group of financial services firms has grown to more than 450 people operating throughout North America and in Europe. Since spinning out of a large brokerage firm in 2016, DV Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers and users. Now, DV group affiliates include two broker dealers, a cryptocurrency market making firm, and a bourgeoning investment adviser.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Deploy and operate workloads on Kubernetes: containers, Pods, Deployments, Services, Ingress, and basic storage (PV/PVC concepts).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Work in a GitOps model using Argo CD (or equivalent): reconcile desired state from git, troubleshoot sync and health, propose safe changes via merge requests.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Extend observability: OpenTelemetry concepts, Prometheus targets and exporters, Grafana dashboards, and Alertmanager routing—always starting in lower environments.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Triage alerts end-to-end: validate signal, correlate with recent changes, document findings, and escalate with evidence.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Build dashboards and panels from existing metrics; add recording rules or queries only with review when appropriate.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Participate in platform upgrades (Kubernetes components, agents, or controllers) following runbooks and change windows.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Support migration of services from bare metal to Kubernetes under mentorship (discovery, manifests/Helm values, networking, cutover planning).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Contribute to internal AI-assisted tooling: use AI thoughtfully (verify outputs, protect secrets and customer data), and help improve safe, tool-based agents that use internal APIs and observability data.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong style=&quot;font-size: 12pt;&quot;&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Pursuing a BS or MS in Computer Science, Computer Engineering, Information Systems, or a related field.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Hands-on Linux fundamentals (shell, processes, logs, permissions, basic troubleshooting).&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Networking basics: DNS, TCP/HTTP/S, ports, load balancing vs Ingress at a conceptual level.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Git workflow: branches, merge requests, meaningful commit messages.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Python for automation and scripting; comfortable reading YAML for Kubernetes and CI configs.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Interest in SRE/DevOps practices: reliability, least privilege, documenting what you run.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Preferred: coursework or projects involving Kubernetes, Prometheus/Grafana, CI/CD, Terraform/Ansible, or cloud (AWS/GCP/Azure); contributions to homelab or open source.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Preferred: thoughtful use of AI coding assistants and interest in agent patterns (tools, guardrails, human review)—not required to ship ML models.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;em&gt;Compensation range: $30.00-$35.00/hr&lt;br&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;em data-stringify-type=&quot;italic&quot;&gt;DV is not accepting unsolicited resumes from search firms. Only search firms with valid, written agreements with DV should submit resumes in response to DV’s posted positions. All resumes submitted by search firms to DV via e-mail, the Internet, personal delivery, facsimile, or any other method without a valid written agreement shall be deemed the sole property of DV, and no fee will be paid in the event the candidate is hired by DV. DV is proud to be an equal opportunity employer and committed to creating an inclusive environment for all employees.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4037768005,
+      "name": "Campus ",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4002585005,
+      "name": "Chicago",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
