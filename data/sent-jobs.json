@@ -1,5 +1,240 @@
 [
   {
+    "company": "Nokia",
+    "role": "Support Software Developer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34551",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "NVIDIA",
+    "role": "Software Engineering Intern 🎓",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
+    "location": "Santa Clara, CA",
+    "season": "2026 Fall",
+    "id": 799,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue MS or PhD in Computer Science or Computer Engineering",
+        "Understand JAX, Autograd, tracing, code generation, and DSL compilers",
+        "Proficient in Python, familiar with C++",
+        "Knowledge of machine learning frameworks like PyTorch and TensorFlow",
+        "Familiar with distributed systems, services, or large-scale Deep Learning",
+        "Work effectively with multi-functional teams",
+        "Proven technical foundation in CPU/GPU architectures and modular software design"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "DuCharme, McMillen & Associates",
+    "role": "Software Development Intern",
+    "link": "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern_REQ460",
+    "location": "Fort Wayne, IN",
+    "season": "2026 Summer",
+    "id": 798,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in Computer Science or related field.",
+        "Maintain a minimum 3.0 Cumulative GPA.",
+        "Experience with object-oriented programming languages like C# or Java.",
+        "Familiar with scripting languages, MVC concepts, JDBC/SQL.",
+        "Possess knowledge of relational databases.",
+        "Able to work collaboratively within a team.",
+        "Exhibit excellent communication and interpersonal skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Paccar",
+    "role": "PFC IT Intern",
+    "link": "https://jobs.paccar.com/job/Bellevue-PFC-IT-Summer-Internship-Summer-Internship-2026-WA-98004/1387605533/?ats=successfactors",
+    "location": "Bellevue, WA",
+    "season": "2026 Summer",
+    "id": 797,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess knowledge of AI methodologies",
+        "Demonstrate self-motivation and energetic personality",
+        "Exhibit excellent written and oral communication skills",
+        "Understand Object-Oriented programming and software design methodologies",
+        "Develop applications in C#, .NET, HTML5, Java-Script, and SQL",
+        "Work effectively in team and customer support environments",
+        "Pursue a Bachelor's Degree in Information Systems or Computer Science",
+        "Be in Junior or senior academic standing"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Microchip Technology",
+    "role": "Engineering Intern - Business Intelligence",
+    "link": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Business-Intelligence-_R1727-26",
+    "location": "Chandler, AZ",
+    "season": "2026 Summer",
+    "id": 796,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Computer Engineering, Information Systems, or a related field.",
+        "Experience with Python for data wrangling and webapp development.",
+        "Experience with web application frameworks like Flask, FastAPI, or Streamlit.",
+        "Proficient in SQL and Excel for querying and manipulating structured data.",
+        "Skilled in Git for version control.",
+        "Ability to read datasets, form hypotheses, and communicate actionable findings.",
+        "Comfortable operating in a fast-paced environment with shifting priorities.",
+        "Possess strong attention to detail and a bias toward impact.",
+        "Experience with Docker or containerized deployments.",
+        "Experience using AI coding tools in development workflows.",
+        "Exposure to BI tools like Tableau or Power BI.",
+        "Interest in pricing, sales operations, or supply chain data."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Howmet Aerospace",
+    "role": "Product Engineer Intern",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117364",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Electronic Arts",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210840",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 795,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Experience writing code in an object-oriented or functional programming language",
+        "Understand APIs and service communication (e.g., REST, gRPC)",
+        "Familiarity with cloud-based development environments (e.g., AWS, Azure, GCP)",
+        "Exposure to debugging, logging, or monitoring concepts in distributed systems",
+        "Experience with observability tools (e.g., OpenTelemetry, Grafana, CloudWatch, Loki)",
+        "Familiarity with Scala, TypeScript, or Java",
+        "Basic understanding of distributed systems concepts",
+        "Experience with containers (Docker, Kubernetes)"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "AMN Healthcare",
+    "role": "Associate Intern - Software Developer",
+    "link": "https://amn.wd1.myworkdayjobs.com/amn_careers/job/Dallas-TX/Summer-Associate--Software-Developer-_Req23504",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 794,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a High School Diploma/GED",
+        "Have 0-2 years of work experience",
+        "Maintain a minimum 3.0 GPA",
+        "Pursue studies in Computer Science, Software Engineering, Information Systems, Data Science, or related fields"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "TIFIN",
+    "role": "AI Engineering Intern",
+    "link": "https://tifin.com/careers/apply/?gh_jid=5981740004",
+    "location": "Charlotte, NCBoulder, CO",
+    "season": "2026 Summer",
+    "id": 793,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or recently completed BS or MS in Computer Science, Engineering, or related field",
+        "Strong experience with Python",
+        "Familiarity with machine learning, AI, APIs, or backend development"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Visualization Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Visualization-Engineer-Intern_R-00181421-1",
+    "location": "Remote in USAReston, VA",
+    "season": "2026 Summer",
+    "id": 792,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited college or university pursuing a Bachelor's degree in Computer Science, Engineering, or related field",
+        "Able to take a semester off to work through the Fall (June-December) semester",
+        "Maintain a minimum 3.0 GPA",
+        "Able to obtain and maintain a Top Secret/SCI with Polygraph Security clearance",
+        "Willing and able to relocate to Reston, Virginia",
+        "Able to model and simulate real-world processes or systems",
+        "Experience working in an Agile Scrum environment",
+        "Experience understanding data collection, processing, and evaluation",
+        "Experience creating data representations for organizational action",
+        "Able to use computer programs to model systems and processes",
+        "Knowledge of UI/UX testing and design for VR headsets and AI wearables",
+        "Experience developing simulations for training, testing, or entertainment purposes",
+        "Knowledge of VR haptic applications",
+        "Experience assessing and evaluating UI/UX for VR applications",
+        "CompTIA A+ Certified",
+        "Knowledge of application of AI Agents",
+        "Experience designing workflows for user equipment and application setup",
+        "Experience in Video Production",
+        "Proficient in Python, C++, and MediaPipe Framework",
+        "Experience with Virtual Machines"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "IEM",
+    "role": "Application Engineering Co-Op",
+    "link": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4232212009",
+    "location": "Surrey, BC, Canada",
+    "season": "2026 Summer",
+    "id": 791,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently studying Electrical Engineering at an accredited university"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cerebras",
+    "role": "AI Engineering Intern - Growth Team",
+    "link": "https://boards.greenhouse.io/embed/job_app?token=7713841003",
+    "location": "Toronto, ON, CanadaSunnyvale, CA",
+    "season": "2026 Summer"
+  },
+  {
     "company": "Chamberlain",
     "role": "Intern, myQ Front End Developer (Android or iOS) (Summer 2026)",
     "link": "https://chamberlain.wd1.myworkdayjobs.com/chamberlain_group/job/Oak-Brook-IL/Intern--myQ-Front-End-Developer--Android-or-iOS---Summer-2026-_JR29298",
