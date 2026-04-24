@@ -1,5 +1,67 @@
 [
   {
+    "company": "ICF International",
+    "role": "Intern - Appian Developer",
+    "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Nationwide-Remote-Office-US99/XMLNAME-2026-Summer-Intern--Appian-Developer_R2601122",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 789,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Complete a minimum of 30 college-level credit hours in Computer Science, Information Systems, or related field",
+        "Have an interest in software development and technology, with exposure through coursework or personal projects",
+        "Eager to learn low-code development on the Appian platform",
+        "Familiar with basic programming concepts (e.g., Java, Python, JavaScript)",
+        "Strong problem-solving skills and attention to detail",
+        "Good communication skills and ability to work collaboratively",
+        "Curious and willing to learn new tools and methodologies, including Agile practices"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Intern",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/A4487B349D/",
+    "location": "Bensenville, IL",
+    "id": 788,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Cadence",
+    "role": "Software Engineer Intern, Circuit Simulation Infrastructure",
+    "link": "https://cadence.wd1.myworkdayjobs.com/en-US/external_careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R51758-1",
+    "location": "San Jose, CA",
+    "id": 787,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Previous exposure to circuit simulation",
+        "Experience in EDA-relevant software development",
+        "Proficient in C/C++ Unix development",
+        "Background in EDA algorithms based on graph theory",
+        "Knowledge of software optimization",
+        "Beneficial to have UI knowledge",
+        "Graduating in or before 2027 with a degree in Electrical Engineering, Computer Science, or related field",
+        "Strong understanding of analog/memory/custom IC design and verification practices"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Realtor.com Careers",
     "role": "Intern, Data Scientist",
     "link": "https://boards.greenhouse.io/rdccareers/jobs/7652491003?gh_jid=7652491003",
