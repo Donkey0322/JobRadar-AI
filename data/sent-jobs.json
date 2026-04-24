@@ -1,5 +1,94 @@
 [
   {
+    "company": "Five9",
+    "role": "Intern Associate Platform Engineer",
+    "link": "https://www.five9.com/about/careers/job-detail?gh_jid=5981370004",
+    "location": "United States (Remote)",
+    "id": 784,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess 2+ years college education in computer sciences",
+        "Experience with Contact Center environments",
+        "Ability to work remotely with little oversight",
+        "Be inquisitive and ask questions",
+        "Be a self-starter with excellent time management",
+        "Able to manage multiple activities simultaneously",
+        "Possess excellent verbal and written skills",
+        "Have strong technical aptitude in object-based development tools",
+        "Develop and maintain positive client relationships",
+        "Possess solid verbal and written communication skills",
+        "Understand and translate needs into solutions",
+        "Experience with multiple development languages/tools",
+        "Collaborate effectively in a team environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Twilio",
+    "role": "Software Engineer Intern (22nd June - 11th September, remote-US)",
+    "link": "https://job-boards.greenhouse.io/twilio/jobs/7850821",
+    "location": "Remote - US",
+    "id": 783,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working towards a Bachelors, Masters, or PhD degree in computer science, computer engineering or a related field",
+        "Possess a hungry entrepreneurial and \"can do\" spirit",
+        "Explored writing code in Python, Java, Javascript, Golang, C, or C++",
+        "Knowledge of unit and integration testing methodologies",
+        "Ability to write, debug and deploy testing frameworks",
+        "Experienced in data processing, analytics, business intelligence, and reporting",
+        "Experienced with technologies such as Hadoop, Spark, AWS, Scala, etc.",
+        "Keen interest in software development with several side projects",
+        "Part of the open source community"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Globalhr",
+    "role": "2026 Raytheon Part Time Co-op - SW Platform Engineer (Remote)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/XMLNAME-2026-Raytheon-Part-Time-Co-op---SW-Platform-Engineer--Remote-_01840339",
+    "location": "US-CO-AURORA-S75 ~ 16800 E Centretech Pkwy ~ BLDG S75",
+    "id": 782,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a senior or post-graduate student with expected graduation in May or August 2027 in Computer Science or related STEM field.",
+        "Experienced in software development using scripting languages like Python, Perl, Ruby, Bash, or Shell.",
+        "Ability to obtain and maintain a U.S. government issued TS/SCI security clearance.",
+        "Apply basic engineering principles, theories, and concepts.",
+        "Develop solutions to routine technical problems.",
+        "Strong team player with excellent written and verbal communication skills.",
+        "Knowledge of Linux, Windows, or related operating systems at the Command Line Interface.",
+        "Experienced using development tools like Ansible, Chef, Docker, Rancher, Kubernetes, GIT, Jenkins, Jira, or Confluence.",
+        "Experienced with network design and architecture schemes.",
+        "Experienced with Cloud Technologies such as AWS, Google, or Gov.",
+        "Experienced with DevSecOps toolsets as a user or implementor.",
+        "Knowledge of Software Development Lifecycle, including Agile philosophy.",
+        "Experienced with cybersecurity concepts."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Savannah river national laboratory (srnl)",
+    "role": "Software Developer ASPIRE Undergraduate Intern",
+    "link": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2062",
+    "location": "Aiken, SC, United States"
+  },
+  {
     "company": "Nutanix",
     "role": "Software Engineering Intern - Python - SDN",
     "link": "https://jobs.jobvite.com/nutanix/job/oFskyfwJ?nl=1&nl=1&fr=false",
