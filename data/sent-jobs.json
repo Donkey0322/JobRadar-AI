@@ -1,5 +1,41 @@
 [
   {
+    "company": "Realtor.com Careers",
+    "role": "Intern, Data Scientist",
+    "link": "https://boards.greenhouse.io/rdccareers/jobs/7652491003?gh_jid=7652491003",
+    "location": "Austin, Texas, United States",
+    "id": 786,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Collaborate with stakeholders to identify business problems and opportunities.",
+        "Utilize advanced statistical learning and mathematical techniques.",
+        "Lead team in designing experiments, conducting A/B tests, and performing statistical analysis.",
+        "Contribute to the development and maintenance of data pipelines, integration, and visualization tools.",
+        "Partner closely with Machine Learning Engineering teams to enhance business processes.",
+        "Passionate with an aptitude to quickly learn new and emerging technologies.",
+        "Self-starter willing to jump into difficult situations.",
+        "Insanely curious, analytical, and loves solving problems.",
+        "Agile, adaptable, and able to obtain results from cross-functional teams.",
+        "Strong verbal, written, and presentation communication skills.",
+        "Understand data life cycle and lineage.",
+        "Able to translate business needs and data insights into a compelling story.",
+        "Currently enrolled in an accredited 4-year College or University, pursuing a Master's Degree in Data Science, Computer Science, Engineering, or related.",
+        "Experience in one or more of SQL, Python, dbt, Airflow, R, Tableau, or other data tools.",
+        "Graduation date between December 2026 and June 2027.",
+        "Able to complete the full eleven-week internship between June 1, 2026, and August 14, 2026.",
+        "Able to work well in a team setting.",
+        "Demonstrate a positive attitude, professionalism, attention to detail, and a strong work ethic.",
+        "Desire to embrace new challenges.",
+        "Experience dealing with multiple competing priorities and projects."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Verkada",
     "role": "AI Software Engineering Intern - Fall 2026",
     "link": "https://job-boards.greenhouse.io/verkada/jobs/5117760007",
