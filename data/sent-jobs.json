@@ -1,5 +1,48 @@
 [
   {
+    "company": "Nutanix",
+    "role": "Software Engineering Intern - Python - SDN",
+    "link": "https://jobs.jobvite.com/nutanix/job/oFskyfwJ?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 781,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Possess strong programming skills in Python, Java, and/or Golang.",
+        "Solid understanding of Linux operating systems and networking concepts.",
+        "Knowledge of software-defined networking (SDN) principles and multi-tenant architectures.",
+        "Exposure to cloud computing and hybrid cloud environments.",
+        "Able to collaborate effectively with cross-functional teams and technical staff.",
+        "Strong problem-solving skills and a willingness to learn.",
+        "Currently pursuing or recently completed a degree in Computer Science or related field.",
+        "Possess effective communication skills for articulating technical concepts."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Year at Palantir – Intern",
+    "link": "https://jobs.lever.co/palantir/9410b487-c6c0-4178-903c-3311ce6b1861/apply",
+    "location": "Washington, DC",
+    "season": "2026 Summer",
+    "id": 780,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently studying Engineering (Computer Science, Mathematics, Software Engineering, Physics, or Data Science)",
+        "Proficient in programming languages like Python, Java, C++, TypeScript/JavaScript",
+        "Eligible to obtain US security clearance"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "DV Trading",
     "role": "2026 Summer Internship - DevOps Engineer",
     "link": "https://job-boards.greenhouse.io/dvtrading/jobs/4677094005",
