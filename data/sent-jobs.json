@@ -1,5 +1,87 @@
 [
   {
+    "company": "SharkNinja",
+    "role": "Summer 2026: Applied AI & Analytics Intern (May to August)",
+    "link": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669665006",
+    "location": "Miami, Florida, United States",
+    "id": 778,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Support scoping and analysis of business questions",
+        "Write AI prompts and assist in data cleaning",
+        "Design and iterate on AI prompts",
+        "Build dashboards, reports, or models using AI tools",
+        "Assist in identifying trends and insights through AI",
+        "Use AI tools to improve efficiency",
+        "Contribute to agentic workflow prototypes",
+        "Contribute to communication materials for stakeholders",
+        "Identify data gaps and opportunities for improvement",
+        "Currently enrolled in a bachelor's or master's program",
+        "Able to work a full-time, 40-hour-per-week schedule with a minimum of 3 days per week onsite in Miami, FL",
+        "Experienced with data visualization tools (Tableau, Power BI, Looker, or similar)",
+        "Experienced actively building with AI tools (LLMs, automation workflows, or agent frameworks)",
+        "Experienced working with real-world or messy datasets",
+        "Possess working knowledge of SQL, Python, or similar tools",
+        "Able to approach problems in a structured and logical way",
+        "Interested in consumer products, retail, or e-commerce",
+        "Adopt a 'no delays' mentality",
+        "Prioritize progress over perfection",
+        "Bring rigor to data preparation, model assumptions, and analytical outputs",
+        "Develop strong cross-functional relationships",
+        "Possess strong communication and presentation skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "SharkNinja",
+    "role": "Fall 2026: Applied AI & Analytics Co-op (July to December)",
+    "link": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006",
+    "location": "Miami, Florida, United States",
+    "id": 777,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Own end-to-end scoping, analysis, and delivery of business problems",
+        "Design, iterate, and document AI prompts and workflows",
+        "Take ownership of data preparation pipelines for assigned projects",
+        "Build and maintain dashboards, reports, or models",
+        "Identify trends and translate into actionable recommendations",
+        "Use AI tools to improve efficiency and automate analytical workflows",
+        "Develop and test agentic workflow prototypes",
+        "Present findings and recommendations to team leads and business stakeholders",
+        "Identify data gaps or inconsistencies and propose solutions",
+        "Currently enrolled in a bachelor's or master's program, or recent graduate",
+        "Experience with data visualization tools (Tableau, Power BI, Looker)",
+        "Demonstrated experience building with AI (LLMs, automation workflows, agent frameworks, or prompt engineering)",
+        "Experience working with real-world or messy datasets",
+        "Working knowledge of SQL, Python, or similar tools through coursework or projects",
+        "Ability to approach problems in a structured and logical way",
+        "Interest in consumer products, retail, or e-commerce",
+        "Adopt a 'no delays' mentality in delivering against market needs",
+        "Make quick, daily progress and continuously adapt to achieve results",
+        "Bring rigor to data preparation, model assumptions, and analytical outputs",
+        "Develop strong cross-functional relationships",
+        "Strong communication skills",
+        "Deliver effective presentations to all levels of management"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Savannah river national laboratory (srnl)",
+    "role": "Software Developer ASPIRE Undergraduate Intern",
+    "link": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2048",
+    "location": "Aiken, SC, United States"
+  },
+  {
     "company": "Globalhr",
     "role": "SkillBridge Intern DoD: Information System Security Officer - Tucson, AZ",
     "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M05--1151-E-Hermans-Rd--BLDG-M05-External-Site/SkillBridge-Intern-DoD--Information-System-Security-Officer---Tucson--AZ_01840926",

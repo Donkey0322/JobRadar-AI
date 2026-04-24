@@ -5377,7 +5377,8 @@
     "domain": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
-      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994"
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994",
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2048"
     ]
   },
   {
@@ -8893,7 +8894,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/sharkninjaoperatingllc/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4601472006",
-      "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4601474006"
+      "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4601474006",
+      "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669665006",
+      "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4669676006"
     ]
   },
   {
