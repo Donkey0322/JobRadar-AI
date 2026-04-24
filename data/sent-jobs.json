@@ -1,5 +1,31 @@
 [
   {
+    "company": "Industrial Electric Manufacturing",
+    "role": "Intern - Productivity Data & Industrial Events",
+    "link": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231433009",
+    "location": "Franklin, Tennessee, United States",
+    "id": 770,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Research industry conferences, webinars, and technical events.",
+        "Identify potential sponsors and align activities for team members.",
+        "Review existing dashboards and refresh visualizations.",
+        "Explore ServiceNow workflows to improve data capture.",
+        "Pull quote drawing request data from Salesforce.",
+        "Support integration and data feeds into Tableau.",
+        "Spot-check data for accuracy and consistency.",
+        "Document data sources, field definitions, and assumptions.",
+        "Produce an AE Events & Activities catalog.",
+        "Deliver updated AE productivity dashboards."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Leggett & Platt",
     "role": "Software Engineer Intern",
     "link": "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors",

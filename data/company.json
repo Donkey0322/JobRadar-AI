@@ -170,6 +170,7 @@
     "domain": "https://abb.wd3.myworkdayjobs.com/external_career_page",
     "page": "https://abb.wd3.myworkdayjobs.com/wday/cxs/abb/external_career_page/jobs",
     "urls": [
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Dorval-Quebec-Canada/Software-Intern---QA-Engineering---Summer-2026_JR00032762",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Fort-Smith-Arkansas-United-States-of-America/IS-IT---Intern_JR00018016",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Salesforcecom-Agile-Delivery-Intern--Summer-2026_JR00015449",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/Software-Engineering-Intern--Summer-2026_JR00015149",
@@ -2610,7 +2611,8 @@
       "https://careers-gdms.icims.com/jobs/72205/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72206/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72207/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72229/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -3360,6 +3362,16 @@
     ]
   },
   {
+    "name": "careers.hellofresh.com",
+    "ats": "custom",
+    "identifier": "careers.hellofresh.com",
+    "domain": "https://careers.hellofresh.com",
+    "page": "",
+    "urls": [
+      "https://careers.hellofresh.com/global/en/job/7848068"
+    ]
+  },
+  {
     "name": "careers.hfsinclair.com",
     "ats": "custom",
     "identifier": "careers.hfsinclair.com",
@@ -3462,6 +3474,16 @@
     "page": "",
     "urls": [
       "https://careers.l3harris.com/en/job/-/-/4832/86251645088"
+    ]
+  },
+  {
+    "name": "careers.leggett.com",
+    "ats": "custom",
+    "identifier": "careers.leggett.com",
+    "domain": "https://careers.leggett.com",
+    "page": "",
+    "urls": [
+      "https://careers.leggett.com/job/Detroit-Software-Engineer-Intern-MI/1385086400/?ats=successfactors"
     ]
   },
   {
@@ -5659,7 +5681,11 @@
     "page": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/116811",
-      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117167"
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117167",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117344",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117346",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117347",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117348"
     ]
   },
   {
@@ -5723,6 +5749,16 @@
     "page": "https://fanniemae.wd1.myworkdayjobs.com/wday/cxs/fanniemae/fanniemaecareers/jobs",
     "urls": [
       "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Reston-Town-Center/Campus---Technology-Program-Intern-_JR1262"
+    ]
+  },
+  {
+    "name": "fenwick",
+    "ats": "workday",
+    "identifier": "fenwick-fenwick_external_careers",
+    "domain": "https://fenwick.wd1.myworkdayjobs.com/fenwick_external_careers",
+    "page": "https://fenwick.wd1.myworkdayjobs.com/wday/cxs/fenwick/fenwick_external_careers/jobs",
+    "urls": [
+      "https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers/job/Silicon-Valley/Marketing-Intern_R2863-1"
     ]
   },
   {
@@ -8157,6 +8193,17 @@
     "urls": [
       "https://job-boards.greenhouse.io/impiricus/jobs/5160169008",
       "https://job-boards.greenhouse.io/impiricus/jobs/5160382008"
+    ]
+  },
+  {
+    "name": "industrialelectricmanufacturing",
+    "ats": "greenhouse",
+    "identifier": "industrialelectricmanufacturing",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/industrialelectricmanufacturing/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231416009",
+      "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231433009"
     ]
   },
   {
@@ -15418,6 +15465,7 @@
       "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/UK-London/Software-Engineering-Intern_R107162-1",
       "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Los-Angeles/Game-Research---Development-Intern--Engine-Research_R105487-1",
       "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/IT-Application-Developer--AI-Driven-IT-Ops--Intern_R107285",
+      "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-Washington-Bellevue/Game-Research---Development-Intern--Engine-Research_R107363-1",
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R105781",
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-California-Palo-Alto/IT-Application-Developer---AI-Driven-IT-Ops---Intern_R106286",
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1"
@@ -15451,6 +15499,7 @@
     "domain": "https://thales.wd3.myworkdayjobs.com/careers",
     "page": "https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/careers/jobs",
     "urls": [
+      "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Cincinnati/Software-Engineer-Intern_R0325488-1",
       "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Ottawa/COOP-Software-Developer--Summer-Fall-2026--8-months-term-_R0318614",
       "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Ottawa/Cloud-Software-Development-Engineer---COOP_R0312578-1",
       "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Pennsylvania/Software-Development-Intern_R0317650-1"
