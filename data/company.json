@@ -580,6 +580,16 @@
     ]
   },
   {
+    "name": "amn",
+    "ats": "workday",
+    "identifier": "amn-amn_careers",
+    "domain": "https://amn.wd1.myworkdayjobs.com/amn_careers",
+    "page": "https://amn.wd1.myworkdayjobs.com/wday/cxs/amn/amn_careers/jobs",
+    "urls": [
+      "https://amn.wd1.myworkdayjobs.com/amn_careers/job/Dallas-TX/Summer-Associate--Software-Developer-_Req23504"
+    ]
+  },
+  {
     "name": "amperity",
     "ats": "greenhouse",
     "identifier": "amperity",
@@ -1740,6 +1750,7 @@
       "https://boards.greenhouse.io/embed/job_app?token=7449835",
       "https://boards.greenhouse.io/embed/job_app?token=7531477",
       "https://boards.greenhouse.io/embed/job_app?token=7531481",
+      "https://boards.greenhouse.io/embed/job_app?token=7713841003",
       "https://boards.greenhouse.io/embed/job_app?token=7842108002"
     ]
   },
@@ -4736,6 +4747,16 @@
     ]
   },
   {
+    "name": "dmainc",
+    "ats": "workday",
+    "identifier": "dmainc-dma",
+    "domain": "https://dmainc.wd5.myworkdayjobs.com/dma",
+    "page": "https://dmainc.wd5.myworkdayjobs.com/wday/cxs/dmainc/dma/jobs",
+    "urls": [
+      "https://dmainc.wd5.myworkdayjobs.com/dma/job/Fort-Wayne-IN/Software-Development-Intern_REQ460"
+    ]
+  },
+  {
     "name": "dowjones.jobs",
     "ats": "custom",
     "identifier": "dowjones.jobs",
@@ -5621,6 +5642,7 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32446",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32692",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32830",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34551",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34636"
     ]
   },
@@ -5691,7 +5713,8 @@
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117344",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117346",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117347",
-      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117348"
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117348",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117364"
     ]
   },
   {
@@ -8213,7 +8236,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/industrialelectricmanufacturing/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231416009",
-      "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231433009"
+      "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4231433009",
+      "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4232212009"
     ]
   },
   {
@@ -10882,6 +10906,7 @@
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-ML-AI/213550",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Physics/211103",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210835",
+      "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210840",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210854",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210881",
       "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/210894",
@@ -11947,6 +11972,7 @@
     "domain": "https://jobs.paccar.com",
     "page": "",
     "urls": [
+      "https://jobs.paccar.com/job/Bellevue-PFC-IT-Summer-Internship-Summer-Internship-2026-WA-98004/1387605533/?ats=successfactors",
       "https://jobs.paccar.com/job/Kirkland-Summer-2026-Intern-Application-Developer-%28OH%29-WA-98033/1260990901/",
       "https://jobs.paccar.com/job/Mount-Vernon-Software-Engineering-Intern-Powertrain-Development-WA-98273-9671/1290590101/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
@@ -12814,6 +12840,7 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Software-Engineer-Intern_R-00168717",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/Software-Development-Intern_R-00176074-1",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Software-Engineer-Intern_R-00176962",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Visualization-Engineer-Intern_R-00181421-1",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/XMLNAME---Intern---Software-Engineer-_R-00181496",
       "https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Mission-Operations-Engineer-Intern_R-00179551",
       "https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Software-Development-INtern_R-00175935",
@@ -13732,6 +13759,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2026-Ignite-Internships--Software-Engineering_JR2005168",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quantum-Computing-Software-Intern---Summer-2026_JR2010186-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--CUDA-Build-and-Packaging---Summer-2026_JR2012415-1",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Omniverse---Summer-2026_JR2007644",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Autonomous-Vehicles-and-Robotics_JR2003207",
@@ -15588,6 +15616,16 @@
     ]
   },
   {
+    "name": "tifin",
+    "ats": "greenhouse",
+    "identifier": "tifin",
+    "domain": "https://tifin.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/tifin/jobs",
+    "urls": [
+      "https://tifin.com/careers/apply/?gh_jid=5981740004"
+    ]
+  },
+  {
     "name": "tmobile",
     "ats": "workday",
     "identifier": "tmobile-external",
@@ -16252,6 +16290,7 @@
       "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/United-States---Philadelphia-PA/Services-Solutions-Technical-Architect-Intern_JR_14535",
       "https://wd5.myworkdaysite.com/en-US/recruiting/guidewire/external/job/United-States---San-Mateo-CA/Go-To-Market-AI-Engineer-Intern_JR_14295",
       "https://wd5.myworkdaysite.com/en-US/recruiting/microchiphr/External/job/CA---Roseville/Intern---Engineering--Applications-_R383-26",
+      "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Intern---Engineering--Business-Intelligence-_R1727-26",
       "https://wd5.myworkdaysite.com/recruiting/oatey/Oatey_External_/job/Cleveland-OH-Headquarters/Product-Management-Intern_R6564",
       "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Columbus-OH/Summer-2026-Internship---Computer-Science-Majors--Columbus--OH-_R12325",
       "https://wd5.myworkdaysite.com/recruiting/westernalliancebank/WAB/job/Columbus-OH/Summer-2026-Internship---Computer-Science-Majors_R11786",
