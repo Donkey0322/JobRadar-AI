@@ -1,5 +1,25 @@
 [
   {
+    "company": "Onapsis",
+    "role": "Go-to-Market AI Pod Intern",
+    "link": "https://job-boards.greenhouse.io/onapsis/jobs/8490508002",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 818,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Advanced undergraduate student in business, CS, data science, or a related field",
+        "Hands-on experience with or strong interest in prompt engineering, LLMs, and AI tooling",
+        "Comfortable with SaaS platforms, API integrations, and workflow automation tools",
+        "Self-starter who thrives with ownership and can manage multiple build projects simultaneously"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Fiserv",
     "role": "Data Analysis - Summer Intern",
     "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Data-Analysis---Summer-Intern_R-10390248",
