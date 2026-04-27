@@ -1,0 +1,79 @@
+{
+  "jobPostingInfo": {
+    "id": "1ee8afd649271001024d30388ec80001",
+    "title": "System & Electricronics Engineering Intern",
+    "jobDescription": "<h1><span class=\"emphasis-3\"><b><b><b>Job Description Summary</b></b></b></span></h1><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><span class=\"emphasis-3\"><b>Job Description</b></span></h1><p><b>Electronics and Systems Engineering Internship 2026-2027</b></p><p></p><p><b>GE Vernova Grid Solutions: Asset Monitoring </b></p><h2></h2><p>This 1-year internship will be based at the GE Vernova Grid Solutions Asset Monitoring site in Lisburn, Northern Ireland and is an excellent opportunity for an enthusiastic university student or recent graduate who is interested in the application of their embedded systems &amp;/or test engineering knowledge in industry.</p><p>The Asset Monitoring product line is a class leading vendor of sensing devices and systems to electrical utilities and industrial customers. The product line spans sensing of multiple asset types and has a broad portfolio of advanced technology, which aid customers to understand and optimize the operating condition of key assets such as HV/MV power transformers and circuit breakers.</p><p></p><p><b>Role responsibilities</b></p><ul><li>Learn and understand the architecture and operation of GE Vernova transformer and asset monitoring systems with support from technical mentors</li><li>Support engineers in developing and improving M&amp;D monitoring products at both system and hardware levels.</li><li>Support system design activities, including block diagrams, interface definitions, technical documentation, and requirement traceability</li><li>Collaborate with firmware, hardware, and test engineers to support development of new product features and sub-system enhancements</li><li>Work hands-on with electronics, mechanical assemblies, and basic firmware/software integration to support concept builds and feature evaluation</li><li>Contribute to hands-on hardware prototyping activities involving electronics, mechanical assemblies, sensors, and PCBAs</li><li>Participate in system and hardware testing and validation, capturing results, defects, and observations in structured formats</li><li>Prepare and share test findings and experimental data with the team to support design decisions and risk reduction</li><li>Apply GE Vernova ways of working and maintain a strong safety-first mindset during all laboratory and engineering activities</li><li>Carry out additional duties as requested by the line manager</li></ul><p></p><p><b>Essential criteria</b></p><ul><li>Currently studying toward, or recently completed, a degree in Systems Engineering, Electronic Engineering, Computer Engineering, Mechatronics, or a related technical discipline</li><li>Basic understanding of electronic components and hardware and firmware design</li><li>Familiarity with schematics (system/electronics)</li><li>Basic usage of lab and test equipment (for example multimeter, oscilloscopes, soldering tools, DAQ systems, and environmental rigs)</li><li>Ability to work effectively both independently and as part of a cross-functional team</li><li>Methodical problem-solving approach and good organisational skills</li><li>Ability to communicate technical information clearly in writing and verbally</li><li>Ability to present data clearly and draw meaningful conclusions</li><li>Curiosity and initiative: willing to ask questions, try new approaches and explore design alternatives</li><li>Safety-conscious mindset, especially when working with electronics and lab equipment</li></ul><p></p><p><b>Desirable Criteria</b></p><ul><li>Exposure to software development and test processes and tracking tools</li><li>Basic understanding of embedded/system development tools (for example compilers, debuggers, and version control)</li><li>Programming experience in at least one language (for example C, C&#43;&#43;, or Python)</li><li>Basic understanding of embedded operating systems such as Linux/RTOS/etc</li><li>Usage of ECAD software such as KiCAD, Eagle, Altium</li></ul><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><span class=\"emphasis-3\"><b><b><b>Additional Information</b></b></b></span></h1><div><div><div><div><div><div><div><p style=\"text-align:left\"><b>Relocation Assistance Provided: </b>No</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p></div></div></div></div></div></div></div><p></p><p></p>",
+    "location": "Lisburn",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-27",
+    "timeType": "Full time",
+    "jobReqId": "R5037346",
+    "jobPostingId": "System---Electricronics-Engineering-Intern_R5037346-3",
+    "jobPostingSiteId": "Only_Confidential_Executive_Recruiting",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Lisburn",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "externalUrl": "https://gevernova.wd5.myworkdayjobs.com/Only_Confidential_Executive_Recruiting/job/Lisburn/System---Electricronics-Engineering-Intern_R5037346-3",
+    "questionnaireId": "96fac528da0810015297cbf1f1980000"
+  },
+  "hiringOrganization": {
+    "name": "IF1617 GE Grid Solutions (UK) Limited",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Mechanical Engineer Intern",
+      "externalPath": "/job/Lisburn/Mechanical-Engineer-Intern_R5036879-1",
+      "timeType": "Full time",
+      "locationsText": "Lisburn",
+      "postedOn": "Posted 3 Days Ago",
+      "startDate": "2026-04-24"
+    },
+    {
+      "title": "Embedded Systems & Test Engineer Intern",
+      "externalPath": "/job/Lisburn/Embedded-Systems---Test-Engineer-Intern_R5036881-1",
+      "timeType": "Full time",
+      "locationsText": "Lisburn",
+      "postedOn": "Posted 3 Days Ago",
+      "startDate": "2026-04-24"
+    },
+    {
+      "title": "Sensor Technology Intern",
+      "externalPath": "/job/Lisburn/Sensor-Technology-Intern_R5036197-1",
+      "timeType": "Full time",
+      "locationsText": "Lisburn",
+      "postedOn": "Posted 3 Days Ago",
+      "startDate": "2026-04-24",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "M&D Hardware Engineer",
+      "externalPath": "/job/Lisburn/Hardware-Engineer_R5036398-1",
+      "timeType": "Full time",
+      "locationsText": "Lisburn",
+      "postedOn": "Posted 27 Days Ago",
+      "startDate": "2026-03-31"
+    },
+    {
+      "title": "Mechanical Engineer",
+      "externalPath": "/job/Lisburn/Mechanical-Engineer_R5038223-1",
+      "timeType": "Full time",
+      "locationsText": "Lisburn",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-04-22"
+    }
+  ],
+  "userAuthenticated": false
+}

@@ -1,5 +1,127 @@
 [
   {
+    "company": "Bosch group",
+    "role": "[BD] AI Software QA (Next-Gen & AI-Driven Testing) - 6 months Internship ",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123065779",
+    "location": "Ho Chi Minh, , Vietnam",
+    "id": 806,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Other",
+      "qualifications": [
+        "Be a final-year or senior IT student.",
+        "Provide an official university recommendation letter.",
+        "Able to work full-time for 6 months.",
+        "Possess a strong IT background.",
+        "Demonstrate critical and logical thinking skills.",
+        "Have mandatory English language skills.",
+        "Show genuine passion for testing and quality.",
+        "Be a quick learner and willing to take responsibilities.",
+        "Have a strong foundation in software/IT fundamentals.",
+        "Possess structured problem-solving skills.",
+        "Show high attention to detail and disciplined execution.",
+        "Identify subtle logic and workflow issues.",
+        "Communicate professionally in English.",
+        "Possess high learning agility.",
+        "Have exposure to test automation, scripting, or frameworks.",
+        "Be familiar with Agile, SDLC, or CI/CD concepts.",
+        "Exhibit curiosity and enthusiasm for AI/GenAI tools."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch group",
+    "role": "[BD] AI Engineer Intern (AI-Native Global Product | Agentic AI | Real-World Enterprise Systems) - 6 months Internship",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123068869",
+    "location": "Ho Chi Minh, , Vietnam",
+    "id": 805,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, IT, or related.",
+        "Provide a recommendation letter from universities or professors.",
+        "Possess a strong foundation in software engineering fundamentals.",
+        "Understand AI/ML, deep learning, and Generative AI.",
+        "Proficient in Python and familiar with LLM frameworks.",
+        "Possess strong problem-solving and structured thinking skills.",
+        "Exhibit high attention to detail and patience in validating AI outputs.",
+        "Able to deep dive into code and systems end-to-end.",
+        "Possess strong communication skills, including with non-technical stakeholders.",
+        "Understand domain knowledge is critical in AI systems.",
+        "Thrive in ambiguity and complexity.",
+        "Willing to go deep into edge cases and failure scenarios.",
+        "Proactively extract knowledge from experts and convert to testable logic.",
+        "Think like an engineer with a product mindset.",
+        "Experienced with cloud platforms (AWS, Azure, or GCP).",
+        "Familiar with Docker, Kubernetes, Git, CI/CD.",
+        "Understand MLOps practices.",
+        "Exposed to data pipelines and enterprise systems.",
+        "Experienced with AI-assisted coding tools/copilots.",
+        "Experienced in JavaScript development for custom logic.",
+        "Familiar with REST APIs, JSON, and integration patterns.",
+        "Good in English communication (speaking, listening, reading, writing).",
+        "Possess basic knowledge of requirement gathering/management.",
+        "Possess knowledge of software development process, especially requirement analysis.",
+        "Aptitude to learn and understand new and emerging technologies.",
+        "Proactive, good communicator, and fast learner.",
+        "Good at logical thinking and problem-solving."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Emerson",
+    "role": "AI Proposal Automation Intern",
+    "link": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26004883",
+    "location": "Mandaluyong, National Capital Region, Philippines",
+    "id": 804,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Gevernova",
+    "role": "System & Electricronics Engineering Intern",
+    "link": "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Lisburn/System---Electricronics-Engineering-Intern_R5037346-3",
+    "location": "Lisburn",
+    "id": 803,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Pursue or recently completed a degree in Systems, Electronic, Computer, or Mechatronics Engineering.",
+        "Possess basic understanding of electronic components, hardware, and firmware design.",
+        "Familiar with system and electronics schematics.",
+        "Capable of basic usage of lab and test equipment like multimeters and oscilloscopes.",
+        "Able to work effectively independently and collaboratively in a cross-functional team.",
+        "Apply a methodical problem-solving approach and good organizational skills.",
+        "Communicate technical information clearly in writing and verbally.",
+        "Present data clearly and draw meaningful conclusions.",
+        "Exhibit curiosity and initiative by asking questions and exploring design alternatives.",
+        "Maintain a safety-conscious mindset, especially with electronics and lab equipment.",
+        "Exposed to software development, test processes, and tracking tools.",
+        "Possess basic understanding of embedded/system development tools.",
+        "Experienced in programming with at least one language (e.g., C, C++, Python).",
+        "Understand basic embedded operating systems such as Linux/RTOS.",
+        "Proficient in using ECAD software like KiCAD, Eagle, or Altium."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Salesforce",
     "role": "Student Worker -Software Engineering",
     "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Israel---Tel-Aviv/Student-Worker---Backend-Engineering_JR338624-1",
