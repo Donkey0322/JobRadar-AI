@@ -1,5 +1,77 @@
 [
   {
+    "company": "Shopify",
+    "role": "Data and Engineering Intern",
+    "link": "https://www.shopify.com/careers/data-and-engineering-internships-fall-2026_9b2afa1b-28fa-4ae4-8f69-80ce64059065",
+    "location": "5 locationsMontreal, QC, CanadaToronto, ON, CanadaNYCBellevue, WAOttawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 811,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Love challenging yourself with projects or hacking for fun",
+        "Be a constant learner",
+        "Have a passion for solving tough problems with code",
+        "Take ownership of projects",
+        "Enjoy research and understanding how project pieces work",
+        "Take pride in creating simple solutions to complex problems",
+        "Have a strong commitment to quality"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "TikTok",
+    "role": "AI/ML Software Engineer Intern - Data Platform",
+    "link": "https://lifeattiktok.com/search/7499689149813950727",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 810,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an Undergraduate/Master in Computer Science or a related technical discipline.",
+        "Commit to working for 12 weeks during Summer 2026.",
+        "Obtain and maintain work authorization in the country of employment.",
+        "Experience programming in C, C++, Java, or Python.",
+        "Possess effective communication skills.",
+        "Be a self-driven learner.",
+        "Demonstrate a sense of ownership.",
+        "Possess project or research experience in big data frameworks, large language models (LLMs), machine learning, or distributed storage systems."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "HERE Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/81213/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 809,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Analytical thinking",
+        "Proficient in Scala or Java",
+        "Experienced in AI prompt engineering",
+        "Skilled in data analysis",
+        "Exhibit decision-making abilities",
+        "Capable of performing risk analysis",
+        "Foundational knowledge of cybersecurity",
+        "Proficient in risk management",
+        "Familiarity with Jira, Microsoft O365, and Microsoft Copilot"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "CMTelematics",
     "role": "Customer Success AI Optimization Intern",
     "link": "https://job-boards.greenhouse.io/cmt/jobs/7858103",
