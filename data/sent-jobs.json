@@ -1,5 +1,68 @@
 [
   {
+    "company": "Dark Wolf Solutions",
+    "role": "Data and AI Internship",
+    "link": "https://job-boards.greenhouse.io/darkwolfsolutions/jobs/7714939003",
+    "location": "Herndon, VA",
+    "id": 814,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in Data Science, Computer Science, Computer Engineering, or a related technical field.",
+        "Possess foundational knowledge in Python and a basic understanding of data structures.",
+        "Clearly communicate technical concepts to technical and non-technical team members.",
+        "Hold US citizenship."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Citizens financial group, inc.",
+    "role": "Data Science Graduate Summer Intern (Summer 2026)",
+    "link": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/46439",
+    "location": "United States",
+    "id": 813,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Globalhr",
+    "role": "2026 Raytheon Full Time Intern-Platform Product Design (Onsite)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/XMLNAME-2026-Raytheon-Full-Time-Intern-Platform-Prod-Design--Onsite-_01841337",
+    "location": "US-CO-AURORA-S75 ~ 16800 E Centretech Pkwy ~ BLDG S75",
+    "id": 812,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Bachelor's degree in Science, Technology, Engineering or Mathematics (STEM)",
+        "Experience in mechanical development utilizing CAD software",
+        "Ability to obtain and maintain a U.S. government issued security clearance",
+        "Apply basic engineering principles, theories, and concepts",
+        "Develop solutions to routine technical problems",
+        "Strong team player with good interpersonal and communication skills",
+        "Knowledge/experience with Windows or related System Operating systems",
+        "Experience with software tools such as Adobe Acrobat, MS Office Products, Visio",
+        "Experience with basic computer systems, design and architecture",
+        "Experience with basic networks and related interfaces",
+        "Familiarity with Product Development Lifecycle, including Agile philosophy",
+        "Experience with Cyber security Concepts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Shopify",
     "role": "Data and Engineering Intern",
     "link": "https://www.shopify.com/careers/data-and-engineering-internships-fall-2026_9b2afa1b-28fa-4ae4-8f69-80ce64059065",
