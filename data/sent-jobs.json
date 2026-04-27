@@ -1,5 +1,63 @@
 [
   {
+    "company": "CMTelematics",
+    "role": "Customer Success AI Optimization Intern",
+    "link": "https://job-boards.greenhouse.io/cmt/jobs/7858103",
+    "location": "Cambridge, MA",
+    "id": 808,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing or recently completed a Bachelor's degree in Business, Information Systems, Computer Science, Communications, or related field",
+        "Strong analytical and research skills",
+        "Familiarity with productivity and collaboration tools",
+        "Excellent written and verbal communication skills",
+        "Self-starter with strong organizational skills",
+        "Prior exposure to AI tools or work in a SAAS environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Globalhr",
+    "role": "2026 Raytheon Part Time Co-op - Software Infrastructure Engineer –(Remote)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/XMLNAME-2026-Raytheon-Part-Time-Co-op---Software-Infrastructure-Engineer---Remote-_01841274",
+    "location": "US-PA-STATE COLLEGE-5A ~ 302 Science Park Rd ~ BLDG 5A",
+    "id": 807,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a Senior or Post-Graduate student graduating May 2027 or August 2027",
+        "Experience in software development utilizing scripting languages like Python, Perl, Ruby, Bash, or Shell",
+        "Experience with Information Technology Infrastructure and/or Software Engineering",
+        "Ability to obtain and maintain a U.S. government issued TS/SCI security clearance",
+        "Ability to apply basic engineering principles, theories, and concepts",
+        "Ability to develop solutions to routine technical problems",
+        "Strong team player with good interpersonal and excellent communication skills",
+        "Knowledge of Linux, Windows or related System Operating systems at Command Line Interface",
+        "Experience using development tools such as Ansible, Chef, Docker, Rancher, Kubernetes, GIT, Jenkins, Jira, Confluence",
+        "Experience with Network design and architecture schemes",
+        "Experience with Cloud Technologies such as AWS, Google, Gov",
+        "Experience with DevSecOps Toolsets",
+        "Knowledge of Software Development Lifecycle, including Agile philosophy",
+        "Experience with Cyber security Concepts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cognex",
+    "role": "Software Engineering Intern",
+    "link": "https://cognex.wd1.myworkdayjobs.com/external_career_site/job/Wauwatosa-Wisconsin/Software-Engineering-Intern_R0010384-1",
+    "location": "Wauwatosa, Wisconsin"
+  },
+  {
     "company": "Bosch group",
     "role": "[BD] AI Software QA (Next-Gen & AI-Driven Testing) - 6 months Internship ",
     "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123065779",
