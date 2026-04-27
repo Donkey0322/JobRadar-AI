@@ -1,5 +1,61 @@
 [
   {
+    "company": "Homebase",
+    "role": "Forward Deployed Engineering Intern, AI-Native (Hybrid)",
+    "link": "https://jobs.ashbyhq.com/homebase/a7ab59c0-786e-4675-b684-2ed19b240fb2",
+    "location": "Houston",
+    "id": 816,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Curiosity and enthusiasm for AI-first engineering",
+        "Experience with LLMs, agents, or automation tooling",
+        "Experience with Python, JavaScript/TypeScript, or React",
+        "Comfortable navigating ambiguity",
+        "Able to learn new systems quickly",
+        "Experience working with non-technical stakeholders",
+        "Possess a product mindset",
+        "Strong communication skills",
+        "Genuine curiosity about People operations, HR tech, or talent workflows",
+        "Currently enrolled in a college or university program",
+        "Available for a summer internship",
+        "Able to collaborate in the Houston or San Francisco office",
+        "Passion for helping small businesses"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Asana",
+    "role": "Software Engineering Intern - Summer 2026 (Warsaw)",
+    "link": "https://www.asana.com/jobs/apply/7490274?gh_jid=7490274",
+    "location": "Warsaw",
+    "id": 815,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Contribute to a variety of projects.",
+        "Help maintain codebase and culture.",
+        "Develop clean, beautiful code.",
+        "Provide peer feedback to team members.",
+        "Anticipate graduation between December 2026 and July 2027.",
+        "Possess a constant desire to learn and improve.",
+        "Have a foundational understanding of software development or computer science.",
+        "Show passion for creating user-friendly experiences.",
+        "Appreciate productivity and team collaboration.",
+        "Be excited about an inclusive culture.",
+        "Demonstrate curiosity about AI tools and emerging technologies."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Dark Wolf Solutions",
     "role": "Data and AI Internship",
     "link": "https://job-boards.greenhouse.io/darkwolfsolutions/jobs/7714939003",
