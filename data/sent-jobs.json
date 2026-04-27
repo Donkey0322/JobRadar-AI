@@ -1,5 +1,36 @@
 [
   {
+    "company": "Fiserv",
+    "role": "Data Analysis - Summer Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Data-Analysis---Summer-Intern_R-10390248",
+    "location": "Alpharetta, Georgia",
+    "id": 817,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Support senior analysts with data collection and analysis.",
+        "Develop data pipelines for ingestion, transformation, and cleansing.",
+        "Create data visualizations and reports.",
+        "Document data processes and methodologies.",
+        "Use analytical tools to identify patterns and validate data quality.",
+        "Collaborate on projects supporting data insights and decision-making.",
+        "Possess 0-2 years of experience in data analysis or related fields.",
+        "Proficient in programming or analytical tools such as Python, Java, R, or SQL.",
+        "Able to work with large datasets and perform data cleansing.",
+        "Actively pursuing a Bachelor's degree in a technology field with expected graduation between Dec 2026 and June 2028.",
+        "Maintain a cumulative 3.0+ GPA.",
+        "Experienced with data visualization tools like Power BI or Tableau.",
+        "Advanced knowledge of Microsoft Excel and PowerPoint.",
+        "Familiar with financial services, commerce, or fraud analytics use cases.",
+        "Adaptable to changing priorities."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Homebase",
     "role": "Forward Deployed Engineering Intern, AI-Native (Hybrid)",
     "link": "https://jobs.ashbyhq.com/homebase/a7ab59c0-786e-4675-b684-2ed19b240fb2",
