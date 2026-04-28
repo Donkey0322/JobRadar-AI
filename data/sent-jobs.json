@@ -1,5 +1,31 @@
 [
   {
+    "company": "GE Appliances",
+    "role": "Software Engineering Co-op",
+    "link": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-25560",
+    "location": "Louisville, KY",
+    "season": "2026 Fall",
+    "id": 822,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a bachelor's degree or higher in Computer or Software Engineering",
+        "Have a May 2027 or later graduation date",
+        "Maintain a cumulative GPA of 3.0 or higher",
+        "Possess legal authorization to work in the hiring country",
+        "Ability to complete two or more co-op rotations",
+        "Possess related coursework",
+        "Exhibit exceptional interpersonal and communication skills",
+        "Demonstrate solid analytical skills",
+        "Have a desire and ability to learn",
+        "Possess a passion for engineering"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "Intel",
     "role": "Graduate Software Application Development Intern",
     "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Intern---Graduate-Software-Application-Development_JR0283166",
