@@ -1,5 +1,77 @@
 [
   {
+    "company": "Bosch group",
+    "role": "Calibration Process Data Science Intern (8 months/40 hours per week) ",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123460947",
+    "location": "Farmington Hills, MI, United States",
+    "id": 827,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Engineering, with at least one semester completed",
+        "Possess 1+ year academic or industry experience with software languages and operating systems",
+        "Maintain a minimum 3.0 GPA",
+        "Be a minimum of 18 years of age",
+        "Work 35-40 hours per week",
+        "Have automotive-related hobby and/or experience with engines or vehicles"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Jabil",
+    "role": "Software Engineering Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Software-Engineering-Intern_J2448338",
+    "location": "St. Petersburg/Tampa, FL",
+    "id": 826,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or recently completed a relevant diploma, undergraduate, or postgraduate program.",
+        "Possess prior academic, project, or internship exposure.",
+        "Exhibit a willingness to learn.",
+        "Demonstrate attention to detail.",
+        "Possess basic organizational skills.",
+        "Exhibit clear communication skills.",
+        "Demonstrate professionalism.",
+        "Ability to work collaboratively.",
+        "Possess basic computer literacy.",
+        "Demonstrate time-management skills.",
+        "Ability to follow instructions and procedures."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Altera",
+    "role": "GenAI / Machine Learning Intern – Design Automation (AI Agents)",
+    "link": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/GenAI---Machine-Learning-Intern---Design-Automation--AI-Agents-_R02241",
+    "location": "San Jose, California, United States",
+    "id": 825,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's degree in CS, EE, Data Science, or related field.",
+        "3+ months experience with data engineering concepts like ETL, wrangling, and integration.",
+        "3+ months experience in Python programming and ML frameworks such as PyTorch or TensorFlow.",
+        "3+ months experience with AI agent frameworks (e.g., LangChain) and RAG concepts.",
+        "3+ months experience applying agent reliability concepts.",
+        "Demonstrate strong analytical and problem-solving skills with an engineering mindset.",
+        "Collaborate in team environments with strong written and verbal communication skills."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Marvell",
     "role": "AI Platform Engineer Intern (Agentic) - Master's Degree",
     "link": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/AI-Platform-Engineer-Intern--Agentic----Master-s-Degree_2502270",
