@@ -1,5 +1,29 @@
 [
   {
+    "company": "Avav",
+    "role": "Software Engineer Intern",
+    "link": "https://avav.wd1.myworkdayjobs.com/avav/job/410-Jan-Davis-Drive-NorthWest-Huntsville-AL/Software-Engineer-Intern_7590",
+    "location": "410 Jan Davis Drive NorthWest, Huntsville, AL",
+    "id": 838,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled or recently graduated from an accredited institution.",
+        "Be entering Senior year in college pursuing a BS Degree.",
+        "Graduated in 2026 with a BS Degree.",
+        "Possess technical studies in Computer Science, Computer Engineering, Engineering, or Cyber.",
+        "Have knowledge of issue tracking tools like Gitlab.",
+        "Possess knowledge of programming languages and database queries.",
+        "Be familiar with cloud native technologies and solutions.",
+        "Communicate effectively and work within a cross functional team."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Capital One",
     "role": "Full Stack Software Engineer Intern - Team Sprout",
     "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Sprout---Fall-2026_R240974",
