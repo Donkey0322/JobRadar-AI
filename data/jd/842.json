@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "3cc6ef8da8121001073fb986139f0000",
+    "title": "Software Engineer Intern – AI Applications",
+    "jobDescription": "<p style=\"text-align:left\"><span>Cambium Learning® Group is an award-winning educational technology solutions leader dedicated to helping all students reach their potential through individualized and differentiated instruction. Using a research-based, personalized approach, Cambium Learning Group delivers SaaS resources and instructional products that engage students and support teachers in fun, positive, safe and scalable environments. These solutions are provided through Learning A-Z® (online differentiated instruction for elementary school reading, writing and science), ExploreLearning® (online interactive math and science simulations, a math fact fluency solution, and a K–2 science solution), Voyager Sopris Learning® (blended solutions that accelerate struggling learners to achieve in literacy and math and professional development for teachers), and VKidz Learning (online comprehensive homeschool education and programs for literacy and science). We believe that every student has unlimited potential, that teachers matter, and that data, instruction, and practice are the keys to success in the classroom and beyond.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>Job Location:</b> Fully remote. Candidates must reside and work within the United States.</p><p><b>Internship Overview:</b></p><p>Are you excited to explore how AI can transform learning? As a Software Engineer Intern (AI Applications), you’ll join a collaborative team of engineers and researchers building AI‑powered educational assessment systems used by millions of students. This internship offers hands‑on experience contributing to real AI products while learning from experienced engineers at the forefront of EdTech.</p><p><b>Internship Responsibilities:</b></p><p>As an intern, you’ll support and learn from the AI Applications team by contributing to projects such as:</p><ul><li>Assisting in the development of AI‑powered features using Large Language Models (LLMs)</li><li>Supporting AI agent workflows, including prompt design, tool integration, and basic orchestration logic</li><li>Helping integrate generative AI capabilities into educational platforms</li><li>Contributing to evaluation and testing of AI systems for quality, safety, and performance</li><li>Collaborating with engineers, product managers, and researchers on real‑world learning use cases</li><li>Exploring responsible AI practices in a mission‑driven education environment</li></ul><p><b>What You’ll Learn: </b></p><ul><li>Practical experience working with modern AI and generative technologies</li><li>How production‑grade AI systems are designed, tested, and deployed</li><li>Best practices for building safe, scalable, and user‑focused AI features</li><li>How cross‑functional teams turn learning science, advances in technology and user needs into high impact software systems and products</li></ul><p><b>Internship Requirements: </b></p><ul><li>Currently pursuing a postgraduate degree in Computer Science, Data Science, Software Engineering, AI/ML, or a related field.</li><li>Experience (academic or project‑based) with at least one programming language such as Python, JavaScript/TypeScript, or C#</li><li>Familiarity with web development, APIs, or backend systems</li><li>Interest in Generative AI, LLMs, or intelligent systems</li><li>Exceptional problem‑solving skills and eagerness to learn</li><li>Ability to collaborate effectively in a team environment</li></ul><p><b>Nice to Have:</b></p><ul><li>Coursework or projects involving advanced AI, machine learning, or NLP</li><li>Exposure to cloud platforms (AWS, Azure, or GCP)</li><li>Interest in education technology or applied learning sciences</li></ul><p></p><p></p><p><span>To apply for this opportunity, simply click on the “Apply” button and submit a cover letter and resume.</span></p><p></p><p><b>An Equal Opportunity Employer</b></p><p><i>We are dedicated to fostering a culture that celebrates unique backgrounds, ideas, and experiences. All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, gender, gender identity/expression, sexual orientation, national origin, protected veteran status, or disability.</i></p>",
+    "location": "Remote",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-28",
+    "timeType": "Full time",
+    "jobReqId": "REQ-4462",
+    "jobPostingId": "Software-Engineer-Intern---AI-Applications_REQ-4462",
+    "jobPostingSiteId": "camb",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Remote",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Software-Engineer-Intern---AI-Applications_REQ-4462",
+    "questionnaireId": "f14affa25698100114dfb2c1bb740000",
+    "supplementaryQuestionnaireId": "5592a346955a100106a5a4a551170000"
+  },
+  "hiringOrganization": {
+    "name": "CAI Cambium Assessment, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
