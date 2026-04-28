@@ -1102,6 +1102,7 @@
     "domain": "https://avav.wd1.myworkdayjobs.com/avav",
     "page": "https://avav.wd1.myworkdayjobs.com/wday/cxs/avav/avav/jobs",
     "urls": [
+      "https://avav.wd1.myworkdayjobs.com/avav/job/410-Jan-Davis-Drive-NorthWest-Huntsville-AL/Software-Engineer-Intern_7590",
       "https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2026-Software-Engineering-Intern_5873"
     ]
   },
@@ -2313,9 +2314,13 @@
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Technology-Internship-Program---Summer-2026_R218710-1",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R236833",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Backend-Software-Engineer---Summer-2026_R232315-1",
+      "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Backend-Software-Engineer---Team-Customer-Acquisitions---Fall-2026_R241119",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Summer-2026_R232307-2",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Summer-2026_R232318-2",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Summer-2026_R236219-1",
+      "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Integrated-Storefront---Fall-2026_R241117",
+      "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Sprout---Fall-2026_R240974",
+      "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Tachyon-One---Fall-2026_R241105",
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Mobile-Software-Engineer---Summer-2026_R232329-2"
     ]
   },
@@ -2628,7 +2633,8 @@
       "https://careers-gdms.icims.com/jobs/72206/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72207/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/72229/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/72229/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72240/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -8186,6 +8192,7 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/horacemannservicecorporation/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5982336004",
       "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5982339004"
     ]
   },
@@ -10516,6 +10523,17 @@
     "urls": [
       "https://jobs.ashbyhq.com/sentry/5e112240-922a-48f1-8865-9e7f89687f39/application",
       "https://jobs.ashbyhq.com/sentry/d2e3391f-9401-410a-b8a6-de3bf5f762b7/application"
+    ]
+  },
+  {
+    "name": "sieve",
+    "ats": "ashby",
+    "identifier": "sieve",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/sieve",
+    "urls": [
+      "https://jobs.ashbyhq.com/sieve/2298668b-f218-435a-a497-de4fc11c5ac6/application",
+      "https://jobs.ashbyhq.com/sieve/b319e35e-2455-4c63-ae3d-721bc7dbffc9/application"
     ]
   },
   {
