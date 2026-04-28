@@ -808,6 +808,7 @@
       "https://apply.workable.com/eluvio/j/B37F02D08D/apply",
       "https://apply.workable.com/enfos-inc/j/7364AA5599/",
       "https://apply.workable.com/evolv-technology/j/AFBA309834/apply",
+      "https://apply.workable.com/quadric-dot-i-o-inc/j/4F8EDFF366/apply",
       "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply"
     ]
   },
@@ -2260,6 +2261,16 @@
       "https://calix.wd1.myworkdayjobs.com/external/job/Minneapolis/Optical-Engineering-Intern_R-11517",
       "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Engineering-Intern---Cloud-Platform_R-11583-1",
       "https://calix.wd1.myworkdayjobs.com/external/job/Remote---North-America/Software-Project-Management-Intern_R-11503"
+    ]
+  },
+  {
+    "name": "cambiumlearning",
+    "ats": "workday",
+    "identifier": "cambiumlearning-camb",
+    "domain": "https://cambiumlearning.wd1.myworkdayjobs.com/camb",
+    "page": "https://cambiumlearning.wd1.myworkdayjobs.com/wday/cxs/cambiumlearning/camb/jobs",
+    "urls": [
+      "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Software-Engineer-Intern---AI-Applications_REQ-4462"
     ]
   },
   {
@@ -7433,7 +7444,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/billiontoone/jobs/4677675005",
       "https://job-boards.greenhouse.io/billiontoone/jobs/4680728005",
-      "https://job-boards.greenhouse.io/billiontoone/jobs/4687612005"
+      "https://job-boards.greenhouse.io/billiontoone/jobs/4687612005",
+      "https://job-boards.greenhouse.io/billiontoone/jobs/4689943005"
     ]
   },
   {
@@ -17764,7 +17776,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/x/jobs",
     "urls": [
       "https://x.company/careers/8328378002?gh_jid=8328378002",
-      "https://x.company/careers/8398742002?gh_jid=8398742002"
+      "https://x.company/careers/8398742002?gh_jid=8398742002",
+      "https://x.company/careers/8525725002?gh_jid=8525725002"
     ]
   },
   {

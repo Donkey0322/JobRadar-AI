@@ -1,5 +1,30 @@
 [
   {
+    "company": "BillionToOne",
+    "role": "Data Science and AI Intern",
+    "link": "https://job-boards.greenhouse.io/billiontoone/jobs/4689943005",
+    "location": "Menlo Park, CA",
+    "id": 843,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Data Science, Computer Science, or a related field.",
+        "Experience with AI-enabled IDEs such as Cursor or Claude Code.",
+        "Possess strong understanding of data engineering concepts.",
+        "Experience with SQL, Python, and big data technologies.",
+        "Experience validating non-deterministic AI automation solutions.",
+        "Familiarity with machine learning and AI frameworks.",
+        "Experience with data visualization tools like Tableau.",
+        "Experience with AWS cloud platform and data pipeline tools.",
+        "Strong problem-solving skills and analytical mindset."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "X Development",
     "role": "PhD / Master's Residency Intern - Early Stage Project 🎓",
     "link": "https://x.company/careers/8525725002?gh_jid=8525725002",
