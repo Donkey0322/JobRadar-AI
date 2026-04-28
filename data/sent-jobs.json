@@ -1,5 +1,65 @@
 [
   {
+    "company": "Marvell",
+    "role": "AI Platform Engineer Intern (Agentic) - Master's Degree",
+    "link": "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/AI-Platform-Engineer-Intern--Agentic----Master-s-Degree_2502270",
+    "location": "Santa Clara, CA",
+    "id": 824,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Data Science, Computer Science, or related fields.",
+        "Proficient in programming languages like Python, R, or Java.",
+        "Understand machine learning concepts, algorithms, and frameworks.",
+        "Expose to data analysis, statistical modeling, and experimental design.",
+        "Know software development best practices, including version control.",
+        "Strong problem-solving skills and collaborative teamwork.",
+        "Experience with AI/ML projects, especially agent-based AI.",
+        "Familiar with advanced topics like deep learning or NLP.",
+        "Familiar with agent orchestration frameworks.",
+        "Familiar with cloud computing services and containerization tools.",
+        "Understand DevOps principles and CI/CD pipelines.",
+        "Experience optimizing ML models for deployment and scalability.",
+        "Familiar with research tools and libraries."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Marvell",
+    "role": "System Engineer - Optical DSP Intern - PhD",
+    "link": "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Irvine-CA/System-Engineer---Optical-DSP-Intern---PhD_2502724",
+    "location": "Irvine, CA",
+    "id": 823,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a BS/MS/PhD degree in CS/EE or related technical field.",
+        "Have 0-1 years of previous experience.",
+        "Possess a strong signal processing/digital communications background.",
+        "Have strong programming skills in Python/Matlab/C/C++.",
+        "Work in a Unix type environment.",
+        "Possess good problem solving skills.",
+        "Demonstrate excellent verbal and written communication skills.",
+        "Have additional background in coherent optical systems.",
+        "Possess knowledge of optical components.",
+        "Understand silicon photonic integration.",
+        "Gain experience with debugging complex analog issues.",
+        "Possess knowledge of digital design and DSP blocks.",
+        "Understand coherent optical signal processing.",
+        "Model, simulate, and analyze coherent systems.",
+        "Work with lab equipment like spectrum analyzers."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "GE Appliances",
     "role": "Software Engineering Co-op",
     "link": "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-25560",
