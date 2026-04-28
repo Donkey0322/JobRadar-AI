@@ -1,5 +1,52 @@
 [
   {
+    "company": "X Development",
+    "role": "PhD / Master's Residency Intern - Early Stage Project 🎓",
+    "link": "https://x.company/careers/8525725002?gh_jid=8525725002",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cambium Learning Group",
+    "role": "Software Engineer Intern - AI Applications",
+    "link": "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Software-Engineer-Intern---AI-Applications_REQ-4462",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 842,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a postgraduate degree in Computer Science, Data Science, Software Engineering, AI/ML, or a related field.",
+        "Have experience with at least one programming language such as Python, JavaScript/TypeScript, or C#.",
+        "Familiar with web development, APIs, or backend systems.",
+        "Possess interest in Generative AI, LLMs, or intelligent systems.",
+        "Demonstrate exceptional problem-solving skills and eagerness to learn.",
+        "Collaborate effectively in a team environment.",
+        "Have coursework or projects involving advanced AI, machine learning, or NLP.",
+        "Gain exposure to cloud platforms (AWS, Azure, or GCP).",
+        "Possess interest in education technology or applied learning sciences."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Quadric",
+    "role": "Software Engineer Intern - Compiler",
+    "link": "https://apply.workable.com/quadric-dot-i-o-inc/j/4F8EDFF366/apply",
+    "location": "Burlingame, CA",
+    "season": "2026 Summer",
+    "id": 841,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Rocket Lawyer",
     "role": "Data Engineering Intern (AI & Automation)",
     "link": "https://job-boards.greenhouse.io/rocketlawyer/jobs/5203906008",
