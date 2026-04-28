@@ -1,5 +1,79 @@
 [
   {
+    "company": "Intel",
+    "role": "Graduate Software Application Development Intern",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Intern---Graduate-Software-Application-Development_JR0283166",
+    "location": "Hillsboro, ORFolsom, CAPhoenix, AZ",
+    "season": "2026 Summer",
+    "id": 821,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in a Bachelor's, Master's, or PhD program in Computer Science, Software Engineering, or related field.",
+        "Possess foundational knowledge of Agile Methodology and DevOps practices.",
+        "Proficient in full-stack software frameworks and development tools.",
+        "Strong analytical and debugging skills.",
+        "Demonstrate ability to collaborate in team settings.",
+        "Passionate about continuous learning in software engineering.",
+        "Eager to contribute to innovative projects."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Globalization Partners",
+    "role": "Software Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/globalizationpartners/jobs/7714834003",
+    "location": "Remote in UK",
+    "season": "2026 Summer",
+    "id": 820,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Be a 3rd-year bachelor’s student in Computer Science, Computer Engineering, or related fields.",
+        "Possess a solid foundation in CS theory.",
+        "Demonstrate exceptional programming and design skills.",
+        "Love technology and explain college and personal projects.",
+        "Be genuinely interested in Globalization Partners.",
+        "Contribute to the design and development of cloud-enabled products.",
+        "Eager to learn cutting-edge technologies.",
+        "Open to mentorship by software engineers.",
+        "Seek exposure to different functional areas within the business."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Horace Mann",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5982339004",
+    "location": "Springfield, IL",
+    "season": "2026 Summer",
+    "id": 819,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in IT, Computer Science, or related field.",
+        "Understand basic programming concepts.",
+        "Familiar with SDLC concepts.",
+        "Strong analytical and problem-solving skills.",
+        "Effective communication and willingness to learn.",
+        "Exposed to version control tools (e.g., Git).",
+        "Exposed to .NET development.",
+        "Familiar with cloud platforms, especially Azure.",
+        "Understand basic REST APIs and web services.",
+        "Aware of CI/CD concepts and tools."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Onapsis",
     "role": "Go-to-Market AI Pod Intern",
     "link": "https://job-boards.greenhouse.io/onapsis/jobs/8490508002",
