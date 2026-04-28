@@ -1,0 +1,168 @@
+{
+  "id": "744000123460947",
+  "name": "Calibration Process Data Science Intern (8 months/40 hours per week) ",
+  "uuid": "38b23797-f43e-4a92-a894-1cd13b4045cf",
+  "jobId": "79127ec6-6b72-4454-88e9-5a58d3477009",
+  "jobAdId": "648cb67c-9f1e-47f6-8880-d6b1977b0462",
+  "defaultJobAd": true,
+  "refNumber": "REF284750N",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Farmington Hills",
+    "region": "MI",
+    "country": "us",
+    "address": "38000 Hills Tech Drive",
+    "postalCode": "48331",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "42.492233",
+    "longitude": "-83.42302889999999",
+    "fullLocation": "Farmington Hills, MI, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+      "valueLabel": "Limited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "Farmington Hills, MI",
+      "valueLabel": "Farmington Hills, MI"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+      "valueLabel": "Direct"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "452d373f-a87b-44d4-a434-d35322829142",
+      "valueLabel": "Power Solutions"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "9ceea6ff-37fa-40a0-90e7-51fcc4977094",
+      "valueLabel": "US_N"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "be4d6fc1-6a9b-46e3-8a81-d5c3c23eae66",
+      "valueLabel": "PS"
+    }
+  ],
+  "releasedDate": "2026-04-28T13:43:18.626Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123460947-calibration-process-data-science-intern-8-months-40-hours-per-week-",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123460947-calibration-process-data-science-intern-8-months-40-hours-per-week-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/38b23797-f43e-4a92-a894-1cd13b4045cf?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>At Bosch, we shape the future by inventing high-quality technologies and services that spark enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding Bosch teams around the world. Their creativity is the key to innovation through connected living, mobility, or industry.<br>\n<br>\nLet’s grow together, enjoy more, and inspire each other.&#xa0;<strong>Work #LikeABosch</strong></p><ul><li><strong>Reinvent yourself:</strong>&#xa0;At Bosch, you will evolve.</li><li><strong>Discover new directions</strong>: At Bosch, you will find your place.</li><li><strong>Balance your life:</strong>&#xa0;At Bosch, your job matches your lifestyle.</li><li><strong>Celebrate success:</strong>&#xa0;At Bosch, we celebrate you.</li><li><strong>Be yourself:&#xa0;</strong>At Bosch, we value values.</li><li><strong>Shape tomorrow:</strong>&#xa0;At Bosch, you change lives.</li></ul><p>Come Join us in Farmington Hills, MI and learn how we work #LikeABosch!&#xa0;</p><p>If you'd like to learn more about Bosch, click here:<br>\n<a href=\"https://www.youtube.com/watch?v=ZoM4nEPDHAQ\" rel=\"noopener noreferrer\">Bosch Mobility | Let's shape a new era of mobility. Together. | Careers at Bosch USA</a></p><p><a href=\"https://www.youtube.com/watch?v=CFz5iM_41ww\" rel=\"noopener noreferrer\">Bosch | Invented for Life | Careers at Bosch USA</a></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>This internship takes place in Farmington Hills, Michigan, the headquarters of Bosch North America, in the Calibration Engineering group of Power Solutions.</p><p>The successful candidate will be given an 8 -month project, that has been defined in advance by their Engineering Mentor.&#xa0;</p><p>As a Data Science Intern at Bosch, you will have the opportunity to work on innovative projects and gain hands-on experience in the field of data science focused on automotive applications. You will be part of a dynamic team, supporting experienced data scientists and engineers to solve real-world automotive powertrain problems using advanced analytics and machine learning techniques. Your responsibilities may include:</p><ul><li>Data Exploration and Analysis: Collect, clean, and analyze large and complex datasets to identify patterns, trends, and insights. Apply statistical methods and data visualization techniques to communicate findings effectively.</li><li>Machine Learning Development: Develop and implement machine learning models, algorithms, and statistical techniques to solve specific business challenges. This may involve tasks such as data preprocessing, feature engineering, model training, and evaluation.</li><li>Predictive Modeling and Optimization: Build predictive models to forecast future outcomes and optimize business processes. Apply regression, classification, clustering, and other machine learning techniques to solve problems related to demand forecasting, anomaly detection, quality improvement, etc.</li><li>Data Mining and Pattern Recognition: Discover meaningful patterns, correlations, and relationships in large datasets. Use techniques like association rules, clustering, and dimensionality reduction to uncover insights and generate actionable recommendations.</li><li>Collaborative Problem-Solving: Work closely with cross-functional teams, including business stakeholders and software developers, to understand requirements and develop data-driven solutions. Collaborate effectively, share knowledge, and contribute to the overall success of the projects.</li><li>Documentation and Reporting: Document methodologies, algorithms, and results in a clear and concise manner. Prepare reports and presentations to communicate findings and recommendations to both technical and non-technical audiences.</li><li>Continuous Learning: Stay up-to-date with the latest advancements in data science, machine learning, and related technologies. Actively participate in training programs, workshops, and knowledge-sharing activities to enhance your skills and expertise.</li></ul><p>If you're interested to work in a collaborative, learning culture where interns work on meaningful projects, join our team!</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Must be currently enrolled in an accredited university and pursuing a Bachelors or Masters degree in Engineering, with at least one semester completed</li><li>1+ year academic or industry experience with software languages and operating systems.</li><li>A minimum 3.0 GPA</li><li>Must be a minimum of 18 years of age</li><li>Must work 35-40 hours per week</li></ul><p><strong>Preferred Qualifications</strong></p><ul><li>Automotive-related hobby and/or experience working with engines or vehicles.&#xa0;</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Indefinite U.S. work authorized individuals only.&#xa0; Future sponsorship for work authorization unavailable.&#xa0;</strong></p><p>Your well-being matters at Bosch! We offer a competitive compensation and a benefits package designed to empower you in every area of your life. This includes premium health coverage, a 401(k) with generous matching, resources for financial planning and goal setting, ample paid time off, parental leave, and comprehensive life and disability protection. We're investing in your success!&#xa0;</p><p><strong>Equal Opportunity Employer, including disability / veterans</strong>&#xa0;</p><p>*Bosch adheres to Federal, State, and Local laws regarding drug-testing. Employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.&#xa0;</p><p>&#xa0;</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
