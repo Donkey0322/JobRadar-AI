@@ -1,5 +1,52 @@
 [
   {
+    "company": "Rocket Lawyer",
+    "role": "Data Engineering Intern (AI & Automation)",
+    "link": "https://job-boards.greenhouse.io/rocketlawyer/jobs/5203906008",
+    "location": "Arizona ; California; Colorado ; North Carolina ; San Francisco, California ; Utah ",
+    "id": 840,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an undergraduate degree with a target graduation in 2026 or early 2027",
+        "Pursue a degree in Computer Science, Data Science, or a related quantitative field",
+        "Expertise in Python and SQL",
+        "Strong understanding of Data Warehousing (Snowflake) and ETL orchestration (Airflow)",
+        "Familiarity with CLI, Docker, and Kubernetes for managing cloud-based environments",
+        "Experience with Jupyter Notebooks, Tableau, or Streamlit",
+        "Proactive approach to using AI/LLMs to automate repetitive tasks and improve system reliability",
+        "Participate in daily Scrum huddles",
+        "Manage tasks via Jira"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Copeland",
+    "role": "2026 Data Analyst Intern",
+    "link": "https://copeland.wd5.myworkdayjobs.com/copeland_external_careers_page/job/St-Louis-MO-USA/XMLNAME-2026-Data-Analyst-Intern_JR113041",
+    "location": "St. Louis, MO, USA",
+    "id": 839,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a bachelor's program in Statistics, Mathematics, or a data-related field.",
+        "Proficient in Excel, including pivot tables, formulas, and charts.",
+        "Experienced with data visualization or reporting tools.",
+        "Maintain a cumulative GPA of 3.0 or higher.",
+        "Possess a passion for accuracy, high curiosity, and a willingness to dive into data.",
+        "Anticipate graduation by May 2027."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Avav",
     "role": "Software Engineer Intern",
     "link": "https://avav.wd1.myworkdayjobs.com/avav/job/410-Jan-Davis-Drive-NorthWest-Huntsville-AL/Software-Engineer-Intern_7590",
