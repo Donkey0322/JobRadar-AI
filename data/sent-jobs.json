@@ -1,5 +1,57 @@
 [
   {
+    "company": "Washpost",
+    "role": "Summer Intern Software Engineering, CloudOps",
+    "link": "https://washpost.wd5.myworkdayjobs.com/washingtonpostcareers/job/DC-Washington-TWP-Headquarters/Summer-Intern-Software-Engineering--CloudOps_JR-90275663",
+    "location": "DC-Washington-TWP Headquarters",
+    "id": 829,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess foundational knowledge of computer science concepts.",
+        "Experienced with one or more programming languages or tools.",
+        "Familiar with software development best practices, including Git/GitHub.",
+        "Exposed to cloud platforms or infrastructure concepts.",
+        "Understand containerization or CI/CD concepts, or have a strong interest.",
+        "Experienced with relational and/or NoSQL databases.",
+        "Strong problem-solving skills and curiosity.",
+        "Able to collaborate effectively, communicate ideas clearly, and incorporate feedback.",
+        "Strong time-management skills and adaptability.",
+        "Interested in building reliable, secure, and cost-efficient systems at scale."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Jci",
+    "role": "Software Sales Intern",
+    "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Westford-Massachusetts-United-States-of-America/Software-Sales-Intern_WD30267823",
+    "location": "Westford-Massachusetts-United States of America",
+    "id": 828,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a full-time student at a U.S. college or university",
+        "Pursue a degree in Business, Sales, Marketing, Information Systems, or related field",
+        "Possess strong written and verbal communication skills",
+        "Demonstrate interest in software, technology, and sales",
+        "Comfortable working with data, systems, and Microsoft Office tools",
+        "Show interest in B2B sales, software sales, or customer success",
+        "Possess strong organizational skills and attention to detail",
+        "Manage multiple tasks and deadlines effectively",
+        "Demonstrate curiosity, willingness to learn, and a proactive mindset",
+        "Gain experience in a team-based or customer-facing environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Bosch group",
     "role": "Calibration Process Data Science Intern (8 months/40 hours per week) ",
     "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123460947",
