@@ -6438,6 +6438,7 @@
     "urls": [
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/Hyderabad-SAL-IN/Digital-Technology-Intern_REQ-23877",
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-23563",
+      "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Fall-2026_REQ-25560",
       "https://haier.wd3.myworkdayjobs.com/ge_appliances/job/USA-Louisville-KY/Software-Engineering-Co-op-Summer-2026_REQ-22833"
     ]
   },
@@ -6984,6 +6985,7 @@
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280843",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0281251-1",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer-Intern_JR0281270",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Intern---Graduate-Software-Application-Development_JR0283166",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Agentic-AI-Software-Research-Intern_JR0282977",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/AI-Software-Graduate-Intern_JR0282612",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Graduate-Intern-Software-Engineering-Summer-2026_JR0279778",
@@ -8046,6 +8048,16 @@
     ]
   },
   {
+    "name": "globalizationpartners",
+    "ats": "greenhouse",
+    "identifier": "globalizationpartners",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/globalizationpartners/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/globalizationpartners/jobs/7714834003"
+    ]
+  },
+  {
     "name": "glossgenius",
     "ats": "greenhouse",
     "identifier": "glossgenius",
@@ -8162,6 +8174,16 @@
     "urls": [
       "https://job-boards.greenhouse.io/honehealth/jobs/4945568008",
       "https://job-boards.greenhouse.io/honehealth/jobs/4945588008"
+    ]
+  },
+  {
+    "name": "horacemannservicecorporation",
+    "ats": "greenhouse",
+    "identifier": "horacemannservicecorporation",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/horacemannservicecorporation/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5982339004"
     ]
   },
   {
@@ -13165,7 +13187,8 @@
       "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Application-Engineering-Intern---Bachelor-s-Degree_2502255-1",
       "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Product-Engineer-Intern---Master-s-Degree_2502284-1",
       "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Software-Engineer-Intern---Bachelor-s-Degree_2502351-1",
-      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/US---CA---Santa-Clara---Marvell-Park/IC-Application-Engineer-Intern---Masters-Degree_2502729-1"
+      "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/US---CA---Santa-Clara---Marvell-Park/IC-Application-Engineer-Intern---Masters-Degree_2502729-1",
+      "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Irvine-CA/System-Engineer---Optical-DSP-Intern---PhD_2502724"
     ]
   },
   {
@@ -13181,7 +13204,8 @@
       "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Digital-Marketing-Intern---Bachelor-s-Degree_2502282",
       "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Physical-Design-Engineer-Intern---Master-s-Degree_2502383",
       "https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers2/job/Santa-Clara-CA/Software-Engineer-Intern---Master-s-Degree_2502348",
-      "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/AI-Infrastructure-Engineer-Intern--Master-s-Degree_2502453"
+      "https://marvell.wd1.myworkdayjobs.com/en-US/marvellcareers2/job/Santa-Clara-CA/AI-Infrastructure-Engineer-Intern--Master-s-Degree_2502453",
+      "https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/Santa-Clara-CA/AI-Platform-Engineer-Intern--Agentic----Master-s-Degree_2502270"
     ]
   },
   {
