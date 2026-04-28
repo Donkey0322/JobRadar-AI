@@ -1,5 +1,206 @@
 [
   {
+    "company": "Capital One",
+    "role": "Full Stack Software Engineer Intern - Team Sprout",
+    "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Sprout---Fall-2026_R240974",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 837,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Obtain a Bachelor’s degree or higher from January 2027 or later",
+        "Familiarity with application development using any backend programming language and JavaScript",
+        "Good communication, presentation, and writing skills",
+        "Good understanding of testing fundamentals",
+        "Able to work within a team setting and actively participate and collaborate",
+        "Experience with backend technologies such as GoLang, AWS Lambda, S3",
+        "Experience with version control technology like Git",
+        "Experience with Jenkins CI/CD, microservices, API design or integration"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Capital One",
+    "role": "Full Stack Software Engineer Intern - Team Integrated Storefront",
+    "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Integrated-Storefront---Fall-2026_R241117",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 836,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Obtain a Bachelor’s degree or higher from January 2027 or later",
+        "Familiar with web development (HTML5, CSS3, Javascript)",
+        "Familiar with application development using any backend programming language",
+        "Good communication, presentation, and writing skills",
+        "Understand testing fundamentals",
+        "Able to work and collaborate in a team setting",
+        "Experienced in front-end development using NodeJS, React",
+        "Experienced with backend technologies like GoLang, AWS Lambda, S3",
+        "Experienced with version control technology (Git)",
+        "Experienced with Jenkins CI/CD, ETL, microservices, API design/integration"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Capital One",
+    "role": "Backend Software Engineer Intern - Team Customer Acquisitions",
+    "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Backend-Software-Engineer---Team-Customer-Acquisitions---Fall-2026_R241119",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 835,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Obtain a Bachelor's degree or higher from January 2027 or later.",
+        "Familiarity with application development using backend programming languages and JavaScript.",
+        "Good communication, presentation, and writing skills.",
+        "Good understanding of testing fundamentals.",
+        "Work within a team setting and actively participate in discussions.",
+        "Experience with backend technologies such as GoLang, AWS Lambda, S3.",
+        "Experience with version control technology, i.e., Git.",
+        "Experience with Jenkins CI/CD, microservices, and API design/integration."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Capital One",
+    "role": "Full Stack Software Engineer Intern - Team Tachyon One",
+    "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Full-Stack-Software-Engineer---Team-Tachyon-One---Fall-2026_R241105",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 834,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Obtain a Bachelor's degree or higher from January 2027 or later",
+        "Familiarity with application development using any backend programming language, and JavaScript",
+        "Good communication, presentation, and writing skills",
+        "Good understanding of testing fundamentals",
+        "Able to work within a team setting and actively participate",
+        "Experience with backend technologies such as Java, AWS Lambda, S3",
+        "Experience with version control technology i.e. Git",
+        "Experience with Jenkins CI/CD, microservices, API design / integration",
+        "Experience with mobile app development in either iOS or Android",
+        "Experience with industry standards such as JSON"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer – Intern",
+    "link": "https://careers-gdms.icims.com/jobs/72240/job?mobile=true&needsRedirect=false",
+    "location": "Fort Wayne, IN",
+    "season": "2026 Summer",
+    "id": 833,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in Computer, Systems, Software, Electrical, Mechanical Engineering or related discipline.",
+        "Possess a standing of sophomore or higher.",
+        "Proficient understanding of software engineering concepts, principles, and theories.",
+        "Interest and aptitude in designing, implementing, and testing complex software.",
+        "Interest and aptitude working with computer hardware, software, and modeling environments.",
+        "Knowledge using modeling, design, and test tools.",
+        "Excellent oral and written communication skills.",
+        "Creative thinking with ability to multi-task.",
+        "Ability to work effectively in a collaborative environment.",
+        "Ability to quickly grasp and apply new information.",
+        "Ability to handle more complex assignments as experience progresses.",
+        "Self-motivated, engaged, and continuously learning.",
+        "Identify opportunities to apply AI for continuous improvement and innovation."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Sieve",
+    "role": "Applied Research Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/sieve/2298668b-f218-435a-a497-de4fc11c5ac6/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 832,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent communication skills",
+        "Possess deep passion for the video domain and media technologies",
+        "Motivated by building end-to-end products",
+        "Able to break down problems from customer level impact",
+        "Contribute actively to open source projects",
+        "Comfortable working with models and APIs",
+        "Optimize performance through pre/post-processing, parallelism, pipelining, and inference optimization",
+        "Perform occasional fine-tuning"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Sieve",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/sieve/b319e35e-2455-4c63-ae3d-721bc7dbffc9/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 831,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent communication skills with customers and external teams",
+        "Able to context switch quickly",
+        "Experience as an early hire at a startup (bonus)",
+        "Active GitHub or portfolio projects (bonus)"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Horace Mann",
+    "role": "Cybersecurity SOC Analyst Intern",
+    "link": "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5982336004",
+    "location": "Springfield, IL",
+    "id": 830,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Cybersecurity, IT, CS, or related field.",
+        "Understand basic cybersecurity concepts.",
+        "Familiar with Windows and Linux operating systems.",
+        "Strong analytical and problem-solving skills.",
+        "Good written and verbal communication skills.",
+        "Eager to learn in a fast-paced environment.",
+        "Exposed to SIEM tools like Splunk or Rapid7.",
+        "Familiar with EDR tools like SentinelOne or CrowdStrike.",
+        "Understand basic networking concepts.",
+        "Knowledge of common frameworks like MITRE ATT&CK.",
+        "Experience with scripting in Python or PowerShell."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Washpost",
     "role": "Summer Intern Software Engineering, CloudOps",
     "link": "https://washpost.wd5.myworkdayjobs.com/washingtonpostcareers/job/DC-Washington-TWP-Headquarters/Summer-Intern-Software-Engineering--CloudOps_JR-90275663",
