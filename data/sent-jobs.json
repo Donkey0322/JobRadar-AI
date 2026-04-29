@@ -1,5 +1,53 @@
 [
   {
+    "company": "Rakuten",
+    "role": "Intern - Data Science",
+    "link": "https://rakuten.wd1.myworkdayjobs.com/rakutenadvertising/job/San-Francisco-California/Intern---Data-Science_1031656",
+    "location": "San Francisco, California",
+    "id": 846,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Interested in e-commerce and new technologies.",
+        "Experienced in using Machine Learning methods.",
+        "Good knowledge of Python and SQL.",
+        "Strong mathematical skills.",
+        "Good conversational and written English skills.",
+        "Degree in progress."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Globalhr",
+    "role": "2026 Raytheon Part Time Co-op-Java Software Engineer (Remote)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/XMLNAME-2026-Raytheon-Part-Time-Co-op-Java-Software-Engineer--Remote-_01841272",
+    "location": "US-PA-STATE COLLEGE-5A ~ 302 Science Park Rd ~ BLDG 5A",
+    "id": 845,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a Senior or Post-Graduate in Computer Science or a related STEM major.",
+        "Experience developing object-oriented software using Java in a Linux environment.",
+        "Perform Unit Testing using tools such as JUnit.",
+        "Troubleshoot software errors and provide fixes in a modern IDE.",
+        "Ability to obtain and maintain a U.S. government TS/SCI security clearance.",
+        "Experience with Agile development.",
+        "Develop software using JavaScript and Python.",
+        "Work with applications in the AWS Cloud.",
+        "Experience with microservices, Docker, Kubernetes, and containerized applications.",
+        "Use the Atlassian tool suite."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "SOTI",
     "role": "Software Developer Intern",
     "link": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--September-2026-12-Months-_R09971",
