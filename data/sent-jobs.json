@@ -1,5 +1,37 @@
 [
   {
+    "company": "Apptronik",
+    "role": "Robotics Software Intern – Real-Time Controls",
+    "link": "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004",
+    "location": "Austin, TX",
+    "id": 882,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Support development and testing of real-time C++ software",
+        "Assist integration of sensor data and firmware feedback",
+        "Help implement and validate mathematical models for robot movement",
+        "Contribute to software interfaces for robot tasks",
+        "Gather and analyze performance data",
+        "Write unit tests and maintain software documentation",
+        "Participate in code reviews and agile development",
+        "Exhibit Apptronik's core values",
+        "Understand Modern C++ fundamentals",
+        "Proficient in Python for data analysis, automation, or testing",
+        "Solid understanding of Newtonian physics and linear algebra",
+        "Familiar with standard robot components",
+        "Experienced with Git and Linux environment",
+        "Strong communication and collaborative problem-solving skills",
+        "Currently pursuing BS, MS, or PhD in related field",
+        "Relevant experience in robotics or simulation projects"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Amazon",
     "role": "Front-End Engineer Intern",
     "link": "https://amazon.jobs/en/jobs/10407301/front-end-engineer-fall-internship-2026-us",

@@ -541,6 +541,7 @@
       "https://amazon.jobs/en/jobs/10394934",
       "https://amazon.jobs/en/jobs/10399655",
       "https://amazon.jobs/en/jobs/10407301",
+      "https://amazon.jobs/en/jobs/10407301/front-end-engineer-fall-internship-2026-us",
       "https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-summer-2026-us",
       "https://amazon.jobs/en/jobs/3116034/software-development-engineer-internship-summer-2026-canada",
       "https://amazon.jobs/en/jobs/3121430/software-dev-engineer-intern-ai-summer-2026-amazon-devices-services-canada",
@@ -778,6 +779,7 @@
       "https://apply.workable.com/altom-transport/j/82171E7F98/apply",
       "https://apply.workable.com/altom-transport/j/833F4039F6/apply",
       "https://apply.workable.com/altom-transport/j/89ACE16A43/apply",
+      "https://apply.workable.com/altom-transport/j/8C86D73D01/apply",
       "https://apply.workable.com/altom-transport/j/8ED8DBB099/apply",
       "https://apply.workable.com/altom-transport/j/99AE817981/apply",
       "https://apply.workable.com/altom-transport/j/A1004F0DC3/apply",
@@ -1475,7 +1477,8 @@
     "page": "https://bloomenergy.wd1.myworkdayjobs.com/wday/cxs/bloomenergy/bloomenergycareers/jobs",
     "urls": [
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Full-Stack-Developer-Intern_JR-20763",
-      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20773"
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20773",
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Technical-Product-Systems-Intern--AI---PLM-_JR-22483"
     ]
   },
   {
@@ -1622,7 +1625,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/apptronik/jobs",
     "urls": [
       "https://boards.greenhouse.io/apptronik/jobs/5789359004",
-      "https://boards.greenhouse.io/apptronik/jobs/5828414004?gh_jid=5828414004"
+      "https://boards.greenhouse.io/apptronik/jobs/5828414004?gh_jid=5828414004",
+      "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004"
     ]
   },
   {
@@ -9487,7 +9491,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/visiersolutionsinc/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4627556006"
+      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4627556006",
+      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006"
     ]
   },
   {
