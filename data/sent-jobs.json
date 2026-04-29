@@ -1,5 +1,57 @@
 [
   {
+    "company": "D-matrix",
+    "role": "Applied AI Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/d-Matrix/93a6e6ee-3391-4437-8459-e28eb05eace7",
+    "location": "Santa Clara",
+    "id": 875,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Master's or PhD in Computer Science, Electrical, Industrial Engineering, or a related field",
+        "Strong proficiency in Python and ML frameworks (PyTorch, TensorFlow, or scikit-learn)",
+        "Experience with data analysis and visualization (Pandas, NumPy, Matplotlib)",
+        "Familiarity with time-series analysis, anomaly detection, optimization, or computer vision",
+        "Exposure to manufacturing, semiconductor, or hardware environments",
+        "Familiarity with version control (Git) and Linux-based development workflows",
+        "Prior internship or project experience in manufacturing analytics, digital twin, or process optimization",
+        "Experience with LLMs or generative AI for structured data or knowledge extraction",
+        "Exposure to statistical process control (SPC) or Six Sigma concepts"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Amazon",
+    "role": "Front-End Engineer Fall Internship – 2026 (US)",
+    "link": "https://amazon.jobs/en/jobs/10407301",
+    "location": "US, WA, Seattle",
+    "id": 874,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Commit to a 12-week maximum internship, working 40 hours per week",
+        "Be enrolled in an academic program physically located in the United States",
+        "Possess experience in JavaScript",
+        "Possess experience with CSS",
+        "Possess experience with HTML",
+        "Possess experience in at least one object-oriented programming language",
+        "Demonstrate knowledge of computer science fundamentals",
+        "Work towards a Bachelor's or Master's Degree in a relevant discipline",
+        "Experience with one or more relevant front-end frameworks",
+        "Demonstrate knowledge of UX best practices"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Vanderlande",
     "role": "Internship/Graduation: AI-Driven Engineering, the Path to Zero-Error Automation",
     "link": "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
