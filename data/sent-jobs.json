@@ -1,5 +1,56 @@
 [
   {
+    "company": "Vanderlande",
+    "role": "Internship/Graduation: AI-Driven Engineering, the Path to Zero-Error Automation",
+    "link": "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
+    "location": "Veghel",
+    "id": 873,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Experience with programming or scripting languages like Python, C#, Java, or similar object-oriented languages and Large Language Models.",
+        "Understand software structure, version control, and maintainable coding practices.",
+        "Possess knowledge of control systems and industrial automation concepts.",
+        "Familiar with interfaces between mechanical, electrical, and control engineering.",
+        "Mandatory enrolment to a Dutch Education System & resident of The Netherlands.",
+        "Analyze current software engineering processes to identify inefficiencies and errors.",
+        "Design and develop tooling to automate software engineering activities.",
+        "Collaborate with engineering teams to improve input quality and structure.",
+        "Work with the Engineering Support Office for tool alignment and integration.",
+        "Contribute to continuous improvement of engineering standards and processes."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "The New York Times",
+    "role": "AI Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4688353005",
+    "location": "New York, NY",
+    "id": 872,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate a portfolio of relevant AI projects.",
+        "Solid grasp of web development and deploying apps to the cloud.",
+        "Familiarity with API design and observability for prototype services.",
+        "Hands-on experience using LLMs in applications.",
+        "Experience with workflow orchestration and back-end services for data processing.",
+        "Experience with content retrieval or RAG pipelines.",
+        "Experience with evaluation harnesses for LLM applications.",
+        "Interest in journalism and building responsible AI experiences.",
+        "Enthusiasm for The New York Times and its products."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Samsung Research America Internship",
     "role": "2026 Research Intern, AI Algorithm Design for 6G (Summer)",
     "link": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8364722002",
