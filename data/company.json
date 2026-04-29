@@ -15170,6 +15170,16 @@
     ]
   },
   {
+    "name": "soti",
+    "ats": "workday",
+    "identifier": "soti-soti-next-gen",
+    "domain": "https://soti.wd3.myworkdayjobs.com/soti-next-gen",
+    "page": "https://soti.wd3.myworkdayjobs.com/wday/cxs/soti/soti-next-gen/jobs",
+    "urls": [
+      "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--September-2026-12-Months-_R09971"
+    ]
+  },
+  {
     "name": "spacedynamicslaboratory.applytojob.com",
     "ats": "custom",
     "identifier": "spacedynamicslaboratory.applytojob.com",
