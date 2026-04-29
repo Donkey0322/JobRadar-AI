@@ -5752,7 +5752,8 @@
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117346",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117347",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117348",
-      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117364"
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117364",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117440"
     ]
   },
   {
@@ -8068,6 +8069,17 @@
     "urls": [
       "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/7492479003",
       "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/7492480003"
+    ]
+  },
+  {
+    "name": "gelbergroup",
+    "ats": "greenhouse",
+    "identifier": "gelbergroup",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/gelbergroup/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/gelbergroup/jobs/4652887006",
+      "https://job-boards.greenhouse.io/gelbergroup/jobs/4657272006"
     ]
   },
   {

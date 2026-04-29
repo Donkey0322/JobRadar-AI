@@ -1,5 +1,29 @@
 [
   {
+    "company": "Gelber Group",
+    "role": "Software Engineer Internship (Technical Operations Team) - Summer 2026",
+    "link": "https://job-boards.greenhouse.io/gelbergroup/jobs/4652887006",
+    "location": "Chicago, IL",
+    "id": 877,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Progress toward a Computer Science or related degree",
+        "Strong communication skills",
+        "Strong problem-solving ability",
+        "Experience with Python",
+        "Experience with JavaScript/TypeScript and C#",
+        "Proficient in web development",
+        "Familiarity with basic web concepts",
+        "Interest in building reliable tools for fast-paced teams"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Howmet Aerospace",
     "role": "Product Engineer Intern",
     "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117440",
