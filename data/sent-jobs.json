@@ -1,5 +1,112 @@
 [
   {
+    "company": "Amazon",
+    "role": "Front-End Engineer Intern",
+    "link": "https://amazon.jobs/en/jobs/10407301/front-end-engineer-fall-internship-2026-us",
+    "location": "Seattle, WA",
+    "season": "2026 Fall",
+    "id": 881,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Commit to a 40-hour/week, 12-week maximum internship",
+        "Enrolled in a US-located academic program",
+        "Experienced in JavaScript",
+        "Experienced with CSS",
+        "Experienced with HTML",
+        "Experienced in at least one object-oriented programming language",
+        "Knowledgeable in computer science fundamentals",
+        "Pursuing a Bachelor's or Master's in Computer Science or related field",
+        "Experienced in relevant front-end frameworks like React or Angular",
+        "Knowledgeable in UX best practices"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Bloom Energy",
+    "role": "Technical Product Systems Intern - AI & PLM",
+    "link": "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Technical-Product-Systems-Intern--AI---PLM-_JR-22483",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 880,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Design a keyword- and semantics-driven document retrieval workflow.",
+        "Implement logic to map user queries to PLM-managed documents.",
+        "Evaluate and flag document mismatches or outdated revisions.",
+        "Partner with stakeholders to validate PLM data access patterns and APIs.",
+        "Pursue a Bachelor's or Master's degree in a technical discipline.",
+        "Graduate between Spring 2026 and Summer 2027.",
+        "MBA candidate with computational background.",
+        "Demonstrate proficiency in Python and/or Java.",
+        "Experience working with APIs and structured data formats.",
+        "Working knowledge of Natural Language Processing (NLP) concepts.",
+        "Ability to read, understand, and reason about technical documentation.",
+        "Familiarity with basic enterprise data concepts.",
+        "Strong analytical skills and attention to detail.",
+        "Ability to collaborate cross-functionally.",
+        "Direct exposure to Product Lifecycle Management (PLM) systems.",
+        "Experience querying enterprise systems via APIs.",
+        "Hands-on experience with LLMs or AI search platforms.",
+        "Define source of truth frameworks.",
+        "Highly motivated and a self-starter.",
+        "Excellent organizational skills.",
+        "Strong oral and written communication skills.",
+        "Demonstrate a bias for action and implementation.",
+        "Proven teamwork skills."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/8C86D73D01/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 879,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Visier Solutions",
+    "role": "Software Developer Co-op",
+    "link": "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Summer",
+    "id": 878,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Write production-level code impacting customers",
+        "Implement new features",
+        "Fix complex bugs",
+        "Collaborate across the software development cycle",
+        "Proficient in relevant programming languages (e.g., Java, JavaScript, Typescript, Scala)",
+        "Skilled in writing functional tests (e.g., Selenium, ScalaTest)",
+        "Knowledge of data structures and algorithms",
+        "Demonstrate attention to detail and identify potential improvements",
+        "Knowledgeable in web technologies (REST, HTML/CSS, JSON, Angular)",
+        "Understand relational and non-relational databases and SQL"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Gelber Group",
     "role": "Software Engineer Internship (Technical Operations Team) - Summer 2026",
     "link": "https://job-boards.greenhouse.io/gelbergroup/jobs/4652887006",
