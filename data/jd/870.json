@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/astranis/jobs/4646558006",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 4530408006,
+  "location": {
+    "name": "San Francisco"
+  },
+  "metadata": [
+    {
+      "id": 16001956006,
+      "name": "Recruiting Difficulty - ONCE SET, DO NOT CHANGE",
+      "value": "1",
+      "value_type": "single_select"
+    },
+    {
+      "id": 16039096006,
+      "name": "Level Estimate",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4646558006,
+  "updated_at": "2026-04-29T15:02:58-04:00",
+  "requisition_id": "881",
+  "title": "Hardware Design Intern, Software Defined Radio Team (Summer 2026)",
+  "company_name": "Astranis",
+  "first_published": "2026-01-21T19:45:10-05:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Astranis builds advanced satellites for high orbits, expanding humanity’s reach into the solar system. Today, Astranis satellites provide dedicated, secure networks to highly-sophisticated customers across the globe— large enterprises, sovereign governments, and the US military. With five satellites on orbit and many more set to launch soon, the company is servicing a backlog of more than $1 billion of commercial contracts.&lt;br&gt;&lt;br&gt;Astranis is the preferred satellite communications partner for buyers with stringent requirements for uptime, data security, network visibility, and customization. Astranis has raised over $750 million from some of the world’s best investors, from Andreessen Horowitz to Blackrock and Fidelity, and employs a team of 450 engineers and entrepreneurs. Astranis designs, builds, and operates its satellites out of its 153,000 sq. ft. headquarters in Northern California, USA.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;section page-centered&quot;&gt;\n&lt;h4&gt;&lt;strong&gt;Hardware Design Intern, Software Defined Radio Team (Summer 2026)&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;Internships at Astranis typically last for twelve weeks, and are hourly roles designed for students who are currently enrolled at a four-year university.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As an Intern, you will have an amazing opportunity to work on hard problems — we pride ourselves on giving everyone at Astranis a chance to do meaningful work on challenging projects, no matter their seniority. Many past interns have designed and tested hardware/software that is now flying on our first satellite, and many of them are now full-time employees at Astranis.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you have already graduated from a four-year university, please apply to be an Associate Engineer.&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, simulate, implement, and test our internally developed software defined radio hardware&lt;/li&gt;\n&lt;li&gt;Bringup and debug hardware in the lab with top of the line instruments and equipment&lt;/li&gt;\n&lt;li&gt;Write code to help evaluate performance and automate testing of satellite hardware&lt;/li&gt;\n&lt;li&gt;Integrate these systems into the spacecraft by working closely with the rest of the team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;A passion for hardware development, including working in a fast-paced environment and hands-on design and development&lt;/li&gt;\n&lt;li&gt;Currently pursuing a degree in Electrical Engineering or equivalent&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to personally design, build, and test PCBA hardware from scratch (student design team projects, design competitions, personal projects)&lt;/li&gt;\n&lt;li&gt;Solid EE foundation in one or more of the following areas:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;analog design (op amps, transistors, RLC filters)&lt;/li&gt;\n&lt;li&gt;digital design (FPGAs, SOCs, SERDES, DDR, LVDS)&lt;/li&gt;\n&lt;li&gt;mixed signal design (ADCs, DACs, power integrity)&lt;/li&gt;\n&lt;li&gt;RF design (Lineups, s-parameters, impedance matching)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&lt;strong&gt;Bonus&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience building or using software defined radios&lt;/li&gt;\n&lt;li&gt;Experience with Altium Designer (or other PCB design software)&lt;/li&gt;\n&lt;li&gt;Experience with analysis software (ADS, ANSYS, Matlab)&lt;/li&gt;\n&lt;li&gt;Experience with Python or similar programming languages&lt;/li&gt;\n&lt;li&gt;Experience with soldering and rework&lt;/li&gt;\n&lt;li&gt;Experience with EE lab bench equipment (power supply, oscilloscope, spectrum analyzers, signal generators, network analyzers, etc)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;div&gt;The base pay for this position is $29.00 per hour.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Hourly Pay&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$29&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$29 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;&lt;strong&gt;U.S. Citizenship, Lawful Permanent Residency, or Refugee/Asylee Status Required&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;(To comply with U.S. Government space technology export regulations, applicant must be a U.S. citizen, lawful permanent resident of the United States, or other protected individual as defined by 8 U.S.C. 1324b(a)(3))&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Our mission and our products are meant to connect the world and everyone in it, regardless of gender, race, creed, or any other distinction. We believe in a diverse and inclusive workplace, and we encourage all people to join our team and bring their unique perspective to help make us stronger.&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4003233006,
+      "name": "Payload Internships",
+      "child_ids": [],
+      "parent_id": 4003202006
+    }
+  ],
+  "offices": [
+    {
+      "id": 4001511006,
+      "name": "San Francisco",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

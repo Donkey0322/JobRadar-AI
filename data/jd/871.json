@@ -1,0 +1,71 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8364722002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 6339503002,
+  "location": {
+    "name": "6105 Tennyson Pkwy, Suite 300, Plano TX 75024"
+  },
+  "metadata": [
+    {
+      "id": 4312150002,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 28053885002,
+      "name": "Job Category",
+      "value": [
+        "Next Generation Communications"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4469628002,
+      "name": "Main Skills/Competencies",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 19183087002,
+      "name": "Remote Work Option",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 8364722002,
+  "updated_at": "2026-04-29T15:10:33-04:00",
+  "requisition_id": "402799",
+  "title": "2026 Research Intern, AI Algorithm Design for 6G (Summer)",
+  "company_name": "Samsung Research America Internship",
+  "first_published": "2026-01-13T17:19:07-05:00",
+  "language": "en",
+  "content": "&lt;p&gt;&lt;strong&gt;Lab Summary:&lt;/strong&gt; The Standards &amp;amp; Mobility Innovation (SMI) team is committed to developing technologies that enable ubiquitous access to information and provide immersive multimedia experiences for mobility users.&amp;nbsp; Our research focuses on:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Wireless standards and technology including Wi-Fi, 5G, LTE-A, IoT&lt;/li&gt;\n&lt;li&gt;RF &amp;amp; fast prototyping of 5G and IEEE 802 wireless systems and/or use cases&lt;/li&gt;\n&lt;li&gt;Multimedia standards and technology including VR, HDR, All-IP delivery.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Position Summary:&lt;/strong&gt;&amp;nbsp; Join the SMI team of Samsung Research America in Plano, Texas to contribute to 6G wireless AI (artificial intelligence) algorithm &amp;amp; system design, IPR development and proof-of concept design.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Position Responsibilities&lt;/strong&gt;&lt;strong&gt;: &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The research intern will contribute to some of the followings:\n&lt;ul&gt;\n&lt;li&gt;6G wireless communication AI algorithm design and simulations&lt;/li&gt;\n&lt;li&gt;6G Air interface / fronthaul interface design towards 3GPP / O-RAN standards&lt;/li&gt;\n&lt;li&gt;Technical documentation, e.g., technical report, development specifications, etc.&lt;/li&gt;\n&lt;li&gt;Patent and IPR generation&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Skills:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a PhD&lt;/li&gt;\n&lt;li&gt;Sound technical background in signal processing, AI &amp;amp; machine learning (ML), wireless communication systems and algorithms&lt;/li&gt;\n&lt;li&gt;Hands-on coding skills (e.g., Matlab, Python, C/C++)&lt;/li&gt;\n&lt;li&gt;Ability to clearly define high level requirements and criteria to be used in the evaluation of air interface technology alternatives&lt;/li&gt;\n&lt;li&gt;Have knowledge / experiences on some of the followings:\n&lt;ul&gt;\n&lt;li&gt;Artificial intelligence and machine learning (AI/ML) algorithms and software tools&lt;/li&gt;\n&lt;li&gt;Advanced radio access technologies such as MIMO, OFDM, OFDMA, Single Carrier FDMA, physical/MAC layers, etc.&lt;/li&gt;\n&lt;li&gt;Simulation of cellular network technologies, to derive tradeoffs and to predict performance in diverse channel conditions&lt;/li&gt;\n&lt;li&gt;Multiple antenna (MIMO) and beamforming technologies and digital signal processing&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Excellent verbal and written communication skills to effectively represent the derived results and technical concepts developed in the course of the work&lt;/li&gt;\n&lt;li&gt;Ability to work within Samsung in cross-functional, cross-divisional teams&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;Our total rewards programs are designed to motivate and engage exceptional talent. The hourly pay rate range for roles at this level is listed below, but may be higher or lower in other states due to geographic differentials in the labor market. Within the hourly pay rate range, individual rates depend on a number of factors—including the role’s function and location as well as the individual’s knowledge, skills, experience, education and training. This is part of our comprehensive compensation package with annual bonus eligibility and generous benefits to help you live life well.&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Hourly Pay Rate Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$44&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$59 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Additional Information &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Disclosure of Trade Secrets&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Samsung has a strict policy on trade secrets. In applying to Samsung and progressing through the recruitment process, you must not disclose any trade secrets of a current or previous employer.&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Essential Job Functions&lt;/u&gt;&lt;/p&gt;\n&lt;p&gt;This position will be performed in an office setting. The position will require the incumbent to sit and stand at a desk, communicate in person and by telephone, and frequently operate standard office equipment, such as telephones and computers.&lt;/p&gt;\n&lt;p&gt;Samsung Research America is committed to complying with all Federal, State and local laws related to the employment of qualified individuals with disabilities. If you are an individual with a disability and would like to request a reasonable accommodation as part of the employment selection process, please contact the recruiter or email &lt;a href=&quot;mailto:sratalent@samsung.com&quot; target=&quot;_blank&quot;&gt;sratalent@samsung.com.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Equal Employment Opportunity&lt;/u&gt;&lt;/p&gt;\n&lt;p&gt;At Samsung, we believe that innovation and growth are driven by an inclusive culture and a diverse workforce. We aim to create a global team where everyone belongs and has equal opportunities, inspiring our talent to be their true selves. Together, we are building a better tomorrow for our customers, partners, and communities.&lt;/p&gt;\n&lt;p&gt;Samsung Research America is committed to employing a diverse workforce, and &amp;nbsp;provide Equal Employment Opportunity for all individuals regardless of race, color, religion, gender, age, national origin, marital status, sexual orientation, gender identity, status as a protected veteran, genetic information, status as a qualified individual with a disability, or any other characteristic protected by law.&lt;/p&gt;\n&lt;p&gt;For more information regarding protection from discrimination under Federal law for applicants and employees, please refer to this link: &lt;strong&gt;&lt;a href=&quot;https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/internal/policies/equal-pay-for-equal-work&quot;&gt;Pay Transparency&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4029893002,
+      "name": "Standards and Mobility Innovation",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014693002,
+      "name": "Plano, TX",
+      "location": "6105 Tennyson Pkwy, Suite 300, Plano TX 75024",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
