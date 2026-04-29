@@ -1,5 +1,31 @@
 [
   {
+    "company": "SOTI",
+    "role": "Software Developer Intern",
+    "link": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--September-2026-12-Months-_R09971",
+    "location": "Mississauga, ON, Canada",
+    "season": "2026 Fall",
+    "id": 844,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enhance programming skills by working with experienced team members",
+        "Understand how various roles collaborate to deliver software products",
+        "Understand processes for gathering user requirements and translating them into software solutions",
+        "Understand tools and processes for developing professional software products",
+        "Understand testing processes and frameworks for high-quality software",
+        "Possess knowledge of algorithms, data structures, and database fundamentals",
+        "Basic knowledge of Software Development Life Cycle concepts",
+        "Strong math, analytic, and problem-solving skills",
+        "Basic programming knowledge in languages like C, C++, Java, JavaScript, SQL, Ruby, Rust, Lua, Haskell",
+        "Curiosity, a desire to learn, and ability to be part of a team"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "BillionToOne",
     "role": "Data Science and AI Intern",
     "link": "https://job-boards.greenhouse.io/billiontoone/jobs/4689943005",
