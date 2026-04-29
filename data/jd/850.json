@@ -1,0 +1,161 @@
+{
+  "id": "744000123440088",
+  "name": "Data & Analytics Intern ",
+  "uuid": "433b1302-1343-4f1f-bc8d-e7449c246df6",
+  "jobId": "8add8d06-74f4-4307-9a7d-bc2920fa490b",
+  "jobAdId": "40a8dfed-5809-4f54-95d7-dff8649ea0c6",
+  "defaultJobAd": true,
+  "refNumber": "REF284573A",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Beograd",
+    "country": "rs",
+    "address": "Omladinskih brigada 90e",
+    "postalCode": "11070",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "44.8222284",
+    "longitude": "20.4114858",
+    "fullLocation": "Beograd, , Serbia"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+      "valueLabel": "Limited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "f96116fc-f11c-4981-9057-536875429bc4",
+      "valueLabel": "Serbia Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "6286f52d-aa4b-4e77-a2f9-fa0d4d9e87a6",
+      "valueLabel": "RBSM"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "e5609fc7-7257-48f7-bed7-8dce63076a07",
+      "valueLabel": "Belgrade"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+      "valueLabel": "Indirect"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "99009340-9c16-4dbf-8eee-25a8b7b14c32",
+      "valueLabel": "Robert Bosch d.o.o."
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "b2e47e43-790d-4acb-871a-2ed61d7177ba",
+      "valueLabel": "Mobility Aftermarket"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "rs",
+      "valueLabel": "Serbia"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "b0d220e2-616a-491c-a7de-dd4174883f93",
+      "valueLabel": "Serbia"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "285229ca-d436-4542-aefc-e1f91100c594",
+      "valueLabel": "RS_RBSM_IND"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "AA",
+      "valueLabel": "MA"
+    }
+  ],
+  "releasedDate": "2026-04-28T12:17:29.320Z",
+  "creator": {
+    "name": "Milica Simić (HRL-Bg1)",
+    "avatarUrl": "https://c.smartrecruiters.com/sr-employee-image-prod-aws-dc5/6631a819e20c2269baf00d05?r=s3-eu-central-1&_1715101286853"
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123440088-data-analytics-intern-",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123440088-data-analytics-intern-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/433b1302-1343-4f1f-bc8d-e7449c246df6?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>Do you want to shape beneficial technologies with your ideas?<br>\nWhether in mobility solutions, consumer goods, industrial technology, or energy and building technology – with us, you will have the chance to improve quality of life all across the globe.</strong></p><p>As part of the Mobility Aftermarket division, you will work on product marketing, quality management, trade marketing, purchasing, and engineering to drive business excellence while collaborating closely with international teams.</p><p><strong>Welcome to Bosch.</strong></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>► Development of ETL/ELT pipelines primarily using Python<br>\n► Working with databases: data extraction, transformation, and loading<br>\n► Supporting development of data models and structured datasets for analytics and reporting<br>\n► Development and maintenance of Power BI dashboards and reports<br>\n► Assisting business users in understanding and visualizing data<br>\n► Documentation of data flows, logic, and processes<br>\n► Contributing to standardization of the analytics environment<br>\n► Collaboration with team members on data-related tasks and improvements</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>► Basic knowledge of SQL (mandatory)<br>\n► Basic knowledge of Python (working with data – pandas, etc.)<br>\n► Understanding of data concepts (tables, joins, basic transformations)<br>\n► Familiarity with Power BI is a plus<br>\n► Familiarity with cloud/data platforms (e.g. Azure) is a plus<br>\n► Good English communication skills (written and spoken)<br>\n► Analytical thinking and problem-solving mindset<br>\n► Proactive attitude and willingness to learn</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Why you'll love to work with us:</strong><br>\n► Experienced colleagues, international environment<br>\n► Being part of a great team will challenge you to grow personally and professionally<br>\n► Paid full time internship with flexible working hours so you can pass all the exams and be in track with faculty activities.</p><p>Are you our new colleague?</p><p>Get ready to work #LikeA<strong>Bosch</strong>! Simply complete the contact form and submit your CV in&#xa0;<strong>PDF format</strong>&#xa0;and&#xa0;<strong>in English</strong>.</p><p>If you have any questions, feel free to contact us at&#xa0;<strong>HRing.team@rs.bosch.com</strong>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

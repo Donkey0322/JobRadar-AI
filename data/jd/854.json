@@ -1,0 +1,198 @@
+{
+  "jobPostingInfo": {
+    "id": "f71324e8a2fc10013bf2cb980cfb0000",
+    "title": "Intern 2026 - Data Integration Engineer",
+    "jobDescription": "<p style=\"text-align:left\"><b>Our vision is to transform how the world uses information to enrich life for <i>all</i>. </b></p><p style=\"text-align:left\">Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and advance faster than ever.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Our vision is to transform how the world uses information to enrich life for all. Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and advance faster than ever.</p><p></p><h2><b>Responsibilities Include, But Not Limited To:</b></h2><p>The Advanced Packaging Technology Development (APTD) group drive Micron with packaging solutions for HBM product. As a data integration engineer in APTD will be accountable for the following</p><ul><li>Work multi-functionally with PIE, PE, MRDA, IT, Smart Manufacturing, Process Control, Equipment team to develop coordinated solution to accelerate product development.</li><li>AI transformation for APTD, enabling innovative solutions for technology acceleration through analysis and modeling.</li><li>Extract, monitor, analyze inline data, test data and tools data to improve yield, efficiency, performance, reliability, process margin and reduce costs.</li><li>Summarize complex problems, derive, explain data-driven actions taken to address them and drive team to complete with defined sub achievement.</li><li>Develop the prototype solution to evaluate the proposed solution benefits, includes automate ETL and analytic jobs, as well as visualization reports.</li></ul><h2><b>Successful candidates for this position will have:</b></h2><ul><li>Goo data extraction, analysis, problem solving, reporting and presentation skills. Confirmed capability to resolve problems and address root cause.</li><li>Database experience (Oracle, MSSQL, Snowflake, etc.) with schema design, query writing, database optimization.</li><li>Experience with appropriate data visualization tools (Tableau, Power BI, Excel).</li><li>Experience in machine learning areas: supervised/unsupervised/semi-supervised learning.</li><li>Programming language capability on Python, C#, Matlab, and/or R on Linux/Windows platforms.</li><li>Working knowledge in applying Finite Element Modeling (FEM); and familiarity with software tools such as ANSYS (APDL &amp; Workbench) is a bonus.</li><li>Good written and verbal communication skills, ability to work in a multi-national and multi-functional.</li><li>Strong interpersonal skills and customer/co-worker relationships. Successfully proven teamwork skills with a strong focus on developing good team dynamics.</li><li></li></ul><p>About Micron Technology, Inc.</p><p>We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all. With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience.</p><h2>To learn more, please visit micron.com/careers</h2><p>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.</p><p>To request assistance with the application process and/or for reasonable accommodations, please contact at hrsupport_tw&#64;micron.com.</p><p>Micron Prohibits the use of child labor and aligns with all applicable laws, rules, regulations, and other international and industry labor standards.</p><p>Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>About Micron Technology, Inc.</b></p><p style=\"text-align:left\"><span>We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life<span> </span></span><i>for all</i><span>. With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience.</span><br /><br /><span>To learn more, please visit micron.com/careers</span><br /><br /><span>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.</span><br /><br /><span>To request assistance with the application process and/or for reasonable accommodations,<span> </span></span><span>please contact at </span><span><a href=\"mailto:hrsupport_taiwan&#64;micron.com\" target=\"_blank\"><span class=\"WDM0\">hrsupport_taiwan&#64;micron.com</span></a>. </span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">AI alert: Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate&#39;s true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. </p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.</p>",
+    "location": "Taichung - Fab 16, Taiwan",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-29",
+    "timeType": "Full time",
+    "jobReqId": "JR96293",
+    "jobPostingId": "Intern-2026---Data-Integration-Engineer_JR96293",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "Taiwan",
+      "id": "a4e08b475d6a4176853c9d1cb9854e02"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Taichung - Fab 16, Taiwan",
+      "country": {
+        "descriptor": "Taiwan",
+        "id": "a4e08b475d6a4176853c9d1cb9854e02",
+        "alpha2Code": "TW"
+      }
+    },
+    "externalUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
+    "questionnaireId": "efa5806885ca1001134e020223b00000",
+    "secondaryQuestionnaireId": "2caad8548f761001eeeff56504550000"
+  },
+  "hiringOrganization": {
+    "name": "1580 Micron Memory Taiwan Co.",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "2026 Micron Summer Internship program - 暑期實習生",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/XMLNAME-2026-Micron-Summer-Internship-program---_JR87766",
+      "locationsText": "6 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-12-24"
+    },
+    {
+      "title": "Intern 2026 - IT Software Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---IT-Software-Engineer_JR96166",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 21 Days Ago",
+      "startDate": "2026-04-08"
+    },
+    {
+      "title": "Intern 2026 - IT Software Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---IT-Software-Engineer_JR96792",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 21 Days Ago",
+      "startDate": "2026-04-08"
+    },
+    {
+      "title": "Intern 2026 - Software Engineer",
+      "externalPath": "/job/Taichung---AATT-Taiwan/Intern-2026---Software-Engineer_JR96105",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30 Days Ago",
+      "startDate": "2026-03-30"
+    },
+    {
+      "title": "Intern 2026- HIG PSE",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026--HIG-PSE_JR92463",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 6 Days Ago",
+      "startDate": "2026-04-23"
+    },
+    {
+      "title": "Intern 2026-AMHS device Improvement Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026-AMHS-device-Improvement-Engineer_JR93743",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Intern 2026 - IT Software Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---IT-Software-Engineer_JR96794",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 28 Days Ago",
+      "startDate": "2026-04-01"
+    },
+    {
+      "title": "Intern 2026 - PMO Cost Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---PMO-Cost-Engineer_JR91278",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Intern 2026 - APTD WSS (Temporary bonding and debonding) Process Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---APTD-WSS--Temporary-bonding-and-debonding--Process-Engineer_JR94751",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-24"
+    },
+    {
+      "title": "Intern 2026 - Process QE R2R (Run to Run)",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---Process-QE-R2R--Run-to-Run-_JR91982",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "2026 Intern- DRAM Product Test Development Engineer 產品測試開發工程師",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/XMLNAME-2026-Intern--DRAM-Product-Test-Development-Engineer-_JR98324",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-04-24"
+    },
+    {
+      "title": "2026 Intern- DRAM Product Test Development Engineer 產品測試開發工程師",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/XMLNAME-2026-Intern--DRAM-Product-Test-Development-Engineer-_JR98327",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-04-24"
+    },
+    {
+      "title": "Intern 2026 - Process Quality Engineering Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---Process-Quality-Engineering-Engineer_JR92810",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Intern 2026- PMO SIC",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026--PMO-SIC_JR92279",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "2026 Intern- DRAM Product Test Development Engineer 產品測試開發工程師",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/XMLNAME-2026-Intern--DRAM-Product-Test-Development-Engineer-_JR98330",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 12 Days Ago",
+      "startDate": "2026-04-17"
+    },
+    {
+      "title": "2026 Intern- DRAM Product Test Development Engineer 產品測試開發工程師",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/XMLNAME-2026-Intern--DRAM-Product-Test-Development-Engineer-_JR98328",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 12 Days Ago",
+      "startDate": "2026-04-17"
+    },
+    {
+      "title": "Intern 2026 - HIG PSE",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026---HIG-PSE_JR92473",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-29"
+    },
+    {
+      "title": "Intern 2026 - Operation Intelligent Engineer",
+      "externalPath": "/job/Taoyuan---Fab-11-Taiwan/Intern-2026---Operation-Intelligent-Engineer_JR91884",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-16"
+    },
+    {
+      "title": "Intern 2026_QE PCM Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026-QE-PCM-Engineer_JR91934",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Intern 2026_QE PCM Engineer",
+      "externalPath": "/job/Taichung---Fab-16-Taiwan/Intern-2026-QE-PCM-Engineer_JR91931",
+      "timeType": "Full time",
+      "locationsText": "Taichung - Fab 16, Taiwan",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    }
+  ],
+  "userAuthenticated": false
+}

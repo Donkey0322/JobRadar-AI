@@ -1,0 +1,105 @@
+{
+  "id": "744000123546014",
+  "name": "Co-op Fall 2026 - DevOps Engineering - 8-16 Months",
+  "uuid": "09f98d96-f1e7-4190-8d86-05288868b153",
+  "jobId": "3bb1d58e-dfac-4413-a0de-828aad9975ef",
+  "jobAdId": "d1dc117f-71b4-4938-ac2d-2c8b719573b8",
+  "defaultJobAd": false,
+  "refNumber": "REF1237K",
+  "company": {
+    "name": "General Dynamics Missions System International",
+    "identifier": "GDMSI"
+  },
+  "location": {
+    "city": "Calgary",
+    "region": "AB",
+    "country": "ca",
+    "address": "110 - 1120 68th Ave NE",
+    "postalCode": "T2E 8S5",
+    "remote": false,
+    "hybrid": true,
+    "fullLocation": "Calgary, AB, Canada"
+  },
+  "customField": [
+    {
+      "fieldId": "64791a5d4769c1356cbdf914",
+      "fieldLabel": "Employment Type",
+      "valueId": "13d603b3-b6e8-4499-a7cb-d9c1d6b0b50f",
+      "valueLabel": "Fulltime-Temporary"
+    },
+    {
+      "fieldId": "653a9d0277e2434834993067",
+      "fieldLabel": "Work Group",
+      "valueId": "0c5d82d6-937a-41f6-a06d-a28c3684f68a",
+      "valueLabel": "SEAC"
+    },
+    {
+      "fieldId": "640efc2ab8145a4e44523d82",
+      "fieldLabel": "Brands",
+      "valueId": "0fbdf90a-9775-460d-93fb-0366a1b1519c",
+      "valueLabel": "General Dynamics Mission Systems - Canada"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "ca",
+      "valueLabel": "Canada"
+    },
+    {
+      "fieldId": "64791bf1671abc67852f856f",
+      "fieldLabel": "Number of Openings",
+      "valueLabel": "1"
+    }
+  ],
+  "releasedDate": "2026-04-28T20:29:20.908Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/GDMSI/744000123546014-co-op-fall-2026-devops-engineering-8-16-months",
+  "applyUrl": "https://jobs.smartrecruiters.com/GDMSI/744000123546014-co-op-fall-2026-devops-engineering-8-16-months?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/GDMSI/publication/09f98d96-f1e7-4190-8d86-05288868b153?dcr_ci=GDMSI",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><em>Build bold. Deliver impact. Win together.</em></p><p>At General Dynamics Mission Systems–Canada, we’re not just engineering technology — we’re shaping the future of defence and security. Our teams design and deliver advanced, mission-critical solutions that enhance national security, strengthen communities, and protect the people we serve.</p><p>If you’re looking for meaningful work that contributes to a safer, more secure world, you’ll find purpose here. Every day, your skills will directly impact programs that matter.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We're seeking a DevOps Engineering co-op to join our Ottawa, ON or Calgary, AB team Fall 2026.</p><p>In this role, students contribute to the development, integration, and sustainment of software and firmware systems that support defence operations. These positions provide hands-on experience with build systems, automated testing, tooling evaluation, and DevOps practices. Students gain exposure to critical software capabilities used in land operations, including systems deployed on vehicles, command posts, and other operational platforms.<br>\n<br>\n<strong>Key Responsibilities</strong></p><ul><li>Support and contribute to software and firmware build systems, helping ensure reliable and repeatable builds.</li><li>Evaluate, document, and analyze software tools, providing actionable insights to engineering and product teams.</li><li>Assist with the management and improvement of automated test systems, gaining exposure to test frameworks and scripting.</li><li>Participate in troubleshooting, root cause analysis, and problem resolution, under guidance from senior engineers.</li><li>Collaborate closely with team members through scrums, task planning, and iterative development activities.</li><li>Integrate efforts across development and testing teams, helping to improve software delivery pipelines.</li><li>Propose innovative ideas to enhance build, test, and deployment processes, contributing to team efficiency and product quality.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required</strong></p><ul><li>Currently enrolled in a Bachelor’s degree in Software Engineering, Computer Science, or a related field.</li><li>Familiarity with computer networking and networking equipment.</li><li>Strong written and verbal communication skills.</li><li>Enthusiastic, willing to learn, and takes ownership of assigned work.</li></ul><p><strong>Assets</strong></p><ul><li>Knowledge of object-oriented programming languages such as C/C++, C#, Java, or Python.</li><li>Exposure to DevOps tools such as Ansible, Docker, or Kubernetes.</li><li>Familiarity with MS Windows Server, Linux, or virtual machine environments.</li><li>Familiarity with enterprise tools such as GitLab, Rational Team Concert, DOORS/DOORS NG, or JIRA/Confluence.</li></ul><p>It is a requirement that General Dynamics Mission Systems–Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation&#xa0;</strong><br>\nThe expected hourly rate for this position is $21.20 – $33.23. Final compensation will be determined based on your relevant work experience to date. As part of student placement, you will be eligible for quarterly pay increases.</p><p><strong>Why Students Love Working Here</strong></p><ul><li><strong>Purposeful Innovation &amp; Problem Solving:</strong>&#xa0;You’ll work alongside experienced professionals and some of the brightest minds in the defence sector, gaining hands-on experience with next-generation technologies. This is a place where your ideas are encouraged, creativity is valued, and you’ll be supported as you learn and help drive modern, practical solutions.</li><li><strong>Connection &amp; Mentorship:</strong>&#xa0;Through onboarding to your career journey with us, you will work with teammates that are excited to share their experience and develop your skills. Have meaningful interactions, ask questions, and build relationships that can lead to lasting industry connections.</li><li><strong>Perks &amp; Highlights:</strong><ul><li>Eligibility for future co-ops or full-time roles</li><li>Flexible work hours and compressed workweek options</li><li>Hybrid work model (where applicable)</li><li>Networking opportunities across teams and disciplines</li><li>Onsite amenities and social events (gym, bike storage, trivia, appreciation events, etc.)</li><li>Corporate discounts</li></ul></li></ul><p><strong>Accommodation&#xa0;</strong><br>\nIf you require accommodation during any stage of the application process, please contact Human Resources via <a href=\"mailto:recruitment@gd-ms.ca\" rel=\"noopener noreferrer\">recruitment@gd-ms.ca</a>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "defense_and_space",
+    "label": "Defense And Space"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

@@ -933,6 +933,7 @@
     "urls": [
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Algorithm-Engineering-Intern_J-00327995",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Optical-Product-Engineering--_J-00327849",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00339667",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
       "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071"
     ]
@@ -6675,6 +6676,7 @@
     "domain": "https://helsing.ai",
     "page": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs",
     "urls": [
+      "https://helsing.ai/jobs/4312517101?gh_jid=4312517101",
       "https://helsing.ai/jobs/4703320101?gh_jid=4703320101"
     ]
   },
@@ -8963,7 +8965,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/scopely/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/scopely/jobs/5126724008"
+      "https://job-boards.greenhouse.io/scopely/jobs/5126724008",
+      "https://job-boards.greenhouse.io/scopely/jobs/5128789008"
     ]
   },
   {
@@ -9179,7 +9182,8 @@
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4973823007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/4999339007",
       "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5096351007",
-      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5104002007"
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5104002007",
+      "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5121054007"
     ]
   },
   {
@@ -12181,7 +12185,10 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000122598249",
       "https://jobs.smartrecruiters.com/BoschGroup/744000123065779",
       "https://jobs.smartrecruiters.com/BoschGroup/744000123068869",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000123460947"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123440088",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123460947",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123611471",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123612415"
     ]
   },
   {
@@ -12238,7 +12245,9 @@
     "page": "https://api.smartrecruiters.com/v1/companies/GDMSI/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/GDMSI/744000101380164",
-      "https://jobs.smartrecruiters.com/GDMSI/744000102172913"
+      "https://jobs.smartrecruiters.com/GDMSI/744000102172913",
+      "https://jobs.smartrecruiters.com/GDMSI/744000123537759",
+      "https://jobs.smartrecruiters.com/GDMSI/744000123546014"
     ]
   },
   {
@@ -13414,7 +13423,9 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---HBM-Software-Engineer_JR82921",
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Design-Engineer_JR91681",
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR83017",
-      "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274"
+      "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293"
     ]
   },
   {
@@ -17441,7 +17452,8 @@
     "urls": [
       "https://www.rubrik.com/company/careers/departments/job.7071669?gh_jid=7071669",
       "https://www.rubrik.com/company/careers/departments/job.7071674?gh_jid=7071674",
-      "https://www.rubrik.com/company/careers/departments/job.7542911?gh_jid=7542911"
+      "https://www.rubrik.com/company/careers/departments/job.7542911?gh_jid=7542911",
+      "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150"
     ]
   },
   {
