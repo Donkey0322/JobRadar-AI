@@ -1,5 +1,37 @@
 [
   {
+    "company": "Howmet Aerospace",
+    "role": "Product Engineer Intern",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117440",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Gelber Group",
+    "role": "Software Engineering Intern - Backoffice Team",
+    "link": "https://job-boards.greenhouse.io/gelbergroup/jobs/4657272006",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 876,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Progress toward a Computer Science or related degree",
+        "Strong problem-solving ability",
+        "Comfort working in an existing codebase",
+        "Familiarity with web fundamentals",
+        "At least 1 year of experience with C# and/or Java",
+        "Exposure to TypeScript and React",
+        "Curiosity and self-motivation",
+        "Strong communication skills",
+        "Interest in financial markets"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "D-matrix",
     "role": "Applied AI Engineering Intern",
     "link": "https://jobs.ashbyhq.com/d-Matrix/93a6e6ee-3391-4437-8459-e28eb05eace7",
