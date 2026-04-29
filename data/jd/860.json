@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "f51b39202a0b10016192f7d8c8c30000",
+    "title": "Modeling, Analytics, & Simulation Sciences (MASS) Engineer Intern",
+    "jobDescription": "<p>We are searching for a talented individual to join our development team. We are looking for an intern to work with a diverse team of software engineers and analysts to explore and develop solutions in support of AFRL, NASIC, and other Department of Defense and Intelligence Community projects. The candidate will be expected to evolve an existing Modeling &amp; Simulation frameworks (AFSIM) and its codebase based upon customer needs. We are focused on finding innovative, self-starters who can adapt to a fast-paced, high-profile development effort.</p><p>The Modeling, Analytics, and Simulation Sciences Operation is heavily focused on support to the Intelligence Community and DoD through specialized software development and M&amp;S tools and infrastructure. We have a unique blend of analysis and modeling capabilities with an understanding of S&amp;TI missions which enables us to provide the Government with innovative solutions to complex software requirements. We are industry leaders in the Air Force Research Lab’s AFSIM modeling and simulation environment and are heavily involved in the Intelligence Community’s TMAP and ITASE MS&amp;A efforts. This opportunity will give the candidate exposure to a wide array of new technologies to include the latest in modeling &amp; simulation, graphic databases, and user interface design. Our dynamic software development teams work collaboratively to develop models of vehicles, sensors, and complex interactions. We utilize analytical tools to aid in understanding test results and solutions and creating graphical representations to relate findings to decision makers.</p><p></p><p>Radiance Technologies is a rapidly growing employee-owned company with benefits unmatched by most companies in the Dayton area. Employee ownership, generous 401K and profit sharing, health/dental/life/vision insurance benefits, educational reimbursements, competitive salaries, pleasant work environments, and stimulating assignments combine to make Radiance Technologies a great place to work and succeed.</p><p></p><p><b>Required Skills</b></p><ul><li><p>Currently pursuing a degree in Computer Science or relevant technical degree with a accumulative GPA of at least 3.5.</p></li><li><p>US citizenship with the ability to obtain a security clearance</p></li><li><p>Experience with programming languages such as C&#43;&#43; and Python</p></li><li><p>Experience with Microsoft Office tools</p></li></ul><p></p><p><b>Desired Qualifications</b></p><ul><li><p>Self-motivated and able to work well within a team</p></li><li><p>Experience developing physics-based and logical models</p></li></ul><p>Radiance Technologies is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status.</p>",
+    "location": "Beavercreek, OH",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-29",
+    "timeType": "Part time",
+    "jobReqId": "HR102150",
+    "jobPostingId": "Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102150",
+    "jobPostingSiteId": "Radiance_External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Dayton Office",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102150",
+    "questionnaireId": "4e2ce3a9798f1000cf1e03d9f4d30000"
+  },
+  "hiringOrganization": {
+    "name": "Radiance Technologies, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

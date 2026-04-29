@@ -1,0 +1,226 @@
+{"validThrough":"2027-04-29T00:00:00.000Z","employmentType":"INTERN","@type":"JobPosting","baseSalary":{"minValue":20,"maxValue":25,"@type":"MonetaryAmount","currency":"USD"},"salaryCurrency":"USD","description":"<h2>Overview<\/h2>\n<p>Cadent ignites seamless connections between brands, publishers, and consumers. Our predictive AI orchestrates outcomes across any platform, any media, and every stage of the customer journey. Learn more at Cadent.com.<\/p>\n<p>&nbsp;<\/p>\n<p>Cadent is seeking a Backend Engineer Intern to join our team for Summer 2026. Interns will gain hands-on experience by working with our teams on real backend systems\u2014not observing from the sidelines.<\/p>\n<p>&nbsp;<\/p>\n<p>Each intern will also complete one or more individual projects, tailored to their skills and interests, and present their work to the Technology Leadership team at the end of the program. Project scope and timelines will be defined at the start of the internship.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Interns will support their assigned team with tasks that may include:<\/li>\n <li>Attending team meetings<\/li>\n <li>Performing technical research<\/li>\n <li>Supporting supervisors and teammates on active initiatives<\/li>\n <li>Using department-specific tools and software for day-to-day work<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Perks<\/strong><\/p>\n<ul>\n <li>Competitive pay<\/li>\n <li>College credit (if applicable)<\/li>\n <li>Intern development programming<\/li>\n <li>Cross-team and interdepartmental Lunch &amp; Learns<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>Required:<\/strong><\/p>\n<ul>\n <li>Rising junior or senior pursuing a bachelor\u2019s degree in Computer Science or a related field<\/li>\n <li>Strong programming fundamentals in at least one object-oriented language (e.g., C#, Python)<\/li>\n <li>Understanding of how APIs work (HTTP, request/response, basic REST concepts)<\/li>\n <li>Familiarity with relational databases and writing basic SQL queries<\/li>\n <li>Ability to debug problems and reason through backend logic<\/li>\n <li>Experience building projects beyond coursework (projects, internships, or co-ops)<\/li>\n <li>Strong written and verbal communication skills<\/li>\n <li>Self-motivated, collaborative, and willing to take initiative<\/li>\n<\/ul>\n<p><strong>Work Commitment:<\/strong><\/p>\n<ul>\n <li>Full-time: 40 hours per week during the internship term<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Nice to Have (Not Required)<\/strong><\/p>\n<ul>\n <li>Experience with .NET / C#<\/li>\n <li>Exposure to cloud or serverless technologies (e.g., AWS Lambda, Azure Functions, GCP)<\/li>\n <li>Basic understanding of authentication, APIs, or distributed systems<\/li>\n <li>Experience with Git, CI/CD, or deployment workflows<\/li>\n<\/ul>\n<p><strong>What Success Looks Like<\/strong><\/p>\n<ul>\n <li>By the end of the internship, you will:<\/li>\n <li>Deliver 1\u20132 backend features or enhancements end-to-end<\/li>\n <li>Write and modify production-ready API code<\/li>\n <li>Work with real datasets and understand data flow through backend systems<\/li>\n <li>Navigate and contribute confidently to a modern backend codebase<\/li>\n<\/ul>\n<p><strong>Interview Process<\/strong><\/p>\n<ul>\n <li>We focus on a practical, no\u2011nonsense interview process:<\/li>\n <li>Walkthrough of a project you\u2019ve built (what worked, what didn\u2019t, and lessons learned)<\/li>\n <li>Basic API design or coding exercise (language-flexible)<\/li>\n <li>SQL questions (joins, filtering, simple aggregation)<\/li>\n <li>Discussion of how you would design or debug a simple backend workflow<\/li>\n<\/ul>\n<p><strong>Why Join Cadent?<\/strong><\/p>\n<ul>\n <li>Real backend engineering experience<\/li>\n <li>Exposure to production APIs, databases, and cloud systems<\/li>\n <li>Direct mentorship from experienced engineers<\/li>\n <li>Opportunity for full-time conversion based on performance<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>So, if the leading edge of media technology is the place you want to be, please contact us today and let\u2019s start the conversation!<\/p>\n<p>&nbsp;<\/p>\n<p><em>Cadent is an Equal Opportunity Employer and is committed to supporting all it\u2019s employees when it comes to Inclusion &amp; Diversity. Cadent\u2019s policy is to provide equal opportunity for applicants &amp; employees without regard to race, color, religion, creed, gender, gender identity or expression, sexual identity or orientation, age, national origin or ancestry, citizenship, disability or medical condition (including pregnancy, childbirth, or related medical condition), sexual and reproductive health decisions, genetic information, marital status (including domestic partnerships and civil unions), pregnancy, culture ancestry, familial or caregiver status, military status, veteran status, socioeconomic status, unemployment status, status as a victim of domestic violence or any other basis prohibited by law. and will not discriminate against the basis of disability. This commitment is honored when it comes to decisions on hiring, recruiting, training, promotions, compensations, benefits, transfers and terminations.<\/em><\/p>\n<p>&nbsp;<\/p>\n<p><em>Cadent is seeking to actively engage with our employees from a wide variety of cultures and to connect with our clients differently. Our workforce has generational diversity that supports greater innovation when we maximize representation of all diversity. Our active employee resource groups promote engagement across all groups of individuals that are represented within the company and externally.<\/em><\/p>\n<h2>Pay Range<\/h2>USD $20.00 - USD $25.00 /Hr.","directApply":true,"title":"Backend Engineer Intern","@context":"http://schema.org","url":"https://careers-cadent.icims.com/jobs/1359/backend-engineer-intern/job","hiringOrganization":{"@type":"Organization","name":"Cadent","sameAs":"https://cadent.icims.com"},"jobLocation":[{"address":{"addressCountry":"US","streetAddress":"1675 Broadway, 22nd Floor","@type":"PostalAddress","postalCode":"10019","addressLocality":"New York","addressRegion":"NY","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"},{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Philadelphia","addressRegion":"PA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-04-29T00:00:00.000Z"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Backend Engineer Intern in New York, New York | Careers at Cadent
+var isMobile = true;
+var link = 'https://careers-cadent.icims.com/connect/interests?csrf=FCE7682D5079E514&hashed=-625886898';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_181.1.0.260417-799ae84f7fd-11-1/script/portal/login.js');
+var jobId = "1359";
+var fbJobId = "1f5c338d-9fcb-3a0a-b8fb-8c88e266d165";
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-cadent.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+Cadent, LLC
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"3dis9xWn3RptWj3y3","type":"careers"},"release":"181.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":14434,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave3","build":"platform_181.1.0.260417-799ae84f7fd-11-1","icimsGAAnonymizeIP":true,"customerId":"eSDZo2JVXvnZb9MS","region":"US","job":{"positionType":"Intern","company":"Cadent","location":{"zip":"10019","country":"USA","city":"New York","state":"NY"},"id":"2nnAwynEKy7McXM1b","idRaw":1359,"title":"Backend Engineer Intern","category":"not set","postedDate":"2026-04-29"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"validThrough":"2027-04-29T00:00:00.000Z","employmentType":"INTERN","@type":"JobPosting","baseSalary":{"minValue":20,"maxValue":25,"@type":"MonetaryAmount","currency":"USD"},"salaryCurrency":"USD","description":"<h2>Overview<\/h2>\n<p>Cadent ignites seamless connections between brands, publishers, and consumers. Our predictive AI orchestrates outcomes across any platform, any media, and every stage of the customer journey. Learn more at Cadent.com.<\/p>\n<p>&nbsp;<\/p>\n<p>Cadent is seeking a Backend Engineer Intern to join our team for Summer 2026. Interns will gain hands-on experience by working with our teams on real backend systems\u2014not observing from the sidelines.<\/p>\n<p>&nbsp;<\/p>\n<p>Each intern will also complete one or more individual projects, tailored to their skills and interests, and present their work to the Technology Leadership team at the end of the program. Project scope and timelines will be defined at the start of the internship.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Interns will support their assigned team with tasks that may include:<\/li>\n <li>Attending team meetings<\/li>\n <li>Performing technical research<\/li>\n <li>Supporting supervisors and teammates on active initiatives<\/li>\n <li>Using department-specific tools and software for day-to-day work<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Perks<\/strong><\/p>\n<ul>\n <li>Competitive pay<\/li>\n <li>College credit (if applicable)<\/li>\n <li>Intern development programming<\/li>\n <li>Cross-team and interdepartmental Lunch &amp; Learns<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>Required:<\/strong><\/p>\n<ul>\n <li>Rising junior or senior pursuing a bachelor\u2019s degree in Computer Science or a related field<\/li>\n <li>Strong programming fundamentals in at least one object-oriented language (e.g., C#, Python)<\/li>\n <li>Understanding of how APIs work (HTTP, request/response, basic REST concepts)<\/li>\n <li>Familiarity with relational databases and writing basic SQL queries<\/li>\n <li>Ability to debug problems and reason through backend logic<\/li>\n <li>Experience building projects beyond coursework (projects, internships, or co-ops)<\/li>\n <li>Strong written and verbal communication skills<\/li>\n <li>Self-motivated, collaborative, and willing to take initiative<\/li>\n<\/ul>\n<p><strong>Work Commitment:<\/strong><\/p>\n<ul>\n <li>Full-time: 40 hours per week during the internship term<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Nice to Have (Not Required)<\/strong><\/p>\n<ul>\n <li>Experience with .NET / C#<\/li>\n <li>Exposure to cloud or serverless technologies (e.g., AWS Lambda, Azure Functions, GCP)<\/li>\n <li>Basic understanding of authentication, APIs, or distributed systems<\/li>\n <li>Experience with Git, CI/CD, or deployment workflows<\/li>\n<\/ul>\n<p><strong>What Success Looks Like<\/strong><\/p>\n<ul>\n <li>By the end of the internship, you will:<\/li>\n <li>Deliver 1\u20132 backend features or enhancements end-to-end<\/li>\n <li>Write and modify production-ready API code<\/li>\n <li>Work with real datasets and understand data flow through backend systems<\/li>\n <li>Navigate and contribute confidently to a modern backend codebase<\/li>\n<\/ul>\n<p><strong>Interview Process<\/strong><\/p>\n<ul>\n <li>We focus on a practical, no\u2011nonsense interview process:<\/li>\n <li>Walkthrough of a project you\u2019ve built (what worked, what didn\u2019t, and lessons learned)<\/li>\n <li>Basic API design or coding exercise (language-flexible)<\/li>\n <li>SQL questions (joins, filtering, simple aggregation)<\/li>\n <li>Discussion of how you would design or debug a simple backend workflow<\/li>\n<\/ul>\n<p><strong>Why Join Cadent?<\/strong><\/p>\n<ul>\n <li>Real backend engineering experience<\/li>\n <li>Exposure to production APIs, databases, and cloud systems<\/li>\n <li>Direct mentorship from experienced engineers<\/li>\n <li>Opportunity for full-time conversion based on performance<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>So, if the leading edge of media technology is the place you want to be, please contact us today and let\u2019s start the conversation!<\/p>\n<p>&nbsp;<\/p>\n<p><em>Cadent is an Equal Opportunity Employer and is committed to supporting all it\u2019s employees when it comes to Inclusion &amp; Diversity. Cadent\u2019s policy is to provide equal opportunity for applicants &amp; employees without regard to race, color, religion, creed, gender, gender identity or expression, sexual identity or orientation, age, national origin or ancestry, citizenship, disability or medical condition (including pregnancy, childbirth, or related medical condition), sexual and reproductive health decisions, genetic information, marital status (including domestic partnerships and civil unions), pregnancy, culture ancestry, familial or caregiver status, military status, veteran status, socioeconomic status, unemployment status, status as a victim of domestic violence or any other basis prohibited by law. and will not discriminate against the basis of disability. This commitment is honored when it comes to decisions on hiring, recruiting, training, promotions, compensations, benefits, transfers and terminations.<\/em><\/p>\n<p>&nbsp;<\/p>\n<p><em>Cadent is seeking to actively engage with our employees from a wide variety of cultures and to connect with our clients differently. Our workforce has generational diversity that supports greater innovation when we maximize representation of all diversity. Our active employee resource groups promote engagement across all groups of individuals that are represented within the company and externally.<\/em><\/p>\n<h2>Pay Range<\/h2>USD $20.00 - USD $25.00 /Hr.","directApply":true,"title":"Backend Engineer Intern","@context":"http://schema.org","url":"https://careers-cadent.icims.com/jobs/1359/backend-engineer-intern/job","hiringOrganization":{"@type":"Organization","name":"Cadent","sameAs":"https://cadent.icims.com"},"jobLocation":[{"address":{"addressCountry":"US","streetAddress":"1675 Broadway, 22nd Floor","@type":"PostalAddress","postalCode":"10019","addressLocality":"New York","addressRegion":"NY","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"},{"address":{"addressCountry":"US","streetAddress":"UNAVAILABLE","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Philadelphia","addressRegion":"PA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-04-29T00:00:00.000Z"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Returning Candidate?
+Log back in!
+Backend Engineer Intern
+Location
+US-NY-New York
+Position Type
+Intern
+ID
+2026-1359
+Additional Locations
+US-PA-Philadelphia | US-NY-New York
+Overview
+Cadent ignites seamless connections between brands, publishers, and consumers. Our predictive AI orchestrates outcomes across any platform, any media, and every stage of the customer journey. Learn more at Cadent.com. Cadent is seeking a Backend Engineer Intern to join our team for Summer 2026. Interns will gain hands-on experience by working with our teams on real backend systems—not observing from the sidelines. Each intern will also complete one or more individual projects, tailored to their skills and interests, and present their work to the Technology Leadership team at the end of the program. Project scope and timelines will be defined at the start of the internship.
+Responsibilities
+Interns will support their assigned team with tasks that may include:Attending team meetingsPerforming technical researchSupporting supervisors and teammates on active initiativesUsing department-specific tools and software for day-to-day work PerksCompetitive payCollege credit (if applicable)Intern development programmingCross-team and interdepartmental Lunch & Learns
+Qualifications
+Required:Rising junior or senior pursuing a bachelor’s degree in Computer Science or a related fieldStrong programming fundamentals in at least one object-oriented language (e.g., C#, Python)Understanding of how APIs work (HTTP, request/response, basic REST concepts)Familiarity with relational databases and writing basic SQL queriesAbility to debug problems and reason through backend logicExperience building projects beyond coursework (projects, internships, or co-ops)Strong written and verbal communication skillsSelf-motivated, collaborative, and willing to take initiativeWork Commitment:Full-time: 40 hours per week during the internship term Nice to Have (Not Required)Experience with .NET / C#Exposure to cloud or serverless technologies (e.g., AWS Lambda, Azure Functions, GCP)Basic understanding of authentication, APIs, or distributed systemsExperience with Git, CI/CD, or deployment workflowsWhat Success Looks LikeBy the end of the internship, you will:Deliver 1–2 backend features or enhancements end-to-endWrite and modify production-ready API codeWork with real datasets and understand data flow through backend systemsNavigate and contribute confidently to a modern backend codebaseInterview ProcessWe focus on a practical, no‑nonsense interview process:Walkthrough of a project you’ve built (what worked, what didn’t, and lessons learned)Basic API design or coding exercise (language-flexible)SQL questions (joins, filtering, simple aggregation)Discussion of how you would design or debug a simple backend workflowWhy Join Cadent?Real backend engineering experienceExposure to production APIs, databases, and cloud systemsDirect mentorship from experienced engineersOpportunity for full-time conversion based on performance So, if the leading edge of media technology is the place you want to be, please contact us today and let’s start the conversation! Cadent is an Equal Opportunity Employer and is committed to supporting all it’s employees when it comes to Inclusion & Diversity. Cadent’s policy is to provide equal opportunity for applicants & employees without regard to race, color, religion, creed, gender, gender identity or expression, sexual identity or orientation, age, national origin or ancestry, citizenship, disability or medical condition (including pregnancy, childbirth, or related medical condition), sexual and reproductive health decisions, genetic information, marital status (including domestic partnerships and civil unions), pregnancy, culture ancestry, familial or caregiver status, military status, veteran status, socioeconomic status, unemployment status, status as a victim of domestic violence or any other basis prohibited by law. and will not discriminate against the basis of disability. This commitment is honored when it comes to decisions on hiring, recruiting, training, promotions, compensations, benefits, transfers and terminations. Cadent is seeking to actively engage with our employees from a wide variety of cultures and to connect with our clients differently. Our workforce has generational diversity that supports greater innovation when we maximize representation of all diversity. Our active employee resource groups promote engagement across all groups of individuals that are represented within the company and externally.
+Pay Range
+USD $20.00 - USD $25.00 /Hr.
+Options
+ApplyApplySubmit a ReferralRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;margin:0 auto 60px auto;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;width:100%;max-width:300px;text-align:center;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex;width:100%;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

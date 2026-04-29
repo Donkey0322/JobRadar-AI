@@ -1,5 +1,135 @@
 [
   {
+    "company": "Remedy Scientific",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.ashbyhq.com/Remedy%20Scientific/2e74c46f-cc91-487d-858d-62664f801efc/application",
+    "location": "Oakland, CA",
+    "season": "2026 Summer",
+    "id": 861,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or related field",
+        "Strong programming skills (Python, JavaScript, TypeScript or similar)",
+        "Interested in building practical AI tools, not just models",
+        "Able to take ownership of a project and drive it forward",
+        "Good communication and collaboration skills",
+        "Experience building web applications using modern frameworks (e.g., React/Next.js)",
+        "Experience working with backend services, APIs, relational databases, and data pipelines",
+        "Familiar with LLMs, RAG systems, or AI tooling (e.g., OpenAI APIs or similar platforms)",
+        "Interested in environmental or scientific applications"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Radiance Technologies",
+    "role": "Modeling Engineer Intern - Analytics - Simulation Sciences",
+    "link": "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102150",
+    "location": "Beavercreek, OH",
+    "season": "2026 Summer",
+    "id": 860,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or technical field with GPA of 3.5+.",
+        "Possess experience with C++ and Python programming languages.",
+        "Proficient with Microsoft Office tools.",
+        "Be self-motivated and work well within a team.",
+        "Develop physics-based and logical models."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Delta Dental",
+    "role": "Application Development Intern",
+    "link": "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101289",
+    "location": "East Lansing, MI",
+    "season": "2026 Summer",
+    "id": 859,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Computer Engineering, or related fields.",
+        "Work on cutting-edge, large scale, enterprise business application platforms.",
+        "Build AI proof-of-concepts and explore new AI technologies.",
+        "Possess strong Python skills.",
+        "Work well in a dynamic research setting.",
+        "Contribute to next-generation platforms leveraging Angular and Java REST services.",
+        "Gain experience in modern system architecture such as SOA and EDA.",
+        "Experience with technologies like REST, JSON, Kafka, and containerization.",
+        "Apply Computer Science fundamentals to real-world problems.",
+        "Communicate technical subjects to a business audience.",
+        "Be self-motivated and able to contribute in a team setting.",
+        "Excel at problem-solving with strong analytical and critical thinking skills.",
+        "Demonstrated experience programming in Java, Python, C++, or similar languages.",
+        "Experience or knowledge in modern web application development.",
+        "Experience with OpenAI and LLM frameworks.",
+        "Show solid skills in data structure and algorithms design/analysis.",
+        "Understand software architecture, Object-Oriented analysis/design, and design patterns.",
+        "Currently enrolled in an undergraduate or graduate program.",
+        "Completed at least one course or equivalent experience with programming in Java, Python, C++, or similar."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Adtheorant",
+    "role": "Backend Engineer Intern",
+    "link": "https://careers-cadent.icims.com/jobs/1359/job?mobile=true&needsRedirect=false",
+    "location": "Philadelphia, PANYC",
+    "season": "2026 Summer",
+    "id": 858,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in Computer Science or a related field.",
+        "Possess strong programming fundamentals in an object-oriented language.",
+        "Understand API functionality, including HTTP and REST concepts.",
+        "Be familiar with relational databases and basic SQL queries.",
+        "Ability to debug problems and reason through backend logic.",
+        "Have experience building projects beyond coursework.",
+        "Possess strong written and verbal communication skills.",
+        "Be self-motivated, collaborative, and willing to take initiative.",
+        "Experience with .NET or C#.",
+        "Have exposure to cloud or serverless technologies.",
+        "Understand authentication, APIs, or distributed systems.",
+        "Experience with Git, CI/CD, or deployment workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "NCR Voyix",
+    "role": "Software Engineer Intern",
+    "link": "https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer-Intern_R0157083",
+    "location": "Bath, UK",
+    "season": "2026 Summer",
+    "id": 857,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Be a currently enrolled undergraduate student in a relevant technical discipline",
+        "Possess strong analytical thinking and attention to detail",
+        "Have effective verbal and written communication skills",
+        "Be willing to learn and adapt to new tools, technologies, and environments",
+        "Be comfortable working independently and as part of a team"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Fiserv",
     "role": "Summer Intern - Data Engineer",
     "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654",
