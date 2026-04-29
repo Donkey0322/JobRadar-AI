@@ -1,5 +1,32 @@
 [
   {
+    "company": "Fiserv",
+    "role": "Summer Intern - Data Engineer",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654",
+    "location": "Alpharetta, Georgia",
+    "id": 856,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Have 0-2 years of experience in data engineering, software engineering, analytics, coursework, academic projects, internships, or related technical experience",
+        "Experience using SQL to query, join, and validate data in relational databases",
+        "Experience with Python, Java, or a similar programming language for scripting, automation, or data processing",
+        "Experience analyzing datasets and solving technical problems using structured, testable approaches",
+        "Possess a high school diploma",
+        "Currently pursuing a Bachelor's degree in Computer Science, Data Science, Management Information Systems, Cybersecurity, Technical Project Management, or a related technology field",
+        "Expected graduation between December 2026 and June 2028",
+        "Exposure to Apache Spark, Hadoop, or similar large-scale data processing frameworks",
+        "Familiarity with Databricks workflows or other workflow orchestration tools",
+        "Exposure to Databricks, Microsoft Azure Data Factory, or Google Cloud Platform (GCP) Dataflow",
+        "Familiarity with continuous integration and continuous delivery (CI/CD) practices for data engineering"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Rubrik Job Board",
     "role": "India Benefits & AI Operations Intern",
     "link": "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150",
