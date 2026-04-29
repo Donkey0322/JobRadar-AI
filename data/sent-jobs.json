@@ -1,5 +1,256 @@
 [
   {
+    "company": "Rubrik Job Board",
+    "role": "India Benefits & AI Operations Intern",
+    "link": "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150",
+    "location": "Bangalore",
+    "id": 855,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Other",
+      "qualifications": [
+        "Develop a fully functioning, AI-ready knowledge base for India benefits.",
+        "Research and benchmark India benefit trends and competitive offerings.",
+        "Create internal-facing documentation for India and APAC benefits processing.",
+        "Review and refine existing policy documents for high-performance AI tools.",
+        "Build and refine knowledge articles within the Jira help desk.",
+        "Identify and propose opportunities to leverage AI for process automation.",
+        "Partner with HR Operations and IT for benefits data accuracy.",
+        "Currently pursuing a degree in HR, Business Admin, Data Science, or related field.",
+        "High tech-fluency with interest in Generative AI and automation.",
+        "Translate complex benefit policies into simple, accessible language.",
+        "Strong attention to detail and ability to conduct market research.",
+        "Proactive approach to identifying manual gaps and proposing digital solutions.",
+        "Comfortable working in a fast-paced, global environment.",
+        "Familiarity with Jira Service Management or similar help desk systems.",
+        "Basic understanding of India statutory benefits.",
+        "Experience with data structuring or competitive research projects."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern 2026 - Data Integration Engineer",
+    "link": "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
+    "location": "Taichung - Fab 16, Taiwan",
+    "id": 854,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Demonstrate strong data extraction, analysis, problem-solving, reporting, and presentation skills.",
+        "Possess database experience with schema design, query writing, and optimization.",
+        "Experience with data visualization tools such as Tableau, Power BI, and Excel.",
+        "Experience in machine learning areas including supervised, unsupervised, and semi-supervised learning.",
+        "Proficient in programming languages like Python, C#, Matlab, and R on Linux/Windows platforms.",
+        "Have working knowledge in applying Finite Element Modeling (FEM).",
+        "Familiarity with software tools such as ANSYS (APDL & Workbench).",
+        "Possess good written and verbal communication skills.",
+        "Ability to work in multi-national and multi-functional environments.",
+        "Exhibit strong interpersonal and teamwork skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Micron",
+    "role": "[Intern] Software Engineer for AI model training and SRE - MFG & TPG",
+    "link": "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
+    "location": "Taichung - AATT, Taiwan",
+    "id": 853,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Possess educational background in Computer Science, IT, Data Science, Engineering, or related field.",
+        "Have solid programming fundamentals, with required Python experience and a plus for C#.",
+        "Understand basic machine learning concepts, including model training and evaluation.",
+        "Experience training a basic deep learning model, preferably with PyTorch or TensorFlow/Keras.",
+        "Know RESTful API design and integration; understanding OAuth or token-based authentication is preferred.",
+        "Exposure to AI-enabled automation approaches like multi-modal models or RAG is a plus.",
+        "Strong interest in system monitoring and observability; familiar with Grafana, Splunk, or Azure.",
+        "Good English communication skills, both written and verbal, to explain technical ideas.",
+        "Strong problem-solving skills, self-motivation, and ability to work collaboratively."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "General dynamics missions system international",
+    "role": "Co-op Fall 2026 - DevOps Engineering - 8-16 Months",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000123537759",
+    "location": "Ottawa, ON, Canada",
+    "id": 852,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Bachelor’s degree in Software Engineering, Computer Science, or a related field.",
+        "Familiar with computer networking and networking equipment.",
+        "Strong written and verbal communication skills.",
+        "Enthusiastic, willing to learn, and taking ownership of assigned work.",
+        "Knowledgeable in object-oriented programming languages such as C/C++, C#, Java, or Python.",
+        "Exposed to DevOps tools such as Ansible, Docker, or Kubernetes.",
+        "Familiar with MS Windows Server, Linux, or virtual machine environments.",
+        "Familiar with enterprise tools such as GitLab, Rational Team Concert, DOORS/DOORS NG, or JIRA/Confluence."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "General dynamics missions system international",
+    "role": "Co-op Fall 2026 - DevOps Engineering - 8-16 Months",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000123546014",
+    "location": "Calgary, AB, Canada",
+    "id": 851,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in a Bachelor’s degree in Software Engineering, Computer Science, or related field.",
+        "Familiar with computer networking and networking equipment.",
+        "Possess strong written and verbal communication skills.",
+        "Enthusiastic, willing to learn, and takes ownership of assigned work.",
+        "Knowledgeable in object-oriented programming languages like C/C++, C#, Java, or Python.",
+        "Exposed to DevOps tools such as Ansible, Docker, or Kubernetes.",
+        "Familiar with MS Windows Server, Linux, or virtual machine environments.",
+        "Familiar with enterprise tools like GitLab, Rational Team Concert, DOORS/DOORS NG, or JIRA/Confluence."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Data & Analytics Intern ",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123440088",
+    "location": "Beograd, , Serbia",
+    "id": 850,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Possess basic SQL knowledge (mandatory)",
+        "Possess basic Python knowledge (working with data – pandas, etc.)",
+        "Understand data concepts (tables, joins, basic transformations)",
+        "Familiarity with Power BI",
+        "Familiarity with cloud/data platforms (e.g., Azure)",
+        "Good English communication skills (written and spoken)",
+        "Exhibit analytical thinking and a problem-solving mindset",
+        "Maintain a proactive attitude and willingness to learn"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Mandatory Internship in the Area of Data Analytics and Generative AI",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123611471",
+    "location": "Schwieberdingen, BW, Germany",
+    "id": 849,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Possess good grades in Computer Science, IT, Engineering, Data Science, or Mathematics",
+        "Proficient in programming languages, especially Python",
+        "Experienced with cloud solutions like MS Azure, GCP, or AWS",
+        "Experienced in implementing chatbots",
+        "Solid understanding and hands-on experience with machine learning algorithms",
+        "Solid understanding and hands-on experience with natural language processing",
+        "Solid understanding and hands-on experience with neural networks and deep learning frameworks (e.g., TensorFlow, PyTorch)",
+        "High affinity for IT, software development, and/or machine learning",
+        "Highly motivated teamplayer",
+        "Strong analytical and conceptual skills to translate business requirements into technical solutions",
+        "Possess an independent and structured working style",
+        "Willingness to learn and strong enthusiasm for exploring new responsibilities",
+        "Good proficiency in English and German"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Internship Frontend Game Developer Web - remote possible",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123612415",
+    "location": "Kusterdingen, BW, Germany"
+  },
+  {
+    "company": "Tenstorrent University Jobs",
+    "role": "Software Testing Infrastructure Intern - Low Level Kernels",
+    "link": "https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5121054007",
+    "location": "Belgrade, Serbia",
+    "id": 848,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field.",
+        "Proficient in Python with a focus on developing automation scripts and streamlining workflows.",
+        "Familiar with Linux environments, Bash scripting, and a working knowledge of C++.",
+        "Understand database concepts (SQL/PostgreSQL) and basic computer hardware architecture.",
+        "Curiosity about automation, CI/CD workflows, and data visualization; hands-on experience is a plus.",
+        "Implement robust systems for storing and managing performance test results.",
+        "Build end-to-end automation systems to support regression testing.",
+        "Develop and enhance data dashboards to visualize performance trends and test summaries.",
+        "Create sophisticated alerting systems to notify teams of performance regressions and anomalies.",
+        "Improve existing performance testing frameworks for continuous monitoring and insights."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Scopely",
+    "role": "Intern - Gen. AI Art",
+    "link": "https://job-boards.greenhouse.io/scopely/jobs/5128789008",
+    "location": "IN - Bangalore, India",
+    "id": 847,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Possess fundamental knowledge of art principles.",
+        "Familiar with digital art software like Photoshop.",
+        "Have strong interest or basic understanding of AI art tools.",
+        "Maintain a proactive attitude and collaborate effectively.",
+        "Familiar with Unity for asset integration.",
+        "Exposed to 3D modeling tools (Blender, ZBrush).",
+        "Interested in mobile game development and Agile methodologies."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Helsing",
+    "role": "AI Working Student - Computer Vision",
+    "link": "https://helsing.ai/jobs/4312517101?gh_jid=4312517101",
+    "location": "Munich"
+  },
+  {
+    "company": "Asml",
+    "role": "Data Science | Software Engineering internship: software automation development",
+    "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00339667",
+    "location": "Veldhoven, Netherlands"
+  },
+  {
     "company": "Rakuten",
     "role": "Intern - Data Science",
     "link": "https://rakuten.wd1.myworkdayjobs.com/rakutenadvertising/job/San-Francisco-California/Intern---Data-Science_1031656",
