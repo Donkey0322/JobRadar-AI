@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "59e6b2dfaeb6100140f48d2428a70000",
+    "title": "Internship/Graduation: AI-Driven Engineering, the Path to Zero-Error Automation",
+    "jobDescription": "<h3>Job Title</h3>Internship/Graduation: AI-Driven Engineering, the Path to Zero-Error Automation<p style=\"text-align:inherit\"></p><h3>Job Description</h3><p><b>Assignment type</b>: Internship/Graduation</p><p><b>Start date</b>: September 2026</p><p><b>Assignment</b> <b>duration</b>: 6 months</p><p><b>Location</b>: Veghel</p><p><b>Education</b> <b>level</b>: Bachelor / Master</p><p><b>Desired</b> <b>study</b>: Software Engineering, Embedded Systems, Industrial Engineering, Mechatronics or related</p><p><b>Language</b>: Dutch / English</p><p></p><h2>Description of assignment</h2><p>During the engineering phase of a project, the Controls Project Engineer translates various input such as electrical and mechanical drawings, layouts, and functional specifications, into detailed engineering outputs, including interface specifications and low level software and parameter files. Currently, much of this work is performed manually, resulting in a high level of repetitive effort and an increased risk of errors. The objective of this assignment is to automate parts of this engineering process to reduce manual work, shorten the engineering lead time, and minimize errors caused by manual data handling.</p><p></p><h2>Department description</h2><p>MDG Loop Sorters is responsible for deployment of loopsorters in our global organization. Our involvement starts already in the sales phase of projects, where we work together with all 8 Customer Centers plus Branch Offices around the globe.<br /> </p><p>Next to that, we’re working actively together with our loopsorter Technology team. Besides project execution of loopsorter scope in projects (engineering, commissioning and integration), this also includes e.g. tooling, competence management, training and supporting service and engineering in branch offices worldwide. These loopsorters (Crossorter and Helixorter) are applied in multiple market segments (Airports, Parcel and Warehouse Automation).<br /> </p><p>The total team consists of around 80 people (of which 35 in India) and executes projects that range from small sorters with manual induction to large systems with complex sorting algorithms and high capacity inducts.</p><p></p><h2>Tasks/responsibilities</h2><ul><li>Analyze the current software engineering process to identify inefficiencies, repetitive tasks, and sources of human error.</li><li>Design and develop tooling to automate software engineering activities, including the generation of specifications and configuration files.</li><li>Collaborate with mechanical and electrical engineering teams to improve the quality, consistency, and structure of engineering inputs in support of automation.</li><li>Work closely with the Engineering Support Office to ensure alignment and integration with existing engineering tools and workflows.</li><li>Contribute to continuous improvement initiatives related to engineering standards, processes, and quality assurance.</li></ul><p></p><h2> Your profile</h2><ul><li>Experience with programming or scripting language, such as: Python, C#, Java, or similar object-oriented languages and Large Language Model</li><li>Basic understanding of software structure, version control, and maintainable coding practices</li><li>Basic knowledge of control systems and industrial automation concepts</li><li>Familiarity with concepts such as: Interfaces between mechanical, electrical, and control engineering</li><li>*Mandatory enrolment to a Dutch Education System &amp; resident of The Netherlands</li></ul><p></p><h2>Contact</h2><p>Do you recognize yourself in this challenging profile? Are you looking for an internship in our organization? Please fill out the application form and upload your resume and cover letter. For more information, contact us by e-mail: internship&#64;vanderlande.com.</p>",
+    "location": "Veghel",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-29",
+    "timeType": "Full time",
+    "jobReqId": "JR36540",
+    "jobPostingId": "Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
+    "jobPostingSiteId": "careers",
+    "country": {
+      "descriptor": "Netherlands",
+      "id": "9696868b09c64d52a62ee13b052383cc"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Veghel",
+      "country": {
+        "descriptor": "Netherlands",
+        "id": "9696868b09c64d52a62ee13b052383cc",
+        "alpha2Code": "NL"
+      }
+    },
+    "externalUrl": "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
+    "questionnaireId": "146368979b171000aba563a5c3160000",
+    "timeLeftToApply": "30+ days left to apply",
+    "endDate": "2026-09-01",
+    "jobPostingEndDateAsText": "End Date: 1 September 2026"
+  },
+  "hiringOrganization": {
+    "name": "Vanderlande Industries B.V.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
