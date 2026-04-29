@@ -1,0 +1,170 @@
+{
+  "id": "744000123731349",
+  "name": "Digital Infrastructure & AI Tools Intern",
+  "uuid": "fc4933da-ca6b-49da-8911-5a958619fca3",
+  "jobId": "ff172b6d-ae18-464c-bbaa-3566f0f82995",
+  "jobAdId": "3485c490-63df-477d-81a3-f9b612e37e84",
+  "defaultJobAd": true,
+  "refNumber": "J10147078",
+  "company": {
+    "name": "AECOM",
+    "identifier": "AECOM2"
+  },
+  "location": {
+    "city": "Hunt Valley",
+    "region": "MD",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Hunt Valley, MD, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "63331c6b7bd33f7b8c1b4415",
+      "fieldLabel": "Business Group",
+      "valueId": "FY19_CCH_4507",
+      "valueLabel": "DCS"
+    },
+    {
+      "fieldId": "63331eb6154d066a5bb15026",
+      "fieldLabel": "Referral Bonus Eligible",
+      "valueId": "c9c42d43-3c33-4940-9324-2e71d6cfdd06",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "63331c12a22cac2deb47f808",
+      "fieldLabel": "Legal Entity",
+      "valueId": "A46",
+      "valueLabel": "AECOM Technical Services Inc"
+    },
+    {
+      "fieldId": "6333164e154d066a5bb15024",
+      "fieldLabel": "Job Family Group",
+      "valueId": "JFG0005",
+      "valueLabel": "Consulting Services JFG"
+    },
+    {
+      "fieldId": "633316180486592bd77738e1",
+      "fieldLabel": "Job Code",
+      "valueId": "JP00242",
+      "valueLabel": "JP00242"
+    },
+    {
+      "fieldId": "63331cab6540f752a4f2e54a",
+      "fieldLabel": "Operating Group",
+      "valueId": "FY19_CCH_4498",
+      "valueLabel": "Americas"
+    },
+    {
+      "fieldId": "63331cd46540f752a4f2e54b",
+      "fieldLabel": "Strategic Business Unit",
+      "valueId": "CUSTOM_ORGANIZATION-3-18966",
+      "valueLabel": "East (CUSTOM_ORGANIZATION-3-18966)"
+    },
+    {
+      "fieldId": "63331e06764ba95172c7c2f3",
+      "fieldLabel": "Primary Location",
+      "valueId": "14413",
+      "valueLabel": "US - Hunt Valley, MD - 4 North Park"
+    },
+    {
+      "fieldId": "63331e54747851123f25ccca",
+      "fieldLabel": "State/Province",
+      "valueId": "US - Maryland",
+      "valueLabel": "Maryland"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "63331fab764ba95172c7c2f5",
+      "fieldLabel": "Discipline",
+      "valueId": "Discipline_B+P Technology Solution",
+      "valueLabel": "Technology Solutions"
+    },
+    {
+      "fieldId": "63331d830d7643583aa495d2",
+      "fieldLabel": "Business Line",
+      "valueId": "RH_5",
+      "valueLabel": "B&P - Buildings & Places"
+    },
+    {
+      "fieldId": "6333167215a35d55d630c213",
+      "fieldLabel": "Job Family",
+      "valueId": "JF023",
+      "valueLabel": "Consulting Services"
+    },
+    {
+      "fieldId": "62fac75b0f857f4403f04967",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AECOM"
+    },
+    {
+      "fieldId": "63332003154d066a5bb15027",
+      "fieldLabel": "Work Location Model",
+      "valueId": "46519fbf-f07d-4cf3-8303-283f79e6d86a",
+      "valueLabel": "On-Site"
+    }
+  ],
+  "releasedDate": "2026-04-29T15:48:38.196Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AECOM2/744000123731349-digital-infrastructure-ai-tools-intern",
+  "applyUrl": "https://jobs.smartrecruiters.com/AECOM2/744000123731349-digital-infrastructure-ai-tools-intern?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AECOM2/publication/fc4933da-ca6b-49da-8911-5a958619fca3?dcr_ci=AECOM2",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>Work with Us. Change the World.</strong></p><p>At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations.</p><p>There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world.</p><p>We're one global team driven by our common purpose to deliver a better world. Join us.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><strong>AECOM </strong>is seeking a <strong>Digital Infrastructure &amp; AI Tools Intern </strong>to be based in <strong>Hunt Valley, MD</strong>.</p><p><br>\nThis internship supports&#xa0;<strong>large‑scale digital infrastructure and technology programs</strong>, providing hands‑on experience with technical documentation, delivery workflows, and emerging&#xa0;<strong>AI / LLM‑based tools</strong>. Interns work alongside engineers and technology advisors on active, real‑world projects.</p><p>&#xa0;</p><p>The responsibilities of this position include, but are not limited to:</p><ul><li>Assist with reviewing and organizing technical documents for complex infrastructure and technology deployments.</li><li>Support project teams by tracking deliverables, identifying gaps, and maintaining workflow documentation.</li><li>Participate in internal and client meetings to capture notes and action items.</li><li>Assist in the development, testing, and refinement of&#xa0;<strong>LLM‑based and AI‑enabled tools</strong>&#xa0;used for document review, knowledge management, and process automation.</li><li>Provide feedback on AI tool outputs to improve accuracy and usability.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Minimum Requirements:</strong></p><ul><li>Candidates must be pursuing a Bachelor’s degree in Engineering, Computer Science, Data Science, or a related field and must have completed at least 1 year of study. Candidates who have recently graduated with a Bachelor’s degree and plan to continue with the Master’s degree are eligible to apply for these positions. Recent graduates must have been enrolled in their bachelor’s degree in the most previous school term with an interest in pursuing an advanced degree in the same or similar discipline at the conclusion of the internship. &#xa0;</li><li>Due to the nature of the work, US Citizenship is required.</li></ul><p>&#xa0;</p><p><strong>Preferred Qualifications: </strong></p><ul><li>Interest in digital infrastructure, technology delivery, or applied AI.</li><li>Strong attention to detail and clear written communication.</li><li>Comfortable working with technical documents and collaboration tools.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<ul><li>Relocation assistance is not available for this position.</li><li>Sponsorship for US employment authorization is not available now or in the future for this position.</li></ul><div sr-tagline=\"\"></div><p><strong>About AECOM</strong>&#xa0;</p><p>AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&amp;D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options<u>,</u>&#xa0;well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan.&#xa0;</p><p>AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com.&#xa0;</p><p><strong>What makes AECOM a great place to work</strong>&#xa0;</p><p>You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity.&#xa0;</p><p>As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.&#xa0;</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 18,
+    "max": 22,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "construction",
+    "label": "Construction"
+  },
+  "function": {
+    "id": "consulting",
+    "label": "Consulting"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

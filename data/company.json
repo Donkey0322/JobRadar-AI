@@ -548,6 +548,7 @@
       "https://amazon.jobs/en/jobs/3137751/cloud-support-engineer-internship-2026-us",
       "https://amazon.jobs/en/jobs/3152797/software-development-engineer-internship-military-veterans",
       "https://amazon.jobs/en/jobs/3174943/software-development-engineer-apprentice-42-month-fixed-term-contract",
+      "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3179209/software-development-engineer-internship-military-veteran",
       "https://www.amazon.jobs/en/jobs/3059793/security-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3062254/systems-development-engineer-internship-2026-us",
@@ -1471,6 +1472,7 @@
     "domain": "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers",
     "page": "https://bloomenergy.wd1.myworkdayjobs.com/wday/cxs/bloomenergy/bloomenergycareers/jobs",
     "urls": [
+      "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Full-Stack-Developer-Intern_JR-20763",
       "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/IT-Software-Developer-Intern_JR-20773"
     ]
   },
@@ -2443,6 +2445,16 @@
       "https://careers-biorad.icims.com/jobs/38301/software-operations-intern/job",
       "https://careers-biorad.icims.com/jobs/38302/software-intern/job",
       "https://careers-biorad.icims.com/jobs/38316/test-engineering-intern-%28software%29/job"
+    ]
+  },
+  {
+    "name": "cadent",
+    "ats": "icims",
+    "identifier": "cadent",
+    "domain": "https://careers-cadent.icims.com",
+    "page": "https://api.icims.com/v1/companies/cadent/jobs",
+    "urls": [
+      "https://careers-cadent.icims.com/jobs/1359/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -9770,6 +9782,16 @@
     ]
   },
   {
+    "name": "Remedy%20Scientific",
+    "ats": "ashby",
+    "identifier": "Remedy%20Scientific",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/Remedy%20Scientific",
+    "urls": [
+      "https://jobs.ashbyhq.com/Remedy%20Scientific/2e74c46f-cc91-487d-858d-62664f801efc/application"
+    ]
+  },
+  {
     "name": "Ridealso",
     "ats": "ashby",
     "identifier": "Ridealso",
@@ -12129,7 +12151,8 @@
       "https://jobs.smartrecruiters.com/AECOM2/744000119962637",
       "https://jobs.smartrecruiters.com/AECOM2/744000119963126",
       "https://jobs.smartrecruiters.com/AECOM2/744000120500038",
-      "https://jobs.smartrecruiters.com/AECOM2/744000120781867"
+      "https://jobs.smartrecruiters.com/AECOM2/744000120781867",
+      "https://jobs.smartrecruiters.com/AECOM2/744000123731349"
     ]
   },
   {
@@ -13674,6 +13697,16 @@
     ]
   },
   {
+    "name": "ncr",
+    "ats": "workday",
+    "identifier": "ncr-ext_non_us",
+    "domain": "https://ncr.wd1.myworkdayjobs.com/ext_non_us",
+    "page": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_non_us/jobs",
+    "urls": [
+      "https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer-Intern_R0157083"
+    ]
+  },
+  {
     "name": "nelnet",
     "ats": "workday",
     "identifier": "nelnet-mynelnet",
@@ -14434,6 +14467,7 @@
     "domain": "https://radiancetech.wd12.myworkdayjobs.com/radiance_external",
     "page": "https://radiancetech.wd12.myworkdayjobs.com/wday/cxs/radiancetech/radiance_external/jobs",
     "urls": [
+      "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102150",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Software-Engineer-CO-OP-Intern--Spring--Summer-or-Fall-2026--_HR101835-1",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/Software-Engineer-Intern--Summer-2026-_HR101836",
       "https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Huntsville-AL/Junior-Web-Developer-and-Database-Administrator-Intern_HR102015",
@@ -14715,7 +14749,8 @@
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101036",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101251",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR100998",
-      "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101248"
+      "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101248",
+      "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101289"
     ]
   },
   {
@@ -15256,7 +15291,8 @@
     "domain": "https://spothero.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/spothero/jobs",
     "urls": [
-      "https://spothero.com/careers/7695956/?gh_jid=7695956"
+      "https://spothero.com/careers/7695956/?gh_jid=7695956",
+      "https://spothero.com/careers/7696003/?gh_jid=7696003"
     ]
   },
   {
