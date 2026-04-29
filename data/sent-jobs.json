@@ -1,5 +1,122 @@
 [
   {
+    "company": "SpotHero",
+    "role": "Marketing Ops & AI Intern",
+    "link": "https://spothero.com/careers/7696003/?gh_jid=7696003",
+    "location": "Chicago, IL",
+    "id": 865,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Support selection, development, and implementation of an AI-driven solution",
+        "Explore ways AI can enhance creative development",
+        "Collaborate to identify automation opportunities",
+        "Research, evaluate, and test emerging AI tools",
+        "Help document processes and share learnings",
+        "Comfortable exploring technical tools and new technologies",
+        "Curious to learn about AI transforming marketing",
+        "Driven, self-motivated, and able to work independently",
+        "Highly organized with strong attention to detail",
+        "Data-driven, interested in using insights",
+        "Strong interpersonal and written communication skills",
+        "Currently pursuing a degree in Computer Science or related field, or have relevant technical experience",
+        "Exposure to programming languages like Python or JavaScript",
+        "Interest and experience with AI, automation, or machine learning",
+        "Familiarity with generative AI platforms"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Aecom",
+    "role": "Digital Infrastructure & AI Tools Intern",
+    "link": "https://jobs.smartrecruiters.com/AECOM2/744000123731349",
+    "location": "Hunt Valley, MD, United States",
+    "id": 864,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Engineering, Computer Science, Data Science, or a related field.",
+        "Completed at least one year of study towards a Bachelor's degree.",
+        "Eligible if recently graduated with a Bachelor's and plan to continue with a Master's.",
+        "Interested in digital infrastructure, technology delivery, or applied AI.",
+        "Strong attention to detail and clear written communication skills.",
+        "Comfortable working with technical documents and collaboration tools."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bloomenergy",
+    "role": "Full Stack Developer Intern",
+    "link": "https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Full-Stack-Developer-Intern_JR-20763",
+    "location": "San Jose, California",
+    "id": 863,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a student earning a bachelor’s or master’s degree in computer engineering, software engineering, or a related field.",
+        "Graduate between spring 2026 and summer 2027.",
+        "Proficient in Python/R/Java/Go, preferring Python.",
+        "Experience with full stack development using Angular, React, Node frameworks.",
+        "Experienced with functional or object-oriented scalable software design.",
+        "Experienced with algorithm development and implementation, preferably in Python.",
+        "Familiar with databases like PostgreSQL, Cassandra, AWS RDS, Redshift, S3 and REST APIs.",
+        "Experienced with open-source databases and tools.",
+        "Familiar with AWS services (EC2, Lambda, ECS, EKS).",
+        "Possess strong analytical and problem-solving skills.",
+        "Possess strong communication skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Amazon",
+    "role": "Software Development Engineer Internship - Military Veteran",
+    "link": "https://amazon.jobs/en/jobs/3179209",
+    "location": "US, WA, Seattle",
+    "id": 862,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in a Bachelor's degree or above in Computer Science or related STEM fields",
+        "Have an expected conferral date between October 2026 \t September 2029",
+        "Collaborate and communicate effectively with cross-disciplinary teams",
+        "Design, build, and operate innovative products and services",
+        "Participate in technical discussions",
+        "Design and develop scalable solutions using cloud-native architectures",
+        "Participate in code reviews",
+        "Contribute to technical documentation",
+        "Build and maintain resilient distributed systems",
+        "Leverage and contribute to GenAI and AI-powered tools",
+        "Write clean, maintainable code",
+        "Work in an agile environment with CI/CD principles",
+        "Demonstrate operational excellence",
+        "Experience one general-purpose programming language",
+        "Experience with data structure implementation or algorithm development",
+        "Experience with object-oriented design principles",
+        "Previous technical internship(s) or project experience",
+        "Demonstrate ability to learn new technologies quickly",
+        "Understand software development lifecycle (SDLC)",
+        "Strong problem-solving and analytical skills",
+        "Excellent written and verbal communication skills"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Remedy Scientific",
     "role": "Software Engineering Intern",
     "link": "https://jobs.ashbyhq.com/Remedy%20Scientific/2e74c46f-cc91-487d-858d-62664f801efc/application",
