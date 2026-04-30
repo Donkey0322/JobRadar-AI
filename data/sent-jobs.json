@@ -1,5 +1,35 @@
 [
   {
+    "company": "300.1446.0200 mammography - ops - qa projects, us",
+    "role": "Co-Op, Software Engineering",
+    "link": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11528",
+    "location": "Marlborough, MA, United States"
+  },
+  {
+    "company": "Cae",
+    "role": "DNI Software Engineering Co-op",
+    "link": "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/DNI-Software-Engineering-Co-op_121708-1",
+    "location": "Tampa",
+    "id": 902,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong written and verbal communication skills",
+        "Experience with C or C++ coding",
+        "Working towards a Bachelor's degree in Computer Science, Engineering, Mathematics, or related field",
+        "Proficient with Microsoft Office Suite",
+        "Eligible for DoD Personal Security Clearance",
+        "Experience with DNI subsystems simulation or stimulation",
+        "Experience with Object Oriented programming",
+        "Familiarity with JIRA"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Intelcom | Dragonfly",
     "role": "R&D Solution Builder Intern",
     "link": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/R-D-Solution-Builder-Intern_JR110749-1",
