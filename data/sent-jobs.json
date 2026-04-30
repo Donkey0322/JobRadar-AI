@@ -1,5 +1,57 @@
 [
   {
+    "company": "Howmet Aerospace",
+    "role": "Product Engineer Intern - Plant",
+    "link": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117438",
+    "location": "Muskegon, MI",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10388735",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 884,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Assist with coding and testing application software.",
+        "Collaborate on software development projects.",
+        "Participate in coding reviews and quality inspections.",
+        "Support documentation of existing processes.",
+        "Offer innovative solutions and ideas during development discussions.",
+        "Actively pursuing a bachelor's degree in Computer Science or related technology field.",
+        "Expected graduation between December 2026 and June 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Demonstrate knowledge of Java, Springboot, and MySQL.",
+        "Familiar with Atlassian tools such as JIRA, Confluence, and BitBucket.",
+        "Possess advanced knowledge of Excel and PowerPoint.",
+        "Experienced in a fast-paced environment.",
+        "Exhibit flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/E03B1A84F8/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 883,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Apptronik",
     "role": "Robotics Software Intern – Real-Time Controls",
     "link": "https://boards.greenhouse.io/apptronik/jobs/5985132004?gh_jid=5985132004",
