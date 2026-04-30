@@ -1,5 +1,192 @@
 [
   {
+    "company": "Dover",
+    "role": "Software Developer Intern",
+    "link": "https://careers.dovercorporation.com/job/Austin-Software-Developer-Intern-TX-78737/1389386833/?ats=successfactors",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 910,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Thoroughly understand HTML5, JavaScript, TypeScript, React, Node.js, Mongo.",
+        "Passionately create intuitive, elegant, and attractive user interfaces.",
+        "Familiar with software development using Linux and Docker.",
+        "Work independently and collaboratively to design effective user interfaces.",
+        "Eagerly learn and rapidly apply new skills.",
+        "Hold a Bachelor's degree in a relevant technical area.",
+        "Possess experience or passion for functional styles.",
+        "Experience with WebGL.",
+        "Experience with software management tools like Git and JIRA.",
+        "Familiar with C++.",
+        "Familiar with RabbitMQ.",
+        "Familiar with Machine Learning/Computer Vision.",
+        "Willing to travel 2-3 times per year.",
+        "Eligible for TS/SCI security clearance.",
+        "Demonstrate clear communication skills.",
+        "Demonstrate strong planning and organization skills.",
+        "Demonstrate effective teamwork skills.",
+        "Demonstrate decision-making and problem-solving skills."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hitachi",
+    "role": "Software Analyst Intern",
+    "link": "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1012380",
+    "location": "Scarborough, ON, Canada",
+    "season": "2026 Summer",
+    "id": 909,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards a Bachelor’s degree in Computer/Systems Engineering",
+        "Fluent in English communication (written and oral)",
+        "Able to work full-time hours for the agreed work term",
+        "Possess in-depth knowledge of software development",
+        "Proficient in Python, C/C++, Shell scripting, Jason, and Groovy",
+        "Experienced with DevOps tools including Git, Bitbucket, Jira, Jenkins, Artefactory, Maven",
+        "Exhibit good organizational abilities",
+        "Able to integrate quickly with the team and work independently"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer – Intern",
+    "link": "https://careers-gdms.icims.com/jobs/72386/job?mobile=true&needsRedirect=false",
+    "location": "Fort Wayne, IN",
+    "season": "2026 Summer",
+    "id": 908,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate thorough understanding of engineering technology.",
+        "Enrolled in an accredited degree program in relevant engineering or scientific discipline.",
+        "Proficient understanding of software engineering concepts, principles, and theories.",
+        "Develop interest in designing, implementing, and testing complex software.",
+        "Work with computer hardware, software, and modeling environments.",
+        "Use modeling, design, and test tools.",
+        "Possess excellent oral and written communication skills.",
+        "Think creatively with ability to multi-task.",
+        "Work effectively in a collaborative team environment.",
+        "Grasp and apply new information quickly.",
+        "Handle more complex assignments as experience progresses.",
+        "Be self-motivated, engaged, and continuously learning.",
+        "Identify opportunities to apply AI for improvement and innovation."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Internship",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/A5EE78BFCF/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 907,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Intel",
+    "role": "Density Fill Development Engineer Intern 🎓",
+    "link": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Density-Fill-Development-Engineer-Intern_JR0281342",
+    "location": "Santa Clara, CAHillsboro, ORPhoenix, AZ",
+    "season": "2026 Summer",
+    "id": 906,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a master's degree in Electrical, Computer, or Software Engineering or related field.",
+        "Complete coursework in Digital Design, VLSI, CMOS Circuits, Software Engineering, Programming Languages, Compilers, Computer Architecture.",
+        "Strong foundation in engineering fundamentals and system-level thinking.",
+        "Gain hands-on experience through course projects, labs, research, or internships.",
+        "Proficient in two or more programming languages (e.g., C, C++, Python, Java, TCL, PERL, SKILL).",
+        "Able to debug, analyze root causes, and learn new tools quickly.",
+        "Strong written and verbal communication skills.",
+        "Able to work independently and collaborate within a team.",
+        "Exposure to scripting and automation tools.",
+        "Demonstrate ability to apply disciplined execution to solve technical challenges."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Marmon Holdings",
+    "role": "Java UI Developer Co-op",
+    "link": "https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Oakville-ON/Java-UI-Developer-Co-op_JR0000042788",
+    "location": "Oakville, ON, Canada",
+    "season": "2026 Summer",
+    "id": 905,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Utilize experience with a variety of network technologies",
+        "Lead clients with Internet, intranet, or extranet applications",
+        "Proficient in C++, Java, XML, HTML, CGI, ASP, multimedia applications, database interactions, and data modeling tools",
+        "Research and understand new web technologies",
+        "Provide technical leadership in developing service applications",
+        "Analyze business requirements for intranet and Internet-related systems",
+        "Build applications using Internet and Windows Development tools",
+        "Execute test plans and summarize results to senior staff",
+        "Perform programming, maintenance, technical support, documentation, and administration of applications",
+        "Follow standards to manage cost and ensure continuity of applications",
+        "Possess 1 to 2 years of experience in a learning role"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Constant Contact",
+    "role": "Software Engineer Co-op",
+    "link": "https://job-boards.greenhouse.io/constantcontact/jobs/7862452",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 904,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Demonstrate strong teamwork skills",
+        "Be self-driven and proactive",
+        "Possess exceptional verbal and written communication skills",
+        "Work comfortably both independently and as part of a team",
+        "Be passionate about making an impact on real customers",
+        "Currently enrolled in a Computer Science degree program or equivalent",
+        "Design, develop, and deliver large-scale, distributed Web applications in a CI/CD environment",
+        "Familiarity with programming languages such as Java, Python, JavaScript (React), and Ruby",
+        "Work with modern JavaScript frameworks (React), CSS, HTML, building Single Page Applications",
+        "Experience with Java/Spring",
+        "Design and develop RESTful services",
+        "Experience with relational and NoSQL databases",
+        "Experience with Java and JavaScript unit testing frameworks",
+        "Exposure to AWS, OKD, Kubernetes",
+        "Exposure to AI tooling like Cursor, Claude Code, MCP",
+        "Articulate engineering design strategies related to scalability, sustainability, performance, and security"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Fluke - level 3",
     "role": "Embedded Software Intern",
     "link": "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7863",
