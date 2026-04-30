@@ -1,5 +1,78 @@
 [
   {
+    "company": "G-P",
+    "role": "AI, Intern ",
+    "link": "https://job-boards.greenhouse.io/globalizationpartners/jobs/7720641003",
+    "location": "United States (Remote-First)",
+    "id": 900,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing or recently completed a Bachelor's or Master's degree in Computer Science or related field",
+        "Strong proficiency in Python, with experience in AI and NLP libraries",
+        "Demonstrable passion for artificial intelligence, focused on generative AI and NLP",
+        "Familiarity with machine learning algorithms and concepts",
+        "Strong analytical and problem-solving skills",
+        "Excellent written and verbal communication skills",
+        "Experience with cloud computing platforms",
+        "Knowledge of version control systems and software development methodologies",
+        "Previous experience with AI or NLP research or projects"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Geaerospace",
+    "role": "Applied AI Engineering Intern (m/f/d)",
+    "link": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Applied-AI-Engineering-Intern--m-f-d-_R5033549-1",
+    "location": "Remote",
+    "id": 899,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's degree program in Computer Science, Aerospace Engineering, Mechanical Engineering, or a related field at an accredited university or software accelerator program",
+        "Strong academic performance in Computer Science or other STEM disciplines",
+        "Experience designing AI solutions and architecting distributed data systems",
+        "Proficiency in programming and debugging with Python, C#, C++, and SQL",
+        "Customer-centric mindset with ability to lead design thinking workshops",
+        "Hands-on experience in at least one of the following areas: Machine Learning, Large Language Models (LLMs), or Computer Vision",
+        "Experience building solutions using public cloud platforms such as AWS or Azure",
+        "AWS and/or Azure certification"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Curtisswright",
+    "role": "Software/Electrical Engineering Intern",
+    "link": "https://curtisswright.wd1.myworkdayjobs.com/cw_external_career_site/job/US-PA-Newtown-TTC/Software-Electrical-Engineering-Intern_JR11947-1",
+    "location": "US-PA-Newtown (TTC)",
+    "id": 898,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Computer Science, Electrical Engineering, or related field.",
+        "Strong creative, analytic, problem-solving, decision-making, and collaboration skills.",
+        "Strong oral and written communication skills; proficient with MS Office.",
+        "Willingness to learn, adapt, and build experience in development and production environments.",
+        "Experience with C++, C#, Visual Basic .NET, or Microsoft Visual Studio.",
+        "Understand complex software architectures.",
+        "Working knowledge of analog and digital circuits.",
+        "Ability to read schematics and datasheets for hardware testing."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Micron",
     "role": "Intern – IT MES (Manufacturing Execution System)",
     "link": "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
