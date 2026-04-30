@@ -1,0 +1,305 @@
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9N7HSH3" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+Skip to main content
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Search by Keyword
+Search by Location
+Clear
+Home
+Search by Location
+View Jobs by Language
+View All Global Jobs
+View All Jobs in Chinese
+View All Jobs in English
+View All Jobs in French
+View All Jobs in German
+View All Jobs in Italian
+View All Jobs in Portuguese
+View All Jobs in Slovak
+View All Jobs in Spanish
+View All Jobs in Swedish
+View All Jobs in Polish
+Recruitment Fraud Notice
+Site Language
+Dansk (Danmark)
+Deutsch (Deutschland)
+English (United Kingdom)
+English (United States)
+Español (México)
+Français (France)
+Italiano (Italia)
+Polski
+Português (Brasil)
+Slovencina (Slovensko)
+Svenska (Konungariket Sverige)
+简体中文 (中国大陆)
+View Profile
+#content {
+padding-top: 0px;
+}
+Search by Keyword
+Search by Location
+Show More Options
+Loading...
+Category
+All
+Operating Company
+All
+Work Arrangement
+All
+Job Function
+All
+Clear
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Software Developer Intern
+Location:
+Austin, TX, US, 78737
+#job-location.job-location-inline {
+display: inline;
+}
+Work Arrangement:
+Onsite
+MPG delivers radio frequency (RF) spectrum-centric solutions at the speed of technology. We enable mission-critical communications and space-based missions with ruggedized RF components, subsystems, and turn-key solutions. Civilian government, military and commercial customers rely on MPG's deep engineering expertise, and scalable manufacturing capability to deliver what they need, when they need it. MPG operates engineering and manufacturing facilities in: Austin, TX; Columbia, MD; Ventura, CA; West Chester, OH; Salisbury, MD; Santo Domingo, Dominican Republic; and York, United Kingdom.
+As a Software Developer Intern at Espy, you will be part of a small but growing team responsible for creating state-of-the-art systems that provide critical signals intelligence to government customers. You will work with other engineers to enhance, test, and maintain a NodeJS/React software stack that interfaces with our core products that records high-bandwidth signal data for long-term digital storage. You will be designing web applications that help our customers visualize and understand complex signal environments. You will have the opportunity to keep up with latest advances in radio sensor equipment, computing hardware, operating systems, DSP techniques, machine learning, and other software technologies as we constantly adapt in a fast-moving environment and increase the value of our products.
+Duties (includes but not limited to):
+Design, implement, and test JavaScript/TypeScript software in a Node.js/React framework
+Coordinate with engineering team, field support team, and customers to design and prioritize new features and bug fixes
+Hands-on testing and deployment support for world-wide customers
+Stay current of industry advances and professional education, embrace the emergence of new technologies.
+Work independently with sound professional judgement to overcome obstacles and complete tasks on time by leveraging collaboration, delegation, and leadership skills.
+QUALIFICATIONS SUMMARY:
+Thorough understanding of HTML5, JavaScript, TypeScript, React, Node.js, Mongo
+Passion for creating intuitive, elegant, and attractive user interfaces in the web
+Familiar with software development using Linux and Docker
+Ability to work both independently and in collaboration with teams to design effective user interfaces
+Eagerness to learn and rapidly apply new skills
+Preferred: Bachelor’s degree in relevant technical area: (Electrical Engineering, Computer Engineering, Computer Science, Mathematics, Physics)
+Preferred: Experience/passion for functional styles
+Preferred: Experience with WebGL
+Preferred: Experience with software management tools (git, JIRA)
+Preferred: Familiarity with C++
+Preferred: Familiarity with RabbitMQ
+Preferred: Familiarity with Machine Learning/Computer Vision
+Preferred: Willingness to travel 2-3 times per year
+Preferred: Consideration for TS/SCI security clearance
+Communication Skills: Demonstrated ability to clearly present information through the spoken and written word with all levels of an organization.
+Planning and Organization Skills: Demonstrated ability to organize or schedule activities and tasks, while being sensitive to time constraints and resource availability.
+Teamwork Skills: Demonstrated ability to work with people in such a manner as to achieve common goals, objectives, and group commitments.
+Decision Making and Problem-Solving Skills: Demonstrated ability in solving problems while exhibiting judgments and a realistic understanding of issues.
+Work Arrangement : Onsite
+Pay Range: -
+We consider several job-related, non-discriminatory factors when determining the pay rate for a position, including, but not limited to, the position’s responsibilities, a candidate’s work experience, a candidate’s education/training, the position’s location, and the key skills needed for the position. Pay is one of the Total Rewards that we provide to compensate and recognize employees for their work.
+All qualified applicants will receive consideration for employment without discrimination on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, disability, age, genetic information, or any other factors prohibited by law.
+Attention Applicants: If you are an individual with a disability and require a reasonable accommodation to complete any part of the application process, please let us know. Likewise, if you are limited in the ability to access or use this online application process and need an alternative method for applying, we will determine an alternate way for you to apply. Please contact accommodations@mpgdover.com for assistance with an accommodation. Kindly specify Job Requisition Number / Job Title and Location in response.
+Job Function :
+Nearest Major Market: Austin
+Job Segment:
+Testing, Developer, Electrical Engineering, Field Service, Engineer, Technology, Engineering, Manufacturing
+Apply now »
+Apply now
+Apply Now
+Start applying with LinkedIn
+Start
+Please wait...
+a.dialogApplyBtn {
+display: none;
+}
+Find similar jobs:
+View All Jobs in English,
+View All Jobs,
+View All Jobs,
+Ver todos los trabajos globales,
+Alle globalen Jobs anzeigen
+Dover Home
+View Page Index
+Top Job Searches
+Privacy Policy
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "c14d210e-67d8-445d-a007-dcdb8cd87ba9"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1389386833,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : false,
+applyWithLinkedIn2Config : {"enabled":true,"companyId":"865siwo5beu5xq","integrationContext":"urn:li:organization:107854","internalId":"66338-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'DOVER',
+"ssoUrl" : 'https://career2.successfactors.eu',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : true
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "c14d210e-67d8-445d-a007-dcdb8cd87ba9"
+}
+});
+//]]>
+//<![CDATA[
+j2w.SAB.init({
+profileData : [ {type : 'manual',shorttype : '',label : 'Apply Now',helptext : 'Join our talent community, receive job alerts, and start the apply process.',moretext : '' }, {type : 'linkedin',shorttype : 'li',label : 'Start applying with LinkedIn',helptext : 'Use your LinkedIn profile to join our talent community, receive job alerts, and start the application process.',moretext : '<ul><li>Nothing is posted on your LinkedIn account.</li><li>We do not log in to your LinkedIn account.</li><li>We do not save login credentials to your LinkedIn account.</li><li>You will be joining our Talent Community using your social profile.</li><li>Please ensure that pop-up blockers are disabled in order to proceed.</li></ul>' },],
+jobID : '1389386833',
+locale : 'en_US',
+autoOpen : { open : false }
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = 'd8a038f7-9355-4172-965b-c4e5fd4738b2';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>
+//<![CDATA[
+var j2w = j2w || {};
+j2w.search = j2w.search || {};
+j2w.search.options = {
+isOpen: false,
+facets: ["department","facility","customfield3","customfield4"],
+showPicklistAllLocales : false
+};
+//]]>

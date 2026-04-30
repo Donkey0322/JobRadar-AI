@@ -1,0 +1,79 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/constantcontact/jobs/7862452",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3423761,
+  "location": {
+    "name": "Remote, US"
+  },
+  "metadata": [
+    {
+      "id": 88655,
+      "name": "Secondary Location",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 163016,
+      "name": "Business Unit",
+      "value": "Constant Contact",
+      "value_type": "single_select"
+    },
+    {
+      "id": 89927,
+      "name": "Posting Requirements",
+      "value": "Internal and External",
+      "value_type": "single_select"
+    },
+    {
+      "id": 83647,
+      "name": "Employment Type",
+      "value": "Co-op",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4621678,
+      "name": "Hiring Manager",
+      "value": {
+        "name": "Tim Thornton",
+        "email": "timothy.thornton@constantcontact.com",
+        "user_id": 2477388,
+        "employee_id": null
+      },
+      "value_type": "user"
+    }
+  ],
+  "id": 7862452,
+  "updated_at": "2026-04-30T11:45:31-04:00",
+  "requisition_id": "7729",
+  "title": "Software Engineering Co-op",
+  "company_name": "Constant Contact",
+  "first_published": "2026-04-30T11:45:31-04:00",
+  "language": "en",
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;At Constant Contact, we are seriously awesome people who take ownership and make an impact by operating with the mindset, integrity and courage of a small business owner.&amp;nbsp;&lt;em&gt;There’s something so profoundly rewarding about knowing that your work is empowering people everywhere to pursue their dreams&lt;/em&gt;.&amp;nbsp; Here, we all play an integral part in helping business owners, entrepreneurs, non-profits and individuals to succeed by giving them all the help and tools they need to grow online. We’re energized by new challenges and new possibilities-and we’re just getting started!&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Are you a talented Software Engineer ready to own customer outcomes? If you&#39;re driven by an entrepreneurial spirit, energized by AI-native product development, and ready to tackle the next generation of challenges to power small-businesses, we invite you to join our co-op team.&lt;/p&gt;\n&lt;p&gt;At Constant Contact, we embody the entrepreneurial spirit, operate with unwavering integrity, and possess the determination of small business owners. Finding deep satisfaction in knowing that our work empowers individuals worldwide to pursue their dreams, we consider every team member essential to helping business owners, entrepreneurs, non-profits, and individuals achieve success by equipping them with the necessary tools and support for online growth. We thrive on fresh challenges and limitless possibilities, and our journey is only just beginning.&lt;/p&gt;\n&lt;h2&gt;Key Traits:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Teamwork:&lt;/strong&gt; Demonstrate strong teamwork skills, capable of taking on both leadership and collaborative roles to achieve team objectives.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Self-Motivation:&lt;/strong&gt; We&#39;re looking for individuals who are self-driven and proactive.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong Communication Skills:&lt;/strong&gt; Exceptional verbal and written communication skills are crucial. Most of our decisions happen async in writing.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Independence and Collaboration:&lt;/strong&gt; Comfortably work both independently and as part of a team.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Cutting-Edge Technology:&lt;/strong&gt; An exciting opportunity to work with the latest technologies — AI-assisted development, modern cloud platforms, and modern experimentation tooling — to devise innovative solutions across a diverse range of projects.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Leveraging Existing Knowledge:&lt;/strong&gt; You&#39;ll have the chance to expand your existing knowledge while addressing challenges associated with scale, complexity, and customer impact.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Job Responsibilities:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Be a key contributor to a cross-functional, Agile product delivery team.&lt;/li&gt;\n&lt;li&gt;Collaborate with Product Management, UX, and architects to deliver scalable, sustainable, and engaging product experiences.&lt;/li&gt;\n&lt;li&gt;Work AI-native: use Cursor, Claude Code, MCPs, and AI-assisted code review as part of your everyday workflow.&lt;/li&gt;\n&lt;li&gt;Help run and measure experiments - form a hypothesis, ship it, read the results, decide what&#39;s next.&lt;/li&gt;\n&lt;li&gt;Participate in our Engineering community to learn new trends in the industry, or share best practices that you think will benefit the community.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Required Skills:&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Passionate about making an impact on real customers.&lt;/li&gt;\n&lt;li&gt;Currently enrolled in a Computer Science degree program or equivalent.&lt;/li&gt;\n&lt;li&gt;Designing, developing, and delivering large-scale, distributed, Web applications in a CI/CD environment.&lt;/li&gt;\n&lt;li&gt;Familiarity with programming languages such as Java, Python, JavaScript (React), and Ruby.&lt;/li&gt;\n&lt;li&gt;Work with modern JavaScript frameworks (React), CSS, HTML, building Single Page Applications.&lt;/li&gt;\n&lt;li&gt;Experience of Java/Spring.&lt;/li&gt;\n&lt;li&gt;Experience designing and developing RESTful services.&lt;/li&gt;\n&lt;li&gt;Experience with relational and NoSQL databases.&lt;/li&gt;\n&lt;li&gt;Experience with Java and JavaScript unit testing frameworks.&lt;/li&gt;\n&lt;li&gt;Exposure to AWS, OKD, Kubernetes.&lt;/li&gt;\n&lt;li&gt;Exposure to AI tooling — Cursor, Claude Code, MCP.&lt;/li&gt;\n&lt;li&gt;Ability to articulate engineering design strategies related to scalability, sustainability, performance, and security.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;This co-op term will run from June to December&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;The specific compensation offered to a candidate may be influenced by a variety of factors including the candidate’s experience, their education and work location.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Pay Transparency - Internships&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$35&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$35 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Why You’ll Love Us:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;We celebrate one another’s differences. We are proud of our culture of diversity and inclusion, and we&#39;re always working hard to strengthen and improve this culture. We have programs in place that bring us together on important issues and provide educational opportunities for all employees.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Join the experts. If you&#39;re passionate about supporting businesses and organizations, you won’t find a better spot to share your talent. We’re dedicated to improving the quality of our product from a customer standpoint and have a true desire to enable the success of businesses, non-profit organizations, and community groups.&lt;/li&gt;\n&lt;li&gt;You’ll have opportunities to grow your career. We encourage and support our team members to learn different aspects of the business, take on stretch assignments, seek coaching opportunities and professional development opportunities.&lt;/li&gt;\n&lt;li&gt;A generous paid time off policy and a competitive benefits package that supports the health and well-being of you and your family&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;At Constant Contact, we’re all about work flexibility and are proud to serve our customers as a hybrid workforce. Our hybrid work model combines the convenience of remote work with access to our great office locations to collaborate in-person, participate in live trainings, and socialize with colleagues.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Application Deadline: 30 days. We may fill this job opening prior to the deadline if a candidate is selected by us.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Vision6 Pty Limited is an affiliate of Constant Contact, Inc. and a part of the Constant Contact group of brands.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Constant Contact is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, gender, gender identity, national origin, citizenship, age, disability, sexual orientation, genetic information, veteran status or any other status protected under applicable law. If you require accessibility assistance applying for open positions, please contact talentacquisition@constantcontact.com.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information. 41 CFR 60-1.35(c)&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Constant Contact, we respect personnel privacy and are committed to protecting the personal information we obtain and maintain from both current, former, and prospective employees. We maintain this Personnel Global Privacy Notice (this “Notice”) in compliance with applicable privacy laws, including the California Consumer Privacy Act (the “CCPA”) and the UK General Data Protection Regulation (collectively, the “Data Protection Laws”). &lt;span&gt;&lt;a href=&quot;https://sites.google.com/constantcontact.com/ctctemployeeresource/home&quot; target=&quot;_blank&quot;&gt;Click here&lt;/a&gt;&lt;/span&gt; for a full copy of our General Personnel Privacy Notice.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Notice to Recruiters and Staffing Agencies:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Constant Contact has an internal talent acquisition department and designated career site for individuals looking to join our team. Constant Contact will not accept unsolicited resumes from any external recruiters, staffing firms, search agencies or any fee-based referrals. Any unsolicited resumes sent to directly to Constant Contact, in any capacity will be considered property of Constant Contact. Constant Contact will not pay a fee for any placement resulting from the receipt of an unsolicited resume.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 25030,
+      "name": "100 Engineering",
+      "child_ids": [],
+      "parent_id": 267091
+    }
+  ],
+  "offices": [
+    {
+      "id": 264978,
+      "name": "Remote - US",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 23336
+    }
+  ]
+}
