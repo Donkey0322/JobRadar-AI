@@ -1,5 +1,40 @@
 [
   {
+    "company": "Hp",
+    "role": "Software Engineering Intern",
+    "link": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Fort-Collins-Colorado-United-States-of-America/Software-Engineering-Intern_3160714",
+    "location": "Fort Collins, Colorado, United States of America",
+    "id": 903,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Design, develop, and maintain a multi-modal Retrieval-Augmented Generation (RAG) system.",
+        "Enable natural language querying capabilities.",
+        "Optimize system performance to deliver accurate, reliable, and timely responses.",
+        "Drive continuous improvement of internal knowledge management.",
+        "Implement AI-driven solutions to automate code documentation.",
+        "Develop and maintain documentation processes.",
+        "Integrate automated documentation tools into the development lifecycle.",
+        "Collaborate with engineering teams to improve code maintainability and documentation standards.",
+        "Support onboarding efforts by creating accessible technical documentation.",
+        "Contribute to improving engineering efficiency.",
+        "Currently enrolled in a four-year college and returning to school following the internship.",
+        "Current junior rising senior graduating in Fall 2026 or Spring 2027.",
+        "Major in Computer Science or a relevant field.",
+        "Familiarity with AI-driven tools and Large Language Models (LLMs).",
+        "Understand Single Sign-On (SSO) concepts and large-scale deployments.",
+        "Experience building or contributing to chatbots or conversational AI systems.",
+        "Strong conceptual understanding of Retrieval-Augmented Generation (RAG).",
+        "Strong problem-solving skills with the ability to work independently.",
+        "Possess a collaborative, self-motivated, and self-driven mindset."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "300.1446.0200 mammography - ops - qa projects, us",
     "role": "Co-Op, Software Engineering",
     "link": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11528",
