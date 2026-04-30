@@ -1,0 +1,167 @@
+{
+  "id": "744000123844909",
+  "name": "Intern, Supply Chain Project Assistant - Data Analytics / Project Management",
+  "uuid": "0cc681a1-ecd6-4a45-95fa-c5f9fa31d1c1",
+  "jobId": "6352846d-14c6-495c-9a70-ad6c04391ee2",
+  "jobAdId": "9355a033-ebb2-4ee6-8dfa-5e6d7d153703",
+  "defaultJobAd": true,
+  "refNumber": "REF284615U",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Singapore",
+    "country": "sg",
+    "address": "11 Bishan Street 21",
+    "postalCode": "573943",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "1.3475716",
+    "longitude": "103.8413215",
+    "fullLocation": "Singapore, , Singapore"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+      "valueLabel": "Limited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "1d83a137-325a-48bb-97fc-61e5150a619f",
+      "valueLabel": "Singapore Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "0192622d-fff4-487f-9495-6f3a7f6d33b2",
+      "valueLabel": "RBSI"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "70deb26e-e2b9-40ca-bf95-85f5730ec04c",
+      "valueLabel": "Singapore"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+      "valueLabel": "Others"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+      "valueLabel": "Direct"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "a584d752-f1a5-46c6-bb3a-78dfd8ddb5ff",
+      "valueLabel": "Robert Bosch (SEA) Pte Ltd"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "b2e47e43-790d-4acb-871a-2ed61d7177ba",
+      "valueLabel": "Mobility Aftermarket"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "sg",
+      "valueLabel": "Singapore"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "c5857f19-effd-4d50-aa2a-22a0adc9c809",
+      "valueLabel": "Singapore"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "3037ad15-7175-40aa-baf0-e4dcc6b11782",
+      "valueLabel": "SG_Intern"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "AA",
+      "valueLabel": "MA"
+    }
+  ],
+  "releasedDate": "2026-04-30T05:13:51.175Z",
+  "creator": {
+    "name": "Luiz Felipe Ribas Linhares (MA/LOP-PED3)",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123844909-intern-supply-chain-project-assistant-data-analytics-project-management",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000123844909-intern-supply-chain-project-assistant-data-analytics-project-management?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/0cc681a1-ecd6-4a45-95fa-c5f9fa31d1c1?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>🏢</strong><strong> About Bosch Group</strong></p><p>The Bosch Group is a leading global supplier of technology and services. It employs roughly 418,000 associates worldwide. The company generated sales of 90.3 billion euros in 2024. Its operations are divided into four business sectors: Mobility, Industrial Technology, Consumer Goods, and Energy and Building Technology. With technology that is “Invented for life,” Bosch wants to help improve quality of life and conserve natural resources. The Bosch Group comprises Robert Bosch GmbH and its roughly 490 subsidiary and regional companies in over 60 countries. At 136 locations across the globe, Bosch employs some 87,000 associates in research and development.</p><p><strong>🏢</strong><strong> About Robert Bosch (South East Asia)</strong></p><p>As the Bosch Group's regional headquarters in Singapore for Southeast Asia, Robert Bosch (South East Asia) Pte Ltd has represented the Group's interests across the region since 1923.</p><p>With diversified businesses in Mobility Aftermarket, Industrial Technology, Consumer Goods, and Building Technology. Robert Bosch (SEA) Pte Ltd includes the Asia Pacific headquarters for Mobility Aftermarket, Building Technology, and Industrial Technology, as well as the Southeast Asia R&amp;D setup for Corporate Research, Advance Engineering Centre, and Bosch Business Innovations, Bosch's in-house innovation and startup incubation network. At Bosch, we are committed through our EVP ensuring all our associates to <strong>GROW</strong>, <strong>ENJOY</strong> and <strong>INSPIRE</strong> during their journey with us.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>- Support in data analysis cases and projects (data extraction, collation and analysis using tools such as MS PowerBI, SQL, python, R etc.)<br>\n- Participate in problem solving on Operational KPIs and Master parameters and values (in coordination with regional project and local operations teams)<br>\n- Provide support and preparation of Business Case Presentation and Project Management together with regional project team&#xa0;<br>\n- Support Monthly reporting requirements by specific project requirements<br>\n- Provide general administration support to the department on regular or ad-hoc basis</p><p>- <strong>Optional Skills (Value Add): </strong>Exposure to Artificial Intelligence (AI) concepts, particularly Large Language Models (LLMs), Agentic AI, or other emerging AI technologies. These would be considered an added advantage.</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Able to commit for 5-12&#xa0;months (full-time basis)&#xa0;<ul><li>Internship Dates: throughout the year for minimum of 5-12&#xa0;months</li></ul></li><li>Master’s degree or Undergraduate in Data Analytics, Logistics &amp; Operations Management, or Supply Chain Management.</li><li>Experience in Supply Chain / Logistics Operations / SAP is a plus.&#xa0;</li><li>Proficient in MSOffice (preferably on Excel and Power BI)</li><li>Knowledge/ experience with PowerBI, SQL, python, R or other programming tools will be added advantage.</li><li>Display competency in analytical skills.&#xa0;</li><li>Possess knowledge of Supply Chain and Logistics Operations and capable of multi-tasking and work prioritization skills.&#xa0;</li><li>Exhibit pro-activeness and good communication skills. Is a team player and cooperative.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<ul><li>Candidate should fulfil the visa requirements for employment in Singapore<ul><li><a href=\"http://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students\" rel=\"noopener noreferrer\">http://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students</a></li></ul></li><li>Applicant must be enrolled throughout internship period, or plan to pursue further studies</li><li>For foreign students studying overseas, you must be eligible for the Work Holiday Programme (WHP)<ul><li><a href=\"http://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility\" rel=\"noopener noreferrer\">http://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility</a></li></ul></li></ul>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "mechanical_engineering",
+    "label": "Mechanical Or Industrial Engineering"
+  },
+  "function": {
+    "id": "general_business",
+    "label": "General Business"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

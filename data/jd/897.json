@@ -1,0 +1,95 @@
+{
+  "jobPostingInfo": {
+    "id": "69aa1baba053100132baed0584f20000",
+    "title": "Intern – IT MES (Manufacturing Execution System)",
+    "jobDescription": "<p style=\"text-align:left\"><b>Our vision is to transform how the world uses information to enrich life for <i>all</i>. </b></p><p style=\"text-align:left\">Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and advance faster than ever.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div><div><div><p><b>Project Title:</b><br />IT incident Reduction in Manufacturing Operations - BURN IN Area.<br /> </p><p><b>Description:</b><br />Analyze recurring IT incidents within the BURN-IN manufacturing area to identify failure modes, implement permanent corrective actions and enhance system reliability.</p><p><br /><b>Scope:</b></p><ul><li><span>Understand MES ecosystems and its integrations.</span></li><li><span>Understand the BURN-IN process flow and its dependencies.</span></li><li><span>Develop skills in incident investigation, root cause analysis and recommending sustainable solutions.</span></li><li><span>Study AI-driven approaches for detecting and recovering production transaction failures.</span></li></ul><p></p><p><b>Supporting Team:</b></p><ul><li><span>IT team</span></li><li><span>Process&amp; Equipment Engineer</span></li><li><span>Manufacturing team</span></li></ul><p></p><p><b>Deliverables:</b></p><ul><li><span>Learn to analyze and reduce high‑impact and recurring incidents to help stabilize manufacturing operations.</span></li><li><span>Implement proactive monitoring and alert mechanisms for applications and servers to notify operations before failures occur.</span></li><li><span>Create documentations/ Knowledge-based article (KBA) for any new incidents and resolutions to build organizational knowledge.</span><br /> </li></ul><p><b>Stretch goal:</b></p><ul><li><span>Design and implement an AI-powered auto-correction mechanism to detect failures and execute corrective actions autonomously, minimizing downtime and manual intervention.</span></li></ul></div></div></div><p></p><p><b>Qualification:</b></p><ul><li>Information Technology</li><li>Computer Engineering</li><li>Computer Science</li><li>Software Engineering</li></ul><p></p><p><b>Internship timeline</b></p><ul><li>6 months</li></ul><p></p><p><b>About Micron Technology, Inc.</b></p><p><span>We are an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life<span> </span></span><i>for all</i><span>. With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products through our Micron® and Crucial® brands. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence and 5G applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience.</span></p><p><br /><span>To learn more, please visit micron.com/careers</span><br /><br /><span>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status.</span><br /><br /><span>To request assistance with the application process and/or for reasonable accommodations,<span> </span>please contact </span><a href=\"mailto:hrsupport_my&#64;micron.com\" target=\"_blank\"><span><span><span><span><span>hrsupport_my&#64;micron.com</span></span></span></span></span></a></p><p></p><p>Micron Prohibits the use of child labor and complies with all applicable laws, rules, regulations, and other international and industry labor standards.</p><p></p><p>Micron does not charge candidates any recruitment fees or unlawfully collect any other payment from candidates as consideration for their employment with Micron.</p><p></p><p>AI alert<b>:</b> Candidates are encouraged to use AI tools to enhance their resume and/or application materials. However, all information provided must be accurate and reflect the candidate&#39;s true skills and experiences. Misuse of AI to fabricate or misrepresent qualifications will result in immediate disqualification. </p><p></p><p>Fraud alert: Micron advises job seekers to be cautious of unsolicited job offers and to verify the authenticity of any communication claiming to be from Micron by checking the official Micron careers website in the About Micron Technology, Inc.</p><p></p>",
+    "location": "Penang, Malaysia - Grande",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-30",
+    "timeType": "Full time",
+    "jobReqId": "JR89149",
+    "jobPostingId": "Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "Malaysia",
+      "id": "972dc4ba8d454bc0b893ff84b1529077"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Penang, Malaysia - Grande",
+      "country": {
+        "descriptor": "Malaysia",
+        "id": "972dc4ba8d454bc0b893ff84b1529077",
+        "alpha2Code": "MY"
+      }
+    },
+    "externalUrl": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
+    "questionnaireId": "efa5806885ca1001134e020223b00000",
+    "secondaryQuestionnaireId": "61a2f76a4188100141e9bcecdb920000"
+  },
+  "hiringOrganization": {
+    "name": "1850 Micron Memory Malaysia SD",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Intern – EA & FOL Utilization Enablement",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---EA---FOL-Utilization-Enablement_JR96502",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-30"
+    },
+    {
+      "title": "Intern - Assembly Equipment Engineer",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---Assembly-Equipment-Engineer_JR96468",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted 10 Days Ago",
+      "startDate": "2026-04-20"
+    },
+    {
+      "title": "Intern – FOL Productivity & Utilization",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---FOL-Productivity---Utilization_JR96519",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-30"
+    },
+    {
+      "title": "Intern - Engineering Equipment",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---Engineering-Equipment_JR96499",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-30"
+    },
+    {
+      "title": "Intern - Module Test Process Engineer",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---Module-Test-Process-Engineer_JR96387",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted 20 Days Ago",
+      "startDate": "2026-04-10"
+    },
+    {
+      "title": "Intern - Support on Host Automation Enablement for Enclosure Attach",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---Support-on-Host-Automation-Enablement-for-Enclosure-Attach_JR96495",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-30"
+    },
+    {
+      "title": "Intern - NPM",
+      "externalPath": "/job/Penang-Malaysia---Grande/Intern---NPM_JR96633",
+      "timeType": "Full time",
+      "locationsText": "Penang, Malaysia - Grande",
+      "postedOn": "Posted Today",
+      "startDate": "2026-04-30"
+    }
+  ],
+  "userAuthenticated": false
+}

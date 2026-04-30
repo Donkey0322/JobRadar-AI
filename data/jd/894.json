@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "d87b109cfd011000c37c751d35790000",
+    "title": "Software Development Intern - Client and Partner Integration",
+    "jobDescription": "<h1><span style=\"color:#494949\"><b>Make your internship count</b></span></h1><p></p><p><span style=\"color:#494949\">At Intelcom, interns don’t just observe, they contribute meaningfully to real projects that shape how we operate. You’ll gain hands-on experience, grow your skills, and explore long-term career opportunities in a fast-moving, innovation-driven environment.</span></p><div><div><p></p><p></p><p><span><span>We are seeking a Software Development Intern to</span><span><span> </span>join our Client and Partner Integration team to support the enhancement of our Transportation API, handling incoming client requests. </span></span> <span>This is an exciting<span> </span></span><span>opportunity to contribute directly to Intelcom | Dragonfly&#39;s growth within a dynamic agile squad working on software infrastructure to maintain and enhance our services. </span></p><p></p></div><div><p><b><span>Responsibilities</span></b><span> </span></p></div><div><ul><li><p><span><span>Participate in the development, testing, and maintenance of<span> </span></span><span>our API<span> </span></span><span>using Python and AWS</span><span>.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Collaborate to translate requirements into technical solutions.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Write clean, efficient, and scalable code, along with comprehensive tests to ensure reliability and performance.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Participate in code reviews and provide constructive feedback.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Contribute to troubleshooting</span><span>, debug</span><span>ging</span><span>, and<span> </span></span><span>optimizing</span><span><span> </span>the system.</span></span><span> </span></p></li></ul></div></div><div><div><ul><li><p><span><span>Support<span> </span></span><span>the</span><span><span> </span>deploy</span><span>ment of</span><span><span> </span>software updates and<span> </span></span><span>the maintenance of</span><span><span> </span></span><span>system performance</span><span>.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>The<span> </span></span><span>role</span><span><span> </span></span><span>involves</span><span><span> </span></span><span>daily</span><span><span> </span>(or<span> </span></span><span>regular</span><span>) communication<span> </span></span><span>with</span><span><span> </span>pan-Canadian stakeholders.</span></span><span> </span></p></li></ul></div><div><p><span> </span></p></div><div><p><b><span>Qualifications</span></b><span> </span></p></div><div><ul><li><p><span><span>Currently pursuing a<span> bachelor&#39;s degree in Computer Science, Software Engineering or a related field.</span></span></span></p></li></ul></div><div><ul><li><p><span><span>Proficient in Python.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Knowledge</span><span><span> </span>of<span> </span></span><span>additional</span><span><span> </span></span><span>programming</span><span><span> </span></span><span>languages</span><span>,<span> </span></span><span>including</span><span><span> </span>C# and Java,<span> </span></span><span>is</span><span><span> </span>an asset.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Experience with AWS or Azure is a plus.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Strong<span> </span></span><span>understanding</span><span><span> </span></span><span>of data structures.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Experience designing and implementing<span> </span></span><span>database</span><span>s</span><span>.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Logical, analytical, and creative approach to problem-solving.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>Strong collaboration and communication<span> </span></span><span>skills</span><span>.</span></span><span> </span></p></li></ul></div><div><p><span> </span></p></div><div><p><span><span>#LI-DNI #IG-DNI</span></span><span> </span></p></div></div><p></p><p><b>Intelcom</b> is a leading last-mile carrier in the e-commerce sector. Our teams across Canada as well as our network of independent contractors contribute to Intelcom’s daily operations.</p><p></p><p>Our goal is simple: in a constantly evolving business sector, we don&#39;t just follow, we get ahead. In addition to standing out through innovative services and delivery methods, Intelcom is also undergoing a technological transformation where the integration of customer experience and logistics technologies are at the heart of its evolution.</p><p></p><p>At <b>Intelcom</b>, we know experience comes in many forms and are committed to building a culture where difference is valued. We are always looking for talented and diverse individuals to join our teams. With over 60 delivery centers across Canada, we may have the right opportunity for you.</p><p></p><p><span style=\"color:#a33600\">Apply Now.</span></p><p></p>",
+    "location": "Canada, Quebec, Montreal",
+    "postedOn": "Posted Today",
+    "startDate": "2026-04-30",
+    "timeType": "Full time",
+    "jobReqId": "JR110742",
+    "jobPostingId": "Software-Development-Intern---Client-and-Partner-Integration_JR110742-1",
+    "jobPostingSiteId": "Intelcom",
+    "country": {
+      "descriptor": "Canada",
+      "id": "a30a87ed25634629aa6c3958aa2b91ea"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Service Centre (Montreal) Lab",
+      "country": {
+        "descriptor": "Canada",
+        "id": "a30a87ed25634629aa6c3958aa2b91ea",
+        "alpha2Code": "CA"
+      }
+    },
+    "externalUrl": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Client-and-Partner-Integration_JR110742-1",
+    "questionnaireId": "33d4725484621001a2eb8eb7ef980000",
+    "timeLeftToApply": "30 days left to apply",
+    "endDate": "2026-05-31",
+    "jobPostingEndDateAsText": "End Date: May 31, 2026"
+  },
+  "hiringOrganization": {
+    "name": "Dragonfly Logistics Lab Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
