@@ -1,5 +1,326 @@
 [
   {
+    "company": "Micron",
+    "role": "Intern – IT MES (Manufacturing Execution System)",
+    "link": "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
+    "location": "Penang, Malaysia - Grande",
+    "id": 897,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Study in Information Technology",
+        "Study in Computer Engineering",
+        "Study in Computer Science",
+        "Study in Software Engineering"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Bosch group",
+    "role": "Intern, Supply Chain Project Assistant - Data Analytics / Project Management",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000123844909",
+    "location": "Singapore, , Singapore",
+    "id": 896,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Other",
+      "qualifications": [
+        "Commit for 5-12 months on a full-time basis",
+        "Hold a Master's or Undergraduate degree in Data Analytics, Logistics, or Supply Chain Management",
+        "Experience in Supply Chain, Logistics Operations, or SAP is a plus",
+        "Proficient in MS Office, especially Excel and Power BI",
+        "Knowledgeable in PowerBI, SQL, Python, R, or other programming tools",
+        "Display strong analytical skills",
+        "Possess knowledge of Supply Chain and Logistics Operations",
+        "Capable of multi-tasking and prioritizing work",
+        "Exhibit pro-activeness and good communication skills",
+        "Be a cooperative team player",
+        "Exposure to AI concepts, LLMs, or Agentic AI is an advantage"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Visier Solutions Inc",
+    "role": "Data Science Intern",
+    "link": "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677172006",
+    "location": "Vancouver, BC, Canada",
+    "id": 895,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Model problems to solve business needs",
+        "Brainstorm to identify required data",
+        "Perform statistical analysis to build statistical or machine learning models",
+        "Identify metrics to measure model and project success",
+        "Communicate and present work to stakeholders",
+        "Conduct independent research to gain domain knowledge",
+        "Strong understanding of statistics and scientific methods",
+        "Proficient in Scala, Python, or other relevant languages",
+        "Possess attention to detail and big picture thinking",
+        "Currently pursuing a Masters or PhD",
+        "Knowledge of hypothesis testing",
+        "Knowledge of machine learning techniques",
+        "Knowledge of scientific analysis and knowledge generation"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Client and Partner Integration",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Client-and-Partner-Integration_JR110742-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 894,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor's degree in Computer Science, Software Engineering, or related field",
+        "Proficient in Python",
+        "Knowledge of C# and Java programming languages",
+        "Experience with AWS or Azure",
+        "Strong understanding of data structures",
+        "Experience designing and implementing databases",
+        "Exhibit logical, analytical, and creative problem-solving",
+        "Possess strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Consumer Interactions",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Consumer-Interactions_JR110743-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 893,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently pursuing a bachelor's degree in Computer Science or a related field",
+        "Proficient in C#",
+        "Possess knowledge of additional programming languages, including Java and Python",
+        "Strong understanding of cloud architecture and data structures",
+        "Experience designing and implementing database structures",
+        "Exhibit a logical, analytical, and creative approach to problem-solving",
+        "Strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Warehouse Productivity",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Warehouse-Productivity_JR110740-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 892,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science or related field",
+        "Proficient in C#",
+        "Strong understanding of data structures",
+        "Understand cloud architecture and experience with Azure Cloud",
+        "Experience designing and implementing database structures",
+        "Possess a logical, analytical, and creative approach to problem-solving",
+        "Possess strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Route Optimization",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Route-Optimization_JR110746-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 891,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science, software engineering, or a related field.",
+        "Proficient in Java.",
+        "Knowledge of C# and Python.",
+        "Experience with AWS or Azure.",
+        "Strong understanding of data structures.",
+        "Experience designing and implementing database structures.",
+        "Exhibit a logical, analytical, and creative approach to problem-solving.",
+        "Strong collaboration and communication skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Mobile Application",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Mobile-Application_JR110747-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 890,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor's degree in Computer Science, Software Engineering, or related field",
+        "Proficient in C#",
+        "Knowledge of Java, Python, and JavaScript",
+        "Knowledge of web development frameworks and databases",
+        "Exhibit a logical, analytical, and creative approach to problem-solving",
+        "Possess strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - Business Platform",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Business-Platform_JR110745-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 889,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science or a related field.",
+        "Proficient in C#.",
+        "Knowledge of Java and Python programming languages.",
+        "Strong understanding of cloud architecture and data structures.",
+        "Experience designing and implementing database structures.",
+        "Exhibit a logical, analytical, and creative approach to problem-solving.",
+        "Possess strong collaboration and communication skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Embedded Software Development Intern",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 888,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently pursuing a bachelor's degree in computer science, software engineering, or a related field",
+        "Proficient in C#",
+        "Experience working with Embedded Linux platforms",
+        "Possess a logical, analytical, and creative approach to problem-solving",
+        "Exhibit strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Development Intern - GeoCoding",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---GeoCoding_JR110744-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 887,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor's in computer science, software engineering, or related field",
+        "Proficient in Java",
+        "Possess knowledge of additional programming languages, including C#",
+        "Experience with AWS or Azure",
+        "Strong understanding of data structures",
+        "Experience designing and implementing relational databases",
+        "Exhibit a logical, analytical, and creative approach to problem-solving",
+        "Possess strong collaboration and communication skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Quality Assurance Intern",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Quality-Assurance-Intern_JR110770-1",
+    "location": "Canada, Quebec, Montreal",
+    "id": 886,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor’s degree in Computer Science, Engineering, or a related field.",
+        "Solid understanding of the software development life cycle (SDLC) and QA methodologies.",
+        "Familiarity with test management tools and issue tracking systems.",
+        "Proficiency in writing clear and comprehensive test plans and test cases.",
+        "Experience with automated testing frameworks and tools.",
+        "Strong analytical and problem-solving skills with keen attention to detail.",
+        "Strong collaboration and communication skills.",
+        "Flexibility to adapt to changing priorities and requirements.",
+        "Self-motivated with a proactive approach to learning and tackling tasks."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Intelcomgroup",
+    "role": "Software Developer in Test Intern",
+    "link": "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Developer-in-Test-Intern_JR110774-1",
+    "location": "Canada, Quebec, Montreal"
+  },
+  {
+    "company": "Fit s2p ip2p payables excellence (l04)",
+    "role": "Software Tester – Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34546",
+    "location": "Canada"
+  },
+  {
+    "company": "Fit s2p ip2p payables excellence (l04)",
+    "role": "Service Router Platform Test Dev Student",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34472",
+    "location": "Canada"
+  },
+  {
+    "company": "Fit s2p ip2p payables excellence (l04)",
+    "role": "IT Network Software/AI Development - Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34296",
+    "location": "Canada"
+  },
+  {
+    "company": "Fit s2p ip2p payables excellence (l04)",
+    "role": "System Reliability Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34116",
+    "location": "Canada"
+  },
+  {
+    "company": "Asml",
+    "role": "Software Testing Intern",
+    "link": "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
+    "location": "Wuhan, China"
+  },
+  {
     "company": "Nokia",
     "role": "Web Developer Co-op/Intern",
     "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34611",

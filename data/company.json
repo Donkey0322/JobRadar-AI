@@ -941,6 +941,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Optical-Product-Engineering--_J-00327849",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00339667",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
       "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071"
     ]
   },
@@ -5687,6 +5688,10 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32692",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32830",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34113",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34116",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34296",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34472",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34546",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34551",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34602",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34603",
@@ -7065,7 +7070,17 @@
       "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---GeoCoding_JR109221",
       "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Last-Mile_JR109228",
       "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Mobile-Application_JR109217",
-      "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Route-Optimization_JR109220"
+      "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Route-Optimization_JR109220",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Embedded-Software-Development-Intern_JR110741-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Developer-in-Test-Intern_JR110774-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Business-Platform_JR110745-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Client-and-Partner-Integration_JR110742-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Consumer-Interactions_JR110743-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---GeoCoding_JR110744-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Mobile-Application_JR110747-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Route-Optimization_JR110746-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Development-Intern---Warehouse-Productivity_JR110740-1",
+      "https://intelcomgroup.wd3.myworkdayjobs.com/intelcom/job/Canada-Quebec-Montreal/Software-Quality-Assurance-Intern_JR110770-1"
     ]
   },
   {
@@ -9507,7 +9522,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/visiersolutionsinc/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4627556006",
-      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006"
+      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006",
+      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677172006"
     ]
   },
   {
@@ -12253,7 +12269,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000123440088",
       "https://jobs.smartrecruiters.com/BoschGroup/744000123460947",
       "https://jobs.smartrecruiters.com/BoschGroup/744000123611471",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000123612415"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123612415",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000123844909"
     ]
   },
   {
@@ -13488,6 +13505,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Intern---HBM-Software-Engineer_JR82921",
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Design-Engineer_JR91681",
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR83017",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293"
