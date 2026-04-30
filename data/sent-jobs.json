@@ -1,6 +1,84 @@
 [
   {
     "company": "Nokia",
+    "role": "Web Developer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34611",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Designer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34602",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Web Developer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34616",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Design Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34731",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Designer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34714",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "IP R&D Lab Technologist Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34806",
+    "location": "Kanata, Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Designer Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34982",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Tools and Automation SW Dev Intern/Co-op",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34606",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Nokia",
+    "role": "Software Tools Development Co-op/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34113",
+    "location": "Remote in Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/50A550C791/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 885,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nokia",
     "role": "Software Support Co-op/Intern",
     "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34603",
     "location": "Ottawa, ON, Canada",
