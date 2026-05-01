@@ -1,5 +1,134 @@
 [
   {
+    "company": "Vst",
+    "role": "Pricing and Offer Strategy – Artificial Intelligence (AI) Intern",
+    "link": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Pricing-and-Offer-Strategy---Artificial-Intelligence--AI--Intern_40015805",
+    "location": "Irving, Texas",
+    "id": 924,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing or a recent graduate of a Bachelor\ns or Master\ns degree in Finance, Economics, Data Science, Engineering, Mathematics, Computer Science, or a related quantitative field",
+        "Strong analytical and problem-solving skills, with the ability to work with large datasets and translate findings into business insights",
+        "Experience or coursework in data analysis, statistics, or financial modeling",
+        "Exposure to AI/ML concepts, automation tools, or prompt engineering is a strong plus",
+        "Skilled in using computer software applications such as Microsoft Office (required), SQL/Python (required), Tableau (preferred)",
+        "Familiarity with pricing, retail energy markets, or regulated industries is a plus but not required",
+        "Demonstrated ability to manage multiple priorities in a fast-paced, deadline-driven environment",
+        "Strong written and verbal communication skills, with the ability to present findings clearly to stakeholders",
+        "Detail-oriented with a high level of intellectual curiosity and willingness to learn",
+        "Interest in applying AI tools to real-world business problems"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Neuralink",
+    "role": "Software Engineer Intern, Robotics",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/5469305003?gh_jid=5469305003",
+    "location": "Austin, Texas, United States; Fremont, California, United States",
+    "id": 923,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Exceptional ability in engineering or computer science",
+        "Experience writing performant applications in system languages like C, C++, and Rust",
+        "Ability to work on mission-critical and safety-critical systems",
+        "Strong bias for action and first principles thinking",
+        "Hands-on experience with robotics or high-reliability systems",
+        "Experience coding and debugging in Linux systems",
+        "Experience in computer vision",
+        "Experience in kinematics and motion planning",
+        "Experience working on medical robots",
+        "Experience working in a high-precision environment"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Neuralink",
+    "role": "Software Engineer Intern, Implant",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/6569018003?gh_jid=6569018003",
+    "location": "Austin, Texas, United States; Fremont, California, United States",
+    "id": 922,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Fluent in Python, C, or Rust",
+        "Experienced with Linux/Unix systems and command line",
+        "Demonstrated exceptional ability in engineering, mathematics, or computer science",
+        "Strong understanding of engineering first principles",
+        "Strong intuition for production systems",
+        "Experienced developing software for safety-critical systems"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Neuralink",
+    "role": "Software Engineer Intern, BCI Applications",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/6594422003?gh_jid=6594422003",
+    "location": "Fremont, California, United States",
+    "id": 921,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong experience with full-stack development",
+        "Fluent in Swift, Objective-C, Kotlin, or Java",
+        "Experience architecting elegant, maintainable, performant, and reliable user-facing software applications",
+        "Demonstrated delivery of high-impact projects with clear metrics and fast iteration cycles",
+        "Exceptional ability in engineering",
+        "Strong understanding of engineering first principles",
+        "Resourceful, flexible, and adaptable",
+        "Excellent communication and collaboration skills",
+        "Currently pursuing a Bachelor’s degree in Computer Science or a related field",
+        "Experience with native desktop, Android, or iOS development",
+        "Strong experience in operating system knowledge, low latency concurrency programming, memory management, and networking"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Neuralink",
+    "role": "Embedded Software Engineer Intern, Implant Embedded Systems",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/6283663003?gh_jid=6283663003",
+    "location": "Fremont, California, United States",
+    "id": 920,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "2+ years of experience with embedded systems",
+        "Proficient in C/C++ and Python",
+        "Knowledge of MCU architectures, peripherals, and development environments",
+        "Comfortable reading electrical schematics and datasheets",
+        "Deep knowledge of embedded toolchains and workflow",
+        "Strong EE & DSP fundamentals",
+        "HW/SW debugging skills with lab equipment",
+        "Experience with embedded stacks for ARM cores",
+        "Experience with safety-critical systems",
+        "Experience with FPGA development and testing",
+        "Experience with RF, BLE, and TCP/IP stacks from a practical embedded perspective",
+        "Experience with applied cryptography and embedded systems security"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Micron",
     "role": "Intern - Validation Strategy AI/ML",
     "link": "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
