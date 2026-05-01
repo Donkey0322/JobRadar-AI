@@ -494,6 +494,7 @@
     "domain": "https://altera.wd1.myworkdayjobs.com/altera",
     "page": "https://altera.wd1.myworkdayjobs.com/wday/cxs/altera/altera/jobs",
     "urls": [
+      "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Development-Tools-Engineer---Intern_R02448",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Tools-Engineer---Intern_R02343",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/GenAI---Machine-Learning-Intern---Design-Automation--AI-Agents-_R02241",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-and-Software-Engineering-Intern_R02084",
@@ -1748,6 +1749,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/embed/jobs",
     "urls": [
       "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7293075&gh_jid=7293075",
+      "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125",
       "https://boards.greenhouse.io/embed/job_app?for=uberfreight&token=4961311008",
       "https://boards.greenhouse.io/embed/job_app?token=5776185004",
       "https://boards.greenhouse.io/embed/job_app?token=6562194",
@@ -2525,7 +2527,8 @@
     "urls": [
       "https://careers-cotiviti.icims.com/jobs/18285/job?mobile=true&needsRedirect=false",
       "https://careers-cotiviti.icims.com/jobs/18319/job?mobile=true&needsRedirect=false",
-      "https://careers-cotiviti.icims.com/jobs/18432/job?mobile=true&needsRedirect=false"
+      "https://careers-cotiviti.icims.com/jobs/18432/job?mobile=true&needsRedirect=false",
+      "https://careers-cotiviti.icims.com/jobs/19075/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -5969,6 +5972,8 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Intern---Data-Engineer_R-10393654",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Summer-Technology-Intern-Program_R-10393338",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10388735",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10390231",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10390263",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Summer-Internship-Program---Technology--Berkeley-Heights--NJ-_R-10390608",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Technology-Summer-Internship---Java-Developer--Berkeley-Heights--NJ-_R-10388114",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Technology-Summer-Internship-Program---Application-Development--Berkeley-Heights--NJ-_R-10382311",
@@ -9515,6 +9520,16 @@
     ]
   },
   {
+    "name": "vestwell",
+    "ats": "greenhouse",
+    "identifier": "vestwell",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/vestwell/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/vestwell/jobs/7722044003"
+    ]
+  },
+  {
     "name": "viamrobotics",
     "ats": "greenhouse",
     "identifier": "viamrobotics",
@@ -9828,6 +9843,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/Lambda",
     "urls": [
       "https://jobs.ashbyhq.com/Lambda/264f889c-38f4-42a5-9534-064a9512a3fe"
+    ]
+  },
+  {
+    "name": "MUBI",
+    "ats": "ashby",
+    "identifier": "MUBI",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/MUBI",
+    "urls": [
+      "https://jobs.ashbyhq.com/MUBI/342a53eb-345f-4172-9264-e26237792c24/application"
     ]
   },
   {
@@ -12203,6 +12228,7 @@
       "https://jobs.paccar.com/job/Kirkland-Summer-2026-Intern-Application-Developer-%28OH%29-WA-98033/1260990901/",
       "https://jobs.paccar.com/job/Mount-Vernon-Software-Engineering-Intern-Powertrain-Development-WA-98273-9671/1290590101/?ats=successfactors",
       "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1256156801/?ats=successfactors",
+      "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
       "https://jobs.paccar.com/job/Sunnyvale-2026-Summer-Internship-Advanced-Mobility-Tech-Engineering-CA-94089/1292877901/?ats=successfactors"
     ]
   },
@@ -12392,7 +12418,9 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000101380164",
       "https://jobs.smartrecruiters.com/GDMSI/744000102172913",
       "https://jobs.smartrecruiters.com/GDMSI/744000123537759",
-      "https://jobs.smartrecruiters.com/GDMSI/744000123546014"
+      "https://jobs.smartrecruiters.com/GDMSI/744000123546014",
+      "https://jobs.smartrecruiters.com/GDMSI/744000124175589",
+      "https://jobs.smartrecruiters.com/GDMSI/744000124175808"
     ]
   },
   {
@@ -14882,6 +14910,7 @@
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101032",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101036",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101251",
+      "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101291",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR100998",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101248",
       "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship--Application-Development_JR101289"
@@ -15492,6 +15521,7 @@
     "domain": "https://statestreet.wd1.myworkdayjobs.com/global",
     "page": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/global/jobs",
     "urls": [
+      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Architecture---Agentic-Automation--6-Months-Full-time-Internship--Jul--Dec-2026-_R-789474",
       "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer---Summer-Intern--CRD_R-784737",
       "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer-Intern--6-Month-intern--July--Dec_R-787596",
       "https://statestreet.wd1.myworkdayjobs.com/Global/job/London-England/XMLNAME-12-months-Internship-Program--eFX-Developer--Intern_R-779748",
