@@ -1,5 +1,30 @@
 [
   {
+    "company": "Caci",
+    "role": "Software Quality Engineer Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-Austin/Software-Quality-Engineer-Intern---Summer-2026_316652",
+    "location": "US TX Austin",
+    "id": 912,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled as a Sophomore, Junior, or Senior pursuing a Bachelor's or Master's degree in Electrical Engineering/Signal Processing, Physics, Math, Computer Science, or related field",
+        "Maintain a minimum 3.0 GPA",
+        "Demonstrate familiarity with hardware or software tools appropriate for academic level",
+        "Experience with Linux/Unix operating systems",
+        "Proficiency in shell or scripting languages (e.g., Python, Perl, Ruby, bash)",
+        "Knowledge of signal processing",
+        "Familiarity with virtual machine technologies",
+        "Understanding of system administration and network configuration",
+        "Experience with Continuous Integration"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Cohere",
     "role": "Software Engineer Intern/Co-op - Fall",
     "link": "https://jobs.ashbyhq.com/cohere/b6c994c7-a435-4fd7-975b-4fb2e10a1a30",
