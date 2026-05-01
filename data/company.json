@@ -10063,6 +10063,16 @@
     ]
   },
   {
+    "name": "cohere",
+    "ats": "ashby",
+    "identifier": "cohere",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+    "urls": [
+      "https://jobs.ashbyhq.com/cohere/b6c994c7-a435-4fd7-975b-4fb2e10a1a30"
+    ]
+  },
+  {
     "name": "conductorone",
     "ats": "ashby",
     "identifier": "conductorone",
