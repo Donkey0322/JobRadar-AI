@@ -1,5 +1,54 @@
 [
   {
+    "company": "Micron",
+    "role": "Intern - Validation Strategy AI/ML",
+    "link": "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
+    "location": "San Jose, CA",
+    "id": 919,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\nelor’s or Master\nelor’s degree in Computer Science, Data Science, Electrical/Computer Engineering, or a related technical field",
+        "Possess solid programming skills in Python and experience with libraries like NumPy, pandas, and scikit-learn",
+        "Have strong understanding of machine learning fundamentals, algorithms, model training, and evaluation techniques",
+        "Develop robust analytical and problem-solving skills grounded in mathematics and statistics",
+        "Ability to work effectively in a collaborative engineering environment and communicate technical concepts clearly",
+        "Gain experience with machine learning frameworks such as TensorFlow or PyTorch and advanced data analysis libraries",
+        "Complete prior hands-on projects or coursework in machine learning, data science, or artificial intelligence",
+        "Be familiar with embedded systems, firmware, or hardware testing processes",
+        "Have exposure to software development tools and practices such as Git and agile methodologies"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Snorkel AI",
+    "role": "Software Engineer —  Summer Intern",
+    "link": "https://job-boards.greenhouse.io/snorkelai/jobs/5774350004",
+    "location": "Redwood City, CA (Hybrid)",
+    "id": 918,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop customer solutions and platform improvements",
+        "Analyze objectives and evaluate results",
+        "Design new features and improve product experiences",
+        "Pursue a BS/MS/PhD in Computer Science or related field",
+        "Available to work full time for a minimum of 12 weeks",
+        "Skilled in Software Development and coding in Python and/or JavaScript",
+        "Experienced with large, collaborative coding projects",
+        "Possess strong technical communication skills and work in a fast-paced environment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Tesla",
     "role": "Software Engineering, People Systems",
     "link": "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",

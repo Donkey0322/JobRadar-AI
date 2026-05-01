@@ -827,7 +827,8 @@
     "page": "https://aptiv.wd5.myworkdayjobs.com/wday/cxs/aptiv/aptiv_careers/jobs",
     "urls": [
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Cupertino-CA---USA/Engineering-Intern_9819",
-      "https://aptiv.wd5.myworkdayjobs.com/en-US/APTIV_CAREERS/job/Troy-MI---USA/Software-Development-Intern_J000687918"
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/APTIV_CAREERS/job/Troy-MI---USA/Software-Development-Intern_J000687918",
+      "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/Troy-MI---USA/Software-Test-Engineering-Intern_J000685610"
     ]
   },
   {
@@ -2419,6 +2420,7 @@
     "page": "https://api.icims.com/v1/companies/axway/jobs",
     "urls": [
       "https://careers-axway.icims.com/jobs/8657/job?mobile=true&needsRedirect=false",
+      "https://careers-axway.icims.com/jobs/8658/cloud-systems-engineer%2c-internship/job",
       "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"
     ]
   },
@@ -9162,7 +9164,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/snorkelai/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/snorkelai/jobs/5752694004"
+      "https://job-boards.greenhouse.io/snorkelai/jobs/5752694004",
+      "https://job-boards.greenhouse.io/snorkelai/jobs/5774350004"
     ]
   },
   {
@@ -10892,6 +10895,16 @@
     ]
   },
   {
+    "name": "vital-lyfe",
+    "ats": "ashby",
+    "identifier": "vital-lyfe",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/vital-lyfe",
+    "urls": [
+      "https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af"
+    ]
+  },
+  {
     "name": "whatnot",
     "ats": "ashby",
     "identifier": "whatnot",
@@ -11678,6 +11691,16 @@
     "page": "https://api.lever.co/v0/postings/magnetforensics?mode=json",
     "urls": [
       "https://jobs.lever.co/magnetforensics/c1b6a556-e988-4d43-bd57-7441a0a3654e/apply"
+    ]
+  },
+  {
+    "name": "make-rain",
+    "ats": "lever",
+    "identifier": "make-rain",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/make-rain?mode=json",
+    "urls": [
+      "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"
     ]
   },
   {
@@ -13543,6 +13566,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR83017",
       "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274",
+      "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293"
     ]
@@ -14793,6 +14817,16 @@
       "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Software-Engineer-Intern_JR_047857",
       "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Software-Engineer-Intern_JR_048216",
       "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/San-Diego-CA-United-States/Software-Engineering-Intern_JR_047854"
+    ]
+  },
+  {
+    "name": "resolvetech",
+    "ats": "workday",
+    "identifier": "resolvetech-rts",
+    "domain": "https://resolvetech.wd1.myworkdayjobs.com/rts",
+    "page": "https://resolvetech.wd1.myworkdayjobs.com/wday/cxs/resolvetech/rts/jobs",
+    "urls": [
+      "https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/Managed-Cloud-Delivery-Intern_R1226"
     ]
   },
   {
@@ -17769,6 +17803,7 @@
       "https://www.tesla.com/careers/search/job/261076?tags=organicjob",
       "https://www.tesla.com/careers/search/job/267767?jr_id=69dd6930bc6f6622c9912106",
       "https://www.tesla.com/careers/search/job/internship-operational-automation-engineer-residential-energy-winter-spring-2026-254150",
+      "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
       "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819"
     ]
   },
