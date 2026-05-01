@@ -1,5 +1,313 @@
 [
   {
+    "company": "General Dynamics UK",
+    "role": "Software Developer Co-op",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000124175808",
+    "location": "Halifax Regional Municipality, NS, Canada",
+    "season": "2026 Fall",
+    "id": 938,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a university degree in Electrical Engineering, Computer Engineering, Software Engineering, Computer Science or equivalent.",
+        "Possess strong written and verbal communication skills.",
+        "Be enthusiastic, willing to learn, and take ownership of assigned work.",
+        "Available to work a minimum term duration of 8+ months.",
+        "Ability to obtain and maintain a Canadian government security clearance.",
+        "Be eligible to work in Canada."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "General Dynamics UK",
+    "role": "Software Co-op",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000124175589",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 937,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a University Degree in Electrical, Computer, or Software Engineering, or Computer Science.",
+        "Possess strong written and verbal communication skills.",
+        "Be enthusiastic, willing to learn, and take ownership of assigned work.",
+        "Experience with or familiarity with AI/ML models.",
+        "Available for an 8+ month term duration.",
+        "Meet Canadian Controlled Goods program registration and security assessment requirements.",
+        "Obtain and maintain Canadian government security clearance.",
+        "Eligible to work in Canada."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Gemini",
+    "role": "Software Engineer Intern",
+    "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125",
+    "location": "NYC",
+    "season": "2026 Fall",
+    "id": 936,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Computer Engineering, or related field.",
+        "Passionate about blockchain, digital assets, and the Web3 industry.",
+        "Possess a solid understanding of core software engineering and coding concepts.",
+        "Be self-motivated and proactive.",
+        "Demonstrate strong communication skills.",
+        "Be open to feedback and committed to growth."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Vestwell",
+    "role": "AI Engineer Intern - Tech",
+    "link": "https://job-boards.greenhouse.io/vestwell/jobs/7722044003",
+    "location": "King of Prussia, PAAustin, TXNYC",
+    "season": "2026 Summer",
+    "id": 935,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Rising or current seniors, or recent graduates",
+        "Able to work in a hybrid capacity in New York City, Austin, or King of Prussia",
+        "Available for the full 10-week program (June 8 to August 10, 2026)",
+        "Proficient in at least one backend language (Python, TypeScript, or similar)",
+        "Foundational understanding of software development principles and SDLC",
+        "Familiar with version control (Git)",
+        "Strong analytical thinking and problem-solving skills",
+        "Clear written and verbal communication",
+        "Collaborative, proactive, and coachable working style",
+        "Experience with CRM platforms",
+        "Familiar with project management tools",
+        "Exposure to AI tools or workflow automation platforms",
+        "Prior internship, work, or relevant project experience",
+        "Knowledge of financial services, fintech, or retirement industry concepts",
+        "Hands-on experience with LLMs or AI frameworks",
+        "Prior internship or project experience in software engineering",
+        "Familiar with cloud platforms (AWS, GCP, or Azure)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cotiviti",
+    "role": "Temporary Intern - Agentic AI & Neural-Symbolic Systems - Healthcare",
+    "link": "https://careers-cotiviti.icims.com/jobs/19075/job?mobile=true&needsRedirect=false",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 934,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree in related field",
+        "Gain hands-on experience with Python or similar programming languages",
+        "Familiarity with LLMs / GenAI, including building projects",
+        "Demonstrate strong curiosity and learn quickly in ambiguous environments",
+        "Break down problems and iterate through experimentation",
+        "Communicate with others to exchange information",
+        "Solve problems and think critically",
+        "Complete tasks independently",
+        "Interpret data",
+        "Make timely decisions in a workflow context",
+        "Maintain focus",
+        "Assess accuracy and thoroughness of work",
+        "Learn new tasks and complete them efficiently",
+        "Remember and adhere to processes and protocols",
+        "Remain in a stationary position for prolonged periods",
+        "Perform repetitive motions involving wrists, hands, or fingers",
+        "Provide high-speed internet access and office setup",
+        "Provide a dedicated, secure work area"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Paccar",
+    "role": "IT Applications Intern - IT Applications",
+    "link": "https://jobs.paccar.com/job/Renton-Summer-Internship-IT-Applications-WA-98055/1389651133/?ats=successfactors",
+    "location": "Tukwila, WA",
+    "season": "2026 Summer",
+    "id": 933,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current or recent college graduate",
+        "Possess excellent written and verbal communication skills",
+        "Exhibit self-motivation and an energetic personality",
+        "Be team-oriented",
+        "Demonstrate flexibility in a dynamic, fast-paced environment",
+        "Work well independently or collaboratively",
+        "Proficient in PC skills, including Microsoft Office Suite",
+        "Currently enrolled in an undergraduate program",
+        "Prefer junior or senior academic standing"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Delta Dental",
+    "role": "Application Development Intern",
+    "link": "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101291",
+    "location": "East Lansing, MI",
+    "season": "2026 Summer",
+    "id": 932,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Work on large-scale enterprise business application platforms",
+        "Build AI proof-of-concepts",
+        "Contribute to next-generation platforms",
+        "Gain experience with modern system architecture",
+        "Apply CS/Engineering fundamentals to real-world problems",
+        "Communicate technical subjects to a business audience",
+        "Be self-motivated and a team contributor",
+        "Excel at problem-solving with strong analytical skills",
+        "Demonstrate programming experience in Java, Python, or C++",
+        "Possess knowledge of modern web development languages/frameworks",
+        "Experience with OpenAI, LLM frameworks",
+        "Show solid skills in data structures and algorithms",
+        "Understand software architecture and OO design patterns",
+        "Currently enrolled in an undergraduate or graduate program"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10390231",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 931,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree in a technology field, graduating Dec 2026 - June 2028.",
+        "Maintain a 3.0+ GPA.",
+        "Possess 0-2 years of professional work experience.",
+        "Have knowledge of Java, Spring Boot, and MySQL.",
+        "Be familiar with Atlassian tools like JIRA, Confluence, and Bitbucket.",
+        "Possess advanced knowledge of Excel and PowerPoint.",
+        "Gain experience working in a fast-paced environment.",
+        "Demonstrate flexibility to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10390263",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 930,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's degree with an expected graduation between December 2026 and June 2028 in Computer Science, Data Science, MIS, Cybersecurity, Technical Project Management, or other Technology Degrees.",
+        "Maintain a 3.0+ GPA.",
+        "Have 0-2 years of professional work experience.",
+        "Possess knowledge of Java, Springboot, and MySQL.",
+        "Be familiar with Atlassian tools such as JIRA, Confluence, and BitBucket.",
+        "Demonstrate advanced knowledge of Excel and PowerPoint.",
+        "Exhibit experience in fast-paced environments and adaptability to changing priorities."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "MUBI",
+    "role": "AI Transformation Intern",
+    "link": "https://jobs.ashbyhq.com/MUBI/342a53eb-345f-4172-9264-e26237792c24/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 929,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Partner with various teams to map out administrative tasks",
+        "Design and deploy smart solutions using AI tools",
+        "Build and refine solutions to reduce manual time",
+        "Maintain organized documentation of new processes",
+        "Natural drive to find efficiencies in complex workflows",
+        "Passion for making systems run better",
+        "Strong technical background and ability to navigate AI tools",
+        "Ability to rebuild messy administrative processes into streamlined ones",
+        "Background in Computer Science or a related field",
+        "Enjoyment of working with others",
+        "Ability to translate technical solutions into easy-to-use tools"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "State Street",
+    "role": "Business Architecture & Agentic Automation Intern",
+    "link": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Architecture---Agentic-Automation--6-Months-Full-time-Internship--Jul--Dec-2026-_R-789474",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 928,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's or Master's degree in Computer Science, AI, Data Science, or related field.",
+        "Possess strong programming fundamentals (Python, JavaScript, or similar).",
+        "Have interest in AI-driven systems and agentic automation.",
+        "Comfortable with experimentation and ambiguity.",
+        "Possess strong documentation and communication skills.",
+        "Experienced with AI agents, orchestration frameworks, or workflow automation.",
+        "Exposed to LLMs, prompt engineering, or APIs.",
+        "Experienced with rapid prototyping or research projects."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altera Corporation",
+    "role": "FPGA Development Tools Engineer Intern 🎓",
+    "link": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Development-Tools-Engineer---Intern_R02448",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 927,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a PhD in Electrical & Computer Engineering",
+        "Develop software support for successful routing of next-generation FPGA devices",
+        "Proficient in device modeling, timing closure, and runtime",
+        "Implement new features and fix existing ones in a large codebase"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "True Anomaly",
     "role": "Flight Software Intern",
     "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5047530007",

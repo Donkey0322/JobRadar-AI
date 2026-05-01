@@ -1,0 +1,107 @@
+{
+  "id": "744000124175589",
+  "name": "Co-op Fall 2026 - Software Developer - 8 Months",
+  "uuid": "3d0b28df-9360-47d8-9175-0acd34868bdb",
+  "jobId": "044f6032-94fd-4d8c-b421-396f1c0be3d9",
+  "jobAdId": "0d19a12d-4100-4d98-be0b-e6931d0ae57f",
+  "defaultJobAd": true,
+  "refNumber": "REF1240F",
+  "company": {
+    "name": "General Dynamics Missions System International",
+    "identifier": "GDMSI"
+  },
+  "location": {
+    "city": "Ottawa",
+    "region": "ON",
+    "country": "ca",
+    "address": "1941 Robertson Road",
+    "postalCode": "K2H 5B7",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "45.3281309",
+    "longitude": "-75.8259704",
+    "fullLocation": "Ottawa, ON, Canada"
+  },
+  "customField": [
+    {
+      "fieldId": "64791a5d4769c1356cbdf914",
+      "fieldLabel": "Employment Type",
+      "valueId": "13d603b3-b6e8-4499-a7cb-d9c1d6b0b50f",
+      "valueLabel": "Fulltime-Temporary"
+    },
+    {
+      "fieldId": "653a9d0277e2434834993067",
+      "fieldLabel": "Work Group",
+      "valueId": "ba07194b-44d3-4d13-b9e3-792525c52034",
+      "valueLabel": "NB"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "ca",
+      "valueLabel": "Canada"
+    },
+    {
+      "fieldId": "640efc2ab8145a4e44523d82",
+      "fieldLabel": "Brands",
+      "valueId": "0fbdf90a-9775-460d-93fb-0366a1b1519c",
+      "valueLabel": "General Dynamics Mission Systems - Canada"
+    },
+    {
+      "fieldId": "64791bf1671abc67852f856f",
+      "fieldLabel": "Number of Openings",
+      "valueLabel": "2"
+    }
+  ],
+  "releasedDate": "2026-05-01T19:13:49.038Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/GDMSI/744000124175589-co-op-fall-2026-software-developer-8-months",
+  "applyUrl": "https://jobs.smartrecruiters.com/GDMSI/744000124175589-co-op-fall-2026-software-developer-8-months?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/GDMSI/publication/3d0b28df-9360-47d8-9175-0acd34868bdb?dcr_ci=GDMSI",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><em>Build bold. Deliver impact. Win together.</em></p><p>At General Dynamics Mission Systems–Canada, we’re not just engineering technology — we’re shaping the future of defence and security. Our teams design and deliver advanced, mission-critical solutions that enhance national security, strengthen communities, and protect the people we serve.</p><p>If you’re looking for meaningful work that contributes to a safer, more secure world, you’ll find purpose here. Every day, your skills will directly impact programs that matter.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>As a Software Co-op Student, you will be working with a diverse and experienced team of engineering professionals, you will follow Scrum practices while learning and supporting the Software Development Life Cycle from our technical leads. This may be the perfect opportunity for you if you are passionate about developing and implementing the best software and systems in the industry and working with leading edge technology and versatile tools!</p><p>The responsibilities and range of activities will vary, but in general you can expect to:</p><ul><li>Perform some design, analysis and test functions under the mentorship of more senior engineers.</li><li>Document analyses, designs and tests (e.g., tech notes, sections of requirements specifications, design documents, test plans and test reports) in the format prescribed by standard templates with the supervision of a more experienced engineer.</li><li>Implement software routines to meet software requirements.</li><li>Maintain code base in accordance with coding standards.</li><li>Some development and performance of integration test and debug of implementations.</li><li>Some development and performance of design verification test under the supervision of more senior engineers.</li><li>Investigate system problem reports and field incident reports; perform root cause and trend analyses;</li><li>Provide technical support during high-level integration and qualification testing.</li><li>Provide technical support to internal customers.</li><li>Perform developmental configuration management activities.</li><li>Present&#xa0;work at design reviews or other types of peer reviews.</li><li>Some travel may be required to support internal and external customers.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Pursuing a University Degree in Electrical Engineering, Computer Engineer, Software Engineer, Computer Science or equivalent technical degree.</li><li>Strong written and verbal communication skills.</li><li>Enthusiastic, willing to learn, and takes ownership of assigned work.</li><li>Experience working with or familiarity with AI/ML models is preferred.</li><li>Available for a term duration of 8+ months.</li></ul><p>It is a requirement that General Dynamics Mission Systems–Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation&#xa0;</strong><br>\nThe expected hourly rate for this position is $21.20 – $33.23. Final compensation will be determined based on your relevant work experience to date. As part of student placement, you will be eligible for quarterly pay increases.</p><p><strong>Why Students Love Working Here</strong></p><ul><li><strong>Purposeful Innovation &amp; Problem Solving:</strong>&#xa0;You’ll work alongside experienced professionals and some of the brightest minds in the defence sector, gaining hands-on experience with next-generation technologies. This is a place where your ideas are encouraged, creativity is valued, and you’ll be supported as you learn and help drive modern, practical solutions.</li><li><strong>Connection &amp; Mentorship:</strong>&#xa0;Through onboarding to your career journey with us, you will work with teammates that are excited to share their experience and develop your skills. Have meaningful interactions, ask questions, and build relationships that can lead to lasting industry connections.</li><li><strong>Perks &amp; Highlights:</strong><ul><li>Eligibility for future co-ops or full-time roles</li><li>Flexible work hours and compressed workweek options</li><li>Hybrid work model (where applicable)</li><li>Networking opportunities across teams and disciplines</li><li>Onsite amenities and social events (gym,&#xa0;trivia, appreciation events, etc.)</li><li>Corporate discounts</li></ul></li></ul><p><strong>Accommodation&#xa0;</strong><br>\nIf you require accommodation during any stage of the application process, please contact Human Resources via <a href=\"mailto:recruitment@gd-ms.ca\" rel=\"noopener noreferrer\">recruitment@gd-ms.ca</a>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "defense_and_space",
+    "label": "Defense And Space"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
