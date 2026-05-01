@@ -742,6 +742,7 @@
       "https://apply.workable.com/al-warren-oil-company-inc/j/A390327878/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/A4487B349D/",
       "https://apply.workable.com/al-warren-oil-company-inc/j/A4487B349D/apply",
+      "https://apply.workable.com/al-warren-oil-company-inc/j/A5EE78BFCF/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/A68048F493/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/A99A525BB2/apply",
       "https://apply.workable.com/al-warren-oil-company-inc/j/AB15F1EA30/apply",
@@ -2669,7 +2670,9 @@
       "https://careers-gdms.icims.com/jobs/72207/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72208/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/72229/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/72240/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/72240/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72380/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/72386/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -3344,7 +3347,8 @@
       "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944733/?ats=successfactors",
       "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944833/?ats=successfactors",
       "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1382944933/?ats=successfactors",
-      "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1383322133/?ats=successfactors"
+      "https://careers.dovercorporation.com/job/Austin-Engineer,-Software-Intern-TX-78728/1383322133/?ats=successfactors",
+      "https://careers.dovercorporation.com/job/Austin-Software-Developer-Intern-TX-78737/1389386833/?ats=successfactors"
     ]
   },
   {
@@ -6461,6 +6465,7 @@
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/ITV-Specialist-Intern--Summer-2026-_R1011625",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1010497-1",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1010498-1",
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1012380",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern---C----Python--Git--Docker--8-months_R1010726",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--12-or-16months-_R1009576",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Summer-2026-_R1011747",
@@ -7054,6 +7059,7 @@
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280837",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280843",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0281251-1",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Density-Fill-Development-Engineer-Intern_JR0281342",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer-Intern_JR0281270",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Intern---Graduate-Software-Application-Development_JR0283166",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Agentic-AI-Software-Research-Intern_JR0282977",
@@ -7722,6 +7728,16 @@
     "urls": [
       "https://job-boards.greenhouse.io/commvault/jobs/5051679008",
       "https://job-boards.greenhouse.io/commvault/jobs/5051703008"
+    ]
+  },
+  {
+    "name": "constantcontact",
+    "ats": "greenhouse",
+    "identifier": "constantcontact",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/constantcontact/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/constantcontact/jobs/7862452"
     ]
   },
   {
@@ -13295,22 +13311,23 @@
   {
     "name": "marmon",
     "ats": "workday",
+    "identifier": "marmon-marmon_careers",
+    "domain": "https://marmon.wd501.myworkdayjobs.com/marmon_careers",
+    "page": "https://marmon.wd501.myworkdayjobs.com/wday/cxs/marmon/marmon_careers/jobs",
+    "urls": [
+      "https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Oakville-ON/Java-UI-Developer-Co-op_JR0000042788",
+      "https://marmon.wd501.myworkdayjobs.com/en-US/Marmon_Careers/job/Milwaukee-WI/Digital-Production-Engineering-Intern-OR-Student-Co-Op_JR0000037451-2"
+    ]
+  },
+  {
+    "name": "marmon",
+    "ats": "workday",
     "identifier": "marmon-marmon_msip_internships",
     "domain": "https://marmon.wd501.myworkdayjobs.com/marmon_msip_internships",
     "page": "https://marmon.wd501.myworkdayjobs.com/wday/cxs/marmon/marmon_msip_internships/jobs",
     "urls": [
       "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Cullman-AL/Engineering-Intern---Summer-2026_JR0000037705-3",
       "https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Cullman-AL/Engineering-Intern---Summer-2026_JR0000037708-3"
-    ]
-  },
-  {
-    "name": "marmon",
-    "ats": "workday",
-    "identifier": "marmon-marmon_careers",
-    "domain": "https://marmon.wd501.myworkdayjobs.com/marmon_careers",
-    "page": "https://marmon.wd501.myworkdayjobs.com/wday/cxs/marmon/marmon_careers/jobs",
-    "urls": [
-      "https://marmon.wd501.myworkdayjobs.com/en-US/Marmon_Careers/job/Milwaukee-WI/Digital-Production-Engineering-Intern-OR-Student-Co-Op_JR0000037451-2"
     ]
   },
   {
