@@ -1,5 +1,28 @@
 [
   {
+    "company": "Stripe",
+    "role": "PhD Data Scientist, Intern",
+    "link": "https://stripe.com/jobs/search?gh_jid=7874965",
+    "location": "San Francisco, New York City, Seattle, Chicago",
+    "id": 925,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a quantitative PhD program",
+        "Experience with a scientific computing language and SQL",
+        "Knowledge and hands-on experience in machine learning, statistics, optimization, product analytics, causal inference, or experimentation",
+        "Experience communicating and collaborating with multidisciplinary stakeholders",
+        "Experience writing and debugging data pipelines",
+        "Demonstrated ability to evaluate and receive feedback",
+        "Ability to learn new systems and form an understanding"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Vst",
     "role": "Pricing and Offer Strategy – Artificial Intelligence (AI) Intern",
     "link": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Pricing-and-Offer-Strategy---Artificial-Intelligence--AI--Intern_40015805",
