@@ -1,5 +1,33 @@
 [
   {
+    "company": "True Anomaly",
+    "role": "Flight Software Intern",
+    "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5047530007",
+    "location": " Long Beach, CA",
+    "id": 926,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\n’s degree in CS, EE, CE, or related field.",
+        "Experience with embedded, low-level, or real-time systems through coursework or projects.",
+        "Familiar with C/C++ and basic Python for scripting, testing, or tooling.",
+        "Exposed to operating systems or real-time concepts.",
+        "Able to learn quickly, take feedback, and collaborate effectively.",
+        "Previous experience in embedded software or robotics systems.",
+        "Familiar with embedded interfaces and protocols (SPI, I2C, CAN, UART, Ethernet).",
+        "Exposed to Linux or embedded Linux environments.",
+        "Experienced with version control systems (Git) in a team or project setting.",
+        "Comfortable with embedded toolchains, cross-compilers, debuggers, and IDEs.",
+        "Interested in space systems, autonomous systems, robotics, or mission-critical software.",
+        "Hands-on experience with microcontrollers, single-board computers, or hardware bring-up."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Stripe",
     "role": "PhD Data Scientist, Intern",
     "link": "https://stripe.com/jobs/search?gh_jid=7874965",
