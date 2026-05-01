@@ -1,0 +1,54 @@
+{
+  "jobPostingInfo": {
+    "id": "b227ef684a8610010690b27f78060000",
+    "title": "Software Test Engineering Intern",
+    "jobDescription": "<p><b>Software Test Engineering Intern – ASUX </b></p><p></p><p>Aptiv is a global technology company that develops safer, greener, and more connected solutions for the automotive industry. We&#39;re at the forefront of driving innovation in mobility, working with leading automakers to shape the future of transportation. If you&#39;re passionate about cutting-edge technology and want to help create the future of mobility, Aptiv is the place for you.</p><p></p><p><b>Your Role</b></p><p>As a Software Test Engineering Intern with ASUX North America, you’ll be part of a team focused on software-level verification for advanced automotive systems. You’ll contribute to STLA and Ford programs, ensuring software stability and maturity before integration into vehicles. This role offers hands-on experience, mentorship, and exposure to cutting-edge tools and practices in the automotive industry.</p><p></p><p><b>What You’ll Do: </b></p><ul><li>Learn and apply software verification methods using IPG CarMaker in virtual environments.</li><li>Explore DevOps practices, AI-driven test case development, and advanced automation techniques.</li><li>Develop coding skills in Python, YAML, C&#43;&#43;, and Simulink.</li><li>Collaborate with experienced engineers and participate in team events and open houses.</li><li>Work on Ford DAT2.5 Project, which includes:<ul><li>Understanding test frameworks, AI models, and tools.</li><li>Using GIT repositories and implementing branch strategies.</li><li>Leveraging AI to generate and manage test cases for a reusable test suite library.</li></ul></li></ul><p></p><p><b>What You’ll Need:</b></p><ul><li>Enrolled in a degree program in Software Engineering, or related field.</li><li>Interest in software testing and automotive systems.</li><li>Basic knowledge of programming (Python, C&#43;&#43;, or similar).</li><li>Familiarity with version control tools like GIT is a plus.</li><li>Strong problem-solving skills and willingness to learn.</li><li>Ability to work collaboratively in a team environment.</li></ul><p></p><p><b>What’s In It For You:</b></p><ul><li>Gain hands-on experience working on real-world projects that impact the future of mobility.</li><li>Work alongside industry experts who are driving innovation in automotive safety and user experience.</li><li>Be part of a dynamic and inclusive work environment that fosters creativity and collaboration.</li><li>Opportunity for full-time employment or future internships at Aptiv based on performance<b>.</b></li></ul><p></p><p><b>Why join us?</b></p><ul><li><b>You can grow at Aptiv.</b> Aptiv provides an inclusive work environment where all individuals can grow and develop, regardless of gender, ethnicity or beliefs.</li><li><b>You can have an impact</b>. Safety is a core Aptiv value; we want a safer world for us and our children, one with: Zero fatalities, Zero injuries, Zero accidents.</li><li><b>You have support</b>. We ensure you have the resources and support you need to take care of your family and your physical and mental health with a competitive health insurance package.</li></ul><p></p><p><b>Your Benefits at Aptiv:</b></p><ul><li>Holiday Paid Time Off</li><li>Relocation assistance may be available</li><li>Discount programs with various manufacturers and retailers</li><li>Muti-discipline experience in an Automotive product design and manufacturing major supplier </li><li>Meaningful work that makes a difference in the world </li><li>Learning and development opportunities</li><li>Opportunities to give back to the community</li></ul><p></p><p><b>Apply today, and together let’s change tomorrow! </b></p><p></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Privacy Notice - Active Candidates: <a href=\"https://www.aptiv.com/privacy-notice-active-candidates\" target=\"_blank\"><span class=\"WIA2\">https://www.aptiv.com/privacy-notice-active-candidates</span></a></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span>Aptiv is an equal employment opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, sex, gender identity, sexual orientation, disability status, protected veteran status or any other characteristic protected by law.</span></p>",
+    "location": "Troy, MI - USA",
+    "postedOn": "Posted 7 Days Ago",
+    "startDate": "2026-04-24",
+    "timeType": "Full time",
+    "jobReqId": "J000685610",
+    "jobPostingId": "Software-Test-Engineering-Intern_J000685610",
+    "jobPostingSiteId": "APTIV_CAREERS",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA Troy Offices",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/Troy-MI---USA/Software-Test-Engineering-Intern_J000685610",
+    "questionnaireId": "dcbfc240583a1001eced93888e0d0000"
+  },
+  "hiringOrganization": {
+    "name": "USA Aptiv US Services General Partnership",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Project Engineer",
+      "externalPath": "/job/Troy-MI---USA/Project-Engineer_J000694054",
+      "timeType": "Full time",
+      "locationsText": "Troy, MI - USA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-07"
+    },
+    {
+      "title": "Project Engineer",
+      "externalPath": "/job/Troy-MI---USA/Project-Engineer_J000694055-1",
+      "timeType": "Full time",
+      "locationsText": "Troy, MI - USA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-26"
+    }
+  ],
+  "userAuthenticated": false
+}

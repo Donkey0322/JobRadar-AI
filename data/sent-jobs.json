@@ -1,5 +1,135 @@
 [
   {
+    "company": "Tesla",
+    "role": "Software Engineering, People Systems",
+    "link": "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
+    "location": "Palo Alto, CA",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Aptiv",
+    "role": "Software Test Engineering Intern",
+    "link": "https://aptiv.wd5.myworkdayjobs.com/en-US/aptiv_careers/job/Troy-MI---USA/Software-Test-Engineering-Intern_J000685610",
+    "location": "Troy, MI",
+    "season": "2026 Summer",
+    "id": 917,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a degree program in Software Engineering or a related field.",
+        "Interested in software testing and automotive systems.",
+        "Possess basic programming knowledge (Python, C++, or similar).",
+        "Familiar with version control tools like GIT.",
+        "Strong problem-solving skills and willingness to learn.",
+        "Ability to work collaboratively in a team environment.",
+        "Learn and apply software verification methods using IPG CarMaker.",
+        "Explore DevOps practices, AI-driven test case development, and advanced automation.",
+        "Develop coding skills in Python, YAML, C++, and Simulink.",
+        "Collaborate with experienced engineers and participate in team events.",
+        "Understand test frameworks, AI models, and tools.",
+        "Use GIT repositories and implement branch strategies.",
+        "Leverage AI to generate and manage test cases."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Rainmaker",
+    "role": "Software Engineering Intern",
+    "link": "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b",
+    "location": "El Segundo, CA",
+    "season": "2026 Summer",
+    "id": 916,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Computer science student",
+        "Motivated to turn real-world data into useful software",
+        "Be fast, thoughtful, inquisitive, autonomous, and flexible",
+        "Willing to relocate to El Segundo, California",
+        "Strong Python fundamentals",
+        "Comfortable working with data, APIs, and SQL",
+        "Interested in geospatial, atmospheric, or sensor data",
+        "Possess good debugging skills and willingness to work across systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Resolve Tech Solutions",
+    "role": "Managed Cloud Delivery Intern",
+    "link": "https://resolvetech.wd1.myworkdayjobs.com/en-US/rts/job/Addison-TX/Managed-Cloud-Delivery-Intern_R1226",
+    "location": "Addison, TX",
+    "season": "2026 Summer",
+    "id": 915,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s degree in IT, Computer Science, Engineering, or related field",
+        "Strong interest in cloud computing, infrastructure, or managed services",
+        "Basic understanding of cloud platforms (AWS, Azure, Google Cloud)",
+        "Familiarity with operating systems (Windows/Linux) and basic networking concepts",
+        "Proficient in Microsoft Office (Excel, PowerPoint, Word)",
+        "Possess strong analytical, organizational, and problem-solving skills",
+        "Ability to learn quickly and adapt in a fast-paced technical environment",
+        "Strong written and verbal communication skills",
+        "Ability to work collaboratively in a team environment",
+        "Align with RTS Core Values"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Vital Lyfe",
+    "role": "Software Engineering Internship",
+    "link": "https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af",
+    "location": "Los Angeles, CA",
+    "season": "2026 Summer",
+    "id": 914,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong programming fundamentals",
+        "Comfort learning new systems quickly",
+        "Experience with at least one modern programming language such as Python or TypeScript",
+        "Interest in software that supports real-world products and operations",
+        "Familiarity with APIs, web applications, or cloud-based systems",
+        "Practical and curious, with a habit of taking ownership and following through",
+        "Able to break down a problem, work through it, and know when to ask for help",
+        "Excited to work in a fast-paced environment where software and hardware intersect",
+        "Experience supporting or contributing to live backend systems",
+        "Background in building user-facing interfaces with React or a similar frontend framework",
+        "Exposure to SQL, structured data formats, and dashboards or data visualization tools",
+        "Familiarity with AWS or cloud infrastructure",
+        "Interest in manufacturing, hardware-software integration, or IoT systems"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Axway",
+    "role": "Cloud Systems Engineer, Internship",
+    "link": "https://careers-axway.icims.com/jobs/8658/cloud-systems-engineer%2c-internship/job",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 913,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Caci",
     "role": "Software Quality Engineer Intern - Summer 2026",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-TX-Austin/Software-Quality-Engineer-Intern---Summer-2026_316652",
