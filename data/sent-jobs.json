@@ -1,5 +1,30 @@
 [
   {
+    "company": "General Dynamics Mission Systems",
+    "role": "Software Engineer Entry Level Intern Conversion",
+    "link": "https://careers-gdms.icims.com/jobs/72380/job?mobile=true&needsRedirect=false",
+    "location": "Scottsdale, AZ",
+    "season": "2026 Summer",
+    "id": 911,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Require a Bachelor's degree in Software Engineering or a related STEM field",
+        "Possess agile experience",
+        "Able to obtain a Department of Defense Secret security clearance",
+        "Experience with development, debugging, and testing",
+        "Understand software engineering concepts, principles, theories, and agile methodology",
+        "Understand the software development process with agile experience",
+        "Able to grasp and apply new information quickly",
+        "Thrive as a team player in collaborative environments",
+        "Committed to ongoing professional development"
+      ],
+      "season": "New Grad"
+    }
+  },
+  {
     "company": "Dover",
     "role": "Software Developer Intern",
     "link": "https://careers.dovercorporation.com/job/Austin-Software-Developer-Intern-TX-78737/1389386833/?ats=successfactors",
