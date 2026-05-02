@@ -1,5 +1,63 @@
 [
   {
+    "company": "Trane Technologies",
+    "role": "Brainbox AI Intern",
+    "link": "https://careers.tranetechnologies.com/global/en/job/JR-3820",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 942,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a BS/BA degree in Computer Science, Data Science, Engineering, Business, or similar with a GPA of 3.0+.",
+        "Possess at least one internship or relevant work experience.",
+        "Demonstrate strong leadership skills in campus organizations, sports teams, or work projects.",
+        "Possess strong analytical, organizational, and complex problem-solving abilities.",
+        "Show adaptability, initiative, and a strong willingness to learn.",
+        "Communicate effectively with technical and non-technical audiences, translating insights into clear requirements.",
+        "Work effectively in cross-functional, fast-paced, and diverse team environments.",
+        "Be familiar with AI concepts, software development, building systems, or energy technologies.",
+        "Have experience with tools like Python, SQL, Jira, Asana, or similar (an asset).",
+        "Be willing to be mobile and relocate for future opportunities.",
+        "Possess interest in workflow automation, AI-enabled solutions, and process optimization.",
+        "Experience with project management or product management methodologies (a plus).",
+        "Familiarity with HVAC equipment, building automation, or energy management systems (an asset).",
+        "Be proficient with Excel, data analysis tools, and programming (Python, R, SQL).",
+        "Possess strong interpersonal skills and a collaborative mindset.",
+        "Demonstrate self-motivation, problem-solving, and critical thinking abilities.",
+        "Be analytical and detail-oriented to synthesize complex data and deliver actionable insights.",
+        "Be innovative, continuously seeking ways to improve systems, processes, and results.",
+        "Be customer-focused to understand needs and exceed expectations.",
+        "Be driven and results-oriented, taking initiative to deliver project objectives with quality and efficiency."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10390246",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 941,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be innovative and motivated",
+        "Learn coding, testing, and supporting application software",
+        "Collaborate with senior analysts and experienced teammates",
+        "Offer innovative suggestions",
+        "Participate in quality inspections",
+        "Support ongoing documentation of existing processes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "NewsBreak",
     "role": "Product Engineering Intern - Product Engineering",
     "link": "https://job-boards.greenhouse.io/newsbreak/jobs/4678159006",
