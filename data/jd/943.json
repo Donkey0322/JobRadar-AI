@@ -1,0 +1,69 @@
+{
+  "jobPostingInfo": {
+    "id": "65364a5250a61001ad31e37e78a20001",
+    "title": "RLS Intern - Technical Information & Documentation",
+    "jobDescription": "We are seeking a motivated and diligent Summer Intern to join our Robotics Lifecycle Services team. This position involves supporting the standardization, structuring, and quality improvement of technical information that underpins our robotics solutions across their lifecycle. This internship offers hands on exposure to user documentation processes, content management systems, and standard methodologies that support both human and technology-assisted use of technical content.<p></p><h1><b>We offer:</b></h1><p>Job Description</p><p>• Career Development</p><p>• Competitive Compensation and Benefits</p><p>• Pay Transparency</p><p>• Global Opportunities</p><p></p><p><b>Learn More Here:</b> <a href=\"https://www.dematic.com/en-us/about/careers/what-we-offer/\" target=\"_blank\">https://www.dematic.com/en-us/about/careers/what-we-offer/</a> </p><p>Dematic provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state, or local laws.</p><p>This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.</p><p>The base pay range for this role is estimated to be $19.00 - $25.00 per hour at the time of posting. Final compensation will be determined by various factors such as work location, education, experience, knowledge, and skills.</p><p style=\"text-align:inherit\"></p><h1><b>Tasks and Qualifications:</b></h1><p><b>What You Will Do in this Role:</b></p><ul><li>Support technical information standardization through re‑authoring and re‑verification of legacy and existing content</li><li>Transfer and structure technical information into the standardized CCMS, following defined content models</li><li>Apply content standards and guidelines to ensure consistency, clarity, and quality across migrated content</li><li>Support content preparation to enable reuse by people and AI‑based tooling</li></ul><p></p><p><b>What We are Looking For:</b></p><p></p><ul><li>Analytical thinking and attention to detail</li><li>Ability to understand and apply structured content models</li><li>Comfort working with technical information and standards</li><li>Interns with prior exposure to technical documentation, data structuring, or systems thinking</li></ul><p><span><span>-&gt; Field of study: </span></span></p><ul><li><b>Technical Communication / Technical Writing</b></li><li><b>Information Science / Information Management</b></li><li><b>Computer Science or Software Engineering</b> (with documentation or content focus)</li><li><b>Engineering (Robotics, Mechanical, Electrical, Industrial)</b> with strong writing skills</li></ul>",
+    "location": "Holland, MI, United States",
+    "additionalLocations": [
+      "Grand Rapids, MI, United States"
+    ],
+    "postedOn": "Posted 30 Days Ago",
+    "startDate": "2026-04-02",
+    "timeType": "Full time",
+    "jobReqId": "JR-0088330",
+    "jobPostingId": "RLS-Intern---Technical-Information---Documentation_JR-0088330-1",
+    "jobPostingSiteId": "KIONGroup",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/kiongroup/kiongroup/sidebarimage/ba00b4f3bf5010019c3ccba066680002",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Holland, MI, United States",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kiongroup.wd3.myworkdayjobs.com/KIONGroup/job/Holland-MI-United-States/RLS-Intern---Technical-Information---Documentation_JR-0088330-1",
+    "questionnaireId": "90b8915caea31001447e9ed62fa00000"
+  },
+  "hiringOrganization": {
+    "name": "Dematic Corp. (ILD-US)",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "RLS Intern - Process & Requirements Support",
+      "externalPath": "/job/Holland-MI-United-States/RLS-Intern---Process---Requirements-Support_JR-0088331",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-01"
+    },
+    {
+      "title": "RLS Process & Compliance Lead",
+      "externalPath": "/job/Holland-MI-United-States/RLS-Process---Compliance-Lead_JR-0088424-1",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-23"
+    },
+    {
+      "title": "Technical Writer",
+      "externalPath": "/job/Holland-MI-United-States/Technical-Writer_JR-0088229-1",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-16"
+    }
+  ],
+  "userAuthenticated": false
+}
