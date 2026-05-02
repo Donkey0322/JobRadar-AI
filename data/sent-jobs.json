@@ -1,5 +1,37 @@
 [
   {
+    "company": "Labelbox",
+    "role": "Forward Deployed Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/labelbox/jobs/5126745007",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 939,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Work on live client engagements",
+        "Write scripts for data processing",
+        "Build automated quality checks",
+        "Turn ambiguous requirements into concrete solutions",
+        "Read, extend, and improve existing code",
+        "Drive work independently",
+        "Possess strong Python skills for data work",
+        "Have hands-on familiarity with LLMs",
+        "Demonstrate strong analytical thinking",
+        "Exhibit strong written and verbal communication",
+        "Finish tasks thoroughly",
+        "Be a fast learner",
+        "Show high agency and ownership",
+        "Pursue Bachelor's or Master's in Computer Science, Engineering, Mathematics, or related field",
+        "Be genuinely curious about AI",
+        "Be receptive to feedback"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics UK",
     "role": "Software Developer Co-op",
     "link": "https://jobs.smartrecruiters.com/GDMSI/744000124175808",
