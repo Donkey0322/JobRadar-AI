@@ -8489,6 +8489,16 @@
     ]
   },
   {
+    "name": "labelbox",
+    "ats": "greenhouse",
+    "identifier": "labelbox",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/labelbox/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/labelbox/jobs/5126745007"
+    ]
+  },
+  {
     "name": "launchdarkly",
     "ats": "greenhouse",
     "identifier": "launchdarkly",
@@ -8712,6 +8722,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/mwinternshipprogram/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/mwinternshipprogram/jobs/7998360002"
+    ]
+  },
+  {
+    "name": "newsbreak",
+    "ats": "greenhouse",
+    "identifier": "newsbreak",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/newsbreak/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/newsbreak/jobs/4678159006"
     ]
   },
   {
