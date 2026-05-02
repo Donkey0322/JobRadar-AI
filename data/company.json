@@ -12973,6 +12973,16 @@
     ]
   },
   {
+    "name": "kiongroup",
+    "ats": "workday",
+    "identifier": "kiongroup-kiongroup",
+    "domain": "https://kiongroup.wd3.myworkdayjobs.com/kiongroup",
+    "page": "https://kiongroup.wd3.myworkdayjobs.com/wday/cxs/kiongroup/kiongroup/jobs",
+    "urls": [
+      "https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Holland-MI-United-States/RLS-Intern---Technical-Information---Documentation_JR-0088330-1"
+    ]
+  },
+  {
     "name": "kla",
     "ats": "workday",
     "identifier": "kla-annarbor",
