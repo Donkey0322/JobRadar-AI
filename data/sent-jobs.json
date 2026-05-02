@@ -1,5 +1,31 @@
 [
   {
+    "company": "NewsBreak",
+    "role": "Product Engineering Intern - Product Engineering",
+    "link": "https://job-boards.greenhouse.io/newsbreak/jobs/4678159006",
+    "location": "Mountain View, CA",
+    "season": "2026 Summer",
+    "id": 940,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Hold a BS, MS, or PhD in Computer Science, Engineering, or related fields from a top-tier university, MBA preferred.",
+        "Demonstrate strong coding ability.",
+        "Have 3+ years of working experience in Software engineering, ML engineering, Product/Growth/GTM/Monetization.",
+        "Possess a founder\nour's mindset and builder's mentality.",
+        "Exhibit strong problem-solving skills.",
+        "Demonstrate excellent communication, influencing, and interpersonal skills.",
+        "Exhibit strong executive presence with an ability to present thoughtful input to decision-making.",
+        "Previous founder or co-founder experience.",
+        "Existing network in the San Francisco Bay Area\nour's startup ecosystem.",
+        "Passionate about innovative technologies and artificial intelligence, with a strong pulse on key trends, themes, and players."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Labelbox",
     "role": "Forward Deployed Engineer Intern",
     "link": "https://job-boards.greenhouse.io/labelbox/jobs/5126745007",
