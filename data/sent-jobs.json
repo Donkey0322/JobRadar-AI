@@ -1,5 +1,40 @@
 [
   {
+    "company": "Copart",
+    "role": "Yard Engineer Intern",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108554",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 953,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent communication and team-building skills",
+        "Possess innate curiosity to learn and adapt to new tasks",
+        "Experience in HTML, SQL, and Java",
+        "Proficient in Microsoft Excel, Word, and PowerPoint",
+        "Past experience working as part of a collaborative team (Agile/DevOps)",
+        "Experience across the SDLC stages",
+        "Be an adaptable self-starter with minimal supervision",
+        "Able to juggle multiple projects and organize time effectively",
+        "Ability to work well with cross-functional teams",
+        "Operate and develop the entire technology stack",
+        "Design, develop, and test solutions to automate processes",
+        "Participate in requirements gathering and design",
+        "Participate in demos, code reviews, and retrospectives",
+        "Communicate ideas for team continuous improvement",
+        "Focus on delivering business priority and value",
+        "Participate in QA testing activities",
+        "Document technical designs and project documentation in Confluence",
+        "Applicable experience in Artificial Intelligence and Machine Learning",
+        "Front-end development utilizing API and webhook/websockets"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Wisk",
     "role": "Avionics Software Engineering Intern",
     "link": "https://wisk.wd108.myworkdayjobs.com/wisk_careers/job/Mountain-View-CA/Avionics-Software-Engineering-Intern_JR100394",
