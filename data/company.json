@@ -5619,7 +5619,8 @@
     "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12547",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13829"
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13829",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/15109"
     ]
   },
   {
@@ -16734,7 +16735,8 @@
     "domain": "https://wisk.wd108.myworkdayjobs.com/wisk_careers",
     "page": "https://wisk.wd108.myworkdayjobs.com/wday/cxs/wisk/wisk_careers/jobs",
     "urls": [
-      "https://wisk.wd108.myworkdayjobs.com/Wisk_Careers/job/Mountain-View-CA/Software-Engineering-Intern_JR100407"
+      "https://wisk.wd108.myworkdayjobs.com/Wisk_Careers/job/Mountain-View-CA/Software-Engineering-Intern_JR100407",
+      "https://wisk.wd108.myworkdayjobs.com/wisk_careers/job/Mountain-View-CA/Avionics-Software-Engineering-Intern_JR100394"
     ]
   },
   {
