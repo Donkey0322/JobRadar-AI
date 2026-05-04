@@ -1,5 +1,27 @@
 [
   {
+    "company": "Cloudflare",
+    "role": "Software Engineer Intern - Bengaluru",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7495538?gh_jid=7495538",
+    "location": "In-Office",
+    "id": 944,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Engineering, Mathematics, Statistics, or a relevant field.",
+        "Demonstrate critical thinking skills and drive to learn new technologies.",
+        "Possess curiosity, empathy, and ability to get things done.",
+        "Commit to a minimum 12-week summer internship.",
+        "Work in office 3-5 days a week in Bengaluru.",
+        "Demonstrate passion for software development, personal projects, or open-source contributions."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "KION Group",
     "role": "RLS Intern - Technical Information & Documentation",
     "link": "https://kiongroup.wd3.myworkdayjobs.com/kiongroup/job/Holland-MI-United-States/RLS-Intern---Technical-Information---Documentation_JR-0088330-1",
