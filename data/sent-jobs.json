@@ -1,5 +1,31 @@
 [
   {
+    "company": "Xebia",
+    "role": "Internship Program - Multiple Teams",
+    "link": "https://job-boards.greenhouse.io/xebiausa/jobs/5988141004",
+    "location": "Atlanta, GA",
+    "season": "2026 Summer",
+    "id": 972,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Work closely with experienced professionals.",
+        "Assist in research, analysis, documentation, and delivery.",
+        "Learn industry best practices, tools, and frameworks.",
+        "Collaborate with cross-functional teams.",
+        "Gain mentorship and continuous feedback.",
+        "Be a student or recent graduate in Engineering, Computer Science, IT.",
+        "Possess strong analytical, communication, and problem-solving skills.",
+        "Have a proactive mindset and willingness to learn.",
+        "Work independently as well as collaboratively.",
+        "Familiarity with Modern Coding languages and AI."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Modernizing Medicine",
     "role": "Software Engineering Intern",
     "link": "https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/XMLNAME-2026-Summer-Software-Engineering-Internships_R3905",
