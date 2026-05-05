@@ -9661,6 +9661,16 @@
     ]
   },
   {
+    "name": "xebiausa",
+    "ats": "greenhouse",
+    "identifier": "xebiausa",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/xebiausa/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/xebiausa/jobs/5988141004"
+    ]
+  },
+  {
     "name": "xometry",
     "ats": "greenhouse",
     "identifier": "xometry",
