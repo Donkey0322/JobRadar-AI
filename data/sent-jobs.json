@@ -1,5 +1,107 @@
 [
   {
+    "company": "IDEX",
+    "role": "Software Development Intern",
+    "link": "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Longwood-Florida/Software-Development-Intern_R-08950-1",
+    "location": "Altamonte Springs, FL",
+    "season": "2026 Summer",
+    "id": 976,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Computer Engineering or Computer Science with 3.0+ GPA.",
+        "Prior internship experience preferred.",
+        "Competent in PHP, syntax, functions, and best practices.",
+        "Competent in SQL database development and query optimization.",
+        "Proficient in HTML5, JavaScript, and CSS.",
+        "Knowledge of C/C++ preferred.",
+        "Knowledge of Linux programming preferred.",
+        "Knowledge of JSON / REST API development preferred.",
+        "Knowledge of multi-lingual and multi-regional product development preferred.",
+        "Demonstrate ability to take on higher responsibility.",
+        "Proficient in Docker, Docker Compose, Linux environments, and service orchestration.",
+        "Proficient in static analysis tools for code quality.",
+        "Experience integrating enterprise software with third-party tools.",
+        "Ability to modernize development workflows.",
+        "Ability to identify and resolve code quality issues.",
+        "Collaborate with cross-functional, global teams.",
+        "Design and implement Docker-based development environments.",
+        "Containerize core services including web UI, backend, and databases.",
+        "Configure mounted volumes to enable rapid development.",
+        "Analyze SonarQube reports to identify code quality issues.",
+        "Prioritize and resolve code quality issues.",
+        "Improve code maintainability, performance, and system reliability.",
+        "Contribute to documentation and best practices for containerization.",
+        "Resilient in the face of adversity and challenge.",
+        "Embrace and advocate for change.",
+        "Results-oriented team player, setting high goals.",
+        "Possess a strategic mindset, focusing on the big picture.",
+        "Skilled collaborator, building and leveraging networks.",
+        "Demonstrate learning agility and critical thinking."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Acxiom",
+    "role": "AI & Agentic Solutions Intern",
+    "link": "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/New-York/Intern---AI---Agentic-Solutions---Summer-2026_JR014151",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 975,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have a background in Computer Science, Software Engineering, Data Science, or related STEM field.",
+        "Possess a background in a business domain or curiosity to learn quickly.",
+        "Strong working knowledge of LLMs and prompt engineering.",
+        "Demonstrate understanding of prompt engineering, context, model selection, and evaluation.",
+        "Hands-on experience building agentic or autonomous AI systems.",
+        "Proficient in Python and familiar with an LLM orchestration framework.",
+        "Exceptional communication skills to translate insights.",
+        "Exhibit intellectual curiosity and comfort with ambiguity.",
+        "Exposed to RAG pipelines, vector databases, or knowledge retrieval.",
+        "Experience with API integration, workflow automation, or RPA platforms.",
+        "Understand responsible AI principles: bias, transparency, and safe deployment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cubic",
+    "role": "Intern Software Engineer",
+    "link": "https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers/job/San-Diego-California/Intern-Software-Engineer_REQ_48716",
+    "location": "San Diego, CA",
+    "season": "2026 Summer",
+    "id": 974,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Participate as a Device Software Integration team member",
+        "Support integration of feature development",
+        "Perform sanity testing of engineering releases",
+        "Perform software engineering duties including design, programming, testing, documentation, and support analysis",
+        "Perform problem analysis with guidance",
+        "Perform unit and integration testing on software",
+        "Review code written by other software engineers",
+        "Show commitment to company values and ethics",
+        "Enrolled in a two or four year college degree program in software development or engineering",
+        "Effectively communicate verbally and in writing",
+        "Excellent organization, analytical skills, and attention to detail",
+        "Follow written and verbal direction, and effectively interface with stakeholders",
+        "Perform tasks under work deadlines",
+        "Experienced with C++, C#, and/or JAVA programming languages"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Gen",
     "role": "AI- First Mobile Engineering Internship",
     "link": "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/AI--First-Mobile-Engineering-Internship_55289-1",
