@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "1109275c87de10014ecd9491ddc90001",
+    "title": "AI- First Mobile Engineering Internship",
+    "jobDescription": "<p>This is a hands-on engineering internship. You will work directly with experienced Android and iOS engineers on production-grade applications used by millions. You will contribute real code, participate in design discussions, and learn how AI is transforming modern mobile development. </p><p>This is not a shadowing role. You will ship! &#x1f680; </p><p></p><p><b>What You Will Do </b></p><p>· Contribute to Android or iOS features within large-scale consumer applications </p><p>· Write clean, maintainable, and testable code under mentorship </p><p>· Use AI development tools such as GitHub Copilot, Claude, Cursor, or similar to accelerate delivery and improve quality </p><p>· Participate in code reviews and technical discussions </p><p>· Learn modern mobile architecture patterns and best practices </p><p>· Collaborate with product, design, QA, and other engineers in a globally distributed team </p><p></p><p><b>What We Are Looking For </b></p><p>· Currently pursuing a degree in Computer Science, Software Engineering, or a related field </p><p>· Foundational knowledge of Android with Kotlin or iOS with Swift </p><p>· Understanding of basic software engineering principles, version control, clean code, testing fundamentals </p><p>· Curiosity about AI-assisted development and willingness to adopt AI as part of daily workflow </p><p>· Strong problem-solving mindset and willingness to ask questions </p><p>· Good communication skills and ability to work in a collaborative environment </p><p></p><p><b>Nice to Have </b></p><p>· Personal, academic, or open-source mobile projects </p><p>· Exposure to SwiftUI, UIKit, Kotlin, or modern Android frameworks </p><p>· Experience using AI coding assistants </p><p></p><p><b>What You Will Gain </b></p><p>· Real experience working on apps at global scale </p><p>· Exposure to AI-First software development practices </p><p>· Mentorship from senior mobile engineers </p><p>· Insight into how large mobile teams operate </p><p>· A strong foundation for a future career in mobile engineering</p><p></p><p></p><p><span>Gen is proud to be an equal-opportunity employer, committed to diversity and inclusivity. We base employment decisions on merit, experience, and business needs, without considering race, color, national origin, age, religion, sex, pregnancy, genetic information, disability, medical condition, marital status, sexual orientation, gender identity or expression, military or veteran status, or other unlawful factors. Gen prohibits discrimination based on these protected characteristics and recruits talented candidates from diverse backgrounds.</span></p><p><span> </span></p><p><span>We consider individuals with arrest and conviction records and do not discriminate against employees for discussing their own pay or that of other employees or applicants</span><span><span>. </span></span><a href=\"https://www.dol.gov/sites/dolgov/files/OFCCP/pdf/pay-transp_%20English_formattedESQA508c.pdf\" target=\"_blank\">Learn more about pay transparency</a><span><span>.</span> </span></p><p><span> </span></p><p>To conform to U.S. export control regulations, applicant should be eligible for any required authorizations from the U.S. Government.</p>",
+    "location": "CZE - Prague",
+    "additionalLocations": [
+      "CZE - Brno"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-05",
+    "timeType": "Full time",
+    "jobReqId": "55289",
+    "jobPostingId": "AI--First-Mobile-Engineering-Internship_55289-1",
+    "jobPostingSiteId": "careers",
+    "country": {
+      "descriptor": "Czechia",
+      "id": "fc078443155c4ad294201ecf5a61a499"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Prague, Czech",
+      "country": {
+        "descriptor": "Czechia",
+        "id": "fc078443155c4ad294201ecf5a61a499",
+        "alpha2Code": "CZ"
+      }
+    },
+    "remoteType": "Work from office",
+    "externalUrl": "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/AI--First-Mobile-Engineering-Internship_55289-1"
+  },
+  "hiringOrganization": {
+    "name": "4344 Avast Software s.r.o.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
