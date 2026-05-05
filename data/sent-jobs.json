@@ -1,5 +1,57 @@
 [
   {
+    "company": "Modernizing Medicine",
+    "role": "Software Engineering Intern",
+    "link": "https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/XMLNAME-2026-Summer-Software-Engineering-Internships_R3905",
+    "location": "Boca Raton, FL",
+    "season": "2026 Summer",
+    "id": 971,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science or related field",
+        "Maintain a GPA of 3.0 or higher",
+        "Ability to work in Boca Raton, Florida, on a hybrid basis",
+        "Strong problem-solving, communication, and collaboration skills",
+        "Be self-motivated, adaptable, and eager to learn",
+        "Experience with Java, Spring, Python, .NET",
+        "Experience with AWS, Docker, Kubernetes",
+        "Experience with SQL, Kafka",
+        "Experience with Grafana",
+        "Experience with Angular"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Compa",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/compa/4fd1ad65-040c-4740-aa05-c8170b9385ee/application",
+    "location": "Denver, CO",
+    "season": "2026 Summer",
+    "id": 970,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Completed data structures and algorithms courses.",
+        "Experienced in building software in group or side projects.",
+        "Comfortable working across the stack or specializing in frontend or backend.",
+        "Proven ability to work autonomously and follow through on commitments.",
+        "Pragmatic and thoughtful about trade-offs.",
+        "Strong communication and collaboration skills.",
+        "Familiar with Backend technologies like Django, Python.",
+        "Familiar with Frontend technologies like React, TypeScript, GraphQL.",
+        "Familiar with Infrastructure like AWS.",
+        "Familiar with tools like vLLM, Linear, Slack, Notion, Metabase."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "General Dynamics UK",
     "role": "Software Engineer Co-op - Software/Systems Engineering",
     "link": "https://jobs.smartrecruiters.com/GDMSI/744000124513451",
