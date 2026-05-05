@@ -4439,6 +4439,8 @@
       "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR108058",
       "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-intern_JR107698",
       "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Technology-Product-Analyst-Intern_JR105106",
+      "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108552",
+      "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108553",
       "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108554",
       "https://copart.wd12.myworkdayjobs.com/en-US/Copart/details/Mobile-Developer-Intern--AI---ML-_JR104180?workerSubType=642abc1e87ca10098af3a23fe5090000"
     ]
@@ -5714,6 +5716,7 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32830",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34113",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34116",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34227",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34296",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34472",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34546",
@@ -7037,11 +7040,14 @@
     "page": "https://intactfc.wd3.myworkdayjobs.com/wday/cxs/intactfc/intactfc/jobs",
     "urls": [
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/AI-Developer-I---4-Month-Co-op-Internship--Summer-2026-_R150948",
+      "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/AI-Developer-I---4-months-Internship-Coop--Fall-2026-_R153333",
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/Mobile-Application-Developer---4-months-Internship-Coop--Summer-2026-_R151283",
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/Software-Developer---4-months-Internship-Coop--Summer-2026--_R149984",
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/Software-Developer---Investment-Systems---4-month-Internship-Co-op--Summer-2026-_R150532",
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/St-Johns-Newfoundland-and-Labrador-CAN/Software-Developer-I---4-Month-Internship-Co-op--Summer-2026-_R151042",
+      "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/St-Johns-Newfoundland-and-Labrador-CAN/Software-Developer-I_R152983",
       "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Toronto-Ontario-CAN/Software-Developer-I---4-Month-Co-op-Internship--Summer-2026-_R150314",
+      "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Toronto-Ontario-CAN/Software-Developer-I---4-Month-Internship-Co-op--Fall-2026-_R153466",
       "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Montral-Quebec-CAN/Software-Developer---4-months-Internship-Coop--Fall-2026--_R152614"
     ]
   },
@@ -8421,7 +8427,11 @@
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5013947008",
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5014018008",
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5014088008",
-      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153898008"
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5138225008",
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153686008",
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153898008",
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5179078008",
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5185232008"
     ]
   },
   {
@@ -10137,6 +10147,16 @@
     ]
   },
   {
+    "name": "compa",
+    "ats": "ashby",
+    "identifier": "compa",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/compa",
+    "urls": [
+      "https://jobs.ashbyhq.com/compa/4fd1ad65-040c-4740-aa05-c8170b9385ee/application"
+    ]
+  },
+  {
     "name": "conductorone",
     "ats": "ashby",
     "identifier": "conductorone",
@@ -10662,6 +10682,16 @@
     ]
   },
   {
+    "name": "relayfi",
+    "ats": "ashby",
+    "identifier": "relayfi",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/relayfi",
+    "urls": [
+      "https://jobs.ashbyhq.com/relayfi/a48c120d-20d9-4db0-8384-b281fd85b742/application"
+    ]
+  },
+  {
     "name": "replit",
     "ats": "ashby",
     "identifier": "replit",
@@ -10965,6 +10995,16 @@
     ]
   },
   {
+    "name": "wealthsimple",
+    "ats": "ashby",
+    "identifier": "wealthsimple",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/wealthsimple",
+    "urls": [
+      "https://jobs.ashbyhq.com/wealthsimple/fda5d29e-cbda-43db-994f-a2de669d1141/application"
+    ]
+  },
+  {
     "name": "whatnot",
     "ats": "ashby",
     "identifier": "whatnot",
@@ -11263,6 +11303,7 @@
       "https://jobs.jobvite.com/nutanix/job/o7Ghyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oFskyfwJ?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/nutanix/job/oPc6xfwo?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oTIbyfw4?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oUvFyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/ocuUzfwT?nl=1&nl=1&fr=false",
@@ -11512,6 +11553,16 @@
     "page": "https://api.lever.co/v0/postings/aofl?mode=json",
     "urls": [
       "https://jobs.lever.co/aofl/4b91076d-8937-4dbc-a502-a7d6a66e2e19/apply"
+    ]
+  },
+  {
+    "name": "arcteryx.com",
+    "ats": "lever",
+    "identifier": "arcteryx.com",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/arcteryx.com?mode=json",
+    "urls": [
+      "https://jobs.lever.co/arcteryx.com/d8c59871-eabf-4505-aa6f-9ca34aa9154c/apply"
     ]
   },
   {
@@ -12451,7 +12502,8 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000123537759",
       "https://jobs.smartrecruiters.com/GDMSI/744000123546014",
       "https://jobs.smartrecruiters.com/GDMSI/744000124175589",
-      "https://jobs.smartrecruiters.com/GDMSI/744000124175808"
+      "https://jobs.smartrecruiters.com/GDMSI/744000124175808",
+      "https://jobs.smartrecruiters.com/GDMSI/744000124513451"
     ]
   },
   {
@@ -13707,6 +13759,16 @@
       "https://modernatx.wd1.myworkdayjobs.com/en-US/M_tx/job/Cambridge-Massachusetts/XMLNAME-2026-Co-op--Statistical-AI-ML-Research---Agent-Enablement_R18940",
       "https://modernatx.wd1.myworkdayjobs.com/en-US/M_tx/job/Cambridge-Massachusetts/XMLNAME-2026-Co-op--Statistical-AI-ML-Research---Agent-Enablement_R18941",
       "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Norwood-Massachusetts/Automation-Engineering--Clinical-Biomarker-Lab-2026-Intern_R19068"
+    ]
+  },
+  {
+    "name": "modmed",
+    "ats": "workday",
+    "identifier": "modmed-modmed12",
+    "domain": "https://modmed.wd501.myworkdayjobs.com/modmed12",
+    "page": "https://modmed.wd501.myworkdayjobs.com/wday/cxs/modmed/modmed12/jobs",
+    "urls": [
+      "https://modmed.wd501.myworkdayjobs.com/ModMed12/job/Boca-Raton-FL/XMLNAME-2026-Summer-Software-Engineering-Internships_R3905"
     ]
   },
   {
@@ -16224,7 +16286,8 @@
       "https://university-uber.icims.com/jobs/155963/job?mobile=true&needsRedirect=false",
       "https://university-uber.icims.com/jobs/156281/job?mobile=true&needsRedirect=false",
       "https://university-uber.icims.com/jobs/158324/job?mobile=true&needsRedirect=false",
-      "https://university-uber.icims.com/jobs/158579/job?mobile=true&needsRedirect=false"
+      "https://university-uber.icims.com/jobs/158579/job?mobile=true&needsRedirect=false",
+      "https://university-uber.icims.com/jobs/159161/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -17468,6 +17531,16 @@
     "page": "",
     "urls": [
       "https://www.mathworks.com/company/jobs/opportunities/25610-multiple-openings-engineering-development-group-internship"
+    ]
+  },
+  {
+    "name": "mechanize.work",
+    "ats": "custom",
+    "identifier": "mechanize.work",
+    "domain": "https://www.mechanize.work",
+    "page": "",
+    "urls": [
+      "https://www.mechanize.work/apply/software-engineer/?role=intern"
     ]
   },
   {
