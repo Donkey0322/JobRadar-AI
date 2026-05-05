@@ -1,5 +1,226 @@
 [
   {
+    "company": "Diligent Corporation",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5987823004",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Fall",
+    "id": 988,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Possess a self-driven mindset and strong analytical skills",
+        "Complete university-level programming coursework or comparable coding boot camp",
+        "Seeking education in programming and platform development",
+        "Able to work unsupervised for extended periods",
+        "Able to work on-site in Vancouver",
+        "Experienced with fullstack web applications",
+        "Experienced with AI tools to enhance software development",
+        "Experienced with cloud environments (AWS, Azure, or GCP)",
+        "Experienced with AI and LLM applications",
+        "Experienced with infrastructure-as-code, CI/CD, and observability",
+        "Passionate about continuous learning and AI transformation in software engineering"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "HERE Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/81306/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 987,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Obtain an undergraduate degree in Computer Science, Computer Engineering, or Management Information Systems.",
+        "Develop and test scalable machine learning or data pipelines.",
+        "Proficient in Python, Java/J2EE Development, and Spring.",
+        "Experience with popular data formats like JSON, Protobuf, or XML.",
+        "Knowledge of cloud computing, strong skills in AWS desired.",
+        "Proficient with Unix/Linux.",
+        "Proficient in version control tools like GIT, Subversion, or CVS.",
+        "Experience with CI/CD environments like GitLab or Jenkins.",
+        "Excellent oral and written communication skills.",
+        "Be a team-player within a dynamic environment.",
+        "Work independently with limited supervision.",
+        "Creative, resourceful, and innovative problem solver.",
+        "Self-taught with an aptitude for acquiring knowledge and skills.",
+        "Develop with geospatial data.",
+        "Develop with Kubernetes.",
+        "Develop with Docker."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Accel Learning",
+    "role": "AI Engineer Intern - Intelligent Question Bank Platform",
+    "link": "https://jobs.smartrecruiters.com/AccelLearning/744000124752489",
+    "location": "Union City, NJ",
+    "season": "2026 Summer",
+    "id": 986,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong foundation in software engineering",
+        "Proficient in Python",
+        "Experience with REST APIs and at least one database",
+        "Able to work independently and iterate fast",
+        "Strong debugging and problem-solving instincts",
+        "Demonstrated side projects or shipped code",
+        "Genuine interest in AI systems and education technology",
+        "Direct experience with LLM APIs",
+        "Hands-on experience with RAG systems",
+        "Familiar with prompt engineering techniques",
+        "Experience with NLP pipelines",
+        "Knowledge of LaTeX syntax and math rendering libraries",
+        "Experience with image generation APIs or SVG programmatic generation",
+        "Familiar with AI evaluation frameworks",
+        "Experience with cloud platforms",
+        "Experience with job queues",
+        "Exposure to educational content standards or psychometrics"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Integral Ad Science",
+    "role": "Software Engineer Intern",
+    "link": "https://integralads.wd1.myworkdayjobs.com/IAScareers/job/US---San-Francisco-CA/Software-Engineer-Intern_R-101475",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 985,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's or Master's degree in CS or related field",
+        "Understand data structures, algorithms, and programming languages (Python, Java, Scala)",
+        "Familiar with SQL and database technologies (MySQL, PostgreSQL, NoSQL)",
+        "Possess exposure to cloud platforms like AWS, Azure, or Google Cloud",
+        "Strong problem-solving skills, capable of independent and team work",
+        "Excellent verbal and written communication skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "AECOM",
+    "role": "Digital & Engineering Technology Intern",
+    "link": "https://jobs.smartrecruiters.com/AECOM2/744000124687206",
+    "location": "Arlington, VA",
+    "season": "2026 Summer",
+    "id": 984,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s or master’s degree in a related field with 2 years of study.",
+        "Have coursework or projects involving AI agents, NLP, or generative AI.",
+        "Experience with tools such as Azure OpenAI, LangChain, or Power Platform.",
+        "Exposure to data visualization, automation, or workflow tools.",
+        "Interest in applying AI to real-world engineering, infrastructure, or enterprise use cases.",
+        "Basic understanding of AI, machine learning, or large language models (LLMs).",
+        "Familiarity with Python, APIs, or similar programming/scripting tools.",
+        "Strong analytical thinking and problem-solving skills.",
+        "Ability to communicate technical concepts clearly to non-technical audiences."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/42FDA014E9/apply",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 983,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/F2E488D40D/apply",
+    "location": "Markham, IL",
+    "season": "2026 Summer",
+    "id": 982,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Al Warren Oil Company",
+    "role": "Software Developer Intern",
+    "link": "https://apply.workable.com/al-warren-oil-company-inc/j/CAD4BF1C9C/apply",
+    "location": "Elk Grove Village, IL",
+    "season": "2026 Summer",
+    "id": 981,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altom Transport",
+    "role": "Software Development Intern",
+    "link": "https://apply.workable.com/altom-transport/j/FE26D5A1CD/apply",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 980,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Blackbird Labs",
+    "role": "Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/blackbird-labs-inc/a901dd42-7c52-488a-bd55-f1d5dcd37b38/application",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 979,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with React and TypeScript",
+        "Familiarity with async data patterns like REST or WebSockets",
+        "Curiosity about system failure and building for graceful recovery",
+        "Comfortable asking questions, moving fast, and owning work",
+        "Exposure to payments, fintech, or hospitality tech",
+        "Interest in software under hardware and network constraints"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Premierinc",
     "role": "Software Engineer Intern",
     "link": "https://premierinc.wd1.myworkdayjobs.com/external_professional/job/Charlotte-NC/Software-Engineer-Intern_R0008370-1",

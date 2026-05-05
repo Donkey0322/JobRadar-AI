@@ -1,0 +1,170 @@
+{
+  "id": "744000124687206",
+  "name": "Digital & Engineering Technology Intern ",
+  "uuid": "5814abc1-daeb-41ba-a395-4ca3a090e164",
+  "jobId": "d715d720-fc78-4d39-bb41-520c15dacb3c",
+  "jobAdId": "61eb6d78-2ded-4d1f-acf2-153ba5ab78f3",
+  "defaultJobAd": true,
+  "refNumber": "J10151338",
+  "company": {
+    "name": "AECOM",
+    "identifier": "AECOM2"
+  },
+  "location": {
+    "city": "Arlington",
+    "region": "VA",
+    "country": "us",
+    "remote": false,
+    "hybrid": true,
+    "fullLocation": "Arlington, VA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "63331c6b7bd33f7b8c1b4415",
+      "fieldLabel": "Business Group",
+      "valueId": "FY19_CCH_4507",
+      "valueLabel": "DCS"
+    },
+    {
+      "fieldId": "63331eb6154d066a5bb15026",
+      "fieldLabel": "Referral Bonus Eligible",
+      "valueId": "c9c42d43-3c33-4940-9324-2e71d6cfdd06",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "63331c12a22cac2deb47f808",
+      "fieldLabel": "Legal Entity",
+      "valueId": "A46",
+      "valueLabel": "AECOM Technical Services Inc"
+    },
+    {
+      "fieldId": "6333164e154d066a5bb15024",
+      "fieldLabel": "Job Family Group",
+      "valueId": "JFG0008",
+      "valueLabel": "Digital & Engineering Technology JFG"
+    },
+    {
+      "fieldId": "633316180486592bd77738e1",
+      "fieldLabel": "Job Code",
+      "valueId": "JP00456",
+      "valueLabel": "JP00456"
+    },
+    {
+      "fieldId": "63331cab6540f752a4f2e54a",
+      "fieldLabel": "Operating Group",
+      "valueId": "FY19_CCH_4498",
+      "valueLabel": "Americas"
+    },
+    {
+      "fieldId": "63331cd46540f752a4f2e54b",
+      "fieldLabel": "Strategic Business Unit",
+      "valueId": "CUSTOM_ORGANIZATION-3-18966",
+      "valueLabel": "East (CUSTOM_ORGANIZATION-3-18966)"
+    },
+    {
+      "fieldId": "63331e06764ba95172c7c2f3",
+      "fieldLabel": "Primary Location",
+      "valueId": "7932",
+      "valueLabel": "US - Arlington, VA - 3101 Wilson Blv"
+    },
+    {
+      "fieldId": "63331e54747851123f25ccca",
+      "fieldLabel": "State/Province",
+      "valueId": "US - Virginia",
+      "valueLabel": "Virginia"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "63331fab764ba95172c7c2f5",
+      "fieldLabel": "Discipline",
+      "valueId": "Discipline_Data Science",
+      "valueLabel": "Data Science"
+    },
+    {
+      "fieldId": "63331d830d7643583aa495d2",
+      "fieldLabel": "Business Line",
+      "valueId": "RH_15",
+      "valueLabel": "Geography OH"
+    },
+    {
+      "fieldId": "6333167215a35d55d630c213",
+      "fieldLabel": "Job Family",
+      "valueId": "JF036",
+      "valueLabel": "Digital & Engineering Technology"
+    },
+    {
+      "fieldId": "62fac75b0f857f4403f04967",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AECOM"
+    },
+    {
+      "fieldId": "63332003154d066a5bb15027",
+      "fieldLabel": "Work Location Model",
+      "valueId": "d0bd72f1-1f33-4c7a-84b5-29784dfe80f1",
+      "valueLabel": "Hybrid"
+    }
+  ],
+  "releasedDate": "2026-05-05T15:55:42.491Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AECOM2/744000124687206-digital-engineering-technology-intern-",
+  "applyUrl": "https://jobs.smartrecruiters.com/AECOM2/744000124687206-digital-engineering-technology-intern-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AECOM2/publication/5814abc1-daeb-41ba-a395-4ca3a090e164?dcr_ci=AECOM2",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>Work with Us. Change the World.</strong></p><p>At AECOM, we're delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our work helps people and communities thrive. We are the world's trusted infrastructure consulting firm, partnering with clients to solve the world’s most complex challenges and build legacies for future generations.</p><p>There has never been a better time to be at AECOM. With accelerating infrastructure investment worldwide, our services are in great demand. We invite you to bring your bold ideas and big dreams and become part of a global team of over 50,000 planners, designers, engineers, scientists, digital innovators, program and construction managers and other professionals delivering projects that create a positive and tangible impact around the world.</p><p>We're one global team driven by our common purpose to deliver a better world. Join us.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>AECOM is seeking a <strong>college intern</strong> to support the design, development, and testing of an <strong>AI Agent</strong> used to enhance business operations, engineering workflows, and decision‑making across the organization. This role offers hands‑on exposure to applied artificial intelligence within a global enterprise environment.</p><p>The intern will collaborate with technologists, data scientists, and business stakeholders to help build and refine AI‑powered solutions, gaining real‑world experience at the intersection of AI, data, and infrastructure.</p><p><strong>Key Responsibilities</strong></p><ul><li>Assist in the <strong>development, configuration, and testing of AI agents</strong>, including prompt engineering and workflow design</li><li>Support integration of the AI agent with internal tools, data sources, and systems</li><li>Perform data preparation, validation, and basic analysis to support AI model outputs</li><li>Document AI agent functionality, use cases, and best practices</li><li>Participate in troubleshooting, performance tuning, and accuracy evaluation</li><li>Collaborate with cross‑functional teams (engineering, IT, digital strategy, and business users)</li><li>Stay informed on emerging AI technologies, frameworks, and ethical AI practices</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Minimum Qualifications:</strong></p><ul><li>Currently pursuing a <strong>bachelor’s or master’s degree in computer science</strong>, Data Science, Artificial Intelligence, Engineering, Finance &amp; Accounting, Information Systems, or a related field with 2 years of study completed.&#xa0;</li></ul><p><strong>Preferred Qualifications</strong></p><ul><li>Coursework or projects involving <strong>AI agents, NLP, or generative AI, Finance and Financial Models, Data Management and Data Mining</strong></li><li>Experience with tools such as Azure OpenAI, LangChain, Power Platform, or similar frameworks</li><li>Exposure to data visualization, automation, or workflow tools</li><li>Interest in applying AI to real‑world engineering, infrastructure, or enterprise use cases</li><li>Basic understanding of <strong>AI, machine learning, or large language models (LLMs)</strong></li><li>Familiarity with <strong>Python</strong>, APIs, or similar programming/scripting tools</li><li>Strong analytical thinking and problem‑solving skills</li><li>Ability to communicate technical concepts clearly to non‑technical audiences</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<ul><li>Sponorshpi is not available for this role</li><li>Relocation is not available for this role</li></ul><div sr-tagline=\"\"></div><p><strong>About AECOM</strong>&#xa0;</p><p>AECOM is proud to offer comprehensive benefits to meet the diverse needs of our employees. Depending on your employment status, AECOM benefits may include medical, dental, vision, life, AD&amp;D, disability benefits, paid time off, leaves of absences, voluntary benefits, perks, flexible work options<u>,</u>&#xa0;well-being resources, employee assistance program, business travel insurance, service recognition awards, retirement savings plan, and employee stock purchase plan.&#xa0;</p><p>AECOM is the global infrastructure leader, committed to delivering a better world. As a trusted professional services firm powered by deep technical abilities, we solve our clients’ complex challenges in water, environment, energy, transportation and buildings. Our teams partner with public- and private-sector clients to create innovative, sustainable and resilient solutions throughout the project lifecycle – from advisory, planning, design and engineering to program and construction management. AECOM is a Fortune 500 firm that had revenue of $16.1 billion in fiscal year 2025. Learn more at aecom.com.&#xa0;</p><p><strong>What makes AECOM a great place to work</strong>&#xa0;</p><p>You will be part of a global team that champions your growth and career ambitions. Work on groundbreaking projects - both in your local community and on a global scale - that are transforming our industry and shaping the future. With cutting-edge technology and a network of experts, you’ll have the resources to make a real impact. Our award-winning training and development programs are designed to expand your technical expertise and leadership skills, helping you build the career you’ve always envisioned. Here, you’ll find a welcoming workplace built on respect, collaboration and community—where you have the freedom to grow in a world of opportunity.&#xa0;</p><p>As an Equal Opportunity Employer, we believe in your potential and are here to help you achieve it. All your information will be kept confidential according to EEO guidelines.&#xa0;</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 20,
+    "max": 25,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "construction",
+    "label": "Construction"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
