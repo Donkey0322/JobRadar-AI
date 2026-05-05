@@ -286,6 +286,16 @@
     ]
   },
   {
+    "name": "acxiomllc",
+    "ats": "workday",
+    "identifier": "acxiomllc-acxiomusa",
+    "domain": "https://acxiomllc.wd5.myworkdayjobs.com/acxiomusa",
+    "page": "https://acxiomllc.wd5.myworkdayjobs.com/wday/cxs/acxiomllc/acxiomusa/jobs",
+    "urls": [
+      "https://acxiomllc.wd5.myworkdayjobs.com/AcxiomUSA/job/New-York/Intern---AI---Agentic-Solutions---Summer-2026_JR014151"
+    ]
+  },
+  {
     "name": "adobe",
     "ats": "workday",
     "identifier": "adobe-external_experienced",
@@ -4610,6 +4620,16 @@
     ]
   },
   {
+    "name": "cubic",
+    "ats": "workday",
+    "identifier": "cubic-cubic_usa_careers",
+    "domain": "https://cubic.wd1.myworkdayjobs.com/cubic_usa_careers",
+    "page": "https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/cubic_usa_careers/jobs",
+    "urls": [
+      "https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers/job/San-Diego-California/Intern-Software-Engineer_REQ_48716"
+    ]
+  },
+  {
     "name": "culturebiosciences",
     "ats": "greenhouse",
     "identifier": "culturebiosciences",
@@ -6965,6 +6985,16 @@
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2601362",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Data-Scientist_R2503058",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--Full-Stack-Developer--Remote-_R2503169"
+    ]
+  },
+  {
+    "name": "idexcorp",
+    "ats": "workday",
+    "identifier": "idexcorp-idex_careers",
+    "domain": "https://idexcorp.wd5.myworkdayjobs.com/idex_careers",
+    "page": "https://idexcorp.wd5.myworkdayjobs.com/wday/cxs/idexcorp/idex_careers/jobs",
+    "urls": [
+      "https://idexcorp.wd5.myworkdayjobs.com/idex_careers/job/Longwood-Florida/Software-Development-Intern_R-08950-1"
     ]
   },
   {
@@ -12678,7 +12708,8 @@
       "https://jobs.smartrecruiters.com/Sandisk/744000102165035",
       "https://jobs.smartrecruiters.com/Sandisk/744000120277653",
       "https://jobs.smartrecruiters.com/Sandisk/744000122620564",
-      "https://jobs.smartrecruiters.com/Sandisk/744000122622249"
+      "https://jobs.smartrecruiters.com/Sandisk/744000122622249",
+      "https://jobs.smartrecruiters.com/Sandisk/744000124692433"
     ]
   },
   {
