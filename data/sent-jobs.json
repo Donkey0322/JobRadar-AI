@@ -1,5 +1,461 @@
 [
   {
+    "company": "General Dynamics UK",
+    "role": "Software Engineer Co-op - Software/Systems Engineering",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000124513451",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 969,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a degree in Computer, Software, Systems Engineering, or Computer Science.",
+        "Possess strong communication skills.",
+        "Have experience with or interest in Java and Python.",
+        "Experience with the Canadian Army.",
+        "Experience with AI models.",
+        "Experience with databases.",
+        "Experience with distributed systems.",
+        "Experience with automated testing.",
+        "Implement software to meet requirements.",
+        "Develop and debug code.",
+        "Identify and resolve software defects.",
+        "Support product level testing and integration.",
+        "Participate in code reviews.",
+        "Participate in Agile ceremonies."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Uber",
+    "role": "Software Engineer Intern",
+    "link": "https://university-uber.icims.com/jobs/159161/job?mobile=true&needsRedirect=false",
+    "location": "SF",
+    "season": "2026 Fall",
+    "id": 968,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Drive exciting, ambiguous, previously unsolved projects end to end.",
+        "Design, develop, and test software applications using company technology stack.",
+        "Apply technical knowledge to evaluate complex data and resolve technical issues.",
+        "Build software components to be integrated into a fully functional software system.",
+        "Motivated to own projects and push them forward with independence.",
+        "Actively pursuing a Bachelor\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s, or Master\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t’s in Computer Science or related technical field.",
+        "Graduating between December 2026 to August 2027.",
+        "Demonstrated software engineering experience through internships, work, or competitions.",
+        "Programming experience in one or more application or systems languages (Go, Python, Ruby, Java, C/C++, etc).",
+        "Experience building tools or infrastructure.",
+        "Desire to be part of a team that delivers impactful results every day.",
+        "Commitment to writing understandable, maintainable, and reusable software.",
+        "Possess an innate desire to deliver and a strong sense of accountability for your work.",
+        "Ability to learn new languages and methodologies."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Arc'teryx Equipment",
+    "role": "Application Engineer Co-op",
+    "link": "https://jobs.lever.co/arcteryx.com/d8c59871-eabf-4505-aa6f-9ca34aa9154c/apply",
+    "location": "Vancouver, BC, Canada",
+    "season": "2026 Fall",
+    "id": 967,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Wealthsimple",
+    "role": "Software Developer Intern",
+    "link": "https://jobs.ashbyhq.com/wealthsimple/fda5d29e-cbda-43db-994f-a2de669d1141/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 966,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled as a student in a Canadian post-secondary institution",
+        "Recent graduate within 6 months of graduation date",
+        "Available for full-time work hours",
+        "Reside in Canada",
+        "Able to commute to Toronto HQ on specific days",
+        "Completed at least 2 paid work terms",
+        "Legally authorized to work in Canada",
+        "Take ownership and resolve issues proactively",
+        "Ability to ship fast and prioritize effectively",
+        "Learn quickly and seek help when needed",
+        "Proficient in using AI tools and curious about possibilities",
+        "Care deeply about product users",
+        "Believe in debate, inclusivity, and transparency for product improvement",
+        "Possess curiosity and willingness to evolve with products",
+        "Experience with microservice architecture in production",
+        "Experience with Ruby on Rails, Java/Kotlin, React/Angular",
+        "Familiarity with AWS services like RDS, SQS, S3, Kafka",
+        "Experience with frequent code deployment and automated testing",
+        "Familiarity with tooling for profiling, logging, tracing, experimentation"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Intact",
+    "role": "AI Developer 1 Intern/Co-op - Intern/Co-op",
+    "link": "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Montral-Quebec-CAN/AI-Developer-I---4-months-Internship-Coop--Fall-2026-_R153333",
+    "location": "Montreal, QC, CanadaToronto, ON, CanadaVancouver, BC, Canada",
+    "season": "2026 Fall",
+    "id": 965,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a bachelor's or master’s degree in AI, software engineering, or computer sciences.",
+        "Available for full-time work (35 hours/week) for Fall 2026.",
+        "Be an active student or returning to school in Winter 2027.",
+        "Bilingualism required for Quebec-based candidates.",
+        "Eligible to work in Canada.",
+        "Proficient in Object-Oriented Programming (Python/Java).",
+        "Knowledgeable in development design patterns.",
+        "Interest in Artificial Intelligence.",
+        "Interested in Java/Kotlin, Docker/Kubernetes, Hazelcast/Redis.",
+        "Interested in Spring Boot/Spring Cloud, MongoDB/Oracle technologies."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Intact",
+    "role": "Software Developer 1 Intern/Co-op",
+    "link": "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/Toronto-Ontario-CAN/Software-Developer-I---4-Month-Internship-Co-op--Fall-2026-_R153466",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 964,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Proficiency in Java.",
+        "Experience with GitHub.",
+        "Familiarity with Spring Boot.",
+        "Experience building Rest Services.",
+        "Experience with API Scraping.",
+        "Knowledge of MongoDB.",
+        "Experience with AWS.",
+        "Currently pursuing a Bachelor's or Master’s degree in software development, computer science, or related field.",
+        "Available full-time (35 hours/week) for the Fall 2026 Term (September to December).",
+        "Must be an active student during internship or returning to school in Winter 2027.",
+        "Eligible to work in Canada.",
+        "Understand the software development lifecycle and continuous delivery pipelines.",
+        "Possess strong analytical abilities and problem-solving skills.",
+        "Demonstrate adaptability, curiosity, and commitment to continuous learning.",
+        "Have excellent communication skills with a passion for technology.",
+        "Be self-reliant with a strong sense of responsibility."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Intact",
+    "role": "Software Developer 1 Intern/Co-op",
+    "link": "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/St-Johns-Newfoundland-and-Labrador-CAN/Software-Developer-I_R152983",
+    "location": "St. John's, NL, Canada",
+    "season": "2026 Fall",
+    "id": 963,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Learn about Travel Insurance and stakeholders",
+        "Partner through all SDLC stages to build solutions",
+        "Improve existing processes with AI experience",
+        "Network to understand success drivers",
+        "Experience working with AI and RDBMS",
+        "Proficient in JavaScript, M365 Suite, SSRS/SSIS, Agile/Scrum",
+        "Currently pursuing a Bachelor's or Master's degree in a relevant field",
+        "Available to work full-time for Fall 2026 term",
+        "Be an active student during or returning to school after the internship",
+        "Eligible to work in Canada",
+        "Experience in a financial services company is an asset",
+        "Understand the software development lifecycle and continuous delivery",
+        "Strong analytical and problem-solving skills",
+        "Adaptable, curious, and committed to continuous learning",
+        "Excellent communication skills with a passion for technology",
+        "Self-reliant with a strong sense of responsibility"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Geotab",
+    "role": "Mobile Developer Intern",
+    "link": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5179078008",
+    "location": "Oakville, ON, CanadaKitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 962,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Estimate work for the upcoming sprint",
+        "Write unit testable code to solve bugs or add new features",
+        "Review other developer's code",
+        "Test bug fixes and features using automated tests",
+        "Help come up with improvements in retrospectives",
+        "Previous industry work experience (mobile preferred)",
+        "Experience with React Native preferred",
+        "Proficient in Kotlin/Java, Swift/Objective-C",
+        "Experience with JavaScript, HTML, CSS",
+        "Typescript is considered an asset",
+        "Pursuing a Degree/Diploma in Computer Science, Math, Software Engineering or related field",
+        "Experience developing mobile applications iOS/Android",
+        "Experience with JAVA/Kotlin or Objective-C/Swift"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Geotab",
+    "role": "Support Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5185232008",
+    "location": "Oakville, ON, Canada",
+    "season": "2026 Fall",
+    "id": 961,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Understand complex systems",
+        "Demonstrate strong communication skills",
+        "Possess strong troubleshooting skills",
+        "Exhibit strong problem-solving skills",
+        "Pursue a Post-Secondary Diploma or Degree in Engineering or Computer Science",
+        "Possess knowledge of SQL, Python, Javascript, and Excel",
+        "Understand customer service principles and practices",
+        "Demonstrate high accuracy",
+        "Show attention to detail"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Geotab",
+    "role": "Software Developer Intern - Prism",
+    "link": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5138225008",
+    "location": "Toronto, ON, CanadaKitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 960,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Hold a diploma or degree in Computer Science, Electrical, Software Engineering, or a related field",
+        "Develop high-performance applications with C# and .NET",
+        "Understand relational database concepts, schema design, and query optimization techniques",
+        "Experience with Postgres, including performance tuning, query analysis, and index optimization",
+        "Write automated tests, preferably with Test-Driven Development (TDD)",
+        "Identify and resolve performance bottlenecks in database-driven applications",
+        "Familiarity with scaling applications and databases in cloud environments"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Geotab",
+    "role": "Software Developer Intern",
+    "link": "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153686008",
+    "location": "Toronto, ON, CanadaOakville, ON, CanadaKitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 959,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursuing a degree or diploma in Computer Science, Math, Software Engineering, or a related field",
+        "Proficiency in at least one modern programming language (C#, Java, Python, TypeScript, or Go)",
+        "Possess foundational knowledge of data structures, algorithms, and object-oriented programming principles",
+        "Familiarity with Git and collaborative version control workflows",
+        "Exposure to web frameworks, REST APIs, or SQL/NoSQL databases is an asset",
+        "Strong analytical and problem-solving skills with a curiosity-driven approach to learning",
+        "Effective written and verbal communication skills",
+        "Ability to work both independently and within a team",
+        "Ability to manage time effectively in a fast-paced environment"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Mechanize",
+    "role": "Software Engineer Intern",
+    "link": "https://www.mechanize.work/apply/software-engineer/?role=intern",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 958,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build environments for training coding agents.",
+        "Build evaluations for testing coding agents.",
+        "Find where models break down.",
+        "Build environments that reveal model limits."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Nokia",
+    "role": "Incubation Developer Coop/Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34227",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Copart",
+    "role": "Yard Engineer Intern",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108552",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 957,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent communication and team-building skills.",
+        "Possess innate curiosity to learn and adapt to new tasks.",
+        "Experience in HTML, SQL, and Java.",
+        "Proficient in Microsoft Excel, Word, and PowerPoint.",
+        "Work collaboratively in Agile/DevOps teams through SDLC.",
+        "Experience across SDLC including requirements, design, development, testing, documentation, training, deployment, operations, support and maintenance.",
+        "Be an adaptable self-starter with minimal supervision, able to juggle multiple projects.",
+        "Work well with SMEs, Business Analysts, vendors, and end users in cross-functional teams.",
+        "Operate and develop the entire technology stack.",
+        "Design, develop, and test solutions to automate processes.",
+        "Participate in requirements gathering and design.",
+        "Participate in demos, code reviews, and retrospectives.",
+        "Focus on delivering business priority and value.",
+        "Participate in QA testing activities.",
+        "Document technical designs, release notes, and project documentation.",
+        "Experience in Artificial Intelligence and Machine Learning.",
+        "Perform front-end development utilizing API and webhook/websockets."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Copart",
+    "role": "Yard Engineer Intern",
+    "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108553",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 956,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Excellent communication and team building skills.",
+        "Possess innate curiosity to learn and adapt.",
+        "Experience with HTML, SQL, and Java.",
+        "Proficient in Microsoft Excel, Word, and PowerPoint.",
+        "Experience working in collaborative Agile/DevOps teams.",
+        "Experience across all SDLC stages.",
+        "Be an adaptable self-starter, work with minimal supervision, and manage multiple projects.",
+        "Collaborate with business unit SMEs, BAs, vendors, and end users.",
+        "Operate and develop the entire technology stack.",
+        "Design, develop, and test process automation solutions.",
+        "Participate in requirements gathering and design.",
+        "Participate in demos, code reviews, retrospectives, and communicate improvement ideas.",
+        "Focus on delivering business priority and value.",
+        "Participate in QA testing including integration and user acceptance.",
+        "Document technical designs and project documentation in Confluence.",
+        "Applicable experience in AI and Machine Learning.",
+        "Perform front-end development using API, webhook, and websockets."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nutanix",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.jobvite.com/nutanix/job/oPc6xfwo?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 955,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's in Computer Science or related field",
+        "Authorized to work in the US without requiring sponsorship",
+        "Proficient in Python programming",
+        "Experience with Docker and Kubernetes",
+        "Knowledge of machine learning concepts and frameworks",
+        "Strong collaboration and communication skills",
+        "Ability to work in a hybrid environment",
+        "Team-oriented mindset",
+        "Develop high-quality framework using Data Science and Machine Learning",
+        "Analyze requirements, design, code, and develop tests",
+        "Work with hardware, software, and QA teams",
+        "Drive software and hardware bug triages and debugging",
+        "Communicate effectively with stakeholders",
+        "Contribute to team knowledge sharing and documentation"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Relay Financial",
+    "role": "Partnerships Intern",
+    "link": "https://jobs.ashbyhq.com/relayfi/a48c120d-20d9-4db0-8384-b281fd85b742/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 954,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Build, deploy, and maintain AI agents and workflows.",
+        "Ship production reporting in Metabase.",
+        "Identify anomalies, funnel breakages, and data quality issues.",
+        "Draft partner-facing content using AI.",
+        "Sit in on partner calls, strategy sessions, and internal reviews.",
+        "Document everything built for future use.",
+        "Be AI-native, building and learning from AI tools daily.",
+        "Be an AI-builder, experimenting with side projects or internal tools.",
+        "Comfortable with data, reasoning about funnels, conversion rates, and unit economics.",
+        "Curious about business, partnerships, and SMB fintech.",
+        "Proactive and self-sufficient in solving vague problems.",
+        "Bring a learner's mindset for operating at the edge of AI tooling.",
+        "Current student in CS, engineering, math, business, or a related field.",
+        "Knowledge of SQL, BI tools like Metabase or Tableau, Google Sheets, or LLM API basics.",
+        "Shipped a project (side hustle, hackathon win, internal tool, Shopify app) that someone else used."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Copart",
     "role": "Yard Engineer Intern",
     "link": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Yard-Engineering-Intern_JR108554",

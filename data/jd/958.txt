@@ -1,0 +1,741 @@
+{
+"@context": "https://schema.org",
+"@type": "SiteNavigationElement",
+"name": [
+"Apply",
+"Essays",
+"Press releases",
+"Interview process",
+"Working here",
+"Contact"
+],
+"url": [
+"https://www.mechanize.work/apply/",
+"https://www.mechanize.work/blog/",
+"https://www.mechanize.work/press-releases/",
+"https://www.mechanize.work/how-our-interview-process-works/",
+"https://www.mechanize.work/what-working-here-is-like/",
+"https://www.mechanize.work/contact.html"
+]
+}
+Software Engineer | Mechanize, Inc.
+{
+"@context": "https://schema.org",
+"@type": "SiteNavigationElement",
+"name": [
+"Apply",
+"Essays",
+"Press releases",
+"Interview process",
+"Working here",
+"Contact"
+],
+"url": [
+"https://www.mechanize.work/apply/",
+"https://www.mechanize.work/blog/",
+"https://www.mechanize.work/press-releases/",
+"https://www.mechanize.work/how-our-interview-process-works/",
+"https://www.mechanize.work/what-working-here-is-like/",
+"https://www.mechanize.work/contact.html"
+]
+}
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"item": "https://www.mechanize.work/",
+"name": "Home",
+"position": 1
+},
+{
+"@type": "ListItem",
+"item": "https://www.mechanize.work/apply/",
+"name": "Apply",
+"position": 2
+},
+{
+"@type": "ListItem",
+"item": "https://www.mechanize.work/apply/software-engineer/",
+"name": "Software Engineer",
+"position": 3
+}
+]
+}
+{
+"@context": "https://schema.org",
+"@type": "JobPosting",
+"baseSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"maxValue": 400000,
+"minValue": 300000,
+"unitText": "YEAR"
+}
+},
+"datePosted": "2026-04-22",
+"description": "Mechanize is hiring software engineers to build environments and evaluations for training and testing frontier coding agents. Engineers find where models break down and build environments that reveal those limits.",
+"directApply": true,
+"employmentType": "FULL_TIME",
+"hiringOrganization": {
+"@type": "Organization",
+"logo": "https://www.mechanize.work/social-card-square.png",
+"name": "Mechanize, Inc.",
+"sameAs": "https://www.mechanize.work/"
+},
+"jobLocation": {
+"@type": "Place",
+"address": {
+"@type": "PostalAddress",
+"addressCountry": "US",
+"addressLocality": "San Francisco",
+"addressRegion": "CA"
+}
+},
+"title": "Software Engineer",
+"validThrough": "2027-04-22"
+}
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-911ZHT6VBT');
+gtag('config', 'AW-18126585238');
+(function () {
+try {
+var KEYS = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+var params = new URLSearchParams(window.location.search);
+var payload = {};
+var any = false;
+KEYS.forEach(function (k) {
+var v = params.get(k);
+if (v) { payload[k] = v; any = true; }
+});
+if (any) {
+payload._ts = Date.now();
+localStorage.setItem('mechanize_utm', JSON.stringify(payload));
+}
+} catch (e) { }
+})();
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="Ai Ri init Vi Yi Rr zi Gi Zi capture calculateEventProperties en register register_once register_for_session unregister unregister_for_session sn getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync an identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty rn Ki createPersonProfile setInternalOrTestUser nn $i hn opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Xi debug Mr tn getPageViewId captureTraceFeedback captureTraceMetric Di".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_mLXQXorAfUabwT7fN9UqVZuGdZyaXdeZqV37yWo9tEjZ', {
+api_host: 'https://us.i.posthog.com',
+defaults: '2026-01-30',
+person_profiles: 'identified_only',
+})
+html {
+scrollbar-gutter: stable;
+}
+body {
+line-height: 1.4;
+font-size: 16px;
+padding: 0 10px;
+margin: 50px auto;
+max-width: 650px;
+}
+#maincontent {
+max-width: 42em;
+margin: 15px auto;
+}
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 20px auto;
+}
+a.plain-link {
+color: inherit;
+text-decoration: none;
+}
+a.plain-link:hover {
+text-decoration: underline;
+}
+form.apply {
+margin-top: 20px;
+}
+form.apply .field {
+margin-bottom: 22px;
+}
+form.apply label.field-label {
+display: block;
+font-weight: bold;
+margin-bottom: 6px;
+}
+form.apply .field-hint {
+display: block;
+font-weight: normal;
+color: #555;
+font-size: 0.9em;
+margin-top: 2px;
+margin-bottom: 6px;
+}
+form.apply .required-marker {
+color: #a00;
+font-weight: normal;
+}
+form.apply input[type="text"],
+form.apply input[type="email"],
+form.apply input[type="url"],
+form.apply select,
+form.apply textarea {
+width: 100%;
+box-sizing: border-box;
+padding: 6px 8px;
+font-size: 1em;
+font-family: inherit;
+border: 1px solid #888;
+background: #fff;
+}
+form.apply textarea {
+resize: vertical;
+}
+form.apply input[type="file"] {
+font-family: inherit;
+font-size: 0.95em;
+}
+form.apply fieldset {
+border: none;
+padding: 0;
+margin: 0;
+}
+form.apply fieldset legend {
+font-weight: bold;
+margin-bottom: 6px;
+padding: 0;
+}
+form.apply .radio-group label {
+display: inline-block;
+font-weight: normal;
+margin-right: 18px;
+}
+form.apply .radio-group input[type="radio"] {
+margin-right: 6px;
+}
+form.apply .role-options {
+border: 1px solid #888;
+background: #fff;
+padding: 4px 12px;
+}
+form.apply .role-option {
+display: flex;
+align-items: baseline;
+padding: 8px 0;
+border-bottom: 1px solid #eee;
+font-weight: normal;
+}
+form.apply .role-option:last-child {
+border-bottom: none;
+}
+form.apply .role-option input[type="checkbox"] {
+margin-right: 10px;
+}
+form.apply .role-option .role-title {
+font-weight: bold;
+margin-right: 8px;
+}
+form.apply .role-option .role-comp {
+color: #555;
+font-size: 0.95em;
+}
+form.apply button[type="submit"] {
+font-family: inherit;
+font-size: 1em;
+padding: 8px 18px;
+background: #222;
+color: #fff;
+border: 1px solid #222;
+cursor: pointer;
+}
+form.apply button[type="submit"]:hover {
+background: #000;
+}
+form.apply button[type="submit"]:disabled {
+background: #888;
+border-color: #888;
+cursor: default;
+}
+form.apply .form-message {
+margin-top: 16px;
+padding: 10px 12px;
+border: 1px solid #888;
+background: #f8f8f8;
+}
+form.apply .form-message.error {
+border-color: #a00;
+background: #fff0f0;
+color: #a00;
+}
+form.apply .form-message.success {
+border-color: #060;
+background: #f0fff0;
+color: #060;
+}
+.apply-copy-target { visibility: hidden; }
+.apply-copy-target--ready { visibility: visible; }
+.apply-also-hiring {
+margin-top: 28px;
+padding-top: 16px;
+border-top: 1px solid #ddd;
+}
+.apply-also-hiring h3 {
+font-size: 1.05em;
+margin: 0 0 8px;
+}
+.apply-also-hiring ul { margin: 0; padding-left: 20px; }
+.apply-also-hiring li { margin-bottom: 4px; }
+<style>.apply-copy-target { visibility: visible !important; }</style>
+Apply to Mechanize, Inc.
+We're hiring software engineers to build environments and evals for
+training and evaluating frontier coding agents. Learn more about
+our interview process
+and what working here is like.
+Applying takes less than two minutes.
+In person · San Francisco
+Roles *
+Check all that apply.
+Junior Software Engineer
+$300K salary · equity · bonus
+Software Engineer
+$350K salary · equity · bonus
+Senior Software Engineer
+$400K salary · equity · bonus
+Software Engineering Intern
+$100 / hour
+Compensation
+In addition to salary and equity, we offer engineers substantial performance bonuses. Top performers can earn more from bonuses than salary.
+Name *
+Email *
+Resume *
+PDF, DOC, DOCX, or Markdown. Max 10 MB.
+Are you currently authorized to work in the United States?
+*
+Yes
+No
+What is your GitHub username?
+Optional.
+Submit application
+Also hiring
+← Back to open roles
+Home ·
+Apply ·
+Essays ·
+Press releases ·
+Interview process ·
+Working here ·
+Contact
+.site-footer {
+margin: 60px auto 30px;
+max-width: 650px;
+padding: 18px 10px 0;
+}
+(function () {
+var VID_KEY = 'mech_visitor_id';
+var visitor_id = '';
+try {
+visitor_id = localStorage.getItem(VID_KEY) || '';
+if (!visitor_id) {
+visitor_id = (window.crypto && crypto.randomUUID)
+? crypto.randomUUID()
+: (Date.now() + '-' + Math.random().toString(36).slice(2));
+localStorage.setItem(VID_KEY, visitor_id);
+}
+} catch (e) { }
+var params = new URLSearchParams(window.location.search);
+var utm = {};
+['utm_source','utm_campaign','utm_content','utm_term'].forEach(function (k) {
+var v = params.get(k);
+if (v) utm[k] = v;
+});
+function reveal() {
+var els = document.querySelectorAll('.apply-copy-target');
+for (var i = 0; i < els.length; i++) {
+els[i].classList.add('apply-copy-target--ready');
+}
+}
+var previewVariant = params.get('_preview_variant');
+var previewToken = params.get('_preview_token');
+var previewExperimentId = params.get('_preview_experiment');
+var apiBase = 'https://applications-jed5sybp6q-uc.a.run.app';
+var url, fetchOpts;
+if (previewVariant && previewToken && previewExperimentId) {
+url = apiBase + '/campaigns/v1/preview?' + new URLSearchParams({
+experiment_id: previewExperimentId,
+variant: previewVariant,
+token: previewToken,
+}).toString();
+fetchOpts = { credentials: 'omit' };
+} else if (utm.utm_source) {
+utm.form = 'software-engineer';
+utm.visitor_id = visitor_id;
+url = apiBase + '/campaigns/v1/copy?' + new URLSearchParams(utm).toString();
+fetchOpts = { credentials: 'include' };
+} else {
+reveal(); return;
+}
+var ctrl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+if (ctrl) fetchOpts.signal = ctrl.signal;
+var fallback = setTimeout(function () {
+if (ctrl) ctrl.abort();
+reveal();
+}, 1500);
+fetch(url, fetchOpts)
+.then(function (r) { return r.json(); })
+.then(function (c) {
+clearTimeout(fallback);
+applyVariant(c || {});
+reveal();
+})
+.catch(reveal);
+function applyVariant(c) {
+if (c.headline) {
+var h = document.querySelector('[data-copy="headline"]');
+if (h) h.textContent = c.headline;
+}
+if (c.subhead_html) {
+var s = document.querySelector('[data-copy="subhead"]');
+if (s) s.innerHTML = c.subhead_html;
+}
+if (c.body_html) {
+var b = document.querySelector('[data-copy="body"]');
+if (b) { b.innerHTML = c.body_html; b.removeAttribute('hidden'); }
+}
+if (c.cta_text) {
+var btn = document.querySelector('[data-copy="cta"]');
+if (btn) btn.textContent = c.cta_text;
+}
+if (Array.isArray(c.visible_subroles) && c.visible_subroles.length > 0) {
+var allowed = {};
+for (var i = 0; i < c.visible_subroles.length; i++) {
+allowed[c.visible_subroles[i]] = true;
+}
+var boxes = document.querySelectorAll('input[name="roles"]');
+for (var j = 0; j < boxes.length; j++) {
+var cb = boxes[j];
+var li = cb.closest('.role-option');
+if (!allowed[cb.value]) {
+if (li) {
+li.setAttribute('hidden', '');
+li.style.setProperty('display', 'none', 'important');
+}
+cb.checked = false;
+}
+}
+}
+if (c.also_hiring_links && c.also_hiring_links.length) {
+var box = document.getElementById('apply-also-hiring');
+var ul = box && box.querySelector('ul');
+if (box && ul) {
+ul.innerHTML = '';
+for (var k = 0; k < c.also_hiring_links.length; k++) {
+var item = c.also_hiring_links[k];
+var liEl = document.createElement('li');
+var aEl = document.createElement('a');
+aEl.href = item.href;
+aEl.textContent = item.label;
+liEl.appendChild(aEl);
+ul.appendChild(liEl);
+}
+box.removeAttribute('hidden');
+}
+}
+if (Array.isArray(c.extra_questions) && c.extra_questions.length > 0) {
+var extraBox = document.getElementById('apply-extra-questions');
+if (extraBox) {
+extraBox.innerHTML = '';
+for (var ei = 0; ei < c.extra_questions.length; ei++) {
+var q = c.extra_questions[ei];
+if (!q || !q.name || !q.label) continue;
+var fieldEl = document.createElement('div');
+fieldEl.className = 'field';
+var labelEl = document.createElement('label');
+labelEl.className = 'field-label';
+var fieldId = 'extra-' + q.name;
+labelEl.setAttribute('for', fieldId);
+labelEl.textContent = q.label;
+var hint = document.createElement('span');
+hint.className = 'field-hint';
+hint.textContent = 'Optional.';
+var inputEl = document.createElement('input');
+inputEl.type = 'text';
+inputEl.id = fieldId;
+inputEl.name = 'extra_' + q.name;
+inputEl.maxLength = 1000;
+if (q.placeholder) inputEl.placeholder = q.placeholder;
+fieldEl.appendChild(labelEl);
+fieldEl.appendChild(hint);
+fieldEl.appendChild(inputEl);
+extraBox.appendChild(fieldEl);
+}
+}
+}
+if (c.variant_key) {
+var formEl = document.getElementById('apply-form');
+if (formEl) {
+var f = document.createElement('input');
+f.type = 'hidden'; f.name = 'variant_key'; f.value = c.variant_key;
+formEl.appendChild(f);
+if (c.experiment_id) {
+var f2 = document.createElement('input');
+f2.type = 'hidden'; f2.name = 'experiment_id'; f2.value = c.experiment_id;
+formEl.appendChild(f2);
+}
+}
+installEngagementTracking(c.experiment_id, c.variant_key);
+}
+}
+function installEngagementTracking(experimentId, variantKey) {
+if (!experimentId || !variantKey) return;
+var pageStart = Date.now();
+var sentFormFocus = false;
+var sentScrolledToForm = false;
+var clickedLinks = {};
+function send(eventType, eventData) {
+var body = JSON.stringify({
+visitor_id: visitor_id,
+experiment_id: experimentId,
+variant_key: variantKey,
+event_type: eventType,
+event_data: eventData || null,
+});
+try {
+if (navigator.sendBeacon) {
+navigator.sendBeacon(
+apiBase + '/campaigns/v1/event',
+new Blob([body], {type: 'text/plain;charset=UTF-8'})
+);
+return;
+}
+} catch (e) {}
+try {
+fetch(apiBase + '/campaigns/v1/event', {
+method: 'POST',
+headers: {'Content-Type': 'text/plain;charset=UTF-8'},
+body: body,
+credentials: 'omit',
+keepalive: true,
+}).catch(function () {});
+} catch (e) {}
+}
+document.addEventListener('click', function (ev) {
+var a = ev.target.closest && ev.target.closest('a[href]');
+if (!a) return;
+var href = a.getAttribute('href');
+if (!href || href.charAt(0) === '#' || href.indexOf('javascript:') === 0) return;
+if (clickedLinks[href]) return;
+clickedLinks[href] = true;
+send('link_click', {href: href, text: (a.textContent || '').slice(0, 100)});
+}, true);
+if (form) {
+form.addEventListener('focusin', function () {
+if (sentFormFocus) return;
+sentFormFocus = true;
+send('form_focus', null);
+}, {once: false});
+}
+if (form && 'IntersectionObserver' in window) {
+var io = new IntersectionObserver(function (entries) {
+for (var i = 0; i < entries.length; i++) {
+if (entries[i].isIntersecting && !sentScrolledToForm) {
+sentScrolledToForm = true;
+send('scrolled_to_form', null);
+io.disconnect();
+}
+}
+});
+io.observe(form);
+}
+send('page_view', null);
+window.addEventListener('pagehide', function () {
+send('page_exit', {time_on_page_ms: Date.now() - pageStart});
+});
+}
+var form = document.getElementById('apply-form');
+})();
+(function () {
+var form = document.getElementById('apply-form');
+var submitBtn = document.getElementById('apply-submit');
+var messageEl = document.getElementById('apply-message');
+var resumeInput = document.getElementById('resume');
+var FORM_NAME = 'software-engineer';
+var ROLE = 'software-engineer';
+var UTM_KEYS = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+var formStarted = false;
+var formSubmittedOk = false;
+var params = new URLSearchParams(window.location.search);
+var preselect = (params.get('role') || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+if (preselect.length) {
+form.querySelectorAll('input[name="roles"]').forEach(function (cb) {
+if (preselect.indexOf(cb.value) !== -1) cb.checked = true;
+});
+}
+function getUtmProps() {
+var out = {};
+try {
+var raw = localStorage.getItem('mechanize_utm');
+if (!raw) return out;
+var stored = JSON.parse(raw);
+var ageMs = Date.now() - (stored._ts || 0);
+var TTL_MS = 24 * 60 * 60 * 1000;
+if (ageMs < 0 || ageMs >= TTL_MS) return out;
+UTM_KEYS.forEach(function (k) {
+if (stored[k]) { out[k] = stored[k]; }
+});
+} catch (e) {}
+return out;
+}
+function selectedRoles() {
+return Array.prototype.map.call(
+form.querySelectorAll('input[name="roles"]:checked'),
+function (cb) { return cb.value; }
+);
+}
+function baseProps(extra) {
+var props = { form: FORM_NAME, role: ROLE };
+var utm = getUtmProps();
+for (var k in utm) { props[k] = utm[k]; }
+var formEl = document.getElementById('apply-form');
+if (formEl) {
+var vk = formEl.querySelector('input[name="variant_key"]');
+if (vk && vk.value) props.variant_key = vk.value;
+var eid = formEl.querySelector('input[name="experiment_id"]');
+if (eid && eid.value) props.experiment_id = eid.value;
+}
+if (extra) { for (var ek in extra) { props[ek] = extra[ek]; } }
+return props;
+}
+function track(event, extra) {
+if (window.posthog && typeof window.posthog.capture === 'function') {
+try { window.posthog.capture(event, baseProps(extra)); } catch (e) {}
+}
+}
+function showMessage(text, kind) {
+messageEl.textContent = text;
+messageEl.className = 'form-message ' + (kind || '');
+messageEl.style.display = 'block';
+}
+function firePageViewed() {
+track('apply_page_viewed', { referrer: document.referrer || '', preselected_roles: preselect });
+}
+if (window.posthog && typeof window.posthog.capture === 'function') {
+firePageViewed();
+} else {
+var tries = 0;
+var phPoll = setInterval(function () {
+tries++;
+if (window.posthog && typeof window.posthog.capture === 'function') {
+clearInterval(phPoll); firePageViewed();
+} else if (tries > 20) {
+clearInterval(phPoll);
+}
+}, 100);
+}
+function onFirstInteraction() {
+if (formStarted) return;
+formStarted = true;
+track('apply_form_started');
+}
+form.addEventListener('input', onFirstInteraction);
+form.addEventListener('change', onFirstInteraction);
+if (resumeInput) {
+resumeInput.addEventListener('change', function () {
+var f = resumeInput.files && resumeInput.files[0];
+if (!f) return;
+var dot = f.name.lastIndexOf('.');
+var ext = dot >= 0 ? f.name.slice(dot + 1).toLowerCase() : '';
+track('apply_resume_selected', {
+filename: f.name,
+size_bytes: f.size,
+mime_type: f.type || '',
+extension: ext
+});
+});
+}
+window.addEventListener('pagehide', function () {
+if (!formStarted || formSubmittedOk) return;
+var fieldsFilled = 0;
+try {
+new FormData(form).forEach(function (v) {
+if (typeof v === 'string') { if (v.trim()) fieldsFilled++; }
+else if (v) { fieldsFilled++; }
+});
+} catch (e) {}
+track('apply_form_abandoned', {
+fields_filled: fieldsFilled,
+resume_selected: !!(resumeInput && resumeInput.files && resumeInput.files[0]),
+roles_selected: selectedRoles()
+});
+});
+form.addEventListener('submit', function (e) {
+e.preventDefault();
+var roles = selectedRoles();
+if (roles.length === 0) {
+track('apply_form_field_error', { invalid_fields: ['roles'] });
+showMessage('Please select at least one role.', 'error');
+return;
+}
+if (!form.checkValidity()) {
+var invalid = [];
+Array.prototype.forEach.call(form.querySelectorAll(':invalid'), function (el) {
+if (el.name && invalid.indexOf(el.name) === -1) invalid.push(el.name);
+});
+track('apply_form_field_error', { invalid_fields: invalid });
+showMessage('Please fill out all required fields.', 'error');
+form.reportValidity();
+return;
+}
+submitBtn.disabled = true;
+submitBtn.textContent = 'Submitting…';
+messageEl.style.display = 'none';
+var data = new FormData(form);
+try {
+var raw = localStorage.getItem('mechanize_utm');
+if (raw) {
+var stored = JSON.parse(raw);
+var ageMs = Date.now() - (stored._ts || 0);
+var TTL_MS = 24 * 60 * 60 * 1000;
+if (ageMs >= 0 && ageMs < TTL_MS) {
+UTM_KEYS.forEach(function (k) {
+if (stored[k]) { data.append(k, stored[k]); }
+});
+} else {
+localStorage.removeItem('mechanize_utm');
+}
+}
+} catch (err) { }
+if (window.posthog) {
+try {
+var email = (data.get('email') || '').trim().toLowerCase();
+if (email && typeof window.posthog.identify === 'function') window.posthog.identify(email);
+if (typeof window.posthog.get_distinct_id === 'function') data.append('posthog_distinct_id', window.posthog.get_distinct_id() || '');
+if (typeof window.posthog.get_session_id === 'function') data.append('posthog_session_id', window.posthog.get_session_id() || '');
+} catch (err) { }
+}
+track('apply_form_submitted', { roles: roles });
+fetch(form.action, { method: 'POST', body: data })
+.then(function (res) {
+return res.json().then(function (body) { return { ok: res.ok, status: res.status, body: body }; })
+.catch(function () { return { ok: res.ok, status: res.status, body: {} }; });
+})
+.then(function (result) {
+if (result.ok) {
+formSubmittedOk = true;
+try { sessionStorage.setItem('apply_submitted', '1'); } catch (e) {}
+window.location = '/apply/confirmation/';
+} else {
+var msg = (result.body && result.body.error) || 'Something went wrong. Please try again, or email careers@mechanize.work.';
+track('apply_form_submit_failed', { reason: 'server', status: result.status, error_message: msg, roles: roles });
+showMessage(msg, 'error');
+submitBtn.disabled = false;
+submitBtn.textContent = 'Submit application';
+}
+})
+.catch(function () {
+track('apply_form_submit_failed', { reason: 'network', roles: roles });
+showMessage('Network error. Please try again, or email careers@mechanize.work.', 'error');
+submitBtn.disabled = false;
+submitBtn.textContent = 'Submit application';
+});
+});
+})();
