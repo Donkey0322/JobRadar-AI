@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "40b6b4a30f0b100102daa1399fd20000",
+    "title": "Intern_Software Engineer",
+    "jobDescription": "<h1><b>Business Unit:</b></h1><p></p>Cubic Defense<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1></h1><h1><b>Company Details:</b></h1><p style=\"text-align:inherit\"></p><h1></h1>When you join Cubic, you become part of a company that creates and delivers technology solutions in transportation to make people’s lives easier by simplifying their daily journeys, and defense capabilities to help promote mission success and safety for those who serve their nation. Led by our talented teams around the world, Cubic is committed to solving global issues through innovation and service to our customers and partners. <br><br>We have a top-tier portfolio of businesses, including Cubic Transportation Systems (CTS) and Cubic Defense (CD). Explore more on Cubic.com.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><h1><b>Job Details:</b></h1><p style=\"text-align:inherit\"></p><div></div><div><div><div><p><b>Essential Job Duties and Responsibilities: </b></p><ul><li><p>Participate as a Device Software Integration team member.</p></li><li><p>Supporting the integration of feature development and Project specific feature development</p></li><li><p>Sanity testing of engineering releases</p></li><li><p>Performs software engineering duties including design, programming, testing, documentation, and support analysis.</p></li><li><p>Performs problem analysis with guidance from other software engineers.</p></li><li><p>Performs unit testing and integration testing on software.</p></li><li><p>Reviews code written by other software engineers.</p></li><li><p>Shows commitment to company values, ethics, safety, security, labor charging and quality.</p></li></ul><p><b>Minimum Job Requirements: </b></p><ul><li><p>Enrollment in a two year or four year college degree program in software development or engineering, with a desire to continue a career in engineering, software development or system testing.</p></li><li><p>Ability to effectively communicate, verbally and written.</p></li><li><p>Excellent organization skills, follow-through, analytical skills, and attention to detail.</p></li><li><p>Ability to follow written and verbal direction, and effectively interface with employees, management, and customers.</p></li><li><p>Ability to perform tasks under work deadlines</p></li><li><p>Experience with C&#43;&#43;, C# and/or JAVA programming languages</p></li></ul></div></div></div><p>‎ </p><p><u>Cubic Pay Range:</u></p><p>‎ </p><p><i>The Cubic pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.</i></p><p>‎ </p><p>‎ </p><h1><b>Worker Type:</b></h1><p style=\"text-align:inherit\"></p>Employee",
+    "location": "San Diego, California",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-05",
+    "timeType": "Full time",
+    "jobReqId": "REQ_48716",
+    "jobPostingId": "Intern-Software-Engineer_REQ_48716",
+    "jobPostingSiteId": "cubic_USA_careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "San Diego, California",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers/job/San-Diego-California/Intern-Software-Engineer_REQ_48716",
+    "questionnaireId": "7ea6bdfe03de1002039c2107e9ab0000"
+  },
+  "hiringOrganization": {
+    "name": "4090 Cubic Secure Communications, LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
