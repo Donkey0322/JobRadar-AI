@@ -1,5 +1,26 @@
 [
   {
+    "company": "Skydio",
+    "role": "Software Engineer Intern Fall 2026/Winter 2027",
+    "link": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee",
+    "location": "US CA San Mateo",
+    "id": 989,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Possess solid computer science fundamentals.",
+        "Have meaningful project and/or internship experience in web or backend systems.",
+        "Proficient with Python, Golang, or Javascript/Typescript.",
+        "Familiar with REST-ful APIs, Linux, build tools, relational databases, and caching systems.",
+        "Understand cloud service offerings, deployment techniques, and configuration management."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Diligent Corporation",
     "role": "Software Engineer Intern",
     "link": "https://job-boards.greenhouse.io/diligentcorporation/jobs/5987823004",
