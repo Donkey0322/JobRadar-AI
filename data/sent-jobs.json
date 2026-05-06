@@ -1,5 +1,196 @@
 [
   {
+    "company": "General Dynamics UK",
+    "role": "Software Engineering Developer Co-op",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000124931443",
+    "location": "Calgary, AB, Canada",
+    "season": "2026 Fall",
+    "id": 1012,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursuing a university degree in engineering or computer science.",
+        "Familiarity with AI/ML models.",
+        "Ability to work with minimum supervision.",
+        "Ability to work in a collaborative team environment.",
+        "Enthusiastic contributor, willing to learn new skills.",
+        "Willing to take on ownership of work.",
+        "Sound communication skills.",
+        "Excellent collaboration skills.",
+        "Good presentation skills.",
+        "Solid problem-solving skills."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Magnet Forensics",
+    "role": "Software Developer Co-op",
+    "link": "https://jobs.lever.co/magnetforensics/b9fdce72-4c58-46bb-b7e2-b4bdc90390e5/apply",
+    "location": "CanadaOttawa, ON, CanadaKitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1011,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Magnet Forensics",
+    "role": "Software Developer Co-op",
+    "link": "https://jobs.lever.co/magnetforensics/d393ab82-448a-4dc2-87d0-a00981a55785/apply",
+    "location": "Halifax Regional Municipality, NS, Canada",
+    "season": "2026 Fall",
+    "id": 1010,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Magnet Forensics",
+    "role": "Software Development Engineer in Test Co-op",
+    "link": "https://jobs.lever.co/magnetforensics/f125c8e7-052d-430d-b857-ceba1037f809/apply",
+    "location": "Halifax Regional Municipality, NS, Canada",
+    "season": "2026 Fall",
+    "id": 1009,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Kinaxis",
+    "role": "Software Developer Co-op/Intern - Core Algorithms - Life Sciences",
+    "link": "https://careers-kinaxis.icims.com/jobs/34704/job?mobile=true&needsRedirect=false",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1008,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Completed at least 2nd year of studies in Computer Science or Software Engineering",
+        "Have C++ programming experience, with willingness to expand knowledge",
+        "Interest in Object Oriented design and software development best practices",
+        "Possess a solid technical foundation, especially in algorithms and data structures",
+        "Interest in improving performance and building efficient solutions",
+        "Excellent communication skills and a collaborative mindset",
+        "Enthusiasm for working in an agile development environment",
+        "Proactive approach to taking initiative and seeing work through to completion",
+        "Curiosity and willingness to learn from feedback and mentorship"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "NVIDIA",
+    "role": "Software Engineer Intern - AI Tools",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805",
+    "location": "Santa Clara, CA",
+    "season": "2026 Fall",
+    "id": 1007,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design and rapidly prototype LLM-powered agents.",
+        "Craft, refine, and test high-performance prompts and system messages.",
+        "Work with agent orchestration frameworks for real-time actions.",
+        "Develop metrics and meticulous testing workflows for agent performance.",
+        "Maintain clear user documentation of agent architectures and workflows.",
+        "Stay ahead with latest developments in generative AI and agent architectures.",
+        "Collaborate with responsiveness, thoroughness, and collaboration.",
+        "Pursue a BS, MS, or PhD in Computer Science, Computer Engineering, or related.",
+        "Understand LLMs, Generative AI, and core Machine Learning concepts.",
+        "Demonstrate passion or basic project experience with Agentic AI concepts.",
+        "Be familiar with software development guidelines, version control, and debugging.",
+        "Possess strong problem-solving, analytical thinking, algorithmic, design, and debugging skills.",
+        "Be proficient in a programming language such as C, C++, C#, Java, or Python.",
+        "Have experience writing and consuming APIs and working with web application frameworks.",
+        "Possess strong verbal and written communication skills.",
+        "Show curiosity about software engineering and eagerness to leave your comfort zone.",
+        "Demonstrate eagerness for learning and working on the cutting edge of technology."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Nasdaq",
+    "role": "Global Technology Intern",
+    "link": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---Boston---Massachusetts/Global-Technology-2026-Summer-Intern_R0023416-1",
+    "location": "Boston, MA",
+    "season": "2026 Summer",
+    "id": 1006,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Cockroach Labs",
+    "role": "Engineering Intern",
+    "link": "https://www.cockroachlabs.com/careers/job/?gh_jid=7768261",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 1005,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue studies in Computer Science, Software Engineering, or related technical field graduating in 2027.",
+        "Have exposure to coursework on distributed systems, concurrency control, data replication, file systems, or SQL processing.",
+        "Comfortable using programming languages like Go, C/C++, Java, and Python.",
+        "Love building relationships with colleagues and enjoy code review and partnering on challenging problems.",
+        "Have past experience working on production-level code.",
+        "Genuinely interested in Cockroach Labs's mission and excited to use CockroachDB."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Proofpoint",
+    "role": "AI Engineer Intern",
+    "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/Illinois/AI-Engineer-Intern_R14176",
+    "location": "Illinois",
+    "season": "2026 Summer",
+    "id": 1004,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Recent graduate or final year student in Data Science.",
+        "Strong interest in AI, LLMs, and autonomous agents.",
+        "Proficient in Python or similar backend languages.",
+        "Proactive mindset to explore new AI tools.",
+        "Strong analytical skills with a metrics-driven approach.",
+        "Experience with multi-agent systems or orchestration frameworks.",
+        "Experience with AI observability, logging, or monitoring systems.",
+        "Interested in AI product design or developer tools.",
+        "Contribute to side projects, GitHub repos, or research."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Amazon",
     "role": "Software Development Engineer Internship - Fall 2026 (US)",
     "link": "https://amazon.jobs/en/jobs/3116030",

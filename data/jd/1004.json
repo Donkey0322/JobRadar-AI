@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "1d765d8c3d0110016168adb17e9d0000",
+    "title": "AI Engineer Intern",
+    "jobDescription": "<p><b>About Us:</b></p><p><span style=\"font-size:14px\"> </span></p><p>Proofpoint is a global leader in human- and agent-centric cybersecurity. We protect how people, data, and AI agents connect across email, cloud, and collaboration tools. Over 80 of the Fortune 100, 10,000 large enterprises, and millions of smaller organizations trust Proofpoint to stop threats, prevent data loss, and build resilience across their people and AI workflows. Our mission is simple: safeguard the digital world and empower people to work securely and confidently. Join us in our pursuit to defend data and protect people.</p><p></p><p><b>How We Work:</b></p><p></p><p>At Proofpoint you’ll be part of a global team that breaks barriers to redefine cybersecurity guided by our BRAVE core values: </p><p></p><p><b>Bold</b> in how we dream and innovate</p><p><b>Responsive</b> to feedback, challenges and opportunities</p><p><b>Accountable</b> for results and best in class outcomes</p><p><b>Visionary</b> in future focused problem-solving</p><p><b>Exceptional</b> in execution and impact</p><p><b>About the role </b></p><p>We are looking for an AI Engineer intern to help build and maintain the integrations that power our AI security platform at Proofpoint. In this role, you will focus on defining, implementing, and supporting AI provider integrations—ensuring secure, reliable, and observable interactions between our product and external AI systems (LLMs, APIs, and emerging AI services).</p><p>You will play a key role in enabling visibility, control, and protection across a diverse and rapidly evolving AI ecosystem.</p><p></p><p><b>Key Responsibilities </b></p><ul><li>Contribute to the design and development of a multi-agent AI system for automated discovery and analysis of AI Providers</li><li>Design, implement, and maintain AI provider definitions and integrations within the platform</li><li>Monitor and support existing integrations, troubleshooting issues and improving reliability</li><li>Define and track key metrics for each provider, including latency cost and usage efficiency.</li><li>Build dashboards and instrumentation to monitor provider performance in real time</li><li>Drive data-informed decisions to optimize provider selection and configuration <b>Required Qualifications </b></li><li>Recent graduate (or final year student) in Data Science </li><li>Strong interest in AI, LLMs, and autonomous agents</li><li>Proficiency in Python or similar backend languages</li><li>Proactive mindset: you actively explore and experiment with new AI tools and providers</li><li>Strong analytical skills with a metrics-driven approach to system performance <b>Preferred Skills </b></li><li>Experience with multi-agent systems or orchestration frameworks</li><li>Experience with AI observability, logging, or monitoring systems</li><li>Interest in AI product design or developer tools</li><li>Contributions to side projects, GitHub repos, or research work</li></ul><p><b>Why Proofpoint?</b></p><p></p><p>At Proofpoint, we believe that an exceptional career experience includes a comprehensive compensation and benefits package. Here are just a few reasons you’ll love working with us:</p><p></p><ul><li><p>Competitive compensation</p></li><li><p>Comprehensive benefits</p></li><li><p>Career success on your terms</p></li><li><p>Flexible work environment</p></li><li><p>Annual wellness and community outreach days</p></li><li><p>Always on recognition for your contributions</p></li><li><p>Global collaboration and networking opportunities</p></li></ul><p><i><b> </b></i></p><p><b>Our Culture:</b></p><p></p><p>Our culture is rooted in values that inspire belonging, empower purpose and drive success-every day, for everyone.</p><p>We encourage applications from individuals of all backgrounds, experiences, and perspectives. If you need accommodation during the application or interview process, please reach out to <a target=\"_blank\" href=\"mailto:accessibility&#64;proofpoint.com\"><span style=\"color:#0875e1\"><u>accessibility&#64;proofpoint.com</u></span></a>.</p><p> </p><p><b>How to Apply</b></p><p></p><p>Interested? Submit your application along with any supporting information- we can’t wait to hear from you!</p><p></p>",
+    "location": "Illinois",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-06",
+    "timeType": "Full time",
+    "jobReqId": "R14176",
+    "jobPostingId": "AI-Engineer-Intern_R14176",
+    "jobPostingSiteId": "ProofpointCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Illinois",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://proofpoint.wd5.myworkdayjobs.com/ProofpointCareers/job/Illinois/AI-Engineer-Intern_R14176",
+    "questionnaireId": "6f9edcfc989810020cbd8f3218670000"
+  },
+  "hiringOrganization": {
+    "name": "101 Proofpoint, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

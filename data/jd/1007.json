@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "3f8e2cb5bf0f1005a664401f4e4e0000",
+    "title": "Software Engineering Intern, AI Tools - Fall 2026",
+    "jobDescription": "<p>NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent.</p><p></p><p>NVIDIA is looking for a highly motivated Software Engineer intern to join its dynamic and fast-paced Tools and Infrastructure team. Join our innovative AI team for an internship focused on the exciting field of AI tools and Agentic AI. This role offers a unique opportunity to work hands-on with Large Language Models (LLMs) and orchestration frameworks (e.g., LangChain) to design, build, and deploy intelligent, autonomous agents and AI tools that solve real-world problems. You will be an integral part of a team pushing the boundaries of generative and autonomous systems, gaining exposure to the full lifecycle of agent development, from conceptual design and prompt engineering to testing and production deployment. Work at the forefront of technical innovation with some of the best in the industry by crafting, developing, and deploying AI tools, agents to improve developer productivity across all of NVIDIA&#39;s organizations.</p><p></p><p><b>What</b> <b>you</b> <b>will</b> <b>be</b> <b>doing:</b></p><ul><li><p>Agent Development &amp; Prototyping: Design and rapidly prototype LLM-powered agents that exhibit planning, reasoning, memory, and tool-use capabilities to automate complex, multi-step tasks.</p></li><li><p>Prompt Engineering: Craft, refine, and test high-performance prompts, instructions, and system messages to guide agent behavior and optimize task completion accuracy.</p></li><li><p>Orchestration &amp; Integration: Work with agent orchestration frameworks to connect agents with internal and external APIs, databases, and knowledge bases (e.g., Vector DBs for RAG) to enable real-time actions.</p></li><li><p>Testing and Evaluation: Develop metrics and meticulous testing workflows to benchmark agent performance, reliability, and safety across various use cases.</p></li><li><p>Documentation: Maintain clear user documentation of agent architectures, workflows, and experimental results.</p></li><li><p>Research &amp; Exploration: Stay ahead with the latest developments in generative AI, agent architectures, and multi-agent systems, and propose innovative applications for business challenges.</p></li><li><p>Collaborations: You will thrive being in the critical path supporting thousands of developers, working for billion-dollar business lines - with responsiveness, thoroughness and collaboration</p></li></ul><p></p><p><b>What</b> <b>we</b> <b>need</b> <b>to</b> <b>see:</b></p><ul><li><p>Pursuing a BS, MS or PhD with a focus on Computer Science, Computer Engineering, or a related field</p></li><li><p>Conceptual understanding of LLMs, Generative AI, and core Machine Learning concepts.</p></li><li><p>Demonstrated passion or basic project experience with Agentic AI concepts (e.g., RAG, MCP, multi-step planning, or using frameworks like LangChain/LlamaIndex).</p></li><li><p>Familiarity with software development guidelines, including version control (Git/GitHub) and basic testing/debugging.</p></li><li><p>Problem solving and analytical thinking, with strong algorithmic, design and debugging skills</p></li><li><p>Proficient in at least one programming language such as C, C&#43;&#43;, C#, Java, or Python (Python preferred)</p></li><li><p>Experience with writing and consuming APIs, and working with web application frameworks</p></li><li><p>Strong verbal and written communication skills</p></li><li><p>Curiosity about different areas of software engineering and an eagerness to leave your comfort zone</p></li><li><p>An eagerness for learning and working on the cutting edge of technology</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until May 10, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-06",
+    "timeType": "Full time",
+    "jobReqId": "JR2016805",
+    "jobPostingId": "Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--AI-Tools---Fall-2026_JR2016805",
+    "questionnaireId": "028095df097b1001ac9358c586600000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

@@ -1,0 +1,107 @@
+{
+  "id": "744000124931443",
+  "name": "Co-op Fall 2026 - Software Engineering Developer - 16-Months",
+  "uuid": "7352be5b-b94a-4acd-be9a-b673418e75eb",
+  "jobId": "8e8c2f28-662e-43f5-b4f3-27acc093be95",
+  "jobAdId": "ce05bbb4-736f-4cc5-a56a-ea2214ed36d7",
+  "defaultJobAd": true,
+  "refNumber": "REF1244M",
+  "company": {
+    "name": "General Dynamics Missions System International",
+    "identifier": "GDMSI"
+  },
+  "location": {
+    "city": "Calgary",
+    "region": "AB",
+    "country": "ca",
+    "address": "1120 68 Street Southeast",
+    "postalCode": "T2A 7B2",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "51.0403969",
+    "longitude": "-113.9350629",
+    "fullLocation": "Calgary, AB, Canada"
+  },
+  "customField": [
+    {
+      "fieldId": "64791a5d4769c1356cbdf914",
+      "fieldLabel": "Employment Type",
+      "valueId": "13d603b3-b6e8-4499-a7cb-d9c1d6b0b50f",
+      "valueLabel": "Fulltime-Temporary"
+    },
+    {
+      "fieldId": "653a9d0277e2434834993067",
+      "fieldLabel": "Work Group",
+      "valueId": "ba07194b-44d3-4d13-b9e3-792525c52034",
+      "valueLabel": "NB"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "ca",
+      "valueLabel": "Canada"
+    },
+    {
+      "fieldId": "640efc2ab8145a4e44523d82",
+      "fieldLabel": "Brands",
+      "valueId": "0fbdf90a-9775-460d-93fb-0366a1b1519c",
+      "valueLabel": "General Dynamics Mission Systems - Canada"
+    },
+    {
+      "fieldId": "64791bf1671abc67852f856f",
+      "fieldLabel": "Number of Openings",
+      "valueLabel": "2"
+    }
+  ],
+  "releasedDate": "2026-05-06T15:12:34.640Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/GDMSI/744000124931443-co-op-fall-2026-software-engineering-developer-16-months",
+  "applyUrl": "https://jobs.smartrecruiters.com/GDMSI/744000124931443-co-op-fall-2026-software-engineering-developer-16-months?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/GDMSI/publication/7352be5b-b94a-4acd-be9a-b673418e75eb?dcr_ci=GDMSI",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><em>Build bold. Deliver impact. Win together.</em></p><p>At General Dynamics Mission Systems–Canada, we’re not just engineering technology — we’re shaping the future of defence and security. Our teams design and deliver advanced, mission-critical solutions that enhance national security, strengthen communities, and protect the people we serve.</p><p>If you’re looking for meaningful work that contributes to a safer, more secure world, you’ll find purpose here. Every day, your skills will directly impact programs that matter.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We tackle the toughest security and technology challenges by developing and delivering mission-critical products and systems for international customer. We delivery Tactical Communication Information Systems (CIS) to Land Forces around the world through Vehicle Prime Contractors for fighting and support vehicles. &#xa0;The hardware, software and systems integration that our engineers deliver on a daily basis ensure soldiers are never alone, and always aware. From headquarters to vehicles to the individual soldier, your work helps them accomplish their mission, while keeping them safe.</p><p>We are looking for a Software Developer co-op to join our International TacCIS cross-disciplinary team delivering CIS solutions for armoured vehicles programs for European NATO nations.</p><p>As a Software Developer co-op on the International TacCIS team, the responsibilities and range of activities will vary, but in general you can expect to:</p><ul><li>Perform some design, analysis and test functions under the mentorship of more senior engineers.</li><li>Document analyses, designs and tests (e.g., tech notes, sections of requirements specifications, design documents, test plans and test reports) in the format prescribed by standard templates with the supervision of a more experienced engineer.</li><li>Implement software routines to meet software requirements.</li><li>Maintain code base in accordance with coding standards.</li><li>Some development and performance of integration test and debug of implementations.</li><li>Some development and performance of design verification test under the supervision of more senior engineers.</li><li>Investigate system problem reports and field incident reports; perform root cause and trend analyses;</li><li>Provide technical support during high-level integration and qualification testing.</li><li>Provide technical support to internal customers.</li><li>Perform developmental configuration management activities.</li><li>Present work at design reviews or other types of peer reviews.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required Skills &amp; Experience</strong></p><ul><li>Currently pursuing a University Degree in Electrical Engineering, Computer Engineer, Software Engineer, Computer Science or equivalent technical degree.</li><li>Experience working with or familiarity with AI/ML models is preferred</li></ul><p><strong>Assets</strong></p><p>It would be excellent if the candidate had a combination of the following qualities, but we will work with them to grow in these areas:</p><ul><li>Ability to work effectively with minimum supervision and in a collaborative team environment.</li><li>Enthusiastic contributor, willing to learn new skills and take on ownership of work.</li><li>Sound communication skills and excellent collaboration skills.</li><li>Good presentation skills, preparing and presenting.</li><li>Solid problem solving skills with a willingness to develop a shared understanding of the problem with others.</li></ul><p>It is a requirement that General Dynamics Mission Systems–Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation&#xa0;</strong><br>\nThe expected hourly rate for this position is $21.20 – $33.23. Final compensation will be determined based on your relevant work experience to date. As part of student placement, you will be eligible for quarterly pay increases.</p><p><strong>Why Students Love Working Here</strong></p><ul><li><strong>Purposeful Innovation &amp; Problem Solving:</strong>&#xa0;You’ll work alongside experienced professionals and some of the brightest minds in the defence sector, gaining hands-on experience with next-generation technologies. This is a place where your ideas are encouraged, creativity is valued, and you’ll be supported as you learn and help drive modern, practical solutions.</li><li><strong>Connection &amp; Mentorship:</strong>&#xa0;Through onboarding to your career journey with us, you will work with teammates that are excited to share their experience and develop your skills. Have meaningful interactions, ask questions, and build relationships that can lead to lasting industry connections.</li><li><strong>Perks &amp; Highlights:</strong><ul><li>Eligibility for future co-ops or full-time roles</li><li>Flexible work hours and compressed workweek options</li><li>Hybrid work model (where applicable)</li><li>Networking opportunities across teams and disciplines</li><li>Onsite amenities and social events (gym, bike storage, trivia, appreciation events, etc.)</li><li>Corporate discounts</li></ul></li></ul><p><strong>Accommodation&#xa0;</strong><br>\nIf you require accommodation during any stage of the application process, please contact Human Resources via <a href=\"mailto:recruitment@gd-ms.ca\" rel=\"noopener noreferrer\">recruitment@gd-ms.ca</a>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "defense_and_space",
+    "label": "Defense And Space"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
