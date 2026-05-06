@@ -1,5 +1,62 @@
 [
   {
+    "company": "Leidos",
+    "role": "Junior Cyber Electromagnetic Activities Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Lawton-OK/Junior-CEMA-Software-Engineer-Intern_R-00182554",
+    "location": "5 locationsStillwater, OKEdmond, OKOklahoma City, OKLawton, OKNorman, OK",
+    "season": "2026 Summer",
+    "id": 993,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a US Citizen.",
+        "Be willing to relocate to Lawton, OK.",
+        "Currently pursuing a Bachelor's or Master's in Computer Science or related field.",
+        "Experience with Python and C++.",
+        "Experience with OOP Design Principles.",
+        "Experience working as a Scrum team member.",
+        "Proficient with Agile software development, CI/CD toolchains, and DevOps.",
+        "Experience in software architecture and design.",
+        "Understand Linux platforms.",
+        "Interest in cybersecurity.",
+        "Interest in fundamental networking implementations and concepts.",
+        "Experience with Ubuntu, Red Hat, or Kali Linux.",
+        "Knowledge of networking protocols.",
+        "Experience with Wireshark."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Full Stack Development Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/Full-Stack-Development-Intern_R-00182542",
+    "location": "Orlando, FL",
+    "season": "2026 Summer",
+    "id": 992,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Python, JavaScript/TypeScript, and Shell scripting.",
+        "Experience with RUST language.",
+        "Expert knowledge of GitLab, including CI/CD and migrations.",
+        "Deep experience with Docker and container orchestration.",
+        "Hands-on experience with AWS core services and IAM.",
+        "Currently enrolled in a Bachelor's Degree in CS or Software Engineering.",
+        "Demonstrated experience in large-scale code migration.",
+        "Experience supporting research or fast-paced prototyping.",
+        "Ability to work effectively with diverse teams.",
+        "Strong problem-solving skills for complex environment mismatches.",
+        "Committed to technical documentation and knowledge sharing."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "CACI",
     "role": "Configuration Management Co-op/Intern",
     "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Configuration-Management-Co-op-Intern---Summer---Fall-2026_325733",
