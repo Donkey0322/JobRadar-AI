@@ -1,5 +1,68 @@
 [
   {
+    "company": "CACI",
+    "role": "Configuration Management Co-op/Intern",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/US-CT-Danbury/Configuration-Management-Co-op-Intern---Summer---Fall-2026_325733",
+    "location": "Danbury, CT",
+    "season": "2026 Summer",
+    "id": 991,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor’s degree in computer science, computer engineering, or related field.",
+        "Demonstrate project or school-related work in data analysis, Java programming, or web development.",
+        "Familiar with complex applications, installations, testing, and debugging code.",
+        "Proficient in Java, JSON, Excel, VB, XML, SQL."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ace Hardware",
+    "role": "IT Associate Software Engineer Intern",
+    "link": "https://acehardware.wd1.myworkdayjobs.com/External/job/IL---Oak-Brook/IT-Associate-Software-Engineer-2026-Summer-Internship--Full-Time-Paid-12-weeks-_REQ-29747",
+    "location": "Western Springs, IL",
+    "season": "2026 Summer",
+    "id": 990,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working toward a technology-oriented bachelor’s degree",
+        "Completing Senior year of college",
+        "Strong academic record",
+        "Passionate about technology and IT End User satisfaction",
+        "Exposure to real-world AI/ML projects",
+        "Strong oral and written communication skills",
+        "Strong analytical and problem-solving skills",
+        "Adaptable and able to learn quickly",
+        "Ambitious self-starter",
+        "Demonstrated ability to contribute as an effective team member",
+        "Takes ownership and accountability of projects and responsibilities",
+        "Excellent time management and organizational skills",
+        "Demonstrated motivation and initiative to succeed",
+        "Knowledge and interest in Ace Hardware Corporation",
+        "Ability to work 40 hours per week for 12 weeks",
+        "Willingness to give presentations to colleagues, managers and directors",
+        "Proficient with Visual Studio, GitHub, C#.NET, JavaScript, HTML5, CSS, AJAX, XML, REACT, SOLR",
+        "Proficient with SQL and Python",
+        "Familiar with Cloud-based data pipelines and REST APIs",
+        "Familiar with Cloud services (Databricks/Azure/AWS)",
+        "Able to read and understand business and functional requirements",
+        "Able to design, code, and test new business applications across verticals",
+        "Able to enhance existing systems by analyzing business objectives",
+        "Able to maintain existing software systems by identifying and correcting defects",
+        "Able to troubleshoot production incidents and recover production systems",
+        "Able to create technical specifications and test plans",
+        "Able to create and extend existing operational documentation"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Skydio",
     "role": "Software Engineer Intern Fall 2026/Winter 2027",
     "link": "https://jobs.ashbyhq.com/skydio/f6320e9b-4eed-408d-8d37-d509fb0406ee",
