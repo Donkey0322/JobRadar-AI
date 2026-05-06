@@ -1,5 +1,67 @@
 [
   {
+    "company": "Zushealth",
+    "role": "Data Acquisition Software Engineering Co-op",
+    "link": "https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0",
+    "location": "Boston, MA",
+    "id": 1001,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build next-generation healthtech tools",
+        "Work on data pipelines using AWS services (Lambda, DynamoDB, S3)",
+        "Work on RESTful services",
+        "Proficient in Go, JavaScript/TypeScript, or Python",
+        "Deploy, maintain, and operate pipelines and services",
+        "Build production-ready technology",
+        "Collaborate to build scalable solutions",
+        "Overcome challenging obstacles independently",
+        "Recognize when outside assistance is needed",
+        "Desire to learn software in a professional environment",
+        "Willing to incorporate feedback into work",
+        "Write clean code",
+        "Love solving complex problems",
+        "Self-starter attitude for a fast-paced startup",
+        "Interest in working with healthcare data and APIs",
+        "Prior Internship/Co-Op experience with AWS, RESTful services, Go, Python, Typescript",
+        "Located in Boston, MA and willing to work in office 3 days/week"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Amazon",
+    "role": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
+    "link": "https://amazon.jobs/en/jobs/10412530",
+    "location": "US, WA, Seattle",
+    "id": 1000,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older.",
+        "Experience with at least one general-purpose programming language like Java, Python, C++, C#, Go, Rust, or TypeScript.",
+        "Experience with data structure implementation, basic algorithm development, and/or object-oriented design principles.",
+        "Enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields.",
+        "Commit to a 12-week, full-time internship working 40 hours/week.",
+        "Expected conferral date between January 2027 and December 2029.",
+        "Previous technical internship(s) or demonstrated project experience.",
+        "Experience with AI tools for development productivity, Cloud platforms (preferably AWS), or Database systems (SQL/NoSQL).",
+        "Experience contributing to open-source projects, version control systems, or debugging complex systems.",
+        "Demonstrated ability to learn and adapt to new technologies quickly.",
+        "Basic understanding of software development lifecycle (SDLC).",
+        "Strong problem-solving and analytical skills.",
+        "Excellent written and verbal communication skills."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Kinaxis",
     "role": "Software Developer Co-op/Intern - Core Algorithms",
     "link": "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false",
