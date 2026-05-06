@@ -1,5 +1,33 @@
 [
   {
+    "company": "Amazon",
+    "role": "Software Development Engineer Internship - Fall 2026 (US)",
+    "link": "https://amazon.jobs/en/jobs/3116030",
+    "location": "US, WA, Seattle",
+    "id": 1003,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older.",
+        "Experience with at least one general-purpose programming language (Java, Python, C++, C#, Go, Rust, or TypeScript).",
+        "Experience with data structure implementation, basic algorithm development, or object-oriented design principles.",
+        "Enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields.",
+        "Able to work 40 hours/week and commit to a 12-week internship.",
+        "Have an expected degree conferral date between October 2026 and September 2029.",
+        "Possess experience from previous technical internship(s) or demonstrated project experience.",
+        "Experience with AI tools for development productivity, Cloud platforms (preferably AWS), Database systems (SQL/NoSQL), contributing to open-source projects, version control systems, or debugging complex systems.",
+        "Demonstrate ability to learn and adapt to new technologies quickly.",
+        "Have a basic understanding of software development lifecycle (SDLC).",
+        "Possess strong problem-solving and analytical skills.",
+        "Possess excellent written and verbal communication skills."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Integralads",
     "role": "DevEx Platform Intern",
     "link": "https://integralads.wd1.myworkdayjobs.com/iascareers/job/US---Remote-NY/DevEx-Platform-Intern_R-101466-1",
