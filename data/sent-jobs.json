@@ -1,5 +1,28 @@
 [
   {
+    "company": "Integralads",
+    "role": "DevEx Platform Intern",
+    "link": "https://integralads.wd1.myworkdayjobs.com/iascareers/job/US---Remote-NY/DevEx-Platform-Intern_R-101466-1",
+    "location": "US - Remote, NY",
+    "id": 1002,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in CS or related engineering",
+        "Experience coding in Typescript, Python, or similar languages",
+        "Ability to collaborate in a remote team",
+        "Passionate about technology, curious, and eager to learn",
+        "Desire to improve developers' everyday work",
+        "Familiar with working in a cloud environment",
+        "Experience using Version Control Systems like Git"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Zushealth",
     "role": "Data Acquisition Software Engineering Co-op",
     "link": "https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0",
