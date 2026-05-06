@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "5f46ce1f930810021445b40594260000",
+    "title": "Secure Cloud Platform Intern",
+    "jobDescription": "<p>Avanade è alla ricerca di junior da inserire nella squadra di Secure Cloud Platform presso le sedi di Milano e Roma.</p><div></div><p>Parteciperai a progetti che ti permetteranno di mettere in sicurezza gli ambienti digitali in cloud, il ciclo di sviluppo delle applicazioni, lavorando per garantire che le infrastrutture siano robuste, prive di vulnerabilità e protette dagli attacchi informatici.</p><div></div><p><b>Cosa farai?</b></p><ul><li><p>Stage formativo finalizzato all&#39;assunzione con rimborso spese mensile e il pc aziendale</p></li><li><p>Participerai all’identificazione dei rischi e all&#39;esecuzione di revisioni della sicurezza</p></li><li><p>Contribuirai alla protezione delle informazioni aziendali, identificando requisiti di sicurezza di rete, dei servizi cloud e dello sviluppo software delle applicazioni</p></li><li><p>Collaborerai alla progettazione, implementazione e ai test dei controlli e le procedure di sicurezza<span> </span></p></li></ul><p>.</p><p><b>Competenze ed esperienze</b></p><ul><li><p>Conoscenza delle principali tecniche e strumenti di Cybersecurity con particolare focus in ambito cloud</p></li><li><p>Conoscenza delle principali minacce informatiche e vulnerabilità applicative e loro gestione Conoscenza dei principali topic di sicurezza (Firewall &amp; Networking, Cloud Security, WAF, SAST, SCA, DAST, etc.) e conoscenza dei sistemi operativi Windows e Linux</p></li></ul><p>.</p>",
+    "location": "Assago, Via del Mulino 11a",
+    "additionalLocations": [
+      "Roma"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-06",
+    "timeType": "Full time",
+    "jobReqId": "R00297409",
+    "jobPostingId": "Secure-Cloud-Platform-Intern_R00297409",
+    "jobPostingSiteId": "AvanadeCareers",
+    "country": {
+      "descriptor": "Italy",
+      "id": "8cd04a563fd94da7b06857a79faaf815"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Assago, Via del Mulino 11a",
+      "country": {
+        "descriptor": "Italy",
+        "id": "8cd04a563fd94da7b06857a79faaf815",
+        "alpha2Code": "IT"
+      }
+    },
+    "externalUrl": "https://accenture.wd103.myworkdayjobs.com/AvanadeCareers/job/Assago-Via-del-Mulino-11a/Secure-Cloud-Platform-Intern_R00297409",
+    "questionnaireId": "3053a3e02aeb10007b83bea3d7e10000"
+  },
+  "hiringOrganization": {
+    "name": "4405 Avanade Italy Srl Company",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
