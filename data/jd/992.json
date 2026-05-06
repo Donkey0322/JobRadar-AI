@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "5a41171b532410010c73a6e5ce630000",
+    "title": "Full Stack Development Intern",
+    "jobDescription": "<p>The Full Stack Development Intern will serve as a technical support for the Momentum R&amp;D portfolio. This individual is responsible for transitioning research prototypes into scalable, cloud-native environments. The role focuses on primarily on automating the software development lifecycle, ensuring seamless code migrations to GitLab, containerizing complex application stacks, and orchestrating deployments within AWS.</p><p></p><p><b>Key Responsibilities</b></p><ul><li><b>Code Migration &amp; CI/CD Management:</b><ul><li>Lead the migration of legacy and active research codebases from various sources to GitLab.</li><li>Architect and maintain robust GitLab CI/CD pipelines to automate testing, security scanning, and deployment.</li><li>Standardize version control practices across multiple R&amp;D sub-teams.</li></ul></li><li><b>Containerization &amp; Orchestration:</b><ul><li>Design and build optimized Docker/OCI-compliant containers for diverse research applications (e.g., Python-based AI models, web frontends, and data processors).</li><li>Manage container registries and ensure image security and versioning.</li><li>Implement orchestration strategies to ensure consistent environments from local dev to cloud.</li></ul></li><li><b>AWS Cloud Operations:</b><ul><li>Deploy and manage multi-tier applications across AWS services (EC2, EKS, Lambda, S3, RDS).</li><li>Utilize Infrastructure as Code (IaC), such as Terraform or AWS CloudFormation, to provision and manage cloud resources.</li><li>Monitor system health, performance, and cloud costs to optimize R&amp;D resource usage.</li></ul></li><li><b>Full Stack Development:</b><ul><li>Develop and maintain responsive web interfaces and scalable backend services to support research tooling and pilot applications.</li><li>Integrate complex research algorithms into functional, user-facing platforms.</li><li>Collaborate with researchers to refactor &#34;research-grade&#34; code into &#34;production-grade&#34; software.</li></ul></li></ul><p></p><p><b>Required Qualifications</b></p><ul><li><b>Technical Skills:</b><ul><li><b>Languages:</b> Proficiency in Python, JavaScript/TypeScript (React/Node.js), and Shell scripting.</li><li><b>Extra consideration given to applicants with</b> RUST Language experience.</li><li><b>DevOps Tools:</b> Expert-level knowledge of GitLab (Migrations, CI/CD, Runners).</li><li><b>Containers:</b> Deep experience with Docker and container orchestration (Kubernetes/EKS preferred).</li><li><b>Cloud:</b> Hands-on experience with AWS core services and Identity and Access Management (IAM).</li></ul></li><li><b>Experience:</b><ul><li>Currently enrolled in a Bachelor&#39;s Degree that includes but is not limited to computer science or software engineering with a focus on Full Stack development and DevOps.</li><li>Demonstrated experience in large-scale code migration projects.</li><li>Experience supporting research or fast-paced prototyping environments is highly desirable.</li><li>U.S. Citizenship required.</li></ul></li></ul><p></p><p><b>Preferred Professional Attributes</b></p><ul><li>Ability to work effectively with diverse teams of researchers and developers.</li><li>Strong problem-solving skills, particularly in troubleshooting complex environment mismatches.</li><li>Commitment to technical documentation and knowledge sharing.</li></ul><p></p><p></p><p>If you&#39;re looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We&#39;re not hiring followers. We&#39;re recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We&#39;re already at step 30 — and moving faster than anyone else dares.</p><h2></h2><h2></h2><h2><u><b>Original Posting:</b></u></h2>May 5, 2026<div><div><div><div><div><div><div><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">For U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.</p></div></div></div></div></div></div></div><div></div><p style=\"text-align:inherit\"></p><h2><b><u>Pay Range:</u></b></h2>Pay Range $48,100.00 - $86,950.00<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.</span></p>",
+    "location": "Orlando, FL",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-05",
+    "timeType": "Full time",
+    "jobReqId": "R-00182542",
+    "jobPostingId": "Full-Stack-Development-Intern_R-00182542",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "0088 Orlando FL",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://leidos.wd5.myworkdayjobs.com/External/job/Orlando-FL/Full-Stack-Development-Intern_R-00182542",
+    "questionnaireId": "19e2db7f780710015a91afa311010000",
+    "secondaryQuestionnaireId": "da70a15d3ef40189d310f68d01ced70c"
+  },
+  "hiringOrganization": {
+    "name": "00100 LEIDOS, INC.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
