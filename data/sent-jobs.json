@@ -1,5 +1,116 @@
 [
   {
+    "company": "Kinaxis",
+    "role": "Software Developer Co-op/Intern - Core Algorithms",
+    "link": "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 999,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Complete 1st year of Computer Science or Software Engineering studies.",
+        "Possess C++ programming experience.",
+        "Familiarity with algorithms and data structures.",
+        "Desire to enhance Object-Oriented Design skills.",
+        "Demonstrate very strong technical aptitude, preferring algorithms and data structures.",
+        "Exhibit insatiable drive for improving performance.",
+        "Possess good collaborative skills and positive attitude.",
+        "Show excellent verbal and written communications skills.",
+        "Display strong initiative and drive.",
+        "Have exposure and willingness to develop under agile framework."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "D2L",
+    "role": "Software Developer Co-op",
+    "link": "https://www.d2l.com/careers/jobs/?job_id=7890294&gh_jid=7890294",
+    "location": "Kitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 998,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a post-secondary program",
+        "Able to work 40 hours per week",
+        "Able to work in-person from a D2L office",
+        "Strong entrepreneurial drive",
+        "Enthusiastic and dedicated mindset",
+        "Thirst for a challenge",
+        "Able to think on your feet",
+        "Able to work successfully independently and in team-settings",
+        "Candidate for a Bachelor's degree or diploma in Computer Science, Computer Engineering, or a related field"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "AAA Club Alliance",
+    "role": "Salesforce Developer Engineer Intern",
+    "link": "https://ace.wd5.myworkdayjobs.com/careers/job/Costa-Mesa-CA/Salesforce-Developer-Engineer-Intern_JR202635738",
+    "location": "Newport Beach, CA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Becton Dickinson",
+    "role": "Product Engineering Intern",
+    "link": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-GA---Covington-BMD/Intern---Product-Engineering_R-545078",
+    "location": "Monroe, GA",
+    "season": "2026 Summer",
+    "id": 997,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Draft and execute product test protocols.",
+        "Perform development and verification testing.",
+        "Draft test reports.",
+        "Attend Design Reviews and Team meetings.",
+        "Create specifications and drawings.",
+        "Possess analytical and strategic thinking ability.",
+        "Demonstrate strong attention to detail.",
+        "Exhibit excellent listening and problem-solving skills.",
+        "Have strong interpersonal communication skills.",
+        "Proficient in personal computer use and keyboarding.",
+        "Proficient in Microsoft Word, PowerPoint, and Excel.",
+        "Experience with 3D CAD systems.",
+        "Hold a high school degree.",
+        "Currently pursuing college education in engineering or a related field.",
+        "Experience solving problems and making recommendations.",
+        "Experience executing projects in a team environment.",
+        "Ability to read, analyze, and interpret business and technical documents.",
+        "Ability to present information and respond to questions effectively.",
+        "Proficient in basic mathematical operations.",
+        "Ability to compute rate, ratio, percentage, and interpret graphs.",
+        "Basic understanding of data analysis techniques.",
+        "Solve practical problems with concrete variables.",
+        "Ability to interpret various forms of instructions."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Becton Dickinson",
+    "role": "Product Engineering Intern",
+    "link": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA/job/USA-GA---Covington-BMD/Intern---Product-Engineering_R-544958",
+    "location": "Monroe, GA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "RTX",
+    "role": "Engine Control System Simulation Developer Intern - Engine Control System Simulation Developer",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Automne-2026---Developpeur-de-simulation-de-systemes-de-controle-moteur---Internship---Fall-2026---Engine-Control-System-Simulation-Developer_01842886",
+    "location": "Longueuil, QC, Canada",
+    "season": "2026 Summer"
+  },
+  {
     "company": "Snyk",
     "role": "Developer Relations & Events Intern (AI Security)",
     "link": "https://snyk.wd103.myworkdayjobs.com/external/job/United-States---San-Francisco-Office/Developer-Relations---Events-Intern--AI-Security-_JR100622",
