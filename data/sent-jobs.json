@@ -1,5 +1,109 @@
 [
   {
+    "company": "Johnson & Johnson",
+    "role": "Digital Solutions Co-op",
+    "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Digital-Solutions-Co-Op---Fall-2026_R-071414-1",
+    "location": "Cincinnati, OH",
+    "season": "2026 Fall",
+    "id": 1016,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in an accredited College/University pursuing a Bachelor's or Master's degree in Engineering or a related field.",
+        "Be in second year or above with a graduation date after December 2026.",
+        "Maintain a GPA of 3.0 or above.",
+        "Authorized to work in the United States for the full duration of the co-op.",
+        "Familiarity with basic statistics concepts/terminology.",
+        "Detail-oriented, highly organized, and able to manage multiple tasks.",
+        "Demonstrated ability to work independently and as part of a team.",
+        "Proficient with Microsoft Office (Word, Excel, PowerPoint).",
+        "Strong oral and written communication skills.",
+        "Demonstrated leadership/participation in campus programs and/or community service activities.",
+        "Previous quality related experiences.",
+        "Knowledge of FDA or regulatory guidance.",
+        "Medical related experience (e.g., previous co-op at medical device company, hospital volunteering).",
+        "Programming and data analytics experience (e.g., R, Python)."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "AECOM",
+    "role": "Engineering Intern",
+    "link": "https://jobs.smartrecruiters.com/AECOM2/744000124977393",
+    "location": "Detroit, MI",
+    "season": "2026 Summer",
+    "id": 1015,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Software Engineering or related field.",
+        "Completed at least 1 year of study.",
+        "Recently graduated with a Bachelor’s degree.",
+        "Plan to continue with a Master’s degree.",
+        "Enrolled in a bachelor’s degree in the most previous school term.",
+        "Interest in pursuing an advanced degree in the same or similar discipline."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Fiserv",
+    "role": "Technology Intern",
+    "link": "https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Technology---Summer-Intern_R-10385802",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 1014,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be innovative and motivated",
+        "Learn coding, testing, and supporting application software",
+        "Collaborate with senior analysts and experienced teammates",
+        "Offer innovative suggestions",
+        "Participate in quality inspections",
+        "Support ongoing documentation of existing processes"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "EnergyHub",
+    "role": "Engineering Intern",
+    "link": "https://job-boards.greenhouse.io/energyhub/jobs/8524847002",
+    "location": "Brooklyn, NY",
+    "season": "2026 Summer",
+    "id": 1013,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Eager to learn new technologies.",
+        "Enthusiastic to be a full-stack engineer.",
+        "Experienced in full SDLC development.",
+        "Experienced with Java, Kotlin, or Ruby on Rails.",
+        "Experienced with React.",
+        "Strong problem-solving skills.",
+        "Strong communication skills.",
+        "Extensive data engineering experience.",
+        "Experienced with relational databases and SQL.",
+        "Experienced with S3, MongoDB, AWS, DBT, Snowflake.",
+        "Experienced with web services and RESTful APIs.",
+        "Familiar with CI/CD pipelines and modern software development practices.",
+        "Proven ability to deliver high-quality, iterative value.",
+        "Knowledgeable of modern security best practices."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
     "company": "General Dynamics UK",
     "role": "Software Engineering Developer Co-op",
     "link": "https://jobs.smartrecruiters.com/GDMSI/744000124931443",
