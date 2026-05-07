@@ -1,0 +1,89 @@
+{
+  "jobPostingInfo": {
+    "id": "3a00d438ef9010002ec8908122110000",
+    "title": "Comcast Platform Software Engineer Co-op",
+    "jobDescription": "Comcast brings together the best in media and technology. We drive innovation to create the world's best entertainment and online experiences. As a Fortune 50 leader, we set the pace in a variety of innovative and fascinating businesses and create career opportunities across a wide range of locations and disciplines. We are at the forefront of change and move at an amazing pace, thanks to our remarkable people, who bring cutting-edge products and services to life for millions of customers every day. If you share in our passion for teamwork, our vision to revolutionize industries and our goal to lead the future in media and technology, we want you to fast-forward your career at Comcast.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job Summary</b></p>Program Overview <br>Comcast’s Drexel Co-op Program offers an exciting opportunity to gain hands-on experience, build lasting connections, and grow professionally in a dynamic and inclusive environment. This paid, 6-month immersive experience places students at the heart of our business, working alongside talented professionals on meaningful projects that contribute to real outcomes. As a trusted member of the team, you’ll gain exposure to the inner workings of a global media and technology company while developing skills that will serve you well in any career path.<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job Description</b></p><p>Your experience will include:</p><ul><li><b>Hands-On Learning &amp; Impactful Work</b>: Tackle real business challenges, collaborate across teams, and contribute ideas that drive results from day one.</li></ul><ul><li><b>Community, Connection &amp; Giving Back</b>: Build meaningful relationships through social events, peer engagement, and shared experiences. You’ll also have the opportunity to give back through Team UP, Comcast’s volunteer initiative, deepening your connection to both your community and your fellow students.</li></ul><ul><li><b>Mentorship &amp; Support</b>: Receive guidance from experienced professionals through our dedicated mentorship program, helping you navigate your co-op and beyond.</li></ul><ul><li><b>Professional Development: </b>Participate in a custom onboarding experience, a curated learning series, and networking events designed to help you build new skills, explore career paths, and gain insights from professionals from across the organization.<br /> </li></ul><p>At Comcast, we’re committed to investing in the next generation of innovators and leaders. Our Co-op Program is a transformative experience designed to help you grow, connect, and take the next step in your professional journey.</p><p></p><p><b>Organization &amp; Team Overview</b></p><p>MachineQ is an Internet of Things (IoT) organization focused on building reliable, scalable platforms that help customers deploy, manage, and extract value from connected devices. The organization designs and operates end-to-end IoT solutions, combining hardware connectivity, cloud-native software, and data-driven services.<br /> </p><p>MachineQ teams work on distributed systems that support device lifecycle management, real-time telemetry, and data visibility at scale. Engineering at MachineQ emphasizes reliability, measurable outcomes, and continuous improvement, with a strong focus on building platforms that are both operationally sound and adaptable to evolving customer needs.<br /> </p><p>The MQcentral team builds and operates MachineQ’s customer-facing IoT platform, MQcentral. This platform provides APIs and user interfaces that enable customers to deploy, manage, and receive telemetry from their IoT solutions at scale. Our work supports high-throughput, low-latency systems that deliver real-world value through reliable device management and data visibility.</p><p></p><p><b>Role Description</b></p><p>This Software Engineering Co‑op position offers students the opportunity to gain hands-on experience contributing to a production IoT platform used by real customers. As a member of the core development team, the co‑op will work alongside experienced engineers to design, build, test, and deploy backend services and supporting infrastructure.<br /> </p><p>This role is designed for students who have strong technical fundamentals, are eager to learn, and are interested in backend systems, data platforms, and distributed architectures. Prior industry experience is not required.</p><p></p><p>What are some interesting problems the student will work on?</p><p>The student will work on problems spanning data availability and discovery, event-driven system design, high-volume data processing, developer platform usability, and UI/UX improvements, with exposure to enabling AI and machine learning use cases through well-instrumented data pipelines.</p><p></p><p>Where can this student make an impact?</p><p>The biggest impact opportunities for a co‑op in this role come from taking ownership of clearly scoped problem areas that serve as entry points into the team’s more complex engineering challenges. By owning backend features, tooling improvements, or data visibility enhancements end-to-end, the student builds the deep system context needed to actively collaborate with senior engineers on design decisions, tradeoffs, and longer-term platform improvements. This ownership model creates hands-on exposure to real-world engineering problems while contributing meaningful, production-ready value.</p><p></p><p>Examples of where this ownership-driven impact occurs include:</p><ul><li>Owning well-defined backend components to gain system-level context and participate in larger architectural discussions</li><li>Partnering with senior engineers to evolve features from initial implementation to scalable, production-ready designs</li><li>Improving observability and metrics to better understand system behavior and inform design tradeoffs</li><li>Contributing to data pipelines and APIs that feed into broader platform and analytics initiatives</li><li>Turning scoped projects into learning opportunities that inform future design and planning work</li></ul><p> </p><p><b>Job Responsibilities</b></p><p>Responsibilities include but are not limited to:</p><ul><li>Contribute production code and unit tests to the MQcentral platform</li><li>Participate in daily standups, sprint planning, and team discussions</li><li>Engage in code reviews, both giving and receiving feedback</li><li>Assist with feature development from design through deployment</li><li>Support production releases and gain exposure to platform operations</li></ul><p></p><p><b>Preferred Skills</b></p><ul><li><b>Programming Fundamentals</b>: Experience with at least one programming language (e.g., Go, Python, Java, or similar) and a solid understanding of basic data structures and algorithms.</li><li><b>Computer Science Foundations</b>: Familiarity with core concepts such as operating systems, networking basics, concurrency, and system design principles (academic exposure is sufficient).</li><li><b>Databases</b>: Basic understanding of relational databases (e.g., SQL, tables, indexes) and how applications interact with data stores.</li><li><b>APIs and Services</b>: Introductory knowledge of RESTful APIs and client-server communication.</li><li><b>Version Control</b>: Familiarity with Git and basic collaboration workflows (branches, pull requests, code reviews).</li><li><b>Problem Solving</b>: Ability to reason through problems, ask good questions, and break down larger tasks into manageable steps.</li><li><b>Testing Mindset</b>: Exposure to or interest in writing unit tests and verifying code correctness.</li><li><b>Learning Orientation</b>: Willingness to learn new tools, languages, and systems in a fast-paced environment.</li><li><b>Communication Skills</b>: Ability to clearly explain ideas and ask for help when needed, both verbally and in writing.</li><li><b>Team Collaboration</b>: Comfortable working in a team setting and participating in standups, planning discussions, and peer feedback.</li><li><b>Preferred Majors: </b>Computer Science, Electrical Engineering, Information Systems, or Data Science<br /> </li></ul><p><b>Minimum Qualifications and Eligibility Requirements</b></p><ul><li>Currently pursuing a bachelor’s degree from Drexel University, with a cooperative learning track.</li><li>Available to work 40 hours per week for 6 months starting September 22, 2026, through March 26, 2027.</li><li>Authorized to work in the United States with no current or future sponsorship needs</li><li>Available to report in-person to the work location on the job posting</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><div><div><div><div><div><div><div><p style=\"text-align:left\"><b>Skills</b></p></div></div></div></div></div></div></div>Accountability, Communication, Professional Etiquette, Relationship Building, Resilience, Teamwork<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Compensation</b></p>Base Pay: $32.00<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Base pay is one part of the Total Rewards that Comcast provides to compensate and recognize employees for their work. Most sales positions are eligible for a Commission under the terms of an applicable plan, while most non-sales positions are eligible for a Bonus. Additionally, Comcast provides best-in-class Benefits to eligible employees. We believe that benefits should connect you to the support you need when it matters most, and should help you care for those who matter most. That’s why we provide an array of options, expert guidance and always-on tools, that are personalized to meet the needs of your reality – to help support you physically, financially and emotionally through the big milestones and in your everyday life. Please visit the <a target=\"_blank\" href=\"https://jobs.comcast.com/benefits\">compensation and benefits summary</a> on our careers site for more details. </p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">The application window is 30 days from the date job is posted, unless the number of applicants requires it to close sooner or later.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Education</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Certifications</b> (if applicable)</p><p></p><p><b>Relevant Work Experience</b></p>0-2 Years<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Comcast is an equal opportunity workplace. We will consider all qualified applicants for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability, veteran status, genetic information, or any other basis protected by applicable law.",
+    "location": "PA - Philadelphia, 1800 Arch St",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-07",
+    "timeType": "Full time",
+    "jobReqId": "R435979",
+    "jobPostingId": "Comcast-Platform-Software-Engineer-Co-op_R435979",
+    "jobPostingSiteId": "Comcast_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "PA - Philadelphia, 1800 Arch St",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/PA---Philadelphia-1800-Arch-St/Comcast-Platform-Software-Engineer-Co-op_R435979",
+    "questionnaireId": "d75dbd99fa04103730625466818a0000",
+    "timeLeftToApply": "5 days left to apply",
+    "endDate": "2026-05-13",
+    "jobPostingEndDateAsText": "End Date: May 13, 2026"
+  },
+  "hiringOrganization": {
+    "name": "Comcast (CC) of Willow Grove",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Comcast Software Engineer Co-op",
+      "externalPath": "/job/PA---Philadelphia-1800-Arch-St/Comcast-Software-Engineer-Co-op_R436169",
+      "timeType": "Full time",
+      "locationsText": "PA - Philadelphia, 1800 Arch St",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-07",
+      "timeLeftToApply": "5 days left to apply",
+      "jobPostingEndDateAsText": "End Date: May 13, 2026"
+    },
+    {
+      "title": "Comcast Software Engineer Co-op",
+      "externalPath": "/job/PA---Philadelphia-1800-Arch-St/Comcast-Software-Engineer-Co-op_R436025",
+      "timeType": "Full time",
+      "locationsText": "PA - Philadelphia, 1800 Arch St",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-07",
+      "timeLeftToApply": "5 days left to apply",
+      "jobPostingEndDateAsText": "End Date: May 13, 2026"
+    },
+    {
+      "title": "Comcast Software Architect Co-op",
+      "externalPath": "/job/PA---Philadelphia-1800-Arch-St/Comcast-Software-Architect-Co-op_R436190",
+      "timeType": "Full time",
+      "locationsText": "PA - Philadelphia, 1800 Arch St",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-07",
+      "timeLeftToApply": "5 days left to apply",
+      "jobPostingEndDateAsText": "End Date: May 13, 2026"
+    },
+    {
+      "title": "Executive Director, Data Platforms",
+      "externalPath": "/job/CO---Englewood-183-Inverness-Dr-West/Executive-Director--Data-Platforms_R436009",
+      "timeType": "Full time",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 9 Days Ago",
+      "startDate": "2026-04-27"
+    },
+    {
+      "title": "Comcast Construction Tools Delivery Co-op",
+      "externalPath": "/job/PA---Philadelphia-1800-Arch-St/Comcast-Construction-Tools-Delivery--Co-op_R436028",
+      "timeType": "Full time",
+      "locationsText": "PA - Philadelphia, 1800 Arch St",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-07",
+      "timeLeftToApply": "5 days left to apply",
+      "jobPostingEndDateAsText": "End Date: May 13, 2026"
+    }
+  ],
+  "userAuthenticated": false
+}
