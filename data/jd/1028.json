@@ -1,0 +1,42 @@
+{
+  "jobPostingInfo": {
+    "id": "d6c367ad798f1001a1e89e6a71cb0000",
+    "title": "Student, Full Stack Developer (Fall 2026)",
+    "jobDescription": "<p style=\"text-align:left\">Our student and new graduate programs offer a chance to explore Sun Life from the inside. You’ll make a difference in the lives of our customers and communities, while building the skills and experience that allow you to grow in a meaningful and rewarding way.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job Description:</b></p><p>Sun Life DMS is looking for a contract/Co-Op Full Stack Web Developer with strong communication and Collaboration skills to work closely with technical and non-technical audiences (written, verbal, and presentation communication styles) within Sun Life, to join our Database Inventory System development team. The Java developer will be able to fully design, implement, and optimize a full stack solution to meet the changing stakeholders’ needs, in a fully Agile manner. They will be capable of creating and updating technical and user documentation to ensure knowledge transfer amongst team members, and present monthly to stakeholders. The code must be effective and scalable with low-latency and high-availability. They may also help organizations with their technological framework.</p><p></p><p><b><u>What will you do?</u></b></p><ul><li><p>Play a major role in helping to build out the Java development team.</p></li><li><p>Have an opportunity to influence in how DMS “evolves” software engineering.</p></li><li><p>Help to migrate the legacy coding to a Java based web language.</p></li><li><p>Work closely with other developers with a diverse skill set and technology expertise to provide scalable solutions.</p></li></ul><p></p><p><b><u>What experience and skills should you have?</u></b></p><ul><li><p>Experience with Spring or similar Java frameworks including architecting, designing, and programming.</p></li><li><p>3&#43; years of experience working with ReactJS, excellent knowledge of front-end technologies, such as JavaScript, HTML5, and CSS3.</p></li><li><p>Experience working with a SQL Server Database with Java.</p></li><li><p>Strong expertise in API development and integration (RESTful and SOAP web services, JSON/XML).</p></li><li><p>Experience with Cloud Technologies – AWS, Azure or GCP.</p></li><li><p>Ideally, previous database-backed web services development experience.</p></li><li><p>Familiarity with Windows and Linux fundamentals.</p></li><li><p>Working understanding with PowerShell.</p></li><li><p>Ability to evaluate emerging technologies and open-source libraries to provide recommendations.</p></li><li><p>Strong interest in learning new technologies and solving complex problems.</p></li><li><p>BS/MS degree in Computer Science or related field or comparable experience (i.e., coding bootcamp, etc.).</p></li><li><p>Some level of migration experience from one platform to another.</p></li><li><p>Strong skills in debugging and troubleshooting.</p></li><li><p>Scale-up mindset.</p></li><li><p>Experience with code versioning tools like Git, SVN, etc.</p></li><li><p>The ability to anticipate problems and provide creative, quick, and reliable solutions.</p></li><li><p>This opportunity is available to students with a <b>December 2026 </b><b>or later</b> graduation date</p></li></ul><p></p><p><b><u>What would be nice to have:</u></b></p><ul><li><p>Migration experience to Java/React from .Net microservices.</p></li><li><p>Experience in multi-process architecture</p></li><li><p>Familiarity with data protection and security features.</p></li></ul><p></p><p><b><u>What is in it for you?</u></b></p><ul><li><p><span>At Sun Life, you will be joining a purpose driven organization focused on helping Canadian’s achieve lifetime financial security and live healthier lives. </span></p></li><li><p><span>As a student, you’ll make a real impact by contributing to meaningful work, gaining valuable experience and actively working towards your team’s goals.</span></p></li><li><p><span>You’ll join our unique student culture, designed to help you grow both personally and professionally beyond your role. We offer professional development workshops, student awards, socials and many more exciting opportunities. </span></p></li><li><p><span>We are honored to be recognized as Canada’s Best Employers for Recent Graduates and Canada&#39;s Best Workplaces by Great Place to Work in 2025.</span></p></li><li><p><span>Your student journey is just the beginning and we&#39;re proud to help many who choose Sun Life to transition into permanent roles after graduation.</span></p></li></ul><p></p><p></p><p>The Base Pay range is for the primary location for which the job is posted for. The Base Pay which you will be considered for will vary depending on the Campus program you are selected for.</p><p></p><p>Eligible Sun Life employees for various Campus Graduate programs will also participate in various incentive plans, payment under which is discretionary and subject to individual and company performance</p><p></p><p>Diversity and inclusion have always been at the core of our values at Sun Life. A diverse workforce with wide perspectives and creative ideas benefits our Clients, the communities where we operate and all of us as colleagues. We welcome applications from qualified individuals from all backgrounds.</p><p></p><p>Persons with disabilities who need accommodation in the application process, or those needing job postings in an alternative format, may e-mail a request to <a target=\"_blank\" href=\"mailto:thebrightside&#64;sunlife.com\">thebrightside&#64;sunlife.com</a>.</p><p></p><p>We are proud to be a hybrid organization that offers our employees the choice and flexibility to work from both the office and virtually based on the needs of the business, our Clients and you! Several flexible work options are available and can be discussed throughout the selection process depending on the role requirements and individual needs.</p><p></p><p>We may use artificial intelligence to support candidate sourcing, screening, interview scheduling.</p><p></p><p>We thank all applicants for showing an interest in this position. Only those selected for an interview will be contacted.</p><p></p><p style=\"text-align:left\"><b>Job Category:</b></p>Temporary Employee<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Posting End Date:</b></p>16/05/2026",
+    "location": "Toronto, Ontario",
+    "additionalLocations": [
+      "Sun Life Waterloo King"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-07",
+    "timeType": "Full time",
+    "jobReqId": "JR00123310",
+    "jobPostingId": "Student--Full-Stack-Developer--Fall-2026-_JR00123310",
+    "jobPostingSiteId": "Campus",
+    "country": {
+      "descriptor": "Canada",
+      "id": "a30a87ed25634629aa6c3958aa2b91ea"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Sun Life Toronto One York",
+      "country": {
+        "descriptor": "Canada",
+        "id": "a30a87ed25634629aa6c3958aa2b91ea",
+        "alpha2Code": "CA"
+      }
+    },
+    "externalUrl": "https://sunlife.wd3.myworkdayjobs.com/Campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
+    "questionnaireId": "5659ecd67196100157513b79f8c10000",
+    "secondaryQuestionnaireId": "07092c6e50bc01650a99054c522d5644",
+    "endDate": "2026-05-17"
+  },
+  "hiringOrganization": {
+    "name": "Sun Life of Canada - Corporate",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
