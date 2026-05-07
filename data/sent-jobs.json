@@ -1,5 +1,47 @@
 [
   {
+    "company": "Globalhr",
+    "role": "SkillBridge Intern DoD: Information System Security Officer - McKinney, Texas",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WA--2501-W-University-Dr--WING-A-BLDG/SkillBridge-Intern-DoD--Information-System-Security-Officer---McKinney--Texas_01843878",
+    "location": "US-TX-MCKINNEY-513WA ~ 2501 W University Dr ~ WING A BLDG"
+  },
+  {
+    "company": "Globalhr",
+    "role": "SkillBridge Intern DoD: Information System Security Officer - Forest, MS",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MS-FOREST-425--19859-Hwy-80--BLDG-425/SkillBridge-Intern-DoD--Information-System-Security-Officer---Forest--MS_01843882",
+    "location": "US-MS-FOREST-425 ~ 19859 Hwy 80 ~ BLDG 425",
+    "id": 1024,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Eligible for Fellowship per DoD Instruction 1322.29.",
+        "Projected to receive an honorable military discharge.",
+        "Complete all TAP and transition requirements.",
+        "Receive approval from Unit Commander or O4+.",
+        "Willing or approved to relocate to job location.",
+        "Possess a Bachelor's Degree with 2 years relevant experience, or Advanced Degree.",
+        "Experience in cybersecurity, systems security, or hardening.",
+        "Experience in Information Technology.",
+        "Experience with compliance-based auditing like RMF, DAAPM, JSIG, or NISPOM.",
+        "Support computer technologies like databases, operating systems, networks, or hardware.",
+        "Experience in physical security, policework, criminal justice, or investigations.",
+        "Experience in project, program, office, or account management.",
+        "Work in DoD classified operating or laboratory environments.",
+        "Familiar with cybersecurity RMF and compliance (NISPOM/DAAPM, JSIG, NIST).",
+        "Experience with audit reviews (physical security, network logs, password admin).",
+        "Familiar with cyber incident response execution and management.",
+        "Ability to work independently and as a team member.",
+        "Possess exceptional written and verbal communication skills.",
+        "Customer focused, adaptable, and willing to work varying assignments.",
+        "Complete National Industrial Security Program cybersecurity training."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Comcast",
     "role": "Comcast Software Engineer Co-op",
     "link": "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/PA---Philadelphia-1800-Arch-St/Comcast-Software-Engineer-Co-op_R436169",
