@@ -1,5 +1,32 @@
 [
   {
+    "company": "Astera Labs Early Career",
+    "role": "System Validation Engineer (Intern 2026)",
+    "link": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4601992005",
+    "location": "San Jose, CA",
+    "id": 1036,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s or Master’s degree in Electrical Engineering, Computer Engineering, or related field",
+        "Solid understanding of digital logic, computer architecture, and high-speed serial protocols",
+        "Familiarity with PCIe®, CXL™, or Ethernet standards",
+        "Experience with scripting languages (Python, TCL) and basic programming (C/C++) and JMP",
+        "Comfortable working with lab tools and debugging hardware",
+        "Strong analytical and communication skills",
+        "Exposure to post-silicon validation or bring-up of connectivity IP blocks",
+        "Knowledge of signal integrity analysis and eye diagram interpretation",
+        "Familiarity with Linux systems, shell scripting, and version control (Git)",
+        "Understanding of AI workloads and how interconnect bandwidth impacts performance",
+        "Experience with memory coherency protocols and cache hierarchies"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Comcast",
     "role": "Comcast AI Research Intern",
     "link": "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/DC---Washington-1325-G-ST-NW-STE-300/Comcast-AI-Research-Intern_R425982",
