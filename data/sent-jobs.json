@@ -1,5 +1,86 @@
 [
   {
+    "company": "Adobe",
+    "role": "Software Development Engineer Intern - Software Development Engineer",
+    "link": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Francisco/XMLNAME-2026-Intern---Software-Development-Engineer_R160430",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 1040,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a full-time student pursuing a relevant degree",
+        "Possess strong technical, analytical, and problem-solving skills",
+        "Have previous related experience in software engineering",
+        "Be proficient in Java, C++, JavaScript, or Python",
+        "Be familiar with the software development lifecycle",
+        "Be results-oriented with an interest in learning new technologies",
+        "Possess excellent verbal and written communication skills",
+        "Able to participate in a full-time internship May-September"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Leidos",
+    "role": "Software Engineer Intern",
+    "link": "https://leidos.wd5.myworkdayjobs.com/External/job/Reston-VA/Software-Engineer-Intern_R-00182680-1",
+    "location": "Morgantown, WVReston, VA",
+    "season": "2026 Summer",
+    "id": 1039,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s program in Computer Science or similar with a minimum 3.0 GPA",
+        "Experience with Object Oriented Programming practices and patterns, Java preferred",
+        "Experience with JavaScript and JS frameworks like React",
+        "Solid understanding of software development process fundamentals",
+        "Strong, self-motivated desire to learn new technologies",
+        "Ability to complete tasks independently with minimal supervision",
+        "Ability to work and collaborate effectively within an engineering team",
+        "Team player able to express and explain ideas",
+        "Ability to obtain a DoD security clearance",
+        "Familiarity with Cloud Technologies (AWS, Azure, GCP)",
+        "Knowledge of a version control system (e.g., Git)",
+        "Familiarity with CI/CD processes and tools (Jenkins)",
+        "Familiarity with Infrastructure as Code (Terraform, Helm)",
+        "Familiarity with Containerized applications and orchestration (Docker, Kubernetes)",
+        "Familiarity with Enterprise Service Bus Technologies (Kafka)",
+        "Knowledge of Agile Development methodologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Veryable",
+    "role": "Mobile Engineer Intern - Android/iOS",
+    "link": "https://ats.rippling.com/veryable-careers/jobs/cf74672c-c9c5-4be5-8858-04abfd64c20f",
+    "location": "Dallas, TX",
+    "season": "2026 Summer",
+    "id": 1038,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Participate in the entire development lifecycle.",
+        "Learn Android Mobile development best practices.",
+        "Learn iOS Mobile development best practices.",
+        "Gain experience in a fast-paced, team environment.",
+        "Collaborate with cross-platform teams.",
+        "Build foundational skills as a technical professional.",
+        "Eager to learn and grow professionally.",
+        "Current student pursuing a Bachelor's or Master's degree in a tech-related field.",
+        "Preferred: Previous experience with A applications."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Eversource",
     "role": "2026 Fall: Transmission System Planning Co-op",
     "link": "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Manchester-NH/XMLNAME-2026-Transmission-System-Planning-Intern_R-029918",
