@@ -1,5 +1,110 @@
 [
   {
+    "company": "Sunlife",
+    "role": "Student, Full Stack Developer (Fall 2026)",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
+    "location": "2 Locations",
+    "id": 1028,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Experience with Spring or similar Java frameworks",
+        "3+ years experience with ReactJS and front-end technologies",
+        "Experience working with a SQL Server Database with Java",
+        "Strong expertise in API development and integration",
+        "Experience with Cloud Technologies like AWS, Azure or GCP",
+        "Previous database-backed web services development experience",
+        "Familiarity with Windows and Linux fundamentals",
+        "Working understanding with PowerShell",
+        "Ability to evaluate emerging technologies and open-source libraries",
+        "Strong interest in learning new technologies and solving complex problems",
+        "BS/MS degree in Computer Science or related field or comparable experience",
+        "Some level of migration experience from one platform to another",
+        "Strong skills in debugging and troubleshooting",
+        "Scale-up mindset",
+        "Experience with code versioning tools like Git, SVN",
+        "Ability to anticipate problems and provide creative, quick, and reliable solutions",
+        "Migration experience to Java/React from .Net microservices",
+        "Experience in multi-process architecture",
+        "Familiarity with data protection and security features"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Gen",
+    "role": "Software QA Engineer Intern",
+    "link": "https://gen.wd1.myworkdayjobs.com/careers/job/Brno-Czech/Software-QA-Engineer-Intern_55280-1",
+    "location": "2 Locations",
+    "id": 1027,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [
+        "Basic IT or computer science background",
+        "Understand how software works",
+        "Interest in AI tools",
+        "Basic knowledge of HTML and any OOP programming language",
+        "Positive attitude, energy, and eagerness to learn",
+        "Working level of English"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Ensemblehp",
+    "role": "Software Engineer Intern",
+    "link": "https://ensemblehp.wd5.myworkdayjobs.com/ensemblehealthpartnerscareers/job/Remote---Nationwide/Engineering-Excellence-Intern_R040778",
+    "location": "Remote - Nationwide",
+    "id": 1026,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Computer Science, Software Engineering, or a related field.",
+        "Expected to graduate May/June 2026, December 2026, or May/June 2027.",
+        "Possess strong problem-solving skills and a proactive attitude.",
+        "Interested in Microsoft Azure and modern development frameworks.",
+        "Eager to learn and accept mentor feedback for growth.",
+        "Familiar with .NET, React, and Agile methodologies.",
+        "Able to work independently and collaboratively in a remote setting.",
+        "Demonstrate leadership, innovation, and a passion for learning."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Caci",
+    "role": "Data and Analytics Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Data-and-Analytics-Intern---Summer-2026_325834",
+    "location": "Remote (Any State)",
+    "id": 1025,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Hold a Bachelor's degree",
+        "Understand Software Delivery Lifecycle models",
+        "Possess basic experience with Python",
+        "Be willing and able to obtain NASA Public Trust Clearance",
+        "Demonstrate willingness to learn",
+        "Have experience with NASA",
+        "Be a seasoned individual contributor",
+        "Work under limited supervision for routine situations"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Globalhr",
     "role": "SkillBridge Intern DoD: Information System Security Officer - McKinney, Texas",
     "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WA--2501-W-University-Dr--WING-A-BLDG/SkillBridge-Intern-DoD--Information-System-Security-Officer---McKinney--Texas_01843878",
