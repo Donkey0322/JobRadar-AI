@@ -1,0 +1,70 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4601992005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4391403005,
+  "location": {
+    "name": "San Jose, CA"
+  },
+  "metadata": [
+    {
+      "id": 7826080005,
+      "name": "Function",
+      "value": "System Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7826085005,
+      "name": "Role Type",
+      "value": "Internship",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12122734005,
+      "name": "Country",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 12122790005,
+      "name": "City",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4601992005,
+  "updated_at": "2026-05-07T17:08:49-04:00",
+  "requisition_id": "1915",
+  "title": "System Validation Engineer (Intern 2026)",
+  "company_name": "Astera Labs Early Career",
+  "first_published": "2025-09-04T14:23:40-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;a id=&quot;menur64a&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.asteralabs.com%2F&amp;amp;data=05%7C02%7Clori.zielinski%40asteralabs.com%7Cd09d9bcc97d041239f3708ddb8ef2ac9%7Cf47c88fd08a94016b4883f361c03ff2e%7C0%7C0%7C638870059538319538%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=BauZlULXzw5HeuuXG6T2bvjHSrf8OH5%2BoEDddHCuPp4%3D&amp;amp;reserved=0&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;.Astera Labs (NASDAQ: ALAB) provides rack-scale AI infrastructure through purpose-built connectivity solutions. By collaborating with hyperscalers and ecosystem partners, Astera Labs enables organizations to unlock the full potential of modern AI. Astera Labs’ Intelligent Connectivity Platform integrates CXL®, Ethernet, NVLink, PCIe®, and UALink™ semiconductor-based technologies with the company’s COSMOS software suite to unify diverse components into cohesive, flexible systems that deliver end-to-end scale-up, and scale-out connectivity. The company’s custom connectivity solutions business complements its standards-based portfolio, enabling customers to deploy tailored architectures to meet their unique infrastructure requirements. Discover more at &lt;a id=&quot;menurhut&quot; class=&quot;fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn&quot; href=&quot;http://www.asteralabs.com/&quot; target=&quot;_blank&quot;&gt;www.asteralabs.com&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;Astera Labs is a rapidly growing semiconductor company that’s redefining connectivity for AI and cloud infrastructure. Our intelligent connectivity solutions—built on PCIe®, CXL™, Ethernet, and custom fabrics—enable seamless data movement across compute, memory, and storage. As part of our team, you’ll help validate the silicon that powers the world’s most advanced AI platforms.&lt;/p&gt;\n&lt;p&gt;Role Overview&lt;/p&gt;\n&lt;p&gt;As a Post-Silicon Validation Intern, you’ll work alongside seasoned engineers to validate high-speed interconnects and AI fabric technologies in Astera Labs’ custom silicon products. You’ll gain hands-on experience with PCIe Gen5/Gen6, CXL, and memory-semantic fabrics, contributing directly to the bring-up and debug of chips that enable hyperscale AI workloads.&lt;/p&gt;\n&lt;p&gt;Key Responsibilities&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Execute post-silicon validation test plans for PCIe®, CXL™, and other high-speed interfaces&lt;/li&gt;\n&lt;li&gt;Use lab equipment (oscilloscopes, protocol analyzers, BERTs) to validate signal integrity and protocol compliance&lt;/li&gt;\n&lt;li&gt;Develop and debug test automation scripts in Python, C/C++, or TCL&lt;/li&gt;\n&lt;li&gt;Analyze performance, latency, and error recovery across AI connectivity fabrics&lt;/li&gt;\n&lt;li&gt;Collaborate with design, firmware, and systems teams to root-cause issues and optimize performance&lt;/li&gt;\n&lt;li&gt;Document validation results and contribute to debug guides and bring-up documentation&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Required Qualifications&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing a Bachelor’s or Master’s degree in Electrical Engineering, Computer Engineering, or related field&lt;/li&gt;\n&lt;li&gt;Solid understanding of digital logic, computer architecture, and high-speed serial protocols&lt;/li&gt;\n&lt;li&gt;Familiarity with PCIe®, CXL™, or Ethernet standards&lt;/li&gt;\n&lt;li&gt;Experience with scripting languages (Python, TCL) and basic programming (C/C++) and JMP&lt;/li&gt;\n&lt;li&gt;Comfortable working with lab tools and debugging hardware&lt;/li&gt;\n&lt;li&gt;Strong analytical and communication skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Preferred Skills&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Exposure to post-silicon validation or bring-up of connectivity IP blocks&lt;/li&gt;\n&lt;li&gt;Knowledge of signal integrity analysis and eye diagram interpretation&lt;/li&gt;\n&lt;li&gt;Familiarity with Linux systems, shell scripting, and version control (Git)&lt;/li&gt;\n&lt;li&gt;Understanding of AI workloads and how interconnect bandwidth impacts performance&lt;/li&gt;\n&lt;li&gt;Experience with memory coherency protocols and cache hierarchies&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;What You’ll Gain&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Hands-on experience with industry-leading connectivity solutions for AI infrastructure&lt;/li&gt;\n&lt;li&gt;Mentorship from engineers at the forefront of silicon innovation&lt;/li&gt;\n&lt;li&gt;Exposure to the full lifecycle of chip development—from tape-out to deployment&lt;/li&gt;\n&lt;li&gt;Opportunity to contribute to products used by top hyperscalers and cloud providers&lt;/li&gt;\n&lt;li&gt;Potential pathway to a full-time role at Astera Labs&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;We know that creativity and innovation happen more often when teams include diverse ideas, backgrounds, and experiences, and we actively encourage everyone with relevant experience to apply, including people of color, LGBTQ+ and non-binary people, veterans, parents, and individuals with disabilities.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4025527005,
+      "name": "ASIC Engineering",
+      "child_ids": [],
+      "parent_id": 4000196005
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000118005,
+      "name": "San Jose",
+      "location": "San Jose, United States",
+      "child_ids": [],
+      "parent_id": 4019546005
+    }
+  ]
+}
