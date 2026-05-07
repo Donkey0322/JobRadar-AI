@@ -1,5 +1,42 @@
 [
   {
+    "company": "Salesforce",
+    "role": "Summer 2027 Intern - Software Engineer",
+    "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
+    "location": "8 Locations",
+    "id": 1033,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a BS in Computer Science or related technical field.",
+        "Returning to school after Summer 2027 to complete your degree.",
+        "Enrolled in a college or university in North America.",
+        "Strong understanding of object-oriented programming/design, algorithms, and data structures.",
+        "Demonstrate experience or strong curiosity with AI-assisted development tools.",
+        "Possess an AI-first mindset, comfortable experimenting with prompting techniques.",
+        "Strong understanding of CS fundamentals and practical coding application.",
+        "Demonstrate collaboration skills as a team player.",
+        "Experience using and critically reviewing code from LLM coding assistants.",
+        "Able to effectively guide AI tools to achieve desired outcomes.",
+        "Experience using Copilot, Cursor, Claude Code, Gemini, or other agent-based frameworks.",
+        "Complete coursework in SQL and relational database concepts.",
+        "Proficiency in Java, JavaScript, and related frameworks.",
+        "Working knowledge of HTML and web technologies.",
+        "Knowledge of front-end and back-end languages.",
+        "Strong written, verbal, and visual communication skills.",
+        "Strong analytical and problem-solving skills.",
+        "Committed to delivering high-quality solutions.",
+        "Self-motivated and eager to learn.",
+        "Experienced using telemetry and metrics for operational excellence.",
+        "Able to quickly adapt to new technologies."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Veeam Software",
     "role": "Software Intern, Policy Engineering- Summer 2026",
     "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101",
