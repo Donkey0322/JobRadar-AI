@@ -1,0 +1,197 @@
+{
+  "absolute_url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857832101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": true,
+      "requires_processing_consent": true,
+      "requires_retention_consent": false,
+      "retention_period": 730,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4464315101,
+  "location": {
+    "name": "San Jose, CA, USA"
+  },
+  "metadata": [
+    {
+      "id": 6526540101,
+      "name": "Job Approver",
+      "value": {
+        "name": "Meredith Trotta",
+        "email": "meredith.trotta@veeam.com",
+        "user_id": 4161235101,
+        "employee_id": "EID109002"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 6456081101,
+      "name": "Job Family",
+      "value": "Undergraduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6166180101,
+      "name": "Worker Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 5769283101,
+      "name": "Worker Sub-type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6330528101,
+      "name": "Work Type",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8280172101,
+      "name": "Workday P Level",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 6170480101,
+      "name": "Confidential",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 6330495101,
+      "name": "Time Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 14085936101,
+      "name": "Pay Rate Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6448262101,
+      "name": "Job Location State",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6491638101,
+      "name": "Department",
+      "value": "Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6350223101,
+      "name": "Additional Job Posting Locations",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 6502843101,
+      "name": "Background Check Package",
+      "value": "United States Graduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 10823088101,
+      "name": "Job HRBP",
+      "value": {
+        "name": null,
+        "email": null,
+        "user_id": null,
+        "employee_id": null
+      },
+      "value_type": "user"
+    }
+  ],
+  "id": 4857832101,
+  "updated_at": "2026-05-07T13:50:27-04:00",
+  "requisition_id": "EVER_420",
+  "title": "Software Engineering Intern- Summer 2026",
+  "company_name": "Veeam Software",
+  "first_published": "2026-05-07T13:50:27-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div class=&quot;elementToProof&quot;&gt;\n&lt;p&gt;Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security, and AI risk. Headquartered in Seattle with offices in more than 30 countries, Veeam protects over 550,000 customers worldwide, who trust Veeam to keep their businesses running. Join us as we go fearlessly forward together, growing, learning, and making a real impact for some of the world’s biggest brands.&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Summer Internship&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our Summer Internship is designed for students leading into their final year of university, who want to gain real life work experience in a fast past, exciting and professional environment.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;As a Summer Intern, you will&amp;nbsp;participate&amp;nbsp;in onboarding with the UR team that will set you up for success in your role. You will also&amp;nbsp;benefit&amp;nbsp;from professional development sessions, networking, and social events provided by the Internship Program.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;The program takes place from June – August 2026 (12 week program) &lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;&lt;span data-ccp-parastyle=&quot;heading 3&quot;&gt;Software Engineering Intern - Platform, Security &amp;amp; AI&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134245418&amp;quot;:false,&amp;quot;134245529&amp;quot;:false,&amp;quot;335559738&amp;quot;:280,&amp;quot;335559739&amp;quot;:80}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;What We&#39;re Looking For&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;1&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Passion &amp;amp; Drive:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Strong willingness to learn, innovate, and contribute to the intersection of Cyber Security, Data Resilience, and AI.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;1&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Technical Foundation:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;High level&amp;nbsp;of comfort in a major programming language (Python, Go, or Java preferred). You should understand core data structures, algorithms, and how to independently debug your own code.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;1&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Security &amp;amp; AI Knowledge:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Familiarity with Cyber &amp;amp; Data Security practices, alongside a foundational understanding of AI Agents, LLMs, and Agent Evaluations.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;1&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Infrastructure &amp;amp; Tooling:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Experience with Kubernetes and containerization.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;1&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;5&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Collaboration:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Basic knowledge of Git and GitHub for collaborative software development.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Nice To Have&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Cloud &amp;amp; Infrastructure:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Working knowledge of Kubernetes/Helm and an understanding of the basics of CI/CD pipelines.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Architecture:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Exposure to&amp;nbsp;event-driven systems (e.g., Redis Pub/Sub, NATS) and experience with workflow orchestration systems like Temporal.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;GenAI Expertise:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Understanding or&amp;nbsp;prior experience with GenAI concepts like RAG, Vector Databases, and Embeddings.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;AI Frameworks &amp;amp; Pipelines:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Usage of AI frameworks (e.g.,&amp;nbsp;LangChain,&amp;nbsp;LangGraph) and an understanding of how to develop, tune, and deploy AI/ML frameworks and Data Model pipelines.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;What You Could Be Working On&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;4&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Backend &amp;amp; Infrastructure:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Write backend code and automation in Go within a large, production-grade codebase. You will learn established patterns for scalable infrastructure under the guidance of senior engineers, deploying and managing containerized applications across Kubernetes clusters and AWS infrastructure (EKS, ECR, IAM).&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;4&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;AI &amp;amp; Agent Development:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Build long-running agents that unleash the full power of the&amp;nbsp;Securiti&amp;nbsp;AI + Veeam platforms for CISOs and security analysts. This includes unlocking automated&amp;nbsp;breachimpact analysis, compliance reporting, and data access auditing across hybrid&amp;nbsp;multicloud&amp;nbsp;environments.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;4&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Agent Evaluation &amp;amp; Knowledge Pipelines:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Develop Agent Evaluation Pipelines&amp;nbsp;to measurably&amp;nbsp;assess reliability and task completion rates. You will also build&amp;nbsp;knowledge&amp;nbsp;discovery pipelines that surface institutional knowledge (policy research, compliance frameworks) into agent-consumable layers for sharper decision-making.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;4&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Security &amp;amp; Vulnerability Management:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Analyze Kubernetes deployment configurations to&amp;nbsp;identify&amp;nbsp;and fix security gaps. You will help manage the CVE lifecycle by&amp;nbsp;identifying&amp;nbsp;and patching vulnerabilities in container images to harden the platform.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;4&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;5&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Tooling &amp;amp; Reliability:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Develop internal tooling, testing harnesses, and security utilities to improve team productivity. You will also execute and&amp;nbsp;validate&amp;nbsp;API and cross-service integration tests to ensure system reliability as the platform evolves.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Targeted Field of Study&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt; Currently pursuing a &lt;span data-contrast=&quot;none&quot;&gt;&lt;strong&gt;Bachelors or&lt;/strong&gt; &lt;strong&gt;Master’s degree in&lt;/strong&gt;&lt;/span&gt;:&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;3&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Computer Science&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;3&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;2&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Software Development / Software Engineering&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;3&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;3&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Systems Engineering&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;3&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Cybersecurity&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;●&quot; data-font=&quot;&quot; data-listid=&quot;3&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;●&amp;quot;}&quot; data-aria-posinset=&quot;5&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Or other closely related fields.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:240,&amp;quot;335559991&amp;quot;:360}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;Requirements:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;This role requires you to be in office 2-3 days a week at the San Jose, California location&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&lt;strong&gt;&lt;span class=&quot;TextRun SCXW171421366 BCX0&quot; lang=&quot;EN-AU&quot; data-contrast=&quot;none&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;Applicants must&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;be authorized to&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;&amp;nbsp;work in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa now or in the future.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW171421366 BCX0&quot; data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a paid intern at Veeam, you’ll receive:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Paid Company Holidays&lt;/strong&gt; during your internship&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tech Stipend&lt;/strong&gt; to help set up your workspace&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;8 Hours of Paid Volunteer Time&lt;/strong&gt; through our Veeam Cares Program&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Personal and Professional &lt;/strong&gt;Development through our Internship Program&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re committed to providing a supportive and rewarding internship experience.&lt;/p&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;p&gt;&lt;em&gt;The pay range posted is an hourly rate of base pay. When making an offer of employment, Veeam will take into consideration the candidate’s expectations, experience, education, scope of responsibility for the role, and the current market demands.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=&quot;title&quot;&gt;United States of America Intern Pay Range&lt;/div&gt;\n&lt;div class=&quot;pay-range&quot;&gt;$40 - $50 USD&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;hr&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Veeam Software is an equal opportunity employer&lt;/strong&gt; and does not tolerate discrimination in any form on the basis of race, color, religion, gender, age, national origin, citizenship, disability, veteran status or any other classification protected by federal, state or local law. All your information will be kept confidential.&lt;/span&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Please note that any personal data collected from you during the recruitment process will be processed in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;. &amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;The Privacy Notice sets out the basis on which the personal data collected from you, or that you provide to us, will be processed by us in connection with our recruitment processes.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;By applying for this position, you consent to the processing of your personal data in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;By submitting your application, you acknowledge that the information provided in your job application and any supporting documents is complete and accurate to the best of your knowledge. Any misrepresentation, omission, or falsification of information may result in disqualification from consideration for employment or, if discovered after employment begins, termination of employment.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;a id=&quot;app&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4059661101,
+      "name": "Securiti_RehanJalil 1009660",
+      "child_ids": [
+        4059671101,
+        4059663101,
+        4059664101,
+        4059668101,
+        4059666101,
+        4059670101,
+        4072063101,
+        4059662101,
+        4059669101,
+        4069620101,
+        4059672101,
+        4059665101,
+        4059667101,
+        4059678101,
+        4059675101,
+        4067129101,
+        4061662101,
+        4059694101,
+        4059685101,
+        4059688101,
+        4059686101,
+        4059687101,
+        4059689101,
+        4059690101,
+        4059693101,
+        4059695101,
+        4059696101,
+        4059697101,
+        4059677101,
+        4072064101,
+        4072065101,
+        4072066101,
+        4059673101,
+        4059674101,
+        4072502101,
+        4059681101,
+        4059682101,
+        4059683101,
+        4061663101,
+        4059679101,
+        4059680101,
+        4059676101,
+        4061661101,
+        4059716101,
+        4059710101,
+        4059711101,
+        4059715101,
+        4059712101,
+        4059713101,
+        4059714101,
+        4059717101,
+        4059718101,
+        4072061101,
+        4072062101,
+        4061658101,
+        4061659101
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4011726101,
+      "name": "United States of America",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4011712101
+    }
+  ]
+}

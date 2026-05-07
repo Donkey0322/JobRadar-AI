@@ -1,5 +1,64 @@
 [
   {
+    "company": "Veeam Software",
+    "role": "Software Intern, Policy Engineering- Summer 2026",
+    "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101",
+    "location": "San Jose, CA, USA",
+    "id": 1032,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master’s degree in Computer Science, Information Technology, Engineering, or a related field.",
+        "Exhibit strong problem-solving and analytical skills.",
+        "Demonstrate prior use of AI tooling.",
+        "Work independently in a dynamic, fast-paced environment.",
+        "Possess a detail-oriented, proactive, problem-solving mindset.",
+        "Be comfortable working in a fast-paced, collaborative environment.",
+        "Manage multiple moving pieces with strong organizational skills."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Veeam Software",
+    "role": "Software Engineering Intern- Summer 2026",
+    "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857832101",
+    "location": "San Jose, CA, USA",
+    "id": 1031,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Strong willingness to learn and innovate",
+        "Comfortable in a major programming language (Python, Go, Java preferred)",
+        "Understand core data structures and algorithms",
+        "Independently debug your own code",
+        "Familiarity with Cyber & Data Security practices",
+        "Foundational understanding of AI Agents, LLMs, and Agent Evaluations",
+        "Experience with Kubernetes and containerization",
+        "Basic knowledge of Git and GitHub",
+        "Working knowledge of Kubernetes/Helm",
+        "Understand basics of CI/CD pipelines",
+        "Exposure to event-driven systems (e.g., Redis Pub/Sub, NATS)",
+        "Experience with workflow orchestration systems like Temporal",
+        "Understand GenAI concepts (RAG, Vector Databases, Embeddings)",
+        "Use AI frameworks (e.g., LangChain, LangGraph)",
+        "Understand developing, tuning, and deploying AI/ML frameworks and Data Model pipelines",
+        "Pursue a Bachelor's or Master's degree in Computer Science",
+        "Pursue a Bachelor's or Master's degree in Software Development / Software Engineering",
+        "Pursue a Bachelor's or Master's degree in Systems Engineering",
+        "Pursue a Bachelor's or Master's degree in Cybersecurity",
+        "Pursue a Bachelor's or Master's degree in closely related fields"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Endpoint Clinical",
     "role": "AI Intern",
     "link": "https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply",

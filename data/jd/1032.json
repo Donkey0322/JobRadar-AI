@@ -1,0 +1,197 @@
+{
+  "absolute_url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": true,
+      "requires_processing_consent": true,
+      "requires_retention_consent": false,
+      "retention_period": 730,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4464314101,
+  "location": {
+    "name": "San Jose, CA, USA"
+  },
+  "metadata": [
+    {
+      "id": 6526540101,
+      "name": "Job Approver",
+      "value": {
+        "name": "Meredith Trotta",
+        "email": "meredith.trotta@veeam.com",
+        "user_id": 4161235101,
+        "employee_id": "EID109002"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 6456081101,
+      "name": "Job Family",
+      "value": "Undergraduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6166180101,
+      "name": "Worker Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 5769283101,
+      "name": "Worker Sub-type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6330528101,
+      "name": "Work Type",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8280172101,
+      "name": "Workday P Level",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 6170480101,
+      "name": "Confidential",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 6330495101,
+      "name": "Time Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 14085936101,
+      "name": "Pay Rate Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6448262101,
+      "name": "Job Location State",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6491638101,
+      "name": "Department",
+      "value": "Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6350223101,
+      "name": "Additional Job Posting Locations",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 6502843101,
+      "name": "Background Check Package",
+      "value": "United States Graduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 10823088101,
+      "name": "Job HRBP",
+      "value": {
+        "name": null,
+        "email": null,
+        "user_id": null,
+        "employee_id": null
+      },
+      "value_type": "user"
+    }
+  ],
+  "id": 4857828101,
+  "updated_at": "2026-05-07T13:26:59-04:00",
+  "requisition_id": "EVER_419",
+  "title": "Software Intern, Policy Engineering- Summer 2026",
+  "company_name": "Veeam Software",
+  "first_published": "2026-05-07T13:26:59-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div class=&quot;elementToProof&quot;&gt;\n&lt;p&gt;Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security, and AI risk. Headquartered in Seattle with offices in more than 30 countries, Veeam protects over 550,000 customers worldwide, who trust Veeam to keep their businesses running. Join us as we go fearlessly forward together, growing, learning, and making a real impact for some of the world’s biggest brands.&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Summer Internship&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our Summer Internship is designed for students leading into their final year of university, who want to gain real life work experience in a fast past, exciting and professional environment.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;As a Summer Intern, you will&amp;nbsp;participate&amp;nbsp;in onboarding with the UR team that will set you up for success in your role. You will also&amp;nbsp;benefit&amp;nbsp;from professional development sessions, networking, and social events provided by the Internship Program.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;The program takes place from June – August 2026 (12 week program) &lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/h4&gt;\n&lt;h4&gt;&lt;span data-teams=&quot;true&quot;&gt;Join the Policy Engineering team and contribute to building an enterprise-grade cloud data governance platform used by Fortune 500 clients to manage and protect sensitive data across complex, multi-cloud environments.&lt;/span&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Develop internal tooling, testing harnesses, and AI-assisted developer utilities that improve team productivity and engineering quality — owning small-to-medium scoped projects with real impact on day-to-day engineering workflows.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Write backend code in Go within a large, production-grade codebase — learning established patterns and conventions under the guidance of senior engineers and tech leads.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Build and maintain automated test suites and evaluation frameworks to validate system behavior, helping the team catch regressions and ensure correctness as the product evolves.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Explore and prototype AI/LLM-powered tooling to assist with development workflows — such as automated test generation, code analysis utilities, or documentation assistants.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Collaborate closely with senior engineers — attending design discussions, sprint planning, and code reviews as a participant, gaining exposure to how large-scale distributed systems are architected and delivered.&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-teams=&quot;true&quot;&gt;Ramp up on modern backend and cloud engineering practices including distributed systems concepts, event-driven architecture, multi-tenant SaaS design, and cloud infrastructure.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;strong&gt;&amp;nbsp;What you&#39;ll gain: &lt;/strong&gt;Hands-on experience shipping real software in a production engineering environment, mentorship from senior engineers, and deep exposure to enterprise cloud and data platform engineering.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;Requirements:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;This role requires you to be in office 5 days a week at the San Jose, California location&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Qualifications:&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-contrast=&quot;none&quot;&gt;Currently pursuing a &lt;strong&gt;Bachelors or&lt;/strong&gt; &lt;strong&gt;Master’s degree&amp;nbsp;&lt;/strong&gt;in Computer Science, Information Technology, Engineering, or a related field.&lt;/span&gt;&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Strong problem-solving and analytical skills.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Must be able to exhibit prior use of AI tooling&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Ability to work independently in a dynamic, fast-paced environment; high-energy, motivated self-starter.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;Detail-oriented with a proactive, problem-solving mindset &lt;/span&gt;&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;Comfortable working in a fast-paced, collaborative environment&lt;/span&gt;&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559683&amp;quot;:0,&amp;quot;335559684&amp;quot;:-2,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;Strong organizational skills with the ability to manage multiple moving pieces&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&lt;strong&gt;&lt;span class=&quot;TextRun SCXW171421366 BCX0&quot; lang=&quot;EN-AU&quot; data-contrast=&quot;none&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;Applicants must&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;be authorized to&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;&amp;nbsp;work in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa now or in the future.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW171421366 BCX0&quot; data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a paid intern at Veeam, you’ll receive:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Paid Company Holidays&lt;/strong&gt; during your internship&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tech Stipend&lt;/strong&gt; to help set up your workspace&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;8 Hours of Paid Volunteer Time&lt;/strong&gt; through our Veeam Cares Program&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Personal and Professional &lt;/strong&gt;Development through our Internship Program&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re committed to providing a supportive and rewarding internship experience.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;p&gt;&lt;em&gt;The pay range posted is an hourly rate of base pay. When making an offer of employment, Veeam will take into consideration the candidate’s expectations, experience, education, scope of responsibility for the role, and the current market demands.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=&quot;title&quot;&gt;United States of America Intern Pay Range&lt;/div&gt;\n&lt;div class=&quot;pay-range&quot;&gt;$40 - $50 USD&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;hr&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Veeam Software is an equal opportunity employer&lt;/strong&gt; and does not tolerate discrimination in any form on the basis of race, color, religion, gender, age, national origin, citizenship, disability, veteran status or any other classification protected by federal, state or local law. All your information will be kept confidential.&lt;/span&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Please note that any personal data collected from you during the recruitment process will be processed in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;. &amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;The Privacy Notice sets out the basis on which the personal data collected from you, or that you provide to us, will be processed by us in connection with our recruitment processes.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;By applying for this position, you consent to the processing of your personal data in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;By submitting your application, you acknowledge that the information provided in your job application and any supporting documents is complete and accurate to the best of your knowledge. Any misrepresentation, omission, or falsification of information may result in disqualification from consideration for employment or, if discovered after employment begins, termination of employment.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;a id=&quot;app&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4059661101,
+      "name": "Securiti_RehanJalil 1009660",
+      "child_ids": [
+        4059671101,
+        4059663101,
+        4059664101,
+        4059668101,
+        4059666101,
+        4059670101,
+        4072063101,
+        4059662101,
+        4059669101,
+        4069620101,
+        4059672101,
+        4059665101,
+        4059667101,
+        4059678101,
+        4059675101,
+        4067129101,
+        4061662101,
+        4059694101,
+        4059685101,
+        4059688101,
+        4059686101,
+        4059687101,
+        4059689101,
+        4059690101,
+        4059693101,
+        4059695101,
+        4059696101,
+        4059697101,
+        4059677101,
+        4072064101,
+        4072065101,
+        4072066101,
+        4059673101,
+        4059674101,
+        4072502101,
+        4059681101,
+        4059682101,
+        4059683101,
+        4061663101,
+        4059679101,
+        4059680101,
+        4059676101,
+        4061661101,
+        4059716101,
+        4059710101,
+        4059711101,
+        4059715101,
+        4059712101,
+        4059713101,
+        4059714101,
+        4059717101,
+        4059718101,
+        4072061101,
+        4072062101,
+        4061658101,
+        4061659101
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4011726101,
+      "name": "United States of America",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4011712101
+    }
+  ]
+}

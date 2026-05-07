@@ -7362,7 +7362,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/veeamsoftware/jobs",
     "urls": [
       "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4650993101",
-      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4671378101"
+      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4671378101",
+      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101",
+      "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857832101"
     ]
   },
   {
@@ -11038,6 +11040,16 @@
     ]
   },
   {
+    "name": "triumph-arcade",
+    "ats": "ashby",
+    "identifier": "triumph-arcade",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/triumph-arcade",
+    "urls": [
+      "https://jobs.ashbyhq.com/triumph-arcade/89d82fc2-c2dd-439d-bbc2-e3dcb298fffc"
+    ]
+  },
+  {
     "name": "uipath",
     "ats": "ashby",
     "identifier": "uipath",
@@ -11740,6 +11752,16 @@
     "page": "https://api.lever.co/v0/postings/diversified-automation?mode=json",
     "urls": [
       "https://jobs.lever.co/diversified-automation/1b50836b-0b6e-45ec-aef0-1156f08f2da0"
+    ]
+  },
+  {
+    "name": "endpointclinical",
+    "ats": "lever",
+    "identifier": "endpointclinical",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/endpointclinical?mode=json",
+    "urls": [
+      "https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply"
     ]
   },
   {
