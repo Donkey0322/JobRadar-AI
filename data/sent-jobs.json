@@ -1,5 +1,42 @@
 [
   {
+    "company": "Endpoint Clinical",
+    "role": "AI Intern",
+    "link": "https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 1030,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Triumph",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/triumph-arcade/89d82fc2-c2dd-439d-bbc2-e3dcb298fffc",
+    "location": "San Francisco, CA",
+    "season": "2026 Summer",
+    "id": 1029,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's degree in CS or related field, graduating between August 2026 and June 2028.",
+        "Proficient in at least one modern programming language.",
+        "Understand data structures, algorithms, and software design principles.",
+        "Experienced in building at least one project beyond coursework.",
+        "Strong written and verbal communication skills.",
+        "Comfortable working in a fast-paced, collaborative environment."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Sunlife",
     "role": "Student, Full Stack Developer (Fall 2026)",
     "link": "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
