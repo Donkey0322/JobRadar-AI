@@ -1,5 +1,68 @@
 [
   {
+    "company": "Comcast",
+    "role": "Comcast AI Research Intern",
+    "link": "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/DC---Washington-1325-G-ST-NW-STE-300/Comcast-AI-Research-Intern_R425982",
+    "location": "4 Locations",
+    "id": 1035,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a graduate program at a U.S. college or university",
+        "Possess a strong academic record",
+        "Be a rising second-year Master’s or PhD student",
+        "Returning to a degree program after summer internship completion",
+        "Available to work 40 hours per week from June 1 to August 14, 2026",
+        "Authorized to work in the United States",
+        "Available to report in-person to the work location",
+        "Have 2+ years research experience in NLP or Information Retrieval",
+        "Possess good programming and software development skills",
+        "Comfortable working in an interdisciplinary, team-oriented research environment",
+        "Majored in Computer Science (preferred)",
+        "Experience in Semantic Parsing for Natural Language Understanding (NLU)",
+        "Experience Aligning LLMs for task-oriented dialogue",
+        "Experience Evaluating LLMs",
+        "Develop algorithms for diverse dialogue generation",
+        "Investigate methods for multi-turn conversation generation",
+        "Create simulated evaluators for conversational bot performance",
+        "Develop ML methods to identify and collect high-quality training data",
+        "Explore techniques for dynamically adapting data collection strategies",
+        "Demonstrate accountability",
+        "Possess strong communication skills",
+        "Exhibit professional etiquette",
+        "Skilled in relationship building",
+        "Show resilience",
+        "Able to work in a team"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cccis",
+    "role": "AI Enablement Intern",
+    "link": "https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/AI-Enablement-Intern_0014668",
+    "location": "Chicago (Green St), IL",
+    "id": 1034,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in general-purpose scripting and programming languages (Python, Go, Java, JavaScript)",
+        "Understand Linux systems and bash scripts",
+        "Knowledge of version control systems like Git",
+        "Understand Software Development Lifecycle concepts and processes",
+        "Interested in learning new coding languages",
+        "Experience with Kubernetes, Terraform, Pulumi, Ansible, or similar (preferred)"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Salesforce",
     "role": "Summer 2027 Intern - Software Engineer",
     "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer_JR340771-1",
