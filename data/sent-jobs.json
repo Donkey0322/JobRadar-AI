@@ -1,5 +1,103 @@
 [
   {
+    "company": "TikTok",
+    "role": "Software Engineer Intern - Quality and Efficiency Technology",
+    "link": "https://lifeattiktok.com/search/7637047421538404613",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 1051,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an Undergraduate/Master in Computer Science, Computer Engineering, or a related technical discipline.",
+        "Possess solid programming skills in Python/Golang/Java/C/C++.",
+        "Have a genuine passion for software testing, with strong attention to detail.",
+        "Exhibit excellent communication skills and quickly grasp engineering and product nuances.",
+        "Prioritize experience in large-scale system test development or computational advertising.",
+        "Demonstrate enthusiasm for learning AI technologies and an AI-driven problem-solving mindset.",
+        "Commit to a 12-week full-time work period during Summer 2026."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Snyk",
+    "role": "Software Engineer Intern - Code Rules - Developer Security Platform",
+    "link": "https://snyk.wd103.myworkdayjobs.com/External/job/United-Kingdom---London-Office/Software-Engineer-Intern_JR100494",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 1050,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Proficient in at least one programming language",
+        "Understand complex, abstract systems like data-flow engines or abstract syntax trees",
+        "Effective communicator both verbally and in writing",
+        "Possess curiosity and bias for action",
+        "Hands-on experience with AI/LLMs or modern security tools",
+        "Experience working with or building static analysis tools (SAST), linters, or compilers",
+        "Experience with fuzzing"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Avis Budget Group",
+    "role": "AI Engineer Intern",
+    "link": "https://avisbudget.wd1.myworkdayjobs.com/abg_careers/job/Avis-Budget-House-HQ/AI-Engineer-Intern---Summer-2026_R0188401",
+    "location": "Bracknell, UK",
+    "season": "2026 Summer",
+    "id": 1049,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Currently enrolled in a relevant undergraduate or graduate program",
+        "Maintain an active GitHub profile with substantive AI/ML projects",
+        "Possess at least one prior AI/ML project experience",
+        "Gain previous internship or work experience in business/tech",
+        "Exhibit strong communication skills, bridging technical and non-technical",
+        "Be personable, enthusiastic, and able to teach AI topics",
+        "Comfortable with Python and common AI/ML libraries",
+        "Experienced with data engineering tools like SQL, pandas",
+        "Exposed to LLMs or generative AI in practical context",
+        "Demonstrate collaborative projects and consistent contributions on GitHub"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "ICF International",
+    "role": "AI Engineering Intern",
+    "link": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2026-Summer-Intern--AI-Engineering_R2601656",
+    "location": "Reston, VA",
+    "season": "2026 Summer",
+    "id": 1048,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete graduate-level courses in computer science or a relevant discipline",
+        "Possess a completed bachelor’s degree",
+        "Demonstrate interest or experience in using AI coding assistants",
+        "Familiarity with a programming language (Python, JavaScript/TypeScript, Java)",
+        "Familiarity with GenAI/LLM tooling (prompt frameworks, vector databases, LLM APIs)",
+        "Experience with version control systems (Git)",
+        "Exposure to cloud platforms (AWS, Azure, Google Cloud)",
+        "Strong analytical and problem-solving skills",
+        "Excellent communication and collaboration skills",
+        "Enthusiasm for learning and applying new technologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "True Anomaly",
     "role": "Front End Software Engineer Intern",
     "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5131359007",
