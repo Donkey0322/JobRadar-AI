@@ -591,6 +591,16 @@
     ]
   },
   {
+    "name": "americanfidelity",
+    "ats": "workday",
+    "identifier": "americanfidelity-external",
+    "domain": "https://americanfidelity.wd5.myworkdayjobs.com/external",
+    "page": "https://americanfidelity.wd5.myworkdayjobs.com/wday/cxs/americanfidelity/external/jobs",
+    "urls": [
+      "https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Agentic-AI-Internship_JR723"
+    ]
+  },
+  {
     "name": "amfam",
     "ats": "workday",
     "identifier": "amfam-amfamgroupinterncareers",
@@ -1601,6 +1611,16 @@
     "urls": [
       "https://bnymellon.eightfold.ai/careers/job/37999989",
       "https://bnymellon.eightfold.ai/careers/job/38014907"
+    ]
+  },
+  {
+    "name": "nice",
+    "ats": "greenhouse",
+    "identifier": "nice",
+    "domain": "https://boards.eu.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/nice/jobs",
+    "urls": [
+      "https://boards.eu.greenhouse.io/nice/jobs/4861093101?gh_jid=4861093101"
     ]
   },
   {
@@ -4972,6 +4992,17 @@
     "urls": [
       "https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Gastonia-NC-US/IT-Developer-Analyst-Intern_DT-15618",
       "https://dtna.wd5.myworkdayjobs.com/DTNA_external/job/Portland-OR-US/AI-Documentation-Integration-Intern---Autonomous-Cascadia_DT-15546"
+    ]
+  },
+  {
+    "name": "dxctechnology",
+    "ats": "workday",
+    "identifier": "dxctechnology-dxcjobs",
+    "domain": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs",
+    "page": "https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/dxcjobs/jobs",
+    "urls": [
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---IL---ANY-CITY/Technical-Intern---Chicago--IL_51580046",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---IL---ANY-CITY/Technical-Intern---Chicago--IL_51580053-1"
     ]
   },
   {
@@ -11457,6 +11488,7 @@
       "https://jobs.jobvite.com/idtus/job/oN7iyfwu?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/idtus/job/oY6myfwI?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/idtus/job/oZflyfwR?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/inogen/job/oTz6zfwR?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/inogen/job/oz8IzfwI?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/o7Ghyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
@@ -14981,6 +15013,7 @@
     "domain": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1",
     "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/rbcearlytalent1/jobs",
     "urls": [
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2026-CAE--Fall-GenAI-Engineer-Co-op--12-months-_R-0000171537",
       "https://rbc.wd3.myworkdayjobs.com/en-US/RBCEARLYTALENT1/job/Jersey-City-New-Jersey-United-States-of-America/XMLNAME-2026-Capital-Markets---Quantitative-Technology-Services-Summer-Analyst_R-0000140751-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/90-WESTERN-PKYBEDFORD/XMLNAME-2026-Fall-Student-Opportunities-Capital-Markets--QTS---Software-Developer--4-months--Halifax_R-0000169401-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/RBC-WATERPARK-PLACE-88-QUEENS-QUAY-WTORONTO/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--12-Months_R-0000168720-1",
