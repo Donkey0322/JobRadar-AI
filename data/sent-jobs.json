@@ -1,5 +1,37 @@
 [
   {
+    "company": "True Anomaly",
+    "role": "Front End Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5131359007",
+    "location": "Denver, CO",
+    "id": 1047,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently completed a bachelor's degree in Computer Science or related discipline",
+        "Understand HTML/CSS and modern JavaScript or TypeScript",
+        "Familiarity with React or similar modern frontend frameworks",
+        "Understand how frontend applications communicate with backend services",
+        "Interest in building complex, data-rich user interfaces",
+        "Comfort with Git and collaborative development workflows",
+        "Strong written and oral communication skills and aptitude for working across disciplines",
+        "Enjoy debugging and problem solving",
+        "Have a strong bias towards understanding how things work",
+        "Experience with React patterns including hooks, functional components, and component composition",
+        "Exposure to testing frameworks such as Jest, Vitest, or React Testing Library",
+        "Familiarity with component libraries, design systems, or tools like Storybook and Figma",
+        "Exposure to Three.js, React Three Fiber, or other web-based 3D libraries",
+        "Familiarity with CSS-in-JS, Tailwind, or other modern styling approaches",
+        "Exposure to databases such as PostgreSQL or MySQL",
+        "Interest in data visualization, real-time interfaces, or interactive 3D applications"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Tesla",
     "role": "Software Machine Learning Engineer Intern, Reliability Energy Engineering",
     "link": "https://www.tesla.com/careers/search/job/242665",
