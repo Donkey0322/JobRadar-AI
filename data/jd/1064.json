@@ -1,0 +1,92 @@
+{
+  "absolute_url": "https://boards.eu.greenhouse.io/nice/jobs/4861093101?gh_jid=4861093101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4466014101,
+  "location": {
+    "name": "USA – Santa Clara, CA"
+  },
+  "metadata": [
+    {
+      "id": 4778158101,
+      "name": "Job Type",
+      "value": "No PN",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4787631101,
+      "name": "Hiring Manager",
+      "value": {
+        "name": "Arjun Bhattacharya",
+        "email": "arjun.bhattacharya@niceactimize.com",
+        "user_id": 4107983101,
+        "employee_id": "142753"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 4614529101,
+      "name": "Category",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 4614545101,
+      "name": "Job String",
+      "value": "R&D.Software Engineering.Software Engineer",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4787135101,
+      "name": "(HRBP) Critical Role",
+      "value": "Not Applicable",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4952164101,
+      "name": "(HRBP) Acquisition Job",
+      "value": "Not Applicable",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7821998101,
+      "name": "TA Director Only – Campaign",
+      "value": null,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4861093101,
+  "updated_at": "2026-05-08T12:22:33-04:00",
+  "requisition_id": "10840",
+  "title": "Software Engineer Intern",
+  "company_name": "NICE",
+  "first_published": "2026-05-08T12:22:33-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;At NiCE, we don’t limit our challenges. We challenge our limits. Always. We’re ambitious. We’re game changers. And we play to win. We set the highest standards and execute beyond them. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Job Title: Software Engineering Intern&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt;&amp;nbsp;On-site 4 days&amp;nbsp;in Santa Clara, CA&lt;br&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 8 weeks&amp;nbsp;&lt;br&gt;&lt;strong&gt;Department:&lt;/strong&gt; Engineering, Premier&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Role:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We are looking for a motivated and curious Software Engineering Intern to join our team for Summer 2026. This is an opportunity to work on real-world problems in fraud detection, collaborate with experienced engineers, and contribute to production-grade systems—while gaining exposure to practical applications of generative AI.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Responsibilities:&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work with engineers and product teams to design and build features for our financial crime prevention platform&lt;/li&gt;\n&lt;li&gt;Write clean, efficient, and maintainable code in a collaborative environment&lt;/li&gt;\n&lt;li&gt;Use modern developer tools, including generative AI assistants, to improve productivity and code quality&lt;/li&gt;\n&lt;li&gt;Participate in code reviews, testing, and debugging&lt;/li&gt;\n&lt;li&gt;Analyze data and help improve detection logic or system performance&lt;/li&gt;\n&lt;li&gt;Contribute ideas toward applying AI/ML (including generative AI) to real-world fraud detection problems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Based Qualifications&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a Bachelor’s degree (or higher) in Computer Science or a related field&lt;/li&gt;\n&lt;li&gt;Completed at least 2 years of coursework (rising junior or above)&lt;/li&gt;\n&lt;li&gt;Strong fundamentals in data structures, algorithms, and software design&lt;/li&gt;\n&lt;li&gt;Proficiency in at least one programming language (e.g., Java, Python)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Familiarity with databases (SQL or NoSQL)&lt;/li&gt;\n&lt;li&gt;Exposure to backend development, APIs, or distributed systems&lt;/li&gt;\n&lt;li&gt;Interest in AI/ML or generative AI applications&lt;/li&gt;\n&lt;li&gt;Experience with version control systems (e.g., Git)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What We’re Looking For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Curiosity and eagerness to learn&lt;/li&gt;\n&lt;li&gt;Strong problem-solving skills&lt;/li&gt;\n&lt;li&gt;Ability to collaborate effectively in a team environment&lt;/li&gt;\n&lt;li&gt;Interest in leveraging new technologies (including AI tools) to build better systems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Eligibility Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Must be based in or able to work from the California Bay Area during the internship period&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;About NiCE &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;NICE Ltd. (NASDAQ: NICE) software products are used by 25,000+ global businesses, including 85 of the Fortune 100 corporations, to deliver extraordinary customer experiences, fight financial crime and ensure public safety. Every day, NiCE software manages more than 120 million customer interactions and monitors 3+ billion financial transactions. &lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Known as an innovation powerhouse that excels in AI, cloud and digital, NiCE is consistently recognized as the market leader in its domains, with over 8,500 employees across 30+ countries. &lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;NiCE is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, age, sex, marital status, ancestry, neurotype, physical or mental disability, veteran status, gender identity, sexual orientation or any other category protected by law.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4017083101,
+      "name": "Actimize, LP,Premier, Engineering, NA",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017517101,
+      "name": "USA – Santa Clara, CA",
+      "location": "USA – Santa Clara, CA",
+      "child_ids": [],
+      "parent_id": 4005091101
+    }
+  ]
+}

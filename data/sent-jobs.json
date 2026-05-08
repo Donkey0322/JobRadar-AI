@@ -1,5 +1,169 @@
 [
   {
+    "company": "Royal Bank of Canada",
+    "role": "GenAI Engineer Co-op",
+    "link": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2026-CAE--Fall-GenAI-Engineer-Co-op--12-months-_R-0000171537",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1069,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in a Computer Science, Data Science, Engineering, or related degree.",
+        "Strong understanding of Python and JavaScript.",
+        "Understand Large Language Models.",
+        "Available for a 12-month Co-op commitment.",
+        "Enthusiastic about investigating new technologies.",
+        "Proficient in JavaScript frontend frameworks (e.g., React, Angular, Vue).",
+        "Experienced with Python LLM frameworks (e.g., LangChain, LangGraph, LlamaIndex).",
+        "Understand general web development concepts.",
+        "Experienced with version control systems like GitHub.",
+        "Excellent communication skills.",
+        "Proficient in computer literacy.",
+        "Be detail-oriented.",
+        "Strong interpersonal relationship skills.",
+        "Listen effectively.",
+        "Committed to personal development.",
+        "Demonstrate personal initiative."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "DXC Technology",
+    "role": "Technical Intern",
+    "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---IL---ANY-CITY/Technical-Intern---Chicago--IL_51580046",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 1068,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Work toward a Bachelor's or Associate's degree",
+        "Preferred degree in computer science, MIS, or related field",
+        "Have zero or more years of technology-related work experience",
+        "Preferred experience with system development or system analysis",
+        "Preferred experience with programming languages, OS, hardware, and software",
+        "Possess basic interpersonal skills",
+        "Possess basic communication skills",
+        "Possess basic analytical and problem-solving skills",
+        "Ability to work in a team environment"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "DXC Technology",
+    "role": "Technical Intern",
+    "link": "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---IL---ANY-CITY/Technical-Intern---Chicago--IL_51580053-1",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 1067,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Working toward a Bachelor's or Associate's degree.",
+        "Pursue a degree in computer science, management information systems, or a related field (preferred).",
+        "Possess zero or more years of technology-related work experience.",
+        "Exhibit experience with system development or system analysis (preferred).",
+        "Gain experience with relevant programming languages, operating systems, hardware, and software (preferred).",
+        "Possess basic interpersonal skills to interact with customers and team members.",
+        "Demonstrate basic communication skills.",
+        "Apply basic analytical and problem-solving skills for program design, creation, and testing.",
+        "Ability to work in a team environment."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "American Fidelity",
+    "role": "Agentic AI Intern",
+    "link": "https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Agentic-AI-Internship_JR723",
+    "location": "Oklahoma City, OK",
+    "season": "2026 Summer",
+    "id": 1066,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Graduating December 2026 or after",
+        "Available to intern for up to a year",
+        "Strong collaboration and teamwork skills",
+        "Possess problem solving skills",
+        "Strong verbal and written communication skills",
+        "Competent business etiquette and ethics",
+        "Strong experience with MS Productivity Suite",
+        "Ability to learn and adapt quickly, especially to technology",
+        "Ability to analyze and document business and technical processes",
+        "Basic business and financial acumen",
+        "Possess critical thinking skills",
+        "Knowledge of PC hardware and software",
+        "Strong work ethic"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Inogen",
+    "role": "IT Mobile and Web Intern",
+    "link": "https://jobs.jobvite.com/inogen/job/oTz6zfwR?nl=1&nl=1&fr=false",
+    "location": "Plano, TX",
+    "season": "2026 Summer",
+    "id": 1065,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a bachelor's or master's degree in Information Systems, Computer Science, Business Analytics, or related field.",
+        "Possess knowledge of full-stack development using React, Angular, HTML, CSS, JavaScript.",
+        "Understand integrated frameworks using RESTful APIs and connecting to Inogen’s process and technology stack.",
+        "Familiar with Agile and DevOps practices using tools such as JIRA, Confluence, Jenkins, GitHub, Azure DevOps.",
+        "Understand automated and manual QA processes and tools like Selenium, SonarCloud, BrowserStack, X-Ray.",
+        "Possess knowledge of low and no code platforms and secure deployment.",
+        "Exposed to application development lifecycle and frameworks.",
+        "Interested in how AI and automation can improve business engagement workflows.",
+        "Understand healthcare and regional information security best practices and regulatory requirements (HIPAA, GDPR, etc.)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "NiCE",
+    "role": "Software Engineer Intern",
+    "link": "https://boards.eu.greenhouse.io/nice/jobs/4861093101?gh_jid=4861093101",
+    "location": "Santa Clara, CA",
+    "season": "2026 Summer",
+    "id": 1064,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's degree (or higher) in Computer Science or related field",
+        "Complete at least 2 years of coursework (rising junior or above)",
+        "Strong fundamentals in data structures, algorithms, and software design",
+        "Proficient in at least one programming language (e.g., Java, Python)",
+        "Familiar with databases (SQL or NoSQL)",
+        "Exposure to backend development, APIs, or distributed systems",
+        "Interested in AI/ML or generative AI applications",
+        "Experienced with version control systems (e.g., Git)",
+        "Curious and eager to learn",
+        "Strong problem-solving skills",
+        "Able to collaborate effectively in a team environment",
+        "Interested in leveraging new technologies (including AI tools) to build better systems"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Rockwellautomation",
     "role": "Co-op, Embedded Software Engineer (May 2026 - December 2026)",
     "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Co-op--Embedded-Software-Engineer--May-2026---December-2026-_R25-7668",

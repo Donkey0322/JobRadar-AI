@@ -1,0 +1,252 @@
+{
+"@context": "http://schema.org",
+"@type": "JobPosting",
+"datePosted": "2026-05-08",
+"description": "<h1>Job Summary</h1><p>We are seeking hands-on interns who can work with data and AI teams.</p><h2>What Will You Learn</h2><ul><li>Mobile (iOS and Android) and web application development using low or no code platforms</li><li>Good understanding of overall project development lifecycle using DevOps, CI/CD and Quality procedures</li><li>Build external applications with cybersecurity best practices and Identity Access Management tools such as Auth0</li><li>How to work with Change and Quality control processes for medical devices</li></ul><h2>Responsibilities</h2><p><em>Specific tasks, duties, essential functions of the job</em></p><ul><li>Design, build and create performant architectures for React Native mobile and web apps using modern frameworks and tools</li><li>Explore low and no code platforms such as Flutter, ServiceNow to build fast and scalable applications</li><li>Implement intuitive and responsive UI/UX designs consistent across iOS, Android, and web platforms</li><li>Collaborate with developers and testers on automated QA platforms and best practices</li><li>Ensure secure communication and data privacy (HIPAA, GDPR, etc.) with the Cybersecurity team</li><li>Participate in code reviews and communicate progress and challenges</li><li>Integrate using REST APIs and build autonomous workflows and assistants for task automation</li><li>Assist in creating technical specifications, unit tests, and other quality documentation</li></ul><h2>Qualifications</h2><p><em>Experience and Education</em></p><ul><li>Enrolled in a bachelor\u2019s or master\u2019s degree in Information Systems, Computer Science, Business Analytics, or related field</li><li>Knowledge of full-stack development using React, Angular, HTML, CSS, JavaScript</li><li>Understanding of integrated frameworks using RESTful APIs and connecting to Inogen\u2019s process and technology stack</li><li>Familiarity with Agile and DevOps practices using tools such as JIRA, Confluence, Jenkins, GitHub, Azure DevOps</li><li>Understanding of automated and manual QA processes and tools like Selenium, SonarCloud, BrowserStack, X-Ray</li><li>Knowledge of low and no code platforms and secure deployment</li><li>Exposure to application development lifecycle and frameworks</li><li>Interest in how AI and automation can improve business engagement workflows</li><li>Understanding of healthcare and regional information security best practices and regulatory requirements (HIPAA, GDPR, etc.)</li></ul><p>\u00A0</p><p>Disclaimer: The above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties and skills required of personnel so classified.</p><p>\u00A0</p><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">Inogen assesses market data to ensure a competitive compensation package for our employees. \u00A0The base salary for this position is expected to be between\u00A0$21.19 and $23.37 per hour. However,\u00A0actual\u00A0base salary if hired will be determined on an individualized basis\u00A0and will be based on non-discriminatory factors, including\u00A0as to\u00A0individual skills, education,\u00A0experience and market location.\u00A0</span></div><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">\u00A0</span></div><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">Inogen is an Equal Employment Opportunity/Affirmative Action Employer - Underrepresented racial and ethnic groups/Females/Individuals with Disabilities/Protected Veterans.</span></div>",
+"hiringOrganization": "Inogen",
+"employmentType": "Intern",
+"industry": "Information Technology",
+"identifier": "oTz6zfwR",
+"jobLocation": [
+{
+"@type": "Place",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Plano",
+"addressRegion": "Texas",
+"addressCountry": "United States"
+}
+}
+],
+"title": "IT Mobile and Web Intern",
+"baseSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": "21.20",
+"maxValue": "23.37",
+"unitText": "Hourly"
+}
+}
+}
+Inogen Careers - IT Mobile and Web Intern
+function getUserId() { return ''; }
+function getCompanyId() { return 'qr2bVfwj'; }
+function getJobId() { return 'oTz6zfwR'; }
+function getCategoryId() { return '65536'; }
+try {
+var enableAnonymizeIP = false;
+var trackerId = "UA-253014913-1";
+var gtagSrc = "https://www.googletagmanager.com/gtag/js?id=" + trackerId
+document.write('<script async src="' + gtagSrc + '"><\/script>');
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', trackerId, {
+'custom_map': {
+'dimension1': 'UserId',
+'dimension2': 'CompanyId',
+'dimension3': 'SubsidiaryId',
+'dimension4': 'JobId',
+'dimension5': 'CategoryId'
+},
+'UserId': getUserId(),
+'CompanyId': getCompanyId(),
+'SubsidiaryId': typeof getSubsidiaryId === 'function' ? getSubsidiaryId() : null,
+'JobId': typeof getJobId === 'function' ? getJobId() : null,
+'CategoryId': typeof getCategoryId === 'function' ? getCategoryId() : null,
+'anonymize_ip': enableAnonymizeIP
+});
+} catch (err) {}
+function getUserId() { return ''; }
+function getCWSRole() {
+var cwsRole = "Visitor";
+if("job" ==="applyconfirm"){
+cwsRole = "Applicant";
+}
+return cwsRole;
+}
+function getSfdc18DigitAccountNumber() {
+return '001Ua00000DdmBfIAJ';
+}
+function getCompanyName() { return 'Inogen'; }
+src="https://storage.googleapis.com/gainsight-px-cloud-public-assets/sdk/js/gpx-util.js">
+var userId = getUserId();
+var samplePercentage = 1;
+if(__IdSampler.isIdInSamplePopulation(userID,samplePercentage)){
+(function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+(n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
+var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+})(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-G2NZN1QKA9C9-2")
+};
+// User and account for Gainsight
+aptrinsic("identify", {
+// User Fields
+"id": getUserId(),
+"role": getCWSRole()
+},
+{
+// Account Fields
+"id": typeof getSfdc18DigitAccountNumber === 'function' ? getSfdc18DigitAccountNumber() : null,
+"name": typeof getCompanyName === 'function' ? getCompanyName() : null
+});
+if (window.self !== window.parent) {
+document.documentElement.className += ' jv-iframe';
+}
+Inogen Careers
+{
+"@context": "http://schema.org",
+"@type": "JobPosting",
+"datePosted": "2026-05-08",
+"description": "<h1>Job Summary</h1><p>We are seeking hands-on interns who can work with data and AI teams.</p><h2>What Will You Learn</h2><ul><li>Mobile (iOS and Android) and web application development using low or no code platforms</li><li>Good understanding of overall project development lifecycle using DevOps, CI/CD and Quality procedures</li><li>Build external applications with cybersecurity best practices and Identity Access Management tools such as Auth0</li><li>How to work with Change and Quality control processes for medical devices</li></ul><h2>Responsibilities</h2><p><em>Specific tasks, duties, essential functions of the job</em></p><ul><li>Design, build and create performant architectures for React Native mobile and web apps using modern frameworks and tools</li><li>Explore low and no code platforms such as Flutter, ServiceNow to build fast and scalable applications</li><li>Implement intuitive and responsive UI/UX designs consistent across iOS, Android, and web platforms</li><li>Collaborate with developers and testers on automated QA platforms and best practices</li><li>Ensure secure communication and data privacy (HIPAA, GDPR, etc.) with the Cybersecurity team</li><li>Participate in code reviews and communicate progress and challenges</li><li>Integrate using REST APIs and build autonomous workflows and assistants for task automation</li><li>Assist in creating technical specifications, unit tests, and other quality documentation</li></ul><h2>Qualifications</h2><p><em>Experience and Education</em></p><ul><li>Enrolled in a bachelor\u2019s or master\u2019s degree in Information Systems, Computer Science, Business Analytics, or related field</li><li>Knowledge of full-stack development using React, Angular, HTML, CSS, JavaScript</li><li>Understanding of integrated frameworks using RESTful APIs and connecting to Inogen\u2019s process and technology stack</li><li>Familiarity with Agile and DevOps practices using tools such as JIRA, Confluence, Jenkins, GitHub, Azure DevOps</li><li>Understanding of automated and manual QA processes and tools like Selenium, SonarCloud, BrowserStack, X-Ray</li><li>Knowledge of low and no code platforms and secure deployment</li><li>Exposure to application development lifecycle and frameworks</li><li>Interest in how AI and automation can improve business engagement workflows</li><li>Understanding of healthcare and regional information security best practices and regulatory requirements (HIPAA, GDPR, etc.)</li></ul><p>\u00A0</p><p>Disclaimer: The above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties and skills required of personnel so classified.</p><p>\u00A0</p><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">Inogen assesses market data to ensure a competitive compensation package for our employees. \u00A0The base salary for this position is expected to be between\u00A0$21.19 and $23.37 per hour. However,\u00A0actual\u00A0base salary if hired will be determined on an individualized basis\u00A0and will be based on non-discriminatory factors, including\u00A0as to\u00A0individual skills, education,\u00A0experience and market location.\u00A0</span></div><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">\u00A0</span></div><div style=\"background-repeat: no-repeat;outline: none;overflow: visible;color: rgb(51,51,51);font-family: 'Open Sans' , Helvetica;font-size: 14.0px;font-style: normal;font-weight: 400;letter-spacing: normal;text-indent: 0.0px;text-transform: none;word-spacing: 0.0px;\"><span style=\"background-repeat: no-repeat;outline: none;font-size: 11.0pt;line-height: 16.8667px;\">Inogen is an Equal Employment Opportunity/Affirmative Action Employer - Underrepresented racial and ethnic groups/Females/Individuals with Disabilities/Protected Veterans.</span></div>",
+"hiringOrganization": "Inogen",
+"employmentType": "Intern",
+"industry": "Information Technology",
+"identifier": "oTz6zfwR",
+"jobLocation": [
+{
+"@type": "Place",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Plano",
+"addressRegion": "Texas",
+"addressCountry": "United States"
+}
+}
+],
+"title": "IT Mobile and Web Intern",
+"baseSalary": {
+"@type": "MonetaryAmount",
+"currency": "USD",
+"value": {
+"@type": "QuantitativeValue",
+"minValue": "21.20",
+"maxValue": "23.37",
+"unitText": "Hourly"
+}
+}
+}
+IT Mobile and Web Intern
+Information Technology
+Plano,
+Texas
+Salary: USD 21.20 - 23.37 Hourly
+Apply
+Description
+Job SummaryWe are seeking hands-on interns who can work with data and AI teams.What Will You LearnMobile (iOS and Android) and web application development using low or no code platformsGood understanding of overall project development lifecycle using DevOps, CI/CD and Quality proceduresBuild external applications with cybersecurity best practices and Identity Access Management tools such as Auth0How to work with Change and Quality control processes for medical devicesResponsibilitiesSpecific tasks, duties, essential functions of the jobDesign, build and create performant architectures for React Native mobile and web apps using modern frameworks and toolsExplore low and no code platforms such as Flutter, ServiceNow to build fast and scalable applicationsImplement intuitive and responsive UI/UX designs consistent across iOS, Android, and web platformsCollaborate with developers and testers on automated QA platforms and best practicesEnsure secure communication and data privacy (HIPAA, GDPR, etc.) with the Cybersecurity teamParticipate in code reviews and communicate progress and challengesIntegrate using REST APIs and build autonomous workflows and assistants for task automationAssist in creating technical specifications, unit tests, and other quality documentationQualificationsExperience and EducationEnrolled in a bachelor’s or master’s degree in Information Systems, Computer Science, Business Analytics, or related fieldKnowledge of full-stack development using React, Angular, HTML, CSS, JavaScriptUnderstanding of integrated frameworks using RESTful APIs and connecting to Inogen’s process and technology stackFamiliarity with Agile and DevOps practices using tools such as JIRA, Confluence, Jenkins, GitHub, Azure DevOpsUnderstanding of automated and manual QA processes and tools like Selenium, SonarCloud, BrowserStack, X-RayKnowledge of low and no code platforms and secure deploymentExposure to application development lifecycle and frameworksInterest in how AI and automation can improve business engagement workflowsUnderstanding of healthcare and regional information security best practices and regulatory requirements (HIPAA, GDPR, etc.) Disclaimer: The above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties and skills required of personnel so classified. Inogen assesses market data to ensure a competitive compensation package for our employees. The base salary for this position is expected to be between $21.19 and $23.37 per hour. However, actual base salary if hired will be determined on an individualized basis and will be based on non-discriminatory factors, including as to individual skills, education, experience and market location. Inogen is an Equal Employment Opportunity/Affirmative Action Employer - Underrepresented racial and ethnic groups/Females/Individuals with Disabilities/Protected Veterans.
+Apply
+Apply Later
+← Back to Current Openings
+Share
+lang: en_US
+LinkedIn
+Facebook
+Twitter
+Email
+Similar Jobs
+{{ job.title }}
+Powered by Jobvite
+angular.module('preloadedData', []).constant('preloadedData', {
+applyLinkUrl: '${job.applyLinkUrl}',
+jobCategoryId: 'aEV9Vfwn',
+jobCategoryName: 'Information Technology',
+jobId: 'oTz6zfwR',
+jobReqId: '1664',
+jobTitle: 'IT Mobile and Web Intern',
+jobLocationId: 'CFEnYfwo',
+companyAnalytics: 'UA-253014913-1',
+jobAlertsLocationRequired: true,
+enableRecommendedJobs: true,
+enableResumeParsing: true,
+numberFormat: "##,###,###,###,###.####",
+companyEId: 'qr2bVfwj',
+linkedInApiKey: '7557fkcarvxieo',
+isAWLIEnabled: '${isAWLIEnabled}',
+facebookApiId: '48354194572',
+dropBoxApiKey: 'w5fg28zznqcyg4w',
+baseUrl: '/inogen',
+cdnURL: '//d3igejkwe1ucjd.cloudfront.net',
+releaseVersion: '260413142703',
+careersiteName: 'inogen',
+careersiteDomainName: '${careersiteDomainName}',
+careersiteSourceTypeId: 'Pse7Xfwu'
+}).constant('i18n', {
+I18N_RESUME_PREVIEW: 'Resume Preview',
+I18N_NO_RESUME_FOUND: 'No resume found',
+I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',
+I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',
+I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',
+I18N_RECOMMENDER: 'Recommender:',
+I18N_CURRENT: 'Current',
+I18N_PAST: 'Past',
+I18N_EDUCATION: 'Education',
+I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',
+I18N_PATENTS: 'Patents',
+I18N_SUMMARY: 'Summary',
+I18N_SPECIALTIES: 'Specialties',
+I18N_EXPERIENCE: 'Experience',
+I18N_RECOMMENDATIONS: 'Recommendations',
+I18N_PRESENT: 'Present',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec',
+COMMON_PAST_WEEK: 'Past 7 days',
+COMMON_PAST_MONTH: 'Past 30 days',
+COMMON_PAST_3_MONTHS: 'Past 90 days',
+COMMON_CUSTOM_RANGE: 'Custom Range',
+I18N_FROM: 'From',
+I18N_TO: 'To',
+I18N_ANY: 'Any',
+I18N_FILE_UPLOAD_SIZE_CHECK_ERROR: 'File size shall not exceed 10MB',
+I18N_MALICIOUS_CONTENT: 'The file upload was blocked for security reasons. Please check the file for any potentially harmful content or links and try again.',
+I18N_NO_REMOTE: 'No Remote',
+I18N_REMOTE: 'Remote'
+});
+Jobvite = {
+baseUrl: 'https://app.jobvite.com'
+}
