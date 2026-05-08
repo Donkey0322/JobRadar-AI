@@ -1,5 +1,80 @@
 [
   {
+    "company": "Squarepoint Capital",
+    "role": "Software Developer Intern",
+    "link": "https://boards.greenhouse.io/embed/job_app?token=7905463",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Fall"
+  },
+  {
+    "company": "HERE Technologies",
+    "role": "Software Engineer Intern",
+    "link": "https://careers-here.icims.com/jobs/81341/job?mobile=true&needsRedirect=false",
+    "location": "Chicago, IL",
+    "season": "2026 Summer",
+    "id": 1044,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Provide research, investigation, automation, testing, and evaluation of map healing results.",
+        "Produce code in Python, Java/Scala, or C++.",
+        "Work alongside a HERE mentor to address emerging needs.",
+        "Develop production-level code that meets code review standards.",
+        "Measure all trained models for precision, recall, and accuracy.",
+        "Create documentation for software functionality.",
+        "Present results to key stakeholders.",
+        "Proficient in AWS."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Thales",
+    "role": "Digital Applications Intern",
+    "link": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Irvine/Digital-Apps-Intern_R0320993-1",
+    "location": "Irvine, CA",
+    "season": "2026 Summer",
+    "id": 1043,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Working on a Bachelor\n\n\n\n\n\n\n's degree in engineering/mathematics discipline or related field.",
+        "Possess basic experience using major programming languages (Python, Java, MySQL).",
+        "Understand basic interfacing and networking concepts like Serial, Ethernet, IP/MAC addressing, VLANs.",
+        "Demonstrate good verbal and written communication skills.",
+        "Exhibit a strong work ethic, drive to succeed, accountability, and integrity.",
+        "Be an appropriate organizational fit for Thales culture, exhibiting compliance, respect, innovation, responsibility, and teamwork."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Viridien",
+    "role": "AI Full Stack Engineering Intern 🎓",
+    "link": "https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Houston-United-States-of-America/AI-Full-Stack-Engineering--Intern-_JR101267-2",
+    "location": "Houston, TX",
+    "season": "2026 Summer",
+    "id": 1042,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Complete 1.5+ years of a Master's degree in Computer Science, Data Science, or AI",
+        "Proficient in mobile app design (React Native/Expo) and backend development (Node.js)",
+        "Capable of utilizing Claude Code or similar AI coding tools",
+        "Willing to relocate to Houston, TX for 3 months",
+        "Possess 1-2 years of professional experience building mobile apps",
+        "Have a background or coursework in Machine Learning and AI"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Clbpts - all lines of business",
     "role": "Software Engineer Intern - NetSuite",
     "link": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/332961",

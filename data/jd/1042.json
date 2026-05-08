@@ -1,0 +1,88 @@
+{
+  "jobPostingInfo": {
+    "id": "85f43e99cab21001e06bf7d220510002",
+    "title": "AI Full Stack Engineering (Intern)",
+    "jobDescription": "<p style=\"text-align:left\"><span>Viridien (</span><span><a href=\"http://www.viridiengroup.com\" target=\"_blank\"><span><span><span><span><span><span class=\"WKM0\">www.viridiengroup.com</span></span></span></span></span></span></a></span><span>) is an advanced technology, digital and Earth data company that pushes the boundaries of science for a more prosperous and sustainable future. With our ingenuity, drive and deep curiosity we discover new insights, innovations, and solutions that efficiently and responsibly resolve complex natural resource, digital, energy transition and infrastructure challenges. </span></p><p><b> Details: </b></p><p><b>About the Role</b></p><p>We are looking for highly motivated problem solvers ready to tackle tough challenges. You will be working on in-house AI applications specifically built for Geoscience users.</p><p><b>Responsibilities</b></p><ul><li><span>Build and deploy cross-platform mobile apps using React Native and Expo.</span></li><li><span>Develop scalable backend REST APIs with Node.js.</span></li><li><span>Test applications, gather user feedback, and rapidly resolve issues.</span></li><li><span>Integrate mobile frontends with backend databases and AI/ML services.</span></li><li><span>Accelerate development using AI coding assistants like Claude Code or similar tools.</span></li></ul><p><b>Requirements</b></p><ul><li><span>Completed 1.5&#43; years of a Master’s degree in Computer Science, Data Science, or AI.</span></li><li><span>Proficient in mobile app design (React Native/Expo) and backend development (Node.js).</span></li><li><span>Capable of utilizing Claude Code or similar AI coding tools effectively.</span></li><li><span>Must relocate to Houston, TX for the 3-month duration.</span></li></ul><p><b>Preferred Qualifications</b></p><ul><li><span>1–2 years of professional experience building mobile apps.</span></li><li><span>Background or coursework in Machine Learning and AI.</span></li></ul><p><b>Perks</b></p><ul><li><span>Potential to convert to a full-time role based on excellent performance and role availability.</span></li></ul><p></p><p><b>Hiring Process</b></p><p><b><span>Coding Assignment:</span></b><span> Same as the AI Engineer role. Submitting a Loom video and GitHub repo guarantees consideration. Resume-only applications will not be auto-rejected.</span> <b><span>Technical Round 1:</span></b><span> 1-hour coding interview with Yogesh.</span> <b><span>Technical Round 2:</span></b><span> 1-hour interview with Rong or Hao (if Round 1 is passed).</span> <b><span>HR Round:</span></b><span> Final Q&amp;A for selected candidates.</span></p><p><b> </b></p><p><b>Location:</b> Houston, TX (Relocation required)</p><p><b>Duration:</b> 3 Months</p><p><b>Compensation: </b>$6500/month</p><p></p><p><b>Our Hiring Process</b></p><p></p><p>At Viridien, we are committed to delivering a respectful, inclusive, and transparent recruitment experience.</p><p>Due to the high volume of applications we receive, we may not be able to provide individual feedback to every applicant. Only candidates whose qualifications closely match the role criteria will be contacted for an interview. We do, however, aim to share personalized feedback with those who progress to the first round of interviews and beyond.</p><p></p><p>We are also dedicated to ensuring that our hiring process accessible to all. If you require any reasonable adjustments to fully participate in the application or interview stages, please don’t hesitate to contact your recruiter directly.</p><p></p><p>We see things differently. Diversity fuels our innovation, we value the unique ways in which we differ, and we are committed to equal employment opportunities for all professionals.</p>",
+    "location": "Houston, United States of America",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-07",
+    "timeType": "Full time",
+    "jobReqId": "JR101267",
+    "jobPostingId": "AI-Full-Stack-Engineering--Intern-_JR101267-2",
+    "jobPostingSiteId": "viridiencareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "videoInfo": {
+      "javascriptUrl": "https://wd103.myworkday.com/wday/backpack-hub/muse/wday/js/player.js",
+      "params": {
+        "application_context": "recruiting-external-site",
+        "toggles": "{\"wmc-22189\":true,\"wmc-22331\":true,\"wmc-27882\":true,\"wmc-13658\":true,\"wmc-13737\":true,\"wmc-11701\":true,\"wmc-24807\":true,\"muse-709\":false,\"wmc-5825\":false,\"wmc-5951\":false,\"wmc-14911\":true,\"wmc-8321\":false,\"wmc-15802\":true,\"wmc-20855\":true,\"wmc-20732\":false,\"wmc-16527\":true,\"wmc-9846\":false,\"wmc-21592\":true,\"wmc-21615\":true,\"wmc-15670\":true,\"wmc-21593\":false,\"wmc-12835\":true,\"wmc-14182\":true,\"wmc-14284\":true,\"wmc-15011\":true,\"uxlx-1\":true,\"wmc-11369\":false,\"wmc-7256\":false,\"wmc-15073\":true,\"wmc-28241\":false,\"wmc-14151\":false,\"wmc-8819\":false,\"wmc-18120\":true,\"wmc-14717\":true,\"wmc-3252\":true,\"wmc-16759\":true,\"wmc-19376\":false,\"wmc-27242\":true,\"wmc-8159\":false,\"wmc-11052\":false,\"wmc-12740\":true,\"wmc-8655\":true,\"muse-660\":true,\"wmc-8656\":true,\"wmc-12008\":true,\"wmc-16585\":true,\"wmc-15743\":true,\"wmc-16466\":true,\"wmc-7540\":false,\"wmc-13388\":true,\"wmc-10060\":false,\"lrn-965\":true,\"lrn-1802\":true,\"lrn-32769\":true,\"wmc-16519\":false,\"wmc-10948\":true,\"wmc-23952\":false,\"wmc-16065\":true,\"wmc-13055\":true,\"wmc-13187\":false,\"wmc-13094\":true,\"wmc-6386\":false,\"wmc-2787\":true,\"wmc-16278\":true,\"wmc-24972\":true,\"wmc-12913\":true,\"wmc-19864\":false,\"wmc-15663\":true,\"wmc-25344\":true,\"wmc-17760\":true,\"wmc-12857\":true,\"wmc-20760\":true,\"muse-7\":true,\"wmc-15869\":true,\"wmc-17540\":false,\"wmc-12033\":true,\"wmc-15981\":true,\"wmc-17354\":true,\"wmc-7007\":false,\"wmc-6460\":true,\"wmc-12094\":true,\"wmc-16142\":true,\"wmc-14718\":true,\"wmc-12770\":true,\"wmc-13879\":false,\"wmc-15592\":true,\"wmc-14424\":true,\"wmc-15591\":true,\"ml-25093\":false,\"wmc-13937\":true,\"wmc-2454\":true,\"wmc-16758\":true,\"wmc-23128\":true,\"wmc-5060\":false,\"wmc-12011\":true,\"wmc-17752\":true,\"wmc-13132\":true,\"lrn-34912\":true,\"wmc-10693\":true,\"wmc-13235\":true,\"wmc-13594\":true,\"wmc-7714\":false,\"wmc-22778\":false,\"wmc-2867\":true,\"wmc-22777\":false,\"wmc-22776\":true,\"wmc-13605\":true,\"wmc-12981\":true,\"wmc-13322\":true,\"wmc-13502\":true,\"wmc-24587\":false,\"wmc-21680\":false,\"wmc-10558\":true,\"wmc-13719\":true,\"wmc-16896\":true,\"wmc-12951\":true,\"wmc-14572\":false,\"wmc-13074\":true,\"wmc-13075\":true,\"wmc-13783\":true,\"wmc-16223\":true,\"wmc-11305\":true,\"wmc-9432\":false,\"wmc-17199\":true,\"wmc-14658\":true,\"wmc-16736\":true,\"wmc-12079\":false,\"wmc-12078\":false,\"wmc-7504\":true,\"wmc-25101\":true,\"wmc-12075\":true,\"wmc-13811\":false,\"wmc-13458\":true,\"wmc-16897\":true,\"wmc-7659\":false,\"wmc-13786\":true,\"wmc-16670\":true,\"wmc-1599\":true,\"wmc-1598\":false,\"wmc-17590\":true,\"wmc-22768\":false,\"wmc-18600\":true,\"wmc-12481\":true,\"wmc-30810\":false,\"wmc-14914\":true,\"wmc-7783\":true,\"wmc-18117\":false,\"wmc-24046\":true,\"wmc-24047\":true,\"wmc-12724\":false,\"wmc-9250\":true,\"wmc-16310\":true,\"wmc-11574\":true,\"wmc-16194\":true,\"wmc-15661\":true,\"wmc-619\":false,\"wmc-2496\":false,\"wmc-15408\":false,\"wmc-16878\":true,\"wmc-13572\":true,\"wmc-15853\":true,\"wmc-15834\":true,\"wmc-17198\":true,\"wmc-13245\":true,\"wmc-14403\":true,\"wmc-17505\":true,\"wmc-20495\":true,\"wmc-3182\":true,\"wmc-7505\":true,\"wmc-6806\":false,\"wmc-26460\":true,\"wmc-14937\":true,\"wmc-6628\":false,\"wmc-11780\":true,\"wmc-9377\":true,\"wmc-13684\":true,\"wmc-13429\":true,\"wmc-18129\":true,\"wmc-15400\":true,\"wmc-14534\":true,\"wmc-15160\":true,\"wmc-15285\":true,\"wmc-9803\":false,\"wmc-15252\":true,\"wmc-21767\":true,\"wmc-2129\":true,\"wmc-8224\":true,\"wmc-13160\":true,\"wmc-14883\":true,\"wmc-18153\":false,\"currentSystemVersion\":\"2026.18\",\"lrn-12626\":true,\"lrn-14483\":true}",
+        "type": "video",
+        "media_id": "d39094de06c81000e48cfae503a70000",
+        "public_path": "https://wd103.myworkday.com/wday/backpack-hub/muse-web-client/2026.18.1809",
+        "poster": "https://wd103-media.myworkdaycdn.com/m/DB12/c/C8249ABE96D6AA3D/B9lbX5HbABmIIl4BAp7AQ6Z53J31BZuq/JcR1sM/progressive.h264.1080p.v7.mp4.0000001.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARJJPJ46YH32DC7FB%2F20260508%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260508T000931Z&X-Amz-Expires=14400&X-Amz-SignedHeaders=host&X-Amz-Signature=b50c7ee54c6118e707739e01f9894b6d9df8a0bc784298fcd52c24bddc2f49e2&__token__=exp=1778213371~hmac=f4066eda582641382b4831efdd53c25732ca406f92e495731c7b24ffff5df264",
+        "user_agreement": {
+          "accepted": false,
+          "acceptance_url": "https://wd103.myworkday.com/wday/backpack-hub/cgg/user_agreement/27b3f872096510001029d985b6ae0043",
+          "required": false,
+          "terms_url": "/cgg/inst/22761$1/rel-task/2998$37225"
+        },
+        "tracking_url": "https://wd103.myworkday.com/wday/backpack-hub/cgg/stats/play_events/d39094de06c81000e48cfae503a70000",
+        "report_url": "https://wd103.myworkday.com/wday/backpack-hub/cgg/report/player_issue/d39094de06c81000e48cfae503a70000",
+        "content_type": "video",
+        "duration": 73,
+        "created_on_ms": 1724080684000,
+        "tracks": [
+          {
+            "url": "https://wd103-media.myworkdaycdn.com/m/adp/DB12/c/C8249ABE96D6AA3D/B9lbX5HbABmIIl4BAp7AQ6Z53J31BZuq/text-tracks/OJ7dfVkiLGcK0qJuASRWc2oEI3cw9kiJ/track.vtt?__token__=exp=1778213371~hmac=1eea6b5f0b2cc049b37280796941252d7d086d3fdefdf1f715cef4acafa93eda",
+            "language": "en_US",
+            "label": "English (United States)"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wd103-media.myworkdaycdn.com/m/playlist/DB12/c/C8249ABE96D6AA3D/B9lbX5HbABmIIl4BAp7AQ6Z53J31BZuq/JcR1sM/HLS.v7.m3u8?tt=en_US%3BEnglish%2B%2528United%2BStates%2529%3Bs3%253A%252F%252Fworkday-media-de%252Ff%252FDB12%252Fc%252FC8249ABE96D6AA3D%252FB9lbX5HbABmIIl4BAp7AQ6Z53J31BZuq%252Ftext-tracks%252FOJ7dfVkiLGcK0qJuASRWc2oEI3cw9kiJ%252Ftrack.vtt&duration=73.541&__token__=exp=1778213371~hmac=7d6185a59ff521529770ed7cc19c333b4793d3e186a04d9419bf15c0bd194556",
+            "type": "application/x-mpegURL",
+            "quality": "Auto",
+            "hd_label": "",
+            "size": 0,
+            "duration": 73541
+          }
+        ],
+        "muse": {
+          "interactions": [],
+          "videoDuration": 73.541,
+          "skipRestricted": false,
+          "disallowRetries": false,
+          "restrictAccess": false
+        }
+      }
+    },
+    "logoImage": {
+      "src": "/wday/cxs/cgg/viridiencareers/sidebarimage/80fc4283080d1000e8cb64fe8c6c0000",
+      "alt": "Viridien Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA-Houston Town Park",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Houston-United-States-of-America/AI-Full-Stack-Engineering--Intern-_JR101267-2",
+    "questionnaireId": "e5bdbbea754110014f5190a683490000"
+  },
+  "hiringOrganization": {
+    "name": "CGG Services (U.S.) Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
