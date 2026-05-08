@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "04bbdfe3126f1000c3cb58978f9c0000",
+    "title": "Software Engineering Intern - Automation",
+    "jobDescription": "<p>This is a 10-week internship starting June 8 or 15 and is fully on-site at the listed office location.</p><p></p><p><b>Company Overview</b></p><p>At Bloom Energy, our vision for a world powered by clean, reliable, and affordable energy is more than just a dream—we’re making it a reality.<br /> <br />For over two decades, we’ve been at the forefront of the global energy transition, pioneering solutions that empower critical industries to thrive in a rapidly digitizing, energy-intensive world. From revolutionizing power for AI-driven data centers to ensuring resilience for hospitals, electric grids, manufacturing facilities, and utilities, our solid oxide fuel cell (SOFC) and solid oxide electrolyzer (SOEC) technologies are redefining what’s possible by delivering energy abundance for all. With more than 30,000 fuel cell modules deployed worldwide, we are the trusted partner for Fortune 100 companies and innovators alike. Our cutting-edge solutions enable unparalleled “time-to-power” capabilities, reliability, and sustainability, ensuring our customers remain ahead in a world where soaring energy demand and intensifying energy scarcity are rapidly becoming the new norm.<br /> <br />At Bloom, we thrive on collaboration, bold thinking, and relentless innovation. We believe that, together, we can create a brighter, more sustainable future while tackling the most pressing challenges of the 21st century.</p><p></p><p><b>Department Overview </b></p><p>The PD Software team is responsible for the data pipeline and tools required by our service teams to manage and maintain all the Bloom systems located in the field. This includes the ability to monitor systems in real-time, control them, capture telemetry and manage the processing pipelines that this telemetry is used for. This continuous flow of data, the corresponding analysis by experts and the feedback to improve the lifetime of the systems plays a vital role in Bloom’s strategy of providing clean, affordable energy where it’s needed.</p><p></p><p><b>Position Responsibilities</b></p><ul><li>Learn and understand various aspects of the software stack – from tools to languages and technologies</li><li>Put together automation suites to test various scenarios in which different parts of the software system operate</li><li>Use these suites to validate functionality and improve the overall quality of deployed software</li><li>Report findings in an automated manner into a reporting system</li></ul><p></p><p><b>Minimum Qualifications</b></p><ul><li>Currently a student earning a Bachelor’s or Master’s degree in Computer Science, Computer Engineering or a related discipline.</li><li>Must be graduating between spring 2026 and August 2027</li></ul><p></p><p><b>Desired Qualifications</b></p><ul><li>Strong proficiency in Python programming. Knowledge of C#, typescript or golang is a plus.</li><li>Familiarity with Python (or other) software testing frameworks (e.g., PyTest, unittest).</li><li>Understanding of Git, GitHub workflows, and GitHub Actions.</li><li>Basic knowledge of Docker and containerized environments.</li><li>Exposure to cloud platforms (AWS, Azure, GCP) and cloud-native concepts.</li><li>Understanding of CANbus communication and its role in embedded systems.</li><li>Awareness of software development lifecycle (SDLC) principles.</li><li>Basic understanding of software security concepts.</li><li>Experience with CI/CD pipelines and automated deployment.</li><li>Knowledge of test-driven development (TDD) and behavior-driven development (BDD).</li><li>Some familiarity with static code analysis and security scanning tools.</li><li>Ability to work independently and in a team-oriented environment.</li><li>Strong analytical and problem-solving skills.</li></ul><p></p><p><b>Visa Sponsorship </b> <br />Bloom Energy is unable to provide VISA sponsorship to interns or new grad hires on an F-1, J-1 or other visa for this position, regardless of CPT or OPT status.</p><p></p><p><b>EOE Statement</b><br />Bloom Energy is an equal opportunity employer and makes employment decisions on the basis of merit. We are committed to compliance with all applicable laws providing equal employment opportunities. All qualified applicants will receive consideration for employment without regard to race, sex, color, religion, national origin, protected veteran status, or on the basis of disability. Bloom Energy makes reasonable accommodation, consistent with applicable laws, for the known physical or mental limitations of an otherwise qualified applicant or employee with a disability, who can perform the essential job functions, unless undue hardship would result.</p><p></p><p><b>Salary Statement with pay range</b><br />Bloom Energy is committed to fair and equitable compensation practices. The total compensation for this position is based on various factors including, but not limited to, relevant skills and experience.</p><p></p><p>The pay range for this position is $36 - $50 per hour.</p><h1><span class=\"emphasis-2\">Salary Ranges:</span></h1>$45.75 - $50.00",
+    "location": "San Jose, California",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-08",
+    "timeType": "Full time",
+    "jobReqId": "JR-20625",
+    "jobPostingId": "Software-Engineering-Intern---Automation_JR-20625",
+    "jobPostingSiteId": "BloomEnergyCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Office - 4353 North 1st Street",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://bloomenergy.wd1.myworkdayjobs.com/BloomEnergyCareers/job/San-Jose-California/Software-Engineering-Intern---Automation_JR-20625",
+    "questionnaireId": "520dab632e7a1000d1bc0b58e27e0000",
+    "timeLeftToApply": "6 days left to apply",
+    "endDate": "2026-05-15",
+    "jobPostingEndDateAsText": "End Date: May 15, 2026"
+  },
+  "hiringOrganization": {
+    "name": "101 Bloom Energy",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
