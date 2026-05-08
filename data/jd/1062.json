@@ -1,0 +1,44 @@
+{
+  "jobPostingInfo": {
+    "id": "436a154ffd2e1001fe3778bf0e490000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "Join Dematic as a Software Engineering AI Intern and contribute to cutting-edge logistics and material handling projects that power global supply chains. <br><br>We are seeking a motivated AI Engineer Intern to help design and build applied AI prototypes that solve real‑world engineering productivity problems. This role is ideal for a student who enjoys working independently, experimenting with AI/ML and LLM‑based solutions, and transforming ambiguous problem statements into working proofs of concept (POCs) and demos.<br>The intern will focus on narrowly scoped, high‑impact AI projects such as AI‑assisted log analysis and internal knowledge assistants. The work will produce reusable artifacts (code, demos, documentation) and provide hands‑on exposure to applied AI system design in an enterprise engineering environment.<br><br>Sound like you? Come join us and get ready to make a difference!<p></p><h1><b>We offer:</b></h1><ul><li>Career Development</li><li>Competitive Compensation and Benefits</li><li>Pay Transparency</li><li>Global Opportunities</li></ul><h2>Learn More Here: <a href=\"https://www.dematic.com/en-us/about/careers/what-we-offer\" target=\"_blank\">https://www.dematic.com/en-us/about/careers/what-we-offer</a></h2><p></p><p>Dematic Corp. provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.</p><p></p><p>This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.</p><p></p><p>The base pay range for this role is estimated to be $[Insert salary range] at the time of posting. Final compensation will be determined by various factors such as work location, education, experience, knowledge, and skills.</p><p style=\"text-align:inherit\"></p><h1><b>Tasks and Qualifications:</b></h1><h2><span><b>What We Are Looking For:</b></span></h2><div><p>As an AI Engineer Intern, you will work closely with senior engineers and managers to build and iterate on AI‑powered tools that improve developer and operational efficiency. You will be responsible for owning small, well‑defined projects end‑to‑end—from problem understanding and experimentation to prototype implementation and demo‑ready delivery.</p><p>Key responsibilities include:</p><ul><li>Designing and implementing AI/ML or LLM‑based proof‑of‑concept solutions</li><li>Working with structured and unstructured data (logs, documentation, text)</li><li>Experimenting with techniques such as embeddings, clustering, retrieval‑augmented generation (RAG), and summarization</li><li>Writing clean, understandable code and lightweight documentation</li><li>Demonstrating results through clear demos, notebooks, or simple user interfaces</li><li>Communicating progress, findings, and limitations effectively</li></ul><p>This role is <b>part‑time</b> and intended for students who will be returning to university for graduation.</p><p></p><div><h3><b>Required / Preferred Skills</b></h3><ul><li>Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Data Science, AI/ML, or a related field</li><li>Solid programming skills in Python (or similar languages used for AI development)</li><li>Fundamental understanding of AI/ML concepts (e.g., supervised vs unsupervised learning, embeddings, NLP basics)</li><li>Familiarity with modern AI tools or frameworks (e.g., LLMs, vector databases, open‑source ML libraries)</li><li>Ability to break down a problem and work independently with minimal supervision</li><li>Strong communication skills and ability to explain technical ideas clearly</li></ul></div></div><p></p>",
+    "location": "Grand Rapids, MI, United States",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-08",
+    "timeType": "",
+    "jobReqId": "JR-0090781",
+    "jobPostingId": "Software-Engineering-Intern_JR-0090781",
+    "jobPostingSiteId": "KION_SCS",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/kiongroup/kion_scs/sidebarimage/ba00b4f3bf5010019c3ccba066680002",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Grand Rapids, MI, United States",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kiongroup.wd3.myworkdayjobs.com/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0090781",
+    "questionnaireId": "90b8915caea31001447e9ed62fa00000",
+    "timeLeftToApply": "6 days left to apply",
+    "endDate": "2026-05-15",
+    "jobPostingEndDateAsText": "End Date: 15 May 2026"
+  },
+  "hiringOrganization": {
+    "name": "Dematic Corp. (ILD-US)",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

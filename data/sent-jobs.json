@@ -1,5 +1,234 @@
 [
   {
+    "company": "Rockwellautomation",
+    "role": "Co-op, Embedded Software Engineer (May 2026 - December 2026)",
+    "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external-rockwell-automation-early-careers/job/Mayfield-Heights-Ohio-United-States/Co-op--Embedded-Software-Engineer--May-2026---December-2026-_R25-7668",
+    "location": "Mayfield Heights, Ohio, United States",
+    "id": 1063,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a bachelor's or advanced degree from an accredited college or university.",
+        "Be able to work full-time from May to December 2026.",
+        "Have legal authorization to work in the US.",
+        "Pursue a bachelor's or advanced degree in Computer Engineering or similar.",
+        "Have experience with C++ and Python.",
+        "Possess knowledge of Agile methodology.",
+        "Know industrial automation environments, including PLC or drives programming.",
+        "Have an interest or prior experience with robotics teams or projects."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Kiongroup",
+    "role": "Software Engineering Intern",
+    "link": "https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0090781",
+    "location": "Grand Rapids, MI, United States",
+    "id": 1062,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Data Science, AI/ML, or related field.",
+        "Possess solid programming skills in Python or similar languages for AI development.",
+        "Understand fundamental AI/ML concepts, including supervised, unsupervised learning, embeddings, and NLP basics.",
+        "Familiar with modern AI tools or frameworks, such as LLMs, vector databases, and open-source ML libraries.",
+        "Ability to break down problems and work independently with minimal supervision.",
+        "Strong communication skills to explain technical ideas clearly.",
+        "Design and implement AI/ML or LLM-based proof-of-concept solutions.",
+        "Work with structured and unstructured data like logs, documentation, and text.",
+        "Experiment with techniques such as embeddings, clustering, retrieval-augmented generation (RAG), and summarization.",
+        "Write clean, understandable code and lightweight documentation.",
+        "Demonstrate results through clear demos, notebooks, or simple user interfaces.",
+        "Communicate progress, findings, and limitations effectively."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (Security) - Fall 2026",
+    "link": "https://jobs.ashbyhq.com/snowflake/a488959b-6874-4563-acb2-af747c3dc6f7",
+    "location": "US-CA-Menlo Park",
+    "id": 1061,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program during the internship",
+        "Be a 3rd/4th year Undergraduate, Masters, or PhD student",
+        "Major in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or a related field",
+        "Completed coursework in algorithms, data structures, and Object-oriented programming",
+        "Completed coursework in cloud computing, database systems, distributed systems, operating systems, cryptography & authentication, or networking",
+        "Experience with research or publications in security or distributed systems",
+        "Contribute to open source projects",
+        "Experience developing products for encryption, authentication (including SSO & OAuth), access control, or network security",
+        "Possess excellent programming skills in Java, C++, GO, or Python",
+        "Knowledge of C++ and Java",
+        "Possess knowledge of data structures and algorithms",
+        "Possess systems programming skills, including multi-threading and concurrency",
+        "Demonstrate strong problem-solving skills",
+        "Learn quickly in a dynamic environment",
+        "Experience working as part of a team",
+        "Show dedication and passion for technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (Infrastructure Automation) - Fall 2026 ",
+    "link": "https://jobs.ashbyhq.com/snowflake/bbdee8bd-443c-456f-a4f0-1b363d843310",
+    "location": "US-CA-Menlo Park",
+    "id": 1060,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program",
+        "Be a 3rd or 4th year Undergraduate, Masters, or PhD student",
+        "Majoring in Computer Science, Physics, Math, or a related field",
+        "Completed coursework in Algorithms, Data Structures, Operating Systems",
+        "Experience with database systems or distributed systems coursework",
+        "Excellent programming skills in Python or Java",
+        "Experience with DevOps tools like Jenkins, Ansible, Terraform",
+        "Experience with Containerization tools like Kubernetes, Docker",
+        "Knowledge of data structures and algorithms",
+        "Strong problem solving skills",
+        "Ability to learn quickly in a dynamic environment",
+        "Experience working as part of a team",
+        "Dedicated and passionate about technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (Database Engineering) - Fall 2026",
+    "link": "https://jobs.ashbyhq.com/snowflake/fd76a37f-868d-467b-a256-0b6746b9e961",
+    "location": "US-CA-Menlo Park",
+    "id": 1059,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program",
+        "Desired class level: 3rd/4th year Undergraduates, Masters, or PhD",
+        "Desired majors: Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or related field",
+        "Required coursework: algorithms, data structures, software engineering, and operating systems",
+        "Recommended coursework: cloud computing, compilers, database systems, distributed systems, functional PL, networking",
+        "Bonus experience: research or publications in databases or distributed systems",
+        "Contribute to open source",
+        "Experience working with big data (engineering / processing)",
+        "Excellent programming skills in C++ or Java",
+        "Preferred knowledge of C++20 or C++17, Java 20 or Java 17",
+        "Knowledge of data structures and algorithms",
+        "Possess systems programming skills including multi-threading, concurrency",
+        "Strong problem solving and ability to learn quickly in a dynamic environment",
+        "Experience with working as a part of a team",
+        "Dedication and passion for technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (Core Engineering) - Fall 2026 ",
+    "link": "https://jobs.ashbyhq.com/snowflake/4f34aefa-681b-4aa8-a0ea-28ce56c9f1a5",
+    "location": "US-CA-Menlo Park",
+    "id": 1058,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program",
+        "Desired 3rd/4th year Undergraduates, Masters, or PhD class level",
+        "Majoring in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or related field",
+        "Completed coursework in algorithms, data structures, Object-oriented programming",
+        "Recommended coursework in cloud computing, compilers, database systems, distributed systems, operating systems, cryptography & authentication, networking",
+        "Experience with research or publications in databases or distributed systems",
+        "Experience working with big data engineering, processing, and data migration",
+        "Excellent programming skills in C++ or Java",
+        "Knowledge of C++20 or C++17, Java 20 or Java 17",
+        "Knowledge of data structures and algorithms",
+        "Possess systems programming skills, including multi-threading, concurrency",
+        "Strong problem solving and quick learning ability",
+        "Experience working as part of a team",
+        "Dedicated and passionate about technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (AI/ML) - Fall 2026 ",
+    "link": "https://jobs.ashbyhq.com/snowflake/be659b54-08a1-4acf-b86c-f003ef6343ea",
+    "location": "US-CA-Menlo Park",
+    "id": 1057,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be actively enrolled in an accredited college/university program",
+        "Pursue a Masters or PhD degree",
+        "Hold a major in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or related field",
+        "Have recommended coursework in AI, ML, Deep Learning, Federated Learning, Efficient LLMs, Information Retrieval, Predictive & Generative Modeling, NLP, Differential Privacy, Cloud Computing, Distributed & Operating Systems",
+        "Conduct research or publish in AI, ML, NLP, or CV, or contribute to open source",
+        "Possess excellent programming skills in Python, Golang, and Java",
+        "Prefer knowledge of Pytorch or CUDA",
+        "Have experience working as part of a team",
+        "Show dedication and passion for technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Jci",
+    "role": "Software Engineering Intern",
+    "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Milwaukee-Wisconsin-United-States-of-America/Mechanical-Engineering-Intern_WD30253236-1",
+    "location": "Milwaukee-Wisconsin-United States of America",
+    "id": 1056,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled in school and taking at least 9 credits.",
+        "Be in sophomore year.",
+        "Actively pursue a BS in Computer Science for 1 to 2 years.",
+        "Proficient with C#, REST, Git software development.",
+        "Possess UI skills like React.js and Angular.",
+        "Have strong communication skills.",
+        "Ability to work within a team.",
+        "Possess an energetic and driven attitude.",
+        "Possess good organizational and problem-solving skills.",
+        "Knowledgeable in personal computer applications like Excel, Word, and PowerPoint.",
+        "Acquire basic working knowledge of Johnson Control products.",
+        "Work with a team to design, implement, and enhance software components.",
+        "Be enthusiastic, self-motivated, and a fast learner.",
+        "Adhere to corporate and departmental policies and procedures."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Moog",
     "role": "Intern, Software Engineering",
     "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Santa-Barbara-CA/Intern--Software-Engineering_R-26-17553",
