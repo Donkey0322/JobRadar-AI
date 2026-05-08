@@ -1,0 +1,52 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5131359007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4629131007,
+  "location": {
+    "name": "Denver, CO"
+  },
+  "metadata": null,
+  "id": 5131359007,
+  "updated_at": "2026-05-08T02:44:14-04:00",
+  "requisition_id": "735",
+  "title": "Front End Software Engineer Intern",
+  "company_name": "True Anomaly",
+  "first_published": "2026-05-08T02:44:14-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p class=&quot;ms-outlook-mobile-reference-message&quot;&gt;Space is a warfighting domain. True Anomaly seeks those with the talent and ambition to build the technology that secures it.&lt;/p&gt;\n&lt;p class=&quot;ms-outlook-mobile-reference-message&quot;&gt;&lt;u&gt;OUR MISSION&lt;/u&gt;&lt;/p&gt;\n&lt;p class=&quot;ms-outlook-mobile-reference-message&quot;&gt;True Anomaly delivers decisive capabilities for space superiority. We build autonomous spacecraft, advanced payloads, mission software, and space-based interceptors — enabling the U.S. and its Allies to secure the space environment and counter threats from the ultimate high ground.&lt;/p&gt;\n&lt;p class=&quot;ms-outlook-mobile-reference-message&quot;&gt;&lt;u&gt;OUR VALUES&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;ms-outlook-mobile-reference-message&quot;&gt;&lt;strong&gt;Be the offset.&lt;/strong&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;We create asymmetric advantages with creativity and ingenuity.&lt;/li&gt;\n&lt;li class=&quot;ms-outlook-mobile-reference-message&quot;&gt;&lt;strong&gt;What would it take?&lt;/strong&gt;&amp;nbsp;We challenge assumptions to deliver ambitious results.&lt;/li&gt;\n&lt;li class=&quot;ms-outlook-mobile-reference-message&quot;&gt;&lt;strong&gt;It’s the people.&lt;/strong&gt;&amp;nbsp;Our team is our competitive advantage and we are better together.&lt;/li&gt;\n&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Support the development of web-based frontend space ground system software, including 2D and 3D interfaces, using React and TypeScript&lt;/li&gt;\n&lt;li&gt;Contribute to team discussions on architecture, design, and code reviews&lt;/li&gt;\n&lt;li&gt;Collaborate with cross-functional teams including space operators, designers, backend engineers, and astrodynamics algorithm engineers&lt;/li&gt;\n&lt;li&gt;Take on well-scoped tasks and features with guidance from experienced engineers&lt;/li&gt;\n&lt;li&gt;Write tests and follow established testing practices to maintain code quality&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong&gt;Basic Qualifications&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing or recently completed a bachelor&#39;s degree in Computer Science or a related discipline&lt;/li&gt;\n&lt;li&gt;Basic understanding of HTML/CSS and modern JavaScript or TypeScript&lt;/li&gt;\n&lt;li&gt;Familiarity with React or similar modern frontend frameworks&lt;/li&gt;\n&lt;li&gt;Basic understanding of how frontend applications communicate with backend services (e.g., REST APIs, WebSockets)&lt;/li&gt;\n&lt;li&gt;Interest in building complex, data-rich user interfaces&lt;/li&gt;\n&lt;li&gt;Comfort with Git and collaborative development workflows&lt;/li&gt;\n&lt;li&gt;Strong written and oral communication skills and aptitude for working across disciplines&lt;/li&gt;\n&lt;li&gt;Enjoys debugging and problem solving&lt;/li&gt;\n&lt;li&gt;A strong bias towards understanding how things work rather than accepting the status quo&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&lt;strong&gt;Preferred Skills and Experience&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with React patterns including hooks, functional components, and component composition&lt;/li&gt;\n&lt;li&gt;Exposure to testing frameworks such as Jest, Vitest, or React Testing Library&lt;/li&gt;\n&lt;li&gt;Familiarity with component libraries, design systems, or tools like Storybook and Figma&lt;/li&gt;\n&lt;li&gt;Exposure to Three.js, React Three Fiber, or other web-based 3D libraries&lt;/li&gt;\n&lt;li&gt;Familiarity with CSS-in-JS, Tailwind, or other modern styling approaches&lt;/li&gt;\n&lt;li&gt;Exposure to databases such as PostgreSQL or MySQL&lt;/li&gt;\n&lt;li&gt;Interest in data visualization, real-time interfaces, or interactive 3D applications&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;COMPENSATION&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;2&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Base Salary: &lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;$28/hour&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:true,&amp;quot;134233118&amp;quot;:true,&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span class=&quot;TextRun SCXW267002851 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW267002851 BCX0&quot;&gt;This position will be open until it is successfully filled. To &lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW267002851 BCX0&quot;&gt;submit&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW267002851 BCX0&quot;&gt; your application, please follow the directions below.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span class=&quot;TextRun MacChromeBold SCXW267002851 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;color: rgb(0, 0, 0);&quot; data-contrast=&quot;none&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;To conform to U.S. Government space technology export regulations, including the International Traffic in Arms Regulations (ITAR) you must be a U.S. citizen, lawful permanent resident of the U.S., protected individual as defined by 8 U.S.C. 1324b(a)(3), or eligible to obtain the required authorizations from the U.S. Department of State.&lt;/p&gt;\n&lt;p&gt;True Anomaly is committed to equal employment opportunity on any basis protected by applicable state and federal laws. If you have a disability or additional need that requires accommodation, please do not hesitate to let us.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4004312007,
+      "name": "Software Engineering",
+      "child_ids": [
+        4064565007,
+        4064566007,
+        4064567007,
+        4039390007,
+        4064557007,
+        4064556007,
+        4042009007
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4004295007,
+      "name": "Denver, CO",
+      "location": "Denver, Colorado, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
