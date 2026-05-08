@@ -1,0 +1,52 @@
+{
+  "jobPostingInfo": {
+    "id": "e03cb8fb1c7510014f748c67a5620000",
+    "title": "Software Engineer Intern",
+    "jobDescription": "<p>Snyk is the leader in secure AI software development, helping millions of developers develop fast and stay secure as AI transforms how software is built. Our AI-native Developer Security Platform integrates seamlessly into development and security workflows, making it easy to find, fix, and prevent vulnerabilities — from code and dependencies to containers and cloud.</p><p></p><p>Our mission is to empower every developer to innovate securely in the AI era — boosting productivity while reducing business risk. We’re not your average security company - we build Snyk on One Team, Care Deeply, Customer Centric, and Forward Thinking.</p><p></p><p>It’s how we stay driven, supportive, and always one step ahead as AI reshapes our world.</p><p></p><p></p><h1><b><span>Code Rules Internship JD</span></b></h1><p><br /><b><b>Why this role?</b></b></p><p><span>As a Software Engineer Intern in the Code Rules team, you’ll ship code at the intersection of AI and SAST, evolving the engine that hunts for vulnerabilities at scale. Join the team to build the future of automated security!</span></p><p></p><p><b><b>What You’ll Do:</b></b></p><ul><li><p><span>Embed with Snyk Code engineers to refine the engine’s core logic and detection capabilities.</span></p></li><li><p><span>Prototype novel approaches at the intersection of AI, Formal Methods, Fuzzing.</span></p></li><li><p><span>Apply academic research to industry-leading security tooling.</span></p></li></ul><p><b><b>What You Bring:</b></b></p><ul><li><p><span>Proficiency in at least one programming language.</span></p></li><li><p><span>The ability to understand complex, abstract systems like data-flow engines or abstract syntax trees.</span></p></li><li><p><span>Effective communicator both verbally and in writing. </span></p></li><li><p><span>Curiosity and bias for action</span></p></li></ul><p></p><p><b><b>It’d Be Awesome If You Also… </b></b></p><ul><li><p><span>Have hands-on experience with AI/LLMs or modern security tools</span></p></li><li><p><span>Experience working with or building static analysis tools (SAST), linters, or compilers</span></p></li><li><p><span>Experience with fuzzing.</span></p></li></ul><p></p><p><i>We care deeply about the warm, inclusive environment we’ve created and we value diversity – we welcome applications from those typically underrepresented in tech. If you like the sound of this role but are not totally sure whether you’re the right person, do apply anyway!</i></p><p></p><p><b>About Snyk</b></p><p>Snyk is committed to creating an inclusive and engaging environment where our employees can thrive as we rally behind our common mission to make the digital world a safer place. From Snyk employee resource groups, to global benefits that help our employees prioritize their health, wellness, financial security, and a work/life blend, we aim to support our employees along their entire journeys here at Snyk.</p><p></p><p><b>Benefits &amp; Programs</b></p><ul><li><p>Prioritize health, wellness, financial security, and life balance with programs tailored to your location and role.</p></li><li><p>Flexible working hours, work-from home allowances, in-office perks, and time off for learning and self development</p></li><li><p>Generous vacation and wellness time off, country-specific holidays, and 100% paid parental leave for all caregivers</p></li><li><p>Health benefits, employee assistance plans, and annual wellness allowance</p></li><li><p>Country-specific life insurance, disability benefits, and retirement/pension programs, plus mobile phone and education allowances</p></li></ul>",
+    "location": "United Kingdom - London Office",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-08",
+    "timeType": "Full time",
+    "jobReqId": "JR100494",
+    "jobPostingId": "Software-Engineer-Intern_JR100494",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/snyk/external/sidebarimage/1c9480aa27501000d8556c939a540000",
+      "alt": "Snyk Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": false,
+    "jobRequisitionLocation": {
+      "descriptor": "United Kingdom - London Office",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://snyk.wd103.myworkdayjobs.com/External/job/United-Kingdom---London-Office/Software-Engineer-Intern_JR100494",
+    "questionnaireId": "dee9f6868edc1001e1f179d53c530000"
+  },
+  "hiringOrganization": {
+    "name": "Snyk Limited (UK)",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Software Engineer Intern",
+      "externalPath": "/job/United-Kingdom---London-Office/Software-Engineer-Intern_JR100496",
+      "timeType": "Full time",
+      "locationsText": "United Kingdom - London Office",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-30",
+      "remoteType": "Hybrid"
+    }
+  ],
+  "userAuthenticated": false
+}

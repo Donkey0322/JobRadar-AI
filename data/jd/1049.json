@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "590cfdd6053a1001ee4406e376da0000",
+    "title": "AI Engineer Intern - Summer 2026",
+    "jobDescription": "<p></p><p></p><p>At Avis Budget Group, we are proud to be a<span> </span><b>performance driven organization. Our 25,000 employees encourage</b><span> </span>each other to be at their best through outstanding leadership, training and tools and rewards.</p><p>As a participant of our ABG Accelerate internship program you will be encouraged to explore different areas of our business to grow both personally and professionally to jump start a rewarding career.</p><p></p><p><b>Role Overview</b></p><p>We are looking for curious, technically strong graduate students passionate about AI who want to see their work make a real impact in a global business. You will contribute to live data and AI projects, help educate stakeholders on AI implementation, and bring fresh thinking to how we leverage emerging technologies.</p><p></p><p><b>What You&#39;ll Be Doing</b></p><ul><li>Contribute to active AI and data engineering projects, working alongside senior engineers and analysts.</li><li>Help build, test, and document AI-powered features or data pipeline enhancements.</li><li>Translate AI concepts and project findings into clear language for non-technical business stakeholders.</li><li>Showcase and explain your GitHub projects and prior AI work, helping to establish best practices within the team.</li><li>Support the creation of internal training materials or demos that help employees understand AI implementation.</li></ul><p></p><p><b>What You&#39;ll Bring</b></p><ul><li>Currently enrolled in an undergraduate or graduate program in Computer Science, Data Science, AI/ML, or a related discipline.</li><li>Active GitHub profile with at least one substantive AI or machine learning project.</li><li>At least one prior project using AI/ML tools or techniques (academic, personal, or professional).</li><li>Previous internship or work experience in a business or technology environment.</li><li>Strong communication skills — able to bridge technical and non-technical conversations.</li><li>Personable, enthusiastic, and naturally able to teach diverse stakeholders about AI topics.</li><li>Comfort with Python and familiarity with common AI/ML libraries (scikit-learn, PyTorch, HuggingFace, OpenAI API).</li></ul><p></p><p><b>Bonus Points</b></p><ul><li>Experience with data engineering tools (SQL, pandas, dbt, Airflow).</li><li>Exposure to LLMs or generative AI in a practical context.</li><li>GitHub profile demonstrating collaborative projects and consistent contributions.</li></ul><p></p><p>Salary: £30,000 Full time equivalent. This role will be an 8 week internship.</p><p></p><p><b>Who we are:</b></p><p>Here at Avis Budget Group, you will be joining a team of 25,000 driven people, performing with purpose. Together, we’re moving the future of transportation forward with our innovative, customer-focused solutions.</p><p>Our culture is performance driven, where we encourage and support each other to be at our best through leadership, training, tools, and rewards.</p><p>We are proud to make a positive difference to the lives of our colleagues, customers, and communities where we operate.</p><p><i>Avis Budget Group is an Equal Opportunity Employer – Qualified applicants will receive consideration for employment without regard to their race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran or any other category protected by applicable law.</i></p><p></p><p>This advertisement does not constitute a promise or guarantee of employment. This advertisement describes the general nature and level of this position only. Essential functions and responsibilities may change as business needs require. The compensation and benefits information is accurate as of the date of this posting. The Company reserves the right to modify this information at any time, with or without notice, subject to applicable law. This position may be with any affiliate of Avis Budget Group.</p><p></p><p></p>Bracknell<p></p><p></p>Bracknell Forest<p></p><p></p>United Kingdom",
+    "location": "Avis Budget House, HQ",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-08",
+    "timeType": "Full time",
+    "jobReqId": "R0188401",
+    "jobPostingId": "AI-Engineer-Intern---Summer-2026_R0188401",
+    "jobPostingSiteId": "ABG_Careers",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "GBR - Bracknell - Park Road - ABS (37.5 Hours per week)",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "externalUrl": "https://avisbudget.wd1.myworkdayjobs.com/ABG_Careers/job/Avis-Budget-House-HQ/AI-Engineer-Intern---Summer-2026_R0188401",
+    "questionnaireId": "a835bcb00d9810010df6e2963fcd0000"
+  },
+  "hiringOrganization": {
+    "name": "United Kingdom Avis Budget Services Limited",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
