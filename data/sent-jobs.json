@@ -1,5 +1,45 @@
 [
   {
+    "company": "Motorola",
+    "role": "Software Engineering Intern",
+    "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Software-Engineering-Internship_R64722",
+    "location": "Edinburgh, UKGlasgow, UK",
+    "season": "2026 Summer",
+    "id": 1046,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Pursue at least a Bachelor's Degree in Computer Science, Software Engineering or a related field",
+        "Experience in Java, C# or iOS development",
+        "Strong communication and problem-solving skills",
+        "Experience using version control, such as Git"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Energy Northwest",
+    "role": "Engineer Intern",
+    "link": "https://energynorthwest.wd1.myworkdayjobs.com/External/job/Richland-WA/Engineering-Intern---Year-Round_REQ26_162-1",
+    "location": "Richland, WA",
+    "season": "2026 Summer",
+    "id": 1045,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enroll in a bachelor’s or graduate degree program in a technical field.",
+        "Maintain a minimum 2.8 cumulative G.P.A.",
+        "Be available to work onsite year-round.",
+        "Possess a High School Diploma or GED."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Squarepoint Capital",
     "role": "Software Developer Intern",
     "link": "https://boards.greenhouse.io/embed/job_app?token=7905463",
