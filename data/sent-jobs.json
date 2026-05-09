@@ -1,5 +1,191 @@
 [
   {
+    "company": "Amazon",
+    "role": "Software Development Engineer Intern, AWS Data Services",
+    "link": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+    "location": "Seattle, WA",
+    "id": 1076,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Experience at least one general-purpose programming language",
+        "Experience data structure implementation, basic algorithm development, or object-oriented design principles",
+        "Enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields",
+        "Ability to work 40 hours/week and commit to a 12-week internship",
+        "Expected conferral date between January 2027 and December 2029",
+        "Experience from previous technical internships or demonstrated project experience",
+        "Experience with AI tools for development productivity",
+        "Experience with Cloud platforms, preferably AWS",
+        "Experience with Database systems (SQL and NoSQL)",
+        "Experience contributing to open-source projects",
+        "Experience with Version control systems",
+        "Experience debugging and troubleshooting complex systems",
+        "Demonstrate ability to learn and adapt to new technologies quickly",
+        "Possess a basic understanding of software development lifecycle (SDLC)",
+        "Possess strong problem-solving and analytical skills",
+        "Possess excellent written and verbal communication skills"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern, Database Engineering",
+    "link": "https://careers.snowflake.com/us/en/job/SNCOUSFA7B56D5F57047479C1775A3DB18737CEXTERNALENUSFD76A37F868D467BA2560B6746B9E961/Software-Engineer-Intern-Database-Engineering-Fall-2026",
+    "location": "Menlo Park, CA",
+    "id": 1075,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program",
+        "Be a 3rd/4th year Undergraduate, Masters, or PhD student",
+        "Major in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or a related field",
+        "Complete required coursework in algorithms, data structures, software engineering, and operating systems",
+        "Have recommended coursework in cloud computing, compilers, database systems, distributed systems, functional PL, and networking",
+        "Possess bonus experience in database or distributed systems research/publications, or open source contributions",
+        "Experience working with big data engineering or processing",
+        "Demonstrate excellent programming skills in C++ or Java",
+        "Prefer knowledge of C++20, C++17, Java 20, or Java 17",
+        "Possess knowledge of data structures and algorithms",
+        "Exhibit systems programming skills, including multi-threading and concurrency",
+        "Demonstrate strong problem-solving skills and learn quickly in dynamic environments",
+        "Experience working as part of a team",
+        "Show dedication and passion for technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern, Infrastructure Automation",
+    "link": "https://careers.snowflake.com/us/en/job/SNCOUSCC3FB214186D4B439D3F15B47307A231EXTERNALENUSBBDEE8BD443C456FA4F01B363D843310/Software-Engineer-Intern-Infrastructure-Automation-Fall-2026",
+    "location": "Menlo Park, CA</br>Bellevue, WA",
+    "id": 1074,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be actively enrolled in an accredited college/university program.",
+        "Pursue a 3rd/4th year undergraduate, Masters, or PhD.",
+        "Major in Computer Science, Physics, Math, or a related field.",
+        "Complete required coursework in Algorithms, Data Structures, Operating Systems.",
+        "Consider recommended coursework in database systems and distributed systems.",
+        "Possess excellent programming skills in Python or Java.",
+        "Experience with DevOps (Jenkins, Ansible, Terraform) and Containerization (Kubernetes, Docker).",
+        "Demonstrate knowledge of data structures and algorithms.",
+        "Exhibit strong problem solving and quick learning abilities.",
+        "Experience working as part of a team.",
+        "Show dedication and passion for technology."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Snowflake",
+    "role": "Software Engineer Intern (Core Engineering)",
+    "link": "https://careers.snowflake.com/us/en/job/SNCOUS0214F57FFF904B4AB58DD1965DC9927EEXTERNALENUS4F34AEFA681B4AA8A0EA28CE56C9F1A5/Software-Engineer-Intern-Core-Engineering-Fall-2026",
+    "location": "Menlo Park, CA</br>Bellevue, WA",
+    "id": 1073,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Actively enrolled in an accredited college/university program",
+        "Desired class level: 3rd/4th year Undergraduate, Master's, or PhD student",
+        "Majoring in Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or a related field",
+        "Completed coursework in algorithms, data structures, and Object-oriented programming",
+        "Recommended coursework in cloud computing, compilers, database systems, distributed systems, operating systems, cryptography, authentication, or networking",
+        "Possess bonus experience with research or publications in databases or distributed systems, or contributions to open source",
+        "Experience working with big data engineering/processing and data migration",
+        "Excellent programming skills in C++ or Java",
+        "Preferred knowledge of C++20, C++17, Java 20, or Java 17",
+        "Strong systems programming skills including multi-threading and concurrency",
+        "Strong problem-solving skills and ability to learn quickly in a dynamic environment",
+        "Experience working as part of a team",
+        "Dedicated and passionate about technology"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Tesla",
+    "role": "Software Developer Intern, Integration Platforms",
+    "link": "https://www.tesla.com/careers/search/job/internship-software-developer-integration-platforms-fall-2026-270037",
+    "location": "Palo Alto, CA"
+  },
+  {
+    "company": "Tesla",
+    "role": "Software Engineer Intern, Vehicle UI Development",
+    "link": "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063",
+    "location": "Palo Alto, CA"
+  },
+  {
+    "company": "Tesla",
+    "role": "Embedded Software Engineer Intern, Keys & Authentication",
+    "link": "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067",
+    "location": "Palo Alto, CA"
+  },
+  {
+    "company": "Tesla",
+    "role": "Software Engineer Intern, Maps & Navigation Validation",
+    "link": "https://www.tesla.com/careers/search/job/internship-software-engineer-maps-navigation-validation-fall-2026--270186",
+    "location": "Palo Alto, CA"
+  },
+  {
+    "company": "Tesla",
+    "role": "Software Engineer Intern, Update Systems",
+    "link": "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002",
+    "location": "Palo Alto, CA"
+  },
+  {
+    "company": "DimeHealth AI",
+    "role": "Robotics - Software Development Engineer Intern/Co-op",
+    "link": "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+    "location": "<details><summary>**8 locations**</summary>Sunnyvale, CA</br>North Reading, MA</br>Westboro, MA</br>Nashville, TN</br>Austin, TX</br>Arlington, VA</br>Bellevue, WA</br>Seattle, WA</details>",
+    "id": 1072,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields",
+        "Experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript",
+        "Experience with data structure implementation, basic algorithm development, and/or object-oriented design principles",
+        "Experience from previous technical internship(s) or demonstrated project experience",
+        "Experience with Cloud platforms (preferably AWS)",
+        "Experience with database systems (SQL and NoSQL)",
+        "Experience with AI tools for development productivity",
+        "Experience contributing to open-source projects",
+        "Experience with version control systems",
+        "Strong problem-solving and analytical skills",
+        "Excellent written and verbal communication skills",
+        "Demonstrated ability to learn and adapt to new technologies quickly",
+        "Basic understanding of software development lifecycle (SDLC)",
+        "Experience within Robotics, Computer Vision, Machine Learning, Optimization, Manipulation, Perception, Motion Planning and Controls, Movement, Autonomous Navigation, Path Planning, or related"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "DimeHealth AI",
+    "role": "Forward Deployed Engineering Intern",
+    "link": "https://www.workatastartup.com/jobs/94211",
+    "location": "New York, NY"
+  },
+  {
     "company": "Fenwick & West",
     "role": "Forward Deployed Operations Intern",
     "link": "https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers/job/Silicon-Valley/Forward-Deployed-Operations-Intern_R2883-1",
