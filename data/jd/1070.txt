@@ -1,0 +1,221 @@
+What We Do
+Products
+Solutions
+Support & Services
+Partners
+Resources
+Company
+Contact Us
+Global Offices
+Next Community
+Software Engineering Intern (UNDERGRAD ONLY - distributed systems, public cloud platforms, AI coding tools))
+Engineering
+San Jose,
+California
+Req.Num.: 30223
+Apply
+Hungry, Humble, Honest, with Heart. The OpportunityAre you a motivated student with solid programming skills, a passion for cloud technologies, and a desire to work in a fast-paced, agile environment? If so, joining the Nutanix Cloud Clusters (NC2) team as a Software Engineer Intern offers you the unique opportunity to gain hands-on experience on a mission-critical public cloud product while contributing to innovative solutions that simplify enterprise AI deployment and enable seamless cloud migration. About the TeamThe Nutanix Cloud Clusters (NC2) team, which helps users run a Nutanix solution in the public cloud by using the same Nutanix software stack used in on-premises environments. The team provides a solution that allows the entire stack to run in the public cloud. NC2 is one of the core products offered by Nutanix, a company recognized as a Leader in Distributed Hybrid Infrastructure and Multicloud Container Platforms. The team's goal aligns with Nutanix's broader mission to enable Hybrid Cloud Adoption and provide seamless migration to the cloud without costly refactoring. Your RoleCollaborate with the Nutanix Cloud Clusters (NC2) team to complete a defined software engineering project.Utilize programming skills, particularly Python, to develop and implement features within a large, distributed codebase.Engage with assigned mentors for guidance and to enhance project development efficiency.Present completed project work and results to the broader NC2 team at the end of the internship.Participate in weekly check-in meetings to discuss progress and address any development roadblocks.Gain hands-on experience with public cloud services (AWS, GCP, Azure) and AI coding assistance tools, if applicable.Document project findings and contributions, showcasing the application of core programming skills in a corporate setting.Contribute to the evolution of seamless cloud migration tools and advancements in enterprise AI deployment capabilities. What You Will BringApplicants must be authorized to work in the US without requiring current or future sponsorship for an employment visa status, such as an F1, H1B, or TN visa.Pursuing a bachelor's degree in Computer Science, Software Engineering, or related fields.Proficiency in programming languages, particularly PythonFamiliarity with public cloud platforms such as AWS, GCP, or Azure (highly desirable).Understanding of AI coding assistance tools like Cursor (considered a plus).Strong problem-solving skills and ability to work independently on defined projects.Effective communication skills for presenting project work to the team.Ability to engage actively with mentorship and participate in regular check-ins.Experience with software development in corporate settings is preferred but not mandatory.Perks You'll Enjoy A structured Campus to Career program with training and mentorship, a hackathon, leadership roundtable discussions, and the chance to showcase your achievements at the close of your internshipPlentiful opportunities for learning, collaboration, and connection in personA detailed look inside our technical Nutanix platform architectureCompetitive pay, Wellness Days, and a vibrant Employee Resource Group communityThe Process We understand you are pursuing multiple employment options. Please note these important steps. Application Screening: We will review your application to understand your unique talents and skills in relation to our opportunities Online Technical Assessment: We will review your foundational skills through a coding skills assessment in the language of your choiceTechnical interviews with our hiring teams to showcase your skills Students who advance to this round will receive preparation prior to the interviews Expect up to 3 interviews with Nutanix engineers and leaders. These are designed to assess your technical skills, role readiness, and your motivation for the opportunity at Nutanix. Each meeting will give you an opportunity to ask questions and learn more about the team you might work with. Work ArrangementHybrid: This role operates in a hybrid capacity, blending the benefits of remote work with the advantages of in-person collaboration. In locations where our workplace policy applies (i.e. San Jose, Durham, Mexico City, Bangalore, Pune, Hoofddorp, Belgrade, Barcelona, Singapore, Sydney and Tokyo), employees are expected to work onsite a minimum of 3 days per week to foster collaboration, team alignment, and access to in-office resources.Workplace type may vary based on location and team requirements. Please speak with your recruiter for details. Additional team-specific guidance and norms will be provided by your manager. The pay range for this position at commencement of employment is expected to be between USD $ 36 and USD $ 60 per hour. However, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements, including a sign-on bonus, restricted stock units, and discretionary awards in addition to a full range of medical, financial, and/or other benefits (including 401(k) eligibility and various paid time off benefits, such as vacation, sick time, and parental leave), dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment.If hired, employee will be in an “at-will position” and the Company reserves the right to modify base salary (as well as any other discretionary payment or compensation program) at any time, including for reasons related to individual performance, Company or individual department/team performance, and market factors. Our application deadline is 40 days from the date of posting. In good faith, the posting may be removed prior to this date if the position is filled or extended in good faith.
+--
+Nutanix is an equal opportunity employer.
+Nutanix is an Equal Employment Opportunity and (in the U.S.) an Affirmative Action employer. Qualified applicants are considered for employment opportunities without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, marital status, protected veteran status, disability status or any other category protected by applicable law. We hire and promote individuals solely on the basis of qualifications for the job to be filled. We strive to foster an inclusive working environment that enables all our Nutants to be themselves and to do great work in a safe and welcoming environment, free of unlawful discrimination, intimidation or harassment. As part of this commitment, we will ensure that persons with disabilities are provided reasonable accommodations. If you need a reasonable accommodation, please let us know by contacting [email protected].
+Apply
+Apply Later
+← Back to Current Openings
+Share
+lang: en_US
+LinkedIn
+Facebook
+Twitter
+Email
+Powered by Jobvite
+We're Social
+.outline{fill: #3e6d9c;}
+.buttons{fill: #70a4d8;}
+Request a Demo
+.outline{fill: #3e6d9c;}
+.tie{fill: #70a4d8;}
+Contact Sales
+What We Do
+Solutions
+Products
+Resources
+Our Customers
+Tech Terms
+Connect with Nutanix
+Contact Us
+Support Team
+Blog
+Events
+Next Community
+Company Info
+Global Offices
+Leadership
+Newsroom
+Investor Relations
+Social Responsibility
+Trust
+Diversity and Inclusion
+Resources
+Careers
+Current Openings
+Life At Nutanix
+Applicant Privacy Notice •
+Nutanix Privacy Statement •
+Cookies •
+Terms of Use / Do Not Sell my Personal Information
+© Nutanix document.write(new Date().getFullYear());, all rights reserved.
+Back to Top
+angular.module('preloadedData', []).constant('preloadedData', {
+applyLinkUrl: '${job.applyLinkUrl}',
+jobCategoryId: 'a9V9VfwS',
+jobCategoryName: 'Engineering',
+jobId: 'oxZfyfw3',
+jobReqId: '30223',
+jobTitle: 'Software Engineering Intern (UNDERGRAD ONLY - distributed systems, public cloud platforms, AI coding tools))',
+jobLocationId: 'CtniVfwN',
+companyAnalytics: 'UA-40341815-1',
+enableResumeParsing: true,
+numberFormat: "##,###,###,###,###.####",
+companyEId: 'qKr9VfwZ',
+linkedInApiKey: '7557fkcarvxieo',
+isAWLIEnabled: '${isAWLIEnabled}',
+facebookApiId: '48354194572',
+dropBoxApiKey: 'w5fg28zznqcyg4w',
+baseUrl: '/nutanix',
+cdnURL: '//d3igejkwe1ucjd.cloudfront.net',
+releaseVersion: '260413142703',
+careersiteName: 'nutanix',
+careersiteDomainName: '${careersiteDomainName}',
+careersiteSourceTypeId: 'PQmHWfwz'
+}).constant('i18n', {
+I18N_RESUME_PREVIEW: 'Resume Preview',
+I18N_NO_RESUME_FOUND: 'No resume found',
+I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',
+I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',
+I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',
+I18N_RECOMMENDER: 'Recommender:',
+I18N_CURRENT: 'Current',
+I18N_PAST: 'Past',
+I18N_EDUCATION: 'Education',
+I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',
+I18N_PATENTS: 'Patents',
+I18N_SUMMARY: 'Summary',
+I18N_SPECIALTIES: 'Specialties',
+I18N_EXPERIENCE: 'Experience',
+I18N_RECOMMENDATIONS: 'Recommendations',
+I18N_PRESENT: 'Present',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec',
+COMMON_PAST_WEEK: 'Past 7 days',
+COMMON_PAST_MONTH: 'Past 30 days',
+COMMON_PAST_3_MONTHS: 'Past 90 days',
+COMMON_CUSTOM_RANGE: 'Custom Range',
+I18N_FROM: 'From',
+I18N_TO: 'To',
+I18N_ANY: 'Any',
+I18N_FILE_UPLOAD_SIZE_CHECK_ERROR: 'File size shall not exceed 10MB',
+I18N_MALICIOUS_CONTENT: 'The file upload was blocked for security reasons. Please check the file for any potentially harmful content or links and try again.',
+I18N_NO_REMOTE: 'No Remote',
+I18N_REMOTE: 'Remote'
+});
+Jobvite = {
+baseUrl: 'https://app.jobvite.com'
+}
+What We Do
+Products
+Solutions
+Company
+Partners
+Support & Services
+Resources
+Contact Us
+$('header .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+$('footer .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+var lastScrollTop = 0;
+$(window).scroll(function (event) {
+var st = $(this).scrollTop();
+if (st > 0) {
+if (st > lastScrollTop) {
+// downscroll code
+$('header').addClass('nav-down');
+$('header').addClass('smaller')
+} else {
+// uproll code
+$('header').removeClass('smaller');
+$('header').removeClass('nav-down');
+$('header').addClass('nav-up')
+}
+} else {
+$('header').removeClass('nav-up');
+$('header').removeClass('smaller');
+}
+lastScrollTop = st;
+});
+jQuery(document).ready(function() {
+var offset = 250;
+var duration = 300;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.back-to-top').fadeIn(duration);
+} else {
+jQuery('.back-to-top').fadeOut(duration);
+}
+});
+jQuery('.back-to-top').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});

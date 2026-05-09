@@ -1,0 +1,49 @@
+{
+  "jobPostingInfo": {
+    "id": "406e6b4ea1c410020b7b7aa1c91f0000",
+    "title": "Forward Deployed Operations Intern",
+    "jobDescription": "<span><span><span><span><span><span><span><p style=\"text-align:left\"><span><span><span><span><span><span><span><b><span>Job Description Summary:</span></b></span></span></span></span></span></span></span></p></span></span></span></span></span></span></span>Fenwick is excited to offer an internship opportunity within our Finance Department for Forward Deployed Operations Intern – Business AI and Innovation. This role provides hands-on experience designing, building, and deploying AI native solutions that support how a leading technology law firm operates and grows.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><span><span><span><span><span><span><span><p style=\"text-align:left\"><b>Job Description:</b></p></span></span></span></span></span></span></span><p>Interns will design, build, and ship AI-native and agentic workflows that support business development, business intelligence, and legal operations initiatives across the firm. Responsibilities include translating business requirements into technical architecture, running experiments to measure effectiveness, and iterating based on real-time feedback from attorneys and business teams.</p><p></p><p>Interns may build agents that surface prospect intelligence, identify relationship opportunities, and support targeted outreach strategies, as well as develop automated pipelines that synthesize market, competitive, and industry data into actionable insights for firm leadership. The role also includes streamlining and automating operational workflows to support matter and resource planning and drive efficiency across legal operations.</p><p></p><p>This position can be based in our San Francisco, CA or Silicon Valley, CA offices. The role is primarily onsite, with some hybrid flexibility depending on business needs. This is a full-time non-exempt role expected to run through summer 2026.</p><p></p><p><b>Qualifications</b></p><ul><li>Currently enrolled in a college program focused on computer science, data science, industrial engineering, economics, or related technical or quantitative degree</li><li>Hands-on programming experience (Python preferred) and familiarity with APIs, large language models, and development tools such as Jupyter Notebook or VS Code</li><li>Experience translating ideas into working prototypes, running experiments, and iterating based on results</li><li>Ability to work effectively with non-technical stakeholders and translate business needs into technical solutions</li><li>Familiarity with cloud platforms such as Azure, Microsoft Fabric, Databricks, or AWS (AWS experience is transferable) preferred</li><li>Strong interest in current and emerging technologies</li><li>A strong inclination to build - you prioritize shipping over endless specification</li></ul><p></p><p>#LI-DNI</p><p style=\"text-align:inherit\"></p><br /><p style=\"text-align:inherit\"></p><p style=\"text-align:left !important\"><b>Benefits and Compensation Details:</b></p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">At Fenwick, we believe that our partners and employees are our most important asset. Helping you and your families achieve and maintain good health - physical, emotional, and financial - is the reason we offer a comprehensive benefit program. We provide benefits to eligible employees under plans such as Healthcare, Life Insurance, Health Savings Accounts, Flexible Spending Accounts, and Wellbeing. Except as otherwise required by law, temporary employees are generally not entitled to these benefits.</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">The anticipated range for this position is:</p>$1 - $1,500,000<p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Depending on the role, the actual base salary offered may depend upon a variety of factors, including without limitation, the qualifications of the individual applicant for the position, years of relevant experience, level of education attained, certifications or other professional licenses held, and if applicable, the location in which the applicant lives and/or from which they will be performing the job.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">A discretionary bonus for eligible employees may also be available based on performance. Additional information about employee eligibility for benefits and discretionary bonus will be made available upon request.</p>",
+    "location": "Silicon Valley",
+    "additionalLocations": [
+      "San Francisco"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-08",
+    "timeType": "Full time",
+    "jobReqId": "R2883",
+    "jobPostingId": "Forward-Deployed-Operations-Intern_R2883-1",
+    "jobPostingSiteId": "Fenwick_External_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Silicon Valley",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers/job/Silicon-Valley/Forward-Deployed-Operations-Intern_R2883-1",
+    "questionnaireId": "713e6a8222a01000d864f9faa7bd0000"
+  },
+  "hiringOrganization": {
+    "name": "Fenwick & West LLP",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Business Innovation Intern",
+      "externalPath": "/job/Silicon-Valley/Marketing-Intern_R2863-1",
+      "timeType": "Part time",
+      "locationsText": "7 Locations",
+      "postedOn": "Posted 14 Days Ago",
+      "startDate": "2026-04-24"
+    }
+  ],
+  "userAuthenticated": false
+}
