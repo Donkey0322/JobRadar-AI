@@ -569,13 +569,15 @@
       "https://amazon.jobs/en/jobs/3174943/software-development-engineer-apprentice-42-month-fixed-term-contract",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3179209/software-development-engineer-internship-military-veteran",
+      "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
       "https://www.amazon.jobs/en/jobs/3059793/security-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3062254/systems-development-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3066439/front-end-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3066561/business-intelligence-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3066625/data-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3111792/software-eng-intern",
-      "https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-summer-2026-us"
+      "https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-summer-2026-us",
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -3907,6 +3909,18 @@
       "https://careers.skyworksinc.com/job/Austin-Timing-Engineer-Summer-Intern-%28May-'26-Aug-'26%29-TX-73301/1322327900/",
       "https://careers.skyworksinc.com/job/Hillsboro-Audio-AI-Engineering-Summer-Intern-2026-OR-97006/1319944600/",
       "https://careers.skyworksinc.com/job/Irvine-Analog-IC-Design-SummerFall-Co-Op-(June-&apos;26-Dec-&apos;26)-CA-92602/76295-en_US/?feedId=177100"
+    ]
+  },
+  {
+    "name": "careers.snowflake.com",
+    "ats": "custom",
+    "identifier": "careers.snowflake.com",
+    "domain": "https://careers.snowflake.com",
+    "page": "",
+    "urls": [
+      "https://careers.snowflake.com/us/en/job/SNCOUS0214F57FFF904B4AB58DD1965DC9927EEXTERNALENUS4F34AEFA681B4AA8A0EA28CE56C9F1A5/Software-Engineer-Intern-Core-Engineering-Fall-2026",
+      "https://careers.snowflake.com/us/en/job/SNCOUSCC3FB214186D4B439D3F15B47307A231EXTERNALENUSBBDEE8BD443C456FA4F01B363D843310/Software-Engineer-Intern-Infrastructure-Automation-Fall-2026",
+      "https://careers.snowflake.com/us/en/job/SNCOUSFA7B56D5F57047479C1775A3DB18737CEXTERNALENUSFD76A37F868D467BA2560B6746B9E961/Software-Engineer-Intern-Database-Engineering-Fall-2026"
     ]
   },
   {
@@ -18207,7 +18221,12 @@
       "https://www.tesla.com/careers/search/job/259268",
       "https://www.tesla.com/careers/search/job/261076?tags=organicjob",
       "https://www.tesla.com/careers/search/job/267767?jr_id=69dd6930bc6f6622c9912106",
+      "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067",
       "https://www.tesla.com/careers/search/job/internship-operational-automation-engineer-residential-energy-winter-spring-2026-254150",
+      "https://www.tesla.com/careers/search/job/internship-software-developer-integration-platforms-fall-2026-270037",
+      "https://www.tesla.com/careers/search/job/internship-software-engineer-maps-navigation-validation-fall-2026--270186",
+      "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002",
+      "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063",
       "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
       "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819"
     ]
@@ -18339,7 +18358,8 @@
       "https://www.workatastartup.com/jobs/84385",
       "https://www.workatastartup.com/jobs/86084",
       "https://www.workatastartup.com/jobs/88549",
-      "https://www.workatastartup.com/jobs/88690"
+      "https://www.workatastartup.com/jobs/88690",
+      "https://www.workatastartup.com/jobs/94211"
     ]
   },
   {
