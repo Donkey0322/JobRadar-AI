@@ -1,5 +1,55 @@
 [
   {
+    "company": "Fenwick & West",
+    "role": "Forward Deployed Operations Intern",
+    "link": "https://fenwick.wd1.myworkdayjobs.com/Fenwick_External_Careers/job/Silicon-Valley/Forward-Deployed-Operations-Intern_R2883-1",
+    "location": "SFMountain View, CA",
+    "season": "2026 Summer",
+    "id": 1071,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a college program in computer science, data science, industrial engineering, economics, or related technical or quantitative degree",
+        "Possess hands-on programming experience (Python preferred) and familiarity with APIs, large language models, and development tools",
+        "Translate ideas into working prototypes, run experiments, and iterate based on results",
+        "Ability to work effectively with non-technical stakeholders and translate business needs into technical solutions",
+        "Familiarity with cloud platforms such as Azure, Microsoft Fabric, Databricks, or AWS",
+        "Strong interest in current and emerging technologies",
+        "Strong inclination to build, prioritizing shipping over endless specification"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nutanix",
+    "role": "Software Engineering Intern - Distributed systems - Public cloud platforms",
+    "link": "https://jobs.jobvite.com/nutanix/job/oxZfyfw3?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 1070,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Solid programming skills",
+        "Passionate about cloud technologies",
+        "Desire to work in a fast-paced, agile environment",
+        "Pursue a bachelor's degree in Computer Science, Software Engineering, or related fields",
+        "Proficient in programming languages, especially Python",
+        "Familiar with public cloud platforms such as AWS, GCP, or Azure",
+        "Understand AI coding assistance tools like Cursor",
+        "Strong problem-solving skills",
+        "Effective communication skills for presenting project work",
+        "Engage actively with mentorship and participate in regular check-ins",
+        "Experience with software development in corporate settings"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Royal Bank of Canada",
     "role": "GenAI Engineer Co-op",
     "link": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2026-CAE--Fall-GenAI-Engineer-Co-op--12-months-_R-0000171537",
