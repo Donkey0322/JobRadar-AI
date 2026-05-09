@@ -1,0 +1,110 @@
+console.log('Page authentication status:', false);
+console.log('Internal user status:', false);<iframe src= "https://www.googletagmanager.com/ns.html?id=GTM-WJSMBWKS" sandbox="allow-scripts allow-same-origin" height= "0" width= "0" style= "display: none; visibility: hidden;" title= "Google Tag Manager"></iframe>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'DC-11435057');Skip to main content×HomeTeamsLocationsJob categoriesMy careerMy applicationsMy profileAccount securitySettingsSign outResourcesAccommodationsBenefitsInclusive experiencesHow We HireLeadership principlesWorking at AmazonFAQ if (typeof talentbrew_pixel !== 'undefined') talentbrew_pixel.init({category:'careersite', conversion_event:'page-view', 'job_id':'3136266'}); gtag('event', 'conversion', {
+'allow_custom_scripts': true,
+'send_to': 'DC-11435057/amazo0/amazo0+standard'
+});<img src="https://ad.doubleclick.net/ddm/activity/src=11435057;type=amazo0;cat=amazo0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>CXT.CLIENT_SIDE_METRICS.addUETag("jobShowPage");Robotics - Software Development Engineer Intern/Co-op - 2026Job ID: 3136266 | Amazon.com Services LLCApply nowCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addLoadMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addBodyBeginMarkerForWidget("jobShowPageApplyButton")
+$('#apply-button').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Apply', action: 'Click', label: '3136266',
+directCallIdentifier: 'applicationStart',
+jobDetails: {id: '3136266', title: 'Robotics - Software Development Engineer Intern/Co-op - 2026', category: 'Software Development', division: 'subsidiaries'}});
+if (true && typeof talentbrew_pixel !== 'undefined') {
+talentbrew_pixel.fire({category:'careersite', conversion_event:'apply-click', 'job_id':'3136266'});
+}
+if (false) {
+var TTTH_DataLayer = {
+"event": "ApplyNowClick",
+"jobID": "3136266",
+"jobName": "Robotics - Software Development Engineer Intern/Co-op - 2026"
+}
+}
+});DescriptionDo you want to solve real customer problems through innovative technology? Do you enjoy working on scalable services in a collaborative team environment? Do you want to see your code directly impact millions of customers worldwide?At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.Our Software Development Engineers (SDEs) use modern technology to solve complex problems while seeing their work's impact first-hand. The challenges SDEs solve at Amazon are meaningful and influence millions of customers, sellers, and products globally. We seek individuals passionate about creating new products, features, and services while managing ambiguity in an environment where development cycles are measured in weeks, not years. At Amazon, we believe in ownership at every level. As an SDE-I, you'll own the entire lifecycle of your code - from design through deployment and ongoing operations. This ownership mindset, combined with our commitment to operational excellence, ensures we deliver the highest quality solutions for our customers.We're looking for curious minds who think big and want to define tomorrow's technology. At Amazon, you'll grow into the high-impact engineer you know you can be, supported by a culture of learning and mentorship. Every day brings exciting new challenges and opportunities for personal growth.Amazon internships across all seasons are full-time positions, and intern/co-ops should expect to work in office, Monday-Friday, up to 40 hours per week typically between 8am-5pm. Specific team norms around working hours will be communicated by your manager. Interns should not have conflicts such as classes or other employment during the Amazon work-day. Applicants should have a minimum of one quarter/semester/trimester remaining in their studies after their internship concludes.Please note that by applying to this role you would be considered for Software Development Engineer summer intern and spring/fall co-op roles on various Robotics teams. You will be able to provide your preference of location and start date during the application process but, we cannot guarantee that we can meet your selection based on several factors including but not limited to the availability and business needs of this role. Finalization on the location and start dates available will be provided to you at the time of job offer.Key job responsibilities• Collaborate and communicate effectively with experienced cross-disciplinary Amazonians to design, build, and operate innovative products and services that delight our customers, while participating in technical discussions to drive solutions forward.• Design and develop scalable solutions using cloud-native architectures and microservices in a large distributed computing environment.• Participate in code reviews and contribute to technical documentation.• Build and maintain resilient distributed systems that are scalable, fault-tolerant, and cost-effective.• Leverage and contribute to the development of GenAI and AI-powered tools to enhance development productivity while staying current with emerging technologies. • Write clean, maintainable code following best practices and design patterns.• Work in an agile environment practicing CI/CD principles while participating in operational responsibilities including on-call duties.• Demonstrate operational excellence through monitoring, troubleshooting, and resolving production issues.• Design, develop and test software components that interact with fulfillment center technologies, such as robotics, material handling equipment, computer vision, and cloud services.A day in the lifeAs an SDE intern/co-op, you will be matched to a manager and a mentor and will have the opportunity to influence the evolution of Amazon technology and lead critical projects early in your career. In addition to working on an impactful project, you will have the opportunity to engage with Amazonians for both personal and professional development, expand your network, and participate in activities with other interns/co-ops throughout your internship. No matter the location of your internship/co-op, we give you the tools to own your project and learn in a real-world setting.About the teamLearn more about Robotics at Amazon:https://amazon.jobs/en/teams/amazon-roboticshttps://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-centerhttps://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-modelBasic Qualifications- Are 18 years of age or older- Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields- Experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript- Experience with data structure implementation, basic algorithm development, and/or object-oriented design principlesPreferred Qualifications- Experience from previous technical internship(s) or demonstrated project experience- Experience with Cloud platforms (preferably AWS), database systems (SQL and NoSQL), AI tools for development productivity, contributing to open-source projects, and/or version control systems- Strong problem-solving and analytical skills; Excellent written and verbal communication skills- Demonstrated ability to learn and adapt to new technologies quickly- Basic understanding of software development lifecycle (SDLC)- Experience within Robotics, Computer Vision, Machine Learning, Optimization, Manipulation, Perception, Motion Planning and Controls, Movement, Autonomous Navigation, Path Planning, or relatedAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.The starting pay for this position is listed below. Final starting pay will be based on factors including experience, qualifications, and location. Starting Day 1 of employment, Amazon offers EAP, Mental Health Support, Medical Advice Line, 401(k) matching. Learn more about our benefits at https://hiring.amazon.com/why-amazon/benefits.USA, CA, Sunnyvale - 127,100.00 - 185,000.00 USD annuallyUSA, MA, North Reading - 110,500.00 - 160,000.00 USD annuallyUSA, MA, Westboro - 110,500.00 - 160,000.00 USD annuallyUSA, TN, Nashville - 105,000.00 - 156,000.00 USD annuallyUSA, TX, Austin - 110,500.00 - 160,000.00 USD annuallyUSA, VA, Arlington - 110,500.00 - 160,000.00 USD annuallyUSA, WA, Bellevue - 110,500.00 - 160,000.00 USD annuallyUSA, WA, Seattle - 110,500.00 - 160,000.00 USD annuallyCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarker()Job detailsUSA, TX, AustinUSA, TN, NashvilleUSA, CA, SunnyvaleUSA, WA, BellevueUSA, WA, SeattleUSA, VA, ArlingtonUSA, MA, North ReadingUSA, MA, WestboroAmazon RoboticsSoftware DevelopmentShare this job$('#facebook-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'facebook'}});
+});
+$('#linkedin-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'linkedin'}});
+});
+$('#twitter-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'twitter'}});
+});
+$('#email-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'email link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'email'}});
+});
+$('#print-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'print link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'print'}});
+});JOIN US ONDOWNLOAD OUR APP$('#facebook-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'facebook'}});
+});
+$('#linkedin-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'linkedin'}});
+});
+$('#instagram-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'instagram link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'instagram'}});
+});
+$('#twitter-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'twitter'}});
+});
+$('#app-store-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'app store link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'app_store'}});
+});
+$('#google-play-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'google play link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'google_play'}});
+});Find CareersJob CategoriesTeamsLocationsMilitary careersHourlyWorking At AmazonCultureBenefitsAmazon NewsletterInclusive experiencesLeadership PrinciplesHelpFAQHow We HireApplication statusAccommodationsLegal disclosures and noticesAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Privacy and DataImpressum© 1996-2026, Amazon.com, Inc. or its affiliatesconst pageAnalyticsEvent = new Event('pageAnalytics')
+// TODO - Finish analytics refactor and remove unused static page data object
+var ANALYTICS_DATA = {
+businessCategory: "subsidiaries",
+contentType: "Job Details Page",
+internalOrExternal: "guest",
+jobCategory: "Software Development",
+jobCountryCode: "USA",
+jobId: "3136266",
+jobTitle: "Robotics - Software Development Engineer Intern/Co-op - 2026",
+jobTeam: "",
+locale: "en",
+stage: "production"
+};
+var digitalData = {
+// Used by events with context-specific information
+eventData: {},
+// Used by the /jobs resource pages
+job: {
+category: "Software Development",
+countryCode: "USA",
+division: "subsidiaries",
+id: "3136266",
+jobLocation: "multi",
+jobFindingMethod: document.referrer.split('?')[0] || ' ',
+title: "Robotics - Software Development Engineer Intern/Co-op - 2026",
+relatedJobId: []
+},
+page: {
+// Used by all pages
+pageInfo: {
+countryLanguage: "en",
+pageName: "Amazon.jobs | Job Details Page",
+pageType: "", // pageType is only populated to track the 404 error page
+advertisingCookieID: "be6a8915-8f37-4ef4-a93e-0227d420b066",
+analyticsCookieID: "3c7a3da1-b089-42d0-be98-b9113eff09a3",
+siteSection: "amazon jobs",
+tabName: "",
+userID: "",
+userActionStoreId: "3c7a3da1-b089-42d0-be98-b9113eff09a3",
+peopleSoftId: "",
+userType: "guest",
+userAuthMode: ""
+},
+experiment: {
+experimentDetails: null
+}
+}
+};
+window.dispatchEvent(pageAnalyticsEvent)
