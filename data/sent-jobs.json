@@ -1,5 +1,17 @@
 [
   {
+    "company": "Nokia",
+    "role": "Hardware Development Co-op Intern",
+    "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20045",
+    "location": "Berkeley Heights, NJ"
+  },
+  {
+    "company": "Tesla",
+    "role": "ML Performance Software Engineer Intern, Dojo",
+    "link": "https://www.tesla.com/careers/search/job/242741",
+    "location": "Palo Alto, CA"
+  },
+  {
     "company": "Amazon",
     "role": "Software Development Engineer Intern, AWS Data Services",
     "link": "https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
