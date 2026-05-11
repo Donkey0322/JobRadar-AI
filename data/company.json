@@ -1155,6 +1155,16 @@
   {
     "name": "aveva",
     "ats": "workday",
+    "identifier": "aveva-rib_careers",
+    "domain": "https://aveva.wd3.myworkdayjobs.com/rib_careers",
+    "page": "https://aveva.wd3.myworkdayjobs.com/wday/cxs/aveva/rib_careers/jobs",
+    "urls": [
+      "https://aveva.wd3.myworkdayjobs.com/RIB_Careers/job/Alpharetta-Georgia-United-States-of-America/Software-Engineering-Intern_R013997"
+    ]
+  },
+  {
+    "name": "aveva",
+    "ats": "workday",
     "identifier": "aveva-aveva_careers",
     "domain": "https://aveva.wd3.myworkdayjobs.com/aveva_careers",
     "page": "https://aveva.wd3.myworkdayjobs.com/wday/cxs/aveva/aveva_careers/jobs",
@@ -4805,6 +4815,16 @@
     ]
   },
   {
+    "name": "desjardins",
+    "ats": "workday",
+    "identifier": "desjardins-desjardins",
+    "domain": "https://desjardins.wd10.myworkdayjobs.com/desjardins",
+    "page": "https://desjardins.wd10.myworkdayjobs.com/wday/cxs/desjardins/desjardins/jobs",
+    "urls": [
+      "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Montral/Stage--Secteur-TI--Automne-2026_R2606252-1"
+    ]
+  },
+  {
     "name": "dexcom",
     "ats": "workday",
     "identifier": "dexcom-dexcom",
@@ -5540,7 +5560,8 @@
     "domain": "https://erickson.wd108.myworkdayjobs.com/external",
     "page": "https://erickson.wd108.myworkdayjobs.com/wday/cxs/erickson/external/jobs",
     "urls": [
-      "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0094752"
+      "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0094752",
+      "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0097239"
     ]
   },
   {
@@ -6536,6 +6557,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Plant-Engineering-Intern--Summer-2026---Onsite-_01836986",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-313--1344-S-Babcock-St--BLDG-313/Software-Engineering-Intern--Summer-2026---Onsite-_01832599",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Crypto-Software-Engineering-Co-op--Summer-Fall-2026---Onsite-_01824675",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/XMLNAME-01794310-Software-Engineering-Intern--Summer-2026-_01844105",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/Electrical-Engineering-Intern--Summer-2026--Onsite-_01837215",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN02--10--50-Moulton-St--MOULTON-B1/XMLNAME-2026-Returning-Intern_01821197",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/System-Administrator-Internship---Fall-2026_01838886",
@@ -7590,6 +7612,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/astranis/jobs/4601134006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4601135006",
       "https://job-boards.greenhouse.io/astranis/jobs/4619283006",
       "https://job-boards.greenhouse.io/astranis/jobs/4643730006",
       "https://job-boards.greenhouse.io/astranis/jobs/4646558006",
@@ -10258,7 +10281,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/apex-technology-inc",
     "urls": [
-      "https://jobs.ashbyhq.com/apex-technology-inc/2f1ef6de-1a26-4fa2-a9e5-f660796983ad/application"
+      "https://jobs.ashbyhq.com/apex-technology-inc/2f1ef6de-1a26-4fa2-a9e5-f660796983ad/application",
+      "https://jobs.ashbyhq.com/apex-technology-inc/5ec2dfa9-724d-4ce4-ab97-5067ec747f11"
     ]
   },
   {
@@ -14048,6 +14072,7 @@
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17015",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17220",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17369",
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17709",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Santa-Barbara-CA/Intern--Software-Engineering_R-26-17553"
     ]
   },

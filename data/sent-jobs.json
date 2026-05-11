@@ -1,5 +1,117 @@
 [
   {
+    "company": "Moog",
+    "role": "Intern, Software Engineering",
+    "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17709",
+    "location": "Buffalo, NY",
+    "id": 1085,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a Computer Engineering, Computer Science, or Electrical Engineering Bachelor's or Master's program",
+        "Maintain a GPA of at least 3.0",
+        "Able to relocate for the internship",
+        "Participate in designing and implementing embedded aircraft control software",
+        "Contribute to key engineering task preparation and execution",
+        "Provide technical support to engineers",
+        "Provide input on project processes, strategies, and execution",
+        "Operate as a multidisciplinary team member"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Apex-technology-inc",
+    "role": "Software Engineering Internship, Embedded Systems (Summer 2026)",
+    "link": "https://jobs.ashbyhq.com/apex-technology-inc/5ec2dfa9-724d-4ce4-ab97-5067ec747f11",
+    "location": "Los Angeles",
+    "id": 1084,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Passionate about engineering",
+        "Ready to take ownership over complex challenges",
+        "Strong desire to learn about satellites",
+        "Proficiency in programming language C++/C",
+        "Graduating in Fall of 2026 or Spring of 2027",
+        "Have a BS or MS in Computer Science, Computer Engineering, or Electrical Engineering"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Astranis",
+    "role": "Embedded Software Developer, Network/Payload Software Intern (Fall 2026)",
+    "link": "https://job-boards.greenhouse.io/astranis/jobs/4601135006",
+    "location": "San Francisco",
+    "id": 1083,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. in Computer Science, Electrical/Computer Engineering, Aerospace, or equivalent technical degree",
+        "Experience with C++, Python, and scripting languages",
+        "Demonstrate ability to design, write, and test software from scratch",
+        "Experience with RF and signal processing",
+        "Experience with real-time operating systems"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Globalhr",
+    "role": "Software Engineering Intern (Summer 2026)",
+    "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/XMLNAME-01794310-Software-Engineering-Intern--Summer-2026-_01844105",
+    "location": "US-IA-CEDAR RAPIDS-192 ~ 1205 Continental Place NE ~ BLDG 192",
+    "id": 1082,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or advanced degree in an applicable discipline",
+        "Experience with avionics or software development/testing",
+        "Experience working in an Agile development environment",
+        "Coding experience in Ada, C/C++, or Python",
+        "Proficient in requirement management tools like DOORS or JAMA",
+        "Knowledge of Atlassian Suite, especially JIRA and Confluence",
+        "Experience with configuration control of documentation, test artifacts, and environment setups"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Erickson",
+    "role": "Intern – Software Engineer",
+    "link": "https://erickson.wd108.myworkdayjobs.com/external/job/Baltimore-MD/Intern---Software-Engineer_R0097239",
+    "location": "Baltimore, MD",
+    "id": 1081,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Support the design and development of IT solutions",
+        "Ask questions to clarify work tasks to hone into the problem",
+        "Troubleshoot individually and brainstorm technical issues with a group",
+        "Learn new technologies and applications",
+        "Possess a continuous learning mindset",
+        "Demonstrate a passion for technology"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Desjardins Group",
     "role": "Development Intern - IT sector",
     "link": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Montral/Stage--Secteur-TI--Automne-2026_R2606252-1",
