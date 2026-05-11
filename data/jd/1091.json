@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "1dd40ac5bbf51000c203ff5e13f70000",
+    "title": "AI Agent Developer Intern",
+    "jobDescription": "<p style=\"text-align:left\">GoodRx is America’s healthcare marketplace. Each month, millions of people visit <a href=\"http://goodrx.com/\" target=\"_blank\">goodrx.com</a> to find reliable health information and discounts for their healthcare — and we’ve helped people save $60 billion since 2011. We provide prescription discounts that are accepted at more than 70,000 pharmacies in the U.S., as well as telehealth services including doctor visits and lab tests. Our services have been positively reviewed by Good Morning America, The New York Times, NBC News, AARP, and many others.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Our goal is to help Americans find convenient and affordable healthcare. We offer solutions for consumers, employers, health plans, and anyone else who shares our desire to provide affordable prescriptions to all Americans.</p><p style=\"text-align:inherit\"></p><p><b>About the Role:</b></p><p>GoodRx&#39;s Digital Experience (DX) team is on the cutting edge of how AI can transform the way marketing and content teams operate. We&#39;re looking for an enthusiastic and curious intern to join us and help build a portfolio of AI-powered agents that reduce manual work, improve QA processes, and create smarter feedback loops across our tools and workflows.</p><p></p><p>This intern will sit within the Audience Experience Insights and Strategy (AEXIS) team under the Marketing organization, working directly under the Sr. Digital Experience Manager. You&#39;ll have the opportunity to take real business problems and turn them into functional AI agents.</p><p></p><h2><b>What You&#39;ll Do:</b></h2><ul><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Build AI agents using Glean and other AI tooling to automate repeatable AEXIS team workflows</span></p></li><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Collaborate with stakeholders across Design, Operations, Content, Engineering, and Marketing to understand agent requirements and success metrics</span></p></li><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Integrate with existing tools like Contentful, Jira, Figma, Amplitude, Looker, Slack, and Google Workspace</span></p></li><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Test and iterate on agent behavior, ensuring outputs are accurate and actionable</span></p></li><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Document agent configurations, use cases, and best practices in Confluence or Google Docs</span></p></li><li style=\"color:#000000 !important\"><p><span style=\"color:#000000\">Communicate progress clearly and proactively to the DX team and agent owners</span></p></li></ul><p></p><h2><b>What We&#39;re Looking For:</b></h2><p><i>Required:</i></p><ul><li><p>Currently pursuing a Bachelor degree, to which you will return in Fall 2026. </p></li><li><p>Expected Graduation date between May 2027 - June 2028</p></li><li><p>Able to commit to full time internship program for 12 weeks during summer of 2026</p></li><li><p>Preferred location: Hybrid in New York City</p></li><li><p>Genuine curiosity about AI tools, large language models, and automation</p></li><li><p>Comfortable working with APIs, data exports (CSV/JSON), or no-code/low-code platforms</p></li><li><p>Strong attention to detail and organized approach to problem-solving</p></li><li><p>Clear written communication skills </p></li></ul><p></p><p><i>Nice to Have:</i></p><ul><li><p>Hands-on experience with any of the following: Contentful, Figma, Jira, Amplitude, Looker, Asana, or Glean</p></li><li><p>Familiarity with prompt engineering or building AI agents (ChatGPT, Glean, Zapier, etc.)</p></li><li><p>Understanding of A/B testing or digital marketing workflows</p></li><li><p>Prior internship or project experience in a marketing, product, or tech environment</p></li></ul><p></p><p><b>What You&#39;ll Gain:</b></p><ul><li><p>Hands-on experience building production AI agents </p></li><li><p>Exposure to a cross-functional marketing and product workflow from ideation to deployment</p></li><li><p>Mentorship from the Sr. Digital Experience Manager </p></li><li><p>A portfolio of shipped AI tools you can point to — this is real work with real impact</p></li><li><p>Insight into how a leading consumer health brand uses AI to scale its digital experience</p></li></ul><p></p><p>We’re committed to growing and empowering a more inclusive community within our company and industry. That’s why we hire and cultivate diverse teams of the best and brightest from all backgrounds, experiences, and perspectives. We believe that true innovation happens when everyone has a seat at the table and the tools, resources, and opportunities to excel.</p><p></p><p>With that said, research shows that women and other underrepresented groups apply only if they meet 100% of the criteria. GoodRx is committed to leveling the playing field, and we encourage women, people of color, those in the LGBTQ&#43; communities, and Veterans to apply for positions even if they don’t necessarily check every box outlined in the job description. Please still get in touch - we’d love to connect and see if you could be good for the role!</p><p></p><p><span>GoodRx is America&#39;s healthcare marketplace. The company offers the most comprehensive and accurate resource for affordable prescription medications in the U.S., gathering pricing information from thousands of pharmacies coast to coast, as well as a telehealth marketplace for online doctor visits and lab tests. Since 2011, Americans with and without health insurance have saved $60 billion using GoodRx and million consumers visit<span> </span></span><a href=\"http://goodrx.com/\" target=\"_blank\">goodrx.com</a><span><span> </span>each month to find discounts and information related to their healthcare. GoodRx is the #1 most downloaded medical app on the iOS and Android app stores. For more information, visit<span> </span></span><a href=\"http://www.goodrx.com/\" target=\"_blank\">www.goodrx.com</a><span>.</span></p><p></p><p><span>We prioritize candidate safety. Please be aware that all official communication will only be sent from <b>&#64;</b></span><span><b>goodrx.com</b> or <b>goodrx&#64;myworkday.com </b>addresses.</span></p>",
+    "location": "New York City, NY",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-11",
+    "timeType": "Full time",
+    "jobReqId": "JR100607",
+    "jobPostingId": "AI-Agent-Developer-Intern_JR100607",
+    "jobPostingSiteId": "Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/goodrx/careers/sidebarimage/2fcad90827d31001ba4f51d21e510003",
+      "alt": "GoodRx Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "NY Office",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://goodrx.wd1.myworkdayjobs.com/Careers/job/New-York-City-NY/AI-Agent-Developer-Intern_JR100607",
+    "questionnaireId": "f4703663818c10016dba7eff68760000"
+  },
+  "hiringOrganization": {
+    "name": "GoodRx, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

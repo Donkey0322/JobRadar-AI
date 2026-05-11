@@ -1,5 +1,335 @@
 [
   {
+    "company": "Hitachi",
+    "role": "Software Analyst Intern",
+    "link": "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Fall-2026--4-months-_R1012573",
+    "location": "Scarborough, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1100,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards a bachelor’s or master’s degree in Engineering, Computer Science, or related field",
+        "Knowledgeable of software development processes",
+        "Able to quickly integrate with the team and work independently",
+        "Practical experience using Microsoft Office Suite programs",
+        "Knowledgeable of object-oriented techniques, multithreading, socket programming, General Windows Programming",
+        "Strong communication skills in English, both written and verbal",
+        "Able to work 40 hours a week in a hybrid environment for the duration of the internship, with at least 2 days a week in the office",
+        "Available for a 4-month term as a Co-op student, with coursework remaining after the internship",
+        "Previous co-op work experience is an asset; relevant school projects may be considered",
+        "Entry-level experience using scripting languages such as Perl & Python"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Motorola",
+    "role": "Design Technologist Co-op 🎓",
+    "link": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-US-Offsite/Design-Technologist---2026-Fall-Coop_R63068",
+    "location": "10 locationsSouth CarolinaTennesseeNorthern California, CANYCMassachusettsNorth CarolinaIndianaLouisianaRiverside-San Bernardino-Ontario, CA, CAIllinois",
+    "season": "2026 Fall",
+    "id": 1099,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop functional, data-driven prototypes using modern web frameworks.",
+        "Integrate LLMs, diffusion models, and vector databases into user interfaces.",
+        "Optimize prompts and RAG flows to improve user experience.",
+        "Translate UX wireframes and design requirements into technical specifications.",
+        "Collaborate with designers to assess technical feasibility of concepts.",
+        "Research and document emerging AI models, APIs, and developer tools.",
+        "Pursue a Master's degree in Computer Science, Software Engineering, HCI, or related field.",
+        "Have a minor or concentration in Design.",
+        "Possess a strong foundation in React, TypeScript, and Node.js.",
+        "Comfortable spinning up a full-stack environment from scratch.",
+        "Demonstrated experience working with AI APIs.",
+        "Understand how to manipulate model parameters and structure data for AI consumption.",
+        "Hands-on experience crafting, testing, and refining prompts.",
+        "Possess a basic understanding of visual hierarchy, interaction design, and user-centric thinking.",
+        "Experience with Python for scripting and data processing.",
+        "Familiarity with vector databases or RAG architectural concepts.",
+        "Experience working with Figma MCP and integrating AI tools.",
+        "Participate in hackathons, coding competitions, or AI build sprints.",
+        "Submit a comprehensive portfolio showcasing technical execution and project impact.",
+        "High School Diploma required.",
+        "Pursuing a Master's Degree with a graduation date of December 2026 or later."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Sun Life",
+    "role": "Student – Associate Business & Systems Analyst Intern",
+    "link": "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Associate-Business---Systems-Analyst--Fall-2026-_JR00123875",
+    "location": "Toronto, ON, CanadaKitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1098,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Analyze and define user requirements",
+        "Review business and technical documents",
+        "Partner with various teams throughout project lifecycle",
+        "Build successful relationships",
+        "Join continuous improvement initiatives",
+        "Contribute to Business & Systems Analysis Practice",
+        "Strong communication skills",
+        "Analytical thinking and problem-solving aptitude",
+        "Collaborative team member",
+        "Organized facilitator skills",
+        "Solid knowledge of Microsoft products",
+        "Technical aptitude and curiosity",
+        "Completed courses or work experience in Business Analysis"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Super",
+    "role": "Software Engineer Intern - Product - Full-Stack",
+    "link": "https://jobs.ashbyhq.com/super.com/8179b5ad-9074-4d96-aa92-366cf12ab5d5/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1097,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Ship technically challenging projects end-to-end",
+        "Propel the business forward and recognize impact",
+        "Own features, services, caches, and databases",
+        "Write production-ready, well-tested code",
+        "Be data-driven and customer-focused",
+        "Work on both frontend and backend across multiple services",
+        "At least 8 months of web development experience",
+        "Exposure to a dynamic startup or scaleup environment",
+        "Experience with a modern frontend JS framework",
+        "Experience working with web servers",
+        "Learn quickly, regardless of technologies used",
+        "Experience taking ownership and shipping entire features end-to-end",
+        "Thrive on decoding intricate problems",
+        "Interested in working on frontend and backend components",
+        "Interested in working with React on frontend",
+        "Interested in working with Python on backend"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "SOTI",
+    "role": "Software Developer Intern",
+    "link": "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--September-2026-12-Months-_R10025",
+    "location": "Mississauga, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1096,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Know algorithms, data structures, and database fundamentals.",
+        "Possess basic knowledge of Software Development Life Cycle concepts.",
+        "Strong math, analytic, and problem-solving skills.",
+        "Basic programming knowledge in C, C++, Java, JavaScript, SQL, Ruby, Rust, Lua, Haskell.",
+        "Exhibit curiosity, a desire to learn, and be part of a team."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Royal Bank of Canada",
+    "role": "Insurance AI Engineering Co-op",
+    "link": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/MISSISSAUGA-Ontario-Canada/XMLNAME-2026-Insurance--Fall-AI-Engineering-Co-Op_R-0000171295",
+    "location": "Mississauga, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1095,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Progress toward a degree in Computer Science, Engineering, Data Science, or Mathematics.",
+        "Basic understanding of ML concepts.",
+        "Hands-on experience with Python.",
+        "Strong problem-solving skills.",
+        "Passion for learning new technologies.",
+        "Ability to communicate technical ideas clearly.",
+        "Collaborate in a team setting.",
+        "Familiarity with CI/CD pipelines.",
+        "Familiarity with version control (Git).",
+        "Familiarity with deployment tools like Docker basics.",
+        "Experience with cloud platforms (AWS/Azure/GCP).",
+        "Experience with monitoring tools (Grafana, Prometheus).",
+        "Experience with scripting automation (Bash, Python).",
+        "Experience with infrastructure-as-code.",
+        "Knowledge of ML experimentation tools (MLflow, W&B).",
+        "Knowledge of orchestration frameworks (Airflow, Kubeflow)."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Zoox",
+    "role": "Platform Intelligence Intern",
+    "link": "https://jobs.lever.co/zoox/22bece12-95a5-4ad7-a4e4-6c43178153d2/apply",
+    "location": "San Mateo, CA",
+    "season": "2026 Summer",
+    "id": 1094,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "LMI",
+    "role": "Full Stack Development Intern",
+    "link": "https://careers-lmi.icims.com/jobs/14031/job?mobile=true&needsRedirect=false",
+    "location": "Vienna, VA",
+    "season": "2026 Summer",
+    "id": 1093,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue Bachelor\n\nThere was an unexpected token in the thought process. I will regenerate the thought process and the response.",
+        "Pursue Bachelor's or Master's degree in computer science, data science, machine learning, or a related field.",
+        "Strong proficiency in Python and SQL.",
+        "Currently enrolled in a degree-seeking program.",
+        "Excellent written, verbal, and interpersonal communication skills.",
+        "Ability to work effectively independently and in team environments.",
+        "Interest in manufacturing and supply chains.",
+        "Background in developing LLM-powered workflows."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Super",
+    "role": "Payments Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/super.com/6a0dc25b-6eb2-411e-a862-6b083d9bad3c/application",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 1092,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Have 8 months of full-stack web development work experience",
+        "Experience working with modern Python",
+        "Worked on web services, SaaS, and internal tools",
+        "Learn quickly, regardless of languages and technologies",
+        "Experience taking ownership and shipping entire features end-to-end",
+        "Thrive on decoding elaborate problems with logical solutions",
+        "Interested in working on frontend and backend components",
+        "Interested in working with React on frontend and Python on backend"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "GoodRx",
+    "role": "AI Agent Developer Intern",
+    "link": "https://goodrx.wd1.myworkdayjobs.com/Careers/job/New-York-City-NY/AI-Agent-Developer-Intern_JR100607",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 1091,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor degree and return in Fall 2026.",
+        "Expected graduation between May 2027 and June 2028.",
+        "Commit to a 12-week full-time internship in Summer 2026.",
+        "Possess genuine curiosity about AI tools, large language models, and automation.",
+        "Comfortable working with APIs, data exports, or no-code/low-code platforms.",
+        "Demonstrate strong attention to detail and an organized approach to problem-solving.",
+        "Possess clear written communication skills.",
+        "Have hands-on experience with Contentful, Figma, Jira, Amplitude, Looker, Asana, or Glean.",
+        "Familiar with prompt engineering or building AI agents.",
+        "Understand A/B testing or digital marketing workflows.",
+        "Have prior internship or project experience in marketing, product, or tech."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Jonas Software",
+    "role": "Software Engineer Intern",
+    "link": "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA/job/Remote---USA/Software-Engineering-Intern_R52141-1",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 1090,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Assist with software development, R&D, and internal improvement initiatives.",
+        "Support AI-focused research, experimentation, documentation, and workflow improvement.",
+        "Help evaluate AI tools for requirements analysis, code understanding, and engineering productivity.",
+        "Participate in daily stand-ups, planning discussions, and team meetings.",
+        "Collaborate with R&D team members to understand business needs and technical requirements.",
+        "Assist with small feature work, bug fixes, and testing support.",
+        "Create or update documentation for internal tools, AI workflows, and technical processes.",
+        "Research technical topics and summarize findings clearly.",
+        "Support QA, automation, data review, or process improvement work.",
+        "Learn and apply best practices in security, quality, and maintainability.",
+        "Currently pursuing or recently completed a degree in computer science or related field.",
+        "Early in software development career with interest in SaaS R&D.",
+        "Curious about AI and its application in software development.",
+        "Basic understanding of software development concepts like APIs, databases, and source control.",
+        "Comfortable learning new tools, asking questions, and receiving feedback.",
+        "Able to communicate clearly in writing and verbally.",
+        "Detail-oriented, dependable, and willing to follow standards.",
+        "Strong desire for continuous technical learning and adaptation.",
+        "Able to work remotely with regular communication and accountability.",
+        "Familiarity with Microsoft Office, collaboration, and AI productivity tools."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Premier Automation",
+    "role": "Software / Computer Science Intern",
+    "link": "https://job-boards.greenhouse.io/premierautomation/jobs/5216022008",
+    "location": "Monroeville, PA",
+    "season": "2026 Summer",
+    "id": 1089,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a relevant technical degree",
+        "Strong Python programming skills",
+        "Interested in systems programming, networking, data pipelines, or infrastructure development",
+        "Strong analytical thinking and troubleshooting ability",
+        "Self-motivated, dependable, and capable of independent hybrid work",
+        "Effective communication skills and willingness to contribute ideas",
+        "Experience with TCP/IP, UDP, or socket communication",
+        "Experience with SQLite or other lightweight databases",
+        "Experience with regular expressions or data parsing",
+        "Experience with data pipelines, automation, or real-time systems projects",
+        "Exposure to AI, diagnostics, or machine-learning technologies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "19109 speedpay rd",
     "role": "Intern Marketing, Employer Branding & AI Innovation",
     "link": "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19226",
