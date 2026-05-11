@@ -1,5 +1,36 @@
 [
   {
+    "company": "True Anomaly",
+    "role": "Full Stack Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5131361007",
+    "location": "Denver, CO",
+    "id": 1078,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or complete a bachelor's degree in Computer Science or related",
+        "Exhibit exposure to functional programming concepts",
+        "Possess introductory experience with Elixir, Erlang, or similar functional languages",
+        "Familiar with full stack frameworks like Phoenix or Ruby on Rails",
+        "Possess basic experience with HTML/CSS and modern JavaScript or TypeScript",
+        "Interested in resilient, fault-tolerant system design and distributed systems",
+        "Strong written and oral communication skills",
+        "Enjoy debugging and problem solving",
+        "Demonstrate a strong bias towards understanding how things work",
+        "Familiar with Elixir and OTP concepts including GenServers",
+        "Familiar with React or similar modern frontend frameworks",
+        "Exposed to databases such as PostgreSQL or MySQL",
+        "Exposed to testing frameworks or practices in any language",
+        "Interested in real-time or game engine backends",
+        "Familiar with authentication concepts such as OAuth2 or role-based access controls"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Homebase",
     "role": "AI Engineering Intern (Hybrid)",
     "link": "https://jobs.ashbyhq.com/homebase/b61bc585-57bf-4918-8154-b8be27ff5a5e",
