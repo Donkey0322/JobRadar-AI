@@ -1,5 +1,35 @@
 [
   {
+    "company": "Homebase",
+    "role": "AI Engineering Intern (Hybrid)",
+    "link": "https://jobs.ashbyhq.com/homebase/b61bc585-57bf-4918-8154-b8be27ff5a5e",
+    "location": "San Francisco",
+    "id": 1077,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Embed with internal teams to map workflows and identify automation opportunities",
+        "Design, prototype, and ship AI-powered automations end-to-end",
+        "Build full-stack solutions using Python, backend services, and React interfaces",
+        "Operate like a product-minded engineer, running interviews and iterating on feedback",
+        "Measure impact rigorously and ship changes that improve metrics",
+        "Codify what works by creating reusable templates, playbooks, and documentation",
+        "Experiment with AI tools to accelerate workflows and demonstrate AI fluency",
+        "Curious and enthusiastic for AI-first engineering and LLM experimentation",
+        "Experienced with Python, JavaScript/TypeScript, or React",
+        "Comfortable navigating ambiguity and learning new systems quickly",
+        "Possess a product mindset to break down problems and iterate",
+        "Strong communication skills for partnering and demoing work",
+        "Able to collaborate in the San Francisco office Tuesdays and Wednesdays",
+        "Passionate about helping small businesses and building effective tools"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Nokia",
     "role": "Hardware Development Co-op Intern",
     "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/20045",
