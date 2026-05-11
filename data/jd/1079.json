@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "ebe0172d31341000b4f52b7ab4760000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "<p>Driven by transformative digital technologies and trends, we are RIB and we’ve made it our purpose to propel the industry forward and make engineering and construction more efficient and sustainable. Built on deep industry expertise and best practice, and with our people at the heart of everything we do, we deliver the world&#39;s leading end-to-end lifecycle solutions that empower our industry to build better.</p><p></p><p>With a steadfast commitment to innovation and a keen eye on the future, RIB comprises over 2,500 talented individuals who extend our software’s reach to over 100 countries worldwide. We are experienced experts and professionals from different cultures and backgrounds and we collaborate closely to provide transformative software products, innovative thinking and professional services to our global market. Our strong teams across the globe enable sustainable product investment and enhancements, to keep our clients at the cutting-edge of engineering, infrastructure and construction technology.</p><p></p><p>We know our people are our success – join us to be part of a global force that uses innovation to enhance the way the world builds.</p><p></p><p>Find out more at <a href=\"https://www.rib-software.com/en/career\" target=\"_blank\">RIB Careers</a>.</p><p></p><p></p><p></p><p><b>Job Title: Software Engineering Intern</b></p><p><b>Location: Alpharetta, GA, USA- Hybrid</b></p><p><b>Employment Type:</b> full-time Summer Intern</p><p></p><p>As a Software Engineering &amp; AI Intern, you&#39;ll play a crucial role in developing and implementing software, data, and artificial intelligence solutions for SpecLink. You&#39;ll collaborate with our Technology/Product leaders, Software Engineering, and AI teams to contribute to the development of microservices and AI-powered proof-of-concepts. This internship offers a unique opportunity to apply your skills in a real world setting, contributing to projects that deliver tangible value to SpecLink users.</p><p></p><p><b>Responsibilities: </b></p><ul><li><p>Contribute to the development of clean, efficient, and well-documented code for AI applications and integrate machine learning models into existing SpecLink systems.</p></li><li><p>Develop data pipelines for efficient data ingestion and transformation.</p></li><li><p>Analyze model performance metrics and identify areas for improvement.</p></li><li><p>Optimize AI models and software applications for performance and efficiency.</p></li><li><p>Clean, label, and pre-process large datasets for training and evaluating AI and machine learning models. Assist in evaluating and experimenting with various AI technologies and machine learning approaches (e.g., natural language processing, computer vision, predictive modeling).</p></li><li><p>Contribute to the research and development of innovative AI solutions for SpecLink. Participate in the testing and debugging of software applications and AI solutions, ensuring high-quality and reliable performance.</p></li><li><p>Document development processes, code, and AI model specifications.</p></li><li><p>Prepare and present clear and concise reports, demonstrations, and findings to the team.</p></li><li><p>Participate in agile development meetings.</p></li></ul><p><br /><b>Qualifications: </b></p><ul><li><p>Currently pursuing a Bachelor&#39;s or Master’s degree in computer science, Software Engineering, Artificial Intelligence, or a related field.</p></li><li><p>Strong programming skills in languages such as Python, .Net/C#, SQL Familiarity with developing end-to-end AI/ML solutions leveraging machine learning concepts such as OpenAI, Gemini APIs, RAG, GraphRAG.</p></li><li><p>Basic understanding of data structures and algorithms.</p></li><li><p>Excellent problem-solving and analytical skills.</p></li><li><p>Strong communication and teamwork abilities.</p></li><li><p>Familiarity with cloud platforms such as Microsoft Azure is a plus.</p></li><li><p>Experience with Microservices architecture is a plus</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">RIB may require all successful applicants to undergo and pass a comprehensive background check before they start employment. Background checks will be conducted in accordance with local laws and may, subject to those laws, include proof of educational attainment, employment history verification, proof of work authorization, criminal records, identity verification, credit check. Certain positions dealing with sensitive and/or third party personal data may involve additional background check criteria.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">RIB is an Equal Opportunity Employer. We are committed to being an exemplary employer with an inclusive culture, developing a workplace environment where all our employees are treated with dignity and respect. We value diversity and the expertise that people from different backgrounds bring to our business.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Come and join RIB to create the transformative technology that enables our customers to build a better world.</p><p style=\"text-align:inherit\"></p>",
+    "location": "Alpharetta, Georgia, United States of America",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-11",
+    "timeType": "Full time",
+    "jobReqId": "R013997",
+    "jobPostingId": "Software-Engineering-Intern_R013997",
+    "jobPostingSiteId": "RIB_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "RIB United States, Alpharetta",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://aveva.wd3.myworkdayjobs.com/RIB_Careers/job/Alpharetta-Georgia-United-States-of-America/Software-Engineering-Intern_R013997",
+    "questionnaireId": "dacecfe842e91002018c225bd3650000",
+    "secondaryQuestionnaireId": "4ef2fe81bb231000ab774d8667ad0000"
+  },
+  "hiringOrganization": {
+    "name": "RIB Software North America, Ltd.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
