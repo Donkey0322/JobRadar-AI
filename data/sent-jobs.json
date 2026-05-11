@@ -1,5 +1,64 @@
 [
   {
+    "company": "Therapybrands",
+    "role": "AI/ML Intern - Generative AI & Intelligent Systems",
+    "link": "https://therapybrands.wd1.myworkdayjobs.com/ensorahealth/job/Remote---Florida/AI-ML-Intern---Generative-AI---Intelligent-Systems_R447",
+    "location": "Remote - Florida",
+    "id": 1087,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a current college student (junior or senior undergrad, or grad school).",
+        "Live in close proximity to Orlando, FL.",
+        "Pursue a degree in Computer Science, Data Science, AI/ML, Software Engineering, Statistics, Applied Mathematics, Health Informatics, or related field.",
+        "Have equivalent practical experience.",
+        "Junior or Senior academic status preferred.",
+        "Proficient in Python and common ML/DL frameworks (PyTorch, TensorFlow).",
+        "Understand LLMs and NLP concepts (tokenization, embeddings, prompts, evaluation).",
+        "Possess working knowledge of SQL and data handling (PostgreSQL preferred).",
+        "Exposed to LangChain, LlamaIndex, or other AI orchestration frameworks.",
+        "Experience with vector databases and RAG patterns.",
+        "Familiar with cloud AI services (Azure OpenAI, AWS Bedrock, GCP Vertex AI).",
+        "Strong curiosity about AI/ML and enthusiasm for experimenting with new tools and techniques.",
+        "Comfortable working with data, running experiments, and iterating based on results.",
+        "Ability to document work clearly, collaborate with others, and ask thoughtful questions.",
+        "Interested in healthcare data workflows and learning about compliance considerations (e.g., HIPAA)."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Disney",
+    "role": "Software Engineering Intern, Summer 2026",
+    "link": "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Software-Engineering-Intern--Summer-2026_10135339-2",
+    "location": "Glendale, CA, USA",
+    "id": 1086,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Experience with object-oriented programming",
+        "Strong problem-solving skills",
+        "Knowledge of non-relational databases",
+        "Familiarity with version control and CI/CD tools",
+        "Experience with GraphQL",
+        "Familiarity with cloud-based managed services",
+        "Ability to take ownership of tasks",
+        "Possess strong professional presence",
+        "Currently enrolled in an undergraduate degree",
+        "Pursuing a Bachelor's in Computer Science or related field",
+        "Returning to school following the internship",
+        "Be at least 18 years of age"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Tesla",
     "role": "Software Engineer Intern, Service Engineering",
     "link": "https://www.tesla.com/careers/search/job/internship-software-engineer-service-engineering-fall-2026-266119",
