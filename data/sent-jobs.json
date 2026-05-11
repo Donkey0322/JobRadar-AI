@@ -1,5 +1,52 @@
 [
   {
+    "company": "Desjardins Group",
+    "role": "Development Intern - IT sector",
+    "link": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Montral/Stage--Secteur-TI--Automne-2026_R2606252-1",
+    "location": "Montreal, QC, CanadaQuebec City, QC, Canada",
+    "season": "2026 Fall",
+    "id": 1080,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Stage must be credited by educational institution for Bachelor's or Master's.",
+        "Possess relevant work or internship experience.",
+        "Required knowledge of French.",
+        "Appreciate differences.",
+        "Learn with agility.",
+        "Be client-oriented.",
+        "Be action-oriented."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "RIB Software",
+    "role": "Software Engineer Intern",
+    "link": "https://aveva.wd3.myworkdayjobs.com/RIB_Careers/job/Alpharetta-Georgia-United-States-of-America/Software-Engineering-Intern_R013997",
+    "location": "Alpharetta, GA",
+    "season": "2026 Summer",
+    "id": 1079,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in computer science or related field.",
+        "Possess strong programming skills in Python, .Net/C#, SQL.",
+        "Be familiar with developing end-to-end AI/ML solutions.",
+        "Have a basic understanding of data structures and algorithms.",
+        "Demonstrate excellent problem-solving and analytical skills.",
+        "Possess strong communication and teamwork abilities.",
+        "Familiarity with cloud platforms like Microsoft Azure.",
+        "Experience with Microservices architecture."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "True Anomaly",
     "role": "Full Stack Software Engineer Intern",
     "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5131361007",
