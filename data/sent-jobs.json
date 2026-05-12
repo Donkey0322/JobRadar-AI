@@ -1,5 +1,50 @@
 [
   {
+    "company": "Revvity",
+    "role": "Software Engineering Intern (AI/ML) - Remote US",
+    "link": "https://revvity.wd103.myworkdayjobs.com/external/job/Waltham/Software-Engineering-Intern--AI-ML----Remote-US_JR-044201",
+    "location": "Waltham",
+    "id": 1112,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursuing a Bachelor's or Master's Degree in Computer Science, Engineering, Business, or a related field",
+        "Hands-on experience with relevant tools",
+        "Exceptional problem-solving and reasoning skills",
+        "Effective communication and teamwork abilities"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "The New York Times",
+    "role": "AI Strategy Intern",
+    "link": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4626649005",
+    "location": "New York, NY",
+    "id": 1111,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be enrolled in or a recent MBA graduate.",
+        "Present a portfolio of AI product or platform projects.",
+        "Possess a solid grasp of web development and cloud app deployment.",
+        "Have hands-on experience using LLMs in applications.",
+        "Experience with workflow orchestration and backend services for data processing.",
+        "Possess experience with content retrieval or RAG pipelines.",
+        "Possess experience with evaluation harnesses for LLM applications.",
+        "Demonstrate interest in journalism and responsible AI experiences.",
+        "Show enthusiasm for The New York Times and its products."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Sartorius",
     "role": "Software Engineer Intern - Onsite - Fremont, CA",
     "link": "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Fremont-CA-United-States-of-America/Software-Engineer-Intern---Onsite---Fremont--CA_R38173",
