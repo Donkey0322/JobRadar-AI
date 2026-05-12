@@ -1,0 +1,50 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/relaypro/jobs/7785660",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3404753,
+  "location": {
+    "name": "Raleigh, NC"
+  },
+  "metadata": null,
+  "id": 7785660,
+  "updated_at": "2026-05-12T13:12:19-04:00",
+  "requisition_id": "393",
+  "title": "Sales Data & Analytics Intern",
+  "company_name": "Relay",
+  "first_published": "2026-04-07T14:57:33-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;a href=&quot;https://relaypro.com/&quot;&gt;&lt;strong&gt;Relay&lt;/strong&gt;&lt;/a&gt; is the Intelligent System of Action for the physical economy. While the digital revolution has historically left the deskless workforce behind, we are closing that gap by transforming analog frontline operations into a data-rich, AI-powered ecosystem. We aren’t just selling radios; we are building the digital foundation for the 80% of the global workforce that doesn&#39;t work at a desk.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why Join Relay?&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;A Proven Winner:&lt;/strong&gt; Join a hyper-growth company trusted by over 10% of the Fortune 500 and continuing to move up market with massive impact and success.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;High Value, High Impact:&lt;/strong&gt; With 47% of our revenue coming from $100K+ ARR customers and a 135% Net Revenue Retention (NRR), you will be joining a company rooted in value creation.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Market-Leading Innovation:&lt;/strong&gt; The Relay platform captures 1 billion new data points weekly and features award-winning AI tools like TeamTranslate™, which has seen 500% YoY growth.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;World-Class Leadership:&lt;/strong&gt; Our already stellar C-suite has been bolstered by leaders to help us scale toward our next major milestones.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Relay Culture:&lt;/strong&gt; Work from our amenity-rich Raleigh campus (fitness center, sports courts) with 100% paid health insurance and a team dedicated to &quot;Best Work In My Life&quot; (BWIML).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;If you&#39;re passionate about technology, driven to make a difference and align your work to a bigger mission, and excited to join a company that&#39;s shaping the future of frontline work, we encourage you to explore opportunities at Relay!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As Relay continues to scale and advance its go-to-market motions, the need for high-quality data planning, structured analysis, and clear operational insight remains critical. Reporting to the Director of Revenue Planning and Analytics, this internship provides an opportunity to contribute foundational analytical support to the Sales and GTM teams.&lt;/p&gt;\n&lt;p&gt;The intern will focus on hands-on data analysis, data extraction (SQL experience preferred), and prototyping AI-native analytical processes to support sales analyses &amp;amp; team execution. This role is focused on the data supporting the rolling 12-month horizon and will help ensure the right information is surfaced to sales and segment leaders by assisting in aggregating data, analyzing performance, and translating core data insights.&lt;/p&gt;\n&lt;p&gt;Success in this role requires the ability to perform analytical rigor, a proactive approach to data work, and clear communication skills.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Assist in Building Sales Planning Infrastructure&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Support the team by running data analyses to inform bookings targets, productivity expectations, and other modelling assumptions.&lt;/li&gt;\n&lt;li&gt;Develop and run queries to update inputs for pipeline models, quota capacity, and other frameworks.&lt;/li&gt;\n&lt;li&gt;Contribute to refining planning data as segments evolve and more performance data becomes available.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Support Segment Performance Visibility &amp;amp; Analytical Analysis&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Use Hubspot and other database/SQL capabilities to extract, clean, and aggregate performance data across segments.&lt;/li&gt;\n&lt;li&gt;Analyze performance data to assist with identifying indicators and emerging trends.&lt;/li&gt;\n&lt;li&gt;Assist in diagnosing where execution is strong versus where it is breaking down.&lt;/li&gt;\n&lt;li&gt;Typical outputs may include running Hubspot dashboards, SQL queries for analyses, productivity trends, etc.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Develop AI-Native Analytical Processes&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Help assist in the design and prototype AI-native processes to automate data preparation, quality checks, or foundational reporting for the sales team.&lt;/li&gt;\n&lt;li&gt;Help evaluate new analytical tools and methods to enhance the team’s sales capabilities - including sales efficiency and data modeling.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Support Strategy Teams Through Data Supply&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Act as an analytical resource to the team by supplying the data pulls to help with structured insights needed to evaluate strategic options.&lt;/li&gt;\n&lt;li&gt;Support the creation of sales operational models for segment business cases.&lt;/li&gt;\n&lt;li&gt;Help quantify opportunity sizes and resourcing implications by querying source data.&lt;/li&gt;\n&lt;li&gt;Help surface data-backed perspectives that sharpen leadership discussions.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Assist in Synthesizing Insights for Leadership&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Help prepare data slides and summaries for leadership-ready narratives and planning materials.&lt;/li&gt;\n&lt;li&gt;Prepare supporting dashboards / data visualizations and analyses for leadership reviews.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing an &lt;strong&gt;undergraduate or graduate degree&lt;/strong&gt; in a quantitative / analytical field such as Finance, Data Science, Business Analytics, Economics, Mathematics, Statistics, or Engineering.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong analytical skills&lt;/strong&gt; with a proven ability to structure problems and translate data into business insight.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Proficiency with SQL&lt;/strong&gt; and Hubspot / CRM tools - and experience querying relational databases to support analytical analysis.&lt;/li&gt;\n&lt;li&gt;Demonstrated interest or experience in &lt;strong&gt;building AI-native processes&lt;/strong&gt; or leveraging generative AI for operational efficiency.&lt;/li&gt;\n&lt;li&gt;Strong verbal and written communication skills, with the ability to simplify complex data topics.&lt;/li&gt;\n&lt;li&gt;Naturally collaborative and curious - with a high degree of ownership.&lt;/li&gt;\n&lt;li&gt;Comfortable asking questions and operating in fast-moving environments.&lt;/li&gt;\n&lt;li&gt;Familiarity with SaaS revenue drivers (pipeline dynamics, sales capacity, expansion) is a plus.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About us: Relay culture, benefits &amp;amp; perks:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our culture hinges on Relayers getting&lt;strong&gt; LIT&lt;/strong&gt; up in an environment that fosters learning, impact, and teamwork (LIT) where we can *&lt;strong&gt;&lt;em&gt;CHASE*&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; &lt;/strong&gt;the best work in our lives. We call this&lt;strong&gt; BWIML &lt;/strong&gt;(pronounced &lt;em&gt;bee wimmel = &lt;/em&gt;Best Work In My Life)!&lt;/p&gt;\n&lt;p&gt;It&#39;s truly amazing what engaged team members can achieve together. Our ever-evolving list of &lt;strong&gt;benefits and perks&lt;/strong&gt; means you&#39;ll be able to integrate work into your whole life, focus on health, perform impactful work, grow and learn in your role, look after yourself/your family, and invest in your future.&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Join Us On-Site in Raleigh!&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;At Relay, we&#39;re building something special, and we believe our relationships with each other and our customers are the foundation of our success. &lt;strong&gt;We will ask this individual to be in the office five days per week.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 65734,
+      "name": "Sales",
+      "child_ids": [
+        151037
+      ],
+      "parent_id": 65735
+    }
+  ],
+  "offices": [
+    {
+      "id": 19241,
+      "name": "Relay, Inc",
+      "location": "Raleigh, NC, United States",
+      "child_ids": [
+        336187,
+        374285
+      ],
+      "parent_id": null
+    }
+  ]
+}

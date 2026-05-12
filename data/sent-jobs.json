@@ -1,5 +1,133 @@
 [
   {
+    "company": "Sartorius",
+    "role": "Software Engineer Intern - Onsite - Fremont, CA",
+    "link": "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Fremont-CA-United-States-of-America/Software-Engineer-Intern---Onsite---Fremont--CA_R38173",
+    "location": "Fremont, CA, United States of America",
+    "id": 1110,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's in Computer Science, Computer Engineering, or related degree",
+        "Understand Software Development Fundamentals",
+        "Familiar with software development tools like Visual Studio Code, Git, and debuggers",
+        "Proficient in C/C++, Python, or .NET programming",
+        "Possess working knowledge of basic linear algebra",
+        "Good verbal and written communication skills",
+        "Identify with core values: Sustainability, Openness, Enjoyment"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Moog",
+    "role": "Intern, Software Engineering",
+    "link": "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-17769",
+    "location": "Buffalo, NY",
+    "id": 1109,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in a relevant Bachelor's or Master's Degree program.",
+        "Maintain a GPA of at least 3.0.",
+        "Able to relocate for the duration of the internship.",
+        "Possess a professional disposition and effective communication skills.",
+        "Demonstrate a strong desire to learn and a positive attitude.",
+        "Able to work effectively in a team environment."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Relay",
+    "role": "Sales Data & Analytics Intern",
+    "link": "https://job-boards.greenhouse.io/relaypro/jobs/7785660",
+    "location": "Raleigh, NC",
+    "id": 1108,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue an undergraduate or graduate degree in a quantitative/analytical field.",
+        "Strong analytical skills to structure problems and translate data.",
+        "Proficient with SQL, Hubspot/CRM tools, and querying relational databases.",
+        "Demonstrate interest in building AI-native processes or leveraging generative AI.",
+        "Strong verbal and written communication skills to simplify complex data topics.",
+        "Be collaborative, curious, and have a high degree of ownership.",
+        "Comfortable asking questions in fast-moving environments.",
+        "Familiar with SaaS revenue drivers (a plus)."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Jj",
+    "role": "Clinical Data Science Electrophysiology - Biostatistics Intern",
+    "link": "https://jj.wd5.myworkdayjobs.com/jj/job/Irvine-California-United-States-of-America/CDS-EP-MedTech-Summer-Intern_R-056163",
+    "location": "Irvine, California, United States of America",
+    "id": 1107,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Completed undergraduate freshman year",
+        "Pursuing a PhD in Biostatistics, Statistics, Mathematics, Computer Science, Data Science, Machine Learning, or related field",
+        "Achieved a cumulative GPA of 2.8 or higher",
+        "Be detail-oriented, highly organized, and able to manage multiple tasks",
+        "Be self-motivated and able to work independently and collaboratively",
+        "Demonstrate strong analytical, quantitative, and programming skills",
+        "Proficient in R, SAS, or Python",
+        "Possess excellent communication, presentation, and leadership skills"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Gdit",
+    "role": "Summer 2026 Cloud/Hosting Infrastructure Internship  ",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2026-Cloud-Hosting-Infrastructure-Internship--_RQ219905",
+    "location": "USA VA Falls Church",
+    "id": 1106,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Develop new software",
+        "Organize effectively",
+        "Possess planning ability",
+        "Understand software applications",
+        "Understand software systems",
+        "Have 0+ years of related experience",
+        "Currently enrolled in an associate's, bachelor's, or master's degree program in STEM",
+        "Study at a United States-based college or university",
+        "Understand basic Microsoft Office products",
+        "Possess problem-solving skills",
+        "Interested in Cloud and related database technologies",
+        "Interested in operating systems like LINUX",
+        "Understand networking fundamentals",
+        "Interested in Virtualization & Containers",
+        "Interested or experienced with cloud platforms like AWS, Azure, or GCP",
+        "Possess knowledge of programming",
+        "Experienced working in a collaborative team environment",
+        "Identify and solve complex problems intuitively",
+        "Articulate technical challenges and solutions effectively"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Bank of Montreal",
     "role": "Technology Research Associate Co-op/Intern",
     "link": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Technology-Research-Associate--Fall-2026--Co-op-Internship---4-Months_R260014440",
