@@ -1,5 +1,29 @@
 [
   {
+    "company": "Cmegroup",
+    "role": "Product Data Analytics Intern",
+    "link": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/New-York---300-Vesey-Street/Product-Data-Analytics-Intern_34340",
+    "location": "New York - 300 Vesey Street",
+    "id": 1102,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Have excellent written and verbal communication skills",
+        "Possess excellent problem solving skills",
+        "Novice in Requirements Management Tools",
+        "Novice in Knowledge Management Tools",
+        "Novice in Collaboration Tools",
+        "Novice in Visual Modeling Tools",
+        "Novice in Data Modeling Tools",
+        "Novice in Automation Tools"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Apptronik",
     "role": "Software Engineer Intern: ML Ops",
     "link": "https://boards.greenhouse.io/apptronik/jobs/5993905004?gh_jid=5993905004",
