@@ -1,5 +1,35 @@
 [
   {
+    "company": "Apptronik",
+    "role": "Software Engineer Intern: ML Ops",
+    "link": "https://boards.greenhouse.io/apptronik/jobs/5993905004?gh_jid=5993905004",
+    "location": "Onsite - Austin, TX",
+    "id": 1101,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Build and maintain a containerized functional testing pipeline.",
+        "Implement test scaffolding for regression detection.",
+        "Build a producer/consumer data generation flow for synthetic data.",
+        "Integrate pipeline with existing infrastructure (S3/MinIO, MCAP, Kubernetes).",
+        "Produce design documentation, runbooks, and example configurations.",
+        "Proficient in Python for data pipelines, automation, and ML tooling.",
+        "Comfortable in a Linux environment with Git, Docker, and modern Python tooling.",
+        "Experienced in writing automated tests and reasoning about test quality.",
+        "Familiar with an ML framework (PyTorch, TensorFlow) and data movement in pipelines.",
+        "Exposed to CI/CD or container orchestration tools (e.g., GitHub Actions, Kubernetes).",
+        "Familiar with robotic or physics simulators and robot description formats.",
+        "Familiar with RL training loops, policy rollouts, or VLA models.",
+        "Currently enrolled in a Bachelor’s or Master’s degree in CS, EE, Robotics, or related.",
+        "Experienced with projects involving simulation, ML model training, data pipelines, or developer tooling."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Nokia",
     "role": "Web Developer Co-op/Intern",
     "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/35675",
