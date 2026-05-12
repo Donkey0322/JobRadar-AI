@@ -1,5 +1,117 @@
 [
   {
+    "company": "Bank of Montreal",
+    "role": "Technology Research Associate Co-op/Intern",
+    "link": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Technology-Research-Associate--Fall-2026--Co-op-Internship---4-Months_R260014440",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1105,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Demonstrate creative thinking.",
+        "Build and manage relationships.",
+        "Exhibit emotional agility.",
+        "Proficient in Quality Assurance and Testing.",
+        "Knowledge of Cloud computing.",
+        "Understand Microservices concepts.",
+        "Define, analyze, and map technology business requirements.",
+        "Demonstrate adaptability.",
+        "Exhibit learning agility.",
+        "Proficient in programming.",
+        "Perform applications integration.",
+        "Practice Test Driven Development.",
+        "Understand System Development Lifecycle.",
+        "Capable of troubleshooting.",
+        "Perform System and Technology Integration.",
+        "Possess strong verbal and written communication skills.",
+        "Collaborate effectively in teams.",
+        "Possess strong analytical and problem-solving skills.",
+        "Hold a post-secondary degree in a related field.",
+        "Have 3-5 years of relevant experience.",
+        "Apply specialized knowledge from education or experience."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Formlabs",
+    "role": "Operations & Supply Chain Software Intern",
+    "link": "https://careers.formlabs.com/job/7899552/apply/?gh_jid=7899552",
+    "location": "Cambridge, MA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "United Wholesale Mortgage",
+    "role": "Technology Intern",
+    "link": "https://careers-uwmcareers.icims.com/jobs/14366/job?mobile=true&needsRedirect=false",
+    "location": "Pontiac, MI",
+    "season": "2026 Summer",
+    "id": 1104,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Graduating with a bachelor’s degree in 2026 or 2027",
+        "Able to work Monday through Friday, 40-hours a week, fully on-site in Pontiac, MI from May 18th to August 7th",
+        "Self-motivated with a strong work ethic and excellent time management skills",
+        "Able to thrive in a team environment and work independently",
+        "Positive attitude, willing to learn, and able to apply feedback",
+        "Strong critical thinking and problem-solving skills in a fast-moving environment",
+        "Able to multitask and demonstrate adaptability and forward thinking",
+        "Excellent written and verbal communication skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "BMO",
+    "role": "Machine Learning Intern",
+    "link": "https://bmo.wd3.myworkdayjobs.com/Privileged/job/Chicago-IL-USA/Machine-Learning-Intern--Fall-2026--Internship----4-months_R260014372",
+    "location": "Chicago, IL",
+    "id": 1103,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Design and develop machine learning and deep learning systems",
+        "Run machine learning tests and experiments",
+        "Train and retrain systems to prevent drift and optimize results",
+        "Solve complex problems with multi-layered data sets",
+        "Extend existing ML frameworks and optimize existing ML libraries",
+        "Develop Machine Learning apps",
+        "Implement algorithms and build tools to apply ML frameworks",
+        "Turn unstructured data into useful information",
+        "Develop ML algorithms to analyze huge volumes of historical data",
+        "Run tests, perform statistical analysis, and interpret test results",
+        "Think creatively and propose new solutions",
+        "Exercise judgment to identify, diagnose, and solve problems",
+        "Work mostly independently",
+        "Possess systems thinking",
+        "Proficient in Mathematics, Statistics, and Operations Research",
+        "Exhibit critical thinking",
+        "Demonstrate creative reasoning",
+        "Skilled in computational thinking and programming",
+        "Knowledgeable in deep learning",
+        "Knowledgeable in machine learning",
+        "Skilled in scaling models",
+        "Experienced in Continuous Integration and Delivery/Deployment",
+        "Familiar with ML algorithms",
+        "Strong verbal and written communication skills",
+        "Strong collaboration and team skills",
+        "Strong analytical and problem-solving skills",
+        "Motivated with a strong desire to learn",
+        "Possess specialized knowledge from education or experience"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Cmegroup",
     "role": "Product Data Analytics Intern",
     "link": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/New-York---300-Vesey-Street/Product-Data-Analytics-Intern_34340",
