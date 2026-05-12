@@ -2857,7 +2857,8 @@
     "urls": [
       "https://careers-lmi.icims.com/jobs/13492/job?mobile=true&needsRedirect=false",
       "https://careers-lmi.icims.com/jobs/13505/job?mobile=true&needsRedirect=false",
-      "https://careers-lmi.icims.com/jobs/13506/job?mobile=true&needsRedirect=false"
+      "https://careers-lmi.icims.com/jobs/13506/job?mobile=true&needsRedirect=false",
+      "https://careers-lmi.icims.com/jobs/14031/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -5414,7 +5415,8 @@
     "page": "https://emit.fa.ca3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/82638",
-      "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/84271"
+      "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/84271",
+      "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/86808"
     ]
   },
   {
@@ -5874,7 +5876,8 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34725",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34731",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34806",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34982"
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34982",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/35675"
     ]
   },
   {
@@ -6596,6 +6599,16 @@
     ]
   },
   {
+    "name": "goodrx",
+    "ats": "workday",
+    "identifier": "goodrx-careers",
+    "domain": "https://goodrx.wd1.myworkdayjobs.com/careers",
+    "page": "https://goodrx.wd1.myworkdayjobs.com/wday/cxs/goodrx/careers/jobs",
+    "urls": [
+      "https://goodrx.wd1.myworkdayjobs.com/Careers/job/New-York-City-NY/AI-Agent-Developer-Intern_JR100607"
+    ]
+  },
+  {
     "name": "greenheckgroup",
     "ats": "workday",
     "identifier": "greenheckgroup-external",
@@ -6642,6 +6655,7 @@
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1012380",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern---C----Python--Git--Docker--8-months_R1010726",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--12-or-16months-_R1009576",
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Fall-2026--4-months-_R1012573",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Summer-2026-_R1011747",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1"
     ]
@@ -9133,6 +9147,16 @@
     ]
   },
   {
+    "name": "premierautomation",
+    "ats": "greenhouse",
+    "identifier": "premierautomation",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/premierautomation/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/premierautomation/jobs/5216022008"
+    ]
+  },
+  {
     "name": "presencelearning",
     "ats": "greenhouse",
     "identifier": "presencelearning",
@@ -11075,6 +11099,17 @@
     ]
   },
   {
+    "name": "super.com",
+    "ats": "ashby",
+    "identifier": "super.com",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/super.com",
+    "urls": [
+      "https://jobs.ashbyhq.com/super.com/6a0dc25b-6eb2-411e-a862-6b083d9bad3c/application",
+      "https://jobs.ashbyhq.com/super.com/8179b5ad-9074-4d96-aa92-366cf12ab5d5/application"
+    ]
+  },
+  {
     "name": "taaraconnect",
     "ats": "ashby",
     "identifier": "taaraconnect",
@@ -12466,6 +12501,7 @@
       "https://jobs.lever.co/zoox/0a53e7a7-bbbf-4834-bcd4-f0372e388dfa/apply",
       "https://jobs.lever.co/zoox/0bb2dd41-e6a9-41a5-bafc-8a438f0a7cca",
       "https://jobs.lever.co/zoox/15aa4a31-81e0-4f7a-b9d9-5bc64eb2afb8",
+      "https://jobs.lever.co/zoox/22bece12-95a5-4ad7-a4e4-6c43178153d2/apply",
       "https://jobs.lever.co/zoox/3a7c0c4b-4f23-4136-99a9-df64b341a0fd",
       "https://jobs.lever.co/zoox/4770d734-9d08-4eae-abb5-6002495ca147/apply",
       "https://jobs.lever.co/zoox/5b8ec01c-fdc6-4e05-b077-051f28384b6f",
@@ -14117,6 +14153,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Software-Engineering-Internship_R62644",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Glasgow-UK-ZUK118/Software-Engineering-Internship_R64722",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Central-Services-GIS-Intern---Internship-2026_R58177",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-US-Offsite/Design-Technologist---2026-Fall-Coop_R63068",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/ONT39/Software-Development-2026-Co-Op_R60088",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2026_R56709",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/CPE-SW-E2E-Triage-Intern---Summer-2026_R58174",
@@ -15060,6 +15097,7 @@
     "domain": "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1",
     "page": "https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/rbcearlytalent1/jobs",
     "urls": [
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/MISSISSAUGA-Ontario-Canada/XMLNAME-2026-Insurance--Fall-AI-Engineering-Co-Op_R-0000171295",
       "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2026-CAE--Fall-GenAI-Engineer-Co-op--12-months-_R-0000171537",
       "https://rbc.wd3.myworkdayjobs.com/en-US/RBCEARLYTALENT1/job/Jersey-City-New-Jersey-United-States-of-America/XMLNAME-2026-Capital-Markets---Quantitative-Technology-Services-Summer-Analyst_R-0000140751-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/90-WESTERN-PKYBEDFORD/XMLNAME-2026-Fall-Student-Opportunities-Capital-Markets--QTS---Software-Developer--4-months--Halifax_R-0000169401-1",
@@ -15773,6 +15811,7 @@
     "domain": "https://soti.wd3.myworkdayjobs.com/soti-next-gen",
     "page": "https://soti.wd3.myworkdayjobs.com/wday/cxs/soti/soti-next-gen/jobs",
     "urls": [
+      "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-XSight--September-2026-12-Months-_R10025",
       "https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--September-2026-12-Months-_R09971"
     ]
   },
@@ -16010,6 +16049,7 @@
     "urls": [
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Kansas-City-Missouri/Software-Engineering-Intern---Summer-2026_JR00117066",
+      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Associate-Business---Systems-Analyst--Fall-2026-_JR00123875",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/Corporate-Information-Services-Intern---Summer-2026_JR00120370",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213"
     ]
@@ -16113,6 +16153,16 @@
     "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwarecanada/jobs",
     "urls": [
       "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2"
+    ]
+  },
+  {
+    "name": "talentmanagementsolution",
+    "ats": "workday",
+    "identifier": "talentmanagementsolution-jonassoftwareusa",
+    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa",
+    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwareusa/jobs",
+    "urls": [
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareUSA/job/Remote---USA/Software-Engineering-Intern_R52141-1"
     ]
   },
   {
