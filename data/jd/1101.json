@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/apptronik/jobs/5993905004?gh_jid=5993905004",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 5153305004,
+  "location": {
+    "name": "Onsite - Austin, TX"
+  },
+  "metadata": null,
+  "id": 5993905004,
+  "updated_at": "2026-05-11T22:37:57-04:00",
+  "requisition_id": "643",
+  "title": "Software Engineer Intern: ML Ops",
+  "company_name": "Apptronik",
+  "first_published": "2026-05-11T22:37:57-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.&lt;br&gt;&lt;br&gt;We operate at the cutting edge of embodied AI, applying our expertise across the full robotics stack to solve some of society&#39;s most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;JOB SUMMARY&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;p&gt;Apptronik is seeking a Software Engineering Intern to join our ML Ops team for a 12-week summer project. In this role, you will help build a functional testing pipeline for our full simulation stack — the connective tissue that lets our simulation, controls, and learning teams iterate on hardware models, simulator versions, and ML controllers with confidence.&lt;/p&gt;\n&lt;p&gt;You will take ownership of a specific project: building a pipeline that runs defined policies against the simulator to validate changes across four dimensions — robot models (URDF/MJCF/USD), simulator code, controllers (open-source VLA, RL policies, VLA + RL action heads), and task scenarios. As a stretch objective, the same pipeline may be extended to generate synthetic training data from a “producer” model for use by a downstream “consumer” model. You will work alongside the simulation engineering and data platform teams, and contribute to infrastructure that directly accelerates how Apptronik trains and validates humanoid behaviors.&lt;/p&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;ESSENTIAL DUTIES AND RESPONSIBILITIES&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Pipeline Development: &lt;/strong&gt;Build and maintain a containerized functional testing pipeline that executes policies against the simulator in a reproducible, automatable fashion.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Functional Test Harness: &lt;/strong&gt;Implement test scaffolding that detects regressions across changes to robot models (URDF/MJCF/USD), simulator versions, and controller iterations, with baseline comparison and clear pass/fail signals (success rate, object drops, collisions).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Synthetic Data Generation (stretch): &lt;/strong&gt;Build a producer/consumer data generation flow that captures rollouts from one model and packages them into training-ready datasets for downstream consumers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Integration with Existing Infra: &lt;/strong&gt;Integrate the pipeline with the team’s existing artifact storage (S3/MinIO), data lake formats (MCAP), and Kubernetes-based execution environment.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Documentation &amp;amp; Handoff: &lt;/strong&gt;Produce design docs, runbooks, and example configurations so the pipeline can be adopted by simulation, controls, and learning teams after the internship.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;SKILLS AND REQUIREMENTS&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Proficiency in Python: &lt;/strong&gt;Demonstrated ability to write clean, tested, maintainable code for data pipelines, automation, and ML tooling.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Linux &amp;amp; Development Tools: &lt;/strong&gt;Comfortable in a Linux environment; competence with Git, Docker, and modern Python tooling (pytest, uv/poetry, type hints).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Testing &amp;amp; Automation: &lt;/strong&gt;Experience writing automated tests (unit, integration) and reasoning about determinism, flakiness, and reproducibility.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;ML / Data Pipeline Exposure: &lt;/strong&gt;Familiarity with at least one ML framework (PyTorch, TensorFlow) and experience moving data between training, evaluation, and storage stages.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;CI/CD or Container Orchestration: &lt;/strong&gt;Exposure to one or more of: GitHub Actions / GitLab CI / Bitbucket Pipelines, Kubernetes, Helm, ArgoCD. Deep expertise not required; willingness to learn the team’s stack is.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Simulation Familiarity (preferred): &lt;/strong&gt;Prior exposure to robotic or physics simulators (Isaac Sim / IsaacLab, MuJoCo, Gazebo, or comparable) and to robot description formats (URDF / MJCF / USD).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Reinforcement Learning Exposure (preferred): &lt;/strong&gt;Familiarity with RL training loops, policy rollouts, or vision-language-action (VLA) models.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;EDUCATION and/or EXPERIENCE&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Current enrollment in a Bachelor’s or Master’s degree program in Computer Science, Electrical Engineering, Robotics, or a related field.&lt;/li&gt;\n&lt;li&gt;Experience with projects involving simulation, ML model training, data pipelines, or developer tooling is ideal.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h1&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;PHYSICAL REQUIREMENTS&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;\n&lt;ul&gt;\n&lt;li&gt;Prolonged periods of sitting at a desk and working on a computer.&lt;/li&gt;\n&lt;li&gt;Must be able to lift 15 pounds at times.&lt;/li&gt;\n&lt;li&gt;Vision to read printed materials and a computer screen.&lt;/li&gt;\n&lt;li&gt;Hearing and speech to communicate.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;*This is a direct hire.&amp;nbsp; Please, no outside Agency solicitations.&amp;nbsp;&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;Apptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4116599004,
+      "name": "Software Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4009719004,
+      "name": "HQ",
+      "location": "Austin, TX",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
