@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/maintainx/jobs/5136549007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4631852007,
+  "location": {
+    "name": "San Francisco"
+  },
+  "metadata": null,
+  "id": 5136549007,
+  "updated_at": "2026-05-13T09:47:57-04:00",
+  "requisition_id": "446",
+  "title": "Web Production Intern",
+  "company_name": "MaintainX",
+  "first_published": "2026-05-13T09:47:01-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;MaintainX is the world&#39;s leading AI-powered maintenance and asset management platform, serving 13,000+ customers including Duracell, Shell, Cintas, and Brenntag. We raised&lt;a href=&quot;https://www.getmaintainx.com/newsroom/maintainx-raises-150m&quot;&gt; $150M in Series D funding&lt;/a&gt; led by Bessemer Venture Partners and Bain Capital Ventures, bringing our total funding to $254M. We were named to the&lt;a href=&quot;https://www.getmaintainx.com/blog/maintainx-named-to-2025-forbes-cloud-100&quot;&gt; Forbes 2025 Cloud 100&lt;/a&gt;, the definitive ranking of the top 100 private cloud companies in the world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; San Francisco (in-office)&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Contract, full-time (40 hrs/week)&lt;/p&gt;\n&lt;p&gt;We’re looking for a detail-oriented and curious &lt;strong&gt;&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;1&quot;&gt;Web Production Intern&lt;/span&gt;&lt;/strong&gt; to join our marketing team. You’ll help us publish and update web content in &lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;3&quot;&gt;Webflow&lt;/span&gt;, pull and interpret data from &lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;5&quot;&gt;Google Analytics 4 (GA4)&lt;/span&gt;, and support other cross-functional projects related to growth and digital marketing. This is a great opportunity for someone who’s interested in both the &lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;7&quot;&gt;creative and analytical&lt;/span&gt; sides of web marketing.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Publish and update content in Webflow&lt;/li&gt;\n&lt;li&gt;Pull traffic and performance reports using GA4&lt;/li&gt;\n&lt;li&gt;Assist in analyzing website data to inform decisions&lt;/li&gt;\n&lt;li&gt;Support the team with ongoing marketing and web projects&lt;/li&gt;\n&lt;li&gt;Help QA web content and attribution for accuracy&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a &lt;strong&gt;Bachelor’s degree&lt;/strong&gt; in Marketing, Communications, Data Analysis, or a related field&lt;/li&gt;\n&lt;li&gt;Strong attention to detail and willingness to learn&lt;/li&gt;\n&lt;li&gt;Comfortable working with spreadsheets and web tools&lt;/li&gt;\n&lt;li&gt;Bonus if you have a &lt;strong&gt;technical bent&lt;/strong&gt; or experience with no-code tools, CMS platforms, or basic HTML&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What’s in it for you:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Gain hands-on experience with the &lt;strong&gt;end-to-end web production process&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Learn how to &lt;strong&gt;update and manage content in Webflow&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Build a strong foundation in &lt;strong&gt;web data analysis and reporting&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Explore how the &lt;strong&gt;purchase funnel&lt;/strong&gt; connects marketing and sales efforts&lt;/li&gt;\n&lt;li&gt;Work closely with &lt;strong&gt;cross-functional teams&lt;/strong&gt; in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;A Work&lt;a href=&quot;https://crew.vc/perspectives-insights/scaling-culture-through-hyper-growth/&quot;&gt;&amp;nbsp;Culture&lt;/a&gt;&amp;nbsp;where:\n&lt;ul&gt;\n&lt;li&gt;You’ll work alongside folks across the globe that reflect the MaintainX values, Smart Humble Optimist.&lt;/li&gt;\n&lt;li&gt;We believe in meritocracy, where ideas and effort are publicly celebrated.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About us:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our mission is to deliver one platform for maintenance, repair &amp;amp; operations teams to keep the physical world running. We believe the greatest asset in any organization is the people. That’s why we built an intuitive, mobile-first solution to help boost productivity and collaboration across teams and locations.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;MaintainX is committed to creating a diverse environment. All qualified applicants will receive consideration for employment without regard to race, colour, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4020069007,
+      "name": "Growth and Marketing",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017883007,
+      "name": "San Francisco",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
