@@ -1,5 +1,60 @@
 [
   {
+    "company": "True Anomaly",
+    "role": "Supply Chain Data Intern",
+    "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5136113007",
+    "location": "Long Beach, CA",
+    "id": 1121,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Collect, clean, and analyze supply chain data.",
+        "Build and maintain dashboards and reports.",
+        "Identify process inefficiencies and develop data-backed recommendations.",
+        "Collaborate with various supply chain teams.",
+        "Document workflows, models, and analytical findings.",
+        "Pursue Bachelor's or Master's in Supply Chain, Data Science, Industrial Engineering, or Business Analytics.",
+        "Proficient in Microsoft Excel for data analysis and modeling.",
+        "Strong analytical mindset with a bias toward action.",
+        "Sharp attention to detail and ability to manage multiple workstreams.",
+        "Clear written and verbal communicator across technical and non-technical teams.",
+        "Experienced with data visualization tools (Power BI, Tableau).",
+        "Experienced with Atlassian tools (JIRA, Confluence).",
+        "Familiar with SQL or Python/R for data querying and analysis.",
+        "Knowledge in supply chain fundamentals (inventory, logistics, procurement).",
+        "Exposed to ERP systems (SAP, Oracle, NetSuite).",
+        "Previous internship, research, or project experience in operations or analytics.",
+        "Genuine interest in aerospace, defense, or mission-critical hardware supply chains."
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Astranis",
+    "role": "Software Engineer- Backend Intern (Fall 2026)",
+    "link": "https://job-boards.greenhouse.io/astranis/jobs/4681183006",
+    "location": "San Francisco, CA",
+    "id": 1120,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a B.S. or M.S. in Computer Science or equivalent.",
+        "Strong proficiency in Python.",
+        "Experience and understanding of databases.",
+        "Experience and understanding of pub/sub and streaming systems.",
+        "Experience with Kubernetes.",
+        "Experience building fleet management systems."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Bosch group",
     "role": "Supply Chain Data & Analytics Intern (Power BI | SQL | Python)",
     "link": "https://jobs.smartrecruiters.com/BoschGroup/744000126390414",
