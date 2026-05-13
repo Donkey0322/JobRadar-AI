@@ -1,5 +1,56 @@
 [
   {
+    "company": "Flywire",
+    "role": "Application Support Intern",
+    "link": "https://jobs.smartrecruiters.com/Flywire1/744000126273589",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 1124,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Be a current 4th-year Bachelor's Degree student in Computer Science, Software Engineering, AI, or Data Science.",
+        "Value candidates from Double Degrees in Mathematics and Informatics Engineering.",
+        "Possess specialized degrees in Artificial Intelligence, Data Science, or Informatics Engineering.",
+        "Be comfortable with SQL and at least one scripting language (Python, Ruby, JavaScript).",
+        "Possess curiosity about distributed systems, APIs, and databases in production.",
+        "Enjoy debugging more than greenfield coding.",
+        "Possess a support mindset, seeking root causes and caring about user impact.",
+        "Be fluent in Spanish and have a strong working command of English.",
+        "Have exposure to FinTech, payments, or observability tools (Sumo Logic, Datadog, Grafana).",
+        "Have exposure to ticketing systems (Jira)."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "tldraw",
+    "role": "R&D Intern",
+    "link": "https://jobs.ashbyhq.com/tldraw/9f3f48d7-d731-4379-89f8-d4ee79ed5cfd/application",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 1123,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Possess a strong portfolio of creative or technical work",
+        "Have experience building things, not just designing them",
+        "Familiarity with code (JavaScript or similar is helpful)",
+        "Interest in user experience, interaction design, or human-computer interaction",
+        "Ability to take an idea and push it forward independently",
+        "Experience with React or frontend development",
+        "Done creative coding (p5.js, shaders, generative work, etc.)",
+        "Care about tools for thinking, drawing, or collaboration",
+        "Built projects outside of coursework"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Mbrdna",
     "role": "ADAS Data Analytics Intern",
     "link": "https://jobs.lever.co/MBRDNA/e801fdb7-7c75-4378-bff6-b3f197489262",

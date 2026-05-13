@@ -1,0 +1,104 @@
+{
+  "id": "744000126273589",
+  "name": "Intern, Application Support",
+  "uuid": "1861f7b5-feb9-4f6a-b040-f0273a997314",
+  "jobId": "f14ac801-4812-4323-8620-141c20c05374",
+  "jobAdId": "1d1fa7b1-d2d6-4cba-a6f3-cc4f355f64d8",
+  "defaultJobAd": true,
+  "refNumber": "INT-ENG-010",
+  "company": {
+    "name": "Flywire",
+    "identifier": "Flywire1"
+  },
+  "location": {
+    "city": "London",
+    "region": "England",
+    "country": "gb",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "51.5072178",
+    "longitude": "-0.1275862",
+    "fullLocation": "London, England, United Kingdom"
+  },
+  "customField": [
+    {
+      "fieldId": "5c85239dc9e77c0007454e9d",
+      "fieldLabel": "Department",
+      "valueId": "10582371",
+      "valueLabel": "Application Support, Corp"
+    },
+    {
+      "fieldId": "5c85239dc9e77c0007454e9c",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Flywire"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "gb",
+      "valueLabel": "United Kingdom"
+    },
+    {
+      "fieldId": "5cbdd8955908010006a43d28",
+      "fieldLabel": "Careers Page Section",
+      "valueId": "5dacb2c3-6677-425c-b164-530d092d8ce9",
+      "valueLabel": "Engineering"
+    }
+  ],
+  "releasedDate": "2026-05-13T10:07:48.527Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/Flywire1/744000126273589-intern-application-support",
+  "applyUrl": "https://jobs.smartrecruiters.com/Flywire1/744000126273589-intern-application-support?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Flywire1/publication/1861f7b5-feb9-4f6a-b040-f0273a997314?dcr_ci=Flywire1",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>Are you ready to trade your job for a journey? Become a FlyMate!</strong></p><p>Passion, excitement &amp; global collaboration are all core to what it means to be a FlyMate. At Flywire, we’re on a mission to deliver the world’s most important and complex payments. We use our Flywire Advantage - the combination of our next-gen payments platform, proprietary payment network and vertical specific software, to help our clients get paid, and help their customers pay with ease - no matter where they are in the world.</p><p>What more do we need to truly be unstoppable? Perhaps, that is you!</p><p><br>\n<strong>Who we are:</strong></p><p>Flywire is a global payments enablement and software company, founded a decade ago to solve high-stakes, high-value payments in education, using modern technology.</p><p>Today, we’ve digitized payments for more than 3,300+ global clients across education, healthcare, travel &amp; B2B, covering more than 240 countries and territories and supporting over 140 currencies. And, we’re just getting started!</p><p>With over 1000+ global FlyMates, representing more than 40 nationalities, and in 14 offices world-wide, we’re looking for FlyMates to join the next stage of our journey as we continue to grow.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Are you ready to keep the world's money moving?</p><p>At Flywire, our Payments Platform processes billions of dollars across 240+ countries — and when something goes wrong, payers can't pay, clients can't get paid, and the business stops. That's where Application Support comes in. We are the team that keeps the platform running: investigating production issues, partnering with Engineering to fix root causes, and turning recurring pain into permanent improvements.</p><p>We are looking for Fly-terns (Final year students) in London to join the Application Support team this summer. You won't just be \"shadowing\" — you'll be working on real production issues and building tooling that makes our team faster, smarter, and more proactive.</p><p>The Role: Project-Driven &amp; Supported</p><p>As a Fly-tern in Application Support, you will be embedded within our team and participate in our day-to-day rituals — triage, ticket reviews, incident handling — while focusing on a specific, high-impact project designed for your 6-week journey.</p><p>To ensure you grow and succeed, you will have a dedicated support system:</p><ul><li><p>A Mentor: A senior Application Support engineer for day-to-day guidance, pair-debugging sessions, and code reviews.</p></li><li><p>A Manager: To support your professional growth, provide feedback, and help you navigate the Flywire culture.</p></li></ul><p>What You'll Work On</p><p>Application Support sits at the intersection of engineering, product and operations, so your project can dive deep into very different technical areas. Possible domains include:</p><ul><li><p>Support Tooling &amp; Automation: Building internal tools (Ruby/Python) and integrations that reduce manual work — auto-triage scripts, ticket enrichers, self-service runbooks, or operational dashboards used by the team every day.</p></li><li><p>Observability &amp; Insights: Designing dashboards and alerts on top of our payments data (Sumo Logic, Jira, MySQL, MongoDB) to surface recurring issues, escalation patterns, or SLA risks before they become incidents.</p></li><li><p>AI-Augmented Support: Helping us push the boundaries of how Application Support uses AI — from automated investigation agents to AI-assisted ticket categorization and knowledge base generation from past resolutions.</p></li><li><p>Root-Cause Engineering: Pairing with the team on a recurring class of production issues — from data inconsistencies in the global ledger to integration failures with banking partners — and shipping the fix end-to-end with our Engineering squads.</p></li></ul><p>AI-Augmented Engineering</p><p>Application Support is one of the most AI-forward teams at Flywire. As an intern, you will learn to leverage cutting-edge AI tools like Cursor, Claude Code and Gemini to investigate issues faster, draft runbooks, query logs, and build internal automations. We treat AI as a teammate, and we'll teach you how to get the most out of it.</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>Here's What We're Looking For</p><ul><li><p>Current student in the 4th year of a Bachelor's Degree in Computer Science, Software Engineering, AI, or Data Science. We highly value candidates from Double Degrees in Mathematics and Informatics Engineering, as well as specialized degrees in Artificial Intelligence, Data Science, or Informatics Engineering.</p></li><li><p>Tech Foundations: Comfortable with SQL and at least one scripting language (Python, Ruby, JavaScript). Curiosity about how distributed systems, APIs, and databases behave in production is more important than years of experience.</p></li><li><p>The Support Mindset: You enjoy debugging more than greenfield coding. You like asking \"why is this happening?\" until you reach the real answer, and you care about both the technical fix and the user on the other side of the ticket.</p></li><li><p>Communication: Fluency in Spanish and a strong working command of English to collaborate with our global teams, partner with Engineering, and write clear, empathetic responses to internal stakeholders.</p></li><li><p>Bonus: any exposure to FinTech, payments, observability tools (Sumo Logic, Datadog, Grafana), or ticketing systems (Jira) will be appreciated.</p></li></ul><p>Our Tech Stack</p><ul><li><p>Platforms we support: Ruby on Rails, Java (Spring Boot), React</p></li><li><p>Data/Messaging: MySQL, MongoDB, Redis, RabbitMQ</p></li><li><p>Observability &amp; Tooling: Sumo Logic, Jira, GitLab CI, AWS</p></li><li><p>AI &amp; Tools: Cursor, Claude Code, Gemini</p></li></ul><p>What We Offer</p><ul><li><p>Flexible June Start: We prioritize your exams; your start date is adaptable.</p></li><li><p>London Hub Culture: Work from our founding office with a vibrant community of FlyMates.</p></li><li><p>Global Showcase: Present your project results to engineering and operations leaders across the globe.</p></li><li><p>Career Growth: Successful Fly-terns are our first priority for full-time Associate roles after graduation.</p></li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>&#xa0;</p><p><strong>Submit today and get started!</strong></p><p>We are excited to get to know you! Throughout our process you can expect to meet with different FlyMates including the Hiring Manager, Peers on the team, the VP of the department, and a skills assessment. Your Talent Acquisition Partner will walk you through the steps and be your “go-to” person for any questions.</p><p>Flywire is an equal opportunity employer. With over 30 nationalities across 12 different offices, and diversity and inclusion at the core of our people agenda, we believe our FlyMates are our greatest asset, and we’re excited to watch our unique culture evolve with each new hire.</p><p><em>Flywire is an equal opportunity employer.</em></p><p><em>#LI-Hybrid</em></p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "financial_services",
+    "label": "Financial Services"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "department": {
+    "id": 10582371,
+    "label": "Application Support, Corp"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en-GB",
+    "label": "English (UK)",
+    "labelNative": "English (UK)"
+  }
+}
