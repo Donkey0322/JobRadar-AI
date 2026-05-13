@@ -1,5 +1,55 @@
 [
   {
+    "company": "Transperfect",
+    "role": "Software Engineer Intern",
+    "link": "https://transperfect.wd5.myworkdayjobs.com/transperfect/job/US-New-York-NY-1250-Broadway/Software-Engineer-Intern_R2025-243900",
+    "location": "US-New York, NY (1250 Broadway)",
+    "id": 1117,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Perform responsive software development and integration",
+        "Support software life-cycle activities",
+        "Provide personalized software support to users",
+        "Design, build, and maintain efficient code and databases",
+        "Ensure performance, quality, and responsiveness of applications",
+        "Identify and resolve bottlenecks and bugs",
+        "Maintain code quality, organization, and automation",
+        "Hold a Bachelor's degree in Computer Science or related field",
+        "Ability to turn designs into reusable components",
+        "Possess team coordination skills",
+        "Excellent communication skills",
+        "Knowledge of Git",
+        "Strong knowledge of JavaScript",
+        "Experience in at least one JavaScript framework",
+        "Understand REST API fundamentals",
+        "Experience completing projects from design to production",
+        "Troubleshooting expertise and attention to detail",
+        "Ability to learn and understand code",
+        "Knowledge of HTML, CSS, and JavaScript",
+        "Possess 0-2 years of software development and testing experience",
+        "Willingness to adapt to technology changes",
+        "Ability to work independently and within a team",
+        "Understand modern JavaScript build tools",
+        "Familiarity with TypeScript",
+        "Familiarity with VueJS",
+        "Familiarity with WebPack",
+        "Familiarity with Angular",
+        "Familiarity with React"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Comcast",
+    "role": "Comcast Global Audit Data Solutions - Data Architecture and Engineering Co-op",
+    "link": "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/PA---Philadelphia-1701-John-F-Kennedy-Blvd/Comcast-Global-Audit-Data-Solutions---Data-Architecture-and-Engineering-Co-op_R436036",
+    "location": "PA - Philadelphia, 1701 John F Kennedy Blvd"
+  },
+  {
     "company": "MaintainX",
     "role": "Web Production Intern",
     "link": "https://job-boards.greenhouse.io/maintainx/jobs/5136549007",

@@ -1,0 +1,62 @@
+{
+  "jobPostingInfo": {
+    "id": "6d239e99978f100156dc94e3c28f0000",
+    "title": "Software Engineer Intern",
+    "jobDescription": "<p><b>TransPerfect Is More Than Just a Job…</b><br /><span>Our greatest asset is our people, and nothing is more important to us than ensuring that everyone knows that. Each of our 100&#43; offices has its own individual identity, and each also has its own unique rewards.</span></p><p></p><p></p><p></p><div><p><b>Who We Are:</b></p><p>TransPerfect was founded with a mission to help the world&#39;s businesses navigate the global marketplace. Today, we have grown to be an industry leader organization by helping clients globalize their business no matter what service they might need. TransPerfect provides a full array of language and business support services, including translation, multicultural marketing, website globalization, legal support, and any kind of technology solution.</p><div><p></p><p><b>What You Will Be Doing:</b></p></div><p><span>TransPerfect is an established company with a start-up culture seeking creative entrepreneurial people like you to join our team. We’re seeking a Software Engineer Intern to join our global team to be responsible for ensuring the integrity, reliability and maintenance of our internally developed software products from conception to release. If you’re ready to join a growing company and make an immediate impact, we want to hear from you! </span></p><p></p><p>Multi service-oriented architecture is our strategy. You will be working on one or more of our REST API services written in DotNet. These communicate with each other using REST API endpoints and in some cases RabbitMQ messages. All our services and web applications are sharing common services such as oauth authentication and file storage.</p><p></p><p>A typical client or internal facing project will use one or two services created specifically for it as well as one or two services shared among our general infrastructure.</p><p></p><p>Attention to detail and quality overall is very important in all software we maintain. A typical day on the job would be attending the project standup and collaborating with different parts of our cross functional project team. This includes design, QA, and product management.</p><p></p><p><b><span>Responsibilities:</span></b></p><ul><li><span>Perform responsive software development and integration, within an agile development process</span></li><li><span>Support software life-cycle, to include design, developing and testing under</span></li><li><span>Work closely with users to provide 1 – 1 personalized software support as needed</span></li><li><span>Design, build, and maintain efficient, reusable, and reliable code/databases</span></li><li><span>Ensure the best possible performance, quality, and responsiveness of applications</span></li><li><span>Identify bottlenecks and bugs, and devise solutions to mitigate and address these issues</span></li><li><span>Help maintain code quality, organization, and automation</span></li></ul><div><h1></h1><p><b>Who We Are Looking For:</b></p></div><p>Your experience includes:</p><ul><li>Bachelor&#39;s degree in Computer Science, or related field</li><li>Ability to turn design into reusable components</li><li>Team coordination skills</li><li>Excellent communication</li><li>Knowledge of Git</li><li>Strong knowledge of JavaScript</li><li>Experience in at least one JavaScript framework</li><li>Rest API fundamentals</li><li>Experience completing projects from early design stage to production</li><li>Troubleshooting expertise and attention to detail</li><li>Ability to learn and understand code</li><li>Knowledge of HTML, CSS, and JavaScript</li><li>Zero – two years of experience in software development and testing</li><li>Willingness to adapt and evolve to technology changes</li><li>Ability to work independently and within a team</li></ul><p></p><p><b>Desired Skills:</b></p><ul><li>Understanding of modern JavaScript build tools</li><li>TypeScript</li><li>VueJS</li><li>WebPack</li><li>Angular</li><li>React</li></ul><p></p><div><p><b>Why TransPerfect:</b></p></div><p>For more than 30 years, TransPerfect has honed a culture where all kinds of ideas are shared and new ventures are not only welcomed, but also encouraged. In this fast-paced environment, employees are intellectually stimulated so they can grow alongside the organization. From Intern to President, we believe that every single employee should have a voice and contribute to the amazing services we offer our clients.</p><p></p><p>We also offer a comprehensive benefits package including medical, dental, and vision insurance, 401k matching, membership to child-care providers, and other TransPerks. You even get your birthday off because let&#39;s face it, we&#39;re stoked that you were born.</p><p></p><p>TransPerfect provides equal employment opportunity to all individuals regardless of their race, color, creed, religion, gender, age, sexual orientation, national origin, disability, veteran status, or any other characteristic protected by state, federal, or local law. For more information on the TransPerfect Family of Companies, please visit our website at www.transperfect.com.</p></div>",
+    "location": "US-New York, NY (1250 Broadway)",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-13",
+    "timeType": "Full time",
+    "jobReqId": "R2025-243900",
+    "jobPostingId": "Software-Engineer-Intern_R2025-243900",
+    "jobPostingSiteId": "transperfect",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US-New York, NY (1250 Broadway)",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://transperfect.wd5.myworkdayjobs.com/transperfect/job/US-New-York-NY-1250-Broadway/Software-Engineer-Intern_R2025-243900",
+    "questionnaireId": "2f427263f56e0137e2cbc4a8161bb19c"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Sales Intern",
+      "externalPath": "/job/US-New-York-NY-1250-Broadway/Sales-Intern_R2025-241316",
+      "timeType": "Part time",
+      "locationsText": "US-New York, NY (1250 Broadway)",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-04-29"
+    },
+    {
+      "title": "Operations Intern -Data Analytics",
+      "externalPath": "/job/US-New-York-NY-1250-Broadway/Operations-Intern--Data-Analytics_R2025-243516",
+      "timeType": "Part time",
+      "locationsText": "US-New York, NY (1250 Broadway)",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-23"
+    },
+    {
+      "title": "General Counsel Intern",
+      "externalPath": "/job/US-New-York-NY-1250-Broadway/General-Counsel-Intern_R2025-243880",
+      "timeType": "Part time",
+      "locationsText": "US-New York, NY (1250 Broadway)",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-05-08"
+    }
+  ],
+  "userAuthenticated": false
+}
