@@ -1,0 +1,168 @@
+{
+  "id": "744000126390414",
+  "name": "Supply Chain Data & Analytics Intern (Power BI | SQL | Python)",
+  "uuid": "11d63648-af31-446b-8069-3e02f65678fb",
+  "jobId": "f7ecb662-2113-4b8f-876e-5c95a0f6b2e9",
+  "jobAdId": "e782fbf5-bf53-4e30-85ee-45e79d7ac466",
+  "defaultJobAd": true,
+  "refNumber": "REF286003M",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Plymouth",
+    "region": "MI",
+    "country": "us",
+    "address": "15000 North Haggerty Road",
+    "postalCode": "48170",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "42.3917364",
+    "longitude": "-83.43853899999999",
+    "fullLocation": "Plymouth, MI, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+      "valueLabel": "Unlimited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "Plymouth, MI",
+      "valueLabel": "Plymouth, MI"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+      "valueLabel": "Indirect"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "ff7c69f3-f89c-498c-9a0e-25f4dad301d4",
+      "valueLabel": "Full-time and/or part-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "15bcc29d-90ec-4da5-9bc5-72863bc810d9",
+      "valueLabel": "Vehicle Motion"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "9ceea6ff-37fa-40a0-90e7-51fcc4977094",
+      "valueLabel": "US_N"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "CC",
+      "valueLabel": "VM"
+    }
+  ],
+  "releasedDate": "2026-05-13T19:09:29.147Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000126390414-supply-chain-data-analytics-intern-power-bi-sql-python-",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000126390414-supply-chain-data-analytics-intern-power-bi-sql-python-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/11d63648-af31-446b-8069-3e02f65678fb?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>At Bosch our products and services are designed to spark enthusiasm, improve quality of life, and help conserve natural resources. We want to deliver top quality and reliability. In short: we want to create technology that is “Invented for life.”</p><p>Within the Vehicle Motion Division (VM), we design and develop state-of-the art safety and motion solutions for passenger cars, light trucks, and up to medium heavy trucks. Vehicle Motion provides solutions for mobility through steering, braking, occupant safety, and vehicle dynamic sensors. Vehicle Motion is also a leader in the software and services that will support the future of Software Defined Vehicles.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We are seeking a highly motivated and analytical Supply Chain &amp; Logistics Analytics Intern to join our VM/LOG-AM corporate logistics team. You will report to the Logistics Innovation Lead and play a key role in transforming our supply chain operations through data. Your work will directly support our manufacturing plants across the Americas by turning complex data into actionable insights and helping to embed a data-driven culture throughout the organization.</p><p>What you will do:</p><ul><li>Support the Logistics Innovation team by leveraging data analytics to drive decision-making across our manufacturing sites in the U.S., Mexico, and Brazil.</li><li>Design, build, and maintain interactive dashboards using tools like&#xa0;Power BI&#xa0;or&#xa0;Tableau&#xa0;to visualize key supply chain and logistics metrics for plant management and other stakeholders.</li><li>Collaborate with plant personnel to understand their operational challenges and provide analytical support for supplier escalations, inventory reduction, and material flow optimization.</li><li>Apply predictive analytics techniques to identify potential supply chain bottlenecks and support task force management activities.</li><li>Assist in training teams on how to effectively use new data tools and analytics platforms.</li><li>The role supports manufacturing sites across North and South America and requires collaboration with global teams.</li></ul><p>Contribute to cross-functional logistics innovation projects, helping to identify and share best practices across our network of plants.</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>Required Qualifications:</p><ul><li>Must be currently enrolled in an accredited university pursuing a&#xa0;Bachelor's degree in&#xa0;Supply Chain Management or Business&#xa0;(with a minor/focus in analytics) OR a major in&#xa0;Data Science or Computer Science&#xa0;(with a minor/focus in business).</li><li>Advanced proficiency in SQL and Python for data extraction, manipulation, and analysis.</li><li>Experience with data visualization tools such as&#xa0;Power BI, Tableau, or similar platforms (e.g., Qlik, Looker).</li><li>Strong foundational understanding of supply chain operations and business principles.</li><li>A GPA of 3.0 or higher.</li></ul><p>Preferred Qualifications:</p><ul><li>Experience with predictive analytics, forecasting, or machine learning models.</li><li>Experience with Microsoft Power Platform (e.g., Copilot Studio, Power Automate, Power Apps, Power Pages)</li><li>Proficiency in creating visualizations using Python libraries like&#xa0;Plotly, Seaborn, or Matplotlib.</li><li>Ability to connect data insights with business operations and communicate effectively to management and other stakeholders.</li><li>Candidates must have flexibility for <em>limited</em> domestic and international travel. A valid passport is required for potential travel to sites in Mexico, Brazil, or Germany.</li></ul><p><strong>This position is based at our office in&#xa0;Plymouth, MI.</strong></p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong><em>Equal Opportunity Employer, including disability / veterans</em></strong> &#xa0;</p><p><strong>Indefinite U.S. work authorized individuals only.&#xa0; Future sponsorship for work authorization unavailable.</strong></p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "logistics_and_supply_chain",
+    "label": "Logistics And Supply Chain"
+  },
+  "function": {
+    "id": "supply_chain",
+    "label": "Supply Chain"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

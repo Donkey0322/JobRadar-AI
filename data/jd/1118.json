@@ -1,0 +1,197 @@
+{
+  "absolute_url": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857824101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": true,
+      "requires_processing_consent": true,
+      "requires_retention_consent": false,
+      "retention_period": 730,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4464312101,
+  "location": {
+    "name": "San Jose, CA, USA"
+  },
+  "metadata": [
+    {
+      "id": 6526540101,
+      "name": "Job Approver",
+      "value": {
+        "name": "Meredith Trotta",
+        "email": "meredith.trotta@veeam.com",
+        "user_id": 4161235101,
+        "employee_id": "EID109002"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 6456081101,
+      "name": "Job Family",
+      "value": "Undergraduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6166180101,
+      "name": "Worker Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 5769283101,
+      "name": "Worker Sub-type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6330528101,
+      "name": "Work Type",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8280172101,
+      "name": "Workday P Level",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 6170480101,
+      "name": "Confidential",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 6330495101,
+      "name": "Time Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 14085936101,
+      "name": "Pay Rate Type",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6448262101,
+      "name": "Job Location State",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 6491638101,
+      "name": "Department",
+      "value": "Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6350223101,
+      "name": "Additional Job Posting Locations",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 6502843101,
+      "name": "Background Check Package",
+      "value": "United States Graduate",
+      "value_type": "single_select"
+    },
+    {
+      "id": 10823088101,
+      "name": "Job HRBP",
+      "value": {
+        "name": null,
+        "email": null,
+        "user_id": null,
+        "employee_id": null
+      },
+      "value_type": "user"
+    }
+  ],
+  "id": 4857824101,
+  "updated_at": "2026-05-13T14:51:45-04:00",
+  "requisition_id": "EVER_418",
+  "title": "AI Intern- Summer 2026",
+  "company_name": "Veeam Software",
+  "first_published": "2026-05-13T14:51:45-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div class=&quot;elementToProof&quot;&gt;\n&lt;p&gt;Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe AI at scale. As the market leader in both data resilience and data security posture management, Veeam is built for the convergence of identity, data, security, and AI risk. Headquartered in Seattle with offices in more than 30 countries, Veeam protects over 550,000 customers worldwide, who trust Veeam to keep their businesses running. Join us as we go fearlessly forward together, growing, learning, and making a real impact for some of the world’s biggest brands.&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Summer Internship&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our Summer Internship is designed for students leading into their final year of university, who want to gain real life work experience in a fast past, exciting and professional environment.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;As a Summer Intern, you will&amp;nbsp;participate&amp;nbsp;in onboarding with the UR team that will set you up for success in your role. You will also&amp;nbsp;benefit&amp;nbsp;from professional development sessions, networking, and social events provided by the Internship Program.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;The program takes place from June – August 2026 (12 week program) &lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;Language Model Development, Machine: Learned Threat Detection, Agent-Based: Interactive Training Simulators&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What We&#39;re Looking For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Passion &amp;amp; Curiosity:&lt;/strong&gt; Strong interest in machine learning research, experimentation, and understanding model behavior.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Machine Learning Fundamentals:&lt;/strong&gt; Strong foundation in supervised/unsupervised learning, optimization, regularization, model evaluation, and deep learning fundamentals.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Model Training Experience:&lt;/strong&gt; Hands-on experience training deep learning models in PyTorch or TensorFlow. Ability to diagnose poor convergence, overfitting, unstable training, gradient issues, data leakage, and weak generalization.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Statistics &amp;amp; Experimentation:&lt;/strong&gt; Strong understanding of probability, statistics, hypothesis testing, experimental analysis, and interpreting noisy results.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Software Engineering Discipline:&lt;/strong&gt; Ability to write clean, maintainable code with strong encapsulation, separation of concerns, modularity, and object-oriented design principles.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Rapid Prototyping:&lt;/strong&gt; Comfortable using Claude or similar AI tools for development, debugging, and rapid iteration.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Research Mindset: &lt;/strong&gt;Ability to independently investigate problems, design experiments, and analyze outcomes critically.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Nice To Have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;LLM Experience:&lt;/strong&gt; Experience training, fine-tuning, or evaluating transformer models or LLMs.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Modern ML Tooling: &lt;/strong&gt;Familiarity with Weights &amp;amp; Biases, MLflow, distributed training, mixed precision, LoRA/QLoRA, or hyperparameter optimization.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Research Exposure:&lt;/strong&gt; Experience reproducing papers, participating in ML competitions, contributing to research projects, or building advanced personal projects.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Applied AI Domains:&lt;/strong&gt; Exposure to NLP, generative AI, multimodal systems, retrieval systems, or recommendation systems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Could Be Working On&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Model Training &amp;amp; Evaluation: &lt;/strong&gt;Train and improve ML models across a variety of datasets and tasks.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Training Diagnostics:&lt;/strong&gt; Analyze loss curves, gradients, metrics, and experiments to diagnose model failures and improve performance.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;LLM &amp;amp; Generative AI Research:&lt;/strong&gt; Work on transformer models, fine-tuning workflows, evaluation systems, and generative AI applications.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Rapid Experimentation&lt;/strong&gt;: Prototype and iterate quickly using Claude-assisted development workflows.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Research Tooling:&lt;/strong&gt; Build reusable experimentation, training, and evaluation workflows for ML research.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Candidates should have completed advanced coursework in areas such as:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Machine Learning&lt;br&gt;Deep Learning&lt;br&gt;Probability &amp;amp; Statistics&lt;br&gt;Linear Algebra&lt;br&gt;Optimization&lt;br&gt;Algorithms &amp;amp; Data Structures&lt;br&gt;Artificial Intelligence&lt;br&gt;Natural Language Processing&lt;br&gt;Computer Vision&lt;br&gt;Reinforcement Learning&lt;br&gt;Software Engineering&lt;br&gt;Targeted Field of Study&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Targeted Field of Study&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt; Currently pursuing a &lt;span data-contrast=&quot;none&quot;&gt;&lt;strong&gt;Bachelors or&lt;/strong&gt; &lt;strong&gt;Master’s degree in&lt;/strong&gt;&lt;/span&gt;:&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Computer Science&lt;br&gt;Artificial Intelligence&lt;br&gt;Machine Learning&lt;br&gt;Statistics&lt;br&gt;Applied Mathematics&lt;br&gt;Data Science&lt;br&gt;Electrical Engineering&lt;br&gt;Or other closely related quantitative fields&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;Requirements:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;strong&gt;&lt;span data-teams=&quot;true&quot;&gt;This role requires you to be in office 5 days a week at the San Jose, California location&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:0,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&lt;strong&gt;&lt;span class=&quot;TextRun SCXW171421366 BCX0&quot; lang=&quot;EN-AU&quot; data-contrast=&quot;none&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;Applicants must&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;be authorized to&lt;/span&gt;&lt;span class=&quot;NormalTextRun SCXW171421366 BCX0&quot;&gt;&amp;nbsp;work in the U.S. We are unable to sponsor or take over sponsorship of an employment Visa now or in the future.&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW171421366 BCX0&quot; data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a paid intern at Veeam, you’ll receive:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Paid Company Holidays&lt;/strong&gt; during your internship&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tech Stipend&lt;/strong&gt; to help set up your workspace&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;8 Hours of Paid Volunteer Time&lt;/strong&gt; through our Veeam Cares Program&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Personal and Professional &lt;/strong&gt;Development through our Internship Program&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re committed to providing a supportive and rewarding internship experience.&lt;/p&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;p&gt;&lt;em&gt;The pay range posted is an hourly rate of base pay. When making an offer of employment, Veeam will take into consideration the candidate’s expectations, experience, education, scope of responsibility for the role, and the current market demands.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=&quot;title&quot;&gt;United States of America Intern Pay Range&lt;/div&gt;\n&lt;div class=&quot;pay-range&quot;&gt;$40 - $50 USD&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;hr&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;Veeam Software is an equal opportunity employer&lt;/strong&gt; and does not tolerate discrimination in any form on the basis of race, color, religion, gender, age, national origin, citizenship, disability, veteran status or any other classification protected by federal, state or local law. All your information will be kept confidential.&lt;/span&gt;&lt;/div&gt;\n&lt;div data-pm-slice=&quot;1 1 [&amp;quot;ul&amp;quot;,null,&amp;quot;li&amp;quot;,{&amp;quot;style&amp;quot;:null,&amp;quot;checked&amp;quot;:null,&amp;quot;value&amp;quot;:null,&amp;quot;displayValue&amp;quot;:null,&amp;quot;backgroundColor&amp;quot;:null,&amp;quot;color&amp;quot;:null,&amp;quot;listStyleType&amp;quot;:null}]&quot; data-en-clipboard=&quot;true&quot;&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;Please note that any personal data collected from you during the recruitment process will be processed in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;. &amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;The Privacy Notice sets out the basis on which the personal data collected from you, or that you provide to us, will be processed by us in connection with our recruitment processes.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;By applying for this position, you consent to the processing of your personal data in accordance with our&amp;nbsp;&lt;a href=&quot;https://www.veeam.com/recruiting-privacy-notice.html&quot;&gt;Recruiting Privacy Notice&lt;/a&gt;.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;By submitting your application, you acknowledge that the information provided in your job application and any supporting documents is complete and accurate to the best of your knowledge. Any misrepresentation, omission, or falsification of information may result in disqualification from consideration for employment or, if discovered after employment begins, termination of employment.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;a id=&quot;app&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4059661101,
+      "name": "Securiti_RehanJalil 1009660",
+      "child_ids": [
+        4059671101,
+        4059663101,
+        4059664101,
+        4059668101,
+        4059666101,
+        4059670101,
+        4072063101,
+        4059662101,
+        4059669101,
+        4069620101,
+        4059672101,
+        4059665101,
+        4059667101,
+        4059678101,
+        4059675101,
+        4067129101,
+        4061662101,
+        4059694101,
+        4059685101,
+        4059688101,
+        4059686101,
+        4059687101,
+        4059689101,
+        4059690101,
+        4059693101,
+        4059695101,
+        4059696101,
+        4059697101,
+        4059677101,
+        4072064101,
+        4072065101,
+        4072066101,
+        4059673101,
+        4059674101,
+        4072502101,
+        4059681101,
+        4059682101,
+        4059683101,
+        4061663101,
+        4059679101,
+        4059680101,
+        4059676101,
+        4061661101,
+        4059716101,
+        4059710101,
+        4059711101,
+        4059715101,
+        4059712101,
+        4059713101,
+        4059714101,
+        4059717101,
+        4059718101,
+        4072061101,
+        4072062101,
+        4061658101,
+        4061659101
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4011726101,
+      "name": "United States of America",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4011712101
+    }
+  ]
+}
