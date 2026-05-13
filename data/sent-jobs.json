@@ -1,5 +1,59 @@
 [
   {
+    "company": "MaintainX",
+    "role": "Web Production Intern",
+    "link": "https://job-boards.greenhouse.io/maintainx/jobs/5136549007",
+    "location": "San Francisco",
+    "id": 1116,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a Bachelor's degree in Marketing, Communications, Data Analysis, or a related field.",
+        "Strong attention to detail.",
+        "Willingness to learn.",
+        "Comfortable working with spreadsheets and web tools.",
+        "Possess a technical bent or experience with no-code tools, CMS platforms, or basic HTML."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Cloudflare",
+    "role": "Data Science Intern (Summer 2026)",
+    "link": "https://boards.greenhouse.io/cloudflare/jobs/7914511?gh_jid=7914511",
+    "location": "In-Office",
+    "id": 1115,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Develop predictive models",
+        "Collaborate to design data-driven solutions",
+        "Work with large datasets to extract insights",
+        "Work on data preprocessing for LLM",
+        "Test new Generative AI frameworks",
+        "Support LLM performance evaluation",
+        "Involved in knowledge sharing and mentorship",
+        "Hold a B.S. or M.S. in quantitative fields",
+        "Experience with Python, SQL, or Javascript",
+        "Knowledge of ML algorithms, statistical modeling, and LLMs",
+        "Excellent communication and problem-solving skills",
+        "Ability to collaborate and work through ambiguous requirements",
+        "Commit to a 12-week summer internship",
+        "Work in office 3-5 days a week in Austin, TX",
+        "Familiarity with Google Cloud Platform",
+        "Familiarity with Docker and Kubernetes",
+        "Experience with JavaScript, Typescript, and React"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Gen",
     "role": "Software QA Engineer Intern",
     "link": "https://gen.wd1.myworkdayjobs.com/careers/job/Brno-Czech/Software-QA-Engineer-Intern_55281-1",
