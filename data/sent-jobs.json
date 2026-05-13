@@ -1,5 +1,34 @@
 [
   {
+    "company": "Mbrdna",
+    "role": "ADAS Data Analytics Intern",
+    "link": "https://jobs.lever.co/MBRDNA/e801fdb7-7c75-4378-bff6-b3f197489262",
+    "location": "San Jose, CA",
+    "id": 1122,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Enrolled in Computer Science, Robotics, Electrical Engineering, or a related field.",
+        "Strong programming skills in Python (e.g., pandas, Jupyter Notebooks).",
+        "Solid foundations in software engineering (Git, Linux, debugging, automated testing, basic design principles).",
+        "Experienced with data analytics environments like Databricks, Spark, or Pyspark.",
+        "Experienced with scripting languages for automated OS workflows in Unix environments.",
+        "Experienced with agile software development methods.",
+        "Possess good communication skills, verbal and written.",
+        "Able to work in dynamic environments with changing boundary conditions.",
+        "Hands-on experience with Apache Spark and/or Databricks.",
+        "Experienced working in Linux environments.",
+        "Exposed to cloud-based data processing or large-scale data workflows.",
+        "Curious, self-motivated, and enthusiastic about solving technical challenges.",
+        "Interested in autonomous driving, ADAS, or automotive software systems."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "True Anomaly",
     "role": "Supply Chain Data Intern",
     "link": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5136113007",
