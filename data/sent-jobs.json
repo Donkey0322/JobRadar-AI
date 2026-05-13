@@ -1,5 +1,70 @@
 [
   {
+    "company": "Bosch group",
+    "role": "Supply Chain Data & Analytics Intern (Power BI | SQL | Python)",
+    "link": "https://jobs.smartrecruiters.com/BoschGroup/744000126390414",
+    "location": "Plymouth, MI, United States",
+    "id": 1119,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in an accredited university pursuing a Bachelor's degree in Supply Chain Management, Business (with analytics focus), Data Science, or Computer Science (with business focus).",
+        "Advanced proficiency in SQL and Python for data extraction, manipulation, and analysis.",
+        "Experienced with data visualization tools such as Power BI, Tableau, or similar platforms.",
+        "Strong foundational understanding of supply chain operations and business principles.",
+        "Maintain a GPA of 3.0 or higher.",
+        "Experienced with predictive analytics, forecasting, or machine learning models.",
+        "Experienced with Microsoft Power Platform (e.g., Copilot Studio, Power Automate, Power Apps, Power Pages).",
+        "Proficient in creating visualizations using Python libraries like Plotly, Seaborn, or Matplotlib.",
+        "Able to connect data insights with business operations and communicate effectively to management and other stakeholders.",
+        "Possess flexibility for limited domestic and international travel and a valid passport."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Veeam Software",
+    "role": "AI Intern- Summer 2026",
+    "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857824101",
+    "location": "San Jose, CA, USA",
+    "id": 1118,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Strong interest in machine learning research.",
+        "Strong foundation in machine learning fundamentals.",
+        "Experience training deep learning models in PyTorch or TensorFlow.",
+        "Strong understanding of probability and statistics.",
+        "Ability to write clean, maintainable code.",
+        "Comfortable using AI tools for rapid prototyping.",
+        "Ability to independently investigate problems and design experiments.",
+        "Experience with transformer models or LLMs.",
+        "Familiarity with modern ML tooling.",
+        "Exposure to ML research and competitions.",
+        "Exposure to applied AI domains like NLP or generative AI.",
+        "Completed advanced coursework in Machine Learning.",
+        "Completed advanced coursework in Deep Learning.",
+        "Completed advanced coursework in Probability & Statistics.",
+        "Completed advanced coursework in Linear Algebra.",
+        "Completed advanced coursework in Optimization.",
+        "Completed advanced coursework in Algorithms & Data Structures.",
+        "Completed advanced coursework in Artificial Intelligence.",
+        "Completed advanced coursework in Natural Language Processing.",
+        "Completed advanced coursework in Computer Vision.",
+        "Completed advanced coursework in Reinforcement Learning.",
+        "Completed advanced coursework in Software Engineering.",
+        "Pursuing a Bachelor's or Master's degree in Computer Science or related quantitative field."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Transperfect",
     "role": "Software Engineer Intern",
     "link": "https://transperfect.wd5.myworkdayjobs.com/transperfect/job/US-New-York-NY-1250-Broadway/Software-Engineer-Intern_R2025-243900",
