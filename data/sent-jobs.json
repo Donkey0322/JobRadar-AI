@@ -1,5 +1,32 @@
 [
   {
+    "company": "Astera",
+    "role": "Computational Neuroscience Intern - Data Analysis and Modeling",
+    "link": "https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261",
+    "location": "Hybrid",
+    "id": 1138,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience programming in Python and Matlab",
+        "Familiarity with scientific computing libraries such as NumPy, SciPy, pandas, PyTorch, TensorFlow",
+        "Understand basic neuroscience concepts, neural systems, or computational modeling",
+        "Experience with data analysis, statistics, or machine learning workflows",
+        "Able to work independently and communicate technical findings clearly",
+        "Experience with connectomics or neurophysiology datasets",
+        "Knowledge of computational neuroscience frameworks or simulators",
+        "Experience with machine learning or dynamical systems modeling",
+        "Strong C++ programming experience",
+        "Familiarity with Linux, Git, and high-performance computing environments",
+        "Pursuing or recently completed a relevant degree in a scientific field"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Flywire",
     "role": "Application Support Intern",
     "link": "https://jobs.smartrecruiters.com/Flywire1/744000126518059",

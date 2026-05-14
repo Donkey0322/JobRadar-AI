@@ -6644,6 +6644,16 @@
     ]
   },
   {
+    "name": "granite",
+    "ats": "workday",
+    "identifier": "granite-careers",
+    "domain": "https://granite.wd1.myworkdayjobs.com/careers",
+    "page": "https://granite.wd1.myworkdayjobs.com/wday/cxs/granite/careers/jobs",
+    "urls": [
+      "https://granite.wd1.myworkdayjobs.com/careers/job/Nampa-Idaho/Summer-2026-Engineer-Intern--McCall---Pocatello--ID-_R0000007323"
+    ]
+  },
+  {
     "name": "greenheckgroup",
     "ats": "workday",
     "identifier": "greenheckgroup-external",
@@ -10361,7 +10371,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/astera",
     "urls": [
-      "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application"
+      "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application",
+      "https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261"
     ]
   },
   {
@@ -12859,7 +12870,8 @@
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Flywire1/postings",
     "urls": [
-      "https://jobs.smartrecruiters.com/Flywire1/744000126273589"
+      "https://jobs.smartrecruiters.com/Flywire1/744000126273589",
+      "https://jobs.smartrecruiters.com/Flywire1/744000126518059"
     ]
   },
   {
