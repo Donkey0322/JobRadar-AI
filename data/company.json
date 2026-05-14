@@ -1456,6 +1456,7 @@
     "page": "https://bdo.wd3.myworkdayjobs.com/wday/cxs/bdo/bdo/jobs",
     "urls": [
       "https://bdo.wd3.myworkdayjobs.com/BDO/job/Toronto---Bay-St/Co-op-or-Intern--Full-Stack-Developer--May-2026-_JR5598",
+      "https://bdo.wd3.myworkdayjobs.com/BDO/job/Toronto---Bay-St/Co-op-or-Intern--Full-Stack-Developer--September-2026-_JR6289",
       "https://bdo.wd3.myworkdayjobs.com/BDO/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--May-2026-_JR5599",
       "https://bdo.wd3.myworkdayjobs.com/bdo/job/Oakville/Co-op-or-Intern--DevOps-Engineer--September-2026-_JR6292",
       "https://bdo.wd3.myworkdayjobs.com/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Cloud-Analyst--September-2026-_JR6293"
@@ -2863,6 +2864,7 @@
       "https://careers-kinaxis.icims.com/jobs/34300/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34493/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false",
+      "https://careers-kinaxis.icims.com/jobs/34702/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34704/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false"
     ]
@@ -7428,6 +7430,7 @@
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Financial-Systems-Developer-Intern_J2439302",
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Progammer-Analyst-I_J2439588",
       "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Programmer-Analyst-Intern_J2437601",
+      "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Programmer-Analyst-Intern_J2449836",
       "https://jabil.wd5.myworkdayjobs.com/en-US/Jabil_Careers/job/St-PetersburgTampa-FL/Cloud-Engineering-Intern_J2429234",
       "https://jabil.wd5.myworkdayjobs.com/en-US/jabil_careers/job/Lexington-KY/Quality-Assurance-Intern---Cloud-Applications_J2437769",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Cloud---Infrastructure-Manufacturing-Test-Developer-Intern_J2446133",
@@ -10787,6 +10790,16 @@
     ]
   },
   {
+    "name": "lambda",
+    "ats": "ashby",
+    "identifier": "lambda",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/lambda",
+    "urls": [
+      "https://jobs.ashbyhq.com/lambda/0663f04c-097d-414f-b0a0-414a7cf153d6/application"
+    ]
+  },
+  {
     "name": "lindy",
     "ats": "ashby",
     "identifier": "lindy",
@@ -12262,12 +12275,16 @@
       "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
       "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
       "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
+      "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019/apply",
+      "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333/apply",
+      "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply",
       "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
       "https://jobs.lever.co/palantir/9410b487-c6c0-4178-903c-3311ce6b1861/apply",
       "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f/apply",
       "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
       "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-      "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
+      "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply"
     ]
   },
   {
@@ -12890,7 +12907,9 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000124175589",
       "https://jobs.smartrecruiters.com/GDMSI/744000124175808",
       "https://jobs.smartrecruiters.com/GDMSI/744000124513451",
-      "https://jobs.smartrecruiters.com/GDMSI/744000124931443"
+      "https://jobs.smartrecruiters.com/GDMSI/744000124931443",
+      "https://jobs.smartrecruiters.com/GDMSI/744000126567109",
+      "https://jobs.smartrecruiters.com/GDMSI/744000126576272"
     ]
   },
   {
