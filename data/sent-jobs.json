@@ -1,5 +1,57 @@
 [
   {
+    "company": "Bdo",
+    "role": "Co-op or Intern, DevOps Engineer (September 2026)",
+    "link": "https://bdo.wd3.myworkdayjobs.com/bdo/job/Oakville/Co-op-or-Intern--DevOps-Engineer--September-2026-_JR6292",
+    "location": "3 Locations",
+    "id": 1140,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Candidate for Math, Computer Science, Engineering, or related fields",
+        "Experience with Infrastructure as Code (IaC) or Terraform",
+        "Proficiency in Python",
+        "Proficiency in PowerShell or Shell Scripting",
+        "Experience with Jenkins, GitHub, or Azure DevOps",
+        "Knowledge of Azure REST API",
+        "Knowledge of Kubernetes, Azure SQL, Azure Synapse Studio, Polybase, ADF, Databricks, Azure ML, MLFlow, ADLS g2, ADC g2, AKV, HSM"
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
+    "company": "Bdo",
+    "role": "Co-op or Intern, Cloud Analyst (September 2026)",
+    "link": "https://bdo.wd3.myworkdayjobs.com/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Cloud-Analyst--September-2026-_JR6293",
+    "location": "2 Locations",
+    "id": 1139,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Working towards an undergraduate degree in Computer Science, Engineering, Math, IT Management, or Business with a technology focus.",
+        "Passionate about cloud technology and willing to learn new technologies.",
+        "Possess practical knowledge of professional telephone techniques and customer care.",
+        "Excellent written and verbal communication skills.",
+        "Strong problem-solving skills and attention to detail.",
+        "Enjoy improving and taking ownership of processes.",
+        "Able to prioritize and manage multiple tasks with a variable workload.",
+        "Knowledge of driving efficiencies using Generative AI Tools, Copilot, Agents.",
+        "Experience in business operations, customer service, or sales.",
+        "Experience with Microsoft or Cloud platforms.",
+        "Experience with Finance and Line of Business systems.",
+        "Understand IT and software business landscape.",
+        "Proficient in MS Office Applications, such as Microsoft Excel."
+      ],
+      "season": "2026 Fall"
+    },
+    "season": "2026 Fall"
+  },
+  {
     "company": "Astera",
     "role": "Computational Neuroscience Intern - Data Analysis and Modeling",
     "link": "https://jobs.ashbyhq.com/astera/d20c0641-1b3e-4666-bc08-4f90ee813261",
