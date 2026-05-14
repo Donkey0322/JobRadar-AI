@@ -1,0 +1,103 @@
+{
+  "id": "744000126401169",
+  "name": "Junior Web Developer- Internship",
+  "uuid": "4b82bed1-7f9e-4ea9-85aa-3228eb22040f",
+  "jobId": "86da97ba-60c3-4278-baa7-6263290b0bf8",
+  "jobAdId": "04ffe78d-fef4-42d3-aafa-3705403ca7d4",
+  "defaultJobAd": true,
+  "refNumber": "REF3980H",
+  "company": {
+    "name": "SOMFY Group",
+    "identifier": "somfygroup"
+  },
+  "location": {
+    "city": "Dayton",
+    "region": "NJ",
+    "country": "us",
+    "postalCode": "08810",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Dayton, NJ, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "58b7e4f3e4b0885c92cd99ce",
+      "fieldLabel": "Department",
+      "valueId": "923498",
+      "valueLabel": "Marketing"
+    },
+    {
+      "fieldId": "5878f255e4b0cfde2729569d",
+      "fieldLabel": "Somfy Macro Organization level (Function)",
+      "valueId": "69068594-bc8a-4c15-b200-5ece09ff5d48",
+      "valueLabel": "SALES NORTH & WEST (Business Areas)"
+    },
+    {
+      "fieldId": "58809681e4b0b087420f2df2",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "SOMFY Group"
+    }
+  ],
+  "releasedDate": "2026-05-13T20:31:37.097Z",
+  "creator": {
+    "name": "Tracy CHRISTMANN",
+    "avatarUrl": "https://c.smartrecruiters.com/sr-employee-image-prod-aws-dc5/63441792df7bfd3b9338547e?r=s3-eu-central-1&_1777481849531"
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/somfygroup/744000126401169-junior-web-developer-internship",
+  "applyUrl": "https://jobs.smartrecruiters.com/somfygroup/744000126401169-junior-web-developer-internship?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/somfygroup/publication/4b82bed1-7f9e-4ea9-85aa-3228eb22040f?dcr_ci=somfygroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>As the preferred partner for window and door automation, Somfy is committed to inspiring new and better ways of living for all. Better ways of producing, consuming, and housing that we must imagine together around the world in order to inhabit our planet in a more virtuous and permanent way. Acting for better ways of living means fostering the alliance of a sustainable economic model with environmental protection and self-fulfillment for everyone.<br>\nAs a French, family-owned, and independent group, in continuous growth since our creation, we have been world leaders for 50 years and pioneers in home automation.&#xa0; Innovation continuously guides our work and guarantees the excellence of our solutions.<br>\nWe are present in 59 countries, with eight production sites and 17 R&amp;D centers. We are pursuing an ambitious industrial strategy based on “Smart Living” and the value we bring to our customers.<br>\nWe are committed to reducing our environmental footprint every day. Today, more than 60% of our products are eco-designed, and all will be by 2030. At the same time, we have implemented a responsible purchasing policy that prioritizes local suppliers.<br>\nWe are deeply committed to the well-being of our 6,880 employees, we promote their sustainable employability by promoting internal mobility and developing their skills. We foster diversity and inclusion by building on our strong corporate culture.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We’re looking for a Junior Web Developer Intern ready to jump in and contribute from day one. This is not a shadowing role—you’ll work alongside our Webmaster and marketing team on live enterprise websites, supporting key initiatives that drive business growth.</p><p>If you're eager to apply your technical skills in a real production environment and build a strong portfolio, this is a unique opportunity to do just that.</p><p><strong>What You'll Do:</strong></p><ul><li>Collaborate on large-scale website enhancements (UX, performance, scalability)&#xa0;</li><li>Develop responsive web components using HTML, CSS, JavaScript, and PHP</li><li>Support backend development tasks within Laravel-based applications</li><li>Assist with API integrations and marketing automation workflows&#xa0;</li><li>Debug and resolve front-end and back-end issues&#xa0;</li><li>Perform cross-browser and cross-device QA testing&#xa0;</li><li>Contribute to SEO, site speed, and accessibility improvements</li><li>Support website analytics and performance reporting</li></ul><p><strong>Example Projects</strong></p><ul><li>Redesign key product pages to enhance user experience and performance&#xa0;</li><li>Improve inquiry/contact forms with smarter workflows and UX enhancements&#xa0;</li><li>Support broader website modernization and digital initiatives</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Currently pursuing or recently completed a degree in:<ul><li>Computer Science, IT, Engineering, or related field</li></ul></li><li>Basic knowledge of:<ul><li>HTML, CSS, JavaScript</li><li>PHP (Laravel a plus)</li></ul></li><li>Familiarity with APIs and web forms/data handling&#xa0;</li><li>Interest in SEO and web performance optimization&#xa0;</li><li>Strong attention to detail and willingness to learn</li><li>Ability to work on-site in Dayton, NJ</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Work schedule: Tuesday, Wednesday, Thursday - 8am-5pm</p><p>All your information will be kept confidential according to EEO guidelines.</p><div sr-tagline=\"\"></div><p>The protection of our candidates’ personal data is a commitment of Somfy Group. We therefore ask any candidate to submit their application to us exclusively via our secure system, and not by email or postal.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "industrial_automation",
+    "label": "Industrial Automation"
+  },
+  "function": {
+    "id": "marketing",
+    "label": "Marketing"
+  },
+  "department": {
+    "id": 923498,
+    "label": "Marketing"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

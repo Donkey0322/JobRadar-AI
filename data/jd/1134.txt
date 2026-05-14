@@ -1,0 +1,122 @@
+console.log('Page authentication status:', false);
+console.log('Internal user status:', false);<iframe src= "https://www.googletagmanager.com/ns.html?id=GTM-WJSMBWKS" sandbox="allow-scripts allow-same-origin" height= "0" width= "0" style= "display: none; visibility: hidden;" title= "Google Tag Manager"></iframe>function loadChatWidget() {
+const script = document.createElement("script");
+script.src = "https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js";
+script.onload = () => {
+console.log("ChatWidget loaded");
+// Create widget after script loads to avoid race condition
+const chatWidget = document.createElement("chat-widget");
+chatWidget.setAttribute("is-authed", "false");
+document.body.appendChild(chatWidget);
+};
+document.body.appendChild(script);
+}
+loadChatWidget();window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'DC-11435057');Skip to main content×HomeTeamsLocationsJob categoriesMy careerMy applicationsMy profileAccount securitySettingsSign outResourcesAccommodationsBenefitsInclusive experiencesHow We HireLeadership principlesWorking at AmazonFAQ if (typeof talentbrew_pixel !== 'undefined') talentbrew_pixel.init({category:'careersite', conversion_event:'page-view', 'job_id':'10419265'}); gtag('event', 'conversion', {
+'allow_custom_scripts': true,
+'send_to': 'DC-11435057/amazo0/amazo0+standard'
+});<img src="https://ad.doubleclick.net/ddm/activity/src=11435057;type=amazo0;cat=amazo0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>CXT.CLIENT_SIDE_METRICS.addUETag("jobShowPage");Software Development Engineer Test Intern (Fall)Job ID: 10419265 | Amazon.com Services LLCApply nowCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addLoadMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addBodyBeginMarkerForWidget("jobShowPageApplyButton")
+$('#apply-button').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Apply', action: 'Click', label: '10419265',
+directCallIdentifier: 'applicationStart',
+jobDetails: {id: '10419265', title: 'Software Development Engineer Test Intern (Fall)', category: 'Software Development', division: 'subsidiaries'}});
+if (true && typeof talentbrew_pixel !== 'undefined') {
+talentbrew_pixel.fire({category:'careersite', conversion_event:'apply-click', 'job_id':'10419265'});
+}
+if (false) {
+var TTTH_DataLayer = {
+"event": "ApplyNowClick",
+"jobID": "10419265",
+"jobName": "Software Development Engineer Test Intern (Fall)"
+}
+}
+});DescriptionAre you passionate about innovation? Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable projects in a collaborative team environment? Do you want to see your solutions directly impact millions of customers worldwide?At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.We're looking for curious minds who think big and want to define tomorrow's technology. At Amazon, you'll grow into the high-impact contributor you know you can be, supported by a culture of learning and mentorship. Every day brings exciting new challenges and opportunities for personal growth.Do you want to write secure, stable, testable and maintainable code, as well as test it? Do you enjoy working on automation frameworks in a team environment?As an SDE-T you can be expected to use coding knowledge to create automated test scripts. You will use this knowledge to both identify issues in the original software and in the testing scripts.If this describes you, consider joining us as an intern in the fall of 2026. Amazon interns have the opportunity to work alongside the industry’s brightest engineers who innovate every day on behalf of our customers. You will be matched to a manager and a mentor. You will have the opportunity to impact the evolution of Amazon technology as well as lead mission-critical projects early in your career. Your work will contribute to solving some of the most complex technical challenges in the company.Amazon internships across all seasons are full-time positions, and interns should expect to work in office, Monday-Friday, up to 40 hours per week typically between 8am-5pm. Specific team norms around working hours will be communicated by your manager. Interns should not have conflicts such as classes or other employment during the Amazon work-day.Applicants should have a minimum of one quarter/semester/trimester remaining in their studies after their internship concludes. Key job responsibilities• Collaborate with experienced cross-disciplinary Amazonians to use technology to validate and verify software.• Invent, refine and develop solutions to help lead fundamental changes in the industry.• Build tools and automation frameworks that enable QA Engineers to easily automate tests.• Troubleshoot, research and resolve defects.• Create & manage bug reports and communicate with the team.Basic Qualifications- Are 18 years of age or older- Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields- Experience with one or more general-purpose programming languages such as Java, C/C++, C#, Objective C, Python, JavaScript, Ruby, or Go- Experience identifying and reviewing test plans, test cases and testing results with a strong QA backgroundPreferred Qualifications- Experience from previous technical internship(s) or demonstrated project experience- Experience building test automation frameworks and tools- Experience working effectively across cross-functional teams and partnering well with people at all levels within an organization- Experience handling ambiguous or undefined challenges through strong problem solving abilities- Experience within Robotics, Computer Vision, Machine Learning, Optimization, Manipulation, Perception, Motion Planning and Controls, Movement, Autonomous Navigation, Path Planning, or relatedAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.The starting pay for this position is listed below. Final starting pay will be based on factors including experience, qualifications, and location. Starting Day 1 of employment, Amazon offers EAP, Mental Health Support, Medical Advice Line, 401(k) matching. Learn more about our benefits at https://hiring.amazon.com/why-amazon/benefits.USA, CA, Sunnyvale - 127,100.00 - 185,000.00 USD annuallyCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarker()Job detailsUSA, CA, SunnyvaleAmazon RoboticsSoftware DevelopmentShare this job$('#facebook-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'facebook'}});
+});
+$('#linkedin-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'linkedin'}});
+});
+$('#twitter-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'twitter'}});
+});
+$('#email-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'email link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'email'}});
+});
+$('#print-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'print link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'print'}});
+});JOIN US ONDOWNLOAD OUR APP$('#facebook-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'facebook'}});
+});
+$('#linkedin-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'linkedin'}});
+});
+$('#instagram-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'instagram link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'instagram'}});
+});
+$('#twitter-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'twitter'}});
+});
+$('#app-store-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'app store link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'app_store'}});
+});
+$('#google-play-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'google play link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'google_play'}});
+});Find CareersJob CategoriesTeamsLocationsMilitary careersHourlyWorking At AmazonCultureBenefitsAmazon NewsletterInclusive experiencesLeadership PrinciplesHelpFAQHow We HireApplication statusAccommodationsLegal disclosures and noticesAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Privacy and DataImpressum© 1996-2026, Amazon.com, Inc. or its affiliatesconst pageAnalyticsEvent = new Event('pageAnalytics')
+// TODO - Finish analytics refactor and remove unused static page data object
+var ANALYTICS_DATA = {
+businessCategory: "subsidiaries",
+contentType: "Job Details Page",
+internalOrExternal: "guest",
+jobCategory: "Software Development",
+jobCountryCode: "USA",
+jobId: "10419265",
+jobTitle: "Software Development Engineer Test Intern (Fall)",
+jobTeam: "",
+locale: "en",
+stage: "production"
+};
+var digitalData = {
+// Used by events with context-specific information
+eventData: {},
+// Used by the /jobs resource pages
+job: {
+category: "Software Development",
+countryCode: "USA",
+division: "subsidiaries",
+id: "10419265",
+jobLocation: "single",
+jobFindingMethod: document.referrer.split('?')[0] || ' ',
+title: "Software Development Engineer Test Intern (Fall)",
+relatedJobId: []
+},
+page: {
+// Used by all pages
+pageInfo: {
+countryLanguage: "en",
+pageName: "Amazon.jobs | Job Details Page",
+pageType: "", // pageType is only populated to track the 404 error page
+advertisingCookieID: "feee2d7f-fd61-41d0-8dfb-5b8c8bfc7f02",
+analyticsCookieID: "9fb0b81f-2e22-4c23-a5a4-f2dbc4ee9e83",
+siteSection: "amazon jobs",
+tabName: "",
+userID: "",
+userActionStoreId: "9fb0b81f-2e22-4c23-a5a4-f2dbc4ee9e83",
+peopleSoftId: "",
+userType: "guest",
+userAuthMode: ""
+},
+experiment: {
+experimentDetails: null
+}
+}
+};
+window.dispatchEvent(pageAnalyticsEvent)
