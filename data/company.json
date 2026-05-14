@@ -568,6 +568,7 @@
       "https://amazon.jobs/en/jobs/10407301",
       "https://amazon.jobs/en/jobs/10407301/front-end-engineer-fall-internship-2026-us",
       "https://amazon.jobs/en/jobs/10412530",
+      "https://amazon.jobs/en/jobs/10419265/software-development-engineer-test-intern-fall",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3116030/software-development-engineer-internship-summer-2026-us",
       "https://amazon.jobs/en/jobs/3116034/software-development-engineer-internship-summer-2026-canada",
@@ -4004,6 +4005,7 @@
       "https://careers.tranetechnologies.com/global/en/job/2600924",
       "https://careers.tranetechnologies.com/global/en/job/2601996",
       "https://careers.tranetechnologies.com/global/en/job/92502599",
+      "https://careers.tranetechnologies.com/global/en/job/92601288",
       "https://careers.tranetechnologies.com/global/en/job/92601996",
       "https://careers.tranetechnologies.com/global/en/job/JR-3820",
       "https://careers.tranetechnologies.com/global/en/job/TRTEGLOBAL2505287EXTERNALENGLOBAL/Software-Development-Engineering-Intern",
@@ -10352,6 +10354,16 @@
     ]
   },
   {
+    "name": "astera",
+    "ats": "ashby",
+    "identifier": "astera",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/astera",
+    "urls": [
+      "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application"
+    ]
+  },
+  {
     "name": "atomicsemi",
     "ats": "ashby",
     "identifier": "atomicsemi",
@@ -13204,6 +13216,16 @@
     "page": "https://api.smartrecruiters.com/v1/companies/sandisk/postings",
     "urls": [
       "https://jobs.smartrecruiters.com/sandisk/744000093026280-genai-ai-ml-engineering-intern"
+    ]
+  },
+  {
+    "name": "somfygroup",
+    "ats": "smartrecruiters",
+    "identifier": "somfygroup",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/somfygroup/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/somfygroup/744000126401169"
     ]
   },
   {
