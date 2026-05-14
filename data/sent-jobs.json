@@ -1,5 +1,112 @@
 [
   {
+    "company": "Amazon",
+    "role": "Software Development Engineer Test Intern",
+    "link": "https://amazon.jobs/en/jobs/10419265/software-development-engineer-test-intern-fall",
+    "location": "Sunnyvale, CA",
+    "season": "2026 Fall",
+    "id": 1134,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be 18 years of age or older",
+        "Enrolled in a Bachelor's or higher STEM degree",
+        "Experience with general-purpose programming languages",
+        "Identify and review test plans with a strong QA background",
+        "Possess previous technical internship or project experience",
+        "Build test automation frameworks and tools",
+        "Work effectively across cross-functional teams",
+        "Handle ambiguous challenges with strong problem-solving",
+        "Experience in Robotics, Computer Vision, Machine Learning"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "SOMFY Group",
+    "role": "Junior Web Developer Intern",
+    "link": "https://jobs.smartrecruiters.com/somfygroup/744000126401169",
+    "location": "Cranbury, NJ",
+    "season": "2026 Summer",
+    "id": 1133,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue or recently complete a degree in Computer Science, IT, Engineering, or related field",
+        "Basic knowledge of HTML, CSS, JavaScript",
+        "Basic knowledge of PHP (Laravel a plus)",
+        "Familiarity with APIs and web forms/data handling",
+        "Interest in SEO and web performance optimization",
+        "Strong attention to detail and willingness to learn",
+        "Ability to work on-site in Dayton, NJ"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Trane Technologies",
+    "role": "AI Intern - Brainbox AI",
+    "link": "https://careers.tranetechnologies.com/global/en/job/92601288",
+    "location": "Montreal, QC, Canada",
+    "season": "2026 Summer",
+    "id": 1132,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue a BS/BA in Computer Science, Data Science, Engineering, or Business.",
+        "Maintain a cumulative GPA at or above 3.0.",
+        "Exhibit interest in a career in AI.",
+        "Possess at least one internship or work experience.",
+        "Demonstrate leadership skills or exceptional project leadership.",
+        "Bring strong analytical, organizational, and problem-solving abilities.",
+        "Show adaptability, initiative, and a willingness to learn.",
+        "Communicate effectively with technical and non-technical audiences.",
+        "Work well in cross-functional, fast-paced environments.",
+        "Familiarity with AI concepts, software development, building systems, or energy technologies.",
+        "Experience with Python, SQL, Jira, Asana, or similar tools.",
+        "Be bilingual in French-English.",
+        "Possess full professional proficiency in English.",
+        "Be willing to be mobile and relocate."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Astera",
+    "role": "Software Engineer Intern - Distributed Simulation Systems",
+    "link": "https://jobs.ashbyhq.com/astera/c2a48c1b-c4c4-4333-addf-313c47e26066/application",
+    "location": "Oakland, CA",
+    "season": "2026 Summer",
+    "id": 1131,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong programming fundamentals",
+        "Experienced with C++, Python, or similar systems languages",
+        "Familiar with Linux development environments",
+        "Understand data structures, algorithms, and concurrency fundamentals",
+        "Interested in distributed systems, simulation, or systems engineering",
+        "Able to learn quickly and work independently on technical problems",
+        "Experienced with C++ projects",
+        "Familiar with networking or distributed systems concepts",
+        "Experienced with physics simulators such as MuJoCo, Unity, or Unreal",
+        "Experienced with Python, PyTorch, or scientific computing",
+        "Familiar with GPU programming or CUDA",
+        "Experienced with open-source, research, robotics, or simulation projects",
+        "Interested in biology, neuroscience, or scientific infrastructure"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Kinaxis",
     "role": "Software Developer Co-op/Intern - Developer Framework",
     "link": "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false",
