@@ -1,0 +1,259 @@
+{"hiringOrganization":{"@type":"Organization","name":"By Light Professional IT Services LLC","sameAs":"www.bylight.com"},"validThrough":"2027-05-13T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"Teague Rd","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Hanover","addressRegion":"MD","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Overview<\/h2>\n<p>By Light Professional IT Services LLC readies warfighters and federal agencies with technology and systems engineered to connect, protect, and prepare individuals and teams for whatever comes next. Headquartered in McLean, VA, By Light supports defense, civilian, and commercial IT customers worldwide.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Cole Engineering Services (CESI), a By Light company, is recognized as a premier provider of modeling and simulation (M&amp;S) training solutions to the Federal Government and industry. Since 2004, CESI has been at the forefront of developing, maintaining, and integrating simulation-based training, serious gaming, technical services, training and other support in live, virtual, constructive, and gaming (LVCG) domains. &nbsp;CESI also designs, builds and runs infrastructure, platforms, applications and processes that enable cyber training for the integrated multi-domain force. Our vision is to become a worldwide full spectrum LVCG and cyber training/analysis developer, integrator and services provider.<\/p>\n<h2>Position Overview<\/h2>\n<p>We are seeking a highly motivated and detail-oriented Intern to join our team. As an Intern, you will have the opportunity to work on a cutting-edge project that involves developing a web-based interface for a scalable, cloud-native platform designed to manage and orchestrate complex AI workflows. This platform is built on top of a robust, open-source architecture used by leading organizations in the industry. Your contributions will play a crucial role in shaping the user experience and ensuring the platform's usability and accessibility.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Collaborate with the development team to design and implement a user-friendly web-based interface for the platform.<\/li>\n <li>Develop high-quality, responsive, and interactive components using modern web dev tech stacks.<\/li>\n <li>Work with existing backend services to integrate capability, ensuring seamless data exchange and API interactions.<\/li>\n <li>Participate in code reviews, contribute to the improvement of the codebase, and maintain high standards of coding quality.<\/li>\n <li>Develop and maintain documentation for the components, ensuring that it is accurate, up-to-date, and accessible to the development team.<\/li>\n <li>Collaborate with the design team to ensure that the front-end aligns with the company's visual identity and design principles.<\/li>\n <li>Troubleshoot and resolve issues, working closely with the development team to resolve any technical challenges.<\/li>\n<\/ul>\n<h2>Required Experience/Qualifications<\/h2>\n<ul>\n <li>Proficiency in HTML, CSS, and JavaScript with experience in front-end development frameworks such as React or Angular.<\/li>\n <li>Experience with responsive software development and design principles.<\/li>\n <li>Entry level understanding of AI/ML.<\/li>\n <li>Strong understanding of RESTful APIs and experience with API integration.<\/li>\n <li>Excellent problem-solving skills, with the ability to troubleshoot and resolve complex front-end issues.<\/li>\n <li>Strong communication and collaboration skills, with the ability to work effectively with cross-functional teams.<\/li>\n <li>Experience with version control systems, such as Git, and familiarity with Agile development methodologies.<\/li>\n<\/ul>\n<p><strong>Required Education:<\/strong>&nbsp;Working towards a Bachelor\u2019s or Master\u2019s degree in a technical discipline such as cybersecurity, computer engineering, computer science or information technology from an accredited college or university.&nbsp;<\/p>\n<h2>Preferred Experience/Qualifications<\/h2>\n<ul>\n <li>Experience with cloud-based platforms and containerization technologies, such as Docker.<\/li>\n <li>Familiarity with machine learning or data science concepts and experience with data visualization tools.<\/li>\n <li>Experience with testing frameworks, such as Jest or Enzyme.<\/li>\n<\/ul>\n<h2>Special Requirements/Security Clearance<\/h2>\n<p>Please note that pursuant to a government contract, this specific position requires U. S. Citizenship status with ability to obtain a SECRET to TOP SECRET security clearance. &nbsp;Security Clearance requirements will be specified in the Government's Task Order.<\/p>\n<p>&nbsp;<\/p>\n<p>This job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee. The above is intended to describe the general contents of and requirements for the performance of this job.<\/p>\n<p>&nbsp;<\/p>\n<p>CESI is committed to principles of inclusion and equal employment opportunity.&nbsp; We foster a non-discriminatory, professional work environment for all our teams.&nbsp; We do not discriminate based on race, color, religion, sex, pregnancy, sexual orientation, gender identity, genetic information, national origin, age, marital status, disability, or veteran status. <\/p>\n<p>&nbsp;<\/p>","directApply":true,"datePosted":"2026-05-13T00:00:00.000Z","title":"AI Intern","occupationalCategory":"Software","@context":"http://schema.org","url":"https://jobs-bylight.icims.com/jobs/10965/ai-intern/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+AI Intern in Hanover, Maryland | Careers at CESI- MD HQ
+var isMobile = true;
+var link = 'https://jobs-bylight.icims.com/connect/interests?csrf=CCFA261AC4C3EA0F&hashed=-435740630';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn00.icims.com/a/images.icims.com/content/platform_182.1.0.260506-b1a9b1e00fc-11-2/script/portal/login.js');
+var jobId = "10965";
+var fbJobId = "48b6c103-dc30-3868-ad33-3e84f58c4d63";
+var icimsSD = {"person":{},"companyName":"By Light HQ","env":"prod","job":{"jid":10965,"jobUrls":[{"name":"By Light","url":"https://jobs-bylight.icims.com/jobs/10965/ai-intern/job"}],"location":"Hanover, Maryland, United States","title":"AI Intern"},"version":"1.015","key":"1","cid":"IIeVKq0BciHRsOPnBMIDqmJs5JhmYy0IsxsbYkh1qBoKB9nFZcrShQj1GT9C"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://jobs-bylight.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+By Light HQ
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"DfjvGk7hQ3xD5HUK","type":"careers"},"release":"182.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":4637,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"EarlyAccess","build":"platform_182.1.0.260506-b1a9b1e00fc-11-2","customerGAAccount":"UA-98455202-2","icimsGAAnonymizeIP":true,"customerId":"35R7Y4j1f7wbJ77pD","region":"US","job":{"positionType":"Intern (Part Time)","company":"CESI- MD HQ","location":{"zip":"not set","country":"USA","city":"Hanover","state":"MD"},"id":"7mp3CantMfRDWAYZ","idRaw":10965,"title":"AI Intern","category":"Software","postedDate":"2026-05-13"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"By Light Professional IT Services LLC","sameAs":"www.bylight.com"},"validThrough":"2027-05-13T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"Teague Rd","@type":"PostalAddress","postalCode":"UNAVAILABLE","addressLocality":"Hanover","addressRegion":"MD","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Overview<\/h2>\n<p>By Light Professional IT Services LLC readies warfighters and federal agencies with technology and systems engineered to connect, protect, and prepare individuals and teams for whatever comes next. Headquartered in McLean, VA, By Light supports defense, civilian, and commercial IT customers worldwide.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Cole Engineering Services (CESI), a By Light company, is recognized as a premier provider of modeling and simulation (M&amp;S) training solutions to the Federal Government and industry. Since 2004, CESI has been at the forefront of developing, maintaining, and integrating simulation-based training, serious gaming, technical services, training and other support in live, virtual, constructive, and gaming (LVCG) domains. &nbsp;CESI also designs, builds and runs infrastructure, platforms, applications and processes that enable cyber training for the integrated multi-domain force. Our vision is to become a worldwide full spectrum LVCG and cyber training/analysis developer, integrator and services provider.<\/p>\n<h2>Position Overview<\/h2>\n<p>We are seeking a highly motivated and detail-oriented Intern to join our team. As an Intern, you will have the opportunity to work on a cutting-edge project that involves developing a web-based interface for a scalable, cloud-native platform designed to manage and orchestrate complex AI workflows. This platform is built on top of a robust, open-source architecture used by leading organizations in the industry. Your contributions will play a crucial role in shaping the user experience and ensuring the platform's usability and accessibility.<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Collaborate with the development team to design and implement a user-friendly web-based interface for the platform.<\/li>\n <li>Develop high-quality, responsive, and interactive components using modern web dev tech stacks.<\/li>\n <li>Work with existing backend services to integrate capability, ensuring seamless data exchange and API interactions.<\/li>\n <li>Participate in code reviews, contribute to the improvement of the codebase, and maintain high standards of coding quality.<\/li>\n <li>Develop and maintain documentation for the components, ensuring that it is accurate, up-to-date, and accessible to the development team.<\/li>\n <li>Collaborate with the design team to ensure that the front-end aligns with the company's visual identity and design principles.<\/li>\n <li>Troubleshoot and resolve issues, working closely with the development team to resolve any technical challenges.<\/li>\n<\/ul>\n<h2>Required Experience/Qualifications<\/h2>\n<ul>\n <li>Proficiency in HTML, CSS, and JavaScript with experience in front-end development frameworks such as React or Angular.<\/li>\n <li>Experience with responsive software development and design principles.<\/li>\n <li>Entry level understanding of AI/ML.<\/li>\n <li>Strong understanding of RESTful APIs and experience with API integration.<\/li>\n <li>Excellent problem-solving skills, with the ability to troubleshoot and resolve complex front-end issues.<\/li>\n <li>Strong communication and collaboration skills, with the ability to work effectively with cross-functional teams.<\/li>\n <li>Experience with version control systems, such as Git, and familiarity with Agile development methodologies.<\/li>\n<\/ul>\n<p><strong>Required Education:<\/strong>&nbsp;Working towards a Bachelor\u2019s or Master\u2019s degree in a technical discipline such as cybersecurity, computer engineering, computer science or information technology from an accredited college or university.&nbsp;<\/p>\n<h2>Preferred Experience/Qualifications<\/h2>\n<ul>\n <li>Experience with cloud-based platforms and containerization technologies, such as Docker.<\/li>\n <li>Familiarity with machine learning or data science concepts and experience with data visualization tools.<\/li>\n <li>Experience with testing frameworks, such as Jest or Enzyme.<\/li>\n<\/ul>\n<h2>Special Requirements/Security Clearance<\/h2>\n<p>Please note that pursuant to a government contract, this specific position requires U. S. Citizenship status with ability to obtain a SECRET to TOP SECRET security clearance. &nbsp;Security Clearance requirements will be specified in the Government's Task Order.<\/p>\n<p>&nbsp;<\/p>\n<p>This job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee. The above is intended to describe the general contents of and requirements for the performance of this job.<\/p>\n<p>&nbsp;<\/p>\n<p>CESI is committed to principles of inclusion and equal employment opportunity.&nbsp; We foster a non-discriminatory, professional work environment for all our teams.&nbsp; We do not discriminate based on race, color, religion, sex, pregnancy, sexual orientation, gender identity, genetic information, national origin, age, marital status, disability, or veteran status. <\/p>\n<p>&nbsp;<\/p>","directApply":true,"datePosted":"2026-05-13T00:00:00.000Z","title":"AI Intern","occupationalCategory":"Software","@context":"http://schema.org","url":"https://jobs-bylight.icims.com/jobs/10965/ai-intern/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+AI Intern
+Job Locations
+US-MD-Hanover
+Posted Date
+13 hours ago(5/13/2026 1:16 PM)
+ID
+2026-10965
+# of Openings
+1
+Category
+Software
+Clearance
+None
+Company Overview
+By Light Professional IT Services LLC readies warfighters and federal agencies with technology and systems engineered to connect, protect, and prepare individuals and teams for whatever comes next. Headquartered in McLean, VA, By Light supports defense, civilian, and commercial IT customers worldwide. Cole Engineering Services (CESI), a By Light company, is recognized as a premier provider of modeling and simulation (M&S) training solutions to the Federal Government and industry. Since 2004, CESI has been at the forefront of developing, maintaining, and integrating simulation-based training, serious gaming, technical services, training and other support in live, virtual, constructive, and gaming (LVCG) domains. CESI also designs, builds and runs infrastructure, platforms, applications and processes that enable cyber training for the integrated multi-domain force. Our vision is to become a worldwide full spectrum LVCG and cyber training/analysis developer, integrator and services provider.
+Position Overview
+We are seeking a highly motivated and detail-oriented Intern to join our team. As an Intern, you will have the opportunity to work on a cutting-edge project that involves developing a web-based interface for a scalable, cloud-native platform designed to manage and orchestrate complex AI workflows. This platform is built on top of a robust, open-source architecture used by leading organizations in the industry. Your contributions will play a crucial role in shaping the user experience and ensuring the platform's usability and accessibility.
+Responsibilities
+Collaborate with the development team to design and implement a user-friendly web-based interface for the platform.Develop high-quality, responsive, and interactive components using modern web dev tech stacks.Work with existing backend services to integrate capability, ensuring seamless data exchange and API interactions.Participate in code reviews, contribute to the improvement of the codebase, and maintain high standards of coding quality.Develop and maintain documentation for the components, ensuring that it is accurate, up-to-date, and accessible to the development team.Collaborate with the design team to ensure that the front-end aligns with the company's visual identity and design principles.Troubleshoot and resolve issues, working closely with the development team to resolve any technical challenges.
+Required Experience/Qualifications
+Proficiency in HTML, CSS, and JavaScript with experience in front-end development frameworks such as React or Angular.Experience with responsive software development and design principles.Entry level understanding of AI/ML.Strong understanding of RESTful APIs and experience with API integration.Excellent problem-solving skills, with the ability to troubleshoot and resolve complex front-end issues.Strong communication and collaboration skills, with the ability to work effectively with cross-functional teams.Experience with version control systems, such as Git, and familiarity with Agile development methodologies.Required Education: Working towards a Bachelor’s or Master’s degree in a technical discipline such as cybersecurity, computer engineering, computer science or information technology from an accredited college or university.
+Preferred Experience/Qualifications
+Experience with cloud-based platforms and containerization technologies, such as Docker.Familiarity with machine learning or data science concepts and experience with data visualization tools.Experience with testing frameworks, such as Jest or Enzyme.
+Special Requirements/Security Clearance
+Please note that pursuant to a government contract, this specific position requires U. S. Citizenship status with ability to obtain a SECRET to TOP SECRET security clearance. Security Clearance requirements will be specified in the Government's Task Order. This job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee. The above is intended to describe the general contents of and requirements for the performance of this job. CESI is committed to principles of inclusion and equal employment opportunity. We foster a non-discriminatory, professional work environment for all our teams. We do not discriminate based on race, color, religion, sex, pregnancy, sexual orientation, gender identity, genetic information, national origin, age, marital status, disability, or veteran status.
+Options
+Apply for this job onlineApplyShareRefer this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+By Light recognizes that our strength is our people. We support every employee as an individual to build strong teams across the enterprise. Our benefit package includes:
+Medical, Dental & Vision Coverage
+Wellness Program
+401(k) Matching
+Disability (Short Term & Long Term)
+Employee Assistance Program
+Life Insurance
+Education & Training
+Generous Leave Policy (11 Federal Holidays, PTO, and Military Leave)
+By Light is an Equal Opportunity and Affirmative Action Employer. All qualified candidates will receive consideration regardless of gender, race, veteran status, disability, and any other protected class in accordance with federal, state and local laws.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;margin:0 auto 60px auto;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;width:100%;max-width:300px;text-align:center;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex;width:100%;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};
