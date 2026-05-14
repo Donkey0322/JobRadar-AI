@@ -1,5 +1,176 @@
 [
   {
+    "company": "Kinaxis",
+    "role": "Software Developer Co-op/Intern - Developer Framework",
+    "link": "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1130,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Design and develop new data ingestion components.",
+        "Build secure SaaS enterprise software.",
+        "Collaborate with agile team members.",
+        "Participate in agile process to improve delivery and quality.",
+        "Perform other projects as required.",
+        "Proficient in common programming languages.",
+        "Knowledge of object-oriented design, data structures, and algorithms.",
+        "Experience with relational databases.",
+        "Strong analytical skills.",
+        "Strong communication skills.",
+        "Able to adapt and learn quickly.",
+        "Experience building full-stack applications.",
+        "Exposure to DevOps concepts with containerization.",
+        "Experience with ETL tools, big data, and data integration."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Manulife Financial",
+    "role": "Software Engineering Co-op - Software Engineering",
+    "link": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-Co-op-2026---Software-Engineer--4-Months-_JR26050843",
+    "location": "Kitchener, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1129,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Pursue an undergraduate degree in Computer Science, Engineering, or a related field",
+        "Experience with at least one programming language (e.g., Java, Python)",
+        "Familiar with version control systems (e.g., Git)",
+        "Strong communication skills",
+        "Willingness to learn in a collaborative environment",
+        "Exposure to software frameworks, libraries, or development tools",
+        "Understand software development lifecycle and best practices",
+        "Familiar with APIs, web services, or application architecture"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "NVIDIA",
+    "role": "Systems Software Engineer Intern",
+    "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer-Intern--Metropolis---Fall-2026_JR2018016",
+    "location": "Santa Clara, CA",
+    "season": "2026 Fall",
+    "id": 1128,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue BS or MS in Computer Science or Engineering",
+        "Possess basic Linux system administration skills",
+        "Ability to code with Python or similar languages",
+        "Understand operating systems (Linux) and computer architecture",
+        "Know how to build web applications and databases",
+        "Knowledge of Docker and Kubernetes environments",
+        "Understand building and working with AI models",
+        "Experience in system administration BareMetal and/or Cloud environments",
+        "Good programming skills with Python/ReactJs/NodeJs",
+        "Good understanding Docker Kubernetes and Helm"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "AES",
+    "role": "Learning & Development Intern",
+    "link": "https://aes.wd1.myworkdayjobs.com/AES_US/job/US-Arlington-VA/Supply-Chain-Learning---Development-Intern_R1063195",
+    "location": "Arlington, VA",
+    "season": "2026 Summer",
+    "id": 1127,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor\nVapor Master\nVapors degree in a technical field",
+        "Possess strong interest in AI, automation, digital transformation, and supply chain",
+        "Gain familiarity or experience with AI and automation platforms",
+        "Understand basic software development concepts, APIs, scripting, or workflow logic",
+        "Be familiar with SAP Materials Management module",
+        "Be familiar with logistics, procurement, or supply chain processes",
+        "Be a fast learner and adapt quickly to new technologies",
+        "Be self-directed and proactive with strong problem-solving skills",
+        "Have an analytical mindset to interpret data into solutions",
+        "Possess strong communication and collaboration skills"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "By Light Professional IT Services",
+    "role": "AI Intern",
+    "link": "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false",
+    "location": "Hanover, MD",
+    "season": "2026 Summer",
+    "id": 1126,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in HTML, CSS, and JavaScript with front-end frameworks like React or Angular.",
+        "Experienced with responsive software development and design principles.",
+        "Entry-level understanding of AI/ML.",
+        "Strong understanding of RESTful APIs and API integration experience.",
+        "Excellent problem-solving skills to troubleshoot complex front-end issues.",
+        "Strong communication and collaboration skills for cross-functional teams.",
+        "Experienced with version control systems (Git) and Agile methodologies.",
+        "Working towards a Bachelor’s or Master’s degree in a technical discipline.",
+        "Experienced with cloud-based platforms and containerization technologies (Docker).",
+        "Familiar with machine learning, data science concepts, and data visualization tools.",
+        "Experienced with testing frameworks like Jest or Enzyme."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CIBC",
+    "role": "Software/Application Developer Co-op",
+    "link": "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Software-Application-Developer-Co-op_2610709-1",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 1125,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Develop, code, and test computer programs",
+        "Review, analyze, and modify programming systems",
+        "Participate in technical design, development, and integration of application systems",
+        "Effectively interact with stakeholders to gather requirements",
+        "Prepare design specifications",
+        "Demonstrate excellent verbal and written communication skills",
+        "Take initiative and deliver results",
+        "Investigate complex problems and make sense of information",
+        "Communicate detailed information meaningfully",
+        "Passionate about growing knowledge and curious",
+        "Digitally savvy and adaptable to new technologies",
+        "Motivated by collective success and teamwork",
+        "Adhere to values of trust, teamwork, and accountability",
+        "Proficient in C++ STL",
+        "Proficient in Cloud Applications",
+        "Proficient in Cloud Technology",
+        "Proficient in Java",
+        "Proficient in Java Spring",
+        "Proficient in Python",
+        "Proficient in Spring Boot",
+        "Currently enrolled in post-secondary education",
+        "Returning to full-time studies"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Flywire",
     "role": "Application Support Intern",
     "link": "https://jobs.smartrecruiters.com/Flywire1/744000126273589",
