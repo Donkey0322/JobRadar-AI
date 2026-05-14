@@ -339,6 +339,16 @@
     ]
   },
   {
+    "name": "aes",
+    "ats": "workday",
+    "identifier": "aes-aes_us",
+    "domain": "https://aes.wd1.myworkdayjobs.com/aes_us",
+    "page": "https://aes.wd1.myworkdayjobs.com/wday/cxs/aes/aes_us/jobs",
+    "urls": [
+      "https://aes.wd1.myworkdayjobs.com/AES_US/job/US-Arlington-VA/Supply-Chain-Learning---Development-Intern_R1063195"
+    ]
+  },
+  {
     "name": "aexp.eightfold.ai",
     "ats": "custom",
     "identifier": "aexp.eightfold.ai",
@@ -2849,7 +2859,8 @@
       "https://careers-kinaxis.icims.com/jobs/34300/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34493/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34701/job?mobile=true&needsRedirect=false",
-      "https://careers-kinaxis.icims.com/jobs/34704/job?mobile=true&needsRedirect=false"
+      "https://careers-kinaxis.icims.com/jobs/34704/job?mobile=true&needsRedirect=false",
+      "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -4311,7 +4322,8 @@
       "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer--Apprentice_2605716",
       "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer--Apprentice_2605991",
       "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Software-Engineer-Apprentice_2606137",
-      "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523685-1"
+      "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523685-1",
+      "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Software-Application-Developer-Co-op_2610709-1"
     ]
   },
   {
@@ -9996,7 +10008,8 @@
     "domain": "https://jobs-bylight.icims.com",
     "page": "https://api.icims.com/v1/companies/bylight/jobs",
     "urls": [
-      "https://jobs-bylight.icims.com/jobs/10946/job?mobile=true&needsRedirect=false"
+      "https://jobs-bylight.icims.com/jobs/10946/job?mobile=true&needsRedirect=false",
+      "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -13796,6 +13809,7 @@
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Full-Stack-Software-Engineer_JR26010481",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Software-Engineering_JR25110669",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-2026-Co-op---Automation-Developer_JR26041117",
+      "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-Co-op-2026---Software-Engineer--4-Months-_JR26050843",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Summer-Intern-Co-op-2026---Software-Engineering_JR25090419"
     ]
   },
@@ -14509,6 +14523,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--JAX---Fall-2026_JR2009745",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Omniverse---Summer-2026_JR2007644",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Robot-Learning-Platform---Fall-2026_JR2015575",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer-Intern--Metropolis---Fall-2026_JR2018016",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Autonomous-Vehicles-and-Robotics_JR2003207",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Computer-Architecture_JR2003201-1",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Deep-Learning-Computer-Architecture_JR2003202",
