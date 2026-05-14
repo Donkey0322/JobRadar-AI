@@ -1,0 +1,226 @@
+{"hiringOrganization":{"@type":"Organization","name":"Kinaxis Inc.","sameAs":"Kinaxis.com"},"validThrough":"2026-05-23T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"CA","streetAddress":"3199 Palladium Drive","@type":"PostalAddress","postalCode":"K2T 0N9","addressLocality":"Ottawa","addressRegion":"ON","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"INTERN","@type":"JobPosting","description":"<h2><\/h2>\n<p><\/p>\n<p>About Kinaxis<\/p>\n<p>Are you looking to join an innovative, market-leading company where you can truly elevate your career? At Kinaxis we are serious about culture, we are serious about technology, we are serious about customers, and we are serious about not taking ourselves too seriously. If you are looking to be part of an incredible growth story, then we might just be the place for you!<\/p>\n<p>&nbsp;<\/p>\n<p>In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, 6 global office and a best-in-class HQ in Ottawa, Canada. As winners of several Top Employer awards globally, we are proud to work with our customers and employees towards solving some of the biggest challenges facing supply chains today.<\/p>\n<p>&nbsp;<\/p>\n<p>Kinaxis is a global leader in modern supply chain orchestration, powering complex global supply chains, and supporting the people who manage them. Our powerful, AI infused platform provides full transparency and visibility across end-to-end supply chains, enabling our customers to make faster, better decisions. We are trusted by renowned global brands to provide the agility and predictability needed to navigate today\u2019s volatility and disruption. With more than 40,000 users in over 100 countries, we are expanding our team as we continue to innovate and revolutionize how we support our customers.<\/p>\n<h2><\/h2>\n<p>About the team<\/p>\n<p>Maestro is a world-class, unique technology providing lightning fast calculations and powerful collaboration capabilities via its 1TB memory-based database, always-on analytics, simulation tools, and rich UI. In this role, you will develop web application features using a variety of technologies (TypeScript, React, C#) that will bring the power of Maestro to an expanding user community.<\/p>\n<h2><\/h2>\n<p><\/p>\n<p><strong>Location<\/strong><\/p>\n<p>This is a hybrid position. You must be in the Ottawa, Canada office, at least three days a week.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Term Duration<\/strong><\/p>\n<p>This is a full-time, 4 or 8-month position, starting September 2026.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Co-op or Intern<\/strong><\/p>\n<p>This position is open to co-ops and interns. To be eligible for a Co-op or Intern position at Kinaxis, you must either be currently enrolled in full-time education or, if you are a recent/upcoming graduate, your graduation date must be within 12 months of the placement end date.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Compensation range<\/strong><\/p>\n<p>$25.24 - $37.02&nbsp;hourly rate. The final offer within this range will reflect the candidate\u2019s skills, year of education and experience.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Vacancy Status<\/strong><\/p>\n<p>This is an existing job vacancy.<\/p>\n<p><\/p>\n<p><strong>What you will do<\/strong><\/p>\n<ul>\n <li>Develop high quality code for the Maestro web client and application server<\/li>\n <li>Enhance product quality by fixing bugs, writing tests, and improving product performance<\/li>\n <li>Grow our design system by contributing to our reusable component library<\/li>\n <li>Collaborate with the development, QA, and UX teams in delivering new features<\/li>\n<\/ul>\n<p><strong>What we are looking for<\/strong><\/p>\n<ul>\n <li>Currently enrolled in a program where software development is the primary focus<\/li>\n <li>Experience building web applications, personal projects on GitHub<\/li>\n <li>Open mindset for learning and improving<\/li>\n <li>Strong problem-solving and communication skill<\/li>\n<\/ul>\n<p><strong>Things that would definitely help<\/strong><\/p>\n<ul>\n <li>TypeScript, JavaScript, C#<\/li>\n <li>A front end framework like React, Vue, Angular, etc.<\/li>\n <li>Unit testing, end to end testing<\/li>\n <li>Functional programming<\/li>\n <li>CSS, CSS in JS<\/li>\n <li>REST APIs<\/li>\n<\/ul>\n<p>We\u2019re accepting applications now through end of day on Friday, May 22, 2026 Please note that we may begin reviewing applications before the posting closes, so early submission is encouraged.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong> #Coop, #Internship, #Intern, #LI-EN1<\/strong><\/p>\n<h2><\/h2>\n<p>&nbsp;<\/p>\n<p><strong>Work With Impact:<\/strong> Our platform directly helps companies power the world\u2019s supply chains. We see the results of what we do out in the world every day, when we see store shelves stocked, when medications are available for our loved ones, and so much more.<\/p>\n<p><strong>Work with Fortune 500 Brands:<\/strong> Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Lockheed Martin, Unilever, P&amp;G, ExxonMobil, Cisco and more.<\/p>\n<p><strong>Social Responsibility at Kinaxis:<\/strong> Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we\u2019re committed to a long-term net-zero operations strategy. We are involved in our communities and support causes where we can make the most impact.<\/p>\n<p><em>People matter<\/em> at Kinaxis and here are some of the perks and benefits we offer, which may vary by location and employee:<\/p>\n<ul>\n <li>Flexible vacation and Kinaxis Days (company-wide days off)<\/li>\n <li>Flexible work options<\/li>\n <li>Physical and mental well-being programs<\/li>\n <li>Regularly scheduled virtual fitness classes<\/li>\n <li>Mentorship programs, training, and career development<\/li>\n <li>Recognition programs and referral rewards<\/li>\n <li>Hackathons<\/li>\n<\/ul>\n<p>For more information, visit the Kinaxis website at www.kinaxis.com or the company\u2019s blog at http://blog.kinaxis.com.<\/p>\n<p>Kinaxis welcomes candidates to apply to our inclusive community. We provide accommodations upon request to ensure fairness and accessibility throughout our recruitment process for all candidates, including those with specific needs or disabilities. If you require an accommodation, please reach out to us at recruitmentprograms@kinaxis.com. This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.<\/p>\n<p><em>Kinaxis is committed to ensuring a fair and transparent recruitment process. We use artificial intelligence (AI) tools in the initial step of the recruitment process to compare submitted resumes against the job description to identify candidates whose education, experience, and skills most closely match the requirements of the role. After the initial screening, all subsequent decisions regarding your application, including final selection, are made by our human recruitment team. AI does not make any final hiring decisions.<\/em><\/p>\n<p> <\/p>","directApply":true,"datePosted":"2026-05-14T00:00:00.000Z","title":"Co-op/Intern Developer, Clients, Front End Technologies","occupationalCategory":"Engineering","@context":"http://schema.org","url":"https://careers-kinaxis.icims.com/jobs/34702/co-op-intern-developer%2c-clients%2c-front-end-technologies/job"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Co-op/Intern Developer, Clients, Front End Technologies in Ottawa, Ontario | Careers at Ottawa Headquarters
+var isMobile = true;
+var link = 'https://careers-kinaxis.icims.com/connect/interests?csrf=3772A267BCA4DE10&hashed=-625890713';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_182.1.0.260506-b1a9b1e00fc-11-2/script/portal/login.js');
+var jobId = "34702";
+var fbJobId = "2b116024-9d22-30e4-8242-ffcfc779f36c";
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-kinaxis.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2Twqr6Uh2k4kDvF1T","type":"careers"},"release":"182.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":14042,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave1","build":"platform_182.1.0.260506-b1a9b1e00fc-11-2","icimsGAAnonymizeIP":true,"customerId":"C94qTkeLNk5GHkEj","region":"US","job":{"positionType":"Intern","company":"Ottawa Headquarters","location":{"zip":"K2T 0N9","country":"CAN","city":"Ottawa","state":"ON"},"id":"2z21dozxA5cz6dwaw","idRaw":34702,"title":"Co-op/Intern Developer, Clients, Front End Technologies","category":"Engineering","postedDate":"2026-05-14"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"hiringOrganization":{"@type":"Organization","name":"Kinaxis Inc.","sameAs":"Kinaxis.com"},"validThrough":"2026-05-23T00:00:00.000Z","jobLocation":[{"address":{"addressCountry":"CA","streetAddress":"3199 Palladium Drive","@type":"PostalAddress","postalCode":"K2T 0N9","addressLocality":"Ottawa","addressRegion":"ON","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"employmentType":"INTERN","@type":"JobPosting","description":"<h2><\/h2>\n<p><\/p>\n<p>About Kinaxis<\/p>\n<p>Are you looking to join an innovative, market-leading company where you can truly elevate your career? At Kinaxis we are serious about culture, we are serious about technology, we are serious about customers, and we are serious about not taking ourselves too seriously. If you are looking to be part of an incredible growth story, then we might just be the place for you!<\/p>\n<p>&nbsp;<\/p>\n<p>In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, 6 global office and a best-in-class HQ in Ottawa, Canada. As winners of several Top Employer awards globally, we are proud to work with our customers and employees towards solving some of the biggest challenges facing supply chains today.<\/p>\n<p>&nbsp;<\/p>\n<p>Kinaxis is a global leader in modern supply chain orchestration, powering complex global supply chains, and supporting the people who manage them. Our powerful, AI infused platform provides full transparency and visibility across end-to-end supply chains, enabling our customers to make faster, better decisions. We are trusted by renowned global brands to provide the agility and predictability needed to navigate today\u2019s volatility and disruption. With more than 40,000 users in over 100 countries, we are expanding our team as we continue to innovate and revolutionize how we support our customers.<\/p>\n<h2><\/h2>\n<p>About the team<\/p>\n<p>Maestro is a world-class, unique technology providing lightning fast calculations and powerful collaboration capabilities via its 1TB memory-based database, always-on analytics, simulation tools, and rich UI. In this role, you will develop web application features using a variety of technologies (TypeScript, React, C#) that will bring the power of Maestro to an expanding user community.<\/p>\n<h2><\/h2>\n<p><\/p>\n<p><strong>Location<\/strong><\/p>\n<p>This is a hybrid position. You must be in the Ottawa, Canada office, at least three days a week.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Term Duration<\/strong><\/p>\n<p>This is a full-time, 4 or 8-month position, starting September 2026.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Co-op or Intern<\/strong><\/p>\n<p>This position is open to co-ops and interns. To be eligible for a Co-op or Intern position at Kinaxis, you must either be currently enrolled in full-time education or, if you are a recent/upcoming graduate, your graduation date must be within 12 months of the placement end date.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Compensation range<\/strong><\/p>\n<p>$25.24 - $37.02&nbsp;hourly rate. The final offer within this range will reflect the candidate\u2019s skills, year of education and experience.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Vacancy Status<\/strong><\/p>\n<p>This is an existing job vacancy.<\/p>\n<p><\/p>\n<p><strong>What you will do<\/strong><\/p>\n<ul>\n <li>Develop high quality code for the Maestro web client and application server<\/li>\n <li>Enhance product quality by fixing bugs, writing tests, and improving product performance<\/li>\n <li>Grow our design system by contributing to our reusable component library<\/li>\n <li>Collaborate with the development, QA, and UX teams in delivering new features<\/li>\n<\/ul>\n<p><strong>What we are looking for<\/strong><\/p>\n<ul>\n <li>Currently enrolled in a program where software development is the primary focus<\/li>\n <li>Experience building web applications, personal projects on GitHub<\/li>\n <li>Open mindset for learning and improving<\/li>\n <li>Strong problem-solving and communication skill<\/li>\n<\/ul>\n<p><strong>Things that would definitely help<\/strong><\/p>\n<ul>\n <li>TypeScript, JavaScript, C#<\/li>\n <li>A front end framework like React, Vue, Angular, etc.<\/li>\n <li>Unit testing, end to end testing<\/li>\n <li>Functional programming<\/li>\n <li>CSS, CSS in JS<\/li>\n <li>REST APIs<\/li>\n<\/ul>\n<p>We\u2019re accepting applications now through end of day on Friday, May 22, 2026 Please note that we may begin reviewing applications before the posting closes, so early submission is encouraged.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong> #Coop, #Internship, #Intern, #LI-EN1<\/strong><\/p>\n<h2><\/h2>\n<p>&nbsp;<\/p>\n<p><strong>Work With Impact:<\/strong> Our platform directly helps companies power the world\u2019s supply chains. We see the results of what we do out in the world every day, when we see store shelves stocked, when medications are available for our loved ones, and so much more.<\/p>\n<p><strong>Work with Fortune 500 Brands:<\/strong> Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Lockheed Martin, Unilever, P&amp;G, ExxonMobil, Cisco and more.<\/p>\n<p><strong>Social Responsibility at Kinaxis:<\/strong> Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we\u2019re committed to a long-term net-zero operations strategy. We are involved in our communities and support causes where we can make the most impact.<\/p>\n<p><em>People matter<\/em> at Kinaxis and here are some of the perks and benefits we offer, which may vary by location and employee:<\/p>\n<ul>\n <li>Flexible vacation and Kinaxis Days (company-wide days off)<\/li>\n <li>Flexible work options<\/li>\n <li>Physical and mental well-being programs<\/li>\n <li>Regularly scheduled virtual fitness classes<\/li>\n <li>Mentorship programs, training, and career development<\/li>\n <li>Recognition programs and referral rewards<\/li>\n <li>Hackathons<\/li>\n<\/ul>\n<p>For more information, visit the Kinaxis website at www.kinaxis.com or the company\u2019s blog at http://blog.kinaxis.com.<\/p>\n<p>Kinaxis welcomes candidates to apply to our inclusive community. We provide accommodations upon request to ensure fairness and accessibility throughout our recruitment process for all candidates, including those with specific needs or disabilities. If you require an accommodation, please reach out to us at recruitmentprograms@kinaxis.com. This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.<\/p>\n<p><em>Kinaxis is committed to ensuring a fair and transparent recruitment process. We use artificial intelligence (AI) tools in the initial step of the recruitment process to compare submitted resumes against the job description to identify candidates whose education, experience, and skills most closely match the requirements of the role. After the initial screening, all subsequent decisions regarding your application, including final selection, are made by our human recruitment team. AI does not make any final hiring decisions.<\/em><\/p>\n<p> <\/p>","directApply":true,"datePosted":"2026-05-14T00:00:00.000Z","title":"Co-op/Intern Developer, Clients, Front End Technologies","occupationalCategory":"Engineering","@context":"http://schema.org","url":"https://careers-kinaxis.icims.com/jobs/34702/co-op-intern-developer%2c-clients%2c-front-end-technologies/job"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Returning Candidate?
+Log back in!
+Co-op/Intern Developer, Clients, Front End Technologies
+Location
+CA-ON-Ottawa
+ID
+2026-34702
+Category
+Engineering
+Position Type
+Intern
+Remote
+No
+About KinaxisAre you looking to join an innovative, market-leading company where you can truly elevate your career? At Kinaxis we are serious about culture, we are serious about technology, we are serious about customers, and we are serious about not taking ourselves too seriously. If you are looking to be part of an incredible growth story, then we might just be the place for you! In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, 6 global office and a best-in-class HQ in Ottawa, Canada. As winners of several Top Employer awards globally, we are proud to work with our customers and employees towards solving some of the biggest challenges facing supply chains today. Kinaxis is a global leader in modern supply chain orchestration, powering complex global supply chains, and supporting the people who manage them. Our powerful, AI infused platform provides full transparency and visibility across end-to-end supply chains, enabling our customers to make faster, better decisions. We are trusted by renowned global brands to provide the agility and predictability needed to navigate today’s volatility and disruption. With more than 40,000 users in over 100 countries, we are expanding our team as we continue to innovate and revolutionize how we support our customers.
+About the teamMaestro is a world-class, unique technology providing lightning fast calculations and powerful collaboration capabilities via its 1TB memory-based database, always-on analytics, simulation tools, and rich UI. In this role, you will develop web application features using a variety of technologies (TypeScript, React, C#) that will bring the power of Maestro to an expanding user community.
+LocationThis is a hybrid position. You must be in the Ottawa, Canada office, at least three days a week. Term DurationThis is a full-time, 4 or 8-month position, starting September 2026. Co-op or InternThis position is open to co-ops and interns. To be eligible for a Co-op or Intern position at Kinaxis, you must either be currently enrolled in full-time education or, if you are a recent/upcoming graduate, your graduation date must be within 12 months of the placement end date. Compensation range$25.24 - $37.02 hourly rate. The final offer within this range will reflect the candidate’s skills, year of education and experience. Vacancy StatusThis is an existing job vacancy.What you will doDevelop high quality code for the Maestro web client and application serverEnhance product quality by fixing bugs, writing tests, and improving product performanceGrow our design system by contributing to our reusable component libraryCollaborate with the development, QA, and UX teams in delivering new featuresWhat we are looking forCurrently enrolled in a program where software development is the primary focusExperience building web applications, personal projects on GitHubOpen mindset for learning and improvingStrong problem-solving and communication skillThings that would definitely helpTypeScript, JavaScript, C#A front end framework like React, Vue, Angular, etc.Unit testing, end to end testingFunctional programmingCSS, CSS in JSREST APIsWe’re accepting applications now through end of day on Friday, May 22, 2026 Please note that we may begin reviewing applications before the posting closes, so early submission is encouraged. #Coop, #Internship, #Intern, #LI-EN1
+Work With Impact: Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day, when we see store shelves stocked, when medications are available for our loved ones, and so much more.Work with Fortune 500 Brands: Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Lockheed Martin, Unilever, P&G, ExxonMobil, Cisco and more.Social Responsibility at Kinaxis: Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to a long-term net-zero operations strategy. We are involved in our communities and support causes where we can make the most impact.People matter at Kinaxis and here are some of the perks and benefits we offer, which may vary by location and employee:Flexible vacation and Kinaxis Days (company-wide days off)Flexible work optionsPhysical and mental well-being programsRegularly scheduled virtual fitness classesMentorship programs, training, and career developmentRecognition programs and referral rewardsHackathonsFor more information, visit the Kinaxis website at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com.Kinaxis welcomes candidates to apply to our inclusive community. We provide accommodations upon request to ensure fairness and accessibility throughout our recruitment process for all candidates, including those with specific needs or disabilities. If you require an accommodation, please reach out to us at recruitmentprograms@kinaxis.com. This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.Kinaxis is committed to ensuring a fair and transparent recruitment process. We use artificial intelligence (AI) tools in the initial step of the recruitment process to compare submitted resumes against the job description to identify candidates whose education, experience, and skills most closely match the requirements of the role. After the initial screening, all subsequent decisions regarding your application, including final selection, are made by our human recruitment team. AI does not make any final hiring decisions.
+Options
+ApplyApply
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Connect With Us!
+Not ready to apply? Connect with us for general consideration.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;margin:0 auto 60px auto;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;width:100%;max-width:300px;text-align:center;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex;width:100%;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

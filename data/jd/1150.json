@@ -1,0 +1,107 @@
+{
+  "id": "744000126576272",
+  "name": "Co-op Fall 2026 - Unreal Engine Developer - 4 Months",
+  "uuid": "0c4c3eec-22e7-495e-ab95-cf1e25340379",
+  "jobId": "e89130a7-ce65-47d7-ad9e-385da581239d",
+  "jobAdId": "13070662-b980-4edb-b3af-6b0db18a4147",
+  "defaultJobAd": true,
+  "refNumber": "REF1256G",
+  "company": {
+    "name": "General Dynamics Missions System International",
+    "identifier": "GDMSI"
+  },
+  "location": {
+    "city": "Ottawa",
+    "region": "ON",
+    "country": "ca",
+    "address": "1941 Robertson Road",
+    "postalCode": "K2H 5B7",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "45.3280917",
+    "longitude": "-75.8259167",
+    "fullLocation": "Ottawa, ON, Canada"
+  },
+  "customField": [
+    {
+      "fieldId": "64791a5d4769c1356cbdf914",
+      "fieldLabel": "Employment Type",
+      "valueId": "13d603b3-b6e8-4499-a7cb-d9c1d6b0b50f",
+      "valueLabel": "Fulltime-Temporary"
+    },
+    {
+      "fieldId": "653a9d0277e2434834993067",
+      "fieldLabel": "Work Group",
+      "valueId": "ba07194b-44d3-4d13-b9e3-792525c52034",
+      "valueLabel": "NB"
+    },
+    {
+      "fieldId": "640efc2ab8145a4e44523d82",
+      "fieldLabel": "Brands",
+      "valueId": "0fbdf90a-9775-460d-93fb-0366a1b1519c",
+      "valueLabel": "General Dynamics Mission Systems - Canada"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "ca",
+      "valueLabel": "Canada"
+    },
+    {
+      "fieldId": "64791bf1671abc67852f856f",
+      "fieldLabel": "Number of Openings",
+      "valueLabel": "1"
+    }
+  ],
+  "releasedDate": "2026-05-14T19:51:49.338Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/GDMSI/744000126576272-co-op-fall-2026-unreal-engine-developer-4-months",
+  "applyUrl": "https://jobs.smartrecruiters.com/GDMSI/744000126576272-co-op-fall-2026-unreal-engine-developer-4-months?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/GDMSI/publication/0c4c3eec-22e7-495e-ab95-cf1e25340379?dcr_ci=GDMSI",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><em>Build bold. Deliver impact. Win together.</em></p><p>At General Dynamics Mission Systems–Canada, we’re not just engineering technology — we’re shaping the future of defence and security. Our teams design and deliver advanced, mission-critical solutions that enhance national security, strengthen communities, and protect the people we serve.</p><p>If you’re looking for meaningful work that contributes to a safer, more secure world, you’ll find purpose here. Every day, your skills will directly impact programs that matter.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We are looking for a motivated and technically driven Co-op student to join our engineering team for a 4-month term. In this role, you will support the development of a vehicle simulation environment built in Unreal Engine 5, with a focus on connecting high-fidelity simulation to real-world AI applications.</p><p><strong>Responsibilities:</strong></p><ul><li>Support development and enhancement of a vehicle simulation environment in Unreal Engine 5</li><li>Refine simulation entities such as vehicles, pedestrians, and environmental assets to improve realism and performance</li><li>Develop systems to export simulation data and metadata used for AI and computer vision model training</li><li>Work within an existing simulation codebase and contribute new features and functionality</li><li>Support integration between the simulator and external AI analysis tools</li><li>Help ensure reliable data flow, synchronization, and consistent simulator performance</li><li>Collaborate with the engineering team on simulation and AI-related development activities</li></ul><p><strong>What You’ll Gain:</strong></p><ul><li>Hands-on experience with Unreal Engine 5 in an engineering environment</li><li>Exposure to AI integration and computer vision workflows</li><li>Experience working with simulation-to-reality (Sim2Real) concepts and tools</li><li>Opportunity to contribute to real-world engineering and AI applications</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required:</strong></p><ul><li>Currently enrolled in a post-secondary program in Computer Science, Software Engineering, Game Development, or a related technical field.</li><li>Familiarity with Unreal Engine 4 or 5, including a basic understanding of Blueprints, the Actor lifecycle, and the editor interface.</li><li>Proficiency in C++</li><li>Basic understanding of how to export data (such as JSON or CSV) from an application, or an interest in learning about synthetic data generation.</li><li>Ability to document your changes clearly and collaborate with team members who are managing the AI side of the project.</li></ul><p><strong>Desired:</strong></p><ul><li>A keen interest in vehicle dynamics, physics, or 3D environment creation.</li><li>A \"tinkerer\" mindset—someone who enjoys diving into an existing system to understand how it works and how to improve it.</li><li>Experience or familiarity with AI/ML models.</li></ul><p>It is a requirement that General Dynamics Mission Systems–Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation&#xa0;</strong><br>\nThe expected hourly rate for this position is $21.20 – $33.23. Final compensation will be determined based on your relevant work experience to date. As part of student placement, you will be eligible for quarterly pay increases.</p><p><strong>Why Students Love Working Here</strong></p><ul><li><strong>Purposeful Innovation &amp; Problem Solving:</strong>&#xa0;You’ll work alongside experienced professionals and some of the brightest minds in the defence sector, gaining hands-on experience with next-generation technologies. This is a place where your ideas are encouraged, creativity is valued, and you’ll be supported as you learn and help drive modern, practical solutions.</li><li><strong>Connection &amp; Mentorship:</strong>&#xa0;Through onboarding to your career journey with us, you will work with teammates that are excited to share their experience and develop your skills. Have meaningful interactions, ask questions, and build relationships that can lead to lasting industry connections.</li><li><strong>Perks &amp; Highlights:</strong><ul><li>Eligibility for future co-ops or full-time roles</li><li>Flexible work hours and compressed workweek options</li><li>Hybrid work model (where applicable)</li><li>Networking opportunities across teams and disciplines</li><li>Onsite amenities and social events (gym, bike storage, trivia, appreciation events, etc.)</li><li>Corporate discounts</li></ul></li></ul><p><strong>Accommodation&#xa0;</strong><br>\nIf you require accommodation during any stage of the application process, please contact Human Resources via <a href=\"mailto:recruitment@gd-ms.ca\" rel=\"noopener noreferrer\">recruitment@gd-ms.ca</a>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "defense_and_space",
+    "label": "Defense And Space"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
