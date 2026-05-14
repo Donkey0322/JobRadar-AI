@@ -1,5 +1,82 @@
 [
   {
+    "company": "General Dynamics UK",
+    "role": "Software Engineer Co-op - Software/Systems Engineering",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000126567109",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1143,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently pursuing a degree in Computer, Software, or Systems Engineering, Computer Science, or related field",
+        "Strong communication skills, both verbal and written",
+        "Experience in, or interest to learn Java, Python",
+        "Experience with the Canadian Army is an asset",
+        "Experience with AI/ML models is an asset",
+        "Experience with databases is an asset",
+        "Experience with distributed systems is an asset",
+        "Experience with automated testing is an asset"
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Year at Palantir Intern - Forward Deployed Software Engineer",
+    "link": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019/apply",
+    "location": "Washington, DC",
+    "season": "2026 Summer",
+    "id": 1142,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Commit to a 1-year term at Palantir",
+        "Studying Engineering in Computer Science, Math, Software Engineering, Physics, or Data Science",
+        "Proficient in programming languages like Python, Java, C++, TypeScript/JavaScript",
+        "Hold an active US security clearance",
+        "Eligible to obtain a US security clearance",
+        "Legally authorized to work in the country"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Lambda",
+    "role": "Security Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/lambda/0663f04c-097d-414f-b0a0-414a7cf153d6/application",
+    "location": "SF",
+    "season": "2026 Summer",
+    "id": 1141,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in a Bachelor's or Master's program in Computer Science or a related field",
+        "Returning to school after the summer",
+        "Shipped independent technical projects (side projects, open source, hackathons, research code)",
+        "Fluent in at least one general-purpose programming language (Go or Python preferred)",
+        "Comfortable using frontier LLMs as a coding partner",
+        "Able to scope fuzzy problems into a shippable piece of work",
+        "Curious about how systems get attacked and defended",
+        "Strong written communication skills",
+        "Prior software engineering internship experience",
+        "Familiar with cloud infrastructure (AWS, GCP, or similar)",
+        "Familiar with command-line environments or systems-level programming",
+        "Built something with AI assistance that pushed beyond solo capabilities",
+        "Experienced working with log data, structured event data, or stream processing",
+        "Exposed to security concepts (e.g., CTF, security class, side project)",
+        "Experienced with coursework or projects involving machine learning, data classification, or applied AI"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Bdo",
     "role": "Co-op or Intern, DevOps Engineer (September 2026)",
     "link": "https://bdo.wd3.myworkdayjobs.com/bdo/job/Oakville/Co-op-or-Intern--DevOps-Engineer--September-2026-_JR6292",

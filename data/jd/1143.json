@@ -1,0 +1,107 @@
+{
+  "id": "744000126567109",
+  "name": "Co-op Fall 2026 - Software/Systems Engineering - 8-12 Months",
+  "uuid": "f8823ca2-65c3-42af-8eb7-aa708ed694bf",
+  "jobId": "5b798cde-edca-4c0c-b598-110c73b03bd2",
+  "jobAdId": "40311538-8a64-4b1d-8651-c2e9a10b29e0",
+  "defaultJobAd": true,
+  "refNumber": "REF1226Y",
+  "company": {
+    "name": "General Dynamics Missions System International",
+    "identifier": "GDMSI"
+  },
+  "location": {
+    "city": "Ottawa",
+    "region": "ON",
+    "country": "ca",
+    "address": "1941 Robertson Road",
+    "postalCode": "K2H 5B7",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "45.3281309",
+    "longitude": "-75.8259704",
+    "fullLocation": "Ottawa, ON, Canada"
+  },
+  "customField": [
+    {
+      "fieldId": "64791a5d4769c1356cbdf914",
+      "fieldLabel": "Employment Type",
+      "valueId": "13d603b3-b6e8-4499-a7cb-d9c1d6b0b50f",
+      "valueLabel": "Fulltime-Temporary"
+    },
+    {
+      "fieldId": "653a9d0277e2434834993067",
+      "fieldLabel": "Work Group",
+      "valueId": "ba07194b-44d3-4d13-b9e3-792525c52034",
+      "valueLabel": "NB"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "ca",
+      "valueLabel": "Canada"
+    },
+    {
+      "fieldId": "640efc2ab8145a4e44523d82",
+      "fieldLabel": "Brands",
+      "valueId": "0fbdf90a-9775-460d-93fb-0366a1b1519c",
+      "valueLabel": "General Dynamics Mission Systems - Canada"
+    },
+    {
+      "fieldId": "64791bf1671abc67852f856f",
+      "fieldLabel": "Number of Openings",
+      "valueLabel": "1"
+    }
+  ],
+  "releasedDate": "2026-05-14T18:39:21.773Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/GDMSI/744000126567109-co-op-fall-2026-software-systems-engineering-8-12-months",
+  "applyUrl": "https://jobs.smartrecruiters.com/GDMSI/744000126567109-co-op-fall-2026-software-systems-engineering-8-12-months?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/GDMSI/publication/f8823ca2-65c3-42af-8eb7-aa708ed694bf?dcr_ci=GDMSI",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><em>Build bold. Deliver impact. Win together.</em></p><p>At General Dynamics Mission Systems–Canada, we’re not just engineering technology — we’re shaping the future of defence and security. Our teams design and deliver advanced, mission-critical solutions that enhance national security, strengthen communities, and protect the people we serve.</p><p>If you’re looking for meaningful work that contributes to a safer, more secure world, you’ll find purpose here. Every day, your skills will directly impact programs that matter.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>The Applications team for the Land C5ISR Program is looking for a Co-op Software Engineer to join our team. We develop and integrate various software products that enable the Canadian Army to support and accomplish their missions. Our focus is predominantly on Battle Management and Planning applications. On this team, you can expect to work in an Agile development framework on a variety of different technologies, including deploying web-based server applications, and working with messaging networks over tactical radios.</p><p>In this role, you can expect to:</p><ul><li>Implement software to meet the requirements, Definition of Done and Acceptance Criteria</li><li>Develop and perform tests and debugging of code</li><li>Identify defects, resolve issues and verify changes</li><li>Support and perform Product level test and integration efforts</li><li>Participate in code reviews</li><li>Participate in Agile ceremonies, including PI Planning, Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective</li><li>Expand knowledge of latest technologies, products and market trends relevant to area of work</li><li>Performing related duties as assigned</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Currently pursuing a degree in Computer, Software, or Systems Engineering, Computer Science, or other related field.</li><li>Strong communication skills, both verbal and written.</li><li>Experience in, or interest to learn Java, Python.</li><li>Experience with the Canadian Army is an asset.&#xa0;</li><li>Experience with AI/ML&#xa0;models is an asset.</li><li>Experience with databases is an asset.</li><li>Experience with distributed systems is an asset.</li><li>Experience with automated testing is an asset.</li></ul><p>It is a requirement that General Dynamics Mission Systems–Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation&#xa0;</strong><br>\nThe expected hourly rate for this position is $21.20 – $33.23. Final compensation will be determined based on your relevant work experience to date. As part of student placement, you will be eligible for quarterly pay increases.</p><p><strong>Why Students Love Working Here</strong></p><ul><li><strong>Purposeful Innovation &amp; Problem Solving:</strong>&#xa0;You’ll work alongside experienced professionals and some of the brightest minds in the defence sector, gaining hands-on experience with next-generation technologies. This is a place where your ideas are encouraged, creativity is valued, and you’ll be supported as you learn and help drive modern, practical solutions.</li><li><strong>Connection &amp; Mentorship:</strong>&#xa0;Through onboarding to your career journey with us, you will work with teammates that are excited to share their experience and develop your skills. Have meaningful interactions, ask questions, and build relationships that can lead to lasting industry connections.</li><li><strong>Perks &amp; Highlights:</strong><ul><li>Eligibility for future co-ops or full-time roles</li><li>Flexible work hours and compressed workweek options</li><li>Hybrid work model (where applicable)</li><li>Networking opportunities across teams and disciplines</li><li>Onsite amenities and social events (gym, bike storage, trivia, appreciation events, etc.)</li><li>Corporate discounts</li></ul></li></ul><p><strong>Accommodation&#xa0;</strong><br>\nIf you require accommodation during any stage of the application process, please contact Human Resources via <a href=\"mailto:recruitment@gd-ms.ca\" rel=\"noopener noreferrer\">recruitment@gd-ms.ca</a>.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "defense_and_space",
+    "label": "Defense And Space"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
