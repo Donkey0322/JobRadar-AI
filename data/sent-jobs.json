@@ -1,6 +1,159 @@
 [
   {
     "company": "General Dynamics UK",
+    "role": "Unreal Engine Developer Co-op - Unreal Engine Developer",
+    "link": "https://jobs.smartrecruiters.com/GDMSI/744000126576272",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1150,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Enrolled in Computer Science, Software Engineering, Game Development, or related.",
+        "Familiar with Unreal Engine 4 or 5, Blueprints, Actor lifecycle, and editor.",
+        "Proficient in C++.",
+        "Understand data export (JSON/CSV) or interested in learning synthetic data generation.",
+        "Able to document changes clearly and collaborate with AI team.",
+        "Keen interest in vehicle dynamics, physics, or 3D environment creation.",
+        "Possess a 'tinkerer' mindset to understand and improve systems.",
+        "Experienced or familiar with AI/ML models."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Kinaxis",
+    "role": "Developer Co-op/Intern - Clients - Front End Technologies",
+    "link": "https://careers-kinaxis.icims.com/jobs/34702/job?mobile=true&needsRedirect=false",
+    "location": "Ottawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1149,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Be enrolled in a software development focused program.",
+        "Gain experience building web applications and personal projects.",
+        "Possess an open mindset for learning and improving.",
+        "Exhibit strong problem-solving and communication skills.",
+        "Proficient in TypeScript, JavaScript, C#.",
+        "Experience with a front-end framework like React, Vue, or Angular.",
+        "Familiar with unit testing and end-to-end testing.",
+        "Understand functional programming.",
+        "Proficient in CSS and CSS in JS.",
+        "Familiar with REST APIs."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "BDO Canada",
+    "role": "Full-Stack Developer Intern/Co-op",
+    "link": "https://bdo.wd3.myworkdayjobs.com/BDO/job/Toronto---Bay-St/Co-op-or-Intern--Full-Stack-Developer--September-2026-_JR6289",
+    "location": "Toronto, ON, CanadaOakville, ON, CanadaOttawa, ON, Canada",
+    "season": "2026 Fall",
+    "id": 1148,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Utilize full-stack technologies including ASP.NET Core (C#), React, or Angular.",
+        "Develop applications on public clouds like MSFT Azure.",
+        "Participate in innovation programs with exposure to GenAI (Azure OpenAI - Python).",
+        "Apply analytical and problem-solving skills.",
+        "Candidate for Math, Computer Science, Engineering, or a related field.",
+        "Prior experience developing with the Microsoft stack (an asset)."
+      ],
+      "season": "2026 Fall"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Year at Palantir Intern - Forward Deployed Software Engineer",
+    "link": "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333/apply",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 1147,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently studying Engineering in Computer Science, Mathematics, Software Engineering, Physics, or Data Science.",
+        "Proficient in one or more programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Year at Palantir Intern - Forward Deployed Software Engineer - Commercial",
+    "link": "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 1146,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Commit to a 1-year term at Palantir",
+        "Study Engineering in Computer Science, Mathematics, Software Engineering, Physics, or Data Science",
+        "Proficient in programming languages like Python, Java, C++, TypeScript/JavaScript"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Palantir",
+    "role": "Palantir Intern - Software Engineer",
+    "link": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329/apply",
+    "location": "NYC",
+    "season": "2026 Summer",
+    "id": 1145,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": true,
+      "location": "USA",
+      "qualifications": [
+        "Currently studying Engineering in Computer Science, Mathematics, Software Engineering, Physics, or Data Science",
+        "Proficient in programming languages like Python, Java, C++, or TypeScript/JavaScript"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Jabil",
+    "role": "Programmer Analyst Intern",
+    "link": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Programmer-Analyst-Intern_J2449836",
+    "location": "St. Petersburg, FL",
+    "season": "2026 Summer",
+    "id": 1144,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a major in Computer Science, Information Technology, Software Engineering, or related field",
+        "Be a Senior or Recent Graduate",
+        "Understand programming languages such as C#, Java, Python, or similar",
+        "Be familiar with relational databases and basic SQL querying",
+        "Possess knowledge of software development lifecycle (SDLC) methodologies",
+        "Demonstrate strong analytical and problem-solving skills with attention to detail",
+        "Exhibit excellent written and verbal communication skills",
+        "Ability to work effectively both independently and as part of a team",
+        "Eager to learn new technologies and adapt to changing environments",
+        "Have prior internship experience in a programming or IT role (a plus)"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "General Dynamics UK",
     "role": "Software Engineer Co-op - Software/Systems Engineering",
     "link": "https://jobs.smartrecruiters.com/GDMSI/744000126567109",
     "location": "Ottawa, ON, Canada",
