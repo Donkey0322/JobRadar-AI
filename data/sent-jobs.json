@@ -1,5 +1,63 @@
 [
   {
+    "company": "Flywire",
+    "role": "Application Support Intern",
+    "link": "https://jobs.smartrecruiters.com/Flywire1/744000126518059",
+    "location": "London, UK",
+    "season": "2026 Summer",
+    "id": 1137,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Be a current 4th-year Bachelor's student in Computer Science, Software Engineering, AI, or Data Science.",
+        "Highly value candidates from Double Degrees in Mathematics and Informatics Engineering.",
+        "Hold a specialized degree in Artificial Intelligence, Data Science, or Informatics Engineering.",
+        "Comfortable with SQL and at least one scripting language like Python, Ruby, or JavaScript.",
+        "Curious about how distributed systems, APIs, and databases behave in production.",
+        "Enjoy debugging more than greenfield coding.",
+        "Care about both the technical fix and the user on the other side of the ticket.",
+        "Fluent in Spanish and possess a strong working command of English.",
+        "Possess exposure to FinTech, payments, observability tools like Sumo Logic, Datadog, Grafana, or ticketing systems like Jira."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Granite Construction",
+    "role": "Summer 2026 Engineer Intern",
+    "link": "https://granite.wd1.myworkdayjobs.com/careers/job/Nampa-Idaho/Summer-2026-Engineer-Intern--McCall---Pocatello--ID-_R0000007323",
+    "location": "Nampa, ID",
+    "id": 1136,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Interpret design/drawings for bidding and building construction projects.",
+        "Prepare and distribute required documentation to supervisor.",
+        "Provide technical support and direction regarding project materials.",
+        "Assist with change orders and estimates.",
+        "Develop job essential data for accurate estimates and bids.",
+        "Maintain accurate records of quantities for cost controls.",
+        "Must have High School Diploma or GED.",
+        "Working towards a bachelor’s degree.",
+        "Preferred: Study Civil Engineering, Construction Management, Business Administration, or related field.",
+        "Possess 0-2 years construction estimating, engineering, or field support experience.",
+        "Proficient with all MS Office products.",
+        "Ability to perform trigonometric calculations.",
+        "Assume responsibility, interface and communicate effectively with others.",
+        "Comply with corporate safety initiatives.",
+        "Be a team player.",
+        "Willingness to abide by Company’s Code of Conduct.",
+        "Possess a valid driver’s license and ability to drive."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Bci",
     "role": "Enterprise Solutions, Software Engineer Co-op/Internship (Fall 2026)",
     "link": "https://bci.wd10.myworkdayjobs.com/bci_careers/job/Victoria-BC/Enterprise-Solutions--Software-Engineer-Co-op-Internship--Fall-2026-_JR101472",
