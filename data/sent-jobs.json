@@ -1,5 +1,30 @@
 [
   {
+    "company": "Phil",
+    "role": "AI Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/phil/4626509e-297e-4a03-b5b1-7d72cbbc5b82/application",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 1151,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor's or Master's degree in Computer Science or a related field.",
+        "Strong programming skills and familiarity with AI-assisted development tools.",
+        "Experience using cloud platforms such as AWS, Azure, or Google Cloud Platform.",
+        "Exposure to generative AI, LLMs, natural language processing, or machine learning concepts.",
+        "Familiarity with software engineering fundamentals including data structures, algorithms, and version control systems.",
+        "Experience with Git, CI/CD pipelines, or DevOps practices.",
+        "Prior internship, research experience, or personal AI/ML projects.",
+        "Strong problem-solving skills, intellectual curiosity, and eagerness to learn.",
+        "Ability to communicate technical concepts clearly and collaborate effectively."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "General Dynamics UK",
     "role": "Unreal Engine Developer Co-op - Unreal Engine Developer",
     "link": "https://jobs.smartrecruiters.com/GDMSI/744000126576272",
