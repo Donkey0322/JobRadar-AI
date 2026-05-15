@@ -1,5 +1,63 @@
 [
   {
+    "company": "Nikkiso",
+    "role": "Application Engineer Intern",
+    "link": "https://careers-nikkiso.icims.com/jobs/3975/job?mobile=true&needsRedirect=false",
+    "location": "Orange, CA",
+    "season": "2026 Summer",
+    "id": 1153,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be an enrolled Engineering student focused on Mechanical or Chemical fields.",
+        "Possess good understanding of engines, pumps, and other rotating equipment.",
+        "Exhibit excellent written and verbal communication skills.",
+        "Be detailed and well-organized.",
+        "Able to work in a fast-paced environment.",
+        "Proficient in MS Office, specifically MS Excel (macros and VBA).",
+        "Strong understanding of databases.",
+        "Able to learn other software environments quickly."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Altamira Technologies",
+    "role": "Software Development Intern",
+    "link": "https://jobs.jobvite.com/altamiracorps/job/oSC8zfwV?nl=1&nl=1&fr=false",
+    "location": "Augusta, GA",
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Altamira Technologies",
+    "role": "Software Development Intern",
+    "link": "https://jobs.jobvite.com/altamiracorps/job/oDD8zfwH?nl=1&nl=1&fr=false",
+    "location": "Augusta, GA",
+    "season": "2026 Summer",
+    "id": 1152,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Support software development and enhancement efforts.",
+        "Assist with code refactoring, debugging, testing.",
+        "Support AI/ML-related software development.",
+        "Contribute to modeling, training, and evaluation.",
+        "Collaborate with technical teams.",
+        "Learn and apply new technologies.",
+        "Working toward a Bachelor's degree in Computer Science or related field.",
+        "Familiar with C++ / Qt, JavaScript / TypeScript, Python, Java.",
+        "Familiar with HTML / CSS, PostgreSQL / PostGIS / SQL.",
+        "Ability to work effectively in a team environment.",
+        "Ability to quickly learn new technologies."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "Ramp",
     "role": "Software Engineer Intern - Fall",
     "link": "https://jobs.ashbyhq.com/ramp/0f1c331d-21b6-44fb-a326-5357d6e30188",
