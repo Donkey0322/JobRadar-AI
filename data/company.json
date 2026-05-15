@@ -2181,6 +2181,7 @@
     "domain": "https://caci.wd1.myworkdayjobs.com/external",
     "page": "https://caci.wd1.myworkdayjobs.com/wday/cxs/caci/external/jobs",
     "urls": [
+      "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Software-Quality-Engineer-Intern---Summer-2026_326615",
       "https://caci.wd1.myworkdayjobs.com/external/job/Nationwide/GMU-Scholar-Program---Summer-2026-Internship_320170",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Business-Systems-Analyst-Intern---Summer-2026_320830",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Data-and-Analytics-Intern---Summer-2026_325834",
@@ -6352,6 +6353,7 @@
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Developer--Intern-_RQ216779-2",
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Developer-Business-Solutions-Analyst--Intern-_RQ217195-3",
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Tester--Intern-_RQ217196-2",
+      "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Tester--Intern-_RQ220295",
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/GDIT-Summer-Internship-Program---Summer-2026-Software-Development-Internship--_RQ212061-1",
       "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Summer-2026-Cloud-Hosting-Infrastructure-Internship--_RQ219905"
     ]
@@ -14691,6 +14693,7 @@
     "domain": "https://onto.wd1.myworkdayjobs.com/onto_careers",
     "page": "https://onto.wd1.myworkdayjobs.com/wday/cxs/onto/onto_careers/jobs",
     "urls": [
+      "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Bloomington-MN/Software-QA-Engineer-Intermship_R-5708-1",
       "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Budd-Lake-NJ/Software-Engineer-Internship_R-5711"
     ]
   },
