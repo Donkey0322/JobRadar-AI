@@ -1,0 +1,48 @@
+{
+  "jobPostingInfo": {
+    "id": "5afb810041ad100217d0e8984d900000",
+    "title": "IT Software and AI Data Intern",
+    "jobDescription": "<p><span><span>Monolithic Power Systems, Inc. (MPS) is one of the fastest growing companies in the Semiconductor industry. We are worldwide technical leaders in Integrated Power Semiconductors and Systems Power delivery architectures. At MPS, we cultivate creativity, are passionate about sustainability, and are committed to providing leading-edge products and innovation to our customers. Our portfolio of technology helps power our world ---come join our team and see how YOU can make a difference.</span></span></p><p></p><p><u><b>Job Description:</b></u></p><p><b>Job Summary</b></p><p>We are seeking a highly skilled Software Developer with AI enablement experience to join our IT team in developing Analytic Data reports and workflows from IT systems such as MS D365 CRM, ERP/IFS, Databricks, Power BI.</p><p>Successful candidate will apply and further develop analytical and technical skills to build robust software solutions in Enterprise IT environment, including AI Agents to improve efficiency of Engineering or other aspects of business operations.</p><p></p><p><b>Responsibilities:</b></p><ul><li><b>Co-develop functional specs for IT data reports.</b> Work with IT staff and business users to define data collection and reporting steps and automation</li><li><b>Use Data Warehouse, Power BI, MS CRM. </b>Develop reports and workflow for Finance applications</li><li><b>Optimize/Refine AI agents</b>: Test and optimize AI Agents to ensure high performance and reliability.</li><li><b>Integrate AI into Existing Systems</b>: Seamless integrate AI models into current processes and systems across departments.</li></ul><p><b>Requirements:</b></p><ul><li>Computer Science (CS) or related field or currently pursing MSc degree is preferred. </li><li>Outstanding Senior year CS major college students are considered too.</li></ul><p><b>Technical Skills:</b></p><ul><li>Proficiency in programming languages such as Python, Java,</li><li>Experienced in AI, Machine Learning, Basic understanding of IT Systems and their business value</li><li>Experience with Database or Enterprise IT software systems is a plus</li></ul><p><b>Soft Skills:</b></p><ul><li>Excellent problem-solving and critical thinking abilities.</li><li>Strong communication skills to explain complex AI concepts to non-technical stakeholders.</li><li>Ability to work collaboratively in a team environment.</li></ul><p></p><p></p><p>Monolithic Power Systems, Inc. (MPS) is an Equal Opportunity Employer and embraces diversity in our employee population. It is the policy of MPS to provide equal opportunity to all qualified applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veteran status or special disabled veteran, marital status, pregnancy, genetic information, or any other legally protected status.</p>",
+    "location": "San Jose, CA",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-15",
+    "timeType": "Full time",
+    "jobReqId": "R-1434",
+    "jobPostingId": "IT-Software-and-AI-Data-Intern_R-1434",
+    "jobPostingSiteId": "MPS_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "San Jose - California",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Onsite",
+    "externalUrl": "https://monolithicpower.wd12.myworkdayjobs.com/MPS_Careers/job/San-Jose-CA/IT-Software-and-AI-Data-Intern_R-1434",
+    "questionnaireId": "6a7f4ca877e410007e87a07c7fd80000"
+  },
+  "hiringOrganization": {
+    "name": "Monolithic Power Systems Inc.",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Application Engineer Intern",
+      "externalPath": "/job/San-Jose-CA/Application-Engineer-Intern_R-890",
+      "timeType": "Full time",
+      "locationsText": "San Jose, CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-25",
+      "remoteType": "Onsite"
+    }
+  ],
+  "userAuthenticated": false
+}
