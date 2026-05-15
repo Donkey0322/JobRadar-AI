@@ -2894,6 +2894,16 @@
     ]
   },
   {
+    "name": "nikkiso",
+    "ats": "icims",
+    "identifier": "nikkiso",
+    "domain": "https://careers-nikkiso.icims.com",
+    "page": "https://api.icims.com/v1/companies/nikkiso/jobs",
+    "urls": [
+      "https://careers-nikkiso.icims.com/jobs/3975/job?mobile=true&needsRedirect=false"
+    ]
+  },
+  {
     "name": "ntrepidcorp",
     "ats": "icims",
     "identifier": "ntrepidcorp",
@@ -11661,6 +11671,8 @@
     "page": "",
     "urls": [
       "https://jobs.jobvite.com/altamiracorps/job/o0kUxfwv?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/altamiracorps/job/oDD8zfwH?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/altamiracorps/job/oSC8zfwV?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/careers/idtus/job/oiEfyfwt/apply",
       "https://jobs.jobvite.com/careers/tylertech/job/oreVxfwR",
       "https://jobs.jobvite.com/idtus/job/oFNfyfwZ?nl=1&nl=1&fr=false",
