@@ -1,5 +1,46 @@
 [
   {
+    "company": "Docugami",
+    "role": "Software Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/docugami/jobs/4014838003",
+    "location": "Kirkland, WA",
+    "season": "2026 Summer",
+    "id": 1161,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Strong in Python, Node/JS, C# and/or Java",
+        "Enjoy developing SaaS applications",
+        "Desire to work with world-class engineers and AI researchers",
+        "Studying Computer Science or Computer Engineering",
+        "Strong problem-solving and time management skills",
+        "Passion for technical excellence",
+        "Love solving hard problems",
+        "Enjoy defining direction and best practices as a starter",
+        "Seek opportunities to learn new things",
+        "Desire to experience an early stage startup"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Honeywell",
+    "role": "Application Engineer Intern - Operator Training Simulator",
+    "link": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/148650",
+    "location": "Bracknell, UK",
+    "season": "2026 Summer",
+    "id": 1160,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "Other",
+      "qualifications": [],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "Monolithicpower",
     "role": "IT Software and AI Data Intern",
     "link": "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/San-Jose-CA/IT-Software-and-AI-Data-Intern_R-1434",

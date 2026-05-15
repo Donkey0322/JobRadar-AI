@@ -1,0 +1,211 @@
+<div class="header">
+<nav class="top-navbar" >
+<div class="header-container">
+<a target="_blank" href="https://www.honeywell.com/us/en" class="logo-link" tabindex="1">
+<img src="https://www.honeywell.com/content/dam/honeywellbt/en/images/logos/honeywell-logo.svg" alt="Logo" class="logo"/>
+</a>
+</div>
+<input type="checkbox" id="top-menu-toggle" class="hamburger-checkbox" aria-label="Toggle top navigation menu">
+<label for="top-menu-toggle" class="hamburger-icon top-menu-icon">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</label>
+<ul class="top-nav-links" id="topnavlinks">
+<li><a href="https://www.honeywell.com/en-us/honeywell-forge/our-solutions" tabindex="2" target="_blank">Honeywell Forge</a></li>
+<li><a href="https://www.honeywell.com/en-us/industries/overview" tabindex="3" target="_blank">Industries</a></li>
+<li><a href="https://www.honeywell.com/en-us/company/about-us" tabindex="4" target="_blank">Company</a></li>
+<li><a href="https://www.honeywell.com/en-us/news" tabindex="5" target="_blank">News</a></li>
+<li><a href="#" tabindex="6">Careers</a></li>
+<li><a target="_blank" href="https://careers.caes.com/careers-home/" tabindex="7">CAES by Honeywell</a></li>
+<li><a target="_blank" href="https://kcnsc.doe.gov/careers/working-at-kcnsc/" tabindex="7">FM&T</a></li>
+<li><a target="_blank" href="/en/sites/HoneywellCareerSite/my-profile/sign-in" tabindex="7">
+<img class="user-menu-icon" alt="User Profile Icon" src="https://img.icons8.com/ios-glyphs/30/user--v1.png"/></a>
+</li>
+</ul>
+</nav>
+<nav class="sub-navbar">
+<div class="empty"></div>
+<input type="checkbox" id="sub-menu-toggle" class="hamburger-checkbox" aria-label="Toggle sub navigation menu">
+<label for="sub-menu-toggle" class="hamburger-icon sub-menu-icon">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</label>
+<ul class="sub-nav-links" id="subnavlinks">
+<li>
+<a href="#" tabindex="8">Overview</a></li>
+<li>
+<a tabindex="9" href="/en/sites/HoneywellCareerSite/pages/life-at-honeywell">Life at Honeywell</a>
+</li>
+<li class="dropdown">
+<a tabindex="10">Our Businesses &#x25BE;</a>
+<ul class="dropdown-content">
+<li> <a target="_blank" href="https://aerospace.honeywell.com/">Honeywell Aerospace </a></li>
+<li><a target="_blank" href="https://automation.honeywell.com/us/en">Industrial Automation</a></li>
+<li> <a target="_blank" href="https://buildings.honeywell.com/us/en">Building Automation</a></li>
+<li><a target="_blank" href="https://process.honeywell.com">Process Automation</a></li>
+<li><a target="_blank"
+href="https://pt.honeywell.com">Process Technology</a></li>
+<li><a target="_blank" href="https://www.honeywellforge.ai/">Honeywell Forge</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a tabindex="11">Career Opportunities &#x25BE;</a>
+<ul class="dropdown-content">
+<li> <a href="/en/sites/HoneywellCareerSite/pages/business-development">Business Development </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/business-management">Business Management </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/business-services">Business Services </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/customer-support">Customer Support </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/data-analytics">Data & Analytics </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/engineering">Engineering </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/finance">Finance </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/flight-operation">Flight Operations </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/general-management">General Management </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/human-resources">Human Resources </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/IT">Information Technology </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/supply-chain">Integrated Supply Chain</a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/legal">Legal </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/offering-management">Offering Management </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/sales-support">Sales,Marketing & Sales Support </a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/software">Software</a></li>
+</ul>
+</li>
+<li class="dropdown hidden">
+<a tabindex="12" > Our Benefits &#x25BE;</a>
+<ul class="dropdown-content">
+<li> <a target="_blank" href="https://benefits.honeywell.com/">US Benefits</a></li>
+<li><a target="_blank" href="https://careers.honeywell.com/us/en/india-benefits-for-employees">India Benefits</a></li>
+<li> <a target="_blank" href="https://careers.honeywell.com/us/en/honeywell-china-benefits">China Benefits</a></li>
+<li><a target="_blank" href="https://careers.honeywell.com/us/en/honeywell-malaysia-benefits">Malaysia Benefits</a></li>
+<li><a target="_blank" href="https://careers.honeywell.com/us/en/honeywell-mexico-benefits">Mexico Benefits</a></li>
+<li><a target="_blank" href="https://careers.honeywell.com/us/en/honeywell-romania-benefits">Romania Benefits</a></li>
+<li><a target="_blank" href="https://careers.honeywell.com/us/en/honeywell-uk-benefits">UK Benefits</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a tabindex="13">Culture and Inclusion &#x25BE;</a>
+<ul class="dropdown-content">
+<li> <a target="_blank" href="https://www.honeywell.com/en-us/company/inclusion-and-diversity">Overview</a></li>
+<li> <a href="/en/sites/HoneywellCareerSite/pages/military-veterans">Military and Veterans</a></li>
+</ul>
+</li>
+<li>
+<a tabindex="14" href="/en/sites/HoneywellCareerSite/pages/student-and-grads">Students and Graduates </a>
+</li>
+<li class="dropdown" >
+<a tabindex="15" id="languageDropdownBtn">English &#x25BE;</a>
+<ul class="dropdown-content" id="languageDropdown">
+<li><a href="/en/sites/HoneywellCareerSite" data-language="en">English</a></li>
+<li><a href="/fr-CA/sites/HoneywellCareerSite" data-language="fr-CA">Canadian French</a></li>
+<li><a href="/zh-CN/sites/HoneywellCareerSite" data-language="zh-CN">Chinese</a></li>
+<li><a href="/nl/sites/HoneywellCareerSite" data-language="nl">Dutch</a></li>
+<li><a href="/fr/sites/HoneywellCareerSite" data-language="fr">French</a></li>
+<li><a href="/de/sites/HoneywellCareerSite" data-language="de">German</a></li>
+<li><a href="/es/sites/HoneywellCareerSite" data-language="es">Spanish</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<footer >
+<div class="footer-top">
+<h3 class="connect">Connect</h3>
+<ul class="rc27w3">
+<li class="rc27w4">
+<div class="icn-img">
+<img src="https://img.icons8.com/?size=100&id=118466&format=png&color=FFFFFF" alt="Facebook icon"/>
+<a href="https://www.facebook.com/Honeywell/" target="_blank">Facebook</a>
+</div>
+</li>
+<li class="rc27w4">
+<div class="icn-img">
+<img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=FFFFFF" alt="Twitter icon" />
+<a href="https://twitter.com/honeywell" target="_blank">Twitter</a>
+</div>
+</li>
+<li class="rc27w4">
+<div class="icn-img">
+<img src="https://img.icons8.com/?size=100&id=32292&format=png&color=FFFFFF" alt="Instagram icon"/>
+<a href="https://www.instagram.com/honeywell/" target="_blank">Instagram</a>
+</div>
+</li>
+<li class="rc27w4">
+<div class="icn-img">
+<img src="https://img.icons8.com/?size=100&id=98960&format=png&color=FFFFFF" alt="LinkedIn icon"/>
+<a href="https://www.linkedin.com/company/1344/admin/campaigns/" target="_blank">LinkedIn</a>
+</div>
+</li>
+<li class="rc27w4">
+<div class="icn-img">
+<img src="https://img.icons8.com/?size=100&id=62852&format=png&color=FFFFFF" alt="YouTube icon"/>
+<a href="https://www.youtube.com/user/honeywell" target="_blank">YouTube</a>
+</div>
+</li>
+</ul>
+</div>
+<div class="footer-bottom">
+<div class="footer-section">
+<h4>Company </h4>
+<button class="footer-accordion">Company</button>
+<ul class="footer-links">
+<li><a target="_blank" href="https://www.honeywell.com/us/en/company/about-us">About</a></li>
+<li><a target="_blank" href="https://investor.honeywell.com/">Investor</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/company/leadership">Leadership</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/company/inclusion-and-diversity">Inclusion & Diversity</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Industries</h4>
+<button class="footer-accordion">Industries</button>
+<ul class="footer-links">
+<li><a target="_blank" href="https://www.honeywell.com/us/en/industries">What We Do</a></li>
+<li><a target="_blank" href="https://aerospace.honeywell.com/">Aerospace</a></li>
+<li><a target="_blank" href="https://buildings.honeywell.com/us/en/home">Building & Cities</a></li>
+<li><a target="_blank" href="https://automation.honeywell.com/us/en/industries/manufacturing/chemicals">Chemicals & Materials</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/industries/manufacturing">Industrial & Manufacturing</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/industries/retail">Retail</a></li>
+<li><a target="_blank" href="https://automation.honeywell.com/us/en/integrated-health-safety-and-security">Safety</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/industries/warehouse-logistics">Supply Chain</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Learn</h4>
+<button class="footer-accordion">Careers</button>
+<ul class="footer-links">
+<li><a target="_blank" href="/en/sites/HoneywellCareerSite/pages/50061">Working at Honeywell</a></li>
+<li><a target="_blank" href="/en/sites/HoneywellCareerSite/jobs?mode=location">Job Search</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>News and Events</h4>
+<button class="footer-accordion">News</button>
+<ul class="footer-links">
+<li><a target="_blank" href="https://www.honeywell.com/us/en/news">News</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/press">Press & Media</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4>Privacy Preferences</h4>
+<button class="footer-accordion">Privacy Preferences</button>
+<ul class="footer-links">
+<li><a target="_blank" href="https://www.honeywell.com/us/en/terms-and-conditions">Terms & Conditions</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/privacy-statement">Privacy Statement</a></li>
+<li>
+<a target="_blank" href="https://hon-opcenter.my.salesforce-sites.com/PrivacyInformationRequestForm?lang=en">
+<span>Your Privacy Choices</span>
+<img src="https://honeywell.com/content/dam/images/ccpa-privacyoptions.svg" height="14px" width="29px" alt="Privacy options icon">
+</a>
+</li>
+<li><a href="/en/sites/HoneywellCareerSite/pages/recruitment-fraud">Recruitment Fraud Alert</a></li>
+<li><a target="_blank" href="https://www.honeywell.com/us/en/cookie-notice">Cookie Notice</a></li>
+<li><a href="/en/sites/HoneywellCareerSite/pages/manage-cookies">Manage Cookies</a></li>
+</ul>
+</div>
+</div>
+<div class="common-p">
+<p class="copyright-text" >
+Copyright © 2023 Honeywell International Inc
+</p>
+</div>
+</footer>
