@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "9d5da4c4fc961001f1e683fc758c0000",
+    "title": "Software QA Engineer Internship",
+    "jobDescription": "<p style=\"text-align:left\"><span>Onto Innovation is a leader in process control, combining global scale with an expanded portfolio of leading-edge technologies that include: 3D metrology spanning the chip from nanometer-scale transistors to micron-level die-interconnects; macro defect inspection of wafers and packages; metal interconnect composition; factory analytics; and lithography for advanced semiconductor packaging. Our breadth of offerings across the entire semiconductor value chain helps our customers solve their most difficult yield, device performance, quality, and reliability issues. Onto Innovation strives to optimize customers’ critical path of progress by making them smarter, faster and more efficient.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job Summary &amp; Responsibilities</b></p><p style=\"text-align:inherit\"></p><div><p>The Software QA Intern will support the quality and reliability of the XTool suite of applications used in semiconductor inspection systems. This role focuses on expanding and enhancing test automation to accelerate software testing cycles and improve defect detection earlier in development.</p><p>The intern will apply programming and software engineering skills to integrate existing test automation with Microsoft Copilot, improving test execution efficiency, failure analysis, and defect reporting. This position offers hands-on exposure to modern QA practices, including the practical use of generative AI within a real-world semiconductor manufacturing environment.</p></div><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Qualifications</b></p><div><ul><li><p>Currently pursuing a Bachelor’s degree in Computer Science, Software Engineering, Computer Engineering, or a related field.</p></li><li><p>Programming experience in one or more languages such as Python, C#, Java, or JavaScript (academic or project experience acceptable).</p></li><li><p>Interest in software quality assurance, test automation, and DevOps practices.</p></li><li><p>Basic understanding of software development lifecycle concepts.</p></li><li><p>Strong analytical and problem-solving skills with attention to detail.</p></li><li><p>Ability to clearly document issues and communicate findings to technical team members.</p></li><li><p>Interest in learning how software engineering supports semiconductor manufacturing systems.</p></li></ul></div><p></p><p>Why Join Onto Innovation?</p><p></p><p>At Onto Innovation, we believe your work should matter—and so should your well-being. That’s why we offer competitive salaries and a comprehensive benefits package designed to support you and your family. From health, dental, and vision coverage to life and disability insurance, PTO, and a 401(k) with employer match, we’ve got you covered. You’ll also enjoy access to our Employee Stock Purchase Program (ESPP), wellness initiatives, and cutting-edge tools—all within a collaborative, inclusive culture where your contributions are valued and recognized.</p><p></p><p><b>Compensation &amp; Growth</b></p><p></p><p>• Base Salary Range:</p>$ - $, offered in good faith and based on experience, location, and qualifications.<p></p><ul><li><p>Additional Rewards: Annual bonus opportunities and potential long-term incentives tied to both company and individual success.</p></li></ul><p></p><p>Empowering Every Voice to Shape the Future:</p><p></p><p>Onto Innovation is committed to creating a workplace where every qualified candidate has an equal opportunity to succeed. We evaluate applicants based on skills, experience, and potential - without regard to race, color, religion, gender, sexual orientation, national origin, age, disability, veteran status, or any other characteristic protected by law. We believe diversity of thought and background drives innovation and strengthens our team. </p><p></p><p>Important Note on Export Compliance</p><p>For certain positions requiring access to technical data, U.S. export licensing review may be necessary for applicants who are not U.S. Citizens, Permanent Residents, or other protected persons under 8 U.S.C. 1324b(a)(3).</p>",
+    "location": "Bloomington-MN",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-15",
+    "timeType": "Full time",
+    "jobReqId": "R-5708",
+    "jobPostingId": "Software-QA-Engineer-Intermship_R-5708-1",
+    "jobPostingSiteId": "ONTO_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Bloomington-MN",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://wd1.myworkdaysite.com/recruiting/onto/ONTO_Careers/job/Bloomington-MN/Software-QA-Engineer-Intermship_R-5708-1",
+    "questionnaireId": "01520ce9380501bcd55fb7bc9b123922"
+  },
+  "hiringOrganization": {
+    "name": "Onto Innovation Inc-US",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

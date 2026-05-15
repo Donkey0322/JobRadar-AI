@@ -1,5 +1,103 @@
 [
   {
+    "company": "Onto",
+    "role": "Software QA Engineer Internship",
+    "link": "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Bloomington-MN/Software-QA-Engineer-Intermship_R-5708-1",
+    "location": "Bloomington-MN",
+    "id": 1156,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a Bachelor’s degree in Computer Science or related field.",
+        "Gain programming experience in Python, C#, Java, or JavaScript.",
+        "Exhibit interest in software QA, test automation, and DevOps practices.",
+        "Understand basic software development lifecycle concepts.",
+        "Possess strong analytical and problem-solving skills.",
+        "Document issues clearly and communicate findings effectively.",
+        "Develop interest in semiconductor manufacturing software engineering."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Gdit",
+    "role": "Summer 2026 Software Tester (Intern)",
+    "link": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NY-Albany/Summer-2026-Software-Tester--Intern-_RQ220295",
+    "location": "USA NY Albany",
+    "id": 1155,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Proficient in Java",
+        "Knowledge of Object-Oriented Programming (OOP)",
+        "Experience with Web Development",
+        "Have 0+ years of related experience",
+        "Currently enrolled in a STEM degree program from a US institution",
+        "Completed coursework in core languages and OOP, including Java",
+        "Completed coursework in System Design, Data Structure, Application Framework, and Web Development",
+        "Basic understanding of Microsoft Office Suite",
+        "Familiarity with testing methodologies",
+        "Familiarity with Git version control, SQL databases, Testing, and Cybersecurity",
+        "Strong communication skills",
+        "Able to build meaningful relationships with team members",
+        "Self-aware to identify and correct mistakes",
+        "Able to prioritize tasks and responsibilities",
+        "Active in seeking personal and professional development",
+        "Intuitive ability to identify and solve complex problems",
+        "Possess intellectual curiosity and a nimble mindset",
+        "Familiar with IT systems and various programming languages",
+        "Understand software development best practices",
+        "Understand automation technologies and ITSM concepts",
+        "Assist in developing and executing test plans",
+        "Perform functional, regression, and performance testing",
+        "Document test cases, procedures, and results",
+        "Identify, log, and troubleshoot defects",
+        "Collaborate with others to resolve issues",
+        "Support automation efforts",
+        "Analyze test data and provide reports",
+        "Maintain current knowledge of relevant technology",
+        "Participate in special projects",
+        "Support completion of technical tasks",
+        "Assist with new product coordination",
+        "Assist with documentation for processes and procedures"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Caci",
+    "role": "Software Quality Engineer Intern - Summer 2026",
+    "link": "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Software-Quality-Engineer-Intern---Summer-2026_326615",
+    "location": "Chantilly, VA, US",
+    "id": 1154,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in Computer Science, Software Engineering, Information Systems, Computer Engineering, or related technical field",
+        "Understand basic software testing concepts",
+        "Be familiar with programming or scripting languages like TypeScript, JavaScript, Python, or Java",
+        "Understand basic Git/version control",
+        "Possess strong troubleshooting and problem-solving skills",
+        "Be willing to learn automation frameworks and CI/CD processes",
+        "Have exposure to automated testing tools/frameworks like Playwright, Cucumber, or Selenium",
+        "Be familiar with Agile development methodologies",
+        "Understand API testing concepts",
+        "Have exposure to Linux, Docker, or Kubernetes environments",
+        "Gain experience working with Jira or similar tracking tools"
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
     "company": "Nikkiso",
     "role": "Application Engineer Intern",
     "link": "https://careers-nikkiso.icims.com/jobs/3975/job?mobile=true&needsRedirect=false",
