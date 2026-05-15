@@ -1,0 +1,139 @@
+{
+  "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=7768470",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3402392,
+  "location": {
+    "name": "Sydney"
+  },
+  "metadata": [
+    {
+      "id": 22194060,
+      "name": "Position ID",
+      "value": "10008737",
+      "value_type": "short_text"
+    },
+    {
+      "id": 24918,
+      "name": "Department ID",
+      "value": "D26100-PTO Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22194061,
+      "name": "Team",
+      "value": "268-ENG Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4914027,
+      "name": "Region",
+      "value": "APAC",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4137836,
+      "name": "Working Model Eligibility",
+      "value": [
+        "1-In Office"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4914029,
+      "name": "Job Level",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 24109,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 1073551,
+      "name": "Job Type",
+      "value": "Campus Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 988684,
+      "name": "JD Link",
+      "value": null,
+      "value_type": "url"
+    },
+    {
+      "id": 5525802,
+      "name": "Baseline Budgeted Salary",
+      "value": null,
+      "value_type": "currency_range"
+    },
+    {
+      "id": 5525816,
+      "name": "Other Large Market Budgeted Salary",
+      "value": null,
+      "value_type": "currency_range"
+    },
+    {
+      "id": 13324394,
+      "name": "Job Post Range (United States)",
+      "value": {
+        "unit": "AUD",
+        "max_value": "0.0",
+        "min_value": "0.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 40497768,
+      "name": "Job Post Range (Canada)",
+      "value": {
+        "unit": "AUD",
+        "max_value": "0.0",
+        "min_value": "0.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 57694516,
+      "name": "Job Post Range (Poland)",
+      "value": null,
+      "value_type": "currency_range"
+    }
+  ],
+  "id": 7768470,
+  "updated_at": "2026-05-15T15:59:29-04:00",
+  "requisition_id": "1273402392",
+  "title": "Software Engineering Internship - Summer 2026/2027",
+  "company_name": "MongoDB",
+  "first_published": "2026-05-15T15:34:54-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;We’re seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, learn development standard methodologies, and gain practical software engineering experience.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Software engineering interns are fully integrated into software engineering teams across our Product and Technology organization. During the internship, interns push production-level code and make lasting contributions across MongoDB’s products and services for our internal teams, external customers, and developer end users.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we are looking for in you (qualifications)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;In the process of receiving a Bachelor’s or Master&#39;s degree in Computer Science, Computer Engineering, Applied Sciences, or a related field.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Fluent in any one of the following programming languages: Java, Python, Go, C++, Javascript, Node.js - or a comparable object-oriented programming language.&lt;/li&gt;\n&lt;li&gt;Have a foundation in computer science theory, with proficiencies in data structures, algorithms, and software design.&lt;/li&gt;\n&lt;li&gt;Have a minimum of one quarter/semester remaining in university studies after the internship concludes, with an expected graduation date between June 2027 and February 2028.&amp;nbsp;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Must be authorized to work in Australia or New Zealand. Company sponsorship may be available for eligible candidates applying for certain roles.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you&#39;ll find at MongoDB&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Authentic Culture: A workplace where you are encouraged to bring your whole self to work, we believe that Embracing the Power of Differences is the best way to broaden our own perspectives and foster innovation.&lt;/li&gt;\n&lt;li&gt;Personalized Mentorship: Pair up with an engineering Mentor, a Program Advisor from the Early Talent Recruitment Team, and an &lt;a href=&quot;https://www.mongodb.com/careers/diversity-and-inclusion&quot;&gt;Employee Resource Group&lt;/a&gt; (ERG) Guide to foster your growth.&lt;/li&gt;\n&lt;li&gt;Career Coaching Sessions: Access to a tailored training program designed uniquely for interns’ personal and professional development.&lt;/li&gt;\n&lt;li&gt;Work-Life Harmony: Embrace &quot;Bloom for Interns&quot; with access to mental and physical health benefits, paid time off, free lunch, and more!&lt;/li&gt;\n&lt;li&gt;Impactful Projects: Contribute to projects where you can Make it Matter - your meaningful work will see the light of day.&lt;/li&gt;\n&lt;li&gt;Exclusive Networking: Attend &quot;Speaker Series&quot; and &quot;Roundtables&quot; to connect with our executives and departmental leaders.&lt;/li&gt;\n&lt;li&gt;Vibrant Community: Build connections with fellow interns and join after-work social events, virtual gatherings, and local city activities to create connections and friendships.&lt;/li&gt;\n&lt;li&gt;Path to Full-Time: A chance to see if MongoDB is where you see yourself long term with the possibility of receiving a full time offer at the end of the summer!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;MongoDB internships are full-time (38 hours/week) for 10 consecutive weeks from&amp;nbsp;December 7, 2026 - February 12, 2027. All interns are considered hybrid employees, designated the &quot;in office&quot; working model and are expected to be in their office location 3-5 days a week.&lt;br&gt;&lt;br&gt;Due to the high volume of applications our Early Talent Recruitment Team receives, it may take up to six weeks to hear back regarding an update on your application status. Our goal is to get back sooner, but we appreciate your patience as our team carefully reviews each application.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;MongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the database for the AI era, enabling innovators to create, transform, and disrupt industries with software. MongoDB’s unified database platform—the most widely available, globally distributed database on the market—helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available across AWS, Google Cloud, and Microsoft Azure.&lt;br&gt;&lt;br&gt;With offices worldwide and nearly 60,000 customers—including 75% of the Fortune 100 and AI-native startups—relying on MongoDB for their most important applications, we’re powering the next era of software.&lt;br&gt;&lt;br&gt;Our compass at MongoDB is our &lt;a href=&quot;https://www.mongodb.com/company&quot;&gt;Leadership Commitment,&lt;/a&gt; guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB. &lt;br&gt;&lt;br&gt;To drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. &lt;a href=&quot;https://www.mongodb.com/company/blog/culture/employee-benefits-that-make-a-difference-at-mongodb&quot;&gt;From employee affinity groups, to fertility assistance and a generous parental leave policy&lt;/a&gt;, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys. &lt;a href=&quot;https://www.mongodb.com/blog/channel/culture&quot;&gt;Learn more about what it’s like to work at MongoDB&lt;/a&gt;, and help us make an impact on the world!&lt;br&gt;&lt;br&gt;MongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your Early Talent Recruiter.&lt;/p&gt;\n&lt;p&gt;MongoDB is an equal opportunities employer.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Req ID: 1273402392&lt;/em&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 85962,
+      "name": "PTO Interns",
+      "child_ids": [],
+      "parent_id": 6180
+    }
+  ],
+  "offices": [
+    {
+      "id": 3965,
+      "name": "Sydney",
+      "location": "Sydney, New South Wales, Australia",
+      "child_ids": [],
+      "parent_id": 23659
+    }
+  ]
+}

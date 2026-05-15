@@ -1,0 +1,45 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/docugami/jobs/4192122003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4142943003,
+  "location": {
+    "name": "Kirkland, Washington, United States"
+  },
+  "metadata": null,
+  "id": 4192122003,
+  "updated_at": "2026-05-15T12:44:33-04:00",
+  "requisition_id": "14",
+  "title": "Data Science PhD Intern",
+  "company_name": "Docugami",
+  "first_published": "2020-10-06T22:47:43-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;Docugami uses powerful artificial intelligence to unlock the information contained in highly varied, unstructured business documents. Business users, without IT or development projects, can immediately create custom analysis of vital document content and information from large batches of contracts, can assist users in creating new documents more efficiently and consistently, and can automatically connect information from within documents to other business systems.&lt;/p&gt;\n&lt;p&gt;Docugami started with years of R&amp;amp;D, and has received a $10M seed round of VC funding as well as multiple endorsements from industry leaders and publications.&amp;nbsp; The founders are seasoned ex-Microsoft engineers and leaders, some already well known in the software industry for their record of building and running $1B+ innovative software product businesses.&lt;/p&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;We&#39;re now looking for AI, NLP, &lt;/span&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Machine Learning, Data Science, and Math PhD&lt;/span&gt;&lt;span data-contrast=&quot;auto&quot;&gt;&amp;nbsp;Interns to&amp;nbsp;&lt;/span&gt;&lt;span data-contrast=&quot;auto&quot;&gt;work alongside our world-renowned science and engineering team to create a revolutionary product. We are looking for exceptional researchers to work with our luminary science advisers on major scientific breakthroughs.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;You will love this job if:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You love solving really challenging problems&lt;/li&gt;\n&lt;li&gt;You seek opportunities to see your research deployed in practice to solve real world problems&lt;/li&gt;\n&lt;li&gt;You enjoy working at the very cutting edge of R&amp;amp;D&lt;/li&gt;\n&lt;li&gt;You want to experience an early stage startup&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;What you’ll be responsible for:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Researching and proposing solutions to the different science problems in an evolving environment&lt;/li&gt;\n&lt;li&gt;Collaborating with engineering and product leadership to prioritize a long-term roadmap of science breakthroughs&lt;/li&gt;\n&lt;li&gt;Working with the engineering team who will be responsible for integrating and deploying your work in production&lt;/li&gt;\n&lt;li&gt;Conducting regular internal science reviews&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;What we look for in a candidate:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;span class=&quot;TextRun SCXW58674713 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW58674713 BCX0&quot;&gt;Pursuing a PhD in&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW58674713 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW58674713 BCX0&quot;&gt;artificial intelligence, natural language processing,&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW58674713 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW58674713 BCX0&quot;&gt;machine learning, data science, or math&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW58674713 BCX0&quot; data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span class=&quot;TextRun SCXW226755123 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW226755123 BCX0&quot;&gt;Experience or s&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW226755123 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW226755123 BCX0&quot;&gt;trong interest in&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW226755123 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW226755123 BCX0&quot;&gt;any of the following:&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;TextRun SCXW226755123 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW226755123 BCX0&quot;&gt;natural language processing, machine translation, self-supervised learning, active learning, computer vision, statistics, causal inference, and other related disciplines&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW226755123 BCX0&quot; data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;Programming skills and familiarity of modern ML frameworks&lt;/li&gt;\n&lt;li&gt;Strong problem-solving and time management skills&lt;/li&gt;\n&lt;li&gt;Strong communication skills and capacity to report and disseminate results&lt;/li&gt;\n&lt;li&gt;&lt;span class=&quot;TextRun SCXW75508398 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW75508398 BCX0&quot;&gt;Passion for scientific and technical excellence&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW75508398 BCX0&quot; data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Perks:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive pay&lt;/li&gt;\n&lt;li&gt;Healthy snacks stipend&lt;/li&gt;\n&lt;li&gt;Work closely with a cross-functional team of highly motivated folks with a unique range of startup, big enterprise, scientific, engineering, sales &amp;amp; marketing experience&lt;/li&gt;\n&lt;li&gt;Vibrant and inclusive company culture with frequent team-building events&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Us:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Docugami is a Seattle-area document engineering startup that transforms how businesses create and manage documents for greater productivity, compliance, and insight using breakthrough artificial intelligence. Founded in March 2018 by former senior engineering leaders from Microsoft, Docugami harnesses a wide range of artificial intelligence techniques, including natural language processing, image recognition, declarative markup, and other approaches, to enable businesses of all sizes to radically improve how they create and manage documents for greater insight, efficiency, and business impact.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Learn more at &lt;a href=&quot;http://www.docugami.com/&quot;&gt;www.docugami.com&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We welcome people of different backgrounds, experiences, abilities and perspectives and are an equal opportunity employer. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We are committed to an inclusive and diverse team.&lt;/em&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4006561003,
+      "name": "Research & Development",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4003684003,
+      "name": "Docugami Headquarters",
+      "location": "Kirkland, Washington, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

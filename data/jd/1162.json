@@ -1,0 +1,63 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/neuralink/jobs/5469298003?gh_jid=5469298003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4733719003,
+  "location": {
+    "name": "Fremont, California, United States"
+  },
+  "metadata": [
+    {
+      "id": 4535835003,
+      "name": "Employment Type",
+      "value": "Internship_non-exempt",
+      "value_type": "single_select"
+    },
+    {
+      "id": 19380885003,
+      "name": "Job Board Department Name",
+      "value": "Internships",
+      "value_type": "single_select"
+    },
+    {
+      "id": 21582037003,
+      "name": "Neuralink Job Code",
+      "value": "SWE",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 5469298003,
+  "updated_at": "2026-05-15T19:15:44-04:00",
+  "requisition_id": "HC-ENG-050",
+  "title": "Software Engineer Intern, Infrastructure",
+  "company_name": "Neuralink",
+  "first_published": "2024-06-13T18:05:46-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Neuralink:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are creating devices that enable a bi-directional interface with the brain. These devices allow us to restore movement to the paralyzed, restore sight to the blind, and revolutionize how humans interact with their digital world.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Team Description:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Infrastructure Team builds the foundation that enables the company to operate safely, robustly, and move at light-speed. We run a mixture of cloud-based and on-prem systems and have a user base spanning from highly technically proficient engineers to non-technical scientists and doctors; but all of them need solid systems, rugged networking, and bullet-proof software to do their jobs. This role will integrate tightly with teams across the company, and span all layers of the work environment stack, from deployment of physical hardware on the manufacturing line to custom tooling built to facilitate neural recordings from implants.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Tech Stack:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Rust, Python&lt;/li&gt;\n&lt;li&gt;Terraform&lt;/li&gt;\n&lt;li&gt;Bazel and Nix&lt;/li&gt;\n&lt;li&gt;Kubernetes&lt;/li&gt;\n&lt;li&gt;GitLab CI&lt;/li&gt;\n&lt;li&gt;AWS&lt;/li&gt;\n&lt;li&gt;Ubuntu, Fedora&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Focus:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Developing the foundations for teams to build the software and systems required for record-breaking BCI experiences.&lt;/li&gt;\n&lt;li&gt;Enhancing developer experience with robust tooling and build-system infrastructure.&lt;/li&gt;\n&lt;li&gt;Building foundational infrastructure for HITL (hardware in the loop) testing across firmware, BCI, and robot teams.&lt;/li&gt;\n&lt;li&gt;Ground-up infrastructure of on-premise solutions as well as cloud architecture.&lt;/li&gt;\n&lt;li&gt;Foundational software engineering with a focus on serving internal software teams.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience using IAC tools such as Terraform, Docker, Packer, Ansible, Cloud-Init, Kickstart.&lt;/li&gt;\n&lt;li&gt;Working knowledge of compiled languages, ideally Rust, Go, or C/C++.&lt;/li&gt;\n&lt;li&gt;Working knowledge of major cryptographic protocols and authentication schemes such as TLS, x509, 802.1x, U2F, SAML.&lt;/li&gt;\n&lt;li&gt;Familiarity with modern Linux boot process, UEFI, TPM measured boot, Secure Boot, Systemd.&lt;/li&gt;\n&lt;li&gt;Systems administration experience on Windows, macOS, and Linux.&lt;/li&gt;\n&lt;li&gt;In-depth understanding of modern networking and common protocols.&lt;/li&gt;\n&lt;li&gt;Ability to architect, build, and ship 0 to 1 infrastructure quickly and efficiently.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;p&gt;&lt;strong&gt;Expected Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The anticipated hourly rate for this position is listed below.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;California Hourly Flat Rate:&lt;/strong&gt;&lt;br&gt;$35/Hr USD&lt;/p&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p&gt;&lt;strong&gt;What We Offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Full-time employees are eligible for the following benefits listed below.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;An opportunity to change the world and work with some of the smartest and most talented experts from different fields&lt;/li&gt;\n&lt;li&gt;Growth potential; we rapidly advance team members who have an outsized impact&lt;/li&gt;\n&lt;li&gt;Excellent medical, dental, and vision insurance through a PPO plan&lt;/li&gt;\n&lt;li&gt;Paid holidays&lt;/li&gt;\n&lt;li&gt;Commuter benefits&lt;/li&gt;\n&lt;li&gt;Meals provided&lt;/li&gt;\n&lt;li&gt;Equity (RSUs) &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;401(k) plan &lt;em&gt;*Interns initially excluded until they work 1,000 hours&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;Parental leave &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;Flexible time off &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4042521003,
+      "name": "Internships",
+      "child_ids": [],
+      "parent_id": 4063211003
+    }
+  ],
+  "offices": [
+    {
+      "id": 4015278003,
+      "name": "Fremont - Campus ",
+      "location": "Fremont, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
