@@ -1,5 +1,71 @@
 [
   {
+    "company": "MongoDB",
+    "role": "Software Engineering Internship - Summer 2026/2027",
+    "link": "https://www.mongodb.com/careers/job/?gh_jid=7768470",
+    "location": "Sydney",
+    "id": 1164,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": true,
+      "location": "Other",
+      "qualifications": [
+        "Be pursuing a Bachelor’s or Master's degree in Computer Science or related field.",
+        "Fluent in object-oriented programming languages like Java, Python, Go, C++, Javascript, Node.js.",
+        "Possess foundation in computer science theory, data structures, algorithms, and software design.",
+        "Have minimum one quarter/semester remaining in university studies after internship.",
+        "Be authorized to work in Australia or New Zealand."
+      ],
+      "season": "2026 Summer"
+    },
+    "season": "2026 Summer"
+  },
+  {
+    "company": "Docugami",
+    "role": "Data Science PhD Intern",
+    "link": "https://job-boards.greenhouse.io/docugami/jobs/4192122003",
+    "location": "Kirkland, Washington, United States",
+    "id": 1163,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a PhD in AI, NLP, ML, data science, or math",
+        "Possess experience or strong interest in NLP, machine translation, self-supervised learning, active learning, computer vision, statistics, or causal inference",
+        "Possess programming skills and familiarity with modern ML frameworks",
+        "Demonstrate strong problem-solving and time management skills",
+        "Possess strong communication skills to report and disseminate results",
+        "Passionate about scientific and technical excellence"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
+    "company": "Neuralink",
+    "role": "Software Engineer Intern, Infrastructure",
+    "link": "https://boards.greenhouse.io/neuralink/jobs/5469298003?gh_jid=5469298003",
+    "location": "Fremont, California, United States",
+    "id": 1162,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience using IAC tools",
+        "Working knowledge of compiled languages",
+        "Working knowledge of cryptographic protocols and authentication schemes",
+        "Familiarity with modern Linux boot process",
+        "Experience with systems administration on Windows, macOS, and Linux",
+        "In-depth understanding of modern networking and common protocols",
+        "Ability to architect, build, and ship 0 to 1 infrastructure quickly and efficiently"
+      ],
+      "season": "unsure"
+    },
+    "season": "unsure"
+  },
+  {
     "company": "Docugami",
     "role": "Software Engineer Intern",
     "link": "https://job-boards.greenhouse.io/docugami/jobs/4014838003",
