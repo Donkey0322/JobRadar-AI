@@ -1,5 +1,196 @@
 [
   {
+    "company": "SailPoint",
+    "role": "Enterprise Identity & IT Security Intern",
+    "link": "https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/United-States/Enterprise-Identity---IT-Security---Intern_R013417",
+    "location": "Austin, TX",
+    "season": "2026 Summer",
+    "id": 1171,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Collaborate to develop automation solutions.",
+        "Implement software and procedures.",
+        "Work with software and quality assurance engineers, technical writers and product managers.",
+        "Demonstrable knowledge of an interpreted programming language.",
+        "Good understanding of computer science fundamentals and cybersecurity.",
+        "Good problem-solving skills.",
+        "Interest and aptitude for delivering sophisticated and robust solutions.",
+        "Recently obtained or upper division student working towards a Bachelor’s degree in CS/EE/MIS or related field.",
+        "College students from rising Sophomores to Seniors, or Masters level students."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CIBC",
+    "role": "Application/Software Developer Co-op - Enterprise Technology & Business Management",
+    "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Enterprise-Technology---Business-Management_2610867",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 1170,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in post-secondary education.",
+        "Returning to full-time studies.",
+        "Develop, code, and test computer programs.",
+        "Review, analyze, and modify programming systems.",
+        "Participate in technical design and development of application systems.",
+        "Interact effectively with stakeholders and technical resources.",
+        "Demonstrate excellent verbal and written communication skills.",
+        "Take initiative and deliver results.",
+        "Investigate complex problems and make sense of information.",
+        "Communicate detailed information meaningfully.",
+        "Passionate about growing knowledge and curious.",
+        "Seek innovative solutions and embrace evolving technologies.",
+        "Adapt easily to new tools and trends.",
+        "Motivated by collective success and teamwork.",
+        "Live company values: trust, teamwork, and accountability."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "CIBC",
+    "role": "Application/Software Developer Co-op - Capital Markets Technology",
+    "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Capital-Markets-Technology_2610868",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 1169,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": false,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in post-secondary education and returning to full-time studies",
+        "Develop, code, and test computer programs for straightforward assignments",
+        "Review, analyze, and modify programming systems",
+        "Participate in the technical design, development, and integration of application systems",
+        "Effectively interact with stakeholders to gather requirements",
+        "Prepare design specifications as instructed by senior team members",
+        "Demonstrate excellent verbal and written communication skills",
+        "Act like an owner",
+        "Give meaning to data by investigating complex problems",
+        "Love to learn and have a strong sense of curiosity",
+        "Be digitally savvy, seeking innovative solutions and embracing evolving technologies",
+        "Be motivated by collective success and teamwork",
+        "Live values of trust, teamwork, and accountability"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Ankura Consulting Group",
+    "role": "AI Automation Intern - Risk Advisory",
+    "link": "https://ankura.wd5.myworkdayjobs.com/ankura/job/Washington/AI-Automation-Intern--Risk-Advisory_R104780",
+    "location": "Washington",
+    "season": "2026 Summer",
+    "id": 1168,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently enrolled in Computer Science, Data Science, Business Information Systems, or related program.",
+        "Proficient in Python or JavaScript.",
+        "Familiar with API integrations.",
+        "Experienced with LLMs (ChatGPT, Claude, etc.).",
+        "Understand prompt engineering.",
+        "Possess an analytical mindset to integrate disparate systems.",
+        "Demonstrate strong attention to detail and precision.",
+        "Assist in writing and prompting AI agents.",
+        "Help connect AI tools to internal data sources.",
+        "Audit current manual processes for AI automation.",
+        "Run stress tests on AI outputs for accuracy.",
+        "Maintain clear logs and documentation."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Arine",
+    "role": "AI Engineer Intern",
+    "link": "https://job-boards.greenhouse.io/arine/jobs/5997169004",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 1167,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Experience with LLMs and prompt engineering",
+        "Familiarity with AWS (Bedrock, Lambda) and Python",
+        "Experience with Azure (AI Foundry)",
+        "Interest in healthcare technology and clinical documentation workflows",
+        "Experience with Claude",
+        "Healthcare or startup experience",
+        "Must live in and be eligible to work in the United States",
+        "Stable high-speed internet connection and a private work area",
+        "Ability to pass a background check and complete Information Security/HIPAA training"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Harris Computer",
+    "role": "Software Developer Intern",
+    "link": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer---Intern_R0043779-1",
+    "location": "Remote in UK",
+    "season": "2026 Summer",
+    "id": 1166,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "UK",
+      "qualifications": [
+        "Design and develop AI-enabled software solutions",
+        "Collaborate on systems integrating machine learning models, data pipelines, and cloud-native architectures",
+        "Work with technologies spanning data engineering, model deployment, and user-centric application design",
+        "Contribute to building secure, reliable, and scalable services",
+        "Explore emerging AI technologies and frameworks",
+        "Participate in Agile development practices",
+        "Motivated and proactive, with a strong interest in software development",
+        "Eager to learn, open to feedback, and willing to develop new skills",
+        "Enjoy understanding how things work and improving them",
+        "Good communicator, able to work effectively in a team environment",
+        "Awareness of AI/ML concepts",
+        "Familiarity with software development fundamentals",
+        "Exposure to collaborative development tools"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "AEG",
+    "role": "Web Developer Intern - Web Developer - Global Technology",
+    "link": "https://aegworldwide.com/careers?gh_jid=8550938002",
+    "location": "LA",
+    "season": "2026 Summer",
+    "id": 1165,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Pursue a degree in web design, computer science, information systems, or digital media",
+        "Possess basic working knowledge of HTML, CSS, and JavaScript",
+        "Familiar with front-end web design principles and responsive design",
+        "Aware of web accessibility concepts, including ADA and WCAG guidelines",
+        "Ability to review, update, and troubleshoot existing code",
+        "Strong problem-solving skills and willingness to learn",
+        "Clear written and verbal communication skills",
+        "Ability to manage tasks independently and collaborate"
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "MongoDB",
     "role": "Software Engineering Internship - Summer 2026/2027",
     "link": "https://www.mongodb.com/careers/job/?gh_jid=7768470",

@@ -1,0 +1,130 @@
+{
+  "absolute_url": "https://aegworldwide.com/careers?gh_jid=8550938002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 6415368002,
+  "location": {
+    "name": "Los Angeles, CA"
+  },
+  "metadata": [
+    {
+      "id": 102748297002,
+      "name": "Business Unit (Company Name)",
+      "value": "AEG",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4022422002,
+      "name": "Ulti Division",
+      "value": "Administration",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4018606002,
+      "name": "Full or Part Time",
+      "value": "Part Time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4025039002,
+      "name": "Pay Type",
+      "value": "Hourly",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4027385002,
+      "name": "Ulti Company Code",
+      "value": "AEG",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023522002,
+      "name": "Ulti Job Code",
+      "value": "INTERN",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023523002,
+      "name": "Ulti Job Title",
+      "value": "Internship",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023528002,
+      "name": "Ulti Internal Manager Level",
+      "value": "N-Support",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023536002,
+      "name": "Location City",
+      "value": "Los Angeles",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023537002,
+      "name": "Location State",
+      "value": "CA",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023538002,
+      "name": "Location Zip",
+      "value": "90015",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4023540002,
+      "name": "AEG Requisition ID",
+      "value": "AEG9311",
+      "value_type": "short_text"
+    },
+    {
+      "id": 20541364002,
+      "name": "Career Level",
+      "value": "Part-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 21119586002,
+      "name": "TeamWork Online Organization",
+      "value": "aeg-worldwide",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8550938002,
+  "updated_at": "2026-05-15T17:23:40-04:00",
+  "requisition_id": "9311",
+  "title": "Summer Intern, Web Developer (Global Technology)",
+  "company_name": "AEG Worldwide",
+  "first_published": "2026-05-15T17:23:40-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Summer Intern, Web Developer (Global Technology)&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;For more than 20 years, AEG has played a pivotal role in transforming sports and live entertainment. Annually, we host more than 160 million guests, promote more than 10,000 shows and present more than 22,000 events around the world. We are committed to innovation, artistry, and community, and leverage the power of our 300+ venues, leading sports franchises, marquee music brands, integrated entertainment districts, premier ticketing platform and global sponsorship activations, to create memorable moments that give the world reason to cheer.&lt;/p&gt;\n&lt;p&gt;Our business is interwoven with the human mind and heart, and we strive to build a diverse and inclusive company that reflects the artists, athletes, and fans that we host; reach beyond traditional boundaries to support the communities in which we operate; and minimize our impact on the environment by adopting sustainable practices throughout our business operations.&lt;/p&gt;\n&lt;p&gt;If you want to be challenged to up your game and make a difference, then join us in giving the world reason to cheer!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job summary:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AEG Internship Program offers a real-world experience that allows college students to learn the business of sports and live entertainment. The Corporate Communications team is seeking a motivated summer intern to support an ADA accessibility compliance initiative for our intranet. This role is ideal for a student interested in web design, front‑end development, and digital accessibility. The intern will assist with reviewing and updating underlying code to help ensure the internal platforms meet ADA and WCAG compliance standards and provide an inclusive experience for all users.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Assist in auditing intranet pages and code for accessibility issues&lt;/li&gt;\n&lt;li&gt;Help implement accessibility best practices across HTML, CSS, and JavaScript&lt;/li&gt;\n&lt;li&gt;Support updates related to semantic markup, keyboard navigation, color contrast, and screen‑reader compatibility&lt;/li&gt;\n&lt;li&gt;Document fixes and learn how accessibility standards are applied in a real‑world environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing a degree in a relevant field such as web design, computer science, computer information systems, digital media&lt;/li&gt;\n&lt;li&gt;Basic working knowledge of HTML, CSS, and JavaScript&lt;/li&gt;\n&lt;li&gt;Familiarity with front‑end web design principles and responsive design&lt;/li&gt;\n&lt;li&gt;Awareness of web accessibility concepts, including ADA and WCAG guidelines (coursework or self‑study acceptable)&lt;/li&gt;\n&lt;li&gt;Ability to review, update, and troubleshoot existing code with attention to detail&lt;/li&gt;\n&lt;li&gt;Strong problem‑solving skills and willingness to learn new tools and standards&lt;/li&gt;\n&lt;li&gt;Clear written and verbal communication skills&lt;/li&gt;\n&lt;li&gt;Ability to manage tasks independently while collaborating with a larger team&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Intern Perks&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Resume review with AEG Talent Acquisition team&lt;/li&gt;\n&lt;li&gt;Corporate networking&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Pay Range: $19.00-21.00&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: Los Angeles (On-Site)&lt;/p&gt;\n&lt;p&gt;Bonus: This position is not eligible for a bonus under the current bonus plan requirements.&lt;/p&gt;\n&lt;p&gt;Benefits: Part-time: This position is not eligible for benefits.&lt;/p&gt;\n&lt;p&gt;AEG reserves the right to change or modify the employee’s job description, whether orally or in writing, at any time during the employment relationship. AEG may require an employee to perform duties outside his/her normal description.&lt;/p&gt;\n&lt;p&gt;AEG&#39;s policy is to hire the most qualified applicants, and we comply with all applicable federal, state and local employment laws in making hiring and employee decisions.&amp;nbsp; We are an equal opportunity employer and do not discriminate against applicants or employees on the basis of race, color, marital status, disability, religion, age, sex, sexual orientation, national origin, genetic information, veteran status, or any other legally protected status recognized by applicable federal, state or local law.&lt;/p&gt;\n&lt;p&gt;Employer does not offer work visa sponsorship for this position.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4004704002,
+      "name": "Intern",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4001905002,
+      "name": "AEG",
+      "location": "Los Angeles, California, United States",
+      "child_ids": [],
+      "parent_id": 4003741002
+    }
+  ]
+}

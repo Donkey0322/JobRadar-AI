@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "b63cf8018468100204190c2629bb0000",
+    "title": "AI Automation Intern, Risk Advisory",
+    "jobDescription": "<p style=\"text-align:left\">Ankura is a team of excellence founded on innovation and growth.</p><p></p><p></p><p>This position supports Ankura&#39;s Risk Advisory group - one of six practices focused on client delivery services across the Firm.</p><p></p><p><b>Role Overview:</b></p><p>We are looking for a tech-savvy, detail-oriented <b>AI Automation Intern</b> to help us modernize our administrative workflows. In this role, you will assist in designing and deploying AI agents specifically aimed at streamlining workflows including generating utilization reports, reconciling billing data, and managing internal documentation.</p><p></p><p>This is a hands-on role where you’ll bridge the gap between software development and business operations.</p><p></p><p><b>Responsibilities:</b></p><ul><li><p><b>Agent Development:</b> Assist in writing and prompting AI agents to automate repetitive data tasks.</p></li><li><p><b>Data Integration:</b> Help connect AI tools to internal data sources to pull real-time metrics.</p></li><li><p><b>Workflow Mapping:</b> Audit current manual processes and identify where an AI agent can save time.</p></li><li><p><b>Testing &amp; QA:</b> Run &#34;stress tests&#34; on AI outputs to ensure that billing calculations, utilization percentages, etc. are 100% accurate.</p></li><li><p><b>Documentation:</b> Maintain clear logs of agent prompts, logic flows, and instructions so the team can manage them long-term.</p></li></ul><p><b>Requirements:</b></p><ul><li><p><b>Current Student:</b> Currently enrolled in a Computer Science, Data Science, Business Information Systems, or related degree program.</p></li><li><p><b>Technical Interest:</b> Basic proficiency in Python or JavaScript; familiarity with API integrations is a huge plus.</p></li><li><p><b>AI Literacy:</b> Experience using LLMs (ChatGPT, Claude, etc.) and an understanding of prompt engineering.</p></li><li><p><b>Analytical Mindset:</b> You enjoy looking at a messy spreadsheet and finding a way to make it &#34;talk&#34; to other systems.</p></li><li><p><b>Attention to Detail:</b> Since you’ll be working with billing and utilization, a &#34;close enough&#34; attitude doesn&#39;t work—precision is key.</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Ankura is required to include a reasonable estimate of the compensation range for this role. A reasonable estimate of the current payrate for this internship is: $24/hr.</p><p></p><p>Ankura is an Affirmative Action and Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, or protected veteran status and will not be discriminated against based on disability. Equal Employment Opportunity Posters, if you have a disability and believe you need a reasonable accommodation to search for a job opening, submit an online application, or participate in an interview/assessment, please email accommodations&#64;ankura.com or call toll-free &#43;1.312-583-2122. This email and phone number are created exclusively to assist disabled job seekers whose disability prevents them from being able to apply online. Only messages left for this purpose will be returned. Messages left for other purposes, such as following up on an application or technical issues unrelated to a disability, will not receive a response.</p><p></p>",
+    "location": "Washington",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-15",
+    "timeType": "Full time",
+    "jobReqId": "R104780",
+    "jobPostingId": "AI-Automation-Intern--Risk-Advisory_R104780",
+    "jobPostingSiteId": "Ankura",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Washington",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://ankura.wd5.myworkdayjobs.com/Ankura/job/Washington/AI-Automation-Intern--Risk-Advisory_R104780",
+    "questionnaireId": "5b979464138c01a3e339cce4c7463196",
+    "timeLeftToApply": "2 days left to apply",
+    "endDate": "2026-05-18",
+    "jobPostingEndDateAsText": "End Date: May 18, 2026"
+  },
+  "hiringOrganization": {
+    "name": "USD010 Ankura Consulting Group LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
