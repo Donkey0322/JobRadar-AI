@@ -1,5 +1,86 @@
 [
   {
+    "company": "CIBC",
+    "role": "Application/Software Developer Co-op",
+    "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op_2610896",
+    "location": "Toronto, ON, Canada",
+    "season": "2026 Summer",
+    "id": 1174,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "Canada",
+      "qualifications": [
+        "Currently enrolled in post-secondary education and returning to full-time studies.",
+        "Familiar with programming languages.",
+        "Enjoy improving the user experience.",
+        "Enjoy problem-solving and finding innovative solutions.",
+        "Excellent verbal and written communication skills.",
+        "Curious and creative in product design and assessment.",
+        "Strong time management skills.",
+        "Able to prioritize competing priorities.",
+        "Possess technical skills for data analysis.",
+        "Adhere to values of trust, teamwork, and accountability.",
+        "Proficient in Microsoft Excel.",
+        "Proficient in Microsoft Office 365.",
+        "Proficient in Microsoft Power Business Intelligence (BI).",
+        "Understand networking fundamentals.",
+        "Proficient in Python programming language."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
+    "company": "Nutanix",
+    "role": "Agentic AI Software Development Intern",
+    "link": "https://jobs.jobvite.com/nutanix/job/oOO8zfw3?nl=1&nl=1&fr=false",
+    "location": "San Jose, CA",
+    "season": "2026 Summer",
+    "id": 1173,
+    "jd": {
+      "citizenship": null,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Currently pursuing a BS (Junior or rising Senior) or MS in Computer Science, or a related technical field.",
+        "Strong proficiency in Python or Java.",
+        "Solid understanding of the Software Development Lifecycle (SDLC), modern DevOps practices, Git, unit testing, and building/consuming REST APIs.",
+        "Demonstrated passion for AI, Machine Learning, and LLM-powered applications.",
+        "Experience with agentic frameworks (LangChain, CrewAI, AutoGPT, AutoGen), vector databases (Chroma, Pinecone), or RAG architectures.",
+        "Research experience in Automated Software Engineering (ASE), Natural Language Processing, or AI safety (for MS candidates)."
+      ],
+      "season": "unsure"
+    }
+  },
+  {
+    "company": "Hadrian",
+    "role": "Software Engineer Intern",
+    "link": "https://jobs.ashbyhq.com/hadrian-automation/ce93d8e7-00c9-4fdf-9623-e4f6f25d92d6/application",
+    "location": "LA",
+    "season": "2026 Summer",
+    "id": 1172,
+    "jd": {
+      "citizenship": true,
+      "sponsorship": false,
+      "location": "USA",
+      "qualifications": [
+        "Be a current university student pursuing a Bachelor's or Master's degree in Computer Science or a related field.",
+        "Expected graduation date between December 2026 and June 2027.",
+        "Proficient in one or more programming languages like Python, TypeScript, or Go.",
+        "Familiar with backend development, APIs, or data engineering.",
+        "Possess strong problem-solving skills.",
+        "Exhibit clear written and verbal communication.",
+        "Demonstrate strong attention to detail and follow-through.",
+        "Excited by manufacturing, aerospace, defense, or industrial systems.",
+        "Comfortable working in a fast-moving, highly ambiguous environment.",
+        "Willing to work on-site in Los Angeles, CA.",
+        "Have prior internship or project experience shipping production software.",
+        "Interested in manufacturing systems, automation, or industrial software."
+      ],
+      "season": "2026 Summer"
+    }
+  },
+  {
     "company": "SailPoint",
     "role": "Enterprise Identity & IT Security Intern",
     "link": "https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/United-States/Enterprise-Identity---IT-Security---Intern_R013417",
