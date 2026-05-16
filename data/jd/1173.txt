@@ -1,0 +1,221 @@
+What We Do
+Products
+Solutions
+Support & Services
+Partners
+Resources
+Company
+Contact Us
+Global Offices
+Next Community
+Agentic AI - Software Development Intern
+Engineering
+San Jose,
+California
+Req.Num.: 31661
+Apply
+The OpportunityJoin our cutting-edge Engineering Team as we redefine the future of software development! We are looking for passionate, AI-driven student innovators to help us build the next generation of Coding Agents and SDLC Agents. You will have the opportunity to move beyond simple chatbots and dive into the "Agentic" era of computing.As an intern, you will gain hands-on experience with the infrastructure required to scale AI across a global engineering organization. By the end of your internship, you will have successfully designed and integrated AI agents into standard development workflows, helping us build systems that write and manage code.Engineering at NutanixWe are a fast-moving, high-impact organization focused on bringing AI to the forefront of the software development lifecycle. Our team believes that the intersection of Large Language Models (LLMs) and software engineering will fundamentally change how applications are built, tested, and deployed. We collaborate closely across research and production teams to bridge the gap between theoretical AI and production-ready developer tools."Building the tools that build the future." Your RoleAgentic Framework Development: Design and implement autonomous agents capable of performing tasks like automated bug fixing, code refactoring, and feature generation.SDLC Integration: Integrate AI agents into standard development workflows, including Version Control Systems (GitHub/GitLab), CI/CD pipelines, and project management tools.Evaluation Systems: Build frameworks to benchmark agent reliability, safety, and code quality using static analysis and execution-based testing.Prompt Engineering & Tuning: Experiment with advanced prompting techniques (Chain-of-Thought, ReAct) and fine-tuning strategies to optimize agent performance for coding tasks.What You'll BringCurrently pursuing a BS (Junior or rising Senior) or MS in Computer Science, or a related technical field.Strong proficiency in Python or Java.Solid understanding of the Software Development Lifecycle (SDLC), modern DevOps practices, Git, unit testing, and building/consuming REST APIs.Demonstrated passion for AI, Machine Learning, and LLM-powered applications.Experience with agentic frameworks (LangChain, CrewAI, AutoGPT, AutoGen), vector databases (Chroma, Pinecone), or RAG architectures.(For MS) Research experience in Automated Software Engineering (ASE), Natural Language Processing, or AI safety.Work Arrangement: In office | San Jose, CAShould the role be within 50 miles of a Nutanix office, it will require coming into an office a minimum of 3 days per week. Additional team-specific guidance and norms will be provided by your manager.FOR USThe pay range for this position at commencement of employment is expected to be between USD $55 per hour. However, base pay offered may vary depending on multiple individualized factors, including market location, job-related knowledge, skills, and experience. The total compensation package for this position may also include other elements, including a sign-on bonus, restricted stock units, and discretionary awards in addition to a full range of medical, financial, and/or other benefits (including 401(k) eligibility and various paid time off benefits, such as vacation, sick time, and parental leave), dependent on the position offered. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an “at-will position” and the Company reserves the right to modify base salary (as well as any other discretionary payment or compensation program) at any time, including for reasons related to individual performance, Company or individual department/team performance, and market factors. Our application deadline is 40 days from the date of posting. In good faith, the posting may be removed prior to this date if the position is filled or extended in good faith.
+--
+Nutanix is an equal opportunity employer.
+Nutanix is an Equal Employment Opportunity and (in the U.S.) an Affirmative Action employer. Qualified applicants are considered for employment opportunities without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, marital status, protected veteran status, disability status or any other category protected by applicable law. We hire and promote individuals solely on the basis of qualifications for the job to be filled. We strive to foster an inclusive working environment that enables all our Nutants to be themselves and to do great work in a safe and welcoming environment, free of unlawful discrimination, intimidation or harassment. As part of this commitment, we will ensure that persons with disabilities are provided reasonable accommodations. If you need a reasonable accommodation, please let us know by contacting [email protected].
+Apply
+Apply Later
+← Back to Current Openings
+Share
+lang: en_US
+LinkedIn
+Facebook
+Twitter
+Email
+Powered by Jobvite
+We're Social
+.outline{fill: #3e6d9c;}
+.buttons{fill: #70a4d8;}
+Request a Demo
+.outline{fill: #3e6d9c;}
+.tie{fill: #70a4d8;}
+Contact Sales
+What We Do
+Solutions
+Products
+Resources
+Our Customers
+Tech Terms
+Connect with Nutanix
+Contact Us
+Support Team
+Blog
+Events
+Next Community
+Company Info
+Global Offices
+Leadership
+Newsroom
+Investor Relations
+Social Responsibility
+Trust
+Diversity and Inclusion
+Resources
+Careers
+Current Openings
+Life At Nutanix
+Applicant Privacy Notice •
+Nutanix Privacy Statement •
+Cookies •
+Terms of Use / Do Not Sell my Personal Information
+© Nutanix document.write(new Date().getFullYear());, all rights reserved.
+Back to Top
+angular.module('preloadedData', []).constant('preloadedData', {
+applyLinkUrl: '${job.applyLinkUrl}',
+jobCategoryId: 'a9V9VfwS',
+jobCategoryName: 'Engineering',
+jobId: 'oOO8zfw3',
+jobReqId: '31661',
+jobTitle: 'Agentic AI - Software Development Intern',
+jobLocationId: 'CtniVfwN',
+companyAnalytics: 'UA-40341815-1',
+enableResumeParsing: true,
+numberFormat: "##,###,###,###,###.####",
+companyEId: 'qKr9VfwZ',
+linkedInApiKey: '7557fkcarvxieo',
+isAWLIEnabled: '${isAWLIEnabled}',
+facebookApiId: '48354194572',
+dropBoxApiKey: 'w5fg28zznqcyg4w',
+baseUrl: '/nutanix',
+cdnURL: '//d3igejkwe1ucjd.cloudfront.net',
+releaseVersion: '260413142703',
+careersiteName: 'nutanix',
+careersiteDomainName: '${careersiteDomainName}',
+careersiteSourceTypeId: 'PQmHWfwz'
+}).constant('i18n', {
+I18N_RESUME_PREVIEW: 'Resume Preview',
+I18N_NO_RESUME_FOUND: 'No resume found',
+I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',
+I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',
+I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',
+I18N_RECOMMENDER: 'Recommender:',
+I18N_CURRENT: 'Current',
+I18N_PAST: 'Past',
+I18N_EDUCATION: 'Education',
+I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',
+I18N_PATENTS: 'Patents',
+I18N_SUMMARY: 'Summary',
+I18N_SPECIALTIES: 'Specialties',
+I18N_EXPERIENCE: 'Experience',
+I18N_RECOMMENDATIONS: 'Recommendations',
+I18N_PRESENT: 'Present',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec',
+COMMON_PAST_WEEK: 'Past 7 days',
+COMMON_PAST_MONTH: 'Past 30 days',
+COMMON_PAST_3_MONTHS: 'Past 90 days',
+COMMON_CUSTOM_RANGE: 'Custom Range',
+I18N_FROM: 'From',
+I18N_TO: 'To',
+I18N_ANY: 'Any',
+I18N_FILE_UPLOAD_SIZE_CHECK_ERROR: 'File size shall not exceed 10MB',
+I18N_MALICIOUS_CONTENT: 'The file upload was blocked for security reasons. Please check the file for any potentially harmful content or links and try again.',
+I18N_NO_REMOTE: 'No Remote',
+I18N_REMOTE: 'Remote'
+});
+Jobvite = {
+baseUrl: 'https://app.jobvite.com'
+}
+What We Do
+Products
+Solutions
+Company
+Partners
+Support & Services
+Resources
+Contact Us
+$('header .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+$('footer .menu-open').on('click', function(){
+$(this).toggleClass('open');
+$('.cd-nav').toggleClass('visible');
+$('.cd-overlay').toggleClass('visible');
+$('.jv-page-container').toggleClass('show-nav');
+});
+var lastScrollTop = 0;
+$(window).scroll(function (event) {
+var st = $(this).scrollTop();
+if (st > 0) {
+if (st > lastScrollTop) {
+// downscroll code
+$('header').addClass('nav-down');
+$('header').addClass('smaller')
+} else {
+// uproll code
+$('header').removeClass('smaller');
+$('header').removeClass('nav-down');
+$('header').addClass('nav-up')
+}
+} else {
+$('header').removeClass('nav-up');
+$('header').removeClass('smaller');
+}
+lastScrollTop = st;
+});
+jQuery(document).ready(function() {
+var offset = 250;
+var duration = 300;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.back-to-top').fadeIn(duration);
+} else {
+jQuery('.back-to-top').fadeOut(duration);
+}
+});
+jQuery('.back-to-top').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
