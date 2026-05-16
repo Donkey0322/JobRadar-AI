@@ -325,6 +325,16 @@
     ]
   },
   {
+    "name": "aegworldwide",
+    "ats": "greenhouse",
+    "identifier": "aegworldwide",
+    "domain": "https://aegworldwide.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/aegworldwide/jobs",
+    "urls": [
+      "https://aegworldwide.com/careers?gh_jid=8550938002"
+    ]
+  },
+  {
     "name": "aero",
     "ats": "workday",
     "identifier": "aero-external",
@@ -654,6 +664,16 @@
       "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Software-Engineering-Intern_R257207-1",
       "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-CA-San-Jose-Rio-Robles/Applications-Engineer-Intern_R256352-1",
       "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Boston/Embedded-Software-Intern_R255237"
+    ]
+  },
+  {
+    "name": "ankura",
+    "ats": "workday",
+    "identifier": "ankura-ankura",
+    "domain": "https://ankura.wd5.myworkdayjobs.com/ankura",
+    "page": "https://ankura.wd5.myworkdayjobs.com/wday/cxs/ankura/ankura/jobs",
+    "urls": [
+      "https://ankura.wd5.myworkdayjobs.com/ankura/job/Washington/AI-Automation-Intern--Risk-Advisory_R104780"
     ]
   },
   {
@@ -4330,7 +4350,10 @@
       "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/Northeastern-Co-op-Software-Engineer-Chicago_2601701",
       "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523683",
       "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2026-Summer-Intern---Software-Engineer_2523686",
-      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Capital-Markets-Technology_2521364"
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Capital-Markets-Technology_2521364",
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Capital-Markets-Technology_2610868",
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op---Enterprise-Technology---Business-Management_2610867",
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op_2610896"
     ]
   },
   {
@@ -6788,6 +6811,7 @@
     "urls": [
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/New-York-United-States/Intern---Developer_R0040830",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Mumbai-Vikroli/Software-Intern_R0040956-1",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer---Intern_R0043779-1",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer-Apprentice_R0040206"
     ]
   },
@@ -7666,6 +7690,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/archer56/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/archer56/jobs/7565625003"
+    ]
+  },
+  {
+    "name": "arine",
+    "ats": "greenhouse",
+    "identifier": "arine",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/arine/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/arine/jobs/5997169004"
     ]
   },
   {
@@ -10741,6 +10775,16 @@
     ]
   },
   {
+    "name": "hadrian-automation",
+    "ats": "ashby",
+    "identifier": "hadrian-automation",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/hadrian-automation",
+    "urls": [
+      "https://jobs.ashbyhq.com/hadrian-automation/ce93d8e7-00c9-4fdf-9623-e4f6f25d92d6/application"
+    ]
+  },
+  {
     "name": "handshake",
     "ats": "ashby",
     "identifier": "handshake",
@@ -11701,6 +11745,7 @@
       "https://jobs.jobvite.com/nutanix/job/o7Ghyfwm?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oAZfyfw6?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oFskyfwJ?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/nutanix/job/oOO8zfw3?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oPc6xfwo?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oTIbyfw4?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/nutanix/job/oUvFyfwm?nl=1&nl=1&fr=false",
@@ -15669,6 +15714,7 @@
     "domain": "https://sailpoint.wd1.myworkdayjobs.com/sailpoint",
     "page": "https://sailpoint.wd1.myworkdayjobs.com/wday/cxs/sailpoint/sailpoint/jobs",
     "urls": [
+      "https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/United-States/Enterprise-Identity---IT-Security---Intern_R013417",
       "https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/United-States/Software-Engineer-Intern--NET-_R011634"
     ]
   },
