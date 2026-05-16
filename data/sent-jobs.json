@@ -1,5 +1,33 @@
 [
   {
+    "company": "Center for Internet Security (CIS)",
+    "role": "Security Engineer Intern",
+    "link": "https://cisecurity.wd1.myworkdayjobs.com/CIS_External_Career_Site/job/Remote/Security-Engineering-Intern---Remote_JR100204",
+    "location": "Remote in USA",
+    "season": "2026 Summer",
+    "id": 1175,
+    "jd": {
+      "citizenship": false,
+      "sponsorship": null,
+      "location": "USA",
+      "qualifications": [
+        "Be a student in junior year or above pursuing a relevant bachelor's degree",
+        "Maintain an overall GPA of 3.0 or higher",
+        "Familiarity with SIEM/SOAR platforms and security event management",
+        "Knowledge of Git or other version control systems",
+        "Ability to communicate effectively with a remote team",
+        "Possess a positive customer service and team-oriented attitude",
+        "Drive towards continual professional growth",
+        "Working knowledge of UNIX-based operating systems",
+        "Working knowledge of DEVO SIEM/SOAR",
+        "Familiarity with Endpoint Monitoring and Network Monitoring tools",
+        "Fundamental understanding of agile principles",
+        "Experience with CI/CD automation"
+      ],
+      "season": "unsure"
+    }
+  },
+  {
     "company": "CIBC",
     "role": "Application/Software Developer Co-op",
     "link": "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Application-Software-Developer-Co-op_2610896",
