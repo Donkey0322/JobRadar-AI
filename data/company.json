@@ -4399,6 +4399,16 @@
     ]
   },
   {
+    "name": "cisecurity",
+    "ats": "workday",
+    "identifier": "cisecurity-cis_external_career_site",
+    "domain": "https://cisecurity.wd1.myworkdayjobs.com/cis_external_career_site",
+    "page": "https://cisecurity.wd1.myworkdayjobs.com/wday/cxs/cisecurity/cis_external_career_site/jobs",
+    "urls": [
+      "https://cisecurity.wd1.myworkdayjobs.com/CIS_External_Career_Site/job/Remote/Security-Engineering-Intern---Remote_JR100204"
+    ]
+  },
+  {
     "name": "cisive",
     "ats": "workday",
     "identifier": "cisive-cisive",
