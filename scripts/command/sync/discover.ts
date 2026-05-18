@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
+import { GREEN_CHECKMARK } from "@/constants/log";
 
 import type { Job } from "@/types";
 
@@ -53,6 +53,8 @@ export default async function syncDiscover() {
   await saveJob(jobs);
   logger.info({ totalCost }, "💰 Processed jobs: Total cost");
 
-  const companies = await buildCompanyList(urls);
-  logger.info({ count: companies.length }, `${GREEN_CHECKMARK} Successfully built companies`);
+  if (jobs.length > 0) {
+    const companies = await buildCompanyList(urls);
+    logger.info({ count: companies.length }, `${GREEN_CHECKMARK} Successfully built companies`);
+  }
 }

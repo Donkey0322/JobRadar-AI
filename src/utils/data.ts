@@ -36,8 +36,11 @@ export async function saveUrls(urlsSet: Set<string>) {
 export async function loadJobs(): Promise<Job[]> {
   try {
     const content = await fs.readFile(JOB_PATH, "utf-8");
-    const parsed: Job[] = JSON.parse(content);
-    return parsed;
+    return content
+      .split("\n")
+      .filter(Boolean)
+      .map((line) => JSON.parse(line) as Job)
+      .reverse();
   } catch {
     return [];
   }
@@ -77,15 +80,9 @@ export async function saveJd(jd: string, job: Job) {
  * @param jobs - The jobs to save.
  */
 export async function saveJob(jobs: Job[]) {
-  try {
-    const content = await fs.readFile(JOB_PATH, "utf-8");
-    const parsed: Job[] = JSON.parse(content);
-    const reversed = parsed.reverse();
-    reversed.push(...jobs);
-    await fs.writeFile(JOB_PATH, JSON.stringify(reversed.reverse(), null, 2), "utf-8");
-  } catch {
-    await fs.writeFile(JOB_PATH, JSON.stringify(jobs, null, 2), "utf-8");
-  }
+  if (jobs.length === 0) return;
+  const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
+  await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
 }
 
 export async function loadCompanies(): Promise<Company[]> {
