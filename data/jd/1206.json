@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "bf34a3eefefa1000a78f167afd220001",
+    "title": "Summer Intern Systems Development",
+    "jobDescription": "<p>As a leading financial services and healthcare technology company based on revenue, SS&amp;C is headquartered in Windsor, Connecticut, and has 27,000&#43; employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world&#39;s largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology.</p><p></p><p><b><u>Job Description</u></b></p><p></p><h2>Job Title</h2><p>Summer Intern – Systems Developer</p><p><b>Location:</b> London | Hybrid</p><h2>Get To Know Us:</h2><p>SS&amp;C is a global provider of investment and financial software-enabled services and software for the financial services and healthcare industries. Named to Fortune’s Fintech 50 list, SS&amp;C is headquartered in Windsor, Connecticut, and has more than 27,000 employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world’s largest companies to small and mid-market firms, rely on SS&amp;C for expertise, scale, and technology.</p><p>Our Quantitative Development team within the Fund Services business develops advanced analytical and pricing solutions supporting financial products and quantitative modelling. This internship offers a unique opportunity to work alongside experienced quantitative developers and gain hands-on exposure to real-world quantitative finance and production-grade financial systems.</p><h2>Why You Will Love It Here!</h2><p>• Flexibility: Hybrid Work Model<br />• Your Future: Professional Development Reimbursement including access to SS&amp;C University<br />• Work/Life Balance: Competitive holiday scheme<br />• Your Wellbeing: Competitive benefits designed to support the wellbeing of our staff<br />• Diversity &amp; Inclusion: Committed to Welcoming, Celebrating and Thriving on Diversity<br />• Training: Hands-On, Team-Customised throughout your career</p><h2>What You Will Get To Do:</h2><p>• Extend the implementation of pricing and analytics tools for financial instruments using primarily C&#43;&#43; and Python, with potential exposure to Java and C#<br />• Support the enhancement of volatility models, benchmarking exercises, and research into advanced quantitative approaches for derivatives pricing<br />• Translate mathematical concepts into clear, maintainable, and high-performance production-quality code<br />• Perform data analysis, simulations, model validation, and basic back testing under different market scenarios<br />• Document technical work clearly and present findings to quantitative developers and team members<br />• Learn and apply best practices in software engineering, testing, and version control<br />• Collaborate with global teams in a distributed development environment</p><h2>What You Will Bring:</h2><p>• Currently pursuing a BSc, MSc, or PhD in a quantitative discipline such as Mathematics, Physics, Engineering, Computer Science, or a related field<br />• Strong analytical and problem-solving skills with a rigorous and detail-oriented approach<br />• Programming experience in C&#43;&#43; and Python through academic, personal, or project work<br />• Understanding of high-performance programming concepts and software development principles<br />• Solid understanding of probability and statistics, linear algebra, stochastic calculus, differential equations, and numerical methods<br />• Interest in financial markets and quantitative modelling, including basic knowledge of equities, FX, rates, or derivatives<br />• Strong communication and collaboration skills with the ability to work effectively in a distributed team environment</p><h3>Desirable Skills</h3><p>• Experience with scientific computing libraries in C&#43;&#43; and/or Python<br />• Familiarity with Linux environments or Windows Subsystem for Linux (WSL)<br />• Experience using collaborative development tools such as Git<br />• Exposure to quantitative finance concepts or financial analytics projects<br />• Knowledge of software testing and version control best practices</p><p>We encourage applications from people of all backgrounds to enable us to bring diverse perspectives to our thinking and conversation. It&#39;s important to us that we strive to have a workforce that is diverse in the widest sense.</p><p>Thank you for your interest in <span>SS&amp;C Technologies Careers</span>. If applicable, to further explore this opportunity, please apply directly with us through our Careers page on our corporate website.</p><p> </p><p> </p><p></p><p>Unless explicitly requested or approached by SS&amp;C Technologies, Inc. or any of its affiliated companies, the company will not accept unsolicited resumes from headhunters, recruitment agencies, or fee-based recruitment services.</p><p> </p><p> </p><p> </p><p> </p><h3></h3><p style=\"text-align:inherit\"></p><h3></h3><p style=\"text-align:inherit\"></p><p> </p><p> </p><h3> </h3><p> </p><p> </p><p> </p><p></p><p>Applications will be accepted on an ongoing basis until the position is filled.</p><p> </p><p> </p><p style=\"text-align:left !important\"></p><p style=\"text-align:left !important\">SS&amp;C Technologies is an Equal Employment Opportunity employer and does not discriminate against any applicant for employment or employee on the basis of race, color, religious creed, gender, age, marital status, sexual orientation, national origin, disability, veteran status or any other classification protected by applicable discrimination laws.</p><p style=\"text-align:inherit !important\"></p>",
+    "location": "London - 1 Ropemaker Street",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "R43013",
+    "jobPostingId": "Summer-Intern-Systems-Development_R43013-1",
+    "jobPostingSiteId": "SSCTechnologies",
+    "country": {
+      "descriptor": "United Kingdom",
+      "id": "29247e57dbaf46fb855b224e03170bc7"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "London - 1 Ropemaker Street",
+      "country": {
+        "descriptor": "United Kingdom",
+        "id": "29247e57dbaf46fb855b224e03170bc7",
+        "alpha2Code": "GB"
+      }
+    },
+    "externalUrl": "https://wd1.myworkdaysite.com/recruiting/ssctech/SSCTechnologies/job/London---1-Ropemaker-Street/Summer-Intern-Systems-Development_R43013-1",
+    "questionnaireId": "73dadefcd2831001cb2ee192167e0000"
+  },
+  "hiringOrganization": {
+    "name": "SS&C Financial Services Limited",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
