@@ -50,7 +50,7 @@ export function getJobKey(url: string) {
   }
 }
 
-export function groupUrlsByKey(urls: string[]) {
+export function groupUrlsByKey(urls: string[] | Set<string>) {
   const map = new Map<string, string[]>();
 
   for (const url of urls) {
@@ -79,7 +79,7 @@ function mapToJson(map: Map<string, string[]>) {
   return obj;
 }
 
-export function deduplicate(urls: string[]) {
+export function deduplicate(urls: string[] | Set<string>) {
   const grouped = groupUrlsByKey(urls);
   const json = mapToJson(grouped);
   return Object.values(json).map((urls) => urls[0]);

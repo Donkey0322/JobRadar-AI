@@ -1,8 +1,9 @@
-name: Company Tracker
+name: Community Sync Pipeline
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/20 14-23 * * *"
+    - cron: "*/20 0-4 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -10,52 +11,64 @@ permissions:
   actions: read
 
 jobs:
-  track-new-posts:
+  sync-community:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      # ✅ Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ✅ Setup Node
-      - name: Setup Node
+      # ✅ Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      # ✅ Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: "npm"
+          node-version: 22
+          cache: "pnpm"
 
-      # ✅ Install deps
+      # ✅ Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
-      # ✅ Run your watcher (TypeScript via tsx)
-      - name: Run company tracker
+      # ✅ Run community sync
+      - name: Run community sync pipeline
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
+
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BACKUP_GEMINI_API_KEY: ${{ secrets.BACKUP_GEMINI_API_KEY }}
-          LOG_PRETTY: "1"
-        run: |
-          npm run company
-          npm run crawler
-          npm run company
 
-      # ✅ Commit updated sent.json
-      - name: Commit and push sent.json if changed
+          LOG_PRETTY: "1"
+
+        run: |
+          pnpm jobctl sync community
+
+      # ✅ Commit updated data
+      - name: Commit and push updated data
         if: success()
         run: |
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
             git config user.name "actions-bot"
             git config user.email "actions@github.com"
+
             git add data/
-            git commit -m "chore: update sent.json"
+
+            git commit -m "chore(community): update synced jobs"
             git push
           fi

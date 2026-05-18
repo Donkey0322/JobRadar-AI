@@ -20,7 +20,7 @@ export async function getSource(url: string): Promise<string> {
   return text;
 }
 
-async function parseSource(source: Source): Promise<Job[]> {
+async function fetchSource(source: Source): Promise<Job[]> {
   const text = await getSource(source.url);
   switch (source.format) {
     case "markdown":
@@ -33,4 +33,4 @@ async function parseSource(source: Source): Promise<Job[]> {
   }
 }
 
-export default parseSource;
+export default fetchSource;

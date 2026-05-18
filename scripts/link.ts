@@ -41,7 +41,15 @@ export async function promptJob(): Promise<Job> {
       name: "season",
       message: "Season (optional):",
       type: "list",
-      choices: ["2026 Summer", "2026 Fall", "2027 Spring", "New Grad", "Skip"],
+      choices: [
+        "2026 Summer",
+        "2026 Fall",
+        "2027 Spring",
+        "Entry Level",
+        "Mid Level",
+        "Senior Level",
+        "Skip",
+      ],
       filter: (val) => (val === "Skip" ? undefined : val),
     },
   ]);

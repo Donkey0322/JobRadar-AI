@@ -19,6 +19,10 @@ export async function loadUrls(): Promise<Set<string>> {
   }
 }
 
+/**
+ * Rewrite urls to the urls file.
+ * @param urlsSet - The urls to save.
+ */
 export async function saveUrls(urlsSet: Set<string>) {
   const sorted = Array.from(urlsSet).sort();
   const json = JSON.stringify(sorted, null, 2);
@@ -68,6 +72,10 @@ export async function saveJd(jd: string, job: Job) {
   }
 }
 
+/**
+ * Append jobs to the end of the job file.
+ * @param jobs - The jobs to save.
+ */
 export async function saveJob(jobs: Job[]) {
   try {
     const content = await fs.readFile(JOB_PATH, "utf-8");
