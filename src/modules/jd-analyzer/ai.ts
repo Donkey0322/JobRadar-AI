@@ -48,7 +48,7 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
     2. Whether the employer offers visa sponsorship.
     3. The location of the job.
     3. ALL qualifications (basic and preferred combined).
-    4. The job term. If the term is not clear, return "unsure". If it is a full-time new grad position, return "New Grad".
+    4. The job term. If the term is not clear, return "unsure". If it is a full-time position, return "Entry Level", "Mid Level", or "Senior Level".
 
     Rules:
     - If unclear or missing, return "unsure".

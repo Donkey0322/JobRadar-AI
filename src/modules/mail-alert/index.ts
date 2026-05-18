@@ -1,8 +1,9 @@
 import nodemailer from "nodemailer";
 
+import { CONFIG } from "@/constants";
+
 import type { Job, Location } from "@/types";
 
-import { CONFIG } from "@/constants";
 import { logger } from "@/utils/logger";
 import { getToday } from "@/utils/string";
 
@@ -34,9 +35,13 @@ function toTerm(season: Job["season"]) {
   switch (season) {
     case undefined:
     case "unsure":
-      return "Intern";
-    case "New Grad":
-      return "New Grad";
+      return "General";
+    case "Entry Level":
+      return "Entry Level";
+    case "Mid Level":
+      return "Mid Level";
+    case "Senior Level":
+      return "Senior Level";
     default:
       return `${season} Intern`;
   }

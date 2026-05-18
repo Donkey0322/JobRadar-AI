@@ -43,11 +43,11 @@ export async function fetchLever(company: Company, urls: Set<string>) {
     }
     const data = await res.json();
 
-    const interns: LeverJob[] = data.filter(
+    const jobs: LeverJob[] = data.filter(
       (job: LeverJob) => isTarget(job.text) && !urls.has(job.hostedUrl) && withinDays(job.createdAt)
     );
 
-    return interns.map((job: LeverJob) => ({
+    return jobs.map((job: LeverJob) => ({
       company: capitalize(company.name),
       role: job.text,
       link: job.hostedUrl,

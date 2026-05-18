@@ -70,7 +70,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
     return [];
   }
 
-  const interns = results.filter(
+  const jobs = results.filter(
     (job: WorkdayJob) =>
       job?.title &&
       isTarget(job.title) &&
@@ -78,7 +78,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
       job.postedOn === "Posted Today"
   );
 
-  return interns.map((job: WorkdayJob) => ({
+  return jobs.map((job: WorkdayJob) => ({
     company: capitalize(company.name),
     role: job.title,
     link: `${company.domain}${job.externalPath}`,

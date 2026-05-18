@@ -37,11 +37,11 @@ export async function fetchAshby(company: Company, urls: Set<string>) {
     }
     const data = await res.json();
 
-    const interns: AshbyJob[] = data.jobs.filter(
+    const jobs: AshbyJob[] = data.jobs.filter(
       (job: AshbyJob) => isTarget(job.title) && !urls.has(job.jobUrl) && withinDays(job.publishedAt)
     );
 
-    return interns.map((job) => ({
+    return jobs.map((job) => ({
       company: capitalize(company.name),
       role: job.title,
       link: job.jobUrl,

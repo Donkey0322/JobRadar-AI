@@ -19,12 +19,18 @@ export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 export const LOCATIONS = ["USA", "Canada", "UK", "Other"] as const;
 export type Location = (typeof LOCATIONS)[number];
 
+// year should be dynamically change at the end of May
+const NOW = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
+export const YEAR = NOW.getMonth() >= 5 ? NOW.getFullYear() + 1 : NOW.getFullYear();
+
 export const SEASONS = [
-  "2026 Summer",
-  "2026 Fall",
-  "2027 Spring",
-  "2027 Winter",
-  "New Grad",
+  `${YEAR} Summer`,
+  `${YEAR} Fall`,
+  `${YEAR} Spring`,
+  `${YEAR} Winter`,
+  "Entry Level",
+  "Mid Level",
+  "Senior Level",
   "unsure",
 ] as const;
 
@@ -46,34 +52,34 @@ export const SOURCES: Source[] = [
     url: "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/dev/README.md",
     format: "markdown",
     type: Target.SUMMER_INTERN,
-    disabled: !CONFIG.target.includes(Target.SUMMER_INTERN),
+    disabled: !CONFIG.target?.intern?.includes(Target.SUMMER_INTERN),
   },
   {
     name: "vansh-off-season",
     url: "https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/refs/heads/dev/OFFSEASON_README.md",
     format: "markdown",
     type: Target.OFF_SEASON_INTERN,
-    disabled: !CONFIG.target.includes(Target.OFF_SEASON_INTERN),
+    disabled: !CONFIG.target?.intern?.includes(Target.OFF_SEASON_INTERN),
   },
   {
     name: "simplify",
     url: "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/README.md",
     format: "html",
     type: Target.SUMMER_INTERN,
-    disabled: !CONFIG.target.includes(Target.SUMMER_INTERN),
+    disabled: !CONFIG.target?.intern?.includes(Target.SUMMER_INTERN),
   },
   {
     name: "simplify-off-season",
     url: "https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/refs/heads/dev/README-Off-Season.md",
     format: "html",
     type: Target.OFF_SEASON_INTERN,
-    disabled: !CONFIG.target.includes(Target.OFF_SEASON_INTERN),
+    disabled: !CONFIG.target?.intern?.includes(Target.OFF_SEASON_INTERN),
   },
   {
     name: "simplify-new-grad",
     url: "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/refs/heads/dev/README.md",
     format: "html",
-    type: Target.NEW_GRAD,
-    disabled: !CONFIG.target.includes(Target.NEW_GRAD),
+    type: Target.ENTRY_LEVEL,
+    disabled: !CONFIG.target?.["full-time"]?.includes(Target.ENTRY_LEVEL),
   },
 ];
