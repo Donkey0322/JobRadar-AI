@@ -1,0 +1,83 @@
+{
+  "jobPostingInfo": {
+    "id": "88a1a91ad7b710013c0da6b59b1c0000",
+    "title": "Software Architect II",
+    "jobDescription": "<h3>Job Title</h3>Software Architect II<p style=\"text-align:inherit\"></p><h3>Job Description</h3><p>In this role, you have the opportunity to:</p><p></p><p>You will be part of IGT systems is the leading innovator in image guided interventional solutions. Key focus area is to move from X-ray based systems to disease specific interventional suite, gain leadership interventional applications.</p><p></p><p>You are responsible for:</p><p></p><p>Key Areas of Responsibilities:</p><p>• Own architectural and technical responsibility for the Hospital Workflow (HWF) in IGT<br />• Author and review requirements and design documents<br />• Design and deliver the key customer needs as software solution<br />• Interface with stakeholders for requirements understanding, architecture clarifications etc.<br />• Actively participate in project estimation, planning and risk management activities. <br />• Identify and escalate risks on time<br />• Participate and contribute to roadmap definition and delivery<br />• Work closely with the System Architect / Product Architect to identify &amp; answer important product/solution questions through prototypes or solutions<br />• Drive technical excellence and quality improvements across the team<br />• Ensure compliance to the Quality Management System and regulatory requirements</p><p></p><p>Key Technical Skills:</p><p><br />10&#43; years of experience<br />Strong Object Oriented development and design knowledge and experience<br />Strong knowledge of Advanced C&#43;&#43;; Good to have healthcare &amp; Dicom knowledge<br />Strong knowledge of all phases of the SDLC<br />Familiarity with global healthcare regulations and interpretation<br />Knowledge of design patterns and practical applications<br />Expertise in development, testing and debugging skills<br />Strong abstraction, analytical and problem solving skills<br />Working experience in Agile/SAFe development methodologies</p><p>Soft Skill set: </p><p>Extremely good communication and presentation skills<br />Technical mentorship<br />Fast learner. Ability to grasp key concepts quickly with minimal or no supervision<br />Ability to take ownership of team goals and deliver with quality and within equired timeline<br />Ability to innovate and foster innovation</p><p></p><p><span>In return, we offer you:</span></p><p></p><p>A growth path as a Software Architect with most rewarding career. We also believe that we are at our best as a company when you are at yours as a person. Thus, we offer competitive health benefits, a flexible work schedule and access to local well-being focused activities.</p><p></p><p><span>Why should you join Philips?</span></p><p></p><p>Working at Philips is more than a job. It’s a calling to create a healthier society through meaningful work, focused on improving 3 billion lives a year by delivering innovative solutions across the <a href=\"http://www.philips.com/b-dam/corporate/corporateblog/2016/Philips_Chronic_Disease_5.jpg\" target=\"_blank\"><span>health continuum</span></a>. Our people experience a variety of unexpected moments when their lives and careers come together in meaningful ways. Learn more by <a href=\"https://www.youtube.com/watch?v&#61;dK9QWTGFBNc&amp;feature&#61;youtu.be\" target=\"_blank\"><span>watching this video</span></a>.</p><p>To find out more about what it’s like working for Philips at a personal level, visit the <a href=\"http://www.philips.com/a-w/careers/healthtech/working-at-philips/working-at-philips.html\" target=\"_blank\"><span>Working at Philips page</span></a> on our career website, where you can read stories from our <a href=\"https://www.philips.com/a-w/asiapac/our-people/life-at-philips.html\" target=\"_blank\"><span>employee blog</span></a>. Once there, you can also learn about our <a href=\"http://www.philips.com/a-w/careers/healthtech.html\" target=\"_blank\"><span>recruitment process</span></a>, or find answers to some of the <a href=\"http://www.philips.com/a-w/careers/healthtech/faq.html\" target=\"_blank\"><span>frequently asked questions</span></a>.</p><p></p><p><span>#LI-PHILIN</span></p>",
+    "location": "Bangalore",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "573684",
+    "jobPostingId": "Software-Architect-II_573684-1",
+    "jobPostingSiteId": "jobs-and-careers",
+    "country": {
+      "descriptor": "India",
+      "id": "c4f78be1a8f14da0ab49ce1162348a5e"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Bangalore–Embassy Business Hub",
+      "country": {
+        "descriptor": "India",
+        "id": "c4f78be1a8f14da0ab49ce1162348a5e",
+        "alpha2Code": "IN"
+      }
+    },
+    "externalUrl": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bangalore/Software-Architect-II_573684-1",
+    "questionnaireId": "558466629d461000be04cc767e790000",
+    "secondaryQuestionnaireId": "d6bcd28e5a5301c8b33f66c040223465"
+  },
+  "hiringOrganization": {
+    "name": "1200 IN5C Bangalore, Karnataka",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Software Technologist I/II - C++",
+      "externalPath": "/job/Bangalore/Software-Technologist-I-II---C--_577454",
+      "timeType": "Full time",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-05-13"
+    },
+    {
+      "title": "Software Developer - AzurionEye AI Analyst",
+      "externalPath": "/job/Bangalore/Software-Developer---AzurionEye-AI-Analyst_579010",
+      "timeType": "Full time",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-15",
+      "timeLeftToApply": "1 day left to apply",
+      "jobPostingEndDateAsText": "End Date: May 20, 2026"
+    },
+    {
+      "title": "Software Developer - AzurionEye AI Analyst",
+      "externalPath": "/job/Bangalore/Software-Developer---AzurionEye-AI-Analyst_579011",
+      "timeType": "Full time",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-15",
+      "timeLeftToApply": "1 day left to apply",
+      "jobPostingEndDateAsText": "End Date: May 20, 2026"
+    },
+    {
+      "title": "Software Technologist – AI Analyst - AzurionEye",
+      "externalPath": "/job/Bangalore/Software-Technologist---AI-Analyst---AzurionEye_579975-1",
+      "timeType": "Full time",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 19 Days Ago",
+      "startDate": "2026-04-29"
+    },
+    {
+      "title": "Senior Architect - AzurionEye AI Workbench",
+      "externalPath": "/job/Bangalore/Senior-Architect---AzurionEye-AI-Workbench_579000",
+      "timeType": "Full time",
+      "locationsText": "Bangalore",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-30"
+    }
+  ],
+  "userAuthenticated": false
+}

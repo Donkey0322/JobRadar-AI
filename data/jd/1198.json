@@ -1,0 +1,43 @@
+{
+  "jobPostingInfo": {
+    "id": "aaa8a2232d631000a17385ecdfbf0001",
+    "title": "WXG - Software Engineer - Infrastructure",
+    "jobDescription": "<h1><b><u>Business Unit</u></b></h1>WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is also responsible for the development and operation of QQ Mail, WeRead and other products.<p></p><h1><b><u>What the Role Entails</u></b></h1>WeChat is looking for Software Engineers to build the infrastructure software and internal platforms behind services used by more than a billion users worldwide.<br><br>You will develop backend systems, DevOps platforms, automation frameworks, and engineering tools that improve deployment efficiency, fault tolerance, disaster recovery, and production reliability. This role is more software-engineering-focused than traditional operations roles, and is well suited for candidates who enjoy writing code to solve infrastructure and platform problems at scale.<ul><li>Build backend services, internal platforms, and engineering tools for infrastructure and production systems.</li><li>Write high-quality code in Go and/or C&#43;&#43; to improve reliability, scalability, and operational efficiency.</li><li>Develop CI/CD pipelines, deployment automation, and release safety mechanisms.</li><li>Build automation for disaster recovery, failover, rollback, and fault-tolerant service operation.</li><li>Improve FaaS and platform capabilities to support scalable and efficient service development.</li><li>Develop tools for observability, monitoring, and production diagnostics.</li><li>Collaborate with engineering teams on system performance, resilience, and operational improvements.</li></ul><p></p><h1><b><u>Who We Look For</u></b></h1><ul><li>Degree in Computer Science or a related field.</li><li>Strong coding skills in Go, C&#43;&#43;, or similar backend languages.</li><li>Experience in backend development, site reliability engineering, or infrastructure-related projects.</li><li>Familiarity with Linux, networking fundamentals, and distributed systems concepts.</li><li>Experience with Kubernetes, Docker, cloud infrastructure, FaaS, or infrastructure automation.</li><li>Interest in DevOps, CI/CD, automation, and large-scale production systems.</li><li>Familiarity with observability, fault tolerance, disaster recovery, or release engineering.</li><li>Fluency in both English and Mandarin Chinese to collaborate effectively with global stakeholders and teams based at headquarters</li></ul><p></p><h1><u><b>Equal Employment Opportunity at Tencent</b></u></h1><p>As an equal opportunity employer, we firmly believe that diverse voices fuel our innovation and allow us to better serve our users and the community. We foster an environment where every employee of Tencent feels supported and inspired to achieve individual and common goals.</p>",
+    "location": "Singapore-CapitaSky",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "R107473",
+    "jobPostingId": "WXG---Software-Engineer---Infrastructure_R107473-1",
+    "jobPostingSiteId": "OA_Huoshui_Platform",
+    "country": {
+      "descriptor": "Singapore",
+      "id": "80938777cac5440fab50d729f9634969"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/tencent/oa_huoshui_platform/sidebarimage/c6ea69587c0310012d9018c02e040007",
+      "alt": "10000: Biz Intro =Y - Dept Into = N - Join us = N - Lang=EN - General"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Singapore-CapitaSky",
+      "country": {
+        "descriptor": "Singapore",
+        "id": "80938777cac5440fab50d729f9634969",
+        "alpha2Code": "SG"
+      }
+    },
+    "remoteType": "Onsite",
+    "externalUrl": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/WXG---Software-Engineer---Infrastructure_R107473-1",
+    "questionnaireId": "6d61f21836e11001c7d3a86a059b0000",
+    "secondaryQuestionnaireId": "87c21034dbaf1000c58d109e103a0000"
+  },
+  "hiringOrganization": {
+    "name": "WeChat International Pte. Ltd.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/twilio/jobs/7926889",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3445084,
+  "location": {
+    "name": "Remote - India"
+  },
+  "metadata": [
+    {
+      "id": 259693,
+      "name": "Job Code",
+      "value": "TP2EG5102-1",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7926889,
+  "updated_at": "2026-05-18T06:23:14-04:00",
+  "requisition_id": "50530",
+  "title": "Software Engineer (L2)",
+  "company_name": "Twilio",
+  "first_published": "2026-05-18T06:23:14-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who we are&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to&lt;a class=&quot;c-link&quot; href=&quot;https://customers.twilio.com/&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://customers.twilio.com/&quot; data-sk=&quot;tooltip_parent&quot;&gt;&amp;nbsp;hundreds of thousands of businesses&amp;nbsp;&lt;/a&gt;and empower millions of developers worldwide to craft personalized customer experiences.&lt;/p&gt;\n&lt;p&gt;Our dedication to &lt;a class=&quot;c-link&quot; href=&quot;https://www.twilio.com/en-us/blog/open-work&quot; target=&quot;_blank&quot; data-stringify-link=&quot;https://www.twilio.com/en-us/blog/open-work&quot; data-sk=&quot;tooltip_parent&quot;&gt;remote-first work&lt;/a&gt;, and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.&lt;br&gt;&lt;br&gt;We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;See yourself at Twilio&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Join the team as Twilio’s next Software Engineer(L2).&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the job&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This position is needed to help build IAM (Identity and Access Management) products and features our customers will love being part of our amazing IAM Team in Bangalore, India. Our mission is to provide a mission-critical authentication and authorization platform that unlocks secure product experiences that customers love.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;In this role, you’ll:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, develop, and implement high-quality applications.&lt;/li&gt;\n&lt;li&gt;Collaborate with cross-functional teams to define, design, and ship new features.&lt;/li&gt;\n&lt;li&gt;Participate in code reviews to ensure code quality and adherence to coding standards.&lt;/li&gt;\n&lt;li&gt;Troubleshoot and debug issues to ensure smooth application performance.&lt;/li&gt;\n&lt;li&gt;Own and operate, high-scale cloud based systems and services.&lt;/li&gt;\n&lt;li&gt;Document technical specifications and procedures.&lt;/li&gt;\n&lt;li&gt;Manage your work through the use of Github, Jira, and our build/deploy systems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn&#39;t followed a traditional path, don&#39;t let that stop you from considering Twilio. We are always looking for people who will bring something new to the table!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;*Required:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree in a computer science related field as a minimum requirement&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;3+ years of proven experience as a Software developer/Frontend developer, with a strong understanding of react, typescript and general frontend ecosystem&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Solid experience with HTML, CSS &amp;amp; object oriented JS &lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong experience with graphQL&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;strong&gt;Passion for JavaScript and Web as a platform, reusability and componentization&lt;/strong&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;strong&gt;Experience in debugging problems across systems/repositories and designing solutions that span the whole stack&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Experience with modern testing frameworks (e.g., Jest, Cypress, Mocha, Chai).&lt;/li&gt;\n&lt;li&gt;Strong communication and collaboration skills.&lt;/li&gt;\n&lt;li&gt;Knowledge of openAPI spec, API integration and RESTful API concepts&lt;/li&gt;\n&lt;li&gt;Exposure to front-end build tools&lt;/li&gt;\n&lt;li&gt;Understanding of responsive design principles and cross-browser compatibility&lt;/li&gt;\n&lt;li&gt;Experience troubleshooting complex production issues&lt;/li&gt;\n&lt;li&gt;Love to make an impact and thrive in small, collaborative, energetic teams.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Desired:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience working with Agile/Scrum methodologies.&lt;/li&gt;\n&lt;li&gt;Familiarity with version control systems such as Git.&lt;/li&gt;\n&lt;li&gt;Awareness of accessibility and SEO best practices&lt;/li&gt;\n&lt;li&gt;Experience with CSS pre-processors like SASS or LESS&lt;/li&gt;\n&lt;li&gt;Familiarity with tools like Figma for design collaboration&lt;/li&gt;\n&lt;li&gt;Familiarity with cloud platforms, preferably AWS&lt;/li&gt;\n&lt;li&gt;Knowledge of containerization technologies such as Docker and Kubernetes&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This role will be remote, and based in India &amp;lt;Karnataka, Tamil Nadu, Telangana State, Maharashtra and New Delhi&amp;gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Travel&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We prioritize connection and opportunities to build relationships with our customers and each other. For this role, you may be required to travel occasionally to participate in project or team in-person meetings.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What We Offer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Working at Twilio offers many benefits, including competitive pay, generous time off, ample parental and wellness leave, healthcare, a retirement savings program, and much more. Offerings vary by location.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Twilio thinks big. Do you?&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We like to solve problems, take initiative, pitch in when needed, and are always up for trying new things. That&#39;s why we seek out colleagues who embody our values — something we call &lt;a href=&quot;https://www.twilio.com/company/values&quot;&gt;Twilio Magic&lt;/a&gt;. Additionally, we empower employees to build &lt;a href=&quot;https://twilio.org/support-and-resources/impact-fund&quot;&gt;positive change in their communities&lt;/a&gt; by supporting their volunteering and donation efforts.&lt;/p&gt;\n&lt;p&gt;So, if you&#39;re ready to unleash your full potential, do your best work, and be the best version of yourself, apply now! If this role isn&#39;t what you&#39;re looking for, &lt;a href=&quot;https://www.twilio.com/company/jobs#open-positions&quot;&gt;please consider other open positions.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Twilio is proud to be an equal opportunity employer.&lt;/strong&gt; We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, reproductive health decisions, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, genetic information, political views or activity, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Qualified applicants with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. Additionally, Twilio participates in the E-Verify program in certain locations, as required by law.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 637,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": 70437
+    }
+  ],
+  "offices": [
+    {
+      "id": 85541,
+      "name": "Remote - India",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 74919
+    }
+  ]
+}

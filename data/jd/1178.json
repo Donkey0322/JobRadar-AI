@@ -1,0 +1,43 @@
+{
+  "jobPostingInfo": {
+    "id": "189bcaac915610017e8d32129c4f0000",
+    "title": "Software Engineer",
+    "jobDescription": "<p>Equifax is where you can power your possible. If you want to achieve your true potential, chart new paths, develop new skills, collaborate with bright minds, and make a meaningful impact, we want to hear from you.</p><p></p><p>Equifax is seeking creative, high-energy and driven <b>software engineers</b> with hands-on development skills to work on a variety of meaningful projects. Our software engineering positions provide you the opportunity to join a team of talented engineers working with leading-edge technology. You are ideal for this position if you are a forward-thinking, committed, and enthusiastic software engineer who is passionate about technology.<br /><br /><b>What you’ll do</b></p><ul><li><p>Design, develop, and operate high scale applications across the full engineering stack</p></li><li><p>Design, develop, test, deploy, maintain, and improve software.</p></li><li><p>Apply modern software development practices (serverless computing, microservices architecture, CI/CD, infrastructure-as-code, etc.)</p></li><li><p>Work across teams to integrate our systems with existing internal systems, Data Fabric, CSA Toolset.</p></li><li><p>Participate in technology roadmap and architecture discussions to turn business requirements and vision into reality.</p></li><li><p>Participate in a tight-knit, globally distributed engineering team.</p></li><li><p>Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on network, or service operations and quality.</p></li><li><p>Manage sole project priorities, deadlines, and deliverables.</p></li><li><p>Research, create, and develop software applications to extend and improve on Equifax Solutions</p></li><li><p>Collaborate on scalability issues involving access to data and information.</p></li><li><p>Actively participate in Sprint planning, Sprint Retrospectives, and other team activity</p></li></ul><p></p><p><b><b>What experience you need </b></b></p><ul><li><p><span>Bachelor&#39;s degree or equivalent experience</span></p></li><li><p><span>5&#43; years of software engineering experience</span></p></li><li><p><span>5&#43; years experience writing, debugging, and troubleshooting code in mainstream Java, SpringBoot, TypeScript/JavaScript, HTML, CSS</span></p></li><li><p><span>5&#43; years experience with Cloud technology: GCP, AWS, or Azure</span></p></li><li><p><span>5&#43; years experience designing and developing cloud-native solutions</span></p></li><li><p><span>5&#43; years experience designing and developing microservices using Java, SpringBoot, GCP SDKs, GKE/Kubernetes</span></p></li><li><p><span>5&#43; years experience deploying and releasing software using Jenkins CI/CD pipelines, understand infrastructure-as-code concepts, Helm Charts, and Terraform constructs</span></p></li><li><p></p></li></ul><p><b><b>What could set you apart</b></b></p><ul><li><p><span>Self-starter that identifies/responds to priority shifts with minimal supervision.</span></p></li><li><p><span>Experience designing and developing big data processing solutions using Dataflow/Apache Beam, Bigtable, BigQuery, PubSub, GCS, Composer/Airflow, and others</span></p></li><li><p><span>UI development (e.g. HTML, JavaScript, Angular and Bootstrap)</span></p></li><li><p><span>Experience with backend technologies such as JAVA/J2EE, SpringBoot, SOA and Microservices </span></p></li><li><p><span>Source code control management systems (e.g. SVN/Git, Github) and build tools like Maven &amp; Gradle.</span></p></li><li><p><span>Agile environments (e.g. Scrum, XP)</span></p></li><li><p><span>Relational databases (e.g. SQL Server, MySQL)</span></p></li><li><p><span>Atlassian tooling (e.g. JIRA, Confluence, and Github)</span></p></li><li><p><span>Developing with modern JDK (v1.7&#43;)</span></p></li><li><p><span>Automated Testing: JUnit, Selenium, LoadRunner, SoapUI</span></p></li></ul><p></p><p>We offer a hybrid work setting, comprehensive compensation and healthcare packages, attractive paid time off, and organizational growth potential through our online learning platform with guided career tracks.</p><p></p><p>Are you ready to power your possible? Apply today, and get started on a path toward an exciting new career at Equifax, where you can make a difference!</p><p></p><p></p><p><b>Primary Location: </b></p>IND-Pune-Equifax Analytics-PEC<p></p><p></p>IND-Trivandrum-Equifax Analytics-PEC<p></p><p></p><p><b>Function: </b></p>Function - Tech Dev and Client Services<p></p><p></p><p><b>Schedule: </b></p>Full time",
+    "location": "IND-Pune-Equifax Analytics-PEC",
+    "additionalLocations": [
+      "IND-Trivandrum-Equifax Analytics-PEC"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "J00174684",
+    "jobPostingId": "Software-Engineer_J00174684",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "India",
+      "id": "c4f78be1a8f14da0ab49ce1162348a5e"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "IND-Pune-Equifax Analytics-PEC",
+      "country": {
+        "descriptor": "India",
+        "id": "c4f78be1a8f14da0ab49ce1162348a5e",
+        "alpha2Code": "IN"
+      }
+    },
+    "externalUrl": "https://equifax.wd5.myworkdayjobs.com/External/job/IND-Pune-Equifax-Analytics-PEC/Software-Engineer_J00174684",
+    "questionnaireId": "3ffb4524b788100107d3425bcbb90000",
+    "timeLeftToApply": "6 days left to apply",
+    "endDate": "2026-05-25",
+    "jobPostingEndDateAsText": "End Date: May 25, 2026"
+  },
+  "hiringOrganization": {
+    "name": "6300 Equifax - India",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

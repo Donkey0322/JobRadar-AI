@@ -1,0 +1,144 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/zscaler/jobs/5124747007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 4626122007,
+  "location": {
+    "name": "Bangalore, IND"
+  },
+  "metadata": [
+    {
+      "id": 4203262007,
+      "name": "Employment Type",
+      "value": "Fulltime Employee",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4363861007,
+      "name": "Additional Job Post Location",
+      "value": [],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4363809007,
+      "name": "Division",
+      "value": "Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4391305007,
+      "name": "Geo/Region",
+      "value": "India",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 5124747007,
+  "updated_at": "2026-05-18T07:33:18-04:00",
+  "requisition_id": "260429_I02340",
+  "title": "Staff Software Development Engineer - Customer/Cloud Reliability",
+  "company_name": "Zscaler",
+  "first_published": "2026-05-11T12:56:19-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;About &lt;strong&gt;Zscaler&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Zscaler accelerates digital transformation to ensure our customers can be more agile, efficient, resilient, and secure. As an &lt;strong&gt;AI-forward enterprise&lt;/strong&gt;, we are constantly pushing the envelope, leveraging the world’s largest security data lake to power our cloud-native Zero Trust Exchange platform. This innovation protects our customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location.&lt;/p&gt;\n&lt;p&gt;Here, &lt;strong&gt;impact in your role matters more than title&lt;/strong&gt; and trust is built on results. We say, impact over activity. We seek innovators who actively use AI to amplify their impact and who thrive in an environment where we leverage intelligent systems to stay ahead of evolving threats. We believe in transparency and value &lt;strong&gt;constructive, honest debate&lt;/strong&gt;—we’re focused on getting to the best ideas, faster. We build high-performing teams that can make an impact quickly and with high quality. To do this, we are building a culture of execution centered on &lt;strong&gt;customer obsession&lt;/strong&gt;, collaboration, ownership, and accountability.&lt;/p&gt;\n&lt;p&gt;We value high-impact, high-accountability with a sense of urgency where you’re enabled to do your best work and embrace your potential. If you’re driven by purpose, thrive on solving complex challenges, and want to be part of the team that’s helping to secure the AI age, we invite you to bring your talents to Zscaler and help shape the future of cybersecurity.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Role&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We are looking for a Staff Software Engineer to join our Customer/Cloud Reliability SW Engineering team. This is a hybrid role reporting to the Director, SW Engineering, within the Software Engineering department. You will drive the technical evolution of our cloud reliability platforms, designing distributed software that enables autonomous detection and remediation of issues at enterprise scale. By leveraging agentic AI frameworks and deep systems expertise, you will reduce mitigation times and build the foundational tools that ensure our cloud services remain secure and highly available.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do (Role Expectations)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Managing and resolving high-impact customer escalations for enterprise products and services&lt;/li&gt;\n&lt;li&gt;Acting as a technical liaison between engineering and support teams to drive rapid issue resolution&lt;/li&gt;\n&lt;li&gt;Debugging and troubleshooting complex problems in cloud environments and operating systems (Linux/Unix)&lt;/li&gt;\n&lt;li&gt;Driving hotfixes, patch releases, and other corrective actions to maintain high service availability&lt;/li&gt;\n&lt;li&gt;Identifying and recommending enhancements to proactively improve product reliability and customer experience&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are (Success Profile)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You thrive in ambiguity. You&#39;re comfortable building the path as you walk it. You thrive in a dynamic environment, seeing ambiguity not as a hindrance, but as the raw material to build something meaningful.&lt;/li&gt;\n&lt;li&gt;You act like an owner. Your passion for the mission fuels your bias for action. You operate with integrity because you genuinely care about the outcome. True ownership involves leveraging dynamic range: the ability to navigate seamlessly between high-level strategy and hands-on execution.&lt;/li&gt;\n&lt;li&gt;You are a problem-solver. You love running towards the challenges because you are laser-focused on finding the solution, knowing that solving the hard problems delivers the biggest impact.&lt;/li&gt;\n&lt;li&gt;You are a high-trust collaborator. You are ambitious for the team, not just yourself. You embrace our challenge culture by giving and receiving ongoing feedback—knowing that candor delivered with clarity and respect is the truest form of teamwork and the fastest way to earn trust.&lt;/li&gt;\n&lt;li&gt;You are a learner. You have a true growth mindset and are obsessed with your own development, actively seeking feedback to become a better partner and a stronger teammate. You love what you do and you do it with purpose.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What We’re Looking for (Minimum Qualifications)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+&amp;nbsp;years of experience supporting enterprise products/services and handling customer escalations&lt;/li&gt;\n&lt;li&gt;In-depth knowledge of Linux/Unix operating systems and operating duplication principles&lt;/li&gt;\n&lt;li&gt;Strong understanding of networking concepts including TCP/IP stack performance&lt;/li&gt;\n&lt;li&gt;Demonstrated expertise in debugging issues in cloud environments&lt;/li&gt;\n&lt;li&gt;Experience in identity and access management (IAM), especially SAML&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What Will Make You Stand Out (Preferred Qualifications)&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong proficiency in C programming, data structures, and algorithms, with hands-on experience in POSIX multi-threading and low-level network/socket programming&lt;/li&gt;\n&lt;li&gt;Demonstrated experience diagnosing and troubleshooting complex issues across the stack, from low-level network performance (packet captures) to application-level APIs (Postman, cURL)&lt;/li&gt;\n&lt;li&gt;Conceptual or working knowledge of Zero Trust Networking/Security&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#Hybrid&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;#LI-GL2&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p data-pm-slice=&quot;1 3 []&quot;&gt;At Zscaler, we are committed to building a team that reflects the communities we serve and the customers we work with. We foster an inclusive environment that values all backgrounds and perspectives, emphasizing collaboration and belonging. Join us in our mission to make doing business seamless and secure.&lt;/p&gt;\n&lt;p&gt;Our Benefits program is one of the most important ways we support our employees. Zscaler proudly offers comprehensive and inclusive benefits to meet the diverse needs of our employees and their families throughout their life stages, including:&lt;/p&gt;\n&lt;div class=&quot;has-nudge&quot; data-nudge-id=&quot;5eb9419b-6a4d-4451-bfa6-e2eb96084be0&quot;&gt;\n&lt;ul&gt;\n&lt;li&gt;Various health plans&lt;/li&gt;\n&lt;li&gt;Time off plans for vacation and sick time&lt;/li&gt;\n&lt;li&gt;Parental leave options&lt;/li&gt;\n&lt;li&gt;Retirement options&lt;/li&gt;\n&lt;li&gt;Education reimbursement&lt;/li&gt;\n&lt;li&gt;In-office perks, and more!&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Learn more about Zscaler’s Future of Work strategy, hybrid working model, and benefits &lt;a href=&quot;https://www.zscaler.com/careers&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;By applying for this role, you adhere to applicable laws, regulations, and Zscaler policies, including those related to security and privacy standards and guidelines.&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;Zscaler is committed to providing equal employment opportunities to all individuals. We strive to create a workplace where employees are treated with respect and have the chance to succeed. All qualified applicants will be considered for employment without regard to race, color, religion, sex (including pregnancy or related medical conditions), age, national origin, sexual orientation, gender identity or expression, genetic information, disability status, protected veteran status, or any other characteristic protected by federal, state, or local laws. &lt;em&gt;See more information by clicking on the &lt;/em&gt;&lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf&quot;&gt;&lt;em&gt;Know Your Rights: Workplace Discrimination is Illegal &lt;/em&gt;&lt;/a&gt;&lt;em&gt;link.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Pay Transparency&lt;/p&gt;\n&lt;p&gt;Zscaler complies with all applicable federal, state, and local pay transparency rules.&lt;/p&gt;\n&lt;p&gt;Zscaler is committed to providing reasonable support (called accommodations or adjustments) in our recruiting processes for candidates who are differently abled, have long term conditions, mental health conditions or sincerely held religious beliefs, or who are neurodivergent or require pregnancy-related support.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4052364007,
+      "name": "Zero Trust Exchange",
+      "child_ids": [
+        4065752007,
+        4052367007,
+        4052366007,
+        4063090007,
+        4063091007,
+        4063092007,
+        4058564007,
+        4063093007,
+        4065646007,
+        4065647007,
+        4065648007,
+        4046320007,
+        4046246007,
+        4058563007,
+        4058562007,
+        4058565007,
+        4046244007,
+        4052368007,
+        4046243007,
+        4046242007,
+        4046225007,
+        4046240007,
+        4063150007,
+        4018320007,
+        4052406007,
+        4036096007,
+        4036106007,
+        4036104007,
+        4036105007,
+        4018288007,
+        4043631007,
+        4043629007,
+        4043630007,
+        4036103007,
+        4036101007,
+        4036100007,
+        4036102007,
+        4036097007,
+        4036098007,
+        4058571007,
+        4036099007,
+        4036094007,
+        4046326007,
+        4046172007,
+        4046175007,
+        4058570007,
+        4063513007,
+        4063514007,
+        4063515007,
+        4058568007,
+        4058569007,
+        4041579007,
+        4018284007,
+        4063511007,
+        4063512007,
+        4022264007,
+        4036095007,
+        4022265007,
+        4018319007,
+        4050996007,
+        4050997007,
+        4050998007,
+        4018321007,
+        4018313007,
+        4015505007,
+        4042855007,
+        4042854007,
+        4042856007,
+        4040218007,
+        4029174007,
+        4036111007,
+        4036112007,
+        4036113007,
+        4018285007
+      ],
+      "parent_id": 4017790007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4009751007,
+      "name": "Office - Bangalore, India",
+      "location": "Bangalore, IND",
+      "child_ids": [],
+      "parent_id": 4009663007
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lucidmotors/jobs/5136417007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 4631787007,
+  "location": {
+    "name": "Netherlands"
+  },
+  "metadata": [
+    {
+      "id": 4966939007,
+      "name": "Employee Class",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 9381284007,
+      "name": "HR Business Partner",
+      "value": {
+        "name": "Anneke Dirksen",
+        "email": "annekedirksen@lucidmotors.com",
+        "user_id": 4531134007,
+        "employee_id": "309195"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 13097521007,
+      "name": "Division",
+      "value": "Marketing",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433629007,
+      "name": "Job Function",
+      "value": "INT",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433628007,
+      "name": "Sub Function",
+      "value": "INTERN",
+      "value_type": "short_text"
+    }
+  ],
+  "id": 5136417007,
+  "updated_at": "2026-05-18T05:35:56-04:00",
+  "requisition_id": "80009178 #2 - May 13, 2026 10:22 AM",
+  "title": "Marketing Data & Analytics Intern",
+  "company_name": "Lucid Motors",
+  "first_published": "2026-05-15T12:01:36-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;u&gt;&lt;strong&gt;Leading the future in luxury electric and mobility&lt;/strong&gt;&lt;/u&gt;&lt;/div&gt;\n&lt;div&gt;At Lucid, we set out to introduce the most captivating, luxury electric vehicles that elevate the human experience and transcend the perceived limitations of space, performance, and intelligence. Vehicles that are intuitive, liberating, and designed for the future of mobility.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;We plan to lead in this new era of luxury electric by returning to the fundamentals of great design – where every decision we make is in service of the individual and environment. Because when you are no longer bound by convention, you are free to define your own experience.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Come work alongside some of the most accomplished minds in the industry. Beyond providing competitive salaries, we’re providing a community for innovators who want to make an immediate and significant impact. If you are driven to create a better, more sustainable future, then this is the right place for you.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;At Lucid Motors, we’re building the future of electric mobility and marketing plays a key role in how we tell that story, reach customers, and drive demand. As a &lt;strong&gt;Marketing Data &amp;amp; Analytics Intern&lt;/strong&gt;, you’ll help our marketing team make better, faster decisions by turning data into clear insights. You’ll work across channels (web, campaigns, paid media, etc.), help track performance from awareness to conversion, and support reporting that drives weekly priorities and long-term strategy. This is a great internship if you enjoy problem-solving, working with numbers, and seeing how data impacts real business decisions.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You’ll support marketing performance tracking, reporting, and analysis helping the team understand what’s working, what’s not, and where to focus next.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Collect and consolidate marketing data from multiple channels (campaigns, web traffic, funnel performance, etc.)&lt;/li&gt;\n&lt;li&gt;Track and report key performance metrics such as:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Campaign performance and ROI&lt;/li&gt;\n&lt;li&gt;Website traffic and engagement&lt;/li&gt;\n&lt;li&gt;Conversion rates across the funnel (upper-funnel awareness → lower-funnel conversion)&lt;/li&gt;\n&lt;li&gt;Customer acquisition cost (CAC) and related efficiency metrics&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Own the weekly marketing dashboard: update, maintain, and ensure it’s accurate and easy to use&lt;/li&gt;\n&lt;li&gt;Produce recurring reports (e.g., brand health, sales funnel, department KPIs) and support ad-hoc requests&lt;/li&gt;\n&lt;li&gt;Support monthly marketing budget reporting and basic performance-to-spend tracking&lt;/li&gt;\n&lt;li&gt;Support in maintaining and improving marketing forecasting models to enhance forecast accuracy and efficiency&lt;/li&gt;\n&lt;li&gt;Work with stakeholders across Marketing (and beyond) to interpret results and present insights clearly&lt;/li&gt;\n&lt;li&gt;Maintain data accuracy and consistency by performing regular checks/audits and aligning across sources&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re looking for someone who is curious, structured, and excited about using data to improve marketing performance.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in a Bachelor (HBO or WO), preferably in Marketing, Data Analytics, Business, Statistics, or a related field&lt;/li&gt;\n&lt;li&gt;Comfortable working with data and drawing conclusions (you don’t need to know everything, learning mindset matters)&lt;/li&gt;\n&lt;li&gt;Strong attention to detail and a commitment to accuracy&lt;/li&gt;\n&lt;li&gt;Clear communicator, able to summarize insights in a simple, structured way&lt;/li&gt;\n&lt;li&gt;Able to collaborate with a team and also manage tasks independently&lt;/li&gt;\n&lt;li&gt;Thrives in a fast-paced environment and can adapt when priorities change&lt;/li&gt;\n&lt;li&gt;Strong Excel and PowerPoint skills (required)&lt;/li&gt;\n&lt;li&gt;Genuine interest in marketing analytics and the automotive/EV space&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Nice to have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with tools like Google Analytics (GA/GA4), Tableau, Power BI, Looker Studio, or similar&lt;/li&gt;\n&lt;li&gt;Familiarity with Salesforce (or other CRM tools)&lt;/li&gt;\n&lt;li&gt;Basic knowledge of SQL and/or Python&lt;/li&gt;\n&lt;li&gt;Previous experience building dashboards or reporting packs&lt;/li&gt;\n&lt;li&gt;Familiarity with marketing funnel concepts and performance metrics (CTR, CVR, CPC, CAC, etc.)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll gain&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This internship is designed to help you build practical analytics skills while contributing to real marketing decisions.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Hands-on experience with real-world marketing performance data across channels and funnel stages&lt;/li&gt;\n&lt;li&gt;A strong foundation in dashboarding, reporting, KPI tracking, and insight storytelling&lt;/li&gt;\n&lt;li&gt;Exposure to how a premium EV brand approaches marketing strategy, measurement, and optimization&lt;/li&gt;\n&lt;li&gt;Mentorship and learning opportunities to grow your technical and professional skills&lt;/li&gt;\n&lt;li&gt;A collaborative office environment in Amsterdam and the chance to make a visible impact on marketing priorities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;\n&lt;p&gt;&lt;em data-olk-copy-source=&quot;MessageBody&quot;&gt;Lucid Motors is committed to maintaining a safe and trustworthy environment. As such, a background check may be required during the hiring process. This will be performed in line with European data protection laws, and candidates will be informed and asked to provide consent before the check is conducted.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Lucid, we don’t just welcome diversity - we celebrate it! Lucid Motors is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, national or ethnic origin, age, religion, disability, sexual orientation, gender, gender identity and expression, marital status, and any other characteristic protected under applicable local laws and regulations.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Additional Compensation and Benefits&lt;/strong&gt;: Lucid offers a wide range of competitive benefits, including medical, dental, vision, life insurance, disability insurance, vacation, and 401k. The successful candidate may also be eligible to participate in Lucid’s equity program and/or a discretionary annual incentive program, subject to the rules governing such programs. &amp;nbsp;(Cash or equity incentive awards, if any, will depend on various factors, including, without limitation, individual and company performance.)&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;By Submitting your application, you understand and agree that your personal data will be processed in accordance with our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://lucidmotors.com/media/document/candidate-privacy-notice.pdf&quot;&gt;Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;&lt;u&gt;To all recruitment agencies&lt;/u&gt;&lt;/strong&gt;: &lt;em&gt;Lucid Motors &lt;strong&gt;does not&lt;/strong&gt; accept agency resumes. Please do not forward resumes to our careers alias or other Lucid Motors employees. Lucid Motors is not responsible for any fees related to unsolicited resumes.&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4045933007,
+      "name": "Marketing",
+      "child_ids": [],
+      "parent_id": 4032361007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4027126007,
+      "name": "Amsterdam, NH",
+      "location": "Amsterdam, NH",
+      "child_ids": [],
+      "parent_id": 4027114007
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "jobPostingInfo": {
+    "id": "49c0b50373e61001a3b1c7d694de0000",
+    "title": "Consultant, Cloud Operations, Solutions for Enterprise Imaging",
+    "jobDescription": "<h1><b>Job Description Summary</b></h1>As a Consultant, Cloud Operations for Solutions for Enterprise Imaging, you will play a pivotal role in designing, implementing, and maintaining robust cloud-based solutions for enterprise imaging systems. You will leverage your expertise in cloud technologies, software development, and operational best practices to ensure high performance, reliability, and scalability of critical medical imaging infrastructure.<br><br>The team that you will be part of consists of technical specialists and integration experts delivering enterprise imaging solutions - radiology, cardiology, and digital pathology to customers worldwide.<p><br /> </p><p></p><p></p><h1><b>Job Description</b></h1><p></p><p><b>Job location: Cracow, Poland (hybrid model) </b></p><p><br /><b>Responsibilities</b></p><p></p><ul><li><p>Designing, developing, and implementing scalable and securing cloud-native applications and services for enterprise imaging solutions, leveraging Microservices Architecture and API Development best practices.</p></li><li><p>Collaborating with cross-functional teams to define technical requirements, architectural designs, and deployment strategies for cloud-based systems.</p></li><li><p>Leading and contributing to the full software development lifecycle, from conceptualization and design to testing, deployment, and ongoing maintenance.</p></li><li><p>Implementing and managing CI/CD pipelines and automation scripts using DevOps principles to streamline software delivery and operational efficiency.</p></li><li><p>Developing and maintaining robust monitoring, logging, and alerting solutions to ensure high System Reliability and proactive issue resolution.</p></li><li><p>Utilizing expertise in Databasing and Network Protocols to optimize data storage, retrieval, and communication within cloud environments.</p></li><li><p>Appling Object-Oriented Programming (OOP) and Software Design Architecture principles to build maintainable, extensible, and high-quality code.</p></li><li><p>Developing and implementing Test Automation strategies to ensure the quality and stability of cloud applications and services.</p></li><li><p>Exploring and integrating Edge Computing solutions to optimize performance and data processing for distributed imaging systems.</p></li><li><p>Engaging in Web Services Development to create and consume RESTful APIs for seamless integration with internal and external systems.</p></li></ul><p></p><p></p><p><b>Required Qualifications &amp; Skills </b></p><ul><li><p>Bachelor&#39;s or Master&#39;s degree in Computer Science, Software Engineering, or a related technical field.</p></li><li><p>Proven experience in Cloud Technology, with a strong understanding of major cloud platforms (e.g., AWS, Azure, GCP).</p></li><li><p>Proficiency in Databasing technologies (SQL and NoSQL).</p></li><li><p>Experience with Network Protocols and their application in cloud environments.</p></li><li><p>Fluent English.</p></li></ul><p></p><p><b>Preferred Qualifications</b></p><ul><li><p>Demonstrated expertise in Computer Programming, particularly with experience in Full Stack Development.</p></li><li><p>Solid understanding and practical experience with Microservices Architecture and API Development.</p></li><li><p>Strong background in DevOps practices, including CI/CD pipeline implementation and infrastructure as code.</p></li><li><p>Strong command of Object-Oriented Programming (OOP) principles and Software Design Architecture.</p></li><li><p>Proven ability to ensure System Reliability and implement effective monitoring and alerting solutions.</p></li><li><p>Experience with Test Automation frameworks and methodologies.</p></li><li><p>Familiarity with Web Services Development and RESTful API design.</p></li><li><p>Knowledge of Edge Computing concepts and their practical applications is a plus.</p></li></ul><p></p><p></p><p>#LI-MT1</p><p>#LI-Hybrid</p><p><br /> </p><h1>Pay Range</h1>For Poland based positions, Annual Salary Range:185,600.00PLN-255,200.00PLN<p></p><p>Placement within this range depends on:</p><ul><li><p>Relevant skills and qualifications</p></li><li><p>Prior job-related experience</p></li><li><p>Internal equity considerations (alignment with colleagues in similar roles) e.t.c.</p></li></ul><p></p><p>We review pay ranges regularly to ensure they remain competitive with the external market and align with our internal equity considerations.</p><p></p><h1>Benefits &amp; Rewards </h1><p>In addition to base salary, our employees have access to a comprehensive package of benefits and allowances, which may include:</p><p></p><ul><li><p>Health &amp; wellness coverage</p></li><li><p>Retirement and or savings plans</p></li><li><p>Allowances or benefits to support role requirements (e.g., mobility, transport, or role-specific needs such as a company car or allowance where applicable)</p></li><li><p>Work-life balance support (e.g., flexible working, leave programs)</p></li><li><p>Recognition and incentive programs aligned with performance and company success</p></li></ul><p></p><p>The exact benefits package depends on the role, location, and employment terms as specified in the Colleague Value Proposition document that will be shared prior to the interview or at the offer discussion stage.</p><p></p><ul><li><p><b>Performance Bonus:</b> Details to be shared during offer discussions</p></li></ul><p></p><h1><b>Additional Information</b></h1><p><b>Relocation Assistance Provided: </b>No</p><p></p><p></p><p></p><p></p><p></p>",
+    "location": "Krakow",
+    "additionalLocations": [
+      "Remote"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "R4037571",
+    "jobPostingId": "Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4037571-2",
+    "jobPostingSiteId": "GEHC_ExternalSite",
+    "country": {
+      "descriptor": "Poland",
+      "id": "131d5ac7e3ee4d7b962bdc96e498e412"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Krakow",
+      "country": {
+        "descriptor": "Poland",
+        "id": "131d5ac7e3ee4d7b962bdc96e498e412",
+        "alpha2Code": "PL"
+      }
+    },
+    "externalUrl": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Krakow/Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4037571-2",
+    "questionnaireId": "41acdf3e1cb4100197fa336d799d0000"
+  },
+  "hiringOrganization": {
+    "name": "I00929 GE Medical Systems Polska Sp. z o.o.",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Consultant, Cloud Operations, Solutions for Enterprise Imaging",
+      "externalPath": "/job/Krakow/Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4039438",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 27 Days Ago",
+      "startDate": "2026-04-21"
+    },
+    {
+      "title": "Sr. Consultant, Cloud Operations, Solutions for Enterprise Imaging",
+      "externalPath": "/job/Krakow/Sr-Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4037572-1",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 27 Days Ago",
+      "startDate": "2026-04-21"
+    },
+    {
+      "title": "Sr. Consultant, Cloud Operations, Solutions for Enterprise Imaging",
+      "externalPath": "/job/Krakow/Sr-Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4039808-1",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 27 Days Ago",
+      "startDate": "2026-04-21"
+    },
+    {
+      "title": "Application Consultant – Technical Implementation",
+      "externalPath": "/job/Krakow/Application-Consultant---Technical-Implementation_R4039806-1",
+      "timeType": "Full time",
+      "locationsText": "Krakow",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-17"
+    },
+    {
+      "title": "Lead Application Consultant – Technical Implementation",
+      "externalPath": "/job/Krakow/Lead-Application-Consultant---Technical-Implementation_R4039589-1",
+      "timeType": "Full time",
+      "locationsText": "Krakow",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-17"
+    }
+  ],
+  "userAuthenticated": false
+}

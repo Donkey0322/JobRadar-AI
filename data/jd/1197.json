@@ -1,0 +1,43 @@
+{
+  "jobPostingInfo": {
+    "id": "aaa8a2232d631000a1867680f0870000",
+    "title": "WXG - Backend Engineer",
+    "jobDescription": "<h1><b><u>Business Unit</u></b></h1>WeiXin Group(WXG) is responsible for the construction and operation of the Weixin ecosystem and leveraging Weixin's open platforms such as Official Accounts, Mini Programs, Weixin Pay, WeCom and search function. WXG provides solutions and connectivity for intelligent upgrades across all industries. WXG is also responsible for the development and operation of QQ Mail, WeRead and other products.<p></p><h1><b><u>What the Role Entails</u></b></h1>WeChat is seeking software engineers with expertise in backend and web frontend development to join the team. Candidates should already have experience in traditional 3-tier architecture (presentation, application, database), fullstack web development experience via a Node.js framework (Vue.js preferred) in addition to traditional software development experience in a compiled language such as Golang/C/C++/Rust. The role will work closely with data scientists, data engineers, security engineers, test engineers, DevOps engineers, and project managers to help develop internal tools and security systems for keeping WeChat users worldwide safe.<ul><li>Responsible for the design, development and testing of WeChat user security processe</li><li>Responsible for the design, development, and testing of WeChat&#39;s internal tools and platforms</li><li>Participate in requirements review, solution formulation, and solution review to meet project requirements</li><li>Keep abreast of best coding practices, writing high quality code and be able to deliver &amp; test system functions</li><li>Responsible for identifying and debugging system issues, and continuously improve existing services to enhance system performance and stability</li><li>Responsible for creating and maintaining technical documentation</li><li>A team player with strong communications skills to collaborate with relevant teams on projects</li></ul><p></p><h1><b><u>Who We Look For</u></b></h1><ul><li>More than 3 year of work experience in software development. Background in safety, risk control, and audits preferred</li><li>Expertise with full-stack web development on a Node.js framework (Vue.js preferred) with mainstream databases (MySQL/MariaDB, Postgres), caching technology (Redis) and common middleware such as Kafka and MQ</li><li>Development experience in compiled language, backend development using C/C&#43;&#43;</li><li>Familiar with commonly used system tools in the Linux environment including troubleshooting problems related to CPU, memory, and network I/O</li><li>Solid programming foundation, follows best practices, and has a sense of responsibility, and passion in computing and state-of-the-art technologies</li><li>Strong logical and critical thinking skills, good communication skills, and ability to understand and convey requirements accurately</li><li>Fluency in both English and Mandarin required to collaborate with stakeholders based in HQ and globally</li></ul><p></p><h1><u><b>Equal Employment Opportunity at Tencent</b></u></h1><p>As an equal opportunity employer, we firmly believe that diverse voices fuel our innovation and allow us to better serve our users and the community. We foster an environment where every employee of Tencent feels supported and inspired to achieve individual and common goals.</p>",
+    "location": "Singapore-CapitaSky",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "R107474",
+    "jobPostingId": "WXG---Backend-Engineer_R107474",
+    "jobPostingSiteId": "OA_Huoshui_Platform",
+    "country": {
+      "descriptor": "Singapore",
+      "id": "80938777cac5440fab50d729f9634969"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/tencent/oa_huoshui_platform/sidebarimage/c6ea69587c0310012d9018c02e040007",
+      "alt": "10000: Biz Intro =Y - Dept Into = N - Join us = N - Lang=EN - General"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Singapore-CapitaSky",
+      "country": {
+        "descriptor": "Singapore",
+        "id": "80938777cac5440fab50d729f9634969",
+        "alpha2Code": "SG"
+      }
+    },
+    "remoteType": "Onsite",
+    "externalUrl": "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/Singapore-CapitaSky/WXG---Backend-Engineer_R107474",
+    "questionnaireId": "6d61f21836e11001c7d3a86a059b0000",
+    "secondaryQuestionnaireId": "87c21034dbaf1000c58d109e103a0000"
+  },
+  "hiringOrganization": {
+    "name": "WeChat International Pte. Ltd.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

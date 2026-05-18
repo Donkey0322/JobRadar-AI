@@ -1,0 +1,69 @@
+{
+  "absolute_url": "https://ripple.com/careers/all-jobs/job/7595638?gh_jid=7595638",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3356944,
+  "location": {
+    "name": "Dublin, Ireland"
+  },
+  "metadata": [
+    {
+      "id": 6527,
+      "name": "Worker Sub - Type",
+      "value": "Regular",
+      "value_type": "single_select"
+    },
+    {
+      "id": 16961716,
+      "name": "Time Type",
+      "value": "Full time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 16961117,
+      "name": "Primary Location",
+      "value": "Dublin Office, GTreasury",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22682917,
+      "name": "Additional Locations",
+      "value": null,
+      "value_type": "multi_select"
+    }
+  ],
+  "id": 7595638,
+  "updated_at": "2026-05-18T06:58:57-04:00",
+  "requisition_id": "26091",
+  "title": "Staff Software Engineer, .NET",
+  "company_name": "Ripple ",
+  "first_published": "2026-02-23T23:18:22-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;GTreasury, now a Ripple solution, was acquired by Ripple in 2025, marking a significant expansion into the multi-trillion-dollar corporate finance arena.&lt;/p&gt;\n&lt;p&gt;GTreasury has more than 40 years of experience supporting some of the world’s largest and most sophisticated companies. Integrating its treasury command center into Ripple’s technology stack gives corporates the ability to move, manage and optimise liquidity in real-time, across traditional and digital assets, under one expanded umbrella.&lt;/p&gt;\n&lt;p&gt;Join us to build the future of corporate treasury and the infrastructure that powers the Internet of Value.&lt;/p&gt;\n&lt;p&gt;We are seeking a Staff Software Engineer (.NET) who can operate at the intersection of deep technical expertise and broad organisational influence.&lt;br&gt;This role is for an engineer who shapes systems and teams — someone who identifies the most important problems, drives cross-functional solutions, and makes everyone around them more effective.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead the architecture and delivery of complex, high-impact initiatives&amp;nbsp;across systems and teams&lt;/li&gt;\n&lt;li&gt;Define and drive technical standards, patterns, and best practices across&amp;nbsp;engineering&lt;/li&gt;\n&lt;li&gt;Own the long-term health of critical systems, including performance,&amp;nbsp;reliability, and scalability&lt;/li&gt;\n&lt;li&gt;Partner with senior leadership, product, and platform teams to align&amp;nbsp;technical direction with business goals&lt;/li&gt;\n&lt;li&gt;Mentor senior and mid-level engineers through design reviews, pairing,&amp;nbsp;and direct feedback&lt;/li&gt;\n&lt;li&gt;Produce high-quality technical documentation that enables faster, better&amp;nbsp;decisions at scale&lt;/li&gt;\n&lt;li&gt;Proactively identify and address systemic risks, technical debt, and&amp;nbsp;architectural gaps&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep, proven expertise with production .NET / C# systems at scale&lt;/li&gt;\n&lt;li&gt;Track record of leading cross-team technical initiatives from ambiguity to delivery&lt;/li&gt;\n&lt;li&gt;Strong architectural instincts and the ability to communicate tradeoffs clearly to both engineers and non-engineers&lt;/li&gt;\n&lt;li&gt;Multiplier mindset — someone who makes the engineers around them more effective&lt;/li&gt;\n&lt;li&gt;Exceptional judgment on when to move fast and when to slow down and get it right&lt;/li&gt;\n&lt;li&gt;The ability to drive alignment across teams and functions without formal authority&lt;/li&gt;\n&lt;li&gt;High bar for quality, ownership, and accountability — not just for your own work, but for the team&#39;s&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;hr&gt;\n&lt;p&gt;&lt;strong&gt;WHO WE ARE:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Do Your Best Work&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The opportunity to build in a fast-paced start-up environment with experienced industry leaders&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A learning environment where you can dive deep into the latest technologies and make an impact.&amp;nbsp; A professional development budget to support other modes of learning.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Thrive in an environment where no matter what race, ethnicity, gender, origin, or culture they identify with, every employee is a respected, valued, and empowered part of the team.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In-office collaboration for moments that matter is important to our culture, and we give managers and teams the flexibility to decide which 10+ days a month they come in.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bi-weekly all-company meeting - business updates and ask me anything style discussion with our Leadership Team&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We come together for moments that matter which include team offsites, team bonding activities, happy hours and more!&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Take Control of Your Finances&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Competitive salary, bonuses, and equity&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Competitive benefits that cover physical and mental healthcare, retirement, family forming, and family support&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Employee giving match&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Mobile phone stipend&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Take Care of Yourself&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;R&amp;amp;R days so you can rest and recharge&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Generous wellness reimbursement and weekly onsite &amp;amp; virtual programming&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Generous vacation policy - work with your manager to take time off when you need it&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Industry-leading parental leave policies. Family planning benefits.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Catered lunches, fully-stocked kitchens with premium snacks/beverages, and plenty of fun events&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;em data-stringify-type=&quot;italic&quot;&gt;Benefits listed above are for full-time employees.&amp;nbsp;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;hr&gt;\n&lt;div&gt;&lt;em&gt;Ripple is an Equal Opportunity Employer. We’re committed to building a diverse and inclusive team. We do not discriminate against qualified employees or applicants because of race, color, religion, gender identity, sex, sexual identity, pregnancy, national origin, ancestry, citizenship, age, marital status, physical disability, mental disability, medical condition, military status, or any other characteristic protected by local law or ordinance.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;em&gt;Please find our &lt;a href=&quot;https://ripple.com/legal/eu-privacy-notice/&quot; target=&quot;_blank&quot;&gt;UK/EU Applicant Privacy Notice &lt;/a&gt;and our &lt;a href=&quot;https://ripple.com/legal/ca-applicant-privacy-notice/&quot; target=&quot;_blank&quot;&gt;California Applicant Privacy Notice&lt;/a&gt; for reference.&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 1780,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 83621,
+      "name": "Dublin, Ireland",
+      "location": "Dublin, Ireland",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
