@@ -12,7 +12,7 @@ const parsedConfig = ConfigSchema.parse(config);
 
 export const DATA_PATH = path.join(process.cwd(), "data");
 export const URLS_PATH = path.join(DATA_PATH, "urls.json");
-export const JOB_PATH = path.join(DATA_PATH, "sent-jobs.json");
+export const JOB_PATH = path.join(DATA_PATH, "jobs.ndjson");
 export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 

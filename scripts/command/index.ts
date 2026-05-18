@@ -24,4 +24,31 @@ sync
     await syncDiscover();
   });
 
+const notify = program.command("notify");
+
+notify.command("latest").action(async () => {
+  const { default: notifyLatest } = await import("./notify/latest");
+
+  await notifyLatest();
+});
+
+notify
+  .command("range")
+  .argument("<from>")
+  .argument("<to>")
+  .action(async (from, to) => {
+    const { default: notifyRange } = await import("./notify/range");
+
+    await notifyRange(from, to);
+  });
+
+notify
+  .command("commit")
+  .argument("<commit>")
+  .action(async (commit) => {
+    const { default: notifyCommit } = await import("./notify/commit");
+
+    await notifyCommit(commit);
+  });
+
 program.parse();

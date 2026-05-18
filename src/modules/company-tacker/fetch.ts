@@ -72,8 +72,8 @@ export default async function discoverJobs() {
 
   logger.info(
     {
-      jobCount: inUSJobs?.length ?? 0,
-      durationSec: ((endTime - startTime) / 1000).toFixed(2),
+      count: inUSJobs?.length ?? 0,
+      duration: ((endTime - startTime) / 1000).toFixed(2),
     },
     "🔍 Discover jobs finished"
   );

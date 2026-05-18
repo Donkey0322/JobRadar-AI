@@ -1,7 +1,6 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"],
-    "full-time": ["entry level"]
+    "intern": ["summer intern", "off-season intern"]
   },
   "sender": {
     "host": "smtp.gmail.com",
