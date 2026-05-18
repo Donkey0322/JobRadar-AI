@@ -49,12 +49,12 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>) {
         ? data.items?.[0]?.organizationsFacet[0].Name
         : "";
 
-    const interns: OracleCloudJob[] = data.items?.[0]?.requisitionList?.filter(
+    const jobs: OracleCloudJob[] = data.items?.[0]?.requisitionList?.filter(
       (job: OracleCloudJob) =>
         isTarget(job.Title) && !urls.has(composeUrl(company, job.Id)) && withinDays(job.PostedDate)
     );
 
-    return interns.map((job) => ({
+    return jobs.map((job) => ({
       company: capitalize(companyName),
       role: job.Title,
       link: composeUrl(company, job.Id),

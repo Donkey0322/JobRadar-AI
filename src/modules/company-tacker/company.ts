@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import { URL } from "url";
 
+import { COMPANY_PATH } from "@/constants";
+
 import type { Company } from "./type";
 
 import { urlToAshbyCompany } from "./ats/ashby";
@@ -12,8 +14,6 @@ import { urlToOracleCloudCompany } from "./ats/oraclecloud";
 import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
-
-import { COMPANY_PATH } from "@/constants";
 
 function extractCompany(urlStr: string): Company | null {
   try {

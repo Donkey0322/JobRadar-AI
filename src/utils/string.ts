@@ -66,8 +66,8 @@ export function normalizeSeason(input: string): string {
     return "unsure";
   }
 
-  if (cleaned.toLowerCase() === "new grad") {
-    return "New Grad";
+  if (cleaned.toLowerCase() === "entry level") {
+    return "Entry Level";
   }
 
   const parts = cleaned.split(/\s+/);

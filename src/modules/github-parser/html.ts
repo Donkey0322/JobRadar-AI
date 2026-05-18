@@ -1,5 +1,7 @@
 import * as cheerio from "cheerio";
 
+import { YEAR } from "@/constants";
+
 import type { Job, Source } from "@/types";
 
 import { cleanLink, containsExcludedSymbols, normalizeSeason } from "@/utils/string";
@@ -52,7 +54,7 @@ export default function parseHtml(html: string, source: Source): Job[] {
     // | Company | Role | Location | Season | Application/Link | Age |
     const cols = tds.map((_, td) => $(td).text().trim()).get();
     if (cols.length === 5) {
-      const season = source.type === Target.NEW_GRAD ? "New Grad" : "2026 Summer";
+      const season = source.type === Target.ENTRY_LEVEL ? "Entry Level" : `${YEAR} Summer`;
       cols.splice(3, 0, season);
       tds.splice(3, 0, `<td>${season}</td>`);
     }

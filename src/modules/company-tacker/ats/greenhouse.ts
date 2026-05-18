@@ -56,14 +56,14 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>) {
       return [];
     }
 
-    const interns: GreenhouseJob[] = data.jobs.filter(
+    const jobs: GreenhouseJob[] = data.jobs.filter(
       (job: GreenhouseJob) =>
         isTarget(job.title) &&
         !urls.has(job.absolute_url) &&
         (withinDays(job.first_published) || withinDays(job.updated_at))
     );
 
-    return interns.map((job) => ({
+    return jobs.map((job) => ({
       company: job.company_name,
       role: job.title,
       link: job.absolute_url,

@@ -44,14 +44,14 @@ export async function fetchSmartRecruiters(company: Company, urls: Set<string>) 
       return [];
     }
 
-    const interns: SmartRecruitersJob[] = data.content.filter(
+    const jobs: SmartRecruitersJob[] = data.content.filter(
       (job: SmartRecruitersJob) =>
         isTarget(job.name) &&
         !urls.has(`${company.domain}/${company.name}/${job.id}`) &&
         withinDays(job.releasedDate)
     );
 
-    return interns.map((job) => ({
+    return jobs.map((job) => ({
       company: capitalize(job.company.name ?? ""),
       role: job.name,
       link: `${company.domain}/${company.name}/${job.id}`,
