@@ -1,0 +1,249 @@
+{"validThrough":"2027-05-18T00:00:00.000Z","employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Details<\/h2>\n<p><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Berkley Specialty Excess, a W. R. Berkley Company, is a wholesale-dedicated excess and surplus lines commercial insurance carrier. We specialize in underwriting difficult-to-place moderate to high-risk commercial business looking for creative solutions to new and unusual complex Environmental and Energy risks. <\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Company URL:&nbsp;&nbsp;https://www.berkleyse.com/<\/p>\n<p>&nbsp;<\/p>\n<p>The company is an equal opportunity employer.<\/p>\n<h2>Responsibilities<\/h2>\n<p>We are seeking a highly motivated <strong>Technical Innovation Intern<\/strong> to support the design, development, and implementation of automation and AI-driven solutions across our operations and technology teams. This role is ideal for a college senior or MBA candidate with a strong technical foundation and interest in applying emerging technologies (Python, AI, and Microsoft Power Platform) to real-world business challenges.<\/p>\n<p>&nbsp;<\/p>\n<p>The intern will work on high-impact initiatives focused on workflow automation, data integration, and AI-enabled process improvements. Key functions will include but are not limited to:<\/p>\n<p>&nbsp;<\/p>\n<p>Python Development<\/p>\n<ul>\n <li>Build and maintain Python scripts for data processing, API integrations, and automation use cases<\/li>\n <li>Support development of tools that streamline underwriting, operations, and reporting workflows<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>AI &amp; Prompt Engineering<\/p>\n<ul>\n <li>Design, test, and optimize AI prompts for business use cases (e.g., summarization, document processing, decision support)<\/li>\n <li>Assist in evaluating AI tools (e.g., Copilot, LLM-based solutions) for operational efficiency gains<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Power Platform Development<\/p>\n<ul>\n <li>Develop solutions using Microsoft Power Platform, including Power Automate, Power Apps, and Power BI<\/li>\n <li>Help identify opportunities to digitize manual processes and improve workflow efficiencyCollaborate on low-code solutions that integrate with enterprise systems<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Process Automation &amp; Integration<\/p>\n<ul>\n <li>Partner with business and technology teams to map processes and identify automation opportunities<\/li>\n <li>Assist with API-based integrations and data pipelines between internal and external systems<\/li>\n <li>Document technical solutions and support testing and deployment<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Collaboration &amp; Communication<\/p>\n<ul>\n <li>Work cross-functionally with underwriting, operations, IT, and data teams<\/li>\n <li>Participate in agile-style working sessions, solution design discussions, and testing cycles<\/li>\n <li>Present findings, demos, and recommendations to stakeholders<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>What You Will Gain<\/p>\n<ul>\n <li>Hands-on experience building automation and AI solutions<\/li>\n <li>Exposure to real-world insurance operations and underwriting workflows<\/li>\n <li>Opportunity to contribute to enterprise innovation initiatives<\/li>\n <li>Mentorship from technology and business leaders<\/li>\n <li>Experience in a collaborative, cross-functional environment<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Example Projects<\/p>\n<ul>\n <li>Automating data collection or reporting workflows using Python and APIs<\/li>\n <li>Building Power Automate flows to streamline processes<\/li>\n <li>Developing AI prompt libraries for underwriting or operations<\/li>\n <li>Creating apps or dashboards to improve team visibility<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Work Environment<\/p>\n<ul>\n <li>Hybrid or remote (depending on business needs)<\/li>\n <li>Fast-paced, innovation-focused team<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p>Education<\/p>\n<ul>\n <li>Current undergraduate (junior/senior) or MBA student<\/li>\n <li>Preferred majors: Computer Science, Data Science, Engineering, Information Systems, or related field<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Technical Skills<\/p>\n<ul>\n <li>Proficiency in Python (required)<\/li>\n <li>Familiarity with APIs, data handling (JSON, CSV), and basic software development practices<\/li>\n <li>Exposure to Microsoft Power Platform preferred<\/li>\n <li> Interest in AI/ML concepts and prompt engineering<\/li>\n<\/ul>\n<p>Additional Skills<\/p>\n<ul>\n <li>Strong analytical and problem-solving capabilities<\/li>\n <li>Ability to translate business problems into technical solutions<\/li>\n <li>Excellent communication and documentation skills<\/li>\n<\/ul>\n<p>Preferred Experience<\/p>\n<ul>\n <li>Experience with process automation or workflow tools<\/li>\n <li>Data analysis or visualization<\/li>\n <li>AI tools (e.g., ChatGPT, Copilot)<\/li>\n <li>Low-code/no-code platforms<\/li>\n<\/ul>\n<h2>Additional Company Details<\/h2>We do not accept any unsolicited resumes from external recruiting agencies or firms. \n<h2>Sponsorship Details<\/h2>Sponsorship not Offered for this Role","industry":"Insurance","directApply":true,"title":"Semester Underwriting Intern","@context":"http://schema.org","url":"https://careers-berkley.icims.com/jobs/12816/semester-underwriting-intern/job","hiringOrganization":{"@type":"Organization","name":"Berkley","sameAs":"UNAVAILABLE"},"responsibilities":"We are seeking a highly motivated Technical Innovation Intern to support the design, development, and implementation of automation and AI-driven solutions across our operations and technology teams. This role is ideal for a college senior or MBA candidate with a strong technical foundation and interest in applying emerging technologies (Python, AI, and Microsoft Power Platform) to real-world business challenges.\r\n \r\nThe intern will work on high-impact initiatives focused on workflow automation, data integration, and AI-enabled process improvements. Key functions will include but are not limited to:\r\n \r\nPython Development\r\n- Build and maintain Python scripts for data processing, API integrations, and automation use cases\r\n- Support development of tools that streamline underwriting, operations, and reporting workflows\r\n \r\nAI & Prompt Engineering\r\n- Design, test, and optimize AI prompts for business use cases (e.g., summarization, document processing, decision support)\r\n- Assist in evaluating AI tools (e.g., Copilot, LLM-based solutions) for operational efficiency gains\r\n \r\nPower Platform Development\r\n- Develop solutions using Microsoft Power Platform, including Power Automate, Power Apps, and Power BI\r\n- Help identify opportunities to digitize manual processes and improve workflow efficiencyCollaborate on low-code solutions that integrate with enterprise systems\r\n \r\nProcess Automation & Integration\r\n- Partner with business and technology teams to map processes and identify automation opportunities\r\n- Assist with API-based integrations and data pipelines between internal and external systems\r\n- Document technical solutions and support testing and deployment\r\n \r\nCollaboration & Communication\r\n- Work cross-functionally with underwriting, operations, IT, and data teams\r\n- Participate in agile-style working sessions, solution design discussions, and testing cycles\r\n- Present findings, demos, and recommendations to stakeholders\r\n \r\nWhat You Will Gain\r\n- Hands-on experience building automation and AI solutions\r\n- Exposure to real-world insurance operations and underwriting workflows\r\n- Opportunity to contribute to enterprise innovation initiatives\r\n- Mentorship from technology and business leaders\r\n- Experience in a collaborative, cross-functional environment\r\n \r\nExample Projects\r\n- Automating data collection or reporting workflows using Python and APIs\r\n- Building Power Automate flows to streamline processes\r\n- Developing AI prompt libraries for underwriting or operations\r\n- Creating apps or dashboards to improve team visibility\r\n \r\nWork Environment\r\n- Hybrid or remote (depending on business needs)\r\n- Fast-paced, innovation-focused team","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"4820 Lake Brook Drive","@type":"PostalAddress","postalCode":"23060","addressLocality":"Glen Allen","addressRegion":"VA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-05-18T00:00:00.000Z","experienceRequirements":"Internship","occupationalCategory":"Intern"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Semester Underwriting Intern in Glen Allen, Virginia | Careers at VA, Glen Allen - 4820 Lake Brook - Suite 200
+var isMobile = true;
+var link = 'https://careers-berkley.icims.com/connect/interests?csrf=E2F1EDC10836216C&hashed=-435592702';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_182.1.0.260506-b1a9b1e00fc-11-2/script/portal/login.js');
+var jobId = "12816";
+var fbJobId = "017b9277-90b8-351a-8ad8-2e524fbeb4c2";
+var icimsSD = {"person":{},"companyName":"Berkley","env":"prod","job":{"zipCode":"23060","jid":12816,"jobUrls":[{"name":"Careers (External)","url":"https://careers-berkley.icims.com/jobs/12816/semester-underwriting-intern/job"}],"location":"Glen Allen, Virginia, United States","title":"Semester Underwriting Intern"},"version":"1.015","key":"2","cid":"IEli8WAsVh+sJj69C6f1Q3RCVoDW/jcixerrXyjShOT7i2RdJpPxf76D87RA"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-berkley.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+Berkley
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"2DWADS3TbTtnHyxqK","type":"careers"},"release":"182.1.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":9513,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave4","build":"platform_182.1.0.260506-b1a9b1e00fc-11-2","icimsGAAnonymizeIP":true,"customerId":"8B1q9CiRMV582kEt","region":"US","job":{"positionType":"Berkley Specialty Excess","company":"VA, Glen Allen - 4820 Lake Brook - Suite 200","location":{"zip":"23060","country":"USA","city":"Glen Allen","state":"VA"},"id":"38F7S4UWtYY3L34eL","idRaw":12816,"title":"Semester Underwriting Intern","category":"Intern","postedDate":"2026-05-18"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"validThrough":"2027-05-18T00:00:00.000Z","employmentType":"OTHER","@type":"JobPosting","description":"<h2>Company Details<\/h2>\n<p><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Berkley Specialty Excess, a W. R. Berkley Company, is a wholesale-dedicated excess and surplus lines commercial insurance carrier. We specialize in underwriting difficult-to-place moderate to high-risk commercial business looking for creative solutions to new and unusual complex Environmental and Energy risks. <\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Company URL:&nbsp;&nbsp;https://www.berkleyse.com/<\/p>\n<p>&nbsp;<\/p>\n<p>The company is an equal opportunity employer.<\/p>\n<h2>Responsibilities<\/h2>\n<p>We are seeking a highly motivated <strong>Technical Innovation Intern<\/strong> to support the design, development, and implementation of automation and AI-driven solutions across our operations and technology teams. This role is ideal for a college senior or MBA candidate with a strong technical foundation and interest in applying emerging technologies (Python, AI, and Microsoft Power Platform) to real-world business challenges.<\/p>\n<p>&nbsp;<\/p>\n<p>The intern will work on high-impact initiatives focused on workflow automation, data integration, and AI-enabled process improvements. Key functions will include but are not limited to:<\/p>\n<p>&nbsp;<\/p>\n<p>Python Development<\/p>\n<ul>\n <li>Build and maintain Python scripts for data processing, API integrations, and automation use cases<\/li>\n <li>Support development of tools that streamline underwriting, operations, and reporting workflows<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>AI &amp; Prompt Engineering<\/p>\n<ul>\n <li>Design, test, and optimize AI prompts for business use cases (e.g., summarization, document processing, decision support)<\/li>\n <li>Assist in evaluating AI tools (e.g., Copilot, LLM-based solutions) for operational efficiency gains<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Power Platform Development<\/p>\n<ul>\n <li>Develop solutions using Microsoft Power Platform, including Power Automate, Power Apps, and Power BI<\/li>\n <li>Help identify opportunities to digitize manual processes and improve workflow efficiencyCollaborate on low-code solutions that integrate with enterprise systems<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Process Automation &amp; Integration<\/p>\n<ul>\n <li>Partner with business and technology teams to map processes and identify automation opportunities<\/li>\n <li>Assist with API-based integrations and data pipelines between internal and external systems<\/li>\n <li>Document technical solutions and support testing and deployment<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Collaboration &amp; Communication<\/p>\n<ul>\n <li>Work cross-functionally with underwriting, operations, IT, and data teams<\/li>\n <li>Participate in agile-style working sessions, solution design discussions, and testing cycles<\/li>\n <li>Present findings, demos, and recommendations to stakeholders<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>What You Will Gain<\/p>\n<ul>\n <li>Hands-on experience building automation and AI solutions<\/li>\n <li>Exposure to real-world insurance operations and underwriting workflows<\/li>\n <li>Opportunity to contribute to enterprise innovation initiatives<\/li>\n <li>Mentorship from technology and business leaders<\/li>\n <li>Experience in a collaborative, cross-functional environment<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Example Projects<\/p>\n<ul>\n <li>Automating data collection or reporting workflows using Python and APIs<\/li>\n <li>Building Power Automate flows to streamline processes<\/li>\n <li>Developing AI prompt libraries for underwriting or operations<\/li>\n <li>Creating apps or dashboards to improve team visibility<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Work Environment<\/p>\n<ul>\n <li>Hybrid or remote (depending on business needs)<\/li>\n <li>Fast-paced, innovation-focused team<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p>Education<\/p>\n<ul>\n <li>Current undergraduate (junior/senior) or MBA student<\/li>\n <li>Preferred majors: Computer Science, Data Science, Engineering, Information Systems, or related field<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p>Technical Skills<\/p>\n<ul>\n <li>Proficiency in Python (required)<\/li>\n <li>Familiarity with APIs, data handling (JSON, CSV), and basic software development practices<\/li>\n <li>Exposure to Microsoft Power Platform preferred<\/li>\n <li> Interest in AI/ML concepts and prompt engineering<\/li>\n<\/ul>\n<p>Additional Skills<\/p>\n<ul>\n <li>Strong analytical and problem-solving capabilities<\/li>\n <li>Ability to translate business problems into technical solutions<\/li>\n <li>Excellent communication and documentation skills<\/li>\n<\/ul>\n<p>Preferred Experience<\/p>\n<ul>\n <li>Experience with process automation or workflow tools<\/li>\n <li>Data analysis or visualization<\/li>\n <li>AI tools (e.g., ChatGPT, Copilot)<\/li>\n <li>Low-code/no-code platforms<\/li>\n<\/ul>\n<h2>Additional Company Details<\/h2>We do not accept any unsolicited resumes from external recruiting agencies or firms. \n<h2>Sponsorship Details<\/h2>Sponsorship not Offered for this Role","industry":"Insurance","directApply":true,"title":"Semester Underwriting Intern","@context":"http://schema.org","url":"https://careers-berkley.icims.com/jobs/12816/semester-underwriting-intern/job","hiringOrganization":{"@type":"Organization","name":"Berkley","sameAs":"UNAVAILABLE"},"responsibilities":"We are seeking a highly motivated Technical Innovation Intern to support the design, development, and implementation of automation and AI-driven solutions across our operations and technology teams. This role is ideal for a college senior or MBA candidate with a strong technical foundation and interest in applying emerging technologies (Python, AI, and Microsoft Power Platform) to real-world business challenges.\r\n \r\nThe intern will work on high-impact initiatives focused on workflow automation, data integration, and AI-enabled process improvements. Key functions will include but are not limited to:\r\n \r\nPython Development\r\n- Build and maintain Python scripts for data processing, API integrations, and automation use cases\r\n- Support development of tools that streamline underwriting, operations, and reporting workflows\r\n \r\nAI & Prompt Engineering\r\n- Design, test, and optimize AI prompts for business use cases (e.g., summarization, document processing, decision support)\r\n- Assist in evaluating AI tools (e.g., Copilot, LLM-based solutions) for operational efficiency gains\r\n \r\nPower Platform Development\r\n- Develop solutions using Microsoft Power Platform, including Power Automate, Power Apps, and Power BI\r\n- Help identify opportunities to digitize manual processes and improve workflow efficiencyCollaborate on low-code solutions that integrate with enterprise systems\r\n \r\nProcess Automation & Integration\r\n- Partner with business and technology teams to map processes and identify automation opportunities\r\n- Assist with API-based integrations and data pipelines between internal and external systems\r\n- Document technical solutions and support testing and deployment\r\n \r\nCollaboration & Communication\r\n- Work cross-functionally with underwriting, operations, IT, and data teams\r\n- Participate in agile-style working sessions, solution design discussions, and testing cycles\r\n- Present findings, demos, and recommendations to stakeholders\r\n \r\nWhat You Will Gain\r\n- Hands-on experience building automation and AI solutions\r\n- Exposure to real-world insurance operations and underwriting workflows\r\n- Opportunity to contribute to enterprise innovation initiatives\r\n- Mentorship from technology and business leaders\r\n- Experience in a collaborative, cross-functional environment\r\n \r\nExample Projects\r\n- Automating data collection or reporting workflows using Python and APIs\r\n- Building Power Automate flows to streamline processes\r\n- Developing AI prompt libraries for underwriting or operations\r\n- Creating apps or dashboards to improve team visibility\r\n \r\nWork Environment\r\n- Hybrid or remote (depending on business needs)\r\n- Fast-paced, innovation-focused team","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"4820 Lake Brook Drive","@type":"PostalAddress","postalCode":"23060","addressLocality":"Glen Allen","addressRegion":"VA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-05-18T00:00:00.000Z","experienceRequirements":"Internship","occupationalCategory":"Intern"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Semester Underwriting Intern
+Location Name
+VA, Glen Allen - 4820 Lake Brook - Suite 200
+ID
+2025-12816
+Date Posted
+2 hours ago(5/18/2026 9:50 PM)
+Company
+Berkley Specialty Excess
+Primary Location
+US-VA-Glen Allen
+Category
+Intern
+Company Details
+Berkley Specialty Excess, a W. R. Berkley Company, is a wholesale-dedicated excess and surplus lines commercial insurance carrier. We specialize in underwriting difficult-to-place moderate to high-risk commercial business looking for creative solutions to new and unusual complex Environmental and Energy risks. Company URL: https://www.berkleyse.com/ The company is an equal opportunity employer.
+Responsibilities
+We are seeking a highly motivated Technical Innovation Intern to support the design, development, and implementation of automation and AI-driven solutions across our operations and technology teams. This role is ideal for a college senior or MBA candidate with a strong technical foundation and interest in applying emerging technologies (Python, AI, and Microsoft Power Platform) to real-world business challenges. The intern will work on high-impact initiatives focused on workflow automation, data integration, and AI-enabled process improvements. Key functions will include but are not limited to: Python DevelopmentBuild and maintain Python scripts for data processing, API integrations, and automation use casesSupport development of tools that streamline underwriting, operations, and reporting workflows AI & Prompt EngineeringDesign, test, and optimize AI prompts for business use cases (e.g., summarization, document processing, decision support)Assist in evaluating AI tools (e.g., Copilot, LLM-based solutions) for operational efficiency gains Power Platform DevelopmentDevelop solutions using Microsoft Power Platform, including Power Automate, Power Apps, and Power BIHelp identify opportunities to digitize manual processes and improve workflow efficiencyCollaborate on low-code solutions that integrate with enterprise systems Process Automation & IntegrationPartner with business and technology teams to map processes and identify automation opportunitiesAssist with API-based integrations and data pipelines between internal and external systemsDocument technical solutions and support testing and deployment Collaboration & CommunicationWork cross-functionally with underwriting, operations, IT, and data teamsParticipate in agile-style working sessions, solution design discussions, and testing cyclesPresent findings, demos, and recommendations to stakeholders What You Will GainHands-on experience building automation and AI solutionsExposure to real-world insurance operations and underwriting workflowsOpportunity to contribute to enterprise innovation initiativesMentorship from technology and business leadersExperience in a collaborative, cross-functional environment Example ProjectsAutomating data collection or reporting workflows using Python and APIsBuilding Power Automate flows to streamline processesDeveloping AI prompt libraries for underwriting or operationsCreating apps or dashboards to improve team visibility Work EnvironmentHybrid or remote (depending on business needs)Fast-paced, innovation-focused team
+Qualifications
+EducationCurrent undergraduate (junior/senior) or MBA studentPreferred majors: Computer Science, Data Science, Engineering, Information Systems, or related field Technical SkillsProficiency in Python (required)Familiarity with APIs, data handling (JSON, CSV), and basic software development practicesExposure to Microsoft Power Platform preferred Interest in AI/ML concepts and prompt engineeringAdditional SkillsStrong analytical and problem-solving capabilitiesAbility to translate business problems into technical solutionsExcellent communication and documentation skillsPreferred ExperienceExperience with process automation or workflow toolsData analysis or visualizationAI tools (e.g., ChatGPT, Copilot)Low-code/no-code platforms
+Additional Company Details
+We do not accept any unsolicited resumes from external recruiting agencies or firms.
+Sponsorship Details
+Sponsorship not Offered for this Role
+Options
+Create Profile & ApplyApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Connect With Us!
+Not ready to apply? Connect with us for general consideration.
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;margin:0 auto 60px auto;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;width:100%;max-width:300px;text-align:center;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex;width:100%;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};

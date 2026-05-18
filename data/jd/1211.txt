@@ -1,0 +1,119 @@
+Blackboard Careers
+Intern
+Internship & Recent Grad ProgramRemote,
+United States
+Apply
+Description
+InternRemote - United States About the RoleWe are looking for an intern to work across Blackboard during Summer 2026. You will sit at the intersection of product development and go-to-market, contributing to projects that will help create the new Blackboard. Paired with a dedicated supervisor for day-to-day guidance, you’ll have defined projects, opportunities to learn, network, and work independently. What You'll DoContribute to active workstreams across functions as we work fast to build what's next, including by:Bringing your learner perspective into product work — your fluency with how students actually use Blackboard is an asset we want you to representUsing AI tools (Claude Code, Cursor, and similar) as a daily part of your workflowParticipating in user research, feature evaluation, and feedback loops with current Blackboard usersAttending meetings across teamsReflecting on your thoughts and observations What You'll GetMeaningful exposure to a company rebuilding a category — meetings, feedback, and professional development Dedicated leadership and regular check-insEnd-to-end project ownership at intern scope, with real production impactA written performance evaluation at the end of the placement Required Skills and ExperiencePursuing a bachelor's or master's degree at the time of the internshipDemonstrated expertise using Blackboard as a learner — you have used the platform meaningfully in your own coursework and can speak to what works, what doesn't, and what today's students actually expect from a learning environmentAbility to move fast, make good decisions under ambiguity, and ask questions to learnStrong backgrounds in technology and leadershipFluency in written and spoken English Preferred Skills and Experience Interest in staying on the bleeding edge of the AI ecosystem — Claude Code, Cursor, OpenAI Agent SDK, MCPs, and whatever comes next World Resources InstituteFamiliarity with current debates around AI in education About BlackboardBlackboard advances teaching excellence and unlocks the full potential of technology to deliver meaningful outcomes. We empower institutions to deepen connections between educators and learners, inspire engagement, and drive long-term academic success across the full learner journey. For more information, please visit www.blackboard.com. The expected hourly rate for this position is $20/hour. Candidates must be legally authorized to work in the country where the role is based at the time of hire and must maintain that authorization for the duration of employment. The company does not provide visa sponsorship or immigration support for this position. This job description is not designed to contain a comprehensive listing of activities, duties, or responsibilities that are required. Nothing in this job description restricts management's right to assign or reassign duties and responsibilities at any time. Blackboard is an equal employment opportunity/affirmative action employer and considers qualified applicants for employment without regard to race, gender, age, color, religion, national origin, marital status, disability, sexual orientation, gender identity/expression, protected military/veteran status, or any other legally protected factor.
+Apply
+Apply Later
+← Back to Current Openings
+Share
+lang: en_US
+LinkedIn
+Facebook
+Twitter
+Email
+Similar Jobs
+{{ job.title }}
+Powered by Jobvite
+angular.module('preloadedData', []).constant('preloadedData', {
+applyLinkUrl: '${job.applyLinkUrl}',
+jobCategoryId: 'apV9Vfw8',
+jobCategoryName: 'Internship & Recent Grad Program',
+jobId: 'ouk3zfwa',
+jobReqId: '5018',
+jobTitle: 'Intern',
+jobLocationId: 'CMviXfwg',
+companyAnalytics: 'G-CGXTKR27T5',
+jobAlertsLocationRequired: true,
+enableRecommendedJobs: true,
+enableResumeParsing: true,
+numberFormat: "##,###,###,###,###.####",
+companyEId: 'q1RaVfwH',
+linkedInApiKey: '7557fkcarvxieo',
+isAWLIEnabled: '${isAWLIEnabled}',
+facebookApiId: '48354194572',
+dropBoxApiKey: 'w5fg28zznqcyg4w',
+baseUrl: '/blackboard',
+cdnURL: '//d3igejkwe1ucjd.cloudfront.net',
+releaseVersion: '260413142703',
+careersiteName: 'blackboard',
+careersiteDomainName: '${careersiteDomainName}',
+careersiteSourceTypeId: 'Plm0Xfwo'
+}).constant('i18n', {
+I18N_RESUME_PREVIEW: 'Resume Preview',
+I18N_NO_RESUME_FOUND: 'No resume found',
+I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',
+I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',
+I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',
+I18N_RECOMMENDER: 'Recommender:',
+I18N_CURRENT: 'Current',
+I18N_PAST: 'Past',
+I18N_EDUCATION: 'Education',
+I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',
+I18N_PATENTS: 'Patents',
+I18N_SUMMARY: 'Summary',
+I18N_SPECIALTIES: 'Specialties',
+I18N_EXPERIENCE: 'Experience',
+I18N_RECOMMENDATIONS: 'Recommendations',
+I18N_PRESENT: 'Present',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',
+JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec',
+COMMON_PAST_WEEK: 'Past 7 days',
+COMMON_PAST_MONTH: 'Past 30 days',
+COMMON_PAST_3_MONTHS: 'Past 90 days',
+COMMON_CUSTOM_RANGE: 'Custom Range',
+I18N_FROM: 'From',
+I18N_TO: 'To',
+I18N_ANY: 'Any',
+I18N_FILE_UPLOAD_SIZE_CHECK_ERROR: 'File size shall not exceed 10MB',
+I18N_MALICIOUS_CONTENT: 'The file upload was blocked for security reasons. Please check the file for any potentially harmful content or links and try again.',
+I18N_NO_REMOTE: 'No Remote',
+I18N_REMOTE: 'Remote'
+});
+Jobvite = {
+baseUrl: 'https://app.jobvite.com'
+}
