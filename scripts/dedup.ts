@@ -7,7 +7,7 @@ import { logger } from "@/utils/logger";
 
 async function main() {
   const sent = await loadUrls();
-  const deduped = deduplicate(Array.from(sent));
+  const deduped = deduplicate(sent);
   await saveUrls(new Set(deduped));
 
   logger.info(

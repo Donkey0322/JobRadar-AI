@@ -5,50 +5,93 @@ import type { Job } from "@/types";
 import callGemini from "@/utils/ai";
 import { logger } from "@/utils/logger";
 
-const LOCATION_SCHEMA = {
-  type: "array",
-  items: { type: "boolean" },
-};
+export default async function classifyLocations(jobs: Job[]): Promise<Job[]> {
+  const payload = jobs.map((job, index) => ({
+    index,
+    title: job.role,
+    location: job.location,
+    jdLocation: job.jd?.location,
+  }));
 
-export default async function classifyLocations(jobs: Job[]): Promise<boolean[] | null> {
+  const LOCATION_SCHEMA = {
+    type: "array",
+    items: {
+      type: "boolean",
+    },
+    minItems: jobs.length,
+    maxItems: jobs.length,
+  };
+
   const prompt = `
 You are a strict classifier.
 
 Task:
-For each item, determine if the job location is in the United States.
+For each item, determine whether the job location is in the United States.
 
 Rules:
-- Return false ONLY if the location is clearly NOT in the United States.
+- Return false ONLY if the location is clearly NOT in the United States
 - Return true if:
-  - The location is in the US
+  - The location is in the United States
   - The location is unclear
-  - The location has multiple places (e.g., "6 Locations")
-  - The location is remote or unspecified
+  - The location contains multiple places (example: "6 Locations")
+  - The location is remote
+  - The location is unspecified
 
-Output:
+Important:
+- Output length MUST exactly match input length
+- Preserve exact order
+- Do NOT skip items
+- Do NOT add items
+
+Output format:
 - Return ONLY a JSON array of booleans
-- Same order as input
+- No markdown
 - No explanation
+- No extra text
 
 Data:
-${JSON.stringify(jobs)}
+${JSON.stringify(payload)}
 `;
 
   const { result, cost } = await callGemini(prompt, LOCATION_SCHEMA);
-  const text = result ?? "[]";
+
   logger.info({ cost }, "💰 Classify locations cost");
 
-  try {
-    const parsed: boolean[] = JSON.parse(text);
+  const text = result ?? "[]";
 
-    if (!Array.isArray(parsed) || parsed.length !== jobs.length) {
-      logger.error({ parsed }, `${RED_CROSS} Length mismatch`);
-      return new Array(jobs.length).fill(true);
+  try {
+    const parsed = JSON.parse(text);
+
+    if (!Array.isArray(parsed)) {
+      logger.error({ text }, `${RED_CROSS} Result is not an array`);
+      throw new Error("Classify locations failed");
     }
 
-    return parsed;
-  } catch {
-    logger.error({ text }, `${RED_CROSS} JSON parse failed`);
-    return new Array(jobs.length).fill(true);
+    if (parsed.length !== jobs.length) {
+      logger.error(
+        {
+          difference: `expected ${jobs.length}, got ${parsed.length}`,
+        },
+        `${RED_CROSS} Length mismatch`
+      );
+
+      throw new Error("Classify locations failed");
+    }
+
+    if (!parsed.every((item) => typeof item === "boolean")) {
+      logger.error({ text }, `${RED_CROSS} Invalid boolean array`);
+      throw new Error("Classify locations failed");
+    }
+
+    return jobs.filter((_, index) => parsed[index]);
+  } catch (error) {
+    logger.error(
+      {
+        error,
+      },
+      `${RED_CROSS} JSON parse failed`
+    );
+
+    throw new Error("Classify locations failed", { cause: error });
   }
 }

@@ -43,7 +43,7 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
   }
 }
 
-export default async function crawler() {
+export default async function discoverJobs() {
   const companies = await loadCompanies();
 
   const companyUrls: Record<string, Set<string>> = companies.reduce(
@@ -68,16 +68,15 @@ export default async function crawler() {
   const newJobs = results.flat();
   const endTime = Date.now();
 
-  const inUS = await classifyLocations(newJobs);
-  const inUSJobs = newJobs.filter((_, index) => inUS?.[index] ?? false);
+  const inUSJobs = await classifyLocations(newJobs);
 
   logger.info(
     {
-      jobCount: inUSJobs.length,
+      jobCount: inUSJobs?.length ?? 0,
       durationSec: ((endTime - startTime) / 1000).toFixed(2),
     },
-    "🔍 Crawl finished"
+    "🔍 Discover jobs finished"
   );
 
-  return inUSJobs;
+  return inUSJobs ?? [];
 }

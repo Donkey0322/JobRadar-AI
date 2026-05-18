@@ -1,5 +1,8 @@
 {
-  "target": ["summer intern", "off-season intern"],
+  "target": {
+    "intern": ["summer intern", "off-season intern"],
+    "full-time": ["entry level"]
+  },
   "sender": {
     "host": "smtp.gmail.com",
     "port": 587,

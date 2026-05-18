@@ -46,7 +46,7 @@ function extractCompany(urlStr: string): Company | null {
   }
 }
 
-export async function buildCompanyList(urls: string[]): Promise<Company[]> {
+export async function buildCompanyList(urls: string[] | Set<string>): Promise<Company[]> {
   const map = new Map<string, Company>();
 
   for (const url of urls) {
