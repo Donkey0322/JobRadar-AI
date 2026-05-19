@@ -885,10 +885,10 @@
     "domain": "https://analogdevices.wd1.myworkdayjobs.com/external",
     "page": "https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/external/jobs",
     "urls": [
+      "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Software-and-Systems-Co-Op--Summer-Fall-_R262408-1",
       "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Software-Engineering-Intern_R257207-1",
       "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-CA-San-Jose-Rio-Robles/Applications-Engineer-Intern_R256352-1",
-      "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Boston/Embedded-Software-Intern_R255237",
-      "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Software-and-Systems-Co-Op--Summer-Fall-_R262408-1"
+      "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/US-MA-Boston/Embedded-Software-Intern_R255237"
     ]
   },
   {
@@ -6766,7 +6766,9 @@
     "urls": [
       "https://jobs.ashbyhq.com/Etched/47e6dec8-2ca6-4359-8cff-0b91bcbf48ea",
       "https://jobs.ashbyhq.com/Etched/605c286d-be56-4e83-83b8-436d29ce17df",
-      "https://jobs.ashbyhq.com/Etched/982a8ee4-5e1e-43c7-a918-6dac285cdddd/application"
+      "https://jobs.ashbyhq.com/Etched/982a8ee4-5e1e-43c7-a918-6dac285cdddd/application",
+      "https://jobs.ashbyhq.com/Etched/8c1e7aab-3c6d-49a3-8176-d9158acb181f",
+      "https://jobs.ashbyhq.com/Etched/9e6737f4-394f-43b1-92ef-b9d4a7986f68"
     ]
   },
   {
