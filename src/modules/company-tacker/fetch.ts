@@ -63,7 +63,6 @@ export default async function discoverJobs() {
     companies.map((company) =>
       limit(async () => {
         const jobs = await fetchJobs(company, companyUrls[`${company.ats}:${company.identifier}`]);
-        logger.info({ company: company.name }, `🔍 Fetched jobs from ${company.name}`);
         return jobs;
       })
     )
