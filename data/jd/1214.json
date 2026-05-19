@@ -1,0 +1,63 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/cresta/jobs/4499986008",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4165422008,
+  "location": {
+    "name": "Toronto, Canada (Hybrid)"
+  },
+  "metadata": [
+    {
+      "id": 4454832008,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4474448008,
+      "name": "External Department Name",
+      "value": "Engineering",
+      "value_type": "long_text"
+    },
+    {
+      "id": 4489283008,
+      "name": "External Job Title",
+      "value": null,
+      "value_type": "short_text"
+    }
+  ],
+  "id": 4499986008,
+  "updated_at": "2026-05-18T19:18:58-04:00",
+  "requisition_id": "ENG-TOR-GW-Intern",
+  "title": "Software Engineer Intern",
+  "company_name": "Cresta",
+  "first_published": "2026-05-14T10:31:15-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;Cresta is on a mission to turn every customer conversation into a competitive advantage by unlocking the true potential of the contact center. Our platform combines the best of AI and human intelligence to help contact centers discover customer insights and behavioral best practices, automate conversations and inefficient processes, and empower every team member to work smarter and faster. Born from the prestigious Stanford AI lab, Cresta&#39;s co-founder and chairman is&lt;a href=&quot;https://www.linkedin.com/in/sebastian-thrun-59a0b273/&quot;&gt; Sebastian Thrun&lt;/a&gt;, the genius behind Google X, Waymo, Udacity, and more. Our leadership also includes CEO,&lt;a href=&quot;https://www.linkedin.com/in/pingwu/&quot;&gt; Ping Wu&lt;/a&gt;, the co-founder of Google Contact Center AI and Vertex AI platform,&lt;a href=&quot;https://www.linkedin.com/in/tianlinshi/&quot;&gt; and co-founder, Tim Shi&lt;/a&gt;, an early member of Open AI.&lt;/p&gt;\n&lt;p&gt;Join us on this thrilling journey to revolutionize the workforce with AI. The future of work is here, and it&#39;s at Cresta.&lt;/p&gt;\n&lt;p&gt;Cresta is building the AI platform for the &lt;strong&gt;modern contact center&lt;/strong&gt;—one of the largest and most critical systems in the global economy. We combine &lt;strong&gt;human agents and AI agents&lt;/strong&gt; to handle customer conversations at scale, helping enterprises improve customer experience, increase revenue, and reduce cost in real time.&lt;/p&gt;\n&lt;p&gt;This isn’t experimental AI. Our systems run in &lt;strong&gt;live production environments&lt;/strong&gt;, shaping millions of customer interactions every day.&lt;/p&gt;\n&lt;p&gt;We’re looking for builders who want to take ownership and move fast.&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As a &lt;strong&gt;Software Engineer Intern&lt;/strong&gt;, you’ll build systems that power &lt;strong&gt;real-time, AI-driven customer interactions in contact centers&lt;/strong&gt;. You’ll work on production infrastructure where latency, reliability, and measurable business outcomes matter.&lt;/p&gt;\n&lt;p&gt;You may work across key areas such as:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;AI Agents &amp;amp; Automation&lt;/strong&gt; – systems that handle and assist high-volume customer conversations&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Real-Time Agent Assist&lt;/strong&gt; – delivering live guidance and insights during interactions&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Conversation Intelligence&lt;/strong&gt; – extracting insights from millions of conversations&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;AI Evaluation &amp;amp; Reliability&lt;/strong&gt; – improving quality, consistency, and observability of LLM systems&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Platform &amp;amp; Infrastructure&lt;/strong&gt; – enabling scalable, low-latency AI experiences&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Cresta’s platform powers the full &lt;strong&gt;contact center workflow&lt;/strong&gt;—from real-time assistance and automation to post-call analytics and continuous optimization.&lt;/p&gt;\n&lt;p&gt;You’ll operate in a &lt;strong&gt;high-ownership, fast-moving environment&lt;/strong&gt; where interns are expected to contribute meaningfully, not just observe.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and build systems that support &lt;strong&gt;real-time AI-powered customer interactions&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Work on features combining &lt;strong&gt;LLMs, data systems, and user-facing applications&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Collaborate with engineers, product, and ML teams to ship production-ready solutions&lt;/li&gt;\n&lt;li&gt;Build systems for &lt;strong&gt;evaluation, monitoring, and continuous improvement of AI behavior&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Optimize for &lt;strong&gt;low latency, high throughput, and reliability at scale&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Take ownership of problems end-to-end—from identifying gaps to shipping solutions&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What We’re Looking For&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with one or more programming languages (e.g., &lt;strong&gt;Python, Go, Java, JavaScript, TypeScript&lt;/strong&gt;)&lt;/li&gt;\n&lt;li&gt;Interest in building &lt;strong&gt;user-facing products, backend systems, or real-time/data-intensive applications&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Familiarity with &lt;strong&gt;modern web development (frontend and/or backend), APIs, or system design fundamentals&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Understanding of &lt;strong&gt;building reliable, maintainable systems&lt;/strong&gt;—this could include UI/UX quality, API design, or performance considerations&lt;/li&gt;\n&lt;li&gt;Curiosity about &lt;strong&gt;LLMs, AI agents, or production AI systems&lt;/strong&gt; (no prior ML experience required)&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Experience using AI-powered developer tools (e.g., Cursor, Claude Code) to accelerate development workflows&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong proficiency in agentic coding workflows—effectively collaborating with AI tools to design, implement, and iterate—is a strong plus&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A driver mindset—you proactively identify problems, take initiative, and push work forward rather than waiting for direction&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Strong problem-solving ability and a bias toward action&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What You’ll Learn&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;How to build and ship &lt;strong&gt;production-grade AI systems&lt;/strong&gt; used in real customer environments&lt;/li&gt;\n&lt;li&gt;How to design systems balancing &lt;strong&gt;model quality, latency, and reliability&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;How AI agents are deployed, evaluated, and improved at scale&lt;/li&gt;\n&lt;li&gt;How contact centers evolve from manual workflows to &lt;strong&gt;AI-driven operations&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What Makes Cresta Different&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;AI in production:&lt;/strong&gt; Our systems operate in live contact centers, not demos&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Hybrid workforce:&lt;/strong&gt; We’re defining how human and AI agents work together&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Real business impact:&lt;/strong&gt; We directly influence revenue, cost, and customer experience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Driver culture:&lt;/strong&gt; We value people who take initiative, move fast, and own outcomes end-to-end&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ownership &amp;amp; velocity:&lt;/strong&gt; Engineers are trusted to ship and make decisions early&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Internship Details&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Toronto (&lt;strong&gt;remote-friendly; no in-office mandate, but we encourage in-person collaboration&lt;/strong&gt;)&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Compensation:&lt;/strong&gt; CAD $30-50/hour&lt;br&gt;Outstanding performers are eligible for return co-op and full-time offers well above our posted range.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Perks:&lt;/strong&gt;&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Lunch and dinner can be expensed (up to $25 each) while working in the office&lt;/li&gt;\n&lt;li&gt;Well-stocked office with snacks and drinks&lt;/li&gt;\n&lt;li&gt;Convenient downtown location near Union Station (public transit accessible)&lt;/li&gt;\n&lt;li&gt;PTO: 4 days&lt;/li&gt;\n&lt;li&gt;Exposure to cutting-edge AI systems in production&lt;/li&gt;\n&lt;li&gt;Potential return offer&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Why Join&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;At Cresta, you won’t just learn about AI—you’ll help build the systems redefining how &lt;strong&gt;contact centers operate&lt;/strong&gt;. From real-time agent assist to autonomous AI agents, your work will directly impact how millions of customer conversations are handled.&lt;/p&gt;\n&lt;p&gt;Past interns consistently highlight Cresta’s &lt;strong&gt;strong engineering culture and ownership-driven environment&lt;/strong&gt; as a standout compared to their previous internship experiences. We invest in giving interns real responsibility, meaningful projects, and close collaboration with experienced engineers.&lt;/p&gt;\n&lt;p&gt;If you want to &lt;strong&gt;own real problems, ship quickly, and work at the frontier of applied AI&lt;/strong&gt;, you’ll fit right in.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;Application Note&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;To help us find the best team match, please include a brief note on the &lt;strong&gt;type of problems you most enjoy working on&lt;/strong&gt;. For example:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Backend / distributed systems / infrastructure&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Frontend / UI engineering / product experience&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Full product development (end-to-end features)&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;AI / machine learning / applied LLMs&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Data / analytics / experimentation&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;Or anything else you’d like us to highlight&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We can’t guarantee specific team placement, but we use this input to help guide matching wherever possible.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;p&gt;We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates&#39; personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the @cresta.ai domain.&amp;nbsp;Any outreach claiming to be from Cresta via other sources should be ignored.&amp;nbsp; If you are uncertain whether you have been contacted by an official Cresta employee, reach out to &lt;a href=&quot;mailto:recruiting@cresra.ai&quot;&gt;recruiting@cresta.ai&lt;/a&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4016180008,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4012889008,
+      "name": "Canada - ON (Remote)",
+      "location": "Ontario, Canada",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

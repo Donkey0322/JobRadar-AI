@@ -1,0 +1,65 @@
+{
+  "id": "15af19d9-a318-45a6-8a06-23053ea487a5",
+  "title": "Full-Stack Developer Intern, Music & Audio",
+  "department": "Technology",
+  "team": "Technology",
+  "employmentType": "FullTime",
+  "location": "Berlin",
+  "secondaryLocations": [
+    {
+      "location": "London",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "London",
+          "addressCountry": "UK",
+          "addressLocality": "London"
+        }
+      }
+    },
+    {
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "New York",
+          "addressCountry": "United States",
+          "addressLocality": "New York City"
+        }
+      }
+    },
+    {
+      "location": "Los Angeles",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "California",
+          "addressCountry": "United States",
+          "addressLocality": "Los Angeles"
+        }
+      }
+    },
+    {
+      "location": "San Francisco",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "California",
+          "addressCountry": "United States",
+          "addressLocality": "San Francisco"
+        }
+      }
+    }
+  ],
+  "publishedAt": "2026-02-23T13:00:04.088+00:00",
+  "isListed": true,
+  "isRemote": true,
+  "workplaceType": "Remote",
+  "address": {
+    "postalAddress": {
+      "addressRegion": "Berlin",
+      "addressCountry": "Germany",
+      "addressLocality": "Berlin"
+    }
+  },
+  "jobUrl": "https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5",
+  "applyUrl": "https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application",
+  "descriptionHtml": "<h2><strong>Who we are</strong></h2><p style=\"min-height:1.5em\">Melotech is revolutionizing media and entertainment. We create art through technology for humans to enjoy. In just 24 months, our work has been heard, watched and loved for over 3 billion minutes worldwide.<br /><br />Founded by entrepreneur and investor Soheil Mirpour, we are backed by top VCs Cherry Ventures, Speedinvest and GFC, alongside world-class angels from firms such as Spotify, Blackstone and KKR.</p><p style=\"min-height:1.5em\"></p><h2><strong>What you will do</strong></h2><p style=\"min-height:1.5em\">As one of our first developers, you will bridge the gap between beautifully designed frontends and scalable backends. You'll tackle the big questions: How do we build systems that scale while maintaining simplicity? What’s the fastest way to ship the right amount of function? And how do we leverage AI in every part of our process? Working fully autonomously alongside our founder and the team, your answers to these questions will directly influence our company's success. On a typical day, your tasks may include:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Owning features across our full stack, writing clean code for both frontend and backend systems</p></li><li><p style=\"min-height:1.5em\">Working directly with commercial teams to architect and implement platform enhancements</p></li><li><p style=\"min-height:1.5em\">Using AI coding assistants and modern development tools to accelerate workflows and maintain code quality</p></li><li><p style=\"min-height:1.5em\">Building robust APIs and integrating AI models into production systems</p></li><li><p style=\"min-height:1.5em\">Designing end-to-end solutions that combine individual data flows into unified models across verticals</p></li><li><p style=\"min-height:1.5em\">Thinking of creative ideas and making bold decisions that shape our technology platform</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>Who you are</strong></h2><p style=\"min-height:1.5em\">We're looking for creative, ambitious and skilled full-stack engineers who can drive our business with technical solutions. You're someone who doesn't just write code, you translate ideas into software that is easy yet powerful, leveraging AI-enhanced workflows to deliver production-ready MVPs at lightspeed. Typically, your profile will look like this:</p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Pursuing a degree in CS or related field with full-stack development experience</p></li><li><p style=\"min-height:1.5em\">Proficient in core programming languages with hands-on experience in modern web frameworks (preferably Node.js/Next.js) and databases</p></li><li><p style=\"min-height:1.5em\">Expert with AI coding tools and development agents as part of your standard workflow</p></li><li><p style=\"min-height:1.5em\">Experience building and deploying production-ready full-stack applications</p></li><li><p style=\"min-height:1.5em\">Strong collaboration skills across commercial, product, and technical teams</p></li><li><p style=\"min-height:1.5em\">Always on the forefront of adopting the latest development technologies</p></li><li><p style=\"min-height:1.5em\">You thrive in a fast-paced and performance-oriented environment</p></li><li><p style=\"min-height:1.5em\">Colleagues would describe you as hard-working, ambitious and persistent</p></li><li><p style=\"min-height:1.5em\">You’re obsessed with music, video or social media</p></li></ul><p style=\"min-height:1.5em\"></p><h2><strong>What makes this exciting</strong></h2><p style=\"min-height:1.5em\">You are one of the first employees of an ambitious team, changing the world of media and entertainment. Being early means every decision you make shapes our trajectory. You're not a cog in the machine but the captain of your own ship, rewarded for performance and respected for leadership. Flat hierarchies mean that your voice matters, your ideas get implemented, and your impact is immediate.<br /><br />We pay competitive salaries and make you an owner of the business with equity. We work remotely to give you complete freedom over your life, while meeting regularly around the world for global offsites where we strategize, bond, and push boundaries together.</p><p style=\"min-height:1.5em\"></p><h2><strong>What the process will look like</strong></h2><p style=\"min-height:1.5em\">We hire on a rolling basis. Earliest starting date is always ASAP.<br /><br />Once you begin our process, you can progress from start to offer within a week, depending on how quickly you can move through each stage:</p><ol style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\"><strong>Online assessment</strong>: Motivational questionnaire and aptitude test - are you made for the job?</p></li><li><p style=\"min-height:1.5em\"><strong>Initial interview</strong>: 30-minute introductory call - getting to know you</p></li><li><p style=\"min-height:1.5em\"><strong>Take-home case study</strong>: Real-world project - showcase your skills and working style</p></li><li><p style=\"min-height:1.5em\"><strong>Case interview</strong>: 90-minute case discussion - present and debate your results with a team member</p></li><li><p style=\"min-height:1.5em\"><strong>Founder interview</strong>: 90-minute interview with our CEO - going deep on all topics</p></li><li><p style=\"min-height:1.5em\"><strong>Team interview</strong>: Individual or group interview with other team members - depending on position</p></li><li><p style=\"min-height:1.5em\"><strong>Offer, contract signing and onboarding</strong></p></li></ol><p style=\"min-height:1.5em\"><br /><strong>Note</strong>: As we are still in stealth, you will learn more about Melotech as you progress through the stages. By the end of the Founder interview, you will have a full grasp of our business and the details of your role.</p>",
+  "descriptionPlain": "WHO WE ARE\n\nMelotech is revolutionizing media and entertainment. We create art through technology for humans to enjoy. In just 24 months, our work has been heard, watched and loved for over 3 billion minutes worldwide.\n\nFounded by entrepreneur and investor Soheil Mirpour, we are backed by top VCs Cherry Ventures, Speedinvest and GFC, alongside world-class angels from firms such as Spotify, Blackstone and KKR.\n\n\nWHAT YOU WILL DO\n\nAs one of our first developers, you will bridge the gap between beautifully designed frontends and scalable backends. You'll tackle the big questions: How do we build systems that scale while maintaining simplicity? What’s the fastest way to ship the right amount of function? And how do we leverage AI in every part of our process? Working fully autonomously alongside our founder and the team, your answers to these questions will directly influence our company's success. On a typical day, your tasks may include:\n\n - Owning features across our full stack, writing clean code for both frontend and backend systems\n\n - Working directly with commercial teams to architect and implement platform enhancements\n\n - Using AI coding assistants and modern development tools to accelerate workflows and maintain code quality\n\n - Building robust APIs and integrating AI models into production systems\n\n - Designing end-to-end solutions that combine individual data flows into unified models across verticals\n\n - Thinking of creative ideas and making bold decisions that shape our technology platform\n\n\nWHO YOU ARE\n\nWe're looking for creative, ambitious and skilled full-stack engineers who can drive our business with technical solutions. You're someone who doesn't just write code, you translate ideas into software that is easy yet powerful, leveraging AI-enhanced workflows to deliver production-ready MVPs at lightspeed. Typically, your profile will look like this:\n\n - Pursuing a degree in CS or related field with full-stack development experience\n\n - Proficient in core programming languages with hands-on experience in modern web frameworks (preferably Node.js/Next.js) and databases\n\n - Expert with AI coding tools and development agents as part of your standard workflow\n\n - Experience building and deploying production-ready full-stack applications\n\n - Strong collaboration skills across commercial, product, and technical teams\n\n - Always on the forefront of adopting the latest development technologies\n\n - You thrive in a fast-paced and performance-oriented environment\n\n - Colleagues would describe you as hard-working, ambitious and persistent\n\n - You’re obsessed with music, video or social media\n\n\nWHAT MAKES THIS EXCITING\n\nYou are one of the first employees of an ambitious team, changing the world of media and entertainment. Being early means every decision you make shapes our trajectory. You're not a cog in the machine but the captain of your own ship, rewarded for performance and respected for leadership. Flat hierarchies mean that your voice matters, your ideas get implemented, and your impact is immediate.\n\nWe pay competitive salaries and make you an owner of the business with equity. We work remotely to give you complete freedom over your life, while meeting regularly around the world for global offsites where we strategize, bond, and push boundaries together.\n\n\nWHAT THE PROCESS WILL LOOK LIKE\n\nWe hire on a rolling basis. Earliest starting date is always ASAP.\n\nOnce you begin our process, you can progress from start to offer within a week, depending on how quickly you can move through each stage:\n\n 1. Online assessment: Motivational questionnaire and aptitude test - are you made for the job?\n\n 2. Initial interview: 30-minute introductory call - getting to know you\n\n 3. Take-home case study: Real-world project - showcase your skills and working style\n\n 4. Case interview: 90-minute case discussion - present and debate your results with a team member\n\n 5. Founder interview: 90-minute interview with our CEO - going deep on all topics\n\n 6. Team interview: Individual or group interview with other team members - depending on position\n\n 7. Offer, contract signing and onboarding\n\n\nNote: As we are still in stealth, you will learn more about Melotech as you progress through the stages. By the end of the Founder interview, you will have a full grasp of our business and the details of your role."
+}

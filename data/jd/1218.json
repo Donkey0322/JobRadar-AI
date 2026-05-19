@@ -1,0 +1,45 @@
+{
+  "id": "808baa26-e5ba-45dd-9c44-7ab685e742c1",
+  "title": "Engineering Intern",
+  "department": "Product & Engineering",
+  "team": "Product & Engineering",
+  "employmentType": "FullTime",
+  "location": "Birmingham",
+  "secondaryLocations": [
+    {
+      "location": "New York City",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "New York",
+          "addressCountry": "United States",
+          "addressLocality": "New York City"
+        }
+      }
+    },
+    {
+      "location": "San Francisco",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "California",
+          "addressCountry": "United States",
+          "addressLocality": "San Francisco"
+        }
+      }
+    }
+  ],
+  "publishedAt": "2026-03-23T19:48:21.422+00:00",
+  "isListed": true,
+  "isRemote": true,
+  "workplaceType": "Remote",
+  "address": {
+    "postalAddress": {
+      "addressRegion": "Alabama",
+      "addressCountry": "United States",
+      "addressLocality": "Birmingham"
+    }
+  },
+  "jobUrl": "https://jobs.ashbyhq.com/linqapp/808baa26-e5ba-45dd-9c44-7ab685e742c1",
+  "applyUrl": "https://jobs.ashbyhq.com/linqapp/808baa26-e5ba-45dd-9c44-7ab685e742c1/application",
+  "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>Location:</strong> San Francisco, CA, New York City, NY, or Birmingham, AL (remote available)<br /><strong>Duration:</strong> ~6 months (summer/semester options available) with potential for full-time <br /><strong>Comp:</strong> $15 – $25/hr depending on experience and location <br /><strong>Reports to:</strong> CTO</p><p style=\"min-height:1.5em\"><br /><strong>The role:</strong> We're looking for engineers-in-progress who are serious about the craft and ready to work on real problems. If you're talented, curious, and hungry but not quite ready for a full-time eng role yet — this is your on-ramp. You'll work alongside senior engineers on production code, not side projects.</p><p style=\"min-height:1.5em\"><br /><strong>Depending on your interests, you could work on:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Building and shipping features in React/Next.js, TypeScript, and Go</p></li><li><p style=\"min-height:1.5em\">Backend systems and API infrastructure in Node</p></li><li><p style=\"min-height:1.5em\">Tooling, developer experience, and internal platforms</p></li></ul><p style=\"min-height:1.5em\"><br /><strong>You might be a fit if:</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You're a strong student (bonus if you're at a school known for CS) but credentials matter less than ability</p></li><li><p style=\"min-height:1.5em\">You can think through a problem, not just copy a solution</p></li><li><p style=\"min-height:1.5em\">You want to learn what it actually takes to build software at a startup</p></li></ul>",
+  "descriptionPlain": "Location: San Francisco, CA, New York City, NY, or Birmingham, AL (remote available)\nDuration: ~6 months (summer/semester options available) with potential for full-time\nComp: $15 – $25/hr depending on experience and location\nReports to: CTO\n\n\nThe role: We're looking for engineers-in-progress who are serious about the craft and ready to work on real problems. If you're talented, curious, and hungry but not quite ready for a full-time eng role yet — this is your on-ramp. You'll work alongside senior engineers on production code, not side projects.\n\n\nDepending on your interests, you could work on:\n\n - Building and shipping features in React/Next.js, TypeScript, and Go\n\n - Backend systems and API infrastructure in Node\n\n - Tooling, developer experience, and internal platforms\n\n\nYou might be a fit if:\n\n - You're a strong student (bonus if you're at a school known for CS) but credentials matter less than ability\n\n - You can think through a problem, not just copy a solution\n\n - You want to learn what it actually takes to build software at a startup"
+}

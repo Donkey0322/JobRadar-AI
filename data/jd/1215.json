@@ -1,0 +1,87 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/cresta/jobs/5102116008",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4418996008,
+  "location": {
+    "name": "Toronto, Canada (Hybrid)"
+  },
+  "metadata": [
+    {
+      "id": 4454832008,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4474448008,
+      "name": "External Department Name",
+      "value": "Engineering",
+      "value_type": "long_text"
+    },
+    {
+      "id": 4489283008,
+      "name": "External Job Title",
+      "value": "Forward Deployed Engineering Intern (AI Agent)",
+      "value_type": "short_text"
+    }
+  ],
+  "id": 5102116008,
+  "updated_at": "2026-05-18T19:20:21-04:00",
+  "requisition_id": "47",
+  "title": "Forward Deployed Engineering Intern (AI Agent) ",
+  "company_name": "Cresta",
+  "first_published": "2026-05-18T19:19:56-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;Cresta is on a mission to turn every customer conversation into a competitive advantage by unlocking the true potential of the contact center. Our platform combines the best of AI and human intelligence to help contact centers discover customer insights and behavioral best practices, automate conversations and inefficient processes, and empower every team member to work smarter and faster. Born from the prestigious Stanford AI lab, Cresta&#39;s co-founder and chairman is&lt;a href=&quot;https://www.linkedin.com/in/sebastian-thrun-59a0b273/&quot;&gt; Sebastian Thrun&lt;/a&gt;, the genius behind Google X, Waymo, Udacity, and more. Our leadership also includes CEO,&lt;a href=&quot;https://www.linkedin.com/in/pingwu/&quot;&gt; Ping Wu&lt;/a&gt;, the co-founder of Google Contact Center AI and Vertex AI platform,&lt;a href=&quot;https://www.linkedin.com/in/tianlinshi/&quot;&gt; and co-founder, Tim Shi&lt;/a&gt;, an early member of Open AI.&lt;/p&gt;\n&lt;p&gt;Join us on this thrilling journey to revolutionize the workforce with AI. The future of work is here, and it&#39;s at Cresta.&lt;/p&gt;\n&lt;h4&gt;About the role:&lt;/h4&gt;\n&lt;p&gt;At Cresta, the AI Agent team is on a mission to create state-of-the-art AI Agents that solve practical problems for our customers. We are focused on leveraging the latest technologies in Large Language Models (LLMs) and AI Agent systems, while ensuring that the solutions we develop are cost-effective, secure, and reliable.&amp;nbsp;&lt;/p&gt;\n&lt;p data-start=&quot;1092&quot; data-end=&quot;1263&quot;&gt;As a Forward Deployed Engineering Intern on the AI Agent team, you’ll support real-world AI deployments and gain hands-on experience with AI systems in customer environments.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Do &lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;Assist in developing and configuring AI agents using Cresta’s platform tools.&lt;/li&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;Help build and test integrations between AI agents and external systems (like APIs or data sources).&lt;/li&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;Support performance tuning and troubleshooting of AI agent prototypes.&lt;/li&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;Work with customers and internal engineering teams to understand requirements and iterate on solutions.&lt;/li&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;Participate in team demos, feedback sessions, and learning opportunities.&lt;/li&gt;\n&lt;li data-start=&quot;1278&quot; data-end=&quot;1395&quot;&gt;This role provides mentorship and exposure to customer-facing technical problem solving in a fast-moving AI/Product environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&lt;strong&gt;What We&#39;re Looking For:&lt;/strong&gt;&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Enrolled in a Bachelor’s or Master’s degree program in Computer Science, Engineering, or a related field.&lt;/li&gt;\n&lt;li&gt;Experience writing code in&amp;nbsp;&lt;strong data-start=&quot;2375&quot; data-end=&quot;2385&quot;&gt;Python&lt;/strong&gt; (or another general-purpose language).&lt;/li&gt;\n&lt;li&gt;Basic understanding of programming fundamentals and software development best practices.&lt;/li&gt;\n&lt;li&gt;Strong interest in artificial intelligence, machine learning, or software engineering.&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and willingness to collaborate with teammates and customers.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-start=&quot;2862&quot; data-end=&quot;2879&quot;&gt;&lt;strong data-start=&quot;2862&quot; data-end=&quot;2879&quot;&gt;Nice-to-Haves&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-start=&quot;2882&quot; data-end=&quot;2982&quot;&gt;Experience with APIs, web development, or cloud platforms.&lt;/li&gt;\n&lt;li data-start=&quot;2882&quot; data-end=&quot;2982&quot;&gt;Prior coursework or projects involving AI/ML concepts or LLMs.&lt;/li&gt;\n&lt;li data-start=&quot;2882&quot; data-end=&quot;2982&quot;&gt;Exposure to prompt engineering or similar experimentation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation:&amp;nbsp;&lt;/strong&gt;CAD $30-50/hour&lt;br&gt;&lt;strong&gt;Perks:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lunch and dinner can be expensed (up to $25 each) while working in the office&lt;/li&gt;\n&lt;li&gt;Well-stocked office with snacks and drinks&lt;/li&gt;\n&lt;li&gt;Convenient downtown location near Union Station (public transit accessible)&lt;/li&gt;\n&lt;li&gt;PTO: 4 days&lt;/li&gt;\n&lt;li&gt;Exposure to cutting-edge AI systems in production&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;This posting will be used to fill a newly-created role.&lt;/p&gt;\n&lt;p&gt;We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates&#39; personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the @cresta.ai domain.&amp;nbsp;Any outreach claiming to be from Cresta via other sources should be ignored.&amp;nbsp; If you are uncertain whether you have been contacted by an official Cresta employee, reach out to &lt;a href=&quot;mailto:recruiting@cresra.ai&quot;&gt;recruiting@cresta.ai&lt;/a&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4016180008,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4012890008,
+      "name": "Canada - AB (Remote)",
+      "location": "Alberta, Canada",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4012891008,
+      "name": "Canada - BC (Remote)",
+      "location": "British Columbia, Canada",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4012889008,
+      "name": "Canada - ON (Remote)",
+      "location": "Ontario, Canada",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4012893008,
+      "name": "US (Remote)",
+      "location": null,
+      "child_ids": [
+        4066528008,
+        4066527008
+      ],
+      "parent_id": null
+    }
+  ]
+}
