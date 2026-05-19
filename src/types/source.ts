@@ -1,10 +1,10 @@
-import type { Target } from "@/validation/config";
+import type { JobCategory } from "@/validation/config";
 
 interface Source {
   name: string;
   url: string;
   format: "markdown" | "html";
-  type: Target;
+  type: JobCategory;
   disabled?: boolean;
 }
 

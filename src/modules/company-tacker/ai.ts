@@ -1,22 +1,25 @@
+import { LOCATIONS } from "@/constants/location";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
+import type { Country } from "@/validation/config";
 
 import callGemini from "@/utils/ai";
 import { logger } from "@/utils/logger";
 
-export default async function classifyLocations(jobs: Job[]): Promise<Job[]> {
+const BATCH_SIZE = 50;
+
+async function classifyBatch(jobs: Job[]): Promise<Country[]> {
   const payload = jobs.map((job, index) => ({
     index,
     title: job.role,
     location: job.location,
-    jdLocation: job.jd?.location,
   }));
 
   const LOCATION_SCHEMA = {
     type: "array",
     items: {
-      type: "boolean",
+      type: "string",
     },
     minItems: jobs.length,
     maxItems: jobs.length,
@@ -26,28 +29,28 @@ export default async function classifyLocations(jobs: Job[]): Promise<Job[]> {
 You are a strict classifier.
 
 Task:
-For each item, determine whether the job location is in the United States.
+For each item, classify the job location.
+
+Allowed values:
+${LOCATIONS.join(", ")}
 
 Rules:
-- Return false ONLY if the location is clearly NOT in the United States
-- Return true if:
-  - The location is in the United States
-  - The location is unclear
-  - The location contains multiple places (example: "6 Locations")
-  - The location is remote
-  - The location is unspecified
+- Return exactly ONE location per item.
+- Preserve exact order.
+- Do not skip items.
+- Do not add items.
 
-Important:
-- Output length MUST exactly match input length
-- Preserve exact order
-- Do NOT skip items
-- Do NOT add items
+Guidelines:
+- Use "USA" for United States jobs.
+- Use "Remote" for fully remote jobs.
+- Use "Unsure" if location cannot be determined or multiple locations are possible.
+- Use "Other" if clearly outside supported regions.
 
 Output format:
-- Return ONLY a JSON array of booleans
-- No markdown
-- No explanation
-- No extra text
+- Return ONLY valid JSON.
+- No markdown.
+- No explanation.
+- Return ONLY a JSON array of strings.
 
 Data:
 ${JSON.stringify(payload)}
@@ -55,43 +58,63 @@ ${JSON.stringify(payload)}
 
   const { result, cost } = await callGemini(prompt, LOCATION_SCHEMA);
 
-  logger.info({ cost }, "💰 Classify locations cost");
+  logger.info(
+    {
+      cost,
+      batchSize: jobs.length,
+    },
+    "💰 Classify locations cost"
+  );
 
-  const text = result ?? "[]";
+  const parsed: unknown = JSON.parse(result ?? "[]");
 
-  try {
-    const parsed = JSON.parse(text);
+  if (!Array.isArray(parsed)) {
+    logger.error({ result }, `${RED_CROSS} Result is not an array`);
 
-    if (!Array.isArray(parsed)) {
-      logger.error({ text }, `${RED_CROSS} Result is not an array`);
-      throw new Error("Classify locations failed");
-    }
+    throw new Error("Classify locations failed");
+  }
 
-    if (parsed.length !== jobs.length) {
-      logger.error(
-        {
-          difference: `expected ${jobs.length}, got ${parsed.length}`,
-        },
-        `${RED_CROSS} Length mismatch`
-      );
+  if (parsed.length !== jobs.length) {
+    throw new Error(`Length mismatch: expected ${jobs.length}, got ${parsed.length}`);
+  }
 
-      throw new Error("Classify locations failed");
-    }
+  if (!parsed.every((item) => typeof item === "string" && LOCATIONS.includes(item as Country))) {
+    throw new Error("Invalid location values");
+  }
 
-    if (!parsed.every((item) => typeof item === "boolean")) {
-      logger.error({ text }, `${RED_CROSS} Invalid boolean array`);
-      throw new Error("Classify locations failed");
-    }
+  return parsed as Country[];
+}
 
-    return jobs.filter((_, index) => parsed[index]);
-  } catch (error) {
-    logger.error(
+export async function classifyLocations(jobs: Job[]): Promise<Country[]> {
+  logger.info(
+    {
+      total: jobs.length,
+      batchSize: BATCH_SIZE,
+    },
+    "🔍 Classifying locations..."
+  );
+
+  const results: Country[] = [];
+
+  for (let i = 0; i < jobs.length; i += BATCH_SIZE) {
+    const batch = jobs.slice(i, i + BATCH_SIZE);
+
+    logger.info(
       {
-        error,
+        start: i,
+        end: i + batch.length - 1,
       },
-      `${RED_CROSS} JSON parse failed`
+      "📦 Processing location batch"
     );
 
-    throw new Error("Classify locations failed", { cause: error });
+    const classified = await classifyBatch(batch);
+
+    results.push(...classified);
   }
+
+  if (results.length !== jobs.length) {
+    throw new Error(`Final length mismatch: expected ${jobs.length}, got ${results.length}`);
+  }
+
+  return results;
 }

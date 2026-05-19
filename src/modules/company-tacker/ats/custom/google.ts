@@ -5,14 +5,20 @@ import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
 
-export async function fetchGoogle(companyData: Company, urls: Set<string>): Promise<Job[]> {
+export async function fetchGoogle(
+  company: Company,
+  urls: Set<string>,
+  timeout: number = 5000
+): Promise<Job[]> {
   const allJobs: Job[] = [];
 
   for (let page = 1; page <= 10; page++) {
-    const url = new URL(companyData.page);
+    const url = new URL(company.page);
     url.searchParams.set("page", String(page));
 
-    const res = await fetch(url.toString());
+    const res = await fetch(url.toString(), {
+      signal: AbortSignal.timeout(timeout),
+    });
 
     if (!res.ok) {
       break;

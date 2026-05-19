@@ -16,7 +16,11 @@ interface AmazonJob {
   icimsJobId: string[];
 }
 
-export async function fetchAmazon(company: Company, urls: Set<string>): Promise<Job[]> {
+export async function fetchAmazon(
+  company: Company,
+  urls: Set<string>,
+  timeout: number = 5000
+): Promise<Job[]> {
   try {
     const res = await fetch(company.page, {
       method: "POST",
@@ -35,6 +39,7 @@ export async function fetchAmazon(company: Company, urls: Set<string>): Promise<
         start: 0,
         sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
       }),
+      signal: AbortSignal.timeout(timeout),
     });
 
     const data = await res.json();

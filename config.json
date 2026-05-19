@@ -1,6 +1,13 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"]
+    "intern": ["summer intern", "off-season intern"],
+    "countries": ["USA"],
+    "filter": {
+      "USA": {
+        "allow_citizenship_required": false,
+        "allow_no_sponsorship": false
+      }
+    }
   },
   "sender": {
     "host": "smtp.gmail.com",

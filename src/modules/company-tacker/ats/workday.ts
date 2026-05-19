@@ -30,7 +30,7 @@ export function urlToWorkdayCompany(url: URL): Company {
   };
 }
 
-export async function fetchWorkday(company: Company, urls: Set<string>) {
+export async function fetchWorkday(company: Company, urls: Set<string>, timeout: number = 5000) {
   let offset = 0;
   const limit = 20;
   let hasMore = true;
@@ -50,6 +50,7 @@ export async function fetchWorkday(company: Company, urls: Set<string>) {
           offset,
           searchText: "software",
         }),
+        signal: AbortSignal.timeout(timeout),
       });
 
       if (!res.ok) {

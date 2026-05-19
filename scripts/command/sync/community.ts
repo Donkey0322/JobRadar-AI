@@ -5,7 +5,7 @@ import type { Job } from "@/types";
 
 import { buildCompanyList } from "@/modules/company-tacker/company";
 import fetchSource from "@/modules/github-parser";
-import analyzeJD from "@/modules/jd-analyzer";
+import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadUrls, saveJd } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
@@ -38,9 +38,16 @@ export default async function syncCommunity() {
       continue;
     }
 
-    const { jd, rawJD, cost } = await analyzeJD(job);
+    urls.add(job.link);
+    keys.add(key);
+
+    const { jd, rawJD, cost } = await getJD(job);
     totalCost += cost;
     if (jd) {
+      if (!isEligibleJD(jd)) {
+        continue;
+      }
+
       currentId += 1;
       job.id = currentId;
       job.jd = jd;
@@ -51,8 +58,6 @@ export default async function syncCommunity() {
     }
 
     jobs.push(job);
-    urls.add(job.link);
-    keys.add(key);
   }
 
   await saveUrls(urls);

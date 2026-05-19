@@ -1,6 +1,6 @@
 import { CONFIG } from "@/constants";
 
-import { Target } from "@/validation/config";
+import { JobCategory } from "@/validation/config";
 
 const TECH_WORDS = [
   "software",
@@ -140,11 +140,11 @@ export function isTechSeniorLevel(title: string) {
 
 export function isTarget(title: string) {
   return (
-    (CONFIG.target?.intern?.includes(Target.SUMMER_INTERN) && isTechIntern(title)) ||
-    (CONFIG.target?.intern?.includes(Target.OFF_SEASON_INTERN) && isTechIntern(title)) ||
-    (CONFIG.target?.["full-time"]?.includes(Target.ENTRY_LEVEL) && isTechEntryLevel(title)) ||
-    (CONFIG.target?.["full-time"]?.includes(Target.MID_LEVEL) && isTechMidLevel(title)) ||
-    (CONFIG.target?.["full-time"]?.includes(Target.SENIOR_LEVEL) && isTechSeniorLevel(title))
+    (CONFIG.target?.intern?.includes(JobCategory.SUMMER_INTERN) && isTechIntern(title)) ||
+    (CONFIG.target?.intern?.includes(JobCategory.OFF_SEASON_INTERN) && isTechIntern(title)) ||
+    (CONFIG.target?.["full-time"]?.includes(JobCategory.ENTRY_LEVEL) && isTechEntryLevel(title)) ||
+    (CONFIG.target?.["full-time"]?.includes(JobCategory.MID_LEVEL) && isTechMidLevel(title)) ||
+    (CONFIG.target?.["full-time"]?.includes(JobCategory.SENIOR_LEVEL) && isTechSeniorLevel(title))
   );
 }
 

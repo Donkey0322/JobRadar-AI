@@ -11,8 +11,14 @@ interface MicrosoftJob {
   postedTs: number;
 }
 
-export async function fetchMicrosoft(company: Company, urls: Set<string>): Promise<Job[]> {
-  const res = await fetch(company.page);
+export async function fetchMicrosoft(
+  company: Company,
+  urls: Set<string>,
+  timeout: number = 5000
+): Promise<Job[]> {
+  const res = await fetch(company.page, {
+    signal: AbortSignal.timeout(timeout),
+  });
   const data = await res.json();
 
   const jobs: MicrosoftJob[] = data?.data?.positions.filter(

@@ -63,7 +63,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     }
   }
 
-  const result = Array.from(map.values());
+  const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
 
   await fs.writeFile(COMPANY_PATH, JSON.stringify(result, null, 2), "utf-8");
   return result;

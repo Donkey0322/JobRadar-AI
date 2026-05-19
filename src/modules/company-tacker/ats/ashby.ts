@@ -28,9 +28,11 @@ export function urlToAshbyCompany(url: URL): Company {
   };
 }
 
-export async function fetchAshby(company: Company, urls: Set<string>) {
+export async function fetchAshby(company: Company, urls: Set<string>, timeout: number = 5000) {
   try {
-    const res = await fetch(company.page);
+    const res = await fetch(company.page, {
+      signal: AbortSignal.timeout(timeout),
+    });
     if (!res.ok) {
       // console.log(company.name, res.status, res.statusText, res.url);
       return [];

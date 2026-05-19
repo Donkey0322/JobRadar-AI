@@ -1,18 +1,57 @@
 import * as cheerio from "cheerio";
 
+import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { JD, Job } from "@/types";
-import type { AIResponse } from "@/validation/ai";
+import type { JD, Job } from "@/types/jobs";
+import type { JDResponse } from "@/validation/ai";
 
 import { classifyATS } from "../company-tacker/ats";
 
-import { fetchAshbyJD } from "./ats/ashby";
-import { fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
+import analyzeJD from "./ai";
+import { fetchAshbyJD, fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
 
-import analyzeJD from "@/modules/jd-analyzer/ai";
 import { logger } from "@/utils/logger";
-import { AIResponseSchema } from "@/validation/ai";
+import { JDResponseSchema } from "@/validation/ai";
+
+export function normalizeJD(response: JDResponse): JD {
+  return {
+    citizenship: response.citizenship_required,
+    sponsorship: response.visa_sponsorship_available,
+    location: response.location,
+    qualifications: response.qualifications,
+    season: response.term,
+  };
+}
+
+export function isEligibleJD(jd: JD) {
+  const filters = CONFIG.target.filter;
+  const countries = CONFIG.target.countries;
+
+  if (!countries.includes(jd.location)) {
+    return false;
+  }
+
+  if (!filters) {
+    return true;
+  }
+
+  const rule = filters[jd.location];
+
+  // no rule for this country, so it's eligible
+  if (!rule) {
+    return true;
+  }
+
+  if (rule.allow_citizenship_required === false && jd.citizenship === true) {
+    return false;
+  }
+
+  if (rule.allow_no_sponsorship === false && jd.sponsorship === false) {
+    return false;
+  }
+  return true;
+}
 
 export async function getRawJD(url: string): Promise<string | null> {
   try {
@@ -51,7 +90,7 @@ export async function getRawJD(url: string): Promise<string | null> {
       default: {
         const res = await fetch(url, {
           headers: {
-            "User-Agent": "Mozilla/5.0 (JD-Analyzer; +https://example.local)",
+            "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
           },
           // signal: AbortSignal.timeout(5000),
         });
@@ -89,72 +128,105 @@ export async function getRawJD(url: string): Promise<string | null> {
   }
 }
 
-function toBoolean(v: "yes" | "no" | "unsure"): boolean | null {
-  if (v === "yes") return true;
-  if (v === "no") return false;
-  return null;
-}
-
-function transform(response: AIResponse): JD {
-  return {
-    citizenship: toBoolean(response.requires_usa_citizenship),
-    sponsorship: toBoolean(response.offers_visa_sponsorship),
-    location: response.location,
-    qualifications: response.qualifications,
-    season: response.term,
-  };
-}
-
-export default async function getJD(
-  job: Job
-): Promise<{ jd: JD | null; rawJD: string; cost: number }> {
+export default async function getJD(job: Job): Promise<{
+  jd: JD | null;
+  rawJD: string;
+  cost: number;
+}> {
   const rawJD = await getRawJD(job.link);
 
-  if (rawJD) {
-    const { result, cost } = await analyzeJD(rawJD);
-    if (result) {
-      try {
-        const parsed = JSON.parse(result);
-        const validated = AIResponseSchema.safeParse(parsed);
-        if (validated.success) {
-          return { jd: transform(validated.data), rawJD, cost };
-        } else {
-          logger.warn(
-            { company: job.company, parsed, err: validated.error },
-            "⚠️ Error parsing JSON"
-          );
-          return { jd: null, rawJD, cost };
-        }
-      } catch (e) {
-        logger.warn({ company: job.company, err: e }, "⚠️ Error parsing JSON");
-        return { jd: null, rawJD, cost };
-      }
-    }
+  if (!rawJD) {
+    return {
+      jd: null,
+      rawJD: "",
+      cost: 0,
+    };
   }
-  return { jd: null, rawJD: "", cost: 0 };
+
+  const { result, cost } = await analyzeJD(rawJD);
+
+  if (!result) {
+    return {
+      jd: null,
+      rawJD,
+      cost,
+    };
+  }
+
+  try {
+    const parsed = JSON.parse(result);
+    const validated = JDResponseSchema.safeParse(parsed);
+    if (!validated.success) {
+      logger.warn(
+        {
+          company: job.company,
+          parsed,
+          err: validated.error,
+        },
+        "⚠️ Invalid AI response"
+      );
+
+      return {
+        jd: null,
+        rawJD,
+        cost,
+      };
+    }
+
+    const jd = normalizeJD(validated.data);
+    return {
+      jd,
+      rawJD,
+      cost,
+    };
+  } catch (e) {
+    logger.warn(
+      {
+        company: job.company,
+        err: e,
+      },
+      "⚠️ Error parsing AI response"
+    );
+
+    return {
+      jd: null,
+      rawJD,
+      cost,
+    };
+  }
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
-  const jd = await getRawJD(link);
+  const rawJD = await getRawJD(link);
 
-  if (jd) {
-    const { result, cost } = await analyzeJD(jd);
-    if (result) {
-      try {
-        const parsed = JSON.parse(result);
-        const validated = AIResponseSchema.safeParse(parsed);
-        if (validated.success) {
-          logger.info({ cost }, "💰 Analyze JD cost");
-          return transform(validated.data);
-        } else {
-          logger.warn({ err: validated.error }, "⚠️ Error parsing JSON");
-          return null;
-        }
-      } catch (e) {
-        logger.warn({ err: e }, "⚠️ Error parsing JSON");
-        return null;
-      }
-    }
+  if (!rawJD) {
+    return null;
   }
-  return null;
+
+  const { result } = await analyzeJD(rawJD);
+
+  if (!result) {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(result);
+    const validated = JDResponseSchema.safeParse(parsed);
+
+    if (!validated.success) {
+      logger.warn(
+        {
+          err: validated.error,
+        },
+        "⚠️ Invalid AI response"
+      );
+
+      return null;
+    }
+
+    return normalizeJD(validated.data);
+  } catch (e) {
+    logger.warn({ err: e }, "⚠️ Error parsing AI response");
+    return null;
+  }
 }
