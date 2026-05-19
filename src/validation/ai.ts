@@ -1,15 +1,14 @@
 import { z } from "zod";
 
-import { SeasonSchema } from "./season";
+import { SEASONS } from "@/constants";
+import { LOCATIONS } from "@/constants/location";
 
-import { LOCATIONS } from "@/constants";
-
-export const AIResponseSchema = z.object({
-  requires_usa_citizenship: z.enum(["yes", "no", "unsure"]),
-  offers_visa_sponsorship: z.enum(["yes", "no", "unsure"]),
+export const JDResponseSchema = z.object({
+  citizenship_required: z.boolean().nullable(),
+  visa_sponsorship_available: z.boolean().nullable(),
   location: z.enum(LOCATIONS),
   qualifications: z.array(z.string()),
-  term: SeasonSchema,
+  term: z.enum(SEASONS),
 });
 
-export type AIResponse = z.infer<typeof AIResponseSchema>;
+export type JDResponse = z.infer<typeof JDResponseSchema>;

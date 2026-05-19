@@ -46,9 +46,11 @@ export function urlToGreenhouseCompany(url: URL): Company {
   };
 }
 
-export async function fetchGreenhouse(company: Company, urls: Set<string>) {
+export async function fetchGreenhouse(company: Company, urls: Set<string>, timeout: number = 5000) {
   try {
-    const res = await fetch(company.page);
+    const res = await fetch(company.page, {
+      signal: AbortSignal.timeout(timeout),
+    });
     const data = await res.json();
 
     if (!res.ok || !data.jobs) {

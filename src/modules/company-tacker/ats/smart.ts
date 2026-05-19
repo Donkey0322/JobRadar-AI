@@ -34,9 +34,15 @@ export function urlToSmartRecruitersCompany(url: URL): Company {
   };
 }
 
-export async function fetchSmartRecruiters(company: Company, urls: Set<string>) {
+export async function fetchSmartRecruiters(
+  company: Company,
+  urls: Set<string>,
+  timeout: number = 5000
+) {
   try {
-    const res = await fetch(company.page);
+    const res = await fetch(company.page, {
+      signal: AbortSignal.timeout(timeout),
+    });
     const data = await res.json();
 
     if (!res.ok || !data.content) {

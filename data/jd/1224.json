@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "410e0b1f5fbe1009736f64bc1ae40000",
+    "title": "Quantum Research Scientist Intern - Fall 2026",
+    "jobDescription": "<p><span>Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the world.</span><span> </span></p><p></p><p>We are looking for a Quantum Research Scientist Intern to develop automated high-performance quantum error correcting code discovery pipelines. NVIDIA is deeply invested in the future of quantum computing, building the accelerated platforms (cuQuantum, CUDA-Q, and Ising) that researchers around the world rely on to design, simulate, and scale quantum systems. On this team, you will help build internal IP at the intersection of quantum code design and AI-driven automation, prototyping large scale protocols to computationally discover and ultimately design high-performance quantum error correcting codes for realistic quantum systems. <b> </b></p><p></p><p><b><b>What you&#39;ll be doing:</b><span> </span></b></p><ul><li><p><span>Developing automated quantum error correcting code discovery protocols and pipelines.</span></p></li><li><p><span>Using AI and automation to identify novel quantum error correcting codes that achieve high-performance across encoding rate, error suppression, and system realizability.</span></p></li><li><p><span>Integrating various classical machine learning methods for identifying high-performance code constructions, as well as building bespoke machine learning models tailored to high-performance code design.</span></p></li><li><p><span>Building out methods to identify high-performance error correcting codes that directly incorporate hardware constraints of various types of physical systems</span></p></li><li><p><span>Analyzing and evaluating the performance of fault-tolerant circuits implementing quantum error correcting logic and memory using analysis and simulation tools.</span></p></li></ul><p></p><p><b><b>What we need to see:</b><span> </span></b></p><ul><li><p><span>Pursuing a Bachelor&#39;s, Master&#39;s, or PhD in Physics, Electrical/Computer Engineering, Computer Science, or a related field.</span></p></li><li><p><span>Proficiency in Python and background in quantum computing fundamentals, especially superconducting qubits and circuit QED.</span></p></li><li><p><span>Familiarity with, or ability to quickly ramp up on, standard quantum superconducting qubit chip design software.</span></p></li><li><p><span>Exposure to electromagnetic simulation tools such as Ansys HFSS, Palace, or comparable solvers.</span></p></li><li><p><span>Good teamwork, communication, and documentation skills.</span></p></li></ul><p></p><p><b><b>Ways to stand out from the crowd:</b><span> </span></b></p><ul><li><p><span>Hands-on experience with tensor network, state vector, or quantum error correction methods for quantum circuit simulation.</span></p></li><li><p><span>Experience building agentic or LLM-driven workflows for scientific automation and tool orchestration.</span></p></li><li><p><span>GPU-accelerated simulation experience with cuQuantum, CUDA-Q, or related NVIDIA quantum software.</span></p></li><li><p><span>Familiarity with classical machine learning methods.</span></p></li><li><p><span>Publications in quantum computing or applied physics venues (e.g., PRX Quantum, Quantum, npj Quantum Information).</span></p></li></ul><p></p><p><span>NVIDIA <span><span>is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you&#39;re creative and autonomous, we want to hear from you!</span> </span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until May 22, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Yesterday",
+    "startDate": "2026-05-18",
+    "timeType": "Full time",
+    "jobReqId": "JR2018244",
+    "jobPostingId": "Quantum-Research-Scientist-Intern---Fall-2026_JR2018244",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244",
+    "questionnaireId": "2f2764b3a82910064296831695150000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

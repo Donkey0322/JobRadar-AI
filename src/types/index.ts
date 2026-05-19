@@ -1,5 +1,5 @@
 import type { JD, Job } from "./jobs";
 import type Source from "./source";
-import type { Location } from "@/constants";
+import type { Country } from "@/validation/config";
 
-export type { JD, Job, Location, Source };
+export type { JD, Job, Country, Source };

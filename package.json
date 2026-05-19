@@ -10,7 +10,8 @@
     "jobctl": "tsx scripts/command/index.ts",
     "test": "vitest run",
     "company": "tsx scripts/company.ts",
-    "dedup": "tsx scripts/dedup.ts"
+    "dedup": "tsx scripts/dedup.ts",
+    "preview-email": "tsx scripts/preview-email.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

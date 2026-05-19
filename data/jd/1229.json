@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "d0494b066f191000f18083646e9b0000",
+    "title": "Software Engineer Intern",
+    "jobDescription": "<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b><span>What success looks like in this role: </span></b></p><p style=\"text-align:inherit\"></p><p></p><p><b><span>Job Description Summary:</span></b></p><p><span>Works in an introductory, developmental role, often combining academic and other learning with practical, hands-on experience within a function, area or discipline. Works closely with professionals on real projects, applying academic knowledge and general understanding to solve problems and contribute to achievement of company goals. Participates on technical or non-technical tasks, performing research, data analysis and project support – gaining experience and developing understanding of business processes and operations. Develops soft skills, like teamwork, communication and time management. Goal is eventual full-time, value adding employment.</span></p><p></p><p><span> <b>Key Responsibilities</b></span></p><p><span>• Develops knowledge and skills within a particular area or discipline.</span></p><p><span>• Performs work assignments under the direction of a supervisor, manager or senior-level associate.</span></p><p><span>• May work on an alternating (i.e., every other semester) or temporary basis, attending school or vocational training during periods of non-work.</span></p><p><span>• Develops knowledge and skills within a technical discipline (i.e., technical support, software development, data analysis and reporting, networking. / infrastructure support, DevSecOps / cloud support). Typical duties may fall into an area as described below:</span></p><p></p><p><b><span>Software Development</span></b></p><p><span>• Writing basic code or scripts for internal tools and projects.</span></p><p><span>• Helping test software for bugs.</span></p><p><span>• Contributing to or participating in code reviews – learning version control and secure coding practices.</span></p><p></p><p><b><span>Networking and Infrastructure Support</span></b></p><p><span>• Assisting with the installation and configuration of network hardware.</span></p><p><span>• Helping monitor network performance and identify potential issues.</span></p><p><span>• Assisting with troubleshooting hardware, security and other concerns.</span></p><p></p><p><b><span>DevSecOps</span></b></p><p><span>• Assisting with automation of routine tasks using scripts or programming tools.</span></p><p><span>• Assisting with cloud infrastructure management.</span></p><p><span>• Supporting continuous integration/ delivery (CI/CD) pipelines and helping deploy applications.</span></p><p></p><p><b><span>In addition to the above</span></b></p><p><span>• May help with general project coordination and progress tracking.</span></p><p><span>• May assist with research and compiling information for reports and presentations.</span></p><p><span>• May compile and organize information in support of general work group or project activity.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>You will be successful in this role if you have:</b></p><p><span>Student enrolled in Bachelor or Master degree program majoring in Computer Science, Computer Engineer, Mathematics or related discipline </span></p><ul><li><span>Knowledge of basic software engineering concepts </span></li><li><span>Problem solving </span></li><li><span>Familiar with SDLC (software development life cycle) concepts </span></li><li><span>Familiar with one or more programming language(s) </span></li><li><span>Able to learn and apply new technologies quickly • Has a natural curiosity for technology </span></li><li><span>Able to work effectively in a team-oriented environment or as an independent contributor </span></li><li><span>Good written and verbal communication skills</span></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>This role may require access to export-controlled commodities and technology. Therefore, to conform to U.S. export control regulations, applicant should be eligible for any required authorizations from the U.S. Government.</p><p></p><p>Unisys is proud to be an equal opportunity employer that considers all qualified applicants without regard to age, caste, citizenship, color, disability, family medical history, family status, ethnicity, gender, gender expression, gender identity, genetic information, marital status, national origin, parental status, pregnancy, race, religion, sex, sexual orientation, transgender status, veteran status or any other category protected by law.</p><p></p><p>This commitment includes our efforts to provide for all those who seek to express interest in employment the opportunity to participate without barriers. If you are a US job seeker unable to review the job opportunities herein, or cannot otherwise complete your expression of interest, without additional assistance and would like to discuss a request for reasonable accommodation, please contact our Global Recruiting organization at GlobalRecruiting&#64;unisys.com or alternatively Toll Free: 888-560-1782 (Prompt 4). US job seekers can find more information about Unisys’ <a href=\"https://www.unisys.com/siteassets/collateral/careers/eeo-2023.pdf\" target=\"_blank\">EEO commitment here</a>.</p>",
+    "location": "Blue Bell, PA, United States of America",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-19",
+    "timeType": "Full time",
+    "jobReqId": "REQ573111",
+    "jobPostingId": "XMLNAME-2026-Drexel-Fall-Software-Engineer_REQ573111",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Blue Bell",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://unisys.wd5.myworkdayjobs.com/External/job/Blue-Bell-PA-United-States-of-America/XMLNAME-2026-Drexel-Fall-Software-Engineer_REQ573111",
+    "questionnaireId": "246e3dd636dc1000ca28fc9394870000"
+  },
+  "hiringOrganization": {
+    "name": "101 Unisys Corporation",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

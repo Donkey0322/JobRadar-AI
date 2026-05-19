@@ -35,9 +35,15 @@ const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export async function fetchOracleCloud(company: Company, urls: Set<string>) {
+export async function fetchOracleCloud(
+  company: Company,
+  urls: Set<string>,
+  timeout: number = 5000
+) {
   try {
-    const res = await fetch(company.page);
+    const res = await fetch(company.page, {
+      signal: AbortSignal.timeout(timeout),
+    });
     const data = await res.json();
 
     if (!res.ok || !data.items || !data.items.length) {
