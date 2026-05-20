@@ -41,6 +41,7 @@ describe("isTechEntryLevel", () => {
   it("rejects senior roles", () => {
     expect(isTechEntryLevel("Software Engineer III")).toBe(false);
     expect(isTechEntryLevel("Senior Software Engineer")).toBe(false);
+    expect(isTechEntryLevel("Sr. Spclst , Software Engineering")).toBe(false);
   });
 
   it("rejects interns", () => {
@@ -71,6 +72,7 @@ describe("isTechMidLevel", () => {
   it("rejects senior roles", () => {
     expect(isTechMidLevel("Software Engineer III")).toBe(false);
     expect(isTechMidLevel("Senior Software Engineer")).toBe(false);
+    expect(isTechMidLevel("Sr. Spclst , Software Engineering")).toBe(false);
   });
 
   it("rejects interns", () => {
@@ -83,6 +85,7 @@ describe("isTechSeniorLevel", () => {
     expect(isTechSeniorLevel("Software Engineer III")).toBe(true);
     expect(isTechSeniorLevel("Senior Software Engineer")).toBe(true);
     expect(isTechSeniorLevel("Senior Platform Engineer")).toBe(true);
+    expect(isTechSeniorLevel("Sr. Spclst , Software Engineering")).toBe(true);
   });
 
   it("accepts generic full time tech roles", () => {

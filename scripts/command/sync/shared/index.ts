@@ -43,6 +43,7 @@ export async function processJobs({
 
   filter,
 }: ProcessJobsOptions) {
+  logger.info({ count: incomingJobs.length }, "👑 Finalizing jobs...");
   const jobs: Job[] = [];
 
   let totalCost = 0;
