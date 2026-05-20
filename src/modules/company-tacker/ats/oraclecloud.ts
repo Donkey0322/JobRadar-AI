@@ -67,6 +67,14 @@ export async function fetchOracleCloud(
       location: job.PrimaryLocation,
     }));
   } catch (error) {
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching oracle cloud jobs`
+      );
+      return [];
+    }
+
     logger.error(
       { err: error, company: company.name },
       `${RED_CROSS} Error fetching oracle cloud jobs`

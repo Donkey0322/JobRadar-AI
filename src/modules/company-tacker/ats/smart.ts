@@ -64,6 +64,14 @@ export async function fetchSmartRecruiters(
       location: job.location.fullLocation ?? "",
     }));
   } catch (error) {
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching smart recruiters jobs`
+      );
+      return [];
+    }
+
     logger.error(
       { err: error, company: company.name },
       `${RED_CROSS} Error fetching smart recruiters jobs`

@@ -61,9 +61,9 @@ ${JSON.stringify(payload)}
   logger.info(
     {
       cost,
-      batchSize: jobs.length,
+      count: jobs.length,
     },
-    "💰 Classify locations cost"
+    "💰 Classified locations"
   );
 
   const parsed: unknown = JSON.parse(result ?? "[]");
@@ -86,26 +86,17 @@ ${JSON.stringify(payload)}
 }
 
 export async function classifyLocations(jobs: Job[]): Promise<Country[]> {
-  logger.info(
-    {
-      total: jobs.length,
-      batchSize: BATCH_SIZE,
-    },
-    "🔍 Classifying locations..."
-  );
+  if (jobs.length === 0) {
+    logger.info("🔍 No jobs to classify");
+    return [];
+  }
+
+  logger.info({ total: jobs.length }, "🔍 Classifying locations...");
 
   const results: Country[] = [];
 
   for (let i = 0; i < jobs.length; i += BATCH_SIZE) {
     const batch = jobs.slice(i, i + BATCH_SIZE);
-
-    logger.info(
-      {
-        start: i,
-        end: i + batch.length - 1,
-      },
-      "📦 Processing location batch"
-    );
 
     const classified = await classifyBatch(batch);
 

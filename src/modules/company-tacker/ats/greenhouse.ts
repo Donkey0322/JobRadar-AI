@@ -72,6 +72,14 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>, timeo
       location: job.location?.name ?? "",
     }));
   } catch (error) {
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching greenhouse jobs`
+      );
+      return [];
+    }
+
     logger.error(
       { err: error, company: company.name },
       `${RED_CROSS} Error fetching greenhouse jobs`

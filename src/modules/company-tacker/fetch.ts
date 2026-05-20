@@ -3,6 +3,8 @@ import pLimit from "p-limit";
 import type { Company } from "./type";
 import type { Job } from "@/types";
 
+import { getJobKey } from "../job-dedup";
+
 import {
   fetchAshby,
   fetchCustom,
@@ -21,29 +23,39 @@ const limit = pLimit(20);
 export async function fetchJobs(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  timeout: number = 20000
 ): Promise<Job[]> {
+  let jobs: Job[] = [];
   switch (company.ats) {
     case "greenhouse":
-      return fetchGreenhouse(company, urls, timeout);
+      jobs = await fetchGreenhouse(company, urls, timeout);
+      break;
     case "lever":
-      return fetchLever(company, urls, timeout);
+      jobs = await fetchLever(company, urls, 30000);
+      break;
     case "workday":
-      return fetchWorkday(company, urls, timeout);
+      jobs = await fetchWorkday(company, urls, timeout);
+      break;
     case "ashby":
-      return fetchAshby(company, urls, timeout);
+      jobs = await fetchAshby(company, urls, timeout);
+      break;
     case "custom":
-      return fetchCustom(company, urls, timeout);
+      jobs = await fetchCustom(company, urls, timeout);
+      break;
     case "smartrecruiters":
-      return fetchSmartRecruiters(company, urls, timeout);
+      jobs = await fetchSmartRecruiters(company, urls, timeout);
+      break;
     case "oraclecloud":
-      return fetchOracleCloud(company, urls, timeout);
+      jobs = await fetchOracleCloud(company, urls, timeout);
+      break;
     case "icims":
-      return [];
+      return jobs;
     default:
       company.ats satisfies never;
-      return [];
+      return jobs;
   }
+  const urlKeys = new Set(jobs.map((job) => getJobKey(job.link)));
+  return jobs.filter((job) => !urlKeys.has(getJobKey(job.link)));
 }
 
 export default async function discoverJobs() {

@@ -67,6 +67,14 @@ export async function fetchWorkday(company: Company, urls: Set<string>, timeout:
       hasMore = jobs.length === limit && jobs[jobs.length - 1].postedOn === "Posted Today";
     }
   } catch (error) {
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching workday jobs`
+      );
+      return [];
+    }
+
     logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching workday jobs`);
     return [];
   }

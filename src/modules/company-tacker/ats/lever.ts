@@ -56,6 +56,14 @@ export async function fetchLever(company: Company, urls: Set<string>, timeout: n
       location: job.categories?.location ?? "",
     }));
   } catch (error) {
+    if (error instanceof Error && error.name === "TimeoutError") {
+      logger.error(
+        { err: "TimeoutError", company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching lever jobs`
+      );
+      return [];
+    }
+
     logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching lever jobs`);
     return [];
   }

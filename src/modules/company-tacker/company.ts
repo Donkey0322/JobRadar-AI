@@ -15,6 +15,8 @@ import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
 
+import { logger } from "@/utils/logger";
+
 function extractCompany(urlStr: string): Company | null {
   try {
     const url = new URL(urlStr);
@@ -66,5 +68,8 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
 
   await fs.writeFile(COMPANY_PATH, JSON.stringify(result, null, 2), "utf-8");
+
+  logger.info({ count: result.length }, `💰 Successfully built companies`);
+
   return result;
 }
