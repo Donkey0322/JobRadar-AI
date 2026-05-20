@@ -47,6 +47,7 @@ export async function processJobs({
 
   let totalCost = 0;
   let newUrlAdded = false;
+  let skipped = 0;
 
   for (const job of incomingJobs) {
     const key = getJobKey(job.link);
@@ -60,6 +61,7 @@ export async function processJobs({
     newUrlAdded = true;
 
     if (filter && (await filter(job))) {
+      skipped += 1;
       continue;
     }
 
@@ -69,6 +71,7 @@ export async function processJobs({
 
     if (jd) {
       if (!isEligibleJD(jd)) {
+        skipped += 1;
         logger.info(
           {
             company: job.company,
@@ -100,7 +103,7 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped: incomingJobs.length - jobs.length },
+      { cost: totalCost, skipped },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {

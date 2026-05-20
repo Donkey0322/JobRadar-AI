@@ -1,0 +1,397 @@
+By continuing to use this website you consent to our use of cookies
+Accept
+Close
+//<![CDATA[
+$(function()
+{
+/* Using 'skipLinkSafari' to include CSS styles specific to Safari. */
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+$("#skipLink").attr('class', 'skipLinkSafari');
+}
+});
+//]]>
+$(document).ready(function() {
+$("#skipLink").click(function (e) {
+e.preventDefault();
+$("#content").focus().css('outline','none');
+var offset = $(':target').offset();
+var fixedHeaderHeight = $("#header").innerHeight();
+var scrollto = offset.top - fixedHeaderHeight;
+$('html, body').animate({scrollTop:scrollto}, 0);
+});
+});
+Skip to main content
+//<![CDATA[
+(function waitForJQueryAndRun() {
+if (typeof window.$ === 'function') {
+// jQuery is loaded, run your code
+$(function() {
+$(document).on('shown.bs.dropdown', '.custom-header-menu div.menu.upper li.dropdown', function(e) {
+var $dropdown = $(this);
+var $anchor = $dropdown.find('a[data-toggle="dropdown"], a.dropdown-toggle').first();
+var $menuPopover = $dropdown.children('ul.dropdown-menu').first();
+if ($menuPopover.length && $anchor.length) {
+// Focus the first focusable element when menu opens
+var focusableEls = $menuPopover.find('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])').filter(':visible');
+var first = focusableEls.first()[0];
+if (first) first.focus();
+$menuPopover.on('keydown.dropdown-navigation', function (e) {
+// Only trap focus if menu is open
+if ($anchor.attr('aria-expanded') === 'true') {
+if (e.key === 'Escape' || e.key === 'Tab') {
+$anchor.attr('aria-expanded', 'false');
+$dropdown.removeClass('open');
+$anchor.focus();
+}
+}
+});
+}
+});
+// Clean up event handlers when dropdown closes
+$(document).on('hidden.bs.dropdown', '.custom-header-menu div.menu.upper li.dropdown', function(e) {
+var $dropdown = $(this);
+var $menuPopover = $dropdown.children('ul.dropdown-menu').first();
+$menuPopover.off('keydown.dropdown-navigation');
+});
+});
+} else {
+// jQuery not loaded yet, try again soon
+setTimeout(waitForJQueryAndRun, 50);
+}
+})();
+//]]>
+ABOUT US
+Corporate Profile
+Our Commitment
+Diversity
+JOBS BY LOCATION
+North America
+Latin America
+Europe & Sub-Saharan Africa (ESSA)
+Middle East & North Africa (MENA)
+Eurasia
+AsiaPacific
+JOBS BY FUNCTION
+Professional
+Field Operations
+Manufacturing
+Students & Recent Graduates
+CAREER DEVELOPMENT
+VETERANS
+CONTINGENT JOBS (U.S. ONLY)
+Language
+English (United States)
+Español (México)
+Norsk bokmål ‎(Norwegian Bokmål)
+Português (Brasil)
+View Profile
+ABOUT US
+Corporate Profile
+Our Commitment
+Diversity
+JOBS BY LOCATION
+North America
+Latin America
+Europe & Sub-Saharan Africa (ESSA)
+Middle East & North Africa (MENA)
+Eurasia
+AsiaPacific
+JOBS BY FUNCTION
+Professional
+Field Operations
+Manufacturing
+Students & Recent Graduates
+CAREER DEVELOPMENT
+VETERANS
+CONTINGENT JOBS (U.S. ONLY)
+Language
+English (United States)
+Español (México)
+Norsk bokmål ‎(Norwegian Bokmål)
+Português (Brasil)
+View Profile
+Language
+English (United States)
+Español (México)
+Norsk bokmål ‎(Norwegian Bokmål)
+Português (Brasil)
+View Profile
+ABOUT US
+Corporate Profile
+Our Commitment
+Diversity
+JOBS BY
+FUNCTION
+LOCATION
+CAREER DEVELOPMENT
+VETERANS
+CONTINGENT JOBS (U.S. ONLY)
+//<![CDATA[
+$(document).on('resizeFixedHeader', function () {
+$('#fixedHeaderInlineStyle').remove();
+$("<style type='text/css' id='fixedHeaderInlineStyle'>@media only screen and (min-width: 767px) { body { padding-top: " + $('#header').outerHeight(true) + "px;} }</style>").appendTo("head");
+}).trigger('resizeFixedHeader');
+$(window).on( "ready", function() {
+$(document).trigger('resizeFixedHeader');
+});
+$(window).on( "load", function() {
+$(document).trigger('resizeFixedHeader');
+});
+//]]>
+Search by Keyword
+Search by Location
+Select how often (in days) to receive an alert:
+Create Alert
+form.emailsubscribe-form {
+display: none;
+}
+×
+Select how often (in days) to receive an alert:
+Apply now »
+Software Engineer - Early Career - Landmark
+Date:
+May 19, 2026
+Location:
+Houston, TX, US, 77032
+#job-location.job-location-inline {
+display: inline;
+}
+.buttontexte60eb4aa85b73f8c a{
+border: 1px solid transparent;
+}
+.buttontexte60eb4aa85b73f8c a:focus{
+border: 1px dashed #b70000 !important;
+outline: none !important;
+}
+We are looking for the right people — people who want to innovate, achieve, grow and lead. We attract and retain the best talent by investing in our employees and empowering them to develop themselves and their careers. Experience the challenges, rewards and opportunity of working for one of the world’s largest providers of products and services to the global energy industry. About Landmark
+Landmark, a Halliburton company, builds the software and data platforms that help the global energy industry make better decisions. Our products span subsurface interpretation, well construction planning, reservoir simulation, production optimization, and digital operations. These are tools used daily by engineers and scientists at the world’s largest energy companies and run as cloud-native SaaS platforms and as enterprise on-premises solutions.About the Role
+This role spans the full early-career range. We are hiring new graduates as well as engineers with up to five years of professional experience. If you are a few years in and looking for stronger mentorship, a more technically serious codebase, or a clearer growth path than your current role offers, this posting is for you. Your experience will be reflected in your level, scope, and compensation at offer.
+You join a delivery team and start writing production code immediately. You build software with your team that oil and gas operators use every day for real decisions. You debug issues in systems that connect to live data, write features that operators depend on, and learn how professional software teams ship quality code at scale.
+You receive regular guidance from experienced engineers and participate in code reviews from the start. Over time, you grow your technical skills and your understanding of the product domain, and you build the habits that make an engineer effective over the long term. We hire for potential and train for success.
+Positions are available across a range of teams. Team assignment determines both the product domain you work in and the technologies you use.
+Teams build software for domains such as:
+Geoscience — geology, geophysics, or petrophysics
+Drilling engineering and well planning
+Reservoir engineering and modeling
+Production engineering and optimization
+E&P data management and integration
+Cloud and platform infrastructure, data services, and developer tooling
+AI-assisted analytics, search, and generative AI
+Technologies used vary by team and include:
+Languages such as Java, C#, F#, C++, Python, and TypeScript
+Frameworks, platforms, and runtimes such as .NET, Angular, React, and Node.js
+Cloud platforms including Azure and AWS
+Containerization and orchestration tooling such as Docker and Kubernetes
+Infrastructure automation tools such as Terraform, Ansible, Helm, and Argo CD/Flux
+Relational and NoSQL databases such as PostgreSQL, SQL Server, Oracle, and MongoDB
+Job Duties
+Build, test, and ship features for products in active use by energy companies worldwide
+Debug and fix defects in production systems, learning how large-scale applications behave under real conditions
+Write and maintain automated tests as part of the team’s standard delivery workflow
+Participate in code reviews: read your teammates’ code, receive feedback on yours, and learn the codebase through both activities
+Follow secure coding practices, triage security issues when they arise, and apply fixes to deliver secure applications
+Contribute to technical documentation for the systems and features you work on
+Work within a distributed team across time zones, communicating clearly and consistently about your progress and blockers
+Research and evaluate open-source tools and libraries that can improve the systems you work on
+Grow your understanding of the product domain through the work itself
+Qualifications
+Required
+Bachelor’s degree in Computer Science, Software Engineering, or a related discipline, or equivalent professional experience
+0–5 years of software development experience
+Working knowledge of at least one modern programming language and standard development tooling (version control, build systems, testing frameworks)
+Preferred
+Experience contributing to a shared codebase with other engineers
+Exposure to cloud platforms (Azure, AWS), web application development, or data systems
+Exposure to CI/CD or infrastructure automation tools
+Interest in technically demanding application domains such as scientific computing, applied AI/ML, real-time systems, large-scale data processing, or similar
+Energy industry experience is not required but is a strong plus. We welcome candidates from all backgrounds and encourage you to apply even if your experience does not match every item in the preferred list.
+Candidates with qualifications exceeding the minimum job requirements will be considered for higher-level positions based on their experience, additional job requirements, and current business needs. Depending on their education, experience, and skill level, candidates may be eligible for a range of job opportunities, including Technical Professional and Senior Technical Professional. How You Work
+The engineer who succeeds in this role is technically curious and takes their craft seriously. Whether you are writing your first production code or already have a few years behind you, you pick up new tools and techniques quickly, ask good questions when you are unsure, and follow through on the tasks you own. You treat code reviews as a place to both learn and contribute, and you communicate clearly with teammates across time zones.Why Landmark
+We build small, high-ownership teams and invest in the quality of every person on them. You will work in a business where software is the product, the work you do matters, and the standards are high. You will learn from experienced mentors, grow your skills on technically real problems, and build a strong foundation for a long-term career in software engineering.
+We offer competitive compensation, a strong career path, and a role where your contribution makes a difference from day one.World Class Benefits:
+At Halliburton, we're committed to providing you and your family with a comprehensive and affordable benefits package - which means we offer support for your physical, emotional, financial and parental needs, both now and in the future. When you join our team, you'll have access to a wide range of resources designed to help you thrive at work and at home. By clicking here, you can review a summary of the benefits available once you join.
+Halliburton is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, disability, genetic information, pregnancy, citizenship, marital status, sex/gender, sexual preference/ orientation, gender identity, age, veteran status, national origin, or any other status protected by law or regulation.
+Location
+3000 N Sam Houston Pkwy E, Houston, Texas, 77032, United States
+Job Details
+Requisition Number: 208802 Experience Level: Experienced HireJob Family: Engineering/Science/TechnologyProduct Service Line: Landmark Software & Services Full Time / Part Time: Full Time
+Additional Locations for this position:
+Compensation InformationCompensation is competitive and commensurate with experience.
+Nearest Major Market: Houston
+Job Segment:
+Cloud, Testing, .NET, ERP, Computer Science, Technology
+Apply now »
+Find similar jobs:
+ERP Jobs in Houston,
+Developer Jobs in Houston,
+Computer Science Jobs in Houston,
+Cloud Jobs in Houston,
+Application Developer Jobs in Houston
+Privacy
+Terms
+Opens in a new tab.
+Opens in a new tab.
+Opens in a new tab.
+Opens in a new tab.
+Copyright © 2025 Halliburton. All Rights Reserved.
+//<![CDATA[
+j2w.init({
+"cookiepolicy" : 1,
+"useSSL" : true,
+"isUsingSSL" : true,
+"isResponsive" : true,
+"categoryId" : 0,
+"siteTypeId" : 1,
+"ssoCompanyId" : 'HALprod',
+"ssoUrl" : 'https://career4.successfactors.com',
+"passwordRegEx" : '^(?=.{6,20}$)(?!.*(.)\\1{3})(?=.*([\\d]|[^\\w\\d\\s]))(?=.*[A-Za-z])(?!.*[\\u007F-\\uFFFF\\s])',
+"emailRegEx" : '^(?![+])(?=([a-zA-Z0-9\\\'.+!_-])+[@]([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9.-]*[a-zA-Z0-9])[.]([a-zA-Z]){1,63}$)(?!.*[\\u007F-\\uFFFF\\s,])(?!.*[.]{2})',
+"hasATSUserID" : false,
+"useCASWorkflow" : true,
+"brand" : "",
+"dpcsStateValid" : false
+});
+j2w.TC.init({
+"seekConfig" : {
+"url" : 'https\x3A\x2F\x2Fwww.seek.com.au\x2Fapi\x2Fiam\x2Foauth2\x2Fauthorize',
+"id" : 'successfactors12',
+"advertiserid" : ''
+}
+});
+$.ajaxSetup({
+cache : false,
+headers : {
+"X-CSRF-Token" : "e0efc0a5-50d5-45be-9a48-dceeebb6c56b"
+}
+});
+//]]>
+//<![CDATA[
+j2w.Apply.init({
+jobID : 1392092600,
+locale : 'en_US',
+relocateApplyURL : '',
+subscribeAtApply : true,
+useOnPageBusinessCard : true,
+applyWithLinkedIn2Config : {"enabled":false,"companyId":null,"integrationContext":null,"internalId":"208802-en_US","email":""}
+});
+//]]>
+//<![CDATA[
+$(function()
+{
+var ctid = '7b515e4b-e15b-477c-81e9-15dd8d59eff4';
+var referrer = '';
+var landing = document.location.href;
+var brand = '';
+$.ajax({ url: '/services/t/l'
+,data: 'referrer='+ encodeURIComponent(referrer)
++ '&ctid=' + ctid
++ '&landing=' + encodeURIComponent(landing)
++ '&brand=' + brand
+,dataType: 'json'
+,cache: false
+,success: function(){}
+});
+});
+//]]>
+//<![CDATA[
+$(function() {
+$('input:submit,button:submit').each(function(){
+var submitButton = $(this);
+if(submitButton.val() == '') submitButton.val('');
+});
+$('input, textarea').placeholder();
+});
+//]]>
+const jobAlertSpans = document.querySelectorAll("[data-testid=jobAlertSpanText]");
+jobAlertSpans?.forEach((jobEl) => {
+jobEl.textContent = window?.jsStr?.tcjobresultscreatejobalertsdetailstext || "";
+});
+//<![CDATA[
+if (Cookies && !Cookies.get('rmk12')) {
+$('.ukCookiePolicy').show();
+$('#cookie-close').click(function () {
+closeBanner();
+});
+$('#cookie-acknowledge').click(function () {
+closeBanner(true);
+});
+/**
+* Closes the cookie banner, optionally dropping a cookie to keep the banner from reappearing.
+* @param {boolean=} bDropCookie - If true, a cookie will be dropped to prevent the banner from
+* being shown again.
+*/
+function closeBanner(bDropCookie) {
+if (bDropCookie) {
+Cookies.set('rmk12', 1, {
+expires: (function () {
+var i = new Date;
+i.setFullYear(i.getFullYear() + 30);
+return i;
+}())
+});
+}
+$('div.ukCookiePolicy').remove();
+/* When the banner is removed, the fixed header may need to be resized. If there is no fixed
+header, this event goes unhandled. Please see header.xhtml. */
+$(document).trigger('resizeFixedHeader');
+$("#skipLink").focus();
+}
+}
+//]]>
+//<![CDATA[
+j2w.SSO.init({
+email : '',
+enabled : false,
+jobID : '1392092600',
+locale : 'en_US',
+tcaction : 'job',
+logoutDefaultPath : 'jobs.halliburton.com',
+usingRD : true
+});
+// This code is to deal with empty e-mail strings on back button clicks to the page when first logging in.
+$(window).on( "load", function () {
+if (''.length && !j2w.SSO.getEmail().length) {
+$.ajax({
+type : 'GET',
+url : '/services/security/email',
+success : function (data) {
+if (data.email.length) {
+j2w.SSO.setEmail(data.email);
+}
+}
+});
+}
+});
+//]]>
+//<![CDATA[
+var subscribeWidgetSetup = {
+action : 'subscribe',
+usingJobAlertsManager : false
+};
+//]]>
+//<![CDATA[
+$(function() {
+$('.emailsubscribe-button').click(function (e) {
+e.preventDefault();
+var $frequency = $('.subscribe-frequency').val();
+var rcmLoggedIn = false;
+var action = rcmLoggedIn ? 'alertCreate' : 'subscribe';
+var result = j2w.Agent.validateFrequency($frequency);
+if (!result.length) {
+j2w.TC.collectForCASWorkflow({
+"emailAddress": '',
+"action": action,
+"socialSrc": '',
+"frequency": parseFloat($frequency)
+});
+} else {
+if (j2w.Args.get('isResponsive')) {
+$('.frequency-error-message').html(result.concat('<br/>'));
+$('.frequency-error').removeClass('hidden');
+} else {
+alert(result.join('\n'));
+}
+}
+});
+});
+//]]>

@@ -1,0 +1,50 @@
+{
+  "jobPostingInfo": {
+    "id": "902e81218b4e1000fc58749a029b0000",
+    "title": "New Grad- Software Engineer",
+    "jobDescription": "<p><b>Who we are</b></p><p><span>With its A.I.-powered robotic technology platform, Symbotic is changing the way consumer goods move through the supply chain. Intelligent software orchestrates advanced robots in a high-density, end-to-end system – reinventing warehouse automation for increased efficiency, speed and flexibility.</span></p><p></p><p>Symbotic is seeking Software Engineers that will play a hands-on role in the development of core software components responsible for orchestrating inventory into the Symbotic system and order fulfillment out to customers. We are looking for people who thrive in a creative, collaborative and agile development environment.</p><p></p><p><b>About the opportunities</b></p><p>Symbotic’s Software Engineering function is a diverse community of skilled engineers who are building innovative technology across the stack. New Graduate opportunities in our Software function include: </p><ul><li><p><b>Front-end engineers</b> develop and enhance desktop, mobile, and web applications, optimizing performance and usability for end-users. </p></li></ul><ul><li><p><b>Back-end engineers</b> develop high quality code and packages following software engineering best practices in areas such as tasking, cognitive tools, fleet orchestration, case handling, and storage and retrieval. </p></li></ul><ul><li><p><b>Test Automation engineers</b> triage complex onsite issues and build automated pipelines to validate new products and packaging at scale</p></li></ul><p></p><p><b>What you’ll do</b></p><ul><li><p>Play a hands-on role as part of an engineering team that works to design, develop, review and test new functionality.</p></li><li><p>Collaborate with others on the team to build features based on new business requirements.</p></li><li><p>Design and develop real-time distributed software to orchestrate the induction of new inventory and order fulfillment to customers.</p></li><li><p>Evolve the current software architecture toward microservices using .NET Core, Kubernetes, RabbitMQ and Redis.</p></li><li><p>Support the design and development of high-quality software using some of the following: C#, SQL, WPF, Angular, LINQ, ASP.NET, and Docker.</p></li><li><p>Contribute to a distributed architecture built on .NET using multi-threaded and multi-processor concepts.</p></li><li><p>Collaborate with other software teams to create a seamlessly integrated software product. </p></li></ul><p></p><p><b>What you’ll need</b></p><ul><li><p>Bachelor&#39;s (or higher) Degree in Computer Science, or related technical discipline.</p></li><li><p>Object oriented design and programming concepts, C# or Java is preferred.</p></li><li><p>Experience with Linux and its commands. </p></li><li><p>Experience with source code version control, unit testing, design and defect tracking tools.</p></li><li><p>Experience with developing unit tests and test and test automation frameworks. </p></li><li><p>Self-motivated, with an ability to learn quickly and independently, and work in a dynamic agile environment with cross-functional and remote teams.</p></li><li><p>Excellent verbal and written communications skills.</p></li></ul><p></p><p><b>Our environment</b></p><div><ul><li><p><span><span>Up to<span> </span></span></span><span><span>10%</span></span><span><span><span> </span></span></span><span><span>of travel may be<span> </span></span><span>required</span><span>. Employees must have a valid driver’s license and the ability to drive and/or fly to client and other customer locations.</span></span><span> </span></p></li></ul></div><div><ul><li><p><span><span>The employee<span> </span></span><span>is responsible for</span><span><span> </span>owning a credit card and managing expenses personally to be reimbursed on a bi-weekly basis.</span></span><span> </span></p></li></ul><p></p><p>#LI-JH1</p><p>#LI-Hybrid</p></div><p><b>About Symbotic</b></p><p>Symbotic is an automation technology leader reimagining the supply chain with its end-to-end, AI-powered robotic and software platform. Symbotic reinvents the warehouse as a strategic asset for the world’s largest retail, wholesale, and food &amp; beverage companies. Applying next-gen technology, high-density storage and machine learning to solve today&#39;s complex distribution challenges, Symbotic enables companies to move goods with unmatched speed, agility, accuracy and efficiency. As the backbone of commerce the Symbotic platform transforms the flow of goods and the economics of supply chain for its customers. For more information, visit <a target=\"_blank\" href=\"http://www.symbotic.com/\">www.symbotic.com</a>.</p><p> </p><p>We are a community of innovators, collaborators and pioneers who embrace our differences, because we know unique perspectives make us stronger and smarter. Every perspective matters. We depend on the collective voices of our employees, customers and community to help guide us as we build a better place to work – for you and the world. That’s why we’re proud to be an equal opportunity employer. </p><p>We do not discriminate based on race, color, ethnicity, ancestry, religion, sex, national origin, sexual orientation, age, citizenship status, marital status, disability, gender identity, gender expression, veteran status, or genetic information. </p><p></p><p></p>The base range for this position in the posted location is $96,000.00 - $132,000.00 however, base pay offered may vary depending on job-related knowledge, skills, and experience. The compensation package includes medical, dental, vision, disability, 401K, PTO and/or other benefits.",
+    "location": "USA Wilmington, MA - HQ",
+    "postedOn": "Posted Yesterday",
+    "startDate": "2026-05-19",
+    "timeType": "Full time",
+    "jobReqId": "R6770",
+    "jobPostingId": "New-Grad--Software-Engineer_R6770",
+    "jobPostingSiteId": "Symbotic",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/symbotic/symbotic/sidebarimage/70eb0dff34b10101d1139b4ab0020000",
+      "alt": "Symbotic"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA Wilmington, MA - HQ",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/New-Grad--Software-Engineer_R6770",
+    "questionnaireId": "f149a8822b5d1001b36f8cefebe40000"
+  },
+  "hiringOrganization": {
+    "name": "Symbotic LLC",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "New Grad- Software Engineer, ML Ops",
+      "externalPath": "/job/USA-Wilmington--MA---HQ/Software-Engineer---ML-Ops_R6028",
+      "timeType": "Full time",
+      "locationsText": "USA Wilmington, MA - HQ",
+      "postedOn": "Posted 13 Days Ago",
+      "startDate": "2026-05-07"
+    }
+  ],
+  "userAuthenticated": false
+}

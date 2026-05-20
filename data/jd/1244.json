@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "5113de93341f1009a27f41bbcce80000",
+    "title": "Software Engineer, AI and DL Kernel Libraries - New College Grad 2026",
+    "jobDescription": "<p>We&#39;re looking for outstanding AI systems engineers to develop groundbreaking technologies in the inference systems software stack! We build innovative AI systems software to accelerate for AI inference. As a member of the team, you&#39;ll develop libraries, code generators, and GPU kernel technologies for NVIDIA&#39;s hardware architecture. This means designing and building things like new abstractions, efficient attention kernel implementations, new LLM inference runtimes components, and kernel code generators to accelerate large language models, agents, and other high-impact AI workloads.</p><p></p><p><b>What you&#39;ll be doing:</b></p><ul><li><p>Innovating and developing new AI systems technologies for efficient inference</p></li><li><p>Designing, implementing, and optimizing kernels for high impact AI workloads</p></li><li><p>Designing and implementing extensible abstractions for LLM serving engines</p></li><li><p>Building efficient just-in-time domain specific compilers and runtimes</p></li><li><p>Collaborating closely with other engineers at NVIDIA across deep learning frameworks, libraries, kernels, and GPU arch teams</p></li><li><p>Contributing to open source communities like FlashInfer, vLLM, and SGLang</p></li></ul><p></p><p><b>What we need to see:</b></p><ul><li><p>Masters degree in Computer Science, Electrical Engineering, or related field (or equivalent experience); PhD are preferred</p></li><li><p>2 &#43; years (academic/ industry) experience with ML/DL systems development preferable</p></li><li><p>Strong experience in developing or using deep learning frameworks (e.g. PyTorch, JAX, TensorFlow, ONNX, etc) and ideally inference engines and runtimes such as vLLM, SGLang, and MLC.</p></li><li><p>Strong Python and C/C&#43;&#43; programming skills</p></li><li><p>Strong experience in GPU kernel development and performance optimizations (especially using CUDA C/C&#43;&#43;, cuTile, Triton, or similar)</p></li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li><p>Background in domain specific compiler and library solutions for LLM inference and training (e.g. FlashInfer, Flash Attention)</p></li><li><p>Expertise in inference engines like vLLM and SGLang</p></li><li><p>Expertise in machine learning compilers (e.g. Apache TVM, MLIR)</p></li><li><p>Open source project ownership or contributions</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 124,000 USD - 195,500 USD for Level 2, and 152,000 USD - 241,500 USD for Level 3.<div><div><div><div><div><div><div><p></p><p><span>You will also be eligible for equity and <a href=\"https://www.nvidia.com/en-us/benefits/\" target=\"_blank\">benefits</a>.</span></p><p></p></div></div></div></div></div></div></div>Applications for this job will be accepted at least until May 23, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+    "location": "US, CA, Santa Clara",
+    "additionalLocations": [
+      "US, CA, Remote"
+    ],
+    "postedOn": "Posted Yesterday",
+    "startDate": "2026-05-19",
+    "timeType": "Full time",
+    "jobReqId": "JR2018473",
+    "jobPostingId": "Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--AI-and-DL-Kernel-Libraries---New-College-Grad-2026_JR2018473",
+    "questionnaireId": "2f2764b3a82910064296831695150000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
