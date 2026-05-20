@@ -224,6 +224,16 @@
     ]
   },
   {
+    "name": "achievers",
+    "ats": "lever",
+    "identifier": "achievers",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/achievers?mode=json",
+    "urls": [
+      "https://jobs.lever.co/achievers/6a348eef-0078-4d6a-bc90-f2d7077d2987/apply"
+    ]
+  },
+  {
     "name": "acluinternships",
     "ats": "greenhouse",
     "identifier": "acluinternships",
@@ -6764,12 +6774,13 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Etched",
     "urls": [
+      "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8",
       "https://jobs.ashbyhq.com/Etched/47e6dec8-2ca6-4359-8cff-0b91bcbf48ea",
       "https://jobs.ashbyhq.com/Etched/605c286d-be56-4e83-83b8-436d29ce17df",
       "https://jobs.ashbyhq.com/Etched/8c1e7aab-3c6d-49a3-8176-d9158acb181f",
       "https://jobs.ashbyhq.com/Etched/982a8ee4-5e1e-43c7-a918-6dac285cdddd/application",
       "https://jobs.ashbyhq.com/Etched/9e6737f4-394f-43b1-92ef-b9d4a7986f68",
-      "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8"
+      "https://jobs.ashbyhq.com/Etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71/application"
     ]
   },
   {
@@ -7718,7 +7729,10 @@
       "https://fox.wd1.myworkdayjobs.com/Domestic/job/Chicago-Illinois-USA/Summer-2026-Big-Ten-Network-Internship-Program---Chicago_R50030602",
       "https://fox.wd1.myworkdayjobs.com/Domestic/job/New-York-New-York-USA/Summer-2026-FOX-News-Media-Internship-Program---Data-Analytics---New-York_R50030083",
       "https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Summer-2026-FOX-Technology-Internship-Program---Tempe--AZ_R50030120",
-      "https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Summer-and-Fall-2026-FOX-Technology-Internship-Program---Live-Sports-Virtual-Enhancement-Operator_R50030979"
+      "https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Summer-and-Fall-2026-FOX-Technology-Internship-Program---Live-Sports-Virtual-Enhancement-Operator_R50030979",
+      "https://fox.wd1.myworkdayjobs.com/Domestic/job/New-York-New-York-USA/Fall-2026-FOX-Technology-Internship-Program---New-York--NY_R50032648-1",
+      "https://fox.wd1.myworkdayjobs.com/Domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Fox-2026-FOX-Technology-Internship-Program---Tempe--AZ_R50032649",
+      "https://fox.wd1.myworkdayjobs.com/Domestic/job/Los-Angeles-California-USA/Fall-2026-FOX-Technology-Internship-Program---Los-Angeles--CA_R50032647"
     ]
   },
   {
@@ -10232,7 +10246,8 @@
       "https://jobs.bytedance.com/en/position/7595756835349973253/detail",
       "https://jobs.bytedance.com/en/position/7600176309125466373/detail",
       "https://jobs.bytedance.com/en/position/7616874229010647349/detail",
-      "https://jobs.bytedance.com/en/position/7618396290598045957/detail"
+      "https://jobs.bytedance.com/en/position/7618396290598045957/detail",
+      "https://jobs.bytedance.com/en/position/7637923145297119493/detail"
     ]
   },
   {
@@ -15419,7 +15434,8 @@
     "page": "https://api.icims.com/v1/companies/scires/jobs",
     "urls": [
       "https://careers-scires.icims.com/jobs/11082/job?mobile=true&needsRedirect=false",
-      "https://careers-scires.icims.com/jobs/11083/job?mobile=true&needsRedirect=false"
+      "https://careers-scires.icims.com/jobs/11083/job?mobile=true&needsRedirect=false",
+      "https://careers-scires.icims.com/jobs/11215/job?mobile=true&needsRedirect=false"
     ]
   },
   {
