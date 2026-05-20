@@ -1,71 +1,27 @@
 import { SOURCES } from "@/constants";
-import { GREEN_CHECKMARK } from "@/constants/log";
 
 import type { Job } from "@/types";
 
-import { buildCompanyList } from "@/modules/company-tacker/company";
+import { createSyncContext, processJobs } from "./shared";
+
 import fetchSource from "@/modules/github-parser";
-import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
-import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
-import { loadJobs, loadUrls, saveJd } from "@/utils/data";
-import { saveJob, saveUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
 
 export default async function syncCommunity() {
   logger.info("🔍 Syncing community...");
 
-  // Idempotent: get all previously sent urls
-  const urls = await loadUrls();
-  const keys = new Set(groupUrlsByKey(Array.from(urls)).keys());
+  const context = await createSyncContext();
 
-  // we have to manually track the id of the last sent job
-  const sentJobs = await loadJobs();
-  let currentId = sentJobs.find((job) => job.id)?.id ?? 0;
-
-  const newJobs: Job[] = [];
+  const jobs: Job[] = [];
 
   for (const source of SOURCES.filter((source) => !source.disabled)) {
     logger.info({ url: source.url }, `🔍 Fetching community: ${source.name}`);
-    const jobs = await fetchSource(source);
-    newJobs.push(...jobs);
+    const fetched = await fetchSource(source);
+    jobs.push(...fetched);
   }
 
-  const jobs: Job[] = [];
-  let totalCost = 0;
-  for (const job of newJobs) {
-    const key = getJobKey(job.link);
-    if (keys.has(key)) {
-      continue;
-    }
-
-    urls.add(job.link);
-    keys.add(key);
-
-    const { jd, rawJD, cost } = await getJD(job);
-    totalCost += cost;
-    if (jd) {
-      if (!isEligibleJD(jd)) {
-        continue;
-      }
-
-      currentId += 1;
-      job.id = currentId;
-      job.jd = jd;
-      if (!job.season) {
-        job.season = jd.season;
-      }
-      await saveJd(rawJD, job);
-    }
-
-    jobs.push(job);
-  }
-
-  await saveUrls(urls);
-  await saveJob(jobs);
-  logger.info({ totalCost }, "💰 Processed jobs: Total cost");
-
-  if (jobs.length > 0) {
-    const companies = await buildCompanyList(urls);
-    logger.info({ count: companies.length }, `${GREEN_CHECKMARK} Successfully built companies`);
-  }
+  await processJobs({
+    jobs,
+    ...context,
+  });
 }
