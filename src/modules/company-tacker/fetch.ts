@@ -54,7 +54,7 @@ export async function fetchJobs(
       company.ats satisfies never;
       return jobs;
   }
-  const urlKeys = new Set(jobs.map((job) => getJobKey(job.link)));
+  const urlKeys = new Set(Array.from(urls).map(getJobKey));
   return jobs.filter((job) => !urlKeys.has(getJobKey(job.link)));
 }
 
