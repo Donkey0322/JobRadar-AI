@@ -22,19 +22,19 @@ jobs:
     steps:
       # ✅ Checkout repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
 
       # ✅ Setup pnpm
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           version: 11
 
       # ✅ Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "pnpm"
@@ -43,19 +43,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # ✅ Check jobs.ndjson diff
-      - name: Detect jobs.ndjson changes
-        id: diff
-        run: |
-          if git diff --quiet HEAD^ HEAD -- data/jobs.ndjson; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
       # ✅ Notify latest jobs
-      - name: Notify jobs
-        if: steps.diff.outputs.changed == 'true'
+      - name: Notify latest jobs
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -71,6 +60,5 @@ jobs:
           BACKUP_GEMINI_API_KEY: ${{ secrets.BACKUP_GEMINI_API_KEY }}
 
           LOG_PRETTY: "1"
-
         run: |
           pnpm jobctl notify latest

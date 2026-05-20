@@ -7,7 +7,11 @@ on:
 
 permissions:
   contents: write
-  actions: read
+  actions: write
+
+concurrency:
+  group: ats-discovery
+  cancel-in-progress: false
 
 jobs:
   discover-jobs:
@@ -17,19 +21,20 @@ jobs:
     steps:
       # ✅ Checkout repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          token: ${{ secrets.PAT }}
 
       # ✅ Setup pnpm
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           version: 11
 
       # ✅ Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "pnpm"
@@ -38,8 +43,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # ✅ Run ATS discovery
+      # ✅ Run ATS discovery pipeline
       - name: Run ATS discovery pipeline
+        id: sync
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -55,20 +61,35 @@ jobs:
           BACKUP_GEMINI_API_KEY: ${{ secrets.BACKUP_GEMINI_API_KEY }}
 
           LOG_PRETTY: "1"
-
         run: |
           pnpm jobctl sync discover
 
-      # ✅ Commit updated discovery data
-      - name: Commit and push updated data
-        if: success()
-        run: |
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
-            git config user.name "actions-bot"
-            git config user.email "actions@github.com"
-
-            git add data/
-
-            git commit -m "chore(discovery): update discovered jobs"
-            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No new discovery data found."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
+
+      # ✅ Cancel workflow if no changes
+      - name: Cancel workflow if no changes
+        if: steps.sync.outputs.has_changes != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run cancel ${{ github.run_id }}
+
+      # ✅ Commit and push updated discovery data
+      - name: Commit and push updated data
+        if: steps.sync.outputs.has_changes == 'true'
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          git config user.name "actions-bot"
+          git config user.email "actions@github.com"
+
+          git add data/
+          git commit -m "chore(discovery): update discovered jobs"
+
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:${{ github.ref_name }}
