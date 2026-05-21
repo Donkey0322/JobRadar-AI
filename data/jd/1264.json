@@ -1,0 +1,64 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/neuralink/jobs/6594261003?gh_jid=6594261003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 5221483003,
+  "location": {
+    "name": "South San Francisco, California, United States"
+  },
+  "metadata": [
+    {
+      "id": 4535835003,
+      "name": "Employment Type",
+      "value": "Internship_non-exempt",
+      "value_type": "single_select"
+    },
+    {
+      "id": 19380885003,
+      "name": "Job Board Department Name",
+      "value": "Internships",
+      "value_type": "single_select"
+    },
+    {
+      "id": 21582037003,
+      "name": "Neuralink Job Code",
+      "value": "INTPR",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 6594261003,
+  "updated_at": "2026-05-21T15:34:18-04:00",
+  "requisition_id": "HC-ENG-197",
+  "title": "Machine Learning Engineer Intern",
+  "company_name": "Neuralink",
+  "first_published": "2025-05-30T18:30:33-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Neuralink:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are creating devices that enable a bi-directional interface with the brain. These devices allow us to restore movement to the paralyzed, restore sight to the blind, and revolutionize how humans interact with their digital world.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Team Description:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Brain Computer Interface (BCI) Applications Team is responsible for delivering a product that gives people with paralysis the ability to control computers, phones, gaming consoles, and robotic arms with their minds at the same speed and functionality level as able-bodied people can. Furthermore, the team is focused on restoring speech for mute individuals and enabling direct, natural silent communication with AI agents.&amp;nbsp; In this role, you’ll work with neuroscientists, physicians, software engineers, and electrical engineers to develop the next-generation human-ready Brain-Computer Interface (BCI).&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Job Description and Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are hiring a Machine Learning Engineer Intern to develop novel neural decoders to increase control speed and accuracy, improve reliability, and expand functionality of BCIs. You will play a critical role in developing machine learning solutions and driving the successful execution of projects to achieve mission critical goals. You’ll work with cross-functional teams to design new BCI functionalities and novel computer user interfaces.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Required Qualifications: &lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Evidence in delivering high-impact projects either in academia or industry&lt;/li&gt;\n&lt;li&gt;Prior experience designing and building Machine Learning models&lt;/li&gt;\n&lt;li&gt;Deep understanding of machine learning concepts and fundamentals&lt;/li&gt;\n&lt;li&gt;Experience in analyzing complex datasets, driving insights, and communicating results in a simple and clear way to both technical and non-technical stakeholders&lt;/li&gt;\n&lt;li&gt;Excellent communication and collaboration skills&lt;/li&gt;\n&lt;li&gt;Strong coding skills, with a focus on clean, efficient, and scalable code development&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience working with time series or unstructured data&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;div class=&quot;description&quot;&gt;\n&lt;p&gt;&lt;strong&gt;Expected Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The anticipated hourly rate for this position is listed below.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=&quot;title&quot;&gt;&lt;strong&gt;California Hourly Rate:&amp;nbsp;&lt;/strong&gt;&lt;/div&gt;\n&lt;div class=&quot;pay-range&quot;&gt;$35/Hr USD&lt;/div&gt;\n&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p&gt;&lt;strong&gt;What We Offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Full-time employees are eligible for the following benefits listed below.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;An opportunity to change the world and work with some of the smartest and most talented experts from different fields&lt;/li&gt;\n&lt;li&gt;Growth potential; we rapidly advance team members who have an outsized impact&lt;/li&gt;\n&lt;li&gt;Excellent medical, dental, and vision insurance through a PPO plan&lt;/li&gt;\n&lt;li&gt;Paid holidays&lt;/li&gt;\n&lt;li&gt;Commuter benefits&lt;/li&gt;\n&lt;li&gt;Meals provided&lt;/li&gt;\n&lt;li&gt;Equity (RSUs) &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;401(k) plan &lt;em&gt;*Interns initially excluded until they work 1,000 hours&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;Parental leave &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;Flexible time off &lt;em&gt;*Temporary Employees &amp;amp; Interns excluded&lt;/em&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4042521003,
+      "name": "Internships",
+      "child_ids": [],
+      "parent_id": 4063211003
+    }
+  ],
+  "offices": [
+    {
+      "id": 4127297003,
+      "name": "South San Francisco - SSF",
+      "location": "South San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
