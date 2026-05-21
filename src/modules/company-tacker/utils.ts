@@ -2,12 +2,13 @@ import { CONFIG } from "@/constants";
 
 import { JobCategory } from "@/validation/config";
 
-const TECH_WORDS = [
+const TECH_WORDS = CONFIG.target.keywords ?? [
   "software",
   "system",
   "dev",
   "develop",
   "developer",
+  "development",
   "software engineering",
   "software engineer",
   "backend",
@@ -219,8 +220,6 @@ export function isTarget(title: string) {
 
 export function withinDays(date: string | number, days = 1) {
   const daysAgo = new Date();
-
   daysAgo.setDate(daysAgo.getDate() - days);
-
   return new Date(date) >= daysAgo;
 }

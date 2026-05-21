@@ -37,6 +37,8 @@ export const TargetSchema = z
     countries: z.array(CountrySchema),
 
     filter: z.partialRecord(CountrySchema, CountryFilterSchema).optional(),
+
+    keywords: z.array(z.string()).optional(),
   })
   .superRefine((target, ctx) => {
     if (!target.filter) {
