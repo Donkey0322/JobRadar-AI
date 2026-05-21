@@ -12,6 +12,13 @@ import { logger } from "@/utils/logger";
 
 const identifierMap: Record<string, string> = {
   "mlb.com": "majorleaguebaseball",
+  "digitalocean.com": "digitalocean98",
+  "dltrading.io": "confidentialsportstradingfirm",
+  "pinterestcareers.com": "pinterest",
+  "rentptr.com": "premiertruckrental",
+
+  // careerpuck.com
+  "domino-data-lab": "dominodatalab",
 };
 
 interface GreenhouseJob {
@@ -131,7 +138,8 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   // https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002
   if (host === "app.careerpuck.com") {
     const jobBoardIndex = parts.indexOf("job-board");
-    const identifier = parts[jobBoardIndex + 1] || getHostIdentifier(url);
+    const identifier =
+      identifierMap[parts[jobBoardIndex + 1]] || parts[jobBoardIndex + 1] || getHostIdentifier(url);
 
     return buildCompany(url, identifier);
   }
