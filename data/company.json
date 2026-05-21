@@ -2864,11 +2864,11 @@
     ]
   },
   {
-    "name": "c3",
+    "name": "c3iot",
     "ats": "greenhouse",
-    "identifier": "c3",
+    "identifier": "c3iot",
     "domain": "https://c3.ai",
-    "page": "https://boards-api.greenhouse.io/v1/boards/c3/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/c3iot/jobs",
     "urls": [
       "https://c3.ai/job-description/8106513002?gh_jid=8106513002"
     ]
@@ -10269,7 +10269,8 @@
       "https://jobs.apple.com/en-us/details/200623627",
       "https://jobs.apple.com/en-us/details/200623661",
       "https://jobs.apple.com/en-us/details/200625333",
-      "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications"
+      "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications",
+      "https://jobs.apple.com/en-us/details/200664307"
     ]
   },
   {
@@ -12195,6 +12196,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/melotech",
     "urls": [
       "https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application"
+    ]
+  },
+  {
+    "name": "menasha",
+    "ats": "workday",
+    "identifier": "menasha-menashacorp",
+    "domain": "https://menasha.wd12.myworkdayjobs.com/menashacorp",
+    "page": "https://menasha.wd12.myworkdayjobs.com/wday/cxs/menasha/menashacorp/jobs",
+    "urls": [
+      "https://menasha.wd12.myworkdayjobs.com/menashacorp/job/Troy-Michigan/Application-Engineer-Intern--Summer-2026-_R13999"
     ]
   },
   {
@@ -16168,11 +16179,11 @@
     ]
   },
   {
-    "name": "sofi",
+    "name": "sofiuniversity",
     "ats": "greenhouse",
-    "identifier": "sofi",
+    "identifier": "sofiuniversity",
     "domain": "https://www.sofi.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sofiuniversity/jobs",
     "urls": [
       "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
       "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
