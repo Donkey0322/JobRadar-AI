@@ -1,0 +1,122 @@
+console.log('Page authentication status:', false);
+console.log('Internal user status:', false);<iframe src= "https://www.googletagmanager.com/ns.html?id=GTM-WJSMBWKS" sandbox="allow-scripts allow-same-origin" height= "0" width= "0" style= "display: none; visibility: hidden;" title= "Google Tag Manager"></iframe>function loadChatWidget() {
+const script = document.createElement("script");
+script.src = "https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js";
+script.onload = () => {
+console.log("ChatWidget loaded");
+// Create widget after script loads to avoid race condition
+const chatWidget = document.createElement("chat-widget");
+chatWidget.setAttribute("is-authed", "false");
+document.body.appendChild(chatWidget);
+};
+document.body.appendChild(script);
+}
+loadChatWidget();window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'DC-11435057');Skip to main content×HomeTeamsLocationsJob categoriesMy careerMy applicationsMy profileAccount securitySettingsSign outResourcesAccommodationsBenefitsInclusive experiencesHow We HireLeadership principlesWorking at AmazonFAQ if (typeof talentbrew_pixel !== 'undefined') talentbrew_pixel.init({category:'careersite', conversion_event:'page-view', 'job_id':'10426996'}); gtag('event', 'conversion', {
+'allow_custom_scripts': true,
+'send_to': 'DC-11435057/amazo0/amazo0+standard'
+});<img src="https://ad.doubleclick.net/ddm/activity/src=11435057;type=amazo0;cat=amazo0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>CXT.CLIENT_SIDE_METRICS.addUETag("jobShowPage");User Experience (UX) Designer Fall Internship – 2026 (US)Job ID: 10426996 | Amazon.com Services LLCApply nowCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addLoadMarkerForWidget("jobShowApplyButton")
+CXT.CLIENT_SIDE_METRICS.addBodyBeginMarkerForWidget("jobShowPageApplyButton")
+$('#apply-button').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Apply', action: 'Click', label: '10426996',
+directCallIdentifier: 'applicationStart',
+jobDetails: {id: '10426996', title: 'User Experience (UX) Designer Fall Internship – 2026 (US)', category: 'Design', division: 'studentprograms'}});
+if (true && typeof talentbrew_pixel !== 'undefined') {
+talentbrew_pixel.fire({category:'careersite', conversion_event:'apply-click', 'job_id':'10426996'});
+}
+if (false) {
+var TTTH_DataLayer = {
+"event": "ApplyNowClick",
+"jobID": "10426996",
+"jobName": "User Experience (UX) Designer Fall Internship – 2026 (US)"
+}
+}
+});DescriptionAmazon internships across all seasons are full-time positions, and interns should expect to work in office, Monday-Friday, up to 40 hours per week typically between 8am-5pm. Specific team norms around working hours will be communicated by your manager. Students should not have conflicts such as classes or other employment during the Amazon work-day.Applicants should have a minimum of one quarter/semester/trimester remaining in their studies after their internship concludes. By applying to this position, your application will be considered for all UX Designer Intern roles at all locations we hire for in the United States including but not limited to: Greater Seattle Area (Seattle, Bellevue, Redmond), Greater Bay Area (San Francisco, Sunnyvale, Santa Clara), Greater DMV (DC, MD, VA), Austin (TX), New York City (NY), Minneapolis (MN).You will be able to provide your preference of location and start date during the application process but, we cannot guarantee that we can meet your selection based on several factors including but not limited to the availability and business needs of this role. Finalization on the location and start dates available will be provided to you at the time of job offer. Start dates for our internships in this posting include the following periods:- Fall (Starts August/September 2026)As a UX Design intern you will contribute to product vision and collaborate with a team that defines and designs user interfaces, systems, and interaction, visual, motion, and voice design patterns. You must be proactive, creative, flexible, resilient, and able to handle high levels of ambiguity.Key job responsibilitiesAs a UX Design intern you will/may:• Design thoughtful, beautiful, and useful software user interfaces and experiences in a team environment.• Create user-centered designs by considering market analysis, customer feedback, site metrics, and usability findings.• Use business requirements, user and market research to assist in developing scenarios, use cases, and high-level requirements.• Design the UI architecture, interface, and interaction flow of applications and experiences.• Develop conceptual diagrams, wireframes, visual mockups, click-throughs, and prototypes.• Develop and maintain detailed user-interface specifications and design patterns.• Work with program managers to plan projects for effective delivery while maintaining high standards for design.• Be a passionate and effective advocate for design with non-design audiences.• Write effectively to communicate design rationales and benefits to Amazon customers. A day in the lifeOur internship program provides hands-on learning and building experiences for students who are interested in a career in UX Design. In addition to working on an impactful project, you will have the opportunity to engage with Amazonians for both personal and professional development, expand your network, and participate in fun activities with other interns throughout the summer. No matter the location of your internship, we give you the tools to own your internship and learn in a real-world setting.Design at Amazon has been growing steadily in reach and impact—from devices to fashion, delivery logistics to search and streaming video, from voice and sound to physical retail, and more—all while creating and cultivating experiences that touch Amazon customers everywhere, every day. Amazon design teams include every flavor of UI, UX, visual, motion, illustration, brand, and marketing design roles—as well as design technologists, researchers, writers, and more. Check out https://amazon.design/, and come build the future with us.Basic Qualifications- Are enrolled in a academic program that is physically located in the United States- Are 18 years of age or older- Work 40 hours/week minimum and commit to 12 week internship maximum- Experience working in a collaborative team environment to deliver high-quality design solutions- Have at least two creative materials for Amazon to review (they can be in any format, i.e. website, PDF, slide deck)- Experience in a variety of design, wire-framing, and prototyping tools- Currently working towards a Bachelor’s or Master's Degree in Design, Human-Centered Interaction, Statistics, Psychology, Computer Science, or other equivalent discipline, with an expected conferral date between April 2027 – December 2029.Preferred Qualifications- Experience with consumer brands and experience design, and a passion for storytelling- Experience working in a collaborative multi-disciplinary team and working directly with developers for implementation of designs- Experience with visual design demonstrated through mockups and style guides- Knowledge of mobile and web design patterns and accessibility standards- Ability to proficiently present design solutions to stakeholders in design, product management, and engineering- Creative Materials Guidance:- Show your thinking: Include at least two projects indicating the problem you were trying to solve, your design process, early design iterations, the final implemented design. We want to see your approach.- Pay attention to detail: A submission is a visual story-telling (beginning, middle, and end). Have a clear visual hierarchy, consistent spacing and alignment, and show your intention behind your decision.- Be customer-centric: Explain who your customer is, their unmet needs, how you validated or invalidated your assumptions about your customer, and how your design addresses their needs.Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.The starting pay for this position is listed below. Final starting pay will be based on factors including experience, qualifications, and location. Starting Day 1 of employment, Amazon offers EAP, Mental Health Support, Medical Advice Line, 401(k) matching. Learn more about our benefits at https://hiring.amazon.com/why-amazon/benefits.USA, WA, Seattle - 81,000.00 - 141,700.00 USD annuallyCXT.CLIENT_SIDE_METRICS.addCriticalFeatureMarker()Job detailsUSA, WA, SeattleInternships for studentsAmazon DesignShare this job$('#facebook-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'facebook'}});
+});
+$('#linkedin-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'linkedin'}});
+});
+$('#twitter-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'twitter'}});
+});
+$('#email-link-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'email link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'email'}});
+});
+$('#print-job-detail').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'print link on job detail page',
+directCallIdentifier: 'jobShare', eventDetails: {socialMedia: 'print'}});
+});JOIN US ONDOWNLOAD OUR APP$('#facebook-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'facebook link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'facebook'}});
+});
+$('#linkedin-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'linkedin link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'linkedin'}});
+});
+$('#instagram-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'instagram link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'instagram'}});
+});
+$('#twitter-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'Social Media', action: 'Click', label: 'twitter link on footer', directCallIdentifier: 'socialShare', eventDetails: {socialPlatform: 'twitter'}});
+});
+$('#app-store-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'app store link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'app_store'}});
+});
+$('#google-play-link-footer').click(function(){
+CXT.ANALYTICS.captureEvent({category: 'App Download', action: 'Click', label: 'google play link on footer', directCallIdentifier: 'appDownload', eventDetails: {platform: 'google_play'}});
+});Find CareersJob CategoriesTeamsLocationsMilitary careersHourlyWorking At AmazonCultureBenefitsAmazon NewsletterInclusive experiencesLeadership PrinciplesHelpFAQHow We HireApplication statusAccommodationsLegal disclosures and noticesAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.Privacy and DataImpressum© 1996-2026, Amazon.com, Inc. or its affiliatesconst pageAnalyticsEvent = new Event('pageAnalytics')
+// TODO - Finish analytics refactor and remove unused static page data object
+var ANALYTICS_DATA = {
+businessCategory: "studentprograms",
+contentType: "Job Details Page",
+internalOrExternal: "guest",
+jobCategory: "Design",
+jobCountryCode: "USA",
+jobId: "10426996",
+jobTitle: "User Experience (UX) Designer Fall Internship – 2026 (US)",
+jobTeam: "",
+locale: "en",
+stage: "production"
+};
+var digitalData = {
+// Used by events with context-specific information
+eventData: {},
+// Used by the /jobs resource pages
+job: {
+category: "Design",
+countryCode: "USA",
+division: "studentprograms",
+id: "10426996",
+jobLocation: "single",
+jobFindingMethod: document.referrer.split('?')[0] || ' ',
+title: "User Experience (UX) Designer Fall Internship – 2026 (US)",
+relatedJobId: []
+},
+page: {
+// Used by all pages
+pageInfo: {
+countryLanguage: "en",
+pageName: "Amazon.jobs | Job Details Page",
+pageType: "", // pageType is only populated to track the 404 error page
+advertisingCookieID: "0c0d3d23-a1a4-4115-b57a-e8d21aba158c",
+analyticsCookieID: "5adec2d9-d6eb-46a9-b97e-9171f39fbc86",
+siteSection: "amazon jobs",
+tabName: "",
+userID: "",
+userActionStoreId: "5adec2d9-d6eb-46a9-b97e-9171f39fbc86",
+peopleSoftId: "",
+userType: "guest",
+userAuthMode: ""
+},
+experiment: {
+experimentDetails: null
+}
+}
+};
+window.dispatchEvent(pageAnalyticsEvent)

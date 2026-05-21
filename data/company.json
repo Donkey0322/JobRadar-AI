@@ -814,7 +814,8 @@
       "https://www.amazon.jobs/en/jobs/3066625/data-engineer-internship-2026-us",
       "https://www.amazon.jobs/en/jobs/3111792/software-eng-intern",
       "https://www.amazon.jobs/en/jobs/3116030/software-development-engineer-internship-summer-2026-us",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+      "https://amazon.jobs/en/jobs/10426996"
     ]
   },
   {
@@ -2929,7 +2930,8 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Reston/Junior-GenAI-Developer-Intern---Summer-2026_322081",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Sterling/Software-Engineering-Intern---Summer-2026_318084",
       "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Sterling/Software-Engineering-Intern---Summer-2026_318124",
-      "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Tysons/Software-Engineering-Intern---Summer-2026_318208-1"
+      "https://caci.wd1.myworkdayjobs.com/external/job/US-VA-Tysons/Software-Engineering-Intern---Summer-2026_318208-1",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Fort-Belvoir-VA-US/Software-Engineer-Intern---Summer-2026_326848"
     ]
   },
   {
@@ -5220,7 +5222,8 @@
     "domain": "https://www.coupang.jobs",
     "page": "https://boards-api.greenhouse.io/v1/boards/coupang/jobs",
     "urls": [
-      "https://www.coupang.jobs/en/jobs/?gh_jid=7939700"
+      "https://www.coupang.jobs/en/jobs/?gh_jid=7939700",
+      "https://www.coupang.jobs/en/jobs/?gh_jid=7944326"
     ]
   },
   {
@@ -19112,7 +19115,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/xometry/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/xometry/jobs/5007634007",
-      "https://job-boards.greenhouse.io/xometry/jobs/5007635007"
+      "https://job-boards.greenhouse.io/xometry/jobs/5007635007",
+      "https://job-boards.greenhouse.io/xometry/jobs/5014704007",
+      "https://job-boards.greenhouse.io/xometry/jobs/5014705007"
     ]
   },
   {
