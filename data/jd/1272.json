@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "49927a5b698c1001a079d3cf27340000",
+    "title": "Software Engineer Intern",
+    "jobDescription": "<p><b><u>Software Engineer Intern </u></b></p><p></p><p><b><u>Who We Are:</u></b><br />Kudu Dynamics is Leidos Owned Company, forged out of a decade of experience in computer network operations and staffed with talent who have built, overseen, and enhanced capabilities throughout the entire USG arsenal. Our team of hackers and engineers have experience spanning centuries of research, development, and operations missions - across desktop, mobile, IoT, and embedded platforms. Kudu Dynamics, a Leidos company is uniquely qualified to anticipate tomorrow’s threats and build the next generation of capabilities.</p><p></p><p><b><u>Job Description:</u></b></p><p>A Software Engineer Intern assists engineering teams in building, testing, and debugging applications. They write code, design features, and learn industry’s best practices while tackling real-world projects. This role provides on-the-job training and exposure to software development life cycles (SDLC).</p><p></p><p><u><b>Key Responsibilities:</b></u></p><ul><li><b>Coding &amp; Development:</b> Write and modify clean, efficient code using languages like Python, Java, C&#43;&#43;, or JavaScript.</li><li><b>Testing &amp; Debugging:</b> Develop unit tests, run test suites, and identify/troubleshoot software bugs.</li><li><b>Team Collaboration:</b> Work within Agile teams alongside experienced developers, product managers, and UX designers.</li><li><b>Learning &amp; Prototyping:</b> Experiment with new technologies, APIs, and frameworks (e.g., AI/ML tools) to build proof-of-concept prototypes.</li><li><b>Documentation:</b> Assist in maintaining technical documentation and writing specs for future development</li></ul><p>If you&#39;re looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We&#39;re not hiring followers. We&#39;re recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We&#39;re already at step 30 — and moving faster than anyone else dares.</p><h2></h2><h2></h2><h2><u><b>Original Posting:</b></u></h2>May 21, 2026<div><div><div><div><div><div><div><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">For U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.</p></div></div></div></div></div></div></div><div></div><p style=\"text-align:inherit\"></p><h2><b><u>Pay Range:</u></b></h2>Pay Range $48,100.00 - $86,950.00<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.</span></p>",
+    "location": "Chantilly, VA",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-21",
+    "timeType": "Full time",
+    "jobReqId": "R-00183707",
+    "jobPostingId": "Software-Engineer-Intern_R-00183707",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "10585 Chantilly VA",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://leidos.wd5.myworkdayjobs.com/External/job/Chantilly-VA/Software-Engineer-Intern_R-00183707",
+    "questionnaireId": "19e2db7f780710015a91afa311010000"
+  },
+  "hiringOrganization": {
+    "name": "00232 Kudu Dynamics LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
