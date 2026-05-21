@@ -1,0 +1,60 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 5865895002,
+  "location": {
+    "name": "New York"
+  },
+  "metadata": [
+    {
+      "id": 4076300002,
+      "name": "Time Type",
+      "value": "Full Time",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7302611002,
+  "updated_at": "2026-05-21T18:05:55-04:00",
+  "requisition_id": "1346",
+  "title": "Machine Learning Researcher - Intern",
+  "company_name": "Point72 ",
+  "first_published": "2024-08-15T17:11:02-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;JOB DESCRIPTION&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;Researchers are responsible for applying, adapting, and extending existing results in the broad field of machine learning, while also conducting novel research as required.&amp;nbsp;We are interested in all aspects of ML including: predictive modelling, clustering, time series analysis, natural language processing, and computer vision.&amp;nbsp;Successful researchers manage all aspects of the research process including methodology selection, data collection and analysis, implementation and testing, prototyping, and performance evaluation.&lt;/p&gt;\n&lt;p&gt;Some successful researchers have joined us from similar backgrounds at other firms. Others have joined from related fields or directly from academia and have thrived with hands on guidance from our large team of experienced portfolio managers and researchers. Our most exceptional team members combine strong technical skills and a passion for problem solving with an intense curiosity about financial markets and human behavior.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;DESIRABLE CANDIDATES&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Students enrolled in a PhD program in machine learning, computer science, statistics, or a related field.&lt;/li&gt;\n&lt;li&gt;Superb analytical and quantitative skills, along with a healthy streak of creativity.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to conduct independent research utilizing large data sets.&lt;/li&gt;\n&lt;li&gt;Passion for seeing research through from initial conception to eventual application.&lt;/li&gt;\n&lt;li&gt;Curiosity about financial markets&lt;/li&gt;\n&lt;li&gt;Strong scientific programming in Python, R or Matlab.&lt;/li&gt;\n&lt;li&gt;Empirical, detail-oriented mindset.&lt;/li&gt;\n&lt;li&gt;Sense of ownership of his/her work, working well both independently and within a small collaborative team.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We’re looking for exceptional colleagues with unparalleled passion. If you’d like your resume to stand out, tell us about your exceptional personal achievements, even if they have nothing to do with finance. Of course we love to hear more about specific engineering or data projects that you’ve worked outside of school, or as part of your curriculum. If you’re proud of the work you did we want to hear about it. In addition to exceptional statisticians and engineers, we work with talented musicians, writers, mathematicians, and founders of non-profits; we’d love to learn more about what excites you.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4077293002,
+      "name": "Quant Management",
+      "child_ids": [
+        4093681002,
+        4093682002,
+        4093683002,
+        4093684002,
+        4093685002,
+        4127486002,
+        4077294002
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4007773002,
+      "name": "New York, NY",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": 4041645002
+    }
+  ]
+}

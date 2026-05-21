@@ -1,0 +1,60 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/point72/jobs/7609197002?gh_jid=7609197002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 5991344002,
+  "location": {
+    "name": "New York"
+  },
+  "metadata": [
+    {
+      "id": 4076300002,
+      "name": "Time Type",
+      "value": "Full Time",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7609197002,
+  "updated_at": "2026-05-21T18:05:55-04:00",
+  "requisition_id": "1485",
+  "title": "Quantitative Developer Intern",
+  "company_name": "Point72 ",
+  "first_published": "2024-08-23T11:00:14-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h3&gt;Job Description&lt;/h3&gt;\n&lt;p&gt;A highly collaborative, fast-growing team, Point72 Internal Alpha Capture (IAC) is developing scalable quantitative equity trading signals that leverage rigorous research, state-of-the-art machine learning methods, a broad range of public and proprietary data sources, and unparalleled computing power.&lt;/p&gt;\n&lt;p&gt;We are looking for exceptional students to join us as quantitative developer interns for Summer 2025. Our interns will work closely with our team, receive comprehensive, in-depth training, and help develop novel signals that may have real impact.&lt;/p&gt;\n&lt;p&gt;You will gain exposure to a variety of activities, which may include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Enhancing quantitative research platforms by benchmarking and integrating in-house and cloud technologies&lt;/li&gt;\n&lt;li&gt;Optimizing data ETL pipelines, persistent/in-memory caches, and SQL databases&lt;/li&gt;\n&lt;li&gt;Improving research and trading tools and infrastructure&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Desirable Candidates&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Undergraduate or higher degree in Computer Science, Machine Learning, or other quantitative discipline&lt;/li&gt;\n&lt;li&gt;Strong programming experience in Python with production-level coding quality&lt;/li&gt;\n&lt;li&gt;Experience with Unix environment and shell scripting&lt;/li&gt;\n&lt;li&gt;Experience with cloud computing, ideally AWS and Databricks&lt;/li&gt;\n&lt;li&gt;Experience with numerical Python libraries (e.g. Numpy, Pandas, PyTorch, etc.)&lt;/li&gt;\n&lt;li&gt;Knowledge of version control (Git) and software CI/CD tools and lifecycle&lt;/li&gt;\n&lt;li&gt;Knowledge of profiling (e.g. cProfile, SnakeViz, memory-profiler, etc.) and code optimization is a plus&lt;/li&gt;\n&lt;li&gt;Knowledge of statistics and machine learning is a plus&lt;/li&gt;\n&lt;li&gt;Willing to take ownership of his/her work, working both independently and within a small team&lt;/li&gt;\n&lt;li&gt;Prior experience in the financial services industry is not required&lt;/li&gt;\n&lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry’s brightest talent by cultivating an investor-led culture and committing to our people’s long-term growth.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4077293002,
+      "name": "Quant Management",
+      "child_ids": [
+        4093681002,
+        4093682002,
+        4093683002,
+        4093684002,
+        4093685002,
+        4127486002,
+        4077294002
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4007773002,
+      "name": "New York, NY",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": 4041645002
+    }
+  ]
+}
