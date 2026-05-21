@@ -1,0 +1,68 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/7914628?gh_jid=7914628",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3440615,
+  "location": {
+    "name": "In-Office"
+  },
+  "metadata": [
+    {
+      "id": 825338,
+      "name": "Cost Center",
+      "value": "4991 - R&D Interns",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8654220,
+      "name": "Job Posting Location",
+      "value": [
+        "Austin, US"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 46546702,
+      "name": "Career Site Department",
+      "value": [
+        "Data Intelligence and Analytics",
+        "Early Talent"
+      ],
+      "value_type": "multi_select"
+    }
+  ],
+  "id": 7914628,
+  "updated_at": "2026-05-21T10:07:04-04:00",
+  "requisition_id": null,
+  "title": "Machine Learning Engineer Intern (Summer 2026)",
+  "company_name": "Cloudflare",
+  "first_published": "2026-05-13T10:00:01-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;\n&lt;p&gt;At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a &quot;normalized&quot; problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in.&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Available Locations: &lt;/strong&gt;Austin, Texas, US&lt;br&gt;&lt;br&gt;&lt;strong&gt;Internship Dates:&lt;/strong&gt; June 22 - September 11&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;The Data Intelligence &amp;amp; Analytics team at Cloudflare is responsible for building a unified data &amp;amp; ML platform that enables our internal Business Partners and Product teams with actionable analytics, insights and recommendations. Our goal is to democratize data &amp;amp; intelligence, support Cloudflare’s critical business needs, and provide self-service data &amp;amp; AI applications to fuel existing and new business critical initiatives.&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h4&gt;\n&lt;p&gt;We are looking for a Machine Learning Engineer Intern to join our Austin team to build and operate the pipelines behind AI-driven applications, Agents, Chatbots that power teams across the company, including go-to-market, engineering, and product. As an intern, you’ll work alongside experienced data scientists and machine learning engineers to tackle real-world challenges in AI development.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Deploy, monitor &amp;amp; support ML Applications &amp;amp; Services on Kubernetes in cloud.&lt;/li&gt;\n&lt;li&gt;Understand MLOps landscape i.e tooling, tech stack, source systems etc. and work on &amp;nbsp;new tools and solutions for ML &amp;amp; AI initiatives.&lt;/li&gt;\n&lt;li&gt;Partner and align with Data Scientists, Data Engineers and internal teams to deliver ML solutions in a globally distributed environment.&lt;/li&gt;\n&lt;li&gt;Leverage Cloudflare products and services for AI &amp;amp; ML initiatives and applications.&lt;/li&gt;\n&lt;li&gt;Use software engineering best practices to publish model scores/insights/learnings at scale within the company.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Examples of desirable skills, knowledge and experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;B.S. or M.S in Computer Science, Statistics, Mathematics, or other quantitative fields&lt;/li&gt;\n&lt;li&gt;Experience working with programming languages such as Python, Go or Javascript.&lt;/li&gt;\n&lt;li&gt;Strong software engineering mindset, proficiency in shell scripts, CLI utilities, and version control with git.&lt;/li&gt;\n&lt;li&gt;Knowledge of AI agents, inference-time optimization, LLM evaluations.&lt;/li&gt;\n&lt;li&gt;Excellent communication &amp;amp; problem solving skills.&lt;/li&gt;\n&lt;li&gt;Ability to collaborate with cross functional teams and work through ambiguous business requirements.&lt;/li&gt;\n&lt;li&gt;Ability to commit to a 12 week summer internship.&lt;/li&gt;\n&lt;li&gt;In office 3-5 days a week in Austin, TX.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Familiarity with container based deployments such as Docker &amp;amp; Kubernetes in cloud.&lt;/li&gt;\n&lt;li&gt;Experience with AI-assisted coding, building with cloudflare developer platform.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;What Makes Cloudflare Special?&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We’re not just a highly ambitious, large-scale technology company. We’re a highly ambitious, large-scale technology company with a soul. Fundamental to our mission to help build a better Internet is protecting the free and open Internet.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://blog.cloudflare.com/protecting-free-expression-online/&quot;&gt;&lt;strong&gt;Project Galileo&lt;/strong&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Since 2014, we&#39;ve equipped more than 2,400 journalism and civil society organizations in 111 countries with powerful tools to defend themselves against attacks that would otherwise censor their work, technology already used by Cloudflare’s enterprise customers--at no cost.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.cloudflare.com/athenian/&quot;&gt;Athenian Project&lt;/a&gt;&lt;/strong&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: In 2017, we created the Athenian Project to ensure that state and local governments have the highest level of protection and reliability for free, so that their constituents have access to election information and voter registration. Since the project, we&#39;ve provided services to more than 425 local government election websites in 33 states.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://1.1.1.1/&quot;&gt;&lt;strong&gt;1.1.1.1&lt;/strong&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: We released&lt;/span&gt;&lt;a href=&quot;https://1.1.1.1/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;1.1.1.1&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; to help fix the foundation of the Internet by building a faster, more secure and privacy-centric public DNS resolver. This is available publicly for everyone to use - it is the first consumer-focused service Cloudflare has ever released. Here’s the deal - we don’t store client IP addresses never, ever. We will continue to abide by our&lt;/span&gt;&lt;a href=&quot;https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver&quot;&gt; privacy commitment&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and ensure that no user data is sold to advertisers or used to target consumers.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Sound like something you’d like to be a part of? We’d love to hear from you!&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please note that applicants who progress to the offer stage of the interview process may be asked to attend an in-person interview within one of the Cloudflare Offices or Cloudflare Hubs.&amp;nbsp; More details about this will be available at that stage of the interview process.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This position may require access to information protected under U.S. export control laws, including the U.S. Export Administration Regulations. Please note that any offer of employment may be conditioned on your authorization to receive software or technology controlled under these U.S. export laws without sponsorship for an export license.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Cloudflare is proud to be an equal opportunity employer. &amp;nbsp;We are committed to providing equal employment opportunity for all people and place great value in both diversity and inclusiveness. &amp;nbsp;All qualified applicants will be considered for employment without regard to their, or any other person&#39;s, perceived or actual&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, national origin, ancestry, citizenship, age, physical or mental disability, medical condition, family care status, or any other basis protected by law. &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are an AA/Veterans/Disabled Employer.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Cloudflare provides reasonable accommodations to qualified individuals with disabilities. &amp;nbsp;Please tell us if you require a reasonable accommodation to apply for a job. Examples of reasonable accommodations include, but are not limited to, changing the application process, providing documents in an alternate format, using a sign language interpreter, or using specialized equipment. &amp;nbsp;If you require a reasonable accommodation to apply for a job, please contact us via e-mail at &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;hr@cloudflare.com&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; or via mail at 101 Townsend St. San Francisco, CA 94107.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 70480,
+      "name": "University",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 19983,
+      "name": "Austin, TX",
+      "location": "Austin, TX, United States",
+      "child_ids": [],
+      "parent_id": 48752
+    }
+  ]
+}
