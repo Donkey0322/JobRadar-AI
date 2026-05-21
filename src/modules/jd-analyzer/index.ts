@@ -29,28 +29,28 @@ export function isEligibleJD(jd: JD) {
   const countries = CONFIG.target.countries;
 
   if (!countries.includes(jd.location)) {
-    return false;
+    return [false, `${jd.location} is not in the allowed countries`];
   }
 
   if (!filters) {
-    return true;
+    return [true, null];
   }
 
   const rule = filters[jd.location];
 
   // no rule for this country, so it's eligible
   if (!rule) {
-    return true;
+    return [true, null];
   }
 
   if (rule.allow_citizenship_required === false && jd.citizenship === true) {
-    return false;
+    return [false, "citizenship is required"];
   }
 
   if (rule.allow_no_sponsorship === false && jd.sponsorship === false) {
-    return false;
+    return [false, "sponsorship is not available"];
   }
-  return true;
+  return [true, null];
 }
 
 export async function getRawJD(url: string): Promise<string | null> {

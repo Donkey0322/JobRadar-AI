@@ -71,12 +71,16 @@ export async function processJobs({
     totalCost += cost;
 
     if (jd) {
-      if (!isEligibleJD(jd)) {
+      const [eligible, reason] = isEligibleJD(jd);
+
+      if (!eligible) {
         skipped += 1;
+
         logger.info(
           {
             company: job.company,
             role: job.role,
+            reason,
           },
           "⏭️ Skipped by eligibility filter"
         );
@@ -115,5 +119,10 @@ export async function processJobs({
     await buildCompanyList(urls);
   }
 
-  return jobs;
+  return {
+    jobs,
+    count: jobs.length,
+    skipped,
+    totalCost,
+  };
 }
