@@ -17,11 +17,11 @@ interface MicrosoftJob {
 export async function fetchMicrosoft(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  signal: AbortSignal
 ): Promise<Job[]> {
   try {
     const res = await fetch(company.page, {
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
     const data = await res.json();
 

@@ -18,5 +18,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
-  "cSpell.words": ["Ashby", "CHECKMARK", "dedup", "icims", "oraclecloud", "smartrecruiters"]
+  "cSpell.words": [
+    "Ashby",
+    "CHECKMARK",
+    "dedup",
+    "icims",
+    "majorleaguebaseball",
+    "oraclecloud",
+    "smartrecruiters"
+  ]
 }

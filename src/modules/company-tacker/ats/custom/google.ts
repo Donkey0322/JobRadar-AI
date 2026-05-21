@@ -8,7 +8,7 @@ import { isTarget } from "../../utils";
 export async function fetchGoogle(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  signal: AbortSignal
 ): Promise<Job[]> {
   const allJobs: Job[] = [];
 
@@ -17,7 +17,7 @@ export async function fetchGoogle(
     url.searchParams.set("page", String(page));
 
     const res = await fetch(url.toString(), {
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
 
     if (!res.ok) {

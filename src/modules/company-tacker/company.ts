@@ -1,4 +1,5 @@
 import { promises as fs } from "fs";
+import pLimit from "p-limit";
 import { URL } from "url";
 
 import { COMPANY_PATH } from "@/constants";
@@ -15,16 +16,19 @@ import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
 
+import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
-function extractCompany(urlStr: string): Company | null {
+const CONCURRENCY = 20;
+
+async function extractCompany(urlStr: string): Promise<Company | null> {
   try {
     const url = new URL(urlStr);
     const ats = classifyATS(url);
 
     switch (ats) {
       case "greenhouse":
-        return urlToGreenhouseCompany(url);
+        return await urlToGreenhouseCompany(url);
       case "lever":
         return urlToLeverCompany(url);
       case "workday":
@@ -43,33 +47,74 @@ function extractCompany(urlStr: string): Company | null {
         ats satisfies never;
         return null;
     }
-  } catch {
+  } catch (err) {
+    logger.warn(
+      {
+        url: urlStr,
+        err,
+      },
+      "Failed to extract company from URL"
+    );
+
     return null;
   }
+}
+
+function getCompanyKey(company: Company): string {
+  if (company.identifier) {
+    return `${company.ats}:${company.identifier}`;
+  }
+
+  return `${company.ats}:${company.domain}:${company.page}`;
 }
 
 export async function buildCompanyList(urls: string[] | Set<string>): Promise<Company[]> {
   const map = new Map<string, Company>();
 
-  for (const url of urls) {
-    const company = extractCompany(url);
-    if (!company) continue;
+  const urlList = Array.from(urls);
+  const total = urlList.length;
 
-    const key = `${company.ats}:${company.identifier}`;
+  let completed = 0;
+
+  const limit = pLimit(CONCURRENCY);
+
+  const results = await Promise.all(
+    urlList.map((url) =>
+      limit(async () => {
+        const company = await extractCompany(url);
+
+        completed++;
+        renderProgress(completed, total);
+
+        return {
+          url,
+          company,
+        };
+      })
+    )
+  );
+
+  for (const { url, company } of results) {
+    if (!company) {
+      continue;
+    }
+
+    const key = getCompanyKey(company);
 
     if (!map.has(key)) {
       company.urls.push(url);
       map.set(key, company);
-    } else {
-      map.get(key)!.urls.push(url);
+      continue;
     }
+
+    map.get(key)!.urls.push(url);
   }
 
   const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
 
   await fs.writeFile(COMPANY_PATH, JSON.stringify(result, null, 2), "utf-8");
 
-  logger.info({ count: result.length }, `💰 Successfully built companies`);
+  logger.info({ count: result.length }, "💰 Successfully built companies");
 
   return result;
 }

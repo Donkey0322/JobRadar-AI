@@ -15,6 +15,7 @@ export const URLS_PATH = path.join(DATA_PATH, "urls.json");
 export const JOB_PATH = path.join(DATA_PATH, "jobs.ndjson");
 export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
+export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
 
 // year should be dynamically change at the end of May
 const NOW = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));

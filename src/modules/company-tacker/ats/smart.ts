@@ -5,6 +5,7 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
@@ -37,16 +38,21 @@ export function urlToSmartRecruitersCompany(url: URL): Company {
 export async function fetchSmartRecruiters(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  signal: AbortSignal
 ) {
   try {
     const res = await fetch(company.page, {
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
+
+    if (!res.ok) {
+      await appendErrorLog(`Smart Recruiters: ${company.name} - ${res.status} - ${res.statusText}`);
+      return [];
+    }
+
     const data = await res.json();
 
-    if (!res.ok || !data.content) {
-      // console.log(company.name, res.status, res.statusText, res.url);
+    if (!data.content) {
       return [];
     }
 
@@ -61,21 +67,29 @@ export async function fetchSmartRecruiters(
       company: capitalize(job.company.name ?? ""),
       role: job.name,
       link: `${company.domain}/${company.name}/${job.id}`,
-      location: job.location.fullLocation ?? "",
+      location: job.location?.fullLocation ?? "",
     }));
   } catch (error) {
-    if (error instanceof Error && error.name === "TimeoutError") {
-      logger.error(
-        { err: "TimeoutError", company: company.name, url: company.page },
-        `${RED_CROSS} Error fetching smart recruiters jobs`
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      logger.warn(
+        {
+          company: company.name,
+          url: company.page,
+        },
+        "⚠️ SmartRecruiters request aborted"
       );
+
       return [];
     }
 
     logger.error(
-      { err: error, company: company.name },
+      {
+        error,
+        company: company.name,
+      },
       `${RED_CROSS} Error fetching smart recruiters jobs`
     );
+
     return [];
   }
 }
