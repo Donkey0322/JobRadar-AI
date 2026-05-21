@@ -19,7 +19,7 @@ interface AmazonJob {
 export async function fetchAmazon(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  signal: AbortSignal
 ): Promise<Job[]> {
   try {
     const res = await fetch(company.page, {
@@ -39,7 +39,7 @@ export async function fetchAmazon(
         start: 0,
         sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
       }),
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
 
     const data = await res.json();

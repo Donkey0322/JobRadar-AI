@@ -4,6 +4,7 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
@@ -35,50 +36,87 @@ const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export async function fetchOracleCloud(
-  company: Company,
-  urls: Set<string>,
-  timeout: number = 5000
-) {
+export async function fetchOracleCloud(company: Company, urls: Set<string>, signal: AbortSignal) {
   try {
     const res = await fetch(company.page, {
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
-    const data = await res.json();
 
-    if (!res.ok || !data.items || !data.items.length) {
+    if (!res.ok) {
+      await appendErrorLog(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
       return [];
     }
 
-    const companyName: string =
-      data.items?.[0]?.organizationsFacet.length > 0
-        ? data.items?.[0]?.organizationsFacet[0].Name
-        : "";
+    const data = await res.json();
 
-    const jobs: OracleCloudJob[] = data.items?.[0]?.requisitionList?.filter(
+    if (!data?.items || !Array.isArray(data.items) || data.items.length === 0) {
+      logger.warn(
+        {
+          company: company.name,
+        },
+        "⚠️ Oracle Cloud missing items"
+      );
+
+      return [];
+    }
+
+    const firstItem = data.items[0];
+
+    const companyName: string =
+      firstItem?.organizationsFacet?.length > 0
+        ? firstItem.organizationsFacet[0]?.Name
+        : company.name;
+
+    const requisitionList = firstItem?.requisitionList;
+
+    if (!Array.isArray(requisitionList)) {
+      logger.warn(
+        {
+          company: company.name,
+        },
+        "⚠️ Oracle Cloud missing requisition list"
+      );
+
+      return [];
+    }
+
+    const jobs: OracleCloudJob[] = requisitionList.filter(
       (job: OracleCloudJob) =>
-        isTarget(job.Title) && !urls.has(composeUrl(company, job.Id)) && withinDays(job.PostedDate)
+        job?.Title &&
+        job?.Id &&
+        isTarget(job.Title) &&
+        !urls.has(composeUrl(company, job.Id)) &&
+        withinDays(job.PostedDate)
     );
 
     return jobs.map((job) => ({
       company: capitalize(companyName),
       role: job.Title,
       link: composeUrl(company, job.Id),
-      location: job.PrimaryLocation,
+      location: job.PrimaryLocation ?? "",
     }));
   } catch (error) {
-    if (error instanceof Error && error.name === "TimeoutError") {
-      logger.error(
-        { err: "TimeoutError", company: company.name, url: company.page },
-        `${RED_CROSS} Error fetching oracle cloud jobs`
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      logger.warn(
+        {
+          company: company.name,
+          url: company.page,
+        },
+        "⚠️ Oracle Cloud request aborted"
       );
+
       return [];
     }
 
     logger.error(
-      { err: error, company: company.name },
+      {
+        error,
+        company: company.name,
+        url: company.page,
+      },
       `${RED_CROSS} Error fetching oracle cloud jobs`
     );
+
     return [];
   }
 }

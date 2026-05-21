@@ -4,6 +4,7 @@ import type { Company } from "../type";
 
 import { isTarget, withinDays } from "../utils";
 
+import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
@@ -21,6 +22,7 @@ export function urlToLeverCompany(url: URL): Company {
   const page = url.origin.includes("eu")
     ? "https://api.eu.lever.co/v0/postings/"
     : "https://api.lever.co/v0/postings/";
+
   const parts = url.pathname.split("/").filter(Boolean);
   const identifier = parts[0];
 
@@ -34,19 +36,38 @@ export function urlToLeverCompany(url: URL): Company {
   };
 }
 
-export async function fetchLever(company: Company, urls: Set<string>, timeout: number = 5000) {
+export async function fetchLever(company: Company, urls: Set<string>, signal: AbortSignal) {
   try {
     const res = await fetch(company.page, {
-      signal: AbortSignal.timeout(timeout),
+      signal,
     });
+
     if (!res.ok) {
-      // console.log(company.name, res.status, res.statusText, res.url);
+      await appendErrorLog(`Lever: ${company.name} - ${res.status} - ${res.statusText}`);
+
       return [];
     }
+
     const data = await res.json();
 
+    if (!Array.isArray(data)) {
+      logger.warn(
+        {
+          company: company.name,
+        },
+        "⚠️ Lever invalid response format"
+      );
+
+      return [];
+    }
+
     const jobs: LeverJob[] = data.filter(
-      (job: LeverJob) => isTarget(job.text) && !urls.has(job.hostedUrl) && withinDays(job.createdAt)
+      (job: LeverJob) =>
+        job?.text &&
+        job?.hostedUrl &&
+        isTarget(job.text) &&
+        !urls.has(job.hostedUrl) &&
+        withinDays(job.createdAt)
     );
 
     return jobs.map((job: LeverJob) => ({
@@ -56,15 +77,27 @@ export async function fetchLever(company: Company, urls: Set<string>, timeout: n
       location: job.categories?.location ?? "",
     }));
   } catch (error) {
-    if (error instanceof Error && error.name === "TimeoutError") {
-      logger.error(
-        { err: "TimeoutError", company: company.name, url: company.page },
-        `${RED_CROSS} Error fetching lever jobs`
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      logger.warn(
+        {
+          company: company.name,
+          url: company.page,
+        },
+        "⚠️ Lever request aborted"
       );
+
       return [];
     }
 
-    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching lever jobs`);
+    logger.error(
+      {
+        error,
+        company: company.name,
+        url: company.page,
+      },
+      `${RED_CROSS} Error fetching lever jobs`
+    );
+
     return [];
   }
 }

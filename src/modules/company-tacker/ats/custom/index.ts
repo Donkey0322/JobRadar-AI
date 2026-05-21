@@ -72,17 +72,17 @@ export function urlToCustomCompany(url: URL): Company {
 export async function fetchCustom(
   company: Company,
   urls: Set<string>,
-  timeout: number = 5000
+  signal: AbortSignal
 ): Promise<Job[]> {
   switch (company.identifier) {
     case "microsoft": {
-      return await fetchMicrosoft(company, urls, timeout);
+      return await fetchMicrosoft(company, urls, signal);
     }
     case "amazon": {
-      return await fetchAmazon(company, urls, timeout);
+      return await fetchAmazon(company, urls, signal);
     }
     case "google": {
-      return await fetchGoogle(company, urls, timeout);
+      return await fetchGoogle(company, urls, signal);
     }
     default:
       return [];
