@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "ab2eb019f5fb10015c6b31d540770000",
+    "title": "Python Research Intern",
+    "jobDescription": "<p style=\"text-align:left\"><b>Title:</b></p>Python Research Intern<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p></p><p>BELONG. CONNECT. GROW. with KBR.</p><p></p><p>Around here, we define the future. We are a company of innovators, thinkers, creators, explorers, volunteers, and dreamers. But we all share one goal: to improve the world responsibly and safely.</p><p></p><div></div><p><br /> <br />Job Description:<br /> </p><p>The undergraduate research intern will work closely with senior staff to develop Python-based tools for optimizing heat conductivity in satellite components and improving component layout design. The intern will assist in building surrogate machine-learning models for heat-transfer prediction and will implement optimization workflows using existing Python optimization frameworks such as Pyomo. The project will involve both stochastic optimization methods and gradient‑based approaches.</p><p></p><p></p><p>Required Skills:</p><ul><li>Background in Mathematics</li><li>Familiarity with linear algebra, optimization, calculus, and basic machine learning techniques through coursework</li><li>Familiarity with Python programming</li></ul><p></p><p></p><p><b>Basic Compensation:</b></p><p><span>$21.50 – $24.00 </span><span>/hr.</span></p><p>The offered rate will be based on contract affordability and the selected candidate&#39;s working location, knowledge, skills, and/or experience and in consideration of internal parity.</p><p></p><p></p><p></p><p></p><p><b><span>KBR Benefits​</span></b></p><p>KBR offers a selection of competitive lifestyle benefits which could include 401K plan with company match, medical, dental, vision, life insurance, AD&amp;D, flexible spending account, disability, paid time off, or flexible work schedule. We support career advancement through professional training and development.​</p><p></p><p>Click here to learn more: <a href=\"https://careers.kbr.com/us/en/kbr-benefits?\" target=\"_blank\"><b><span>KBR Benefits</span></b></a></p><p></p><p>#LI-EM2</p><p></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p></p><p>Belong, Connect and Grow at KBR<br /><br />At KBR, we are passionate about our people and our Zero Harm culture. These inform all that we do and are at the heart of our commitment to, and ongoing journey toward being a People First company. That commitment is central to our team of team’s philosophy and fosters an environment where everyone can Belong, Connect and Grow. We Deliver – Together. </p><p></p><p>KBR is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</p><p></p><p></p><p></p>",
+    "location": "Mountain View",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-20",
+    "timeType": "Full time",
+    "jobReqId": "R2124032",
+    "jobPostingId": "Python-Research-Intern_R2124032",
+    "jobPostingSiteId": "KBR_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA, Moffett Field, NASA Ames Research Center, Suite 204, Bldg. N269, California",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Mountain-View/Python-Research-Intern_R2124032",
+    "questionnaireId": "0987f530dc51019a55f13d18d500cc5e",
+    "secondaryQuestionnaireId": "c3b9a713e2b401997d92195cdc2fdc22"
+  },
+  "hiringOrganization": {
+    "name": "1805 KBR Wyle Services, LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
