@@ -6848,22 +6848,22 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Etched",
     "urls": [
+      "https://jobs.ashbyhq.com/Etched/0e78a385-c450-4749-9803-0970ce2971a5",
+      "https://jobs.ashbyhq.com/Etched/1efd9b58-66fe-4798-a877-776857b4e189",
+      "https://jobs.ashbyhq.com/Etched/20f77518-1699-4184-ac8e-9fa2f614d6fb",
       "https://jobs.ashbyhq.com/Etched/27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8",
+      "https://jobs.ashbyhq.com/Etched/2d7039e2-190e-4039-b5a9-fff9efa7cc8e",
       "https://jobs.ashbyhq.com/Etched/47e6dec8-2ca6-4359-8cff-0b91bcbf48ea",
       "https://jobs.ashbyhq.com/Etched/605c286d-be56-4e83-83b8-436d29ce17df",
       "https://jobs.ashbyhq.com/Etched/65348db2-5658-41d0-a833-af222865d979",
       "https://jobs.ashbyhq.com/Etched/80926a71-0a62-4bf8-a877-b6d96df279b7",
+      "https://jobs.ashbyhq.com/Etched/8134a9bf-9624-48dd-98be-0bf1c3cb1f55",
       "https://jobs.ashbyhq.com/Etched/8c1e7aab-3c6d-49a3-8176-d9158acb181f",
       "https://jobs.ashbyhq.com/Etched/982a8ee4-5e1e-43c7-a918-6dac285cdddd/application",
       "https://jobs.ashbyhq.com/Etched/9e6737f4-394f-43b1-92ef-b9d4a7986f68",
-      "https://jobs.ashbyhq.com/Etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71/application",
-      "https://jobs.ashbyhq.com/Etched/e56469e3-7398-4d83-9fe3-3f8ab1b10468",
       "https://jobs.ashbyhq.com/Etched/aa17bfa2-2922-4aa7-820d-76064f2551a8",
-      "https://jobs.ashbyhq.com/Etched/8134a9bf-9624-48dd-98be-0bf1c3cb1f55",
-      "https://jobs.ashbyhq.com/Etched/2d7039e2-190e-4039-b5a9-fff9efa7cc8e",
-      "https://jobs.ashbyhq.com/Etched/0e78a385-c450-4749-9803-0970ce2971a5",
-      "https://jobs.ashbyhq.com/Etched/1efd9b58-66fe-4798-a877-776857b4e189",
-      "https://jobs.ashbyhq.com/Etched/20f77518-1699-4184-ac8e-9fa2f614d6fb"
+      "https://jobs.ashbyhq.com/Etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71/application",
+      "https://jobs.ashbyhq.com/Etched/e56469e3-7398-4d83-9fe3-3f8ab1b10468"
     ]
   },
   {
@@ -8823,7 +8823,8 @@
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--12-or-16months-_R1009576",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Fall-2026--4-months-_R1012573",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Summer-2026-_R1011747",
-      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1"
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1",
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Engineering-Knowledge-Management-Intern--Fall-2026--8-months-_R1012818"
     ]
   },
   {
@@ -10317,10 +10318,10 @@
       "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications",
       "https://jobs.apple.com/en-us/details/200664307",
       "https://jobs.apple.com/en-us/details/200664320",
+      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships",
       "https://jobs.apple.com/en-us/details/200664323",
       "https://jobs.apple.com/en-us/details/200664785",
-      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships",
-      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships"
+      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships"
     ]
   },
   {
