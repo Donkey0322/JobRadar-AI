@@ -4072,7 +4072,8 @@
       "https://careers.sig.com/job/9377/Quantitative-Trader-Internship-Summer-2026",
       "https://careers.sig.com/job/9532/Quantitative-Strategy-Developer-Internship-Summer-2026",
       "https://careers.sig.com/job/9749/Trading-System-Engineering-Internship-Summer-2026",
-      "https://careers.sig.com/job/SUSQA004Y9571?mode=apply"
+      "https://careers.sig.com/job/SUSQA004Y9571?mode=apply",
+      "https://careers.sig.com/jobs/10837?lang=en-us&mode=apply&iis=LinkedIn&jr_id=69f3d11158b23a2329da8088"
     ]
   },
   {
@@ -6856,7 +6857,13 @@
       "https://jobs.ashbyhq.com/Etched/982a8ee4-5e1e-43c7-a918-6dac285cdddd/application",
       "https://jobs.ashbyhq.com/Etched/9e6737f4-394f-43b1-92ef-b9d4a7986f68",
       "https://jobs.ashbyhq.com/Etched/b45e357c-07ea-4499-9911-1d3cc9b9ac71/application",
-      "https://jobs.ashbyhq.com/Etched/e56469e3-7398-4d83-9fe3-3f8ab1b10468"
+      "https://jobs.ashbyhq.com/Etched/e56469e3-7398-4d83-9fe3-3f8ab1b10468",
+      "https://jobs.ashbyhq.com/Etched/aa17bfa2-2922-4aa7-820d-76064f2551a8",
+      "https://jobs.ashbyhq.com/Etched/8134a9bf-9624-48dd-98be-0bf1c3cb1f55",
+      "https://jobs.ashbyhq.com/Etched/2d7039e2-190e-4039-b5a9-fff9efa7cc8e",
+      "https://jobs.ashbyhq.com/Etched/0e78a385-c450-4749-9803-0970ce2971a5",
+      "https://jobs.ashbyhq.com/Etched/1efd9b58-66fe-4798-a877-776857b4e189",
+      "https://jobs.ashbyhq.com/Etched/20f77518-1699-4184-ac8e-9fa2f614d6fb"
     ]
   },
   {
@@ -10311,7 +10318,9 @@
       "https://jobs.apple.com/en-us/details/200664307",
       "https://jobs.apple.com/en-us/details/200664320",
       "https://jobs.apple.com/en-us/details/200664323",
-      "https://jobs.apple.com/en-us/details/200664785"
+      "https://jobs.apple.com/en-us/details/200664785",
+      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships",
+      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships"
     ]
   },
   {
@@ -16729,6 +16738,16 @@
     ]
   },
   {
+    "name": "strideinc",
+    "ats": "workday",
+    "identifier": "strideinc-sk",
+    "domain": "https://strideinc.wd1.myworkdayjobs.com/sk",
+    "page": "https://strideinc.wd1.myworkdayjobs.com/wday/cxs/strideinc/sk/jobs",
+    "urls": [
+      "https://strideinc.wd1.myworkdayjobs.com/en-US/SK/job/US-Nationwide---Remote/K12-Zone-Engineering-Intern_JR114632-1"
+    ]
+  },
+  {
     "name": "stripe",
     "ats": "greenhouse",
     "identifier": "stripe",
@@ -17175,8 +17194,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/tenex",
     "urls": [
-      "https://jobs.ashbyhq.com/tenex/fbfefd5c-ae95-4a71-8a75-e2b61facb304",
-      "https://jobs.ashbyhq.com/tenex/10809b50-a1e3-4ef8-9522-e4721688a36e"
+      "https://jobs.ashbyhq.com/tenex/10809b50-a1e3-4ef8-9522-e4721688a36e",
+      "https://jobs.ashbyhq.com/tenex/fbfefd5c-ae95-4a71-8a75-e2b61facb304"
     ]
   },
   {
