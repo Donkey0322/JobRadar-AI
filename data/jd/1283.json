@@ -1,0 +1,104 @@
+{
+  "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4829785101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4452011101,
+  "location": {
+    "name": "Chicago, United States"
+  },
+  "metadata": [
+    {
+      "id": 6607939101,
+      "name": "Vieple Interview Code",
+      "value": null,
+      "value_type": "long_text"
+    },
+    {
+      "id": 6516337101,
+      "name": "Worker Sub Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6886352101,
+      "name": "Job Category",
+      "value": "Technology",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6894400101,
+      "name": "Career Site Locale",
+      "value": "us",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6963404101,
+      "name": "Exclude Resume",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 6963467101,
+      "name": "Exclude Education Section",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 6516608101,
+      "name": "Is Hidden Job?",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 8112897101,
+      "name": "Send Job to Yello?",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 13611702101,
+      "name": "Uses Covey AI",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4829785101,
+  "updated_at": "2026-05-22T07:52:29-04:00",
+  "requisition_id": "REQ-04568",
+  "title": "Hardware Machine Learning PhD Research Internship",
+  "company_name": "IMC",
+  "first_published": "2026-04-16T16:03:32-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;We are deploying machine learning directly onto custom hardware – and we want you to help drive it forward. This PhD internship is an opportunity to work on research that has direct impact on IMC&#39;s work tackling open problems at the frontier of low-latency ML inference and hardware acceleration.&lt;/p&gt;\n&lt;p&gt;You&#39;ll work alongside IMC engineers in one of the most demanding low-latency computing environments in the world. You&#39;ll own a focused research project from start to finish, present your findings to the team, and leave behind a prototype or benchmark that we can build on.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Architect and develop an ML focused research project based on a real-world trading environment&lt;/li&gt;\n&lt;li&gt;Work hands-on with hardware engineers to implement, verify, and deploy ML inference solutions&lt;/li&gt;\n&lt;li&gt;Track and evaluate emerging research in neural architecture search, machine learning systems and quantization methods, and determine what translates to measurable improvements in our systems&lt;/li&gt;\n&lt;li&gt;Present your project to the team, deepening our collective understanding of an area of ML acceleration&lt;/li&gt;\n&lt;li&gt;Gain hardware design fundamentals from skilled RTL developers and learn how they apply to our industry&lt;/li&gt;\n&lt;li&gt;Build skills to evaluate research not only from an academic perspective, but through real-world performance constraints, engineering costs, and industry impact&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills and Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in a PhD program in Electrical Engineering, Computer Science, Physics, or a related field&lt;/li&gt;\n&lt;li&gt;Solid understanding of hardware constraints and design trade-offs (e.g., pipelining, resource utilization, fixed-point arithmetic) that shape how ML models can be efficiently mapped onto FPGAs or custom ASICs&lt;/li&gt;\n&lt;li&gt;Experience with hardware fundamentals, whether through VHDL/SystemVerilog development, HLS tools, or ML-to-hardware frameworks like hls4ml, FINN, or Vitis AI&lt;/li&gt;\n&lt;li&gt;Understanding of machine learning fundamentals – neural network architectures, inference optimization, quantization techniques, ML frameworks such as PyTorch/TensorFlow&lt;/li&gt;\n&lt;li&gt;Proficiency in Python or similar languages for tooling, testing, and simulation&lt;/li&gt;\n&lt;li&gt;Strong communication skills and ability to work collaboratively across disciplines with both technical and non-technical teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;You may submit one application per role each year.&amp;nbsp; We strongly encourage you to focus on applying to a single role that best matches your skills and interests.&amp;nbsp; Though you may apply to multiple roles, please note that each application will be evaluated based on the specific criteria established for that particular role. If you have already applied for this position during the current recruitment season and were not selected, you may reapply when the next recruitment season begins in 2027.&lt;/p&gt;\n&lt;p&gt;The Base Salary range for the role is included below. Base salary is only one component of total compensation; all full-time, permanent positions are eligible for a discretionary bonus and benefits, including paid leave and insurance. Please visit &lt;a href=&quot;https://www.imc.com/us/careers/benefits&quot;&gt;Benefits - US | IMC Trading&lt;/a&gt; for more comprehensive information.&lt;/p&gt;\n&lt;p&gt;Base Salary: $225,000&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;IMC is a global trading firm powered by a cutting-edge research environment and a world-class technology backbone. Since 1989, we’ve been a stabilizing force in financial markets, providing essential liquidity upon which market participants depend. Across our offices in the US, Europe, Asia Pacific, and India, our talented quant researchers, engineers, traders, and business operations professionals are united by our uniquely collaborative, high-performance culture, and our commitment to giving back. From entering dynamic new markets to embracing disruptive technologies, and from developing an innovative research environment to diversifying our trading strategies, we dare to continuously innovate and collaborate to succeed.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4023813101,
+      "name": "Development (Group)",
+      "child_ids": [
+        4069166101,
+        4023855101,
+        4023814101
+      ],
+      "parent_id": 4023812101
+    }
+  ],
+  "offices": [
+    {
+      "id": 4012408101,
+      "name": "Chicago",
+      "location": "Chicago, United States",
+      "child_ids": [],
+      "parent_id": 4012407101
+    }
+  ]
+}
