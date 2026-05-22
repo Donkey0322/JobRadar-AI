@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "158997a45a1510015c5be50cafa90000",
+    "title": "Co-Op, Data Science",
+    "jobDescription": "<p>LiveRamp is the leading data connectivity platform. We believe connected data has the power to change the world. Our platform powers insights and experiences centered around the needs of real people, and in ways that keep the Internet open for all. LiveRampers thrive on building together with curiosity and humility—and have a good bit of fun along the way. We’re always looking for smart, kind, and creative people to grow our team and impact.<br /><br />Mission: LiveRamp makes it safe and easy for businesses to use data effectively.<br /><br />Get ready for the best learning experience of your life. You will receive the same orientation training as our full-time engineers, you will be matched with an individual mentor, and you will be committing production code by the end of your first week. In the course of your internship or Co-op, you will be tasked with one or more mission-critical projects and make meaningful contributions to LiveRamp&#39;s success. Also, if our previous interns are any guides, you will have a ton of fun in the process!<br /><br />Internships are 12 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your internship.<br /><br />Co-ops range between 12-24 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your Co-op.</p><p style=\"text-align:inherit\"></p><br /><p style=\"text-align:inherit\"></p><p><span>We are seeking Co-Op candidates interested in applying data science to the ad-tech space.</span><br /> </p><p>Join our Insights Engineering Team!<span> </span></p><p></p><p><b>You will:</b></p><ul><li><p><span>Use statistical and ML based techniques to reduce selection bias, build representative samples, and analyze randomized studies in the ad-tech space.</span></p></li><li><p><span>Work hand-in-hand with our data science and engineering teams to design and implement data models that measure ad performance across large, disparate datasets.</span></p></li><li><p><span>Perform R&amp;D work by prototyping new statistical and data modeling frameworks, translating prototypes into SQL and PySpark workflows, and then drive those prototypes into production.</span></p></li><li><p><span>Work in multiple cloud environments such as AWS and GCP, and help build, monitor, and troubleshoot automated modeling jobs using technologies such as Spark and BigQuery.</span></p></li><li><p><span>Troubleshoot internal and external models by understanding the key ingredients and underlying assumptions of the models.</span></p></li><li><p><span>Basic familiarity with prompt engineering and a proactive willingness to adopt new AI-driven productivity tools.</span><br /> </p></li></ul><p><b>About you:<span> </span></b></p><ul><li><p><span>Possess strong mathematics, statistics and computer science skills that you are ready to turn into industry-ready skills</span></p></li><li><p><span>Pursuing or completed a degree in a Data Science related field (e.g. Mathematics, Statistics, Computer Science, Physics or other STEM degrees)</span></p></li><li><p><span>Excited to learn new data science techniques and technologies</span></p></li><li><p><span>Willing to dive in and learn by doing</span></p></li><li><p><span>Ready to work with others to solve hard problems</span></p></li><li><p><span>Possess a startup personality: smart, ethical, friendly, hard-working and proactive</span></p></li><li><p><span>Excited to work with products that have close interactions with customers</span><br /> </p></li></ul><p><b>Preferred Skills:<span> </span></b></p><ul><li><p><span>Strong background in probability and statistics, experience implementing statistical models in SQL, and familiarity with fundamentals of randomized control trials.</span></p></li><li><p><span>Experience contributing to a mature Python-centric code base.</span></p></li><li><p><span>Strong command of common data science toolkits (Pandas, Numpy, Matplotlib, sci-kit learn).</span></p></li><li><p><span>Experience writing SQL and working with relational databases.</span></p></li><li><p><span>Understanding of software engineering fundamentals such as object oriented programming, computational complexity, version controlling with git, and experience in command line interfaces such as bash.</span></p></li><li><p><span>Knowledge of Big Data stacks such as Hadoop and Spark</span></p></li><li><p><span>Experience with AWS and/or GCP cloud providers</span></p></li><li><p><span>Experience with Agile software development</span></p></li></ul><p></p><p><span>The approximate hourly base compensation range is $31.00</span><span> to $49.00</span><span>. The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant&#39;s experience, knowledge, skills, and abilities, geography, as well as internal equity among our team.</span></p><p>More about us: </p><p></p><p>LiveRamp’s mission is to connect data in ways that matter, and doing so starts with our people. We know that inspired teams enlist people from a blend of backgrounds and experiences. And we know that individuals do their best when they not only bring their full selves to work but feel like they truly belong. Connecting LiveRampers to new ideas and one another is one of our guiding principles—one that informs how we hire, train, and grow our global team across nine countries and four continents. Click <a target=\"_blank\" href=\"https://liveramp.com/diversity-inclusion-belonging/\">here</a> to learn more about Diversity, Inclusion, &amp; Belonging (DIB) at LiveRamp. </p><p></p><p>We use automated decision systems (ADS) as part of our recruitment and hiring process. If you require an accommodation or believe that the use of an ADS may create a barrier to your application or participation in the hiring process due to a disability or other protected characteristic, please let us know. We are committed to providing reasonable accommodations and ensuring an equitable hiring experience for all candidates.</p>",
+    "location": "San Francisco",
+    "additionalLocations": [
+      "New York"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-21",
+    "timeType": "Full time",
+    "jobReqId": "JR012195",
+    "jobPostingId": "Intern--Data-Science_JR012195",
+    "jobPostingSiteId": "LiveRampCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "San Francisco",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers/job/San-Francisco/Intern--Data-Science_JR012195",
+    "questionnaireId": "1dc1a1e391441000ca46a85cf3b30000"
+  },
+  "hiringOrganization": {
+    "name": "C0035 LiveRamp, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
