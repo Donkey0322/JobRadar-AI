@@ -2644,7 +2644,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000127134264",
       "https://jobs.smartrecruiters.com/BoschGroup/744000127370454",
       "https://jobs.smartrecruiters.com/BoschGroup/744000127571399",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000127626270"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000127626270",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000127824754"
     ]
   },
   {
@@ -4389,7 +4390,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/celonis/jobs/7738530003?gh_jid=7738530003",
-      "https://job-boards.greenhouse.io/celonis/jobs/7738538003?gh_jid=7738538003"
+      "https://job-boards.greenhouse.io/celonis/jobs/7738538003?gh_jid=7738538003",
+      "https://job-boards.greenhouse.io/celonis/jobs/7737493003?gh_jid=7737493003",
+      "https://job-boards.greenhouse.io/celonis/jobs/7746655003?gh_jid=7746655003"
     ]
   },
   {
@@ -6189,7 +6192,8 @@
     "urls": [
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/18763",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19060",
-      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19226"
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19226",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19017"
     ]
   },
   {
@@ -10299,9 +10303,9 @@
       "https://jobs.apple.com/en-us/details/200625333",
       "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications",
       "https://jobs.apple.com/en-us/details/200664307",
-      "https://jobs.apple.com/en-us/details/200664785",
+      "https://jobs.apple.com/en-us/details/200664320",
       "https://jobs.apple.com/en-us/details/200664323",
-      "https://jobs.apple.com/en-us/details/200664320"
+      "https://jobs.apple.com/en-us/details/200664785"
     ]
   },
   {
@@ -11532,7 +11536,9 @@
     "page": "https://lighting.wd3.myworkdayjobs.com/wday/cxs/lighting/jobs-and-careers/jobs",
     "urls": [
       "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Advanced-Development-Software-Intern---Cooper-Lighting-Solutions--Summer-2026-_363846",
-      "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Software-Engineering-Intern--Cooper-Lighting-Solutions--Summer-2026-_363549-1"
+      "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Atlanta/Software-Engineering-Intern--Cooper-Lighting-Solutions--Summer-2026-_363549-1",
+      "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/GenAI-Software-Engineer-Intern---GenAI-Model-Experiment_364081",
+      "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Embedded-Software-Intern---IoT-Gateway--MSc-Graduation-_364563"
     ]
   },
   {
@@ -15124,7 +15130,8 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/XMLNAME-2026-Summer-Intern---Computational-Science---Software-Test-Engineering--CSI-_202511-130554",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/XMLNAME-2026-Summer-Intern---Instrument-Control-Software_202601-101724",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/XMLNAME-2026-Summer-Intern---RDS-Sequencing-Network---Sequencing-Software-Chapter_202601-101130",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1"
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1",
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Central-Singapore/Computer-System-Validation-Internship_202505-111473"
     ]
   },
   {
@@ -19271,7 +19278,8 @@
     "urls": [
       "https://zeissgroup.wd3.myworkdayjobs.com/External/job/Dublin-CA/Intern----Software-Engineering_JR_1047725",
       "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Mnchen/Intern-Computer-Vision-and-Automation-in-Electron-Microscopy--f-m-x-_JR_1049859-3",
-      "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Zurich/Internship-Data-Scientist-in-Zurich--f-m-x-_JR_1049900"
+      "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Zurich/Internship-Data-Scientist-in-Zurich--f-m-x-_JR_1049900",
+      "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Mnchen/Intern-Computer-Vision-and-Automation-in-Microscopy--f-m-x-_JR_1049968-1"
     ]
   },
   {
