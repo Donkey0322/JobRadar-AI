@@ -1,0 +1,152 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/shein/jobs/5229778008",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 4479392008,
+  "location": {
+    "name": "San Diego"
+  },
+  "metadata": [
+    {
+      "id": 6709817008,
+      "name": "Location",
+      "value": [
+        "San Diego"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 6656335008,
+      "name": "Job Grade",
+      "value": "S0",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6657292008,
+      "name": "Job Family",
+      "value": "IT",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6657293008,
+      "name": "Job Function",
+      "value": "Others",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6657294008,
+      "name": "Job Category",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6270536008,
+      "name": "Employment Type",
+      "value": "Intern",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6270554008,
+      "name": "Reason for Hire",
+      "value": "New Headcount",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6656301008,
+      "name": "Recruitment Type",
+      "value": "Professional Hiring",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6656359008,
+      "name": "Legal Entity",
+      "value": "SHEIN Technology LLC",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6656360008,
+      "name": "Number of Demand",
+      "value": "1.0",
+      "value_type": "number"
+    },
+    {
+      "id": 6656361008,
+      "name": "Exempt or Non-exempt",
+      "value": "Non-exempt",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6656362008,
+      "name": "Pay Range",
+      "value": {
+        "unit": "USD",
+        "max_value": "30.0",
+        "min_value": "30.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 6656363008,
+      "name": "RTO Type",
+      "value": "5+0",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6709833008,
+      "name": "Recruiter",
+      "value": {
+        "name": "Ellis Delgado",
+        "email": "ellis.delgado@sheingroup.com",
+        "user_id": 4288354008,
+        "employee_id": "10265898"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 6709834008,
+      "name": "Hiring Manager",
+      "value": {
+        "name": "Changjun Piao",
+        "email": "changjun.piao@sheingroup.com",
+        "user_id": 4288692008,
+        "employee_id": "10027445"
+      },
+      "value_type": "user"
+    }
+  ],
+  "id": 5229778008,
+  "updated_at": "2026-05-22T18:49:26-04:00",
+  "requisition_id": "GRQ20260523-0001",
+  "title": "Database Engineer Intern",
+  "company_name": "SHEIN",
+  "first_published": "2026-05-22T18:49:26-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;About SHEIN&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;SHEIN is a global online fashion and lifestyle retailer, offering SHEIN branded apparel and products from global network of vendors, all at affordable prices. Headquartered in Singapore, SHEIN remains committed to making the beauty of fashion accessible to all, promoting its industry-leading, on demand production methodology, for a smarter, future-ready industry. Founded in 2012, SHEIN has more than 16,000 employees operating from offices around the world, and continues to expand operations globally. Join SHEIN and be the future!&lt;/p&gt;\n&lt;p&gt;Founded in 2012, SHEIN has nearly 10,000 employees operating from offices around the world, with U.S.&amp;nbsp;Headquarters located in Los Angeles and Global Headquarters located in Singapore. In SHEIN, we work&amp;nbsp;with outstanding, creative, and capable peers. We share an energetic and open culture for capable&amp;nbsp;people to discern, work and ignite as a team.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Position Summary&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a Database Engineer Intern for our San Diego-based corporate office. The SHEIN DBRE team is a mix of DBA/SRE/DBRE oriented folks whose overarching goal is to provide highly available data services at scale. They strive to build an extremely reliable, performant, and secure database infrastructure through the skillful use of automation. This team is responsible for providing new architectures and scalability solutions to ever-growing business and data processing needs.&lt;/p&gt;\n&lt;p&gt;Our ideal candidate has a strong understanding of database fundamentals and how the properties of different database systems interact with applications and operating systems. You will be working onsite on a distributed team, with access to multiple customer environments.&lt;/p&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Job Responsibilities&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:true,&amp;quot;134233118&amp;quot;:true,&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Maintaining scalable, reliable, and robust production database environments.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Monitoring for problems and diagnosing and addressing those problems as needed.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Performance tuning, query optimization, and index tuning.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Building database tools and scripts to simplify, automate, to reduce operation toil.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Responsible for working with development teams and engineers to provide a database design guidance.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Handle Database upgrades and migrations, while monitoring and improving database performance.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Triage and solve database issues, drive incidents until resolution and employ measures to prevent recurrence.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Do capacity planning benchmarking on various databases.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Provide assessments of data integrity, high availability, data security, and privacy.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;1&quot; data-aria-level=&quot;1&quot;&gt;Provide 24x7 escalated on-call support on a pager rotation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:true,&amp;quot;134233118&amp;quot;:true,&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Job Requirements&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:true,&amp;quot;134233118&amp;quot;:true,&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;This role is applicable only to 2026 graduates (the graduation date must be prior to November 1, 2026).&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Bachelor&#39;s degree in Computer Science or Information Systems or equivalent technical discipline.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;MySQL specific database experience.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Experience using Azure or any other cloud provider.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;A solid understanding of distributed/replicated database topologies.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Systematic problem-solving approach, combined with a sense of ownership and drive.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Track record monitoring and analyzing system performance, isolating issues or bottlenecks that could impact reliability, performance and scalability.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Good understanding of Linux system, ability to deploy open-source software independently.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;Proficient in more than one scripting language (golang/python/shell, etc.).&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;A strong desire to be challenged by problems of scale and complexity to make our service better for our customers.&lt;/li&gt;\n&lt;li data-leveltext=&quot;&quot; data-font=&quot;Symbol&quot; data-listid=&quot;5&quot; data-list-defn-props=&quot;{&amp;quot;335552541&amp;quot;:1,&amp;quot;335559685&amp;quot;:720,&amp;quot;335559991&amp;quot;:360,&amp;quot;469769226&amp;quot;:&amp;quot;Symbol&amp;quot;,&amp;quot;469769242&amp;quot;:[8226],&amp;quot;469777803&amp;quot;:&amp;quot;left&amp;quot;,&amp;quot;469777804&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;469777815&amp;quot;:&amp;quot;hybridMultilevel&amp;quot;}&quot; data-aria-posinset=&quot;4&quot; data-aria-level=&quot;1&quot;&gt;The ability to remain calm in the face of extreme crises. Good verbal and written communication skills, and be able to work effectively with geographically remote teams.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;AI Competency Requirements (Junior MySQL Operations Engineer) &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Familiar with mainstream AI coding assistants (e.g., Claude Code, ChatGPT, Gemini) and able to leverage them for day-to-day operations tasks such as SQL optimization suggestions, troubleshooting, and documentation generation.&lt;/li&gt;\n&lt;li&gt;Capable of writing effective prompts and iteratively refining them based on model outputs.&lt;/li&gt;\n&lt;li&gt;Aware of AI model limitations and maintains a habit of manually validating results.&lt;/li&gt;\n&lt;li&gt;Has hands-on experience using AI tools to address real MySQL operations scenarios, such as slow query analysis, parameter tuning recommendations, and incident diagnosis assistance.&lt;/li&gt;\n&lt;li&gt;Understands the fundamentals of RAG (Retrieval-Augmented Generation) and is able to structure database operations knowledge into AI-consumable formats, such as knowledge bases, tuning case libraries, and FAQ documents.&lt;/li&gt;\n&lt;li&gt;Has exposure to AI application frameworks such as LangChain or LlamaIndex, or has basic experience with vector databases (e.g., Qdrant, pgvector).&lt;/li&gt;\n&lt;li&gt;Understands the basics of MCP (Model Context Protocol) integration and is familiar with how AI Agents interact with external tools Maintains a habit of organizing day-to-day operations experience into structured documents or prompt templates for team-wide sharing and reuse.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Nice to Have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fluency in Mandarin&lt;/li&gt;\n&lt;li&gt;Experience managing MySQL / Percona Server 8 at scale.&lt;/li&gt;\n&lt;li&gt;Experience managing distributed database, like Clickhouse, Hbase, MongoDB and Starrocks etc.&lt;/li&gt;\n&lt;li&gt;Experience with Percona tools, Orchestrator, Ghost etc.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Benefits and Perks&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559740&amp;quot;:257}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Employee discounts&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Free weekly catered lunch&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Dog-friendly office (available at select locations)&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Free gym access (available at select locations)&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Free swag giveaways&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Annual Holiday Party&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Invitations to pop-ups and other company events&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559739&amp;quot;:0}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;\n&lt;li&gt;&lt;span data-contrast=&quot;none&quot;&gt;Complimentary daily office snacks and beverages&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;#LI-ED1&lt;/p&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;Pay Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$30&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$30 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4038512008,
+      "name": "Database Engineering",
+      "child_ids": [],
+      "parent_id": 4038509008
+    }
+  ],
+  "offices": [
+    {
+      "id": 4032767008,
+      "name": "San Diego",
+      "location": "San Diego, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

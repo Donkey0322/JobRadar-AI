@@ -8815,6 +8815,7 @@
     "domain": "https://gtsgbu.wd3.myworkdayjobs.com/careers",
     "page": "https://gtsgbu.wd3.myworkdayjobs.com/wday/cxs/gtsgbu/careers/jobs",
     "urls": [
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Engineering-Knowledge-Management-Intern--Fall-2026--8-months-_R1012818",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/ITV-Specialist-Intern--Summer-2026-_R1011625",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1010497-1",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst---Intern_R1010498-1",
@@ -8823,8 +8824,7 @@
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--12-or-16months-_R1009576",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Fall-2026--4-months-_R1012573",
       "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern--Summer-2026-_R1011747",
-      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1",
-      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Engineering-Knowledge-Management-Intern--Fall-2026--8-months-_R1012818"
+      "https://gtsgbu.wd3.myworkdayjobs.com/Careers/job/Toronto/Software-Analyst-Intern_R1012129-1"
     ]
   },
   {
@@ -15872,6 +15872,16 @@
     ]
   },
   {
+    "name": "shein",
+    "ats": "greenhouse",
+    "identifier": "shein",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/shein/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/shein/jobs/5229778008"
+    ]
+  },
+  {
     "name": "shieldai",
     "ats": "lever",
     "identifier": "shieldai",
@@ -16694,6 +16704,16 @@
     "urls": [
       "https://job-boards.greenhouse.io/stockx/jobs/8451416002",
       "https://job-boards.greenhouse.io/stockx/jobs/8456940002"
+    ]
+  },
+  {
+    "name": "stokespacetechnologies",
+    "ats": "greenhouse",
+    "identifier": "stokespacetechnologies",
+    "domain": "https://www.stokespace.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/stokespacetechnologies/jobs",
+    "urls": [
+      "https://www.stokespace.com/careers/current-openings/?gh_jid=5987663004&jr_id=69fae0acd21cf86d1e3cd79c"
     ]
   },
   {
@@ -18583,7 +18603,8 @@
     "domain": "https://voloridge-investment-management.hiringthing.com",
     "page": "",
     "urls": [
-      "https://voloridge-investment-management.hiringthing.com/job/956221/software-engineer-intern-2026"
+      "https://voloridge-investment-management.hiringthing.com/job/956221/software-engineer-intern-2026",
+      "https://voloridge-investment-management.hiringthing.com/job/1013126/quantitative-developer-intern-2027?s=lif&jr_id=69eaa8e4dc35f7132c4ab803"
     ]
   },
   {
