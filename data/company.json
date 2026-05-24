@@ -711,14 +711,14 @@
     "domain": "https://altera.wd1.myworkdayjobs.com/altera",
     "page": "https://altera.wd1.myworkdayjobs.com/wday/cxs/altera/altera/jobs",
     "urls": [
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Marlow-Buckinghamshire-United-Kingdom/Internship---FPGA-Software-Design-Engineer_R01412",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Development-Tools-Engineer---Intern_R02448",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/FPGA-Tools-Engineer---Intern_R02343",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/GenAI---Machine-Learning-Intern---Design-Automation--AI-Agents-_R02241",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-and-Software-Engineering-Intern_R02084",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Software-Engineer-Intern_R02502",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/High-Level-Synthesis--HLS--Compiler-Intern_R01966",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R01342",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Marlow-Buckinghamshire-United-Kingdom/Internship---FPGA-Software-Design-Engineer_R01412"
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R01342"
     ]
   },
   {
@@ -3338,7 +3338,8 @@
     "domain": "https://careers.akima.com",
     "page": "",
     "urls": [
-      "https://careers.akima.com/jobs/21524?lang=en-us&icims=1"
+      "https://careers.akima.com/jobs/21524?lang=en-us&icims=1",
+      "https://careers.akima.com/jobs/23452?lang=en-us&icims=1"
     ]
   },
   {
