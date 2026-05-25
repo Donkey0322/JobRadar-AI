@@ -37,6 +37,16 @@
     ]
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4622069006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -435,16 +445,6 @@
       "https://aexp.eightfold.ai/careers/job/37886467",
       "https://aexp.eightfold.ai/careers/job/38206900",
       "https://aexp.eightfold.ai/careers/job/39688514"
-    ]
-  },
-  {
-    "name": "affinipay1",
-    "ats": "greenhouse",
-    "identifier": "affinipay1",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006"
     ]
   },
   {
@@ -11059,7 +11059,8 @@
       "https://careers-kinaxis.icims.com/jobs/34702/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34704/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false",
-      "https://careers-kinaxis.icims.com/jobs/34800/job?mobile=true&needsRedirect=false"
+      "https://careers-kinaxis.icims.com/jobs/34800/job?mobile=true&needsRedirect=false",
+      "https://careers-kinaxis.icims.com/jobs/34764/job?mobile=true&needsRedirect=false"
     ]
   },
   {
