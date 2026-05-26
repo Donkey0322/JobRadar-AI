@@ -2648,7 +2648,12 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000127571399",
       "https://jobs.smartrecruiters.com/BoschGroup/744000127626270",
       "https://jobs.smartrecruiters.com/BoschGroup/744000127824754",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128066032"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128066032",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128399769",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128398023",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128395860",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128395714",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128395589"
     ]
   },
   {
@@ -4483,7 +4488,8 @@
     "domain": "https://www.chargepoint.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/chargepoint/jobs",
     "urls": [
-      "https://www.chargepoint.com/about/opportunities/software-qa-engineering-intern?gh_jid=8505201002"
+      "https://www.chargepoint.com/about/opportunities/software-qa-engineering-intern?gh_jid=8505201002",
+      "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8395611002"
     ]
   },
   {
@@ -8142,8 +8148,8 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000126576272",
       "https://jobs.smartrecruiters.com/GDMSI/744000127255509",
       "https://jobs.smartrecruiters.com/GDMSI/744000127297744",
-      "https://jobs.smartrecruiters.com/GDMSI/744000128256129",
-      "https://jobs.smartrecruiters.com/GDMSI/744000128253439"
+      "https://jobs.smartrecruiters.com/GDMSI/744000128253439",
+      "https://jobs.smartrecruiters.com/GDMSI/744000128256129"
     ]
   },
   {
@@ -8415,7 +8421,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineering-Intern--Summer-2026---Onsite-_01835947",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Intern--Summer-2026---Control-Diagnostic-System_01792836-1",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Digital-Systems-Engineering-Applications_01832003",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Manufacturing-Execution-Systems_01832231"
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Manufacturing-Execution-Systems_01832231",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Intern-Software_01847889"
     ]
   },
   {
