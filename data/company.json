@@ -10606,7 +10606,8 @@
       "https://jobs.jobvite.com/nutanix/job/oxZfyfw3?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/panynj/job/oej1yfwQ?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/src-inc/job/ohUjyfwM",
-      "https://jobs.jobvite.com/windriver/job/ooShxfwO"
+      "https://jobs.jobvite.com/windriver/job/ooShxfwO",
+      "https://jobs.jobvite.com/blackboard/job/oGn9Afww?nl=1&nl=1&fr=false"
     ]
   },
   {
@@ -12154,8 +12155,8 @@
     "page": "https://api.lever.co/v0/postings/matchgroup?mode=json",
     "urls": [
       "https://jobs.lever.co/matchgroup/178e6f99-ddbb-43e1-9e4c-fe2b524e0861/apply",
-      "https://jobs.lever.co/matchgroup/724734f1-b60b-49ae-8905-8663de76ad7a/apply",
-      "https://jobs.lever.co/matchgroup/433a4f22-315e-4a2e-a1e8-718be0098b71"
+      "https://jobs.lever.co/matchgroup/433a4f22-315e-4a2e-a1e8-718be0098b71",
+      "https://jobs.lever.co/matchgroup/724734f1-b60b-49ae-8905-8663de76ad7a/apply"
     ]
   },
   {
@@ -14209,16 +14210,6 @@
     ]
   },
   {
-    "name": "precisely",
-    "ats": "greenhouse",
-    "identifier": "precisely",
-    "domain": "https://www.precisely.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/precisely/jobs",
-    "urls": [
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005"
-    ]
-  },
-  {
     "name": "preciselyusjobs",
     "ats": "greenhouse",
     "identifier": "preciselyusjobs",
@@ -14226,7 +14217,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/preciselyusjobs/jobs",
     "urls": [
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005"
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005"
     ]
   },
   {
@@ -14401,8 +14393,8 @@
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Development-Intern_JR110934",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR110885",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR111950",
-      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Software-Specialist_JR112023",
-      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Cambridge-United-Kingdom/Software-Engineer-Intern_JR112226"
+      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Cambridge-United-Kingdom/Software-Engineer-Intern_JR112226",
+      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Software-Specialist_JR112023"
     ]
   },
   {
@@ -18208,9 +18200,9 @@
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Controls-Support-Engineer---Intern_JR35551",
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR35535",
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR35550",
+      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR36891",
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship--AI-Data-Assistant_JR36735",
-      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
-      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR36891"
+      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540"
     ]
   },
   {
@@ -18999,9 +18991,9 @@
       "https://jobs.smartrecruiters.com/WesternDigital/744000127583158",
       "https://jobs.smartrecruiters.com/WesternDigital/744000127584755",
       "https://jobs.smartrecruiters.com/WesternDigital/744000128056142",
-      "https://jobs.smartrecruiters.com/WesternDigital/744000128443471",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128419440",
       "https://jobs.smartrecruiters.com/WesternDigital/744000128431321",
-      "https://jobs.smartrecruiters.com/WesternDigital/744000128419440"
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128443471"
     ]
   },
   {
