@@ -1770,7 +1770,8 @@
     "domain": "https://avathon.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/avathon/jobs",
     "urls": [
-      "https://avathon.com/company/careers-job-listing/?gh_jid=4655249005"
+      "https://avathon.com/company/careers-job-listing/?gh_jid=4655249005",
+      "https://avathon.com/company/careers-job-listing/?gh_jid=4655247005"
     ]
   },
   {
@@ -10585,6 +10586,7 @@
       "https://jobs.jobvite.com/altamiracorps/job/o0kUxfwv?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/altamiracorps/job/oDD8zfwH?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/altamiracorps/job/oSC8zfwV?nl=1&nl=1&fr=false",
+      "https://jobs.jobvite.com/blackboard/job/oGn9Afww?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/blackboard/job/ouk3zfwa?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/careers/idtus/job/oiEfyfwt/apply",
       "https://jobs.jobvite.com/careers/tylertech/job/oreVxfwR",
@@ -10606,8 +10608,7 @@
       "https://jobs.jobvite.com/nutanix/job/oxZfyfw3?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/panynj/job/oej1yfwQ?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/src-inc/job/ohUjyfwM",
-      "https://jobs.jobvite.com/windriver/job/ooShxfwO",
-      "https://jobs.jobvite.com/blackboard/job/oGn9Afww?nl=1&nl=1&fr=false"
+      "https://jobs.jobvite.com/windriver/job/ooShxfwO"
     ]
   },
   {
@@ -11290,7 +11291,8 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/lambda",
     "urls": [
       "https://jobs.ashbyhq.com/lambda/0663f04c-097d-414f-b0a0-414a7cf153d6/application",
-      "https://jobs.ashbyhq.com/lambda/62fcad14-b225-427c-ad86-6bb52377a997"
+      "https://jobs.ashbyhq.com/lambda/62fcad14-b225-427c-ad86-6bb52377a997",
+      "https://jobs.ashbyhq.com/lambda/9c964b0d-984b-4220-a1ee-ea237a4f14ea"
     ]
   },
   {
@@ -15123,7 +15125,8 @@
       "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Marketing-Web-Applications-Virtual-Internship_JR-259605",
       "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Virtual-Internship_JR-259561",
       "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Virtual-Internship_JR-259598",
-      "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Virtual-Internship_JR-259698"
+      "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Software-Engineer-Virtual-Internship_JR-259698",
+      "https://roberthalf.wd1.myworkdayjobs.com/roberthalfcareers/job/SAN-RAMON/Generative-AI-Engineer-Virtual-Internship_JR-260417-1"
     ]
   },
   {
@@ -16845,7 +16848,9 @@
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Kansas-City-Missouri/Software-Engineering-Intern---Summer-2026_JR00117066",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Associate-Business---Systems-Analyst--Fall-2026-_JR00123875",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/Corporate-Information-Services-Intern---Summer-2026_JR00120370",
-      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213"
+      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213",
+      "https://sunlife.wd3.myworkdayjobs.com/campus/job/Waterloo-Ontario/Associate-Software-Engineer---Mainframe_JR00123927",
+      "https://sunlife.wd3.myworkdayjobs.com/campus/job/Montreal-Quebec/Student--Enterprise-Architecture---AI-Strategy--Fall-2026-_JR00124177"
     ]
   },
   {
@@ -19398,6 +19403,16 @@
     ]
   },
   {
+    "name": "zipline",
+    "ats": "greenhouse",
+    "identifier": "zipline",
+    "domain": "https://www.zipline.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/zipline/jobs",
+    "urls": [
+      "https://www.zipline.com/careers?gh_jid=7747248003"
+    ]
+  },
+  {
     "name": "ziprecruiter",
     "ats": "greenhouse",
     "identifier": "ziprecruiter",
@@ -19491,7 +19506,9 @@
       "https://job-boards.greenhouse.io/zscaler/jobs/4976260007",
       "https://job-boards.greenhouse.io/zscaler/jobs/5103680007",
       "https://job-boards.greenhouse.io/zscaler/jobs/5124747007",
-      "https://job-boards.greenhouse.io/zscaler/jobs/5130779007"
+      "https://job-boards.greenhouse.io/zscaler/jobs/5130779007",
+      "https://job-boards.greenhouse.io/zscaler/jobs/5046050007",
+      "https://job-boards.greenhouse.io/zscaler/jobs/5045817007"
     ]
   },
   {
