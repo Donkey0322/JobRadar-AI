@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "4c2203b25c3a10010215127533500000",
+    "title": "Software Engineer - Intern",
+    "jobDescription": "<h3>Job Title</h3>Software Engineer - Intern<p style=\"text-align:inherit\"></p><h3>Job Description</h3><p><b>Role Summary:</b></p><p>We are seeking a motivated <b>Software Engineer Intern</b> to join our software and tooling team. This internship provides hands-on experience working with existing software tools while helping modernize and improve internal applications used by engineering and project teams.</p><p>The intern will contribute to <b>refactoring and improving legacy code</b>, learning how to transform existing implementations into cleaner, more maintainable, and more scalable solutions under the guidance of experienced engineers.</p><h3><b><span>Essential Functions</span></b></h3><ul><li>Gain familiarity with <b>internal automation tools</b> (e.g., ESoT, Generator Suite, ViGen, VIPER, VICTOR, Amazon Allen Bradley Code Generator, ACADE tool suite), including how they are used by engineering and project teams.</li><li>Assist in migrating AutoCAD LISP-based automation into C# / .NET plug-ins using the AutoCAD .NET API.</li><li>Learn to identify technical debt and implement improvements following established architectural patterns and coding standards.</li><li>Support the development and enhancement of internal software tools used by engineering teams.</li><li>Collaborate with software engineers, project engineers, and product owner to understand application behavior, user needs, and system constraints.</li><li>Update and implement code based on design guidance and technical direction.</li><li>Assist with unit testing and regression testing to ensure refactored code maintains existing functionality.</li><li>Participate in code reviews as a learner, incorporating feedback and best practices.</li><li>Help document refactored components, design decisions, and usage guidelines.</li><li>Become familiar with:<ul><li>Internal engineering tools and software ecosystems</li><li>Project engineering workflows and ways of working</li><li>Basic conveyor and material handling system concepts</li></ul></li><li>Provide support to end users by helping investigate issues, with guidance from senior team members.</li></ul><h3><b><span>Required Education and Experience</span></b></h3><ul><li>Currently pursuing a bachelor’s degree in <b>Computer Science, Software Engineering, Mechatronics, Mechanical Engineering, Electrical Engineering, IT</b>, or a related field.</li><li>Coursework or academic projects using <b>C# and/or the .NET framework</b>.</li><li>Foundational understanding of <b>object-oriented programming concepts</b>.</li><li>Exposure to version control systems (e.g., Git).</li><li>Interest in learning CAD automation and how engineering workflows are automated through software.</li></ul><h3><b><span>Technical Skills</span></b></h3><ul><li>Academic or personal project experience involving <b>code refactoring, legacy code migration, or modernization</b>.</li><li>Exposure to <b>AutoCAD automation</b> through scripting or APIs (e.g., AutoCAD LISP, .NET API, VBA, or similar).</li><li>Experience developing applications in <b>C# and the .NET framework</b> (coursework or projects).</li><li>Exposure to <b>ASP.NET MVC, Web API, or desktop .NET applications</b>.</li><li>Familiarity with <b>object-oriented programming principles</b> and basic design patterns.</li><li>Basic experience with <b>relational databases</b> such as SQL Server or MySQL.</li><li>Familiarity with <b>version control systems</b> (e.g., Git).</li><li>Exposure to <b>engineering or tooling-focused software development</b>.</li><li>Experience in AutoCAD is a plus.</li></ul><p></p><p><b>Position Type/Expected Hours of Work:</b></p><p>This is a full-time position, Monday through Friday, flex hours are available. Work can start anytime between 7:00 a.m. and 9:00 a.m. and end between 4:00 p.m. and 6:00 p.m. with a required 1 hour lunch break.</p><p><b>Travel:</b></p><p>No travel required.</p><p><b>Supervisory Responsibility:</b></p><p>This position has no supervisory responsibilities.</p><p><b>Work Environment and Physical Demands:</b></p><ul><li>Office-based environment with extended periods working at a computer</li><li>Occasional movement within the office to access equipment</li></ul><p><b>Other Duties:</b></p><p>This job description is not intended to be an exhaustive list of duties. Responsibilities may evolve as skills develop and project needs change.</p>",
+    "location": "Marietta, GA USA",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-26",
+    "timeType": "Full time",
+    "jobReqId": "JR36891",
+    "jobPostingId": "Software-Engineer---Intern_JR36891",
+    "jobPostingSiteId": "careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Marietta (Atlanta)",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR36891",
+    "questionnaireId": "eb1a4ef95e481001eea9da2c97ad0000",
+    "timeLeftToApply": "6 days left to apply",
+    "endDate": "2026-06-02",
+    "jobPostingEndDateAsText": "End Date: 2 June 2026"
+  },
+  "hiringOrganization": {
+    "name": "Vanderlande Industries Inc",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

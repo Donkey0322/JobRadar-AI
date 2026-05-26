@@ -2649,11 +2649,12 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000127626270",
       "https://jobs.smartrecruiters.com/BoschGroup/744000127824754",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128066032",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128399769",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128398023",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128395860",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128395589",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128395714",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128395589"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128395860",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128398023",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128399769",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128441049"
     ]
   },
   {
@@ -4488,8 +4489,8 @@
     "domain": "https://www.chargepoint.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/chargepoint/jobs",
     "urls": [
-      "https://www.chargepoint.com/about/opportunities/software-qa-engineering-intern?gh_jid=8505201002",
-      "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8395611002"
+      "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8395611002",
+      "https://www.chargepoint.com/about/opportunities/software-qa-engineering-intern?gh_jid=8505201002"
     ]
   },
   {
@@ -8417,12 +8418,12 @@
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---F135-Program-Digital-Solutions_01812510",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineering-Intern--Summer-2026---Onsite-_01805319-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Intern-Software_01847889",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Software-Engineering-Intern--Summer-2026---Onsite-_01835947",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-PR-AGUADILLA-110--Rd-110-N-Km-288--RD110/Intern--Summer-2026---Control-Diagnostic-System_01792836-1",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Digital-Systems-Engineering-Applications_01832003",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Manufacturing-Execution-Systems_01832231",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Intern-Software_01847889"
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-REMOTE/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---Manufacturing-Execution-Systems_01832231"
     ]
   },
   {
@@ -12153,7 +12154,8 @@
     "page": "https://api.lever.co/v0/postings/matchgroup?mode=json",
     "urls": [
       "https://jobs.lever.co/matchgroup/178e6f99-ddbb-43e1-9e4c-fe2b524e0861/apply",
-      "https://jobs.lever.co/matchgroup/724734f1-b60b-49ae-8905-8663de76ad7a/apply"
+      "https://jobs.lever.co/matchgroup/724734f1-b60b-49ae-8905-8663de76ad7a/apply",
+      "https://jobs.lever.co/matchgroup/433a4f22-315e-4a2e-a1e8-718be0098b71"
     ]
   },
   {
@@ -14207,6 +14209,16 @@
     ]
   },
   {
+    "name": "precisely",
+    "ats": "greenhouse",
+    "identifier": "precisely",
+    "domain": "https://www.precisely.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/precisely/jobs",
+    "urls": [
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005"
+    ]
+  },
+  {
     "name": "preciselyusjobs",
     "ats": "greenhouse",
     "identifier": "preciselyusjobs",
@@ -14214,8 +14226,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/preciselyusjobs/jobs",
     "urls": [
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005"
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005"
     ]
   },
   {
@@ -14390,7 +14401,8 @@
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Development-Intern_JR110934",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR110885",
       "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Software-Engineer-Intern_JR111950",
-      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Software-Specialist_JR112023"
+      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Pune-India/Software-Specialist_JR112023",
+      "https://ptc.wd1.myworkdayjobs.com/ptc/job/Cambridge-United-Kingdom/Software-Engineer-Intern_JR112226"
     ]
   },
   {
@@ -16070,7 +16082,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/singlestore/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/singlestore/jobs/7118095",
-      "https://job-boards.greenhouse.io/singlestore/jobs/7782709"
+      "https://job-boards.greenhouse.io/singlestore/jobs/7782709",
+      "https://job-boards.greenhouse.io/singlestore/jobs/7783300",
+      "https://job-boards.greenhouse.io/singlestore/jobs/7833869"
     ]
   },
   {
@@ -18195,7 +18209,8 @@
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR35535",
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR35550",
       "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship--AI-Data-Assistant_JR36735",
-      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540"
+      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Veghel/Internship-Graduation--AI-Driven-Engineering--the-Path-to-Zero-Error-Automation_JR36540",
+      "https://vanderlande.wd3.myworkdayjobs.com/careers/job/Marietta-GA-USA/Software-Engineer---Intern_JR36891"
     ]
   },
   {
@@ -18983,7 +18998,10 @@
       "https://jobs.smartrecruiters.com/WesternDigital/744000127345458",
       "https://jobs.smartrecruiters.com/WesternDigital/744000127583158",
       "https://jobs.smartrecruiters.com/WesternDigital/744000127584755",
-      "https://jobs.smartrecruiters.com/WesternDigital/744000128056142"
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128056142",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128443471",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128431321",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000128419440"
     ]
   },
   {
