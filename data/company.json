@@ -2086,6 +2086,16 @@
     ]
   },
   {
+    "name": "base-power",
+    "ats": "ashby",
+    "identifier": "base-power",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/base-power",
+    "urls": [
+      "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application"
+    ]
+  },
+  {
     "name": "baseten",
     "ats": "ashby",
     "identifier": "baseten",
@@ -8969,12 +8979,12 @@
     "domain": "https://harriscomputer.wd3.myworkdayjobs.com/1",
     "page": "https://harriscomputer.wd3.myworkdayjobs.com/wday/cxs/harriscomputer/1/jobs",
     "urls": [
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Idaho-United-States/Software-Development-Intern_R0043991",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/New-York-United-States/Intern---Developer_R0040830",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Mumbai-Vikroli/Software-Intern_R0040956-1",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Ontario-Canada/Intern-Developer_R0041015",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer---Intern_R0043779-1",
-      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer-Apprentice_R0040206",
-      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Idaho-United-States/Software-Development-Intern_R0043991"
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---UK/Software-Developer-Apprentice_R0040206"
     ]
   },
   {
@@ -14150,7 +14160,8 @@
     "urls": [
       "https://jobs.lever.co/plus-2/012a2134-8a6a-4982-8f25-f906178a24e4/apply",
       "https://jobs.lever.co/plus-2/06b808df-85a1-4ddd-863c-3e1cbe61eda9/apply",
-      "https://jobs.lever.co/plus-2/a58986e8-c9a0-4ca3-a8f1-6abec1e88464/apply"
+      "https://jobs.lever.co/plus-2/a58986e8-c9a0-4ca3-a8f1-6abec1e88464/apply",
+      "https://jobs.lever.co/plus-2/1864b1be-25e5-424f-9626-09e58f6147f2/apply"
     ]
   },
   {
