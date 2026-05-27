@@ -2092,7 +2092,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/base-power",
     "urls": [
-      "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application"
+      "https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc/application",
+      "https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e"
     ]
   },
   {
@@ -2667,7 +2668,9 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000128395860",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128398023",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128399769",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000128441049"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128441049",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128636559",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000128635748"
     ]
   },
   {
@@ -3091,7 +3094,8 @@
       "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/University-of-Central-Florida---Engineering-Co-op_118041",
       "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/University-of-Florida---Engineering-Co-op_118040",
       "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/University-of-South-Florida---Engineering-Co-op_118042",
-      "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/Weapons-Simulation-Software-Intern_120290"
+      "https://cae.wd3.myworkdayjobs.com/career/job/Tampa/Weapons-Simulation-Software-Intern_120290",
+      "https://cae.wd3.myworkdayjobs.com/career/job/Bangalore---Whitefield/Software-Developer---Intern_122019"
     ]
   },
   {
@@ -14160,8 +14164,8 @@
     "urls": [
       "https://jobs.lever.co/plus-2/012a2134-8a6a-4982-8f25-f906178a24e4/apply",
       "https://jobs.lever.co/plus-2/06b808df-85a1-4ddd-863c-3e1cbe61eda9/apply",
-      "https://jobs.lever.co/plus-2/a58986e8-c9a0-4ca3-a8f1-6abec1e88464/apply",
-      "https://jobs.lever.co/plus-2/1864b1be-25e5-424f-9626-09e58f6147f2/apply"
+      "https://jobs.lever.co/plus-2/1864b1be-25e5-424f-9626-09e58f6147f2/apply",
+      "https://jobs.lever.co/plus-2/a58986e8-c9a0-4ca3-a8f1-6abec1e88464/apply"
     ]
   },
   {
