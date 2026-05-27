@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "7b370410f51f100122cef3ef8fc90000",
+    "title": "Software Development Intern",
+    "jobDescription": "<p>Agency Software is offering a Software Development Internship to contribute to the development, maintenance and deployment of our Agency Management products. You will collaborate directly with senior developers and the professional services department to help us meet the needs of our customers in the insurance industry.</p><p></p><p>We are a highly AI-focused company and are rapidly adopting the latest AI development methodologies.</p><p></p><p>This person must be self-motivated, must be able to work independently but be willing to ask for help when needed, and must be willing to learn how to solve challenging problems.</p><p></p><p><b>The primary responsibilities of this position are:</b></p><ul><li>Work as member of R&amp;D team to help maintain and further develop our applications.</li><li>Assist in the deployment process of our online application and the conversion of agency data from older products to newer ones.</li><li>Analyze and troubleshoot faults in the applications as specified in our work tracking system.</li><li>Make changes to product source code to correctly address faults and document those changes in our source code repository.</li><li>Work closely with our professional services department to properly understand how our products work and how are customers use them.</li><li>Actively participate in code review and knowledge sharing sessions.</li><li>Follow instructions given by senior developers and management.</li></ul><p></p><p><b>About Us:</b></p><p>Agency Software, Inc. (ASI), established in 1988, has been a leader in property &amp; casualty insurance software since its inception date. With company focus, development, and marketing strategies aimed and addressed toward Property and Casualty insurance technology for the new millennium and beyond, ASI is committed to developing customized software systems for those agencies that share the common goal of increasing overall written premiums while decreasing errors and omissions exposure.</p>",
+    "location": "Idaho, United States",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-26",
+    "timeType": "Full time",
+    "jobReqId": "R0043991",
+    "jobPostingId": "Software-Development-Intern_R0043991",
+    "jobPostingSiteId": "1",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Office - Hayden Lake",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Idaho-United-States/Software-Development-Intern_R0043991",
+    "questionnaireId": "fd60a17b338d10019c3808e975100000"
+  },
+  "hiringOrganization": {
+    "name": "Agency Software, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
