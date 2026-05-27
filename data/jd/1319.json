@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "bd0bbae51b5e100c20d2a78a46560000",
+    "title": "AI and Systems Software Intern, At Scale AI - Fall 2026",
+    "jobDescription": "<p>Our work at NVIDIA is dedicated towards a computing model focused on visual and AI computing. For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics, with our invention of the GPU. The GPU has also shown to be spectacularly effective at solving some of the most complex problems in computer science. Today, NVIDIA’s GPU simulates human intelligence, running deep learning algorithms and acting as the brain of computers, robots and self-driving cars that can perceive and understand the world. We are looking to grow our company and teams with the smartest people in the world and there has never been a more exciting time to join our team!</p><p></p><p>NVIDIA is looking for an intern for an exciting role in AI and Systems Software for datacenter applications. You will be deeply involved in system-level debugging, analyzing our large-scale infrastructure reliability, and correlating complex failure modes to underlying hardware or system issues. We are working with the latest Accelerated Computing and Deep Learning software and hardware platforms, along with many scientific researchers, developers, and customers to craft improved workflows and develop new, leading differentiated solutions. Our team interacts with OS, container technologies, GPU compute, and systems specialists to architect, develop and bring up large scale performance software components and optimize performance.</p><p></p><p><b><span>What you’ll be doing</span>:</b></p><ul><li><p>Investigate and triage failures within large-scale compute clusters, performing deep-dive analysis to distinguish between software glitches, configuration errors, and hardware faults.</p></li><li><p>Analyze logs and telemetry to correlate specific job failures to system-level issues and diagnostic test failures, helping to reduce noise and identify root causes.</p></li><li><p>Assist with the tracking, calculation, and reporting on key reliability metrics, specifically Mean Time Between Failures (MTBF) and Mean Time Between Interruptions (MTBI), to drive infrastructure improvements.</p></li><li><p>Assist in analyzing large-scale workload issues, searching for application and infrastructure improvement opportunities to ensure jobs run as fast and reliably as possible.</p></li><li><p>Work closely with a mentor to learn about hardware validation suite architecture, document debugging methodologies, and help the team make intelligent, data-backed engineering decisions.</p></li></ul><p></p><p><b><span>What we need to see from you</span><span>:</span></b></p><ul><li><p>Pursuing a BS, MS, or PhD in Computer Science, Computer Engineering, Electrical Engineering, or a related field.</p></li><li><p>Proficiency in Python and Bash/Shell scripting for automation and tool development.</p></li><li><p>Proven debugging skills with an ability to isolate issues in complex, distributed systems.</p></li><li><p>Exposure to high-performance computing (HPC) environments, cluster managers (e.g., Slurm, Kubernetes), or large-scale distributed systems.</p></li></ul><p></p><p><b><span>Ways to stand out</span>:</b></p><ul><li><p>Familiarity with server architecture (PCIe, NVLink, CPU/GPU interactions) and hardware diagnostics.</p></li><li><p>Experience with monitoring and logging tools (e.g., Prometheus, Grafana, ELK stack).</p></li><li><p>Familiarity with system profiling and debugging tools (e.g., strace, gdb, perf).</p></li><li><p>Experience running and analyzing standard industry benchmarks on Linux systems.</p></li><li><p>Desire to learn and be part of a committed and hardworking team with excellent collaboration and communication skills.</p></li><li><p>Ability to multitask effectively in a dynamic, high-performance environment.</p></li></ul><p></p><p>NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you&#39;re creative and autonomous, we want to hear from you!</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until May 31, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-27",
+    "timeType": "Full time",
+    "jobReqId": "JR2018652",
+    "jobPostingId": "AI-and-Systems-Software-Intern--At-Scale-AI---Fall-2026_JR2018652",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-Systems-Software-Intern--At-Scale-AI---Fall-2026_JR2018652",
+    "questionnaireId": "2f2764b3a82910064296831695150000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
