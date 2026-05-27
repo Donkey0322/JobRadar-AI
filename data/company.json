@@ -1195,7 +1195,8 @@
       "https://apply.workable.com/enfos-inc/j/7364AA5599/",
       "https://apply.workable.com/evolv-technology/j/AFBA309834/apply",
       "https://apply.workable.com/quadric-dot-i-o-inc/j/4F8EDFF366/apply",
-      "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply"
+      "https://apply.workable.com/valsoft-corp/j/1A6B77BD9C/apply",
+      "https://apply.workable.com/al-warren-oil-company-inc/j/061E87752B/apply"
     ]
   },
   {
@@ -6754,6 +6755,16 @@
     "urls": [
       "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70343",
       "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/job/70373"
+    ]
+  },
+  {
+    "name": "epeconsulting",
+    "ats": "icims",
+    "identifier": "epeconsulting",
+    "domain": "https://careers-epeconsulting.icims.com",
+    "page": "https://api.icims.com/v1/companies/epeconsulting/jobs",
+    "urls": [
+      "https://careers-epeconsulting.icims.com/jobs/1943/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -13495,7 +13506,8 @@
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--PhD-Robotics-Research_JR2003245",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Software-Engineering-_JR2003206",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Systems-Software-Engineering_JR2003204",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-and-Systems-Software-Intern--At-Scale-AI---Fall-2026_JR2018652"
     ]
   },
   {
