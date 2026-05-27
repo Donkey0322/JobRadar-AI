@@ -1,0 +1,42 @@
+{
+  "jobPostingInfo": {
+    "id": "da58af0d09fd10016288090f33c60000",
+    "title": "Intern - Hardware / Embedded Security Engineer",
+    "jobDescription": "<p style=\"text-align:left\">Itron is innovating new ways for utilities and cities to manage energy and water. We create a more resourceful world to protect essential resources for today and tomorrow. Join us.</p><p style=\"text-align:inherit\"></p><p>We’re seeking a motivated intern who is excited to learn and contribute in the areas of hardware security and embedded systems. This internship is a hands-on, lab-based learning and evaluation program focused on hardware-level analysis, firmware interaction, and embedded device security validation. You’ll work collaboratively with a Hardware Security team in a technology environment supporting solutions used in the Utilities &amp; Energy sector, where reliability, safety, and customer trust are essential.</p><p></p><p><b>Duration:</b> Part-time (20 hours/week) for approximately 3 months, with potential for extension and possible full-time conversion based on performance and business need.</p><p></p><p><b>Duties &amp; Responsibilities</b></p><ul><li><p>Work hands-on with embedded devices in a lab setting to support customer-centric security outcomes for products and systems used in Utilities &amp; Energy environments.</p></li><li><p>Interact with microcontroller-based systems using common hardware debugging interfaces such as JTAG, SWD, and UART, with an authentic learning mindset and attention to detail.</p></li><li><p>Analyze embedded communication interfaces (e.g., SPI, I2C, UART) to better understand system behavior, data flow, and potential security considerations.</p></li><li><p>Assist with firmware workflows including extraction, flashing, and low-level debugging to support agile iteration and reproducible lab practices.</p></li><li><p>Support hardware-assisted testing and validation activities, documenting steps and outcomes so results are clear, accountable, and shareable across the team.</p></li><li><p>Contribute to firmware analysis and security assessment, including basic static and dynamic analysis to help identify vulnerabilities, insecure coding patterns, and potential attack surfaces.</p></li><li><p>Participate in hardware security testing (e.g., evaluating device interfaces and physical attack surfaces) using practical lab techniques aligned to responsible testing standards.</p></li><li><p>Support validation of secure boot and hardware root of trust concepts, helping ensure solutions are resilient and trustworthy for customers.</p></li><li><p>Assist with threat modeling activities for embedded devices, collaborating with teammates to capture risks, assumptions, and recommended mitigations.</p></li><li><p>Document findings and remediation recommendations in a clear, inclusive, and actionable format, contributing to innovative improvements and continuous learning.</p></li></ul><p></p><p><b>Required Skills &amp; Experience</b></p><ul><li><p>Currently enrolled in Computer Engineering, Electrical Engineering, Computer Science, or a related program with an embedded and/or hardware focus (or equivalent academic experience).</p></li><li><p>Foundational understanding of microcontrollers and embedded systems concepts.</p></li><li><p>Familiarity with C/C&#43;&#43; programming and basic software engineering practices.</p></li><li><p>Interest in firmware, hardware interaction, and low-level system behavior, with a curiosity-driven approach to learning.</p></li><li><p>Comfort working with lab equipment and hands-on setups, including careful handling and safe lab practices.</p></li><li><p>Strong analytical, problem-solving, and collaboration skills, with a commitment to being accountable, agile, and supportive of team goals.</p></li><li><p>Ability to communicate progress and findings clearly (written and verbal) in a way that supports shared understanding and customer-focused outcomes.</p></li></ul><p></p><p><b>Preferred Skills &amp; Experience</b></p><ul><li><p>Experience (coursework, projects, labs, or internships) with debugging interfaces such as JTAG, SWD, and UART.</p></li><li><p>Exposure to embedded development or firmware-based projects (academic, personal, or community).</p></li><li><p>Familiarity with firmware analysis concepts and/or secure coding practices.</p></li><li><p>Experience using lab tools such as logic analyzers and oscilloscopes.</p></li><li><p>Basic understanding of cybersecurity principles, particularly as they relate to embedded devices and product security.</p></li><li><p>Demonstrated ability to work collaboratively across disciplines and contribute ideas that improve processes or outcomes (innovative, team-oriented mindset).</p></li></ul><p></p><p><b>Travel:</b> 0-10%</p><p></p><p><b>Physical Demands</b></p><p>This is a typical office job, with no special physical requirements or unusual work environment.</p><p></p><p><i>This is a safety sensitive role.</i></p><p></p><p>#LI-LC1</p><p></p><p>Itron is committed to building an inclusive and diverse workforce and providing an authentic workplace experience for all employees. If you are excited about this role but your past experiences don&#39;t perfectly align with every requirement, we encourage you to apply anyway. In the end, you may be just who we are looking for!<br /><br />The successful candidate&#39;s starting wage will be determined based on permissible, non-discriminatory factors such as skills and experience.<br /><br />Itron is proud to be an Equal Opportunity Employer. If you require an accommodation to apply, please contact a recruiting representative at 1-800-635-5461 or email <span><span><a href=\"mailto:Accessibility&#64;itron.com\" target=\"_blank\">Accessibility&#64;itron.com</a>.</span></span></p><p><br /><span>Itron is transforming how the world manages energy, water and city services. Our trusted intelligent infrastructure solutions help utilities and cities improve efficiency, build resilience and deliver safe, reliable and affordable service. With edge intelligence, we connect people, data insights and devices so communities can better manage the essential resources they rely on to live. Join us as we create a more resourceful world: <a href=\"https://www.itron.com\" target=\"_blank\">www.itron.com</a></span></p><p></p>",
+    "location": "United States of America, North Carolina, Raleigh",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-27",
+    "timeType": "Part time",
+    "jobReqId": "JR102492",
+    "jobPostingId": "Intern---Hardware---Embedded-Security-Engineer_JR102492",
+    "jobPostingSiteId": "Early_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/itron/early_careers/sidebarimage/d452483d82fa100fcbe0cc19dcfa0004",
+      "alt": "Itron Logo 2024"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Raleigh, NC (Local Office)",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://itron.wd5.myworkdayjobs.com/Early_Careers/job/United-States-of-America-North-Carolina-Raleigh/Intern---Hardware---Embedded-Security-Engineer_JR102492",
+    "questionnaireId": "42b9f8c0b24f1000c1a859028c260000"
+  },
+  "hiringOrganization": {
+    "name": "001 Itron, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

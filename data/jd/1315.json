@@ -1,0 +1,106 @@
+{
+  "jobPostingInfo": {
+    "id": "22600670971110013547fe7eec1d0000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "<p style=\"text-align:left\"><i><span class=\"emphasis-3\">Copart, Inc. a technology leader and the premier online vehicle auction platform globally, with over 200 facilities located across the world, Copart links vehicle sellers to more than 750,000 buyers in over 190 countries. We believe in providing an unmatched experience, every day and everywhere, driven by our people, processes, and technology. </span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span>We are looking for passionate Software Engineering Interns with a strong interest in Artificial Intelligence to work on the development of our next-generation, AI-driven applications for our global expansion. In this role, you will work closely with Product Managers, AI Architects, and Tech Leads to understand requirements, integrate advanced AI capabilities, and build/modify scalable full-stack applications.</span></p><p><span>Core Duties &amp; Responsibilities:<br />AI Integration &amp; Development: Design and implement features powered by Large Language Models (LLMs), Generative AI, and Machine Learning APIs into our core web applications.<br />Full-Stack Engineering: Develop efficient, secure, and real-time applications, peer-review code, and document solutions within an agile-blended software environment.<br />AI Agent &amp; Workflow Orchestration: Build and optimize conversational agents, Retrieval-Augmented Generation (RAG) pipelines, and prompt engineering workflows.<br />Collaboration: Communicate proactively with teammates, AI research, infrastructure, security, and QA teams to continuously improve processes and engineering excellence.<br />Concurrency &amp; Scalability: Write highly concurrent, multi-threaded Java backend services capable of handling real-time AI inference and data streaming.<br />Required Skills:<br />Education: Bachelor’s degree or higher (or currently pursuing) in Computer Science, Artificial Intelligence, Engineering, or a highly quantitative field.<br />AI &amp; LLM Foundational Knowledge:<br />Hands-on experience or academic projects working with LLM APIs (OpenAI, Anthropic, Ollama, Hugging Face).<br />Familiarity with RAG (Retrieval-Augmented Generation) architectures and prompt engineering.<br />Understanding of vector databases (e.g., Pinecone, Milvus, Chroma, or pgvector).<br />Backend &amp; Concurrency (Java/Spring):<br />Strong experience with Spring Boot, Spring WebFlux (for reactive/streaming APIs), and MVC.<br />Solid understanding of Core Java, multithreaded programming, and asynchronous task execution (essential for managing AI model call latency).<br />Experience writing Unit tests using JUnit and mocking frameworks.<br />Frontend (React/Modern JS):<br />Experience with JavaScript/TypeScript, HTML5, CSS, and modern client-side frameworks (preferably ReactJS or Next.js for building AI chat interfaces and dashboards).<br />Ability to work on real-time web applications (WebSockets, Server-Sent Events for streaming AI responses).<br />Soft Skills &amp; Mindset:<br />Excellent problem-solving skills and a strong mathematical/logical foundation.<br />Innovative drive and a passion for quick mastery of emerging AI technologies, frameworks, and tools.<br />Self-motivated, naturally curious, and able to thrive in a fast-paced, client-focused environment.<br />Skilled in technical writing, including documenting AI system architectures and data flows.<br />Additional Skills (Nice to Haves):<br />AI Frameworks: Experience with AI orchestration frameworks like LangChain, LlamaIndex, or Spring AI.<br />Python: Familiarity with Python (the primary language for data science/AI scripting) in addition to Java.<br />Data &amp; Databases:<br />Experience writing SQL and stored procedures.<br />Familiarity with relational databases (MySQL, PostgreSQL) and NoSQL databases.<br />DevOps &amp; Deployment:<br />Experience with Git, Maven, and CI/CD tools (Jenkins, GitHub Actions).<br />Familiarity with cloud platforms (AWS, Azure, or GCP) and Docker containers for deploying AI models/services.<br />Basic knowledge of Unix/Linux environments</span></p><p></p><h2><br /> </h2><p><span>#LI-MS1</span></p>&amp;#xa;&amp;#xa;<p style=\"text-align:left\"><i>At Copart, we are focused on harnessing the power of diversity, inclusion, and collaboration. By embracing diverse perspectives, we open doors to innovation and unleash the full potential of our team. We are dedicated to fostering a workplace where everyone feels appreciated, included, and inspired to grow and contribute meaningfully.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">E-Verify Program Participant: Copart participates in the Department of Homeland Security U.S. Citizenship and Immigration Services&#39; E-Verify program (For U.S. applicants and employees only). Please click below to learn more about the E-Verify program:</p><ul><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf\" target=\"_blank\">E-verify Participation</a></li><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/IER_RightToWorkPoster%20Eng_Es.pdf\" target=\"_blank\">Right to Work</a></li></ul><p style=\"text-align:inherit\"></p>",
+    "location": "Dallas, TX - Headquarters",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-27",
+    "timeType": "Full time",
+    "jobReqId": "JR101987",
+    "jobPostingId": "Software-Engineering-Intern_JR101987",
+    "jobPostingSiteId": "Copart",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/copart/copart/sidebarimage/db44e9b276b1100b2c4efbc4d41f0000",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US TX IT Software QA 726",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101987",
+    "questionnaireId": "4200d28175a61000f967e5a0c16b0000"
+  },
+  "hiringOrganization": {
+    "name": "Copart, Inc",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Corp Support Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Corp-Support-Intern_JR107800",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 23 Days Ago",
+      "startDate": "2026-05-04"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109089",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-05-22"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106605",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-01-30"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106983",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-11"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107699",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-27"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109217",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted Today",
+      "startDate": "2026-05-27"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106129",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-12-22"
+    }
+  ],
+  "userAuthenticated": false
+}
