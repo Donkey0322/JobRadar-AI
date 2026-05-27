@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "2a835fcd17281001528c0fb6a03a0000",
+    "title": "AI Intern",
+    "jobDescription": "<p>SWBC is seeking talented students to join our College Intern Program in San Antonio, Texas. This is an exciting opportunity for college students who are motivated and eager to learn within their educational field of study.</p><p></p><p>We’re seeking an AI Intern to support the design, development, and operationalization of Generative AI and machine learning solutions. This internship will focus on building AI-powered applications and product features, contributing to MLOps workflows, and helping deploy and monitor models in an AWS environment. The ideal candidate has hands-on experience with Python and foundational ML/GenAI concepts, and is eager to learn how production AI systems are built and maintained.</p><p></p><p><i><b>Why you&#39;ll love this role:</b></i></p><p>As an SWBC intern, you will be learning on the job in real-time from talented professionals within the financial services industry. We will develop, teach, mentor, and support your efforts throughout the internship. Our interns are given projects that are impactful and meaningful to SWBC, so interns will feel they are a valued team member of our SWBC family.</p><p></p><p><i><b>Essential duties include the following:</b></i></p><ul><li>Build AI-enabled applications and prototypes leveraging generative AI and ML capabilities (e.g., retrieval-augmented generation, summarization, classification).</li><li>Assist with MLOps pipelines: data/model versioning, training workflows, evaluation, packaging, and deployment processes.</li><li>Support deployment and operations of models/services on AWS, including environment setup, basic CI/CD integration, and operational readiness tasks.</li><li>Develop and maintain Python components such as APIs, inference services, evaluation scripts, and tooling.</li><li>Participate in model testing and evaluation, including prompt experiments, performance benchmarking, and quality monitoring.</li><li>Help document designs, experiments, and results; contribute to team standards and best practices.</li><li>Collaborate with engineers and product stakeholders to translate requirements into deliverable AI features.</li></ul><p></p><p><i><b>Serious candidates will possess the minimum qualifications:</b></i></p><ul><li>Currently pursuing a degree in Computer Science, Engineering, Data Science, or a related field (undergraduate or graduate welcome).</li><li>Expected graduation date of December 2026 or later.</li><li>Some hands-on experience with: Python (e.g., scripting, notebooks, basic software practices), ML/GenAI fundamentals (e.g., embeddings, transformers concepts, evaluation basics)</li><li>Familiarity with at least one of the following: AWS (e.g., S3, IAM, Lambda, EC2, CloudWatch, ECR, SageMaker, Jupyter notebooks), Basic API development (Flask/FastAPI), Git and collaborative development workflows</li><li>Strong communication skills and ability to work effectively in a corporate, cross-functional environment.</li><li>Exposure to MLOps tools and practices (CI/CD, model registries, experiment tracking, monitoring).</li><li>Experience with LLM application patterns, such as: Retrieval-Augmented Generation (RAG), Prompt engineering, prompt evaluation, guardrails</li><li>Familiarity with containerization (Docker) and orchestration concepts.</li><li>Understanding of software engineering fundamentals (unit tests, code reviews, documentation).</li><li>Deliver working prototypes or production-ready components that demonstrate measurable improvements (e.g., faster iteration, higher quality responses, improved reliability).</li><li>Contribute to repeatable, documented workflows for building and deploying AI solutions.</li><li>Collaborate effectively with the team and communicate progress clearly.</li></ul><p></p><p><i><b>SWBC offers*: </b></i></p><ul><li>Competitive overall compensation package</li><li>Work/Life balance </li><li>Employee engagement activities and recognition awards </li><li>Years of Service awards</li><li>Career enhancement and growth opportunities </li><li>Leadership Academy and Mentor Program</li><li>Continuing education and career certifications </li><li>Variety of healthcare coverage options</li><li>Traditional and Roth 401(k) retirement plans </li><li>Lucrative Wellness Program</li></ul><p></p><p><i>*Based upon employee eligibility </i></p><p> </p><p><i><b>Additional Information:</b></i></p><p> </p><p>SWBC is a Substance-Free Workplace and requires pre-employment drug testing.</p><p> </p><p>Please note, SWBC does not hire tobacco users as allowed by law.</p><p> </p><p>To learn more about SWBC, visit our website at www.SWBC.com. If interested, please click the appropriate apply button.</p>",
+    "location": "San Antonio, TX",
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-27",
+    "timeType": "Part time",
+    "jobReqId": "R0014877",
+    "jobPostingId": "AI-Intern_R0014877",
+    "jobPostingSiteId": "swbccareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Service Center III - Shavano Park",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/AI-Intern_R0014877",
+    "questionnaireId": "d2c20ca8ce710141b719b679f41ce487"
+  },
+  "hiringOrganization": {
+    "name": "005 Southwest Business Corporation",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

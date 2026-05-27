@@ -1,0 +1,47 @@
+{
+  "jobPostingInfo": {
+    "id": "31e70f3ef133100157e998b841f00000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "Are you a passionate, hard-working software enthusiast ready to address some of the largest supply chain challenges in the world? Are you looking to join an outstanding team that crafts innovative software solutions to deliver products to your front door at lightning speed? If so, we’re looking for you! As a software engineer at Dematic, you will tackle some of the most daring and exciting logistics projects in the world. You will work alongside other outstanding professionals to implement large, complex coordinated business solutions for some of the world’s leading brands!<br><br>Sound like you? Come join us and get ready to make a difference!<p></p><h1><b>We offer:</b></h1><ul><li><span>Career Development</span></li><li><span>Competitive Compensation and Benefits </span></li><li><span>Pay Transparency </span></li><li><span>Global Opportunities </span></li></ul><p></p><p>Learn More Here: <a href=\"https://www.dematic.com/en-us/about/careers/what-we-offer\" target=\"_blank\">https://www.dematic.com/en-us/about/careers/what-we-offer</a></p><p></p><p><i>Dematic provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws. </i></p><p></p><p><i>This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.</i></p><p></p><p>The hourly rate for this role, at the time of posting, is estimated to be within the range below based on class standing. Final compensation will be determined by various factors such as work location, experience, knowledge, and skills.</p><ul><li>Sophomore: $20 - $24/Hour</li><li>Junior: $21 - $27/Hour</li><li>Senior: $23 - $29/Hour</li><li>Master&#39;s: $26 - $33/Hour</li></ul><p style=\"text-align:inherit\"></p><h1><b>Tasks and Qualifications:</b></h1><h2><b>What You Will Be Doing in this Role:</b></h2><ul><li>Contribute to elegant solutions for some of the most complex material handling and logistics projects in the world</li><li>Setup of professional software development environment using standard tech stack and development tools</li><li>Develop, configure, and unit test software code</li><li>Build test scripts, support functional validation tests using software emulation tools</li><li>Collaborate with multi-functional, Agile teams to enhance features and functionality</li><li>Opportunity to travel across North America to customer sites to validate system functionality and testing</li><li>Works within a team while under close developer mentorship</li><li>Proactively seeks assistance and works with peers to tackle problems</li><li>Build skill level through certifications and training</li><li>Working with technologies such as Java EE, Wildfly, MSSQL/Oracle, GWT, Python, GitHub</li></ul><h2></h2><h2><b>What We Are Looking For:</b></h2><ul><li>Enrolled in BS in Computer Science, Computer Information Systems, or other related engineering degree</li><li>Basic knowledge in object-oriented programming concepts</li><li>Java EE education and training</li><li>Basic knowledge of at least 1 operating systems</li><li>Hands on experience in software development and IT (Preferred)</li><li>Relational database knowledge and experience (Preferred)</li></ul><p>#li-pp1</p><p></p>",
+    "location": "Grand Rapids, MI, United States",
+    "additionalLocations": [
+      "Wauwatosa, WI, United States",
+      "Henrietta, NY, United States",
+      "Atlanta, GA, United States",
+      "Plano, TX, United States"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-05-27",
+    "timeType": "Full time",
+    "jobReqId": "JR-0092762",
+    "jobPostingId": "Software-Engineering-Intern_JR-0092762",
+    "jobPostingSiteId": "KION_SCS",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/kiongroup/kion_scs/sidebarimage/ba00b4f3bf5010019c3ccba066680002",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Grand Rapids, MI, United States",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kiongroup.wd3.myworkdayjobs.com/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Engineering-Intern_JR-0092762",
+    "questionnaireId": "90b8915caea31001447e9ed62fa00000"
+  },
+  "hiringOrganization": {
+    "name": "Dematic Corp. (ILD-US)",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
