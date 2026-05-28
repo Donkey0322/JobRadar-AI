@@ -1247,18 +1247,6 @@
     ]
   },
   {
-    "name": "aqr",
-    "ats": "greenhouse",
-    "identifier": "aqr",
-    "domain": "https://careers.aqr.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/aqr/jobs",
-    "urls": [
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521"
-    ]
-  },
-  {
     "name": "aquaticcapitalmanagement",
     "ats": "greenhouse",
     "identifier": "aquaticcapitalmanagement",
@@ -3321,6 +3309,9 @@
     "urls": [
       "https://careers.airbnb.com/positions/7453837?gh_jid=7453837",
       "https://careers.airbnb.com/positions/7773917?gh_jid=7773917",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521",
       "https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137",
       "https://careers.datadoghq.com/detail/7406578/?gh_jid=7406578",
       "https://careers.duolingo.com/jobs/8150883002?gh_jid=8150883002",
@@ -7349,12 +7340,12 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36602",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36885",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36914",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36920",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36919",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36923",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36917",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36919",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36920",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36921",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36922"
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36922",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36923"
     ]
   },
   {
@@ -8607,7 +8598,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/globalizationpartners/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/globalizationpartners/jobs/7714834003",
-      "https://job-boards.greenhouse.io/globalizationpartners/jobs/7720641003"
+      "https://job-boards.greenhouse.io/globalizationpartners/jobs/7720641003",
+      "https://job-boards.greenhouse.io/globalizationpartners/jobs/7751267003"
     ]
   },
   {
@@ -10065,7 +10057,8 @@
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153686008",
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5153898008",
       "https://job-boards.greenhouse.io/internshiplist2000/jobs/5179078008",
-      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5185232008"
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5185232008",
+      "https://job-boards.greenhouse.io/internshiplist2000/jobs/5184158008"
     ]
   },
   {
@@ -10359,8 +10352,8 @@
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/MAKE-2026-Software-Engineering-Intern-Co-Op_R-031634",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-Any-City/Technology-2026-Fall-Co-Op_R-029591",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/J-J-Technology-XENA-Software-Engineering-Off-Cycle-Co-Op---March-to-September-2026_R-036152",
-      "https://jj.wd5.myworkdayjobs.com/jj/job/Irvine-California-United-States-of-America/CDS-EP-MedTech-Summer-Intern_R-056163",
-      "https://jj.wd5.myworkdayjobs.com/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Testing-Co-Op---Fall-2026_R-057551"
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Testing-Co-Op---Fall-2026_R-057551",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Irvine-California-United-States-of-America/CDS-EP-MedTech-Summer-Intern_R-056163"
     ]
   },
   {
@@ -16957,12 +16950,12 @@
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Cloud-Centre-of-Excellence-Coordinator_JR00124445",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Software-Engineer--Fall-2026-_JR00123596",
+      "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Software-Engineer--Fall-2026-_JR00124419-1",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Waterloo-Ontario/Associate-Software-Engineer---Mainframe_JR00123927",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Kansas-City-Missouri/Software-Engineering-Intern---Summer-2026_JR00117066",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Associate-Business---Systems-Analyst--Fall-2026-_JR00123875",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/Corporate-Information-Services-Intern---Summer-2026_JR00120370",
-      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213",
-      "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Software-Engineer--Fall-2026-_JR00124419-1"
+      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213"
     ]
   },
   {
