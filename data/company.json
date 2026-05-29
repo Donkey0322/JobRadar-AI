@@ -1247,6 +1247,18 @@
     ]
   },
   {
+    "name": "aqr",
+    "ats": "greenhouse",
+    "identifier": "aqr",
+    "domain": "https://careers.aqr.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/aqr/jobs",
+    "urls": [
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
+      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521"
+    ]
+  },
+  {
     "name": "aquaticcapitalmanagement",
     "ats": "greenhouse",
     "identifier": "aquaticcapitalmanagement",
@@ -1461,12 +1473,13 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Optical-Product-Engineering--_J-00327849",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science-internship--hardware-software-interface-modeling_J-00341295",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00339667",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Electrical-Engineering---Software-Engineering-internship--network-jtag-solution_J-00340544",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Software-Engineering---Information-Management-internship--Mendix-application-improvements_J-00338856",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Product---Software-Engineer-Internship_J-00341934",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
       "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071",
-      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Electrical-Engineering---Software-Engineering-internship--network-jtag-solution_J-00340544"
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science---Software-Engineering-Internship---IT-Innovation---MX-Cluster-Development_J-00335687"
     ]
   },
   {
@@ -2672,9 +2685,10 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000128918241",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128919879",
       "https://jobs.smartrecruiters.com/BoschGroup/744000128970935",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000129129189",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129100869",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129113452",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000129100869"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129129189",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129133745"
     ]
   },
   {
@@ -3313,9 +3327,6 @@
     "urls": [
       "https://careers.airbnb.com/positions/7453837?gh_jid=7453837",
       "https://careers.airbnb.com/positions/7773917?gh_jid=7773917",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-implementation-trading-and-portfolio-finance-summer-analyst/7022101?gh_jid=7022101",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-portfolio-solutions-group-summer-analyst/7055103?gh_jid=7055103",
-      "https://careers.aqr.com/jobs/open-positions/greenwich-ct/2026-research-summer-analyst/7014521?gh_jid=7014521",
       "https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137",
       "https://careers.datadoghq.com/detail/7406578/?gh_jid=7406578",
       "https://careers.duolingo.com/jobs/8150883002?gh_jid=8150883002",
@@ -8335,11 +8346,12 @@
       "https://gen.wd1.myworkdayjobs.com/careers/job/Brno-Czech/Software-QA-Engineer-Intern_55280-1",
       "https://gen.wd1.myworkdayjobs.com/careers/job/Brno-Czech/Software-QA-Engineer-Intern_55281-1",
       "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/AI--First-Mobile-Engineering-Internship_55289-1",
+      "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/AI--First-Mobile-Engineering-Internship_55389-1",
       "https://gen.wd1.myworkdayjobs.com/careers/job/USA---Arizona-Tempe/Software-Engineering-Intern_55324",
       "https://gen.wd1.myworkdayjobs.com/careers/job/USA---California-Mountain-View/Software-Engineering-Intern_55157-1",
       "https://gen.wd1.myworkdayjobs.com/careers/job/USA---New-York-New-York/Intern--Software-Engineering---Summer-Internship_55163-1",
       "https://gen.wd1.myworkdayjobs.com/careers/job/USA---New-York-New-York/Intern--Software-Engineering---Summer-Internship_55246",
-      "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/AI--First-Mobile-Engineering-Internship_55389-1"
+      "https://gen.wd1.myworkdayjobs.com/careers/job/CZE---Prague/Red-Team-Summer-Intern---AI---Offensive-Security_55446"
     ]
   },
   {
@@ -9081,11 +9093,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -9230,6 +9242,7 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26004773",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26004883",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26005753",
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26006003",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25024968",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25025030",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25025034",
@@ -9240,8 +9253,7 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25026025",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25026027",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25026032",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25026791",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26006003"
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/25026791"
     ]
   },
   {
