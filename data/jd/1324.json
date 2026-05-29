@@ -1,0 +1,45 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4264591009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4154680009,
+  "location": {
+    "name": "San Jose"
+  },
+  "metadata": null,
+  "id": 4264591009,
+  "updated_at": "2026-05-28T20:25:33-04:00",
+  "requisition_id": "83",
+  "title": "Software Engineer Intern",
+  "company_name": "SK hynix memory solutions America Inc.",
+  "first_published": "2026-05-28T20:25:33-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Company:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;At SK Hynix Memory Solution,&lt;/strong&gt;&amp;nbsp;we&#39;re at the forefront of semiconductor innovation, developing advanced memory solutions that power everything from smartphones to data centers. As a global leader in DRAM and NAND flash technologies, we drive the evolution of advancing mobile technology, empowering cloud computing, and pioneering future technologies. Our cutting-edge memory technologies are essential in today&#39;s most advanced electronic devices and IT infrastructure, enabling enhanced performance and user experiences across the digital landscape.&lt;/p&gt;\n&lt;p&gt;We&#39;re looking for innovative minds to join our mission of shaping the future of technology. At SK Hynix Memory, you&#39;ll be part of a team that&#39;s pioneering breakthrough memory solutions while maintaining a strong commitment to sustainability. We&#39;re not just adapting to technological change – we&#39;re driving it, with significant investments in artificial intelligence, machine learning, and eco-friendly solutions and operational practices. As we continue to expand our market presence and push the boundaries of what&#39;s possible in semiconductor technology, we invite you to be part of our journey to creating the next generation of memory solutions that will define the future of computing.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;: As a software engineer intern at SKHMSA, you will be involved in the storage test software development and validation tests. The software design and development are based on the Industry standard specification and firmware internal algorithms.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Developing, coding, and debugging software tools using various programming languages and technologies, often focusing on areas C++, JavaScript, Python, etc.&lt;/li&gt;\n&lt;li&gt;Designing and implementing storage test tools tailored to specific needs, including software design, library, and user facing APIs.&lt;/li&gt;\n&lt;li&gt;Automating tasks and processes, such as build and deployment, test integration, and performance indicator generation.&lt;/li&gt;\n&lt;li&gt;Testing and validating the functionality, performance, and scalability of the developed tools.&lt;/li&gt;\n&lt;li&gt;Creating and maintaining technical documentation for the developed tools, including user manuals, design documents, and release notes.&lt;/li&gt;\n&lt;li&gt;AI-assisted software development and documentation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Desired Skills and Experience:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled or Bachelor&#39;s or Master&#39;s degree in Computer Science, Software Engineering, or a related field.&lt;/li&gt;\n&lt;li&gt;Proficient in software programming (C/C++, scripting languages like Python, JavaScript, TypeScript, node.js.)&lt;/li&gt;\n&lt;li&gt;Data structures and algorithms, source control, databases, operating systems, networking basics, testing and debugging.&lt;/li&gt;\n&lt;li&gt;Hands-on experience in debugging software.&lt;/li&gt;\n&lt;li&gt;Good oral and written skills for communication and documentation.&lt;/li&gt;\n&lt;li&gt;Self-motivated, good team player, agile and quick learner.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;COMPENSATION: $35/hr - $45/hr&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4015830009,
+      "name": "Firmware",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4015284009,
+      "name": "San Jose",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
