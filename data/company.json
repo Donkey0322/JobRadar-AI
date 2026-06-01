@@ -1476,13 +1476,13 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science---Software-Engineering-internship--observability-and-debugging-platform_J-00340560",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science-internship--hardware-software-interface-modeling_J-00341295",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Data-Science---Software-Engineering-internship--software-automation-development_J-00339667",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Electrical-Engineering---Computer-Engineering-internship--test-bench-automation-FPGA_J-00336427",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Electrical-Engineering---Software-Engineering-internship--network-jtag-solution_J-00340544",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Software-Engineering---Information-Management-internship--Mendix-application-improvements_J-00338856",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Product---Software-Engineer-Internship_J-00341934",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
-      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071",
-      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Electrical-Engineering---Computer-Engineering-internship--test-bench-automation-FPGA_J-00336427"
+      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071"
     ]
   },
   {
@@ -8285,13 +8285,13 @@
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/OH05-01-Beachwood-Science-Park-Drive/Software-Engineering-Intern---Workflow-Platform_R4036410-2",
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/OH05-01-Beachwood-Science-Park-Drive/Software-Engineering-Intern_R4036411-1",
       "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Salt-Lake-City/Software-Engineering-Intern-Summer-2026_R4028914-1",
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Ciudad-Juarez/EID-Intern---Automation_R4040755-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Krakow/Consultant--Cloud-Operations--Solutions-for-Enterprise-Imaging_R4037571-2",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Krakow/Software-Engineer-Intern_R4040613",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Phoenix/Engineering-Intern_R4039198-2",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Remote/Information-Technology-Development-Program---Internship_R4027636-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-Software-Engineering--f-m-d-_R4037928-1",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-in-Software-Architecture---Production-IT--Bachelor-Master--6-Months-_R4037285-1",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Ciudad-Juarez/EID-Intern---Automation_R4040755-1"
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Internship-in-Software-Architecture---Production-IT--Bachelor-Master--6-Months-_R4037285-1"
     ]
   },
   {
@@ -18297,6 +18297,16 @@
     ]
   },
   {
+    "name": "usbank",
+    "ats": "workday",
+    "identifier": "usbank-us_bank_careers",
+    "domain": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers",
+    "page": "https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/us_bank_careers/jobs",
+    "urls": [
+      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Brookfield-WI/Mainframe-Software-Engineering-Apprentice_2026-0014192"
+    ]
+  },
+  {
     "name": "usertesting",
     "ats": "workday",
     "identifier": "usertesting-usertesting",
@@ -18937,7 +18947,8 @@
     "domain": "https://careers-walterpmoore.icims.com",
     "page": "https://api.icims.com/v1/companies/walterpmoore/jobs",
     "urls": [
-      "https://careers-walterpmoore.icims.com/jobs/4046/job?mobile=true&needsRedirect=false"
+      "https://careers-walterpmoore.icims.com/jobs/4046/job?mobile=true&needsRedirect=false",
+      "https://careers-walterpmoore.icims.com/jobs/4125/job?mobile=true&needsRedirect=false"
     ]
   },
   {
