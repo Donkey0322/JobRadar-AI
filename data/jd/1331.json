@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "1365c272e0441000cb7144dca7730000",
+    "title": "Intern, Software Engineering - Data Marketplace",
+    "jobDescription": "<p>LiveRamp is the leading data connectivity platform. We believe connected data has the power to change the world. Our platform powers insights and experiences centered around the needs of real people, and in ways that keep the Internet open for all. LiveRampers thrive on building together with curiosity and humility—and have a good bit of fun along the way. We’re always looking for smart, kind, and creative people to grow our team and impact.<br /><br />Mission: LiveRamp makes it safe and easy for businesses to use data effectively.<br /><br />Get ready for the best learning experience of your life. You will receive the same orientation training as our full-time engineers, you will be matched with an individual mentor, and you will be committing production code by the end of your first week. In the course of your internship or Co-op, you will be tasked with one or more mission-critical projects and make meaningful contributions to LiveRamp&#39;s success. Also, if our previous interns are any guides, you will have a ton of fun in the process!<br /><br />Internships are 12 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your internship.<br /><br />Co-ops range between 12-24 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your Co-op.</p><p style=\"text-align:inherit\"></p><br /><p style=\"text-align:inherit\"></p><p><span>As a Software Generalist, you will help bring this vision to life by tackling your projects head-on. It’s hard to say what tomorrow&#39;s challenge may be, but in this role, you’ll be happy to hack away at it, whether it’s a TypeScript and React web application, a big data workflow in Spark, or something completely new. You’ll also collaborate with other engineers to execute a diverse range of projects.</span></p><p></p><p><span>On the engineering team at LiveRamp, we value ownership and individual contribution within a collaborative environment. Be ready to leave your ego at the door, roll up your sleeves, and start solving huge challenges as soon as you begin.</span></p><p></p><p><b>You will:</b></p><ul><li><p><span>Design and build sophisticated systems to process and visualize massive amounts of data.</span></p></li><li><p><span>Make mistakes. Fix them, learn from them, and make different ones next time.</span></p></li><li><p><span>Be at the forefront of technology innovation. Keep LiveRamp on the cutting edge of industry tools and best practices.</span></p></li><li><p><span>Push your teammates to become stronger engineers. They will do the same for you.</span></p></li><li><p><span>Take our engineering, business development, and culture in a whole new direction during one of our four Hackweeks every year.</span></p></li></ul><p></p><p><b>About you:</b></p><ul><li><p><span>Excited by the idea of building scalable and reliable products.</span></p></li><li><p><span>A talented new grad looking to start a full-time role in Summer 2025.</span></p></li><li><p><span>Comfortable working in multiple languages, frameworks, and environments.</span></p></li><li><p><span>Desire to work in San Francisco. </span></p></li><li><p><span>Possess a startup personality: intelligent, ethical, friendly, hard-working, and productive.</span></p></li><li><p><span>A data enthusiast who wants to be surrounded by brilliant teammates and enormous challenges.</span></p></li></ul><p></p><p><span>The approximate hourlyl base compensation range is $35.00</span><span> to $53.00</span><span>. The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant&#39;s experience, knowledge, skills, and abilities, geography, as well as internal equity among our team.</span></p><p>More about us: </p><p></p><p>LiveRamp’s mission is to connect data in ways that matter, and doing so starts with our people. We know that inspired teams enlist people from a blend of backgrounds and experiences. And we know that individuals do their best when they not only bring their full selves to work but feel like they truly belong. Connecting LiveRampers to new ideas and one another is one of our guiding principles—one that informs how we hire, train, and grow our global team across nine countries and four continents. Click <a target=\"_blank\" href=\"https://liveramp.com/diversity-inclusion-belonging/\">here</a> to learn more about Diversity, Inclusion, &amp; Belonging (DIB) at LiveRamp. </p><p></p><p>We use automated decision systems (ADS) as part of our recruitment and hiring process. If you require an accommodation or believe that the use of an ADS may create a barrier to your application or participation in the hiring process due to a disability or other protected characteristic, please let us know. We are committed to providing reasonable accommodations and ensuring an equitable hiring experience for all candidates.</p>",
+    "location": "San Francisco",
+    "additionalLocations": [
+      "New York",
+      "Little Rock"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-01",
+    "timeType": "Full time",
+    "jobReqId": "JR012200",
+    "jobPostingId": "Intern--Software-Engineering---Data-Marketplace_JR012200",
+    "jobPostingSiteId": "LiveRampCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "San Francisco",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200",
+    "questionnaireId": "1dc1a1e391441000ca46a85cf3b30000"
+  },
+  "hiringOrganization": {
+    "name": "C0035 LiveRamp, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
