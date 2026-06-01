@@ -4493,6 +4493,16 @@
     ]
   },
   {
+    "name": "cff",
+    "ats": "workday",
+    "identifier": "cff-explore-career-opportunities",
+    "domain": "https://cff.wd1.myworkdayjobs.com/explore-career-opportunities",
+    "page": "https://cff.wd1.myworkdayjobs.com/wday/cxs/cff/explore-career-opportunities/jobs",
+    "urls": [
+      "https://cff.wd1.myworkdayjobs.com/explore-career-opportunities/job/Bethesda-MD---National-Headquarters/Application-Development-Intern_JR100677"
+    ]
+  },
+  {
     "name": "cfins",
     "ats": "icims",
     "identifier": "cfins",
@@ -4668,7 +4678,9 @@
     "page": "https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/cisco_careers/jobs",
     "urls": [
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Maynard-Massachusetts-US/Associate-Application-Engineer-II--Co-Op----United-States_2011705",
-      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Intern----United-States_2007170"
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Intern----United-States_2007170",
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-I--Intern----United-States_2001254",
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Data-AI-Intelligent-Systems-II--Intern----United-States_2001127"
     ]
   },
   {
@@ -8374,6 +8386,16 @@
     ]
   },
   {
+    "name": "genbio",
+    "ats": "lever",
+    "identifier": "genbio",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/genbio?mode=json",
+    "urls": [
+      "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"
+    ]
+  },
+  {
     "name": "generac",
     "ats": "workday",
     "identifier": "generac-external",
@@ -9114,11 +9136,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -11344,6 +11366,16 @@
     ]
   },
   {
+    "name": "kong",
+    "ats": "ashby",
+    "identifier": "kong",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/kong",
+    "urls": [
+      "https://jobs.ashbyhq.com/kong/1de58755-b134-4223-9caf-54ee7f376a5b/application"
+    ]
+  },
+  {
     "name": "kp.taleo.net",
     "ats": "custom",
     "identifier": "kp.taleo.net",
@@ -11819,7 +11851,8 @@
       "https://liveramp.wd5.myworkdayjobs.com/en-US/LiveRampCareers/job/New-York/Intern--Software-Engineer---Pixel-Serving_JR012201",
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012195",
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012196",
-      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200"
+      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200",
+      "https://liveramp.wd5.myworkdayjobs.com/en-US/LiveRampCareers/job/San-Francisco/Salesforce-AI-Developer-Intern_JR012226-1"
     ]
   },
   {
@@ -13921,7 +13954,8 @@
       "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
       "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
       "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
-      "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply"
+      "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d/apply",
+      "https://jobs.lever.co/palantir/e24202f1-fccd-470f-b001-e24d901735a4/apply"
     ]
   },
   {
