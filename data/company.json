@@ -2606,8 +2606,8 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/CAN---Richmond-Canada/Data-Science-Business-Operations-Intern_JR2025476387",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Millennium-Space-Systems-Summer-2026-Internship-Program---Ground-Software-Engineering_JR2026498959-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Technology-Innovation---Graduate-Researcher-Program---Boeing-Commercial-Airplanes--BCA--Computational-Geometry-Mathematician-Intern_JR2025470096",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern--Operating-System--Embedded-Software-_JR2026509973-2",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/CAN---Richmond-Canada/Software-Development-Intern_JR2026511453-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/CAN---Richmond-Canada/Software-Development-Intern_JR2026511453-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern--Operating-System--Embedded-Software-_JR2026509973-2"
     ]
   },
   {
@@ -7788,11 +7788,11 @@
     "domain": "https://flir.wd1.myworkdayjobs.com/flircareers",
     "page": "https://flir.wd1.myworkdayjobs.com/wday/cxs/flir/flircareers/jobs",
     "urls": [
+      "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Montreal-QC-TDY/Concepteur-de-logiciels-Sherlock---Stage-----Software-Designer-Sherlock--Co-op_REQ34256",
       "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Eagan-MN/Engineering-Intern---AI-Assisted-Mobile-Testing---Migration_REQ34750",
       "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineer-Internship_REQ32988",
       "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship_REQ32989",
-      "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Newark-CA/Software-Engineering-Intern_REQ33272-1",
-      "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Montreal-QC-TDY/Concepteur-de-logiciels-Sherlock---Stage-----Software-Designer-Sherlock--Co-op_REQ34256"
+      "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Newark-CA/Software-Engineering-Intern_REQ33272-1"
     ]
   },
   {
@@ -9114,11 +9114,11 @@
     ]
   },
   {
-    "name": "hbkcapitalmanagement",
+    "name": "hbk",
     "ats": "greenhouse",
-    "identifier": "hbkcapitalmanagement",
+    "identifier": "hbk",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -11818,7 +11818,8 @@
     "urls": [
       "https://liveramp.wd5.myworkdayjobs.com/en-US/LiveRampCareers/job/New-York/Intern--Software-Engineer---Pixel-Serving_JR012201",
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012195",
-      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012196"
+      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012196",
+      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200"
     ]
   },
   {
@@ -11993,8 +11994,8 @@
     "urls": [
       "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_2026516",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Calibration-and-Test-Software-Engineer-Co-op-Intern_20251385",
-      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_20251390",
-      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer--Co-op-student-_2026455"
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer--Co-op-student-_2026455",
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Process-Software-Automation-Co-op-Intern_20251390"
     ]
   },
   {
