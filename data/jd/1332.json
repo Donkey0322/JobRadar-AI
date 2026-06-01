@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "e47a2378933a1000cb4fab0504c80000",
+    "title": "Salesforce AI Developer Intern",
+    "jobDescription": "<p>LiveRamp is the leading data connectivity platform. We believe connected data has the power to change the world. Our platform powers insights and experiences centered around the needs of real people, and in ways that keep the Internet open for all. LiveRampers thrive on building together with curiosity and humility—and have a good bit of fun along the way. We’re always looking for smart, kind, and creative people to grow our team and impact.<br /><br />Mission: LiveRamp makes it safe and easy for businesses to use data effectively.<br /><br />Get ready for the best learning experience of your life. You will receive the same orientation training as our full-time engineers, you will be matched with an individual mentor, and you will be committing production code by the end of your first week. In the course of your internship or Co-op, you will be tasked with one or more mission-critical projects and make meaningful contributions to LiveRamp&#39;s success. Also, if our previous interns are any guides, you will have a ton of fun in the process!<br /><br />Internships are 12 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your internship.<br /><br />Co-ops range between 12-24 weeks long. Should we want to extend you a full-time offer after you graduate, we ask that you would be willing to consider this at the end of your Co-op.</p><p style=\"text-align:inherit\"></p><br /><p style=\"text-align:inherit\"></p><p><b>You will:</b></p><ul><li><p><span>Support Salesforce development and administration activities across Sales Cloud and Revenue Cloud environments</span></p></li><li><p><span>Assist with configuration, testing, and enhancement of Flows, validation rules, reports, dashboards, and basic Apex/LWC components</span></p></li><li><p><span>Work with large datasets to help improve data quality, enrichment, and reporting</span></p></li><li><p><span>Support AI-driven initiatives using tools such as Salesforce AI capabilities, GPT-based tools, data enrichment platforms, and workflow automation</span></p></li><li><p><span>Analyze business processes and identify opportunities for automation and operational efficiency</span></p></li><li><p><span>Help document technical solutions, user stories, and system processes</span></p></li><li><p><span>Collaborate with Business Systems, Sales Ops, RevOps, and Engineering teams on GTM initiatives</span></p></li><li><p><span>Participate in QA/UAT testing and production support activities</span></p></li><li><p><span>Build dashboards and insights that help teams make data-driven decisions</span></p></li></ul><p></p><p><b>Your team will:<span> </span></b></p><p><span>This team supports the Salesforce ecosystem and adjacent business systems that enable go-to-market operations, reporting, and process scale. They partner across Business Systems, Sales Operations, Revenue Operations, and Engineering to deliver automation, improve data quality, and enhance operational visibility. They explore practical uses of AI, workflow automation, and analytics to help teams work more efficiently and make better decisions.</span><br /> </p><p><b>About you:<span> </span></b></p><ul><li><p><span>Basic understanding of Salesforce platform concepts (Objects, Fields, Flows, Reports, SOQL, Security Model)</span></p></li><li><p><span>Exposure to Salesforce development concepts such as Apex, Lightning Web Components (LWC), APIs, or integrations</span></p></li><li><p><span>Strong interest in AI, automation, analytics, and data-driven problem solving</span></p></li><li><p><span>Comfortable working with spreadsheets, datasets, and reporting tools</span></p></li><li><p><span>Familiarity with SQL, Python, or data visualization tools is a plus</span></p></li><li><p><span>Curious mindset with willingness to learn new technologies quickly</span></p></li><li><p><span>Strong analytical and problem-solving skills</span></p></li><li><p><span>Good communication and collaboration skills</span></p></li><li><p><span>Pursuing a degree in Computer Science, Information Systems, Data Science, Engineering, or related field</span></p></li></ul><p></p><p><span>The approximate hourly compensation range is $22.00 </span><span> to $30.00</span><span>. The actual offer, reflecting the total compensation package and benefits, will be determined by a number of factors including the applicant&#39;s experience, knowledge, skills, and abilities, geography, as well as internal equity among our team.</span></p><p>More about us: </p><p></p><p>LiveRamp’s mission is to connect data in ways that matter, and doing so starts with our people. We know that inspired teams enlist people from a blend of backgrounds and experiences. And we know that individuals do their best when they not only bring their full selves to work but feel like they truly belong. Connecting LiveRampers to new ideas and one another is one of our guiding principles—one that informs how we hire, train, and grow our global team across nine countries and four continents. Click <a target=\"_blank\" href=\"https://liveramp.com/diversity-inclusion-belonging/\">here</a> to learn more about Diversity, Inclusion, &amp; Belonging (DIB) at LiveRamp. </p><p></p><p>We use automated decision systems (ADS) as part of our recruitment and hiring process. If you require an accommodation or believe that the use of an ADS may create a barrier to your application or participation in the hiring process due to a disability or other protected characteristic, please let us know. We are committed to providing reasonable accommodations and ensuring an equitable hiring experience for all candidates.</p>",
+    "location": "San Francisco",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-01",
+    "timeType": "Full time",
+    "jobReqId": "JR012226",
+    "jobPostingId": "Salesforce-AI-Developer-Intern_JR012226-1",
+    "jobPostingSiteId": "LiveRampCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "San Francisco",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://liveramp.wd5.myworkdayjobs.com/LiveRampCareers/job/San-Francisco/Salesforce-AI-Developer-Intern_JR012226-1",
+    "questionnaireId": "1dc1a1e391441000ca46a85cf3b30000"
+  },
+  "hiringOrganization": {
+    "name": "C0035 LiveRamp, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
