@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "6ceb68f5a8d71000c7f7e3bc76550000",
+    "title": "2026 Fall Intern - Frontier Research, Prescient Design (AI for Drug Discovery)",
+    "jobDescription": "<p><u><b><b>2026 Fall Intern - Frontier Research, Prescient Design (AI for Drug Discovery)</b></b></u></p><p></p><p><b><b>Department Summary</b></b></p><p></p><p><span>The Frontier Research team within Prescient Design seeks exceptional graduate student interns with a demonstrated research background in machine learning or statistics, a passion for independent research and technical problem solving, and a proven ability to develop and implement ideas from research. Intern candidates should have a strong interest in decision theory and adaptive experimental design.</span></p><p></p><p><span>This internship position is located in</span><b><span> </span><b>South San Francisco, on site. </b></b></p><p></p><p><b><b>The Opportunity</b></b></p><ul><li><p><span>Participate in cutting-edge research in active simulation-based inference.</span></p></li><li><p><span>Collaborate with cross-functional teams to identify problem settings shared by impactful applications.</span></p></li><li><p><span>Develop well-documented code to facilitate adoption of the method.</span></p></li><li><p><span>Present results in the form of a publication, for submission to internal and external scientific venues.</span></p></li></ul><p></p><p><b><b>Program Highlights</b></b></p><ul><li><p><b><span>Intensive 12-week, full-time (40 hours per week) paid internship.</span></b></p></li><li><p><b><span>Program start date is in September (Fall).</span></b></p></li><li><p><b><span>A stipend, based on location, will be provided to help alleviate costs associated with the internship.</span></b></p></li><li><p><span>Ownership of challenging and impactful business-critical projects.</span></p></li><li><p><span>Work with some of the most talented people in the biotechnology industry.</span></p></li></ul><p></p><p><b><b>Who You Are (Required)</b></b></p><p></p><p><b><b>Required Education:</b></b></p><ul><li><p><span>Must be pursuing a PhD (enrolled student). </span></p></li></ul><p></p><p><b><b>Required Majors: </b></b></p><ul><li><p><span>Computer Science, Statistics, Applied Math, Physics, or related technical field. </span></p></li></ul><p></p><p><b><b>Required skills:</b></b></p><ul><li><p><span>Strong publication record and experience contributing to research communities, including journals and conferences like NeurIPS, AISTATS, ICML, and ICLR.</span></p></li><li><p><span>Strong software development skills in Python.</span></p></li><li><p><span>Ability to reason formally about explore-exploit tradeoffs in adaptive inference procedures.</span></p></li><li><p><span>Research experience in frameworks involving sequential decision making under uncertainty.</span></p></li></ul><p></p><p><b><b>Preferred knowledge, skills, and qualifications:</b></b></p><ul><li><p><span>General familiarity with simulation-based inference and causal inference is a plus.</span></p></li><li><p><span>Excellent communication, collaboration, and interpersonal skills.</span></p></li><li><p><span>Complements our culture and the standards that guide our daily behavior &amp; decisions: Integrity, Courage, and Passion.</span></p></li></ul><p></p><p><b><b>Relocation benefits are not available for this job posting.</b></b></p><p></p><p><span>The expected salary range for this position based on the primary location of California </span><span>is </span><span>$40.00-$50.00 hour. Actual pay will be determined based on experience, qualifications, geographic location, and other job-related factors permitted by law. This position also qualifies for paid holiday time off benefits.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Genentech is an equal opportunity employer. It is our policy and practice to employ, promote, and otherwise treat any and all employees and applicants on the basis of merit, qualifications, and competence. The company&#39;s policy prohibits unlawful discrimination, including but not limited to, discrimination on the basis of Protected Veteran status, individuals with disabilities status, and consistent with all federal, state, or local laws.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>If you have a disability and need an accommodation in relation to the online application process, please contact us by completing this form <a target=\"_blank\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdZWlsbfQOvFVIQgHE_iDzWUTlhZvj6FytIzjS7xq6IGh1H5g/viewform\">Accommodations for Applicants</a>.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+    "location": "South San Francisco",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-01",
+    "timeType": "Full time",
+    "jobReqId": "202605-113632",
+    "jobPostingId": "XMLNAME-2026-Fall-Intern---Frontier-Research--Prescient-Design--AI-for-Drug-Discovery-_202605-113632",
+    "jobPostingSiteId": "ROG-A2O-GENE",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "South San Francisco",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://roche.wd3.myworkdayjobs.com/ROG-A2O-GENE/job/South-San-Francisco/XMLNAME-2026-Fall-Intern---Frontier-Research--Prescient-Design--AI-for-Drug-Discovery-_202605-113632",
+    "questionnaireId": "ee32ce449f0c0160db14f2616401034e",
+    "supplementaryQuestionnaireId": "5aa5c92c98c11000bdd8cf938f310000",
+    "timeLeftToApply": "14 days left to apply",
+    "endDate": "2026-06-16",
+    "jobPostingEndDateAsText": "End Date: 16 June 2026"
+  },
+  "hiringOrganization": {
+    "name": "1000 Genentech, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

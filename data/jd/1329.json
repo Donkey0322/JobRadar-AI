@@ -1,0 +1,90 @@
+{
+  "id": "744000129584829",
+  "name": "AI Engineer (Internship) - Intelligent Question Bank Platform",
+  "uuid": "e5256ea0-297a-4b1e-8eec-20012f39d237",
+  "jobId": "229c38aa-3213-4551-a42a-316be64b5612",
+  "jobAdId": "32d3f595-c499-4e1d-97f2-252db56a799d",
+  "defaultJobAd": true,
+  "refNumber": "REF43Y",
+  "company": {
+    "name": "Accel Learning",
+    "identifier": "AccelLearning"
+  },
+  "location": {
+    "city": "Secaucus",
+    "region": "NJ",
+    "country": "us",
+    "address": "1317 Paterson Plank Road",
+    "postalCode": "07094",
+    "remote": true,
+    "hybrid": false,
+    "latitude": "40.7912014",
+    "longitude": "-74.0583615",
+    "fullLocation": "Secaucus, NJ, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "58b7e4ede4b0885c92cd99a0",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Accel Learning"
+    }
+  ],
+  "releasedDate": "2026-06-01T20:03:22.286Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AccelLearning/744000129584829-ai-engineer-internship-intelligent-question-bank-platform",
+  "applyUrl": "https://jobs.smartrecruiters.com/AccelLearning/744000129584829-ai-engineer-internship-intelligent-question-bank-platform?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AccelLearning/publication/e5256ea0-297a-4b1e-8eec-20012f39d237?dcr_ci=AccelLearning",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Accel Learning is a New Jersey-based tutoring and test-prep center serving 3,000+ students across&#xa0;K–12 and beyond. We prepare students for some of the most competitive exams in the country - SAT, ACT, ISEE, BCA, SSAT, HSPT, GRE, GMAT, Regents, NJSLA, OLSAT, SCAT, TerraNova,&#xa0;Praxis, PSEG, Math Olympiad, AMC, MathCounts, and more.<br>\nOur Mission: Make rigorous, personalized learning accessible. Today our instructors build question&#xa0;banks manually in WordPress. We're changing that by building an AI-powered question generation&#xa0;engine that creates exam-ready, curriculum-aligned questions at scale.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>You will architect and implement the core AI pipeline that powers Accel's test creation&#xa0;system.</p><p>• Work closely with the founder to design and build an AI-powered content generation system&#xa0;from the ground up. You'll contribute to meaningful parts of the product end-to-end from how&#xa0;the system ingests and understands source material, to how it produces and validates&#xa0;outputs, to how instructors interact with and review what the system generates.<br>\n• On the engineering side, you'll build and iterate on LLM-driven pipelines, work with retrieval&#xa0;and embedding techniques to ground outputs in real source material and develop backend&#xa0;services and APIs that tie everything together.<br>\n• Beyond pure coding, you'll be expected to think about output quality and building evaluation&#xa0;steps, catching failure modes, and improving the system based on real instructor feedback.&#xa0;You'll research new tools and techniques as the AI space evolves and bring relevant ideas&#xa0;directly into the product.<br>\n• This is a generalist role at an early-stage product where you'll wear multiple hats, work with&#xa0;ambiguity, and have direct input into how things are built.</p><p>PLEASE NOTE THESE QUESTIONS AND REPLY WITH YOUR APPLICATION:</p><ol><li>This is an unpaid internship opportunity. Are you still interested in the role?</li><li>What interests you most about this internship and this role? (Please share what excites you about contributing and what you hope to gain from the experience.)</li><li>Tell us about the most interesting project you’ve worked on in this domain. What was the project, and what specific contributions did you make? (Include technologies, responsibilities, outcomes, or measurable impact if applicable.)</li><li>How many hours per week are you available to commit to this internship?</li><li>Are you currently based in the USA?</li></ol>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p>• Strong foundation in software engineering: data structures, APIs, system design<br>\n• Proficiency in Python (primary language for AI/ML pipeline work)<br>\n• Experience with REST APIs and at least one database (PostgreSQL preferred)<br>\n• Ability to work independently, ask sharp questions, and iterate fast<br>\n• Strong debugging and problem-solving instincts<br>\n• Demonstrated side projects or shipped code (GitHub portfolio required)<br>\n• Genuine interest in AI systems and education technology</p><p>• Direct experience with LLM APIs: OpenAI, Anthropic Claude, or Google Gemini<br>\n• Hands-on experience with RAG systems: embedding models, vector databases (Pinecone,&#xa0;<br>\nWeaviate, pgvector, Chroma)<br>\n• Familiarity with prompt engineering techniques: few-shot prompting, chain-of-thought,&#xa0;<br>\nstructured JSON outputs<br>\n• Experience with NLP pipelines: text chunking, tokenization, semantic search<br>\n• Knowledge of LaTeX syntax and math rendering libraries (MathJax, KaTeX)<br>\n• Experience with image generation APIs or SVG programmatic generation<br>\n• Familiarity with AI evaluation frameworks or automated test harnesses for LLM outputs<br>\n• Cloud platform experience: AWS, GCP, or Vercel for deployment<br>\n• Experience with job queues: Celery, Bull, or similar<br>\n• Exposure to educational content standards or psychometrics is a bonus</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>All your information will be kept confidential according to EEO guidelines.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "elearning",
+    "label": "E-Learning"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
