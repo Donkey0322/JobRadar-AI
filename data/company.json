@@ -70,7 +70,8 @@
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Salesforcecom-Agile-Delivery-Intern--Summer-2026_JR00015449",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/Software-Engineering-Intern--Summer-2026_JR00015149",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Utrecht-Utrecht-Netherlands/Intern-software-engineer---mathematics_JR00030746",
-      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xiamen-Fujian-China/Summer-intern-software-engineer_JR00034642"
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xiamen-Fujian-China/Summer-intern-software-engineer_JR00034642",
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Madrigalejo-del-Monte-A-Coruna-Spain/Internship--Software-Engineering-Intern_JR00037110"
     ]
   },
   {
@@ -2698,7 +2699,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000129194005",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129372495",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129381861",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000129464009"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129464009",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129654279"
     ]
   },
   {
@@ -9137,11 +9139,11 @@
     ]
   },
   {
-    "name": "hbkcapitalmanagement",
+    "name": "hbk",
     "ats": "greenhouse",
-    "identifier": "hbkcapitalmanagement",
+    "identifier": "hbk",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -15425,7 +15427,8 @@
     "page": "https://rollsroyce.wd3.myworkdayjobs.com/wday/cxs/rollsroyce/intern_graduate/jobs",
     "urls": [
       "https://rollsroyce.wd3.myworkdayjobs.com/Intern_Graduate/job/Derby/Undergraduate-of-the-Year-2026---Summer-Internship--INVITE-ONLY-_JR6144469-1",
-      "https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Bangalore/Data-Labs-Internship_JR6151898-1"
+      "https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Bangalore/Data-Labs-Internship_JR6151898-1",
+      "https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Pune/Intern--Data-Analytics_JR6154542-2"
     ]
   },
   {
@@ -15512,7 +15515,9 @@
       "https://www.rubrik.com/company/careers/departments/job.7071674?gh_jid=7071674",
       "https://www.rubrik.com/company/careers/departments/job.7542911?gh_jid=7542911",
       "https://www.rubrik.com/company/careers/departments/job.7770714?gh_jid=7770714",
-      "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150"
+      "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150",
+      "https://www.rubrik.com/company/careers/departments/job.7928163?gh_jid=7928163",
+      "https://www.rubrik.com/company/careers/departments/job.7928159?gh_jid=7928159"
     ]
   },
   {
@@ -17443,10 +17448,10 @@
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R105781",
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-California-Palo-Alto/IT-Application-Developer---AI-Driven-IT-Ops---Intern_R106286",
       "https://tencent.wd1.myworkdayjobs.com/en-US/Tencent_Careers/job/US-Washington-Bellevue/Research-Internship---Reinforcement-Learning-for-Large-Foundation-Models_R106337-1",
+      "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Data-AI-Engineer-Intern_R107564",
       "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Site-Reliability-Engineer-Intern_R107470",
       "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Web-Full-Stack-Developer-Intern_R107471",
-      "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/UK-London/Backend-Development-Intern_R107590",
-      "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/Singapore-CapitaSky/Data-AI-Engineer-Intern_R107564"
+      "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/UK-London/Backend-Development-Intern_R107590"
     ]
   },
   {
