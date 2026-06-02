@@ -5395,7 +5395,12 @@
       "https://job-boards.greenhouse.io/cresta/jobs/4499986008",
       "https://job-boards.greenhouse.io/cresta/jobs/5047260008",
       "https://job-boards.greenhouse.io/cresta/jobs/5102116008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5221766008"
+      "https://job-boards.greenhouse.io/cresta/jobs/5221766008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5047247008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5106468008",
+      "https://job-boards.greenhouse.io/cresta/jobs/4123863008",
+      "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
+      "https://job-boards.greenhouse.io/cresta/jobs/4123841008"
     ]
   },
   {
@@ -6569,7 +6574,8 @@
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9439",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9440",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9452",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9464"
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9464",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7963"
     ]
   },
   {
@@ -7369,6 +7375,7 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34116",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34227",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34296",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34327",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34472",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34546",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34551",
@@ -7395,8 +7402,7 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36920",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36921",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36922",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36923",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/34327"
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36923"
     ]
   },
   {
@@ -9148,11 +9154,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -17071,6 +17077,7 @@
     "page": "https://sunlife.wd3.myworkdayjobs.com/wday/cxs/sunlife/campus/jobs",
     "urls": [
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Montreal-Quebec/Student--Enterprise-Architecture---AI-Strategy--Fall-2026-_JR00124177",
+      "https://sunlife.wd3.myworkdayjobs.com/campus/job/North-York-Ontario/Student--Associate-Software-Development-Engineer-in-Test--Fall-2026-_JR00122144",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Cloud-Centre-of-Excellence-Coordinator_JR00124445",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Full-Stack-Developer--Fall-2026-_JR00123310",
       "https://sunlife.wd3.myworkdayjobs.com/campus/job/Toronto-Ontario/Student--Software-Engineer--Fall-2026-_JR00123596",
@@ -17079,8 +17086,7 @@
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Kansas-City-Missouri/Software-Engineering-Intern---Summer-2026_JR00117066",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Associate-Business---Systems-Analyst--Fall-2026-_JR00123875",
       "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/Corporate-Information-Services-Intern---Summer-2026_JR00120370",
-      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213",
-      "https://sunlife.wd3.myworkdayjobs.com/campus/job/North-York-Ontario/Student--Associate-Software-Development-Engineer-in-Test--Fall-2026-_JR00122144"
+      "https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Wellesley-Hills-Massachusetts/IT-Delivery--Foundational-Integration---Summer-2026-Intern_JR00117213"
     ]
   },
   {
@@ -17733,8 +17739,8 @@
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Automation-and-AI-Solutions-Lead_JREQ199695",
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Intern-for-Data-and-Analytics_JREQ198006",
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/India-Bengaluru-Karnataka/Senior-QA-Engineer---AI_JREQ194741",
-      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-Kingdom-London/Research-Intern---Machine-Learning-and-Natural-Language-Processing_JREQ197485-1",
-      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/Switzerland-Zug-Zug/Research-Intern---Machine-Learning-and-Natural-Language-Processing_JREQ197583"
+      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/Switzerland-Zug-Zug/Research-Intern---Machine-Learning-and-Natural-Language-Processing_JREQ197583",
+      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-Kingdom-London/Research-Intern---Machine-Learning-and-Natural-Language-Processing_JREQ197485-1"
     ]
   },
   {
