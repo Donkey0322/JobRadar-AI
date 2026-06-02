@@ -67,11 +67,11 @@
     "urls": [
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Dorval-Quebec-Canada/Software-Intern---QA-Engineering---Summer-2026_JR00032762",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Fort-Smith-Arkansas-United-States-of-America/IS-IT---Intern_JR00018016",
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Madrigalejo-del-Monte-A-Coruna-Spain/Internship--Software-Engineering-Intern_JR00037110",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Salesforcecom-Agile-Delivery-Intern--Summer-2026_JR00015449",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/Software-Engineering-Intern--Summer-2026_JR00015149",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Utrecht-Utrecht-Netherlands/Intern-software-engineer---mathematics_JR00030746",
-      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xiamen-Fujian-China/Summer-intern-software-engineer_JR00034642",
-      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Madrigalejo-del-Monte-A-Coruna-Spain/Internship--Software-Engineering-Intern_JR00037110"
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xiamen-Fujian-China/Summer-intern-software-engineer_JR00034642"
     ]
   },
   {
@@ -97,7 +97,8 @@
       "https://jobs.smartrecruiters.com/AbbVie/3743990010279234",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010279276",
       "https://jobs.smartrecruiters.com/AbbVie/3743990010999336",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990013404206"
+      "https://jobs.smartrecruiters.com/AbbVie/3743990013404206",
+      "https://jobs.smartrecruiters.com/AbbVie/3743990013416236"
     ]
   },
   {
@@ -2700,7 +2701,9 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000129372495",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129381861",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129464009",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000129654279"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129654279",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129758239",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129719759"
     ]
   },
   {
@@ -9139,11 +9142,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -15516,8 +15519,8 @@
       "https://www.rubrik.com/company/careers/departments/job.7542911?gh_jid=7542911",
       "https://www.rubrik.com/company/careers/departments/job.7770714?gh_jid=7770714",
       "https://www.rubrik.com/company/careers/departments/job.7820150?gh_jid=7820150",
-      "https://www.rubrik.com/company/careers/departments/job.7928163?gh_jid=7928163",
-      "https://www.rubrik.com/company/careers/departments/job.7928159?gh_jid=7928159"
+      "https://www.rubrik.com/company/careers/departments/job.7928159?gh_jid=7928159",
+      "https://www.rubrik.com/company/careers/departments/job.7928163?gh_jid=7928163"
     ]
   },
   {
@@ -16488,7 +16491,10 @@
       "https://jobs.ashbyhq.com/snowflake/bbdee8bd-443c-456f-a4f0-1b363d843310",
       "https://jobs.ashbyhq.com/snowflake/be659b54-08a1-4acf-b86c-f003ef6343ea",
       "https://jobs.ashbyhq.com/snowflake/c8f90874-33ff-433d-be44-d09567a08041/application",
-      "https://jobs.ashbyhq.com/snowflake/fd76a37f-868d-467b-a256-0b6746b9e961"
+      "https://jobs.ashbyhq.com/snowflake/fd76a37f-868d-467b-a256-0b6746b9e961",
+      "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27",
+      "https://jobs.ashbyhq.com/snowflake/897e1850-c590-4462-b187-0516b65b2034",
+      "https://jobs.ashbyhq.com/snowflake/e2412cd5-19dd-44f8-addd-c9ef3c99ff82"
     ]
   },
   {
