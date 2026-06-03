@@ -101,10 +101,10 @@ function locationIcon(location: Country) {
   }
 }
 
-function renderTags(requiresUSA: boolean | null, sponsorship: boolean | null) {
+function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
   const tags: string[] = [];
 
-  if (requiresUSA === true) {
+  if (citizenship === true) {
     tags.push(`
       <span style="
         display:inline-block;
@@ -117,7 +117,7 @@ function renderTags(requiresUSA: boolean | null, sponsorship: boolean | null) {
         font-weight:600;
         margin-right:8px;
       ">
-        🇺🇸 US Citizen Only
+        🇺🇸 Citizen Only
       </span>
     `);
   }
@@ -166,12 +166,12 @@ function toTerm(season: Job["season"]) {
 export function generateEmailContent(job: Job) {
   const { company, role, link, season, jd } = job;
 
-  const requiresUSA = jd?.citizenship ?? null;
+  const citizenship = jd?.citizenship ?? null;
   const sponsorship = jd?.sponsorship ?? null;
   const location = jd?.location ?? "Other";
   const qualifications = jd?.qualifications ?? [];
 
-  const tagsHtml = renderTags(requiresUSA, sponsorship);
+  const tagsHtml = renderTags(citizenship, sponsorship);
 
   const todayStr = getToday();
   const term = toTerm(season);

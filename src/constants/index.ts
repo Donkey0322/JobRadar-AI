@@ -24,8 +24,8 @@ export const YEAR = NOW.getMonth() >= 5 ? NOW.getFullYear() + 1 : NOW.getFullYea
 export const SEASONS = [
   `${YEAR} Summer`,
   `${YEAR} Fall`,
-  `${YEAR} Spring`,
-  `${YEAR} Winter`,
+  `${YEAR + 1} Spring`,
+  `${YEAR + 1} Winter`,
   "Entry Level",
   "Mid Level",
   "Senior Level",
