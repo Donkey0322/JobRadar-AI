@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "52ec3b02b7d110010a6e80d5515e0000",
+    "title": "Intern, SAP BTP Application Development",
+    "jobDescription": "<p><b><u>Location:</u></b> San Jose, CA - Hybrid 4/days, Friday remote</p><p></p><p><b>Job Summary: </b></p><p></p><p>Semtech is looking for a motivated intern to support our IT team in the development and deployment of applications on the SAP Business Technology Platform (BTP). This is a hands-on opportunity to gain practical experience in enterprise application development within a global semiconductor company.</p><p></p><p><b>Responsibilities</b></p><ul><li>Assist in the development and testing of applications on SAP BTP</li><li>Support configuration and integration tasks within the SAP BTP environment</li><li>Document technical processes and development activities</li><li>Collaborate with team members to troubleshoot and resolve application issues</li><li>Participate in team meetings and contribute to project discussions</li></ul><p></p><p><b>Minimum Qualifications</b></p><ul><li>Currently pursuing a Bachelor&#39;s degree in Computer Science, Information Systems, or a related field</li><li>Basic understanding of programming concepts (JavaScript, Java, or Python a plus)</li><li>Strong analytical and problem-solving skills</li><li>Ability to work independently and as part of a team</li></ul><p></p><p><b>Preferred Qualifications</b></p><ul><li>Familiarity with SAP BTP or other SAP products</li><li>Experience with cloud platforms or web application development</li><li>Knowledge of REST APIs or integration concepts</li><li>Prior internship or project experience in an enterprise IT environment</li></ul><p></p><p><i>The intent of this job description is to describe the major duties and responsibilities performed by incumbents of this job. Incumbents may be required to perform job-related tasks other than those specifically included in this description.</i></p><p></p><p><i>All duties and responsibilities are essential job functions and requirements and are subject to possible modification to reasonably accommodate individuals with disabilities.</i></p><p></p><p><i>We are proud to be an EEO employer M/F/D/V. We maintain a drug-free workplace.</i></p><p></p><p></p><p><span>A reasonable estimate of the pay range for this position is $23/hr - $31/hr. There are several factors taken into consideration in determining base salary, including but not limited to: job-related qualifications, skills, education and experience, as well as job location and the value of other elements of an employee’s total compensation package.</span></p><p></p><p><span>#LI-Hybrid</span></p>",
+    "location": "USA - San Jose, CA",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-02",
+    "timeType": "Full time",
+    "jobReqId": "REQ3380",
+    "jobPostingId": "Intern--SAP-BTP-Application-Development_REQ3380",
+    "jobPostingSiteId": "SemtechCareers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA - San Jose, CA",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/USA---San-Jose-CA/Intern--SAP-BTP-Application-Development_REQ3380",
+    "questionnaireId": "0f80892c2d981000cf3720567aba0000"
+  },
+  "hiringOrganization": {
+    "name": "Semtech_Corporation",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
