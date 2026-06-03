@@ -5392,15 +5392,15 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/cresta/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/cresta/jobs/4499986008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5047260008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5102116008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5221766008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5047247008",
-      "https://job-boards.greenhouse.io/cresta/jobs/5106468008",
+      "https://job-boards.greenhouse.io/cresta/jobs/4123841008",
       "https://job-boards.greenhouse.io/cresta/jobs/4123863008",
       "https://job-boards.greenhouse.io/cresta/jobs/4476000008",
-      "https://job-boards.greenhouse.io/cresta/jobs/4123841008"
+      "https://job-boards.greenhouse.io/cresta/jobs/4499986008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5047247008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5047260008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5102116008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5106468008",
+      "https://job-boards.greenhouse.io/cresta/jobs/5221766008"
     ]
   },
   {
@@ -6569,13 +6569,13 @@
     "urls": [
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7840",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7863",
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7963",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8106",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9437",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9439",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9440",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9452",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9464",
-      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7963"
+      "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9464"
     ]
   },
   {
@@ -9705,6 +9705,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/hyannisportresearch/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/hyannisportresearch/jobs/6667961003"
+    ]
+  },
+  {
+    "name": "hyperproof",
+    "ats": "greenhouse",
+    "identifier": "hyperproof",
+    "domain": "https://hyperproof.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hyperproof/jobs",
+    "urls": [
+      "https://hyperproof.io/job-listings/?gh_jid=4700893005"
     ]
   },
   {
@@ -13880,6 +13890,18 @@
     ]
   },
   {
+    "name": "osv-rubicon",
+    "ats": "workday",
+    "identifier": "osv-rubicon-magnitecareers",
+    "domain": "https://osv-rubicon.wd5.myworkdayjobs.com/magnitecareers",
+    "page": "https://osv-rubicon.wd5.myworkdayjobs.com/wday/cxs/osv-rubicon/magnitecareers/jobs",
+    "urls": [
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Demand-Solutions--NYC-_R-01332",
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Adserver--NYC-_R-01333",
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/Colorado---Broomfield/Intern--Software-Engineering-DV---Broomfield--CO-_R-01330"
+    ]
+  },
+  {
     "name": "osv-tifec",
     "ats": "workday",
     "identifier": "osv-tifec-fanthreesixty",
@@ -16004,6 +16026,16 @@
     "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
     "urls": [
       "https://semtech.wd1.myworkdayjobs.com/SemtechJobs/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3167"
+    ]
+  },
+  {
+    "name": "semtech",
+    "ats": "workday",
+    "identifier": "semtech-semtechcareers",
+    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechcareers",
+    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechcareers/jobs",
+    "urls": [
+      "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/USA---San-Jose-CA/Intern--SAP-BTP-Application-Development_REQ3380"
     ]
   },
   {
