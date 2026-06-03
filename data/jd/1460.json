@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 5776199003,
+  "location": {
+    "name": "San Francisco, CA"
+  },
+  "metadata": null,
+  "id": 7761472003,
+  "updated_at": "2026-06-02T12:40:10-04:00",
+  "requisition_id": null,
+  "title": "Software Engineering Intern (San Francisco)",
+  "company_name": "Instead",
+  "first_published": null,
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;About Instead&lt;/h2&gt;&lt;p&gt;Instead is reinventing tax technology. We are the first company in decades to receive IRS approval to e-file for Individuals, C Corps, S Corps, Partnerships, and Estates &amp;amp; Trusts. Our platform empowers tax professionals with AI-driven workflows, automated compliance, and seamless integrations.&lt;/p&gt;&lt;h2&gt;About the Role&lt;/h2&gt;&lt;p&gt;Join Instead as a Software Engineering Intern and work alongside our core engineering team in San Francisco. You will contribute to production features, learn from experienced engineers, and gain hands-on experience building the future of tax technology.&lt;/p&gt;&lt;h2&gt;What You Will Do&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Build and ship features across our full-stack platform (Vue.js/Nuxt frontend, Go backend)&lt;/li&gt;&lt;li&gt;Collaborate with product, design, and tax domain experts&lt;/li&gt;&lt;li&gt;Participate in code reviews, sprint planning, and engineering discussions&lt;/li&gt;&lt;li&gt;Work on real projects that impact thousands of tax professionals&lt;/li&gt;&lt;/ul&gt;&lt;h2&gt;What We Are Looking For&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Currently pursuing a degree in Computer Science, Software Engineering, or related field&lt;/li&gt;&lt;li&gt;Familiarity with web development (JavaScript/TypeScript, HTML, CSS)&lt;/li&gt;&lt;li&gt;Exposure to backend development (Go, Python, or similar)&lt;/li&gt;&lt;li&gt;Strong problem-solving skills and eagerness to learn&lt;/li&gt;&lt;li&gt;Ability to work onsite in San Francisco&lt;/li&gt;&lt;/ul&gt;",
+  "departments": [
+    {
+      "id": 4028733003,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4089602003,
+      "name": "Instead - SF",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
