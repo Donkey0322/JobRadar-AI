@@ -1,0 +1,166 @@
+{
+  "id": "744000130004151",
+  "name": "Assistant System Inspector",
+  "uuid": "459e5098-99fe-4a6a-ac82-89e3600063f3",
+  "jobId": "ca54f057-fd49-409b-83a1-3977459e9be4",
+  "jobAdId": "78de9c4c-69f6-4f74-a577-636d4f66f3c7",
+  "defaultJobAd": true,
+  "refNumber": "REF59715P",
+  "company": {
+    "name": "Veolia Environnement SA",
+    "identifier": "VeoliaEnvironnementSA"
+  },
+  "location": {
+    "city": "Hackensack",
+    "region": "NJ",
+    "country": "us",
+    "address": "60 Devoe Place",
+    "postalCode": "07601",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "40.9012852",
+    "longitude": "-74.0375948",
+    "fullLocation": "Hackensack, NJ, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "6386112d62c4f0198adaf06e",
+      "fieldLabel": "Local Level 1",
+      "valueId": "muniWaterUS",
+      "valueLabel": "Municipal Water US ** muniWaterUS"
+    },
+    {
+      "fieldId": "606403e0822d8068b0c265b4",
+      "fieldLabel": "Brands",
+      "valueId": "49971449-7369-43a9-bda5-95e08e92c3a7",
+      "valueLabel": "Veolia"
+    },
+    {
+      "fieldId": "606403e0822d8068b0c265b5",
+      "fieldLabel": "Department",
+      "valueId": "2763969",
+      "valueLabel": "Compliance"
+    },
+    {
+      "fieldId": "611bd816bc01bb71bbfc49d6",
+      "fieldLabel": "Zone",
+      "valueId": "UZONEE",
+      "valueLabel": "North America"
+    },
+    {
+      "fieldId": "642c31258a85fc6cea695826",
+      "fieldLabel": "Grade du poste",
+      "valueId": "f3d7eac8-2f1f-4b67-9cd8-b7882d88877e",
+      "valueLabel": "Lower or equal to 7"
+    },
+    {
+      "fieldId": "611bdd3d4eb4860f27db5394",
+      "fieldLabel": "Type de contrat",
+      "valueId": "6966a5b2-11c2-4726-89a4-cfdca27ef11a",
+      "valueLabel": "Standard"
+    },
+    {
+      "fieldId": "6698c3d47cc3122201c908fb",
+      "fieldLabel": "Local Level 3",
+      "valueId": "utNJR3",
+      "valueLabel": "Utilities NJ Region ** utNJR3"
+    },
+    {
+      "fieldId": "6698c3e283bf6872ce957a50",
+      "fieldLabel": "Local Level 4",
+      "valueId": "utNJR4",
+      "valueLabel": "Utilities NJ Region ** utNJR4"
+    },
+    {
+      "fieldId": "611bd87f05901814127d67d4",
+      "fieldLabel": "Business Unit Level 1",
+      "valueId": "UZONEE010",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "611bd7644eb4860f27db5393",
+      "fieldLabel": "Generic Job Title",
+      "valueId": "c0aa9120-f7ec-4c47-b1c5-1c8a1741b1c8",
+      "valueLabel": "Compliance Officer"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "611bd8c87c9ac71cd5f9911c",
+      "fieldLabel": "Business Unit Level 2",
+      "valueId": "UE010",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "6386113984b3f8023e34fd96",
+      "fieldLabel": "Local Level 2",
+      "valueId": "util2",
+      "valueLabel": "Utilities ** util2"
+    },
+    {
+      "fieldId": "611bde147d1d0321db89e5e7",
+      "fieldLabel": "Education level",
+      "valueId": "cda8156e-f4e1-487c-a8ab-797d71077a4c",
+      "valueLabel": "High School Diploma/GED/GCSE"
+    }
+  ],
+  "releasedDate": "2026-06-03T13:41:55.242Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000130004151-assistant-system-inspector",
+  "applyUrl": "https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000130004151-assistant-system-inspector?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/VeoliaEnvironnementSA/publication/459e5098-99fe-4a6a-ac82-89e3600063f3?dcr_ci=VeoliaEnvironnementSA",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Veolia in North America is the top-ranked environmental company in the United States for three consecutive years, and the country’s largest private water operator and technology provider as well as hazardous waste and pollution treatment leader. It offers a full spectrum of water, waste, and energy management services, including water and wastewater treatment, commercial and hazardous waste collection and disposal, energy consulting and resource recovery. Veolia helps commercial, industrial, healthcare, higher education and municipality customers throughout North America. Headquartered in Boston, Veolia has more than 10,000 employees working at more than 350 locations across North America.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><strong>Primary Duties/Responsibilities:&#xa0;</strong></p><ul><li>Assist the System Inspector on the job site, as needed.</li><li>Assist valve crews, as needed.</li><li>Assist emergency Inspectors only on the job site.</li><li>Conduct hydrant testing, valve testing, and flushing programs.</li><li>Assist System Inspectors with customer notifications.</li><li>Operate company systems, devices and software applications.</li><li>Perform their duties and share services for other business units in the NJ/NY Metro region, as assigned.</li><li>Perform other similar or less skilled work, as assigned.</li><li>Assists employees of a higher classification, as assigned.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Education/Experience/Background:&#xa0;</strong></p><ul><li>High School Diploma/GED is required.</li></ul><p><strong>Knowledge/Skills/Abilities:&#xa0;</strong></p><ul><li>Must possess strong verbal and written communication skills.</li></ul><p><strong>Required Certification/Licenses/Training:&#xa0;</strong></p><ul><li>Must pass demonstration of abilities test.</li></ul><p><strong>Physical Requirements:</strong></p><ul><li>Must be able to lift up to 50 lbs.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Pay Rate:&#xa0;</strong>$38.36 per hour.</p><p><strong>Benefits:&#xa0;</strong>Our employees are covered by comprehensive benefits packages including paid time off policies; health, dental, vision, and life insurance; retirement plans, savings accounts; tuition reimbursement; paid volunteering and more.</p><p>We are an Equal Opportunity Employer! All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.</p><div sr-tagline=\"\"></div><p>Disclaimer: The salary, other compensation, and benefits information is accurate as of the date of this posting. The Company reserves the right to modify this information at any time, subject to applicable law.</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "utilities",
+    "label": "Utilities"
+  },
+  "function": {
+    "id": "manufacturing",
+    "label": "Manufacturing"
+  },
+  "department": {
+    "id": 2763969,
+    "label": "Compliance"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

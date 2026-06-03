@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "9cadf5dd8e561000cb4feba294850000",
+    "title": "Software Developer",
+    "jobDescription": "<p style=\"text-align:left\"><b>Who We Are:</b></p><p style=\"text-align:left\"><br />At Avnet, relationships matter. We are a global, FORTUNE ® 500 technology distributor and solutions company that delivers design, supply chain and logistics expertise to customers at every stage of a product’s lifecycle. Our employees have a front row seat to the latest innovations shaping the world we live in and the future we share. We’re driven to help our customers around the world succeed and we do so by earning the trust of some of the biggest names in technology.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Working at Avnet means being a part of a global team. We work collaboratively and with integrity, doing business the right way. For more than a century, we have partnered together to help our customers, suppliers and teammates realize the transformative possibilities of technology. Experience what’s next at Avnet!</p><p style=\"text-align:inherit\"></p><p>This position is fully onsite.</p><p><br /><b>Job Summary:</b></p><p>Develops, maintains, and enhances business applications. Collaborates with stakeholders to validate user requirements, assess available technologies, and recommend solution options. Assesses objectives for assigned project phases and recommends technical strategies and tactics to achieve business needs.</p><p><br /><b>Principal Responsibilities:</b></p><ul><li>Uses process design technology methodologies, programming languages and tools and solutions design techniques to develop applications to meet business specifications.</li><li>Validates functional specifications, builds technical specifications and develops application documentation.</li><li>Performs analysis, design, development and testing of applications to solve business requirements.</li><li>Integrates new or enhanced application components.</li><li>Develops conversion and system implementation plans.</li><li>Supports change readiness initiatives as needed.</li><li>Other duties as assigned.</li></ul><p><br /><b>Job Level Specifications:</b></p><ul><li>Foundational knowledge of specialized disciplines, industry practices and standards, acquired via academic instruction and/or relevant work experience of substantially the same level.</li><li>Develops solutions to defined tasks, typical assignments and projects. May be solved by the application of specialized foundational knowledge, using existing approaches and solutions.</li><li>Work is usually performed independently and requires the exercise of judgment and discretion. Receives initial direction although work may be reviewed for accuracy and quality.</li><li>Collaborates with immediate management and team members within the department or function.</li></ul><p><br /><b>Work Experience:</b></p><ul><li>Typically less than 2 years with bachelor&#39;s or equivalent.</li></ul><p><br /><b>Education and Certification(s):</b></p><ul><li>Bachelor&#39;s degree or equivalent experience from which comparable knowledge and job skills can be obtained.</li></ul><p><br /><b>Distinguishing Characteristics:</b></p><ul><li><b>Project experience in Full-stack application development using Angular and Java or similar technologies</b></li><li>Building and coding applications using<span> </span><span>languages/technologies</span><span> </span>such as<span> </span>Java, Python, Spring, Web Services, , SQL;</li><li>Frontend technologies:<b><span> </span></b>Angular<b>,<span> </span></b>HTML, CSS, TypeScript, and Bootstrap.</li><li>SQL database design and development;</li></ul><p></p><p>#LI-AMER</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>What We Offer:</b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Our employees work hard to live our values and help us grow. Our total rewards strategy supports Avnet’s ability to attract, engage, develop, and reward our employees, while promoting a diverse and inclusive environment. We offer competitive compensation and benefit programs — from time away and flexible working arrangements to programs supporting employee well-being and opportunities to give back to your community.</p><p style=\"text-align:inherit\"></p><ul><li><p style=\"text-align:left\">Generous Paid Time Off</p></li><li><p style=\"text-align:left\">401K and Pension Plan</p></li><li><p style=\"text-align:left\">Paid Holidays</p></li><li><p style=\"text-align:left\">Family Support (Paid Leave, Surrogacy, Adoption)</p></li><li><p style=\"text-align:left\">Medical, Dental, Vision, and Life Insurance</p></li><li><p style=\"text-align:left\">Long-term and Short-term Disability Insurance</p></li><li><p style=\"text-align:left\">Health Savings Account / Flexible Spending Account</p></li><li><p style=\"text-align:left\">Education Assistance</p></li><li><p style=\"text-align:left\">Employee Development Resources</p></li><li><p style=\"text-align:left\">Employee Wellness, Leadership Development and Mentorship Programs</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Benefits listed above may vary depending on the nature of your employment with Avnet.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">The above statements are intended to describe the general nature and level of work being performed. They are not intended to be construed as an exhaustive list of all responsibilities, duties, and skills.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Avnet is an Equal Opportunity Employer committed to providing equal opportunities to all employees and applicants for employment without regard to race, color, religion, ancestry, national origin, sex (including pregnancy), age, marital status, sexual orientation, gender identity or expression, disability, veteran status, genetic information or any other characteristic protected by law. This policy of non-discrimination also applies to religious dress and grooming practices. Avnet will accommodate employee religious dress standards and grooming practices that do not result in undue hardship for the Company. If you are interested in applying for employment with Avnet and need special assistance or an accommodation to apply for a posted position contact our Human Resources Service Center at (888) 994-7669.</p>",
+    "location": "Tempe, Arizona, United States Of America",
+    "additionalLocations": [
+      "Phoenix, Arizona, United States Of America"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-03",
+    "timeType": "Full time",
+    "jobReqId": "JR-022614",
+    "jobPostingId": "Software-Developer_JR-022614",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Tempe, Arizona",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "On Site",
+    "externalUrl": "https://wd1.myworkdaysite.com/recruiting/avnet/External/job/Tempe-Arizona-United-States-Of-America/Software-Developer_JR-022614",
+    "questionnaireId": "3c43b276fc1c1000c5769d05423e0000"
+  },
+  "hiringOrganization": {
+    "name": "Avnet US",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

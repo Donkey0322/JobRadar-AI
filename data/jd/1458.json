@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "43c57bb4a0b0100150b12417fefb0000",
+    "title": "Software Engineer I",
+    "jobDescription": "Acute Care Technology<p>At ZOLL, we&#39;re passionate about improving patient outcomes and helping save lives. We provide innovative technologies that make a meaningful difference in people&#39;s lives. Our medical devices, software and related services are used worldwide to diagnose and treat patients suffering from serious cardiopulmonary and respiratory conditions.<br /><br />The Acute Care Technology division of ZOLL Medical Corporation develops and delivers innovative lifesaving products and software solutions to EMS, hospital, public safety, and military customers globally. Products include AEDs, trauma kits, ventilators, temperature management solutions, and more. Our dedicated employees take pride in their commitment to improving patient outcomes while delivering world-class customer service.<br /><br />At ZOLL, you won’t just have a job. You&#39;ll have a career—and a purpose.<br /><br />Join our team. It’s a great time to be a part of ZOLL!<br /><br /><b>Job Summary</b><br /><br /><span>Designs, develops, documents, and maintains software to support development or ZOLL products. </span><span>We are looking for a Software Engineer who will be responsible for gaining a deep understanding of ZOLL ACT products, and custom interfaces between ZOLL products and other vendor’s applications and maintaining and supporting existing interfaces and Cloud APIs. Critical to the success of this role will be understanding the range of technical business needs, requirements and being able to effectively document technical specifications. You will also be involved with projects for customers interfacing with a variety of ZOLL products. Having a capability in software development is the desired future of this position, as you manage On Prem and Cloud software, documenting software specifications and user guides, and may execute a mix of automated and traditional manual testing. You will be involved with the entire software development lifecycle, from requirements to release.</span><br /><br /><b>Essential Functions</b></p><ul><li>Develops, documents, and maintains high quality software designs, source code, and unit tests for product software or supporting software such as tools (e.g., parsers, simulators)</li><li>Performs software integration activities for integrating software to software or hardware subsystems</li><li>Develops, documents, and executes software unit verification procedures</li><li>Participates in and supports the development of, and sometimes executes portions of, software verification protocols</li><li>Reports own progress towards performance and schedule objectives.</li><li>Stays current with software engineering trends and technologies through activities such as self- study, webinars, seminars, user group meetings and conferences</li><li>Follows standard operating procedures and software engineering best practices</li><li>Collaborates with team members and contributes to positive team environment that creates high quality solutions</li></ul><p><br /><b>Required/Preferred Education and Experience</b></p><ul><li>BS degree required or</li><li>Equivalent in Computer Science, Electrical/Computer Engineering or related engineering or science discipline required</li></ul><p><br /><b>Knowledge, Skills and Abilities</b></p><ul><li>Knowledge and Experience with one or more programming languages such as C, C&#43;&#43;, C#, Python</li><li>Good written and verbal communication skills</li><li>Positive attitude and affinity for teamwork, logic, innovation, initiative and self sufficiency</li><li>Effective problem-solving skills</li></ul><p><br />ZOLL is a fast-growing company that operates in more than 140 countries around the world. Our employees are inspired by a commitment to make a difference in patients&#39;s lives, and our culture values innovation, self-motivation and an entrepreneurial spirit. Join us in our efforts to improve outcomes for underserved patients suffering from critical cardiopulmonary conditions and help save more lives.</p><p></p><p>The annual salary for this position is:</p>$85,000.00 to $105,000.00<p></p><p>This position is eligible for an annual bonus in accordance with the company&#39;s bonus plan. Factors which may affect starting salary include geography, skills, education, experience, and other qualifications of the successful candidate. Details of ZOLL&#39;s comprehensive benefits plans can be found at <a target=\"_blank\" href=\"http://www.zollbenefits.com\"><span style=\"color:#0000ff\"><u>www.zollbenefits.com</u></span></a>. </p><p></p><p>Applications will be accepted on an ongoing basis until this position is filled. For fully remote positions, compensation will comply with all applicable federal, state, and local wage laws, including minimum wage requirements, based on the employee’s primary work location.</p><p></p><p><b>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, disability, or status as a protected veteran.</b></p><p></p><p><b>ADA: The employer will make reasonable accommodations in compliance with the Americans with Disabilities Act of 1990.</b></p>",
+    "location": "US CO Broomfield",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-03",
+    "timeType": "Full time",
+    "jobReqId": "R18788",
+    "jobPostingId": "Software-Engineer-I_R18788",
+    "jobPostingSiteId": "ZOLLMedicalCorp",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US CO Broomfield",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Remote",
+    "externalUrl": "https://zoll.wd5.myworkdayjobs.com/ZOLLMedicalCorp/job/US-CO-Broomfield/Software-Engineer-I_R18788",
+    "questionnaireId": "1a6c3c9b1aec010086ac10c5d05d0000",
+    "timeLeftToApply": "26 days left to apply",
+    "endDate": "2026-06-30",
+    "jobPostingEndDateAsText": "End Date: June 30, 2026"
+  },
+  "hiringOrganization": {
+    "name": "ZMC-US DATA ZOLL Data Systems",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
