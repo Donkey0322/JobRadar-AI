@@ -917,6 +917,16 @@
     ]
   },
   {
+    "name": "amtrustgroup",
+    "ats": "icims",
+    "identifier": "amtrustgroup",
+    "domain": "https://careers-amtrustgroup.icims.com",
+    "page": "https://api.icims.com/v1/companies/amtrustgroup/jobs",
+    "urls": [
+      "https://careers-amtrustgroup.icims.com/jobs/20198/job?mobile=true&needsRedirect=false"
+    ]
+  },
+  {
     "name": "analogdevices",
     "ats": "workday",
     "identifier": "analogdevices-external",
@@ -2265,11 +2275,11 @@
       "https://job-boards.greenhouse.io/bandwidth/jobs/7380787",
       "https://job-boards.greenhouse.io/bandwidth/jobs/7380793",
       "https://job-boards.greenhouse.io/bandwidth/jobs/7386207",
+      "https://job-boards.greenhouse.io/bandwidth/jobs/7571536",
       "https://job-boards.greenhouse.io/bandwidth/jobs/7815899",
       "https://job-boards.greenhouse.io/bandwidth/jobs/7844136",
       "https://job-boards.greenhouse.io/bandwidth/jobs/7951507",
-      "https://job-boards.greenhouse.io/bandwidth/jobs/7979318",
-      "https://job-boards.greenhouse.io/bandwidth/jobs/7571536"
+      "https://job-boards.greenhouse.io/bandwidth/jobs/7979318"
     ]
   },
   {
@@ -3193,11 +3203,11 @@
     ]
   },
   {
-    "name": "c3",
+    "name": "c3iot",
     "ats": "greenhouse",
-    "identifier": "c3",
+    "identifier": "c3iot",
     "domain": "https://c3.ai",
-    "page": "https://boards-api.greenhouse.io/v1/boards/c3/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/c3iot/jobs",
     "urls": [
       "https://c3.ai/job-description/8106513002?gh_jid=8106513002"
     ]
@@ -5644,7 +5654,8 @@
       "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Draper-UT/Software-Engineering-Intern--Draper--UT---Summer-2026_R202671816",
       "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Product-Management-Intern--Summer-2026_R202566735",
       "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Long-Island-NY/Software-Engineering-Intern---North-Hills--NY_R202566837",
-      "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Mission-KS/Product-Management-Intern--Summer-2026_R202566767"
+      "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Mission-KS/Product-Management-Intern--Summer-2026_R202566767",
+      "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Software-Engineer-I_R202676249"
     ]
   },
   {
@@ -7136,6 +7147,19 @@
     "urls": [
       "https://envista.wd1.myworkdayjobs.com/en-US/envistacareers/job/United-States-of-America--California--Pomona/Manufacturing-Software-Intern_R5024205",
       "https://envista.wd1.myworkdayjobs.com/envistacareers/job/France--Ile-de-France-Paris/Software-Developer---C---NET--ReactJS--Azure_R5026475"
+    ]
+  },
+  {
+    "name": "eofd.fa.us6.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "eofd.fa.us6.oraclecloud.com",
+    "domain": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
+    "page": "https://eofd.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "urls": [
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718439",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718380",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718180",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/717997"
     ]
   },
   {
@@ -8846,9 +8870,9 @@
       "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Kuala-Lumpur/System-Engineer---Plant-Operability---Design_R5039973-1",
       "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Lisburn/System---Electricronics-Engineering-Intern_R5037346-3",
       "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Niskayuna/Software-Engineering-Intern---Summer-2026_R5022361-1",
+      "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Remote/Talent-Acquisition-Partner---Engineering--Digital---Software_R5044015-1",
       "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Rochester/GE-Vernova-Engineering-Intern---Summer-Fall-2026_R5032378-1",
-      "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Stafford/NPI-Engineering-Intern_R5037154-1",
-      "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Remote/Talent-Acquisition-Partner---Engineering--Digital---Software_R5044015-1"
+      "https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Stafford/NPI-Engineering-Intern_R5037154-1"
     ]
   },
   {
@@ -10411,6 +10435,16 @@
     ]
   },
   {
+    "name": "instead",
+    "ats": "greenhouse",
+    "identifier": "instead",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/instead/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/instead/jobs/7761472003"
+    ]
+  },
+  {
     "name": "insulet",
     "ats": "workday",
     "identifier": "insulet-insuletcareers",
@@ -10765,7 +10799,10 @@
       "https://www.ixl.com/company/jobs?gh_jid=8430295002",
       "https://www.ixl.com/company/jobs?gh_jid=8430300002",
       "https://www.ixl.com/company/jobs?gh_jid=8486934002",
-      "https://www.ixl.com/company/jobs?gh_jid=8486939002"
+      "https://www.ixl.com/company/jobs?gh_jid=8486939002",
+      "https://www.ixl.com/company/jobs?gh_jid=8574199002",
+      "https://www.ixl.com/company/jobs?gh_jid=8574194002",
+      "https://www.ixl.com/company/jobs?gh_jid=8574195002"
     ]
   },
   {
@@ -12065,7 +12102,8 @@
       "https://leidos.wd5.myworkdayjobs.com/External/job/San-Diego-CA/Software-Intern_R-00184039",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Shiloh-IL/Software-Engineer-Intern_R-00168719",
       "https://leidos.wd5.myworkdayjobs.com/External/job/Walled-Lake-MI/Software-Engineer---Web-Development-Intern_R-00172085-1",
-      "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Intern_R-00180640"
+      "https://leidos.wd5.myworkdayjobs.com/external/job/San-Diego-CA/Software-Intern_R-00180640",
+      "https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Junior-Software-Engineer_R-00184572"
     ]
   },
   {
@@ -13429,7 +13467,8 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Full-Stack-Software-Engineer-Intern---Summer-2026-Internship_R60172",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/West-Valley-City-UT/C--Software-Engineer---Summer-2026-Internship_R60312",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/West-Valley-City-UT/Software-Engineering-Intern---2026-Summer-Internship_R61268",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Westminster-CO/Software-Engineer---Summer-2026-Internship_R60535"
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Westminster-CO/Software-Engineer---Summer-2026-Internship_R60535",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Edinburgh-UK-ZUK129/Junior-Back-End-Engineer_R65538"
     ]
   },
   {
@@ -14292,9 +14331,9 @@
       "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/YWG-BW/Software-Developer-Co-op_R-23789",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/CYA-G/XMLNAME-2026-Software---Data-Science-Internships_R-23658",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Sr-System-Quality-Engineer_R-27475-1",
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/MLV-GV/Mobile-C-Arm-Clinical-Education-Specialist_R-28707-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YOW-B/Software-Quality-Assurance-Specialist-Co-Op_R-28766",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/MLV-GV/Mobile-C-Arm-Clinical-Education-Specialist_R-28707-1"
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476"
     ]
   },
   {
@@ -17136,7 +17175,16 @@
     "domain": "https://sofi.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
     "urls": [
-      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003",
+      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003"
+    ]
+  },
+  {
+    "name": "sofiuniversity",
+    "ats": "greenhouse",
+    "identifier": "sofiuniversity",
+    "domain": "https://www.sofi.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sofiuniversity/jobs",
+    "urls": [
       "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
       "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
       "https://www.sofi.com/careers/sofi-university/7585152003?gh_jid=7585152003",
@@ -17989,7 +18037,8 @@
       "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Software-Engineer-Intern-Co-op_R_1467905",
       "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/TD-Talent-Connect---University-of-Toronto--January-15---16--2026-_R_1458605",
       "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Summer-Internship-Program---Platforms-and-Technology---Software-Engineer_R_1443892",
-      "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Summer-Internship-Program---Platforms-and-Technology---Software-Engineer_R_1443921"
+      "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2026-Summer-Internship-Program---Platforms-and-Technology---Software-Engineer_R_1443921",
+      "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Software-Engineer-I---Reconciliations_R_1492243"
     ]
   },
   {
@@ -18343,6 +18392,16 @@
       "https://job-boards.greenhouse.io/thetradedesk/jobs/4787577007",
       "https://job-boards.greenhouse.io/thetradedesk/jobs/4959712007",
       "https://job-boards.greenhouse.io/thetradedesk/jobs/5033765007"
+    ]
+  },
+  {
+    "name": "thinkahead",
+    "ats": "lever",
+    "identifier": "thinkahead",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/thinkahead?mode=json",
+    "urls": [
+      "https://jobs.lever.co/thinkahead/e7ad3413-bcb6-4c19-9632-89ad7b5e5146/apply"
     ]
   },
   {
@@ -19300,8 +19359,8 @@
       "https://job-boards.greenhouse.io/verkada/jobs/5099529007",
       "https://job-boards.greenhouse.io/verkada/jobs/5099596007",
       "https://job-boards.greenhouse.io/verkada/jobs/5100623007",
-      "https://job-boards.greenhouse.io/verkada/jobs/5117760007",
-      "https://job-boards.greenhouse.io/verkada/jobs/5101666007"
+      "https://job-boards.greenhouse.io/verkada/jobs/5101666007",
+      "https://job-boards.greenhouse.io/verkada/jobs/5117760007"
     ]
   },
   {
@@ -19762,7 +19821,8 @@
     "page": "https://waystar.wd1.myworkdayjobs.com/wday/cxs/waystar/waystar/jobs",
     "urls": [
       "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Atlanta-GA/Application-Engineer-Co-Op--GA-Tech-_R3061",
-      "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Lehi-UT/Application-Engineer---Intern_R2979-1"
+      "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Lehi-UT/Application-Engineer---Intern_R2979-1",
+      "https://waystar.wd1.myworkdayjobs.com/Waystar/job/Louisville-KY/Software-Engineer-I_R3246"
     ]
   },
   {
