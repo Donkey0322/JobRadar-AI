@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "86d288cd6f10100e4c77e48527fc0000",
+    "title": "Software Engineer, Hardware Tools and Methodology - New College Grad 2026",
+    "jobDescription": "<p>Our work at NVIDIA is dedicated towards a computing model focused on visual and AI computing. For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics, with our invention of the GPU. The GPU has also shown to be spectacularly effective at solving some of the most complex problems in computer science. Today, NVIDIA’s GPU simulates human intelligence, running deep learning algorithms and acting as the brain of computers, robots and self-driving cars that can perceive and understand the world. We are looking to grow our company and teams with the smartest people in the world and there has never been a more exciting time to join our team!</p><p></p><p>The NVIDIA Clocks team is looking for a dedicated and motivated Software developer with particular interest in algorithms and RTL Design. Understanding both Software and Hardware principles will be a key requirement for this role.</p><p></p><p><b>What you&#39;ll be doing:</b></p><ul><li><p>Architect, design, develop and support tools for RTL generation across all NVIDIA products.</p></li><li><p>Architect automated workflows for supporting deliverables to multiple cross functional teams.</p></li><li><p>Improve algorithms (in C&#43;&#43;) for automated connectivity, auto logic insertion and post processing Verilog RTL.</p></li><li><p>Improve quality of existing tools and flows used by the team.</p></li></ul><p></p><p><b>What we need to see:</b></p><ul><li><p>Master&#39;s degree or higher in Computer Engineer or Electrical Engineering (or equivalent experience).</p></li><li><p>Coding skills in C&#43;&#43;.</p></li><li><p>Good understanding of ASIC Design and understanding of Verilog RTL.</p></li><li><p>Experience working across multi-functional teams.</p></li></ul><p></p><p><b>Ways to stand out from the crowd:</b></p><ul><li><p>Prior experience in RTL design (Verilog), verification and synthesis.</p></li><li><p>Experience in C&#43;&#43;, Perl, Python, Make scripting.</p></li><li><p>Knowledge of Clocks/Resets design and verification.</p></li></ul><p></p><p>NVIDIA is widely considered one of the technology world’s most desirable employers. We employ some of the most forward-thinking and talented people in the world. Are you passionate about joining our life work to amplify human imagination and intelligence? If you are creative, collaborative, and have a real passion for design methodology and automation, we want to hear from you.</p><p></p><p>#LI-Hybrid</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 116,000 USD - 189,750 USD for Level 2, and 136,000 USD - 218,500 USD for Level 3.<div><div><div><div><div><div><div><p></p><p><span>You will also be eligible for equity and <a href=\"https://www.nvidia.com/en-us/benefits/\" target=\"_blank\">benefits</a>.</span></p><p></p></div></div></div></div></div></div></div>Applications for this job will be accepted at least until June 7, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-03",
+    "timeType": "Full time",
+    "jobReqId": "JR2018659",
+    "jobPostingId": "Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+    "questionnaireId": "2f2764b3a82910064296831695150000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
