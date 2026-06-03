@@ -1,0 +1,96 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/ibkr/jobs/8201020002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 6250521002,
+  "location": {
+    "name": "Greenwich, CT"
+  },
+  "metadata": [
+    {
+      "id": 13672187002,
+      "name": "JOB CODE",
+      "value": "COMPANA - Analyst - Compliance",
+      "value_type": "single_select"
+    },
+    {
+      "id": 13402223002,
+      "name": "Internal Department",
+      "value": "SWD Compliance Tech",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4840941002,
+      "name": "Payroll Company",
+      "value": [
+        "Interactive Brokers LLC"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 5151510002,
+      "name": "In house Recruiting Directions",
+      "value": "1. Application Review\n2. PI Test\n3. Video Interview with hiring manager",
+      "value_type": "long_text"
+    },
+    {
+      "id": 10893651002,
+      "name": "pi_job_name",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 10893652002,
+      "name": "pi_assessmentType",
+      "value": "Behavior",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12718264002,
+      "name": "LI TAG",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 14234973002,
+      "name": "Remote only/Hybrid/in-office only",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8201020002,
+  "updated_at": "2026-06-02T09:41:42-04:00",
+  "requisition_id": "4625",
+  "title": "Compliance Analyst – CAT Transaction System",
+  "company_name": "Interactive Brokers",
+  "first_published": "2025-10-08T09:35:39-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Company Overview&lt;/h3&gt;\n&lt;p&gt;Interactive Brokers Group, Inc. (Nasdaq: IBKR) is a global financial services company headquartered in Greenwich, CT, USA, with offices in over 15 countries. We have been at the forefront of financial innovation for over four decades, known for our cutting-edge technology and client commitment.&lt;/p&gt;\n&lt;p&gt;IBKR affiliates provide global electronic brokerage services around the clock on stocks, options, futures, currencies, bonds, and funds to clients in over 200 countries and territories. We serve individual investors and institutions, including financial advisors, hedge funds and introducing brokers. Our advanced technology, competitive pricing, and global market help our clients to make the most of their investments.&lt;/p&gt;\n&lt;p&gt;Barron&#39;s has recognized Interactive Brokers as the #1 online broker for six consecutive years. Join our dynamic, multi-national team and be a part of a company that simplifies and enhances financial opportunities using state-of-the-art technology.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;This is a hybrid role (4 days in office / 1 day remote)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Interactive Brokers is looking for an experienced Data Analyst with data analysis experience, preferably in the commodities or securities industry. This position is responsible for handling compliance supervision over reporting to various non-financial systems. Prior experience working with order audit trail reporting systems, order handling or trading systems, or client data is highly desired but not required.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This position is focused on the Consolidated Audit Trail (“CAT”) reporting systems and compliance supervision to ensure that the firm has complied with the rules. This is an operational and oversight function that requires the ability to read regulations, research and analyze data, understand technical implementations of systems, and devise control procedures to test compliance.&lt;/p&gt;\n&lt;p&gt;Experience in researching transactional reporting issues to form evidence-based conclusions is a necessary skill. Experience in data analysis and/or system development or improvement is strongly preferred. While preference will be given to individuals with financial services industry experience, similar compliance experience in another industry will also be considered.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Specific Job Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;1–2 years of experience as a Data Analyst/Data Scientist&lt;/li&gt;\n&lt;li&gt;Reviewing regulatory data to identify root causes and necessary remediation for errors&lt;/li&gt;\n&lt;li&gt;Using UNIX command tools to make corrections to records as needed&lt;/li&gt;\n&lt;li&gt;Developing surveillance for regulatory reporting and operational data&lt;/li&gt;\n&lt;li&gt;Automating the CAT Feedback system&lt;/li&gt;\n&lt;li&gt;Following up with software developers and/or management on any errors or exceptions that arise&lt;/li&gt;\n&lt;li&gt;Gathering facts to assist the firm in responding to examinations and formal inquiries&lt;/li&gt;\n&lt;li&gt;Proposing improvements to, or additional controls over, regulatory reporting&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree required, preferably in a quantitative or analytical field&lt;/li&gt;\n&lt;li&gt;Experience in an analytical role, preferably in the financial industry&lt;/li&gt;\n&lt;li&gt;Strong data analysis, investigatory, and problem-solving skills&lt;/li&gt;\n&lt;li&gt;The ideal candidate would have some degree of self-sufficiency in performing data analysis using common programming languages (e.g., Python, Perl) and database queries (e.g., SQL)&lt;/li&gt;\n&lt;li&gt;Regulatory research and interpretation skills&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills, including the ability to discuss and write about complex topics in a manner that is both precise and persuasive&lt;/li&gt;\n&lt;li&gt;Familiarity with, or the ability to learn, advanced Excel skills is required (e.g., pivot tables, macros)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Familiarity with the following is a plus:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;FINRA Consolidated Audit Trail (“CAT”) / Order Audit Trail (“OATS”) systems&lt;/li&gt;\n&lt;li&gt;FIX protocol&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Technological orientation is required, with the following specific skills highly valued:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;UNIX knowledge is part of this job and must be learned on the job, but prior experience is preferred&lt;/li&gt;\n&lt;li&gt;Programming skills in Python, Perl, or Go are highly desirable&lt;/li&gt;\n&lt;li&gt;Experience using Atlassian systems (e.g., Confluence and JIRA) is a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;To be successful in this position, you will have the following:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Self-motivated and able to handle tasks with minimal supervision&lt;/li&gt;\n&lt;li&gt;Superb analytical and problem-solving skills&lt;/li&gt;\n&lt;li&gt;Excellent collaboration and communication (verbal and written) skills&lt;/li&gt;\n&lt;li&gt;Outstanding organizational and time management skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Company Benefits &amp;amp; Perks&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, annual performance-based bonus, and stock grant&lt;/li&gt;\n&lt;li&gt;Retirement plan 401(k) with competitive company match&lt;/li&gt;\n&lt;li&gt;Excellent health and wellness benefits, including medical, dental, and vision coverage; company-paid healthcare premium&lt;/li&gt;\n&lt;li&gt;Wellness screenings and assessments, health coaches, and counseling services through an Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;Daily company lunch allowance and a fully stocked kitchen with healthy options for breakfast and snacks&lt;/li&gt;\n&lt;li&gt;Corporate events, including team outings, dinners, volunteer activities, and company sports teams&lt;/li&gt;\n&lt;li&gt;Education reimbursement and learning opportunities&lt;/li&gt;\n&lt;/ul&gt;",
+  "departments": [
+    {
+      "id": 4112304002,
+      "name": "Compliance",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014195002,
+      "name": "Greenwich, CT",
+      "location": "Greenwich, CT",
+      "child_ids": [],
+      "parent_id": 4015565002
+    }
+  ]
+}

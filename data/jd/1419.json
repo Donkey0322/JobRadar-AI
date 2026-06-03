@@ -1,0 +1,118 @@
+{
+  "id": "744000129829907",
+  "name": "Civil CAD Designer - Land Development",
+  "uuid": "bda8e20d-22ce-428d-9434-21bfe83419a0",
+  "jobId": "3ffa6319-2bb4-490c-ba70-34a317ce43b2",
+  "jobAdId": "d1ab820f-e9f5-4373-9e51-9d4867cb9db3",
+  "defaultJobAd": true,
+  "refNumber": "REF700Q",
+  "company": {
+    "name": "RE/SPEC Inc.",
+    "identifier": "RESPECInc"
+  },
+  "location": {
+    "city": "Tampa",
+    "region": "FL",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "27.9516896",
+    "longitude": "-82.45875269999999",
+    "fullLocation": "Tampa, FL, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "645d492625ecc27257c2a131",
+      "fieldLabel": "Market Sector",
+      "valueId": "f6c079f0-8408-4bf0-b88a-4c94f96b6e5e",
+      "valueLabel": "Development Services"
+    },
+    {
+      "fieldId": "645e5ba2dc40724e00029992",
+      "fieldLabel": "Position Type",
+      "valueId": "13a5dc2b-6d0a-4875-b251-5ba04b2db5f7",
+      "valueLabel": "full-time"
+    },
+    {
+      "fieldId": "645e60fdf4fd30650a36a278",
+      "fieldLabel": "Discipline",
+      "valueId": "5c2ce2d7-3042-423e-9bdc-8b494941d763",
+      "valueLabel": "Civil Engineering"
+    },
+    {
+      "fieldId": "645a723d8cae26269fa50d3c",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "RE/SPEC Inc."
+    },
+    {
+      "fieldId": "645e61c927311855b0479d37",
+      "fieldLabel": "Classification",
+      "valueId": "f9282d4f-9e5f-48e4-96dd-53d9b86bda98",
+      "valueLabel": "non-exempt"
+    }
+  ],
+  "releasedDate": "2026-06-02T18:17:05.963Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/RESPECInc/744000129829907-civil-cad-designer-land-development",
+  "applyUrl": "https://jobs.smartrecruiters.com/RESPECInc/744000129829907-civil-cad-designer-land-development?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/RESPECInc/publication/bda8e20d-22ce-428d-9434-21bfe83419a0?dcr_ci=RESPECInc",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>Big challenges need bold thinkers.</strong></p><p>If you’re someone who sees problems as opportunities, you’ll thrive here. <strong>RESPEC is 100% employee-owned</strong>, which means we take ownership of every challenge. Here, your ideas drive real solutions. Since 1969, we’ve tackled complex challenges in energy transition, infrastructure resilience, digital transformation, and sustainability.</p><p><strong>At RESPEC, you’ll work alongside clients to take on critical problems</strong>. Depending on your expertise, you might design infrastructure in remote locations, develop renewable energy solutions for global projects, or apply data-driven technology to improve mining and water systems.</p><p>We bring deep technical knowledge, real-world experience, and a commitment to work that matters. If you're looking for a place where your contributions have real impact, you’ll fit right in.</p><p><strong>We do not accept unsolicited resumes from third-party recruiters.</strong></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>RESPEC seeks a Civil Computer Aided Design (CAD) Designer located in Tampa, Sarasota, or Ft. Myers, Florida.</p><p>The Civil CAD Designer will provide drafting and design support for civil engineering projects, including site development, municipal infrastructure, and utility design. Projects will vary in size and complexity and be produced in a collaborative office environment alongside project managers, engineers, and other design professionals.</p><p><strong>Key Responsibilities:</strong></p><ul><li>Develop and maintain civil engineering drawings and models using AutoCAD Civil 3D</li><li>Prepare site, grading, utility, and roadway plans for land development projects</li><li>Incorporate design updates and revisions based on input from engineers and project managers</li><li>Coordinate with internal team members to ensure accuracy, consistency, and quality of design documents</li><li>Maintain drawing standards, file organization, and project documentation</li><li>Support permitting and construction documentation efforts</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required:</strong></p><ul><li>Associate’s degree or technical certification in drafting, engineering technology, or related field</li><li>A minimum of 3 years of experience in civil engineering drafting and design</li><li>Proficiency in AutoCAD Civil 3D, including surfaces, alignments, profiles, corridors, and pipe networks</li><li>Experience managing multidisciplinary teams and multiple concurrent projects</li><li>Strong communication, leadership, and organizational skills</li><li>Must possess a valid driver's license and maintain a clean driving record; position requires operating a company or personal vehicle during work hours for business-related travel</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Compensation: </strong>Salary depends on experience and expertise. Compensation includes a comprehensive fringe-benefits package.&#xa0;RESPEC is a 100 percent employee-owned company and employees are eligible for participation in the Employee Stock Ownership Plan (ESOP) after a qualifying period.</p><p><strong>Featured benefits:</strong>&#xa0;</p><ul><li>Flexible Work Schedules</li><li>Paid Parental Leave</li><li>401(k) &amp; ESOP&#xa0;(with company match up to 4%)</li><li>Professional Development and Training</li><li>Tuition Reimbursement</li><li>Employee Assistance Program</li><li>Medical/Dental/Vision Insurance Plans</li></ul><p><strong>Equal Opportunity Employer, including veterans and individuals with disabilities.&#xa0;</strong></p><div sr-tagline=\"\"></div><p>All your information will be kept confidential according to EEO guidelines.</p>"
+      },
+      "videos": {
+        "title": "Videos To Watch",
+        "urls": [
+          "https://vimeo.com/969135315"
+        ]
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "civil_engineering",
+    "label": "Civil Engineering"
+  },
+  "function": {
+    "id": "consulting",
+    "label": "Consulting"
+  },
+  "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

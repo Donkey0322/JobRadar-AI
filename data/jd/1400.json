@@ -1,0 +1,95 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/ibkr/jobs/4809436002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4609005002,
+  "location": {
+    "name": "Greenwich, CT"
+  },
+  "metadata": [
+    {
+      "id": 13672187002,
+      "name": "JOB CODE",
+      "value": "SFTWRDEV\tDeveloper - Software",
+      "value_type": "single_select"
+    },
+    {
+      "id": 13402223002,
+      "name": "Internal Department",
+      "value": "SWD Brokerage-AA",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4840941002,
+      "name": "Payroll Company",
+      "value": [
+        "IBG LLC"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 5151510002,
+      "name": "In house Recruiting Directions",
+      "value": "1)First PI and Codility test , should score more than 75% before moving to HM review \n2) Resumes will be tagged to Glen Fernandes and Pavel Tolkachev for initial review.\n3) First interview - Pavel Tolkachev and Glen Fernandes\n4) Final Interview – Anthony Antonucci and Konstantine",
+      "value_type": "long_text"
+    },
+    {
+      "id": 10893651002,
+      "name": "pi_job_name",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 10893652002,
+      "name": "pi_assessmentType",
+      "value": "Behavior",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12718264002,
+      "name": "LI TAG",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 14234973002,
+      "name": "Remote only/Hybrid/in-office only",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4809436002,
+  "updated_at": "2026-06-02T09:41:42-04:00",
+  "requisition_id": "2331",
+  "title": "Software Developer - C++",
+  "company_name": "Interactive Brokers",
+  "first_published": "2020-07-30T15:51:29-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Company Overview&lt;/h3&gt;\n&lt;p&gt;Interactive Brokers Group, Inc. (Nasdaq: IBKR) is a global financial services company headquartered in Greenwich, CT, USA, with offices in over 15 countries. We have been at the forefront of financial innovation for over four decades, known for our cutting-edge technology and client commitment.&lt;/p&gt;\n&lt;p&gt;IBKR affiliates provide global electronic brokerage services around the clock on stocks, options, futures, currencies, bonds, and funds to clients in over 200 countries and territories. We serve individual investors and institutions, including financial advisors, hedge funds and introducing brokers. Our advanced technology, competitive pricing, and global market help our clients to make the most of their investments.&lt;/p&gt;\n&lt;p&gt;Barron&#39;s has recognized Interactive Brokers as the #1 online broker for six consecutive years. Join our dynamic, multi-national team and be a part of a company that simplifies and enhances financial opportunities using state-of-the-art technology.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Join the INTERACTIVE BROKERS Team!&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a knowledgeable C++ Developer to work under the general supervision of a team of application programmers, with good technical knowledge. Ability to communicate effectively understanding complex problems and explain their solution with extreme attention to detail. The position is well-suited for an organized individual who can meet deadlines, follow written procedures while supporting the team and collaborating to service improvements.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;You will be part of:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The Brokerage System Development Team that is responsible for providing trading and related backend systems used in brokerage business&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;You will be someone who can:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, implement and deliver high quality software solutions that conform to architectural standards&lt;/li&gt;\n&lt;li&gt;Manage and &#39;own&#39; significant development tasks end-to-end (from business requirements analysis to 3rd level production support)&lt;/li&gt;\n&lt;li&gt;Demonstrate excellent collaboration / communication skills in working closely with other development teams to roll-out important changes and applications&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who you are :&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s in Computer Science, Mathematics, Physics or similar (masters/PhD a plus).&lt;/li&gt;\n&lt;li&gt;Experience of at least 2 years in software development in C++, Object Oriented Programming, Networking, STL at educational and/or professional level.&lt;/li&gt;\n&lt;li&gt;In-depth understanding of OOP, design patterns, data structures, algorithms, and concurrency&lt;/li&gt;\n&lt;li&gt;Proficiency in Linux / UNIX / shell scripting.&lt;/li&gt;\n&lt;li&gt;Knowledge developing and debugging in C/C++&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Company Perks:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, annual performance-based bonus and stock grant&lt;/li&gt;\n&lt;li&gt;Retirement plan (401K) with company match&lt;/li&gt;\n&lt;li&gt;Excellent health and welfare benefits including medical, dental, and vision benefits&lt;/li&gt;\n&lt;li&gt;Wellness screenings and assessments, health coaches and counseling services through Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;&lt;span class=&quot;ui-provider uq b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Daily company lunch allowance provided&lt;/span&gt; and a fully stocked kitchen with healthy options for breakfast and snack&lt;/li&gt;\n&lt;li&gt;Corporate events including team outings, dinners, volunteer activities and company sports teams&lt;/li&gt;\n&lt;li&gt;Education reimbursement and learning opportunities with Udemy&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-SV1&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4027657002,
+      "name": "Software & Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014195002,
+      "name": "Greenwich, CT",
+      "location": "Greenwich, CT",
+      "child_ids": [],
+      "parent_id": 4015565002
+    }
+  ]
+}

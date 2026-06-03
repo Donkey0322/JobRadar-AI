@@ -1,0 +1,62 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/verkada/jobs/5101666007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4615223007,
+  "location": {
+    "name": "San Mateo, CA United States"
+  },
+  "metadata": [
+    {
+      "id": 4423171007,
+      "name": "Employment Type",
+      "value": "Full-Time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4748595007,
+      "name": "Published Pay Range",
+      "value": {
+        "unit": "USD",
+        "max_value": "160000.0",
+        "min_value": "120000.0"
+      },
+      "value_type": "currency_range"
+    }
+  ],
+  "id": 5101666007,
+  "updated_at": "2026-06-02T18:39:02-04:00",
+  "requisition_id": "JR002821",
+  "title": "Full Stack Engineer, Go-to-Market Systems",
+  "company_name": "Verkada",
+  "first_published": "2026-04-08T13:13:31-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We’ve got serious momentum in the market: more than 30,000 customers (including 100+ of the Fortune 500), &lt;a href=&quot;https://www.cnbc.com/2025/12/03/verkada-capitalg-valuation-security.html&quot;&gt;a $5.8B valuation&lt;/a&gt;, more than $1 billion in annualized bookings, and backing from CapitalG, Sequoia Capital, General Catalyst, Felicis Ventures, Next47 and more. Physical AI is one of the most consequential technology shifts of our time, and Verkada is at the center of it.&lt;/p&gt;\n&lt;p&gt;You can look at all kinds of communities to see our platform’s impact in the world. It&#39;s the retailer that uses our agentic AI to deter theft before it happens. The warehouse that uses AI-powered alerts to make sure its team is protected on the floor with proper PPE. The school that’s alerted to a threat in real-time and triggers a lockdown in seconds, not minutes. We’re rapidly scaling this impact: today, more than 2 million Verkada devices are deployed across 170+ countries.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;As a member of our Business Systems Engineering team, you will build or improve tools that are used daily by Go-to-Market teams. Our goal is to find bottlenecks and friction points, and drive process improvements as well as come up with technical solutions. Our team is the custodian of data that is used by sales, order, finance, support teams. We emphasize automation over operation, metrics over anecdotes, iteration over perfection and being proactive over responsive.&lt;/p&gt;\n&lt;p&gt;We are committed to a thriving in-office culture. This role requires you to be onsite at our HQ in San Mateo, CA.&lt;/p&gt;\n&lt;h3 class=&quot;p-rich_text_section&quot;&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;What You&#39;ll Do&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate with a team of engineers to implement new features, optimize existing systems for usability, and scale data pipelines for growth&lt;/li&gt;\n&lt;li&gt;Work with business stakeholders to understand their needs and design technical solutions based on high level requirements&lt;/li&gt;\n&lt;li&gt;Write software in a variety of languages including Apex, JavaScript, and Golang&lt;/li&gt;\n&lt;li&gt;Build cloud based services in the AWS platform that addresses reliability and scale&lt;/li&gt;\n&lt;li&gt;Decide when to build from scratch versus leveraging existing tools or external solutions.&lt;/li&gt;\n&lt;li&gt;Implement integrations with third-party software&lt;/li&gt;\n&lt;li&gt;You should be comfortable learning new systems and APIs quickly to make informed decisions about whether to adopt and implement new technologies.&lt;/li&gt;\n&lt;li&gt;Develop customer empathy to propose improvements to systems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p-rich_text_section&quot;&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;What You Bring&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree in a technical field with strong foundational knowledge of CS fundamentals and data structures&lt;/li&gt;\n&lt;li&gt;Shipped customer-facing products or internal tools in the past&lt;/li&gt;\n&lt;li&gt;Ability to write clean, testable code and participate in rigorous peer code reviews&lt;/li&gt;\n&lt;li&gt;Flexible and adaptive in a fast-paced startup environment&lt;/li&gt;\n&lt;li&gt;Passion for observability and reliability&lt;/li&gt;\n&lt;li&gt;Salesforce experience not required but preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p-rich_text_section&quot;&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;US Employee Benefits&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Verkada is committed to fostering a workplace environment that prioritizes the holistic health and wellbeing of our employees and their families by offering comprehensive wellness perks, benefits, and resources. Our benefits and perks programs include, but are not limited to:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Healthcare programs that can be tailored to meet the personal health and financial well-being needs - Premiums are 100% covered for the employee under at least one plan and 80% for family premiums under all plans&lt;/li&gt;\n&lt;li&gt;Nationwide medical, vision and dental coverage&lt;/li&gt;\n&lt;li&gt;Health Saving Account (HSA) with annual employer contributions and Flexible Spending Account (FSA) with tax saving options&lt;/li&gt;\n&lt;li&gt;Expanded mental health support&lt;/li&gt;\n&lt;li&gt;Paid parental leave policy &amp;amp; fertility benefits&lt;/li&gt;\n&lt;li&gt;Time off to relax and recharge through our paid holidays, firmwide extended holidays, flexible PTO and personal sick time&lt;/li&gt;\n&lt;li&gt;Professional development stipend&lt;/li&gt;\n&lt;li&gt;Fertility stipend&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Wellness/fitness benefits&lt;/li&gt;\n&lt;li&gt;Healthy lunches provided daily&lt;/li&gt;\n&lt;li&gt;Commuter benefits&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p-rich_text_section&quot;&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Additional Information&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;We do sponsor and take over sponsorship of employment visas for this role. If we make you an offer, we will make every reasonable effort to get you a visa.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;&lt;span class=&quot;C9DxTc &quot;&gt;Annual Pay Range&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;At Verkada, we want to attract and retain the best employees, and compensate them in a way that appropriately and fairly values their individual contribution to the company. With that in mind, we carefully consider a number of factors to determine the appropriate starting pay for an employee, including their primary work location and an assessment of a candidate&#39;s skills and experience, as well as market demands and internal parity. A Verkada employee may be eligible for additional forms of compensation, depending on their role, including sales incentives, discretionary bonuses, and/or equity in the company in the form of restricted stock units (RSUs)&lt;/p&gt;\n&lt;p&gt;Below is the annual on-target earnings (OTE) range for full-time employees for this position, comprised of base compensation and commissions (if applicable).&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Estimated Annual Pay Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$120,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$160,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;h3&gt;&lt;strong&gt;Verkada Is An Equal Opportunity Employer&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;As an equal opportunity employer, Verkada is committed to providing employment opportunities to all individuals. All applicants for positions at Verkada will be treated without regard to race, color, ethnicity, religion, sex, gender, gender identity and expression, sexual orientation, national origin, disability, age, marital status, veteran status, pregnancy, or any other basis prohibited by applicable law.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Your application will be handled in accordance with our &lt;a href=&quot;https://www.verkada.com/privacy/candidate-privacy-policy&quot; target=&quot;_blank&quot; data-saferedirecturl=&quot;https://www.google.com/url?q=https://url.uk.m.mimecastprotect.com/s/E_spClO3Ac9pX43h9dXa8/&amp;amp;source=gmail&amp;amp;ust=1719327847319000&amp;amp;usg=AOvVaw10eB41dX5dzNP9yveIJLsf&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4021254007,
+      "name": "Business Systems",
+      "child_ids": [],
+      "parent_id": 4019299007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014758007,
+      "name": "Bay-HQ office",
+      "location": "San Mateo, California, United States",
+      "child_ids": [],
+      "parent_id": 4014755007
+    }
+  ]
+}

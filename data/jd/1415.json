@@ -1,0 +1,52 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/7932214",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 3446585,
+  "location": {
+    "name": "Santa Clara, California"
+  },
+  "metadata": [
+    {
+      "id": 37087123,
+      "name": "Cost Center",
+      "value": "14100 Pure IT",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7932214,
+  "updated_at": "2026-06-02T18:52:53-04:00",
+  "requisition_id": "17752",
+  "title": "Zuora Developer",
+  "company_name": "Everpure",
+  "first_published": "2026-06-02T18:52:53-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;We’re in an unbelievably exciting area of tech and are fundamentally reshaping the data storage industry. Here, you lead with innovative thinking, grow along with us, and join the smartest team in the industry.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As a Zuora Developer at Everpure(formerly Pure Storage) within the Digital Transformation Group, you will be the technical architect behind our mission-critical subscription and billing engine. You will drive the evolution of our financial ecosystem by designing sophisticated workflows and leading our transition to advanced models like Order Harmonization. Collaborating closely with Finance, Sales Ops, and Engineering, you will ensure our billing platform scales seamlessly as we continue to outpace the industry in growth and innovation.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Architect Complex Workflows:&lt;/strong&gt; Design and deploy advanced Zuora workflows using Lambda functions, ZOQL, and liquid-based operations to automate intricate billing cycles and data processing.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Lead Strategic Transitions:&lt;/strong&gt; Manage the technical migration from Zuora Subscription Billing to Order Harmonization, overseeing API re-architecting and process optimization to ensure zero-disruption to revenue operations.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Synchronize the Ecosystem:&lt;/strong&gt; Build and maintain robust integrations between Zuora, Salesforce (via 360 Sync), and NetSuite to ensure real-time data integrity across our lead-to-cash pipeline.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Customize for Scale:&lt;/strong&gt; Configure and tune the Zuora Product Catalog, security settings, and communication profiles to support rapid product launches and evolving subscription lifecycles.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Solve Technical Hurdles:&lt;/strong&gt; Translate complex business requirements into high-performance technical solutions, acting as the subject matter expert for role-based security, revenue metrics, and custom invoice templating.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Zuora Development Expertise:&lt;/strong&gt; Deep technical proficiency in Zuora APIs, ZOQL, and workflow design, with a focus on subscription billing and payment solutions.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Integration &amp;amp; ERP Knowledge:&lt;/strong&gt; Proven experience integrating billing platforms with Salesforce and ERP systems (like NetSuite), including expertise in configuring 360 Sync and managing REST API callouts.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Order-to-Cash Fluency:&lt;/strong&gt; A strong understanding of the subscription lifecycle—from amendments and renewals to revenue recognition and finance-driven reporting.&lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Modern Billing Architecture:&lt;/strong&gt; Specific experience navigating Zuora Order Harmonization and a track record of implementing automated billing solutions in a fast-paced enterprise environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Location: &lt;/strong&gt;We are primarily an in-office environment and therefore, you will be expected to work from the Santa Clara, CA office in compliance with Everpure’s policies, unless you are on PTO, or work travel, or other approved leave.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;INCLUDE FOR POSTING LOCATION IDENTIFICATION&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp; #LI-ONSITE&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Salary ranges are determined based on role, level and location. For positions open to candidates in multiple geographical locations, the base salary range is reflective of the labor market across the applicable locations.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;This role may be eligible for incentive pay and/or equity.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;There is no application deadline and we accept applications on an ongoing basis until the job is filled.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The annual base salary range is: &lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$140,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$210,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://purebenefits.com&quot;&gt;purebenefits.com&lt;/a&gt; for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 1597,
+      "name": "IT",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 90112,
+      "name": "Office - Santa Clara",
+      "location": "Santa Clara, California, United States",
+      "child_ids": [],
+      "parent_id": 43830
+    }
+  ]
+}

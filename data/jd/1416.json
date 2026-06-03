@@ -1,0 +1,52 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/racapitalmanagementllc/jobs/4563736008",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4193310008,
+  "location": {
+    "name": "Boston, MA"
+  },
+  "metadata": [
+    {
+      "id": 6307937008,
+      "name": "Employment Category",
+      "value": "Full-time - Exempt",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4563736008,
+  "updated_at": "2026-06-02T13:55:35-04:00",
+  "requisition_id": "69",
+  "title": "AI Engineer",
+  "company_name": "RA Capital Management, LLC",
+  "first_published": "2025-03-02T21:51:15-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Imagine if you had the skills, knowledge, and teammates to both understand the root of the world’s most pressing problems and build the technologies and companies best positioned to solve them. &lt;strong&gt;RA Capital&lt;/strong&gt; has done exactly that for more than two decades, backing bold ideas in medicines to further human health and now expanding into Planetary Health to improve how efficiently we utilize the world’s precious resources.&lt;/p&gt;\n&lt;p&gt;RA Capital is among the leading providers of capital and services to the most promising innovators in the world. &amp;nbsp;We invest flexibly—seed to IPO and beyond, anywhere in the world—with $10 B+ under management and a culture that prizes curiosity, rigor, and collaborative debate. We are investors who not only fund companies but get elbow deep in building them. From helping them recruit talent to helping them recruit patients for their studies to helping match them to strategic partners and even going to Washington to win reforms, RA Capital’s large team has people with nearly every relevant expertise one might need to turn an idea into a cure that actually helps people.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you live for first-principles problem-solving with great colleagues, thrive on complexity, and want to do meaningful work that ripples across industries and ecosystems, you’ll feel at home at RA Capital. Here, questions are welcomed, ideas are tested, and victories are shared. Even our lawyers are creative and engaging. And don’t get us started on our compliance team’s wicked sense of humor; nothing about what we do is boring.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Are you ready to bring your creativity, discipline and collaborative spirit to help us invent the future? Join us and you’ll collaborate daily with investors, founders, physicians, biologists, engineers, economists, and reform advocates who think in systems and act with urgency.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Join us to invent a happier, healthier, more productive future - and have fun doing it.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Role Overview&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;As an engineer within the AI/ML space, you&#39;ll be instrumental in developing and implementing AI/ML solutions that transform how we identify and evaluate investment opportunities in biomedical technologies. You&#39;ll work at the intersection of software development, large language models, predictive analytics, and investment analysis.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;Key Responsibilities&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and develop end-to-end AI applications, from concept through deployment&lt;/li&gt;\n&lt;li&gt;Create and optimize deep learning models for diverse data types (time-series, business data, images) and prediction tasks&lt;/li&gt;\n&lt;li&gt;Build and enhance large language models trained on proprietary research data&lt;/li&gt;\n&lt;li&gt;Implement real-time prediction systems operating on various timescales (millisecond to daily)&lt;/li&gt;\n&lt;li&gt;Develop full-stack AI applications with both frontend and backend components&lt;/li&gt;\n&lt;li&gt;Optimize model performance and solve complex multi-layered data challenges&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;Academic &amp;amp; Experience Requirements&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Master&#39;s in a Computer Science – AI and Machine Learning field required; Bachelors Degree with equivalent experience&lt;/li&gt;\n&lt;li&gt;Extensive academic or professional background in Computer Science with AI specialization&lt;/li&gt;\n&lt;li&gt;2-3 years of professional software engineering experience&lt;/li&gt;\n&lt;li&gt;Healthcare and/or finance industry experience strongly preferred&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;Technical Requirements&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Expert-level Python programming skills&lt;/li&gt;\n&lt;li&gt;Strong proficiency in JavaScript and Java&lt;/li&gt;\n&lt;li&gt;Deep understanding of machine learning fundamentals (regression, classification, clustering)&lt;/li&gt;\n&lt;li&gt;Extensive knowledge of neural networks and deep learning frameworks (PyTorch)&lt;/li&gt;\n&lt;li&gt;Proven expertise with AWS AI platforms (SageMaker, Bedrock)&lt;/li&gt;\n&lt;li&gt;Experience with containerization and orchestration (ECS, Kubernetes)&lt;/li&gt;\n&lt;li&gt;Strong foundation in algorithms and data structures&lt;/li&gt;\n&lt;li&gt;Strong proficiency with the latest agentic coding techniques using tools like Claude Code or Codex.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Professional experience with building advanced AI workflows, MCPs, agent swarms etc…&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;Additional Requirements&lt;/strong&gt;&lt;/div&gt;\n&lt;ul&gt;\n&lt;li&gt;Excellent English communication skills for collaboration with team members and stakeholders&lt;/li&gt;\n&lt;li&gt;Strong problem-solving abilities and investigative mindset&lt;/li&gt;\n&lt;li&gt;Experience with full AI/ML development lifecycle&lt;/li&gt;\n&lt;li&gt;Ability to work in a collaborative, mentorship-driven environment&lt;/li&gt;\n&lt;li&gt;Ability to work in a hybrid environment in our local Boston office&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;What Makes This Role Unique&lt;/strong&gt;&lt;/div&gt;\n&lt;div&gt;You&#39;ll be working with extensive proprietary datasets and building systems that directly impact investment decisions in breakthrough medical and climate technologies. Success in this role means creating AI systems that help fund innovations that can extend and improve human lives.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p data-start=&quot;174&quot; data-end=&quot;401&quot;&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/p&gt;\n&lt;p data-start=&quot;132&quot; data-end=&quot;320&quot;&gt;RA Capital Management is committed to fair and equitable compensation practices. Pay for this position will be based on experience, skills, qualifications, and current market conditions.&lt;/p&gt;\n&lt;p data-start=&quot;322&quot; data-end=&quot;529&quot;&gt;In addition to base salary (listed below), employees may be eligible for performance-based bonuses and a comprehensive benefits package that includes health insurance, retirement contributions, and paid time off.&lt;/p&gt;\n&lt;h3 data-start=&quot;531&quot; data-end=&quot;553&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Total Rewards&lt;/span&gt;&lt;/h3&gt;\n&lt;p data-start=&quot;554&quot; data-end=&quot;713&quot;&gt;We take pride in offering a comprehensive employee benefits program as a key part of overall compensation. Our Total Rewards include:&lt;/p&gt;\n&lt;ul data-start=&quot;714&quot; data-end=&quot;955&quot;&gt;\n&lt;li data-start=&quot;714&quot; data-end=&quot;792&quot;&gt;\n&lt;p data-start=&quot;716&quot; data-end=&quot;792&quot;&gt;&lt;strong data-start=&quot;716&quot; data-end=&quot;750&quot;&gt;Employer-paid monthly premiums&lt;/strong&gt; for health, dental, and vision coverage&lt;/p&gt;\n&lt;/li&gt;\n&lt;li data-start=&quot;793&quot; data-end=&quot;873&quot;&gt;\n&lt;p data-start=&quot;795&quot; data-end=&quot;873&quot;&gt;&lt;strong data-start=&quot;795&quot; data-end=&quot;829&quot;&gt;Wellness benefits and programs&lt;/strong&gt; to support physical and mental well-being&lt;/p&gt;\n&lt;/li&gt;\n&lt;li data-start=&quot;874&quot; data-end=&quot;955&quot;&gt;\n&lt;p data-start=&quot;876&quot; data-end=&quot;955&quot;&gt;&lt;strong data-start=&quot;876&quot; data-end=&quot;899&quot;&gt;Resources and perks&lt;/strong&gt; that enhance work-life balance and financial security&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-start=&quot;957&quot; data-end=&quot;1037&quot;&gt;We’re dedicated to helping our employees thrive professionally and personally.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Massachusetts base pay range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$120,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$180,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;&lt;em&gt;​RA Capital&amp;nbsp;is an equal opportunity employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you require an accommodation during the interview process, please reach out to careers@racap.com for assistance.&lt;/em&gt;&lt;/div&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4032358008,
+      "name": "Information Technology (IT)",
+      "child_ids": [],
+      "parent_id": 4032352008
+    }
+  ],
+  "offices": [
+    {
+      "id": 4027558008,
+      "name": "RA Capital",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/eulerity/jobs/4686277006",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4550139006,
+  "location": {
+    "name": "New York, New York"
+  },
+  "metadata": null,
+  "id": 4686277006,
+  "updated_at": "2026-06-02T17:13:12-04:00",
+  "requisition_id": "151",
+  "title": "Software Engineer (Web SDK)",
+  "company_name": "Eulerity",
+  "first_published": "2026-06-02T17:13:12-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;em&gt;Eulerity is a fast-growing marketing technology company transforming how franchises and small businesses approach digital advertising. Built by former leaders from Google, Facebook, and Yahoo!, our platform combines decades of experience in engineering and marketing to deliver an industry-leading, automated solution. We make it easy to plan, launch, and analyze paid campaigns across Google Search, Meta (Facebook/Instagram), Display, Video, and organic social - all from one intuitive platform. We believe breakthrough results happen when technology, strategy, and creativity come together. By combining automation with human insight, we empower brands to scale smarter, move faster, and grow stronger. Internally, we&#39;re just as committed to growth. We cultivate a culture where ambitious, curious, and driven individuals are empowered to lead, learn, and elevate those around them.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Designing, building, and shipping &lt;strong&gt;developer-facing SDKs&lt;/strong&gt; consumed by other engineers.&lt;/li&gt;\n&lt;li&gt;Owning the SDK as a product: the public API surface, TypeScript types, semantic versioning, packaging/distribution, backwards compatibility, and documentation.&lt;/li&gt;\n&lt;li&gt;Building and maintaining AI-powered automation workflows that connect our product to internal and external systems.&lt;/li&gt;\n&lt;li&gt;Developing and testing new features using AI-assisted tooling and autonomous agents, maintaining the codebase, integrating with APIs and data models, and owning the PR lifecycle (writing, reviewing, and incorporating feedback).&lt;/li&gt;\n&lt;li&gt;Collaborating across web, mobile, and backend teams to align on best practices, shared architecture, and product direction.&lt;/li&gt;\n&lt;li&gt;Partnering with Product and Design to translate designs and prototypes into shipped solutions for our users and the engineers who build on our SDK.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;SDK/library builder.&lt;/strong&gt; You design clean, intuitive, hard-to-misuse APIs and think about the developer on the other side of your interface.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;AI-first engineer.&lt;/strong&gt; You&#39;ve set up custom automation workflows (e.g., wiring Claude or similar LLMs into forms, APIs, or internal tools to replace manual work).&lt;/li&gt;\n&lt;li&gt;A self-starter who can take ownership of a project and work independently and collaboratively.&lt;/li&gt;\n&lt;li&gt;Rigorous about reviewing AI-generated output and taking full ownership of the code you ship.&lt;/li&gt;\n&lt;li&gt;Good attention to detail and initiative.&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills — including the ability to document an SDK so another engineer can succeed with it.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Proven experience designing and shipping a developer-facing SDK, library, or public API consumed by other engineers&lt;/strong&gt; — including the public API/interface design, semantic versioning, and backwards-compatibility discipline that come with it.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong separation-of-concerns judgment&lt;/strong&gt; — able to design framework-agnostic core logic (data, state, domain types) cleanly decoupled from thin, framework-specific bindings, so the same core can support multiple front-end frameworks over time.&lt;/li&gt;\n&lt;li&gt;Experience packaging and distributing libraries: bundling (e.g., tsup, Rollup, Vite), ESM/CJS output, tree-shaking and bundle-size awareness, and npm publishing.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;2–3 years of professional experience with React &amp;amp; TypeScript&lt;/strong&gt;, including building reusable, composable components and using strong types as a public contract.&lt;/li&gt;\n&lt;li&gt;Well-versed in building custom AI automation workflows (LLM API integrations, agentic tooling, or similar).&lt;/li&gt;\n&lt;li&gt;Solid understanding of fundamentals (HTML/CSS/JavaScript, working with APIs).&lt;/li&gt;\n&lt;li&gt;Familiarity with standard engineering workflows (PRs, code review, agile).&lt;/li&gt;\n&lt;li&gt;Strong written communication, including clear technical documentation.&lt;/li&gt;\n&lt;li&gt;Based in the NYC metro area and able to work hybrid from our NYC office.&lt;/li&gt;\n&lt;li&gt;Authorized to work in the US.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;A Strong Plus&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience building &lt;strong&gt;embeddable / third-party components&lt;/strong&gt; — style and CSS isolation (shadow DOM or scoped styles), theming and customization, and secure auth/token handling inside a host app.&lt;/li&gt;\n&lt;li&gt;Monorepo and release tooling (e.g., Changesets, Turborepo, Nx) and automated CI release pipelines.&lt;/li&gt;\n&lt;li&gt;Backend / full-stack work (Java).&lt;/li&gt;\n&lt;li&gt;Technical writing and developer documentation experience.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;🩺 Comprehensive benefits\n&lt;ul&gt;\n&lt;li&gt;Medical&lt;/li&gt;\n&lt;li&gt;Dental&lt;/li&gt;\n&lt;li&gt;Vision&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;🏖️ Unlimited PTO&lt;/li&gt;\n&lt;li&gt;🍽️ In-office lunch stipend and unlimited snacks&lt;/li&gt;\n&lt;li&gt;🚅 Commuter benefits&lt;/li&gt;\n&lt;li&gt;📈 401(k) with company match&lt;/li&gt;\n&lt;li&gt;💻 Hybrid model (3x in office per week)&lt;/li&gt;\n&lt;li&gt;😎 Summer Fridays&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our salary ranges are based on paying competitively for our company&#39;s size and industry, and are one part of the total compensation package that also includes benefits, perks and other opportunities at Eulerity. The expected range for this role is $95,000 - $125,000, commensurate with experience and level.&lt;/p&gt;\n&lt;p&gt;******************************************************************************&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;IMPORTANT 🛑&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=&quot;https://forms.gle/94Sys8Lh6wkfiNLe9&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;&lt;strong&gt;PLEASE FILL THIS FORM TO COMPLETE YOUR APPLICATION&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;******************************************************************************&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4004462006,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4002110006,
+      "name": "New York",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

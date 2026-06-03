@@ -1,0 +1,96 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/ibkr/jobs/8365234002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 6339716002,
+  "location": {
+    "name": "New York, NY"
+  },
+  "metadata": [
+    {
+      "id": 13672187002,
+      "name": "JOB CODE",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 13402223002,
+      "name": "Internal Department",
+      "value": "Ent Architecture",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4840941002,
+      "name": "Payroll Company",
+      "value": [
+        "Interactive Brokers Corp."
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 5151510002,
+      "name": "In house Recruiting Directions",
+      "value": "1. HR Phone Screening\n2. PI Test\n3. Video Interview",
+      "value_type": "long_text"
+    },
+    {
+      "id": 10893651002,
+      "name": "pi_job_name",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 10893652002,
+      "name": "pi_assessmentType",
+      "value": "Behavior",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12718264002,
+      "name": "LI TAG",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 14234973002,
+      "name": "Remote only/Hybrid/in-office only",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8365234002,
+  "updated_at": "2026-06-02T09:41:42-04:00",
+  "requisition_id": "4707",
+  "title": "Data Engineer (Gen AI)",
+  "company_name": "Interactive Brokers",
+  "first_published": "2026-01-13T15:26:17-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Company Overview&lt;/h3&gt;\n&lt;p&gt;Interactive Brokers Group, Inc. (Nasdaq: IBKR) is a global financial services company headquartered in Greenwich, CT, USA, with offices in over 15 countries. We have been at the forefront of financial innovation for over four decades, known for our cutting-edge technology and client commitment.&lt;/p&gt;\n&lt;p&gt;IBKR affiliates provide global electronic brokerage services around the clock on stocks, options, futures, currencies, bonds, and funds to clients in over 200 countries and territories. We serve individual investors and institutions, including financial advisors, hedge funds and introducing brokers. Our advanced technology, competitive pricing, and global market help our clients to make the most of their investments.&lt;/p&gt;\n&lt;p&gt;Barron&#39;s has recognized Interactive Brokers as the #1 online broker for six consecutive years. Join our dynamic, multi-national team and be a part of a company that simplifies and enhances financial opportunities using state-of-the-art technology.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;This is Hybrid role (3 days in office /2 days remote)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About your Team:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Enterprise Architecture organization is looking for a Data Engineer to join the team and help build the next generation of data infrastructure and AI-enabled workflows. In this role, you will be responsible for designing, building, and maintaining scalable data pipelines, data lake platforms, and analytics solutions that support enterprise-wide AI initiatives and advanced analytics capabilities. You will partner closely with internal development teams and IT leadership to architect data solutions that meet diverse use-cases across the organization. This role offers the opportunity to work with cutting-edge data technologies, AI knowledge bases, and cloud-native data platforms as we scale our data operations. Your work will focus on delivering robust, well-documented data solutions and establishing best practices for data engineering across the enterprise.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;What will be your responsibilities within IBKR:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;· Design, build, and maintain scalable data crawlers and ETL/ELT pipelines to ingest data from various sources including enterprise collaboration tools, web applications, and internal databases&lt;/p&gt;\n&lt;p&gt;· Develop and manage data lake platform infrastructure including S3-based storage, Iceberg tables, AWS Glue data catalog, and cloud data warehouse solutions for analytics workloads&lt;/p&gt;\n&lt;p&gt;· Build and optimize real-time streaming data pipelines using Kafka for event-driven analytics and data processing&lt;/p&gt;\n&lt;p&gt;· Create and maintain data transformation pipelines to clean, curate, and prepare data for analytics and AI/ML applications, supporting multiple data formats including structured, semi-structured, and unstructured data (text, images, audio, video)&lt;/p&gt;\n&lt;p&gt;· Develop Python-based applications for data ingestion, processing, and integration supporting Gen AI RAG workflows and knowledge base systems&lt;/p&gt;\n&lt;p&gt;· Collaborate with internal development teams, data scientists, and stakeholders to understand requirements, architect appropriate data solutions, and create comprehensive technical documentation&lt;/p&gt;\n&lt;p&gt;· Monitor, troubleshoot, and optimize data pipelines for performance, reliability, and data quality&lt;/p&gt;\n&lt;p&gt;· Write clean, maintainable, well-tested code following software engineering and data engineering best practices&lt;/p&gt;\n&lt;p&gt;· Create comprehensive technical documentation for data pipelines, architectures, and platform capabilities&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;What required skill’s you need:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;· 6+ years of hands-on data engineering experience with modern data stack technologies&lt;/p&gt;\n&lt;p&gt;· Strong experience with AWS cloud services, particularly: S3, AWS Glue, Athena, EMR, Lambda&lt;/p&gt;\n&lt;p&gt;· Proficiency in Python for data processing, ETL, and application development&lt;/p&gt;\n&lt;p&gt;· Experience with PySpark on EMR for large-scale data processing&lt;/p&gt;\n&lt;p&gt;· Strong SQL skills for data analysis and transformation&lt;/p&gt;\n&lt;p&gt;· Experience building and maintaining ETL/ELT pipelines at scale&lt;/p&gt;\n&lt;p&gt;· Experience with Kafka for streaming data pipelines and real-time data processing&lt;/p&gt;\n&lt;p&gt;· Knowledge of data lake architectures and modern table formats (e.g., Iceberg)&lt;/p&gt;\n&lt;p&gt;· Experience with CI/CD practices using Git, version control systems, and containerization (Docker)&lt;/p&gt;\n&lt;p&gt;· Understanding of data modeling, data warehousing concepts, and analytics best practices&lt;/p&gt;\n&lt;p&gt;· Exceptional problem-solving and analytical skills&lt;/p&gt;\n&lt;p&gt;· Excellent collaboration and communication (verbal and written) skills&lt;/p&gt;\n&lt;p&gt;· Self-motivated with ability to work independently and manage multiple priorities&lt;/p&gt;\n&lt;p&gt;· Willingness and enthusiasm to learn AI/ML technologies, stay current with emerging data engineering trends&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;To be successful in this position, you will have the following:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Self-motivated and able to handle tasks with minimal supervision.&lt;/li&gt;\n&lt;li&gt;Superb analytical and problem-solving skills.&lt;/li&gt;\n&lt;li&gt;Excellent collaboration and communication (Verbal and written) skills.&lt;/li&gt;\n&lt;li&gt;Outstanding organizational and time management skills.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Company Benefits &amp;amp; Perks&lt;/h3&gt;\n&lt;div&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, annual performance-based bonus and stock grant&lt;/li&gt;\n&lt;li&gt;Retirement plan 401(k) with competitive company match&lt;/li&gt;\n&lt;li&gt;Excellent health and wellness benefits, including medical, dental, and vision benefits. Company paid medical healthcare premium.&lt;/li&gt;\n&lt;li&gt;Wellness screenings and assessments, health coaches and counseling services through an Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;Paid time off and a generous parental leave policy&lt;/li&gt;\n&lt;li&gt;Daily company lunch allowance provided and a fully stocked kitchen with healthy options for breakfast and snack&lt;/li&gt;\n&lt;li&gt;Corporate events including team outings, dinners, volunteer activities and company sports teams&lt;/li&gt;\n&lt;li&gt;Education reimbursement and learning opportunities&lt;/li&gt;\n&lt;li&gt;Modern offices with multi-monitor setups&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The anticipated base salary range for this role is $150,000 to $200,000 per year, based on skills, experience, and location. The offered salary is just part of the total compensation package. In addition to a competitive salary, the company offers both a discretionary cash bonus and a stock award, as well as a wide range of benefits, including healthcare, tuition reimbursement, and more.&lt;/em&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4027657002,
+      "name": "Software & Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014255002,
+      "name": "New York, NY",
+      "location": "New York, NY",
+      "child_ids": [],
+      "parent_id": 4015565002
+    }
+  ]
+}

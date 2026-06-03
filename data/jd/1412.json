@@ -1,0 +1,143 @@
+{
+  "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=7851388",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3421176,
+  "location": {
+    "name": "New York City"
+  },
+  "metadata": [
+    {
+      "id": 22194060,
+      "name": "Position ID",
+      "value": "10006164",
+      "value_type": "short_text"
+    },
+    {
+      "id": 24918,
+      "name": "Department ID",
+      "value": "D21200-R&D Developer Productivity",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22194061,
+      "name": "Team",
+      "value": "T10087-Build & Verification",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4914027,
+      "name": "Region",
+      "value": "North America",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4137836,
+      "name": "Working Model Eligibility",
+      "value": [
+        "2-Flexible"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4914029,
+      "name": "Job Level",
+      "value": "Professional - IC",
+      "value_type": "single_select"
+    },
+    {
+      "id": 24109,
+      "name": "Employment Type",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 1073551,
+      "name": "Job Type",
+      "value": "Standard",
+      "value_type": "single_select"
+    },
+    {
+      "id": 988684,
+      "name": "JD Link",
+      "value": null,
+      "value_type": "url"
+    },
+    {
+      "id": 5525802,
+      "name": "Baseline Budgeted Salary",
+      "value": {
+        "unit": "USD",
+        "max_value": "140000.0",
+        "min_value": "98000.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 5525816,
+      "name": "Other Large Market Budgeted Salary",
+      "value": null,
+      "value_type": "currency_range"
+    },
+    {
+      "id": 13324394,
+      "name": "Job Post Range (United States)",
+      "value": {
+        "unit": "USD",
+        "max_value": "154000.0",
+        "min_value": "78000.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 40497768,
+      "name": "Job Post Range (Canada)",
+      "value": {
+        "unit": "USD",
+        "max_value": "0.0",
+        "min_value": "0.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 57694516,
+      "name": "Job Post Range (Poland)",
+      "value": null,
+      "value_type": "currency_range"
+    }
+  ],
+  "id": 7851388,
+  "updated_at": "2026-06-02T09:49:45-04:00",
+  "requisition_id": "1273421176",
+  "title": "Software Engineer, Developer Productivity",
+  "company_name": "MongoDB",
+  "first_published": "2026-05-08T12:41:47-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;MongoDB is a complex, mission-critical database server that operates in a wide range of environments. Customers rely on its ability to meet high standards for Performance, Security, Availability, and Correctness. Achieving these standards requires robust developer tooling for every layer of the stack, from the underlying C++ storage engine through our Atlas Cloud offering. The Developer Productivity organization plays a vital role in enabling MongoDB engineers to ship products that meet our high company standards.&lt;/p&gt;\n&lt;p&gt;The Build Team focuses on ensuring that our code is able to be packaged and shipped for all supported operating systems and architectures. We are responsible for ensuring that this build happens consistently, quickly, and correctly, and that we do as much as possible to ensure performance and correctness of the resulting binaries. Tooling changes can have a substantial impact on the final product we ship to customers, with tooling changes recently yielding a 10% improvement in the overall performance of the MongoDB database. Under the hood we use the Bazel build system in order to meet these goals and to handle the multi-language nature of code shipped at MongoDB.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We are looking to speak to candidates who are based in New York City for our hybrid working model.&lt;/p&gt;\n&lt;h3&gt;The ideal candidate should&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Have completed a relevant software development internship or similar summer research experience&lt;/li&gt;\n&lt;li&gt;Have experience and interest in using and tuning AI tools to accelerate development velocity and improve code quality&lt;/li&gt;\n&lt;li&gt;Be interested in learning about build systems such as Bazel and assembling and shipping highly complex software at scale&lt;/li&gt;\n&lt;li&gt;Be interested in working specifically with C++, Rust, Python, and Java&lt;/li&gt;\n&lt;li&gt;Demonstrate the ability to quickly learn, adapt to, and excel with new technologies, frameworks, and tools in dynamic environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Expectations&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Update our tooling to improve the reliability, performance, and developer experience of the systems used every day by developers, locally and in our continuous integration environments&lt;/li&gt;\n&lt;li&gt;Provide internal support for our systems, answering questions and addressing technical issues as they arise&lt;/li&gt;\n&lt;li&gt;Learn about core software development principles around shipping code at scale, and grow your ability to contribute to the overall operational excellence of our build systems&lt;/li&gt;\n&lt;li&gt;Demonstrate a strong empathy for our internal customers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Success&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Three Months:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;After three months, you will have made contributions to in-progress software development projects. You will be able to reliably work on small features and bugs. You will be expected to start looking for medium sized features and projects of approximately 2 weeks of effort.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Six Months:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You will have working knowledge of many of our build systems and be able to consistently deliver medium sized projects and features with low supervision in some areas, interfacing with customers and stakeholders. You will be suggesting appropriate smaller fixes and improvements to our codebase, and be able to provide input on smaller projects and features proposed by other members of the team.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;One Year:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You will regularly be making contributions to technical projects that have a meaningful impact on our ability to reliably deliver a good experience for the developers that use our products at MongoDB. You will have strong knowledge of areas of our code that you have worked in, and will be able to provide some guidance on technical directions, with support from senior engineers.&lt;/p&gt;\n&lt;h3&gt;About MongoDB&lt;/h3&gt;\n&lt;p&gt;MongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the database for the AI era, enabling innovators to create, transform, and disrupt industries with software. MongoDB’s unified database platform, the most widely available, globally distributed database on the market, helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available across AWS, Google Cloud, and Microsoft Azure.&lt;/p&gt;\n&lt;p&gt;With offices worldwide and over 60,000 customers, including 75% of the Fortune 100 and AI-native startups, relying on MongoDB for their most important applications, we’re powering the next era of software.&lt;/p&gt;\n&lt;p&gt;Our compass at MongoDB is our &lt;a href=&quot;https://www.mongodb.com/company&quot;&gt;Leadership Commitment,&lt;/a&gt; guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. &lt;a href=&quot;https://www.mongodb.com/company/blog/culture/employee-benefits-that-make-a-difference-at-mongodb&quot;&gt;From employee affinity groups, to fertility assistance and a generous parental leave policy&lt;/a&gt;, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys.&lt;a href=&quot;https://www.mongodb.com/blog/channel/culture&quot;&gt; Learn more about what it’s like to work at MongoDB&lt;/a&gt;, and help us make an impact on the world!&lt;/p&gt;\n&lt;p&gt;MongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter.&lt;/p&gt;\n&lt;p&gt;MongoDB, Inc. provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type and makes all hiring decisions without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&lt;/p&gt;\n&lt;p&gt;Req. ID: 1273421176&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;MongoDB’s base salary range for this role is posted below. Compensation at the time of offer is unique to each candidate and based on a variety of factors such as skill set, experience, qualifications, and work location. Salary is one part of MongoDB’s total compensation and benefits package. Other benefits for eligible employees may include: equity, participation in the employee stock purchase program, flexible paid time off, 20 weeks fully-paid gender-neutral parental leave, fertility and adoption assistance, 401(k) plan, mental health counseling, access to transgender-inclusive health insurance coverage, and health benefits offerings. Please note, the base salary range listed below and the benefits in this paragraph are only applicable to U.S.-based candidates.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;MongoDB’s base salary range for this role in the U.S. is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$78,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$154,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 85974,
+      "name": "R&D Developer Productivity",
+      "child_ids": [],
+      "parent_id": 371021
+    }
+  ],
+  "offices": [
+    {
+      "id": 3960,
+      "name": "New York City",
+      "location": "New York, NY, United States",
+      "child_ids": [],
+      "parent_id": 23657
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lucidmotors/jobs/5051296007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4396896007,
+  "location": {
+    "name": "Newark, CA"
+  },
+  "metadata": [
+    {
+      "id": 4966939007,
+      "name": "Employee Class",
+      "value": "Regular",
+      "value_type": "single_select"
+    },
+    {
+      "id": 13097521007,
+      "name": "Division",
+      "value": "ADAS & Autonomous Vehicles",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433629007,
+      "name": "Job Function",
+      "value": "ENG",
+      "value_type": "short_text"
+    },
+    {
+      "id": 17433628007,
+      "name": "Sub Function",
+      "value": "STWENG",
+      "value_type": "short_text"
+    }
+  ],
+  "id": 5051296007,
+  "updated_at": "2026-06-02T15:03:44-04:00",
+  "requisition_id": "80011450 #1 - March 11, 2025 6:03 PM",
+  "title": "Sr ADAS Software Integration Engineer",
+  "company_name": "Lucid Motors",
+  "first_published": "2026-02-12T13:48:26-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;u&gt;&lt;strong&gt;Leading the future in luxury electric and mobility&lt;/strong&gt;&lt;/u&gt;&lt;/div&gt;\n&lt;div&gt;At Lucid, we set out to introduce the most captivating, luxury electric vehicles that elevate the human experience and transcend the perceived limitations of space, performance, and intelligence. Vehicles that are intuitive, liberating, and designed for the future of mobility.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;We plan to lead in this new era of luxury electric by returning to the fundamentals of great design – where every decision we make is in service of the individual and environment. Because when you are no longer bound by convention, you are free to define your own experience.&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div&gt;Come work alongside some of the most accomplished minds in the industry. Beyond providing competitive salaries, we’re providing a community for innovators who want to make an immediate and significant impact. If you are driven to create a better, more sustainable future, then this is the right place for you.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Role Responsibilities: • Requirements Analysis and Decomposition: Analyze and decompose system-level requirements into clear, actionable software tasks. Collaborate closely with system engineers to ensure alignment on ADAS feature requirements and system design integrity.&lt;/p&gt;\n&lt;p&gt;• SW integration: Develop and maintain integration pipeline for controls ADAS software to ensure automation of development and build pipelines.&lt;/p&gt;\n&lt;p&gt;• CI/CD infrastructure: Design, build, and maintain CI/CD infrastructure for L2/ L2++ ADAS projects, enabling scalable, automated build, integration, and validation pipelines to support rapid development and reliable software delivery. • Software Design and Architecture: Design robust, scalable software architectures for ADAS feature integration that meet functional, safety, and performance standards. • State Machine Implementation: Design and implement detailed state machine models for various ADAS features (active safety, driving, and parking). Validate correct logic through unit testing, SIL/HIL testing, and in-vehicle evaluation. • Cross-functional Collaboration: Partner with cross-functional teams including systems, product owner, validation, platform and controls to ensure seamless integration of ADAS features across the vehicle platform. • Documentation and Reporting: Maintain thorough documentation of software design, requirements traceability, unit test cases, and validation outcomes. Required Qualifications: • Bachelor&#39;s degree in Computer Science, Electrical Engineering, or a related field • 6+ years of experience in software development and software integration • Full-cycle software development experience with autonomous driving systems—from requirements to production deployment • Strong skills in C/C++/python and modeling environments such as MATLAB/Simulink&lt;/p&gt;\n&lt;p&gt;• Familiarity with CI/CD pipelines, build systems, and automated test frameworks • Strong debugging and problem-solving skills; comfortable working across embedded systems and real-time applications • Excellent communication skills and the ability to work effectively in a fast-moving, collaborative environment Preferred Qualifications: • Master’s degree with 6+ years experience, or Ph.D. with 3+ years experience • Hands-on experience with embedded platforms such as NVIDIA Xavier/Orin and Aurix; strong debugging and diagnostic skills across multicore architectures • Strong understanding of communication protocols (Ethernet) and tools like Vector CANape/CANoe&lt;/p&gt;\n&lt;p&gt;• Practical experience testing ADAS/AD features in both simulation and real-vehicle environments&lt;/p&gt;\n&lt;p&gt;• Deep knowledge in one or more areas of ADAS systems such as behavior planning, motion planning, or vehicle control • Experience with safety-critical systems and standards (e.g., ISO 26262, AUTOSAR)&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;div&gt;\n&lt;div&gt;&lt;strong&gt;Salary Range&lt;/strong&gt;: The compensation range for this position is specific to the locations listed below and is the range Lucid reasonably and in good faith expects to pay for the position taking into account the wide variety of factors that are considered in making compensation decisions, including job-related knowledge; skillset; experience, education and training; certifications; and other relevant business and organizational factors.&lt;/div&gt;\n&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Pay Range (Annual)&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$158,400&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$217,800 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;\n&lt;p class=&quot;p1&quot;&gt;&lt;strong&gt;Additional Compensation and Benefits&lt;/strong&gt;: Lucid offers a wide range of competitive benefits, including medical, dental, vision, life insurance, disability insurance, vacation, and 401k. The successful candidate may also be eligible to participate in Lucid’s equity program and/or a discretionary annual incentive program, subject to the rules governing such programs. &amp;nbsp;(Cash or equity incentive awards, if any, will depend on various factors, including, without limitation, individual and company performance.)&lt;/p&gt;\n&lt;p class=&quot;p1&quot;&gt;By Submitting your application, you understand and agree that your personal data will be processed in accordance with our &lt;u&gt;&lt;a class=&quot;postings-link&quot; href=&quot;https://lucidmotors.com/media/document/candidate-privacy-notice.pdf&quot;&gt;Candidate Privacy Notice&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div&gt;&lt;strong&gt;&lt;u&gt;To all recruitment agencies&lt;/u&gt;&lt;/strong&gt;: &lt;em&gt;Lucid Motors &lt;strong&gt;does not&lt;/strong&gt; accept agency resumes. Please do not forward resumes to our careers alias or other Lucid Motors employees. Lucid Motors is not responsible for any fees related to unsolicited resumes.&amp;nbsp;&lt;/em&gt;&lt;/div&gt;\n&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4056066007,
+      "name": "ADAS - HDW & SW Eng, ADAS & Autonomous Vehicles",
+      "child_ids": [],
+      "parent_id": 4056061007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4027053007,
+      "name": "Newark, CA",
+      "location": "Newark, CA",
+      "child_ids": [],
+      "parent_id": 4027047007
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "absolute_url": "https://www.asana.com/jobs/apply/7961475?gh_jid=7961475",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3456751,
+  "location": {
+    "name": "New York City"
+  },
+  "metadata": [
+    {
+      "id": 170878,
+      "name": "Cost Center",
+      "value": "304 Product Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 1310287,
+      "name": "Careers Page: Heading",
+      "value": "Engineering & Data",
+      "value_type": "single_select"
+    },
+    {
+      "id": 1310293,
+      "name": "Careers Page: Team",
+      "value": "Product Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4809868,
+      "name": "Careers Page: Location",
+      "value": [],
+      "value_type": "multi_select"
+    }
+  ],
+  "id": 7961475,
+  "updated_at": "2026-06-02T11:02:45-04:00",
+  "requisition_id": null,
+  "title": "Software Engineer",
+  "company_name": "Asana",
+  "first_published": "2026-06-02T11:02:45-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;The Product team builds full-stack features end-to-end. From designing our data models to implementing the subtle interaction behaviors that differentiate good software from great software. We work closely with UI designers and are supported by our infrastructure team. We aim to delight users with both large new features and smaller, daily product enhancements—thanks to our continuous deployment architecture. We want to create a superlative user experience, down to the smallest details.&lt;/p&gt;\n&lt;p&gt;This role is based in our New York City office with an office-centric hybrid schedule. The standard in-office days are Monday, Tuesday, and Thursday. Most Asanas have the option to work from home on Wednesdays. Working from home on Fridays depends on the type of work you do and the teams with which you partner. If you&#39;re interviewing for this role, your recruiter will share more about the in-office requirements.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll achieve&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;You will work full-stack to develop new features used by millions of Asana users&lt;/li&gt;\n&lt;li&gt;Participate in every step of the product development process with an open and curious team&lt;/li&gt;\n&lt;li&gt;Develop clean, beautiful code and leave it better than you found it&lt;/li&gt;\n&lt;li&gt;Experience growth and development by being paired with a mentor who will support and guide you through opportunities to stretch and learn&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About you&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience working within large, well maintained codebases&lt;/li&gt;\n&lt;li&gt;Experience using Typescript and React&lt;/li&gt;\n&lt;li&gt;Excellent communication skills for collaborating with other teams&lt;/li&gt;\n&lt;li&gt;Sound judgment when balancing moving quickly with producing quality code and long-term code maintainability&lt;/li&gt;\n&lt;li&gt;Passionate about creating a superlative user experience and attentive to details&lt;/li&gt;\n&lt;li&gt;Appreciate productivity and care deeply about helping teams collaborate more effectively and efficiently, including your own&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;At Asana, we&#39;re committed to building teams that include a variety of backgrounds, perspectives, and skills, as this is critical to helping us achieve our mission. If you&#39;re interested in this role and don&#39;t meet every listed requirement, we still encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we’ll offer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our comprehensive compensation package plays a big part in how we recognize you for the impact you have on our path to achieving our mission. We believe that compensation should be reflective of the value you create relative to the market value of your role. To ensure pay is fair and not impacted by biases, we&#39;re committed to looking at market value which is why we check ourselves and conduct a yearly pay equity audit.&lt;/p&gt;\n&lt;p&gt;For this role, the estimated base salary range is between $171,000 - $180,500. The actual base salary will vary based on various factors, including market and individual qualifications objectively assessed during the interview process. The listed range above is a guideline, and the base salary range for this role may be modified.&lt;/p&gt;\n&lt;p&gt;In addition to base salary, your compensation package may include additional components such as equity, sales incentive pay (for most sales roles), and benefits. If you&#39;re interviewing for this role, speak with your Talent Acquisition Partner to learn more about the total compensation and benefits for this role.&lt;/p&gt;\n&lt;p&gt;We strive to provide equitable and competitive benefits packages that support our employees worldwide and include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Mental health, wellness &amp;amp; fitness benefits&lt;/li&gt;\n&lt;li&gt;Career coaching &amp;amp; support&lt;/li&gt;\n&lt;li&gt;Inclusive family building benefits&lt;/li&gt;\n&lt;li&gt;Long-term savings or retirement plans&lt;/li&gt;\n&lt;li&gt;In-office culinary options to cater to your dietary preferences&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;These are just some of the benefits we offer, and benefits may vary based on role, country, and local regulations. If you&#39;re interviewing for this role, speak with your Talent Acquisition Partner to learn more about the total compensation and benefits for this role.&lt;/p&gt;\n&lt;p&gt;#LI-Hybrid #LI-AS2&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About us&lt;/strong&gt;&lt;/p&gt;\n&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Asana is a leading platform for human + AI collaboration. Millions of teams around the world rely on Asana to achieve their most important goals, faster. Asana has been named to Fortune&#39;s Best Workplaces for 7+ years and recognized by Fast Company, Forbes, and Gartner for excellence in workplace culture and innovation. We offer an exceptional office-centric culture while adopting the best elements of hybrid models to ensure that every one of our global team members can work together effortlessly. With 13+ offices all over the world, we are always looking for individuals who care about building technology that drives positive change in the world and a culture where everyone feels that they belong.&lt;/p&gt;\n&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;&lt;a class=&quot;LinkThemeablePresentation LinkPrimaryPresentation LinkPrimaryPresentation--sentimentSelected PrimaryLink HighlightSol HighlightSol--core HighlightSol--buildingBlock&quot; href=&quot;https://www.gem.com/form?formID=fbcdec8c-3442-43b9-9b45-d2b5f4ea25db&quot; target=&quot;_blank&quot;&gt;Join Asana’s Talent Network&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;to stay up to date on job opportunities and life at Asana.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 35964,
+      "name": "Product Engineering",
+      "child_ids": [],
+      "parent_id": 45381
+    }
+  ],
+  "offices": [
+    {
+      "id": 21727,
+      "name": "New York City",
+      "location": "New York City",
+      "child_ids": [],
+      "parent_id": 79812
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/transmarketgroup/jobs/5151549007?gh_jid=5151549007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4639180007,
+  "location": {
+    "name": "Chicago, Illinois, United States"
+  },
+  "metadata": null,
+  "id": 5151549007,
+  "updated_at": "2026-06-02T11:17:55-04:00",
+  "requisition_id": null,
+  "title": "Junior Software Engineer",
+  "company_name": "TransMarket Group",
+  "first_published": "2026-06-02T11:17:55-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Founded in 1980 as Aardvark Financial, TransMarket Group (TMG) is a privately held global markets proprietary trading firm in Chicago. We use next-generation technology to capture opportunities around the world and manage risk in financial markets. Our mission is to bless others through the services we provide and through the generous stewardship of the wealth we create.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;TMG is a well-established and profitable business as a respected member of the global financial system for over 40 years, but also is like a startup because the potential of our group is at least one order of magnitude greater than what we are currently producing. We have an entrepreneurial culture and collaboratively develop our business with patience and discipline; we work hard, learn constantly, and relentlessly improve our expertise.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our Software development team designs and builds low-latency systems that allow us to trade a diverse set of instruments across a wide range of financial marketplaces. This smaller, focused team comes with a high degree of responsibility and ownership. Our systems aim to be clean and understandable while achieving low latency and robust error tolerance. The libraries you work on will become the engine of our firm’s strategies.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work with Sr. Software Developers to assist and learn all facets of software development applied to the automated trading business&lt;/li&gt;\n&lt;li&gt;Develop, code, maintain, and support production-quality automated components for global proprietary trading&lt;/li&gt;\n&lt;li&gt;Develop expertise in software development principles, C++, and high-performance automated trading systems&lt;/li&gt;\n&lt;li&gt;Collaborate with technology, software, trading, business, and accounting/finance teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree in a quantitative or technical field&lt;/li&gt;\n&lt;li&gt;Passion for software and math applied to markets and trading&lt;/li&gt;\n&lt;li&gt;Strong understanding of computing, math, probability, statistics, and finance is also preferred&lt;/li&gt;\n&lt;li&gt;Programming proficiency and experience (C++, Python). Linux scripting is a plus&lt;/li&gt;\n&lt;li&gt;Strong work ethic and willingness to do what it takes to get the job done&lt;/li&gt;\n&lt;li&gt;Excellent technical and non-technical communication skills&lt;/li&gt;\n&lt;li&gt;This position requires physical presence and is onsite (no remote work)&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We offer one of the most generous profit sharing programs in the industry because we believe our employees should be able to take part in our rapid growth and success. We are proud to offer more world-class &lt;/span&gt;&lt;a href=&quot;https://www.transmarketgroup.com/benefits&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;benefits&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for our full-time employees and their families.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;em&gt;TransMarket Group is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, gender, sexual orientation, gender identity or expression, religion, national origin, marital status, age, disability, veteran status, genetic information, or any other protected status.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4000788007,
+      "name": "Software Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4000287007,
+      "name": "TransMarket Group",
+      "location": "Chicago, Illinois, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

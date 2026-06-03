@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://stripe.com/jobs/search?gh_jid=7922832",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3443969,
+  "location": {
+    "name": "Seattle, WA"
+  },
+  "metadata": null,
+  "id": 7922832,
+  "updated_at": "2026-06-02T15:42:36-04:00",
+  "requisition_id": "See Opening ID",
+  "title": "Software Engineer",
+  "company_name": "Stripe",
+  "first_published": "2026-05-22T11:10:01-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Design, build, and maintain APIs, services, and systems across Stripes engineering teams using Ruby, Java, and Scala&lt;/li&gt;\n&lt;li&gt;Build, develop, test and deploy software infrastructure&lt;/li&gt;\n&lt;li&gt;Design and develop software systems using scientific analysis and mathematical models to predict and measure outcome and consequences of design&lt;/li&gt;\n&lt;li&gt;Develop and direct software system testing and validation procedures, programming, and documentation&lt;/li&gt;\n&lt;li&gt;Debug production issues across services and multiple levels of the stack&lt;/li&gt;\n&lt;li&gt;Analyze user needs and software requirements to determine the feasibility of design within time and cost constraints&lt;/li&gt;\n&lt;li&gt;Work with engineers across the company to build new features at large-scale&lt;/li&gt;\n&lt;li&gt;Build new systems to securely store and reliably modify production systems&lt;/li&gt;\n&lt;li&gt;Improve engineering standards, tooling, and processes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Who you are&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We&#39;re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Minimum requirements&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Bachelor’s degree or foreign equivalent in Computer Science or related field plus 2 years of experience in software development.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Position also requires the following:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;2 years of experience working with Ruby, Java, Scala, or Go;&lt;/li&gt;\n&lt;li&gt;2 years of experience implementing industry standard design patterns;&lt;/li&gt;\n&lt;li&gt;2 years of experience building full-stack or backend applications at scale;&lt;/li&gt;\n&lt;li&gt;2 years of experience designing, building, and maintaining APIs, services, and distributed systems at scale; and&lt;/li&gt;\n&lt;li&gt;2 years of experience writing unit tests and performing manual testing of complex software changes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Salary: $190,400 - $285,600/yr.&lt;/p&gt;\n&lt;p&gt;This salary range represents the base salary range for the role and any sales commissions/sales bonuses targets, if applicable, would be in addition to the base salary.&lt;/p&gt;\n&lt;p&gt;40 hrs/week&lt;/p&gt;\n&lt;p&gt;50% Telecommuting Permitted.&lt;/p&gt;\n&lt;p&gt;Multiple Positions Available.&lt;/p&gt;\n&lt;p&gt;Additional benefits for this role may include: equity, company bonus or sales commissions/bonuses; 401(k) plan; medical, dental, and vision benefits; and wellness stipends.&lt;strong&gt; WA01&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;#LI-DNI&lt;/span&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 365162,
+      "name": "Global Operations",
+      "child_ids": [],
+      "parent_id": 349230
+    }
+  ],
+  "offices": [
+    {
+      "id": 344486,
+      "name": "US-PERM",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 65234
+    }
+  ]
+}

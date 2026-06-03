@@ -1,0 +1,87 @@
+{
+  "absolute_url": "https://nuro.ai/careersitem?gh_jid=7978428",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3203929,
+  "location": {
+    "name": "Mountain View, California (HQ)"
+  },
+  "metadata": [
+    {
+      "id": 53829309,
+      "name": "Location",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 4977510,
+      "name": "Department",
+      "value": "Fleet Infrastructure",
+      "value_type": "single_select"
+    },
+    {
+      "id": 954897,
+      "name": "Job Family",
+      "value": "Autonomy/ML Platform",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4993730,
+      "name": "Time Type",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4978502,
+      "name": "Worker Sub-Type",
+      "value": "Regular",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6653805,
+      "name": "Department (Job Board)",
+      "value": "Onboard Infrastructure",
+      "value_type": "single_select"
+    },
+    {
+      "id": 6644840,
+      "name": "Org (Job Board)",
+      "value": "Software",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7978428,
+  "updated_at": "2026-06-03T00:38:50-04:00",
+  "requisition_id": "R-101841",
+  "title": "Software Engineer, Performance",
+  "company_name": "Nuro",
+  "first_published": "2026-06-03T00:38:50-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;Who We Are&amp;nbsp;&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Nuro is a self-driving technology company on a mission to make autonomy accessible to all. Founded in 2016, Nuro is building the world’s most scalable driver, combining cutting-edge AI with automotive-grade hardware. Nuro licenses its core technology, the Nuro Driver™, to support a wide range of applications, from robotaxis and commercial fleets to personally owned vehicles. With technology proven over years of self-driving deployments, Nuro gives the automakers and mobility platforms a clear path to AVs at commercial scale, empowering a safer, richer, and more connected future.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the Role&lt;br&gt;&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are looking for talented engineers to join our Performance team to optimize the performance of Nuro’s AV software, ensuring our vehicles can react quickly and safely to the world around them. The team builds systems and tools for continuous performance analysis and drives latency reduction and resource efficiency efforts to ensure the autonomy teams can implement an autonomy stack that is efficient and performant for the current and future generations of the Nuro Driver.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the Work&lt;br&gt;&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Analyze, profile, debug, monitor, and optimize the performance of AV software&lt;/li&gt;\n&lt;li&gt;Design and develop systems and tools for memory management, thread prioritization, process/thread lifetime management&lt;/li&gt;\n&lt;li&gt;Work with engineers from different teams to define the system-level architecture and building blocks&lt;/li&gt;\n&lt;li&gt;Build core libraries and APIs to enable autonomy engineers to write high-performance code&lt;/li&gt;\n&lt;li&gt;Drive and encourage best practices within the team and the rest of the organization&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong system fundamentals and proficiency in C++&lt;/li&gt;\n&lt;li&gt;Expertise in computer architecture and operating systems&lt;/li&gt;\n&lt;li&gt;Experience developing in a highly concurrent, multi-processor, and multi-threaded environment&lt;/li&gt;\n&lt;li&gt;Experience with performance optimizations and software porting across a variety of compute architectures - like x86, ARM, GPUs, SoCs&lt;/li&gt;\n&lt;li&gt;Experience with performance profiling tools such as perf, VTune, BPF, Nvidia Nsight Systems&lt;/li&gt;\n&lt;li&gt;2+ years of relevant industry experience&lt;/li&gt;\n&lt;li&gt;BS, MS or PhD in CS, or related technical field&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Bonus Points:&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with GPU programming (e.g. CUDA, OpenCL) and low level driver optimization for Nvidia GPUs.&lt;/li&gt;\n&lt;li&gt;Experience with Nvidia DriveOS or ROS.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;At Nuro, your base pay is one part of your total compensation package. For this position, the reasonably expected base pay range is between $160,360 and $240,540 for the level at which this job has been scoped. Your base pay will depend on several factors, including your experience, qualifications, education, location, and skills. In the event that you are considered for a different level, a higher or lower pay range would apply. This position is also eligible for an annual performance bonus, equity, and a competitive benefits package.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At Nuro, we celebrate differences and are committed to a diverse workplace that fosters inclusion and psychological safety for all employees. Nuro is proud to be an equal opportunity employer and expressly prohibits any form of workplace discrimination based on race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other legally protected characteristics.&amp;nbsp;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 293799,
+      "name": "Fleet Infrastructure",
+      "child_ids": [],
+      "parent_id": 247414
+    }
+  ],
+  "offices": [
+    {
+      "id": 23484,
+      "name": "California - HQ",
+      "location": "Nuro HQ - Mountain View, CA",
+      "child_ids": [],
+      "parent_id": 83166
+    }
+  ]
+}

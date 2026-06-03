@@ -1,0 +1,96 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/ibkr/jobs/8446175002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 6374000002,
+  "location": {
+    "name": "Greenwich, CT"
+  },
+  "metadata": [
+    {
+      "id": 13672187002,
+      "name": "JOB CODE",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 13402223002,
+      "name": "Internal Department",
+      "value": "SWD Brokerage-JG",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4840941002,
+      "name": "Payroll Company",
+      "value": [
+        "IBG LLC"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 5151510002,
+      "name": "In house Recruiting Directions",
+      "value": "1. HR Phone Screening\n2. PI Test\n3. Video Interview",
+      "value_type": "long_text"
+    },
+    {
+      "id": 10893651002,
+      "name": "pi_job_name",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 10893652002,
+      "name": "pi_assessmentType",
+      "value": "Behavior",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12718264002,
+      "name": "LI TAG",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 14234973002,
+      "name": "Remote only/Hybrid/in-office only",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8446175002,
+  "updated_at": "2026-06-02T09:41:42-04:00",
+  "requisition_id": "4790",
+  "title": "Test Automation Engineer",
+  "company_name": "Interactive Brokers",
+  "first_published": "2026-03-10T12:50:49-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Company Overview&lt;/h3&gt;\n&lt;p&gt;Interactive Brokers Group, Inc. (Nasdaq: IBKR) is a global financial services company headquartered in Greenwich, CT, USA, with offices in over 15 countries. We have been at the forefront of financial innovation for over four decades, known for our cutting-edge technology and client commitment.&lt;/p&gt;\n&lt;p&gt;IBKR affiliates provide global electronic brokerage services around the clock on stocks, options, futures, currencies, bonds, and funds to clients in over 200 countries and territories. We serve individual investors and institutions, including financial advisors, hedge funds and introducing brokers. Our advanced technology, competitive pricing, and global market help our clients to make the most of their investments.&lt;/p&gt;\n&lt;p&gt;Barron&#39;s has recognized Interactive Brokers as the #1 online broker for six consecutive years. Join our dynamic, multi-national team and be a part of a company that simplifies and enhances financial opportunities using state-of-the-art technology.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;This is Hybrid role (3 days in office /2 days remote)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About your Team:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;On the Transactional Surveillance Technology team you will be testing infrastructure you build will be critical to maintaining the team&#39;s velocity and reliability in detecting market manipulation and financial crimes, directly supporting regulatory compliance and protecting millions of client accounts. The quality and reliability you ensure has real-world impact on market fairness and financial security&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;What will be your responsibilities within IBKR:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Software Development Engineer in Test and help protect market integrity at massive scale. You&#39;ll build and maintain the automated testing infrastructure that ensures reliability across systems processing 1+ billion order events daily—work that directly impacts the fairness and security of financial markets.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build scalable testing frameworks that enable our team to deploy confidently and maintain high system reliability&lt;/li&gt;\n&lt;li&gt;Design comprehensive test suites covering unit, integration, and acceptance testing that catch issues before they reach production&lt;/li&gt;\n&lt;li&gt;Collaborate with engineers and data scientists to embed quality practices throughout the development lifecycle&lt;/li&gt;\n&lt;li&gt;Provide metrics and reporting on test coverage, quality trends, and system reliability&lt;/li&gt;\n&lt;li&gt;Build and maintain monitoring and alerting systems for test infrastructure&lt;/li&gt;\n&lt;li&gt;Develop data quality checks to ensure integrity across pipelines and databases&lt;/li&gt;\n&lt;li&gt;Investigate and triage test failures, working with development teams to identify root causes and implement fixes&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;What required skill’s you need:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree in Computer Science, Mathematics, Statistics, Physics, or related quantitative field&lt;/li&gt;\n&lt;li&gt;3+ years of software engineering experience with strong coding skills (Python required)&lt;/li&gt;\n&lt;li&gt;Strong experience with unit testing frameworks (pytest, unittest, etc.)&lt;/li&gt;\n&lt;li&gt;Strong communication skills with meticulous attention to detail&lt;/li&gt;\n&lt;li&gt;Experience with version control systems (git)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Experience &amp;amp; Mindset:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Solid foundation in testing methodologies and quality assurance principles&lt;/li&gt;\n&lt;li&gt;Strong problem-solving and analytical abilities&lt;/li&gt;\n&lt;li&gt;Self-motivated with ability to drive projects independently&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with data quality/lineage platforms (Manta/Ataccama)\\&lt;/li&gt;\n&lt;li&gt;Background in performance/load testing tools&lt;/li&gt;\n&lt;li&gt;API and contract testing experience&lt;/li&gt;\n&lt;li&gt;Experience with data engineering concepts and tools&lt;/li&gt;\n&lt;li&gt;Experience with monitoring/observability tools&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Company Benefits &amp;amp; Perks&lt;/h3&gt;\n&lt;div&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, annual performance-based bonus and stock grant&lt;/li&gt;\n&lt;li&gt;Retirement plan 401(k) with competitive company match&lt;/li&gt;\n&lt;li&gt;Excellent health and wellness benefits, including medical, dental, and vision benefits. Company paid medical healthcare premium.&lt;/li&gt;\n&lt;li&gt;Wellness screenings and assessments, health coaches and counseling services through an Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;Daily company lunch allowance provided and a fully stocked kitchen with healthy options for breakfast and snack&lt;/li&gt;\n&lt;li&gt;Corporate events including team outings, dinners, volunteer activities and company sports teams&lt;/li&gt;\n&lt;li&gt;Education reimbursement and learning opportunities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4027657002,
+      "name": "Software & Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014195002,
+      "name": "Greenwich, CT",
+      "location": "Greenwich, CT",
+      "child_ids": [],
+      "parent_id": 4015565002
+    }
+  ]
+}

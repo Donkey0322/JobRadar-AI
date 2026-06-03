@@ -1,0 +1,96 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/ibkr/jobs/8474682002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 6385146002,
+  "location": {
+    "name": "Greenwich, CT"
+  },
+  "metadata": [
+    {
+      "id": 13672187002,
+      "name": "JOB CODE",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 13402223002,
+      "name": "Internal Department",
+      "value": "SWD & Client Integra",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4840941002,
+      "name": "Payroll Company",
+      "value": [
+        "Interactive Brokers LLC"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 5151510002,
+      "name": "In house Recruiting Directions",
+      "value": "1. HR Phone Screening\n2. PI Test\n3. Video Interview",
+      "value_type": "long_text"
+    },
+    {
+      "id": 10893651002,
+      "name": "pi_job_name",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 10893652002,
+      "name": "pi_assessmentType",
+      "value": "Behavior",
+      "value_type": "single_select"
+    },
+    {
+      "id": 12718264002,
+      "name": "LI TAG",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 14234973002,
+      "name": "Remote only/Hybrid/in-office only",
+      "value": "Hybrid",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8474682002,
+  "updated_at": "2026-06-02T09:41:42-04:00",
+  "requisition_id": "4806",
+  "title": "Web Infrastructure Engineer ",
+  "company_name": "Interactive Brokers",
+  "first_published": "2026-03-23T11:57:58-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;h3&gt;Company Overview&lt;/h3&gt;\n&lt;p&gt;Interactive Brokers Group, Inc. (Nasdaq: IBKR) is a global financial services company headquartered in Greenwich, CT, USA, with offices in over 15 countries. We have been at the forefront of financial innovation for over four decades, known for our cutting-edge technology and client commitment.&lt;/p&gt;\n&lt;p&gt;IBKR affiliates provide global electronic brokerage services around the clock on stocks, options, futures, currencies, bonds, and funds to clients in over 200 countries and territories. We serve individual investors and institutions, including financial advisors, hedge funds and introducing brokers. Our advanced technology, competitive pricing, and global market help our clients to make the most of their investments.&lt;/p&gt;\n&lt;p&gt;Barron&#39;s has recognized Interactive Brokers as the #1 online broker for six consecutive years. Join our dynamic, multi-national team and be a part of a company that simplifies and enhances financial opportunities using state-of-the-art technology.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;This is Hybrid role (4 days in office /1 day remote)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About your Team:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for Web Infrastructure Engineer with at least 5+ years of hands-on experience in web infrastructure or systems engineering fields.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;What required skill’s you need:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years of hands-on experience in web infrastructure or systems engineering&lt;/li&gt;\n&lt;li&gt;Deep technical knowledge of Linux systems, including performance tuning and troubleshooting&lt;/li&gt;\n&lt;li&gt;Strong understanding of networking concepts and cyber security fundamentals&lt;/li&gt;\n&lt;li&gt;Experience with Akamai or similar CDN services&lt;/li&gt;\n&lt;li&gt;Proficiency in scripting and automation tools (Python, Bash, Ansible, etc.)&lt;/li&gt;\n&lt;li&gt;Experience managing web servers in enterprise environments&lt;/li&gt;\n&lt;li&gt;Ability to troubleshoot complex technical issues under pressure&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and ability to collaborate in a team environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with Akamai security products a big plus (Akamai WAF, CDN etc.)&lt;/li&gt;\n&lt;li&gt;Knowledge of Elastic Stack (Elasticsearch, Kibana, APM)&lt;/li&gt;\n&lt;li&gt;Web application security expertise&lt;/li&gt;\n&lt;li&gt;Experience in a regulated industry&lt;/li&gt;\n&lt;li&gt;Cloud infrastructure experience a plus but not required (AWS, Azure, or GCP)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;To be successful in this position, you will have the following:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Self-motivated and able to handle tasks with minimal supervision.&lt;/li&gt;\n&lt;li&gt;Superb analytical and problem-solving skills.&lt;/li&gt;\n&lt;li&gt;Excellent collaboration and communication (Verbal and written) skills.&lt;/li&gt;\n&lt;li&gt;Outstanding organizational and time management skills.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Company Benefits &amp;amp; Perks&lt;/h3&gt;\n&lt;div&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive salary, annual performance-based bonus and stock grant&lt;/li&gt;\n&lt;li&gt;Retirement plan 401(k) with competitive company match&lt;/li&gt;\n&lt;li&gt;Excellent health and wellness benefits, including medical, dental, and vision benefits. Company paid medical healthcare premium.&lt;/li&gt;\n&lt;li&gt;Wellness screenings and assessments, health coaches and counseling services through an Employee Assistance Program (EAP)&lt;/li&gt;\n&lt;li&gt;Daily company lunch allowance provided and a fully stocked kitchen with healthy options for breakfast and snack&lt;/li&gt;\n&lt;li&gt;Corporate events including team outings, dinners, volunteer activities and company sports teams&lt;/li&gt;\n&lt;li&gt;Education reimbursement and learning opportunities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4027657002,
+      "name": "Software & Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014195002,
+      "name": "Greenwich, CT",
+      "location": "Greenwich, CT",
+      "child_ids": [],
+      "parent_id": 4015565002
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "744000129860849",
+  "name": "ServiceNow Futures Summit - SWE Experience ",
+  "uuid": "7e6b5c6a-374d-408e-838e-7444c92e16c3",
+  "jobId": "dcfc486b-d76d-48e2-8227-7ff6ca4b5c2e",
+  "jobAdId": "0a90c40d-e8a1-443a-926e-46bb28cf0079",
+  "defaultJobAd": true,
+  "refNumber": "JB0073438",
+  "company": {
+    "name": "ServiceNow",
+    "identifier": "ServiceNow"
+  },
+  "location": {
+    "city": "West Palm Beach",
+    "region": "Florida",
+    "country": "us",
+    "address": "10 CityPlace",
+    "postalCode": "33401",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "West Palm Beach, Florida, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "60345fa28b4ba8595bef1863",
+      "fieldLabel": "Recruiting Team",
+      "valueId": "early-in-career",
+      "valueLabel": "Global Emerging Talent"
+    },
+    {
+      "fieldId": "60345e1a0b24a127cbdfa148",
+      "fieldLabel": "Employee Type",
+      "valueId": "d86e5e3e318f497985a090b7dcdbc8e6",
+      "valueLabel": "Intern (Fixed Term)"
+    },
+    {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2b",
+      "fieldLabel": "Department",
+      "valueId": "2294038",
+      "valueLabel": "Engineering, Infrastructure and Operations"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2a",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "ServiceNow"
+    },
+    {
+      "fieldId": "60345d5c5165a31b17288279",
+      "fieldLabel": "Region",
+      "valueId": "722a833b93e4437798309f43c0d25990",
+      "valueLabel": "AMS - North America and Canada"
+    },
+    {
+      "fieldId": "603462175165a31b1728827d",
+      "fieldLabel": "Cost Center",
+      "valueId": "CC5815",
+      "valueLabel": "5815 EIC"
+    },
+    {
+      "fieldId": "6034601b43915a29a4b3389b",
+      "fieldLabel": "Job Location",
+      "valueId": "L_PBI002",
+      "valueLabel": "10 CityPlace West Palm Beach, FL 33401 United States of America (L_PBI002)"
+    },
+    {
+      "fieldId": "618ed92b8f5e5f110e5bfb95",
+      "fieldLabel": "Work Persona",
+      "valueId": "bf7551c6-9b06-4e7c-8217-3baf43edd060",
+      "valueLabel": "Flexible"
+    }
+  ],
+  "releasedDate": "2026-06-02T22:00:54.089Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000129860849-servicenow-futures-summit-swe-experience-",
+  "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000129860849-servicenow-futures-summit-swe-experience-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/ServiceNow/publication/7e6b5c6a-374d-408e-838e-7444c92e16c3?dcr_ci=ServiceNow",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone—freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow— helping 85% of the Fortune 500® work smarter, faster, and better. We're building an AI-native culture where technology and talent are unstoppable together. And we're just getting started.</p><p>&#xa0;</p><p>Join us to put AI to work for people.</p><p>&#xa0;</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>It all started in sunny San Diego, California in 2004 when a visionary engineer, Fred Luddy, saw the potential to transform how we work. Fast forward to today — ServiceNow stands as a global market leader, bringing innovative AI-enhanced technology to over 8,100 customers, including 85% of the Fortune 500®. Our intelligent cloud-based platform seamlessly connects people, systems, and processes to empower organizations to find smarter, faster, and better ways to work. But this is just the beginning of our journey. Join us as we pursue our purpose to make the world work better for everyone.&#xa0;</p><p>&#xa0;</p><p><strong>About This Event&#xa0;</strong></p><p>ServiceNow is hosting a one-day, immersive career exploration event, in West Palm Beach, FL,&#xa0; designed for early-career professionals who are curious about Software Engineering (SWE) careers in enterprise technology.&#xa0;</p><p>&#xa0;</p><p>This is not a job interview —&#xa0;it's&#xa0;an opportunity to connect with ServiceNow leaders, learn about the industry, and experience what a career in SWE at ServiceNow could look like for you.&#xa0;</p><p>&#xa0;</p><p><strong>What to Expect&#xa0;</strong></p><p>&#xa0;</p><p>Your day will include:&#xa0;</p><ul><li>An executive keynote from ServiceNow leadership&#xa0;</li></ul><ul><li>Sessions focused on SWE functions and career pathways&#xa0;</li></ul><ul><li>Networking with recruiters and business leaders&#xa0;</li><li>Meals provided throughout the day&#xa0;</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>This event is designed for individuals who:&#xa0;</strong></p><ul><li>Are currently pursuing a&#xa0;<strong>Bachelor’s</strong> degree, from an accredited university, in the field of Computer Science, Computer Engineering, or similar and graduating between December 2027 and May 2029&#xa0;</li></ul><ul><li>⁠Have experience in&#xa0;leveraging&#xa0;or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. This may include using AI-powered tools, automating workflows, analyzing AI-driven insights, or exploring AI’s potential impact on the function or industry.&#xa0;</li></ul><ul><li>Have skills with various computer programming languages, including but not limited to: Python, JavaScript, Java, C, C++,&#xa0;etc&#xa0;</li><li>Have excellent problem solving, critical thinking, communication, and collaboration skills&#xa0;</li><li>Have computer programming, problem solving, and critical thinking skills&#xa0;</li></ul><ul><li>Have a genuine interest in pursuing a career in SWE roles&#xa0;</li></ul><ul><li><strong>Are available to attend in person in West Palm Beach, FL on&#xa0;August 6, 2026&#xa0;</strong></li></ul><ul><li><strong>Are located in&#xa0;or near the South Florida area&#xa0;</strong>(<em>please&#xa0;note:&#xa0;</em>travel reimbursement and lodging are not provided)&#xa0;</li></ul><p>Additional Information&#xa0;</p><ul><li>This event&#xa0;does not constitute&#xa0;an offer of employment&#xa0;</li></ul><p>&#xa0;</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Work Personas</strong></p><p>We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. <a href=\"https://careers.servicenow.com/life-at-servicenow#workpersonas\" rel=\"noopener noreferrer\"><u>Learn more here</u></a>. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.</p><p><strong>Equal Opportunity Employer</strong></p><p>ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, sex, sexual orientation, national origin or nationality, ancestry, age, disability, gender identity or expression, marital status, veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements.&#xa0;</p><p><strong>Accommodations</strong></p><p>We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact <a href=\"mailto:globaltalentss@servicenow.com\" rel=\"noopener noreferrer\">globaltalentss@servicenow.com </a>for assistance.&#xa0;</p><p><strong>Export Control Regulations</strong></p><p>For positions requiring access to controlled technology subject to export control regulations, including the U.S. Export Administration Regulations (EAR), ServiceNow may be required to obtain export control approval from government authorities for certain individuals. All employment is contingent upon ServiceNow obtaining any export license or other approval that may be required by relevant export control authorities.&#xa0;</p><p>From Fortune. ©2026 Fortune Media IP Limited. All rights reserved. Used under license. .&#xa0;</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "department": {
+    "id": 2294038,
+    "label": "Engineering, Infrastructure and Operations"
+  },
+  "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "absolute_url": "https://www.mongodb.com/careers/job/?gh_jid=7311204",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3269036,
+  "location": {
+    "name": "Austin"
+  },
+  "metadata": [
+    {
+      "id": 22194060,
+      "name": "Position ID",
+      "value": "N/A",
+      "value_type": "short_text"
+    },
+    {
+      "id": 24918,
+      "name": "Department ID",
+      "value": "D41350-Sales Dev(SDR)",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22194061,
+      "name": "Team",
+      "value": "T10211-Sales Development Americas",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4914027,
+      "name": "Region",
+      "value": "North America",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4137836,
+      "name": "Working Model Eligibility",
+      "value": [
+        "2-Flexible"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 4914029,
+      "name": "Job Level",
+      "value": "IC - Professional",
+      "value_type": "single_select"
+    },
+    {
+      "id": 24109,
+      "name": "Employment Type",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 1073551,
+      "name": "Job Type",
+      "value": "Pipeline",
+      "value_type": "single_select"
+    },
+    {
+      "id": 988684,
+      "name": "JD Link",
+      "value": "https://docs.google.com/document/d/1QEpFyd5GVuM4TX3yvA2gvGk_ATv700iclQKQXHYrjVo/edit?usp=sharing",
+      "value_type": "url"
+    },
+    {
+      "id": 5525802,
+      "name": "Baseline Budgeted Salary",
+      "value": null,
+      "value_type": "currency_range"
+    },
+    {
+      "id": 5525816,
+      "name": "Other Large Market Budgeted Salary",
+      "value": {
+        "unit": "USD",
+        "max_value": "50003.2",
+        "min_value": "50003.2"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 13324394,
+      "name": "Job Post Range (United States)",
+      "value": {
+        "unit": "USD",
+        "max_value": "50003.2",
+        "min_value": "50003.2"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 40497768,
+      "name": "Job Post Range (Canada)",
+      "value": {
+        "unit": null,
+        "max_value": "0.0",
+        "min_value": "0.0"
+      },
+      "value_type": "currency_range"
+    },
+    {
+      "id": 57694516,
+      "name": "Job Post Range (Poland)",
+      "value": null,
+      "value_type": "currency_range"
+    }
+  ],
+  "id": 7311204,
+  "updated_at": "2026-06-02T09:49:45-04:00",
+  "requisition_id": "425654",
+  "title": "Account Development Representative",
+  "company_name": "MongoDB",
+  "first_published": "2025-10-21T16:12:22-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;At MongoDB, our Account Development team works closely with our partners in both Sales and Marketing to build fanatical customer enthusiasm around MongoDB. ADR reps are responsible for identifying and qualifying new opportunities for our sales organization.&lt;/p&gt;\n&lt;p&gt;We view our Account Development program as the best way to turbocharge a long and successful career in sales and view our Account Development Representatives (ADRs) as the next wave of Account Executives at MongoDB.&lt;/p&gt;\n&lt;h3 class=&quot;p3&quot;&gt;&lt;strong&gt;The Opportunity&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Being an ADR is often a first step to jump-starting a career in sales. At MongoDB, we have a culture that celebrates diversity, fosters growth and enablement, and ensures that we provide our ADRs with the tools and the confidence that they need to grow their careers. We invest heavily in the training and development of our team. You will always have the support from our sales enablement org and managers that will maintain 1:1 coaching throughout your career here.&lt;/p&gt;\n&lt;p&gt;Our ADRs gain an understanding of our product, community, who we sell to, why they care, and what makes us relevant. They learn how to generate a pipeline quickly and effectively as well as how to achieve a good discovery and qualification. The team is a crucial resource for sales teams across MongoDB to get great talent from. This helps us scale our teams, as well as ensure that we have a culture of meritocracy.&lt;/p&gt;\n&lt;p&gt;This role is a hybrid working model in our Austin office long-term.&lt;/p&gt;\n&lt;h3 class=&quot;p3&quot;&gt;&lt;strong&gt;Day to Day&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li4&quot;&gt;Identify high-potential businesses that would be a good fit to work with MongoDB across your region&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Work with the Sales team to develop and lead inbound and outbound campaigns from idea-generation through to qualified call&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Develop strong sales and product knowledge&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Interact with IT and business decision makers via telephone and email&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Update lead and prospect activity in Salesforce to ensure effective lead management&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Set qualified introductory meetings for the Sales team&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Nurture early phase opportunities for future pipeline potential&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Exceed monthly and quarterly opportunity quota&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Build strong relationships with our marketing team and Account Executives, where we pull together to maximize the win for our business&lt;/li&gt;\n&lt;li class=&quot;li5&quot;&gt;Invest in your self-development, focusing on the skills and attributes that will make you successful in your core role and get you set for future success&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p3&quot;&gt;&lt;strong&gt;What You Will Bring to the Table&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li4&quot;&gt;A self-starter with a track record of hitting and exceeding goals&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Outstanding communication skills&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Time management skills and ability to work either independently or through coaching&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Desire to work in a fast-paced and high growth environment&lt;/li&gt;\n&lt;li class=&quot;li5&quot;&gt;Passionate about cutting-edge technology with the aptitude to learn new and exciting IT software products, as well as, understand business critical solutions quickly&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p3&quot;&gt;&lt;strong&gt;Things We Love&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li4&quot;&gt;Strong and progressive academic background&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Familiarity with database, web server, and open source technology&lt;/li&gt;\n&lt;li class=&quot;li5&quot;&gt;Working experience with Salesforce.com&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 class=&quot;p3&quot;&gt;&lt;strong&gt;Why You Should Apply&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li4&quot;&gt;Great Earning Potential&lt;/li&gt;\n&lt;li class=&quot;li6&quot;&gt;&lt;span class=&quot;s1&quot;&gt;Welcoming and inclusive workplace &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Meet MongoDB’s Employee Affinity Groups!&lt;/span&gt;&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Continuous career development&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Sales training in MEDDIC and Command of the Message&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Benefits include:&lt;/li&gt;\n&lt;ul class=&quot;ul1&quot;&gt;\n&lt;li class=&quot;li1&quot;&gt;Sales Bootcamp&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Internal mentor and buddy program cross-departmentally&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/ul&gt;\n&lt;h3&gt;About MongoDB&lt;/h3&gt;\n&lt;p&gt;MongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the database for the AI era, enabling innovators to create, transform, and disrupt industries with software. MongoDB’s unified database platform—the most widely available, globally distributed database on the market—helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available across AWS, Google Cloud, and Microsoft Azure.&lt;/p&gt;\n&lt;p&gt;With offices worldwide and nearly 60,000 customers—including 75% of the Fortune 100 and AI-native startups—relying on MongoDB for their most important applications, we’re powering the next era of software.&lt;/p&gt;\n&lt;p&gt;Our compass at MongoDB is our &lt;a href=&quot;https://www.mongodb.com/company&quot;&gt;Leadership Commitment,&lt;/a&gt; guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. &lt;a href=&quot;https://www.mongodb.com/company/blog/culture/employee-benefits-that-make-a-difference-at-mongodb&quot;&gt;From employee affinity groups, to fertility assistance and a generous parental leave policy&lt;/a&gt;, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys.&lt;a href=&quot;https://www.mongodb.com/blog/channel/culture&quot;&gt; Learn more about what it’s like to work at MongoDB&lt;/a&gt;, and help us make an impact on the world!&lt;/p&gt;\n&lt;p&gt;MongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter.&lt;/p&gt;\n&lt;p&gt;MongoDB, Inc. provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;REQ ID: 425654&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;MongoDB’s base salary range for this role is posted below. Compensation at the time of offer is unique to each candidate and based on a variety of factors such as skill set, experience, qualifications, and work location. Salary is one part of MongoDB’s total compensation and benefits package. Other benefits for eligible employees may include: equity, participation in the employee stock purchase program, flexible paid time off, 20 weeks fully-paid gender-neutral parental leave, fertility and adoption assistance, 401(k) plan, mental health counseling, access to transgender-inclusive health insurance coverage, and health benefits offerings. Please note, the base salary range listed below and the benefits in this paragraph are only applicable to U.S.-based candidates.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;MongoDB’s base salary range for this role in the U.S. is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$50,003.20&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$50,003.20 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 38867,
+      "name": "Sales Development",
+      "child_ids": [],
+      "parent_id": 336792
+    }
+  ],
+  "offices": [
+    {
+      "id": 3964,
+      "name": "Austin",
+      "location": "Austin, TX, United States",
+      "child_ids": [],
+      "parent_id": 23657
+    }
+  ]
+}

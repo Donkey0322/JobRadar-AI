@@ -1,0 +1,190 @@
+{
+  "id": "3743990013430236",
+  "name": "Security Engineer – Cybersecurity Posture, Hygiene & AI Enablement ",
+  "uuid": "c6fe22db-198b-427a-93ab-e7fb12125401",
+  "jobId": "a09bcc65-b7ba-48c9-a062-5adba02c8b53",
+  "jobAdId": "3982b0f6-e0da-4e5c-8d0b-8158072b0cbf",
+  "defaultJobAd": true,
+  "refNumber": "R00130979",
+  "company": {
+    "name": "AbbVie",
+    "identifier": "AbbVie"
+  },
+  "location": {
+    "city": "Austin",
+    "region": "TX",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "latitude": "30.267153",
+    "longitude": "-97.7430608",
+    "fullLocation": "Austin, TX, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "65806674cbfd1911c2f5d15b",
+      "fieldLabel": "Hiring Manager",
+      "valueId": "15041957",
+      "valueLabel": "Ryan Radtke (15041957)"
+    },
+    {
+      "fieldId": "65807663cbfd1911c2f5d15f",
+      "fieldLabel": "Workday Function",
+      "valueId": "FUNCTION_HQIT",
+      "valueLabel": "HQIT Information Technology"
+    },
+    {
+      "fieldId": "657cc8550d0b1f2ef38a3fc9",
+      "fieldLabel": "City",
+      "valueId": "North Chicago",
+      "valueLabel": "North Chicago"
+    },
+    {
+      "fieldId": "657ccabf0d0b1f2ef38a3fce",
+      "fieldLabel": "Segment 5 (Maximum)",
+      "valueId": "162000",
+      "valueLabel": "162000"
+    },
+    {
+      "fieldId": "657ccbce3fd51d6d84c0bc3a",
+      "fieldLabel": "Workday Global Grade",
+      "valueId": "COMPENSATIONGRADE_16",
+      "valueLabel": "16"
+    },
+    {
+      "fieldId": "6580668ecbfd1911c2f5d15c",
+      "fieldLabel": "Hiring Manager Title",
+      "valueId": "Director of Security Architecture",
+      "valueLabel": "Director of Security Architecture"
+    },
+    {
+      "fieldId": "6580763744b74c1731e95352",
+      "fieldLabel": "Parent Function",
+      "valueId": "FUNCTION_HQTR",
+      "valueLabel": "HQTR Headquarters"
+    },
+    {
+      "fieldId": "656747e5a29e121ffd619b85",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AbbVie"
+    },
+    {
+      "fieldId": "657ccad53fd51d6d84c0bc37",
+      "fieldLabel": "Salary Min",
+      "valueId": "84500",
+      "valueLabel": "84500"
+    },
+    {
+      "fieldId": "657ccae70d0b1f2ef38a3fcf",
+      "fieldLabel": "Salary Max",
+      "valueId": "162000",
+      "valueLabel": "162000"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "657ccc330d0b1f2ef38a3fdb",
+      "fieldLabel": "Salary/Hourly Pay Indicator",
+      "valueId": "Salaried",
+      "valueLabel": "Salaried"
+    },
+    {
+      "fieldId": "657cc8220d0b1f2ef38a3fc8",
+      "fieldLabel": "Workday Country",
+      "valueId": "US",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "657ccbae0d0b1f2ef38a3fd6",
+      "fieldLabel": "Contractor Portal Career Site Posting",
+      "valueId": "a33ae6a2-c601-483f-b279-1d6b970f17ff",
+      "valueLabel": "Yes"
+    },
+    {
+      "fieldId": "657cca530d0b1f2ef38a3fcc",
+      "fieldLabel": "Segment 1 (Minimum)",
+      "valueId": "84500",
+      "valueLabel": "84500"
+    },
+    {
+      "fieldId": "657ccc1c0d0b1f2ef38a3fda",
+      "fieldLabel": "Workday Job Family",
+      "valueId": "Job_Family_Information_Technology",
+      "valueLabel": "Information Technology"
+    },
+    {
+      "fieldId": "657ccc483fd51d6d84c0bc3c",
+      "fieldLabel": "Posting Grade",
+      "valueId": "COMPENSATIONGRADE_16",
+      "valueLabel": "16"
+    },
+    {
+      "fieldId": "658076b3cbfd1911c2f5d161",
+      "fieldLabel": "Travel",
+      "valueId": "b71d9117-7988-4ea1-89a0-2a99754d5199",
+      "valueLabel": "Yes, 10% of the Time"
+    }
+  ],
+  "releasedDate": "2026-06-02T18:41:48.351Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013430236-security-engineer-cybersecurity-posture-hygiene-ai-enablement-",
+  "applyUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013430236-security-engineer-cybersecurity-posture-hygiene-ai-enablement-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AbbVie/publication/c6fe22db-198b-427a-93ab-e7fb12125401?dcr_ci=AbbVie",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas – immunology, oncology, neuroscience, and eye care – and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.abbvie.com%2F&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=ouW0EWAXMc6feS9YMhOrX50Xcr7u7esYey2hTi3aXEs%3D&amp;reserved=0\" rel=\"noopener noreferrer\">www.abbvie.com</a>. Follow @abbvie on&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftwitter.com%2Fabbvie&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=NB%2BpWyw5752pXI4BpdVAdYgTngw%2FY%2B2lxdjzuU62mik%3D&amp;reserved=0\" rel=\"noopener noreferrer\">X</a>,&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2FAbbVieGlobal%2F&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=pxrMl8T5PQl8HU8Xhph7jSamZXR%2Fqlh%2FTMIodipTPfs%3D&amp;reserved=0\" rel=\"noopener noreferrer\">Facebook</a>,&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.instagram.com%2Fabbvie%2F&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=NwEPo8j8wQP42UyWxJuNXoHtRJW9IQ8qnjxx6705e8k%3D&amp;reserved=0\" rel=\"noopener noreferrer\">Instagram</a>,&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FAbbVie&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=%2Fz0FnNhXfkO2DHSZdZ2mGo6WQ1oEyKQTGDujo0hZDoQ%3D&amp;reserved=0\" rel=\"noopener noreferrer\">YouTube</a>,&#xa0;<a href=\"https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fabbvie%2F&amp;data=05%7C01%7Cjulia.jackson%40abbvie.com%7Ccbb826c15f604428c9e108db9e8141cb%7C6f4d03de95514ba1a25bdce6f5ab7ace%7C0%7C0%7C638278050214166646%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=eBnFZu5pxx5eG%2F%2BGHQXtjVOLh5olOf3QvjuzpAfYi0E%3D&amp;reserved=0\" rel=\"noopener noreferrer\">LinkedIn</a>&#xa0;and&#xa0;<a href=\"https://www.tiktok.com/@abbvie\" rel=\"noopener noreferrer\">Tik Tok</a>.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Come to work each day with an inclusive and collaborative Business Technology team! As a Security Engineer – Cybersecurity Posture, Hygiene &amp; AI Enablement in AbbVie Business Technology Solutions (BTS),&#xa0;you’ll&#xa0;have opportunities to contribute to the digital transformation of a leading biopharma company, helping to create solutions that&#xa0;impact&#xa0;patients and their communities for the better.&#xa0;</p><p>As a member of the Information Security Risk Management (ISRM) Architecture team, the Security Engineer plays a crucial role in shaping and guiding the organization’s security strategy, architecture, and practices, with a focus on security posture, hygiene, and the responsible use of AI to enhance security outcomes.&#xa0;</p><p><strong>Responsibilities&#xa0;</strong></p><ul><li><p>Design, develop, and implement security controls and solutions that enhance AbbVie’s security hygiene. Ensure that security measures are effectively integrated into IT systems and applications&#xa0;</p></li></ul><ul><li><p>Collaborate with IT, network, and other relevant departments to align security measures with organizational goals and compliance requirements&#xa0;</p></li></ul><ul><li><p>Partner with platform and application teams to&#xa0;establish&#xa0;clear security baseline requirements, following the Center for Internet Security Critical Security Controls (CIS 18). This partnership ensures that security best practices are integrated into development and deployment processes&#xa0;</p></li></ul><ul><li><p>Utilize existing enterprise tools dedicated to vulnerability management, asset inventory, and cyber hygiene to ensure that all assets meet established security baseline requirements&#xa0;</p></li></ul><ul><li><p>Develop custom integrations using APIs or other scripting tools for high-risk applications to enable proactive monitoring of critical security controls&#xa0;</p></li></ul><ul><li><p>Demonstrate a foundational understanding of how artificial intelligence (AI) and machine learning technologies work, including their strengths, limitations, and common enterprise use cases, particularly as they relate to cybersecurity&#xa0;</p></li></ul><ul><li><p>Leverage AI-enabled tools and capabilities to improve security posture and hygiene outcomes, such as enhancing visibility,&#xa0;identifying&#xa0;configuration drift, prioritizing risk, or accelerating analysis and decision-making&#xa0;</p></li></ul><ul><li><p>Lead posture and hygiene efforts to effectively drive and complete initiatives successfully. This includes coordinating stakeholders, setting clear&#xa0;objectives, and&#xa0;maintaining&#xa0;sustained focus on improving the organization’s security posture&#xa0;</p></li></ul><ul><li><p>Manage documentation such as baselines, Standard Operating Procedures (SOPs), policies, and work instructions&#xa0;in accordance with&#xa0;AbbVie requirements, ensuring accuracy, currency, and alignment with organizational standards&#xa0;</p></li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li><p>Bachelor’s degree in a relevant field and at least 5 years of relevant experience&#xa0;OR&#xa0;Master’s degree in a relevant field and at least 4 years of experience&#xa0;</p></li></ul><ul><li><p>Possess a strong understanding of the Center for Internet Security Critical Security Controls, specifically the CIS 18 framework&#xa0;</p></li></ul><ul><li><p>Strong working knowledge in configuring common operating systems, including Windows Servers, Windows Desktops, and Red Hat Linux, among others&#xa0;</p></li></ul><ul><li><p>Proficient in scripting languages, including Python, Bash, and/or PowerShell&#xa0;</p></li></ul><ul><li><p>Excellent written and oral communication skills&#xa0;</p></li></ul><ul><li><p>Strong problem-solving and analytical skills, with the ability to&#xa0;identify&#xa0;security risks and propose effective solutions&#xa0;</p></li></ul><ul><li><p>Strong people skills, with the ability to collaborate effectively with IT stakeholders inside and outside of the organization&#xa0;</p></li></ul><ul><li><p>Understand and adhere to corporate standards&#xa0;regarding&#xa0;applicable Corporate and Divisional Policies, including Code of Conduct, safety,&#xa0;GxP&#xa0;compliance, data security, and the software development lifecycle&#xa0;</p></li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or local law:&#xa0;​​</p><p>​​</p><ul><li><p>The compensation range described below is the range of possible base pay compensation that the Company believes in&#xa0;good faith it will pay for this role at the time of this posting based on the job grade for this position. Individual&#xa0;compensation paid within this range will depend on many factors including geographic location, and we may ultimately&#xa0;pay more or less than the posted range. This range may be modified in the future.​​</p></li><li><p>We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick), medical/dental/vision&#xa0;insurance and 401(k) to eligible employees.​​</p></li><li><p>This job is eligible to participate in our short-term incentive programs.&#xa0;​​</p></li></ul><p>​​</p><p>Note: No amount of pay&#xa0;is considered to be&#xa0;wages or compensation until such amount is earned, vested, and determinable.&#xa0;The amount and availability of any bonus, commission, incentive, benefits, or any other form of compensation and benefits&#xa0;that are allocable to a particular employee remains in the Company's sole and absolute discretion unless and until paid and&#xa0;may be modified at the Company’s sole and absolute discretion, consistent with applicable law.&#xa0;</p><div sr-tagline=\"\"></div><p>AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled.&#xa0;</p><p>US &amp; Puerto Rico only - to learn more, visit&#xa0;<a href=\"https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html</a></p><p>US &amp; Puerto Rico applicants seeking a reasonable accommodation, click here to learn more:</p><p><a href=\"https://www.abbvie.com/join-us/reasonable-accommodations.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/reasonable-accommodations.html</a></p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 84500,
+    "max": 162000,
+    "currency": "USD",
+    "period": "YEARLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "pharmaceuticals",
+    "label": "Pharmaceuticals"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

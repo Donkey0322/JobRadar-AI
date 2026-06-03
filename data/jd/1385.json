@@ -1,0 +1,168 @@
+{
+  "id": "744000129863659",
+  "name": "AI Research Scientist- GenAI",
+  "uuid": "05aaad6a-f462-4108-9b4f-904a0e377e41",
+  "jobId": "cfd032d0-6e16-4cd6-b2eb-e308a575b977",
+  "jobAdId": "d2c670da-46b4-416e-b843-d3c360d299ca",
+  "defaultJobAd": true,
+  "refNumber": "REF276153G",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Pittsburgh",
+    "region": "PA",
+    "country": "us",
+    "address": "2555 Smallman Street",
+    "postalCode": "15222",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "40.4552666",
+    "longitude": "-79.97992049999999",
+    "fullLocation": "Pittsburgh, PA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+      "valueLabel": "Unlimited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "Pittsburgh, PA",
+      "valueLabel": "Pittsburgh, PA"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "427b1359-5057-4375-a2ae-6c649782296d",
+      "valueLabel": "Experienced/ Middle Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+      "valueLabel": "Indirect"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "b4e099f0-c66a-4d81-b9ce-b9d1d34e310b",
+      "valueLabel": "CR"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "c7b4da31-6f38-405a-b2e8-08a76e3c3f2c",
+      "valueLabel": "Professional"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "US_E3",
+      "valueLabel": "US_E3"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "CR",
+      "valueLabel": "CR"
+    }
+  ],
+  "releasedDate": "2026-06-02T22:27:51.778Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000129863659-ai-research-scientist-genai",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000129863659-ai-research-scientist-genai?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/05aaad6a-f462-4108-9b4f-904a0e377e41?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>We Are Bosch.</strong></p><p>At Bosch, we shape the future by inventing high-quality technologies and services that spark enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding Bosch teams around the world. Their creativity is the key to innovation through connected living, mobility, or industry.</p><p>Let’s grow together, enjoy more, and inspire each other.&#xa0;<u>Work&#xa0;<strong>#LikeABosch</strong></u></p><ul><li><strong>Reinvent yourself:</strong>&#xa0;At Bosch, you will evolve.</li><li><strong>Discover new directions:&#xa0;</strong>At Bosch, you will find your place.</li><li><strong>Balance your life:&#xa0;</strong>At Bosch, your job matches your lifestyle.</li><li><strong>Celebrate success:&#xa0;</strong>At Bosch, we celebrate you.</li><li><strong>Be yourself:&#xa0;</strong>At Bosch, we value values.</li><li><strong>Shape tomorrow:</strong>&#xa0;At Bosch, you change lives.</li></ul><p>The Bosch Research and Technology Center North America with offices in Sunnyvale, California, Pittsburgh, Pennsylvania, and Cambridge, Massachusetts is a part of the global Bosch Group (www.bosch.com), a company with over 70 billion euro revenue, 400,000 employees worldwide, a very diverse product portfolio, and a history spanning over 125 years. The Research and Technology Center North America (RTC-NA) is dedicated to providing technologies and system solutions for various Bosch business fields, primarily in the field of artificial intelligence, energy technologies, internet technologies, circuit design, semiconductors and wireless, as well as advanced MEMS design.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>As a part of the global research, our AI research in Pittsburgh focuses on Multimodal Foundation Models, AI-based Sensing, Driving assistance, agentic AI, and efficient GenAI. We develop scalable, intelligent, and trustworthy AI solutions for Bosch products and services in application areas such as advanced manufacturing, smart home and building solutions, advanced driver assistance systems (ADAS), robust AI systems, and AI-based simulators.</p><p>Originating from Bosch AI research in Pittsburgh, we are responsible for pushing the boundaries of multimodal foundation models and GenAI through key innovations to solve complex industry problems, and shape the future of Bosch products and services for both internal and external users. We work with internal partners of different Bosch business units to transfer our solutions into future products. We also actively collaborate with leading groups in academia and industry to promote research ideas and publish research findings in internationally renowned conferences and journals such as ICML, ICLR, ICRA, CVPR, ICCV, ECCV, NeurIPS, etc.)</p><ul><li>Conduct research on multimodal foundation models, agentic AI, robustness and efficient GenAI to address academic and industrial challenges.</li><li>Work with an international team of experts to transfer and apply Bosch in-house AI innovations and 3rd-party solutions to Bosch AI products and services, building systems that can advance manufacturing, energy solutions, AI-based sensing, driving assistance, etc.</li><li>Stay abreast of the latest technological innovations and market trends by attending academic conferences, technical events, and seminars.</li><li>Offer expert insights to the management team in relevant technology sectors, aiding in strategic planning, R&amp;D trajectory, and investment decisions.</li></ul><p>Document and disseminate research findings through high-caliber publications and/or patent submissions.</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Basic Qualifications</strong></p><ul><li>Ph.D. in Computer Science or Engineering, or a related discipline or master’s degree with 3+ years industry experience (multimodal foundation model related) after graduation.</li><li>4+ years of research experience or equivalent graduate research experience on multimodal foundation models, agentic AI, robust and efficient GenAI</li><li>In-depth experiences in foundation models, with work in at least two of the following areas: time-series data analysis, LLMs, VLMs/MMLMs, inference efficiency, deployment of large models, robustness</li><li>Proficiency in one or more programming languages commonly used in systems research (e.g., Python, C++) and hands on experience with AI libraries.</li><li>Publication record in top venues including ICML, ICLR, ICRA, CVPR, ICCV, ECCV, NeurIPS, etc.</li><li>Strong interpersonal, communication, and teamwork capabilities.<br>\n&#xa0;</li></ul><p><strong>Preferred Qualifications </strong></p><ul><li>Strong background in math, statistics, computational modeling</li><li>3+ years experiences in industrial research</li><li>Hands-on experience in product development in the above-mentioned areas for consumer/enterprise markets.</li><li>Experience in leading R&amp;D project &amp; team dealing with international customers.</li><li>Leadership skills with excellent English communication &amp; teamwork skills.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>Equal Opportunity Employer, including disability / veterans.</strong></p><p><strong><em>Please note that employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.&#xa0;</em></strong></p><p><em><strong>#LI-JM1</strong></em></p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "computer_software",
+    "label": "Computer Software"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

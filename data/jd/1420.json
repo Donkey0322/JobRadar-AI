@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 3456449,
+  "location": {
+    "name": "Bellevue, WA"
+  },
+  "metadata": [
+    {
+      "id": 4288026,
+      "name": "Careers Page Bucket",
+      "value": "DATA/AI/ML",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7960680,
+  "updated_at": "2026-06-02T22:10:59-04:00",
+  "requisition_id": "1855",
+  "title": "Machine Learning Engineer",
+  "company_name": "Robinhood",
+  "first_published": "2026-06-01T22:43:34-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;Join us in building the future of finance.&lt;/h2&gt;\n&lt;p&gt;Our mission is to democratize finance for all. &lt;a href=&quot;https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048&quot; target=&quot;_blank&quot;&gt;An estimated $124 trillion of assets&lt;/a&gt; will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About the team + role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with ethics at the center of everything we do. Expectations are high, and so are the rewards. We&#39;re looking for an exceptional Machine Learning Engineer to help shape the future of our core platforms, products, and customer experiences. FinTech is one of the most complex and rapidly evolving spaces in technology, and the challenges we&#39;re tackling require deep innovation, critical thinking, and scale that don&#39;t always have strong precedents.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You&#39;ll take on a highly influential role shaping vision and execution across key strategic initiatives. You&#39;ll partner with cross-functional leaders, contribute to high-impact decisions, guide complex projects from concept to completion, and mentor others on the team. This is a role for someone who leverages modern tools and cutting-edge methodologies as a core part of how they solve problems, and raises the bar for everyone around them.&lt;/p&gt;\n&lt;p&gt;This role is based in our Bellevue, WA, with in-person attendance expected at least three days per week.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;At Robinhood, we believe in the power of in-person work to accelerate progress, spark innovation, and strengthen community. Our office experience is intentional, energizing, and designed to fully support high-performing teams.&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;As a Machine Learning Engineer on the AI Research and Development team, the primary focus will be on the implementation and evaluation of machine learning algorithms through rigorous experimentation and testing methodologies.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The responsibilities will include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;AI and ML Research&lt;/strong&gt;: Evaluate cutting technologies, including but not limited to, transformer-based model architecture and large foundational models to identify solutions for Robinhood specific problems.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Model Development and Implementation&lt;/strong&gt;: Develop and implement scalable machine learning models focusing on advanced ranking and recommendation systems, including expertise in Collaborative Filtering, Content Based Filtering, and Hybrid models, alongside proficiency in Learning to Rank (LTR) techniques for effective prioritization. Additionally, design reinforcement learning algorithms and apply multi-armed bandit strategies to optimize decision-making in dynamic environments, balancing exploration and exploitation.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A/B Testing and Experimentation&lt;/strong&gt;: Design and conduct A/B tests to assess the performance of different machine learning models. This includes setting up the test environment, monitoring performance, and analyzing results.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Data Analysis and Insight Generation&lt;/strong&gt;: Analyze experimental data to extract actionable insights. Use statistical techniques to validate the findings and ensure their relevance and accuracy.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Cross-Functional Collaboration&lt;/strong&gt;: Work closely with other engineering teams, data scientists, and the marketing team to integrate machine learning models into the product and ensure they meet business requirements. Present results to different stakeholders.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Tooling and Documentation&lt;/strong&gt;: Build reusable libraries for common machine learning practices. Offer support and guidance to the usage of these tools. Maintain comprehensive documentation of libraries, models, experiments, and findings.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What you bring&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree or foreign equivalent in Computer Science or related field and three years of experience in job offered or related occupation.&lt;/li&gt;\n&lt;li&gt;Education and/or experience must include:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Productionisation of ML models with focus on recommendations, ranking, or personalization;&lt;/li&gt;\n&lt;li&gt;Model development with classical ML techniques for tabular data;&lt;/li&gt;\n&lt;li&gt;Model development with modern ML techniques for sequential data;&lt;/li&gt;\n&lt;li&gt;Hands-on experience with architectural frameworks of large, distributed, and high-scale ML applications;&lt;/li&gt;\n&lt;li&gt;Produce robust business outcomes through comprehensive AB test and rigorous statistical analysis;&lt;/li&gt;\n&lt;li&gt;Proficiency in Python, SQL, XGBoost, Pytorch or Tensorflow to carry out production ready projects; and&lt;/li&gt;\n&lt;li&gt;Spark, Kafka, or Kubernetes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Background checks required.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;What we offer&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Challenging, high-impact work to grow your career&lt;/li&gt;\n&lt;li&gt;Performance driven compensation with multipliers for outsized impact, bonus programs, equity ownership, and 401(k) matching&lt;/li&gt;\n&lt;li&gt;Best in class benefits to fuel your work, including 100% paid health insurance for employees with 90% coverage for dependents&lt;/li&gt;\n&lt;li&gt;Lifestyle wallet - a highly flexible benefits spending account for wellness, learning, and more&lt;/li&gt;\n&lt;li&gt;Employer-paid life &amp;amp; disability insurance, fertility benefits, and mental health benefits&lt;/li&gt;\n&lt;li&gt;Time off to recharge including company holidays, paid time off, sick time, parental leave, and more!&lt;/li&gt;\n&lt;li&gt;Exceptional office experience with catered meals, events, and comfortable workspaces.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;In addition to the base pay range listed below, this role is also eligible for bonus opportunities + equity + benefits.&lt;/p&gt;\n&lt;p&gt;Base pay for the successful applicant will depend on a variety of job-related factors, which may include education, training, experience, location, business needs, or market demands. The expected base pay range for this role is based on the location where the work will be performed and is aligned to the corresponding compensation zone.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Base Pay Range:&lt;/p&gt;\n&lt;p&gt;$161,138 - $200,000 per year&lt;/p&gt;\n&lt;p&gt;To Apply: Apply by clicking APPLY NOW. Indicate job code 10035097 in your application.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;Click &lt;a href=&quot;https://careers.robinhood.com/benefits&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to learn more about our Total Rewards, which vary by region and entity.&lt;/p&gt;\n&lt;p&gt;If our mission energizes you and you’re ready to build the future of finance, we look forward to seeing your application.&lt;/p&gt;\n&lt;p&gt;Robinhood provides equal opportunity for all applicants, offers reasonable accommodations upon request, and complies with applicable equal employment and privacy laws. Inclusion is built into how we hire and work—welcoming different backgrounds, perspectives, and experiences so everyone can do their best. Please review the&amp;nbsp;&lt;a href=&quot;https://careers.robinhood.com/applicantprivacypolicy&quot; target=&quot;_blank&quot;&gt;Privacy Policy&lt;/a&gt; for your country of application.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 25981,
+      "name": "[Prospect]",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 17713,
+      "name": "[ProspectLand]",
+      "location": "ProspectLand",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

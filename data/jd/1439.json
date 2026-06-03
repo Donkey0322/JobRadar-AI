@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://stripe.com/jobs/search?gh_jid=7923191",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3444105,
+  "location": {
+    "name": "South San Francisco, CA and US-Remote"
+  },
+  "metadata": null,
+  "id": 7923191,
+  "updated_at": "2026-06-02T16:40:20-04:00",
+  "requisition_id": "See Opening ID",
+  "title": "Security Engineer IC-03",
+  "company_name": "Stripe",
+  "first_published": "2026-06-02T16:40:20-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop and work with supporting secure AI and LLM usage/integration both in products and within Security;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Develop building blocks to accept payments and move funds;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Stripes Core Products including Connect, Subscriptions, Checkout, RADAR, and Issuing;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Build/Enhance automated threat modeling tooling;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Identify and help reduce security debt across our product portfolio;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work closely with product engineering teams to design solutions that are secure by default;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Tailor answers to security questions from non-engineers and engineers;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Lead threat modeling discussions and help teams strike the right balance between security, user experience and product advancement;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Scale security effort by empowering engineering teams with automation, security guidance, tooling, patterns and training;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Drive high impact, cross-team security initiatives;&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Mentor teammates and others across the organization.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Who you are&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We&#39;re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Minimum requirements&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Bachelor’s degree or foreign equivalent in Computer Science, Security Informatics, or related followed by 5 years of security engineering experience in a production environment.&lt;/p&gt;\n&lt;p&gt;Position also requires the following:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5 years of experience with multiple CSPs, including AWS and either GCP or Azure;&lt;/li&gt;\n&lt;li&gt;5 years of experience with application and infrastructure security;&lt;/li&gt;\n&lt;li&gt;5 years of experience developing threat models and helping teams reason through different approaches to reduce security risk; and&lt;/li&gt;\n&lt;li&gt;4 years of experience with containerization and orchestration technologies including Docker or Kubernetes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Salary: $194,251 - $268,400/yr.&lt;/p&gt;\n&lt;p&gt;This salary range represents the base salary range for the role and any sales commissions / sales bonuses targets, if applicable, would be in addition to the base salary.&lt;/p&gt;\n&lt;p&gt;40 hrs/week&lt;/p&gt;\n&lt;p&gt;Full remote work permitted.&lt;/p&gt;\n&lt;p&gt;Multiple Positions Available.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Additional benefits for this role may include: equity, company bonus or sales commissions/bonuses; 401(k) plan; medical, dental, and vision benefits; and wellness stipends.&lt;em&gt; CA18&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 8pt;&quot;&gt;#LI-DNI&lt;/span&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 365162,
+      "name": "Global Operations",
+      "child_ids": [],
+      "parent_id": 349230
+    }
+  ],
+  "offices": [
+    {
+      "id": 344486,
+      "name": "US-PERM",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 65234
+    }
+  ]
+}
