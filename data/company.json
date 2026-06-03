@@ -2611,7 +2611,8 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Millennium-Space-Systems-Summer-2026-Internship-Program---Ground-Software-Engineering_JR2026498959-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Technology-Innovation---Graduate-Researcher-Program---Boeing-Commercial-Airplanes--BCA--Computational-Geometry-Mathematician-Intern_JR2025470096",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/CAN---Richmond-Canada/Software-Development-Intern_JR2026511453-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern--Operating-System--Embedded-Software-_JR2026509973-2"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern--Operating-System--Embedded-Software-_JR2026509973-2",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern_JR2026512519-2"
     ]
   },
   {
@@ -2706,7 +2707,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000129654279",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129719759",
       "https://jobs.smartrecruiters.com/BoschGroup/744000129758239",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000129814118"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129814118",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000129879190"
     ]
   },
   {
@@ -11893,7 +11895,8 @@
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Co-Op--Site-Reliability-Engineer_JR012241",
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012195",
       "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Data-Science_JR012196",
-      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200"
+      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Intern--Software-Engineering---Data-Marketplace_JR012200",
+      "https://liveramp.wd5.myworkdayjobs.com/liverampcareers/job/San-Francisco/Co-Op--Software-Engineer---Conversions-API_JR012232-1"
     ]
   },
   {
@@ -13896,9 +13899,9 @@
     "domain": "https://osv-rubicon.wd5.myworkdayjobs.com/magnitecareers",
     "page": "https://osv-rubicon.wd5.myworkdayjobs.com/wday/cxs/osv-rubicon/magnitecareers/jobs",
     "urls": [
-      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Demand-Solutions--NYC-_R-01332",
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/Colorado---Broomfield/Intern--Software-Engineering-DV---Broomfield--CO-_R-01330",
       "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Adserver--NYC-_R-01333",
-      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/Colorado---Broomfield/Intern--Software-Engineering-DV---Broomfield--CO-_R-01330"
+      "https://osv-rubicon.wd5.myworkdayjobs.com/en-US/MagniteCareers/job/New-York---New-York/Intern--Software-Engineering---Demand-Solutions--NYC-_R-01332"
     ]
   },
   {
@@ -16021,21 +16024,21 @@
   {
     "name": "semtech",
     "ats": "workday",
-    "identifier": "semtech-semtechjobs",
-    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechjobs",
-    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
-    "urls": [
-      "https://semtech.wd1.myworkdayjobs.com/SemtechJobs/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3167"
-    ]
-  },
-  {
-    "name": "semtech",
-    "ats": "workday",
     "identifier": "semtech-semtechcareers",
     "domain": "https://semtech.wd1.myworkdayjobs.com/semtechcareers",
     "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechcareers/jobs",
     "urls": [
       "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/USA---San-Jose-CA/Intern--SAP-BTP-Application-Development_REQ3380"
+    ]
+  },
+  {
+    "name": "semtech",
+    "ats": "workday",
+    "identifier": "semtech-semtechjobs",
+    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechjobs",
+    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
+    "urls": [
+      "https://semtech.wd1.myworkdayjobs.com/SemtechJobs/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3167"
     ]
   },
   {
