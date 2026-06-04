@@ -855,16 +855,6 @@
     ]
   },
   {
-    "name": "american-equity",
-    "ats": "greenhouse",
-    "identifier": "american-equity",
-    "domain": "https://www.american-equity.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/american-equity/jobs",
-    "urls": [
-      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
-    ]
-  },
-  {
     "name": "americancentury",
     "ats": "workday",
     "identifier": "americancentury-americancenturyinvestments",
@@ -874,6 +864,16 @@
       "https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Kansas-City-Missouri/AI-ML-Intern_R0005431",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/IT-Data-Intern--Engineering--Analytics-and-AI-ML-_R0005430",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005424"
+    ]
+  },
+  {
+    "name": "americanequityinvestmentlifeinsurancecompany",
+    "ats": "greenhouse",
+    "identifier": "americanequityinvestmentlifeinsurancecompany",
+    "domain": "https://www.american-equity.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/americanequityinvestmentlifeinsurancecompany/jobs",
+    "urls": [
+      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
     ]
   },
   {
@@ -2580,11 +2580,11 @@
     ]
   },
   {
-    "name": "bill",
+    "name": "billcom",
     "ats": "greenhouse",
-    "identifier": "bill",
+    "identifier": "billcom",
     "domain": "https://www.bill.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/bill/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
     "urls": [
       "https://www.bill.com/job?5588103004=&gh_jid=5588103004"
     ]
@@ -3299,6 +3299,7 @@
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/AUSTIN/Software-Intern_R53568-1",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BOSTON-02/Software-Engineering-Intern_R52449-1",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BOSTON-02/Software-Engineering-Intern_R52450-1",
+      "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/CAMBRIDGE/Application-Engineering-Intern_R55054",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/EDINBURGH-01/Intern---Software-Engineering_R52067",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/EDINBURGH-01/Intern-Software-Engineer--Summer-2026--Three-Month-Duration-_R52359",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern---Synthesis-_R51277-1",
@@ -3317,8 +3318,7 @@
       "https://cadence.wd1.myworkdayjobs.com/external_careers/job/AUSTIN/Software-Intern_R54747-1",
       "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R52814-1",
       "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54380-1",
-      "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54904-1",
-      "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/CAMBRIDGE/Application-Engineering-Intern_R55054"
+      "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Software-Intern_R54904-1"
     ]
   },
   {
@@ -9580,11 +9580,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -11056,7 +11056,8 @@
       "https://jobs.bytedance.com/en/position/7600176309125466373/detail",
       "https://jobs.bytedance.com/en/position/7616874229010647349/detail",
       "https://jobs.bytedance.com/en/position/7618396290598045957/detail",
-      "https://jobs.bytedance.com/en/position/7637923145297119493/detail"
+      "https://jobs.bytedance.com/en/position/7637923145297119493/detail",
+      "https://jobs.bytedance.com/en/position/7595707875767699765/detail"
     ]
   },
   {
