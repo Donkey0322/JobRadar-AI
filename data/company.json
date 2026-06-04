@@ -1910,7 +1910,8 @@
       "https://ats.rippling.com/theguarantors-open-positions/jobs/d78ec000-5f8b-43d3-9590-4eb51970e49b",
       "https://ats.rippling.com/tive-careers/jobs/e7ed0c47-bf2e-4105-a793-e48dc0e0f710",
       "https://ats.rippling.com/usare/jobs/8db9bb37-aa5f-40e0-96ac-d1c4ca796aeb",
-      "https://ats.rippling.com/veryable-careers/jobs/cf74672c-c9c5-4be5-8858-04abfd64c20f"
+      "https://ats.rippling.com/veryable-careers/jobs/cf74672c-c9c5-4be5-8858-04abfd64c20f",
+      "https://ats.rippling.com/conceptplus/jobs/916978a4-fa79-4f6e-9eb6-515aa1cf3fb5"
     ]
   },
   {
@@ -2875,7 +2876,8 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Associate-Software-Engineer-FullStack_JR2026510090-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/IND---Bangalore-India/Experienced-Software-Engineer_JR2026510088-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern--Operating-System--Embedded-Software-_JR2026509973-2",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern_JR2026512519-2"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/KOR---Seoul-South-Korea/Software-Engineer-Intern_JR2026512519-2",
+      "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Richardson-TX/Entry-Level-Software-Engineer-Developer_JR2026512717-2"
     ]
   },
   {
@@ -9055,7 +9057,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-1127-CUST--1127-W-2320-South--2320-S-External-Site/Software-Engineering-Intern----Summer-2026----Onsite-_01792654-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-UT-WEST-VALLEY-CITY-338--1127--1128-w-2400-S--BLDG-338-Ast-Salt-Lake-City/Software-Engineering-Intern----Summer-2026----Onsite-_01842000",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-DULLES-760--22260-Pacific-Blvd--BLDG-60/Software-Engineering-Intern--Summer-2026--Onsite-_01826772",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-21251-CUST--21251-Ridgetop-Cir--RIDGETOP-External-Site/XMLNAME-2026-Intern--Raytheon-Software-Engineer---Onsite_01819197"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-21251-CUST--21251-Ridgetop-Cir--RIDGETOP-External-Site/XMLNAME-2026-Intern--Raytheon-Software-Engineer---Onsite_01819197",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineer-1---Core-Systems---Libraries--Onsite-_01847677"
     ]
   },
   {
@@ -11051,13 +11054,13 @@
       "https://jobs.bytedance.com/en/position/7556512981375551762/detail",
       "https://jobs.bytedance.com/en/position/7556514441468020999/detail",
       "https://jobs.bytedance.com/en/position/7564516412456306997/detail",
+      "https://jobs.bytedance.com/en/position/7595707875767699765/detail",
       "https://jobs.bytedance.com/en/position/7595749912930420997/detail",
       "https://jobs.bytedance.com/en/position/7595756835349973253/detail",
       "https://jobs.bytedance.com/en/position/7600176309125466373/detail",
       "https://jobs.bytedance.com/en/position/7616874229010647349/detail",
       "https://jobs.bytedance.com/en/position/7618396290598045957/detail",
-      "https://jobs.bytedance.com/en/position/7637923145297119493/detail",
-      "https://jobs.bytedance.com/en/position/7595707875767699765/detail"
+      "https://jobs.bytedance.com/en/position/7637923145297119493/detail"
     ]
   },
   {
@@ -15030,6 +15033,16 @@
     ]
   },
   {
+    "name": "precisely",
+    "ats": "greenhouse",
+    "identifier": "precisely",
+    "domain": "https://www.precisely.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/precisely/jobs",
+    "urls": [
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005"
+    ]
+  },
+  {
     "name": "preciselyusjobs",
     "ats": "greenhouse",
     "identifier": "preciselyusjobs",
@@ -15037,7 +15050,6 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/preciselyusjobs/jobs",
     "urls": [
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005",
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4702062005?gh_jid=4702062005"
     ]
@@ -19154,6 +19166,16 @@
     "page": "https://usertesting.wd12.myworkdayjobs.com/wday/cxs/usertesting/usertesting/jobs",
     "urls": [
       "https://usertesting.wd12.myworkdayjobs.com/UserTesting/job/Edinburgh/Software-Engineer-Intern_R-101153-1"
+    ]
+  },
+  {
+    "name": "usnh",
+    "ats": "workday",
+    "identifier": "usnh-careers",
+    "domain": "https://usnh.wd5.myworkdayjobs.com/careers",
+    "page": "https://usnh.wd5.myworkdayjobs.com/wday/cxs/usnh/careers/jobs",
+    "urls": [
+      "https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/High-Tech-Bound-Broadband-Intern_JR8298"
     ]
   },
   {
