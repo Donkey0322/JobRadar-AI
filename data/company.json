@@ -6904,6 +6904,16 @@
     ]
   },
   {
+    "name": "ejia.fa.us6.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "ejia.fa.us6.oraclecloud.com",
+    "domain": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
+    "page": "https://ejia.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "urls": [
+      "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/106730"
+    ]
+  },
+  {
     "name": "ejko.fa.us2.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "ejko.fa.us2.oraclecloud.com",
@@ -8318,6 +8328,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/forwardnetworks/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/forwardnetworks/jobs/7651478003"
+    ]
+  },
+  {
+    "name": "fourkites",
+    "ats": "greenhouse",
+    "identifier": "fourkites",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/fourkites/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/fourkites/jobs/7926771"
     ]
   },
   {
@@ -17253,7 +17273,9 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/solink",
     "urls": [
       "https://jobs.ashbyhq.com/solink/4460f7ac-b697-4c9c-946d-16196a8ef58b/application",
-      "https://jobs.ashbyhq.com/solink/506e5910-4e59-4464-b38d-341151fc71d1/application"
+      "https://jobs.ashbyhq.com/solink/506e5910-4e59-4464-b38d-341151fc71d1/application",
+      "https://jobs.ashbyhq.com/solink/a9faf14b-6e54-4127-89b6-795011a025ef/application",
+      "https://jobs.ashbyhq.com/solink/df855bdc-1d59-4af5-b7dc-5e23801aeb30/application"
     ]
   },
   {
