@@ -1,0 +1,64 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/fourkites/jobs/7926771",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3445034,
+  "location": {
+    "name": "Chicago, IL"
+  },
+  "metadata": [
+    {
+      "id": 2208319,
+      "name": "Requirement Type",
+      "value": "New Headcount",
+      "value_type": "single_select"
+    },
+    {
+      "id": 25289093,
+      "name": "FADV_Account",
+      "value": null,
+      "value_type": "single_select"
+    },
+    {
+      "id": 25289094,
+      "name": "FADV_Package",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7926771,
+  "updated_at": "2026-06-05T11:11:21-04:00",
+  "requisition_id": "1359",
+  "title": "Engineering Internship",
+  "company_name": "FourKites",
+  "first_published": "2026-05-29T10:34:21-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;em&gt;At FourKites we have the opportunity to tackle complex challenges with real-world impacts. Whether it’s medical supplies from Cardinal Health or groceries for Walmart, the FourKites platform helps customers operate global supply chains that are efficient, agile and sustainable.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Join a team of curious problem solvers that celebrates differences, leads with empathy and values inclusivity&lt;/em&gt;&lt;strong&gt;&lt;em&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Are you passionate about building software products on cutting-edge technologies and being a part of the team that develops large-scale distributed systems to solve global supply chain problems? Fourkites is looking for an &lt;strong&gt;Intern - Software Engineering&lt;/strong&gt;&amp;nbsp; who can dream big, innovate, and solve complex real-world problems. The associate must be well-versed in computer science fundamentals, fluent in coding in multiple programming languages, and knowledgeable about database(s).&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You’ll be spending most of your time developing intuitive software systems. Additionally, you’ll have the opportunity to contribute to the design, test, build, and release of software modules and services along with working on exploratory projects or proof-of-concepts on new ideas and technologies.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll be doing:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Design and develop best-in-class software modules and services.&lt;/li&gt;\n&lt;li&gt;Develop unit test cases and automation test cases.&lt;/li&gt;\n&lt;li&gt;Triage &amp;amp; Resolve software incidents &amp;amp; bugs&lt;/li&gt;\n&lt;li&gt;Create design, UML, and workflow diagrams.&lt;/li&gt;\n&lt;li&gt;Work with other cross-functional teams on testing and requirement definition.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Participate in technical discussions and problem solving.&lt;/li&gt;\n&lt;li&gt;Solve key Business problems using GenAI tools and technologies.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About the team:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our product and engineering teams are dedicated to providing the industry’s best-in-class end to end supply chain visibility platform. We are committed to building a high-performing team with software craftsman-thinking who are dedicated to developing and enhancing our core platform, and we want you to be a central part of it!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who you are:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Self-motivated individual who can work with little supervision.&lt;/li&gt;\n&lt;li&gt;Strong problem-solving and analytical skills&lt;/li&gt;\n&lt;li&gt;Strong understanding of data structures and algorithms&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills&lt;/li&gt;\n&lt;li&gt;Knowledge of revision control systems (CVS, SVN, Mercurial, or Git)&lt;/li&gt;\n&lt;li&gt;An Understanding of Design Patterns and Architectural Patterns&lt;/li&gt;\n&lt;li&gt;Hands on experience with GenAI tools and technologies&lt;/li&gt;\n&lt;li&gt;Good knowledge of more than one programming language-C/C++, Java, Python, Ruby, Go, or Java Script&lt;/li&gt;\n&lt;li&gt;Exposure/knowledge of queries using SQL or NoSQL databases&lt;/li&gt;\n&lt;li&gt;Knowledge of cloud computing platforms such as AWS, Azure, and GCP&lt;/li&gt;\n&lt;li&gt;Experience presenting or publishing technical papers at conferences or universities is a plus.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Eligible Criteria&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Current enrollment in an accredited 4-year university, pursing a technology degree&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who we are:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;FourKites, the leader in AI-driven supply chain transformation for global enterprises and pioneer of real-time visibility, turns supply chain data into automated action. FourKites Intelligent Control Tower® breaks down enterprise silos by creating a real-time digital twin of orders, shipments, inventory and assets. This comprehensive view, combined with AI-powered digital workers, enables companies to prevent disruptions, automate routine tasks and optimize performance across their supply chain. FourKites processes over 3.2 million supply chain events daily — from purchase orders to final delivery — helping 1,600-plus global brands prevent disruptions, make faster decisions and move from reactive tracking to proactive supply chain orchestration. For more information, visit www.fourkites.com.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;br&gt;Benefits:&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;li1&quot;&gt;Hands-on, real-world experience by working on impactful projects that solve actual customer and business challenges&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Exposure to cutting-edge AI technologies, including access to leading AI tools and foundation models, with the freedom to experiment, learn, and innovate&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Dedicated mentorship and guidance from experienced professionals who are invested in your learning and long-term growth&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;A diverse and inclusive work environment where ideas are welcomed, perspectives are respected, and collaboration thrives&lt;/li&gt;\n&lt;li class=&quot;li1&quot;&gt;Cross-functional collaboration opportunities, allowing you to work closely with teams across Product, Engineering, Operations, and Customer Success&lt;/li&gt;\n&lt;/ul&gt;",
+  "departments": [
+    {
+      "id": 76283,
+      "name": "Operations, North America",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 17393,
+      "name": "Chicago",
+      "location": "Chicago, IL, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
