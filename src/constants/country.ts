@@ -1,4 +1,4 @@
-export const LOCATIONS = [
+export const COUNTRIES = [
   "USA",
   "Canada",
   "UK",
@@ -27,3 +27,5 @@ export const LOCATIONS = [
   "Unsure",
   "Other",
 ] as const;
+
+export default COUNTRIES;

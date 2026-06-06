@@ -11,10 +11,10 @@ export async function sendEmail(job: Job, mailer: Transporter) {
   const fromEmail = CONFIG.sender.email;
   const toEmail = CONFIG.receiver.email;
 
-  const { subject, html, text, term } = generateEmailContent(job);
+  const { subject, html, text, title } = generateEmailContent(job);
 
   await mailer.sendMail({
-    from: `${term} <${fromEmail}>`,
+    from: `${title} <${fromEmail}>`,
     to: toEmail,
     subject,
     text,

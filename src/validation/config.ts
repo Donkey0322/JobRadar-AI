@@ -1,6 +1,7 @@
 import { z } from "zod";
 
-import { LOCATIONS } from "@/constants/location";
+// do not use import from "@/constants" to avoid circular dependency
+import { COUNTRIES } from "@/constants/country";
 
 export enum JobCategory {
   SUMMER_INTERN = "summer intern",
@@ -11,7 +12,7 @@ export enum JobCategory {
   SENIOR_LEVEL = "senior level",
 }
 
-const CountrySchema = z.enum(LOCATIONS);
+const CountrySchema = z.enum(COUNTRIES);
 export type Country = z.infer<typeof CountrySchema>;
 
 const CountryFilterSchema = z.object({
@@ -48,7 +49,7 @@ export const TargetSchema = z
     const allowedCountries = new Set(target.countries);
 
     for (const key of Object.keys(target.filter)) {
-      if (!allowedCountries.has(key as (typeof LOCATIONS)[number])) {
+      if (!allowedCountries.has(key as (typeof COUNTRIES)[number])) {
         ctx.addIssue({
           code: "custom",
           path: ["filter", key],

@@ -8,15 +8,18 @@ describe("ConfigSchema", () => {
       target: {
         intern: ["summer intern"],
         "full-time": ["entry level"],
-
         countries: ["USA"],
-
         filter: {
           USA: {
             allow_citizenship_required: false,
             allow_no_sponsorship: false,
           },
         },
+      },
+
+      ai: {
+        provider: "openai",
+        model: "gpt-4o",
       },
 
       sender: {
@@ -140,8 +143,12 @@ describe("ConfigSchema", () => {
     const result = ConfigSchema.safeParse({
       target: {
         intern: ["summer intern"],
-
         countries: ["USA"],
+      },
+
+      ai: {
+        provider: "openai",
+        model: "gpt-4o",
       },
 
       sender: {

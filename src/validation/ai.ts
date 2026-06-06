@@ -1,14 +1,15 @@
 import { z } from "zod";
 
-import { SEASONS } from "@/constants";
-import { LOCATIONS } from "@/constants/location";
+import { JOB_CATEGORIES, SEASONS } from "@/constants";
+import { COUNTRIES } from "@/constants/country";
 
 export const JDResponseSchema = z.object({
-  citizenship_required: z.boolean().nullable(),
-  visa_sponsorship_available: z.boolean().nullable(),
-  location: z.enum(LOCATIONS),
+  citizenship: z.boolean().nullable(),
+  sponsorship: z.boolean().nullable(),
+  country: z.enum(COUNTRIES),
   qualifications: z.array(z.string()),
-  term: z.enum(SEASONS),
+  category: z.enum(JOB_CATEGORIES),
+  season: z.enum(SEASONS),
 });
 
 export type JDResponse = z.infer<typeof JDResponseSchema>;

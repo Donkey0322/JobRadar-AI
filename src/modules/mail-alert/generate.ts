@@ -1,7 +1,9 @@
 import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
+import type { Season } from "@/validation/season";
 
 import { getToday } from "@/utils/string";
+import { JobCategory } from "@/validation/config";
 
 function escapeHtml(str: string) {
   return str
@@ -143,38 +145,45 @@ function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
   return tags.join("");
 }
 
-function toTerm(season: Job["season"]) {
-  switch (season) {
-    case undefined:
-    case "Unsure":
-      return "General";
+function formTitle(category?: JobCategory, season?: Season) {
+  switch (category) {
+    case JobCategory.SUMMER_INTERN:
+      return `${season} Intern`;
 
-    case "Entry Level":
-      return "Entry Level";
+    case JobCategory.OFF_SEASON_INTERN:
+      return `${season} Intern`;
 
-    case "Mid Level":
-      return "Mid Level";
+    case JobCategory.ENTRY_LEVEL:
+      return `Entry Level`;
 
-    case "Senior Level":
-      return "Senior Level";
+    case JobCategory.MID_LEVEL:
+      return `Mid Level`;
+
+    case JobCategory.SENIOR_LEVEL:
+      return `Senior Level`;
 
     default:
-      return `${season} Intern`;
+      category satisfies undefined;
+      return "General";
   }
 }
 
 export function generateEmailContent(job: Job) {
-  const { company, role, link, season, jd } = job;
+  const { company, role, link, jd } = job;
 
   const citizenship = jd?.citizenship ?? null;
   const sponsorship = jd?.sponsorship ?? null;
-  const location = jd?.location ?? "Other";
-  const qualifications = jd?.qualifications ?? [];
+  const country: Country = jd?.country ?? "Other";
+  const category = jd?.category;
+  const season: Season = jd?.season ?? "None";
+  const qualifications: string[] = jd?.qualifications ?? [];
 
   const tagsHtml = renderTags(citizenship, sponsorship);
 
   const todayStr = getToday();
-  const term = toTerm(season);
+  const title = formTitle(category, season);
+
+  console.log(title);
 
   const subject = `[${company}] ${role} — ${todayStr}`;
 
@@ -196,7 +205,7 @@ Link: ${link}`;
             </h2>
 
             <h2 style="transform:scale(1.1);margin:0;">
-              ${locationIcon(location)}
+              ${locationIcon(country)}
             </h2>
           </div>
 
@@ -301,6 +310,6 @@ Link: ${link}`;
     subject,
     html,
     text,
-    term,
+    title,
   };
 }

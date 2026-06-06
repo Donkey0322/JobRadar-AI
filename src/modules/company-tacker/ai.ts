@@ -1,4 +1,4 @@
-import { LOCATIONS } from "@/constants/location";
+import { COUNTRIES } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
@@ -32,7 +32,7 @@ Task:
 For each item, classify the job location.
 
 Allowed values:
-${LOCATIONS.join(", ")}
+${COUNTRIES.join(", ")}
 
 Rules:
 - Return exactly ONE location per item.
@@ -78,7 +78,7 @@ ${JSON.stringify(payload)}
     throw new Error(`Length mismatch: expected ${jobs.length}, got ${parsed.length}`);
   }
 
-  if (!parsed.every((item) => typeof item === "string" && LOCATIONS.includes(item as Country))) {
+  if (!parsed.every((item) => typeof item === "string" && COUNTRIES.includes(item as Country))) {
     throw new Error("Invalid location values");
   }
 

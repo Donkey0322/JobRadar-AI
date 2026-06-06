@@ -19,63 +19,39 @@ import {
 
 import { logger } from "@/utils/logger";
 import { JDResponseSchema } from "@/validation/ai";
-import { JobCategory } from "@/validation/config";
 
 export function normalizeJD(response: JDResponse): JD {
   return {
-    citizenship: response.citizenship_required,
-    sponsorship: response.visa_sponsorship_available,
-    location: response.location,
+    citizenship: response.citizenship,
+    sponsorship: response.sponsorship,
+    country: response.country,
     qualifications: response.qualifications,
-    season: response.term,
+    category: response.category,
+    season: response.season,
   };
-}
-
-function seasonToCategory(season?: JD["season"]): JobCategory | undefined {
-  if (!season) return undefined;
-
-  if (season.endsWith("Summer")) {
-    return JobCategory.SUMMER_INTERN;
-  }
-
-  if (season.endsWith("Fall") || season.endsWith("Spring") || season.endsWith("Winter")) {
-    return JobCategory.OFF_SEASON_INTERN;
-  }
-
-  switch (season) {
-    case "Entry Level":
-      return JobCategory.ENTRY_LEVEL;
-
-    case "Mid Level":
-      return JobCategory.MID_LEVEL;
-
-    case "Senior Level":
-      return JobCategory.SENIOR_LEVEL;
-  }
 }
 
 export function isEligibleJD(jd: JD) {
   const filters = CONFIG.target.filter;
   const countries = CONFIG.target.countries;
 
-  if (!countries.includes(jd.location)) {
-    return [false, `${jd.location} is not in the allowed countries`];
+  if (!countries.includes(jd.country)) {
+    return [false, `${jd.country} is not in the allowed countries`];
   }
 
-  const category = seasonToCategory(jd.season);
   const allowedCategories = new Set([
     ...(CONFIG.target?.intern ?? []),
     ...(CONFIG.target?.["full-time"] ?? []),
   ]);
-  if (category && !allowedCategories.has(category)) {
-    return [false, `${category} is not in the allowed categories`];
+  if (jd.category && !allowedCategories.has(jd.category)) {
+    return [false, `${jd.category} is not in the allowed categories`];
   }
 
   if (!filters) {
     return [true, null];
   }
 
-  const rule = filters[jd.location];
+  const rule = filters[jd.country];
 
   // no rule for this country, so it's eligible
   if (!rule) {
