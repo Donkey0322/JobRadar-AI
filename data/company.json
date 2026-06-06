@@ -3271,11 +3271,11 @@
     ]
   },
   {
-    "name": "c3iot",
+    "name": "c3",
     "ats": "greenhouse",
-    "identifier": "c3iot",
+    "identifier": "c3",
     "domain": "https://c3.ai",
-    "page": "https://boards-api.greenhouse.io/v1/boards/c3iot/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/c3/jobs",
     "urls": [
       "https://c3.ai/job-description/8106513002?gh_jid=8106513002"
     ]
@@ -7262,7 +7262,11 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718586",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718813",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719586",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/710839",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719599",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605"
     ]
   },
   {
@@ -16209,7 +16213,8 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/XMLNAME-2026-Summer-Intern---Instrument-Control-Software_202601-101724",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/XMLNAME-2026-Summer-Intern---RDS-Sequencing-Network---Sequencing-Software-Chapter_202601-101130",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Vienna/Senior-Principal-Backend-Software-Engineer--m-f-d-_202512-131537-2",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1"
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1",
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/Channel-Data-Mgmt-Expert_202606-114216"
     ]
   },
   {
@@ -17411,16 +17416,7 @@
     "domain": "https://sofi.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
     "urls": [
-      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003"
-    ]
-  },
-  {
-    "name": "sofiuniversity",
-    "ats": "greenhouse",
-    "identifier": "sofiuniversity",
-    "domain": "https://www.sofi.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/sofiuniversity/jobs",
-    "urls": [
+      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003",
       "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
       "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
       "https://www.sofi.com/careers/sofi-university/7585152003?gh_jid=7585152003",
