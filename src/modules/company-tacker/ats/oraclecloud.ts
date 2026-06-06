@@ -60,12 +60,21 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>, sign
       return [];
     }
 
-    const firstItem = data.items[0];
+    let companyName: string = company.name;
 
-    const companyName: string =
-      firstItem?.organizationsFacet?.length > 0
-        ? firstItem.organizationsFacet[0]?.Name
-        : company.name;
+    const firstItem = data.items[0];
+    const organization = firstItem?.organizationsFacet;
+
+    if (organization?.length > 0) {
+      const organizationName = organization.find(
+        (organization: { Id: number }) => organization.Id === 1
+      )?.Name;
+      if (organizationName) {
+        companyName = organizationName;
+      } else {
+        companyName = organization[0]?.Name;
+      }
+    }
 
     const requisitionList = firstItem?.requisitionList;
 
