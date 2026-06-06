@@ -1,0 +1,75 @@
+{
+  "absolute_url": "https://www.asm.com/open-vacancies/?gh_jid=4846047101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4459922101,
+  "location": {
+    "name": "US > Arizona > Phoenix"
+  },
+  "metadata": [
+    {
+      "id": 8643446101,
+      "name": "Full-time/ Part-time",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643447101,
+      "name": "Expected travel amount",
+      "value": "10-25%",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643448101,
+      "name": "Education level",
+      "value": "Bachelors",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643464101,
+      "name": "Experience level",
+      "value": "Early career",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643480101,
+      "name": "Field of interest",
+      "value": "Hardware & Software",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4846047101,
+  "updated_at": "2026-06-05T10:24:03-04:00",
+  "requisition_id": "12205",
+  "title": "Engineer, Software Support",
+  "company_name": "ASM",
+  "first_published": "2026-05-06T17:50:23-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Step into a career with ASM, where cutting edge technology meets collaborative culture. &lt;/strong&gt;​&lt;/p&gt;\n&lt;p&gt;For over 55 years ASM has been ahead of what’s next, at the forefront of innovation and what’s technologically possible. With more than 4,500 ASMers representing 70 nationalities, our people and our advanced semiconductor devices are playing a crucial role in trends such as 5G, cloud computing, AI, and autonomous driving. But&amp;nbsp;we’re more than just a tech company. We value diversity, inclusion and sustainability as we strive to make a positive impact on the world.&amp;nbsp; Our development programs help support your growth, shaping your future and pushing the boundaries of innovation to unleash potential.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Engineer, Software Support&lt;/strong&gt;&lt;br&gt;&lt;br&gt;At ASM, our Software Engineering teams works on delivering software that has immediate, tangible results visible in the operation of semiconductor processing equipment hardware. The hardware includes robotics, gas valves, temperature controllers and other hardware.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As a&amp;nbsp;&lt;strong&gt;Software Support Engineer&lt;/strong&gt;, you will make an impact by investigating, recreating, and troubleshooting software issues to resolution as reported by our customers.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Gather information to investigate the issue, reproduce it,&amp;nbsp;determine&amp;nbsp;the root cause, and recommend corrective actions.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Troubleshoot and resolve software issues, including embedded software for control systems. Able to triage mechanical, electrical, and software bugs.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Responsible for managing escalation calls with field support engineers&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Create bug reports for the developer to use when fixing the bug.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Work with QA to add replicated bugs to the regression.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Travel to customer sites to support installations, training, and troubleshooting of ASM products.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Talking to the account team and GPS group (not directly with the customer) when investigating reported issues.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;The team will handle all issues until they are ready to&amp;nbsp;send&amp;nbsp;to the developer. &amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Minimum Qualifications&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BS+ 4 years experience or MS+ in Computer Science, Computer Engineering, or a related field.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Ability to read code and diagnose issues. &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Software development or test (QA) experience.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Ability to travel 10-25% domestic and international.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications&lt;/strong&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Preferred&amp;nbsp;expertise&amp;nbsp;in C/C++, C#, Python,&amp;nbsp;Gitlab/Github.&lt;/li&gt;\n&lt;li&gt;Experience with semiconductor equipment preferred&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Experience working with two or more of the following is preferred: software for machine control, Semiconductor Factory Automation, Multi-threaded applications, real-time software, device drivers, or other interrupt-driven software&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Apply today to be part of what’s next.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We make the tech that enables the chips in devices which improve lives around the world. We do this with an eye to the future, pushing the boundaries of what’s possible through cutting-edge innovation, and driving the next wave of technological breakthroughs that shape how we live, work, and connect.&lt;/p&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;To learn more about ASM, find us at&amp;nbsp;&lt;a href=&quot;https://www.asm.com/&quot; target=&quot;_blank&quot;&gt;asm.com&lt;/a&gt; and&amp;nbsp;on &lt;a href=&quot;https://www.linkedin.com/company/asm/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.facebook.com/ASMOfficialCompany&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.instagram.com/asmofficialcompany/&quot; target=&quot;_blank&quot;&gt;Instagram,&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://twitter.com/ASMofficialco&quot; target=&quot;_blank&quot;&gt;X&amp;nbsp;&lt;/a&gt;and&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/c/ASM_Official&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;\n&lt;hr&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;&lt;em&gt;ASM is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, age, nationality, social or ethnic origin, sexual orientation, gender, gender identify or expression, marital status, pregnancy, political affiliation, disability, genetic information, veteran status, or any other characteristic protected by law.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4065688101,
+      "name": "SU3.Global Software- Support",
+      "child_ids": [],
+      "parent_id": 4065650101
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017218101,
+      "name": "AZ Phoenix (ASM America Inc.)",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4016252101
+    }
+  ]
+}

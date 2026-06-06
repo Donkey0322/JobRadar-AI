@@ -80,6 +80,7 @@ export async function processJobs({
           {
             company: job.company,
             role: job.role,
+            url: job.link,
             reason,
           },
           "⏭️ Skipped by eligibility filter"

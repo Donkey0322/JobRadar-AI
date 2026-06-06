@@ -1,0 +1,76 @@
+{
+  "absolute_url": "https://www.asm.com/open-vacancies/?gh_jid=4885531101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4478015101,
+  "location": {
+    "name": "US > Arizona > Phoenix"
+  },
+  "metadata": [
+    {
+      "id": 8643446101,
+      "name": "Full-time/ Part-time",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643447101,
+      "name": "Expected travel amount",
+      "value": "Less than 10%",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643448101,
+      "name": "Education level",
+      "value": "Bachelors",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643464101,
+      "name": "Experience level",
+      "value": "Early career",
+      "value_type": "single_select"
+    },
+    {
+      "id": 8643480101,
+      "name": "Field of interest",
+      "value": "Hardware & Software",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4885531101,
+  "updated_at": "2026-06-05T17:44:42-04:00",
+  "requisition_id": "12476",
+  "title": "Data & Digital Solutions Engineer",
+  "company_name": "ASM",
+  "first_published": "2026-06-05T17:16:36-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Step into a career with ASM, where cutting edge technology meets collaborative culture. &lt;/strong&gt;​&lt;/p&gt;\n&lt;p&gt;For over 55 years ASM has been ahead of what’s next, at the forefront of innovation and what’s technologically possible. With more than 4,500 ASMers representing 70 nationalities, our people and our advanced semiconductor devices are playing a crucial role in trends such as 5G, cloud computing, AI, and autonomous driving. But&amp;nbsp;we’re more than just a tech company. We value diversity, inclusion and sustainability as we strive to make a positive impact on the world.&amp;nbsp; Our development programs help support your growth, shaping your future and pushing the boundaries of innovation to unleash potential.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Data &amp;amp; Digital Solutions Engineer – Field Operations&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;We are looking for a &lt;strong&gt;Data &amp;amp; Digital Solutions Engineer&lt;/strong&gt; to join our growing Global Spares and Services organization. In this role, you will play a critical part in enabling Field Service teams with the data, knowledge, and digital tools needed to improve service efficiency, drive first-time-right outcomes, and reduce equipment installation and maintenance cycle times at customer sites.&lt;/p&gt;\n&lt;p&gt;This is a highly cross-functional role at the intersection of&amp;nbsp;data engineering, application development, and operational enablement, ideal for someone who enjoys solving real-world problems by integrating systems and building impactful solutions.&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Key Responsibilities&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and manage data pipelines that integrate data from enterprise systems, vendor sources, and operational environments to support analytics and business insights&lt;/li&gt;\n&lt;li&gt;Develop internal digital applications and tools that streamline and digitize installation, maintenance, and service workflows&lt;/li&gt;\n&lt;li&gt;Enable analytics use cases by structuring and modeling data for reporting, dashboards, and operational decision-making&lt;/li&gt;\n&lt;li&gt;Consolidate and deliver knowledge from multiple sources into user-friendly tools and applications for field teams&lt;/li&gt;\n&lt;li&gt;Collaborate with cross-functional teams (Engineering, Service, IT, Product) to deliver scalable, high-impact solutions&lt;/li&gt;\n&lt;li&gt;Enhance user experience and usability of tools used by field engineers, focusing on simplicity, reliability, and efficiency&lt;/li&gt;\n&lt;li&gt;Partner with IT and platform teams to ensure integration, deployment, and ongoing support of solutions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Minimum Qualifications&amp;nbsp;&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree in computer science, Software Engineering, or a related field&lt;/li&gt;\n&lt;li&gt;2+ years of professional industry experience&lt;/li&gt;\n&lt;li&gt;Experience in data integration / data engineering (ETL/ELT, APIs, SQL/NoSQL)&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python (required); experience with modern C++ is a plus&lt;/li&gt;\n&lt;li&gt;Experience with mobile / handheld devices and web application development&lt;/li&gt;\n&lt;li&gt;Experience building internal tools, applications, or automation solutions&lt;/li&gt;\n&lt;li&gt;Experience with cloud platforms (Azure / AWS)&lt;/li&gt;\n&lt;li&gt;Solid understanding of data modeling and working with multiple data sources&lt;/li&gt;\n&lt;li&gt;Ability to work across systems (e.g., enterprise applications, APIs, files, operational data)&lt;/li&gt;\n&lt;li&gt;Strong problem-solving skills and ability to operate in a cross-functional environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;Preferred Qualifications (Nice-to-Have)&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Exposure to AI/ML or GenAI-enabled applications&lt;/li&gt;\n&lt;li&gt;Experience building engineering tools, diagnostic interfaces, or HMIs (e.g., Python frameworks, LabVIEW)&lt;/li&gt;\n&lt;li&gt;Familiarity with knowledge management systems or search platforms&lt;/li&gt;\n&lt;li&gt;Exposure to BI tools and dashboarding (e.g., Power BI, Tableau)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;u&gt;What Makes This Role Unique&lt;/u&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Direct impact on field operations and customer outcomes&lt;/li&gt;\n&lt;li&gt;Opportunity to work across data, applications, and real-world engineering systems&lt;/li&gt;\n&lt;li&gt;High visibility with multiple business functions&lt;/li&gt;\n&lt;li&gt;Ability to shape and scale digital capabilities in a growing organization&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Apply today to be part of what’s next.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We make the tech that enables the chips in devices which improve lives around the world. We do this with an eye to the future, pushing the boundaries of what’s possible through cutting-edge innovation, and driving the next wave of technological breakthroughs that shape how we live, work, and connect.&lt;/p&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;To learn more about ASM, find us at&amp;nbsp;&lt;a href=&quot;https://www.asm.com/&quot; target=&quot;_blank&quot;&gt;asm.com&lt;/a&gt; and&amp;nbsp;on &lt;a href=&quot;https://www.linkedin.com/company/asm/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.facebook.com/ASMOfficialCompany&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.instagram.com/asmofficialcompany/&quot; target=&quot;_blank&quot;&gt;Instagram,&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;https://twitter.com/ASMofficialco&quot; target=&quot;_blank&quot;&gt;X&amp;nbsp;&lt;/a&gt;and&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/c/ASM_Official&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;\n&lt;hr&gt;\n&lt;p class=&quot;x_elementToProof&quot;&gt;&lt;em&gt;ASM is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, religion, age, nationality, social or ethnic origin, sexual orientation, gender, gender identify or expression, marital status, pregnancy, political affiliation, disability, genetic information, veteran status, or any other characteristic protected by law.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4042927101,
+      "name": "BU3.Products Digital Solutions",
+      "child_ids": [],
+      "parent_id": 4034383101
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017238101,
+      "name": "AZ Lab (ASM America Inc.)",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4016252101
+    }
+  ]
+}

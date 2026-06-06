@@ -1,0 +1,59 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4439406005,
+  "location": {
+    "name": "San Francisco, CA; New York, NY"
+  },
+  "metadata": [
+    {
+      "id": 7904378005,
+      "name": "Domain",
+      "value": null,
+      "value_type": "multi_select"
+    },
+    {
+      "id": 9832886005,
+      "name": "External Department",
+      "value": "Data Science and Analytics",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 4703343005,
+  "updated_at": "2026-06-06T01:30:38-04:00",
+  "requisition_id": "GH-2193",
+  "title": "AI Builder Intern",
+  "company_name": "Scale AI",
+  "first_published": "2026-06-06T01:30:38-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;ABOUT THE ROLE&lt;/p&gt;\n&lt;p&gt;This isn&#39;t a research internship. You won&#39;t spend the summer writing reports or sitting in strategy meetings. You&#39;ll spend it building — shipping AI-powered tools, automating workflows, and deploying agentic systems that real teams at Scale AI use every day.&lt;/p&gt;\n&lt;p&gt;Embedded in the Data &amp;amp; Technology org, you&#39;ll work directly alongside engineers, data scientists, and ops leads on live automation initiatives. If you have strong instincts for what AI can do today, a bias for building over theorizing, and a fluency in modern LLM tooling — this role is for you.&lt;/p&gt;\n&lt;p&gt;────────────────────────────────────────&lt;/p&gt;\n&lt;p&gt;WHAT YOU&#39;LL BUILD&lt;/p&gt;\n&lt;p&gt;Agentic Workflows &amp;amp; Automation&lt;/p&gt;\n&lt;p&gt;→ Design and deploy multi-step agentic workflows using LLM-integrated frameworks (LangChain, LangGraph, CrewAI, or similar)&lt;/p&gt;\n&lt;p&gt;→ Build API-connected automations that tie together internal tools — Slack, Salesforce, Notion, and internal data systems&lt;/p&gt;\n&lt;p&gt;→ Prototype and iterate fast; build things that work, then make them better&lt;/p&gt;\n&lt;p&gt;AI Tooling &amp;amp; Internal Products&lt;/p&gt;\n&lt;p&gt;→ Develop lightweight internal tools and dashboards that surface AI outputs to business teams&lt;/p&gt;\n&lt;p&gt;→ Vibe-code functional UIs — React, plain JS, or whatever gets to working fastest — for internal adoption&lt;/p&gt;\n&lt;p&gt;→ Identify friction points in current workflows and propose AI-first replacements&lt;/p&gt;\n&lt;p&gt;Measurement &amp;amp; Signal&lt;/p&gt;\n&lt;p&gt;→ Instrument your own work — capture usage signals, time-saved estimates, and adoption metrics from day one&lt;/p&gt;\n&lt;p&gt;→ Contribute to the org&#39;s ROI measurement framework by tagging your projects to defined value categories&lt;/p&gt;\n&lt;p&gt;────────────────────────────────────────&lt;/p&gt;\n&lt;p&gt;A NOTE ON &quot;VIBE CODING&quot;&lt;/p&gt;\n&lt;p&gt;We&#39;re not precious about how code gets written. Use Cursor, Claude, Copilot, or whatever gets you from idea to working demo in hours, not weeks. We care about judgment, craft, and what ships — not keystroke attribution.&lt;/p&gt;\n&lt;p&gt;────────────────────────────────────────&lt;/p&gt;\n&lt;p&gt;WHAT WE&#39;RE LOOKING FOR&lt;/p&gt;\n&lt;p&gt;→ Hands-on experience with LLM APIs (OpenAI, Anthropic, etc.) — you&#39;ve built something real with them&lt;/p&gt;\n&lt;p&gt;→ Comfortable with Python and/or JavaScript; able to read and write production-quality code&lt;/p&gt;\n&lt;p&gt;→ Familiarity with at least one agentic or automation framework (LangChain, AutoGen, n8n, Zapier + LLM, etc.)&lt;/p&gt;\n&lt;p&gt;→ Strong product instincts — you think about who will use what you build and why it matters&lt;/p&gt;\n&lt;p&gt;→ Able to move fast without breaking things that matter; iterative, scrappy, but deliberate&lt;/p&gt;\n&lt;p&gt;→ Currently enrolled in an undergraduate or graduate program in CS, data science, engineering, or related field&lt;/p&gt;\n&lt;p&gt;────────────────────────────────────────&lt;/p&gt;\n&lt;p&gt;BONUS POINTS&lt;/p&gt;\n&lt;p&gt;→ Prior internship or project experience in a BizOps, RevOps, or enterprise automation context&lt;/p&gt;\n&lt;p&gt;→ Experience integrating Slack, Salesforce, or finance/ops systems via APIs&lt;/p&gt;\n&lt;p&gt;→ You&#39;ve built something with a multi-agent architecture — even a side project counts&lt;/p&gt;\n&lt;p&gt;→ Familiarity with prompt engineering, RAG pipelines, or LLM evals&lt;/p&gt;\n&lt;p&gt;→ An active GitHub, portfolio, or side project that shows what you can do&lt;/p&gt;\n&lt;p&gt;────────────────────────────────────────&lt;/p&gt;\n&lt;p&gt;WHY SCALE AI&lt;/p&gt;\n&lt;p&gt;Scale AI is building the data infrastructure behind the world&#39;s most capable AI systems. As an AI Builder Intern on the Data &amp;amp; Technology team, you&#39;ll work inside one of the most AI-native organizations in the world — deploying the same tools you&#39;re learning about in an environment where the stakes are real and the pace is fast.&lt;/p&gt;\n&lt;p&gt;You&#39;ll leave with production systems in your portfolio, not decks. And you&#39;ll work alongside people who think deeply about how AI transforms the way organizations actually run.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;em&gt;Compensation packages at Scale for eligible roles include base salary, equity, and benefits. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position and may be inclusive of several career levels at Scale; it will be determined during the interview process based on work location and additional factors, including job-related skills, experience, qualifications, interview performance, and relevant education or training. Scale employees in eligible roles are also granted equity based compensation, subject to Board of Director approval. Your recruiter can share more about the specific salary range for your preferred location during the hiring process, and confirm whether the hired role will be eligible for equity grant. You&#39;ll also receive benefits including, but not limited to: comprehensive health, dental and vision coverage, retirement benefits, a learning and development stipend, and generous PTO. Additionally, this role may be eligible for additional benefits such as a commuter stipend.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Please reference the job posting&#39;s subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$74,400&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$111,600 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;PLEASE NOTE:&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About Us:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;At Scale, our mission is to develop reliable AI systems for the world&#39;s most important decisions. Our products provide the high-quality data and full-stack technologies that power the world&#39;s leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, &lt;/em&gt;&lt;em&gt;Ernst&lt;/em&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;&amp;amp;&lt;/em&gt;&lt;em&gt; Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor&#39;s &lt;/em&gt;&lt;a href=&quot;https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf&quot;&gt;&lt;em&gt;Know Your Rights poster&lt;/em&gt;&lt;/a&gt;&lt;em&gt; for additional information.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;We comply with the United States Department of Labor&#39;s &lt;/em&gt;&lt;em&gt;Pay Transparency provision&lt;/em&gt;&lt;em&gt;.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;PLEASE NOTE: &lt;/strong&gt;We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants’ needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our &lt;a href=&quot;https://scale.com/legal/privacy&quot; target=&quot;_blank&quot;&gt;privacy policy&lt;/a&gt; for additional information.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4146658005,
+      "name": "Data, Technology & Systems",
+      "child_ids": [
+        4039302005
+      ],
+      "parent_id": 4142691005
+    }
+  ],
+  "offices": [
+    {
+      "id": 4001480005,
+      "name": "San Francisco, CA",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": 4019441005
+    }
+  ]
+}

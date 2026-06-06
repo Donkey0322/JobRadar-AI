@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/cartesiansystems/jobs/4187601009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4046716009,
+  "location": {
+    "name": "Cambridge, MA"
+  },
+  "metadata": null,
+  "id": 4187601009,
+  "updated_at": "2026-06-05T12:00:42-04:00",
+  "requisition_id": "6",
+  "title": "Applied ML/CS PhD Internship (6+ months)",
+  "company_name": "Cartesian Systems",
+  "first_published": "2026-03-19T13:45:52-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;About Cartesian&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;Cartesian is building spatial intelligence for indoor environments to drive operational efficiency. We’re tackling one of the biggest challenges in the $35T global retail industry: in-store inventory visibility. Our platform delivers accurate indoor positioning and actionable product location insights, helping retailers streamline operations, optimize workflows, and reduce inefficiencies. By fusing wireless signals and mobile computer vision, we provide a uniquely scalable, infrastructure-free solution already deployed by international fashion brands.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Founded by an MIT engineering professor and alumni behind award-winning, patented core technologies, Cartesian spun out in 2023. Originally backed by a U.S. National Science Foundation SBIR Award, we’ve bootstrapped to a live product now deployed in multiple countries and are scaling aggressively.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are looking for an &lt;strong&gt;Applied ML/CS PhD&lt;/strong&gt; intern to join Cartesian at an exciting moment in our growth. This internship is a chance to contribute to core algorithms, dig deep into a deployed product, and ship changes that reach enterprise customers, while also driving new research directions in spatial AI. This is a hands-on role at the intersection of machine learning, perception, estimation, and signal processing, with direct impact on a deployed enterprise product. You’ll gain exposure to the full journey of research in production, working in a fast-paced, hands-on environment where your work makes a tangible impact.&lt;/p&gt;\n&lt;p&gt;This internship is product- and impact-driven. Due to the IP-sensitive nature of the core models and algorithms, the internship is not expected to involve publications.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; In-person at the Cartesian HQ in Kendall Square, Cambridge.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Internship type:&lt;/strong&gt; Full-time, PhD internship&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Duration and timing:&lt;/strong&gt; 12–24 weeks, Summer 2026; flexible start dates&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Explore new research directions in sensor fusion and spatial AI aligned with product needs&lt;/li&gt;\n&lt;li&gt;Develop and improve algorithms for indoor positioning and spatial perception&lt;/li&gt;\n&lt;li&gt;Run experiments on real-world customer deployments: collect data, analyze failures, propose fixes, and validate improvements&lt;/li&gt;\n&lt;li&gt;Contribute to production ML and signal processing pipelines (modeling, evaluation, deployment)&lt;/li&gt;\n&lt;li&gt;Collaborate with engineering and product to ship features to enterprise customers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Qualifications&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in a PhD program in Computer Science, Electrical Engineering, Robotics, or a related field.&lt;/li&gt;\n&lt;li&gt;Research track record of published work in top-tier CS/ML, vision, robotics, or related venues.&lt;/li&gt;\n&lt;li&gt;Strong foundations in at least one of: machine learning, perception, sensor fusion, and/or signal processing.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Demonstrated research output (e.g., strong publications, open-source projects, or impactful applied work)&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and ability to work in a small, fast-moving team.&lt;/li&gt;\n&lt;li&gt;Curiosity, ownership, and a bias toward action and real-world impact&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Nice to Have&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Startup or early-stage company experience&lt;/li&gt;\n&lt;li&gt;Experience shipping products (e.g., part of internships)&lt;/li&gt;\n&lt;li&gt;Experience or strong interest in spatial AI (3D vision, SLAM, mapping, sensor fusion, geometric deep learning, …) is highly desirable.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Why Cartesian&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Work on hard, real-world problems with immediate and visible impact&lt;/li&gt;\n&lt;li&gt;Join a small, highly technical team with significant ownership and autonomy&lt;/li&gt;\n&lt;li&gt;Build systems that are deployed and used globally&lt;/li&gt;\n&lt;li&gt;Collaborative, thoughtful, low-ego culture focused on learning and execution&lt;/li&gt;\n&lt;li&gt;In-person team culture in the heart of Kendall Square, Cambridge&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;strong&gt;Interview Process&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Introductory call to assess motivation and overall fit (20m)&lt;/li&gt;\n&lt;li&gt;Technical interview focused on past projects (60m)&lt;/li&gt;\n&lt;li&gt;Technical design interview (45m)&lt;/li&gt;\n&lt;li&gt;Coding interview (45m)&lt;/li&gt;\n&lt;li&gt;Meet Prof. Fadel Adib (20m)&lt;/li&gt;\n&lt;li&gt;Meet the team and references &lt;br&gt;&lt;br&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
+  "departments": [
+    {
+      "id": 4019970009,
+      "name": "R&D",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019466009,
+      "name": "Cambridge, MA",
+      "location": "Cambridge, Massachusetts, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
