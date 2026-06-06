@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 
-import callGemini from "@/utils/ai";
+import callAIModel from "@/utils/ai";
 import { logger } from "@/utils/logger";
 
 const BATCH_SIZE = 50;
@@ -56,7 +56,7 @@ Data:
 ${JSON.stringify(payload)}
 `;
 
-  const { result, cost } = await callGemini(prompt, LOCATION_SCHEMA);
+  const { result, cost } = await callAIModel(prompt, LOCATION_SCHEMA);
 
   logger.info(
     {

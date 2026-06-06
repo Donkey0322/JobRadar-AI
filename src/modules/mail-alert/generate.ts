@@ -146,7 +146,7 @@ function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
 function toTerm(season: Job["season"]) {
   switch (season) {
     case undefined:
-    case "unsure":
+    case "Unsure":
       return "General";
 
     case "Entry Level":

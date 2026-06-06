@@ -61,6 +61,11 @@ export const TargetSchema = z
 export const ConfigSchema = z.object({
   target: TargetSchema,
 
+  ai: z.object({
+    provider: z.enum(["openai", "google", "anthropic"]),
+    model: z.string().min(1, "model cannot be empty"),
+  }),
+
   sender: z.object({
     host: z.string().min(1, "host cannot be empty"),
     port: z.number().int().min(1).max(65535),
