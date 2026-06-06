@@ -2,7 +2,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import { logger } from "@/utils/logger";
 
-export async function fetchOracleJD(url: string) {
+const convertOracleJDUrl = (url: string) => {
   const u = new URL(url);
 
   const match = u.pathname.match(/\/sites\/([^/]+)\/job\/([^/]+)/);
@@ -18,6 +18,16 @@ export async function fetchOracleJD(url: string) {
     `${u.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails` +
     `?expand=all&onlyData=true` +
     `&finder=ById;Id="${jobId}",siteNumber=${siteNumber}`;
+
+  return apiUrl;
+};
+
+export async function fetchOracleJD(url: string) {
+  const apiUrl = convertOracleJDUrl(url);
+
+  if (!apiUrl) {
+    return null;
+  }
 
   try {
     const res = await fetch(apiUrl);
