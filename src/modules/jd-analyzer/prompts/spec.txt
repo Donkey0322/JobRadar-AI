@@ -2,50 +2,80 @@ You are a recruiting analyst.
 
 Extract structured information from the job description.
 
+Return ONLY valid JSON.
+Follow the schema exactly.
+Do not add extra fields.
+Use JSON null, not the string "null".
+Use only enum values allowed by the schema.
+
+Supported countries:
+@@COUNTRIES@@
+
+Supported job categories:
+@@JOB_CATEGORIES@@
+
+Supported seasons:
+@@SEASONS@@
+
 Field Definitions
 
-1. citizenship_required
+1. citizenship
 
 Return:
-- true if citizenship, nationality, permanent residency, security clearance, or country-specific citizenship status is explicitly required
+- true if citizenship, nationality, permanent residency, security clearance, US Person status, or country-specific citizenship status is explicitly required
 - false if the job explicitly states citizenship is not required
-- null if unclear
+- null if unclear or not mentioned
 
-Do not treat general work authorization as citizenship requirement.
+Do not treat general work authorization, legal right to work, or employment eligibility as citizenship requirement.
 
-2. visa_sponsorship_available
+2. sponsorship
 
 Return:
-- true if visa sponsorship, immigration sponsorship, work permit sponsorship, or visa transfer support is explicitly available
+- true if visa sponsorship, immigration sponsorship, work permit sponsorship, H-1B sponsorship, or visa transfer support is explicitly available
 - false if sponsorship is explicitly unavailable
-- null if unclear
+- null if unclear or not mentioned
 
 Do not infer sponsorship from equal opportunity statements.
+Do not treat CPT or OPT acceptance as visa sponsorship unless visa sponsorship is explicitly mentioned.
 
-3. location
+3. country
 
-Choose exactly one supported location.
+Choose exactly one supported country.
 
 Use the primary work location.
 
-If multiple locations are listed:
-- choose the most representative supported location
+If the role is onsite or hybrid in a supported country, return that country.
 
-If remote work is explicitly allowed:
-- choose the corresponding supported remote location
+If remote work is explicitly allowed and not tied to a specific supported country, return "Remote".
+
+If remote work is restricted to a supported country, return that country.
+
+If multiple supported countries are listed:
+- choose the primary location if clear
+- otherwise choose the first supported country listed
+
+Use "Other" if the location is clear but not included in the supported country list.
+
+Use "Unsure" if the location is unclear, missing, or ambiguous.
+
+Never invent a country.
 
 4. qualifications
 
 Extract candidate requirements only.
 
+Include both required and preferred qualifications.
+
 Include:
 - education
-- experience
+- years of experience
 - skills
 - technologies
 - certifications
 - languages
 - work authorization requirements
+- onsite, hybrid, relocation, or travel requirements
+- domain requirements
 
 Exclude:
 - benefits
@@ -54,20 +84,22 @@ Exclude:
 - equal opportunity statements
 - privacy policies
 - application instructions
+- application form fields
+- generic company values
 
 Formatting:
 - short phrases
 - start with a capital letter
 - under 20 words
 - preserve original meaning
+- remove duplicates
+- merge overlapping qualifications
 
-5. term
+5. category
 
-Determine exactly one value using the following decision order.
+Determine exactly one category using the following decision order.
 
-Decision Tree
-
-Step 1
+Step 1: Internship
 
 If the role explicitly mentions:
 - intern
@@ -77,41 +109,43 @@ If the role explicitly mentions:
 - summer analyst
 - university internship
 
-Return the matching internship season.
+Return "summer intern" if the role clearly refers to a summer internship.
 
-If internship exists but season is unclear:
-Return "Off-season Intern".
+Return "off-season intern" if:
+- the role clearly refers to a fall, spring, winter, co-op, or off-season internship
+- the role is an internship but the season is unclear
+
+Internship signals override all seniority signals.
 
 Stop.
 
-Step 2
+Step 2: Entry Level
 
-If the role explicitly targets:
+Return "entry level" if the role explicitly targets:
 - new graduates
 - recent graduates
 - university graduates
 - campus hiring
 - early career programs
-
-Return "Entry Level".
+- 0-2 years of experience
+- no professional experience required
+- internship, coursework, academic, or project experience accepted
 
 Stop.
 
-Step 3
+Step 3: Student signals
 
-If the role requires:
+Return "entry level" if the role requires or asks for:
 - GPA
 - transcript
 - graduation date
 - student status
 
-Return "Entry Level".
-
 Stop.
 
-Step 4
+Step 4: Senior title
 
-If the title contains:
+Return "senior level" only if the job title contains:
 - Senior
 - Sr.
 - Staff
@@ -121,37 +155,47 @@ If the title contains:
 - Manager
 - Director
 
-Return "Senior Level".
+Do not use these words from company descriptions, responsibilities, benefits, equal opportunity text, privacy policy, or application forms.
 
 Stop.
 
-Step 5
+Step 5: Senior experience
 
-If the role explicitly requires:
-- 5+ years experience
-- 6+ years experience
-- 7+ years experience
-- 8+ years experience
+Return "senior level" only if the role explicitly requires 5+ years of professional experience or more.
 
-Return "Senior Level".
+Do not classify as senior level for 3+ or 4+ years alone.
 
 Stop.
 
-Step 6
+Step 6: Mid Level
 
-If the role is a professional engineering position and does not match previous rules:
-
-Return "Mid Level".
+Return "mid level" if the role is a professional engineering position and does not match any previous rule.
 
 Stop.
 
 Step 7
 
-Return "unsure".
+If no clear category can be determined, return "mid level" only for professional engineering roles.
+Otherwise return "entry level" only when there are clear entry-level signals.
+If neither applies, return "mid level".
 
-Rules
+6. season
 
-- Return ONLY valid JSON
-- Follow the schema exactly
-- Do not add extra fields
-- Use only enum values allowed by the schema
+Determine exactly one season.
+
+If category is "summer intern":
+- return the supported Summer season only if the job clearly refers to summer
+- otherwise return "None"
+
+If category is "off-season intern":
+- return the matching supported Fall, Spring, or Winter season if clear
+- return "None" if the internship season is unclear
+
+If category is "entry level", "mid level", or "senior level":
+- return "None"
+
+Never return a season that is not listed in the supported seasons.
+
+---BEGIN JD TEXT---
+@@CONTEXT@@
+---END JD TEXT---

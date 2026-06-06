@@ -17,20 +17,8 @@ export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
 
-// year should be dynamically change at the end of May
-const NOW = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
-export const YEAR = NOW.getMonth() >= 5 ? NOW.getFullYear() + 1 : NOW.getFullYear();
-
-export const SEASONS = [
-  `${YEAR} Summer`,
-  `${YEAR} Fall`,
-  `${YEAR + 1} Spring`,
-  `${YEAR + 1} Winter`,
-  "Entry Level",
-  "Mid Level",
-  "Senior Level",
-  "Unsure",
-] as const;
+export { default as SEASONS } from "./season";
+export { default as COUNTRIES } from "./country";
 
 export const CONFIG: Config & { sender: { pass: string } } = {
   target: parsedConfig.target,
@@ -44,6 +32,14 @@ export const CONFIG: Config & { sender: { pass: string } } = {
   },
   receiver: parsedConfig.receiver,
 };
+
+export const JOB_CATEGORIES = [
+  JobCategory.SUMMER_INTERN,
+  JobCategory.OFF_SEASON_INTERN,
+  JobCategory.ENTRY_LEVEL,
+  JobCategory.MID_LEVEL,
+  JobCategory.SENIOR_LEVEL,
+] as const;
 
 export const SOURCES: Source[] = [
   {

@@ -1,12 +1,11 @@
 import * as cheerio from "cheerio";
 
-import { YEAR } from "@/constants";
+import { SEASONS } from "@/constants";
 
 import type { Job, Source } from "@/types";
 
-import { cleanLink, containsExcludedSymbols, normalizeSeason } from "@/utils/string";
+import { cleanLink, containsExcludedSymbols } from "@/utils/string";
 import { JobCategory } from "@/validation/config";
-import { SeasonSchema } from "@/validation/season";
 
 function normalizeText(s: string): string {
   // remove the whitespace, common decoration emoji and extra whitespace
@@ -53,12 +52,14 @@ export default function parseHtml(html: string, source: Source): Job[] {
     // after filtering, we get the line like this:
     // | Company | Role | Location | Season | Application/Link | Age |
     const cols = tds.map((_, td) => $(td).text().trim()).get();
+
+    // summer intern and new grad did not have season column
     if (cols.length === 5) {
-      const season = source.type === JobCategory.ENTRY_LEVEL ? "Entry Level" : `${YEAR} Summer`;
+      const season = source.type === JobCategory.ENTRY_LEVEL ? "Entry Level" : SEASONS.summer;
       cols.splice(3, 0, season);
       tds.splice(3, 0, `<td>${season}</td>`);
     }
-    const [company, role, location, season, , age] = cols;
+    const [company, role, location, , , age] = cols;
 
     /* ======= deal with the company ======== */
     if (containsExcludedSymbols(company)) return;
@@ -74,12 +75,12 @@ export default function parseHtml(html: string, source: Source): Job[] {
     /* ======= deal with the role ======== */
     if (containsExcludedSymbols(role)) return;
 
-    /* ======= deal with the season ======== */
-    const normalizedSeason = normalizeSeason(season);
-    const seasonParsed = SeasonSchema.safeParse(normalizedSeason);
-    if (!seasonParsed.success) {
-      return;
-    }
+    // /* ======= deal with the season ======== */
+    // const normalizedSeason = normalizeSeason(season);
+    // const seasonParsed = SeasonSchema.safeParse(normalizedSeason);
+    // if (!seasonParsed.success) {
+    //   return;
+    // }
 
     /* ======= deal with the link ======== */
     const appCell = tds.eq(4);
@@ -104,7 +105,6 @@ export default function parseHtml(html: string, source: Source): Job[] {
       role,
       link: cleanedLink,
       location,
-      season: seasonParsed.data,
     });
   });
 

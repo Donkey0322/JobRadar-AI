@@ -94,10 +94,6 @@ export async function processJobs({
       job.id = currentId;
       job.jd = jd;
 
-      if (!job.season) {
-        job.season = jd.season;
-      }
-
       await saveJd(rawJD, job);
     }
 
