@@ -29,11 +29,12 @@ export const SEASONS = [
   "Entry Level",
   "Mid Level",
   "Senior Level",
-  "unsure",
+  "Unsure",
 ] as const;
 
 export const CONFIG: Config & { sender: { pass: string } } = {
   target: parsedConfig.target,
+  ai: parsedConfig.ai,
   sender: {
     host: parsedConfig.sender.host,
     port: Number(parsedConfig.sender.port),

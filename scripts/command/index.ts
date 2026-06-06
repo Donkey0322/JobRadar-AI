@@ -51,4 +51,11 @@ notify
     await notifyCommit(commit);
   });
 
+const setup = program.command("setup");
+
+setup.command("check-config").action(async () => {
+  const { default: checkConfig } = await import("./setup/checkConfg");
+  await checkConfig();
+});
+
 program.parse();

@@ -2,9 +2,9 @@ import { SEASONS } from "@/constants";
 import { LOCATIONS } from "@/constants/location";
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIResponse } from "@/utils/ai";
+import type { AIResponse } from "@/utils/ai/provider/utils";
 
-import callGemini from "@/utils/ai";
+import callAIModel from "@/utils/ai";
 import { logger } from "@/utils/logger";
 
 const JD_SCHEMA = {
@@ -130,10 +130,10 @@ ${context}
 `;
 
   try {
-    const response = await callGemini(prompt, JD_SCHEMA);
+    const response = await callAIModel(prompt, JD_SCHEMA);
     return response ?? null;
   } catch (e) {
-    logger.error({ err: e }, `${RED_CROSS} Error calling Gemini`);
+    logger.error({ err: e }, `${RED_CROSS} Error calling AI Model`);
     return { result: null, cost: 0 };
   }
 }

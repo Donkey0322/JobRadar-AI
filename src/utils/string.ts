@@ -97,3 +97,15 @@ export function safeFilename(name: string): string {
     .replace(/\s+/g, " ")
     .trim();
 }
+
+export function stringifyResult(value: unknown): string | null {
+  if (value === null || value === undefined) {
+    return null;
+  }
+
+  if (typeof value === "string") {
+    return value;
+  }
+
+  return JSON.stringify(value);
+}

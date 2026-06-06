@@ -44,22 +44,24 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # ✅ Check config
+      - name: Check configuration
+        run: pnpm jobctl setup check-config
+
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+
+          LOG_PRETTY: "1"
+
       # ✅ Run ATS discovery pipeline
       - name: Run ATS discovery pipeline
         id: sync
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-
-          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
-          TO_EMAIL: ${{ secrets.TO_EMAIL }}
-
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          BACKUP_GEMINI_API_KEY: ${{ secrets.BACKUP_GEMINI_API_KEY }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
 
           LOG_PRETTY: "1"
         run: |
