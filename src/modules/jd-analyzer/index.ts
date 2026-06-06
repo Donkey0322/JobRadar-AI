@@ -9,7 +9,13 @@ import type { JDResponse } from "@/validation/ai";
 import { classifyATS } from "../company-tacker/ats";
 
 import analyzeJD from "./ai";
-import { fetchAshbyJD, fetchGreenhouseJD, fetchSmartRecruitersJD, fetchWorkdayJD } from "./ats";
+import {
+  fetchAshbyJD,
+  fetchGreenhouseJD,
+  fetchOracleJD,
+  fetchSmartRecruitersJD,
+  fetchWorkdayJD,
+} from "./ats";
 
 import { logger } from "@/utils/logger";
 import { JDResponseSchema } from "@/validation/ai";
@@ -118,7 +124,12 @@ export async function getRawJD(url: string): Promise<string | null> {
         text = jd;
         break;
       }
-
+      case "oraclecloud": {
+        const jd = await fetchOracleJD(url);
+        if (!jd) return null;
+        text = jd;
+        break;
+      }
       // fallback: raw HTML scraping
       default: {
         const res = await fetch(url, {
