@@ -9,6 +9,7 @@
   "scripts": {
     "jobctl": "tsx scripts/command/index.ts",
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "company": "tsx scripts/company.ts",
     "dedup": "tsx scripts/dedup.ts",
     "preview-email": "tsx scripts/preview-email.ts"

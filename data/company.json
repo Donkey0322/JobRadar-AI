@@ -1941,7 +1941,8 @@
       "https://ats.rippling.com/theguarantors-open-positions/jobs/d78ec000-5f8b-43d3-9590-4eb51970e49b",
       "https://ats.rippling.com/tive-careers/jobs/e7ed0c47-bf2e-4105-a793-e48dc0e0f710",
       "https://ats.rippling.com/usare/jobs/8db9bb37-aa5f-40e0-96ac-d1c4ca796aeb",
-      "https://ats.rippling.com/veryable-careers/jobs/cf74672c-c9c5-4be5-8858-04abfd64c20f"
+      "https://ats.rippling.com/veryable-careers/jobs/cf74672c-c9c5-4be5-8858-04abfd64c20f",
+      "https://ats.rippling.com/rippling/jobs/00cbc991-d2fb-452c-a8b6-2978f109a484"
     ]
   },
   {
@@ -3271,11 +3272,11 @@
     ]
   },
   {
-    "name": "c3iot",
+    "name": "c3",
     "ats": "greenhouse",
-    "identifier": "c3iot",
+    "identifier": "c3",
     "domain": "https://c3.ai",
-    "page": "https://boards-api.greenhouse.io/v1/boards/c3iot/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/c3/jobs",
     "urls": [
       "https://c3.ai/job-description/8106513002?gh_jid=8106513002"
     ]
@@ -7255,6 +7256,7 @@
     "page": "https://eofd.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/710839",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711526",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/717997",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718180",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718380",
@@ -7266,8 +7268,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719599",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711526"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -14397,7 +14398,8 @@
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--PhD-Robotics-Research_JR2003245",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Software-Engineering-_JR2003206",
       "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Internships--Systems-Software-Engineering_JR2003204",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Tel-Aviv/Software-Verification-Student_JR2015590",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Mapping-Autonomous-Vehicles---Fall-2026_JR2011493"
     ]
   },
   {
@@ -15659,7 +15661,8 @@
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/Fall-2026-Student---Data-Analyst--Personal-Banking_R-0000168782",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-RBC-Borealis--Machine-Learning-Software-Engineer--4-8-Months_R-0000168679-1",
       "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--4-Months_R-0000168621-1",
-      "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--8-Months_R-0000168529"
+      "https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/TORONTO-Ontario-Canada/XMLNAME-2026-Fall-Student-Opportunities-Technology---Operations---Software-Developer--8-Months_R-0000168529",
+      "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/BROOKFIELD-PLACE-FKA-3-WORLD-FINANCIAL-CENTER-200-VESEY-STREETNEW-YORK/XMLNAME-2026-Capital-Markets--AidenEdge-Program-Fall-Analyst--4-Months-_R-0000175719"
     ]
   },
   {
@@ -17417,16 +17420,7 @@
     "domain": "https://sofi.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
     "urls": [
-      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003"
-    ]
-  },
-  {
-    "name": "sofiuniversity",
-    "ats": "greenhouse",
-    "identifier": "sofiuniversity",
-    "domain": "https://www.sofi.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/sofiuniversity/jobs",
-    "urls": [
+      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003",
       "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
       "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
       "https://www.sofi.com/careers/sofi-university/7585152003?gh_jid=7585152003",
@@ -18566,7 +18560,8 @@
       "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002",
       "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063",
       "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
-      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819"
+      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819",
+      "https://www.tesla.com/careers/search/job/271630"
     ]
   },
   {
