@@ -37,16 +37,6 @@
     ]
   },
   {
-    "name": "8am",
-    "ats": "greenhouse",
-    "identifier": "8am",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006"
-    ]
-  },
-  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -470,6 +460,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4622069006",
       "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
@@ -7270,8 +7261,8 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718583",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718586",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718813",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719586"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719586",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -14080,6 +14071,16 @@
     ]
   },
   {
+    "name": "nidec",
+    "ats": "workday",
+    "identifier": "nidec-nidec",
+    "domain": "https://nidec.wd1.myworkdayjobs.com/nidec",
+    "page": "https://nidec.wd1.myworkdayjobs.com/wday/cxs/nidec/nidec/jobs",
+    "urls": [
+      "https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Application-Engineering-Co-Op_R0016076"
+    ]
+  },
+  {
     "name": "nikkiso",
     "ats": "icims",
     "identifier": "nikkiso",
@@ -18005,6 +18006,7 @@
       "https://stripe.com/jobs/search?gh_jid=7923209",
       "https://stripe.com/jobs/search?gh_jid=7926587",
       "https://stripe.com/jobs/search?gh_jid=7926966",
+      "https://stripe.com/jobs/search?gh_jid=7930151",
       "https://stripe.com/jobs/search?gh_jid=7930153",
       "https://stripe.com/jobs/search?gh_jid=7952048",
       "https://stripe.com/jobs/search?gh_jid=7954511",
@@ -18012,8 +18014,7 @@
       "https://stripe.com/jobs/search?gh_jid=7978488",
       "https://stripe.com/jobs/search?gh_jid=7979393",
       "https://stripe.com/jobs/search?gh_jid=7980402",
-      "https://stripe.com/jobs/search?gh_jid=7982720",
-      "https://stripe.com/jobs/search?gh_jid=7930151"
+      "https://stripe.com/jobs/search?gh_jid=7982720"
     ]
   },
   {
