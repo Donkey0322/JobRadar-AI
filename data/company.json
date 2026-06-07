@@ -867,6 +867,16 @@
     ]
   },
   {
+    "name": "american-equity",
+    "ats": "greenhouse",
+    "identifier": "american-equity",
+    "domain": "https://www.american-equity.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/american-equity/jobs",
+    "urls": [
+      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
+    ]
+  },
+  {
     "name": "americancentury",
     "ats": "workday",
     "identifier": "americancentury-americancenturyinvestments",
@@ -876,16 +886,6 @@
       "https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Kansas-City-Missouri/AI-ML-Intern_R0005431",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/IT-Data-Intern--Engineering--Analytics-and-AI-ML-_R0005430",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005424"
-    ]
-  },
-  {
-    "name": "americanequityinvestmentlifeinsurancecompany",
-    "ats": "greenhouse",
-    "identifier": "americanequityinvestmentlifeinsurancecompany",
-    "domain": "https://www.american-equity.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/americanequityinvestmentlifeinsurancecompany/jobs",
-    "urls": [
-      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
     ]
   },
   {
@@ -1731,6 +1731,7 @@
     "domain": "https://asml.wd3.myworkdayjobs.com/asmlext1",
     "page": "https://asml.wd3.myworkdayjobs.com/wday/cxs/asml/asmlext1/jobs",
     "urls": [
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/Manufacturing---Production-Engineer--Software---Control----Linkou_J-00334557-3",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Algorithm-Engineering-Intern_J-00327995",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Optical-Product-Engineering--_J-00327849",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Veldhoven-Netherlands/Computer-Science---Software-Engineering-Internship---IT-Innovation---MX-Cluster-Development_J-00335687",
@@ -1744,8 +1745,7 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Product---Software-Engineer-Internship_J-00341934",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
-      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071",
-      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/Manufacturing---Production-Engineer--Software---Control----Linkou_J-00334557-3"
+      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071"
     ]
   },
   {
@@ -2618,11 +2618,11 @@
     ]
   },
   {
-    "name": "billcom",
+    "name": "bill",
     "ats": "greenhouse",
-    "identifier": "billcom",
+    "identifier": "bill",
     "domain": "https://www.bill.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/bill/jobs",
     "urls": [
       "https://www.bill.com/job?5588103004=&gh_jid=5588103004"
     ]
@@ -3049,7 +3049,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000130576071",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130579849",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130580499",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000130665556"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130665556",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130672499"
     ]
   },
   {
@@ -7276,9 +7277,9 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719719",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719741",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719744"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719744",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -9742,11 +9743,11 @@
     ]
   },
   {
-    "name": "hbkcapitalmanagement",
+    "name": "hbk",
     "ats": "greenhouse",
-    "identifier": "hbkcapitalmanagement",
+    "identifier": "hbk",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -13359,6 +13360,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Design-Engineer_JR91681",
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR83017",
       "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer--Data-Center-SSD-_JR103302",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer-Data-Center-Solid-State-Drives_JR103661",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/DATA-SCIENTIST_JR98343",
       "https://micron.wd1.myworkdayjobs.com/external/job/Hiroshima---Fab-15-Japan/Data-Scientist-SMART-Manufacturing---AI_JR84286-16",
       "https://micron.wd1.myworkdayjobs.com/external/job/Penang-Malaysia---Grande/Intern---IT-MES--Manufacturing-Execution-System-_JR89149",
@@ -13366,7 +13368,8 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer-Data-Center-Solid-State-Drives_JR103661"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/SOFTWARE-ENGINEER_JR103710"
     ]
   },
   {
