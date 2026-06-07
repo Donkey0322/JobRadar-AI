@@ -43,7 +43,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
+      "https://www.8am.com/openings/?gh_jid=4622069006"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006",
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -7280,7 +7280,8 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719599",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719719"
     ]
   },
   {
@@ -7564,7 +7565,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/exa",
     "urls": [
-      "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application"
+      "https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application",
+      "https://jobs.ashbyhq.com/exa/8ba94280-c4f0-4a15-b3eb-8acf4e2d6dba"
     ]
   },
   {
@@ -13365,7 +13367,8 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274",
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/DATA-SCIENTIST_JR98343"
     ]
   },
   {
@@ -14085,7 +14088,8 @@
       "https://boards.eu.greenhouse.io/nice/jobs/4879527101?gh_jid=4879527101",
       "https://boards.eu.greenhouse.io/nice/jobs/4880562101?gh_jid=4880562101",
       "https://boards.eu.greenhouse.io/nice/jobs/4880583101?gh_jid=4880583101",
-      "https://boards.eu.greenhouse.io/nice/jobs/4882273101?gh_jid=4882273101"
+      "https://boards.eu.greenhouse.io/nice/jobs/4882273101?gh_jid=4882273101",
+      "https://boards.eu.greenhouse.io/nice/jobs/4879066101?gh_jid=4879066101"
     ]
   },
   {
@@ -18572,8 +18576,26 @@
       "https://www.tesla.com/careers/search/job/259253",
       "https://www.tesla.com/careers/search/job/259268",
       "https://www.tesla.com/careers/search/job/261076?tags=organicjob",
+      "https://www.tesla.com/careers/search/job/264897",
+      "https://www.tesla.com/careers/search/job/266119",
+      "https://www.tesla.com/careers/search/job/266764",
+      "https://www.tesla.com/careers/search/job/266978",
+      "https://www.tesla.com/careers/search/job/266980",
+      "https://www.tesla.com/careers/search/job/266986",
+      "https://www.tesla.com/careers/search/job/267002",
+      "https://www.tesla.com/careers/search/job/267004",
+      "https://www.tesla.com/careers/search/job/267005",
       "https://www.tesla.com/careers/search/job/267767?jr_id=69dd6930bc6f6622c9912106",
+      "https://www.tesla.com/careers/search/job/269792",
+      "https://www.tesla.com/careers/search/job/270497",
+      "https://www.tesla.com/careers/search/job/271091",
+      "https://www.tesla.com/careers/search/job/271209",
+      "https://www.tesla.com/careers/search/job/271352",
+      "https://www.tesla.com/careers/search/job/271362",
+      "https://www.tesla.com/careers/search/job/271372",
+      "https://www.tesla.com/careers/search/job/271382",
       "https://www.tesla.com/careers/search/job/271630",
+      "https://www.tesla.com/careers/search/job/272937",
       "https://www.tesla.com/careers/search/job/internship-embedded-software-engineer-keys-authentication-fall-2026-270067",
       "https://www.tesla.com/careers/search/job/internship-operational-automation-engineer-residential-energy-winter-spring-2026-254150",
       "https://www.tesla.com/careers/search/job/internship-software-developer-integration-platforms-fall-2026-270037",
@@ -18582,25 +18604,7 @@
       "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002",
       "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063",
       "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
-      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819",
-      "https://www.tesla.com/careers/search/job/269792",
-      "https://www.tesla.com/careers/search/job/271091",
-      "https://www.tesla.com/careers/search/job/266764",
-      "https://www.tesla.com/careers/search/job/271362",
-      "https://www.tesla.com/careers/search/job/270497",
-      "https://www.tesla.com/careers/search/job/272937",
-      "https://www.tesla.com/careers/search/job/271209",
-      "https://www.tesla.com/careers/search/job/267005",
-      "https://www.tesla.com/careers/search/job/267004",
-      "https://www.tesla.com/careers/search/job/267002",
-      "https://www.tesla.com/careers/search/job/266986",
-      "https://www.tesla.com/careers/search/job/266980",
-      "https://www.tesla.com/careers/search/job/266978",
-      "https://www.tesla.com/careers/search/job/266119",
-      "https://www.tesla.com/careers/search/job/264897",
-      "https://www.tesla.com/careers/search/job/271372",
-      "https://www.tesla.com/careers/search/job/271352",
-      "https://www.tesla.com/careers/search/job/271382"
+      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819"
     ]
   },
   {
