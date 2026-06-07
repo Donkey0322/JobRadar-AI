@@ -867,16 +867,6 @@
     ]
   },
   {
-    "name": "american-equity",
-    "ats": "greenhouse",
-    "identifier": "american-equity",
-    "domain": "https://www.american-equity.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/american-equity/jobs",
-    "urls": [
-      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
-    ]
-  },
-  {
     "name": "americancentury",
     "ats": "workday",
     "identifier": "americancentury-americancenturyinvestments",
@@ -886,6 +876,16 @@
       "https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Kansas-City-Missouri/AI-ML-Intern_R0005431",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/IT-Data-Intern--Engineering--Analytics-and-AI-ML-_R0005430",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005424"
+    ]
+  },
+  {
+    "name": "americanequityinvestmentlifeinsurancecompany",
+    "ats": "greenhouse",
+    "identifier": "americanequityinvestmentlifeinsurancecompany",
+    "domain": "https://www.american-equity.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/americanequityinvestmentlifeinsurancecompany/jobs",
+    "urls": [
+      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
     ]
   },
   {
@@ -2618,11 +2618,11 @@
     ]
   },
   {
-    "name": "bill",
+    "name": "billcom",
     "ats": "greenhouse",
-    "identifier": "bill",
+    "identifier": "billcom",
     "domain": "https://www.bill.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/bill/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
     "urls": [
       "https://www.bill.com/job?5588103004=&gh_jid=5588103004"
     ]
@@ -9743,11 +9743,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -12324,7 +12324,8 @@
     "domain": "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite",
     "page": "https://leonardocompany.wd3.myworkdayjobs.com/wday/cxs/leonardocompany/leonardocareersite/jobs",
     "urls": [
-      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Software-Graduate-Apprentice--Test-Systems_R0022248"
+      "https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/GB---Edinburgh/Software-Graduate-Apprentice--Test-Systems_R0022248",
+      "https://leonardocompany.wd3.myworkdayjobs.com/leonardocareersite/job/GB---Edinburgh/C---Software-Engineer_R0029200"
     ]
   },
   {
@@ -13368,8 +13369,8 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/SOFTWARE-ENGINEER_JR103710"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/SOFTWARE-ENGINEER_JR103710",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506"
     ]
   },
   {
@@ -15773,7 +15774,8 @@
       "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/details/Software-Engineer-Intern_R-050088?q=intern",
       "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Boston/Software-Engineer-Intern_R-050437",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Data---Insights-Analyst_R-057119-1",
-      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineering-Co-op_R-055872"
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineering-Co-op_R-055872",
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Pune---Tower-6/Product-Security-Engineer--GRC-_R-057451-2"
     ]
   },
   {
