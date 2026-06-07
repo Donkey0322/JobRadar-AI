@@ -37,16 +37,6 @@
     ]
   },
   {
-    "name": "8am",
-    "ats": "greenhouse",
-    "identifier": "8am",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006"
-    ]
-  },
-  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -470,6 +460,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4622069006",
       "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
@@ -1753,7 +1744,8 @@
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Software-Engineer---Summer-2026_J-00329977",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Product---Software-Engineer-Internship_J-00341934",
       "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wuhan-China/Software-Testing-Intern_J-00336134",
-      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071"
+      "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Development-Engineer-in-Test_J-00328071",
+      "https://asml.wd3.myworkdayjobs.com/asmlext1/job/Linkou-Taiwan/Manufacturing---Production-Engineer--Software---Control----Linkou_J-00334557-3"
     ]
   },
   {
@@ -2346,14 +2338,14 @@
       "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/Technology-Developer-Summer-Internship-Programme-2026-Northampton_JR-0000068260",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Edinburgh-South-Gyle-Crescent--TESCO-TSA/IOS-Software-Engineer_JR-0000116090",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Edinburgh-South-Gyle-Crescent--TESCO-TSA/Junior-Infrastructure-Engineer_JR-0000105699",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Software-Engineer---Adoption_JR-0000040582",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/Market-Risk-Analyst---SRE_JR-0000104516",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Python-Developer_JR-0000086863",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/DevOps-Engineer_JR-0000105570-1",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Developer_JR-0000116001",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Process-Automation-Engineer_JR-0000100378",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000109495-1",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000111577-1",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Software-Engineer---Adoption_JR-0000040582"
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000111577-1"
     ]
   },
   {
@@ -2383,7 +2375,8 @@
     "domain": "https://barrywehmiller.wd1.myworkdayjobs.com/bwcareers",
     "page": "https://barrywehmiller.wd1.myworkdayjobs.com/wday/cxs/barrywehmiller/bwcareers/jobs",
     "urls": [
-      "https://barrywehmiller.wd1.myworkdayjobs.com/BWCareers/job/St-Louis-MO/DI-Software-Development-Intern_R019488"
+      "https://barrywehmiller.wd1.myworkdayjobs.com/BWCareers/job/St-Louis-MO/DI-Software-Development-Intern_R019488",
+      "https://barrywehmiller.wd1.myworkdayjobs.com/bwcareers/job/Chennai-India/Software-Engineer---Network-Reliability-Engineering_R021799"
     ]
   },
   {
@@ -7283,7 +7276,9 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719719",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719741",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719744"
     ]
   },
   {
@@ -13370,7 +13365,8 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---AI-Agent-Development_JR82274",
       "https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Validation-Strategy-AI-ML_JR91786",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer-Data-Center-Solid-State-Drives_JR103661"
     ]
   },
   {
