@@ -37,6 +37,16 @@
     ]
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4622069006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -460,7 +470,6 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006",
       "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
@@ -867,16 +876,6 @@
     ]
   },
   {
-    "name": "american-equity",
-    "ats": "greenhouse",
-    "identifier": "american-equity",
-    "domain": "https://www.american-equity.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/american-equity/jobs",
-    "urls": [
-      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
-    ]
-  },
-  {
     "name": "americancentury",
     "ats": "workday",
     "identifier": "americancentury-americancenturyinvestments",
@@ -886,6 +885,16 @@
       "https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Kansas-City-Missouri/AI-ML-Intern_R0005431",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/IT-Data-Intern--Engineering--Analytics-and-AI-ML-_R0005430",
       "https://americancentury.wd5.myworkdayjobs.com/en-US/AmericanCenturyInvestments/job/Kansas-City-Missouri/Software-Developer-Intern_R0005424"
+    ]
+  },
+  {
+    "name": "americanequityinvestmentlifeinsurancecompany",
+    "ats": "greenhouse",
+    "identifier": "americanequityinvestmentlifeinsurancecompany",
+    "domain": "https://www.american-equity.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/americanequityinvestmentlifeinsurancecompany/jobs",
+    "urls": [
+      "https://www.american-equity.com/about/careers/openings?gh_jid=4870180007"
     ]
   },
   {
@@ -2343,7 +2352,8 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Developer_JR-0000116001",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Process-Automation-Engineer_JR-0000100378",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000109495-1",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000111577-1"
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000111577-1",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Software-Engineer---Adoption_JR-0000040582"
     ]
   },
   {
@@ -2615,11 +2625,11 @@
     ]
   },
   {
-    "name": "bill",
+    "name": "billcom",
     "ats": "greenhouse",
-    "identifier": "bill",
+    "identifier": "billcom",
     "domain": "https://www.bill.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/bill/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
     "urls": [
       "https://www.bill.com/job?5588103004=&gh_jid=5588103004"
     ]
@@ -3045,7 +3055,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000130569649",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130576071",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130579849",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000130580499"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130580499",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130665556"
     ]
   },
   {
@@ -9736,11 +9747,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -14555,10 +14566,10 @@
       "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/YWG-BW/Software-Developer-Co-op_R-23789",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/CYA-G/XMLNAME-2026-Software---Data-Science-Internships_R-23658",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DWL-T/Sr-System-Quality-Engineer_R-27475-1",
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DXB-AA/Field-Service--Engineer---Software_R-28448-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/MLV-GV/Mobile-C-Arm-Clinical-Education-Specialist_R-28707-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YOW-B/Software-Quality-Assurance-Specialist-Co-Op_R-28766",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/DXB-AA/Field-Service--Engineer---Software_R-28448-1"
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476"
     ]
   },
   {
