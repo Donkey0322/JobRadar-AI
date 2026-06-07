@@ -43,9 +43,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
-      "https://www.8am.com/openings/?gh_jid=4675949006"
+      "https://www.8am.com/openings/?gh_jid=4663446006"
     ]
   },
   {
@@ -473,6 +471,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4622069006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
+      "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -7268,6 +7268,7 @@
     "urls": [
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/710839",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711526",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/715662",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/717997",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718180",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/718380",
@@ -7279,8 +7280,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719599",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/715662"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -18582,7 +18582,25 @@
       "https://www.tesla.com/careers/search/job/internship-software-engineer-update-systems-fall-2026-267002",
       "https://www.tesla.com/careers/search/job/internship-software-engineer-vehicle-ui-development-fall-2026-270063",
       "https://www.tesla.com/careers/search/job/internship-software-engineering-people-systems-fall-2026-269198",
-      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819"
+      "https://www.tesla.com/careers/search/job/internship-ux-design-design-studio-fall-2026-266819",
+      "https://www.tesla.com/careers/search/job/269792",
+      "https://www.tesla.com/careers/search/job/271091",
+      "https://www.tesla.com/careers/search/job/266764",
+      "https://www.tesla.com/careers/search/job/271362",
+      "https://www.tesla.com/careers/search/job/270497",
+      "https://www.tesla.com/careers/search/job/272937",
+      "https://www.tesla.com/careers/search/job/271209",
+      "https://www.tesla.com/careers/search/job/267005",
+      "https://www.tesla.com/careers/search/job/267004",
+      "https://www.tesla.com/careers/search/job/267002",
+      "https://www.tesla.com/careers/search/job/266986",
+      "https://www.tesla.com/careers/search/job/266980",
+      "https://www.tesla.com/careers/search/job/266978",
+      "https://www.tesla.com/careers/search/job/266119",
+      "https://www.tesla.com/careers/search/job/264897",
+      "https://www.tesla.com/careers/search/job/271372",
+      "https://www.tesla.com/careers/search/job/271352",
+      "https://www.tesla.com/careers/search/job/271382"
     ]
   },
   {
