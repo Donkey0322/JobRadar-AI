@@ -1,0 +1,172 @@
+{
+  "jobPostingInfo": {
+    "id": "fe116354325c10011d8630d9aec80000",
+    "title": "Applied Researcher I (AI Foundations)",
+    "jobDescription": "Applied Researcher I (AI Foundations)<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><b>Overview:</b></p><p><span>At Capital One, we are creating trustworthy and reliable AI systems, changing banking for good. For years, Capital One has been leading the industry in using machine learning to create real-time, intelligent, automated customer experiences. From informing customers about unusual charges to answering their questions in real time, our applications of AI &amp; ML are bringing humanity and simplicity to banking. We are committed to building world-class applied science and engineering teams and continue our industry leading capabilities with breakthrough product experiences and scalable, high-performance AI infrastructure. At Capital One, you will help bring the transformative power of emerging AI capabilities to reimagine how we serve our customers and businesses who have come to love the products and services we build.</span></p><p></p><p><b>Team Description:</b></p><p><span>The AI Foundations team is at the center of bringing our vision for AI at Capital One to life. Our work touches every aspect of the research life cycle, from partnering with Academia to building production systems. We work with product, technology and business leaders to apply the state of the art in AI to our business.</span><br /> </p><p><b>In this role, you will:<span> </span></b></p><p></p><ul><li><p><span>Partner with a cross-functional team of data scientists, software engineers, machine learning engineers and product managers to deliver AI-powered products that change how customers interact with their money.</span></p></li><li><p><span>Leverage a broad stack of technologies — Pytorch, AWS Ultraclusters, Huggingface, Lightning, VectorDBs, and more — to reveal the insights hidden within huge volumes of numeric and textual data.</span></p></li><li><p><span>Build AI foundation models through all phases of development, from design through training, evaluation, validation, and implementation.</span></p></li><li><p><span>Engage in high impact applied research to take the latest AI developments and push them into the next generation of customer experiences.</span></p></li><li><p><span>Flex your interpersonal skills to translate the complexity of your work into tangible business goals.</span></p></li></ul><p></p><p><b>The Ideal Candidate:</b></p><p></p><ul><li><p><span>You love the process of analyzing and creating, but also share our passion to do the right thing. You know at the end of the day it’s about making the right decision for our customers.</span></p></li><li><p><span>Innovative. You continually research and evaluate emerging technologies. You stay current on published state-of-the-art methods, technologies, and applications and seek out opportunities to apply them.</span></p></li><li><p><span>Creative. You thrive on bringing definition to big, undefined problems. You love asking questions and pushing hard to find answers. You’re not afraid to share a new idea.</span></p></li><li><p><span>A leader. You challenge conventional thinking and work with stakeholders to identify and improve the status quo. You’re passionate about talent development for your own team and beyond.</span></p></li><li><p><span>Technical. You’re comfortable with open-source languages and are passionate about developing further. You have hands-on experience developing AI foundation models and solutions using open-source tools and cloud computing platforms.</span></p></li><li><p><span>Has a deep understanding of the foundations of AI methodologies. </span></p></li><li><p><span>Experience building large deep learning models, whether on language, images, events, or graphs, as well as expertise in one or more of the following: training optimization, self-supervised learning, robustness, explainability, RLHF.</span></p></li><li><p><span>An engineering mindset as shown by a track record of delivering models at scale both in terms of training data and inference volumes.</span></p></li><li><p><span>Experience in delivering libraries, platform level code or solution level code to existing products.</span></p></li><li><p><span>A professional with a track record of coming up with high quality ideas or improving upon existing ideas in machine learning, demonstrated by accomplishments such as first author publications or projects.</span></p></li><li><p><span>Possess the ability to own and pursue a research agenda, including choosing impactful research problems and autonomously carrying out long-running projects.</span></p></li></ul><p></p><p><b>Basic Qualifications:</b></p><p></p><ul><li><p><span>Currently has, or is in the process of obtaining, a PhD in Electrical Engineering, Computer Engineering, Computer Science, AI, Mathematics, or related fields, with an exception that required degree will be obtained on or before the scheduled start date or M.S. in Electrical Engineering, Computer Engineering, Computer Science, AI, Mathematics, or related fields plus 2 years of experience in Applied Research</span></p></li></ul><p></p><p></p><p><b>Preferred Qualifications</b></p><ul><li><p><span>PhD in Computer Science, Machine Learning, Computer Engineering, Applied Mathematics, Electrical Engineering or related fields</span></p></li><li><p><span>LLM</span></p><ul><li><p><span>PhD focus on NLP or Masters with 5 years of industrial NLP research experience</span></p></li><li><p><span>Multiple publications on topics related to the pre-training of large language models (e.g. technical reports of pre-trained LLMs, SSL techniques, model pre-training optimization)</span></p></li><li><p><span>Member of team that has trained a large language model from scratch (10B &#43; parameters, 500B&#43; tokens) </span></p></li><li><p><span>Publications in deep learning theory </span></p></li><li><p><span>Publications at ACL, NAACL and EMNLP, Neurips, ICML or ICLR</span></p></li></ul></li><li><p><span>Optimization (Training &amp; Inference)</span></p><ul><li><p><span>PhD focused on topics related to optimizing training of very large deep learning models </span></p></li><li><p><span>Multiple years of experience and/or publications on one of the following topics: Model Sparsification, Quantization, Training Parallelism/Partitioning Design, Gradient Checkpointing, Model Compression </span></p></li><li><p><span>Experience optimizing training for a 10B&#43; model </span></p></li><li><p><span>Deep knowledge of deep learning algorithmic and/or optimizer design </span></p></li><li><p><span>Experience with compiler design</span></p></li></ul></li><li><p><span>Finetuning</span></p><ul><li><p><span>PhD focused on topics related to guiding LLMs with further tasks (Supervised Finetuning, Instruction-Tuning, Dialogue-Finetuning, Parameter Tuning) </span></p></li><li><p><span>Demonstrated knowledge of principles of transfer learning, model adaptation and model guidance</span></p></li><li><p><span>Experience deploying a fine-tuned large language model </span></p></li></ul></li></ul><p></p><p><i>Capital One will consider sponsoring a new qualified applicant for employment authorization for this position.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>The minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.</span></p><p style=\"text-align:inherit\"></p>Cambridge, MA: $218,700 - $249,600 for Applied Researcher I<p><br /> </p>McLean, VA: $218,700 - $249,600 for Applied Researcher I<p><br /> </p>New York, NY: $238,600 - $272,300 for Applied Researcher I<p><br /> </p>San Jose, CA: $238,600 - $272,300 for Applied Researcher I<p><br /> </p><p><br /> </p><p><br /> </p><p><br /> </p><p><br /> </p><p><br /> </p><p><br /> </p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Candidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.</span></p><p style=\"text-align:inherit\"></p>This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the<span> </span></span><a target=\"_blank\" href=\"https://www.capitalonecareers.com/benefits\">Capital One Careers website</a><span>. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.</span></p><p style=\"text-align:inherit\"></p>This role is expected to accept applications for a minimum of 5 business days.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>No agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City’s Fair Chance Act; Philadelphia’s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">If you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at <a href=\"mailto:RecruitingAccommodation&#64;capitalone.com\" target=\"_blank\"><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WDL1\">RecruitingAccommodation&#64;capitalone.com</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></a>. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">For technical support or questions about Capital One&#39;s recruiting process, please send an email to <a href=\"mailto:Careers&#64;capitalone.com\" target=\"_blank\"><u><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span class=\"WDL1\">Careers&#64;capitalone.com</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></u></a></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Capital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Capital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC).</p>",
+    "location": "New York, NY",
+    "additionalLocations": [
+      "McLean, VA",
+      "Cambridge, MA",
+      "San Jose, CA"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-08",
+    "timeType": "Full time",
+    "jobReqId": "R237204",
+    "jobPostingId": "Applied-Researcher-I--AI-Foundations-_R237204",
+    "jobPostingSiteId": "Capital_One",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "New York, NY",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R237204",
+    "questionnaireId": "bfd0ab5d884810015f8fc246911f0000",
+    "secondaryQuestionnaireId": "bfd0ab5d884810015f8f43e53a4a0000"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/McLean-VA/Applied-Researcher-I_R236876-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-26"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations)",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R236764-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-25"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Customization, Finetuning, Reinforcement Learning)",
+      "externalPath": "/job/McLean-VA/Applied-Researcher-I--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R239758-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-02"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Core and Agentic AI)",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I--AI-Foundations--LLM-Core-and-Agentic-AI-_R236856-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-26"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I_R236858-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-26"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I_R238553-1",
+      "timeType": "Full time",
+      "locationsText": "3 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-20"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Customization, Finetuning, Reinforcement Learning)",
+      "externalPath": "/job/McLean-VA/Applied-Researcher-I--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R242196",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 26 Days Ago",
+      "startDate": "2026-05-13"
+    },
+    {
+      "title": "Applied Researcher I (Multi-agent Systems, Knowledge Graphs/GraphRAG/Graph-of-Thought / GoT, MCP, LangGraph, Agent Protocols)",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I--Multi-agent-Systems--Knowledge-Graphs-GraphRAG-Graph-of-Thought---GoT--MCP--LangGraph--Agent-Protocols-_R234367",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-01-26"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I_R241640-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-29"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/McLean-VA/Applied-Researcher-I_R237797-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I_R238166-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-17"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations)",
+      "externalPath": "/job/San-Jose-CA/Applied-Researcher-I--AI-Foundations-_R236849-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-26"
+    },
+    {
+      "title": "Applied Researcher I",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I_R238719-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-23"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Core and Agentic AI)",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I--AI-Foundations--LLM-Core-and-Agentic-AI-_R240034-1",
+      "timeType": "Full time",
+      "locationsText": "5 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-07"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Customization, Finetuning, Reinforcement Learning)",
+      "externalPath": "/job/McLean-VA/Applied-Researcher-I--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R239757-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-02"
+    },
+    {
+      "title": "Applied Researcher I (AI Foundations, LLM Customization, Finetuning, Reinforcement Learning)",
+      "externalPath": "/job/New-York-NY/Applied-Researcher-I--AI-Foundations--LLM-Customization--Finetuning--Reinforcement-Learning-_R241364-1",
+      "timeType": "Full time",
+      "locationsText": "4 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-27"
+    }
+  ],
+  "userAuthenticated": false
+}
