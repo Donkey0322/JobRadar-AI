@@ -1,0 +1,59 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/dvtrading/jobs/4687398005",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 4431617005,
+  "location": {
+    "name": "Chicago"
+  },
+  "metadata": null,
+  "id": 4687398005,
+  "updated_at": "2026-06-08T15:16:11-04:00",
+  "requisition_id": "315",
+  "title": "Software Developer (Chicago)",
+  "company_name": "DV Trading",
+  "first_published": "2026-04-27T16:27:26-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p data-renderer-start-pos=&quot;1&quot; data-local-id=&quot;5d6d5c6caa36&quot;&gt;&lt;strong data-renderer-mark=&quot;true&quot;&gt;About Us&lt;/strong&gt;:&lt;br&gt;Founded 20 years ago and headquartered in Chicago, the &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;&lt;span class=&quot;_kqswh2mm&quot;&gt;&lt;span class=&quot;_5pioz8co _189e1dm9 _1il9buyh _19lc184f _d0altlke&quot; data-testid=&quot;definition-highlighter&quot;&gt;DV&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; Group of financial services firms has grown to more than 600 people operating throughout North America, Europe and Asia. Since spinning out of a large brokerage firm in 2016, &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; Trading has rapidly scaled as an independent proprietary trading firm utilizing its own capital, trading strategies, and risk management methodologies to provide liquidity to worldwide financial markets and hedging opportunities to commodity producers and users. Now, &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; group affiliates include two broker dealers, a cryptocurrency market making firm, and a bourgeoning investment adviser.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;641&quot; data-local-id=&quot;3db7b8c101de&quot;&gt;&lt;strong data-renderer-mark=&quot;true&quot;&gt;Overview: &lt;br&gt;&lt;/strong&gt;&lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;We are seeking a highly motivated, quick-learning developer for our algorithmic software development team. In this role, you will be involved in the development of our cutting-edge, low-latency trading platform, which competes in the most competitive markets in the world.&lt;/span&gt;&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;706&quot; data-local-id=&quot;6d17a07f558d&quot;&gt;&lt;strong data-renderer-mark=&quot;true&quot;&gt;Job Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work alongside senior traders and experienced software developers&lt;/li&gt;\n&lt;li&gt;Learn proprietary methodologies and trading systems that support an established low-latency, algorithmic trading business&lt;/li&gt;\n&lt;li&gt;Improve and extend the core trading platform, enhance existing trades, and identify and pursue new opportunities&lt;/li&gt;\n&lt;li&gt;Further responsibilities may be driven by the individual’s interests and specific skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-renderer-start-pos=&quot;731&quot; data-local-id=&quot;db73e6d3f6c4&quot;&gt;&lt;strong data-renderer-mark=&quot;true&quot;&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;0-7 years of experience in a related field&lt;/li&gt;\n&lt;li&gt;Highly proficient in C++; experience with modern C++ (such as smart pointers)&lt;/li&gt;\n&lt;li&gt;Strong work ethic, detail oriented, and ability to learn quickly in a fast-paced environment&lt;/li&gt;\n&lt;li&gt;Interest in algorithmic trading&lt;/li&gt;\n&lt;li&gt;Experience doing highly performant, low-level C++ work&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-renderer-start-pos=&quot;748&quot; data-local-id=&quot;1ac93e0b889c&quot;&gt;&lt;strong data-renderer-mark=&quot;true&quot;&gt;Benefits: &lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li data-renderer-start-pos=&quot;762&quot; data-local-id=&quot;43734d363c8a&quot;&gt;Discretionary bonus eligibility&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;797&quot; data-local-id=&quot;a08acdf8520b&quot;&gt;Medical, dental, and vision insurance&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;838&quot; data-local-id=&quot;7c4c48c65bb1&quot;&gt;&lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;&lt;span class=&quot;_kqswh2mm&quot;&gt;&lt;span class=&quot;_5pioz8co _189e1dm9 _1il9buyh _19lc184f _d0altlke&quot; data-testid=&quot;definition-highlighter&quot;&gt;HSA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;&lt;span class=&quot;_kqswh2mm&quot;&gt;&lt;span class=&quot;_5pioz8co _189e1dm9 _1il9buyh _19lc184f _d0altlke&quot; data-testid=&quot;definition-highlighter&quot;&gt;FSA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, and Dependent Care Options&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;878&quot; data-local-id=&quot;ddceb7e8e8de&quot;&gt;Employer Paid Group Term Life and &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;&lt;span class=&quot;_kqswh2mm&quot;&gt;&lt;span class=&quot;_5pioz8co _189e1dm9 _1il9buyh _19lc184f _d0altlke&quot; data-testid=&quot;definition-highlighter&quot;&gt;AD&amp;amp;D&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; insurance&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;930&quot; data-local-id=&quot;ea26f188d5d5&quot;&gt;Voluntary LTD, Life &amp;amp; &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;AD&amp;amp;D&lt;/span&gt; insurance&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;970&quot; data-local-id=&quot;65b887baed88&quot;&gt;Flexible Vacation policy&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;998&quot; data-local-id=&quot;45d06bafbe62&quot;&gt;Retirement plan with employer match&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1037&quot; data-local-id=&quot;89271ebd77b6&quot;&gt;Paid Parental Leave&lt;/li&gt;\n&lt;li data-renderer-start-pos=&quot;1060&quot; data-local-id=&quot;193df9bdc8c0&quot;&gt;Wellness Programs&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p data-renderer-start-pos=&quot;1082&quot; data-local-id=&quot;7c97748d1955&quot;&gt;&lt;em data-renderer-mark=&quot;true&quot;&gt;&lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; is not accepting unsolicited resumes from search firms. Only search firms with valid, written agreements with &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; should submit resumes in response to &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt;’s posted positions. All resumes submitted by search firms to &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; via e-mail, the Internet, personal delivery, facsimile, or any other method without a valid written agreement shall be deemed the sole property of &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt;, and no fee will be paid in the event the candidate is hired by &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt;. &lt;span data-highlighted=&quot;true&quot; data-vc=&quot;highlighted-text&quot;&gt;DV&lt;/span&gt; is proud to be an equal opportunity employer and committed to creating an inclusive environment for all employees.&lt;/em&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;em&gt;The range below reflects the expected base salary for this position. It represents a good-faith estimate of the base pay we anticipate offering, with actual compensation determined by your experience, education, skills, and performance throughout the interview process. This role is also eligible for a discretionary bonus (at DV Trading&#39;s discretion) and DV Trading&#39;s benefits package, including the benefits listed above.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$150,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$250,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4006958005,
+      "name": "Technology",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4002585005,
+      "name": "Chicago",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4002590005,
+      "name": "New York",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4002592005,
+      "name": "Toronto",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
