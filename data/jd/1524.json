@@ -1,0 +1,115 @@
+{
+  "id": "744000130882264",
+  "name": "Innovative AI Development Intern (10-week Program)",
+  "uuid": "bd5b8db6-fed1-4625-8518-8634857cccfc",
+  "jobId": "6938a0c5-21a0-4ce9-be4e-4a6e29617888",
+  "jobAdId": "2b9f539b-0c60-4880-a583-3df495b88c6d",
+  "defaultJobAd": true,
+  "refNumber": "REF6628M",
+  "company": {
+    "name": "EVERSANA",
+    "identifier": "EVERSANA1"
+  },
+  "location": {
+    "city": "Chicago",
+    "region": "IL",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "latitude": "41.88325",
+    "longitude": "-87.6323879",
+    "fullLocation": "Chicago, IL, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "63b83c374f195555ea236ba2",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "EVERSANA"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "63b83c374f195555ea236ba3",
+      "fieldLabel": "Department",
+      "valueId": "4099659",
+      "valueLabel": "Digital & Technology"
+    },
+    {
+      "fieldId": "63c69edf99f2c449d0599306",
+      "fieldLabel": "Full Time / Part Time",
+      "valueId": "F",
+      "valueLabel": "Full Time"
+    },
+    {
+      "fieldId": "63c56eadc959ba4b1acee704",
+      "fieldLabel": "Job Family",
+      "valueId": "GNOPS",
+      "valueLabel": "Basic/General Operations"
+    }
+  ],
+  "releasedDate": "2026-06-08T20:48:01.105Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/EVERSANA1/744000130882264-innovative-ai-development-intern-10-week-program-",
+  "applyUrl": "https://jobs.smartrecruiters.com/EVERSANA1/744000130882264-innovative-ai-development-intern-10-week-program-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/EVERSANA1/publication/bd5b8db6-fed1-4625-8518-8634857cccfc?dcr_ci=EVERSANA1",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>At EVERSANA®, we are proud to&#xa0;be a&#xa0;Great Place to Work across the globe. We’re fueled by our vision to create a healthier world. How? Our global team of more than&#xa0;6,000&#xa0;employees is committed to creating and delivering next-generation commercialization services to the life sciences industry. We are grounded in our cultural beliefs and serve more than 670 clients ranging from innovative biotech start-ups to established pharmaceutical companies. Our products, services and solutions help bring innovative therapies to market and support the patients who depend on them. Our jobs, skills and talents are unique, but together we make an impact every day. Join us!&#xa0;</p><p>Across our growing organization, we embrace diversity in backgrounds and experiences. Improving patient lives around the world is a priority, and we need people from all backgrounds and swaths of life to help build the future of the healthcare and the life sciences industry. We believe our people make all the difference in cultivating an inclusive culture that embraces our cultural beliefs.&#xa0; We are deliberate and self-reflective about the kind of team and culture we are building. We look for team members that are not only strong in their own aptitudes but also who care deeply about EVERSANA, our people, clients and most importantly, the patients we serve.&#xa0;&#xa0; We are EVERSANA.&#xa0;&#xa0;</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>The EVERSANA Internship Program is a 10-week paid position designed to offer college graduates the opportunity to learn about a career in life sciences. Interns will work in real-world business situations, be paired with a mentor, or team, to discover different aspects of the industry, and learn about the inner workings of our practice.&#xa0;</p><p>As an Innovation Department Intern, you will support the team in identifying, researching, and developing new ideas and technologies that drive the company’s growth and competitive edge.&#xa0; This role offers a unique opportunity to gain hands-on experience in a dynamic and forward-thinking environment, where creativity and problem-solving skills are highly valued.</p><p><strong>ESSENTIAL DUTIES AND RESPONSIBILITIES:</strong><br>\nOur employees are tasked with delivering excellent business results through the efforts of their teams.&#xa0; These results are achieved by:</p><ul><li>Develop and fine-tune LLM-powered applications&#xa0;for internal teams and pharmaceutical clients.</li><li>Build AI-powered agents&#xa0;to assist in areas like drug commercialization, market intelligence, competitive analysis, and procurement.</li><li>Design and implement RAG-based (Retrieval-Augmented Generation) solutions&#xa0;using enterprise CRM and knowledge data.</li><li>Collaborate with software engineers and domain experts to deploy AI models into production.</li><li>Work with APIs (e.g., OpenAI, Anthropic, Google Gemini, Cohere, Hugging Face) to integrate generative AI capabilities into applications.</li><li>Experiment with multimodal AI models&#xa0;for text, image, and audio processing in pharmaceutical use cases.</li><li>Optimize AI models for efficiency, scalability, and compliance with pharmaceutical industry regulations.</li><li>Contribute to new AI-driven products and prototypes&#xa0;for the pharma industry.</li><li>Demonstrate a commitment to diversity, equity, and inclusion through continuous development, modeling inclusive behaviors, and proactively managing bias.&#xa0;</li><li>All other duties as assigned.</li></ul><p><strong>EXPECTATIONS OF THE JOB:</strong></p><ul><li><strong>Travel&#xa0;</strong>(0% or number of days)</li><li><strong>Hours</strong>&#xa0;(40 Hours per week, Monday - Friday)</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>MINIMUM KNOWLEDGE, SKILLS AND ABILITIES:</strong></p><p>The requirements listed below are representative of the experience, education, knowledge, skill and/or abilities required.</p><p><strong>Education</strong>&#xa0;</p><ul><li>Bachelor’s degree in Engineering, Math, Physics, Computer Science, or related area of study</li></ul><p><strong>Experience and/or Training</strong></p><ul><li>Interest in the healthcare and/or pharmaceutical industry</li><li>Prior experience with artificial intelligence (AI) technologies and applications a plus.</li><li>Has knowledge of commonly used concepts, practices, and procedures within project management</li><li>Demonstrated proactivity, self-awareness and accountability</li><li>Strong analytical skills, problem-solving ability, conceptual thinking, &amp; communication skills</li><li>Experience working in a collaborative environment with cross-functional teams.</li><li>Time management and multi-tasking abilities in fast-paced remote working environment</li><li>Strong leadership ability</li><li>Ability to develop creative, well-structured PowerPoint slides or presentations</li><li>Appetite for learning and ability to work in an independent remote environment</li><li>Eagerness to learn new technologies and skills.</li><li>Ability to prioritize and be comfortable pivoting as needed in a fast-paced environment.</li></ul><p><strong>Technology/Equipment&#xa0;</strong>Excel, Word, PowerPoint, Outlook</p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong>OUR CULTURAL BELIEFS:</strong></p><p><strong>Patient Minded </strong>I act with the patient’s best interest in mind.</p><p><strong>Client Delight</strong> I own every client experience and its impact on results.</p><p><strong>Take Action </strong>I am empowered and empower others to act now.</p><p><strong>Grow Talent </strong>I own my development and invest in the development of others.&#xa0;</p><p><strong>Win Together </strong>I passionately connect with anyone, anywhere, anytime to achieve results.</p><p><strong>Communication Matters </strong>I speak up to create transparent, thoughtful and timely dialogue.</p><p><strong>Embrace Diversity </strong>I create an environment of awareness and respect.</p><p><strong>Always Innovate</strong>&#xa0;I am bold and creative in everything I do.</p><div sr-tagline=\"\"></div><p>Our team is aware of recent fraudulent job offers in the market, misrepresenting EVERSANA. Recruitment fraud is a sophisticated scam commonly perpetrated through online services using fake websites, unsolicited e-mails, or even text messages claiming to be a legitimate company. Some of these scams request personal information and even payment for training or job application fees. Please know EVERSANA would never require personal information nor payment of any kind during the employment process. We respect the personal rights of all candidates looking to explore careers at EVERSANA.</p><p>EVERSANA is committed to providing competitive salaries and benefits for all employees. If this job posting includes a base salary range, it&#xa0;represents&#xa0;the low and high end of the salary range for this position and is not applicable to locations outside of the&#xa0;U.S.&#xa0;&#xa0;Compensation will be&#xa0;determined&#xa0;based on relevant experience, other job-related qualifications/skills, and geographic location (to account for comparative cost of living).&#xa0;&#xa0;More information about EVERSANA’s benefits package can be found at&#xa0;<a href=\"https://www.eversana.com/careers/\" rel=\"noopener noreferrer\" target=\"_blank\">eversana.com/careers</a>.&#xa0;&#xa0;EVERSANA reserves the right to&#xa0;modify&#xa0;this base salary range&#xa0;and benefits&#xa0;at any time.&#xa0;</p><p>From EVERSANA’s inception, Diversity, Equity &amp; Inclusion have always been key to our success. We are an Equal Opportunity Employer, and our employees are people with different strengths, experiences, and backgrounds who share a passion for improving the lives of patients and leading innovation within the healthcare industry. Diversity not only includes race and gender identity, but also age, disability status, veteran status, sexual orientation, religion, and many other parts of one’s identity. All of our employees’ points of view are key to our success, and inclusion is everyone's responsibility.</p><p>Consistent with the Americans with Disabilities Act (ADA) and applicable state and local laws, it is the policy of EVERSANA to provide reasonable accommodation when requested by a qualified applicant or candidate with a disability, unless such accommodation would cause an undue hardship for EVERSANA. The policy regarding requests for reasonable accommodations applies to all aspects of the hiring process. If reasonable accommodation is needed to participate in the interview and hiring process, please contact us at&#xa0;<a href=\"mailto:brooke.smith@eversana.com\" rel=\"noopener noreferrer\">applicantsupport@eversana.com</a>.</p><p>Follow us on <a href=\"https://www.linkedin.com/company/eversana/\" rel=\"noopener noreferrer\">LinkedIn</a> | <a href=\"https://twitter.com/EVERSANAcompany\" rel=\"noopener noreferrer\">Twitter</a></p>"
+      }
+    }
+  },
+  "compensation": {
+    "max": 30,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "hospital_and_health_care",
+    "label": "Hospital And Health Care"
+  },
+  "function": {
+    "id": "marketing",
+    "label": "Marketing"
+  },
+  "department": {
+    "id": 4099659,
+    "label": "Digital & Technology"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
