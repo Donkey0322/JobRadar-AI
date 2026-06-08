@@ -1,0 +1,59 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/point72/jobs/7661997002?gh_jid=7661997002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 6014094002,
+  "location": {
+    "name": "New York"
+  },
+  "metadata": [
+    {
+      "id": 4076300002,
+      "name": "Time Type",
+      "value": "Full Time",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7661997002,
+  "updated_at": "2026-06-08T16:26:35-04:00",
+  "requisition_id": "1527",
+  "title": "NLP / AI Engineer",
+  "company_name": "Point72 ",
+  "first_published": "2025-04-29T10:54:59-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;&lt;u&gt;Role/Responsibilities:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are seeking a NLP engineer for a NLP research team within Point72. The ideal candidate has a track record of developing modern NLP solutions, including the use of LLMs, agents, RAG, open-source models fine-tuning and deployment, etc.&lt;/p&gt;\n&lt;p&gt;Responsibilities include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Exploring and combining rich internal and external textual datasets&lt;/li&gt;\n&lt;li&gt;Building GenAI solutions, leveraging both internal models and external APIs&lt;/li&gt;\n&lt;li&gt;Formulating research hypothesis to derive alpha&lt;/li&gt;\n&lt;li&gt;Post-training models for specific tasks&lt;/li&gt;\n&lt;li&gt;Benchmarking LLM approaches internal tasks&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We believe the investment world offers unique opportunities to use modern NLP methods. We are a team ideally situated for that, having access to both internal and commercial datasets, with an end-to-end research philosophy and direct portfolio impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;Requirements: &lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor, Master’s or PhD graduate or candidate in computer science or another quantitative discipline&lt;/li&gt;\n&lt;li&gt;Experience in NLP, particularly LLMs.&lt;/li&gt;\n&lt;li&gt;Proficient in Python, SQL and general software engineering principles (github, testing, etc.)&lt;/li&gt;\n&lt;li&gt;Data science stack familiarity&lt;/li&gt;\n&lt;li&gt;Interest in financial markets&lt;/li&gt;\n&lt;li&gt;Collaborative mindset&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&lt;u&gt;About Point72:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Point72 Asset Management is a global firm led by Steven Cohen that invests in multiple asset classes and strategies worldwide. Resting on more than a quarter-century of investing experience, we seek to be the industry’s premier asset manager through delivering superior risk-adjusted returns, adhering to the highest ethical standards, and offering the greatest opportunities to the industry’s brightest talent.&amp;nbsp;&amp;nbsp;We’re inventing the future of finance by revolutionizing how we develop our people and how we use data to shape our thinking. For more information, visit&amp;nbsp;www.Point72.com/working-here.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4077293002,
+      "name": "Quant Management",
+      "child_ids": [
+        4093681002,
+        4093682002,
+        4093683002,
+        4093684002,
+        4093685002,
+        4127486002,
+        4077294002
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4007773002,
+      "name": "New York, NY",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": 4041645002
+    }
+  ]
+}

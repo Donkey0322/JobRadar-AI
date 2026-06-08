@@ -1,0 +1,54 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/relaypro/jobs/7950142",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3452424,
+  "location": {
+    "name": "Raleigh, NC"
+  },
+  "metadata": null,
+  "id": 7950142,
+  "updated_at": "2026-06-08T13:45:10-04:00",
+  "requisition_id": "424",
+  "title": "Associate Software Engineer, Site Reliability",
+  "company_name": "Relay",
+  "first_published": "2026-05-28T19:29:10-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;Associate Software Engineer, Site Reliability Engineering&lt;/h2&gt;\n&lt;p&gt;&lt;a href=&quot;https://relaypro.com/&quot;&gt;&lt;strong&gt;Relay&lt;/strong&gt;&lt;/a&gt; is the Intelligent System of Action for the physical economy. While the digital revolution has often left the deskless workforce behind, we are closing that gap by transforming analog frontline operations into a data-rich, AI-powered ecosystem. We aren&#39;t just selling radios, we’re building the digital foundation for the 80% of the global workforce that doesn&#39;t work at a desk.&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;Why Join Relay?&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;A Proven Winner: &lt;/strong&gt;Join a hyper-growth company trusted by over 10% of the Fortune 500, continuing to move upmarket with massive impact.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;High Value, High Impact: &lt;/strong&gt;With 47% of our revenue from $100K+ ARR customers and 135% Net Revenue Retention (NRR), you&#39;ll be joining a company rooted in value creation.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Market-Leading Innovation:&lt;/strong&gt; The Relay platform captures 1 billion new data points weekly and features award-winning AI tools like TeamTranslate™, with 500% YoY growth.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;World-Class Leadership: &lt;/strong&gt;Our stellar leadership team is built to help us scale toward our next major milestones.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;The Relay Culture: &lt;/strong&gt;We’re dedicated to helping you do the best work of your life (BWIML), investing in your growth through L.I.T., living our CHASE values, and learning from incredibly talented, supportive teammates who make the work (and the wins) better every day.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Now, here’s what we’re building, and where you come in.&lt;/strong&gt;&lt;/p&gt;\n&lt;h3&gt;About the Role/Team&lt;/h3&gt;\n&lt;p&gt;We&#39;re looking for an Associate Software Engineer to join our Site Reliability Engineering team. In this role, you&#39;ll help keep the systems that frontline workers depend on running smoothly, reliably, and at scale. You&#39;ll work alongside experienced engineers to build and maintain the infrastructure behind Relay&#39;s cloud platform — ensuring our customers can count on us when it matters most.&lt;/p&gt;\n&lt;p&gt;This is a great opportunity for someone early in their career who&#39;s excited about infrastructure, automation, and solving real problems for real people.&lt;/p&gt;\n&lt;h3&gt;What You’ll Do&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Monitor and improve the health, performance, and availability of Relay&#39;s production systems using tools like Grafana and PagerDuty.&lt;/li&gt;\n&lt;li&gt;Build and maintain observability tooling that gives engineering teams clear insight into how our systems are behaving.&lt;/li&gt;\n&lt;li&gt;Write automation in Python and Elixir to reduce toil and improve reliability across our infrastructure.&lt;/li&gt;\n&lt;li&gt;Manage and evolve infrastructure-as-code using Terraform, Ansible, and Packer on AWS.&lt;/li&gt;\n&lt;li&gt;Support and improve CI/CD pipelines with Jenkins to help the team ship safely and often.&lt;/li&gt;\n&lt;li&gt;Participate in a 24/7 on-call rotation, responding to incidents and helping drive them to resolution.&lt;/li&gt;\n&lt;li&gt;Coordinate the flow of information across Engineering during incidents, ensuring the right people have the right context at the right time.&lt;/li&gt;\n&lt;li&gt;Contribute to post-incident reviews and help turn lessons learned into lasting improvements.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;What You&#39;ll Have&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;A B.S. in Computer Science, Mathematics, Physics, or a related field.&lt;/li&gt;\n&lt;li&gt;Experience managing reliable services and systems — whether through internships, personal projects, or prior roles.&lt;/li&gt;\n&lt;li&gt;Familiarity with Linux-based environments and comfort working in the terminal.&lt;/li&gt;\n&lt;li&gt;A genuine curiosity about how systems work (and how they break).&lt;/li&gt;\n&lt;li&gt;Strong communication skills and a collaborative mindset.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Nice To Have&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with capacity planning and resource forecasting.&lt;/li&gt;\n&lt;li&gt;Exposure to production systems where low latency is a high priority.&lt;/li&gt;\n&lt;li&gt;Familiarity with any of our core tools: AWS, Terraform, Ansible, Grafana, PagerDuty, Jenkins, or Packer.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;About Relay | Culture, Benefits &amp;amp; Perks&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Our culture hinges on Relayers getting &lt;strong&gt;LIT&lt;/strong&gt; up in an environment that fosters Learning, Impact, and Teamwork, where we &lt;strong&gt;CHASE &lt;/strong&gt;the best work of our lives. We call this &lt;strong&gt;BWIML &lt;/strong&gt;(Best Work In My Life).&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;At Relay, we offer:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;100% Paid Insurance: Health, Dental, Vision, Long/Short Term Disability, and Life Insurance for you and your dependents&lt;/li&gt;\n&lt;li&gt;Generous Paid Time Off&lt;/li&gt;\n&lt;li&gt;401(k) Savings Plan + Company Match&lt;/li&gt;\n&lt;li&gt;Baby Cash Reward + Paid Parental Leave&lt;/li&gt;\n&lt;li&gt;Wellness Perks: If you’re joining our Raleigh-based HQ, you’ll have access to a world-class onsite fitness center with instructor-led classes, plus tennis, basketball, pickleball, and cycling&lt;/li&gt;\n&lt;li&gt;Team Events &amp;amp; Culture: From company celebrations to team outings, we work hard and have fun doing it.&lt;/li&gt;\n&lt;li&gt;Latest tech, standing desks, and all the tools and software you need to thrive&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;The future of frontline work is being built here. Come build it with us. We can’t wait to hear from you.&lt;/strong&gt;&lt;/p&gt;\n&lt;h3&gt;The Relay Hybrid Work Model&lt;/h3&gt;\n&lt;p&gt;At Relay, relationships are at the core of everything we do - and this translates to how we approach our customers and our work internally. Our relational approach is also at the heart of &lt;em&gt;why&lt;/em&gt; we ask all Relayers in our hybrid model to work from the office a &lt;em&gt;minimum&lt;/em&gt; of 3 days per week on Mondays, Wednesdays, and Fridays. If you are a leader at Relay, we ask that you are available to your teams and onsite fully in the office.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 29152,
+      "name": "Engineering",
+      "child_ids": [
+        32552,
+        32551,
+        32547,
+        32553,
+        222244
+      ],
+      "parent_id": 65735
+    }
+  ],
+  "offices": [
+    {
+      "id": 19241,
+      "name": "Relay, Inc",
+      "location": "Raleigh, NC, United States",
+      "child_ids": [
+        336187,
+        374285
+      ],
+      "parent_id": null
+    }
+  ]
+}
