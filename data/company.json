@@ -37,16 +37,6 @@
     ]
   },
   {
-    "name": "8am",
-    "ats": "greenhouse",
-    "identifier": "8am",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
-  },
-  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -471,6 +461,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4622069006",
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -3059,7 +3050,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000130579849",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130580499",
       "https://jobs.smartrecruiters.com/BoschGroup/744000130665556",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000130672499"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130672499",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000130701199"
     ]
   },
   {
@@ -5724,7 +5716,8 @@
       "https://www.coupang.jobs/en/jobs/?gh_jid=7939700",
       "https://www.coupang.jobs/en/jobs/?gh_jid=7944326",
       "https://www.coupang.jobs/en/jobs/?gh_jid=7954074",
-      "https://www.coupang.jobs/en/jobs/?gh_jid=7978178"
+      "https://www.coupang.jobs/en/jobs/?gh_jid=7978178",
+      "https://www.coupang.jobs/en/jobs/?gh_jid=7988197"
     ]
   },
   {
@@ -6942,7 +6935,8 @@
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20271120",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20272372",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20272373",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273701"
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273701",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20274209"
     ]
   },
   {
@@ -7288,7 +7282,8 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719719",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719741",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719744",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719863"
     ]
   },
   {
@@ -11030,7 +11025,9 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Penang/Learning---Development-Officer-I_J2450396-1",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Remote---USA/Software-Engineering-Intern_J2445033",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Software-Engineering-Intern_J2448338",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Uzhhorod/Business-Development-Analyst_J2451064-1"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Uzhhorod/Business-Development-Analyst_J2451064-1",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Penang/Business-Development-Analyst_J2451406"
     ]
   },
   {
@@ -11089,9 +11086,9 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Milwaukee-Wisconsin-United-States-of-America/Mechanical-Engineering-Intern_WD30253236-1",
       "https://jci.wd5.myworkdayjobs.com/jci/job/New-Cumberland-Pennsylvania-United-States-of-America/HVAC-Controls-System-Engineer_WD30271194",
       "https://jci.wd5.myworkdayjobs.com/jci/job/New-Freedom-Pennsylvania-United-States-of-America/Internship---Data-Center-Thermal-Products-Engineer_WD30266466",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Pooler-Georgia-United-States-of-America/Security-Installer_WD30243711",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Pune-Maharashtra-India/Sr-Platform-Engineer_WD30271169-3",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Westford-Massachusetts-United-States-of-America/Software-Sales-Intern_WD30267823",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Pooler-Georgia-United-States-of-America/Security-Installer_WD30243711"
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Westford-Massachusetts-United-States-of-America/Software-Sales-Intern_WD30267823"
     ]
   },
   {
@@ -11762,7 +11759,8 @@
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210653533",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210657659",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210658757",
-      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210659548"
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210659548",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210756160"
     ]
   },
   {
@@ -13380,7 +13378,9 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/XMLNAME--Intern--Software-Engineer-for-AI-model-training-and-SRE---MFG---TPG_JR96181",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Intern-2026---Data-Integration-Engineer_JR96293",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/SOFTWARE-ENGINEER_JR103710",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10W-Singapore/IT-SOFTWARE-ENGINEER_JR98031",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/DATA-SCIENTIST_JR100213"
     ]
   },
   {
@@ -14522,7 +14522,8 @@
       "https://www.okta.com/company/careers/opportunity/7560923?gh_jid=7560923",
       "https://www.okta.com/company/careers/opportunity/7587533?gh_jid=7587533",
       "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
-      "https://www.okta.com/company/careers/opportunity/7936790?gh_jid=7936790"
+      "https://www.okta.com/company/careers/opportunity/7936790?gh_jid=7936790",
+      "https://www.okta.com/company/careers/opportunity/7984479?gh_jid=7984479"
     ]
   },
   {
@@ -18053,7 +18054,8 @@
       "https://stripe.com/jobs/search?gh_jid=7978488",
       "https://stripe.com/jobs/search?gh_jid=7979393",
       "https://stripe.com/jobs/search?gh_jid=7980402",
-      "https://stripe.com/jobs/search?gh_jid=7982720"
+      "https://stripe.com/jobs/search?gh_jid=7982720",
+      "https://stripe.com/jobs/search?gh_jid=7839662"
     ]
   },
   {
