@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "2f43efdce1d41000dd156f3629ce0000",
+    "title": "Software Engineer I",
+    "jobDescription": "<p><b>Company Overview:</b></p><p>At Snap Finance, we believe everyone deserves access to the things they need, regardless of credit history. Since 2012, we&#39;ve used data, machine learning, and a more human approach to create flexible financing solutions that help people move forward. We&#39;re proud of our inclusive, supportive culture, built on empowering our customers, partners, and team members alike. When our people thrive, so does our innovation.</p><p></p><p><b>If you&#39;re looking to make an impact and grow with a team that values you, come join us!</b></p><p></p><p style=\"text-align:left\"><b>Job Description</b></p><p>We are seeking a Software Engineer I to design, development, and delivery of secure, scalable, enterprise-grade software solutions. This role combines hands-on technical experience with driving engineering excellence, and partnering across the business to build innovative technology solutions in a fast-paced financial services environment.<br /> </p><p><b>How you&#39;ll make an impact:</b></p><ul><li><span>Experience in building and maintaining fault-tolerant, scalable backend services (Java or Node.js)</span></li><li><span>Ability to construct enterprise-grade APIs using state-of-the-art techniques and best practices (REST, JSON, XML, etc.).</span></li><li><span>Good understanding in Frontend (Angular or REACT)</span></li><li><span>Takes an interest in the bigger picture, and how their current work fits into the team&#39;s larger goals</span></li><li><span>Proficient in cross-platform integration</span></li><li><span>Can communicate complex software concepts to people with a wide range of technical knowledge Engineering skill with wide-ranging experience; able to resolve complex issues in creative and effective ways</span></li><li><span>Thrive on teams with a congenial and collaborative approach to working through technical problems</span></li><li><span>Show flexibility to respond to the changing needs of the business</span></li><li><span>Enjoys contributing to the development of his or her peers by providing mentorship and support</span></li></ul><p></p><p><b>What you&#39;ll need to succeed:</b></p><ul><li><span>BS degree in Computer Science or related field</span></li><li><span>1&#43; years of work experience in a software engineering role with 2 plus years of experience in leading multiple discipline software engineering teams</span></li><li><span>Experience in developing enterprise grade software in lending, payments, or related financial services</span></li><li><span>Experience in one or more software languages: Java, Python, Node.js</span></li><li><span>Experience in cloud related technologies such as AWS, Docker, OpenShift, EC2</span></li><li><span>Experience in the web related technologies (Web applications, micro services and Service Oriented Architectures) and of network/web related protocols</span></li><li><span>Experience in building secure application from ground up.</span></li><li><span>Adept at working in Agile teams, exposure to SAFE preferred</span><br /><span> </span></li></ul><p></p><p></p><p><b>Why Join Us:</b></p><ul><li><p>Generous paid time off</p></li><li><p>Competitive medical, dental &amp; vision coverage</p></li><li><p>401K with company match for US</p></li><li><p>Company-paid life insurance</p></li><li><p>Company-paid short-term and long-term disability</p></li><li><p>Access to mental health and wellness resources</p></li><li><p>Company-paid volunteer time to do good in your community</p></li><li><p>Legal coverage and other supplemental options</p></li><li><p>A value-based culture where growth opportunities are endless</p></li></ul><p></p><p><b><span>More:</span></b></p><p><span>Snap values diversity and all qualified applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. Learn more by visiting our website at </span><a href=\"http://www.snapfinance.com/\" target=\"_blank\"><span>www.snapfinance.com</span></a>.</p><p></p><p>California Residents, please review our California Consumer Privacy Act Notice at <a href=\"https://snapfinance.com/ccpa-notice\" target=\"_blank\"><span><span><span>https://snapfinance.com/ccpa-notice</span></span></span></a> </p>",
+    "location": "Arizona",
+    "postedOn": "Posted Yesterday",
+    "startDate": "2026-06-08",
+    "timeType": "Full time",
+    "jobReqId": "R-2796",
+    "jobPostingId": "Software-Engineer-I_R-2796",
+    "jobPostingSiteId": "Snap_External_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/snapfinance/snap_external_careers/sidebarimage/f2a82699b604100151bee417a6830000",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": false,
+    "jobRequisitionLocation": {
+      "descriptor": "Arizona",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://snapfinance.wd1.myworkdayjobs.com/Snap_External_Careers/job/Arizona/Software-Engineer-I_R-2796",
+    "questionnaireId": "f2a82699b6041001be7ea8dedd890000"
+  },
+  "hiringOrganization": {
+    "name": "Snap Finance US",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
