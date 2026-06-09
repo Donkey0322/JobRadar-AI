@@ -35,6 +35,7 @@ export default async function syncDiscover() {
           {
             company: job.company,
             role: job.role,
+            url: job.link,
             location,
           },
           "⏭️ Skipped by location filter"

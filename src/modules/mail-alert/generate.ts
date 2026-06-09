@@ -151,6 +151,9 @@ function formTitle(category?: JobCategory, season?: Season) {
       return `${season} Intern`;
 
     case JobCategory.OFF_SEASON_INTERN:
+      if (season === "None") {
+        return "Off-Season Intern";
+      }
       return `${season} Intern`;
 
     case JobCategory.ENTRY_LEVEL:
