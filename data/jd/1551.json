@@ -1,0 +1,65 @@
+{
+  "jobPostingInfo": {
+    "id": "a610a482c6a81000fcfa3a975e060000",
+    "title": "Catastrophe Modeling & Data Analytics Intern (Fall 2026)",
+    "jobDescription": "<p><b>Be Here. Be Great. </b>Working for a leader in the insurance industry means opportunity for you. Great American Insurance Group&#39;s member companies are subsidiaries of American Financial Group. We combine a &#34;small company&#34; culture where your ideas will be heard with &#34;big company&#34; expertise to help you succeed. With over 30 specialty and property and casualty operations, there are always opportunities here to learn and grow.</p><p></p><p>At Great American, we value and recognize the benefits derived when people with different backgrounds and experiences work together to achieve business results. Our goal is to create a workplace where all employees feel included, empowered, and enabled to perform at their best.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>Are you a data-driven problem solver looking to explore the world of catastrophe modeling? Our Reinsurance Division is offering an exciting internship opportunity for individuals eager to learn and contribute to real-world projects in a supportive team environment. This internship offers hands-on experience with real-world projects that support our catastrophe modeling, data engineering, and visualization efforts.</p><p></p><p><b>What You’ll Work On</b></p><p>You’ll collaborate with experienced modelers and analysts on projects such as:</p><p></p><p><b>Modeling &amp; Geospatial Analysis</b></p><ul><li><p>Learn to use modeling software to evaluate catastrophe risk.</p></li><li><p>Run analyses and identify high-risk catastrophe regions.</p></li></ul><p><br /><b>SQL &amp; Data Engineering</b></p><ul><li><p>Update and maintain databases, tables, queries and processes in SQL.</p></li><li><p>Review, update and maintain data engineering code in Python.</p></li><li><p>Consolidate and clean up redundant reference tables across multiple databases.</p></li></ul><p><br /><b>Visualization &amp; Reporting</b></p><ul><li><p>Create Tableau/Power BI dashboards.</p></li><li><p>Map wildfire, hurricane, convective storm, and earthquake events for visual insights.</p></li></ul><p><br /><b>Process Optimization</b></p><ul><li><p>Help streamline repeatable modeling processes.</p></li><li><p>Learn and apply Python for automation and data prep tasks.</p></li><li><p>Collaborate with teams to share tools and insights.</p></li></ul><p></p><p><b>What We’re Looking For</b></p><ul><li><p>Currently pursuing a degree in Mathematics, Statistics, Data Science, Risk Management, or a related field.</p></li><li><p>Proficient with Excel and a willingness to learn SQL, Tableau, Power BI and Python.</p></li><li><p>Looking for someone who is detail-oriented, curious, and an effective communicator to join our collaborative team.</p></li></ul><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Business Unit:</b></p>Reinsurance<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Benefits: </b></p><p><span style=\"font-size:14px\">We offer competitive benefits packages for full-time and part-time employees*. Full-time employees have access to medical, dental, and vision coverage, wellness plans, parental leave, adoption assistance, and tuition reimbursement. Full-time and eligible part-time employees also enjoy Paid Time Off and paid holidays, a 401(k) plan with company match, an employee stock purchase plan, and commuter benefits.</span></p><p><span style=\"font-size:14px\"> </span></p><p><span style=\"font-size:14px\">Compensation varies by role, level, and location and is influenced by skills, experience, and business needs. Your recruiter will provide details about benefits and specific compensation ranges during the hiring process. Learn more at </span><a target=\"_blank\" href=\"http://www.gaig.com/careers\"><span style=\"color:#467886\"><u><span style=\"font-size:14px\">http://www.gaig.com/careers</span></u></span></a><span style=\"font-size:14px\">.</span></p><p><span style=\"font-size:14px\"> </span></p><p><b><span style=\"font-size:14px\">*Excludes seasonal employees and interns.</span></b></p>",
+    "location": "Cincinnati, OH (USA)",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-09",
+    "timeType": "Part time",
+    "jobReqId": "R9102",
+    "jobPostingId": "Catastrophe-Modeling---Data-Analytics-Intern--Fall-2026-_R9102",
+    "jobPostingSiteId": "GAIG_External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "OH Cin-GA Tower",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Catastrophe-Modeling---Data-Analytics-Intern--Fall-2026-_R9102",
+    "questionnaireId": "c10882c5fe0c10015fbfb57a9e400000"
+  },
+  "hiringOrganization": {
+    "name": "GAIC Great American Insurance Company",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Business Analyst Intern",
+      "externalPath": "/job/Cincinnati-OH-USA/Business-Analyst-Intern_R9037",
+      "timeType": "Part time",
+      "locationsText": "Cincinnati, OH (USA)",
+      "postedOn": "Posted 13 Days Ago",
+      "startDate": "2026-05-27",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "Business Transformation Intern",
+      "externalPath": "/job/Cincinnati-OH-USA/Business-Transformation-Intern_R9094",
+      "timeType": "Part time",
+      "locationsText": "Cincinnati, OH (USA)",
+      "postedOn": "Posted Yesterday",
+      "startDate": "2026-06-08",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "Strategic Sourcing Intern (Year-Round)",
+      "externalPath": "/job/Cincinnati-OH-USA/Strategic-Sourcing-Intern--Year-Round-_R9000-1",
+      "timeType": "Part time",
+      "locationsText": "Cincinnati, OH (USA)",
+      "postedOn": "Posted 14 Days Ago",
+      "startDate": "2026-05-26"
+    }
+  ],
+  "userAuthenticated": false
+}
