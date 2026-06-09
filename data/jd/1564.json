@@ -1,0 +1,46 @@
+{
+  "jobPostingInfo": {
+    "id": "24096888258f100110c8005d6eab0000",
+    "title": "Software Engineer Co-Op",
+    "jobDescription": "<p style=\"text-align:left\"><span>We begin with dreams. Dreams drive our motivation. Dreams are our future. The world's dreams, people's dreams, our dreams. Our passion creates ideas that make dreams come alive. Technology and products that were only dreams become reality.</span></p><p style=\"text-align:left\"><br><span>All for dreams. Dreams challenge and the Nidec-Group will continue to meet the challenge. For the world's and people's tomorrows; the world's first, the world's best technologies and products; we will continue our part in creating a better society.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b><u>Job Summary</u></b></p>Today, Nidec Corporation is closely associated with approximately 230 group companies all over the world. Nidec is the world's No.1 comprehensive motor manufacturer handling \"everything that spins and moves\", miniature to gigantic. Aspiring to achieve still higher growth and greater market share, each group company is enhancing its technical capabilities and competitive edge. We are a global leader in the design and manufacture of electric motors and integrated controls. Our motors support a wide variety of applications supporting customers from residential, commercial to industrial markets. Join our team as we develop the next generation of electric motors and integrated controls solutions for our customers.<br>As a Co-op Engineer, you will work with an engineering team to learn practical skills in software controls. You will assists engineers in the technical development, evaluation and application of products and processes.<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><u><b><span>Job Description</span></b></u></p><p>Duties:</p><ul><li>Assist in testing and verification of both PC based and embedded software</li><li>Develop PC based software for both in house development group use and also for external use</li><li>Tests and measurements on a variety of electronic controls and motors</li><li>Assembly of prototypes and samples.</li><li>Support engineer on purchasing electronic components, test equipment and mechanical parts.</li><li>Support electronic lab activities including test equipment calibration and maintain lab cleanliness.</li><li>Perform other duties and responsibilities as needed or requested.</li></ul><br /><p>Requirements: </p><br /><ul><li><b><span style=\"font-size:inherit\">Educational Requirements: </span></b>currently enrolled in a bachelor&#39;s degree program for software engineering, computer science, or similar degrees.</li></ul><ul><li><b><span style=\"font-size:inherit\">Working Requirements:</span></b> 25-29 hours while attending school</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b><u>Additional Job Details</u></b></p><p><b>Equal Employment Opportunity and Affirmative Action at Nidec</b><br>Nidec is an Equal Employment Opportunity (EEO) and Affirmative Action Employer encouraging diversity in the workplace. All qualified applicants receive consideration for employment without regard to their age, gender, gender identity, sexual orientation, race, color, genetic information, religious creed, national origin, physical or mental disability, protected veteran status, or any other characteristic protected by law. For more information regarding your (EEO) rights as an applicant, please visit the following website: http://www1.eeoc.gov/employers/upload/eeoc_self_print_poster.pdf</p><p></p><p><b><u>Work Shift Schedule</u></b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>No Soliciting</b></p><p style=\"text-align:left\"><span>Nidec will not accept unsolicited resumes from individual recruiters or third party recruiting agencies in response to Nidec job postings. No fee will be paid to third parties who submit unsolicited candidates directly to our hiring managers. Pre-approval from the Nidec Talent Acquisition team is required before any external candidate can be submitted and such candidate must be submitted to the Nidec Talent Acquisition team.</span></p>",
+    "location": "North America/USA/Missouri/St. Louis - WPE, MO",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-09",
+    "timeType": "Part time",
+    "jobReqId": "R0015871",
+    "jobPostingId": "Software-Engineer-Co-Op_R0015871",
+    "jobPostingSiteId": "Nidec",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "North America/USA/Missouri/St. Louis - WPE, MO",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nidec.wd1.myworkdayjobs.com/Nidec/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Software-Engineer-Co-Op_R0015871",
+    "questionnaireId": "f42895be95d201769712f47cf54f20ba"
+  },
+  "hiringOrganization": {
+    "name": "Nidec Motor Corporation",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Application Engineering Co-Op",
+      "externalPath": "/job/North-AmericaUSAMissouriSt-Louis---WPE-MO/Application-Engineering-Co-Op_R0016076",
+      "timeType": "Part time",
+      "locationsText": "North America/USA/Missouri/St. Louis - WPE, MO",
+      "postedOn": "Posted 12 Days Ago",
+      "startDate": "2026-05-28"
+    }
+  ],
+  "userAuthenticated": false
+}
