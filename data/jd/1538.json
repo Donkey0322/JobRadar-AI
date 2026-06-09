@@ -1,0 +1,63 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5105036007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 4616790007,
+  "location": {
+    "name": "Irvine"
+  },
+  "metadata": [
+    {
+      "id": 4744161007,
+      "name": "Careers Site Category",
+      "value": "Software Engineering",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4756220007,
+      "name": "Time Type",
+      "value": "Full time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4870662007,
+      "name": "Job Description",
+      "value": "Job Title: Software Engineer I \nLocation: 400 Spectrum Center Drive, Suite 550, Irvine, CA 92618\n\n*Telecommuting permitted: work may be performed within normal commuting distance from The Trade Desk, Inc. office in Irvine, CA.\n\nJob Duties: Implement full stack software solutions utilizing relational and high-performance databases, back-end application development and API design, modern JavaScript frameworks and component-based UI architectures, and deployment and operation in cloud-based, containerized environments. Act as a company-wide subject matter expert on measurement solutions including, but not limited to, The Trade Desk Conversion Lift, Third Party Conversion Lift, Carrier Activation Indicator, New Devices Indicator, Inferred Brand Intent, and Campaign Reporting and Attribution. Proactively monitor deployed solutions for bugs, performance concerns, and feedback using tools like NewRelic, Sumologic, and Grafana to ensure maximum operational excellence and user satisfaction. Include automated unit, integration, and end-to-end tests in the delivery of all solutions in order to prevent regressions and accelerate team’s development velocity. Design complex database tables, GraphQL schemas, and client access patterns to satisfy product requirements and address scalability concerns. Identify and lead implementation of new measurement solutions that can be built on top of The Trade Desk’s infrastructure and substantial data. Collaborate with product managers and designers using tools like Figma to influence project directions and general user experiences. Track project progress using tools like Jira in order to facilitate roadmap discussions with product managers.\n\nSalary: $137,600 - $206,400 / year\n\nJob Requirements: Bachelor's degree (U.S. or foreign equivalent) in Computer Science or related field. Position requires working knowledge of the following skills gained through coursework or experience: SQL database; object-oriented programming; API design; Javascript and UI frameworks; and cloud infrastructure.",
+      "value_type": "long_text"
+    }
+  ],
+  "id": 5105036007,
+  "updated_at": "2026-06-08T15:33:39-04:00",
+  "requisition_id": null,
+  "title": "Software Engineer I",
+  "company_name": "The Trade Desk",
+  "first_published": "2026-04-10T14:18:07-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;The Trade Desk is a global technology company and the world’s leading independent platform for digital advertising, with nearly 4,000 employees across more than 30 offices. Our technology helps advertisers reach the right audiences across the open internet — from streaming TV and podcasts to mobile apps, news, and more.&amp;nbsp; &lt;br&gt;&lt;br&gt;Advertising powers the content people love. By making it more transparent, effective, and responsible, we help support trusted journalism, quality entertainment, and creators worldwide. The world’s brands and agencies rely on us to reach their customers and grow their businesses responsibly. &lt;br&gt;&lt;br&gt;The scale of our platform brings unique technical challenges — from processing massive datasets in real time to building systems that operate reliably on a global scale. When you work here, your impact is worldwide. We welcome diverse perspectives, encourage curiosity, and build teams that learn from one another. If you’re driven to solve meaningful challenges, we’d love to meet you.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Job Title: Software Engineer I&lt;/p&gt;\n&lt;p&gt;Location: 400 Spectrum Center Drive, Suite 550, Irvine, CA 92618&lt;/p&gt;\n&lt;p&gt;*Telecommuting permitted: work may be performed within normal commuting distance from The Trade Desk, Inc. office in Irvine, CA.&lt;/p&gt;\n&lt;p&gt;Job Duties:&lt;strong&gt; &lt;/strong&gt;Implement full stack software solutions utilizing relational and high-performance databases, back-end application development and API design, modern JavaScript frameworks and component-based UI architectures, and deployment and operation in cloud-based, containerized environments. Act as a company-wide subject matter expert on measurement solutions including, but not limited to, The Trade Desk Conversion Lift, Third Party Conversion Lift, Carrier Activation Indicator, New Devices Indicator, Inferred Brand Intent, and Campaign Reporting and Attribution. Proactively monitor deployed solutions for bugs, performance concerns, and feedback using tools like NewRelic, Sumologic, and Grafana to ensure maximum operational excellence and user satisfaction. Include automated unit, integration, and end-to-end tests in the delivery of all solutions in order to prevent regressions and accelerate team’s development velocity. Design complex database tables, GraphQL schemas, and client access patterns to satisfy product requirements and address scalability concerns. Identify and lead implementation of new measurement solutions that can be built on top of The Trade Desk’s infrastructure and substantial data. Collaborate with product managers and designers using tools like Figma to influence project directions and general user experiences. Track project progress using tools like Jira in order to facilitate roadmap discussions with product managers.&lt;/p&gt;\n&lt;p&gt;Salary: $137,600 - $206,400 / year&lt;/p&gt;\n&lt;p&gt;Job Requirements:&lt;strong&gt; &lt;/strong&gt;Bachelor&#39;s degree (U.S. or foreign equivalent) in Computer Science or related field. Position requires working knowledge of the following skills gained through coursework or experience: SQL database; object-oriented programming; API design; Javascript and UI frameworks; and cloud infrastructure.&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span data-olk-copy-source=&quot;MessageBody&quot;&gt;In accordance with various US state laws, the range provided is the Trade Desk&#39;s reasonable estimate of the base compensation for this role. The actual amount may differ based on non-discriminatory factors such as experience, knowledge, skills, and location.&amp;nbsp;&lt;/span&gt;&amp;nbsp;All employees may be eligible to become The Trade Desk shareholders through eligibility for stock-based compensation grants, which are awarded to employees based on company and individual performance. The Trade Desk also offers other compensation depending on the role such as variable compensation-based incentives and commissions. Plus, expected benefits for this role include comprehensive healthcare (medical, dental, and vision) with premiums paid in full for employees and dependents, retirement benefits such as a 401k plan and company match, short and long-term disability coverage, basic life insurance, well-being benefits, reimbursement for certain tuition expenses, parental leave, sick time of 1 hour per 30 hours worked, vacation time for full-time employees up to 120 hours thru the first year and 160 hours thereafter, and around 13 paid holidays per year. &amp;nbsp;Employees can also purchase The Trade Desk stock at a discount through The Trade Desk’s Employee Stock Purchase Plan.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The Trade Desk also offers a competitive benefits package. Click &lt;a href=&quot;https://careers.thetradedesk.com/us/en&quot;&gt;here&lt;/a&gt; to learn more.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Interns are not eligible for variable incentive awards such as stock-based compensation, retirement plan, vacation, tuition reimbursement or parental leave&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;At the Trade Desk, Base Salary is one part of our competitive total compensation and benefits package and is determined using a salary range. The base salary range for this role is &lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$137,600&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$206,400 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;As an Equal Opportunity Employer, The Trade Desk is committed to creating an inclusive hiring experience where everyone has the opportunity to thrive.&lt;/p&gt;\n&lt;p&gt;Please reach out to us at&amp;nbsp;&lt;a href=&quot;mailto:accommodations@thetradedesk.com&quot; target=&quot;_blank&quot;&gt;accommodations@​thetradedesk.​com&lt;/a&gt;&amp;nbsp;to request an accommodation or discuss any accessibility needs you may require to access our Company Website or navigate any part of the hiring process.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;When you contact us, please include your preferred contact details and specify the nature of your accommodation request or questions. Any information you share will be handled confidentially and will not impact our hiring decisions.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4015972007,
+      "name": "Software Engineering",
+      "child_ids": [],
+      "parent_id": 4015947007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014069007,
+      "name": "Irvine",
+      "location": "Irvine",
+      "child_ids": [],
+      "parent_id": 4013983007
+    }
+  ]
+}

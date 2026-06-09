@@ -1,0 +1,84 @@
+{
+  "jobPostingInfo": {
+    "id": "073d2de645cb1000ded235f0aa600000",
+    "title": "Software Engineer I",
+    "jobDescription": "<p style=\"text-align:left\"><b>Summary</b></p><p style=\"text-align:inherit\"></p>You will join Guidewire’s Product Development &amp; Operations (PDO) organization, the team responsible for building and running our secure, scalable, and efficient cloud platform that powers P&amp;C insurers worldwide. You’ll work in a collaborative, agile environment alongside experienced engineers who will help you grow your skills in cloud, Kubernetes, and modern software engineering practices. Our culture emphasizes curiosity, learning, and continuous improvement.<br><br>As an early-career Software Engineer – Cloud, you will help design, build, and support components of the Guidewire Cloud Platform on Kubernetes and AWS, with guidance and mentorship from senior engineers. You’ll contribute to microservices, automation, and observability, and you’ll be encouraged to use AI and data-driven insights in your day-to-day work. This role is a strong foundation for a long-term engineering career in cloud and platform development.<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job Description</b></p><p style=\"text-align:inherit\"></p><h3><span>What you’ll do</span></h3><ul><li><p><span>Contribute to the design and development of microservices and platform components that power Guidewire Cloud Platform, using Kubernetes and AWS as core technologies.</span></p></li><li><p><span>Implement features and fixes in collaboration with senior engineers, following established coding standards, design patterns, and security best practices.</span></p></li><li><p><span>Help build and improve tools and automation that support deployment, scaling, monitoring, and maintenance of distributed cloud services.</span></p></li><li><p><span>Write and maintain unit, integration, and end-to-end tests to ensure code quality and reliability as part of our CI/CD pipelines.</span></p></li><li><p><span>Assist in improving observability through logging, metrics, and tracing to help teams detect, debug, and resolve issues more quickly.</span></p></li><li><p><span>Participate in code reviews, design discussions, and agile ceremonies, learning from peers while contributing your own ideas and perspectives.</span></p></li><li><p><span>Learn and apply 12-factor app and microservices principles, and help evolve standards for APIs and service integration as you grow in the role.</span></p></li><li><p><span>At Guidewire, we foster a culture of curiosity, innovation, and responsible use of AI—empowering our teams to continuously leverage emerging technologies and data-driven insights to enhance productivity and outcomes.</span></p></li></ul><p></p><h3><span>What you’ll bring</span></h3><h3><span>Required</span></h3><p></p><p><span>Demonstrated ability to embrace AI and apply it to your current role as well as data-driven insights to drive innovation, productivity, and continuous improvement.</span></p><ul><li><p><span>Minimum 1 year of professional software engineering experience (or equivalent combination of internships, co-ops, or substantial projects).</span></p></li><li><p><span>Proficiency in at least one modern programming language such as Java, Golang, Node.js, or Python.</span></p></li><li><p><span>Basic understanding of REST APIs and/or gRPC and how services communicate in a distributed system.</span></p></li><li><p><span>Familiarity with Linux and containerization concepts (Docker or similar) and interest in learning Kubernetes.</span></p></li><li><p><span>Exposure to at least one major cloud platform (AWS, GCP, or Azure) through coursework, internships, or prior roles.</span></p></li><li><p><span>Fundamental knowledge of software engineering best practices: version control (e.g., Git), testing, debugging, and documentation.</span></p></li><li><p><span>Strong problem-solving skills, curiosity to learn new technologies, and a collaborative mindset in team environments.</span></p></li></ul><p></p><h3><span>Preferred</span></h3><ul><li><p><span>Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent practical experience.</span></p></li><li><p><span>Experience (coursework, projects, or internships) with Kubernetes, Docker, or other container orchestration tools.</span></p></li><li><p><span>Familiarity with CI/CD tools and practices (e.g., automated builds,tests, and deployments).</span></p></li><li><p><span>Exposure to observability tools (logging, metrics, tracing) and interest in building reliable distributed systems.</span></p></li><li><p><span>Experience working in agile teams or participating in team-based software projects.</span></p></li></ul><p></p><h3>What you should know about this role:</h3><ul><li><p>This position regularly involves pair programming.</p></li><li><p>How our CCS group operates:<a href=\"https://medium.com/guidewire-engineering-blog/a-day-in-the-life-of-a-cloud-common-services-engineer-c67cf3debc57\" target=\"_blank\"> <u>https://medium.com/guidewire-engineering-blog/a-day-in-the-life-of-a-cloud-common-services-engineer-c67cf3debc57</u></a></p></li><li><p>What the general Interview process will be:<a href=\"https://medium.com/guidewire-engineering-blog/preparing-to-interview-with-guidewire-cloud-common-services-team-7d0697592929\" target=\"_blank\"> <u>https://medium.com/guidewire-engineering-blog/preparing-to-interview-with-guidewire-cloud-common-services-team-7d0697592929</u></a></p></li><li><p><u>Develop Multi-Tenant Cloud Platform that caters to running all Guidewire applications and services (Refer: </u><a href=\"https://medium.com/guidewire-engineering-blog/guidewire-cloud-why-hybrid-tenancy-is-the-right-choice-56a0ff176032\" target=\"_blank\"><u>https://medium.com/guidewire-engineering-blog/guidewire-cloud-why-hybrid-tenancy-is-the-right-choice-56a0ff176032</u></a><u>,</u><a href=\"https://medium.com/guidewire-engineering-blog/guidewire-cloud-why-hybrid-tenancy-is-the-right-choice-part-2-of-2-ba22c9888bb8\" target=\"_blank\"><u> </u></a> <a href=\"https://medium.com/guidewire-engineering-blog/guidewire-cloud-why-hybrid-tenancy-is-the-right-choice-part-2-of-2-ba22c9888bb8\" target=\"_blank\"><u>https://medium.com/guidewire-engineering-blog/guidewire-cloud-why-hybrid-tenancy-is-the-right-choice-part-2-of-2-ba22c9888bb8</u></a></p></li><li><p><u>Deeply involved in design and development of GWCP/ATMOS - infrastructure as code using technologies such as EKS (Kubernetes), Terraform, Golang. In addition handle Observability of the Platform (logs, metrics and traces). (Refer:</u><a href=\"https://medium.com/guidewire-engineering-blog/log-management-and-guidewire-cloud-platform-observability-73a033a34e9a\" target=\"_blank\"><u> https://medium.com/guidewire-engineering-blog/log-management-and-guidewire-cloud-platform-observability-73a033a34e9a</u></a><u>)</u></p></li></ul><p></p><h3><span>Your Impact</span></h3><p></p><p><span>We believe in clarity and setting you up for success. In your first 3–6 months, you will:</span></p><ul><li><p><span>Learn the Guidewire Cloud Platform architecture and our engineering practices.</span></p></li><li><p><span>Pair with more senior engineers to deliver well-scoped features and fixes that improve reliability, performance, and automation.</span></p></li><li><p><span>Contribute to test suites, tooling, and documentation that help the team move faster and more safely.</span></p></li></ul><p></p><p><span>As you grow, you’ll take on larger ownership areas within the platform, helping improve our cloud infrastructure, embedding AI into engineering workflows, and contributing to the scalability and resilience our customers depend on. Your work will directly support insurers around the world who run their businesses on Guidewire’s secure, scalable, AI-enabled cloud solutions.</span></p><p><span>What’s in it for you</span></p><p></p><p><span>The people we employ give their all, and in return, we offer flexibility wherever we can, such as:</span></p><ul><li><p><span>Flexible work environment</span></p></li><li><p><span>Health and wellness benefits</span></p></li><li><p><span>Paid time off programs including volunteer time off</span></p></li><li><p><span>Market-competitive pay and incentive programs</span></p></li><li><p><span>Continual development and internal career growth opportunities, including mentorship and access to training on cloud, Kubernetes, and AI tools</span></p></li></ul><p></p><p><span>All new hires participate in our in-person orientation, which helps you build meaningful connections, understand our culture, and quickly align to Guidewire’s mission and customer-focused values.</span></p>&amp;#xa;The US base salary range for this full-time position is $86,000 - $161,000. Your base pay will depend on your experience, skills, education, training, and location among other factors. All full-time positions or part-time roles working 30 hours or more a week at Guidewire are eligible for benefits that support their health and well-being including health, dental, and vision insurance, paid time off, and a company sponsored retirement plan. In addition, some roles may be eligible for the annual company bonus plan, commissions, and/or long term incentive awards which are contingent on a variety of factors including, but not limited to, company and employee performance.<p></p><p>Disability Accommodations and Guidewire’s Appeals Process. Guidewire provides accommodations to the hiring process to create a fair opportunity for candidates with disabilities to contend for open positions. Accommodation requests should be directed to Accommodations&#64;guidewire.com. If things do not go as hoped, we invite you to use our appeals process. Guidewire promises to independently review any denied accommodation and any decision not to offer you the position. The appeals process is the same in either case. Within five business days of receiving a notice of denial of an accommodation, or receiving a notice of your non-selection for a vacancy, e-mail Accommodations&#64;guidewire.com to make an appeal. Guidewire will assign a new decision-maker to review the request and/or hiring decision, who will then notify you in writing of a decision within 10 business days.</p><p></p><p><b>About Guidewire</b></p><p></p><p>Guidewire is the platform P&amp;C insurers trust to engage, innovate, and grow efficiently. We combine digital, core, analytics, and AI to deliver our platform as a cloud service. More than 540&#43; insurers in 40 countries, from new ventures to the largest and most complex in the world, run on Guidewire.</p><p></p><p>As a partner to our customers, we continually evolve to enable their success. We are proud of our unparalleled implementation track record with 1600&#43; successful projects, supported by the largest R&amp;D team and partner ecosystem in the industry. Our Marketplace provides hundreds of applications that accelerate integration, localization, and innovation.</p><p></p><p>For more information, please visit www.guidewire.com and follow us on Twitter: &#64;Guidewire_PandC. </p><p></p><p>Guidewire Software, Inc. is proud to be an equal opportunity and affirmative action employer. We are committed to an inclusive workplace, and believe that a diversity of perspectives, abilities, and cultures is a key to our success. Qualified applicants will receive consideration without regard to race, color, ancestry, religion, sex, national origin, citizenship, marital status, age, sexual orientation, gender identity, gender expression, veteran status, or disability. All offers are contingent upon passing a criminal history and other background checks where it&#39;s applicable to the position.</p>",
+    "location": "United States - San Mateo, CA",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-08",
+    "timeType": "Full time",
+    "jobReqId": "JR_14588",
+    "jobPostingId": "Software-Engineer---Cloud_JR_14588",
+    "jobPostingSiteId": "external",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": false,
+    "jobRequisitionLocation": {
+      "descriptor": "San Mateo HQ",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://wd5.myworkdaysite.com/recruiting/guidewire/external/job/United-States---San-Mateo-CA/Software-Engineer---Cloud_JR_14588",
+    "questionnaireId": "6010078edf9c1026df3eb7abd31e0000"
+  },
+  "hiringOrganization": {
+    "name": "Guidewire Software, Inc. (US)",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Software Engineer III - Cloud Platform",
+      "externalPath": "/job/United-States---San-Mateo-CA/Software-Engineer-III_JR_13681",
+      "timeType": "Full time",
+      "locationsText": "United States - San Mateo, CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-17",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "Software Engineer III - Cloud Platform",
+      "externalPath": "/job/United-States---San-Mateo-CA/Software-Engineer-III---Cloud-Platform_JR_14671",
+      "timeType": "Full time",
+      "locationsText": "United States - San Mateo, CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-04-15",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "Staff Software Engineer – Data Platform",
+      "externalPath": "/job/United-States---San-Mateo-CA/Staff-Software-Engineer---Data-Platform_JR_14201",
+      "timeType": "Full time",
+      "locationsText": "United States - San Mateo, CA",
+      "postedOn": "Posted 5 Days Ago",
+      "startDate": "2026-06-03",
+      "remoteType": "Onsite"
+    },
+    {
+      "title": "Software Engineer III - UnderwritingCenter",
+      "externalPath": "/job/United-States---San-Mateo-CA/Software-Engineer-III---UnderwritingCenter_JR_14795",
+      "timeType": "Full time",
+      "locationsText": "United States - San Mateo, CA",
+      "postedOn": "Posted 28 Days Ago",
+      "startDate": "2026-05-11",
+      "remoteType": "Hybrid"
+    },
+    {
+      "title": "Senior Software Engineer - Application Platform",
+      "externalPath": "/job/United-States---San-Mateo-CA/Senior-Software-Engineer---AI-Services_JR_14291",
+      "timeType": "Full time",
+      "locationsText": "United States - San Mateo, CA",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-19",
+      "remoteType": "Hybrid"
+    }
+  ],
+  "userAuthenticated": false
+}

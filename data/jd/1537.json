@@ -1,0 +1,63 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5158690007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "internal_job_id": 4642661007,
+  "location": {
+    "name": "Ventura"
+  },
+  "metadata": [
+    {
+      "id": 4744161007,
+      "name": "Careers Site Category",
+      "value": "Platform & Data Support",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4756220007,
+      "name": "Time Type",
+      "value": "Full time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4870662007,
+      "name": "Job Description",
+      "value": null,
+      "value_type": "long_text"
+    }
+  ],
+  "id": 5158690007,
+  "updated_at": "2026-06-08T13:54:22-04:00",
+  "requisition_id": null,
+  "title": "Data Support Analyst I",
+  "company_name": "The Trade Desk",
+  "first_published": "2026-06-08T13:54:22-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;The Trade Desk is a global technology company and the world’s leading independent platform for digital advertising, with nearly 4,000 employees across more than 30 offices. Our technology helps advertisers reach the right audiences across the open internet — from streaming TV and podcasts to mobile apps, news, and more.&amp;nbsp; &lt;br&gt;&lt;br&gt;Advertising powers the content people love. By making it more transparent, effective, and responsible, we help support trusted journalism, quality entertainment, and creators worldwide. The world’s brands and agencies rely on us to reach their customers and grow their businesses responsibly. &lt;br&gt;&lt;br&gt;The scale of our platform brings unique technical challenges — from processing massive datasets in real time to building systems that operate reliably on a global scale. When you work here, your impact is worldwide. We welcome diverse perspectives, encourage curiosity, and build teams that learn from one another. If you’re driven to solve meaningful challenges, we’d love to meet you.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Data Support is a global team that turns The Trade Desk&#39;s proprietary data into custom and syndicated segments and insights that clients can activate with confidence. The segments we build power campaigns reaching millions of consumers across the open internet — and the data decisions we support shape how some of the world&#39;s largest brands reach their audiences. We maintain the health and integrity of TTD&#39;s data marketplace — ensuring data is accurate, accessible, and reliable — and we partner with internal and external stakeholders to solve complex data challenges.&lt;/p&gt;\n&lt;p&gt;We operate as a Dual Impact Team: our time is split between client-facing service — proactive and reactive client work — and internal enablement, including building tools, improving processes, and supporting stakeholders across the business. We thrive when we learn fast, remain humble, and hold ourselves to the highest standard of both technical excellence and premium service delivery.&lt;/p&gt;\n&lt;p&gt;We are part of a multinational team within the world&#39;s leading, independent buying platform for digital advertising, with regional teams across North America, APAC, and EMEA.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build custom segments for The Trade Desk&#39;s clients for use within our data management platform, ensuring accuracy, data quality, and policy compliance throughout.&lt;/li&gt;\n&lt;li&gt;Spend meaningful time writing and running SQL to extract, analyze, and validate data across TTD data systems — combining large data sets, interpreting results, and turning findings into optimization strategies and custom segment solutions.&lt;/li&gt;\n&lt;li&gt;QA segment builds and data outputs for accuracy and compliance before delivery; troubleshoot technical issues independently and document findings clearly, escalating with full context when needed.&lt;/li&gt;\n&lt;li&gt;Evaluate each request against TTD ad policy standards — including sensitive categories, advertiser verticals, and geographic requirements — and escalate anything ambiguous before proceeding.&lt;/li&gt;\n&lt;li&gt;Build, maintain, and improve automations, scripts, and workflows that support segment creation and data operations — owning accuracy, checks and balances, and process efficiency across cross-functional and cross-regional teams.&lt;/li&gt;\n&lt;li&gt;Act as a trusted advisor and primary point of contact for stakeholders — guiding segment strategy, data best practices, and audience design, communicating proactively, and delivering high-ownership service from intake to completion.&lt;/li&gt;\n&lt;li&gt;Own client and internal requests end-to-end in Salesforce — from intake through resolution — troubleshooting and escalating when needed while maintaining documentation clear enough for any team member to pick up at any point.&lt;/li&gt;\n&lt;li&gt;Work daily alongside teammates and stakeholders across North America, APAC, and EMEA — adapting your communication style to different audiences and levels of technical expertise, coordinating cross-regional handoffs, and building trusted working relationships across cultures and time zones.&lt;/li&gt;\n&lt;li&gt;Contribute to the team&#39;s knowledge base through accurate documentation of team systems, processes, and domain knowledge — and serve as a subject matter expert for data analysis methods and tools.&lt;/li&gt;\n&lt;li&gt;Act as a connector between Data Support and other TTD teams to resolve data and segment-related issues, and contribute to internal enablement work — process improvement, tooling, and cross-functional projects — as business needs evolve.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who you are:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor&#39;s degree or relevant work experience (0–3 years); a background in data, analytics, marketing technology, or a related field is a plus.&lt;/li&gt;\n&lt;li&gt;Proficient in Excel and MS Office, including pivot tables, charts, and manipulation of large data sets.&lt;/li&gt;\n&lt;li&gt;Able to write and run complex SQL queries, including multiple joins, temp tables, CTEs, CASE WHEN logic, and nested queries.&lt;/li&gt;\n&lt;li&gt;Comfortable engaging with stakeholders at varying levels of technical expertise — you can translate complexity into clarity.&lt;/li&gt;\n&lt;li&gt;Collaborative and effective cross-functionally in a fast-paced environment, with a track record of building strong working relationships at all levels of the organization.&lt;/li&gt;\n&lt;li&gt;Detail-oriented and precise, with a strong commitment to data handling ethics and consumer privacy.&lt;/li&gt;\n&lt;li&gt;Skilled at solving complex technical problems creatively while anticipating stakeholder needs and consistently meeting or exceeding expectations.&lt;/li&gt;\n&lt;li&gt;Comfortable with ambiguity and change — you approach shifting requirements as opportunities rather than obstacles.&lt;/li&gt;\n&lt;li&gt;Comfortable adopting and adapting to new technologies, tools, and coding environments — including platforms like Databricks, Python, and AI-assisted tooling (Copilot, Claude, etc.) — as the tech stack and industry continue to evolve.&lt;/li&gt;\n&lt;li&gt;Strong time manager who can work across functions in a dynamic, solution-oriented environment while meeting deadlines.&lt;/li&gt;\n&lt;li&gt;Self-motivated and innovative; comfortable working independently, but an excellent team player with a growth mindset and a desire to make those around you better. #LI-LM2&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&lt;span data-olk-copy-source=&quot;MessageBody&quot;&gt;In accordance with various US state laws, the range provided is the Trade Desk&#39;s reasonable estimate of the base compensation for this role. The actual amount may differ based on non-discriminatory factors such as experience, knowledge, skills, and location.&amp;nbsp;&lt;/span&gt;&amp;nbsp;All employees may be eligible to become The Trade Desk shareholders through eligibility for stock-based compensation grants, which are awarded to employees based on company and individual performance. The Trade Desk also offers other compensation depending on the role such as variable compensation-based incentives and commissions. Plus, expected benefits for this role include comprehensive healthcare (medical, dental, and vision) with premiums paid in full for employees and dependents, retirement benefits such as a 401k plan and company match, short and long-term disability coverage, basic life insurance, well-being benefits, reimbursement for certain tuition expenses, parental leave, sick time of 1 hour per 30 hours worked, vacation time for full-time employees up to 120 hours thru the first year and 160 hours thereafter, and around 13 paid holidays per year. &amp;nbsp;Employees can also purchase The Trade Desk stock at a discount through The Trade Desk’s Employee Stock Purchase Plan.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The Trade Desk also offers a competitive benefits package. Click &lt;a href=&quot;https://careers.thetradedesk.com/us/en&quot;&gt;here&lt;/a&gt; to learn more.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Interns are not eligible for variable incentive awards such as stock-based compensation, retirement plan, vacation, tuition reimbursement or parental leave&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;At the Trade Desk, Base Salary is one part of our competitive total compensation and benefits package and is determined using a salary range. The base salary range for this role is &lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$48,200&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$88,300 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;/p&gt;\n&lt;p&gt;As an Equal Opportunity Employer, The Trade Desk is committed to creating an inclusive hiring experience where everyone has the opportunity to thrive.&lt;/p&gt;\n&lt;p&gt;Please reach out to us at&amp;nbsp;&lt;a href=&quot;mailto:accommodations@thetradedesk.com&quot; target=&quot;_blank&quot;&gt;accommodations@​thetradedesk.​com&lt;/a&gt;&amp;nbsp;to request an accommodation or discuss any accessibility needs you may require to access our Company Website or navigate any part of the hiring process.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;When you contact us, please include your preferred contact details and specify the nature of your accommodation request or questions. Any information you share will be handled confidentially and will not impact our hiring decisions.&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4016025007,
+      "name": "Data Support",
+      "child_ids": [],
+      "parent_id": 4015954007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4014076007,
+      "name": "Ventura ",
+      "location": "Ventura",
+      "child_ids": [],
+      "parent_id": 4013983007
+    }
+  ]
+}
