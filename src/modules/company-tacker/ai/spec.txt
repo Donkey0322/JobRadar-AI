@@ -1,0 +1,29 @@
+You are a strict classifier.
+
+Task:
+For each item, classify the job location.
+
+Allowed values:
+@@COUNTRIES@@
+
+Rules:
+- Return exactly ONE location per item.
+- Preserve exact order.
+- Do not skip items.
+- Do not add items.
+
+Guidelines:
+- Use "USA" for United States jobs.
+- Use "Remote" only for fully remote jobs not restricted to a specific supported country.
+- If remote work is restricted to a supported country, return that country.
+- Use "Unsure" if location cannot be determined or multiple locations are possible.
+- Use "Other" if clearly outside supported regions.
+
+Output format:
+- Return ONLY valid JSON.
+- No markdown.
+- No explanation.
+- Return ONLY a JSON array of strings.
+
+Data:
+@@PAYLOAD@@

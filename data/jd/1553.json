@@ -1,0 +1,174 @@
+{
+  "id": "744000131158534",
+  "name": "AI Systems Engineering Intern (Fall 2026) ",
+  "uuid": "03b6e1ee-84b6-476c-8069-726bc1e7282c",
+  "jobId": "a004ac4b-e6ac-4f29-bfd2-29389bbb606c",
+  "jobAdId": "270842ee-ba52-4ca0-9bdf-c6b43466cf33",
+  "defaultJobAd": true,
+  "refNumber": "REF288236P",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Sunnyvale",
+    "region": "CA",
+    "country": "us",
+    "address": "384 Santa Trinita Avenue",
+    "postalCode": "94085",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "37.3820466",
+    "longitude": "-121.9996484",
+    "fullLocation": "Sunnyvale, CA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+      "valueLabel": "Limited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "74e3aea0-cc7a-4c14-9adc-c3e33e9f4aef",
+      "valueLabel": "Sunnyvale, CA"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "0d8b2ae9-fc67-447b-9165-201f59f71e90",
+      "valueLabel": "Direct"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "b4e099f0-c66a-4d81-b9ce-b9d1d34e310b",
+      "valueLabel": "CR"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+      "valueLabel": "Intern"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "9ceea6ff-37fa-40a0-90e7-51fcc4977094",
+      "valueLabel": "US_N"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "CR",
+      "valueLabel": "CR"
+    }
+  ],
+  "releasedDate": "2026-06-09T14:09:18.041Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000131158534-ai-systems-engineering-intern-fall-2026-",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000131158534-ai-systems-engineering-intern-fall-2026-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/03b6e1ee-84b6-476c-8069-726bc1e7282c?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<ul></ul><p>The Bosch Research and Technology Center North America, with offices in Sunnyvale, Pittsburgh, and Cambridge, is part of the global Bosch Group, a company with over 90 billion Euro in annual revenue, 400,000 employees worldwide, a very diverse product portfolio, and a history spanning over 125 years. The Research and Technology Center North America (RTC-NA) provides innovative technologies in various Bosch business fields such as energy technologies, internet technologies, circuit and advanced MEMS design, semiconductors and wireless, and artificial intelligence.</p><p>As a part of the global research organization, our research department in Silicon Valley focuses on scalable and assistive AI. We develop solutions for Bosch products and services in the automated driving, advanced driver assistance systems (ADAS), robotics, enterprise AI, health care, smart home and building, and manufacturing domains.</p><p>Our AI systems engineering team is looking for an engineering research intern. Your work will help bridge the gap between research and product, bringing new innovations to Bosch business units at scale.</p><p><strong>We Are Bosch.</strong></p><p>At Bosch, we shape the future by inventing high-quality technologies and services that spark enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding Bosch teams around the world. Their creativity is the key to innovation through connected living, mobility, or industry.</p><p>Let’s grow together, enjoy more, and inspire each other. <strong>Work #LikeABosch&#xa0;</strong></p><ul><li><strong>Reinvent yourself: </strong>At Bosch, you will evolve.</li><li><strong>Discover new directions:</strong> At Bosch, you will find your place.</li><li><strong>Balance your life:</strong> At Bosch, your job matches your lifestyle.</li><li><strong>Celebrate success:</strong> At Bosch, we celebrate you.</li><li><strong>Be yourself:</strong> At Bosch, we value values.</li><li><strong>Shape tomorrow:</strong> At Bosch, you change lives.</li></ul>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<ul><li>Work with an international team of engineers and research scientists to deliver AI applications to internal Bosch customers</li><li>Work with different kinds of manufacturing data</li><li>Work on scalable data pipelines for big data</li><li>Write, test, and review code, contribute to clearing technical debt, and troubleshoot issues to maintain code quality and system performance</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required:</strong></p><ul><li>Currently pursuing Bachelor’s or Master’s degree in Computer Science / Systems Engineering or a related technical field.</li><li>Minimum GPA of 3.0</li><li>Programming experience in Java and/or Python</li><li>Experience in SQL</li></ul><p><strong>Preferred:</strong></p><ul><li>Experience working in an Agile team</li><li>Programming experience in Scala</li><li>Experience working with big data and associated distributed processing tools (e.g., Spark, Kafka) as well as cloud services (e.g., AWS, Azure)&#xa0;</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>The U.S. base salary range for this intern position is&#xa0;<strong>$35.00-45.00&#xa0;</strong>hourly.&#xa0;Within the range, individual pay is determined based on several factors, including, but not limited to, type of degree, work experience and job knowledge, complexity of the role, type of position, job location, etc. Your Hiring Manager can share more details about the specific salary range for this position during the interview process.</p><p><strong>Equal Opportunity Employer, including disability / veterans.</strong></p><p><em>*Bosch adheres to Federal, State, and Local laws regarding drug-testing. Employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.</em>&#xa0;</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 35,
+    "max": 45,
+    "currency": "USD",
+    "period": "HOURLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "research",
+    "label": "Research"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "internship",
+    "label": "Internship"
+  },
+  "typeOfEmployment": {
+    "id": "intern",
+    "label": "Intern"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

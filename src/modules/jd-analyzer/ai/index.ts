@@ -1,3 +1,6 @@
+import { promises as fs } from "fs";
+import path from "path";
+
 import { JOB_CATEGORIES } from "@/constants";
 import { COUNTRIES } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
@@ -6,9 +9,8 @@ import { SEASON_VALUES } from "@/constants/season";
 import type { JD } from "@/types";
 import type { AIResponse } from "@/utils/ai/provider/utils";
 
-import { loadPrompt, toBulletList } from "./prompts/util";
-
 import callAIModel from "@/utils/ai";
+import { buildPrompt, toBulletList } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
 
 const JD_PROPERTIES: Record<keyof JD, unknown> = {
@@ -59,8 +61,13 @@ const JD_SCHEMA = {
   additionalProperties: false,
 };
 
+async function readPrompt(relativePath: string): Promise<string> {
+  return await fs.readFile(path.join(import.meta.dirname, relativePath), "utf8");
+}
+
 export default async function analyzeJD(context: string): Promise<AIResponse> {
-  const prompt = await loadPrompt({
+  const template = await readPrompt("spec.txt");
+  const prompt = buildPrompt(template, {
     CONTEXT: context,
     COUNTRIES: toBulletList(COUNTRIES),
     JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),

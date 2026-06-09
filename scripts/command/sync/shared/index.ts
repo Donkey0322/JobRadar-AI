@@ -83,7 +83,7 @@ export async function processJobs({
 
   let totalCost = 0;
   let skipped = 0;
-  let deadlineStopped = false;
+  let forceStopped = false;
 
   for (const job of incomingJobs) {
     const key = getJobKey(job.link);
@@ -105,13 +105,14 @@ export async function processJobs({
     }
 
     if (shouldStopStartingNewJob()) {
-      deadlineStopped = true;
+      forceStopped = true;
+      const processedJobCount = jobs.length + skipped;
 
       logger.warn(
         {
           remainingSeconds: Math.round(remainingMs() / 1000),
-          processed: jobs.length,
-          skipped,
+          processed: processedJobCount,
+          remaining: incomingJobs.length - processedJobCount,
         },
         "⏰ Soft deadline reached. Stop starting new jobs and finalize current results."
       );
@@ -170,12 +171,12 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped, deadlineStopped },
+      { cost: totalCost, skipped, forceStopped },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
     logger.info(
-      { skipped, deadlineStopped },
+      { skipped, forceStopped },
       "💰 Currently no newly found jobs that match your criteria"
     );
   }
@@ -185,6 +186,6 @@ export async function processJobs({
     count: jobs.length,
     skipped,
     totalCost,
-    deadlineStopped,
+    forceStopped,
   };
 }
