@@ -2,8 +2,8 @@ name: ATS Discovery Pipeline
 run-name: 🔍 ATS Discovery Pipeline
 
 on:
-  schedule:
-    - cron: "0 * * * *"
+  # schedule:
+  #   - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
