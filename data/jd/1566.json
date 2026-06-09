@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "c8ced1f12535101018ae99b490600000",
+    "title": "Cloud Software Intern, GeForce NOW - Fall 2026",
+    "jobDescription": "<p><span><span>Our work at NVIDIA is dedicated towards a computing model focused on visual and AI computing. For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics, with our invention of the GPU. The GPU has also shown to be spectacularly effective at solving some of the most complex problems in computer science. Today, NVIDIA’s GPU simulates human intelligence, running deep learning algorithms and acting as the brain of computers, robots and self-driving cars that can perceive and understand the world. We are looking to grow our company and teams with the smartest people in the world and there has never been a more exciting time to join our team!</span></span></p><p></p><p>GeForce NOW, NVIDIA&#39;s next-generation gaming service powered by GPUs in the cloud, transforms a Mac, PC or mobile device into a high-performance gaming rig. GeForce NOW automatically keeps games up-to-date and lets users around the globe instantly stream the latest games in high-definition resolution at low latency and smooth frame-rates. Just click and play! Visit us at <a href=\"https://nam11.safelinks.protection.outlook.com/?url&#61;https%3A%2F%2Fwww.nvidia.com%2Fen-us%2Fgeforce-now&amp;data&#61;05%7C02%7Cgwillett%40nvidia.com%7Cbe128f5b842c4fffff2b08dcf1ed8bb0%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638651249765034996%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata&#61;JWObCMWBuAcmiDG%2BKXbOMgtmwJWmgpBQP9gNG9F0HM8%3D&amp;reserved&#61;0\" target=\"_blank\">https://www.nvidia.com/en-us/geforce-now</a></p><p></p><p>We are looking for a Cloud Software Intern to join the group of highly skilled and motivated engineers who bring GeForce NOW to life!</p><p></p><p><b>What</b> <b>you&#39;ll</b> <b>be</b> <b>doing:</b></p><ul><li>Drive and architect GFN cloud services and frameworks that form to build GeForce NOW. These services have requirements for low latency and high availability and throughput to support millions of gamers.</li><li>Design, build and implement scalable cloud-based systems for SaaS/PaaS.</li><li>Work closely with other teams on new products or features/improvements of existing products.</li><li>Support, maintain and document software functionality.</li></ul><p></p><p><b>What</b> <b>we</b> <b>need</b> <b>to</b> <b>see:</b></p><ul><li>Pursuing a Bachelor&#39;s or Master&#39;s degree in Computer Science or related field.</li><li>Experience with Java and Spring Boot building RESTful web services.</li><li>Proven understanding of cloud design in the areas of virtualization and global infrastructure, distributed systems, load balancing and security.</li><li>Working with Docker and Containers</li></ul><p></p><p><b>Ways</b> <b>to</b> <b>stand</b> <b>out</b> <b>from</b> <b>the</b> <b>crowd:</b></p><ul><li>Demonstrate previous usage of Kubernetes and Prometheus</li><li>Exposure to AWS (Fargate, EC2, IAM, ECR, EKS, Route53 etc.)</li><li>Experience with Infrastructure as Code</li><li>Continuous Integration and Continuous Delivery (CI/CD).</li><li>Exposure with Redis or Memcached</li><li>Usage of pub sub models and message queue</li><li>Familiarity with NoSQL DBs such as Cassandra</li></ul><p></p><p><span><span>NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you&#39;re creative and autonomous, we want to hear from you!</span> </span></p><p></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 20 USD - 71 USD.&amp;#xa;<p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span><span>You will also be eligible for Intern</span></span><span><span> </span><a href=\"https://www.nvidia.com/en-us/benefits/interns/\" target=\"_blank\"><span><span>benefits</span></span></a>. </span><span><span>​</span></span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Applications for this job will be accepted at least until June 13, 2026.<p></p><p>This posting is for an existing vacancy. </p><p>NVIDIA uses AI tools in its recruiting processes.</p><p></p>NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.<p></p><p></p>",
+    "location": "US, CA, Santa Clara",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-09",
+    "timeType": "Full time",
+    "jobReqId": "JR2019414",
+    "jobPostingId": "Cloud-Software-Intern--GeForce-NOW---Fall-2026_JR2019414",
+    "jobPostingSiteId": "NVIDIAExternalCareerSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US, CA, Santa Clara",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Cloud-Software-Intern--GeForce-NOW---Fall-2026_JR2019414",
+    "questionnaireId": "2f2764b3a82910064296831695150000"
+  },
+  "hiringOrganization": {
+    "name": "2100 NVIDIA USA",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
