@@ -1,0 +1,50 @@
+{
+  "jobPostingInfo": {
+    "id": "4b0ab1b61975100fc2345e4c16bb0001",
+    "title": "Global Tech Apprentice Program – Tech Delivery - Charlotte, NC",
+    "jobDescription": "<p><b>Job Description:</b></p><p></p><p></p><p>At Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day.<br /><br />Being a Great Place to Work and providing a culture of caring is core to how we drive Responsible Growth. We are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent, recognizing and rewarding performance, and supporting our teammates’ physical, emotional, and financial wellness through affordable, competitive and flexible benefits.<br /><br />We value the unique perspectives individuals bring from all backgrounds and career paths - whether shaped by military service, community college education, or a wide range of work and life experiences. These journeys foster resilience, leadership and innovation, strengthening our workforce and positively impact the communities we serve.<br /><br />Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. Our approach includes clear in-office expectations, while providing an appropriate level of flexibility based on role-specific responsibilities and business needs.<br /><br />At Bank of America, you can build a successful career with opportunities to learn, grow, and make an impact. Join us!</p><p></p><p><b>Job Description:</b></p><p><span>Apprentices will be joining a technology apprenticeship program, which is designed to introduce associates with little to no work experience to technology roles. The role is created to provide on the job training and build skills as an apprentice. Length of employment is pre-established for a set </span><span>period of time</span><span>. Work assignments are well defined with a high degree of supervision and direction provided. </span></p><p></p><p><span>Apprentices may provide analytical and technical skills to support the design, development, implementation of technology solutions to support our clients and manage risk. Apprentices are responsible for delivering innovative capabilities in a team environment, as well as leveraging skills, background, and interests for a specific group within technology lines of business participating in the program. This role may capture and refine business and/or system requirements. Key responsibilities may include working with stakeholders to understand needs, analyze problems and capture requirements and then working closely with the development teams to refine the requirements into specifications that can be executed by the team.</span></p><p></p><p><b>Responsibilities may include:</b></p><div><span><span>•</span></span><span>Understands stakeholder needs to help envision and create a solution to solve a problem</span></div><div><span><span>•</span></span><span>Analyzes the stakeholder process to build efficiencies and analyze the software to improve or implement that process </span></div><div><span><span>•</span></span><span>Gathers and catalogs functional, non-functional, and technical requirements for stakeholder requests</span></div><div><span><span>•</span></span><span>Assists users and development team with application testing and troubleshooting</span></div><div><span><span>•</span></span><span>Identifies, documents and troubleshoots application related problems</span></div><div><span><span>•</span></span><span>Documents processes, procedures and workflows associated with applications</span></div><div><span><span>•</span></span><span>Creates and maintains training materials for end-users</span></div><div></div><div><span>Required Skills</span></div><div><div><span><span>•</span></span><b>Must be a recent graduate or current participant with partnering technical training program </b><b>NPower</b><b>, Road to Hire or Per Scholas or m</b><b>ust be a current Community College student or recent </b><b>Community College graduate</b></div><div><span><span>•</span></span><span>Highly organized self-starter who can deliver results with minimal direction</span></div><div><span><span>•</span></span><span>Strong work ethic and ability to work in a fast-paced environment</span></div><div><span><span>•</span></span><span>Teamwork oriented</span></div><div><span><span>•</span></span><span>Demonstrated problem solving abilities</span></div><div><span><span>•</span></span><span>Commitment to learning and building a technical and business skill set</span></div><div><span><span>•</span></span><span>Ability to communicate clearly and effectively with both technology/development and business partners </span></div><div><span><span>•</span></span><span>Solid grasp of how technology interacts with other technology</span></div><div><span><span>•</span></span><span>Ability to build relationships and work effectively across multiple business partners </span></div></div><p></p><p></p><p><b>Shift:</b></p>1st shift (United States of America)<p></p><p></p><p><b>Hours Per Week:&nbsp;</b></p>40",
+    "location": "Charlotte",
+    "additionalLocations": [
+      "Charlotte",
+      "Charlotte"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-08",
+    "timeType": "Full time",
+    "jobReqId": "26019813",
+    "jobPostingId": "Global-Tech-Apprentice-Program---Tech-Delivery----Charlotte--NC_26019813-1",
+    "jobPostingSiteId": "US-EMPLSV",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Charlotte",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://ghr.wd1.myworkdayjobs.com/US-EMPLSV/job/Charlotte/Global-Tech-Apprentice-Program---Tech-Delivery----Charlotte--NC_26019813-1",
+    "questionnaireId": "28bff8b9ac631003ae3f112009b70000"
+  },
+  "hiringOrganization": {
+    "name": "94-1687665 Bank of America, National Association",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Global Tech Apprentice Program – Software Engineer - Charlotte, NC and Pennington, NJ",
+      "externalPath": "/job/Charlotte/Global-Tech-Apprentice-Program---Software-Engineer----Charlotte--NC-and-Pennington--NJ_26019811",
+      "timeType": "Full time",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted Today",
+      "startDate": "2026-06-08"
+    }
+  ],
+  "userAuthenticated": false
+}
