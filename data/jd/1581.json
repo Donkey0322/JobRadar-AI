@@ -1,0 +1,92 @@
+{
+  "absolute_url": "https://boards.eu.greenhouse.io/nice/jobs/4822654101?gh_jid=4822654101",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4448580101,
+  "location": {
+    "name": "USA - Sandy, UT"
+  },
+  "metadata": [
+    {
+      "id": 4778158101,
+      "name": "Job Type",
+      "value": "Regular",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4787631101,
+      "name": "Hiring Manager",
+      "value": {
+        "name": "Sudha Hanchate",
+        "email": "sudha.hanchate@nice.com",
+        "user_id": 4115360101,
+        "employee_id": "105318"
+      },
+      "value_type": "user"
+    },
+    {
+      "id": 4614529101,
+      "name": "Category",
+      "value": "R&D",
+      "value_type": "short_text"
+    },
+    {
+      "id": 4614545101,
+      "name": "Job String",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 4787135101,
+      "name": "(HRBP) Critical Role",
+      "value": "Developer",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4952164101,
+      "name": "(HRBP) Acquisition Job",
+      "value": "Not Applicable",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7821998101,
+      "name": "TA Director Only – Campaign",
+      "value": null,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4822654101,
+  "updated_at": "2026-06-10T03:15:59-04:00",
+  "requisition_id": "10447",
+  "title": "Associate Software Engineer ",
+  "company_name": "NICE",
+  "first_published": "2026-03-25T14:50:58-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;At NiCE, we don’t limit our challenges. We challenge our limits. Always. We’re ambitious. We’re game changers. And we play to win. We set the highest standards and execute beyond them. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Student Developer Position –&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;📍&amp;nbsp;&lt;strong&gt;Location:&lt;/strong&gt; Sandy, Utah (Hybrid) - &lt;strong&gt;***You MUST be located in Utah to qualify for this role***&lt;/strong&gt;&lt;br&gt;💼 &lt;strong&gt;Department:&lt;/strong&gt; R&amp;amp;D –&amp;nbsp;&lt;br&gt;🕒 &lt;strong&gt;Schedule:&lt;/strong&gt; Part-time (20 hours/week, flexible with class schedules, required to come to office 2 days a week)&lt;/p&gt;\n&lt;p&gt;Are you a student in your Junior of a CS degree looking to gain real-world experience in software development? NICE is seeking a motivated and passionate&amp;nbsp;&lt;strong&gt;Student Developer&lt;/strong&gt; to join our &lt;strong&gt;R&amp;amp;D Team.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This is a unique opportunity to work on cutting-edge web technologies that power the next generation of customer experience (CX) tools used by companies around the world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;🔧 What You&#39;ll Do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work on microservices using - Golang&lt;/li&gt;\n&lt;li&gt;Write automation testing w/Playwright.&lt;/li&gt;\n&lt;li&gt;Participate in code reviews, team standups, and agile development processes&lt;/li&gt;\n&lt;li&gt;Write clean, maintainable, and well-documented code&lt;/li&gt;\n&lt;li&gt;Learn best practices in software development within a large-scale enterprise&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;✅ What We’re Looking For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Actively pursuing a degree in &lt;strong&gt;Computer Science, Information Systems, Software Engineering&lt;/strong&gt;, or a related field&lt;/li&gt;\n&lt;li&gt;Familiarity with AWS, Microservices&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Problem-solving mindset and willingness to learn and tackle tough challenges&lt;/li&gt;\n&lt;li&gt;Ability to work independently and as part of a collaborative team&lt;/li&gt;\n&lt;li&gt;Strong communication skills&lt;/li&gt;\n&lt;li&gt;Positive can-do attitude&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;🌟 Nice to Have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with REST APIs, unit testing, or cloud platforms (AWS)&lt;/li&gt;\n&lt;li&gt;Previous internship or project work with modern web apps&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;🎓 Perks for Students&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Flexible work hours to accommodate school schedules&lt;/li&gt;\n&lt;li&gt;Mentorship from experienced developers&lt;/li&gt;\n&lt;li&gt;Real-world, resume-boosting development experience&lt;/li&gt;\n&lt;li&gt;Opportunity to contribute to production-level code used by global customers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;About NiCE &lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;NICE Ltd. (NASDAQ: NICE) software products are used by 25,000+ global businesses, including 85 of the Fortune 100 corporations, to deliver extraordinary customer experiences, fight financial crime and ensure public safety. Every day, NiCE software manages more than 120 million customer interactions and monitors 3+ billion financial transactions. &lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Known as an innovation powerhouse that excels in AI, cloud and digital, NiCE is consistently recognized as the market leader in its domains, with over 8,500 employees across 30+ countries. &lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;NiCE is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, age, sex, marital status, ancestry, neurotype, physical or mental disability, veteran status, gender identity, sexual orientation or any other category protected by law.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4012321101,
+      "name": "CX - R&D Engineering",
+      "child_ids": [],
+      "parent_id": 4012244101
+    }
+  ],
+  "offices": [
+    {
+      "id": 4005064101,
+      "name": "USA - Sandy, UT",
+      "location": "USA - Sandy, UT",
+      "child_ids": [],
+      "parent_id": 4005091101
+    }
+  ]
+}

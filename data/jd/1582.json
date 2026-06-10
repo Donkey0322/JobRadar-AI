@@ -1,0 +1,52 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/purestorage/jobs/7258968",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3249636,
+  "location": {
+    "name": "Santa Clara, California"
+  },
+  "metadata": [
+    {
+      "id": 37087123,
+      "name": "Cost Center",
+      "value": "45000 CPBU Admin",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7258968,
+  "updated_at": "2026-06-09T19:06:09-04:00",
+  "requisition_id": "15626",
+  "title": "Software Engineer Grad",
+  "company_name": "Everpure",
+  "first_published": "2026-02-17T18:54:26-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;We’re in an unbelievably exciting area of tech and are fundamentally reshaping the data storage industry. Here, you lead with innovative thinking, grow along with us, and join the smartest team in the industry.&lt;/p&gt;\n&lt;p&gt;This type of work—work that changes the world—is what the tech industry was founded on. So, if you&#39;re ready to seize the endless opportunities and leave your mark, come join us.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;THE ROLE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Software Engineer Grad, you will be part of a team that&#39;s building the future of data storage and management. You’ll apply your foundational knowledge to tackle challenging, real-world problems from low-level hardware to large-scale cloud systems. This role is a unique opportunity to directly contribute to mission-critical features that ensure our customers have a seamless, high-performance, and reliable data experience.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Contribute to core product development:&lt;/strong&gt; Take ownership of key tasks within the software development lifecycle, from ideation and design to implementation and testing.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Innovate and solve complex problems:&lt;/strong&gt; Research and develop solutions for challenges related to data efficiency, such as optimizing data deduplication and reclamation, or improving replication across wide-area networks.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Enhance system performance and scalability:&lt;/strong&gt; Work on projects that improve the performance of our software, ensuring it scales effectively with ever-increasing data volumes and hardware capabilities.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaborate across teams:&lt;/strong&gt; Partner with senior engineers and cross-functional teams to integrate new features and maintain a high standard of code quality through extensive automated testing.&lt;/li&gt;\n&lt;li&gt;We are primarily an in-office environment and therefore, you will be expected to work from the Santa Clara, CA office in compliance with Everpure&#39;s policies, unless you are on PTO, or work travel, or other approved leave&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU BRING&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Strong computer science fundamentals:&lt;/strong&gt; A solid understanding of data structures, algorithms, concurrency, and design principles. You can apply these concepts to solve practical engineering problems.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Proficiency in C++:&lt;/strong&gt; You&#39;re comfortable writing clean, efficient, and well-structured code in C++.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Problem-solving aptitude:&lt;/strong&gt; A proactive and self-motivated approach to identifying and solving complex problems with a focus on delivering high-quality, impactful results.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaboration and communication skills:&lt;/strong&gt; The ability to articulate complex technical ideas clearly and work effectively in a team-based, open office environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;#LI-ONSITE&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Salary ranges are determined based on role, level and location. For positions open to candidates in multiple geographical locations, the base salary range is reflective of the labor market across the applicable locations.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;This role may be eligible for incentive pay and/or equity.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;There is no application deadline and we accept applications on an ongoing basis until the job is filled.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;The annual base salary range is: &lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$119,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$179,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;WHAT YOU CAN EXPECT FROM US:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: We celebrate those who think critically, like a challenge, and aspire to be trailblazers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Growth&lt;/strong&gt;: We give you the space and support to grow along with us and to contribute to something meaningful. We have been named Fortune&#39;s Best Workplaces in Technology™, Fortune&#39;s Best Workplaces in the Bay Area™, and certified as a Great Place to Work®!&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Team&lt;/strong&gt;: We build each other up and set aside ego for the greater good.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;And because we understand the value of bringing your full and best self to work, we offer a variety of perks to manage a healthy balance, including flexible time off, wellness resources, and company-sponsored team events. Check out &lt;a href=&quot;http://purebenefits.com&quot;&gt;purebenefits.com&lt;/a&gt; for more information.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ACCOMMODATIONS AND ACCESSIBILITY:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Candidates with disabilities may request accommodations for all aspects of our hiring process. For more on this, contact us at &lt;a href=&quot;mailto:TA-Ops@purestorage.com&quot;&gt;TA-Ops@purestorage.com&lt;/a&gt; if you’re invited to an interview.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;OUR COMMITMENT TO A STRONG AND INCLUSIVE TEAM:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We’re forging a future where everyone finds their rightful place and where every voice matters. Where uniqueness isn’t just accepted but embraced. That’s why we are committed to fostering the growth and development of every person, cultivating a sense of community through our Employee Resource Groups and advocating for inclusive leadership.&lt;/p&gt;\n&lt;p&gt;Everpure is proud to be an equal opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or any other characteristic legally protected by the laws of the jurisdiction in which you are being considered for hire.&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Join us and bring your best.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Bring your bold.&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Pure and simple.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 5385,
+      "name": "University",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 90112,
+      "name": "Office - Santa Clara",
+      "location": "Santa Clara, California, United States",
+      "child_ids": [],
+      "parent_id": 43830
+    }
+  ]
+}
