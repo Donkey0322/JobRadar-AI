@@ -3,14 +3,15 @@ export function toBulletList(values: readonly string[]): string {
 }
 
 export function buildPrompt(template: string, variables: Record<string, string>): string {
-  for (const [key, value] of Object.entries(variables)) {
-    template = template.replaceAll(`@@${key}@@`, value);
-  }
-  const unresolvedVariables = template.match(/@@\w+@@/g);
+  return template.replace(/@@(\w+)@@/g, (_, key: string) => {
+    const value = variables[key];
 
-  if (unresolvedVariables) {
-    throw new Error(`Unresolved prompt variables: ${unresolvedVariables.join(", ")}`);
-  }
+    if (value === undefined) {
+      throw new Error(
+        `Missing prompt variable: ${key}. Available variables: ${Object.keys(variables).join(", ")}`
+      );
+    }
 
-  return template;
+    return value;
+  });
 }
