@@ -16,7 +16,9 @@
       "https://jobs.ashbyhq.com/1password/9378c159-337b-4c31-84c7-54af62623322/application",
       "https://jobs.ashbyhq.com/1password/a31143c2-8b13-4757-9821-007ea93c2b8c/application",
       "https://jobs.ashbyhq.com/1password/c502ea19-dc77-4955-8797-6f8b64ccf52f",
-      "https://jobs.ashbyhq.com/1password/f1501068-4cd5-40cd-b045-5f182192bf79/application"
+      "https://jobs.ashbyhq.com/1password/f1501068-4cd5-40cd-b045-5f182192bf79/application",
+      "https://jobs.ashbyhq.com/1password/c90c5d23-fd41-4c01-8422-08f4b64144f5/application",
+      "https://jobs.ashbyhq.com/1password/8f8774dc-e400-48b1-8100-c6840b8eaed1/application"
     ]
   },
   {
@@ -46,7 +48,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
+      "https://www.8am.com/openings/?gh_jid=4622069006"
     ]
   },
   {
@@ -492,7 +494,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4622069006",
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -4918,6 +4920,16 @@
     ]
   },
   {
+    "name": "cc",
+    "ats": "workday",
+    "identifier": "cc-chanelcareers",
+    "domain": "https://cc.wd3.myworkdayjobs.com/chanelcareers",
+    "page": "https://cc.wd3.myworkdayjobs.com/wday/cxs/cc/chanelcareers/jobs",
+    "urls": [
+      "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/New-York/Creative-Technologist-Intern--Open-Innovation_JOBREQ00113766"
+    ]
+  },
+  {
     "name": "cccis",
     "ats": "workday",
     "identifier": "cccis-broadbean_external",
@@ -6199,11 +6211,11 @@
     "domain": "https://danaher.wd1.myworkdayjobs.com/danaherjobs",
     "page": "https://danaher.wd1.myworkdayjobs.com/wday/cxs/danaher/danaherjobs/jobs",
     "urls": [
+      "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Pensacola-Florida-United-States/Product-Engineer-I_R1312619",
       "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Munich-Germany/Java-Software-Engineer_R1309897",
       "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Woking-United-Kingdom/Intern-Software-Engineer_R1300636",
       "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Woking-United-Kingdom/Intern-Software-Engineer_R1300642",
-      "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Woking-United-Kingdom/Intern-Software-Engineer_R1300643",
-      "https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Pensacola-Florida-United-States/Product-Engineer-I_R1312619"
+      "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Woking-United-Kingdom/Intern-Software-Engineer_R1300643"
     ]
   },
   {
@@ -15965,6 +15977,16 @@
     ]
   },
   {
+    "name": "precisely",
+    "ats": "greenhouse",
+    "identifier": "precisely",
+    "domain": "https://www.precisely.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/precisely/jobs",
+    "urls": [
+      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005"
+    ]
+  },
+  {
     "name": "preciselyusjobs",
     "ats": "greenhouse",
     "identifier": "preciselyusjobs",
@@ -15973,7 +15995,6 @@
     "urls": [
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669819005?gh_jid=4669819005",
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4669822005?gh_jid=4669822005",
-      "https://www.precisely.com/careers-and-culture/us-jobs/job/4672029005?gh_jid=4672029005",
       "https://www.precisely.com/careers-and-culture/us-jobs/job/4702062005?gh_jid=4702062005"
     ]
   },
@@ -17513,6 +17534,16 @@
     ]
   },
   {
+    "name": "scanhealthplan",
+    "ats": "workday",
+    "identifier": "scanhealthplan-scancareers",
+    "domain": "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers",
+    "page": "https://scanhealthplan.wd108.myworkdayjobs.com/wday/cxs/scanhealthplan/scancareers/jobs",
+    "urls": [
+      "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-Office-3800/Software-Engineering-Intern_JR2886"
+    ]
+  },
+  {
     "name": "scgov",
     "ats": "workday",
     "identifier": "scgov-scgov",
@@ -17642,7 +17673,8 @@
       "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineer-Intern_2026-19777-1",
       "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern---C-_2025-18100",
       "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Software-Engineering-Intern_2026-19993",
-      "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Spokane-Valley/Software-Engineer-Intern_2025-18557"
+      "https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Spokane-Valley/Software-Engineer-Intern_2025-18557",
+      "https://selinc.wd1.myworkdayjobs.com/SEL/job/Idaho---Boise/Software-Engineer-Intern_2026-21665"
     ]
   },
   {
@@ -21754,7 +21786,8 @@
       "https://www.zipline.com/careers?gh_jid=4359084003#open-roles",
       "https://www.zipline.com/careers?gh_jid=7747248003",
       "https://www.zipline.com/careers?gh_jid=7765198003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7765240003#open-roles"
+      "https://www.zipline.com/careers?gh_jid=7765240003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=7767667003"
     ]
   },
   {
