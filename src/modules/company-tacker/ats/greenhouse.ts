@@ -158,7 +158,6 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   // Case 4:
   // https://www.acadian-asset.com/careers/open-positions?gh_jid=4645552006
   const embeddedIdentifier = await findEmbeddedGreenhouseIdentifier(url);
-
   if (embeddedIdentifier) {
     return buildCompany(url, embeddedIdentifier);
   }
