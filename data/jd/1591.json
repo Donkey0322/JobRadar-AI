@@ -1,0 +1,44 @@
+{
+  "jobPostingInfo": {
+    "id": "a207b748b052100165fff6d350a10000",
+    "title": "SDE Intern",
+    "jobDescription": "<p style=\"text-align:left\"><span class=\"emphasis\"><b>About Centific</b></span></p><p style=\"text-align:left\"><span>Centific is a frontier AI data foundry that curates diverse, high-quality data, using our purpose-built technology platforms to empower the Magnificent Seven and our enterprise clients with safe, scalable AI deployment. Our team includes more than 150 PhDs and data scientists, along with more than 4,000 AI practitioners and engineers. We harness the power of an integrated solution ecosystem—comprising industry-leading partnerships and 1.8 million vertical domain experts in more than 230 markets—to create contextual, multilingual, pre-trained datasets; fine-tuned, industry-specific LLMs; and RAG pipelines supported by vector databases. Our zero-distance innovation™ solutions for GenAI can reduce GenAI costs by up to 80% and bring solutions to market 50% faster.</span></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>Our mission is to bridge the gap between AI creators and industry leaders by bringing best practices in GenAI to unicorn innovators and enterprise customers. We aim to help these organizations unlock significant business value by deploying GenAI at scale, helping to ensure they stay at the forefront of technological advancement and maintain a competitive edge in their respective markets.</span></p><p style=\"text-align:left\"><span class=\"emphasis\"><b>About Job</b></span></p><h2>Responsibilities</h2><ul><li><p>Assist in the design, development, and maintenance of software applications and services.</p></li><li><p>Write clean, maintainable, and well-documented code.</p></li><li><p>Participate in code reviews and incorporate feedback from team members.</p></li><li><p>Troubleshoot, debug, and resolve software issues.</p></li><li><p>Develop and execute unit and integration tests to ensure software quality.</p></li><li><p>Collaborate with product managers, designers, and other engineers to deliver features and enhancements.</p></li><li><p>Contribute to automation, tooling, and process improvements.</p></li><li><p>Learn and apply software engineering best practices and development methodologies.</p></li></ul><h2>Qualifications</h2><h3>Required</h3><ul><li><p>Currently pursuing a Bachelor&#39;s or Master&#39;s degree in Computer Science, Software Engineering, Computer Engineering, or a related technical field.</p></li><li><p>Understanding of fundamental computer science concepts, including data structures, algorithms, and object-oriented programming.</p></li><li><p>Experience with at least one programming language such as Python, Java, C#, JavaScript, or C&#43;&#43;.</p></li><li><p>Familiarity with software development lifecycle and version control systems (e.g., Git).</p></li><li><p>Strong analytical and problem-solving skills.</p></li><li><p>Effective written and verbal communication skills.</p></li><li><p>Ability to work collaboratively in a team environment.</p></li></ul><h3>Preferred</h3><ul><li><p>Experience with cloud platforms such as Azure, AWS, or Google Cloud.</p></li><li><p>Familiarity with web development frameworks and APIs.</p></li><li><p>Knowledge of databases, SQL, and data modeling.</p></li><li><p>Exposure to CI/CD pipelines and DevOps practices.</p></li><li><p>Personal, academic, or open-source software projects demonstrating technical skills.</p></li></ul><p></p><p><b>Rate: $22/Hour</b></p><h3></h3><h3><span><span>Centific is an equal-opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, ancestry, citizenship status, age, mental or physical disability, medical condition, sex (including pregnancy), gender identity or expression, sexual orientation, marital status, familial status, veteran status, or any other characteristic protected by applicable law. We consider qualified applicants regardless of criminal histories, consistent with legal requirements.</span></span></h3>",
+    "location": "Remote Work( USA)",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-10",
+    "timeType": "Full time",
+    "jobReqId": "JR107453",
+    "jobPostingId": "SDE-Intern_JR107453-1",
+    "jobPostingSiteId": "Centific_Global",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/centific/centific_global/sidebarimage/f18a8abe97d61000908d44ecde400000",
+      "alt": "Centific"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Remote Work( USA)",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://centific.wd1.myworkdayjobs.com/Centific_Global/job/Remote-Work-USA/SDE-Intern_JR107453-1",
+    "questionnaireId": "18bb67bc1e1e100199ffa5d8d9f20000",
+    "timeLeftToApply": "5 hours left to apply",
+    "endDate": "2026-06-11",
+    "jobPostingEndDateAsText": "End Date: June 11, 2026"
+  },
+  "hiringOrganization": {
+    "name": "Centific Technologies, Inc",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

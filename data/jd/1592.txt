@@ -1,0 +1,257 @@
+{"validThrough":"2026-06-30T00:00:00.000Z","employmentType":"PART_TIME","@type":"JobPosting","description":"<h2>About the Organization<\/h2>\n<p><strong>E2 Consulting Engineers, Inc. (E2)<\/strong> is a professional services firm established in 1988 specializing in a full spectrum of engineering services including, project engineering and design, federal base operations and infrastructure support services, gas pipeline construction and inspection services, environmental consulting and remediation, and information technology services. At E2, we value safety, innovation and collaboration, and we are dedicated to excellence.<\/p>\n<h2>Overview<\/h2>\n<p>E2 Consulting Engineers, Inc. is seeking an intern to join our software engineering group to tackle complex technical challenges that bridge the gap between the physical world and computational logic.&nbsp;&nbsp;<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Requires you tp apply principles of applied physics, spatial geometry, and quanititative analysis to complex utility and construction engineering workflows.&nbsp;<\/li>\n <li> Ensuring that the proprietary algorithms and data systems correctly interpret the physical constraints of real-world structures, fluid transport networks, and load-bearing framing.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>Education:&nbsp; <\/strong><\/p>\n<p>Currently pursuing a degree in Physics, Computer Science, or a related quantitative field.&nbsp; A combined academic background in both Physics and Computer Science, or a related quantitative field. <\/p>\n<p>A combined academic background in both both Physics and Computer Science (e.g., a major/minor combination) is highly preferred.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Technical Skills:<\/strong><\/p>\n<ul>\n <li>Foundational experience with programming and scripting, coupled with an interest in an Interest in AI, computer vision, or data analysis.<\/li>\n <li>Problem Solving:&nbsp; A proven ability to break down complex physical concepts and translate them into structured, efficient computational solutions.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Job Duties:<\/strong><\/p>\n<ul>\n <li>Apply principles of physical mechanics and spatial geometry to train and refine AI models designed to analyze construction as-builts and infrastructure components.<\/li>\n <li>Assist the software engineering team in translating the physical properties and constraints of utilities, (e.g., pipe dimensions, structural load paths, spatial orientation) into structured algorithmic logic.<\/li>\n <li>Test model data validation that cross-referenced sample data and real validations to assist in model training.<\/li>\n <li>Collaborate with cross-functional teams to ensure the software's data capture work-flows&nbsp;reliability represent complex physical environments.<\/li>\n<\/ul>\n<h2>Benefits<\/h2>\n<p><strong>E2 Consulting Engineers, Inc.<\/strong> offers an excellent benefits package including health, dental, vision, and life insurance, 401(k) with employer match, paid time off.<\/p>\n<h2>Wage Data Per State Requirements<\/h2>\n<p>This position will pay $25 per hour.<\/p>\n<h2>Work Environment/Physical Demands<\/h2>\n<p><strong>Work Environment<\/strong><\/p>\n<p>This job operates in a professional office environment and uses standard office equipment such as computers and phones.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>&nbsp;<\/strong><\/p>\n<p><strong>Physical Demands<\/strong><\/p>\n<p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<\/p>\n<ul>\n <li>Ability to sit/ stand for up to 8 hours per day.<\/li>\n <li>Ability to move freely for up to 8 hours per day.<\/li>\n<\/ul>\n<h2>Local Candidates only<\/h2>Yes\n<h2>Drug Free Workplace<\/h2>\n<p>E2 Consulting Engineers, Inc. is a Drug Free Workplace. After accepting an offer of employment, applicants may be required to undergo background checks, drug testing, and/or fit-for-duty physical examination.&nbsp; Drug screens will include, but not be limited to, Amphetamines, Cocaine Metabolites, Marijuana Metabolites (THC), Opiates, and Phencyclidine (PCP). As a federal contractor, E2 cannot permit employees in certain positions to use medical marijuana, even if prescribed by an authorized physician. <\/p>\n<h2>Solicitation<\/h2>\n<p>Please no solicitation of any kind from agencies, staffing, or recruiting firms.<\/p>\n<h2>EEO Statement<\/h2>\n<p>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.<\/p>","directApply":true,"title":"Summer Intern - Software Engineer","@context":"http://schema.org","url":"https://careers-e2.icims.com/jobs/6148/summer-intern---software-engineer/job","hiringOrganization":{"@type":"Organization","name":"E2 Consulting Engineers, Inc.","sameAs":"e2.com"},"responsibilities":"- Requires you tp apply principles of applied physics, spatial geometry, and quanititative analysis to complex utility and construction engineering workflows. \r\n- Ensuring that the proprietary algorithms and data systems correctly interpret the physical constraints of real-world structures, fluid transport networks, and load-bearing framing.","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"2100 Powell Street","@type":"PostalAddress","postalCode":"94608","addressLocality":"Emeryville","addressRegion":"CA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-06-10T00:00:00.000Z","occupationalCategory":"Internships"}
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+document.cookie = "i18next=;SameSite=None;Secure";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+if (icimsWindow) {
+try {
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+try {
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';SameSite=None;Secure;path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+}
+Summer Intern - Software Engineer in Emeryville, California | Careers at Emeryville, CA
+var isMobile = true;
+var link = 'https://careers-e2.icims.com/connect/interests?csrf=658E8C6540882DAB&hashed=-625973416';
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn02.icims.com/a/images.icims.com/content/platform_183.0.0.260529-0a4e935a411-11-5/script/portal/login.js');
+var jobId = "6148";
+var fbJobId = "50d6ad75-30da-3a5f-be08-a39f3b3fcdf1";
+var icimsSD = {"person":{},"companyName":"E2 Consulting Engineers, Inc.","env":"prod","job":{"zipCode":"94608","jid":6148,"jobUrls":[{"name":"External","url":"https://careers-e2.icims.com/jobs/6148/summer-intern---software-engineer/job"}],"location":"Emeryville, California, United States","title":"Summer Intern - Software Engineer"},"version":"1.015","key":"2","cid":"IL8cljwnwX+EtG5NuSmG8BaJWLtNCh9TOPLZk6mBVfv4MfWSjMDfYV7LjQv2"};
+var isWidgetLoaded = false;
+window.mobile = true;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['icimsdropdown.js.Loading_1169'] = 'Loading...';
+resourceBundle['mootools_utils.helpers.js.NextMonth_3'] = 'Next Month';
+resourceBundle['mootools_utils.helpers.js.SelectYear_5'] = 'Select Year';
+resourceBundle['icimsdropdown.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate. }}';
+resourceBundle['utils.js.anError_1'] = 'An error occurred while attempting to contact the server. Please try again.';
+resourceBundle['icims.tags.js.ResultsNotFound'] = 'No Results Found';
+resourceBundle['icimsdropdown.js.ResultsFound_4'] = 'Results available. Use down and up arrow keys to navigate.';
+resourceBundle['utils.js.CandidateSearch_123'] = 'Candidate Search';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['mootools_utils.helpers.js.PreviousMonth_2'] = 'Previous Month';
+resourceBundle['icimsdropdown.js.convertDropdownToTextOption_5'] = '\u2014 Enter Manually \u2014';
+resourceBundle['icimsdropdown.js.MakeASelection_1166'] = '\u2014 Make a Selection \u2014';
+resourceBundle['icimsdropdown.js.TypeToSearch_2'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Moved'] = '{itemsMoved} moved to {targetLabel}';
+resourceBundle['icimsdropdown.js.TypeToSearch_1167'] = '\u2014 Type to Search \u2014';
+resourceBundle['handlebarshelpers.js.Close_1'] = 'Close';
+resourceBundle['icims.tags.js.ResultsFoundCount'] = '{count, plural, =1 {{count} result available. Use down and up arrow keys to navigate.} other {{count} results available. Use down and up arrow keys to navigate.}}';
+ResourceBundle.prototype.get = function (message, variables) {
+if (typeof (resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof (resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+function icims_resizeIFrameHeight() {
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-e2.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+if (icimsWindow) {
+var inframeBodyTag = document.getElementsByTagName('body')[0];
+var h1Tag = document.getElementsByTagName('h1')[0];
+var innerSkipLink = document.getElementById('icims_skipLink2');
+if (!innerSkipLink) {
+innerSkipLink = document.createElement('a');
+innerSkipLink.textContent = 'Skip to Main Content';
+innerSkipLink.setAttribute('id', 'icims_skipLink2');
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+innerSkipLink.setAttribute('href', '#iCIMS_Header');
+innerSkipLink.onfocus = function() {
+if(document.querySelector('.iCIMS_TopHeader')) {
+const topHeader = document.querySelector('.iCIMS_TopHeader');
+topHeader.style.marginTop = '15px'
+}
+innerSkipLink.setAttribute('style', 'top: 5px; position: relative; z-index: 999; padding: 10px;');
+}
+innerSkipLink.onblur = function() {
+innerSkipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+}
+if (inframeBodyTag.firstElementChild) {
+inframeBodyTag.insertBefore(innerSkipLink, inframeBodyTag.firstElementChild);
+} else {
+inframeBodyTag.appendChild(innerSkipLink);
+}
+}
+}
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+});
+var icimsIframeResizeTimerAlwaysOn = false;
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+icimsAddOnload(function() {
+try {
+parent.document.title = document.title;
+} catch (e) {}
+});
+E2 Consulting Engineers, Inc.
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=/jsDisabledError.jsp">
+dataLayer = [{"hasVideo":"no","instance":{"id":"23vbnwemxEahQ6ivH","type":"careers"},"release":"183.0.0","finish.application.before.assessments":"0","language":"en-US","icimsGAAccount":"UA-35875149-10","customerEnv":"PRODUCTION","customerIdRaw":11727,"environment":"prod","pageType":"jobDetailsPage","releasePhase":"Wave4","build":"platform_183.0.0.260529-0a4e935a411-11-5","icimsGAAnonymizeIP":true,"customerId":"eTy558Enpzf9UZHK","region":"US","job":{"positionType":"Part-Time Regular","company":"Emeryville, CA","location":{"zip":"94608","country":"USA","city":"Emeryville","state":"CA"},"id":"27teVwkgQ8EjJW2E","idRaw":6148,"title":"Summer Intern - Software Engineer","category":"Internships","postedDate":"2026-06-10"}}];
+<iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+{"validThrough":"2026-06-30T00:00:00.000Z","employmentType":"PART_TIME","@type":"JobPosting","description":"<h2>About the Organization<\/h2>\n<p><strong>E2 Consulting Engineers, Inc. (E2)<\/strong> is a professional services firm established in 1988 specializing in a full spectrum of engineering services including, project engineering and design, federal base operations and infrastructure support services, gas pipeline construction and inspection services, environmental consulting and remediation, and information technology services. At E2, we value safety, innovation and collaboration, and we are dedicated to excellence.<\/p>\n<h2>Overview<\/h2>\n<p>E2 Consulting Engineers, Inc. is seeking an intern to join our software engineering group to tackle complex technical challenges that bridge the gap between the physical world and computational logic.&nbsp;&nbsp;<\/p>\n<h2>Responsibilities<\/h2>\n<ul>\n <li>Requires you tp apply principles of applied physics, spatial geometry, and quanititative analysis to complex utility and construction engineering workflows.&nbsp;<\/li>\n <li> Ensuring that the proprietary algorithms and data systems correctly interpret the physical constraints of real-world structures, fluid transport networks, and load-bearing framing.<\/li>\n<\/ul>\n<h2>Qualifications<\/h2>\n<p><strong>Education:&nbsp; <\/strong><\/p>\n<p>Currently pursuing a degree in Physics, Computer Science, or a related quantitative field.&nbsp; A combined academic background in both Physics and Computer Science, or a related quantitative field. <\/p>\n<p>A combined academic background in both both Physics and Computer Science (e.g., a major/minor combination) is highly preferred.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Technical Skills:<\/strong><\/p>\n<ul>\n <li>Foundational experience with programming and scripting, coupled with an interest in an Interest in AI, computer vision, or data analysis.<\/li>\n <li>Problem Solving:&nbsp; A proven ability to break down complex physical concepts and translate them into structured, efficient computational solutions.<\/li>\n<\/ul>\n<p>&nbsp;<\/p>\n<p><strong>Job Duties:<\/strong><\/p>\n<ul>\n <li>Apply principles of physical mechanics and spatial geometry to train and refine AI models designed to analyze construction as-builts and infrastructure components.<\/li>\n <li>Assist the software engineering team in translating the physical properties and constraints of utilities, (e.g., pipe dimensions, structural load paths, spatial orientation) into structured algorithmic logic.<\/li>\n <li>Test model data validation that cross-referenced sample data and real validations to assist in model training.<\/li>\n <li>Collaborate with cross-functional teams to ensure the software's data capture work-flows&nbsp;reliability represent complex physical environments.<\/li>\n<\/ul>\n<h2>Benefits<\/h2>\n<p><strong>E2 Consulting Engineers, Inc.<\/strong> offers an excellent benefits package including health, dental, vision, and life insurance, 401(k) with employer match, paid time off.<\/p>\n<h2>Wage Data Per State Requirements<\/h2>\n<p>This position will pay $25 per hour.<\/p>\n<h2>Work Environment/Physical Demands<\/h2>\n<p><strong>Work Environment<\/strong><\/p>\n<p>This job operates in a professional office environment and uses standard office equipment such as computers and phones.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>&nbsp;<\/strong><\/p>\n<p><strong>Physical Demands<\/strong><\/p>\n<p>The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.<\/p>\n<ul>\n <li>Ability to sit/ stand for up to 8 hours per day.<\/li>\n <li>Ability to move freely for up to 8 hours per day.<\/li>\n<\/ul>\n<h2>Local Candidates only<\/h2>Yes\n<h2>Drug Free Workplace<\/h2>\n<p>E2 Consulting Engineers, Inc. is a Drug Free Workplace. After accepting an offer of employment, applicants may be required to undergo background checks, drug testing, and/or fit-for-duty physical examination.&nbsp; Drug screens will include, but not be limited to, Amphetamines, Cocaine Metabolites, Marijuana Metabolites (THC), Opiates, and Phencyclidine (PCP). As a federal contractor, E2 cannot permit employees in certain positions to use medical marijuana, even if prescribed by an authorized physician. <\/p>\n<h2>Solicitation<\/h2>\n<p>Please no solicitation of any kind from agencies, staffing, or recruiting firms.<\/p>\n<h2>EEO Statement<\/h2>\n<p>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.<\/p>","directApply":true,"title":"Summer Intern - Software Engineer","@context":"http://schema.org","url":"https://careers-e2.icims.com/jobs/6148/summer-intern---software-engineer/job","hiringOrganization":{"@type":"Organization","name":"E2 Consulting Engineers, Inc.","sameAs":"e2.com"},"responsibilities":"- Requires you tp apply principles of applied physics, spatial geometry, and quanititative analysis to complex utility and construction engineering workflows. \r\n- Ensuring that the proprietary algorithms and data systems correctly interpret the physical constraints of real-world structures, fluid transport networks, and load-bearing framing.","jobLocation":[{"address":{"addressCountry":"US","streetAddress":"2100 Powell Street","@type":"PostalAddress","postalCode":"94608","addressLocality":"Emeryville","addressRegion":"CA","postOfficeBoxNumber":"UNAVAILABLE"},"@type":"Place"}],"datePosted":"2026-06-10T00:00:00.000Z","occupationalCategory":"Internships"}
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+Welcome page
+Returning Candidate?
+Log back in!
+Summer Intern - Software Engineer
+Job Locations
+US-CA-Emeryville
+ID
+CA-6148
+Category
+Internships
+Type
+Part-Time Regular
+Work Location
+Remote
+About the Organization
+E2 Consulting Engineers, Inc. (E2) is a professional services firm established in 1988 specializing in a full spectrum of engineering services including, project engineering and design, federal base operations and infrastructure support services, gas pipeline construction and inspection services, environmental consulting and remediation, and information technology services. At E2, we value safety, innovation and collaboration, and we are dedicated to excellence.
+Overview
+E2 Consulting Engineers, Inc. is seeking an intern to join our software engineering group to tackle complex technical challenges that bridge the gap between the physical world and computational logic.
+Responsibilities
+Requires you tp apply principles of applied physics, spatial geometry, and quanititative analysis to complex utility and construction engineering workflows. Ensuring that the proprietary algorithms and data systems correctly interpret the physical constraints of real-world structures, fluid transport networks, and load-bearing framing.
+Qualifications
+Education: Currently pursuing a degree in Physics, Computer Science, or a related quantitative field. A combined academic background in both Physics and Computer Science, or a related quantitative field. A combined academic background in both both Physics and Computer Science (e.g., a major/minor combination) is highly preferred. Technical Skills:Foundational experience with programming and scripting, coupled with an interest in an Interest in AI, computer vision, or data analysis.Problem Solving: A proven ability to break down complex physical concepts and translate them into structured, efficient computational solutions. Job Duties:Apply principles of physical mechanics and spatial geometry to train and refine AI models designed to analyze construction as-builts and infrastructure components.Assist the software engineering team in translating the physical properties and constraints of utilities, (e.g., pipe dimensions, structural load paths, spatial orientation) into structured algorithmic logic.Test model data validation that cross-referenced sample data and real validations to assist in model training.Collaborate with cross-functional teams to ensure the software's data capture work-flows reliability represent complex physical environments.
+Benefits
+E2 Consulting Engineers, Inc. offers an excellent benefits package including health, dental, vision, and life insurance, 401(k) with employer match, paid time off.
+Wage Data Per State Requirements
+This position will pay $25 per hour.
+Work Environment/Physical Demands
+Work EnvironmentThis job operates in a professional office environment and uses standard office equipment such as computers and phones. Physical DemandsThe physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.Ability to sit/ stand for up to 8 hours per day.Ability to move freely for up to 8 hours per day.
+Local Candidates only
+Yes
+Drug Free Workplace
+E2 Consulting Engineers, Inc. is a Drug Free Workplace. After accepting an offer of employment, applicants may be required to undergo background checks, drug testing, and/or fit-for-duty physical examination. Drug screens will include, but not be limited to, Amphetamines, Cocaine Metabolites, Marijuana Metabolites (THC), Opiates, and Phencyclidine (PCP). As a federal contractor, E2 cannot permit employees in certain positions to use medical marijuana, even if prescribed by an authorized physician.
+Solicitation
+Please no solicitation of any kind from agencies, staffing, or recruiting firms.
+EEO Statement
+All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or status as a protected veteran.
+Options
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+Share on your newsfeed
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+.iCIMS_Footer_Links {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;width:100%;margin:0 auto 60px auto;}.iCIMS_Footer_Links a,.iCIMS_Footer_Links .iCIMS_Footer_Link {display:block;width:100%;max-width:300px;text-align:center;margin:5px auto;background:none;border:none;padding:0;color:#0066cc;text-decoration:underline;font:inherit;cursor:pointer;}.iCIMS_Footer_Links a:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:hover,.iCIMS_Footer_Links .iCIMS_Footer_Link:focus {text-decoration:none;}@media (max-width:767px){.iCIMS_Footer_Links{display:flex;width:100%;}}
+if (icimsWindow) {
+try {
+window.parent.postMessage('{ "pageTitle" : "' + document.title + '" }', document.location.origin);
+} catch (e) {}
+}
+var jibeAnalyticsData = {};
