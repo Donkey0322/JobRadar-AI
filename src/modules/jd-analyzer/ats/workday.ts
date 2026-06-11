@@ -2,7 +2,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import { logger } from "@/utils/logger";
 
-export async function fetchWorkdayJD(url: string) {
+export async function fetchWorkdayJD(url: string, signal: AbortSignal) {
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
   const parts = u.pathname.split("/").filter(Boolean);
@@ -16,7 +16,7 @@ export async function fetchWorkdayJD(url: string) {
   const apiUrl = `${u.origin}/wday/cxs/${name}/${careerPage}/job/${endpoint}`;
 
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { signal });
     if (!res.ok) return null;
 
     const data = await res.json();

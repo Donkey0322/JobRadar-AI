@@ -7,7 +7,7 @@ import { loadJobs, loadUrls } from "@/utils/data";
 import { saveJd, saveJob, saveUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
 
-const DEFAULT_SOFT_DEADLINE_MS = 9 * 60 * 1000;
+const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;
 const MIN_TIME_TO_START_JOB_MS = 60 * 1000;
 
 export async function createSyncContext() {

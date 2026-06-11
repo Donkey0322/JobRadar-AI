@@ -5,7 +5,7 @@ import type { AshbyJob } from "@/modules/company-tacker/ats/ashby";
 
 import { logger } from "@/utils/logger";
 
-export async function fetchAshbyJD(url: string) {
+export async function fetchAshbyJD(url: string, signal: AbortSignal) {
   const u = new URL(url);
   const identifier = u.pathname.split("/")[1];
 
@@ -14,7 +14,7 @@ export async function fetchAshbyJD(url: string) {
   const apiUrl = `${ASHBY_API_URL}/${identifier}`;
 
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { signal });
     if (!res.ok) {
       logger.error({ apiUrl, statusText: res.statusText }, `${RED_CROSS} Failed to fetch ashby JD`);
       return null;
