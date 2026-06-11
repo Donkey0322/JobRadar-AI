@@ -1,0 +1,190 @@
+{
+  "id": "3743990013589656",
+  "name": "Connected Factory AI Engineer",
+  "uuid": "3cd3d097-57bf-4b03-a20a-759738e8f008",
+  "jobId": "8c5a3970-d3dc-462a-9fb9-31166102e6c9",
+  "jobAdId": "d73e2a23-497e-46b2-abe9-35bf0c502d6f",
+  "defaultJobAd": true,
+  "refNumber": "R00145572",
+  "company": {
+    "name": "AbbVie",
+    "identifier": "AbbVie"
+  },
+  "location": {
+    "city": "North Chicago",
+    "region": "IL",
+    "country": "us",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "42.325578",
+    "longitude": "-87.8411818",
+    "fullLocation": "North Chicago, IL, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "65806674cbfd1911c2f5d15b",
+      "fieldLabel": "Hiring Manager",
+      "valueId": "10363264",
+      "valueLabel": "Ahmed Scales (10363264)"
+    },
+    {
+      "fieldId": "65807663cbfd1911c2f5d15f",
+      "fieldLabel": "Workday Function",
+      "valueId": "FUNCTION_HQIT",
+      "valueLabel": "HQIT Information Technology"
+    },
+    {
+      "fieldId": "657cc8550d0b1f2ef38a3fc9",
+      "fieldLabel": "City",
+      "valueId": "North Chicago",
+      "valueLabel": "North Chicago"
+    },
+    {
+      "fieldId": "657ccbce3fd51d6d84c0bc3a",
+      "fieldLabel": "Workday Global Grade",
+      "valueId": "COMPENSATIONGRADE_14",
+      "valueLabel": "14"
+    },
+    {
+      "fieldId": "657ccabf0d0b1f2ef38a3fce",
+      "fieldLabel": "Segment 5 (Maximum)",
+      "valueId": "125500",
+      "valueLabel": "125500"
+    },
+    {
+      "fieldId": "6580668ecbfd1911c2f5d15c",
+      "fieldLabel": "Hiring Manager Title",
+      "valueId": "Connected Plant Tech Lead",
+      "valueLabel": "Connected Plant Tech Lead"
+    },
+    {
+      "fieldId": "6580763744b74c1731e95352",
+      "fieldLabel": "Parent Function",
+      "valueId": "FUNCTION_HQTR",
+      "valueLabel": "HQTR Headquarters"
+    },
+    {
+      "fieldId": "656747e5a29e121ffd619b85",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AbbVie"
+    },
+    {
+      "fieldId": "657ccad53fd51d6d84c0bc37",
+      "fieldLabel": "Salary Min",
+      "valueId": "65500",
+      "valueLabel": "65500"
+    },
+    {
+      "fieldId": "657ccae70d0b1f2ef38a3fcf",
+      "fieldLabel": "Salary Max",
+      "valueId": "125500",
+      "valueLabel": "125500"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "657ccc330d0b1f2ef38a3fdb",
+      "fieldLabel": "Salary/Hourly Pay Indicator",
+      "valueId": "Salaried",
+      "valueLabel": "Salaried"
+    },
+    {
+      "fieldId": "657cc8220d0b1f2ef38a3fc8",
+      "fieldLabel": "Workday Country",
+      "valueId": "US",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "657ccbae0d0b1f2ef38a3fd6",
+      "fieldLabel": "Contractor Portal Career Site Posting",
+      "valueId": "a33ae6a2-c601-483f-b279-1d6b970f17ff",
+      "valueLabel": "Yes"
+    },
+    {
+      "fieldId": "657cca530d0b1f2ef38a3fcc",
+      "fieldLabel": "Segment 1 (Minimum)",
+      "valueId": "65500",
+      "valueLabel": "65500"
+    },
+    {
+      "fieldId": "657ccc1c0d0b1f2ef38a3fda",
+      "fieldLabel": "Workday Job Family",
+      "valueId": "Job_Family_Information_Technology",
+      "valueLabel": "Information Technology"
+    },
+    {
+      "fieldId": "657ccc483fd51d6d84c0bc3c",
+      "fieldLabel": "Posting Grade",
+      "valueId": "COMPENSATIONGRADE_14",
+      "valueLabel": "14"
+    },
+    {
+      "fieldId": "658076b3cbfd1911c2f5d161",
+      "fieldLabel": "Travel",
+      "valueId": "b71d9117-7988-4ea1-89a0-2a99754d5199",
+      "valueLabel": "Yes, 10% of the Time"
+    }
+  ],
+  "releasedDate": "2026-06-11T20:44:11.258Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013589656-connected-factory-ai-engineer",
+  "applyUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013589656-connected-factory-ai-engineer?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AbbVie/publication/3cd3d097-57bf-4b03-a20a-759738e8f008?dcr_ci=AbbVie",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>About AbbVie</strong></p><p>AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at&#xa0;<a href=\"http://www.abbvie.com/\" rel=\"noopener noreferrer\">www.abbvie.com</a>. Follow @abbvie on&#xa0;<a href=\"https://www.linkedin.com/company/abbvie/\" rel=\"noopener noreferrer\">LinkedIn,</a>&#xa0;<a href=\"https://www.facebook.com/AbbVieGlobal/\" rel=\"noopener noreferrer\">Facebook</a>,&#xa0;<a href=\"https://www.instagram.com/abbvie/\" rel=\"noopener noreferrer\">Instagram</a>,&#xa0;<a href=\"https://twitter.com/abbvie\" rel=\"noopener noreferrer\">X</a>&#xa0;and&#xa0;<a href=\"https://www.youtube.com/user/AbbVie\" rel=\"noopener noreferrer\">YouTube.</a></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Connected Factory is a program focused on the technical stewardship of key integration capabilities and their associated platforms across Manufacturing Operations at AbbVie. The Connected Factory Engineering team will&#xa0;be responsible for&#xa0;helping progress the technical roadmap of platforms, accelerating the maturity of integrations between critical components of AbbVie's manufacturing shopfloor, and advancing the availability of data for advanced use cases. Scaling and providing operational support for Connected Factory's responsibilities will require a unique mix of custom tools to&#xa0;assist&#xa0;the people and processes across our organization.&#xa0;</p><p>As an AI Engineer, you will contribute significantly to the agility and productivity of our IT organization by helping quickly build and scale solutions supporting daily and strategic operations for Connected Factory&#xa0;leveraging&#xa0;AI and ML tools. Your work will be crucial in enabling our IT organization (Business Technology Solutions) to fulfill its mission of using technology to propel AbbVie to the forefront of our industry.&#xa0;&#xa0;</p><p><strong>Ideal candidates are:&#xa0;</strong></p><ul><li>Forward Thinkers: Pragmatically impact-driven individuals who are at the forefront of AI Agents but focus on making possibilities real and measuring impact&#xa0;</li><li>Strong Technologists: Those who quickly learn the latest AI landscape, frameworks, and code on a detailed technical level&#xa0;</li><li>Highly Agile: Individuals who prefer to learn by building, experimenting, and iterating&#xa0;</li></ul><p><strong>Responsibilities:&#xa0;</strong></p><ul><li>Collaborate with cross-functional teams to deliver AI solutions focused&#xa0;around&#xa0;Connected Factory platforms&#xa0;</li><li>Integrate AI capabilities into existing platforms and solutions through API's&#xa0;</li><li>Deliver clean, scalable, well-optimized code&#xa0;</li><li>Implement agentic workflows, from scratch where necessary&#xa0;</li><li>Stay current with AI/ML advances and evaluate emerging tools and frameworks&#xa0;</li><li>Help build solutions within constraints/standards, including cost, performance, and security&#xa0;</li><li>Provide technical guidance and support to development teams at sites to&#xa0;ensure that&#xa0;global gen AI best practices and standards are followed in their custom solution development efforts&#xa0;</li><li>Ensure code quality, maintainability, and adherence to coding standards through thorough code reviews&#xa0;</li><li>Help manage DevOps processes and&#xa0;required&#xa0;documentation for solutions&#xa0;</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required:</strong></p><ul><li>Bachelor’s Degree plus 2 years of related experience; or Master's Degree with 0 experience</li><li>Experience as a Developer, Data Scientist, Engineer/Integrator, or similar role&#xa0;</li><li>Experience with Artificial Intelligence, Large Language Models, and their capabilities&#xa0;</li><li>Excellent&#xa0;analytical&#xa0;and consultative skills and the ability to work efficiently with clients and other IT management and staff&#xa0;</li><li>Detail-oriented with a high focus on deliverables&#xa0;&#xa0;</li><li>Must&#xa0;exhibit&#xa0;exceptional teamwork skills&#xa0;</li><li>Demonstrate high&#xa0;proficiency&#xa0;across a wide range of technologies and platforms related to software design and development, programming languages, data integration, data analysis, and visualization tools&#xa0;</li><li>Demonstrated ability to deliver working software and&#xa0;maintain&#xa0;that software over time in a production environment&#xa0;</li><li>Understand and adhere to corporate standards&#xa0;regarding&#xa0;applicable Corporate and Divisional Policies, including code of conduct, safety,&#xa0;GxP&#xa0;compliance, data security, and the software development lifecycle&#xa0;</li><li>Excellent written and oral communication skills&#xa0;</li><li>Highly autonomous and productive in performing activities, requiring only minimal direction from or interaction with supervisor</li></ul><p><strong>Preferred:</strong></p><ul><li>Experience working with Ignition, Kepware, OSI PI,&#xa0;HighByte, and/or AWS Cloud Services&#xa0;</li><li>Experience in the pharmaceutical industry&#xa0;&#xa0;</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or&#xa0;local law:&#xa0;​</p><ul><li><p>The compensation range described below is the range of possible base pay compensation that the Company&#xa0;believes in&#xa0;good faith it will pay for this role at &#xa0;the&#xa0;time&#xa0;of&#xa0;this posting based on the job grade for this position.&#xa0;Individual&#xa0;compensation paid within this range will depend on many factors &#xa0;including &#xa0;geographic&#xa0;location,&#xa0;and&#xa0;we&#xa0;may ultimately&#xa0; pay more or less than the posted range. This range may be&#xa0;&#xa0;modified in the&#xa0;future.&#xa0;​</p></li><li><p>We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick),&#xa0;medical/dental/vision&#xa0;insurance and 401(k) to eligible&#xa0;employees.​</p></li><li><p>This job is eligible to&#xa0;&#xa0;participate in our short-term incentive&#xa0;programs.&#xa0;​</p></li></ul><p>Note: No amount of pay&#xa0;is&#xa0; considered to be&#xa0;wages or compensation until such amount is earned, &#xa0;vested, &#xa0;and&#xa0;determinable.&#xa0;The&#xa0;amount&#xa0;and&#xa0;availability&#xa0;of &#xa0;any&#xa0;bonus,&#xa0;commission, incentive, benefits, or any other form of&#xa0;compensation and benefits&#xa0;that are allocable to a&#xa0; &#xa0;particular employee&#xa0;&#xa0;remains in the Company's&#xa0;sole&#xa0;and&#xa0;absolute&#xa0;discretion unless and until paid and&#xa0;may be&#xa0;&#xa0;modified at the Company’s sole and absolute discretion,&#xa0; consistent with&#xa0;applicable law.&#xa0;</p><div sr-tagline=\"\"></div><p>AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled.&#xa0;</p><p>US &amp; Puerto Rico only - to learn more, visit&#xa0;<a href=\"https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html</a></p><p>US &amp; Puerto Rico applicants seeking a reasonable accommodation, click here to learn more:</p><p><a href=\"https://www.abbvie.com/join-us/reasonable-accommodations.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/reasonable-accommodations.html</a></p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 65500,
+    "max": 125500,
+    "currency": "USD",
+    "period": "YEARLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "pharmaceuticals",
+    "label": "Pharmaceuticals"
+  },
+  "function": {
+    "id": "information_technology",
+    "label": "Information Technology"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

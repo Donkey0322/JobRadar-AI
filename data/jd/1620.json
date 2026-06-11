@@ -1,0 +1,184 @@
+{
+  "id": "3743990013588646",
+  "name": "Scientist I, Analytical Development",
+  "uuid": "8e2286c9-fbd1-4ec9-9e5a-5a775f6fee68",
+  "jobId": "3c2b70ac-7ba4-4df7-a461-3cb0542f2a4a",
+  "jobAdId": "33e70e8f-1bbe-455e-9442-66e7472f5d07",
+  "defaultJobAd": true,
+  "refNumber": "R00145913",
+  "company": {
+    "name": "AbbVie",
+    "identifier": "AbbVie"
+  },
+  "location": {
+    "city": "Worcester",
+    "region": "MA",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "42.2628113",
+    "longitude": "-71.80249309999999",
+    "fullLocation": "Worcester, MA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "65806674cbfd1911c2f5d15b",
+      "fieldLabel": "Hiring Manager",
+      "valueId": "15191350",
+      "valueLabel": "Zachary Beamer (15191350)"
+    },
+    {
+      "fieldId": "65807663cbfd1911c2f5d15f",
+      "fieldLabel": "Workday Function",
+      "valueId": "FUNCTION_OPST",
+      "valueLabel": "OPST Operations Product Development Science & Technology"
+    },
+    {
+      "fieldId": "657cc8550d0b1f2ef38a3fc9",
+      "fieldLabel": "City",
+      "valueId": "Worcester",
+      "valueLabel": "Worcester"
+    },
+    {
+      "fieldId": "657ccabf0d0b1f2ef38a3fce",
+      "fieldLabel": "Segment 5 (Maximum)",
+      "valueId": "142500",
+      "valueLabel": "142500"
+    },
+    {
+      "fieldId": "657ccbce3fd51d6d84c0bc3a",
+      "fieldLabel": "Workday Global Grade",
+      "valueId": "COMPENSATIONGRADE_15",
+      "valueLabel": "15"
+    },
+    {
+      "fieldId": "6580668ecbfd1911c2f5d15c",
+      "fieldLabel": "Hiring Manager Title",
+      "valueId": "Sr. Scientist I - Analytical Development",
+      "valueLabel": "Sr. Scientist I - Analytical Development"
+    },
+    {
+      "fieldId": "6580763744b74c1731e95352",
+      "fieldLabel": "Parent Function",
+      "valueId": "FUNCTION_OPER",
+      "valueLabel": "OPER Operations"
+    },
+    {
+      "fieldId": "656747e5a29e121ffd619b85",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AbbVie"
+    },
+    {
+      "fieldId": "657ccad53fd51d6d84c0bc37",
+      "fieldLabel": "Salary Min",
+      "valueId": "75000",
+      "valueLabel": "75000"
+    },
+    {
+      "fieldId": "657ccae70d0b1f2ef38a3fcf",
+      "fieldLabel": "Salary Max",
+      "valueId": "142500",
+      "valueLabel": "142500"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "657ccc330d0b1f2ef38a3fdb",
+      "fieldLabel": "Salary/Hourly Pay Indicator",
+      "valueId": "Salaried",
+      "valueLabel": "Salaried"
+    },
+    {
+      "fieldId": "657cc8220d0b1f2ef38a3fc8",
+      "fieldLabel": "Workday Country",
+      "valueId": "US",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "657ccbae0d0b1f2ef38a3fd6",
+      "fieldLabel": "Contractor Portal Career Site Posting",
+      "valueId": "a33ae6a2-c601-483f-b279-1d6b970f17ff",
+      "valueLabel": "Yes"
+    },
+    {
+      "fieldId": "657cca530d0b1f2ef38a3fcc",
+      "fieldLabel": "Segment 1 (Minimum)",
+      "valueId": "75000",
+      "valueLabel": "75000"
+    },
+    {
+      "fieldId": "657ccc1c0d0b1f2ef38a3fda",
+      "fieldLabel": "Workday Job Family",
+      "valueId": "Job_Family_Research_and_Development",
+      "valueLabel": "Research and Development"
+    },
+    {
+      "fieldId": "657ccc483fd51d6d84c0bc3c",
+      "fieldLabel": "Posting Grade",
+      "valueId": "COMPENSATIONGRADE_15",
+      "valueLabel": "15"
+    }
+  ],
+  "releasedDate": "2026-06-11T20:09:01.043Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013588646-scientist-i-analytical-development",
+  "applyUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013588646-scientist-i-analytical-development?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AbbVie/publication/8e2286c9-fbd1-4ec9-9e5a-5a775f6fee68?dcr_ci=AbbVie",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>About AbbVie</strong></p><p>AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at&#xa0;<a href=\"http://www.abbvie.com/\" rel=\"noopener noreferrer\">www.abbvie.com</a>. Follow @abbvie on&#xa0;<a href=\"https://www.linkedin.com/company/abbvie/\" rel=\"noopener noreferrer\">LinkedIn,</a>&#xa0;<a href=\"https://www.facebook.com/AbbVieGlobal/\" rel=\"noopener noreferrer\">Facebook</a>,&#xa0;<a href=\"https://www.instagram.com/abbvie/\" rel=\"noopener noreferrer\">Instagram</a>,&#xa0;<a href=\"https://twitter.com/abbvie\" rel=\"noopener noreferrer\">X</a>&#xa0;and&#xa0;<a href=\"https://www.youtube.com/user/AbbVie\" rel=\"noopener noreferrer\">YouTube.</a></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>Investigate, identify, develop, and optimize new methods and techniques to generate reliable and reproducible data in a timely manner. Read and adapt scientific literature to accomplish assignments and demonstrate broad and versatile technical expertise within discipline.</p><p><strong>Responsibilities</strong></p><ul><li>Independently design, develop, and optimize robust analytical methods using separations-base techniques (HPLC, icIEF, CE-SDS) to characterize biopharmaceutical products</li><li>Implement and innovate new experimental protocols/techniques.</li><li>Understand the goal and maintain a high proficiency in his/her projects as well as the overall program.</li><li>Interpret results and draw conclusions from own multistage experiments, note significant deviations, then suggest, design, and pursue relevant experiments.</li><li>Understand relevant scientific literature and apply theoretical framework to solving problems within scientific discipline in a timely manner.</li><li>Perform routine and complex tasks competently and independently and generate reliable and consistent results.</li><li>Troubleshoot complex analytical issues and implement innovative solutions to improve method performance and efficiency.</li><li>Impact projects mostly through lab and/or pilot plant based activities.</li><li>Responsible for compliance with all applicable Corporate and Divisional policies and procedures.</li><li>Understand and adhere to corporate standards regarding code of conduct, safety, appropriate handling of materials, controlled drug and radioactive compounds, GxP compliance, and animal care where applicable.</li><li>Independently design and conduct critical experiments that further project goals.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Bachelor's Degree or equivalent education with 5 years of experience, or Master's degree&#xa0;or equivalent education with typically two years of experience.&#xa0;</li><li>Theoretical and practical knowledge to carry out the job functions.</li><li>Strong understanding of protein biochemistry and analytical method development principles.</li><li>Experience in developing and optimizing methods for charge variant analysis, including both icIEF and CEX techniques, with the ability to transfer these methods to a QC environment.</li><li>Proficiency in operating and troubleshooting analytical instrumentation (e.g., Agilent, Waters HPLC systems, Maurice, PA800 systems).</li><li>Experience with the qualification and validation of analytical methods in accordance with ICH, FDA, and USP guidelines, ensuring methods are suitable for late-phase development and regulatory submissions.</li><li>Experience using automation to standardize high-throughput workflows.</li><li>Familiarity with statistical tools for data analysis, Empower and regulatory guidelines.</li><li>Experience collaborating with the process development, quality control, and regulatory affairs teams to align analytical strategies with project timelines and goals.</li><li>Capable of providing technical guidance and mentorship to junior scientists and laboratory staff.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or&#xa0;local law:&#xa0;​</p><ul><li><p>The compensation range described below is the range of possible base pay compensation that the Company&#xa0;believes in&#xa0;good faith it will pay for this roleat &#xa0;the&#xa0;time&#xa0;of&#xa0;this posting based on the job grade for this position.&#xa0;Individual&#xa0;compensation paid within this range will depend on manyfactors &#xa0;including &#xa0;geographic&#xa0;location,&#xa0;and&#xa0;we&#xa0;may ultimately&#xa0; pay more or less than the posted range. This range may be&#xa0;&#xa0;modified in the&#xa0;future.&#xa0;​</p></li><li><p>We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick),&#xa0;medical/dental/vision&#xa0;insurance and 401(k) to eligible&#xa0;employees.​</p></li><li><p>This job is eligible to&#xa0;&#xa0;participate in our short-term incentive&#xa0;programs.&#xa0;​</p></li></ul><p>Note: No amount of pay&#xa0;is&#xa0; considered to be&#xa0;wages or compensation until such amount isearned, &#xa0;vested, &#xa0;and&#xa0;determinable.&#xa0;The&#xa0;amount&#xa0;and&#xa0;availability&#xa0;of &#xa0;any&#xa0;bonus,&#xa0;commission, incentive, benefits, or any other form of&#xa0;compensation and benefits&#xa0;that areallocable to a&#xa0; &#xa0;particular employee&#xa0;&#xa0;remains in the Company's&#xa0;sole&#xa0;and&#xa0;absolute&#xa0;discretion unless and until paid and&#xa0;may be&#xa0;&#xa0;modified at the Company’s sole and absolutediscretion,&#xa0; consistent with&#xa0;applicable law.&#xa0;</p><div sr-tagline=\"\"></div><p>AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled.&#xa0;</p><p>US &amp; Puerto Rico only - to learn more, visit&#xa0;<a href=\"https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html</a></p><p>US &amp; Puerto Rico applicants seeking a reasonable accommodation, click here to learn more:</p><p><a href=\"https://www.abbvie.com/join-us/reasonable-accommodations.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/reasonable-accommodations.html</a></p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 75000,
+    "max": 142500,
+    "currency": "USD",
+    "period": "YEARLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "pharmaceuticals",
+    "label": "Pharmaceuticals"
+  },
+  "function": {
+    "id": "research",
+    "label": "Research"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
