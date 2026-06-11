@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "a9e12d7ffe201001b3aaad8f5c610000",
+    "title": "Associate Software Development Engineer",
+    "jobDescription": "<div><p><b><span>Job Summary: </span></b></p></div><div><p><span><span>The Software Development Engineer role at Clearwater Analytics spans a spectrum of responsibilities with a focus on designing, implementing, and managing software systems. The role requires continuous learning and application of </span><span>new technologies</span><span> and trends. Engineers at entry-level work on coding, debugging, and learning new software technologies. With progression in this track, the responsibilities expand to include leading teams, designing complex software systems, </span><span>providing</span><span> mentorship, and managing cross-functional integration. The more senior roles </span><span>are responsible for</span><span> defining the company&#39;s technological vision, making strategic decisions, driving innovation, and setting new industry standards. Across all levels, a successful software development engineer will </span><span>demonstrate strong problem-solving skills, clear communication, excellent coding abilities, a keen understanding of the software ecosystem, and a cooperative team player attitude.</span> </span></p></div><div><p><span> </span></p></div><div><p><b><span>Responsibilities: </span></b></p></div><div><div><ul><li><p><span><span>Develop fundamental software engineering skills.</span> </span></p></li><li><p><span><span>Successfully collaborate with peers in all aspects of software development.</span> </span></p></li><li><p><span><span>Complete simple coding deliverables with minimal supervision.</span> </span></p></li><li><p><span><span>Positively incorporate feedback from manager and mentor(s).</span> </span></p></li><li><p><span><span>Learn the team’s business domain.</span> </span></p></li></ul></div></div><div><div><ul><li><p><span><span>Take initiative to ask questions to clarify understanding.</span> </span></p></li><li><p><span><span>Actively and constructively </span><span>participate in submitting code for review.</span> </span></p></li><li><p><span><span>Any other reasonable activity required by management.</span> </span></p></li></ul><p></p></div><div><p><b><span><span><span><span>Required:</span></span></span></span></b></p><ul><li><p><span><span><span><span>Bachelor&#39;s degree in Computer Science or a related field.</span></span></span></span></p></li><li><p><span><span><span><span>Basic understanding of SDLC and agile development.</span></span></span></span></p></li><li><p><span><span><span>Understanding of Object Oriented programming.</span></span></span></p></li><li><p><span><span><span>Excitement about adopting AI coding workflows.</span></span></span></p></li><li><p><span><span><span><span>Interest and willingness to learn financial concepts relating to funds and accounting.</span></span></span></span></p></li><li><p><span><span><span><span>Strong problem solving skills.</span></span></span></span></p></li><li><p><span><span><span><span>Strong cross-functional collaboration skills — comfortable working with other engineers and product specialists.</span></span></span></span></p></li><li><p><span><span><span><span>Excellent written and verbal communication; able to produce clear technical documentation and present designs concisely.</span></span></span></span></p></li></ul><p></p><p><b><span><span><span>Nice to Have </span></span></span></b></p><ul><li><p><span><span><span><span>Experience with full stack development.</span></span></span></span></p></li><li><p><span><span><span><span>Experience or classwork in accounting or finance.</span></span></span></span></p></li></ul><p><span><span><span> </span></span></span></p></div></div>",
+    "location": "Office - Boise",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-11",
+    "timeType": "Full time",
+    "jobReqId": "R11878",
+    "jobPostingId": "Associate-Software-Development-Engineer_R11878",
+    "jobPostingSiteId": "Clearwater_Analytics_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/clearwateranalytics/clearwater_analytics_careers/sidebarimage/dae21197b1a910019d18bcce37270000",
+      "alt": "New Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Office - Boise",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://clearwateranalytics.wd1.myworkdayjobs.com/Clearwater_Analytics_Careers/job/Office---Boise/Associate-Software-Development-Engineer_R11878",
+    "questionnaireId": "aa0c73260bcb100201f0d34b44f90000"
+  },
+  "hiringOrganization": {
+    "name": "Clearwater Analytics, LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
