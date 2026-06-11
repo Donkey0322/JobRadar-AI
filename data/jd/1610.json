@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/singlestore/jobs/7432205",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3306803,
+  "location": {
+    "name": "Seattle"
+  },
+  "metadata": null,
+  "id": 7432205,
+  "updated_at": "2026-06-11T11:38:37-04:00",
+  "requisition_id": "ENG00445",
+  "title": "Site Reliability Engineer",
+  "company_name": "SingleStore",
+  "first_published": "2025-12-19T13:40:06-05:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Position Overview&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;SingleStore is seeking a Site Reliability Engineer to help optimize and scale our managed service offering across all three major cloud providers. In this role, you will be at the intersection of leading technology trends – A highly performant distributed database, managed by Kubernetes, running in the cloud.&amp;nbsp; This is a great opportunity to push the boundaries with a cloud-focused SRE role.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This is a development role, requiring an engineering mindset to solve operational challenges.&amp;nbsp; You will be part of a globally distributed team of engineers, helping to drive SRE practices across the company.&amp;nbsp; Through infrastructure automation, you will help us grow our service across multiple cloud platforms.&amp;nbsp; This requires a relentless focus on eliminating manual processes.&amp;nbsp; You will also leverage our monitoring platform to improve the overall customer experience by systematically identifying and fixing any issues impacting our customers.&amp;nbsp; As an SRE, you will also help diagnose issues on the platform, leveraging a deep understanding of the SingleStore query engine along with the backend infrastructure.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Roles and Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop automation platform to manage infrastructure rollouts across cloud providers&lt;/li&gt;\n&lt;li&gt;Optimize telemetry platform to identify customer impacting events while providing relevant data to drive debugging&lt;/li&gt;\n&lt;li&gt;Partner with engineering team to optimize performance of services for cloud architecture&lt;/li&gt;\n&lt;li&gt;Debug Live Site events and conduct follow-up postmortem and RCA analysis&lt;/li&gt;\n&lt;li&gt;Participate in an SLA-driven on-call rotation, which will include after-hours, weekend, and rotating holiday participation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Required Skills and Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;0 - 2 years of demonstrated experience working as a Site Reliability Engineer.&amp;nbsp; Recent graduates encouraged to apply.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Infrastructure automation experience. Scripting experience (Python, Bash) a plus.&lt;/li&gt;\n&lt;li&gt;Experience with the Prometheus monitoring stack. Experience with Grafana, Mimir and Loki is a plus.&lt;/li&gt;\n&lt;li&gt;Knowledge of Kubernetes and the container ecosystem&lt;/li&gt;\n&lt;li&gt;Strong cross group collaboration and communication skills&lt;/li&gt;\n&lt;li&gt;Familiar with at least one of AWS, Azure, or Google Cloud&lt;/li&gt;\n&lt;li&gt;Experience debugging, diagnosing and troubleshooting complex, production software&lt;/li&gt;\n&lt;li&gt;B.S. Degree in Computer Science or related field&lt;/li&gt;\n&lt;/ul&gt;\n&lt;hr&gt;\n&lt;p&gt;SingleStore is a global database company that empowers the world’s leading organizations to build and scale cutting-edge AI applications on a unified data platform that supports real-time transactions, analytics, and search. Our platform handles streaming data ingestion, vector search, full-text search, and multi-model data types - all with high performance, petabyte-scale capacity, high user concurrency, and low latency.&lt;br&gt;&lt;br&gt;As a leader recognized by both Gartner and Forrester Wave, SingleStore serves the world‘s leading data innovators including the top Fortune 500 enterprises. Our 95%+ gross retention rate reflects the strong satisfaction and trust our customers place in the platform.SingleStore is owned by private equity firm Vector Capital and is headquartered in San Francisco, with offices worldwide, including Hyderabad.&lt;br&gt;&lt;br&gt;&lt;em data-stringify-type=&quot;italic&quot;&gt;To all recruitment agencies: SingleStore does not accept agency resumes. Please do not forward resumes to SingleStore employees. SingleStore is not responsible for any fees related to unsolicited resumes and will not pay fees to any third-party agency or company that does not have a signed agreement with the Company.&lt;/em&gt;&lt;span class=&quot;c-message__edited_label&quot; data-sk=&quot;tooltip_parent&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span class=&quot;c-message__edited_label&quot; data-sk=&quot;tooltip_parent&quot;&gt;Req ID: ENG00445&lt;/span&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 66702,
+      "name": "Engine",
+      "child_ids": [],
+      "parent_id": 1001
+    }
+  ],
+  "offices": [
+    {
+      "id": 7596,
+      "name": "Seattle",
+      "location": "Seattle, WA, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
