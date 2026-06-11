@@ -186,8 +186,6 @@ export function generateEmailContent(job: Job) {
   const todayStr = getToday();
   const title = formTitle(category, season);
 
-  console.log(title);
-
   const subject = `[${company}] ${role} — ${todayStr}`;
 
   const text = `Company: ${company}

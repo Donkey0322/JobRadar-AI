@@ -171,14 +171,11 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped, forceStopped },
+      { cost: totalCost, skipped },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
-    logger.info(
-      { skipped, forceStopped },
-      "💰 Currently no newly found jobs that match your criteria"
-    );
+    logger.info({ skipped }, "💰 Currently no newly found jobs that match your criteria");
   }
 
   return {

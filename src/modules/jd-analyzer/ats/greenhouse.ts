@@ -1,38 +1,25 @@
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
+import { urlToGreenhouseCompany } from "@/modules/company-tacker/ats/greenhouse";
 import { logger } from "@/utils/logger";
 
-export function parseGreenhouse(url: string) {
+export async function parseGreenhouse(url: string) {
   const u = new URL(url);
 
-  // case 1: embed (boards.greenhouse.io)
+  const { identifier: company } = await urlToGreenhouseCompany(new URL(url));
   const jobIdFromQuery = u.searchParams.get("gh_jid");
-  const companyFromQuery = u.searchParams.get("for");
-
-  if (jobIdFromQuery && companyFromQuery) {
-    return {
-      company: companyFromQuery,
-      jobId: jobIdFromQuery,
-    };
-  }
-
-  // case 2: custom domain with gh_jid (e.g. jumptrading)
-  if (jobIdFromQuery && !u.hostname.includes("greenhouse.io")) {
-    const hostname = u.hostname;
-    const company = hostname.replace(/^www\./, "").split(".")[0];
-
+  if (jobIdFromQuery) {
     return {
       company,
       jobId: jobIdFromQuery,
     };
   }
 
-  // case 3: normal greenhouse path
   const parts = u.pathname.split("/").filter(Boolean);
   if (parts.length >= 3 && parts[1] === "jobs") {
     return {
-      company: parts[0],
+      company,
       jobId: parts[2],
     };
   }
@@ -41,7 +28,7 @@ export function parseGreenhouse(url: string) {
 }
 
 export async function fetchGreenhouseJD(url: string, signal: AbortSignal) {
-  const parsed = parseGreenhouse(url);
+  const parsed = await parseGreenhouse(url);
   if (!parsed) return null;
 
   const { company, jobId } = parsed;
