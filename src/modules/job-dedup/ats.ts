@@ -66,6 +66,6 @@ export function getCustomKey(url: string): string {
     if (num) return `custom:${num[0]}`;
   }
 
-  // ✅ fallback（保留 query，避免 merge）
+  // ✅ fallback: keep query to avoid merging
   return `custom:${u.origin}${u.pathname}?${u.searchParams.toString()}`;
 }

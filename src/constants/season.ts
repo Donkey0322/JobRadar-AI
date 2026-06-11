@@ -37,7 +37,7 @@ function getSeasonYears() {
 
 const seasons = getSeasonYears();
 
-const SEASONS = {
+export const SEASONS = {
   summer: `${seasons.summer} Summer`,
   fall: `${seasons.fall} Fall`,
   spring: `${seasons.spring} Spring`,

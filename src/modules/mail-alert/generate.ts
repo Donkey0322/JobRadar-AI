@@ -1,3 +1,5 @@
+import { SEASONS } from "@/constants/season";
+
 import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 import type { Season } from "@/validation/season";
@@ -148,7 +150,7 @@ function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
 function formTitle(category?: JobCategory, season?: Season) {
   switch (category) {
     case JobCategory.SUMMER_INTERN:
-      return `${season} Intern`;
+      return `${SEASONS.summer} Intern`;
 
     case JobCategory.OFF_SEASON_INTERN:
       if (season === "None") {
