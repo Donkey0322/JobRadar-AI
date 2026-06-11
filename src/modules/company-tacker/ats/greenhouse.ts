@@ -109,7 +109,7 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   const parts = url.pathname.split("/").filter(Boolean);
   const host = getHost(url);
 
-  // case 0:
+  // Case 0:
   if (identifierMap[host as keyof typeof identifierMap]) {
     return buildCompany(url, identifierMap[host]);
   }
@@ -118,10 +118,20 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   // https://boards.greenhouse.io/embed/job_board?for=xxx
   // https://boards.greenhouse.io/embed/job_board/js?for=xxx
   // https://boards.eu.greenhouse.io/embed/job_board?for=xxx
+  // https://boards.greenhouse.io/embed/job_app?token=xxx
   if (isGreenhouseJobBoardHost(host) && parts[0] === "embed") {
-    const identifier = url.searchParams.get("for") || getHostIdentifier(url);
+    let identifier = url.searchParams.get("for");
 
-    return buildCompany(url, identifier);
+    if (!identifier && parts[1] === "job_app") {
+      try {
+        const res = await fetch(url.href);
+        identifier = new URL(res.url).searchParams.get("for") ?? null;
+      } catch {
+        identifier = null;
+      }
+    }
+
+    return buildCompany(url, identifier || getHostIdentifier(url));
   }
 
   // Case 2:
@@ -138,10 +148,11 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   // https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002
   if (host === "app.careerpuck.com") {
     const jobBoardIndex = parts.indexOf("job-board");
-    const identifier =
-      identifierMap[parts[jobBoardIndex + 1]] || parts[jobBoardIndex + 1] || getHostIdentifier(url);
+    const companySlug = parts[jobBoardIndex + 1];
 
-    return buildCompany(url, identifier);
+    if (companySlug) {
+      return buildCompany(url, identifierMap[companySlug] || companySlug);
+    }
   }
 
   // Case 4:
