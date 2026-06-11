@@ -68,7 +68,7 @@ export function isEligibleJD(jd: JD) {
   return [true, null];
 }
 
-export async function getRawJD(url: string): Promise<string | null> {
+export async function getRawJD(url: string, signal: AbortSignal): Promise<string | null> {
   try {
     // 1. classify ATS
     const urlType = classifyATS(new URL(url));
@@ -77,31 +77,31 @@ export async function getRawJD(url: string): Promise<string | null> {
     // 2. ATS-specific handling
     switch (urlType) {
       case "greenhouse": {
-        const jd = await fetchGreenhouseJD(url);
+        const jd = await fetchGreenhouseJD(url, signal);
         if (!jd) return null;
         text = jd;
         break;
       }
       case "smartrecruiters": {
-        const jd = await fetchSmartRecruitersJD(url);
+        const jd = await fetchSmartRecruitersJD(url, signal);
         if (!jd) return null;
         text = jd;
         break;
       }
       case "workday": {
-        const jd = await fetchWorkdayJD(url);
+        const jd = await fetchWorkdayJD(url, signal);
         if (!jd) return null;
         text = jd;
         break;
       }
       case "ashby": {
-        const jd = await fetchAshbyJD(url);
+        const jd = await fetchAshbyJD(url, signal);
         if (!jd) return null;
         text = jd;
         break;
       }
       case "oraclecloud": {
-        const jd = await fetchOracleJD(url);
+        const jd = await fetchOracleJD(url, signal);
         if (!jd) return null;
         text = jd;
         break;
@@ -109,10 +109,10 @@ export async function getRawJD(url: string): Promise<string | null> {
       // fallback: raw HTML scraping
       default: {
         const res = await fetch(url, {
+          signal,
           headers: {
             "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
           },
-          // signal: AbortSignal.timeout(5000),
         });
 
         if (!res.ok) {
@@ -153,7 +153,9 @@ export default async function getJD(job: Job): Promise<{
   rawJD: string;
   cost: number;
 }> {
-  const rawJD = await getRawJD(job.link);
+  // five minutes timeout
+  const signal = AbortSignal.timeout(5 * 60 * 1000);
+  const rawJD = await getRawJD(job.link, signal);
 
   if (!rawJD) {
     return {
@@ -217,7 +219,8 @@ export default async function getJD(job: Job): Promise<{
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
-  const rawJD = await getRawJD(link);
+  const signal = AbortSignal.timeout(5000);
+  const rawJD = await getRawJD(link, signal);
 
   if (!rawJD) {
     return null;

@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 import { getLastPathNumber } from "@/modules/job-dedup/utils";
 import { logger } from "@/utils/logger";
 
-export async function fetchSmartRecruitersJD(url: string) {
+export async function fetchSmartRecruitersJD(url: string, signal: AbortSignal) {
   const u = new URL(url);
 
   const id = getLastPathNumber(u.pathname);
@@ -15,7 +15,7 @@ export async function fetchSmartRecruitersJD(url: string) {
   const apiUrl = `${SMART_RECRUITERS_API_URL}/${identifier}/postings/${id}`;
 
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { signal });
     if (!res.ok) return null;
 
     const data = await res.json();

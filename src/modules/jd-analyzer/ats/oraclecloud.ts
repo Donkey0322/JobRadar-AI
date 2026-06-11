@@ -22,7 +22,7 @@ const convertOracleJDUrl = (url: string) => {
   return apiUrl;
 };
 
-export async function fetchOracleJD(url: string) {
+export async function fetchOracleJD(url: string, signal: AbortSignal) {
   const apiUrl = convertOracleJDUrl(url);
 
   if (!apiUrl) {
@@ -30,7 +30,7 @@ export async function fetchOracleJD(url: string) {
   }
 
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { signal });
 
     if (!res.ok) {
       logger.error(

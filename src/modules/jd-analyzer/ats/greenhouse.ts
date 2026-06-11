@@ -40,7 +40,7 @@ export function parseGreenhouse(url: string) {
   return null;
 }
 
-export async function fetchGreenhouseJD(url: string) {
+export async function fetchGreenhouseJD(url: string, signal: AbortSignal) {
   const parsed = parseGreenhouse(url);
   if (!parsed) return null;
 
@@ -49,7 +49,7 @@ export async function fetchGreenhouseJD(url: string) {
   const apiUrl = `${GREENHOUSE_API_URL}/${company}/jobs/${jobId}`;
 
   try {
-    const res = await fetch(apiUrl);
+    const res = await fetch(apiUrl, { signal });
     if (!res.ok) {
       logger.error(
         { apiUrl, statusText: res.statusText },
