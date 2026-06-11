@@ -3127,36 +3127,6 @@
     ]
   },
   {
-    "name": "boards",
-    "ats": "greenhouse",
-    "identifier": "boards",
-    "domain": "https://boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/boards/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/embed/job_app?token=5776185004",
-      "https://boards.greenhouse.io/embed/job_app?token=6562194",
-      "https://boards.greenhouse.io/embed/job_app?token=7183241",
-      "https://boards.greenhouse.io/embed/job_app?token=7183245",
-      "https://boards.greenhouse.io/embed/job_app?token=7268895",
-      "https://boards.greenhouse.io/embed/job_app?token=7269743",
-      "https://boards.greenhouse.io/embed/job_app?token=7294075",
-      "https://boards.greenhouse.io/embed/job_app?token=7298481",
-      "https://boards.greenhouse.io/embed/job_app?token=7309504",
-      "https://boards.greenhouse.io/embed/job_app?token=7309526",
-      "https://boards.greenhouse.io/embed/job_app?token=7309530",
-      "https://boards.greenhouse.io/embed/job_app?token=7311292",
-      "https://boards.greenhouse.io/embed/job_app?token=7317499",
-      "https://boards.greenhouse.io/embed/job_app?token=7370475",
-      "https://boards.greenhouse.io/embed/job_app?token=7392439",
-      "https://boards.greenhouse.io/embed/job_app?token=7449835",
-      "https://boards.greenhouse.io/embed/job_app?token=7531477",
-      "https://boards.greenhouse.io/embed/job_app?token=7531481",
-      "https://boards.greenhouse.io/embed/job_app?token=7713841003",
-      "https://boards.greenhouse.io/embed/job_app?token=7842108002",
-      "https://boards.greenhouse.io/embed/job_app?token=7895601"
-    ]
-  },
-  {
     "name": "boeing",
     "ats": "workday",
     "identifier": "boeing-external_careers",
