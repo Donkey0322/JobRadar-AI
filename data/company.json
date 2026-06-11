@@ -3354,7 +3354,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000131619789",
       "https://jobs.smartrecruiters.com/BoschGroup/744000131661568",
       "https://jobs.smartrecruiters.com/BoschGroup/744000131669860",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000131670469"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000131670469",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000131694463"
     ]
   },
   {
@@ -5415,6 +5416,7 @@
       "https://ciena.wd5.myworkdayjobs.com/Careers/job/Remote-US/Summer-Intern---Co-op---Software-Developer--Agentic-AI-_R029790",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Atlanta/WaveServer-Software-Developer-Co-op_R029213",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Gurugram/Embedded-Software-Engineer_R029114",
+      "https://ciena.wd5.myworkdayjobs.com/careers/job/Gurugram/Software-Systems-Test-Engineer_R031060",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/Photonics-Software-Engineer-Intern--12-Months--Fall-2026-_R031138",
       "https://ciena.wd5.myworkdayjobs.com/careers/job/Ottawa/Waveserver-Software-Developer-Co-op--Fall-2026-_R031080"
     ]
@@ -9007,7 +9009,8 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Android-Systems-Engineer---Core-Payments_R-10370875-1",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Corporate-Technology-Internship---Application-Development---Software-Engineering_R-10387789",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Staff-Server-Software-Engineer_R-10377650",
-      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Tokyo-Roppongi/UX-Designer--Japan_R-10383642"
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Tokyo-Roppongi/UX-Designer--Japan_R-10383642",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Toronto---200-Bay-Street/Software-Engineer_R-10394966"
     ]
   },
   {
@@ -9887,6 +9890,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/XMLNAME-2026-Pratt---Whitney-Future-Ready-Lab-Intern---F135-Program-Digital-Solutions_01812510",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-FL-LARGO-382SR--7887-Bryan-Dairy-Rd--BLDG-600/Software-Engineering-Intern--Summer-2026---Onsite-_01805319-1",
       "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineering-Co-Op--Summer-Fall-2026---Onsite-_01791714-2",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Chef-de-projet--intelligence-artificielle---Delivery-Leader--DL---AI-Projects_01851427",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Intern-Software_01847889",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/SG-01-SINGAPORE-005-B1--5-Tuas-Dr-2--5-TUAS-DR-2-005-B1/Intern---BU66-Engineering_01829373",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/XMLNAME-2026-Full-time---Embedded-Software-Engineer-1---Onsite--CA-_01820531-1",
@@ -10859,6 +10863,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/helsing/jobs",
     "urls": [
       "https://helsing.ai/jobs/4312517101?gh_jid=4312517101",
+      "https://helsing.ai/jobs/4334849101?gh_jid=4334849101",
+      "https://helsing.ai/jobs/4372802101?gh_jid=4372802101",
+      "https://helsing.ai/jobs/4423924101?gh_jid=4423924101",
       "https://helsing.ai/jobs/4703320101?gh_jid=4703320101"
     ]
   },
@@ -12095,16 +12102,6 @@
     "urls": [
       "https://jobdetails.nestle.com/job/New-York-Nespresso-Web-Development-Intern-(AI-Engineering)-NY-10001/1269204701/?ats=successfactors",
       "https://jobdetails.nestle.com/job/North-York-Applications-Web-Developer-Intern-ON/1258794601/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "jobs",
-    "ats": "greenhouse",
-    "identifier": "jobs",
-    "domain": "https://jobs.solarwinds.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
-    "urls": [
-      "https://jobs.solarwinds.com/job-detail/?gh_jid=4644519005&gh_jid=4644519005"
     ]
   },
   {
@@ -14409,6 +14406,7 @@
       "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR83017",
       "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer--Data-Center-SSD-_JR103302",
       "https://micron.wd1.myworkdayjobs.com/external/job/Arzano-NA-Italy/Firmware-Engineer-Data-Center-Solid-State-Drives_JR103661",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Product-Development-Engineer_JR103405",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/DATA-SCIENTIST_JR100213",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10A-Singapore/DATA-SCIENTIST_JR98343",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10W-Singapore/IT-SOFTWARE-ENGINEER_JR98031",
@@ -17117,6 +17115,7 @@
     "urls": [
       "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/details/Software-Engineer-Intern_R-050088?q=intern",
       "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Boston/Software-Engineer-Intern_R-050437",
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Boston/Software-Engineer--AI-ML-_R-054647",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Brno---Tech-Park-Brno---C/Automation-Software-Engineer---OpenShift-Local---Red-Hat-Desktop_R-057033-1",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Pune---Tower-6/Product-Security-Engineer--GRC-_R-057451-2",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Pune---Tower-6/SRE-Engineer_R-057237-1",
@@ -17147,7 +17146,11 @@
     "domain": "https://www.redventures.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/redventures/jobs",
     "urls": [
-      "https://www.redventures.com/careers/positions/open?gh_jid=7589458"
+      "https://www.redventures.com/careers/positions/open?gh_jid=7589458",
+      "https://www.redventures.com/careers/positions/open?gh_jid=7767299",
+      "https://www.redventures.com/careers/positions/open?gh_jid=7781438",
+      "https://www.redventures.com/careers/positions/open?gh_jid=7843774",
+      "https://www.redventures.com/careers/positions/open?gh_jid=7930595"
     ]
   },
   {
@@ -18944,6 +18947,16 @@
       "https://www.sofi.com/careers/sofi-university/7616239003?gh_jid=7616239003",
       "https://www.sofi.com/careers/sofi-university/7637277003?gh_jid=7637277003",
       "https://www.sofi.com/careers/sofi-university/?gh_jid=7575833003&gh_src=d50e8f9b3us"
+    ]
+  },
+  {
+    "name": "solarwinds",
+    "ats": "greenhouse",
+    "identifier": "solarwinds",
+    "domain": "https://jobs.solarwinds.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/solarwinds/jobs",
+    "urls": [
+      "https://jobs.solarwinds.com/job-detail/?gh_jid=4696298005"
     ]
   },
   {
