@@ -1,8 +1,10 @@
 import { GREENHOUSE_API_URL } from "@/constants/ats";
-import { RED_CROSS } from "@/constants/log";
+
+import type { JDFetchResult } from "./fetch";
+
+import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
 import { urlToGreenhouseCompany } from "@/modules/company-tacker/ats/greenhouse";
-import { logger } from "@/utils/logger";
 
 export async function parseGreenhouse(url: string) {
   const u = new URL(url);
@@ -27,29 +29,14 @@ export async function parseGreenhouse(url: string) {
   return null;
 }
 
-export async function fetchGreenhouseJD(url: string, signal: AbortSignal) {
+export async function fetchGreenhouseJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const parsed = await parseGreenhouse(url);
-  if (!parsed) return null;
+  if (!parsed) {
+    return { jd: null, error: JD_FETCH_ERROR.invalidUrl("Invalid Greenhouse URL") };
+  }
 
   const { company, jobId } = parsed;
-
   const apiUrl = `${GREENHOUSE_API_URL}/${company}/jobs/${jobId}`;
 
-  try {
-    const res = await fetch(apiUrl, { signal });
-    if (!res.ok) {
-      logger.error(
-        { apiUrl, statusText: res.statusText },
-        `${RED_CROSS} Failed to fetch greenhouse JD`
-      );
-      return null;
-    }
-
-    const data = await res.json();
-    if (!data) return null;
-    return JSON.stringify(data);
-  } catch (error) {
-    logger.error({ err: error, apiUrl }, `${RED_CROSS} Error fetching greenhouse JD`);
-    return null;
-  }
+  return fetchJD(apiUrl, signal, { logLabel: "greenhouse JD" });
 }

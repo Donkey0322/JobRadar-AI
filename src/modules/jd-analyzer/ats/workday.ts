@@ -1,8 +1,8 @@
-import { RED_CROSS } from "@/constants/log";
+import type { JDFetchResult } from "./fetch";
 
-import { logger } from "@/utils/logger";
+import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-export async function fetchWorkdayJD(url: string, signal: AbortSignal) {
+export async function fetchWorkdayJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
   const parts = u.pathname.split("/").filter(Boolean);
@@ -10,20 +10,12 @@ export async function fetchWorkdayJD(url: string, signal: AbortSignal) {
   const careerPage = (parts.find((p) => !isLocale(p)) || "").toLowerCase();
 
   const index = parts.findIndex((p) => p === "job");
-  if (index === -1) return null;
+  if (index === -1) {
+    return { jd: null, error: JD_FETCH_ERROR.invalidUrl("Invalid Workday URL") };
+  }
 
   const endpoint = parts.slice(index + 1).join("/");
   const apiUrl = `${u.origin}/wday/cxs/${name}/${careerPage}/job/${endpoint}`;
 
-  try {
-    const res = await fetch(apiUrl, { signal });
-    if (!res.ok) return null;
-
-    const data = await res.json();
-    if (!data) return null;
-    return JSON.stringify(data);
-  } catch (error) {
-    logger.error({ err: error, apiUrl }, `${RED_CROSS} Error fetching workday JD`);
-    return null;
-  }
+  return fetchJD(apiUrl, signal, { logLabel: "workday JD" });
 }
