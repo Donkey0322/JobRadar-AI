@@ -6955,8 +6955,8 @@
       "https://job-boards.greenhouse.io/doordashusa/jobs/7990832",
       "https://job-boards.greenhouse.io/doordashusa/jobs/7991290",
       "https://job-boards.greenhouse.io/doordashusa/jobs/7993645",
-      "https://job-boards.greenhouse.io/doordashusa/jobs/8001494",
-      "https://job-boards.greenhouse.io/doordashusa/jobs/7994290"
+      "https://job-boards.greenhouse.io/doordashusa/jobs/7994290",
+      "https://job-boards.greenhouse.io/doordashusa/jobs/8001494"
     ]
   },
   {
@@ -10705,11 +10705,11 @@
     ]
   },
   {
-    "name": "hbkcapitalmanagement",
+    "name": "hbk",
     "ats": "greenhouse",
-    "identifier": "hbkcapitalmanagement",
+    "identifier": "hbk",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -13568,11 +13568,11 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/lilasciences/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4280808009",
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4280945009",
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4280811009",
       "https://job-boards.greenhouse.io/lilasciences/jobs/4279721009",
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009"
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280808009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280811009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280945009"
     ]
   },
   {
@@ -14863,7 +14863,8 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Westminster-CO/Software-Engineer---Summer-2026-Internship_R60535",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Bangalore-India/Software-Engineer_R65069",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Glostrup-Denmark-ZDK02/Software-Engineer_R65791",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Senior-Embedded-Engineer_R62038"
+      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Senior-Embedded-Engineer_R62038",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--Front-end-Co-Op_R65900-1"
     ]
   },
   {
@@ -15918,6 +15919,7 @@
       "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da",
       "https://jobs.ashbyhq.com/openai/4070d52e-0263-4cd5-9107-052b4ecc1209",
       "https://jobs.ashbyhq.com/openai/566ce27d-8a1c-497c-a301-0912010d7b29",
+      "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582",
       "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8",
       "https://jobs.ashbyhq.com/openai/6b47238e-025a-4350-b270-2f3564002fcc",
       "https://jobs.ashbyhq.com/openai/915a325b-55f6-44e2-8314-34ec0d8bb2c9",
@@ -15928,8 +15930,7 @@
       "https://jobs.ashbyhq.com/openai/d134caf2-907c-4c85-be2d-fad477d2b425",
       "https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1",
       "https://jobs.ashbyhq.com/openai/e7a4ee23-138a-4004-916e-72a452e7d115",
-      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
-      "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582"
+      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae"
     ]
   },
   {
@@ -21644,11 +21645,11 @@
     ]
   },
   {
-    "name": "verition",
+    "name": "veritiongroupllc",
     "ats": "greenhouse",
-    "identifier": "verition",
+    "identifier": "veritiongroupllc",
     "domain": "https://www.verition.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/verition/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/veritiongroupllc/jobs",
     "urls": [
       "https://www.verition.com/open-positions?gh_jid=4011276007",
       "https://www.verition.com/open-positions?gh_jid=4793817007",
