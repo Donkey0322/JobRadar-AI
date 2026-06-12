@@ -234,3 +234,33 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>, signa
     return [];
   }
 }
+
+/**
+ * {
+    "name": "sofi",
+    "ats": "greenhouse",
+    "identifier": "sofi",
+    "domain": "https://sofi.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
+    "urls": [
+      "https://sofi.com/careers/job/7565483003?gh_jid=7565483003"
+    ]
+  },
+  {
+    "name": "sofiuniversity",
+    "ats": "greenhouse",
+    "identifier": "sofiuniversity",
+    "domain": "https://www.sofi.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/sofiuniversity/jobs",
+    "urls": [
+      "https://www.sofi.com/careers/sofi-university/7581448003?gh_jid=7581448003",
+      "https://www.sofi.com/careers/sofi-university/7581753003?gh_jid=7581753003",
+      "https://www.sofi.com/careers/sofi-university/7585152003?gh_jid=7585152003",
+      "https://www.sofi.com/careers/sofi-university/7595648003?gh_jid=7595648003",
+      "https://www.sofi.com/careers/sofi-university/7600784003?gh_jid=7600784003",
+      "https://www.sofi.com/careers/sofi-university/7616239003?gh_jid=7616239003",
+      "https://www.sofi.com/careers/sofi-university/7637277003?gh_jid=7637277003",
+      "https://www.sofi.com/careers/sofi-university/?gh_jid=7575833003&gh_src=d50e8f9b3us"
+    ]
+  },
+ */

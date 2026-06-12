@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "company": "tsx scripts/company.ts",
     "dedup": "tsx scripts/dedup.ts",
+    "clean-url": "tsx scripts/clean-url.ts",
     "preview-email": "tsx scripts/preview-email.ts"
   },
   "devDependencies": {

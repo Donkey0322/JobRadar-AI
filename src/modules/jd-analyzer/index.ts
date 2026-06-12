@@ -3,6 +3,7 @@ import * as cheerio from "cheerio";
 import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
+import type { JDFetchResult } from "./ats";
 import type { JD, Job } from "@/types/jobs";
 import type { JDResponse } from "@/validation/ai";
 
@@ -15,6 +16,8 @@ import {
   fetchOracleJD,
   fetchSmartRecruitersJD,
   fetchWorkdayJD,
+  JD_FETCH_ERROR,
+  JD_FETCH_OK,
 } from "./ats";
 
 import { logger } from "@/utils/logger";
@@ -68,45 +71,41 @@ export function isEligibleJD(jd: JD) {
   return [true, null];
 }
 
-export async function getRawJD(url: string, signal: AbortSignal): Promise<string | null> {
-  try {
-    // 1. classify ATS
-    const urlType = classifyATS(new URL(url));
-    let text = "";
+function normalizeRawText(text: string): string | null {
+  const lines = text
+    .split("\n")
+    .map((ln) => ln.replace(/\s+/g, " ").trim())
+    .filter((ln) => ln.length > 0);
 
-    // 2. ATS-specific handling
+  return lines.length ? lines.join("\n") : null;
+}
+
+function finishRawJD(result: JDFetchResult): JDFetchResult {
+  if (!result.jd) return result;
+
+  const jd = normalizeRawText(result.jd);
+  if (!jd) {
+    return { jd: null, error: JD_FETCH_ERROR.noData() };
+  }
+
+  return { jd, error: JD_FETCH_OK };
+}
+
+export async function getRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+  try {
+    const urlType = classifyATS(new URL(url));
+
     switch (urlType) {
-      case "greenhouse": {
-        const jd = await fetchGreenhouseJD(url, signal);
-        if (!jd) return null;
-        text = jd;
-        break;
-      }
-      case "smartrecruiters": {
-        const jd = await fetchSmartRecruitersJD(url, signal);
-        if (!jd) return null;
-        text = jd;
-        break;
-      }
-      case "workday": {
-        const jd = await fetchWorkdayJD(url, signal);
-        if (!jd) return null;
-        text = jd;
-        break;
-      }
-      case "ashby": {
-        const jd = await fetchAshbyJD(url, signal);
-        if (!jd) return null;
-        text = jd;
-        break;
-      }
-      case "oraclecloud": {
-        const jd = await fetchOracleJD(url, signal);
-        if (!jd) return null;
-        text = jd;
-        break;
-      }
-      // fallback: raw HTML scraping
+      case "greenhouse":
+        return finishRawJD(await fetchGreenhouseJD(url, signal));
+      case "smartrecruiters":
+        return finishRawJD(await fetchSmartRecruitersJD(url, signal));
+      case "workday":
+        return finishRawJD(await fetchWorkdayJD(url, signal));
+      case "ashby":
+        return finishRawJD(await fetchAshbyJD(url, signal));
+      case "oraclecloud":
+        return finishRawJD(await fetchOracleJD(url, signal));
       default: {
         const res = await fetch(url, {
           signal,
@@ -116,35 +115,30 @@ export async function getRawJD(url: string, signal: AbortSignal): Promise<string
         });
 
         if (!res.ok) {
-          logger.error({ url }, `${RED_CROSS} Failed to fetch text`);
-          return null;
+          logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
+          return {
+            jd: null,
+            error: JD_FETCH_ERROR.http(res.status, res.statusText),
+          };
         }
 
         const html = await res.text();
         const $ = cheerio.load(html);
-
         const script = $('script[type="application/ld+json"]').first();
+        const text = script.length ? script.text() + "\n" + $.root().text() : $("body").text();
 
-        if (script.length) {
-          text = script.text() + "\n" + $.root().text();
-        } else {
-          text = $("body").text();
+        const jd = normalizeRawText(text);
+        if (!jd) {
+          return { jd: null, error: JD_FETCH_ERROR.noData() };
         }
 
-        break;
+        return { jd, error: JD_FETCH_OK };
       }
     }
-
-    // normalize text
-    const lines = text
-      .split("\n")
-      .map((ln) => ln.replace(/\s+/g, " ").trim())
-      .filter((ln) => ln.length > 0);
-
-    return lines.length ? lines.join("\n") : null;
   } catch (e) {
+    const desc = e instanceof Error ? e.message : "Unknown fetch error";
     logger.error({ err: e, url }, `${RED_CROSS} Error fetching JD`);
-    return null;
+    return { jd: null, error: JD_FETCH_ERROR.fetch(desc) };
   }
 }
 
@@ -155,7 +149,7 @@ export default async function getJD(job: Job): Promise<{
 }> {
   // five minutes timeout
   const signal = AbortSignal.timeout(5 * 60 * 1000);
-  const rawJD = await getRawJD(job.link, signal);
+  const { jd: rawJD } = await getRawJD(job.link, signal);
 
   if (!rawJD) {
     return {
@@ -220,7 +214,7 @@ export default async function getJD(job: Job): Promise<{
 
 export async function analyzeLink(link: string): Promise<JD | null> {
   const signal = AbortSignal.timeout(5000);
-  const rawJD = await getRawJD(link, signal);
+  const { jd: rawJD } = await getRawJD(link, signal);
 
   if (!rawJD) {
     return null;

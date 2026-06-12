@@ -1,62 +1,34 @@
-import { RED_CROSS } from "@/constants/log";
+import type { JDFetchResult } from "./fetch";
 
-import { logger } from "@/utils/logger";
+import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
 const convertOracleJDUrl = (url: string) => {
   const u = new URL(url);
 
   const match = u.pathname.match(/\/sites\/([^/]+)\/job\/([^/]+)/);
-
-  if (!match) {
-    logger.error({ url }, `${RED_CROSS} Invalid Oracle job URL`);
-    return null;
-  }
+  if (!match) return null;
 
   const [, siteNumber, jobId] = match;
 
-  const apiUrl =
+  return (
     `${u.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails` +
     `?expand=all&onlyData=true` +
-    `&finder=ById;Id="${jobId}",siteNumber=${siteNumber}`;
-
-  return apiUrl;
+    `&finder=ById;Id="${jobId}",siteNumber=${siteNumber}`
+  );
 };
 
-export async function fetchOracleJD(url: string, signal: AbortSignal) {
+export async function fetchOracleJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const apiUrl = convertOracleJDUrl(url);
 
   if (!apiUrl) {
-    return null;
+    return { jd: null, error: JD_FETCH_ERROR.invalidUrl("Invalid Oracle job URL") };
   }
 
-  try {
-    const res = await fetch(apiUrl, { signal });
-
-    if (!res.ok) {
-      logger.error(
-        {
-          apiUrl,
-          status: res.status,
-          statusText: res.statusText,
-        },
-        `${RED_CROSS} Failed to fetch Oracle JD`
-      );
-
-      return null;
-    }
-
-    const data = await res.json();
-
-    return JSON.stringify(data.items[0]);
-  } catch (error) {
-    logger.error(
-      {
-        err: error,
-        apiUrl,
-      },
-      `${RED_CROSS} Error fetching Oracle JD`
-    );
-
-    return null;
-  }
+  return fetchJD(apiUrl, signal, {
+    logLabel: "Oracle JD",
+    transform: (data) => {
+      const items = (data as { items?: unknown[] })?.items;
+      return items?.[0] ? JSON.stringify(items[0]) : null;
+    },
+  });
 }

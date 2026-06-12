@@ -16,6 +16,7 @@ import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
 
+import { loadCompanies } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -94,6 +95,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     )
   );
 
+  // Build latest company snapshot from URLs
   for (const { url, company } of results) {
     if (!company) {
       continue;
@@ -108,6 +110,20 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     }
 
     map.get(key)!.urls.push(url);
+  }
+
+  // Merge existing companies so companies don't disappear
+  const existingCompanies = await loadCompanies();
+
+  for (const existingCompany of existingCompanies) {
+    const key = getCompanyKey(existingCompany);
+
+    if (!map.has(key)) {
+      map.set(key, {
+        ...existingCompany,
+        urls: [],
+      });
+    }
   }
 
   const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
