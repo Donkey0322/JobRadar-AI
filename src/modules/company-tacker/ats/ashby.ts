@@ -93,3 +93,8 @@ export async function fetchAshby(company: Company, urls: Set<string>, signal: Ab
     return [];
   }
 }
+console.log(
+  urlToAshbyCompany(
+    new URL("https://jobs.ashbyhq.com/benchling/1a6a2f2e-b0e7-43b1-a985-d1e27ddb0d2e")
+  )
+);
