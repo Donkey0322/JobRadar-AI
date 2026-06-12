@@ -1,0 +1,143 @@
+{
+  "id": "744000131987189",
+  "name": "System Product Engineer (New or Recent Graduate)",
+  "uuid": "12ca99b0-c398-4a93-a5ca-73346abf16cd",
+  "jobId": "ce670f59-9f60-439d-ba11-187190118be9",
+  "jobAdId": "cbf0a6ac-b9ed-4999-9085-f644f98c3ba0",
+  "defaultJobAd": true,
+  "refNumber": "REF32656U",
+  "company": {
+    "name": "Sandisk",
+    "identifier": "Sandisk"
+  },
+  "location": {
+    "city": "Milpitas",
+    "region": "CA",
+    "country": "us",
+    "postalCode": "95035",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "37.4323341",
+    "longitude": "-121.8995741",
+    "fullLocation": "Milpitas, CA, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "669686519a20c22e85ee4de0",
+      "fieldLabel": "Positions",
+      "valueId": "P-NP",
+      "valueLabel": "New Position--P-NP"
+    },
+    {
+      "fieldId": "668e9411f0907530e1eeabc6",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Sandisk"
+    },
+    {
+      "fieldId": "66968808d629634de16f0708",
+      "fieldLabel": "Salary Range",
+      "valueId": "99,852.00-165,393.00",
+      "valueLabel": "99,852.00-165,393.00"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "6696897ee6ac421451ccecb6",
+      "fieldLabel": "Job Type (exemption status)",
+      "valueId": "5f54df38-41d3-4559-9067-0b50c42e6e4f",
+      "valueLabel": "Exempt position - Please see related compensation & benefits details below"
+    },
+    {
+      "fieldId": "669686a4d629634de16f0706",
+      "fieldLabel": "Business Function",
+      "valueId": "Product Development Engineering",
+      "valueLabel": "Product Development Engineering"
+    },
+    {
+      "fieldId": "66968a7ea1cc07640b45bbc2",
+      "fieldLabel": "Work Shift",
+      "valueId": "WDT 1",
+      "valueLabel": "Shift 1 (Mon-Fri 8am - 5pm) (United States of America)--WDT 1"
+    },
+    {
+      "fieldId": "6696868b17cd5c69db0ae8c6",
+      "fieldLabel": "Job Profile",
+      "valueId": "107720",
+      "valueLabel": "Senior Engineer, Product Development Engineering - 107720"
+    },
+    {
+      "fieldId": "6695842d77387650053fec10",
+      "fieldLabel": "Requisition Type",
+      "valueId": "6ae075f1-abca-4523-a7bb-e15e18eb2d5a",
+      "valueLabel": "Professional"
+    },
+    {
+      "fieldId": "6696887abc85fd294de46c98",
+      "fieldLabel": "Company",
+      "valueId": "CO_SD Sandisk Technologies, Inc.",
+      "valueLabel": "US-Sandisk Technologies, Inc.--CO_SD Sandisk Technologies, Inc."
+    },
+    {
+      "fieldId": "6696883ca98410178a5f464e",
+      "fieldLabel": "Work Location",
+      "valueId": "LOC_WDT_USCA25",
+      "valueLabel": "Milpitas Office--LOC_WDT_USCA25"
+    }
+  ],
+  "releasedDate": "2026-06-12T20:47:20.810Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/Sandisk/744000131987189-system-product-engineer-new-or-recent-graduate-",
+  "applyUrl": "https://jobs.smartrecruiters.com/Sandisk/744000131987189-system-product-engineer-new-or-recent-graduate-?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/Sandisk/publication/12ca99b0-c398-4a93-a5ca-73346abf16cd?dcr_ci=Sandisk",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>Sandisk understands how people and businesses consume data and we relentlessly innovate to deliver solutions that enable today’s needs and tomorrow’s next big ideas. With a rich history of groundbreaking innovations in Flash and advanced memory technologies, our solutions have become the beating heart of the digital world we’re living in and that we have the power to shape.</p><p>Sandisk meets people and businesses at the intersection of their aspirations and the moment, enabling them to keep moving and pushing possibility forward. We do this through the balance of our powerhouse manufacturing capabilities and our industry-leading portfolio of products that are recognized globally for innovation, performance and quality.</p><p>Sandisk has two facilities recognized by the World Economic Forum as part of the Global Lighthouse Network for advanced 4IR innovations. These facilities were also recognized as Sustainability Lighthouses for breakthroughs in efficient operations. With our global reach, we ensure the global supply chain has access to the Flash memory it needs to keep our world moving forward.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><strong>Level:&#xa0;</strong>Senior / Staff</p><p><strong>Focus:&#xa0;</strong>AI workload modeling, simulation-first validation, and scalable test infrastructure</p><p><strong><em>Why This Role:</em></strong><em>&#xa0;Build foundational infrastructure — simulation, automation, and AI-assisted workflows. Small team, high impact, and the opportunity to shape how system test development is done.</em></p><p>Build AI-native validation and test infrastructure enabling early system learning and workload-driven validation across the product lifecycle, reducing dependency on late-stage integration environments. You will operate across compute, memory, and storage subsystems, enabling correlation between real workloads and system behavior.</p><p>ESSENTIAL DUTIES AND RESPONSIBILITIES:</p><p><strong>AI Workload Modeling &amp; Generation</strong></p><ul><li>Develop and analyze AI workloads, focusing on memory access characterization, and data movement behavior</li><li>Generate trace-based and synthetic stress patterns for system-level validation</li></ul><p><strong>Simulation-First Validation</strong></p><ul><li>Build lightweight simulation and emulation environments (e.g., QEMU-based system models and customized modeling) for early validation and scalable development environment</li><li>Map workload to test prior to hardware availability</li><li>Reduce dependency on full-system emulation/real hardware through independent, scalable frameworks</li></ul><p><strong>AI-Assisted Test Infrastructure</strong></p><ul><li>Build C/C++/Python-based automation frameworks with parallel execution, structured logging, and scalable data pipelines</li><li>Build and maintain spec-to-code pipelines: convert product specifications into structured formats for AI-assisted code generation and automated validation</li><li>Integrate AI tools for test content generation, debug acceleration, and log analysis</li></ul><p><strong>Firmware &amp; Test Content Development</strong></p><ul><li>Develop workload-aware test firmware aligned with system-level use cases</li><li>Enable functional coverage based on real workloads, not synthetic-only scenarios</li></ul><p><strong>Data &amp; AI-Driven Insights</strong></p><ul><li>Build pipelines for data collection, failure classification, and pattern detection</li><li>Apply ML techniques where appropriate for anomaly detection and failure clustering</li></ul><p><strong>System Correlation</strong></p><ul><li>Map workload behavior to system stress and device-level impact, enabling translation between real workloads and production test coverage</li><li>Correlate across compute, memory, and storage subsystems</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Education</strong></p><ul><li>BS/MS/PhD in Electrical Engineering, Computer Engineering, or Computer Science&#xa0;</li></ul><p><strong>Experience</strong></p><ul><li>0–5+ years in validation, modeling, infrastructure development, or related fields</li><li>Fresh PhD graduates with relevant research experience are encouraged to apply</li></ul><p><strong>Technical Skills</strong></p><ul><li>Strong Python skills; C/C++ a plus</li><li>Experience or research background in system modeling, simulation, or workload analysis</li><li>Understanding of data movement and performance behavior across system components</li><li>Ability to rapidly absorb complex system architecture and translate understanding into engineering artifacts</li></ul><p><strong>Key Traits</strong></p><ul><li>Builder mindset — tools, frameworks, infrastructure</li><li>Strong system and data intuition</li><li>Hands-on coder or effective AI workflow orchestrator — non-negotiable</li><li>Comfortable working in ambiguous, early-stage environments</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Sandisk is committed to providing equal opportunities to all applicants and employees and will not discriminate against any applicant or employee based on their race, color, ancestry, religion (including religious dress and grooming standards), sex (including pregnancy, childbirth or related medical conditions, breastfeeding or related medical conditions), gender (including a person’s gender identity, gender expression, and gender-related appearance and behavior, whether or not stereotypically associated with the person’s assigned sex at birth), age, national origin, sexual orientation, medical condition, marital status (including domestic partnership status), physical disability, mental disability, medical condition, genetic information, protected medical and family care leave, Civil Air Patrol status, military and veteran status, or other legally protected characteristics. We also prohibit harassment of any individual on any of the characteristics listed above. Our non-discrimination policy applies to all aspects of employment. We comply with the laws and regulations set forth in the \"<a href=\"https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Know Your Rights: Workplace Discrimination is Illegal</a>” poster. Our pay transparency policy is available <a href=\"https://www.dol.gov/sites/dolgov/files/OFCCP/pdf/pay-transp_%20English_formattedESQA508c.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p><p>Sandisk thrives on the power and potential of diversity. As a global company, we believe the most effective way to embrace the diversity of our customers and communities is to mirror it from within. We believe the fusion of various perspectives results in the best outcomes for our employees, our company, our customers, and the world around us. We are committed to an inclusive environment where every individual can thrive through a sense of belonging, respect and contribution.</p><p>Sandisk is committed to offering opportunities to applicants with disabilities and ensuring all candidates can successfully navigate our careers website and our hiring process. Please contact us at <a href=\"mailto:jobs.accommodations@sandisk.com\" target=\"_blank\" rel=\"noopener noreferrer\">jobs.accommodations@sandisk.com</a>&#xa0;to advise us of your accommodation request. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.</p><p>Based on our experience, we anticipate that the application deadline will be&#xa0;<strong>09/12/2026</strong>&#xa0;<strong>&#xa0;</strong>(3 months from posting), although we reserve the right to close the application process sooner if we hire an applicant for this position before the application deadline. If we are not able to hire someone from this role before the application deadline, we will update this posting with a new anticipated application deadline.</p><p>#LI-TS1</p><div sr-tagline=\"\"></div><p><strong>Compensation &amp; Benefits Details</strong></p><ul><li>An employee’s pay position within the salary range may be based on several factors including but not limited to (1) relevant education; qualifications; certifications; and experience; (2) skills, ability, knowledge of the job; (3) performance, contribution and results; (4) geographic location; (5) shift; (6) internal and external equity; and (7) business and organizational needs.</li><li>The salary range is what we believe to be the range of possible compensation for this role at the time of this posting.&#xa0; We may ultimately pay more or less than the posted range and this range is only applicable for jobs to be performed in California, Colorado, New York or remote jobs that can be performed in California, Colorado and New York.&#xa0; This range may be modified in the future.</li><li>You will be eligible to participate in Sandisk's Short-Term Incentive (STI) Plan, which provides incentive awards based on Company and individual performance.&#xa0; Depending on your role and your performance, you may be eligible to participate in our annual Long-Term Incentive (LTI) program, which consists of restricted stock units (RSUs) or cash equivalents, pursuant to the terms of the LTI plan. Please note that not all roles are eligible to participate in the LTI program, and not all roles are eligible for equity under the LTI plan.&#xa0;RSU awards are also available to eligible new hires, subject to Sandisk's Standard Terms and Conditions for Restricted Stock Unit Awards.</li><li>We offer a comprehensive package of benefits including paid vacation time; paid sick leave; medical/dental/vision insurance; life, accident and disability insurance; tax-advantaged flexible spending and health savings accounts; employee assistance program; other voluntary benefit programs such as supplemental life and AD&amp;D, legal plan, pet insurance, critical illness, accident and hospital indemnity; tuition reimbursement; transit; the Applause Program, employee stock purchase plan, and the Sandisk's Savings 401(k) Plan.</li><li>Note: No amount of pay is considered to be wages or compensation until such amount is earned, vested, and determinable. The amount and availability of any bonus, commission, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company's sole discretion unless and until paid and may be modified at the Company’s sole discretion, consistent with the law.</li></ul>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "semiconductors",
+    "label": "Semiconductors"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "mid_senior_level",
+    "label": "Mid-Senior Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}

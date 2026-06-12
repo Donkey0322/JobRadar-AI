@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/clear/jobs/7901600",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3305785,
+  "location": {
+    "name": "New York, New York, United States"
+  },
+  "metadata": [
+    {
+      "id": 35777258,
+      "name": "Critical Role?",
+      "value": null,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 37279680,
+      "name": "Level?",
+      "value": "P2",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 7901600,
+  "updated_at": "2026-06-12T16:59:17-04:00",
+  "requisition_id": "20166352",
+  "title": "Software Engineer, Infrastructure ",
+  "company_name": "CLEAR - Corporate",
+  "first_published": "2026-05-06T16:05:17-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;CLEAR is building THE secure identity company of the future. Our mission is to make experiences safer and easier—physically and digitally. With more than 38 million Members and a growing network of partners across the world, CLEAR&#39;s secure identity platform is transforming the way people live, work, and travel. Whether it’s at the airport, stadium, or throughout your everyday life, CLEAR unlocks the magic of frictionless experiences.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;We’re looking for an early career Software Engineer to join our Infrastructure team to accelerate building and scaling our innovative systems that support our growing identity platform. In this role, you will build the next-generation infrastructure that underpins all systems at CLEAR. The ideal candidate for this role will approach challenges with an eye toward reliability, simplicity, and scalability.&lt;/span&gt;&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;What You&#39;ll Do:&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Develop and maintain a streamlined process for engineers to effortlessly build and deploy scalable and reliable software-defined networking solutions on AWS.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Enhance our compute platform (Kubernetes) with new functionalities and features, focusing on AWS networking services and concepts such as VPCs, Route Tables, Security Groups (SGs), ALBs/ELBs, and Route53, optimize service communication and management.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Collaborate across engineering teams to advocate for and implement best practices in observability, utilizing tools like Splunk or Datadog to ensure robust network monitoring.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Act as a product owner for our infrastructure, collecting feedback and requirements from engineering teams to address pain points and develop solutions, particularly in the realm of AWS networking and cloud-native design principles.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;em&gt;&lt;strong&gt;What you&#39;re great at:&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;0-2 years of experience in infrastructure and platform development and AWS cloud services.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Proficient in Python, with understanding of Kubernetes and container orchestration tools like EKS and ECS.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Understand AWS networking services, including VPC design, SGs, NATGWs, ALBs/ELBs, Route53, and security features like AWS Network Firewall and AWS WAF.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Have used tools such as Terraform, Pulumi, or Cloudformation, and possess a strong product and user-centric mindset.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Committed to continuously improving systems and environments.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;Understanding of API Gateway solutions to facilitate secure and scalable API management.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;&lt;em&gt;How You’ll be Rewarded:&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;At CLEAR, we help YOU move forward - because when you’re at your best, we’re at our best. You’ll work with talented team members motivated by our mission of making experiences safer and easier. Our offices are bright and energetic with an open concept and plenty of conference rooms and casual co-working spaces. We also offer catered lunches every day and have fully stocked kitchens. Outside of the office, we invest in your well-being and learning &amp;amp; development with stipends and reimbursement programs.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;We offer holistic total rewards, including comprehensive healthcare plans, family-building benefits (fertility and adoption/surrogacy support), flexible time off, annual wellness stipend, free OneMedical memberships for you and your dependents, a CLEAR Plus membership, and a 401(k) retirement plan with employer match.&amp;nbsp; The base salary range for this role is $105,000-$125,000.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;em&gt;The base salary range represents the low and high end of CLEAR’s salary range for this position. Salaries will vary depending on various factors which include, but are not limited to location, education, skills, experience and performance. The range listed is just one component of CLEAR’s total compensation package for employees and other rewards may include annual bonuses, commission, Restricted Stock Units&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;em&gt;CLEAR provides reasonable accommodation to qualified individuals with disabilities or protected needs. Please let us know if you require a reasonable accommodation to apply for a job or perform your job. Examples of reasonable accommodation include, but are not limited to, time off, extra breaks, making a change to the application process or work procedures, policy exceptions, providing documents in an alternative format, live captioning or using a sign language interpreter, or using specialized equipment.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 42447,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 3455,
+      "name": "NYHQ",
+      "location": "New York, NY, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
