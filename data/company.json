@@ -44,16 +44,6 @@
     ]
   },
   {
-    "name": "8am",
-    "ats": "greenhouse",
-    "identifier": "8am",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
-  },
-  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -533,6 +523,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4622069006",
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -3189,6 +3180,7 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Millennium-Space-Systems-Summer-2026-Internship-Program---Ground-Software-Engineering_JR2026498959-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Technology-Innovation---Graduate-Researcher-Program---Boeing-Commercial-Airplanes--BCA--Computational-Geometry-Mathematician-Intern_JR2025470096",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Richardson-TX/Entry-Level-Software-Engineer-Developer_JR2026512717-2",
+      "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Entry-Level-Software-Engineer_JR2026511280-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Entry-Level-Software-Engineer_JR2026508309-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/CAN---Richmond-Canada/Software-Development-Intern_JR2026511453-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/GBR---Fleet-UK/Software-Engineer-Simulation--Simulation-_JR2026506292-2",
@@ -3200,8 +3192,7 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/POL---Gdansk-Poland/Experienced-Java-Software-Engineer_JR2026494130-2",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Hazelwood-MO/Associate-Software-Engineer_JR2026511462-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Hazelwood-MO/Software-Engineer_JR2026511461-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tinker-AFB-OK/Experienced-Software-Engineer_JR2026511299-1",
-      "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Entry-Level-Software-Engineer_JR2026511280-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tinker-AFB-OK/Experienced-Software-Engineer_JR2026511299-1"
     ]
   },
   {
@@ -6964,7 +6955,8 @@
       "https://job-boards.greenhouse.io/doordashusa/jobs/7990832",
       "https://job-boards.greenhouse.io/doordashusa/jobs/7991290",
       "https://job-boards.greenhouse.io/doordashusa/jobs/7993645",
-      "https://job-boards.greenhouse.io/doordashusa/jobs/8001494"
+      "https://job-boards.greenhouse.io/doordashusa/jobs/8001494",
+      "https://job-boards.greenhouse.io/doordashusa/jobs/7994290"
     ]
   },
   {
@@ -8975,7 +8967,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/figureai/jobs/4007375006",
       "https://job-boards.greenhouse.io/figureai/jobs/4397706006?jr_id=69e82790e0cd471b2f12fc60",
-      "https://job-boards.greenhouse.io/figureai/jobs/4431092006"
+      "https://job-boards.greenhouse.io/figureai/jobs/4431092006",
+      "https://job-boards.greenhouse.io/figureai/jobs/4590702006"
     ]
   },
   {
@@ -11480,7 +11473,8 @@
       "https://idexx.wd1.myworkdayjobs.com/IDEXX/job/Westbrook-ME/ServiceNow-Developer-Intern_J-051659",
       "https://idexx.wd1.myworkdayjobs.com/idexx/job/Auckland-New-Zealand/Intermediate-Full-Stack-Engineer_J-052580-1",
       "https://idexx.wd1.myworkdayjobs.com/idexx/job/Auckland-New-Zealand/Veterinary-Software-Trainer_J-052835",
-      "https://idexx.wd1.myworkdayjobs.com/idexx/job/Westbrook-ME/IT-Enterprise-Architecture--AI-and-Software-Internship_J-053118"
+      "https://idexx.wd1.myworkdayjobs.com/idexx/job/Westbrook-ME/IT-Enterprise-Architecture--AI-and-Software-Internship_J-053118",
+      "https://idexx.wd1.myworkdayjobs.com/idexx/job/Westbrook-ME/Salesforce-Administrator--Veterinary-Software-Group_J-053510"
     ]
   },
   {
@@ -11737,6 +11731,7 @@
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280837",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0280843",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0281251-1",
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Density-Fill-Development-Engineer-Intern_JR0281342",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/Software-Engineer-Intern_JR0281270",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Folsom/Intern---Graduate-Software-Application-Development_JR0283166",
@@ -11745,8 +11740,7 @@
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Graduate-Intern-Software-Engineering-Summer-2026_JR0279778",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/PDK-Runset-Development-Software-Engineer-Intern_JR0281081",
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Silicon-Product-Engineering-Graduate-Intern_JR0284243",
-      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering-Intern_JR0281271-1",
-      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641"
+      "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Oregon-Hillsboro/Software-Engineering-Intern_JR0281271-1"
     ]
   },
   {
@@ -13574,7 +13568,11 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/lilasciences/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/lilasciences/jobs/4280808009"
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280808009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280945009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280811009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4279721009",
+      "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009"
     ]
   },
   {
@@ -15930,7 +15928,8 @@
       "https://jobs.ashbyhq.com/openai/d134caf2-907c-4c85-be2d-fad477d2b425",
       "https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1",
       "https://jobs.ashbyhq.com/openai/e7a4ee23-138a-4004-916e-72a452e7d115",
-      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae"
+      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
+      "https://jobs.ashbyhq.com/openai/5ebd5f66-75db-4a96-8d39-babc14f1c582"
     ]
   },
   {
@@ -19577,7 +19576,8 @@
       "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Quincy-Massachusetts/Software-Engineering---ML-Data-Engineer--Internship--Full-Time--Jan---June-2026--Internship_R-779528",
       "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Quincy-Massachusetts/eFX-Developer--Co-Op_R-778439",
       "https://statestreet.wd1.myworkdayjobs.com/en-US/global/job/Burlington-Massachusetts/Cloud-QA-Engineer-and-Performance-Intern---CRD--July--Dec_R-789400",
-      "https://statestreet.wd1.myworkdayjobs.com/global/job/Burlington-Massachusetts/Software-Engineer-I--Officer_R-789697"
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Burlington-Massachusetts/Software-Engineer-I--Officer_R-789697",
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Toronto-Ontario/AVP--Software-Developer_R-792083-1"
     ]
   },
   {
@@ -21644,11 +21644,11 @@
     ]
   },
   {
-    "name": "veritiongroupllc",
+    "name": "verition",
     "ats": "greenhouse",
-    "identifier": "veritiongroupllc",
+    "identifier": "verition",
     "domain": "https://www.verition.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/veritiongroupllc/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/verition/jobs",
     "urls": [
       "https://www.verition.com/open-positions?gh_jid=4011276007",
       "https://www.verition.com/open-positions?gh_jid=4793817007",

@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4280809009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4164886009,
+  "location": {
+    "name": "Cambridge, MA USA"
+  },
+  "metadata": [
+    {
+      "id": 4340245009,
+      "name": "Confidential?",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4280809009,
+  "updated_at": "2026-06-11T14:38:30-04:00",
+  "requisition_id": "8554",
+  "title": "Co-op, Machine Learning for Digital Twins",
+  "company_name": "Lila Sciences",
+  "first_published": "2026-06-11T14:38:30-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Your Impact at LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences builds AI systems that accelerate discovery across the physical and life sciences. Within Physical Sciences AI, our team partners with the diverse experimental groups to build digital twins of experimental campaigns, focusing on calibrated, uncertainty-aware models that enable higher-throughput, higher-quality use of Lila&#39;s AI Science Facilities (AISF).&lt;/p&gt;\n&lt;p&gt;As an ML for Digital Twins Co-Op, you will work on building, training, and evaluating ML models for physical and experimental systems. You will get hands-on experience with operator learning, surrogate modeling, and uncertainty quantification, shipping work that directly informs how next-generation AISF experiments are designed and run.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Be Building&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to ML models for scientific and experimental systems, focused on a well-defined digital twin sub-problem&lt;/li&gt;\n&lt;li&gt;Build and train surrogate, operator-learning, or physics-informed models against experimental and simulation data, with mentor guidance&lt;/li&gt;\n&lt;li&gt;Calibrate models, quantify uncertainty, and validate against data flowing from active AISF experimental campaigns&lt;/li&gt;\n&lt;li&gt;Frame open-ended scientific questions as concrete ML tasks with clear datasets, baselines, and evaluation criteria&lt;/li&gt;\n&lt;li&gt;Document findings and share results in cross-departmental collaboration through write-ups and presentations&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing a Master&#39;s or PhD in Machine Learning, Computer Science, Applied Mathematics, Physics, Materials Science, Chemical Engineering, Mechanical Engineering, Electrical Engineering, or a related quantitative field (PhD preferred)&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and hands-on experience with ML frameworks such as PyTorch, JAX, TensorFlow, or similar&lt;/li&gt;\n&lt;li&gt;Experience applying machine learning to scientific, engineering, physical, or experimental systems&lt;/li&gt;\n&lt;li&gt;Familiarity with neural operators, operator learning, spatiotemporal modeling, field prediction, dynamical systems, scientific computing, surrogate modeling, or physics-informed ML&lt;/li&gt;\n&lt;li&gt;Ability to turn open-ended scientific questions into concrete ML tasks with clear datasets, assumptions, baselines, and evaluation criteria&lt;/li&gt;\n&lt;li&gt;Solid foundation in model training, validation, debugging, experiment tracking, and performance evaluation&lt;/li&gt;\n&lt;li&gt;Comfort working with messy, heterogeneous, or evolving scientific datasets&lt;/li&gt;\n&lt;li&gt;Clear communication and interest in collaborating across ML, software engineering, and physical science teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with modern operator-learning methods, including Fourier Neural Operators, DeepONets, graph neural operators, transformer-based neural operators, attention-based operators, physics-informed operators, or operator learning for spatiotemporal systems&lt;/li&gt;\n&lt;li&gt;Experience with digital twins, model update, calibration, and uncertainty-aware scientific modeling, including online/offline model updating, simulator calibration, discrepancy modeling, uncertainty quantification, out-of-distribution detection, or reliability estimation&lt;/li&gt;\n&lt;li&gt;Experience with closed-loop scientific decision-making or physical science applications, including active learning, Bayesian optimization, design of experiments, experimental decision-making, or applications in materials science, chemistry, energy systems, catalysis, batteries, electrochemistry, additive manufacturing, fluid dynamics, thermodynamics, robotics, or computational physics&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is building Scientific Superintelligence™ to solve humankind&#39;s greatest challenges. We believe science is the most inspiring frontier for AI. Rather than hard-coding expert knowledge into tools, LILA builds systems that can learn for themselves.&lt;/p&gt;\n&lt;p&gt;LILA combines advanced AI models with proprietary AI Science Factory™ instruments into an operating system for science that executes the entire scientific method autonomously, accelerating discovery at unprecedented speed, scale, and impact across medicine, materials, and energy. Learn more at www.lila.ai.&lt;/p&gt;\n&lt;p&gt;Guided by our core values of truth, trust, curiosity, grit, and velocity, we move with startup speed while tackling problems of historic importance. If this sounds like an environment you&#39;d love to work in, even if you don&#39;t meet every qualification listed above, we encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We’re All In&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is&amp;nbsp;committed to equal employment opportunity&amp;nbsp;regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status.&lt;/p&gt;\n&lt;p&gt;Information you provide during your application process will be handled in accordance with our &lt;a href=&quot;https://www.lila.ai/candidate-privacy-policy-notice&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Note to Agencies&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lila Sciences does not accept unsolicited resumes from any source other than candidates. The submission of unsolicited resumes by recruitment or staffing agencies to Lila Sciences or its employees is strictly prohibited unless contacted directly by Lila Science’s internal Talent Acquisition team. Any resume submitted by an agency in the absence of a signed agreement will automatically become the property of Lila Sciences, and Lila Sciences will not owe any referral or other fees with respect thereto.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4013388009,
+      "name": "Physical Sciences AI",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019809009,
+      "name": "Alewife, Cambridge, MA",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4279721009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4164300009,
+  "location": {
+    "name": "Cambridge, MA USA"
+  },
+  "metadata": [
+    {
+      "id": 4340245009,
+      "name": "Confidential?",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4279721009,
+  "updated_at": "2026-06-11T14:36:23-04:00",
+  "requisition_id": "8552",
+  "title": "Co-Op, Lab IT/OT Security Engineer",
+  "company_name": "Lila Sciences",
+  "first_published": "2026-06-11T14:36:23-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Your Impact at LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Lab IT/OT Security Engineer Co-Op supports administration, troubleshooting, and continuous improvement of computing infrastructure inside Lila Sciences&#39; laboratory environments. The role works at the layer that sits between corporate IT and operational technology: workstations, edge compute, lab-area networking, and instrument-adjacent systems that keep autonomous science running.&lt;/p&gt;\n&lt;p&gt;Reporting to the Senior Director, OT Operations, the Co-Op works closely with the OT network architecture team, corporate IT operations, and laboratory operations. The right candidate is curious and disciplined, comfortable in a complex research environment, and interested in how technology intersects with lab automation and security.&lt;/p&gt;\n&lt;p&gt;This is a real operational role within Lila&#39;s IT/OT convergence program, not a shadow-and-observe assignment. The Co-Op contributes directly to asset management, device standardization, documentation, and day-to-day lab IT support while building exposure to OT security tooling and practices that are rare at this level.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Be Building&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Administer and troubleshoot lab-area workstations, edge compute, and dedicated lab-network infrastructure under guidance from senior engineers.&lt;/li&gt;\n&lt;li&gt;Resolve Lab IT incidents and service requests through the enterprise ITSM platform, prioritizing experiments in progress and time-sensitive scientific work.&lt;/li&gt;\n&lt;li&gt;Provide IT-side support for laboratory instruments and automated platforms, including networking, agent deployment, and configuration alignment.&lt;/li&gt;\n&lt;li&gt;Maintain and improve Lab IT asset records in the enterprise CMDB: device tier, owner, location, configuration baseline, and lifecycle state.&lt;/li&gt;\n&lt;li&gt;Contribute to the standardized device catalog and golden image program; assist with secure onboarding of new laboratory instruments.&lt;/li&gt;\n&lt;li&gt;Support OT network operations alongside the network team, including connectivity troubleshooting, post-cutover validation, and segmentation drift checks.&lt;/li&gt;\n&lt;li&gt;Document Lab IT standards, procedures, and runbooks so the function remains operable and scalable as the team grows.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently enrolled in a Bachelor&#39;s or Associate&#39;s program in Computer Science, Information Systems, Cybersecurity, or a related field; recent graduates considered.&lt;/li&gt;\n&lt;li&gt;Foundational knowledge of Windows administration and networking concepts (DNS, DHCP, VLANs, Wi-Fi).&lt;/li&gt;\n&lt;li&gt;Familiarity with helpdesk or ITSM workflows from coursework, personal projects, or prior IT support experience.&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication; can explain technical issues clearly to non-technical colleagues.&lt;/li&gt;\n&lt;li&gt;Able to work on-site at Lila&#39;s Cambridge laboratory; this is not a remote role.&lt;/li&gt;\n&lt;li&gt;Methodical and detail-oriented, willing to spend time on the lab floor observing how scientists and lab operators use technology.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Exposure to endpoint management (Intune, JAMF, Addigy), identity/SSO (Okta, AD, Entra ID), or ITSM/CMDB platforms (Freshservice, ServiceNow, Jira Service Management).&lt;/li&gt;\n&lt;li&gt;Interest in or prior exposure to life sciences, biotechnology, or laboratory environments.&lt;/li&gt;\n&lt;li&gt;Curiosity about OT/industrial environments: PLCs, SCADA, building automation systems.&lt;/li&gt;\n&lt;li&gt;Awareness of OT security frameworks (IEC 62443, NIST SP 800-82) at the conceptual level.&lt;/li&gt;\n&lt;li&gt;CompTIA A+, Network+, or Security+ in progress or completed.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is building Scientific Superintelligence™ to solve humankind&#39;s greatest challenges. We believe science is the most inspiring frontier for AI. Rather than hard-coding expert knowledge into tools, LILA builds systems that can learn for themselves.&lt;/p&gt;\n&lt;p&gt;LILA combines advanced AI models with proprietary AI Science Factory™ instruments into an operating system for science that executes the entire scientific method autonomously, accelerating discovery at unprecedented speed, scale, and impact across medicine, materials, and energy. Learn more at www.lila.ai.&lt;/p&gt;\n&lt;p&gt;Guided by our core values of truth, trust, curiosity, grit, and velocity, we move with startup speed while tackling problems of historic importance. If this sounds like an environment you&#39;d love to work in, even if you don&#39;t meet every qualification listed above, we encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We’re All In&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is&amp;nbsp;committed to equal employment opportunity&amp;nbsp;regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status.&lt;/p&gt;\n&lt;p&gt;Information you provide during your application process will be handled in accordance with our &lt;a href=&quot;https://www.lila.ai/candidate-privacy-policy-notice&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Note to Agencies&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lila Sciences does not accept unsolicited resumes from any source other than candidates. The submission of unsolicited resumes by recruitment or staffing agencies to Lila Sciences or its employees is strictly prohibited unless contacted directly by Lila Science’s internal Talent Acquisition team. Any resume submitted by an agency in the absence of a signed agreement will automatically become the property of Lila Sciences, and Lila Sciences will not owe any referral or other fees with respect thereto.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4013372009,
+      "name": "Business Operations",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019809009,
+      "name": "Alewife, Cambridge, MA",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

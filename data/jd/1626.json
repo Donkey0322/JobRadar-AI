@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4280811009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4164887009,
+  "location": {
+    "name": "Cambridge, MA USA"
+  },
+  "metadata": [
+    {
+      "id": 4340245009,
+      "name": "Confidential?",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4280811009,
+  "updated_at": "2026-06-11T14:37:50-04:00",
+  "requisition_id": "8555",
+  "title": "Co-Op, Data Extraction",
+  "company_name": "Lila Sciences",
+  "first_published": "2026-06-11T14:37:50-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Your Impact at LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences builds AI systems that accelerate discovery across the physical and life sciences. Within Physical Sciences AI, our team works on turning unstructured scientific knowledge (e.g., literature, patents, technical reports) into structured signals that power downstream Lila applications. As a Data Extraction Co-Op, you will work alongside research scientists and engineers on a focused sub-problem in this stack. You will get hands-on experience fine-tuning and evaluating extraction models, building pipelines for messy real-world data, and shipping work that flows into production systems.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Be Building&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to AI systems that extract and structure knowledge from scientific literature and patents, focused on a well-defined sub-problem&lt;/li&gt;\n&lt;li&gt;Fine-tune and evaluate language, multimodal, or specialized models for data extraction, with mentor guidance&lt;/li&gt;\n&lt;li&gt;Build and test pipelines that structure unstructured scientific data across text, tables, and visuals&lt;/li&gt;\n&lt;li&gt;Run extraction pipelines, analyze results, and document findings clearly&lt;/li&gt;\n&lt;li&gt;Share your work through a team presentation, write-up, or contribution to a publication or open-source project&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing a Bachelor&#39;s, Master&#39;s, or PhD in Computer Science, Chemistry, Materials Science, or a related field&lt;/li&gt;\n&lt;li&gt;Solid foundation in machine learning fundamentals and Python&lt;/li&gt;\n&lt;li&gt;Familiarity with NLP or computer vision concepts&lt;/li&gt;\n&lt;li&gt;Curiosity about scientific data and willingness to learn quickly in a research setting&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Coursework or projects involving multimodal models or document understanding (OCR, table/figure extraction)&lt;/li&gt;\n&lt;li&gt;Experience working with messy, real-world datasets&lt;/li&gt;\n&lt;li&gt;Interest in scientific document parsing&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is building Scientific Superintelligence™ to solve humankind&#39;s greatest challenges. We believe science is the most inspiring frontier for AI. Rather than hard-coding expert knowledge into tools, LILA builds systems that can learn for themselves.&lt;/p&gt;\n&lt;p&gt;LILA combines advanced AI models with proprietary AI Science Factory™ instruments into an operating system for science that executes the entire scientific method autonomously, accelerating discovery at unprecedented speed, scale, and impact across medicine, materials, and energy. Learn more at www.lila.ai.&lt;/p&gt;\n&lt;p&gt;Guided by our core values of truth, trust, curiosity, grit, and velocity, we move with startup speed while tackling problems of historic importance. If this sounds like an environment you&#39;d love to work in, even if you don&#39;t meet every qualification listed above, we encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We’re All In&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is&amp;nbsp;committed to equal employment opportunity&amp;nbsp;regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status.&lt;/p&gt;\n&lt;p&gt;Information you provide during your application process will be handled in accordance with our &lt;a href=&quot;https://www.lila.ai/candidate-privacy-policy-notice&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Note to Agencies&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lila Sciences does not accept unsolicited resumes from any source other than candidates. The submission of unsolicited resumes by recruitment or staffing agencies to Lila Sciences or its employees is strictly prohibited unless contacted directly by Lila Science’s internal Talent Acquisition team. Any resume submitted by an agency in the absence of a signed agreement will automatically become the property of Lila Sciences, and Lila Sciences will not owe any referral or other fees with respect thereto.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4013388009,
+      "name": "Physical Sciences AI",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019809009,
+      "name": "Alewife, Cambridge, MA",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
