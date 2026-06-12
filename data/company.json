@@ -436,7 +436,9 @@
       "https://jobs.smartrecruiters.com/AECOM2/744000131659369",
       "https://jobs.smartrecruiters.com/AECOM2/744000131673779",
       "https://jobs.smartrecruiters.com/AECOM2/744000131720108",
-      "https://jobs.smartrecruiters.com/AECOM2/744000131736790"
+      "https://jobs.smartrecruiters.com/AECOM2/744000131736790",
+      "https://jobs.smartrecruiters.com/AECOM2/744000131811839",
+      "https://jobs.smartrecruiters.com/AECOM2/744000131771069"
     ]
   },
   {
@@ -5124,7 +5126,8 @@
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Embedded-Software-Engineer_R0000375975-1",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Qingdao-Shandong/Embedded-Software-Engineer_R0000364432",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Software-Engineer_R0000375101",
-      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Software-Intern_R0000363753"
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Software-Intern_R0000363753",
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Embedded-Software-Linux-Engineer_R0000375889"
     ]
   },
   {
@@ -5928,7 +5931,8 @@
       "https://job-boards.greenhouse.io/commvault/jobs/5046981008",
       "https://job-boards.greenhouse.io/commvault/jobs/5051679008",
       "https://job-boards.greenhouse.io/commvault/jobs/5051703008",
-      "https://job-boards.greenhouse.io/commvault/jobs/5205530008"
+      "https://job-boards.greenhouse.io/commvault/jobs/5205530008",
+      "https://job-boards.greenhouse.io/commvault/jobs/5210843008"
     ]
   },
   {
@@ -7317,7 +7321,9 @@
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/18958",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19017",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19060",
-      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19226"
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19226",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19328",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19329"
     ]
   },
   {
@@ -7404,7 +7410,8 @@
     "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6519",
-      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6809"
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6809",
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"
     ]
   },
   {
@@ -7497,7 +7504,9 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335724",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335884",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/336171",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/336178"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/336178",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/328644",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335019"
     ]
   },
   {
@@ -7547,7 +7556,8 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26003625",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008945",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008970",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009082"
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009082",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009332"
     ]
   },
   {
@@ -7971,7 +7981,12 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/721451",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722230",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722258",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722721",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722726",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722731",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722732",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722738"
     ]
   },
   {
@@ -8660,7 +8675,8 @@
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36923",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37161",
       "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37190",
-      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37215"
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37215",
+      "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29176"
     ]
   },
   {
@@ -9091,7 +9107,8 @@
       "https://www.five9.com/about/careers/job-detail?gh_jid=5973615004",
       "https://www.five9.com/about/careers/job-detail?gh_jid=5981370004",
       "https://www.five9.com/about/careers/job-detail?gh_jid=5990553004",
-      "https://www.five9.com/about/careers/job-detail?gh_jid=6018265004"
+      "https://www.five9.com/about/careers/job-detail?gh_jid=6018265004",
+      "https://www.five9.com/about/careers/job-detail?gh_jid=5994065004"
     ]
   },
   {
@@ -10705,11 +10722,11 @@
     ]
   },
   {
-    "name": "hbk",
+    "name": "hbkcapitalmanagement",
     "ats": "greenhouse",
-    "identifier": "hbk",
+    "identifier": "hbkcapitalmanagement",
     "domain": "https://www.hbk.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/hbk/jobs",
+    "page": "https://boards-api.greenhouse.io/v1/boards/hbkcapitalmanagement/jobs",
     "urls": [
       "https://www.hbk.com/careers/careers-openings?gh_jid=7235449"
     ]
@@ -10746,7 +10763,8 @@
       "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41920",
       "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41925",
       "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41933",
-      "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41934"
+      "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/41934",
+      "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/47261"
     ]
   },
   {
@@ -12080,7 +12098,12 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Remote---USA/Software-Engineering-Intern_J2445033",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Software-Engineering-Intern_J2448338",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Uzhhorod/Business-Development-Analyst_J2451064-1",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Internal-Security_J2445825-1",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Internal-Security_J2445824",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Security-CCTV-Administrator_J2445823",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Security-CCTV-Administrator_J2445822",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Security-System-Administrator_J2445819"
     ]
   },
   {
@@ -12146,7 +12169,8 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Pooler-Georgia-United-States-of-America/Security-Installer_WD30243711",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Pune-Maharashtra-India/Sr-Platform-Engineer_WD30271169-3",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Westford-Massachusetts-United-States-of-America/Software-Sales-Intern_WD30267823",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Winnipeg-Manitoba-Canada/HVAC-Controls-Technician--Building-Automation-_WD30271313"
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Winnipeg-Manitoba-Canada/HVAC-Controls-Technician--Building-Automation-_WD30271313",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Pune-Maharashtra-India/Technical-Support-Engineer-4_WD30271541-1"
     ]
   },
   {
@@ -12818,7 +12842,8 @@
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210653533",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210657659",
       "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210658757",
-      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210659548"
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions/job/210659548",
+      "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210752676"
     ]
   },
   {
@@ -14022,7 +14047,8 @@
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-2026-Co-op---Automation-Developer_JR26041117",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Fall-Co-op-2026---Software-Engineer--4-Months-_JR26050843",
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Waterloo-Ontario/Summer-Intern-Co-op-2026---Software-Engineering_JR25090419",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Hong-Kong/Business-Systems-Analyst--12-Months-_JR26041157"
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Hong-Kong/Business-Systems-Analyst--12-Months-_JR26041157",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Hong-Kong/Full-Stack-Software-Engineer_JR26060014-2"
     ]
   },
   {
@@ -14037,7 +14063,8 @@
       "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Summer-Intern-Co-op-2026---Full-Stack-Software-Engineer_JR26021041",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Toronto-Ontario/Fall-Co-op-2026---Software-Engineer--12-months-_JR26050847-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Toronto-Ontario/Full-stack-Software-Engineer_JR26041202-2",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Waterloo-Ontario/Fall-Co-op-2026---Software-Engineer--8-months-_JR26050849-1"
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Waterloo-Ontario/Fall-Co-op-2026---Software-Engineer--8-months-_JR26050849-1",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Toronto-Ontario/Data-Engineer_JR25120543-3"
     ]
   },
   {
@@ -14856,6 +14883,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Texas-Remote-Work/Systems-Software-Engineer-Intern--US-Remote----Summer-Internship-2026_R61753",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Localization-Software-Developer--Co-Op_R62296",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--AI-Co-Op_R65836",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--Front-end-Co-Op_R65900-1",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer-Co-Op_R62032",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Full-Stack-Software-Engineer-Intern---Summer-2026-Internship_R60172",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/West-Valley-City-UT/C--Software-Engineer---Summer-2026-Internship_R60312",
@@ -14863,8 +14891,7 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Westminster-CO/Software-Engineer---Summer-2026-Internship_R60535",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Bangalore-India/Software-Engineer_R65069",
       "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Glostrup-Denmark-ZDK02/Software-Engineer_R65791",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Senior-Embedded-Engineer_R62038",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--Front-end-Co-Op_R65900-1"
+      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Penang-Malaysia/Senior-Embedded-Engineer_R62038"
     ]
   },
   {
@@ -15817,7 +15844,12 @@
       "https://www.okta.com/company/careers/opportunity/7587533?gh_jid=7587533",
       "https://www.okta.com/company/careers/opportunity/7818807?gh_jid=7818807",
       "https://www.okta.com/company/careers/opportunity/7936790?gh_jid=7936790",
-      "https://www.okta.com/company/careers/opportunity/7984479?gh_jid=7984479"
+      "https://www.okta.com/company/careers/opportunity/7984479?gh_jid=7984479",
+      "https://www.okta.com/company/careers/opportunity/7906283?gh_jid=7906283",
+      "https://www.okta.com/company/careers/opportunity/7307240?gh_jid=7307240",
+      "https://www.okta.com/company/careers/opportunity/7960228?gh_jid=7960228",
+      "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
+      "https://www.okta.com/company/careers/opportunity/7861222?gh_jid=7861222"
     ]
   },
   {
@@ -15880,7 +15912,8 @@
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/LIS-C-165/Field-Service-Rep-SW_R-26960-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/MLV-GV/Mobile-C-Arm-Clinical-Education-Specialist_R-28707-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YOW-B/Software-Quality-Assurance-Specialist-Co-Op_R-28766",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476"
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YWG-BW/Software-Developer-Co-Op_R-28476",
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/SGP-M/Field-Service-Engineer--Software_R-28450-1"
     ]
   },
   {
@@ -15930,7 +15963,8 @@
       "https://jobs.ashbyhq.com/openai/d134caf2-907c-4c85-be2d-fad477d2b425",
       "https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1",
       "https://jobs.ashbyhq.com/openai/e7a4ee23-138a-4004-916e-72a452e7d115",
-      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae"
+      "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
+      "https://jobs.ashbyhq.com/openai/fbefd5d2-affe-47e1-9e87-d2b5de317b40"
     ]
   },
   {
@@ -18054,7 +18088,8 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-LMTS_JR345586",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-PMTS_JR345585",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR339822",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineer-I--Service-Network---Slack_JR342034-1"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineer-I--Service-Network---Slack_JR342034-1",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Canada---Vancouver/Software-Engineering-MTS_JR341889"
     ]
   },
   {
@@ -19809,7 +19844,8 @@
       "https://stripe.com/jobs/search?gh_jid=7980402",
       "https://stripe.com/jobs/search?gh_jid=7982720",
       "https://stripe.com/jobs/search?gh_jid=7991636",
-      "https://stripe.com/jobs/search?gh_jid=7991718"
+      "https://stripe.com/jobs/search?gh_jid=7991718",
+      "https://stripe.com/jobs/search?gh_jid=7975725"
     ]
   },
   {
@@ -20634,7 +20670,8 @@
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Frisco-Texas/Software-Engineer---AI--Legal----CoCounsel-Forward-Deployed-Engineering_JREQ200166-1",
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-McLean-Virginia/Associate-Data-Scientist_JREQ201338-1",
       "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-McLean-Virginia/Data-Scientist_JREQ201215",
-      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/AI-Engineer--Materia--New-Grad---2026-_JREQ198096-1"
+      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-New-York-New-York/AI-Engineer--Materia--New-Grad---2026-_JREQ198096-1",
+      "https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/Brazil-So-Paulo-So-Paulo/Analista-de-Suporte-Jnior_JREQ200218"
     ]
   },
   {
@@ -21525,7 +21562,8 @@
       "https://job-boards.greenhouse.io/vardaspace/jobs/7728988003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7764810003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7767670003",
-      "https://job-boards.greenhouse.io/vardaspace/jobs/7767710003"
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7767710003",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7770810003"
     ]
   },
   {
