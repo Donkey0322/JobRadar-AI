@@ -1,0 +1,44 @@
+{
+  "jobPostingInfo": {
+    "id": "28d43ab10cef100218916541ea480000",
+    "title": "Software Engineer",
+    "jobDescription": "<p><i>7-Eleven is an iconic family of brands with over 86,000 locations, surpassing every retailer in the world. We revolutionize convenience, restaurants and fuel through cutting edge innovation — working hard to be the customer&#39;s first choice. 7-Eleven empowers our employees to &#34;activate awesome&#34; and make a meaningful impact in their stores and communities every day. If you&#39;re ready to grow, lead and make a difference, come join our team and help shape the future of convenience.</i></p><p></p><p>7-Eleven is looking for an early-career AI Engineer to join our AI SDLC team. This role is ideal for candidates who have recently completed their Master’s degree and want to use AI to improve how software is built, tested, documented, and released across our engineering organization.</p><p></p><p>About the Role:</p><p>You will help create AI tools that support software engineers throughout the development lifecycle. You will work on practical use cases such as code assistance, test generation, documentation support, engineering search, and workflow automation. You will also help improve the quality and reliability of these tools through evaluation, testing, and clear operating practices.</p><p>Key Responsibilities:</p><p>- Build AI tools and workflows that help engineering teams work faster and improve software delivery</p><p>- Support use cases such as code generation, test creation, pull request summaries, documentation support, and engineering knowledge search</p><p>- Help integrate AI capabilities into developer tools, APIs, CI/CD pipelines, and internal engineering platforms</p><p>- Work with software engineers, platform teams, product managers, architects, and security partners to identify useful automation opportunities</p><p>- Help evaluate AI output and improve tool quality, reliability, and safe use in engineering workflows</p><p>- Document solutions, experiments, and team practices so they can be reused and scaled across engineering</p><p>Basic Qualifications:</p><p>- Master’s degree in Computer Science, Software Engineering, AI, Data Science, or a related field (recent graduates preferred)</p><p>- Strong foundation in Python or Java and software engineering practices such as version control, testing, debugging, and code review</p><p>- Understanding of the software development lifecycle and how AI can improve engineering workflows</p><p>- Exposure to LLM tools, prompt design, and frameworks used for RAG, tool orchestration, evaluation, and AI workflow automation such as LangChain or Semantic Kernel</p><p>- Familiarity with cloud platforms, APIs, and CI/CD environments such as AWS, Azure, GitHub Actions, or Azure DevOps</p><p>Preferred Qualifications:</p><p>- Internship, research, or project experience related to developer tools, software engineering automation, or AI-assisted development</p><p>- Exposure to RAG, vector search, evaluation tools, or knowledge-based AI applications</p><p>- Familiarity with Docker, REST APIs, developer platforms, or integration of AI services into enterprise engineering environments</p><p>- Awareness of responsible AI practices, including output checks, safety controls, and human review</p><p>What We’re Looking For</p><p>- Strong problem-solving skills and a systems mindset</p><p>- Genuine interest in applying AI to real-world software engineering challenges</p><p>- Eagerness to learn quickly in a fast-moving, collaborative engineering environment</p><p>- Clear communication skills and the ability to work effectively across technical and cross-functional teams</p><p></p><p><i>If an hourly or salary range is included in this ad it represents the range 7-Eleven in good faith believes is the range of compensation for this role at the time of this posting. The Company may ultimately pay more or less than the posted range. This range is only applicable for jobs to be performed in this state. This range may be modified in the future. No amount is considered to be wages or compensation until such amount is earned, vested, and determinable under the terms and conditions of the applicable policies and plans. The amount and availability of any bonus, commission, long-term incentive compensation, benefits, or any other form of compensation and benefits that are allocable to a particular employee remains in the Company&#39;s sole discretion unless and until paid and may be modified at the Company’s sole discretion, consistent with the law.</i></p><p></p><p><i>For a general description of all benefits 7-Eleven is offering in the US for the position, please visit this </i><a target=\"_blank\" href=\"https://oli.vi/vLxt8oUz\"><span style=\"color:#0000ff\"><u>link</u></span></a><i>.</i></p><p></p><p><i>For a general description of all benefits 7-Eleven is offering in Canada for the position, please visit this </i><a target=\"_blank\" href=\"https://oli.vi/sxR17vDU\"><span style=\"color:#0000ff\"><u>link</u></span></a><i>.</i></p>",
+    "location": "SSC Irving TX",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-12",
+    "timeType": "Full time",
+    "jobReqId": "R26_3755",
+    "jobPostingId": "Software-Engineer_R26_3755",
+    "jobPostingSiteId": "Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/my7elevenhr/careers/sidebarimage/efad970f94871000168d2f6000020000",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "SSC Irving TX",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://my7elevenhr.wd12.myworkdayjobs.com/Careers/job/SSC-Irving-TX/Software-Engineer_R26_3755",
+    "questionnaireId": "5aa85038500d100729e7c8d81ff10000",
+    "timeLeftToApply": "6 hours left to apply",
+    "endDate": "2026-06-13",
+    "jobPostingEndDateAsText": "End Date: June 13, 2026"
+  },
+  "hiringOrganization": {
+    "name": "7-Eleven Inc",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

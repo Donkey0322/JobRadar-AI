@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/eulerity/jobs/4689194006",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4551601006,
+  "location": {
+    "name": "New York, New York"
+  },
+  "metadata": null,
+  "id": 4689194006,
+  "updated_at": "2026-06-12T18:19:12-04:00",
+  "requisition_id": "160",
+  "title": "Web Development Engineer Intern",
+  "company_name": "Eulerity",
+  "first_published": "2026-06-12T18:18:20-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;em&gt;Eulerity is a fast-growing marketing technology company transforming how franchises and small businesses approach digital advertising. Built by former leaders from Google, Facebook, and Yahoo!, our platform combines decades of experience in engineering and marketing to deliver an industry-leading, automated solution. We make it easy to plan, launch, and analyze paid campaigns across Google Search, Meta (Facebook/Instagram), Display, Video, and organic social - all from one intuitive platform. We believe breakthrough results happen when technology, strategy, and creativity come together. By combining automation with human insight, we empower brands to scale smarter, move faster, and grow stronger. Internally, we&#39;re just as committed to growth. We cultivate a culture where ambitious, curious, and driven individuals are empowered to lead, learn, and elevate those around them.&lt;/em&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and maintain AI-powered automation workflows that connect our product to internal and external systems&lt;/li&gt;\n&lt;li&gt;Develop features using AI-assisted tooling and autonomous agents&lt;/li&gt;\n&lt;li&gt;Collaborate across teams on architecture and product direction&lt;/li&gt;\n&lt;li&gt;Integrate third-party APIs and internal services&lt;/li&gt;\n&lt;li&gt;Translate designs into shipped, production-quality solutions&lt;/li&gt;\n&lt;li&gt;Participate in code reviews, PRs, and agile ceremonies&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;About You&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;AI-first engineer. You&#39;ve set up custom automation workflows (e.g., wiring Claude or similar LLMs into forms, APIs, or internal tools to replace manual work)&lt;/li&gt;\n&lt;li&gt;A self-starter who can take ownership of a project and work independently and collaboratively&lt;/li&gt;\n&lt;li&gt;Rigorous about reviewing AI-generated output and taking full ownership of the code you ship&lt;/li&gt;\n&lt;li&gt;Good attention to detail and initiative&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Graduating December 2026 or later from a Bachelor&#39;s degree program in Computer Science or a closely related field.&lt;/li&gt;\n&lt;li&gt;Proficiency in React and/or TypeScript, or demonstrated interest through coursework or personal projects&lt;/li&gt;\n&lt;li&gt;Foundational understanding of HTML, CSS, and JavaScript&lt;/li&gt;\n&lt;li&gt;Familiarity with APIs and standard engineering workflows (version control, code review, agile)&lt;/li&gt;\n&lt;li&gt;Based in or able to commute to the NYC metro area&lt;/li&gt;\n&lt;li&gt;Candidates requiring visa sponsorship are welcome to apply&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Nice to Have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with LLM APIs or AI automation workflows&lt;/li&gt;\n&lt;li&gt;SDK development experience&lt;/li&gt;\n&lt;li&gt;Backend or full-stack exposure (Java a plus)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation &amp;amp; Perks&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;$17–$19/hour, commensurate with experience&lt;/li&gt;\n&lt;li&gt;40 hours/week commitment required (During the Summer)&lt;/li&gt;\n&lt;li&gt;In-office lunch stipend and unlimited snacks&lt;/li&gt;\n&lt;li&gt;Full access to AI tools, bring what you already use, or discover what works best for you here.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;How to Apply&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Complete the external Google Form linked &lt;a href=&quot;https://forms.gle/2hxxHLqVb8oxpgNWA&quot;&gt;here&lt;/a&gt; to be considered for this position.&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4004462006,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4002110006,
+      "name": "New York",
+      "location": "New York, New York, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
