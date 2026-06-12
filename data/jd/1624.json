@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4280808009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4164885009,
+  "location": {
+    "name": "Cambridge, MA USA"
+  },
+  "metadata": [
+    {
+      "id": 4340245009,
+      "name": "Confidential?",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4280808009,
+  "updated_at": "2026-06-11T14:38:10-04:00",
+  "requisition_id": "8553",
+  "title": "Co-op, LLMs for Decision Making",
+  "company_name": "Lila Sciences",
+  "first_published": "2026-06-11T14:38:10-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Your Impact at LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences builds AI systems that accelerate discovery across the physical and life sciences. Within Physical Sciences AI, our decision making efforts develop the algorithms that drive experimental decision-making, closing the loop between models, experiments, and the next thing to try. We&#39;re now exploring how large language models can extend that capability: encoding domain priors, proposing candidates, reasoning over campaign history, and pairing naturally with established algorithms like Bayesian optimization for sample-efficient search.&lt;/p&gt;\n&lt;p&gt;As an LLMs for Decision Making Co-Op, you will work at the intersection of LLMs and Bayesian optimization, prototyping and evaluating approaches that combine language model reasoning with principled experimental design. Your work will land in the decision making stack that powers experimental campaigns across Lila&#39;s AI Science Facilities.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Be Building&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to LLM-based decision-making methods for experimental campaigns, focused on a well-defined sub-problem&lt;/li&gt;\n&lt;li&gt;Prototype approaches that combine LLM reasoning with Bayesian optimization, active learning, or design of experiments, with mentor guidance&lt;/li&gt;\n&lt;li&gt;Build evaluation frameworks that benchmark LLM-augmented strategies against established Bayesian baselines&lt;/li&gt;\n&lt;li&gt;Help integrate promising methods into the decision making stack used across physical sciences campaigns&lt;/li&gt;\n&lt;li&gt;Document findings and share results through write-ups, presentations, or contributions to internal libraries&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Pursuing a Master&#39;s or PhD in Machine Learning, Computer Science, Statistics, Applied Mathematics, Physics, Chemistry, Materials Science, or a related quantitative field&lt;/li&gt;\n&lt;li&gt;Strong programming skills in Python and familiarity with ML frameworks such as PyTorch, JAX, or similar&lt;/li&gt;\n&lt;li&gt;Foundation in Bayesian methods, Bayesian optimization, or probabilistic modeling&lt;/li&gt;\n&lt;li&gt;Experience with large language models including fine-tuning, test-time compute, and benchmarking in applied settings&lt;/li&gt;\n&lt;li&gt;Ability to turn open-ended scientific decision-making questions into concrete ML tasks with clear baselines and metrics&lt;/li&gt;\n&lt;li&gt;Comfort iterating on experiments and analyzing results in research-style codebases&lt;/li&gt;\n&lt;li&gt;Clear communication and interest in collaborating across ML and physical science teams&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with active learning, design of experiments, multi-objective optimization, or batch Bayesian optimization in scientific problem settings&lt;/li&gt;\n&lt;li&gt;Familiarity with agentic frameworks and structured-output techniques for scientific reasoning&lt;/li&gt;\n&lt;li&gt;Exposure to physical science applications such as materials, chemistry, catalysis, batteries, electrochemistry, or related domains&lt;/li&gt;\n&lt;li&gt;Prior work pairing LLMs with optimization, planning, or decision making processes&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is building Scientific Superintelligence™ to solve humankind&#39;s greatest challenges. We believe science is the most inspiring frontier for AI. Rather than hard-coding expert knowledge into tools, LILA builds systems that can learn for themselves.&lt;/p&gt;\n&lt;p&gt;LILA combines advanced AI models with proprietary AI Science Factory™ instruments into an operating system for science that executes the entire scientific method autonomously, accelerating discovery at unprecedented speed, scale, and impact across medicine, materials, and energy. Learn more at www.lila.ai.&lt;/p&gt;\n&lt;p&gt;Guided by our core values of truth, trust, curiosity, grit, and velocity, we move with startup speed while tackling problems of historic importance. If this sounds like an environment you&#39;d love to work in, even if you don&#39;t meet every qualification listed above, we encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We’re All In&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is&amp;nbsp;committed to equal employment opportunity&amp;nbsp;regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status.&lt;/p&gt;\n&lt;p&gt;Information you provide during your application process will be handled in accordance with our &lt;a href=&quot;https://www.lila.ai/candidate-privacy-policy-notice&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Note to Agencies&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lila Sciences does not accept unsolicited resumes from any source other than candidates. The submission of unsolicited resumes by recruitment or staffing agencies to Lila Sciences or its employees is strictly prohibited unless contacted directly by Lila Science’s internal Talent Acquisition team. Any resume submitted by an agency in the absence of a signed agreement will automatically become the property of Lila Sciences, and Lila Sciences will not owe any referral or other fees with respect thereto.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4013388009,
+      "name": "Physical Sciences AI",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019809009,
+      "name": "Alewife, Cambridge, MA",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
