@@ -1,3 +1,5 @@
+import pLimit from "p-limit";
+
 import type { Job } from "@/types";
 
 import { buildCompanyList } from "@/modules/company-tacker/company";
@@ -50,6 +52,8 @@ interface ProcessJobsOptions {
   softDeadlineMs?: number;
 }
 
+const AI_CONCURRENCY = 5;
+
 export async function processJobs({
   jobs: incomingJobs,
   urls,
@@ -79,54 +83,84 @@ export async function processJobs({
   }
 
   logger.info({ count: incomingJobs.length }, "👑 Finalizing jobs...");
+
   const jobs: Job[] = [];
 
   let totalCost = 0;
   let skipped = 0;
   let forceStopped = false;
 
-  for (const job of incomingJobs) {
-    const key = getJobKey(job.link);
+  const limit = pLimit(AI_CONCURRENCY);
 
-    if (keys.has(key)) {
-      skipped += 1;
+  const results = await Promise.all(
+    incomingJobs.map((job) =>
+      limit(async () => {
+        const key = getJobKey(job.link);
 
-      logger.info(
-        {
-          company: job.company,
-          role: job.role,
-          url: job.link,
-          reason: "Idempotent job check",
-        },
-        "⏭️ Skipped by idempotent job check"
-      );
+        if (keys.has(key)) {
+          return {
+            type: "skip" as const,
+            job,
+            reason: "idempotent",
+          };
+        }
 
-      continue;
-    }
+        if (shouldStopStartingNewJob()) {
+          return {
+            type: "deadline" as const,
+            job,
+          };
+        }
 
-    if (shouldStopStartingNewJob()) {
+        if (filter && (await filter(job))) {
+          return {
+            type: "skip" as const,
+            job,
+            reason: "filter",
+          };
+        }
+
+        const result = await getJD(job);
+
+        return {
+          type: "processed" as const,
+          job,
+          ...result,
+        };
+      })
+    )
+  );
+
+  const jdSaves: Promise<unknown>[] = [];
+
+  for (const result of results) {
+    if (result.type === "deadline") {
       forceStopped = true;
-      const processedJobCount = jobs.length + skipped;
-
-      logger.warn(
-        {
-          remainingSeconds: Math.round(remainingMs() / 1000),
-          processed: processedJobCount,
-          remaining: incomingJobs.length - processedJobCount,
-        },
-        "⏰ Soft deadline reached. Stop starting new jobs and finalize current results."
-      );
-
-      break;
-    }
-
-    if (filter && (await filter(job))) {
-      markAsSeen(job);
-      skipped += 1;
       continue;
     }
 
-    const { jd, rawJD, cost } = await getJD(job);
+    if (result.type === "skip") {
+      if (result.reason === "idempotent") {
+        skipped += 1;
+
+        logger.info(
+          {
+            company: result.job.company,
+            role: result.job.role,
+            url: result.job.link,
+            reason: "Idempotent job check",
+          },
+          "⏭️ Skipped by idempotent job check"
+        );
+      } else {
+        markAsSeen(result.job);
+        skipped += 1;
+      }
+
+      continue;
+    }
+
+    const { job, jd, rawJD, cost } = result;
 
     totalCost += cost;
 
@@ -155,18 +189,29 @@ export async function processJobs({
       job.id = currentId;
       job.jd = jd;
 
-      await saveJd(rawJD, job);
+      jdSaves.push(saveJd(rawJD, job));
     }
 
     markAsSeen(job);
     jobs.push(job);
   }
 
+  await Promise.all(jdSaves);
+
   await saveUrls(urls);
   await saveJob(jobs);
 
   if (newUrlAdded) {
     await buildCompanyList(urls);
+  }
+
+  if (forceStopped) {
+    logger.warn(
+      {
+        remainingSeconds: Math.round(remainingMs() / 1000),
+      },
+      "⏰ Soft deadline reached. Some jobs were not started."
+    );
   }
 
   if (jobs.length > 0) {
