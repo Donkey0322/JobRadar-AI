@@ -36,6 +36,19 @@
     "urls": []
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
+      "https://www.8am.com/openings/?gh_jid=4675949006",
+      "https://www.8am.com/openings/?gh_jid=4678802006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -444,12 +457,7 @@
     "identifier": "affinipay1",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
-      "https://www.8am.com/openings/?gh_jid=4675949006",
-      "https://www.8am.com/openings/?gh_jid=4678802006"
-    ]
+    "urls": []
   },
   {
     "name": "affirm",
@@ -1653,21 +1661,21 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/astranis/jobs/4601135006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4646558006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4681183006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4351178006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4600266006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4595910006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4681218006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4363202006",
       "https://job-boards.greenhouse.io/astranis/jobs/4017276006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4351178006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4363202006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4595910006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4600266006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4601135006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4622097006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4646558006",
       "https://job-boards.greenhouse.io/astranis/jobs/4646906006",
       "https://job-boards.greenhouse.io/astranis/jobs/4667335006",
       "https://job-boards.greenhouse.io/astranis/jobs/4667338006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4622097006",
       "https://job-boards.greenhouse.io/astranis/jobs/4672035006",
-      "https://job-boards.greenhouse.io/astranis/jobs/4680136006"
+      "https://job-boards.greenhouse.io/astranis/jobs/4680136006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4681183006",
+      "https://job-boards.greenhouse.io/astranis/jobs/4681218006"
     ]
   },
   {
@@ -7726,9 +7734,9 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/gimlet",
     "urls": [
+      "https://jobs.ashbyhq.com/gimlet/187f53a3-a1d2-4704-a866-f32817390e07",
       "https://jobs.ashbyhq.com/gimlet/23e10dd6-e7c5-43f0-b14e-54ab999fccd9",
-      "https://jobs.ashbyhq.com/gimlet/373302e0-c4ab-4fdf-a8be-18ec45e4c5f5",
-      "https://jobs.ashbyhq.com/gimlet/187f53a3-a1d2-4704-a866-f32817390e07"
+      "https://jobs.ashbyhq.com/gimlet/373302e0-c4ab-4fdf-a8be-18ec45e4c5f5"
     ]
   },
   {
@@ -7986,6 +7994,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/132478779447485126-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/132698860114846406-hardware-emulation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/132698860114846406-hardware-emulation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/132698860114846406-hardware-emulation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/132832428128379590-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/134542715344822982-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/134851841320985286-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
@@ -8117,8 +8126,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/99074314820559558-data-center-facilities-technician-iii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/99178576225411782-associate-data-center-facilities-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/99458065853489862-administrative-business-partner-cloud-ai?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
-      "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/132698860114846406-hardware-emulation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3"
+      "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1"
     ]
   },
   {
@@ -10356,9 +10364,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/launchdarkly/jobs/7736270003",
+      "https://job-boards.greenhouse.io/launchdarkly/jobs/7753776003",
       "https://job-boards.greenhouse.io/launchdarkly/jobs/7761616003",
-      "https://job-boards.greenhouse.io/launchdarkly/jobs/7767264003",
-      "https://job-boards.greenhouse.io/launchdarkly/jobs/7753776003"
+      "https://job-boards.greenhouse.io/launchdarkly/jobs/7767264003"
     ]
   },
   {
@@ -11596,7 +11604,8 @@
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Edinburgh-UK-ZUK129/Junior-Back-End-Engineer_R65538",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-US-Offsite/Design-Technologist---2026-Fall-Coop_R63068",
       "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--Front-end-Co-Op_R65900-1",
-      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Glostrup-Denmark-ZDK02/Software-Engineer_R65791"
+      "https://motorolasolutions.wd5.myworkdayjobs.com/careers/job/Glostrup-Denmark-ZDK02/Software-Engineer_R65791",
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Developer--Back-end-Co-Op_R65923"
     ]
   },
   {
@@ -12368,6 +12377,16 @@
     "page": "https://api.lever.co/v0/postings/octoenergy?mode=json",
     "urls": [
       "https://jobs.lever.co/octoenergy/cb4fc843-799a-45ee-8bf1-e1a909d651e6"
+    ]
+  },
+  {
+    "name": "offerup",
+    "ats": "greenhouse",
+    "identifier": "offerup",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/offerup/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/offerup/jobs/8004171"
     ]
   },
   {
@@ -17373,7 +17392,9 @@
     "identifier": "wd5.myworkdaysite.com",
     "domain": "https://wd5.myworkdaysite.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/AZ---Chandler/Engineer-I---Software-Development--Python---AI-_R2452-26"
+    ]
   },
   {
     "name": "wealthsimple",
