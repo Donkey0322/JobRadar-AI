@@ -96,6 +96,9 @@ export async function loadCompanies(): Promise<Company[]> {
 }
 
 export async function appendErrorLog(message: string) {
+  if (!process.stdout.isTTY) {
+    return;
+  }
   const timestamp = new Date().toISOString();
   await fs.appendFile(ERROR_LOG_PATH, `${timestamp} ${message}\n`, "utf-8");
 }
