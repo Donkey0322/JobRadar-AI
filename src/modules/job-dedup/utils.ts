@@ -14,6 +14,7 @@ export function normalizeUrl(url: string): string {
 }
 
 export function getLastPathNumber(pathname: string): string | null {
-  const match = pathname.match(/\/(\d{6,})(?:\/|$)/);
-  return match?.[1] ?? null;
+  const matches = [...pathname.matchAll(/\/(\d+)/g)];
+
+  return matches.at(-1)?.[1] ?? null;
 }
