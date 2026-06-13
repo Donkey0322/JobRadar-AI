@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-import { COMPANY_PATH, JD_PATH, JOB_PATH, URLS_PATH } from "@/constants";
+import { COMPANY_PATH, ERROR_LOG_PATH, JD_PATH, JOB_PATH, URLS_PATH } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
@@ -96,7 +96,6 @@ export async function loadCompanies(): Promise<Company[]> {
 }
 
 export async function appendErrorLog(message: string) {
-  // const timestamp = new Date().toISOString();
-  // await fs.appendFile(ERROR_LOG_PATH, `${timestamp} ${message}\n`, "utf-8");
-  logger.error({ message }, "⚠️ Error logging");
+  const timestamp = new Date().toISOString();
+  await fs.appendFile(ERROR_LOG_PATH, `${timestamp} ${message}\n`, "utf-8");
 }

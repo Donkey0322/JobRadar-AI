@@ -35,7 +35,7 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
       case "workday":
         return urlToWorkdayCompany(url);
       case "ashby":
-        return urlToAshbyCompany(url);
+        return await urlToAshbyCompany(url);
       case "smartrecruiters":
         return urlToSmartRecruitersCompany(url);
       case "icims":

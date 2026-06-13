@@ -16,8 +16,6 @@ const hostToATS: Record<string, ATS> = {
 export function classifyATS(url: URL): ATS {
   const host = url.hostname;
 
-  if (url.searchParams.get("gh_jid")) return "greenhouse";
-
   if (host.endsWith("greenhouse.io")) {
     return "greenhouse";
   } else if (host.endsWith("lever.co")) {
@@ -33,6 +31,11 @@ export function classifyATS(url: URL): ATS {
   } else if (host.endsWith("icims.com")) {
     return "icims";
   } else {
+    if (url.searchParams.get("ashby_jid")) {
+      return "ashby";
+    }
+    if (url.searchParams.get("gh_jid")) return "greenhouse";
+
     return hostToATS[host] ?? "custom";
   }
 }
