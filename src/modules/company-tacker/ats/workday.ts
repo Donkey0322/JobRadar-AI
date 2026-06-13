@@ -83,7 +83,13 @@ export async function fetchWorkday(company: Company, urls: Set<string>, signal: 
       // JSON parse profiling
       const jsonStart = Date.now();
 
-      const data = await res.json();
+      // parse JSON error handling
+      let data;
+      try {
+        data = await res.json();
+      } catch {
+        throw new Error("Workday JSON parse error");
+      }
 
       const jsonDuration = Date.now() - jsonStart;
 
@@ -134,6 +140,18 @@ export async function fetchWorkday(company: Company, urls: Set<string>, signal: 
         },
         "⚠️ Workday request aborted"
       );
+
+      return [];
+    }
+
+    if (error instanceof Error && error.message === "Workday JSON parse error") {
+      // logger.error(
+      //   {
+      //     company: company.name,
+      //     url: company.page,
+      //   },
+      //   "⚠️ Workday JSON parse error"
+      // );
 
       return [];
     }

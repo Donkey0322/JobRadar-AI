@@ -1,12 +1,14 @@
 import { ASHBY_API_URL } from "@/constants/ats";
 
-import type { AshbyJob } from "@/modules/company-tacker/ats/ashby";
+import type { JDFetchResult } from "./fetch";
 
-import { fetchJD, JD_FETCH_ERROR, type JDFetchResult } from "./fetch";
+import { fetchJD, JD_FETCH_ERROR } from "./fetch";
+
+import { type AshbyJob, urlToAshbyCompany } from "@/modules/company-tacker/ats/ashby";
 
 export async function fetchAshbyJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const u = new URL(url);
-  const identifier = u.pathname.split("/")[1];
+  const { identifier } = await urlToAshbyCompany(new URL(url));
   const id = u.pathname.split("/")[2];
 
   if (!identifier || !id) {

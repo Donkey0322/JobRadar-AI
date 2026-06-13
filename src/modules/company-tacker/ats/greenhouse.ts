@@ -264,5 +264,3 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>, signa
     ]
   },
  */
-
-urlToGreenhouseCompany(new URL("https://careers.airbnb.com/positions/7871746/")).then(console.log);
