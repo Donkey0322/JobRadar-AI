@@ -169,7 +169,7 @@ function formTitle(category?: JobCategory, season?: Season) {
 
     default:
       category satisfies undefined;
-      return "General";
+      return "Normal Level";
   }
 }
 

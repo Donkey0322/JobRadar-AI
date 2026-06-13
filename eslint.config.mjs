@@ -6,10 +6,8 @@ import simpleImportSort from "eslint-plugin-simple-import-sort";
 import prettier from "eslint-config-prettier";
 
 export default [
-  // 基本 JS 推薦規則
   js.configs.recommended,
 
-  // TypeScript 推薦規則
   ...tseslint.configs.recommended,
 
   {
@@ -60,6 +58,5 @@ export default [
     },
   },
 
-  // 🔥 關閉所有會跟 Prettier 衝突的規則
   prettier,
 ];
