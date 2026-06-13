@@ -3624,6 +3624,16 @@
     "urls": []
   },
   {
+    "name": "careers.itw.com",
+    "ats": "custom",
+    "identifier": "careers.itw.com",
+    "domain": "https://careers.itw.com",
+    "page": "",
+    "urls": [
+      "https://careers.itw.com/global/en/job/JR4585"
+    ]
+  },
+  {
     "name": "careers.kodak.com",
     "ats": "custom",
     "identifier": "careers.kodak.com",
@@ -6334,8 +6344,8 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722751",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/722759",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723270",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723283"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723283",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -16650,7 +16660,9 @@
     "page": "https://usnh.wd5.myworkdayjobs.com/wday/cxs/usnh/careers/jobs",
     "urls": [
       "https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/High-Tech-Bound-Broadband-Intern_JR8298",
-      "https://usnh.wd5.myworkdayjobs.com/careers/job/University-of-New-Hampshire--Main-Campus/Web-Developer_JR7231"
+      "https://usnh.wd5.myworkdayjobs.com/careers/job/University-of-New-Hampshire--Main-Campus/Web-Developer_JR7231",
+      "https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/IOL-Embase-HighTech-Bound-Intern_JR8064",
+      "https://usnh.wd5.myworkdayjobs.com/Careers/job/University-of-New-Hampshire--Main-Campus/High-Tech-Bound-Datacenter-Intern_JR8299"
     ]
   },
   {
