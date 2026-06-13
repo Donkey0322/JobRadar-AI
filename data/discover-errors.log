@@ -63,3 +63,29 @@
 2026-06-13T09:00:01.724Z Lever: uncountable - 404 - Not Found
 2026-06-13T09:00:03.961Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-06-13T09:00:03.961Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-06-13T11:07:33.797Z Workday: activision - 422 - Unprocessable Entity
+2026-06-13T11:07:33.843Z Workday: activision - 422 - Unprocessable Entity
+2026-06-13T11:07:34.229Z Workday: acehardware - 500 - Internal Server Error
+2026-06-13T11:07:34.706Z Workday: alliancewd - 404 - Not Found
+2026-06-13T11:07:35.331Z Lever: anysignal - 404 - Not Found
+2026-06-13T11:07:39.684Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-06-13T11:07:40.616Z Workday: crowdstrike - 404 - Not Found
+2026-06-13T11:07:44.062Z Workday: elkay - 500 - Internal Server Error
+2026-06-13T11:07:44.880Z Lever: ethereumfoundation - 404 - Not Found
+2026-06-13T11:07:49.402Z Workday: geico - 500 - Internal Server Error
+2026-06-13T11:07:52.086Z Workday: intel - 404 - Not Found
+2026-06-13T11:07:52.697Z Workday: kar - 422 - Unprocessable Entity
+2026-06-13T11:07:53.767Z Workday: livenation - 404 - Not Found
+2026-06-13T11:07:56.012Z Workday: netflix - 422 - Unprocessable Entity
+2026-06-13T11:07:56.548Z Workday: nrel - 404 - Not Found
+2026-06-13T11:07:56.953Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-06-13T11:07:56.992Z Workday: nordstrom - 500 - Internal Server Error
+2026-06-13T11:07:56.997Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-06-13T11:07:59.607Z Workday: regions - 500 - Internal Server Error
+2026-06-13T11:08:02.150Z Workday: stanfordhealthcare - 400 - Bad Request
+2026-06-13T11:08:02.835Z Workday: symbotic - 422 - Unprocessable Entity
+2026-06-13T11:08:03.033Z Lever: tamr - 404 - Not Found
+2026-06-13T11:08:04.916Z Lever: uncountable - 404 - Not Found
+2026-06-13T11:08:05.474Z Workday: truist - 500 - Internal Server Error
+2026-06-13T11:08:05.697Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-06-13T11:08:05.716Z Workday: vhr-otsuka - 422 - Unprocessable Entity
