@@ -5,9 +5,10 @@ import type { Job } from "@/types";
 
 import { fetchAmazon } from "./amazon";
 import { fetchGoogle } from "./google";
+import { fetchMeta } from "./meta";
 import { fetchMicrosoft } from "./microsoft";
 
-type CustomCompanyIdentifier = "amazon" | "microsoft" | "google";
+type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta";
 
 function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
   const host = url.hostname;
@@ -17,6 +18,8 @@ function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null 
     return "microsoft";
   } else if (host.includes("google.com")) {
     return "google";
+  } else if (host.includes("metacareers.com")) {
+    return "meta";
   } else {
     // logger.warn(`Unsupported custom company: ${host}`);
     return null;
@@ -55,6 +58,15 @@ export function urlToCustomCompany(url: URL): Company {
         page: "https://www.google.com/about/careers/applications/jobs/results?location=United%20States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY",
         urls: [],
       };
+    case "meta":
+      return {
+        name: "Meta",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: "https://www.metacareers.com/jobsearch",
+        urls: [],
+      };
     default: {
       identifier satisfies null;
       return {
@@ -83,6 +95,9 @@ export async function fetchCustom(
     }
     case "google": {
       return await fetchGoogle(company, urls, signal);
+    }
+    case "meta": {
+      return await fetchMeta(company, urls, signal);
     }
     default:
       return [];
