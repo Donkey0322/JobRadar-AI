@@ -1,0 +1,63 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/offerup/jobs/8004171",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3470471,
+  "location": {
+    "name": "Hybrid @ Bellevue"
+  },
+  "metadata": [
+    {
+      "id": 47921,
+      "name": "WORKER_CATEGORY",
+      "value": "Intern",
+      "value_type": "single_select"
+    }
+  ],
+  "id": 8004171,
+  "updated_at": "2026-06-12T18:32:33-04:00",
+  "requisition_id": "1218",
+  "title": "Software Engineering Intern - Summer 2026 (Hybrid @ Bellevue, WA)",
+  "company_name": "OfferUp",
+  "first_published": "2026-06-12T18:32:33-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h3&gt;About the Role&lt;/h3&gt;\n&lt;p&gt;OfferUp is looking for a &lt;strong&gt;Software Engineering Intern&lt;/strong&gt; to join our engineering team this summer. You&#39;ll be embedded on one of our engineering teams; building the systems and experiences that help millions of buyers and sellers connect, transact, and build trust every day. Wherever you land, you&#39;ll write production code that real users (and other engineering teams) depend on, with teams that move quickly and ship often.&lt;/p&gt;\n&lt;p&gt;This is a hybrid role based in our &lt;strong&gt;Bellevue, WA&lt;/strong&gt; office. You&#39;ll spend 3 days a week in the office, working alongside engineers, product managers, and designers to ship meaningful work in a fast-moving environment.&lt;/p&gt;\n&lt;p&gt;You won&#39;t be on the sidelines. From day one you&#39;ll own real engineering work, pair with senior engineers, and use modern AI tooling to ramp up quickly and move with the pace of the team.&lt;/p&gt;\n&lt;h3&gt;What You&#39;ll Do&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Ship real code:&lt;/strong&gt; Design, build, and ship features that run in production and reach real users, not throwaway prototypes.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Own a meaningful problem:&lt;/strong&gt; Take a defined piece of work from design through delivery, with the support of your engineering manager and teammates.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Build across the system:&lt;/strong&gt; Develop and improve the services, APIs, and experiences that power OfferUp, and learn how the pieces fit together end to end.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Move fast and do spike work:&lt;/strong&gt; Investigate open-ended problems, prototype solutions, and turn technical spikes into clear recommendations the team can act on.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Leverage AI tools:&lt;/strong&gt; Use tools like Claude and Gemini to ramp up faster, navigate the codebase, accelerate spike work, and raise the quality of what you ship.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Collaborate across the team:&lt;/strong&gt; Work closely with engineers, product managers, and designers to turn ambiguous requirements into shipped, well-tested features.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Care about quality:&lt;/strong&gt; Write tests, participate in code reviews, and help keep our systems observable, reliable, and maintainable.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Present your work:&lt;/strong&gt; Share what you built and what you learned with the broader engineering and product teams at the end of your internship.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Who You Are&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;A builder who likes to ship:&lt;/strong&gt; You&#39;re motivated by getting working software into users&#39; hands and iterating quickly.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong on fundamentals:&lt;/strong&gt; You understand data structures, algorithms, and how software systems are designed, and you can reason about how your code behaves in the real world.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A strong communicator:&lt;/strong&gt; You can explain a technical decision clearly: in a design doc, a pull request, or a room full of engineers.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A self-starter:&lt;/strong&gt; You don&#39;t wait to be told what to do next. You take initiative, ask good questions, dig into the codebase, and figure things out.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Energized by a fast pace:&lt;/strong&gt; You&#39;re comfortable with ambiguity and change, and you do your best work on a team that moves quickly.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Currently enrolled&lt;/strong&gt; in an undergraduate or graduate (or equivalent) program, returning to school after the internship.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Helpful, but not required&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Prior internship or project experience building software in a team setting.&lt;/li&gt;\n&lt;li&gt;Familiarity with Java or a similar programming language.&lt;/li&gt;\n&lt;li&gt;Exposure to cloud platforms, databases, APIs, or distributed systems.&lt;/li&gt;\n&lt;li&gt;Experience with two-sided marketplaces, mobile apps, or large-scale consumer products.&lt;/li&gt;\n&lt;li&gt;Comfort using AI coding assistants as part of your day-to-day workflow.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Compensation: &lt;/strong&gt;The hourly rate for this internship is $48 – $56. Placement within this range reflects academic level (undergraduate vs. graduate), relevant technical experience, and demonstrated proficiency in applicable tools.&lt;/p&gt;\n&lt;p&gt;This is a non-benefits-eligible internship. No additional compensation beyond hourly wages is offered.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About OfferUp:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;OfferUp is dedicated to creating the simplest and most trusted way for people to buy, sell, and connect in their local communities. One of the top local marketplace apps for local buyers and sellers in the U.S., OfferUp makes it easy for people to discover more of what they need—from great deals and secondhand goods to jobs, services, home rentals, and more—right in their own communities. Our trusted platform empowers millions to connect, thrive, and move life forward.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Available on iOS and Android, OfferUp has consistently ranked among the top shopping apps. Founded in 2011 and based in Bellevue, WA, OfferUp serves local markets nationwide and was used by more than 1 in 6 adults in the U.S. in 2024. OfferUp is backed by leading investors, including Andreessen Horowitz, Warburg Pincus, GGV Capital, T. Rowe Price, and Coatue Management. https://about.offerup.com&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;More About OfferUp At a Glance&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Top 10 Shopping app in the App Store and Google Play Store for three years&lt;/li&gt;\n&lt;li&gt;15%+ of adults in several major markets use OfferUp every month (LA, Miami, Phoenix, Seattle, Las Vegas, Riverside, Orlando)&lt;/li&gt;\n&lt;li&gt;OfferUp works directly with nearly 2000 US law enforcement agencies to build trust in local communities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;OfferUp is unleashing the power of local, and we’ve built a dynamic team to do it. To learn more about working at OfferUp, check out &lt;/em&gt;&lt;a href=&quot;https://about.offerup.com/people&quot;&gt;&lt;em&gt;https://about.offerup.com/people&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;OfferUp provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, or genetics. In addition to federal law requirements, OfferUp complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, transfer, leaves of absence, compensation, and training.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;OfferUp expressly prohibits any form of workplace harassment based on race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, or veteran status. Improper interference with the ability of OfferUp’s employees to perform their job duties may result in discipline up to and including discharge.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 79686,
+      "name": "Engineering",
+      "child_ids": [
+        80298,
+        66561,
+        80475,
+        80296,
+        66552,
+        72446,
+        57986,
+        133306,
+        66555,
+        80297,
+        133307
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 8713,
+      "name": "Bellevue",
+      "location": "Bellevue, WA, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

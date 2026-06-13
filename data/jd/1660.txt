@@ -1,0 +1,109 @@
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "AZ - Chandler"
+}
+},
+"hiringOrganization" : {
+"name" : "Microchip - USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Engineer I - Software Development (Python / AI)",
+"@type" : "PropertyValue",
+"value" : "R2452-26"
+},
+"datePosted" : "2026-06-12",
+"validThrough" : "2026-06-15",
+"employmentType" : "FULL_TIME",
+"title" : "Engineer I - Software Development (Python / AI)",
+"description" : "Are you looking for a unique opportunity to be a part of something great? Want to join a 17,000-member team that works on the technology that powers the world around us? Looking for an atmosphere of trust, empowerment, respect, diversity, and communication? How about an opportunity to own a piece of a multi-billion dollar (with a B!) global organization? We offer all that and more at Microchip Technology Inc. People come to work at Microchip because we help design the technology that runs the world. They stay because our culture supports their growth and stability. They are challenged and driven by an incredible array of products and solutions with unlimited career potential. Microchip’s nationally-recognized Leadership Passage Programs support career growth where we proudly enroll over a thousand people annually. We take pride in our commitment to employee development, values-based decision making, and strong sense of community, driven by our Vision, Mission, and 11 Guiding Values; we affectionately refer to it as the Aggregate System and it’s won us countless awards for diversity and workplace excellence. Our company is built by dedicated team players who love to challenge the status quo; we did not achieve record revenue and over 30 years of quarterly profitability without a great team dedicated to empowering innovation. People like you. Visit our careers page to see what exciting opportunities and company perks await! Job Description: Job Description We’re a small software team embedded within semiconductor manufacturing, focused on transforming how production data is collected, analyzed, and put into action across our sites. Our technology stack is evolving toward Python-centric services, AI/ML-powered analytics, and LLM-driven tools, and we’re looking for an engineer to help drive that transformation. In this role, you’ll collaborate closely with test and yield engineers to turn complex manufacturing data into practical, user-friendly systems. Your work will vary from developing data pipelines to prototyping LLM-based solutions that streamline time-consuming analysis. If you enjoy tackling diverse challenges, solving meaningful real-world problems, and seeing your work deployed on the factory floor, this position offers a unique opportunity to make a direct impact. Build Python services, APIs, and data pipelines that collect, transform, and deliver semiconductor manufacturing data at scale. - Develop and deploy AI/ML models and LLM-based solutions that automate analysis and surface actionable insights for engineers. - Design and maintain the data infrastructure (databases, messaging, web platforms) that the team and factory rely on daily. - Work directly with end-users — test engineers, yield engineers, process engineers — to understand their problems and ship solutions. - Identify and implement automation opportunities with an AI/ML-first mindset. - Maintain clear technical documentation so the team can grow without tribal knowledge. Requirements/Qualifications: Minimum Qualifications - Bachelor's degree in Computer Science, Computer Information Systems, Mathematics, or a related field. - Proficiency in Python — you've built real applications, pipelines, or tooling with it, not just scripts. - Strong SQL skills including stored procedures and complex queries across relational databases. - Working familiarity with AI/ML concepts and at least one of: ML frameworks (scikit-learn, PyTorch, TensorFlow), LLM APIs, or AI-assisted development tools. - Ability to translate business problems into technical solutions without needing everything spelled out. --- Preferred Qualifications **AI &amp; Data** - Hands-on experience building or integrating LLM-based solutions (RAG pipelines, prompt engineering, agent frameworks). - Ability to effectively direct AI coding tools through clear intent and prompt articulation to produce production-quality code. - Experience with AI/ML model development, evaluation, and deployment in production environments. - Knowledge of statistics, data mining, or data visualization techniques. **Infrastructure &amp; DevOps** - Docker/containerization and container orchestration. - Event-driven architectures and pub-sub messaging (Redis, Kafka). - Git, CI/CD pipelines (Azure DevOps, Jenkins), and test-driven development practices. - Linux/Unix command-line proficiency; web server administration (NGINX) is a plus. **Domain** - Familiarity with semiconductor fabrication or testing processes. - Experience with web front-end technologies (JavaScript, React, Angular). - Additional languages beyond Python (Java, C#, C/C++). Travel Time: No Travel Physical Attributes: Bending at Waist, Carrying, Climbing, Crawling, Crouching, Feeling, Foot Controls, Fumes or Odors, Handling, Hearing, Kneeling, Lifting, Other, Piece Work, Pulling, Pushing, Reaching, Seeing, Stooping, Talking, Works Alone, Works Around Others Physical Requirements: 15% walking, 20% standing, 65% sitting Microchip Technology Inc is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. For more information on applicable equal employment regulations, please refer to the Know Your Rights: Workplace Discrimination is Illegal Poster. To all recruitment agencies: Microchip Technology Inc. does not accept unsolicited agency resumes. Please do not forward resumes to our recruiting team or other Microchip employees. Microchip is not responsible for any fees related to unsolicited resumes. At Microchip, employees are our greatest strength. As one of the top performing semiconductor companies in the world, we are led by a set of guiding values and a mission to empower innovation to enhance the human experience. We work tirelessly to create a company culture that highlights how important every employee is to our mission. Microchip Recruitment Privacy Notice Recruitment Scam Alert Microchip will never: Request banking or payment information during the application or interview process. Ask candidates to register or pay for a training class as part of the application or interview process. Ask candidates to receive or ship packages or goods as part of the recruitment process. Use email address not ending with \"@microchip.com\". Use instant messaging to communicate. Be wary of generic emails or vague job details. If something feels suspicious, stop communicating immediately. To report potential scams, contact us at HR.Compliance@microchip.com.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+{
+"jobLocation" : {
+"@type" : "Place",
+"address" : {
+"@type" : "PostalAddress",
+"addressCountry" : "United States of America",
+"addressLocality" : "AZ - Chandler"
+}
+},
+"hiringOrganization" : {
+"name" : "Microchip - USA",
+"@type" : "Organization",
+"sameAs" : ""
+},
+"identifier" : {
+"name" : "Engineer I - Software Development (Python / AI)",
+"@type" : "PropertyValue",
+"value" : "R2452-26"
+},
+"datePosted" : "2026-06-12",
+"validThrough" : "2026-06-15",
+"employmentType" : "FULL_TIME",
+"title" : "Engineer I - Software Development (Python / AI)",
+"description" : "Are you looking for a unique opportunity to be a part of something great? Want to join a 17,000-member team that works on the technology that powers the world around us? Looking for an atmosphere of trust, empowerment, respect, diversity, and communication? How about an opportunity to own a piece of a multi-billion dollar (with a B!) global organization? We offer all that and more at Microchip Technology Inc. People come to work at Microchip because we help design the technology that runs the world. They stay because our culture supports their growth and stability. They are challenged and driven by an incredible array of products and solutions with unlimited career potential. Microchip’s nationally-recognized Leadership Passage Programs support career growth where we proudly enroll over a thousand people annually. We take pride in our commitment to employee development, values-based decision making, and strong sense of community, driven by our Vision, Mission, and 11 Guiding Values; we affectionately refer to it as the Aggregate System and it’s won us countless awards for diversity and workplace excellence. Our company is built by dedicated team players who love to challenge the status quo; we did not achieve record revenue and over 30 years of quarterly profitability without a great team dedicated to empowering innovation. People like you. Visit our careers page to see what exciting opportunities and company perks await! Job Description: Job Description We’re a small software team embedded within semiconductor manufacturing, focused on transforming how production data is collected, analyzed, and put into action across our sites. Our technology stack is evolving toward Python-centric services, AI/ML-powered analytics, and LLM-driven tools, and we’re looking for an engineer to help drive that transformation. In this role, you’ll collaborate closely with test and yield engineers to turn complex manufacturing data into practical, user-friendly systems. Your work will vary from developing data pipelines to prototyping LLM-based solutions that streamline time-consuming analysis. If you enjoy tackling diverse challenges, solving meaningful real-world problems, and seeing your work deployed on the factory floor, this position offers a unique opportunity to make a direct impact. Build Python services, APIs, and data pipelines that collect, transform, and deliver semiconductor manufacturing data at scale. - Develop and deploy AI/ML models and LLM-based solutions that automate analysis and surface actionable insights for engineers. - Design and maintain the data infrastructure (databases, messaging, web platforms) that the team and factory rely on daily. - Work directly with end-users — test engineers, yield engineers, process engineers — to understand their problems and ship solutions. - Identify and implement automation opportunities with an AI/ML-first mindset. - Maintain clear technical documentation so the team can grow without tribal knowledge. Requirements/Qualifications: Minimum Qualifications - Bachelor's degree in Computer Science, Computer Information Systems, Mathematics, or a related field. - Proficiency in Python — you've built real applications, pipelines, or tooling with it, not just scripts. - Strong SQL skills including stored procedures and complex queries across relational databases. - Working familiarity with AI/ML concepts and at least one of: ML frameworks (scikit-learn, PyTorch, TensorFlow), LLM APIs, or AI-assisted development tools. - Ability to translate business problems into technical solutions without needing everything spelled out. --- Preferred Qualifications **AI &amp; Data** - Hands-on experience building or integrating LLM-based solutions (RAG pipelines, prompt engineering, agent frameworks). - Ability to effectively direct AI coding tools through clear intent and prompt articulation to produce production-quality code. - Experience with AI/ML model development, evaluation, and deployment in production environments. - Knowledge of statistics, data mining, or data visualization techniques. **Infrastructure &amp; DevOps** - Docker/containerization and container orchestration. - Event-driven architectures and pub-sub messaging (Redis, Kafka). - Git, CI/CD pipelines (Azure DevOps, Jenkins), and test-driven development practices. - Linux/Unix command-line proficiency; web server administration (NGINX) is a plus. **Domain** - Familiarity with semiconductor fabrication or testing processes. - Experience with web front-end technologies (JavaScript, React, Angular). - Additional languages beyond Python (Java, C#, C/C++). Travel Time: No Travel Physical Attributes: Bending at Waist, Carrying, Climbing, Crawling, Crouching, Feeling, Foot Controls, Fumes or Odors, Handling, Hearing, Kneeling, Lifting, Other, Piece Work, Pulling, Pushing, Reaching, Seeing, Stooping, Talking, Works Alone, Works Around Others Physical Requirements: 15% walking, 20% standing, 65% sitting Microchip Technology Inc is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. For more information on applicable equal employment regulations, please refer to the Know Your Rights: Workplace Discrimination is Illegal Poster. To all recruitment agencies: Microchip Technology Inc. does not accept unsolicited agency resumes. Please do not forward resumes to our recruiting team or other Microchip employees. Microchip is not responsible for any fees related to unsolicited resumes. At Microchip, employees are our greatest strength. As one of the top performing semiconductor companies in the world, we are led by a set of guiding values and a mission to empower innovation to enhance the human experience. We work tirelessly to create a company culture that highlights how important every employee is to our mission. Microchip Recruitment Privacy Notice Recruitment Scam Alert Microchip will never: Request banking or payment information during the application or interview process. Ask candidates to register or pay for a training class as part of the application or interview process. Ask candidates to receive or ship packages or goods as part of the recruitment process. Use email address not ending with \"@microchip.com\". Use instant messaging to communicate. Be wary of generic emails or vague job details. If something feels suspicious, stop communicating immediately. To report potential scams, contact us at HR.Compliance@microchip.com.",
+"@context" : "http://schema.org",
+"@type" : "JobPosting"
+}
+window.workday = window.workday || {
+tenant: "microchiphr",
+siteId: "External",
+locale: "",
+requestLocale: "en-US",
+supportedLocales:["de-DE","en-US","en-CA","en-GB","fr-FR"],
+clientOrigin: "https://wd5.myworkday.com",
+language: null,
+cdnEndpoint: "wd5.myworkdaycdn.com",
+useCdn: true,
+maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=microchiphr&s=External",
+token: "603afa4f-d0a5-41b8-912c-28636097b2aa",
+environment: "PROD",
+isExternal: true,
+appName: "cxs",
+postingAvailable: true,
+allowedFileTypes: [],
+blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","35493f847c6e100024dfda9f7a260000","32bccbf501f610002313c4ee6e9c0000","9a5c2e00783510001da3595e16ee0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","b6678cba4dbc10000a476842e3bb0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","96cc49ab4185100014c0824814050000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","1fda372a2c2310002fdb093b08500000","f2f032937a19100012902c59ea990000","10f7a56eb11c100024a6d65b625a0000","3b516ed7dbb11000154ebe32231b0000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000"],
+branding: {"formFields":{"color":"#41B6E6","textColor":"#000000"},"progressBar":{"color":"#1C355E"},"button":{"primary":{"color":"#1C355E","borderColor":"#1C355E","textColor":"#FFFFFF","hover":{"color":"#41B6E6","borderColor":"#41B6E6","textColor":"#FFFFFF"}},"secondary":{"color":"#FFFFFF","borderColor":"#41B6E6","textColor":"#41B6E6","hover":{"color":"#41B6E6","borderColor":"#41B6E6","textColor":"#FFFFFF"}},"shape":"SQUARE"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"9838a4e4512c01ed74393d245e01f53e","altText":null}},"banner":{"color":"#FFFFFF","borderColor":"#41B6E6","textColor":"#1C355E","image":{"id":"9838a4e4512c015259b33c245e01f33e","altText":null}}},"embedded":false},
+geoIpCountryCode: "us" == null ? "": "us",
+};
+function createScriptTag (src) {
+var scriptTag = document.createElement('script');
+scriptTag.src = src;
+scriptTag.setAttribute('defer', 'true');
+scriptTag.setAttribute('crossorigin', 'anonymous');
+return scriptTag;
+}
+var isIE = typeof Symbol === 'undefined';
+var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+sharedVendorsLoaderScript.onload = function () {
+var jobsScriptSrcFilename = isIE
+? 'cx-jobs-ie.min.js'
+: 'cx-jobs.min.js';
+var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+jobsScript.onerror = function () {
+window.workday.useCdn = false;
+var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+document.head.removeChild(jobsScript);
+document.head.appendChild(jobsScriptFromClientOrigin);
+}
+document.head.appendChild(jobsScript);
+};
+document.head.appendChild(sharedVendorsLoaderScript);
+var uxInsightsAssetPath = '/wday/asset/client-analytics';
+var uxInsightsAsset = uxInsightsAssetPath + "/uxInsights.min.js?plate=BMT216A"
+var uxInsightsUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+var uxInsightsScript = createScriptTag(uxInsightsUrlOrigin + uxInsightsAsset);
+document.head.appendChild(uxInsightsScript);
