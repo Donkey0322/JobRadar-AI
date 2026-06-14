@@ -5,12 +5,13 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
 
-import processor from "@/main";
+import { createSyncContext, processJobs } from "./command/sync/shared";
+
 import { analyzeLink } from "@/modules/jd-analyzer";
 import { logger } from "@/utils/logger";
 
 export async function promptJob(): Promise<Job> {
-  const answers: Job = await inquirer.prompt([
+  const job = await inquirer.prompt<Job>([
     {
       name: "company",
       message: "Company:",
@@ -22,6 +23,12 @@ export async function promptJob(): Promise<Job> {
       message: "Role:",
       type: "input",
       validate: (input) => (input ? true : "Role is required"),
+    },
+    {
+      name: "location",
+      message: "Location:",
+      type: "input",
+      validate: (input) => (input ? true : "Location is required"),
     },
     {
       name: "link",
@@ -36,27 +43,13 @@ export async function promptJob(): Promise<Job> {
         }
       },
     },
-    { name: "location", message: "Location:", type: "input" },
-    {
-      name: "season",
-      message: "Season (optional):",
-      type: "list",
-      choices: [
-        "2026 Summer",
-        "2026 Fall",
-        "2027 Spring",
-        "Entry Level",
-        "Mid Level",
-        "Senior Level",
-        "Skip",
-      ],
-      filter: (val) => (val === "Skip" ? undefined : val),
-    },
   ]);
-  return answers;
+  return job;
 }
+
 async function main() {
   const args = process.argv.slice(2);
+  const context = await createSyncContext();
 
   let link: string | undefined;
   let file: string | undefined;
@@ -113,13 +106,13 @@ async function main() {
     const content = await fs.readFile(filePath, "utf8");
     const job: Job = JSON.parse(content);
 
-    await processor([job], false, true);
+    await processJobs({ jobs: [job], ...context });
     return;
   }
 
   // 3. default → add mode
   const job = await promptJob();
-  await processor([job], false, true);
+  await processJobs({ jobs: [job], ...context });
 }
 
 main().catch((err) => {

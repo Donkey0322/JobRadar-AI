@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIProvider, AIResponse } from "./utils";
+import type { AIProvider, AIResponse, Schema } from "./utils";
 
 import { withRetry } from "./utils";
 
@@ -32,21 +32,49 @@ export class AnthropicProvider implements AIProvider {
     await this.client.models.retrieve(model);
   }
 
-  async generate(
-    prompt: string,
-    schema: Record<string, unknown>,
-    model: string
-  ): Promise<AIResponse> {
+  private normalizeSchema(schema: Schema): { schema: Anthropic.Tool.InputSchema; wrap: boolean } {
+    if (schema.type === "object") {
+      return {
+        schema: {
+          ...schema,
+          type: "object",
+        },
+        wrap: false,
+      };
+    }
+
+    return {
+      schema: {
+        type: "object",
+        properties: {
+          result: schema,
+        },
+        required: ["result"],
+      },
+      wrap: true,
+    };
+  }
+
+  private parseResult(result: unknown, wrapped: boolean): unknown {
+    if (wrapped && result && typeof result === "object" && "result" in result) {
+      return (result as { result: unknown }).result;
+    }
+    return result;
+  }
+
+  async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
+    const { schema: normalizedSchema, wrap } = this.normalizeSchema(schema);
+
     const response = await withRetry(() =>
       this.client.messages.create({
-        model: model,
+        model,
         temperature: 0,
         max_tokens: 4096,
         tools: [
           {
             name: "extract" as const,
             description: "Extract structured information from the input text.",
-            input_schema: schema as Anthropic.Tool.InputSchema,
+            input_schema: normalizedSchema,
           },
         ],
         tool_choice: {
@@ -73,7 +101,7 @@ export class AnthropicProvider implements AIProvider {
     }
 
     return {
-      result: stringifyResult(toolUse.input),
+      result: stringifyResult(this.parseResult(toolUse.input, wrap)),
       cost: this.calculateCost(response),
     };
   }

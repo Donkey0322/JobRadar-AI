@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-import type { AIProvider, AIResponse } from "./utils";
+import type { AIProvider, AIResponse, Schema } from "./utils";
 import type { GenerateContentResponse } from "@google/genai";
 
 import { withRetry } from "./utils";
@@ -33,7 +33,7 @@ export class GoogleProvider implements AIProvider {
     await this.client.models.get({ model });
   }
 
-  async generate(prompt: string, schema: object, model: string): Promise<AIResponse> {
+  async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
     const response = await withRetry(() =>
       this.client.models.generateContent({
         model,
