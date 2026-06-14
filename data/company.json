@@ -6350,7 +6350,9 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723270",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723283",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723302",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723613",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723616"
     ]
   },
   {
@@ -8922,10 +8924,10 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/instead/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/instead/jobs/7761472003",
       "https://job-boards.greenhouse.io/instead/jobs/7761473003",
-      "https://job-boards.greenhouse.io/instead/jobs/7772739003",
       "https://job-boards.greenhouse.io/instead/jobs/7761474003",
-      "https://job-boards.greenhouse.io/instead/jobs/7761472003"
+      "https://job-boards.greenhouse.io/instead/jobs/7772739003"
     ]
   },
   {
@@ -11529,7 +11531,8 @@
     "urls": [
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Baguio-City-PH/CAx-Developer--Commercial-Aircraft-Group_R-26-17116",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Development-Process-Assurance-Engineer_R-26-17016",
-      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Information-Systems-Security-Officer_R-26-17255"
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Information-Systems-Security-Officer_R-26-17255",
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Software-Engineer_R-26-16578"
     ]
   },
   {
