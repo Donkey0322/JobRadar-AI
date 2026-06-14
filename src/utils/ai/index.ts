@@ -1,7 +1,7 @@
 import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIProvider, AIResponse } from "./provider/utils";
+import type { AIProvider, AIResponse, Schema } from "./provider/utils";
 
 import { AnthropicProvider } from "./provider/anthropic";
 import { GoogleProvider } from "./provider/google";
@@ -33,7 +33,7 @@ export function getProvider(apiKey: string): AIProvider | null {
 
 export default async function callAIModel(
   prompt: string,
-  schema: Record<string, unknown>,
+  schema: Schema,
   model: string = DEFAULT_MODEL
 ): Promise<AIResponse> {
   if (!AI_API_KEY) {

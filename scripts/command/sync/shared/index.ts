@@ -220,7 +220,10 @@ export async function processJobs({
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
-    logger.info({ skipped }, "💰 Currently no newly found jobs that match your criteria");
+    logger.info(
+      { cost: totalCost, skipped },
+      "💰 Currently no newly found jobs that match your criteria"
+    );
   }
 
   return {

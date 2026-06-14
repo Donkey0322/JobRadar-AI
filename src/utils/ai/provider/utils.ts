@@ -11,8 +11,12 @@ export interface AIResponse {
   cost: number;
 }
 
+export interface Schema extends Record<string, unknown> {
+  type: string;
+}
+
 export interface AIProvider {
-  generate(prompt: string, schema: Record<string, unknown>, model: string): Promise<AIResponse>;
+  generate(prompt: string, schema: Schema, model: string): Promise<AIResponse>;
   validateModel(model: string): Promise<void>;
 }
 
