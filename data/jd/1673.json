@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/instead/jobs/7761472003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 5776199003,
+  "location": {
+    "name": "San Francisco"
+  },
+  "metadata": null,
+  "id": 7761472003,
+  "updated_at": "2026-06-13T19:54:28-04:00",
+  "requisition_id": null,
+  "title": "Software Engineering Intern",
+  "company_name": "Instead",
+  "first_published": null,
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;About Instead&lt;/h2&gt;\n&lt;p&gt;Instead is where tax work gets done. Our AI agent orchestrates the entirety of how work gets done in tax, from preparation and compliance to filing and advisory. It&#39;s a fundamentally new way of doing tax work, and it&#39;s why top 500 firms, Big Four teams, and enterprise corporate tax departments are choosing Instead.&lt;/p&gt;\n&lt;p&gt;What makes us unique: we hold full government approvals with the IRS, 48 states, and all cities to e-file 1040, 1041, 1120, 1120S, and 1065, with 706, 709, 990, 5500, 2290, and PPT coming for tax year 2026. Instead is a full replacement for CCH Axcess, GoSystem, UltraTax, OneSource, CorpTax, Lacerte, ProConnect, Drake, and more. No other tax startup will be able to offer these capabilities for years as we are two to three years ahead of everyone else in government approvals. This lets us build product experiences that are simply unmatched in the market.&lt;/p&gt;\n&lt;p&gt;Instead is backed by Conviction, IRIS (the largest tax software provider in the UK), Skylark, Aprio, and many of our partners and customers. Our team includes leaders from Intuit, Gusto, Zenefits, Thomson Reuters, Wolters Kluwer, PwC, BDO, RSM, and KPMG.&lt;/p&gt;\n&lt;h2&gt;The Role&lt;/h2&gt;\n&lt;p&gt;We&#39;re looking for Software Engineering Interns to join our San Francisco team and build real features on our AI-powered tax platform. This is not a coffee-fetching internship. You&#39;ll ship production code that hundreds of accounting firms use, work alongside senior engineers, and get hands-on experience building with AI tools from day one.&lt;/p&gt;\n&lt;p&gt;Our stack: Vue, Nuxt, TypeScript, and Tailwind CSS on the frontend. Go, Docker on AWS ECS/Fargate, and PostgreSQL on AWS RDS on the backend. For AI, we use Cursor, Claude Code, Helicone, Gemini, and OpenAI, and we&#39;re constantly evaluating new tools.&lt;/p&gt;\n&lt;h2&gt;What You&#39;ll Do&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Ship product features end to end on our live customer platform alongside senior engineers&lt;/li&gt;\n&lt;li&gt;Build and test AI-powered components including inference pipelines and prompt engineering&lt;/li&gt;\n&lt;li&gt;Fix bugs and make product improvements based on real customer feedback&lt;/li&gt;\n&lt;li&gt;Create internal tools that make the engineering team more productive&lt;/li&gt;\n&lt;li&gt;Learn our full stack and contribute across frontend, backend, and AI layers&lt;/li&gt;\n&lt;li&gt;Participate in code reviews, architecture discussions, and product planning&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What You Bring&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Currently pursuing or recently completed a degree in Computer Science, Software Engineering, or a related field&lt;/li&gt;\n&lt;li&gt;Strong programming fundamentals. You can write clean code, debug efficiently, and think about edge cases&lt;/li&gt;\n&lt;li&gt;Familiarity with web development (frontend or backend). Experience with any modern framework counts&lt;/li&gt;\n&lt;li&gt;Curiosity about AI and willingness to learn. Experience with AI coding tools (Cursor, Claude Code, GitHub Copilot) is a plus&lt;/li&gt;\n&lt;li&gt;High attention to detail and a bias for shipping&lt;/li&gt;\n&lt;li&gt;Ability to work on-site in San Francisco&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;What Makes Someone Exceptional&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;You&#39;ve built and shipped side projects or open-source contributions that demonstrate your ability to go from idea to working product&lt;/li&gt;\n&lt;li&gt;You already use AI tools in your coding workflow and understand how they change the way software gets built&lt;/li&gt;\n&lt;li&gt;You learn fast and don&#39;t wait to be told what to do. When you see something broken, you fix it&lt;/li&gt;\n&lt;li&gt;You care about the end user, not just the code. You want to understand why something matters before you build it&lt;/li&gt;\n&lt;li&gt;You&#39;re excited about working at a startup where your work ships to real customers on day one&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;Compensation&lt;/h2&gt;\n&lt;p&gt;$60,000 annualized + equity&lt;/p&gt;\n&lt;h2&gt;Location&lt;/h2&gt;\n&lt;p&gt;San Francisco (on-site)&lt;/p&gt;\n&lt;p&gt;Instead is an equal opportunity employer. We evaluate candidates based on capability, judgment, ownership, and fit for the role&#39;s responsibilities. We welcome candidates who can help us build a category-defining company in tax technology.&lt;/p&gt;\n",
+  "departments": [
+    {
+      "id": 4028733003,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4089602003,
+      "name": "Instead - SF",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

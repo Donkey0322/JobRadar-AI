@@ -165,8 +165,8 @@
     "domain": "https://accenture.wd103.myworkdayjobs.com/accenturecareers",
     "page": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/accenturecareers/jobs",
     "urls": [
-      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Bogota-Carrera-7/Agentic-AI-Developer_R00336436"
+      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Bogota-Carrera-7/Agentic-AI-Developer_R00336436",
+      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076"
     ]
   },
   {
@@ -8922,7 +8922,10 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/instead/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/instead/jobs/7761473003"
+      "https://job-boards.greenhouse.io/instead/jobs/7761473003",
+      "https://job-boards.greenhouse.io/instead/jobs/7772739003",
+      "https://job-boards.greenhouse.io/instead/jobs/7761474003",
+      "https://job-boards.greenhouse.io/instead/jobs/7761472003"
     ]
   },
   {
