@@ -6100,6 +6100,16 @@
     "urls": []
   },
   {
+    "name": "ekmu.fa.em3.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "ekmu.fa.em3.oraclecloud.com",
+    "domain": "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job",
+    "page": "https://ekmu.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "urls": [
+      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23431"
+    ]
+  },
+  {
     "name": "elanco",
     "ats": "workday",
     "identifier": "elanco-external_career",
@@ -6360,10 +6370,10 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723631",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723636",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723638",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723812",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723811",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723813"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723812",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/723813",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -11343,11 +11353,11 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Hyderabad---Phoenix-Aquila-India/Sr-Engineer--Data-Science_JR88765",
       "https://micron.wd1.myworkdayjobs.com/external/job/MSB-Singapore/DATA-SCIENTIST--SMAI_JR99270",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---AATT-Taiwan/AI-Enabled-Full-Stack-Developer---Experienced_JR103711",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Data-Science-Engineer---Operation-Intelligence--Full-Stack-Development-_JR88982",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/SOFTWARE-ENGINEER_JR103710",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/Software-Development-Engineer_JR94442",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Sr-Data-Scientist--Innovation-Engineering-Technology_JR100114",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---Fab-16-Taiwan/Data-Science-Engineer---Operation-Intelligence--Full-Stack-Development-_JR88982"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taichung---MTB-Taiwan/MTB-AUTOMATION-OPS-TECHNICIAN_JR103506",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/Software-Development-Engineer_JR94442"
     ]
   },
   {
@@ -15498,6 +15508,7 @@
       "https://stripe.com/jobs/search?gh_jid=7952048",
       "https://stripe.com/jobs/search?gh_jid=7954511",
       "https://stripe.com/jobs/search?gh_jid=7964956",
+      "https://stripe.com/jobs/search?gh_jid=7975725",
       "https://stripe.com/jobs/search?gh_jid=7977745",
       "https://stripe.com/jobs/search?gh_jid=7978488",
       "https://stripe.com/jobs/search?gh_jid=7978915",
@@ -15505,8 +15516,7 @@
       "https://stripe.com/jobs/search?gh_jid=7980402",
       "https://stripe.com/jobs/search?gh_jid=7982720",
       "https://stripe.com/jobs/search?gh_jid=7991636",
-      "https://stripe.com/jobs/search?gh_jid=7991718",
-      "https://stripe.com/jobs/search?gh_jid=7975725"
+      "https://stripe.com/jobs/search?gh_jid=7991718"
     ]
   },
   {
@@ -16418,6 +16428,7 @@
     "domain": "https://tsys.wd1.myworkdayjobs.com/tsys",
     "page": "https://tsys.wd1.myworkdayjobs.com/wday/cxs/tsys/tsys/jobs",
     "urls": [
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/CHENGDU-SICHAUN-CHINA/Software-Engineer_R0071267",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/CHENGDU-SICHAUN-CHINA/Software-Engineer_R0071280",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/LENEXA-KANSAS/BDR-Partnerships_R0072419",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/LONDON--UNITED-KINGDOM/Corporate-Development-Analyst_R0072176-1",
@@ -16425,11 +16436,10 @@
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PUNE--INDIA/Associate-DevOps-Engineer-Consultant_R0070782",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PUNE--INDIA/Software-Engineer_R0071024-2",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/ROCHESTER-NEW-YORK/Business-Development-Representative_R0071220",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/Software-Engineer_R0071283",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/Software-Engineer_R0071288",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/DevOps-Engineer_R0072218",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/DevOps-Engineer_R0072212",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/CHENGDU-SICHAUN-CHINA/Software-Engineer_R0071267"
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/DevOps-Engineer_R0072218",
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/Software-Engineer_R0071283",
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/XIAN-SHAANXI-CHINA/Software-Engineer_R0071288"
     ]
   },
   {
@@ -16620,10 +16630,10 @@
     "page": "https://unisys.wd5.myworkdayjobs.com/wday/cxs/unisys/external/jobs",
     "urls": [
       "https://unisys.wd5.myworkdayjobs.com/external/job/Atlanta-GA-United-States-of-America/Data-Center-Technician---Lithia-Springs--GA_REQ573648",
-      "https://unisys.wd5.myworkdayjobs.com/external/job/Memphis-TN-United-States-of-America/Data-Center-Technician---Memphis--TN_REQ571410",
-      "https://unisys.wd5.myworkdayjobs.com/external/job/Cotabato-City-Philippines/Coordinator-Data-Proc-Spt_REQ573588",
       "https://unisys.wd5.myworkdayjobs.com/external/job/Cotabato-City-Philippines/Coordinator-Data-Proc-Spt_REQ573587",
-      "https://unisys.wd5.myworkdayjobs.com/external/job/Cotabato-City-Philippines/Coordinator-Data-Proc-Spt_REQ573589"
+      "https://unisys.wd5.myworkdayjobs.com/external/job/Cotabato-City-Philippines/Coordinator-Data-Proc-Spt_REQ573588",
+      "https://unisys.wd5.myworkdayjobs.com/external/job/Cotabato-City-Philippines/Coordinator-Data-Proc-Spt_REQ573589",
+      "https://unisys.wd5.myworkdayjobs.com/external/job/Memphis-TN-United-States-of-America/Data-Center-Technician---Memphis--TN_REQ571410"
     ]
   },
   {
