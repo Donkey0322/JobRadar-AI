@@ -16,7 +16,7 @@ export interface Schema extends Record<string, unknown> {
 }
 
 export interface AIProvider {
-  generate(prompt: string, schema: Schema, model: string): Promise<AIResponse>;
+  generate(prompt: string, schema: Record<string, unknown>, model: string): Promise<AIResponse>;
   validateModel(model: string): Promise<void>;
 }
 
@@ -40,14 +40,15 @@ function isRetryableError(error: unknown): boolean {
 }
 
 export async function withRetry<T>(fn: RetryableFn<T>, retries = 5): Promise<T> {
-  let delay = 2000;
+  // minimum delay of 1 minute
+  let delay = 1000;
 
   for (let i = 0; i < retries; i++) {
     try {
       return await fn();
     } catch (error) {
       if (isRetryableError(error) && i < retries - 1) {
-        logger.warn(`⚠️ ${AI_PROVIDER} is busy; retrying...`);
+        logger.warn({ err: error }, `⚠️ ${AI_PROVIDER} is busy; retrying...`);
         await sleep(delay);
         delay *= 2;
         continue;

@@ -1,5 +1,3 @@
-import * as cheerio from "cheerio";
-
 import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
@@ -12,6 +10,7 @@ import { classifyATS } from "../company-tacker/ats";
 import analyzeJD from "./ai";
 import {
   fetchAshbyJD,
+  fetchCustomJD,
   fetchGreenhouseJD,
   fetchOracleJD,
   fetchSmartRecruitersJD,
@@ -106,34 +105,8 @@ export async function getRawJD(url: string, signal: AbortSignal): Promise<JDFetc
         return finishRawJD(await fetchAshbyJD(url, signal));
       case "oraclecloud":
         return finishRawJD(await fetchOracleJD(url, signal));
-      default: {
-        const res = await fetch(url, {
-          signal,
-          headers: {
-            "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
-          },
-        });
-
-        if (!res.ok) {
-          logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
-          return {
-            jd: null,
-            error: JD_FETCH_ERROR.http(res.status, res.statusText),
-          };
-        }
-
-        const html = await res.text();
-        const $ = cheerio.load(html);
-        const script = $('script[type="application/ld+json"]').first();
-        const text = script.length ? script.text() + "\n" + $.root().text() : $("body").text();
-
-        const jd = normalizeRawText(text);
-        if (!jd) {
-          return { jd: null, error: JD_FETCH_ERROR.noData() };
-        }
-
-        return { jd, error: JD_FETCH_OK };
-      }
+      default:
+        return finishRawJD(await fetchCustomJD(url, signal));
     }
   } catch (e) {
     const desc = e instanceof Error ? e.message : "Unknown fetch error";
