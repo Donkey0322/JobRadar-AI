@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/togetherai/jobs/5064263007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4598374007,
+  "location": {
+    "name": "San Francisco"
+  },
+  "metadata": null,
+  "id": 5064263007,
+  "updated_at": "2026-06-15T16:19:03-04:00",
+  "requisition_id": "R&D-ENG-040",
+  "title": "Backend Software Engineer — Data Platform & AI Data Products",
+  "company_name": "Together AI",
+  "first_published": "2026-03-11T16:53:55-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h3&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;You’ll join the Data Platform team, responsible for building the backend services and “data products” that power how data moves through the company. We create the core platform primitives — high-quality event streams, reliable access layers, and developer-friendly APIs/tools — so teams across the org can self-serve what they need and ship faster. You’ll contribute to backend services that create value from our company data, and help make our data platform more self-serve so product and engineering teams can easily create and operate event-driven architectures, publish/consume streams, define access models, and ship data products end-to-end. You’ll also work on LLM-adjacent services such as prompt categorization/taxonomy, enrichment, and metadata systems that turn raw telemetry into trusted, usable products — with mentorship and support from experienced engineers.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to backend services that enhance the data platform’s capabilities (APIs, control planes, automation, governance).&lt;/li&gt;\n&lt;li&gt;Help enable DIY workflows for teams across the company:&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;Define/publish events and schemas&lt;/li&gt;\n&lt;li&gt;Create/consume streams and subscriptions&lt;/li&gt;\n&lt;li&gt;Establish access models (authz, row/field-level controls where applicable)&lt;/li&gt;\n&lt;li&gt;Manage dataset/catalog metadata, lineage, versioning, and retention&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to end-to-end data products: ingestion → validation/quality → enrichment → serving (APIs/streams) → observability → adoption.&lt;/li&gt;\n&lt;li&gt;Work on prompt categorization and enrichment services: taxonomy design, labeling workflows, classifier/rules integration, evaluation, drift/quality monitoring, and safe rollouts.&lt;/li&gt;\n&lt;li&gt;Learn to own reliability: SLOs, alerting, performance/cost tuning, incident response, and postmortems.&lt;/li&gt;\n&lt;li&gt;Partner cross-functionally with ML/LLM, infra, security, and product teams to define crisp contracts and deliver durable platform primitives.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;0–4 years building production or project-based backend systems (internships, coursework, and personal projects count).&lt;/li&gt;\n&lt;li&gt;Solid fundamentals in at least one backend language (e.g., Go, Python, Java, Rust) and some exposure to API design (REST).&lt;/li&gt;\n&lt;li&gt;Eagerness to own work end-to-end: design docs, implementation, testing, deployment, and iteration based on real usage.&lt;/li&gt;\n&lt;li&gt;Strong engineering fundamentals: clean, maintainable code, thoughtful abstractions, and a desire to build systems that are easy to evolve.&lt;/li&gt;\n&lt;li&gt;Basic data modeling and SQL skills, and some familiarity with at least one of:&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;Streaming/eventing (Kafka/PubSub/Kinesis, etc.)&lt;/li&gt;\n&lt;li&gt;Workflow/compute (Airflow/Spark/Flink/Trino, etc.)&lt;/li&gt;\n&lt;li&gt;OLTP/OLAP stores and data lakes (Postgres + warehouse/lake tech)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;AI augmentation curiosity:&lt;/li&gt;\n&lt;/ul&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;You’re curious about how engineers use AI/LLMs to build software faster and better (e.g., coding copilots, agentic workflows, retrieval/knowledge grounding), and you’re eager to apply this to your own work.&lt;/li&gt;\n&lt;li&gt;You understand that AI tools can fail or create issues, and you’re thoughtful about when and how to apply them.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;Nice to have&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Any exposure to self-serve platforms, developer tooling, or multi-tenant services.&lt;/li&gt;\n&lt;li&gt;Coursework or projects involving LLM/AI products: prompt/response telemetry, eval datasets, embeddings/RAG metadata, model/tool traces, privacy-safe logging.&lt;/li&gt;\n&lt;li&gt;Passion for good quality code, highly readable, SOLID principles, design patterns, Domain Driven Design.&lt;/li&gt;\n&lt;li&gt;Awareness of security and governance basics: least-privilege access, auditability, data retention, PII handling.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;&lt;strong&gt;About Together AI&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancement such as FlashAttention, Hyena, FlexGen, and RedPajama. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;We offer competitive compensation, startup equity, health insurance and other competitive benefits. The US base salary range for this full-time position is: $120,000 - $170,000 + equity + benefits. Our salary ranges are determined by location, level and role. Individual compensation will be determined by experience, skills, and job-related knowledge.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Equal Opportunity&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.&lt;/p&gt;\n&lt;p&gt;Please see our privacy policy at&amp;nbsp;&lt;a href=&quot;https://www.together.ai/privacy&quot;&gt;https://www.together.ai/privacy&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4033058007,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4029317007,
+      "name": "San Francisco",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

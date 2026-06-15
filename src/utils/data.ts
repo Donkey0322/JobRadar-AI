@@ -75,6 +75,15 @@ export async function saveJd(jd: string, job: Job) {
   }
 }
 
+export async function readJD(id: number): Promise<string | null> {
+  try {
+    const content = await fs.readFile(path.join(JD_PATH, `${id}.txt`), "utf-8");
+    return content;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * Append jobs to the end of the job file.
  * @param jobs - The jobs to save.

@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/togetherai/jobs/5074064007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4602808007,
+  "location": {
+    "name": "San Francisco"
+  },
+  "metadata": null,
+  "id": 5074064007,
+  "updated_at": "2026-06-15T16:19:03-04:00",
+  "requisition_id": "R&D-ENG-086",
+  "title": "Data Warehouse Engineer",
+  "company_name": "Together AI",
+  "first_published": "2026-03-11T21:14:12-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h3&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Together AI is building high-performance inference compute and the software platform around it. We’re looking for an early-career Data Warehouse Engineer with strong fundamentals and high growth potential to grow into a technical lead over time. You’ll contribute to designing and operating our data warehouse, ETL pipelines and orchestration, work on core data models and metrics, and help raise the bar on data quality and governance across the org — with mentorship and support from experienced engineers.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;0–4 years of professional experience (or strong internships/projects) working with data warehouses, pipelines, or analytics engineering.&lt;/li&gt;\n&lt;li&gt;Solid SQL fundamentals — you’re comfortable writing queries and have some exposure to window functions or dimensional modeling concepts.&lt;/li&gt;\n&lt;li&gt;Some hands-on experience with dbt or Airflow, or strong eagerness to learn — coursework and personal projects count.&lt;/li&gt;\n&lt;li&gt;Basic Python for scripting and data tooling; any exposure to Spark (PySpark/SQL) is a plus.&lt;/li&gt;\n&lt;li&gt;Familiarity with data modeling concepts like SCD2 or star schemas — even if only from coursework.&lt;/li&gt;\n&lt;li&gt;Good communication skills: you can ask clarifying questions, explain your reasoning, and work with stakeholders to understand their needs.&lt;/li&gt;\n&lt;li&gt;High standards for data quality, reliability, and maintainability — you care about getting things right.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to building and maintaining a medallion/curated data warehouse stack (bronze/silver/gold) for product, usage, billing, and operational data.&lt;/li&gt;\n&lt;li&gt;Build and maintain Airflow orchestrated pipelines and dbt transformation projects (modular, tested, documented).&lt;/li&gt;\n&lt;li&gt;Help design analytics-ready models: SCD Type 2, star schemas, and appropriate normalization for upstream canonical layers.&lt;/li&gt;\n&lt;li&gt;Learn and apply Master Data Management (MDM) patterns (golden records, reference data, deduping, identity resolution).&lt;/li&gt;\n&lt;li&gt;Implement data quality checks (freshness, nulls, referential integrity, distribution drift, anomaly detection).&lt;/li&gt;\n&lt;li&gt;Contribute to data governance habits: data stewardship, ownership, SLAs, and clear definitions for “source of truth.”&lt;/li&gt;\n&lt;li&gt;Help build and maintain a business semantic layer (consistent metric definitions, dimensions, and reusable logic) used by notebooks/BI.&lt;/li&gt;\n&lt;li&gt;Partner with stakeholders (Product, Engineering, Finance, GTM, Ops) to translate questions into durable datasets and metrics.&lt;/li&gt;\n&lt;li&gt;Use SQL, Python, and Spark where scale demands it; optimize for correctness, performance, and cost.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About Together AI&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Together AI is a research-driven artificial intelligence company. We believe open and transparent AI systems will drive innovation and create the best outcomes for society, and together we are on a mission to significantly lower the cost of modern AI systems by co-designing software, hardware, algorithms, and models. We have contributed to leading open-source research, models, and datasets to advance the frontier of AI, and our team has been behind technological advancement such as FlashAttention, Hyena, FlexGen, and RedPajama. We invite you to join a passionate group of researchers and engineers in our journey in building the next generation AI infrastructure.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Compensation&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;We offer competitive compensation, startup equity, health insurance and other competitive benefits. The US base salary range for this full-time position is: $130,000 - $170,000 + equity + benefits. Our salary ranges are determined by location, level and role. Individual compensation will be determined by experience, skills, and job-related knowledge.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Equal Opportunity&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.&lt;/p&gt;\n&lt;p&gt;Please see our privacy policy at &lt;a href=&quot;https://www.together.ai/privacy&quot;&gt;https://www.together.ai/privacy&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4033058007,
+      "name": "Engineering",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4029317007,
+      "name": "San Francisco",
+      "location": "San Francisco, California, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

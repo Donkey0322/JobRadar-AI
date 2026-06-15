@@ -1,0 +1,189 @@
+{
+  "id": "744000132257389",
+  "name": "Software Engineer, Live and Interactive",
+  "uuid": "d7bd1924-5ed2-4280-82be-d650878118bd",
+  "jobId": "6fd0c52e-84f3-4892-8546-dac6704b5b17",
+  "jobAdId": "b6354e74-fe80-4200-82da-07af8514860b",
+  "defaultJobAd": true,
+  "refNumber": "51507129",
+  "company": {
+    "name": "NBCUniversal",
+    "identifier": "NBCUniversal3"
+  },
+  "location": {
+    "city": "New York",
+    "region": "NEW YORK",
+    "country": "us",
+    "address": "30 Rockefeller Plaza",
+    "postalCode": "10112-0002",
+    "remote": false,
+    "hybrid": true,
+    "fullLocation": "New York, NEW YORK, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "629a702fa5f501537e34487d",
+      "fieldLabel": "Confidential",
+      "valueId": "a7237982-c3e0-4d7e-b925-b4f41ebfbf43",
+      "valueLabel": "No"
+    },
+    {
+      "fieldId": "629a7efc9e8fe455b48bdb49",
+      "fieldLabel": "Hiring Process",
+      "valueId": "0f69bad3-bc55-4e91-9378-60b78c432148",
+      "valueLabel": "NBCU Standard"
+    },
+    {
+      "fieldId": "629a713b1837eb0875aeb3a5",
+      "fieldLabel": "SAP Job",
+      "valueId": "30018825",
+      "valueLabel": "Production Sys/Tools SW Engineer-An - 30018825"
+    },
+    {
+      "fieldId": "629a7219971e1e096455db09",
+      "fieldLabel": "Business Segment",
+      "valueId": "60000004",
+      "valueLabel": "News Group HQ"
+    },
+    {
+      "fieldId": "629a7cd7e54cc35a67877748",
+      "fieldLabel": "Work Location State",
+      "valueId": "New York",
+      "valueLabel": "New York"
+    },
+    {
+      "fieldId": "664f9833f5a86d73a8b0eb08",
+      "fieldLabel": "Posting Only Process",
+      "valueId": "Not Applicable",
+      "valueLabel": "Not Applicable"
+    },
+    {
+      "fieldId": "629a7db8971e1e096455db0b",
+      "fieldLabel": "Work Location Country",
+      "valueId": "USA",
+      "valueLabel": "USA"
+    },
+    {
+      "fieldId": "629a71a56b5e1160899f7b37",
+      "fieldLabel": "Addition/Replacement",
+      "valueId": "9cfda09c-ee49-4916-b150-0b3714f241d1",
+      "valueLabel": "Replacement"
+    },
+    {
+      "fieldId": "62913b22a5f501537e3447e8",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "NBCUniversal"
+    },
+    {
+      "fieldId": "629a7b451837eb0875aeb3a7",
+      "fieldLabel": "Work Location Address",
+      "valueId": "30 Rockefeller Plaza",
+      "valueLabel": "30 Rockefeller Plaza"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "629a70adb18f834e058f2b4d",
+      "fieldLabel": "Position Title",
+      "valueLabel": "Software Engineer, Live and Interactive"
+    },
+    {
+      "fieldId": "629a79d59e8fe455b48bdb48",
+      "fieldLabel": "Work Location Name",
+      "valueId": "20000274",
+      "valueLabel": "New York (NBC) NY US"
+    },
+    {
+      "fieldId": "629a72959e8fe455b48bdb47",
+      "fieldLabel": "Sub Business",
+      "valueId": "1701",
+      "valueLabel": "News Group Digital Technology - 1701"
+    },
+    {
+      "fieldId": "629a7b9e971e1e096455db0a",
+      "fieldLabel": "Work Location City",
+      "valueId": "New York",
+      "valueLabel": "New York"
+    },
+    {
+      "fieldId": "629a7d536b5e1160899f7b39",
+      "fieldLabel": "Work Location Zip Code",
+      "valueId": "10112-0002",
+      "valueLabel": "10112-0002"
+    },
+    {
+      "fieldId": "629a7f999e8fe455b48bdb4a",
+      "fieldLabel": "Hire Type",
+      "valueId": "9872fe69-b0c8-4155-8dff-aac9912ca020",
+      "valueLabel": "Full-Time Regular"
+    },
+    {
+      "fieldId": "65568016b1660e254215017f",
+      "fieldLabel": "Business Group",
+      "valueId": "80000002",
+      "valueLabel": "News Group"
+    }
+  ],
+  "releasedDate": "2026-06-15T18:01:13.570Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/NBCUniversal3/744000132257389-software-engineer-live-and-interactive",
+  "applyUrl": "https://jobs.smartrecruiters.com/NBCUniversal3/744000132257389-software-engineer-live-and-interactive?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/NBCUniversal3/publication/d7bd1924-5ed2-4280-82be-d650878118bd?dcr_ci=NBCUniversal3",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p>NBCUniversal is one of the world's leading media and entertainment companies. We create world-class content, which we distribute across our portfolio of film, television, and streaming, and bring to life through our global theme park destinations, consumer products, and experiences. We own and operate leading entertainment and news brands, including NBC, NBC News, NBC Sports, Telemundo, NBC Local Stations, Bravo, and Peacock, our premium ad-supported streaming service. We produce and distribute premier filmed entertainment and programming through our powerhouse film and television studios, including Universal Pictures, DreamWorks Animation, and Focus Features, and the four global television studios under the Universal Studio Group banner, and operate industry-leading theme parks and experiences around the world through Universal Destinations &amp; Experiences, including Universal Orlando Resort, home to Universal Epic Universe, and Universal Studios Hollywood. NBCUniversal is a subsidiary of Comcast Corporation. Visit www.nbcuniversal.com for more information.</p><p>Our impact is rooted in improving the communities where our employees, customers, and audiences live and work. We have a rich tradition of giving back and ensuring our employees have the opportunity to serve their communities. We champion an inclusive culture and strive to attract and develop a talented workforce to create and deliver a wide range of content reflecting our world.</p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>We are looking for a <strong>Software Engineer I </strong>to help build the next generation of digital news experiences. This is an early-career role designed for engineers with a strong foundation in computer science fundamentals who are excited to grow their skills while contributing to real-world, high-impact products. You’ll learn from senior engineers and work closely with product managers, designers, ops and editorial partners to build fast, reliable, and engaging experience, especially around live and interactive storytelling for major global events.</p><p>You’ll join the Live &amp; Interactive team, which creates the user experiences behind major global moments, from elections to tentpole events such as the World Cup, where visibility and impact are immediate.</p><p>This is an opportunity to learn quickly, contribute meaningfully, and develop as a software engineer in a fast paced and environment.</p><p><strong>Duties:</strong></p><ul><li>Contribute to frontend applications using modern frontend frameworks that range from React to Astro and Qwik&#xa0;</li><li>Utilize AI-assisted development tools to support the efficient execution of product and design visions, translating requirements into high-quality, scalable solutions</li><li>Build and consume APIs to power content-driven experiences</li><li>Implement responsive, accessible, and performant user interfaces</li><li>Write clean, maintainable, and well-tested code, incorporating feedback from peers</li><li>Participate in code reviews, both giving and receiving constructive feedback</li><li>Debug issues and help troubleshoot problems with guidance from teammates</li><li>Collaborate closely with cross-functional partners such as product leaders and design to understand requirements</li><li>Ask questions, clarify ambiguity, and communicate progress and blockers proactively</li><li>Take ownership of well-defined tasks and deliver them reliably</li><li>Continuously learn new technologies, tools, and parts of the codebase</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<ul><li>Bachelor’s degree in Computer Science, Computer Engineering, or a related field (or equivalent practical experience demonstrating strong CS fundamentals)</li><li>Minimum 2+ years experience building applications using a modern programming language (JavaScript preferred), along with a solid understanding of how web applications work (HTTP, APIs, browser behavior)</li></ul><p><strong>Desired Characteristics:</strong></p><ul><li>Awareness of testing practices, including writing basic automated tests, with a focus on producing quality, maintainable code</li><li>Strong communication skills, including a willingness to ask questions, take feedback constructively, and continuously improve</li><li>Familiarity with AI-assisted development tools (e.g., code generation, debugging, and productivity assistants) to enhance software development workflows</li><li>Ability to collaborate effectively in a team environment while demonstrating attention to detail and an eagerness to learn new technologies quickly</li><li>Exposure to modern frontend frameworks (e.g., React, Qwik, Web Components) and familiarity with HTML, CSS, and responsive design principles</li></ul><p><strong>Additional Requirements:</strong></p><p><strong>Hybrid:&#xa0;</strong>This position currently has a hybrid schedule, which requires contributing from the office a minimum of four days per week. The Company reserves the right to change in-office requirements at any time.</p><p>This position is eligible for company sponsored benefits, including medical, dental and vision insurance, 401(k), paid leave, tuition reimbursement, and a variety of other discounts and perks. Learn more about the benefits offered by NBCUniversal by visiting the Benefits page of the Careers website.</p><p><strong>Salary range: $110,000 - $120,000</strong></p>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>As part of our selection process, external candidates may be required to attend an in-person interview with an NBCUniversal employee at one of our locations prior to a hiring decision. NBCUniversal's policy is to provide equal employment opportunities to all applicants and employees without regard to race, color, religion, creed, gender, gender identity or expression, age, national origin or ancestry, citizenship, disability, sexual orientation, marital status, pregnancy, veteran status, membership in the uniformed services, genetic information, or any other basis protected by applicable law.</p><p>If you are a qualified individual with a disability or a disabled veteran and require support throughout the application and/or recruitment process as a result of your disability, you have the right to request a reasonable accommodation. You can submit your request to AccessibilitySupport@nbcuni.com.</p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 110000,
+    "max": 120000,
+    "currency": "USD",
+    "period": "YEARLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "entertainment",
+    "label": "Entertainment"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "associate",
+    "label": "Associate"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
