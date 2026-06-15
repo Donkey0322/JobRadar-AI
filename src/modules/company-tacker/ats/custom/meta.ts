@@ -7,7 +7,6 @@ import { isTarget } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
-const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
 const META_GRAPHQL_URL = "https://www.metacareers.com/api/graphql/";
 
 const META_DOC_ID = "27506805582236862";
@@ -86,8 +85,8 @@ function getSetCookieHeader(res: Response): string {
     .join("; ");
 }
 
-async function getMetaSession(signal: AbortSignal) {
-  const res = await fetch(META_CAREERS_URL, {
+async function getMetaSession(url: string, signal: AbortSignal) {
+  const res = await fetch(url, {
     headers: {
       "user-agent": "Mozilla/5.0",
       accept: "text/html",
@@ -155,7 +154,7 @@ export async function fetchMeta(
   signal: AbortSignal
 ): Promise<Job[]> {
   try {
-    const { lsd, jazoest, cookie } = await getMetaSession(signal);
+    const { lsd, jazoest, cookie } = await getMetaSession(company.page, signal);
 
     const variables = {
       search_input: {
@@ -200,7 +199,7 @@ export async function fetchMeta(
       "x-fb-lsd": lsd,
       "x-asbd-id": "359341",
       origin: "https://www.metacareers.com",
-      referer: META_CAREERS_URL,
+      referer: company.page,
     };
 
     if (cookie) {
