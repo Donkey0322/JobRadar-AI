@@ -1,5 +1,7 @@
 import * as cheerio from "cheerio";
 
+import { GOOGLE_CAREERS_URL } from "@/constants/ats";
+
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
@@ -12,7 +14,7 @@ export async function fetchGoogle(
 ): Promise<Job[]> {
   const allJobs: Job[] = [];
 
-  for (let page = 1; page <= 10; page++) {
+  for (let page = 1; page <= 20; page++) {
     const url = new URL(company.page);
     url.searchParams.set("page", String(page));
 
@@ -63,7 +65,7 @@ export async function fetchGoogle(
           role,
           company,
           location,
-          link: "https://www.google.com/about/careers/applications/" + link,
+          link: `${GOOGLE_CAREERS_URL}/${link}`,
         };
       })
       .get()

@@ -151,9 +151,7 @@
     "identifier": "acadianassetmanagementllc",
     "domain": "https://www.acadian-asset.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/acadianassetmanagementllc/jobs",
-    "urls": [
-      "https://www.acadian-asset.com/careers/open-positions?gh_jid=4688297006"
-    ]
+    "urls": ["https://www.acadian-asset.com/careers/open-positions?gh_jid=4688297006"]
   },
   {
     "name": "AccelLearning",
@@ -232,9 +230,7 @@
     "identifier": "achievers",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/achievers?mode=json",
-    "urls": [
-      "https://jobs.lever.co/achievers/c4270a5b-a449-4613-b958-6e4137dd344a"
-    ]
+    "urls": ["https://jobs.lever.co/achievers/c4270a5b-a449-4613-b958-6e4137dd344a"]
   },
   {
     "name": "acluinternships",
@@ -493,9 +489,7 @@
     "identifier": "airbnb",
     "domain": "https://careers.airbnb.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
-    "urls": [
-      "https://careers.airbnb.com/positions/7716341?gh_jid=7716341"
-    ]
+    "urls": ["https://careers.airbnb.com/positions/7716341?gh_jid=7716341"]
   },
   {
     "name": "airliquidehr",
@@ -715,9 +709,7 @@
     "identifier": "altruist.com",
     "domain": "https://altruist.com",
     "page": "",
-    "urls": [
-      "https://altruist.com/join-altruist/"
-    ]
+    "urls": ["https://altruist.com/join-altruist/"]
   },
   {
     "name": "aluminumdynamics",
@@ -1178,9 +1170,7 @@
     "identifier": "app.ripplematch.com",
     "domain": "https://app.ripplematch.com",
     "page": "",
-    "urls": [
-      "https://app.ripplematch.com/v2/public/job/146d369a"
-    ]
+    "urls": ["https://app.ripplematch.com/v2/public/job/146d369a"]
   },
   {
     "name": "appian",
@@ -1196,6 +1186,42 @@
       "https://job-boards.greenhouse.io/appian/jobs/7941782",
       "https://job-boards.greenhouse.io/appian/jobs/7946195",
       "https://job-boards.greenhouse.io/appian/jobs/7946197"
+    ]
+  },
+  {
+    "name": "Apple",
+    "ats": "custom",
+    "identifier": "apple",
+    "domain": "https://jobs.apple.com",
+    "page": "https://jobs.apple.com/en-us/search",
+    "urls": [
+      "https://jobs.apple.com/en-us/details/200606141/engineering-program-management-internships?team=STDNT",
+      "https://jobs.apple.com/en-us/details/200606143/hardware-technology-internships?team=STDNT",
+      "https://jobs.apple.com/en-us/details/200606145",
+      "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT",
+      "https://jobs.apple.com/en-us/details/200606469/machine-learning-ai-internships?team=STDNT",
+      "https://jobs.apple.com/en-us/details/200606475/hardware-engineering-internships?team=STDNT",
+      "https://jobs.apple.com/en-us/details/200620201-0240/data-center-product-design-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200623627",
+      "https://jobs.apple.com/en-us/details/200623661",
+      "https://jobs.apple.com/en-us/details/200625333",
+      "https://jobs.apple.com/en-us/details/200632290-0240/data-center-product-design-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications",
+      "https://jobs.apple.com/en-us/details/200664307",
+      "https://jobs.apple.com/en-us/details/200664320",
+      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships",
+      "https://jobs.apple.com/en-us/details/200664323",
+      "https://jobs.apple.com/en-us/details/200664785",
+      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships",
+      "https://jobs.apple.com/en-us/details/200667958-2114/software-engineer-distributed-systems-java?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200668028-0836/battery-system-quality-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200668249-3337/software-engineer-apple-tv-app?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200668371-3760/lab-engineer-device-services-infrastructure?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200668374-0865/security-researcher?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200668375-0865/ai-ml-engineer?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200665705-0836/machine-learning-engineer-people-analytics?team=CORSV",
+      "https://jobs.apple.com/en-us/details/200666980-3715/fullstack-software-engineer?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200666981-3715/fullstack-software-engineer?team=MLAI"
     ]
   },
   {
@@ -1322,9 +1348,7 @@
     "identifier": "Aprio",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/Aprio?mode=json",
-    "urls": [
-      "https://jobs.lever.co/Aprio/9e6ecbf0-3945-4d49-a8bd-ae70e9caba4b/apply"
-    ]
+    "urls": ["https://jobs.lever.co/Aprio/9e6ecbf0-3945-4d49-a8bd-ae70e9caba4b/apply"]
   },
   {
     "name": "aptiv",
@@ -1377,9 +1401,7 @@
     "identifier": "arcesiumllc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/arcesiumllc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/arcesiumllc/jobs/5112397007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/arcesiumllc/jobs/5112397007"]
   },
   {
     "name": "archer56",
@@ -1655,9 +1677,7 @@
     "identifier": "asteraearlycareer2026",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/asteraearlycareer2026/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005"]
   },
   {
     "name": "astranis",
@@ -1788,9 +1808,7 @@
     "identifier": "auctane",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/auctane/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/auctane/jobs/7746499003"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/auctane/jobs/7746499003"]
   },
   {
     "name": "auctor",
@@ -1798,9 +1816,7 @@
     "identifier": "auctor",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/auctor",
-    "urls": [
-      "https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607/application"]
   },
   {
     "name": "Authorium",
@@ -1808,9 +1824,7 @@
     "identifier": "Authorium",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Authorium",
-    "urls": [
-      "https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application"]
   },
   {
     "name": "autodesk",
@@ -1929,9 +1943,7 @@
     "identifier": "awardco",
     "domain": "https://award.co",
     "page": "https://boards-api.greenhouse.io/v1/boards/awardco/jobs",
-    "urls": [
-      "https://award.co/position?gh_jid=5856737004"
-    ]
+    "urls": ["https://award.co/position?gh_jid=5856737004"]
   },
   {
     "name": "axiomspace",
@@ -1965,9 +1977,7 @@
     "identifier": "axway",
     "domain": "https://careers-axway.icims.com",
     "page": "https://api.icims.com/v1/companies/axway/jobs",
-    "urls": [
-      "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "babelstreet",
@@ -2165,9 +2175,7 @@
     "identifier": "barkbackLlc",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/barkbackLlc/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/barkbackLlc/90864007"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/barkbackLlc/90864007"]
   },
   {
     "name": "barr",
@@ -2459,9 +2467,7 @@
     "identifier": "Blinqlabs",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Blinqlabs/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"]
   },
   {
     "name": "block",
@@ -2498,9 +2504,7 @@
     "identifier": "block.xyz",
     "domain": "https://block.xyz",
     "page": "",
-    "urls": [
-      "https://block.xyz/careers/jobs/4904196008"
-    ]
+    "urls": ["https://block.xyz/careers/jobs/4904196008"]
   },
   {
     "name": "bloomenergy",
@@ -2843,9 +2847,7 @@
     "identifier": "botauto",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/botauto/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/botauto/jobs/5182922008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/botauto/jobs/5182922008"]
   },
   {
     "name": "boxinc",
@@ -2906,9 +2908,7 @@
     "identifier": "breezeairways",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/breezeairways/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/breezeairways/jobs/7767219003"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/breezeairways/jobs/7767219003"]
   },
   {
     "name": "brevium",
@@ -2916,9 +2916,7 @@
     "identifier": "brevium",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/brevium/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/brevium/jobs/4598383006"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/brevium/jobs/4598383006"]
   },
   {
     "name": "brex",
@@ -2987,9 +2985,7 @@
     "identifier": "bylight",
     "domain": "https://jobs-bylight.icims.com",
     "page": "https://api.icims.com/v1/companies/bylight/jobs",
-    "urls": [
-      "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "c3iot",
@@ -3680,9 +3676,7 @@
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
     "page": "",
-    "urls": [
-      "https://careers.itw.com/global/en/job/JR4585"
-    ]
+    "urls": ["https://careers.itw.com/global/en/job/JR4585"]
   },
   {
     "name": "careers.kodak.com",
@@ -3750,9 +3744,7 @@
     "identifier": "careers.medpace.com",
     "domain": "https://careers.medpace.com",
     "page": "",
-    "urls": [
-      "https://careers.medpace.com/jobs/12766?lang=en-us&icims=1"
-    ]
+    "urls": ["https://careers.medpace.com/jobs/12766?lang=en-us&icims=1"]
   },
   {
     "name": "careers.merzaesthetics.com",
@@ -3988,9 +3980,7 @@
     "identifier": "careers.staples.com",
     "domain": "https://careers.staples.com",
     "page": "",
-    "urls": [
-      "https://careers.staples.com/en/job/-/-/44412/86032290864"
-    ]
+    "urls": ["https://careers.staples.com/en/job/-/-/44412/86032290864"]
   },
   {
     "name": "careers.thredup.com",
@@ -4014,9 +4004,7 @@
     "identifier": "careers.tranetechnologies.com",
     "domain": "https://careers.tranetechnologies.com",
     "page": "",
-    "urls": [
-      "https://careers.tranetechnologies.com/global/en/job/92601996"
-    ]
+    "urls": ["https://careers.tranetechnologies.com/global/en/job/92601996"]
   },
   {
     "name": "careers.tsmc.com",
@@ -4319,9 +4307,7 @@
     "identifier": "cgi.njoyn.com",
     "domain": "https://cgi.njoyn.com",
     "page": "",
-    "urls": [
-      "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0825-1620"
-    ]
+    "urls": ["https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0825-1620"]
   },
   {
     "name": "chamberlain",
@@ -4339,9 +4325,7 @@
     "identifier": "chargepoint",
     "domain": "https://www.chargepoint.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/chargepoint/jobs",
-    "urls": [
-      "https://www.chargepoint.com/about/opportunities/job/?gh_jid=8524453002"
-    ]
+    "urls": ["https://www.chargepoint.com/about/opportunities/job/?gh_jid=8524453002"]
   },
   {
     "name": "charlesriverassociates",
@@ -4430,9 +4414,7 @@
     "identifier": "cirrus",
     "domain": "https://jobs.eu.lever.co",
     "page": "https://api.eu.lever.co/v0/postings/cirrus?mode=json",
-    "urls": [
-      "https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply"
-    ]
+    "urls": ["https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply"]
   },
   {
     "name": "cisco",
@@ -4516,9 +4498,7 @@
     "identifier": "clear",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/clear/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/clear/jobs/7901600"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/clear/jobs/7901600"]
   },
   {
     "name": "clearwateranalytics",
@@ -4645,9 +4625,7 @@
     "identifier": "codalinc",
     "domain": "http://codal.jobs",
     "page": "https://boards-api.greenhouse.io/v1/boards/codalinc/jobs",
-    "urls": [
-      "http://codal.jobs?gh_jid=5233970008"
-    ]
+    "urls": ["http://codal.jobs?gh_jid=5233970008"]
   },
   {
     "name": "Codeage",
@@ -4655,9 +4633,7 @@
     "identifier": "Codeage",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Codeage/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/Codeage/743999669081604"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/Codeage/743999669081604"]
   },
   {
     "name": "cogeco",
@@ -4811,9 +4787,7 @@
     "identifier": "constantcontact",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/constantcontact/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/constantcontact/jobs/7974629"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/constantcontact/jobs/7974629"]
   },
   {
     "name": "constructionresources",
@@ -4829,9 +4803,7 @@
     "identifier": "context",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/context",
-    "urls": [
-      "https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application"]
   },
   {
     "name": "cooperstandard",
@@ -5017,9 +4989,7 @@
     "identifier": "creatify",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/creatify",
-    "urls": [
-      "https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application"]
   },
   {
     "name": "creditacceptance",
@@ -5191,9 +5161,7 @@
     "identifier": "cypresscreekrenewables",
     "domain": "https://ccrenew.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/cypresscreekrenewables/jobs",
-    "urls": [
-      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197"
-    ]
+    "urls": ["https://ccrenew.com/careers/job-listing/?gh_jid=7948197"]
   },
   {
     "name": "d-Matrix",
@@ -5201,9 +5169,7 @@
     "identifier": "d-Matrix",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/d-Matrix",
-    "urls": [
-      "https://jobs.ashbyhq.com/d-Matrix/93a6e6ee-3391-4437-8459-e28eb05eace7"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/d-Matrix/93a6e6ee-3391-4437-8459-e28eb05eace7"]
   },
   {
     "name": "d2l",
@@ -5211,9 +5177,7 @@
     "identifier": "d2l",
     "domain": "https://www.d2l.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/d2l/jobs",
-    "urls": [
-      "https://www.d2l.com/careers/jobs/?job_id=7991317&gh_jid=7991317"
-    ]
+    "urls": ["https://www.d2l.com/careers/jobs/?job_id=7991317&gh_jid=7991317"]
   },
   {
     "name": "danaher",
@@ -5232,9 +5196,7 @@
     "identifier": "dandy",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dandy",
-    "urls": [
-      "https://jobs.ashbyhq.com/dandy/d05aa4b4-96c1-405e-a777-f6504c149ca9"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/dandy/d05aa4b4-96c1-405e-a777-f6504c149ca9"]
   },
   {
     "name": "darkwolfsolutions",
@@ -5280,9 +5242,7 @@
     "identifier": "db.recsolu.com",
     "domain": "https://db.recsolu.com",
     "page": "",
-    "urls": [
-      "https://db.recsolu.com/external/requisitions/Bw7mjFK6IZkEJB1Wtse0YA"
-    ]
+    "urls": ["https://db.recsolu.com/external/requisitions/Bw7mjFK6IZkEJB1Wtse0YA"]
   },
   {
     "name": "decagon",
@@ -5290,9 +5250,7 @@
     "identifier": "decagon",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/decagon",
-    "urls": [
-      "https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212"]
   },
   {
     "name": "delinea",
@@ -5675,9 +5633,7 @@
     "identifier": "drivewealth",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/drivewealth/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/drivewealth/jobs/7146495003?gh_jid=7146495003"
-    ]
+    "urls": ["https://boards.greenhouse.io/drivewealth/jobs/7146495003?gh_jid=7146495003"]
   },
   {
     "name": "drweng",
@@ -5701,9 +5657,7 @@
     "identifier": "dryft",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dryft",
-    "urls": [
-      "https://jobs.ashbyhq.com/dryft/3f1c261d-9b65-412b-9f17-34b8968bdd78/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/dryft/3f1c261d-9b65-412b-9f17-34b8968bdd78/application"]
   },
   {
     "name": "dtna",
@@ -5932,9 +5886,7 @@
     "identifier": "ecyq.fa.em2.oraclecloud.com",
     "domain": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
-    "urls": [
-      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"
-    ]
+    "urls": ["https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"]
   },
   {
     "name": "edel.fa.us2.oraclecloud.com",
@@ -5961,9 +5913,7 @@
     "identifier": "eduarcline.us",
     "domain": "https://www.eduarcline.us",
     "page": "",
-    "urls": [
-      "https://www.eduarcline.us/careers/software-engineering-intern"
-    ]
+    "urls": ["https://www.eduarcline.us/careers/software-engineering-intern"]
   },
   {
     "name": "eedu.fa.em3.oraclecloud.com",
@@ -6022,9 +5972,7 @@
     "identifier": "efficientcomputer",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/efficientcomputer/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/efficientcomputer/jobs/4251212009"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/efficientcomputer/jobs/4251212009"]
   },
   {
     "name": "egcu.fa.us6.oraclecloud.com",
@@ -6094,9 +6042,7 @@
     "identifier": "eightsleep",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/eightsleep",
-    "urls": [
-      "https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035"]
   },
   {
     "name": "eisneramper",
@@ -6261,9 +6207,7 @@
     "identifier": "endpointclinical",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/endpointclinical?mode=json",
-    "urls": [
-      "https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply"
-    ]
+    "urls": ["https://jobs.lever.co/endpointclinical/d8e94671-b722-4bd9-94a6-c0f27008acbf/apply"]
   },
   {
     "name": "energyhub",
@@ -6271,9 +6215,7 @@
     "identifier": "energyhub",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/energyhub/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/energyhub/jobs/8524847002"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/energyhub/jobs/8524847002"]
   },
   {
     "name": "energynorthwest",
@@ -6289,9 +6231,7 @@
     "identifier": "EnergyVault",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/EnergyVault?mode=json",
-    "urls": [
-      "https://jobs.lever.co/EnergyVault/6df5f1b9-8fce-4717-aaa0-98768ef28eeb/apply"
-    ]
+    "urls": ["https://jobs.lever.co/EnergyVault/6df5f1b9-8fce-4717-aaa0-98768ef28eeb/apply"]
   },
   {
     "name": "ensco",
@@ -6704,9 +6644,7 @@
     "identifier": "exiger",
     "domain": "https://www.exiger.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/exiger/jobs",
-    "urls": [
-      "https://www.exiger.com/careers/4967736004?gh_jid=4967736004"
-    ]
+    "urls": ["https://www.exiger.com/careers/4967736004?gh_jid=4967736004"]
   },
   {
     "name": "expedia",
@@ -7023,9 +6961,7 @@
     "identifier": "fable",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fable",
-    "urls": [
-      "https://jobs.ashbyhq.com/fable/b8b78ec8-8208-4bfb-b854-10243b775b82"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/fable/b8b78ec8-8208-4bfb-b854-10243b775b82"]
   },
   {
     "name": "factset",
@@ -7180,9 +7116,7 @@
     "identifier": "findhelp",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/findhelp?mode=json",
-    "urls": [
-      "https://jobs.lever.co/findhelp/651c32a0-195e-4db7-9ad7-cccbd58f8975/apply"
-    ]
+    "urls": ["https://jobs.lever.co/findhelp/651c32a0-195e-4db7-9ad7-cccbd58f8975/apply"]
   },
   {
     "name": "finra",
@@ -7273,9 +7207,7 @@
     "identifier": "fizz",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fizz",
-    "urls": [
-      "https://jobs.ashbyhq.com/fizz/c33b0bb7-d87f-4666-8622-36604fe10b20/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/fizz/c33b0bb7-d87f-4666-8622-36604fe10b20/application"]
   },
   {
     "name": "flir",
@@ -7434,9 +7366,7 @@
     "identifier": "fullscript",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/fullscript?mode=json",
-    "urls": [
-      "https://jobs.lever.co/fullscript/47f27287-e1fe-49b0-b3fd-d5ae14a46bf1"
-    ]
+    "urls": ["https://jobs.lever.co/fullscript/47f27287-e1fe-49b0-b3fd-d5ae14a46bf1"]
   },
   {
     "name": "fullsteam",
@@ -7460,9 +7390,7 @@
     "identifier": "furtherearlycareer",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/furtherearlycareer/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8384012002"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/furtherearlycareer/jobs/8384012002"]
   },
   {
     "name": "G2",
@@ -7470,9 +7398,7 @@
     "identifier": "G2",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/G2",
-    "urls": [
-      "https://jobs.ashbyhq.com/G2/c4488906-c271-45b3-a658-b4699b16c0b4"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/G2/c4488906-c271-45b3-a658-b4699b16c0b4"]
   },
   {
     "name": "gaig",
@@ -7580,9 +7506,7 @@
     "identifier": "gdms",
     "domain": "https://careers-gdms.icims.com",
     "page": "https://api.icims.com/v1/companies/gdms/jobs",
-    "urls": [
-      "https://careers-gdms.icims.com/jobs/73056/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://careers-gdms.icims.com/jobs/73056/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "GDMSI",
@@ -7717,9 +7641,7 @@
     "identifier": "gemini",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/gemini/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125"
-    ]
+    "urls": ["https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125"]
   },
   {
     "name": "gen",
@@ -7735,9 +7657,7 @@
     "identifier": "genbio",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/genbio?mode=json",
-    "urls": [
-      "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"
-    ]
+    "urls": ["https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"]
   },
   {
     "name": "generac",
@@ -7765,9 +7685,7 @@
     "identifier": "genesis-molecular-ai",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/genesis-molecular-ai",
-    "urls": [
-      "https://jobs.ashbyhq.com/genesis-molecular-ai/6e9c55b1-73b6-4881-8b7a-f7838626e17d"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/genesis-molecular-ai/6e9c55b1-73b6-4881-8b7a-f7838626e17d"]
   },
   {
     "name": "genpt",
@@ -7843,9 +7761,7 @@
     "identifier": "gingerlabsinc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/gingerlabsinc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/gingerlabsinc/jobs/5129674008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/gingerlabsinc/jobs/5129674008"]
   },
   {
     "name": "githubinc.jibeapply.com",
@@ -7995,7 +7911,7 @@
     "ats": "custom",
     "identifier": "google",
     "domain": "https://www.google.com",
-    "page": "https://www.google.com/about/careers/applications/jobs/results?location=United%20States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY",
+    "page": "https://www.google.com/about/careers/applications/jobs/results?&sort_by=date",
     "urls": [
       "https://www.google.com/about/careers/applications/jobs/results/100216277234000582-research-intern-phd-summer-2026",
       "https://www.google.com/about/careers/applications/jobs/results/101633639661347526-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
@@ -8003,16 +7919,23 @@
       "https://www.google.com/about/careers/applications/jobs/results/102449055308620486-administrative-business-partner-server-operations-data-center-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/103463309788750534-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/103524945690010310-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/103973199716197062-conversational-ai-consultant?sort_by=date&page=16",
+      "https://www.google.com/about/careers/applications/jobs/results/104327517237584582-software-engineer-google-beam-full-stack?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/104557471934096070-data-center-technician-ii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/105043434598736582-security-engineer-access-security-team?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/105133441007133382-data-center-facilities-technician-ii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/105230774730400454-regulatory-and-litigation-counsel-ai-safety?sort_by=date&page=16",
+      "https://www.google.com/about/careers/applications/jobs/results/105855563622949574-software-engineer-content-safety-team?sort_by=date&page=17",
       "https://www.google.com/about/careers/applications/jobs/results/105955748030096070-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/107128442041836230-hardware-validation-engineer-ml-products-university-graduate?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/107132933369668294-security-engineering-intern-bsms-summer-2026?q=Intern&location=United+States",
       "https://www.google.com/about/careers/applications/jobs/results/107176497894040262-data-center-technician-hardware-ops?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/108770214228697798-mechanical-engineer-cooling-system-design-and-analysis?sort_by=date&page=12",
       "https://www.google.com/about/careers/applications/jobs/results/108926137647669958-data-center-facilities-technician-generators?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/109120288523723462-customer-engineer-dataanalytics-google-public-sector?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/109341797066384070-data-center-technician-iii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/109345246025786054-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/109489243394319046-customer-engineer-google-cloud-platform?sort_by=date&page=20",
       "https://www.google.com/about/careers/applications/jobs/results/109527176545477318-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/109561671474651846-data-center-technician-ii-hardware-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/110033418871284422-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
@@ -8020,19 +7943,24 @@
       "https://www.google.com/about/careers/applications/jobs/results/110447655582081734-data-center-facilities-technician-mechanical-hvac?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/110796638720533190-associate-product-manager-intern/",
       "https://www.google.com/about/careers/applications/jobs/results/110893954223743686-data-center-facilities-technician-generators?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/110914304852533958-customer-engineer-associate-platform-google-cloud?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/112955719988191942-data-engineer-operations-and-infrastructure-data-science?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/113176103350084294-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/113417974534021830-interaction-designer-search-ux-local-flagship?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/113945695991276230-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/114021468878054086-data-center-technician-hardware-troubleshooting?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/114203708736053958-software-engineer-youtube-shopping-merchant?sort_by=date&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/115534117805662918-software-engineer-android-user-experience-pixel?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/115576081682965190-data-center-facilities-technician-iii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/115668990415512262-data-center-facilities-technician-iii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/115706348041052870-data-center-technician-3rd-shift-weekend?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/116153557215781574-data-center-technician-ii-night-shift?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/116454549597627078-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/116463102051918534-software-engineer-generative-ai-maps?sort_by=date&page=15",
       "https://www.google.com/about/careers/applications/jobs/results/117118476782314182-software-engineering-intern-ms-summer-2026",
       "https://www.google.com/about/careers/applications/jobs/results/118106937735684806-software-engineering-intern-phd-summer-2026",
       "https://www.google.com/about/careers/applications/jobs/results/119133966018978502-data-center-technician-swing-night-weekend-shifts?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/120018166741902022-application-engineer-full-stack?sort_by=date&page=20",
       "https://www.google.com/about/careers/applications/jobs/results/120265246446101190-data-center-technician-server-ops?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/120723516336022214-data-center-facilities-technician-generatorelectrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/121216176901497542-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
@@ -8041,26 +7969,39 @@
       "https://www.google.com/about/careers/applications/jobs/results/122047755584447174-data-center-facilities-technician-server-floor-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/122718084015235782-business-program-manager-data-center-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/122888894193509062-software-developer-intern-phd-summer-2026",
+      "https://www.google.com/about/careers/applications/jobs/results/123121984987898566-practice-customer-engineer-migrations-database-and-data-analytics-google-cloud?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/123290157552935622-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/123609163027620550-data-center-technician-ii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/123732076502360774-security-engineer-third-party-security-diligence?sort_by=date&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/123996096731980486-privacy-and-security-technical-assurance-risk-compliance-and-integrity?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/124288380966970054-data-center-technician-hardware-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/124569727094661830-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/125213993663898310-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/125287567527420614-business-program-manager-global-data-centers?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/125969773690266310-administrative-business-partner-platform-and-devices?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/126044533367415494-user-experience-engineer-intern-bsms-summer-2026?q=Intern&location=United+States",
+      "https://www.google.com/about/careers/applications/jobs/results/127216360131306182-software-engineer-voxel-jit-and-hardware-accelerated-googlesql?sort_by=date&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/127503641903801030-software-engineer-aiml-youtube-ads-bidding-and-advertiser-optimization?sort_by=date&page=19",
       "https://www.google.com/about/careers/applications/jobs/results/127861590820037318-data-center-facilities-technician-iii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/128312228452410054-data-center-technician-ii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/129388788949361350-customer-engineer-platform-federal-healthcare-google-public-sector?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/130154813546472134-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/130350586745758406-data-center-manufacturing-test-engineer?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/130836701781074630-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/131248234910622406-silicon-dft-engineer-cloud-silicon?sort_by=date&page=15",
       "https://www.google.com/about/careers/applications/jobs/results/132198309493121734-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/132305619251012294-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/132478779447485126-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/132671243475133126-data-center-engineer-modular-structures?sort_by=date&page=9",
       "https://www.google.com/about/careers/applications/jobs/results/132698860114846406-hardware-emulation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/132808132672791238-associate-regulatory-counsel-content-consumer-protection-and-ai?sort_by=date&page=13",
       "https://www.google.com/about/careers/applications/jobs/results/132832428128379590-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/134542715344822982-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/134731487747416774-silicon-validation-engineer-google-cloud?sort_by=date&page=15",
       "https://www.google.com/about/careers/applications/jobs/results/134851841320985286-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/134886786147984070-data-center-technician-iii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=7",
+      "https://www.google.com/about/careers/applications/jobs/results/134984615939973830-data-center-facilities-engineer-mechanical-english?sort_by=date&page=8",
+      "https://www.google.com/about/careers/applications/jobs/results/135193514559316678-ai-innovation-engineer-google-cloud?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/135325114404086470-hardware-validation-engineer-cloud-platforms?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/137097782799278790-optical-validation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/137229887302705862-data-center-technician-weekend-night-shift?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
@@ -8069,14 +8010,20 @@
       "https://www.google.com/about/careers/applications/jobs/results/138014522093773510-ux-researcher-core-data-ux-ai-foundations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/138436492866265798-data-center-facilities-technician-iv-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/138604201675498182-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/138978351409701574-software-engineer-digital-identity?sort_by=date&page=18",
       "https://www.google.com/about/careers/applications/jobs/results/139918130284503750-software-developer-intern-bs-summer-2026",
+      "https://www.google.com/about/careers/applications/jobs/results/139970248336908998-data-center-mechanical-engineer?sort_by=date&page=13",
       "https://www.google.com/about/careers/applications/jobs/results/140526320873284294-data-center-facilities-technician-ii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/141518372821967558-product-design-engineering-intern-bsms-summer-2026",
+      "https://www.google.com/about/careers/applications/jobs/results/141656761734963910-outcome-customer-engineer-google-cloud-platform-delivery?sort_by=date&page=19",
       "https://www.google.com/about/careers/applications/jobs/results/141712452327744198-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/141987895123550918-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/142155480351810246-data-center-technician-swing-night-weekend-shifts?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/142243179389690566-vendor-solutions-consultant-google-cloud-english-spanish?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/142680607749481158-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/142786896479560390-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/143288986746397382-platform-customer-engineer-public-sector-google-cloud?sort_by=date&page=16",
+      "https://www.google.com/about/careers/applications/jobs/results/143476084111745734-ai-innovation-engineer-google-cloud?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/143628967666950854-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/143640856237089478-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/143702138877289158-optical-validation-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
@@ -8084,17 +8031,23 @@
       "https://www.google.com/about/careers/applications/jobs/results/73542886024454854-ux-designer-youtube-watch-ux?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/73635906426151622-data-center-technician-third-party-data-center?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/73705993849971398-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/74151936110011078-customer-solutions-consultant-platform-strategic-pursuits-google-cloud-english-thai?sort_by=date&page=11",
       "https://www.google.com/about/careers/applications/jobs/results/74402318644060870-security-engineer-access-risk-intelligence-and-security-mitigation?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/75808725415142086-software-engineering-intern-bs-summer-2026",
+      "https://www.google.com/about/careers/applications/jobs/results/75893322010239686-software-developer-enterprise-chat-google-cloud?sort_by=date&page=16",
       "https://www.google.com/about/careers/applications/jobs/results/76165414530228934-data-center-technician-ii-operations-hardware?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/76198207679275718-data-center-technician-global-server-ops?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/76209989948973766-chip-cad-devops-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/76267016276583110-data-center-technician-server-ops?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/76277575554343622-ux-engineer-disco-chrome-ai-innovation?sort_by=date&page=11",
       "https://www.google.com/about/careers/applications/jobs/results/76860302657757894-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/77174102632080070-asic-design-verification-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/77674771365405382-practice-customer-engineer-migrations-infrastructure-and-app-google-cloud?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/77715221367399110-hardware-validation-engineer-cloud-platforms?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/77833238478758598-software-engineer-tpu-software-systems-cloud?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/78107010330960582-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/79159281613447878-data-center-technician-all-shifts?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/79549851007623878-frontend-software-engineer-google-photos?sort_by=date&page=9",
       "https://www.google.com/about/careers/applications/jobs/results/79567159625163462-data-engineer-ii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/79695332186694342-data-center-facilities-technician-ii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/80140768613671622-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
@@ -8107,27 +8060,40 @@
       "https://www.google.com/about/careers/applications/jobs/results/83033753760211654-software-developer-intern-ms-summer-2026",
       "https://www.google.com/about/careers/applications/jobs/results/83200352991486662-data-center-technician-ii-hardware-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/84555891914744518-business-program-manager-data-center-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=7",
+      "https://www.google.com/about/careers/applications/jobs/results/84769507582583494-customer-engineer-application-modernization-google-cloud?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/85902626691916486-data-center-technician-ii-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=7",
+      "https://www.google.com/about/careers/applications/jobs/results/86161764181254854-software-engineer-aiml-networking?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/86246108648350406-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/86309169505673926-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/86316451723387590-pcb-layout-engineer-platforms-infrastructure?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/86369558893339334-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/86735176574345926-data-center-technician-dayshift?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/86745576837653190-data-engineer-geo-3p-and-developer-data-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/86943654387557062-top-customer-solutions-engineer-compute-infrastructure-google-cloud-english-mandarin?sort_by=date&page=10",
+      "https://www.google.com/about/careers/applications/jobs/results/87066834049606342-silicon-validation-engineer-google-cloud?sort_by=date&page=14",
       "https://www.google.com/about/careers/applications/jobs/results/87540263899013830-ux-writer-and-content-designer-corpeng?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/87563571612787398-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/87682526201422534-ai-software-developer-android-xr-application-compatibility?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/88639461994177222-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/89302209908351686-safety-and-security-specialist?sort_by=date&page=20",
+      "https://www.google.com/about/careers/applications/jobs/results/89607358744797894-smart-nic-software-engineer-embedded?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/89964057825551046-data-center-facilities-technician-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/90360227857081030-data-center-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/90521110788874950-business-program-manager-data-center-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/91025882189046470-data-center-facilities-technician-i-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/91474844884837062-ai-and-knowledge-strategist?sort_by=date&page=20",
       "https://www.google.com/about/careers/applications/jobs/results/91739328870261446-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/91967326135427782-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/92143107436356294-soc-dft-engineer-google-cloud?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/92372690618196678-data-engineer?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/92665807003099846-data-center-technician-ii?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/92779805098812102-administrative-business-partner-google-data-centers?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/93034158531453638-trust-and-safety-intelligence-analyst-fraud-and-system-abuse?sort_by=date&page=17",
       "https://www.google.com/about/careers/applications/jobs/results/94763384204862150-ngp-software-and-tools-systems-development-engineer?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/95102640450347718-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/95219437891658438-software-engineer-foundational-ml-research?sort_by=date&page=15",
       "https://www.google.com/about/careers/applications/jobs/results/95426777437872838-data-center-technician-global-server-ops-iad-metro?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/95611405096362694-incident-response-security-consultant-mandiant?sort_by=date&page=11",
       "https://www.google.com/about/careers/applications/jobs/results/95805271430832838-strategic-partner-development-associate-apps-and-gaming?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/96089316844806854-data-center-facilities-technician-i-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/96160807649190598-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3",
@@ -8138,6 +8104,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/97848244867867334-technical-program-manager-intern-bsms-summer-2026",
       "https://www.google.com/about/careers/applications/jobs/results/98426115135021766-modular-data-center-product-engineer-design?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/99074314820559558-data-center-facilities-technician-iii-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/99154040251654854-software-engineer-data-center-orchestration?sort_by=date&page=19",
       "https://www.google.com/about/careers/applications/jobs/results/99178576225411782-associate-data-center-facilities-technician?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/99458065853489862-administrative-business-partner-cloud-ai?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
@@ -8202,10 +8169,7 @@
     "identifier": "grnh.se",
     "domain": "https://grnh.se",
     "page": "",
-    "urls": [
-      "https://grnh.se/p32j1zwl5us",
-      "https://grnh.se/rw14eooo5us"
-    ]
+    "urls": ["https://grnh.se/p32j1zwl5us", "https://grnh.se/rw14eooo5us"]
   },
   {
     "name": "group.bnpparibas",
@@ -8286,9 +8250,7 @@
     "identifier": "hadrian-automation",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/hadrian-automation",
-    "urls": [
-      "https://jobs.ashbyhq.com/hadrian-automation/620632cd-94f6-4cb5-8dea-3c62de1f20f7"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/hadrian-automation/620632cd-94f6-4cb5-8dea-3c62de1f20f7"]
   },
   {
     "name": "haier",
@@ -8594,9 +8556,7 @@
     "identifier": "higher.gs.com",
     "domain": "https://higher.gs.com",
     "page": "",
-    "urls": [
-      "https://higher.gs.com/roles/150598"
-    ]
+    "urls": ["https://higher.gs.com/roles/150598"]
   },
   {
     "name": "highmarkhealth",
@@ -8711,9 +8671,7 @@
     "identifier": "horizonindustrieslimited",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/horizonindustrieslimited/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5248280008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5248280008"]
   },
   {
     "name": "horn",
@@ -8952,9 +8910,7 @@
     "identifier": "iherb",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/iherb/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/iherb/jobs/7720743003"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/iherb/jobs/7720743003"]
   },
   {
     "name": "ilitch",
@@ -9200,9 +9156,7 @@
     "identifier": "intersystems",
     "domain": "https://www.intersystems.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/intersystems/jobs",
-    "urls": [
-      "https://www.intersystems.com/careers/careers-search/?gh_jid=7593713003"
-    ]
+    "urls": ["https://www.intersystems.com/careers/careers-search/?gh_jid=7593713003"]
   },
   {
     "name": "intrinsicrobotics",
@@ -9330,9 +9284,7 @@
     "identifier": "ispottv",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/ispottv/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/ispottv/jobs/4703297005"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/ispottv/jobs/4703297005"]
   },
   {
     "name": "ithaka",
@@ -9358,9 +9310,7 @@
     "identifier": "ivalua",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/ivalua/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/ivalua/jobs/7473992?gh_jid=7473992"
-    ]
+    "urls": ["https://boards.greenhouse.io/ivalua/jobs/7473992?gh_jid=7473992"]
   },
   {
     "name": "ivo",
@@ -9368,9 +9318,7 @@
     "identifier": "ivo",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/ivo?mode=json",
-    "urls": [
-      "https://jobs.lever.co/ivo/83b626de-53c8-4505-b0ea-253fdcb83680/apply"
-    ]
+    "urls": ["https://jobs.lever.co/ivo/83b626de-53c8-4505-b0ea-253fdcb83680/apply"]
   },
   {
     "name": "jabil",
@@ -9400,9 +9348,7 @@
     "identifier": "jacobs.taleo.net",
     "domain": "https://jacobs.taleo.net",
     "page": "",
-    "urls": [
-      "https://jacobs.taleo.net/careersection/ex3/jobdetail.ftl?job=ADV000CKV"
-    ]
+    "urls": ["https://jacobs.taleo.net/careersection/ex3/jobdetail.ftl?job=ADV000CKV"]
   },
   {
     "name": "janestreet.com",
@@ -9410,9 +9356,7 @@
     "identifier": "janestreet.com",
     "domain": "https://www.janestreet.com",
     "page": "",
-    "urls": [
-      "https://www.janestreet.com/join-jane-street/position/5869205002/"
-    ]
+    "urls": ["https://www.janestreet.com/join-jane-street/position/5869205002/"]
   },
   {
     "name": "jbb.applytojob.com",
@@ -9490,9 +9434,7 @@
     "identifier": "jobs",
     "domain": "https://jobs.solarwinds.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
-    "urls": [
-      "https://jobs.solarwinds.com/job-detail/?gh_jid=4704179005&gh_jid=4704179005"
-    ]
+    "urls": ["https://jobs.solarwinds.com/job-detail/?gh_jid=4704179005&gh_jid=4704179005"]
   },
   {
     "name": "jobs.aligntech.com",
@@ -9504,31 +9446,6 @@
       "https://jobs.aligntech.com/en/postings/29f80852-61f8-4bb4-82eb-0ced3926a740",
       "https://jobs.aligntech.com/en/postings/748d529c-e3ab-4f4b-a242-3cd8ae84e8b0",
       "https://jobs.aligntech.com/en/postings/989b0ae6-69a6-41df-a1e9-40cbb4da5cff"
-    ]
-  },
-  {
-    "name": "jobs.apple.com",
-    "ats": "custom",
-    "identifier": "jobs.apple.com",
-    "domain": "https://jobs.apple.com",
-    "page": "",
-    "urls": [
-      "https://jobs.apple.com/en-us/details/200606141/engineering-program-management-internships?team=STDNT",
-      "https://jobs.apple.com/en-us/details/200606143/hardware-technology-internships?team=STDNT",
-      "https://jobs.apple.com/en-us/details/200606145",
-      "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT",
-      "https://jobs.apple.com/en-us/details/200606469/machine-learning-ai-internships?team=STDNT",
-      "https://jobs.apple.com/en-us/details/200606475/hardware-engineering-internships?team=STDNT",
-      "https://jobs.apple.com/en-us/details/200623627",
-      "https://jobs.apple.com/en-us/details/200623661",
-      "https://jobs.apple.com/en-us/details/200625333",
-      "https://jobs.apple.com/en-us/details/200647702/software-development-engineer-applications",
-      "https://jobs.apple.com/en-us/details/200664307",
-      "https://jobs.apple.com/en-us/details/200664320",
-      "https://jobs.apple.com/en-us/details/200664320/software-engineering-masters-internships",
-      "https://jobs.apple.com/en-us/details/200664323",
-      "https://jobs.apple.com/en-us/details/200664785",
-      "https://jobs.apple.com/en-us/details/200664785/software-undergrad-engineering-internships"
     ]
   },
   {
@@ -9653,9 +9570,7 @@
     "identifier": "jobs.dayforcehcm.com",
     "domain": "https://jobs.dayforcehcm.com",
     "page": "",
-    "urls": [
-      "https://jobs.dayforcehcm.com/en-US/otg/CANDIDATEPORTAL/jobs/39712"
-    ]
+    "urls": ["https://jobs.dayforcehcm.com/en-US/otg/CANDIDATEPORTAL/jobs/39712"]
   },
   {
     "name": "jobs.disneycareers.com",
@@ -9964,9 +9879,7 @@
     "identifier": "johndeere.eightfold.ai",
     "domain": "https://johndeere.eightfold.ai",
     "page": "",
-    "urls": [
-      "https://johndeere.eightfold.ai/careers/job/137476749430"
-    ]
+    "urls": ["https://johndeere.eightfold.ai/careers/job/137476749430"]
   },
   {
     "name": "join.sephora.com",
@@ -10007,9 +9920,7 @@
     "identifier": "jolera.com",
     "domain": "https://www.jolera.com",
     "page": "",
-    "urls": [
-      "https://www.jolera.com/careers/?jobId=mQ_8xXOp_PHw"
-    ]
+    "urls": ["https://www.jolera.com/careers/?jobId=mQ_8xXOp_PHw"]
   },
   {
     "name": "jpmc.fa.oraclecloud.com",
@@ -10253,9 +10164,7 @@
     "identifier": "kodiak",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/kodiak/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/kodiak/jobs/4204664009"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/kodiak/jobs/4204664009"]
   },
   {
     "name": "Kognitos",
@@ -10263,9 +10172,7 @@
     "identifier": "Kognitos",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Kognitos",
-    "urls": [
-      "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application"]
   },
   {
     "name": "kong",
@@ -10322,9 +10229,7 @@
     "identifier": "labelbox",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/labelbox/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/labelbox/jobs/5126745007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/labelbox/jobs/5126745007"]
   },
   {
     "name": "laika",
@@ -10332,9 +10237,7 @@
     "identifier": "laika",
     "domain": "https://www.laika.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/laika/jobs",
-    "urls": [
-      "https://www.laika.com/careers/job-listing?jobid=7863648&gh_jid=7863648"
-    ]
+    "urls": ["https://www.laika.com/careers/job-listing?jobid=7863648&gh_jid=7863648"]
   },
   {
     "name": "lambda",
@@ -10363,9 +10266,7 @@
     "identifier": "larian",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/larian?mode=json",
-    "urls": [
-      "https://jobs.lever.co/larian/05191579-a3e5-4e2d-9ad2-b9b790d60a89/apply"
-    ]
+    "urls": ["https://jobs.lever.co/larian/05191579-a3e5-4e2d-9ad2-b9b790d60a89/apply"]
   },
   {
     "name": "latitude",
@@ -10397,9 +10298,7 @@
     "identifier": "Laxir1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Laxir1/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/Laxir1/743999834183955"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/Laxir1/743999834183955"]
   },
   {
     "name": "layup",
@@ -10407,9 +10306,7 @@
     "identifier": "layup",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/layup?mode=json",
-    "urls": [
-      "https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53/apply"
-    ]
+    "urls": ["https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53/apply"]
   },
   {
     "name": "lazard-careers.tal.net",
@@ -10429,9 +10326,7 @@
     "identifier": "leagueinc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/leagueinc/jobs/5972947004"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/leagueinc/jobs/5972947004"]
   },
   {
     "name": "LegalAndGeneral",
@@ -10462,9 +10357,7 @@
     "identifier": "lennox",
     "domain": "https://uscareers-lennox.icims.com",
     "page": "https://api.icims.com/v1/companies/lennox/jobs",
-    "urls": [
-      "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "leonardocompany",
@@ -10791,9 +10684,7 @@
     "identifier": "locusrobotics",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/locusrobotics/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/locusrobotics/jobs/5152803007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/locusrobotics/jobs/5152803007"]
   },
   {
     "name": "logicgate",
@@ -10954,9 +10845,7 @@
     "identifier": "majorleaguebaseball",
     "domain": "https://www.mlb.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/majorleaguebaseball/jobs",
-    "urls": [
-      "https://www.mlb.com/careers/opportunities?gh_jid=7090095"
-    ]
+    "urls": ["https://www.mlb.com/careers/opportunities?gh_jid=7090095"]
   },
   {
     "name": "make-rain",
@@ -10964,9 +10853,7 @@
     "identifier": "make-rain",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/make-rain?mode=json",
-    "urls": [
-      "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"
-    ]
+    "urls": ["https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"]
   },
   {
     "name": "mangroup",
@@ -11030,9 +10917,7 @@
     "identifier": "mark43",
     "domain": "https://mark43.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/mark43/jobs",
-    "urls": [
-      "https://mark43.com/list-job/7706886?gh_jid=7706886"
-    ]
+    "urls": ["https://mark43.com/list-job/7706886?gh_jid=7706886"]
   },
   {
     "name": "marketaxesscorporation",
@@ -11173,9 +11058,7 @@
     "identifier": "MBRDNA",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/MBRDNA?mode=json",
-    "urls": [
-      "https://jobs.lever.co/MBRDNA/bf597528-079f-47a1-965f-def393590f02/apply"
-    ]
+    "urls": ["https://jobs.lever.co/MBRDNA/bf597528-079f-47a1-965f-def393590f02/apply"]
   },
   {
     "name": "mcghealth",
@@ -11199,9 +11082,7 @@
     "identifier": "mechanize",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/mechanize",
-    "urls": [
-      "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e"]
   },
   {
     "name": "mechanize.work",
@@ -11209,9 +11090,7 @@
     "identifier": "mechanize.work",
     "domain": "https://www.mechanize.work",
     "page": "",
-    "urls": [
-      "https://www.mechanize.work/apply/software-engineer/?role=intern"
-    ]
+    "urls": ["https://www.mechanize.work/apply/software-engineer/?role=intern"]
   },
   {
     "name": "medicalinformaticsengineering",
@@ -11219,9 +11098,7 @@
     "identifier": "medicalinformaticsengineering",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/medicalinformaticsengineering/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/medicalinformaticsengineering/jobs/4116759009"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/medicalinformaticsengineering/jobs/4116759009"]
   },
   {
     "name": "medline",
@@ -11274,9 +11151,7 @@
     "identifier": "melotech",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/melotech",
-    "urls": [
-      "https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application"]
   },
   {
     "name": "menasha",
@@ -11714,9 +11589,7 @@
     "identifier": "monzo",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/monzo/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/monzo/jobs/7118972"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/monzo/jobs/7118972"]
   },
   {
     "name": "moog",
@@ -11810,9 +11683,7 @@
     "identifier": "mthree",
     "domain": "https://mthree.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/mthree/jobs",
-    "urls": [
-      "https://mthree.com/careers/job/?gh_jid=4686871006"
-    ]
+    "urls": ["https://mthree.com/careers/job/?gh_jid=4686871006"]
   },
   {
     "name": "MUBI",
@@ -11892,9 +11763,7 @@
     "identifier": "n1",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/n1",
-    "urls": [
-      "https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6"]
   },
   {
     "name": "nasdaq",
@@ -11915,9 +11784,7 @@
     "identifier": "Nash",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Nash",
-    "urls": [
-      "https://jobs.ashbyhq.com/Nash/5d2387ea-c478-433b-b3db-30115d1984c5/application"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/Nash/5d2387ea-c478-433b-b3db-30115d1984c5/application"]
   },
   {
     "name": "nasuni",
@@ -11973,9 +11840,7 @@
     "identifier": "ncr-ext_non_us",
     "domain": "https://ncr.wd1.myworkdayjobs.com/ext_non_us",
     "page": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_non_us/jobs",
-    "urls": [
-      "https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer_R0156991"
-    ]
+    "urls": ["https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer_R0156991"]
   },
   {
     "name": "NECSWS",
@@ -12083,9 +11948,7 @@
     "identifier": "nex",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/nex/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/nex/jobs/5155205008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/nex/jobs/5155205008"]
   },
   {
     "name": "nextech",
@@ -12105,9 +11968,7 @@
     "identifier": "nextiva",
     "domain": "https://www.nextiva.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/nextiva/jobs",
-    "urls": [
-      "https://www.nextiva.com/company/careers-listing?gh_jid=8477382002"
-    ]
+    "urls": ["https://www.nextiva.com/company/careers-listing?gh_jid=8477382002"]
   },
   {
     "name": "ngc",
@@ -12323,9 +12184,7 @@
     "identifier": "NorthwesternMutual",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/NorthwesternMutual/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"]
   },
   {
     "name": "NorthwoodSpace",
@@ -12518,9 +12377,7 @@
     "identifier": "octaura",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/octaura/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/octaura/jobs/4662934007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/octaura/jobs/4662934007"]
   },
   {
     "name": "octoenergy",
@@ -12528,9 +12385,7 @@
     "identifier": "octoenergy",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/octoenergy?mode=json",
-    "urls": [
-      "https://jobs.lever.co/octoenergy/cb4fc843-799a-45ee-8bf1-e1a909d651e6"
-    ]
+    "urls": ["https://jobs.lever.co/octoenergy/cb4fc843-799a-45ee-8bf1-e1a909d651e6"]
   },
   {
     "name": "offerup",
@@ -12538,9 +12393,7 @@
     "identifier": "offerup",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/offerup/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/offerup/jobs/8004171"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/offerup/jobs/8004171"]
   },
   {
     "name": "okta",
@@ -12586,9 +12439,7 @@
     "identifier": "oneapp",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/oneapp",
-    "urls": [
-      "https://jobs.ashbyhq.com/oneapp/3adc0645-5834-4bbc-a509-81ffa8d06c30"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/oneapp/3adc0645-5834-4bbc-a509-81ffa8d06c30"]
   },
   {
     "name": "oneclick-ui",
@@ -12628,9 +12479,7 @@
     "identifier": "onto-onto_careers",
     "domain": "https://onto.wd1.myworkdayjobs.com/onto_careers",
     "page": "https://onto.wd1.myworkdayjobs.com/wday/cxs/onto/onto_careers/jobs",
-    "urls": [
-      "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Hillsboro-OR/Contractor_R-6046"
-    ]
+    "urls": ["https://onto.wd1.myworkdayjobs.com/onto_careers/job/Hillsboro-OR/Contractor_R-6046"]
   },
   {
     "name": "openai",
@@ -12666,9 +12515,7 @@
     "identifier": "opensesame",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/opensesame/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/opensesame/jobs/7967740?gh_jid=7967740"
-    ]
+    "urls": ["https://boards.greenhouse.io/opensesame/jobs/7967740?gh_jid=7967740"]
   },
   {
     "name": "optiver.com",
@@ -12830,9 +12677,7 @@
     "identifier": "PAR%20Technology",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/PAR%20Technology",
-    "urls": [
-      "https://jobs.ashbyhq.com/PAR%20Technology/86c3d733-baad-4ef1-a731-8776a1966858"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/PAR%20Technology/86c3d733-baad-4ef1-a731-8776a1966858"]
   },
   {
     "name": "parachutehealth",
@@ -12840,9 +12685,7 @@
     "identifier": "parachutehealth",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/parachutehealth/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/parachutehealth/jobs/5152203007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/parachutehealth/jobs/5152203007"]
   },
   {
     "name": "parsons",
@@ -12858,9 +12701,7 @@
     "identifier": "pathai",
     "domain": "https://www.pathai.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/pathai/jobs",
-    "urls": [
-      "https://www.pathai.com/career/job-post?gh_jid=8202342002"
-    ]
+    "urls": ["https://www.pathai.com/career/job-post?gh_jid=8202342002"]
   },
   {
     "name": "patientpoint",
@@ -12876,9 +12717,7 @@
     "identifier": "patreon",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/patreon",
-    "urls": [
-      "https://jobs.ashbyhq.com/patreon/53b98cc4-6e4f-4cf3-a128-cd06a06b9d9a"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/patreon/53b98cc4-6e4f-4cf3-a128-cd06a06b9d9a"]
   },
   {
     "name": "paycomonline.net",
@@ -12898,9 +12737,7 @@
     "identifier": "paypal.eightfold.ai",
     "domain": "https://paypal.eightfold.ai",
     "page": "",
-    "urls": [
-      "https://paypal.eightfold.ai/careers/job/274915802833"
-    ]
+    "urls": ["https://paypal.eightfold.ai/careers/job/274915802833"]
   },
   {
     "name": "pdtpartners",
@@ -12954,9 +12791,7 @@
     "identifier": "peraton",
     "domain": "https://careers-peraton.icims.com",
     "page": "https://api.icims.com/v1/companies/peraton/jobs",
-    "urls": [
-      "https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "Perchwell",
@@ -13333,9 +13168,7 @@
     "identifier": "prizepicks",
     "domain": "http://prizepicks.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/prizepicks/jobs",
-    "urls": [
-      "http://prizepicks.com/position?gh_jid=7761768003"
-    ]
+    "urls": ["http://prizepicks.com/position?gh_jid=7761768003"]
   },
   {
     "name": "progyny",
@@ -13487,9 +13320,7 @@
     "identifier": "quantco-",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/quantco-?mode=json",
-    "urls": [
-      "https://jobs.lever.co/quantco-/945bd3c0-117a-4b0e-b60a-6759add05fc9"
-    ]
+    "urls": ["https://jobs.lever.co/quantco-/945bd3c0-117a-4b0e-b60a-6759add05fc9"]
   },
   {
     "name": "quantinuum",
@@ -13497,9 +13328,7 @@
     "identifier": "quantinuum",
     "domain": "https://jobs.eu.lever.co",
     "page": "https://api.eu.lever.co/v0/postings/quantinuum?mode=json",
-    "urls": [
-      "https://jobs.eu.lever.co/quantinuum/e7f4a0db-4a46-4409-9cbb-75e7eecf2565"
-    ]
+    "urls": ["https://jobs.eu.lever.co/quantinuum/e7f4a0db-4a46-4409-9cbb-75e7eecf2565"]
   },
   {
     "name": "QuantumWorkplace",
@@ -13553,9 +13382,7 @@
     "identifier": "rackner",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rackner/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/rackner/jobs/4681781005"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/rackner/jobs/4681781005"]
   },
   {
     "name": "radiancetech",
@@ -13651,9 +13478,7 @@
     "identifier": "rdccareers",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rdccareers/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/rdccareers/jobs/7765054003?gh_jid=7765054003"
-    ]
+    "urls": ["https://boards.greenhouse.io/rdccareers/jobs/7765054003?gh_jid=7765054003"]
   },
   {
     "name": "realitydefender",
@@ -13728,9 +13553,7 @@
     "identifier": "redhorsecorp",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/redhorsecorp?mode=json",
-    "urls": [
-      "https://jobs.lever.co/redhorsecorp/f01b7b5b-3a03-4c20-a621-0d3f996e6469"
-    ]
+    "urls": ["https://jobs.lever.co/redhorsecorp/f01b7b5b-3a03-4c20-a621-0d3f996e6469"]
   },
   {
     "name": "redventures",
@@ -14000,9 +13823,7 @@
     "identifier": "rilla",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/rilla",
-    "urls": [
-      "https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5"]
   },
   {
     "name": "riotgames.com",
@@ -14338,9 +14159,7 @@
     "identifier": "samsara.com",
     "domain": "https://www.samsara.com",
     "page": "",
-    "urls": [
-      "https://www.samsara.com/company/careers/roles/7179025"
-    ]
+    "urls": ["https://www.samsara.com/company/careers/roles/7179025"]
   },
   {
     "name": "samsungresearchamericainternship",
@@ -14404,9 +14223,7 @@
     "identifier": "sanmar",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/sanmar/jobs",
-    "urls": [
-      "https://boards.greenhouse.io/sanmar/jobs/5132321007?gh_jid=5132321007"
-    ]
+    "urls": ["https://boards.greenhouse.io/sanmar/jobs/5132321007?gh_jid=5132321007"]
   },
   {
     "name": "sanofi",
@@ -14499,9 +14316,7 @@
     "identifier": "saviynt",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/saviynt?mode=json",
-    "urls": [
-      "https://jobs.lever.co/saviynt/17118748-6a11-44e2-9bf9-58badadb6ac0"
-    ]
+    "urls": ["https://jobs.lever.co/saviynt/17118748-6a11-44e2-9bf9-58badadb6ac0"]
   },
   {
     "name": "sbasite",
@@ -14555,9 +14370,7 @@
     "identifier": "schonfeld",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/schonfeld/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/schonfeld/jobs/7996905"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/schonfeld/jobs/7996905"]
   },
   {
     "name": "schwabjobs.com",
@@ -14699,9 +14512,7 @@
     "identifier": "Serval",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Serval",
-    "urls": [
-      "https://jobs.ashbyhq.com/Serval/5250c679-d490-407e-bd2e-b8b160c62aac"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/Serval/5250c679-d490-407e-bd2e-b8b160c62aac"]
   },
   {
     "name": "ServiceNow",
@@ -14727,9 +14538,7 @@
     "identifier": "sevenresearch",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/sevenresearch/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"]
   },
   {
     "name": "shakeshack",
@@ -14780,9 +14589,7 @@
     "identifier": "shein",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/shein/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/shein/jobs/5229778008"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/shein/jobs/5229778008"]
   },
   {
     "name": "shieldai",
@@ -14940,9 +14747,7 @@
     "identifier": "skhynixmemorysolutionsamericainc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/skhynixmemorysolutionsamericainc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4264591009"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4264591009"]
   },
   {
     "name": "skillzinc",
@@ -14994,9 +14799,7 @@
     "identifier": "skyscanner",
     "domain": "http://www.skyscanner.net",
     "page": "https://boards-api.greenhouse.io/v1/boards/skyscanner/jobs",
-    "urls": [
-      "http://www.skyscanner.net/jobs/job/7956291?gh_jid=7956291"
-    ]
+    "urls": ["http://www.skyscanner.net/jobs/job/7956291?gh_jid=7956291"]
   },
   {
     "name": "Skyward1",
@@ -15004,9 +14807,7 @@
     "identifier": "Skyward1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Skyward1/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/Skyward1/744000107535692"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/Skyward1/744000107535692"]
   },
   {
     "name": "slihrms",
@@ -15195,9 +14996,7 @@
     "identifier": "solopulseco",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/solopulseco?mode=json",
-    "urls": [
-      "https://jobs.lever.co/solopulseco/e430dd0f-8a73-46ec-8aea-739e1a5c1f9c/apply"
-    ]
+    "urls": ["https://jobs.lever.co/solopulseco/e430dd0f-8a73-46ec-8aea-739e1a5c1f9c/apply"]
   },
   {
     "name": "somfygroup",
@@ -15315,9 +15114,7 @@
     "identifier": "sparksoftcorporation",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/sparksoftcorporation/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5143392007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5143392007"]
   },
   {
     "name": "spe",
@@ -15407,9 +15204,7 @@
     "identifier": "squarepoint-capital.com",
     "domain": "https://www.squarepoint-capital.com",
     "page": "",
-    "urls": [
-      "https://www.squarepoint-capital.com/open-opportunities?id=243853"
-    ]
+    "urls": ["https://www.squarepoint-capital.com/open-opportunities?id=243853"]
   },
   {
     "name": "squarepointcapital",
@@ -15436,9 +15231,7 @@
     "identifier": "sri",
     "domain": "https://careers-sri.icims.com",
     "page": "https://api.icims.com/v1/companies/sri/jobs",
-    "urls": [
-      "https://careers-sri.icims.com/jobs/6417/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": ["https://careers-sri.icims.com/jobs/6417/job?mobile=true&needsRedirect=false"]
   },
   {
     "name": "ssctech",
@@ -15500,9 +15293,7 @@
     "identifier": "stashinvest",
     "domain": "https://ats.comparably.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/stashinvest/jobs",
-    "urls": [
-      "https://ats.comparably.com/api/v2/stash/post/7979793:?gh_jid=7979793"
-    ]
+    "urls": ["https://ats.comparably.com/api/v2/stash/post/7979793:?gh_jid=7979793"]
   },
   {
     "name": "statestreet",
@@ -15523,9 +15314,7 @@
     "identifier": "STCU1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/STCU1/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/STCU1/744000114977297"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/STCU1/744000114977297"]
   },
   {
     "name": "steeldynamics",
@@ -15765,9 +15554,7 @@
     "identifier": "suno",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/suno",
-    "urls": [
-      "https://jobs.ashbyhq.com/suno/dba162e0-97f1-4efe-b4ff-c7d671a01b11"
-    ]
+    "urls": ["https://jobs.ashbyhq.com/suno/dba162e0-97f1-4efe-b4ff-c7d671a01b11"]
   },
   {
     "name": "super.com",
@@ -15803,9 +15590,7 @@
     "identifier": "swbc-swbccareers",
     "domain": "https://swbc.wd1.myworkdayjobs.com/swbccareers",
     "page": "https://swbc.wd1.myworkdayjobs.com/wday/cxs/swbc/swbccareers/jobs",
-    "urls": [
-      "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/AI-Intern_R0014877"
-    ]
+    "urls": ["https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/AI-Intern_R0014877"]
   },
   {
     "name": "swbc",
@@ -15847,9 +15632,7 @@
     "identifier": "SymmetrySystems",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/SymmetrySystems?mode=json",
-    "urls": [
-      "https://jobs.lever.co/SymmetrySystems/dbca271b-a99b-48ab-83f2-b596a037ad65/apply"
-    ]
+    "urls": ["https://jobs.lever.co/SymmetrySystems/dbca271b-a99b-48ab-83f2-b596a037ad65/apply"]
   },
   {
     "name": "symphony",
@@ -15974,9 +15757,7 @@
     "identifier": "tanium",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/tanium/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/tanium/jobs/7759897"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/tanium/jobs/7759897"]
   },
   {
     "name": "tatari",
@@ -16342,9 +16123,7 @@
     "identifier": "tifin",
     "domain": "https://tifin.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/tifin/jobs",
-    "urls": [
-      "https://tifin.com/careers/apply/?gh_jid=5981740004"
-    ]
+    "urls": ["https://tifin.com/careers/apply/?gh_jid=5981740004"]
   },
   {
     "name": "tilderesearch",
@@ -16388,9 +16167,7 @@
     "identifier": "togetherai",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/togetherai/jobs/5068767007"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/togetherai/jobs/5068767007"]
   },
   {
     "name": "togetherwork",
@@ -16437,9 +16214,7 @@
     "identifier": "toyotaconnected",
     "domain": "https://www.toyotaconnected.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/toyotaconnected/jobs",
-    "urls": [
-      "https://www.toyotaconnected.com/job?gh_jid=8577877002&gh_jid=8577877002"
-    ]
+    "urls": ["https://www.toyotaconnected.com/job?gh_jid=8577877002&gh_jid=8577877002"]
   },
   {
     "name": "transcarent",
@@ -16493,9 +16268,7 @@
     "identifier": "TreehouseStrategyAndCommunicatio",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/TreehouseStrategyAndCommunicatio/postings",
-    "urls": [
-      "https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721"
-    ]
+    "urls": ["https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721"]
   },
   {
     "name": "trendmicro",
@@ -16511,9 +16284,7 @@
     "identifier": "tri",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
-    "urls": [
-      "https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19"
-    ]
+    "urls": ["https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19"]
   },
   {
     "name": "triafederal",
@@ -16534,9 +16305,7 @@
     "identifier": "tribalscale",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/tribalscale/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/tribalscale/jobs/4687337006"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/tribalscale/jobs/4687337006"]
   },
   {
     "name": "trillium",
@@ -17273,9 +17042,7 @@
     "identifier": "virtru",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/virtru/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/virtru/jobs/4705251005"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/virtru/jobs/4705251005"]
   },
   {
     "name": "virtu",
@@ -17320,9 +17087,7 @@
     "identifier": "visiersolutionsinc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/visiersolutionsinc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4677125006"]
   },
   {
     "name": "vital-lyfe",
@@ -17440,9 +17205,7 @@
     "identifier": "vulcanmat.taleo.net",
     "domain": "https://vulcanmat.taleo.net",
     "page": "",
-    "urls": [
-      "https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=250002CY"
-    ]
+    "urls": ["https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=250002CY"]
   },
   {
     "name": "waabi",
@@ -17480,9 +17243,7 @@
     "identifier": "wadetrim",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/wadetrim?mode=json",
-    "urls": [
-      "https://jobs.lever.co/wadetrim/dc2cfd2f-ba6e-4004-9825-115b53f91136"
-    ]
+    "urls": ["https://jobs.lever.co/wadetrim/dc2cfd2f-ba6e-4004-9825-115b53f91136"]
   },
   {
     "name": "walleyecapital-external-fulltime",
@@ -17551,9 +17312,7 @@
     "identifier": "wavetronix.breezy.hr",
     "domain": "https://wavetronix.breezy.hr",
     "page": "",
-    "urls": [
-      "https://wavetronix.breezy.hr/p/b89da1eae7f3-computer-science-internship-summer-2026"
-    ]
+    "urls": ["https://wavetronix.breezy.hr/p/b89da1eae7f3-computer-science-internship-summer-2026"]
   },
   {
     "name": "waystar",
@@ -17871,9 +17630,7 @@
     "identifier": "yugabyte",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/yugabyte/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/yugabyte/jobs/4688005006"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/yugabyte/jobs/4688005006"]
   },
   {
     "name": "zaimler",
@@ -17964,9 +17721,7 @@
     "identifier": "zocdoc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/zocdoc/jobs",
-    "urls": [
-      "https://job-boards.greenhouse.io/zocdoc/jobs/7757630"
-    ]
+    "urls": ["https://job-boards.greenhouse.io/zocdoc/jobs/7757630"]
   },
   {
     "name": "zoetis",
@@ -18031,8 +17786,6 @@
     "identifier": "zushealth",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/zushealth?mode=json",
-    "urls": [
-      "https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0"
-    ]
+    "urls": ["https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0"]
   }
 ]

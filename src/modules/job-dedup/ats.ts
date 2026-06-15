@@ -1,3 +1,5 @@
+import { parseCustomCompanyIdentifier } from "../company-tacker/ats";
+
 import { getLastPathNumber } from "./utils";
 
 export function getGreenhouseKey(u: URL): string | null {
@@ -53,19 +55,11 @@ export function getIcimsKey(pathname: string): string | null {
 export function getCustomKey(url: string): string {
   const u = new URL(url);
 
-  // ✅ case 0: google jobs
-  if (u.hostname.includes("google.com")) {
-    //www.google.com/about/careers/applications/jobs/results/101633639661347526-data-center-facilities-technician-mechanical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=3
+  const identifier = parseCustomCompanyIdentifier(u);
+  if (identifier) {
     const id = getLastPathNumber(u.pathname);
-    if (id) return `google:${id}`;
-    return `google:${u.origin}${u.pathname}`;
-  }
-
-  // ✅ case 0: amazon jobs
-  if (u.hostname.includes("amazon.jobs")) {
-    const id = getLastPathNumber(u.pathname);
-    if (id) return `amazon:${id}`;
-    return `amazon:${u.origin}${u.pathname}`;
+    if (id) return `${identifier}:${id}`;
+    return `${identifier}:${u.origin}${u.pathname}`;
   }
 
   // ✅ case 1: Salesforce / bambusdev

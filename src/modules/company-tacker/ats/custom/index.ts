@@ -1,16 +1,19 @@
 // Amazon, Microsoft, Google, Apple, Meta, TikTok, Uber
 
+import { APPLE_CAREERS_URL, GOOGLE_CAREERS_URL, META_CAREERS_URL } from "@/constants/ats";
+
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { fetchAmazon } from "./amazon";
+import { fetchApple } from "./apple";
 import { fetchGoogle } from "./google";
 import { fetchMeta } from "./meta";
 import { fetchMicrosoft } from "./microsoft";
 
-type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta";
+type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta" | "apple";
 
-function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
+export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
   const host = url.hostname;
   if (host.includes("amazon.jobs")) {
     return "amazon";
@@ -20,6 +23,8 @@ function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null 
     return "google";
   } else if (host.includes("metacareers.com")) {
     return "meta";
+  } else if (host.includes("jobs.apple.com")) {
+    return "apple";
   } else {
     // logger.warn(`Unsupported custom company: ${host}`);
     return null;
@@ -55,7 +60,7 @@ export function urlToCustomCompany(url: URL): Company {
         ats: "custom",
         identifier,
         domain: url.origin,
-        page: "https://www.google.com/about/careers/applications/jobs/results?location=United%20States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY",
+        page: `${GOOGLE_CAREERS_URL}/jobs/results?&sort_by=date`,
         urls: [],
       };
     case "meta":
@@ -64,7 +69,16 @@ export function urlToCustomCompany(url: URL): Company {
         ats: "custom",
         identifier,
         domain: url.origin,
-        page: "https://www.metacareers.com/jobsearch",
+        page: META_CAREERS_URL,
+        urls: [],
+      };
+    case "apple":
+      return {
+        name: "Apple",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: APPLE_CAREERS_URL,
         urls: [],
       };
     default: {
@@ -98,6 +112,9 @@ export async function fetchCustom(
     }
     case "meta": {
       return await fetchMeta(company, urls, signal);
+    }
+    case "apple": {
+      return await fetchApple(company, urls, signal);
     }
     default:
       return [];
