@@ -2,9 +2,11 @@ import * as cheerio from "cheerio";
 
 import { RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult } from "./index";
+import type { JDFetchResult } from "../index";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK } from "./index";
+import { JD_FETCH_ERROR, JD_FETCH_OK } from "../index";
+
+import { extractAppleJD } from "./apple";
 
 import { logger } from "@/utils/logger";
 
@@ -144,13 +146,18 @@ function extractRelevantWindow(text: string, maxChars = FALLBACK_JD_MAX_CHARS): 
 }
 
 function extractFallbackJD(html: string): string | null {
+  const appleJD = extractAppleJD(html);
+
+  if (appleJD) {
+    return normalizeRawText(limitRawText(appleJD));
+  }
+
   const $ = cheerio.load(html);
 
   const ldJsonTexts = $('script[type="application/ld+json"]')
     .map((_, el) => $(el).text())
     .get()
     .filter(Boolean);
-
   const structuredText = ldJsonTexts.map(extractJobPostingFromLdJson).find(Boolean);
 
   if (structuredText) {
