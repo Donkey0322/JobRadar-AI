@@ -1,0 +1,44 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/maintainx/jobs/5164675007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4525462007,
+  "location": {
+    "name": "Raleigh, NC"
+  },
+  "metadata": null,
+  "id": 5164675007,
+  "updated_at": "2026-06-15T10:28:31-04:00",
+  "requisition_id": "323",
+  "title": "Business Development Representative (Outbound)",
+  "company_name": "MaintainX",
+  "first_published": "2026-06-15T10:28:31-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;About MaintainX&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;MaintainX is the world&#39;s leading mobile-first work execution platform for industrial and frontline teams. Over 13,000 customers, including Duracell, McDonald&#39;s, Shell, DHL, and Cintas, rely on us to replace paper work orders with one platform for maintenance and operations.&lt;/p&gt;\n&lt;p&gt;In July 2025 we closed a $150M Series D led by Bessemer Venture Partners, bringing total funding to $254M at a $2.5B valuation. We were named to the 2025 Forbes Cloud 100 and ranked #1 in EAM and CMMS on G2&#39;s Summer 2025 report.&lt;/p&gt;\n&lt;p&gt;The market we serve is urgent: 68% of industrial companies report the same or more unplanned downtime since 2024, and 3.8M manufacturing jobs will go unfilled through 2033. Our sales team is opening those doors every day.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are hiring for our outbound sales team in Raleigh. As a BDR, you will be the first person a prospect ever talks to at MaintainX. Your job is to find the plant managers, maintenance supervisors, and operations leads at industrial companies who have a real problem we can solve, and get them in front of an Account Executive. You will make 70 to 100 outbound calls a day. The reps who succeed here treat that number as a floor, not a ceiling.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Run 70 to 100 outbound calls daily to maintenance and operations decision-makers at industrial companies across North America&lt;/li&gt;\n&lt;li&gt;Build multi-touch sequences via phone, email, and LinkedIn that earn responses by speaking to real problems, not scripts&lt;/li&gt;\n&lt;li&gt;Qualify prospects quickly and book meetings for Account Executives, focusing on companies where MaintainX can drive measurable impact&lt;/li&gt;\n&lt;li&gt;Keep your pipeline accurate in Salesforce and follow up on every open thread without being reminded&lt;/li&gt;\n&lt;li&gt;Partner with AEs to understand what is converting and sharpen your targeting and approach over time&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;You Have&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Must-have:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience in a high-volume, rejection-heavy environment: sales, recruiting, hospitality, retail, or anything that built your resilience and ability to earn trust fast&lt;/li&gt;\n&lt;li&gt;A genuine drive to pick up the phone: outbound call volume is the job&lt;/li&gt;\n&lt;li&gt;Clear, polished written and verbal communication in English&lt;/li&gt;\n&lt;li&gt;Strong follow-through: you own your pipeline and your numbers without being prompted&lt;/li&gt;\n&lt;li&gt;Bachelor&#39;s degree&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Nice to have: experience with Salesforce, Outreach, ZoomInfo, or Nooks; prior B2B or SaaS sales experience&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;We Offer&lt;/strong&gt;&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;Competitive base + variable comp with equity in a post-Series D company&lt;/li&gt;\n&lt;li&gt;Day-1 health, dental, and vision coverage (Canada Life)&lt;/li&gt;\n&lt;li&gt;RRSP program&lt;/li&gt;\n&lt;li&gt;Unlimited PTO and we take it&lt;/li&gt;\n&lt;li&gt;Real career trajectory: BDRs who perform have a clear path to closing roles as the org scales&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;How We Work&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;We are in-person in Raleigh, five days a week. We build better teams together. We reward output: reps who hit their numbers get coached, promoted, and given bigger books. We measure results, not effort.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;MaintainX is committed to building a diverse, inclusive team. All qualified applicants will receive consideration for employment without regard to race, colour, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.&lt;/em&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 4020005007,
+      "name": "Sales",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4017881007,
+      "name": "Raleigh",
+      "location": "Raleigh, North Carolina, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
