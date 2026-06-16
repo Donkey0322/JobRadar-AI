@@ -1,0 +1,46 @@
+{
+  "jobPostingInfo": {
+    "id": "b7351719d415100101f77666d07e0000",
+    "title": "Systems Software Engineer",
+    "jobDescription": "<p style=\"text-align:left\"><b><span>Company Overview</span></b></p>KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. KLA invents systems and solutions for the manufacturing of wafers and reticles, integrated circuits, packaging, printed circuit boards and flat panel displays. The innovative ideas and devices that are advancing humanity all begin with inspiration, research and development. KLA focuses more than average on innovation and we invest 15% of sales back into R&amp;D. Our expert teams of physicists, engineers, data scientists and problem-solvers work together with the world’s leading technology providers to accelerate the delivery of tomorrow’s electronic devices. Life here is exciting and our teams thrive on tackling really hard problems. There is never a dull moment with us.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Job <span><span><span><span><span><span><span><span><span><span><span class=\"WCO0\">Description/Preferred</span></span></span></span></span></span></span></span></span></span></span> Qualifications</b></p><p></p><p><b>Key Responsibilities</b></p><ul><li>Design, and evolve backend infrastructure for big data Analytics, Distribution Storage and storage using modern C&#43;&#43; (C&#43;&#43;11/14/17/20)/C#, with a focus on scalability, reliability, and performance.</li><li>Lead the development of server-side components for real-time data processing, system integration, and API services.</li><li>Collaborate with product, infrastructure, and engineering teams to define system architecture and long-term technical strategy.</li><li>Drive performance optimization and memory efficiency for high-throughput applications.</li><li>Apply advanced multithreaded and concurrent programming techniques to support parallel processing and low-latency operations.</li><li>Architect and deliver microservices-based platforms that operate across Linux and Windows environments.</li><li>Oversee integration with databases, messaging systems, and external APIs.</li><li>Champion best practices in code quality, testing, and maintainability across the engineering organization.</li></ul><p></p><p><b>Required Qualifications:</b></p><ul><li>Extensive experience in C&#43;&#43; development, with a strong foundation in object-oriented design, system-level programming, and software architecture.</li><li>Proven success in building and scaling backend systems in domains such as:</li><li>Real-time data processing engines</li><li>Networked services or socket-based communication</li><li>Microservices or distributed systems</li><li>Deep familiarity with Windows and Linux/Unix environments and command-line tooling.</li><li>Expertise in performance profiling, debugging, and system optimization.</li><li>Experience with version control systems (e.g., Git) and CI/CD pipelines in production environments.</li><li>Demonstrated ability to mentor junior engineers and lead technical initiatives.</li></ul><p></p><p><b>Bonus:</b></p><ul><li>Proficiency with Boost, STL, and other modern C&#43;&#43; libraries.</li><li>Experience with service-oriented architectures including RESTful APIs, gRPC, and messaging frameworks.</li><li>Familiarity with database systems (SQL/NoSQL), data modeling, and schema design.</li><li>Background in high-performance industries such as finance, gaming, telecommunications, embedded systems, or cybersecurity.</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><b>Minimum Qualifications</b></p><p>Master&#39;s Level Degree and 0 years related work experience; Bachelor&#39;s Level Degree and related work experience of 2 years</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Base Pay Range: $83,000.00 - $141,100.00 Annually<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>Primary Location: USA-MI-Ann Arbor-KLA<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p>KLA’s total rewards package for employees may also include participation in performance incentive programs and eligibility for additional benefits including but not limited to: medical, dental, vision, life, and other voluntary benefits, 401(K) including company matching, employee stock purchase program (ESPP), student debt assistance, tuition reimbursement program, development and career growth opportunities and programs, financial planning benefits, wellness benefits including an employee assistance program (EAP), paid time off and paid company holidays, and family care and bonding leave.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">Interns are eligible for some of the benefits listed. Our pay ranges are determined by role, level, and location. The range displayed reflects the pay for this position in the primary location identified in this posting. Actual pay depends on several factors, including state minimum pay wage rates, location, job-related skills, experience, and relevant education level or training. We are committed to complying with all applicable federal and state minimum wage requirements where applicable. If applicable, your recruiter can share more about the specific pay range for your preferred location during the hiring process.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>KLA is proud to be an Equal Opportunity Employer. We will ensure that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us at <span><a href=\"mailto:talent.acquisition&#64;kla.com\" target=\"_blank\"><span>talent.acquisition&#64;kla.com</span></a> <span>or at &#43;1-408-352-2808</span><span> to request</span> accommodation.</span></p><p></p><p><span>Be aware of potentially fraudulent job postings or suspicious recruiting activity by persons that are currently posing as KLA employees. KLA never asks for any financial compensation to be considered for an interview, to become an employee, or for equipment. Further, KLA does not work with any recruiters or third parties who charge such fees either directly or on behalf of KLA</span><span>. Please ensure that you have searched </span><a href=\"https://kla.com/careers\" target=\"_blank\">KLA’s Careers website</a><span><span> </span>for legitimate job postings. KLA follows a recruiting process that involves multiple interviews in person or on video conferencing with our hiring managers. If you are concerned that a communication, an interview, an offer of employment, or that an employee is not legitimate, please send an email to </span><span><a href=\"mailto:talent.acquisition&#64;kla.com\" target=\"_blank\"><span><span>talent.acquisition&#64;kla.com</span></span></a></span><span> to </span><span>confirm the person you are communicating with is an employee. We take your privacy very seriously and confidentially handle your information. </span></p>",
+    "location": "Ann Arbor, MI",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "2637710",
+    "jobPostingId": "Systems-Software-Engineer_2637710",
+    "jobPostingSiteId": "AnnArbor",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA-MI-Ann Arbor-KLA",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://kla.wd1.myworkdayjobs.com/AnnArbor/job/Ann-Arbor-MI/Systems-Software-Engineer_2637710",
+    "questionnaireId": "4c7d6d0ea13f10018139ec673b4a0000"
+  },
+  "hiringOrganization": {
+    "name": "1000 KLA Corporation",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Systems Software Engineer (C++/C#/JAVA)",
+      "externalPath": "/job/Ann-Arbor-MI/Software-Engineer_2636564",
+      "timeType": "Full time",
+      "locationsText": "Ann Arbor, MI",
+      "postedOn": "Posted 11 Days Ago",
+      "startDate": "2026-06-05"
+    }
+  ],
+  "userAuthenticated": false
+}

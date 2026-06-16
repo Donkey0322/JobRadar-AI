@@ -1,0 +1,51 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4286512009",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4168639009,
+  "location": {
+    "name": "Cambridge, MA USA"
+  },
+  "metadata": [
+    {
+      "id": 4340245009,
+      "name": "Confidential?",
+      "value": false,
+      "value_type": "yes_no"
+    }
+  ],
+  "id": 4286512009,
+  "updated_at": "2026-06-16T09:37:11-04:00",
+  "requisition_id": "8566",
+  "title": "Co-Op, Software Product Management",
+  "company_name": "Lila Sciences",
+  "first_published": "2026-06-16T09:37:11-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;Your Impact at LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila is looking for a Fall Co-Op (Intern), Software Product Management to support software and workflow improvements across our scientific software platform.&lt;/p&gt;\n&lt;p&gt;This role sits at the intersection of scientists, software engineering, and product. The co-op will shadow users, help translate recurring workflow needs into clear product requirements, and support the team&#39;s work to connect designs, data, results, and learnings across scientific workflows.&lt;/p&gt;\n&lt;p&gt;The role is well suited for someone interested in product management, scientific operations, lab software, or data systems. The co-op will gain hands-on exposure to how scientific workflows become software requirements, while owning a small scoped feature or workflow improvement from discovery through delivery.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Be Building&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Shadow scientists and other users to understand their software and workflow needs.&lt;/li&gt;\n&lt;li&gt;Help groom product backlogs with product, science, and engineering partners.&lt;/li&gt;\n&lt;li&gt;Write clear user stories and acceptance criteria from ambiguous requirements.&lt;/li&gt;\n&lt;li&gt;Support connecting designs, data, and results across scientific workflows.&lt;/li&gt;\n&lt;li&gt;Triage recurring user asks and convert them into actionable tickets.&lt;/li&gt;\n&lt;li&gt;Own a small scoped feature or workflow improvement from discovery through delivery.&lt;/li&gt;\n&lt;li&gt;Partner with engineers and scientists to clarify requirements, acceptance criteria, and workflow impact.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You&#39;ll Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Interest in product management, scientific workflows, lab operations, or software systems.&lt;/li&gt;\n&lt;li&gt;Strong written communication skills and ability to turn ambiguity into clear requirements.&lt;/li&gt;\n&lt;li&gt;Comfort working with cross-functional partners across science, product, and engineering.&lt;/li&gt;\n&lt;li&gt;Ability to observe workflows, ask thoughtful questions, and synthesize user needs.&lt;/li&gt;\n&lt;li&gt;Organized approach to tracking tasks, decisions, and follow-ups.&lt;/li&gt;\n&lt;li&gt;Curiosity about how software can improve experimental throughput, traceability, and data quality.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Bonus Points For&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with product backlogs, user stories, or acceptance criteria.&lt;/li&gt;\n&lt;li&gt;Exposure to scientific data systems, lab software, or workflow tools.&lt;/li&gt;\n&lt;li&gt;Prior internship, coursework, or project work involving product, operations, or software delivery.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About LILA&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is building Scientific Superintelligence™ to solve humankind&#39;s greatest challenges. We believe science is the most inspiring frontier for AI. Rather than hard-coding expert knowledge into tools, LILA builds systems that can learn for themselves.&lt;/p&gt;\n&lt;p&gt;LILA combines advanced AI models with proprietary AI Science Factory™ instruments into an operating system for science that executes the entire scientific method autonomously, accelerating discovery at unprecedented speed, scale, and impact across medicine, materials, and energy. Learn more at www.lila.ai.&lt;/p&gt;\n&lt;p&gt;Guided by our core values of truth, trust, curiosity, grit, and velocity, we move with startup speed while tackling problems of historic importance. If this sounds like an environment you&#39;d love to work in, even if you don&#39;t meet every qualification listed above, we encourage you to apply.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;We’re All In&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Lila Sciences is&amp;nbsp;committed to equal employment opportunity&amp;nbsp;regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status.&lt;/p&gt;\n&lt;p&gt;Information you provide during your application process will be handled in accordance with our &lt;a href=&quot;https://www.lila.ai/candidate-privacy-policy-notice&quot;&gt;Candidate Privacy Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;A Note to Agencies&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lila Sciences does not accept unsolicited resumes from any source other than candidates. The submission of unsolicited resumes by recruitment or staffing agencies to Lila Sciences or its employees is strictly prohibited unless contacted directly by Lila Science’s internal Talent Acquisition team. Any resume submitted by an agency in the absence of a signed agreement will automatically become the property of Lila Sciences, and Lila Sciences will not owe any referral or other fees with respect thereto.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4013379009,
+      "name": "Corporate Development",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4019809009,
+      "name": "Alewife, Cambridge, MA",
+      "location": null,
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

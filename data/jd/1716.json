@@ -1,0 +1,52 @@
+{
+  "absolute_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489226002",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 6391013002,
+  "location": {
+    "name": "Chicago; New York"
+  },
+  "metadata": null,
+  "id": 8489226002,
+  "updated_at": "2026-06-16T11:55:29-04:00",
+  "requisition_id": "python_swe",
+  "title": "Software Engineer, Early Career",
+  "company_name": "Aquatic Capital Management",
+  "first_published": "2026-04-01T14:58:58-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span class=&quot;OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none&quot;&gt;Aquatic was founded with a shared passion for tackling some of the most complex challenges in one of the world’s most competitive arenas—global financial markets. From the very beginning, we have been driven by a deep commitment to applying cutting-edge scientific research and technological innovation to deliver unparalleled performance. Our journey is one of continuous growth and exploration, marked by a spirit of curiosity and relentless drive for excellence.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;At Aquatic, we are actively recruiting for software engineers in our Chicago or New York offices. You will have the opportunity to collaborate with some of the best and most experienced researchers and technologists in the financial services industry to build systems that are critical to the success of our company.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Aquatic is a place where individual contributions have significant impact. As an Early Career engineer, you will rotate through 2 or 3 different technology teams, where your day-to-day will be focused on building systems that directly contribute to the profitability of the firm. As your skills and experience grow, you’ll have opportunities to dive deeper into the research technologies at the core of Aquatic’s business.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Responsibilities:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work 1-on-1 with senior engineers who will mentor and guide you in each tech rotation&lt;/li&gt;\n&lt;li&gt;Apply hands-on software development using Python or C++&lt;/li&gt;\n&lt;li&gt;Learn software design and testing techniques, such as Refactoring and Test Driven Development&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Required Experience:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A bachelor’s degree in Computer Science, Software Engineering, or equivalent&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;A history of building software solutions in Python or C++. Stronger candidates will have knowledge of:&lt;/li&gt;\n&lt;ul&gt;\n&lt;li&gt;Event-driven architectures&lt;/li&gt;\n&lt;li&gt;Distributed systems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;li&gt;Strong quantitative skills preferred&lt;/li&gt;\n&lt;li&gt;No more than 3 years of professional (post-education) experience&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Desired Qualities:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Strong bias for action&lt;/li&gt;\n&lt;li&gt;Enthusiasm for detail&lt;/li&gt;\n&lt;li&gt;Eager to learn through direct mentoring&lt;/li&gt;\n&lt;li&gt;Prefers working in a team towards common objectives&lt;/li&gt;\n&lt;li&gt;Comfortable providing and receiving actionable feedback&lt;/li&gt;\n&lt;li&gt;Motivated by an ambitious environment and driven colleagues&lt;/li&gt;\n&lt;/ul&gt;\n&lt;div class=&quot;p-rich_text_section&quot;&gt;The base salary for this role is anticipated to be between $150,000 and $200,000, which is based on information at the time of posting. This position may also be eligible for additional forms of compensation, such as a discretionary bonus, and benefits. Discretionary bonus can be a significant portion of total compensation. Actual compensation for successful candidates will be carefully determined based on a number of factors, including their unique skills, qualifications and relevant experience.&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;Benefits:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Benefits: For full-time employees, fully paid medical, dental, and vision for employees and dependents, competitive 401k plan, employer-paid life &amp;amp; disability insurance&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Perks: Wellness programs, casual dress, snacks, lunch, game room, team and company events&lt;/li&gt;\n&lt;li&gt;Development: Open environment to maximize learning and knowledge sharing&lt;/li&gt;\n&lt;li&gt;Time: Generous PTO, paid holidays, competitive paid caregiver leaves&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=&quot;https://www.aquatic.com/&quot;&gt;Aquatic Capital &lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;This role represents a unique opportunity to join a quantitative investment manager in its early stage of growth. The firm’s culture will be shaped by collaboration, meritocracy, ambition, and calm determination.&lt;/p&gt;\n&lt;p&gt;Aquatic is a proud equal opportunity workplace. We do not discriminate based upon race, religion, color, national origin, sex, sexual orientation, gender identity/expression, age, status as a protected veteran, status as an individual with a disability, or any other applicable legally protected characteristics.&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4024832002,
+      "name": "Technology",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4012647002,
+      "name": "Chicago",
+      "location": "Chicago, Illinois, United States",
+      "child_ids": [],
+      "parent_id": null
+    },
+    {
+      "id": 4056394002,
+      "name": "New York",
+      "location": "New York, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}
