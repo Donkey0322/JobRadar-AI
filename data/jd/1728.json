@@ -1,0 +1,178 @@
+{
+  "id": "3743990013652366",
+  "name": "Associate Data Engineer I",
+  "uuid": "8a88c08c-0b76-4d30-905f-f7cdb8a1ef1e",
+  "jobId": "19a20ebf-ac16-4cab-9061-cdaf96067650",
+  "jobAdId": "3b7674db-8f7f-4c14-a52b-b441a6aa558d",
+  "defaultJobAd": true,
+  "refNumber": "R00146170",
+  "company": {
+    "name": "AbbVie",
+    "identifier": "AbbVie"
+  },
+  "location": {
+    "city": "Mettawa",
+    "region": "IL",
+    "country": "us",
+    "remote": false,
+    "hybrid": true,
+    "latitude": "42.2333571",
+    "longitude": "-87.9259058",
+    "fullLocation": "Mettawa, IL, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "65806674cbfd1911c2f5d15b",
+      "fieldLabel": "Hiring Manager",
+      "valueId": "15039489",
+      "valueLabel": "Lara Ansari (15039489)"
+    },
+    {
+      "fieldId": "65807663cbfd1911c2f5d15f",
+      "fieldLabel": "Workday Function",
+      "valueId": "FUNCTION_HQIT",
+      "valueLabel": "HQIT Information Technology"
+    },
+    {
+      "fieldId": "657cc8550d0b1f2ef38a3fc9",
+      "fieldLabel": "City",
+      "valueId": "Mettawa",
+      "valueLabel": "Mettawa"
+    },
+    {
+      "fieldId": "657ccabf0d0b1f2ef38a3fce",
+      "fieldLabel": "Segment 5 (Maximum)",
+      "valueId": "103500",
+      "valueLabel": "103500"
+    },
+    {
+      "fieldId": "657ccbce3fd51d6d84c0bc3a",
+      "fieldLabel": "Workday Global Grade",
+      "valueId": "COMPENSATIONGRADE_12",
+      "valueLabel": "12"
+    },
+    {
+      "fieldId": "6580668ecbfd1911c2f5d15c",
+      "fieldLabel": "Hiring Manager Title",
+      "valueId": "Delivery Manager Data Engineering - AbbVie Digital Lab",
+      "valueLabel": "Delivery Manager Data Engineering - AbbVie Digital Lab"
+    },
+    {
+      "fieldId": "6580763744b74c1731e95352",
+      "fieldLabel": "Parent Function",
+      "valueId": "FUNCTION_HQTR",
+      "valueLabel": "HQTR Headquarters"
+    },
+    {
+      "fieldId": "656747e5a29e121ffd619b85",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "AbbVie"
+    },
+    {
+      "fieldId": "657ccad53fd51d6d84c0bc37",
+      "fieldLabel": "Salary Min",
+      "valueId": "58656",
+      "valueLabel": "58656"
+    },
+    {
+      "fieldId": "657ccae70d0b1f2ef38a3fcf",
+      "fieldLabel": "Salary Max",
+      "valueId": "103500",
+      "valueLabel": "103500"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "657ccc330d0b1f2ef38a3fdb",
+      "fieldLabel": "Salary/Hourly Pay Indicator",
+      "valueId": "Salaried",
+      "valueLabel": "Salaried"
+    },
+    {
+      "fieldId": "657cc8220d0b1f2ef38a3fc8",
+      "fieldLabel": "Workday Country",
+      "valueId": "US",
+      "valueLabel": "United States of America"
+    },
+    {
+      "fieldId": "657cca530d0b1f2ef38a3fcc",
+      "fieldLabel": "Segment 1 (Minimum)",
+      "valueId": "58656",
+      "valueLabel": "58656"
+    },
+    {
+      "fieldId": "657ccc1c0d0b1f2ef38a3fda",
+      "fieldLabel": "Workday Job Family",
+      "valueId": "Job_Family_Information_Technology",
+      "valueLabel": "Information Technology"
+    },
+    {
+      "fieldId": "657ccc483fd51d6d84c0bc3c",
+      "fieldLabel": "Posting Grade",
+      "valueId": "COMPENSATIONGRADE_12",
+      "valueLabel": "12"
+    }
+  ],
+  "releasedDate": "2026-06-16T20:32:04.928Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013652366-associate-data-engineer-i",
+  "applyUrl": "https://jobs.smartrecruiters.com/AbbVie/3743990013652366-associate-data-engineer-i?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/AbbVie/publication/8a88c08c-0b76-4d30-905f-f7cdb8a1ef1e?dcr_ci=AbbVie",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>About AbbVie</strong></p><p>AbbVie's mission is to discover and deliver innovative medicines and solutions that solve serious health issues today and address the medical challenges of tomorrow. We strive to have a remarkable impact on people's lives across several key therapeutic areas including immunology, oncology and neuroscience - and products and services in our Allergan Aesthetics portfolio. For more information about AbbVie, please visit us at&#xa0;<a href=\"http://www.abbvie.com/\" rel=\"noopener noreferrer\">www.abbvie.com</a>. Follow @abbvie on&#xa0;<a href=\"https://www.linkedin.com/company/abbvie/\" rel=\"noopener noreferrer\">LinkedIn,</a>&#xa0;<a href=\"https://www.facebook.com/AbbVieGlobal/\" rel=\"noopener noreferrer\">Facebook</a>,&#xa0;<a href=\"https://www.instagram.com/abbvie/\" rel=\"noopener noreferrer\">Instagram</a>,&#xa0;<a href=\"https://twitter.com/abbvie\" rel=\"noopener noreferrer\">X</a>&#xa0;and&#xa0;<a href=\"https://www.youtube.com/user/AbbVie\" rel=\"noopener noreferrer\">YouTube.</a></p>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p>The <strong>Associate Data Engineer I</strong> will help build, maintain, and optimize data infrastructure - like databases and data pipelines - that address cross-functional critical business needs. This role is expected to improve existing methods and processes by using various languages to pull and manipulate data, develop and maintain ETL pipelines, implement quality control and monitoring processes to maintain accurate data flows, maintain comprehensive documentation of process designs, test results, and pipeline configurations, etc.</p><p><strong>Responsibilities</strong></p><ul><li>Design and develop data solutions to address business challenges.</li><li>Demonstrate knowledge across a range of technologies related to programming languages, data integration, data warehousing, and data visualization and analysis.</li><li>Responsible for building, maintaining, and optimizing data infrastructure.</li><li>Ensure data is collected, processed, and stored efficiently and securely.</li><li>Integrate different data sources and create the foundations on which analytics and data science can operate.</li><li>Understand the broad objectives of projects as well as position's role in achieving objectives; modify approach when required.</li><li>Escalates issues to ensure execution success and keeps stakeholders informed through effective verbal and written communication.</li><li>Learn, understand and master new methods and technologies, and act as a resource or mentor for others.</li><li>Produces and maintains required technical documentation associated with work products.</li><li>Adhere to corporate standards regarding applicable Corporate and Divisional Policies, including code of conduct, safety, GxP compliance, data security, and the software development lifecycle.</li></ul>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Required Qualifications</strong></p><ul><li>Bachelor’s degree in computer science, data science or relevant field.</li><li>Programming skills in Java, Python, R, or SQL.</li><li>Prior exposure to data engineering.</li></ul><p><strong>Preferred Qualifications</strong></p><ul><li>Experience interacting with APIs to extract data.</li><li>Hands-on experience using large language models and machine learning algorithms.</li><li>Demonstrated experience applying AI/ML in clinical or pharmaceutical contexts.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p>Applicable only to applicants applying to a position in any location with pay disclosure requirements under state or&#xa0;local law:&#xa0;​</p><ul><li><p>The compensation range described below is the range of possible base pay compensation that the Company&#xa0;believes in&#xa0;good faith it will pay for this roleat &#xa0;the&#xa0;time&#xa0;of&#xa0;this posting based on the job grade for this position.&#xa0;Individual&#xa0;compensation paid within this range will depend on manyfactors &#xa0;including &#xa0;geographic&#xa0;location,&#xa0;and&#xa0;we&#xa0;may ultimately&#xa0; pay more or less than the posted range. This range may be&#xa0;&#xa0;modified in the&#xa0;future.&#xa0;​</p></li><li><p>We offer a comprehensive package of benefits including paid time off (vacation, holidays, sick),&#xa0;medical/dental/vision&#xa0;insurance and 401(k) to eligible&#xa0;employees.​</p></li><li><p>This job is eligible to&#xa0;&#xa0;participate in our short-term incentive&#xa0;programs.&#xa0;&#xa0;Note: No amount of pay&#xa0;is&#xa0; considered to be&#xa0;wages or compensation until such amount isearned, &#xa0;vested, &#xa0;and&#xa0;determinable.&#xa0;The&#xa0;amount&#xa0;and&#xa0;availability&#xa0;of &#xa0;any&#xa0;bonus,&#xa0;commission, incentive, benefits, or any other form of&#xa0;compensation and benefits&#xa0;thatare allocable to a&#xa0; &#xa0;particular employee&#xa0;&#xa0;remains in the Company's&#xa0;sole&#xa0;and&#xa0;absolute&#xa0;discretion unless and until paid and&#xa0;may be&#xa0;&#xa0;modified at the Company’s sole andabsolute discretion,&#xa0; consistent with&#xa0;applicable law.&#xa0;</p></li></ul><div sr-tagline=\"\"></div><p>AbbVie is an equal opportunity employer and is committed to operating with integrity, driving innovation, transforming lives and serving our community. Equal Opportunity Employer/Veterans/Disabled.&#xa0;</p><p>US &amp; Puerto Rico only - to learn more, visit&#xa0;<a href=\"https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/equal-employment-opportunity-employer.html</a></p><p>US &amp; Puerto Rico applicants seeking a reasonable accommodation, click here to learn more:</p><p><a href=\"https://www.abbvie.com/join-us/reasonable-accommodations.html\" rel=\"noopener noreferrer\">https://www.abbvie.com/join-us/reasonable-accommodations.html</a></p>"
+      }
+    }
+  },
+  "compensation": {
+    "min": 58656,
+    "max": 103500,
+    "currency": "USD",
+    "period": "YEARLY"
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "pharmaceuticals",
+    "label": "Pharmaceuticals"
+  },
+  "function": {
+    "id": "other",
+    "label": "Other"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
