@@ -1,0 +1,78 @@
+{
+  "absolute_url": "https://careers.aqr.com/jobs?gh_jid=7957728&gh_jid=7957728",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "education": "education_optional",
+  "internal_job_id": 3454997,
+  "location": {
+    "name": "Greenwich, CT"
+  },
+  "metadata": [
+    {
+      "id": 155668,
+      "name": "Cost Center Group",
+      "value": [
+        "Quant Research Dev"
+      ],
+      "value_type": "multi_select"
+    },
+    {
+      "id": 182709,
+      "name": "Post Job?",
+      "value": true,
+      "value_type": "yes_no"
+    },
+    {
+      "id": 171813,
+      "name": "Retained Search Firm (If Applicable)",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 402706,
+      "name": "Subgroup",
+      "value": null,
+      "value_type": "short_text"
+    },
+    {
+      "id": 632884,
+      "name": "Comments",
+      "value": null,
+      "value_type": "long_text"
+    }
+  ],
+  "id": 7957728,
+  "updated_at": "2026-06-16T15:14:22-04:00",
+  "requisition_id": "378",
+  "title": "2027 Front Office Development Engineering Summer Analyst",
+  "company_name": "AQR",
+  "first_published": "2026-05-26T10:43:20-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;p&gt;&lt;strong&gt;About AQR Capital Management &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;AQR is a global investment firm built at the intersection of financial theory and practical application. We strive to deliver concrete, long-term results by looking past market noise to identify and isolate the factors that matter most, and by developing ideas that stand up to rigorous testing. By putting theory into practice, we have become a leader in alternative strategies and an innovator in traditional portfolio management since 1998.&lt;/p&gt;\n&lt;p&gt;At AQR, our employees share a common spirit of academic excellence, intellectual honesty and an unwavering commitment to seeking the truth. We’re determined to know what makes financial markets tick – and we’ll ask every question and challenge every assumption. &amp;nbsp;We recognize and respect the power of collaboration, and believe transparency and openness to new ideas leads to innovation.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Role&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The process of turning quantitative insights into actionable investment strategies is a critical component of AQR’s success, and as an Analyst in Front Office Development you will work closely with researchers to create new systematic investment strategies and refine existing ones, applying technology expertise along with a practical understanding of markets to implement research ideas and develop systems that further enable the business. You will also help to maintain a sophisticated infrastructure and tooling environment in support of the business, as well as a complex production process including orchestrating numerous workflows with large amounts of data.&lt;/p&gt;\n&lt;p&gt;As a software engineer at AQR, you will build or extend our:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Data ingestion and validation engine&lt;/li&gt;\n&lt;li&gt;Portfolio Rebalancing and Order Generation Platform and Services&lt;/li&gt;\n&lt;li&gt;Backtesters and related historical simulation tools&lt;/li&gt;\n&lt;li&gt;Scalable, AWS-based storage and computing infrastructure&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Bring&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ability and desire to develop in Python (our primary language for the business)&lt;/li&gt;\n&lt;li&gt;Ability and desire to develop in Java.&lt;/li&gt;\n&lt;li&gt;Understanding of design patterns and object-oriented programming techniques&lt;/li&gt;\n&lt;li&gt;Knowledge of best practices for large scale application design, SOA, microservices, distributed compute, containers, and use of the cloud.&lt;/li&gt;\n&lt;li&gt;Strong attention to detail, passion for careful testing&lt;/li&gt;\n&lt;li&gt;Excellent communication skills&lt;/li&gt;\n&lt;li&gt;Understanding or experience in finance a plus&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who You Are&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Finishing either a Bachelor’s or Master’s degree program between December 2027 and June 2028&lt;/li&gt;\n&lt;li&gt;Mature and thoughtful, with the ability to operate within a collaborative, team-oriented culture&lt;/li&gt;\n&lt;li&gt;Hard working and eager to learn in a highly intellectual, innovative environment&lt;/li&gt;\n&lt;li&gt;Look beyond the surface level to understand the underlying details&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;AQR is an Equal Opportunity Employer.&amp;nbsp; EEO/VET/DISABILITY&lt;/strong&gt;&lt;/p&gt;",
+  "departments": [
+    {
+      "id": 54560,
+      "name": "University - Open Positions",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 44217,
+      "name": "Greenwich, CT",
+      "location": "Greenwich, Connecticut, United States",
+      "child_ids": [],
+      "parent_id": null
+    }
+  ]
+}

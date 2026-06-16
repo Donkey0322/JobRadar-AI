@@ -1,0 +1,28 @@
+Title:
+Software Engineer Intern/Co-Op - Fall 2026
+Location:
+Peachtree Corners, GA
+Employment Type:
+Full-Time
+Date Posted:
+2026-06-16
+Description:
+SoloPulse Corp is a dual-use radar company committed to the relentless exploration of the frontiers of radar sensing technology. Through the utilization of novel advanced wave theory algorithms, underpinned by the principles of special relativity, SoloPulse can achieve state of the art resolution and latency metrics. Located in Atlanta, GA, SoloPulse stands as a venture-backed startup, diligently cultivating strategic collaborations to proactively address critical safety imperatives and emerging autonomy needs across both civilian and military domains. Our distinguished team encompasses accomplished engineers, seasoned advisors, and experienced startup veterans, collectively driven by an overarching mission to change the way the world sees.
+As a Software Engineer Intern/Co-op at SoloPulse, you will play a critical role in the development of our software solutions. You will work on a wide range of tasks, from algorithm development to frontend-backend integration.\nResponsibilities
+Design, develop, test, and deploy software solutions using a variety of programming languages and technologies
+Implement and maintain both frontend and backend components of our applications
+Develop and optimize algorithms to solve complex problems
+Engineer low-latency solutions to proprietary computational operations
+Collaborate with cross-functional teams to understand and define software requirements
+Qualifications
+Must be pursuing a Bachelor's, Master's, or PhD in Computer Science, Computer Engineering or related quantitative field from an accredited 4-year university
+Proficiency in Python and C++
+Familiarity with embedded and real-time systems programming
+Knowledge of software architecture and design paradigms
+Strong communication and teamwork skills
+Willingness to take ownership of projects and work autonomously
+Bonus Qualifications
+A strong portfolio of personal software or hardware-related projects
+Familiarity with the CUDA toolkit and associated programming practices
+Familiarity with GPU-accelerated libraries such as PyTorch and OpenGL/ThreeJS
+\nJoin our team and be part of a dynamic, collaborative environment where innovation and creativity thrive. We offer competitive compensation and the opportunity to work on groundbreaking projects that will shape the future of radar technology.

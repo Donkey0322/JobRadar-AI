@@ -1,0 +1,41 @@
+{
+  "jobPostingInfo": {
+    "id": "2f0062b327cb1001b25491745d140000",
+    "title": "Early Career AI Engineer (Contract)",
+    "jobDescription": "<p><b>Job Description:</b></p><div><p>Rakuten International is a division of Rakuten Group, Inc., a Japanese global technology leader in services that empower individuals, communities, businesses and society. Headquartered in San Mateo, California with more than 4,000 employees worldwide, the Rakuten International business portfolio includes market leaders in e-commerce, digital marketing, advertising, communications and entertainment. We create products and services that provide exceptional value by aligning members and the businesses that want to engage them in a shared community. </p><p></p><p><b>Job Summary:</b></p><p>We are seeking an innovative and dedicated Software Engineer to join the Rakuten AI User Experience team. Rakuten AI strives to be your Rakuten AI companion, providing the best AI user experience — generally, contextually, and personally. Rakuten AI aims to serve as the AI Core of the Rakuten ecosystem, enhancing interconnections between Rakuten services and users to delight customers worldwide more than ever before.</p><p></p><p>This role involves advancing the AI user experience to serve as the foundational core across the Rakuten products ecosystem by developing innovative AI user experience framework. The ideal candidate will have a strong passion for building solid, flexible, and immersive AI user experiences using state-of-the-art technologies and will contribute to a unified vision that enhances Rakuten AI foundation at scale.</p><p></p><p>We also welcome software engineers from diverse fields who may not have direct experience in AI. This is an opportunity to gain critical skills and knowledge needed to transition into the AI space. We are dedicated to supporting early career engineers who bring unique perspectives and skills. Our commitment includes offering mentorship and resources to facilitate your growth in cutting-edge AI domains.</p><p></p><p><b>The Early Career Experience: </b>At Rakuten, we pride ourselves on giving early career engineers a genuine, immersive experience that has a direct impact on company objectives. You will do meaningful work, and with us, you’ll be a true member of the team.</p><p></p><p>You can visit <a href=\"http://rakuten.us/\" target=\"_blank\">rakuten.us</a> and <a href=\"https://www.themuse.com/profiles/rakutenamericas/team/internships\" target=\"_blank\">our Muse profile</a><u>,</u> to learn more about Rakuten’s culture and values.</p><p></p><p><b>Key Responsibilities:</b></p><ul><li><b>Develop and Maintain Web Applications</b>: Design, build, and maintain front-end and back-end features for web applications, ensuring they are scalable and high-performing.</li><li><b>Build AI Front-End User Experience</b>: Use HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue to create intuitive and responsive user interfaces.</li><li><b>Develop AI Back-End Services</b>: Build server-side logic and APIs using technologies like Node.js, Python, Java, or Ruby.</li><li><b>Building highly flexible, scalable Agentic AI Framework</b> by leveraging popular AI toolset like LangChain etc.</li><li><b>Data schema design and database management</b>: Design and manage databases, such as MySQL, MongoDB, PostgreSQL, or others, ensuring efficient data storage and retrieval.</li><li><b>Integrate APIs and Third-Party Services:</b> Integrate external APIs and services, such as OpenAI APIs, payment gateways, social media APIs, or analytics tools, as needed.</li><li><b>Perform Testing and Debugging:</b> Write unit, integration, and end-to-end tests, troubleshoot issues, and resolve bugs across the full stack of the application.</li><li><b>Optimize for Performance:</b> Improve performance by optimizing application code, databases, and server configurations to reduce latency and increase efficiency.</li></ul><p></p><p><b>Qualifications:</b></p><ul><li>Proficiency in front-end technologies like HTML, CSS, and JavaScript, and experience with at least one modern front-end framework (e.g., React, Angular, or Vue).</li><li>Proficiency in Back-End Development, knowledgeable of server-side languages such as C#, Java, Python, Node.js, Ruby, or PHP and familiarity with building RESTful APIs and knowledgeable of Web Development Frameworks</li><li>Knowledge/familiarity with variety of data schema design, and database management, e.g. relational databases (e.g., MySQL, PostgreSQL) and/or NoSQL databases (e.g., MongoDB, Cassandra).</li><li>Proficiency in debugging and problem-solving across both front-end and back-end systems.</li><li>Ability to write clean, maintainable code, adherence to coding standards and best practices, with a focus on creating well-organized, readable, and maintainable code.</li><li>Adaptability and willingness to learn, ability to quickly learn new technologies and adapt to changing project requirements.</li></ul><p></p><p><b>Minimum Requirements:</b></p><ul><li>Bachelor’s Degree or above in Computer Science or related field or equivalent practical experience.</li><li>Experience with testing practices and experience with unit testing, integration testing, and end-to-end testing.</li><li>Experience in AI-related projects or products strongly preferred.</li></ul><p></p><p><b><i>At the time of posting, Rakuten expects the hourly rate for this role will be between $30 - $50 per hour. Individual compensation will vary based on job-related factors, including the skills, qualifications, and experience of the successful candidate as well as business need and geographic location.</i></b></p></div><p></p><p><u><b>Five Principles for Success</b></u><br />Our worldwide practices describe specific behaviors that make Rakuten unique and united across the world. We expect Rakuten employees to model these 5 Shugi Principles of Success.<br /><br /><b>Always improve, Always Advance</b> - Only be satisfied with complete success - Kaizen<br /><b>Passionately Professiona</b>l - Take an uncompromising approach to your work and be determined to be the best<br /><b>Hypothesize - Practice - Validate – Shikumika </b>- Use the Rakuten Cycle to succeed in unknown territory<br /><b>Maximize Customer Satisfaction</b> - The greatest satisfaction for our teams is seeing their customers smile<br /><b>Speed!! Speed!! Speed!!</b> - Always be conscious of time - take charge, set clear goals, and engage your team</p><p></p><p><i>Rakuten provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type. Rakuten considers applicants for employment without regard to race, color, religion, age, sex, national origin, disability status, genetic information, protected veteran status, sexual orientation, gender, gender identity or expression, or any other characteristic protected by federal, state, provincial or local laws.</i></p>",
+    "location": "Bellevue, Washington",
+    "additionalLocations": [
+      "San Mateo, California"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "1031936",
+    "jobPostingId": "Intern---Software-Engineering--AI-User-Experience_1031936",
+    "jobPostingSiteId": "RakutenAmericas",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "WA-Bellevue",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://rakuten.wd1.myworkdayjobs.com/RakutenAmericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031936",
+    "questionnaireId": "4517c84e8d7910015088ef58a8980000",
+    "endDate": "2026-07-31"
+  },
+  "hiringOrganization": {
+    "name": "Rakuten USA, Inc.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

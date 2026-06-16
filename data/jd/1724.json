@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "e06fc39f425e100115bef8a633c70000",
+    "title": "Software Development Analyst I - Merchant Services",
+    "jobDescription": "<p><b><u>WHO YOU ARE:</u></b></p><p>Do you enjoy project planning? Do you thrive in building road maps to highlight key milestones? Does multi-tasking and organization excite you? Is it exhilarating to be thought of as the subject matter expert? Do you take pride in delivering a &#34;white glove&#34; customer experience?</p><p></p><p><b><u>ABOUT US:</u></b></p><p><a href=\"http://www.deluxe.com/merchant-services/\" target=\"_blank\">Deluxe Merchant Services<b>&#43;</b></a> is an industry-leading complete payment processing company that that accepts a wide range of payment methods, simplifies PCI compliance and deposits money in your bank account while delivering smooth checkout experience. We provide our partners and merchants with powerful in-store, online, and mobile payment solutions. Our technology is paired with the latest in payment security and backed by superior customer service. We help business pay, get paid, optimize, and grow.</p><p></p><p>Follow us on <a href=\"http://www.linkedin.com/company/deluxe/posts/?feedView&#61;all\" target=\"_blank\">LinkedIn</a></p><p></p><p><b><u>ROLE:</u></b></p><p>Identifies issues with various Payment Scheme message formats and present resolutions. This will be followed up with preparation, testing, reporting of satisfactory results or need for further testing. Analyze test for integrity of data, risks in application and release readiness.</p><ul><li><p>Identifies problems and proposes resolutions.</p></li><li><p>Follow detailed procedures and instructions</p></li><li><p>Assist in identifying and producing further documentation for resolutions.</p></li><li><p>Understand Payment Scheme message formats for Magstripe, EMV and Contactless</p></li><li><p>Document and maintain functional test cases and other test artifacts</p></li><li><p>Execute manual test cases and report test results.</p></li><li><p>Analyze tests with the goal of making them more efficient.</p></li><li><p>Make recommendations on acceptable risks in the application.</p></li></ul><p><br />Basic Qualifications:</p><ul><li><p>Bachelors in technical background and 0 years or HS/GED and 4 years</p></li><li><p>Payment industry knowledge required.</p></li><li><p>Agile experience</p></li><li><p>Partner-facing consulting experience in a consulting organization or as part of an enterprise software company</p></li><li><p>Must have experience with large and complex enterprise software implementations</p></li><li><p>Experience Troubleshooting Win, Mobile, Server (Linux/Windows)</p></li></ul><p><br />Preferred Qualifications:</p><ul><li><p>Bachelors in technical background</p></li><li><p>Capable of troubleshooting API connectivity and basic network issues</p></li><li><p>Working knowledge of RESTful APIs, JSON payloads, HTTP methods, and TCP/IP networking basics</p></li><li><p>Technical Skills Preferred: JavaScript: 1 year (Preferred), object-oriented programming: 1 year (Preferred), sql language: 1-3 years experience (Preferred)</p></li><li><p>Ability to lead, guide, and facilitate matrix-managed solution development</p></li><li><p>Must be highly articulate, energetic, and accountable</p></li><li><p>Ability to communicate effectively with technical and non-technical members of a project team and with partners and executives</p></li><li><p>Excellent customer service skills/customer focused</p></li><li><p>Detail oriented in ticket management and documentation</p></li><li><p>Can handle challenging support calls</p></li><li><p>Motivated and self-managed</p></li></ul><p></p><p>Additional Basic Qualifications:</p><p>Must be 18 years of age or older</p><p></p><p style=\"text-align:left\"><b>Benefits</b></p><p style=\"text-align:left\">In line with our commitment to employee wellbeing, our total rewards benefits package is designed to support the physical, financial, and emotional health of our employees, tailored to meet their unique and evolving needs. Our approach considers our employees’ whole selves, ensuring they can thrive both in and outside of work. Here are some of the benefits we offer, which may vary based on role, location, or hours worked:</p><ul><li><p style=\"text-align:left\">Healthcare (Medical, Dental, Vision)</p></li><li><p style=\"text-align:left\">Paid Time Off, Volunteer Time Off, and Holidays</p></li><li><p style=\"text-align:left\">Employer-Matched Retirement Plan</p></li><li><p style=\"text-align:left\">Employee Stock Purchase Plan</p></li><li><p style=\"text-align:left\">Short-Term and Long-Term Disability</p></li><li><p style=\"text-align:left\">Infertility Treatment, Adoption and Surrogacy Assistance</p></li><li><p style=\"text-align:left\">Tuition Reimbursement</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">These benefits are designed to enhance the health, protect the financial security, and provide peace of mind to our employees and their families.</p><p></p><p><b><span>Deluxe Corporation is an Equal Employment Opportunity employer:</span></b><br /><span>All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, disability, sex, age, ethnic or national origin, marital status, sexual orientation, gender identity or </span><span>presentation, pregnancy, genetics, veteran status or any other status protected by state or federal law.</span><br /> </p><p><span>Please view the electronic <a href=\"http://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf\" target=\"_blank\">EEO is the Law Poster</a> which serves to inform you of your equal employment </span><span>opportunity protections as part of the application process.</span></p><p></p><p><b>Reasonable Accommodation for Job Seekers with a Disability:</b> If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to <a href=\"mailto:deluxecareers&#64;deluxe.com\" target=\"_blank\"><span><span><span>deluxecareers&#64;deluxe.com</span></span></span></a>.</p><p></p>",
+    "location": "Fort Worth-TX-USA-100 Throckmorton St",
+    "additionalLocations": [
+      "Atlanta, GA, USA"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "260636WD",
+    "jobPostingId": "Software-Development-Analyst-I---Merchant-Services_260636WD",
+    "jobPostingSiteId": "USA_CAN",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Fort Worth-TX-USA-100 Throckmorton St",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://deluxe.wd5.myworkdayjobs.com/USA_CAN/job/Fort-Worth-TX-USA-100-Throckmorton-St/Software-Development-Analyst-I---Merchant-Services_260636WD",
+    "questionnaireId": "4eda80f45a3710019eeaf5b30bc00000"
+  },
+  "hiringOrganization": {
+    "name": "First American Payments Systems, L.P.",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
