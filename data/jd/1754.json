@@ -1,0 +1,47 @@
+{
+  "jobPostingInfo": {
+    "id": "ebfe0e48dcab10015e535f91b5c70000",
+    "title": "Associate Guidewire Developer",
+    "jobDescription": "Associate Guidewire Developer<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><br /><b>Job Summary</b><br />The Associate DevOps Engineer position is responsible for implementing the elements of software engineering/programming and protocols under the direction of a mentor.<br /><br />A great collaborator, curious, and a fast learner with strong problem solving and troubleshooting skills. Design and implement user/customer-facing applications with the ability to prototype quickly. This role enhances the technical agility of a variety of Club product lines.<br /><br /><br /><br /><b>Job Duties</b></p><ul><li>Develop advanced software applications, and learn design skills. Build on at least one platform which includes but not limited to Object Oriented languages (e.g., Java), Procedural languages (e.g., Cobol), Declarative Languages (e.g., SQL), or Scripting languages (e.g., Python or JavaScript). Communicate regularly and write clean code. Review, analyze and resolve application issues as needed.</li><li>Become a multi-skilled team member able to contribute to a variety of tasks including requirements analysis, coding using Test Driven Development techniques and paired-programing, and regression testing. Collaborate with team members on the design and implementation of new functionalities on the different platforms. Consult with other team members and implements solutions in line with the departments&#39; visions.</li><li>Continuously learn and keep up to date with emerging technologies and methodologies to increase business and member value. Take direction from mentors to increase skills and competence, thereby improving the department’s contribution to the Business and the Members.</li><li>Actively participate and provide feedback during planning meetings (i.e., pre-iteration, iteration, and retrospectives) and peer reviews.</li><li>Position requires a self-starter who is an independent thinker with strong problem solving skills, who can work collaboratively to derive solutions that have broad team support.</li></ul><p><br /><b>Qualifications</b></p><ul><li>Bachelors Computer and Information Science</li><li>1-3 years Information systems technology Required</li><li>Strong communication skills and a commitment to a paired-programming environment.</li><li>Strong team member who inspires, innovates, and delivers results to add values and make a difference.</li><li>Knowledge of TDD/BDD is required.</li><li>User-centric /customer-centric focused, embrace Agile XP practice, and possess a learning mindset.</li><li>Constant monitoring and learning of new technologies and the market landscape.</li></ul><p></p><p><br /><b>Travel Requirements</b></p><p></p><ul><li>Occasional travel to off-site business meetings or conferences. (5% proficiency)</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span style=\"color:#000000\"><b><span style=\"font-size:14px\">Remarkable benefits:</span></b></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Health coverage for medical, dental, vision</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• 401(K) saving plans with company match AND Pension </span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Tuition assistance</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Floating holidays and PTO for community volunteer programs</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Paid parental leave</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Wellness programs</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\">• Employee discounts (membership, insurance,</span></span></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\"> travel, entertainment, services and more!)</span></span></p><p></p><p></p><p><span style=\"color:#000000\"><span style=\"font-size:14px\"> </span></span></p>Auto Club Enterprises is the largest club within the national AAA federation. We have nearly 17,000 employees in 24 states helping more than 18 million members. The strength of our organization is our employees. Bringing together and supporting different cultures, backgrounds, personalities, and strengths creates a team capable of delivering legendary, lifetime service to our members. When we embrace our diversity – we win. All of Us! With our national brand recognition, long-standing reputation since 1900, and constantly growing membership, we are seeking career-minded, service-driven professionals to join our team.<p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">&#34;Through dedicated employees we proudly deliver legendary service and beneficial products that provide members peace of mind and value.”</p><p style=\"text-align:inherit !important\"></p><p style=\"text-align:left !important\">AAA is an Equal Opportunity Employer</p><p></p><p>Our organization participates in E-Verify</p><p></p><p></p>",
+    "location": "Coppell, TX",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-17",
+    "timeType": "Full time",
+    "jobReqId": "JR202637291",
+    "jobPostingId": "Associate-Guidewire-Developer_JR202637291",
+    "jobPostingSiteId": "careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Coppell - 0760",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Associate-Guidewire-Developer_JR202637291",
+    "questionnaireId": "ca9979c3826b1001ba69dc380ab20000",
+    "secondaryQuestionnaireId": "3142f67760d901cb924aa7b67b2b4e1d"
+  },
+  "hiringOrganization": {
+    "name": "AAATX AAA Texas LLC",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Associate Guidewire ClaimCenter Developer",
+      "externalPath": "/job/Coppell-TX/Associate-Guidewire-ClaimCenter-Developer_JR202637028",
+      "timeType": "Full time",
+      "locationsText": "Coppell, TX",
+      "postedOn": "Posted 14 Days Ago",
+      "startDate": "2026-06-03"
+    }
+  ],
+  "userAuthenticated": false
+}
