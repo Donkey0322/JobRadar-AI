@@ -1,0 +1,38 @@
+{
+  "jobPostingInfo": {
+    "id": "4800f3fd04e810011f292905942e0000",
+    "title": "ETL Developer",
+    "jobDescription": "<p style=\"text-align:left\"><b>Location:</b></p>2721 N Central Ave, Phoenix, Arizona 85004 United States of America<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span style=\"color:#000000\"><i>To ensure a fair and consistent evaluation process, candidates are expected to complete all interviews and assessments independently and without the use of artificial intelligence tools (including AI-generated responses, prompts, or real-time assistance). Use of AI throughout the application and recruiting process may result in removal from consideration. Our goal is to get to know your authentic experiences, communication style, and problem-solving approach.</i></span></p><br /><p>We are seeking an entry-level ETL Developer to design, build, and support data integration processes and data warehouse solutions. This role partners with business and technical teams to translate data requirements into scalable ETL workflows and maintain reliable data pipelines.</p><br /><p><b><u>Responsibilities:</u></b></p><ul><li>Design, develop, and maintain ETL workflows for data extraction, transformation, and loading</li><li>Support data warehouse design and data modeling initiatives</li><li>Identify source systems and implement efficient data extraction processes</li><li>Ensure data quality, transformation accuracy, and alignment with business requirements</li><li>Monitor, troubleshoot, and optimize ETL jobs for performance and reliability</li><li>Maintain and update existing ETL processes to support evolving business needs</li><li>Collaborate with Data Warehouse, BI, and development teams to deliver solutions</li><li>Translate business requirements into technical specifications</li><li>Document ETL processes, workflows, and best practices</li><li>Support testing frameworks, environments, and issue resolution</li></ul><br /><p><b><u>Requirements:</u></b></p><ul><li>1&#43; year of ETL and data warehousing experience</li><li>Proficiency in SQL and relational databases (SQL Server)</li><li>Experience with ETL and reporting tools (e.g., Informatica PowerCenter, SSIS, Business Objects)</li><li>Understanding of Software Development Life Cycle (SDLC)</li><li>Strong analytical, problem-solving, and troubleshooting skills</li><li>Ability to manage multiple priorities and work independently or in a team environment</li></ul><br /><p><b><u>Education:</u></b></p><ul><li>Bachelor’s degree in computer science, Information Systems, Management Information Systems or related field.</li></ul><br /><p><b><u>U-Haul/Repwest Offers:</u></b></p><ul><li>Medical insurance</li></ul><ul><li>Prescription drug plans</li></ul><ul><li>Dental &amp; Vision plan with hearing care discounts</li></ul><ul><li>Onsite medical clinic for team members and eligible family members</li></ul><ul><li>New indoor fitness gym (Midtown Phoenix campus)</li></ul><ul><li>Get Fit Gym Reimbursement Program</li></ul><ul><li>Registered Dietitian Program</li></ul><ul><li>WeightWatchers®</li></ul><ul><li>CVS Virtual Care</li></ul><ul><li>U‑Haul Kids Program</li></ul><ul><li>24‑Hour Nurse Line</li></ul><ul><li>Wellness Program (HealthierYou initiatives &amp; challenges)</li></ul><ul><li>Mindset App Reimbursement</li></ul><ul><li>Pet Insurance &amp; Wellness plans</li></ul><ul><li>Career stability</li></ul><ul><li>Opportunities for advancement</li></ul><ul><li>Valuable on‑the‑job training</li></ul><ul><li>Tuition Reimbursement Program</li></ul><ul><li>Free online courses for personal and professional development at U‑Haul University®</li></ul><ul><li>401(k) Savings Plan</li></ul><ul><li>Employee Stock Ownership Plan (ESOP)</li></ul><ul><li>Company‑paid life insurance</li></ul><ul><li>Voluntary life insurance options</li></ul><ul><li>Short-Term and Long‑Term Disability</li></ul><ul><li>Critical Illness, Accident &amp; Hospital Indemnity plans</li></ul><ul><li>Business &amp; business travel insurance</li></ul><ul><li>MetLaw Legal Program</li></ul><ul><li>MetLife Auto &amp; Home Insurance</li></ul><ul><li>LifeLock Identity Theft Protection</li></ul><ul><li>Dave Ramsey’s SmartDollar® Financial Wellness Program</li></ul><ul><li>U‑Haul Federal Credit Union</li></ul><ul><li>Paid holidays, vacation, and sick time</li></ul><ul><li>YouMatter Employee Assistance Program (EAP)</li></ul><ul><li>Discounts on cell phone plans, hotels, computers, vehicles &amp; more</li></ul><ul><li>Community involvement &amp; volunteer opportunities</li></ul><ul><li>U‑Haul Mothers Program (Paid maternity leave)</li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">U-Haul Holding Company, and its family of companies including U-Haul International, Inc. (“U-Haul”), continually strives to create a culture of health and wellness. Consistent with applicable state law, U-Haul will not hire or re-hire individuals who use nicotine products. The states in which U-Haul will decline to hire nicotine users are: Alabama, Alaska, Arizona, Arkansas, Delaware, Florida, Georgia, Hawaii, Idaho, Iowa, Kansas, Maryland, Massachusetts, Michigan, Nebraska, Pennsylvania, Texas, Utah, Vermont, Virginia, and Washington. U-Haul has observed this hiring practice since February 1, 2020 as part of our commitment to a healthy work environment for our team. </p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span>U-Haul is an equal opportunity employer. All applicants for employment will be considered without regard to race, color, religion, sex, national origin, physical or mental disability, veteran status, or any other basis protected by applicable federal, provincial, state or local law. Individual accommodations are available on requests for applicants taking part in all aspects of the selection process. Information obtained during this process will only be shared on a need to know basis.</span></p>",
+    "location": "Phoenix, Arizona",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "R247910",
+    "jobPostingId": "ETL-Developer_R247910",
+    "jobPostingSiteId": "UhaulJobs",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Phoenix, Arizona",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Non Remote",
+    "externalUrl": "https://uhaul.wd1.myworkdayjobs.com/UhaulJobs/job/Phoenix-Arizona/ETL-Developer_R247910",
+    "questionnaireId": "6154201442c110063da563aa477c0000"
+  },
+  "hiringOrganization": {
+    "name": "RepWest Insurance Company",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
