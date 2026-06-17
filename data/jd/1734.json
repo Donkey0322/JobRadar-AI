@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "a48df68e3a87100114de2ff145fb0000",
+    "title": "Agentic AI Engineer Co-Op",
+    "jobDescription": "<p><b><span>Since 1869, we&#39;ve connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm, Prego, Pace, Rao’s Homemade, Snack Factory, Snyder’s of Hanover. Swanson, and V8. </span></b></p><p></p><p><b><span>Here, you will make a difference every day. You will be supported to build a rewarding career with opportunities to grow, innovate and inspire. Make history with us.</span></b></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p>An Agentic AI Engineer designs, builds, and deploys autonomous AI systems that can reason, plan, use tools, and execute multi-step workflows with minimal human intervention . Unlike traditional AI/ML engineers who focus on model training and prediction, agentic AI engineers orchestrate goal-driven workflows that integrate models, tools, memory, and business logic to achieve objectives dynamically </p><br /><p>Core Responsibilities</p><p>•\tDesign &amp; Develop Agentic Systems: Build intelligent agents capable of autonomous planning, reasoning, and task execution, often using LLMs (e.g., GPT-class, LLaMA), multi-modal models, and autonomous workflows </p><p>•\tOrchestration &amp; Frameworks: Implement agent orchestration using frameworks like LangChain, AutoGen, CrewAI, Semantic Kernel, or custom solutions </p><p>•\tRetrieval-Augmented Generation (RAG): Design and optimize RAG pipelines for enhanced reasoning with external knowledge, including document ingestion, chunking, embeddings, vector stores, and retrieval ranking</p><p>•\tTool &amp; Memory Integration: Develop agents that call APIs, databases, and other tools, maintain memory, and adapt based on outcomes </p><p>•\tEvaluation &amp; Monitoring: Create evaluation frameworks for accuracy, grounding, latency, and cost; build observability for agent behavior and failure modes </p><p>•\tModel Adaptation: Fine-tune or adapt foundation models (e.g., via LoRA, adapters) for domain-specific use cases </p><p>•\tProduction Deployment: Deploy GenAI/agentic systems in cloud-native environments with CI/CD, versioning, and runtime safeguards </p><p>•\tCross-Functional Collaboration: Work with data scientists, ML engineers, product teams, and governance/compliance stakeholders </p><br /><p>Required Skills &amp; Experience</p><p>•\t2&#43; years in AI/ML system design, deployment, or autonomous agent development </p><p>•\tProgramming: Proficiency in Python (and sometimes Java, C#) for AI/ML solution development </p><p>•\tAgent &amp; Workflow Expertise: Experience with agent orchestration frameworks and multi-agent communication protocols </p><p>•\tRAG &amp; LLM Integration: Hands-on with RAG architectures, evaluation methodologies, and LLM integration </p><p>•\tCloud &amp; DevOps: Experience with cloud platforms (e.g., Azure, AWS) and CI/CD pipelines </p><p>•\tGovernance &amp; Compliance: Understanding of responsible AI, security, and compliance in regulated domains (e.g., retail)</p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span style=\"font-size:11pt\"><span>The Company is committed to providing equal opportunity for employees and qualified applicants in all aspects of the employment relationship, including consideration for employment, without regard to race, color, sex, sexual orientation, gender identity, national origin, citizenship, marital status, protected veteran status, disability, age, religion, or any other classification protected by law.</span></span></p>",
+    "location": "USA - Remote",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "Req-66015",
+    "jobPostingId": "Agentic-AI-Engineer-Co-Op_Req-66015",
+    "jobPostingSiteId": "ExternalCareers_GlobalSite",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "USA - Remote",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
+    "questionnaireId": "afca775c0dd71001e48f5a3850670000"
+  },
+  "hiringOrganization": {
+    "name": "1221 The Campbell's Company",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}

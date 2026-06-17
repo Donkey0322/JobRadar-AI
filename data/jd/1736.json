@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "fed710e9f9c510011170f1142bbf0000",
+    "title": "Software Engineer Intern",
+    "jobDescription": "<h2><b><span class=\"emphasis\">At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.</span></b></h2><p><b>Job Description</b></p><p>Responsibilities include exploring state-of-the-art algorithms for finite element analysis (FEA).</p><p></p><p><b>Position Requirements</b></p><p>Currently pursuing an MS or PhD in mathematics, electrical engineering, mechanical engineering, or a related field.</p><p>Strong understanding of numerical algorithms for partial differential equation (PDE) problems.</p><h2><span class=\"emphasis\"><b>We’re doing work that matters. Help us solve what others can’t.</b></span></h2>",
+    "location": "SAN JOSE",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-16",
+    "timeType": "Full time",
+    "jobReqId": "R55128",
+    "jobPostingId": "Software-Engineer-Intern_R55128",
+    "jobPostingSiteId": "External_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "SAN JOSE 10",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Engineer-Intern_R55128",
+    "questionnaireId": "6598c240a7d1013fc7a28f6e5f16c953"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
