@@ -1,0 +1,69 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/andurilindustries/jobs/5166088007?gh_jid=5166088007",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 4646224007,
+  "location": {
+    "name": "Boston, Massachusetts, United States"
+  },
+  "metadata": [
+    {
+      "id": 5980679007,
+      "name": "External Department Name for Job Board",
+      "value": "People",
+      "value_type": "single_select"
+    },
+    {
+      "id": 4873319007,
+      "name": "Employment Type",
+      "value": "Full-time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 20263582007,
+      "name": "ET Talent Identifier",
+      "value": "None",
+      "value_type": "single_select"
+    },
+    {
+      "id": 22626856007,
+      "name": "Arsenal Launch Team",
+      "value": null,
+      "value_type": "single_select"
+    }
+  ],
+  "id": 5166088007,
+  "updated_at": "2026-06-17T21:14:42-04:00",
+  "requisition_id": null,
+  "title": "Jr People Data Analyst",
+  "company_name": "Anduril Industries",
+  "first_published": "2026-06-17T21:14:42-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D command and control center. As the world enters an era of strategic competition, Anduril is committed to bringing cutting-edge autonomy, AI, computer vision, sensor fusion, and networking technology to the military in months, not years.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;ABOUT THE TEAM&lt;/h3&gt;\n&lt;p&gt;The People Analytics team is at the forefront of transforming how we understand and optimize our workforce. We are a dynamic group of analytical thinkers and storytellers who leverage advanced analytics and robust methodologies to create strategic insights from complex HR data. Collaborating closely with HR Business Partners, Program Management Teams, Business Operations, Talent Acquisition and various cross functional stakeholders we provide actionable insights that drives informed decisions across the entire employee lifecycle; from optimizing talent acquisition and development to enhancing engagement and retention. Our work directly shapes a thriving employee experience, fuels organizational growth, and ensures our people strategy is truly data-driven.&lt;/p&gt;\n&lt;h3&gt;ABOUT THE JOB&lt;/h3&gt;\n&lt;p&gt;The People Data Analyst owns the reporting and data quality foundation that enables our People Analytics team to deliver insights across Talent Acquisition and People Operations. You&#39;ll write the SQL, maintain the dashboards, run audits, and fulfill the ad hoc requests that keep our stakeholders informed and our data trustworthy.&lt;/p&gt;\n&lt;p&gt;This role is ideal for an early-career analyst who thrives on precision, wants deep exposure to HR data systems end-to-end, and is looking to build the technical muscle that underpins a career in people analytics. You&#39;ll work closely with our Senior Analysts — learning how upstream data work translates into downstream strategy while owning your own deliverables from day one.&lt;/p&gt;\n&lt;h4&gt;WHAT YOU&#39;LL DO&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Provide critical support to the Senior People Data Analysts by executing standard data runs, owning reporting requests, and maintaining operational continuity across both TA and People Ops domains.&lt;/li&gt;\n&lt;li&gt;Write and optimize SQL queries against our data warehouse to extract, clean, and prepare datasets for analysis.&lt;/li&gt;\n&lt;li&gt;Maintain, troubleshoot, and perform minor enhancements on existing dashboards to ensure they remain accurate, functional, and up to date.&lt;/li&gt;\n&lt;li&gt;Own the execution of regular data quality audits across core systems (e.g., HRIS, ATS, LMS), identifying discrepancies and coordinating with internal systems admin teams to correct input errors.&lt;/li&gt;\n&lt;li&gt;Manage the intake and fulfillment of standard, internal ad-hoc data requests from various cross functional teams ensuring timely and accurate delivery.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;REQUIRED QUALIFICATIONS&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;1–3 years of professional experience in a data analyst, business intelligence, or HR operations role.&lt;/li&gt;\n&lt;li&gt;Solid proficiency in SQL for data extraction, joining tables, and data manipulation.&lt;/li&gt;\n&lt;li&gt;Intermediate to advanced Excel skills (e.g., pivot tables, index/match, formulas, data cleaning).&lt;/li&gt;\n&lt;li&gt;Hands-on experience navigating and utilizing business intelligence tools (e.g., Tableau, Power BI, Looker) for data visualization and report generation.&lt;/li&gt;\n&lt;li&gt;Exceptional attention to detail with a proven track record of identifying data discrepancies and running quality assurance checks on large datasets.&lt;/li&gt;\n&lt;li&gt;Bachelor’s degree in a quantitative or technical field (e.g., Information Systems, Business Analytics, Computer Science, Statistics, Economics) or equivalent practical experience.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;PREFERRED QUALIFICATIONS&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Familiarity with HR systems and data structures (e.g., Greenhouse ATS, Gem CRM, Rippling, Workday).&lt;/li&gt;\n&lt;li&gt;Basic understanding of core HR and recruiting metrics (e.g., headcount, turnover, time-to-hire, pipeline conversion, retention).&lt;/li&gt;\n&lt;li&gt;Familiarity with data warehouse concepts or version control (e.g., Git).&lt;/li&gt;\n&lt;li&gt;Familiarity with Python or R for basic data manipulation tasks.&lt;/li&gt;\n&lt;li&gt;Familiarity with Palantir Foundry&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;title&quot;&gt;US Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$112,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$149,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The salary range for this role is an estimate based on a wide range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations. Highly competitive equity grants are included in the majority of full time offers; and are considered part of Anduril&#39;s total compensation package. Additionally, Anduril offers top-tier benefits for full-time employees, including:&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3 class=&quot;detailElios&quot;&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;At Anduril, we invest in our people. Our comprehensive, competitive benefits package (available at little to no cost to employees) ensures you’re supported in health, recovery, and whatever comes next.&amp;nbsp;&lt;/span&gt;&lt;em&gt;&lt;span data-contrast=&quot;auto&quot;&gt;For more information, &lt;a href=&quot;https://www.anduril.com/careers&quot;&gt;Explore Our Benefits&lt;/a&gt;.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;div class=&quot;RichText column1&quot;&gt;\n&lt;h3 class=&quot;detailElios&quot;&gt;&lt;strong&gt;Protecting Yourself from Recruitment Scams&lt;/strong&gt;&lt;/h3&gt;\n&lt;p class=&quot;detailElios&quot;&gt;Anduril is committed to maintaining the integrity of our Talent acquisition process and the security of our candidates. We&#39;ve observed a rise in sophisticated phishing and fraudulent schemes where individuals impersonate Anduril representatives, luring job seekers with false interviews or job offers. These scammers often attempt to extract payment or sensitive personal information.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=&quot;RichText column2&quot;&gt;\n&lt;p class=&quot;detailElios&quot;&gt;To ensure your safety and help you navigate your job search with confidence, please keep the following critical points in mind:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p class=&quot;detailElios&quot;&gt;&lt;strong&gt;No Financial Requests:&amp;nbsp;&lt;/strong&gt;Anduril will never solicit payment or demand personal financial details (such as banking information, credit card numbers, or social security numbers) at any stage of our hiring process. Our legitimate recruitment is entirely free for candidates.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Please always verify communications:&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;Direct from Anduril: If you receive an email from one of our recruiters, it will &lt;em&gt;only&lt;/em&gt; come from an &lt;code&gt;@anduril.com&lt;/code&gt; address.&lt;/li&gt;\n&lt;li&gt;Via Agency Partner: If contacted by a recruiting agency for an Anduril role, their email will clearly identify their agency. If you suspect any suspicious activity, please verify the agency&#39;s authenticity by reaching out to &lt;a href=&quot;mailto:contact@anduril.com&quot;&gt;contact@anduril.com&lt;/a&gt;.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p class=&quot;detailElios&quot;&gt;&lt;strong&gt;Exercise Caution with Unsolicited Outreach:&lt;/strong&gt;&amp;nbsp;If you receive any communication that appears suspicious, contains grammatical errors, or makes unusual requests, do not engage. Always confirm the sender&#39;s email domain is @anduril.com before providing any personal information or clicking on links.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p class=&quot;detailElios&quot;&gt;&lt;strong&gt;What to Do If You Suspect Fraud:&lt;/strong&gt;&amp;nbsp;Should you encounter any questionable or fraudulent outreach claiming to be from Anduril, please report it immediately to&amp;nbsp;&lt;a href=&quot;mailto:contact@anduril.com&quot;&gt;contact@anduril.com&lt;/a&gt;. Your proactive caution is invaluable in protecting your personal information and upholding the security and trustworthiness of our recruitment efforts.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;\n&lt;h3&gt;&lt;strong&gt;Data Privacy&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;To view Anduril&#39;s candidate data privacy policy, please visit &lt;/span&gt;&lt;span data-contrast=&quot;none&quot;&gt;&lt;span data-ccp-charstyle=&quot;Hyperlink&quot;&gt;&lt;a href=&quot;https://anduril.com/applicant-privacy-notice/&quot;&gt;https://anduril.com/applicant-privacy-notice/&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span data-contrast=&quot;auto&quot;&gt;.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335551550&amp;quot;:0,&amp;quot;335551620&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;By submitting your application, you consent to Anduril Industries using a third-party service provider to conduct pre-employment risk, integrity, and due diligence screening and assessing potential risks as part of your application process. This third-party service provider provides risk-intelligence services that may include analysis of sanctions and watchlists, adverse media, public-record information, and other lawful open-source or commercial data sources. This third-party service provider does not act as a consumer reporting agency. Use of this provider helps to ensure compliance with applicable laws and protect technology, intellectual property, and organizational security.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4030331007,
+      "name": "People : People Business Partners : People Business Partners",
+      "child_ids": [],
+      "parent_id": 4025902007
+    }
+  ],
+  "offices": [
+    {
+      "id": 4022708007,
+      "name": "Boston, MA",
+      "location": "Boston, Massachusetts, United States",
+      "child_ids": [],
+      "parent_id": 4021356007
+    }
+  ]
+}
