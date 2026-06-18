@@ -1,0 +1,44 @@
+{
+  "jobPostingInfo": {
+    "id": "6f18cc09efcd1000b45d264ee9710000",
+    "title": "Software Development Engineer",
+    "jobDescription": "<p><b>About Us: </b></p><p><b>How many companies can say they’ve been in business for over 180 years?! </b></p><p>Here at ZEISS, we certainly can! As the pioneers of science, ZEISS handles the everchanging environments in a fast-paced world, meeting it with cutting edge of technologies and continuous advancements. ZEISS believes that innovation and technology are the key to a sustainable future and solutions for global change. We have a diverse range of portfolios throughout the ZEISS family in segments like, Industrial Quality &amp; Research, Medical Technology, Consumer Markets and Semiconductor Manufacturing Technology. We are a global company with over 46,000 employees and have over 4,000 in the US and Canada alone! Make a difference, come join the team!</p><p></p><p><b>Location/Region:</b> This position is located in Wixom, MI., Minneapolis, MN., or Huntersville, NC.</p><p></p><p><b>What’s the role? </b> </p><p>We are seeking a motivated and detail-oriented Software Engineer to join our team. In this role, you will support the development of high-quality, innovative, and fully functional software by participating in the full software development life cycle (SDLC)—from gathering requirements and writing code to testing and deployment. You will work under the guidance of senior engineers and managers, and your assignments will be supervised to ensure alignment with project goals and standards.</p><p></p><p>This role is for our Projects and Automation Solutions business where we integrate metrology equipment and software into our customers factory and manufacturing cells. You will be working with a global team and contributing to global standard software packages, creating custom HMIs for measurement systems, robot loading systems, and custom integration into factory SCADA systems using PLC communication protocols.</p><p></p><p><b>Sound Interesting? </b></p><p><b>Here’s what you’ll do:</b></p><ul><li>Collaborate with users and stakeholders to gather and understand software requirements</li><li>Design and write clean, efficient, and scalable code in various programming languages</li><li>Develop and execute unit and integration tests</li><li>Assist in writing testing requirements and documentation</li><li>Participate in debugging, troubleshooting, and resolving software issues</li><li>Support deployment and maintenance of software solutions</li><li>Adhere to coding standards and participate in code reviews</li></ul><p></p><p></p><p><b>Do you qualify? </b></p><ul><li>BS/BA or MS in Computer Science, Electrical Engineering, or a related field</li><li>0 - 3 years of professional software development experience</li><li>Academic or hands-on background in object-oriented programming (Specifically C#, and Python)</li><li>Familiarity with the software development life cycle (SDLC)</li><li>Basic understanding of software testing and debugging practices</li><li>Ability to work effectively in a team and follow technical guidance</li></ul><p></p><p><b>Nice to Have:</b></p><ul><li><span>Preferred 3&#43; years of professional experience in C/C&#43;&#43;, or C# </span><br /><span>.NET, GUI, or JAVA, or MATLAB, or CUDA, or Multi-Threaded programing, TFS, SQL, </span><span>or Image Processing, or Software Testing</span></li></ul><p></p><p>The annual pay range for this position is $87,000 – $109,000 and is eligible for a performance bonus.</p><p></p><p>The pay offered for this role may be influenced by factors such as job location, scope of role, qualifications, education, experience, &amp; complexity/specialization/scarcity of talent.</p><p></p><p><b>We have amazing benefits to support you as an employee at ZEISS! </b></p><ul><li>Medical </li><li>Vision </li><li>Dental </li><li>401k Matching </li><li>Employee Assistance Programs </li><li>Vacation and sick pay </li><li>The list goes on! </li></ul><p></p><p><i>The above is intended to describe the general content of and requirements for this job. It is not to be construed as an exhaustive statement of requirements, duties, or responsibilities. The Company reserves the right to interpret, amend, or otherwise modify, in whole or in part, any job description at any time, at its sole discretion.</i></p><p></p><p>Your ZEISS Recruiting Team:</p>Kyle Lota<p></p><p></p><p><i><span>Zeiss provides Equal Employment Opportunity without unlawful regard to an Applicants race, color, religion, creed, sex, gender, marital status, age, national origin or ancestry, physical or mental disability, medical condition, military or veteran status, citizen status, sexual orientation, pregnancy (includes childbirth, breastfeeding or related medical condition), genetic predisposition, carrier status, gender expression or identity, including transgender identity, or any other class or characteristic protected by federal, state, or local law of the employee (or the people with whom the employee associates, including relatives and friends).</span></i><span> </span></p>",
+    "location": "Wixom, MI",
+    "additionalLocations": [
+      "USA - NC Huntersville",
+      "Minneapolis"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-18",
+    "timeType": "Full time",
+    "jobReqId": "JR_1050209",
+    "jobPostingId": "Software-Development-Engineer_JR_1050209",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Wixom, MI",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Hybrid",
+    "externalUrl": "https://zeissgroup.wd3.myworkdayjobs.com/External/job/Wixom-MI/Software-Development-Engineer_JR_1050209",
+    "questionnaireId": "68ba8b77f4e910012fa30db4d9340000",
+    "secondaryQuestionnaireId": "fefcb98ec8181001d19c4d8b8aa80000",
+    "supplementaryQuestionnaireId": "05e3ed0144671001b80197f877bc0000"
+  },
+  "hiringOrganization": {
+    "name": "Carl Zeiss Industrial Quality Solutions, LLC",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
