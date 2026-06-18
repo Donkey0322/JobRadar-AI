@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "0eabaf524d1f1012cdfa359e42840000",
+    "title": "Software Engineer I",
+    "jobDescription": "<h2>Primary Duties and Responsibilities</h2><p>Focuses on learning the craft and how to work in a team productively, in particular:</p><ul><li><span>Assist in developing, testing, and maintaining AI/ML-based software solutions</span></li><li><span>Implement machine learning models using established frameworks and libraries</span></li><li><span>Write clean, efficient, and well-documented code</span></li><li><span>Support data preprocessing, feature engineering, and model evaluation</span></li><li><span>Participate in code reviews and follow software development best practices</span></li><li><span>Collaborate with product managers, data scientists, and engineering teams</span></li><li><span>Debug and resolve basic software and model performance issues</span></li><li><span>Contribute to AI projects aligned with roadmap initiatives</span></li><li><p><span>Required Qualifications</span></p></li><li><span>Bachelor’s degree in Computer Science, Engineering, Data Science, or a related field (or equivalent experience)</span></li><li><span>Strong programming skills in Python or Java</span></li><li><span>Basic understanding of machine learning concepts (supervised/unsupervised learning, model evaluation)</span></li><li><span>Familiarity with AI/ML libraries such as TensorFlow, PyTorch, or scikit-learn</span></li><li><span>Understanding of data structures, algorithms, and object-oriented programming</span></li><li><span>Experience with version control systems (Git)</span></li></ul><h3>Additions for service-delivering teams</h3><ul><li><span>Exposure to cloud platforms (Azure, or GCP)</span></li><li><span>Basic knowledge of REST APIs and microservices</span></li><li><span>Familiarity with SQL and data handling</span></li><li><span>Internship or academic project experience in AI/ML</span></li><li><span>Understanding of software development lifecycle (SDLC)</span></li></ul><p></p><h2>Secondary Duties and Responsibilities</h2><ul><li>Abstains from premature optimization.</li><li>Understands company and team visions.</li><li>Actively seeks support by team members to overcome obstacles.</li><li>Autonomously performs small refactorings to improve local software quality.</li></ul><p></p><p style=\"text-align:inherit\"><span><span><span><span><span><span class=\"WIO0\">-------------------------------------------</span></span></span></span></span></span></p><p>The Annual salary range for this position is $ <span>74,576.88 - $ 108,211.55</span> USD.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">The salary range information provided, reflects the anticipated base salary range for this position based on current national data. Minimums and maximums may vary based on location. Individual salary will be commensurate with skills, experience, certifications or licenses and other relevant factors. In addition, this role will be eligible to participate in either the annual performance bonus or commission program, determined by the nature of the position.</p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">At Blue Yonder, we care about the wellbeing of our employees and those most important to them. This is reflected in our robust benefits package and options that includes: </p><ul><li><p style=\"text-align:left\">Comprehensive Medical, Dental and Vision </p></li><li><p style=\"text-align:left\">401K with Matching </p></li><li><p style=\"text-align:left\">Flexible Time Off </p></li><li><p style=\"text-align:left\">Corporate Fitness Program </p></li><li><p style=\"text-align:left\">A variety of voluntary benefits such as; Legal Plans, Accident and Hospital Indemnity, Pet Insurance and much more</p></li></ul><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">At Blue Yonder, we are committed to a workplace that genuinely fosters inclusion and belonging in which everyone can share their unique voices and talents in a safe space. We continue to be guided by our core values and are proud of our diverse culture as an equal opportunity employer. We understand that your career search may look different than others, and embrace the professional, personal, educational, and volunteer opportunities through which people gain experience.</p><p></p><p></p><p><b>Our Values</b></p><p><br />If you want to know the heart of a company, take a look at their values. Ours unite us. They are what drive our success – and the success of our customers. Does your heart beat like ours? Find out here: <a href=\"https://blueyonder.com/about/core-values\" target=\"_blank\">Core Values</a></p><p></p><p>All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.</p>",
+    "location": "Dallas",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-18",
+    "timeType": "Full time",
+    "jobReqId": "260056",
+    "jobPostingId": "Software-Engineer-I_260056",
+    "jobPostingSiteId": "JDA_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Dallas",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://jda.wd5.myworkdayjobs.com/JDA_Careers/job/Dallas/Software-Engineer-I_260056",
+    "questionnaireId": "1c79a613503f10013e99c46c7b670000"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
