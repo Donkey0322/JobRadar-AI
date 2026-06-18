@@ -1,0 +1,168 @@
+{
+  "id": "744000132842170",
+  "name": "Powertrain Software Engineer / Software System Design",
+  "uuid": "83fd0c3f-0115-4c82-ae93-0a1a415e61b5",
+  "jobId": "cfa37099-f7d1-470c-a4cf-beedc32da8f5",
+  "jobAdId": "5b81aa60-3a81-46bb-98ea-a1856f182701",
+  "defaultJobAd": true,
+  "refNumber": "REF288833C",
+  "company": {
+    "name": "Bosch Group",
+    "identifier": "BoschGroup"
+  },
+  "location": {
+    "city": "Farmington Hills",
+    "region": "MI",
+    "country": "us",
+    "address": "38000 Hills Tech Drive",
+    "postalCode": "48331",
+    "remote": false,
+    "hybrid": false,
+    "latitude": "42.4922209",
+    "longitude": "-83.4230436",
+    "fullLocation": "Farmington Hills, MI, United States"
+  },
+  "customField": [
+    {
+      "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+      "fieldLabel": "Contract type",
+      "valueId": "1e46492b-d24f-460c-b095-38cf08a778d8",
+      "valueLabel": "Unlimited"
+    },
+    {
+      "fieldId": "5abe28e96d8bc56863dd9746",
+      "fieldLabel": "Tariff Area",
+      "valueId": "82f1dd4b-de9d-4134-9f1a-8d315be380ae",
+      "valueLabel": "United States Local Grades"
+    },
+    {
+      "fieldId": "586a997ee4b05fd937b86098",
+      "fieldLabel": "Legal Entity(acronym)",
+      "valueId": "RBUS",
+      "valueLabel": "RBUS"
+    },
+    {
+      "fieldId": "586a99b5e4b0daa006ae1079",
+      "fieldLabel": "Working Location",
+      "valueId": "Farmington Hills, MI",
+      "valueLabel": "Farmington Hills, MI"
+    },
+    {
+      "fieldId": "5abe295a6d8bc56863dd9747",
+      "fieldLabel": "Global Salary Level",
+      "valueId": "4319a4d2-6690-4a34-ac0f-9d8c126f1af2",
+      "valueLabel": "Junior/ Lower Tariff"
+    },
+    {
+      "fieldId": "69ca83a2489188782a1e9f87",
+      "fieldLabel": "Direct Or Indirect",
+      "valueId": "1aefbf4c-c10a-422e-a975-a504a7117792",
+      "valueLabel": "Indirect"
+    },
+    {
+      "fieldId": "5abe29f9b60a5e486a2d9b1c",
+      "fieldLabel": "Working hours",
+      "valueId": "60756b3e-dbab-4353-ac3a-0064d2bb27d8",
+      "valueLabel": "Full-time"
+    },
+    {
+      "fieldId": "586a9995e4b0daa006ae1078",
+      "fieldLabel": "Legal Entity",
+      "valueId": "Robert Bosch LLC",
+      "valueLabel": "Robert Bosch LLC"
+    },
+    {
+      "fieldId": "691cf1c93001c782b9560ab7",
+      "fieldLabel": "Division full name",
+      "valueId": "452d373f-a87b-44d4-a434-d35322829142",
+      "valueLabel": "Power Solutions"
+    },
+    {
+      "fieldId": "5abe27936d8bc56863dd9745",
+      "fieldLabel": "Position type",
+      "valueId": "c7b4da31-6f38-405a-b2e8-08a76e3c3f2c",
+      "valueLabel": "Professional"
+    },
+    {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "us",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a971ee4b0daa006ae1077",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "Bosch Group"
+    },
+    {
+      "fieldId": "586a996ce4b05fd937b86097",
+      "fieldLabel": "Working Country",
+      "valueId": "US",
+      "valueLabel": "United States"
+    },
+    {
+      "fieldId": "586a9b22e4b05fd937b8609a",
+      "fieldLabel": "Local Grade",
+      "valueId": "US_E2",
+      "valueLabel": "US_E2"
+    },
+    {
+      "fieldId": "586a99a5e4b05fd937b86099",
+      "fieldLabel": "Division",
+      "valueId": "be4d6fc1-6a9b-46e3-8a81-d5c3c23eae66",
+      "valueLabel": "PS"
+    }
+  ],
+  "releasedDate": "2026-06-18T11:38:00.202Z",
+  "creator": {
+    "name": "",
+    "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000132842170-powertrain-software-engineer-software-system-design",
+  "applyUrl": "https://jobs.smartrecruiters.com/BoschGroup/744000132842170-powertrain-software-engineer-software-system-design?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/BoschGroup/publication/83fd0c3f-0115-4c82-ae93-0a1a415e61b5?dcr_ci=BoschGroup",
+  "jobAd": {
+    "sections": {
+      "companyDescription": {
+        "title": "Company Description",
+        "text": "<p><strong>We Are Bosch.</strong><br>\n<br>\nAt Bosch, we shape the future by inventing high-quality technologies and services that spark enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding Bosch teams around the world. Their creativity is the key to innovation through connected living, mobility, or industry.<br>\n<br>\nLet’s grow together, enjoy more, and inspire each other.&#xa0;<strong>Work #LikeABosch</strong></p><ul><li><strong>Reinvent yourself:</strong>&#xa0;At Bosch, you will evolve.</li><li><strong>Discover new directions</strong>: At Bosch, you will find your place.</li><li><strong>Balance your life:</strong>&#xa0;At Bosch, your job matches your lifestyle.</li><li><strong>Celebrate success:</strong>&#xa0;At Bosch, we celebrate you.</li><li><strong>Be yourself:&#xa0;</strong>At Bosch, we value values.</li><li><strong>Shape tomorrow:</strong>&#xa0;At Bosch, you change lives.</li></ul>"
+      },
+      "jobDescription": {
+        "title": "Job Description",
+        "text": "<p><em>Powertrain Solutions is a provider of diversified powertrain products and solutions in our three market segments Electric Vehicles (EL), Passenger Cars (PC), and Commercial Vehicles / Off-Road (CV/OR) – from gasoline and diesel injection to electric drives with battery and fuel cell technologies.</em><br>\n&#xa0;</p><p>We are looking for an enthusiastic and proactive Software System Design Engineer to join our embedded software development team.</p><p>As Software System Designer, you are responsible for defining the Software requirements for powertrain control systems for conventional Internal Combustion Engines (ICE), Hybrid and Electric Vehicles (HEV/BEV). You will apply your deep understanding of these control systems in collaboration with the design team and customer to develop, implement, validate and release effective solutions that create a win-win scenario for our customer and our team. Our extensive customer portfolio includes a spectrum of major manufacturers for passenger cars and commercial vehicles including highly advanced technical applications.</p><p>As a Software Engineer on our team, your responsibilities will include:</p><ul><li>Customer interface for requirement management and issue resolution.</li><li>Analyze and clarify customer requirements.</li><li>Understand the vehicle functionality as a system, in order to propose and develop solutions at a component level.</li><li>Create and document software design and test plans.</li><li>Implement and test new functionality in software.</li><li>Perform design and implementation reviews.</li><li>Support investigations, separate the customer software issues from Bosch software issues and resolution of customer bug reports.</li><li>Coordination with our international design, development, integration, and project management team, as well as with our customers.</li></ul><p>A successful candidate will have first&#xa0; experience with embedded software development and vehicle system design, will have excellent verbal and written communication skills, and a great attitude to learn and work as a team player.</p>"
+      },
+      "qualifications": {
+        "title": "Qualifications",
+        "text": "<p><strong>Basic Qualifications</strong></p><ul><li>B.S. or higher in Engineering (preferably Computer, Electronic or Automobile engineering)</li><li>1-2&#xa0;years of experience in software development in embedded system or in automotive field.</li></ul><p><strong>Preferred Qualifications</strong></p><ul><li>Good powertrain system knowledge (Diesel, Gasoline, Hybrid, Electric Vehicle)</li><li>Strong&#xa0;programming skills.</li><li>Strong communication skills, both written and verbal.</li><li>Strong analytical and organizational skills.</li><li>Excellent problem solving, presentation and teamwork skills.</li><li>Capable of working with a variety of scripting languages.</li><li>Familiarity with electrical schematics.</li></ul>"
+      },
+      "additionalInformation": {
+        "title": "Additional Information",
+        "text": "<p><strong><em>Equal Opportunity Employer, including disability / veterans</em></strong>&#xa0;</p><p><em>*Bosch adheres to Federal, State, and Local laws regarding drug-testing. Employment is contingent upon the successful completion of a drug screen and background check. Candidates who have been offered the position must pass both screenings before their start date.</em>&#xa0;</p><p>Your well-being matters at Bosch! We offer a competitive compensation and a benefits package designed to empower you in every area of your life. This includes premium health coverage, a 401(k) with generous matching, resources for financial planning and goal setting, ample paid time off, parental leave, and comprehensive life and disability protection. We're investing in your success!</p>"
+      }
+    }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+    "id": "automotive",
+    "label": "Automotive"
+  },
+  "function": {
+    "id": "engineering",
+    "label": "Engineering"
+  },
+  "experienceLevel": {
+    "id": "entry_level",
+    "label": "Entry Level"
+  },
+  "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+  },
+  "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+  }
+}
