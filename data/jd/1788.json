@@ -1,0 +1,106 @@
+{
+  "jobPostingInfo": {
+    "id": "43d538824c7c1001be931143e2ce0000",
+    "title": "Software Engineering Intern",
+    "jobDescription": "<p style=\"text-align:left\"><i><span class=\"emphasis-3\">Copart, Inc. a technology leader and the premier online vehicle auction platform globally, with over 200 facilities located across the world, Copart links vehicle sellers to more than 750,000 buyers in over 190 countries. We believe in providing an unmatched experience, every day and everywhere, driven by our people, processes, and technology. </span></i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p><span>Copart is looking for interns to work on the development of application projects for our global expansion. You will work with Program Managers, Business Analysts, and Team Leads to understand requirements, and develop and modify existing applications built on Java, using modern, cutting-edge tools like Spring Boot, RabbitMQ, Hibernate, Solr, Kafka, Redis and SQL etc.</span></p><p><span>Candidates must be available for 40 hours a week to be considered for this role.</span></p><p><span>This position will assist in duties including, but not limited to, the following:</span></p><p><span>• Assist senior engineers, and management, to achieve optimal application architecture and design, utilizing Java technologies</span></p><p><span>• Assist in the development of efficient, secure websites, peer-review code, and document solutions within an agile-blended software environment</span></p><p><span>• Communicate proactively with teammates, infrastructure, security, and quality assurance to continuously improve processes and engineering excellence.</span></p><p><span> </span></p><p><span>Required Experience:</span></p><p><span>• Pursuing Master’s Degree in Computer Science or similar</span></p><p><span>• Having Java Experience</span></p><p><span>Preferred Experience:</span></p><p><span>• Experience with web services, REST API&#39;s and SQL.</span></p><p><span>• Experience with Spring Boot.</span></p><p></p><h2><br /> </h2><p><span>#LI-MS1</span></p>&amp;#xa;&amp;#xa;<p style=\"text-align:left\"><i>At Copart, we are focused on harnessing the power of diversity, inclusion, and collaboration. By embracing diverse perspectives, we open doors to innovation and unleash the full potential of our team. We are dedicated to fostering a workplace where everyone feels appreciated, included, and inspired to grow and contribute meaningfully.</i></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\">E-Verify Program Participant: Copart participates in the Department of Homeland Security U.S. Citizenship and Immigration Services&#39; E-Verify program (For U.S. applicants and employees only). Please click below to learn more about the E-Verify program:</p><ul><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/EVerifyParticipationPoster.pdf\" target=\"_blank\">E-verify Participation</a></li><li><a href=\"https://www.e-verify.gov/sites/default/files/everify/posters/IER_RightToWorkPoster%20Eng_Es.pdf\" target=\"_blank\">Right to Work</a></li></ul><p style=\"text-align:inherit\"></p>",
+    "location": "Dallas, TX - Headquarters",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-18",
+    "timeType": "Full time",
+    "jobReqId": "JR109441",
+    "jobPostingId": "Software-Engineering-Intern_JR109441",
+    "jobPostingSiteId": "Copart",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/copart/copart/sidebarimage/db44e9b276b1100b2c4efbc4d41f0000",
+      "alt": "Logo"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "US TX IT Product Dev 728",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://copart.wd12.myworkdayjobs.com/Copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109441",
+    "questionnaireId": "ded8cb16da7310017a52d97429a20000"
+  },
+  "hiringOrganization": {
+    "name": "Copart, Inc",
+    "url": ""
+  },
+  "similarJobs": [
+    {
+      "title": "Corp Support Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Corp-Support-Intern_JR107800",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-05-04"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106605",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-01-30"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106983",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-02-11"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR107699",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2026-03-10"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101987",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 22 Days Ago",
+      "startDate": "2026-05-27"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109393",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 10 Days Ago",
+      "startDate": "2026-06-08"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR101510",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 22 Days Ago",
+      "startDate": "2026-05-27"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "externalPath": "/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR106129",
+      "timeType": "Full time",
+      "locationsText": "Dallas, TX - Headquarters",
+      "postedOn": "Posted 30+ Days Ago",
+      "startDate": "2025-12-22"
+    }
+  ],
+  "userAuthenticated": false
+}
