@@ -1,0 +1,125 @@
+{
+  "absolute_url": "https://sofi.com/careers/job/7713729003?gh_jid=7713729003",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": true
+    }
+  ],
+  "education": "education_required",
+  "internal_job_id": 5755766003,
+  "location": {
+    "name": "UT - Cottonwood Heights ; MT - Helena "
+  },
+  "metadata": [
+    {
+      "id": 5424410003,
+      "name": "Time Type",
+      "value": "Full time",
+      "value_type": "single_select"
+    },
+    {
+      "id": 5424424003,
+      "name": "Worker Type",
+      "value": "Employee",
+      "value_type": "single_select"
+    },
+    {
+      "id": 5500355003,
+      "name": "Pay Frequency",
+      "value": "Annual",
+      "value_type": "single_select"
+    },
+    {
+      "id": 5424411003,
+      "name": "Primary Location",
+      "value": "UT - Cottonwood Heights",
+      "value_type": "single_select"
+    },
+    {
+      "id": 5424427003,
+      "name": "All Locations",
+      "value": "UT - Cottonwood Heights",
+      "value_type": "short_text"
+    },
+    {
+      "id": 5424423003,
+      "name": "Country",
+      "value": "United States of America",
+      "value_type": "single_select"
+    },
+    {
+      "id": 5424408003,
+      "name": "Company",
+      "value": "Social Finance, LLC",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7682605003,
+      "name": "FADV_Package",
+      "value": "2366_SOFI & GALILEO US",
+      "value_type": "single_select"
+    },
+    {
+      "id": 7682604003,
+      "name": "FADV_Account",
+      "value": "171352_SOCIAL FINANCE INC",
+      "value_type": "single_select"
+    },
+    {
+      "id": 13592125003,
+      "name": "Pay Range",
+      "value": "$105,600.00 - $132,000.00",
+      "value_type": "long_text"
+    },
+    {
+      "id": 13496478003,
+      "name": "Pay Language",
+      "value": "This role is also eligible for a bonus, long term incentives and competitive benefits. More information about our employee benefits can be found in the link above.",
+      "value_type": "long_text"
+    },
+    {
+      "id": 18245203003,
+      "name": "Pay Transparency Range",
+      "value": {
+        "unit": "USD",
+        "max_value": "132000.0",
+        "min_value": "105600.0"
+      },
+      "value_type": "currency_range"
+    }
+  ],
+  "id": 7713729003,
+  "updated_at": "2026-06-18T13:18:20-04:00",
+  "requisition_id": "R0013273",
+  "title": "Software Engineer, Loans Originations",
+  "company_name": "SoFi",
+  "first_published": "2026-04-24T14:56:03-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.sofi.com/sofi-employee-applicant-privacy-notice/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Employee Applicant Privacy Notice&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Who we are:&lt;/strong&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;p&gt;Shape a brighter financial future with us.&lt;/p&gt;\n&lt;p&gt;Together with our members, we’re changing the way people think about and interact with personal finance.&lt;/p&gt;\n&lt;p&gt;We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. &lt;strong&gt;Join us to invest in yourself, your career, and the financial world.&lt;/strong&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Join us in revolutionizing the lending landscape. SoFi is seeking enthusiastic Software Engineers who are ready to learn and contribute to the development of the next generation of our financial services platform.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Key qualifications of this role include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;Taking ownership of delivering key improvements to platform subsystems.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Solid fundamentals in languages, common libraries and frameworks.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Implement improvements to systems leveraging well established patterns.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Writing clear and maintainable code as well as creating relevant test collateral.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Do&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a valuable contributor to our team, you will focus on building out the features, capabilities, and member experiences for our market-leading loan products. This role involves full product lifecycle engagement, from initial concept to deployment. Key responsibilities include implementing new features, ensuring code quality, and contributing to the delivery of highly-available, scalable services. Success requires close coordination with Product, Marketing, Operations, Business, Legal, and Compliance teams.&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What You’ll Need&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;Bachelor&#39;s or Master&#39;s degree in Computer Science, or Software Engineering&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;1+ years of professional full-time relevant work experience, including internships or research assistant roles.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Strong sense of ownership and willingness to learn unfamiliar systems.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Affinity for solving complex problems and the drive to dive deep into the technical details.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Proficiency in Java, Kotlin, or another modern object-oriented language.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Ability to follow established patterns and contribute to well‑defined features.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Ability to write clear, maintainable code and basic unit tests.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Understanding of relational and document database principles.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Nice To Have&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;Experience with GIT, Build Automation, and CI/CD Processes.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Understanding of fundamental distributed systems concepts.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div class=&quot;gmail_default&quot;&gt;&lt;strong&gt;Compensation and Benefits&lt;/strong&gt;&lt;/div&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;The base pay range for this role is listed below. Final base pay offer will be determined based on individual factors such as the candidate’s experience, skills, and location.&amp;nbsp;&lt;/div&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;&amp;nbsp;&lt;/div&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;To view all of our comprehensive&amp;nbsp;and competitive&amp;nbsp;benefits, visit our&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;https://sofietyinfo.sofi.com/sofi-benefits&quot; target=&quot;_blank&quot; data-saferedirecturl=&quot;https://www.google.com/url?q=https://sofietyinfo.sofi.com/sofi-benefits&amp;amp;source=gmail&amp;amp;ust=1667318410571000&amp;amp;usg=AOvVaw0ZqbRtznVe1JsWWUOWQUnN&quot;&gt;Benefits at SoFi&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;page!&lt;/div&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SoFi provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion (including religious dress and grooming practices), sex (including pregnancy, childbirth and related medical conditions, breastfeeding, and conditions related to breastfeeding), gender, gender identity, gender expression, national origin, ancestry, age (40 or over), physical or medical disability, medical condition, marital status, registered domestic partner status, sexual orientation, genetic information, military and/or veteran status, or any other basis prohibited by applicable state or federal law.&lt;/span&gt;&lt;/h5&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Company hires the best qualified candidate for the job, without regard to protected characteristics.&lt;/span&gt;&lt;/h5&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.&lt;/span&gt;&lt;/h5&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://dol.ny.gov/system/files/documents/2022/02/ls740_1.pdf&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;New York applicants: Notice of Employee Rights&lt;/span&gt;&lt;/a&gt;&lt;/h5&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SoFi is committed to an inclusive culture. As part of this commitment, &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SoFi &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;offers reasonable accommodations to candidates with physical or mental disabilities. If you need accommodations to participate in the job application or interview process, please let your recruiter know or email &lt;/span&gt;&lt;a href=&quot;mailto:accommodations@sofi.com&quot; target=&quot;_blank&quot;&gt;accommodations@sofi.com.&lt;/a&gt;&lt;/h5&gt;\n&lt;h5 style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Due to insurance coverage issues, we are unable to accommodate remote work from Hawaii or Alaska at this time.&lt;/span&gt;&lt;/h5&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;&lt;strong&gt;Internal Employees&lt;/strong&gt;&lt;/div&gt;\n&lt;div class=&quot;gmail_default&quot;&gt;If you are a current employee, do not apply here - please navigate to our Internal Job Board in Greenhouse to apply to our open roles.&lt;/div&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 4091902003,
+      "name": "Infrastructure",
+      "child_ids": [
+        4091908003,
+        4091905003
+      ],
+      "parent_id": null
+    }
+  ],
+  "offices": [
+    {
+      "id": 4023895003,
+      "name": "UT - Cottonwood Heights",
+      "location": null,
+      "child_ids": [],
+      "parent_id": 4023885003
+    }
+  ]
+}
