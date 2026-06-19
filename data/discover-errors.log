@@ -78,3 +78,64 @@
 2026-06-19T10:58:40.818Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-06-19T10:58:40.953Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-06-19T10:58:41.700Z Workday: walmart - 410 - Gone
+2026-06-19T11:47:46.284Z Workday: acehardware - 500 - Internal Server Error
+2026-06-19T11:47:48.590Z Lever: anysignal - 404 - Not Found
+2026-06-19T11:47:58.343Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-06-19T11:48:09.059Z Workday: elkay - 500 - Internal Server Error
+2026-06-19T11:48:09.902Z Lever: ethereumfoundation - 404 - Not Found
+2026-06-19T11:48:20.677Z Workday: geico - 500 - Internal Server Error
+2026-06-19T11:48:27.195Z Greenhouse: jobs - 404 - Not Found
+2026-06-19T11:48:28.074Z Workday: kar - 422 - Unprocessable Entity
+2026-06-19T11:48:38.069Z Workday: nordstrom - 500 - Internal Server Error
+2026-06-19T11:48:39.072Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-06-19T11:48:40.354Z Workday: plexus - 422 - Unprocessable Entity
+2026-06-19T11:48:40.779Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-06-19T11:48:43.814Z Workday: regions - 500 - Internal Server Error
+2026-06-19T11:48:50.975Z Lever: tamr - 404 - Not Found
+2026-06-19T11:48:51.118Z Workday: symbotic - 422 - Unprocessable Entity
+2026-06-19T11:48:54.533Z Lever: uncountable - 404 - Not Found
+2026-06-19T11:48:55.105Z Workday: truist - 500 - Internal Server Error
+2026-06-19T11:48:56.998Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-06-19T11:48:57.177Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-06-19T11:48:57.903Z Workday: walmart - 410 - Gone
+2026-06-19T12:06:38.009Z Workday: acehardware - 500 - Internal Server Error
+2026-06-19T12:06:40.337Z Lever: anysignal - 404 - Not Found
+2026-06-19T12:06:51.155Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-06-19T12:07:03.443Z Workday: elkay - 500 - Internal Server Error
+2026-06-19T12:07:04.048Z Lever: ethereumfoundation - 404 - Not Found
+2026-06-19T12:07:13.131Z Workday: geico - 500 - Internal Server Error
+2026-06-19T12:07:18.761Z Greenhouse: jobs - 404 - Not Found
+2026-06-19T12:07:19.836Z Workday: kar - 422 - Unprocessable Entity
+2026-06-19T12:07:28.707Z Workday: nordstrom - 500 - Internal Server Error
+2026-06-19T12:07:29.174Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-06-19T12:07:29.248Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-06-19T12:07:31.211Z Workday: plexus - 422 - Unprocessable Entity
+2026-06-19T12:07:35.343Z Workday: regions - 500 - Internal Server Error
+2026-06-19T12:07:42.272Z Workday: snc - 520 - <none>
+2026-06-19T12:07:43.030Z Workday: symbotic - 422 - Unprocessable Entity
+2026-06-19T12:07:43.082Z Lever: tamr - 404 - Not Found
+2026-06-19T12:07:46.220Z Lever: uncountable - 404 - Not Found
+2026-06-19T12:07:46.832Z Workday: truist - 500 - Internal Server Error
+2026-06-19T12:07:48.682Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-06-19T12:07:48.786Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-06-19T12:07:49.424Z Workday: walmart - 410 - Gone
+2026-06-19T12:57:03.768Z Workday: acehardware - 500 - Internal Server Error
+2026-06-19T12:57:06.385Z Lever: anysignal - 404 - Not Found
+2026-06-19T12:57:16.576Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-06-19T12:57:28.415Z Workday: elkay - 500 - Internal Server Error
+2026-06-19T12:57:29.511Z Lever: ethereumfoundation - 404 - Not Found
+2026-06-19T12:57:39.321Z Workday: geico - 500 - Internal Server Error
+2026-06-19T12:57:45.068Z Greenhouse: jobs - 404 - Not Found
+2026-06-19T12:57:46.110Z Workday: kar - 422 - Unprocessable Entity
+2026-06-19T12:57:54.399Z Workday: nordstrom - 500 - Internal Server Error
+2026-06-19T12:57:54.872Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-06-19T12:57:54.915Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-06-19T12:57:57.380Z Workday: plexus - 422 - Unprocessable Entity
+2026-06-19T12:57:59.867Z Workday: regions - 500 - Internal Server Error
+2026-06-19T12:58:07.084Z Workday: symbotic - 422 - Unprocessable Entity
+2026-06-19T12:58:07.681Z Lever: tamr - 404 - Not Found
+2026-06-19T12:58:10.463Z Lever: uncountable - 404 - Not Found
+2026-06-19T12:58:10.956Z Workday: truist - 500 - Internal Server Error
+2026-06-19T12:58:12.653Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-06-19T12:58:12.730Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-06-19T12:58:13.764Z Workday: walmart - 410 - Gone

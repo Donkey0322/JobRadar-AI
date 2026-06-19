@@ -5,6 +5,7 @@ import {
   GOOGLE_CAREERS_URL,
   META_CAREERS_URL,
   NETFLIX_API_URL,
+  TIKTOK_API_URL,
 } from "@/constants/ats";
 
 import type { Company } from "@/modules/company-tacker/type";
@@ -16,27 +17,37 @@ import { fetchGoogle } from "./google";
 import { fetchMeta } from "./meta";
 import { fetchMicrosoft } from "./microsoft";
 import { fetchNetflix } from "./netflix";
+import { fetchTikTok } from "./tiktok";
 
-type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta" | "apple" | "netflix";
+type CustomCompanyIdentifier =
+  | "amazon"
+  | "microsoft"
+  | "google"
+  | "meta"
+  | "apple"
+  | "netflix"
+  | "tiktok";
+
+const COMPANY_MATCHERS = {
+  amazon: "amazon.jobs",
+  microsoft: "microsoft.com",
+  google: "google.com",
+  meta: "metacareers.com",
+  apple: "jobs.apple.com",
+  netflix: "netflix.net",
+  tiktok: "tiktok.com",
+} satisfies Record<CustomCompanyIdentifier, string>;
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
   const host = url.hostname;
-  if (host.endsWith("amazon.jobs")) {
-    return "amazon";
-  } else if (host.endsWith("microsoft.com")) {
-    return "microsoft";
-  } else if (host.endsWith("google.com")) {
-    return "google";
-  } else if (host.endsWith("metacareers.com")) {
-    return "meta";
-  } else if (host.endsWith("jobs.apple.com")) {
-    return "apple";
-  } else if (host.endsWith("netflix.net")) {
-    return "netflix";
-  } else {
-    // logger.warn(`Unsupported custom company: ${host}`);
-    return null;
+
+  for (const [identifier, domain] of Object.entries(COMPANY_MATCHERS)) {
+    if (host.endsWith(domain)) {
+      return identifier as CustomCompanyIdentifier;
+    }
   }
+
+  return null;
 }
 
 export function urlToCustomCompany(url: URL): Company {
@@ -98,6 +109,15 @@ export function urlToCustomCompany(url: URL): Company {
         page: NETFLIX_API_URL,
         urls: [],
       };
+    case "tiktok":
+      return {
+        name: "TikTok",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: TIKTOK_API_URL,
+        urls: [],
+      };
     default: {
       identifier satisfies null;
       return {
@@ -137,6 +157,9 @@ export async function fetchCustom(
     }
     case "netflix": {
       return await fetchNetflix(company, urls, signal);
+    }
+    case "tiktok": {
+      return await fetchTikTok(company, urls, signal);
     }
     default:
       identifier satisfies null;

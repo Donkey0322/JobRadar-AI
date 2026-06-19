@@ -66,14 +66,18 @@ async function readPrompt(relativePath: string): Promise<string> {
 }
 
 export default async function analyzeJD(context: string): Promise<AIResponse> {
-  const template = await readPrompt("spec.txt");
-  const prompt = buildPrompt(template, {
-    CONTEXT: context,
-    COUNTRIES: toBulletList(COUNTRIES),
-    JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
-    SEASONS: toBulletList(SEASON_VALUES),
-  });
+  if (process.env.AI_MODE === "DOWN") {
+    return { result: null, cost: 0 };
+  }
   try {
+    const template = await readPrompt("spec.txt");
+    const prompt = buildPrompt(template, {
+      CONTEXT: context,
+      COUNTRIES: toBulletList(COUNTRIES),
+      JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
+      SEASONS: toBulletList(SEASON_VALUES),
+    });
+
     const response = await callAIModel(prompt, JD_SCHEMA);
     return response ?? null;
   } catch (e) {
