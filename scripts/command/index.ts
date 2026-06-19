@@ -19,6 +19,9 @@ sync
   .command("discover")
   .description("Discover jobs from ATS patterns")
   .action(async () => {
+    const { checkAIConfig } = await import("./setup/checkConfg");
+    await checkAIConfig();
+
     const { default: syncDiscover } = await import("./sync/discover");
 
     await syncDiscover();

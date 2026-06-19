@@ -63,46 +63,54 @@ export class AnthropicProvider implements AIProvider {
   }
 
   async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
-    const { schema: normalizedSchema, wrap } = this.normalizeSchema(schema);
+    try {
+      const { schema: normalizedSchema, wrap } = this.normalizeSchema(schema);
 
-    const response = await withRetry(() =>
-      this.client.messages.create({
-        model,
-        temperature: 0,
-        max_tokens: 4096,
-        tools: [
-          {
-            name: "extract" as const,
-            description: "Extract structured information from the input text.",
-            input_schema: normalizedSchema,
+      const response = await withRetry(() =>
+        this.client.messages.create({
+          model,
+          temperature: 0,
+          max_tokens: 4096,
+          tools: [
+            {
+              name: "extract" as const,
+              description: "Extract structured information from the input text.",
+              input_schema: normalizedSchema,
+            },
+          ],
+          tool_choice: {
+            type: "tool",
+            name: "extract",
           },
-        ],
-        tool_choice: {
-          type: "tool",
-          name: "extract",
-        },
-        messages: [
-          {
-            role: "user",
-            content: prompt,
-          },
-        ],
-      })
-    );
+          messages: [
+            {
+              role: "user",
+              content: prompt,
+            },
+          ],
+        })
+      );
 
-    const toolUse = response.content.find((block) => block.type === "tool_use");
+      const toolUse = response.content.find((block) => block.type === "tool_use");
 
-    if (!toolUse || toolUse.type !== "tool_use") {
-      logger.error(`${RED_CROSS} Anthropic response did not contain tool_use`);
+      if (!toolUse || toolUse.type !== "tool_use") {
+        logger.error(`${RED_CROSS} Anthropic response did not contain tool_use`);
+        return {
+          result: null,
+          cost: this.calculateCost(response),
+        };
+      }
+
       return {
-        result: null,
+        result: stringifyResult(this.parseResult(toolUse.input, wrap)),
         cost: this.calculateCost(response),
       };
+    } catch (error) {
+      logger.error({ err: error }, `${RED_CROSS} Error generating Anthropic response`);
+      return {
+        result: null,
+        cost: 0,
+      };
     }
-
-    return {
-      result: stringifyResult(this.parseResult(toolUse.input, wrap)),
-      cost: this.calculateCost(response),
-    };
   }
 }

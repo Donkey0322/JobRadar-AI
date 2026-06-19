@@ -96,7 +96,11 @@ export async function fetchWorkday(company: Company, urls: Set<string>, signal: 
       try {
         data = await res.json();
       } catch {
-        throw new Error("Workday JSON parse error");
+        logger.error(
+          { company: company.name, url: company.page },
+          `${RED_CROSS} Workday JSON parse error`
+        );
+        return [];
       }
 
       const jsonDuration = Date.now() - jsonStart;

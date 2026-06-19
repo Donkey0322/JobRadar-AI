@@ -164,7 +164,7 @@ export async function processJobs({
     }
 
     const { job, jd, rawJD, cost } = result;
-
+    job.jd = jd;
     totalCost += cost;
 
     if (jd) {
@@ -190,7 +190,6 @@ export async function processJobs({
       currentId += 1;
 
       job.id = currentId;
-      job.jd = jd;
 
       jdSaves.push(saveJd(rawJD, job));
     }

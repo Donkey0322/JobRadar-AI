@@ -32,42 +32,50 @@ export class OpenAIProvider implements AIProvider {
   }
 
   async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
-    const response = (await withRetry(() =>
-      this.client.responses.create({
-        model,
-        stream: false,
-        input: prompt,
-        tools: [
-          {
+    try {
+      const response = (await withRetry(() =>
+        this.client.responses.create({
+          model,
+          stream: false,
+          input: prompt,
+          tools: [
+            {
+              type: "function",
+              strict: true,
+              name: "extract",
+              description: "Extract structured information from the input text.",
+              parameters: schema,
+            },
+          ],
+          tool_choice: {
             type: "function",
-            strict: true,
             name: "extract",
-            description: "Extract structured information from the input text.",
-            parameters: schema,
           },
-        ],
-        tool_choice: {
-          type: "function",
-          name: "extract",
-        },
-      })
-    )) as OpenAI.Responses.Response;
+        })
+      )) as OpenAI.Responses.Response;
 
-    const functionCall = response.output.find(
-      (item: OpenAI.Responses.ResponseOutputItem) => item.type === "function_call"
-    );
+      const functionCall = response.output.find(
+        (item: OpenAI.Responses.ResponseOutputItem) => item.type === "function_call"
+      );
 
-    if (!functionCall || functionCall.type !== "function_call") {
-      logger.error(`${RED_CROSS} OpenAI response did not contain function_call`);
+      if (!functionCall || functionCall.type !== "function_call") {
+        logger.error(`${RED_CROSS} OpenAI response did not contain function_call`);
+        return {
+          result: null,
+          cost: this.calculateCost(response),
+        };
+      }
+
       return {
-        result: null,
+        result: functionCall.arguments ?? null,
         cost: this.calculateCost(response),
       };
+    } catch (error) {
+      logger.error({ err: error }, `${RED_CROSS} Error generating OpenAI response`);
+      return {
+        result: null,
+        cost: 0,
+      };
     }
-
-    return {
-      result: functionCall.arguments ?? null,
-      cost: this.calculateCost(response),
-    };
   }
 }

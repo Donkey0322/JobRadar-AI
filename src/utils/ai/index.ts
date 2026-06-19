@@ -11,7 +11,7 @@ import { logger } from "@/utils/logger";
 
 const AI_PROVIDER = CONFIG.ai.provider;
 const DEFAULT_MODEL = CONFIG.ai.model;
-const AI_API_KEY = process.env.AI_API_KEY ?? "";
+export const AI_API_KEY = process.env.AI_API_KEY ?? "";
 
 export function getProvider(apiKey: string): AIProvider | null {
   switch (AI_PROVIDER) {
@@ -36,8 +36,7 @@ export default async function callAIModel(
   schema: Schema,
   model: string = DEFAULT_MODEL
 ): Promise<AIResponse> {
-  if (!AI_API_KEY) {
-    logger.error(`${RED_CROSS} AI_API_KEY is not set`);
+  if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
 

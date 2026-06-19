@@ -1,4 +1,4 @@
-import { CONFIG } from "@/constants";
+import { ALLOWED_COUNTRIES, CONFIG } from "@/constants";
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
@@ -36,9 +36,8 @@ export function normalizeJD(response: JDResponse): JD {
 
 export function isEligibleJD(jd: JD) {
   const filters = CONFIG.target.filter;
-  const countries = CONFIG.target.countries;
 
-  if (!countries.includes(jd.country)) {
+  if (ALLOWED_COUNTRIES.size > 0 && !ALLOWED_COUNTRIES.has(jd.country)) {
     return [false, `${jd.country} is not in the allowed countries`];
   }
 

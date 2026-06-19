@@ -83,7 +83,11 @@ async function fetchAppleHtml(urlStr: string, page: number = 1, signal: AbortSig
   });
 
   if (!res.ok) {
-    throw new Error(`Apple jobs fetch failed: ${res.status} ${res.statusText}`);
+    logger.error(
+      { company: "Apple", url: url.toString() },
+      `${RED_CROSS} Apple jobs fetch failed: ${res.status} ${res.statusText}`
+    );
+    return "";
   }
 
   return res.text();
@@ -99,6 +103,9 @@ export async function fetchApple(
 
     for (let page = 1; page <= MAX_PAGES; page++) {
       const html = await fetchAppleHtml(company.page, page, signal);
+      if (html === "") {
+        break;
+      }
       const jobs = parseAppleJobs(html);
 
       if (jobs.length === 0) {

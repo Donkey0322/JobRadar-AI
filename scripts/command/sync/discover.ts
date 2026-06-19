@@ -1,7 +1,5 @@
 import "dotenv/config";
-import { CONFIG } from "@/constants";
-
-import type { Country } from "@/validation/config";
+import { ALLOWED_COUNTRIES } from "@/constants";
 
 import { createSyncContext, processJobs } from "./shared";
 
@@ -10,17 +8,12 @@ import discoverJobs from "@/modules/company-tacker/fetch";
 import { logger } from "@/utils/logger";
 
 export default async function syncDiscover() {
-  logger.info("🔍 Discovering jobs...");
+  logger.info({ AI_MODE: process.env.AI_MODE }, "🔍 Discovering jobs...");
 
   const context = await createSyncContext();
 
   const jobs = await discoverJobs();
   const locations = await classifyLocations(jobs);
-
-  const allowedCountries =
-    CONFIG.target.countries.length > 0
-      ? new Set<Country>([...CONFIG.target.countries, "Unsure", "Remote"])
-      : new Set<Country>([]);
 
   await processJobs({
     jobs,
@@ -30,7 +23,7 @@ export default async function syncDiscover() {
       const index = jobs.indexOf(job);
       const location = locations[index];
 
-      if (allowedCountries.size > 0 && !allowedCountries.has(location)) {
+      if (ALLOWED_COUNTRIES.size > 0 && !ALLOWED_COUNTRIES.has(location)) {
         logger.info(
           {
             company: job.company,

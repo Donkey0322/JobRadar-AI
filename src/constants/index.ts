@@ -3,6 +3,7 @@ import path from "path";
 import "dotenv/config";
 
 import type Source from "@/types/source";
+import type { Country } from "@/validation/config";
 
 import config from "../../config.json";
 
@@ -33,6 +34,11 @@ export const CONFIG: Config & { sender: { pass: string } } = {
   },
   receiver: parsedConfig.receiver,
 };
+
+export const ALLOWED_COUNTRIES =
+  CONFIG.target.countries.length > 0
+    ? new Set<Country>([...CONFIG.target.countries, "Unsure"])
+    : new Set<Country>([]);
 
 export const JOB_CATEGORIES = [
   JobCategory.SUMMER_INTERN,

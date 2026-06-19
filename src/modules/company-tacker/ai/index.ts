@@ -44,7 +44,8 @@ function buildPayload(jobs: Job[]): LocationPayloadItem[] {
 
 function parseLocationResult(result: string | null, expectedLength: number): Country[] {
   if (!result) {
-    throw new Error("Classify locations failed: empty AI result");
+    logger.error({ result }, `${RED_CROSS} Classify locations failed: empty AI result`);
+    return Array(expectedLength).fill("Unsure");
   }
 
   let parsed: unknown;
@@ -53,16 +54,20 @@ function parseLocationResult(result: string | null, expectedLength: number): Cou
     parsed = JSON.parse(result);
   } catch (error) {
     logger.error({ err: error, result }, `${RED_CROSS} Failed to parse location result`);
-    throw new Error("Classify locations failed: invalid JSON", { cause: error });
+    return Array(expectedLength).fill("Unsure");
   }
 
   if (!Array.isArray(parsed)) {
     logger.error({ result }, `${RED_CROSS} Location result is not an array`);
-    throw new Error("Classify locations failed: result is not an array");
+    return Array(expectedLength).fill("Unsure");
   }
 
   if (parsed.length !== expectedLength) {
-    throw new Error(`Length mismatch: expected ${expectedLength}, got ${parsed.length}`);
+    logger.error(
+      { result, expectedLength, parsedLength: parsed.length },
+      `${RED_CROSS} Length mismatch`
+    );
+    return Array(expectedLength).fill("Unsure");
   }
 
   const invalidItems = parsed.filter(
@@ -71,29 +76,37 @@ function parseLocationResult(result: string | null, expectedLength: number): Cou
 
   if (invalidItems.length > 0) {
     logger.error({ invalidItems, result }, `${RED_CROSS} Invalid location values`);
-    throw new Error("Classify locations failed: invalid location values");
+    return Array(expectedLength).fill("Unsure");
   }
 
   return parsed as Country[];
 }
 
 async function classifyBatch(jobs: Job[]): Promise<{ result: Country[]; cost: number }> {
-  const payload = buildPayload(jobs);
-  const schema = buildLocationSchema(jobs.length);
+  if (process.env.AI_MODE === "DOWN") {
+    return { result: Array(jobs.length).fill("Unsure"), cost: 0 };
+  }
+  try {
+    const payload = buildPayload(jobs);
+    const schema = buildLocationSchema(jobs.length);
 
-  const template = await readPrompt("spec.txt");
-  const prompt = buildPrompt(template, {
-    COUNTRIES: toBulletList(COUNTRIES),
-    PAYLOAD: JSON.stringify(payload, null, 2),
-  });
+    const template = await readPrompt("spec.txt");
+    const prompt = buildPrompt(template, {
+      COUNTRIES: toBulletList(COUNTRIES),
+      PAYLOAD: JSON.stringify(payload, null, 2),
+    });
 
-  const { result, cost } = await callAIModel(prompt, schema);
-  const classified = parseLocationResult(result, jobs.length);
+    const { result, cost } = await callAIModel(prompt, schema);
+    const classified = parseLocationResult(result, jobs.length);
 
-  return {
-    result: classified,
-    cost,
-  };
+    return {
+      result: classified,
+      cost,
+    };
+  } catch (error) {
+    logger.error({ err: error }, `${RED_CROSS} Error classifying locations`);
+    return { result: Array(jobs.length).fill("Unsure"), cost: 0 };
+  }
 }
 
 export async function classifyLocations(jobs: Job[]): Promise<Country[]> {
@@ -117,7 +130,11 @@ export async function classifyLocations(jobs: Job[]): Promise<Country[]> {
   }
 
   if (results.length !== jobs.length) {
-    throw new Error(`Final length mismatch: expected ${jobs.length}, got ${results.length}`);
+    logger.error(
+      { resultsLength: results.length, jobsLength: jobs.length },
+      `${RED_CROSS} Final length mismatch`
+    );
+    return Array(jobs.length).fill("Unsure");
   }
 
   logger.info({ count: results.length, cost: totalCost }, "💰 Classified locations");
