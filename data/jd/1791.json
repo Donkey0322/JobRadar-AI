@@ -1,0 +1,57 @@
+{
+  "absolute_url": "https://boards.greenhouse.io/bugcrowd/jobs/8016582?gh_jid=8016582",
+  "data_compliance": [
+    {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+    }
+  ],
+  "internal_job_id": 3468422,
+  "location": {
+    "name": "Remote - US"
+  },
+  "metadata": null,
+  "id": 8016582,
+  "updated_at": "2026-06-18T16:18:32-04:00",
+  "requisition_id": "27151",
+  "title": "Engineering Intern - Summer '26",
+  "company_name": "Bugcrowd",
+  "first_published": "2026-06-18T16:18:32-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;We are Bugcrowd. Since 2012, we’ve been empowering organizations to take back control and stay ahead of threat actors by uniting the collective ingenuity and expertise of our customers and trusted alliance of elite hackers, with our patented data and AI-powered Security Knowledge Platform™. Our network of hackers brings diverse expertise to uncover hidden weaknesses, adapting swiftly to evolving threats, even against zero-day exploits. With unmatched scalability and adaptability, our data and AI-driven CrowdMatch™ technology in our platform finds the perfect talent for your unique fight. We aim to create a new era of modern crowdsourced security that outpaces threat actors. Unleash the ingenuity of the hacker community with Bugcrowd, visit www.bugcrowd.com. Based in San Francisco and New Hampshire, Bugcrowd is supported by General Catalyst, Rally Ventures, Costanoa Ventures, and others.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Job Summary&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This is a part-time (25 hours per week) 2-3 month internship focused on actively learning and applying team technologies to deliver code. This role is primarily focused on execution within defined boundaries, collaborating closely with peers and mentors to apply academic knowledge in a real-world environment. You will actively learn and embrace the tools, technologies, and patterns used by the team. You will assist in delivering features and bug fixes that improve and extend the system.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Essential Duties and Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Assist with the development and maintenance of web applications using Python 3.9, Django, and DRF.&lt;/li&gt;\n&lt;li&gt;Learn about and participate in the full software development lifecycle.&lt;/li&gt;\n&lt;li&gt;Assist with code reviews and contribute to improving the security aspects of applications.&lt;/li&gt;\n&lt;li&gt;Assist in the development of automated tests to ensure application reliability and security.&lt;/li&gt;\n&lt;li&gt;Contribute to technical documentation (design docs, API documentation, release notes).&lt;/li&gt;\n&lt;li&gt;Assist with the implementation of integrations with 3rd party services e.g. Google, AWS, ServiceNow.&lt;/li&gt;\n&lt;li&gt;Learn how to collaborate with the cybersecurity team to identify vulnerabilities and implement secure coding practices.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Education, Experience, Knowledge, Skills, and Abilities&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Current student pursuing a degree in Computer Science, Software Engineering, or related field (ideally entering senior year)&lt;/li&gt;\n&lt;li&gt;Hands-on experience in at least one of these computer languages: Java, Kotlin, Javascript, Typescript, Python&lt;/li&gt;\n&lt;li&gt;Eagerness to learn and a can-do attitude&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Preferred Qualifications&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with React framework&lt;/li&gt;\n&lt;li&gt;Experience with Git/Github&lt;/li&gt;\n&lt;li&gt;Experience with AWS or other cloud environments&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Hourly Rate&lt;/strong&gt;: $20-25/hour&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Working Conditions and Physical Requirements&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The ideal candidate must be able to complete all physical requirements of the job with or without reasonable accommodation.&lt;/p&gt;\n&lt;p&gt;Sitting and / or standing - Must be able to remain in a stationary position 50% of the time&lt;/p&gt;\n&lt;p&gt;Carrying and / or lifting - Must be able to carry / move laptop as needed throughout the work day.&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;Culture&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;At Bugcrowd, we understand that diversity in the workplace is vital to a company’s success and growth. We strive to make sure that people are included and have a sense of being part of making Bugcrowd not only a great product but a great place to work.&lt;/li&gt;\n&lt;li&gt;We regularly hear from both customers and researchers that Bugcrowd feels like a family, and we strive to maintain that internally as well.&lt;/li&gt;\n&lt;li&gt;Our team consists of a broad range of people: musicians, adventure sports junkies, nature lovers, parents, cereal enthusiasts, night owls, cyclists, artists—you get the point.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;At Bugcrowd, we are solving security threats and vulnerabilities that are relevant to everyone, therefore we believe solving these problems takes all kinds of backgrounds. We value the perspectives and experiences people from underrepresented backgrounds bring.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This position has access to highly confidential, sensitive information relating to the technologies of Bugcrowd. It is essential that the applicant possess the requisite integrity to maintain the information in the strictest confidence.&lt;/p&gt;\n&lt;p&gt;The company is authorized to obtain background checks for employment purposes under state and federal law. Background checks will be conducted for positions that involve access to confidential or proprietary information (including trade secrets).&lt;/p&gt;\n&lt;p&gt;Background checks may include Social Security verification, prior employment verification, personal and professional references, educational verification, and criminal history. Applicants with conviction histories will not be excluded from consideration to the extent required by&lt;strong&gt; &lt;/strong&gt;law.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Any personal data you submit in connection with your application will be processed in compliance with Bugcrowd&#39;s Privacy Policy, which you may review here:&amp;nbsp;&lt;u&gt;&lt;a href=&quot;https://www.bugcrowd.com/privacy&quot; target=&quot;_blank&quot; data-saferedirecturl=&quot;https://www.google.com/url?q=https://www.bugcrowd.com/privacy&amp;amp;source=gmail&amp;amp;ust=1779561211088000&amp;amp;usg=AOvVaw3juRr88xa6eT7Qqm8DdKSA&quot;&gt;https://www.bugcrowd.com/privacy&lt;/a&gt;&lt;/u&gt;.&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Equal Employment Opportunity:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Bugcrowd is EOE, Disability/Age Employer.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Individuals seeking employment at Bugcrowd are considered without regards to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, or sexual orientation.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Bugcrowd is committed to the full inclusion of all qualified individuals. In keeping with our commitment, Bugcrowd will take the steps to assure that people with disabilities are provided reasonable accommodations. Accordingly, if reasonable accommodation is required to fully participate in the job application or interview process, to perform the essential functions of the position, and/or to receive all other benefits and privileges of employment, please contact HR at ADA at bugcrowd.com.&lt;/p&gt;\n&lt;p&gt;Apply at:&amp;nbsp;&lt;a href=&quot;https://www.bugcrowd.com/about/careers/&quot;&gt;https://www.bugcrowd.com/about/careers/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;",
+  "departments": [
+    {
+      "id": 76414,
+      "name": "R&D : Engineering",
+      "child_ids": [],
+      "parent_id": 20278
+    }
+  ],
+  "offices": [
+    {
+      "id": 61493,
+      "name": "Remote US",
+      "location": "United States",
+      "child_ids": [
+        52453,
+        58109,
+        52452,
+        68083,
+        58111,
+        51151,
+        207252,
+        186724,
+        51148,
+        14662,
+        19226,
+        11991
+      ],
+      "parent_id": null
+    }
+  ]
+}

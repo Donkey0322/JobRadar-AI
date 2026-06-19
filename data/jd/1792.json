@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "fed710e9f9c51001aee450f630430001",
+    "title": "Software Engineer II (New College Grad 2026)",
+    "jobDescription": "<h2><b><span class=\"emphasis\">At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.</span></b></h2><p>The Allegro software development team is looking for a Software Engineer to join the team. This is an entry-level position.</p><p></p><p>This team develops and maintains a multi-user design editing solution named Symphony, which supports concurrent editing of PCB and packaging designs. Symphony is a network-based, distributed computing solution used to design state-of-the-art technologies. As a differentiating technology itself, Symphony is a key component of Allegro&#39;s core offerings.</p><p></p><p>As a member of this team, you’ll gain hands-on experience working with enterprise-level software and solving real-world problems. As a comprehensive solution, Symphony spans many areas of the codebase from GUI to database, from interactive commands to network protocols. You’ll have the opportunity to work in these areas, all while learning about the software development process and broadening your skillset.</p><p></p><p><i>Key responsibilities:</i></p><ul><li><i>Design, implement, and maintain software systems that incorporate <b>ML/AI models into production environments</b></i></li><li><i>Develop, test, and optimize machine learning models and pipelines under the guidance of senior engineers</i></li><li><i>Write clean, well-tested, and production-quality code (unit tests, CI/CD, code reviews)</i></li><li><i>Collaborate with cross-functional teams (software engineers, product engineers) to translate requirements into technical solutions</i></li><li><i>Design, evaluate, and improve agent behavior, including prompt engineering, tool orchestration, and feedback/iteration mechanisms</i></li><li><i>Stay current with advancing ML/AI techniques, tools, and engineering best practices</i></li></ul><p></p><p><i>Required Qualifications</i></p><ul><li><i><b>New College Grad</b> with BS or MS majoring in <b>Computer Science, Electrical Engineering</b>, or related field</i></li><li><i>Strong programming skills (<b>C&#43;&#43; required</b>) </i></li><li><i>Solid understanding of data structures, algorithms, and software engineering fundamentals</i></li><li><i>Familiarity with machine learning concepts (supervised/unsupervised learning, model evaluation, overfitting, etc.)</i></li><li><i>Experience with version control systems (e.g., Git, Perforce)</i></li><li><i>Strong problem-solving ability and attention to detail</i></li></ul><p></p><p><i>Preferred Qualifications (Nice-to-Have)</i></p><ul><li><b><i>Exposure to Electronic Design Automation (EDA), IC design, or PCB/physical design workflows</i></b></li><li><i>Familiarity with optimization problems in placement, routing, timing, or power analysis</i></li><li><i>Experience with performance optimization or systems programming</i></li></ul><p></p><p><i>The annual salary range for Massachusetts is $87,500 to $162,500. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more.</i></p><h2><span class=\"emphasis\"><b>We’re doing work that matters. Help us solve what others can’t.</b></span></h2>",
+    "location": "BOSTON 02",
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-18",
+    "timeType": "Full time",
+    "jobReqId": "R54895",
+    "jobPostingId": "Software-Engineer-II--New-College-Grad-2026-_R54895-2",
+    "jobPostingSiteId": "Univ_Careers",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "BOSTON 02",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "externalUrl": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895-2",
+    "questionnaireId": "6598c240a7d1013fc7a28f6e5f16c953"
+  },
+  "hiringOrganization": {
+    "name": "",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
