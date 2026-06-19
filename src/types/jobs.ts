@@ -9,6 +9,7 @@ export interface JD {
 
   // these fields are added to fill the gap between Job and JD
   country: (typeof COUNTRIES)[number];
+  location: string | null;
   category: JobCategory;
   // if category is entry level, mid level, or senior level, season is none
   // if season is not found, return none

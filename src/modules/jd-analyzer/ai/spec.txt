@@ -60,7 +60,36 @@ Use "Unsure" if the location is unclear, missing, or ambiguous.
 
 Never invent a country.
 
-4. qualifications
+4. location
+
+Return the most specific primary work location as a string.
+
+Format:
+- "City, StateOrProvinceAbbreviation, Country"
+
+Examples:
+- "New York, NY, USA"
+- "San Francisco, CA, USA"
+- "Toronto, ON, Canada"
+- "London, England, UK"
+- "Taipei, Taiwan, Taiwan"
+
+Rules:
+- Use the primary work location.
+- Use city name when available.
+- Use state or province abbreviation when available.
+- Use the same country value chosen in the country field.
+- If multiple locations are listed, choose the primary location if clear.
+- If no primary location is clear, choose the first supported location listed.
+- If the role is remote but restricted to a city, state, province, or country, include that restriction.
+- If the role is fully remote and not tied to a specific place, return "Remote".
+- If the location is clear but does not include city or state/province, return the available location only.
+- If the location is missing, unclear, or ambiguous, return null.
+
+Do not invent city, state, province, or country.
+Do not expand abbreviations unless the job description clearly provides them.
+
+5. qualifications
 
 Extract candidate requirements only.
 
@@ -95,7 +124,7 @@ Formatting:
 - remove duplicates
 - merge overlapping qualifications
 
-5. category
+6. category
 
 Determine exactly one category using the following decision order.
 
@@ -179,7 +208,7 @@ If no clear category can be determined, return "mid level" only for professional
 Otherwise return "entry level" only when there are clear entry-level signals.
 If neither applies, return "mid level".
 
-6. season
+7. season
 
 Determine exactly one season.
 

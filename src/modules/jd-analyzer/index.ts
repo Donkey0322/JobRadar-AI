@@ -28,6 +28,7 @@ export function normalizeJD(response: JDResponse): JD {
     citizenship: response.citizenship,
     sponsorship: response.sponsorship,
     country: response.country,
+    location: response.location,
     qualifications: response.qualifications,
     category: response.category,
     season: response.season,

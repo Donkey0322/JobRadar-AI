@@ -34,6 +34,10 @@ const JD_PROPERTIES: Record<keyof JD, unknown> = {
     enum: COUNTRIES,
   },
 
+  location: {
+    type: ["string", "null"],
+  },
+
   category: {
     type: "string",
     enum: JOB_CATEGORIES,
@@ -50,6 +54,7 @@ const JD_REQUIRED = [
   "sponsorship",
   "qualifications",
   "country",
+  "location",
   "category",
   "season",
 ] satisfies Array<keyof JD>;
@@ -69,6 +74,7 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
   if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
+
   try {
     const template = await readPrompt("spec.txt");
     const prompt = buildPrompt(template, {
@@ -79,7 +85,7 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
     });
 
     const response = await callAIModel(prompt, JD_SCHEMA);
-    return response ?? null;
+    return response ?? { result: null, cost: 0 };
   } catch (e) {
     logger.error({ err: e }, `${RED_CROSS} Error calling AI Model`);
     return { result: null, cost: 0 };

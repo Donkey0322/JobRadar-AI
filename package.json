@@ -14,7 +14,8 @@
     "dedup": "tsx scripts/dedup.ts",
     "add-job": "tsx scripts/link.ts",
     "clean-url": "tsx scripts/clean-url.ts",
-    "preview-email": "tsx scripts/preview-email.ts"
+    "preview-email": "tsx scripts/preview-email.ts",
+    "update-readme": "tsx scripts/readme.ts"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
