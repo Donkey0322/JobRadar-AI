@@ -5164,7 +5164,10 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155"
+    ]
   },
   {
     "name": "corpay",
@@ -10475,6 +10478,16 @@
     ]
   },
   {
+    "name": "jobs",
+    "ats": "greenhouse",
+    "identifier": "jobs",
+    "domain": "https://jobs.solarwinds.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
+    "urls": [
+      "https://jobs.solarwinds.com/job-detail/?gh_jid=4696298005"
+    ]
+  },
+  {
     "name": "jobs.aligntech.com",
     "ats": "custom",
     "identifier": "jobs.aligntech.com",
@@ -11476,7 +11489,9 @@
     "identifier": "lexical.bamboohr.com",
     "domain": "https://lexical.bamboohr.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://lexical.bamboohr.com/careers/73/"
+    ]
   },
   {
     "name": "lgelectronics",
@@ -16120,10 +16135,7 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155"
-    ]
+    "urls": []
   },
   {
     "name": "skydio",
@@ -16355,8 +16367,7 @@
       "https://jobs.solarwinds.com/job-detail/?gh_jid=4692467005&gh_jid=4692467005",
       "https://jobs.solarwinds.com/job-detail/?gh_jid=4694254005&gh_jid=4694254005",
       "https://jobs.solarwinds.com/job-detail/?gh_jid=4694485005&gh_jid=4694485005",
-      "https://jobs.solarwinds.com/job-detail/?gh_jid=4694486005&gh_jid=4694486005",
-      "https://jobs.solarwinds.com/job-detail/?gh_jid=4696298005"
+      "https://jobs.solarwinds.com/job-detail/?gh_jid=4694486005&gh_jid=4694486005"
     ]
   },
   {
