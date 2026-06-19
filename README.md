@@ -207,6 +207,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:380px">PIC Design and High-Speed Device Development</div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32940" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">TikTok</div></td>
       <td align="left" valign="top"><div style="width:380px">Site Reliability Engineer - Data Infrastructure</div></td>
       <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
@@ -314,6 +321,41 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Zayo</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote - CO, USA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://zayo.wd1.myworkdayjobs.com/zayo_careers/job/United-States/AI-Engineer_R0016139" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Salesforce</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer (SMTS/LMTS) - Knowledge Graph &amp; AI</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Data-Engineer--SMTS-LMTS----Knowledge-Graph---AI_JR347480" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">RF-SMART</div></td>
+      <td align="left" valign="top"><div style="width:380px">React Developer (Full Stack Engineer)<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Jacksonville, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/rfsmart/jobs/5101062008" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Nio</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Infrastructure Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://nio.wd3.myworkdayjobs.com/nio_careers/job/San-Jose-US/Sr-AI-LLM-Infrastructure-SW-Engineer_R-000123" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">Space Special Projects, Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Reston, VA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5169861007?gh_jid=5169861007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">TikTok</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Scientist, Global E-commerce</div></td>
       <td align="left" valign="top"><div style="width:180px">Seattle, WA</div></td>
@@ -405,5 +447,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-19T20:18:56.897Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-19T21:42:25.851Z</code>
 </p>
