@@ -47,9 +47,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4669789006",
-      "https://www.8am.com/openings/?gh_jid=4675949006",
-      "https://www.8am.com/openings/?gh_jid=4678802006"
+      "https://www.8am.com/openings/?gh_jid=4663446006"
     ]
   },
   {
@@ -493,7 +491,9 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
+      "https://www.8am.com/openings/?gh_jid=4669789006",
+      "https://www.8am.com/openings/?gh_jid=4675949006",
+      "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
   {
@@ -5405,12 +5405,7 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7822246",
-      "http://corp.skillz.com/careers-list/?gh_jid=7896555",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155"
-    ]
+    "urls": []
   },
   {
     "name": "corpay",
@@ -5421,6 +5416,17 @@
     "urls": [
       "https://corpay.wd103.myworkdayjobs.com/en-US/ext_001/job/Vancouver---PayByPhone/Software-Developer--Co-op-_R05866",
       "https://corpay.wd103.myworkdayjobs.com/ext_001/job/London-The-Point---Cross-Border/Software-Engineer_R08253"
+    ]
+  },
+  {
+    "name": "corporate",
+    "ats": "greenhouse",
+    "identifier": "corporate",
+    "domain": "https://corporate.trustpilot.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/corporate/jobs",
+    "urls": [
+      "https://corporate.trustpilot.com/careers/job/7984603?gh_jid=7984603",
+      "https://corporate.trustpilot.com/careers/job/8015788?gh_jid=8015788"
     ]
   },
   {
@@ -8697,6 +8703,16 @@
     "urls": []
   },
   {
+    "name": "gen-digital",
+    "ats": "ashby",
+    "identifier": "gen-digital",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/gen-digital",
+    "urls": [
+      "https://jobs.ashbyhq.com/gen-digital/0818d1f1-e3c0-4a8a-afb8-72dd1265a13d/application"
+    ]
+  },
+  {
     "name": "genbio",
     "ats": "lever",
     "identifier": "genbio",
@@ -11453,7 +11469,8 @@
     "urls": [
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Township-Ohio/Junior-Frontend-Software-Engineer_R2124618",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/King-of-Prussia-Pennsylvania/National-Security-Solutions--NSS--Internship---INTEL-DE-MBSE-Intern_R2119128",
-      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Colorado-Springs-Colorado/Jr-Software-Developer_R2124672"
+      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Colorado-Springs-Colorado/Jr-Software-Developer_R2124672",
+      "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Ohio/Junior-Communications-Systems-Software-Engineer_R2125329"
     ]
   },
   {
@@ -11520,7 +11537,8 @@
     "urls": [
       "https://careers-kinaxis.icims.com/jobs/34763/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34764/job?mobile=true&needsRedirect=false",
-      "https://careers-kinaxis.icims.com/jobs/34899/job?mobile=true&needsRedirect=false"
+      "https://careers-kinaxis.icims.com/jobs/34899/job?mobile=true&needsRedirect=false",
+      "https://careers-kinaxis.icims.com/jobs/34962/job?mobile=true&needsRedirect=false"
     ]
   },
   {
@@ -14634,6 +14652,16 @@
     "urls": []
   },
   {
+    "name": "pingidentity",
+    "ats": "greenhouse",
+    "identifier": "pingidentity",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/pingidentity/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/pingidentity/jobs/8582872002"
+    ]
+  },
+  {
     "name": "pinterest",
     "ats": "greenhouse",
     "identifier": "pinterest",
@@ -16669,7 +16697,12 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7822246",
+      "http://corp.skillz.com/careers-list/?gh_jid=7896555",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155"
+    ]
   },
   {
     "name": "skydio",
@@ -17297,10 +17330,11 @@
     "page": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/global/jobs",
     "urls": [
       "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Architecture---Agentic-Automation--6-Months-Full-time-Internship--Jul--Dec-2026-_R-789474",
+      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Burlington-Massachusetts/Software-Engineer-I--Officer_R-789697",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-792613",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Toronto-Ontario/AVP--Software-Developer_R-792083-1",
-      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792647"
+      "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/Software-Engineer--CRD--New-Graduate_R-792654"
     ]
   },
   {
