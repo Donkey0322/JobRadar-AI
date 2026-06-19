@@ -2251,6 +2251,7 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Process-Automation-Engineer_JR-0000100378",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/QA-Automation-Tester_JR-0000101992",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/QA-Automation-Tester_JR-0000106354",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/RPA-UiPath-Developer_JR-0000097456-1",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Security-Engineer---Identity-Access-Management_JR-0000040672",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Site-Reliability-Engineer--SRE----Identity-Access-Management_JR-0000040673",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Site-Reliability-Engineer_JR-0000040674-1",
@@ -2263,8 +2264,7 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000111997",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Tech-Lead---PM_JR-0000089986",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer_JR-0000098109",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Tokyo-Roppongi-Hills-Mori-Tower/High-Frequency-Unix-System-Administrator_JR-0000090934-1",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/RPA-UiPath-Developer_JR-0000097456-1"
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Tokyo-Roppongi-Hills-Mori-Tower/High-Frequency-Unix-System-Administrator_JR-0000090934-1"
     ]
   },
   {
@@ -9011,7 +9011,8 @@
       "https://www.google.com/about/careers/applications/jobs/results/99370667664646854-data-center-electrical-engineer?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99458065853489862-administrative-business-partner-cloud-ai?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99505617684570822-ai-solutions-consultant-partner-gsi-google-cloud?sort_by=date&page=7",
-      "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1"
+      "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/92246409989759686-system-design-engineer-digital-signal-processing?sort_by=date&page=1"
     ]
   },
   {
@@ -10431,7 +10432,8 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Sao-Joao-da-Madeira-Sao-Joao-da-Madeira-Portugal/Software-Engineer---Embedded-Linux_WD30271763",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Sydney-New-South-Wales-Australia/Client-Services-Coordinator--Retail---Security-_WD30270269",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Winnipeg-Manitoba-Canada/HVAC-Controls-Technician--Building-Automation-_WD30271313",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Zarhin-Raanana/Software-Engineer--NET-C--_WD30260251"
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Zarhin-Raanana/Software-Engineer--NET-C--_WD30260251",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Bangalore-Karnataka-India/Oracle-CPQ-Developer_WD30270444"
     ]
   },
   {
@@ -13092,28 +13094,28 @@
     "domain": "https://explore.jobs.netflix.net",
     "page": "https://explore.jobs.netflix.net/api/apply/v2/jobs",
     "urls": [
+      "https://explore.jobs.netflix.net/careers/job/790302428910",
       "https://explore.jobs.netflix.net/careers/job/790312348360",
       "https://explore.jobs.netflix.net/careers/job/790312348360?microsite=vansh.nyc",
       "https://explore.jobs.netflix.net/careers/job/790313241540",
       "https://explore.jobs.netflix.net/careers/job/790313344084-security-technical-program-manager-intern-summer-2026--los-gatos-california-united-states-of-america?domain=netflix.com&microsite=netflix.com",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
-      "https://explore.jobs.netflix.net/careers/job/790316452720",
-      "https://explore.jobs.netflix.net/careers/job/790316455998",
-      "https://explore.jobs.netflix.net/careers/job/790316431938",
-      "https://explore.jobs.netflix.net/careers/job/790316327790",
+      "https://explore.jobs.netflix.net/careers/job/790316013073",
+      "https://explore.jobs.netflix.net/careers/job/790316022866",
+      "https://explore.jobs.netflix.net/careers/job/790316057378",
+      "https://explore.jobs.netflix.net/careers/job/790316068391",
+      "https://explore.jobs.netflix.net/careers/job/790316090485",
+      "https://explore.jobs.netflix.net/careers/job/790316163661",
+      "https://explore.jobs.netflix.net/careers/job/790316165312",
+      "https://explore.jobs.netflix.net/careers/job/790316208627",
+      "https://explore.jobs.netflix.net/careers/job/790316232372",
+      "https://explore.jobs.netflix.net/careers/job/790316292023",
       "https://explore.jobs.netflix.net/careers/job/790316305359",
       "https://explore.jobs.netflix.net/careers/job/790316306211",
-      "https://explore.jobs.netflix.net/careers/job/790316292023",
-      "https://explore.jobs.netflix.net/careers/job/790316232372",
-      "https://explore.jobs.netflix.net/careers/job/790316208627",
-      "https://explore.jobs.netflix.net/careers/job/790302428910",
-      "https://explore.jobs.netflix.net/careers/job/790316165312",
-      "https://explore.jobs.netflix.net/careers/job/790316163661",
-      "https://explore.jobs.netflix.net/careers/job/790316090485",
-      "https://explore.jobs.netflix.net/careers/job/790316068391",
-      "https://explore.jobs.netflix.net/careers/job/790316057378",
-      "https://explore.jobs.netflix.net/careers/job/790316022866",
-      "https://explore.jobs.netflix.net/careers/job/790316013073"
+      "https://explore.jobs.netflix.net/careers/job/790316327790",
+      "https://explore.jobs.netflix.net/careers/job/790316431938",
+      "https://explore.jobs.netflix.net/careers/job/790316452720",
+      "https://explore.jobs.netflix.net/careers/job/790316455998",
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
     ]
   },
   {
@@ -15516,7 +15518,9 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Virginia---Washington-DC-Metro---Remote/SRE-Systems-Engineer_JR341343",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/EVP--COO--Salesforce-Platform_JR345543",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineer-MTS---Automation---MuleSoft-Agentic-Cloud-Services_JR345537",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-LMTS---Tableau_JR327543",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341"
     ]
   },
   {
