@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../index";
@@ -101,6 +102,7 @@ function extractJobPostingFromLdJson(raw: string): string | null {
     const location = extractLocation(obj.jobLocation);
     const employmentType = getString(obj.employmentType);
     const datePosted = getString(obj.datePosted);
+    const qualifications = getString(obj.qualifications);
 
     return `
 Title:
@@ -117,6 +119,9 @@ ${datePosted}
 
 Description:
 ${description}
+
+Qualifications:
+${qualifications}
 `;
   } catch {
     return null;
@@ -194,7 +199,10 @@ function extractFallbackJD(html: string): string | null {
   return normalizeRawText(limitRawText(extractRelevantWindow(bodyText)));
 }
 
-export async function fetchCustomJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+export async function fetchCustomJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
   const res = await fetch(url, {
     signal,
     headers: {

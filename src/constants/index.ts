@@ -13,6 +13,7 @@ const parsedConfig = ConfigSchema.parse(config);
 export const DATA_PATH = path.join(process.cwd(), "data");
 export const URLS_PATH = path.join(DATA_PATH, "urls.json");
 export const JOB_PATH = path.join(DATA_PATH, "jobs.ndjson");
+export const OPPORTUNITIES_PATH = path.join(DATA_PATH, "opportunities.ndjson");
 export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
@@ -78,3 +79,5 @@ export const SOURCES: Source[] = [
     disabled: !CONFIG.target?.["full-time"]?.includes(JobCategory.ENTRY_LEVEL),
   },
 ];
+
+export const ABORT_SIGNAL = AbortSignal.timeout(5 * 60 * 1000);

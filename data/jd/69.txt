@@ -1,4 +1,0 @@
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KSMDT5"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>
-<br><p style="text-align: center;"><span style="color: #808080;"><a style="color: #808080;" href="https://ii-vi.com/legal/" target="new">Legal</a> I <a style="color: #808080;" href="https://ii-vi.com/privacy/" target="new">Privacy</a> I <a style="color: #808080;" href="https://ii-vi.com/cookies/" target="new">Cookies</a> </span></p><br>
-<div id="teconsent"></div>

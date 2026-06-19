@@ -14,3 +14,4 @@ node_modules/
 package-lock.json
 
 preview.html
+.DS_Store

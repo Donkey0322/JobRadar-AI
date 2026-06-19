@@ -1,7 +1,14 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-import { COMPANY_PATH, ERROR_LOG_PATH, JD_PATH, JOB_PATH, URLS_PATH } from "@/constants";
+import {
+  COMPANY_PATH,
+  ERROR_LOG_PATH,
+  JD_PATH,
+  JOB_PATH,
+  OPPORTUNITIES_PATH,
+  URLS_PATH,
+} from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
@@ -92,6 +99,12 @@ export async function saveJob(jobs: Job[]) {
   if (jobs.length === 0) return;
   const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
   await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
+}
+
+export async function saveOpportunities(opportunities: Job[]) {
+  if (opportunities.length === 0) return;
+  const lines = opportunities.map((opportunity) => JSON.stringify(opportunity)).join("\n");
+  await fs.appendFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
 }
 
 export async function loadCompanies(): Promise<Company[]> {
