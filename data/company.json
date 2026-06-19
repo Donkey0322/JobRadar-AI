@@ -41,6 +41,16 @@
     "urls": []
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4675949006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -486,7 +496,6 @@
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
-      "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -5215,6 +5224,18 @@
     ]
   },
   {
+    "name": "corp",
+    "ats": "greenhouse",
+    "identifier": "corp",
+    "domain": "http://corp.skillz.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
+  },
+  {
     "name": "corpay",
     "ats": "workday",
     "identifier": "corpay-ext_001",
@@ -5557,13 +5578,13 @@
     "domain": "https://www.d2l.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/d2l/jobs",
     "urls": [
+      "https://www.d2l.com/careers/jobs/?job_id=260466&gh_jid=260466",
+      "https://www.d2l.com/careers/jobs/?job_id=5645528&gh_jid=5645528",
+      "https://www.d2l.com/careers/jobs/?job_id=7455458&gh_jid=7455458",
+      "https://www.d2l.com/careers/jobs/?job_id=7766608&gh_jid=7766608",
       "https://www.d2l.com/careers/jobs/?job_id=7890146&gh_jid=7890146",
       "https://www.d2l.com/careers/jobs/?job_id=7991317&gh_jid=7991317",
-      "https://www.d2l.com/careers/jobs/?job_id=8018400&gh_jid=8018400",
-      "https://www.d2l.com/careers/jobs/?job_id=5645528&gh_jid=5645528",
-      "https://www.d2l.com/careers/jobs/?job_id=260466&gh_jid=260466",
-      "https://www.d2l.com/careers/jobs/?job_id=7766608&gh_jid=7766608",
-      "https://www.d2l.com/careers/jobs/?job_id=7455458&gh_jid=7455458"
+      "https://www.d2l.com/careers/jobs/?job_id=8018400&gh_jid=8018400"
     ]
   },
   {
@@ -5911,16 +5932,6 @@
     "domain": "https://www.dmgmedia.co.uk",
     "page": "https://boards-api.greenhouse.io/v1/boards/dmgmedia/jobs",
     "urls": []
-  },
-  {
-    "name": "DNV careers",
-    "ats": "oraclecloud",
-    "identifier": "ecyq.fa.em2.oraclecloud.com",
-    "domain": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"
-    ]
   },
   {
     "name": "docugami",
@@ -6336,6 +6347,16 @@
     "urls": []
   },
   {
+    "name": "ecyq.fa.em2.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "ecyq.fa.em2.oraclecloud.com",
+    "domain": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"
+    ]
+  },
+  {
     "name": "edel.fa.us2.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "edel.fa.us2.oraclecloud.com",
@@ -6561,6 +6582,18 @@
     "domain": "https://ekgn.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
     "page": "https://ekgn.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": []
+  },
+  {
+    "name": "ekmu.fa.em3.oraclecloud.com",
+    "ats": "oraclecloud",
+    "identifier": "ekmu.fa.em3.oraclecloud.com",
+    "domain": "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job",
+    "page": "https://ekmu.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_6009%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23431",
+      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23484",
+      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23563"
+    ]
   },
   {
     "name": "elanco",
@@ -7519,18 +7552,6 @@
     ]
   },
   {
-    "name": "Fife Council Jobs and Careers",
-    "ats": "oraclecloud",
-    "identifier": "ekmu.fa.em3.oraclecloud.com",
-    "domain": "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job",
-    "page": "https://ekmu.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_6009%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23431",
-      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23484",
-      "https://ekmu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6009/job/23563"
-    ]
-  },
-  {
     "name": "fifththird",
     "ats": "workday",
     "identifier": "fifththird-53careers",
@@ -8131,7 +8152,8 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000131916529",
       "https://jobs.smartrecruiters.com/GDMSI/744000131919005",
       "https://jobs.smartrecruiters.com/GDMSI/744000133061144",
-      "https://jobs.smartrecruiters.com/GDMSI/744000133102941"
+      "https://jobs.smartrecruiters.com/GDMSI/744000133102941",
+      "https://jobs.smartrecruiters.com/GDMSI/744000133125725"
     ]
   },
   {
@@ -8446,7 +8468,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Unclassified-System-Administrator-McKinney--Texas_01851832",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/XMLNAME-2026-Raytheon-Full-Time---Software-Engineer-I---McKinney--TX--Onsite-_01853473",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Information-System-Security-Officer--Onsite-_01853674",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-FULTON-8170--8170-Maple-Lawn-Blvd--MAPLE-LAWN-Ste-190-200--300/Software-Engineer-1--Onsite-_01853876"
     ]
   },
   {
@@ -8508,8 +8531,8 @@
     "domain": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
-      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260271",
-      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1901"
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1901",
+      "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260271"
     ]
   },
   {
@@ -11406,11 +11429,11 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/lgelectronics/jobs",
     "urls": [
+      "https://job-boards.greenhouse.io/lgelectronics/jobs/4946382008",
       "https://job-boards.greenhouse.io/lgelectronics/jobs/5174223008",
       "https://job-boards.greenhouse.io/lgelectronics/jobs/5253923008",
       "https://job-boards.greenhouse.io/lgelectronics/jobs/5255339008",
-      "https://job-boards.greenhouse.io/lgelectronics/jobs/5257778008",
-      "https://job-boards.greenhouse.io/lgelectronics/jobs/4946382008"
+      "https://job-boards.greenhouse.io/lgelectronics/jobs/5257778008"
     ]
   },
   {
@@ -15379,7 +15402,8 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Virginia---Washington-DC-Metro---Remote/SRE-Systems-Engineer_JR341343",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/EVP--COO--Salesforce-Platform_JR345543",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineer-MTS---Automation---MuleSoft-Agentic-Cloud-Services_JR345537",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-SMTS_JR347007"
     ]
   },
   {
@@ -16042,11 +16066,7 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
-    ]
+    "urls": []
   },
   {
     "name": "skydio",
@@ -17406,9 +17426,9 @@
     "domain": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
     "page": "https://edbz.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25000416",
       "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25008815",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25011161",
-      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25000416"
+      "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25011161"
     ]
   },
   {
@@ -17761,7 +17781,12 @@
       "https://lifeattiktok.com/search/7647101516500093237",
       "https://lifeattiktok.com/search/7647270216692697349",
       "https://lifeattiktok.com/search/7649673091993454853",
-      "https://lifeattiktok.com/search/7650128118558722309"
+      "https://lifeattiktok.com/search/7650128118558722309",
+      "https://lifeattiktok.com/search/7096341397926938893",
+      "https://lifeattiktok.com/search/7317741501873490227",
+      "https://lifeattiktok.com/search/7382072275850266907",
+      "https://lifeattiktok.com/search/7605475214691928373",
+      "https://lifeattiktok.com/search/7601028768589826357"
     ]
   },
   {
