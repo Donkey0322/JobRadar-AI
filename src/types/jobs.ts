@@ -23,3 +23,7 @@ export interface Job {
   jd?: JD | null;
   location: string;
 }
+
+export interface Opportunity extends Job {
+  postedAt: string;
+}

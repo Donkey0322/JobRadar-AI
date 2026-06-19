@@ -1,6 +1,7 @@
 import pLimit from "p-limit";
 
 import type { Job } from "@/types";
+import type { Opportunity } from "@/types/jobs";
 
 import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
@@ -73,14 +74,14 @@ export async function processJobs({
   }
 
   let newUrlAdded = false;
-  const opportunities: Job[] = [];
+  const opportunities: Opportunity[] = [];
 
   function markAsSeen(job: Job) {
     const key = getJobKey(job.link);
 
     urls.add(job.link);
     keys.add(key);
-    opportunities.push(job);
+    opportunities.push({ ...job, postedAt: new Date().toISOString() });
     newUrlAdded = true;
   }
 
