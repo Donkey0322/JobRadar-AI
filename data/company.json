@@ -3414,7 +3414,8 @@
     "page": "https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/capital_one/jobs",
     "urls": [
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R236833",
-      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R237204"
+      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R237204",
+      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R243795"
     ]
   },
   {
@@ -6451,7 +6452,8 @@
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273701",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273801",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273832",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20274209"
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20274209",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20258835"
     ]
   },
   {
@@ -7312,7 +7314,8 @@
     "page": "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9366",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926"
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9766"
     ]
   },
   {
@@ -7818,16 +7821,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/flyzipline/jobs",
     "urls": [
       "https://www.zipline.com/careers?gh_jid=4359084003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=6570283003#open-roles",
       "https://www.zipline.com/careers?gh_jid=7516682003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7564211003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7607673003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=6570283003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=7765198003#open-roles",
       "https://www.zipline.com/careers?gh_jid=7616582003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=7765240003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=7767667003#open-roles",
+      "https://www.zipline.com/careers?gh_jid=7607673003#open-roles",
       "https://www.zipline.com/careers?gh_jid=7703718003#open-roles",
       "https://www.zipline.com/careers?gh_jid=7747190003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7765198003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7765240003#open-roles",
-      "https://www.zipline.com/careers?gh_jid=7767667003#open-roles"
+      "https://www.zipline.com/careers?gh_jid=7564211003#open-roles"
     ]
   },
   {
@@ -11807,7 +11810,8 @@
     "urls": [
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Test-Automation-Engineer--Optical-Testing---Calibration-_20251739-1",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/IT-System-Engineer---6-months-contract-_2026765",
-      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/System-Engineer_2026832-1"
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/System-Engineer_2026832-1",
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Software-Verification-Engineer_2026490"
     ]
   },
   {

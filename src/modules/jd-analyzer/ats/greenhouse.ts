@@ -1,3 +1,4 @@
+import { ABORT_SIGNAL } from "@/constants";
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 
 import type { JDFetchResult } from "./fetch";
@@ -29,7 +30,10 @@ export async function parseGreenhouse(url: string) {
   return null;
 }
 
-export async function fetchGreenhouseJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+export async function fetchGreenhouseJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
   const parsed = await parseGreenhouse(url);
   if (!parsed) {
     return { jd: null, error: JD_FETCH_ERROR.invalidUrl("Invalid Greenhouse URL") };
