@@ -15,19 +15,69 @@ interface OracleCloudJob {
   PrimaryLocation: string;
 }
 
-export function urlToOracleCloudCompany(url: URL): Company {
+const identifierMap: Record<string, string> = {
+  "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com": "Chubb",
+};
+
+export async function getSiteSettings(url: URL) {
+  const parts = url.pathname.split("/").filter(Boolean);
+
+  const candidateExperienceIndex = parts.indexOf("CandidateExperience");
+  const sitesIndex = parts.indexOf("sites");
+
+  if (candidateExperienceIndex === -1 || sitesIndex === -1) {
+    throw new Error("Invalid Oracle CandidateExperience job URL");
+  }
+
+  const lang = parts[candidateExperienceIndex + 1];
+  const siteNumber = parts[sitesIndex + 1];
+
+  if (!lang || !siteNumber) {
+    throw new Error("Missing language or site number");
+  }
+
+  const apiUrl = `${url.origin}/hcmRestApi/CandidateExperience/${lang}/siteSettings/${siteNumber}`;
+
+  try {
+    const res = await fetch(apiUrl);
+    const data = await res.json();
+    return { companyName: data.app.siteName as string, siteNumber };
+  } catch {
+    return {
+      companyName: identifierMap[url.hostname] ?? (url.hostname.replace("www.", "") as string),
+      siteNumber,
+    };
+  }
+}
+
+export async function urlToOracleCloudCompany(url: URL): Promise<Company> {
+  const { companyName, siteNumber } = await getSiteSettings(url);
   const identifier = url.hostname.replace("www.", "");
 
   const parts = url.pathname.split("/");
   parts.pop();
   const path = parts.join("/");
 
+  const page = new URL(`${url.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitions`);
+
+  page.searchParams.set("onlyData", "true");
+
+  page.searchParams.set(
+    "finder",
+    [`findReqs;siteNumber=${siteNumber}`, "limit=25", "sortBy=POSTING_DATES_DESC"].join(",")
+  );
+
+  page.searchParams.set(
+    "expand",
+    ["requisitionList.secondaryLocations", "requisitionList.otherWorkLocations"].join(",")
+  );
+
   return {
-    name: identifier,
+    name: companyName,
     ats: "oraclecloud",
     identifier,
     domain: url.origin + path,
-    page: `${url.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC`,
+    page: page.href,
     urls: [],
   };
 }
@@ -60,21 +110,7 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>, sign
       return [];
     }
 
-    let companyName: string = company.name;
-
     const firstItem = data.items[0];
-    const organization = firstItem?.organizationsFacet;
-
-    if (organization?.length > 0) {
-      const organizationName = organization.find(
-        (organization: { Id: number }) => organization.Id === 1
-      )?.Name;
-      if (organizationName) {
-        companyName = organizationName;
-      } else {
-        companyName = organization[0]?.Name;
-      }
-    }
 
     const requisitionList = firstItem?.requisitionList;
 
@@ -99,7 +135,7 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>, sign
     );
 
     return jobs.map((job) => ({
-      company: capitalize(companyName),
+      company: capitalize(company.name),
       role: job.Title,
       link: composeUrl(company, job.Id),
       location: job.PrimaryLocation ?? "",

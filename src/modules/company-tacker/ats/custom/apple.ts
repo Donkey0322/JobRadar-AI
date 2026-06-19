@@ -49,7 +49,6 @@ export function parseAppleJobs(html: string): AppleJob[] {
     const location =
       normalizeText(card.find(".table--advanced-search__location-sub").first().text()) || null;
 
-    // Jun 15, 2026
     const postedAt = normalizeText(card.find(".job-posted-date").first().text()) || null;
     const postedAtDate = new Date(postedAt ?? "");
     const currentDate = new Date(getToday());

@@ -41,7 +41,7 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
       case "icims":
         return urlToIcimsCompany(url);
       case "oraclecloud":
-        return urlToOracleCloudCompany(url);
+        return await urlToOracleCloudCompany(url);
       case "custom":
         return urlToCustomCompany(url);
       default:

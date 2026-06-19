@@ -30,7 +30,6 @@ async function main() {
   const categoryOrder = buildCategoryOrder(CONFIG);
 
   const filtered = opportunities
-    // 反方向：opportunities.ndjson 最後一行在 README 最上面
     .reverse()
     .filter((job) => isRenderableOpportunity(job))
     .filter((job) => {
@@ -276,7 +275,6 @@ function formatJobBadges(jd?: JD | null): string {
     badges.push(BADGE_NO_SPONSORSHIP);
   }
 
-  // citizen / sponsor badge 同一行
   return badges.join(" ");
 }
 
