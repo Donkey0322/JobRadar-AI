@@ -17,6 +17,7 @@ interface OracleCloudJob {
 
 const identifierMap: Record<string, string> = {
   "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com": "Chubb",
+  "ekaw.fa.us2.oraclecloud.com": "Securitas",
 };
 
 export async function getSiteSettings(url: URL) {
