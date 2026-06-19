@@ -24,8 +24,6 @@ function getFirstObject(value: unknown): Record<string, unknown> | null {
 }
 
 function decodeJsStringLiteral(raw: string, quote: string): string {
-  // Apple 是 JSON.parse('...')，這裡只把 JS string literal decode 成真正 JSON 字串
-  // 不執行頁面 script，只 decode 這個 string argument
   return Function(`"use strict"; return ${quote}${raw}${quote};`)();
 }
 
@@ -40,7 +38,6 @@ function parseAppleHydrationData(html: string): unknown | null {
     const quote = match[1];
     const raw = match[2];
 
-    // 有些情況 raw 本身就是 JSON，有些是 JS string literal escape 過
     try {
       return JSON.parse(raw);
     } catch {
