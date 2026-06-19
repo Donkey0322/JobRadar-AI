@@ -158,7 +158,9 @@
     "identifier": "acadianassetmanagementllc",
     "domain": "https://www.acadian-asset.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/acadianassetmanagementllc/jobs",
-    "urls": ["https://www.acadian-asset.com/careers/open-positions?gh_jid=4688297006"]
+    "urls": [
+      "https://www.acadian-asset.com/careers/open-positions?gh_jid=4688297006"
+    ]
   },
   {
     "name": "AccelLearning",
@@ -239,7 +241,9 @@
     "identifier": "achievers",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/achievers?mode=json",
-    "urls": ["https://jobs.lever.co/achievers/c4270a5b-a449-4613-b958-6e4137dd344a"]
+    "urls": [
+      "https://jobs.lever.co/achievers/c4270a5b-a449-4613-b958-6e4137dd344a"
+    ]
   },
   {
     "name": "acluinternships",
@@ -472,8 +476,6 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/affirm/jobs/7485068003",
-      "https://job-boards.greenhouse.io/affirm/jobs/7710970003",
-      "https://job-boards.greenhouse.io/affirm/jobs/7710972003",
       "https://job-boards.greenhouse.io/affirm/jobs/7712707003",
       "https://job-boards.greenhouse.io/affirm/jobs/7726627003"
     ]
@@ -492,7 +494,9 @@
     "identifier": "airbnb",
     "domain": "https://careers.airbnb.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
-    "urls": ["https://careers.airbnb.com/positions/7716341?gh_jid=7716341"]
+    "urls": [
+      "https://careers.airbnb.com/positions/7716341?gh_jid=7716341"
+    ]
   },
   {
     "name": "airliquidehr",
@@ -558,7 +562,9 @@
     "identifier": "aledade",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/aledade?mode=json",
-    "urls": ["https://jobs.lever.co/aledade/7f1cf7fc-6929-4215-9eae-cd51e391f73e"]
+    "urls": [
+      "https://jobs.lever.co/aledade/7f1cf7fc-6929-4215-9eae-cd51e391f73e"
+    ]
   },
   {
     "name": "alku",
@@ -707,7 +713,9 @@
     "identifier": "altruist",
     "domain": "https://altruist.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/altruist/jobs",
-    "urls": ["https://altruist.com/join-altruist/5790958004?gh_jid=5790958004"]
+    "urls": [
+      "https://altruist.com/join-altruist/5790958004?gh_jid=5790958004"
+    ]
   },
   {
     "name": "altruist.com",
@@ -1325,7 +1333,9 @@
     "identifier": "Aprio",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/Aprio?mode=json",
-    "urls": ["https://jobs.lever.co/Aprio/9e6ecbf0-3945-4d49-a8bd-ae70e9caba4b/apply"]
+    "urls": [
+      "https://jobs.lever.co/Aprio/9e6ecbf0-3945-4d49-a8bd-ae70e9caba4b/apply"
+    ]
   },
   {
     "name": "aptiv",
@@ -1388,7 +1398,9 @@
     "identifier": "arcesiumllc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/arcesiumllc/jobs",
-    "urls": ["https://job-boards.greenhouse.io/arcesiumllc/jobs/5112397007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/arcesiumllc/jobs/5112397007"
+    ]
   },
   {
     "name": "archer56",
@@ -1443,7 +1455,9 @@
     "identifier": "arine",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/arine/jobs",
-    "urls": ["https://job-boards.greenhouse.io/arine/jobs/6026856004"]
+    "urls": [
+      "https://job-boards.greenhouse.io/arine/jobs/6026856004"
+    ]
   },
   {
     "name": "arlo",
@@ -1666,7 +1680,9 @@
     "identifier": "asteraearlycareer2026",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/asteraearlycareer2026/jobs",
-    "urls": ["https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005"]
+    "urls": [
+      "https://job-boards.greenhouse.io/asteraearlycareer2026/jobs/4562833005"
+    ]
   },
   {
     "name": "astranis",
@@ -1693,7 +1709,9 @@
     "identifier": "astronomer",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/astronomer",
-    "urls": ["https://jobs.ashbyhq.com/astronomer/24262c87-1c1e-4815-b008-854f921450a8/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/astronomer/24262c87-1c1e-4815-b008-854f921450a8/application"
+    ]
   },
   {
     "name": "athenahealth",
@@ -1801,7 +1819,9 @@
     "identifier": "auctane",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/auctane/jobs",
-    "urls": ["https://job-boards.greenhouse.io/auctane/jobs/7746499003"]
+    "urls": [
+      "https://job-boards.greenhouse.io/auctane/jobs/7746499003"
+    ]
   },
   {
     "name": "auctor",
@@ -1809,7 +1829,9 @@
     "identifier": "auctor",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/auctor",
-    "urls": ["https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/auctor/9d67c881-3ca7-4616-a059-e94c03e19607/application"
+    ]
   },
   {
     "name": "Authorium",
@@ -1817,7 +1839,9 @@
     "identifier": "Authorium",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Authorium",
-    "urls": ["https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/Authorium/e9384068-af40-47b2-83cf-ec76fd8b7222/application"
+    ]
   },
   {
     "name": "autodesk",
@@ -1938,7 +1962,9 @@
     "identifier": "awardco",
     "domain": "https://award.co",
     "page": "https://boards-api.greenhouse.io/v1/boards/awardco/jobs",
-    "urls": ["https://award.co/position?gh_jid=5856737004"]
+    "urls": [
+      "https://award.co/position?gh_jid=5856737004"
+    ]
   },
   {
     "name": "axiomspace",
@@ -1985,7 +2011,9 @@
     "identifier": "axway",
     "domain": "https://careers-axway.icims.com",
     "page": "https://api.icims.com/v1/companies/axway/jobs",
-    "urls": ["https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"]
+    "urls": [
+      "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"
+    ]
   },
   {
     "name": "babelstreet",
@@ -1993,7 +2021,9 @@
     "identifier": "babelstreet",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/babelstreet/jobs",
-    "urls": ["https://job-boards.greenhouse.io/babelstreet/jobs/8008713"]
+    "urls": [
+      "https://job-boards.greenhouse.io/babelstreet/jobs/8008713"
+    ]
   },
   {
     "name": "badgermeter",
@@ -2199,7 +2229,9 @@
     "identifier": "barkbackLlc",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/barkbackLlc/postings",
-    "urls": ["https://jobs.smartrecruiters.com/barkbackLlc/90864007"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/barkbackLlc/90864007"
+    ]
   },
   {
     "name": "barr",
@@ -2401,7 +2433,9 @@
     "identifier": "beyondsoft",
     "domain": "https://careers-beyondsoft.icims.com",
     "page": "https://api.icims.com/v1/companies/beyondsoft/jobs",
-    "urls": ["https://careers-beyondsoft.icims.com/jobs/10912/job?mobile=true&needsRedirect=false"]
+    "urls": [
+      "https://careers-beyondsoft.icims.com/jobs/10912/job?mobile=true&needsRedirect=false"
+    ]
   },
   {
     "name": "bhvr",
@@ -2506,7 +2540,9 @@
     "identifier": "Blinqlabs",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Blinqlabs/postings",
-    "urls": ["https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/Blinqlabs/743999734120603"
+    ]
   },
   {
     "name": "block",
@@ -2537,7 +2573,9 @@
     "identifier": "block.xyz",
     "domain": "https://block.xyz",
     "page": "",
-    "urls": ["https://block.xyz/careers/jobs/4904196008"]
+    "urls": [
+      "https://block.xyz/careers/jobs/4904196008"
+    ]
   },
   {
     "name": "bloomenergy",
@@ -2574,7 +2612,9 @@
     "identifier": "bluestaq",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/bluestaq/jobs",
-    "urls": ["https://job-boards.greenhouse.io/bluestaq/jobs/4244591009"]
+    "urls": [
+      "https://job-boards.greenhouse.io/bluestaq/jobs/4244591009"
+    ]
   },
   {
     "name": "bmc",
@@ -2906,7 +2946,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000133033644",
       "https://jobs.smartrecruiters.com/BoschGroup/744000133047660",
       "https://jobs.smartrecruiters.com/BoschGroup/744000133047891",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000133050004"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000133050004",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000133103489"
     ]
   },
   {
@@ -2953,7 +2994,9 @@
     "identifier": "botauto",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/botauto/jobs",
-    "urls": ["https://job-boards.greenhouse.io/botauto/jobs/5054996008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/botauto/jobs/5054996008"
+    ]
   },
   {
     "name": "boxinc",
@@ -2964,7 +3007,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/boxinc/jobs/7762783",
       "https://job-boards.greenhouse.io/boxinc/jobs/7862815",
-      "https://job-boards.greenhouse.io/boxinc/jobs/7909448"
+      "https://job-boards.greenhouse.io/boxinc/jobs/7909448",
+      "https://job-boards.greenhouse.io/boxinc/jobs/7794037"
     ]
   },
   {
@@ -3084,7 +3128,9 @@
     "identifier": "bugcrowd",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/bugcrowd/jobs",
-    "urls": ["https://boards.greenhouse.io/bugcrowd/jobs/8016582"]
+    "urls": [
+      "https://boards.greenhouse.io/bugcrowd/jobs/8016582"
+    ]
   },
   {
     "name": "businessolverinvitationonly",
@@ -3369,8 +3415,7 @@
     "page": "https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/capital_one/jobs",
     "urls": [
       "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R236833",
-      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R237204",
-      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/Toronto-ON/Associate--Software-Engineer--New-Grad-Card-Expansion_R243795"
+      "https://capitalone.wd12.myworkdayjobs.com/capital_one/job/New-York-NY/Applied-Researcher-I--AI-Foundations-_R237204"
     ]
   },
   {
@@ -3379,7 +3424,9 @@
     "identifier": "capitalrx",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/capitalrx/jobs",
-    "urls": ["https://job-boards.greenhouse.io/capitalrx/jobs/5257358008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/capitalrx/jobs/5257358008"
+    ]
   },
   {
     "name": "capitaltg",
@@ -3849,7 +3896,9 @@
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
     "page": "",
-    "urls": ["https://careers.itw.com/global/en/job/JR4585"]
+    "urls": [
+      "https://careers.itw.com/global/en/job/JR4585"
+    ]
   },
   {
     "name": "careers.kodak.com",
@@ -3917,7 +3966,9 @@
     "identifier": "careers.medpace.com",
     "domain": "https://careers.medpace.com",
     "page": "",
-    "urls": ["https://careers.medpace.com/jobs/12766?lang=en-us&icims=1"]
+    "urls": [
+      "https://careers.medpace.com/jobs/12766?lang=en-us&icims=1"
+    ]
   },
   {
     "name": "careers.merzaesthetics.com",
@@ -4149,7 +4200,9 @@
     "identifier": "careers.staples.com",
     "domain": "https://careers.staples.com",
     "page": "",
-    "urls": ["https://careers.staples.com/en/job/-/-/44412/86032290864"]
+    "urls": [
+      "https://careers.staples.com/en/job/-/-/44412/86032290864"
+    ]
   },
   {
     "name": "careers.thredup.com",
@@ -4173,7 +4226,9 @@
     "identifier": "careers.tranetechnologies.com",
     "domain": "https://careers.tranetechnologies.com",
     "page": "",
-    "urls": ["https://careers.tranetechnologies.com/global/en/job/92601996"]
+    "urls": [
+      "https://careers.tranetechnologies.com/global/en/job/92601996"
+    ]
   },
   {
     "name": "careers.tsmc.com",
@@ -4481,7 +4536,9 @@
     "identifier": "cgi.njoyn.com",
     "domain": "https://cgi.njoyn.com",
     "page": "",
-    "urls": ["https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0825-1620"]
+    "urls": [
+      "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J0825-1620"
+    ]
   },
   {
     "name": "chamberlain",
@@ -4545,7 +4602,9 @@
     "identifier": "cibc-campus",
     "domain": "https://cibc.wd3.myworkdayjobs.com/campus",
     "page": "https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/campus/jobs",
-    "urls": ["https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Data-Analyst-Co-op_2611947"]
+    "urls": [
+      "https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Data-Analyst-Co-op_2611947"
+    ]
   },
   {
     "name": "cibc",
@@ -4556,7 +4615,8 @@
     "urls": [
       "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Sr-Software-Engineer_2607978",
       "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Consultant--Information-Security_2612904",
-      "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/DevOps-Consultant--Application-Development_2612401"
+      "https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/DevOps-Consultant--Application-Development_2612401",
+      "https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/Sr-Software-Engineer--Net-Azure-Databricks-_2609019"
     ]
   },
   {
@@ -4587,7 +4647,9 @@
     "identifier": "cirrus",
     "domain": "https://jobs.eu.lever.co",
     "page": "https://api.eu.lever.co/v0/postings/cirrus?mode=json",
-    "urls": ["https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply"]
+    "urls": [
+      "https://jobs.eu.lever.co/cirrus/103a6cd2-74ef-495f-ab73-9a56dab653cd/apply"
+    ]
   },
   {
     "name": "cisco",
@@ -4670,7 +4732,9 @@
     "identifier": "clear",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/clear/jobs",
-    "urls": ["https://job-boards.greenhouse.io/clear/jobs/7901600"]
+    "urls": [
+      "https://job-boards.greenhouse.io/clear/jobs/7901600"
+    ]
   },
   {
     "name": "clearwateranalytics",
@@ -4793,7 +4857,9 @@
     "identifier": "codalinc",
     "domain": "http://codal.jobs",
     "page": "https://boards-api.greenhouse.io/v1/boards/codalinc/jobs",
-    "urls": ["http://codal.jobs?gh_jid=5233970008"]
+    "urls": [
+      "http://codal.jobs?gh_jid=5233970008"
+    ]
   },
   {
     "name": "Codeage",
@@ -4801,7 +4867,9 @@
     "identifier": "Codeage",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Codeage/postings",
-    "urls": ["https://jobs.smartrecruiters.com/Codeage/743999669081604"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/Codeage/743999669081604"
+    ]
   },
   {
     "name": "cogeco",
@@ -4877,7 +4945,9 @@
     "identifier": "collective",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/collective",
-    "urls": ["https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/collective/40516856-b29c-4b38-b434-68be5241bacf/application"
+    ]
   },
   {
     "name": "comcast",
@@ -4971,7 +5041,9 @@
     "identifier": "constantcontact",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/constantcontact/jobs",
-    "urls": ["https://job-boards.greenhouse.io/constantcontact/jobs/7974629"]
+    "urls": [
+      "https://job-boards.greenhouse.io/constantcontact/jobs/7974629"
+    ]
   },
   {
     "name": "constructionresources",
@@ -4987,7 +5059,9 @@
     "identifier": "context",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/context",
-    "urls": ["https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/context/1c657ebf-3842-4ca4-ab55-54ffaf1e49d8/application"
+    ]
   },
   {
     "name": "cooperstandard",
@@ -5197,7 +5271,9 @@
     "identifier": "creatify",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/creatify",
-    "urls": ["https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/creatify/75a1f1ad-13d2-4513-952c-71b6dfcaa84f/application"
+    ]
   },
   {
     "name": "creditacceptance",
@@ -5361,7 +5437,6 @@
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IRL---Galway/Software-Development-Engineer_R0854683",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/MI---Work-from-home/Software-Development-Engineer_R0929697-1",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NJ---Work-from-home/Digital-Provider-Software-Development-Engineer_R0936153",
-      "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/PA---Wilkes-Barre/Automation-I--Canister-Calibration_R0943958",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/Software-Development-Engineer_R0947650",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Dallas/Software-Development-Engineer_R0907448",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Fort-Worth/Pharmacy-Automation-Mechanic--Omnicare_R0919051-1",
@@ -5375,7 +5450,9 @@
     "identifier": "cypresscreekrenewables",
     "domain": "https://ccrenew.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/cypresscreekrenewables/jobs",
-    "urls": ["https://ccrenew.com/careers/job-listing/?gh_jid=7948197"]
+    "urls": [
+      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197"
+    ]
   },
   {
     "name": "d-Matrix",
@@ -5430,7 +5507,9 @@
     "identifier": "dandy",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dandy",
-    "urls": ["https://jobs.ashbyhq.com/dandy/d05aa4b4-96c1-405e-a777-f6504c149ca9"]
+    "urls": [
+      "https://jobs.ashbyhq.com/dandy/d05aa4b4-96c1-405e-a777-f6504c149ca9"
+    ]
   },
   {
     "name": "darkwolfsolutions",
@@ -5477,7 +5556,9 @@
     "identifier": "db.recsolu.com",
     "domain": "https://db.recsolu.com",
     "page": "",
-    "urls": ["https://db.recsolu.com/external/requisitions/Bw7mjFK6IZkEJB1Wtse0YA"]
+    "urls": [
+      "https://db.recsolu.com/external/requisitions/Bw7mjFK6IZkEJB1Wtse0YA"
+    ]
   },
   {
     "name": "decagon",
@@ -5485,7 +5566,9 @@
     "identifier": "decagon",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/decagon",
-    "urls": ["https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212"]
+    "urls": [
+      "https://jobs.ashbyhq.com/decagon/3a68de82-c874-4cd2-b639-17948748e212"
+    ]
   },
   {
     "name": "delinea",
@@ -5493,7 +5576,9 @@
     "identifier": "delinea",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/delinea",
-    "urls": ["https://jobs.ashbyhq.com/delinea/7e7ce2a9-5057-45b3-b413-85e5b6353b29"]
+    "urls": [
+      "https://jobs.ashbyhq.com/delinea/7e7ce2a9-5057-45b3-b413-85e5b6353b29"
+    ]
   },
   {
     "name": "deliveroo",
@@ -5616,7 +5701,9 @@
     "identifier": "digitalocean98",
     "domain": "https://www.digitalocean.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/digitalocean98/jobs",
-    "urls": ["https://www.digitalocean.com/careers/position/apply/?gh_jid=7776000"]
+    "urls": [
+      "https://www.digitalocean.com/careers/position/apply/?gh_jid=7776000"
+    ]
   },
   {
     "name": "diligentcorporation",
@@ -5769,7 +5856,9 @@
     "identifier": "doordashcanada",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/doordashcanada/jobs",
-    "urls": ["https://job-boards.greenhouse.io/doordashcanada/jobs/8016800"]
+    "urls": [
+      "https://job-boards.greenhouse.io/doordashcanada/jobs/8016800"
+    ]
   },
   {
     "name": "doordashusa",
@@ -5809,7 +5898,9 @@
     "identifier": "doubleverify",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/doubleverify/jobs",
-    "urls": ["https://job-boards.greenhouse.io/doubleverify/jobs/8452605002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8452605002"
+    ]
   },
   {
     "name": "dowjones",
@@ -5949,7 +6040,9 @@
     "identifier": "dryft",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/dryft",
-    "urls": ["https://jobs.ashbyhq.com/dryft/3f1c261d-9b65-412b-9f17-34b8968bdd78/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/dryft/3f1c261d-9b65-412b-9f17-34b8968bdd78/application"
+    ]
   },
   {
     "name": "dtna",
@@ -6113,7 +6206,9 @@
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19278",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19328",
       "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19329",
-      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19333"
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19333",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19500",
+      "https://ebwg.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/19501"
     ]
   },
   {
@@ -6182,7 +6277,9 @@
     "identifier": "ecyq.fa.em2.oraclecloud.com",
     "domain": "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://ecyq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
-    "urls": ["https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"]
+    "urls": [
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6672"
+    ]
   },
   {
     "name": "edbz.fa.us2.oraclecloud.com",
@@ -6220,7 +6317,9 @@
     "identifier": "eduarcline.us",
     "domain": "https://www.eduarcline.us",
     "page": "",
-    "urls": ["https://www.eduarcline.us/careers/software-engineering-intern"]
+    "urls": [
+      "https://www.eduarcline.us/careers/software-engineering-intern"
+    ]
   },
   {
     "name": "eedu.fa.em3.oraclecloud.com",
@@ -6290,7 +6389,9 @@
     "identifier": "efficientcomputer",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/efficientcomputer/jobs",
-    "urls": ["https://job-boards.greenhouse.io/efficientcomputer/jobs/4251212009"]
+    "urls": [
+      "https://job-boards.greenhouse.io/efficientcomputer/jobs/4251212009"
+    ]
   },
   {
     "name": "egcu.fa.us6.oraclecloud.com",
@@ -6298,7 +6399,9 @@
     "identifier": "egcu.fa.us6.oraclecloud.com",
     "domain": "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
     "page": "https://egcu.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
-    "urls": ["https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3880"]
+    "urls": [
+      "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3880"
+    ]
   },
   {
     "name": "egug.fa.us2.oraclecloud.com",
@@ -6322,7 +6425,8 @@
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009458",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009498",
       "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009599",
-      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009704"
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26009704",
+      "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008976"
     ]
   },
   {
@@ -6332,6 +6436,7 @@
     "domain": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
     "page": "https://egup.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
     "urls": [
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20257136",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20258503",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20258543",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20258835",
@@ -6350,8 +6455,7 @@
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273701",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273801",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20273832",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20274209",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20257136"
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20274209"
     ]
   },
   {
@@ -6368,7 +6472,9 @@
     "identifier": "eightsleep",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/eightsleep",
-    "urls": ["https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035"]
+    "urls": [
+      "https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035"
+    ]
   },
   {
     "name": "eisneramper",
@@ -6573,7 +6679,9 @@
     "identifier": "EnergyVault",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/EnergyVault?mode=json",
-    "urls": ["https://jobs.lever.co/EnergyVault/6df5f1b9-8fce-4717-aaa0-98768ef28eeb/apply"]
+    "urls": [
+      "https://jobs.lever.co/EnergyVault/6df5f1b9-8fce-4717-aaa0-98768ef28eeb/apply"
+    ]
   },
   {
     "name": "ensco",
@@ -6967,7 +7075,9 @@
     "identifier": "ewvl.fa.us8.oraclecloud.com",
     "domain": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.workLocation,requisitionList.otherWorkLocations,requisitionList.secondaryLocations,flexFieldsFacet.values,requisitionList.requisitionFlexFields&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS%3BWORK_LOCATIONS%3BWORKPLACE_TYPES%3BTITLES%3BCATEGORIES%3BORGANIZATIONS%3BPOSTING_DATES%3BFLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
-    "urls": ["https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994"]
+    "urls": [
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1994"
+    ]
   },
   {
     "name": "exa",
@@ -7207,7 +7317,8 @@
     "urls": [
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9366",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9766",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926"
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9932"
     ]
   },
   {
@@ -7279,7 +7390,8 @@
     "urls": [
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/32536",
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/33853",
-      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34165"
+      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34165",
+      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34202"
     ]
   },
   {
@@ -7376,7 +7488,9 @@
     "identifier": "fable",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fable",
-    "urls": ["https://jobs.ashbyhq.com/fable/b8b78ec8-8208-4bfb-b854-10243b775b82"]
+    "urls": [
+      "https://jobs.ashbyhq.com/fable/b8b78ec8-8208-4bfb-b854-10243b775b82"
+    ]
   },
   {
     "name": "factset",
@@ -7422,7 +7536,9 @@
     "identifier": "farsight",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/farsight",
-    "urls": ["https://jobs.ashbyhq.com/farsight/b4eca1e7-2c95-4c79-af7e-8b6bd0b0d431"]
+    "urls": [
+      "https://jobs.ashbyhq.com/farsight/b4eca1e7-2c95-4c79-af7e-8b6bd0b0d431"
+    ]
   },
   {
     "name": "fastly",
@@ -7540,7 +7656,9 @@
     "identifier": "findhelp",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/findhelp?mode=json",
-    "urls": ["https://jobs.lever.co/findhelp/651c32a0-195e-4db7-9ad7-cccbd58f8975/apply"]
+    "urls": [
+      "https://jobs.lever.co/findhelp/651c32a0-195e-4db7-9ad7-cccbd58f8975/apply"
+    ]
   },
   {
     "name": "finra",
@@ -7642,7 +7760,9 @@
     "identifier": "fizz",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/fizz",
-    "urls": ["https://jobs.ashbyhq.com/fizz/c33b0bb7-d87f-4666-8622-36604fe10b20/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/fizz/c33b0bb7-d87f-4666-8622-36604fe10b20/application"
+    ]
   },
   {
     "name": "flir",
@@ -7820,7 +7940,9 @@
     "identifier": "fullscript",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/fullscript?mode=json",
-    "urls": ["https://jobs.lever.co/fullscript/47f27287-e1fe-49b0-b3fd-d5ae14a46bf1"]
+    "urls": [
+      "https://jobs.lever.co/fullscript/47f27287-e1fe-49b0-b3fd-d5ae14a46bf1"
+    ]
   },
   {
     "name": "fullsteam",
@@ -7846,7 +7968,9 @@
     "identifier": "furtherearlycareer",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/furtherearlycareer/jobs",
-    "urls": ["https://job-boards.greenhouse.io/furtherearlycareer/jobs/8384012002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8384012002"
+    ]
   },
   {
     "name": "G2",
@@ -7854,7 +7978,9 @@
     "identifier": "G2",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/G2",
-    "urls": ["https://jobs.ashbyhq.com/G2/c4488906-c271-45b3-a658-b4699b16c0b4"]
+    "urls": [
+      "https://jobs.ashbyhq.com/G2/c4488906-c271-45b3-a658-b4699b16c0b4"
+    ]
   },
   {
     "name": "gaig",
@@ -7923,7 +8049,9 @@
     "identifier": "garnerhealth",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/garnerhealth/jobs",
-    "urls": ["https://job-boards.greenhouse.io/garnerhealth/jobs/5983727004"]
+    "urls": [
+      "https://job-boards.greenhouse.io/garnerhealth/jobs/5983727004"
+    ]
   },
   {
     "name": "gcmgrosvenor",
@@ -8084,7 +8212,8 @@
       "https://jobs.smartrecruiters.com/GDMSI/744000131525000",
       "https://jobs.smartrecruiters.com/GDMSI/744000131916529",
       "https://jobs.smartrecruiters.com/GDMSI/744000131919005",
-      "https://jobs.smartrecruiters.com/GDMSI/744000133061144"
+      "https://jobs.smartrecruiters.com/GDMSI/744000133061144",
+      "https://jobs.smartrecruiters.com/GDMSI/744000133102941"
     ]
   },
   {
@@ -8109,7 +8238,6 @@
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Edison-Engineering-Development-Program--EEDP--Systems---Computer-Engineering-Science---US---2027-Start_R5031091-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Edison-Engineering-Development-Program--EEDP--Systems---Electrical-Engineering---US---2027-Start_R5031092-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Edison-Engineering-Development-Program--EEDP--Systems---Mechanical-Aerospace-Engineering---US---2027-Start_R5033099",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Istanbul/Software-Engineering-Intern--6-Months-_R5035678-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/SuZhou/Data-Engineer-Intern_R5035226-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Xian/Software-Engineer-Intern_R5035228-1"
     ]
@@ -8189,7 +8317,9 @@
     "identifier": "gemini",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/gemini/jobs",
-    "urls": ["https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125"]
+    "urls": [
+      "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7875125&gh_jid=7875125"
+    ]
   },
   {
     "name": "gen",
@@ -8215,7 +8345,9 @@
     "identifier": "genbio",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/genbio?mode=json",
-    "urls": ["https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"]
+    "urls": [
+      "https://jobs.lever.co/genbio/4bdb14ae-e19f-40c8-84db-1307dbdabe74/apply"
+    ]
   },
   {
     "name": "generac",
@@ -8244,7 +8376,9 @@
     "identifier": "genesis-molecular-ai",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/genesis-molecular-ai",
-    "urls": ["https://jobs.ashbyhq.com/genesis-molecular-ai/6e9c55b1-73b6-4881-8b7a-f7838626e17d"]
+    "urls": [
+      "https://jobs.ashbyhq.com/genesis-molecular-ai/6e9c55b1-73b6-4881-8b7a-f7838626e17d"
+    ]
   },
   {
     "name": "genpt",
@@ -8328,7 +8462,9 @@
     "identifier": "gingerlabsinc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/gingerlabsinc/jobs",
-    "urls": ["https://job-boards.greenhouse.io/gingerlabsinc/jobs/5129674008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/gingerlabsinc/jobs/5129674008"
+    ]
   },
   {
     "name": "githubinc.jibeapply.com",
@@ -8390,7 +8526,9 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Unclassified-System-Administrator-McKinney--Texas_01851832",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/XMLNAME-2026-Raytheon-Full-Time---Software-Engineer-I---McKinney--TX--Onsite-_01853473",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Information-System-Security-Officer--Onsite-_01853674",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-OTTAWA-030--30-Edgewater-St--EDGEWATER/Junior-Software-Engineer-Co-Op--Onsite-_01853388",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-137--855-35Th-St-NE--BLDG-137/Software-Engineer-1---Tactical-Communications--Onsite-_01851404-1"
     ]
   },
   {
@@ -8407,7 +8545,9 @@
     "identifier": "globalizationpartners",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/globalizationpartners/jobs",
-    "urls": ["https://job-boards.greenhouse.io/globalizationpartners/jobs/7771767003"]
+    "urls": [
+      "https://job-boards.greenhouse.io/globalizationpartners/jobs/7771767003"
+    ]
   },
   {
     "name": "globalrelay",
@@ -8608,6 +8748,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/124288380966970054-data-center-technician-hardware-operations?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/124516453394064070-forward-deployed-engineer-iv-applied-ai-google-cloud?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/124569727094661830-data-center-facilities-technician-ii-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
+      "https://www.google.com/about/careers/applications/jobs/results/125081596028953286-public-policy-and-government-relations-google-cloud-subsaharan-africa?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/125213993663898310-data-center-facilities-technician-i-electrical?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/125227536769524422-software-engineer-generative-ai-search-ads-personalization?sort_by=date&page=6",
       "https://www.google.com/about/careers/applications/jobs/results/125287567527420614-business-program-manager-global-data-centers?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
@@ -8724,6 +8865,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/74402318644060870-security-engineer-access-risk-intelligence-and-security-mitigation?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/74527546032431814-software-engineer-youtube-ads-auction-and-user-experience?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/74778080064742086-outcome-customer-engineer-app-modernization-google-cloud?sort_by=date&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/74838312686101190-silicon-rtl-design-engineer-phd-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/75235940758364870-systems-development-engineer-engineering-labs?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/75346241960977094-security-engineer-cloud-threat-and-abuse-detection?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/75540308883841734-software-engineer-firmware-pixel-video?sort_by=date&page=5",
@@ -8870,8 +9012,8 @@
       "https://www.google.com/about/careers/applications/jobs/results/99458065853489862-administrative-business-partner-cloud-ai?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99505617684570822-ai-solutions-consultant-partner-gsi-google-cloud?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/99897353061704390-data-center-technician-i?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/74838312686101190-silicon-rtl-design-engineer-phd-google-cloud?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/125081596028953286-public-policy-and-government-relations-google-cloud-subsaharan-africa?sort_by=date&page=1"
+      "https://www.google.com/about/careers/applications/jobs/results/129571451760976582-cpu-design-integration-engineer-google-cloud?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/123452119796589254-delivery-executive-google-cloud-consulting?sort_by=date&page=1"
     ]
   },
   {
@@ -8889,7 +9031,6 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/graphcore/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/graphcore/jobs/8235270002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8238577002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8238605002",
       "https://job-boards.greenhouse.io/graphcore/jobs/8245742002",
@@ -8953,7 +9094,10 @@
     "identifier": "grnh.se",
     "domain": "https://grnh.se",
     "page": "",
-    "urls": ["https://grnh.se/p32j1zwl5us", "https://grnh.se/rw14eooo5us"]
+    "urls": [
+      "https://grnh.se/p32j1zwl5us",
+      "https://grnh.se/rw14eooo5us"
+    ]
   },
   {
     "name": "group.bnpparibas",
@@ -9030,7 +9174,9 @@
     "identifier": "gusto",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs",
-    "urls": ["https://job-boards.greenhouse.io/gusto/jobs/8002008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/gusto/jobs/8002008"
+    ]
   },
   {
     "name": "hadrian-automation",
@@ -9102,7 +9248,9 @@
     "identifier": "harvey",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/harvey",
-    "urls": ["https://jobs.ashbyhq.com/harvey/1321b20d-d6f8-4bdb-b2de-ec33c0948b53"]
+    "urls": [
+      "https://jobs.ashbyhq.com/harvey/1321b20d-d6f8-4bdb-b2de-ec33c0948b53"
+    ]
   },
   {
     "name": "haven",
@@ -9118,7 +9266,9 @@
     "identifier": "haydenai",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/haydenai",
-    "urls": ["https://jobs.ashbyhq.com/haydenai/5baa44bf-e5c5-4544-960f-87131bd5b078"]
+    "urls": [
+      "https://jobs.ashbyhq.com/haydenai/5baa44bf-e5c5-4544-960f-87131bd5b078"
+    ]
   },
   {
     "name": "hbkcapitalmanagement",
@@ -9470,7 +9620,9 @@
     "identifier": "horacemannservicecorporation",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/horacemannservicecorporation/jobs",
-    "urls": ["https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5893497004"]
+    "urls": [
+      "https://job-boards.greenhouse.io/horacemannservicecorporation/jobs/5893497004"
+    ]
   },
   {
     "name": "horizonindustrieslimited",
@@ -9478,7 +9630,9 @@
     "identifier": "horizonindustrieslimited",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/horizonindustrieslimited/jobs",
-    "urls": ["https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5248280008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5248280008"
+    ]
   },
   {
     "name": "horn",
@@ -9814,7 +9968,9 @@
     "identifier": "incident",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/incident",
-    "urls": ["https://jobs.ashbyhq.com/incident/26af5e13-edee-41c3-9019-f886f404cd59"]
+    "urls": [
+      "https://jobs.ashbyhq.com/incident/26af5e13-edee-41c3-9019-f886f404cd59"
+    ]
   },
   {
     "name": "industrialelectricmanufacturing",
@@ -9904,7 +10060,9 @@
     "domain": "https://intapp.wd1.myworkdayjobs.com/intapp",
     "page": "https://intapp.wd1.myworkdayjobs.com/wday/cxs/intapp/intapp/jobs",
     "urls": [
-      "https://intapp.wd1.myworkdayjobs.com/intapp/job/Charlotte-NC/Software-Engineer---AI-Product-Integration_R2024883"
+      "https://intapp.wd1.myworkdayjobs.com/intapp/job/Charlotte-NC/Software-Engineer---AI-Product-Integration_R2024883",
+      "https://intapp.wd1.myworkdayjobs.com/intapp/job/Remote-Portugal/Software-Engineer--Backend-_R2025055-1",
+      "https://intapp.wd1.myworkdayjobs.com/intapp/job/Portugal-Lisbon/QA-Automation-Engineer_R2025056-1"
     ]
   },
   {
@@ -10125,7 +10283,9 @@
     "identifier": "ispace-inc",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/ispace-inc?mode=json",
-    "urls": ["https://jobs.lever.co/ispace-inc/b1a6cf1f-1257-4a77-a5c5-167c35d7b5ea"]
+    "urls": [
+      "https://jobs.lever.co/ispace-inc/b1a6cf1f-1257-4a77-a5c5-167c35d7b5ea"
+    ]
   },
   {
     "name": "ispottv",
@@ -10163,7 +10323,9 @@
     "identifier": "ivalua",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/ivalua/jobs",
-    "urls": ["https://boards.greenhouse.io/ivalua/jobs/7473992?gh_jid=7473992"]
+    "urls": [
+      "https://boards.greenhouse.io/ivalua/jobs/7473992?gh_jid=7473992"
+    ]
   },
   {
     "name": "ivo",
@@ -10171,7 +10333,9 @@
     "identifier": "ivo",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/ivo?mode=json",
-    "urls": ["https://jobs.lever.co/ivo/83b626de-53c8-4505-b0ea-253fdcb83680/apply"]
+    "urls": [
+      "https://jobs.lever.co/ivo/83b626de-53c8-4505-b0ea-253fdcb83680/apply"
+    ]
   },
   {
     "name": "jabil",
@@ -10209,7 +10373,9 @@
     "identifier": "jacobs.taleo.net",
     "domain": "https://jacobs.taleo.net",
     "page": "",
-    "urls": ["https://jacobs.taleo.net/careersection/ex3/jobdetail.ftl?job=ADV000CKV"]
+    "urls": [
+      "https://jacobs.taleo.net/careersection/ex3/jobdetail.ftl?job=ADV000CKV"
+    ]
   },
   {
     "name": "jamf",
@@ -10217,7 +10383,9 @@
     "identifier": "jamf",
     "domain": "https://www.jamf.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/jamf/jobs",
-    "urls": ["https://www.jamf.com/about/careers/jobs/?gh_jid=6017936004&gh_jid=6017936004"]
+    "urls": [
+      "https://www.jamf.com/about/careers/jobs/?gh_jid=6017936004&gh_jid=6017936004"
+    ]
   },
   {
     "name": "janestreet.com",
@@ -10225,7 +10393,9 @@
     "identifier": "janestreet.com",
     "domain": "https://www.janestreet.com",
     "page": "",
-    "urls": ["https://www.janestreet.com/join-jane-street/position/5869205002/"]
+    "urls": [
+      "https://www.janestreet.com/join-jane-street/position/5869205002/"
+    ]
   },
   {
     "name": "jbb.applytojob.com",
@@ -10294,7 +10464,11 @@
       "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/Data-Scientist-and-Application-Developer_R-079813",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/Study-Responsible-Physician--Neuroscience-Late-Development_R-066453-1",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/TPO---IMT-Supply-Chain-Plan-Data-Assets_R-076654-1",
-      "https://jj.wd5.myworkdayjobs.com/jj/job/Yokneam-Haifa-District-Israel/Embedded-Software-Engineer_R-080950"
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Yokneam-Haifa-District-Israel/Embedded-Software-Engineer_R-080950",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Zug-Switzerland/Post-Doc-Scientist-Data-Science-AI-ML_R-071095-1",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Beerse-Antwerp-Belgium/Postdoctoral-Scientist-Data-Science-AI-ML---DH_R-060722-1",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Neuss-North-Rhine-Westphalia-Germany/Postdoctoral-Scientist-Data-Science-AI-ML---DH_R-071295-1",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Cambridge-Massachusetts-United-States-of-America/Postdoctoral-Scientist-Data-Science-AI-ML---DH_R-058941-1"
     ]
   },
   {
@@ -10759,7 +10933,9 @@
     "identifier": "johndeere.eightfold.ai",
     "domain": "https://johndeere.eightfold.ai",
     "page": "",
-    "urls": ["https://johndeere.eightfold.ai/careers/job/137476749430"]
+    "urls": [
+      "https://johndeere.eightfold.ai/careers/job/137476749430"
+    ]
   },
   {
     "name": "join.sephora.com",
@@ -10800,7 +10976,9 @@
     "identifier": "jolera.com",
     "domain": "https://www.jolera.com",
     "page": "",
-    "urls": ["https://www.jolera.com/careers/?jobId=mQ_8xXOp_PHw"]
+    "urls": [
+      "https://www.jolera.com/careers/?jobId=mQ_8xXOp_PHw"
+    ]
   },
   {
     "name": "jpmc.fa.oraclecloud.com",
@@ -10847,7 +11025,9 @@
     "identifier": "juvare",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/juvare/jobs",
-    "urls": ["https://job-boards.greenhouse.io/juvare/jobs/4706846005"]
+    "urls": [
+      "https://job-boards.greenhouse.io/juvare/jobs/4706846005"
+    ]
   },
   {
     "name": "kabam",
@@ -11045,7 +11225,9 @@
     "identifier": "knowbe4",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/knowbe4/jobs",
-    "urls": ["https://job-boards.greenhouse.io/knowbe4/jobs/8597668002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/knowbe4/jobs/8597668002"
+    ]
   },
   {
     "name": "koch.avature.net",
@@ -11072,7 +11254,9 @@
     "identifier": "Kognitos",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Kognitos",
-    "urls": ["https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/Kognitos/a3c5bd4c-f6fb-4eb0-b943-e0e1a1d878c5/application"
+    ]
   },
   {
     "name": "kong",
@@ -11139,7 +11323,9 @@
     "identifier": "laika",
     "domain": "https://www.laika.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/laika/jobs",
-    "urls": ["https://www.laika.com/careers/job-listing?jobid=7863648&gh_jid=7863648"]
+    "urls": [
+      "https://www.laika.com/careers/job-listing?jobid=7863648&gh_jid=7863648"
+    ]
   },
   {
     "name": "lambda",
@@ -11160,7 +11346,9 @@
     "identifier": "Lambda",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Lambda",
-    "urls": ["https://jobs.ashbyhq.com/Lambda/e5453baf-d2ec-43d1-9d3b-8fb3d5cdc9d1"]
+    "urls": [
+      "https://jobs.ashbyhq.com/Lambda/e5453baf-d2ec-43d1-9d3b-8fb3d5cdc9d1"
+    ]
   },
   {
     "name": "larian",
@@ -11168,7 +11356,9 @@
     "identifier": "larian",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/larian?mode=json",
-    "urls": ["https://jobs.lever.co/larian/05191579-a3e5-4e2d-9ad2-b9b790d60a89/apply"]
+    "urls": [
+      "https://jobs.lever.co/larian/05191579-a3e5-4e2d-9ad2-b9b790d60a89/apply"
+    ]
   },
   {
     "name": "latitude",
@@ -11197,7 +11387,9 @@
     "identifier": "Laxir1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Laxir1/postings",
-    "urls": ["https://jobs.smartrecruiters.com/Laxir1/743999834183955"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/Laxir1/743999834183955"
+    ]
   },
   {
     "name": "layup",
@@ -11205,7 +11397,9 @@
     "identifier": "layup",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/layup?mode=json",
-    "urls": ["https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53/apply"]
+    "urls": [
+      "https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53/apply"
+    ]
   },
   {
     "name": "lazard-careers.tal.net",
@@ -11225,7 +11419,9 @@
     "identifier": "leagueinc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
-    "urls": ["https://job-boards.greenhouse.io/leagueinc/jobs/5972947004"]
+    "urls": [
+      "https://job-boards.greenhouse.io/leagueinc/jobs/5972947004"
+    ]
   },
   {
     "name": "LegalAndGeneral",
@@ -11263,7 +11459,9 @@
     "identifier": "lennox",
     "domain": "https://uscareers-lennox.icims.com",
     "page": "https://api.icims.com/v1/companies/lennox/jobs",
-    "urls": ["https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"]
+    "urls": [
+      "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"
+    ]
   },
   {
     "name": "leonardocompany",
@@ -11409,7 +11607,9 @@
     "identifier": "linqapp",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/linqapp",
-    "urls": ["https://jobs.ashbyhq.com/linqapp/a80957d5-94b1-4be4-9d1b-f396ec3b36eb"]
+    "urls": [
+      "https://jobs.ashbyhq.com/linqapp/a80957d5-94b1-4be4-9d1b-f396ec3b36eb"
+    ]
   },
   {
     "name": "litify",
@@ -11532,7 +11732,9 @@
     "identifier": "locusrobotics",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/locusrobotics/jobs",
-    "urls": ["https://job-boards.greenhouse.io/locusrobotics/jobs/5152803007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/locusrobotics/jobs/5152803007"
+    ]
   },
   {
     "name": "logicgate",
@@ -11628,7 +11830,8 @@
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Software-Verification-Engineer_2026490",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Test-Automation-Engineer--Optical-Testing---Calibration-_20251739-1",
       "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/IT-System-Engineer---6-months-contract-_2026765",
-      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/System-Engineer_2026832-1"
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Thailand---Pathumthani-Navanakorn/System-Engineer_2026832-1",
+      "https://lumentum.wd5.myworkdayjobs.com/lite/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer_20251645"
     ]
   },
   {
@@ -11715,7 +11918,9 @@
     "identifier": "make-rain",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/make-rain?mode=json",
-    "urls": ["https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"]
+    "urls": [
+      "https://jobs.lever.co/make-rain/b45f954e-19df-45b1-8748-c8ae442a2e8b"
+    ]
   },
   {
     "name": "mangroup",
@@ -11776,7 +11981,9 @@
     "identifier": "marianaminerals",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/marianaminerals",
-    "urls": ["https://jobs.ashbyhq.com/marianaminerals/44c92dd6-55f2-4e44-9360-bf4676466dac"]
+    "urls": [
+      "https://jobs.ashbyhq.com/marianaminerals/44c92dd6-55f2-4e44-9360-bf4676466dac"
+    ]
   },
   {
     "name": "mark43",
@@ -11784,7 +11991,9 @@
     "identifier": "mark43",
     "domain": "https://mark43.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/mark43/jobs",
-    "urls": ["https://mark43.com/list-job/7706886?gh_jid=7706886"]
+    "urls": [
+      "https://mark43.com/list-job/7706886?gh_jid=7706886"
+    ]
   },
   {
     "name": "marketaxesscorporation",
@@ -11926,7 +12135,9 @@
     "identifier": "MBRDNA",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/MBRDNA?mode=json",
-    "urls": ["https://jobs.lever.co/MBRDNA/bf597528-079f-47a1-965f-def393590f02/apply"]
+    "urls": [
+      "https://jobs.lever.co/MBRDNA/bf597528-079f-47a1-965f-def393590f02/apply"
+    ]
   },
   {
     "name": "mcghealth",
@@ -11952,7 +12163,9 @@
     "identifier": "mechanize",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/mechanize",
-    "urls": ["https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e"]
+    "urls": [
+      "https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e"
+    ]
   },
   {
     "name": "mechanize.work",
@@ -11960,7 +12173,9 @@
     "identifier": "mechanize.work",
     "domain": "https://www.mechanize.work",
     "page": "",
-    "urls": ["https://www.mechanize.work/apply/software-engineer/?role=intern"]
+    "urls": [
+      "https://www.mechanize.work/apply/software-engineer/?role=intern"
+    ]
   },
   {
     "name": "medicalinformaticsengineering",
@@ -11968,7 +12183,9 @@
     "identifier": "medicalinformaticsengineering",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/medicalinformaticsengineering/jobs",
-    "urls": ["https://job-boards.greenhouse.io/medicalinformaticsengineering/jobs/4116759009"]
+    "urls": [
+      "https://job-boards.greenhouse.io/medicalinformaticsengineering/jobs/4116759009"
+    ]
   },
   {
     "name": "medimpact",
@@ -11991,7 +12208,8 @@
       "https://medline.wd5.myworkdayjobs.com/medline/job/Pune/Developer---CRM---2331_R2609402-1",
       "https://medline.wd5.myworkdayjobs.com/medline/job/Pune/Software-Development-Engineer-in-Test--SDET----2356_R2609386",
       "https://medline.wd5.myworkdayjobs.com/medline/job/Pune/Specialist-Ivanti-Developer_R2610955",
-      "https://medline.wd5.myworkdayjobs.com/medline/job/Pune/Sr-Software-Engineer-DevOps_R2611243-1"
+      "https://medline.wd5.myworkdayjobs.com/medline/job/Pune/Sr-Software-Engineer-DevOps_R2611243-1",
+      "https://medline.wd5.myworkdayjobs.com/medline/job/Glens-Falls-New-York/Machine-Operator-I---2nd-shift-Automation_R2612429"
     ]
   },
   {
@@ -12027,7 +12245,9 @@
     "identifier": "melotech",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/melotech",
-    "urls": ["https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/melotech/15af19d9-a318-45a6-8a06-23053ea487a5/application"
+    ]
   },
   {
     "name": "menasha",
@@ -12075,7 +12295,9 @@
     "identifier": "meshy",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/meshy",
-    "urls": ["https://jobs.ashbyhq.com/meshy/262d74c7-8aab-474e-9fc6-8c8c48ec6572/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/meshy/262d74c7-8aab-474e-9fc6-8c8c48ec6572/application"
+    ]
   },
   {
     "name": "Meta",
@@ -12202,7 +12424,9 @@
     "identifier": "metron",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/metron/jobs",
-    "urls": ["https://job-boards.greenhouse.io/metron/jobs/5167015007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/metron/jobs/5167015007"
+    ]
   },
   {
     "name": "metrostarsystems",
@@ -12599,7 +12823,9 @@
     "identifier": "muonspace",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/muonspace/jobs",
-    "urls": ["https://job-boards.greenhouse.io/muonspace/jobs/5135632007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/muonspace/jobs/5135632007"
+    ]
   },
   {
     "name": "mwinternshipprogram",
@@ -12646,7 +12872,9 @@
     "identifier": "n1",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/n1",
-    "urls": ["https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6"]
+    "urls": [
+      "https://jobs.ashbyhq.com/n1/afe7deb5-9cfd-4926-bcb4-058d418592a6"
+    ]
   },
   {
     "name": "nasdaq",
@@ -12666,7 +12894,9 @@
     "identifier": "Nash",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Nash",
-    "urls": ["https://jobs.ashbyhq.com/Nash/5d2387ea-c478-433b-b3db-30115d1984c5/application"]
+    "urls": [
+      "https://jobs.ashbyhq.com/Nash/5d2387ea-c478-433b-b3db-30115d1984c5/application"
+    ]
   },
   {
     "name": "nasuni",
@@ -12727,7 +12957,9 @@
     "identifier": "ncr-ext_non_us",
     "domain": "https://ncr.wd1.myworkdayjobs.com/ext_non_us",
     "page": "https://ncr.wd1.myworkdayjobs.com/wday/cxs/ncr/ext_non_us/jobs",
-    "urls": ["https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer_R0156991"]
+    "urls": [
+      "https://ncr.wd1.myworkdayjobs.com/ext_non_us/job/BATH-GBR/Software-Engineer_R0156991"
+    ]
   },
   {
     "name": "NECSWS",
@@ -12765,7 +12997,6 @@
     "domain": "https://nelnet.wd1.myworkdayjobs.com/mynelnet",
     "page": "https://nelnet.wd1.myworkdayjobs.com/wday/cxs/nelnet/mynelnet/jobs",
     "urls": [
-      "https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763",
       "https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Lincoln-NE/NDS-AI-Integration-Product-Owner_R22651"
     ]
   },
@@ -12907,7 +13138,9 @@
     "identifier": "nextiva",
     "domain": "https://www.nextiva.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/nextiva/jobs",
-    "urls": ["https://www.nextiva.com/company/careers-listing?gh_jid=8477382002"]
+    "urls": [
+      "https://www.nextiva.com/company/careers-listing?gh_jid=8477382002"
+    ]
   },
   {
     "name": "ngc",
@@ -13118,7 +13351,9 @@
     "identifier": "northmarq",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/northmarq/jobs",
-    "urls": ["https://job-boards.greenhouse.io/northmarq/jobs/5236116008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/northmarq/jobs/5236116008"
+    ]
   },
   {
     "name": "northspyre",
@@ -13137,7 +13372,9 @@
     "identifier": "NorthwesternMutual",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/NorthwesternMutual/postings",
-    "urls": ["https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/NorthwesternMutual/85751711"
+    ]
   },
   {
     "name": "NorthwoodSpace",
@@ -13316,7 +13553,9 @@
     "identifier": "obsidiansecurity",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/obsidiansecurity/jobs",
-    "urls": ["https://job-boards.greenhouse.io/obsidiansecurity/jobs/5269159008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/obsidiansecurity/jobs/5269159008"
+    ]
   },
   {
     "name": "oclc",
@@ -13332,7 +13571,9 @@
     "identifier": "octaura",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/octaura/jobs",
-    "urls": ["https://job-boards.greenhouse.io/octaura/jobs/4662934007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/octaura/jobs/4662934007"
+    ]
   },
   {
     "name": "octoenergy",
@@ -13340,7 +13581,9 @@
     "identifier": "octoenergy",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/octoenergy?mode=json",
-    "urls": ["https://jobs.lever.co/octoenergy/cb4fc843-799a-45ee-8bf1-e1a909d651e6"]
+    "urls": [
+      "https://jobs.lever.co/octoenergy/cb4fc843-799a-45ee-8bf1-e1a909d651e6"
+    ]
   },
   {
     "name": "offerup",
@@ -13348,7 +13591,9 @@
     "identifier": "offerup",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/offerup/jobs",
-    "urls": ["https://job-boards.greenhouse.io/offerup/jobs/8004171"]
+    "urls": [
+      "https://job-boards.greenhouse.io/offerup/jobs/8004171"
+    ]
   },
   {
     "name": "okta",
@@ -13394,7 +13639,9 @@
     "identifier": "oneapp",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/oneapp",
-    "urls": ["https://jobs.ashbyhq.com/oneapp/3adc0645-5834-4bbc-a509-81ffa8d06c30"]
+    "urls": [
+      "https://jobs.ashbyhq.com/oneapp/3adc0645-5834-4bbc-a509-81ffa8d06c30"
+    ]
   },
   {
     "name": "oneclick-ui",
@@ -13433,7 +13680,9 @@
     "identifier": "onto-onto_careers",
     "domain": "https://onto.wd1.myworkdayjobs.com/onto_careers",
     "page": "https://onto.wd1.myworkdayjobs.com/wday/cxs/onto/onto_careers/jobs",
-    "urls": ["https://onto.wd1.myworkdayjobs.com/onto_careers/job/Hillsboro-OR/Contractor_R-6046"]
+    "urls": [
+      "https://onto.wd1.myworkdayjobs.com/onto_careers/job/Hillsboro-OR/Contractor_R-6046"
+    ]
   },
   {
     "name": "openai",
@@ -13478,7 +13727,9 @@
     "identifier": "opensesame",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/opensesame/jobs",
-    "urls": ["https://boards.greenhouse.io/opensesame/jobs/7967740?gh_jid=7967740"]
+    "urls": [
+      "https://boards.greenhouse.io/opensesame/jobs/7967740?gh_jid=7967740"
+    ]
   },
   {
     "name": "optiver.com",
@@ -13603,6 +13854,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-MD-Annapolis-Junction/Cloud-Engineer_R0163852",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-MD-Annapolis-Junction/Full-Java-Stack-Developer_R0163856",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-MD-Annapolis-Junction/Full-Stack-Java-Developer_R0163862",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-NJ-Mount-Laurel/Naval-System-Security-Engineer_R0161362",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-Remote/AI-Technology-Support-Engineer-Analyst_R0163583",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-SC-Aiken/Software-Engineer_R0162664",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Arlington/DevOps-Engineer--Mid--TS-SCI_R0163006-1",
@@ -13614,7 +13866,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Springfield/Cloud-System-Administrator_R0163737",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Springfield/Cloud-System-Administrator_R0163739",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-WA-Richland/Instructional-Analyst-Developer_R0164012",
-      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-NJ-Mount-Laurel/Naval-System-Security-Engineer_R0161362"
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Dahlgren/Systems-Engineer-Analyst-Computer-Systems-Engineer_R0157842"
     ]
   },
   {
@@ -13654,7 +13906,9 @@
     "identifier": "PAR%20Technology",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/PAR%20Technology",
-    "urls": ["https://jobs.ashbyhq.com/PAR%20Technology/86c3d733-baad-4ef1-a731-8776a1966858"]
+    "urls": [
+      "https://jobs.ashbyhq.com/PAR%20Technology/86c3d733-baad-4ef1-a731-8776a1966858"
+    ]
   },
   {
     "name": "parachutehealth",
@@ -13662,7 +13916,9 @@
     "identifier": "parachutehealth",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/parachutehealth/jobs",
-    "urls": ["https://job-boards.greenhouse.io/parachutehealth/jobs/5152203007"]
+    "urls": [
+      "https://job-boards.greenhouse.io/parachutehealth/jobs/5152203007"
+    ]
   },
   {
     "name": "parsons",
@@ -13678,7 +13934,9 @@
     "identifier": "pathai",
     "domain": "https://www.pathai.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/pathai/jobs",
-    "urls": ["https://www.pathai.com/career/job-post?gh_jid=8202342002"]
+    "urls": [
+      "https://www.pathai.com/career/job-post?gh_jid=8202342002"
+    ]
   },
   {
     "name": "patientpoint",
@@ -13694,7 +13952,9 @@
     "identifier": "patreon",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/patreon",
-    "urls": ["https://jobs.ashbyhq.com/patreon/53b98cc4-6e4f-4cf3-a128-cd06a06b9d9a"]
+    "urls": [
+      "https://jobs.ashbyhq.com/patreon/53b98cc4-6e4f-4cf3-a128-cd06a06b9d9a"
+    ]
   },
   {
     "name": "paycomonline.net",
@@ -13710,7 +13970,9 @@
     "identifier": "paypal.eightfold.ai",
     "domain": "https://paypal.eightfold.ai",
     "page": "",
-    "urls": ["https://paypal.eightfold.ai/careers/job/274915802833"]
+    "urls": [
+      "https://paypal.eightfold.ai/careers/job/274915802833"
+    ]
   },
   {
     "name": "pdtpartners",
@@ -13734,7 +13996,9 @@
     "identifier": "peakenergy",
     "domain": "https://peakenergy.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/peakenergy/jobs",
-    "urls": ["https://peakenergy.com/get-in-touch/careers/jobs?job_id=5145454007&gh_jid=5145454007"]
+    "urls": [
+      "https://peakenergy.com/get-in-touch/careers/jobs?job_id=5145454007&gh_jid=5145454007"
+    ]
   },
   {
     "name": "pebl",
@@ -13764,7 +14028,9 @@
     "identifier": "peraton",
     "domain": "https://careers-peraton.icims.com",
     "page": "https://api.icims.com/v1/companies/peraton/jobs",
-    "urls": ["https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"]
+    "urls": [
+      "https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"
+    ]
   },
   {
     "name": "Perchwell",
@@ -13860,7 +14126,9 @@
     "identifier": "pingidentity",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/pingidentity/jobs",
-    "urls": ["https://job-boards.greenhouse.io/pingidentity/jobs/8582872002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/pingidentity/jobs/8582872002"
+    ]
   },
   {
     "name": "pinterest",
@@ -14314,7 +14582,9 @@
     "identifier": "quantco-",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/quantco-?mode=json",
-    "urls": ["https://jobs.lever.co/quantco-/945bd3c0-117a-4b0e-b60a-6759add05fc9"]
+    "urls": [
+      "https://jobs.lever.co/quantco-/945bd3c0-117a-4b0e-b60a-6759add05fc9"
+    ]
   },
   {
     "name": "quantinuum",
@@ -14322,7 +14592,9 @@
     "identifier": "quantinuum",
     "domain": "https://jobs.eu.lever.co",
     "page": "https://api.eu.lever.co/v0/postings/quantinuum?mode=json",
-    "urls": ["https://jobs.eu.lever.co/quantinuum/e7f4a0db-4a46-4409-9cbb-75e7eecf2565"]
+    "urls": [
+      "https://jobs.eu.lever.co/quantinuum/e7f4a0db-4a46-4409-9cbb-75e7eecf2565"
+    ]
   },
   {
     "name": "QuantumWorkplace",
@@ -14624,7 +14896,9 @@
     "identifier": "relativity",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/relativity/jobs",
-    "urls": ["https://boards.greenhouse.io/relativity/jobs/8595065002?gh_jid=8595065002"]
+    "urls": [
+      "https://boards.greenhouse.io/relativity/jobs/8595065002?gh_jid=8595065002"
+    ]
   },
   {
     "name": "relayfi",
@@ -14775,7 +15049,9 @@
     "identifier": "rfsmart",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rfsmart/jobs",
-    "urls": ["https://job-boards.greenhouse.io/rfsmart/jobs/5230703008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/rfsmart/jobs/5230703008"
+    ]
   },
   {
     "name": "rgare",
@@ -14826,7 +15102,9 @@
     "identifier": "rilla",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/rilla",
-    "urls": ["https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5"]
+    "urls": [
+      "https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5"
+    ]
   },
   {
     "name": "riotgames.com",
@@ -14927,7 +15205,6 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Madrid/Cloud-Infrastructure-Network-Engineer---Roche-Cloud-Platform-Azure_202606-115339",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Madrid/Cybersecurity-Engineer-for-Edge-Defense--Cloud-_202606-114112",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Madrid/Cybersecurity-Engineer-for-Network-Security_202604-110399-1",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Interaction-Designer--UX-UI-Electronics--Internship_202606-114024",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Rotkreuz/Internship-in-BGE-Sensor-Development--Rotkreuz--6-12-month-_202604-110040-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/San-Francisco/Machine-Learning-Scientist---Synthesis-Planning-and-Optimization_202606-115542-2",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/Channel-Data-Mgmt-Expert_202606-114216",
@@ -14966,7 +15243,9 @@
     "identifier": "rocketlawyer",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/rocketlawyer/jobs",
-    "urls": ["https://job-boards.greenhouse.io/rocketlawyer/jobs/5263173008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/rocketlawyer/jobs/5263173008"
+    ]
   },
   {
     "name": "rockwellautomation",
@@ -15028,7 +15307,8 @@
       "https://jobs.smartrecruiters.com/RRDonnelley/744000118179454",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000130801991",
       "https://jobs.smartrecruiters.com/RRDonnelley/744000132867769",
-      "https://jobs.smartrecruiters.com/RRDonnelley/744000132876239"
+      "https://jobs.smartrecruiters.com/RRDonnelley/744000132876239",
+      "https://jobs.smartrecruiters.com/RRDonnelley/744000133101742"
     ]
   },
   {
@@ -15046,8 +15326,8 @@
     "domain": "https://rsm.wd1.myworkdayjobs.com/rsmcareers",
     "page": "https://rsm.wd1.myworkdayjobs.com/wday/cxs/rsm/rsmcareers/jobs",
     "urls": [
-      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Software-Developer-Intern_JR119685",
-      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Custom-Apps-Developer-Associate_JR119875"
+      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Custom-Apps-Developer-Associate_JR119875",
+      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Software-Developer-Intern_JR119685"
     ]
   },
   {
@@ -15149,14 +15429,12 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Georgia---Atlanta/Junior-Mid-DevOps-Engineer_JR341653",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Germany---Munich/Software-Engineering-Data-Cloud-Query---Hyper---PhD-Intern_JR346221-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Illinois---Chicago/Business-Development-Representative---Data-Foundation_JR341034",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/SMTS-LMTS---AI-ML-Engineers_JR340537",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Data-Engineering---Analytics--Software-Engineering-MTS_JR342761",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Lead-Full-Stack-Software-Engineer---LMTS---Hyderabad_JR282354",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/MTS---Compliance-Automation---Tooling--Apex--Python-_JR344754",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Product-Security-Engineer---Vulnerability-Response---Application-Security_JR341671",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/SMTS--Zuora-Revenue-System-Engineer_JR335227",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/SMTS-LMTS-Distributed-Systems---Public-Cloud--GCP_JR314149",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-LMTS---Tableau_JR327543",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-LMTS_JR338174",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Workday-System-Analyst--Software-Engineer--SMTS-_JR335225",
@@ -15177,7 +15455,9 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Virginia---Washington-DC-Metro---Remote/SRE-Systems-Engineer_JR341343",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/EVP--COO--Salesforce-Platform_JR345543",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineer-MTS---Automation---MuleSoft-Agentic-Cloud-Services_JR345537",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Canada---Vancouver-Metro---Remote/Software-Engineering-SMTS_JR343396",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Data-Engineer--SMTS---LMTS----MDM_JR347388"
     ]
   },
   {
@@ -15194,7 +15474,9 @@
     "identifier": "samsara.com",
     "domain": "https://www.samsara.com",
     "page": "",
-    "urls": ["https://www.samsara.com/company/careers/roles/7179025"]
+    "urls": [
+      "https://www.samsara.com/company/careers/roles/7179025"
+    ]
   },
   {
     "name": "samsungresearchamericainternship",
@@ -15275,6 +15557,7 @@
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Barcelona/Data-Engineer_R2852281-1",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Barcelona/TM1---Platform-Expert_R2859006-1",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Beijing/Medical---Real-World-Evidence-Data-Scientist---Beijing_R2847204",
+      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Bridgewater-NJ/Clinical-Data-Scientist--Methodologist_R2856067",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Budapest/XMLNAME--Digital-Finance-Product-Owner_R2858796",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Geel/QA-Business-Owner-Data-Integrity_R2855495-1",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Hyderabad/Container-Platform-Engineer_R2852531",
@@ -15283,7 +15566,7 @@
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Paris/Accelerator-Data-Scientist--Paris-_R2838406",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Paris/Data---AI-Engineer_R2860363",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Val-de-Reuil/alternance-24-mois---technicien-automation_R2855647",
-      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Bridgewater-NJ/Clinical-Data-Scientist--Methodologist_R2856067"
+      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Framingham-MA/Data-System-Analyst_R2856251"
     ]
   },
   {
@@ -15564,7 +15847,9 @@
     "identifier": "Serval",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/Serval",
-    "urls": ["https://jobs.ashbyhq.com/Serval/5250c679-d490-407e-bd2e-b8b160c62aac"]
+    "urls": [
+      "https://jobs.ashbyhq.com/Serval/5250c679-d490-407e-bd2e-b8b160c62aac"
+    ]
   },
   {
     "name": "ServiceNow",
@@ -15599,7 +15884,9 @@
     "identifier": "sevenresearch",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/sevenresearch/jobs",
-    "urls": ["https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/sevenresearch/jobs/4452682008"
+    ]
   },
   {
     "name": "shakeshack",
@@ -15649,7 +15936,9 @@
     "identifier": "shein",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/shein/jobs",
-    "urls": ["https://job-boards.greenhouse.io/shein/jobs/5229778008"]
+    "urls": [
+      "https://job-boards.greenhouse.io/shein/jobs/5229778008"
+    ]
   },
   {
     "name": "shieldai",
@@ -15811,7 +16100,9 @@
     "identifier": "skhynixmemorysolutionsamericainc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/skhynixmemorysolutionsamericainc/jobs",
-    "urls": ["https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4264591009"]
+    "urls": [
+      "https://job-boards.greenhouse.io/skhynixmemorysolutionsamericainc/jobs/4264591009"
+    ]
   },
   {
     "name": "skillzinc",
@@ -15871,7 +16162,9 @@
     "identifier": "Skyward1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/Skyward1/postings",
-    "urls": ["https://jobs.smartrecruiters.com/Skyward1/744000107535692"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/Skyward1/744000107535692"
+    ]
   },
   {
     "name": "slihrms",
@@ -15968,7 +16261,8 @@
     "domain": "https://snc.wd1.myworkdayjobs.com/snc_external_career_site",
     "page": "https://snc.wd1.myworkdayjobs.com/wday/cxs/snc/snc_external_career_site/jobs",
     "urls": [
-      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/AI-Agent-Developer-I_R0030085"
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/AI-Agent-Developer-I_R0030085",
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Military-Fellowship-Program--Security-Specialist_R0030146"
     ]
   },
   {
@@ -15995,7 +16289,6 @@
       "https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698",
       "https://jobs.ashbyhq.com/snowflake/29356289-aa62-4cbb-b0ef-e779ccc7173a",
       "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27",
-      "https://jobs.ashbyhq.com/snowflake/467250b0-43bc-47aa-91d5-6312687e4097",
       "https://jobs.ashbyhq.com/snowflake/66fa23b2-0dcf-4c47-8127-9bdbcfc2ac62",
       "https://jobs.ashbyhq.com/snowflake/897e1850-c590-4462-b187-0516b65b2034",
       "https://jobs.ashbyhq.com/snowflake/c43a1579-20bf-4811-a591-57b0d8aa8d57",
@@ -16028,7 +16321,9 @@
     "identifier": "sofi",
     "domain": "https://sofi.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
-    "urls": ["https://sofi.com/careers/job/7778444003?gh_jid=7778444003"]
+    "urls": [
+      "https://sofi.com/careers/job/7778444003?gh_jid=7778444003"
+    ]
   },
   {
     "name": "sofiuniversity",
@@ -16071,7 +16366,9 @@
     "identifier": "solopulseco",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/solopulseco?mode=json",
-    "urls": ["https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56"]
+    "urls": [
+      "https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56"
+    ]
   },
   {
     "name": "somfygroup",
@@ -16114,7 +16411,8 @@
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6011507004",
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6015521004",
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6018031004",
-      "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6084889004"
+      "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6084889004",
+      "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5985237004"
     ]
   },
   {
@@ -16329,7 +16627,9 @@
     "identifier": "squarepoint-capital.com",
     "domain": "https://www.squarepoint-capital.com",
     "page": "",
-    "urls": ["https://www.squarepoint-capital.com/open-opportunities?id=243853"]
+    "urls": [
+      "https://www.squarepoint-capital.com/open-opportunities?id=243853"
+    ]
   },
   {
     "name": "squarepointcapital",
@@ -16337,7 +16637,9 @@
     "identifier": "squarepointcapital",
     "domain": "https://www.squarepoint-capital.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/squarepointcapital/jobs",
-    "urls": ["https://www.squarepoint-capital.com/open-opportunities?id=7905463&gh_jid=7905463"]
+    "urls": [
+      "https://www.squarepoint-capital.com/open-opportunities?id=7905463&gh_jid=7905463"
+    ]
   },
   {
     "name": "squarespace",
@@ -16356,7 +16658,9 @@
     "identifier": "sri",
     "domain": "https://careers-sri.icims.com",
     "page": "https://api.icims.com/v1/companies/sri/jobs",
-    "urls": ["https://careers-sri.icims.com/jobs/6417/job?mobile=true&needsRedirect=false"]
+    "urls": [
+      "https://careers-sri.icims.com/jobs/6417/job?mobile=true&needsRedirect=false"
+    ]
   },
   {
     "name": "ssctech",
@@ -16435,7 +16739,9 @@
     "identifier": "STCU1",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/STCU1/postings",
-    "urls": ["https://jobs.smartrecruiters.com/STCU1/744000114977297"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/STCU1/744000114977297"
+    ]
   },
   {
     "name": "steeldynamics",
@@ -16482,7 +16788,9 @@
     "identifier": "stockx",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/stockx/jobs",
-    "urls": ["https://job-boards.greenhouse.io/stockx/jobs/8465053002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/stockx/jobs/8465053002"
+    ]
   },
   {
     "name": "stokespacetechnologies",
@@ -16686,7 +16994,9 @@
     "identifier": "suno",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/suno",
-    "urls": ["https://jobs.ashbyhq.com/suno/dba162e0-97f1-4efe-b4ff-c7d671a01b11"]
+    "urls": [
+      "https://jobs.ashbyhq.com/suno/dba162e0-97f1-4efe-b4ff-c7d671a01b11"
+    ]
   },
   {
     "name": "super.com",
@@ -16726,7 +17036,9 @@
     "identifier": "swbc-swbccareers",
     "domain": "https://swbc.wd1.myworkdayjobs.com/swbccareers",
     "page": "https://swbc.wd1.myworkdayjobs.com/wday/cxs/swbc/swbccareers/jobs",
-    "urls": ["https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/AI-Intern_R0014877"]
+    "urls": [
+      "https://swbc.wd1.myworkdayjobs.com/swbccareers/job/San-Antonio-TX/AI-Intern_R0014877"
+    ]
   },
   {
     "name": "swbc",
@@ -16769,7 +17081,9 @@
     "identifier": "SymmetrySystems",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/SymmetrySystems?mode=json",
-    "urls": ["https://jobs.lever.co/SymmetrySystems/dbca271b-a99b-48ab-83f2-b596a037ad65/apply"]
+    "urls": [
+      "https://jobs.lever.co/SymmetrySystems/dbca271b-a99b-48ab-83f2-b596a037ad65/apply"
+    ]
   },
   {
     "name": "symphony",
@@ -17026,7 +17340,6 @@
     "domain": "https://tencent.wd1.myworkdayjobs.com/oa_huoshui_platform",
     "page": "https://tencent.wd1.myworkdayjobs.com/wday/cxs/tencent/oa_huoshui_platform/jobs",
     "urls": [
-      "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Engine-Developer-Intern--Gaming_R107109",
       "https://tencent.wd1.myworkdayjobs.com/OA_Huoshui_Platform/job/UK-London/Software-Engineering-Intern--Backend-Development_R107174",
       "https://tencent.wd1.myworkdayjobs.com/oa_huoshui_platform/job/Singapore-CapitaSky/WXG---Backend-Engineer_R107474",
       "https://tencent.wd1.myworkdayjobs.com/oa_huoshui_platform/job/Singapore-CapitaSky/WXG---Software-Engineer---Infrastructure_R107473-1"
@@ -17329,7 +17642,9 @@
     "identifier": "tifin",
     "domain": "https://tifin.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/tifin/jobs",
-    "urls": ["https://tifin.com/careers/apply/?gh_jid=5981740004"]
+    "urls": [
+      "https://tifin.com/careers/apply/?gh_jid=5981740004"
+    ]
   },
   {
     "name": "TikTok",
@@ -17570,7 +17885,9 @@
     "identifier": "togetherwork",
     "domain": "https://togetherwork.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/togetherwork/jobs",
-    "urls": ["https://togetherwork.com/application/?gh_jid=8448952002"]
+    "urls": [
+      "https://togetherwork.com/application/?gh_jid=8448952002"
+    ]
   },
   {
     "name": "tonal",
@@ -17691,7 +18008,9 @@
     "identifier": "TreehouseStrategyAndCommunicatio",
     "domain": "https://jobs.smartrecruiters.com",
     "page": "https://api.smartrecruiters.com/v1/companies/TreehouseStrategyAndCommunicatio/postings",
-    "urls": ["https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721"]
+    "urls": [
+      "https://jobs.smartrecruiters.com/TreehouseStrategyAndCommunicatio/743999873589721"
+    ]
   },
   {
     "name": "trendmicro",
@@ -17709,7 +18028,9 @@
     "identifier": "tri",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
-    "urls": ["https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19"]
+    "urls": [
+      "https://jobs.lever.co/tri/000be2f3-b77c-4719-8476-0718c4c49a19"
+    ]
   },
   {
     "name": "triafederal",
@@ -17730,7 +18051,9 @@
     "identifier": "tribalscale",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/tribalscale/jobs",
-    "urls": ["https://job-boards.greenhouse.io/tribalscale/jobs/4687337006"]
+    "urls": [
+      "https://job-boards.greenhouse.io/tribalscale/jobs/4687337006"
+    ]
   },
   {
     "name": "trillium",
@@ -17923,7 +18246,9 @@
     "identifier": "twitch",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/twitch/jobs",
-    "urls": ["https://job-boards.greenhouse.io/twitch/jobs/8527485002"]
+    "urls": [
+      "https://job-boards.greenhouse.io/twitch/jobs/8527485002"
+    ]
   },
   {
     "name": "twosixtechnologies",
@@ -18000,7 +18325,9 @@
     "identifier": "uipath",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/uipath",
-    "urls": ["https://jobs.ashbyhq.com/uipath/b262761e-ae68-48ab-b82c-8b41ad647a6f"]
+    "urls": [
+      "https://jobs.ashbyhq.com/uipath/b262761e-ae68-48ab-b82c-8b41ad647a6f"
+    ]
   },
   {
     "name": "uline",
@@ -18257,7 +18584,9 @@
     "identifier": "vast",
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/vast/jobs",
-    "urls": ["https://boards.greenhouse.io/vast/jobs/4662074006?gh_jid=4662074006"]
+    "urls": [
+      "https://boards.greenhouse.io/vast/jobs/4662074006?gh_jid=4662074006"
+    ]
   },
   {
     "name": "veeamsoftware",
@@ -18481,7 +18810,9 @@
     "identifier": "vestwell",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/vestwell/jobs",
-    "urls": ["https://job-boards.greenhouse.io/vestwell/jobs/7627350003"]
+    "urls": [
+      "https://job-boards.greenhouse.io/vestwell/jobs/7627350003"
+    ]
   },
   {
     "name": "vhr-genband",
@@ -18697,7 +19028,9 @@
     "identifier": "vulcanmat.taleo.net",
     "domain": "https://vulcanmat.taleo.net",
     "page": "",
-    "urls": ["https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=250002CY"]
+    "urls": [
+      "https://vulcanmat.taleo.net/careersection/2/jobdetail.ftl?job=250002CY"
+    ]
   },
   {
     "name": "waabi",
@@ -18740,7 +19073,9 @@
     "identifier": "wadetrim",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/wadetrim?mode=json",
-    "urls": ["https://jobs.lever.co/wadetrim/96c817b6-56d8-49fc-baa5-ec62725e9039"]
+    "urls": [
+      "https://jobs.lever.co/wadetrim/96c817b6-56d8-49fc-baa5-ec62725e9039"
+    ]
   },
   {
     "name": "walleyecapital-external-fulltime",
@@ -18804,7 +19139,9 @@
     "identifier": "wavetronix.breezy.hr",
     "domain": "https://wavetronix.breezy.hr",
     "page": "",
-    "urls": ["https://wavetronix.breezy.hr/p/b89da1eae7f3-computer-science-internship-summer-2026"]
+    "urls": [
+      "https://wavetronix.breezy.hr/p/b89da1eae7f3-computer-science-internship-summer-2026"
+    ]
   },
   {
     "name": "waystar",
@@ -18869,7 +19206,9 @@
     "identifier": "webfx",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/webfx?mode=json",
-    "urls": ["https://jobs.lever.co/webfx/3c850193-9429-43fd-9afb-052adea191b3/apply"]
+    "urls": [
+      "https://jobs.lever.co/webfx/3c850193-9429-43fd-9afb-052adea191b3/apply"
+    ]
   },
   {
     "name": "WellmarkInc",
@@ -19139,7 +19478,9 @@
     "identifier": "yugabyte",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/yugabyte/jobs",
-    "urls": ["https://job-boards.greenhouse.io/yugabyte/jobs/4688005006"]
+    "urls": [
+      "https://job-boards.greenhouse.io/yugabyte/jobs/4688005006"
+    ]
   },
   {
     "name": "zaimler",
@@ -19173,9 +19514,11 @@
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102139",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102140",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102141-1",
-      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102151",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102149",
-      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102154"
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102151",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102154",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102153",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Pune-India/Software-Engineer-1_JR102150"
     ]
   },
   {
@@ -19255,7 +19598,9 @@
     "identifier": "zocdoc",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/zocdoc/jobs",
-    "urls": ["https://job-boards.greenhouse.io/zocdoc/jobs/7757630"]
+    "urls": [
+      "https://job-boards.greenhouse.io/zocdoc/jobs/7757630"
+    ]
   },
   {
     "name": "zoetis",
@@ -19284,7 +19629,6 @@
     "domain": "https://www.zoominfo.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs",
     "urls": [
-      "https://www.zoominfo.com/careers?gh_jid=8534416002",
       "https://www.zoominfo.com/careers?gh_jid=8555302002"
     ]
   },
@@ -19323,6 +19667,8 @@
     "identifier": "zushealth",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/zushealth?mode=json",
-    "urls": ["https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0"]
+    "urls": [
+      "https://jobs.lever.co/zushealth/86db99fb-95c2-4369-b54f-b0d21fa59ba0"
+    ]
   }
 ]
