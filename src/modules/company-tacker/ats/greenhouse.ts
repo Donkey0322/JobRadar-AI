@@ -16,6 +16,8 @@ const identifierMap: Record<string, string> = {
   "dltrading.io": "confidentialsportstradingfirm",
   "pinterestcareers.com": "pinterest",
   "rentptr.com": "premiertruckrental",
+  "zipline.com": "flyzipline",
+  "squarepoint-capital.com": "squarepointcapital",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
