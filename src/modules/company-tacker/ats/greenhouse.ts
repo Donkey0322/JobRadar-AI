@@ -18,6 +18,7 @@ const identifierMap: Record<string, string> = {
   "rentptr.com": "premiertruckrental",
   "zipline.com": "flyzipline",
   "squarepoint-capital.com": "squarepointcapital",
+  "corporate.trustpilot.com": "trustpilot",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
