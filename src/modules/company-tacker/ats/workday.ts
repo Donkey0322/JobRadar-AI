@@ -20,9 +20,17 @@ const MAX_PAGES = 20;
 
 export function urlToWorkdayCompany(url: URL): Company {
   const name = url.hostname.split(".")[0];
+
   const parts = url.pathname.split("/").filter(Boolean);
-  const isLocale = (str: string) => /^[a-z]{2}-[A-Z]{2}$/.test(str);
-  const careerPage = (parts.find((p) => !isLocale(p)) || "").toLowerCase();
+
+  const isLocale = (str: string) => /^[a-z]{2}-[a-z]{2}$/i.test(str);
+
+  const jobIndex = parts.findIndex((p) => p.toLowerCase() === "job");
+
+  const careerPage =
+    jobIndex > 0
+      ? parts[jobIndex - 1].toLowerCase()
+      : (parts.find((p) => !isLocale(p))?.toLowerCase() ?? "external");
 
   return {
     name,
