@@ -5,7 +5,7 @@ import type { Job } from "@/types";
 import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
-import { loadJobs, loadUrls } from "@/utils/data";
+import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJd, saveJob, saveUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
 
@@ -73,12 +73,14 @@ export async function processJobs({
   }
 
   let newUrlAdded = false;
+  const opportunities: Job[] = [];
 
   function markAsSeen(job: Job) {
     const key = getJobKey(job.link);
 
     urls.add(job.link);
     keys.add(key);
+    opportunities.push(job);
     newUrlAdded = true;
   }
 
@@ -200,6 +202,7 @@ export async function processJobs({
 
   await saveUrls(urls);
   await saveJob(jobs);
+  await saveOpportunities(opportunities);
 
   if (newUrlAdded) {
     await buildCompanyList(urls);
