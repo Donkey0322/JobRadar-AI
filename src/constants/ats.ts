@@ -5,6 +5,7 @@ const ASHBY_API_URL = "https://api.ashbyhq.com/posting-api/job-board";
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";
 const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
+const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 
 export {
   GREENHOUSE_API_URL,
@@ -13,4 +14,5 @@ export {
   GOOGLE_CAREERS_URL,
   META_CAREERS_URL,
   APPLE_CAREERS_URL,
+  NETFLIX_API_URL,
 };

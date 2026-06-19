@@ -1,6 +1,11 @@
 // Amazon, Microsoft, Google, Apple, Meta, TikTok, Uber
 
-import { APPLE_CAREERS_URL, GOOGLE_CAREERS_URL, META_CAREERS_URL } from "@/constants/ats";
+import {
+  APPLE_CAREERS_URL,
+  GOOGLE_CAREERS_URL,
+  META_CAREERS_URL,
+  NETFLIX_API_URL,
+} from "@/constants/ats";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
@@ -10,21 +15,24 @@ import { fetchApple } from "./apple";
 import { fetchGoogle } from "./google";
 import { fetchMeta } from "./meta";
 import { fetchMicrosoft } from "./microsoft";
+import { fetchNetflix } from "./netflix";
 
-type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta" | "apple";
+type CustomCompanyIdentifier = "amazon" | "microsoft" | "google" | "meta" | "apple" | "netflix";
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
   const host = url.hostname;
-  if (host.includes("amazon.jobs")) {
+  if (host.endsWith("amazon.jobs")) {
     return "amazon";
-  } else if (host.includes("microsoft.com")) {
+  } else if (host.endsWith("microsoft.com")) {
     return "microsoft";
-  } else if (host.includes("google.com")) {
+  } else if (host.endsWith("google.com")) {
     return "google";
-  } else if (host.includes("metacareers.com")) {
+  } else if (host.endsWith("metacareers.com")) {
     return "meta";
-  } else if (host.includes("jobs.apple.com")) {
+  } else if (host.endsWith("jobs.apple.com")) {
     return "apple";
+  } else if (host.endsWith("netflix.net")) {
+    return "netflix";
   } else {
     // logger.warn(`Unsupported custom company: ${host}`);
     return null;
@@ -81,6 +89,15 @@ export function urlToCustomCompany(url: URL): Company {
         page: APPLE_CAREERS_URL,
         urls: [],
       };
+    case "netflix":
+      return {
+        name: "Netflix",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: NETFLIX_API_URL,
+        urls: [],
+      };
     default: {
       identifier satisfies null;
       return {
@@ -100,7 +117,9 @@ export async function fetchCustom(
   urls: Set<string>,
   signal: AbortSignal
 ): Promise<Job[]> {
-  switch (company.identifier) {
+  const identifier = parseCustomCompanyIdentifier(new URL(company.page));
+
+  switch (identifier) {
     case "microsoft": {
       return await fetchMicrosoft(company, urls, signal);
     }
@@ -116,7 +135,11 @@ export async function fetchCustom(
     case "apple": {
       return await fetchApple(company, urls, signal);
     }
+    case "netflix": {
+      return await fetchNetflix(company, urls, signal);
+    }
     default:
+      identifier satisfies null;
       return [];
   }
 }

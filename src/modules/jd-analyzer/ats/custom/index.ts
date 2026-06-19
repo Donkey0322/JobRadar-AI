@@ -7,8 +7,10 @@ import type { JDFetchResult } from "../index";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "../index";
 
-import { extractAppleJD } from "./apple";
+import { fetchAppleJD } from "./apple";
+import { fetchNetflixJD } from "./netflix";
 
+import { parseCustomCompanyIdentifier } from "@/modules/company-tacker/ats/custom";
 import { logger } from "@/utils/logger";
 
 const FALLBACK_JD_MAX_CHARS = 12_000;
@@ -151,12 +153,6 @@ function extractRelevantWindow(text: string, maxChars = FALLBACK_JD_MAX_CHARS): 
 }
 
 function extractFallbackJD(html: string): string | null {
-  const appleJD = extractAppleJD(html);
-
-  if (appleJD) {
-    return normalizeRawText(limitRawText(appleJD));
-  }
-
   const $ = cheerio.load(html);
 
   const ldJsonTexts = $('script[type="application/ld+json"]')
@@ -203,27 +199,40 @@ export async function fetchCustomJD(
   url: string,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<JDFetchResult> {
-  const res = await fetch(url, {
-    signal,
-    headers: {
-      "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
-    },
-  });
+  const identifier = parseCustomCompanyIdentifier(new URL(url));
 
-  if (!res.ok) {
-    logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
-    return {
-      jd: null,
-      error: JD_FETCH_ERROR.http(res.status, res.statusText),
-    };
+  switch (identifier) {
+    case "apple": {
+      return await fetchAppleJD(url, signal);
+    }
+    case "netflix": {
+      return await fetchNetflixJD(url, signal);
+    }
+    // TODO: meta, google, microsoft, amazon
+    default: {
+      const res = await fetch(url, {
+        signal,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+        },
+      });
+
+      if (!res.ok) {
+        logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
+        return {
+          jd: null,
+          error: JD_FETCH_ERROR.http(res.status, res.statusText),
+        };
+      }
+
+      const html = await res.text();
+      const jd = extractFallbackJD(html);
+
+      if (!jd) {
+        return { jd: null, error: JD_FETCH_ERROR.noData() };
+      }
+
+      return { jd, error: JD_FETCH_OK };
+    }
   }
-
-  const html = await res.text();
-  const jd = extractFallbackJD(html);
-
-  if (!jd) {
-    return { jd: null, error: JD_FETCH_ERROR.noData() };
-  }
-
-  return { jd, error: JD_FETCH_OK };
 }
