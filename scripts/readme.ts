@@ -295,7 +295,7 @@ function formatLocation(job: Opportunity): string {
 }
 
 function formatApplyButton(link: string): string {
-  return `<a href="${escapeHtmlAttr(link)}"><img alt="apply" src="${APPLY_BUTTON_SRC}" /></a>`;
+  return `<a href="${escapeHtmlAttr(link)}" target="_blank"><img alt="apply" src="${APPLY_BUTTON_SRC}" /></a>`;
 }
 
 function formatDate(value: string): string {
