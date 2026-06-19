@@ -234,6 +234,13 @@ export async function fetchAppleJD(
   const html = await res.text();
   const jd = extractAppleJD(html);
 
+  if (!jd) {
+    return {
+      jd: null,
+      error: JD_FETCH_ERROR.noData(),
+    };
+  }
+
   return {
     jd: jd ?? null,
     error: JD_FETCH_OK,
