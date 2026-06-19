@@ -23,8 +23,8 @@ export async function checkAIConfig() {
         process.env.AI_MODE = "ON";
       }
     }
-  } catch {
-    logger.error(`${RED_CROSS} Failed to check AI config, AI features will be disabled`);
+  } catch (error) {
+    logger.error({ error }, `${RED_CROSS} Failed to check AI config, AI features will be disabled`);
     process.env.AI_MODE = "DOWN";
   }
 }
