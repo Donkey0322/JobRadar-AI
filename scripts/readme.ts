@@ -304,9 +304,9 @@ function formatDate(value: string): string {
   }
 
   return date.toLocaleDateString("en-US", {
-    month: "long",
+    month: "short",
     day: "numeric",
-    timeZone: "UTC",
+    timeZone: "America/Los_Angeles",
   });
 }
 
@@ -321,11 +321,11 @@ function formatCategoryTitle(category: string): string {
 }
 
 function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
-  const columnWidths = ["180", "420", "180", "120", "100"];
+  const columnWidths = ["180px", "380px", "180px", "90px", "90px"];
 
   const lines: string[] = [];
 
-  lines.push(`<table width="100%">`);
+  lines.push(`<table  width="100%">`);
   lines.push(`  <thead>`);
   lines.push(`    <tr>`);
 
@@ -345,7 +345,9 @@ function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
     lines.push(`    <tr>`);
 
     row.forEach((cell, index) => {
-      lines.push(`      <td width="${columnWidths[index]}" align="left" valign="top">${cell}</td>`);
+      lines.push(
+        `      <td align="left" valign="top"><div style="width:${columnWidths[index]}">${cell}</div></td>`
+      );
     });
 
     lines.push(`    </tr>`);
