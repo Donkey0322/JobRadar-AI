@@ -1,5 +1,9 @@
 import * as cheerio from "cheerio";
 
+import { ABORT_SIGNAL } from "@/constants";
+
+import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
+
 const APPLE_HYDRATION_PATTERN =
   /window\.__staticRouterHydrationData\s*=\s*JSON\.parse\(\s*(["'])((?:\\.|(?!\1)[\s\S])*)\1\s*\)/;
 
@@ -207,4 +211,31 @@ ${additionalRequirements}
 `.trim();
 
   return result.length ? result : null;
+}
+
+export async function fetchAppleJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
+  const res = await fetch(url, {
+    signal,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+    },
+  });
+
+  if (!res.ok) {
+    return {
+      jd: null,
+      error: JD_FETCH_ERROR.http(res.status, res.statusText),
+    };
+  }
+
+  const html = await res.text();
+  const jd = extractAppleJD(html);
+
+  return {
+    jd: jd ?? null,
+    error: JD_FETCH_OK,
+  };
 }

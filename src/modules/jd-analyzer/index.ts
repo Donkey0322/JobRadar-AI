@@ -1,4 +1,5 @@
 import { CONFIG } from "@/constants";
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "./ats";
@@ -90,7 +91,10 @@ function finishRawJD(result: JDFetchResult): JDFetchResult {
   return { jd, error: JD_FETCH_OK };
 }
 
-export async function getRawJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+export async function getRawJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
   try {
     const urlType = classifyATS(new URL(url));
 
