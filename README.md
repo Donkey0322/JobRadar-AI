@@ -172,6 +172,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Adobe</td>
+      <td width="420" align="left" valign="top">Software Quality Engineer</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/Senior-Machine-Learning-Engineer_R165365" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Sanofi</td>
       <td width="420" align="left" valign="top">Data System Analyst</td>
       <td width="180" align="left" valign="top">Framingham, MA</td>
@@ -265,5 +272,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-19T17:16:49.117Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-19T17:33:43.331Z</code>
 </p>
