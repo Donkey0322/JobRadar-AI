@@ -121,7 +121,7 @@
   </thead>
   <tbody>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Eofd.fa.us6.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Albertsons Companies</div></td>
       <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
       <td align="left" valign="top"><div style="width:180px">Santa Ana, CA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726206" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -531,5 +531,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T10:21:00.406Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T11:34:31.545Z</code>
 </p>
