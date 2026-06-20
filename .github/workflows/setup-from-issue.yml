@@ -1,4 +1,5 @@
 name: Setup from Issue
+run-name: 🔍 Setup from Issue
 
 on:
   issues:
