@@ -16,12 +16,37 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
 
-      - name: Generate config.json from issue form
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Get config.json from issue form
+        uses: actions/github-script@v7
+        with:
+          script: |
+            pnpm jobctl setup get-config
+
+      - name: Get config.json from issue form
+        run: pnpm jobctl setup get-config
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
-        run: pnpm jobctl setup get-config
+          PAT: ${{ secrets.PAT }}
+
       - name: Commit config.json to main
         id: commit
         run: |
