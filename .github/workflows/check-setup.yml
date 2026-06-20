@@ -1,0 +1,102 @@
+name: Check Setup
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    if: >-
+      ${{
+        github.event.issue.pull_request == null &&
+        contains(github.event.comment.body, '/check-setup') &&
+        (
+          contains(github.event.issue.labels.*.name, 'setup') ||
+          startsWith(github.event.issue.title, 'Setup JobRadar-AI')
+        )
+      }}
+    runs-on: ubuntu-latest
+    env:
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      PAT: ${{ secrets.PAT }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check config
+        run: pnpm check-config
+
+      - name: Comment success and close issue
+        if: ${{ success() }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: [
+                "✅ Setup check passed!",
+                "",
+                "Your `config.json` is valid and all required secrets are configured.",
+                "",
+                "You can now run the main JobRadar-AI workflow manually once to verify email delivery."
+              ].join("\n"),
+            });
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              state: "closed",
+            });
+
+      - name: Comment failure
+        if: ${{ failure() }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: [
+                "❌ Setup check failed.",
+                "",
+                "Please open the failed workflow run logs to see the exact error.",
+                "",
+                "Common causes:",
+                "- Missing `SMTP_PASS`",
+                "- Missing `AI_API_KEY` when AI is enabled",
+                "- Missing `PAT`",
+                "- Invalid SMTP credentials",
+                "- Invalid AI model name",
+                "- Invalid `config.json`",
+                "",
+                "After fixing it, comment again:",
+                "",
+                "```",
+                "/check-setup",
+                "```"
+              ].join("\n"),
+            });

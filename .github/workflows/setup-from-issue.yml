@@ -7,11 +7,10 @@ on:
 permissions:
   contents: write
   issues: write
-  pull-requests: write
 
 jobs:
   setup:
-    if: github.event.issue.title == 'Setup JobRadar-AI'
+    if: contains(github.event.issue.labels.*.name, 'setup') || startsWith(github.event.issue.title, 'Setup JobRadar-AI')
     runs-on: ubuntu-latest
 
     steps:
@@ -24,8 +23,7 @@ jobs:
           script: |
             const fs = require("fs");
 
-            const issue = context.payload.issue;
-            const body = issue.body || "";
+            const body = context.payload.issue.body || "";
 
             function escapeRegExp(str) {
               return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -154,85 +152,63 @@ jobs:
               `${JSON.stringify(config, null, 2)}\n`
             );
 
-      - name: Create setup branch
-        id: branch
+      - name: Commit config.json to main
+        id: commit
         run: |
-          BRANCH="setup/config-issue-${{ github.event.issue.number }}"
-
-          git checkout -B "$BRANCH"
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add config.json
 
           if git diff --cached --quiet; then
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No config changes to commit."
           else
-            git commit -m "chore: generate config from setup issue #${{ github.event.issue.number }}"
-            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            git commit -m "chore: update config from setup issue #${{ github.event.issue.number }}"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-          git push --force-with-lease origin "$BRANCH"
-
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-
-      - name: Create or update setup pull request
-        env:
-          GH_TOKEN: ${{ github.token }}
-          BRANCH: ${{ steps.branch.outputs.branch }}
-        run: |
-          TITLE="Setup JobRadar-AI config"
-          BODY="Generated from setup issue #${{ github.event.issue.number }}.
-
-          This PR was created automatically from the setup issue.
-
-          It should be merged only after:
-          - config validation passes
-          - required GitHub Actions secrets are configured
-          - \`pnpm check-config\` passes
-
-          Required secrets:
-          - \`SMTP_PASS\`
-          - \`AI_API_KEY\`
-          - \`PAT\`"
-
-          EXISTING_PR="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number')"
-
-          if [ -z "$EXISTING_PR" ]; then
-            gh pr create \
-              --base main \
-              --head "$BRANCH" \
-              --title "$TITLE" \
-              --body "$BODY"
-          else
-            gh pr edit "$EXISTING_PR" \
-              --title "$TITLE" \
-              --body "$BODY"
-          fi
-
-      - name: Comment on setup issue
+      - name: Comment setup instructions
         uses: actions/github-script@v7
         with:
           script: |
-            const branch = "${{ steps.branch.outputs.branch }}";
+            const changed = "${{ steps.commit.outputs.changed }}" === "true";
+
+            const message = changed
+              ? `✅ \`config.json\` has been generated and committed to \`main\`.
+
+            Next steps:
+
+            1. Go to **Settings → Secrets and variables → Actions**
+            2. Add these secrets:
+               - \`SMTP_PASS\`
+               - \`AI_API_KEY\`
+               - \`PAT\`
+            3. Come back to this issue and comment:
+
+            \`\`\`
+            /check-setup
+            \`\`\`
+
+            I will verify your config and secrets automatically.`
+              : `✅ \`config.json\` already matches this setup form.
+
+            Please make sure these secrets are configured:
+
+            - \`SMTP_PASS\`
+            - \`AI_API_KEY\`
+            - \`PAT\`
+
+            Then comment:
+
+            \`\`\`
+            /check-setup
+            \`\`\``;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.payload.issue.number,
-              body: `✅ A setup PR has been created from this issue.
-
-            Branch: \`${branch}\`
-
-            Next steps:
-
-            1. Go to **Settings → Secrets and variables → Actions**
-            2. Add the required secrets:
-               - \`SMTP_PASS\`
-               - \`AI_API_KEY\`
-               - \`PAT\`
-            3. Wait for the PR checks to pass
-            4. Merge the setup PR, or let auto-merge handle it if configured.`,
+              body: message,
             });
