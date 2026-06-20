@@ -1,0 +1,239 @@
+name: Setup JobRadar-AI
+description: Generate a config.json for your own JobRadar-AI workflow
+title: "Setup JobRadar-AI"
+labels: ["setup"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Setup JobRadar-AI
+
+        Fill out this form to generate your `config.json`.
+
+        **Do not enter passwords or API keys here.**
+        This issue may be public depending on your repository settings.
+
+        Add sensitive values later in:
+
+        `Settings → Secrets and variables → Actions`
+
+        Required secrets may include:
+
+        - `SMTP_PASS`
+        - `AI_API_KEY`
+        - `PAT`
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Target Roles
+
+  - type: checkboxes
+    id: intern
+    attributes:
+      label: Internship targets
+      description: Select the internship roles you want to track.
+      options:
+        - label: summer intern
+          required: false
+        - label: off-season intern
+          required: false
+
+  - type: checkboxes
+    id: full_time
+    attributes:
+      label: Full-time targets
+      description: Select the full-time roles you want to track.
+      options:
+        - label: entry level
+          required: false
+        - label: mid level
+          required: false
+        - label: senior level
+          required: false
+
+  - type: checkboxes
+    id: countries
+    attributes:
+      label: Countries
+      description: Select the countries you want to track.
+      options:
+        - label: USA
+          required: false
+        - label: Canada
+          required: false
+        - label: UK
+          required: false
+        - label: Singapore
+          required: false
+        - label: Taiwan
+          required: false
+        - label: Japan
+          required: false
+        - label: Remote
+          required: false
+        - label: Other
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Eligibility Filters
+
+        These filters are applied to selected countries.
+
+        For most international students targeting the U.S., keep both options as `false`.
+
+  - type: dropdown
+    id: allow_citizenship_required
+    attributes:
+      label: Allow citizenship-required jobs?
+      description: Choose false to exclude jobs that require citizenship.
+      options:
+        - "false"
+        - "true"
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: allow_no_sponsorship
+    attributes:
+      label: Allow jobs without sponsorship?
+      description: Choose false to exclude jobs that do not offer sponsorship.
+      options:
+        - "false"
+        - "true"
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: keywords
+    attributes:
+      label: Keywords
+      description: One keyword per line. Jobs matching these keywords will be considered relevant.
+      value: |
+        software
+        system
+        dev
+        develop
+        developer
+        development
+        software engineering
+        software engineer
+        backend
+        back-end
+        frontend
+        front-end
+        full-stack
+        fullstack
+        platform
+        web
+        mobile
+        ios
+        android
+        data
+        ai
+        cloud
+        infra
+        infrastructure
+        automation
+        swe
+        sde
+        ui
+        ux
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## AI Configuration
+
+  - type: dropdown
+    id: ai_provider
+    attributes:
+      label: AI provider
+      description: Select the AI provider used for JD analysis.
+      options:
+        - google
+        - anthropic
+        - openai
+      default: 0
+
+  - type: input
+    id: ai_model
+    attributes:
+      label: AI model
+      description: Model name.
+      placeholder: gemini-2.5-flash
+      value: gemini-2.5-flash
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Email Sender
+
+        The sender email is the account used to send job alert emails.
+
+        For Gmail, use:
+
+        - SMTP host: `smtp.gmail.com`
+        - SMTP port: `587`
+
+        You still need to add the email password or app password as a GitHub Actions Secret.
+
+  - type: input
+    id: smtp_host
+    attributes:
+      label: SMTP host
+      description: SMTP server host.
+      placeholder: smtp.gmail.com
+      value: smtp.gmail.com
+    validations:
+      required: true
+
+  - type: input
+    id: smtp_port
+    attributes:
+      label: SMTP port
+      description: SMTP server port.
+      placeholder: "587"
+      value: "587"
+    validations:
+      required: true
+
+  - type: input
+    id: sender_email
+    attributes:
+      label: Sender email
+      description: Email address used to send alerts.
+      placeholder: your.sender@gmail.com
+    validations:
+      required: true
+
+  - type: input
+    id: sender_user
+    attributes:
+      label: SMTP user
+      description: SMTP login username. Usually the same as sender email.
+      placeholder: your.sender@gmail.com
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Email Receiver
+
+  - type: input
+    id: receiver_email
+    attributes:
+      label: Receiver email
+      description: Email address that receives job alerts.
+      placeholder: your.email@gmail.com
+    validations:
+      required: true
