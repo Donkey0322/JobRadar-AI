@@ -305,6 +305,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Boeing</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Test Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hazelwood, MO</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Hazelwood-MO/Associate-Software-Engineer---Test---Verification_JR2026511888-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Cvshealth</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
       <td align="left" valign="top"><div style="width:180px">Wellesley, MA</div></td>
@@ -1007,5 +1014,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T17:21:50.141Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T18:48:59.207Z</code>
 </p>
