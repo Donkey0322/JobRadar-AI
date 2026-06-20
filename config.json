@@ -1,8 +1,15 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"],
-    "full-time": ["entry level"],
-    "countries": ["USA"],
+    "intern": [
+      "summer intern",
+      "off-season intern"
+    ],
+    "full-time": [
+      "entry level"
+    ],
+    "countries": [
+      "USA"
+    ],
     "filter": {
       "USA": {
         "allow_citizenship_required": false,
@@ -42,7 +49,7 @@
     ]
   },
   "ai": {
-    "enabled": true,
+    "enabled": false,
     "provider": "google",
     "model": "gemini-2.5-flash"
   },
