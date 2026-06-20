@@ -263,7 +263,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Nokia</div></td>
       <td align="left" valign="top"><div style="width:380px">PIC Design and High-Speed Device Development</div></td>
       <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32940" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -531,5 +531,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T12:18:39.898Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T13:11:12.805Z</code>
 </p>
