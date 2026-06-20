@@ -54,6 +54,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Generac</div></td>
+      <td align="left" valign="top"><div style="width:380px">Computer Engineer Intern</div></td>
+      <td align="left" valign="top"><div style="width:180px">Pewaukee, WI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://generac.wd5.myworkdayjobs.com/en-US/external/job/Pewaukee-WI---USA/Computer-Engineering-Intern_JR14798" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Cubic</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineering &amp; Automation Intern<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Herndon, VA</div></td>
@@ -503,5 +510,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T01:35:33.533Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T03:40:01.849Z</code>
 </p>
