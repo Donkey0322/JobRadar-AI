@@ -51,7 +51,7 @@ jobs:
 
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.PAT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
 
           LOG_PRETTY: "1"
@@ -61,7 +61,7 @@ jobs:
         id: sync
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.PAT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
 
           LOG_PRETTY: "1"

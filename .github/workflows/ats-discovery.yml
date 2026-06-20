@@ -20,49 +20,39 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      # ✅ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
 
-      # ✅ Setup pnpm
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
         with:
           version: 11
 
-      # ✅ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: "pnpm"
+          cache: pnpm
 
-      # ✅ Install dependencies
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # ✅ Check config
       - name: Check configuration
         run: pnpm jobctl setup check-config
-
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-
+          PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
-
-      # ✅ Run ATS discovery pipeline
       - name: Run ATS discovery pipeline
         id: sync
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-
+          PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
         run: |
           pnpm jobctl sync discover
@@ -74,15 +64,12 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
-      # ✅ Cancel workflow if no changes
       - name: Cancel workflow if no changes
         if: steps.sync.outputs.has_changes != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          gh run cancel ${{ github.run_id }}
+        run: gh run cancel ${{ github.run_id }}
 
-      # ✅ Commit and push updated discovery data
       - name: Commit and push updated data
         if: steps.sync.outputs.has_changes == 'true'
         env:
