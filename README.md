@@ -235,6 +235,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer, Quality Intelligence <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Costa Mesa, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5167749007?gh_jid=5167749007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Center Administrator<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
@@ -369,6 +376,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Tensorwave</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Front End</div></td>
+      <td align="left" valign="top"><div style="width:180px">Las Vegas, NV</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/tensorwave/31e9b0a4-d5fe-4227-9714-1d0885cbe2b7" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Photon career site</div></td>
+      <td align="left" valign="top"><div style="width:380px">Webmethods Developer - Cleveland, OH</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cleveland, OH</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26260" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 19</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Gdit</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
@@ -510,5 +531,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T03:40:01.849Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T06:48:44.850Z</code>
 </p>
