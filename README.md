@@ -121,7 +121,70 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Cvshealth</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942335" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Wellesley, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/MA---Wellesley/Data-Scientist_R0942306" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Engineer_R0942311" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942279" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Hartford, CT</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Data-Engineer_R0942264" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942411" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Scientist_R0942426" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Cloud Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Cloud-Engineer_R0942449" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Lubbock, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/717127" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
       <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
       <td align="left" valign="top"><div style="width:180px">Fairfax, VA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726221" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -241,6 +304,230 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Cvshealth</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Wellesley, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/MA---Wellesley/Software-Development-Engineer_R0942236" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942235" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Associate Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Associate-Data-Engineer_R0942229" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Software-Development-Engineer_R0942285" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Digital Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Digital-Development-Engineer_R0942359" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Wellesley, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/MA---Wellesley/Data-Scientist_R0942343" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942340" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Scientist_R0942305" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942286" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Chicago, IL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/Chicago-525-West-Monroe/Data-Engineer_R0942275" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942273" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Downers Grove, IL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Downers-Grove/Data-Engineer_R0942271" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942270" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Cloud Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Hartford, CT</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Cloud-Engineer_R0942298" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Cloud Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Cloud-Engineer_R0942284" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Cloud Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Cloud-Engineer_R0942254" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942458" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Hartford, CT</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Software-Development-Engineer_R0942445" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Scottsdale, AZ</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/AZ---Scottsdale/Software-Development-Engineer_R0942397" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942394" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942382" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Scientist_R0942475" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Scientist_R0942418" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Data-Engineer_R0942493" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Engineer_R0942446" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Engineer_R0942442" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942420" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942401" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942499" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942509" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942507" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942501" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Engineer, Quality Intelligence <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
@@ -383,6 +670,188 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Cvshealth</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942347" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Monroeville, PA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/PA---Monroeville/Sr-Software-Development-Engineer_R0942346" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942344" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942316" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Sr-Software-Development-Engineer_R0942310" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Downers Grove, IL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/IL---Downers-Grove/Sr-Software-Development-Engineer_R0942294" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942291" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Hartford, CT</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Sr-Software-Development-Engineer_R0942274" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942256" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Sr-Data-Engineer_R0942362" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Sr-Data-Engineer_R0942356" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942326" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Scientist_R0942341" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942431" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942414" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942403" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942368" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Software-Development-Engineer_R0942364" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Data Scientist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Data-Scientist_R0942402" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Analyst, Application Development</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Sr-Analyst--Application-Development_R0942453" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Software-Development-Engineer_R0942369" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mgr, Application Development (IC)</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Mgr--Application-Development--IC-_R0942370" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Data-Engineer_R0942490" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Woonsocket, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/RI---Woonsocket/Data-Engineer_R0942412" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irving, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Irving/Data-Engineer_R0942384" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Richardson, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942500" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Tensorwave</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer, Front End</div></td>
@@ -538,5 +1007,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T17:04:44.250Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T17:21:50.141Z</code>
 </p>
