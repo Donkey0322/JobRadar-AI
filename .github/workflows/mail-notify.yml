@@ -46,21 +46,20 @@ jobs:
 
       # ✅ Check configuration
       - name: Check configuration
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          PAT: ${{ secrets.PAT }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          LOG_PRETTY: "1"
         run: pnpm jobctl setup check-config
 
+      # ✅ Notify jobs from current commit
+      - name: Notify jobs from commit
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           PAT: ${{ secrets.PAT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          LOG_PRETTY: "1"
-
-      # ✅ Notify latest jobs
-      - name: Notify latest jobs
-        env:
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          PAT: ${{ secrets.PAT }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-
           LOG_PRETTY: "1"
         run: |
-          pnpm jobctl notify latest
+          echo "Commit SHA: ${{ github.sha }}"
+          pnpm jobctl notify commit "${{ github.sha }}"
