@@ -133,7 +133,7 @@ function buildReadme(input: {
     ``,
     `<p align="center">`,
     `  <img src="${formatBadgeUrl("Source", "opportunities.ndjson", "black")}" />`,
-    `  <img src="${formatBadgeUrl("AI Parsed", aiParser, "blue")}" />`,
+    config.ai.enabled ? `<img src="${formatBadgeUrl("AI Parsed", aiParser, "blue")}" />` : "",
     `  <img src="${formatBadgeUrl("Countries", countries, "green")}" />`,
     `  <img src="${formatBadgeUrl("Updated", generatedDate, "orange")}" />`,
     `</p>`
@@ -360,7 +360,11 @@ function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
 }
 
 function formatAiParser(config: Config): string {
-  return [config.ai?.provider, config.ai?.model].filter(Boolean).join(" / ") || "enabled";
+  if (!config.ai.enabled) {
+    return "disabled";
+  }
+
+  return [config.ai.provider, config.ai.model].filter(Boolean).join(" / ") || "enabled";
 }
 
 function formatCountries(config: Config): string {

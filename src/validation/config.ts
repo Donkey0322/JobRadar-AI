@@ -59,13 +59,21 @@ export const TargetSchema = z
     }
   });
 
+const AISchema = z.discriminatedUnion("enabled", [
+  z.object({
+    enabled: z.literal(false),
+  }),
+  z.object({
+    enabled: z.literal(true),
+    provider: z.enum(["openai", "google", "anthropic"]),
+    model: z.string().min(1),
+  }),
+]);
+
 export const ConfigSchema = z.object({
   target: TargetSchema,
 
-  ai: z.object({
-    provider: z.enum(["openai", "google", "anthropic"]),
-    model: z.string().min(1, "model cannot be empty"),
-  }),
+  ai: AISchema,
 
   sender: z.object({
     host: z.string().min(1, "host cannot be empty"),

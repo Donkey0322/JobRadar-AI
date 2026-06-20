@@ -74,8 +74,6 @@ body:
           required: false
         - label: Remote
           required: false
-        - label: Other
-          required: false
 
   - type: markdown
     attributes:
@@ -152,6 +150,15 @@ body:
     attributes:
       value: |
         ## AI Configuration
+
+  - type: checkboxes
+    id: ai_enabled
+    attributes:
+      label: AI enabled
+      description: Enable AI JD analysis.
+      options:
+        - label: Enable AI JD analysis
+          required: false
 
   - type: dropdown
     id: ai_provider

@@ -1,0 +1,238 @@
+name: Setup from Issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  setup:
+    if: github.event.issue.title == 'Setup JobRadar-AI'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate config.json from issue form
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+
+            const issue = context.payload.issue;
+            const body = issue.body || "";
+
+            function escapeRegExp(str) {
+              return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            }
+
+            function getSection(title) {
+              const escapedTitle = escapeRegExp(title);
+              const regex = new RegExp(
+                `### ${escapedTitle}\\s*\\n\\s*([\\s\\S]*?)(?=\\n### |$)`,
+                "i"
+              );
+
+              const match = body.match(regex);
+              return match ? match[1].trim() : "";
+            }
+
+            function parseCheckboxes(title) {
+              return getSection(title)
+                .split("\n")
+                .map((line) => line.trim())
+                .filter((line) => /^-\s*\[[xX]\]\s+/.test(line))
+                .map((line) => line.replace(/^-\s*\[[xX]\]\s+/, "").trim())
+                .filter(Boolean);
+            }
+
+            function parseCheckboxEnabled(title, checkedLabel = "true") {
+              return parseCheckboxes(title).includes(checkedLabel);
+            }
+
+            function parseLines(title) {
+              return getSection(title)
+                .split("\n")
+                .map((line) => line.trim())
+                .filter(Boolean);
+            }
+
+            function parseBoolean(title) {
+              const value = getSection(title).toLowerCase();
+
+              if (value === "true") return true;
+              if (value === "false") return false;
+
+              throw new Error(`Invalid boolean value for "${title}": ${value}`);
+            }
+
+            function parseNumber(title) {
+              const raw = getSection(title);
+              const value = Number(raw);
+
+              if (!Number.isFinite(value)) {
+                throw new Error(`Invalid number value for "${title}": ${raw}`);
+              }
+
+              return value;
+            }
+
+            function getRequired(title) {
+              const value = getSection(title);
+
+              if (!value) {
+                throw new Error(`Missing required field: "${title}"`);
+              }
+
+              return value;
+            }
+
+            const intern = parseCheckboxes("Internship targets");
+            const fullTime = parseCheckboxes("Full-time targets");
+            const countries = parseCheckboxes("Countries");
+
+            if (intern.length === 0 && fullTime.length === 0) {
+              throw new Error("Please select at least one internship or full-time target.");
+            }
+
+            if (countries.length === 0) {
+              throw new Error("Please select at least one country.");
+            }
+
+            const allowCitizenshipRequired = parseBoolean(
+              "Allow citizenship-required jobs?"
+            );
+
+            const allowNoSponsorship = parseBoolean(
+              "Allow jobs without sponsorship?"
+            );
+
+            const filter = Object.fromEntries(
+              countries.map((country) => [
+                country,
+                {
+                  allow_citizenship_required: allowCitizenshipRequired,
+                  allow_no_sponsorship: allowNoSponsorship,
+                },
+              ])
+            );
+
+            const senderEmail = getRequired("Sender email");
+            const senderUser = getRequired("SMTP user");
+
+            const config = {
+              target: {
+                intern,
+                "full-time": fullTime,
+                countries,
+                filter,
+                keywords: parseLines("Keywords"),
+              },
+              ai: {
+                enabled: parseCheckboxEnabled("AI enabled"),
+                provider: getRequired("AI provider"),
+                model: getRequired("AI model"),
+              },
+              sender: {
+                host: getRequired("SMTP host"),
+                port: parseNumber("SMTP port"),
+                user: senderUser,
+                email: senderEmail,
+              },
+              receiver: {
+                email: getRequired("Receiver email"),
+              },
+            };
+
+            fs.writeFileSync(
+              "config.json",
+              `${JSON.stringify(config, null, 2)}\n`
+            );
+
+      - name: Create setup branch
+        id: branch
+        run: |
+          BRANCH="setup/config-issue-${{ github.event.issue.number }}"
+
+          git checkout -B "$BRANCH"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add config.json
+
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No config changes to commit."
+          else
+            git commit -m "chore: generate config from setup issue #${{ github.event.issue.number }}"
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+          git push --force-with-lease origin "$BRANCH"
+
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update setup pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.branch.outputs.branch }}
+        run: |
+          TITLE="Setup JobRadar-AI config"
+          BODY="Generated from setup issue #${{ github.event.issue.number }}.
+
+          This PR was created automatically from the setup issue.
+
+          It should be merged only after:
+          - config validation passes
+          - required GitHub Actions secrets are configured
+          - \`pnpm check-config\` passes
+
+          Required secrets:
+          - \`SMTP_PASS\`
+          - \`AI_API_KEY\`
+          - \`PAT\`"
+
+          EXISTING_PR="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number')"
+
+          if [ -z "$EXISTING_PR" ]; then
+            gh pr create \
+              --base main \
+              --head "$BRANCH" \
+              --title "$TITLE" \
+              --body "$BODY"
+          else
+            gh pr edit "$EXISTING_PR" \
+              --title "$TITLE" \
+              --body "$BODY"
+          fi
+
+      - name: Comment on setup issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = "${{ steps.branch.outputs.branch }}";
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: `✅ A setup PR has been created from this issue.
+
+            Branch: \`${branch}\`
+
+            Next steps:
+
+            1. Go to **Settings → Secrets and variables → Actions**
+            2. Add the required secrets:
+               - \`SMTP_PASS\`
+               - \`AI_API_KEY\`
+               - \`PAT\`
+            3. Wait for the PR checks to pass
+            4. Merge the setup PR, or let auto-merge handle it if configured.`,
+            });
