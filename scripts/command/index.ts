@@ -61,4 +61,9 @@ setup.command("check-config").action(async () => {
   await checkConfig();
 });
 
+setup.command("get-config").action(async () => {
+  const { default: getConfig } = await import("./setup/getConfig");
+  await getConfig();
+});
+
 program.parse();
