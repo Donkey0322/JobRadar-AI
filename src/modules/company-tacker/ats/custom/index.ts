@@ -1,5 +1,6 @@
 // Amazon, Microsoft, Google, Apple, Meta, TikTok, Uber
 
+import { ABORT_SIGNAL } from "@/constants";
 import {
   APPLE_CAREERS_URL,
   GOOGLE_CAREERS_URL,
@@ -7,6 +8,7 @@ import {
   NETFLIX_API_URL,
   TIKTOK_API_URL,
 } from "@/constants/ats";
+import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
@@ -18,6 +20,8 @@ import { fetchMeta } from "./meta";
 import { fetchMicrosoft } from "./microsoft";
 import { fetchNetflix } from "./netflix";
 import { fetchTikTok } from "./tiktok";
+
+import { logger } from "@/utils/logger";
 
 type CustomCompanyIdentifier =
   | "amazon"
@@ -135,34 +139,44 @@ export function urlToCustomCompany(url: URL): Company {
 export async function fetchCustom(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
-  const identifier = parseCustomCompanyIdentifier(new URL(company.page));
+  if (company.page === "") {
+    logger.warn({ company: company.name }, `⚠️ No page specified`);
+    return [];
+  }
 
-  switch (identifier) {
-    case "microsoft": {
-      return await fetchMicrosoft(company, urls, signal);
+  try {
+    const identifier = parseCustomCompanyIdentifier(new URL(company.page));
+
+    switch (identifier) {
+      case "microsoft": {
+        return await fetchMicrosoft(company, urls, signal);
+      }
+      case "amazon": {
+        return await fetchAmazon(company, urls, signal);
+      }
+      case "google": {
+        return await fetchGoogle(company, urls, signal);
+      }
+      case "meta": {
+        return await fetchMeta(company, urls, signal);
+      }
+      case "apple": {
+        return await fetchApple(company, urls, signal);
+      }
+      case "netflix": {
+        return await fetchNetflix(company, urls, signal);
+      }
+      case "tiktok": {
+        return await fetchTikTok(company, urls, signal);
+      }
+      default:
+        identifier satisfies null;
+        return [];
     }
-    case "amazon": {
-      return await fetchAmazon(company, urls, signal);
-    }
-    case "google": {
-      return await fetchGoogle(company, urls, signal);
-    }
-    case "meta": {
-      return await fetchMeta(company, urls, signal);
-    }
-    case "apple": {
-      return await fetchApple(company, urls, signal);
-    }
-    case "netflix": {
-      return await fetchNetflix(company, urls, signal);
-    }
-    case "tiktok": {
-      return await fetchTikTok(company, urls, signal);
-    }
-    default:
-      identifier satisfies null;
-      return [];
+  } catch (error) {
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching custom jobs`);
+    return [];
   }
 }
