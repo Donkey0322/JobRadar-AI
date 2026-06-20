@@ -44,12 +44,11 @@
       "automation",
       "swe",
       "sde",
-      "ui",
-      "ux"
+      "ui"
     ]
   },
   "ai": {
-    "enabled": false,
+    "enabled": true,
     "provider": "google",
     "model": "gemini-2.5-flash"
   },
