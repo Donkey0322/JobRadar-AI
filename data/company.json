@@ -6840,7 +6840,10 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/725823",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/725828",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/725830",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/696920",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726205",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726206"
     ]
   },
   {
@@ -8070,7 +8073,8 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-McLean/UI-UX-Developer---TS-SCI-with-Polygraph_RQ218916-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Quantico/NCIS-SharePoint-Developer---Active-TS-SCI-clearance_RQ218256-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Hybrid-Cloud-Platform-Engineer_RQ218582-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Software-Engineer_RQ222244-1"
     ]
   },
   {
@@ -10250,6 +10254,7 @@
     "urls": [
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Automation-Engineer---Rack_J2451516",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Cloud-Mfg-Test-Development-Engineer_J2440963",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Automation-Technician--IC-_J2452222",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Becario-para-desarrollo-de-software_J2453163",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Gurnee-IL/Automation-Engineer_J2454229",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Ho-Chi-Minh-City/Automation-Engineer_J2449592-1",
@@ -10268,8 +10273,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Test-Development-Technician_J2454183",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Taichung/Tooling-CAD-CAM-Development-Engineer-I_J2454589-1",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Uzhhorod/Business-Development-Analyst_J2451064-1",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Automation-Technician--IC-_J2452222"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300"
     ]
   },
   {
@@ -12422,6 +12426,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556752823",
       "https://apply.careers.microsoft.com/careers/job/1970393556834019",
       "https://apply.careers.microsoft.com/careers/job/1970393556851162",
+      "https://apply.careers.microsoft.com/undefined",
       "https://jobs.careers.microsoft.com/global/en/job/1860947/Software-Engineer%3A-Fullstack-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860979/Software-Engineer%3A-AI%2FML-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860982/Software-Engineer%3A-Systems-Intern-Opportunities-for-University-Students%2C-Redmond",
@@ -12445,8 +12450,7 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
-      "https://apply.careers.microsoft.com/undefined"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
     ]
   },
   {
@@ -12615,8 +12619,8 @@
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Development-Process-Assurance-Engineer_R-26-17016",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Information-Systems-Security-Officer_R-26-17255",
       "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/NX-CAM-Support-and-Post-Developer_R-26-18251-1",
-      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Software-Engineer_R-26-16578",
-      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Project-Quality-Engineer---New-Product-Development_R-26-17777"
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Project-Quality-Engineer---New-Product-Development_R-26-17777",
+      "https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Torrance-CA/Software-Engineer_R-26-16578"
     ]
   },
   {
@@ -16423,6 +16427,7 @@
       "https://boards.greenhouse.io/spacex/jobs/8451998002?gh_jid=8451998002",
       "https://boards.greenhouse.io/spacex/jobs/8501225002?gh_jid=8501225002",
       "https://boards.greenhouse.io/spacex/jobs/8530684002?gh_jid=8530684002",
+      "https://boards.greenhouse.io/spacex/jobs/8532395002?gh_jid=8532395002",
       "https://boards.greenhouse.io/spacex/jobs/8546676002?gh_jid=8546676002",
       "https://boards.greenhouse.io/spacex/jobs/8550675002?gh_jid=8550675002",
       "https://boards.greenhouse.io/spacex/jobs/8552660002?gh_jid=8552660002",
@@ -16480,7 +16485,7 @@
       "https://boards.greenhouse.io/spacex/jobs/8600005002?gh_jid=8600005002",
       "https://boards.greenhouse.io/spacex/jobs/8600012002?gh_jid=8600012002",
       "https://boards.greenhouse.io/spacex/jobs/8600019002?gh_jid=8600019002",
-      "https://boards.greenhouse.io/spacex/jobs/8532395002?gh_jid=8532395002"
+      "https://boards.greenhouse.io/spacex/jobs/8544410002?gh_jid=8544410002"
     ]
   },
   {
@@ -16828,6 +16833,7 @@
       "https://stripe.com/jobs/search?gh_jid=6567253",
       "https://stripe.com/jobs/search?gh_jid=6606581",
       "https://stripe.com/jobs/search?gh_jid=6717520",
+      "https://stripe.com/jobs/search?gh_jid=6786324",
       "https://stripe.com/jobs/search?gh_jid=7091959",
       "https://stripe.com/jobs/search?gh_jid=7176977",
       "https://stripe.com/jobs/search?gh_jid=7182617",
@@ -16896,8 +16902,7 @@
       "https://stripe.com/jobs/search?gh_jid=7991718",
       "https://stripe.com/jobs/search?gh_jid=8003382",
       "https://stripe.com/jobs/search?gh_jid=8009143",
-      "https://stripe.com/jobs/search?gh_jid=8018297",
-      "https://stripe.com/jobs/search?gh_jid=6786324"
+      "https://stripe.com/jobs/search?gh_jid=8018297"
     ]
   },
   {
