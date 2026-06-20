@@ -7,7 +7,8 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./command/sync/shared";
 
-import { analyzeLink } from "@/modules/jd-analyzer";
+import { analyzeLink, getRawJD } from "@/modules/jd-analyzer";
+import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
 import { logger } from "@/utils/logger";
 
 export async function promptJob(): Promise<Job> {
@@ -106,12 +107,21 @@ async function main() {
     const content = await fs.readFile(filePath, "utf8");
     const job: Job = JSON.parse(content);
 
+    const { error } = await getRawJD(job.link);
+    if (HttpStatusCode.isError(error.code)) {
+      process.exit(1);
+    }
+
     await processJobs({ jobs: [job], ...context });
     return;
   }
 
   // 3. default → add mode
   const job = await promptJob();
+  const { error } = await getRawJD(job.link);
+  if (HttpStatusCode.isError(error.code)) {
+    process.exit(1);
+  }
   await processJobs({ jobs: [job], ...context });
 }
 
