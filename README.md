@@ -312,6 +312,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Jpmc candidate experience page</div></td>
+      <td align="left" valign="top"><div style="width:380px">Product Associate, Global Private Banking Chief Data Office (CDO)</div></td>
+      <td align="left" valign="top"><div style="width:180px">Plano, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210759930" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Boeing</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Test Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Hazelwood, MO</div></td>
@@ -1021,5 +1028,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T20:44:49.556Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T22:42:11.992Z</code>
 </p>
