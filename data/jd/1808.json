@@ -1,0 +1,45 @@
+{
+  "jobPostingInfo": {
+    "id": "5388ff0c5e681001f02d71fc53bf0000",
+    "title": "Computer Engineering Intern",
+    "jobDescription": "<h1><b>We believe power is a promise - a shared commitment to be there for others when it matters most.</b></h1><br /><p>For more than 65 years, we&#39;ve turned big ideas into solutions that help protect homes, strengthen businesses and build a more resilient, efficient, sustainable energy future.</p><br /><p>Ready to Power a Smarter World with us?</p><p><br /><br /></p><p><br /><b>Job Description </b></p><p></p><p>Join Generac’s Home Interconnectivity &amp; Controls team as a Computer Engineering Intern in Pewaukee, WI, and help build next-generation connected home energy solutions. In this hands-on role, you’ll support product development, contribute to real features, troubleshoot using test equipment, and gain experience across software, hardware, and firmware in a fast-paced, collaborative environment.</p><p></p><p>This internship is 5 days a week on-site in Pewaukee, WI. </p><p></p><p><b>What You Will Do </b></p><p></p><ul><li><p>Support software development across our HIC&amp;C product portfolio. </p></li><li><p>Contribute code to features, services, or tooling under the guidance of senior engineers. </p></li><li><p>Participate in design reviews, code reviews, and team standups. </p></li><li><p>Help with software testing, debugging, and documentation. </p></li><li><p>Use protocol analyzers and other test equipment to measure and troubleshoot system performance. </p></li><li><p>Collaborate with cross-functional teams including hardware engineering, firmware, product management, and quality. </p></li><li><p>Take ownership of a defined project that delivers tangible value to the team by the end of the internship. </p></li></ul><p></p><p><b>What You Will Learn </b></p><p></p><ul><li><p>Real-world software development practices including version control, code review, and CI/CD. </p></li><li><p>How software integrates with hardware and firmware to deliver connected home products. </p></li><li><p>Modern software engineering tools, frameworks, and practices used in production. </p></li><li><p>How cross-functional teams (software, firmware, hardware, product, quality) collaborate in a real product development environment. </p></li><li><p>The fundamentals of clean energy and connected home product development at Generac. </p></li></ul><p></p><p><b>Minimum Qualifications </b></p><p></p><ul><li><p>Currently pursuing a Bachelor&#39;s degree in Computer Engineering, Computer Science, Software Engineering, or a related discipline. </p></li><li><p>Coursework or project experience in software development with at least one modern language (e.g., Python, Java, C&#43;&#43;, C#, JavaScript). </p></li><li><p>Familiarity with version control tools (Git or similar). </p></li><li><p>Strong problem-solving skills and attention to detail. </p></li><li><p>Clear written and verbal communication skills. </p></li><li><p>Comfortable working in a collaborative, team-based environment. </p></li></ul><p></p><p><b>Preferred Qualifications </b></p><p></p><ul><li><p>Project experience building software (academic, personal, or prior internship). </p></li><li><p>Exposure to embedded systems, IoT, or connected device development. </p></li><li><p>Familiarity with cloud platforms (AWS, Azure, GCP) or distributed systems concepts. </p></li><li><p>Coursework or interest in connectivity protocols, networking, or smart home technology. </p></li><li><p>Prior internship, co-op, or hackathon experience. </p></li><li><p>Interest in clean energy or connected home technology. </p></li></ul><p><br />Physical Demands: While performing the duties of this job, the employee is regularly required to talk and hear; and use hands to manipulate objects or controls. The employee is regularly required to stand and walk. On occasion the incumbent may be required to stoop, bend or reach above the shoulders. The employee must occasionally lift up to 25 - 50 pounds. Specific conditions of this job are typical of frequent and continuous computer-based work requiring periods of sitting, close vision and ability to adjust focus.</p><p></p><p><i>“We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, disability status, protected veteran status, or any other characteristic protected by law.”</i></p>",
+    "location": "Pewaukee, WI - USA",
+    "additionalLocations": [
+      "Waukesha, WI - USA"
+    ],
+    "postedOn": "Posted Today",
+    "startDate": "2026-06-19",
+    "timeType": "Full time",
+    "jobReqId": "JR14798",
+    "jobPostingId": "Computer-Engineering-Intern_JR14798",
+    "jobPostingSiteId": "External",
+    "country": {
+      "descriptor": "United States of America",
+      "id": "bc33aa3152ec42d4995f4791a106ed09"
+    },
+    "logoImage": {
+      "src": "/wday/cxs/generac/external/sidebarimage/30d1b0c84db71001978cbee094240000",
+      "alt": "Generac"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Waukesha HQ",
+      "country": {
+        "descriptor": "United States of America",
+        "id": "bc33aa3152ec42d4995f4791a106ed09",
+        "alpha2Code": "US"
+      }
+    },
+    "remoteType": "Onsite",
+    "externalUrl": "https://generac.wd5.myworkdayjobs.com/External/job/Pewaukee-WI---USA/Computer-Engineering-Intern_JR14798",
+    "questionnaireId": "d1b9c797a2bd1001887844c78b150000"
+  },
+  "hiringOrganization": {
+    "name": "Generac Power Systems Inc",
+    "url": ""
+  },
+  "similarJobs": [],
+  "userAuthenticated": false
+}
