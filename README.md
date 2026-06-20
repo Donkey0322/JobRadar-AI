@@ -531,5 +531,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T11:34:31.545Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T11:35:27.194Z</code>
 </p>
