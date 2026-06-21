@@ -2186,7 +2186,7 @@
     "ats": "icims",
     "identifier": "axway",
     "domain": "https://careers-axway.icims.com",
-    "page": "https://api.icims.com/v1/companies/axway/jobs",
+    "page": "https://careers-axway.icims.com/jobs/search",
     "urls": [
       "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"
     ]
@@ -2618,7 +2618,7 @@
     "ats": "icims",
     "identifier": "beyondsoft",
     "domain": "https://careers-beyondsoft.icims.com",
-    "page": "https://api.icims.com/v1/companies/beyondsoft/jobs",
+    "page": "https://careers-beyondsoft.icims.com/jobs/search",
     "urls": [
       "https://careers-beyondsoft.icims.com/jobs/10912/job?mobile=true&needsRedirect=false"
     ]
@@ -3337,17 +3337,6 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/businessolverinvitationonly/jobs",
     "urls": []
-  },
-  {
-    "name": "bylight",
-    "ats": "icims",
-    "identifier": "bylight",
-    "domain": "https://jobs-bylight.icims.com",
-    "page": "https://api.icims.com/v1/companies/bylight/jobs",
-    "urls": [
-      "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false",
-      "https://jobs-bylight.icims.com/jobs/11083/job?mobile=true&needsRedirect=false"
-    ]
   },
   {
     "name": "c3iot",
@@ -5366,11 +5355,7 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
-    ]
+    "urls": []
   },
   {
     "name": "corpay",
@@ -8061,7 +8046,7 @@
     "ats": "icims",
     "identifier": "gdms",
     "domain": "https://careers-gdms.icims.com",
-    "page": "https://api.icims.com/v1/companies/gdms/jobs",
+    "page": "https://careers-gdms.icims.com/jobs/search",
     "urls": [
       "https://careers-gdms.icims.com/jobs/73140/job?mobile=true&needsRedirect=false",
       "https://careers-gdms.icims.com/jobs/73178/job?mobile=true&needsRedirect=false",
@@ -10356,6 +10341,17 @@
     ]
   },
   {
+    "name": "jobs-bylight",
+    "ats": "icims",
+    "identifier": "jobs-bylight",
+    "domain": "https://jobs-bylight.icims.com",
+    "page": "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false",
+    "urls": [
+      "https://jobs-bylight.icims.com/jobs/10965/job?mobile=true&needsRedirect=false",
+      "https://jobs-bylight.icims.com/jobs/11083/job?mobile=true&needsRedirect=false"
+    ]
+  },
+  {
     "name": "jobs.aligntech.com",
     "ats": "custom",
     "identifier": "jobs.aligntech.com",
@@ -10997,7 +10993,7 @@
     "ats": "icims",
     "identifier": "kinaxis",
     "domain": "https://careers-kinaxis.icims.com",
-    "page": "https://api.icims.com/v1/companies/kinaxis/jobs",
+    "page": "https://careers-kinaxis.icims.com/jobs/search",
     "urls": [
       "https://careers-kinaxis.icims.com/jobs/34764/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34899/job?mobile=true&needsRedirect=false",
@@ -11322,9 +11318,7 @@
     "identifier": "lennox",
     "domain": "https://uscareers-lennox.icims.com",
     "page": "https://api.icims.com/v1/companies/lennox/jobs",
-    "urls": [
-      "https://uscareers-lennox.icims.com/jobs/52439/job?mobile=true&needsRedirect=false"
-    ]
+    "urls": []
   },
   {
     "name": "leonardocompany",
@@ -14006,7 +14000,7 @@
     "ats": "icims",
     "identifier": "peraton",
     "domain": "https://careers-peraton.icims.com",
-    "page": "https://api.icims.com/v1/companies/peraton/jobs",
+    "page": "https://careers-peraton.icims.com/jobs/search",
     "urls": [
       "https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"
     ]
@@ -16161,7 +16155,11 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
   },
   {
     "name": "skydio",
@@ -16708,7 +16706,7 @@
     "ats": "icims",
     "identifier": "sri",
     "domain": "https://careers-sri.icims.com",
-    "page": "https://api.icims.com/v1/companies/sri/jobs",
+    "page": "https://careers-sri.icims.com/jobs/search",
     "urls": [
       "https://careers-sri.icims.com/jobs/6417/job?mobile=true&needsRedirect=false"
     ]
@@ -19293,14 +19291,6 @@
       "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Grand-Rapids-Michigan-US/Product-Engineering-Intern_R00243272",
       "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Newmarket-Ontario-CA/Software-Engineering-Co-op_R00244013"
     ]
-  },
-  {
-    "name": "wd5.myworkdaysite.com",
-    "ats": "custom",
-    "identifier": "wd5.myworkdaysite.com",
-    "domain": "https://wd5.myworkdaysite.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "wealthsimple",
