@@ -368,6 +368,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Etched</div></td>
+      <td align="left" valign="top"><div style="width:380px">Applied AI Engineer, Silicon Engineering</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/Etched/831bfa22-d883-450b-9b10-2a16421525a0" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Comcast</div></td>
       <td align="left" valign="top"><div style="width:380px">ServiceNow Developer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Reston, VA</div></td>
@@ -769,6 +776,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Figure</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Privacy &amp; Data Governance</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/figureai/jobs/4690871006" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Engineer, Vulnerability Management and Automation</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/figureai/jobs/4690870006" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Disney</div></td>
       <td align="left" valign="top"><div style="width:380px">Sr Product Software Engineer</div></td>
       <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
@@ -1119,5 +1140,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T21:49:49.987Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T23:51:26.811Z</code>
 </p>
