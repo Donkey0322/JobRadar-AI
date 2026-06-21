@@ -1112,5 +1112,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T17:56:02.147Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T20:10:16.396Z</code>
 </p>
