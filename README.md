@@ -368,6 +368,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Comcast</div></td>
+      <td align="left" valign="top"><div style="width:380px">ServiceNow Developer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Reston, VA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/VA---Reston-11951-Freedom-Dr-Ste-900/ServiceNow-Developer_R438615" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Cloudflare</div></td>
       <td align="left" valign="top"><div style="width:380px">Hardware Procurement Analyst, Infrastructure Operation<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Austin, TX</div></td>
@@ -1112,5 +1119,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T20:10:16.396Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T21:49:49.987Z</code>
 </p>
