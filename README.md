@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
 <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--20-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--21-orange" />
 </p>
 
 ---
@@ -311,6 +311,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Ingrammicro</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer - AI</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irvine, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ingrammicro.wd5.myworkdayjobs.com/ingrammicro/job/Irvine-CA-United-States-of-America/Software-Engineer---AI_R-116063" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 20</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Jpmc candidate experience page</div></td>
       <td align="left" valign="top"><div style="width:380px">Product Associate, Global Private Banking Chief Data Office (CDO)</div></td>
@@ -1028,5 +1035,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-20T22:42:11.992Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T01:43:18.903Z</code>
 </p>
