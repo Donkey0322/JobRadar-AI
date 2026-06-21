@@ -616,6 +616,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719586",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719600",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719605",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719607",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719719",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719720",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719741",
@@ -673,8 +674,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726445",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726448",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/726450",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/719607"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -4810,8 +4810,8 @@
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/32536",
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/33853",
       "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34165",
-      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34202",
-      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34201"
+      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34201",
+      "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/34202"
     ]
   },
   {
@@ -5356,11 +5356,7 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
-    ]
+    "urls": []
   },
   {
     "name": "corpay",
@@ -13128,8 +13124,8 @@
       "https://boards.eu.greenhouse.io/nice/jobs/4883662101?gh_jid=4883662101",
       "https://boards.eu.greenhouse.io/nice/jobs/4887612101?gh_jid=4887612101",
       "https://boards.eu.greenhouse.io/nice/jobs/4889311101?gh_jid=4889311101",
-      "https://boards.eu.greenhouse.io/nice/jobs/4900658101?gh_jid=4900658101",
-      "https://boards.eu.greenhouse.io/nice/jobs/4898892101?gh_jid=4898892101"
+      "https://boards.eu.greenhouse.io/nice/jobs/4898892101?gh_jid=4898892101",
+      "https://boards.eu.greenhouse.io/nice/jobs/4900658101?gh_jid=4900658101"
     ]
   },
   {
@@ -13656,7 +13652,8 @@
       "https://jobs.ashbyhq.com/openai/db053b0e-c1a5-4b7a-bcb6-6e766629e7b1",
       "https://jobs.ashbyhq.com/openai/e7a4ee23-138a-4004-916e-72a452e7d115",
       "https://jobs.ashbyhq.com/openai/f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
-      "https://jobs.ashbyhq.com/openai/fbefd5d2-affe-47e1-9e87-d2b5de317b40"
+      "https://jobs.ashbyhq.com/openai/fbefd5d2-affe-47e1-9e87-d2b5de317b40",
+      "https://jobs.ashbyhq.com/openai/e5a10dfd-2cfc-4e0a-8d1e-b60eefa777c5"
     ]
   },
   {
@@ -16172,7 +16169,11 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
   },
   {
     "name": "skydio",
