@@ -7209,6 +7209,14 @@
     ]
   },
   {
+    "name": "external-telecom-teldta",
+    "ats": "icims",
+    "identifier": "external-telecom-teldta",
+    "domain": "https://external-telecom-teldta.icims.com",
+    "page": "https://external-telecom-teldta.icims.com/",
+    "urls": []
+  },
+  {
     "name": "ezcaterinc",
     "ats": "greenhouse",
     "identifier": "ezcaterinc",
@@ -11725,7 +11733,7 @@
     "ats": "icims",
     "identifier": "magaero",
     "domain": "https://careers-magaero.icims.com",
-    "page": "https://api.icims.com/v1/companies/magaero/jobs",
+    "page": "https://careers-magaero.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -13130,7 +13138,7 @@
     "ats": "icims",
     "identifier": "nikkiso",
     "domain": "https://careers-nikkiso.icims.com",
-    "page": "https://api.icims.com/v1/companies/nikkiso/jobs",
+    "page": "https://careers-nikkiso.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -13355,7 +13363,7 @@
     "ats": "icims",
     "identifier": "ntrepidcorp",
     "domain": "https://careers-ntrepidcorp.icims.com",
-    "page": "https://api.icims.com/v1/companies/ntrepidcorp/jobs",
+    "page": "https://careers-ntrepidcorp.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -13720,7 +13728,7 @@
     "ats": "icims",
     "identifier": "origamirisk",
     "domain": "https://careers-origamirisk.icims.com",
-    "page": "https://api.icims.com/v1/companies/origamirisk/jobs",
+    "page": "https://careers-origamirisk.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -14327,7 +14335,7 @@
     "ats": "icims",
     "identifier": "powerschool",
     "domain": "https://careers-powerschool.icims.com",
-    "page": "https://api.icims.com/v1/companies/powerschool/jobs",
+    "page": "https://careers-powerschool.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -14675,7 +14683,7 @@
     "ats": "icims",
     "identifier": "rambus",
     "domain": "https://careers-rambus.icims.com",
-    "page": "https://api.icims.com/v1/companies/rambus/jobs",
+    "page": "https://careers-rambus.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -15584,7 +15592,7 @@
     "ats": "icims",
     "identifier": "sargentlundy",
     "domain": "https://careers-sargentlundy.icims.com",
-    "page": "https://api.icims.com/v1/companies/sargentlundy/jobs",
+    "page": "https://careers-sargentlundy.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -15622,7 +15630,7 @@
     "ats": "icims",
     "identifier": "sas",
     "domain": "https://careers-sas.icims.com",
-    "page": "https://api.icims.com/v1/companies/sas/jobs",
+    "page": "https://careers-sas.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -15720,7 +15728,7 @@
     "ats": "icims",
     "identifier": "scires",
     "domain": "https://careers-scires.icims.com",
-    "page": "https://api.icims.com/v1/companies/scires/jobs",
+    "page": "https://careers-scires.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -15966,7 +15974,7 @@
     "ats": "icims",
     "identifier": "shawmut",
     "domain": "https://careers-shawmut.icims.com",
-    "page": "https://api.icims.com/v1/companies/shawmut/jobs",
+    "page": "https://careers-shawmut.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16060,7 +16068,7 @@
     "ats": "icims",
     "identifier": "sig",
     "domain": "https://careers-sig.icims.com",
-    "page": "https://api.icims.com/v1/companies/sig/jobs",
+    "page": "https://careers-sig.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16291,7 +16299,7 @@
     "ats": "icims",
     "identifier": "snapon",
     "domain": "https://careers-snapon.icims.com",
-    "page": "https://api.icims.com/v1/companies/snapon/jobs",
+    "page": "https://careers-snapon.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16721,7 +16729,7 @@
     "ats": "icims",
     "identifier": "ssoe",
     "domain": "https://careers-ssoe.icims.com",
-    "page": "https://api.icims.com/v1/companies/ssoe/jobs",
+    "page": "https://careers-ssoe.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16810,7 +16818,7 @@
     "ats": "icims",
     "identifier": "steeldynamics",
     "domain": "https://careers-steeldynamics.icims.com",
-    "page": "https://api.icims.com/v1/companies/steeldynamics/jobs",
+    "page": "https://careers-steeldynamics.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16841,7 +16849,7 @@
     "ats": "icims",
     "identifier": "stifel",
     "domain": "https://careers-stifel.icims.com",
-    "page": "https://api.icims.com/v1/companies/stifel/jobs",
+    "page": "https://careers-stifel.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -16871,7 +16879,7 @@
     "ats": "icims",
     "identifier": "stonex",
     "domain": "https://careers-stonex.icims.com",
-    "page": "https://api.icims.com/v1/companies/stonex/jobs",
+    "page": "https://careers-stonex.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -17351,14 +17359,6 @@
     "identifier": "tel-tel-careers",
     "domain": "https://tel.wd3.myworkdayjobs.com/tel-careers",
     "page": "https://tel.wd3.myworkdayjobs.com/wday/cxs/tel/tel-careers/jobs",
-    "urls": []
-  },
-  {
-    "name": "teldta",
-    "ats": "icims",
-    "identifier": "teldta",
-    "domain": "https://external-telecom-teldta.icims.com",
-    "page": "https://api.icims.com/v1/companies/teldta/jobs",
     "urls": []
   },
   {
@@ -18587,7 +18587,7 @@
     "ats": "icims",
     "identifier": "uwcu",
     "domain": "https://careers-uwcu.icims.com",
-    "page": "https://api.icims.com/v1/companies/uwcu/jobs",
+    "page": "https://careers-uwcu.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -18595,7 +18595,7 @@
     "ats": "icims",
     "identifier": "uwmcareers",
     "domain": "https://careers-uwmcareers.icims.com",
-    "page": "https://api.icims.com/v1/companies/uwmcareers/jobs",
+    "page": "https://careers-uwmcareers.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -19237,7 +19237,7 @@
     "ats": "icims",
     "identifier": "walterpmoore",
     "domain": "https://careers-walterpmoore.icims.com",
-    "page": "https://api.icims.com/v1/companies/walterpmoore/jobs",
+    "page": "https://careers-walterpmoore.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -19363,7 +19363,7 @@
     "ats": "icims",
     "identifier": "werfen",
     "domain": "https://careers-werfen.icims.com",
-    "page": "https://api.icims.com/v1/companies/werfen/jobs",
+    "page": "https://careers-werfen.icims.com/jobs/search",
     "urls": []
   },
   {
@@ -19405,7 +19405,7 @@
     "ats": "icims",
     "identifier": "westernsouthern",
     "domain": "https://careers-westernsouthern.icims.com",
-    "page": "https://api.icims.com/v1/companies/westernsouthern/jobs",
+    "page": "https://careers-westernsouthern.icims.com/jobs/search",
     "urls": []
   },
   {

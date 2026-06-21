@@ -1,11 +1,14 @@
 import * as cheerio from "cheerio";
 
 import { ABORT_SIGNAL } from "@/constants";
+import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { isTarget } from "../utils";
+
+import { logger } from "@/utils/logger";
 
 const MAX_PAGES = 20;
 
@@ -202,7 +205,11 @@ function extractJobsFromSearchHtml(
 
     if (urls.has(link)) return;
 
-    const role = cleanText($(el).text());
+    // grep heading
+    const heading = $(el).find("h3").text();
+    if (!heading) return;
+
+    const role = cleanText(heading);
     if (!role) return;
 
     const card = $(el).closest(
@@ -241,21 +248,26 @@ export async function fetchIcims(
 ): Promise<Job[]> {
   const allJobs: Job[] = [];
 
-  const searchPage = await resolveSearchPage(company, signal);
+  try {
+    const searchPage = await resolveSearchPage(company, signal);
 
-  for (let page = 0; page < MAX_PAGES; page++) {
-    const pageUrl = new URL(searchPage);
+    for (let page = 0; page < MAX_PAGES; page++) {
+      const pageUrl = new URL(searchPage);
 
-    pageUrl.searchParams.set("pr", String(page));
+      pageUrl.searchParams.set("pr", String(page));
 
-    const html = await fetchHtml(pageUrl.toString(), signal);
-    if (!html) break;
+      const html = await fetchHtml(pageUrl.toString(), signal);
+      if (!html) break;
 
-    const pageJobs = extractJobsFromSearchHtml(html, pageUrl, company, urls);
+      const pageJobs = extractJobsFromSearchHtml(html, pageUrl, company, urls);
 
-    if (pageJobs.length === 0) break;
+      if (pageJobs.length === 0) break;
 
-    allJobs.push(...pageJobs);
+      allJobs.push(...pageJobs);
+    }
+  } catch {
+    logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
+    return [];
   }
 
   return allJobs.filter((job) => isTarget(job.role));
