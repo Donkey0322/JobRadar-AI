@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
 <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--21-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--22-orange" />
 </p>
 
 ---
@@ -127,6 +127,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Kahului, HI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711064" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer, C++ (Dragon)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
@@ -367,6 +374,55 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Vertiv</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Center Thermal Technician<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Meridian, MS</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20269063" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Cooling Customer Engineer-Data Center Thermal Technician<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Columbus, OH</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20268906" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Infrastructure Management Technician<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cincinnati, OH</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20264966" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Fortive careers</div></td>
+      <td align="left" valign="top"><div style="width:380px">Business Development Representative</div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9789" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer - Test, Graphics, Games &amp; ML</div></td>
+      <td align="left" valign="top"><div style="width:180px">Seattle, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200663359-3337/software-development-engineer-test-graphics-games-ml?team=MLAI" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Scientist, Air Dominance &amp; Strike</div></td>
+      <td align="left" valign="top"><div style="width:180px">Costa Mesa, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5158247007?gh_jid=5158247007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Analyst, Air Dominance &amp; Strike</div></td>
+      <td align="left" valign="top"><div style="width:180px">Costa Mesa, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5170039007?gh_jid=5170039007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Etched</div></td>
       <td align="left" valign="top"><div style="width:380px">Applied AI Engineer, Silicon Engineering</div></td>
@@ -776,6 +832,62 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Vertiv</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Center Thermal Technician<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Baton Rouge, LA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20270024" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Fiserv</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineering - Advisor I<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Alpharetta, GA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Software-Development-Engineering---Advisor-I_R-10382096" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">SDET System Integration Tester for Android</div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/SDET-System-Integration-Tester-for-Android_R-10391875" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Java Developer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Alpharetta, GA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fiserv.wd5.myworkdayjobs.com/ext/job/Alpharetta-Georgia/Java-Developer_R-10382084" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">ETL Data Conversion Analyst<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Lincoln, NE</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fiserv.wd5.myworkdayjobs.com/ext/job/Lincoln-Nebraska/ETL-Data-Conversion-Analyst_R-10383962" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Web Full Stack Developer<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hagerstown, MD</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://fiserv.wd5.myworkdayjobs.com/ext/job/Hagerstown-Maryland/Web-Full-Stack-Developer_R-10395772" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Candidate experience site</div></td>
+      <td align="left" valign="top"><div style="width:380px">Process Automation Sr Dveloper</div></td>
+      <td align="left" valign="top"><div style="width:180px">Johnston, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/47609" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Management Specialist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Johnston, RI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/47066" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 21</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Figure</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer, Privacy &amp; Data Governance</div></td>
       <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
@@ -1140,5 +1252,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-21T23:51:26.811Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T05:38:52.261Z</code>
 </p>
