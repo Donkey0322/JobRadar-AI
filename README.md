@@ -135,6 +135,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">AG Technologies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Entry Level Software Engineer 🎓</div></td>
+      <td align="left" valign="top"><div style="width:180px">Dallas, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/AGTechnologies1/108734797" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Entry Level Software Engineer 🎓</div></td>
+      <td align="left" valign="top"><div style="width:180px">Chesterfield, MO</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/AGTechnologies1/100730616" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Wgu</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer</div></td>
       <td align="left" valign="top"><div style="width:180px">Salt Lake City, UT</div></td>
@@ -1847,5 +1861,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T18:03:03.398Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T18:10:30.851Z</code>
 </p>
