@@ -128,6 +128,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">DeSoto, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/715837" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">General Dynamics Mission Systems</div></td>
       <td align="left" valign="top"><div style="width:380px">Entry Level Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Scottsdale, AZ</div></td>
@@ -381,6 +388,27 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Meta</div></td>
+      <td align="left" valign="top"><div style="width:380px">Connectivity Engineer - Data Center Design, Engineering, &amp; Construction</div></td>
+      <td align="left" valign="top"><div style="width:180px">Menlo Park, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.metacareers.com/profile/job_details/1476174730867626" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Google</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, TPU Host Networking</div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/106956962888852166-software-engineer-tpu-host-networking?sort_by=date&amp;page=5" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Silicon Hardware Emulation Engineer, Google Cloud</div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/120372516576207558-silicon-hardware-emulation-engineer-google-cloud?sort_by=date&amp;page=2" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Vertiv</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Center Thermal Technician<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
@@ -839,6 +867,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Google</div></td>
+      <td align="left" valign="top"><div style="width:380px">Performance Automation Specialist, Financial Services and Travel</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/86998627821462214-performance-automation-specialist-financial-services-and-travel?sort_by=date&amp;page=5" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Vertiv</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Center Thermal Technician<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Baton Rouge, LA</div></td>
@@ -1259,5 +1294,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T10:23:41.864Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T12:33:27.020Z</code>
 </p>
