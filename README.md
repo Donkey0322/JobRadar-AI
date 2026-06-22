@@ -128,6 +128,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">General Dynamics Mission Systems</div></td>
+      <td align="left" valign="top"><div style="width:380px">Entry Level Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Scottsdale, AZ</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://careers-gdms.icims.com/jobs/73193/job?mobile=true&amp;needsRedirect=false" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
       <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
       <td align="left" valign="top"><div style="width:180px">Kahului, HI</div></td>
@@ -1252,5 +1259,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T05:38:52.261Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T10:23:41.864Z</code>
 </p>
