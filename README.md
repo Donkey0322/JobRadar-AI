@@ -177,6 +177,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">DAT Freight &amp; Analytics</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer 1<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Seattle, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://careers.dat.com/jobs/6099144004?gh_jid=6099144004" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Globalhr</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer I (Onsite)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">CEDAR RAPIDS, IA</div></td>
@@ -1952,6 +1959,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Amazon</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer 1 - Compiler - Annapurna Labs</div></td>
+      <td align="left" valign="top"><div style="width:180px">Seattle, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://amazon.jobs/en/jobs/10438055/software-engineer-i-compiler-annapurna-labs" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Photon career site</div></td>
       <td align="left" valign="top"><div style="width:380px">Developer - React Native -  US</div></td>
       <td align="left" valign="top"><div style="width:180px">United States, USA</div></td>
@@ -2904,5 +2918,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-23T06:27:14.098Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-23T07:11:08.721Z</code>
 </p>
