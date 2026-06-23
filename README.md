@@ -205,6 +205,27 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8385191002?gh_jid=8385191002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer, Satellite Antenna (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8603628002?gh_jid=8603628002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Linkedin</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Governance and Advisory Associate</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000133706629" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Western digital</div></td>
       <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer (Wafer Optical Metrology)</div></td>
       <td align="left" valign="top"><div style="width:180px">Fremont, CA</div></td>
@@ -1123,6 +1144,48 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Zoll</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Test Engineering Contractor</div></td>
+      <td align="left" valign="top"><div style="width:180px">Irvine, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://zoll.wd5.myworkdayjobs.com/zollmedicalcorp/job/US-CA-Irvine-48-Discovery/Software-Test-Engineering-Contractor_R18852" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Realtor.com Careers</div></td>
+      <td align="left" valign="top"><div style="width:380px">Salesforce Developer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Austin, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/rdccareers/jobs/7721428003?gh_jid=7721428003" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">PrizePicks</div></td>
+      <td align="left" valign="top"><div style="width:380px">Associate Data Scientist - Originations<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="http://prizepicks.com/position?gh_jid=7702028003" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">DoorDash USA</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Machine Learning - Credit &amp; Refund Optimization</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/7932109" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, iOS (All Teams)</div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/5630454" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Development Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669683-0836/software-development-engineer?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Waabi</div></td>
       <td align="left" valign="top"><div style="width:380px">Platform Verification Engineer - Embedded Systems</div></td>
@@ -2771,6 +2834,55 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Zebra</div></td>
+      <td align="left" valign="top"><div style="width:380px">Forward Deployed Software Engineer (FDE), Advanced</div></td>
+      <td align="left" valign="top"><div style="width:180px">Holtsville, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Holtsville-New-York/Forward-Deployed-Software-Engineer--FDE---Advanced_JR101863" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Superhuman%20platform%20inc</div></td>
+      <td align="left" valign="top"><div style="width:380px">Platform Security Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/99d81b4b-8323-4082-87aa-3456821d4d17" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Openai</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Deployment Engineer, Cyber</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/openai/b46ffd99-f9f2-440c-ac13-448eb7911ad6" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">DoorDash USA</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Backend (All Teams)</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/5630445" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer - Labs</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/6972250" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">iOS Framework Engineer, Platform Intelligence - Apple Maps</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669682-0836/ios-framework-engineer-platform-intelligence-apple-maps?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">American express</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Associate - Data Center Ops<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Whitsett, NC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26008975" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">TikTok</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer - Performance Ads, Ads Interface and Platform</div></td>
       <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
@@ -4213,5 +4325,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-23T21:57:15.362Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-23T23:34:41.301Z</code>
 </p>
