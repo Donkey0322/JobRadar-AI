@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
 <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--22-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--23-orange" />
 </p>
 
 ---
@@ -2596,5 +2596,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-22T23:03:25.891Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-23T00:03:24.544Z</code>
 </p>
