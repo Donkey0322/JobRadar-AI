@@ -233,6 +233,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">United Launch Alliance</div></td>
+      <td align="left" valign="top"><div style="width:380px">CI/CD Infrastructure Software Engineer 1<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Centennial, CO</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ulalaunch.com/job/Centennial-CICD-Infrastructure-Software-Engineer-1-CO-80112/1402696200/?ats=successfactors" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Qualtrics</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer 1 - Core Topics Platform</div></td>
+      <td align="left" valign="top"><div style="width:180px">Provo, UT</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.qualtrics.com/careers/us/en/job/8018763?gh_jid=8018763" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
@@ -4353,5 +4367,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T01:34:05.173Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T03:34:59.567Z</code>
 </p>
