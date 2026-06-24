@@ -4745,5 +4745,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T15:13:39.110Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T16:07:52.581Z</code>
 </p>
