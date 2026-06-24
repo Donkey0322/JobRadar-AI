@@ -1208,6 +1208,34 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Google</div></td>
+      <td align="left" valign="top"><div style="width:380px">Developer Relations Engineer, Android XR</div></td>
+      <td align="left" valign="top"><div style="width:180px">Mountain View, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/89818754887623366-developer-relations-engineer-android-xr?sort_by=date&amp;page=3" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, External API Security</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/138695070399242950-software-engineer-external-api-security?sort_by=date&amp;page=1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Globalhr</div></td>
+      <td align="left" valign="top"><div style="width:380px">Information System Security Officer (ISSO) - Marlborough, MA<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Marlborough, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Information-System-Security-Officer--ISSO----Marlborough--MA_01855172-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Brunswick</div></td>
+      <td align="left" valign="top"><div style="width:380px">Warehouse Management System Super User<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsburg, IN</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://brunswick.wd1.myworkdayjobs.com/search/job/Brownsburg-IN/Warehouse-Management-System-Super-User_JR-050654" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Apple</div></td>
       <td align="left" valign="top"><div style="width:380px">Hardware Reliability Engineer - Mac System Reliability</div></td>
       <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
@@ -2918,6 +2946,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Google</div></td>
+      <td align="left" valign="top"><div style="width:380px">Delivery Executive, Google Cloud</div></td>
+      <td align="left" valign="top"><div style="width:180px">Chicago, IL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/86962223678661318-delivery-executive-google-cloud?sort_by=date&amp;page=3" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Voyager Technologies, Inc.</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
@@ -4486,5 +4521,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T08:37:27.826Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T12:05:21.540Z</code>
 </p>
