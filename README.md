@@ -148,7 +148,7 @@
     </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Palantir</div></td>
-      <td align="left" valign="top"><div style="width:380px">Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial</div></td>
+      <td align="left" valign="top"><div style="width:380px">Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Chicago, IL</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
       <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
@@ -5606,5 +5606,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T21:53:46.626Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T22:28:57.360Z</code>
 </p>
