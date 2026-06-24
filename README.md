@@ -1208,6 +1208,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Reliability Engineer - Mac System Reliability</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669634-0836/hardware-reliability-engineer-mac-system-reliability?team=HRDWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
       <td align="left" valign="top"><div style="width:380px">Mechanical Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
@@ -4479,5 +4486,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T04:43:36.050Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T08:37:27.826Z</code>
 </p>
