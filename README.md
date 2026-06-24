@@ -54,6 +54,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Bigcommerce</div></td>
+      <td align="left" valign="top"><div style="width:380px">Intern Infrastructure Security Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Austin, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://bigcommerce.wd12.myworkdayjobs.com/commerce/job/Austin-TX/Intern-Infrastructure-Security-Engineer_JR102740" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Psu</div></td>
       <td align="left" valign="top"><div style="width:380px">Research and Development Engineer Intern<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">State College, PA</div></td>
@@ -232,6 +239,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Anaheim, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/727839" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Fairfield, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/727837" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">United Launch Alliance</div></td>
       <td align="left" valign="top"><div style="width:380px">CI/CD Infrastructure Software Engineer 1<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
@@ -1186,6 +1207,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mechanical Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558427002?gh_jid=8558427002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Camera System Integration Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Diego, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200666846-3543/camera-system-integration-engineer?team=HRDWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Zoll</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Test Engineering Contractor</div></td>
@@ -2876,6 +2911,83 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Voyager Technologies, Inc.</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4206839009" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Trustage</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Software Asset Management Specialist</div></td>
+      <td align="left" valign="top"><div style="width:180px">Madison, WI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://trustage.wd1.myworkdayjobs.com/trustage/job/Madison-WI/IT-Software-Asset-Management-Specialist_R-011950-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Relativity Space</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Engineer, Industrial Control </div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/relativity/jobs/8579843002?gh_jid=8579843002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Engineer, Full Stack (Frontend Focused)</div></td>
+      <td align="left" valign="top"><div style="width:180px">Long Beach, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/relativity/jobs/8557533002?gh_jid=8557533002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Software Engineer, Full Stack</div></td>
+      <td align="left" valign="top"><div style="width:180px">Long Beach, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/relativity/jobs/8581136002?gh_jid=8581136002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Openai</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Deployment Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/openai/6bacc51d-6580-4089-93ca-7df3bce4b635" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Meta</div></td>
+      <td align="left" valign="top"><div style="width:380px">Optical Engineer, Release to Production (RTP) — Test Software &amp; Transceiver NPI</div></td>
+      <td align="left" valign="top"><div style="width:180px">Menlo Park, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.metacareers.com/profile/job_details/1361776752540617" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Optical Engineer, Infrastructure Validation</div></td>
+      <td align="left" valign="top"><div style="width:180px">Menlo Park, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.metacareers.com/profile/job_details/2000971004638706" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Ibqbjb.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:380px">Sr Advanced Software Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Fort Washington, PA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151463" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Base-power</div></td>
+      <td align="left" valign="top"><div style="width:380px">Infrastructure Engineer, Distributed Compute</div></td>
+      <td align="left" valign="top"><div style="width:180px">Austin, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/base-power/074434ca-1e44-4902-878b-d045e74b3e31" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Aptiv</div></td>
+      <td align="left" valign="top"><div style="width:380px">Test Automation Technical Leader - eLxr Linux<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Remote-Worksite/Test-Automation-Technical-Leader---eLxr-Linux_J000695073" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Zebra</div></td>
       <td align="left" valign="top"><div style="width:380px">Forward Deployed Software Engineer (FDE), Advanced</div></td>
       <td align="left" valign="top"><div style="width:180px">Holtsville, NY</div></td>
@@ -4367,5 +4479,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T03:34:59.567Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T04:43:36.050Z</code>
 </p>
