@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
 <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--24-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--25-orange" />
 </p>
 
 ---
@@ -139,6 +139,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Astranis</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Design Intern, Software Defined Radio Team (Fall 2026)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/astranis/jobs/4691163006" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Samsung Research America Internship</div></td>
       <td align="left" valign="top"><div style="width:380px">2026 Fall Health AI Scholar, Digital Health Algorithms</div></td>
@@ -309,6 +316,41 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Servicenow</div></td>
+      <td align="left" valign="top"><div style="width:380px">Business Development Representative (Portuguese fluency)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">West Palm Beach, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000134169839" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Business Development Representative<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Waltham, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/ServiceNow/744000134170139" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Ngc</div></td>
+      <td align="left" valign="top"><div style="width:380px">Associate Engineer Software - Cloud &amp; Applications<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-El-Segundo/Associate-Engineer-Software---Cloud---Applications_R10237644-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Salinas, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728221" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Odessa, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728220" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Google</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Center Technician<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
@@ -1529,6 +1571,34 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Kla</div></td>
+      <td align="left" valign="top"><div style="width:380px">System Software Engineer (HPC)</div></td>
+      <td align="left" valign="top"><div style="width:180px">Milpitas, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/System-Software-Engineer--HPC-_2637682" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software QA Engineer - Automation, Siri</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669828-0836/software-qa-engineer-automation-siri?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Solutions Engineer, Talent Acquisition<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Seattle, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5173534007?gh_jid=5173534007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Abbvie</div></td>
+      <td align="left" valign="top"><div style="width:380px">Associate Business Systems Consultant – Data &amp; Analytics</div></td>
+      <td align="left" valign="top"><div style="width:180px">North Chicago, IL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.smartrecruiters.com/AbbVie/3743990013781596" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Tmobile</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer</div></td>
@@ -3758,6 +3828,41 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Ngc</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mission Autonomy Software Developer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/CAES902/Mission-Autonomy-Software-Developer_R10236655" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Globalhr</div></td>
+      <td align="left" valign="top"><div style="width:380px">Lowband Software Support Engineer (Onsite)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Langley AFB, VA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-LANGLEY-AFB-CUST--586-Weyland-Rd--LANGLEY-AFB-External-Site/Lowband-Software-Support-Engineer--Onsite-_01830920" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Etched</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Center Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Jose, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/Etched/bb2d320e-50d1-4182-a0c8-975ad2015e1c" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, SDLC Analytics</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200650958-0836/software-engineer-sdlc-analytics?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software QA Engineer - Automation, Siri</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco Bay Area, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669824-3401/software-qa-engineer-automation-siri?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Salesforce</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineering PMTS</div></td>
       <td align="left" valign="top"><div style="width:180px">Bellevue, WA</div></td>
@@ -5704,5 +5809,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-24T23:41:33.697Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-25T04:41:53.626Z</code>
 </p>
