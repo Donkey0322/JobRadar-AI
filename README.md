@@ -317,6 +317,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Varda Space Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">Propulsion Development Engineer, Ground Fluids <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7662171003" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Sanofi</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data System Analyst<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Framingham, MA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Framingham-MA/Data-System-Analyst_R2860808" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Servicenow</div></td>
       <td align="left" valign="top"><div style="width:380px">Business Development Representative (Portuguese fluency)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">West Palm Beach, FL</div></td>
@@ -1571,6 +1585,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Snorkel AI</div></td>
+      <td align="left" valign="top"><div style="width:380px">Applied AI Engineer - AI Solutions</div></td>
+      <td align="left" valign="top"><div style="width:180px">Redwood City, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/snorkelai/jobs/5709067004" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Artisan Partners</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Platform Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Milwaukee, WI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.artisanpartners.com/careers/career-opportunities.html?gh_jid=7947066" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Kla</div></td>
       <td align="left" valign="top"><div style="width:380px">System Software Engineer (HPC)</div></td>
@@ -3828,6 +3856,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Kiongroup</div></td>
+      <td align="left" valign="top"><div style="width:380px">Professional Software Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Grand Rapids, MI</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://kiongroup.wd3.myworkdayjobs.com/kion_scs/job/Grand-Rapids-MI-United-States/Professional-Software-Developer_JR-0092836-2" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Google</div></td>
+      <td align="left" valign="top"><div style="width:380px">Strategic Negotiator, Data Center Leasing and Acquisitions</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://www.google.com/about/careers/applications/jobs/results/107329108920148678-strategic-negotiator-data-center-leasing-and-acquisitions?sort_by=date&amp;page=1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Ngc</div></td>
       <td align="left" valign="top"><div style="width:380px">Mission Autonomy Software Developer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">El Segundo, CA</div></td>
@@ -5809,5 +5851,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-25T04:41:53.626Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-25T08:39:05.354Z</code>
 </p>
