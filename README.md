@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
 <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--25-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--26-orange" />
 </p>
 
 ---
@@ -344,6 +344,363 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
+      <td align="left" valign="top"><div style="width:380px">Tooling Design &amp; Automation Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8365425002?gh_jid=8365425002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Thermal Development Technician (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8499098002?gh_jid=8499098002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Test Engineer (Starship Development)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">McGregor, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8477466002?gh_jid=8477466002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Routers (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533961002?gh_jid=8533961002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Reliability (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533955002?gh_jid=8533955002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Photovoltaics (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533949002?gh_jid=8533949002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, PCB (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8477099002?gh_jid=8477099002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, PCB/PCBA (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8350877002?gh_jid=8350877002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Mechanical (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8452999002?gh_jid=8452999002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Mechanical (Starlink Aviation)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Woodinville, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8521636002?gh_jid=8521636002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Mechanical Metrology (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533943002?gh_jid=8533943002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Harnessing (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8568157002?gh_jid=8568157002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Harnessing (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8494936002?gh_jid=8494936002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Cables (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533945002?gh_jid=8533945002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Thermal &amp; Fluid Analysis) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8562437002?gh_jid=8562437002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Telemetry - Top Secret Clearance (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533686002?gh_jid=8533686002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8569160002?gh_jid=8569160002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8569790002?gh_jid=8569790002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Hardware Test &amp; Automation (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8565155002?gh_jid=8565155002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Flight Software (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8562450002?gh_jid=8562450002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Flight Software (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8562284002?gh_jid=8562284002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Engineering Simulation &amp; Automation (Vehicle Engineering)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8559054002?gh_jid=8559054002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Components)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8557032002?gh_jid=8557032002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">McGregor, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8563110002?gh_jid=8563110002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Product Development Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8545873002?gh_jid=8545873002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">OS/Platform Software Engineer (Starlink)   <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8552882002?gh_jid=8552882002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">New Graduate Engineer, Software (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8399140002?gh_jid=8399140002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">New Graduate Engineer, Software (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8446263002?gh_jid=8446263002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">New Graduate Engineer, Software (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8376990002?gh_jid=8376990002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">New Graduate Engineer, Software<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8493079002?gh_jid=8493079002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Manufacturing Automation Engineer, Solar - (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8461521002?gh_jid=8461521002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer, PCBA Manufacturing (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558344002?gh_jid=8558344002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer, Gateway Failure Analysis (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8440611002?gh_jid=8440611002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer, Failure Analysis (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8420461002?gh_jid=8420461002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer (Components)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8421359002?gh_jid=8421359002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer (Application Software)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8495180002?gh_jid=8495180002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer, OS/Platform (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8511391002?gh_jid=8511391002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer, OS/Platform  (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8552893002?gh_jid=8552893002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Electrical Design Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8563212002?gh_jid=8563212002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer (Starlink Network Analytics, Wi-Fi) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8573711002?gh_jid=8573711002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8560912002?gh_jid=8560912002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Starship Launch Hardware)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8433913002?gh_jid=8433913002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8350391002?gh_jid=8350391002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8456214002?gh_jid=8456214002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer, Solar Cell Factory (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8545793002?gh_jid=8545793002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer, Launch Pad (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8536717002?gh_jid=8536717002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer, Infrastructure &amp; Utility (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8395276002?gh_jid=8395276002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation Build Engineer, Development (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8420864002?gh_jid=8420864002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Rocket Lab Corporation</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI&amp;T Engineer I<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Tucson, AZ</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/rocketlab/jobs/7684452003" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">La Mirada, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728525" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Tigard, OR</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728522" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Scale AI</div></td>
       <td align="left" valign="top"><div style="width:380px">AI Strategy Consultant, Frontier Tech<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
@@ -1802,6 +2159,1056 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
+      <td align="left" valign="top"><div style="width:380px">Wireless Systems Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8546717002?gh_jid=8546717002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Wireless Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8511186002?gh_jid=8511186002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Wireless Firmware Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8546722002?gh_jid=8546722002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Wireless Firmware Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8546713002?gh_jid=8546713002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Wi-Fi Software Engineer (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8379209002?gh_jid=8379209002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Welding Automation Engineer, Chamber and Nozzle (Raptor) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8544608002?gh_jid=8544608002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Thermal Development Technician (Starship) - Temporary<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8417386002?gh_jid=8417386002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Thermal Development Technician (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8377287002?gh_jid=8377287002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Thermal Development Technician (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8417603002?gh_jid=8417603002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Thermal Development Technician, Robotic Welding (Starship) - Level 4/5<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8393771002?gh_jid=8393771002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Test Specialist, Factory Automation (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8397354002?gh_jid=8397354002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Silicon (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533951002?gh_jid=8533951002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Power Electronics (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533953002?gh_jid=8533953002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Mechanical (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8399474002?gh_jid=8399474002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Mechanical (Starlink)   <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8519215002?gh_jid=8519215002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer (Mechanical Engineering)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8364232002?gh_jid=8364232002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Automation &amp; Controls (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533957002?gh_jid=8533957002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supplier Development Engineer, Assembly Processes (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533959002?gh_jid=8533959002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Structural Engineer (Starship Infrastructure)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8389500002?gh_jid=8389500002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Infrastructure Engineer, Flight Software (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8478283002?gh_jid=8478283002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Tracking (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8414648002?gh_jid=8414648002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8569125002?gh_jid=8569125002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starshield) - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8387886002?gh_jid=8387886002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8501199002?gh_jid=8501199002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Starlink Network<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8458001002?gh_jid=8458001002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Starlink Network<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8477137002?gh_jid=8477137002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink Mobile) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8567634002?gh_jid=8567634002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8568939002?gh_jid=8568939002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink Enterprise)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8525373002?gh_jid=8525373002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8525359002?gh_jid=8525359002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8379301002?gh_jid=8379301002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Special Projects) - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8568970002?gh_jid=8568970002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Simulations (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8395326002?gh_jid=8395326002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Simulation<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8443290002?gh_jid=8443290002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Product Development (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8436728002?gh_jid=8436728002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Power Systems Controls (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8395307002?gh_jid=8395307002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558857002?gh_jid=8558857002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558858002?gh_jid=8558858002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8560537002?gh_jid=8560537002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Palo Alto, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558859002?gh_jid=8558859002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8560546002?gh_jid=8560546002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Platform Team)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8495882002?gh_jid=8495882002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, HITL - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8397596002?gh_jid=8397596002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, High Performance Computing<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8365469002?gh_jid=8365469002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Hardware Test &amp; Automation (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8574243002?gh_jid=8574243002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Hardware Test &amp; Automation (Optical Payloads)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8545930002?gh_jid=8545930002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Geospatial Data (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8389619002?gh_jid=8389619002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Flight Software (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8551932002?gh_jid=8551932002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer (Flight Reliability)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8512876002?gh_jid=8512876002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Embedded Software (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8436708002?gh_jid=8436708002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Embedded Software (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8552752002?gh_jid=8552752002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, DevOps (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8573204002?gh_jid=8573204002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Design Software (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8466905002?gh_jid=8466905002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Design Software (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8466837002?gh_jid=8466837002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Data - Top Secret Clearance (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8449846002?gh_jid=8449846002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Data - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8397673002?gh_jid=8397673002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, C++ - Top Secret Clearance <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8377056002?gh_jid=8377056002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, C++ (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Sunnyvale, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8451960002?gh_jid=8451960002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, C++ (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8477124002?gh_jid=8477124002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Continuous Integration (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533853002?gh_jid=8533853002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Continuous Integration (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8533859002?gh_jid=8533859002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Components Test (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8391434002?gh_jid=8391434002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Collision Avoidance (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8397683002?gh_jid=8397683002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, Additive Manufacturing (Raptor)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8327721002?gh_jid=8327721002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Site Reliability Engineer (Application Software)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8505386002?gh_jid=8505386002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8564158002?gh_jid=8564158002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Palo Alto, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8483982002?gh_jid=8483982002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8392887002?gh_jid=8392887002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Washington, DC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8483980002?gh_jid=8483980002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8543668002?gh_jid=8543668002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8543817002?gh_jid=8543817002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8479234002?gh_jid=8479234002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Security Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8543784002?gh_jid=8543784002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Satellite Systems Software Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8395341002?gh_jid=8395341002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Satellite Policy Analyst (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Washington, DC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8497045002?gh_jid=8497045002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">RF Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8517637002?gh_jid=8517637002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Product Development Engineer (Starlink)   <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8522688002?gh_jid=8522688002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Process Development Engineer <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8555804002?gh_jid=8555804002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Platform Engineer, Flight Software (Starlink)  <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8478286002?gh_jid=8478286002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mission Integration Engineer, Network and Infrastructure (Starshield) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8519574002?gh_jid=8519574002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mechanical Engineer, Infrastructure <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8540337002?gh_jid=8540337002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mechanical Engineer, Infrastructure<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8451034002?gh_jid=8451034002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mechanical Designer, Automation &amp; Controls (Starship Launch Pad)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8352050002?gh_jid=8352050002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Manufacturing Engineer – Supplier Development, Optics &amp; Optomechanical Systems (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8398061002?gh_jid=8398061002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Manufacturing Automation Engineer, Chamber and Nozzle (Raptor) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8544694002?gh_jid=8544694002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Network Infrastructure Technician<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8459561002?gh_jid=8459561002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Network Infrastructure Technician<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8579623002?gh_jid=8579623002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Network Infrastructure Specialist<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8536387002?gh_jid=8536387002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Network Infrastructure Engineer, Launch<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8458745002?gh_jid=8458745002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Infrastructure Engineer, Virtualization &amp; Hardware<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8451903002?gh_jid=8451903002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Test Automation Engineer, Satellites (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8440972002?gh_jid=8440972002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer, Power (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8534765002?gh_jid=8534765002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Hardware Development Engineer, PCBA Manufacturing (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8340749002?gh_jid=8340749002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">GNC Software Engineer - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8560746002?gh_jid=8560746002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Gateway Site Development Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8577167002?gh_jid=8577167002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer - Top Secret Clearance<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8397609002?gh_jid=8397609002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer, Data<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8553080002?gh_jid=8553080002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer, Constellation Tools (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8398604002?gh_jid=8398604002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer (Build Reliability) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8555791002?gh_jid=8555791002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Flight Software Infrastructure Engineer (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8477451002?gh_jid=8477451002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Flight Software Engineer (Starlink Mobile)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8556909002?gh_jid=8556909002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Facilities Infrastructure Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8381785002?gh_jid=8381785002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8368715002?gh_jid=8368715002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Embedded Software Engineer, OS/Platform (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8530798002?gh_jid=8530798002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Electrical Engineer, Energy Infrastructure &amp; Generation<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8440651002?gh_jid=8440651002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Test Technician (Mechanical)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">McGregor, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8378521002?gh_jid=8378521002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Test Engineer, Structures (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Brownsville, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8551872002?gh_jid=8551872002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Test Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8470903002?gh_jid=8470903002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Test Engineer, Satellites (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8532641002?gh_jid=8532641002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Technician (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8435949002?gh_jid=8435949002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Technician (PCBA) - 2nd Shift (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8534711002?gh_jid=8534711002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Design Development Technician (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8356404002?gh_jid=8356404002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8569186002?gh_jid=8569186002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data &amp; Control Systems Technician (Starship Launch Hardware)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8543809002?gh_jid=8543809002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Center Specialist (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8465286002?gh_jid=8465286002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Civil Engineer, Land Development (Starship Infrastructure)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8529553002?gh_jid=8529553002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Civil Engineer, Land Development (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8563034002?gh_jid=8563034002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Build Specialist, Automation &amp; Controls (Starship Launch Pad) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8350432002?gh_jid=8350432002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Build Specialist, Automation &amp; Controls (Starship Launch Pad)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8350907002?gh_jid=8350907002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Backend Software Engineer, GNC (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8398679002?gh_jid=8398679002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation Engineer, Blades and Vanes Foundry<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8502939002?gh_jid=8502939002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Technician (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8561420002?gh_jid=8561420002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Technician, Infrastructure &amp; Utility (Starship) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8395296002?gh_jid=8395296002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Cape Canaveral, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8493473002?gh_jid=8493473002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist (Starlink Production)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8506464002?gh_jid=8506464002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist (Starlink Development)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8546178002?gh_jid=8546178002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist, Silicon Process Manufacturing (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8450986002?gh_jid=8450986002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist, PCB Manufacturing (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8560090002?gh_jid=8560090002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8399547002?gh_jid=8399547002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Starship)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8558761002?gh_jid=8558761002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Starlink Production)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8506443002?gh_jid=8506443002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer, Insource Manufacturing (Starlink)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8362097002?gh_jid=8362097002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Facilities)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8546353002?gh_jid=8546353002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Engineer (Asset Engineering)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8540471002?gh_jid=8540471002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation and Test Engineer, Satellites (Starlink) <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8369211002?gh_jid=8369211002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Application Software Engineer, Data<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8420526002?gh_jid=8420526002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Application Software Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8494240002?gh_jid=8494240002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Software Engineer (Vehicle Engineering)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8559015002?gh_jid=8559015002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Palo Alto, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8483747002?gh_jid=8483747002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8440980002?gh_jid=8440980002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Security Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Washington, DC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8441008002?gh_jid=8441008002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Engineer, Special Programs<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Washington, DC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8557208002?gh_jid=8557208002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Engineer, Special Programs<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Palo Alto, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8557038002?gh_jid=8557038002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Engineer, Platform Infrastructure, Special Programs<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Palo Alto, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8557110002?gh_jid=8557110002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI Engineer, Platform Infrastructure, Special Programs<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Washington, DC</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8557252002?gh_jid=8557252002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Ryan</div></td>
+      <td align="left" valign="top"><div style="width:380px">Full Stack AI Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Plano, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ryan.wd1.myworkdayjobs.com/ryancareers/job/Plano/Full-Stack-AI-Engineer_R0019979-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Rackner</div></td>
+      <td align="left" valign="top"><div style="width:380px">MLOps Engineer — AI/ML Systems &amp; Deployment (TS/SCI Preferred)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Dayton, OH</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://job-boards.greenhouse.io/rackner/jobs/4676566005" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Figma</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer, iOS</div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/figma/jobs/6100023004?gh_jid=6100023004" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Disney</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Lake Buena Vista, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Lake-Buena-Vista-FL-USA/Data-Engineer_10153225-1" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Engineer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Lake Buena Vista, FL</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Data-Engineer_10153225" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">Vizient</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer</div></td>
@@ -4745,6 +6152,69 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Stripe</div></td>
+      <td align="left" valign="top"><div style="width:380px">Policy Development &amp; Strategy</div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://stripe.com/jobs/search?gh_jid=7858723" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supervisor, IT Network Infrastructure<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Redmond, WA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8377059002?gh_jid=8377059002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">IT Network Infrastructure Engineer<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8570046002?gh_jid=8570046002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">HVAC Specialist (Chilled Water/Data Center) - Level 4/5 <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8540414002?gh_jid=8540414002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Development Process Technician, Injection Molding (Starlink) - Level 4/5<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Bastrop, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8570074002?gh_jid=8570074002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Construction Superintendent, Residential (Starbase Development)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8488362002?gh_jid=8488362002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Chiller Mechanic (Chilled Water/Data Center) - Level 4/5 <br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Hawthorne, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8541119002?gh_jid=8541119002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">↳</div></td>
+      <td align="left" valign="top"><div style="width:380px">Automation &amp; Controls Specialist (Starship) - Level 4/5<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
+      <td align="left" valign="top"><div style="width:180px">Starbase, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/spacex/jobs/8391268002?gh_jid=8391268002" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Hp</div></td>
+      <td align="left" valign="top"><div style="width:380px">AI &amp; Data Analytics</div></td>
+      <td align="left" valign="top"><div style="width:180px">Spring, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Spring-Texas-United-States-of-America/AI---Data-Analytics_3164052" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Scale AI</div></td>
       <td align="left" valign="top"><div style="width:380px">SWE Fellow - Human Frontier Collective (US)<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
@@ -7251,5 +8721,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-25T22:54:14.937Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-26T01:43:13.644Z</code>
 </p>
