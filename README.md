@@ -140,6 +140,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">TDS</div></td>
+      <td align="left" valign="top"><div style="width:380px">Software Engineer Intern</div></td>
+      <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://external-telecom-teldta.icims.com/jobs/29561/job?mobile=true&amp;needsRedirect=false" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Zipline</div></td>
       <td align="left" valign="top"><div style="width:380px">System Test Automation Intern (Fall 2026)</div></td>
       <td align="left" valign="top"><div style="width:180px">South San Francisco, CA</div></td>
@@ -9113,5 +9120,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-26T16:34:42.318Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-26T18:06:18.584Z</code>
 </p>
