@@ -4,7 +4,7 @@ import { CONFIG } from "@/constants";
 
 import { logger } from "@/utils/logger";
 
-const AI_PROVIDER = CONFIG.ai.provider;
+const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : "openai";
 
 export interface AIResponse {
   result: string | null;

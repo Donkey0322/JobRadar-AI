@@ -9,8 +9,8 @@ import { OpenAIProvider } from "./provider/openai";
 
 import { logger } from "@/utils/logger";
 
-const AI_PROVIDER = CONFIG.ai.provider;
-const DEFAULT_MODEL = CONFIG.ai.model;
+const AI_PROVIDER = CONFIG.ai.enabled ? CONFIG.ai.provider : "openai";
+const DEFAULT_MODEL = CONFIG.ai.enabled ? CONFIG.ai.model : "gpt-4o";
 export const AI_API_KEY = process.env.AI_API_KEY ?? "";
 
 export function getProvider(apiKey: string): AIProvider | null {
