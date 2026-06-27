@@ -981,11 +981,11 @@
       "https://amazon.jobs/en/jobs/10460384",
       "https://amazon.jobs/en/jobs/10460429",
       "https://amazon.jobs/en/jobs/10460473",
+      "https://amazon.jobs/en/jobs/10460509",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10460509"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -2843,7 +2843,9 @@
     "page": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10003383",
-      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005276"
+      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005276",
+      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10004571",
+      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005313"
     ]
   },
   {
@@ -5794,7 +5796,9 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
   },
   {
     "name": "corpay",
@@ -17372,9 +17376,7 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
-    ]
+    "urls": []
   },
   {
     "name": "skydio",
@@ -19353,6 +19355,7 @@
       "https://lifeattiktok.com/search/7595344466313529653",
       "https://lifeattiktok.com/search/7595346355196954933",
       "https://lifeattiktok.com/search/7595733632086591797",
+      "https://lifeattiktok.com/search/7597393522016717061",
       "https://lifeattiktok.com/search/7599799873770277125",
       "https://lifeattiktok.com/search/7600536394771564853",
       "https://lifeattiktok.com/search/7601028561881893173",
@@ -19360,6 +19363,7 @@
       "https://lifeattiktok.com/search/7602378131098831157",
       "https://lifeattiktok.com/search/7602832478072916229",
       "https://lifeattiktok.com/search/7603114583185623301",
+      "https://lifeattiktok.com/search/7604908702463314181",
       "https://lifeattiktok.com/search/7605333093151885621",
       "https://lifeattiktok.com/search/7605333525314685237",
       "https://lifeattiktok.com/search/7605475214691928373",
@@ -19410,9 +19414,7 @@
       "https://lifeattiktok.com/search/7652018318629390597",
       "https://lifeattiktok.com/search/7652143855625652533",
       "https://lifeattiktok.com/search/7654717965712099637",
-      "https://lifeattiktok.com/search/7654730223138654469",
-      "https://lifeattiktok.com/search/7597393522016717061",
-      "https://lifeattiktok.com/search/7604908702463314181"
+      "https://lifeattiktok.com/search/7654730223138654469"
     ]
   },
   {
