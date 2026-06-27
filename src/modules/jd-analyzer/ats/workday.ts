@@ -1,8 +1,13 @@
+import { ABORT_SIGNAL } from "@/constants";
+
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-export async function fetchWorkdayJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+export async function fetchWorkdayJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
   const parts = u.pathname.split("/").filter(Boolean);

@@ -19,6 +19,20 @@ const identifierMap: Record<string, string> = {
   "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com": "Chubb",
   "ekaw.fa.us2.oraclecloud.com": "Securitas",
   "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com": "Nokia",
+  "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com": "Ul solutions",
+  "hcjy.fa.us2.oraclecloud.com": "CooperSurgical",
+  "ecnf.fa.us2.oraclecloud.com": "Tradeweb",
+  "ibqbjb.fa.ocs.oraclecloud.com": "Honeywell",
+  "ecge.fa.us2.oraclecloud.com": "Blue Shield",
+  "edel.fa.us2.oraclecloud.com": "Fortinet",
+  "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com": "Citco",
+  "hccz.fa.em3.oraclecloud.com": "Pearson",
+  "fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com": "Worthington",
+  "ejhp.fa.us6.oraclecloud.com": "Sherwin-Williams",
+  "erqh.fa.us2.oraclecloud.com": "Atlantic Health",
+  "edix.fa.us2.oraclecloud.com": "CORSAIR",
+  "ebwb.fa.us2.oraclecloud.com": "HOLOGIC",
+  "eofe.fa.us2.oraclecloud.com": "BNY",
 };
 
 export async function getSiteSettings(url: URL) {

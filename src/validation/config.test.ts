@@ -18,6 +18,7 @@ describe("ConfigSchema", () => {
       },
 
       ai: {
+        enabled: true,
         provider: "openai",
         model: "gpt-4o",
       },
@@ -147,6 +148,7 @@ describe("ConfigSchema", () => {
       },
 
       ai: {
+        enabled: true,
         provider: "openai",
         model: "gpt-4o",
       },

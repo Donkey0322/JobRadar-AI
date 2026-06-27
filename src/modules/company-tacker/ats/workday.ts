@@ -1,3 +1,4 @@
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
@@ -18,9 +19,13 @@ interface WorkdayJob {
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;
 
+const identifierMap = {
+  talentmanagementsolution: "jonas",
+} satisfies Record<string, string>;
+
 export function urlToWorkdayCompany(url: URL): Company {
   const name = url.hostname.split(".")[0];
-
+  const identifier = identifierMap[name as keyof typeof identifierMap] ?? name;
   const parts = url.pathname.split("/").filter(Boolean);
 
   const isLocale = (str: string) => /^[a-z]{2}-[a-z]{2}$/i.test(str);
@@ -33,16 +38,20 @@ export function urlToWorkdayCompany(url: URL): Company {
       : (parts.find((p) => !isLocale(p))?.toLowerCase() ?? "external");
 
   return {
-    name,
+    name: identifier,
     ats: "workday",
-    identifier: `${name}-${careerPage}`,
+    identifier: `${identifier}-${careerPage}`,
     domain: `${url.origin}/${careerPage}`,
     page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
     urls: [],
   };
 }
 
-export async function fetchWorkday(company: Company, urls: Set<string>, signal: AbortSignal) {
+export async function fetchWorkday(
+  company: Company,
+  urls: Set<string>,
+  signal: AbortSignal = ABORT_SIGNAL
+) {
   let offset = 0;
 
   let page = 0;

@@ -19,6 +19,7 @@ const identifierMap: Record<string, string> = {
   "zipline.com": "flyzipline",
   "squarepoint-capital.com": "squarepointcapital",
   "corporate.trustpilot.com": "trustpilot",
+  "c3.ai": "c3iot",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",

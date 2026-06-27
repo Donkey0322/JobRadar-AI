@@ -790,8 +790,8 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728534",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728536",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728869",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728872"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728872",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -4303,7 +4303,11 @@
     "domain": "https://careers.aqr.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
     "urls": [
-      "https://careers.aqr.com/jobs?gh_jid=7263576&gh_jid=7263576"
+      "https://careers.aqr.com/jobs?gh_jid=7263576&gh_jid=7263576",
+      "https://careers.dat.com/jobs/5988303004?gh_jid=5988303004",
+      "https://careers.dat.com/jobs/5990621004?gh_jid=5990621004",
+      "https://careers.dat.com/jobs/6007145004?gh_jid=6007145004",
+      "https://careers.dat.com/jobs/6099144004?gh_jid=6099144004"
     ]
   },
   {
@@ -5567,6 +5571,23 @@
     "urls": []
   },
   {
+    "name": "Citco",
+    "ats": "oraclecloud",
+    "identifier": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13957",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14258",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16188",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16246",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16264",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16435",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16896",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/17045"
+    ]
+  },
+  {
     "name": "clarios",
     "ats": "workday",
     "identifier": "clarios-clarioscareers",
@@ -5965,6 +5986,20 @@
     "urls": []
   },
   {
+    "name": "CooperSurgical",
+    "ats": "oraclecloud",
+    "identifier": "hcjy.fa.us2.oraclecloud.com",
+    "domain": "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://hcjy.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11629",
+      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11681",
+      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11725",
+      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11730",
+      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11769"
+    ]
+  },
+  {
     "name": "copart",
     "ats": "workday",
     "identifier": "copart-copart",
@@ -6024,18 +6059,6 @@
     "page": "",
     "urls": [
       "https://corningjobs.corning.com/job/Fairport-Software-Engineering-Intern-Summer-2026-NY-14450/1344128900/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "corp",
-    "ats": "greenhouse",
-    "identifier": "corp",
-    "domain": "http://corp.skillz.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
-      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
     ]
   },
   {
@@ -6574,12 +6597,7 @@
     "identifier": "datsolutions",
     "domain": "https://careers.dat.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/datsolutions/jobs",
-    "urls": [
-      "https://careers.dat.com/jobs/5988303004?gh_jid=5988303004",
-      "https://careers.dat.com/jobs/5990621004?gh_jid=5990621004",
-      "https://careers.dat.com/jobs/6007145004?gh_jid=6007145004",
-      "https://careers.dat.com/jobs/6099144004?gh_jid=6099144004"
-    ]
+    "urls": []
   },
   {
     "name": "daytonfreight",
@@ -7260,17 +7278,6 @@
     "urls": []
   },
   {
-    "name": "ebwb.fa.us2.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ebwb.fa.us2.oraclecloud.com",
-    "domain": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
-    "page": "https://ebwb.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11792",
-      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11793"
-    ]
-  },
-  {
     "name": "ebwh.fa.us2.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "ebwh.fa.us2.oraclecloud.com",
@@ -7285,22 +7292,6 @@
     "domain": "https://echo.wd1.myworkdayjobs.com/echo_logistics",
     "page": "https://echo.wd1.myworkdayjobs.com/wday/cxs/echo/echo_logistics/jobs",
     "urls": []
-  },
-  {
-    "name": "ecnf.fa.us2.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ecnf.fa.us2.oraclecloud.com",
-    "domain": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
-    "page": "https://ecnf.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301622",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301706",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301721",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301754",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301794",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301803",
-      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301809"
-    ]
   },
   {
     "name": "ecolab",
@@ -7324,20 +7315,6 @@
     "domain": "https://econtrols.applytojob.com",
     "page": "",
     "urls": []
-  },
-  {
-    "name": "edel.fa.us2.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "edel.fa.us2.oraclecloud.com",
-    "domain": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
-    "page": "https://edel.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21633",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22183",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22520",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22741"
-    ]
   },
   {
     "name": "eduarcline.us",
@@ -8148,37 +8125,6 @@
     "urls": []
   },
   {
-    "name": "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job",
-    "page": "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DULSolutionsCareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9366",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9766",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9932",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9994"
-    ]
-  },
-  {
-    "name": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13957",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14258",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16188",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16246",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16264",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16435",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16896",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/17045"
-    ]
-  },
-  {
     "name": "fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
@@ -8659,6 +8605,20 @@
     ]
   },
   {
+    "name": "Fortinet",
+    "ats": "oraclecloud",
+    "identifier": "edel.fa.us2.oraclecloud.com",
+    "domain": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
+    "page": "https://edel.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2001%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/21633",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22183",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22401",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22520",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22741"
+    ]
+  },
+  {
     "name": "Fortive Careers",
     "ats": "oraclecloud",
     "identifier": "ejta.fa.us6.oraclecloud.com",
@@ -9110,6 +9070,7 @@
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Bengaluru/Software-Intern_R4041234-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Bengaluru/Software-Intern_R4041235-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Buc/Ingnieur-e--logiciel-Fullstack_R4042337-1",
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/HUN02-01-Budapest-Vaci-Greens-C/Quality-Assurance-Engineer---Test-automation-engineer_R4042625",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/HUN02-01-Budapest-Vaci-Greens-C/Software-Engineer_R4041036-2",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Haifa-HEALTHCARE-HA-IL-2/Recon-Software-Engineer_R4042269-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Software-Engineer_R4038639-1",
@@ -9126,8 +9087,7 @@
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Seongnam/Software-Engineer_R4042394-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Engineering-Technician_R4042171-2",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Software-Engineer_R4042739-2",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/HUN02-01-Budapest-Vaci-Greens-C/Quality-Assurance-Engineer---Test-automation-engineer_R4042625"
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527"
     ]
   },
   {
@@ -10346,38 +10306,6 @@
     "urls": []
   },
   {
-    "name": "hccz.fa.em3.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "hccz.fa.em3.oraclecloud.com",
-    "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
-    "page": "https://hccz.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23289",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23716",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24178",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24328",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24422",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24475",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24509",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24551",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24574"
-    ]
-  },
-  {
-    "name": "hcjy.fa.us2.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "hcjy.fa.us2.oraclecloud.com",
-    "domain": "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://hcjy.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11629",
-      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11681",
-      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11725",
-      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11730",
-      "https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11769"
-    ]
-  },
-  {
     "name": "hcmportal",
     "ats": "workday",
     "identifier": "hcmportal-search",
@@ -10597,6 +10525,17 @@
     "urls": []
   },
   {
+    "name": "HOLOGIC",
+    "ats": "oraclecloud",
+    "identifier": "ebwb.fa.us2.oraclecloud.com",
+    "domain": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ebwb.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11792",
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11793"
+    ]
+  },
+  {
     "name": "homebase",
     "ats": "ashby",
     "identifier": "homebase",
@@ -10641,6 +10580,60 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/honehealth/jobs",
     "urls": []
+  },
+  {
+    "name": "Honeywell",
+    "ats": "oraclecloud",
+    "identifier": "ibqbjb.fa.ocs.oraclecloud.com",
+    "domain": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job",
+    "page": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DHoneywell%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/140815",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/144292",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/145336",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/145752",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/146476",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/146898",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147061",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147188",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147991",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/148473",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/148769",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149141",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149186",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149219",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149393",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149877",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149941",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150123",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150201",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150242",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150371",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150375",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150415",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150449",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150555",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150640",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150733",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150737",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150754",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150917",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150935",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151155",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151156",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151259",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151312",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151313",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151391",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151463",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151481",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151577",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151655",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151697",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151709",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151718",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151745"
+    ]
   },
   {
     "name": "hootsuite",
@@ -10867,60 +10860,6 @@
     "domain": "https://ibotta.wd1.myworkdayjobs.com/ibotta",
     "page": "https://ibotta.wd1.myworkdayjobs.com/wday/cxs/ibotta/ibotta/jobs",
     "urls": []
-  },
-  {
-    "name": "ibqbjb.fa.ocs.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ibqbjb.fa.ocs.oraclecloud.com",
-    "domain": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job",
-    "page": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DHoneywell%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/140815",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/144292",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/145336",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/145752",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/146476",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/146898",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147061",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147188",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/147991",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/148473",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/148769",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149141",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149186",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149219",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149393",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149877",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149941",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150123",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150201",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150242",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150371",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150375",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150415",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150449",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150555",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150640",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150733",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150737",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150754",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150917",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150935",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151155",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151156",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151259",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151312",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151313",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151391",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151463",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151481",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151577",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151655",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151697",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151709",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151718",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151745"
-    ]
   },
   {
     "name": "ice",
@@ -12148,6 +12087,38 @@
     "page": "",
     "urls": [
       "https://www.jolera.com/careers/?jobId=mQ_8xXOp_PHw"
+    ]
+  },
+  {
+    "name": "jonas",
+    "ats": "workday",
+    "identifier": "jonas-jonassoftwarecanada",
+    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada",
+    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwarecanada/jobs",
+    "urls": [
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2",
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada/job/Canada---Markham---Ontario/Business-Development-Rep--BDR-_R52599-2",
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada/job/Remote-Canada-ON/Business-Development-Representative_R52410"
+    ]
+  },
+  {
+    "name": "jonas",
+    "ats": "workday",
+    "identifier": "jonas-jonassoftwareusa",
+    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa",
+    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwareusa/jobs",
+    "urls": [
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa/job/Remote---USA/Software-Engineer---Intern_R52705"
+    ]
+  },
+  {
+    "name": "jonas",
+    "ats": "workday",
+    "identifier": "jonas-perseus-careers",
+    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/perseus-careers",
+    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/perseus-careers/jobs",
+    "urls": [
+      "https://talentmanagementsolution.wd3.myworkdayjobs.com/perseus-careers/job/Remote---CAN/Software-Specialist_R52154"
     ]
   },
   {
@@ -15617,6 +15588,24 @@
     ]
   },
   {
+    "name": "Pearson",
+    "ats": "oraclecloud",
+    "identifier": "hccz.fa.em3.oraclecloud.com",
+    "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
+    "page": "https://hccz.fa.em3.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_2%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23289",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/23716",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24178",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24328",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24422",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24475",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24509",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24551",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24574"
+    ]
+  },
+  {
     "name": "pebl",
     "ats": "ashby",
     "identifier": "pebl",
@@ -18047,7 +18036,11 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=7960088",
+      "http://corp.skillz.com/careers-list/?gh_jid=7960155",
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
   },
   {
     "name": "skydio",
@@ -19434,11 +19427,7 @@
     "identifier": "talentmanagementsolution-jonassoftwarecanada",
     "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada",
     "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwarecanada/jobs",
-    "urls": [
-      "https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2",
-      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada/job/Canada---Markham---Ontario/Business-Development-Rep--BDR-_R52599-2",
-      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada/job/Remote-Canada-ON/Business-Development-Representative_R52410"
-    ]
+    "urls": []
   },
   {
     "name": "talentmanagementsolution",
@@ -19446,9 +19435,7 @@
     "identifier": "talentmanagementsolution-jonassoftwareusa",
     "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa",
     "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwareusa/jobs",
-    "urls": [
-      "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa/job/Remote---USA/Software-Engineer---Intern_R52705"
-    ]
+    "urls": []
   },
   {
     "name": "talentmanagementsolution",
@@ -19456,9 +19443,7 @@
     "identifier": "talentmanagementsolution-perseus-careers",
     "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/perseus-careers",
     "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/perseus-careers/jobs",
-    "urls": [
-      "https://talentmanagementsolution.wd3.myworkdayjobs.com/perseus-careers/job/Remote---CAN/Software-Specialist_R52154"
-    ]
+    "urls": []
   },
   {
     "name": "Talos-Trading",
@@ -20306,6 +20291,22 @@
     ]
   },
   {
+    "name": "Tradeweb",
+    "ats": "oraclecloud",
+    "identifier": "ecnf.fa.us2.oraclecloud.com",
+    "domain": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
+    "page": "https://ecnf.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301622",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301706",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301721",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301754",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301794",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301803",
+      "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301809"
+    ]
+  },
+  {
     "name": "transcarent",
     "ats": "greenhouse",
     "identifier": "transcarent",
@@ -20705,6 +20706,20 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/uipath",
     "urls": [
       "https://jobs.ashbyhq.com/uipath/b262761e-ae68-48ab-b82c-8b41ad647a6f"
+    ]
+  },
+  {
+    "name": "Ul solutions",
+    "ats": "oraclecloud",
+    "identifier": "fa-eups-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job",
+    "page": "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DULSolutionsCareers%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9366",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9766",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9932",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9994"
     ]
   },
   {

@@ -12,6 +12,7 @@ import { fetchNetflixJD } from "./netflix";
 
 import { parseCustomCompanyIdentifier } from "@/modules/company-tacker/ats/custom";
 import { logger } from "@/utils/logger";
+import { htmlToText, normalizeRawText } from "@/utils/string";
 
 const FALLBACK_JD_MAX_CHARS = 12_000;
 
@@ -30,23 +31,9 @@ const JD_KEYWORDS = [
   "who you are",
 ];
 
-function normalizeRawText(text: string): string | null {
-  const lines = text
-    .split("\n")
-    .map((ln) => ln.replace(/\s+/g, " ").trim())
-    .filter((ln) => ln.length > 0);
-
-  return lines.length ? lines.join("\n") : null;
-}
-
 function limitRawText(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
   if (text.length <= maxChars) return text;
   return `${text.slice(0, maxChars)}\n\n[TRUNCATED]`;
-}
-
-function htmlToText(html: string): string {
-  const $ = cheerio.load(html);
-  return $.root().text();
 }
 
 function getString(value: unknown): string {

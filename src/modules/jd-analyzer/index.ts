@@ -13,6 +13,7 @@ import {
   fetchAshbyJD,
   fetchCustomJD,
   fetchGreenhouseJD,
+  fetchIcimsJD,
   fetchOracleJD,
   fetchSmartRecruitersJD,
   fetchWorkdayJD,
@@ -21,6 +22,7 @@ import {
 } from "./ats";
 
 import { logger } from "@/utils/logger";
+import { normalizeRawText } from "@/utils/string";
 import { JDResponseSchema } from "@/validation/ai";
 
 export function normalizeJD(response: JDResponse): JD {
@@ -71,15 +73,6 @@ export function isEligibleJD(jd: JD) {
   return [true, null];
 }
 
-function normalizeRawText(text: string): string | null {
-  const lines = text
-    .split("\n")
-    .map((ln) => ln.replace(/\s+/g, " ").trim())
-    .filter((ln) => ln.length > 0);
-
-  return lines.length ? lines.join("\n") : null;
-}
-
 function finishRawJD(result: JDFetchResult): JDFetchResult {
   if (!result.jd) return result;
 
@@ -109,6 +102,8 @@ export async function getRawJD(
         return finishRawJD(await fetchAshbyJD(url, signal));
       case "oraclecloud":
         return finishRawJD(await fetchOracleJD(url, signal));
+      case "icims":
+        return finishRawJD(await fetchIcimsJD(url, signal));
       default:
         return finishRawJD(await fetchCustomJD(url, signal));
     }
