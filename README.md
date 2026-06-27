@@ -422,6 +422,13 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Lubbock, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728872" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 27</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Securitas security services</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Center Security Officer</div></td>
       <td align="left" valign="top"><div style="width:180px">Hillsboro, OR</div></td>
@@ -9799,5 +9806,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T05:07:42.985Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T12:25:58.141Z</code>
 </p>
