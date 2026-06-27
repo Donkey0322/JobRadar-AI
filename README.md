@@ -422,6 +422,20 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Securitas security services</div></td>
+      <td align="left" valign="top"><div style="width:380px">Data Center Security Officer</div></td>
+      <td align="left" valign="top"><div style="width:180px">Hillsboro, OR</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://ekaw.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/172032" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Albertsons companies</div></td>
+      <td align="left" valign="top"><div style="width:380px">Front End Entry Level</div></td>
+      <td align="left" valign="top"><div style="width:180px">Bakersfield, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728869" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Roberthalf</div></td>
       <td align="left" valign="top"><div style="width:380px">Business Intelligence Developer I (Contract Talent)</div></td>
       <td align="left" valign="top"><div style="width:180px">San Ramon, CA</div></td>
@@ -2390,6 +2404,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Apple</div></td>
+      <td align="left" valign="top"><div style="width:380px">Quality &amp; Test Automation Engineer – Xcode</div></td>
+      <td align="left" valign="top"><div style="width:180px">Cupertino, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.apple.com/en-us/details/200669845-0836/quality-test-automation-engineer-xcode?team=SFTWR" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
     <tr>
       <td align="left" valign="top"><div style="width:180px">SpaceX</div></td>
       <td align="left" valign="top"><div style="width:380px">Full Stack Software Engineer (Starshield)<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /></div></td>
@@ -6747,6 +6768,27 @@
   </thead>
   <tbody>
     <tr>
+      <td align="left" valign="top"><div style="width:180px">Sierra</div></td>
+      <td align="left" valign="top"><div style="width:380px">Brand Designer, System </div></td>
+      <td align="left" valign="top"><div style="width:180px">San Francisco, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://jobs.ashbyhq.com/Sierra/dbf4e402-464a-4d90-b351-078099947b98" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Realtor.com Careers</div></td>
+      <td align="left" valign="top"><div style="width:380px">Mgr, Data Engineering</div></td>
+      <td align="left" valign="top"><div style="width:180px">Austin, TX</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/rdccareers/jobs/7783118003?gh_jid=7783118003" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><div style="width:180px">Anduril Industries</div></td>
+      <td align="left" valign="top"><div style="width:380px">Supply Chain Master Data Analyst</div></td>
+      <td align="left" valign="top"><div style="width:180px">Costa Mesa, CA</div></td>
+      <td align="left" valign="top"><div style="width:90px"><a href="https://boards.greenhouse.io/andurilindustries/jobs/4985350007?gh_jid=4985350007" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
+      <td align="left" valign="top"><div style="width:90px">Jun 26</div></td>
+    </tr>
+    <tr>
       <td align="left" valign="top"><div style="width:180px">Disney</div></td>
       <td align="left" valign="top"><div style="width:380px">Sr Software Engineer</div></td>
       <td align="left" valign="top"><div style="width:180px">Bay Lake, FL</div></td>
@@ -9757,5 +9799,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T00:24:32.652Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T05:07:42.985Z</code>
 </p>
