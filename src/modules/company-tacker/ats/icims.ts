@@ -9,8 +9,9 @@ import type { Job } from "@/types";
 import { isTarget } from "../utils";
 
 import { logger } from "@/utils/logger";
+import { capitalize } from "@/utils/string";
 
-const MAX_PAGES = 20;
+const MAX_PAGES = 1;
 
 function cleanText(text: string): string {
   return text.replace(/\s+/g, " ").trim();
@@ -190,7 +191,7 @@ function extractJobsFromSearchHtml(
   html: string,
   pageUrl: URL,
   company: Company,
-  urls: Set<string>
+  seenUrls: Set<string>
 ): Job[] {
   const $ = cheerio.load(html);
   const jobs: Job[] = [];
@@ -203,7 +204,7 @@ function extractJobsFromSearchHtml(
     const id = getIcimsJobId(link);
     if (!id) return;
 
-    if (urls.has(link)) return;
+    if (seenUrls.has(link)) return;
 
     // grep heading
     const heading = $(el).find("h3").text();
@@ -228,13 +229,13 @@ function extractJobsFromSearchHtml(
     const location = getLocationFromCard(cardText);
 
     const job: Job = {
-      company: company.name,
+      company: capitalize(company.name),
       role,
       link,
       location,
     };
 
-    urls.add(link);
+    seenUrls.add(link);
     jobs.push(job);
   });
 
@@ -248,6 +249,12 @@ export async function fetchIcims(
 ): Promise<Job[]> {
   const allJobs: Job[] = [];
 
+  // Important:
+  // Use a local Set for deduping inside this fetcher.
+  // Do not mutate the caller's urls Set, because the outer layer may use it
+  // after fetchIcims returns to decide which jobs are new.
+  const seenUrls = new Set(urls);
+
   try {
     const searchPage = await resolveSearchPage(company, signal);
 
@@ -259,7 +266,7 @@ export async function fetchIcims(
       const html = await fetchHtml(pageUrl.toString(), signal);
       if (!html) break;
 
-      const pageJobs = extractJobsFromSearchHtml(html, pageUrl, company, urls);
+      const pageJobs = extractJobsFromSearchHtml(html, pageUrl, company, seenUrls);
 
       if (pageJobs.length === 0) break;
 

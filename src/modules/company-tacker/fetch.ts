@@ -9,6 +9,7 @@ import {
   fetchAshby,
   fetchCustom,
   fetchGreenhouse,
+  fetchIcims,
   fetchLever,
   fetchOracleCloud,
   fetchSmartRecruiters,
@@ -62,7 +63,8 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
       break;
 
     case "icims":
-      return jobs;
+      jobs = await fetchIcims(company, urls, signal);
+      break;
 
     default:
       company.ats satisfies never;

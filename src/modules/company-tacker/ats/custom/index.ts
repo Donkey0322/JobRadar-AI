@@ -142,7 +142,7 @@ export async function fetchCustom(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   if (company.page === "") {
-    logger.warn({ company: company.name }, `⚠️ No page specified`);
+    // logger.warn({ company: company.name }, `⚠️ No page specified`);
     return [];
   }
 

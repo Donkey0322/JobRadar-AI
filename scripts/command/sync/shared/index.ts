@@ -8,6 +8,7 @@ import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJd, saveJob, saveUrls } from "@/utils/data";
+import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;
@@ -95,9 +96,15 @@ export async function processJobs({
 
   const limit = pLimit(AI_CONCURRENCY);
 
+  let completed = 0;
+  const total = incomingJobs.length;
+
   const results = await Promise.all(
     incomingJobs.map((job) =>
       limit(async () => {
+        completed++;
+        renderProgress(completed, total);
+
         const key = getJobKey(job.link);
 
         if (keys.has(key)) {

@@ -35,14 +35,6 @@
     "urls": []
   },
   {
-    "name": "8am",
-    "ats": "greenhouse",
-    "identifier": "8am",
-    "domain": "https://www.8am.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": []
-  },
-  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers2",
@@ -727,8 +719,11 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728532",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728534",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728536",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728564",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728869",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728872",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728874",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/728883",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
@@ -739,7 +734,8 @@
     "domain": "https://careers-alcami.icims.com",
     "page": "https://careers-alcami.icims.com/jobs/search",
     "urls": [
-      "https://careers-alcami.icims.com/jobs/2134/sr.-process-engineer/job"
+      "https://careers-alcami.icims.com/jobs/2134/sr.-process-engineer/job",
+      "https://careers-alcami.icims.com/jobs/2033/quality-control-data-review-specialist---gmp-%2c-chromatography/job"
     ]
   },
   {
@@ -930,7 +926,10 @@
     "identifier": "aluminumdynamics",
     "domain": "https://careers-aluminumdynamics.icims.com",
     "page": "https://careers-aluminumdynamics.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-aluminumdynamics.icims.com/jobs/7541/automation-controls-engineer/job",
+      "https://careers-aluminumdynamics.icims.com/jobs/7127/mobile-equipment-mechanic/job"
+    ]
   },
   {
     "name": "amat",
@@ -2338,7 +2337,10 @@
     "domain": "https://careers-axway.icims.com",
     "page": "https://careers-axway.icims.com/jobs/search",
     "urls": [
-      "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false"
+      "https://careers-axway.icims.com/jobs/8659/job?mobile=true&needsRedirect=false",
+      "https://careers-axway.icims.com/jobs/8800/senior-system-program-developer-i/job",
+      "https://careers-axway.icims.com/jobs/8784/services-consultant-iii/job",
+      "https://careers-axway.icims.com/jobs/8751/intern/job"
     ]
   },
   {
@@ -2767,7 +2769,10 @@
     "identifier": "benjaminmoore",
     "domain": "https://careers-benjaminmoore.icims.com",
     "page": "https://careers-benjaminmoore.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-benjaminmoore.icims.com/jobs/2337/sap-abap-developer-%e2%80%93-s-4hana-%26-ecc/job",
+      "https://careers-benjaminmoore.icims.com/jobs/2285/systems-integration-specialist---robotic-process-automation/job"
+    ]
   },
   {
     "name": "bequad.com",
@@ -2800,7 +2805,8 @@
     "domain": "https://careers-beyondsoft.icims.com",
     "page": "https://careers-beyondsoft.icims.com/jobs/search",
     "urls": [
-      "https://careers-beyondsoft.icims.com/jobs/10912/job?mobile=true&needsRedirect=false"
+      "https://careers-beyondsoft.icims.com/jobs/10912/job?mobile=true&needsRedirect=false",
+      "https://careers-beyondsoft.icims.com/jobs/10887/sr-ai-engineer/job"
     ]
   },
   {
@@ -4057,14 +4063,6 @@
     ]
   },
   {
-    "name": "careers",
-    "ats": "greenhouse",
-    "identifier": "careers",
-    "domain": "https://careers.aqr.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
-    "urls": []
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -4881,7 +4879,9 @@
     "identifier": "carollo",
     "domain": "https://careers-carollo.icims.com",
     "page": "https://careers-carollo.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-carollo.icims.com/jobs/4443/professional-infrastructure-engineer/job"
+    ]
   },
   {
     "name": "carrier",
@@ -5061,6 +5061,14 @@
     ]
   },
   {
+    "name": "cerebras",
+    "ats": "ashby",
+    "identifier": "cerebras",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/cerebras",
+    "urls": []
+  },
+  {
     "name": "cff",
     "ats": "workday",
     "identifier": "cff-explore-career-opportunities",
@@ -5074,7 +5082,10 @@
     "identifier": "cfins",
     "domain": "https://careers-cfins.icims.com",
     "page": "https://careers-cfins.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-cfins.icims.com/jobs/4991/reporting-%26-data-call-analyst---hybrid/job",
+      "https://careers-cfins.icims.com/jobs/4987/iseries-as400-developer---remote/job"
+    ]
   },
   {
     "name": "cgg",
@@ -5823,7 +5834,14 @@
     "identifier": "cotiviti",
     "domain": "https://careers-cotiviti.icims.com",
     "page": "https://careers-cotiviti.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-cotiviti.icims.com/jobs/19583/generative-ai-scientist---%28model-risk-%26-validation%29/job",
+      "https://careers-cotiviti.icims.com/jobs/19416/intern---agentic-ai-research/job",
+      "https://careers-cotiviti.icims.com/jobs/19341/intern---generative-ai-research-engineer/job",
+      "https://careers-cotiviti.icims.com/jobs/19214/intern---generative-ai-developer-%28available-now%29/job",
+      "https://careers-cotiviti.icims.com/jobs/19202/corporate-development-associate/job",
+      "https://careers-cotiviti.icims.com/jobs/19161/data-engineer-m-f%2c-9am-6pm-pacific-time-zone/job"
+    ]
   },
   {
     "name": "countryfinancial",
@@ -6191,7 +6209,11 @@
     "identifier": "daifuku-america",
     "domain": "https://careers-daifuku-america.icims.com",
     "page": "https://careers-daifuku-america.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-daifuku-america.icims.com/jobs/21530/ilus---systems-engineer/job",
+      "https://careers-daifuku-america.icims.com/jobs/21522/ilus---automation-tech-i/job",
+      "https://careers-daifuku-america.icims.com/jobs/21499/dsus-building-automation-technician/job"
+    ]
   },
   {
     "name": "daikinapplied",
@@ -6844,7 +6866,9 @@
     "identifier": "e2",
     "domain": "https://careers-e2.icims.com",
     "page": "https://careers-e2.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-e2.icims.com/jobs/6175/system-administrator/job"
+    ]
   },
   {
     "name": "eaglepicher",
@@ -6860,14 +6884,6 @@
     "identifier": "eagleview",
     "domain": "https://careers-eagleview.icims.com",
     "page": "https://api.icims.com/v1/companies/eagleview/jobs",
-    "urls": []
-  },
-  {
-    "name": "earlytalentcerebras",
-    "ats": "greenhouse",
-    "identifier": "earlytalentcerebras",
-    "domain": "https://boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/earlytalentcerebras/jobs",
     "urls": []
   },
   {
@@ -6918,7 +6934,9 @@
     "identifier": "ebscoind",
     "domain": "https://careers-ebscoind.icims.com",
     "page": "https://careers-ebscoind.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-ebscoind.icims.com/jobs/2035/sr-cloud-platform-engineer/job"
+    ]
   },
   {
     "name": "ebwh.fa.us2.oraclecloud.com",
@@ -7010,7 +7028,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/eightsleep",
     "urls": [
-      "https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035"
+      "https://jobs.ashbyhq.com/eightsleep/b6c2e6f6-eadd-4d67-93e9-1426be4f2035",
+      "https://jobs.ashbyhq.com/eightsleep/ffc6db02-7b50-466a-b0d2-8341952fb651"
     ]
   },
   {
@@ -7106,7 +7125,9 @@
     "identifier": "empiricalfoods",
     "domain": "https://careers-empiricalfoods.icims.com",
     "page": "https://careers-empiricalfoods.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-empiricalfoods.icims.com/jobs/3770/automation-systems-engineer/job"
+    ]
   },
   {
     "name": "empower",
@@ -7258,7 +7279,9 @@
     "identifier": "epeconsulting",
     "domain": "https://careers-epeconsulting.icims.com",
     "page": "https://careers-epeconsulting.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-epeconsulting.icims.com/jobs/2103/gis-automation-engineer/job"
+    ]
   },
   {
     "name": "epicgames",
@@ -8339,7 +8362,9 @@
     "identifier": "fult",
     "domain": "https://careers-fult.icims.com",
     "page": "https://careers-fult.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-fult.icims.com/jobs/23890/associate-engineer---data-quality/job"
+    ]
   },
   {
     "name": "furtherearlycareer",
@@ -8543,7 +8568,9 @@
     "page": "https://careers-gdms.icims.com/jobs/search",
     "urls": [
       "https://careers-gdms.icims.com/jobs/73140/job?mobile=true&needsRedirect=false",
-      "https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false"
+      "https://careers-gdms.icims.com/jobs/73193/job?mobile=true&needsRedirect=false",
+      "https://careers-gdms.icims.com/jobs/73300/software-engineer---hoh-fellows-%7c-spouseworks-fellows-%7c-skillbridge-candidates-only/job",
+      "https://careers-gdms.icims.com/jobs/73314/software-engineer/job"
     ]
   },
   {
@@ -9937,7 +9964,11 @@
     "identifier": "here",
     "domain": "https://careers-here.icims.com",
     "page": "https://careers-here.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-here.icims.com/jobs/81553/sr-data-scientist/job",
+      "https://careers-here.icims.com/jobs/81504/sr-software-engineer/job",
+      "https://careers-here.icims.com/jobs/81495/software-engineer-tools-%26-automation/job"
+    ]
   },
   {
     "name": "hermeus",
@@ -9958,7 +9989,9 @@
     "identifier": "hexagonpositioning",
     "domain": "https://careers-hexagonpositioning.icims.com",
     "page": "https://careers-hexagonpositioning.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-hexagonpositioning.icims.com/jobs/2990/principle-consultant-%7c-autonomy-business-development/job"
+    ]
   },
   {
     "name": "hhmi",
@@ -10302,7 +10335,10 @@
     "identifier": "i3-corps",
     "domain": "https://careers-i3-corps.icims.com",
     "page": "https://careers-i3-corps.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-i3-corps.icims.com/jobs/5152/uxs-software-systems-engineer/job",
+      "https://careers-i3-corps.icims.com/jobs/5151/solution-level-software-system-engineer/job"
+    ]
   },
   {
     "name": "ibkr",
@@ -10358,7 +10394,10 @@
     "identifier": "ice",
     "domain": "https://careers-ice.icims.com",
     "page": "https://careers-ice.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-ice.icims.com/jobs/13209/associate-data-scientist/job",
+      "https://careers-ice.icims.com/jobs/13074/platform-engineer%2c-systems-engineering/job"
+    ]
   },
   {
     "name": "icf",
@@ -10820,7 +10859,10 @@
     "identifier": "ipipeline",
     "domain": "https://careers-ipipeline.icims.com",
     "page": "https://careers-ipipeline.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-ipipeline.icims.com/jobs/1678/expert-cloud-systems-administrator/job",
+      "https://careers-ipipeline.icims.com/jobs/1671/experienced-data-analyst/job"
+    ]
   },
   {
     "name": "ironcladhq",
@@ -11742,7 +11784,17 @@
     "identifier": "kimley-horn",
     "domain": "https://careers-kimley-horn.icims.com",
     "page": "https://careers-kimley-horn.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-kimley-horn.icims.com/jobs/24617/civil-engineer---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24615/experienced-civil-eit---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24611/experienced-civil-eit---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24605/experienced-civil-eit---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24589/experienced-civil-eit---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24583/civil-engineer---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24579/experienced-civil-eit---land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24577/civil-designer--land-development/job",
+      "https://careers-kimley-horn.icims.com/jobs/24571/civil-engineer---land-development/job"
+    ]
   },
   {
     "name": "kinaxis",
@@ -11753,7 +11805,12 @@
     "urls": [
       "https://careers-kinaxis.icims.com/jobs/34764/job?mobile=true&needsRedirect=false",
       "https://careers-kinaxis.icims.com/jobs/34832/job?mobile=true&needsRedirect=false",
-      "https://careers-kinaxis.icims.com/jobs/34962/job?mobile=true&needsRedirect=false"
+      "https://careers-kinaxis.icims.com/jobs/34962/job?mobile=true&needsRedirect=false",
+      "https://careers-kinaxis.icims.com/jobs/34900/intern-software-developer-quality-assurance/job",
+      "https://careers-kinaxis.icims.com/jobs/34766/co-op--intern-engineer%2c-data-%26-analytics/job",
+      "https://careers-kinaxis.icims.com/jobs/34756/co-op--intern-curriculum-developer/job",
+      "https://careers-kinaxis.icims.com/jobs/34728/business-development-rep/job",
+      "https://careers-kinaxis.icims.com/jobs/34691/business-development-representative/job"
     ]
   },
   {
@@ -12217,14 +12274,6 @@
     ]
   },
   {
-    "name": "lindy",
-    "ats": "ashby",
-    "identifier": "lindy",
-    "domain": "https://jobs.ashbyhq.com",
-    "page": "https://api.ashbyhq.com/posting-api/job-board/lindy",
-    "urls": []
-  },
-  {
     "name": "linkedin.com",
     "ats": "custom",
     "identifier": "linkedin.com",
@@ -12364,7 +12413,12 @@
     "identifier": "lmi",
     "domain": "https://careers-lmi.icims.com",
     "page": "https://careers-lmi.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-lmi.icims.com/jobs/14191/sharepoint-%26-power-platform-sr-analyst/job",
+      "https://careers-lmi.icims.com/jobs/14190/modeling-%26-simulation-analyst-developer/job",
+      "https://careers-lmi.icims.com/jobs/14189/cloud-engineer/job",
+      "https://careers-lmi.icims.com/jobs/14185/data-management-%26-analytics-specialist---clearance-required/job"
+    ]
   },
   {
     "name": "lnw",
@@ -12540,7 +12594,10 @@
     "identifier": "magaero",
     "domain": "https://careers-magaero.icims.com",
     "page": "https://careers-magaero.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-magaero.icims.com/jobs/8247/cloud-administrator/job",
+      "https://careers-magaero.icims.com/jobs/8239/software-engineer/job"
+    ]
   },
   {
     "name": "magnetforensics",
@@ -14647,7 +14704,9 @@
     "identifier": "origamirisk",
     "domain": "https://careers-origamirisk.icims.com",
     "page": "https://careers-origamirisk.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-origamirisk.icims.com/jobs/4346/devops-engineer%2c-infrastructure/job"
+    ]
   },
   {
     "name": "orthoclinical",
@@ -14949,7 +15008,15 @@
     "domain": "https://careers-peraton.icims.com",
     "page": "https://careers-peraton.icims.com/jobs/search",
     "urls": [
-      "https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false"
+      "https://careers-peraton.icims.com/jobs/164003/job?mobile=true&needsRedirect=false",
+      "https://careers-peraton.icims.com/jobs/168152/ai-ml-engineer/job",
+      "https://careers-peraton.icims.com/jobs/168148/data-science%2c-advisor/job",
+      "https://careers-peraton.icims.com/jobs/168108/mobile-training-team-%28mtt%29-instructor---nko-focus/job",
+      "https://careers-peraton.icims.com/jobs/168088/mobile-reverse-engineer/job",
+      "https://careers-peraton.icims.com/jobs/168071/knowledge-engineer--generative-ai-platform-and-cortex/job",
+      "https://careers-peraton.icims.com/jobs/168069/junior-software-data-engineer/job",
+      "https://careers-peraton.icims.com/jobs/168063/software-developer/job",
+      "https://careers-peraton.icims.com/jobs/168062/software-developer/job"
     ]
   },
   {
@@ -16638,7 +16705,11 @@
     "identifier": "sas",
     "domain": "https://careers-sas.icims.com",
     "page": "https://careers-sas.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-sas.icims.com/jobs/41393/software-developer%2c-aml/job",
+      "https://careers-sas.icims.com/jobs/42198/internationalization-software-developer/job",
+      "https://careers-sas.icims.com/jobs/42139/software-developer%2c-design-system/job"
+    ]
   },
   {
     "name": "Savannah River National Laboratory",
@@ -16769,7 +16840,11 @@
     "identifier": "scires",
     "domain": "https://careers-scires.icims.com",
     "page": "https://careers-scires.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-scires.icims.com/jobs/11269/systems-analyst---software-integrator/job",
+      "https://careers-scires.icims.com/jobs/11260/project-engineer---facilities-and-infrastructure/job",
+      "https://careers-scires.icims.com/jobs/11248/software-tester-qa-engineer/job"
+    ]
   },
   {
     "name": "scopely",
@@ -17155,7 +17230,20 @@
     "identifier": "sig",
     "domain": "https://careers-sig.icims.com",
     "page": "https://careers-sig.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-sig.icims.com/jobs/10874/accounting-ai-co-op-with-drexel-university/job",
+      "https://careers-sig.icims.com/jobs/9407/associate-linux-window-engineer-%7c-platform-services-%7c-experienced-hire/job",
+      "https://careers-sig.icims.com/jobs/9931/build-systems-engineer---devops-%7c-development-tools-and-components-%7c-experienced-hire/job",
+      "https://careers-sig.icims.com/jobs/10865/business-analytics-ai-co-op-with-drexel-university/job",
+      "https://careers-sig.icims.com/jobs/10797/c%23-developer---core-trading-technology/job",
+      "https://careers-sig.icims.com/jobs/10798/c%23-developer---core-trading-technology/job",
+      "https://careers-sig.icims.com/jobs/10495/c%23-full-stack-developer---experienced-hire/job",
+      "https://careers-sig.icims.com/jobs/9209/c%23-strategy-developer/job",
+      "https://careers-sig.icims.com/jobs/10763/c%23-trading-systems-developer---gds/job",
+      "https://careers-sig.icims.com/jobs/10859/c%23-c%2b%2b-software-developer-%28quoting%29/job",
+      "https://careers-sig.icims.com/jobs/8112/c%2b%2b-algo-developer%7c-options-trading-%7c-experienced-hire/job",
+      "https://careers-sig.icims.com/jobs/10830/c%2b%2b-developer/job"
+    ]
   },
   {
     "name": "sigmacomputing",
@@ -18059,7 +18147,10 @@
     "identifier": "ssoe",
     "domain": "https://careers-ssoe.icims.com",
     "page": "https://careers-ssoe.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-ssoe.icims.com/jobs/3588/mechanical-engineer-%e2%80%93-cfd-%28data-center-hvac-design%29/job",
+      "https://careers-ssoe.icims.com/jobs/3579/sr-telecommunications-designer-%e2%80%93-data-center-campus-planning/job"
+    ]
   },
   {
     "name": "staff-emory",
@@ -18146,7 +18237,11 @@
     "identifier": "steeldynamics",
     "domain": "https://careers-steeldynamics.icims.com",
     "page": "https://careers-steeldynamics.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-steeldynamics.icims.com/jobs/7590/data-engineer/job",
+      "https://careers-steeldynamics.icims.com/jobs/7583/automation-engineer/job",
+      "https://careers-steeldynamics.icims.com/jobs/7569/software-developer/job"
+    ]
   },
   {
     "name": "steerbridge",
@@ -18177,7 +18272,9 @@
     "identifier": "stifel",
     "domain": "https://careers-stifel.icims.com",
     "page": "https://careers-stifel.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-stifel.icims.com/jobs/9413/business-development-associate/job"
+    ]
   },
   {
     "name": "stockx",
@@ -18214,7 +18311,9 @@
     "identifier": "stonex",
     "domain": "https://careers-stonex.icims.com",
     "page": "https://careers-stonex.icims.com/jobs/search",
-    "urls": []
+    "urls": [
+      "https://careers-stonex.icims.com/jobs/14834/data-center-%26-facilities-engineer/job"
+    ]
   },
   {
     "name": "strandtherapeutics",
