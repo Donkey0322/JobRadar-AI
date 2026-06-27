@@ -956,34 +956,34 @@
       "https://amazon.jobs/en/jobs/10412530",
       "https://amazon.jobs/en/jobs/10426739",
       "https://amazon.jobs/en/jobs/10426996",
+      "https://amazon.jobs/en/jobs/10460274",
+      "https://amazon.jobs/en/jobs/10460275",
+      "https://amazon.jobs/en/jobs/10460280",
+      "https://amazon.jobs/en/jobs/10460286",
+      "https://amazon.jobs/en/jobs/10460291",
+      "https://amazon.jobs/en/jobs/10460292",
+      "https://amazon.jobs/en/jobs/10460300",
+      "https://amazon.jobs/en/jobs/10460307",
+      "https://amazon.jobs/en/jobs/10460310",
+      "https://amazon.jobs/en/jobs/10460313",
+      "https://amazon.jobs/en/jobs/10460323",
+      "https://amazon.jobs/en/jobs/10460329",
+      "https://amazon.jobs/en/jobs/10460335",
+      "https://amazon.jobs/en/jobs/10460343",
+      "https://amazon.jobs/en/jobs/10460346",
+      "https://amazon.jobs/en/jobs/10460348",
+      "https://amazon.jobs/en/jobs/10460356",
+      "https://amazon.jobs/en/jobs/10460368",
+      "https://amazon.jobs/en/jobs/10460370",
+      "https://amazon.jobs/en/jobs/10460375",
+      "https://amazon.jobs/en/jobs/10460376",
+      "https://amazon.jobs/en/jobs/10460384",
+      "https://amazon.jobs/en/jobs/10460429",
+      "https://amazon.jobs/en/jobs/10460473",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10460384",
-      "https://amazon.jobs/en/jobs/10460376",
-      "https://amazon.jobs/en/jobs/10460375",
-      "https://amazon.jobs/en/jobs/10460368",
-      "https://amazon.jobs/en/jobs/10460370",
-      "https://amazon.jobs/en/jobs/10460356",
-      "https://amazon.jobs/en/jobs/10460348",
-      "https://amazon.jobs/en/jobs/10460346",
-      "https://amazon.jobs/en/jobs/10460343",
-      "https://amazon.jobs/en/jobs/10460335",
-      "https://amazon.jobs/en/jobs/10460329",
-      "https://amazon.jobs/en/jobs/10460323",
-      "https://amazon.jobs/en/jobs/10460313",
-      "https://amazon.jobs/en/jobs/10460310",
-      "https://amazon.jobs/en/jobs/10460307",
-      "https://amazon.jobs/en/jobs/10460300",
-      "https://amazon.jobs/en/jobs/10460286",
-      "https://amazon.jobs/en/jobs/10460280",
-      "https://amazon.jobs/en/jobs/10460275",
-      "https://amazon.jobs/en/jobs/10460274",
-      "https://amazon.jobs/en/jobs/10460429",
-      "https://amazon.jobs/en/jobs/10460292",
-      "https://amazon.jobs/en/jobs/10460291",
-      "https://amazon.jobs/en/jobs/10460473"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -5792,9 +5792,7 @@
     "identifier": "corp",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/corp/jobs",
-    "urls": [
-      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
-    ]
+    "urls": []
   },
   {
     "name": "corpay",
@@ -5940,7 +5938,8 @@
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/New-Orleans-LA/Mobile-Technician-Leader_R202675608",
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Salt-Lake-City-UT/Mobile-Technician-Leader_R202677286",
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/San-Francisco-CA/Supervisor--Manheim-Mobile-Inspections--San-Francisco-Bay-Area--CA_R202676923-1",
-      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Worcester-MA/Mobile-Technician-Leader_R202678408"
+      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Worcester-MA/Mobile-Technician-Leader_R202678408",
+      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Atlanta-GA/Software-Engineer-I_R202679352"
     ]
   },
   {
@@ -15156,7 +15155,8 @@
       "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26260",
       "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26269",
       "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26270",
-      "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26272"
+      "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26272",
+      "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26315"
     ]
   },
   {
@@ -17368,7 +17368,9 @@
     "identifier": "skillzinc",
     "domain": "http://corp.skillz.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/skillzinc/jobs",
-    "urls": []
+    "urls": [
+      "http://corp.skillz.com/careers-list/?gh_jid=8012668"
+    ]
   },
   {
     "name": "skydio",
