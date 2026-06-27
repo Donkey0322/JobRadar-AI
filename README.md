@@ -89,7 +89,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Talentmanagementsolution</div></td>
+      <td align="left" valign="top"><div style="width:180px">Jonas</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Engineer - Intern</div></td>
       <td align="left" valign="top"><div style="width:180px">Remote, USA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa/job/Remote---USA/Software-Engineer---Intern_R52705" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -989,7 +989,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Fa-eups-saasfaprod1.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Ul solutions</div></td>
       <td align="left" valign="top"><div style="width:380px">Associate Master Data Steward</div></td>
       <td align="left" valign="top"><div style="width:180px">Northbrook, IL</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9994" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -1584,7 +1584,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Ibqbjb.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Honeywell</div></td>
       <td align="left" valign="top"><div style="width:380px">Mods &amp; Upgrades Software Engineer I<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Mason, OH</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/150935" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -1850,7 +1850,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Hcjy.fa.us2.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">CooperSurgical</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Analyst 1</div></td>
       <td align="left" valign="top"><div style="width:180px">West Henrietta, NY</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11730" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -2088,7 +2088,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Hcjy.fa.us2.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">CooperSurgical</div></td>
       <td align="left" valign="top"><div style="width:380px">Sustainability Data &amp; Reporting Analyst<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Victor, NY</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11725" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -7405,7 +7405,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 25</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Hcjy.fa.us2.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">CooperSurgical</div></td>
       <td align="left" valign="top"><div style="width:380px">HR Systems Time &amp; Attendance System Administrator</div></td>
       <td align="left" valign="top"><div style="width:180px">Victor, NY</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://hcjy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11769" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -8161,7 +8161,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 24</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Ibqbjb.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Honeywell</div></td>
       <td align="left" valign="top"><div style="width:380px">Sr Software Quality Specialist<br /><img alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=soft" /> <img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Atlanta, GA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/149941" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -8294,7 +8294,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 23</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Ibqbjb.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Honeywell</div></td>
       <td align="left" valign="top"><div style="width:380px">Sr Advanced Software Engineer</div></td>
       <td align="left" valign="top"><div style="width:180px">Fort Washington, PA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151463" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -9120,7 +9120,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Worthington</div></td>
       <td align="left" valign="top"><div style="width:380px">Software Developer- (Integration, Mobile &amp; Web Dev)<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">Columbus, OH</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://fa-eygo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/43232" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -9134,7 +9134,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Ecnf.fa.us2.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Tradeweb</div></td>
       <td align="left" valign="top"><div style="width:380px">Data Management Security Master</div></td>
       <td align="left" valign="top"><div style="width:180px">New York, NY</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301809" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -9302,7 +9302,7 @@
       <td align="left" valign="top"><div style="width:90px">Jun 22</div></td>
     </tr>
     <tr>
-      <td align="left" valign="top"><div style="width:180px">Ecge.fa.us2.oraclecloud.com</div></td>
+      <td align="left" valign="top"><div style="width:180px">Blue Shield</div></td>
       <td align="left" valign="top"><div style="width:380px">Platform Administrator, Consultant<br /><img alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=soft" /></div></td>
       <td align="left" valign="top"><div style="width:180px">El Dorado Hills, CA</div></td>
       <td align="left" valign="top"><div style="width:90px"><a href="https://ecge.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/20261094" target="_blank"><img alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></div></td>
@@ -9806,5 +9806,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T12:25:58.141Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T14:02:21.305Z</code>
 </p>
