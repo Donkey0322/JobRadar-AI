@@ -1,3 +1,4 @@
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../../type";
@@ -19,7 +20,7 @@ interface AmazonJob {
 export async function fetchAmazon(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
     const res = await fetch(company.page, {
@@ -28,13 +29,6 @@ export async function fetchAmazon(
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        contentFilterFacets: [
-          {
-            name: "primarySearchLabel",
-            values: [{ name: "studentprograms.team-internships-for-students" }], //TODO: add entry level
-          },
-        ],
-        locationFacets: [[{ name: "country", values: [{ name: "US" }] }]],
         size: 100,
         start: 0,
         sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
@@ -51,6 +45,7 @@ export async function fetchAmazon(
           !urls.has(`https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`) &&
           (withinDays(job.createdDate?.[0] * 1000) || withinDays(job.updatedDate?.[0] * 1000))
       );
+
     return jobs.map((job) => ({
       company: capitalize(company.name),
       role: job.title?.[0] ?? "",

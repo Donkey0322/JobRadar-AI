@@ -22,7 +22,7 @@ Field Definitions
 1. citizenship
 
 Return:
-- true if citizenship, nationality, permanent residency, security clearance, US Person status, or country-specific citizenship status is explicitly required
+- true if citizenship, nationality, permanent residency, security clearance, or country-specific citizenship status is explicitly required
 - false if the job explicitly states citizenship is not required
 - null if unclear or not mentioned
 

@@ -121,7 +121,7 @@ function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
         font-weight:600;
         margin-right:8px;
       ">
-        🇺🇸 Citizen Only
+        Citizen Only
       </span>
     `);
   }
@@ -139,7 +139,7 @@ function renderTags(citizenship: boolean | null, sponsorship: boolean | null) {
         font-weight:600;
         margin-right:8px;
       ">
-        🛂 No Sponsorship
+        No Sponsorship
       </span>
     `);
   }
