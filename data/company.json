@@ -2843,8 +2843,8 @@
     "page": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10003383",
-      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005276",
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10004571",
+      "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005276",
       "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10005313"
     ]
   },
@@ -20215,7 +20215,8 @@
       "https://job-boards.greenhouse.io/vardaspace/jobs/7770810003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7786881003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7786908003",
-      "https://job-boards.greenhouse.io/vardaspace/jobs/7786947003"
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7786947003",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7787934003"
     ]
   },
   {
