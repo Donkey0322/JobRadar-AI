@@ -10,8 +10,10 @@ sync
   .command("community")
   .description("Sync jobs from community sources")
   .action(async () => {
-    const { default: syncCommunity } = await import("./sync/community");
+    const { default: checkConfig } = await import("./setup/checkConfig");
+    await checkConfig();
 
+    const { default: syncCommunity } = await import("./sync/community");
     await syncCommunity();
   });
 
@@ -19,11 +21,10 @@ sync
   .command("discover")
   .description("Discover jobs from ATS patterns")
   .action(async () => {
-    const { checkAIConfig } = await import("./setup/checkConfig");
-    await checkAIConfig();
+    const { default: checkConfig } = await import("./setup/checkConfig");
+    await checkConfig();
 
     const { default: syncDiscover } = await import("./sync/discover");
-
     await syncDiscover();
   });
 
