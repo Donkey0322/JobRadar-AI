@@ -2549,6 +2549,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">Software Development Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10460509"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Equipment Technician (AMHS-Automated Material Handling System) (Manassas)</td>
       <td width="180" align="left" valign="top">Manassas, VA</td>
@@ -7269,6 +7276,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Infrastructure Security Specialist - Enterprise to Edge Security, Global Security Organization</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7604908702463314181"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Micron</td>
       <td width="420" align="left" valign="top">Sr Automation Equipment Engineer</td>
       <td width="180" align="left" valign="top">Manassas, VA</td>
@@ -10552,5 +10566,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T19:16:55.225Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T20:27:05.522Z</code>
 </p>
