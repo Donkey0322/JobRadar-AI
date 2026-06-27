@@ -200,6 +200,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Photon career site</td>
+      <td width="420" align="left" valign="top">AI Intern  - Dallas, TX</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26315"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Sig</td>
       <td width="420" align="left" valign="top">Business Analytics AI Co-op with Drexel University</td>
       <td width="180" align="left" valign="top">Bala Cynwyd, PA</td>
@@ -509,6 +516,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Cox</td>
+      <td width="420" align="left" valign="top">Software Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Atlanta-GA/Software-Engineer-I_R202679352"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Sig</td>
       <td width="420" align="left" valign="top">Associate Linux/Window Engineer | Platform Services | Experienced Hire</td>
@@ -10524,5 +10538,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T17:32:28.423Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T18:21:58.800Z</code>
 </p>
