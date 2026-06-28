@@ -40,9 +40,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -522,6 +520,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -5029,6 +5028,16 @@
     ]
   },
   {
+    "name": "ccrenew",
+    "ats": "greenhouse",
+    "identifier": "ccrenew",
+    "domain": "https://ccrenew.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/ccrenew/jobs",
+    "urls": [
+      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197"
+    ]
+  },
+  {
     "name": "cdk",
     "ats": "workday",
     "identifier": "cdk-cdk",
@@ -6226,9 +6235,7 @@
     "identifier": "cypresscreekrenewables",
     "domain": "https://ccrenew.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/cypresscreekrenewables/jobs",
-    "urls": [
-      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197"
-    ]
+    "urls": []
   },
   {
     "name": "d-Matrix",
@@ -10215,7 +10222,12 @@
       "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151655",
       "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151697",
       "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151709",
-      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151718"
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151718",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151947",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151948",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151949",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151950",
+      "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/151952"
     ]
   },
   {
@@ -14253,11 +14265,11 @@
     "domain": "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers",
     "page": "https://nordsonhcm.wd501.myworkdayjobs.com/wday/cxs/nordsonhcm/nordsoncareers/jobs",
     "urls": [
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/MS-Dynamics-Full-Stack-Developer_REQ51604",
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/MS-Dynamics-Full-Stack-Developer_REQ51606",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Ohio---Westlake/IT-Infrastructure-Analyst---Vulnerability-Remediation---Delivery_REQ50312",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Senior-Software-Engineer_REQ50209",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/MS-Dynamics-Full-Stack-Developer_REQ51606",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/MS-Dynamics-Full-Stack-Developer_REQ51604"
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1"
     ]
   },
   {
@@ -21012,7 +21024,16 @@
       "https://jobs.smartrecruiters.com/WesternDigital/744000134217069",
       "https://jobs.smartrecruiters.com/WesternDigital/744000134384689",
       "https://jobs.smartrecruiters.com/WesternDigital/744000134386310",
-      "https://jobs.smartrecruiters.com/WesternDigital/744000134410659"
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134410659",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646888",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646808",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646718",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646668",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646354",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646060",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646208",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646158",
+      "https://jobs.smartrecruiters.com/WesternDigital/744000134646058"
     ]
   },
   {
@@ -21272,6 +21293,8 @@
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-Engineer-I_JR102107",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-Engineer-I_JR102193",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-Engineer-Professional-I_JR102243",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-EngineerI-1_JR102072",
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-EngineerI_JR102284-1",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/software-engineer-I_JR102205",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Colombo-Sri-Lanka/Software-Engineer-I_JR101820",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Colombo-Sri-Lanka/XMLNAME-2026-6-months--Internship-Sri-Lanka---Software-Engineering_JR101823",
@@ -21279,9 +21302,7 @@
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Holtsville-New-York/Forward-Deployed-Software-Engineer--FDE---Advanced_JR101863",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/London-United-Kingdom/Business-Development-Representative--Software-Solutions-_JR101507",
       "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Mississauga-Canada/Software-Design-Assurance-Engineer-Advanced_JR102079",
-      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Montreal-Canada/Software-Engineer-I_JR102006",
-      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-EngineerI_JR102284-1",
-      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Bengaluru-India/Software-EngineerI-1_JR102072"
+      "https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Montreal-Canada/Software-Engineer-I_JR102006"
     ]
   },
   {
