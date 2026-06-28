@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   setup:
-    if: contains(github.event.issue.labels.*.name, 'setup') || startsWith(github.event.issue.title, 'Setup JobRadar-AI')
+    if: github.repository != 'Donkey0322/JobRadar-AI' && (contains(github.event.issue.labels.*.name, 'setup') || startsWith(github.event.issue.title, 'Setup JobRadar-AI'))
     runs-on: ubuntu-latest
 
     steps:
