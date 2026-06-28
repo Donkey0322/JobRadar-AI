@@ -2605,6 +2605,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Airbnb</td>
+      <td width="420" align="left" valign="top">Data Scientist - Inference, Community Support</td>
+      <td width="180" align="left" valign="top">Remote, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.airbnb.com/positions/8031907?gh_jid=8031907"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Scientist - Algorithms, Community Support</td>
+      <td width="180" align="left" valign="top">Remote, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.airbnb.com/positions/8031901?gh_jid=8031901"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Varda Space Industries</td>
       <td width="420" align="left" valign="top">Controls and Automation Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">El Segundo, CA</td>
@@ -10650,5 +10664,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T15:01:13.280Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T18:21:38.044Z</code>
 </p>
