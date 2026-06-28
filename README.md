@@ -10615,5 +10615,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T09:52:11.436Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T11:19:59.389Z</code>
 </p>
