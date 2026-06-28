@@ -2605,6 +2605,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Cloudflare</td>
+      <td width="420" align="left" valign="top">Software Engineer, People Ops and AI Tools<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/cloudflare/jobs/8034796?gh_jid=8034796"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Airbnb</td>
       <td width="420" align="left" valign="top">Data Scientist - Inference, Community Support</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
@@ -7353,6 +7360,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Infrastructure Product Owner (DevOps) – Level 5<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Colorado-Aurora/Infrastructure-Product-Owner--DevOps----Level-5_R10231191"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Oracle</td>
       <td width="420" align="left" valign="top">Software Developer 4</td>
       <td width="180" align="left" valign="top">United States</td>
@@ -10664,5 +10678,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T18:21:38.044Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T20:43:53.958Z</code>
 </p>
