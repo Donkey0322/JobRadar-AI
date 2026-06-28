@@ -519,6 +519,27 @@
     <tr>
       <td width="180" align="left" valign="top">Albertsons companies</td>
       <td width="420" align="left" valign="top">Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Fort Lee, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729045"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Florence, OR</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729039"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Wiscasset, ME</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729037"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Front End Entry Level</td>
       <td width="180" align="left" valign="top">Colorado Springs, CO</td>
       <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 28</td>
@@ -7318,6 +7339,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Oracle</td>
+      <td width="420" align="left" valign="top">Software Developer 4</td>
+      <td width="180" align="left" valign="top">United States</td>
+      <td width="120" align="left" valign="top"><a href="https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/337606"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Bhe career site</td>
       <td width="420" align="left" valign="top">Sr Data Engineer</td>
       <td width="180" align="left" valign="top">Des Moines, IA</td>
@@ -10622,5 +10650,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T12:52:46.773Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T15:01:13.280Z</code>
 </p>
