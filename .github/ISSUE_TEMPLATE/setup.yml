@@ -169,7 +169,7 @@ body:
         - google
         - anthropic
         - openai
-      default: 0
+      default: google
 
   - type: input
     id: ai_model

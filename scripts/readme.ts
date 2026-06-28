@@ -16,6 +16,12 @@ const ROOT = process.cwd();
 
 const README_PATH = path.join(ROOT, "README.md");
 
+const REPO_OWNER = "Donkey0322";
+const REPO_NAME = "JobRadar-AI";
+const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
+const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
+const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
+
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
 const BADGE_NO_SPONSORSHIP = `<img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" />`;
@@ -137,6 +143,7 @@ function buildReadme(input: {
     `  <img src="${formatBadgeUrl("AI Parsed", aiParser, "blue")}" />`,
     `  <img src="${formatBadgeUrl("Countries", countries, "green")}" />`,
     `  <img src="${formatBadgeUrl("Updated", generatedDate, "orange")}" />`,
+    `  <img src="${formatBadgeUrl("License", "MIT", "yellow")}" />`,
     `</p>`
   );
 
@@ -172,10 +179,13 @@ function buildReadme(input: {
   lines.push("");
   lines.push(
     `<p align="center">`,
+    `  <a href="${TEMPLATE_URL}">`,
+    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-111827?style=for-the-badge" />`,
+    `  </a>`,
     `  <a href="./installation.md">`,
     `    <img alt="Set up your own board" src="https://img.shields.io/badge/Set%20up%20your%20own%20board-f97316?style=for-the-badge" />`,
     `  </a>`,
-    `  <a href="https://github.com/Donkey0322/JobRadar-AI/issues/new/choose">`,
+    `  <a href="${ISSUE_TEMPLATE_URL}">`,
     `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-16a34a?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./config.json">`,
@@ -193,6 +203,11 @@ function buildReadme(input: {
   lines.push(...buildFeatureGrid());
   lines.push("");
 
+  lines.push(`## Documentation & safety`);
+  lines.push("");
+  lines.push(...buildDocsTable());
+  lines.push("");
+
   lines.push(`## The List 🚴‍♂️`);
   lines.push("");
   lines.push(`<!-- TABLE_START -->`);
@@ -203,6 +218,7 @@ function buildReadme(input: {
     lines.push("");
     lines.push(`<!-- TABLE_END -->`);
     lines.push("");
+    lines.push(...buildFooter(generatedAt));
     return lines.join("\n");
   }
 
@@ -234,14 +250,7 @@ function buildReadme(input: {
 
   lines.push(`<!-- TABLE_END -->`);
   lines.push("");
-  lines.push(`---`);
-  lines.push("");
-  lines.push(
-    `<p align="center">`,
-    `  Generated from <code>opportunities.ndjson</code> · Last updated: <code>${generatedAt.toISOString()}</code>`,
-    `</p>`
-  );
-  lines.push("");
+  lines.push(...buildFooter(generatedAt));
 
   return lines.join("\n");
 }
@@ -262,7 +271,7 @@ function buildFeatureGrid(): string[] {
     `  <tr>`,
     `    <td width="50%" valign="top">`,
     `      <h3>🌐 Broader coverage</h3>`,
-    `      <p>Combines community lists with Workday, Greenhouse, Ashby, iCIMS, Lever, Oracle Cloud, and more.</p>`,
+    `      <p>Combines community lists with Workday, Greenhouse, Ashby, iCIMS, Lever, Oracle Cloud, SmartRecruiters, and more.</p>`,
     `    </td>`,
     `    <td width="50%" valign="top">`,
     `      <h3>🏢 Custom company sources</h3>`,
@@ -276,10 +285,72 @@ function buildFeatureGrid(): string[] {
     `    </td>`,
     `    <td width="50%" valign="top">`,
     `      <h3>⚙️ Config-driven setup</h3>`,
-    `      <p>Tune countries, role targets, email delivery, and AI model settings through <code>config.json</code>.</p>`,
+    `      <p>Tune countries, role targets, email delivery, workflow schedules, and AI model settings through <code>config.json</code>.</p>`,
     `    </td>`,
     `  </tr>`,
     `</table>`,
+  ];
+}
+
+function buildDocsTable(): string[] {
+  return [
+    `<table>`,
+    `  <tr>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>🚀 Installation</h3>`,
+    `      <p>Start from the template, fill out the setup issue form, configure secrets, and run the tracker in your own repository.</p>`,
+    `      <p><a href="./installation.md"><b>Read installation.md →</b></a></p>`,
+    `    </td>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>🛠️ Configuration</h3>`,
+    `      <p>Customize countries, job categories, email notifications, AI provider, and schedule behavior.</p>`,
+    `      <p><a href="./config.json"><b>View config.json →</b></a></p>`,
+    `    </td>`,
+    `  </tr>`,
+    `  <tr>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>🔐 Security</h3>`,
+    `      <p>Do not expose API keys, SMTP passwords, personal access tokens, or private workflow logs in issues or commits.</p>`,
+    `      <p><a href="./SECURITY.md"><b>Read SECURITY.md →</b></a></p>`,
+    `    </td>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>🛡️ Privacy</h3>`,
+    `      <p>Understand what runs in your repository, what may be sent to AI providers, and what stays under your control.</p>`,
+    `      <p><a href="./PRIVACY.md"><b>Read PRIVACY.md →</b></a></p>`,
+    `    </td>`,
+    `  </tr>`,
+    `  <tr>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>📄 License</h3>`,
+    `      <p>JobRadar AI is released under the MIT License.</p>`,
+    `      <p><a href="./LICENSE"><b>View LICENSE →</b></a></p>`,
+    `    </td>`,
+    `    <td width="50%" valign="top">`,
+    `      <h3>🤝 Contributions</h3>`,
+    `      <p>Submit job links, improve ATS parsers, or adapt the template for your own job-search workflow.</p>`,
+    `      <p><a href="${ISSUE_TEMPLATE_URL}"><b>Contribute a job →</b></a></p>`,
+    `    </td>`,
+    `  </tr>`,
+    `</table>`,
+  ];
+}
+
+function buildFooter(generatedAt: Date): string[] {
+  return [
+    `---`,
+    ``,
+    `<p align="center">`,
+    `  <a href="./installation.md">Installation</a> ·`,
+    `  <a href="./config.json">Config</a> ·`,
+    `  <a href="./PRIVACY.md">Privacy</a> ·`,
+    `  <a href="./SECURITY.md">Security</a> ·`,
+    `  <a href="./LICENSE">License</a>`,
+    `</p>`,
+    ``,
+    `<p align="center">`,
+    `  Generated from <code>opportunities.ndjson</code> · Last updated: <code>${generatedAt.toISOString()}</code>`,
+    `</p>`,
+    ``,
   ];
 }
 
@@ -327,7 +398,6 @@ function formatJobBadges(jd?: JD | null): string {
     badges.push(BADGE_NO_SPONSORSHIP);
   }
 
-  // citizen / sponsor badge in the same line
   return badges.join(" ");
 }
 
@@ -411,14 +481,16 @@ function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
 }
 
 function formatAiParser(config: Config): string {
-  return (
-    [
-      config.ai?.enabled ? config.ai.provider : undefined,
-      config.ai?.enabled ? config.ai.model : undefined,
-    ]
-      .filter(Boolean)
-      .join(" / ") || "enabled"
-  );
+  if (!config.ai?.enabled) return "disabled";
+
+  const provider = config.ai.provider;
+  const model = config.ai.model;
+
+  if (provider && model) {
+    return `${provider} / ${model}`;
+  }
+
+  return "enabled";
 }
 
 function formatCountries(config: Config): string {

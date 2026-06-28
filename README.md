@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
   <img src="https://img.shields.io/badge/Updated-2026--06--28-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
 ---
@@ -34,6 +35,9 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/new?template_name=JobRadar-AI&template_owner=Donkey0322">
+    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-111827?style=for-the-badge" />
+  </a>
   <a href="./installation.md">
     <img alt="Set up your own board" src="https://img.shields.io/badge/Set%20up%20your%20own%20board-f97316?style=for-the-badge" />
   </a>
@@ -63,7 +67,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🌐 Broader coverage</h3>
-      <p>Combines community lists with Workday, Greenhouse, Ashby, iCIMS, Lever, Oracle Cloud, and more.</p>
+      <p>Combines community lists with Workday, Greenhouse, Ashby, iCIMS, Lever, Oracle Cloud, SmartRecruiters, and more.</p>
     </td>
     <td width="50%" valign="top">
       <h3>🏢 Custom company sources</h3>
@@ -77,7 +81,48 @@
     </td>
     <td width="50%" valign="top">
       <h3>⚙️ Config-driven setup</h3>
-      <p>Tune countries, role targets, email delivery, and AI model settings through <code>config.json</code>.</p>
+      <p>Tune countries, role targets, email delivery, workflow schedules, and AI model settings through <code>config.json</code>.</p>
+    </td>
+  </tr>
+</table>
+
+## Documentation & safety
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 Installation</h3>
+      <p>Start from the template, fill out the setup issue form, configure secrets, and run the tracker in your own repository.</p>
+      <p><a href="./installation.md"><b>Read installation.md →</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Configuration</h3>
+      <p>Customize countries, job categories, email notifications, AI provider, and schedule behavior.</p>
+      <p><a href="./config.json"><b>View config.json →</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 Security</h3>
+      <p>Do not expose API keys, SMTP passwords, personal access tokens, or private workflow logs in issues or commits.</p>
+      <p><a href="./SECURITY.md"><b>Read SECURITY.md →</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ Privacy</h3>
+      <p>Understand what runs in your repository, what may be sent to AI providers, and what stays under your control.</p>
+      <p><a href="./PRIVACY.md"><b>Read PRIVACY.md →</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📄 License</h3>
+      <p>JobRadar AI is released under the MIT License.</p>
+      <p><a href="./LICENSE"><b>View LICENSE →</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤝 Contributions</h3>
+      <p>Submit job links, improve ATS parsers, or adapt the template for your own job-search workflow.</p>
+      <p><a href="https://github.com/Donkey0322/JobRadar-AI/issues/new/choose"><b>Contribute a job →</b></a></p>
     </td>
   </tr>
 </table>
@@ -10678,5 +10723,13 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T20:43:53.958Z</code>
+  <a href="./installation.md">Installation</a> ·
+  <a href="./config.json">Config</a> ·
+  <a href="./PRIVACY.md">Privacy</a> ·
+  <a href="./SECURITY.md">Security</a> ·
+  <a href="./LICENSE">License</a>
+</p>
+
+<p align="center">
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T22:46:38.478Z</code>
 </p>

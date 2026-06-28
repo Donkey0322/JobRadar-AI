@@ -14,5 +14,8 @@ node_modules/
 package-lock.json
 
 preview.html
-.DS_Store
+.env
+.env.*
+!.env.example
+*.local
 .DS_Store
