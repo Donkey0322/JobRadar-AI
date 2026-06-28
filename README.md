@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Source-opportunities.ndjson-black" />
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--06--27-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--06--28-orange" />
 </p>
 
 ---
@@ -516,6 +516,34 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Albertsons companies</td>
+      <td width="420" align="left" valign="top">Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Fairbanks, AK</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729029"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Front End Courtesy Clerk</td>
+      <td width="180" align="left" valign="top">Bremerton, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729026"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Cashier-Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Bremerton, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729024"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Front End Entry Level</td>
+      <td width="180" align="left" valign="top">Oakhurst, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cox</td>
       <td width="420" align="left" valign="top">Software Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -10587,5 +10615,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-27T23:34:01.845Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T04:58:16.683Z</code>
 </p>
