@@ -1,0 +1,49 @@
+name: Add Job
+description: Submit a job opportunity to be processed by JobRadar AI
+title: "Add job: [Company] - [Role]"
+labels:
+  - add-job
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a job opportunity!
+
+        Please provide the company, role, job link, and location.
+        JobRadar AI will parse the job description and add structured signals automatically.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      description: Company name
+      placeholder: "Company name"
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: Job title
+      placeholder: "Role title"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Direct job posting URL
+      placeholder: "https://......"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Raw location from the job posting
+      placeholder: "New York, NY, USA"
+    validations:
+      required: true

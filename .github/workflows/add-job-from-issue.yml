@@ -1,0 +1,90 @@
+name: Add Job From Issue
+run-name: 🧾 Add Job From Issue
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - reopened
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: add-job-from-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  add-job:
+    if: contains(github.event.issue.labels.*.name, 'add-job') || startsWith(github.event.issue.title, 'Add Job')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      LOG_PRETTY: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Process submitted job
+        run: pnpm tsx scripts/add-job-from-issue.ts
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+          git commit -m "data: add job from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Comment success
+        if: success()
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "✅ Job submitted successfully and processed by JobRadar AI."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Close issue
+        if: success()
+        run: |
+          gh issue close "${{ github.event.issue.number }}" \
+            --comment "Closing this issue because the submitted job has been processed."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment failure
+        if: failure()
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" \
+            --body "❌ Failed to process this job submission. Please check the workflow logs or update the issue fields."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
