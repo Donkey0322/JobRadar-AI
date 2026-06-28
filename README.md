@@ -37,11 +37,11 @@
   <a href="./installation.md">
     <img alt="Set up your own board" src="https://img.shields.io/badge/Set%20up%20your%20own%20board-f97316?style=for-the-badge" />
   </a>
+  <a href="https://github.com/Donkey0322/JobRadar-AI/issues/new/choose">
+    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-16a34a?style=for-the-badge" />
+  </a>
   <a href="./config.json">
     <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-2563eb?style=for-the-badge" />
-  </a>
-  <a href="#the-list-%EF%B8%8F">
-    <img alt="Browse public board" src="https://img.shields.io/badge/Browse%20public%20board-16a34a?style=for-the-badge" />
   </a>
 </p>
 
@@ -10615,5 +10615,5 @@
 ---
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T08:34:02.605Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-28T09:52:11.436Z</code>
 </p>
