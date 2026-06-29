@@ -22,7 +22,7 @@ const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
-const RECENT_DAYS = 7;
+const RECENT_DAYS = 5;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
@@ -36,36 +36,52 @@ async function main() {
   const opportunities = await readNdjson<Opportunity>(OPPORTUNITIES_PATH);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
+  const targetCategories = new Set(buildTargetCategories(CONFIG));
   const categoryOrder = buildCategoryOrder(CONFIG);
   const generatedAt = new Date();
 
-  const matching = opportunities
+  const countryMatched = opportunities
     // reverse: the last line in opportunities.ndjson is at the top of the README
     .reverse()
     .filter((job) => isRenderableOpportunity(job))
+    .filter((job) => isWithinLastDays(job.postedAt, generatedAt, RECENT_DAYS))
     .filter((job) => {
       const country = normalizeCountry(job.jd?.country);
       return country ? allowedCountries.has(country) : false;
     });
 
-  const recent = matching.filter((job) => isWithinLastDays(job.postedAt, generatedAt, RECENT_DAYS));
-  const hiddenOlderCount = matching.length - recent.length;
+  const targetOpportunities = countryMatched.filter((job) => {
+    const category = getDisplayCategory(job);
+    return targetCategories.has(category);
+  });
 
-  const grouped = groupByCategory(recent, categoryOrder);
+  const outsideTargetCategoryOpportunities = countryMatched.filter((job) => {
+    const category = getDisplayCategory(job);
+    return !targetCategories.has(category);
+  });
+
+  const grouped = groupByCategory(targetOpportunities, categoryOrder);
+  const outsideTargetCategoryGrouped = groupByCategory(
+    outsideTargetCategoryOpportunities,
+    categoryOrder
+  );
 
   const markdown = buildReadme({
     config: CONFIG,
-    opportunities: recent,
+    targetOpportunities,
     grouped,
+    outsideTargetCategoryOpportunities,
+    outsideTargetCategoryGrouped,
     generatedAt,
-    hiddenOlderCount,
   });
 
   await fs.writeFile(README_PATH, markdown, "utf-8");
 
   console.log(`README generated: ${README_PATH}`);
-  console.log(`Recent opportunities included: ${recent.length}`);
-  console.log(`Older matching opportunities hidden: ${hiddenOlderCount}`);
+  console.log(`Target opportunities included: ${targetOpportunities.length}`);
+  console.log(
+    `Same-country opportunities outside target categories included in toggle: ${outsideTargetCategoryOpportunities.length}`
+  );
 }
 
 async function readNdjson<T>(filePath: string): Promise<T[]> {
@@ -86,12 +102,15 @@ async function readNdjson<T>(filePath: string): Promise<T[]> {
     });
 }
 
+function buildTargetCategories(config: Config): string[] {
+  return unique([
+    ...(config.target.intern ?? []).map(normalizeCategory),
+    ...(config.target["full-time"] ?? []).map(normalizeCategory),
+  ]);
+}
+
 function buildCategoryOrder(config: Config): string[] {
-  return unique(
-    [...(config.target.intern ?? []), ...(config.target["full-time"] ?? []), ...JOB_CATEGORIES].map(
-      normalizeCategory
-    )
-  );
+  return unique([...buildTargetCategories(config), ...JOB_CATEGORIES.map(normalizeCategory)]);
 }
 
 function groupByCategory(
@@ -110,6 +129,13 @@ function groupByCategory(
     groups.get(category)!.push(job);
   }
 
+  return sortCategoryGroups(groups, categoryOrder);
+}
+
+function sortCategoryGroups(
+  groups: Map<string, Opportunity[]>,
+  categoryOrder: string[]
+): Map<string, Opportunity[]> {
   const knownOrder = new Map(categoryOrder.map((category, index) => [category, index]));
 
   return new Map(
@@ -126,17 +152,26 @@ function groupByCategory(
 
 function buildReadme(input: {
   config: Config;
-  opportunities: Opportunity[];
+  targetOpportunities: Opportunity[];
   grouped: Map<string, Opportunity[]>;
+  outsideTargetCategoryOpportunities: Opportunity[];
+  outsideTargetCategoryGrouped: Map<string, Opportunity[]>;
   generatedAt: Date;
-  hiddenOlderCount: number;
 }): string {
-  const { config, opportunities, grouped, generatedAt, hiddenOlderCount } = input;
+  const {
+    config,
+    targetOpportunities,
+    grouped,
+    outsideTargetCategoryOpportunities,
+    outsideTargetCategoryGrouped,
+    generatedAt,
+  } = input;
 
   const generatedDate = generatedAt.toISOString().slice(0, 10);
 
   const aiParser = formatAiParser(config);
   const countries = formatCountries(config);
+  const targetCategories = buildTargetCategories(config);
 
   const lines: string[] = [];
 
@@ -215,51 +250,31 @@ function buildReadme(input: {
   lines.push("");
   lines.push(
     `<p>`,
-    `  Showing opportunities posted in the last <b>${RECENT_DAYS} days</b>.`,
-    hiddenOlderCount > 0
-      ? `  ${hiddenOlderCount.toLocaleString()} older matching ${
-          hiddenOlderCount === 1 ? "opportunity is" : "opportunities are"
-        } hidden from this README but still kept in <code>data/opportunities.ndjson</code>.`
-      : `  No older matching opportunities are currently hidden.`,
+    `  Showing <b>${targetOpportunities.length.toLocaleString()}</b> opportunities posted in the last`,
+    `  <b>${RECENT_DAYS} days</b> and matching the current target:`,
+    `  <b>${escapeHtml(countries)}</b> · <b>${escapeHtml(formatCategoryList(targetCategories))}</b>.`,
+    outsideTargetCategoryOpportunities.length > 0
+      ? `  ${outsideTargetCategoryOpportunities.length.toLocaleString()} same-country ${
+          outsideTargetCategoryOpportunities.length === 1 ? "opportunity is" : "opportunities are"
+        } from the last ${RECENT_DAYS} days but outside the current target categories and can be expanded below.`
+      : `  No same-country opportunities from the last ${RECENT_DAYS} days are currently hidden by category.`,
     `</p>`
   );
   lines.push("");
   lines.push(`<!-- TABLE_START -->`);
   lines.push("");
 
-  if (opportunities.length === 0) {
-    lines.push(`No matching opportunities posted in the last ${RECENT_DAYS} days.`);
+  if (targetOpportunities.length === 0) {
+    lines.push(
+      `No opportunities matched the current target categories in the last ${RECENT_DAYS} days.`
+    );
     lines.push("");
-    lines.push(`<!-- TABLE_END -->`);
-    lines.push("");
-    lines.push(...buildFooter(generatedAt));
-    return lines.join("\n");
+  } else {
+    lines.push(...buildCategorySections(grouped));
   }
 
-  for (const [category, jobs] of grouped) {
-    lines.push(`### ${formatCategoryTitle(category)}`);
-    lines.push("");
-
-    const rows: TableRow[] = [];
-    let previousCompany = "";
-
-    for (const job of jobs) {
-      const company = normalizeCompany(job.company);
-      const companyCell = company === previousCompany ? "↳" : company;
-      previousCompany = company;
-
-      rows.push([
-        escapeHtml(companyCell),
-        formatRoleCell(job),
-        escapeHtml(formatLocation(job)),
-        formatApplyButton(job.link),
-        formatDate(job.postedAt),
-      ]);
-    }
-
-    lines.push(...buildHtmlTable(["Company", "Role", "Location", "Link", "Date"], rows));
-
-    lines.push("");
+  if (outsideTargetCategoryOpportunities.length > 0) {
+    lines.push(...buildOutsideTargetCategoryToggle(outsideTargetCategoryGrouped));
   }
 
   lines.push(`<!-- TABLE_END -->`);
@@ -267,6 +282,69 @@ function buildReadme(input: {
   lines.push(...buildFooter(generatedAt));
 
   return lines.join("\n");
+}
+
+function buildCategorySections(grouped: Map<string, Opportunity[]>): string[] {
+  const lines: string[] = [];
+
+  for (const [category, jobs] of grouped) {
+    lines.push(`### ${formatCategoryTitle(category)}`);
+    lines.push("");
+    lines.push(...buildOpportunityTable(jobs));
+    lines.push("");
+  }
+
+  return lines;
+}
+
+function buildOutsideTargetCategoryToggle(grouped: Map<string, Opportunity[]>): string[] {
+  const total = [...grouped.values()].reduce((sum, jobs) => sum + jobs.length, 0);
+
+  const categoryNames = [...grouped.keys()].map(formatCategoryTitle);
+  const summaryTitle = formatToggleSummary(categoryNames, total);
+
+  const lines: string[] = [];
+
+  lines.push(`<details>`);
+  lines.push(`  <summary><b>${escapeHtml(summaryTitle)}</b></summary>`);
+  lines.push("");
+  lines.push(`  <br />`);
+  lines.push("");
+
+  for (const [category, jobs] of grouped) {
+    lines.push(
+      `  <h3>${escapeHtml(formatCategoryTitle(category))} (${jobs.length.toLocaleString()})</h3>`
+    );
+    lines.push("");
+    lines.push(...buildOpportunityTable(jobs));
+    lines.push("");
+  }
+
+  lines.push(`</details>`);
+  lines.push("");
+
+  return lines;
+}
+
+function buildOpportunityTable(jobs: Opportunity[]): string[] {
+  const rows: TableRow[] = [];
+  let previousCompany = "";
+
+  for (const job of jobs) {
+    const company = normalizeCompany(job.company);
+    const companyCell = company === previousCompany ? "↳" : company;
+    previousCompany = company;
+
+    rows.push([
+      escapeHtml(companyCell),
+      formatRoleCell(job),
+      escapeHtml(formatLocation(job)),
+      formatApplyButton(job.link),
+      formatDate(job.postedAt),
+    ]);
+  }
+
+  return buildHtmlTable(["Company", "Role", "Location", "Link", "Date"], rows);
 }
 
 function buildFeatureGrid(): string[] {
@@ -430,6 +508,34 @@ function formatCategoryTitle(category: string): string {
     .filter(Boolean)
     .map((word) => word[0]?.toUpperCase() + word.slice(1))
     .join(" ");
+}
+
+function formatCategoryList(categories: string[]): string {
+  return categories.map(formatCategoryTitle).join(" · ") || "configured categories";
+}
+
+function formatToggleSummary(categories: string[], total: number): string {
+  if (categories.length === 0) {
+    return `More opportunities (${total.toLocaleString()})`;
+  }
+
+  if (categories.length <= 3) {
+    return `More in ${formatHumanList(categories)} (${total.toLocaleString()})`;
+  }
+
+  const visible = categories.slice(0, 3);
+
+  return `More in ${formatHumanList(visible)} and ${
+    categories.length - visible.length
+  } more (${total.toLocaleString()})`;
+}
+
+function formatHumanList(values: string[]): string {
+  if (values.length === 0) return "";
+  if (values.length === 1) return values[0];
+  if (values.length === 2) return `${values[0]} & ${values[1]}`;
+
+  return `${values.slice(0, -1).join(", ")} & ${values.at(-1)}`;
 }
 
 function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
