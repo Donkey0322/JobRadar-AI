@@ -525,7 +525,7 @@
 <p><sub>Showing 20 of 322 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (1,388)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (1,389)</b></summary>
 
   <br />
 
@@ -686,7 +686,7 @@
 </table>
 <p><sub>Showing 20 of 795 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (593)</h3>
+  <h3>Senior Level (594)</h3>
 
 <table width="100%">
   <thead>
@@ -699,6 +699,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Cypress Creek Energy</td>
+      <td width="420" align="left" valign="top">Senior NetSuite Administrator</td>
+      <td width="180" align="left" valign="top">Durham, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://cypresscreekenergy.com/careers/job-listing/?gh_jid=7603800&amp;_gl=1*1ofl6dr*_ga*MTM1MjE5MzYyMi4xNzgyNzU4NjQz*_ga_X49BGKXK54*czE3ODI3NTg2NDMkbzEkZzEkdDE3ODI3NTg2NjkkajM0JGwwJGgw"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Oracle</td>
       <td width="420" align="left" valign="top">Software Developer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -832,16 +839,9 @@
       <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1479762266903375"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Product Designer - Instagram Creators and Commerce</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1580048536407574"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 593 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 594 opportunities in this section.</sub></p>
 
 </details>
 
@@ -862,7 +862,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-06-29T18:43:23.434Z</code>
+      🕒 Last updated <code>2026-06-29T18:48:29.105Z</code>
     </span>
   </p>
 </div>
