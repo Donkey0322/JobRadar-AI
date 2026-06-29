@@ -188,16 +188,16 @@ function buildReadme(input: {
   lines.push(
     `<p align="center">`,
     `  <a href="${TEMPLATE_URL}">`,
-    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-f9a8d4?style=for-the-badge" />`,
+    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-f43f5e?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./installation.md">`,
-    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-c4b5fd?style=for-the-badge" />`,
+    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-f97316?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./config.json">`,
-    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-93c5fd?style=for-the-badge" />`,
+    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-f59e0b?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="${ISSUE_TEMPLATE_URL}">`,
-    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-a7f3d0?style=for-the-badge" />`,
+    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-fb7185?style=for-the-badge" />`,
     `  </a>`,
     `</p>`
   );
