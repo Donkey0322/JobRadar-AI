@@ -85,7 +85,6 @@ export async function fetchWorkday(
           appliedFacets: {},
           limit: PAGE_SIZE,
           offset,
-          searchText: "software",
         }),
 
         signal,

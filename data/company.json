@@ -5125,14 +5125,6 @@
     ]
   },
   {
-    "name": "ccrenew",
-    "ats": "greenhouse",
-    "identifier": "ccrenew",
-    "domain": "https://ccrenew.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/ccrenew/jobs",
-    "urls": []
-  },
-  {
     "name": "cdk",
     "ats": "workday",
     "identifier": "cdk-cdk",
@@ -6333,7 +6325,8 @@
     "domain": "https://ccrenew.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/cypresscreekrenewables/jobs",
     "urls": [
-      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197"
+      "https://ccrenew.com/careers/job-listing/?gh_jid=7948197",
+      "https://cypresscreekenergy.com/careers/job-listing/?gh_jid=7603800&_gl=1*1ofl6dr*_ga*MTM1MjE5MzYyMi4xNzgyNzU4NjQz*_ga_X49BGKXK54*czE3ODI3NTg2NDMkbzEkZzEkdDE3ODI3NTg2NjkkajM0JGwwJGgw"
     ]
   },
   {
