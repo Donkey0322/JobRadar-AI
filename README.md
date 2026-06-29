@@ -87,12 +87,6 @@
 
 ## The List 🚴‍♂️
 
-<p>
-  Showing <b>357</b> opportunities matching the current target:
-  <b>USA</b> · <b>Summer Intern · Off Season Intern · Entry Level</b>.
-  1,154 same-country opportunities are outside the current target categories and can be expanded below.
-</p>
-
 <!-- TABLE_START -->
 
 ### Summer Intern
@@ -841,20 +835,20 @@
 
 ---
 
-## Documentation & safety
+<div align="center">
+  <p>
+    <a href="./PRIVACY.md"><b>🛡️ Privacy</b></a>
+    &nbsp;·&nbsp;
+    <a href="./SECURITY.md"><b>🔐 Security</b></a>
+    &nbsp;·&nbsp;
+    <a href="./LICENSE"><b>📄 License</b></a>
+  </p>
 
-<p>
-  <a href="./installation.md"><b>Installation</b></a> ·
-  <a href="./config.json"><b>Config</b></a> ·
-  <a href="./PRIVACY.md"><b>Privacy</b></a> ·
-  <a href="./SECURITY.md"><b>Security</b></a> ·
-  <a href="./LICENSE"><b>License</b></a>
-</p>
-
-<p>
-  Store API keys, SMTP passwords, and tokens in GitHub Secrets. Do not paste sensitive values into issues, commits, or workflow logs.
-</p>
-
-<p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-29T12:33:41.611Z</code>
-</p>
+  <p>
+    <span style="color:#374151;">
+      📦 Generated from <code>opportunities.ndjson</code>
+      &nbsp;•&nbsp;
+      🕒 Last updated <code>2026-06-29T12:42:51.911Z</code>
+    </span>
+  </p>
+</div>

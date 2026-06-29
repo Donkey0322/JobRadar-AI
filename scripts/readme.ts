@@ -169,7 +169,6 @@ function buildReadme(input: {
 
   const aiParser = formatAiParser(config);
   const countries = formatCountries(config);
-  const targetCategories = buildTargetCategories(config);
 
   const lines: string[] = [];
 
@@ -245,18 +244,6 @@ function buildReadme(input: {
   lines.push("");
 
   lines.push(`## The List 🚴‍♂️`);
-  lines.push("");
-  lines.push(
-    `<p>`,
-    `  Showing <b>${targetOpportunities.length.toLocaleString()}</b> opportunities matching the current target:`,
-    `  <b>${escapeHtml(countries)}</b> · <b>${escapeHtml(formatCategoryList(targetCategories))}</b>.`,
-    outsideTargetCategoryOpportunities.length > 0
-      ? `  ${outsideTargetCategoryOpportunities.length.toLocaleString()} same-country ${
-          outsideTargetCategoryOpportunities.length === 1 ? "opportunity is" : "opportunities are"
-        } outside the current target categories and can be expanded below.`
-      : `  No same-country opportunities are currently hidden by category.`,
-    `</p>`
-  );
   lines.push("");
   lines.push(`<!-- TABLE_START -->`);
   lines.push("");
@@ -393,23 +380,23 @@ function buildFooter(generatedAt: Date): string[] {
   return [
     `---`,
     ``,
-    `## Documentation & safety`,
+    `<div align="center">`,
+    `  <p>`,
+    `    <a href="./PRIVACY.md"><b>🛡️ Privacy</b></a>`,
+    `    &nbsp;·&nbsp;`,
+    `    <a href="./SECURITY.md"><b>🔐 Security</b></a>`,
+    `    &nbsp;·&nbsp;`,
+    `    <a href="./LICENSE"><b>📄 License</b></a>`,
+    `  </p>`,
     ``,
-    `<p>`,
-    `  <a href="./installation.md"><b>Installation</b></a> ·`,
-    `  <a href="./config.json"><b>Config</b></a> ·`,
-    `  <a href="./PRIVACY.md"><b>Privacy</b></a> ·`,
-    `  <a href="./SECURITY.md"><b>Security</b></a> ·`,
-    `  <a href="./LICENSE"><b>License</b></a>`,
-    `</p>`,
-    ``,
-    `<p>`,
-    `  Store API keys, SMTP passwords, and tokens in GitHub Secrets. Do not paste sensitive values into issues, commits, or workflow logs.`,
-    `</p>`,
-    ``,
-    `<p align="center">`,
-    `  Generated from <code>opportunities.ndjson</code> · Last updated: <code>${generatedAt.toISOString()}</code>`,
-    `</p>`,
+    `  <p>`,
+    `    <span style="color:#374151;">`,
+    `      📦 Generated from <code>opportunities.ndjson</code>`,
+    `      &nbsp;•&nbsp;`,
+    `      🕒 Last updated <code>${generatedAt.toISOString()}</code>`,
+    `    </span>`,
+    `  </p>`,
+    `</div>`,
     ``,
   ];
 }
@@ -501,10 +488,6 @@ function formatCategoryTitle(category: string): string {
     .filter(Boolean)
     .map((word) => word[0]?.toUpperCase() + word.slice(1))
     .join(" ");
-}
-
-function formatCategoryList(categories: string[]): string {
-  return categories.map(formatCategoryTitle).join(" · ") || "configured categories";
 }
 
 function formatToggleSummary(categories: string[], total: number): string {
