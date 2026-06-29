@@ -1,15 +1,8 @@
 {
   "target": {
-    "intern": [
-      "summer intern",
-      "off-season intern"
-    ],
-    "full-time": [
-      "entry level"
-    ],
-    "countries": [
-      "USA"
-    ],
+    "intern": ["summer intern", "off-season intern"],
+    "full-time": ["entry level"],
+    "countries": ["USA"],
     "filter": {
       "USA": {
         "allow_citizenship_required": false,
@@ -19,6 +12,7 @@
     "keywords": [
       "software",
       "system",
+      "systems",
       "dev",
       "develop",
       "developer",
@@ -44,7 +38,8 @@
       "automation",
       "swe",
       "sde",
-      "ui"
+      "ui",
+      "product"
     ]
   },
   "ai": {

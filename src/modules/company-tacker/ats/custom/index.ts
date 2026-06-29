@@ -2,6 +2,7 @@
 
 import { ABORT_SIGNAL } from "@/constants";
 import {
+  AMD_API_URL,
   APPLE_CAREERS_URL,
   GOOGLE_CAREERS_URL,
   META_CAREERS_URL,
@@ -14,6 +15,7 @@ import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { fetchAmazon } from "./amazon";
+import { fetchAMD } from "./amd";
 import { fetchApple } from "./apple";
 import { fetchGoogle } from "./google";
 import { fetchMeta } from "./meta";
@@ -30,7 +32,8 @@ type CustomCompanyIdentifier =
   | "meta"
   | "apple"
   | "netflix"
-  | "tiktok";
+  | "tiktok"
+  | "amd";
 
 const COMPANY_MATCHERS = {
   amazon: "amazon.jobs",
@@ -40,6 +43,7 @@ const COMPANY_MATCHERS = {
   apple: "jobs.apple.com",
   netflix: "netflix.net",
   tiktok: "tiktok.com",
+  amd: "amd.com",
 } satisfies Record<CustomCompanyIdentifier, string>;
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
@@ -122,6 +126,15 @@ export function urlToCustomCompany(url: URL): Company {
         page: TIKTOK_API_URL,
         urls: [],
       };
+    case "amd":
+      return {
+        name: "AMD",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: AMD_API_URL,
+        urls: [],
+      };
     default: {
       identifier satisfies null;
       return {
@@ -170,6 +183,9 @@ export async function fetchCustom(
       }
       case "tiktok": {
         return await fetchTikTok(company, urls, signal);
+      }
+      case "amd": {
+        return await fetchAMD(company, urls, signal);
       }
       default:
         identifier satisfies null;

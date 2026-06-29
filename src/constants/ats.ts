@@ -7,6 +7,7 @@ const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
 const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 const TIKTOK_API_URL = "https://api.lifeattiktok.com/api/v1/public/supplier/search/job/posts";
+const AMD_API_URL = "https://careers.amd.com/careers-home/jobs?lang=en-us";
 
 export {
   GREENHOUSE_API_URL,
@@ -17,4 +18,5 @@ export {
   APPLE_CAREERS_URL,
   NETFLIX_API_URL,
   TIKTOK_API_URL,
+  AMD_API_URL,
 };

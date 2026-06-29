@@ -169,3 +169,24 @@
 2026-06-27T19:12:08.243Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-06-27T19:12:08.845Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-06-27T19:12:09.194Z Workday: walmart - 410 - Gone
+2026-06-29T17:58:43.869Z Greenhouse: 8am - 404 - Not Found
+2026-06-29T17:58:45.220Z Workday: acehardware - 500 - Internal Server Error
+2026-06-29T17:58:55.946Z Greenhouse: careers - 404 - Not Found
+2026-06-29T17:58:56.089Z Greenhouse: ccrenew - 404 - Not Found
+2026-06-29T17:58:56.990Z Workday: cff - 422 - Unprocessable Entity
+2026-06-29T17:58:58.322Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-06-29T17:59:05.230Z Workday: elkay - 500 - Internal Server Error
+2026-06-29T17:59:12.009Z Workday: geico - 500 - Internal Server Error
+2026-06-29T17:59:17.517Z Greenhouse: jobs - 404 - Not Found
+2026-06-29T17:59:18.852Z Workday: kar - 422 - Unprocessable Entity
+2026-06-29T17:59:22.104Z Greenhouse: maintainx - 404 - Not Found
+2026-06-29T17:59:28.414Z Workday: nordstrom - 500 - Internal Server Error
+2026-06-29T17:59:29.199Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-06-29T17:59:29.231Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-06-29T17:59:30.821Z Workday: plexus - 422 - Unprocessable Entity
+2026-06-29T17:59:34.255Z Workday: regions - 500 - Internal Server Error
+2026-06-29T17:59:41.578Z Workday: symbotic - 422 - Unprocessable Entity
+2026-06-29T17:59:45.258Z Workday: truist - 500 - Internal Server Error
+2026-06-29T17:59:47.620Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-06-29T17:59:47.971Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-06-29T17:59:48.566Z Workday: walmart - 410 - Gone
