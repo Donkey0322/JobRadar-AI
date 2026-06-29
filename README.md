@@ -88,8 +88,9 @@
 ## The List 🚴‍♂️
 
 <p>
-  Showing opportunities posted in the last
-  <b>5 days</b>
+  Showing <b>357</b> opportunities matching the current target:
+  <b>USA</b> · <b>Summer Intern · Off Season Intern · Entry Level</b>.
+  1,154 same-country opportunities are outside the current target categories and can be expanded below.
 </p>
 
 <!-- TABLE_START -->
@@ -162,6 +163,41 @@
       <td width="180" align="left" valign="top">Jersey City, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://fmr.wd1.myworkdayjobs.com/targeted/job/Jersey-City-NJ/XMLNAME-2026-Undergraduate---Leap--Software-Engineer--Jersey-City--NJ_2130181"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Bigcommerce</td>
+      <td width="420" align="left" valign="top">Intern Infrastructure Security Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://bigcommerce.wd12.myworkdayjobs.com/commerce/job/Austin-TX/Intern-Infrastructure-Security-Engineer_JR102740"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Psu</td>
+      <td width="420" align="left" valign="top">Research and Development Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">State College, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Research-and-Development-Engineer-Intern_REQ_0000079641-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Eulerity</td>
+      <td width="420" align="left" valign="top">Web Development Engineer Intern</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/eulerity/jobs/4691224006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Generac</td>
+      <td width="420" align="left" valign="top">Computer Engineer Intern</td>
+      <td width="180" align="left" valign="top">Pewaukee, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://generac.wd5.myworkdayjobs.com/en-US/external/job/Pewaukee-WI---USA/Computer-Engineering-Intern_JR14798"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cubic</td>
+      <td width="420" align="left" valign="top">Software Engineering &amp; Automation Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Herndon, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://cubic.wd1.myworkdayjobs.com/cubic_usa_careers/job/Herndon-Virginia/Software-Engineering---Automation-Intern_REQ_49102"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 19</td>
     </tr>
   </tbody>
 </table>
@@ -321,7 +357,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 26 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 43 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -478,14 +514,14 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 165 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 301 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (684)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (1,154)</b></summary>
 
   <br />
 
-  <h3>Mid Level (433)</h3>
+  <h3>Mid Level (679)</h3>
 
 <table width="100%">
   <thead>
@@ -640,9 +676,9 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 433 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 679 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (251)</h3>
+  <h3>Senior Level (475)</h3>
 
 <table width="100%">
   <thead>
@@ -797,7 +833,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 251 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 475 opportunities in this section.</sub></p>
 
 </details>
 
@@ -820,5 +856,5 @@
 </p>
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-29T12:29:20.481Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-29T12:33:41.611Z</code>
 </p>

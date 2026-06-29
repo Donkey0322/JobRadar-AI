@@ -22,9 +22,7 @@ const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
-const RECENT_DAYS = 5;
 const MAX_JOBS_PER_SECTION = 20;
-const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
@@ -45,7 +43,6 @@ async function main() {
     // reverse: the last line in opportunities.ndjson is at the top of the README
     .reverse()
     .filter((job) => isRenderableOpportunity(job))
-    .filter((job) => isWithinLastDays(job.postedAt, generatedAt, RECENT_DAYS))
     .filter((job) => {
       const country = normalizeCountry(job.jd?.country);
       return country ? allowedCountries.has(country) : false;
@@ -172,6 +169,8 @@ function buildReadme(input: {
 
   const aiParser = formatAiParser(config);
   const countries = formatCountries(config);
+  const targetCategories = buildTargetCategories(config);
+
   const lines: string[] = [];
 
   lines.push(`# JobRadar AI 🚀`);
@@ -249,8 +248,13 @@ function buildReadme(input: {
   lines.push("");
   lines.push(
     `<p>`,
-    `  Showing opportunities posted in the last`,
-    `  <b>${RECENT_DAYS} days</b>`,
+    `  Showing <b>${targetOpportunities.length.toLocaleString()}</b> opportunities matching the current target:`,
+    `  <b>${escapeHtml(countries)}</b> · <b>${escapeHtml(formatCategoryList(targetCategories))}</b>.`,
+    outsideTargetCategoryOpportunities.length > 0
+      ? `  ${outsideTargetCategoryOpportunities.length.toLocaleString()} same-country ${
+          outsideTargetCategoryOpportunities.length === 1 ? "opportunity is" : "opportunities are"
+        } outside the current target categories and can be expanded below.`
+      : `  No same-country opportunities are currently hidden by category.`,
     `</p>`
   );
   lines.push("");
@@ -258,9 +262,7 @@ function buildReadme(input: {
   lines.push("");
 
   if (targetOpportunities.length === 0) {
-    lines.push(
-      `No opportunities matched the current target categories in the last ${RECENT_DAYS} days.`
-    );
+    lines.push(`No opportunities matched the current target categories.`);
     lines.push("");
   } else {
     lines.push(...buildCategorySections(grouped));
@@ -423,18 +425,6 @@ function isRenderableOpportunity(job: Opportunity): boolean {
   );
 }
 
-function isWithinLastDays(value: string, now: Date, days: number): boolean {
-  const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return false;
-  }
-
-  const cutoff = now.getTime() - days * MS_PER_DAY;
-
-  return date.getTime() >= cutoff && date.getTime() <= now.getTime();
-}
-
 function getDisplayCategory(job: Opportunity): string {
   const category = normalizeCategory(job.jd?.category);
   const season = normalizeCategory(job.jd?.season);
@@ -511,6 +501,10 @@ function formatCategoryTitle(category: string): string {
     .filter(Boolean)
     .map((word) => word[0]?.toUpperCase() + word.slice(1))
     .join(" ");
+}
+
+function formatCategoryList(categories: string[]): string {
+  return categories.map(formatCategoryTitle).join(" · ") || "configured categories";
 }
 
 function formatToggleSummary(categories: string[], total: number): string {
