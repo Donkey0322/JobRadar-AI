@@ -19,3 +19,4 @@ preview.html
 !.env.example
 *.local
 .DS_Store
+data/jd/
