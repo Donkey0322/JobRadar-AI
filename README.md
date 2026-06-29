@@ -7461,6 +7461,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">American express</td>
+      <td width="420" align="left" valign="top">Managers, Data Science</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010249"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">June 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Openai</td>
       <td width="420" align="left" valign="top">Founding Full Stack Software Engineer, Legal</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -10794,5 +10801,5 @@
 </p>
 
 <p align="center">
-  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-29T05:04:11.445Z</code>
+  Generated from <code>opportunities.ndjson</code> · Last updated: <code>2026-06-29T10:03:39.782Z</code>
 </p>
