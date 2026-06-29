@@ -22,20 +22,24 @@ const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
+const RECENT_DAYS = 7;
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
 const BADGE_NO_SPONSORSHIP = `<img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" />`;
 
 const APPLY_BUTTON_SRC =
-  "https://img.shields.io/badge/Apply-4f46e5?style=for-the-badge&logoColor=white";
+  "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
 
 async function main() {
   const opportunities = await readNdjson<Opportunity>(OPPORTUNITIES_PATH);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
   const categoryOrder = buildCategoryOrder(CONFIG);
+  const generatedAt = new Date();
 
-  const filtered = opportunities
+  const matching = opportunities
     // reverse: the last line in opportunities.ndjson is at the top of the README
     .reverse()
     .filter((job) => isRenderableOpportunity(job))
@@ -44,19 +48,24 @@ async function main() {
       return country ? allowedCountries.has(country) : false;
     });
 
-  const grouped = groupByCategory(filtered, categoryOrder);
+  const recent = matching.filter((job) => isWithinLastDays(job.postedAt, generatedAt, RECENT_DAYS));
+  const hiddenOlderCount = matching.length - recent.length;
+
+  const grouped = groupByCategory(recent, categoryOrder);
 
   const markdown = buildReadme({
     config: CONFIG,
-    opportunities: filtered,
+    opportunities: recent,
     grouped,
-    categoryOrder,
+    generatedAt,
+    hiddenOlderCount,
   });
 
   await fs.writeFile(README_PATH, markdown, "utf-8");
 
   console.log(`README generated: ${README_PATH}`);
-  console.log(`Opportunities included: ${filtered.length}`);
+  console.log(`Recent opportunities included: ${recent.length}`);
+  console.log(`Older matching opportunities hidden: ${hiddenOlderCount}`);
 }
 
 async function readNdjson<T>(filePath: string): Promise<T[]> {
@@ -119,11 +128,11 @@ function buildReadme(input: {
   config: Config;
   opportunities: Opportunity[];
   grouped: Map<string, Opportunity[]>;
-  categoryOrder: string[];
+  generatedAt: Date;
+  hiddenOlderCount: number;
 }): string {
-  const { config, opportunities, grouped } = input;
+  const { config, opportunities, grouped, generatedAt, hiddenOlderCount } = input;
 
-  const generatedAt = new Date();
   const generatedDate = generatedAt.toISOString().slice(0, 10);
 
   const aiParser = formatAiParser(config);
@@ -139,7 +148,6 @@ function buildReadme(input: {
     `</p>`,
     ``,
     `<p align="center">`,
-    `  <img src="${formatBadgeUrl("Source", "opportunities.ndjson", "black")}" />`,
     `  <img src="${formatBadgeUrl("AI Parsed", aiParser, "blue")}" />`,
     `  <img src="${formatBadgeUrl("Countries", countries, "green")}" />`,
     `  <img src="${formatBadgeUrl("Updated", generatedDate, "orange")}" />`,
@@ -180,16 +188,16 @@ function buildReadme(input: {
   lines.push(
     `<p align="center">`,
     `  <a href="${TEMPLATE_URL}">`,
-    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-111827?style=for-the-badge" />`,
+    `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-f9a8d4?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./installation.md">`,
-    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-374151?style=for-the-badge" />`,
+    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-c4b5fd?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./config.json">`,
-    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-4f46e5?style=for-the-badge" />`,
+    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-93c5fd?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="${ISSUE_TEMPLATE_URL}">`,
-    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-7c3aed?style=for-the-badge" />`,
+    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-a7f3d0?style=for-the-badge" />`,
     `  </a>`,
     `</p>`
   );
@@ -205,11 +213,22 @@ function buildReadme(input: {
 
   lines.push(`## The List 🚴‍♂️`);
   lines.push("");
+  lines.push(
+    `<p>`,
+    `  Showing opportunities posted in the last <b>${RECENT_DAYS} days</b>.`,
+    hiddenOlderCount > 0
+      ? `  ${hiddenOlderCount.toLocaleString()} older matching ${
+          hiddenOlderCount === 1 ? "opportunity is" : "opportunities are"
+        } hidden from this README but still kept in <code>data/opportunities.ndjson</code>.`
+      : `  No older matching opportunities are currently hidden.`,
+    `</p>`
+  );
+  lines.push("");
   lines.push(`<!-- TABLE_START -->`);
   lines.push("");
 
   if (opportunities.length === 0) {
-    lines.push(`No matching opportunities found.`);
+    lines.push(`No matching opportunities posted in the last ${RECENT_DAYS} days.`);
     lines.push("");
     lines.push(`<!-- TABLE_END -->`);
     lines.push("");
@@ -323,6 +342,18 @@ function isRenderableOpportunity(job: Opportunity): boolean {
   );
 }
 
+function isWithinLastDays(value: string, now: Date, days: number): boolean {
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return false;
+  }
+
+  const cutoff = now.getTime() - days * MS_PER_DAY;
+
+  return date.getTime() >= cutoff && date.getTime() <= now.getTime();
+}
+
 function getDisplayCategory(job: Opportunity): string {
   const category = normalizeCategory(job.jd?.category);
   const season = normalizeCategory(job.jd?.season);
@@ -356,7 +387,6 @@ function formatJobBadges(jd?: JD | null): string {
     badges.push(BADGE_NO_SPONSORSHIP);
   }
 
-  // citizen / sponsor badge in the same line
   return badges.join(" ");
 }
 
