@@ -27,7 +27,7 @@ const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.
 const BADGE_NO_SPONSORSHIP = `<img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" />`;
 
 const APPLY_BUTTON_SRC =
-  "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
+  "https://img.shields.io/badge/Apply-4f46e5?style=for-the-badge&logoColor=white";
 
 async function main() {
   const opportunities = await readNdjson<Opportunity>(OPPORTUNITIES_PATH);
@@ -183,13 +183,13 @@ function buildReadme(input: {
     `    <img alt="Use this template" src="https://img.shields.io/badge/Use%20this%20template-111827?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./installation.md">`,
-    `    <img alt="Set up your own board" src="https://img.shields.io/badge/Set%20up%20your%20own%20board-f97316?style=for-the-badge" />`,
-    `  </a>`,
-    `  <a href="${ISSUE_TEMPLATE_URL}">`,
-    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-16a34a?style=for-the-badge" />`,
+    `    <img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-374151?style=for-the-badge" />`,
     `  </a>`,
     `  <a href="./config.json">`,
-    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-2563eb?style=for-the-badge" />`,
+    `    <img alt="Customize config" src="https://img.shields.io/badge/Customize%20config-4f46e5?style=for-the-badge" />`,
+    `  </a>`,
+    `  <a href="${ISSUE_TEMPLATE_URL}">`,
+    `    <img alt="Contribute a job" src="https://img.shields.io/badge/Contribute%20a%20job-7c3aed?style=for-the-badge" />`,
     `  </a>`,
     `</p>`
   );
@@ -201,11 +201,6 @@ function buildReadme(input: {
   lines.push(`## Why JobRadar AI is different`);
   lines.push("");
   lines.push(...buildFeatureGrid());
-  lines.push("");
-
-  lines.push(`## Documentation & safety`);
-  lines.push("");
-  lines.push(...buildDocsTable());
   lines.push("");
 
   lines.push(`## The List 🚴‍♂️`);
@@ -292,59 +287,22 @@ function buildFeatureGrid(): string[] {
   ];
 }
 
-function buildDocsTable(): string[] {
-  return [
-    `<table>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🚀 Installation</h3>`,
-    `      <p>Start from the template, fill out the setup issue form, configure secrets, and run the tracker in your own repository.</p>`,
-    `      <p><a href="./installation.md"><b>Read installation.md →</b></a></p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🛠️ Configuration</h3>`,
-    `      <p>Customize countries, job categories, email notifications, AI provider, and schedule behavior.</p>`,
-    `      <p><a href="./config.json"><b>View config.json →</b></a></p>`,
-    `    </td>`,
-    `  </tr>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🔐 Security</h3>`,
-    `      <p>Do not expose API keys, SMTP passwords, personal access tokens, or private workflow logs in issues or commits.</p>`,
-    `      <p><a href="./SECURITY.md"><b>Read SECURITY.md →</b></a></p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🛡️ Privacy</h3>`,
-    `      <p>Understand what runs in your repository, what may be sent to AI providers, and what stays under your control.</p>`,
-    `      <p><a href="./PRIVACY.md"><b>Read PRIVACY.md →</b></a></p>`,
-    `    </td>`,
-    `  </tr>`,
-    `  <tr>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>📄 License</h3>`,
-    `      <p>JobRadar AI is released under the MIT License.</p>`,
-    `      <p><a href="./LICENSE"><b>View LICENSE →</b></a></p>`,
-    `    </td>`,
-    `    <td width="50%" valign="top">`,
-    `      <h3>🤝 Contributions</h3>`,
-    `      <p>Submit job links, improve ATS parsers, or adapt the template for your own job-search workflow.</p>`,
-    `      <p><a href="${ISSUE_TEMPLATE_URL}"><b>Contribute a job →</b></a></p>`,
-    `    </td>`,
-    `  </tr>`,
-    `</table>`,
-  ];
-}
-
 function buildFooter(generatedAt: Date): string[] {
   return [
     `---`,
     ``,
-    `<p align="center">`,
-    `  <a href="./installation.md">Installation</a> ·`,
-    `  <a href="./config.json">Config</a> ·`,
-    `  <a href="./PRIVACY.md">Privacy</a> ·`,
-    `  <a href="./SECURITY.md">Security</a> ·`,
-    `  <a href="./LICENSE">License</a>`,
+    `## Documentation & safety`,
+    ``,
+    `<p>`,
+    `  <a href="./installation.md"><b>Installation</b></a> ·`,
+    `  <a href="./config.json"><b>Config</b></a> ·`,
+    `  <a href="./PRIVACY.md"><b>Privacy</b></a> ·`,
+    `  <a href="./SECURITY.md"><b>Security</b></a> ·`,
+    `  <a href="./LICENSE"><b>License</b></a>`,
+    `</p>`,
+    ``,
+    `<p>`,
+    `  Store API keys, SMTP passwords, and tokens in GitHub Secrets. Do not paste sensitive values into issues, commits, or workflow logs.`,
     `</p>`,
     ``,
     `<p align="center">`,
@@ -398,6 +356,7 @@ function formatJobBadges(jd?: JD | null): string {
     badges.push(BADGE_NO_SPONSORSHIP);
   }
 
+  // citizen / sponsor badge in the same line
   return badges.join(" ");
 }
 
