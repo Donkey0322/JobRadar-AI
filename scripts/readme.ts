@@ -23,6 +23,7 @@ const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
 const RECENT_DAYS = 5;
+const MAX_JOBS_PER_SECTION = 20;
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
@@ -171,8 +172,6 @@ function buildReadme(input: {
 
   const aiParser = formatAiParser(config);
   const countries = formatCountries(config);
-  const targetCategories = buildTargetCategories(config);
-
   const lines: string[] = [];
 
   lines.push(`# JobRadar AI 🚀`);
@@ -250,14 +249,8 @@ function buildReadme(input: {
   lines.push("");
   lines.push(
     `<p>`,
-    `  Showing <b>${targetOpportunities.length.toLocaleString()}</b> opportunities posted in the last`,
-    `  <b>${RECENT_DAYS} days</b> and matching the current target:`,
-    `  <b>${escapeHtml(countries)}</b> · <b>${escapeHtml(formatCategoryList(targetCategories))}</b>.`,
-    outsideTargetCategoryOpportunities.length > 0
-      ? `  ${outsideTargetCategoryOpportunities.length.toLocaleString()} same-country ${
-          outsideTargetCategoryOpportunities.length === 1 ? "opportunity is" : "opportunities are"
-        } from the last ${RECENT_DAYS} days but outside the current target categories and can be expanded below.`
-      : `  No same-country opportunities from the last ${RECENT_DAYS} days are currently hidden by category.`,
+    `  Showing opportunities posted in the last`,
+    `  <b>${RECENT_DAYS} days</b>`,
     `</p>`
   );
   lines.push("");
@@ -327,10 +320,12 @@ function buildOutsideTargetCategoryToggle(grouped: Map<string, Opportunity[]>): 
 }
 
 function buildOpportunityTable(jobs: Opportunity[]): string[] {
+  const visibleJobs = jobs.slice(0, MAX_JOBS_PER_SECTION);
+
   const rows: TableRow[] = [];
   let previousCompany = "";
 
-  for (const job of jobs) {
+  for (const job of visibleJobs) {
     const company = normalizeCompany(job.company);
     const companyCell = company === previousCompany ? "↳" : company;
     previousCompany = company;
@@ -344,7 +339,15 @@ function buildOpportunityTable(jobs: Opportunity[]): string[] {
     ]);
   }
 
-  return buildHtmlTable(["Company", "Role", "Location", "Link", "Date"], rows);
+  const lines = buildHtmlTable(["Company", "Role", "Location", "Link", "Date"], rows);
+
+  if (jobs.length > MAX_JOBS_PER_SECTION) {
+    lines.push(
+      `<p><sub>Showing ${MAX_JOBS_PER_SECTION.toLocaleString()} of ${jobs.length.toLocaleString()} opportunities in this section.</sub></p>`
+    );
+  }
+
+  return lines;
 }
 
 function buildFeatureGrid(): string[] {
@@ -508,10 +511,6 @@ function formatCategoryTitle(category: string): string {
     .filter(Boolean)
     .map((word) => word[0]?.toUpperCase() + word.slice(1))
     .join(" ");
-}
-
-function formatCategoryList(categories: string[]): string {
-  return categories.map(formatCategoryTitle).join(" · ") || "configured categories";
 }
 
 function formatToggleSummary(categories: string[], total: number): string {
