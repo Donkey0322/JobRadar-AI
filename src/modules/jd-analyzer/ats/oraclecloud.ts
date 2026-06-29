@@ -1,3 +1,5 @@
+import { ABORT_SIGNAL } from "@/constants";
+
 import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
@@ -5,7 +7,7 @@ import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 const convertOracleJDUrl = (url: string) => {
   const u = new URL(url);
 
-  const match = u.pathname.match(/\/sites\/([^/]+)\/job\/([^/]+)/);
+  const match = u.pathname.match(/\/sites\/([^/]+)\/(?:jobs\/)?job\/([^/?#]+)/);
   if (!match) return null;
 
   const [, siteNumber, jobId] = match;
@@ -17,7 +19,10 @@ const convertOracleJDUrl = (url: string) => {
   );
 };
 
-export async function fetchOracleJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
+export async function fetchOracleJD(
+  url: string,
+  signal: AbortSignal = ABORT_SIGNAL
+): Promise<JDFetchResult> {
   const apiUrl = convertOracleJDUrl(url);
 
   if (!apiUrl) {
