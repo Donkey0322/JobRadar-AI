@@ -7,7 +7,7 @@ import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
-import { saveJd, saveJob, saveUrls } from "@/utils/data";
+import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -170,7 +170,7 @@ export async function processJobs({
       continue;
     }
 
-    const { job, jd, rawJD, cost } = result;
+    const { job, jd, cost } = result;
     job.jd = jd;
     totalCost += cost;
 
@@ -198,7 +198,7 @@ export async function processJobs({
 
       job.id = currentId;
 
-      jdSaves.push(saveJd(rawJD, job));
+      // jdSaves.push(saveJd(rawJD, job));
     }
 
     markAsSeen(job);
