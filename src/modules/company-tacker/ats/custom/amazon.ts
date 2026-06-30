@@ -17,6 +17,24 @@ interface AmazonJob {
   icimsJobId: string[];
 }
 
+interface AmazonJobResponse {
+  searchHits: {
+    fields: AmazonJob;
+  }[];
+}
+
+const REQUEST = {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    size: 100,
+    start: 0,
+    sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
+  }),
+};
+
 export async function fetchAmazon(
   company: Company,
   urls: Set<string>,
@@ -24,34 +42,27 @@ export async function fetchAmazon(
 ): Promise<Job[]> {
   try {
     const res = await fetch(company.page, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        size: 100,
-        start: 0,
-        sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
-      }),
+      ...REQUEST,
       signal,
     });
 
-    const data = await res.json();
-    const jobs: AmazonJob[] = data.searchHits
-      .map(({ fields }: { fields: AmazonJob }) => fields)
+    const data: AmazonJobResponse = await res.json();
+    const amazonJobs = data.searchHits.map(({ fields }) => fields);
+    const jobs: Job[] = amazonJobs
       .filter(
-        (job: AmazonJob) =>
+        (job) =>
           isTarget(job.title?.[0] ?? "") &&
           !urls.has(`https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`) &&
           (withinDays(job.createdDate?.[0] * 1000) || withinDays(job.updatedDate?.[0] * 1000))
-      );
+      )
+      .map((job) => ({
+        company: capitalize(company.name),
+        role: job.title?.[0] ?? "",
+        link: `https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`,
+        location: job.location?.[0] ?? "",
+      }));
 
-    return jobs.map((job) => ({
-      company: capitalize(company.name),
-      role: job.title?.[0] ?? "",
-      link: `https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`,
-      location: job.location?.[0] ?? "",
-    }));
+    return jobs;
   } catch (error) {
     if (error instanceof Error && error.name === "TimeoutError") {
       logger.error(
