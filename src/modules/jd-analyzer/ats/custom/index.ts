@@ -201,6 +201,7 @@ export async function fetchCustomJD(
         signal,
         headers: {
           "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+          "Accept-Encoding": "identity",
         },
       });
 
