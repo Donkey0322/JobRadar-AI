@@ -5,6 +5,7 @@ import type { Opportunity } from "@/types/jobs";
 
 import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
+import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
 import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
@@ -132,6 +133,14 @@ export async function processJobs({
 
         const result = await getJD(job);
 
+        if (HttpStatusCode.isError(result.error.code)) {
+          return {
+            type: "invalid" as const,
+            job,
+            ...result,
+          };
+        }
+
         return {
           type: "processed" as const,
           job,
@@ -146,6 +155,20 @@ export async function processJobs({
   for (const result of results) {
     if (result.type === "deadline") {
       forceStopped = true;
+      continue;
+    }
+
+    if (result.type === "invalid") {
+      skipped += 1;
+      logger.error(
+        {
+          company: result.job.company,
+          role: result.job.role,
+          url: result.job.link,
+          reason: result.error.desc,
+        },
+        "⚠️ Invalid JD"
+      );
       continue;
     }
 

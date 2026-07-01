@@ -63,15 +63,15 @@ export const NETWORK_ERROR_CODE = 0;
 
 export type HttpStatus = number;
 
-export type JDFetchStatus = {
+export interface JDFetchStatus {
   code: HttpStatus | typeof NETWORK_ERROR_CODE;
   desc: string;
-};
+}
 
-export type JDFetchResult = {
+export interface JDFetchResult {
   jd: string | null;
   error: JDFetchStatus;
-};
+}
 
 export const JD_FETCH_OK: JDFetchStatus = {
   code: HttpStatusCode.OK,

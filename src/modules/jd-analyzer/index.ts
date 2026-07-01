@@ -2,7 +2,7 @@ import { ALLOWED_COUNTRIES, CONFIG } from "@/constants";
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult } from "./ats";
+import type { JDFetchResult, JDFetchStatus } from "./ats";
 import type { JD, Job } from "@/types/jobs";
 import type { JDResponse } from "@/validation/ai";
 
@@ -77,10 +77,6 @@ function finishRawJD(result: JDFetchResult): JDFetchResult {
   if (!result.jd) return result;
 
   const jd = normalizeRawText(result.jd);
-  if (!jd) {
-    return { jd: null, error: JD_FETCH_ERROR.noData() };
-  }
-
   return { jd, error: JD_FETCH_OK };
 }
 
@@ -118,16 +114,18 @@ export default async function getJD(job: Job): Promise<{
   jd: JD | null;
   rawJD: string;
   cost: number;
+  error: JDFetchStatus;
 }> {
   // five minutes timeout
   const signal = AbortSignal.timeout(5 * 60 * 1000);
-  const { jd: rawJD } = await getRawJD(job.link, signal);
+  const { jd: rawJD, error } = await getRawJD(job.link, signal);
 
   if (!rawJD) {
     return {
       jd: null,
       rawJD: "",
       cost: 0,
+      error,
     };
   }
 
@@ -138,6 +136,7 @@ export default async function getJD(job: Job): Promise<{
       jd: null,
       rawJD,
       cost,
+      error: JD_FETCH_ERROR.noData(),
     };
   }
 
@@ -158,6 +157,7 @@ export default async function getJD(job: Job): Promise<{
         jd: null,
         rawJD,
         cost,
+        error: JD_FETCH_ERROR.noData(),
       };
     }
 
@@ -166,6 +166,7 @@ export default async function getJD(job: Job): Promise<{
       jd,
       rawJD,
       cost,
+      error: JD_FETCH_OK,
     };
   } catch (e) {
     logger.warn(
@@ -180,6 +181,7 @@ export default async function getJD(job: Job): Promise<{
       jd: null,
       rawJD,
       cost,
+      error: JD_FETCH_ERROR.internal(),
     };
   }
 }

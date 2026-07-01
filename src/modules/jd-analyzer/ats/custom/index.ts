@@ -188,39 +188,46 @@ export async function fetchCustomJD(
 ): Promise<JDFetchResult> {
   const identifier = parseCustomCompanyIdentifier(new URL(url));
 
-  switch (identifier) {
-    case "apple": {
-      return await fetchAppleJD(url, signal);
-    }
-    case "netflix": {
-      return await fetchNetflixJD(url, signal);
-    }
-    // TODO: meta, google, microsoft, amazon
-    default: {
-      const res = await fetch(url, {
-        signal,
-        headers: {
-          "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
-          "Accept-Encoding": "identity",
-        },
-      });
-
-      if (!res.ok) {
-        logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
-        return {
-          jd: null,
-          error: JD_FETCH_ERROR.http(res.status, res.statusText),
-        };
+  try {
+    switch (identifier) {
+      case "apple": {
+        return await fetchAppleJD(url, signal);
       }
-
-      const html = await res.text();
-      const jd = extractFallbackJD(html);
-
-      if (!jd) {
-        return { jd: null, error: JD_FETCH_ERROR.noData() };
+      case "netflix": {
+        return await fetchNetflixJD(url, signal);
       }
+      // TODO: meta, google, microsoft, amazon
+      default: {
+        const res = await fetch(url, {
+          signal,
+          headers: {
+            "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
+            "Accept-Encoding": "identity",
+          },
+        });
 
-      return { jd, error: JD_FETCH_OK };
+        if (!res.ok) {
+          logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
+          return {
+            jd: null,
+            error: JD_FETCH_ERROR.http(res.status, res.statusText),
+          };
+        }
+
+        const html = await res.text();
+        const jd = extractFallbackJD(html);
+
+        if (jd?.toLowerCase().includes("not found")) {
+          return { jd: null, error: JD_FETCH_ERROR.noData() };
+        }
+
+        return { jd, error: JD_FETCH_OK };
+      }
     }
+  } catch (e) {
+    return {
+      jd: null,
+      error: JD_FETCH_ERROR.fetch(e instanceof Error ? e.message : "Unknown fetch error"),
+    };
   }
 }
