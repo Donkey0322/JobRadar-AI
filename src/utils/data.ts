@@ -53,6 +53,25 @@ export async function loadJobs(): Promise<Job[]> {
   }
 }
 
+/**
+ * Append jobs to the end of the job file.
+ * @param jobs - The jobs to save.
+ */
+export async function saveJob(jobs: Job[]) {
+  if (jobs.length === 0) return;
+  const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
+  await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
+}
+
+export async function readJD(id: number): Promise<string | null> {
+  try {
+    const content = await fs.readFile(path.join(JD_PATH, `${id}.txt`), "utf-8");
+    return content;
+  } catch {
+    return null;
+  }
+}
+
 function parseJSON(input: string): JSON | null {
   try {
     return JSON.parse(input);
@@ -61,7 +80,7 @@ function parseJSON(input: string): JSON | null {
   }
 }
 
-export async function saveJd(jd: string, job: Job) {
+export async function saveJD(jd: string, job: Job) {
   if (!job.id) {
     logger.error(`${RED_CROSS} Job ID is required`);
     return;
@@ -80,25 +99,6 @@ export async function saveJd(jd: string, job: Job) {
   } catch (error) {
     logger.error({ err: error, jobId: job.id }, `${RED_CROSS} Error saving JD`);
   }
-}
-
-export async function readJD(id: number): Promise<string | null> {
-  try {
-    const content = await fs.readFile(path.join(JD_PATH, `${id}.txt`), "utf-8");
-    return content;
-  } catch {
-    return null;
-  }
-}
-
-/**
- * Append jobs to the end of the job file.
- * @param jobs - The jobs to save.
- */
-export async function saveJob(jobs: Job[]) {
-  if (jobs.length === 0) return;
-  const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
-  await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
 }
 
 export async function saveOpportunities(opportunities: Job[]) {

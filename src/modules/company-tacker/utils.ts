@@ -12,10 +12,15 @@ const ENGINEERING_WORDS = [
   "swe",
   "sde",
   "programmer",
+  "researcher",
+  "scientist",
+  "analyst",
 ];
 
 const TECH_DOMAIN_WORDS = CONFIG.target.keywords ?? [
   "software",
+  "system",
+  "systems",
   "backend",
   "back-end",
   "frontend",
