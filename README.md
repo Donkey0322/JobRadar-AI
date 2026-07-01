@@ -560,7 +560,7 @@
 <p><sub>Showing 20 of 625 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (2,418)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (2,419)</b></summary>
 
   <br />
 
@@ -721,7 +721,7 @@
 </table>
 <p><sub>Showing 20 of 1,395 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (1,023)</h3>
+  <h3>Senior Level (1,024)</h3>
 
 <table width="100%">
   <thead>
@@ -734,6 +734,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Chatham</td>
+      <td width="420" align="left" valign="top">Senior Data Solutions Engineer</td>
+      <td width="180" align="left" valign="top">Kennett Square, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://chathamfinancial.wd501.myworkdayjobs.com/ChathamFinancial/job/Kennett-Square/Senior-Data-Solutions-Engineer_R-100173"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Zoox</td>
       <td width="420" align="left" valign="top">Systems Test Engineer, System Behavior Analysis</td>
@@ -867,16 +874,9 @@
       <td width="120" align="left" valign="top"><a href="https://psu.wd1.myworkdayjobs.com/psu_staff/job/Reston-VA/Maritime-Systems-Research-and-Development-Engineer---Springfield--VA_REQ_0000073900-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Infrastructure Systems Administrator<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://psu.wd1.myworkdayjobs.com/psu_staff/job/San-Diego-CA/Infrastructure-Systems-Administrator_REQ_0000072297-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,023 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,024 opportunities in this section.</sub></p>
 
 </details>
 
@@ -897,7 +897,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-01T16:45:27.381Z</code>
+      🕒 Last updated <code>2026-07-01T16:54:58.289Z</code>
     </span>
   </p>
 </div>
