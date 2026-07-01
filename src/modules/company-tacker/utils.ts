@@ -2,15 +2,20 @@ import { CONFIG } from "@/constants";
 
 import { JobCategory } from "@/validation/config";
 
-const TECH_WORDS = CONFIG.target.keywords ?? [
-  "software",
-  "system",
+const ENGINEERING_WORDS = [
   "dev",
   "develop",
   "developer",
   "development",
-  "software engineering",
-  "software engineer",
+  "engineer",
+  "engineering",
+  "swe",
+  "sde",
+  "programmer",
+];
+
+const TECH_DOMAIN_WORDS = CONFIG.target.keywords ?? [
+  "software",
   "backend",
   "back-end",
   "frontend",
@@ -34,11 +39,49 @@ const TECH_WORDS = CONFIG.target.keywords ?? [
   "site reliability",
   "security",
   "automation",
-  "swe",
-  "sde",
   "ui",
   "ux",
 ];
+
+// const STRONG_TECH_PHRASES = [
+//   "software engineer",
+//   "software engineering",
+//   "software developer",
+//   "backend engineer",
+//   "back-end engineer",
+//   "backend developer",
+//   "back-end developer",
+//   "frontend engineer",
+//   "front-end engineer",
+//   "frontend developer",
+//   "front-end developer",
+//   "full-stack engineer",
+//   "full stack engineer",
+//   "fullstack engineer",
+//   "full-stack developer",
+//   "full stack developer",
+//   "fullstack developer",
+//   "web engineer",
+//   "web developer",
+//   "mobile engineer",
+//   "mobile developer",
+//   "ios engineer",
+//   "ios developer",
+//   "android engineer",
+//   "android developer",
+//   "machine learning engineer",
+//   "ml engineer",
+//   "ai engineer",
+//   "data engineer",
+//   "platform engineer",
+//   "cloud engineer",
+//   "infrastructure engineer",
+//   "devops engineer",
+//   "site reliability engineer",
+//   "security engineer",
+//   "automation engineer",
+//   "software development engineer",
+// ];
 
 const INTERN_WORDS = ["intern", "internship", "co-op", "coop", "student"];
 
@@ -102,12 +145,15 @@ function buildPatterns(words: string[]) {
   });
 }
 
+const ENGINEERING_PATTERNS = buildPatterns(ENGINEERING_WORDS);
+const TECH_DOMAIN_PATTERNS = buildPatterns(TECH_DOMAIN_WORDS);
+// const STRONG_TECH_PATTERNS = buildPatterns(STRONG_TECH_PHRASES);
+
 const INTERN_PATTERNS = buildPatterns(INTERN_WORDS);
 const ENTRY_LEVEL_PATTERNS = buildPatterns(ENTRY_LEVEL_WORDS);
 const MID_LEVEL_PATTERNS = buildPatterns(MID_LEVEL_WORDS);
 const SENIOR_LEVEL_PATTERNS = buildPatterns(SENIOR_LEVEL_WORDS);
 
-const TECH_PATTERNS = buildPatterns(TECH_WORDS);
 const NON_TECH_PATTERNS = buildPatterns(NON_TECH_WORDS);
 
 function hasPattern(patterns: RegExp[], text: string) {
@@ -118,8 +164,20 @@ function normalize(title: string) {
   return title.toLowerCase().trim();
 }
 
+function isEngineering(title: string) {
+  return hasPattern(ENGINEERING_PATTERNS, title);
+}
+
+function isTechDomain(title: string) {
+  return hasPattern(TECH_DOMAIN_PATTERNS, title);
+}
+
+// function isStrongTech(title: string) {
+//   return hasPattern(STRONG_TECH_PATTERNS, title);
+// }
+
 function isTech(title: string) {
-  return hasPattern(TECH_PATTERNS, title);
+  return isEngineering(title) && isTechDomain(title);
 }
 
 function isNonTech(title: string) {

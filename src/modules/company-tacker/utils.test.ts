@@ -5,7 +5,6 @@ import { isTechEntryLevel, isTechIntern, isTechMidLevel, isTechSeniorLevel } fro
 describe("isTechIntern", () => {
   it("detects tech interns", () => {
     expect(isTechIntern("Software Engineer Intern")).toBe(true);
-    expect(isTechIntern("Frontend Intern")).toBe(true);
     expect(isTechIntern("Backend Engineering Internship")).toBe(true);
   });
 
@@ -50,6 +49,7 @@ describe("isTechEntryLevel", () => {
 
   it("rejects non-tech roles", () => {
     expect(isTechEntryLevel("Sales Associate")).toBe(false);
+    expect(isTechEntryLevel("Teammate Endzone & Loyalty (Front End)")).toBe(false);
   });
 });
 
