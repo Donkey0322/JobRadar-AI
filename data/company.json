@@ -43,7 +43,9 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": []
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4669789006"
+    ]
   },
   {
     "name": "aaaie",
@@ -108,10 +110,10 @@
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Philippines---Taguig-City/Data-Management-Coordinator_31145268",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Service-Engineer-Internship---Core-Lab---Madrid-_31152648",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Austin--8701-Bee-Caves-Rd/Strategic-Pricing---Contract-Analyst_31150694",
+      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States-of-America--Remote/Automation-Technical-Specialist_31154808-1",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States-of-America--Remote/Enterprise-Business-Development-Executive_31154716-1",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Hanoi/Product-Specialist--PCGI----Hanoi_31154858",
-      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Product-Specialist---Nutrition---HCM_31154080",
-      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States-of-America--Remote/Automation-Technical-Specialist_31154808-1"
+      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Product-Specialist---Nutrition---HCM_31154080"
     ]
   },
   {
@@ -531,6 +533,7 @@
     "page": "https://aero.wd5.myworkdayjobs.com/wday/cxs/aero/external/jobs",
     "urls": [
       "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Junior-Software-Integration-Engineer_R015562",
+      "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Software-Integration-Engineer_R015738",
       "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Software-Systems-Engineer_R015740",
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/Aerospace-Software-Test-Engineer_R015702",
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/ESS-Space-Systems-Payload-Project-Leader_R015484",
@@ -543,8 +546,7 @@
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/Space-Systems-Engineer_R015767-1",
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/Space-to-Ground-Systems-Integration-Engineer_R015686",
       "https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2026-Satellite-Communication-Systems-and-DSP-Engineer_R015438",
-      "https://aero.wd5.myworkdayjobs.com/external/job/Los-Angeles-AFB-CA/Satellite-Systems-Analyst_R015731",
-      "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Software-Integration-Engineer_R015738"
+      "https://aero.wd5.myworkdayjobs.com/external/job/Los-Angeles-AFB-CA/Satellite-Systems-Analyst_R015731"
     ]
   },
   {
@@ -592,7 +594,6 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -655,7 +656,8 @@
     "page": "https://airliquidehr.wd3.myworkdayjobs.com/wday/cxs/airliquidehr/airliquideexternalcareer/jobs",
     "urls": [
       "https://airliquidehr.wd3.myworkdayjobs.com/airliquideexternalcareer/job/Duncan-BC---2763-Beverly-St-RHS---Respiratory-therapy/Summer-Student---Clinical-Data-Intern_R10092846",
-      "https://airliquidehr.wd3.myworkdayjobs.com/airliquideexternalcareer/job/Kosi---ASU/Business-Developer--Application_R10071198"
+      "https://airliquidehr.wd3.myworkdayjobs.com/airliquideexternalcareer/job/Kosi---ASU/Business-Developer--Application_R10071198",
+      "https://airliquidehr.wd3.myworkdayjobs.com/airliquideexternalcareer/job/Chanhassen-MN---Manufacturing---AES/Software---Controls-Engineer_R10091817"
     ]
   },
   {
@@ -730,6 +732,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/709175",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/710853",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711064",
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711942",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/712903",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/713975",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/714581",
@@ -816,8 +819,7 @@
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729201",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729863",
       "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/729870",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370",
-      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/711942"
+      "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/U100370"
     ]
   },
   {
@@ -1124,13 +1126,13 @@
       "https://amazon.jobs/en/jobs/10462745",
       "https://amazon.jobs/en/jobs/10462787",
       "https://amazon.jobs/en/jobs/10462817",
+      "https://amazon.jobs/en/jobs/10463072",
+      "https://amazon.jobs/en/jobs/10463092",
+      "https://amazon.jobs/en/jobs/10463093",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10463072",
-      "https://amazon.jobs/en/jobs/10463092",
-      "https://amazon.jobs/en/jobs/10463093"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -1281,9 +1283,9 @@
     "urls": [
       "https://jobs.lever.co/anavationllc/50a8c2a3-bfb0-4903-85cd-e91cc86d58ce/apply",
       "https://jobs.lever.co/anavationllc/78cd8ef9-4f72-4682-a5b7-9996d8df2de0",
+      "https://jobs.lever.co/anavationllc/91308b45-db4d-4f94-a006-0ca4aa668f89",
       "https://jobs.lever.co/anavationllc/b02e29da-415b-4eda-add4-2df4efb71290",
-      "https://jobs.lever.co/anavationllc/ea6f9f00-bc0a-4633-9735-4c5dfbdc3867",
-      "https://jobs.lever.co/anavationllc/91308b45-db4d-4f94-a006-0ca4aa668f89"
+      "https://jobs.lever.co/anavationllc/ea6f9f00-bc0a-4633-9735-4c5dfbdc3867"
     ]
   },
   {
@@ -1396,6 +1398,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5074043007?gh_jid=5074043007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5080387007?gh_jid=5080387007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5080710007?gh_jid=5080710007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/5081020007?gh_jid=5081020007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5081059007?gh_jid=5081059007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5082537007?gh_jid=5082537007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5083521007?gh_jid=5083521007",
@@ -1546,8 +1549,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5176752007?gh_jid=5176752007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5176775007?gh_jid=5176775007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5176781007?gh_jid=5176781007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5176782007?gh_jid=5176782007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5081020007?gh_jid=5081020007"
+      "https://boards.greenhouse.io/andurilindustries/jobs/5176782007?gh_jid=5176782007"
     ]
   },
   {
@@ -1899,7 +1901,12 @@
       "https://jobs.apple.com/en-us/details/200670469-0836/soc-hard-ip-characterization-product-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200670469-3543/soc-hard-ip-characterization-product-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200670524-0157/hardware-systems-design-electrical-engineer-iphone?team=HRDWR",
-      "https://jobs.apple.com/en-us/details/200670538-0836/hardware-systems-integration-engineer-airpods?team=HRDWR"
+      "https://jobs.apple.com/en-us/details/200670538-0836/hardware-systems-integration-engineer-airpods?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200670528-3956/software-engineer-ve?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200670528-0836/software-engineer-ve?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200670513-0836/safety-and-location-software-engineer?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200670523-3543/screening-integration-engineer-watch-software?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200670523-0836/screening-integration-engineer-watch-software?team=SFTWR"
     ]
   },
   {
@@ -1950,9 +1957,9 @@
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Intern---RTOS-development_J000699511-1",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Chennai-India/Embedded-Software-Engineer---Automotive-Systems_J000697823",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Chennai-India/Salesforce-Developer_J000695801",
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Reynosa-Mexico/CPE-Product-Engineer_J000694863",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Remote-Worksite/Linux-Engineer---Systems--Austin--TX-_J000694066",
-      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Remote-Worksite/Test-Automation-Technical-Leader---eLxr-Linux_J000695073",
-      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Reynosa-Mexico/CPE-Product-Engineer_J000694863"
+      "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Remote-Worksite/Test-Automation-Technical-Leader---eLxr-Linux_J000695073"
     ]
   },
   {
@@ -2554,24 +2561,26 @@
     "domain": "https://avav.wd1.myworkdayjobs.com/avav",
     "page": "https://avav.wd1.myworkdayjobs.com/wday/cxs/avav/avav/jobs",
     "urls": [
+      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Hardware-Technician---Test-Automation_7918",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Jr-Systems-Engineer---Space-Technologies_7817",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Systems-Engineer---Space-Technologies_7123",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Eubank-Boulevard-Southeast-Albuquerque-NM/Systems-Administrator---Network-Security_7684",
       "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Lagoon-Ave-Minneapolis-MN/Software-Engineer_7460",
       "https://avav.wd1.myworkdayjobs.com/avav/job/1613-NW-136th-Avenue-Sunrise-FL/Platform-Software-Engineer_7497",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Software-Test-Engineer-Intern_8033",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Petaluma-CA/Chief-Engineer--Systems_8034",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Vandenberg-SFB/Systems-Engineer-Jr_8038",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/4920-Harrison-Street-Pittsburgh-PA/Software-Engineer---Robotics-Generalist_7825",
       "https://avav.wd1.myworkdayjobs.com/avav/job/410-Jan-Davis-Drive-NorthWest-Huntsville-AL/Product-Engineer---NGCM_7761",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Annapolis-Junction-MD/Software-Engineer--Full-Stack-_8004",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Full-Stack-Software-Engineer_8018",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-QA-Automation-Engineer-I_7976",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Development-Engineer--Sr--DevOps-_7493",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Engineering-Development-Technician-IV_7673",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Eubank-Boulevard-Southeast-Albuquerque-NM/Systems-Administrator---Network-Security_7684",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Systems-Engineer---Space-Technologies_7123",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Jr-Systems-Engineer---Space-Technologies_7817",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/4920-Harrison-Street-Pittsburgh-PA/Software-Engineer---Robotics-Generalist_7825",
       "https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Control-Systems-Engineer_7981",
-      "https://avav.wd1.myworkdayjobs.com/avav/job/1300-Britt-Street-Southeast-Albuquerque-NM/Hardware-Technician---Test-Automation_7918"
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Software-Test-Engineer-Intern_8033",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Annapolis-Junction-MD/Software-Engineer--Full-Stack-_8004",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Dayton-OH/Entry-Level-Software-Engineer_8010",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Full-Stack-Software-Engineer_8018",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Development-Engineer--Sr--DevOps-_7493",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-QA-Automation-Engineer-I_7976",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Petaluma-CA/Chief-Engineer--Systems_8034",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Engineering-Development-Technician-IV_7673",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Vandenberg-SFB/Systems-Engineer-Jr_8038",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/HADES--Hybrid-Architecture-and-Development-for-Experimental-Systems--Opportunities_7967",
+      "https://avav.wd1.myworkdayjobs.com/avav/job/7535-Metropolitan-Drive-San-Diego--CA/Product-Engineer_7771-1"
     ]
   },
   {
@@ -2742,6 +2751,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/FMS-SATCOM-PNT-System-Engineer_R0238869",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Full-Stack-Software-Engineer--Mid_R0243316",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/IT-Approval-System-Support-Administrator_R0242000",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/OT---Defense-Critical-Infrastructure-Cybersecurity-Engineer_R0243430",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/ServiceNow-Developer_R0242062",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Software-Engineer_R0242035",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/System-Safety-Engineer--Mid_R0243556",
@@ -2760,6 +2770,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Belcamp-MD/Data-Engineer_R0243265",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Cambridgeshire/Targeting-Systems-Analyst_R0242660-1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Camp-Pendleton-CA/Tactical-Fires-Network-Systems-Analyst_R0243376",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Chantilly-VA/Kubernetes-Platform-Engineer_R0242275",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Chantilly-VA/Web-Application-Quality-Assurance---Test-Engineer_R0243383",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charlottesville-VA/Cloud-Security-Engineer_R0243392",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Charlottesville-VA/Network-Development-Analyst--Mid_R0243391",
@@ -2770,6 +2781,8 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/Full-Stack-Software-Engineer--Mid_R0243289",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/Remote-Sensing-Software-Engineer_R0243285-1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/Remote-Sensing-Software-Engineer_R0243286",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Edgewood-MD/Data-Scientist---365-Developer_R0243435",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Edgewood-MD/Data-Visualization-Specialist_R0243438",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/Hardware-Engineer--Mid_R0242254",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/Systems-Test-Engineer_R0243282-1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/Special-Missions-Software-Engineer_R0236984",
@@ -2779,15 +2792,18 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/Counter-Unmanned-Aircraft-System-Training-Integrator_R0243296-1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/Data-Analyst_R0238065-1",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Houston-TX/Human-Spaceflight-Systems-Engineer--Mid_R0240506",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lanham-MD/Data-Migration-Engineer_R0243211",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Manassas-VA/TAK-Developer_R0241546",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-ML-Engineer_R0243237",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Computer-Vision-AI-Engineer_R0243369",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Data-Engineer--Mid_R0236780",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Software-Development-Engineer_R0243339",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Software-Engineer_R0243267",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/TAK-Developer_R0243395",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Vellox-Product-Designer_R0243056",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Nellis-AFB-NV/Data-Engineer_R0243381",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Panama-City-FL/System-Administrator_R0240889",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Quantico-VA/Maven-Smart-System-Trainer_R0243444",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Reston-VA/Data-Scientist--Mid_R0243379",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/Software-Engineer_R0240881",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/Software-Engineer_R0243328",
@@ -2801,6 +2817,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Mid_R0241184",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Software-Engineer_R0240278",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Software-Engineer_R0241787",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Unmanned-Systems-Software-Developer_R0243439",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Stafford-VA/Data-Scientist_R0237900",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Stuttgart-Baden-Wurttemberg/Full-Stack-Developer_R0243185",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Warner-Robins-GA/Information-System-Security-Officer_R0242841",
@@ -2808,15 +2825,7 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Data-Scientist--Mid_R0243318",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Security-Architecture-and-Infrastructure-Engineer_R0243547",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Wright-Patterson-AFB-OH/Information-Systems-Security-Officer--Mid_R0242979",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Wright-Patterson-AFB-OH/Information-Systems-Security-Officer--Mid_R0243295",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Unmanned-Systems-Software-Developer_R0243439",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/TAK-Developer_R0243395",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Edgewood-MD/Data-Visualization-Specialist_R0243438",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Quantico-VA/Maven-Smart-System-Trainer_R0243444",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Edgewood-MD/Data-Scientist---365-Developer_R0243435",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/OT---Defense-Critical-Infrastructure-Cybersecurity-Engineer_R0243430",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lanham-MD/Data-Migration-Engineer_R0243211",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Chantilly-VA/Kubernetes-Platform-Engineer_R0242275"
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Wright-Patterson-AFB-OH/Information-Systems-Security-Officer--Mid_R0243295"
     ]
   },
   {
@@ -3226,7 +3235,9 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/benchling",
     "urls": [
       "https://jobs.ashbyhq.com/benchling/259613a6-686a-4756-82fd-e653d53e9904",
-      "https://jobs.ashbyhq.com/benchling/b735b396-2b57-4c24-a478-ac9ad1de6510"
+      "https://jobs.ashbyhq.com/benchling/b735b396-2b57-4c24-a478-ac9ad1de6510",
+      "https://jobs.ashbyhq.com/benchling/53bb40c8-3e10-4a9d-9d47-017292ab7d20",
+      "https://jobs.ashbyhq.com/benchling/79c10e1c-93c5-4ad2-ac9b-01a0aa64c876"
     ]
   },
   {
@@ -3516,10 +3527,10 @@
       "https://bmo.wd3.myworkdayjobs.com/external/job/REMOTETELETRAVAIL-ON-CAN/Penetration-Tester---Networks-and-Cloud_R260018923",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/AWS-Data-Engineer_R260017886",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Agentic-AI-Engineer_R260010125",
+      "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Cloud-Application-Developer----AWS---Banking--Payment-Systems-_R260005483",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Network-Tools-Engineer-and-Automation-Specialist_R260016802",
       "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Security-Automation-Engineer--Autonomous-Workflow-_R260017808",
-      "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Software-Developer----Java---Linux---AWS---Wire-Payments-_R250030480-1",
-      "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Cloud-Application-Developer----AWS---Banking--Payment-Systems-_R260005483"
+      "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Software-Developer----Java---Linux---AWS---Wire-Payments-_R250030480-1"
     ]
   },
   {
@@ -3585,6 +3596,7 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Berkeley-MO/Software-Engineer-Developer--Development-_JR2026516138-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Daytona-Beach-FL/Associate-Product-Support-Engineering-Data-Specialist_JR2026515149-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Entry-Level-Systems-Engineer--Digital-Comm---Networks-Sys-Engrg-_JR2026510769-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Experienced-Satellite-Electrical-Power-and-Harness-Systems-Engineer_JR2026510996-2",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Spacecraft-Thermal-Engineer--Mid-Career----Millennium-Space-Systems_JR2026511637",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Everett-WA/Quality-Systems-Specialist_JR2026514543-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Fairfax-VA/DevSecOps-Software-Engineer_JR2026511998-1",
@@ -3611,9 +3623,8 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---San-Antonio-TX/Product-Review-Engineers---Entry-and-Associate-Level-_JR2026515192",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Seal-Beach-CA/Technical-Product-Delivery-Specialist--Entry-Level-_JR2026516992-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Seattle-WA/Experienced-Product-Security-Engineer_JR2026514792-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---West-Jordan-UT/Product-Acceptance-Specialist_JR2026516995-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---El-Segundo-CA/Experienced-Satellite-Electrical-Power-and-Harness-Systems-Engineer_JR2026510996-2",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Experienced-Quality-Systems-Specialist_JR2026515889-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Experienced-Quality-Systems-Specialist_JR2026515889-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---West-Jordan-UT/Product-Acceptance-Specialist_JR2026516995-1"
     ]
   },
   {
@@ -3987,7 +3998,8 @@
       "https://jobs.smartrecruiters.com/BoschGroup/744000135044201",
       "https://jobs.smartrecruiters.com/BoschGroup/744000135051440",
       "https://jobs.smartrecruiters.com/BoschGroup/744000135060309",
-      "https://jobs.smartrecruiters.com/BoschGroup/744000135068136"
+      "https://jobs.smartrecruiters.com/BoschGroup/744000135068136",
+      "https://jobs.smartrecruiters.com/BoschGroup/744000135140324"
     ]
   },
   {
@@ -4286,6 +4298,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineer_327901",
       "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Software-Engineer_328241",
       "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Sr-Full-Stack-Software-Developer_328322",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Fairfax-VA-US/Cybersecurity-Software-Engineer_328431",
       "https://caci.wd1.myworkdayjobs.com/external/job/Fairfax-VA-US/Full-Stack-and-Training-Developer_328298",
       "https://caci.wd1.myworkdayjobs.com/external/job/Fayetteville-NC-US/AI-and-Workflow-Automation-Developer_328176",
       "https://caci.wd1.myworkdayjobs.com/external/job/Florham-Park-NJ-US/Cyber-Software-Engineer_327694-1",
@@ -4337,6 +4350,7 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Power-Apps-Developer_328382",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/ServiceNow-Developer_328177",
       "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Systems-Administrator---TAK--Team-Awareness-Kit-_328310",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Systems-Administrator-Engineer_327585-1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Full-Stack-Web-Development-Software-Engineer_326805",
       "https://caci.wd1.myworkdayjobs.com/external/job/Riverside-CA-US/Configuration-Data-Management-Representative_325225",
       "https://caci.wd1.myworkdayjobs.com/external/job/San-Antonio-TX-US/Academic-Developer---Modernized-Pararescue-Provider-Program--MP3-_328329",
@@ -4360,8 +4374,8 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Wright-Patterson-AFB-OH-US/Digital-Training-Implementation-Agile-Coach-Specialist_326947",
       "https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer_327046",
       "https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer_328282",
-      "https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Systems-Administrator-Engineer_327585-1",
-      "https://caci.wd1.myworkdayjobs.com/external/job/Fairfax-VA-US/Cybersecurity-Software-Engineer_328431"
+      "https://caci.wd1.myworkdayjobs.com/external/job/Aberdeen-Proving-Ground-MD-US/Computer-Systems-Analyst-4_328127",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Camp-Smith-HI-US/Systems-and-Software-Developer-4_328321"
     ]
   },
   {
@@ -5583,13 +5597,13 @@
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/Digital-Product-Owner--Fleet-Management_R0000379555",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/Product-Application-Specialist_R0000366372-1",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/Software-Engineer_R0000375739",
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/XMLNAME-2027-Leadership---Technical-Development-Program--LTDP----Procurement_R0000380148",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peterborough-United-Kingdom/Data-Scientist-Engineer_R0000378353",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peterborough-United-Kingdom/Research-and-Development-Technician_R0000378365",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Qingdao-Shandong/Embedded-Software-Engineer_R0000364432",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Sao-Paulo-So-Paulo/Product-Service-Specialist--Fixed-term-_R0000356330",
       "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Embedded-Software-Linux-Engineer_R0000375889",
-      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Software-Engineer_R0000375101",
-      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/XMLNAME-2027-Leadership---Technical-Development-Program--LTDP----Procurement_R0000380148"
+      "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Wuxi-Jiangsu/Software-Engineer_R0000375101"
     ]
   },
   {
@@ -5736,8 +5750,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/cerebras",
     "urls": [
-      "https://jobs.ashbyhq.com/cerebras/7fe218a3-7b69-4491-9042-a178fc304659",
-      "https://jobs.ashbyhq.com/cerebras/20010f8f-5ede-469a-b432-c38dc223e11c"
+      "https://jobs.ashbyhq.com/cerebras/20010f8f-5ede-469a-b432-c38dc223e11c",
+      "https://jobs.ashbyhq.com/cerebras/7fe218a3-7b69-4491-9042-a178fc304659"
     ]
   },
   {
@@ -6637,8 +6651,8 @@
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Remote---California/Manheim-Mobile-Vehicle-Inspector-North-Hollywood--Van-Nuys_R202679440",
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Salt-Lake-City-UT/Mobile-Technician-Leader_R202677286",
       "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/San-Francisco-CA/Supervisor--Manheim-Mobile-Inspections--San-Francisco-Bay-Area--CA_R202676923-1",
-      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Worcester-MA/Mobile-Technician-Leader_R202678408",
-      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Troy-MI/Mobile-Technician-Leader_R202679484-1"
+      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Troy-MI/Mobile-Technician-Leader_R202679484-1",
+      "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Worcester-MA/Mobile-Technician-Leader_R202678408"
     ]
   },
   {
@@ -6737,7 +6751,9 @@
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer--Cloud---Provisioning-Platform--Hybrid-_R29021",
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Software-Engineer---Cloud--Hybrid-_R28302",
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Software-Engineer---Data-Platform--Hybrid--GBR-_R28894",
-      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Remote/Platform-Professional-Services--Consultant--Remote--GBR-_R29141"
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---Remote/Platform-Professional-Services--Consultant--Remote--GBR-_R29141",
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Software-Engineer--Front-End---Policy--Hybrid-_R29041",
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Software-Engineer--Cloud-Backend---Policy--Hybrid-_R29043"
     ]
   },
   {
@@ -6829,6 +6845,7 @@
     "page": "https://cvshealth.wd1.myworkdayjobs.com/wday/cxs/cvshealth/cvs_health_careers/jobs",
     "urls": [
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/AZ---Scottsdale/Software-Development-Engineer_R0942397",
+      "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/AZ---Work-from-home/Sr-Mgr--Application-Dev_R0941980",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CA---Canoga-Park/Pharmacy-Automation-Mechanic--Omnicare_R0919085",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Cloud-Engineer_R0942298",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Data-Engineer_R0942264",
@@ -6912,8 +6929,7 @@
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Richardson/Sr-Software-Development-Engineer_R0942500",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/TX---Work-from-home/Sr-Software-Development-Engineer---AI-Engineering_R0954698",
       "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/VA---Richmond/Pharmacy-Technician--Back-End-Full-Time_R0915452",
-      "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/Work-At-Home-Massachusetts/Software-Development-Engineer---Java_R0911264",
-      "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/AZ---Work-from-home/Sr-Mgr--Application-Dev_R0941980"
+      "https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/Work-At-Home-Massachusetts/Software-Development-Engineer---Java_R0911264"
     ]
   },
   {
@@ -7023,7 +7039,34 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs",
     "urls": [
       "https://databricks.com/company/careers/open-positions/job?gh_jid=8330188002",
-      "https://databricks.com/company/careers/open-positions/job?gh_jid=8603398002"
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8603398002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8574655002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8298792002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8423165002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8423158002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8476506002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8554531002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8488399002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8486165002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8012658002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8012691002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8029677002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8341810002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8345074002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8220814002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8493170002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8512856002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8582459002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+      "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002"
     ]
   },
   {
@@ -7169,7 +7212,8 @@
     "page": "https://dexcom.wd1.myworkdayjobs.com/wday/cxs/dexcom/dexcom/jobs",
     "urls": [
       "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/San-Diego-California/Sr-SW-Development-Engineer_JR117507",
-      "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/San-Diego-California/Sr-Software-Design-Assurance-Engineer_JR119114"
+      "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/San-Diego-California/Sr-Software-Design-Assurance-Engineer_JR119114",
+      "https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Software-QA-Engineer-1_JR118504"
     ]
   },
   {
@@ -7206,35 +7250,106 @@
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0407-Woodbury-MN/Team-Captain-Endzone---Loyalty--Front-End-_202616733",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0423-Flatiron-CO/Team-Captain-Endzone---Loyalty--Front-End-_202612410",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0438-Okemos-MI/Advisor-Endzone---Loyalty--Front-End-_202616435",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0646-West-Chesterfield-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617785",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0646-West-Chesterfield-VA/Teammate-Endzone---Loyalty--Front-End-_202617784-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0693-Westminster-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617794-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0693-Westminster-MD/Team-Captain-Endzone---Loyalty--Front-End-_202616311",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0693-Westminster-MD/Teammate-Endzone---Loyalty--Front-End-_202617793-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0694-Glen-Burnie-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617803-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0694-Glen-Burnie-MD/Teammate-Endzone---Loyalty--Front-End-_202617802",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0704-Jackson-TN/Teammate-Endzone---Loyalty--Front-End-_202616346",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0714-Alliance-TX/Team-Captain-Endzone---Loyalty--Front-End-_202617051",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0719-Manahawkin-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617812",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0719-Manahawkin-NJ/Teammate-Endzone---Loyalty--Front-End-_202617811-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0755-Austin-Bee-Cave-TX/Teammate-Endzone---Loyalty--Front-End-_202616752-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0763-Dover-DE/Advisor---Endzone-and-Loyalty--Front-End-_202617821-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0763-Dover-DE/Teammate-Endzone---Loyalty--Front-End-_202617820-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0772-Crofton-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617830-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0772-Crofton-MD/Team-Captain-Endzone---Loyalty--Front-End-_202616681",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0772-Crofton-MD/Teammate-Endzone---Loyalty--Front-End-_202617829-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0798-Martinsburg-WV/Advisor---Endzone-and-Loyalty--Front-End-_202617839",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0798-Martinsburg-WV/Teammate-Endzone---Loyalty--Front-End-_202617838-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0921-West-Covina-CA/Advisor-Endzone---Loyalty--Front-End-_202616782",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0932-Pasadena-CA/Team-Captain-Endzone---Loyalty--Front-End-_202611833",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1027-Hanover-MA/Team-Captain-Endzone---Loyalty--Front-End-_202616597-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1028-Harrisonburg-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617848-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1028-Harrisonburg-VA/Teammate-Endzone---Loyalty--Front-End-_202617847-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1062-El-Paso-TX/Team-Captain-Endzone---Loyalty--Front-End-_202616321",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1076-Las-Cruces-NM/Team-Captain-Endzone---Loyalty--Front-End-_202611691",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1086-South-County-MO/Team-Captain-Endzone---Loyalty--Front-End-_202612396",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1093-Colonial-Heights-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617857-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1093-Colonial-Heights-VA/Teammate-Endzone---Loyalty--Front-End-_202617856-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1096-Easton-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617866-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1108-South-Plainfield-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617875-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1112-South-Asheville-NC/Advisor---Endzone-and-Loyalty--Front-End-_202617885-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1112-South-Asheville-NC/Teammate-Endzone---Loyalty--Front-End-_202617884-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1127-Stroudsburg-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617895-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1127-Stroudsburg-PA/Teammate-Endzone---Loyalty--Front-End-_202617894-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1141-Springfield-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617904-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1141-Springfield-VA/Teammate-Endzone---Loyalty--Front-End-_202617903-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1144-North-Wilmington-NC/Team-Captain-Endzone---Loyalty--Front-End-_202611085-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1147-Livonia-MI/Team-Captain-Endzone---Loyalty--Front-End-_202616638",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1169-Trexlertown-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617913-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1169-Trexlertown-PA/Teammate-Endzone---Loyalty--Front-End-_202617912-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1171-Parma-OH/Advisor-Endzone---Loyalty--Front-End-_202617177",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1171-Parma-OH/Team-Captain-Endzone---Loyalty--Front-End-_202617182",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1173-Arcola-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617922-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1173-Arcola-VA/Teammate-Endzone---Loyalty--Front-End-_202617921",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1206-Winchester-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617931-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1206-Winchester-VA/Team-Captain-Endzone---Loyalty--Front-End-_202611251-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1206-Winchester-VA/Teammate-Endzone---Loyalty--Front-End-_202617930-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1226-Leesburg-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617940",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1226-Leesburg-VA/Teammate-Endzone---Loyalty--Front-End-_202617939-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1261-Brownsville-TX/Team-Captain-Endzone---Loyalty--Front-End-_202612302",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1276-Dakota-Crossing-DC/Advisor---Endzone-and-Loyalty--Front-End-_202617949-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1276-Dakota-Crossing-DC/Teammate-Endzone---Loyalty--Front-End-_202617948",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1294-Lancaster-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617958-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1294-Lancaster-PA/Teammate-Endzone---Loyalty--Front-End-_202617957-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1301-Lees-Summit-MO/Team-Captain-Endzone---Loyalty--Front-End-_202616388",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1302-Vineland-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617967",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1302-Vineland-NJ/Teammate-Endzone---Loyalty--Front-End-_202617966-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1306-Morristown-TN/Advisor---Endzone-and-Loyalty--Front-End-_202617976-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1306-Morristown-TN/Teammate-Endzone---Loyalty--Front-End-_202617975",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1322-Ellicott-City-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617985-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1322-Ellicott-City-MD/Teammate-Endzone---Loyalty--Front-End-_202617984-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1323-Richmond-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617994-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1323-Richmond-VA/Front-End-Team-Captain_202616535",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1323-Richmond-VA/Teammate-Endzone---Loyalty--Front-End-_202617993-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1333-West-Harrisburg-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618003-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1333-West-Harrisburg-PA/Teammate-Endzone---Loyalty--Front-End-_202618002-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1341-West-Long-Branch-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618012-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1341-West-Long-Branch-NJ/Teammate-Endzone---Loyalty--Front-End-_202618011-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1347-Northridge-CA/Team-Captain-Endzone---Loyalty--Front-End-_202611765",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1363-Schererville-IN/Team-Captain-Endzone---Loyalty--Front-End-_202611225",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1373-Plymouth-Meeting-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618021-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1373-Plymouth-Meeting-PA/Teammate-Endzone---Loyalty--Front-End-_202618020-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1374-Beaumont-TX/Teammate-Endzone---Loyalty--Front-End-_202612393",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1379-Deptford-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618030-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1379-Deptford-NJ/Teammate-Endzone---Loyalty--Front-End-_202618029-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1390-Hagerstown-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618039-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1390-Hagerstown-MD/Teammate-Endzone---Loyalty--Front-End-_202618038-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1417-Col-Mills-Golden-CO/Team-Captain-Endzone---Loyalty--Front-End-_202616306",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1503-Lynchburg-VA/Team-Captain-Endzone---Loyalty--Front-End-_202610922",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1506-Annapolis-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618048-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1506-Annapolis-MD/Teammate-Endzone---Loyalty--Front-End-_202618047-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1508-Grand-Junction-CO/Team-Captain-Endzone---Loyalty--Front-End-_202616728",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1520-Hartford-CT/Team-Captain-Endzone---Loyalty--Front-End-_202616444",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1534-Bel-Air-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618057-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1534-Bel-Air-MD/Teammate-Endzone---Loyalty--Front-End-_202618056-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1591-Prosper-TX/Team-Captain-Endzone---Loyalty--Front-End-_202612402",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1595-Pottstown-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618066-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1595-Pottstown-PA/Teammate-Endzone---Loyalty--Front-End-_202618065-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1624-Towson-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618075",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1624-Towson-MD/Teammate-Endzone---Loyalty--Front-End-_202618074-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1681-Union-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618166",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1681-Union-NJ/Teammate-Endzone---Loyalty--Front-End-_202618165-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1686-Niles-OH/Advisor---Endzone-and-Loyalty--Front-End-_202616251-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1686-Niles-OH/Teammate-Endzone---Loyalty--Front-End-_202616250-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4408-Hagerstown-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618084-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4408-Hagerstown-MD/Team-Captain-Endzone---Loyalty--Front-End-_202616710",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4408-Hagerstown-MD/Teammate-Endzone---Loyalty--Front-End-_202618083-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4410-Franklin-Mills-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618093-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4410-Franklin-Mills-PA/Teammate-Endzone---Loyalty--Front-End-_202618092-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4433-Royal-Palm-Beach-FL/Advisor---Endzone-and-Loyalty--Front-End-_202615949-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4434-North-Hills-PA/Advisor---Endzone-and-Loyalty--Front-End-_202615958-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4435-Knoxville-TN/Advisor---Endzone-and-Loyalty--Front-End-_202615967-1",
@@ -7244,6 +7359,8 @@
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4440-Syracuse-NY/Advisor---Endzone-and-Loyalty--Front-End-_202616004-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4442-Oklahoma-City-OK/Advisor---Endzone-and-Loyalty--Front-End-_202616013-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4445-Aberdeen-NC/Advisor---Endzone-and-Loyalty--Front-End-_202616022-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4447-Freehold-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618102-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4447-Freehold-NJ/Teammate-Endzone---Loyalty--Front-End-_202618101-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4449-Niagara-NY/Advisor---Endzone-and-Loyalty--Front-End-_202616031-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4453-Bridgeville-PA/Advisor---Endzone-and-Loyalty--Front-End-_202616040-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4453-Bridgeville-PA/Teammate-Endzone---Loyalty--Front-End-_202616039-1",
@@ -7253,6 +7370,8 @@
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4455-Dallas-TX/Teammate-Endzone---Loyalty--Front-End-_202616060-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4456-Akron-OH/Advisor---Endzone-and-Loyalty--Front-End-_202616071-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4456-Akron-OH/Teammate-Endzone---Loyalty--Front-End-_202616070-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4458-Deptford-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618111-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4458-Deptford-NJ/Teammate-Endzone---Loyalty--Front-End-_202618110-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4610-Easton-OH/Advisor---Endzone-and-Loyalty--Front-End-_202616080-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4610-Easton-OH/Teammate-Endzone---Loyalty--Front-End-_202616079-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4626-Florence-AL/Advisor---Endzone-and-Loyalty--Front-End-_202616089-1",
@@ -7267,10 +7386,18 @@
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5206-Clermont-FL/Teammate-Endzone---Loyalty--Front-End-_202616124-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5208-Lake-Nona-FL/Advisor---Endzone-and-Loyalty--Front-End-_202616134-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5208-Lake-Nona-FL/Teammate-Endzone---Loyalty--Front-End-_202616133-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5434-Virginia-Beach-VA/Advisor---Endzone-and-Loyalty--Front-End-_202618120-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5434-Virginia-Beach-VA/Teammate-Endzone---Loyalty--Front-End-_202618119-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5444-Cherry-Hill-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618130",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5444-Cherry-Hill-NJ/Teammate-Endzone---Loyalty--Front-End-_202618129-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5445-King-of-Prussia-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618139-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5445-King-of-Prussia-PA/Teammate-Endzone---Loyalty--Front-End-_202618138-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5451-Greenwood-IN/Advisor---Endzone-and-Loyalty--Front-End-_202616143-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5451-Greenwood-IN/Teammate-Endzone---Loyalty--Front-End-_202616142-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5452-Albany-NY/Advisor---Endzone-and-Loyalty--Front-End-_202616152-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5452-Albany-NY/Teammate-Endzone---Loyalty--Front-End-_202616151-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5467-Rockville-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618148-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5467-Rockville-MD/Teammate-Endzone---Loyalty--Front-End-_202618147-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5470-Bainbridge-OH/Advisor---Endzone-and-Loyalty--Front-End-_202616161-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5470-Bainbridge-OH/Teammate-Endzone---Loyalty--Front-End-_202616160-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5472-Hoover-AL/Advisor---Endzone-and-Loyalty--Front-End-_202616170-1",
@@ -7287,95 +7414,21 @@
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5483-Baybrook-TX/Teammate-Endzone---Loyalty--Front-End-_202616214-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5484-Fayetteville-NC/Advisor---Endzone-and-Loyalty--Front-End-_202616224-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5484-Fayetteville-NC/Teammate-Endzone---Loyalty--Front-End-_202616223-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5486-Scranton-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618157-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5486-Scranton-PA/Teammate-Endzone---Loyalty--Front-End-_202618156",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5487-Vestal-NY/Advisor---Endzone-and-Loyalty--Front-End-_202616233-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5487-Vestal-NY/Teammate-Endzone---Loyalty--Front-End-_202616232-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5490-Terre-Haute-IN/Advisor---Endzone-and-Loyalty--Front-End-_202616242-1",
       "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5490-Terre-Haute-IN/Teammate-Endzone---Loyalty--Front-End-_202616241-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0921-West-Covina-CA/Advisor-Endzone---Loyalty--Front-End-_202616782",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4410-Franklin-Mills-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618093-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4447-Freehold-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618102-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4458-Deptford-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618111-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5434-Virginia-Beach-VA/Advisor---Endzone-and-Loyalty--Front-End-_202618120-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5444-Cherry-Hill-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618130",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5445-King-of-Prussia-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618139-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5467-Rockville-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618148-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5486-Scranton-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618157-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1681-Union-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618166",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4447-Freehold-NJ/Teammate-Endzone---Loyalty--Front-End-_202618101-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4458-Deptford-NJ/Teammate-Endzone---Loyalty--Front-End-_202618110-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5434-Virginia-Beach-VA/Teammate-Endzone---Loyalty--Front-End-_202618119-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5444-Cherry-Hill-NJ/Teammate-Endzone---Loyalty--Front-End-_202618129-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5445-King-of-Prussia-PA/Teammate-Endzone---Loyalty--Front-End-_202618138-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5467-Rockville-MD/Teammate-Endzone---Loyalty--Front-End-_202618147-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store5486-Scranton-PA/Teammate-Endzone---Loyalty--Front-End-_202618156",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1681-Union-NJ/Teammate-Endzone---Loyalty--Front-End-_202618165-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1323-Richmond-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617994-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1333-West-Harrisburg-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618003-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1341-West-Long-Branch-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618012-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1373-Plymouth-Meeting-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618021-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1379-Deptford-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202618030-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1390-Hagerstown-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618039-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1506-Annapolis-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618048-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1534-Bel-Air-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618057-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1595-Pottstown-PA/Advisor---Endzone-and-Loyalty--Front-End-_202618066-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1624-Towson-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618075",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4408-Hagerstown-MD/Advisor---Endzone-and-Loyalty--Front-End-_202618084-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1323-Richmond-VA/Teammate-Endzone---Loyalty--Front-End-_202617993-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1333-West-Harrisburg-PA/Teammate-Endzone---Loyalty--Front-End-_202618002-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1341-West-Long-Branch-NJ/Teammate-Endzone---Loyalty--Front-End-_202618011-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1373-Plymouth-Meeting-PA/Teammate-Endzone---Loyalty--Front-End-_202618020-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1379-Deptford-NJ/Teammate-Endzone---Loyalty--Front-End-_202618029-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1390-Hagerstown-MD/Teammate-Endzone---Loyalty--Front-End-_202618038-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1506-Annapolis-MD/Teammate-Endzone---Loyalty--Front-End-_202618047-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1534-Bel-Air-MD/Teammate-Endzone---Loyalty--Front-End-_202618056-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1595-Pottstown-PA/Teammate-Endzone---Loyalty--Front-End-_202618065-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1624-Towson-MD/Teammate-Endzone---Loyalty--Front-End-_202618074-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4408-Hagerstown-MD/Teammate-Endzone---Loyalty--Front-End-_202618083-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store4410-Franklin-Mills-PA/Teammate-Endzone---Loyalty--Front-End-_202618092-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1112-South-Asheville-NC/Advisor---Endzone-and-Loyalty--Front-End-_202617885-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1127-Stroudsburg-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617895-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1141-Springfield-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617904-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1169-Trexlertown-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617913-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1173-Arcola-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617922-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1206-Winchester-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617931-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1226-Leesburg-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617940",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1276-Dakota-Crossing-DC/Advisor---Endzone-and-Loyalty--Front-End-_202617949-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1294-Lancaster-PA/Advisor---Endzone-and-Loyalty--Front-End-_202617958-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1302-Vineland-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617967",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1306-Morristown-TN/Advisor---Endzone-and-Loyalty--Front-End-_202617976-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1322-Ellicott-City-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617985-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1112-South-Asheville-NC/Teammate-Endzone---Loyalty--Front-End-_202617884-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1127-Stroudsburg-PA/Teammate-Endzone---Loyalty--Front-End-_202617894-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1141-Springfield-VA/Teammate-Endzone---Loyalty--Front-End-_202617903-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1169-Trexlertown-PA/Teammate-Endzone---Loyalty--Front-End-_202617912-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1173-Arcola-VA/Teammate-Endzone---Loyalty--Front-End-_202617921",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1206-Winchester-VA/Teammate-Endzone---Loyalty--Front-End-_202617930-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1226-Leesburg-VA/Teammate-Endzone---Loyalty--Front-End-_202617939-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1276-Dakota-Crossing-DC/Teammate-Endzone---Loyalty--Front-End-_202617948",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1294-Lancaster-PA/Teammate-Endzone---Loyalty--Front-End-_202617957-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1302-Vineland-NJ/Teammate-Endzone---Loyalty--Front-End-_202617966-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1306-Morristown-TN/Teammate-Endzone---Loyalty--Front-End-_202617975",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1322-Ellicott-City-MD/Teammate-Endzone---Loyalty--Front-End-_202617984-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0646-West-Chesterfield-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617785",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0693-Westminster-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617794-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0694-Glen-Burnie-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617803-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0719-Manahawkin-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617812",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0763-Dover-DE/Advisor---Endzone-and-Loyalty--Front-End-_202617821-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0772-Crofton-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617830-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0798-Martinsburg-WV/Advisor---Endzone-and-Loyalty--Front-End-_202617839",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1028-Harrisonburg-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617848-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1093-Colonial-Heights-VA/Advisor---Endzone-and-Loyalty--Front-End-_202617857-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1096-Easton-MD/Advisor---Endzone-and-Loyalty--Front-End-_202617866-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1108-South-Plainfield-NJ/Advisor---Endzone-and-Loyalty--Front-End-_202617875-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0646-West-Chesterfield-VA/Teammate-Endzone---Loyalty--Front-End-_202617784-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0693-Westminster-MD/Teammate-Endzone---Loyalty--Front-End-_202617793-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0694-Glen-Burnie-MD/Teammate-Endzone---Loyalty--Front-End-_202617802",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0719-Manahawkin-NJ/Teammate-Endzone---Loyalty--Front-End-_202617811-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0763-Dover-DE/Teammate-Endzone---Loyalty--Front-End-_202617820-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0772-Crofton-MD/Teammate-Endzone---Loyalty--Front-End-_202617829-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0798-Martinsburg-WV/Teammate-Endzone---Loyalty--Front-End-_202617838-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1028-Harrisonburg-VA/Teammate-Endzone---Loyalty--Front-End-_202617847-1",
-      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1093-Colonial-Heights-VA/Teammate-Endzone---Loyalty--Front-End-_202617856-1"
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0674-Salem-OR/Advisor-Endzone---Loyalty--Front-End-_202617285",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0312-Oswego-IL/Team-Captain-Endzone---Loyalty--Front-End-_202618218",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store0674-Salem-OR/Teammate-Endzone---Loyalty--Front-End-_202617298-1",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1070-Salinas-CA/Teammate-Endzone---Loyalty--Front-End-_202616837",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1070-Salinas-CA/Teammate-Endzone---Loyalty--Front-End-_202616836",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1331-Bellevue-WA/Teammate-Endzone---Loyalty--Front-End-_202616667",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1240-Olympia-WA/Advisor-Endzone---Loyalty--Front-End-_202616777",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1416-Milpitas-CA/Teammate-Endzone---Loyalty--Front-End-_202616737",
+      "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Store1416-Milpitas-CA/Teammate-Endzone---Loyalty--Front-End-_202616703"
     ]
   },
   {
@@ -7608,7 +7661,8 @@
       "https://job-boards.greenhouse.io/doordashusa/jobs/8001494",
       "https://job-boards.greenhouse.io/doordashusa/jobs/8013249",
       "https://job-boards.greenhouse.io/doordashusa/jobs/8024408",
-      "https://job-boards.greenhouse.io/doordashusa/jobs/8024644"
+      "https://job-boards.greenhouse.io/doordashusa/jobs/8024644",
+      "https://job-boards.greenhouse.io/doordashusa/jobs/7733002"
     ]
   },
   {
@@ -8340,7 +8394,8 @@
       "https://equifax.wd5.myworkdayjobs.com/external/job/IND-Trivandrum-Equifax-Analytics-PEC/PEC-Leader---Software-Engineering_J00176979-1",
       "https://equifax.wd5.myworkdayjobs.com/external/job/IND-Trivandrum-Equifax-Analytics-PEC/Sr-Software-Developer_J00177728",
       "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Georgia---Alpharetta---30005/Software-Engineer-Specialist_J00176806",
-      "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Software-Engineer---Intermediate_J00176451"
+      "https://equifax.wd5.myworkdayjobs.com/external/job/USA---Missouri---St-Louis---Lackland/Software-Engineer---Intermediate_J00176451",
+      "https://equifax.wd5.myworkdayjobs.com/external/job/USA-Missouri---St-Louis---Clayton/Financial-Data-Engineer_J00177898"
     ]
   },
   {
@@ -8354,7 +8409,8 @@
       "https://equinix.wd1.myworkdayjobs.com/external/job/El-Segundo/Data-Center-Critical-Facilities-IV_JR-160701",
       "https://equinix.wd1.myworkdayjobs.com/external/job/LD11A-London/Data-Center-Critical-Facilities-Engineer-IV_JR-161875",
       "https://equinix.wd1.myworkdayjobs.com/external/job/Munich/Data-Center-Critical-Facilities-V_JR-161889",
-      "https://equinix.wd1.myworkdayjobs.com/external/job/Singapore/Data-Center-Critical-Facilities-IV_JR-161546"
+      "https://equinix.wd1.myworkdayjobs.com/external/job/Singapore/Data-Center-Critical-Facilities-IV_JR-161546",
+      "https://equinix.wd1.myworkdayjobs.com/external/job/San-Jose/Data-Center-Critical-Facilities-Engineer_JR-161784-1"
     ]
   },
   {
@@ -8733,8 +8789,10 @@
       "https://jobs.smartrecruiters.com/Experian/744000135005299",
       "https://jobs.smartrecruiters.com/Experian/744000135007039",
       "https://jobs.smartrecruiters.com/Experian/744000135061290",
+      "https://jobs.smartrecruiters.com/Experian/744000135113259",
       "https://jobs.smartrecruiters.com/Experian/744000135113599",
-      "https://jobs.smartrecruiters.com/Experian/744000135113259"
+      "https://jobs.smartrecruiters.com/Experian/744000135120830",
+      "https://jobs.smartrecruiters.com/Experian/744000135121204"
     ]
   },
   {
@@ -9084,6 +9142,7 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/InterSystems-ObjectScript-Developer_R-10396746",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Product-Analyst--Advisor-I_R-10393603",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Senior-full-stack-Net-Developer_R-10383219",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Software-Development-Engineer-for-Implementations_R-10391719",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Buenos-Aires-Argentina/Dev-Java-Sr_R-10390709",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Buenos-Aires-Argentina/Manager-Software-Development_R-10390964",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Chennai-India/Business-System-Analyst_R-10391971",
@@ -9108,8 +9167,7 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/SDET-System-Integration-Tester-for-Android_R-10391875",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Sr-Full-Stack-Engineer_R-10393014",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Tokyo-Roppongi/UX-Designer--Japan_R-10383642",
-      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Toronto---200-Bay-Street/Software-Engineer_R-10394966",
-      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Berkeley-Heights-New-Jersey/Software-Development-Engineer-for-Implementations_R-10391719"
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Toronto---200-Bay-Street/Software-Engineer_R-10394966"
     ]
   },
   {
@@ -9347,7 +9405,8 @@
       "https://fox.wd1.myworkdayjobs.com/domestic/job/Los-Angeles-California-USA/Creative-Development-Associate_R50032978",
       "https://fox.wd1.myworkdayjobs.com/domestic/job/Los-Angeles-California-USA/Media-DevOps-Engineer_R50032863-1",
       "https://fox.wd1.myworkdayjobs.com/domestic/job/Los-Angeles-California-USA/Software-Developer_R50032803",
-      "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Developer--Back-End_R50032536"
+      "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Developer--Back-End_R50032536",
+      "https://fox.wd1.myworkdayjobs.com/domestic/job/USA---AZ---Tempe---2010-E-Centennial-Cir/Software-Engineer--Data-Products_R50032133"
     ]
   },
   {
@@ -9566,6 +9625,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-DC-Washington/Software-Developer--Mid---Active-Top-Secret-required_RQ221666-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-FL-MacDill-AFB/ServiceNow-Software-Engineer_RQ220543-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-HI-Camp-Smith/Full-Stack-Engineer-Junior_RQ220280-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-HI-Camp-Smith/Software-Engineer-SME_RQ223041-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Bossier-City/Software-Developer_RQ209828-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-LA-Bossier-City/UiPath-Robotic-Process-Automation-Developer-Associate_RQ218022",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Cloud-Engineer---TS-SCI-w-Poly_RQ213843",
@@ -9617,8 +9677,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-McLean/Software-Development---Data-Scientist-Clearance-Sponsorship_RQ215937-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Quantico/NCIS-SharePoint-Developer---Active-TS-SCI-clearance_RQ218256-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Hybrid-Cloud-Platform-Engineer_RQ218582-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-HI-Camp-Smith/Software-Engineer-SME_RQ223041-1"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1"
     ]
   },
   {
@@ -9998,9 +10057,9 @@
     "urls": [
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/IN-KA-BENGALURU-NORTHGATE--Sy-No-22-Venkatala-Village--SY-NO-22-VENKATALA-VILLAGE-Yelahanka-Hobli/Associate-Engineer-Data-Analyst-Hybrid-_01853645",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/XMLNAME-2026-Raytheon-Full-Time---Software-Effectors-Engineer-I---Tucson--AZ--Onsite-_01835713-1",
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-1---Engine-Indication---Crew-Alerting-Systems--Onsite-_01848535-2",
       "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-VA-ARLINGTON-1000--1000-Wilson-Blvd--WILSON-Fl-23/Leadership-Development-Program---Engineering--Software--Starts-June-2027-_01853289",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-VA-ARLINGTON-1000--1000-Wilson-Blvd--WILSON-Fl-23/Leadership-Development-Program---Engineering--Systems--Starts-June-2027-_01853288",
-      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-1---Engine-Indication---Crew-Alerting-Systems--Onsite-_01848535-2"
+      "https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-VA-ARLINGTON-1000--1000-Wilson-Blvd--WILSON-Fl-23/Leadership-Development-Program---Engineering--Systems--Starts-June-2027-_01853288"
     ]
   },
   {
@@ -10052,7 +10111,10 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB2--50-Apple-Hill-Dr--SUDBURY-BLDG-Tewksbury-Tb2-200-Sudbury/LTAMDS-Product-Chief-Engineer--Onsite-_01855316",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Embedded-Developer-LynxOS_01853639-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/XMLNAME-2026--Raytheon-Full-Time--Software-Engineer-I---Onsite-_01844143",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineer-I--Radar-Analyst-Onsite_01855455",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineer-I--String-Engineer-Onsite_01855457",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Information-System-Security-Officer--ISSO----Woburn--MA_01853291",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MS-PASCAGOULA-1000-CUST--1000-Access-Rd--ACCESS-External-Site/Computer-Infrastructure-Engineer--HII--Onsite_01856631",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NM-WHITE-SANDS-LC38--Bldg-23626-LC-38-Nike-Ave--BLDG-LC38-External-Site/Electrical-Software-Test-Equipment-Engineer-I--onsite-White-Sands--NM-_01854075",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NM-WHITE-SANDS-LC38--Bldg-23626-LC-38-Nike-Ave--BLDG-LC38-External-Site/Systems-Engineer_01855749",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-NY-BINGHAMTON-288--31-Lewis-Rd--LEWIS/Sr-Software-Engineer---Simulation_01853140",
@@ -10076,9 +10138,7 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-ARLINGTON-108--1100-Wilson-Blvd--ROSSLYN-HQ/Leadership-Development-Program---Engineering--Materials---Chemistry-Discipline--Starts-June-2027-_01853293-2",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-LANGLEY-AFB-CUST--586-Weyland-Rd--LANGLEY-AFB-External-Site/Lowband-Software-Support-Engineer--Onsite-_01830920",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineer-I--String-Engineer-Onsite_01855457",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Systems-Engineer-I--Radar-Analyst-Onsite_01855455",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MS-PASCAGOULA-1000-CUST--1000-Access-Rd--ACCESS-External-Site/Computer-Infrastructure-Engineer--HII--Onsite_01856631"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/New-Product-Introduction-Account-Specialist--Hybrid-_01855238"
     ]
   },
   {
@@ -11247,7 +11307,8 @@
     "domain": "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site",
     "page": "https://hiscox.wd3.myworkdayjobs.com/wday/cxs/hiscox/hiscox_external_site/jobs",
     "urls": [
-      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/System-Analyst_R0019470"
+      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/System-Analyst_R0019470",
+      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/Boston/Product-Owner_R0019803-1"
     ]
   },
   {
@@ -11292,8 +11353,8 @@
     "urls": [
       "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11792",
       "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11793",
-      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11962",
-      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11834"
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11834",
+      "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/11962"
     ]
   },
   {
@@ -12247,6 +12308,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Automation-Technician_J2452353",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Automation-Technician_J2454989",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Becario-para-desarrollo-de-software_J2453163",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Human-Resources-Data-Administrator_J2455620",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Gurnee-IL/Automation-Engineer_J2454229",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Ho-Chi-Minh-City/Automation-Engineer_J2449592-1",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Nhon-Trach/Internal-Security_J2445824",
@@ -12274,8 +12336,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Test-Development-Technician_J2454183",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Taichung/Tooling-CAD-CAM-Development-Engineer-I_J2454589-1",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Uzhhorod/Business-Development-Analyst_J2451064-1",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Human-Resources-Data-Administrator_J2455620"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300"
     ]
   },
   {
@@ -12327,6 +12388,7 @@
     "urls": [
       "https://jci.wd5.myworkdayjobs.com/jci/job/Brampton-Ontario-Canada/Data-Entry-Coordinator_WD30272917",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Burlington-Massachusetts-United-States-of-America/Software-Engineer--Device--onsite-_EB000753184",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Calumet-City-Illinois-United-States-of-America/Strategic-Accounts-Business-Development---Healthcare_WD30269742",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Cedar-Rapids-Iowa-United-States-of-America/Security---Fire-Equipment-Service-Technician_WD30272311",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Dublin-Ohio-United-States-of-America/Controls-System-Tech_WD30272967",
       "https://jci.wd5.myworkdayjobs.com/jci/job/East-Peoria-Illinois-United-States-of-America/Security-Installer-V_WD30259839",
@@ -12334,6 +12396,7 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Glendale-Wisconsin-United-States-of-America/Software-Engineer---Data-Center-Engineering_WD30270944-1",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Greenville-Wisconsin-United-States-of-America/Fire---Security-Inspector_WD30272094",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Gurgaon-Sector-India/Specialist-Ops-Data-Analytics---GP_WD30273044",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Horsham-Pennsylvania-United-States-of-America/Integrated-Security-Systems-Technician_WD30273168",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Houston-Texas-United-States-of-America/HVAC-Controls-System-Engineer_WD30272221",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Indianapolis-Indiana-United-States-of-America/HVAC-Controls-Systems-Technician_WD30273282",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Indianapolis-Indiana-United-States-of-America/HVAC-Controls-Systems-Technician_WD30273283-1",
@@ -12365,11 +12428,9 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/Sydney-New-South-Wales-Australia/Client-Services-Coordinator--Retail---Security-_WD30270269",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Tampa-Florida-United-States-of-America/Controls-Systems-Designer-II_WD30268589",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Tempe-Arizona-United-States-of-America/Data-Center-Mechanical-Service-Journeyman_WD30271757",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Winnipeg-Manitoba-Canada/HVAC-Controls-Technician--Building-Automation-_WD30271313",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Zarhin-Raanana/Software-Engineer--NET-C--_WD30260251",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Horsham-Pennsylvania-United-States-of-America/Integrated-Security-Systems-Technician_WD30273168",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Totowa-New-Jersey-United-States-of-America/Strategic-Accounts-Business-Development---Healthcare_WD30269741",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Calumet-City-Illinois-United-States-of-America/Strategic-Accounts-Business-Development---Healthcare_WD30269742"
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Winnipeg-Manitoba-Canada/HVAC-Controls-Technician--Building-Automation-_WD30271313",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Zarhin-Raanana/Software-Engineer--NET-C--_WD30260251"
     ]
   },
   {
@@ -13084,13 +13145,14 @@
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Ohio/Junior-Communications-Systems-Software-Engineer_R2125329",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Beavercreek-Ohio/Junior-Software-Engineer_R2125556",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Beavercreek-Ohio/Junior-Software-Engineer_R2125663",
+      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Beavercreek-Township-Ohio/Research---Development-Electrical-Engineer_R2125697-1",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Colorado-Springs-Colorado/Jr-Software-Developer_R2124672",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Colorado-Springs-Colorado/Software-Engineer_R2125808",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Colorado-Springs-Colorado/Spacecraft-and-Ground-Systems-Integrations-Engineer_R2125738",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Lexington-Massachusetts/Network-Software-Developer_R2123152",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Lorton-Virginia/Information-Systems-Security-Engineer--ISSE-_R2125667",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Patrick-AFB-Florida/Systems-Analyst_R2125744",
-      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Beavercreek-Township-Ohio/Research---Development-Electrical-Engineer_R2125697-1"
+      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Arlington-Virginia/Data-Scientist-I_R2122520"
     ]
   },
   {
@@ -13836,8 +13898,8 @@
       "https://careers-lmi.icims.com/jobs/14190/modeling-%26-simulation-analyst-developer/job",
       "https://careers-lmi.icims.com/jobs/14191/sharepoint-%26-power-platform-sr-analyst/job",
       "https://careers-lmi.icims.com/jobs/14192/electrical-firmware-engineer---hardware-team-%28iot-%2b-dod-systems%29/job",
-      "https://careers-lmi.icims.com/jobs/14198/product-analyst/job",
-      "https://careers-lmi.icims.com/jobs/14193/model-based-systems-engineer---clearance-required/job"
+      "https://careers-lmi.icims.com/jobs/14193/model-based-systems-engineer---clearance-required/job",
+      "https://careers-lmi.icims.com/jobs/14198/product-analyst/job"
     ]
   },
   {
@@ -14131,14 +14193,14 @@
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Makati-City/Full-Stack-Engineer-Intern_JR26061875-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Manila-Manulife-Business-Processing-Services/Associate-Business-Intelligence-Developer_JR26051407",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Montreal-Quebec/Cloud---Platform-Engineer_JR26050602",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Montreal-Quebec/Junior-Analyst-Developer---Investment-Risk--Early-Career-_JR26051710",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Quezon-City/Compliance-Business-Systems-Specialist_JR25080160",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Quezon-City/Power-Platform---Automation-Engineer_JR26061291-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Quezon-City/Software-Technical-Analyst_JR26032012",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Quezon-City/Software-Technical-Analyst_JR26060545",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Singapore/Full-Stack-Software-Engineer_JR26051935",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Backend-Software-Engineer_JR26040693",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Montreal-Quebec/Junior-Analyst-Developer---Investment-Risk--Early-Career-_JR26051710",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Platform-Engineer_JR26061741-1"
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Platform-Engineer_JR26061741-1",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Backend-Software-Engineer_JR26040693"
     ]
   },
   {
@@ -14182,8 +14244,8 @@
       "https://marmon.wd501.myworkdayjobs.com/en-US/Marmon_Careers/job/Milwaukee-WI/Digital-Production-Engineering-Intern-OR-Student-Co-Op_JR0000037451-2",
       "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/Karnataka-IN/Product-Development-Engineer_JR0000043785",
       "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/Karnataka-IN/Product-Development-Engineer_JR0000043786",
-      "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/USA_OH_Cleveland_4801-West-150th-Street/System-Administration_JR0000043518",
-      "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/Pasadena-TX/Mobile-Tank-Cleaning-Supervisor_JR0000044161"
+      "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/Pasadena-TX/Mobile-Tank-Cleaning-Supervisor_JR0000044161",
+      "https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/USA_OH_Cleveland_4801-West-150th-Street/System-Administration_JR0000043518"
     ]
   },
   {
@@ -14229,7 +14291,8 @@
     "domain": "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
     "page": "https://egcu.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
-      "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3880"
+      "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3880",
+      "https://egcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3900"
     ]
   },
   {
@@ -14664,7 +14727,8 @@
       "https://www.metacareers.com/profile/job_details/982762197997295",
       "https://www.metacareers.com/profile/job_details/990864127272553",
       "https://www.metacareers.com/profile/job_details/994881556459825",
-      "https://www.metacareers.com/profile/job_details/998982982733342"
+      "https://www.metacareers.com/profile/job_details/998982982733342",
+      "https://www.metacareers.com/profile/job_details/997644772875988"
     ]
   },
   {
@@ -15092,11 +15156,11 @@
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/SGP---Singapore---Singapore-Boulevard-Towers/AI-Research-Scientist_R399050-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/Assoc-Dir---Technical-Product-Management_R395067-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/Scientific-AVP--Clinical-Research--Oncology-Early-Development_R405478",
+      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/User-Experience-Designer--Data-Context-Layer_R401129",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---North-Carolina---Durham-Old-Oxford/Specialist--Quality-Systems---Compliance_R404840-1",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---North-Carolina---Wilson/Spclst---Manufacturing-Automation_R404046",
       "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/Scientist--Preclinical-Dev_R401886-1",
-      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Vaccine-Manufacturing-Automation-Co-op_R395899",
-      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/User-Experience-Designer--Data-Context-Layer_R401129"
+      "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2026-Future-Talent-Program---Vaccine-Manufacturing-Automation-Co-op_R395899"
     ]
   },
   {
@@ -15579,10 +15643,10 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Oklahoma-Oklahoma-City/Software-Engineer_R10236283",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Remote/Systems-Administrator----26-214-_R10238119-1",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel---Systems-Engineers_R10230619",
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Associate---Software-Systems-Engineer---15365_R10238381",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/ServiceNow-Developer--T1--T2---15066---Roy-Utah_R10238182",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/Cyber-Software-Engineer_R10223595",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Trade-Shows-and-Events-Representative--Evergreen-_R10238308-1",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Associate---Software-Systems-Engineer---15365_R10238381"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Trade-Shows-and-Events-Representative--Evergreen-_R10238308-1"
     ]
   },
   {
@@ -16277,6 +16341,7 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334675",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334711",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/334993",
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335014",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335112",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335122",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335345",
@@ -16315,7 +16380,7 @@
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338209",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338499",
       "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/338502",
-      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/335014"
+      "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/326532"
     ]
   },
   {
@@ -16431,6 +16496,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Systems-Engineer--Interface-Control-Documents--ES3-_R0163849",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Systems-Engineer-HLS-Operation-Integrator--SME2-_R0164693-2",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AZ-Chandler/Life-Safety-Systems-Specialist_R0164662-1",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CA-China-Lake/Test-Product-Integrator_R0164833",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CA-Vandenberg-AFB/Communication-Systems-Engineer-Professional_R0161152",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CA-Vandenberg-AFB/Communication-Systems-Engineer-Professional_R0161154",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CO-Denver/Data-Center-Security-Monitor_R0158346",
@@ -16463,8 +16529,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Sterling/Warehouse-Technician---Data-Center_R0164506",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Vienna/Web-Software-Developer--UI-_R0164537",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-WA-Richland/Instructional-Analyst-Developer_R0164012",
-      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-WA-Richland/Instructional-Analyst-Developer_R0164048",
-      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-CA-China-Lake/Test-Product-Integrator_R0164833"
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-WA-Richland/Instructional-Analyst-Developer_R0164048"
     ]
   },
   {
@@ -16764,6 +16829,7 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bblingen/Product-Support-Engineer--all-genders-_584176-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bblingen/Software-Development-Engineer---Connectivity-Software--all-genders-_578785-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bblingen/Softwareentwicklungsingenieur---Connectivity-Software--all-genders-_578784-1",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Best/Services-BPE-Digital--Generative-AI_582813-2",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Automation-Software-Development-Engineer_581228-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Software-Development-Test-Engineer_573555-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Software-Test-Engineer_579524",
@@ -16771,13 +16837,14 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Software-Test-Engineer_585590-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Ciudad-de-Panama/Junior-Master-Data-Specialist--Panama-City--Panama-_584680",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Internship--AI-Agents-for-Systems-Quality-Engineering_585455",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Product-Management-Leader_585068-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/Clinical-Development-Scientist-CT_586951",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/SW-System-Engineer_586976",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/Software-System-Engineer_586975-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Software-Intern_586709",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Test-Development-Engineer_584912",
-      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Eindhoven/Product-Management-Leader_585068-1",
-      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Best/Services-BPE-Digital--Generative-AI_582813-2"
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/R-D-Software-Development-Engineer--Medical_580470",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/Software-Engineer---Image-Processing--C-----GPU-_582793"
     ]
   },
   {
@@ -17202,6 +17269,7 @@
       "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Research-and-Development-Engineering-Intern_REQ_0000076214-1",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Off-Campus---Other/Research-and-Development-Systems-Engineer_REQ_0000078314-2",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Off-Campus---Other/Secure-Systems-Research-and-Development-Engineer_REQ_0000077943-2",
+      "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-Erie-The-Behrend-College/Part-Time-Automation-Analyst--Haile-_REQ_0000079783-1",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/AR-VR-XR-Visualization-Research-and-Development-Engineer_REQ_0000078946-2",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Cyber-Information-Assurance-Analyst-Intern_REQ_0000079318-1",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/DevSecOps-Research-Computing-Software-Engineer_REQ_0000079351-2",
@@ -17209,8 +17277,7 @@
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Procurement-Agent---Software_REQ_0000079506-2",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Research-and-Development-Engineer-Intern_REQ_0000079641-2",
       "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Research-and-Development-Systems-Engineer_REQ_0000078316-2",
-      "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Strategic-Requirements-and-Technical-Coordination--SRTC--Research-and-Development-Engineer_REQ_0000078148-1",
-      "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-Erie-The-Behrend-College/Part-Time-Automation-Analyst--Haile-_REQ_0000079783-1"
+      "https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Strategic-Requirements-and-Technical-Coordination--SRTC--Research-and-Development-Engineer_REQ_0000078148-1"
     ]
   },
   {
@@ -17586,6 +17653,7 @@
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Brno---Tech-Park-Brno---C/Software-Engineer---Hummingbird--Brno-Office--Czech-Republic-_R-057497-2",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Brno---Tech-Park-Brno---C/Software-Engineer---Product-Security-Development-Team--Brno-Office--Czech-Republic-_R-057946-2",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Pune---Tower-6/Software-Engineer_R-056394-1",
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/AI-Impact-Analyst_R-051941-1",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Market-Development-Representative-1_R-057917-1",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Market-Development-Representative_R-057915-2",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Software-Engineer_R-056802",
@@ -17603,8 +17671,7 @@
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Tokyo/Junior-Consultant_R-054538",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Waterford-City/Product-Security-Developer---Compliance-Engineering--Brno-Office-or-Waterford-Office-_R-057027-2",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Waterford-City/Software-Engineer---Linux-Kernel-Engineering---Waterford-Office--Ireland-_R-057580",
-      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Zurich---MSO/Market-Development-Representative--m-f-d-_R-056792-1",
-      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/AI-Impact-Analyst_R-051941-1"
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Zurich---MSO/Market-Development-Representative--m-f-d-_R-056792-1"
     ]
   },
   {
@@ -17687,10 +17754,10 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/relativity/jobs",
     "urls": [
+      "https://boards.greenhouse.io/relativity/jobs/8561541002?gh_jid=8561541002",
       "https://boards.greenhouse.io/relativity/jobs/8579843002?gh_jid=8579843002",
       "https://boards.greenhouse.io/relativity/jobs/8581136002?gh_jid=8581136002",
       "https://boards.greenhouse.io/relativity/jobs/8595065002?gh_jid=8595065002",
-      "https://boards.greenhouse.io/relativity/jobs/8561541002?gh_jid=8561541002",
       "https://boards.greenhouse.io/relativity/jobs/8614917002?gh_jid=8614917002"
     ]
   },
@@ -18023,6 +18090,7 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Mannheim/Data-Scientist---Machine-Learning-Engineer--m-w-d--am-Standort-Mannheim_202606-114315-2",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Mannheim/Lab-on-Chip-Development-Internship---Master-Thesis-at-Near-Patient-Care--m-f-d-_202606-116713-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Mississauga/Commercialization-Capability-Partner--Learning---Development-_202606-116491-1",
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Mississauga/Technology-Product--Owner_202604-110833-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/San-Jose-Costa-Rica/Regulatory-AI---Automation-Specialist_202606-116462",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Sant-Cugat-del-Valls/Internal-Systems-Data-and-Automation-Engineer_202605-112948-2",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/XMLNAME--Sr--AI-Engineering-Consultant_202606-114323",
@@ -18031,8 +18099,7 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/Technical-Leader---Digital-Health-Platform--Secure-Cloud_202606-115444",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/Technical-Product-Owner---DHP-Secure-Cloud-Access_202606-115451",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Welwyn/Machine-Learning-Scientist---Quantum-Chemistry_202606-115524-1",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Mississauga/Technology-Product--Owner_202604-110833-1"
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Welwyn/Machine-Learning-Scientist---Quantum-Chemistry_202606-115524-1"
     ]
   },
   {
@@ -18092,7 +18159,8 @@
       "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Huntsville-Alabama-United-States/Senior-MES-Software-Engineer_R26-4662",
       "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Embedded-Software-Engineer_R26-4103",
       "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Monterrey-Nuevo-Leon-Mexico/Software-Engineer_R26-1377",
-      "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Monterrey-Nuevo-Leon-Mexico/Software-Systems-Engineer_R26-3046"
+      "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Monterrey-Nuevo-Leon-Mexico/Software-Systems-Engineer_R26-3046",
+      "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Santiago-Chile/Portfolio-Expert--Software-and-Control_R26-1413"
     ]
   },
   {
@@ -18257,6 +18325,7 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Business-Development-Representative---Data-Foundation_JR342138",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Data-Engineer--SMTS---LMTS----MDM_JR347388",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Data-Engineer--SMTS-LMTS----Knowledge-Graph---AI_JR347480",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Infrastructure-Service-Mesh-Software-Engineer_JR345252",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Mobile-Security-Engineer---Product-Security_JR343293",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/SMTS-LMTS-Full-Stack-Software-Engineer--Tableau-Next_JR342389",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-AMTS-MTS--College-Grad-_JR330400-1",
@@ -18306,8 +18375,7 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-PMTS_JR348157-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-PMTS_JR349476",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR339822",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Infrastructure-Service-Mesh-Software-Engineer_JR345252"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Senior-Staff-Software-Engineer--Machine-Learning-Infrastructure--Slack_JR329145"
     ]
   },
   {
@@ -18550,7 +18618,8 @@
       "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Medelln-Antioquia-Colombia/Data-Analyst_REQ-1000049801",
       "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Pozna-Poland/IAS-Automation-Developer_REQ-1000046158",
       "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Spennymoor-Durham-England/Assistant-Data-Analyst_REQ-1000049816",
-      "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Troy-MI-United-States/Product-Development-Engineer---Software_REQ-1000048884"
+      "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Troy-MI-United-States/Product-Development-Engineer---Software_REQ-1000048884",
+      "https://sbdinc.wd1.myworkdayjobs.com/stanley_black_decker_career_site/job/Shizheng-Rd-Taichung-Taiwan/Product-Engineer_REQ-1000047670"
     ]
   },
   {
@@ -18713,7 +18782,8 @@
       "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/1530-FM-973-Taylor-TX-USA/Electrical-Engineer_R117964",
       "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/1530-FM-973-Taylor-TX-USA/Tool-Control---Host-Automation-Engineer_R118215",
       "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/Bavaria-Towers-Munich-Germany/Working-Student--f-m-d--Automotive-Software-Systems-Munich-on-site_R118065",
-      "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/Wisma-GKBI-Jakarta-Indonesia/Software-Engineer---Fullstack_R118053"
+      "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/Wisma-GKBI-Jakarta-Indonesia/Software-Engineer---Fullstack_R118053",
+      "https://sec.wd3.myworkdayjobs.com/samsung_careers/job/12100-Samsung-Blvd-Austin-TX-USA/Fault-Detection---Classification--FDC--Data-Science-Engineer_R118244-1"
     ]
   },
   {
@@ -19230,7 +19300,8 @@
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBEpsomWoodcote-Grove/Software-Asset-Management-Analyst_R-157135",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBLondonNova-North/Reporting-Data-Analyst_R-151507",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/QAQatar/Infrastructure-Advisor_R-158641",
-      "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCALos-Angeles801-S-Grand-Avenue/Data-Scientist_R-158838"
+      "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCALos-Angeles801-S-Grand-Avenue/Data-Scientist_R-158838",
+      "https://slihrms.wd3.myworkdayjobs.com/careers/job/USCODenver/AI-Solutions-Software-Developer_R-158843"
     ]
   },
   {
@@ -19326,7 +19397,8 @@
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Dayton-OH/Systems-Integration-Engineer-I_R0030166",
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Military-Fellowship-Program--Security-Specialist_R0030146",
       "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Engineer_R0029470",
-      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/AI-Agent-Developer-I_R0030085"
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Sparks-NV/AI-Agent-Developer-I_R0030085",
+      "https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Sr-Systems-Security-Engineer_R0030191"
     ]
   },
   {
@@ -20381,9 +20453,9 @@
       "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Gurugram-India/Software-Engineer_R565651",
       "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Gurugram-India/Software-Test-Engineer---iOS-testing_R551555",
       "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Lille-France/Ingnieur-d-application-Medtech---Mako-product-specialist--Biarritz--H-F-_R562876",
+      "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Mahwah-New-Jersey/Engineer--Product-Development_R568211",
       "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Mahwah-New-Jersey/FT-Distribution-Systems-Technician_R567839",
-      "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Skawina-Poland/Engineering-Intern---Product-Transfer_R568532",
-      "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Mahwah-New-Jersey/Engineer--Product-Development_R568211"
+      "https://stryker.wd1.myworkdayjobs.com/strykercareers/job/Skawina-Poland/Engineering-Intern---Product-Transfer_R568532"
     ]
   },
   {
@@ -20593,7 +20665,8 @@
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Mississauga-Ontario-Canada/Business-Development-Rep-I---Lenovo-Intelligent-Devices-Group--IDG-_R51328-1",
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Mississauga-Ontario-Canada/IT-Business-System-Engineer---DevOps-for-EDI-and-Microservices--Ingnieur-des-systmes-d-affaires-TI---DevOps-pour-l-EDI-et-les-microservices_R52284",
       "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Petaling-Jaya-Malaysia/Software-Test-Engineer_R51638",
-      "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Warsaw-Poland/AI-Engineer-Specialist--NET---Agentic-Systems-_R51770"
+      "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Warsaw-Poland/AI-Engineer-Specialist--NET---Agentic-Systems-_R51770",
+      "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/San-Jose-Costa-Rica/Business-Development-Representative_R52485"
     ]
   },
   {
@@ -20961,8 +21034,8 @@
     "urls": [
       "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Associate-Platform-Engineer_JR104965",
       "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Associate-Software-Engineer_JR104964-1",
-      "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Product-Owner--SFMC---Data-Cloud_JR105676-1",
-      "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Consumer-Banking-Product-Owner_JR105644"
+      "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Consumer-Banking-Product-Owner_JR105644",
+      "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Product-Owner--SFMC---Data-Cloud_JR105676-1"
     ]
   },
   {
@@ -21096,7 +21169,8 @@
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/So-Paulo-Brazil/AI-Engineer_R-01357884",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/So-Paulo-Brazil/Sr-AI-Engineer_R-01357883",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Tokyo-Japan/QA-Specialist_R-01358078",
-      "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Vantaa-Finland/Software-Engineer_R-01355334"
+      "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Vantaa-Finland/Software-Engineer_R-01355334",
+      "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Scoresby-Australia/Product-Specialist--Laboratory-Chemicals_R-01351174"
     ]
   },
   {
@@ -21429,12 +21503,12 @@
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Laredo-Texas/Mobile-Associate---Retail-Stales_REQ361715",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Laredo-Texas/Mobile-Associate---Retail-Stales_REQ361717-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Mission-Texas/Mobile-Expert--VR_REQ347177-1",
+      "https://tmobile.wd1.myworkdayjobs.com/external/job/Oklahoma-City-Oklahoma/Sr-Mobile-Expert_REQ359672-2",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Assoc-Engineer--Software_REQ356124",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/ESG-Data-Analyst_REQ348023-1",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Sr-Engineers--Software_REQ361716",
       "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Sr-Software-Engineer--ioS_REQ356230",
-      "https://tmobile.wd1.myworkdayjobs.com/external/job/Sr-Product-Managers--Technical_REQ362138",
-      "https://tmobile.wd1.myworkdayjobs.com/external/job/Oklahoma-City-Oklahoma/Sr-Mobile-Expert_REQ359672-2"
+      "https://tmobile.wd1.myworkdayjobs.com/external/job/Sr-Product-Managers--Technical_REQ362138"
     ]
   },
   {
@@ -21948,8 +22022,8 @@
     "domain": "https://udig.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/udig/jobs",
     "urls": [
-      "https://udig.com/careers/job-listing/?gh_jid=7725140003",
-      "https://udig.com/careers/job-listing/?gh_jid=6642400003"
+      "https://udig.com/careers/job-listing/?gh_jid=6642400003",
+      "https://udig.com/careers/job-listing/?gh_jid=7725140003"
     ]
   },
   {
@@ -22121,10 +22195,10 @@
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Software-Tester_2026-0018269",
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Chennai-India/Software-Tester_2026-0018271",
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Cincinnati-OH/Software-Engineer-in-Cincinnati--OH_2026-0018598",
-      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Irving-TX/Software-Engineer--Application-Developer---multiple-positions--in-Irving--TX_2026-0018500",
-      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Warsaw-Poland/Credit-Risk-Modeling-Python-Developer_2025-0027794-2",
+      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Cupertino-CA/Data-Platform-Security---Governance-Leader_2026-0013934",
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Hopkins-MN/Full-Stack-Application-Developer_2026-0018463",
-      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Cupertino-CA/Data-Platform-Security---Governance-Leader_2026-0013934"
+      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Irving-TX/Software-Engineer--Application-Developer---multiple-positions--in-Irving--TX_2026-0018500",
+      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Warsaw-Poland/Credit-Risk-Modeling-Python-Developer_2025-0027794-2"
     ]
   },
   {
@@ -22284,7 +22358,13 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/vast/jobs",
     "urls": [
-      "https://boards.greenhouse.io/vast/jobs/4662074006?gh_jid=4662074006"
+      "https://boards.greenhouse.io/vast/jobs/4662074006?gh_jid=4662074006",
+      "https://boards.greenhouse.io/vast/jobs/4692040006?gh_jid=4692040006",
+      "https://boards.greenhouse.io/vast/jobs/4689944006?gh_jid=4689944006",
+      "https://boards.greenhouse.io/vast/jobs/4692039006?gh_jid=4692039006",
+      "https://boards.greenhouse.io/vast/jobs/4690320006?gh_jid=4690320006",
+      "https://boards.greenhouse.io/vast/jobs/4691965006?gh_jid=4691965006",
+      "https://boards.greenhouse.io/vast/jobs/4692041006?gh_jid=4692041006"
     ]
   },
   {
@@ -22358,7 +22438,8 @@
       "https://jobs.lever.co/veeva/91d98757-413c-4b77-82ef-fce26c4ae500",
       "https://jobs.lever.co/veeva/9b0d3edc-709d-41ba-a6bf-8525507d2fd1",
       "https://jobs.lever.co/veeva/dc31cd5c-0aa5-45a5-9cc2-fd4179f47b40",
-      "https://jobs.lever.co/veeva/ee3ae875-5db1-49b3-ae64-0fbac944d2a3"
+      "https://jobs.lever.co/veeva/ee3ae875-5db1-49b3-ae64-0fbac944d2a3",
+      "https://jobs.lever.co/veeva/22e7944d-5fd1-4953-94f3-20f18da83423"
     ]
   },
   {
@@ -22922,8 +23003,8 @@
     "domain": "https://warnerbros.wd5.myworkdayjobs.com/global",
     "page": "https://warnerbros.wd5.myworkdayjobs.com/wday/cxs/warnerbros/global/jobs",
     "urls": [
-      "https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Supplier-Master-Data-Analyst_R000106643",
-      "https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City---Av-Paseo-de-las-Palmas-405/Salesforce-Software-Engineer_R000106666"
+      "https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City---Av-Paseo-de-las-Palmas-405/Salesforce-Software-Engineer_R000106666",
+      "https://warnerbros.wd5.myworkdayjobs.com/global/job/Mexico-City-Paseo-de-las-Palmas-No425-701/Supplier-Master-Data-Analyst_R000106643"
     ]
   },
   {
@@ -23024,7 +23105,9 @@
       "https://jobs.smartrecruiters.com/WellmarkInc/744000129990590",
       "https://jobs.smartrecruiters.com/WellmarkInc/744000129992389",
       "https://jobs.smartrecruiters.com/WellmarkInc/744000130834330",
-      "https://jobs.smartrecruiters.com/WellmarkInc/744000134797351"
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000134797351",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000135125019",
+      "https://jobs.smartrecruiters.com/WellmarkInc/744000135122422"
     ]
   },
   {
