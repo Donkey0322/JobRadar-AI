@@ -103,6 +103,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">AssetWorks</td>
+      <td width="420" align="left" valign="top">Software Development Intern - Engineering Team - React Native</td>
+      <td width="180" align="left" valign="top">TX, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://volarisgroup.wd3.myworkdayjobs.com/GoAssetWorks/job/United-States---TX/Software-Development-Intern_R67762"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Sonyglobal</td>
       <td width="420" align="left" valign="top">Research Intern on Generative and Protective AI for Content Creation</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -252,6 +259,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Gumloop</td>
+      <td width="420" align="left" valign="top">Design Engineer Intern</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Gumloop/d1c82673-a98a-4e27-8ec0-014740eb5a22/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Susquehanna International Group (SIG)</td>
+      <td width="420" align="left" valign="top">Financial Reporting AI Co-op</td>
+      <td width="180" align="left" valign="top">Bala Cynwyd, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-sig.icims.com/jobs/11137/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Avav</td>
       <td width="420" align="left" valign="top">Engineering Development Technician IV<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Simi Valley, CA</td>
@@ -377,23 +398,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/acluinternships/jobs/8609427002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Fall 2026 Undergraduate Intern, Nationwide Prospect Development and Portfolio Strategy</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/acluinternships/jobs/8610607002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Fall 2026 Undergraduate Intern, Leadership and Planned Gifts - Development Team</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/acluinternships/jobs/8608450002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 63 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 65 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -408,6 +415,27 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Fidelity National Information Services</td>
+      <td width="420" align="left" valign="top">Mainframe Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Columbus, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-GA-CMH-ONE-RIVERFRONT/Mainframe-Software-Engineer-I_JR0307488-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Adtran</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://adtran.wd3.myworkdayjobs.com/adtran/job/Atlanta-GA/Software-Engineer-I_R005699"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">The Nuclear Company</td>
+      <td width="420" align="left" valign="top">AI Engineer 1 - Product Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Washington, DC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/thenuclearcompany/jobs/5285646008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Psu</td>
       <td width="420" align="left" valign="top">Early Childhood Development Educator - Preschool<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -527,30 +555,9 @@
       <td width="120" align="left" valign="top"><a href="https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Software-QA-Engineer-1_JR118504"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Databricks</td>
-      <td width="420" align="left" valign="top">Systems PhD - Software Engineer </td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 30</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Business Development Representative</td>
-      <td width="180" align="left" valign="top">New York City, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8423158002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 30</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Veolia environnement sa</td>
-      <td width="420" align="left" valign="top">System Technician I</td>
-      <td width="180" align="left" valign="top">Middletown, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000135112199"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 586 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 589 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (2,244)</b></summary>
@@ -890,7 +897,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-01T06:49:53.448Z</code>
+      🕒 Last updated <code>2026-07-01T08:15:38.378Z</code>
     </span>
   </p>
 </div>
