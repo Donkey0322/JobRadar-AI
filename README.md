@@ -560,7 +560,7 @@
 <p><sub>Showing 20 of 591 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (2,251)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (2,253)</b></summary>
 
   <br />
 
@@ -721,7 +721,7 @@
 </table>
 <p><sub>Showing 20 of 1,315 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (936)</h3>
+  <h3>Senior Level (938)</h3>
 
 <table width="100%">
   <thead>
@@ -734,6 +734,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Data Center Electrical Engineer, Products, GDC, DCTS</td>
+      <td width="180" align="left" valign="top">Kirkland, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/112925734774678214-data-center-electrical-engineer-products-gdc-dcts?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">DeepMind</td>
+      <td width="420" align="left" valign="top">Software Engineer, EngProd, GeminiApp, DeepMind</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/100120822357598918-software-engineer-engprod-geminiapp-deepmind?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 1</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">The Nuclear Company</td>
       <td width="420" align="left" valign="top">AI/ML Engineer  </td>
@@ -860,23 +874,9 @@
       <td width="120" align="left" valign="top"><a href="https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/326532"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Hiscox</td>
-      <td width="420" align="left" valign="top">Product Owner</td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/Boston/Product-Owner_R0019803-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 30</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">New Product Introduction Account Specialist (Hybrid)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">EAST HARTFORD, CT</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/New-Product-Introduction-Account-Specialist--Hybrid-_01855238"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 936 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 938 opportunities in this section.</sub></p>
 
 </details>
 
@@ -897,7 +897,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-01T08:59:14.417Z</code>
+      🕒 Last updated <code>2026-07-01T10:56:21.809Z</code>
     </span>
   </p>
 </div>
