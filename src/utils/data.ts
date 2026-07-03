@@ -101,10 +101,26 @@ export async function saveJD(jd: string, job: Job) {
   }
 }
 
-export async function saveOpportunities(opportunities: Job[]) {
+export async function loadOpportunities(): Promise<Job[]> {
+  try {
+    const content = await fs.readFile(OPPORTUNITIES_PATH, "utf-8");
+    return content
+      .split("\n")
+      .filter(Boolean)
+      .map((line) => JSON.parse(line) as Job);
+  } catch {
+    return [];
+  }
+}
+
+export async function saveOpportunities(opportunities: Job[], overwrite: boolean = false) {
   if (opportunities.length === 0) return;
   const lines = opportunities.map((opportunity) => JSON.stringify(opportunity)).join("\n");
-  await fs.appendFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
+  if (overwrite) {
+    await fs.writeFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
+  } else {
+    await fs.appendFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
+  }
 }
 
 export async function loadCompanies(): Promise<Company[]> {
