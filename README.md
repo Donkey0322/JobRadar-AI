@@ -104,6 +104,20 @@
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Travelers</td>
+      <td width="420" align="left" valign="top">Engineering Development Program Intern - Engineering Development Program</td>
+      <td width="180" align="left" valign="top">Hartford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-51185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Eulerity</td>
+      <td width="420" align="left" valign="top">Website Development &amp; Content Marketing Intern - AI &amp; Automation</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/eulerity/jobs/4694300006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Travelers</td>
       <td width="420" align="left" valign="top">Data Science Leadership Development Program (DSLDP) Intern</td>
       <td width="180" align="left" valign="top">Hartford, CT</td>
       <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/external/job/CT---Hartford/Data-Science-Leadership-Development-Program--DSLDP--Intern_R-51337"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -228,23 +242,9 @@
       <td width="120" align="left" valign="top"><a href="https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa/job/Remote---USA/Software-Engineer---Intern_R52705"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fmr</td>
-      <td width="420" align="left" valign="top">2026 Undergraduate - Leap: Software Engineer, Jersey City, NJ<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Jersey City, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://fmr.wd1.myworkdayjobs.com/targeted/job/Jersey-City-NJ/XMLNAME-2026-Undergraduate---Leap--Software-Engineer--Jersey-City--NJ_2130181"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bigcommerce</td>
-      <td width="420" align="left" valign="top">Intern Infrastructure Security Engineer</td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://bigcommerce.wd12.myworkdayjobs.com/commerce/job/Austin-TX/Intern-Infrastructure-Security-Engineer_JR102740"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 22 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 24 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -259,6 +259,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Saronic</td>
+      <td width="420" align="left" valign="top">Enterprise Technology Intern - AI and Automation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Comcast</td>
       <td width="420" align="left" valign="top">Comcast Software Engineer Co-op<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -392,16 +399,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/truveta/jobs/5424558004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
-      <td width="420" align="left" valign="top">Frontend Software Engineer Project Intern (Global CRM) - 2026 Start（BS/MS）</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7654431844394322229"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 40 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 41 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-03T16:06:15.433Z</code>
+      🕒 Last updated <code>2026-07-03T17:10:03.833Z</code>
     </span>
   </p>
 </div>
