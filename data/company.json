@@ -8133,7 +8133,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/eulerity/jobs/4671025006",
       "https://job-boards.greenhouse.io/eulerity/jobs/4671031006",
-      "https://job-boards.greenhouse.io/eulerity/jobs/4691221006"
+      "https://job-boards.greenhouse.io/eulerity/jobs/4691221006",
+      "https://job-boards.greenhouse.io/eulerity/jobs/4694300006"
     ]
   },
   {
@@ -17581,7 +17582,9 @@
     "identifier": "saronic",
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/saronic",
-    "urls": []
+    "urls": [
+      "https://jobs.ashbyhq.com/saronic/c95c2e3a-4c67-47b0-a03d-0e0317ac11a3/application"
+    ]
   },
   {
     "name": "saronic",
@@ -20523,7 +20526,8 @@
       "https://travelers.wd5.myworkdayjobs.com/external/job/CT---Hartford/Software-Engineer-I_R-51276-1",
       "https://travelers.wd5.myworkdayjobs.com/external/job/GA---Atlanta/Software-Engineer-I--AI-Driven-_R-49831",
       "https://travelers.wd5.myworkdayjobs.com/external/job/MN---St-Paul/Software-Engineer-I---Loss-Sensitive--Java--Spring-Boot--TypeScript--Nodejs--AI-_R-50957",
-      "https://travelers.wd5.myworkdayjobs.com/external/job/SRY---Redhill/AVP--Software-Engineering--EUR_R-51322"
+      "https://travelers.wd5.myworkdayjobs.com/external/job/SRY---Redhill/AVP--Software-Engineering--EUR_R-51322",
+      "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-51185"
     ]
   },
   {
