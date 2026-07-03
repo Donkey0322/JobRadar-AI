@@ -104,6 +104,20 @@
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Travelers</td>
+      <td width="420" align="left" valign="top">Engineering Development Program Intern - Engineering Development Program</td>
+      <td width="180" align="left" valign="top">Hartford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Engineering-Development-Program--EDP----Intern_R-51185"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Eulerity</td>
+      <td width="420" align="left" valign="top">Website Development &amp; Content Marketing Intern - AI &amp; Automation</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/eulerity/jobs/4694300006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Travelers</td>
       <td width="420" align="left" valign="top">Data Science Leadership Development Program (DSLDP) Intern</td>
       <td width="180" align="left" valign="top">Hartford, CT</td>
       <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/external/job/CT---Hartford/Data-Science-Leadership-Development-Program--DSLDP--Intern_R-51337"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -228,23 +242,9 @@
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7611679957136574773"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Calamp</td>
-      <td width="420" align="left" valign="top">Intern, Product Management - Carlsbad CA (Summer 2026)</td>
-      <td width="180" align="left" valign="top">Carlsbad, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-calamp.icims.com/jobs/4349/intern%2c-product-management---carlsbad-ca-%28summer-2026%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nordsonhcm</td>
-      <td width="420" align="left" valign="top">Summer Intern - Software Engineer</td>
-      <td width="180" align="left" valign="top">East Providence, RI</td>
-      <td width="120" align="left" valign="top"><a href="https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Rhode-Island---East-Providence/Summer-Intern---Software-Engineer_REQ49656"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 32 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 34 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-03T15:32:58.444Z</code>
+      🕒 Last updated <code>2026-07-03T15:51:28.934Z</code>
     </span>
   </p>
 </div>
