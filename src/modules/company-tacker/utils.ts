@@ -277,13 +277,18 @@ export function isTechSeniorLevel(title: string) {
 }
 
 export function isTarget(title: string) {
-  return (
+  const status =
     (CONFIG.target?.intern?.includes(JobCategory.SUMMER_INTERN) && isTechIntern(title)) ||
     (CONFIG.target?.intern?.includes(JobCategory.OFF_SEASON_INTERN) && isTechIntern(title)) ||
     (CONFIG.target?.["full-time"]?.includes(JobCategory.ENTRY_LEVEL) && isTechEntryLevel(title)) ||
     (CONFIG.target?.["full-time"]?.includes(JobCategory.MID_LEVEL) && isTechMidLevel(title)) ||
-    (CONFIG.target?.["full-time"]?.includes(JobCategory.SENIOR_LEVEL) && isTechSeniorLevel(title))
-  );
+    (CONFIG.target?.["full-time"]?.includes(JobCategory.SENIOR_LEVEL) && isTechSeniorLevel(title));
+
+  if (status === undefined) {
+    return true;
+  }
+
+  return status;
 }
 
 export function withinDays(date: string | number, days = 1) {

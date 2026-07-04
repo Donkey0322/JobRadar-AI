@@ -2,6 +2,7 @@
 
 import { ABORT_SIGNAL } from "@/constants";
 import {
+  ADOBE_CAREERS_URL,
   AMD_API_URL,
   APPLE_CAREERS_URL,
   GOOGLE_CAREERS_URL,
@@ -14,6 +15,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
+import { fetchAdobe } from "./adobe";
 import { fetchAmazon } from "./amazon";
 import { fetchAMD } from "./amd";
 import { fetchApple } from "./apple";
@@ -33,7 +35,8 @@ type CustomCompanyIdentifier =
   | "apple"
   | "netflix"
   | "tiktok"
-  | "amd";
+  | "amd"
+  | "adobe";
 
 const COMPANY_MATCHERS = {
   amazon: "amazon.jobs",
@@ -44,6 +47,7 @@ const COMPANY_MATCHERS = {
   netflix: "netflix.net",
   tiktok: "tiktok.com",
   amd: "amd.com",
+  adobe: "adobe.com",
 } satisfies Record<CustomCompanyIdentifier, string>;
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
@@ -135,6 +139,15 @@ export function urlToCustomCompany(url: URL): Company {
         page: AMD_API_URL,
         urls: [],
       };
+    case "adobe":
+      return {
+        name: "Adobe",
+        ats: "custom",
+        identifier,
+        domain: url.origin,
+        page: ADOBE_CAREERS_URL,
+        urls: [],
+      };
     default: {
       identifier satisfies null;
       return {
@@ -186,6 +199,9 @@ export async function fetchCustom(
       }
       case "amd": {
         return await fetchAMD(company, urls, signal);
+      }
+      case "adobe": {
+        return await fetchAdobe(company, urls, signal);
       }
       default:
         identifier satisfies null;
