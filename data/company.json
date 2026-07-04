@@ -577,7 +577,7 @@
     "ats": "eightfold",
     "identifier": "aexp",
     "domain": "aexp.com",
-    "page": "https://aexp.eightfold.ai/api/pcsx/search?domain=aexp.com",
+    "page": "https://aexp.eightfold.ai/api/apply/v2/jobs?domain=aexp.com",
     "urls": [
       "https://aexp.eightfold.ai/careers/job/30702546",
       "https://aexp.eightfold.ai/careers/job/30702548",
@@ -1889,14 +1889,6 @@
     ]
   },
   {
-    "name": "apply.workable.com",
-    "ats": "custom",
-    "identifier": "apply.workable.com",
-    "domain": "https://apply.workable.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "apptronik",
     "ats": "greenhouse",
     "identifier": "apptronik",
@@ -2140,14 +2132,6 @@
       "https://www.asana.com/jobs/apply/7985215?gh_jid=7985215",
       "https://www.asana.com/jobs/apply/8002607?gh_jid=8002607"
     ]
-  },
-  {
-    "name": "asana.com",
-    "ats": "custom",
-    "identifier": "asana.com",
-    "domain": "https://asana.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "asm",
@@ -3262,14 +3246,6 @@
     ]
   },
   {
-    "name": "bequad.com",
-    "ats": "custom",
-    "identifier": "bequad.com",
-    "domain": "https://www.bequad.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "berkley",
     "ats": "icims",
     "identifier": "berkley",
@@ -3448,16 +3424,6 @@
       "http://block.xyz/careers/jobs/5232006008?gh_jid=5232006008",
       "http://block.xyz/careers/jobs/5232007008?gh_jid=5232007008",
       "http://block.xyz/careers/jobs/5232008008?gh_jid=5232008008"
-    ]
-  },
-  {
-    "name": "block.xyz",
-    "ats": "custom",
-    "identifier": "block.xyz",
-    "domain": "https://block.xyz",
-    "page": "",
-    "urls": [
-      "https://block.xyz/careers/jobs/4904196008"
     ]
   },
   {
@@ -4481,18 +4447,6 @@
     ]
   },
   {
-    "name": "campusjobs.mlp.com",
-    "ats": "custom",
-    "identifier": "campusjobs.mlp.com",
-    "domain": "https://campusjobs.mlp.com",
-    "page": "",
-    "urls": [
-      "https://campusjobs.mlp.com/careers?location=New+York%2C+New+York%2C+United+States+of+America&pid=755944533543&domain=mlp.com&sort_by=relevance&recommended=1",
-      "https://campusjobs.mlp.com/careers?location=New+York%2C+New+York%2C+United+States+of+America&pid=755944541610&domain=mlp.com&sort_by=relevance&recommended=1",
-      "https://campusjobs.mlp.com/careers?pid=755944533187&location=New+York%2C+New+York%2C+United+States+of+America&recommended=1"
-    ]
-  },
-  {
     "name": "Candidate Experience site",
     "ats": "oraclecloud",
     "identifier": "hcgn.fa.us2.oraclecloud.com",
@@ -4674,14 +4628,6 @@
     "urls": []
   },
   {
-    "name": "careers.appian.com",
-    "ats": "custom",
-    "identifier": "careers.appian.com",
-    "domain": "https://careers.appian.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.arm.com",
     "ats": "custom",
     "identifier": "careers.arm.com",
@@ -4741,14 +4687,6 @@
     "urls": []
   },
   {
-    "name": "careers.caci.com",
-    "ats": "custom",
-    "identifier": "careers.caci.com",
-    "domain": "https://careers.caci.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.cargill.com",
     "ats": "custom",
     "identifier": "careers.cargill.com",
@@ -4763,14 +4701,6 @@
     "ats": "custom",
     "identifier": "careers.cboe.com",
     "domain": "https://careers.cboe.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.circle.com",
-    "ats": "custom",
-    "identifier": "careers.circle.com",
-    "domain": "https://careers.circle.com",
     "page": "",
     "urls": []
   },
@@ -14136,6 +14066,14 @@
     ]
   },
   {
+    "name": "mlp",
+    "ats": "eightfold",
+    "identifier": "mlp",
+    "domain": "mlp.com",
+    "page": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com",
+    "urls": []
+  },
+  {
     "name": "mmc",
     "ats": "workday",
     "identifier": "mmc-mmc",
@@ -16590,6 +16528,14 @@
     ]
   },
   {
+    "name": "Quad",
+    "ats": "oraclecloud",
+    "identifier": "ebud.fa.us2.oraclecloud.com",
+    "domain": "https://ebud.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://ebud.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": []
+  },
+  {
     "name": "qualcomm",
     "ats": "eightfold",
     "identifier": "qualcomm",
@@ -17959,6 +17905,14 @@
       "https://seagatecareers.com/job/Shakopee-Firmware-Engineering-Internship-Summer-2026-MN/1331398300/",
       "https://seagatecareers.com/job/Shakopee-Summer-Intern-Software-Engineer-MN/1318324100/"
     ]
+  },
+  {
+    "name": "searchcareers.caci.com",
+    "ats": "eightfold",
+    "identifier": "searchcareers.caci.com",
+    "domain": "caci.com",
+    "page": "https://searchcareers.caci.com/api/pcsx/search?domain=caci.com",
+    "urls": []
   },
   {
     "name": "Seaspan",
@@ -22505,7 +22459,7 @@
     "ats": "eightfold",
     "identifier": "zebra",
     "domain": "zebra.com",
-    "page": "https://zebra.eightfold.ai/api/pcsx/search?domain=zebra.com",
+    "page": "https://zebra.eightfold.ai/api/apply/v2/jobs?domain=zebra.com",
     "urls": [
       "https://zebra.eightfold.ai/careers/job/343635436582",
       "https://zebra.eightfold.ai/careers/job/343636218622"
