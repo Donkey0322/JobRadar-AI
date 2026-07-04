@@ -45,8 +45,8 @@ function normalizeLeverJob(job: LeverJob, companyName: string): Job {
 
 export function urlToLeverCompany(url: URL): Company {
   const page = url.origin.includes("eu")
-    ? "https://api.eu.lever.co/v0/postings/"
-    : "https://api.lever.co/v0/postings/";
+    ? "https://api.eu.lever.co/v0/postings"
+    : "https://api.lever.co/v0/postings";
 
   const parts = url.pathname.split("/").filter(Boolean);
   const identifier = parts[0];
@@ -56,7 +56,7 @@ export function urlToLeverCompany(url: URL): Company {
     ats: "lever",
     identifier,
     domain: url.origin,
-    page: `${page}${identifier}?mode=json`,
+    page: `${page}/${identifier}?mode=json`,
     urls: [],
   };
 }

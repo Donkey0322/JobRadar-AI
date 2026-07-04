@@ -1,8 +1,5 @@
-import { promises as fs } from "fs";
 import pLimit from "p-limit";
 import { URL } from "url";
-
-import { COMPANY_PATH } from "@/constants";
 
 import type { Company } from "./type";
 
@@ -17,7 +14,7 @@ import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
 
-import { loadCompanies } from "@/utils/data";
+import { loadCompanies, saveCompanies } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
@@ -29,22 +26,22 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
     const ats = classifyATS(url);
 
     switch (ats) {
-      case "greenhouse":
-        return await urlToGreenhouseCompany(url);
-      case "lever":
-        return urlToLeverCompany(url);
-      case "workday":
-        return urlToWorkdayCompany(url);
       case "ashby":
         return await urlToAshbyCompany(url);
-      case "smartrecruiters":
-        return urlToSmartRecruitersCompany(url);
-      case "icims":
-        return urlToIcimsCompany(url);
-      case "oraclecloud":
-        return await urlToOracleCloudCompany(url);
       case "eightfold":
         return urlToEightfoldCompany(url);
+      case "greenhouse":
+        return await urlToGreenhouseCompany(url);
+      case "icims":
+        return urlToIcimsCompany(url);
+      case "lever":
+        return urlToLeverCompany(url);
+      case "oraclecloud":
+        return await urlToOracleCloudCompany(url);
+      case "smartrecruiters":
+        return urlToSmartRecruitersCompany(url);
+      case "workday":
+        return urlToWorkdayCompany(url);
       case "custom":
         return urlToCustomCompany(url);
       default:
@@ -131,7 +128,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
 
   const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
 
-  await fs.writeFile(COMPANY_PATH, JSON.stringify(result, null, 2), "utf-8");
+  await saveCompanies(result);
 
   logger.info({ count: result.length }, "💰 Successfully built companies");
 

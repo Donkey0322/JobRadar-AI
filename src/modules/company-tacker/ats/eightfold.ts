@@ -1,5 +1,6 @@
 import z from "zod";
 
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
@@ -11,40 +12,6 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
-export const EightfoldJobSchema = z.object({
-  id: z.union([z.string(), z.number()]).optional(),
-  display_job_id: z.union([z.string(), z.number()]).optional(),
-  name: z.string().optional(),
-  title: z.string().optional(),
-  position_name: z.string().optional(),
-  location: z.string().optional(),
-  locations: z.array(z.string()).optional(),
-  city: z.string().optional(),
-  state: z.string().optional(),
-  country: z.string().optional(),
-  posted_date: z.union([z.string(), z.number()]).optional(),
-  created_at: z.union([z.string(), z.number()]).optional(),
-  updated_at: z.union([z.string(), z.number()]).optional(),
-  t_create: z.union([z.string(), z.number()]).optional(),
-});
-
-type EightfoldJob = z.infer<typeof EightfoldJobSchema>;
-
-export const EightfoldResponseSchema = z.object({
-  positions: z.array(EightfoldJobSchema).optional(),
-  jobs: z.array(EightfoldJobSchema).optional(),
-  data: z
-    .object({
-      positions: z.array(EightfoldJobSchema).optional(),
-      jobs: z.array(EightfoldJobSchema).optional(),
-    })
-    .optional(),
-});
-
-
-const PAGE_SIZE = 10;
-const MAX_PAGES = 200;
-
 export function urlToEightfoldCompany(url: URL): Company {
   const identifier = url.hostname.replace(".eightfold.ai", "");
 
@@ -54,40 +21,51 @@ export function urlToEightfoldCompany(url: URL): Company {
     name: identifier,
     ats: "eightfold",
     identifier,
-    domain: url.origin,
+    domain,
     page: `${url.origin}/api/pcsx/search?domain=${domain}`,
     urls: [],
   };
 }
 
+export const EightfoldJobSchema = z.object({
+  id: z.number(),
+  name: z.string(),
+  locations: z.array(z.string()),
+  creationTs: z.number(),
+  postedTs: z.number(),
+  positionUrl: z.string(),
+});
+
+type EightfoldJob = z.infer<typeof EightfoldJobSchema>;
+
+export const EightfoldResponseSchema = z.object({
+  data: z
+    .object({
+      positions: z.array(EightfoldJobSchema).optional(),
+    })
+    .optional(),
+});
+
 function getEightfoldJobsFromResponse(data: unknown): EightfoldJob[] {
   const parsed = EightfoldResponseSchema.safeParse(data);
 
   if (!parsed.success) {
-    logger.error(
-      { data, issues: parsed.error.issues },
-      `${RED_CROSS} Invalid Eightfold response`
-    );
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Eightfold response`);
 
     return [];
   }
 
-  return (
-    parsed.data.positions ??
-    parsed.data.jobs ??
-    parsed.data.data?.positions ??
-    parsed.data.data?.jobs ??
-    []
-  );
+  return parsed.data.data?.positions ?? [];
 }
 
+const getEightfoldJobLink = (company: Company, job: EightfoldJob): string => {
+  return `${company.domain}${job.positionUrl}`;
+};
+
 function normalizeEightfoldJob(job: EightfoldJob, company: Company): Job {
-  const role = job.name ?? job.title ?? job.position_name ?? "";
-  const id = job.id ?? job.display_job_id;
-  const link = `${company.domain}/careers/job/${id}`;
-  const location = Array.isArray(job.locations)
-    ? job.locations.join(", ")
-    : (job.location ?? [job.city, job.state, job.country].filter(Boolean).join(", "));
+  const role = job.name;
+  const link = getEightfoldJobLink(company, job);
+  const location = job.locations.join(", ");
 
   return {
     company: capitalize(company.name),
@@ -97,10 +75,13 @@ function normalizeEightfoldJob(job: EightfoldJob, company: Company): Job {
   };
 }
 
+const PAGE_SIZE = 10;
+const MAX_PAGES = 200;
+
 export async function fetchEightfold(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   const allJobs: Job[] = [];
 
@@ -138,18 +119,13 @@ export async function fetchEightfold(
 
       const opportunities = rawJobs
         .filter((job) => {
-          const postedDate = job.posted_date ?? job.created_at ?? job.t_create ?? job.updated_at;
-
-          if (postedDate && !withinDays(postedDate)) {
+          if (job.postedTs && !withinDays(job.postedTs)) {
             reachedOldJob = true;
             return false;
           }
 
-          const id = job.id ?? job.display_job_id;
-          const role = job.name ?? job.title ?? job.position_name ?? "";
-          const link = id ? `${company.domain}/careers/job/${id}` : null;
-
-          return !!(role && link && isTarget(role) && !urls.has(link));
+          const link = getEightfoldJobLink(company, job);
+          return !!(job.name && link && isTarget(job.name) && !urls.has(link));
         })
         .map((job) => normalizeEightfoldJob(job, company));
 

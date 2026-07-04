@@ -133,6 +133,14 @@ export async function loadCompanies(): Promise<Company[]> {
   }
 }
 
+export async function saveCompanies(companies: Company[]) {
+  try {
+    await fs.writeFile(COMPANY_PATH, JSON.stringify(companies, null, 2), "utf-8");
+  } catch (error) {
+    logger.error({ err: error }, `${RED_CROSS} Error saving companies`);
+  }
+}
+
 export async function appendErrorLog(message: string) {
   if (!process.stdout.isTTY) {
     return;

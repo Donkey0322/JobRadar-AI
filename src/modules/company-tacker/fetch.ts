@@ -35,40 +35,32 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
   let jobs: Job[] = [];
 
   switch (company.ats) {
-    case "greenhouse":
-      jobs = await fetchGreenhouse(company, urls, signal);
-      break;
-
-    case "lever":
-      jobs = await fetchLever(company, urls, signal);
-      break;
-
-    case "workday":
-      jobs = await fetchWorkday(company, urls, signal);
-      break;
-
     case "ashby":
       jobs = await fetchAshby(company, urls, signal);
       break;
-
-    case "custom":
-      jobs = await fetchCustom(company, urls, signal);
+    case "eightfold":
+      jobs = await fetchEightfold(company, urls, signal);
       break;
-
-    case "smartrecruiters":
-      jobs = await fetchSmartRecruiters(company, urls, signal);
+    case "greenhouse":
+      jobs = await fetchGreenhouse(company, urls, signal);
       break;
-
-    case "oraclecloud":
-      jobs = await fetchOracleCloud(company, urls, signal);
-      break;
-
     case "icims":
       jobs = await fetchIcims(company, urls, signal);
       break;
-
-    case "eightfold":
-      jobs = await fetchEightfold(company, urls, signal);
+    case "lever":
+      jobs = await fetchLever(company, urls, signal);
+      break;
+    case "oraclecloud":
+      jobs = await fetchOracleCloud(company, urls, signal);
+      break;
+    case "smartrecruiters":
+      jobs = await fetchSmartRecruiters(company, urls, signal);
+      break;
+    case "workday":
+      jobs = await fetchWorkday(company, urls, signal);
+      break;
+    case "custom":
+      jobs = await fetchCustom(company, urls, signal);
       break;
 
     default:

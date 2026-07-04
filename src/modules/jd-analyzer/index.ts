@@ -12,6 +12,7 @@ import analyzeJD from "./ai";
 import {
   fetchAshbyJD,
   fetchCustomJD,
+  fetchEightfoldJD,
   fetchGreenhouseJD,
   fetchIcimsJD,
   fetchOracleJD,
@@ -88,18 +89,20 @@ export async function getRawJD(
     const urlType = classifyATS(new URL(url));
 
     switch (urlType) {
+      case "ashby":
+        return finishRawJD(await fetchAshbyJD(url, signal));
+      case "eightfold":
+        return finishRawJD(await fetchEightfoldJD(url, signal));
       case "greenhouse":
         return finishRawJD(await fetchGreenhouseJD(url, signal));
+      case "icims":
+        return finishRawJD(await fetchIcimsJD(url, signal));
+      case "oraclecloud":
+        return finishRawJD(await fetchOracleJD(url, signal));
       case "smartrecruiters":
         return finishRawJD(await fetchSmartRecruitersJD(url, signal));
       case "workday":
         return finishRawJD(await fetchWorkdayJD(url, signal));
-      case "ashby":
-        return finishRawJD(await fetchAshbyJD(url, signal));
-      case "oraclecloud":
-        return finishRawJD(await fetchOracleJD(url, signal));
-      case "icims":
-        return finishRawJD(await fetchIcimsJD(url, signal));
       default:
         return finishRawJD(await fetchCustomJD(url, signal));
     }

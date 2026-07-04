@@ -1,12 +1,12 @@
 export type ATS =
-  | "greenhouse"
-  | "lever"
-  | "workday"
   | "ashby"
+  | "eightfold"
+  | "greenhouse"
+  | "icims"
+  | "lever"
   | "oraclecloud"
   | "smartrecruiters"
-  | "icims"
-  | "eightfold"
+  | "workday"
   | "custom";
 
 export interface Company {
