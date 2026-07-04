@@ -1,80 +1,140 @@
+import z from "zod";
+
 import { ABORT_SIGNAL } from "@/constants";
+import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
 
-type TikTokJobPost = {
-  id: string;
-  title: string;
-  city_info?: {
-    en_name?: string;
-    name?: string;
-  };
-};
+import { logger } from "@/utils/logger";
+
+const TIKTOK_CAREERS_URL = "https://lifeattiktok.com";
+const TIKTOK_API_URL = "https://api.lifeattiktok.com/api/v1/public/supplier/search/job/posts";
+
+export const TikTokCompany = {
+  name: "TikTok",
+  ats: "custom",
+  identifier: "tiktok",
+  domain: TIKTOK_CAREERS_URL,
+  page: TIKTOK_API_URL,
+  urls: [],
+} as const satisfies Company;
+
+export const TikTokJobSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  city_info: z
+    .object({
+      en_name: z.string().nullish(),
+      name: z.string().nullish(),
+    })
+    .optional(),
+});
+
+type TikTokJob = z.infer<typeof TikTokJobSchema>;
 
 type TikTokSearchResponse = {
   code: number;
   message?: string;
   data?: {
     total?: number;
-    job_post_list?: TikTokJobPost[];
+    job_post_list?: TikTokJob[];
   };
 };
+
+function getTikTokJobsFromResponse(json: TikTokSearchResponse): TikTokJob[] {
+  return json.data?.job_post_list ?? [];
+}
+
+function normalizeTikTokJob(job: TikTokJob): Job {
+  return {
+    company: "TikTok",
+    role: job.title,
+    link: `${TIKTOK_CAREERS_URL}/${job.id}`,
+    location: job.city_info?.en_name ?? job.city_info?.name ?? "Unsure",
+  };
+}
 
 export async function fetchTikTok(
   company: Company,
   urls: Set<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
-  const res = await fetch(company.page, {
-    method: "POST",
-    headers: {
-      accept: "*/*",
-      "accept-language": "en-US",
-      "content-type": "application/json",
-      origin: "https://lifeattiktok.com",
-      referer: "https://lifeattiktok.com/",
-      "user-agent":
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "website-path": "tiktok",
-    },
-    body: JSON.stringify({
-      recruitment_id_list: [],
-      job_category_id_list: [],
-      subject_id_list: [],
-      location_code_list: [],
-      keyword: "",
-      limit: 500,
-      offset: 0,
-    }),
-    signal,
-  });
+  try {
+    const res = await fetch(company.page, {
+      method: "POST",
+      headers: {
+        accept: "*/*",
+        "accept-language": "en-US",
+        "content-type": "application/json",
+        origin: TIKTOK_CAREERS_URL,
+        referer: `${TIKTOK_CAREERS_URL}/`,
+        "user-agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "website-path": "tiktok",
+      },
+      body: JSON.stringify({
+        recruitment_id_list: [],
+        job_category_id_list: [],
+        subject_id_list: [],
+        location_code_list: [],
+        keyword: "",
+        limit: 500,
+        offset: 0,
+      }),
+      signal,
+    });
 
-  if (!res.ok) {
+    if (!res.ok) {
+      return [];
+    }
+
+    const json = (await res.json()) as TikTokSearchResponse;
+
+    if (json.code !== 0) {
+      return [];
+    }
+
+    const rawJobs = getTikTokJobsFromResponse(json);
+    const jobs: Job[] = [];
+
+    for (const rawJob of rawJobs) {
+      const parsed = TikTokJobSchema.safeParse(rawJob);
+
+      if (!parsed.success) {
+        logger.error(
+          { job: rawJob, issues: parsed.error.issues },
+          `${RED_CROSS} Invalid TikTok job`
+        );
+
+        continue;
+      }
+
+      const tiktokJob = parsed.data;
+      const link = `${TIKTOK_CAREERS_URL}/${tiktokJob.id}`;
+
+      if (!isTarget(tiktokJob.title) || urls.has(link)) {
+        continue;
+      }
+
+      jobs.push(normalizeTikTokJob(tiktokJob));
+    }
+
+    return jobs;
+  } catch (error) {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      logger.error(
+        { err: error.name, company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching TikTok jobs`
+      );
+
+      return [];
+    }
+
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching TikTok jobs`);
+
     return [];
   }
-
-  const json = (await res.json()) as TikTokSearchResponse;
-
-  if (json.code !== 0) {
-    return [];
-  }
-
-  const posts = json.data?.job_post_list ?? [];
-
-  return posts
-    .filter((post) => post.id && post.title)
-    .map((post) => {
-      const url = `https://lifeattiktok.com/search/${post.id}`;
-
-      return {
-        company: company.name,
-        role: post.title,
-        link: url,
-        location: post.city_info?.en_name ?? post.city_info?.name ?? "Unsure",
-      };
-    })
-    .filter((job) => isTarget(job.role) && !urls.has(job.link));
 }

@@ -1071,7 +1071,7 @@
     "ats": "custom",
     "identifier": "amd",
     "domain": "https://careers.amd.com",
-    "page": "https://careers.amd.com/careers-home/jobs?lang=en-us",
+    "page": "https://careers.amd.com/careers-home/jobs",
     "urls": [
       "https://careers.amd.com/careers-home/jobs/87539?lang=en-us",
       "https://careers.amd.com/careers-home/jobs/87541?lang=en-us",
@@ -9810,7 +9810,7 @@
     "ats": "custom",
     "identifier": "google",
     "domain": "https://www.google.com",
-    "page": "https://www.google.com/about/careers/applications/jobs/results?&sort_by=date",
+    "page": "https://www.google.com/about/careers/applications/jobs/results",
     "urls": [
       "https://www.google.com/about/careers/applications/jobs/results/100120822357598918-software-engineer-engprod-geminiapp-deepmind?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/100277713217954502-web-solutions-engineer-technology-and-insights-partnership-systems-youtube?sort_by=date&page=1",
@@ -13985,8 +13985,8 @@
     "name": "Microsoft",
     "ats": "custom",
     "identifier": "microsoft",
-    "domain": "https://apply.careers.microsoft.com",
-    "page": "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United%20States&start=0&sort_by=timestamp&filter_include_remote=1",
+    "domain": "https://jobs.careers.microsoft.com",
+    "page": "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com",
     "urls": [
       "https://apply.careers.microsoft.com/careers/job/1970393556621732",
       "https://apply.careers.microsoft.com/careers/job/1970393556622023",

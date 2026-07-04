@@ -1,7 +1,6 @@
 import z from "zod";
 
 import { ABORT_SIGNAL } from "@/constants";
-import { ADOBE_CAREERS_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../../type";
@@ -9,6 +8,17 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
+
+const ADOBE_CAREERS_URL = "https://careers.adobe.com/us";
+
+export const AdobeCompany = {
+  name: "Adobe",
+  ats: "custom",
+  identifier: "adobe",
+  domain: "https://careers.adobe.com",
+  page: ADOBE_CAREERS_URL,
+  urls: [],
+} as const satisfies Company;
 
 const ADOBE_WIDGETS_URL = "https://careers.adobe.com/widgets";
 
@@ -125,33 +135,16 @@ async function getAdobeSession(url: string, signal: AbortSignal): Promise<AdobeS
   };
 }
 
-function normalizeAdobeJob(job: AdobeJob): Job | null {
-  const result = AdobeJobSchema.safeParse(job);
+function getAdobeJobLink(job: AdobeJob): string {
+  return `${ADOBE_CAREERS_URL}/en/job/${job.jobId}`;
+}
 
-  if (!result.success) {
-    logger.error(
-      {
-        job,
-        issues: result.error.issues,
-      },
-      `${RED_CROSS} Invalid Adobe job`
-    );
-
-    return null;
-  }
-
-  const { data } = result;
-  const id = data.jobId;
-
-  if (!id) {
-    return null;
-  }
-
+function normalizeAdobeJob(job: AdobeJob): Job {
   return {
     company: "Adobe",
-    role: data.title,
-    link: id ? `${ADOBE_CAREERS_URL}/en/job/${id}` : "",
-    location: data.location ?? data.cityStateCountry ?? data.cityState ?? data.city ?? "",
+    role: job.title,
+    link: getAdobeJobLink(job),
+    location: job.location ?? job.cityStateCountry ?? job.cityState ?? job.city ?? "",
   };
 }
 
@@ -304,17 +297,11 @@ export async function fetchAdobe(
           break;
         }
 
-        if (!isTarget(adobeJob.title)) {
+        if (!isTarget(adobeJob.title) || urls.has(getAdobeJobLink(adobeJob))) {
           continue;
         }
 
-        const job = normalizeAdobeJob(adobeJob);
-
-        if (!job) {
-          continue;
-        }
-
-        jobs.push(job);
+        jobs.push(normalizeAdobeJob(adobeJob));
       }
 
       if (reachedOldJob || rawJobs.length < PAGE_SIZE) {

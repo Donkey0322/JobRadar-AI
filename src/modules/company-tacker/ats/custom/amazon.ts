@@ -1,3 +1,5 @@
+import z from "zod";
+
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
@@ -6,16 +8,29 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
 
-interface AmazonJob {
-  title: string[];
-  url: string;
-  location: string[];
-  createdDate: number[];
-  updatedDate: number[];
-  icimsJobId: string[];
-}
+const AMAZON_CAREERS_URL = "https://amazon.jobs";
+const AMAZON_API_URL = "https://amazon.jobs/api/jobs/search?is_als=true";
+
+export const AmazonCompany = {
+  name: "Amazon",
+  ats: "custom",
+  identifier: "amazon",
+  domain: "https://amazon.jobs",
+  page: AMAZON_API_URL,
+  urls: [],
+} as const satisfies Company;
+
+export const AmazonJobSchema = z.object({
+  title: z.array(z.string()),
+  url: z.string().optional(),
+  location: z.array(z.string()),
+  createdDate: z.array(z.string()),
+  updatedDate: z.array(z.string()),
+  icimsJobId: z.array(z.string()),
+});
+
+type AmazonJob = z.infer<typeof AmazonJobSchema>;
 
 interface AmazonJobResponse {
   searchHits: {
@@ -35,6 +50,19 @@ const REQUEST = {
   }),
 };
 
+function getAmazonJobsFromResponse(data: AmazonJobResponse): AmazonJob[] {
+  return data.searchHits.map(({ fields }) => fields);
+}
+
+function normalizeAmazonJob(job: AmazonJob): Job {
+  return {
+    company: "Amazon",
+    role: job.title?.[0] ?? "",
+    link: `${AMAZON_CAREERS_URL}/en/jobs/${job.icimsJobId?.[0]}`,
+    location: job.location?.[0] ?? "",
+  };
+}
+
 export async function fetchAmazon(
   company: Company,
   urls: Set<string>,
@@ -46,33 +74,50 @@ export async function fetchAmazon(
       signal,
     });
 
-    const data: AmazonJobResponse = await res.json();
-    const amazonJobs = data.searchHits.map(({ fields }) => fields);
-    const jobs: Job[] = amazonJobs
-      .filter(
-        (job) =>
-          isTarget(job.title?.[0] ?? "") &&
-          !urls.has(`https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`) &&
-          (withinDays(job.createdDate?.[0] * 1000) || withinDays(job.updatedDate?.[0] * 1000))
-      )
-      .map((job) => ({
-        company: capitalize(company.name),
-        role: job.title?.[0] ?? "",
-        link: `https://amazon.jobs/en/jobs/${job.icimsJobId?.[0]}`,
-        location: job.location?.[0] ?? "",
-      }));
+    const data: AmazonJobResponse = (await res.json()) as AmazonJobResponse;
+    const rawJobs = getAmazonJobsFromResponse(data);
+    const jobs: Job[] = [];
+
+    for (const rawJob of rawJobs) {
+      const parsed = AmazonJobSchema.safeParse(rawJob);
+
+      if (!parsed.success) {
+        logger.error(
+          { job: rawJob, issues: parsed.error.issues },
+          `${RED_CROSS} Invalid Amazon job`
+        );
+
+        continue;
+      }
+
+      const amazonJob = parsed.data;
+      const title = amazonJob.title?.[0] ?? "";
+      const link = `${AMAZON_CAREERS_URL}/en/jobs/${amazonJob.icimsJobId?.[0]}`;
+
+      if (
+        !isTarget(title) ||
+        urls.has(link) ||
+        (!withinDays(amazonJob.createdDate?.[0]) && !withinDays(amazonJob.updatedDate?.[0]))
+      ) {
+        continue;
+      }
+
+      jobs.push(normalizeAmazonJob(amazonJob));
+    }
 
     return jobs;
   } catch (error) {
-    if (error instanceof Error && error.name === "TimeoutError") {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(
-        { err: "TimeoutError", company: company.name, url: company.page },
+        { err: error.name, company: company.name, url: company.page },
         `${RED_CROSS} Error fetching amazon jobs`
       );
+
       return [];
     }
 
     logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching amazon jobs`);
+
     return [];
   }
 }

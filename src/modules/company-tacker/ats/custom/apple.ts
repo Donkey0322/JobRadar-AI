@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
+import z from "zod";
 
-import { APPLE_CAREERS_URL } from "@/constants/ats";
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../../type";
@@ -9,14 +10,27 @@ import type { Job } from "@/types";
 import { isTarget } from "../../utils";
 
 import { logger } from "@/utils/logger";
-import { capitalize, getToday } from "@/utils/string";
+import { getToday } from "@/utils/string";
 
-export interface AppleJob {
-  title: string;
-  link: string;
-  location: string | null;
-  postedAt: string | null;
-}
+const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
+
+export const AppleCompany = {
+  name: "Apple",
+  ats: "custom",
+  identifier: "apple",
+  domain: "https://jobs.apple.com",
+  page: APPLE_CAREERS_URL,
+  urls: [],
+} as const satisfies Company;
+
+export const AppleJobSchema = z.object({
+  title: z.string(),
+  link: z.string(),
+  location: z.string().nullable(),
+  postedAt: z.string().nullable(),
+});
+
+export type AppleJob = z.infer<typeof AppleJobSchema>;
 
 const MAX_PAGES = 20;
 
@@ -64,6 +78,7 @@ export function parseAppleJobs(html: string): AppleJob[] {
       });
     }
   });
+
   return jobs;
 }
 
@@ -92,44 +107,70 @@ async function fetchAppleHtml(urlStr: string, page: number = 1, signal: AbortSig
   return res.text();
 }
 
+function normalizeAppleJob(job: AppleJob): Job {
+  return {
+    company: "Apple",
+    role: job.title,
+    link: job.link,
+    location: job.location ?? "",
+  };
+}
+
 export async function fetchApple(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
-    const allJobs: AppleJob[] = [];
+    const allJobs: Job[] = [];
 
     for (let page = 1; page <= MAX_PAGES; page++) {
       const html = await fetchAppleHtml(company.page, page, signal);
+
       if (html === "") {
         break;
       }
-      const jobs = parseAppleJobs(html);
 
-      if (jobs.length === 0) {
+      const rawJobs = parseAppleJobs(html);
+
+      if (rawJobs.length === 0) {
         break;
       }
-      allJobs.push(...jobs);
+
+      for (const rawJob of rawJobs) {
+        const parsed = AppleJobSchema.safeParse(rawJob);
+        if (!parsed.success) {
+          logger.error(
+            { job: rawJob, issues: parsed.error.issues },
+            `${RED_CROSS} Invalid Apple job`
+          );
+
+          continue;
+        }
+
+        const appleJob = parsed.data;
+
+        if (!isTarget(appleJob.title) || urls.has(appleJob.link)) {
+          continue;
+        }
+
+        allJobs.push(normalizeAppleJob(appleJob));
+      }
     }
 
-    const jobs = allJobs.filter((job) => isTarget(job.title) && !urls.has(job.link));
-    return jobs.map((job) => ({
-      company: capitalize(company.name),
-      role: job.title,
-      link: job.link,
-      location: job.location ?? "",
-    }));
+    return allJobs;
   } catch (error) {
     if (error instanceof Error && error.name === "TimeoutError") {
       logger.error(
         { err: "TimeoutError", company: company.name, url: company.page },
         `${RED_CROSS} Error fetching apple jobs`
       );
+
       return [];
     }
 
     logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching apple jobs`);
+
     return [];
   }
 }

@@ -1,14 +1,34 @@
+import z from "zod";
+
+import { ABORT_SIGNAL } from "@/constants";
+import { RED_CROSS } from "@/constants/log";
+
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
 
-interface NetflixJob {
-  id: string;
-  posting_name: string;
-  location: string;
-  canonicalPositionUrl: string;
-}
+import { logger } from "@/utils/logger";
+
+const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
+
+export const NetflixCompany = {
+  name: "Netflix",
+  ats: "custom",
+  identifier: "netflix",
+  domain: "https://explore.jobs.netflix.net",
+  page: NETFLIX_API_URL,
+  urls: [],
+} as const satisfies Company;
+
+export const NetflixJobSchema = z.object({
+  id: z.number(),
+  posting_name: z.string(),
+  location: z.string(),
+  canonicalPositionUrl: z.string(),
+});
+
+type NetflixJob = z.infer<typeof NetflixJobSchema>;
 
 interface NetflixResponse {
   positions: NetflixJob[];
@@ -17,51 +37,90 @@ interface NetflixResponse {
 const PAGE_SIZE = 10;
 const MAX_PAGES = 10;
 
+function getNetflixJobsFromResponse(data: NetflixResponse): NetflixJob[] {
+  return data.positions ?? [];
+}
+
+function normalizeNetflixJob(job: NetflixJob): Job {
+  return {
+    company: "Netflix",
+    role: job.posting_name,
+    link: job.canonicalPositionUrl,
+    location: job.location,
+  };
+}
+
 export async function fetchNetflix(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
-  const allJobs: Job[] = [];
+  try {
+    const allJobs: Job[] = [];
 
-  for (let page = 0; page < MAX_PAGES; page++) {
-    const url = new URL(company.page);
+    for (let page = 0; page < MAX_PAGES; page++) {
+      const url = new URL(company.page);
 
-    url.searchParams.set("sort_by", "new");
-    url.searchParams.set("num", String(PAGE_SIZE));
+      url.searchParams.set("sort_by", "new");
+      url.searchParams.set("num", String(PAGE_SIZE));
 
-    if (page > 0) {
-      url.searchParams.set("start", String(page * PAGE_SIZE));
+      if (page > 0) {
+        url.searchParams.set("start", String(page * PAGE_SIZE));
+      }
+
+      const res = await fetch(url.toString(), {
+        signal,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (!res.ok) {
+        break;
+      }
+
+      const data = (await res.json()) as NetflixResponse;
+      const rawJobs = getNetflixJobsFromResponse(data);
+
+      if (rawJobs.length === 0) {
+        break;
+      }
+
+      for (const rawJob of rawJobs) {
+        const parsed = NetflixJobSchema.safeParse(rawJob);
+
+        if (!parsed.success) {
+          logger.error(
+            { job: rawJob, issues: parsed.error.issues },
+            `${RED_CROSS} Invalid Netflix job`
+          );
+
+          continue;
+        }
+
+        const netflixJob = parsed.data;
+
+        if (!isTarget(netflixJob.posting_name) || urls.has(netflixJob.canonicalPositionUrl)) {
+          continue;
+        }
+
+        allJobs.push(normalizeNetflixJob(netflixJob));
+      }
     }
 
-    const res = await fetch(url.toString(), {
-      signal,
-      headers: {
-        Accept: "application/json",
-      },
-    });
+    return allJobs;
+  } catch (error) {
+    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      logger.error(
+        { err: error.name, company: company.name, url: company.page },
+        `${RED_CROSS} Error fetching Netflix jobs`
+      );
 
-    if (!res.ok) {
-      break;
+      return [];
     }
 
-    const data = (await res.json()) as NetflixResponse;
+    logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching Netflix jobs`);
 
-    const positions = data.positions ?? [];
-
-    if (positions.length === 0) {
-      break;
-    }
-
-    const pageJobs: Job[] = positions.map((job) => ({
-      company: "Netflix",
-      role: job.posting_name,
-      location: job.location,
-      link: job.canonicalPositionUrl,
-    }));
-
-    allJobs.push(...pageJobs);
+    return [];
   }
-
-  return allJobs.filter((job) => isTarget(job.role) && !urls.has(job.link));
 }

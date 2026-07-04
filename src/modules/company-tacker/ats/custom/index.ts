@@ -1,29 +1,20 @@
 // Amazon, Microsoft, Google, Apple, Meta, TikTok, Uber
 
 import { ABORT_SIGNAL } from "@/constants";
-import {
-  ADOBE_CAREERS_URL,
-  AMD_API_URL,
-  APPLE_CAREERS_URL,
-  GOOGLE_CAREERS_URL,
-  META_CAREERS_URL,
-  NETFLIX_API_URL,
-  TIKTOK_API_URL,
-} from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
-import { fetchAdobe } from "./adobe";
-import { fetchAmazon } from "./amazon";
-import { fetchAMD } from "./amd";
-import { fetchApple } from "./apple";
-import { fetchGoogle } from "./google";
-import { fetchMeta } from "./meta";
-import { fetchMicrosoft } from "./microsoft";
-import { fetchNetflix } from "./netflix";
-import { fetchTikTok } from "./tiktok";
+import { AdobeCompany, fetchAdobe } from "./adobe";
+import { AmazonCompany, fetchAmazon } from "./amazon";
+import { AMDCompany, fetchAMD } from "./amd";
+import { AppleCompany, fetchApple } from "./apple";
+import { fetchGoogle, GoogleCompany } from "./google";
+import { fetchMeta, MetaCompany } from "./meta";
+import { fetchMicrosoft, MicrosoftCompany } from "./microsoft";
+import { fetchNetflix, NetflixCompany } from "./netflix";
+import { fetchTikTok, TikTokCompany } from "./tiktok";
 
 import { logger } from "@/utils/logger";
 
@@ -68,86 +59,23 @@ export function urlToCustomCompany(url: URL): Company {
 
   switch (identifier) {
     case "amazon":
-      return {
-        name: "Amazon",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: "https://amazon.jobs/api/jobs/search?is_als=true",
-        urls: [],
-      };
+      return AmazonCompany;
     case "microsoft":
-      return {
-        name: "Microsoft",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=&location=United%20States&start=0&sort_by=timestamp&filter_include_remote=1",
-        urls: [],
-      };
+      return MicrosoftCompany;
     case "google":
-      return {
-        name: "Google",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: `${GOOGLE_CAREERS_URL}/jobs/results?&sort_by=date`,
-        urls: [],
-      };
+      return GoogleCompany;
     case "meta":
-      return {
-        name: "Meta",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: META_CAREERS_URL,
-        urls: [],
-      };
+      return MetaCompany;
     case "apple":
-      return {
-        name: "Apple",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: APPLE_CAREERS_URL,
-        urls: [],
-      };
+      return AppleCompany;
     case "netflix":
-      return {
-        name: "Netflix",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: NETFLIX_API_URL,
-        urls: [],
-      };
+      return NetflixCompany;
     case "tiktok":
-      return {
-        name: "TikTok",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: TIKTOK_API_URL,
-        urls: [],
-      };
+      return TikTokCompany;
     case "amd":
-      return {
-        name: "AMD",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: AMD_API_URL,
-        urls: [],
-      };
+      return AMDCompany;
     case "adobe":
-      return {
-        name: "Adobe",
-        ats: "custom",
-        identifier,
-        domain: url.origin,
-        page: ADOBE_CAREERS_URL,
-        urls: [],
-      };
+      return AdobeCompany;
     default: {
       identifier satisfies null;
       return {

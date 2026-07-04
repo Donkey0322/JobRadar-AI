@@ -291,8 +291,26 @@ export function isTarget(title: string) {
   return status;
 }
 
-export function withinDays(date: string | number, days = 1) {
+export function withinDays(date: string | number | undefined, days = 1) {
+  if (date == null) return false;
+
+  const value =
+    typeof date === "number"
+      ? date < 1e12
+        ? date * 1000
+        : date
+      : /^\d+$/.test(date)
+        ? Number(date) < 1e12
+          ? Number(date) * 1000
+          : Number(date)
+        : date;
+
+  const parsedDate = new Date(value);
+
+  if (Number.isNaN(parsedDate.getTime())) return false;
+
   const daysAgo = new Date();
   daysAgo.setDate(daysAgo.getDate() - days);
-  return new Date(date) >= daysAgo;
+
+  return parsedDate >= daysAgo;
 }

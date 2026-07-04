@@ -1,3 +1,6 @@
+import z from "zod";
+
+import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../../type";
@@ -5,18 +8,29 @@ import type { Job } from "@/types";
 
 import { isTarget } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
 
+const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
 const META_GRAPHQL_URL = "https://www.metacareers.com/api/graphql/";
-
+const META_DETAILS_URL = "https://www.metacareers.com/profile/job_details";
 const META_DOC_ID = "27506805582236862";
 const META_FRIENDLY_NAME = "CareersJobSearchResultsDataQuery";
 
-interface MetaJob {
-  id?: string;
-  title?: string;
-  locations?: string[];
-}
+export const MetaCompany = {
+  name: "Meta",
+  ats: "custom",
+  identifier: "meta",
+  domain: "https://www.metacareers.com",
+  page: META_CAREERS_URL,
+  urls: [],
+} as const satisfies Company;
+
+export const MetaJobSchema = z.object({
+  id: z.string().optional(),
+  title: z.string().optional(),
+  locations: z.array(z.string()).optional(),
+});
+
+type MetaJob = z.infer<typeof MetaJobSchema>;
 
 interface MetaJobsResponse {
   data?: {
@@ -117,41 +131,36 @@ async function getMetaSession(url: string, signal: AbortSignal) {
   };
 }
 
-function getMetaJobId(job: MetaJob): string {
-  return job.id ?? "";
-}
-
-function getMetaJobLink(job: MetaJob): string {
-  const id = getMetaJobId(job);
-
-  return id ? `https://www.metacareers.com/profile/job_details/${id}` : "";
-}
-
-function getMetaJobLocation(job: MetaJob): string {
-  if (!job.locations?.length) {
-    return "";
-  }
-
-  return job.locations
-    .map((location) => {
-      if (typeof location === "string") {
-        return location;
-      }
-
-      return location ?? "";
-    })
-    .filter(Boolean)
-    .join(", ");
-}
-
 function getMetaJobsFromResponse(data: MetaJobsResponse): MetaJob[] {
   return data.data?.job_search_with_featured_jobs?.all_jobs ?? [];
+}
+
+function normalizeMetaJob(job: MetaJob): Job | null {
+  const link = job.id ? `${META_DETAILS_URL}/${job.id}` : "";
+
+  if (!link) {
+    return null;
+  }
+
+  const location = !job.locations?.length
+    ? ""
+    : job.locations
+        .map((l) => (typeof l === "string" ? l : ""))
+        .filter(Boolean)
+        .join(", ");
+
+  return {
+    company: "Meta",
+    role: job.title ?? "",
+    link,
+    location,
+  };
 }
 
 export async function fetchMeta(
   company: Company,
   urls: Set<string>,
-  signal: AbortSignal
+  signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
     const { lsd, jazoest, cookie } = await getMetaSession(company.page, signal);
@@ -220,30 +229,48 @@ export async function fetchMeta(
     }
 
     const data = JSON.parse(cleanMetaJson(raw)) as MetaJobsResponse;
+    const rawJobs = getMetaJobsFromResponse(data);
+    const jobs: Job[] = [];
 
-    const jobs = getMetaJobsFromResponse(data).filter((job) => {
-      const title = job.title ?? "";
-      const link = getMetaJobLink(job);
+    for (const rawJob of rawJobs) {
+      const parsed = MetaJobSchema.safeParse(rawJob);
 
-      return isTarget(title) && !!link && !urls.has(link);
-    });
+      if (!parsed.success) {
+        logger.error({ job: rawJob, issues: parsed.error.issues }, `${RED_CROSS} Invalid Meta job`);
 
-    return jobs.map((job) => ({
-      company: capitalize(company.name),
-      role: job.title ?? "",
-      link: getMetaJobLink(job),
-      location: getMetaJobLocation(job),
-    }));
+        continue;
+      }
+
+      const metaJob = parsed.data;
+      const title = metaJob.title ?? "";
+      const link = metaJob.id ? `${META_DETAILS_URL}/${metaJob.id}` : "";
+
+      if (!isTarget(title) || !link || urls.has(link)) {
+        continue;
+      }
+
+      const job = normalizeMetaJob(metaJob);
+
+      if (!job) {
+        continue;
+      }
+
+      jobs.push(job);
+    }
+
+    return jobs;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },
         `${RED_CROSS} Error fetching meta jobs`
       );
+
       return [];
     }
 
     logger.error({ err: error, company: company.name }, `${RED_CROSS} Error fetching meta jobs`);
+
     return [];
   }
 }
