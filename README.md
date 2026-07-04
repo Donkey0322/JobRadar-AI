@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--07--03-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--07--04-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 336 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (2,157)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (2,158)</b></summary>
 
   <br />
 
-  <h3>Mid Level (1,230)</h3>
+  <h3>Mid Level (1,231)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Globalhr</td>
+      <td width="420" align="left" valign="top">Data Scientist -Top Secret Clearance Required<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Plano, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-PLANO-465--465-Independence-Pkwy--INDEPENDENCE/Data-Scientist_01834270"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 3</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Netflix</td>
       <td width="420" align="left" valign="top">Software Engineer 5 - Ads Pricing &amp; Packaging</td>
@@ -711,16 +718,9 @@
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10465509"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Center Chief Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Lubbock, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10465506"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,230 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,231 opportunities in this section.</sub></p>
 
   <h3>Senior Level (927)</h3>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-03T23:44:28.514Z</code>
+      🕒 Last updated <code>2026-07-04T04:09:07.250Z</code>
     </span>
   </p>
 </div>
