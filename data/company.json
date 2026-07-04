@@ -235,6 +235,26 @@
     ]
   },
   {
+    "name": "accenture",
+    "ats": "lever",
+    "identifier": "InfrastructureandCapitalProjects",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/InfrastructureandCapitalProjects?mode=json",
+    "urls": [
+      "https://jobs.lever.co/InfrastructureandCapitalProjects/3d96d0b4-815c-4658-9d76-e0cae2231437/apply"
+    ]
+  },
+  {
+    "name": "accenture.com",
+    "ats": "custom",
+    "identifier": "accenture.com",
+    "domain": "https://www.accenture.com",
+    "page": "",
+    "urls": [
+      "https://www.accenture.com/us-en/careers/jobdetails?id=R00285547_en&title=Technology+Summer+Analyst+-+NAELFY26"
+    ]
+  },
+  {
     "name": "ace",
     "ats": "workday",
     "identifier": "ace-careers",
@@ -8319,7 +8339,9 @@
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16282",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16416",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16594",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/9372"
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/9372",
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/14387",
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16557"
     ]
   },
   {
@@ -11283,16 +11305,6 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/inflectionai/jobs",
     "urls": []
-  },
-  {
-    "name": "accenture",
-    "ats": "lever",
-    "identifier": "InfrastructureandCapitalProjects",
-    "domain": "https://jobs.lever.co",
-    "page": "https://api.lever.co/v0/postings/InfrastructureandCapitalProjects?mode=json",
-    "urls": [
-      "https://jobs.lever.co/InfrastructureandCapitalProjects/3d96d0b4-815c-4658-9d76-e0cae2231437/apply"
-    ]
   },
   {
     "name": "ingrammicro",
@@ -17687,7 +17699,8 @@
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Paris/Data-Scientist_R2839937-1",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Paris/Software-Engineer_R2856359-1",
       "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Swiftwater-PA/Automation-Engineer_R2832322",
-      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Waltham-MA/Research-Associate---RNA-Synthesis-Platform-Development_R2862465-1"
+      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Waltham-MA/Research-Associate---RNA-Synthesis-Platform-Development_R2862465-1",
+      "https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Paris/Data-Scientist_R2838912"
     ]
   },
   {
