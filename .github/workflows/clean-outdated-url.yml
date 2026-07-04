@@ -1,0 +1,58 @@
+name: Clean Outdated URL
+run-name: 🧹 Clean Outdated URL
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # every week at Sunday midnight
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  clean-outdated-url:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # ✅ Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      # ✅ Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11
+
+      # ✅ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      # ✅ Install dependencies
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # ✅ Update README
+      - name: Update README
+        id: update-readme
+        run: pnpm clean-url
+
+      - name: Commit and push updated data
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          git config user.name "actions-bot"
+          git config user.email "actions@github.com"
+
+          git add data/
+          git commit -m "chore(clean-outdated-url): clean outdated url"
+
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:${{ github.ref_name }}
