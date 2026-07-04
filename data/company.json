@@ -235,16 +235,6 @@
     ]
   },
   {
-    "name": "accenture.com",
-    "ats": "custom",
-    "identifier": "accenture.com",
-    "domain": "https://www.accenture.com",
-    "page": "",
-    "urls": [
-      "https://www.accenture.com/us-en/careers/jobdetails?id=R00285547_en&title=Technology+Summer+Analyst+-+NAELFY26"
-    ]
-  },
-  {
     "name": "ace",
     "ats": "workday",
     "identifier": "ace-careers",
@@ -951,14 +941,6 @@
     ]
   },
   {
-    "name": "altruist.com",
-    "ats": "custom",
-    "identifier": "altruist.com",
-    "domain": "https://altruist.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "aluminumdynamics",
     "ats": "icims",
     "identifier": "aluminumdynamics",
@@ -1593,14 +1575,6 @@
     ]
   },
   {
-    "name": "app.careerpuck.com",
-    "ats": "custom",
-    "identifier": "app.careerpuck.com",
-    "domain": "https://app.careerpuck.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "app.dover.com",
     "ats": "custom",
     "identifier": "app.dover.com",
@@ -1939,17 +1913,6 @@
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Cloud-Networking-Software-Developer---MTS_J000698858-1",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Chennai-India/Embedded-Software-Engineer---Automotive-Systems_J000697823",
       "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Troy-MI---USA/QLIK-Programmer---Quality-Data-Analyst_J000695390"
-    ]
-  },
-  {
-    "name": "aptiv.com",
-    "ats": "custom",
-    "identifier": "aptiv.com",
-    "domain": "https://www.aptiv.com",
-    "page": "",
-    "urls": [
-      "https://www.aptiv.com/en/jobs/search/open-positions/J000685610",
-      "https://www.aptiv.com/en/jobs/search/open-positions/J000685611"
     ]
   },
   {
@@ -4826,14 +4789,6 @@
     "urls": []
   },
   {
-    "name": "careers.datadoghq.com",
-    "ats": "custom",
-    "identifier": "careers.datadoghq.com",
-    "domain": "https://careers.datadoghq.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.deere.com",
     "ats": "custom",
     "identifier": "careers.deere.com",
@@ -7019,6 +6974,14 @@
     "identifier": "datacor",
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/datacor/jobs",
+    "urls": []
+  },
+  {
+    "name": "datadog",
+    "ats": "greenhouse",
+    "identifier": "datadog",
+    "domain": "https://careers.datadoghq.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs",
     "urls": []
   },
   {
@@ -11320,6 +11283,16 @@
     "domain": "https://boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/inflectionai/jobs",
     "urls": []
+  },
+  {
+    "name": "accenture",
+    "ats": "lever",
+    "identifier": "InfrastructureandCapitalProjects",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/InfrastructureandCapitalProjects?mode=json",
+    "urls": [
+      "https://jobs.lever.co/InfrastructureandCapitalProjects/3d96d0b4-815c-4658-9d76-e0cae2231437/apply"
+    ]
   },
   {
     "name": "ingrammicro",

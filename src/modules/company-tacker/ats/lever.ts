@@ -11,6 +11,31 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
+const identifierToLeverCompany = {
+  InfrastructureandCapitalProjects: "accenture",
+};
+
+export function urlToLeverCompany(url: URL): Company {
+  const page = url.origin.includes("eu")
+    ? "https://api.eu.lever.co/v0/postings"
+    : "https://api.lever.co/v0/postings";
+
+  const parts = url.pathname.split("/").filter(Boolean);
+  const identifier = parts[0];
+
+  const companyName =
+    identifierToLeverCompany[identifier as keyof typeof identifierToLeverCompany] ?? identifier;
+
+  return {
+    name: companyName,
+    ats: "lever",
+    identifier,
+    domain: url.origin,
+    page: `${page}/${identifier}?mode=json`,
+    urls: [],
+  };
+}
+
 export const LeverJobSchema = z.object({
   text: z.string(),
   hostedUrl: z.string(),
@@ -40,24 +65,6 @@ function normalizeLeverJob(job: LeverJob, companyName: string): Job {
     role: job.text,
     link: job.hostedUrl,
     location: job.categories?.location ?? "",
-  };
-}
-
-export function urlToLeverCompany(url: URL): Company {
-  const page = url.origin.includes("eu")
-    ? "https://api.eu.lever.co/v0/postings"
-    : "https://api.lever.co/v0/postings";
-
-  const parts = url.pathname.split("/").filter(Boolean);
-  const identifier = parts[0];
-
-  return {
-    name: identifier,
-    ats: "lever",
-    identifier,
-    domain: url.origin,
-    page: `${page}/${identifier}?mode=json`,
-    urls: [],
   };
 }
 
