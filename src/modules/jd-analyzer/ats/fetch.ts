@@ -55,7 +55,8 @@ export class HttpStatusCode {
   }
 
   static isError(code: number): boolean {
-    return code >= 400;
+    // 429 does not mean error, it means too many requests
+    return code >= 400 && code !== HttpStatusCode.TOO_MANY_REQUESTS;
   }
 }
 
