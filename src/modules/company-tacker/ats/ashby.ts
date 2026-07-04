@@ -1,9 +1,12 @@
 import * as cheerio from "cheerio";
+import z from "zod";
 
+import { ABORT_SIGNAL } from "@/constants";
 import { ASHBY_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
@@ -14,14 +17,6 @@ import { capitalize } from "@/utils/string";
 const identifierMap: Record<string, string> = {
   "superhuman.com": "Superhuman%20Platform%20Inc",
 };
-
-export interface AshbyJob {
-  id: string;
-  title: string;
-  location: string;
-  jobUrl: string;
-  publishedAt: string;
-}
 
 const ASHBY_HOSTS = new Set(["jobs.ashbyhq.com", "job-boards.ashbyhq.com"]);
 
@@ -152,7 +147,46 @@ export async function urlToAshbyCompany(url: URL): Promise<Company> {
   return buildCompany(url, identifier);
 }
 
-export async function fetchAshby(company: Company, urls: Set<string>, signal: AbortSignal) {
+export const AshbyJobSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  location: z.string().optional(),
+  jobUrl: z.string(),
+  publishedAt: z.string(),
+});
+
+export type AshbyJob = z.infer<typeof AshbyJobSchema>;
+
+export const AshbyResponseSchema = z.object({
+  jobs: z.array(AshbyJobSchema),
+});
+
+function getAshbyJobsFromResponse(data: unknown): AshbyJob[] {
+  const parsed = AshbyResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Ashby response`);
+
+    return [];
+  }
+
+  return parsed.data.jobs;
+}
+
+function normalizeAshbyJob(job: AshbyJob, companyName: string): Job {
+  return {
+    company: capitalize(companyName),
+    role: job.title,
+    link: job.jobUrl,
+    location: job.location ?? "",
+  };
+}
+
+export async function fetchAshby(
+  company: Company,
+  urls: Set<string>,
+  signal: AbortSignal = ABORT_SIGNAL
+) {
   try {
     const res = await fetch(company.page, {
       signal,
@@ -163,35 +197,13 @@ export async function fetchAshby(company: Company, urls: Set<string>, signal: Ab
       return [];
     }
 
-    const data = await res.json();
+    const rawJobs = getAshbyJobsFromResponse(await res.json());
 
-    if (!data?.jobs) {
-      logger.warn(
-        {
-          company: company.name,
-          url: company.page,
-        },
-        "⚠️ Ashby missing jobs field"
-      );
+    const opportunities = rawJobs
+      .filter((job) => isTarget(job.title) && !urls.has(job.jobUrl) && withinDays(job.publishedAt))
+      .map((job) => normalizeAshbyJob(job, company.name));
 
-      return [];
-    }
-
-    const jobs: AshbyJob[] = data.jobs.filter(
-      (job: AshbyJob) =>
-        job?.title &&
-        job?.jobUrl &&
-        isTarget(job.title) &&
-        !urls.has(job.jobUrl) &&
-        withinDays(job.publishedAt)
-    );
-
-    return jobs.map((job) => ({
-      company: capitalize(company.name),
-      role: job.title,
-      link: job.jobUrl,
-      location: job.location ?? "",
-    }));
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.warn(

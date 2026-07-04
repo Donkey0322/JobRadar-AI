@@ -32,11 +32,9 @@ export const AmazonJobSchema = z.object({
 
 type AmazonJob = z.infer<typeof AmazonJobSchema>;
 
-interface AmazonJobResponse {
-  searchHits: {
-    fields: AmazonJob;
-  }[];
-}
+export const AmazonResponseSchema = z.object({
+  searchHits: z.array(z.object({ fields: AmazonJobSchema })),
+});
 
 const REQUEST = {
   method: "POST",
@@ -50,8 +48,16 @@ const REQUEST = {
   }),
 };
 
-function getAmazonJobsFromResponse(data: AmazonJobResponse): AmazonJob[] {
-  return data.searchHits.map(({ fields }) => fields);
+function getAmazonJobsFromResponse(data: unknown): AmazonJob[] {
+  const parsed = AmazonResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Amazon response`);
+
+    return [];
+  }
+
+  return parsed.data.searchHits.map(({ fields }) => fields);
 }
 
 function normalizeAmazonJob(job: AmazonJob): Job {
@@ -74,38 +80,22 @@ export async function fetchAmazon(
       signal,
     });
 
-    const data: AmazonJobResponse = (await res.json()) as AmazonJobResponse;
-    const rawJobs = getAmazonJobsFromResponse(data);
-    const jobs: Job[] = [];
+    const rawJobs = getAmazonJobsFromResponse(await res.json());
 
-    for (const rawJob of rawJobs) {
-      const parsed = AmazonJobSchema.safeParse(rawJob);
+    const opportunities = rawJobs
+      .filter((job) => {
+        const title = job.title?.[0] ?? "";
+        const link = `${AMAZON_CAREERS_URL}/en/jobs/${job.icimsJobId?.[0]}`;
 
-      if (!parsed.success) {
-        logger.error(
-          { job: rawJob, issues: parsed.error.issues },
-          `${RED_CROSS} Invalid Amazon job`
+        return (
+          isTarget(title) &&
+          !urls.has(link) &&
+          (withinDays(job.createdDate?.[0]) || withinDays(job.updatedDate?.[0]))
         );
+      })
+      .map(normalizeAmazonJob);
 
-        continue;
-      }
-
-      const amazonJob = parsed.data;
-      const title = amazonJob.title?.[0] ?? "";
-      const link = `${AMAZON_CAREERS_URL}/en/jobs/${amazonJob.icimsJobId?.[0]}`;
-
-      if (
-        !isTarget(title) ||
-        urls.has(link) ||
-        (!withinDays(amazonJob.createdDate?.[0]) && !withinDays(amazonJob.updatedDate?.[0]))
-      ) {
-        continue;
-      }
-
-      jobs.push(normalizeAmazonJob(amazonJob));
-    }
-
-    return jobs;
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

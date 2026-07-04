@@ -6,6 +6,7 @@ export type ATS =
   | "oraclecloud"
   | "smartrecruiters"
   | "icims"
+  | "eightfold"
   | "custom";
 
 export interface Company {

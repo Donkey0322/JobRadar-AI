@@ -1,6 +1,9 @@
+import z from "zod";
+
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
@@ -8,13 +11,35 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
-interface LeverJob {
-  company_name: string; // company name
-  text: string; // job title
-  hostedUrl: string; // job URL
-  createdAt: number; // job creation date
-  categories: {
-    location?: string; // job location
+export const LeverJobSchema = z.object({
+  text: z.string(),
+  hostedUrl: z.string(),
+  createdAt: z.number(),
+  categories: z.object({ location: z.string().optional() }).optional(),
+});
+
+type LeverJob = z.infer<typeof LeverJobSchema>;
+
+export const LeverResponseSchema = z.array(LeverJobSchema);
+
+function getLeverJobsFromResponse(data: unknown): LeverJob[] {
+  const parsed = LeverResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Lever response`);
+
+    return [];
+  }
+
+  return parsed.data;
+}
+
+function normalizeLeverJob(job: LeverJob, companyName: string): Job {
+  return {
+    company: capitalize(companyName),
+    role: job.text,
+    link: job.hostedUrl,
+    location: job.categories?.location ?? "",
   };
 }
 
@@ -48,34 +73,13 @@ export async function fetchLever(company: Company, urls: Set<string>, signal: Ab
       return [];
     }
 
-    const data = await res.json();
+    const rawJobs = getLeverJobsFromResponse(await res.json());
 
-    if (!Array.isArray(data)) {
-      logger.warn(
-        {
-          company: company.name,
-        },
-        "⚠️ Lever invalid response format"
-      );
+    const opportunities = rawJobs
+      .filter((job) => isTarget(job.text) && !urls.has(job.hostedUrl) && withinDays(job.createdAt))
+      .map((job) => normalizeLeverJob(job, company.name));
 
-      return [];
-    }
-
-    const jobs: LeverJob[] = data.filter(
-      (job: LeverJob) =>
-        job?.text &&
-        job?.hostedUrl &&
-        isTarget(job.text) &&
-        !urls.has(job.hostedUrl) &&
-        withinDays(job.createdAt)
-    );
-
-    return jobs.map((job: LeverJob) => ({
-      company: capitalize(company.name),
-      role: job.text,
-      link: job.hostedUrl,
-      location: job.categories?.location ?? "",
-    }));
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.warn(

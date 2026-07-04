@@ -1,20 +1,16 @@
+import z from "zod";
+
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget } from "../utils";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
-
-interface WorkdayJob {
-  title: string;
-  postedOn: string;
-  locationsText: string;
-  externalPath: string;
-}
 
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;
@@ -44,6 +40,40 @@ export function urlToWorkdayCompany(url: URL): Company {
     domain: `${url.origin}/${careerPage}`,
     page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
     urls: [],
+  };
+}
+
+export const WorkdayJobSchema = z.object({
+  title: z.string(),
+  postedOn: z.string().optional(),
+  locationsText: z.string().optional(),
+  externalPath: z.string(),
+});
+
+type WorkdayJob = z.infer<typeof WorkdayJobSchema>;
+
+export const WorkdayResponseSchema = z.object({
+  jobPostings: z.array(WorkdayJobSchema),
+});
+
+function getWorkdayJobsFromResponse(data: unknown): WorkdayJob[] {
+  const parsed = WorkdayResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Workday response`);
+
+    return [];
+  }
+
+  return parsed.data.jobPostings;
+}
+
+function normalizeWorkdayJob(job: WorkdayJob, company: Company): Job {
+  return {
+    company: capitalize(company.name),
+    role: job.title,
+    link: `${company.domain}${job.externalPath}`,
+    location: job.locationsText ?? "",
   };
 }
 
@@ -126,18 +156,21 @@ export async function fetchWorkday(
         );
       }
 
-      const jobs = data.jobPostings || [];
+      const rawJobs = getWorkdayJobsFromResponse(data);
 
       // empty page
-      if (jobs.length === 0) {
+      if (rawJobs.length === 0) {
         break;
       }
 
-      results.push(...jobs);
+      results.push(...rawJobs);
 
       offset += PAGE_SIZE;
       page++;
-      hasMore = jobs.length === PAGE_SIZE && jobs[jobs.length - 1]?.postedOn === "Posted Today";
+      hasMore =
+        rawJobs.length === PAGE_SIZE &&
+        (!rawJobs[rawJobs.length - 1]?.postedOn ||
+          rawJobs[rawJobs.length - 1]?.postedOn === "Posted Today");
     }
 
     // infinite pagination protection
@@ -188,18 +221,9 @@ export async function fetchWorkday(
     return [];
   }
 
-  const jobs = results.filter(
-    (job: WorkdayJob) =>
-      job?.title &&
-      isTarget(job.title) &&
-      !urls.has(`${company.domain}${job.externalPath}`) &&
-      job.postedOn === "Posted Today"
-  );
+  const opportunities = results
+    .filter((job) => isTarget(job.title) && !urls.has(`${company.domain}${job.externalPath}`))
+    .map((job) => normalizeWorkdayJob(job, company));
 
-  return jobs.map((job: WorkdayJob) => ({
-    company: capitalize(company.name),
-    role: job.title,
-    link: `${company.domain}${job.externalPath}`,
-    location: job.locationsText ?? "",
-  }));
+  return opportunities;
 }

@@ -1,9 +1,11 @@
 import * as cheerio from "cheerio";
+import z from "zod";
 
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
@@ -25,17 +27,6 @@ const identifierMap: Record<string, string> = {
   "domino-data-lab": "dominodatalab",
 };
 
-interface GreenhouseJob {
-  company_name: string;
-  title: string;
-  absolute_url: string;
-  first_published: string;
-  updated_at: string;
-
-  location?: {
-    name: string;
-  };
-}
 function getHost(url: URL) {
   return url.hostname.replace(/^www\./, "");
 }
@@ -173,6 +164,42 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   return buildCompany(url, identifier);
 }
 
+export const GreenhouseJobSchema = z.object({
+  company_name: z.string().optional(),
+  title: z.string(),
+  absolute_url: z.string(),
+  first_published: z.string().nullish(),
+  updated_at: z.string(),
+  location: z.object({ name: z.string() }).optional(),
+});
+
+type GreenhouseJob = z.infer<typeof GreenhouseJobSchema>;
+
+export const GreenhouseResponseSchema = z.object({
+  jobs: z.array(GreenhouseJobSchema),
+});
+
+function getGreenhouseJobsFromResponse(data: unknown): GreenhouseJob[] {
+  const parsed = GreenhouseResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Greenhouse response`);
+
+    return [];
+  }
+
+  return parsed.data.jobs;
+}
+
+function normalizeGreenhouseJob(job: GreenhouseJob, companyName: string): Job {
+  return {
+    company: job.company_name || companyName,
+    role: job.title,
+    link: job.absolute_url,
+    location: job.location?.name ?? "",
+  };
+}
+
 export async function fetchGreenhouse(company: Company, urls: Set<string>, signal: AbortSignal) {
   try {
     const res = await fetch(company.page, {
@@ -185,34 +212,18 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>, signa
       return [];
     }
 
-    const data = await res.json();
+    const rawJobs = getGreenhouseJobsFromResponse(await res.json());
 
-    if (!data?.jobs) {
-      logger.warn(
-        {
-          company: company.name,
-        },
-        "⚠️ Greenhouse missing jobs field"
-      );
+    const opportunities = rawJobs
+      .filter(
+        (job) =>
+          isTarget(job.title) &&
+          !urls.has(job.absolute_url) &&
+          (withinDays(job.first_published) || withinDays(job.updated_at))
+      )
+      .map((job) => normalizeGreenhouseJob(job, company.name));
 
-      return [];
-    }
-
-    const jobs: GreenhouseJob[] = data.jobs.filter(
-      (job: GreenhouseJob) =>
-        job?.title &&
-        job?.absolute_url &&
-        isTarget(job.title) &&
-        !urls.has(job.absolute_url) &&
-        (withinDays(job.first_published) || withinDays(job.updated_at))
-    );
-
-    return jobs.map((job) => ({
-      company: job.company_name || company.name,
-      role: job.title,
-      link: job.absolute_url,
-      location: job.location?.name ?? "",
-    }));
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.warn(

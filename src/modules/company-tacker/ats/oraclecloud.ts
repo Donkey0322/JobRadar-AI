@@ -1,6 +1,9 @@
+import z from "zod";
+
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
@@ -8,11 +11,45 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
-interface OracleCloudJob {
-  Id: string;
-  Title: string;
-  PostedDate: string;
-  PrimaryLocation: string;
+export const OracleCloudJobSchema = z.object({
+  Id: z.string(),
+  Title: z.string(),
+  PostedDate: z.string(),
+  PrimaryLocation: z.string().optional(),
+});
+
+type OracleCloudJob = z.infer<typeof OracleCloudJobSchema>;
+
+export const OracleCloudResponseSchema = z.object({
+  items: z.array(
+    z.object({
+      requisitionList: z.array(OracleCloudJobSchema),
+    })
+  ),
+});
+
+function getOracleCloudJobsFromResponse(data: unknown): OracleCloudJob[] {
+  const parsed = OracleCloudResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error(
+      { data, issues: parsed.error.issues },
+      `${RED_CROSS} Invalid Oracle Cloud response`
+    );
+
+    return [];
+  }
+
+  return parsed.data.items[0]?.requisitionList ?? [];
+}
+
+function normalizeOracleCloudJob(job: OracleCloudJob, company: Company): Job {
+  return {
+    company: capitalize(company.name),
+    role: job.Title,
+    link: composeUrl(company, job.Id),
+    location: job.PrimaryLocation ?? "",
+  };
 }
 
 const identifierMap: Record<string, string> = {
@@ -113,49 +150,18 @@ export async function fetchOracleCloud(company: Company, urls: Set<string>, sign
       return [];
     }
 
-    const data = await res.json();
+    const rawJobs = getOracleCloudJobsFromResponse(await res.json());
 
-    if (!data?.items || !Array.isArray(data.items) || data.items.length === 0) {
-      logger.warn(
-        {
-          company: company.name,
-        },
-        "⚠️ Oracle Cloud missing items"
-      );
+    const opportunities = rawJobs
+      .filter(
+        (job) =>
+          isTarget(job.Title) &&
+          !urls.has(composeUrl(company, job.Id)) &&
+          withinDays(job.PostedDate)
+      )
+      .map((job) => normalizeOracleCloudJob(job, company));
 
-      return [];
-    }
-
-    const firstItem = data.items[0];
-
-    const requisitionList = firstItem?.requisitionList;
-
-    if (!Array.isArray(requisitionList)) {
-      logger.warn(
-        {
-          company: company.name,
-        },
-        "⚠️ Oracle Cloud missing requisition list"
-      );
-
-      return [];
-    }
-
-    const jobs: OracleCloudJob[] = requisitionList.filter(
-      (job: OracleCloudJob) =>
-        job?.Title &&
-        job?.Id &&
-        isTarget(job.Title) &&
-        !urls.has(composeUrl(company, job.Id)) &&
-        withinDays(job.PostedDate)
-    );
-
-    return jobs.map((job) => ({
-      company: capitalize(company.name),
-      role: job.Title,
-      link: composeUrl(company, job.Id),
-      location: job.PrimaryLocation ?? "",
-    }));
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.warn(

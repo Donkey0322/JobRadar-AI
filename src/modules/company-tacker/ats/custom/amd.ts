@@ -36,18 +36,22 @@ export const AMDJobSchema = z.object({
 
 type AMDJob = z.infer<typeof AMDJobSchema>;
 
-interface AMDJobItem {
-  data: AMDJob;
-}
-
-interface AMDResponse {
-  jobs: AMDJobItem[];
-}
+export const AMDResponseSchema = z.object({
+  jobs: z.array(z.object({ data: AMDJobSchema })),
+});
 
 const MAX_PAGES = 10;
 
-function getAMDJobsFromResponse(response: AMDResponse): AMDJob[] {
-  return response.jobs.map((item) => item.data);
+function getAMDJobsFromResponse(data: unknown): AMDJob[] {
+  const parsed = AMDResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid AMD response`);
+
+    return [];
+  }
+
+  return parsed.data.jobs.map((item) => item.data);
 }
 
 function normalizeAMDJob(job: AMDJob): Job {
@@ -71,7 +75,7 @@ export async function fetchAMD(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
-    const allJobs: Job[] = [];
+    const jobs: Job[] = [];
 
     for (let page = 1; page <= MAX_PAGES; page++) {
       const url = new URL(company.page);
@@ -93,48 +97,33 @@ export async function fetchAMD(
         break;
       }
 
-      const response = (await res.json()) as AMDResponse;
-      const rawJobs = getAMDJobsFromResponse(response);
+      const rawJobs = getAMDJobsFromResponse(await res.json());
+
       if (rawJobs.length === 0) {
         break;
       }
 
       let reachedOldJob = false;
 
-      for (const rawJob of rawJobs) {
-        const parsed = AMDJobSchema.safeParse(rawJob);
+      const opportunities = rawJobs
+        .filter((job) => {
+          if (!withinDays(job.posted_date)) {
+            reachedOldJob = true;
+            return false;
+          }
 
-        if (!parsed.success) {
-          logger.error(
-            { job: rawJob, issues: parsed.error.issues },
-            `${RED_CROSS} Invalid AMD job`
-          );
+          return isTarget(job.title) && !urls.has(`${AMD_JOB_URL}/${job.req_id}`);
+        })
+        .map(normalizeAMDJob);
 
-          continue;
-        }
-
-        const amdJob = parsed.data;
-
-        if (!withinDays(amdJob.posted_date)) {
-          reachedOldJob = true;
-          break;
-        }
-
-        const link = `${AMD_JOB_URL}/${amdJob.req_id}`;
-
-        if (!isTarget(amdJob.title) || urls.has(link)) {
-          continue;
-        }
-
-        allJobs.push(normalizeAMDJob(amdJob));
-      }
+      jobs.push(...opportunities);
 
       if (reachedOldJob) {
         break;
       }
     }
 
-    return allJobs;
+    return jobs;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

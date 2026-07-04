@@ -117,7 +117,7 @@ export async function fetchApple(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
-    const allJobs: Job[] = [];
+    const jobs: Job[] = [];
 
     for (let page = 1; page <= MAX_PAGES; page++) {
       const html = await fetchAppleHtml(company.page, page, signal);
@@ -132,28 +132,14 @@ export async function fetchApple(
         break;
       }
 
-      for (const rawJob of rawJobs) {
-        const parsed = AppleJobSchema.safeParse(rawJob);
-        if (!parsed.success) {
-          logger.error(
-            { job: rawJob, issues: parsed.error.issues },
-            `${RED_CROSS} Invalid Apple job`
-          );
+      const opportunities = rawJobs
+        .filter((job) => isTarget(job.title) && !urls.has(job.link))
+        .map(normalizeAppleJob);
 
-          continue;
-        }
-
-        const appleJob = parsed.data;
-
-        if (!isTarget(appleJob.title) || urls.has(appleJob.link)) {
-          continue;
-        }
-
-        allJobs.push(normalizeAppleJob(appleJob));
-      }
+      jobs.push(...opportunities);
     }
 
-    return allJobs;
+    return jobs;
   } catch (error) {
     if (error instanceof Error && error.name === "TimeoutError") {
       logger.error(

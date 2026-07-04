@@ -5,6 +5,7 @@ import type { Job } from "@/types";
 
 import { getJobKey } from "../job-dedup";
 
+import { fetchEightfold } from "./ats/eightfold";
 import {
   fetchAshby,
   fetchCustom,
@@ -64,6 +65,10 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
 
     case "icims":
       jobs = await fetchIcims(company, urls, signal);
+      break;
+
+    case "eightfold":
+      jobs = await fetchEightfold(company, urls, signal);
       break;
 
     default:

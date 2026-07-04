@@ -32,17 +32,30 @@ export const MicrosoftJobSchema = z.object({
 
 type MicrosoftJob = z.infer<typeof MicrosoftJobSchema>;
 
-interface MicrosoftJobsResponse {
-  data?: {
-    positions?: MicrosoftJob[];
-  };
-}
+export const MicrosoftResponseSchema = z.object({
+  data: z
+    .object({
+      positions: z.array(MicrosoftJobSchema),
+    })
+    .optional(),
+});
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
 
-function getMicrosoftJobsFromResponse(data: MicrosoftJobsResponse): MicrosoftJob[] {
-  return data.data?.positions ?? [];
+function getMicrosoftJobsFromResponse(data: unknown): MicrosoftJob[] {
+  const parsed = MicrosoftResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error(
+      { data, issues: parsed.error.issues },
+      `${RED_CROSS} Invalid Microsoft response`
+    );
+
+    return [];
+  }
+
+  return parsed.data.data?.positions ?? [];
 }
 
 function normalizeMicrosoftJob(job: MicrosoftJob): Job {
@@ -76,8 +89,7 @@ export async function fetchMicrosoft(
         break;
       }
 
-      const data = (await res.json()) as MicrosoftJobsResponse;
-      const rawJobs = getMicrosoftJobsFromResponse(data);
+      const rawJobs = getMicrosoftJobsFromResponse(await res.json());
 
       if (rawJobs.length === 0) {
         break;
@@ -85,33 +97,18 @@ export async function fetchMicrosoft(
 
       let reachedOldJob = false;
 
-      for (const rawJob of rawJobs) {
-        const parsed = MicrosoftJobSchema.safeParse(rawJob);
+      const opportunities = rawJobs
+        .filter((job) => {
+          if (!withinDays(job.creationTs * 1000) && !withinDays(job.postedTs * 1000)) {
+            reachedOldJob = true;
+            return false;
+          }
 
-        if (!parsed.success) {
-          logger.error(
-            { job: rawJob, issues: parsed.error.issues },
-            `${RED_CROSS} Invalid Microsoft job`
-          );
+          return isTarget(job.name) && !urls.has(`${MICROSOFT_CAREERS_URL}/${job.positionUrl}`);
+        })
+        .map(normalizeMicrosoftJob);
 
-          continue;
-        }
-
-        const msJob = parsed.data;
-
-        if (!withinDays(msJob.creationTs * 1000) && !withinDays(msJob.postedTs * 1000)) {
-          reachedOldJob = true;
-          break;
-        }
-
-        const link = `${MICROSOFT_CAREERS_URL}/${msJob.positionUrl}`;
-
-        if (!isTarget(msJob.name) || urls.has(link)) {
-          continue;
-        }
-
-        jobs.push(normalizeMicrosoftJob(msJob));
-      }
+      jobs.push(...opportunities);
 
       if (reachedOldJob) {
         break;

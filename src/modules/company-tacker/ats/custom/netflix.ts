@@ -32,15 +32,23 @@ export const NetflixJobSchema = z.object({
 
 type NetflixJob = z.infer<typeof NetflixJobSchema>;
 
-interface NetflixResponse {
-  positions: NetflixJob[];
-}
+export const NetflixResponseSchema = z.object({
+  positions: z.array(NetflixJobSchema),
+});
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
 
-function getNetflixJobsFromResponse(data: NetflixResponse): NetflixJob[] {
-  return data.positions ?? [];
+function getNetflixJobsFromResponse(data: unknown): NetflixJob[] {
+  const parsed = NetflixResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Netflix response`);
+
+    return [];
+  }
+
+  return parsed.data.positions;
 }
 
 function normalizeNetflixJob(job: NetflixJob): Job {
@@ -58,7 +66,7 @@ export async function fetchNetflix(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
-    const allJobs: Job[] = [];
+    const jobs: Job[] = [];
 
     for (let page = 0; page < MAX_PAGES; page++) {
       const url = new URL(company.page);
@@ -81,39 +89,25 @@ export async function fetchNetflix(
         break;
       }
 
-      const data = (await res.json()) as NetflixResponse;
-      const rawJobs = getNetflixJobsFromResponse(data);
+      const rawJobs = getNetflixJobsFromResponse(await res.json());
 
       if (rawJobs.length === 0) {
         break;
       }
 
-      for (const rawJob of rawJobs) {
-        const parsed = NetflixJobSchema.safeParse(rawJob);
-        if (!parsed.success) {
-          logger.error(
-            { job: rawJob, issues: parsed.error.issues },
-            `${RED_CROSS} Invalid Netflix job`
-          );
+      const opportunities = rawJobs
+        .filter(
+          (job) =>
+            isTarget(job.posting_name) &&
+            !urls.has(job.canonicalPositionUrl) &&
+            (withinDays(job.t_create) || withinDays(job.t_update))
+        )
+        .map(normalizeNetflixJob);
 
-          continue;
-        }
-
-        const netflixJob = parsed.data;
-
-        if (
-          !isTarget(netflixJob.posting_name) ||
-          urls.has(netflixJob.canonicalPositionUrl) ||
-          (!withinDays(netflixJob.t_create) && !withinDays(netflixJob.t_update))
-        ) {
-          continue;
-        }
-
-        allJobs.push(normalizeNetflixJob(netflixJob));
-      }
+      jobs.push(...opportunities);
     }
 
-    return allJobs;
+    return jobs;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

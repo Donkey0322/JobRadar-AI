@@ -32,13 +32,17 @@ export const MetaJobSchema = z.object({
 
 type MetaJob = z.infer<typeof MetaJobSchema>;
 
-interface MetaJobsResponse {
-  data?: {
-    job_search_with_featured_jobs?: {
-      all_jobs?: MetaJob[];
-    };
-  };
-}
+export const MetaResponseSchema = z.object({
+  data: z
+    .object({
+      job_search_with_featured_jobs: z
+        .object({
+          all_jobs: z.array(MetaJobSchema),
+        })
+        .optional(),
+    })
+    .optional(),
+});
 
 function extractLsd(html: string): string | null {
   const patterns = [
@@ -131,17 +135,19 @@ async function getMetaSession(url: string, signal: AbortSignal) {
   };
 }
 
-function getMetaJobsFromResponse(data: MetaJobsResponse): MetaJob[] {
-  return data.data?.job_search_with_featured_jobs?.all_jobs ?? [];
-}
+function getMetaJobsFromResponse(data: unknown): MetaJob[] {
+  const parsed = MetaResponseSchema.safeParse(data);
 
-function normalizeMetaJob(job: MetaJob): Job | null {
-  const link = job.id ? `${META_DETAILS_URL}/${job.id}` : "";
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Meta response`);
 
-  if (!link) {
-    return null;
+    return [];
   }
 
+  return parsed.data.data?.job_search_with_featured_jobs?.all_jobs ?? [];
+}
+
+function normalizeMetaJob(job: MetaJob): Job {
   const location = !job.locations?.length
     ? ""
     : job.locations
@@ -152,7 +158,8 @@ function normalizeMetaJob(job: MetaJob): Job | null {
   return {
     company: "Meta",
     role: job.title ?? "",
-    link,
+    // id is guaranteed by the filter step
+    link: `${META_DETAILS_URL}/${job.id}`,
     location,
   };
 }
@@ -228,37 +235,18 @@ export async function fetchMeta(
       throw new Error(`Meta GraphQL failed: ${res.status} ${raw.slice(0, 300)}`);
     }
 
-    const data = JSON.parse(cleanMetaJson(raw)) as MetaJobsResponse;
-    const rawJobs = getMetaJobsFromResponse(data);
-    const jobs: Job[] = [];
+    const rawJobs = getMetaJobsFromResponse(JSON.parse(cleanMetaJson(raw)));
 
-    for (const rawJob of rawJobs) {
-      const parsed = MetaJobSchema.safeParse(rawJob);
+    const opportunities = rawJobs
+      .filter((job) => {
+        const title = job.title ?? "";
+        const link = job.id ? `${META_DETAILS_URL}/${job.id}` : null;
 
-      if (!parsed.success) {
-        logger.error({ job: rawJob, issues: parsed.error.issues }, `${RED_CROSS} Invalid Meta job`);
+        return !!(link && isTarget(title) && !urls.has(link));
+      })
+      .map(normalizeMetaJob);
 
-        continue;
-      }
-
-      const metaJob = parsed.data;
-      const title = metaJob.title ?? "";
-      const link = metaJob.id ? `${META_DETAILS_URL}/${metaJob.id}` : "";
-
-      if (!isTarget(title) || !link || urls.has(link)) {
-        continue;
-      }
-
-      const job = normalizeMetaJob(metaJob);
-
-      if (!job) {
-        continue;
-      }
-
-      jobs.push(job);
-    }
-
-    return jobs;
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

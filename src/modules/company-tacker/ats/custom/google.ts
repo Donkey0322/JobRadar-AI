@@ -90,7 +90,7 @@ export async function fetchGoogle(
   urls: Set<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
-  const allJobs: Job[] = [];
+  const jobs: Job[] = [];
 
   for (let page = 1; page <= 20; page++) {
     const url = new URL(company.page);
@@ -105,33 +105,18 @@ export async function fetchGoogle(
       break;
     }
 
-    const html = await res.text();
-    const rawJobs = getGoogleJobsFromPage(html);
+    const rawJobs = getGoogleJobsFromPage(await res.text());
+
     if (rawJobs.length === 0) {
       break;
     }
 
-    for (const rawJob of rawJobs) {
-      const parsed = GoogleJobSchema.safeParse(rawJob);
+    const opportunities = rawJobs
+      .filter((job) => isTarget(job.role) && !urls.has(job.link))
+      .map(normalizeGoogleJob);
 
-      if (!parsed.success) {
-        logger.error(
-          { job: rawJob, issues: parsed.error.issues },
-          `${RED_CROSS} Invalid Google job`
-        );
-
-        continue;
-      }
-
-      const googleJob = parsed.data;
-
-      if (!isTarget(googleJob.role) || urls.has(googleJob.link)) {
-        continue;
-      }
-
-      allJobs.push(normalizeGoogleJob(googleJob));
-    }
+    jobs.push(...opportunities);
   }
 
-  return allJobs;
+  return jobs;
 }

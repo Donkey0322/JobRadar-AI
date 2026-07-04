@@ -1,6 +1,6 @@
 /**
- * Contract tests — hit live endpoints and assert raw response items parse
- * successfully against the Zod schema defined in each fetcher module.
+ * Contract tests — hit live endpoints and assert the raw response parses
+ * successfully against the Zod response schema defined in each fetcher module.
  *
  * These tests require network access and are intentionally slow.
  * Run in isolation:
@@ -10,15 +10,15 @@
 import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 
-import { AdobeCompany, AdobeJobSchema } from "./adobe";
-import { AmazonCompany, AmazonJobSchema } from "./amazon";
-import { AMDCompany, AMDJobSchema } from "./amd";
-import { AppleCompany, AppleJobSchema, parseAppleJobs } from "./apple";
+import { AdobeCompany, AdobeJobSchema, AdobeResponseSchema } from "./adobe";
+import { AmazonCompany, AmazonResponseSchema } from "./amazon";
+import { AMDCompany, AMDResponseSchema } from "./amd";
+import { AppleCompany, parseAppleJobs } from "./apple";
 import { GoogleCompany, GoogleJobSchema } from "./google";
-import { MetaCompany, MetaJobSchema } from "./meta";
-import { MicrosoftCompany, MicrosoftJobSchema } from "./microsoft";
-import { NetflixCompany, NetflixJobSchema } from "./netflix";
-import { TikTokCompany, TikTokJobSchema } from "./tiktok";
+import { MetaCompany, MetaResponseSchema } from "./meta";
+import { MicrosoftCompany, MicrosoftResponseSchema } from "./microsoft";
+import { NetflixCompany, NetflixResponseSchema } from "./netflix";
+import { TikTokCompany, TikTokResponseSchema } from "./tiktok";
 
 const TIMEOUT = 30_000;
 
@@ -28,7 +28,7 @@ const TIMEOUT = 30_000;
 
 describe("Amazon", () => {
   it(
-    "first job matches AmazonJobSchema",
+    "response matches AmazonResponseSchema",
     async () => {
       const res = await fetch(AmazonCompany.page, {
         method: "POST",
@@ -42,13 +42,12 @@ describe("Amazon", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const data = (await res.json()) as { searchHits: { fields: unknown }[] };
-      const jobs = data.searchHits?.map(({ fields }) => fields) ?? [];
-
-      expect(jobs.length, "expected at least one job in response").toBeGreaterThan(0);
-
-      const result = AmazonJobSchema.safeParse(jobs[0]);
+      const result = AmazonResponseSchema.safeParse(await res.json());
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+      expect(
+        result.data!.searchHits.length,
+        "expected at least one job in response"
+      ).toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -60,7 +59,7 @@ describe("Amazon", () => {
 
 describe("Netflix", () => {
   it(
-    "first position matches NetflixJobSchema",
+    "response matches NetflixResponseSchema",
     async () => {
       const url = new URL(NetflixCompany.page);
       url.searchParams.set("sort_by", "new");
@@ -72,13 +71,12 @@ describe("Netflix", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const data = (await res.json()) as { positions: unknown[] };
-      const positions = data.positions ?? [];
-
-      expect(positions.length, "expected at least one position in response").toBeGreaterThan(0);
-
-      const result = NetflixJobSchema.safeParse(positions[0]);
+      const result = NetflixResponseSchema.safeParse(await res.json());
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+      expect(
+        result.data!.positions.length,
+        "expected at least one position in response"
+      ).toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -90,7 +88,7 @@ describe("Netflix", () => {
 
 describe("Microsoft", () => {
   it(
-    "first position matches MicrosoftJobSchema",
+    "response matches MicrosoftResponseSchema",
     async () => {
       const url = new URL(MicrosoftCompany.page);
       url.searchParams.set("start", "0");
@@ -100,13 +98,12 @@ describe("Microsoft", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const data = (await res.json()) as { data?: { positions?: unknown[] } };
-      const positions = data.data?.positions ?? [];
-
-      expect(positions.length, "expected at least one position in response").toBeGreaterThan(0);
-
-      const result = MicrosoftJobSchema.safeParse(positions[0]);
+      const result = MicrosoftResponseSchema.safeParse(await res.json());
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+      expect(
+        result.data!.data?.positions?.length ?? 0,
+        "expected at least one position in response"
+      ).toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -118,7 +115,7 @@ describe("Microsoft", () => {
 
 describe("AMD", () => {
   it(
-    "first job matches AMDJobSchema",
+    "response matches AMDResponseSchema",
     async () => {
       const url = new URL(AMDCompany.page);
       url.pathname = "/api/jobs";
@@ -133,13 +130,9 @@ describe("AMD", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const data = (await res.json()) as { jobs: { data: unknown }[] };
-      const jobs = data.jobs?.map((item) => item.data) ?? [];
-
-      expect(jobs.length, "expected at least one job in response").toBeGreaterThan(0);
-
-      const result = AMDJobSchema.safeParse(jobs[0]);
+      const result = AMDResponseSchema.safeParse(await res.json());
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+      expect(result.data!.jobs.length, "expected at least one job in response").toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -151,7 +144,7 @@ describe("AMD", () => {
 
 describe("TikTok", () => {
   it(
-    "first job post matches TikTokJobSchema",
+    "response matches TikTokResponseSchema",
     async () => {
       const res = await fetch(TikTokCompany.page, {
         method: "POST",
@@ -176,16 +169,13 @@ describe("TikTok", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const json = (await res.json()) as { code: number; data?: { job_post_list?: unknown[] } };
-
-      expect(json.code, "expected success code 0").toBe(0);
-
-      const posts = json.data?.job_post_list ?? [];
-
-      expect(posts.length, "expected at least one job post in response").toBeGreaterThan(0);
-
-      const result = TikTokJobSchema.safeParse(posts[0]);
+      const result = TikTokResponseSchema.safeParse(await res.json());
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+      expect(result.data!.code, "expected success code 0").toBe(0);
+      expect(
+        result.data!.data?.job_post_list?.length ?? 0,
+        "expected at least one job post in response"
+      ).toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -213,20 +203,16 @@ describe("Apple", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const html = await res.text();
-      const jobs = parseAppleJobs(html);
+      const jobs = parseAppleJobs(await res.text());
 
       expect(jobs.length, "expected parseAppleJobs to return at least one job").toBeGreaterThan(0);
-
-      const result = AppleJobSchema.safeParse(jobs[0]);
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
     },
     TIMEOUT
   );
 });
 
 // ---------------------------------------------------------------------------
-// Google  (HTML scraper — uses exported GoogleJobSchema + inline cheerio)
+// Google  (HTML scraper — inline cheerio, no response schema)
 // ---------------------------------------------------------------------------
 
 describe("Google", () => {
@@ -241,9 +227,7 @@ describe("Google", () => {
 
       expect(res.ok, `HTTP ${res.status}`).toBe(true);
 
-      const html = await res.text();
-      const $ = cheerio.load(html);
-
+      const $ = cheerio.load(await res.text());
       const anchor = $("a[href*='jobs/results/']").first();
 
       expect(anchor.length, "expected at least one job result link on page").toBeGreaterThan(0);
@@ -272,14 +256,13 @@ describe("Google", () => {
         location = parts.slice(1).join("|").trim();
       }
 
-      const rawJob = {
+      const result = GoogleJobSchema.safeParse({
         role,
         company: jobCompany,
         location,
         link: `https://www.google.com/about/careers/applications/${href}`,
-      };
+      });
 
-      const result = GoogleJobSchema.safeParse(rawJob);
       expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
     },
     TIMEOUT
@@ -309,7 +292,7 @@ describe("Meta", () => {
   );
 
   it.todo(
-    "first job matches MetaJobSchema — needs getMetaSession exported to replicate GraphQL call"
+    "GraphQL response matches MetaResponseSchema — needs getMetaSession exported to replicate the authenticated call"
   );
 });
 
@@ -343,10 +326,11 @@ describe("Adobe", () => {
   );
 
   it.todo(
-    "first job matches AdobeJobSchema — needs getAdobeSession + ADOBE_WIDGETS_URL exported to replicate POST call"
+    "widgets response matches AdobeResponseSchema — needs getAdobeSession + ADOBE_WIDGETS_URL exported to replicate the authenticated POST"
   );
 });
 
 // Suppress unused import warning — schemas are referenced in .todo descriptions
-void MetaJobSchema;
+void MetaResponseSchema;
 void AdobeJobSchema;
+void AdobeResponseSchema;

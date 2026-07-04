@@ -35,17 +35,30 @@ export const TikTokJobSchema = z.object({
 
 type TikTokJob = z.infer<typeof TikTokJobSchema>;
 
-type TikTokSearchResponse = {
-  code: number;
-  message?: string;
-  data?: {
-    total?: number;
-    job_post_list?: TikTokJob[];
-  };
-};
+export const TikTokResponseSchema = z.object({
+  code: z.number(),
+  data: z
+    .object({
+      total: z.number().optional(),
+      job_post_list: z.array(TikTokJobSchema),
+    })
+    .optional(),
+});
 
-function getTikTokJobsFromResponse(json: TikTokSearchResponse): TikTokJob[] {
-  return json.data?.job_post_list ?? [];
+function getTikTokJobsFromResponse(data: unknown): TikTokJob[] {
+  const parsed = TikTokResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid TikTok response`);
+
+    return [];
+  }
+
+  if (parsed.data.code !== 0) {
+    return [];
+  }
+
+  return parsed.data.data?.job_post_list ?? [];
 }
 
 function normalizeTikTokJob(job: TikTokJob): Job {
@@ -91,38 +104,13 @@ export async function fetchTikTok(
       return [];
     }
 
-    const json = (await res.json()) as TikTokSearchResponse;
+    const rawJobs = getTikTokJobsFromResponse(await res.json());
 
-    if (json.code !== 0) {
-      return [];
-    }
+    const opportunities = rawJobs
+      .filter((job) => isTarget(job.title) && !urls.has(`${TIKTOK_CAREERS_URL}/${job.id}`))
+      .map(normalizeTikTokJob);
 
-    const rawJobs = getTikTokJobsFromResponse(json);
-    const jobs: Job[] = [];
-
-    for (const rawJob of rawJobs) {
-      const parsed = TikTokJobSchema.safeParse(rawJob);
-
-      if (!parsed.success) {
-        logger.error(
-          { job: rawJob, issues: parsed.error.issues },
-          `${RED_CROSS} Invalid TikTok job`
-        );
-
-        continue;
-      }
-
-      const tiktokJob = parsed.data;
-      const link = `${TIKTOK_CAREERS_URL}/${tiktokJob.id}`;
-
-      if (!isTarget(tiktokJob.title) || urls.has(link)) {
-        continue;
-      }
-
-      jobs.push(normalizeTikTokJob(tiktokJob));
-    }
-
-    return jobs;
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.error(

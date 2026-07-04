@@ -38,13 +38,13 @@ export const AdobeJobSchema = z.object({
 
 type AdobeJob = z.infer<typeof AdobeJobSchema>;
 
-interface AdobeJobsResponse {
-  refineSearch?: {
-    data?: {
-      jobs?: AdobeJob[];
-    };
-  };
-}
+export const AdobeResponseSchema = z.object({
+  refineSearch: z.object({
+    data: z.object({
+      jobs: z.array(AdobeJobSchema),
+    }),
+  }),
+});
 
 interface AdobeSession {
   csrfToken: string;
@@ -148,8 +148,22 @@ function normalizeAdobeJob(job: AdobeJob): Job {
   };
 }
 
-function getAdobeJobsFromResponse(data: AdobeJobsResponse): AdobeJob[] {
-  return data.refineSearch?.data?.jobs ?? [];
+function getAdobeJobsFromResponse(data: unknown): AdobeJob[] {
+  const parsed = AdobeResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error(
+      {
+        data,
+        issues: parsed.error.issues,
+      },
+      `${RED_CROSS} Invalid Adobe response`
+    );
+
+    return [];
+  }
+
+  return parsed.data.refineSearch.data.jobs;
 }
 
 function createAdobeRequestBody(page: number) {
@@ -239,10 +253,10 @@ async function fetchAdobePage(
     );
   }
 
-  let data: AdobeJobsResponse;
+  let data;
 
   try {
-    data = JSON.parse(raw) as AdobeJobsResponse;
+    data = JSON.parse(raw);
   } catch {
     throw new Error(
       `Adobe widgets returned invalid JSON on page ${page + 1}: ${raw.slice(0, 300)}`
@@ -271,38 +285,17 @@ export async function fetchAdobe(
 
       let reachedOldJob = false;
 
-      for (const rawJob of rawJobs) {
-        const parsed = AdobeJobSchema.safeParse(rawJob);
+      const opportunities = rawJobs
+        .filter((job) => {
+          if (!withinDays(job.postedDate, 2)) {
+            reachedOldJob = true;
+            return false;
+          }
+          return isTarget(job.title) && !urls.has(getAdobeJobLink(job));
+        })
+        .map(normalizeAdobeJob);
 
-        if (!parsed.success) {
-          logger.error(
-            {
-              job: rawJob,
-              issues: parsed.error.issues,
-            },
-            `${RED_CROSS} Invalid Adobe job`
-          );
-
-          continue;
-        }
-
-        const adobeJob = parsed.data;
-
-        /*
-         * Results are sorted by postedDate descending.
-         * Once an old job appears, subsequent jobs/pages should be older.
-         */
-        if (!withinDays(adobeJob.postedDate, 2)) {
-          reachedOldJob = true;
-          break;
-        }
-
-        if (!isTarget(adobeJob.title) || urls.has(getAdobeJobLink(adobeJob))) {
-          continue;
-        }
-
-        jobs.push(normalizeAdobeJob(adobeJob));
-      }
+      jobs.push(...opportunities);
 
       if (reachedOldJob || rawJobs.length < PAGE_SIZE) {
         break;

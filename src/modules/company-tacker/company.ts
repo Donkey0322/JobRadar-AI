@@ -8,6 +8,7 @@ import type { Company } from "./type";
 
 import { urlToAshbyCompany } from "./ats/ashby";
 import { urlToCustomCompany } from "./ats/custom";
+import { urlToEightfoldCompany } from "./ats/eightfold";
 import { urlToGreenhouseCompany } from "./ats/greenhouse";
 import { urlToIcimsCompany } from "./ats/icims";
 import { urlToLeverCompany } from "./ats/lever";
@@ -42,6 +43,8 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
         return urlToIcimsCompany(url);
       case "oraclecloud":
         return await urlToOracleCloudCompany(url);
+      case "eightfold":
+        return urlToEightfoldCompany(url);
       case "custom":
         return urlToCustomCompany(url);
       default:

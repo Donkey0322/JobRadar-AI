@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import z from "zod";
 
 import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
@@ -10,6 +11,23 @@ import { isTarget } from "../utils";
 
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
+
+export const IcimsJobSchema = z.object({
+  title: z.string(),
+  link: z.string(),
+  location: z.string(),
+});
+
+type IcimsJob = z.infer<typeof IcimsJobSchema>;
+
+function normalizeIcimsJob(job: IcimsJob, company: Company): Job {
+  return {
+    company: capitalize(company.name),
+    role: job.title,
+    link: job.link,
+    location: job.location,
+  };
+}
 
 const MAX_PAGES = 1;
 
@@ -187,14 +205,9 @@ async function resolveSearchPage(company: Company, signal: AbortSignal): Promise
   return company.page;
 }
 
-function extractJobsFromSearchHtml(
-  html: string,
-  pageUrl: URL,
-  company: Company,
-  seenUrls: Set<string>
-): Job[] {
+function getIcimsJobsFromPage(html: string, pageUrl: URL): IcimsJob[] {
   const $ = cheerio.load(html);
-  const jobs: Job[] = [];
+  const jobs: IcimsJob[] = [];
 
   $("a[href*='/jobs/'][href*='/job']").each((_, el) => {
     const href = $(el).attr("href");
@@ -204,14 +217,11 @@ function extractJobsFromSearchHtml(
     const id = getIcimsJobId(link);
     if (!id) return;
 
-    if (seenUrls.has(link)) return;
-
-    // grep heading
     const heading = $(el).find("h3").text();
     if (!heading) return;
 
-    const role = cleanText(heading);
-    if (!role) return;
+    const title = cleanText(heading);
+    if (!title) return;
 
     const card = $(el).closest(
       [
@@ -228,15 +238,7 @@ function extractJobsFromSearchHtml(
     const cardText = cleanText(card.text());
     const location = getLocationFromCard(cardText);
 
-    const job: Job = {
-      company: capitalize(company.name),
-      role,
-      link,
-      location,
-    };
-
-    seenUrls.add(link);
-    jobs.push(job);
+    jobs.push({ title, link, location });
   });
 
   return jobs;
@@ -266,16 +268,24 @@ export async function fetchIcims(
       const html = await fetchHtml(pageUrl.toString(), signal);
       if (!html) break;
 
-      const pageJobs = extractJobsFromSearchHtml(html, pageUrl, company, seenUrls);
+      const rawJobs = getIcimsJobsFromPage(html, pageUrl);
 
-      if (pageJobs.length === 0) break;
+      if (rawJobs.length === 0) break;
 
-      allJobs.push(...pageJobs);
+      const opportunities = rawJobs
+        .filter((job) => {
+          if (!isTarget(job.title) || seenUrls.has(job.link)) return false;
+          seenUrls.add(job.link);
+          return true;
+        })
+        .map((job) => normalizeIcimsJob(job, company));
+
+      allJobs.push(...opportunities);
     }
   } catch {
     logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
     return [];
   }
 
-  return allJobs.filter((job) => isTarget(job.role));
+  return allJobs;
 }

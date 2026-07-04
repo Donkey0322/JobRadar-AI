@@ -1,7 +1,10 @@
+import z from "zod";
+
 import { SMART_RECRUITERS_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
+import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
@@ -9,15 +12,41 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
-interface SmartRecruitersJob {
-  id: string;
-  name: string;
-  company: {
-    name: string;
-  };
-  releasedDate: string;
-  location: {
-    fullLocation: string;
+export const SmartRecruitersJobSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  company: z.object({ name: z.string() }).optional(),
+  releasedDate: z.string(),
+  location: z.object({ fullLocation: z.string().optional() }).optional(),
+});
+
+type SmartRecruitersJob = z.infer<typeof SmartRecruitersJobSchema>;
+
+export const SmartRecruitersResponseSchema = z.object({
+  content: z.array(SmartRecruitersJobSchema),
+});
+
+function getSmartRecruitersJobsFromResponse(data: unknown): SmartRecruitersJob[] {
+  const parsed = SmartRecruitersResponseSchema.safeParse(data);
+
+  if (!parsed.success) {
+    logger.error(
+      { data, issues: parsed.error.issues },
+      `${RED_CROSS} Invalid SmartRecruiters response`
+    );
+
+    return [];
+  }
+
+  return parsed.data.content;
+}
+
+function normalizeSmartRecruitersJob(job: SmartRecruitersJob, company: Company): Job {
+  return {
+    company: capitalize(job.company?.name ?? ""),
+    role: job.name,
+    link: `${company.domain}/${company.name}/${job.id}`,
+    location: job.location?.fullLocation ?? "",
   };
 }
 
@@ -50,25 +79,18 @@ export async function fetchSmartRecruiters(
       return [];
     }
 
-    const data = await res.json();
+    const rawJobs = getSmartRecruitersJobsFromResponse(await res.json());
 
-    if (!data.content) {
-      return [];
-    }
+    const opportunities = rawJobs
+      .filter(
+        (job) =>
+          isTarget(job.name) &&
+          !urls.has(`${company.domain}/${company.name}/${job.id}`) &&
+          withinDays(job.releasedDate)
+      )
+      .map((job) => normalizeSmartRecruitersJob(job, company));
 
-    const jobs: SmartRecruitersJob[] = data.content.filter(
-      (job: SmartRecruitersJob) =>
-        isTarget(job.name) &&
-        !urls.has(`${company.domain}/${company.name}/${job.id}`) &&
-        withinDays(job.releasedDate)
-    );
-
-    return jobs.map((job) => ({
-      company: capitalize(job.company.name ?? ""),
-      role: job.name,
-      link: `${company.domain}/${company.name}/${job.id}`,
-      location: job.location?.fullLocation ?? "",
-    }));
+    return opportunities;
   } catch (error) {
     if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
       logger.warn(

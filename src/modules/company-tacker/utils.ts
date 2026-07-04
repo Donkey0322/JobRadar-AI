@@ -291,8 +291,8 @@ export function isTarget(title: string) {
   return status;
 }
 
-export function withinDays(date: string | number | undefined, days = 1) {
-  if (date == null) return false;
+export function withinDays(date: string | number | undefined | null, days = 1) {
+  if (date === "" || date === null || date === undefined) return false;
 
   const value =
     typeof date === "number"
