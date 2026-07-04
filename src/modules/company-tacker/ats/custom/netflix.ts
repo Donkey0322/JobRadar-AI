@@ -6,7 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
-import { isTarget } from "../../utils";
+import { isTarget, withinDays } from "../../utils";
 
 import { logger } from "@/utils/logger";
 
@@ -26,6 +26,8 @@ export const NetflixJobSchema = z.object({
   posting_name: z.string(),
   location: z.string(),
   canonicalPositionUrl: z.string(),
+  t_create: z.number(),
+  t_update: z.number(),
 });
 
 type NetflixJob = z.infer<typeof NetflixJobSchema>;
@@ -34,8 +36,8 @@ interface NetflixResponse {
   positions: NetflixJob[];
 }
 
-const PAGE_SIZE = 10;
-const MAX_PAGES = 10;
+const PAGE_SIZE = 100;
+const MAX_PAGES = 5;
 
 function getNetflixJobsFromResponse(data: NetflixResponse): NetflixJob[] {
   return data.positions ?? [];
@@ -88,7 +90,6 @@ export async function fetchNetflix(
 
       for (const rawJob of rawJobs) {
         const parsed = NetflixJobSchema.safeParse(rawJob);
-
         if (!parsed.success) {
           logger.error(
             { job: rawJob, issues: parsed.error.issues },
@@ -100,7 +101,11 @@ export async function fetchNetflix(
 
         const netflixJob = parsed.data;
 
-        if (!isTarget(netflixJob.posting_name) || urls.has(netflixJob.canonicalPositionUrl)) {
+        if (
+          !isTarget(netflixJob.posting_name) ||
+          urls.has(netflixJob.canonicalPositionUrl) ||
+          (!withinDays(netflixJob.t_create) && !withinDays(netflixJob.t_update))
+        ) {
           continue;
         }
 

@@ -6,7 +6,7 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
-import { isTarget } from "../../utils";
+import { isTarget, withinDays } from "../../utils";
 
 import { logger } from "@/utils/logger";
 
@@ -48,15 +48,6 @@ const MAX_PAGES = 10;
 
 function getAMDJobsFromResponse(response: AMDResponse): AMDJob[] {
   return response.jobs.map((item) => item.data);
-}
-
-function isPostedToday(postedDate?: string): boolean {
-  if (!postedDate) return false;
-
-  const today = new Date().toISOString().slice(0, 10);
-  const postedDay = new Date(postedDate).toISOString().slice(0, 10);
-
-  return postedDay === today;
 }
 
 function normalizeAMDJob(job: AMDJob): Job {
@@ -108,7 +99,7 @@ export async function fetchAMD(
         break;
       }
 
-      let hasNonTodayJob = false;
+      let reachedOldJob = false;
 
       for (const rawJob of rawJobs) {
         const parsed = AMDJobSchema.safeParse(rawJob);
@@ -124,9 +115,9 @@ export async function fetchAMD(
 
         const amdJob = parsed.data;
 
-        if (!isPostedToday(amdJob.posted_date)) {
-          hasNonTodayJob = true;
-          continue;
+        if (!withinDays(amdJob.posted_date)) {
+          reachedOldJob = true;
+          break;
         }
 
         const link = `${AMD_JOB_URL}/${amdJob.req_id}`;
@@ -138,7 +129,7 @@ export async function fetchAMD(
         allJobs.push(normalizeAMDJob(amdJob));
       }
 
-      if (hasNonTodayJob) {
+      if (reachedOldJob) {
         break;
       }
     }

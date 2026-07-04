@@ -83,7 +83,7 @@ export async function fetchMicrosoft(
         break;
       }
 
-      let hasRecentJob = false;
+      let reachedOldJob = false;
 
       for (const rawJob of rawJobs) {
         const parsed = MicrosoftJobSchema.safeParse(rawJob);
@@ -98,22 +98,22 @@ export async function fetchMicrosoft(
         }
 
         const msJob = parsed.data;
-        const link = `${MICROSOFT_CAREERS_URL}/${msJob.positionUrl}`;
 
-        const isRecent = withinDays(msJob.creationTs * 1000) || withinDays(msJob.postedTs * 1000);
-
-        if (isRecent) {
-          hasRecentJob = true;
+        if (!withinDays(msJob.creationTs * 1000) && !withinDays(msJob.postedTs * 1000)) {
+          reachedOldJob = true;
+          break;
         }
 
-        if (!isTarget(msJob.name) || urls.has(link) || !isRecent) {
+        const link = `${MICROSOFT_CAREERS_URL}/${msJob.positionUrl}`;
+
+        if (!isTarget(msJob.name) || urls.has(link)) {
           continue;
         }
 
         jobs.push(normalizeMicrosoftJob(msJob));
       }
 
-      if (!hasRecentJob) {
+      if (reachedOldJob) {
         break;
       }
     }

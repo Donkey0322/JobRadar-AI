@@ -7,10 +7,9 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company } from "../../type";
 import type { Job } from "@/types";
 
-import { isTarget } from "../../utils";
+import { isTarget, withinDays } from "../../utils";
 
 import { logger } from "@/utils/logger";
-import { getToday } from "@/utils/string";
 
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
 
@@ -64,12 +63,8 @@ export function parseAppleJobs(html: string): AppleJob[] {
       normalizeText(card.find(".table--advanced-search__location-sub").first().text()) || null;
 
     const postedAt = normalizeText(card.find(".job-posted-date").first().text()) || null;
-    const postedAtDate = new Date(postedAt ?? "");
-    const currentDate = new Date(getToday());
-    const difference = currentDate.getTime() - postedAtDate.getTime();
-    const differenceDays = Math.ceil(difference / (1000 * 60 * 60 * 24));
 
-    if (differenceDays <= 3) {
+    if (withinDays(postedAt ?? "", 2)) {
       jobs.push({
         title,
         link: new URL(href, APPLE_CAREERS_URL).toString(),
