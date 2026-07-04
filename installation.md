@@ -346,7 +346,7 @@ Actions → Community Sync Pipeline → Run workflow
 This runs:
 
 ```bash
-pnpm jobctl sync community
+pnpm jobctl sync
 ```
 
 It parses community-maintained GitHub job lists and commits new job data if anything changed.
@@ -368,7 +368,7 @@ Actions → ATS Discovery Pipeline → Run workflow
 This runs:
 
 ```bash
-pnpm jobctl sync discover
+pnpm jobctl scan
 ```
 
 It discovers jobs from supported ATS/company sources and commits new job data if anything changed.
@@ -608,10 +608,10 @@ Estimated cost per JD: about $0.00275
 Approximate cost:
 
 | Jobs analyzed | Approx cost |
-|---:|---:|
-| 100 jobs | ~$0.28 |
-| 1,000 jobs | ~$2.75 |
-| 10,000 jobs | ~$27.50 |
+| ------------: | ----------: |
+|      100 jobs |      ~$0.28 |
+|    1,000 jobs |      ~$2.75 |
+|   10,000 jobs |     ~$27.50 |
 
 This is only a rough estimate. Actual cost may vary based on prompt size, JD length, model, provider, retries, and pricing changes.
 
@@ -825,13 +825,13 @@ ISSUE_BODY="$(cat issue-body.md)" pnpm jobctl setup get-config
 Sync community sources:
 
 ```bash
-pnpm jobctl sync community
+pnpm jobctl sync
 ```
 
 Run ATS discovery:
 
 ```bash
-pnpm jobctl sync discover
+pnpm jobctl scan
 ```
 
 Update README:

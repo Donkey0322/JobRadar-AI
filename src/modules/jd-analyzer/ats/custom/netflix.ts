@@ -1,8 +1,8 @@
 import { ABORT_SIGNAL } from "@/constants";
-import { NETFLIX_API_URL } from "@/constants/ats";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
+import { NETFLIX_API_URL } from "@/modules/company-tacker/ats/custom/netflix";
 import { getLastPathNumber } from "@/modules/job-dedup/utils";
 
 export async function fetchNetflixJD(

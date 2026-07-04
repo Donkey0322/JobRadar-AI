@@ -6,27 +6,22 @@ program.name("jobradar");
 
 const sync = program.command("sync");
 
-sync
-  .command("community")
-  .description("Sync jobs from community sources")
-  .action(async () => {
-    const { default: checkConfig } = await import("./setup/checkConfig");
-    await checkConfig();
+sync.description("Sync jobs from community sources").action(async () => {
+  const { default: checkConfig } = await import("./setup/checkConfig");
+  await checkConfig();
 
-    const { default: syncCommunity } = await import("./sync/community");
-    await syncCommunity();
-  });
+  const { default: syncCommunity } = await import("./sync/community");
+  await syncCommunity();
+});
 
-sync
-  .command("discover")
-  .description("Discover jobs from ATS patterns")
-  .action(async () => {
-    const { default: checkConfig } = await import("./setup/checkConfig");
-    await checkConfig();
+const scan = program.command("scan");
+scan.description("Scan jobs from ATS patterns").action(async () => {
+  const { default: checkConfig } = await import("./setup/checkConfig");
+  await checkConfig();
 
-    const { default: syncDiscover } = await import("./sync/discover");
-    await syncDiscover();
-  });
+  const { default: syncDiscover } = await import("./sync/discover");
+  await syncDiscover();
+});
 
 const notify = program.command("notify");
 

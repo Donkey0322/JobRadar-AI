@@ -55,7 +55,7 @@ jobs:
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
         run: |
-          pnpm jobctl sync discover
+          pnpm jobctl scan
 
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT

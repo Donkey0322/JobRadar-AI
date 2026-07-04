@@ -10,7 +10,7 @@ import { isTarget } from "../../utils";
 
 import { logger } from "@/utils/logger";
 
-const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
+export const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
 
 export const NetflixCompany = {
   name: "Netflix",

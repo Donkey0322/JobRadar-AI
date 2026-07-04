@@ -4624,6 +4624,16 @@
     ]
   },
   {
+    "name": "careers",
+    "ats": "greenhouse",
+    "identifier": "careers",
+    "domain": "https://careers.dat.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
+    "urls": [
+      "https://careers.dat.com/jobs/6007145004?gh_jid=6007145004"
+    ]
+  },
+  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -11042,14 +11052,6 @@
     ]
   },
   {
-    "name": "ibkr",
-    "ats": "greenhouse",
-    "identifier": "ibkr",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/ibkr/jobs",
-    "urls": []
-  },
-  {
     "name": "ibmglobal.avature.net",
     "ats": "custom",
     "identifier": "ibmglobal.avature.net",
@@ -14021,7 +14023,8 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556864900"
     ]
   },
   {
@@ -20535,14 +20538,6 @@
     ]
   },
   {
-    "name": "transcarent",
-    "ats": "greenhouse",
-    "identifier": "transcarent",
-    "domain": "https://boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/transcarent/jobs",
-    "urls": []
-  },
-  {
     "name": "transmarketgroup",
     "ats": "greenhouse",
     "identifier": "transmarketgroup",
@@ -21408,14 +21403,6 @@
     "identifier": "fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
     "page": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": []
-  },
-  {
-    "name": "verition",
-    "ats": "greenhouse",
-    "identifier": "verition",
-    "domain": "https://www.verition.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/verition/jobs",
     "urls": []
   },
   {

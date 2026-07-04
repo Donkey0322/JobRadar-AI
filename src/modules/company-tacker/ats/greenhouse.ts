@@ -268,3 +268,7 @@ export async function fetchGreenhouse(company: Company, urls: Set<string>, signa
     ]
   },
  */
+
+urlToGreenhouseCompany(new URL("https://www.verition.com/open-positions?gh_jid=5170160007")).then(
+  console.log
+);
