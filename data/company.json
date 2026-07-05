@@ -41,9 +41,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4669789006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -609,6 +607,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -8485,7 +8484,8 @@
     "urls": [
       "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/India-Hyderabad-DVS-SEZ-1--Orion-B4-FL-78911-Hyderabad---Divyasree-3/Cloud-Engineer_R32479",
       "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/India-Hyderabad-DVS-SEZ-1--Orion-B4-FL-78911-Hyderabad---Divyasree-3/Software-Engineer-III---C---ASPNET-Core--Postgres--SQL-Server--Kubernetes_R32213",
-      "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/So-Paulo-BRA/Software-Engineer-I--JavaScript--TypeScript--NodeJS--Hybrid-_R32302"
+      "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/So-Paulo-BRA/Software-Engineer-I--JavaScript--TypeScript--NodeJS--Hybrid-_R32302",
+      "https://factset.wd108.myworkdayjobs.com/factsetcareers/job/India-Hyderabad-DVS-SEZ-1--Orion-B4-FL-78911-Hyderabad---Divyasree-3/AI-Developer-Enablement-Engineer_R32477"
     ]
   },
   {
@@ -11497,10 +11497,10 @@
     "domain": "https://invesco.wd1.myworkdayjobs.com/ivz",
     "page": "https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/ivz/jobs",
     "urls": [
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Boston-Massachusetts/UI-Engineer_R-14561",
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Houston-Texas/Microsoft-365-Engineer--Purview---AI_R-14279-1",
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Adv-Analyst-I--Infra-CX_R-14277",
-      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Cloud-Security-Engineer---I_R-14520",
-      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Boston-Massachusetts/UI-Engineer_R-14561"
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Cloud-Security-Engineer---I_R-14520"
     ]
   },
   {
@@ -14031,7 +14031,8 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556875827"
     ]
   },
   {
@@ -15204,7 +15205,8 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer---Performance-Lab_JR2019929",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2015188",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2016197",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Raanana/Software-Storage-Developer-Student_JR2019115"
     ]
   },
   {
@@ -17717,10 +17719,10 @@
     "page": "https://sartorius.wd3.myworkdayjobs.com/wday/cxs/sartorius/sartoriuscareers/jobs",
     "urls": [
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Ann-Arbor-MI-United-States-of-America/AI-Deployment-Engineer_R40050-1",
+      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Beit-HaEmek/Data-Scientist_R39994",
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Guxhagen/Process-Automation-Engineer--x-f-m-_R40444",
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Guxhagen/Software-Engineer--x-f-m--AI_R40790",
-      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Home-Office-Illinois/Field-Service-Engineer---Remote---Chicago-Area_R38723-1",
-      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Beit-HaEmek/Data-Scientist_R39994"
+      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Home-Office-Illinois/Field-Service-Engineer---Remote---Chicago-Area_R38723-1"
     ]
   },
   {
@@ -19175,13 +19177,13 @@
     "page": "https://ssctech.wd1.myworkdayjobs.com/wday/cxs/ssctech/ssctechnologies/jobs",
     "urls": [
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Engineer_R38205",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA/Software-Development-Engineer-in-Test_R43484",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bucharest-Romania/Software-Quality-Engineer_R43663",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Kansas-City---Broadway-Square-Garage/IVA-Software-Engineer-PA2026Q2JB011_R43474-1",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Kansas-City-MO/Cloud-Engineer_R40402",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/AI-Led-Product-Researcher---Designer_R44891",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London-UK---20-Birchin-Lane/Infrastructure-Production-Engineer--PA26Q2IEJH78-_R42902",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA/Software-Development-Engineer-in-Test_R43484",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bucharest-Romania/Software-Quality-Engineer_R43663"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419"
     ]
   },
   {
