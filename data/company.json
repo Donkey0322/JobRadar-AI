@@ -36,6 +36,16 @@
     "urls": []
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4669789006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers",
@@ -599,7 +609,6 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -11490,7 +11499,8 @@
     "urls": [
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Houston-Texas/Microsoft-365-Engineer--Purview---AI_R-14279-1",
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Adv-Analyst-I--Infra-CX_R-14277",
-      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Cloud-Security-Engineer---I_R-14520"
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Cloud-Security-Engineer---I_R-14520",
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Boston-Massachusetts/UI-Engineer_R-14561"
     ]
   },
   {
@@ -17709,7 +17719,8 @@
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Ann-Arbor-MI-United-States-of-America/AI-Deployment-Engineer_R40050-1",
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Guxhagen/Process-Automation-Engineer--x-f-m-_R40444",
       "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Guxhagen/Software-Engineer--x-f-m--AI_R40790",
-      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Home-Office-Illinois/Field-Service-Engineer---Remote---Chicago-Area_R38723-1"
+      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Home-Office-Illinois/Field-Service-Engineer---Remote---Chicago-Area_R38723-1",
+      "https://sartorius.wd3.myworkdayjobs.com/sartoriuscareers/job/Beit-HaEmek/Data-Scientist_R39994"
     ]
   },
   {
@@ -19168,7 +19179,9 @@
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Kansas-City-MO/Cloud-Engineer_R40402",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/AI-Led-Product-Researcher---Designer_R44891",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London-UK---20-Birchin-Lane/Infrastructure-Production-Engineer--PA26Q2IEJH78-_R42902",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA/Software-Development-Engineer-in-Test_R43484",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bucharest-Romania/Software-Quality-Engineer_R43663"
     ]
   },
   {
@@ -20282,6 +20295,8 @@
     "domain": "https://lifeattiktok.com",
     "page": "https://api.lifeattiktok.com/api/v1/public/supplier/search/job/posts",
     "urls": [
+      "https://lifeattiktok.com/7190596060623063356",
+      "https://lifeattiktok.com/7658044127750834437",
       "https://lifeattiktok.com/search/6843942799873329416",
       "https://lifeattiktok.com/search/6958741357503007006",
       "https://lifeattiktok.com/search/7046198999003154701",
@@ -20483,9 +20498,7 @@
       "https://lifeattiktok.com/search/7654431844394322229",
       "https://lifeattiktok.com/search/7654717965712099637",
       "https://lifeattiktok.com/search/7654730223138654469",
-      "https://lifeattiktok.com/search/7657889445472913669",
-      "https://lifeattiktok.com/7658044127750834437",
-      "https://lifeattiktok.com/7190596060623063356"
+      "https://lifeattiktok.com/search/7657889445472913669"
     ]
   },
   {
