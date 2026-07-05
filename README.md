@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 351 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (2,292)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (2,294)</b></summary>
 
   <br />
 
-  <h3>Mid Level (1,308)</h3>
+  <h3>Mid Level (1,309)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Mercor</td>
+      <td width="420" align="left" valign="top">Software Engineer, Fraud</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/mercor/4d817fa9-8860-4063-9da7-f484569ed1dc"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 5</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Ssctech</td>
       <td width="420" align="left" valign="top">Software Development Engineer in Test</td>
@@ -711,18 +718,11 @@
       <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Manufacturing-Software-Integration-Engineer-_2026-20428-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Process Engineer- Inspection Systems</td>
-      <td width="180" align="left" valign="top">Lewiston, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/sel/job/Idaho---Lewiston/Process-Engineer--Inspection-Systems_2026-20290"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,308 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,309 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (984)</h3>
+  <h3>Senior Level (985)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Wexinc</td>
+      <td width="420" align="left" valign="top">Software Development Engineer 4</td>
+      <td width="180" align="left" valign="top">Portland, ME</td>
+      <td width="120" align="left" valign="top"><a href="https://wexinc.wd5.myworkdayjobs.com/wexinc/job/Portland-ME/Software-Development-Engineer-4_R22147"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 5</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Invesco</td>
       <td width="420" align="left" valign="top">UI Engineer</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://premera.wd5.myworkdayjobs.com/premera/job/Mountlake-Terrace-WA/Site-Reliability-Engineer-IV_R28853"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Parsons</td>
-      <td width="420" align="left" valign="top">Aerospace Quality Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Torrance, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---CA-Torrance/Aerospace-Quality-Systems-Engineer_R182514"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 984 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 985 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-05T18:19:33.211Z</code>
+      🕒 Last updated <code>2026-07-05T19:52:47.639Z</code>
     </span>
   </p>
 </div>
