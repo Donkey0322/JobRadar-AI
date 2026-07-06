@@ -417,6 +417,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">United Launch Alliance</td>
+      <td width="420" align="left" valign="top">Trajectory Simulation Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Centennial, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ulalaunch.com/job/Centennial-Trajectory-Simulation-Software-Engineer-1-CO-80112/1406055600/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ngc</td>
       <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
@@ -549,16 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1901"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">2026 Raytheon Full Time- Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Marlborough, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/XMLNAME-2026-Raytheon-Full-Time--Software-Engineer-I--Onsite-_01844319"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 388 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 389 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (2,513)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-06T22:46:51.161Z</code>
+      🕒 Last updated <code>2026-07-06T23:35:13.878Z</code>
     </span>
   </p>
 </div>
