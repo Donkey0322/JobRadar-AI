@@ -417,6 +417,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Systems Modeling and Simulation Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-San-Diego/Systems-Modeling-and-Simulation-Engineer_R10238199"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Abbott</td>
       <td width="420" align="left" valign="top">IT Business Systems Analyst</td>
       <td width="180" align="left" valign="top">Waukegan, IL</td>
@@ -549,23 +556,16 @@
       <td width="120" align="left" valign="top"><a href="https://chamberlain.wd1.myworkdayjobs.com/chamberlain_group/job/Oak-Brook-IL/Software-Engineer-I---AI_JR30291"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Psu</td>
-      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">State College, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://psu.wd1.myworkdayjobs.com/psu_staff/job/Penn-State-University-Park/Software-Engineer_REQ_0000079261-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 396 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 397 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (2,550)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (2,552)</b></summary>
 
   <br />
 
-  <h3>Mid Level (1,442)</h3>
+  <h3>Mid Level (1,444)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Openai</td>
+      <td width="420" align="left" valign="top">Software Engineer, Codex Security</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/eefeb527-4e36-432e-a787-88e4672e29e1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Envista</td>
+      <td width="420" align="left" valign="top">Automation &amp; Controls Engineer</td>
+      <td width="180" align="left" valign="top">Pomona, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://envista.wd1.myworkdayjobs.com/envistacareers/job/United-States-of-America--California--Pomona/Automation---Controls-Engineer_R5026710"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">SpaceX</td>
       <td width="420" align="left" valign="top">Software Engineer (Starshield) - Top Secret Clearance<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -704,23 +718,9 @@
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8621463002?gh_jid=8621463002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nwis</td>
-      <td width="420" align="left" valign="top">Cloud Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Virginia Beach, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://nwis.wd12.myworkdayjobs.com/nw/job/Virginia-Beach-VA/Cloud-Engineer_JR101783"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
-      <td width="420" align="left" valign="top">Software Engineer - AI Research Clusters</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Software-Engineer---AI-Research-Clusters_JR2017905"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,442 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,444 opportunities in this section.</sub></p>
 
   <h3>Senior Level (1,108)</h3>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-07T05:11:38.556Z</code>
+      🕒 Last updated <code>2026-07-07T08:50:40.333Z</code>
     </span>
   </p>
 </div>
