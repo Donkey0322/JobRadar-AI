@@ -104,7 +104,7 @@ function getEightfoldJobsFromResponse(data: unknown): EightfoldJob[] {
 }
 
 const getEightfoldJobLink = (company: Company, job: EightfoldJob): string => {
-  return `${company.domain}${job.positionUrl}`;
+  return `${new URL(company.page).origin}${job.positionUrl.startsWith("/") ? job.positionUrl : `/${job.positionUrl}`}`;
 };
 
 function normalizeEightfoldJob(job: EightfoldJob, company: Company): Job {

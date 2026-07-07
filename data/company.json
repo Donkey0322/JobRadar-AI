@@ -4929,16 +4929,6 @@
     "urls": []
   },
   {
-    "name": "careers.deere.com",
-    "ats": "custom",
-    "identifier": "careers.deere.com",
-    "domain": "https://careers.deere.com",
-    "page": "",
-    "urls": [
-      "https://careers.deere.com/careers?domain=johndeere.com&query=software&start=0&pid=137478288123&sort_by=relevance&filter_seniority=0"
-    ]
-  },
-  {
     "name": "careers.dexcom.com",
     "ats": "custom",
     "identifier": "careers.dexcom.com",
@@ -4982,29 +4972,6 @@
     "ats": "custom",
     "identifier": "careers.duolingo.com",
     "domain": "https://careers.duolingo.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.expediagroup.com",
-    "ats": "custom",
-    "identifier": "careers.expediagroup.com",
-    "domain": "https://careers.expediagroup.com",
-    "page": "",
-    "urls": [
-      "https://careers.expediagroup.com/jobs/job/?Cloud+Engineering+Intern+-+2026+-+Austin%2C+San+Jose-Austin-Texas-j-R-98634=",
-      "https://careers.expediagroup.com/jobs/job/?Machine+Learning+Science+Intern+-+Masters+-+2026+-+Austin%2C+San+Jose-Austin-Texas-j-R-98584=",
-      "https://careers.expediagroup.com/jobs/job/?Machine+Learning+Science+Intern+-+PhD+-+2026+-+Austin%2C+San+Jose-Austin-Texas-j-R-98585=",
-      "https://careers.expediagroup.com/jobs/job/?Mobile+Engineering+Intern+-+2026+-+Austin%2C+San+Jose-Austin-Texas-j-R-98637=",
-      "https://careers.expediagroup.com/jobs/job/?Security+Engineering+Intern+-+2026+-+Seattle-Seattle-Washington-j-R-98636=",
-      "https://careers.expediagroup.com/jobs/job/?Software+Development+Engineering+Intern+-+2026+-+Austin%2C+San+Jose%2C+Seattle-Austin-Texas-j-R-98557="
-    ]
-  },
-  {
-    "name": "careers.fedex.com",
-    "ats": "custom",
-    "identifier": "careers.fedex.com",
-    "domain": "https://careers.fedex.com",
     "page": "",
     "urls": []
   },
@@ -5352,16 +5319,6 @@
       "https://careers.qorvo.com/job/Richardson-Data-Engineering-Intern-TX-75081/1333265100/?ats=successfactors",
       "https://careers.qorvo.com/job/Richardson-Software-Engineer-Intern-TX-75081/1324617700/?ats=successfactors",
       "https://careers.qorvo.com/job/Richardson-Software-Engineering-Intern-TX-75081/1321539500/?ats=successfactors"
-    ]
-  },
-  {
-    "name": "careers.qualcomm.com",
-    "ats": "custom",
-    "identifier": "careers.qualcomm.com",
-    "domain": "https://careers.qualcomm.com",
-    "page": "",
-    "urls": [
-      "https://careers.qualcomm.com/careers?query=software&start=0&pid=446716309588&sort_by=relevance"
     ]
   },
   {
@@ -8842,6 +8799,14 @@
     ]
   },
   {
+    "name": "fedex",
+    "ats": "workday",
+    "identifier": "fedex-fxe_apac_external",
+    "domain": "https://fedex.wd1.myworkdayjobs.com/fxe_apac_external",
+    "page": "https://fedex.wd1.myworkdayjobs.com/wday/cxs/fedex/fxe_apac_external/jobs",
+    "urls": []
+  },
+  {
     "name": "fenwick",
     "ats": "workday",
     "identifier": "fenwick-fenwick_external_careers",
@@ -11023,6 +10988,16 @@
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/FL-Working-at-Home---Florida/Software-Engineer_J283080",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Epic-Clindoc-Systems-Analyst_J283079",
       "https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15222-PAP-Penn-Avenue-Place/Physical-Security-Intelligence-Analyst_J283754"
+    ]
+  },
+  {
+    "name": "Hilton",
+    "ats": "oraclecloud",
+    "identifier": "efet.fa.us2.oraclecloud.com",
+    "domain": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/jobs/job",
+    "page": "https://efet.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1009%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/jobs/job/213354"
     ]
   },
   {
@@ -14517,11 +14492,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556834019",
       "https://apply.careers.microsoft.com/careers/job/1970393556851162",
       "https://jobs.careers.microsoft.com//careers/job/1970393556864900",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556867395",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556869757",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556873191",
       "https://jobs.careers.microsoft.com//careers/job/1970393556875827",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556915128",
       "https://jobs.careers.microsoft.com/global/en/job/1860947/Software-Engineer%3A-Fullstack-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860979/Software-Engineer%3A-AI%2FML-Intern-Opportunities-for-University-Students%2C-Redmond",
       "https://jobs.careers.microsoft.com/global/en/job/1860982/Software-Engineer%3A-Systems-Intern-Opportunities-for-University-Students%2C-Redmond",
@@ -14547,7 +14518,8 @@
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
       "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
       "https://jobs.careers.microsoft.com//careers/job/1970393556924710",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556876290"
+      "https://jobs.careers.microsoft.com//careers/job/1970393556876290",
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
     ]
   },
   {
@@ -15765,7 +15737,8 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Yokneam/Software-Validation-Engineer_JR2011195"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Israel-Yokneam/Software-Validation-Engineer_JR2011195",
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1"
     ]
   },
   {
