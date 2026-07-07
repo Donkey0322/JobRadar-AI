@@ -42,10 +42,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -657,6 +654,8 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -1247,6 +1246,16 @@
     "urls": []
   },
   {
+    "name": "amgen",
+    "ats": "workday",
+    "identifier": "amgen-careers",
+    "domain": "https://amgen.wd1.myworkdayjobs.com/careers",
+    "page": "https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/careers/jobs",
+    "urls": [
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424"
+    ]
+  },
+  {
     "name": "amn",
     "ats": "workday",
     "identifier": "amn-amn_careers",
@@ -1313,9 +1322,9 @@
       "https://jobs.lever.co/anavationllc/00a3f2b4-439a-458d-81c8-374a3aeced9a",
       "https://jobs.lever.co/anavationllc/0911df83-11a7-4a8d-800f-273992a6a00c",
       "https://jobs.lever.co/anavationllc/50a8c2a3-bfb0-4903-85cd-e91cc86d58ce/apply",
+      "https://jobs.lever.co/anavationllc/812273a4-7b85-4a6e-ba4f-dc46de749642",
       "https://jobs.lever.co/anavationllc/a3b73ff5-1556-4963-aef6-39881a5cda0e",
-      "https://jobs.lever.co/anavationllc/b02e29da-415b-4eda-add4-2df4efb71290",
-      "https://jobs.lever.co/anavationllc/812273a4-7b85-4a6e-ba4f-dc46de749642"
+      "https://jobs.lever.co/anavationllc/b02e29da-415b-4eda-add4-2df4efb71290"
     ]
   },
   {
@@ -1384,6 +1393,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/4948330007?gh_jid=4948330007",
       "https://boards.greenhouse.io/andurilindustries/jobs/4951384007?gh_jid=4951384007",
       "https://boards.greenhouse.io/andurilindustries/jobs/4954307007?gh_jid=4954307007",
+      "https://boards.greenhouse.io/andurilindustries/jobs/4954374007?gh_jid=4954374007",
       "https://boards.greenhouse.io/andurilindustries/jobs/4959625007?gh_jid=4959625007",
       "https://boards.greenhouse.io/andurilindustries/jobs/4961005007?gh_jid=4961005007",
       "https://boards.greenhouse.io/andurilindustries/jobs/4961987007?gh_jid=4961987007",
@@ -1620,8 +1630,7 @@
       "https://boards.greenhouse.io/andurilindustries/jobs/5179765007?gh_jid=5179765007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5180557007?gh_jid=5180557007",
       "https://boards.greenhouse.io/andurilindustries/jobs/5180570007?gh_jid=5180570007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/5181436007?gh_jid=5181436007",
-      "https://boards.greenhouse.io/andurilindustries/jobs/4954374007?gh_jid=4954374007"
+      "https://boards.greenhouse.io/andurilindustries/jobs/5181436007?gh_jid=5181436007"
     ]
   },
   {
@@ -6807,10 +6816,10 @@
     "page": "https://costar.wd1.myworkdayjobs.com/wday/cxs/costar/costarcareers/jobs",
     "urls": [
       "https://costar.wd1.myworkdayjobs.com/costarcareers/job/Melbourne/DevOps-Engineer_R39295-1",
+      "https://costar.wd1.myworkdayjobs.com/costarcareers/job/Orange-County---CA/Homescom---Android-Engineer--Kotlin-_R39281",
       "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Arlington/Software-Engineer--CoStar--Arlington--VA_R39289",
       "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Arlington/Threat-Detection-Security-Engineer_R38787",
-      "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond/Corporate-Security-Systems-Engineer--Project-Management---CoStar-Group---Richmond--VA_R38936",
-      "https://costar.wd1.myworkdayjobs.com/costarcareers/job/Orange-County---CA/Homescom---Android-Engineer--Kotlin-_R39281"
+      "https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-VA-Richmond/Corporate-Security-Systems-Engineer--Project-Management---CoStar-Group---Richmond--VA_R38936"
     ]
   },
   {
@@ -7574,8 +7583,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Data-Engineer_10153287",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10152518",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10153787",
-      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384",
-      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988-2"
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988-2",
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384"
     ]
   },
   {
@@ -7610,8 +7619,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Senior-Software-Engineer_10149909-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Sr-Data-Engineer_10147075-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10153787-1",
-      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384-1",
-      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988"
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988",
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384-1"
     ]
   },
   {
@@ -9256,6 +9265,7 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Columbus-Ohio/Enterprise-Browser-Engineer_R-10388499-1",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Dublin-Ireland/Senior-Automation-Engineer_R-10373237",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Hazelwood-Missouri/Full-Stack-NET-Software-Developer_R-10384796",
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/King-of-Prussia-Pennsylvania/Sr-Software-Engineer---Java_R-10391582",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/King-of-Prussia-Pennsylvania/Sr-Software-Engineer---Java_R-10396925",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/King-of-Prussia-Pennsylvania/Sr-Software-Engineer---Java_R-10397122",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Lincoln-Nebraska/ETL-Data-Conversion-Analyst_R-10383962",
@@ -9273,8 +9283,7 @@
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Pune---Trion-Business-Park-India/Advisor--Systems-Engineering--DevOps-Engineer-_R-10392182",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sao-Paulo---Paulista-Brazil/AI---Process-Engineering---Advisor-I_R-10396973",
       "https://fiserv.wd5.myworkdayjobs.com/ext/job/Sunnyvale-California/Sr-Full-Stack-Engineer_R-10393014",
-      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Tokyo-Roppongi/UX-Designer--Japan_R-10383642",
-      "https://fiserv.wd5.myworkdayjobs.com/ext/job/King-of-Prussia-Pennsylvania/Sr-Software-Engineer---Java_R-10391582"
+      "https://fiserv.wd5.myworkdayjobs.com/ext/job/Tokyo-Roppongi/UX-Designer--Japan_R-10383642"
     ]
   },
   {
@@ -9753,6 +9762,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-DC-Washington/Data-Engineer_RQ216675",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-DC-Washington/PKI-Systems-Engineer---active-Top-Secret-required_RQ222201-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-FL-MacDill-AFB/F5-Technician_RQ212482-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-FL-MacDill-AFB/ServiceNow-Platform-Engineer_RQ223705-2",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-FL-MacDill-AFB/ServiceNow-Software-Engineer_RQ220543-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-HI-Camp-Smith/Software-Engineer-SME_RQ223041-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-HI-Camp-Smith/Systems-Engineer-SME_RQ223004",
@@ -9764,6 +9774,8 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Desktop-Systems-Engineer---TS-SCI-with-Polygraph_RQ222358-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/DevOps-Engineer_RQ222911",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/DevSecOps-Engineer-for-Artificial-Intelligence-and-Machine-Learning--AI-ML-_RQ223624",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Front-End-Developer_RQ223554-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Front-End-Developer_RQ223582-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Front-End-Developer_RQ223651",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Information-Systems-Security-Officer---TS-SCI-w-Poly_RQ217612",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Junior-Software-Developer--Active-TS-SCI-with-Poly-Required-_RQ212931",
@@ -9845,10 +9857,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ222910-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ223122-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Jr-DevOps-Engineer_RQ223735-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-FL-MacDill-AFB/ServiceNow-Platform-Engineer_RQ223705-2",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Front-End-Developer_RQ223554-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Front-End-Developer_RQ223582-1"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1"
     ]
   },
   {
@@ -10514,10 +10523,12 @@
       "https://www.google.com/about/careers/applications/jobs/results/114559798032114374-security-engineer-google-distributed-cloud-airgapped-compliance?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/114709059956810438-tpu-soc-design-engineer-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/114738878203470534-security-software-engineer-emerging-onprem-ai-infrastructure?sort_by=date&page=7",
+      "https://www.google.com/about/careers/applications/jobs/results/115054220708586182-soc-quality-and-reliability-engineer-google-cloud?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/115209209972171462-software-engineer-content-safety?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/115272698178740934-software-engineer-pixel-audio-experience-and-intelligence?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/115371701469881030-customer-engineer-platform-dach-fsi-google-cloud?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/115393339515118278-data-engineer-global-affairs?sort_by=date&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/115569891662013126-security-analyst?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/115595744143909574-mobile-software-engineer-google-pay?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/115677919753183942-financial-analyst-i-cloud-central?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/115763491607847622-silicon-emulation-engineer-google-cloud?sort_by=date&page=4",
@@ -10554,6 +10565,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/123068169047679686-software-engineer-gdc-networking-google-cloud?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/123121984987898566-practice-customer-engineer-migrations-database-and-data-analytics-google-cloud?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/123209606615704262-ai-customer-engineer-manufacturing-google-cloud?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/123693083568022214-software-engineer-engprod-google-one-and-google-photos?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/123732076502360774-security-engineer-third-party-security-diligence?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/123996096731980486-privacy-and-security-technical-assurance-risk-compliance-and-integrity?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/124010349580952262-software-engineer-iceberg-managed-tables-bigquery?sort_by=date&page=1",
@@ -10594,15 +10606,19 @@
       "https://www.google.com/about/careers/applications/jobs/results/131772936032789190-security-engineer-enterprise-data-protection-team?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/131961132909765318-genai-forward-deployed-engineer-google-cloud-english-korean?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/132235907737494214-ux-researcher-youtube-trust-and-safety?sort_by=date&page=10",
+      "https://www.google.com/about/careers/applications/jobs/results/132300060590252742-partner-forward-deployed-engineer-google-cloud-french-german?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/132481206204670662-forward-deployed-engineer-i-google-cloud-consulting-french-german?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/132505669264646854-customer-engineer-platform-google-cloud?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/132528223211659974-partner-forward-deployed-engineer-google-cloud-french-german?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/132671243475133126-data-center-engineer-modular-structures?sort_by=date&page=9",
       "https://www.google.com/about/careers/applications/jobs/results/132728901263598278-web-solutions-engineer-youtube?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/132808132672791238-associate-regulatory-counsel-content-consumer-protection-and-ai?sort_by=date&page=13",
       "https://www.google.com/about/careers/applications/jobs/results/133170355182150342-customer-engineer-platform-startups-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/133199079923425990-fullstack-web-developer?sort_by=date&page=5",
+      "https://www.google.com/about/careers/applications/jobs/results/133584290171495110-data-center-electrical-engineer-data-center-services?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/133586520333263558-data-engineer?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/133611212100248262-ux-designer-google-ads-acquisitions?sort_by=date&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/133637066729628358-software-engineer-firmware?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/133721869785146054-asic-formal-verification-engineer-google-cloud?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/133976185536160454-silicon-validation-engineer-google-cloud?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/133998725524529862-financial-analyst-android?sort_by=date&page=3",
@@ -10612,6 +10628,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/134619859399910086-data-center-facilities-engineer-electrical?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/134731487747416774-silicon-validation-engineer-google-cloud?sort_by=date&page=15",
       "https://www.google.com/about/careers/applications/jobs/results/134735570113831622-presilicon-validation-engineer-cloud-silicon?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/134787155892282054-business-data-scientist-applied-machine-learning-gcs?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/134851841320985286-data-center-facilities-technician-controls?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/134973509154546374-product-specialist-web-ecosystem-partnerships?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/134984615939973830-data-center-facilities-engineer-mechanical-english?sort_by=date&page=8",
@@ -10668,6 +10685,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/72864858965451462-incident-response-consultant-cyber-security?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/72924878985929414-top-customer-solutions-engineer-database-storage-google-cloud-english-mandarin?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/72933262762091206-web-application-engineer?sort_by=date&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/73144135992648390-ai-customer-engineer-conglomerates-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/73194847107719878-software-engineer-embedded-pixel-graphics?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/73331603798926022-software-engineer-serverless-networking?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/73509256531190470-data-center-controls-engineering-cybersecurity?sort_by=date&page=1",
@@ -10683,6 +10701,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/75540308883841734-software-engineer-firmware-pixel-video?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/75756059150426822-software-engineer-tv-systems?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/75893322010239686-software-developer-enterprise-chat-google-cloud?sort_by=date&page=16",
+      "https://www.google.com/about/careers/applications/jobs/results/76140305178337990-ai-outcome-customer-engineer-forward-deployed-engineering?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/76209989948973766-chip-cad-devops-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/76251069163676358-developer-relations-engineer-chrome-ai?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/76265324160131782-silicon-aiml-dft-engineer-google-cloud?sort_by=date&page=3",
@@ -10694,9 +10713,11 @@
       "https://www.google.com/about/careers/applications/jobs/results/76775832562868934-customer-engineer-generative-ai-english-portuguese?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/76806086312501958-software-engineer-apps-pixel?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/76908711519363782-software-engineer-systems-research-phd-early-career?sort_by=date&page=4",
+      "https://www.google.com/about/careers/applications/jobs/results/77010018875908806-data-center-plant-engineer-electrical?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/77115079144678086-dft-engineer-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/77174102632080070-asic-design-verification-engineer-google-cloud?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/77197244016534214-rtl-design-engineer-tpu-integration-and-automation?sort_by=date&page=11",
+      "https://www.google.com/about/careers/applications/jobs/results/77383852829352646-software-engineer-full-stack-pixel-weather?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/77388406568428230-strategic-cyber-security-consultant?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/77674771365405382-practice-customer-engineer-migrations-infrastructure-and-app-google-cloud?sort_by=date&page=10",
       "https://www.google.com/about/careers/applications/jobs/results/77708961452565190-data-scientist-research-multiple-openings?sort_by=date&page=1",
@@ -10707,6 +10728,8 @@
       "https://www.google.com/about/careers/applications/jobs/results/78140402728608454-silicon-physical-verification-engineer-google-cloud?sort_by=date&page=5",
       "https://www.google.com/about/careers/applications/jobs/results/78154257219363526-software-engineer-android-platform-google-beam?sort_by=date&page=20",
       "https://www.google.com/about/careers/applications/jobs/results/78175570994569926-software-engineer-backend-google-photos?sort_by=date&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/78186496317629126-antenna-systems-engineer-pixel-wearables?sort_by=date&page=7",
+      "https://www.google.com/about/careers/applications/jobs/results/78496146279801542-customer-engineer-platform-google-cloud-polish?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/78509838635541190-customer-engineer-platform-public-sector-google-cloud?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/79062947745145542-platform-customer-engineer-manufacturing?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/79074971506090694-research-software-engineer-computer-vision?sort_by=date&page=2",
@@ -10731,6 +10754,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/84904595041460934-forward-deployed-engineer-genai-google-cloud-japanese-english?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/84981079819068102-software-engineer-open-source-security?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/85036168042685126-embedded-software-engineer-debugging-and-tracing-analytics-silicon?sort_by=date&page=9",
+      "https://www.google.com/about/careers/applications/jobs/results/85504845712106182-software-engineer-digital-identity-google-wallet?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/85507075873874630-software-engineer-storage?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/85513917756777158-data-center-facilities-technician-electrical?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/85591413898519238-tpu-rtl-design-engineer-cloud?sort_by=date&page=11",
@@ -10758,6 +10782,7 @@
       "https://www.google.com/about/careers/applications/jobs/results/89302209908351686-safety-and-security-specialist?sort_by=date&page=20",
       "https://www.google.com/about/careers/applications/jobs/results/89423123975152326-forward-deployed-engineer-genai-google-cloud?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/89607358744797894-smart-nic-software-engineer-embedded?sort_by=date&page=3",
+      "https://www.google.com/about/careers/applications/jobs/results/89751159618577094-developer-relations-engineer-android-camera-media-and-os-experiences?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/89786429890011846-platform-customer-engineer?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/89882953911280326-frontend-cad-and-ip-management-engineer-silicon?sort_by=date&page=8",
       "https://www.google.com/about/careers/applications/jobs/results/90241710382031558-financial-analyst-generative-ai?sort_by=date&page=1",
@@ -10789,8 +10814,10 @@
       "https://www.google.com/about/careers/applications/jobs/results/94877304991163078-npi-engineer-embedded-firmware-and-software-emerging-accelerator-software?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/94895784188617414-ai-outcome-customer-engineer-forward-deployed-engineering?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/94923443778003654-software-engineer-aiml-ads-data?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/95024417385390790-security-engineer-detection-and-response-infrastructure-threats?sort_by=date&page=4",
       "https://www.google.com/about/careers/applications/jobs/results/95168987058315974-research-scientist-neutral-atoms-quantum-ai?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/95219437891658438-software-engineer-foundational-ml-research?sort_by=date&page=15",
+      "https://www.google.com/about/careers/applications/jobs/results/95526894199284422-ai-ethics-and-safety-policy-researcher-deepmind?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/95630524243944134-data-center-technician?sort_by=date&page=1",
       "https://www.google.com/about/careers/applications/jobs/results/95737844638589638-asic-design-verification-engineer-tpu-cloud?sort_by=date&page=11",
       "https://www.google.com/about/careers/applications/jobs/results/95805271430832838-strategic-partner-development-associate-apps-and-gaming?location=United+States&sort_by=date&target_level=INTERN_AND_APPRENTICE&target_level=EARLY&page=1",
@@ -10809,26 +10836,8 @@
       "https://www.google.com/about/careers/applications/jobs/results/99370667664646854-data-center-electrical-engineer?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99505617684570822-ai-solutions-consultant-partner-gsi-google-cloud?sort_by=date&page=7",
       "https://www.google.com/about/careers/applications/jobs/results/99692322060411590-google-cloud-customer-engineering-associate?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/77383852829352646-software-engineer-full-stack-pixel-weather?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/133637066729628358-software-engineer-firmware?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/73144135992648390-ai-customer-engineer-conglomerates-google-cloud?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/95526894199284422-ai-ethics-and-safety-policy-researcher-deepmind?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/85504845712106182-software-engineer-digital-identity-google-wallet?sort_by=date&page=1",
-      "https://www.google.com/about/careers/applications/jobs/results/76140305178337990-ai-outcome-customer-engineer-forward-deployed-engineering?sort_by=date&page=2",
-      "https://www.google.com/about/careers/applications/jobs/results/89751159618577094-developer-relations-engineer-android-camera-media-and-os-experiences?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99901850966205126-robotics-automation-engineer-platforms-infrastructure?sort_by=date&page=2",
-      "https://www.google.com/about/careers/applications/jobs/results/95024417385390790-security-engineer-detection-and-response-infrastructure-threats?sort_by=date&page=4",
-      "https://www.google.com/about/careers/applications/jobs/results/133584290171495110-data-center-electrical-engineer-data-center-services?sort_by=date&page=5",
-      "https://www.google.com/about/careers/applications/jobs/results/134787155892282054-business-data-scientist-applied-machine-learning-gcs?sort_by=date&page=5",
-      "https://www.google.com/about/careers/applications/jobs/results/78186496317629126-antenna-systems-engineer-pixel-wearables?sort_by=date&page=7",
-      "https://www.google.com/about/careers/applications/jobs/results/77010018875908806-data-center-plant-engineer-electrical?sort_by=date&page=7",
-      "https://www.google.com/about/careers/applications/jobs/results/123693083568022214-software-engineer-engprod-google-one-and-google-photos?sort_by=date&page=7",
-      "https://www.google.com/about/careers/applications/jobs/results/132505669264646854-customer-engineer-platform-google-cloud?sort_by=date&page=8",
-      "https://www.google.com/about/careers/applications/jobs/results/132300060590252742-partner-forward-deployed-engineer-google-cloud-french-german?sort_by=date&page=8",
-      "https://www.google.com/about/careers/applications/jobs/results/115569891662013126-security-analyst?sort_by=date&page=8",
-      "https://www.google.com/about/careers/applications/jobs/results/78496146279801542-customer-engineer-platform-google-cloud-polish?sort_by=date&page=8",
-      "https://www.google.com/about/careers/applications/jobs/results/115054220708586182-soc-quality-and-reliability-engineer-google-cloud?sort_by=date&page=8"
+      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1"
     ]
   },
   {
@@ -11024,9 +11033,9 @@
       "https://jobs.ashbyhq.com/hadrian-automation/620632cd-94f6-4cb5-8dea-3c62de1f20f7",
       "https://jobs.ashbyhq.com/hadrian-automation/68286f52-3ea7-412e-a85f-04ab21c91994",
       "https://jobs.ashbyhq.com/hadrian-automation/72ebe5de-b705-4dcc-8f9e-955f81219cf6",
+      "https://jobs.ashbyhq.com/hadrian-automation/75677f9b-d3e4-4140-9822-cd12e6f0b944",
       "https://jobs.ashbyhq.com/hadrian-automation/af629fd3-1162-4a8c-bab6-0083bd7f20fc",
-      "https://jobs.ashbyhq.com/hadrian-automation/ec8cc324-bca9-4f27-812b-70416d6340a4",
-      "https://jobs.ashbyhq.com/hadrian-automation/75677f9b-d3e4-4140-9822-cd12e6f0b944"
+      "https://jobs.ashbyhq.com/hadrian-automation/ec8cc324-bca9-4f27-812b-70416d6340a4"
     ]
   },
   {
@@ -11831,12 +11840,12 @@
     "urls": [
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Atlanta-GA/Public-Health-Data-Analyst--Atlanta--Georgia-REMOTE-ROLE-_R2602333",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/New-Delhi-India/Data-Analyst---Fixed-Term_R2602321-1",
+      "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Data-Engineer--Databricks-_R2602360",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Full-Stack-Engineer--Node-React----Remote-USA_R2602147",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Quality-Assurance-Engineer--Automation----Remote_R2602302",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Security-Engineer---Remote_R2602303",
       "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Software-Security-Engineer--Cloud-GovCloud--Top-Secret-cleared-_R2602072",
-      "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Washington-DC/Software-Engineer---Cloud-GovCloud--Top-Secret-clearance-_R2601838",
-      "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Data-Engineer--Databricks-_R2602360"
+      "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Washington-DC/Software-Engineer---Cloud-GovCloud--Top-Secret-clearance-_R2601838"
     ]
   },
   {
@@ -12399,6 +12408,7 @@
     "domain": "https://jabil.wd5.myworkdayjobs.com/jabil_careers",
     "page": "https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/jabil_careers/jobs",
     "urls": [
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Systems-Engineer--Server-and-Cloud_J2452498",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Automation-Engineer---Rack_J2451516",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Cloud-Mfg-Test-Development-Engineer_J2440963",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Cloud-Test-Development-Engineer--Manufacturing_J2455154",
@@ -12428,8 +12438,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Automation-Engineer---SMT_J2451511",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Test-Development-Technician_J2454183",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Taichung/Tooling-CAD-CAM-Development-Engineer-I_J2454589-1",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Austin-TX/Systems-Engineer--Server-and-Cloud_J2452498"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300"
     ]
   },
   {
@@ -14247,8 +14256,8 @@
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Business-Systems-Analyst---QA--Data---Automation-_JR26061350",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Data-Analyst_JR26061655",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Toronto-Ontario/Platform-Engineer_JR26061741-1",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Full-Stack-Developer_JR26061273-1",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Data-Engineer_JR26061275-1"
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Data-Engineer_JR26061275-1",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Full-Stack-Developer_JR26061273-1"
     ]
   },
   {
@@ -14911,6 +14920,7 @@
       "https://jobs.careers.microsoft.com//careers/job/1970393556875827",
       "https://jobs.careers.microsoft.com//careers/job/1970393556876290",
       "https://jobs.careers.microsoft.com//careers/job/1970393556914522",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556914979",
       "https://jobs.careers.microsoft.com//careers/job/1970393556915128",
       "https://jobs.careers.microsoft.com//careers/job/1970393556924446",
       "https://jobs.careers.microsoft.com//careers/job/1970393556924710",
@@ -14937,8 +14947,7 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556914979"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
     ]
   },
   {
@@ -16760,14 +16769,14 @@
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Aberdeen/Software-Engineer---TS-SCI-required_R182628",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Aberdeen/Systems-Engineer---TS-SCI-required_R182627",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Field-Location/Software-Developer--TS-SCI-w-Poly-_R182772",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Linthicum/Systems-Engineer--Mid_R179378-1",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---NJ-Picatinny/Software-Engineer---ATAK-Android_R182705",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---Remote-Any-Location/Systems-Engineer_R180407-1",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Centreville/Cloud-Routing-Developer---Topsecret_R182759",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Centreville/Systems-Engineer--Jr--Technical-Documentation----TS-SCI_R182717",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Centreville/Systems-Engineer--Jr--Technical-Documentation----TS-SCI_R182720",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Herndon/Junior-Software-Developer---TS-SCI_R182648",
-      "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Herndon/Software-Developer---TS-SCI_R182649-1",
-      "https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Linthicum/Systems-Engineer--Mid_R179378-1"
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Herndon/Software-Developer---TS-SCI_R182649-1"
     ]
   },
   {
@@ -16816,10 +16825,10 @@
       "https://paypal.eightfold.ai/careers/job/274915802833",
       "https://paypal.eightfold.ai/careers/job/274920090058",
       "https://paypal.eightfold.ai/careers/job/274920899151",
+      "https://paypal.eightfold.ai/careers/job/274920899158",
       "https://paypal.eightfold.ai/careers/job/274920899166",
       "https://paypal.eightfold.ai/careers/job/274920899188",
-      "https://paypal.eightfold.ai/careers/job/274920899265",
-      "https://paypal.eightfold.ai/careers/job/274920899158"
+      "https://paypal.eightfold.ai/careers/job/274920899265"
     ]
   },
   {
@@ -19488,6 +19497,17 @@
     ]
   },
   {
+    "name": "simplisafe",
+    "ats": "greenhouse",
+    "identifier": "simplisafe",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/simplisafe/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/simplisafe/jobs/8049510",
+      "https://job-boards.greenhouse.io/simplisafe/jobs/8049515"
+    ]
+  },
+  {
     "name": "singlestore",
     "ats": "greenhouse",
     "identifier": "singlestore",
@@ -20438,6 +20458,7 @@
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Hangzhou-China/Software-Engineering---Development--Off_R-785983",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Hyderabad-India/Cloud-Platform-Engineer--Officer_R-792182",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Hyderabad-India/Snowflake-Platform-Engineer--Officer_R-793258",
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Krakow-Poland/Audit-Data-Analyst--Officer_R-787082",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Krakow-Poland/Fullstack-Software-Engineer--Java---React---hybird--Officer_R-774717",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/London-England/Primary-System-Analyst--Charles-River-Development---Officer_R-786698",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/London-England/Primary-System-Analyst--Charles-River-Development--Assistnat-Vice-President_R-785301",
@@ -20445,8 +20466,7 @@
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Privileged-Access-DevOps-Engineer_R-772590",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Process-Engineer--Officer_R-789540-1",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development--a-k-a-Workday-Integrations-Specialist-_R-793712",
-      "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-792613",
-      "https://statestreet.wd1.myworkdayjobs.com/global/job/Krakow-Poland/Audit-Data-Analyst--Officer_R-787082"
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-792613"
     ]
   },
   {
