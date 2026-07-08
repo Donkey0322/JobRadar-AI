@@ -260,6 +260,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">ABB</td>
+      <td width="420" align="left" valign="top">Application Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Alpharetta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Fall-2026_JR00038999"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">National Laboratory of the Rockies</td>
+      <td width="420" align="left" valign="top">Software and Data Infrastructure Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Golden, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Datasite</td>
       <td width="420" align="left" valign="top">AI Transformation / Forward Deployed Engineer Intern - Forward Deployed Engineer</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -385,23 +399,9 @@
       <td width="120" align="left" valign="top"><a href="https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118356"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cat</td>
-      <td width="420" align="left" valign="top">Part-time Intern - AI Developer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Peoria, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Peoria-Illinois/Part-time-Intern---AI-Developer_R0000376582"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 7</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Stanley Black &amp; Decker</td>
-      <td width="420" align="left" valign="top">Engineering Co-op<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Valley City, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Valley-City-OH-United-States/Engineering--Co-Op_REQ-1000043149"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 69 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 71 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -416,6 +416,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Built Technologies</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Internal Tooling</td>
+      <td width="180" align="left" valign="top">Nashville, TN</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/getbuilt/jobs/4713164005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Northrop Grumman</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 or 2<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Aurora, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-1-or-2_R10239507"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 8</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Vizient</td>
       <td width="420" align="left" valign="top">Engineer, Intelligent Automation &amp; Enablement<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -542,23 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://barrywehmiller.wd1.myworkdayjobs.com/bwcareers/job/Abilene-TX/Entry-level-Controls-Engineer---Data-Center_R022107"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Western digital</td>
-      <td width="420" align="left" valign="top">Software Development Engineer (Firmware)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Irvine, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/WesternDigital/744000136502059"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Denver, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443151487583"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 469 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 471 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (3,086)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-08T22:42:49.374Z</code>
+      🕒 Last updated <code>2026-07-08T23:43:38.795Z</code>
     </span>
   </p>
 </div>
