@@ -260,6 +260,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Datasite</td>
+      <td width="420" align="left" valign="top">AI Transformation / Forward Deployed Engineer Intern - Forward Deployed Engineer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://datasite.wd1.myworkdayjobs.com/datasite/job/USA---NY---New-York-City/AI-Transformation---Forward-Deployed-Engineer--FDE--Intern_R36255"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Jump Trading</td>
       <td width="420" align="left" valign="top">Campus UI Software Engineer (Intern)</td>
       <td width="180" align="left" valign="top">Chicago, IL</td>
@@ -392,16 +399,9 @@
       <td width="120" align="left" valign="top"><a href="https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Valley-City-OH-United-States/Engineering--Co-Op_REQ-1000043149"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">STR</td>
-      <td width="420" align="left" valign="top">Sensors Fall/Spring Co-op – RF Systems Engineer <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Woburn, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693331006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 68 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 69 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-08T22:22:35.576Z</code>
+      🕒 Last updated <code>2026-07-08T22:42:49.374Z</code>
     </span>
   </p>
 </div>
