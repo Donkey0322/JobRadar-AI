@@ -42,7 +42,10 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": []
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006"
+    ]
   },
   {
     "name": "aaaie",
@@ -654,8 +657,6 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -1252,7 +1253,12 @@
     "domain": "https://amgen.wd1.myworkdayjobs.com/careers",
     "page": "https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/careers/jobs",
     "urls": [
-      "https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424"
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate--Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-249424",
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Portugal---Lisbon/Specialist-IS-Business-Systems-Analyst_R-245918",
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Portugal---Lisbon/Specialist-Software-Engineer---Full-Stack---AI_R-241633",
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Portugal---Lisbon/Associate-IS-Engineer_R-223683",
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Portugal---Lisbon/Specialist-IS-Bus-Sys-Analyst_R-245917",
+      "https://amgen.wd1.myworkdayjobs.com/careers/job/Portugal---Lisbon/Specialist-Software-Engineer_R-241003"
     ]
   },
   {
@@ -3427,7 +3433,9 @@
       "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-CA---Irvine-Laguna-Canyon/Product-Security-Engineer_R-546847-1",
       "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-CA---Irvine-Laguna-Canyon/Software-Development-Engineer-in-Test--SDET-_R-547806-1",
       "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-NJ---Bridgewater-Cognizant/Automation-Service-Engineer---New-Brunswick--NJ_R-549258-1",
-      "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-VA---Reston/Automation-Service-Engineer---Chantilly--VA_R-550055-1"
+      "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-VA---Reston/Automation-Service-Engineer---Chantilly--VA_R-550055-1",
+      "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA---North-Carolina---Raleigh/Automation-Service-Engineer--Burlington-NC_R-549857-1",
+      "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA---Kansas---Kansas-City/Automation-Service-Engineer--Kansas-City-KS_R-549855-1"
     ]
   },
   {
@@ -5716,7 +5724,8 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC5026-Monterrey-Technology-Hub/Software-Modeling-Engineer_30201254",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Rua-Santos-Dias-No-1121-Senhora-da-Hora-Sao-Mamede-de-Infesta-U21-4465-255-Matosinhos-Portugal/Software-Developer_30203885",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Holding-International-GmbH-Uersfeld-24-52072-Aachen-Germany/Systems-Engineer-fr-IoT-Systeme--m-w-d-_30207957-1",
-      "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Shared-Service-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Duales-Studium-Embedded-Systems-BEng-2026--m-w-d-_30201094"
+      "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Shared-Service-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Duales-Studium-Embedded-Systems-BEng-2026--m-w-d-_30201094",
+      "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAG10-ALC-HQ-1025-Cobb-Place-Boulevard-Kennesaw-GA-30145-USA/Java-Software-Engineer_30205497"
     ]
   },
   {
@@ -7584,7 +7593,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10152518",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10153787",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988-2",
-      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384"
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384",
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Sr-Data-Engineer_10145881"
     ]
   },
   {
@@ -7620,7 +7630,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Sr-Data-Engineer_10147075-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Sr-Product-Software-Engineer_10153787-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988",
-      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384-1"
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384-1",
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Orlando-FL-USA/Sr-Data-Engineer_10145881-1"
     ]
   },
   {
@@ -12524,7 +12535,8 @@
       "https://jj.wd5.myworkdayjobs.com/jj/job/Beerse-Antwerp-Belgium/Scientist-Regulatory-Science--Systems-and-Data_R-083577-1",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Copenhagen/Software-Engineering-Student-Assistant_R-085366",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Danvers-Massachusetts-United-States-of-America/Sr-Embedded-Software-Test-Engineer_R-085180",
-      "https://jj.wd5.myworkdayjobs.com/jj/job/Santa-Clara-California-United-States-of-America/DevOps-Engineer_R-067918-2"
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Santa-Clara-California-United-States-of-America/DevOps-Engineer_R-067918-2",
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/Translational-Post-Doctoral-Researcher---Agentic-AI-for-Neurodegeneration_R-074853-1"
     ]
   },
   {
@@ -17041,7 +17053,8 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/Software-System-Engineer_586975-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/Software-Development-Intern_586266",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/System-Engineer_586825",
-      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838"
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/Software-Engineer---Image-Processing--C-----GPU-_582793"
     ]
   },
   {
@@ -18301,7 +18314,8 @@
       "https://boards.greenhouse.io/robinhood/jobs/7975557?t=gh_src=&gh_jid=7975557",
       "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
       "https://boards.greenhouse.io/robinhood/jobs/7980523?t=gh_src=&gh_jid=7980523",
-      "https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723"
+      "https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723",
+      "https://boards.greenhouse.io/robinhood/jobs/8049662?t=gh_src=&gh_jid=8049662"
     ]
   },
   {
@@ -19266,7 +19280,8 @@
       "https://jobs.smartrecruiters.com/ServiceNow/744000135328559",
       "https://jobs.smartrecruiters.com/ServiceNow/744000135904829",
       "https://jobs.smartrecruiters.com/ServiceNow/744000136252909",
-      "https://jobs.smartrecruiters.com/ServiceNow/744000136301199"
+      "https://jobs.smartrecruiters.com/ServiceNow/744000136301199",
+      "https://jobs.smartrecruiters.com/ServiceNow/744000136346369"
     ]
   },
   {
