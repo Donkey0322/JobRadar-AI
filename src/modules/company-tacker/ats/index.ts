@@ -25,7 +25,7 @@ export function classifyATS(url: URL): ATS {
     return "greenhouse";
   } else if (host.endsWith("lever.co")) {
     return "lever";
-  } else if (host.endsWith("workdayjobs.com")) {
+  } else if (host.endsWith("workdayjobs.com") || host.endsWith("myworkdaysite.com")) {
     return "workday";
   } else if (host.endsWith("ashbyhq.com")) {
     return "ashby";
@@ -38,9 +38,7 @@ export function classifyATS(url: URL): ATS {
   } else if (host.endsWith("eightfold.ai")) {
     return "eightfold";
   } else {
-    if (url.searchParams.get("ashby_jid")) {
-      return "ashby";
-    }
+    if (url.searchParams.get("ashby_jid")) return "ashby";
     if (url.searchParams.get("gh_jid")) return "greenhouse";
   }
 

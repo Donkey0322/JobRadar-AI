@@ -61,11 +61,15 @@ function getTikTokJobsFromResponse(data: unknown): TikTokJob[] {
   return parsed.data.data?.job_post_list ?? [];
 }
 
+const getTikTokJobLink = (job: TikTokJob): string => {
+  return `${TIKTOK_CAREERS_URL}/search/${job.id}`;
+};
+
 function normalizeTikTokJob(job: TikTokJob): Job {
   return {
     company: "TikTok",
     role: job.title,
-    link: `${TIKTOK_CAREERS_URL}/${job.id}`,
+    link: getTikTokJobLink(job),
     location: job.city_info?.en_name ?? job.city_info?.name ?? "Unsure",
   };
 }
@@ -107,7 +111,7 @@ export async function fetchTikTok(
     const rawJobs = getTikTokJobsFromResponse(await res.json());
 
     const opportunities = rawJobs
-      .filter((job) => isTarget(job.title) && !urls.has(`${TIKTOK_CAREERS_URL}/${job.id}`))
+      .filter((job) => isTarget(job.title) && !urls.has(getTikTokJobLink(job)))
       .map(normalizeTikTokJob);
 
     return opportunities;

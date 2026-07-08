@@ -20,24 +20,44 @@ const identifierMap = {
 } satisfies Record<string, string>;
 
 export function urlToWorkdayCompany(url: URL): Company {
-  const name = url.hostname.split(".")[0];
-  const identifier = identifierMap[name as keyof typeof identifierMap] ?? name;
+  const host = url.hostname;
   const parts = url.pathname.split("/").filter(Boolean);
 
   const isLocale = (str: string) => /^[a-z]{2}-[a-z]{2}$/i.test(str);
 
-  const jobIndex = parts.findIndex((p) => p.toLowerCase() === "job");
+  let name: string;
+  let careerPage: string;
 
-  const careerPage =
-    jobIndex > 0
-      ? parts[jobIndex - 1].toLowerCase()
-      : (parts.find((p) => !isLocale(p))?.toLowerCase() ?? "external");
+  if (host.endsWith("myworkdaysite.com")) {
+    const recruitingIndex = parts.findIndex((p) => p.toLowerCase() === "recruiting");
+
+    name = parts[recruitingIndex + 1];
+    careerPage = parts[recruitingIndex + 2];
+
+    if (!name || !careerPage) {
+      throw new Error(`Invalid Workday site URL: ${url.toString()}`);
+    }
+  } else {
+    name = host.split(".")[0];
+
+    const jobIndex = parts.findIndex((p) => p.toLowerCase() === "job");
+
+    careerPage =
+      jobIndex > 0 ? parts[jobIndex - 1] : (parts.find((p) => !isLocale(p)) ?? "external");
+  }
+
+  const identifier = identifierMap[name as keyof typeof identifierMap] ?? name;
+  const normalizedCareerPage = careerPage.toLowerCase();
+
+  const domain = host.endsWith("myworkdaysite.com")
+    ? `${url.origin}/recruiting/${name}/${careerPage}`
+    : `${url.origin}/${careerPage}`;
 
   return {
     name: identifier,
     ats: "workday",
-    identifier: `${identifier}-${careerPage}`,
-    domain: `${url.origin}/${careerPage}`,
+    identifier: `${identifier}-${normalizedCareerPage}`,
+    domain,
     page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
     urls: [],
   };

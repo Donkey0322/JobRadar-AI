@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
+import { ABORT_SIGNAL } from "@/constants";
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
@@ -200,7 +201,11 @@ function normalizeGreenhouseJob(job: GreenhouseJob, companyName: string): Job {
   };
 }
 
-export async function fetchGreenhouse(company: Company, urls: Set<string>, signal: AbortSignal) {
+export async function fetchGreenhouse(
+  company: Company,
+  urls: Set<string>,
+  signal: AbortSignal = ABORT_SIGNAL
+) {
   try {
     const res = await fetch(company.page, {
       signal,
