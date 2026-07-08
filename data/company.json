@@ -42,9 +42,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4675949006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -88,7 +86,8 @@
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Untersiggenthal-Aargau-Switzerland/FPGA-Software-Engineer-R-D---Power-Electronics-Traction-Applications_JR00039532",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Vaesteras-Vastmanland-County-Sweden/Paint-Automation-Engineer---ABB-Robotics_JR00038887",
       "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Vaesteras-Vastmanland-County-Sweden/Software-Developer--ABB-Robotics_JR00036654",
-      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xinhui-Guangdong-China/Software-development-intern_JR00033106"
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Xinhui-Guangdong-China/Software-development-intern_JR00033106",
+      "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Fall-2026_JR00038999"
     ]
   },
   {
@@ -676,6 +675,7 @@
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
+      "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -10440,6 +10440,16 @@
     ]
   },
   {
+    "name": "getbuilt",
+    "ats": "greenhouse",
+    "identifier": "getbuilt",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/getbuilt/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/getbuilt/jobs/4713164005"
+    ]
+  },
+  {
     "name": "gevernova",
     "ats": "workday",
     "identifier": "gevernova-only_confidential_executive_recruiting",
@@ -16208,7 +16218,8 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Space-Associate-Systems-Reliability-Engineer_R10238337-1",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Data-Processing-Team_R10238622",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-1-or-2_R10239507"
     ]
   },
   {
@@ -16499,6 +16510,16 @@
     "urls": [
       "https://jobs.ashbyhq.com/NPX/048ca8da-bfb9-4454-8147-ac9497629634/application",
       "https://jobs.ashbyhq.com/NPX/4a250618-dcfb-4ec9-8687-b2be9e2d6ef2/application"
+    ]
+  },
+  {
+    "name": "nrel",
+    "ats": "workday",
+    "identifier": "nrel-nlr",
+    "domain": "https://nrel.wd5.myworkdayjobs.com/NLR",
+    "page": "https://nrel.wd5.myworkdayjobs.com/wday/cxs/nrel/NLR/jobs",
+    "urls": [
+      "https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394"
     ]
   },
   {
