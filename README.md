@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--07--09-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--07--10-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -102,6 +102,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Jump Trading</td>
+      <td width="420" align="left" valign="top">Quantitative Trader Intern</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://www.jumptrading.com/hr/job?gh_jid=7848371"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 9</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Pylon-labs</td>
       <td width="420" align="left" valign="top">Software Engineer, Intern</td>
@@ -235,16 +242,9 @@
       <td width="120" align="left" valign="top"><a href="https://nio.wd3.myworkdayjobs.com/nio_careers/job/San-Jose-US/AI-Robotics-Researcher-Intern--Dexterous-Manipulation-_R-000144"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Autodesk</td>
-      <td width="420" align="left" valign="top">Intern, Model Based Systems Engineering</td>
-      <td width="180" align="left" valign="top">Novi, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://autodesk.wd1.myworkdayjobs.com/uni/job/AMER---United-States---Michigan---Novi/Intern--Model-Based-Systems-Engineering_26WD94900-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 42 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 43 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-09T23:45:04.415Z</code>
+      🕒 Last updated <code>2026-07-10T00:09:43.780Z</code>
     </span>
   </p>
 </div>
