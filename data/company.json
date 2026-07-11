@@ -43,9 +43,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -708,6 +706,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -2204,6 +2203,7 @@
       "https://jobs.apple.com/en-us/details/200671602-0836/machine-learning-engineer-proactive?team=MLAI",
       "https://jobs.apple.com/en-us/details/200671629-0836/software-automation-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671634-0836/software-engineer-model-performance-special-projects?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200671637-3337/machine-learning-systems-engineer-video-computer-vision?team=MLAI",
       "https://jobs.apple.com/en-us/details/200671638-3760/ai-ml-engineer-library-optimization?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671672-1199/mac-hardware-systems-engineer-soc?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671672-3715/mac-hardware-systems-engineer-soc?team=HRDWR",
@@ -2223,9 +2223,8 @@
       "https://jobs.apple.com/en-us/details/200671949-0836/wpc-apple-card-data-scientist?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671960-0836/headphones-and-accessories-tools-automation-quality-engineer-sensing-connectivity?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671986-0836/software-engineer-aiml-evaluation?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200671991-0836/software-development-engineer-in-test-sensing-connectivity?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200671637-3337/machine-learning-systems-engineer-video-computer-vision?team=MLAI",
       "https://jobs.apple.com/en-us/details/200671989-3956/software-development-engineer-test?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200671991-0836/software-development-engineer-in-test-sensing-connectivity?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672068-3956/machine-learning-systems-engineer-video-computer-vision?team=MLAI",
       "https://jobs.apple.com/en-us/details/200672069-3956/software-development-engineer-test?team=HRDWR"
     ]
@@ -24850,7 +24849,8 @@
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20275503",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20275569",
       "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20276045",
-      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20276348"
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20276348",
+      "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20275610"
     ]
   },
   {
