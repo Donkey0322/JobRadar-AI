@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 551 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (3,651)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (3,654)</b></summary>
 
   <br />
 
-  <h3>Mid Level (2,037)</h3>
+  <h3>Mid Level (2,039)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer - TikTok-Data-Search-Search Quality</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7628304546007320837"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Multi-Modal Machine Learning Engineer (all levels) - Trust and Safety</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7652727866048448821"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Zipline</td>
       <td width="420" align="left" valign="top">PLM Systems Analyst</td>
@@ -704,25 +718,11 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/WesternDigital/744000137223984"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Oneapp</td>
-      <td width="420" align="left" valign="top">Software Engineer, Lending</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/oneapp/b0d1f783-72a8-43e9-a383-03ab3f8e5d61"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Industrial Security Analyst<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Oklahoma City, OK</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Oklahoma-Oklahoma-City/Industrial-Security-Analyst_R10239857-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,037 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,039 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (1,614)</h3>
+  <h3>Senior Level (1,615)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Ramp</td>
+      <td width="420" align="left" valign="top">GTM Systems Engineer, Salesforce</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/ramp/ffc09fc0-7785-48db-a203-a148f62534be"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cummins talent acquisition</td>
       <td width="420" align="left" valign="top">Mechatronics Engineer – Chassis Systems</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Austin-Texas-United-States-of-America/Systems-Analyst---End-User-Testing_JR-202613168-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">CI/CD Pipeline Software Engineer - Embedded Development<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73466/ci-cd-pipeline-software-engineer---embedded-development/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,614 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,615 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-11T18:17:15.716Z</code>
+      🕒 Last updated <code>2026-07-11T21:14:03.043Z</code>
     </span>
   </p>
 </div>
