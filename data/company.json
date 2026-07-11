@@ -1374,7 +1374,9 @@
     "identifier": "amn-amn_careers",
     "domain": "https://amn.wd1.myworkdayjobs.com/amn_careers",
     "page": "https://amn.wd1.myworkdayjobs.com/wday/cxs/amn/amn_careers/jobs",
-    "urls": []
+    "urls": [
+      "https://amn.wd1.myworkdayjobs.com/amn_careers/job/San-Diego-CA/Software-Engineer---Automation_Req23671-1"
+    ]
   },
   {
     "name": "amperity",
@@ -2190,6 +2192,7 @@
       "https://jobs.apple.com/en-us/details/200671401-3543/machine-learning-engineer-ml-genai-evaluation?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671404-3337/software-engineer-big-data-apple-services-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671411-0836/hardware-reliability-engineer-watch-system-reliability?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200671416-0836/software-development-engineer-distributed-systems-cloud?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671418-3956/front-end-engineer-retail-and-marcom-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671480-0836/data-engineer-battery-data-platform-ai?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671520-2114/site-reliability-engineer-sre-observability-london?team=SFTWR",
@@ -2212,13 +2215,13 @@
       "https://jobs.apple.com/en-us/details/200671794-3956/software-engineer-retail-demo-engineering?team=CORSV",
       "https://jobs.apple.com/en-us/details/200671800-0836/hardware-systems-design-integration-engineer-airpods?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671828-0157/distributed-systems-software-engineer-golang?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200671835-0836/hardware-systems-engineer-iphone-special-technology?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200671913-3760/ux-software-engineer-special-projects?team=MLAI",
       "https://jobs.apple.com/en-us/details/200671928-3337/compute-runtime-software-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671949-0836/wpc-apple-card-data-scientist?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671960-0836/headphones-and-accessories-tools-automation-quality-engineer-sensing-connectivity?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671986-0836/software-engineer-aiml-evaluation?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200671416-0836/software-development-engineer-distributed-systems-cloud?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200671835-0836/hardware-systems-engineer-iphone-special-technology?team=HRDWR"
+      "https://jobs.apple.com/en-us/details/200671991-0836/software-development-engineer-in-test-sensing-connectivity?team=SFTWR"
     ]
   },
   {
@@ -2998,7 +3001,8 @@
     "urls": [
       "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507",
       "https://axos.wd5.myworkdayjobs.com/axos/job/HQ---San-Diego-CA/JBATA---Data-Engineer_JR4824",
-      "https://axos.wd5.myworkdayjobs.com/axos/job/Manila-Philippines/Outsystems-Developer_JR4810"
+      "https://axos.wd5.myworkdayjobs.com/axos/job/Manila-Philippines/Outsystems-Developer_JR4810",
+      "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Data-Engineer_JR4922"
     ]
   },
   {
@@ -8207,7 +8211,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Software-Engineer_10152758",
-      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Vancouver-BC-Canada/Production-Data-Analyst-for-Feature-Animation---ILM-Vancouver_10155790"
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Vancouver-BC-Canada/Production-Data-Analyst-for-Feature-Animation---ILM-Vancouver_10155790",
+      "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Content-Security-Sr-Software-Engineer_10144770"
     ]
   },
   {
@@ -9839,7 +9844,10 @@
       "https://jobs.lever.co/field-ai/911ae37b-8ef2-42aa-aff1-60cdd0317f9f/apply",
       "https://jobs.lever.co/field-ai/95ff2df3-4408-47f3-a2c5-295d8067bb30",
       "https://jobs.lever.co/field-ai/9c2b7b13-12d0-4c1a-a672-8c869228ec9d/apply",
-      "https://jobs.lever.co/field-ai/af57e802-d1b0-4272-bad6-6b1b5dc80e55"
+      "https://jobs.lever.co/field-ai/af57e802-d1b0-4272-bad6-6b1b5dc80e55",
+      "https://jobs.lever.co/field-ai/6b4eb49d-a515-404f-b12e-aeeb0d95ccfd",
+      "https://jobs.lever.co/field-ai/50714ca7-eb31-47f7-a6b0-a5060765e4ea",
+      "https://jobs.lever.co/field-ai/f41fb1ac-d266-4e2c-8879-2d88d6f890d4"
     ]
   },
   {
@@ -12980,7 +12988,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/impiricus/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/impiricus/jobs/4993696008"
+      "https://job-boards.greenhouse.io/impiricus/jobs/4993696008",
+      "https://job-boards.greenhouse.io/impiricus/jobs/4936169008"
     ]
   },
   {
@@ -13418,6 +13427,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Engineer-Liquid-Cooling_J2455309",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Florence-KY/Liquid-Cooling-Systems-Engineer_J2455367",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Becario-para-desarrollo-de-software_J2453163",
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Systems-Engineer_J2456895",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guangzhou-Juncheng/AI-Engineer_J2457125",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Gurnee-IL/Automation-Engineer_J2454229",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Ho-Chi-Minh-City/Automation-Engineer_J2449592-1",
@@ -13445,8 +13455,7 @@
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Data-Scientist_J2456986",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Test-Development-Technician_J2454183",
       "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Taichung/Tooling-CAD-CAM-Development-Engineer-I_J2454589-1",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300",
-      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Guadalajara/Systems-Engineer_J2456895"
+      "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Wuxi/Leader-Automation-Design-Engineer_J2452300"
     ]
   },
   {
@@ -17404,6 +17413,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Korea-Seoul/Developer-Technology-Engineer---AI_JR2021112",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Build-and-DevOps-Engineer-for-Compilers_JR2018968",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Enterprise-Product-Engineer---Fullstack_JR2017906",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Systems-Engineer--Networking_JR2018261",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Quantum-Research-Scientist-Intern---Fall-2026_JR2018244",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Networking_JR2016798",
@@ -17458,8 +17468,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/VLSI-Design-Automation-Software-Engineer_JR2016784",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
-      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Machine-Learning-Systems-Engineer--Networking_JR2018261"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
     ]
   },
   {
@@ -18473,8 +18482,8 @@
     "domain": "https://pimco.wd1.myworkdayjobs.com/pimco-careers",
     "page": "https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs",
     "urls": [
-      "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/Software-Engineer--Short-Term-Technology_R106469",
-      "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/Business-Process---Automation-Analyst_R106520"
+      "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/Business-Process---Automation-Analyst_R106520",
+      "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/Software-Engineer--Short-Term-Technology_R106469"
     ]
   },
   {
