@@ -43,9 +43,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -708,6 +706,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4675949006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
@@ -16208,7 +16207,8 @@
       "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Power-Platform---AI-Engineer_R19454",
       "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/ServiceNow-Platform-Developer_R19216",
       "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Software-Engineer--DevSecOps_R19426",
-      "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Sr-Systems-Engineer--Digital-for-Research-and-Technical-Development_R19287"
+      "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Sr-Systems-Engineer--Digital-for-Research-and-Technical-Development_R19287",
+      "https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Warsaw---Poland/Power-Platform---AI-Engineer_R19433"
     ]
   },
   {
@@ -23462,6 +23462,7 @@
       "https://lifeattiktok.com/search/7595346355196954933",
       "https://lifeattiktok.com/search/7595733632086591797",
       "https://lifeattiktok.com/search/7597393522016717061",
+      "https://lifeattiktok.com/search/7598403884856199477",
       "https://lifeattiktok.com/search/7599799873770277125",
       "https://lifeattiktok.com/search/7599929157435509045",
       "https://lifeattiktok.com/search/7600536394771564853",
@@ -23487,6 +23488,7 @@
       "https://lifeattiktok.com/search/7621299118434961669",
       "https://lifeattiktok.com/search/7623706245396252981",
       "https://lifeattiktok.com/search/7624284785283746053",
+      "https://lifeattiktok.com/search/7628304546007320837",
       "https://lifeattiktok.com/search/7628834530694416693",
       "https://lifeattiktok.com/search/7628896322524449029",
       "https://lifeattiktok.com/search/7629234781608724741",
@@ -23521,6 +23523,7 @@
       "https://lifeattiktok.com/search/7651895578801097013",
       "https://lifeattiktok.com/search/7651899647627807029",
       "https://lifeattiktok.com/search/7652143855625652533",
+      "https://lifeattiktok.com/search/7652727866048448821",
       "https://lifeattiktok.com/search/7654431844394322229",
       "https://lifeattiktok.com/search/7654717965712099637",
       "https://lifeattiktok.com/search/7654730223138654469",
@@ -23534,10 +23537,7 @@
       "https://lifeattiktok.com/search/7658659496890730805",
       "https://lifeattiktok.com/search/7659527183984019765",
       "https://lifeattiktok.com/search/7660184968461388037",
-      "https://lifeattiktok.com/search/7660826708283738421",
-      "https://lifeattiktok.com/search/7598403884856199477",
-      "https://lifeattiktok.com/search/7652727866048448821",
-      "https://lifeattiktok.com/search/7628304546007320837"
+      "https://lifeattiktok.com/search/7660826708283738421"
     ]
   },
   {
