@@ -40,9 +40,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -672,6 +670,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -2699,7 +2698,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/avathon/jobs",
     "urls": [
       "https://avathon.com/company/careers-job-listing/?gh_jid=4691970005",
-      "https://avathon.com/company/careers-job-listing/?gh_jid=4701359005"
+      "https://avathon.com/company/careers-job-listing/?gh_jid=4701359005",
+      "https://avathon.com/company/careers-job-listing/?gh_jid=4714148005"
     ]
   },
   {
@@ -9622,9 +9622,9 @@
     "domain": "https://www.zipline.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/flyzipline/jobs",
     "urls": [
-      "https://www.zipline.com/open-roles?gh_jid=7802153003",
       "https://www.zipline.com/open-roles?gh_jid=7765240003",
-      "https://www.zipline.com/open-roles?gh_jid=7767667003"
+      "https://www.zipline.com/open-roles?gh_jid=7767667003",
+      "https://www.zipline.com/open-roles?gh_jid=7802153003"
     ]
   },
   {
@@ -15297,6 +15297,7 @@
       "https://jobs.careers.microsoft.com//careers/job/1970393556880306",
       "https://jobs.careers.microsoft.com//careers/job/1970393556884721",
       "https://jobs.careers.microsoft.com//careers/job/1970393556914522",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556914839",
       "https://jobs.careers.microsoft.com//careers/job/1970393556914979",
       "https://jobs.careers.microsoft.com//careers/job/1970393556915128",
       "https://jobs.careers.microsoft.com//careers/job/1970393556918777",
@@ -15335,8 +15336,7 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
-      "https://jobs.careers.microsoft.com//careers/job/1970393556914839"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
     ]
   },
   {
@@ -16595,7 +16595,8 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/VLSI-Design-Automation-Software-Engineer_JR2016784",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Verification-Engineer--DOCA_JR2017515"
     ]
   },
   {
@@ -23252,7 +23253,8 @@
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Martos/Software-Engineer_REQ2026074809",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Martos/System-Engineer-trainee_REQ2026071389",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Queretaro/Process-Manufacturing-Automation-Engineer_REQ2026077396",
-      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Wemding/duales-Studium-Systems-Engineering_REQ2026077062"
+      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Wemding/duales-Studium-Systems-Engineering_REQ2026077062",
+      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-engineer--Testing--LIGHT_REQ2026077733-1"
     ]
   },
   {
