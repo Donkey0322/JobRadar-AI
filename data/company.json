@@ -40,7 +40,9 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": []
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006"
+    ]
   },
   {
     "name": "aaaie",
@@ -670,7 +672,6 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
       "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
@@ -2091,9 +2092,9 @@
       "https://jobs.apple.com/en-us/details/200671960-0836/headphones-and-accessories-tools-automation-quality-engineer-sensing-connectivity?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671986-0836/software-engineer-aiml-evaluation?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671991-0836/software-development-engineer-in-test-sensing-connectivity?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200672066-0836/hardware-systems-design-electrical-engineer-iphone?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672068-3956/machine-learning-systems-engineer-video-computer-vision?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200672069-3956/software-development-engineer-test?team=HRDWR",
-      "https://jobs.apple.com/en-us/details/200672066-0836/hardware-systems-design-electrical-engineer-iphone?team=HRDWR"
+      "https://jobs.apple.com/en-us/details/200672069-3956/software-development-engineer-test?team=HRDWR"
     ]
   },
   {
@@ -7944,7 +7945,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/doubleverify/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/doubleverify/jobs/8617739002"
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8617739002",
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8437562002"
     ]
   },
   {
@@ -10039,7 +10041,8 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ222910-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ223122-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Jr-DevOps-Engineer_RQ223735-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-TX-San-Antonio/Junior-Information-Assurance-Security-Analyst_RQ223933-1"
     ]
   },
   {
@@ -20914,7 +20917,9 @@
     "domain": "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies",
     "page": "https://ssctech.wd1.myworkdayjobs.com/wday/cxs/ssctech/ssctechnologies/jobs",
     "urls": [
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bangkok-Thailand/AWS-Cloud-Engineer-Developer_R39112",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Basildon-United-Kingdom/AI-Automation-Developer_R45057",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Development-Engineer-in-Test_R43952-1",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Engineer_R38205",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA/Software-Development-Engineer-in-Test_R43484",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bucharest-Romania/Generative-AI-Developer_R44957",
@@ -20924,9 +20929,7 @@
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Kansas-City-MO/Data-Platform-Software-Engineer_R44578",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/AI-Led-Product-Researcher---Designer_R44891",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London-UK---20-Birchin-Lane/Infrastructure-Production-Engineer--PA26Q2IEJH78-_R42902",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bangkok-Thailand/AWS-Cloud-Engineer-Developer_R39112",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Development-Engineer-in-Test_R43952-1"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419"
     ]
   },
   {
