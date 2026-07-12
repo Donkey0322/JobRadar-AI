@@ -7945,8 +7945,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/doubleverify/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/doubleverify/jobs/8617739002",
-      "https://job-boards.greenhouse.io/doubleverify/jobs/8437562002"
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8437562002",
+      "https://job-boards.greenhouse.io/doubleverify/jobs/8617739002"
     ]
   },
   {
@@ -9622,7 +9622,9 @@
     "domain": "https://www.zipline.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/flyzipline/jobs",
     "urls": [
-      "https://www.zipline.com/open-roles?gh_jid=7802153003"
+      "https://www.zipline.com/open-roles?gh_jid=7802153003",
+      "https://www.zipline.com/open-roles?gh_jid=7765240003",
+      "https://www.zipline.com/open-roles?gh_jid=7767667003"
     ]
   },
   {
@@ -10006,6 +10008,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-NE-Offutt-AFB/Systems-Engineer---IT-Capacity_RQ222760-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-NE-Offutt-AFB/Systems-Engineer---Reliability_RQ222011-2",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-OH-Dayton/Security-Specialist---Industrial--Mid-_RQ215955-1",
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-TX-San-Antonio/Junior-Information-Assurance-Security-Analyst_RQ223933-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Arlington/Enterprise-Performance-Management-Systems-Engineer_RQ223076-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Arlington/Intelligence-Analyst--Agentic-AI-Integration_RQ223223-2",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Ashburn/Java---Angular-Developer---DHS-or-CBP-public-trust-or-Top-Secret-preferred_RQ218128-1",
@@ -10041,8 +10044,7 @@
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ222910-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Information-Assurance-Security-Engineer_RQ223122-1",
       "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Jr-DevOps-Engineer_RQ223735-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1",
-      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-TX-San-Antonio/Junior-Information-Assurance-Security-Analyst_RQ223933-1"
+      "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Software-Virtualization-Engineer_RQ209355-1"
     ]
   },
   {
@@ -15333,7 +15335,8 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556914839"
     ]
   },
   {
