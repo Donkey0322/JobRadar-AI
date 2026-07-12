@@ -2092,7 +2092,8 @@
       "https://jobs.apple.com/en-us/details/200671986-0836/software-engineer-aiml-evaluation?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200671991-0836/software-development-engineer-in-test-sensing-connectivity?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672068-3956/machine-learning-systems-engineer-video-computer-vision?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200672069-3956/software-development-engineer-test?team=HRDWR"
+      "https://jobs.apple.com/en-us/details/200672069-3956/software-development-engineer-test?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200672066-0836/hardware-systems-design-electrical-engineer-iphone?team=HRDWR"
     ]
   },
   {
@@ -14493,7 +14494,9 @@
     "identifier": "magna-magna",
     "domain": "https://wd3.myworkdaysite.com/recruiting/magna/Magna",
     "page": "https://wd3.myworkdaysite.com/wday/cxs/magna/Magna/jobs",
-    "urls": []
+    "urls": [
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Timisoara-RO/Software-Development-Engineer_R00242641"
+    ]
   },
   {
     "name": "magnetforensics",
@@ -20921,7 +20924,9 @@
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Kansas-City-MO/Data-Platform-Software-Engineer_R44578",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/AI-Led-Product-Researcher---Designer_R44891",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London-UK---20-Birchin-Lane/Infrastructure-Production-Engineer--PA26Q2IEJH78-_R42902",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Bangkok-Thailand/AWS-Cloud-Engineer-Developer_R39112",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Boston-MA---One-Post-Office-Square/Software-Development-Engineer-in-Test_R43952-1"
     ]
   },
   {
