@@ -72,20 +72,46 @@ export const WorkdayJobSchema = z.object({
 
 type WorkdayJob = z.infer<typeof WorkdayJobSchema>;
 
-export const WorkdayResponseSchema = z.object({
-  jobPostings: z.array(WorkdayJobSchema),
+const WorkdayResponseSchema = z.object({
+  jobPostings: z.array(z.unknown()),
 });
 
 function getWorkdayJobsFromResponse(data: unknown): WorkdayJob[] {
-  const parsed = WorkdayResponseSchema.safeParse(data);
+  const response = WorkdayResponseSchema.safeParse(data);
 
-  if (!parsed.success) {
-    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Workday response`);
+  if (!response.success) {
+    logger.error(
+      {
+        issues: response.error.issues,
+      },
+      `${RED_CROSS} Invalid Workday response structure`
+    );
 
     return [];
   }
 
-  return parsed.data.jobPostings;
+  const jobs: WorkdayJob[] = [];
+
+  for (const [index, rawJob] of response.data.jobPostings.entries()) {
+    const parsedJob = WorkdayJobSchema.safeParse(rawJob);
+
+    if (!parsedJob.success) {
+      logger.warn(
+        {
+          index,
+          job: rawJob,
+          issues: parsedJob.error.issues,
+        },
+        "⚠️ Skipping invalid Workday job"
+      );
+
+      continue;
+    }
+
+    jobs.push(parsedJob.data);
+  }
+
+  return jobs;
 }
 
 function normalizeWorkdayJob(job: WorkdayJob, company: Company): Job {
