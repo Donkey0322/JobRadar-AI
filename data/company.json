@@ -881,7 +881,8 @@
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/aledade?mode=json",
     "urls": [
-      "https://jobs.lever.co/aledade/7f1cf7fc-6929-4215-9eae-cd51e391f73e"
+      "https://jobs.lever.co/aledade/7f1cf7fc-6929-4215-9eae-cd51e391f73e",
+      "https://jobs.lever.co/aledade/3eafe371-4bee-492f-af5c-fd2e3f71b8da/apply"
     ]
   },
   {
@@ -1196,7 +1197,8 @@
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+      "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans"
     ]
   },
   {
@@ -2204,7 +2206,6 @@
       "https://careers.aqr.com/jobs?gh_jid=7493461&gh_jid=7493461",
       "https://careers.aqr.com/jobs?gh_jid=7546806&gh_jid=7546806",
       "https://careers.aqr.com/jobs?gh_jid=7781385&gh_jid=7781385",
-      "https://careers.aqr.com/jobs?gh_jid=7793650&gh_jid=7793650",
       "https://careers.aqr.com/jobs?gh_jid=7926659&gh_jid=7926659",
       "https://careers.aqr.com/jobs?gh_jid=7957728&gh_jid=7957728"
     ]
@@ -5158,6 +5159,16 @@
     ]
   },
   {
+    "name": "careers",
+    "ats": "greenhouse",
+    "identifier": "careers",
+    "domain": "https://careers.aqr.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
+    "urls": [
+      "https://careers.aqr.com/jobs?gh_jid=7793650&gh_jid=7793650"
+    ]
+  },
+  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -5421,6 +5432,16 @@
     "urls": []
   },
   {
+    "name": "careers.huntingtoningalls.com",
+    "ats": "custom",
+    "identifier": "careers.huntingtoningalls.com",
+    "domain": "https://careers.huntingtoningalls.com",
+    "page": "",
+    "urls": [
+      "https://careers.huntingtoningalls.com/job/Newport-News-SOFTWARE-ENGINEER-1-Virg/1408046100/?ats=successfactors"
+    ]
+  },
+  {
     "name": "careers.ice.com",
     "ats": "custom",
     "identifier": "careers.ice.com",
@@ -5462,20 +5483,20 @@
   },
   {
     "name": "careers.itw.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
-    "page": "https://careers.itw.com",
+    "page": "",
     "urls": [
       "https://careers.itw.com/global/en/job/JR4585"
     ]
   },
   {
     "name": "careers.itw.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
-    "page": "",
+    "page": "https://careers.itw.com",
     "urls": []
   },
   {
@@ -5850,10 +5871,10 @@
   },
   {
     "name": "careers.varsitybrands.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "careers.varsitybrands.com",
     "domain": "https://careers.varsitybrands.com",
-    "page": "https://careers.varsitybrands.com",
+    "page": "",
     "urls": [
       "https://careers.varsitybrands.com/global/en/job/JR113976",
       "https://careers.varsitybrands.com/global/en/job/JR114172"
@@ -5861,10 +5882,10 @@
   },
   {
     "name": "careers.varsitybrands.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.varsitybrands.com",
     "domain": "https://careers.varsitybrands.com",
-    "page": "",
+    "page": "https://careers.varsitybrands.com",
     "urls": []
   },
   {
@@ -13012,10 +13033,10 @@
   },
   {
     "name": "jobs.cisco.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "jobs.cisco.com",
     "domain": "https://jobs.cisco.com",
-    "page": "https://jobs.cisco.com",
+    "page": "",
     "urls": [
       "https://jobs.cisco.com/jobs/ProjectDetail/Product-Management-Specialist-I-Intern-United-States/1448055",
       "https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineer-PhD-Intern-United-States/1449981"
@@ -13023,10 +13044,10 @@
   },
   {
     "name": "jobs.cisco.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "jobs.cisco.com",
     "domain": "https://jobs.cisco.com",
-    "page": "",
+    "page": "https://jobs.cisco.com",
     "urls": []
   },
   {
@@ -13592,6 +13613,16 @@
     "domain": "https://kar.wd1.myworkdayjobs.com/openlane_careers",
     "page": "https://kar.wd1.myworkdayjobs.com/wday/cxs/kar/openlane_careers/jobs",
     "urls": []
+  },
+  {
+    "name": "katalyst",
+    "ats": "greenhouse",
+    "identifier": "katalyst",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/katalyst/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/katalyst/jobs/6115352004"
+    ]
   },
   {
     "name": "kbr",
