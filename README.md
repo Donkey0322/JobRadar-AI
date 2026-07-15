@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 631 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (4,287)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (4,290)</b></summary>
 
   <br />
 
-  <h3>Mid Level (2,398)</h3>
+  <h3>Mid Level (2,400)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Data Scientist, Ads Insight and Measurement</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/134590021188362950-data-scientist-ads-insight-and-measurement?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 15</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Databricks</td>
+      <td width="420" align="left" valign="top">AI Engineer - FDE (Forward Deployed Engineer)</td>
+      <td width="180" align="left" valign="top">California, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8546367002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 15</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Uline</td>
       <td width="420" align="left" valign="top">Data Analyst</td>
@@ -704,25 +718,11 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200672464/ml-agent-engineer?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">ML Agent Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco Bay Area, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200672464-3401/ml-agent-engineer?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">SW Dev Engineer - ASE - Back-End</td>
-      <td width="180" align="left" valign="top">Cupertino, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200668099-0836/sw-dev-engineer-ase-back-end?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,398 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,400 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (1,889)</h3>
+  <h3>Senior Level (1,890)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Customer Engineer, Platform, SLED, Higher Education, Public Sector</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/100797081064481478-customer-engineer-platform-sled-higher-education-public-sector?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 15</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Meta</td>
       <td width="420" align="left" valign="top">Machine Learning Digital Design Engineer</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/High-Performance-Computing-Hardware---Systems-Engineer_2636308"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">HPC Systems Engineer</td>
-      <td width="180" align="left" valign="top">Ann Arbor, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/HPC-Systems-Engineer_2635350"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,889 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,890 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-15T09:29:52.198Z</code>
+      🕒 Last updated <code>2026-07-15T11:52:17.275Z</code>
     </span>
   </p>
 </div>
