@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 656 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (4,476)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (4,477)</b></summary>
 
   <br />
 
-  <h3>Mid Level (2,505)</h3>
+  <h3>Mid Level (2,506)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Wyetech</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Annapolis Junction, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/wyetechllc/b464498e-c95f-4f95-89ad-72d4ab61ab7e/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 15</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Usbank</td>
       <td width="420" align="left" valign="top">Data &amp; Insights Analyst<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -711,16 +718,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/5630438"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Costar</td>
-      <td width="420" align="left" valign="top">Web Analyst, Land.com - Austin, TX<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://costar.wd1.myworkdayjobs.com/costarcareers/job/US-TX-Austin/Web-Analyst--Landcom---Austin--TX_R39416"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,505 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,506 opportunities in this section.</sub></p>
 
   <h3>Senior Level (1,971)</h3>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-15T22:23:21.251Z</code>
+      🕒 Last updated <code>2026-07-15T23:18:56.995Z</code>
     </span>
   </p>
 </div>
