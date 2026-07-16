@@ -38,9 +38,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4669789006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -186,7 +184,8 @@
       "https://jobs.smartrecruiters.com/AbbVie/3743990014064716",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014064756",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014087407",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990014091116"
+      "https://jobs.smartrecruiters.com/AbbVie/3743990014091116",
+      "https://jobs.smartrecruiters.com/AbbVie/3743990014129201"
     ]
   },
   {
@@ -494,7 +493,8 @@
       "https://careers.adobe.com/us/en/job/R170429",
       "https://careers.adobe.com/us/en/job/R170433",
       "https://careers.adobe.com/us/en/job/R170515",
-      "https://careers.adobe.com/us/en/job/R170547"
+      "https://careers.adobe.com/us/en/job/R170547",
+      "https://careers.adobe.com/us/en/job/R170315"
     ]
   },
   {
@@ -732,6 +732,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -785,8 +786,7 @@
       "https://careers.airbnb.com/positions/8026849?gh_jid=8026849",
       "https://careers.airbnb.com/positions/8031901?gh_jid=8031901",
       "https://careers.airbnb.com/positions/8031907?gh_jid=8031907",
-      "https://careers.airbnb.com/positions/8037090?gh_jid=8037090",
-      "https://careers.airbnb.com/positions/8055229?gh_jid=8055229"
+      "https://careers.airbnb.com/positions/8037090?gh_jid=8037090"
     ]
   },
   {
@@ -1270,7 +1270,8 @@
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+      "https://amazon.jobs/en/jobs/10476393"
     ]
   },
   {
@@ -2262,7 +2263,10 @@
       "https://jobs.apple.com/en-us/details/200672494-0836/hardware-system-engineer-iphone-system-technology-soc?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672496-0836/sw-dev-engineer-ase-back-end?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672605-0836/platform-data-engineer?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200672639-3760/machine-learning-engineer-natural-language-understanding-proactive?team=MLAI"
+      "https://jobs.apple.com/en-us/details/200672639-3760/machine-learning-engineer-natural-language-understanding-proactive?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200672673-0836/firmware-security-researcher-sear?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200649764-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200666337-0836/wi-fi-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
     ]
   },
   {
@@ -3388,7 +3392,17 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Security-Cooperation-Logistics-Analyst_R0244510",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Software-Engineer_R0239218",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Cloud-Developer_R0244693",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Web-Application-Developer-and-SME_R0244691"
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Web-Application-Developer-and-SME_R0244691",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/Agentic-AI-Engineer_R0244598",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Bethesda-MD/Scientific-Software-Engineer_R0244215",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/North-Charleston-SC/Systems-Engineer_R0244756",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Hill-AFB-UT/ICBM-Physical-Security-Systems-Engineer_R0244613",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Hill-AFB-UT/ICBM-Physical-Security-Analyst_R0244423",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Data-Scientist--Mid_R0244616",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Buckley-AFB-CO/Signals-Data-Analyst--Mid_R0244752-1",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Monterey-CA/Data-Scientist_R0243945",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/North-Charleston-SC/Systems-Engineer_R0241945",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/ETL-Software-Engineer_R0241379"
     ]
   },
   {
@@ -3660,7 +3674,10 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer---BA4_JR-0000112302",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/UI-Developer_JR-0000089827-1",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/UI-Developer_JR-0000092941-3",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Tokyo-Roppongi-Hills-Mori-Tower/High-Frequency-Unix-System-Administrator_JR-0000090934-1"
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Tokyo-Roppongi-Hills-Mori-Tower/High-Frequency-Unix-System-Administrator_JR-0000090934-1",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Building-300-Whippany-Campus-Jefferson-Park/Software-Engineer-Full-Stack-Developer_JR-0000122697-1",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Software-Engineer---BA4_JR-0000100600",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000114758"
     ]
   },
   {
@@ -5175,7 +5192,13 @@
       "https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/Data-Analyst_308688-1",
       "https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/E-Discovery-IT-Data-Analyst_328827",
       "https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/E-Discovery-Systems-Analyst_328687",
-      "https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer_327046"
+      "https://caci.wd1.myworkdayjobs.com/external/job/Ypsilanti-MI-US/Software-Engineer_327046",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Test-Automation---DevOps-Engineer_329216",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Colorado-Springs-CO-US/Junior-Systems-Engineer_329174",
+      "https://caci.wd1.myworkdayjobs.com/external/job/King-George-VA-US/Junior-Software-Engineer_329208",
+      "https://caci.wd1.myworkdayjobs.com/external/job/King-George-VA-US/Intermediate-Software-Engineer_329211",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Cross-Platform---Software-Test-Automation-Engineer_329176",
+      "https://caci.wd1.myworkdayjobs.com/external/job/Fairfax-VA-US/Test-Automation-Engineer_329178"
     ]
   },
   {
@@ -5508,6 +5531,7 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
     "urls": [
       "https://careers.airbnb.com/positions/8024267?gh_jid=8024267",
+      "https://careers.airbnb.com/positions/8055229?gh_jid=8055229",
       "https://careers.airbnb.com/positions/8059212?gh_jid=8059212",
       "https://careers.aqr.com/jobs?gh_jid=7793650&gh_jid=7793650"
     ]
@@ -6553,7 +6577,8 @@
       "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/AI-Software-Engineer_R0083247-1",
       "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Cyber-Security-Incident-Response-Analyst_R0086894-1",
       "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Full-Stack-Engineer---D365_R0083337-1",
-      "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Software-Engineer--React-Native-_R0083334-1"
+      "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Software-Engineer--React-Native-_R0083334-1",
+      "https://centrica.wd3.myworkdayjobs.com/centrica/job/Windsor/Full-Stack-Engineer---APIM_R0083338-1"
     ]
   },
   {
@@ -6967,7 +6992,8 @@
       "https://job-boards.greenhouse.io/clarityinnovates/jobs/5174331007",
       "https://job-boards.greenhouse.io/clarityinnovates/jobs/5178993007",
       "https://job-boards.greenhouse.io/clarityinnovates/jobs/5180558007",
-      "https://job-boards.greenhouse.io/clarityinnovates/jobs/5186362007"
+      "https://job-boards.greenhouse.io/clarityinnovates/jobs/5186362007",
+      "https://job-boards.greenhouse.io/clarityinnovates/jobs/5179511007"
     ]
   },
   {
@@ -7295,7 +7321,8 @@
     "urls": [
       "https://job-boards.greenhouse.io/commvault/jobs/5271825008",
       "https://job-boards.greenhouse.io/commvault/jobs/5349236008",
-      "https://job-boards.greenhouse.io/commvault/jobs/5349251008"
+      "https://job-boards.greenhouse.io/commvault/jobs/5349251008",
+      "https://job-boards.greenhouse.io/commvault/jobs/5288186008"
     ]
   },
   {
@@ -7735,7 +7762,8 @@
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Engineer--Cloud---Provisioning-Platform--Hybrid-_R29021",
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Software-Engineer---Cloud--Hybrid-_R28302",
       "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Sr-Vulnerability-Management-Engineer--Remote-_R25646",
-      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Software-Engineer---Data-Platform--Hybrid--GBR-_R28894"
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/United-Kingdom---London/Software-Engineer---Data-Platform--Hybrid--GBR-_R28894",
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Remote/Detection-Engineer---Machine-Learning--Remote--East-Central-_R28832"
     ]
   },
   {
@@ -8233,7 +8261,8 @@
       "https://job-boards.greenhouse.io/diligentcorporation/jobs/6061946004",
       "https://job-boards.greenhouse.io/diligentcorporation/jobs/6092202004",
       "https://job-boards.greenhouse.io/diligentcorporation/jobs/6092205004",
-      "https://job-boards.greenhouse.io/diligentcorporation/jobs/6109099004"
+      "https://job-boards.greenhouse.io/diligentcorporation/jobs/6109099004",
+      "https://job-boards.greenhouse.io/diligentcorporation/jobs/6009101004"
     ]
   },
   {
@@ -8408,7 +8437,8 @@
       "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6853",
       "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6882",
       "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7056",
-      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7107"
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7107",
+      "https://ecyq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7093"
     ]
   },
   {
@@ -9383,7 +9413,8 @@
       "https://www.esri.com/careers/5176581007?gh_jid=5176581007",
       "https://www.esri.com/careers/5176588007?gh_jid=5176588007",
       "https://www.esri.com/careers/5185716007?gh_jid=5185716007",
-      "https://www.esri.com/careers/5186832007?gh_jid=5186832007"
+      "https://www.esri.com/careers/5186832007?gh_jid=5186832007",
+      "https://www.esri.com/careers/5188696007?gh_jid=5188696007"
     ]
   },
   {
@@ -9830,7 +9861,8 @@
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118356",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118362",
       "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118435",
-      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118442"
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118442",
+      "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/118378"
     ]
   },
   {
@@ -9862,7 +9894,8 @@
     "domain": "https://faithtechnologies.wd1.myworkdayjobs.com/fti",
     "page": "https://faithtechnologies.wd1.myworkdayjobs.com/wday/cxs/faithtechnologies/fti/jobs",
     "urls": [
-      "https://faithtechnologies.wd1.myworkdayjobs.com/fti/job/WI---Menasha/Asset-Administrator-I_R10613-1"
+      "https://faithtechnologies.wd1.myworkdayjobs.com/fti/job/WI---Menasha/Asset-Administrator-I_R10613-1",
+      "https://faithtechnologies.wd1.myworkdayjobs.com/fti/job/WI---Menasha/Financial-Systems-Analyst_R11087-1"
     ]
   },
   {
@@ -10813,7 +10846,8 @@
       "https://careers-gdms.icims.com/jobs/73503/advanced-embedded-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/73543/software-integration-engineer/job",
       "https://careers-gdms.icims.com/jobs/73553/space-force-muos-advanced-systems-engineer/job",
-      "https://careers-gdms.icims.com/jobs/73564/systems-engineer-%e2%80%93-autonomous-maritime-platforms/job"
+      "https://careers-gdms.icims.com/jobs/73564/systems-engineer-%e2%80%93-autonomous-maritime-platforms/job",
+      "https://careers-gdms.icims.com/jobs/73586/embedded-software-engineer/job"
     ]
   },
   {
@@ -10870,7 +10904,8 @@
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Training-Specialist---Integrated-Systems-and-Networking-Devices_R5036411-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Intern-Product-Definition-Engineer---VG-Systems_R5037349-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Sr-AI-Data-Engineer_R5034165-1",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1"
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1",
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Aircraft-Engines-Prognostics-and-Health-Management-Data-Analyst-Engineer--Intern-_R5036877-1"
     ]
   },
   {
@@ -10922,7 +10957,8 @@
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Seongnam/AI-ML-Engineer_R4042507-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Seongnam/Software-Engineer_R4042394-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Software-Engineer_R4042739-2",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527"
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527",
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/OH05-01-Beachwood-Science-Park-Drive/Software-Engineer-I_R4040485-2"
     ]
   },
   {
@@ -11046,7 +11082,8 @@
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Software-Engineer_JR-202614511",
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Statistician-Data-Scientist---Data-Insights-and-Decision-Support_JR-202607581",
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Vehicle-Systems-Engineer_JR-202614847",
-      "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795"
+      "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2026-Fall-Intern---Research---Development--AI-ML_JR-202612795",
+      "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Automation-Platform-and-AI-Integration-Engineer_JR-202615021"
     ]
   },
   {
@@ -11300,7 +11337,8 @@
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-DULLES-710--22110-Pacific-Blvd--BLDG-10/Principle-Engineer--Data-Analytic-Methods--Onsite-_01857236-1",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-VA-LANGLEY-AFB-CUST--586-Weyland-Rd--LANGLEY-AFB-External-Site/Lowband-Software-Support-Engineer--Onsite-_01830920",
       "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Warminster-Wiltshire/CAST-Systems-engineer_01856214",
-      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1"
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/Winnersh-Wokingham/Principle-Site-Reliability-Engineer--Remote-_01852431-1",
+      "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-RTRC-K--411-Silver-Ln--RTRC-K/Agentic-AI-Researcher_01823715"
     ]
   },
   {
@@ -11809,7 +11847,10 @@
       "https://www.google.com/about/careers/applications/jobs/results/99817141326226118-software-engineer-tv-systems?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/99901412879540934-customer-engineer-national-security?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99901850966205126-robotics-automation-engineer-platforms-infrastructure?sort_by=date&page=2",
-      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1"
+      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/129214285501866694-security-developer-ads-safety?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/77150760659231430-ai-outcome-customer-engineer-forward-deployed-engineering?sort_by=date&page=2",
+      "https://www.google.com/about/careers/applications/jobs/results/105278467120997062-software-engineer-aiml-agentic-ecosystem-platform?sort_by=date&page=2"
     ]
   },
   {
@@ -12259,7 +12300,9 @@
     "identifier": "healthesystems",
     "domain": "https://www.healthesystems.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/healthesystems/jobs",
-    "urls": []
+    "urls": [
+      "https://www.healthesystems.com/unassigned/careers-list?gh_jid=7768711003"
+    ]
   },
   {
     "name": "healthfirst",
@@ -12508,7 +12551,8 @@
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Embedded-Systems-Engineer-for-Base-Systems--f-m-d-_R1012763-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Product-Owner-and-DevOps-Engineer--w-m-d-_R1013138-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Developer---Cybersecurity--f-m-d-_R0138225-1",
-      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1"
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1",
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Kolkata-West-Bengal-India/Infrastructure-as-Code-developer_R0136804"
     ]
   },
   {
@@ -12893,7 +12937,8 @@
     "page": "https://humana.wd5.myworkdayjobs.com/wday/cxs/humana/humana_external_career_site/jobs",
     "urls": [
       "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Junior-Software-Engineer--Cloud-Cost-Optimization_R-413873-1",
-      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Technical-Communications-and-Data-Analyst_R-418163"
+      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Technical-Communications-and-Data-Analyst_R-418163",
+      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Boston-MA/Applied-AI-Engineer_R-415616"
     ]
   },
   {
@@ -13488,7 +13533,8 @@
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Adv-Analyst-I--Infra-CX_R-14277",
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Cloud-Security-Engineer---I_R-14520",
       "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Eng-I--Infra-Stblty-4_R-14522",
-      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Prin-Eng-I--Cloud---Sol_R-14079"
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Prin-Eng-I--Cloud---Sol_R-14079",
+      "https://invesco.wd1.myworkdayjobs.com/ivz/job/Hyderabad-Telangana/Eng-I--Infra-Stblty_R-14330"
     ]
   },
   {
@@ -14405,7 +14451,8 @@
       "https://www.jumptrading.com/hr/job?gh_jid=8052338",
       "https://www.jumptrading.com/hr/job?gh_jid=8052343",
       "https://www.jumptrading.com/hr/job?gh_jid=8052351",
-      "https://www.jumptrading.com/hr/job?gh_jid=8052356"
+      "https://www.jumptrading.com/hr/job?gh_jid=8052356",
+      "https://www.jumptrading.com/hr/job?gh_jid=7847009"
     ]
   },
   {
@@ -15935,7 +15982,8 @@
       "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Prin-Hardware-Engineer---Clem_R69246-1",
       "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68340-1",
       "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68345-1",
-      "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Warsaw-Mazowieckie-Poland/AI-Knowledge-Junior-Engineer_R70163-1"
+      "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Warsaw-Mazowieckie-Poland/AI-Knowledge-Junior-Engineer_R70163-1",
+      "https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Alajuela-Coyol-Alajuela-Costa-Rica/Prin-Software-Cloud-Engineer_R72311-1"
     ]
   },
   {
@@ -15952,7 +16000,8 @@
       "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Prin-Hardware-Engineer---Clem_R69246",
       "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68340",
       "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Nanakramguda-Hyderabad-India/IT-Developer---Data-Engineer_R68345",
-      "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Warsaw-Mazowieckie-Poland/AI-Knowledge-Junior-Engineer_R70163"
+      "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Warsaw-Mazowieckie-Poland/AI-Knowledge-Junior-Engineer_R70163",
+      "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Alajuela-Coyol-Alajuela-Costa-Rica/Prin-Software-Cloud-Engineer_R72311"
     ]
   },
   {
@@ -16212,7 +16261,10 @@
       "https://www.metacareers.com/profile/job_details/994881556459825",
       "https://www.metacareers.com/profile/job_details/997644772875988",
       "https://www.metacareers.com/profile/job_details/998357492128826",
-      "https://www.metacareers.com/profile/job_details/998982982733342"
+      "https://www.metacareers.com/profile/job_details/998982982733342",
+      "https://www.metacareers.com/profile/job_details/1670149234051960",
+      "https://www.metacareers.com/profile/job_details/1586694303164374",
+      "https://www.metacareers.com/profile/job_details/1780259309366631"
     ]
   },
   {
@@ -16600,7 +16652,8 @@
     "domain": "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers",
     "page": "https://monolithicpower.wd12.myworkdayjobs.com/wday/cxs/monolithicpower/mps_careers/jobs",
     "urls": [
-      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/Chengdu---China/Application-Engineer---Auto-Burn-In-Platform_R-1572-1"
+      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/Chengdu---China/Application-Engineer---Auto-Burn-In-Platform_R-1572-1",
+      "https://monolithicpower.wd12.myworkdayjobs.com/mps_careers/job/Overijssel-Netherlands/IT-Infrastructure-Engineer_R-1725"
     ]
   },
   {
@@ -17321,7 +17374,11 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/R10206390-22026-Associate-Cyber-Software-Engineer---Chantilly-VA_R10236425",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Data-Processing-Team_R10238622",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Cyber-Systems-Engineer---Level-4_R10240813",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Huntsville-AL_R10240786",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer_R10240764",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2026-Associate-Software-Engineer---Huntsville-AL_R10240672-1"
     ]
   },
   {
@@ -17845,7 +17902,9 @@
     "identifier": "nyp-nypcareers",
     "domain": "https://nyp.wd1.myworkdayjobs.com/nypcareers",
     "page": "https://nyp.wd1.myworkdayjobs.com/wday/cxs/nyp/nypcareers/jobs",
-    "urls": []
+    "urls": [
+      "https://nyp.wd1.myworkdayjobs.com/nypcareers/job/NYPWeill-Cornell-Medical-Center/Data-Scientist_00884712"
+    ]
   },
   {
     "name": "obsidian.applytojob.com",
@@ -18600,7 +18659,8 @@
       "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24934",
       "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24947",
       "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/24967",
-      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/25153"
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/25153",
+      "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/25110"
     ]
   },
   {
@@ -18671,7 +18731,8 @@
       "https://careers-peraton.icims.com/jobs/168587/software-engineer/job",
       "https://careers-peraton.icims.com/jobs/168603/sitec---deployed-systems-support-engineer---camp-lejeune%2c-nc/job",
       "https://careers-peraton.icims.com/jobs/168615/systems-engineering-sme/job",
-      "https://careers-peraton.icims.com/jobs/168660/java-full-stack-developer/job"
+      "https://careers-peraton.icims.com/jobs/168660/java-full-stack-developer/job",
+      "https://careers-peraton.icims.com/jobs/168682/sr-software-engineer---active-ts-sci/job"
     ]
   },
   {
@@ -18801,7 +18862,9 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/Software-System-Engineer_586975-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/Software-Development-Intern_586266",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/System-Engineer_586825",
-      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838"
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Systems-Test-Engineer_586453",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Gainesville-Florida-United-States/DevOps-Engineer_582349"
     ]
   },
   {
@@ -19458,7 +19521,9 @@
     "identifier": "QuantumWorkplace",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/QuantumWorkplace?mode=json",
-    "urls": []
+    "urls": [
+      "https://jobs.lever.co/QuantumWorkplace/08577ef5-6669-4d7c-bb94-465160b71273"
+    ]
   },
   {
     "name": "questanalytics",
@@ -19645,7 +19710,8 @@
       "https://boards.greenhouse.io/rdccareers/jobs/7781282003?gh_jid=7781282003",
       "https://boards.greenhouse.io/rdccareers/jobs/7783118003?gh_jid=7783118003",
       "https://boards.greenhouse.io/rdccareers/jobs/7787483003?gh_jid=7787483003",
-      "https://boards.greenhouse.io/rdccareers/jobs/7800190003?gh_jid=7800190003"
+      "https://boards.greenhouse.io/rdccareers/jobs/7800190003?gh_jid=7800190003",
+      "https://boards.greenhouse.io/rdccareers/jobs/7801396003?gh_jid=7801396003"
     ]
   },
   {
@@ -19733,7 +19799,8 @@
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Tokyo/Agile-Development-Lead_R-055737-1",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Tokyo/Junior-Consultant_R-054538",
       "https://redhat.wd5.myworkdayjobs.com/jobs/job/Waterford-City/Software-Engineer---Linux-Kernel-Engineering---Waterford-Office--Ireland-_R-057580",
-      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Zurich---MSO/Market-Development-Representative--m-f-d-_R-056792-1"
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Zurich---MSO/Market-Development-Representative--m-f-d-_R-056792-1",
+      "https://redhat.wd5.myworkdayjobs.com/jobs/job/Remote-US-NC/Software-Engineer---GCP-Hosted-Control-Planes_R-053111"
     ]
   },
   {
@@ -20338,7 +20405,8 @@
     "page": "https://rsm.wd1.myworkdayjobs.com/wday/cxs/rsm/rsmcareers/jobs",
     "urls": [
       "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/Gurugram/Data-Analyst-1_JR120149-1",
-      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Software-Developer-Intern_JR119685"
+      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Software-Developer-Intern_JR119685",
+      "https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/San-Salvador/Enterprise-Data-Integration---Migration--Sr-Developer_JR120200"
     ]
   },
   {
@@ -20498,7 +20566,8 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-MTS_JR349609",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-PMTS_JR348157-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Data-Engineer---MTS-SMTS_JR338891-1",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/GVC-Cloud-Nightforce-Support-Engineer--US-Citizen-Only-_JR350799"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/GVC-Cloud-Nightforce-Support-Engineer--US-Citizen-Only-_JR350799",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Texas---Dallas/Workday-Software-Engineer---MTS_JR344779"
     ]
   },
   {
@@ -20688,7 +20757,10 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/saronic",
     "urls": [
-      "https://jobs.ashbyhq.com/saronic/70d12fb4-31ac-4f7e-a7ab-9e172ee4d1e1"
+      "https://jobs.ashbyhq.com/saronic/70d12fb4-31ac-4f7e-a7ab-9e172ee4d1e1",
+      "https://jobs.ashbyhq.com/saronic/3047298d-a9a7-45bc-9a5d-bfe9a8f1e40b",
+      "https://jobs.ashbyhq.com/saronic/d23bea69-067f-47e6-9e9d-7975c25bc634",
+      "https://jobs.ashbyhq.com/saronic/497fe435-eaa8-4513-94a7-6a6ee76cca5d"
     ]
   },
   {
@@ -20886,7 +20958,8 @@
       "https://careers-scires.icims.com/jobs/11316/cyber-security-engineer-%28red-team%29/job",
       "https://careers-scires.icims.com/jobs/11317/system-testing-engineer-%28ssee%29/job",
       "https://careers-scires.icims.com/jobs/11322/system-testing-engineer-%28ssee%29/job",
-      "https://careers-scires.icims.com/jobs/11334/systems-engineer-iv/job"
+      "https://careers-scires.icims.com/jobs/11334/systems-engineer-iv/job",
+      "https://careers-scires.icims.com/jobs/11339/sr-cyber-security-engineer/job"
     ]
   },
   {
@@ -21023,7 +21096,12 @@
       "https://searchcareers.caci.com/careers/job/1443152173253",
       "https://searchcareers.caci.com/careers/job/1443152174584",
       "https://searchcareers.caci.com/careers/job/1443152200281",
-      "https://searchcareers.caci.com/careers/job/1443152201029"
+      "https://searchcareers.caci.com/careers/job/1443152201029",
+      "https://searchcareers.caci.com/careers/job/1443152206622",
+      "https://searchcareers.caci.com/careers/job/1443152203551",
+      "https://searchcareers.caci.com/careers/job/1443152204684",
+      "https://searchcareers.caci.com/careers/job/1443152205859",
+      "https://searchcareers.caci.com/careers/job/1443152205997"
     ]
   },
   {
@@ -21162,7 +21240,9 @@
     "identifier": "semtech-semtechcareers",
     "domain": "https://semtech.wd1.myworkdayjobs.com/semtechcareers",
     "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechcareers/jobs",
-    "urls": []
+    "urls": [
+      "https://semtech.wd1.myworkdayjobs.com/semtechcareers/job/CAN---Burlington-ON/Salesforce-QA---Data-Analyst-Intern_REQ3488"
+    ]
   },
   {
     "name": "semtech",
@@ -21170,7 +21250,9 @@
     "identifier": "semtech-semtechjobs",
     "domain": "https://semtech.wd1.myworkdayjobs.com/semtechjobs",
     "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
-    "urls": []
+    "urls": [
+      "https://semtech.wd1.myworkdayjobs.com/semtechjobs/job/CAN---Burlington-ON/Salesforce-QA---Data-Analyst-Intern_REQ3488-2"
+    ]
   },
   {
     "name": "sentra",
@@ -21494,7 +21576,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/simplisafe/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/simplisafe/jobs/8049510",
-      "https://job-boards.greenhouse.io/simplisafe/jobs/8049515"
+      "https://job-boards.greenhouse.io/simplisafe/jobs/8049515",
+      "https://job-boards.greenhouse.io/simplisafe/jobs/8068110"
     ]
   },
   {
@@ -22195,7 +22278,9 @@
       "https://boards.greenhouse.io/spacex/jobs/8632103002?gh_jid=8632103002",
       "https://boards.greenhouse.io/spacex/jobs/8632106002?gh_jid=8632106002",
       "https://boards.greenhouse.io/spacex/jobs/8633640002?gh_jid=8633640002",
-      "https://boards.greenhouse.io/spacex/jobs/8633999002?gh_jid=8633999002"
+      "https://boards.greenhouse.io/spacex/jobs/8633999002?gh_jid=8633999002",
+      "https://boards.greenhouse.io/spacex/jobs/8391130002?gh_jid=8391130002",
+      "https://boards.greenhouse.io/spacex/jobs/8391128002?gh_jid=8391128002"
     ]
   },
   {
@@ -22520,7 +22605,8 @@
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development--a-k-a-Workday-Integrations-Specialist-_R-793712",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-792613",
       "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-794161",
-      "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Test-Automation-Engineer_R-794138"
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Test-Automation-Engineer_R-794138",
+      "https://statestreet.wd1.myworkdayjobs.com/global/job/Dublin-2-Ireland/Software-Quality-Assurance-Engineer--Officer---OTC-Enhanced-_R-794408"
     ]
   },
   {
@@ -23028,7 +23114,8 @@
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693343006",
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693345006",
       "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693349006",
-      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693379006"
+      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4693379006",
+      "https://job-boards.greenhouse.io/systemstechnologyresearch/jobs/4697568006"
     ]
   },
   {
@@ -23415,7 +23502,9 @@
       "https://thales.wd3.myworkdayjobs.com/careers/job/Singapore/Engineer--Data-Science---AI_R0333751",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Sophia-Antipolis/Software-Solutions-Engineer---Java-Fullstack---Angular---F-H-_R0311925-1",
       "https://thales.wd3.myworkdayjobs.com/careers/job/TEL-AVIV/Java-Backend-Engineer--Data-Security-Team_R0323130",
-      "https://thales.wd3.myworkdayjobs.com/careers/job/Vancouver---Pender-St/Quality-Assurance-Automation-Developer_R0325545-1"
+      "https://thales.wd3.myworkdayjobs.com/careers/job/Vancouver---Pender-St/Quality-Assurance-Automation-Developer_R0325545-1",
+      "https://thales.wd3.myworkdayjobs.com/careers/job/Vancouver---Pender-St/Software-Developer-in-Test_R0334331-1",
+      "https://thales.wd3.myworkdayjobs.com/careers/job/Rydalmere/Software-Engineer_R0333331"
     ]
   },
   {
@@ -24521,7 +24610,8 @@
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9903",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9932",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9969"
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9969",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10134"
     ]
   },
   {
@@ -24845,7 +24935,8 @@
       "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Data-Scientist--Specialist_178070-1",
       "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Manchester-United-Kingdom/Data-Analyst--12-month-contract-_180206",
       "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Melbourne-Australia/Data-Scientist--Specialist_180435",
-      "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Wayne-PA/Fabric-Data-Engineer---Workplace-Engineering_178723"
+      "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Wayne-PA/Fabric-Data-Engineer---Workplace-Engineering_178723",
+      "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Data-Scientist--Specialist_178020"
     ]
   },
   {
@@ -25442,7 +25533,8 @@
     "domain": "https://vst.wd5.myworkdayjobs.com/vistra_careers",
     "page": "https://vst.wd5.myworkdayjobs.com/wday/cxs/vst/vistra_careers/jobs",
     "urls": [
-      "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Continuous-Emissions-Monitoring--CEMS--Software-Specialist_40016020-1"
+      "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Continuous-Emissions-Monitoring--CEMS--Software-Specialist_40016020-1",
+      "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Irving-Texas/Associate-Data-Analyst-Retail_40015958-2"
     ]
   },
   {
