@@ -260,6 +260,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Solar Turbines</td>
+      <td width="420" align="left" valign="top">Gas Turbine Products Engineering Intern<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027--Gas-Turbine-Product-Engineering-Internship_R0000382293"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 16</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Netic</td>
       <td width="420" align="left" valign="top">Software Engineer (Agent Platform) - Intern - 2026-2027</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -392,16 +399,9 @@
       <td width="120" align="left" valign="top"><a href="https://careers.varsitybrands.com/global/en/job/JR114172"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Persona AI</td>
-      <td width="420" align="left" valign="top">Teleoperation Software Engineering Internship</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 106 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 107 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -416,6 +416,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Solar Turbines</td>
+      <td width="420" align="left" valign="top">Entry Level Gas Turbine Product Engineer - Gtpe<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://cat.wd5.myworkdayjobs.com/en-US/solarturbines/job/San-Diego-California/XMLNAME-2027-Entry-Level-Gas-Turbine-Product-Engineer--GTPE-_R0000382291"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Sierraspace</td>
       <td width="420" align="left" valign="top">Systems Engineer I</td>
@@ -549,16 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/external/job/CT---Hartford/Software-Engineer-I---Guidewire-Policy-Configuration_R-51545"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tandemdiabetes</td>
-      <td width="420" align="left" valign="top">Software Test Engineer I</td>
-      <td width="180" align="left" valign="top">Del Mar, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes/job/California---High-Bluff/Software-Test-Engineer-I_JR100832-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 670 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 671 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (4,531)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-16T14:32:55.002Z</code>
+      🕒 Last updated <code>2026-07-16T15:28:38.497Z</code>
     </span>
   </p>
 </div>
