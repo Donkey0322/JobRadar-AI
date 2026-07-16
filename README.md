@@ -561,7 +561,7 @@
 <p><sub>Showing 20 of 663 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (4,501)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (4,502)</b></summary>
 
   <br />
 
@@ -722,7 +722,7 @@
 </table>
 <p><sub>Showing 20 of 2,520 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (1,981)</h3>
+  <h3>Senior Level (1,982)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Technical Solutions Engineer, Compute, High Touch Support, Google Cloud</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/84608954188866246-technical-solutions-engineer-compute-high-touch-support-google-cloud?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 16</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Socure</td>
       <td width="420" align="left" valign="top">Data Scientist ll - Digital Intelligence</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/System-Engineer_01859704"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fmr</td>
-      <td width="420" align="left" valign="top">Data Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Westlake, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/Data-Engineer_2131556-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,981 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,982 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-16T06:39:05.643Z</code>
+      🕒 Last updated <code>2026-07-16T09:35:44.905Z</code>
     </span>
   </p>
 </div>
