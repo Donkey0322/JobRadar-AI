@@ -5850,20 +5850,20 @@
   },
   {
     "name": "careers.itw.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
-    "page": "https://careers.itw.com",
+    "page": "",
     "urls": [
       "https://careers.itw.com/global/en/job/JR4585"
     ]
   },
   {
     "name": "careers.itw.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.itw.com",
     "domain": "https://careers.itw.com",
-    "page": "",
+    "page": "https://careers.itw.com",
     "urls": []
   },
   {
@@ -6238,10 +6238,10 @@
   },
   {
     "name": "careers.varsitybrands.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "careers.varsitybrands.com",
     "domain": "https://careers.varsitybrands.com",
-    "page": "https://careers.varsitybrands.com",
+    "page": "",
     "urls": [
       "https://careers.varsitybrands.com/global/en/job/JR113976",
       "https://careers.varsitybrands.com/global/en/job/JR114172"
@@ -6249,10 +6249,10 @@
   },
   {
     "name": "careers.varsitybrands.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "careers.varsitybrands.com",
     "domain": "https://careers.varsitybrands.com",
-    "page": "",
+    "page": "https://careers.varsitybrands.com",
     "urls": []
   },
   {
@@ -13671,10 +13671,10 @@
   },
   {
     "name": "jobs.cisco.com",
-    "ats": "phenom",
+    "ats": "custom",
     "identifier": "jobs.cisco.com",
     "domain": "https://jobs.cisco.com",
-    "page": "https://jobs.cisco.com",
+    "page": "",
     "urls": [
       "https://jobs.cisco.com/jobs/ProjectDetail/Product-Management-Specialist-I-Intern-United-States/1448055",
       "https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineer-PhD-Intern-United-States/1449981"
@@ -13682,10 +13682,10 @@
   },
   {
     "name": "jobs.cisco.com",
-    "ats": "custom",
+    "ats": "phenom",
     "identifier": "jobs.cisco.com",
     "domain": "https://jobs.cisco.com",
-    "page": "",
+    "page": "https://jobs.cisco.com",
     "urls": []
   },
   {
@@ -15312,7 +15312,10 @@
     "identifier": "magna-magna",
     "domain": "https://wd3.myworkdaysite.com/recruiting/magna/Magna",
     "page": "https://wd3.myworkdaysite.com/wday/cxs/magna/Magna/jobs",
-    "urls": []
+    "urls": [
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238",
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Bengaluru-IN/Software-Engineer---ALM-Platform--Python-Java--Full-Stack-_R00252219"
+    ]
   },
   {
     "name": "magnetforensics",
@@ -20669,10 +20672,10 @@
   },
   {
     "name": "searchcareers.caci.com",
-    "ats": "eightfold",
+    "ats": "custom",
     "identifier": "searchcareers.caci.com",
-    "domain": "caci.com",
-    "page": "https://searchcareers.caci.com/api/pcsx/search?domain=caci.com",
+    "domain": "https://searchcareers.caci.com",
+    "page": "",
     "urls": [
       "https://searchcareers.caci.com/careers/job/1443148812309?8fold_id=1443148812309",
       "https://searchcareers.caci.com/careers/job/1443149718259?8fold_id=1443149718259",
@@ -20783,6 +20786,14 @@
       "https://searchcareers.caci.com/careers/job/1443152235670?8fold_id=1443152235670",
       "https://searchcareers.caci.com/careers/job/1443152235672?8fold_id=1443152235672"
     ]
+  },
+  {
+    "name": "searchcareers.caci.com",
+    "ats": "eightfold",
+    "identifier": "searchcareers.caci.com",
+    "domain": "caci.com",
+    "page": "https://searchcareers.caci.com/api/pcsx/search?domain=caci.com",
+    "urls": []
   },
   {
     "name": "Seaspan",
