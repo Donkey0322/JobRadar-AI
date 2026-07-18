@@ -38,7 +38,9 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": []
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4669789006"
+    ]
   },
   {
     "name": "aaaie",
@@ -727,7 +729,6 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
       "https://www.8am.com/openings/?gh_jid=4663446006",
-      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -1249,7 +1250,8 @@
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+      "https://amazon.jobs/en/jobs/10478055"
     ]
   },
   {
@@ -15313,8 +15315,8 @@
     "domain": "https://wd3.myworkdaysite.com/recruiting/magna/Magna",
     "page": "https://wd3.myworkdaysite.com/wday/cxs/magna/Magna/jobs",
     "urls": [
-      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238",
-      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Bengaluru-IN/Software-Engineer---ALM-Platform--Python-Java--Full-Stack-_R00252219"
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Bengaluru-IN/Software-Engineer---ALM-Platform--Python-Java--Full-Stack-_R00252219",
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238"
     ]
   },
   {
