@@ -2333,6 +2333,8 @@
       "https://jobs.apple.com/en-us/details/200672633-0836/analog-mixed-signal-modeling-software-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672639-3760/machine-learning-engineer-natural-language-understanding-proactive?team=MLAI",
       "https://jobs.apple.com/en-us/details/200672663-0365/system-stability-automation-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200672668-0157/machine-learning-engineer-wallet-intelligence-and-machine-learning?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200672668-2459/machine-learning-engineer-wallet-intelligence-and-machine-learning?team=MLAI",
       "https://jobs.apple.com/en-us/details/200672673-0836/firmware-security-researcher-sear?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672677-0157/wireless-systems-researcher?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672753-0836/software-engineer?team=SFTWR",
@@ -2349,8 +2351,7 @@
       "https://jobs.apple.com/en-us/details/200672937-3337/ai-research-scientist-multimodal-foundation-models-architecture-pre-training-distillation?team=MLAI",
       "https://jobs.apple.com/en-us/details/200672937-3956/ai-research-scientist-multimodal-foundation-models-architecture-pre-training-distillation?team=MLAI",
       "https://jobs.apple.com/en-us/details/200672977-0836/software-engineer-distributed-systems-compute-platform?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200672668-0157/machine-learning-engineer-wallet-intelligence-and-machine-learning?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200672668-2459/machine-learning-engineer-wallet-intelligence-and-machine-learning?team=MLAI"
+      "https://jobs.apple.com/en-us/details/200672175-0157/software-quality-engineer-wallet-payments-commerce?team=SFTWR"
     ]
   },
   {
@@ -4007,7 +4008,8 @@
     "page": "https://becu.wd1.myworkdayjobs.com/wday/cxs/becu/external/jobs",
     "urls": [
       "https://becu.wd1.myworkdayjobs.com/external/job/Remote-WA/Sr-Data-Analyst_R-13411",
-      "https://becu.wd1.myworkdayjobs.com/external/job/Tukwila-WA/Sr-Data-Scientist---Member-Growth---Prescreen-Modeling_R-13264"
+      "https://becu.wd1.myworkdayjobs.com/external/job/Tukwila-WA/Sr-Data-Scientist---Member-Growth---Prescreen-Modeling_R-13264",
+      "https://becu.wd1.myworkdayjobs.com/external/job/Tukwila-WA/Data-Scientist_R-13109"
     ]
   },
   {
@@ -7073,22 +7075,6 @@
     "urls": []
   },
   {
-    "name": "Citco",
-    "ats": "oraclecloud",
-    "identifier": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
-    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13957",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14258",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14567",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16188",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16704",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16896",
-      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/17045"
-    ]
-  },
-  {
     "name": "citi",
     "ats": "workday",
     "identifier": "citi-2",
@@ -9722,16 +9708,6 @@
     "domain": "https://etsy.wd5.myworkdayjobs.com/etsy_careers",
     "page": "https://etsy.wd5.myworkdayjobs.com/wday/cxs/etsy/etsy_careers/jobs",
     "urls": []
-  },
-  {
-    "name": "etyy.fa.ap2.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "etyy.fa.ap2.oraclecloud.com",
-    "domain": "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://etyy.fa.ap2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11508"
-    ]
   },
   {
     "name": "eulerity",
@@ -12965,7 +12941,7 @@
     ]
   },
   {
-    "name": "HOLOGIC",
+    "name": "Hologic Careers",
     "ats": "oraclecloud",
     "identifier": "ebwb.fa.us2.oraclecloud.com",
     "domain": "https://ebwb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
@@ -13226,7 +13202,8 @@
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Tlaquepaque-Jalisco-Mexico/Public-Cloud-Engineer_3165121",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/Big-Data-Laser-Analyst_3162874",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/DataOS-Data-Engineer_3161683",
-      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/HP-App-Monetezation-Data-explorer_3158862"
+      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/HP-App-Monetezation-Data-explorer_3158862",
+      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Tlaquepaque-Jalisco-Mexico/Cloud-Engineering-Intern_3166173"
     ]
   },
   {
@@ -14910,6 +14887,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/juvare/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/juvare/jobs/4706846005"
+    ]
+  },
+  {
+    "name": "K&S Careers",
+    "ats": "oraclecloud",
+    "identifier": "etyy.fa.ap2.oraclecloud.com",
+    "domain": "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://etyy.fa.ap2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11508"
     ]
   },
   {
@@ -17015,7 +17002,8 @@
       "https://mmc.wd1.myworkdayjobs.com/mmc/job/Dublin---Frame/Senior-Analyst---Digital-Visualization-and-Data-Analytics-Development_R_352779",
       "https://mmc.wd1.myworkdayjobs.com/mmc/job/Melbourne---727-Collins/Business-Data-Analyst---Marsh-Risk_R_356468",
       "https://mmc.wd1.myworkdayjobs.com/mmc/job/Mexico-City---Paseo/Specialist---Data-Engineering_R_355987",
-      "https://mmc.wd1.myworkdayjobs.com/mmc/job/Porto---Sucesso/Data-Analyst-Trainee_R_353223"
+      "https://mmc.wd1.myworkdayjobs.com/mmc/job/Porto---Sucesso/Data-Analyst-Trainee_R_353223",
+      "https://mmc.wd1.myworkdayjobs.com/mmc/job/Mexico-City---Paseo/Developer-Full-stack_R_357835"
     ]
   },
   {
@@ -19182,7 +19170,7 @@
     ]
   },
   {
-    "name": "Pearson",
+    "name": "Pearson Candidate Experience Site",
     "ats": "oraclecloud",
     "identifier": "hccz.fa.em3.oraclecloud.com",
     "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
@@ -19295,7 +19283,8 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/persona",
     "urls": [
       "https://jobs.ashbyhq.com/persona/0c22b00a-79c9-448f-9a39-0d5da64d93f4",
-      "https://jobs.ashbyhq.com/persona/9d501850-37ce-432a-928b-eb1ac22e2757"
+      "https://jobs.ashbyhq.com/persona/9d501850-37ce-432a-928b-eb1ac22e2757",
+      "https://jobs.ashbyhq.com/persona/06ce6de8-8541-4dfd-9c09-3e467d5f91bb"
     ]
   },
   {
@@ -21177,7 +21166,8 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-PMTS_JR348157-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Data-Engineer---MTS-SMTS_JR338891-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/GVC-Cloud-Nightforce-Support-Engineer--US-Citizen-Only-_JR350799",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Canada---Toronto/AR-Systems-Analyst_JR351325"
     ]
   },
   {
@@ -21853,13 +21843,13 @@
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Associate-Software-Engineer_2026-21564",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Data-Engineer_2026-20940-1",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Firmware-Engineer---Protection-Systems-Platforms_2026-20221-1",
+      "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Front-End-Web-Developer_2026-22260",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Manufacturing-Software-Integration-Engineer-_2026-20428-1",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Project-Engineer-I---Automation_2025-19073",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Software-Engineer---C--_2026-19805",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Software-Engineer--AI-ML-Tools-focus-_2026-21798",
       "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Software-Engineer-Intern_2026-21720",
-      "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Test-Engineer_2026-20403-1",
-      "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Front-End-Web-Developer_2026-22260"
+      "https://selinc.wd1.myworkdayjobs.com/sel/job/Washington---Pullman/Test-Engineer_2026-20403-1"
     ]
   },
   {
@@ -22930,7 +22920,8 @@
       "https://boards.greenhouse.io/spacex/jobs/8637472002?gh_jid=8637472002",
       "https://boards.greenhouse.io/spacex/jobs/8638457002?gh_jid=8638457002",
       "https://boards.greenhouse.io/spacex/jobs/8639247002?gh_jid=8639247002",
-      "https://boards.greenhouse.io/spacex/jobs/8639268002?gh_jid=8639268002"
+      "https://boards.greenhouse.io/spacex/jobs/8639268002?gh_jid=8639268002",
+      "https://boards.greenhouse.io/spacex/jobs/8639573002?gh_jid=8639573002"
     ]
   },
   {
@@ -24181,6 +24172,22 @@
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vancouver---Pender-St/Quality-Assurance-Automation-Developer_R0325545-1",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vancouver---Pender-St/Software-Developer-in-Test_R0334331-1",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy-Villacoublay/Core-HR-Data-Analyst---F-H_R0334306"
+    ]
+  },
+  {
+    "name": "The Citco Group Limited",
+    "ats": "oraclecloud",
+    "identifier": "fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com",
+    "domain": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13957",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14258",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/14567",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16188",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16704",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/16896",
+      "https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/17045"
     ]
   },
   {
@@ -25845,8 +25852,8 @@
     "domain": "https://veralto.wd1.myworkdayjobs.com/hachjobs",
     "page": "https://veralto.wd1.myworkdayjobs.com/wday/cxs/veralto/hachjobs/jobs",
     "urls": [
-      "https://veralto.wd1.myworkdayjobs.com/hachjobs/job/Vancouver-British-Columbia-Canada/Aquatic-Informatics---Software-Engineering-Co-op_R10267344",
-      "https://veralto.wd1.myworkdayjobs.com/hachjobs/job/IND---Remote/Sr-Business-Systems-Analyst_R10265630"
+      "https://veralto.wd1.myworkdayjobs.com/hachjobs/job/IND---Remote/Sr-Business-Systems-Analyst_R10265630",
+      "https://veralto.wd1.myworkdayjobs.com/hachjobs/job/Vancouver-British-Columbia-Canada/Aquatic-Informatics---Software-Engineering-Co-op_R10267344"
     ]
   },
   {
