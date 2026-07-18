@@ -10,6 +10,7 @@ import { urlToGreenhouseCompany } from "./ats/greenhouse";
 import { urlToIcimsCompany } from "./ats/icims";
 import { urlToLeverCompany } from "./ats/lever";
 import { urlToOracleCloudCompany } from "./ats/oraclecloud";
+import { urlToPhenomCompany } from "./ats/phenom";
 import { urlToSmartRecruitersCompany } from "./ats/smart";
 import { urlToWorkdayCompany } from "./ats/workday";
 import { classifyATS } from "./ats";
@@ -38,6 +39,8 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
         return urlToLeverCompany(url);
       case "oraclecloud":
         return await urlToOracleCloudCompany(url);
+      case "phenom":
+        return urlToPhenomCompany(url);
       case "smartrecruiters":
         return urlToSmartRecruitersCompany(url);
       case "workday":

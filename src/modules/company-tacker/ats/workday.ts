@@ -92,19 +92,10 @@ function getWorkdayJobsFromResponse(data: unknown): WorkdayJob[] {
 
   const jobs: WorkdayJob[] = [];
 
-  for (const [index, rawJob] of response.data.jobPostings.entries()) {
+  for (const [, rawJob] of response.data.jobPostings.entries()) {
     const parsedJob = WorkdayJobSchema.safeParse(rawJob);
 
     if (!parsedJob.success) {
-      logger.warn(
-        {
-          index,
-          job: rawJob,
-          issues: parsedJob.error.issues,
-        },
-        "⚠️ Skipping invalid Workday job"
-      );
-
       continue;
     }
 

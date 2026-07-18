@@ -141,6 +141,14 @@ export async function processJobs({
           };
         }
 
+        if (result.error.code === HttpStatusCode.TOO_MANY_REQUESTS) {
+          return {
+            type: "too_many_requests" as const,
+            job,
+            ...result,
+          };
+        }
+
         return {
           type: "processed" as const,
           job,

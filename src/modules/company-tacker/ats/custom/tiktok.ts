@@ -30,7 +30,7 @@ export const TikTokJobSchema = z.object({
       en_name: z.string().nullish(),
       name: z.string().nullish(),
     })
-    .optional(),
+    .nullish(),
 });
 
 type TikTokJob = z.infer<typeof TikTokJobSchema>;

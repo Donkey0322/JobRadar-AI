@@ -12,6 +12,8 @@ import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 
+export const TRACKING_PARAM = "8fold_id";
+
 const domainMap = {
   "searchcareers.caci.com": "caci.com",
 };
@@ -104,7 +106,10 @@ function getEightfoldJobsFromResponse(data: unknown): EightfoldJob[] {
 }
 
 const getEightfoldJobLink = (company: Company, job: EightfoldJob): string => {
-  return `${new URL(company.page).origin}${job.positionUrl.startsWith("/") ? job.positionUrl : `/${job.positionUrl}`}`;
+  const origin = new URL(company.page);
+  origin.pathname = job.positionUrl.startsWith("/") ? job.positionUrl : `/${job.positionUrl}`;
+  origin.searchParams.set(TRACKING_PARAM, String(job.id));
+  return origin.toString();
 };
 
 function normalizeEightfoldJob(job: EightfoldJob, company: Company): Job {

@@ -6,6 +6,7 @@ import type { Job } from "@/types";
 import { getJobKey } from "../job-dedup";
 
 import { fetchEightfold } from "./ats/eightfold";
+import { fetchPhenom } from "./ats/phenom";
 import {
   fetchAshby,
   fetchCustom,
@@ -52,6 +53,9 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
       break;
     case "oraclecloud":
       jobs = await fetchOracleCloud(company, urls, signal);
+      break;
+    case "phenom":
+      jobs = await fetchPhenom(company, urls, signal);
       break;
     case "smartrecruiters":
       jobs = await fetchSmartRecruiters(company, urls, signal);
