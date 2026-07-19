@@ -5631,6 +5631,7 @@
       "https://careers.cisco.com/global/en/job/2014331?ph_id=2014331",
       "https://careers.cisco.com/global/en/job/2014499?ph_id=2014499",
       "https://careers.cisco.com/global/en/job/2017407?ph_id=2017407",
+      "https://careers.cisco.com/global/en/job/2017487?ph_id=2017487",
       "https://careers.cisco.com/global/en/job/2017615?ph_id=2017615",
       "https://careers.cisco.com/global/en/job/2017843?ph_id=2017843",
       "https://careers.cisco.com/global/en/job/2018025?ph_id=2018025",
@@ -5643,8 +5644,7 @@
       "https://careers.cisco.com/global/en/job/2018799?ph_id=2018799",
       "https://careers.cisco.com/global/en/job/2018852?ph_id=2018852",
       "https://careers.cisco.com/global/en/job/2019732?ph_id=2019732",
-      "https://careers.cisco.com/global/en/job/2019934?ph_id=2019934",
-      "https://careers.cisco.com/global/en/job/2017487?ph_id=2017487"
+      "https://careers.cisco.com/global/en/job/2019934?ph_id=2019934"
     ]
   },
   {
@@ -6228,7 +6228,8 @@
     "domain": "https://careers.usbank.com",
     "page": "https://careers.usbank.com",
     "urls": [
-      "https://careers.usbank.com/global/en/job/2026-0018251?ph_id=2026-0018251"
+      "https://careers.usbank.com/global/en/job/2026-0018251?ph_id=2026-0018251",
+      "https://careers.usbank.com/global/en/job/2026-0017096?ph_id=2026-0017096"
     ]
   },
   {
@@ -17745,11 +17746,11 @@
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/LAS-EH/Information-Systems-Engineer_R-29437",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/MLV-GV/Mobile-C-Arm-Clinical-Education-Specialist_R-28707-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/PUN-MIC-T-4/Full-Stack-Developer--NET--WPF-_R-29252",
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/PUN-MIC-T-4/Sr-Executive-Software-Installation-Engineer_R-29588-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/SGP-M/Field-Service-Engineer--Software_R-28450-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/SRV-LE/Sr-Electrical-Systems-Engineer_R-25821-1",
       "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/WAP-C/System-Analyst---Validation-Engineer_R-28612",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YEA-JA-10665/Intermediate-Applied-Machine-Learning-Scientist---Cancer-Care-AI-Center-of-Excellence--COE--Siemens-Healthineers_R-29541",
-      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/PUN-MIC-T-4/Sr-Executive-Software-Installation-Engineer_R-29588-1"
+      "https://onehealthineers.wd3.myworkdayjobs.com/shsjb/job/YEA-JA-10665/Intermediate-Applied-Machine-Learning-Scientist---Cancer-Care-AI-Center-of-Excellence--COE--Siemens-Healthineers_R-29541"
     ]
   },
   {
@@ -24495,6 +24496,7 @@
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Fullstack-Application-Developernet--GISACC_REQ2026069177",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Junior-System-Engineer--Power-Electronics-Academy--_REQ2026077661",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Application-Engineer--LIGHT_REQ2026071074-1",
+      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Engineer---Application--POWER_REQ2026074049",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Engineer---Architecture--POWER_REQ2025067012",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Engineer---Machine-Learning--SDV---POWER_REQ2026078542",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Engineer--POWER_REQ2026074704",
@@ -24510,8 +24512,7 @@
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Martos/System-Engineer-trainee_REQ2026071389",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Prague/System-Engineer---Young-Talent-Accelerator-Program_REQ2026070315",
       "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Queretaro/Process-Manufacturing-Automation-Engineer_REQ2026077396",
-      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Wemding/duales-Studium-Systems-Engineering_REQ2026077062",
-      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Cairo/Software-Engineer---Application--POWER_REQ2026074049"
+      "https://valeo.wd3.myworkdayjobs.com/valeo_jobs/job/Wemding/duales-Studium-Systems-Engineering_REQ2026077062"
     ]
   },
   {
