@@ -4,6 +4,8 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
+import { isWorkdayLocaleSegment } from "@/modules/shared/ats/workday";
+
 export async function fetchWorkdayJD(
   url: string,
   signal: AbortSignal = ABORT_SIGNAL
@@ -11,8 +13,7 @@ export async function fetchWorkdayJD(
   const u = new URL(url);
   const name = u.hostname.split(".")[0];
   const parts = u.pathname.split("/").filter(Boolean);
-  const isLocale = (str: string) => /^[a-z]{2}-[A-Z]{2}$/.test(str);
-  const careerPage = (parts.find((p) => !isLocale(p)) || "").toLowerCase();
+  const careerPage = (parts.find((p) => !isWorkdayLocaleSegment(p, "strict")) || "").toLowerCase();
 
   const index = parts.findIndex((p) => p === "job");
   if (index === -1) {

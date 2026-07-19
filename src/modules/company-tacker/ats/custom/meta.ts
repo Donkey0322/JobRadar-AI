@@ -7,6 +7,7 @@ import type { Company } from "../../type";
 import type { Job } from "@/types";
 
 import { isTarget } from "@/modules/company-tacker/utils";
+import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
 
 const META_CAREERS_URL = "https://www.metacareers.com/jobsearch";
@@ -68,43 +69,12 @@ function buildJazoest(lsd: string): string {
     .join("")}`;
 }
 
-function isHtmlResponse(raw: string): boolean {
-  const trimmed = raw.trimStart();
-
-  return (
-    trimmed.startsWith("<!DOCTYPE") || trimmed.startsWith("<?xml") || trimmed.startsWith("<html")
-  );
-}
-
 function cleanMetaJson(raw: string): string {
   return raw.replace(/^for\s*\(;;\);/, "");
 }
 
-function getSetCookieHeader(res: Response): string {
-  const headers = res.headers as Headers & {
-    getSetCookie?: () => string[];
-  };
-
-  const setCookies = headers.getSetCookie?.();
-
-  if (setCookies?.length) {
-    return setCookies.map((cookie) => cookie.split(";")[0]).join("; ");
-  }
-
-  const setCookie = res.headers.get("set-cookie");
-
-  if (!setCookie) {
-    return "";
-  }
-
-  return setCookie
-    .split(/,(?=\s*[^;=]+=[^;]+)/)
-    .map((cookie) => cookie.split(";")[0])
-    .join("; ");
-}
-
 async function getMetaSession(url: string, signal: AbortSignal) {
-  const res = await fetch(url, {
+  const { response, html } = await fetchHtmlResponse(url, {
     headers: {
       "user-agent": "Mozilla/5.0",
       accept: "text/html",
@@ -112,14 +82,12 @@ async function getMetaSession(url: string, signal: AbortSignal) {
     signal,
   });
 
-  const html = await res.text();
-
-  if (!res.ok || !html) {
-    throw new Error(`Failed to fetch Meta Careers page: ${res.status}`);
+  if (!response.ok || !html) {
+    throw new Error(`Failed to fetch Meta Careers page: ${response.status}`);
   }
 
   if (isHtmlResponse(html) && html.includes("<title>Error</title>")) {
-    throw new Error(`Meta Careers returned error page: ${res.status}`);
+    throw new Error(`Meta Careers returned error page: ${response.status}`);
   }
 
   const lsd = extractLsd(html);
@@ -131,7 +99,7 @@ async function getMetaSession(url: string, signal: AbortSignal) {
   return {
     lsd,
     jazoest: buildJazoest(lsd),
-    cookie: getSetCookieHeader(res),
+    cookie: getSetCookieHeader(response),
   };
 }
 
@@ -248,7 +216,7 @@ export async function fetchMeta(
 
     return opportunities;
   } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+    if (isAbortError(error)) {
       logger.error(
         { err: error.name, company: company.name, url: company.page },
         `${RED_CROSS} Error fetching meta jobs`

@@ -27,7 +27,7 @@ type CustomCompanyIdentifier =
   | "tiktok"
   | "amd";
 
-const COMPANY_MATCHERS = {
+export const CUSTOM_COMPANY_DOMAINS = {
   amazon: "amazon.jobs",
   microsoft: "microsoft.com",
   google: "google.com",
@@ -41,7 +41,7 @@ const COMPANY_MATCHERS = {
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
   const host = url.hostname;
 
-  for (const [identifier, domain] of Object.entries(COMPANY_MATCHERS)) {
+  for (const [identifier, domain] of Object.entries(CUSTOM_COMPANY_DOMAINS)) {
     if (host.endsWith(domain)) {
       return identifier as CustomCompanyIdentifier;
     }

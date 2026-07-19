@@ -1,6 +1,3 @@
-import { promises as fs } from "fs";
-import path from "path";
-
 import { COUNTRIES } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
@@ -8,7 +5,7 @@ import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 
 import callAIModel from "@/utils/ai";
-import { buildPrompt, toBulletList } from "@/utils/ai/prompt";
+import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
 
 const BATCH_SIZE = 50;
@@ -17,10 +14,6 @@ interface LocationPayloadItem {
   index: number;
   title: string;
   location: string;
-}
-
-async function readPrompt(relativePath: string): Promise<string> {
-  return await fs.readFile(path.join(import.meta.dirname, relativePath), "utf8");
 }
 
 function buildLocationSchema(length: number) {
@@ -90,7 +83,7 @@ async function classifyBatch(jobs: Job[]): Promise<{ result: Country[]; cost: nu
     const payload = buildPayload(jobs);
     const schema = buildLocationSchema(jobs.length);
 
-    const template = await readPrompt("spec.txt");
+    const template = await readPromptFile(import.meta.dirname, "spec.txt");
     const prompt = buildPrompt(template, {
       COUNTRIES: toBulletList(COUNTRIES),
       PAYLOAD: JSON.stringify(payload, null, 2),

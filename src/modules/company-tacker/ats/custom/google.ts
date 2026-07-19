@@ -2,14 +2,11 @@ import * as cheerio from "cheerio";
 import z from "zod";
 
 import { ABORT_SIGNAL } from "@/constants";
-import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
-
-import { logger } from "@/utils/logger";
 
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";
 

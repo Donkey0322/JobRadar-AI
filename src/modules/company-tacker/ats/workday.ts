@@ -8,6 +8,7 @@ import type { Job } from "@/types";
 
 import { isTarget } from "../utils";
 
+import { isWorkdayLocaleSegment } from "@/modules/shared/ats/workday";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
@@ -22,8 +23,6 @@ const identifierMap = {
 export function urlToWorkdayCompany(url: URL): Company {
   const host = url.hostname;
   const parts = url.pathname.split("/").filter(Boolean);
-
-  const isLocale = (str: string) => /^[a-z]{2}-[a-z]{2}$/i.test(str);
 
   let name: string;
   let careerPage: string;
@@ -43,7 +42,9 @@ export function urlToWorkdayCompany(url: URL): Company {
     const jobIndex = parts.findIndex((p) => p.toLowerCase() === "job");
 
     careerPage =
-      jobIndex > 0 ? parts[jobIndex - 1] : (parts.find((p) => !isLocale(p)) ?? "external");
+      jobIndex > 0
+        ? parts[jobIndex - 1]
+        : (parts.find((p) => !isWorkdayLocaleSegment(p, "lenient")) ?? "external");
   }
 
   const identifier = identifierMap[name as keyof typeof identifierMap] ?? name;

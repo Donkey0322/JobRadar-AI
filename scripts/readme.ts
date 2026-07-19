@@ -6,6 +6,9 @@ import { CONFIG, JOB_CATEGORIES, OPPORTUNITIES_PATH } from "@/constants";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
+import { readNdjsonFile } from "@/utils/data";
+import { escapeHtml } from "@/utils/html";
+
 type TableRow = [string, string, string, string, string];
 
 type JDWithLocation = JD & {
@@ -32,7 +35,7 @@ const APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
 
 async function main() {
-  const opportunities = await readNdjson<Opportunity>(OPPORTUNITIES_PATH);
+  const opportunities = await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
   const targetCategories = new Set(buildTargetCategories(CONFIG));
@@ -80,24 +83,6 @@ async function main() {
   console.log(
     `Same-country opportunities outside target categories included in toggle: ${outsideTargetCategoryOpportunities.length}`
   );
-}
-
-async function readNdjson<T>(filePath: string): Promise<T[]> {
-  const raw = await fs.readFile(filePath, "utf-8");
-
-  return raw
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .map((line, index) => {
-      try {
-        return JSON.parse(line) as T;
-      } catch (error) {
-        throw new Error(`Invalid NDJSON at line ${index + 1}: ${line}`, {
-          cause: error,
-        });
-      }
-    });
 }
 
 function buildTargetCategories(config: Config): string[] {
@@ -592,14 +577,6 @@ function normalizeCountry(value?: string | null): string {
 
 function normalizeCompany(value: string): string {
   return value.trim().replace(/\s+/g, " ");
-}
-
-function escapeHtml(value: string): string {
-  return value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }
 
 function escapeHtmlAttr(value: string): string {

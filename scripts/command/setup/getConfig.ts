@@ -2,107 +2,14 @@ import fs from "node:fs/promises";
 
 import type { Config, Country, JobCategory } from "@/validation/config";
 
+import { createIssueSectionParser } from "../../utils/github-issue";
+
 type InternCategory = JobCategory.SUMMER_INTERN | JobCategory.OFF_SEASON_INTERN;
 type FullTimeCategory = JobCategory.ENTRY_LEVEL | JobCategory.MID_LEVEL | JobCategory.SENIOR_LEVEL;
 
 type AIProvider = "openai" | "google" | "anthropic";
 
 const AI_ENABLED_LABEL = "Enable AI JD analysis";
-
-function normalizeLine(line: string): string {
-  return line.trim();
-}
-
-function getSection(body: string, title: string): string {
-  const lines = body.split(/\r?\n/);
-  const heading = `### ${title}`;
-
-  let start = -1;
-
-  for (let i = 0; i < lines.length; i++) {
-    if (normalizeLine(lines[i]) === heading) {
-      start = i + 1;
-      break;
-    }
-  }
-
-  if (start === -1) {
-    return "";
-  }
-
-  const sectionLines: string[] = [];
-
-  for (let i = start; i < lines.length; i++) {
-    const line = lines[i];
-
-    if (normalizeLine(line).startsWith("### ")) {
-      break;
-    }
-
-    sectionLines.push(line);
-  }
-
-  return sectionLines.join("\n").trim();
-}
-
-function getScalar(body: string, title: string): string {
-  return (
-    getSection(body, title)
-      .split(/\r?\n/)
-      .map((line) => line.trim())
-      .find(Boolean) ?? ""
-  );
-}
-
-function getRequired(body: string, title: string): string {
-  const value = getScalar(body, title);
-
-  if (!value) {
-    throw new Error(`Missing required field: ${title}`);
-  }
-
-  return value;
-}
-
-function parseCheckboxes(body: string, title: string): string[] {
-  return getSection(body, title)
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => /^-\s*\[[xX]\]\s+/.test(line))
-    .map((line) => line.replace(/^-\s*\[[xX]\]\s+/, "").trim())
-    .filter(Boolean);
-}
-
-function parseCheckboxEnabled(body: string, title: string, checkedLabel: string): boolean {
-  return parseCheckboxes(body, title).includes(checkedLabel);
-}
-
-function parseLines(body: string, title: string): string[] {
-  return getSection(body, title)
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter(Boolean);
-}
-
-function parseBoolean(body: string, title: string): boolean {
-  const value = getRequired(body, title).toLowerCase();
-
-  if (value === "true") return true;
-  if (value === "false") return false;
-
-  throw new Error(`Invalid boolean value for ${title}: ${value}`);
-}
-
-function parseNumber(body: string, title: string): number {
-  const raw = getRequired(body, title);
-  const value = Number(raw);
-
-  if (!Number.isFinite(value)) {
-    throw new Error(`Invalid number value for ${title}: ${raw}`);
-  }
-
-  return value;
-}
 
 function buildCountryFilter(
   countries: Country[],
@@ -121,15 +28,16 @@ function buildCountryFilter(
 }
 
 function buildConfig(issueBody: string): Config {
-  const intern = parseCheckboxes(issueBody, "Internship targets").map(
-    (category) => category as InternCategory
-  );
+  const issue = createIssueSectionParser(issueBody);
+  const intern = issue
+    .checkboxes("Internship targets")
+    .map((category) => category as InternCategory);
 
-  const fullTime = parseCheckboxes(issueBody, "Full-time targets").map(
-    (category) => category as FullTimeCategory
-  );
+  const fullTime = issue
+    .checkboxes("Full-time targets")
+    .map((category) => category as FullTimeCategory);
 
-  const countries = parseCheckboxes(issueBody, "Countries").map((country) => country as Country);
+  const countries = issue.checkboxes("Countries").map((country) => country as Country);
 
   if (intern.length === 0 && fullTime.length === 0) {
     throw new Error("Please select at least one internship or full-time target.");
@@ -139,12 +47,12 @@ function buildConfig(issueBody: string): Config {
     throw new Error("Please select at least one country.");
   }
 
-  const allowCitizenshipRequired = parseBoolean(issueBody, "Allow citizenship-required jobs?");
+  const allowCitizenshipRequired = issue.boolean("Allow citizenship-required jobs?");
 
-  const allowNoSponsorship = parseBoolean(issueBody, "Allow jobs without sponsorship?");
+  const allowNoSponsorship = issue.boolean("Allow jobs without sponsorship?");
 
-  const senderEmail = getRequired(issueBody, "Sender email");
-  const senderUser = getRequired(issueBody, "SMTP user");
+  const senderEmail = issue.required("Sender email");
+  const senderUser = issue.required("SMTP user");
 
   return {
     target: {
@@ -152,21 +60,21 @@ function buildConfig(issueBody: string): Config {
       ...(fullTime.length > 0 ? { "full-time": fullTime } : {}),
       countries,
       filter: buildCountryFilter(countries, allowCitizenshipRequired, allowNoSponsorship),
-      keywords: parseLines(issueBody, "Keywords"),
+      keywords: issue.lines("Keywords"),
     },
     ai: {
-      enabled: parseCheckboxEnabled(issueBody, "AI enabled", AI_ENABLED_LABEL),
-      provider: getRequired(issueBody, "AI provider") as AIProvider,
-      model: getRequired(issueBody, "AI model"),
+      enabled: issue.checkboxEnabled("AI enabled", AI_ENABLED_LABEL),
+      provider: issue.required("AI provider") as AIProvider,
+      model: issue.required("AI model"),
     },
     sender: {
-      host: getRequired(issueBody, "SMTP host"),
-      port: parseNumber(issueBody, "SMTP port"),
+      host: issue.required("SMTP host"),
+      port: issue.number("SMTP port"),
       user: senderUser,
       email: senderEmail,
     },
     receiver: {
-      email: getRequired(issueBody, "Receiver email"),
+      email: issue.required("Receiver email"),
     },
   };
 }

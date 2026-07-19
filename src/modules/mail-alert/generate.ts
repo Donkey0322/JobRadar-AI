@@ -4,17 +4,9 @@ import type { Job } from "@/types";
 import type { Country } from "@/validation/config";
 import type { Season } from "@/validation/season";
 
+import { escapeHtml } from "@/utils/html";
 import { getToday } from "@/utils/string";
 import { JobCategory } from "@/validation/config";
-
-function escapeHtml(str: string) {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
 
 function locationIcon(location: Country) {
   switch (location) {

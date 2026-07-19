@@ -13,20 +13,13 @@ import { isTarget, withinDays } from "../utils";
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
+import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
 const identifierMap: Record<string, string> = {
   "superhuman.com": "Superhuman%20Platform%20Inc",
 };
 
 const ASHBY_HOSTS = new Set(["jobs.ashbyhq.com", "job-boards.ashbyhq.com"]);
-
-function getHost(url: URL) {
-  return url.hostname.replace(/^www\./, "");
-}
-
-function getHostIdentifier(url: URL) {
-  return getHost(url).split(".")[0] || "unknown";
-}
 
 function isAshbyJobBoardHost(host: string) {
   return host === "jobs.ashbyhq.com" || host === "job-boards.ashbyhq.com" || ASHBY_HOSTS.has(host);
@@ -44,7 +37,7 @@ function buildCompany(url: URL, identifier: string): Company {
 }
 
 function getAshbyIdentifierFromUrl(url: URL): string | null {
-  const host = getHost(url);
+  const host = getHostnameWithoutWww(url);
   const parts = url.pathname.split("/").filter(Boolean);
 
   // https://jobs.ashbyhq.com/semgrep/embed?version=2
@@ -99,7 +92,7 @@ async function findEmbeddedAshbyIdentifier(url: URL): Promise<string | null> {
 }
 
 export function isAshbyUrl(url: URL): boolean {
-  const host = getHost(url);
+  const host = getHostnameWithoutWww(url);
 
   return (
     isAshbyJobBoardHost(host) || host.includes("ashbyhq.com") || url.searchParams.has("ashby_jid")
@@ -107,7 +100,7 @@ export function isAshbyUrl(url: URL): boolean {
 }
 
 export async function urlToAshbyCompany(url: URL): Promise<Company> {
-  const host = getHost(url);
+  const host = getHostnameWithoutWww(url);
 
   // Case 0:
   // Known manual overrides
@@ -120,7 +113,7 @@ export async function urlToAshbyCompany(url: URL): Promise<Company> {
   // https://jobs.ashbyhq.com/semgrep/embed?version=2
   // https://jobs.ashbyhq.com/semgrep/b3d22389-...
   if (isAshbyJobBoardHost(host)) {
-    const identifier = getAshbyIdentifierFromUrl(url) || getHostIdentifier(url);
+    const identifier = getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
 
     return buildCompany(url, identifier);
   }
@@ -142,7 +135,7 @@ export async function urlToAshbyCompany(url: URL): Promise<Company> {
 
   // Case 4:
   // fallback: keep old behavior, never return empty identifier
-  const identifier = getHostIdentifier(url);
+  const identifier = getSubdomainIdentifier(url);
 
   return buildCompany(url, identifier);
 }

@@ -1,68 +1,40 @@
 import { describe, expect, it } from "vitest";
 
-import { ConfigSchema } from "./config";
+import { ConfigSchema, JobCategory } from "./config";
+import { createValidConfig } from "./config.test-utils";
 
 describe("ConfigSchema", () => {
   it("should pass with valid USA filter", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
-        "full-time": ["entry level"],
-        countries: ["USA"],
-        filter: {
-          USA: {
-            allow_citizenship_required: false,
-            allow_no_sponsorship: false,
-          },
+    const config = createValidConfig();
+    config.target = {
+      ...config.target,
+      "full-time": [JobCategory.ENTRY_LEVEL],
+      filter: {
+        USA: {
+          allow_citizenship_required: false,
+          allow_no_sponsorship: false,
         },
       },
+    };
 
-      ai: {
-        enabled: true,
-        provider: "openai",
-        model: "gpt-4o",
-      },
-
-      sender: {
-        host: "smtp.gmail.com",
-        port: 587,
-        user: "test",
-        email: "test@example.com",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(config);
 
     expect(result.success).toBe(true);
   });
 
   it("should fail if filter countries does not exist in target.countries", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
-
-        countries: ["Canada"],
-
-        filter: {
-          USA: {
-            allow_citizenship_required: false,
-          },
+    const config = createValidConfig();
+    config.target = {
+      intern: [JobCategory.SUMMER_INTERN],
+      countries: ["Canada"],
+      filter: {
+        USA: {
+          allow_citizenship_required: false,
         },
       },
+    };
 
-      sender: {
-        host: "smtp.gmail.com",
-        port: 587,
-        user: "test",
-        email: "test@example.com",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(config);
 
     expect(result.success).toBe(false);
 
@@ -74,96 +46,34 @@ describe("ConfigSchema", () => {
   });
 
   it("should fail if sender email is invalid", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
+    const config = createValidConfig();
+    config.sender.email = "invalid-email";
 
-        countries: ["USA"],
-      },
-
-      sender: {
-        host: "smtp.gmail.com",
-        port: 587,
-        user: "test",
-        email: "invalid-email",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(config);
 
     expect(result.success).toBe(false);
   });
 
   it("should fail if countries is missing", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
-      },
+    const config = createValidConfig();
+    Reflect.deleteProperty(config.target, "countries");
 
-      sender: {
-        host: "smtp.gmail.com",
-        port: 587,
-        user: "test",
-        email: "test@example.com",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(config);
 
     expect(result.success).toBe(false);
   });
 
   it("should fail if port is invalid", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
+    const config = createValidConfig();
+    config.sender.port = 99999;
 
-        countries: ["USA"],
-      },
-
-      sender: {
-        host: "smtp.gmail.com",
-        port: 99999,
-        user: "test",
-        email: "test@example.com",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(config);
 
     expect(result.success).toBe(false);
   });
 
   it("should allow config without filter", () => {
-    const result = ConfigSchema.safeParse({
-      target: {
-        intern: ["summer intern"],
-        countries: ["USA"],
-      },
-
-      ai: {
-        enabled: true,
-        provider: "openai",
-        model: "gpt-4o",
-      },
-
-      sender: {
-        host: "smtp.gmail.com",
-        port: 587,
-        user: "test",
-        email: "test@example.com",
-      },
-
-      receiver: {
-        email: "receiver@example.com",
-      },
-    });
+    const result = ConfigSchema.safeParse(createValidConfig());
 
     expect(result.success).toBe(true);
   });

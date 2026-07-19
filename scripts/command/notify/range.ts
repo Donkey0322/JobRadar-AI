@@ -1,6 +1,6 @@
-import nodemailer from "nodemailer";
-
 import { CONFIG } from "@/constants";
+
+import { createSMTPTransport } from "../../utils/mail";
 
 import { getNewJobsFromDiff } from "./git";
 
@@ -23,25 +23,7 @@ export default async function notifyRange(from: string, to: string) {
 
   logger.info({ count: jobs.length }, "📨 Sending notifications...");
 
-  const smtpHost = CONFIG.sender.host;
-  const smtpPort = CONFIG.sender.port;
-  const smtpUser = CONFIG.sender.user;
-  const smtpPass = CONFIG.sender.pass;
-
-  const mailer = nodemailer.createTransport({
-    host: smtpHost,
-    port: smtpPort,
-    secure: smtpPort === 465,
-
-    pool: true,
-    maxConnections: 1,
-    maxMessages: Infinity,
-
-    auth: {
-      user: smtpUser,
-      pass: smtpPass,
-    },
-  });
+  const mailer = createSMTPTransport(CONFIG.sender, { pooled: true });
 
   for (const job of jobs) {
     await sendEmail(job, mailer);

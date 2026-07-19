@@ -5,6 +5,12 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../index";
 
+import {
+  extractJobPostingFromJsonLd,
+  extractRelevantJDWindow,
+  isLikelyJDText,
+  limitJDText,
+} from "../../text";
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "../index";
 
 import { fetchAppleJD } from "./apple";
@@ -12,9 +18,7 @@ import { fetchNetflixJD } from "./netflix";
 
 import { parseCustomCompanyIdentifier } from "@/modules/company-tacker/ats/custom";
 import { logger } from "@/utils/logger";
-import { htmlToText, normalizeRawText } from "@/utils/string";
-
-const FALLBACK_JD_MAX_CHARS = 12_000;
+import { normalizeRawText } from "@/utils/string";
 
 const JD_KEYWORDS = [
   "minimum qualifications",
@@ -31,114 +35,6 @@ const JD_KEYWORDS = [
   "who you are",
 ];
 
-function limitRawText(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
-  if (text.length <= maxChars) return text;
-  return `${text.slice(0, maxChars)}\n\n[TRUNCATED]`;
-}
-
-function getString(value: unknown): string {
-  if (typeof value === "string") return value;
-  if (Array.isArray(value)) return value.filter((v) => typeof v === "string").join(", ");
-  return "";
-}
-
-function extractLocation(value: unknown): string {
-  if (!value) return "";
-
-  const locations = Array.isArray(value) ? value : [value];
-
-  return locations
-    .map((location) => {
-      if (!location || typeof location !== "object") return "";
-
-      const address = (location as Record<string, unknown>).address;
-      if (!address || typeof address !== "object") return "";
-
-      const obj = address as Record<string, unknown>;
-
-      return [
-        getString(obj.addressLocality),
-        getString(obj.addressRegion),
-        getString(obj.addressCountry),
-      ]
-        .filter(Boolean)
-        .join(", ");
-    })
-    .filter(Boolean)
-    .join(" | ");
-}
-
-function extractJobPostingFromLdJson(raw: string): string | null {
-  try {
-    const parsed = JSON.parse(raw);
-    const nodes = Array.isArray(parsed) ? parsed : [parsed];
-
-    const jobPosting = nodes.find((node) => {
-      if (!node || typeof node !== "object") return false;
-
-      const type = (node as Record<string, unknown>)["@type"];
-      return type === "JobPosting" || (Array.isArray(type) && type.includes("JobPosting"));
-    });
-
-    if (!jobPosting || typeof jobPosting !== "object") {
-      return null;
-    }
-
-    const obj = jobPosting as Record<string, unknown>;
-
-    const title = getString(obj.title);
-    const description = htmlToText(getString(obj.description));
-    const location = extractLocation(obj.jobLocation);
-    const employmentType = getString(obj.employmentType);
-    const datePosted = getString(obj.datePosted);
-    const qualifications = getString(obj.qualifications);
-
-    return `
-Title:
-${title}
-
-Location:
-${location}
-
-Employment Type:
-${employmentType}
-
-Date Posted:
-${datePosted}
-
-Description:
-${description}
-
-Qualifications:
-${qualifications}
-`;
-  } catch {
-    return null;
-  }
-}
-
-function isLikelyJDText(text: string): boolean {
-  if (text.length < 300) return false;
-
-  const lower = text.toLowerCase();
-  return JD_KEYWORDS.some((keyword) => lower.includes(keyword));
-}
-
-function extractRelevantWindow(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
-  const lower = text.toLowerCase();
-
-  const indexes = JD_KEYWORDS.map((keyword) => lower.indexOf(keyword))
-    .filter((index) => index >= 0)
-    .sort((a, b) => a - b);
-
-  if (!indexes.length) {
-    return text.slice(0, maxChars);
-  }
-
-  const start = Math.max(0, indexes[0] - 1_000);
-  return text.slice(start, start + maxChars);
-}
-
 function extractFallbackJD(html: string): string | null {
   const $ = cheerio.load(html);
 
@@ -146,10 +42,18 @@ function extractFallbackJD(html: string): string | null {
     .map((_, el) => $(el).text())
     .get()
     .filter(Boolean);
-  const structuredText = ldJsonTexts.map(extractJobPostingFromLdJson).find(Boolean);
+  const structuredText = ldJsonTexts
+    .map((text) =>
+      extractJobPostingFromJsonLd(text, {
+        allowStringAddress: false,
+        arraySeparator: ", ",
+        convertQualificationsHtml: false,
+      })
+    )
+    .find(Boolean);
 
   if (structuredText) {
-    return normalizeRawText(limitRawText(structuredText));
+    return normalizeRawText(limitJDText(structuredText));
   }
 
   $("script, style, noscript, svg, img, iframe, link, meta, nav, header, footer, aside").remove();
@@ -168,8 +72,14 @@ function extractFallbackJD(html: string): string | null {
   for (const selector of selectors) {
     const text = normalizeRawText($(selector).first().text());
 
-    if (text && isLikelyJDText(text)) {
-      return limitRawText(text);
+    if (
+      text &&
+      isLikelyJDText(text, {
+        keywords: JD_KEYWORDS,
+        minLength: 300,
+      })
+    ) {
+      return limitJDText(text);
     }
   }
 
@@ -179,7 +89,13 @@ function extractFallbackJD(html: string): string | null {
     return null;
   }
 
-  return normalizeRawText(limitRawText(extractRelevantWindow(bodyText)));
+  return normalizeRawText(
+    limitJDText(
+      extractRelevantJDWindow(bodyText, {
+        keywords: JD_KEYWORDS,
+      })
+    )
+  );
 }
 
 export async function fetchCustomJD(

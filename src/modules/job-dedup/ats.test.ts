@@ -1,30 +1,28 @@
-import { describe, expect, it, vi } from "vitest";
+import { describe, expect, it } from "vitest";
 
-vi.mock("../company-tacker/ats", () => ({
-  parseCustomCompanyIdentifier: vi.fn((url: URL) => {
-    const host = url.hostname;
-
-    if (host.endsWith("amazon.jobs")) return "amazon";
-    if (host.endsWith("microsoft.com")) return "microsoft";
-    if (host.endsWith("google.com")) return "google";
-    if (host.endsWith("metacareers.com")) return "meta";
-    if (host.endsWith("jobs.apple.com")) return "apple";
-    if (host.endsWith("netflix.net")) return "netflix";
-
-    return null;
-  }),
-}));
+import { CUSTOM_COMPANY_DOMAINS, parseCustomCompanyIdentifier } from "../company-tacker/ats";
 
 import {
   getAshbyKey,
   getCustomKey,
+  getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
   getLeverKey,
   getOracleKey,
+  getPhenomKey,
   getSmartRecruitersKey,
   getWorkdayKey,
 } from "./ats";
+
+describe.each(Object.entries(CUSTOM_COMPANY_DOMAINS))(
+  "custom company matcher: %s",
+  (identifier, domain) => {
+    it(`matches ${domain} using production matcher logic`, () => {
+      expect(parseCustomCompanyIdentifier(new URL(`https://${domain}/careers`))).toBe(identifier);
+    });
+  }
+);
 
 describe("getGreenhouseKey", () => {
   it("uses gh_jid from query params first", () => {
@@ -266,6 +264,19 @@ describe("getOracleKey", () => {
 
     // Assert
     expect(result).toBe(expected);
+  });
+});
+
+describe.each([
+  ["eightfold", getEightfoldKey],
+  ["phenom", getPhenomKey],
+] as const)("%s numeric route key", (vendor, getKey) => {
+  it("extracts a case-insensitive /job/:id route", () => {
+    expect(getKey("/careers/JOB/123456/software-engineer")).toBe(`${vendor}:123456`);
+  });
+
+  it("returns null without a numeric /job/:id route", () => {
+    expect(getKey("/careers/job/software-engineer")).toBeNull();
   });
 });
 

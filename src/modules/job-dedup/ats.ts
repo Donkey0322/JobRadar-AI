@@ -2,15 +2,30 @@ import { parseCustomCompanyIdentifier } from "../company-tacker/ats";
 
 import { getLastPathNumber } from "./utils";
 
+function toATSKey(vendor: string, id: string | null | undefined): string | null {
+  return id ? `${vendor}:${id}` : null;
+}
+
+function getPathSegmentKey(url: URL, vendor: string, index: number): string | null {
+  const id = url.pathname.split("/")[index];
+  return toATSKey(vendor, id?.toLowerCase());
+}
+
+function getNumericRouteKey(pathname: string, vendor: string, route: string): string | null {
+  const escapedRoute = route.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = pathname.match(new RegExp(`/${escapedRoute}/(\\d+)(?:/|$)`, "i"));
+  return toATSKey(vendor, match?.[1]);
+}
+
 export function getGreenhouseKey(u: URL): string | null {
   const gh = u.searchParams.get("gh_jid");
-  if (gh) return `greenhouse:${gh}`;
+  if (gh) return toATSKey("greenhouse", gh);
 
   const id = getLastPathNumber(u.pathname);
-  if (id) return `greenhouse:${id}`;
+  if (id) return toATSKey("greenhouse", id);
 
   const token = u.searchParams.get("token");
-  if (token) return `greenhouse:${token}`;
+  if (token) return toATSKey("greenhouse", token);
 
   return null;
 }
@@ -22,44 +37,36 @@ export function getWorkdayKey(url: string): string | null {
   let id = match[1];
 
   id = id.replace(/-[0-9]$/, "");
-  return `workday:${id}`;
+  return toATSKey("workday", id);
 }
 
 export function getAshbyKey(url: URL): string | null {
-  const pathname = url.pathname;
-  const id = pathname.split("/")[2];
-  return id ? `ashby:${id.toLowerCase()}` : null;
+  return getPathSegmentKey(url, "ashby", 2);
 }
 
 export function getLeverKey(url: URL): string | null {
-  const pathname = url.pathname;
-  const id = pathname.split("/")[2];
-  return id ? `lever:${id.toLowerCase()}` : null;
+  return getPathSegmentKey(url, "lever", 2);
 }
 
 export function getSmartRecruitersKey(pathname: string): string | null {
   const id = getLastPathNumber(pathname);
-  return id ? `smartrecruiters:${id}` : null;
+  return toATSKey("smartrecruiters", id);
 }
 
 export function getOracleKey(pathname: string): string | null {
-  const match = pathname.match(/\/job\/(\d+)(?:\/|$)/i);
-  return match ? `oraclecloud:${match[1]}` : null;
+  return getNumericRouteKey(pathname, "oraclecloud", "job");
 }
 
 export function getEightfoldKey(pathname: string): string | null {
-  const match = pathname.match(/\/job\/(\d+)(?:\/|$)/i);
-  return match ? `eightfold:${match[1]}` : null;
+  return getNumericRouteKey(pathname, "eightfold", "job");
 }
 
 export function getPhenomKey(pathname: string): string | null {
-  const match = pathname.match(/\/job\/(\d+)(?:\/|$)/i);
-  return match ? `phenom:${match[1]}` : null;
+  return getNumericRouteKey(pathname, "phenom", "job");
 }
 
 export function getIcimsKey(pathname: string): string | null {
-  const match = pathname.match(/\/jobs\/(\d+)(?:\/|$)/i);
-  return match ? `icims:${match[1]}` : null;
+  return getNumericRouteKey(pathname, "icims", "jobs");
 }
 
 export function getCustomKey(url: string): string {

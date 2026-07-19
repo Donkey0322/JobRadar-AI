@@ -5,12 +5,20 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "./fetch";
 
+import {
+  extractJobPostingFromJsonLd,
+  extractRelevantJDWindow,
+  isLikelyJDText,
+  limitJDText,
+} from "../text";
+
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "./fetch";
 
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/shared/ats/icims";
+import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { cleanText, decodeHtmlEntities, htmlToText, normalizeRawText } from "@/utils/string";
+import { cleanText, normalizeRawText } from "@/utils/string";
 
-const FALLBACK_JD_MAX_CHARS = 12_000;
 const MIN_JD_LENGTH = 300;
 
 const ICIMS_JD_KEYWORDS = [
@@ -26,107 +34,6 @@ const ICIMS_JD_KEYWORDS = [
   "job description",
 ];
 
-function limitRawText(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
-  if (text.length <= maxChars) return text;
-  return `${text.slice(0, maxChars)}\n\n[TRUNCATED]`;
-}
-
-function getString(value: unknown): string {
-  if (typeof value === "string") return value;
-  if (Array.isArray(value)) return value.filter((v) => typeof v === "string").join(", ");
-  return "";
-}
-
-function extractLocationFromLdJsonValue(value: unknown): string {
-  if (!value) return "";
-
-  const locations = Array.isArray(value) ? value : [value];
-
-  return locations
-    .map((location) => {
-      if (!location || typeof location !== "object") return "";
-
-      const obj = location as Record<string, unknown>;
-
-      const address = obj.address;
-
-      // Some JSON-LD uses plain string
-      if (typeof address === "string") return address;
-
-      if (!address || typeof address !== "object") return "";
-
-      const addressObj = address as Record<string, unknown>;
-
-      return [
-        getString(addressObj.addressLocality),
-        getString(addressObj.addressRegion),
-        getString(addressObj.addressCountry),
-      ]
-        .filter(Boolean)
-        .join(", ");
-    })
-    .filter(Boolean)
-    .join(" | ");
-}
-
-function isIcimsJobUrl(url: URL): boolean {
-  return url.hostname.endsWith(".icims.com") && /\/jobs\/\d+\/[^/]+\/job\/?$/.test(url.pathname);
-}
-
-function normalizeIcimsJobUrl(url: string): string {
-  const normalized = new URL(url);
-
-  normalized.search = "";
-  normalized.searchParams.set("in_iframe", "1");
-
-  return normalized.toString();
-}
-
-function findIcimsJobIframeSrc(html: string, baseUrl: string): string | null {
-  const $ = cheerio.load(html);
-
-  const normalSrc =
-    $("iframe[src*='icims.com/jobs/'][src*='/job']").attr("src") ??
-    $("iframe[src*='/jobs/'][src*='/job']").attr("src");
-
-  if (normalSrc) {
-    return new URL(decodeHtmlEntities(normalSrc), baseUrl).toString();
-  }
-
-  for (const el of $("noscript").toArray()) {
-    const noscriptHtml = $(el).html() ?? $(el).text();
-    if (!noscriptHtml) continue;
-
-    const $$ = cheerio.load(noscriptHtml);
-
-    const src =
-      $$("iframe[src*='icims.com/jobs/'][src*='/job']").attr("src") ??
-      $$("iframe[src*='/jobs/'][src*='/job']").attr("src");
-
-    if (src) {
-      return new URL(decodeHtmlEntities(src), baseUrl).toString();
-    }
-  }
-
-  const iframeMatch = html.match(
-    /<iframe[^>]+src=["']([^"']*(?:icims\.com\/jobs\/\d+\/[^"']*\/job|\/jobs\/\d+\/[^"']*\/job)[^"']*)["']/i
-  );
-
-  if (iframeMatch?.[1]) {
-    return new URL(decodeHtmlEntities(iframeMatch[1]), baseUrl).toString();
-  }
-
-  const rawUrlMatch = html.match(
-    /https?:\/\/[^"'<>\s]+\.icims\.com\/jobs\/\d+\/[^"'<>\s]+\/job[^"'<>\s]*/i
-  );
-
-  if (rawUrlMatch?.[0]) {
-    return decodeHtmlEntities(rawUrlMatch[0]);
-  }
-
-  return null;
-}
-
 async function fetchHtml(
   url: string,
   signal: AbortSignal
@@ -134,7 +41,7 @@ async function fetchHtml(
   html: string | null;
   error: JDFetchResult["error"];
 }> {
-  const res = await fetch(url, {
+  const { response, html } = await fetchHtmlResponse(url, {
     signal,
     headers: {
       "User-Agent": "Mozilla/5.0 (JD-Analyzer)",
@@ -142,17 +49,17 @@ async function fetchHtml(
     },
   });
 
-  if (!res.ok) {
-    logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch iCIMS JD`);
+  if (!response.ok) {
+    logger.error({ url, status: response.status }, `${RED_CROSS} Failed to fetch iCIMS JD`);
 
     return {
       html: null,
-      error: JD_FETCH_ERROR.http(res.status, res.statusText),
+      error: JD_FETCH_ERROR.http(response.status, response.statusText),
     };
   }
 
   return {
-    html: await res.text(),
+    html,
     error: JD_FETCH_OK,
   };
 }
@@ -166,9 +73,9 @@ async function resolveIcimsJobPage(
 }> {
   const pageUrl = new URL(url);
 
-  if (isIcimsJobUrl(pageUrl)) {
+  if (isIcimsUrl(pageUrl, "job")) {
     return {
-      url: normalizeIcimsJobUrl(pageUrl.toString()),
+      url: normalizeIcimsUrl(pageUrl.toString(), "job"),
       error: JD_FETCH_OK,
     };
   }
@@ -179,74 +86,16 @@ async function resolveIcimsJobPage(
     return { url: null, error };
   }
 
-  const iframeSrc = findIcimsJobIframeSrc(html, url);
+  const iframeSrc = findIcimsIframeSrc(html, url, "job");
 
   if (!iframeSrc) {
     return { url: null, error: JD_FETCH_ERROR.noData() };
   }
 
   return {
-    url: normalizeIcimsJobUrl(iframeSrc),
+    url: normalizeIcimsUrl(iframeSrc, "job"),
     error: JD_FETCH_OK,
   };
-}
-
-function extractJobPostingFromLdJson(raw: string): string | null {
-  try {
-    const parsed = JSON.parse(raw);
-    const nodes = Array.isArray(parsed) ? parsed : [parsed];
-
-    const jobPosting = nodes.find((node) => {
-      if (!node || typeof node !== "object") return false;
-
-      const type = (node as Record<string, unknown>)["@type"];
-
-      return type === "JobPosting" || (Array.isArray(type) && type.includes("JobPosting"));
-    });
-
-    if (!jobPosting || typeof jobPosting !== "object") {
-      return null;
-    }
-
-    const obj = jobPosting as Record<string, unknown>;
-
-    const title = getString(obj.title);
-    const description = htmlToText(getString(obj.description));
-    const location = extractLocationFromLdJsonValue(obj.jobLocation);
-    const employmentType = getString(obj.employmentType);
-    const datePosted = getString(obj.datePosted);
-    const qualifications = htmlToText(getString(obj.qualifications));
-
-    const text = `
-Title:
-${title}
-
-Location:
-${location}
-
-Employment Type:
-${employmentType}
-
-Date Posted:
-${datePosted}
-
-Description:
-${description}
-
-Qualifications:
-${qualifications}
-`;
-
-    const normalized = normalizeRawText(text);
-
-    if (!normalized || normalized.length < MIN_JD_LENGTH) {
-      return null;
-    }
-
-    return normalized;
-  } catch {
-    return null;
-  }
 }
 
 function extractIcimsLocationFromPage($: cheerio.CheerioAPI): string {
@@ -298,29 +147,6 @@ function extractIcimsTitleFromPage($: cheerio.CheerioAPI): string {
   return "";
 }
 
-function isLikelyJDText(text: string): boolean {
-  if (text.length < MIN_JD_LENGTH) return false;
-
-  const lower = text.toLowerCase();
-
-  return ICIMS_JD_KEYWORDS.some((keyword) => lower.includes(keyword));
-}
-
-function extractRelevantWindow(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
-  const lower = text.toLowerCase();
-
-  const indexes = ICIMS_JD_KEYWORDS.map((keyword) => lower.indexOf(keyword))
-    .filter((index) => index >= 0)
-    .sort((a, b) => a - b);
-
-  if (!indexes.length) {
-    return text.slice(0, maxChars);
-  }
-
-  const start = Math.max(0, indexes[0] - 1_000);
-  return text.slice(start, start + maxChars);
-}
-
 function withTitleAndLocation(params: { title: string; location: string; jd: string }): string {
   const { title, location, jd } = params;
 
@@ -342,10 +168,20 @@ function extractIcimsJD(html: string): string | null {
     .get()
     .filter(Boolean);
 
-  const structuredText = ldJsonTexts.map(extractJobPostingFromLdJson).find(Boolean);
+  const structuredText = ldJsonTexts
+    .map((text) =>
+      extractJobPostingFromJsonLd(text, {
+        allowStringAddress: true,
+        arraySeparator: ", ",
+        convertQualificationsHtml: true,
+        minLength: MIN_JD_LENGTH,
+        normalize: true,
+      })
+    )
+    .find(Boolean);
 
   if (structuredText) {
-    return normalizeRawText(limitRawText(structuredText));
+    return normalizeRawText(limitJDText(structuredText));
   }
 
   const title = extractIcimsTitleFromPage($);
@@ -403,14 +239,20 @@ function extractIcimsJD(html: string): string | null {
 
     const text = normalizeRawText(node.text());
 
-    if (text && isLikelyJDText(text)) {
+    if (
+      text &&
+      isLikelyJDText(text, {
+        keywords: ICIMS_JD_KEYWORDS,
+        minLength: MIN_JD_LENGTH,
+      })
+    ) {
       const jd = withTitleAndLocation({
         title,
         location,
         jd: text,
       });
 
-      return normalizeRawText(limitRawText(jd));
+      return normalizeRawText(limitJDText(jd));
     }
   }
 
@@ -425,7 +267,11 @@ function extractIcimsJD(html: string): string | null {
     return null;
   }
 
-  const relevant = normalizeRawText(extractRelevantWindow(bodyText));
+  const relevant = normalizeRawText(
+    extractRelevantJDWindow(bodyText, {
+      keywords: ICIMS_JD_KEYWORDS,
+    })
+  );
 
   if (!relevant || relevant.length < MIN_JD_LENGTH) {
     return null;
@@ -437,7 +283,7 @@ function extractIcimsJD(html: string): string | null {
     jd: relevant,
   });
 
-  return normalizeRawText(limitRawText(jd));
+  return normalizeRawText(limitJDText(jd));
 }
 
 export async function fetchIcimsJD(

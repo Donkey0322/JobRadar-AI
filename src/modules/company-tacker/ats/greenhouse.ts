@@ -12,6 +12,7 @@ import { isTarget, withinDays } from "../utils";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
+import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
 const identifierMap: Record<string, string> = {
   "mlb.com": "majorleaguebaseball",
@@ -28,14 +29,6 @@ const identifierMap: Record<string, string> = {
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
 };
-
-function getHost(url: URL) {
-  return url.hostname.replace(/^www\./, "");
-}
-
-function getHostIdentifier(url: URL) {
-  return getHost(url).split(".")[0] || "unknown";
-}
 
 function isGreenhouseJobBoardHost(host: string) {
   return (
@@ -87,7 +80,11 @@ async function findEmbeddedGreenhouseIdentifier(url: URL): Promise<string | null
 
       const parts = embedUrl.pathname.split("/").filter(Boolean);
 
-      if (isGreenhouseJobBoardHost(getHost(embedUrl)) && parts[0] && parts[0] !== "embed") {
+      if (
+        isGreenhouseJobBoardHost(getHostnameWithoutWww(embedUrl)) &&
+        parts[0] &&
+        parts[0] !== "embed"
+      ) {
         return parts[0];
       }
     }
@@ -104,7 +101,7 @@ async function findEmbeddedGreenhouseIdentifier(url: URL): Promise<string | null
 
 export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   const parts = url.pathname.split("/").filter(Boolean);
-  const host = getHost(url);
+  const host = getHostnameWithoutWww(url);
 
   // Case 0:
   if (identifierMap[host as keyof typeof identifierMap]) {
@@ -128,7 +125,7 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
       }
     }
 
-    return buildCompany(url, identifier || getHostIdentifier(url));
+    return buildCompany(url, identifier || getSubdomainIdentifier(url));
   }
 
   // Case 2:
@@ -136,7 +133,7 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
   // https://job-boards.eu.greenhouse.io/imc/jobs/4580809101
   // https://boards.greenhouse.io/acluinternships
   if (isGreenhouseJobBoardHost(host)) {
-    const identifier = parts[0] || getHostIdentifier(url);
+    const identifier = parts[0] || getSubdomainIdentifier(url);
 
     return buildCompany(url, identifier);
   }
@@ -161,7 +158,7 @@ export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
 
   // Case 5:
   // fallback: keep old behavior, never return empty identifier
-  const identifier = getHostIdentifier(url);
+  const identifier = getSubdomainIdentifier(url);
 
   return buildCompany(url, identifier);
 }

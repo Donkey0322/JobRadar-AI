@@ -4,7 +4,6 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult, JDFetchStatus } from "./ats";
 import type { JD, Job } from "@/types/jobs";
-import type { JDResponse } from "@/validation/ai";
 
 import { classifyATS } from "../company-tacker/ats";
 
@@ -21,22 +20,12 @@ import {
   JD_FETCH_ERROR,
   JD_FETCH_OK,
 } from "./ats";
+import { parseAIJDResult } from "./response";
 
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
-import { JDResponseSchema } from "@/validation/ai";
 
-export function normalizeJD(response: JDResponse): JD {
-  return {
-    citizenship: response.citizenship,
-    sponsorship: response.sponsorship,
-    country: response.country,
-    location: response.location,
-    qualifications: response.qualifications,
-    category: response.category,
-    season: response.season,
-  };
-}
+export { normalizeJD } from "./response";
 
 export function isEligibleJD(jd: JD) {
   const filters = CONFIG.target.filter;
@@ -143,50 +132,49 @@ export default async function getJD(job: Job): Promise<{
     };
   }
 
-  try {
-    const parsed = JSON.parse(result);
-    const validated = JDResponseSchema.safeParse(parsed);
-    if (!validated.success) {
-      logger.warn(
-        {
-          company: job.company,
-          parsed,
-          err: validated.error,
-        },
-        "⚠️ Invalid AI response"
-      );
+  const parsedResult = parseAIJDResult(result);
 
-      return {
-        jd: null,
-        rawJD,
-        cost,
-        error: JD_FETCH_ERROR.noData(),
-      };
-    }
-
-    const jd = normalizeJD(validated.data);
+  if (parsedResult.status === "ok") {
     return {
-      jd,
+      jd: parsedResult.jd,
       rawJD,
       cost,
       error: JD_FETCH_OK,
     };
-  } catch (e) {
+  }
+
+  if (parsedResult.status === "invalid") {
     logger.warn(
       {
         company: job.company,
-        err: e,
+        parsed: parsedResult.parsed,
+        err: parsedResult.error,
       },
-      "⚠️ Error parsing AI response"
+      "⚠️ Invalid AI response"
     );
 
     return {
       jd: null,
       rawJD,
       cost,
-      error: JD_FETCH_ERROR.internal(),
+      error: JD_FETCH_ERROR.noData(),
     };
   }
+
+  logger.warn(
+    {
+      company: job.company,
+      err: parsedResult.error,
+    },
+    "⚠️ Error parsing AI response"
+  );
+
+  return {
+    jd: null,
+    rawJD,
+    cost,
+    error: JD_FETCH_ERROR.internal(),
+  };
 }
 
 export async function analyzeLink(link: string): Promise<JD | null> {
@@ -203,24 +191,15 @@ export async function analyzeLink(link: string): Promise<JD | null> {
     return null;
   }
 
-  try {
-    const parsed = JSON.parse(result);
-    const validated = JDResponseSchema.safeParse(parsed);
+  const parsedResult = parseAIJDResult(result);
 
-    if (!validated.success) {
-      logger.warn(
-        {
-          err: validated.error,
-        },
-        "⚠️ Invalid AI response"
-      );
-
-      return null;
-    }
-
-    return normalizeJD(validated.data);
-  } catch (e) {
-    logger.warn({ err: e }, "⚠️ Error parsing AI response");
-    return null;
+  if (parsedResult.status === "ok") {
+    return parsedResult.jd;
   }
+
+  logger.warn(
+    { err: parsedResult.error },
+    parsedResult.status === "invalid" ? "⚠️ Invalid AI response" : "⚠️ Error parsing AI response"
+  );
+  return null;
 }

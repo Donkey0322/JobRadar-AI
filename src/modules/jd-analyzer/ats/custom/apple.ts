@@ -1,16 +1,11 @@
-import * as cheerio from "cheerio";
-
 import { ABORT_SIGNAL } from "@/constants";
 
 import { JD_FETCH_ERROR, JD_FETCH_OK, type JDFetchResult } from "../fetch";
 
+import { htmlToText } from "@/utils/string";
+
 const APPLE_HYDRATION_PATTERN =
   /window\.__staticRouterHydrationData\s*=\s*JSON\.parse\(\s*(["'])((?:\\.|(?!\1)[\s\S])*)\1\s*\)/;
-
-function htmlToText(html: string): string {
-  const $ = cheerio.load(html);
-  return $.root().text();
-}
 
 function getString(value: unknown): string {
   if (typeof value === "string") return value;

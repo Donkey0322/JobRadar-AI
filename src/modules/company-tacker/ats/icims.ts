@@ -9,8 +9,11 @@ import type { Job } from "@/types";
 
 import { isTarget } from "../utils";
 
+import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/shared/ats/icims";
+import { decodeHtmlEntities } from "@/utils/html";
+import { fetchHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { capitalize, cleanText, decodeHtmlEntities } from "@/utils/string";
+import { capitalize, cleanText } from "@/utils/string";
 
 export const IcimsJobSchema = z.object({
   title: z.string(),
@@ -46,26 +49,13 @@ function getIcimsCompanyIdentifier(url: URL): string {
     .replace(/^careers-/, "");
 }
 
-function isIcimsSearchUrl(url: URL): boolean {
-  return url.hostname.endsWith(".icims.com") && url.pathname === "/jobs/search";
-}
-
-function toIcimsSearchUrl(url: URL): string {
-  const searchUrl = new URL(url.toString());
-
-  searchUrl.pathname = "/jobs/search";
-  searchUrl.searchParams.set("in_iframe", "1");
-
-  return searchUrl.toString();
-}
-
 export function urlToIcimsCompany(url: URL): Company {
   const identifier = getIcimsCompanyIdentifier(url);
 
   let page: string;
 
-  if (isIcimsSearchUrl(url)) {
-    page = toIcimsSearchUrl(url);
+  if (isIcimsUrl(url, "search")) {
+    page = normalizeIcimsUrl(url.toString(), "search");
   } else if (url.hostname.endsWith(".icims.com") && url.hostname.startsWith("careers-")) {
     page = `${url.origin}/jobs/search`;
   } else {
@@ -80,53 +70,6 @@ export function urlToIcimsCompany(url: URL): Company {
     page,
     urls: [],
   };
-}
-
-function findIcimsIframeSrc(html: string, baseUrl: string): string | null {
-  const $ = cheerio.load(html);
-
-  // 1. iframe with normal src
-  const normalSrc =
-    $("iframe[src*='icims.com/jobs/search']").attr("src") ??
-    $("iframe[src*='/jobs/search']").attr("src");
-
-  if (normalSrc) {
-    return new URL(decodeHtmlEntities(normalSrc), baseUrl).toString();
-  }
-
-  // 2. iframe with noscript src
-  for (const el of $("noscript").toArray()) {
-    const noscriptHtml = $(el).html() ?? $(el).text();
-    if (!noscriptHtml) continue;
-
-    const $$ = cheerio.load(noscriptHtml);
-
-    const src =
-      $$("iframe[src*='icims.com/jobs/search']").attr("src") ??
-      $$("iframe[src*='/jobs/search']").attr("src");
-
-    if (src) {
-      return new URL(decodeHtmlEntities(src), baseUrl).toString();
-    }
-  }
-
-  // 3. fallback: iframe with raw src
-  const iframeMatch = html.match(
-    /<iframe[^>]+src=["']([^"']*(?:icims\.com\/jobs\/search|\/jobs\/search)[^"']*)["']/i
-  );
-
-  if (iframeMatch?.[1]) {
-    return new URL(decodeHtmlEntities(iframeMatch[1]), baseUrl).toString();
-  }
-
-  // 4. fallback: iframe with raw url in JS string
-  const rawUrlMatch = html.match(/https?:\/\/[^"'<>\s]+\.icims\.com\/jobs\/search[^"'<>\s]*/i);
-
-  if (rawUrlMatch?.[0]) {
-    return decodeHtmlEntities(rawUrlMatch[0]);
-  }
-
-  return null;
 }
 
 function getIcimsJobId(url: string): string | null {
@@ -157,7 +100,7 @@ function getLocationFromCard(cardText: string): string {
 }
 
 async function fetchHtml(url: string, signal: AbortSignal): Promise<string | null> {
-  const res = await fetch(url, {
+  const { response, html } = await fetchHtmlResponse(url, {
     signal,
     headers: {
       "User-Agent": "Mozilla/5.0",
@@ -165,28 +108,25 @@ async function fetchHtml(url: string, signal: AbortSignal): Promise<string | nul
     },
   });
 
-  if (!res.ok) return null;
+  if (!response.ok) return null;
 
-  return res.text();
+  return html;
 }
 
 async function resolveSearchPage(company: Company, signal: AbortSignal): Promise<string> {
   const url = new URL(company.page);
 
-  if (isIcimsSearchUrl(url)) {
-    url.searchParams.set("in_iframe", "1");
-    return url.toString();
+  if (isIcimsUrl(url, "search")) {
+    return normalizeIcimsUrl(url.toString(), "search");
   }
 
   const html = await fetchHtml(company.page, signal);
   if (!html) return company.page;
 
-  const iframeSrc = findIcimsIframeSrc(html, company.page);
+  const iframeSrc = findIcimsIframeSrc(html, company.page, "search");
 
   if (iframeSrc) {
-    const iframeUrl = new URL(iframeSrc);
-    iframeUrl.searchParams.set("in_iframe", "1");
-    return iframeUrl.toString();
+    return normalizeIcimsUrl(iframeSrc, "search");
   }
 
   return company.page;

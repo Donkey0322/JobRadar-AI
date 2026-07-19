@@ -10,6 +10,8 @@
 import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 
+import type { ZodType } from "zod";
+
 import { AmazonCompany, AmazonResponseSchema } from "./amazon";
 import { AMDCompany, AMDResponseSchema } from "./amd";
 import { AppleCompany, parseAppleJobs } from "./apple";
@@ -21,6 +23,24 @@ import { TikTokCompany, TikTokResponseSchema } from "./tiktok";
 
 const TIMEOUT = 30_000;
 
+async function fetchJsonContract<T>(
+  input: Parameters<typeof fetch>[0],
+  schema: ZodType<T>,
+  init?: RequestInit
+): Promise<T> {
+  const res = await fetch(input, init);
+  expect(res.ok, `HTTP ${res.status}`).toBe(true);
+
+  const result = schema.safeParse(await res.json());
+  expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
+
+  if (!result.success) {
+    throw result.error;
+  }
+
+  return result.data;
+}
+
 // ---------------------------------------------------------------------------
 // Amazon
 // ---------------------------------------------------------------------------
@@ -29,7 +49,7 @@ describe("Amazon", () => {
   it(
     "response matches AmazonResponseSchema",
     async () => {
-      const res = await fetch(AmazonCompany.page, {
+      const data = await fetchJsonContract(AmazonCompany.page, AmazonResponseSchema, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -39,14 +59,7 @@ describe("Amazon", () => {
         }),
       });
 
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const result = AmazonResponseSchema.safeParse(await res.json());
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
-      expect(
-        result.data!.searchHits.length,
-        "expected at least one job in response"
-      ).toBeGreaterThan(0);
+      expect(data.searchHits.length, "expected at least one job in response").toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -64,18 +77,13 @@ describe("Netflix", () => {
       url.searchParams.set("sort_by", "new");
       url.searchParams.set("num", "1");
 
-      const res = await fetch(url.toString(), {
+      const data = await fetchJsonContract(url, NetflixResponseSchema, {
         headers: { Accept: "application/json" },
       });
 
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const result = NetflixResponseSchema.safeParse(await res.json());
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
-      expect(
-        result.data!.positions.length,
-        "expected at least one position in response"
-      ).toBeGreaterThan(0);
+      expect(data.positions.length, "expected at least one position in response").toBeGreaterThan(
+        0
+      );
     },
     TIMEOUT
   );
@@ -93,14 +101,10 @@ describe("Microsoft", () => {
       url.searchParams.set("start", "0");
       url.searchParams.set("sort_by", "timestamp");
 
-      const res = await fetch(url.toString());
+      const data = await fetchJsonContract(url, MicrosoftResponseSchema);
 
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const result = MicrosoftResponseSchema.safeParse(await res.json());
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
       expect(
-        result.data!.data?.positions?.length ?? 0,
+        data.data?.positions?.length ?? 0,
         "expected at least one position in response"
       ).toBeGreaterThan(0);
     },
@@ -123,15 +127,11 @@ describe("AMD", () => {
       url.searchParams.set("page", "1");
       url.searchParams.set("internal", "false");
 
-      const res = await fetch(url.toString(), {
+      const data = await fetchJsonContract(url, AMDResponseSchema, {
         headers: { Accept: "application/json" },
       });
 
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const result = AMDResponseSchema.safeParse(await res.json());
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
-      expect(result.data!.jobs.length, "expected at least one job in response").toBeGreaterThan(0);
+      expect(data.jobs.length, "expected at least one job in response").toBeGreaterThan(0);
     },
     TIMEOUT
   );
@@ -145,7 +145,7 @@ describe("TikTok", () => {
   it(
     "response matches TikTokResponseSchema",
     async () => {
-      const res = await fetch(TikTokCompany.page, {
+      const data = await fetchJsonContract(TikTokCompany.page, TikTokResponseSchema, {
         method: "POST",
         headers: {
           accept: "*/*",
@@ -166,13 +166,9 @@ describe("TikTok", () => {
         }),
       });
 
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const result = TikTokResponseSchema.safeParse(await res.json());
-      expect(result.success, JSON.stringify(result.error?.issues)).toBe(true);
-      expect(result.data!.code, "expected success code 0").toBe(0);
+      expect(data.code, "expected success code 0").toBe(0);
       expect(
-        result.data!.data?.job_post_list?.length ?? 0,
+        data.data?.job_post_list?.length ?? 0,
         "expected at least one job post in response"
       ).toBeGreaterThan(0);
     },

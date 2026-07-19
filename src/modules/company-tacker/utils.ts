@@ -1,5 +1,6 @@
 import { CONFIG } from "@/constants";
 
+import { escapeRegExp } from "@/utils/url";
 import { JobCategory } from "@/validation/config";
 
 const ENGINEERING_WORDS = [
@@ -146,10 +147,7 @@ const NON_TECH_WORDS = [
 
 function buildPatterns(words: string[]) {
   return words.map((word) => {
-    const escaped = word
-      .replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-      .replace(/\s+/g, "\\s+")
-      .replace(/-/g, "[- ]?");
+    const escaped = escapeRegExp(word).replace(/\s+/g, "\\s+").replace(/-/g, "[- ]?");
 
     return new RegExp(`(^|\\W)${escaped}($|\\W)`, "i");
   });

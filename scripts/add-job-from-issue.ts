@@ -1,9 +1,9 @@
-import fs from "node:fs/promises";
-
 import { createSyncContext, processJobs } from "./command/sync/shared";
+import { createIssueSectionParser } from "./utils/github-issue";
 
+import { readJsonFile } from "@/utils/data";
 import { logger } from "@/utils/logger";
-import { escapeRegExp } from "@/utils/url";
+import { isValidHttpUrl } from "@/utils/url";
 
 type SubmittedJob = {
   company: string;
@@ -34,14 +34,17 @@ async function main() {
     throw new Error("GITHUB_EVENT_PATH is missing.");
   }
 
-  const event = await readJson<GitHubIssueEvent>(eventPath);
+  const event = await readJsonFile<GitHubIssueEvent>(eventPath);
   const body = event.issue.body ?? "";
+  const issue = createIssueSectionParser(body, { caseSensitive: false });
+  const required = (label: string) =>
+    issue.required(label, (title) => `Missing required issue field: ${title}`);
 
   const job: SubmittedJob = {
-    company: getRequiredIssueField(body, "Company"),
-    role: getRequiredIssueField(body, "Role"),
-    link: getRequiredIssueField(body, "Link"),
-    location: getRequiredIssueField(body, "Location"),
+    company: required("Company"),
+    role: required("Role"),
+    link: required("Link"),
+    location: required("Location"),
   };
 
   validateSubmittedJob(job);
@@ -57,41 +60,8 @@ async function main() {
   logger.info(JSON.stringify(job, null, 2));
 }
 
-async function readJson<T>(filePath: string): Promise<T> {
-  const raw = await fs.readFile(filePath, "utf-8");
-  return JSON.parse(raw) as T;
-}
-
-function getRequiredIssueField(body: string, label: string): string {
-  const value = getIssueField(body, label);
-
-  if (!value) {
-    throw new Error(`Missing required issue field: ${label}`);
-  }
-
-  return value;
-}
-
-function getIssueField(body: string, label: string): string | null {
-  const escapedLabel = escapeRegExp(label);
-
-  const pattern = new RegExp(
-    String.raw`###\s+${escapedLabel}\s*\n+([\s\S]*?)(?=\n+###\s+|\s*$)`,
-    "i"
-  );
-
-  const match = body.match(pattern);
-  const value = match?.[1]?.replace(/<!--[\s\S]*?-->/g, "").trim();
-
-  if (!value || value === "_No response_") {
-    return null;
-  }
-
-  return value;
-}
-
 function validateSubmittedJob(job: SubmittedJob): void {
-  if (!isValidUrl(job.link)) {
+  if (!isValidHttpUrl(job.link)) {
     throw new Error(`Invalid job link: ${job.link}`);
   }
 
@@ -99,15 +69,6 @@ function validateSubmittedJob(job: SubmittedJob): void {
     if (!value.trim()) {
       throw new Error(`Invalid empty field: ${key}`);
     }
-  }
-}
-
-function isValidUrl(value: string): boolean {
-  try {
-    const url = new URL(value);
-    return url.protocol === "https:" || url.protocol === "http:";
-  } catch {
-    return false;
   }
 }
 

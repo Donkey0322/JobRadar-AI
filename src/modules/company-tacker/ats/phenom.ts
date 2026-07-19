@@ -7,8 +7,9 @@ import type { Company } from "../type";
 import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
+import { decodeHtmlEntities } from "@/utils/html";
+import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
-import { decodeHtmlEntities } from "@/utils/string";
 import { escapeRegExp, removeTrailingSlash } from "@/utils/url";
 
 export const TRACKING_PARAM = "ph_id";
@@ -67,7 +68,7 @@ interface PhenomSession {
 
 export async function isPhenomUrl(rawUrl: string): Promise<boolean> {
   try {
-    const response = await fetch(rawUrl, {
+    const { response, html } = await fetchHtmlResponse(rawUrl, {
       redirect: "follow",
       headers: {
         accept: "text/html,application/xhtml+xml",
@@ -80,7 +81,6 @@ export async function isPhenomUrl(rawUrl: string): Promise<boolean> {
       return false;
     }
 
-    const html = await response.text();
     const setCookie = response.headers.get("set-cookie") ?? "";
 
     return (
@@ -105,18 +105,6 @@ export async function urlToPhenomCompany(url: URL): Promise<Company | null> {
     page: url.origin,
     urls: [],
   };
-}
-
-function isHtmlResponse(raw: string): boolean {
-  const trimmed = raw.trimStart().toLowerCase();
-
-  return (
-    trimmed.startsWith("<!doctype") || trimmed.startsWith("<?xml") || trimmed.startsWith("<html")
-  );
-}
-
-function isAbortError(error: unknown): error is Error {
-  return error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError");
 }
 
 function getLocaleBaseUrl(rawUrl: string): string | null {
@@ -465,33 +453,6 @@ function extractCompanyName(html: string): string | null {
   return null;
 }
 
-function getSetCookieHeader(response: Response): string {
-  const headers = response.headers as Headers & {
-    getSetCookie?: () => string[];
-  };
-
-  const setCookies = headers.getSetCookie?.();
-
-  if (setCookies?.length) {
-    return setCookies
-      .map((cookie) => cookie.split(";")[0])
-      .filter(Boolean)
-      .join("; ");
-  }
-
-  const setCookie = response.headers.get("set-cookie");
-
-  if (!setCookie) {
-    return "";
-  }
-
-  return setCookie
-    .split(/,(?=\s*[^;=]+=[^;]+)/)
-    .map((cookie) => cookie.split(";")[0])
-    .filter(Boolean)
-    .join("; ");
-}
-
 function extractPhenomCsrfToken(html: string): string | null {
   const patterns = [
     /"csrfToken"\s*:\s*"([^"]+)"/,
@@ -512,7 +473,7 @@ function extractPhenomCsrfToken(html: string): string | null {
 }
 
 async function getPhenomSession(pageUrl: string, signal: AbortSignal): Promise<PhenomSession> {
-  const response = await fetch(pageUrl, {
+  const { response, html } = await fetchHtmlResponse(pageUrl, {
     redirect: "follow",
     headers: {
       accept:
@@ -525,8 +486,6 @@ async function getPhenomSession(pageUrl: string, signal: AbortSignal): Promise<P
     },
     signal,
   });
-
-  const html = await response.text();
 
   if (!response.ok || !html) {
     throw new Error(

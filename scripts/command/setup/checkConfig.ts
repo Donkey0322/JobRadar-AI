@@ -1,8 +1,8 @@
-import nodemailer from "nodemailer";
-
 import "dotenv/config";
 import { CONFIG } from "@/constants";
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
+
+import { createSMTPTransport } from "../../utils/mail";
 
 import { getProvider } from "@/utils/ai";
 import { logger } from "@/utils/logger";
@@ -72,15 +72,7 @@ export async function checkSMTPConfig(): Promise<boolean> {
       return false;
     }
 
-    const mailer = nodemailer.createTransport({
-      host: CONFIG.sender.host,
-      port: Number(CONFIG.sender.port),
-      secure: Number(CONFIG.sender.port) === 465,
-      auth: {
-        user: CONFIG.sender.user,
-        pass: CONFIG.sender.pass,
-      },
-    });
+    const mailer = createSMTPTransport(CONFIG.sender);
 
     await mailer.verify();
 

@@ -8,6 +8,16 @@ describe("isTechIntern", () => {
     expect(isTechIntern("Backend Engineering Internship")).toBe(true);
   });
 
+  it("retains flexible whitespace and hyphen matching", () => {
+    expect(isTechIntern("Machine    Learning Engineer Intern")).toBe(true);
+    expect(isTechIntern("Front End Engineer Intern")).toBe(true);
+  });
+
+  it("treats punctuation in configured words literally", () => {
+    expect(isTechIntern("Software Eng. Intern")).toBe(true);
+    expect(isTechIntern("Software EngX Intern")).toBe(false);
+  });
+
   it("rejects non-tech interns", () => {
     expect(isTechIntern("Marketing Intern")).toBe(false);
     expect(isTechIntern("HR Internship")).toBe(false);

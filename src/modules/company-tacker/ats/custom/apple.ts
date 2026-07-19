@@ -10,6 +10,7 @@ import type { Job } from "@/types";
 import { isTarget, withinDays } from "../../utils";
 
 import { logger } from "@/utils/logger";
+import { cleanText } from "@/utils/string";
 
 const APPLE_CAREERS_URL = "https://jobs.apple.com/en-us/search";
 
@@ -33,10 +34,6 @@ export type AppleJob = z.infer<typeof AppleJobSchema>;
 
 const MAX_PAGES = 20;
 
-function normalizeText(text: string) {
-  return text.replace(/\s+/g, " ").trim();
-}
-
 export function parseAppleJobs(html: string): AppleJob[] {
   const $ = cheerio.load(html);
   const jobs: AppleJob[] = [];
@@ -47,12 +44,12 @@ export function parseAppleJobs(html: string): AppleJob[] {
     const link = card
       .find("a[href*='/en-us/details/']")
       .filter((_, a) => {
-        const text = normalizeText($(a).text());
+        const text = cleanText($(a).text());
         return text.length > 0 && !/see full role description/i.test(text);
       })
       .first();
 
-    const title = normalizeText(link.text());
+    const title = cleanText(link.text());
     const href = link.attr("href");
 
     if (!title || !href) {
@@ -60,9 +57,9 @@ export function parseAppleJobs(html: string): AppleJob[] {
     }
 
     const location =
-      normalizeText(card.find(".table--advanced-search__location-sub").first().text()) || null;
+      cleanText(card.find(".table--advanced-search__location-sub").first().text()) || null;
 
-    const postedAt = normalizeText(card.find(".job-posted-date").first().text()) || null;
+    const postedAt = cleanText(card.find(".job-posted-date").first().text()) || null;
 
     if (withinDays(postedAt ?? "", 2)) {
       jobs.push({

@@ -16,10 +16,39 @@ import type { Job } from "@/types";
 
 import { logger } from "@/utils/logger";
 
+/**
+ * Read and parse a JSON file. File-system and parse errors are propagated.
+ */
+export async function readJsonFile<T>(filePath: string): Promise<T> {
+  const content = await fs.readFile(filePath, "utf-8");
+  return JSON.parse(content) as T;
+}
+
+/**
+ * Read and parse an NDJSON file. Blank lines are ignored; file-system and
+ * parse errors are propagated.
+ */
+export async function readNdjsonFile<T>(filePath: string): Promise<T[]> {
+  const content = await fs.readFile(filePath, "utf-8");
+
+  return content
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line, index) => {
+      try {
+        return JSON.parse(line) as T;
+      } catch (error) {
+        throw new Error(`Invalid NDJSON at line ${index + 1}: ${line}`, {
+          cause: error,
+        });
+      }
+    });
+}
+
 export async function loadUrls(): Promise<Set<string>> {
   try {
-    const content = await fs.readFile(URLS_PATH, "utf-8");
-    const parsed: string[] = JSON.parse(content);
+    const parsed = await readJsonFile<string[]>(URLS_PATH);
     return new Set(parsed);
   } catch {
     return new Set();
@@ -42,12 +71,7 @@ export async function saveUrls(urlsSet: Set<string>) {
 
 export async function loadJobs(): Promise<Job[]> {
   try {
-    const content = await fs.readFile(JOB_PATH, "utf-8");
-    return content
-      .split("\n")
-      .filter(Boolean)
-      .map((line) => JSON.parse(line) as Job)
-      .reverse();
+    return (await readNdjsonFile<Job>(JOB_PATH)).reverse();
   } catch {
     return [];
   }
@@ -103,11 +127,7 @@ export async function saveJD(jd: string, job: Job) {
 
 export async function loadOpportunities(): Promise<Job[]> {
   try {
-    const content = await fs.readFile(OPPORTUNITIES_PATH, "utf-8");
-    return content
-      .split("\n")
-      .filter(Boolean)
-      .map((line) => JSON.parse(line) as Job);
+    return await readNdjsonFile<Job>(OPPORTUNITIES_PATH);
   } catch {
     return [];
   }
@@ -125,9 +145,7 @@ export async function saveOpportunities(opportunities: Job[], overwrite: boolean
 
 export async function loadCompanies(): Promise<Company[]> {
   try {
-    const content = await fs.readFile(COMPANY_PATH, "utf-8");
-    const parsed: Company[] = JSON.parse(content);
-    return parsed;
+    return await readJsonFile<Company[]>(COMPANY_PATH);
   } catch {
     return [];
   }
