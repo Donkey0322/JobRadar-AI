@@ -9,30 +9,7 @@ import type { Job } from "@/types";
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
 
-export const HOST_LIST = [
-  "careers.adobe.com",
-  "careers.blizzard.com",
-  "careers.cboe.com",
-  "careers.cisco.com",
-  "careers.crowe.com",
-  "careers.freddiemac.com",
-  "careers.hpe.com",
-  "careers.icf.com",
-  "careers.itw.com",
-  "careers.merzaesthetics.com",
-  "careers.mitre.org",
-  "careers.oshkoshcorp.com",
-  "careers.pnc.com",
-  "careers.snowflake.com",
-  "careers.thredup.com",
-  "careers.tranetechnologies.com",
-  "careers.usbank.com",
-  "careers.varsitybrands.com",
-  "hdsupply.jobs",
-  "jobs.baesystems.com",
-  "jobs.cisco.com",
-  "jobs.danaher.com",
-];
+export const TRACKING_PARAM = "ph_id";
 
 const PAGE_SIZE = 100;
 const MAX_PAGES = 5;
@@ -725,7 +702,7 @@ async function fetchPhenomPage(
 }
 
 function getPhenomJobLink(session: PhenomSession, job: PhenomJob): string {
-  return `${session.baseUrl}/job/${job.jobId}`;
+  return `${session.baseUrl}/job/${job.jobId}?${TRACKING_PARAM}=${job.jobId}`;
 }
 
 function getPhenomJobLocation(job: PhenomJob): string {
@@ -772,7 +749,7 @@ export async function fetchPhenom(
 
     for (let page = 0; page < MAX_PAGES; page++) {
       const rawJobs = await fetchPhenomPage(resolvedCompany, page, session, signal);
-
+      console.log(rawJobs.length);
       if (rawJobs.length === 0) {
         break;
       }

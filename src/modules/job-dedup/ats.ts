@@ -47,6 +47,16 @@ export function getOracleKey(pathname: string): string | null {
   return match ? `oraclecloud:${match[1]}` : null;
 }
 
+export function getEightfoldKey(pathname: string): string | null {
+  const match = pathname.match(/\/job\/(\d+)(?:\/|$)/i);
+  return match ? `eightfold:${match[1]}` : null;
+}
+
+export function getPhenomKey(pathname: string): string | null {
+  const match = pathname.match(/\/job\/(\d+)(?:\/|$)/i);
+  return match ? `phenom:${match[1]}` : null;
+}
+
 export function getIcimsKey(pathname: string): string | null {
   const match = pathname.match(/\/jobs\/(\d+)(?:\/|$)/i);
   return match ? `icims:${match[1]}` : null;

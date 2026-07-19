@@ -3,10 +3,12 @@ import { classifyATS } from "../company-tacker/ats";
 import {
   getAshbyKey,
   getCustomKey,
+  getEightfoldKey,
   getGreenhouseKey,
   getIcimsKey,
   getLeverKey,
   getOracleKey,
+  getPhenomKey,
   getSmartRecruitersKey,
   getWorkdayKey,
 } from "./ats";
@@ -41,6 +43,12 @@ export function getJobKey(url: string) {
 
       case "custom":
         return getCustomKey(url);
+
+      case "eightfold":
+        return getEightfoldKey(u.pathname) ?? `eightfold:${normalizeUrl(url)}`;
+
+      case "phenom":
+        return getPhenomKey(u.pathname) ?? `phenom:${normalizeUrl(url)}`;
 
       default:
         return `url:${normalizeUrl(url)}`;
@@ -84,3 +92,5 @@ export function deduplicate(urls: string[] | Set<string>) {
   const json = mapToJson(grouped);
   return Object.values(json).map((urls) => urls[0]);
 }
+
+console.log(getJobKey("https://jobs.danaher.com/job/51980?ph_id=51980"));

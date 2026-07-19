@@ -1,7 +1,7 @@
 import type { ATS } from "../type";
 
-import { TRACKING_PARAM } from "./eightfold";
-import { HOST_LIST } from "./phenom";
+import { TRACKING_PARAM as EIGHTFOLD_TRACKING_PARAM } from "./eightfold";
+import { TRACKING_PARAM as PHENOM_TRACKING_PARAM } from "./phenom";
 
 export * from "./greenhouse";
 export * from "./lever";
@@ -12,19 +12,9 @@ export * from "./smart";
 export * from "./icims";
 export * from "./custom";
 
-const hostToPhenom: Record<string, ATS> = HOST_LIST.reduce(
-  (acc: Record<string, ATS>, host: string) => {
-    acc[host] = "phenom";
-    return acc;
-  },
-  {} as Record<string, ATS>
-);
-
 const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
-
-  ...hostToPhenom,
 };
 
 export function classifyATS(url: URL): ATS {
@@ -51,10 +41,11 @@ export function classifyATS(url: URL): ATS {
   } else if (host.endsWith("eightfold.ai")) {
     return "eightfold";
   } else {
-    if (url.searchParams.get(TRACKING_PARAM)) return "eightfold";
+    if (url.searchParams.get(EIGHTFOLD_TRACKING_PARAM)) return "eightfold";
+    if (url.searchParams.get(PHENOM_TRACKING_PARAM)) return "phenom";
     if (url.searchParams.get("ashby_jid")) return "ashby";
     if (url.searchParams.get("gh_jid")) return "greenhouse";
-  }
 
-  return "custom";
+    return "custom";
+  }
 }
