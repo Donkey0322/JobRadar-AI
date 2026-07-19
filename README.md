@@ -417,6 +417,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Ssctech</td>
+      <td width="420" align="left" valign="top">CPQ Systems Engineer</td>
+      <td width="180" align="left" valign="top">Jacksonville, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Jacksonville-FL/CPQ-Systems-Engineer_R43427"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Boeing</td>
       <td width="420" align="left" valign="top">Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Omaha, NE</td>
@@ -549,16 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/Associate-Scientist--Postdoctoral-Fellow---AI-in-Infectious-Disease-Modeling_R402279"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Manulife</td>
-      <td width="420" align="left" valign="top">Full Stack Software Engineer</td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Boston-Massachusetts/Full-Stack-Software-Engineer_JR26070424-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 730 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 731 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (4,958)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-19T03:31:43.985Z</code>
+      🕒 Last updated <code>2026-07-19T04:02:03.913Z</code>
     </span>
   </p>
 </div>
