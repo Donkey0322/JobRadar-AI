@@ -38,9 +38,7 @@
     "identifier": "8am",
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
-    "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006"
-    ]
+    "urls": []
   },
   {
     "name": "aaaie",
@@ -5323,7 +5321,8 @@
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23580",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23583",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23585",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23594"
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23594",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/22544"
     ]
   },
   {
@@ -17256,8 +17255,7 @@
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/Netherlands---Geleen---Remote/Application-Specialist--Field-Service-Engineer----Industrial-Coating-Systems_REQ47353-1",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Ohio---Westlake/IT-Infrastructure-Analyst---Vulnerability-Remediation---Delivery_REQ50312",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Senior-Software-Engineer_REQ50209",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/Data-Analyst-I---AMS_REQ51922"
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1"
     ]
   },
   {
@@ -22105,7 +22103,9 @@
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London---1-Ropemaker-Street/AI-Led-Product-Researcher---Designer_R44891",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/London-UK---20-Birchin-Lane/Infrastructure-Production-Engineer--PA26Q2IEJH78-_R42902",
       "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Intern---Technical_R40419",
-      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/San-Francisco-CA/Software-Development-Engineer-In-Test_R43953"
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/San-Francisco-CA/Software-Development-Engineer-In-Test_R43953",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Jacksonville-FL/CPQ-Systems-Engineer_R43427",
+      "https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Ontario-Toronto/Software-Engineer-P2---PA2026Q1JB050_R42442"
     ]
   },
   {
