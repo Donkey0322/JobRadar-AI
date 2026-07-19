@@ -25,6 +25,7 @@ const identifierMap: Record<string, string> = {
   "corporate.trustpilot.com": "trustpilot",
   "c3.ai": "c3iot",
   "solarwinds.com": "solarwinds",
+  "8am.com": "affinipay1",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
