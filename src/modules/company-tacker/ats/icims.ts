@@ -10,7 +10,7 @@ import type { Job } from "@/types";
 import { isTarget } from "../utils";
 
 import { logger } from "@/utils/logger";
-import { capitalize } from "@/utils/string";
+import { capitalize, cleanText, decodeHtmlEntities } from "@/utils/string";
 
 export const IcimsJobSchema = z.object({
   title: z.string(),
@@ -30,19 +30,6 @@ function normalizeIcimsJob(job: IcimsJob, company: Company): Job {
 }
 
 const MAX_PAGES = 1;
-
-function cleanText(text: string): string {
-  return text.replace(/\s+/g, " ").trim();
-}
-
-function decodeHtmlEntities(text: string): string {
-  return text
-    .replaceAll("&amp;", "&")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#39;", "'")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">");
-}
 
 function getIcimsCompanyIdentifier(url: URL): string {
   const host = url.hostname;

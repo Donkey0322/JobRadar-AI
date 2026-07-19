@@ -6,7 +6,6 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
-import { AdobeCompany, fetchAdobe } from "./adobe";
 import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
@@ -26,8 +25,7 @@ type CustomCompanyIdentifier =
   | "apple"
   | "netflix"
   | "tiktok"
-  | "amd"
-  | "adobe";
+  | "amd";
 
 const COMPANY_MATCHERS = {
   amazon: "amazon.jobs",
@@ -38,7 +36,6 @@ const COMPANY_MATCHERS = {
   netflix: "netflix.net",
   tiktok: "tiktok.com",
   amd: "amd.com",
-  adobe: "adobe.com",
 } satisfies Record<CustomCompanyIdentifier, string>;
 
 export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
@@ -74,8 +71,6 @@ export function urlToCustomCompany(url: URL): Company {
       return TikTokCompany;
     case "amd":
       return AMDCompany;
-    case "adobe":
-      return AdobeCompany;
     default: {
       identifier satisfies null;
       return {
@@ -127,9 +122,6 @@ export async function fetchCustom(
       }
       case "amd": {
         return await fetchAMD(company, urls, signal);
-      }
-      case "adobe": {
-        return await fetchAdobe(company, urls, signal);
       }
       default:
         identifier satisfies null;

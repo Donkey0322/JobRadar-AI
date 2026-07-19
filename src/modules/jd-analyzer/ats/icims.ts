@@ -8,7 +8,7 @@ import type { JDFetchResult } from "./fetch";
 import { JD_FETCH_ERROR, JD_FETCH_OK } from "./fetch";
 
 import { logger } from "@/utils/logger";
-import { cleanText, htmlToText, normalizeRawText } from "@/utils/string";
+import { cleanText, decodeHtmlEntities, htmlToText, normalizeRawText } from "@/utils/string";
 
 const FALLBACK_JD_MAX_CHARS = 12_000;
 const MIN_JD_LENGTH = 300;
@@ -29,15 +29,6 @@ const ICIMS_JD_KEYWORDS = [
 function limitRawText(text: string, maxChars = FALLBACK_JD_MAX_CHARS): string {
   if (text.length <= maxChars) return text;
   return `${text.slice(0, maxChars)}\n\n[TRUNCATED]`;
-}
-
-function decodeHtmlEntities(text: string): string {
-  return text
-    .replaceAll("&amp;", "&")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#39;", "'")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">");
 }
 
 function getString(value: unknown): string {

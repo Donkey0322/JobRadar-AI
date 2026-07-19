@@ -20,37 +20,38 @@ export function getJobKey(url: string) {
     const ats = classifyATS(u);
 
     switch (ats) {
-      case "greenhouse":
-        return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
-
-      case "workday":
-        return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
-
       case "ashby":
         return getAshbyKey(u) ?? `ashby:${normalizeUrl(url)}`;
-
-      case "lever":
-        return getLeverKey(u) ?? `lever:${normalizeUrl(url)}`;
-
-      case "smartrecruiters":
-        return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;
-
-      case "oraclecloud":
-        return getOracleKey(u.pathname) ?? `oraclecloud:${normalizeUrl(url)}`;
-
-      case "icims":
-        return getIcimsKey(u.pathname) ?? `icims:${normalizeUrl(url)}`;
-
-      case "custom":
-        return getCustomKey(url);
 
       case "eightfold":
         return getEightfoldKey(u.pathname) ?? `eightfold:${normalizeUrl(url)}`;
 
+      case "greenhouse":
+        return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
+
+      case "icims":
+        return getIcimsKey(u.pathname) ?? `icims:${normalizeUrl(url)}`;
+
+      case "lever":
+        return getLeverKey(u) ?? `lever:${normalizeUrl(url)}`;
+
+      case "oraclecloud":
+        return getOracleKey(u.pathname) ?? `oraclecloud:${normalizeUrl(url)}`;
+
       case "phenom":
         return getPhenomKey(u.pathname) ?? `phenom:${normalizeUrl(url)}`;
 
+      case "smartrecruiters":
+        return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;
+
+      case "workday":
+        return getWorkdayKey(url) ?? `workday:${normalizeUrl(url)}`;
+
+      case "custom":
+        return getCustomKey(url);
+
       default:
+        ats satisfies never;
         return `url:${normalizeUrl(url)}`;
     }
   } catch {
@@ -92,5 +93,3 @@ export function deduplicate(urls: string[] | Set<string>) {
   const json = mapToJson(grouped);
   return Object.values(json).map((urls) => urls[0]);
 }
-
-console.log(getJobKey("https://jobs.danaher.com/job/51980?ph_id=51980"));

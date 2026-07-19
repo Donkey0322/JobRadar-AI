@@ -8,6 +8,8 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
 import { logger } from "@/utils/logger";
+import { decodeHtmlEntities } from "@/utils/string";
+import { escapeRegExp, removeTrailingSlash } from "@/utils/url";
 
 export const TRACKING_PARAM = "ph_id";
 
@@ -32,18 +34,16 @@ const PHENOM_ALL_FIELDS = [
   "jobLevel",
 ] as const;
 
-export const PhenomJobSchema = z
-  .object({
-    jobId: z.union([z.string(), z.number()]).transform(String),
-    title: z.string(),
-    postedDate: z.string(),
+export const PhenomJobSchema = z.object({
+  jobId: z.union([z.string(), z.number()]).transform(String),
+  title: z.string(),
+  postedDate: z.string(),
 
-    city: z.string().nullish(),
-    cityState: z.string().nullish(),
-    cityStateCountry: z.string().nullish(),
-    location: z.string().nullish(),
-  })
-  .passthrough();
+  city: z.string().nullish(),
+  cityState: z.string().nullish(),
+  cityStateCountry: z.string().nullish(),
+  location: z.string().nullish(),
+});
 
 export type PhenomJob = z.infer<typeof PhenomJobSchema>;
 
@@ -105,30 +105,6 @@ export async function urlToPhenomCompany(url: URL): Promise<Company | null> {
     page: url.origin,
     urls: [],
   };
-}
-
-function removeTrailingSlash(value: string): string {
-  return value.replace(/\/+$/, "");
-}
-
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function decodeHtmlEntities(value: string): string {
-  return value
-    .replaceAll("&amp;", "&")
-    .replaceAll("&quot;", '"')
-    .replaceAll("&#34;", '"')
-    .replaceAll("&#39;", "'")
-    .replaceAll("&#x27;", "'")
-    .replaceAll("&apos;", "'")
-    .replaceAll("&lt;", "<")
-    .replaceAll("&gt;", ">")
-    .replaceAll("&#x2F;", "/")
-    .replaceAll("&#47;", "/")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function isHtmlResponse(raw: string): boolean {
@@ -749,7 +725,6 @@ export async function fetchPhenom(
 
     for (let page = 0; page < MAX_PAGES; page++) {
       const rawJobs = await fetchPhenomPage(resolvedCompany, page, session, signal);
-      console.log(rawJobs.length);
       if (rawJobs.length === 0) {
         break;
       }

@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import { createSyncContext, processJobs } from "./command/sync/shared";
 
 import { logger } from "@/utils/logger";
+import { escapeRegExp } from "@/utils/url";
 
 type SubmittedJob = {
   company: string;
@@ -108,10 +109,6 @@ function isValidUrl(value: string): boolean {
   } catch {
     return false;
   }
-}
-
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 main().catch((error) => {

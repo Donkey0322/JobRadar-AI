@@ -1,6 +1,4 @@
-export function stripTrailingSlash(pathname: string): string {
-  return pathname.replace(/\/+$/, "") || "/";
-}
+import { removeTrailingSlash } from "@/utils/url";
 
 export function normalizeUrl(url: string): string {
   const u = new URL(url);
@@ -8,7 +6,7 @@ export function normalizeUrl(url: string): string {
   u.protocol = "https:";
   u.hash = "";
   u.search = "";
-  u.pathname = stripTrailingSlash(u.pathname);
+  u.pathname = removeTrailingSlash(u.pathname);
 
   return u.toString();
 }

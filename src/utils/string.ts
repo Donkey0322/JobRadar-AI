@@ -151,3 +151,26 @@ export function htmlToText(html: string): string {
   const $ = cheerio.load(html);
   return cleanText($.root().text());
 }
+
+/**
+ * Decode the HTML entities in the given value.
+ * @example
+ * ```ts
+ * decodeHtmlEntities("&amp;"); // "&"
+ * ```
+ */
+export function decodeHtmlEntities(value: string): string {
+  return value
+    .replaceAll("&amp;", "&")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#34;", '"')
+    .replaceAll("&#39;", "'")
+    .replaceAll("&#x27;", "'")
+    .replaceAll("&apos;", "'")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&#x2F;", "/")
+    .replaceAll("&#47;", "/")
+    .replace(/\s+/g, " ")
+    .trim();
+}

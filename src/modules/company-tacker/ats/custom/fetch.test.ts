@@ -10,7 +10,6 @@
 import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 
-import { AdobeCompany, AdobeJobSchema, AdobeResponseSchema } from "./adobe";
 import { AmazonCompany, AmazonResponseSchema } from "./amazon";
 import { AMDCompany, AMDResponseSchema } from "./amd";
 import { AppleCompany, parseAppleJobs } from "./apple";
@@ -296,41 +295,5 @@ describe("Meta", () => {
   );
 });
 
-// ---------------------------------------------------------------------------
-// Adobe  (auth-gated — verifies the session page loads and CSRF token is present)
-// ---------------------------------------------------------------------------
-
-describe("Adobe", () => {
-  it(
-    "careers page loads and contains CSRF token",
-    async () => {
-      const res = await fetch(AdobeCompany.page, {
-        headers: {
-          accept: "text/html,application/xhtml+xml",
-          "accept-language": "en-US,en;q=0.9",
-          "user-agent":
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
-            "(KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        },
-      });
-
-      expect(res.ok, `HTTP ${res.status}`).toBe(true);
-
-      const html = await res.text();
-      const csrfPattern =
-        /"csrfToken"\s*:\s*"([^"]+)"|csrfToken["']?\s*[:=]\s*["']([^"']+)["']|name=["']csrfToken["']\s+value=["']([^"']+)["']/;
-
-      expect(csrfPattern.test(html), "expected CSRF token to be present in page HTML").toBe(true);
-    },
-    TIMEOUT
-  );
-
-  it.todo(
-    "widgets response matches AdobeResponseSchema — needs getAdobeSession + ADOBE_WIDGETS_URL exported to replicate the authenticated POST"
-  );
-});
-
 // Suppress unused import warning — schemas are referenced in .todo descriptions
 void MetaResponseSchema;
-void AdobeJobSchema;
-void AdobeResponseSchema;
