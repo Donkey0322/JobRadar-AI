@@ -33,6 +33,16 @@
     "urls": []
   },
   {
+    "name": "8am",
+    "ats": "greenhouse",
+    "identifier": "8am",
+    "domain": "https://www.8am.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/8am/jobs",
+    "urls": [
+      "https://www.8am.com/openings/?gh_jid=4663446006"
+    ]
+  },
+  {
     "name": "aaaie",
     "ats": "workday",
     "identifier": "aaaie-csaacareers",
@@ -679,7 +689,7 @@
     "domain": "https://www.8am.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/affinipay1/jobs",
     "urls": [
-      "https://www.8am.com/openings/?gh_jid=4663446006",
+      "https://www.8am.com/openings/?gh_jid=4669789006",
       "https://www.8am.com/openings/?gh_jid=4678802006"
     ]
   },
@@ -1196,13 +1206,13 @@
       "https://amazon.jobs/en/jobs/10477970",
       "https://amazon.jobs/en/jobs/10477971",
       "https://amazon.jobs/en/jobs/10477975",
+      "https://amazon.jobs/en/jobs/10478055",
       "https://amazon.jobs/en/jobs/10478077",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10478055"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -4213,7 +4223,8 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Product-Data-Mgmt-Specialist--Data-Management---Engineering-_JR2026505081-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Software-Quality-Engineer--Associate-or-Experienced-_JR2026518965",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Support-Engineering-Data-Specialist--Associate-_JR2026517149-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Systems-Engineer--Comm---Networks-Sys-Engrg-_JR2026516739-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Systems-Engineer--Comm---Networks-Sys-Engrg-_JR2026516739-1",
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/United-States---Remote/Full-Stack-Developer--Virtual-_JR2026518215-1"
     ]
   },
   {
@@ -5621,24 +5632,24 @@
     "domain": "https://careers.cisco.com",
     "page": "https://careers.cisco.com",
     "urls": [
-      "https://careers.cisco.com/global/en/job/2014239",
-      "https://careers.cisco.com/global/en/job/2017407",
-      "https://careers.cisco.com/global/en/job/2018284",
-      "https://careers.cisco.com/global/en/job/2014499",
-      "https://careers.cisco.com/global/en/job/2018289",
-      "https://careers.cisco.com/global/en/job/2018459",
-      "https://careers.cisco.com/global/en/job/2019732",
-      "https://careers.cisco.com/global/en/job/2019934",
-      "https://careers.cisco.com/global/en/job/2014331",
-      "https://careers.cisco.com/global/en/job/2017843",
-      "https://careers.cisco.com/global/en/job/2017615",
       "https://careers.cisco.com/global/en/job/2001465",
-      "https://careers.cisco.com/global/en/job/2018025",
-      "https://careers.cisco.com/global/en/job/2018799",
-      "https://careers.cisco.com/global/en/job/2018770",
-      "https://careers.cisco.com/global/en/job/2018035",
       "https://careers.cisco.com/global/en/job/2012320",
-      "https://careers.cisco.com/global/en/job/2018322"
+      "https://careers.cisco.com/global/en/job/2014239",
+      "https://careers.cisco.com/global/en/job/2014331",
+      "https://careers.cisco.com/global/en/job/2014499",
+      "https://careers.cisco.com/global/en/job/2017407",
+      "https://careers.cisco.com/global/en/job/2017615",
+      "https://careers.cisco.com/global/en/job/2017843",
+      "https://careers.cisco.com/global/en/job/2018025",
+      "https://careers.cisco.com/global/en/job/2018035",
+      "https://careers.cisco.com/global/en/job/2018284",
+      "https://careers.cisco.com/global/en/job/2018289",
+      "https://careers.cisco.com/global/en/job/2018322",
+      "https://careers.cisco.com/global/en/job/2018459",
+      "https://careers.cisco.com/global/en/job/2018770",
+      "https://careers.cisco.com/global/en/job/2018799",
+      "https://careers.cisco.com/global/en/job/2019732",
+      "https://careers.cisco.com/global/en/job/2019934"
     ]
   },
   {
@@ -17242,7 +17253,8 @@
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/Netherlands---Geleen---Remote/Application-Specialist--Field-Service-Engineer----Industrial-Coating-Systems_REQ47353-1",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/USA---Ohio---Westlake/IT-Infrastructure-Analyst---Vulnerability-Remediation---Delivery_REQ50312",
       "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Senior-Software-Engineer_REQ50209",
-      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1"
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/United-Kingdom---Colchester/Software-Engineer_REQ50800-1",
+      "https://nordsonhcm.wd501.myworkdayjobs.com/nordsoncareers/job/India---Remote/Data-Analyst-I---AMS_REQ51922"
     ]
   },
   {
@@ -23411,9 +23423,11 @@
       "https://lifeattiktok.com/search/7475441025546471698",
       "https://lifeattiktok.com/search/7476341885049637128",
       "https://lifeattiktok.com/search/7480009640764950791",
+      "https://lifeattiktok.com/search/7481252590094256392",
       "https://lifeattiktok.com/search/7491380426595223815",
       "https://lifeattiktok.com/search/7494099763165907218",
       "https://lifeattiktok.com/search/7496149112896653575",
+      "https://lifeattiktok.com/search/7499007517596715282",
       "https://lifeattiktok.com/search/7499689149813950727",
       "https://lifeattiktok.com/search/7503406987431692562",
       "https://lifeattiktok.com/search/7508754376715258120",
@@ -23438,6 +23452,7 @@
       "https://lifeattiktok.com/search/7527618094643759367",
       "https://lifeattiktok.com/search/7527618943449909522",
       "https://lifeattiktok.com/search/7529474348652382472",
+      "https://lifeattiktok.com/search/7529793322623502600",
       "https://lifeattiktok.com/search/7529793363122702600",
       "https://lifeattiktok.com/search/7530728287904844050",
       "https://lifeattiktok.com/search/7531716084228278536",
@@ -23487,6 +23502,7 @@
       "https://lifeattiktok.com/search/7572665884037826869",
       "https://lifeattiktok.com/search/7579073228540201269",
       "https://lifeattiktok.com/search/7579588996705290549",
+      "https://lifeattiktok.com/search/7583960846620379445",
       "https://lifeattiktok.com/search/7583979424253561141",
       "https://lifeattiktok.com/search/7585263692201314613",
       "https://lifeattiktok.com/search/7585315976846543157",
@@ -23521,6 +23537,7 @@
       "https://lifeattiktok.com/search/7611013732583557381",
       "https://lifeattiktok.com/search/7613184212766607621",
       "https://lifeattiktok.com/search/7613234112058657029",
+      "https://lifeattiktok.com/search/7613653566679566645",
       "https://lifeattiktok.com/search/7615352357392697653",
       "https://lifeattiktok.com/search/7617762209711704373",
       "https://lifeattiktok.com/search/7620521322171664645",
@@ -23570,34 +23587,29 @@
       "https://lifeattiktok.com/search/7657821105365027077",
       "https://lifeattiktok.com/search/7657823445841955125",
       "https://lifeattiktok.com/search/7657889445472913669",
+      "https://lifeattiktok.com/search/7658042187573577989",
       "https://lifeattiktok.com/search/7658044127750834437",
+      "https://lifeattiktok.com/search/7658045187563276549",
       "https://lifeattiktok.com/search/7658081400071522565",
+      "https://lifeattiktok.com/search/7658083470720338181",
+      "https://lifeattiktok.com/search/7658083616001526069",
+      "https://lifeattiktok.com/search/7658085205153204485",
+      "https://lifeattiktok.com/search/7658086307298429189",
       "https://lifeattiktok.com/search/7658089229987252485",
+      "https://lifeattiktok.com/search/7658157129630517557",
       "https://lifeattiktok.com/search/7658191476207339829",
       "https://lifeattiktok.com/search/7658659496890730805",
       "https://lifeattiktok.com/search/7659284975782611253",
       "https://lifeattiktok.com/search/7659527183984019765",
       "https://lifeattiktok.com/search/7660184968461388037",
+      "https://lifeattiktok.com/search/7660769585826154805",
+      "https://lifeattiktok.com/search/7660771019354818869",
       "https://lifeattiktok.com/search/7660813794880604469",
       "https://lifeattiktok.com/search/7660826708283738421",
-      "https://lifeattiktok.com/search/7661877389786171701",
-      "https://lifeattiktok.com/search/7658045187563276549",
-      "https://lifeattiktok.com/search/7660769585826154805",
-      "https://lifeattiktok.com/search/7529793322623502600",
-      "https://lifeattiktok.com/search/7662216018282023173",
-      "https://lifeattiktok.com/search/7658086307298429189",
-      "https://lifeattiktok.com/search/7662458878210656565",
-      "https://lifeattiktok.com/search/7658083616001526069",
-      "https://lifeattiktok.com/search/7658083470720338181",
-      "https://lifeattiktok.com/search/7658157129630517557",
-      "https://lifeattiktok.com/search/7481252590094256392",
-      "https://lifeattiktok.com/search/7658042187573577989",
-      "https://lifeattiktok.com/search/7658085205153204485",
-      "https://lifeattiktok.com/search/7583960846620379445",
-      "https://lifeattiktok.com/search/7613653566679566645",
       "https://lifeattiktok.com/search/7661873663853349125",
-      "https://lifeattiktok.com/search/7660771019354818869",
-      "https://lifeattiktok.com/search/7499007517596715282"
+      "https://lifeattiktok.com/search/7661877389786171701",
+      "https://lifeattiktok.com/search/7662216018282023173",
+      "https://lifeattiktok.com/search/7662458878210656565"
     ]
   },
   {
