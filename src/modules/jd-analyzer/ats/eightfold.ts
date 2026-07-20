@@ -4,7 +4,7 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD } from "./fetch";
 
-import { urlToEightfoldCompany } from "@/modules/company-tacker/ats/eightfold";
+import { eightfoldFetcher } from "@/modules/company-tacker/ats/eightfold";
 import { getLastPathNumber } from "@/modules/job-dedup/utils";
 
 export async function fetchEightfoldJD(
@@ -12,7 +12,7 @@ export async function fetchEightfoldJD(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<JDFetchResult> {
   const u = new URL(url);
-  const company = await urlToEightfoldCompany(u);
+  const company = await eightfoldFetcher.formCompany(u);
   const domain = company.domain;
 
   const id = u.searchParams.get("pid") ?? getLastPathNumber(url);

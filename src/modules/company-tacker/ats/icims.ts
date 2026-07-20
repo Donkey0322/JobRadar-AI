@@ -1,13 +1,14 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
 import type { Job } from "@/types";
 
 import { isTarget } from "../utils";
+
+import { ATSFetcher } from "./class";
 
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/shared/ats/icims";
 import { decodeHtmlEntities } from "@/utils/html";
@@ -21,16 +22,7 @@ export const IcimsJobSchema = z.object({
   location: z.string(),
 });
 
-type IcimsJob = z.infer<typeof IcimsJobSchema>;
-
-function normalizeIcimsJob(job: IcimsJob, company: Company): Job {
-  return {
-    company: capitalize(company.name),
-    role: job.title,
-    link: job.link,
-    location: job.location,
-  };
-}
+export type IcimsJob = z.infer<typeof IcimsJobSchema>;
 
 const MAX_PAGES = 1;
 
@@ -47,29 +39,6 @@ function getIcimsCompanyIdentifier(url: URL): string {
     .replace(/\.i\.icims\.com$/, "")
     .replace(/\.icims\.com$/, "")
     .replace(/^careers-/, "");
-}
-
-export function urlToIcimsCompany(url: URL): Company {
-  const identifier = getIcimsCompanyIdentifier(url);
-
-  let page: string;
-
-  if (isIcimsUrl(url, "search")) {
-    page = normalizeIcimsUrl(url.toString(), "search");
-  } else if (url.hostname.endsWith(".icims.com") && url.hostname.startsWith("careers-")) {
-    page = `${url.origin}/jobs/search`;
-  } else {
-    page = url.toString();
-  }
-
-  return {
-    name: identifier,
-    ats: "icims",
-    identifier,
-    domain: url.origin,
-    page,
-    urls: [],
-  };
 }
 
 function getIcimsJobId(url: string): string | null {
@@ -171,48 +140,107 @@ function getIcimsJobsFromPage(html: string, pageUrl: URL): IcimsJob[] {
   return jobs;
 }
 
-export async function fetchIcims(
-  company: Company,
-  urls: Set<string>,
-  signal: AbortSignal = ABORT_SIGNAL
-): Promise<Job[]> {
-  const allJobs: Job[] = [];
+interface IcimsPageResponse {
+  html: string;
+  pageUrl: URL;
+}
 
-  // Important:
-  // Use a local Set for deduping inside this fetcher.
-  // Do not mutate the caller's urls Set, because the outer layer may use it
-  // after fetchIcims returns to decide which jobs are new.
-  const seenUrls = new Set(urls);
+export class IcimsFetcher extends ATSFetcher<IcimsJob> {
+  readonly ats = "icims" as const;
 
-  try {
-    const searchPage = await resolveSearchPage(company, signal);
+  formCompany(url: URL): Company {
+    const identifier = getIcimsCompanyIdentifier(url);
 
-    for (let page = 0; page < MAX_PAGES; page++) {
-      const pageUrl = new URL(searchPage);
+    let page: string;
 
-      pageUrl.searchParams.set("pr", String(page));
-
-      const html = await fetchHtml(pageUrl.toString(), signal);
-      if (!html) break;
-
-      const rawJobs = getIcimsJobsFromPage(html, pageUrl);
-
-      if (rawJobs.length === 0) break;
-
-      const opportunities = rawJobs
-        .filter((job) => {
-          if (!isTarget(job.title) || seenUrls.has(job.link)) return false;
-          seenUrls.add(job.link);
-          return true;
-        })
-        .map((job) => normalizeIcimsJob(job, company));
-
-      allJobs.push(...opportunities);
+    if (isIcimsUrl(url, "search")) {
+      page = normalizeIcimsUrl(url.toString(), "search");
+    } else if (url.hostname.endsWith(".icims.com") && url.hostname.startsWith("careers-")) {
+      page = `${url.origin}/jobs/search`;
+    } else {
+      page = url.toString();
     }
-  } catch {
-    logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
-    return [];
+
+    return {
+      name: identifier,
+      ats: this.ats,
+      identifier,
+      domain: url.origin,
+      page,
+      urls: [],
+    };
   }
 
-  return allJobs;
+  protected getJobsFromResponse(data: unknown): IcimsJob[] {
+    if (
+      !data ||
+      typeof data !== "object" ||
+      typeof (data as Partial<IcimsPageResponse>).html !== "string" ||
+      !((data as Partial<IcimsPageResponse>).pageUrl instanceof URL)
+    ) {
+      return [];
+    }
+
+    const { html, pageUrl } = data as IcimsPageResponse;
+    return getIcimsJobsFromPage(html, pageUrl);
+  }
+
+  protected getJobLink(job: IcimsJob, company: Company): string {
+    void company;
+    return job.link;
+  }
+
+  protected normalizeJob(job: IcimsJob, company: Company): Job {
+    return {
+      company: capitalize(company.name),
+      role: job.title,
+      link: this.getJobLink(job, company),
+      location: job.location,
+    };
+  }
+
+  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+    const allJobs: Job[] = [];
+
+    // Important:
+    // Use a local Set for deduping inside this fetcher.
+    // Do not mutate the caller's urls Set, because the outer layer may use it
+    // after fetchIcims returns to decide which jobs are new.
+    const seenUrls = new Set(urls);
+
+    try {
+      const searchPage = await resolveSearchPage(company, signal);
+
+      for (let page = 0; page < MAX_PAGES; page++) {
+        const pageUrl = new URL(searchPage);
+
+        pageUrl.searchParams.set("pr", String(page));
+
+        const html = await fetchHtml(pageUrl.toString(), signal);
+        if (!html) break;
+
+        const rawJobs = this.getJobsFromResponse({ html, pageUrl });
+
+        if (rawJobs.length === 0) break;
+
+        const opportunities = rawJobs
+          .filter((job) => {
+            const link = this.getJobLink(job, company);
+            if (!isTarget(job.title) || seenUrls.has(link)) return false;
+            seenUrls.add(link);
+            return true;
+          })
+          .map((job) => this.normalizeJob(job, company));
+
+        allJobs.push(...opportunities);
+      }
+    } catch {
+      logger.error({ url: company.page }, `${RED_CROSS} Error fetching icims jobs`);
+      return [];
+    }
+
+    return allJobs;
+  }
 }
+
+export const icimsFetcher = new IcimsFetcher();

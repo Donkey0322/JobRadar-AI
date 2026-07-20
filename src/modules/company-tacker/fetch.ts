@@ -5,18 +5,7 @@ import type { Job } from "@/types";
 
 import { getJobKey } from "../job-dedup";
 
-import { fetchEightfold } from "./ats/eightfold";
-import { fetchPhenom } from "./ats/phenom";
-import {
-  fetchAshby,
-  fetchCustom,
-  fetchGreenhouse,
-  fetchIcims,
-  fetchLever,
-  fetchOracleCloud,
-  fetchSmartRecruiters,
-  fetchWorkday,
-} from "./ats";
+import { getATSFetcher } from "./ats";
 
 import { loadCompanies } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
@@ -33,44 +22,7 @@ export async function fetchJobs(company: Company, urls: Set<string>): Promise<Jo
   const timeout = company.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
   const signal = AbortSignal.timeout(timeout);
 
-  let jobs: Job[] = [];
-
-  switch (company.ats) {
-    case "ashby":
-      jobs = await fetchAshby(company, urls, signal);
-      break;
-    case "eightfold":
-      jobs = await fetchEightfold(company, urls, signal);
-      break;
-    case "greenhouse":
-      jobs = await fetchGreenhouse(company, urls, signal);
-      break;
-    case "icims":
-      jobs = await fetchIcims(company, urls, signal);
-      break;
-    case "lever":
-      jobs = await fetchLever(company, urls, signal);
-      break;
-    case "oraclecloud":
-      jobs = await fetchOracleCloud(company, urls, signal);
-      break;
-    case "phenom":
-      jobs = await fetchPhenom(company, urls, signal);
-      break;
-    case "smartrecruiters":
-      jobs = await fetchSmartRecruiters(company, urls, signal);
-      break;
-    case "workday":
-      jobs = await fetchWorkday(company, urls, signal);
-      break;
-    case "custom":
-      jobs = await fetchCustom(company, urls, signal);
-      break;
-
-    default:
-      company.ats satisfies never;
-      return jobs;
-  }
+  const jobs = await getATSFetcher(company.ats).fetch(company, urls, signal);
 
   const urlKeys = new Set(Array.from(urls).map(getJobKey));
 

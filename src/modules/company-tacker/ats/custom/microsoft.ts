@@ -47,10 +47,7 @@ function getMicrosoftJobsFromResponse(data: unknown): MicrosoftJob[] {
   const parsed = MicrosoftResponseSchema.safeParse(data);
 
   if (!parsed.success) {
-    logger.error(
-      { data, issues: parsed.error.issues },
-      `${RED_CROSS} Invalid Microsoft response`
-    );
+    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Microsoft response`);
 
     return [];
   }
@@ -62,7 +59,7 @@ function normalizeMicrosoftJob(job: MicrosoftJob): Job {
   return {
     company: "Microsoft",
     role: job.name,
-    link: `${MICROSOFT_CAREERS_URL}/${job.positionUrl}`,
+    link: `${MICROSOFT_CAREERS_URL}${job.positionUrl.startsWith("/") ? "" : "/"}${job.positionUrl}`,
     location: job.locations?.[0] ?? "",
   };
 }

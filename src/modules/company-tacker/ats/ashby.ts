@@ -1,7 +1,6 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
 import { ASHBY_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
@@ -9,6 +8,8 @@ import type { Company } from "../type";
 import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
+
+import { ATSFetcher } from "./class";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
@@ -99,47 +100,6 @@ export function isAshbyUrl(url: URL): boolean {
   );
 }
 
-export async function urlToAshbyCompany(url: URL): Promise<Company> {
-  const host = getHostnameWithoutWww(url);
-
-  // Case 0:
-  // Known manual overrides
-  if (identifierMap[host]) {
-    return buildCompany(url, identifierMap[host]);
-  }
-
-  // Case 1:
-  // https://jobs.ashbyhq.com/semgrep
-  // https://jobs.ashbyhq.com/semgrep/embed?version=2
-  // https://jobs.ashbyhq.com/semgrep/b3d22389-...
-  if (isAshbyJobBoardHost(host)) {
-    const identifier = getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
-
-    return buildCompany(url, identifier);
-  }
-
-  // Case 2:
-  // https://api.ashbyhq.com/posting-api/job-board/semgrep
-  const directIdentifier = getAshbyIdentifierFromUrl(url);
-  if (directIdentifier) {
-    return buildCompany(url, directIdentifier);
-  }
-
-  // Case 3:
-  // https://semgrep.dev/about/careers/?ashby_jid=...
-  // Fetch page HTML and find Ashby embed script / iframe / base job board URL
-  const embeddedIdentifier = await findEmbeddedAshbyIdentifier(url);
-  if (embeddedIdentifier) {
-    return buildCompany(url, embeddedIdentifier);
-  }
-
-  // Case 4:
-  // fallback: keep old behavior, never return empty identifier
-  const identifier = getSubdomainIdentifier(url);
-
-  return buildCompany(url, identifier);
-}
-
 export const AshbyJobSchema = z.object({
   id: z.string(),
   title: z.string(),
@@ -154,71 +114,124 @@ export const AshbyResponseSchema = z.object({
   jobs: z.array(AshbyJobSchema),
 });
 
-function getAshbyJobsFromResponse(data: unknown): AshbyJob[] {
-  const parsed = AshbyResponseSchema.safeParse(data);
+export class AshbyFetcher extends ATSFetcher<AshbyJob> {
+  readonly ats = "ashby" as const;
 
-  if (!parsed.success) {
-    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Ashby response`);
+  async formCompany(url: URL): Promise<Company> {
+    const host = getHostnameWithoutWww(url);
 
-    return [];
+    // Case 0:
+    // Known manual overrides
+    if (identifierMap[host]) {
+      return buildCompany(url, identifierMap[host]);
+    }
+
+    // Case 1:
+    // https://jobs.ashbyhq.com/semgrep
+    // https://jobs.ashbyhq.com/semgrep/embed?version=2
+    // https://jobs.ashbyhq.com/semgrep/b3d22389-...
+    if (isAshbyJobBoardHost(host)) {
+      const identifier = getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
+
+      return buildCompany(url, identifier);
+    }
+
+    // Case 2:
+    // https://api.ashbyhq.com/posting-api/job-board/semgrep
+    const directIdentifier = getAshbyIdentifierFromUrl(url);
+    if (directIdentifier) {
+      return buildCompany(url, directIdentifier);
+    }
+
+    // Case 3:
+    // https://semgrep.dev/about/careers/?ashby_jid=...
+    // Fetch page HTML and find Ashby embed script / iframe / base job board URL
+    const embeddedIdentifier = await findEmbeddedAshbyIdentifier(url);
+    if (embeddedIdentifier) {
+      return buildCompany(url, embeddedIdentifier);
+    }
+
+    // Case 4:
+    // fallback: keep old behavior, never return empty identifier
+    const identifier = getSubdomainIdentifier(url);
+
+    return buildCompany(url, identifier);
   }
 
-  return parsed.data.jobs;
-}
+  protected getJobsFromResponse(data: unknown): AshbyJob[] {
+    const parsed = AshbyResponseSchema.safeParse(data);
 
-function normalizeAshbyJob(job: AshbyJob, companyName: string): Job {
-  return {
-    company: capitalize(companyName),
-    role: job.title,
-    link: job.jobUrl,
-    location: job.location ?? "",
-  };
-}
+    if (!parsed.success) {
+      logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Ashby response`);
 
-export async function fetchAshby(
-  company: Company,
-  urls: Set<string>,
-  signal: AbortSignal = ABORT_SIGNAL
-) {
-  try {
-    const res = await fetch(company.page, {
-      signal,
-    });
-
-    if (!res.ok) {
-      await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
       return [];
     }
 
-    const rawJobs = getAshbyJobsFromResponse(await res.json());
+    return parsed.data.jobs;
+  }
 
-    const opportunities = rawJobs
-      .filter((job) => isTarget(job.title) && !urls.has(job.jobUrl) && withinDays(job.publishedAt))
-      .map((job) => normalizeAshbyJob(job, company.name));
+  protected getJobLink(job: AshbyJob, _company: Company): string {
+    void _company;
+    return job.jobUrl;
+  }
 
-    return opportunities;
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      logger.warn(
+  protected normalizeJob(job: AshbyJob, company: Company): Job {
+    return {
+      company: capitalize(company.name),
+      role: job.title,
+      link: this.getJobLink(job, company),
+      location: job.location ?? "",
+    };
+  }
+
+  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+    try {
+      const res = await fetch(company.page, {
+        signal,
+      });
+
+      if (!res.ok) {
+        await appendErrorLog(`Ashby: ${company.name} - ${res.status} - ${res.statusText}`);
+        return [];
+      }
+
+      const rawJobs = this.getJobsFromResponse(await res.json());
+
+      const opportunities = rawJobs
+        .filter(
+          (job) =>
+            isTarget(job.title) &&
+            !urls.has(this.getJobLink(job, company)) &&
+            withinDays(job.publishedAt)
+        )
+        .map((job) => this.normalizeJob(job, company));
+
+      return opportunities;
+    } catch (error) {
+      if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+        logger.warn(
+          {
+            company: company.name,
+            url: company.page,
+          },
+          "⚠️ Ashby request aborted"
+        );
+
+        return [];
+      }
+
+      logger.error(
         {
+          error,
           company: company.name,
           url: company.page,
         },
-        "⚠️ Ashby request aborted"
+        `${RED_CROSS} Error fetching ashby jobs`
       );
 
       return [];
     }
-
-    logger.error(
-      {
-        error,
-        company: company.name,
-        url: company.page,
-      },
-      `${RED_CROSS} Error fetching ashby jobs`
-    );
-
-    return [];
   }
 }
+
+export const ashbyFetcher = new AshbyFetcher();

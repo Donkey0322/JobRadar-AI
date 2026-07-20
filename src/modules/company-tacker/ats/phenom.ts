@@ -1,11 +1,11 @@
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "../type";
 import type { Job } from "@/types";
 
+import { ATSFetcher } from "@/modules/company-tacker/ats/class";
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
@@ -94,17 +94,6 @@ export async function isPhenomUrl(rawUrl: string): Promise<boolean> {
   } catch {
     return false;
   }
-}
-
-export async function urlToPhenomCompany(url: URL): Promise<Company | null> {
-  return {
-    name: url.hostname,
-    ats: "phenom",
-    identifier: url.hostname,
-    domain: url.origin,
-    page: url.origin,
-    urls: [],
-  };
 }
 
 function getLocaleBaseUrl(rawUrl: string): string | null {
@@ -567,29 +556,11 @@ function createPhenomRequestBody(page: number) {
   };
 }
 
-function getJobsFromPhenomResponse(data: unknown, company: Company): PhenomJob[] {
-  const parsed = PhenomResponseSchema.safeParse(data);
-
-  if (!parsed.success) {
-    logger.error(
-      {
-        company: company.name,
-        issues: parsed.error.issues,
-      },
-      `${RED_CROSS} Invalid Phenom response`
-    );
-
-    return [];
-  }
-
-  return parsed.data.refineSearch.data.jobs;
-}
-
 async function fetchPhenomPage(
-  company: Company,
   page: number,
   session: PhenomSession,
-  signal: AbortSignal
+  signal: AbortSignal,
+  getJobsFromResponse: (data: unknown) => PhenomJob[]
 ): Promise<PhenomJob[]> {
   const response = await fetch(session.widgetsUrl, {
     method: "POST",
@@ -633,94 +604,130 @@ async function fetchPhenomPage(
     );
   }
 
-  return getJobsFromPhenomResponse(data, company);
-}
-
-function getPhenomJobLink(session: PhenomSession, job: PhenomJob): string {
-  return `${session.baseUrl}/job/${job.jobId}?${TRACKING_PARAM}=${job.jobId}`;
+  return getJobsFromResponse(data);
 }
 
 function getPhenomJobLocation(job: PhenomJob): string {
   return job.location ?? job.cityStateCountry ?? job.cityState ?? job.city ?? "";
 }
 
-function normalizePhenomJob(company: Company, job: PhenomJob, link: string): Job {
-  return {
-    company: company.name,
-    role: job.title,
-    link,
-    location: getPhenomJobLocation(job),
-  };
-}
+export class PhenomFetcher extends ATSFetcher<PhenomJob> {
+  readonly ats = "phenom" as const;
 
-export async function fetchPhenom(
-  company: Company,
-  urls: Set<string>,
-  signal: AbortSignal = ABORT_SIGNAL
-): Promise<Job[]> {
-  try {
-    const session = await getPhenomSession(company.page, signal);
-
-    const resolvedCompany: Company = {
-      ...company,
-      name: session.companyName ?? company.name,
-      domain: new URL(session.baseUrl).origin,
-      page: session.baseUrl,
+  async formCompany(url: URL): Promise<Company | null> {
+    return {
+      name: url.hostname,
+      ats: this.ats,
+      identifier: url.hostname,
+      domain: url.origin,
+      page: url.origin,
+      urls: [],
     };
+  }
 
-    logger.debug(
-      {
-        company: resolvedCompany.name,
-        originalCompany: company.name,
-        requestedUrl: company.page,
-        pageUrl: session.pageUrl,
-        baseUrl: session.baseUrl,
-        widgetsUrl: session.widgetsUrl,
-      },
-      "Resolved Phenom company"
-    );
+  protected getJobsFromResponse(data: unknown, company?: Company): PhenomJob[] {
+    const parsed = PhenomResponseSchema.safeParse(data);
 
-    const jobs: Job[] = [];
+    if (!parsed.success) {
+      logger.error(
+        {
+          company: company?.name,
+          issues: parsed.error.issues,
+        },
+        `${RED_CROSS} Invalid Phenom response`
+      );
 
-    for (let page = 0; page < MAX_PAGES; page++) {
-      const rawJobs = await fetchPhenomPage(resolvedCompany, page, session, signal);
-      if (rawJobs.length === 0) {
-        break;
-      }
+      return [];
+    }
 
-      let reachedOldJob = false;
+    return parsed.data.refineSearch.data.jobs;
+  }
 
-      for (const rawJob of rawJobs) {
-        if (!withinDays(rawJob.postedDate, RECENT_DAYS)) {
-          reachedOldJob = true;
+  protected getJobLink(job: PhenomJob, company: Company): string {
+    return `${removeTrailingSlash(company.page)}/job/${job.jobId}?${TRACKING_PARAM}=${job.jobId}`;
+  }
+
+  protected normalizeJob(job: PhenomJob, company: Company): Job {
+    return {
+      company: company.name,
+      role: job.title,
+      link: this.getJobLink(job, company),
+      location: getPhenomJobLocation(job),
+    };
+  }
+
+  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+    try {
+      const session = await getPhenomSession(company.page, signal);
+
+      const resolvedCompany: Company = {
+        ...company,
+        name: session.companyName ?? company.name,
+        domain: new URL(session.baseUrl).origin,
+        page: session.baseUrl,
+      };
+
+      logger.debug(
+        {
+          company: resolvedCompany.name,
+          originalCompany: company.name,
+          requestedUrl: company.page,
+          pageUrl: session.pageUrl,
+          baseUrl: session.baseUrl,
+          widgetsUrl: session.widgetsUrl,
+        },
+        "Resolved Phenom company"
+      );
+
+      const jobs: Job[] = [];
+
+      for (let page = 0; page < MAX_PAGES; page++) {
+        const rawJobs = await fetchPhenomPage(
+          page,
+          session,
+          signal,
+          (data) => this.getJobsFromResponse(data, resolvedCompany)
+        );
+        if (rawJobs.length === 0) {
           break;
         }
 
-        const link = getPhenomJobLink(session, rawJob);
+        let reachedOldJob = false;
 
-        if (!isTarget(rawJob.title) || urls.has(link)) {
-          continue;
+        for (const rawJob of rawJobs) {
+          if (!withinDays(rawJob.postedDate, RECENT_DAYS)) {
+            reachedOldJob = true;
+            break;
+          }
+
+          const link = this.getJobLink(rawJob, resolvedCompany);
+
+          if (!isTarget(rawJob.title) || urls.has(link)) {
+            continue;
+          }
+
+          jobs.push(this.normalizeJob(rawJob, resolvedCompany));
         }
 
-        jobs.push(normalizePhenomJob(resolvedCompany, rawJob, link));
+        if (reachedOldJob || rawJobs.length < PAGE_SIZE) {
+          break;
+        }
       }
 
-      if (reachedOldJob || rawJobs.length < PAGE_SIZE) {
-        break;
-      }
+      return jobs;
+    } catch (error) {
+      logger.error(
+        {
+          err: isAbortError(error) ? error.name : error,
+          company: company.name,
+          url: company.page,
+        },
+        `${RED_CROSS} Error fetching Phenom jobs`
+      );
+
+      return [];
     }
-
-    return jobs;
-  } catch (error) {
-    logger.error(
-      {
-        err: isAbortError(error) ? error.name : error,
-        company: company.name,
-        url: company.page,
-      },
-      `${RED_CROSS} Error fetching Phenom jobs`
-    );
-
-    return [];
   }
 }
+
+export const phenomFetcher = new PhenomFetcher();

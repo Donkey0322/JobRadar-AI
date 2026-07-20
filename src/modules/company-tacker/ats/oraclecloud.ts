@@ -7,6 +7,8 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
 
+import { ATSFetcher } from "./class";
+
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
@@ -18,7 +20,7 @@ export const OracleCloudJobSchema = z.object({
   PrimaryLocation: z.string().optional(),
 });
 
-type OracleCloudJob = z.infer<typeof OracleCloudJobSchema>;
+export type OracleCloudJob = z.infer<typeof OracleCloudJobSchema>;
 
 export const OracleCloudResponseSchema = z.object({
   items: z.array(
@@ -27,30 +29,6 @@ export const OracleCloudResponseSchema = z.object({
     })
   ),
 });
-
-function getOracleCloudJobsFromResponse(data: unknown): OracleCloudJob[] {
-  const parsed = OracleCloudResponseSchema.safeParse(data);
-
-  if (!parsed.success) {
-    logger.error(
-      { data, issues: parsed.error.issues },
-      `${RED_CROSS} Invalid Oracle Cloud response`
-    );
-
-    return [];
-  }
-
-  return parsed.data.items[0]?.requisitionList ?? [];
-}
-
-function normalizeOracleCloudJob(job: OracleCloudJob, company: Company): Job {
-  return {
-    company: capitalize(company.name),
-    role: job.Title,
-    link: composeUrl(company, job.Id),
-    location: job.PrimaryLocation ?? "",
-  };
-}
 
 const identifierMap: Record<string, string> = {
   "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com": "Chubb",
@@ -103,87 +81,121 @@ export async function getSiteSettings(url: URL) {
   }
 }
 
-export async function urlToOracleCloudCompany(url: URL): Promise<Company> {
-  const { companyName, siteNumber } = await getSiteSettings(url);
-  const identifier = url.hostname.replace("www.", "");
-
-  const parts = url.pathname.split("/");
-  parts.pop();
-  const path = parts.join("/");
-
-  const page = new URL(`${url.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitions`);
-
-  page.searchParams.set("onlyData", "true");
-
-  page.searchParams.set(
-    "finder",
-    [`findReqs;siteNumber=${siteNumber}`, "limit=25", "sortBy=POSTING_DATES_DESC"].join(",")
-  );
-
-  page.searchParams.set(
-    "expand",
-    ["requisitionList.secondaryLocations", "requisitionList.otherWorkLocations"].join(",")
-  );
-
-  return {
-    name: companyName,
-    ats: "oraclecloud",
-    identifier,
-    domain: url.origin + path,
-    page: page.href,
-    urls: [],
-  };
-}
-
 const composeUrl = (company: Company, id: string) => {
   return `${company.domain}/${id}`;
 };
 
-export async function fetchOracleCloud(company: Company, urls: Set<string>, signal: AbortSignal) {
-  try {
-    const res = await fetch(company.page, {
-      signal,
-    });
+export class OracleCloudFetcher extends ATSFetcher<OracleCloudJob> {
+  readonly ats = "oraclecloud" as const;
 
-    if (!res.ok) {
-      await appendErrorLog(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
-      return [];
-    }
+  async formCompany(url: URL): Promise<Company> {
+    const { companyName, siteNumber } = await getSiteSettings(url);
+    const identifier = url.hostname.replace("www.", "");
 
-    const rawJobs = getOracleCloudJobsFromResponse(await res.json());
+    const parts = url.pathname.split("/");
+    parts.pop();
+    const path = parts.join("/");
 
-    const opportunities = rawJobs
-      .filter(
-        (job) =>
-          isTarget(job.Title) &&
-          !urls.has(composeUrl(company, job.Id)) &&
-          withinDays(job.PostedDate)
-      )
-      .map((job) => normalizeOracleCloudJob(job, company));
+    const page = new URL(`${url.origin}/hcmRestApi/resources/latest/recruitingCEJobRequisitions`);
 
-    return opportunities;
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      logger.warn(
-        {
-          company: company.name,
-          url: company.page,
-        },
-        "⚠️ Oracle Cloud request aborted"
+    page.searchParams.set("onlyData", "true");
+
+    page.searchParams.set(
+      "finder",
+      [`findReqs;siteNumber=${siteNumber}`, "limit=25", "sortBy=POSTING_DATES_DESC"].join(",")
+    );
+
+    page.searchParams.set(
+      "expand",
+      ["requisitionList.secondaryLocations", "requisitionList.otherWorkLocations"].join(",")
+    );
+
+    return {
+      name: companyName,
+      ats: this.ats,
+      identifier,
+      domain: url.origin + path,
+      page: page.href,
+      urls: [],
+    };
+  }
+
+  protected getJobsFromResponse(data: unknown): OracleCloudJob[] {
+    const parsed = OracleCloudResponseSchema.safeParse(data);
+
+    if (!parsed.success) {
+      logger.error(
+        { data, issues: parsed.error.issues },
+        `${RED_CROSS} Invalid Oracle Cloud response`
       );
 
       return [];
     }
 
-    logger.error(
-      {
-        error,
-        company: company.name,
-        url: company.page,
-      },
-      `${RED_CROSS} Error fetching oracle cloud jobs`
-    );
+    return parsed.data.items[0]?.requisitionList ?? [];
+  }
 
-    return [];
+  protected getJobLink(job: OracleCloudJob, company: Company): string {
+    return composeUrl(company, job.Id);
+  }
+
+  protected normalizeJob(job: OracleCloudJob, company: Company): Job {
+    return {
+      company: capitalize(company.name),
+      role: job.Title,
+      link: this.getJobLink(job, company),
+      location: job.PrimaryLocation ?? "",
+    };
+  }
+
+  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+    try {
+      const res = await fetch(company.page, {
+        signal,
+      });
+
+      if (!res.ok) {
+        await appendErrorLog(`Oracle Cloud: ${company.name} - ${res.status} - ${res.statusText}`);
+        return [];
+      }
+
+      const rawJobs = this.getJobsFromResponse(await res.json());
+
+      const opportunities = rawJobs
+        .filter(
+          (job) =>
+            isTarget(job.Title) &&
+            !urls.has(this.getJobLink(job, company)) &&
+            withinDays(job.PostedDate)
+        )
+        .map((job) => this.normalizeJob(job, company));
+
+      return opportunities;
+    } catch (error) {
+      if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+        logger.warn(
+          {
+            company: company.name,
+            url: company.page,
+          },
+          "⚠️ Oracle Cloud request aborted"
+        );
+
+        return [];
+      }
+
+      logger.error(
+        {
+          error,
+          company: company.name,
+          url: company.page,
+        },
+        `${RED_CROSS} Error fetching oracle cloud jobs`
+      );
+
+      return [];
+    }
   }
 }
+
+export const oracleCloudFetcher = new OracleCloudFetcher();

@@ -3,17 +3,7 @@ import { URL } from "url";
 
 import type { Company } from "./type";
 
-import { urlToAshbyCompany } from "./ats/ashby";
-import { urlToCustomCompany } from "./ats/custom";
-import { urlToEightfoldCompany } from "./ats/eightfold";
-import { urlToGreenhouseCompany } from "./ats/greenhouse";
-import { urlToIcimsCompany } from "./ats/icims";
-import { urlToLeverCompany } from "./ats/lever";
-import { urlToOracleCloudCompany } from "./ats/oraclecloud";
-import { urlToPhenomCompany } from "./ats/phenom";
-import { urlToSmartRecruitersCompany } from "./ats/smart";
-import { urlToWorkdayCompany } from "./ats/workday";
-import { classifyATS } from "./ats";
+import { classifyATS, getATSFetcher } from "./ats";
 
 import { loadCompanies, saveCompanies } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
@@ -26,31 +16,7 @@ async function extractCompany(urlStr: string): Promise<Company | null> {
     const url = new URL(urlStr);
     const ats = classifyATS(url);
 
-    switch (ats) {
-      case "ashby":
-        return await urlToAshbyCompany(url);
-      case "eightfold":
-        return urlToEightfoldCompany(url);
-      case "greenhouse":
-        return await urlToGreenhouseCompany(url);
-      case "icims":
-        return urlToIcimsCompany(url);
-      case "lever":
-        return urlToLeverCompany(url);
-      case "oraclecloud":
-        return await urlToOracleCloudCompany(url);
-      case "phenom":
-        return urlToPhenomCompany(url);
-      case "smartrecruiters":
-        return urlToSmartRecruitersCompany(url);
-      case "workday":
-        return urlToWorkdayCompany(url);
-      case "custom":
-        return urlToCustomCompany(url);
-      default:
-        ats satisfies never;
-        return null;
-    }
+    return await getATSFetcher(ats).formCompany(url);
   } catch (err) {
     logger.warn(
       {

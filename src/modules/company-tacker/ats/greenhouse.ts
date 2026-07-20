@@ -1,7 +1,6 @@
 import * as cheerio from "cheerio";
 import z from "zod";
 
-import { ABORT_SIGNAL } from "@/constants";
 import { GREENHOUSE_API_URL } from "@/constants/ats";
 import { RED_CROSS } from "@/constants/log";
 
@@ -9,6 +8,8 @@ import type { Company } from "../type";
 import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../utils";
+
+import { ATSFetcher } from "./class";
 
 import { appendErrorLog } from "@/utils/data";
 import { logger } from "@/utils/logger";
@@ -26,6 +27,9 @@ const identifierMap: Record<string, string> = {
   "c3.ai": "c3iot",
   "solarwinds.com": "solarwinds",
   "8am.com": "affinipay1",
+  "cra.com": "charlesriveranalytics90",
+  "precisely.com": "preciselyusjobs",
+  "tower-research.com": "towerresearchcapital",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
@@ -40,130 +44,6 @@ function isGreenhouseJobBoardHost(host: string) {
   );
 }
 
-function buildCompany(url: URL, identifier: string): Company {
-  return {
-    name: identifier,
-    ats: "greenhouse",
-    identifier,
-    domain: url.origin,
-    page: `${GREENHOUSE_API_URL}/${identifier}/jobs`,
-    urls: [],
-  };
-}
-
-async function findEmbeddedGreenhouseIdentifier(url: URL): Promise<string | null> {
-  try {
-    const res = await fetch(url.href, {
-      headers: {
-        "user-agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36",
-      },
-    });
-
-    if (!res.ok) {
-      return null;
-    }
-
-    const html = await res.text();
-    const $ = cheerio.load(html);
-
-    const embedSrc = $("script[src*='greenhouse.io'], iframe[src*='greenhouse.io']")
-      .first()
-      .attr("src");
-
-    if (embedSrc) {
-      const embedUrl = new URL(embedSrc, url.href);
-      const identifier = embedUrl.searchParams.get("for");
-
-      if (identifier) {
-        return identifier;
-      }
-
-      const parts = embedUrl.pathname.split("/").filter(Boolean);
-
-      if (
-        isGreenhouseJobBoardHost(getHostnameWithoutWww(embedUrl)) &&
-        parts[0] &&
-        parts[0] !== "embed"
-      ) {
-        return parts[0];
-      }
-    }
-
-    const match = html.match(
-      /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
-    );
-
-    return match?.[1] ?? null;
-  } catch {
-    return null;
-  }
-}
-
-export async function urlToGreenhouseCompany(url: URL): Promise<Company> {
-  const parts = url.pathname.split("/").filter(Boolean);
-  const host = getHostnameWithoutWww(url);
-
-  // Case 0:
-  if (identifierMap[host as keyof typeof identifierMap]) {
-    return buildCompany(url, identifierMap[host]);
-  }
-
-  // Case 1:
-  // https://boards.greenhouse.io/embed/job_board?for=xxx
-  // https://boards.greenhouse.io/embed/job_board/js?for=xxx
-  // https://boards.eu.greenhouse.io/embed/job_board?for=xxx
-  // https://boards.greenhouse.io/embed/job_app?token=xxx
-  if (isGreenhouseJobBoardHost(host) && parts[0] === "embed") {
-    let identifier = url.searchParams.get("for");
-
-    if (!identifier && parts[1] === "job_app") {
-      try {
-        const res = await fetch(url.href);
-        identifier = new URL(res.url).searchParams.get("for") ?? null;
-      } catch {
-        identifier = null;
-      }
-    }
-
-    return buildCompany(url, identifier || getSubdomainIdentifier(url));
-  }
-
-  // Case 2:
-  // https://job-boards.greenhouse.io/acluinternships/jobs/8425459002
-  // https://job-boards.eu.greenhouse.io/imc/jobs/4580809101
-  // https://boards.greenhouse.io/acluinternships
-  if (isGreenhouseJobBoardHost(host)) {
-    const identifier = parts[0] || getSubdomainIdentifier(url);
-
-    return buildCompany(url, identifier);
-  }
-
-  // Case 3:
-  // https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002
-  if (host === "app.careerpuck.com") {
-    const jobBoardIndex = parts.indexOf("job-board");
-    const companySlug = parts[jobBoardIndex + 1];
-
-    if (companySlug) {
-      return buildCompany(url, identifierMap[companySlug] || companySlug);
-    }
-  }
-
-  // Case 4:
-  // https://www.acadian-asset.com/careers/open-positions?gh_jid=4645552006
-  const embeddedIdentifier = await findEmbeddedGreenhouseIdentifier(url);
-  if (embeddedIdentifier) {
-    return buildCompany(url, embeddedIdentifier);
-  }
-
-  // Case 5:
-  // fallback: keep old behavior, never return empty identifier
-  const identifier = getSubdomainIdentifier(url);
-
-  return buildCompany(url, identifier);
-}
-
 export const GreenhouseJobSchema = z.object({
   company_name: z.string().optional(),
   title: z.string(),
@@ -173,86 +53,207 @@ export const GreenhouseJobSchema = z.object({
   location: z.object({ name: z.string() }).optional(),
 });
 
-type GreenhouseJob = z.infer<typeof GreenhouseJobSchema>;
+export type GreenhouseJob = z.infer<typeof GreenhouseJobSchema>;
 
 export const GreenhouseResponseSchema = z.object({
   jobs: z.array(GreenhouseJobSchema),
 });
 
-function getGreenhouseJobsFromResponse(data: unknown): GreenhouseJob[] {
-  const parsed = GreenhouseResponseSchema.safeParse(data);
+export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
+  readonly ats = "greenhouse" as const;
 
-  if (!parsed.success) {
-    logger.error({ data, issues: parsed.error.issues }, `${RED_CROSS} Invalid Greenhouse response`);
+  async formCompany(url: URL): Promise<Company> {
+    const parts = url.pathname.split("/").filter(Boolean);
+    const host = getHostnameWithoutWww(url);
 
-    return [];
+    // Case 0:
+    if (identifierMap[host]) {
+      return this.buildCompany(url, identifierMap[host]);
+    }
+
+    // Case 1:
+    // https://boards.greenhouse.io/embed/job_board?for=xxx
+    // https://boards.greenhouse.io/embed/job_board/js?for=xxx
+    // https://boards.eu.greenhouse.io/embed/job_board?for=xxx
+    // https://boards.greenhouse.io/embed/job_app?token=xxx
+    if (isGreenhouseJobBoardHost(host) && parts[0] === "embed") {
+      let identifier = url.searchParams.get("for");
+
+      if (!identifier && parts[1] === "job_app") {
+        try {
+          const response = await fetch(url.href);
+          identifier = new URL(response.url).searchParams.get("for") ?? null;
+        } catch {
+          identifier = null;
+        }
+      }
+
+      return this.buildCompany(url, identifier || getSubdomainIdentifier(url));
+    }
+
+    // Case 2:
+    // https://job-boards.greenhouse.io/acluinternships/jobs/8425459002
+    // https://job-boards.eu.greenhouse.io/imc/jobs/4580809101
+    // https://boards.greenhouse.io/acluinternships
+    if (isGreenhouseJobBoardHost(host)) {
+      return this.buildCompany(url, parts[0] || getSubdomainIdentifier(url));
+    }
+
+    // Case 3:
+    // https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002
+    if (host === "app.careerpuck.com") {
+      const jobBoardIndex = parts.indexOf("job-board");
+      const companySlug = parts[jobBoardIndex + 1];
+
+      if (companySlug) {
+        return this.buildCompany(url, identifierMap[companySlug] || companySlug);
+      }
+    }
+
+    // Case 4:
+    // https://www.acadian-asset.com/careers/open-positions?gh_jid=4645552006
+    const embeddedIdentifier = await this.findEmbeddedIdentifier(url);
+    if (embeddedIdentifier) {
+      return this.buildCompany(url, embeddedIdentifier);
+    }
+
+    // Case 5:
+    // fallback: keep old behavior, never return empty identifier
+    const identifier = getSubdomainIdentifier(url);
+
+    return this.buildCompany(url, identifier);
   }
 
-  return parsed.data.jobs;
-}
+  protected getJobsFromResponse(data: unknown): GreenhouseJob[] {
+    const parsed = GreenhouseResponseSchema.safeParse(data);
 
-function normalizeGreenhouseJob(job: GreenhouseJob, companyName: string): Job {
-  return {
-    company: job.company_name || companyName,
-    role: job.title,
-    link: job.absolute_url,
-    location: job.location?.name ?? "",
-  };
-}
-
-export async function fetchGreenhouse(
-  company: Company,
-  urls: Set<string>,
-  signal: AbortSignal = ABORT_SIGNAL
-) {
-  try {
-    const res = await fetch(company.page, {
-      signal,
-    });
-
-    if (!res.ok) {
-      await appendErrorLog(`Greenhouse: ${company.name} - ${res.status} - ${res.statusText}`);
-
+    if (!parsed.success) {
+      logger.error(
+        { data, issues: parsed.error.issues },
+        `${RED_CROSS} Invalid Greenhouse response`
+      );
       return [];
     }
 
-    const rawJobs = getGreenhouseJobsFromResponse(await res.json());
+    return parsed.data.jobs;
+  }
 
-    const opportunities = rawJobs
-      .filter(
-        (job) =>
-          isTarget(job.title) &&
-          !urls.has(job.absolute_url) &&
-          (withinDays(job.first_published) || withinDays(job.updated_at))
-      )
-      .map((job) => normalizeGreenhouseJob(job, company.name));
+  protected getJobLink(job: GreenhouseJob, _company: Company): string {
+    void _company;
+    return job.absolute_url;
+  }
 
-    return opportunities;
-  } catch (error) {
-    if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
-      logger.warn(
+  protected normalizeJob(job: GreenhouseJob, company: Company): Job {
+    return {
+      company: job.company_name || company.name,
+      role: job.title,
+      link: this.getJobLink(job, company),
+      location: job.location?.name ?? "",
+    };
+  }
+
+  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+    try {
+      const response = await fetch(company.page, { signal });
+
+      if (!response.ok) {
+        await appendErrorLog(
+          `Greenhouse: ${company.name} - ${response.status} - ${response.statusText}`
+        );
+        return [];
+      }
+
+      return this.getJobsFromResponse(await response.json())
+        .filter((job) => {
+          const link = this.getJobLink(job, company);
+          return (
+            isTarget(job.title) &&
+            !urls.has(link) &&
+            (withinDays(job.first_published) || withinDays(job.updated_at))
+          );
+        })
+        .map((job) => this.normalizeJob(job, company));
+    } catch (error) {
+      if (
+        error instanceof Error &&
+        (error.name === "TimeoutError" || error.name === "AbortError")
+      ) {
+        logger.warn(
+          {
+            company: company.name,
+            url: company.page,
+          },
+          "⚠️ Greenhouse request aborted"
+        );
+        return [];
+      }
+
+      logger.error(
         {
+          error,
           company: company.name,
           url: company.page,
         },
-        "⚠️ Greenhouse request aborted"
+        `${RED_CROSS} Error fetching greenhouse jobs`
       );
-
       return [];
     }
+  }
 
-    logger.error(
-      {
-        error,
-        company: company.name,
-        url: company.page,
-      },
-      `${RED_CROSS} Error fetching greenhouse jobs`
-    );
+  private buildCompany(url: URL, identifier: string): Company {
+    return {
+      name: identifier,
+      ats: this.ats,
+      identifier,
+      domain: url.origin,
+      page: `${GREENHOUSE_API_URL}/${identifier}/jobs`,
+      urls: [],
+    };
+  }
 
-    return [];
+  private async findEmbeddedIdentifier(url: URL): Promise<string | null> {
+    try {
+      const response = await fetch(url.href, {
+        headers: {
+          "user-agent":
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+        },
+      });
+
+      if (!response.ok) return null;
+
+      const html = await response.text();
+      const $ = cheerio.load(html);
+      const embedSrc = $("script[src*='greenhouse.io'], iframe[src*='greenhouse.io']")
+        .first()
+        .attr("src");
+
+      if (embedSrc) {
+        const embedUrl = new URL(embedSrc, url.href);
+        const identifier = embedUrl.searchParams.get("for");
+        if (identifier) return identifier;
+
+        const parts = embedUrl.pathname.split("/").filter(Boolean);
+        if (
+          isGreenhouseJobBoardHost(getHostnameWithoutWww(embedUrl)) &&
+          parts[0] &&
+          parts[0] !== "embed"
+        ) {
+          return parts[0];
+        }
+      }
+
+      const match = html.match(
+        /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
+      );
+      return match?.[1] ?? null;
+    } catch {
+      return null;
+    }
   }
 }
+
+export const greenhouseFetcher = new GreenhouseFetcher();
 
 /**
  * {

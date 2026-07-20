@@ -4,11 +4,11 @@ import type { JDFetchResult } from "./fetch";
 
 import { fetchJD, JD_FETCH_ERROR } from "./fetch";
 
-import { type AshbyJob, urlToAshbyCompany } from "@/modules/company-tacker/ats/ashby";
+import { ashbyFetcher, type AshbyJob } from "@/modules/company-tacker/ats/ashby";
 
 export async function fetchAshbyJD(url: string, signal: AbortSignal): Promise<JDFetchResult> {
   const u = new URL(url);
-  const { identifier } = await urlToAshbyCompany(new URL(url));
+  const { identifier } = await ashbyFetcher.formCompany(new URL(url));
   const id = u.pathname.split("/")[2];
 
   if (!identifier || !id) {
