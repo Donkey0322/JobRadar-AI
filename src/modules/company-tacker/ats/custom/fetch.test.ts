@@ -17,7 +17,6 @@ import { AMDCompany, AMDResponseSchema } from "./amd";
 import { AppleCompany, parseAppleJobs } from "./apple";
 import { GoogleCompany, GoogleJobSchema } from "./google";
 import { MetaCompany, MetaResponseSchema } from "./meta";
-import { MicrosoftCompany, MicrosoftResponseSchema } from "./microsoft";
 import { NetflixCompany, NetflixResponseSchema } from "./netflix";
 import { TikTokCompany, TikTokResponseSchema } from "./tiktok";
 
@@ -84,29 +83,6 @@ describe("Netflix", () => {
       expect(data.positions.length, "expected at least one position in response").toBeGreaterThan(
         0
       );
-    },
-    TIMEOUT
-  );
-});
-
-// ---------------------------------------------------------------------------
-// Microsoft
-// ---------------------------------------------------------------------------
-
-describe("Microsoft", () => {
-  it(
-    "response matches MicrosoftResponseSchema",
-    async () => {
-      const url = new URL(MicrosoftCompany.page);
-      url.searchParams.set("start", "0");
-      url.searchParams.set("sort_by", "timestamp");
-
-      const data = await fetchJsonContract(url, MicrosoftResponseSchema);
-
-      expect(
-        data.data?.positions?.length ?? 0,
-        "expected at least one position in response"
-      ).toBeGreaterThan(0);
     },
     TIMEOUT
   );

@@ -1,4 +1,4 @@
-// Amazon, Microsoft, Google, Apple, Meta, TikTok, Uber
+// Amazon, Google, Apple, Meta, TikTok, Uber
 
 import { RED_CROSS } from "@/constants/log";
 
@@ -12,7 +12,6 @@ import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
 import { fetchGoogle, GoogleCompany } from "./google";
 import { fetchMeta, MetaCompany } from "./meta";
-import { fetchMicrosoft, MicrosoftCompany } from "./microsoft";
 import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
@@ -20,7 +19,6 @@ import { logger } from "@/utils/logger";
 
 type CustomCompanyIdentifier =
   | "amazon"
-  | "microsoft"
   | "google"
   | "meta"
   | "apple"
@@ -30,7 +28,6 @@ type CustomCompanyIdentifier =
 
 export const CUSTOM_COMPANY_DOMAINS = {
   amazon: "amazon.jobs",
-  microsoft: "microsoft.com",
   google: "google.com",
   meta: "metacareers.com",
   apple: "jobs.apple.com",
@@ -61,8 +58,6 @@ export class CustomFetcher extends ATSFetcher<Job> {
     switch (identifier) {
       case "amazon":
         return AmazonCompany;
-      case "microsoft":
-        return MicrosoftCompany;
       case "google":
         return GoogleCompany;
       case "meta":
@@ -125,9 +120,6 @@ export class CustomFetcher extends ATSFetcher<Job> {
       const identifier = parseCustomCompanyIdentifier(new URL(company.page));
 
       switch (identifier) {
-        case "microsoft": {
-          return await fetchMicrosoft(company, urls, signal);
-        }
         case "amazon": {
           return await fetchAmazon(company, urls, signal);
         }

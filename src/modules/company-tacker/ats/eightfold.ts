@@ -17,6 +17,7 @@ export const TRACKING_PARAM = "8fold_id";
 
 const domainMap = {
   "searchcareers.caci.com": "caci.com",
+  "apply.careers.microsoft.com": "microsoft.com",
 };
 
 export const EightfoldJobSchema = z.object({
@@ -178,7 +179,10 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
 
       return allJobs;
     } catch (error) {
-      if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      if (
+        error instanceof Error &&
+        (error.name === "TimeoutError" || error.name === "AbortError")
+      ) {
         logger.warn(
           {
             company: company.name,

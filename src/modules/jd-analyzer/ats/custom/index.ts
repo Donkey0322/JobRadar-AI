@@ -112,7 +112,7 @@ export async function fetchCustomJD(
       case "netflix": {
         return await fetchNetflixJD(url, signal);
       }
-      // TODO: meta, google, microsoft, amazon
+      // TODO: meta, google, amazon
       default: {
         const res = await fetch(url, {
           signal,

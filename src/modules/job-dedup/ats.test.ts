@@ -332,18 +332,6 @@ describe("getCustomKey", () => {
     expect(result).toBe(expected);
   });
 
-  it("uses custom company identifier with origin + pathname when no numeric pathname id exists", () => {
-    // Arrange
-    const url = "https://www.microsoft.com/en-us/careers/job/software-engineer";
-    const expected = "microsoft:https://www.microsoft.com/en-us/careers/job/software-engineer";
-
-    // Act
-    const result = getCustomKey(url);
-
-    // Assert
-    expect(result).toBe(expected);
-  });
-
   it("extracts REQ id from jobReq query param", () => {
     // Arrange
     const url = "https://careers.salesforce.com/en/jobs?jobReq=REQ-123456&source=LinkedIn";
