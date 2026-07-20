@@ -253,13 +253,13 @@
       "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Prague/AI-Engineer--Agentic-Systems-_R00344521",
       "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641",
       "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AI-Native-Software-Engineering_R00344568",
+      "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Graph-Engineer--AI-Data-_R00345142",
       "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Bogota-Carrera-7/Agentic-AI-Developer_R00336436",
       "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Ebene/Data-and-AI-Engineer---Junior_R00332685",
       "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Ebene/Databricks-Data-Analyst_R00337619",
       "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Ebene/Databricks-Data-Engineer_R00336962",
       "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Jakarta/Cloud---Network-Infrastructure-Engineering_R00314047",
-      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-      "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Graph-Engineer--AI-Data-_R00345142"
+      "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076"
     ]
   },
   {
@@ -5323,7 +5323,9 @@
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23580",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23583",
       "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23585",
-      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23594"
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23594",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23598",
+      "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/23597"
     ]
   },
   {
@@ -5521,7 +5523,8 @@
       "https://careers.adobe.com/us/en/job/R170429?ph_id=R170429",
       "https://careers.adobe.com/us/en/job/R170433?ph_id=R170433",
       "https://careers.adobe.com/us/en/job/R170515?ph_id=R170515",
-      "https://careers.adobe.com/us/en/job/R170547?ph_id=R170547"
+      "https://careers.adobe.com/us/en/job/R170547?ph_id=R170547",
+      "https://careers.adobe.com/us/en/job/R170466?ph_id=R170466"
     ]
   },
   {
@@ -6054,7 +6057,10 @@
     "identifier": "careers.pnc.com",
     "domain": "https://careers.pnc.com",
     "page": "https://careers.pnc.com",
-    "urls": []
+    "urls": [
+      "https://careers.pnc.com/global/en/job/R202728?ph_id=R202728",
+      "https://careers.pnc.com/global/en/job/R227834?ph_id=R227834"
+    ]
   },
   {
     "name": "careers.point72.com",
@@ -8683,7 +8689,8 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/DevOps-Engineer_51584835",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Full-Stack-Engineer--Java-_51584839",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51581178",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51584921"
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51584921",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/CHN---SHANGHAI/Data-engineer_51585333"
     ]
   },
   {
@@ -9662,7 +9669,13 @@
       "https://jobs.smartrecruiters.com/Experian/744000138282306",
       "https://jobs.smartrecruiters.com/Experian/744000138284929",
       "https://jobs.smartrecruiters.com/Experian/744000138384220",
-      "https://jobs.smartrecruiters.com/Experian/744000138386190"
+      "https://jobs.smartrecruiters.com/Experian/744000138386190",
+      "https://jobs.smartrecruiters.com/Experian/744000138550294",
+      "https://jobs.smartrecruiters.com/Experian/744000138550129",
+      "https://jobs.smartrecruiters.com/Experian/744000138549789",
+      "https://jobs.smartrecruiters.com/Experian/744000138549659",
+      "https://jobs.smartrecruiters.com/Experian/744000138549549",
+      "https://jobs.smartrecruiters.com/Experian/744000138549419"
     ]
   },
   {
@@ -9895,7 +9908,8 @@
       "https://jobs.lever.co/field-ai/911ae37b-8ef2-42aa-aff1-60cdd0317f9f/apply",
       "https://jobs.lever.co/field-ai/95ff2df3-4408-47f3-a2c5-295d8067bb30",
       "https://jobs.lever.co/field-ai/af57e802-d1b0-4272-bad6-6b1b5dc80e55",
-      "https://jobs.lever.co/field-ai/f41fb1ac-d266-4e2c-8879-2d88d6f890d4"
+      "https://jobs.lever.co/field-ai/f41fb1ac-d266-4e2c-8879-2d88d6f890d4",
+      "https://jobs.lever.co/field-ai/f8b38e05-ef2e-40bf-9f53-842c8955a135"
     ]
   },
   {
@@ -11922,7 +11936,8 @@
       "https://harman.wd3.myworkdayjobs.com/harman/job/In_Bangalore_-Kalyani-Platina_HII/Software-Engineer---Android-HMI-Developer_R-54558-2026",
       "https://harman.wd3.myworkdayjobs.com/harman/job/In_Bangalore_-Kalyani-Platina_HII/Software-Engineer---Android-HMI-Developer_R-54559-2026",
       "https://harman.wd3.myworkdayjobs.com/harman/job/Novi---Michigan-USA---Cabot-Drive/Principle-AI-Engineer_R-54305-2026",
-      "https://harman.wd3.myworkdayjobs.com/harman/job/Queretaro---Quertaro-Mexico---501502-Avenida-Indust-Minera/Software-Development---User-Experience--KMS_R-54580-2026-1"
+      "https://harman.wd3.myworkdayjobs.com/harman/job/Queretaro---Quertaro-Mexico---501502-Avenida-Indust-Minera/Software-Development---User-Experience--KMS_R-54580-2026-1",
+      "https://harman.wd3.myworkdayjobs.com/harman/job/CN_Shanghai_12F--15F-No-9233-Humin-Road/Intern--Android-Application-Develop_R-54648-2026"
     ]
   },
   {
@@ -12307,7 +12322,8 @@
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Embedded-Systems-Engineer-for-Base-Systems--f-m-d-_R1012763-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Product-Owner-and-DevOps-Engineer--w-m-d-_R1013138-1",
       "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Developer---Cybersecurity--f-m-d-_R0138225-1",
-      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1"
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Vienna-Vienna-Austria/Software-Engineer-for-Dependable-Systems--f-m-d-_R1012212-1",
+      "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Ho-Chi-Minh-City-Ho-Chi-Minh-Vietnam/Data-Analyst-Intern_R0137846"
     ]
   },
   {
@@ -13517,7 +13533,8 @@
       "https://jci.wd5.myworkdayjobs.com/jci/job/San-Pedro-Garza-Garcia-Nuevo-Leon-Mexico/ML-Platform-Engineer_WD30261012",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Scoresby-Caribbean-Australia/Security-Project-Engineer_WD30273109",
       "https://jci.wd5.myworkdayjobs.com/jci/job/Totowa-New-Jersey-United-States-of-America/Strategic-Accounts-Business-Development---Healthcare_WD30269741",
-      "https://jci.wd5.myworkdayjobs.com/jci/job/Warsaw-Poland-Poland/Information-Security-Architect_WD30270045"
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Warsaw-Poland-Poland/Information-Security-Architect_WD30270045",
+      "https://jci.wd5.myworkdayjobs.com/jci/job/Ottawa-Ontario-Canada/Controls-Systems-Engineer---Systems-Designer_WD30270983-1"
     ]
   },
   {
@@ -16215,7 +16232,9 @@
       "https://jobs.careers.microsoft.com/global/en/job/1900381",
       "https://jobs.careers.microsoft.com/global/en/job/1900607",
       "https://jobs.careers.microsoft.com/us/en/job/1877919/Software-Engineer-Azure-Data-Intern-Opportunities-for-University-Students-Austin",
-      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/"
+      "https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556939218",
+      "https://jobs.careers.microsoft.com//careers/job/1970393556937848"
     ]
   },
   {
@@ -18546,7 +18565,8 @@
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenyang/Software-System-Engineer_586975-1",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/Software-Development-Intern_586266",
       "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/System-Engineer_586825",
-      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838"
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suzhou/Advanced-system-engineer_584838",
+      "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shenzhen/Front-End-Development-Engineer_584591"
     ]
   },
   {
@@ -20310,7 +20330,8 @@
       "https://jobs.smartrecruiters.com/sandisk/744000136451416",
       "https://jobs.smartrecruiters.com/sandisk/744000137454489",
       "https://jobs.smartrecruiters.com/sandisk/744000137816639",
-      "https://jobs.smartrecruiters.com/sandisk/744000138285245"
+      "https://jobs.smartrecruiters.com/sandisk/744000138285245",
+      "https://jobs.smartrecruiters.com/sandisk/744000138549730"
     ]
   },
   {
@@ -20341,7 +20362,8 @@
       "https://jobs.smartrecruiters.com/Sandisk/744000136451416",
       "https://jobs.smartrecruiters.com/Sandisk/744000137454489",
       "https://jobs.smartrecruiters.com/Sandisk/744000137816639",
-      "https://jobs.smartrecruiters.com/Sandisk/744000138285245"
+      "https://jobs.smartrecruiters.com/Sandisk/744000138285245",
+      "https://jobs.smartrecruiters.com/Sandisk/744000138549730"
     ]
   },
   {
@@ -23387,6 +23409,7 @@
       "https://lifeattiktok.com/search/6843942799873329416",
       "https://lifeattiktok.com/search/6958741357503007006",
       "https://lifeattiktok.com/search/7046198999003154701",
+      "https://lifeattiktok.com/search/7068211352494573854",
       "https://lifeattiktok.com/search/7072586627705309470",
       "https://lifeattiktok.com/search/7073281233036331277",
       "https://lifeattiktok.com/search/7083094651159562509",
@@ -23636,8 +23659,7 @@
       "https://lifeattiktok.com/search/7661873663853349125",
       "https://lifeattiktok.com/search/7661877389786171701",
       "https://lifeattiktok.com/search/7662216018282023173",
-      "https://lifeattiktok.com/search/7662458878210656565",
-      "https://lifeattiktok.com/search/7068211352494573854"
+      "https://lifeattiktok.com/search/7662458878210656565"
     ]
   },
   {
