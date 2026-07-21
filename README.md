@@ -417,6 +417,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Globalhr</td>
+      <td width="420" align="left" valign="top">Control Actuation Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tucson, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-M10--3360-E-Hemisphere-Loop--BLDG-M10/Control-Actuation-Systems-Engineer-I--Onsite-_01860894"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Nvidia</td>
       <td width="420" align="left" valign="top">Compiler Engineer, Infrastructure  - New College Grad 2026</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
@@ -549,23 +556,16 @@
       <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Entry-Level-MILSATCOM-Ground-Systems-Engineer_JR2026517925"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aero</td>
-      <td width="420" align="left" valign="top">Digital Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chantilly, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/Digital-Systems-Engineer_R015909-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 786 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 787 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (5,273)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (5,278)</b></summary>
 
   <br />
 
-  <h3>Mid Level (2,940)</h3>
+  <h3>Mid Level (2,943)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,27 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Security Software Engineer, Emerging On-prem AI infrastructure<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/123095237005320902-security-software-engineer-emerging-onprem-ai-infrastructure?sort_by=date&amp;page=4"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Silicon Validation Engineer, HBM, Google Cloud</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/107321643193246406-silicon-validation-engineer-hbm-google-cloud?sort_by=date&amp;page=3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cloudflare</td>
+      <td width="420" align="left" valign="top">Software Engineer: Resiliency - Deploy at Scale<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Washington, DC</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Ngc</td>
       <td width="420" align="left" valign="top">Sentinel Systems Engineer - 17922<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -697,32 +718,11 @@
       <td width="120" align="left" valign="top"><a href="https://disney.wd5.myworkdayjobs.com/disneycareer/job/Lake-Buena-Vista-FL-USA/Health-Data-Analyst--Project-Hire-Internal-Assignment-_10155719"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HPE</td>
-      <td width="420" align="left" valign="top">Factory Build Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Spring, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1209626?ph_id=1209626"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer, Systems</td>
-      <td width="180" align="left" valign="top">Westford, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1208434?ph_id=1208434"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dedham, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73620/software-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,940 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,943 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (2,333)</h3>
+  <h3>Senior Level (2,335)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Data Center Electrical Engineer</td>
+      <td width="180" align="left" valign="top">Amarillo, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/91748160497427142-data-center-electrical-engineer?sort_by=date&amp;page=3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Center Mechanical Engineer</td>
+      <td width="180" align="left" valign="top">Amarillo, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/123926467795919558-data-center-mechanical-engineer?sort_by=date&amp;page=3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Parsons</td>
       <td width="420" align="left" valign="top">Expert M&amp;S Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -861,23 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/muonspace/jobs/5150836007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Platform Engineer</td>
-      <td width="180" align="left" valign="top">Research Triangle Park, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2018583?ph_id=2018583"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">Full Stack Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Full-Stack-Software-Engineer_R0244345"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,333 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,335 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-21T06:49:46.125Z</code>
+      🕒 Last updated <code>2026-07-21T09:44:39.936Z</code>
     </span>
   </p>
 </div>
