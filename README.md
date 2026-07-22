@@ -417,6 +417,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company</td>
+      <td width="420" align="left" valign="top">Safety Software Engineer 1&amp;C HMI Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Warrendale, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.westinghousenuclear.com/job/Warrendale-Safety-SW-I&amp;C-Engineer-HMI-Systems-OR/1411189300/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Mastercard</td>
       <td width="420" align="left" valign="top">Software Engineer I</td>
       <td width="180" align="left" valign="top">O&#39;Fallon, MO</td>
@@ -549,16 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Full-Stack-AI-Engineer_JR106377"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Haydenai</td>
-      <td width="420" align="left" valign="top">Associate Data Scientist</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/haydenai/6951fb04-478b-46f5-b918-123a69a28925"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 815 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 816 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (5,549)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-22T00:14:54.272Z</code>
+      🕒 Last updated <code>2026-07-22T02:36:51.432Z</code>
     </span>
   </p>
 </div>
