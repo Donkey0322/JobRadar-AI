@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 816 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (5,587)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (5,589)</b></summary>
 
   <br />
 
-  <h3>Mid Level (3,107)</h3>
+  <h3>Mid Level (3,108)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">Software Development Engineer,  Data Platform, Prime Video Personalization &amp; Discovery</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10481130"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 22</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Nationwide</td>
       <td width="420" align="left" valign="top">Consultant, Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -711,18 +718,11 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/judihealth/jobs/5361975008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">HP IQ</td>
-      <td width="420" align="left" valign="top">AI Software Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/hpiq/jobs/5819552004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,107 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,108 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (2,480)</h3>
+  <h3>Senior Level (2,481)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Strategic Negotiator, Data Center Site Acquisition and Development</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/92292871872225990-strategic-negotiator-data-center-site-acquisition-and-development?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 22</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Realtor.com Careers</td>
       <td width="420" align="left" valign="top">Mgr, Software Engineering - Salesforce</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer_099067"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Consultant, Software Engineer - Life New Business (Angular, AWS S3, Apigee, Experience Building OAS)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Columbus, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Software-Engineer---Life-New-Business--Angular--AWS-S3--Apigee--Experience-Building-OAS-_099306"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,480 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,481 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-22T06:51:00.765Z</code>
+      🕒 Last updated <code>2026-07-22T09:46:36.696Z</code>
     </span>
   </p>
 </div>
