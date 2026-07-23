@@ -1949,6 +1949,7 @@
       "https://jobs.apple.com/en-us/details/200596262-3278/site-reliability-engineer?team=CORSV",
       "https://jobs.apple.com/en-us/details/200596566-0865/systems-and-algorithms-engineer-for-cellular-modem-development-advanced-technology-group?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200598796-0836/hardware-systems-design-electrical-engineer-iphone?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200609109-0836/core-audio-software-engineer-audio-media-technologies?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200609538-3715/machine-learning-engineer-intern-shanghai?team=STDNT",
       "https://jobs.apple.com/en-us/details/200614359-0836/display-metrology-system-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200620201-0240/data-center-product-design-engineer?team=HRDWR",
@@ -1959,6 +1960,7 @@
       "https://jobs.apple.com/en-us/details/200624020-3956/software-application-support-engineer-retail-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200624075-0836/software-qa-engineer-watch-software?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200624075-3543/software-qa-engineer-watch-software?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200625571-0836/position-sensing-systems-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200631247-0836/on-device-ml-compiler-engineer-model-compilation-graphics-games-and-machine-learning?team=MLAI",
       "https://jobs.apple.com/en-us/details/200631250-0836/on-device-ml-infrastructure-engineer-ml-user-experience-apis-integration-graphics-games-and-machine-learning?team=MLAI",
       "https://jobs.apple.com/en-us/details/200632290-0240/data-center-product-design-engineer?team=HRDWR",
@@ -2327,6 +2329,7 @@
       "https://jobs.apple.com/en-us/details/200672785-0157/data-center-hardware-engineering-hardware-system-integration-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672785-3956/data-center-hardware-engineering-hardware-system-integration-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672803-0836/systems-quality-robotics-automation-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200672810-3956/machine-learning-algorithm-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200672814-3956/it-knowledge-training-data-scientist-employee-experience-productivity-is-t?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672818-0836/car-experience-software-engineer-ui-wireless-technologies-ecosystems?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200672821-0836/hardware-system-integration-electrical-engineer-mac?team=HRDWR",
@@ -2379,15 +2382,12 @@
       "https://jobs.apple.com/en-us/details/200673828-3956/machine-learning-engineer-multimodal-sensor-fusion?team=MLAI",
       "https://jobs.apple.com/en-us/details/200673904-3337/software-engineer-core-services-apple-services-engineering?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200673911-3337/service-reliability-engineer-sre?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200673967-0157/database-systems-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200673989-3337/applied-ai-scientist-multimodal-intelligence?team=MLAI",
       "https://jobs.apple.com/en-us/details/200673989-3956/applied-ai-scientist-multimodal-intelligence?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200673992-3337/applied-ai-scientist-multimodal-intelligence?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200673992-3956/applied-ai-scientist-multimodal-intelligence?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200625571-0836/position-sensing-systems-engineer?team=HRDWR",
-      "https://jobs.apple.com/en-us/details/200673967-0157/database-systems-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200673991-0157/linux-systems-engineer?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200672810-3956/machine-learning-algorithm-engineer?team=HRDWR",
-      "https://jobs.apple.com/en-us/details/200609109-0836/core-audio-software-engineer-audio-media-technologies?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200673992-3337/applied-ai-scientist-multimodal-intelligence?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200673992-3956/applied-ai-scientist-multimodal-intelligence?team=MLAI"
     ]
   },
   {
@@ -2460,8 +2460,8 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556941160?domain=microsoft.com&8fold_id=1970393556941160",
       "https://apply.careers.microsoft.com/careers/job/1970393556941272?domain=microsoft.com&8fold_id=1970393556941272",
       "https://apply.careers.microsoft.com/careers/job/1970393556941288?domain=microsoft.com&8fold_id=1970393556941288",
-      "https://apply.careers.microsoft.com/careers/job/1970393556943200?domain=microsoft.com&8fold_id=1970393556943200",
-      "https://apply.careers.microsoft.com/careers/job/1970393556942171?domain=microsoft.com&8fold_id=1970393556942171"
+      "https://apply.careers.microsoft.com/careers/job/1970393556942171?domain=microsoft.com&8fold_id=1970393556942171",
+      "https://apply.careers.microsoft.com/careers/job/1970393556943200?domain=microsoft.com&8fold_id=1970393556943200"
     ]
   },
   {
@@ -4198,9 +4198,9 @@
       "https://jobs.ashbyhq.com/benchling/5f98903f-739c-44d4-8ce9-80767baf569b",
       "https://jobs.ashbyhq.com/benchling/6beeaebc-fd49-47d7-a179-dd674bab58b7",
       "https://jobs.ashbyhq.com/benchling/7017bd54-cf7e-45cc-a6ee-580701f2b7fc",
+      "https://jobs.ashbyhq.com/benchling/70e672e0-b80b-4232-84cb-27406abfa689",
       "https://jobs.ashbyhq.com/benchling/79c10e1c-93c5-4ad2-ac9b-01a0aa64c876",
-      "https://jobs.ashbyhq.com/benchling/b1828d61-38fe-4a28-9631-add78cacc4dd",
-      "https://jobs.ashbyhq.com/benchling/70e672e0-b80b-4232-84cb-27406abfa689"
+      "https://jobs.ashbyhq.com/benchling/b1828d61-38fe-4a28-9631-add78cacc4dd"
     ]
   },
   {
@@ -4566,6 +4566,7 @@
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Experienced-Support-Engineering-Data-Specialist--Support-Engineering-Data-_JR2026516906-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Oklahoma-City-OK/Support-Engineering-Data-Specialist--Support-Engineering-Data-_JR2026515070-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Associate-Avionics-Systems-Service-Engineer--Entry-Level-or-Associate-_JR2026515614",
+      "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Experienced-Avionics-Systems-Service-Engineer_JR2026519945-1",
       "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Entry-Level-Software-Systems-Engineer_JR2026511294-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/AUS---Brisbane-Australia/Systems-Analyst_JR2026518016-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/GBR---Bristol-UK/Cyber-Security-Analyst_JR2026517822-2",
@@ -4674,8 +4675,7 @@
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Support-Engineering-Data-Specialist--Associate-_JR2026517149-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Systems-Engineer--Comm---Networks-Sys-Engrg-_JR2026516739-1",
       "https://boeing.wd1.myworkdayjobs.com/external_careers/job/United-States---Remote/Full-Stack-Developer--Virtual-_JR2026518215-1",
-      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/United-States---Remote/Full-Stack-Developer--Virtual-_JR2026519447-1",
-      "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Experienced-Avionics-Systems-Service-Engineer_JR2026519945-1"
+      "https://boeing.wd1.myworkdayjobs.com/external_careers/job/United-States---Remote/Full-Stack-Developer--Virtual-_JR2026519447-1"
     ]
   },
   {
@@ -5308,6 +5308,16 @@
     ]
   },
   {
+    "name": "bridger",
+    "ats": "ashby",
+    "identifier": "bridger",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/bridger",
+    "urls": [
+      "https://jobs.ashbyhq.com/bridger/5a4a77e4-31a0-40c6-8e3d-9b5c6205943f/application?embed=true"
+    ]
+  },
+  {
     "name": "brilliant",
     "ats": "lever",
     "identifier": "brilliant",
@@ -5323,14 +5333,14 @@
     "page": "https://broadridge.wd5.myworkdayjobs.com/wday/cxs/broadridge/careers/jobs",
     "urls": [
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Bengaluru-EPIP-Industrial-Area/Oracle-Cloud-PPM-Functional-Analyst_JR1084220",
+      "https://broadridge.wd5.myworkdayjobs.com/careers/job/Denver-CO/Software-Engineer-_JR1084518",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Edgewood-NY/Professional-Software-Engineer---AI-Driven-Engineering---Hybrid---Newark--NJ--NYC-or-Edgewood--NY-_JR1082988-1",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Edgewood-NY/Software-asset-Management--SAM--Analyst_JR1083918-1",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Gdansk---Olivia-Business-Centre/Data-Scientist_JR1084045",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Gdansk---Olivia-Business-Centre/XMLNAME-NET-Software-Developer--Contractor-_JR1084016",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Manila---6805-Ayala-Ave/Cloud-Infrastructure-Engineer--Hybrid-_JR1084502",
       "https://broadridge.wd5.myworkdayjobs.com/careers/job/Manila---6805-Ayala-Ave/Linux-System-Engineer--Hybrid-_JR1083883",
-      "https://broadridge.wd5.myworkdayjobs.com/careers/job/Vancouver---555-Burrard-Street/DevOps-Engineer_JR1077021",
-      "https://broadridge.wd5.myworkdayjobs.com/careers/job/Denver-CO/Software-Engineer-_JR1084518"
+      "https://broadridge.wd5.myworkdayjobs.com/careers/job/Vancouver---555-Burrard-Street/DevOps-Engineer_JR1077021"
     ]
   },
   {
@@ -6410,18 +6420,18 @@
       "https://careers.hpe.com/us/en/job/1208608?ph_id=1208608",
       "https://careers.hpe.com/us/en/job/1208933?ph_id=1208933",
       "https://careers.hpe.com/us/en/job/1208934?ph_id=1208934",
+      "https://careers.hpe.com/us/en/job/1209426?ph_id=1209426",
       "https://careers.hpe.com/us/en/job/1209483?ph_id=1209483",
       "https://careers.hpe.com/us/en/job/1209568?ph_id=1209568",
       "https://careers.hpe.com/us/en/job/1209626?ph_id=1209626",
+      "https://careers.hpe.com/us/en/job/1209700?ph_id=1209700",
       "https://careers.hpe.com/us/en/job/1209711?ph_id=1209711",
+      "https://careers.hpe.com/us/en/job/1210117?ph_id=1210117",
       "https://careers.hpe.com/us/en/job/1210218?ph_id=1210218",
       "https://careers.hpe.com/us/en/job/1210260?ph_id=1210260",
       "https://careers.hpe.com/us/en/job/1210269?ph_id=1210269",
       "https://careers.hpe.com/us/en/job/1210395?ph_id=1210395",
-      "https://careers.hpe.com/us/en/job/1210565?ph_id=1210565",
-      "https://careers.hpe.com/us/en/job/1209700?ph_id=1209700",
-      "https://careers.hpe.com/us/en/job/1210117?ph_id=1210117",
-      "https://careers.hpe.com/us/en/job/1209426?ph_id=1209426"
+      "https://careers.hpe.com/us/en/job/1210565?ph_id=1210565"
     ]
   },
   {
@@ -6590,8 +6600,8 @@
       "https://careers.mitre.org/us/en/job/R116564?ph_id=R116564",
       "https://careers.mitre.org/us/en/job/R116615?ph_id=R116615",
       "https://careers.mitre.org/us/en/job/R116890?ph_id=R116890",
-      "https://careers.mitre.org/us/en/job/R117037?ph_id=R117037",
-      "https://careers.mitre.org/us/en/job/R116912?ph_id=R116912"
+      "https://careers.mitre.org/us/en/job/R116912?ph_id=R116912",
+      "https://careers.mitre.org/us/en/job/R117037?ph_id=R117037"
     ]
   },
   {
@@ -13391,9 +13401,9 @@
       "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/Lisbon/Network---Security-Engineer_R0019644",
       "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/Lisbon/Software-Engineer_R0019928",
       "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/London/AI-Developer_R0019670",
+      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/Machine-Learning-Engineer_R0019742-1",
       "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/Machine-Learning-Engineer_R0019762",
-      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/System-Analyst_R0019470",
-      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/Machine-Learning-Engineer_R0019742-1"
+      "https://hiscox.wd3.myworkdayjobs.com/hiscox_external_site/job/York/System-Analyst_R0019470"
     ]
   },
   {
@@ -26392,7 +26402,9 @@
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Software-Engineer_2026-0017100-1",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chennai-India/Software-Engineer_2026-0017390-1",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Hopkins-MN/Nexthink-Systems-Engineer_2026-0012108",
+      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Horsham-PA/Data-Analyst---Credit-Card-Portfolio-Analytics_2026-0017812",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Irving-TX/Software-Engineer-1--React---API---Cloud-Migration-_2026-0021655",
+      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Corporate-Functions-Risk-Data-Governance-Analyst_2026-0021893",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Financial-Data-Analyst_2026-0010790",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Saint-Paul-MN/Security-Master---Pricing-Analyst_2026-0021315",
       "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Toronto-Ontario/Software-Engineer-1--JavaScript---Nodejs-_2026-0020640",
@@ -26421,9 +26433,7 @@
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Minneapolis-MN/UX-Researcher---Digital-Experience--Corporate---Institutional-Banking-_2026-0014758",
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Saint-Paul-MN/Automation-Engineer---Power-Automate-Unattended_2026-0009994",
       "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Saint-Paul-MN/z-OS-Systems-Engineer_2026-0010767",
-      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Warsaw-Poland/Credit-Risk-Modeling-Python-Developer_2025-0027794-2",
-      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Horsham-PA/Data-Analyst---Credit-Card-Portfolio-Analytics_2026-0017812",
-      "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Corporate-Functions-Risk-Data-Governance-Analyst_2026-0021893"
+      "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Warsaw-Poland/Credit-Risk-Modeling-Python-Developer_2025-0027794-2"
     ]
   },
   {
@@ -27921,6 +27931,16 @@
       "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Oberkochen/Werkstudent-Automation-Technology--m-w-x-_JR_1050115-1",
       "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Rodorf/Werkstudent-Repair-Software-Application-Engineering--m-w-x-_JR_1051250",
       "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Shanghai/Technical-Support-Engineer--Software_JR_1051156"
+    ]
+  },
+  {
+    "name": "Zello",
+    "ats": "ashby",
+    "identifier": "Zello",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/Zello",
+    "urls": [
+      "https://jobs.ashbyhq.com/Zello/66de7a50-17cb-42aa-87eb-cd40c637338e/application?embed=true"
     ]
   },
   {
