@@ -451,7 +451,7 @@ function formatLocation(job: Opportunity): string {
 
 function formatApplyButton(job: Opportunity): string {
   if (job.expired) {
-    return `<img height="28" alt="apply (expired)" src="${EXPIRED_APPLY_BUTTON_SRC}" />`;
+    return `<a aria-disabled="true"><img height="28" alt="apply (expired)" src="${EXPIRED_APPLY_BUTTON_SRC}" /></a>`;
   }
 
   return `<a href="${escapeHtmlAttr(job.link)}"><img height="28" alt="apply" src="${APPLY_BUTTON_SRC}" /></a>`;
