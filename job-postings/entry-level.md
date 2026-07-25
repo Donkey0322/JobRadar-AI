@@ -723,4 +723,4 @@ Total available: **941**
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T08:29:05.777Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T08:30:02.550Z</code></sub>
