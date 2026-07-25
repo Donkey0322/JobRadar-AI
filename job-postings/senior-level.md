@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Exl talent acquisition team</td>
+      <td width="420" align="left" valign="top">Azure Cloud Engineer</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/13667"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 25</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Netflix</td>
       <td width="420" align="left" valign="top">Data Visualization Engineer 5 - Member Insights Engineering</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://equinix.wd1.myworkdayjobs.com/external/job/Elk-Grove-Village/Supervisor--Data-Center-Critical-Facilities-Engineer_JR-162140-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Clarios</td>
-      <td width="420" align="left" valign="top">Regional Manufacturing Engineer - Automation</td>
-      <td width="180" align="left" valign="top">Saint Joseph, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Missouri-Saint-Joseph/Regional-Manufacturing-Engineer---Automation_WD48990"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 2,842 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 2,843 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T15:23:46.886Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T17:22:53.419Z</code></sub>
