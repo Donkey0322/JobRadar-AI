@@ -85,11 +85,21 @@
   </tr>
 </table>
 
+## Browse jobs by category
+
+Each category page shows up to 100 of the latest opportunities.
+
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 84 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 149 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 941 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 3,533 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 2,838 opportunities
+
 ## The List 🚴‍♂️
 
 <!-- TABLE_START -->
 
-### Summer Intern
+### 2027 Summer Intern
 
 <table width="100%">
   <thead>
@@ -898,7 +908,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-25T08:15:48.487Z</code>
+      🕒 Last updated <code>2026-07-25T08:29:05.777Z</code>
     </span>
   </p>
 </div>

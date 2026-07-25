@@ -6,6 +6,7 @@ on:
     paths:
       - "config.json"
       - "data/opportunities.ndjson"
+      - "scripts/readme.ts"
   workflow_dispatch: {}
 
 permissions:
@@ -50,21 +51,21 @@ jobs:
         id: update-readme
         run: pnpm update-readme
 
-      # ✅ Commit README changes
-      - name: Commit README changes
+      # ✅ Commit generated job board changes
+      - name: Commit generated job board changes
         env:
           PAT: ${{ secrets.PAT }}
         run: |
-          if git diff --quiet README.md; then
-            echo "No README changes to commit."
+          if [[ -z "$(git status --porcelain -- README.md job-postings)" ]]; then
+            echo "No job board changes to commit."
             exit 0
           fi
 
           git config user.name "actions-bot"
           git config user.email "actions@github.com"
 
-          git add README.md
-          git commit -m "docs: update README job board"
+          git add README.md job-postings
+          git commit -m "docs: update generated job boards"
 
           git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
           git push origin HEAD:${{ github.ref_name }}

@@ -8,7 +8,7 @@ const NOW = new Date(
 const year = NOW.getFullYear();
 const month = NOW.getMonth() + 1;
 
-function getSeasonYears() {
+export function getSeasonYears() {
   if (month >= 9) {
     return {
       summer: year + 1,

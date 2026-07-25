@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { CONFIG, JOB_CATEGORIES, OPPORTUNITIES_PATH } from "@/constants";
+import { getSeasonYears } from "@/constants/season";
 
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
@@ -18,6 +19,7 @@ type JDWithLocation = JD & {
 const ROOT = process.cwd();
 
 const README_PATH = path.join(ROOT, "README.md");
+const JOB_POSTINGS_DIR = path.join(ROOT, "job-postings");
 
 const REPO_OWNER = "Donkey0322";
 const REPO_NAME = "JobRadar-AI";
@@ -25,7 +27,8 @@ const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
-const MAX_JOBS_PER_SECTION = 20;
+const MAX_JOBS_PER_README_SECTION = 20;
+const MAX_JOBS_PER_CATEGORY_PAGE = 100;
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
@@ -68,6 +71,7 @@ async function main() {
     outsideTargetCategoryOpportunities,
     categoryOrder
   );
+  const allGrouped = groupByCategory(countryMatched, categoryOrder);
 
   const markdown = buildReadme({
     config: CONFIG,
@@ -75,12 +79,15 @@ async function main() {
     grouped,
     outsideTargetCategoryOpportunities,
     outsideTargetCategoryGrouped,
+    allGrouped,
     generatedAt,
   });
 
+  await writeCategoryPages(allGrouped, generatedAt);
   await fs.writeFile(README_PATH, markdown, "utf-8");
 
   console.log(`README generated: ${README_PATH}`);
+  console.log(`Category pages generated: ${allGrouped.size}`);
   console.log(`Target opportunities included: ${targetOpportunities.length}`);
   console.log(
     `Same-country opportunities outside target categories included in toggle: ${outsideTargetCategoryOpportunities.length}`
@@ -141,6 +148,7 @@ function buildReadme(input: {
   grouped: Map<string, Opportunity[]>;
   outsideTargetCategoryOpportunities: Opportunity[];
   outsideTargetCategoryGrouped: Map<string, Opportunity[]>;
+  allGrouped: Map<string, Opportunity[]>;
   generatedAt: Date;
 }): string {
   const {
@@ -149,6 +157,7 @@ function buildReadme(input: {
     grouped,
     outsideTargetCategoryOpportunities,
     outsideTargetCategoryGrouped,
+    allGrouped,
     generatedAt,
   } = input;
 
@@ -230,6 +239,15 @@ function buildReadme(input: {
   lines.push(...buildFeatureGrid());
   lines.push("");
 
+  lines.push(`## Browse jobs by category`);
+  lines.push("");
+  lines.push(
+    `Each category page shows up to ${MAX_JOBS_PER_CATEGORY_PAGE.toLocaleString()} of the latest opportunities.`
+  );
+  lines.push("");
+  lines.push(...buildCategoryPageLinks(allGrouped));
+  lines.push("");
+
   lines.push(`## The List 🚴‍♂️`);
   lines.push("");
   lines.push(`<!-- TABLE_START -->`);
@@ -296,7 +314,11 @@ function buildOutsideTargetCategoryToggle(grouped: Map<string, Opportunity[]>): 
 }
 
 function buildOpportunityTable(jobs: Opportunity[]): string[] {
-  const visibleJobs = jobs.slice(0, MAX_JOBS_PER_SECTION);
+  return buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_README_SECTION);
+}
+
+function buildLimitedOpportunityTable(jobs: Opportunity[], limit: number): string[] {
+  const visibleJobs = jobs.slice(0, limit);
 
   const rows: TableRow[] = [];
   let previousCompany = "";
@@ -317,13 +339,77 @@ function buildOpportunityTable(jobs: Opportunity[]): string[] {
 
   const lines = buildHtmlTable(["Company", "Role", "Location", "Link", "Date"], rows);
 
-  if (jobs.length > MAX_JOBS_PER_SECTION) {
+  if (jobs.length > limit) {
     lines.push(
-      `<p><sub>Showing ${MAX_JOBS_PER_SECTION.toLocaleString()} of ${jobs.length.toLocaleString()} opportunities in this section.</sub></p>`
+      `<p><sub>Showing ${limit.toLocaleString()} of ${jobs.length.toLocaleString()} opportunities in this section.</sub></p>`
     );
   }
 
   return lines;
+}
+
+function buildCategoryPageLinks(grouped: Map<string, Opportunity[]>): string[] {
+  return [...grouped].map(
+    ([category, jobs]) =>
+      `- [${formatCategoryTitle(category)}](./job-postings/${categoryFileName(
+        category
+      )}) — ${jobs.length.toLocaleString()} opportunities`
+  );
+}
+
+async function writeCategoryPages(
+  grouped: Map<string, Opportunity[]>,
+  generatedAt: Date
+): Promise<void> {
+  await fs.mkdir(JOB_POSTINGS_DIR, { recursive: true });
+
+  const existingFiles = await fs.readdir(JOB_POSTINGS_DIR);
+  await Promise.all(
+    existingFiles
+      .filter((fileName) => fileName.endsWith(".md"))
+      .map((fileName) => fs.rm(path.join(JOB_POSTINGS_DIR, fileName)))
+  );
+
+  await Promise.all(
+    [...grouped].map(([category, jobs]) => {
+      const pagePath = path.join(JOB_POSTINGS_DIR, categoryFileName(category));
+      const markdown = buildCategoryPage(category, jobs, generatedAt);
+
+      return fs.writeFile(pagePath, markdown, "utf-8");
+    })
+  );
+}
+
+function buildCategoryPage(category: string, jobs: Opportunity[], generatedAt: Date): string {
+  const title = formatCategoryTitle(category);
+  const lines = [
+    `# ${title} jobs`,
+    ``,
+    `[← Back to the main job board](../README.md)`,
+    ``,
+    `The latest ${title.toLowerCase()} opportunities tracked by JobRadar AI.`,
+    ``,
+    `Total available: **${jobs.length.toLocaleString()}**`,
+    ``,
+    ...buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_CATEGORY_PAGE),
+    ``,
+    `---`,
+    ``,
+    `<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>${generatedAt.toISOString()}</code></sub>`,
+    ``,
+  ];
+
+  return lines.join("\n");
+}
+
+function categoryFileName(category: string): string {
+  const slug = category
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `${slug || "other"}.md`;
 }
 
 function buildFeatureGrid(): string[] {
@@ -474,11 +560,17 @@ function formatDate(value: string): string {
 function formatCategoryTitle(category: string): string {
   if (!category || category === "None") return "Other";
 
-  return category
+  const title = category
     .split(/[\s-_]+/)
     .filter(Boolean)
     .map((word) => word[0]?.toUpperCase() + word.slice(1))
     .join(" ");
+
+  if (normalizeCategory(category) === "summer intern") {
+    return `${getSeasonYears().summer} ${title}`;
+  }
+
+  return title;
 }
 
 function formatToggleSummary(categories: string[], total: number): string {
