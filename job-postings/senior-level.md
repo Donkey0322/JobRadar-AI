@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Cisco</td>
+      <td width="420" align="left" valign="top">Software Engineering Technical Leader</td>
+      <td width="180" align="left" valign="top">Boulder, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2019188?ph_id=2019188"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 25</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Exl talent acquisition team</td>
       <td width="420" align="left" valign="top">Azure Cloud Engineer</td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://gaig.wd1.myworkdayjobs.com/gaig_external/job/Cincinnati-OH-USA/AI-Platform-Engineer_R8913"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Equinix</td>
-      <td width="420" align="left" valign="top">Supervisor, Data Center Critical Facilities Engineer</td>
-      <td width="180" align="left" valign="top">Elk Grove Village, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://equinix.wd1.myworkdayjobs.com/external/job/Elk-Grove-Village/Supervisor--Data-Center-Critical-Facilities-Engineer_JR-162140-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 2,843 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 2,844 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T17:22:53.419Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T19:41:54.386Z</code></sub>
