@@ -5030,7 +5030,11 @@
     "identifier": "bostonscientific",
     "domain": "bostonscientific.com",
     "page": "https://bostonscientific.eightfold.ai/api/pcsx/search?domain=bostonscientific.com",
-    "urls": []
+    "urls": [
+      "https://bostonscientific.eightfold.ai/careers/job/563602813110171?domain=bostonscientific.com&8fold_id=563602813110171",
+      "https://bostonscientific.eightfold.ai/careers/job/563602813295079?domain=bostonscientific.com&8fold_id=563602813295079",
+      "https://bostonscientific.eightfold.ai/careers?query=software&start=0&pid=563602812412848&sort_by=relevance?8fold_id=563602812412848"
+    ]
   },
   {
     "name": "botauto",
@@ -6091,7 +6095,8 @@
       "https://careers.cisco.com/global/en/job/2020244?ph_id=2020244",
       "https://careers.cisco.com/global/en/job/2020262?ph_id=2020262",
       "https://careers.cisco.com/global/en/job/2020778?ph_id=2020778",
-      "https://careers.cisco.com/global/en/job/2020950?ph_id=2020950"
+      "https://careers.cisco.com/global/en/job/2020950?ph_id=2020950",
+      "https://careers.cisco.com/global/en/job/2019261?ph_id=2019261"
     ]
   },
   {
@@ -6126,7 +6131,11 @@
     "identifier": "careers.crowe.com",
     "domain": "https://careers.crowe.com",
     "page": "https://careers.crowe.com",
-    "urls": []
+    "urls": [
+      "https://careers.crowe.com/us/en/job/R-51690?ph_id=R-51690",
+      "https://careers.crowe.com/us/en/job/R-51693?ph_id=R-51693",
+      "https://careers.crowe.com/us/en/job/R-51694?ph_id=R-51694"
+    ]
   },
   {
     "name": "careers.dexcom.com",
@@ -8847,7 +8856,8 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Sr-Software-Engineer_10149903",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Senior-Product-Software-Engineer_10152988-2",
       "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Seattle-WA-USA/Sr-Product-Software-Engineer_10153384",
-      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Vancouver-BC-Canada/Production-Data-Analyst-for-Feature-Animation---ILM-Vancouver_10155790-2"
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Vancouver-BC-Canada/Production-Data-Analyst-for-Feature-Animation---ILM-Vancouver_10155790-2",
+      "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Sr-Mgr--Site-Reliability-Engineer--SRE-_10145210"
     ]
   },
   {
@@ -9297,7 +9307,25 @@
     "identifier": "eaton",
     "domain": "eaton.com",
     "page": "https://eaton.eightfold.ai/api/pcsx/search?domain=eaton.com",
-    "urls": []
+    "urls": [
+      "https://eaton.eightfold.ai/careers/job/687236650116?8fold_id=687236650116",
+      "https://eaton.eightfold.ai/careers/job/687236754298?8fold_id=687236754298",
+      "https://eaton.eightfold.ai/careers/job/687237583444?8fold_id=687237583444",
+      "https://eaton.eightfold.ai/careers/job/687237583666?8fold_id=687237583666",
+      "https://eaton.eightfold.ai/careers/job/687237589376?8fold_id=687237589376",
+      "https://eaton.eightfold.ai/careers/job/687237594059?domain=eaton.com&8fold_id=687237594059",
+      "https://eaton.eightfold.ai/careers/job/687237627997?8fold_id=687237627997",
+      "https://eaton.eightfold.ai/careers/job/687237701811?8fold_id=687237701811",
+      "https://eaton.eightfold.ai/careers/job/687237752336?8fold_id=687237752336",
+      "https://eaton.eightfold.ai/careers/job/687237771824?8fold_id=687237771824",
+      "https://eaton.eightfold.ai/careers/job/687237781714?8fold_id=687237781714",
+      "https://eaton.eightfold.ai/careers/job/687237877192?domain=eaton.com&8fold_id=687237877192",
+      "https://eaton.eightfold.ai/careers/job/687237966446?domain=eaton.com&8fold_id=687237966446",
+      "https://eaton.eightfold.ai/careers/job/687237977988?domain=eaton.com&8fold_id=687237977988",
+      "https://eaton.eightfold.ai/careers/job/687237977991?domain=eaton.com&8fold_id=687237977991",
+      "https://eaton.eightfold.ai/careers/job/687238024941?domain=eaton.com&8fold_id=687238024941",
+      "https://eaton.eightfold.ai/careers/job/687238055039?domain=eaton.com&8fold_id=687238055039"
+    ]
   },
   {
     "name": "ebgj.fa.us2.oraclecloud.com",
@@ -10078,7 +10106,8 @@
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16924",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17163",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17355",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17784"
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17784",
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17639"
     ]
   },
   {
@@ -11389,7 +11418,8 @@
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Edison-Engineering-Development-Program-Intern---Software_R4043933-2",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Software-Engineer---Embedded-Platform_R4044101-1",
       "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/Software-Engineer_R4042739-2",
-      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527"
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Zipf/Software-Engineer--m-f-d-_R4041527",
+      "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/WA07-01-Bellevue-1100-112th-Avenue-NE/AI-Engineer_R4044184-1"
     ]
   },
   {
@@ -14916,7 +14946,21 @@
     "identifier": "johndeere",
     "domain": "johndeere.com",
     "page": "https://johndeere.eightfold.ai/api/pcsx/search?domain=johndeere.com",
-    "urls": []
+    "urls": [
+      "https://johndeere.eightfold.ai/careers/job/137481060668?8fold_id=137481060668",
+      "https://johndeere.eightfold.ai/careers/job/137481125992?8fold_id=137481125992",
+      "https://johndeere.eightfold.ai/careers/job/137481139863?8fold_id=137481139863",
+      "https://johndeere.eightfold.ai/careers/job/137481764113?8fold_id=137481764113",
+      "https://johndeere.eightfold.ai/careers/job/137481788379?8fold_id=137481788379",
+      "https://johndeere.eightfold.ai/careers/job/137481944298?domain=johndeere.com&8fold_id=137481944298",
+      "https://johndeere.eightfold.ai/careers/job/137482115447?8fold_id=137482115447",
+      "https://johndeere.eightfold.ai/careers/job/137482117373?8fold_id=137482117373",
+      "https://johndeere.eightfold.ai/careers/job/137482165953?8fold_id=137482165953",
+      "https://johndeere.eightfold.ai/careers/job/137482166249?8fold_id=137482166249",
+      "https://johndeere.eightfold.ai/careers/job/137482169037?8fold_id=137482169037",
+      "https://johndeere.eightfold.ai/careers/job/137482173176?domain=johndeere.com&8fold_id=137482173176",
+      "https://johndeere.eightfold.ai/careers/job/137482215963?domain=johndeere.com&8fold_id=137482215963"
+    ]
   },
   {
     "name": "join.sephora.com",
@@ -17125,7 +17169,13 @@
     "identifier": "mlp",
     "domain": "mlp.com",
     "page": "https://mlp.eightfold.ai/api/apply/v2/jobs?domain=mlp.com",
-    "urls": []
+    "urls": [
+      "https://mlp.eightfold.ai/careers/job/755954423961?domain=mlp.com&8fold_id=755954423961",
+      "https://mlp.eightfold.ai/careers/job/755957429295?domain=mlp.com&8fold_id=755957429295",
+      "https://mlp.eightfold.ai/careers/job/755957542118?domain=mlp.com&8fold_id=755957542118",
+      "https://mlp.eightfold.ai/careers/job/755957583465?domain=mlp.com&8fold_id=755957583465",
+      "https://mlp.eightfold.ai/careers/job/755957630980?domain=mlp.com&8fold_id=755957630980"
+    ]
   },
   {
     "name": "mmc",
@@ -19329,7 +19379,18 @@
     "identifier": "paypal",
     "domain": "paypal.com",
     "page": "https://paypal.eightfold.ai/api/pcsx/search?domain=paypal.com",
-    "urls": []
+    "urls": [
+      "https://paypal.eightfold.ai/careers/job/274917627868?8fold_id=274917627868",
+      "https://paypal.eightfold.ai/careers/job/274919819669?domain=paypal.com&8fold_id=274919819669",
+      "https://paypal.eightfold.ai/careers/job/274920745181?8fold_id=274920745181",
+      "https://paypal.eightfold.ai/careers/job/274921227401?domain=paypal.com&8fold_id=274921227401",
+      "https://paypal.eightfold.ai/careers/job/274921227402?domain=paypal.com&8fold_id=274921227402",
+      "https://paypal.eightfold.ai/careers/job/274921227533?domain=paypal.com&8fold_id=274921227533",
+      "https://paypal.eightfold.ai/careers/job/274921227534?domain=paypal.com&8fold_id=274921227534",
+      "https://paypal.eightfold.ai/careers/job/274921227582?domain=paypal.com&8fold_id=274921227582",
+      "https://paypal.eightfold.ai/careers/job/274921227583?domain=paypal.com&8fold_id=274921227583",
+      "https://paypal.eightfold.ai/careers/job/274921227586?domain=paypal.com&8fold_id=274921227586"
+    ]
   },
   {
     "name": "pdtpartners",
@@ -20162,7 +20223,91 @@
     "identifier": "qualcomm",
     "domain": "qualcomm.com",
     "page": "https://qualcomm.eightfold.ai/api/pcsx/search?domain=qualcomm.com",
-    "urls": []
+    "urls": [
+      "https://qualcomm.eightfold.ai/careers/job/446716096189?8fold_id=446716096189",
+      "https://qualcomm.eightfold.ai/careers/job/446716227626?8fold_id=446716227626",
+      "https://qualcomm.eightfold.ai/careers/job/446716376636?8fold_id=446716376636",
+      "https://qualcomm.eightfold.ai/careers/job/446717394529?8fold_id=446717394529",
+      "https://qualcomm.eightfold.ai/careers/job/446717670646?8fold_id=446717670646",
+      "https://qualcomm.eightfold.ai/careers/job/446717730169?8fold_id=446717730169",
+      "https://qualcomm.eightfold.ai/careers/job/446718040204?8fold_id=446718040204",
+      "https://qualcomm.eightfold.ai/careers/job/446718125589?domain=qualcomm.com&8fold_id=446718125589",
+      "https://qualcomm.eightfold.ai/careers/job/446718146936?8fold_id=446718146936",
+      "https://qualcomm.eightfold.ai/careers/job/446718383855?8fold_id=446718383855",
+      "https://qualcomm.eightfold.ai/careers/job/446718415832?domain=qualcomm.com&8fold_id=446718415832",
+      "https://qualcomm.eightfold.ai/careers/job/446718418970?domain=qualcomm.com&8fold_id=446718418970",
+      "https://qualcomm.eightfold.ai/careers/job/446718423863?8fold_id=446718423863",
+      "https://qualcomm.eightfold.ai/careers/job/446718449307?8fold_id=446718449307",
+      "https://qualcomm.eightfold.ai/careers/job/446718461199?domain=qualcomm.com&8fold_id=446718461199",
+      "https://qualcomm.eightfold.ai/careers/job/446718461246?domain=qualcomm.com&8fold_id=446718461246",
+      "https://qualcomm.eightfold.ai/careers/job/446718599884?8fold_id=446718599884",
+      "https://qualcomm.eightfold.ai/careers/job/446718642602?8fold_id=446718642602",
+      "https://qualcomm.eightfold.ai/careers/job/446718660708?8fold_id=446718660708",
+      "https://qualcomm.eightfold.ai/careers/job/446718829125?8fold_id=446718829125",
+      "https://qualcomm.eightfold.ai/careers/job/446718850626?8fold_id=446718850626",
+      "https://qualcomm.eightfold.ai/careers/job/446718913836?8fold_id=446718913836",
+      "https://qualcomm.eightfold.ai/careers/job/446719065885?domain=qualcomm.com&8fold_id=446719065885",
+      "https://qualcomm.eightfold.ai/careers/job/446719107884?8fold_id=446719107884",
+      "https://qualcomm.eightfold.ai/careers/job/446719111366?8fold_id=446719111366",
+      "https://qualcomm.eightfold.ai/careers/job/446719119990?8fold_id=446719119990",
+      "https://qualcomm.eightfold.ai/careers/job/446719138746?domain=qualcomm.com&8fold_id=446719138746",
+      "https://qualcomm.eightfold.ai/careers/job/446719381139?8fold_id=446719381139",
+      "https://qualcomm.eightfold.ai/careers/job/446719413110?8fold_id=446719413110",
+      "https://qualcomm.eightfold.ai/careers/job/446719424403?8fold_id=446719424403",
+      "https://qualcomm.eightfold.ai/careers/job/446719428032?8fold_id=446719428032",
+      "https://qualcomm.eightfold.ai/careers/job/446719433144?8fold_id=446719433144",
+      "https://qualcomm.eightfold.ai/careers/job/446719442974?8fold_id=446719442974",
+      "https://qualcomm.eightfold.ai/careers/job/446719451102?domain=qualcomm.com&8fold_id=446719451102",
+      "https://qualcomm.eightfold.ai/careers/job/446719461914?8fold_id=446719461914",
+      "https://qualcomm.eightfold.ai/careers/job/446719505853?domain=qualcomm.com&8fold_id=446719505853",
+      "https://qualcomm.eightfold.ai/careers/job/446719523482?8fold_id=446719523482",
+      "https://qualcomm.eightfold.ai/careers/job/446719560755?8fold_id=446719560755",
+      "https://qualcomm.eightfold.ai/careers/job/446719582018?8fold_id=446719582018",
+      "https://qualcomm.eightfold.ai/careers/job/446719587824?8fold_id=446719587824",
+      "https://qualcomm.eightfold.ai/careers/job/446719591126?8fold_id=446719591126",
+      "https://qualcomm.eightfold.ai/careers/job/446719628594?8fold_id=446719628594",
+      "https://qualcomm.eightfold.ai/careers/job/446719639426?8fold_id=446719639426",
+      "https://qualcomm.eightfold.ai/careers/job/446719649484?8fold_id=446719649484",
+      "https://qualcomm.eightfold.ai/careers/job/446719653001?8fold_id=446719653001",
+      "https://qualcomm.eightfold.ai/careers/job/446719653280?8fold_id=446719653280",
+      "https://qualcomm.eightfold.ai/careers/job/446719654146?8fold_id=446719654146",
+      "https://qualcomm.eightfold.ai/careers/job/446719664310?8fold_id=446719664310",
+      "https://qualcomm.eightfold.ai/careers/job/446719671480?8fold_id=446719671480",
+      "https://qualcomm.eightfold.ai/careers/job/446719701719?8fold_id=446719701719",
+      "https://qualcomm.eightfold.ai/careers/job/446719729998?8fold_id=446719729998",
+      "https://qualcomm.eightfold.ai/careers/job/446719734668?domain=qualcomm.com&8fold_id=446719734668",
+      "https://qualcomm.eightfold.ai/careers/job/446719744381?8fold_id=446719744381",
+      "https://qualcomm.eightfold.ai/careers/job/446719751723?domain=qualcomm.com&8fold_id=446719751723",
+      "https://qualcomm.eightfold.ai/careers/job/446719752421?domain=qualcomm.com&8fold_id=446719752421",
+      "https://qualcomm.eightfold.ai/careers/job/446719766721?8fold_id=446719766721",
+      "https://qualcomm.eightfold.ai/careers/job/446719788351?domain=qualcomm.com&8fold_id=446719788351",
+      "https://qualcomm.eightfold.ai/careers/job/446719788994?8fold_id=446719788994",
+      "https://qualcomm.eightfold.ai/careers/job/446719797675?domain=qualcomm.com&8fold_id=446719797675",
+      "https://qualcomm.eightfold.ai/careers/job/446719797690?domain=qualcomm.com&8fold_id=446719797690",
+      "https://qualcomm.eightfold.ai/careers/job/446719804193?domain=qualcomm.com&8fold_id=446719804193",
+      "https://qualcomm.eightfold.ai/careers/job/446719824345?8fold_id=446719824345",
+      "https://qualcomm.eightfold.ai/careers/job/446719837521?domain=qualcomm.com&8fold_id=446719837521",
+      "https://qualcomm.eightfold.ai/careers/job/446719838669?domain=qualcomm.com&8fold_id=446719838669",
+      "https://qualcomm.eightfold.ai/careers/job/446719856172?domain=qualcomm.com&8fold_id=446719856172",
+      "https://qualcomm.eightfold.ai/careers/job/446719856175?domain=qualcomm.com&8fold_id=446719856175",
+      "https://qualcomm.eightfold.ai/careers/job/446719868770?domain=qualcomm.com&8fold_id=446719868770",
+      "https://qualcomm.eightfold.ai/careers/job/446719869770?domain=qualcomm.com&8fold_id=446719869770",
+      "https://qualcomm.eightfold.ai/careers/job/446719871565?domain=qualcomm.com&8fold_id=446719871565",
+      "https://qualcomm.eightfold.ai/careers/job/446719874307?domain=qualcomm.com&8fold_id=446719874307",
+      "https://qualcomm.eightfold.ai/careers/job/446719874331?domain=qualcomm.com&8fold_id=446719874331",
+      "https://qualcomm.eightfold.ai/careers/job/446719875302?domain=qualcomm.com&8fold_id=446719875302",
+      "https://qualcomm.eightfold.ai/careers/job/446719875303?domain=qualcomm.com&8fold_id=446719875303",
+      "https://qualcomm.eightfold.ai/careers/job/446719875304?domain=qualcomm.com&8fold_id=446719875304",
+      "https://qualcomm.eightfold.ai/careers/job/446719875312?domain=qualcomm.com&8fold_id=446719875312",
+      "https://qualcomm.eightfold.ai/careers/job/446719879634?domain=qualcomm.com&8fold_id=446719879634",
+      "https://qualcomm.eightfold.ai/careers/job/446719898498?domain=qualcomm.com&8fold_id=446719898498",
+      "https://qualcomm.eightfold.ai/careers/job/446719919021?domain=qualcomm.com&8fold_id=446719919021",
+      "https://qualcomm.eightfold.ai/careers/job/446719935379?domain=qualcomm.com&8fold_id=446719935379",
+      "https://qualcomm.eightfold.ai/careers/job/446719935811?domain=qualcomm.com&8fold_id=446719935811",
+      "https://qualcomm.eightfold.ai/careers/job/446719935827?domain=qualcomm.com&8fold_id=446719935827",
+      "https://qualcomm.eightfold.ai/careers/job/446719946738?domain=qualcomm.com&8fold_id=446719946738",
+      "https://qualcomm.eightfold.ai/careers/job/446719948521?domain=qualcomm.com&8fold_id=446719948521"
+    ]
   },
   {
     "name": "qualtrics",
@@ -21274,7 +21419,8 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR352082-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Data-Engineer---MTS-SMTS_JR338891-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/GVC-Cloud-Nightforce-Support-Engineer--US-Citizen-Only-_JR350799",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/SMTS--Senior-Software-Backend-Engineer_JR312327"
     ]
   },
   {
@@ -21716,7 +21862,126 @@
     "identifier": "searchcareers.caci.com",
     "domain": "caci.com",
     "page": "https://searchcareers.caci.com/api/pcsx/search?domain=caci.com",
-    "urls": []
+    "urls": [
+      "https://searchcareers.caci.com/careers/job/1443148807631?domain=caci.com&8fold_id=1443148807631",
+      "https://searchcareers.caci.com/careers/job/1443148812309?8fold_id=1443148812309",
+      "https://searchcareers.caci.com/careers/job/1443149719061?8fold_id=1443149719061",
+      "https://searchcareers.caci.com/careers/job/1443150163921?8fold_id=1443150163921",
+      "https://searchcareers.caci.com/careers/job/1443150257957?8fold_id=1443150257957",
+      "https://searchcareers.caci.com/careers/job/1443150300293?8fold_id=1443150300293",
+      "https://searchcareers.caci.com/careers/job/1443150468517?8fold_id=1443150468517",
+      "https://searchcareers.caci.com/careers/job/1443150585375?8fold_id=1443150585375",
+      "https://searchcareers.caci.com/careers/job/1443150826066?8fold_id=1443150826066",
+      "https://searchcareers.caci.com/careers/job/1443150897455?domain=caci.com&8fold_id=1443150897455",
+      "https://searchcareers.caci.com/careers/job/1443150966250?8fold_id=1443150966250",
+      "https://searchcareers.caci.com/careers/job/1443150987865?domain=caci.com&8fold_id=1443150987865",
+      "https://searchcareers.caci.com/careers/job/1443151016752?8fold_id=1443151016752",
+      "https://searchcareers.caci.com/careers/job/1443151041563?8fold_id=1443151041563",
+      "https://searchcareers.caci.com/careers/job/1443151088660?8fold_id=1443151088660",
+      "https://searchcareers.caci.com/careers/job/1443151094131?8fold_id=1443151094131",
+      "https://searchcareers.caci.com/careers/job/1443151098204?domain=caci.com&8fold_id=1443151098204",
+      "https://searchcareers.caci.com/careers/job/1443151225562?8fold_id=1443151225562",
+      "https://searchcareers.caci.com/careers/job/1443151235027?domain=caci.com&8fold_id=1443151235027",
+      "https://searchcareers.caci.com/careers/job/1443151235399?domain=caci.com&8fold_id=1443151235399",
+      "https://searchcareers.caci.com/careers/job/1443151336281?domain=caci.com&8fold_id=1443151336281",
+      "https://searchcareers.caci.com/careers/job/1443151336545?8fold_id=1443151336545",
+      "https://searchcareers.caci.com/careers/job/1443151358079?8fold_id=1443151358079",
+      "https://searchcareers.caci.com/careers/job/1443151415826?8fold_id=1443151415826",
+      "https://searchcareers.caci.com/careers/job/1443151415827?8fold_id=1443151415827",
+      "https://searchcareers.caci.com/careers/job/1443151487583?8fold_id=1443151487583",
+      "https://searchcareers.caci.com/careers/job/1443151495317?domain=caci.com&8fold_id=1443151495317",
+      "https://searchcareers.caci.com/careers/job/1443151513765?8fold_id=1443151513765",
+      "https://searchcareers.caci.com/careers/job/1443151515305?8fold_id=1443151515305",
+      "https://searchcareers.caci.com/careers/job/1443151517320?8fold_id=1443151517320",
+      "https://searchcareers.caci.com/careers/job/1443151517321?8fold_id=1443151517321",
+      "https://searchcareers.caci.com/careers/job/1443151519267?8fold_id=1443151519267",
+      "https://searchcareers.caci.com/careers/job/1443151526590?8fold_id=1443151526590",
+      "https://searchcareers.caci.com/careers/job/1443151526672?domain=caci.com&8fold_id=1443151526672",
+      "https://searchcareers.caci.com/careers/job/1443151591952?domain=caci.com&8fold_id=1443151591952",
+      "https://searchcareers.caci.com/careers/job/1443151697471?domain=caci.com&8fold_id=1443151697471",
+      "https://searchcareers.caci.com/careers/job/1443151764766?8fold_id=1443151764766",
+      "https://searchcareers.caci.com/careers/job/1443151778093?8fold_id=1443151778093",
+      "https://searchcareers.caci.com/careers/job/1443151789383?domain=caci.com&8fold_id=1443151789383",
+      "https://searchcareers.caci.com/careers/job/1443151819673?8fold_id=1443151819673",
+      "https://searchcareers.caci.com/careers/job/1443151819675?8fold_id=1443151819675",
+      "https://searchcareers.caci.com/careers/job/1443151836627?8fold_id=1443151836627",
+      "https://searchcareers.caci.com/careers/job/1443151839733?domain=caci.com&8fold_id=1443151839733",
+      "https://searchcareers.caci.com/careers/job/1443151864305?domain=caci.com&8fold_id=1443151864305",
+      "https://searchcareers.caci.com/careers/job/1443151870954?domain=caci.com&8fold_id=1443151870954",
+      "https://searchcareers.caci.com/careers/job/1443151871048?8fold_id=1443151871048",
+      "https://searchcareers.caci.com/careers/job/1443151923277?8fold_id=1443151923277",
+      "https://searchcareers.caci.com/careers/job/1443151929179?8fold_id=1443151929179",
+      "https://searchcareers.caci.com/careers/job/1443151992950?8fold_id=1443151992950",
+      "https://searchcareers.caci.com/careers/job/1443151993887?8fold_id=1443151993887",
+      "https://searchcareers.caci.com/careers/job/1443151994761?domain=caci.com&8fold_id=1443151994761",
+      "https://searchcareers.caci.com/careers/job/1443151995959?8fold_id=1443151995959",
+      "https://searchcareers.caci.com/careers/job/1443151998031?8fold_id=1443151998031",
+      "https://searchcareers.caci.com/careers/job/1443151998295?8fold_id=1443151998295",
+      "https://searchcareers.caci.com/careers/job/1443151999092?8fold_id=1443151999092",
+      "https://searchcareers.caci.com/careers/job/1443152001216?8fold_id=1443152001216",
+      "https://searchcareers.caci.com/careers/job/1443152001489?8fold_id=1443152001489",
+      "https://searchcareers.caci.com/careers/job/1443152001491?domain=caci.com&8fold_id=1443152001491",
+      "https://searchcareers.caci.com/careers/job/1443152023711?8fold_id=1443152023711",
+      "https://searchcareers.caci.com/careers/job/1443152026700?8fold_id=1443152026700",
+      "https://searchcareers.caci.com/careers/job/1443152039403?8fold_id=1443152039403",
+      "https://searchcareers.caci.com/careers/job/1443152059376?domain=caci.com&8fold_id=1443152059376",
+      "https://searchcareers.caci.com/careers/job/1443152061817?8fold_id=1443152061817",
+      "https://searchcareers.caci.com/careers/job/1443152063065?8fold_id=1443152063065",
+      "https://searchcareers.caci.com/careers/job/1443152063319?8fold_id=1443152063319",
+      "https://searchcareers.caci.com/careers/job/1443152082317?8fold_id=1443152082317",
+      "https://searchcareers.caci.com/careers/job/1443152082583?8fold_id=1443152082583",
+      "https://searchcareers.caci.com/careers/job/1443152082768?8fold_id=1443152082768",
+      "https://searchcareers.caci.com/careers/job/1443152082807?8fold_id=1443152082807",
+      "https://searchcareers.caci.com/careers/job/1443152082861?8fold_id=1443152082861",
+      "https://searchcareers.caci.com/careers/job/1443152083383?8fold_id=1443152083383",
+      "https://searchcareers.caci.com/careers/job/1443152083439?8fold_id=1443152083439",
+      "https://searchcareers.caci.com/careers/job/1443152083454?8fold_id=1443152083454",
+      "https://searchcareers.caci.com/careers/job/1443152083546?8fold_id=1443152083546",
+      "https://searchcareers.caci.com/careers/job/1443152083841?8fold_id=1443152083841",
+      "https://searchcareers.caci.com/careers/job/1443152083989?8fold_id=1443152083989",
+      "https://searchcareers.caci.com/careers/job/1443152137786?8fold_id=1443152137786",
+      "https://searchcareers.caci.com/careers/job/1443152138516?8fold_id=1443152138516",
+      "https://searchcareers.caci.com/careers/job/1443152145299?8fold_id=1443152145299",
+      "https://searchcareers.caci.com/careers/job/1443152147343?8fold_id=1443152147343",
+      "https://searchcareers.caci.com/careers/job/1443152148783?8fold_id=1443152148783",
+      "https://searchcareers.caci.com/careers/job/1443152149340?8fold_id=1443152149340",
+      "https://searchcareers.caci.com/careers/job/1443152149592?8fold_id=1443152149592",
+      "https://searchcareers.caci.com/careers/job/1443152154802?8fold_id=1443152154802",
+      "https://searchcareers.caci.com/careers/job/1443152173251?8fold_id=1443152173251",
+      "https://searchcareers.caci.com/careers/job/1443152173253?8fold_id=1443152173253",
+      "https://searchcareers.caci.com/careers/job/1443152174584?8fold_id=1443152174584",
+      "https://searchcareers.caci.com/careers/job/1443152200281?8fold_id=1443152200281",
+      "https://searchcareers.caci.com/careers/job/1443152201029?8fold_id=1443152201029",
+      "https://searchcareers.caci.com/careers/job/1443152203551?8fold_id=1443152203551",
+      "https://searchcareers.caci.com/careers/job/1443152204684?8fold_id=1443152204684",
+      "https://searchcareers.caci.com/careers/job/1443152205859?8fold_id=1443152205859",
+      "https://searchcareers.caci.com/careers/job/1443152206622?8fold_id=1443152206622",
+      "https://searchcareers.caci.com/careers/job/1443152207097?8fold_id=1443152207097",
+      "https://searchcareers.caci.com/careers/job/1443152209373?8fold_id=1443152209373",
+      "https://searchcareers.caci.com/careers/job/1443152209620?8fold_id=1443152209620",
+      "https://searchcareers.caci.com/careers/job/1443152210238?8fold_id=1443152210238",
+      "https://searchcareers.caci.com/careers/job/1443152230037?8fold_id=1443152230037",
+      "https://searchcareers.caci.com/careers/job/1443152232189?8fold_id=1443152232189",
+      "https://searchcareers.caci.com/careers/job/1443152232487?8fold_id=1443152232487",
+      "https://searchcareers.caci.com/careers/job/1443152235376?8fold_id=1443152235376",
+      "https://searchcareers.caci.com/careers/job/1443152235672?8fold_id=1443152235672",
+      "https://searchcareers.caci.com/careers/job/1443152278227?domain=caci.com&8fold_id=1443152278227",
+      "https://searchcareers.caci.com/careers/job/1443152281491?domain=caci.com&8fold_id=1443152281491",
+      "https://searchcareers.caci.com/careers/job/1443152286018?domain=caci.com&8fold_id=1443152286018",
+      "https://searchcareers.caci.com/careers/job/1443152309383?domain=caci.com&8fold_id=1443152309383",
+      "https://searchcareers.caci.com/careers/job/1443152310235?domain=caci.com&8fold_id=1443152310235",
+      "https://searchcareers.caci.com/careers/job/1443152324328?domain=caci.com&8fold_id=1443152324328",
+      "https://searchcareers.caci.com/careers/job/1443152325245?domain=caci.com&8fold_id=1443152325245",
+      "https://searchcareers.caci.com/careers/job/1443152326555?domain=caci.com&8fold_id=1443152326555",
+      "https://searchcareers.caci.com/careers/job/1443152329287?domain=caci.com&8fold_id=1443152329287",
+      "https://searchcareers.caci.com/careers/job/1443152357455?domain=caci.com&8fold_id=1443152357455",
+      "https://searchcareers.caci.com/careers/job/1443152359635?domain=caci.com&8fold_id=1443152359635",
+      "https://searchcareers.caci.com/careers/job/1443152360112?domain=caci.com&8fold_id=1443152360112",
+      "https://searchcareers.caci.com/careers/job/1443152398595?domain=caci.com&8fold_id=1443152398595",
+      "https://searchcareers.caci.com/careers/job/1443152398596?domain=caci.com&8fold_id=1443152398596",
+      "https://searchcareers.caci.com/careers/job/1443152399877?domain=caci.com&8fold_id=1443152399877",
+      "https://searchcareers.caci.com/careers/job/1443152408175?domain=caci.com&8fold_id=1443152408175"
+    ]
   },
   {
     "name": "Seaspan",
@@ -21841,17 +22106,19 @@
   {
     "name": "semtech",
     "ats": "workday",
-    "identifier": "semtech-semtechcareers",
-    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechcareers",
-    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechcareers/jobs",
-    "urls": []
+    "identifier": "semtech-semtechjobs",
+    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechjobs",
+    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
+    "urls": [
+      "https://semtech.wd1.myworkdayjobs.com/semtechjobs/job/CAN---Burlington-ON/Salesforce-QA---Data-Analyst-Intern_REQ3488-2"
+    ]
   },
   {
     "name": "semtech",
     "ats": "workday",
-    "identifier": "semtech-semtechjobs",
-    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechjobs",
-    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechjobs/jobs",
+    "identifier": "semtech-semtechcareers",
+    "domain": "https://semtech.wd1.myworkdayjobs.com/semtechcareers",
+    "page": "https://semtech.wd1.myworkdayjobs.com/wday/cxs/semtech/semtechcareers/jobs",
     "urls": []
   },
   {
