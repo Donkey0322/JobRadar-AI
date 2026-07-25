@@ -2,10 +2,6 @@
 
 [← Back to the main job board](../README.md)
 
-The latest off season intern opportunities tracked by JobRadar AI.
-
-Total available: **149**
-
 <table width="100%">
   <thead>
     <tr>
@@ -723,4 +719,4 @@ Total available: **149**
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T08:30:02.550Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-25T08:32:28.808Z</code></sub>
