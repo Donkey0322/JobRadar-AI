@@ -561,11 +561,11 @@
 <p><sub>Showing 20 of 944 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (6,369)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (6,371)</b></summary>
 
   <br />
 
-  <h3>Mid Level (3,531)</h3>
+  <h3>Mid Level (3,533)</h3>
 
 <table width="100%">
   <thead>
@@ -578,6 +578,20 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Apply.careers.microsoft.com</td>
+      <td width="420" align="left" valign="top">Data Scientist</td>
+      <td width="180" align="left" valign="top">Remote, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556941429?domain=microsoft.com&amp;8fold_id=1970393556941429"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 25</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Anduril Industries</td>
+      <td width="420" align="left" valign="top">Data Engineer, Manufacturing Quality<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5167749007?gh_jid=5167749007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 25</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">SpaceX</td>
       <td width="420" align="left" valign="top">Security Engineer (Detection Engineering)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -704,23 +718,9 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/IOMAXISLLC/3743990014280546"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fox</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Los Angeles, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://fox.wd1.myworkdayjobs.com/domestic/job/Los-Angeles-California-USA/Solutions-Engineer_R50033224"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Composio</td>
-      <td width="420" align="left" valign="top">QA Engineer, Integrations and AI Agents</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/composio/8fdbf4ff-7585-4f5c-89dc-c1e3b891ac76"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,531 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,533 opportunities in this section.</sub></p>
 
   <h3>Senior Level (2,838)</h3>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-25T04:36:13.450Z</code>
+      🕒 Last updated <code>2026-07-25T07:32:18.827Z</code>
     </span>
   </p>
 </div>
