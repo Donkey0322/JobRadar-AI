@@ -30,6 +30,7 @@ const identifierMap: Record<string, string> = {
   "cra.com": "charlesriveranalytics90",
   "precisely.com": "preciselyusjobs",
   "tower-research.com": "towerresearchcapital",
+  "careers.airbnb.com": "airbnb",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
@@ -145,7 +146,7 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
 
   protected normalizeJob(job: GreenhouseJob, company: Company): Job {
     return {
-      company: job.company_name || company.name,
+      company: job.company_name ?? company.name,
       role: job.title,
       link: this.getJobLink(job, company),
       location: job.location?.name ?? "",

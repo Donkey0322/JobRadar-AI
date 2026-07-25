@@ -332,6 +332,19 @@ describe("getCustomKey", () => {
     expect(result).toBe(expected);
   });
 
+  it("uses custom company identifier with numeric pathname id and hyphen", () => {
+    // Arrange
+    const url =
+      "https://jobs.apple.com/en-us/details/200670523-0836/screening-integration-engineer-watch-software?team=SFTWR";
+    const expected = "apple:200670523-0836";
+
+    // Act
+    const result = getCustomKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
   it("extracts REQ id from jobReq query param", () => {
     // Arrange
     const url = "https://careers.salesforce.com/en/jobs?jobReq=REQ-123456&source=LinkedIn";

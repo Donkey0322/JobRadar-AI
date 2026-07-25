@@ -418,7 +418,7 @@ function extractTitleCompanyName(html: string): string | null {
   return normalized;
 }
 
-function extractCompanyName(html: string): string | null {
+export function extractCompanyName(html: string): string | null {
   const candidates = [
     extractJsonLdCompanyName(html),
     extractMetaContent(html, "property", "og:site_name"),
@@ -682,11 +682,8 @@ export class PhenomFetcher extends ATSFetcher<PhenomJob> {
       const jobs: Job[] = [];
 
       for (let page = 0; page < MAX_PAGES; page++) {
-        const rawJobs = await fetchPhenomPage(
-          page,
-          session,
-          signal,
-          (data) => this.getJobsFromResponse(data, resolvedCompany)
+        const rawJobs = await fetchPhenomPage(page, session, signal, (data) =>
+          this.getJobsFromResponse(data, resolvedCompany)
         );
         if (rawJobs.length === 0) {
           break;

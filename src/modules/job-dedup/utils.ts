@@ -12,7 +12,14 @@ export function normalizeUrl(url: string): string {
 }
 
 export function getLastPathNumber(pathname: string): string | null {
-  const matches = [...pathname.matchAll(/\/(\d+)/g)];
+  const segments = pathname.split("/").filter(Boolean);
 
-  return matches.at(-1)?.[1] ?? null;
+  for (let i = segments.length - 1; i >= 0; i--) {
+    const match = segments[i].match(/^(\d+(?:-\d+)*)/);
+    if (match) {
+      return match[1];
+    }
+  }
+
+  return null;
 }

@@ -29,7 +29,6 @@ async function main() {
       targetedOpportunities.push(job);
     }
   }
-  await saveOpportunities(targetedOpportunities, true);
 
   const limit = pLimit(CONCURRENCY);
   let completed = 0;
@@ -63,6 +62,10 @@ async function main() {
   console.log({ validUrls: validUrls.length }, `${GREEN_CHECKMARK} Successfully cleaned urls`);
 
   await saveUrls(new Set(validUrls));
+  await saveOpportunities(
+    targetedOpportunities.filter((job) => validUrls.includes(job.link)),
+    true
+  );
 
   return validUrls;
 }

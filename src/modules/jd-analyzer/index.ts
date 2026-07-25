@@ -75,9 +75,9 @@ export async function getRawJD(
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<JDFetchResult> {
   try {
-    const urlType = classifyATS(new URL(url));
+    const ats = classifyATS(new URL(url));
 
-    switch (urlType) {
+    switch (ats) {
       case "ashby":
         return finishRawJD(await fetchAshbyJD(url, signal));
       case "eightfold":
@@ -92,7 +92,12 @@ export async function getRawJD(
         return finishRawJD(await fetchSmartRecruitersJD(url, signal));
       case "workday":
         return finishRawJD(await fetchWorkdayJD(url, signal));
+      case "lever":
+      case "phenom":
+      case "custom":
+        return finishRawJD(await fetchCustomJD(url, signal));
       default:
+        ats satisfies never;
         return finishRawJD(await fetchCustomJD(url, signal));
     }
   } catch (e) {
