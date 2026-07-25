@@ -10,6 +10,7 @@ import { isTarget } from "../utils";
 
 import { ATSFetcher } from "./class";
 
+import { getJobKey } from "@/modules/job-dedup";
 import { findIcimsIframeSrc, isIcimsUrl, normalizeIcimsUrl } from "@/modules/shared/ats/icims";
 import { decodeHtmlEntities } from "@/utils/html";
 import { fetchHtmlResponse } from "@/utils/http";
@@ -199,14 +200,15 @@ export class IcimsFetcher extends ATSFetcher<IcimsJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     const allJobs: Job[] = [];
 
-    // Important:
-    // Use a local Set for deduping inside this fetcher.
-    // Do not mutate the caller's urls Set, because the outer layer may use it
-    // after fetchIcims returns to decide which jobs are new.
-    const seenUrls = new Set(urls);
+    // Keep pagination deduplication local so the caller's key set stays immutable.
+    const seenKeys = new Set(knownKeys);
 
     try {
       const searchPage = await resolveSearchPage(company, signal);
@@ -226,8 +228,8 @@ export class IcimsFetcher extends ATSFetcher<IcimsJob> {
         const opportunities = rawJobs
           .filter((job) => {
             const link = this.getJobLink(job, company);
-            if (!isTarget(job.title) || seenUrls.has(link)) return false;
-            seenUrls.add(link);
+            if (!isTarget(job.title) || this.isKnownJob(link, seenKeys)) return false;
+            seenKeys.add(getJobKey(link));
             return true;
           })
           .map((job) => this.normalizeJob(job, company));

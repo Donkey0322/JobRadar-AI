@@ -1,4 +1,4 @@
-import { classifyATS } from "../company-tacker/ats";
+import { classifyATS } from "../company-tacker/ats/classifier";
 
 import {
   getAshbyKey,
@@ -57,6 +57,14 @@ export function getJobKey(url: string) {
   } catch {
     return `url:${url}`;
   }
+}
+
+export function toJobKeySet(urls: Iterable<string>) {
+  return new Set(Array.from(urls, getJobKey));
+}
+
+export function isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
+  return knownKeys.has(getJobKey(link));
 }
 
 export function groupUrlsByKey(urls: string[] | Set<string>) {

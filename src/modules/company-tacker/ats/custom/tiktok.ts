@@ -8,6 +8,7 @@ import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
 
+import { isKnownJob } from "@/modules/job-dedup";
 import { logger } from "@/utils/logger";
 
 const TIKTOK_CAREERS_URL = "https://lifeattiktok.com";
@@ -76,7 +77,7 @@ function normalizeTikTokJob(job: TikTokJob): Job {
 
 export async function fetchTikTok(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -111,7 +112,7 @@ export async function fetchTikTok(
     const rawJobs = getTikTokJobsFromResponse(await res.json());
 
     const opportunities = rawJobs
-      .filter((job) => isTarget(job.title) && !urls.has(getTikTokJobLink(job)))
+      .filter((job) => isTarget(job.title) && !isKnownJob(getTikTokJobLink(job), knownKeys))
       .map(normalizeTikTokJob);
 
     return opportunities;

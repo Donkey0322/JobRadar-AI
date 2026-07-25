@@ -78,7 +78,11 @@ export class LeverFetcher extends ATSFetcher<LeverJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     try {
       const res = await fetch(company.page, {
         signal,
@@ -96,14 +100,17 @@ export class LeverFetcher extends ATSFetcher<LeverJob> {
         .filter(
           (job) =>
             isTarget(job.text) &&
-            !urls.has(this.getJobLink(job, company)) &&
+            !this.isKnownJob(this.getJobLink(job, company), knownKeys) &&
             withinDays(job.createdAt)
         )
         .map((job) => this.normalizeJob(job, company));
 
       return opportunities;
     } catch (error) {
-      if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      if (
+        error instanceof Error &&
+        (error.name === "TimeoutError" || error.name === "AbortError")
+      ) {
         logger.warn(
           {
             company: company.name,

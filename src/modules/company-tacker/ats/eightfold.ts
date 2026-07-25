@@ -126,7 +126,11 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     const allJobs: Job[] = [];
 
     try {
@@ -169,7 +173,7 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
             }
 
             const link = this.getJobLink(job, company);
-            return !!(job.name && link && isTarget(job.name) && !urls.has(link));
+            return !!(job.name && link && isTarget(job.name) && !this.isKnownJob(link, knownKeys));
           })
           .map((job) => this.normalizeJob(job, company));
 

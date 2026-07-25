@@ -7,6 +7,7 @@ import type { Company } from "../../type";
 import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "@/modules/company-tacker/utils";
+import { isKnownJob } from "@/modules/job-dedup";
 import { logger } from "@/utils/logger";
 
 const AMAZON_CAREERS_URL = "https://amazon.jobs";
@@ -71,7 +72,7 @@ function normalizeAmazonJob(job: AmazonJob): Job {
 
 export async function fetchAmazon(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -89,7 +90,7 @@ export async function fetchAmazon(
 
         return (
           isTarget(title) &&
-          !urls.has(link) &&
+          !isKnownJob(link, knownKeys) &&
           (withinDays(job.createdDate?.[0]) || withinDays(job.updatedDate?.[0]))
         );
       })

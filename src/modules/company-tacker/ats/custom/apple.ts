@@ -9,6 +9,7 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../../utils";
 
+import { isKnownJob } from "@/modules/job-dedup";
 import { logger } from "@/utils/logger";
 import { cleanText } from "@/utils/string";
 
@@ -110,7 +111,7 @@ function normalizeAppleJob(job: AppleJob): Job {
 
 export async function fetchApple(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -130,7 +131,7 @@ export async function fetchApple(
       }
 
       const opportunities = rawJobs
-        .filter((job) => isTarget(job.title) && !urls.has(job.link))
+        .filter((job) => isTarget(job.title) && !isKnownJob(job.link, knownKeys))
         .map(normalizeAppleJob);
 
       jobs.push(...opportunities);

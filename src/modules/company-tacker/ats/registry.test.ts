@@ -20,7 +20,7 @@ vi.mock("@/utils/logger", () => ({
 import type { ATS, Company } from "../type";
 
 import { buildCompanyList } from "../company";
-import { fetchJobs } from "../fetch";
+import discoverJobs, { fetchJobs } from "../fetch";
 
 import { ashbyFetcher } from "./ashby";
 import { ATSFetcher } from "./class";
@@ -34,6 +34,8 @@ import { phenomFetcher } from "./phenom";
 import { atsFetchers, getATSFetcher } from "./registry";
 import { smartRecruitersFetcher } from "./smart";
 import { workdayFetcher } from "./workday";
+
+import { toJobKeySet } from "@/modules/job-dedup";
 
 const allATS = [
   "ashby",
@@ -119,11 +121,29 @@ describe("ATS fetcher registry", () => {
       { company: "Acme", role: "Known", link: existing, location: "Remote" },
       { company: "Acme", role: "New", link: discovered, location: "Remote" },
     ]);
-    const urls = new Set([existing]);
+    const knownKeys = toJobKeySet([existing]);
 
-    await expect(fetchJobs(company, urls)).resolves.toEqual([
+    await expect(fetchJobs(company, knownKeys)).resolves.toEqual([
       { company: "Acme", role: "New", link: discovered, location: "Remote" },
     ]);
-    expect(fetch).toHaveBeenCalledWith(company, urls, expect.any(AbortSignal));
+    expect(fetch).toHaveBeenCalledWith(company, knownKeys, expect.any(AbortSignal));
+  });
+
+  it("converts company URLs to keys before dispatching an adapter", async () => {
+    const existing = "https://jobs.lever.co/acme/known";
+    const company: Company = {
+      name: "acme",
+      ats: "lever",
+      identifier: "acme",
+      domain: "https://jobs.lever.co",
+      page: "https://api.lever.co/v0/postings/acme",
+      urls: [existing],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([company]);
+    const fetch = vi.spyOn(leverFetcher, "fetch").mockResolvedValue([]);
+
+    await expect(discoverJobs()).resolves.toEqual([]);
+
+    expect(fetch).toHaveBeenCalledWith(company, new Set(["lever:known"]), expect.any(AbortSignal));
   });
 });

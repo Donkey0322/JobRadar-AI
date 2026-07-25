@@ -11,42 +11,18 @@ import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
 import { fetchGoogle, GoogleCompany } from "./google";
+import { parseCustomCompanyIdentifier } from "./identifier";
 import { fetchMeta, MetaCompany } from "./meta";
 import { fetchNetflix, NetflixCompany } from "./netflix";
 import { fetchTikTok, TikTokCompany } from "./tiktok";
 
 import { logger } from "@/utils/logger";
 
-type CustomCompanyIdentifier =
-  | "amazon"
-  | "google"
-  | "meta"
-  | "apple"
-  | "netflix"
-  | "tiktok"
-  | "amd";
-
-export const CUSTOM_COMPANY_DOMAINS = {
-  amazon: "amazon.jobs",
-  google: "google.com",
-  meta: "metacareers.com",
-  apple: "jobs.apple.com",
-  netflix: "netflix.net",
-  tiktok: "tiktok.com",
-  amd: "amd.com",
-} satisfies Record<CustomCompanyIdentifier, string>;
-
-export function parseCustomCompanyIdentifier(url: URL): CustomCompanyIdentifier | null {
-  const host = url.hostname;
-
-  for (const [identifier, domain] of Object.entries(CUSTOM_COMPANY_DOMAINS)) {
-    if (host.endsWith(domain)) {
-      return identifier as CustomCompanyIdentifier;
-    }
-  }
-
-  return null;
-}
+export {
+  CUSTOM_COMPANY_DOMAINS,
+  parseCustomCompanyIdentifier,
+  type CustomCompanyIdentifier,
+} from "./identifier";
 
 export class CustomFetcher extends ATSFetcher<Job> {
   readonly ats = "custom" as const;
@@ -110,7 +86,11 @@ export class CustomFetcher extends ATSFetcher<Job> {
     return job;
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     if (company.page === "") {
       // logger.warn({ company: company.name }, `⚠️ No page specified`);
       return [];
@@ -121,25 +101,25 @@ export class CustomFetcher extends ATSFetcher<Job> {
 
       switch (identifier) {
         case "amazon": {
-          return await fetchAmazon(company, urls, signal);
+          return await fetchAmazon(company, knownKeys, signal);
         }
         case "google": {
-          return await fetchGoogle(company, urls, signal);
+          return await fetchGoogle(company, knownKeys, signal);
         }
         case "meta": {
-          return await fetchMeta(company, urls, signal);
+          return await fetchMeta(company, knownKeys, signal);
         }
         case "apple": {
-          return await fetchApple(company, urls, signal);
+          return await fetchApple(company, knownKeys, signal);
         }
         case "netflix": {
-          return await fetchNetflix(company, urls, signal);
+          return await fetchNetflix(company, knownKeys, signal);
         }
         case "tiktok": {
-          return await fetchTikTok(company, urls, signal);
+          return await fetchTikTok(company, knownKeys, signal);
         }
         case "amd": {
-          return await fetchAMD(company, urls, signal);
+          return await fetchAMD(company, knownKeys, signal);
         }
         default:
           identifier satisfies null;

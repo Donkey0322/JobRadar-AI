@@ -1,4 +1,4 @@
-import { parseCustomCompanyIdentifier } from "../company-tacker/ats";
+import { parseCustomCompanyIdentifier } from "../company-tacker/ats/custom/identifier";
 
 import { getLastPathNumber } from "./utils";
 

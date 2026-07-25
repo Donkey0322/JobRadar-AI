@@ -123,7 +123,11 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     let offset = 0;
 
     let page = 0;
@@ -267,7 +271,9 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
     }
 
     const opportunities = results
-      .filter((job) => isTarget(job.title) && !urls.has(this.getJobLink(job, company)))
+      .filter(
+        (job) => isTarget(job.title) && !this.isKnownJob(this.getJobLink(job, company), knownKeys)
+      )
       .map((job) => this.normalizeJob(job, company));
 
     return opportunities;

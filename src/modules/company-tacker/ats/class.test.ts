@@ -15,6 +15,8 @@ import { leverFetcher } from "./lever";
 import { oracleCloudFetcher } from "./oraclecloud";
 import { smartRecruitersFetcher } from "./smart";
 
+import { toJobKeySet } from "@/modules/job-dedup";
+
 const mockFetch = vi.fn<typeof fetch>();
 
 function jsonResponse(data: unknown): Response {
@@ -72,6 +74,7 @@ describe("ATSFetcher pilot adapters", () => {
       urls: [],
     };
     const duplicateUrl = "https://boards.greenhouse.io/acme/jobs/1";
+    const knownAlias = "https://acme.example/careers/software-engineer?gh_jid=1";
 
     mockFetch.mockResolvedValueOnce(
       jsonResponse({
@@ -93,7 +96,7 @@ describe("ATSFetcher pilot adapters", () => {
     );
 
     await expect(
-      greenhouseFetcher.fetch(company, new Set([duplicateUrl]), AbortSignal.timeout(1000))
+      greenhouseFetcher.fetch(company, toJobKeySet([knownAlias]), AbortSignal.timeout(1000))
     ).resolves.toEqual([
       {
         company: "Acme Inc.",
@@ -148,11 +151,7 @@ describe("ATSFetcher pilot adapters", () => {
       })
     );
 
-    const jobs = await eightfoldFetcher.fetch(
-      company,
-      new Set(),
-      AbortSignal.timeout(1000)
-    );
+    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -188,11 +187,7 @@ describe("ATSFetcher pilot adapters", () => {
       .mockResolvedValueOnce(jsonResponse({ data: { positions } }))
       .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
 
-    const jobs = await eightfoldFetcher.fetch(
-      company,
-      new Set(),
-      AbortSignal.timeout(1000)
-    );
+    const jobs = await eightfoldFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(10);
     expect(mockFetch).toHaveBeenCalledTimes(2);

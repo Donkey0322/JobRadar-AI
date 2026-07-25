@@ -14,6 +14,8 @@ import { icimsFetcher } from "./icims";
 import { phenomFetcher } from "./phenom";
 import { workdayFetcher } from "./workday";
 
+import { toJobKeySet } from "@/modules/job-dedup";
+
 const mockFetch = vi.fn<typeof fetch>();
 
 function response(body: string, url: string, headers?: HeadersInit): Response {
@@ -69,7 +71,7 @@ describe("complex ATS adapters", () => {
     });
   });
 
-  it("parses iCIMS HTML without mutating the caller's URL set", async () => {
+  it("parses iCIMS HTML without mutating the caller's key set", async () => {
     const company: Company = {
       name: "acme",
       ats: "icims",
@@ -78,7 +80,7 @@ describe("complex ATS adapters", () => {
       page: "https://careers-acme.icims.com/jobs/search",
       urls: [],
     };
-    const urls = new Set(["https://careers-acme.icims.com/jobs/1/existing-job"]);
+    const knownKeys = toJobKeySet(["https://careers-acme.icims.com/jobs/1/existing-job"]);
     const html = `
       <div class="iCIMS_JobsTable">
         <a href="/jobs/2/software-engineer/job?in_iframe=1">
@@ -90,7 +92,7 @@ describe("complex ATS adapters", () => {
 
     mockFetch.mockResolvedValueOnce(response(html, `${company.page}?pr=0`));
 
-    const jobs = await icimsFetcher.fetch(company, urls, AbortSignal.timeout(1000));
+    const jobs = await icimsFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
 
     expect(jobs).toEqual([
       {
@@ -100,7 +102,7 @@ describe("complex ATS adapters", () => {
         location: "US-CA-San Francisco",
       },
     ]);
-    expect([...urls]).toEqual(["https://careers-acme.icims.com/jobs/1/existing-job"]);
+    expect([...knownKeys]).toEqual(["icims:1"]);
   });
 
   it("isolates concurrent Phenom sessions, cookies, CSRF tokens, and links", async () => {

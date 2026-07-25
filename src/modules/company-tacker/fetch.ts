@@ -3,7 +3,7 @@ import pLimit from "p-limit";
 import type { Company } from "./type";
 import type { Job } from "@/types";
 
-import { getJobKey } from "../job-dedup";
+import { isKnownJob, toJobKeySet } from "../job-dedup";
 
 import { getATSFetcher } from "./ats";
 
@@ -18,23 +18,21 @@ const LEVER_TIMEOUT = 60_000;
 
 const SLOW_THRESHOLD = 10_000;
 
-export async function fetchJobs(company: Company, urls: Set<string>): Promise<Job[]> {
+export async function fetchJobs(company: Company, knownKeys: ReadonlySet<string>): Promise<Job[]> {
   const timeout = company.ats === "lever" ? LEVER_TIMEOUT : FETCH_TIMEOUT;
   const signal = AbortSignal.timeout(timeout);
 
-  const jobs = await getATSFetcher(company.ats).fetch(company, urls, signal);
+  const jobs = await getATSFetcher(company.ats).fetch(company, knownKeys, signal);
 
-  const urlKeys = new Set(Array.from(urls).map(getJobKey));
-
-  return jobs.filter((job) => !urlKeys.has(getJobKey(job.link)));
+  return jobs.filter((job) => !isKnownJob(job.link, knownKeys));
 }
 
 export default async function discoverJobs() {
   const companies = await loadCompanies();
 
-  const companyUrls: Record<string, Set<string>> = companies.reduce(
+  const companyKeys: Record<string, Set<string>> = companies.reduce(
     (acc, company) => {
-      acc[`${company.ats}:${company.identifier}`] = new Set(company.urls);
+      acc[`${company.ats}:${company.identifier}`] = toJobKeySet(company.urls);
 
       return acc;
     },
@@ -68,7 +66,7 @@ export default async function discoverJobs() {
         const start = Date.now();
 
         try {
-          const jobs = await fetchJobs(company, companyUrls[key]);
+          const jobs = await fetchJobs(company, companyKeys[key]);
 
           const duration = Date.now() - start;
 

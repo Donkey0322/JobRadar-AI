@@ -656,7 +656,11 @@ export class PhenomFetcher extends ATSFetcher<PhenomJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     try {
       const session = await getPhenomSession(company.page, signal);
 
@@ -699,7 +703,7 @@ export class PhenomFetcher extends ATSFetcher<PhenomJob> {
 
           const link = this.getJobLink(rawJob, resolvedCompany);
 
-          if (!isTarget(rawJob.title) || urls.has(link)) {
+          if (!isTarget(rawJob.title) || this.isKnownJob(link, knownKeys)) {
             continue;
           }
 

@@ -153,7 +153,11 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     try {
       const response = await fetch(company.page, { signal });
 
@@ -169,7 +173,7 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
           const link = this.getJobLink(job, company);
           return (
             isTarget(job.title) &&
-            !urls.has(link) &&
+            !this.isKnownJob(link, knownKeys) &&
             (withinDays(job.first_published) || withinDays(job.updated_at))
           );
         })

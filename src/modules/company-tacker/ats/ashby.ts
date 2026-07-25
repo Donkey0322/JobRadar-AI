@@ -184,7 +184,11 @@ export class AshbyFetcher extends ATSFetcher<AshbyJob> {
     };
   }
 
-  async fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]> {
+  async fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]> {
     try {
       const res = await fetch(company.page, {
         signal,
@@ -201,14 +205,17 @@ export class AshbyFetcher extends ATSFetcher<AshbyJob> {
         .filter(
           (job) =>
             isTarget(job.title) &&
-            !urls.has(this.getJobLink(job, company)) &&
+            !this.isKnownJob(this.getJobLink(job, company), knownKeys) &&
             withinDays(job.publishedAt)
         )
         .map((job) => this.normalizeJob(job, company));
 
       return opportunities;
     } catch (error) {
-      if (error instanceof Error && (error.name === "TimeoutError" || error.name === "AbortError")) {
+      if (
+        error instanceof Error &&
+        (error.name === "TimeoutError" || error.name === "AbortError")
+      ) {
         logger.warn(
           {
             company: company.name,

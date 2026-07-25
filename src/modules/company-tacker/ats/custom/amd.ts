@@ -8,6 +8,7 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../../utils";
 
+import { isKnownJob } from "@/modules/job-dedup";
 import { logger } from "@/utils/logger";
 
 const AMD_CAREERS_URL = "https://careers.amd.com/careers-home/jobs";
@@ -71,7 +72,7 @@ function normalizeAMDJob(job: AMDJob): Job {
 
 export async function fetchAMD(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -112,7 +113,7 @@ export async function fetchAMD(
             return false;
           }
 
-          return isTarget(job.title) && !urls.has(`${AMD_JOB_URL}/${job.req_id}`);
+          return isTarget(job.title) && !isKnownJob(`${AMD_JOB_URL}/${job.req_id}`, knownKeys);
         })
         .map(normalizeAMDJob);
 

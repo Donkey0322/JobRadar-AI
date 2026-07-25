@@ -8,6 +8,8 @@ import type { Job } from "@/types";
 
 import { isTarget } from "../../utils";
 
+import { isKnownJob } from "@/modules/job-dedup";
+
 const GOOGLE_CAREERS_URL = "https://www.google.com/about/careers/applications";
 
 export const GoogleCompany = {
@@ -84,7 +86,7 @@ function normalizeGoogleJob(job: GoogleJob): Job {
 
 export async function fetchGoogle(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   const jobs: Job[] = [];
@@ -109,7 +111,7 @@ export async function fetchGoogle(
     }
 
     const opportunities = rawJobs
-      .filter((job) => isTarget(job.role) && !urls.has(job.link))
+      .filter((job) => isTarget(job.role) && !isKnownJob(job.link, knownKeys))
       .map(normalizeGoogleJob);
 
     jobs.push(...opportunities);

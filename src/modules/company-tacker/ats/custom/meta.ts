@@ -7,6 +7,7 @@ import type { Company } from "../../type";
 import type { Job } from "@/types";
 
 import { isTarget } from "@/modules/company-tacker/utils";
+import { isKnownJob } from "@/modules/job-dedup";
 import { fetchHtmlResponse, getSetCookieHeader, isAbortError, isHtmlResponse } from "@/utils/http";
 import { logger } from "@/utils/logger";
 
@@ -134,7 +135,7 @@ function normalizeMetaJob(job: MetaJob): Job {
 
 export async function fetchMeta(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -210,7 +211,7 @@ export async function fetchMeta(
         const title = job.title ?? "";
         const link = job.id ? `${META_DETAILS_URL}/${job.id}` : null;
 
-        return !!(link && isTarget(title) && !urls.has(link));
+        return !!(link && isTarget(title) && !isKnownJob(link, knownKeys));
       })
       .map(normalizeMetaJob);
 

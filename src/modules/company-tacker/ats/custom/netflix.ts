@@ -8,6 +8,7 @@ import type { Job } from "@/types";
 
 import { isTarget, withinDays } from "../../utils";
 
+import { isKnownJob } from "@/modules/job-dedup";
 import { logger } from "@/utils/logger";
 
 export const NETFLIX_API_URL = "https://explore.jobs.netflix.net/api/apply/v2/jobs";
@@ -62,7 +63,7 @@ function normalizeNetflixJob(job: NetflixJob): Job {
 
 export async function fetchNetflix(
   company: Company,
-  urls: Set<string>,
+  knownKeys: ReadonlySet<string>,
   signal: AbortSignal = ABORT_SIGNAL
 ): Promise<Job[]> {
   try {
@@ -99,7 +100,7 @@ export async function fetchNetflix(
         .filter(
           (job) =>
             isTarget(job.posting_name) &&
-            !urls.has(job.canonicalPositionUrl) &&
+            !isKnownJob(job.canonicalPositionUrl, knownKeys) &&
             (withinDays(job.t_create) || withinDays(job.t_update))
         )
         .map(normalizeNetflixJob);

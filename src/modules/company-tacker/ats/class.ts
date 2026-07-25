@@ -1,6 +1,8 @@
 import type { ATS, Company } from "../type";
 import type { Job } from "@/types";
 
+import { isKnownJob } from "@/modules/job-dedup";
+
 export type CompanyResult = Company | null;
 export type MaybePromise<T> = T | Promise<T>;
 
@@ -9,7 +11,7 @@ export interface ATSAdapter {
 
   formCompany(url: URL): MaybePromise<CompanyResult>;
 
-  fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]>;
+  fetch(company: Company, knownKeys: ReadonlySet<string>, signal: AbortSignal): Promise<Job[]>;
 }
 
 /**
@@ -30,5 +32,13 @@ export abstract class ATSFetcher<TJob> {
 
   protected abstract normalizeJob(job: TJob, company: Company): Job;
 
-  abstract fetch(company: Company, urls: Set<string>, signal: AbortSignal): Promise<Job[]>;
+  protected isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
+    return isKnownJob(link, knownKeys);
+  }
+
+  abstract fetch(
+    company: Company,
+    knownKeys: ReadonlySet<string>,
+    signal: AbortSignal
+  ): Promise<Job[]>;
 }
