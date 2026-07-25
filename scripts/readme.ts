@@ -33,6 +33,8 @@ const BADGE_NO_SPONSORSHIP = `<img height="18" alt="no visa" src="https://img.sh
 
 const APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
+const EXPIRED_APPLY_BUTTON_SRC =
+  "https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white";
 
 async function main() {
   const opportunities = await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
@@ -308,7 +310,7 @@ function buildOpportunityTable(jobs: Opportunity[]): string[] {
       escapeHtml(companyCell),
       formatRoleCell(job),
       escapeHtml(formatLocation(job)),
-      formatApplyButton(job.link),
+      formatApplyButton(job),
       formatDate(job.postedAt),
     ]);
   }
@@ -447,8 +449,12 @@ function formatLocation(job: Opportunity): string {
     .join(", ");
 }
 
-function formatApplyButton(link: string): string {
-  return `<a href="${escapeHtmlAttr(link)}"><img height="28" alt="apply" src="${APPLY_BUTTON_SRC}" /></a>`;
+function formatApplyButton(job: Opportunity): string {
+  if (job.expired) {
+    return `<img height="28" alt="apply (expired)" src="${EXPIRED_APPLY_BUTTON_SRC}" />`;
+  }
+
+  return `<a href="${escapeHtmlAttr(job.link)}"><img height="28" alt="apply" src="${APPLY_BUTTON_SRC}" /></a>`;
 }
 
 function formatDate(value: string): string {

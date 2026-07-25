@@ -83,7 +83,7 @@ export async function processJobs({
 
     urls.add(job.link);
     keys.add(key);
-    opportunities.push({ ...job, postedAt: new Date().toISOString() });
+    opportunities.push({ ...job, postedAt: new Date().toISOString(), expired: false });
     newUrlAdded = true;
   }
 

@@ -27,4 +27,5 @@ export interface Job {
 
 export interface Opportunity extends Job {
   postedAt: string;
+  expired: boolean;
 }

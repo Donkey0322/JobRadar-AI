@@ -63,7 +63,7 @@ async function main() {
 
   await saveUrls(new Set(validUrls));
   await saveOpportunities(
-    targetedOpportunities.filter((job) => validUrls.includes(job.link)),
+    targetedOpportunities.map((job) => ({ ...job, expired: !validUrls.includes(job.link) })),
     true
   );
 
