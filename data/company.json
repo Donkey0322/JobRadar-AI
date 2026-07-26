@@ -4498,14 +4498,6 @@
     ]
   },
   {
-    "name": "boomi",
-    "ats": "greenhouse",
-    "identifier": "boomi",
-    "domain": "https://boomi.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/boomilp/jobs",
-    "urls": []
-  },
-  {
     "name": "boomilp",
     "ats": "greenhouse",
     "identifier": "boomilp",
@@ -7991,14 +7983,6 @@
       "https://corpay.wd103.myworkdayjobs.com/ext_001/job/London-The-Point---Cross-Border/Software-Engineer_R08253",
       "https://corpay.wd103.myworkdayjobs.com/ext_001/job/Prague/Machine-Learning-Engineer_R08763"
     ]
-  },
-  {
-    "name": "corporate",
-    "ats": "greenhouse",
-    "identifier": "corporate",
-    "domain": "https://corporate.trustpilot.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/trustpilot/jobs",
-    "urls": []
   },
   {
     "name": "CORSAIR",
@@ -23212,14 +23196,6 @@
     "urls": []
   },
   {
-    "name": "squarepoint-capital",
-    "ats": "greenhouse",
-    "identifier": "squarepoint-capital",
-    "domain": "https://www.squarepoint-capital.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/squarepointcapital/jobs",
-    "urls": []
-  },
-  {
     "name": "squarepoint-capital.com",
     "ats": "custom",
     "identifier": "squarepoint-capital.com",
@@ -23960,22 +23936,6 @@
     "identifier": "talentmanagementsolution-jonassoftwarecanada",
     "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwarecanada",
     "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwarecanada/jobs",
-    "urls": []
-  },
-  {
-    "name": "talentmanagementsolution",
-    "ats": "workday",
-    "identifier": "talentmanagementsolution-jonassoftwareusa",
-    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/jonassoftwareusa",
-    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/jonassoftwareusa/jobs",
-    "urls": []
-  },
-  {
-    "name": "talentmanagementsolution",
-    "ats": "workday",
-    "identifier": "talentmanagementsolution-perseus-careers",
-    "domain": "https://talentmanagementsolution.wd3.myworkdayjobs.com/perseus-careers",
-    "page": "https://talentmanagementsolution.wd3.myworkdayjobs.com/wday/cxs/talentmanagementsolution/perseus-careers/jobs",
     "urls": []
   },
   {
