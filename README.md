@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--07--26-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--07--27-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -90,7 +90,7 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 84 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 149 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 150 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 943 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 3,541 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 2,847 opportunities
@@ -270,6 +270,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Toshiba Global Commerce</td>
+      <td width="420" align="left" valign="top">Agentic Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Durham, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5177892007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Nextiva</td>
       <td width="420" align="left" valign="top">Forward Deployed Engineer Intern – AI Implementation</td>
       <td width="180" align="left" valign="top">Scottsdale, AZ</td>
@@ -402,16 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://rakuten.wd1.myworkdayjobs.com/rakutenamericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031936"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 22</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Moog</td>
-      <td width="420" align="left" valign="top">Intern, Software Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">East Aurora, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Intern--Software-Engineering_R-26-18885-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 149 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 150 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-26T23:16:10.609Z</code>
+      🕒 Last updated <code>2026-07-27T02:57:16.869Z</code>
     </span>
   </p>
 </div>
