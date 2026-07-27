@@ -31,6 +31,9 @@ const identifierMap: Record<string, string> = {
   "precisely.com": "preciselyusjobs",
   "tower-research.com": "towerresearchcapital",
   "careers.airbnb.com": "airbnb",
+  "boomi.com": "boomilp",
+  "airbnb.com": "airbnb",
+  "verition.com": "veritiongroupllc",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
