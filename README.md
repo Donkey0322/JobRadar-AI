@@ -90,7 +90,7 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 91 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 164 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 165 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,004 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 3,719 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,022 opportunities
@@ -270,6 +270,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Touchdown Labs</td>
+      <td width="420" align="left" valign="top">Member of Technical Staff Intern</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://touchdown-labs.com/careers/mts-intern/?jr_id=6a68292c50dec41e3527e633"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Waystar</td>
       <td width="420" align="left" valign="top">Application Engineer Co-op</td>
       <td width="180" align="left" valign="top">Atlanta, GA</td>
@@ -402,16 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.janestreet.com/join-jane-street/position/8419303002/"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Moon</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern, Backend &amp; API</td>
-      <td width="180" align="left" valign="top">Glendale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://ats.rippling.com/en-GB/moon/jobs/8b81bca7-1a64-4377-8ea8-869aac03080b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 164 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 165 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-28T14:45:21.789Z</code>
+      🕒 Last updated <code>2026-07-28T16:02:42.286Z</code>
     </span>
   </p>
 </div>
