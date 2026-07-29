@@ -43,7 +43,7 @@ const REQUEST = {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    size: 100,
+    size: 500,
     start: 0,
     sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
   }),
