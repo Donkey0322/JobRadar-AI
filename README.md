@@ -90,9 +90,9 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 94 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 171 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,035 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 3,867 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 172 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,036 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 3,869 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,126 opportunities
 
 ## The List 🚴‍♂️
@@ -270,6 +270,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">BAE Systems</td>
+      <td width="420" align="left" valign="top">DoW SkillBridge – Remote Mission Systems Engineering Support Fellow<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Rockville, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/124779BR?ph_id=124779BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Brunswick</td>
       <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Champaign, IL</td>
@@ -402,16 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Engineering-Intern_JR110075"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Toshiba Global Commerce Solutions - External</td>
-      <td width="420" align="left" valign="top">Automation Engineering Intern<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Frisco, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5192808007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 26</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 171 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 172 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -428,6 +428,13 @@ Each category page shows up to 100 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Space Associate/Systems Reliability Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Dulles, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Space-Associate-Systems-Reliability-Engineer_R10238337-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">2026 Associate Systems Mod Sim Engineer/Systems Mod Sim Engineer (TS Required)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Rancho Bernardo, CA</td>
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/XMLNAME-2026-Associate-Systems-Mod-Sim-Engineer-Systems-Mod-Sim-Engineer--TS-Required-_R10242813"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -559,23 +566,16 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-VA-DULLES-710--22110-Pacific-Blvd--BLDG-10/Software-Engineer-I--On-Site--_01862276"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Crusoe</td>
-      <td width="420" align="left" valign="top">Software Engineer, Storage</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Crusoe/4f5d34ed-0c05-4eec-b8f8-14663e114b02"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,035 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,036 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (6,993)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (6,995)</b></summary>
 
   <br />
 
-  <h3>Mid Level (3,867)</h3>
+  <h3>Mid Level (3,869)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,20 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Rb</td>
+      <td width="420" align="left" valign="top">Cloud AWS Support Reliability Engineer (SRE)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://rb.wd5.myworkdayjobs.com/frs/job/New-York-NY/Cloud-AWS-Support-Reliability-Engineer--SRE-_R-0000032235-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Parsons</td>
+      <td width="420" align="left" valign="top">Data Analyst - GEOINT Technical SME<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Springfield, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Springfield/Data-Analyst---GEOINT-Technical-SME_R183791-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Google</td>
       <td width="420" align="left" valign="top">Security Engineer, Data Center Network Device Security</td>
@@ -714,23 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/farsight/820c851b-ae40-45a7-af9b-03ec087aff6c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Caci</td>
-      <td width="420" align="left" valign="top">Data Analyst<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Washington, DC</td>
-      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/Data-Analyst_329754"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Axon</td>
-      <td width="420" align="left" valign="top">Software Engineer I - Unity Developer</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/axon/jobs/7576971003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,867 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,869 opportunities in this section.</sub></p>
 
   <h3>Senior Level (3,126)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-29T09:57:30.161Z</code>
+      🕒 Last updated <code>2026-07-29T12:28:38.777Z</code>
     </span>
   </p>
 </div>
