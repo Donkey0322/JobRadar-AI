@@ -91,9 +91,9 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 96 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 175 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,063 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,006 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 3,213 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,068 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,012 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 3,219 opportunities
 
 ## The List 🚴‍♂️
 
@@ -427,6 +427,41 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Western digital</td>
+      <td width="420" align="left" valign="top">System Design &amp; Failure Analysis Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/WesternDigital/744000140562229"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
+      <td width="420" align="left" valign="top">Early Career NASA Network and Computer Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443152610523?domain=caci.com&amp;8fold_id=1443152610523"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Qualcomm</td>
+      <td width="420" align="left" valign="top">Software Engineer - Modem</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://qualcomm.eightfold.ai/careers/job/446720188443?domain=qualcomm.com&amp;8fold_id=446720188443"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Caci</td>
+      <td width="420" align="left" valign="top">Early Career NASA Network and Computer Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Houston-TX-US/Early-Career-NASA-Network-and-Computer-Systems-Engineer_329817"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Optical System Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200649200-0836/optical-system-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cooper Companies</td>
       <td width="420" align="left" valign="top">Product Engineer 1 - Research and Development</td>
       <td width="180" align="left" valign="top">Trumbull, CT</td>
@@ -531,51 +566,16 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/169203/jr-software-quality-assurance-%28qa%29-automation-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kla</td>
-      <td width="420" align="left" valign="top">AI engineer</td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/AI-engineer_2638674"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">Industrial Security Analyst (CSSO) - Tucson, AZ<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Tucson, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-842--1151-E-Hermans-Rd--BLDG-842/Industrial-Security-Analyst--CSSO----Tucson--AZ_01861312"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Systems Engineer, Entry Level - FCS Auxiliary and Training Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Pittsfield, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73831/systems-engineer%2c-entry-level---fcs-auxiliary-and-training-systems/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Evergreenix</td>
-      <td width="420" align="left" valign="top">Software Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://evergreenix.wd1.myworkdayjobs.com/external-careers2/job/USA_TX_Richardson/Software-Engineer-I_JR500749-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Software Engineer Backend/Platform Systems I (Full Time) – United States</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2000046?ph_id=2000046"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,063 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,068 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (7,219)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (7,231)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,006)</h3>
+  <h3>Mid Level (4,012)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,48 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Varda Space Industries</td>
+      <td width="420" align="left" valign="top">Space Flight Software Engineer, C++<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7821037003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Space Embedded Linux Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7821039003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Roche</td>
+      <td width="420" align="left" valign="top">Imaging AI Scientist</td>
+      <td width="180" align="left" valign="top">South San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/Imaging-AI-Scientist_202606-116764-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Berkley</td>
+      <td width="420" align="left" valign="top">Data Analyst I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Englewood, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-berkley.icims.com/jobs/14256/data-analyst-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Bah</td>
+      <td width="420" align="left" valign="top">Data Scientist, Mid<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Arlington, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Data-Scientist--Mid_R0245622"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">HW Dev Engineer, Antenna System Validation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Redmond, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10487784"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wgu</td>
       <td width="420" align="left" valign="top">Software Engineer</td>
@@ -686,53 +728,11 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5199077007?gh_jid=5199077007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer, Quality Integration  </td>
-      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5199074007?gh_jid=5199074007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
-      <td width="420" align="left" valign="top">Front-End Engineer, Core Shopping</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10487767"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Usbank</td>
-      <td width="420" align="left" valign="top">Full Stack Application Developer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Hopkins, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Hopkins-MN/Full-Stack-Application-Developer_2026-0021525"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer - TikTok-Data-Search-Visual Search</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7122225825806076190"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">(General Hire) Machine Learning Engineer (all levels), TikTok Recommendation</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7652731061008992517"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Spectrumhealth</td>
-      <td width="420" align="left" valign="top">Data Engineer</td>
-      <td width="180" align="left" valign="top">Grand Rapids, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://spectrumhealth.wd5.myworkdayjobs.com/corewellhealthcareers/job/Grand-Rapids-MI/Data-Engineer_R218104-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,006 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,012 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (3,213)</h3>
+  <h3>Senior Level (3,219)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,48 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Corebridgefinancial</td>
+      <td width="420" align="left" valign="top">AI Engineer</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://corebridgefinancial.wd1.myworkdayjobs.com/corebridgefinancial/job/TX-Houston/AI-Engineer_JR2600570"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Engineer - Snowflake</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://corebridgefinancial.wd1.myworkdayjobs.com/corebridgefinancial/job/TX-Houston/Data-Engineer---Snowflake_JR2600520"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Comcast</td>
+      <td width="420" align="left" valign="top">Site Reliability Engineer, Streaming HUB - FreeWheel</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/VA---Reston-11951-Freedom-Dr-Ste-900/Site-Reliability-Engineer--Steaming-HUB---FreeWheel_R439394"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Site Reliability Engineer, Streaming HUB - FreeWheel</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/VA---Reston-11951-Freedom-Dr-Ste-900/Site-Reliability-Engineer--Steaming-HUB---FreeWheel_R439628"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Boeing</td>
+      <td width="420" align="left" valign="top">Systems Engr Support Analyst (Operational Concept  Analysis)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Kent, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Kent-WA/Systems-Engr-Support-Analyst--Operational-Concept--Analysis-_JR2026518612-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aero</td>
+      <td width="420" align="left" valign="top">Vulcan Launch Vehicle Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Los Angeles AFB, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://aero.wd5.myworkdayjobs.com/external/job/Los-Angeles-AFB-CA/Vulcan-Launch-Vehicle-Systems-Engineer_R015954"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Strideinc</td>
       <td width="420" align="left" valign="top">Workday HCM Business Systems Analyst (Virtual)</td>
@@ -843,51 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/NBCUniversal3/744000140543005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mbrdna</td>
-      <td width="420" align="left" valign="top">Software Compliance Engineer (Contractor)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/MBRDNA/63589153-d2c0-46b6-a190-73cdbaa27068"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kbr</td>
-      <td width="420" align="left" valign="top">Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chantilly, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Systems-Engineer_R2127380-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer IV, GenAI, Google Cloud</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/129988979490464454-forward-deployed-engineer-iv-genai-google-cloud?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Advanced DevOps Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Boulder, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73865/advanced-devops-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Citi</td>
-      <td width="420" align="left" valign="top">Java Full-Stack Web Application Developer - AVP</td>
-      <td width="180" align="left" valign="top">Tampa, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Java-Full-Stack-Web-Application-Developer---AVP_26953085"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">Front End Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Front-End-Developer_R0245646"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,213 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,219 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-29T22:50:26.948Z</code>
+      🕒 Last updated <code>2026-07-29T23:23:13.471Z</code>
     </span>
   </p>
 </div>

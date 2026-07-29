@@ -14,6 +14,48 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Corebridgefinancial</td>
+      <td width="420" align="left" valign="top">AI Engineer</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://corebridgefinancial.wd1.myworkdayjobs.com/corebridgefinancial/job/TX-Houston/AI-Engineer_JR2600570"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Engineer - Snowflake</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://corebridgefinancial.wd1.myworkdayjobs.com/corebridgefinancial/job/TX-Houston/Data-Engineer---Snowflake_JR2600520"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Comcast</td>
+      <td width="420" align="left" valign="top">Site Reliability Engineer, Streaming HUB - FreeWheel</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/VA---Reston-11951-Freedom-Dr-Ste-900/Site-Reliability-Engineer--Steaming-HUB---FreeWheel_R439394"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Site Reliability Engineer, Streaming HUB - FreeWheel</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/VA---Reston-11951-Freedom-Dr-Ste-900/Site-Reliability-Engineer--Steaming-HUB---FreeWheel_R439628"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Boeing</td>
+      <td width="420" align="left" valign="top">Systems Engr Support Analyst (Operational Concept  Analysis)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Kent, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Kent-WA/Systems-Engr-Support-Analyst--Operational-Concept--Analysis-_JR2026518612-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aero</td>
+      <td width="420" align="left" valign="top">Vulcan Launch Vehicle Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Los Angeles AFB, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://aero.wd5.myworkdayjobs.com/external/job/Los-Angeles-AFB-CA/Vulcan-Launch-Vehicle-Systems-Engineer_R015954"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Strideinc</td>
       <td width="420" align="left" valign="top">Workday HCM Business Systems Analyst (Virtual)</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
@@ -671,52 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://leidos.wd5.myworkdayjobs.com/external/job/Fort-Belvoir-VA/Hybrid-Multi-Cloud-Engineer-SME_R-00188318"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Hybrid Multi-Cloud Engineer SME (Azure/Identity)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Belvoir, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://leidos.wd5.myworkdayjobs.com/external/job/Fort-Belvoir-VA/Hybrid-Multi-Cloud-Engineer-SME--Azure-Identity-_R-00188322"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gehc</td>
-      <td width="420" align="left" valign="top">Service Data Scientist<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Salt Lake City, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Salt-Lake-City/Service-Data-Scientist_R4044120-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Crowdstrike</td>
-      <td width="420" align="left" valign="top">Software Engineer, Cloud - Auth Platform (Hybrid)</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Sunnyvale-CA/Software-Engineer--Cloud---Auth-Platform--Hybrid-_R29073"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">U.S. Bank</td>
-      <td width="420" align="left" valign="top">Automation Engineer 4 (mobile applications)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0022174?ph_id=2026-0022174"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">The MITRE Corporation</td>
-      <td width="420" align="left" valign="top">Business Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R117096?ph_id=R117096"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Software Engineering Technical Leader</td>
-      <td width="180" align="left" valign="top">Research Triangle Park, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2011452?ph_id=2011452"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 3,213 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 3,219 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-29T22:50:26.948Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-29T23:23:13.471Z</code></sub>

@@ -14,6 +14,41 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Western digital</td>
+      <td width="420" align="left" valign="top">System Design &amp; Failure Analysis Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/WesternDigital/744000140562229"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
+      <td width="420" align="left" valign="top">Early Career NASA Network and Computer Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443152610523?domain=caci.com&amp;8fold_id=1443152610523"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Qualcomm</td>
+      <td width="420" align="left" valign="top">Software Engineer - Modem</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://qualcomm.eightfold.ai/careers/job/446720188443?domain=qualcomm.com&amp;8fold_id=446720188443"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Caci</td>
+      <td width="420" align="left" valign="top">Early Career NASA Network and Computer Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Houston-TX-US/Early-Career-NASA-Network-and-Computer-Systems-Engineer_329817"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Optical System Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200649200-0836/optical-system-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cooper Companies</td>
       <td width="420" align="left" valign="top">Product Engineer 1 - Research and Development</td>
       <td width="180" align="left" valign="top">Trumbull, CT</td>
@@ -678,45 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/AbbVie/3743990014303856"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wyetechllc</td>
-      <td width="420" align="left" valign="top">Software Engineer 0<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Annapolis Junction, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/wyetechllc/d8d3c8a8-8091-43f6-92a0-f724f2f80860"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Verkada</td>
-      <td width="420" align="left" valign="top">Software Engineer - Computer Vision</td>
-      <td width="180" align="left" valign="top">San Mateo, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/verkada/jobs/5195995007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Information Systems Project Management – Project Engr (26-347)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Information-Systems-Project-Management---Project-Engr--26-347-_R10242083"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jci</td>
-      <td width="420" align="left" valign="top">Software Engineer - Data Center Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Glendale, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://jci.wd5.myworkdayjobs.com/jci/job/Glendale-Wisconsin-United-States-of-America/Software-Engineer---Data-Center-Engineering_WD30270944-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Icf</td>
-      <td width="420" align="left" valign="top">Junior Data Analyst (Cleared)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ashburn, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Ashburn-VA/Junior-Data-Analyst--Cleared-_R2602553"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,063 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,068 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-29T22:50:26.948Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-29T23:23:13.471Z</code></sub>
