@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">DRW</td>
+      <td width="420" align="left" valign="top">Platform Engineer Intern</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/drweng/jobs/7997729"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Copart</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109965"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 30</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 30</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Globalhr</td>
       <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">McKinney, TX</td>
@@ -692,23 +713,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Eulerity</td>
-      <td width="420" align="left" valign="top">Web Development Engineer Intern</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 22</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cubic</td>
-      <td width="420" align="left" valign="top">Software Engineering &amp; Automation Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Herndon, VA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 19</td>
-    </tr>
   </tbody>
 </table>
+<p><sub>Showing 100 of 102 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-30T15:50:41.847Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-30T17:00:25.171Z</code></sub>
