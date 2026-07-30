@@ -90,7 +90,7 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 102 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 183 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 184 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,108 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 4,159 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,343 opportunities
@@ -270,6 +270,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">CALSTART</td>
+      <td width="420" align="left" valign="top">Web Development Intern</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/calstart/cbd0d758-18b0-481d-9e67-a065682f30ea/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 30</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Generalmotors</td>
       <td width="420" align="left" valign="top">2026 Fall Intern - Research &amp; Development: AI/ML<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Warren, MI</td>
@@ -402,16 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://touchdown-labs.com/careers/mts-intern/?jr_id=6a68292c50dec41e3527e633"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Waystar</td>
-      <td width="420" align="left" valign="top">Application Engineer Co-op</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://waystar.wd1.myworkdayjobs.com/Waystar/job/Atlanta-GA/Application-Engineer-Co-Op_R3313-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 183 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 184 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-30T22:28:12.948Z</code>
+      🕒 Last updated <code>2026-07-30T22:46:26.987Z</code>
     </span>
   </p>
 </div>
