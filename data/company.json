@@ -1110,9 +1110,9 @@
       "https://altera.wd1.myworkdayjobs.com/altera/job/Penang-15-Penang-Malaysia/MTS-Product-Development-Engineer_R02609",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Penang-15-Penang-Malaysia/SOC-Frontend-Integration-Engineer_R02682",
       "https://altera.wd1.myworkdayjobs.com/altera/job/Penang-15-Penang-Malaysia/Software-Enabling-and-Optimization-Engineer_R02837",
+      "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms_R02859",
       "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/Static-Timing-Analysis-Methodology-Engineer-Lead_R02459",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849",
-      "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms_R02859"
+      "https://altera.wd1.myworkdayjobs.com/altera/job/Shanghai-China/AI-Engineer---Technical-Leader--Agentic-AI---FPGA-Systems-_R02849"
     ]
   },
   {
@@ -1372,12 +1372,12 @@
       "https://amazon.jobs/en/jobs/10487728",
       "https://amazon.jobs/en/jobs/10487767",
       "https://amazon.jobs/en/jobs/10487784",
+      "https://amazon.jobs/en/jobs/10487831",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10487831"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -7271,6 +7271,7 @@
       "https://careers.usbank.com/global/en/job/2026-0014396?ph_id=2026-0014396",
       "https://careers.usbank.com/global/en/job/2026-0016489?ph_id=2026-0016489",
       "https://careers.usbank.com/global/en/job/2026-0016922?ph_id=2026-0016922",
+      "https://careers.usbank.com/global/en/job/2026-0016930?ph_id=2026-0016930",
       "https://careers.usbank.com/global/en/job/2026-0016932?ph_id=2026-0016932",
       "https://careers.usbank.com/global/en/job/2026-0016942?ph_id=2026-0016942",
       "https://careers.usbank.com/global/en/job/2026-0016959?ph_id=2026-0016959",
@@ -7304,8 +7305,7 @@
       "https://careers.usbank.com/global/en/job/2026-0021924?ph_id=2026-0021924",
       "https://careers.usbank.com/global/en/job/2026-0021983?ph_id=2026-0021983",
       "https://careers.usbank.com/global/en/job/2026-0022142?ph_id=2026-0022142",
-      "https://careers.usbank.com/global/en/job/2026-0022174?ph_id=2026-0022174",
-      "https://careers.usbank.com/global/en/job/2026-0016930?ph_id=2026-0016930"
+      "https://careers.usbank.com/global/en/job/2026-0022174?ph_id=2026-0022174"
     ]
   },
   {
@@ -8458,10 +8458,10 @@
       "https://jobs.ashbyhq.com/Commure/0048eb0e-172b-4b78-b4f5-03d29d4d4c2a",
       "https://jobs.ashbyhq.com/Commure/288a59e7-27d6-49e2-af00-87f02fc3b3ed",
       "https://jobs.ashbyhq.com/Commure/39e07152-a3d2-47c0-8c5b-36e8b3a6cdf5",
+      "https://jobs.ashbyhq.com/Commure/727c0ce9-7d3b-43fe-8d00-05255f094db5",
       "https://jobs.ashbyhq.com/Commure/7e0572ec-fe77-4893-bc33-6d007bbcc5ff",
       "https://jobs.ashbyhq.com/Commure/d5f91cfa-48ab-430d-b618-ba77c82c64a2",
-      "https://jobs.ashbyhq.com/Commure/feb90bb7-ad78-478c-8e3f-cde8e044d4c5",
-      "https://jobs.ashbyhq.com/Commure/727c0ce9-7d3b-43fe-8d00-05255f094db5"
+      "https://jobs.ashbyhq.com/Commure/feb90bb7-ad78-478c-8e3f-cde8e044d4c5"
     ]
   },
   {
@@ -11674,6 +11674,16 @@
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9211",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9944",
       "https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9946"
+    ]
+  },
+  {
+    "name": "forus",
+    "ats": "ashby",
+    "identifier": "forus",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/forus",
+    "urls": [
+      "https://jobs.ashbyhq.com/forus/82e10191-232e-4e8d-9c5e-cb82940cdfc7/application?embed=true"
     ]
   },
   {
@@ -19139,6 +19149,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Mesa/Manufacturing-Systems-Engineer_R10242510",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Camarillo/Software-Embedded-Engineer_R10240332",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Edwards-AFB/Cyber-Systems-Engineer_R10240986",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Modeling---Simulation-Systems-Engineer-4--AHT-_R10242198",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Advanced-Automation-Manufacturing-Engineer_R10240185-1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Industrial-Security-Analyst_R10238718",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Industrial-Security-Analyst_R10239317",
@@ -19271,8 +19282,7 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/Industrial-Security-Analyst_R10233229",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Data-Processing-Team_R10238622",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Northridge/Modeling---Simulation-Systems-Engineer-4--AHT-_R10242198"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-McLean/Software-Developer---Mission-Planning-Team_R10238562"
     ]
   },
   {
@@ -19667,8 +19677,8 @@
       "https://nuro.ai/careersitem?gh_jid=7998328",
       "https://nuro.ai/careersitem?gh_jid=7999651",
       "https://nuro.ai/careersitem?gh_jid=8017598",
-      "https://www.nuro.ai/careersitem?gh_jid=7351061",
-      "https://nuro.ai/careersitem?gh_jid=8093105"
+      "https://nuro.ai/careersitem?gh_jid=8093105",
+      "https://www.nuro.ai/careersitem?gh_jid=7351061"
     ]
   },
   {
@@ -22150,8 +22160,8 @@
     "domain": "https://remitly.wd5.myworkdayjobs.com/Remitly_Careers",
     "page": "https://remitly.wd5.myworkdayjobs.com/wday/cxs/remitly/Remitly_Careers/jobs",
     "urls": [
-      "https://remitly.wd5.myworkdayjobs.com/en-US/Remitly_Careers/job/Arlington-Virginia-United-States/Fullstack-Software-Development-Engineer-I--Card_R_106624",
-      "https://remitly.wd5.myworkdayjobs.com/Remitly_Careers/job/Krakow-Poland/Software-Development-Engineer_R_106561-1"
+      "https://remitly.wd5.myworkdayjobs.com/Remitly_Careers/job/Krakow-Poland/Software-Development-Engineer_R_106561-1",
+      "https://remitly.wd5.myworkdayjobs.com/en-US/Remitly_Careers/job/Arlington-Virginia-United-States/Fullstack-Software-Development-Engineer-I--Card_R_106624"
     ]
   },
   {
@@ -23854,10 +23864,10 @@
       "https://jobs.ashbyhq.com/siftstack/7d3ddb83-d6f1-4c45-be1b-352102fdad5f",
       "https://jobs.ashbyhq.com/siftstack/9abae03b-61c2-4bd6-8074-d3867be67bbd",
       "https://jobs.ashbyhq.com/siftstack/a58c387f-d08e-4609-8ce3-eed5c624e61b",
+      "https://jobs.ashbyhq.com/siftstack/be082df3-225c-4269-a159-bdb362b21c8e",
       "https://jobs.ashbyhq.com/siftstack/c8dbe14d-84a2-44cd-bc4c-b07ac05ad967",
       "https://jobs.ashbyhq.com/siftstack/cab9033c-133d-437d-84ae-d5bc0d6ddec0",
-      "https://jobs.ashbyhq.com/siftstack/ecc6c4af-7c80-4389-a879-5b65ff7e32bf",
-      "https://jobs.ashbyhq.com/siftstack/be082df3-225c-4269-a159-bdb362b21c8e"
+      "https://jobs.ashbyhq.com/siftstack/ecc6c4af-7c80-4389-a879-5b65ff7e32bf"
     ]
   },
   {
@@ -27586,8 +27596,8 @@
       "https://job-boards.greenhouse.io/vardaspace/jobs/7820983003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7821037003",
       "https://job-boards.greenhouse.io/vardaspace/jobs/7821039003",
-      "https://job-boards.greenhouse.io/vardaspace/jobs/7821048003",
-      "https://job-boards.greenhouse.io/vardaspace/jobs/7821046003"
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7821046003",
+      "https://job-boards.greenhouse.io/vardaspace/jobs/7821048003"
     ]
   },
   {
@@ -28022,7 +28032,8 @@
       "https://job-boards.greenhouse.io/virtu/jobs/4339444002",
       "https://job-boards.greenhouse.io/virtu/jobs/6072565002",
       "https://job-boards.greenhouse.io/virtu/jobs/8551566002",
-      "https://job-boards.greenhouse.io/virtu/jobs/8624410002"
+      "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
+      "https://job-boards.greenhouse.io/virtu/jobs/8657500002"
     ]
   },
   {
