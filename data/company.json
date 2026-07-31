@@ -1419,7 +1419,10 @@
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
+      "https://amazon.jobs/en/jobs/10488838",
+      "https://amazon.jobs/en/jobs/10488821",
+      "https://amazon.jobs/en/jobs/10488855"
     ]
   },
   {
@@ -2638,7 +2641,13 @@
       "https://jobs.apple.com/en-us/details/200674976-0836/aiml-applied-ml-engineer-responsible-ai-and-safety?team=MLAI",
       "https://jobs.apple.com/en-us/details/200675075-0836/swift-software-engineer-swe-program-tools?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200675086-3337/ml-software-engineer?team=MLAI",
-      "https://jobs.apple.com/en-us/details/200675090-0670/video-content-data-scientist?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200675090-0670/video-content-data-scientist?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200673338-0836/ai-data-platform-engineer?team=OPMFG",
+      "https://jobs.apple.com/en-us/details/200646769-0836/aiml-data-scientist-evaluation?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200665843-0836/aiml-sr-machine-learning-engineer-data-and-ml-innovation?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200665749-3337/aiml-data-scientist-evaluation?team=MLAI",
+      "https://jobs.apple.com/en-us/details/200674920-0836/hardware-systems-engineer?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200657382-3543/cellular-power-optimization-software-engineer-wireless-technologies-ecosystems?team=SFTWR"
     ]
   },
   {
@@ -2648,46 +2657,8 @@
     "domain": "microsoft.com",
     "page": "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com",
     "urls": [
-      "https://apply.careers.microsoft.com/careers/job/1970393556824188?domain=microsoft.com&8fold_id=1970393556824188",
-      "https://apply.careers.microsoft.com/careers/job/1970393556847455?8fold_id=1970393556847455",
-      "https://apply.careers.microsoft.com/careers/job/1970393556857600?8fold_id=1970393556857600",
-      "https://apply.careers.microsoft.com/careers/job/1970393556858723?domain=microsoft.com&8fold_id=1970393556858723",
-      "https://apply.careers.microsoft.com/careers/job/1970393556859432?domain=microsoft.com&8fold_id=1970393556859432",
-      "https://apply.careers.microsoft.com/careers/job/1970393556860973?8fold_id=1970393556860973",
       "https://apply.careers.microsoft.com/careers/job/1970393556862958?8fold_id=1970393556862958",
-      "https://apply.careers.microsoft.com/careers/job/1970393556864900?8fold_id=1970393556864900",
-      "https://apply.careers.microsoft.com/careers/job/1970393556864918?domain=microsoft.com&8fold_id=1970393556864918",
-      "https://apply.careers.microsoft.com/careers/job/1970393556866253?8fold_id=1970393556866253",
-      "https://apply.careers.microsoft.com/careers/job/1970393556866771?domain=microsoft.com&8fold_id=1970393556866771",
-      "https://apply.careers.microsoft.com/careers/job/1970393556866895?8fold_id=1970393556866895",
-      "https://apply.careers.microsoft.com/careers/job/1970393556867395?domain=microsoft.com&8fold_id=1970393556867395",
-      "https://apply.careers.microsoft.com/careers/job/1970393556868612?domain=microsoft.com&8fold_id=1970393556868612",
-      "https://apply.careers.microsoft.com/careers/job/1970393556873191?8fold_id=1970393556873191",
-      "https://apply.careers.microsoft.com/careers/job/1970393556913497?domain=microsoft.com&8fold_id=1970393556913497",
-      "https://apply.careers.microsoft.com/careers/job/1970393556914546?8fold_id=1970393556914546",
-      "https://apply.careers.microsoft.com/careers/job/1970393556914839?domain=microsoft.com&8fold_id=1970393556914839",
-      "https://apply.careers.microsoft.com/careers/job/1970393556915206?8fold_id=1970393556915206",
-      "https://apply.careers.microsoft.com/careers/job/1970393556915207?8fold_id=1970393556915207",
-      "https://apply.careers.microsoft.com/careers/job/1970393556923398?8fold_id=1970393556923398",
-      "https://apply.careers.microsoft.com/careers/job/1970393556923400?8fold_id=1970393556923400",
-      "https://apply.careers.microsoft.com/careers/job/1970393556924446?8fold_id=1970393556924446",
-      "https://apply.careers.microsoft.com/careers/job/1970393556924545?domain=microsoft.com&8fold_id=1970393556924545",
       "https://apply.careers.microsoft.com/careers/job/1970393556924710?8fold_id=1970393556924710",
-      "https://apply.careers.microsoft.com/careers/job/1970393556925493?domain=microsoft.com&8fold_id=1970393556925493",
-      "https://apply.careers.microsoft.com/careers/job/1970393556925777?8fold_id=1970393556925777",
-      "https://apply.careers.microsoft.com/careers/job/1970393556926963?domain=microsoft.com&8fold_id=1970393556926963",
-      "https://apply.careers.microsoft.com/careers/job/1970393556927197?8fold_id=1970393556927197",
-      "https://apply.careers.microsoft.com/careers/job/1970393556927201?8fold_id=1970393556927201",
-      "https://apply.careers.microsoft.com/careers/job/1970393556927736?8fold_id=1970393556927736",
-      "https://apply.careers.microsoft.com/careers/job/1970393556929001?domain=microsoft.com&8fold_id=1970393556929001",
-      "https://apply.careers.microsoft.com/careers/job/1970393556929028?domain=microsoft.com&8fold_id=1970393556929028",
-      "https://apply.careers.microsoft.com/careers/job/1970393556929410?domain=microsoft.com&8fold_id=1970393556929410",
-      "https://apply.careers.microsoft.com/careers/job/1970393556932425?8fold_id=1970393556932425",
-      "https://apply.careers.microsoft.com/careers/job/1970393556933528?domain=microsoft.com&8fold_id=1970393556933528",
-      "https://apply.careers.microsoft.com/careers/job/1970393556934084?domain=microsoft.com&8fold_id=1970393556934084",
-      "https://apply.careers.microsoft.com/careers/job/1970393556937462?domain=microsoft.com&8fold_id=1970393556937462",
-      "https://apply.careers.microsoft.com/careers/job/1970393556937574?domain=microsoft.com&8fold_id=1970393556937574",
-      "https://apply.careers.microsoft.com/careers/job/1970393556937690?8fold_id=1970393556937690",
       "https://apply.careers.microsoft.com/careers/job/1970393556937814?domain=microsoft.com&8fold_id=1970393556937814",
       "https://apply.careers.microsoft.com/careers/job/1970393556937848?8fold_id=1970393556937848",
       "https://apply.careers.microsoft.com/careers/job/1970393556938088?domain=microsoft.com&8fold_id=1970393556938088",
@@ -4011,7 +3982,9 @@
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Wiesbaden-Hesse/Data-Scientist_R0245414",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Cloud-Developer_R0244693",
       "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Software-Developer-SME_R0244698",
-      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Web-Application-Developer-and-SME_R0244691"
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Winchester-VA/Web-Application-Developer-and-SME_R0244691",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Uruma-City-Okinawa/Power-Platform-Developer_R0243995",
+      "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/Embedded-Software-Engineer_R0245751"
     ]
   },
   {
@@ -6520,7 +6493,8 @@
       "https://careers.adobe.com/us/en/job/R170858?ph_id=R170858",
       "https://careers.adobe.com/us/en/job/R170931?ph_id=R170931",
       "https://careers.adobe.com/us/en/job/R170947?ph_id=R170947",
-      "https://careers.adobe.com/us/en/job/R170948?ph_id=R170948"
+      "https://careers.adobe.com/us/en/job/R170948?ph_id=R170948",
+      "https://careers.adobe.com/us/en/job/R169982?ph_id=R169982"
     ]
   },
   {
@@ -6739,7 +6713,13 @@
       "https://careers.cisco.com/global/en/job/2020688?ph_id=2020688",
       "https://careers.cisco.com/global/en/job/2020735?ph_id=2020735",
       "https://careers.cisco.com/global/en/job/2020778?ph_id=2020778",
-      "https://careers.cisco.com/global/en/job/2020922?ph_id=2020922"
+      "https://careers.cisco.com/global/en/job/2020922?ph_id=2020922",
+      "https://careers.cisco.com/global/en/job/1449197?ph_id=1449197",
+      "https://careers.cisco.com/global/en/job/2018035?ph_id=2018035",
+      "https://careers.cisco.com/global/en/job/2019654?ph_id=2019654",
+      "https://careers.cisco.com/global/en/job/2019514?ph_id=2019514",
+      "https://careers.cisco.com/global/en/job/2007184?ph_id=2007184",
+      "https://careers.cisco.com/global/en/job/2019513?ph_id=2019513"
     ]
   },
   {
@@ -6937,7 +6917,9 @@
       "https://careers.hpe.com/us/en/job/1210218?ph_id=1210218",
       "https://careers.hpe.com/us/en/job/1210260?ph_id=1210260",
       "https://careers.hpe.com/us/en/job/1210269?ph_id=1210269",
-      "https://careers.hpe.com/us/en/job/1210395?ph_id=1210395"
+      "https://careers.hpe.com/us/en/job/1210395?ph_id=1210395",
+      "https://careers.hpe.com/us/en/job/1209545?ph_id=1209545",
+      "https://careers.hpe.com/us/en/job/1210159?ph_id=1210159"
     ]
   },
   {
@@ -7497,7 +7479,8 @@
       "https://careers.usbank.com/global/en/job/2026-0021924?ph_id=2026-0021924",
       "https://careers.usbank.com/global/en/job/2026-0021983?ph_id=2026-0021983",
       "https://careers.usbank.com/global/en/job/2026-0022142?ph_id=2026-0022142",
-      "https://careers.usbank.com/global/en/job/2026-0022174?ph_id=2026-0022174"
+      "https://careers.usbank.com/global/en/job/2026-0022174?ph_id=2026-0022174",
+      "https://careers.usbank.com/global/en/job/2026-0017094?ph_id=2026-0017094"
     ]
   },
   {
@@ -8142,9 +8125,9 @@
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Front--End-Software-Engineering-Technical-Leader--Angular-v20-_2010531",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Leader--Software-Engineering_2017906-1",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer--simulation-_2014405-1",
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Full-Time----United-States_1449197",
       "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Technical-Leader---Network-Data-Plane---Hypershield_2019261",
-      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789",
-      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-I--Full-Time----United-States_1449197"
+      "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Stockholm-Sweden/Software-Engineering-Technical-Leader_2018789"
     ]
   },
   {
@@ -9598,7 +9581,8 @@
       "https://job-boards.greenhouse.io/devtechnology/jobs/8233144002",
       "https://job-boards.greenhouse.io/devtechnology/jobs/8433729002",
       "https://job-boards.greenhouse.io/devtechnology/jobs/8622273002",
-      "https://job-boards.greenhouse.io/devtechnology/jobs/8628245002"
+      "https://job-boards.greenhouse.io/devtechnology/jobs/8628245002",
+      "https://job-boards.greenhouse.io/devtechnology/jobs/8659985002"
     ]
   },
   {
@@ -13513,7 +13497,8 @@
       "https://www.google.com/about/careers/applications/jobs/results/99817141326226118-software-engineer-tv-systems?sort_by=date&page=3",
       "https://www.google.com/about/careers/applications/jobs/results/99901412879540934-customer-engineer-national-security?sort_by=date&page=2",
       "https://www.google.com/about/careers/applications/jobs/results/99901850966205126-robotics-automation-engineer-platforms-infrastructure?sort_by=date&page=2",
-      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1"
+      "https://www.google.com/about/careers/applications/jobs/results/99976434147041990-data-center-mechanical-engineer?sort_by=date&page=1",
+      "https://www.google.com/about/careers/applications/jobs/results/127567287950418630-research-data-scientist-brand-advertising-youtube-ads?sort_by=date&page=1"
     ]
   },
   {
@@ -16992,7 +16977,9 @@
     "identifier": "laika",
     "domain": "https://www.laika.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/laika/jobs",
-    "urls": []
+    "urls": [
+      "https://www.laika.com/careers/job-listing?jobid=8097883&gh_jid=8097883"
+    ]
   },
   {
     "name": "lambda",
@@ -18465,7 +18452,8 @@
       "https://www.metacareers.com/profile/job_details/994881556459825",
       "https://www.metacareers.com/profile/job_details/997644772875988",
       "https://www.metacareers.com/profile/job_details/998357492128826",
-      "https://www.metacareers.com/profile/job_details/998982982733342"
+      "https://www.metacareers.com/profile/job_details/998982982733342",
+      "https://www.metacareers.com/profile/job_details/1108965594796722"
     ]
   },
   {
@@ -18605,7 +18593,8 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/IT-Software-Engineer---MES-systems_JR94195",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/OI-Data-Engineer--TY-_JR106418",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/RDA---Metrology-Data-Platform-Engineer_JR104627",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/SOFTWARE-DEVELOPMENT-ENGINEER-6_JR97512"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/SOFTWARE-DEVELOPMENT-ENGINEER-6_JR97512",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/ESI-AI-Strategy-Engineer_JR107338"
     ]
   },
   {
@@ -24717,7 +24706,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
     "urls": [
       "https://sofi.com/careers/job/7780681003?gh_jid=7780681003",
-      "https://sofi.com/careers/job/7781335003?gh_jid=7781335003"
+      "https://sofi.com/careers/job/7781335003?gh_jid=7781335003",
+      "https://sofi.com/careers/job/7820964003?gh_jid=7820964003"
     ]
   },
   {
@@ -25157,7 +25147,14 @@
       "https://boards.greenhouse.io/spacex/jobs/8656465002?gh_jid=8656465002",
       "https://boards.greenhouse.io/spacex/jobs/8656526002?gh_jid=8656526002",
       "https://boards.greenhouse.io/spacex/jobs/8656579002?gh_jid=8656579002",
-      "https://boards.greenhouse.io/spacex/jobs/8658511002?gh_jid=8658511002"
+      "https://boards.greenhouse.io/spacex/jobs/8658511002?gh_jid=8658511002",
+      "https://boards.greenhouse.io/spacex/jobs/8658743002?gh_jid=8658743002",
+      "https://boards.greenhouse.io/spacex/jobs/8658738002?gh_jid=8658738002",
+      "https://boards.greenhouse.io/spacex/jobs/8658740002?gh_jid=8658740002",
+      "https://boards.greenhouse.io/spacex/jobs/8658744002?gh_jid=8658744002",
+      "https://boards.greenhouse.io/spacex/jobs/8658742002?gh_jid=8658742002",
+      "https://boards.greenhouse.io/spacex/jobs/8658628002?gh_jid=8658628002",
+      "https://boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002"
     ]
   },
   {
@@ -25188,9 +25185,9 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/sparksoftcorporation/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199550007",
+      "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199580007",
       "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199605007",
-      "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199626007",
-      "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199580007"
+      "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5199626007"
     ]
   },
   {
@@ -26539,7 +26536,8 @@
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy-Villacoublay/Core-HR-Data-Analyst---F-H_R0334306",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy-Villacoublay/Data-Analyst-F-H_R0333936",
       "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy-Villacoublay/Product-Owner---Lewis-Engineering-Agentic-AI-F-H_R0335608-2",
-      "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy/Spcialiste-Dtection-Cyberscurit---Harfanglab--H-F-_R0296780"
+      "https://thales.wd3.myworkdayjobs.com/careers/job/Vlizy/Spcialiste-Dtection-Cyberscurit---Harfanglab--H-F-_R0296780",
+      "https://thales.wd3.myworkdayjobs.com/careers/job/Rydalmere/Cyber-Security-Compliance-Analyst_R0335207"
     ]
   },
   {
@@ -27252,7 +27250,8 @@
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Snowflake---Analytics-Platform-Engineer_10331617",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10329087",
       "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer_10319691-2",
-      "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Technical-Product-Owner---Cloud-Engineering_10325122"
+      "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Technical-Product-Owner---Cloud-Engineering_10325122",
+      "https://toyota.wd503.myworkdayjobs.com/tmna/job/Ann-Arbor-Michigan/Engineer---Integrated-Vehicle-Systems_10331367"
     ]
   },
   {
@@ -28191,7 +28190,8 @@
       "https://boards.greenhouse.io/vast/jobs/4627542006?gh_jid=4627542006",
       "https://boards.greenhouse.io/vast/jobs/4686356006?gh_jid=4686356006",
       "https://boards.greenhouse.io/vast/jobs/4696685006?gh_jid=4696685006",
-      "https://boards.greenhouse.io/vast/jobs/4698890006?gh_jid=4698890006"
+      "https://boards.greenhouse.io/vast/jobs/4698890006?gh_jid=4698890006",
+      "https://boards.greenhouse.io/vast/jobs/4701302006?gh_jid=4701302006"
     ]
   },
   {
@@ -29173,7 +29173,8 @@
     "page": "https://wexinc.wd5.myworkdayjobs.com/wday/cxs/wexinc/wexinc/jobs",
     "urls": [
       "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/Portland-ME/Software-Development-Engineer-4_R22147",
-      "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/US---Remote/Fraud---Credit-Data-Scientist--Risk-Solutions_R21716"
+      "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/US---Remote/Fraud---Credit-Data-Scientist--Risk-Solutions_R21716",
+      "https://wexinc.wd5.myworkdayjobs.com/wexinc/job/US---Remote/Software-Development-Engineer-4_R21299"
     ]
   },
   {
