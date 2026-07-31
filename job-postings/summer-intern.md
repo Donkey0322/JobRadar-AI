@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Globalfoundries</td>
+      <td width="420" align="left" valign="top">Robotics and Automation Engineering Intern</td>
+      <td width="180" align="left" valign="top">Essex Junction, VT</td>
+      <td width="120" align="left" valign="top"><a href="https://globalfoundries.wd1.myworkdayjobs.com/external/job/Essex-Junction/Robotics-and-Automation-Engineering-Intern_JR-2603574"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 31</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Equinix</td>
       <td width="420" align="left" valign="top">Data Center Development Intern Roles</td>
       <td width="180" align="left" valign="top">Dallas, TX</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Lincoln-NE/Intern---AI-Engineer_R22763"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">June 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jonas</td>
-      <td width="420" align="left" valign="top">Software Engineer - Intern</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">June 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 104 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 105 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-31T12:24:41.266Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-07-31T14:48:53.381Z</code></sub>
