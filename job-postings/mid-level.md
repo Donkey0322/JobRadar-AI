@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Monogram</td>
+      <td width="420" align="left" valign="top">Android Engineer</td>
+      <td width="180" align="left" valign="top">San Carlos, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/monogram/586ce112-e626-469f-89f7-e5536ac0d366"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pae</td>
       <td width="420" align="left" valign="top">CMSS Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Houston, TX</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/169281/artificial-intelligence-machine-learning-%28ai-ml%29-engineer-1/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Parsons</td>
-      <td width="420" align="left" valign="top">Data Scientist - Secret required<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aberdeen, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---MD-Aberdeen/Data-Scientist---Secret-required_R184121"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,302 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,303 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T11:40:49.971Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T13:59:06.327Z</code></sub>
