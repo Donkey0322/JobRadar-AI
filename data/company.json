@@ -2711,7 +2711,8 @@
       "https://jobs.apple.com/en-us/details/200675127-3337/compute-runtime-software-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200675156-0836/camera-embedded-software-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200675281-0836/software-engineer-braille-accessibility?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200675289-0836/software-engineer-automations-and-shortcuts-proactive?team=SFTWR"
+      "https://jobs.apple.com/en-us/details/200675289-0836/software-engineer-automations-and-shortcuts-proactive?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200675157-3715/sap-btp-full-stack-engineer?team=SFTWR"
     ]
   },
   {
@@ -8715,9 +8716,7 @@
     "identifier": "codal",
     "domain": "http://codal.jobs",
     "page": "https://boards-api.greenhouse.io/v1/boards/codal/jobs",
-    "urls": [
-      "http://codal.jobs?gh_jid=5233970008"
-    ]
+    "urls": []
   },
   {
     "name": "codalinc",
@@ -8725,7 +8724,9 @@
     "identifier": "codalinc",
     "domain": "http://codal.jobs",
     "page": "https://boards-api.greenhouse.io/v1/boards/codalinc/jobs",
-    "urls": []
+    "urls": [
+      "http://codal.jobs?gh_jid=5233970008"
+    ]
   },
   {
     "name": "Codeage",
@@ -11334,6 +11335,7 @@
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15785",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15861",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15878",
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15888",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16152",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16166",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16183",
@@ -11359,8 +11361,7 @@
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17793",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17919",
       "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18016",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18018",
-      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/15888"
+      "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/18018"
     ]
   },
   {
@@ -12733,7 +12734,8 @@
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Tool-Software-Eng-for-Product-Definition---intern_R5037958-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/AI-Process-Engineer_R5036399-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Sr-AI-Data-Engineer_R5034165-1",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1"
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1",
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Consulting-Engineer--Manufacturing-Systems-Engineering_R5032310-1"
     ]
   },
   {
@@ -19253,8 +19255,8 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/monogram",
     "urls": [
-      "https://jobs.ashbyhq.com/monogram/fab3e651-00e7-4a85-bcb9-0821c642a778/application?embed=true",
-      "https://jobs.ashbyhq.com/monogram/586ce112-e626-469f-89f7-e5536ac0d366"
+      "https://jobs.ashbyhq.com/monogram/586ce112-e626-469f-89f7-e5536ac0d366",
+      "https://jobs.ashbyhq.com/monogram/fab3e651-00e7-4a85-bcb9-0821c642a778/application?embed=true"
     ]
   },
   {
@@ -21523,7 +21525,23 @@
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Quantico/Forensic-Software-Developer-TS_R183424",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Quantico/Software-Developer-TS_R183423",
       "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Reston/Software-Engineer_R178220-1",
-      "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Springfield/Data-Analyst---GEOINT-Technical-SME_R183791-1"
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Springfield/Data-Analyst---GEOINT-Technical-SME_R183791-1",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/GMD-Ground-Systems-Product-Requirements-Engineer_R183022",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Digital-Engineer_R183082",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Inflight-Interceptor-Communications-Data-Terminal-Program-Analyst_R183032",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Launch-Support-Systems-Hardware-Engineer_R183026",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Cybersecurity-Engineer_R183084",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Support-Systems-Program-Analyst_R183037",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Inflight-Interceptor-Communications-Data-Terminal-Product-Engineer_R183035",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/CIS-Ground-Support-Systems-Hardware-Engineer_R183038",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Fire-Control-Program-Analyst_R183040",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Fire-Control---Communications-Test-Engineer_R183039",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Fire-Control-Product-Engineer_R183044-1",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Communication-Network-Engineering-Analyst_R183047",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Communication-Network-Software-Engineer_R183045",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-Interface-Integration-Engineer_R183030",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Launch-Support-Systems-Hardware-Engineer_R183027",
+      "https://parsons.wd5.myworkdayjobs.com/search/job/US---AL-Huntsville/Ground-Systems-CONUS-Interceptor-Site--CIS--Engineering-Analyst_R183080"
     ]
   },
   {
@@ -23004,7 +23022,8 @@
     "urls": [
       "https://jobs.ashbyhq.com/reframesystems/2c978ce9-bcf5-41b3-b211-5b0d160ed66c",
       "https://jobs.ashbyhq.com/reframesystems/36fa8ff1-f6cb-4df0-8f14-276762fe29ea",
-      "https://jobs.ashbyhq.com/reframesystems/a7d4652e-6bb2-4a86-a6f8-916c01ebfc8d"
+      "https://jobs.ashbyhq.com/reframesystems/a7d4652e-6bb2-4a86-a6f8-916c01ebfc8d",
+      "https://jobs.ashbyhq.com/reframesystems/55e64817-860a-4199-9b0a-cfd4829fea9a"
     ]
   },
   {
