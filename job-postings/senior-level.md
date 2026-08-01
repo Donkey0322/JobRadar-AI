@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Openai</td>
+      <td width="420" align="left" valign="top">Software Engineer, API Agents</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 31</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">The Trade Desk</td>
       <td width="420" align="left" valign="top">Sr Software Engineer - High Performance Computing</td>
       <td width="180" align="left" valign="top">Bellevue, WA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73722/traffic-modeling-system-engineer-for-missile-tracking-%28space-force%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Traffic Modeling System Engineer for Missile Tracking (Space Force) (Sign-On Bonus Available)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/73724/traffic-modeling-system-engineer-for-missile-tracking-%28space-force%29-%28sign-on-bonus-available%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 3,432 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 3,433 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T03:58:33.241Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T06:48:01.436Z</code></sub>

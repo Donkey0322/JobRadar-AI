@@ -93,7 +93,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 193 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,147 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 4,300 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 3,432 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 3,433 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,147 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (7,732)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (7,733)</b></summary>
 
   <br />
 
@@ -732,7 +732,7 @@ Each category page shows up to 100 of the latest opportunities.
 </table>
 <p><sub>Showing 20 of 4,300 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (3,432)</h3>
+  <h3>Senior Level (3,433)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Openai</td>
+      <td width="420" align="left" valign="top">Software Engineer, API Agents</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 31</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">The Trade Desk</td>
       <td width="420" align="left" valign="top">Sr Software Engineer - High Performance Computing</td>
@@ -878,16 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Safety-Field-Investigations---Data-Analyst_JR-202615306-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Manufacturing Software Engineering Supervisor - SDV</td>
-      <td width="180" align="left" valign="top">Warren, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Manufacturing-Software-Engineering-Supervisor---SDV_JR-202614926"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,432 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,433 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-01T03:58:33.241Z</code>
+      🕒 Last updated <code>2026-08-01T06:48:01.436Z</code>
     </span>
   </p>
 </div>
