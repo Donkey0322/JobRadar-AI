@@ -7021,7 +7021,13 @@
     "identifier": "careers.garmin.com",
     "domain": "https://careers.garmin.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://careers.garmin.com/jobs/18762?icims=1",
+      "https://careers.garmin.com/jobs/18475?icims=1",
+      "https://careers.garmin.com/jobs/18510?icims=1",
+      "https://careers.garmin.com/jobs/18511?icims=1",
+      "https://careers.garmin.com/jobs/19098?icims=1"
+    ]
   },
   {
     "name": "careers.gulfstream.com",
@@ -7344,6 +7350,16 @@
     "domain": "https://careers.nintendo.com",
     "page": "",
     "urls": []
+  },
+  {
+    "name": "careers.noblis.org",
+    "ats": "custom",
+    "identifier": "careers.noblis.org",
+    "domain": "https://careers.noblis.org",
+    "page": "",
+    "urls": [
+      "https://careers.noblis.org/jobs/27467?icims=1"
+    ]
   },
   {
     "name": "careers.nrgenergy.com",
@@ -27680,6 +27696,7 @@
       "https://lifeattiktok.com/search/7659759882657335605",
       "https://lifeattiktok.com/search/7659948535374776629",
       "https://lifeattiktok.com/search/7660184968461388037",
+      "https://lifeattiktok.com/search/7660367427276261685",
       "https://lifeattiktok.com/search/7660767857640802565",
       "https://lifeattiktok.com/search/7660769585826154805",
       "https://lifeattiktok.com/search/7660769587276892469",
@@ -27701,8 +27718,7 @@
       "https://lifeattiktok.com/search/7663617537246415157",
       "https://lifeattiktok.com/search/7665570340115876101",
       "https://lifeattiktok.com/search/7667469412420798773",
-      "https://lifeattiktok.com/search/7667690418804902149",
-      "https://lifeattiktok.com/search/7660367427276261685"
+      "https://lifeattiktok.com/search/7667690418804902149"
     ]
   },
   {
