@@ -14,6 +14,48 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Noblis</td>
+      <td width="420" align="left" valign="top">Junior Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.noblis.org/jobs/27467?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/19098?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chandler, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18511?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Web Development/Applications</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18510?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Connect IQ Applications</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18475?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Real Time Aviation Data</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18762?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">NewsBreak</td>
       <td width="420" align="left" valign="top">Software Engineer, ML Infra (Junior &amp; New Grad)</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
@@ -671,52 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200674883-0836/machine-learning-engineer-ai-evaluation-llm-systems?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Amgen</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Machine-Learning-Engineer_R-250804"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Usbank</td>
-      <td width="420" align="left" valign="top">Associate Full Stack Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Irving, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Irving-TX/Associate-Full-Stack-Software-Engineer_2026-0020517"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ssctech</td>
-      <td width="420" align="left" valign="top">Software &amp; Data Engineer – Financial Technology<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Union, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Union-NJ/Software---Data-Engineer---Financial-Technology---Launch-Program_R42203"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
-      <td width="420" align="left" valign="top">Full Stack Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Antonio, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443152606900?domain=caci.com&amp;8fold_id=1443152606900"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Peraton</td>
-      <td width="420" align="left" valign="top">JR Software Quality Assurance (QA) Automation Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/169203/jr-software-quality-assurance-%28qa%29-automation-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kla</td>
-      <td width="420" align="left" valign="top">AI engineer</td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/AI-engineer_2638674"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,147 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,153 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T21:16:11.518Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-01T23:14:35.443Z</code></sub>

@@ -91,7 +91,7 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 117 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 193 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,147 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,153 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 4,307 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,453 opportunities
 
@@ -427,6 +427,48 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Noblis</td>
+      <td width="420" align="left" valign="top">Junior Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.noblis.org/jobs/27467?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Garmin</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/19098?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chandler, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18511?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Web Development/Applications</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18510?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Connect IQ Applications</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18475?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - Real Time Aviation Data</td>
+      <td width="180" align="left" valign="top">Olathe, KS</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.garmin.com/jobs/18762?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">NewsBreak</td>
       <td width="420" align="left" valign="top">Software Engineer, ML Infra (Junior &amp; New Grad)</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
@@ -524,51 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://manulife.wd3.myworkdayjobs.com/mfcjh_adminjobs/job/Boston-Massachusetts/Full-Stack-Software-Engineer_JR26070424-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kbr</td>
-      <td width="420" align="left" valign="top">Junior Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Beavercreek, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Ohio/Junior-Systems-Engineer_R2127554"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Software-Engineer-I--Onsite-_01863436"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Clearwateranalytics</td>
-      <td width="420" align="left" valign="top">Associate Software Development Engineer</td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://clearwateranalytics.wd1.myworkdayjobs.com/clearwater_analytics_careers/job/Office---Boise/Associate-Software-Development-Engineer_R11879"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">American express</td>
-      <td width="420" align="left" valign="top">Software Engineer I - Oracle Cloud HCM - CET Services<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Phoenix, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26007827"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">The Trade Desk</td>
-      <td width="420" align="left" valign="top">Data Support Analyst I</td>
-      <td width="180" align="left" valign="top">Ventura, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/thetradedesk/jobs/5158690007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Statestreet</td>
-      <td width="420" align="left" valign="top">Junior SIEM Data Engineer</td>
-      <td width="180" align="left" valign="top">Quincy, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Junior-SIEM-Data-Engineer_R-794329"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,147 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,153 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (7,760)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-01T21:16:11.518Z</code>
+      🕒 Last updated <code>2026-08-01T23:14:35.443Z</code>
     </span>
   </p>
 </div>
