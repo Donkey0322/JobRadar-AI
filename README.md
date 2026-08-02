@@ -91,7 +91,7 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 110 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 183 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,145 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,146 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 4,307 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,454 opportunities
 
@@ -427,6 +427,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Lightfield</td>
+      <td width="420" align="left" valign="top">Software Engineer: Infrastructure (Early Career)</td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Lightfield/9a7ef2f9-577a-4242-b884-719e3cdf4420"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Garmin</td>
       <td width="420" align="left" valign="top">Software Engineer 1 - Aviation Web Development</td>
       <td width="180" align="left" valign="top">Chandler, AZ</td>
@@ -559,16 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/BoschGroup/744000140985619"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vertiv</td>
-      <td width="420" align="left" valign="top">System Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Anderson, SC</td>
-      <td width="120" align="left" valign="top"><a href="https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20260727"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,145 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,146 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (7,761)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-02T21:17:29.690Z</code>
+      🕒 Last updated <code>2026-08-02T22:14:31.878Z</code>
     </span>
   </p>
 </div>
