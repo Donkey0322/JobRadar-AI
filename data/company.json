@@ -2585,6 +2585,7 @@
     "urls": [
       "https://apply.careers.microsoft.com/careers/job/1970393556633063?domain=microsoft.com&8fold_id=1970393556633063",
       "https://apply.careers.microsoft.com/careers/job/1970393556824188?domain=microsoft.com&8fold_id=1970393556824188",
+      "https://apply.careers.microsoft.com/careers/job/1970393556857600?8fold_id=1970393556857600",
       "https://apply.careers.microsoft.com/careers/job/1970393556858723?domain=microsoft.com&8fold_id=1970393556858723",
       "https://apply.careers.microsoft.com/careers/job/1970393556859432?domain=microsoft.com&8fold_id=1970393556859432",
       "https://apply.careers.microsoft.com/careers/job/1970393556860973?8fold_id=1970393556860973",
@@ -18742,6 +18743,12 @@
     "urls": [
       "https://boards.greenhouse.io/neo4j/jobs/4426227006?gh_jid=4426227006",
       "https://boards.greenhouse.io/neo4j/jobs/4426324006?gh_jid=4426324006",
+      "https://boards.greenhouse.io/neo4j/jobs/4555260006?gh_jid=4555260006",
+      "https://boards.greenhouse.io/neo4j/jobs/4567487006?gh_jid=4567487006",
+      "https://boards.greenhouse.io/neo4j/jobs/4660592006?gh_jid=4660592006",
+      "https://boards.greenhouse.io/neo4j/jobs/4660616006?gh_jid=4660616006",
+      "https://boards.greenhouse.io/neo4j/jobs/4674493006?gh_jid=4674493006",
+      "https://boards.greenhouse.io/neo4j/jobs/4674495006?gh_jid=4674495006",
       "https://boards.greenhouse.io/neo4j/jobs/4687941006?gh_jid=4687941006",
       "https://boards.greenhouse.io/neo4j/jobs/4687943006?gh_jid=4687943006",
       "https://boards.greenhouse.io/neo4j/jobs/4687944006?gh_jid=4687944006",
@@ -18753,13 +18760,7 @@
       "https://boards.greenhouse.io/neo4j/jobs/4696151006?gh_jid=4696151006",
       "https://boards.greenhouse.io/neo4j/jobs/4696161006?gh_jid=4696161006",
       "https://boards.greenhouse.io/neo4j/jobs/4699949006?gh_jid=4699949006",
-      "https://boards.greenhouse.io/neo4j/jobs/4699951006?gh_jid=4699951006",
-      "https://boards.greenhouse.io/neo4j/jobs/4555260006?gh_jid=4555260006",
-      "https://boards.greenhouse.io/neo4j/jobs/4567487006?gh_jid=4567487006",
-      "https://boards.greenhouse.io/neo4j/jobs/4660592006?gh_jid=4660592006",
-      "https://boards.greenhouse.io/neo4j/jobs/4660616006?gh_jid=4660616006",
-      "https://boards.greenhouse.io/neo4j/jobs/4674495006?gh_jid=4674495006",
-      "https://boards.greenhouse.io/neo4j/jobs/4674493006?gh_jid=4674493006"
+      "https://boards.greenhouse.io/neo4j/jobs/4699951006?gh_jid=4699951006"
     ]
   },
   {
@@ -19694,7 +19695,8 @@
       "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship---Product-Engineering--ML-Model-Development-_R-10064264-1",
       "https://nxp.wd3.myworkdayjobs.com/careers/job/San-Diego-Treena-St/AI-ML-Driven-ASIC-Design-and-Implementation-Automation-Engineer_R-10065725",
       "https://nxp.wd3.myworkdayjobs.com/careers/job/San-Diego-Treena-St/AI-ML-driven-ASIC-Design-and-Implementation-Automation-Engineer_R-10065724",
-      "https://nxp.wd3.myworkdayjobs.com/careers/job/Sophia-Antipolis-Valbonne/Test-Engineering-Software---Automation-Engineer_R-10062334-1"
+      "https://nxp.wd3.myworkdayjobs.com/careers/job/Sophia-Antipolis-Valbonne/Test-Engineering-Software---Automation-Engineer_R-10062334-1",
+      "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Software-Engineer_R-10064891"
     ]
   },
   {
@@ -22588,6 +22590,7 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/Software-Engineering-SMTS--LLM-Model-building_JR350260",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/SMTS--Zuora-Revenue-System-Engineer_JR335227",
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-AMTS_JR334858",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Support-Engineer-Industry-Cloud-Immediate-Joiner-_JR321330",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Technical-Support-Engineer---Commerce-Cloud_JR353944-1",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Workday-System-Analyst--Software-Engineer--SMTS-_JR335225",
@@ -22615,8 +22618,7 @@
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS--Enterprise-IAM_JR353197",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS-LMTS_JR352971",
       "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS_JR352082-1",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962",
-      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/India---Hyderabad/Software-Engineering-AMTS_JR334858"
+      "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Seattle/Software-Engineering-SMTS_JR346962"
     ]
   },
   {
