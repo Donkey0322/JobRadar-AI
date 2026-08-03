@@ -19912,6 +19912,16 @@
     ]
   },
   {
+    "name": "novanta",
+    "ats": "workday",
+    "identifier": "novanta-novanta-careers",
+    "domain": "https://novanta.wd5.myworkdayjobs.com/Novanta-Careers",
+    "page": "https://novanta.wd5.myworkdayjobs.com/wday/cxs/novanta/Novanta-Careers/jobs",
+    "urls": [
+      "https://novanta.wd5.myworkdayjobs.com/Novanta-Careers/job/Apex-NC/Engineering-Co-op_R009487"
+    ]
+  },
+  {
     "name": "novatechengineering.applytojob.com",
     "ats": "custom",
     "identifier": "novatechengineering.applytojob.com",
@@ -24644,6 +24654,16 @@
     "domain": "https://snyk.wd103.myworkdayjobs.com/external",
     "page": "https://snyk.wd103.myworkdayjobs.com/wday/cxs/snyk/external/jobs",
     "urls": []
+  },
+  {
+    "name": "Socotec",
+    "ats": "smartrecruiters",
+    "identifier": "Socotec",
+    "domain": "https://jobs.smartrecruiters.com",
+    "page": "https://api.smartrecruiters.com/v1/companies/Socotec/postings",
+    "urls": [
+      "https://jobs.smartrecruiters.com/Socotec/744000141326319"
+    ]
   },
   {
     "name": "socure",
