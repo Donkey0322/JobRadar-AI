@@ -14313,6 +14313,16 @@
     "urls": []
   },
   {
+    "name": "gulfmanagement.applytojob.com",
+    "ats": "custom",
+    "identifier": "gulfmanagement.applytojob.com",
+    "domain": "https://gulfmanagement.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://gulfmanagement.applytojob.com/apply/pnJkrOYga9/Software-Engineer-Business-Systems-Intern"
+    ]
+  },
+  {
     "name": "Gumloop",
     "ats": "ashby",
     "identifier": "Gumloop",
@@ -28601,6 +28611,16 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/tonal",
     "urls": []
+  },
+  {
+    "name": "torcrobotics",
+    "ats": "greenhouse",
+    "identifier": "torcrobotics",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/torcrobotics/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/torcrobotics/jobs/8676173002"
+    ]
   },
   {
     "name": "toshibaglobalcommercesolutions",
