@@ -3,11 +3,13 @@ import type { ATS } from "../type";
 const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
+  "apply.careers.microsoft.com": "eightfold",
 };
 
 export function classifyATS(url: URL): ATS {
   const host = url.hostname;
 
+  // end with a known ATS
   if (hostToATS[host]) {
     return hostToATS[host];
   }

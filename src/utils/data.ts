@@ -12,7 +12,7 @@ import {
 import { RED_CROSS } from "@/constants/log";
 
 import type { Company } from "@/modules/company-tacker/type";
-import type { Job } from "@/types";
+import type { Job, Opportunity } from "@/types";
 
 import { logger } from "@/utils/logger";
 
@@ -125,9 +125,9 @@ export async function saveJD(jd: string, job: Job) {
   }
 }
 
-export async function loadOpportunities(): Promise<Job[]> {
+export async function loadOpportunities(): Promise<Opportunity[]> {
   try {
-    return await readNdjsonFile<Job>(OPPORTUNITIES_PATH);
+    return await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
   } catch {
     return [];
   }

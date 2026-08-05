@@ -57,8 +57,12 @@ export function getOracleKey(pathname: string): string | null {
   return getNumericRouteKey(pathname, "oraclecloud", "job");
 }
 
-export function getEightfoldKey(pathname: string): string | null {
-  return getNumericRouteKey(pathname, "eightfold", "job");
+export function getEightfoldKey(url: URL): string | null {
+  const pathKey = getNumericRouteKey(url.pathname, "eightfold", "job");
+  if (pathKey) return pathKey;
+
+  const id = url.searchParams.get("8fold_id") ?? url.searchParams.get("pid");
+  return toATSKey("eightfold", id);
 }
 
 export function getPhenomKey(pathname: string): string | null {

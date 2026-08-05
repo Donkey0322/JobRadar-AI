@@ -24,7 +24,7 @@ export function getJobKey(url: string) {
         return getAshbyKey(u) ?? `ashby:${normalizeUrl(url)}`;
 
       case "eightfold":
-        return getEightfoldKey(u.pathname) ?? `eightfold:${normalizeUrl(url)}`;
+        return getEightfoldKey(u) ?? `eightfold:${normalizeUrl(url)}`;
 
       case "greenhouse":
         return getGreenhouseKey(u) ?? `greenhouse:${normalizeUrl(url)}`;
