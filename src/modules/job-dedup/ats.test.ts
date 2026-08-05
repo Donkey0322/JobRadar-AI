@@ -10,7 +10,6 @@ import {
   getIcimsKey,
   getLeverKey,
   getOracleKey,
-  getPhenomKey,
   getSmartRecruitersKey,
   getWorkdayKey,
 } from "./ats";
@@ -267,16 +266,69 @@ describe("getOracleKey", () => {
   });
 });
 
-describe.each([
-  ["eightfold", getEightfoldKey],
-  ["phenom", getPhenomKey],
-] as const)("%s numeric route key", (vendor, getKey) => {
-  it("extracts a case-insensitive /job/:id route", () => {
-    expect(getKey("/careers/JOB/123456/software-engineer")).toBe(`${vendor}:123456`);
+describe("getEightfoldKey", () => {
+  it("extracts numeric id from /job/:id", () => {
+    // Arrange
+    const url = new URL("https://apply.careers.microsoft.com/careers/job/123456/software-engineer");
+    const expected = "eightfold:123456";
+
+    // Act
+    const result = getEightfoldKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
   });
 
-  it("returns null without a numeric /job/:id route", () => {
-    expect(getKey("/careers/job/software-engineer")).toBeNull();
+  it("is case insensitive for /job", () => {
+    // Arrange
+    const url = new URL("https://apply.careers.microsoft.com/careers/JOB/123456/software-engineer");
+    const expected = "eightfold:123456";
+
+    // Act
+    const result = getEightfoldKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("uses 8fold_id query param when present", () => {
+    // Arrange
+    const url = new URL(
+      "https://apply.careers.microsoft.com/careers/job/1970393556914839?domain=microsoft.com&8fold_id=1970393556914839"
+    );
+    const expected = "eightfold:1970393556914839";
+
+    // Act
+    const result = getEightfoldKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("uses pid query param when there is no /job/:id", () => {
+    // Arrange
+    const url = new URL(
+      "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=united+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922"
+    );
+    const expected = "eightfold:1970393556922922";
+
+    // Act
+    const result = getEightfoldKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("returns null when no id exists", () => {
+    // Arrange
+    const url = new URL("https://apply.careers.microsoft.com/careers?query=intern");
+    const expected = null;
+
+    // Act
+    const result = getEightfoldKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
   });
 });
 
