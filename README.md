@@ -92,8 +92,8 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 187 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 215 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,282 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,567 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 3,625 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,568 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 3,629 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,282 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (8,192)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (8,197)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,567)</h3>
+  <h3>Mid Level (4,568)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Supply Chain</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/101832367898796742-software-engineer-supply-chain?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Paloaltonetworks</td>
       <td width="420" align="left" valign="top">District Systems Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -721,18 +728,11 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Data-Scientist_R0238939"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Apple</td>
-      <td width="420" align="left" valign="top">Machine Learning Compiler Engineer</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200675788-3956/machine-learning-compiler-engineer?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,567 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,568 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (3,625)</h3>
+  <h3>Senior Level (3,629)</h3>
 
 <table width="100%">
   <thead>
@@ -746,7 +746,35 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Photon career site</td>
+      <td width="420" align="left" valign="top">Developer - FullStack - US</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26646"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">QA Automation Engineer - Dallas,TX</td>
+      <td width="180" align="left" valign="top">Dallas, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/26630"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Enterprise AI Capabilities</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/138863919522292422-software-engineer-enterprise-ai-capabilities?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Product Data Scientist, Geo</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/106969286223766214-product-data-scientist-geo?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Platform Customer Engineer, SLED Southwest, Google Public Sector</td>
       <td width="180" align="left" valign="top">Salt Lake City, UT</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/90621197586178758-platform-customer-engineer-sled-southwest-google-public-sector?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -857,37 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274921597953?domain=paypal.com&amp;8fold_id=274921597953"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Machine Learning Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274921597445?domain=paypal.com&amp;8fold_id=274921597445"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274921597407?domain=paypal.com&amp;8fold_id=274921597407"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274921597405?domain=paypal.com&amp;8fold_id=274921597405"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274921597315?domain=paypal.com&amp;8fold_id=274921597315"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,625 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,629 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-06T06:50:23.904Z</code>
+      🕒 Last updated <code>2026-08-06T10:06:25.940Z</code>
     </span>
   </p>
 </div>

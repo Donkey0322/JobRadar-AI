@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Supply Chain</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/101832367898796742-software-engineer-supply-chain?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Paloaltonetworks</td>
       <td width="420" align="left" valign="top">District Systems Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Chicago, IL</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://ejta.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/10438"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Curtisswright</td>
-      <td width="420" align="left" valign="top">Software Development Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Tewksbury, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://curtisswright.wd1.myworkdayjobs.com/cw_external_career_site/job/US-MA-Tewksbury-TCG/Software-Development-Engineer_JR12923-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,567 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,568 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-06T06:50:23.904Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-06T10:06:25.940Z</code></sub>
