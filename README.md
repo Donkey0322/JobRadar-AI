@@ -90,10 +90,10 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 204 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 224 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,324 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,696 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 3,736 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 223 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,310 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,678 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 3,716 opportunities
 
 ## The List 🚴‍♂️
 
@@ -284,13 +284,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">DoW SkillBridge – Remote Mission Systems Engineering Support Fellow<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Rockville, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/124779BR?ph_id=124779BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Centerfield</td>
       <td width="420" align="left" valign="top">Frontend Engineer Intern (6 month internship)</td>
       <td width="180" align="left" valign="top">Playa Vista, CA</td>
@@ -409,9 +402,16 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7668533140146817333"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 5</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Valstad</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - 3D &amp; Manufacturing Applications</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/valstad/7ff6d452-969f-43a6-9127-d153025e6aea/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 4</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 224 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 223 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -511,13 +511,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Sandisk</td>
-      <td width="420" align="left" valign="top">System Design Engineer - Memory System </td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/Sandisk/744000142015139"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Psu</td>
       <td width="420" align="left" valign="top">Artificial Intelligence / Machine Learning Verification and Validation Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">State College, PA</td>
@@ -529,13 +522,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="420" align="left" valign="top">2027 Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Melbourne, FL</td>
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Associate-Software-Engineer_R10244219"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Associate / Computer Systems Analyst - 19084 - Roy Utah<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Roy, UT</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/Associate---Computer-Systems-Analyst---19084---Roy-Utah_R10238919-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
     <tr>
@@ -566,16 +552,30 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000141951289"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Kbr</td>
+      <td width="420" align="left" valign="top">Jr. Systems Engineer (Board Support)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Chantilly, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Jr-Systems-Engineer--Board-Support-_R2127901-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Forward</td>
+      <td width="420" align="left" valign="top">AI Engineer</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/forwardnetworks/jobs/7822161003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,324 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,310 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (8,432)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (8,394)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,696)</h3>
+  <h3>Mid Level (4,678)</h3>
 
 <table width="100%">
   <thead>
@@ -666,13 +666,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Hpe</td>
-      <td width="420" align="left" valign="top">Data scientist - Agentic AI</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/Data-scientist---Agentic-AI_1208011-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Zoox</td>
       <td width="420" align="left" valign="top">Embedded Software Engineer - Body Systems</td>
       <td width="180" align="left" valign="top">Foster City, CA</td>
@@ -728,11 +721,18 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8679658002?gh_jid=8679658002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Scopely</td>
+      <td width="420" align="left" valign="top">AI Game Developer (Designer, Artist, Or Engineer) </td>
+      <td width="180" align="left" valign="top">Culver City, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/scopely/jobs/5374032008?gh_jid=5374032008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,696 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,678 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (3,736)</h3>
+  <h3>Senior Level (3,716)</h3>
 
 <table width="100%">
   <thead>
@@ -872,22 +872,22 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Target</td>
-      <td width="420" align="left" valign="top">Sr Data Analyst - Digital and Ecommerce (Experimentation, Math/Stats, A/B testing, ML)</td>
-      <td width="180" align="left" valign="top">Minneapolis, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Sr-Data-Analyst---Digital-and-Ecommerce_R0000437894"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Tandemdiabetes</td>
       <td width="420" align="left" valign="top">Sr Software Test Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Del Mar, CA</td>
       <td width="120" align="left" valign="top"><a href="https://tandemdiabetes.wd12.myworkdayjobs.com/tandemdiabetes/job/California---Barnes/Sr-Software-Test-Engineer-I_JR101432"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">PlayStation Global</td>
+      <td width="420" align="left" valign="top">Sr Cloud Infrastructure &amp; Platform Engineer</td>
+      <td width="180" align="left" valign="top">Madison, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6124245004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,736 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,716 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-07T13:42:55.778Z</code>
+      🕒 Last updated <code>2026-08-07T14:00:14.984Z</code>
     </span>
   </p>
 </div>
