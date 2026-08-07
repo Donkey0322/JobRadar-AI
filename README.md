@@ -91,8 +91,8 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 204 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 224 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,323 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,693 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,324 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,694 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,734 opportunities
 
 ## The List 🚴‍♂️
@@ -427,6 +427,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Early Career, Campus</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/78703249065943750-software-engineer-early-career-campus?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Abbott</td>
       <td width="420" align="left" valign="top">Automation Integration Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Madison, WI</td>
@@ -559,23 +566,16 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000141951289"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kbr</td>
-      <td width="420" align="left" valign="top">Jr. Systems Engineer (Board Support)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chantilly, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Jr-Systems-Engineer--Board-Support-_R2127901-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,323 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,324 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (8,427)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (8,428)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,693)</h3>
+  <h3>Mid Level (4,694)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Security Command Center</td>
+      <td width="180" align="left" valign="top">Kirkland, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/80240366321574598-software-engineer-security-command-center?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Security Research Engineer</td>
@@ -721,16 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/Waltham-MA/Research-Associate---RNA-Synthesis-Platform-Development_R2862465-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sandisk</td>
-      <td width="420" align="left" valign="top">System Design Engineer - Memory System </td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/sandisk/744000142015139"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,693 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,694 opportunities in this section.</sub></p>
 
   <h3>Senior Level (3,734)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-07T07:49:46.132Z</code>
+      🕒 Last updated <code>2026-08-07T09:19:53.421Z</code>
     </span>
   </p>
 </div>
