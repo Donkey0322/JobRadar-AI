@@ -10660,6 +10660,16 @@
     ]
   },
   {
+    "name": "egbc.applytojob.com",
+    "ats": "custom",
+    "identifier": "egbc.applytojob.com",
+    "domain": "https://egbc.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://egbc.applytojob.com/apply/FYOlZPW8Z5/Information-Systems-Coop"
+    ]
+  },
+  {
     "name": "ehzq.fa.us2.oraclecloud.com",
     "ats": "oraclecloud",
     "identifier": "ehzq.fa.us2.oraclecloud.com",
@@ -27773,7 +27783,8 @@
       "https://lifeattiktok.com/search/7670391173613160757",
       "https://lifeattiktok.com/search/7670558992960358661",
       "https://lifeattiktok.com/search/7670700387322300677",
-      "https://lifeattiktok.com/search/7670738362521520437"
+      "https://lifeattiktok.com/search/7670738362521520437",
+      "https://lifeattiktok.com/search/7671211313289398581"
     ]
   },
   {
