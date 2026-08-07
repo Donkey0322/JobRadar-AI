@@ -9,6 +9,12 @@ export type MaybePromise<T> = T | Promise<T>;
 export interface ATSAdapter {
   readonly ats: ATS;
 
+  /**
+   * Sync grouping key for URLs that resolve to the same company.
+   * Must not perform network I/O. Prefer `${ats}:${identifier}` when known.
+   */
+  companyKeyFromUrl(url: URL): string;
+
   formCompany(url: URL): MaybePromise<CompanyResult>;
 
   fetch(company: Company, knownKeys: ReadonlySet<string>, signal: AbortSignal): Promise<Job[]>;
@@ -24,6 +30,8 @@ export interface ATSAdapter {
 export abstract class ATSFetcher<TJob> {
   abstract readonly ats: ATS;
 
+  abstract companyKeyFromUrl(url: URL): string;
+
   abstract formCompany(url: URL): MaybePromise<CompanyResult>;
 
   protected abstract getJobsFromResponse(data: unknown): TJob[];
@@ -34,6 +42,11 @@ export abstract class ATSFetcher<TJob> {
 
   protected isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
     return isKnownJob(link, knownKeys);
+  }
+
+  /** Build `${ats}:${identifier}` keys used by company list grouping. */
+  protected companyKey(identifier: string): string {
+    return `${this.ats}:${identifier}`;
   }
 
   abstract fetch(

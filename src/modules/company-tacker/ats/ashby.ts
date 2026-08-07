@@ -117,45 +117,57 @@ export const AshbyResponseSchema = z.object({
 export class AshbyFetcher extends ATSFetcher<AshbyJob> {
   readonly ats = "ashby" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    const syncIdentifier = this.getSyncIdentifier(url);
+
+    if (syncIdentifier) {
+      return this.companyKey(syncIdentifier);
+    }
+
+    return this.companyKey(`host:${getHostnameWithoutWww(url)}`);
+  }
+
   async formCompany(url: URL): Promise<Company> {
-    const host = getHostnameWithoutWww(url);
+    const syncIdentifier = this.getSyncIdentifier(url);
 
-    // Case 0:
-    // Known manual overrides
-    if (identifierMap[host]) {
-      return buildCompany(url, identifierMap[host]);
+    if (syncIdentifier) {
+      return buildCompany(url, syncIdentifier);
     }
 
-    // Case 1:
-    // https://jobs.ashbyhq.com/semgrep
-    // https://jobs.ashbyhq.com/semgrep/embed?version=2
-    // https://jobs.ashbyhq.com/semgrep/b3d22389-...
-    if (isAshbyJobBoardHost(host)) {
-      const identifier = getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
-
-      return buildCompany(url, identifier);
-    }
-
-    // Case 2:
-    // https://api.ashbyhq.com/posting-api/job-board/semgrep
-    const directIdentifier = getAshbyIdentifierFromUrl(url);
-    if (directIdentifier) {
-      return buildCompany(url, directIdentifier);
-    }
-
-    // Case 3:
-    // https://semgrep.dev/about/careers/?ashby_jid=...
-    // Fetch page HTML and find Ashby embed script / iframe / base job board URL
+    // Case 3: scrape embedded Ashby identifier from careers HTML
     const embeddedIdentifier = await findEmbeddedAshbyIdentifier(url);
     if (embeddedIdentifier) {
       return buildCompany(url, embeddedIdentifier);
     }
 
-    // Case 4:
-    // fallback: keep old behavior, never return empty identifier
-    const identifier = getSubdomainIdentifier(url);
+    // Case 4: fallback
+    return buildCompany(url, getSubdomainIdentifier(url));
+  }
 
-    return buildCompany(url, identifier);
+  /**
+   * Identifier known from the URL alone (no network).
+   * Returns null when HTML scrape is required.
+   */
+  private getSyncIdentifier(url: URL): string | null {
+    const host = getHostnameWithoutWww(url);
+
+    // Case 0: known manual overrides
+    if (identifierMap[host]) {
+      return identifierMap[host];
+    }
+
+    // Case 1: Ashby job board hosts
+    if (isAshbyJobBoardHost(host)) {
+      return getAshbyIdentifierFromUrl(url) || getSubdomainIdentifier(url);
+    }
+
+    // Case 2: API posting URL
+    const directIdentifier = getAshbyIdentifierFromUrl(url);
+    if (directIdentifier) {
+      return directIdentifier;
+    }
+
+    return null;
   }
 
   protected getJobsFromResponse(data: unknown): AshbyJob[] {

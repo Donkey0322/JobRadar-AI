@@ -80,6 +80,7 @@ describe("ATS fetcher registry", () => {
       expect(fetcher).toBeInstanceOf(ATSFetcher);
       expect(fetcher.ats).toBe(ats);
       expect(Object.keys(fetcher)).toEqual(["ats"]);
+      expect(prototype).toHaveProperty("companyKeyFromUrl", expect.any(Function));
       expect(prototype).toHaveProperty("getJobsFromResponse", expect.any(Function));
       expect(prototype).toHaveProperty("getJobLink", expect.any(Function));
       expect(prototype).toHaveProperty("normalizeJob", expect.any(Function));
@@ -104,6 +105,69 @@ describe("ATS fetcher registry", () => {
       },
     ]);
     expect(formCompany).toHaveBeenCalledWith(new URL("https://example.com/jobs/1"));
+  });
+
+  it("groups URLs by company key before calling formCompany", async () => {
+    const company: Company = {
+      name: "apply.careers.microsoft.com",
+      ats: "eightfold",
+      identifier: "apply.careers.microsoft.com",
+      domain: "microsoft.com",
+      page: "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com",
+      urls: [],
+    };
+    const formCompany = vi.spyOn(eightfoldFetcher, "formCompany").mockResolvedValue(company);
+
+    const urls = [
+      "https://apply.careers.microsoft.com/careers/job/1?domain=microsoft.com&8fold_id=1",
+      "https://apply.careers.microsoft.com/careers/job/2?domain=microsoft.com&8fold_id=2",
+      "https://apply.careers.microsoft.com/careers/job/3?domain=microsoft.com&8fold_id=3",
+    ];
+
+    await expect(buildCompanyList(urls)).resolves.toEqual([
+      {
+        ...company,
+        urls,
+      },
+    ]);
+    expect(formCompany).toHaveBeenCalledTimes(1);
+    expect(formCompany).toHaveBeenCalledWith(new URL(urls[0]));
+  });
+
+  it("keeps distinct company keys as separate formCompany calls", async () => {
+    const acme: Company = {
+      name: "acme",
+      ats: "lever",
+      identifier: "acme",
+      domain: "https://jobs.lever.co",
+      page: "https://api.lever.co/v0/postings/acme?mode=json",
+      urls: [],
+    };
+    const beta: Company = {
+      name: "beta",
+      ats: "lever",
+      identifier: "beta",
+      domain: "https://jobs.lever.co",
+      page: "https://api.lever.co/v0/postings/beta?mode=json",
+      urls: [],
+    };
+    const formCompany = vi
+      .spyOn(leverFetcher, "formCompany")
+      .mockImplementation((url) => (url.pathname.startsWith("/acme") ? acme : beta));
+
+    const result = await buildCompanyList([
+      "https://jobs.lever.co/acme/1",
+      "https://jobs.lever.co/acme/2",
+      "https://jobs.lever.co/beta/1",
+    ]);
+
+    expect(formCompany).toHaveBeenCalledTimes(2);
+    expect(result).toEqual(
+      expect.arrayContaining([
+        { ...acme, urls: ["https://jobs.lever.co/acme/1", "https://jobs.lever.co/acme/2"] },
+        { ...beta, urls: ["https://jobs.lever.co/beta/1"] },
+      ])
+    );
   });
 
   it("dispatches fetches and retains final job-key deduplication", async () => {

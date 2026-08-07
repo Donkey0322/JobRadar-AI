@@ -58,8 +58,12 @@ const MAX_PAGES = 200;
 export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
   readonly ats = "eightfold" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(this.getIdentifier(url));
+  }
+
   async formCompany(url: URL): Promise<Company> {
-    const identifier = url.hostname.replace(".eightfold.ai", "");
+    const identifier = this.getIdentifier(url);
     const domain =
       url.searchParams.get("domain") ??
       domainMap[url.hostname as keyof typeof domainMap] ??
@@ -67,10 +71,19 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
 
     let page = `${url.origin}/api/pcsx/search?domain=${domain}`;
     const response = await fetch(page);
-    const data = (await response.json()) as { message?: string };
 
-    if (data.message === "PCSX is not enabled for this user.") {
-      page = `${url.origin}/api/apply/v2/jobs?domain=${domain}`;
+    if (response.ok) {
+      const text = await response.text();
+
+      try {
+        const data = JSON.parse(text) as { message?: string };
+
+        if (data.message === "PCSX is not enabled for this user.") {
+          page = `${url.origin}/api/apply/v2/jobs?domain=${domain}`;
+        }
+      } catch {
+        // Non-JSON body (e.g. rate limit) — keep PCSX page and let fetch handle it.
+      }
     }
 
     return {
@@ -81,6 +94,10 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
       page,
       urls: [],
     };
+  }
+
+  private getIdentifier(url: URL): string {
+    return url.hostname.replace(".eightfold.ai", "");
   }
 
   protected getJobsFromResponse(data: unknown): EightfoldJob[] {

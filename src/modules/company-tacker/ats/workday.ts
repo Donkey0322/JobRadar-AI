@@ -37,7 +37,30 @@ const WorkdayResponseSchema = z.object({
 export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
   readonly ats = "workday" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    const { companyName, careerPage } = this.getCompanyParts(url);
+    return this.companyKey(`${companyName}-${careerPage.toLowerCase()}`);
+  }
+
   formCompany(url: URL): Company {
+    const { name, careerPage, companyName, domain } = this.getCompanyParts(url);
+
+    return {
+      name: companyName,
+      ats: this.ats,
+      identifier: `${companyName}-${careerPage.toLowerCase()}`,
+      domain,
+      page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
+      urls: [],
+    };
+  }
+
+  private getCompanyParts(url: URL): {
+    name: string;
+    careerPage: string;
+    companyName: string;
+    domain: string;
+  } {
     const host = url.hostname;
     const parts = url.pathname.split("/").filter(Boolean);
 
@@ -64,20 +87,16 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
           : (parts.find((p) => !isWorkdayLocaleSegment(p, "lenient")) ?? "external");
     }
 
-    const identifier = identifierMap[name as keyof typeof identifierMap] ?? name;
-    const normalizedCareerPage = careerPage.toLowerCase();
-
+    const companyName = identifierMap[name as keyof typeof identifierMap] ?? name;
     const domain = host.endsWith("myworkdaysite.com")
       ? `${url.origin}/recruiting/${name}/${careerPage}`
       : `${url.origin}/${careerPage}`;
 
     return {
-      name: identifier,
-      ats: this.ats,
-      identifier: `${identifier}-${normalizedCareerPage}`,
+      name,
+      careerPage,
+      companyName,
       domain,
-      page: `${url.origin}/wday/cxs/${name}/${careerPage}/jobs`,
-      urls: [],
     };
   }
 

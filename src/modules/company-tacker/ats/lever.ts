@@ -31,13 +31,16 @@ export const LeverResponseSchema = z.array(LeverJobSchema);
 export class LeverFetcher extends ATSFetcher<LeverJob> {
   readonly ats = "lever" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(this.getIdentifier(url));
+  }
+
   formCompany(url: URL): Company {
     const page = url.origin.includes("eu")
       ? "https://api.eu.lever.co/v0/postings"
       : "https://api.lever.co/v0/postings";
 
-    const parts = url.pathname.split("/").filter(Boolean);
-    const identifier = parts[0];
+    const identifier = this.getIdentifier(url);
 
     const companyName =
       identifierToLeverCompany[identifier as keyof typeof identifierToLeverCompany] ?? identifier;
@@ -50,6 +53,10 @@ export class LeverFetcher extends ATSFetcher<LeverJob> {
       page: `${page}/${identifier}?mode=json`,
       urls: [],
     };
+  }
+
+  private getIdentifier(url: URL): string {
+    return url.pathname.split("/").filter(Boolean)[0];
   }
 
   protected getJobsFromResponse(data: unknown): LeverJob[] {

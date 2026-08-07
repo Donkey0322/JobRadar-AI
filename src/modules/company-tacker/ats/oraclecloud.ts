@@ -88,6 +88,10 @@ const composeUrl = (company: Company, id: string) => {
 export class OracleCloudFetcher extends ATSFetcher<OracleCloudJob> {
   readonly ats = "oraclecloud" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(url.hostname.replace("www.", ""));
+  }
+
   async formCompany(url: URL): Promise<Company> {
     const { companyName, siteNumber } = await getSiteSettings(url);
     const identifier = url.hostname.replace("www.", "");

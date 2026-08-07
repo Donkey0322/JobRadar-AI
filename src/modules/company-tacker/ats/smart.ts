@@ -31,9 +31,12 @@ export const SmartRecruitersResponseSchema = z.object({
 export class SmartRecruitersFetcher extends ATSFetcher<SmartRecruitersJob> {
   readonly ats = "smartrecruiters" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(this.getIdentifier(url));
+  }
+
   formCompany(url: URL): Company {
-    const parts = url.pathname.split("/").filter(Boolean);
-    const identifier = parts[0];
+    const identifier = this.getIdentifier(url);
 
     return {
       name: identifier,
@@ -43,6 +46,10 @@ export class SmartRecruitersFetcher extends ATSFetcher<SmartRecruitersJob> {
       page: `${SMART_RECRUITERS_API_URL}/${identifier}/postings`,
       urls: [],
     };
+  }
+
+  private getIdentifier(url: URL): string {
+    return url.pathname.split("/").filter(Boolean)[0];
   }
 
   protected getJobsFromResponse(data: unknown): SmartRecruitersJob[] {

@@ -27,8 +27,11 @@ export {
 export class CustomFetcher extends ATSFetcher<Job> {
   readonly ats = "custom" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(this.getIdentifier(url));
+  }
+
   formCompany(url: URL): Company {
-    const host = url.hostname;
     const identifier = parseCustomCompanyIdentifier(url);
 
     switch (identifier) {
@@ -48,16 +51,21 @@ export class CustomFetcher extends ATSFetcher<Job> {
         return AMDCompany;
       default: {
         identifier satisfies null;
+        const fallback = this.getIdentifier(url);
         return {
-          name: host.replace("www.", ""),
+          name: fallback,
           ats: "custom",
-          identifier: host.replace("www.", ""),
+          identifier: fallback,
           domain: url.origin,
           page: ``,
           urls: [],
         };
       }
     }
+  }
+
+  private getIdentifier(url: URL): string {
+    return parseCustomCompanyIdentifier(url) ?? url.hostname.replace("www.", "");
   }
 
   protected getJobsFromResponse(data: unknown): Job[] {

@@ -149,6 +149,10 @@ interface IcimsPageResponse {
 export class IcimsFetcher extends ATSFetcher<IcimsJob> {
   readonly ats = "icims" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(getIcimsCompanyIdentifier(url));
+  }
+
   formCompany(url: URL): Company {
     const identifier = getIcimsCompanyIdentifier(url);
 

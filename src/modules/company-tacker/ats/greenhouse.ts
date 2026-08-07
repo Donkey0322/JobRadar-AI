@@ -31,6 +31,7 @@ const identifierMap: Record<string, string> = {
   "precisely.com": "preciselyusjobs",
   "tower-research.com": "towerresearchcapital",
   "careers.airbnb.com": "airbnb",
+  "careers.dat.com": "datsolutions",
   "boomi.com": "boomilp",
   "airbnb.com": "airbnb",
   "verition.com": "veritiongroupllc",
@@ -66,66 +67,103 @@ export const GreenhouseResponseSchema = z.object({
 export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
   readonly ats = "greenhouse" as const;
 
-  async formCompany(url: URL): Promise<Company> {
+  companyKeyFromUrl(url: URL): string {
+    const syncIdentifier = this.getSyncIdentifier(url);
+
+    if (syncIdentifier) {
+      return this.companyKey(syncIdentifier);
+    }
+
     const parts = url.pathname.split("/").filter(Boolean);
     const host = getHostnameWithoutWww(url);
 
-    // Case 0:
-    if (identifierMap[host]) {
-      return this.buildCompany(url, identifierMap[host]);
+    // Provisional keys for URLs that need network to resolve the real identifier
+    if (isGreenhouseJobBoardHost(host) && parts[0] === "embed" && parts[1] === "job_app") {
+      const token = url.searchParams.get("token");
+      return this.companyKey(token ? `job_app:${token}` : `url:${url.href}`);
     }
 
-    // Case 1:
-    // https://boards.greenhouse.io/embed/job_board?for=xxx
-    // https://boards.greenhouse.io/embed/job_board/js?for=xxx
-    // https://boards.eu.greenhouse.io/embed/job_board?for=xxx
-    // https://boards.greenhouse.io/embed/job_app?token=xxx
-    if (isGreenhouseJobBoardHost(host) && parts[0] === "embed") {
-      let identifier = url.searchParams.get("for");
+    return this.companyKey(`host:${host}`);
+  }
 
-      if (!identifier && parts[1] === "job_app") {
-        try {
-          const response = await fetch(url.href);
-          identifier = new URL(response.url).searchParams.get("for") ?? null;
-        } catch {
-          identifier = null;
-        }
+  async formCompany(url: URL): Promise<Company> {
+    const syncIdentifier = this.getSyncIdentifier(url);
+
+    if (syncIdentifier) {
+      return this.buildCompany(url, syncIdentifier);
+    }
+
+    // Case 1 (partial): embed job_app without `for=` needs a redirect to resolve
+    const parts = url.pathname.split("/").filter(Boolean);
+    const host = getHostnameWithoutWww(url);
+
+    if (isGreenhouseJobBoardHost(host) && parts[0] === "embed" && parts[1] === "job_app") {
+      let identifier: string | null = null;
+
+      try {
+        const response = await fetch(url.href);
+        identifier = new URL(response.url).searchParams.get("for");
+      } catch {
+        identifier = null;
       }
 
       return this.buildCompany(url, identifier || getSubdomainIdentifier(url));
     }
 
-    // Case 2:
-    // https://job-boards.greenhouse.io/acluinternships/jobs/8425459002
-    // https://job-boards.eu.greenhouse.io/imc/jobs/4580809101
-    // https://boards.greenhouse.io/acluinternships
-    if (isGreenhouseJobBoardHost(host)) {
-      return this.buildCompany(url, parts[0] || getSubdomainIdentifier(url));
-    }
-
-    // Case 3:
-    // https://app.careerpuck.com/job-board/lyft/job/8215921002?gh_jid=8215921002
-    if (host === "app.careerpuck.com") {
-      const jobBoardIndex = parts.indexOf("job-board");
-      const companySlug = parts[jobBoardIndex + 1];
-
-      if (companySlug) {
-        return this.buildCompany(url, identifierMap[companySlug] || companySlug);
-      }
-    }
-
-    // Case 4:
-    // https://www.acadian-asset.com/careers/open-positions?gh_jid=4645552006
+    // Case 4: scrape embedded Greenhouse identifier from careers HTML
     const embeddedIdentifier = await this.findEmbeddedIdentifier(url);
     if (embeddedIdentifier) {
       return this.buildCompany(url, embeddedIdentifier);
     }
 
-    // Case 5:
-    // fallback: keep old behavior, never return empty identifier
-    const identifier = getSubdomainIdentifier(url);
+    // Case 5: fallback
+    return this.buildCompany(url, getSubdomainIdentifier(url));
+  }
 
-    return this.buildCompany(url, identifier);
+  /**
+   * Identifier known from the URL alone (no network).
+   * Returns null when HTML scrape / redirect is required.
+   */
+  private getSyncIdentifier(url: URL): string | null {
+    const parts = url.pathname.split("/").filter(Boolean);
+    const host = getHostnameWithoutWww(url);
+
+    // Case 0:
+    if (identifierMap[host]) {
+      return identifierMap[host];
+    }
+
+    // Case 1: embed with explicit `for=`
+    if (isGreenhouseJobBoardHost(host) && parts[0] === "embed") {
+      const forParam = url.searchParams.get("for");
+      if (forParam) {
+        return forParam;
+      }
+
+      // job_app without `for=` needs network
+      if (parts[1] === "job_app") {
+        return null;
+      }
+
+      return getSubdomainIdentifier(url);
+    }
+
+    // Case 2: greenhouse job board hosts
+    if (isGreenhouseJobBoardHost(host)) {
+      return parts[0] || getSubdomainIdentifier(url);
+    }
+
+    // Case 3: careerpuck
+    if (host === "app.careerpuck.com") {
+      const jobBoardIndex = parts.indexOf("job-board");
+      const companySlug = parts[jobBoardIndex + 1];
+
+      if (companySlug) {
+        return identifierMap[companySlug] || companySlug;
+      }
+    }
+
+    return null;
   }
 
   protected getJobsFromResponse(data: unknown): GreenhouseJob[] {

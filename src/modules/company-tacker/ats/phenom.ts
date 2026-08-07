@@ -614,6 +614,10 @@ function getPhenomJobLocation(job: PhenomJob): string {
 export class PhenomFetcher extends ATSFetcher<PhenomJob> {
   readonly ats = "phenom" as const;
 
+  companyKeyFromUrl(url: URL): string {
+    return this.companyKey(url.hostname);
+  }
+
   async formCompany(url: URL): Promise<Company | null> {
     return {
       name: url.hostname,
