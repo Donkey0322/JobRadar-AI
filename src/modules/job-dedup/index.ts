@@ -67,6 +67,21 @@ export function isKnownJob(link: string, knownKeys: ReadonlySet<string>) {
   return knownKeys.has(getJobKey(link));
 }
 
+export function deduplicateJobs<T extends { link: string }>(jobs: T[]): T[] {
+  const seen = new Set<string>();
+
+  return jobs.filter((job) => {
+    const key = getJobKey(job.link);
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
+}
+
 export function groupUrlsByKey(urls: string[] | Set<string>) {
   const map = new Map<string, string[]>();
 

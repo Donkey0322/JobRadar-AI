@@ -3,7 +3,7 @@ import pLimit from "p-limit";
 import type { Company } from "./type";
 import type { Job } from "@/types";
 
-import { isKnownJob, toJobKeySet } from "../job-dedup";
+import { deduplicateJobs, isKnownJob, toJobKeySet } from "../job-dedup";
 
 import { getATSFetcher } from "./ats";
 
@@ -103,7 +103,7 @@ export default async function discoverJobs() {
     )
   );
 
-  const newJobs = results.flat();
+  const newJobs = deduplicateJobs(results.flat());
 
   const endTime = Date.now();
 

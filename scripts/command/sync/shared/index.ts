@@ -6,7 +6,7 @@ import type { Opportunity } from "@/types/jobs";
 import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
-import { getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
+import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
@@ -58,13 +58,14 @@ interface ProcessJobsOptions {
 const AI_CONCURRENCY = 5;
 
 export async function processJobs({
-  jobs: incomingJobs,
+  jobs: rawIncomingJobs,
   urls,
   keys,
   currentId,
   filter,
   softDeadlineMs = DEFAULT_SOFT_DEADLINE_MS,
 }: ProcessJobsOptions) {
+  const incomingJobs = deduplicateJobs(rawIncomingJobs);
   const startedAt = Date.now();
 
   function remainingMs() {

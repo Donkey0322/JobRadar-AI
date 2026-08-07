@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { getJobKey, isKnownJob, toJobKeySet } from ".";
+import { deduplicateJobs, getJobKey, isKnownJob, toJobKeySet } from ".";
 
 describe("job key sets", () => {
   it("converts URL aliases into one canonical key", () => {
@@ -20,5 +20,22 @@ describe("job key sets", () => {
     expect(
       isKnownJob("https://company.wd1.myworkdayjobs.com/en-US/jobs/another-role_R-12345", knownKeys)
     ).toBe(true);
+  });
+
+  it("deduplicates URL aliases within the same job batch", () => {
+    const first = {
+      link: "https://boards.greenhouse.io/acme/jobs/123456",
+      role: "Software Engineer",
+    };
+    const alias = {
+      link: "https://acme.example/careers/software-engineer?gh_jid=123456",
+      role: "Software Engineer",
+    };
+    const different = {
+      link: "https://boards.greenhouse.io/acme/jobs/654321",
+      role: "Data Engineer",
+    };
+
+    expect(deduplicateJobs([first, alias, different])).toEqual([first, different]);
   });
 });
