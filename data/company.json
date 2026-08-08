@@ -344,6 +344,7 @@
     "urls": [
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Amsterdam/Consultant---NET-Full-Stack-Developer_R00339893",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Assago-Via-del-Mulino-11a/AI-Software-Engineer--GenAI--Virtual-Agent--MS-Copilot-_R00338277-1",
+      "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Assago-Via-del-Mulino-11a/Academy-AI-Developer---Neolaureati_R00338965",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Berlin/Data-Engineering-Consultant--w-m-x----Germany_R00339925",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Berlin/DevOps-Engineer----m-w-x-_R00341434",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Dubai-Arenco-Tower/AI-Developer--Copilot---Microsoft-AI-Solutions-_R00342963",
@@ -391,8 +392,7 @@
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Vienna-Borsegebaude/Data-Engineering-Consultant--w-m-x----Austria_R00332623",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Vienna/Azure-Cloud-Engineer--m-w-x-_R00338096",
       "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Voecklamarkt/Azure-Cloud-Engineer--m-w-x-_R00338097",
-      "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Voecklamarkt/Data-Engineering-Consultant--w-m-x----Austria_R00339978",
-      "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Assago-Via-del-Mulino-11a/Academy-AI-Developer---Neolaureati_R00338965"
+      "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Voecklamarkt/Data-Engineering-Consultant--w-m-x----Austria_R00339978"
     ]
   },
   {
@@ -22127,10 +22127,10 @@
     "domain": "https://polaris.wd5.myworkdayjobs.com/polarisjobs",
     "page": "https://polaris.wd5.myworkdayjobs.com/wday/cxs/polaris/polarisjobs/jobs",
     "urls": [
-      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Wyoming-MN-USA/Design-Engineer--Body-Systems-_R30649",
-      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Wyoming-MN-USA/Project-Engineer----Vehicle-Electronics---Software-_R29971",
       "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Medina-MN-USA/Digital---IT-Leadership-Development-Program-Associate---Infrastructure---Information-Security_R30563",
-      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Medina-MN-USA/Digital---IT-Leadership-Development-Program-Associate---Predictive-Data-Science_R30564"
+      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Medina-MN-USA/Digital---IT-Leadership-Development-Program-Associate---Predictive-Data-Science_R30564",
+      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Wyoming-MN-USA/Design-Engineer--Body-Systems-_R30649",
+      "https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Wyoming-MN-USA/Project-Engineer----Vehicle-Electronics---Software-_R29971"
     ]
   },
   {
@@ -29504,7 +29504,8 @@
     "domain": "https://vrtx.wd501.myworkdayjobs.com/vertex_careers",
     "page": "https://vrtx.wd501.myworkdayjobs.com/wday/cxs/vrtx/vertex_careers/jobs",
     "urls": [
-      "https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Lab-Automation-Engineer_REQ-29716"
+      "https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Lab-Automation-Engineer_REQ-29716",
+      "https://vrtx.wd501.myworkdayjobs.com/vertex_careers/job/Boston-MA/Senior-Analyst--Market-Access-Platforms_REQ-29607"
     ]
   },
   {
