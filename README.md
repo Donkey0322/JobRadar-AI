@@ -92,7 +92,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 208 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 225 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,361 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,821 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,822 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 3,806 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,361 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (8,627)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (8,628)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,821)</h3>
+  <h3>Mid Level (4,822)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Anduril Industries</td>
+      <td width="420" align="left" valign="top">Fuel Systems Engineer, Air Vehicles<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5200265007?gh_jid=5200265007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 8</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Amazon</td>
       <td width="420" align="left" valign="top">Software Development Engineer, Core Shopping</td>
@@ -721,16 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200647212-3956/systems-debug-engineer-data-center-hwe?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Anduril Industries</td>
-      <td width="420" align="left" valign="top">System Engineer, Electrical Integration - Edge Compute and Communications<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5207557007?gh_jid=5207557007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,821 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,822 opportunities in this section.</sub></p>
 
   <h3>Senior Level (3,806)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-08T15:49:20.915Z</code>
+      🕒 Last updated <code>2026-08-08T19:47:52.272Z</code>
     </span>
   </p>
 </div>

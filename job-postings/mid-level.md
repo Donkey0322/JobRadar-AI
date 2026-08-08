@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Anduril Industries</td>
+      <td width="420" align="left" valign="top">Fuel Systems Engineer, Air Vehicles<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Costa Mesa, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5200265007?gh_jid=5200265007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Amazon</td>
       <td width="420" align="left" valign="top">Software Development Engineer, Core Shopping</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10496150"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Abbvie</td>
-      <td width="420" align="left" valign="top">Global Security System Access Control Analyst</td>
-      <td width="180" align="left" valign="top">North Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/AbbVie/3743990014498727"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,821 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,822 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-08T15:49:20.915Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-08T19:47:52.272Z</code></sub>
