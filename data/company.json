@@ -6245,7 +6245,8 @@
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Software-Intern_R53282-1",
       "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SHANGHAI-07/Systems-Product-Engineer_R52694",
       "https://cadence.wd1.myworkdayjobs.com/external_careers/job/BURLINGTON-CAN-01/Customer-Service-Engineer-for-Virtual-Manufacturing---Costing-simulation-software_R55415",
-      "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Business-Systems-Analyst--Salesforce--Vibe-Coding-_R54919"
+      "https://cadence.wd1.myworkdayjobs.com/external_careers/job/SAN-JOSE/Business-Systems-Analyst--Salesforce--Vibe-Coding-_R54919",
+      "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/PETAH-TIKVA/Application-Engineer---AI---Verification-Solutions_R55844"
     ]
   },
   {
@@ -11579,9 +11580,9 @@
     "domain": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job",
     "page": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3Dnfcu%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
+      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/30845",
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31373",
-      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31667",
-      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/30845"
+      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31667"
     ]
   },
   {
@@ -15974,6 +15975,7 @@
     "urls": [
       "https://jobs.baesystems.com/global/en/job/120578BR?ph_id=120578BR",
       "https://jobs.baesystems.com/global/en/job/122858BR?ph_id=122858BR",
+      "https://jobs.baesystems.com/global/en/job/123201BR?ph_id=123201BR",
       "https://jobs.baesystems.com/global/en/job/123624BR?ph_id=123624BR",
       "https://jobs.baesystems.com/global/en/job/123625BR?ph_id=123625BR",
       "https://jobs.baesystems.com/global/en/job/123901BR?ph_id=123901BR",
@@ -16049,8 +16051,7 @@
       "https://jobs.baesystems.com/global/en/job/128402BR?ph_id=128402BR",
       "https://jobs.baesystems.com/global/en/job/128403BR?ph_id=128403BR",
       "https://jobs.baesystems.com/global/en/job/128479BR?ph_id=128479BR",
-      "https://jobs.baesystems.com/global/en/job/128481BR?ph_id=128481BR",
-      "https://jobs.baesystems.com/global/en/job/123201BR?ph_id=123201BR"
+      "https://jobs.baesystems.com/global/en/job/128481BR?ph_id=128481BR"
     ]
   },
   {
@@ -25980,8 +25981,8 @@
       "https://careers-steeldynamics.icims.com/jobs/7569/software-developer/job",
       "https://careers-steeldynamics.icims.com/jobs/7583/automation-engineer/job",
       "https://careers-steeldynamics.icims.com/jobs/7590/data-engineer/job",
-      "https://careers-steeldynamics.icims.com/jobs/7806/automation-engineer-%28level-1%29/job",
-      "https://careers-steeldynamics.icims.com/jobs/7615/finish-mill-automation-engineer---sdi-columbus/job"
+      "https://careers-steeldynamics.icims.com/jobs/7615/finish-mill-automation-engineer---sdi-columbus/job",
+      "https://careers-steeldynamics.icims.com/jobs/7806/automation-engineer-%28level-1%29/job"
     ]
   },
   {
