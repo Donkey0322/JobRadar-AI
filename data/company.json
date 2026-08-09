@@ -17812,7 +17812,9 @@
     "identifier": "magna-magna",
     "domain": "https://wd3.myworkdaysite.com/recruiting/magna/Magna",
     "page": "https://wd3.myworkdaysite.com/wday/cxs/magna/Magna/jobs",
-    "urls": []
+    "urls": [
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Bangalore-IN/Sr-GenAI-Solution-Architect--Digital-Enterprise_R00210727"
+    ]
   },
   {
     "name": "magnetforensics",
@@ -18623,7 +18625,9 @@
       "https://www.metacareers.com/profile/job_details/994881556459825",
       "https://www.metacareers.com/profile/job_details/997644772875988",
       "https://www.metacareers.com/profile/job_details/998357492128826",
-      "https://www.metacareers.com/profile/job_details/998982982733342"
+      "https://www.metacareers.com/profile/job_details/998982982733342",
+      "https://www.metacareers.com/profile/job_details/967830298136473",
+      "https://www.metacareers.com/profile/job_details/894426413051892"
     ]
   },
   {
@@ -25920,14 +25924,6 @@
     ]
   },
   {
-    "name": "stokespace",
-    "ats": "greenhouse",
-    "identifier": "stokespace",
-    "domain": "https://stokespace.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/stokespace/jobs",
-    "urls": []
-  },
-  {
     "name": "stokespacetechnologies",
     "ats": "greenhouse",
     "identifier": "stokespacetechnologies",
@@ -27870,14 +27866,6 @@
     "identifier": "tri",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
-    "urls": []
-  },
-  {
-    "name": "triafed",
-    "ats": "greenhouse",
-    "identifier": "triafed",
-    "domain": "https://triafed.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/triafed/jobs",
     "urls": []
   },
   {
