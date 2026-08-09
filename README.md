@@ -89,11 +89,11 @@
 
 Each category page shows up to 100 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 209 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 208 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 222 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,362 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 4,828 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 3,807 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,358 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 4,814 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 3,797 opportunities
 
 ## The List 🚴‍♂️
 
@@ -112,13 +112,6 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td width="180" align="left" valign="top">Postman</td>
-      <td width="420" align="left" valign="top">AI Engineer, Internship - Summer 2026 - Applications Open Now</td>
-      <td width="180" align="left" valign="top">Berkeley, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/postman/jobs/7823417003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 8</td>
-    </tr>
     <tr>
       <td width="180" align="left" valign="top">ByteDance</td>
       <td width="420" align="left" valign="top">Software Development Engineer Intern - Network Automation - 2027 Summer</td>
@@ -252,9 +245,16 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7669702702763018501"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 6</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">ByteDance</td>
+      <td width="420" align="left" valign="top">AI Network Automation Engineer Intern - Global Physical Network Infrastructure</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.bytedance.com/en/position/7670690923748870405/detail"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 6</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 209 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 208 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -568,14 +568,14 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,362 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,358 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (8,635)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (8,611)</b></summary>
 
   <br />
 
-  <h3>Mid Level (4,828)</h3>
+  <h3>Mid Level (4,814)</h3>
 
 <table width="100%">
   <thead>
@@ -659,13 +659,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 7</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Usbank</td>
-      <td width="420" align="left" valign="top">Software Engineer 1 (Backend UI and AI)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Earth City, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Earth-City-MO/Software-Engineer-1--Backend-UI-and-AI-_2026-0018795"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 7</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Usaa</td>
       <td width="420" align="left" valign="top">AI Data Scientist<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">San Antonio, TX</td>
@@ -728,11 +721,18 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-MTS_JR354808"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 7</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lambda</td>
+      <td width="420" align="left" valign="top">IT Systems Engineer - Internal Platforms &amp; SRE</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/lambda/904bd81c-7826-4728-a597-9138cd812c8f"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 7</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,828 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,814 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (3,807)</h3>
+  <h3>Senior Level (3,797)</h3>
 
 <table width="100%">
   <thead>
@@ -760,13 +760,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 8</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Arlington, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Software-Developer--Senior_R0244424"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 7</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Dexcom</td>
       <td width="420" align="left" valign="top">Sr Software QA Engineer</td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
@@ -789,13 +782,6 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Systems Engineer - Level 5<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chandler, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/Systems-Engineer---Level-5_R10240631"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 7</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Systems Engineer - Level 4 (AHT)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Redondo Beach, CA</td>
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Redondo-Beach/Systems-Engineer---Level-4_R10233512-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -885,9 +871,23 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Reston-VA/Oracle-AI-Application-Engineer_R0246374"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 7</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Presales Systems Engineer - HPE Networking (Northern California)</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/All-California-United-States-of-America/Presales-Systems-Engineer---HPE-Networking--Northern-California-_1210444-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">U.S. Bank</td>
+      <td width="420" align="left" valign="top">End Point Systems Engineer</td>
+      <td width="180" align="left" valign="top">Hopkins, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0023200?ph_id=2026-0023200"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 7</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,807 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,797 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-09T02:32:19.998Z</code>
+      🕒 Last updated <code>2026-08-09T03:34:19.327Z</code>
     </span>
   </p>
 </div>

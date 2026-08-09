@@ -14,13 +14,6 @@
   </thead>
   <tbody>
     <tr>
-      <td width="180" align="left" valign="top">Postman</td>
-      <td width="420" align="left" valign="top">AI Engineer, Internship - Summer 2026 - Applications Open Now</td>
-      <td width="180" align="left" valign="top">Berkeley, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/postman/jobs/7823417003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 8</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">ByteDance</td>
       <td width="420" align="left" valign="top">Software Development Engineer Intern - Network Automation - 2027 Summer</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -713,10 +706,17 @@
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7667935565120112949"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 3</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Trust and Safety Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7662684280234232117"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 209 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 208 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-09T02:32:19.998Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-09T03:34:19.327Z</code></sub>
