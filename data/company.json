@@ -11580,7 +11580,8 @@
     "page": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3Dnfcu%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
       "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31373",
-      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31667"
+      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/31667",
+      "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/30845"
     ]
   },
   {
@@ -16048,7 +16049,8 @@
       "https://jobs.baesystems.com/global/en/job/128402BR?ph_id=128402BR",
       "https://jobs.baesystems.com/global/en/job/128403BR?ph_id=128403BR",
       "https://jobs.baesystems.com/global/en/job/128479BR?ph_id=128479BR",
-      "https://jobs.baesystems.com/global/en/job/128481BR?ph_id=128481BR"
+      "https://jobs.baesystems.com/global/en/job/128481BR?ph_id=128481BR",
+      "https://jobs.baesystems.com/global/en/job/123201BR?ph_id=123201BR"
     ]
   },
   {
@@ -25978,7 +25980,8 @@
       "https://careers-steeldynamics.icims.com/jobs/7569/software-developer/job",
       "https://careers-steeldynamics.icims.com/jobs/7583/automation-engineer/job",
       "https://careers-steeldynamics.icims.com/jobs/7590/data-engineer/job",
-      "https://careers-steeldynamics.icims.com/jobs/7806/automation-engineer-%28level-1%29/job"
+      "https://careers-steeldynamics.icims.com/jobs/7806/automation-engineer-%28level-1%29/job",
+      "https://careers-steeldynamics.icims.com/jobs/7615/finish-mill-automation-engineer---sdi-columbus/job"
     ]
   },
   {
@@ -28371,14 +28374,14 @@
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10253",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10272",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10336",
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10395",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/7992",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/8558",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9637",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9902",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9903",
       "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9926",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9969",
-      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10395"
+      "https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/9969"
     ]
   },
   {
