@@ -3372,14 +3372,6 @@
     "urls": []
   },
   {
-    "name": "atomicsemi",
-    "ats": "ashby",
-    "identifier": "atomicsemi",
-    "domain": "https://jobs.ashbyhq.com",
-    "page": "https://api.ashbyhq.com/posting-api/job-board/atomicsemi",
-    "urls": []
-  },
-  {
     "name": "ats.rippling.com",
     "ats": "custom",
     "identifier": "ats.rippling.com",
@@ -6633,14 +6625,6 @@
     ]
   },
   {
-    "name": "careers",
-    "ats": "greenhouse",
-    "identifier": "careers",
-    "domain": "https://careers.datadoghq.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
-    "urls": []
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -8678,14 +8662,6 @@
     "identifier": "cockroachlabs",
     "domain": "https://www.cockroachlabs.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs",
-    "urls": []
-  },
-  {
-    "name": "codal",
-    "ats": "greenhouse",
-    "identifier": "codal",
-    "domain": "http://codal.jobs",
-    "page": "https://boards-api.greenhouse.io/v1/boards/codal/jobs",
     "urls": []
   },
   {
@@ -11171,16 +11147,6 @@
     "urls": [
       "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Berlin-CT/Associate-Engineer--Grid-Telecommunications--Hybrid-Schedule-_R-030840",
       "https://eversource.wd1.myworkdayjobs.com/externalsite/job/Hartford-CT/Engineer--Systems-Planning--Transmission---Hybrid-Schedule_R-029736"
-    ]
-  },
-  {
-    "name": "ewvl.fa.us8.oraclecloud.com",
-    "ats": "oraclecloud",
-    "identifier": "ewvl.fa.us8.oraclecloud.com",
-    "domain": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
-    "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
-    "urls": [
-      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164"
     ]
   },
   {
@@ -13985,12 +13951,14 @@
     ]
   },
   {
-    "name": "harmonic",
-    "ats": "greenhouse",
-    "identifier": "harmonic",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/harmonic/jobs",
-    "urls": []
+    "name": "Harmonic Inc.",
+    "ats": "oraclecloud",
+    "identifier": "egmn.fa.us2.oraclecloud.com",
+    "domain": "https://egmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job",
+    "page": "https://egmn.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://egmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/job/260083"
+    ]
   },
   {
     "name": "harmonytech.applytojob.com",
@@ -15054,14 +15022,6 @@
     "urls": []
   },
   {
-    "name": "ignite-digital",
-    "ats": "greenhouse",
-    "identifier": "ignite-digital",
-    "domain": "https://ignite-digital.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/ignite-digital/jobs",
-    "urls": []
-  },
-  {
     "name": "ignitedigital",
     "ats": "greenhouse",
     "identifier": "ignitedigital",
@@ -15089,14 +15049,6 @@
       "https://iheartmedia.wd5.myworkdayjobs.com/external_ihm/job/San-Antonio-TX-Stone-Oak/Software-Engineer_Req38905-2",
       "https://iheartmedia.wd5.myworkdayjobs.com/external_ihm/job/Virtual-NY/Software-Engineer_Req38372-2"
     ]
-  },
-  {
-    "name": "iherb",
-    "ats": "greenhouse",
-    "identifier": "iherb",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/iherb/jobs",
-    "urls": []
   },
   {
     "name": "ilitch",
@@ -19852,6 +19804,7 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/Systems-Engineer_R10239553",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2026-Associate-Embedded-Software-Engineer--Manufacturing----Rolling-Meadows-IL_R10244230",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Annapolis-Junction/Cyber-Software-Engineer--TG-_R10242028",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Computer-Systems-Analyst---Windows_R10244016",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Industrial-Security-Analyst_R10239576",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10243973",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Hollywood/Computer-Systems-Analyst_R10243940",
@@ -19922,8 +19875,7 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Deputy-Chief-Engineer---Infrastructure-18955_R10238106",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Software-Configuration-Analyst---18000_R10237177",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/Industrial-Security-Analyst_R10233229",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Computer-Systems-Analyst---Windows_R10244016"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321"
     ]
   },
   {
@@ -23831,6 +23783,16 @@
       "https://careers-sas.icims.com/jobs/42358/software-development-engineer-in-test-%28c%29/job",
       "https://careers-sas.icims.com/jobs/42362/sr-software-developer---golang/job",
       "https://careers-sas.icims.com/jobs/42453/software-developer/job"
+    ]
+  },
+  {
+    "name": "Savannah River National Laboratory",
+    "ats": "oraclecloud",
+    "identifier": "ewvl.fa.us8.oraclecloud.com",
+    "domain": "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
+    "page": "https://ewvl.fa.us8.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
+    "urls": [
+      "https://ewvl.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164"
     ]
   },
   {
