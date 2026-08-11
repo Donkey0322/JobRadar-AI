@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Sentry</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/sentry/5c3196c7-f3d6-4dba-9c41-c886df4b2421/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Software Engineer - Information Systems and Technology - Early Career</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677377"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Reliance</td>
+      <td width="420" align="left" valign="top">AI Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.reliance.com/jobs/3330?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">ASSA ABLOY</td>
+      <td width="420" align="left" valign="top">Product Engineer 1</td>
+      <td width="180" align="left" valign="top">Mason City, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://assaabloy.jobs2web.com/job/Mason-City-Product-Engineer-I-IA-50401/1425404233/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Truveta</td>
       <td width="420" align="left" valign="top">Software Engineer - Live Link<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
@@ -685,38 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/captivation/jobs/5384983008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ciena</td>
-      <td width="420" align="left" valign="top">Software Engineer (Security) - New Grad</td>
-      <td width="180" align="left" valign="top">Alpharetta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://ciena.wd5.myworkdayjobs.com/careers/job/Atlanta/Software-Engineer--Security----New-Grad_R030880"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Swift</td>
-      <td width="420" align="left" valign="top">Associate Software Developer C++/Java<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Manassas, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Associate-Software-Developer-C---Java_2026-16010-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Travelers</td>
-      <td width="420" align="left" valign="top">Software Engineer I – AI Agents &amp; Harnesses</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://travelers.wd5.myworkdayjobs.com/external/job/GA---Atlanta/Software-Engineer-I---AI-Agents---Harnesses_R-51943"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jda</td>
-      <td width="420" align="left" valign="top">Software Engineer I (U.S. Citizenship Required)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dallas, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jda.wd5.myworkdayjobs.com/jda_careers/job/BYDS-Dallas/Software-Engineer-I--US-Citizenship-Required-_261334-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,482 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,486 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-11T23:07:51.518Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-11T23:23:17.324Z</code></sub>

@@ -89,9 +89,9 @@
 
 Each category page shows up to 100 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 235 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 245 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,482 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 236 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 246 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,486 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,120 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,057 opportunities
 
@@ -112,6 +112,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Sentry</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Motorolasolutions</td>
       <td width="420" align="left" valign="top">Supply Chain Data Analyst Internship 2027</td>
@@ -245,16 +252,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/dvtrading/jobs/4719119005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McKinney, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/private_posting_no_tmp/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Systems-Engineering-Intern--Summer-2027-_01865021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 235 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 236 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -269,6 +269,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Foxconn Industrial Internet</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Engineering and Operations</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Salesforce</td>
       <td width="420" align="left" valign="top">Software Engineering Intern - Future Pathways</td>
@@ -402,16 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/figma/jobs/6131089004?gh_jid=6131089004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">AI RAN Telecommunications Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246415"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 245 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 246 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,34 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Sentry</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/sentry/5c3196c7-f3d6-4dba-9c41-c886df4b2421/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Software Engineer - Information Systems and Technology - Early Career</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677377"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Reliance</td>
+      <td width="420" align="left" valign="top">AI Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Chicago, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.reliance.com/jobs/3330?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">ASSA ABLOY</td>
+      <td width="420" align="left" valign="top">Product Engineer 1</td>
+      <td width="180" align="left" valign="top">Mason City, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://assaabloy.jobs2web.com/job/Mason-City-Product-Engineer-I-IA-50401/1425404233/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Truveta</td>
       <td width="420" align="left" valign="top">Software Engineer - Live Link<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -538,37 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Assoc-Engineer--AI_REQ367800"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">U.S. Bank</td>
-      <td width="420" align="left" valign="top">Cash Forecasting Data Analyst - Minneapolis, MN<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Minneapolis, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0022500?ph_id=2026-0022500"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Globalhr</td>
-      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Jupiter, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Software-Engineer-I--Onsite-_01864738"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jabil</td>
-      <td width="420" align="left" valign="top">Financial Systems Analyst</td>
-      <td width="180" align="left" valign="top">St. Petersburg, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Financial-Systems-Analyst_J2459430"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">2027 Converting Software Engineer Dulles VA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dulles, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/XMLNAME-2027-Converting-Software-Engineer-Dulles-VA_R10244689"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,482 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,486 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (9,177)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-11T23:07:51.518Z</code>
+      🕒 Last updated <code>2026-08-11T23:23:17.324Z</code>
     </span>
   </p>
 </div>
