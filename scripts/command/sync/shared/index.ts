@@ -7,7 +7,7 @@ import { buildCompanyList } from "@/modules/company-tacker/company";
 import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
 import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
 import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
-import { loadJobs, loadUrls, saveOpportunities } from "@/utils/data";
+import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
@@ -77,14 +77,40 @@ export async function processJobs({
   }
 
   let newUrlAdded = false;
-  const opportunities: Opportunity[] = [];
+  const existingOpportunities = await loadOpportunities();
+  const opportunityIndexByKey = new Map<string, number>();
+
+  for (let index = 0; index < existingOpportunities.length; index++) {
+    const key = getJobKey(existingOpportunities[index]!.link);
+
+    if (!opportunityIndexByKey.has(key)) {
+      opportunityIndexByKey.set(key, index);
+    }
+  }
+
+  let opportunitiesMutated = false;
+  const appendedOpportunities: Opportunity[] = [];
 
   function markAsSeen(job: Job) {
     const key = getJobKey(job.link);
+    const existingIndex = opportunityIndexByKey.get(key);
+    const nextOpportunity: Opportunity = {
+      ...job,
+      postedAt: new Date().toISOString(),
+      expired: false,
+    };
 
     urls.add(job.link);
     keys.add(key);
-    opportunities.push({ ...job, postedAt: new Date().toISOString(), expired: false });
+
+    if (existingIndex !== undefined) {
+      existingOpportunities[existingIndex] = nextOpportunity;
+      opportunitiesMutated = true;
+    } else {
+      opportunityIndexByKey.set(key, existingOpportunities.length + appendedOpportunities.length);
+      appendedOpportunities.push(nextOpportunity);
+    }
+
     newUrlAdded = true;
   }
 
@@ -241,7 +267,24 @@ export async function processJobs({
 
   await saveUrls(urls);
   await saveJob(jobs);
-  await saveOpportunities(opportunities);
+
+  if (opportunitiesMutated) {
+    const seenKeys = new Set<string>();
+    const merged = [...existingOpportunities, ...appendedOpportunities].filter((opportunity) => {
+      const key = getJobKey(opportunity.link);
+
+      if (seenKeys.has(key)) {
+        return false;
+      }
+
+      seenKeys.add(key);
+      return true;
+    });
+
+    await saveOpportunities(merged, true);
+  } else if (appendedOpportunities.length > 0) {
+    await saveOpportunities(appendedOpportunities);
+  }
 
   if (newUrlAdded) {
     await buildCompanyList(urls);

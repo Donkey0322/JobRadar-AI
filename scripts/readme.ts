@@ -7,6 +7,7 @@ import { getSeasonYears } from "@/constants/season";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
+import { getJobKey } from "@/modules/job-dedup";
 import { readNdjsonFile } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 
@@ -34,13 +35,19 @@ const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.
 
 const BADGE_NO_SPONSORSHIP = `<img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" />`;
 
+const BADGE_REOPEN = `<img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" />`;
+
 const APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
 const EXPIRED_APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white";
 
+/** Job keys inferred as in-place reopen (fresher postedAt than rows appended after them). */
+let reopenedJobKeys = new Set<string>();
+
 async function main() {
   const opportunities = await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
+  reopenedJobKeys = detectReopenedKeys(opportunities);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
   const targetCategories = new Set(buildTargetCategories(CONFIG));
@@ -48,13 +55,12 @@ async function main() {
   const generatedAt = new Date();
 
   const countryMatched = opportunities
-    // reverse: the last line in opportunities.ndjson is at the top of the README
-    .reverse()
     .filter((job) => isRenderableOpportunity(job))
     .filter((job) => {
       const country = normalizeCountry(job.jd?.country);
       return country ? allowedCountries.has(country) : false;
-    });
+    })
+    .sort(comparePostedAtDesc);
 
   const targetOpportunities = countryMatched.filter((job) => {
     const category = getDisplayCategory(job);
@@ -481,6 +487,10 @@ function isRenderableOpportunity(job: Opportunity): boolean {
   );
 }
 
+function comparePostedAtDesc(a: Opportunity, b: Opportunity): number {
+  return new Date(b.postedAt).getTime() - new Date(a.postedAt).getTime();
+}
+
 function getDisplayCategory(job: Opportunity): string {
   const category = normalizeCategory(job.jd?.category);
   const season = normalizeCategory(job.jd?.season);
@@ -494,15 +504,27 @@ function getDisplayCategory(job: Opportunity): string {
 
 function formatRoleCell(job: Opportunity): string {
   const role = escapeHtml(job.role);
-  const badges = formatJobBadges(job.jd);
+  const badges = formatOpportunityBadges(job);
 
   if (!badges) return role;
 
   return `${role}<br />${badges}`;
 }
 
-function formatJobBadges(jd?: JD | null): string {
-  if (!jd) return "";
+function formatOpportunityBadges(job: Opportunity): string {
+  const badges: string[] = [];
+
+  if (!job.expired && reopenedJobKeys.has(getJobKey(job.link))) {
+    badges.push(BADGE_REOPEN);
+  }
+
+  badges.push(...formatJobBadges(job.jd));
+
+  return badges.join(" ");
+}
+
+function formatJobBadges(jd?: JD | null): string[] {
+  if (!jd) return [];
 
   const badges: string[] = [];
 
@@ -514,7 +536,32 @@ function formatJobBadges(jd?: JD | null): string {
     badges.push(BADGE_NO_SPONSORSHIP);
   }
 
-  return badges.join(" ");
+  return badges;
+}
+
+/**
+ * In-place reopens bump `postedAt` but keep their original file position.
+ * New jobs are appended at the end. So an active row whose `postedAt` is newer
+ * than something after it in the file was updated in place → reopen.
+ */
+function detectReopenedKeys(opportunities: Opportunity[]): Set<string> {
+  const reopenedKeys = new Set<string>();
+  let minPostedAtToTheRight = Number.POSITIVE_INFINITY;
+
+  for (let index = opportunities.length - 1; index >= 0; index--) {
+    const job = opportunities[index]!;
+    const postedAt = new Date(job.postedAt).getTime();
+
+    if (!job.expired && !Number.isNaN(postedAt) && postedAt > minPostedAtToTheRight) {
+      reopenedKeys.add(getJobKey(job.link));
+    }
+
+    if (!Number.isNaN(postedAt)) {
+      minPostedAtToTheRight = Math.min(minPostedAtToTheRight, postedAt);
+    }
+  }
+
+  return reopenedKeys;
 }
 
 function formatLocation(job: Opportunity): string {

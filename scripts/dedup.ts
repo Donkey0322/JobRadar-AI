@@ -1,18 +1,30 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import type { Opportunity } from "@/types";
 
-import { deduplicate, getJobKey } from "@/modules/job-dedup";
+import { deduplicate, getJobKey, toJobKeySet } from "@/modules/job-dedup";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
+
+function shouldReplace(existing: Opportunity, candidate: Opportunity): boolean {
+  if (existing.expired !== candidate.expired) {
+    return existing.expired;
+  }
+
+  return new Date(candidate.postedAt).getTime() > new Date(existing.postedAt).getTime();
+}
 
 function deduplicateOpportunities(opportunities: Opportunity[]): Opportunity[] {
   const unique = new Map<string, Opportunity>();
 
   for (const opportunity of opportunities) {
     const key = getJobKey(opportunity.link);
+    const previous = unique.get(key);
 
-    if (!unique.has(key)) {
+    if (!previous || shouldReplace(previous, opportunity)) {
       unique.set(key, opportunity);
     }
   }
@@ -20,12 +32,34 @@ function deduplicateOpportunities(opportunities: Opportunity[]): Opportunity[] {
   return [...unique.values()];
 }
 
-async function main() {
+function syncExpiredFlags(
+  opportunities: Opportunity[],
+  activeKeys: ReadonlySet<string>
+): Opportunity[] {
+  return opportunities.map((opportunity) => {
+    const expired = !activeKeys.has(getJobKey(opportunity.link));
+
+    if (opportunity.expired === expired) {
+      return opportunity;
+    }
+
+    return {
+      ...opportunity,
+      expired,
+    };
+  });
+}
+
+export default async function main() {
   const urls = await loadUrls();
   const dedupedUrls = deduplicate(urls);
+  const activeKeys = toJobKeySet(dedupedUrls);
 
   const opportunities = await loadOpportunities();
-  const dedupedOpportunities = deduplicateOpportunities(opportunities);
+  const dedupedOpportunities = syncExpiredFlags(
+    deduplicateOpportunities(opportunities),
+    activeKeys
+  );
 
   await Promise.all([
     saveUrls(new Set(dedupedUrls)),
@@ -49,7 +83,12 @@ async function main() {
   );
 }
 
-main().catch((err) => {
-  logger.fatal({ err }, `${RED_CROSS} Fatal error`);
-  process.exit(1);
-});
+const isDirectRun =
+  process.argv[1] != null && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isDirectRun) {
+  main().catch((err) => {
+    logger.fatal({ err }, `${RED_CROSS} Fatal error`);
+    process.exit(1);
+  });
+}
