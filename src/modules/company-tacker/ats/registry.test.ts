@@ -8,6 +8,7 @@ const dataMocks = vi.hoisted(() => ({
 vi.mock("@/utils/data", () => dataMocks);
 vi.mock("@/utils/dev", () => ({
   renderProgress: vi.fn(),
+  startProgress: vi.fn(),
 }));
 vi.mock("@/utils/logger", () => ({
   logger: {

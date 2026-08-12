@@ -74,11 +74,11 @@ describe("getGreenhouseKey", () => {
 });
 
 describe("getWorkdayKey", () => {
-  it("extracts workday id after the last underscore", () => {
+  it("extracts workday id after the last underscore with tenant", () => {
     // Arrange
     const url =
       "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641";
-    const expected = "workday:JR0282641";
+    const expected = "workday:intel:JR0282641";
 
     // Act
     const result = getWorkdayKey(url);
@@ -87,11 +87,11 @@ describe("getWorkdayKey", () => {
     expect(result).toBe(expected);
   });
 
-  it("extracts workday id before query string", () => {
+  it("extracts workday id before query string with tenant", () => {
     // Arrange
     const url =
       "https://company.wd1.myworkdayjobs.com/external/job/New-York/Software-Engineer_R-12345?source=LinkedIn";
-    const expected = "workday:R-12345";
+    const expected = "workday:company:R-12345";
 
     // Act
     const result = getWorkdayKey(url);
@@ -104,7 +104,37 @@ describe("getWorkdayKey", () => {
     // Arrange
     const url =
       "https://company.wd1.myworkdayjobs.com/external/job/New-York/Software-Engineer_R-12345-1";
-    const expected = "workday:R-12345";
+    const expected = "workday:company:R-12345";
+
+    // Act
+    const result = getWorkdayKey(url);
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  it("keeps different tenants with the same requisition id distinct", () => {
+    // Arrange
+    const crowdstrike =
+      "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/Romania---Bucharest/Software-Engineer-GenAI--Hybrid--ROU-_R29013";
+    const premera =
+      "https://premera.wd5.myworkdayjobs.com/premera/job/Telecommuter/Software-Developer-IV-Quality-Engineering_R29013";
+
+    // Act
+    const crowdstrikeKey = getWorkdayKey(crowdstrike);
+    const premeraKey = getWorkdayKey(premera);
+
+    // Assert
+    expect(crowdstrikeKey).toBe("workday:crowdstrike:R29013");
+    expect(premeraKey).toBe("workday:premera:R29013");
+    expect(crowdstrikeKey).not.toBe(premeraKey);
+  });
+
+  it("uses recruiting tenant for myworkdaysite.com urls", () => {
+    // Arrange
+    const url =
+      "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Bangalore-IN/Software-Engineer_R00210727";
+    const expected = "workday:magna:R00210727";
 
     // Act
     const result = getWorkdayKey(url);

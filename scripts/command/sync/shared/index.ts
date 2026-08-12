@@ -9,7 +9,7 @@ import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
 import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
-import { renderProgress } from "@/utils/dev";
+import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;
@@ -126,6 +126,8 @@ export async function processJobs({
 
   let completed = 0;
   const total = incomingJobs.length;
+
+  startProgress(total);
 
   const results = await Promise.all(
     incomingJobs.map((job) =>

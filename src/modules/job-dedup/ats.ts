@@ -34,10 +34,30 @@ export function getWorkdayKey(url: string): string | null {
   const match = url.match(/_([^/_?]+)(?:\?|$)/);
   if (!match) return null;
 
-  let id = match[1];
+  const id = match[1].replace(/-[0-9]$/, "");
+  const tenant = getWorkdayTenant(url);
 
-  id = id.replace(/-[0-9]$/, "");
-  return toATSKey("workday", id);
+  // Reqition IDs are only unique within a Workday tenant, not globally.
+  return toATSKey("workday", tenant ? `${tenant}:${id}` : id);
+}
+
+function getWorkdayTenant(url: string): string | null {
+  try {
+    const { hostname, pathname } = new URL(url);
+    const host = hostname.toLowerCase();
+
+    if (host.endsWith("myworkdaysite.com")) {
+      const parts = pathname.split("/").filter(Boolean);
+      const recruitingIndex = parts.findIndex((part) => part.toLowerCase() === "recruiting");
+      return parts[recruitingIndex + 1]?.toLowerCase() ?? null;
+    }
+
+    // premera.wd5.myworkdayjobs.com → premera
+    const tenant = host.split(".")[0];
+    return tenant || null;
+  } catch {
+    return null;
+  }
 }
 
 export function getAshbyKey(url: URL): string | null {

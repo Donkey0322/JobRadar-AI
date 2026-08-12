@@ -8,10 +8,10 @@ import { deduplicateJobs, isKnownJob, toJobKeySet } from "../job-dedup";
 import { getATSFetcher } from "./ats";
 
 import { loadCompanies } from "@/utils/data";
-import { renderProgress } from "@/utils/dev";
+import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
-const limit = pLimit(20);
+const limit = pLimit(10);
 
 const FETCH_TIMEOUT = 20_000;
 const LEVER_TIMEOUT = 60_000;
@@ -57,6 +57,8 @@ export default async function discoverJobs() {
   }[] = [];
 
   const startTime = Date.now();
+
+  startProgress(total);
 
   const results = await Promise.all(
     companies.map((company) =>

@@ -6,10 +6,10 @@ import type { Company } from "./type";
 import { classifyATS, getATSFetcher } from "./ats";
 
 import { loadCompanies, saveCompanies } from "@/utils/data";
-import { renderProgress } from "@/utils/dev";
+import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";
 
-const CONCURRENCY = 20;
+const CONCURRENCY = 10;
 
 function getCompanyKey(company: Company): string {
   if (company.identifier) {
@@ -90,6 +90,8 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   let completed = 0;
 
   const limit = pLimit(CONCURRENCY);
+
+  startProgress(total);
 
   const results = await Promise.all(
     Array.from(groups.entries()).map(([groupKey, groupUrls]) =>
