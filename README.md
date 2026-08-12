@@ -91,7 +91,7 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 236 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 246 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,486 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,488 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,123 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,063 opportunities
 
@@ -427,6 +427,20 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">9to9 Software Solutions</td>
+      <td width="420" align="left" valign="top">Entry Level Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Copperhill, TN</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999677188473"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Entry Level Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Randolph Air Force Base, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674053935"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 11</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Sentry</td>
       <td width="420" align="left" valign="top">Software Engineer New Grad</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -552,23 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7664534268139571509"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer Graduate (E-Commerce Recommendation/Search Alliance) - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7669908897587824949"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tmobile</td>
-      <td width="420" align="left" valign="top">Assoc Engineer, AI</td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Assoc-Engineer--AI_REQ367800"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,486 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,488 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (9,186)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-12T00:04:18.594Z</code>
+      🕒 Last updated <code>2026-08-12T01:53:47.046Z</code>
     </span>
   </p>
 </div>
