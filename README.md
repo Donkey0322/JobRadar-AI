@@ -92,7 +92,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 241 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 258 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,558 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 5,261 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 5,264 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,197 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,558 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (9,458)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (9,461)</b></summary>
 
   <br />
 
-  <h3>Mid Level (5,261)</h3>
+  <h3>Mid Level (5,264)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,27 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Optical Network Engineer, Google Global Infrastructure</td>
+      <td width="180" align="left" valign="top">Thornton, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/123016754531050182-optical-network-engineer-google-global-infrastructure?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Scale AI</td>
+      <td width="420" align="left" valign="top">Software Engineer - AI Enablement</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/scaleai/jobs/4722512005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">Software Development Engineer, Agentic WorkSpaces</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10500480"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 12</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Texas instruments</td>
       <td width="420" align="left" valign="top">IT Site Reliability Engineer — API Management Platforms</td>
@@ -707,30 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677036-3956/software-engineer-aml-ai-data-platforms-aidp?team=CORSV"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Apply.careers.microsoft.com</td>
-      <td width="420" align="left" valign="top">Cloud Network Software Engineer</td>
-      <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556958313?domain=microsoft.com&amp;8fold_id=1970393556958313"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Global Lab Infrastructure Design Engineer, Microsoft Lab Services<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556959186?domain=microsoft.com&amp;8fold_id=1970393556959186"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Accenture</td>
-      <td width="420" align="left" valign="top">Infrastructure &amp; Capital Projects – MEP Project Engineer – Data Centers, ANS</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/InfrastructureandCapitalProjects/b699728e-9f70-4d71-9da0-b2e34b252c4a"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,261 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,264 opportunities in this section.</sub></p>
 
   <h3>Senior Level (4,197)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-13T05:09:17.055Z</code>
+      🕒 Last updated <code>2026-08-13T06:49:39.045Z</code>
     </span>
   </p>
 </div>
