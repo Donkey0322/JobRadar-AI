@@ -91,7 +91,7 @@ Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 241 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 256 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,553 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,554 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,249 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,185 opportunities
 
@@ -428,6 +428,13 @@ Each category page shows up to 100 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Backend Software Engineer New Grad - Creator Strategy</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672976491146004741"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer Graduate (Recommendation Architecture, Feeds Infrastructure) - 2027 Start</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672530785573980421"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -559,16 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://fmr.wd1.myworkdayjobs.com/targeted/job/Westlake-TX/Associate-Software-Engineer_2131717-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Freddiemac</td>
-      <td width="420" align="left" valign="top">Multifamily Software Development Analyst</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://freddiemac.wd5.myworkdayjobs.com/external/job/McLean-VA/Multifamily-Software-Development-Analyst_JR17515"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,553 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,554 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (9,434)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-13T00:02:54.953Z</code>
+      🕒 Last updated <code>2026-08-13T01:56:02.445Z</code>
     </span>
   </p>
 </div>

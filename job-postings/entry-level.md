@@ -15,6 +15,13 @@
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Backend Software Engineer New Grad - Creator Strategy</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672976491146004741"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 12</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer Graduate (Recommendation Architecture, Feeds Infrastructure) - 2027 Start</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672530785573980421"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Software-Engineer-I--Onsite-_01864738"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jabil</td>
-      <td width="420" align="left" valign="top">Financial Systems Analyst</td>
-      <td width="180" align="left" valign="top">St. Petersburg, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/St-PetersburgTampa-FL/Financial-Systems-Analyst_J2459430"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,553 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,554 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T00:02:54.953Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T01:56:02.445Z</code></sub>
