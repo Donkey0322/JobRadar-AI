@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Applied Materials</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad - DevOps</td>
+      <td width="180" align="left" valign="top">Gloucester, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Software-Engineer--DevOps---New-College-Grad---Bachelor-s--Gloucester--MA-_R2625762"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Wgu</td>
       <td width="420" align="left" valign="top">Software Engineer I - Full-Stack<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Salt Lake City, UT</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://lplfinancial.wd1.myworkdayjobs.com/external/job/Tempe/Associate-Data-Recon-Analyst--Advisory-Accounting_R-052687"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aptiv</td>
-      <td width="420" align="left" valign="top">System Engineer – OS Kernel</td>
-      <td width="180" align="left" valign="top">Walnut Creek, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/System-Engineer---OS-Kernel_J000701249"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,563 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,564 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T13:53:17.683Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T14:51:18.542Z</code></sub>

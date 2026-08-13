@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">RRS Group</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Placement Year</td>
+      <td width="180" align="left" valign="top">San Francisco, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/RRSGroup/744000142513209"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Inbulks</td>
+      <td width="420" align="left" valign="top">Junior Front End Developer Intern</td>
+      <td width="180" align="left" valign="top">Long Island City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/InbulksCorp/743999750129753"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Exa</td>
       <td width="420" align="left" valign="top">Software Engineer, Intern</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -699,24 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers-scires.icims.com/jobs/11411/dod-skillbridge-intern-%e2%80%93-%28cyber-security-analyst%29-%28active-duty-service-members%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Redwood Materials</td>
-      <td width="420" align="left" valign="top">Embedded Software Engineer Intern - Fall 2026</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/redwoodmaterials/jobs/6126784004?gh_jid=6126784004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Borgwarner</td>
-      <td width="420" align="left" valign="top">Software Application Engineering Intern (Year Round)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Auburn Hills, MI</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 259 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 261 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T13:53:17.683Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-13T14:51:18.542Z</code></sub>

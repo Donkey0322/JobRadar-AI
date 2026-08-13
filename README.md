@@ -90,8 +90,8 @@
 Each category page shows up to 100 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 242 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 259 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,563 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 261 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,564 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,279 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,211 opportunities
 
@@ -270,6 +270,20 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">RRS Group</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Placement Year</td>
+      <td width="180" align="left" valign="top">San Francisco, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/RRSGroup/744000142513209"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Inbulks</td>
+      <td width="420" align="left" valign="top">Junior Front End Developer Intern</td>
+      <td width="180" align="left" valign="top">Long Island City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/InbulksCorp/743999750129753"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Exa</td>
       <td width="420" align="left" valign="top">Software Engineer, Intern</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -395,23 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7668381860191734021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Cybersecurity Software Intern Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Manassas, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/74257/cybersecurity-software-intern-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 259 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 261 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Applied Materials</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad - DevOps</td>
+      <td width="180" align="left" valign="top">Gloucester, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Software-Engineer--DevOps---New-College-Grad---Bachelor-s--Gloucester--MA-_R2625762"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Wgu</td>
       <td width="420" align="left" valign="top">Software Engineer I - Full-Stack<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -559,16 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I_01866279"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rocket Lab Corporation</td>
-      <td width="420" align="left" valign="top">Flight Software Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Littleton, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/rocketlab/jobs/7830196003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,563 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,564 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (9,490)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-13T13:53:17.683Z</code>
+      🕒 Last updated <code>2026-08-13T14:51:18.542Z</code>
     </span>
   </p>
 </div>
