@@ -93,7 +93,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 276 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,623 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,411 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 4,303 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 4,306 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,623 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (9,714)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (9,717)</b></summary>
 
   <br />
 
@@ -732,7 +732,7 @@ Each category page shows up to 100 of the latest opportunities.
 </table>
 <p><sub>Showing 20 of 5,411 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (4,303)</h3>
+  <h3>Senior Level (4,306)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,27 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Nationwide</td>
+      <td width="420" align="left" valign="top">Consultant, Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Arizona---Scottsdale/Consultant--Software-Engineer_099637"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 14</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Statestreet</td>
+      <td width="420" align="left" valign="top">Software Engineering &amp; Development</td>
+      <td width="180" align="left" valign="top">Quincy, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Engineering---Development_R-796054"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 14</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Comcast</td>
+      <td width="420" align="left" valign="top">Forward Deployed Engineer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://comcast.wd5.myworkdayjobs.com/Comcast_Careers/job/NY---New-York-1407-Broadway-Floor-12/Forward-Deployed-Engineer_R442090"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 14</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineering Technical Leader, Control Systems - Acacia (Onsite)</td>
@@ -864,30 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677973-0836/embedded-software-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Voyager Technologies, Inc.</td>
-      <td width="420" align="left" valign="top">Systems Engineer – Project Engineer V<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Folsom, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4368872009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer – Project Engineer VI<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Folsom, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4326975009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cat</td>
-      <td width="420" align="left" valign="top">Power Systems Controls Engineer - Electric Power<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Mossville, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Power-Systems-Controls-Engineer---Electric-Power_R0000383734"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,303 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,306 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-14T06:47:12.036Z</code>
+      🕒 Last updated <code>2026-08-14T08:41:44.866Z</code>
     </span>
   </p>
 </div>
