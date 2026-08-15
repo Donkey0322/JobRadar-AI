@@ -1732,12 +1732,12 @@
       "https://amazon.jobs/en/jobs/10502947",
       "https://amazon.jobs/en/jobs/10502949",
       "https://amazon.jobs/en/jobs/10502992",
+      "https://amazon.jobs/en/jobs/10503148",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10503148"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -7665,6 +7665,7 @@
       "https://careers.cisco.com/global/en/job/2018479?ph_id=2018479",
       "https://careers.cisco.com/global/en/job/2018546?ph_id=2018546",
       "https://careers.cisco.com/global/en/job/2018583?ph_id=2018583",
+      "https://careers.cisco.com/global/en/job/2018607?ph_id=2018607",
       "https://careers.cisco.com/global/en/job/2018611?ph_id=2018611",
       "https://careers.cisco.com/global/en/job/2018619?ph_id=2018619",
       "https://careers.cisco.com/global/en/job/2018638?ph_id=2018638",
@@ -7678,6 +7679,7 @@
       "https://careers.cisco.com/global/en/job/2018852?ph_id=2018852",
       "https://careers.cisco.com/global/en/job/2018871?ph_id=2018871",
       "https://careers.cisco.com/global/en/job/2018942?ph_id=2018942",
+      "https://careers.cisco.com/global/en/job/2018944?ph_id=2018944",
       "https://careers.cisco.com/global/en/job/2018975?ph_id=2018975",
       "https://careers.cisco.com/global/en/job/2019085?ph_id=2019085",
       "https://careers.cisco.com/global/en/job/2019160?ph_id=2019160",
@@ -7797,9 +7799,7 @@
       "https://careers.cisco.com/global/en/job/2022629?ph_id=2022629",
       "https://careers.cisco.com/global/en/job/2022783?ph_id=2022783",
       "https://careers.cisco.com/global/en/job/2022891?ph_id=2022891",
-      "https://careers.cisco.com/global/en/job/2023009?ph_id=2023009",
-      "https://careers.cisco.com/global/en/job/2018607?ph_id=2018607",
-      "https://careers.cisco.com/global/en/job/2018944?ph_id=2018944"
+      "https://careers.cisco.com/global/en/job/2023009?ph_id=2023009"
     ]
   },
   {
@@ -18295,7 +18295,7 @@
     ]
   },
   {
-    "name": "jpmc.fa.oraclecloud.com",
+    "name": "JPMC Candidate Experience page",
     "ats": "oraclecloud",
     "identifier": "jpmc.fa.oraclecloud.com",
     "domain": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
@@ -25091,7 +25091,8 @@
     "urls": [
       "https://jobs.ashbyhq.com/replit/07c4c890-0dd4-4022-bba4-8dfba6ff16ee",
       "https://jobs.ashbyhq.com/replit/1c40b253-c33c-49d0-a1e0-d3e49aedf54c",
-      "https://jobs.ashbyhq.com/replit/657a90d2-23cc-4c86-b9ed-a21900efee0d"
+      "https://jobs.ashbyhq.com/replit/657a90d2-23cc-4c86-b9ed-a21900efee0d",
+      "https://jobs.ashbyhq.com/replit/7e0dafe8-3eec-442e-aa76-a4d84d779fb1"
     ]
   },
   {
@@ -25420,6 +25421,7 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/San-Jose-Costa-Rica/Security-Engineer---Monitoring---Incident-Response_202605-111081-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Sant-Cugat-del-Valls/Internal-Systems-Data-and-Automation-Engineer_202605-112948-2",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Sant-Cugat-del-Valls/Software-Test-Engineer-Intern_202608-120310",
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/Postdoctoral-Fellow---Materials-Engineering---Advanced-Microfabrication---Next-Gen-Sequencing-and-Diagnostics-Systems--Research---Early-Development_202608-121226-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/Postdoctoral-Fellow---Next-Gen-Sequencing-Systems--Research---Early-Development_202606-116591-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/Software-Engineer_202607-118482",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Shanghai/DevOps-Infrastructure-Engineer---RDT-China-Enterprise-Technologies_202608-120389",
@@ -25438,8 +25440,7 @@
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/Network-Security--Temp-Contract-_202605-113006",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/Platform-Engineer---ERP-Data-Platform_202606-116470-1",
       "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Warsaw/SW-Technical-Lead---Data-Platforms_202604-108454-1",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Welwyn/Machine-Learning-Scientist---Quantum-Chemistry_202606-115524-1",
-      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Santa-Clara/Postdoctoral-Fellow---Materials-Engineering---Advanced-Microfabrication---Next-Gen-Sequencing-and-Diagnostics-Systems--Research---Early-Development_202608-121226-1"
+      "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Welwyn/Machine-Learning-Scientist---Quantum-Chemistry_202606-115524-1"
     ]
   },
   {
