@@ -1659,6 +1659,7 @@
       "https://amazon.jobs/en/jobs/10499241",
       "https://amazon.jobs/en/jobs/10499364",
       "https://amazon.jobs/en/jobs/10499373",
+      "https://amazon.jobs/en/jobs/10499632",
       "https://amazon.jobs/en/jobs/10499654",
       "https://amazon.jobs/en/jobs/10499719",
       "https://amazon.jobs/en/jobs/10499784",
@@ -1735,8 +1736,7 @@
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10499632"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -10820,6 +10820,16 @@
     ]
   },
   {
+    "name": "dedalus-labs",
+    "ats": "ashby",
+    "identifier": "dedalus-labs",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/dedalus-labs",
+    "urls": [
+      "https://jobs.ashbyhq.com/dedalus-labs/bcd6db2e-400b-4ffa-aef3-0948a7b558c2/application?embed=true"
+    ]
+  },
+  {
     "name": "deepgram",
     "ats": "ashby",
     "identifier": "deepgram",
@@ -16286,6 +16296,7 @@
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karnataka-India/Backend-Developer---Golang-_3165857",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karnataka-India/Development-Support-Automation-AI_3159830",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karnataka-India/Software-QA-Engineer_3167351",
+      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/AI-Solutions-Engineer_3166378",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/Agentic-AI-Engineer_3164655",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/Agentic-AI-Engineer_3164825",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/Android-SW-FWK-Engineer_3166632",
@@ -16342,8 +16353,7 @@
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Tlaquepaque-Jalisco-Mexico/Returns-Data-Analyst_3165278",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/AI-Solutions-Engineer_3166825",
       "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/Big-Data-Laser-Analyst_3162874",
-      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/Print-Supplies-Big-Data-Analyst_3165759-1",
-      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Bengaluru-Karntaka-India/AI-Solutions-Engineer_3166378"
+      "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Vancouver-Washington-United-States-of-America/Print-Supplies-Big-Data-Analyst_3165759-1"
     ]
   },
   {
@@ -16542,6 +16552,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/hyannisportresearch/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/hyannisportresearch/jobs/7822989003"
+    ]
+  },
+  {
+    "name": "hypercubic",
+    "ats": "ashby",
+    "identifier": "hypercubic",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/hypercubic",
+    "urls": [
+      "https://jobs.ashbyhq.com/hypercubic/ab7a23f9-7280-4443-b442-2813dc39d490/application?embed=true"
     ]
   },
   {
