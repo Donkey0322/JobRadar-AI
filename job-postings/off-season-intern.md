@@ -28,17 +28,10 @@
       <td width="100" align="left" valign="top">August 15</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Dedalus Labs</td>
-      <td width="420" align="left" valign="top">Design Engineer Intern</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/dedalus-labs/bcd6db2e-400b-4ffa-aef3-0948a7b558c2/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 15</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Firstam</td>
       <td width="420" align="left" valign="top">Software Engineering Intern</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -96,20 +89,6 @@
       <td width="180" align="left" valign="top">Chicago, IL</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">MaxLinear</td>
-      <td width="420" align="left" valign="top">AI Intern</td>
-      <td width="180" align="left" valign="top">Carlsbad, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careersus-maxlinear.icims.com/jobs/3049/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bank of China USA</td>
-      <td width="420" align="left" valign="top">Risk Data Aggregation Intern - Enterprise Risk Management Department</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-bocusa.icims.com/jobs/4470/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Composio</td>
@@ -224,13 +203,6 @@
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Epic Games</td>
-      <td width="420" align="left" valign="top">Gameplay Programmer Intern</td>
-      <td width="180" align="left" valign="top">Cary, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://epicgames.com/careers/jobs/6141180004?gh_jid=6141180004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Geaerospace</td>
       <td width="420" align="left" valign="top">Embedded Systems Engineer Co-op (Bohemia, NY) – Spring 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bohemia, NY</td>
@@ -276,14 +248,14 @@
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">CEDAR RAPIDS, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Software-Engineer-I--Onsite-_01864603"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Assured Guaranty</td>
       <td width="420" align="left" valign="top">Fall 2026 Intern - Product Software Developer</td>
       <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/assuredguaranty/jobs/8700953002?gh_jid=8700953002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
     <tr>
@@ -329,17 +301,10 @@
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Foxconn Industrial Internet</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - Engineering and Operations</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="http://foxconnggroup.applytojob.com/apply/xf0soVofyI/Software-Engineering-Intern"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 12</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Salesforce</td>
       <td width="420" align="left" valign="top">Software Engineering Intern - Future Pathways</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Software-Engineering-Intern---Future-Pathways_JR355842"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
     <tr>
@@ -360,14 +325,14 @@
       <td width="180" align="left" valign="top">Bah</td>
       <td width="420" align="left" valign="top">AI RAN Telecommunications Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
     <tr>
       <td width="180" align="left" valign="top">PathAI</td>
       <td width="420" align="left" valign="top">Software Engineering Co-op: September - December 2026</td>
       <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.pathai.com/careers/8623056002?gh_jid=8623056002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
     <tr>
@@ -416,7 +381,7 @@
       <td width="180" align="left" valign="top">The Nuclear Company</td>
       <td width="420" align="left" valign="top">Platform &amp; AI Pre-Engineer</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/thenuclearcompany/jobs/5386220008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
     <tr>
@@ -713,10 +678,45 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 3</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer: AI/ML &amp; LLM Intern Opportunities for University Students, Redmond</td>
+      <td width="180" align="left" valign="top">Redmond, WA</td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer: Security &amp; Identity Intern Opportunities for University Students, Redmond</td>
+      <td width="180" align="left" valign="top">Redmond, WA</td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Incident IQ</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Alpharetta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/incidentiq/jobs/7824038003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Intel</td>
+      <td width="420" align="left" valign="top">AI Software Engineer Intern 🎓<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote, USA</td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Persona.ai</td>
+      <td width="420" align="left" valign="top">Autonomy Software Engineering Internship, World Modeling</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/persona.ai/fd514a3f-4138-48d5-9862-05ff74a4ca08"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 3</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 288 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 283 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-15T23:38:14.754Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-16T02:01:08.991Z</code></sub>

@@ -31,7 +31,7 @@
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Systems Engineer Verification and Validation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Rockville, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/123307BR?ph_id=123307BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -577,7 +577,7 @@
       <td width="180" align="left" valign="top">Bdx</td>
       <td width="420" align="left" valign="top">Automation Service Engineer, Kansas City KS</td>
       <td width="180" align="left" valign="top">Sparks, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA---Kansas---Kansas-City/Automation-Service-Engineer--Kansa-City-KS_R-536612"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -605,7 +605,7 @@
       <td width="180" align="left" valign="top">Cvshealth</td>
       <td width="420" align="left" valign="top">Sr Software Development Engineer</td>
       <td width="180" align="left" valign="top">Hartford, CT</td>
-      <td width="120" align="left" valign="top"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/CT---Hartford/Sr-Software-Development-Engineer_R1008148-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-15T23:38:14.754Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-16T02:01:08.991Z</code></sub>

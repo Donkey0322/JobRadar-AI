@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--08--15-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--08--16-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -89,9 +89,9 @@
 
 Each category page shows up to 100 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 275 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 288 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,695 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 272 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 283 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,694 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,547 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,391 opportunities
 
@@ -254,7 +254,7 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 275 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 272 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -284,17 +284,10 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 15</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Dedalus Labs</td>
-      <td width="420" align="left" valign="top">Design Engineer Intern</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/dedalus-labs/bcd6db2e-400b-4ffa-aef3-0948a7b558c2/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 15</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Firstam</td>
       <td width="420" align="left" valign="top">Software Engineering Intern</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Remote/Software-Engineering-Intern_R058260"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -354,20 +347,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">MaxLinear</td>
-      <td width="420" align="left" valign="top">AI Intern</td>
-      <td width="180" align="left" valign="top">Carlsbad, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careersus-maxlinear.icims.com/jobs/3049/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bank of China USA</td>
-      <td width="420" align="left" valign="top">Risk Data Aggregation Intern - Enterprise Risk Management Department</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-bocusa.icims.com/jobs/4470/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 13</td>
-    </tr>
-    <tr>
       <td width="180" align="left" valign="top">Composio</td>
       <td width="420" align="left" valign="top">Fullstack Engineering Internship, Product Team (Fall 2026 &amp; Winter 2027)</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -409,9 +388,30 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7662662842545539381"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">(General Hire) Machine Learning Engineer Intern (Performance Monetization) - 2027 Start (PhD)</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7669693205558561077"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Research Scientist Intern (Data-TnS-Algo-Foundations &amp; Intelligence Service) - 2027 Start (PhD)</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7662677746436524293"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start (PhD）</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672883129493948677"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 13</td>
+    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 288 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 283 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -568,7 +568,7 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,695 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,694 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (9,938)</b></summary>
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Disney</td>
+      <td width="420" align="left" valign="top">Forward Deployed Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Burbank, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://disney.wd5.myworkdayjobs.com/disneycareer/job/Burbank-CA-USA/Forward-Deployed-Engineer_10158258-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 15</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Amazon</td>
       <td width="420" align="left" valign="top">Software Development Engineer, Amazon Security: ASCOT Engineering</td>
@@ -721,13 +728,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/voyagertechnologiesinc/jobs/4355447009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Apple</td>
-      <td width="420" align="left" valign="top">Full Stack Software Engineer, Developer Publications</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678186-3543/full-stack-software-engineer-developer-publications?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
 <p><sub>Showing 20 of 5,547 opportunities in this section.</sub></p>
@@ -763,7 +763,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Systems Engineer Verification and Validation<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Rockville, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/123307BR?ph_id=123307BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-15T23:38:14.754Z</code>
+      🕒 Last updated <code>2026-08-16T02:01:08.991Z</code>
     </span>
   </p>
 </div>
