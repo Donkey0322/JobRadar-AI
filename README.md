@@ -93,7 +93,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 284 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,699 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,549 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 4,393 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 4,394 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,699 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (9,942)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (9,943)</b></summary>
 
   <br />
 
@@ -732,7 +732,7 @@ Each category page shows up to 100 of the latest opportunities.
 </table>
 <p><sub>Showing 20 of 5,549 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (4,393)</h3>
+  <h3>Senior Level (4,394)</h3>
 
 <table width="100%">
   <thead>
@@ -747,6 +747,13 @@ Each category page shows up to 100 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Globalhr</td>
+      <td width="420" align="left" valign="top">Vision Systems - Program Chief Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Goleta, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-GOLETA-B01--6825-Cortona-Dr--BLDG-B01/Vision-Systems---Program-Chief-Engineer_01865841"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Lowband Software Support Engineer (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Fort Meade, MD</td>
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-FORT-MEADE-9800-CUST--9800-Savage-Rd--SAVAGE-External-Site/Lowband-Software-Support-Engineer--Onsite-_01865111"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -878,16 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/124055002745316038-soc-dft-engineer-cloud?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medtronic</td>
-      <td width="420" align="left" valign="top">Sr Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Minneapolis, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Minneapolis-Minnesota-United-States-of-America/Sr-Software-Engineer_R74516-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,393 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,394 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-16T22:40:37.634Z</code>
+      🕒 Last updated <code>2026-08-16T23:37:58.092Z</code>
     </span>
   </p>
 </div>
