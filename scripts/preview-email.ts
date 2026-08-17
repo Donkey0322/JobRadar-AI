@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 
-import { generateEmailContent } from "@/modules/mail-alert/generate";
+import { generateEmailContent } from "@/modules/notifier/generate";
 import { loadJobs } from "@/utils/data";
 
 async function main() {

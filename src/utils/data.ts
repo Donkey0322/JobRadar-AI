@@ -11,8 +11,7 @@ import {
 } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { Company } from "@/modules/company-tacker/type";
-import type { Job, Opportunity } from "@/types";
+import type { Company, Job, Opportunity } from "@/types";
 
 import { logger } from "@/utils/logger";
 

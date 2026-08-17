@@ -2,15 +2,15 @@ import pLimit from "p-limit";
 
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
-import type { JDFetchResult, JDFetchStatus } from "@/modules/jd-analyzer/ats";
+import type { JDFetchResult, JDFetchStatus } from "@/modules/ats/detail";
 import type { Job } from "@/types";
 
 import deduplicate from "./dedup";
 
-import { buildCompanyList } from "@/modules/company-tacker/company";
-import { isTarget } from "@/modules/company-tacker/utils";
-import { getRawJD } from "@/modules/jd-analyzer";
-import { HttpStatusCode, NETWORK_ERROR_CODE } from "@/modules/jd-analyzer/ats/fetch";
+import { isTarget } from "@/modules/ats/core/filter";
+import { HttpStatusCode, NETWORK_ERROR_CODE } from "@/modules/ats/detail/fetch";
+import { getRawJD } from "@/modules/job-analysis";
+import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { logger } from "@/utils/logger";

@@ -3,8 +3,8 @@ import { ALLOWED_COUNTRIES } from "@/constants";
 
 import { createSyncContext, processJobs } from "./shared";
 
-import { classifyLocations } from "@/modules/company-tacker/ai";
-import discoverJobs from "@/modules/company-tacker/fetch";
+import { classifyLocations } from "@/modules/job-discovery/ai";
+import discoverJobs from "@/modules/job-discovery/fetch";
 import { logger } from "@/utils/logger";
 
 export default async function syncDiscover() {

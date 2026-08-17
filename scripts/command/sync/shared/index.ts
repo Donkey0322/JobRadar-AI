@@ -3,13 +3,13 @@ import pLimit from "p-limit";
 import type { Job } from "@/types";
 import type { Opportunity } from "@/types/jobs";
 
-import { buildCompanyList } from "@/modules/company-tacker/company";
-import getJD, { isEligibleJD } from "@/modules/jd-analyzer";
-import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
-import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/modules/job-dedup";
+import { HttpStatusCode } from "@/modules/ats/detail";
+import getJD, { isEligibleJD } from "@/modules/job-analysis";
+import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
+import { deduplicateJobs, getJobKey, groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 15 * 60 * 1000;

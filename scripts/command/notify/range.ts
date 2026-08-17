@@ -4,7 +4,7 @@ import { createSMTPTransport } from "../../utils/mail";
 
 import { getNewJobsFromDiff } from "./git";
 
-import { sendEmail } from "@/modules/mail-alert";
+import { sendEmail } from "@/modules/notifier";
 import { logger } from "@/utils/logger";
 
 function sleep(ms: number) {

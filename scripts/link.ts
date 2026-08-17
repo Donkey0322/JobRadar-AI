@@ -7,8 +7,8 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./command/sync/shared";
 
-import { analyzeLink, getRawJD } from "@/modules/jd-analyzer";
-import { HttpStatusCode } from "@/modules/jd-analyzer/ats";
+import { HttpStatusCode } from "@/modules/ats/detail";
+import { analyzeLink, getRawJD } from "@/modules/job-analysis";
 import { logger } from "@/utils/logger";
 
 export async function promptJob(): Promise<Job> {

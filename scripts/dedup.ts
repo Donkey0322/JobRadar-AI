@@ -5,8 +5,8 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import type { Opportunity } from "@/types";
 
-import { deduplicate, getJobKey, toJobKeySet } from "@/modules/job-dedup";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
+import { deduplicate, getJobKey, toJobKeySet } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 function shouldReplace(existing: Opportunity, candidate: Opportunity): boolean {

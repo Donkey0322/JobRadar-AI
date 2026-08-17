@@ -7,9 +7,9 @@ import { getSeasonYears } from "@/constants/season";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
-import { getJobKey } from "@/modules/job-dedup";
 import { readNdjsonFile } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
+import { getJobKey } from "@/utils/job-key";
 
 type TableRow = [string, string, string, string, string];
 

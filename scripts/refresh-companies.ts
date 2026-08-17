@@ -1,7 +1,7 @@
 import { RED_CROSS } from "@/constants/log";
 
-import { buildCompanyList } from "@/modules/company-tacker/company";
-import { remapStoredCompanyNames } from "@/modules/company-tacker/remap";
+import { buildCompanyList } from "@/modules/job-discovery/company";
+import { remapStoredCompanyNames } from "@/modules/job-discovery/remap";
 import { loadUrls } from "@/utils/data";
 import { logger } from "@/utils/logger";
 

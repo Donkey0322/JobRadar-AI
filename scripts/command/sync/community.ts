@@ -4,7 +4,7 @@ import type { Job } from "@/types";
 
 import { createSyncContext, processJobs } from "./shared";
 
-import fetchSource from "@/modules/github-parser";
+import fetchSource from "@/modules/community-source";
 import { logger } from "@/utils/logger";
 
 export default async function syncCommunity() {
