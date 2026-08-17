@@ -7654,6 +7654,16 @@
     "urls": []
   },
   {
+    "name": "careers.fastenterprises.com",
+    "ats": "custom",
+    "identifier": "careers.fastenterprises.com",
+    "domain": "https://careers.fastenterprises.com",
+    "page": "",
+    "urls": [
+      "https://careers.fastenterprises.com/jobs/1709?icims=1"
+    ]
+  },
+  {
     "name": "careers.freddiemac.com",
     "ats": "phenom",
     "identifier": "careers.freddiemac.com",
@@ -10809,8 +10819,8 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/dmgmedia/jobs",
     "urls": [
       "https://www.dmgmedia.co.uk/careers/jobs/id/8094044?gh_jid=8094044",
-      "https://www.dmgmedia.co.uk/careers/jobs/id/8130352?gh_jid=8130352",
-      "https://www.dmgmedia.co.uk/careers/jobs/id/8130320?gh_jid=8130320"
+      "https://www.dmgmedia.co.uk/careers/jobs/id/8130320?gh_jid=8130320",
+      "https://www.dmgmedia.co.uk/careers/jobs/id/8130352?gh_jid=8130352"
     ]
   },
   {
