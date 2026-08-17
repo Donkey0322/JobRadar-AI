@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Software Engineer, Infrastructure, Public Sector<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/95972217346499270-software-engineer-infrastructure-public-sector?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Amat</td>
       <td width="420" align="left" valign="top">Data Governance and Protection Analyst</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/CapTechConsulting/744000143564384"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Engineer (AWS, Azure, GCP)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Charlotte, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/CapTechConsulting/744000143565429"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 5,553 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 5,554 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:02:02.438Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:54:40.096Z</code></sub>

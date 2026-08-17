@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:02:02.438Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:54:40.096Z</code></sub>

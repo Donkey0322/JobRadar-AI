@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Statestreet</td>
+      <td width="420" align="left" valign="top">Software Engineering &amp; Development</td>
+      <td width="180" align="left" valign="top">Princeton, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Princeton-New-Jersey/Software-Engineering---Development_R-796126"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineering Technical Leader (Remote)</td>
       <td width="180" align="left" valign="top">Remote, USA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/AR---Work-from-home/Salesforce-DevOps-Engineer_R1002160"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Honeywell</td>
-      <td width="420" align="left" valign="top">Sr Advanced Data Scientist</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/155118"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,401 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,402 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:02:02.438Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-17T10:54:40.096Z</code></sub>
