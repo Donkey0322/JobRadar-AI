@@ -10,7 +10,7 @@
     "jobctl": "tsx scripts/command/index.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "company": "tsx scripts/company.ts",
+    "refresh-companies": "tsx scripts/refresh-companies.ts",
     "dedup": "tsx scripts/dedup.ts",
     "add-job": "tsx scripts/link.ts",
     "delete-url": "tsx scripts/delete-url.ts",

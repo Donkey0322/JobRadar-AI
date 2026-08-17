@@ -11,12 +11,45 @@ import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;
 
-function getCompanyKey(company: Company): string {
+export function getCompanyKey(company: Company): string {
   if (company.identifier) {
     return `${company.ats}:${company.identifier}`;
   }
 
   return `${company.ats}:${company.domain}:${company.page}`;
+}
+
+async function resolveExistingCompany(
+  existing: Company
+): Promise<{ key: string; company: Company }> {
+  const existingKey = getCompanyKey(existing);
+  const representative = existing.urls[0];
+
+  // Bare domain/page URLs often omit the company slug (e.g. https://jobs.lever.co),
+  // which would form a company with an undefined name. Only re-key from a job URL.
+  if (!representative) {
+    return { key: existingKey, company: existing };
+  }
+
+  try {
+    const url = new URL(representative);
+    const fetcher = getATSFetcher(classifyATS(url));
+    const resolvedKey = fetcher.companyKeyFromUrl(url);
+
+    if (resolvedKey === existingKey) {
+      return { key: existingKey, company: existing };
+    }
+
+    const reformed = await fetcher.formCompany(url);
+
+    if (!reformed?.name) {
+      return { key: existingKey, company: existing };
+    }
+
+    return { key: getCompanyKey(reformed), company: reformed };
+  } catch {
+    return { key: existingKey, company: existing };
+  }
 }
 
 function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
@@ -107,7 +140,7 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
   );
 
   for (const { company } of results) {
-    if (!company) {
+    if (!company?.name) {
       continue;
     }
 
@@ -121,18 +154,20 @@ export async function buildCompanyList(urls: string[] | Set<string>): Promise<Co
     map.get(key)!.urls.push(...company.urls);
   }
 
-  // Merge existing companies so companies don't disappear
+  // Merge existing companies so companies don't disappear.
+  // Re-resolve keys so identifier remaps replace stale rows instead of duplicating them.
   const existingCompanies = await loadCompanies();
+  const resolvedExisting = await Promise.all(existingCompanies.map(resolveExistingCompany));
 
-  for (const existingCompany of existingCompanies) {
-    const key = getCompanyKey(existingCompany);
-
-    if (!map.has(key)) {
-      map.set(key, {
-        ...existingCompany,
-        urls: [],
-      });
+  for (const { key, company } of resolvedExisting) {
+    if (!company.name || map.has(key)) {
+      continue;
     }
+
+    map.set(key, {
+      ...company,
+      urls: [],
+    });
   }
 
   const result = Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));

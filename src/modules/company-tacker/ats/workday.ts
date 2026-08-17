@@ -19,6 +19,7 @@ const MAX_PAGES = 20;
 
 const identifierMap = {
   talentmanagementsolution: "jonas",
+  globalhr: "rtx",
 } satisfies Record<string, string>;
 
 export const WorkdayJobSchema = z.object({

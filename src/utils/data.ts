@@ -78,13 +78,28 @@ export async function loadJobs(): Promise<Job[]> {
 }
 
 /**
- * Append jobs to the end of the job file.
+ * Read jobs in file order (not reversed). Used when rewriting the job file.
+ */
+export async function loadJobsInFileOrder(): Promise<Job[]> {
+  try {
+    return await readNdjsonFile<Job>(JOB_PATH);
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Append jobs to the end of the job file, or replace the file when overwrite is set.
  * @param jobs - The jobs to save.
  */
-export async function saveJob(jobs: Job[]) {
+export async function saveJob(jobs: Job[], overwrite: boolean = false) {
   if (jobs.length === 0) return;
   const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
-  await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
+  if (overwrite) {
+    await fs.writeFile(JOB_PATH, `${lines}\n`, "utf-8");
+  } else {
+    await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
+  }
 }
 
 export async function readJD(id: number): Promise<string | null> {

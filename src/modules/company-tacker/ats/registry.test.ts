@@ -135,6 +135,50 @@ describe("ATS fetcher registry", () => {
     expect(formCompany).toHaveBeenCalledWith(new URL(urls[0]));
   });
 
+  it("replaces stale Workday identifiers when the tenant is remapped", async () => {
+    const stale: Company = {
+      name: "globalhr",
+      ats: "workday",
+      identifier: "globalhr-rec_rtx_ext_gateway",
+      domain: "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway",
+      page: "https://globalhr.wd5.myworkdayjobs.com/wday/cxs/globalhr/rec_rtx_ext_gateway/jobs",
+      urls: [
+        "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT/Intern_1",
+      ],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([stale]);
+
+    const result = await buildCompanyList(stale.urls);
+
+    expect(result).toEqual([
+      expect.objectContaining({
+        name: "rtx",
+        identifier: "rtx-rec_rtx_ext_gateway",
+        urls: stale.urls,
+      }),
+    ]);
+    expect(result.some((company) => company.identifier.startsWith("globalhr"))).toBe(false);
+  });
+
+  it("keeps existing companies that have no job URLs without reforming them", async () => {
+    const ghost: Company = {
+      name: "acme",
+      ats: "lever",
+      identifier: "acme",
+      domain: "https://jobs.lever.co",
+      page: "https://api.lever.co/v0/postings/acme?mode=json",
+      urls: [],
+    };
+    dataMocks.loadCompanies.mockResolvedValue([ghost]);
+
+    await expect(buildCompanyList([])).resolves.toEqual([
+      {
+        ...ghost,
+        urls: [],
+      },
+    ]);
+  });
+
   it("keeps distinct company keys as separate formCompany calls", async () => {
     const acme: Company = {
       name: "acme",
