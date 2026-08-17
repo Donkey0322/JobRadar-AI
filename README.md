@@ -92,7 +92,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 272 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 284 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,700 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 5,549 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 5,550 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,396 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,700 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (9,945)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (9,946)</b></summary>
 
   <br />
 
-  <h3>Mid Level (5,549)</h3>
+  <h3>Mid Level (5,550)</h3>
 
 <table width="100%">
   <thead>
@@ -590,6 +590,13 @@ Each category page shows up to 100 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Exl talent acquisition team</td>
+      <td width="420" align="left" valign="top">Data Engineer</td>
+      <td width="180" align="left" valign="top">New Jersey, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/17055"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 16</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Data Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">New Jersey, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/16842"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -721,16 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://qualcomm.eightfold.ai/careers/job/446720361954?domain=qualcomm.com&amp;8fold_id=446720361954"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Wireless Software Engineer</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://qualcomm.eightfold.ai/careers/job/446720428288?domain=qualcomm.com&amp;8fold_id=446720428288"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,549 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,550 opportunities in this section.</sub></p>
 
   <h3>Senior Level (4,396)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-17T01:59:56.764Z</code>
+      🕒 Last updated <code>2026-08-17T03:17:07.835Z</code>
     </span>
   </p>
 </div>
