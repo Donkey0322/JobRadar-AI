@@ -93,7 +93,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 305 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,757 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,682 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 4,497 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 4,498 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,757 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (10,179)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (10,180)</b></summary>
 
   <br />
 
@@ -732,7 +732,7 @@ Each category page shows up to 100 of the latest opportunities.
 </table>
 <p><sub>Showing 20 of 5,682 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (4,497)</h3>
+  <h3>Senior Level (4,498)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Software Engineer - Level 4 - Space AHT<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Huntsville, AL</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Software-Engineer---Level-4---Space-AHT_R10246149"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 17</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Mercor</td>
       <td width="420" align="left" valign="top">Fullstack Engineer, RL Environments<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -878,16 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Reston/Systems-Engineer--CAD-Design---Knowledge-Management-_R184926"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wabtec</td>
-      <td width="420" align="left" valign="top">Embedded Software Engineer IV</td>
-      <td width="180" align="left" valign="top">West Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/Wabtec/3743990014635546"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,497 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,498 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-18T02:33:00.072Z</code>
+      🕒 Last updated <code>2026-08-18T03:13:09.663Z</code>
     </span>
   </p>
 </div>
