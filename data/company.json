@@ -7619,6 +7619,16 @@
     ]
   },
   {
+    "name": "careers.astrion.us",
+    "ats": "custom",
+    "identifier": "careers.astrion.us",
+    "domain": "https://careers.astrion.us",
+    "page": "",
+    "urls": [
+      "https://careers.astrion.us/jobs/24705?icims=1"
+    ]
+  },
+  {
     "name": "careers.bankofamerica.com",
     "ats": "custom",
     "identifier": "careers.bankofamerica.com",
@@ -17934,7 +17944,9 @@
     "identifier": "jobs.intuit.com",
     "domain": "https://jobs.intuit.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://jobs.intuit.com/job/new-york/intern-software-engineering/27595/99410270400"
+    ]
   },
   {
     "name": "jobs.jobvite.com",
@@ -24409,6 +24421,16 @@
       "https://job-boards.greenhouse.io/purestorage/jobs/8108379",
       "https://job-boards.greenhouse.io/purestorage/jobs/8108393",
       "https://job-boards.greenhouse.io/purestorage/jobs/8113513"
+    ]
+  },
+  {
+    "name": "pwc",
+    "ats": "workday",
+    "identifier": "pwc-global_campus_careers",
+    "domain": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers",
+    "page": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs",
+    "urls": [
+      "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Calgary/May-2027---SAP---Summer-Intern---Calgary_752589WD"
     ]
   },
   {
