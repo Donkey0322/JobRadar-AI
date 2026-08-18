@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">WOOD Consulting Services</td>
+      <td width="420" align="left" valign="top">Software Engineer 0 - Entry-Level Software Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Meade, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Software Engineer - IS&amp;T Early Career Opportunities</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678510"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Charta Health</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/chartahealth/9403a4cc-1bac-4798-9d82-be31ba8b42a0/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pae</td>
       <td width="420" align="left" valign="top">System Engineer Junior<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Vandenberg AFB, CA</td>
@@ -692,31 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/flowengineering/df49e713-ce33-40a8-8d6d-3759f61f4ea5/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wolverine Trading</td>
-      <td width="420" align="left" valign="top">Entry Level C++ Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://wolve.pinpointhq.com/en/postings/1f33c89b-2592-498d-b45a-1b2092cf944e?ats=pinpointhq"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Entry Level C++ Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://wolve.pinpointhq.com/en/postings/e03d9864-a128-40ff-91b5-dfc9fd1b59d6?ats=pinpointhq"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Applied Intuition</td>
-      <td width="420" align="left" valign="top">Software Engineer New Grad - December 2026</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/applied/a837cbd6-9fe4-4d74-a2dc-84f602c40694/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,767 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,770 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-18T14:09:04.305Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-18T14:22:25.965Z</code></sub>

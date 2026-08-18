@@ -89,9 +89,9 @@
 
 Each category page shows up to 100 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 318 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 306 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 1,767 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 320 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 308 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 1,770 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 5,710 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,510 opportunities
 
@@ -112,6 +112,20 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">American Express</td>
+      <td width="420" align="left" valign="top">AI Engineer Intern - Enterprise Technology Services 🎓<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - TikTok Search Data Infra</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675128776856029445"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Systems Engineering Intern 2027 (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -238,23 +252,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.bytedance.com/en/position/7668650945276168453/detail"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">KeyBank</td>
-      <td width="420" align="left" valign="top">Technology Track Intern - Key Technology and Services<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Brooklyn, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/XMLNAME-2027-Summer-Key-Technology---Services--Technology-Track-Internship--Cleveland_R-41382"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">GE Aerospace</td>
-      <td width="420" align="left" valign="top">Digital Technology Intern - Multiple Teams<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Atlanta/Digital-Technology-Intern---US---Atlanta--GA----Summer-2027_R5038078"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 318 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 320 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -269,6 +269,20 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - TikTok Search Data Infrastructure</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675129440242010421"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">University of St. Thomas</td>
+      <td width="420" align="left" valign="top">Digital Innovation &amp; Learning Technology Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">St Paul, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://studentemployment-stthomas.icims.com/jobs/9527/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">RSE -- Systems Engineering Intern 2027 (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -395,23 +409,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineering Co-op - Electrical Engineering &amp; Computer Engineering/Science (Electric Power) - US - Fall 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dayton, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Fall-2027_R5030143-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineering Co-op - Electrical Engineering &amp; Computer Engineering/Science (Electric Power) - US - Spring 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dayton, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Dayton/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Spring-2027_R5030099-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 306 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 308 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,27 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">WOOD Consulting Services</td>
+      <td width="420" align="left" valign="top">Software Engineer 0 - Entry-Level Software Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Meade, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs-woodcons.icims.com/jobs/14759/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Apple</td>
+      <td width="420" align="left" valign="top">Software Engineer - IS&amp;T Early Career Opportunities</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678510"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Charta Health</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/chartahealth/9403a4cc-1bac-4798-9d82-be31ba8b42a0/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Pae</td>
       <td width="420" align="left" valign="top">System Engineer Junior<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -545,30 +566,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Software-Engineer-I_10157423"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vanguard</td>
-      <td width="420" align="left" valign="top">Technology Leadership Program – Data &amp; Analytics (Scientist) - PA<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Malvern, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Technology-Leadership-Program---Data---Analytics--Scientist----PA_180092-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Google</td>
-      <td width="420" align="left" valign="top">Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/122258040807137990-software-engineer-phd-early-career-aimachine-learning-2026-start?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Hp</td>
-      <td width="420" align="left" valign="top">Software Systems Engineer</td>
-      <td width="180" align="left" valign="top">Fort Collins, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Fort-Collins-Colorado-United-States-of-America/Software-Systems-Engineer_3166471"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,767 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,770 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (10,220)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-18T14:09:04.305Z</code>
+      🕒 Last updated <code>2026-08-18T14:22:25.965Z</code>
     </span>
   </p>
 </div>
