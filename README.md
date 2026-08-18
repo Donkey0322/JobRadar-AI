@@ -92,7 +92,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 318 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 306 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,762 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 5,693 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 5,695 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,500 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,762 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (10,193)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (10,195)</b></summary>
 
   <br />
 
-  <h3>Mid Level (5,693)</h3>
+  <h3>Mid Level (5,695)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,20 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Google</td>
+      <td width="420" align="left" valign="top">Engineering Analyst, Chrome Extensions Security, Trust and Safety</td>
+      <td width="180" align="left" valign="top">Kirkland, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/139360509546635974-engineering-analyst-chrome-extensions-security-trust-and-safety?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer, Reliability, Public Sector<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/72274907089511110-software-engineer-reliability-public-sector?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 18</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Airliquidehr</td>
       <td width="420" align="left" valign="top">Information Security Analyst - Business Security and Compliance</td>
@@ -714,23 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8717341002?gh_jid=8717341002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Stripe</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer</td>
-      <td width="180" align="left" valign="top">South San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://stripe.com/jobs/search?gh_jid=8137997"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://stripe.com/jobs/search?gh_jid=8137972"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,693 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,695 opportunities in this section.</sub></p>
 
   <h3>Senior Level (4,500)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-18T07:08:28.314Z</code>
+      🕒 Last updated <code>2026-08-18T07:58:27.145Z</code>
     </span>
   </p>
 </div>
