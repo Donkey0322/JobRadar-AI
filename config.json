@@ -1,6 +1,6 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"],
+    "intern": ["off-season intern"],
     "full-time": ["entry level"],
     "countries": ["USA"],
     "filter": {
