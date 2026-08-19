@@ -4,7 +4,7 @@ import { SEASONS } from "@/constants";
 
 import type { Job, Source } from "@/types";
 
-import { cleanLink, containsExcludedSymbols } from "@/utils/string";
+import { cleanLink } from "@/utils/string";
 import { JobCategory } from "@/validation/config";
 
 function normalizeText(s: string): string {
@@ -62,8 +62,6 @@ export default function parseHtml(html: string, source: Source): Job[] {
     const [company, role, location, , , age] = cols;
 
     /* ======= deal with the company ======== */
-    if (containsExcludedSymbols(company)) return;
-
     let current: string;
     if (company === "↳") {
       current = lastCompany ?? "Unknown";
@@ -71,9 +69,6 @@ export default function parseHtml(html: string, source: Source): Job[] {
       current = normalizeText(company);
       lastCompany = current;
     }
-
-    /* ======= deal with the role ======== */
-    if (containsExcludedSymbols(role)) return;
 
     // /* ======= deal with the season ======== */
     // const normalizedSeason = normalizeSeason(season);
@@ -91,14 +86,6 @@ export default function parseHtml(html: string, source: Source): Job[] {
     /* ======= deal with the age ======== */
     const ageText = age.toLowerCase();
     if (ageText !== "0d") return;
-
-    /* ======= check the row ======== */
-    const rowText = tds
-      .map((_, td) => $(td).text().trim())
-      .get()
-      .join(" ");
-
-    if (containsExcludedSymbols(rowText)) return;
 
     items.push({
       company: current,

@@ -1,6 +1,6 @@
 import type { Job } from "@/types";
 
-import { cleanLink, containsExcludedSymbols, getToday, HREF_RE } from "@/utils/string";
+import { cleanLink, getToday, HREF_RE } from "@/utils/string";
 
 export default function parseMarkdown(md: string): Job[] {
   const ROW_START = /^\s*\|/; // regex to match the start of a row: "|"
@@ -13,7 +13,6 @@ export default function parseMarkdown(md: string): Job[] {
     const line = rawLine.replace(/\s+$/, "");
 
     if (!ROW_START.test(line)) continue;
-    if (containsExcludedSymbols(line)) continue;
 
     // after filtering, we get the line like this:
     // | Company | Role | Location | Application/Link | Date Posted |
