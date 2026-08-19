@@ -7573,6 +7573,7 @@
       "https://careers.adobe.com/us/en/job/R170860?ph_id=R170860",
       "https://careers.adobe.com/us/en/job/R170864?ph_id=R170864",
       "https://careers.adobe.com/us/en/job/R170880?ph_id=R170880",
+      "https://careers.adobe.com/us/en/job/R170921?ph_id=R170921",
       "https://careers.adobe.com/us/en/job/R170947?ph_id=R170947",
       "https://careers.adobe.com/us/en/job/R170948?ph_id=R170948",
       "https://careers.adobe.com/us/en/job/R170972?ph_id=R170972",
@@ -7581,12 +7582,11 @@
       "https://careers.adobe.com/us/en/job/R171041?ph_id=R171041",
       "https://careers.adobe.com/us/en/job/R171091?ph_id=R171091",
       "https://careers.adobe.com/us/en/job/R171096?ph_id=R171096",
+      "https://careers.adobe.com/us/en/job/R171178?ph_id=R171178",
       "https://careers.adobe.com/us/en/job/R171181?ph_id=R171181",
       "https://careers.adobe.com/us/en/job/R171231?ph_id=R171231",
       "https://careers.adobe.com/us/en/job/R171262?ph_id=R171262",
-      "https://careers.adobe.com/us/en/job/R171337?ph_id=R171337",
-      "https://careers.adobe.com/us/en/job/R170921?ph_id=R170921",
-      "https://careers.adobe.com/us/en/job/R171178?ph_id=R171178"
+      "https://careers.adobe.com/us/en/job/R171337?ph_id=R171337"
     ]
   },
   {
@@ -9637,6 +9637,8 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Management-Analyst---NAM-Shift_26985914",
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Management-Junior-Analyst---APAC-Shift_26984772",
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intermediate-Analyst---NAM-Shift_26983526-1",
+      "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intmd-Analyst---C11---TAGUIG_26983165",
+      "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intmd-Analyst---C11---TAGUIG_26983181",
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intmd-Analyst---C11---TAGUIG_26983193",
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Junior-Analyst---EMEA---NAM-Shift_26975921",
       "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Junior-Analyst---EMEA---NAM-Shift_26975924",
@@ -9648,9 +9650,7 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Full-Stack-Java---React-Engineer_26967783",
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Security-Derivatives-Intermediate-Associate-Analyst_26982178",
       "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Site-Reliability-Engineer--SRE-_26985194",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Technology---Infrastructure--Full-Time-Analyst--Warsaw--2026_25921852",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intmd-Analyst---C11---TAGUIG_26983181",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Taguig--Philippines/Reference-Data-Services-Intmd-Analyst---C11---TAGUIG_26983165"
+      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Technology---Infrastructure--Full-Time-Analyst--Warsaw--2026_25921852"
     ]
   },
   {
@@ -14099,7 +14099,8 @@
       "https://careers-gdms.icims.com/jobs/74376/systems-engineer---autonomous-maritime-platforms/job",
       "https://careers-gdms.icims.com/jobs/74388/system-engineer---cots-ndi-products/job",
       "https://careers-gdms.icims.com/jobs/74389/systems-engineer-%e2%80%93-entry-level/job",
-      "https://careers-gdms.icims.com/jobs/74391/automation-software-engineer-%e2%80%93-manufacturing/job"
+      "https://careers-gdms.icims.com/jobs/74391/automation-software-engineer-%e2%80%93-manufacturing/job",
+      "https://careers-gdms.icims.com/jobs/74341/junior-full-stack-engineer-%28java-react%29/job"
     ]
   },
   {
@@ -21658,8 +21659,8 @@
       "https://explore.jobs.netflix.net/careers/job/790317885399",
       "https://explore.jobs.netflix.net/careers/job/790317885410",
       "https://explore.jobs.netflix.net/careers/job/790317890482",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
-      "https://explore.jobs.netflix.net/careers/job/790317897268"
+      "https://explore.jobs.netflix.net/careers/job/790317897268",
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
     ]
   },
   {
@@ -22377,9 +22378,9 @@
     "domain": "https://ntst.wd1.myworkdayjobs.com/careers",
     "page": "https://ntst.wd1.myworkdayjobs.com/wday/cxs/ntst/careers/jobs",
     "urls": [
+      "https://ntst.wd1.myworkdayjobs.com/careers/job/Bengaluru-India/QA-Automation-Engineer_R015451",
       "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/QA-Automation-Engineer--Performance-Test-Experience-Onsite--Overland-Park--KS-_R015143-1",
-      "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer--Java-Experience-Onsite--Overland-Park--KS-_R015567",
-      "https://ntst.wd1.myworkdayjobs.com/careers/job/Bengaluru-India/QA-Automation-Engineer_R015451"
+      "https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/Software-Engineer--Java-Experience-Onsite--Overland-Park--KS-_R015567"
     ]
   },
   {
@@ -22563,7 +22564,10 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2016197",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Systems-Quality-and-Reliability-Engineer---LPU_JR2018660",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/System-Software-Engineer---GPU-and-SOC--2027-RDSS-Intern-_JR2023628",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Trusted-Firmware_JR2023340",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Munich/Software-Engineering-Intern--Test-Automation---Autonomous-Vehicles_JR2023302"
     ]
   },
   {
