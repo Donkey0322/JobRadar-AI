@@ -92,7 +92,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 332 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 322 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,823 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 5,838 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 5,840 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 4,604 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,823 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (10,442)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (10,444)</b></summary>
 
   <br />
 
-  <h3>Mid Level (5,838)</h3>
+  <h3>Mid Level (5,840)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,20 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Uline</td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Pleasant Prairie, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://uline.wd1.myworkdayjobs.com/uline_careers/job/Pleasant-Prairie-WI/Data-Analyst_R266661-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 19</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Business Systems Analyst</td>
+      <td width="180" align="left" valign="top">Pleasant Prairie, WI</td>
+      <td width="120" align="left" valign="top"><a href="https://uline.wd1.myworkdayjobs.com/uline_careers/job/Pleasant-Prairie-WI/Business-Systems-Analyst_R266621-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 19</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Apply.careers.microsoft.com</td>
       <td width="420" align="left" valign="top">Solution Engineer - Cloud &amp; AI Infrastructure<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -714,23 +728,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R116626?ph_id=R116626"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gamechanger</td>
-      <td width="420" align="left" valign="top">Security Engineer, Application Security</td>
-      <td width="180" align="left" valign="top">Remote, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/gamechanger/8c2edc2c-6da1-4719-abbf-30fb302fce9f"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 18</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">NICE</td>
-      <td width="420" align="left" valign="top">IT Software Engineer</td>
-      <td width="180" align="left" valign="top">Hoboken, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.eu.greenhouse.io/nice/jobs/4862935101?gh_jid=4862935101"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 18</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,838 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,840 opportunities in this section.</sub></p>
 
   <h3>Senior Level (4,604)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-19T08:58:42.607Z</code>
+      🕒 Last updated <code>2026-08-19T09:53:35.553Z</code>
     </span>
   </p>
 </div>
