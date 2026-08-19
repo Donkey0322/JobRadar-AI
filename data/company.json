@@ -3488,7 +3488,8 @@
       "https://apply.workable.com/responsiveads-inc/j/493EAC12D6/apply",
       "https://apply.workable.com/texas-sports-academy-main/j/2132C3AB96/apply",
       "https://apply.workable.com/texas-sports-academy-main/j/CC2A1186D4/apply",
-      "https://apply.workable.com/trycaddi/j/9D1291C697/apply"
+      "https://apply.workable.com/trycaddi/j/9D1291C697/apply",
+      "https://apply.workable.com/tmeic-corporation-americas/j/532EE44DFB/apply"
     ]
   },
   {
@@ -16802,9 +16803,9 @@
     "urls": [
       "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Boston-MA/Applied-AI-Engineer_R-415616",
       "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Cyber-Security-Engineer_R-426256",
+      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027--Early-ID-Participants-_R-427451",
       "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Sr-Full-Stack-Software-Engineer_R-408635",
-      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Tower-Hall-Park/Applied-AI-Engineer_R-423090",
-      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027--Early-ID-Participants-_R-427451"
+      "https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Tower-Hall-Park/Applied-AI-Engineer_R-423090"
     ]
   },
   {
@@ -28722,6 +28723,16 @@
     "page": "https://spe.wd1.myworkdayjobs.com/wday/cxs/spe/sonypicturesentertainment/jobs",
     "urls": [
       "https://spe.wd1.myworkdayjobs.com/sonypicturesentertainment/job/Buenos-Aires-Argentina/AI-Efficiency--Innovation---Automation-Analyst_JR113829"
+    ]
+  },
+  {
+    "name": "specialisterne.applytojob.com",
+    "ats": "custom",
+    "identifier": "specialisterne.applytojob.com",
+    "domain": "https://specialisterne.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative"
     ]
   },
   {
