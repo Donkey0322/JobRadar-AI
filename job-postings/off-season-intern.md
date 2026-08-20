@@ -49,7 +49,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern 🎓</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675847556668295429"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -77,7 +77,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672934842451577141"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -182,14 +182,14 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
       <td width="420" align="left" valign="top">AI Software Engineering Intern</td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
       <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556962891?domain=microsoft.com&amp;8fold_id=1970393556962891"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Intern, AI, Cyber Security, Safety — MSL Trust &amp; Safety (PhD)</td>
       <td width="180" align="left" valign="top">Menlo Park, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1027438186737957"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -231,7 +231,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern (E-Commerce Recommendation Mall) - 2027 Start (PhD)</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672920375646488885"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -266,7 +266,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - TikTok Search Data Infrastructure</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675129440242010421"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -434,7 +434,7 @@
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern (E-Commerce Recommendation Foundation) - 2027 Start (PhD）</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672881840860940597"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -511,7 +511,7 @@
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Intern (TikTok-Data-Content Intelligence) - 2027 Start (PhD)</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7662662842545539381"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -539,7 +539,7 @@
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Dev Engineer Intern - Machine Learning Apps, Accelerator</td>
       <td width="180" align="left" valign="top">New York, NY</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10501460"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -679,14 +679,14 @@
       <td width="100" align="left" valign="top">August 12</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="Salesforce" src="../assets/featured-badges/salesforce.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="Salesforce" src="../assets/featured-badges/salesforce.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineering Intern - Future Pathways</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 11</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern (TikTok-Data-Search-Local Service) - 2027 Start (PhD)</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7668381860191734021"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:36:58.481Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:39:03.396Z</code></sub>
