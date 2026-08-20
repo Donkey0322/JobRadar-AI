@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Allisontransmission</td>
+      <td width="420" align="left" valign="top">Associate Engineer, Control Systems Calibration &amp; Validation Engineering</td>
+      <td width="180" align="left" valign="top">Indianapolis, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://allisontransmission.wd1.myworkdayjobs.com/ati-external/job/Indianapolis-IN/Associate-Engineer--Control-Systems-Calibration---Validation-Engineering_R008060"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Freeform</td>
       <td width="420" align="left" valign="top">Software Engineer New Grad - Summer 2027</td>
       <td width="180" align="left" valign="top">Hawthorne, CA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-WINDSOR-LOCKS-B1--1-Hamilton-Rd--BLDG-1/Software-Engineer-I--Onsite-_01866057"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aurora, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Engineer-I--Onsite-_01867905"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 18</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,874 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,875 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T09:48:17.710Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T09:54:19.007Z</code></sub>
