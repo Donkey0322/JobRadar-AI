@@ -9,6 +9,7 @@ import { icimsFetcher } from "../listing/icims";
 import { leverFetcher } from "../listing/lever";
 import { oracleCloudFetcher } from "../listing/oraclecloud";
 import { phenomFetcher } from "../listing/phenom";
+import { radancyFetcher } from "../listing/radancy";
 import { smartRecruitersFetcher } from "../listing/smart";
 import { workdayFetcher } from "../listing/workday";
 
@@ -20,6 +21,7 @@ export const atsFetchers = {
   lever: leverFetcher,
   oraclecloud: oracleCloudFetcher,
   phenom: phenomFetcher,
+  radancy: radancyFetcher,
   smartrecruiters: smartRecruitersFetcher,
   workday: workdayFetcher,
   custom: customFetcher,

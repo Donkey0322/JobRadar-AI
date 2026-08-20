@@ -15,6 +15,9 @@ describe("classifyATS", () => {
     ["https://jobs.smartrecruiters.com/acme/1", "smartrecruiters"],
     ["https://careers-acme.icims.com/jobs/1", "icims"],
     ["https://acme.eightfold.ai/careers/job/1", "eightfold"],
+    ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928", "radancy"],
+    ["https://careers.arm.com/search-jobs", "radancy"],
+    ["https://careers.cargill.com/en/search-jobs/resultspost", "radancy"],
   ])("classifies the host suffix in %s", (url, ats) => {
     expect(classifyATS(new URL(url))).toBe(ats);
   });

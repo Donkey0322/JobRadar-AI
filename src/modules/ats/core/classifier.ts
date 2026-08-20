@@ -1,5 +1,7 @@
 import type { ATS } from "../type";
 
+import { isRadancyUrl } from "../shared/radancy";
+
 const hostToATS: Record<string, ATS> = {
   "stripe.com": "greenhouse",
   "deere.com": "greenhouse",
@@ -36,6 +38,7 @@ export function classifyATS(url: URL): ATS {
   if (url.searchParams.get("ph_id")) return "phenom";
   if (url.searchParams.get("ashby_jid")) return "ashby";
   if (url.searchParams.get("gh_jid")) return "greenhouse";
+  if (isRadancyUrl(url)) return "radancy";
 
   return "custom";
 }

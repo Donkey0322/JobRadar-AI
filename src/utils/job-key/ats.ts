@@ -89,6 +89,11 @@ export function getPhenomKey(pathname: string): string | null {
   return getNumericRouteKey(pathname, "phenom", "job");
 }
 
+export function getRadancyKey(pathname: string): string | null {
+  const match = pathname.match(/\/job\/[^/]+\/[^/]+\/\d+\/(\d+)(?:\/|$)/i);
+  return toATSKey("radancy", match?.[1]);
+}
+
 export function getIcimsKey(pathname: string): string | null {
   return getNumericRouteKey(pathname, "icims", "jobs");
 }

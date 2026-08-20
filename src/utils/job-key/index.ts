@@ -7,6 +7,7 @@ import {
   getLeverKey,
   getOracleKey,
   getPhenomKey,
+  getRadancyKey,
   getSmartRecruitersKey,
   getWorkdayKey,
 } from "./ats";
@@ -40,6 +41,9 @@ export function getJobKey(url: string) {
 
       case "phenom":
         return getPhenomKey(u.pathname) ?? `phenom:${normalizeUrl(url)}`;
+
+      case "radancy":
+        return getRadancyKey(u.pathname) ?? `radancy:${normalizeUrl(url)}`;
 
       case "smartrecruiters":
         return getSmartRecruitersKey(u.pathname) ?? `smartrecruiters:${normalizeUrl(url)}`;

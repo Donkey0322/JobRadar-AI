@@ -6,6 +6,7 @@ export type ATS =
   | "lever"
   | "oraclecloud"
   | "phenom"
+  | "radancy"
   | "smartrecruiters"
   | "workday"
   | "custom";

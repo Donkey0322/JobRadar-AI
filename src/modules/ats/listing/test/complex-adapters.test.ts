@@ -12,6 +12,7 @@ import type { Company } from "@/types";
 import { ATSFetcher } from "../../core/fetcher";
 import { icimsFetcher } from "../icims";
 import { phenomFetcher } from "../phenom";
+import { radancyFetcher } from "../radancy";
 import { workdayFetcher } from "../workday";
 
 import { toJobKeySet } from "@/utils/job-key";
@@ -38,9 +39,11 @@ describe("complex ATS adapters", () => {
     expect(workdayFetcher).toBeInstanceOf(ATSFetcher);
     expect(icimsFetcher).toBeInstanceOf(ATSFetcher);
     expect(phenomFetcher).toBeInstanceOf(ATSFetcher);
+    expect(radancyFetcher).toBeInstanceOf(ATSFetcher);
     expect(Object.keys(workdayFetcher)).toEqual(["ats"]);
     expect(Object.keys(icimsFetcher)).toEqual(["ats"]);
     expect(Object.keys(phenomFetcher)).toEqual(["ats"]);
+    expect(Object.keys(radancyFetcher)).toEqual(["ats"]);
   });
 
   it("keeps Workday pagination for jobs posted today", async () => {
@@ -186,5 +189,66 @@ describe("complex ATS adapters", () => {
         },
       ])
     );
+  });
+
+  it("forms Arm companies and fetches Date Posted search results", async () => {
+    const jobUrl =
+      "https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/99500560928";
+    const company = radancyFetcher.formCompany(new URL(jobUrl));
+    const knownKeys = toJobKeySet([
+      "https://careers.arm.com/job/cambridge/existing-engineer/33099/1",
+    ]);
+
+    expect(company).toEqual({
+      name: "careers.arm.com",
+      ats: "radancy",
+      identifier: "careers.arm.com",
+      domain: "https://careers.arm.com",
+      page: "https://careers.arm.com/search-jobs/resultspost",
+      urls: [],
+    });
+
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse(
+        {
+          hasJobs: true,
+          results: `
+            <ul id="search-results-jobs">
+              <li class="job-card">
+                <a class="job-card__title" href="/job/cambridge/existing-engineer/33099/1" data-job-id="1">
+                  Existing Engineer
+                </a>
+                <span class="location">Cambridge, United Kingdom</span>
+              </li>
+              <li class="job-card">
+                <a class="job-card__title" href="/job/bengaluru/ip-verification-engineer/33099/99500560928" data-job-id="99500560928">
+                  IP Verification Engineer
+                </a>
+                <span class="location">Bengaluru, India</span>
+              </li>
+            </ul>
+          `,
+        },
+        company.page
+      )
+    );
+
+    const jobs = await radancyFetcher.fetch(company, knownKeys, AbortSignal.timeout(1000));
+
+    expect(jobs).toEqual([
+      {
+        company: "Careers.arm.com",
+        role: "IP Verification Engineer",
+        link: jobUrl,
+        location: "Bengaluru, India",
+      },
+    ]);
+    expect(JSON.parse(String(mockFetch.mock.calls[0][1]?.body))).toMatchObject({
+      CurrentPage: 1,
+      RecordsPerPage: 50,
+      SortCriteria: 1,
+      SortDirection: 1,
+    });
+    expect([...knownKeys]).toEqual(["radancy:1"]);
   });
 });

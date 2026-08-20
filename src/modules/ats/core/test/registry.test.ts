@@ -29,6 +29,7 @@ import { icimsFetcher } from "../../listing/icims";
 import { leverFetcher } from "../../listing/lever";
 import { oracleCloudFetcher } from "../../listing/oraclecloud";
 import { phenomFetcher } from "../../listing/phenom";
+import { radancyFetcher } from "../../listing/radancy";
 import { smartRecruitersFetcher } from "../../listing/smart";
 import { workdayFetcher } from "../../listing/workday";
 import { ATSFetcher } from "../fetcher";
@@ -46,6 +47,7 @@ const allATS = [
   "lever",
   "oraclecloud",
   "phenom",
+  "radancy",
   "smartrecruiters",
   "workday",
   "custom",
@@ -68,6 +70,7 @@ describe("ATS fetcher registry", () => {
       lever: leverFetcher,
       oraclecloud: oracleCloudFetcher,
       phenom: phenomFetcher,
+      radancy: radancyFetcher,
       smartrecruiters: smartRecruitersFetcher,
       workday: workdayFetcher,
       custom: customFetcher,

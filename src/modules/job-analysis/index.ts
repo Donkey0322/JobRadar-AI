@@ -93,6 +93,7 @@ export async function getRawJD(
         return finishRawJD(await fetchWorkdayJD(url, signal));
       case "lever":
       case "phenom":
+      case "radancy":
       case "custom":
         return finishRawJD(await fetchCustomJD(url, signal));
       default:

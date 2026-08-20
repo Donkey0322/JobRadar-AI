@@ -8,6 +8,7 @@ import {
   getIcimsKey,
   getLeverKey,
   getOracleKey,
+  getRadancyKey,
   getSmartRecruitersKey,
   getWorkdayKey,
 } from "../ats";
@@ -359,6 +360,26 @@ describe("getEightfoldKey", () => {
 
     // Assert
     expect(result).toBe(expected);
+  });
+});
+
+describe("getRadancyKey", () => {
+  it("extracts the TalentBrew job id from a branded path", () => {
+    const pathname = "/job/bengaluru/ip-verification-engineer/33099/99500560928";
+    const expected = "radancy:99500560928";
+
+    expect(getRadancyKey(pathname)).toBe(expected);
+  });
+
+  it("keeps a locale prefix from colliding with the job id", () => {
+    const pathname = "/en/job/atlanta/software-engineer-intern/23251/85180324464";
+    const expected = "radancy:85180324464";
+
+    expect(getRadancyKey(pathname)).toBe(expected);
+  });
+
+  it("returns null when the path is not a Radancy job URL", () => {
+    expect(getRadancyKey("/job/123456/software-engineer")).toBeNull();
   });
 });
 
