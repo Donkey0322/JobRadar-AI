@@ -15,8 +15,17 @@ export interface Schema extends Record<string, unknown> {
   type: string;
 }
 
+export interface GenerateOptions {
+  systemInstruction?: string;
+}
+
 export interface AIProvider {
-  generate(prompt: string, schema: Record<string, unknown>, model: string): Promise<AIResponse>;
+  generate(
+    prompt: string,
+    schema: Record<string, unknown>,
+    model: string,
+    options?: GenerateOptions
+  ): Promise<AIResponse>;
   validateModel(model: string): Promise<void>;
 }
 

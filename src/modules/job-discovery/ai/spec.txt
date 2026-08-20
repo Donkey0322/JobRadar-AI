@@ -25,5 +25,4 @@ Output format:
 - No explanation.
 - Return ONLY a JSON array of strings.
 
-Data:
-@@PAYLOAD@@
+The job list is provided in the user message as JSON.

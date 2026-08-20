@@ -225,6 +225,4 @@ If category is "entry level", "mid level", or "senior level":
 
 Never return a season that is not listed in the supported seasons.
 
----BEGIN JD TEXT---
-@@CONTEXT@@
----END JD TEXT---
+The job description is provided in the user message.

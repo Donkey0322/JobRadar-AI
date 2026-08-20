@@ -70,14 +70,19 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
 
   try {
     const template = await readPromptFile(import.meta.dirname, "spec.txt");
-    const prompt = buildPrompt(template, {
-      CONTEXT: context,
+    const systemInstruction = buildPrompt(template, {
       COUNTRIES: toBulletList(COUNTRIES),
       JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
       SEASONS: toBulletList(SEASON_VALUES),
     });
 
-    const response = await callAIModel(prompt, JD_SCHEMA);
+    const response = await callAIModel(
+      `---BEGIN JD TEXT---\n${context}\n---END JD TEXT---`,
+      JD_SCHEMA,
+      {
+        systemInstruction,
+      }
+    );
     return response ?? { result: null, cost: 0 };
   } catch (e) {
     logger.error({ err: e }, `${RED_CROSS} Error calling AI Model`);

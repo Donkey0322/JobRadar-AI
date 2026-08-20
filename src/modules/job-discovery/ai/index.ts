@@ -84,12 +84,13 @@ async function classifyBatch(jobs: Job[]): Promise<{ result: Country[]; cost: nu
     const schema = buildLocationSchema(jobs.length);
 
     const template = await readPromptFile(import.meta.dirname, "spec.txt");
-    const prompt = buildPrompt(template, {
+    const systemInstruction = buildPrompt(template, {
       COUNTRIES: toBulletList(COUNTRIES),
-      PAYLOAD: JSON.stringify(payload, null, 2),
     });
 
-    const { result, cost } = await callAIModel(prompt, schema);
+    const { result, cost } = await callAIModel(JSON.stringify(payload), schema, {
+      systemInstruction,
+    });
     const classified = parseLocationResult(result, jobs.length);
 
     return {

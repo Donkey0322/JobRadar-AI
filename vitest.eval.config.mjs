@@ -1,10 +1,12 @@
 import path from "node:path";
-import { defaultExclude, defineConfig } from "vitest/config";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
     environment: "node",
-    exclude: [...defaultExclude, "**/*.eval.test.ts"],
+    include: ["src/**/*.eval.test.ts"],
+    testTimeout: 60_000,
+    fileParallelism: false,
   },
   resolve: {
     alias: {

@@ -1,7 +1,7 @@
 import { CONFIG } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIProvider, AIResponse, Schema } from "./provider/utils";
+import type { AIProvider, AIResponse, GenerateOptions, Schema } from "./provider/utils";
 
 import { AnthropicProvider } from "./provider/anthropic";
 import { GoogleProvider } from "./provider/google";
@@ -34,8 +34,10 @@ export function getProvider(apiKey: string): AIProvider | null {
 export default async function callAIModel(
   prompt: string,
   schema: Schema,
-  model: string = DEFAULT_MODEL
+  options?: GenerateOptions & { model?: string }
 ): Promise<AIResponse> {
+  const model = options?.model ?? DEFAULT_MODEL;
+
   if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
@@ -47,7 +49,7 @@ export default async function callAIModel(
   }
 
   try {
-    return await provider.generate(prompt, schema, model);
+    return await provider.generate(prompt, schema, model, options);
   } catch (error) {
     logger.error({ err: error }, `${RED_CROSS} Error calling AI Model: ${model}`);
     return { result: null, cost: 0 };

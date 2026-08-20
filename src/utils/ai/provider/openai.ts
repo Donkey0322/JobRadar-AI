@@ -2,7 +2,7 @@ import OpenAI from "openai";
 
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIProvider, AIResponse, Schema } from "./utils";
+import type { AIProvider, AIResponse, GenerateOptions, Schema } from "./utils";
 
 import { withRetry } from "./utils";
 
@@ -31,12 +31,18 @@ export class OpenAIProvider implements AIProvider {
     await this.client.models.retrieve(model);
   }
 
-  async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
+  async generate(
+    prompt: string,
+    schema: Schema,
+    model: string,
+    options?: GenerateOptions
+  ): Promise<AIResponse> {
     try {
       const response = (await withRetry(() =>
         this.client.responses.create({
           model,
           stream: false,
+          instructions: options?.systemInstruction,
           input: prompt,
           tools: [
             {

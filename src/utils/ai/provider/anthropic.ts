@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk";
 
 import { RED_CROSS } from "@/constants/log";
 
-import type { AIProvider, AIResponse, Schema } from "./utils";
+import type { AIProvider, AIResponse, GenerateOptions, Schema } from "./utils";
 
 import { withRetry } from "./utils";
 
@@ -62,7 +62,12 @@ export class AnthropicProvider implements AIProvider {
     return result;
   }
 
-  async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
+  async generate(
+    prompt: string,
+    schema: Schema,
+    model: string,
+    options?: GenerateOptions
+  ): Promise<AIResponse> {
     try {
       const { schema: normalizedSchema, wrap } = this.normalizeSchema(schema);
 
@@ -71,6 +76,7 @@ export class AnthropicProvider implements AIProvider {
           model,
           temperature: 0,
           max_tokens: 4096,
+          system: options?.systemInstruction,
           tools: [
             {
               name: "extract" as const,
