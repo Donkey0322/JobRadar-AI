@@ -6,6 +6,7 @@ on:
     paths:
       - "config.json"
       - "data/opportunities.ndjson"
+      - "data/archive/opportunities-*.ndjson"
       - "scripts/readme.ts"
   workflow_dispatch: {}
 

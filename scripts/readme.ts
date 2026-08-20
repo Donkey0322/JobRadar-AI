@@ -1,13 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-import { CONFIG, JOB_CATEGORIES, OPPORTUNITIES_PATH } from "@/constants";
+import { CONFIG, JOB_CATEGORIES } from "@/constants";
 import { getSeasonYears } from "@/constants/season";
 
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
-import { readNdjsonFile } from "@/utils/data";
+import { loadOpportunities } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 import { getJobKey } from "@/utils/job-key";
 
@@ -46,7 +46,7 @@ const EXPIRED_APPLY_BUTTON_SRC =
 let reopenedJobKeys = new Set<string>();
 
 async function main() {
-  const opportunities = await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
+  const opportunities = await loadOpportunities();
   reopenedJobKeys = detectReopenedKeys(opportunities);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));

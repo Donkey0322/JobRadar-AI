@@ -2,11 +2,14 @@ import { promises as fs } from "fs";
 import path from "path";
 
 import {
+  ARCHIVE_PATH,
   COMPANY_PATH,
   ERROR_LOG_PATH,
   JD_PATH,
+  JOB_ARCHIVE_CHUNK,
   JOB_PATH,
   OPPORTUNITIES_PATH,
+  OPPORTUNITY_ARCHIVE_CHUNK,
   URLS_PATH,
 } from "@/constants";
 import { RED_CROSS } from "@/constants/log";
@@ -14,6 +17,12 @@ import { RED_CROSS } from "@/constants/log";
 import type { Company, Job, Opportunity } from "@/types";
 
 import { logger } from "@/utils/logger";
+import {
+  appendNdjsonPartitions,
+  loadNdjsonPartitions,
+  readNdjsonFile,
+  writeNdjsonPartitions,
+} from "@/utils/ndjson-archive";
 
 /**
  * Read and parse a JSON file. File-system and parse errors are propagated.
@@ -23,27 +32,7 @@ export async function readJsonFile<T>(filePath: string): Promise<T> {
   return JSON.parse(content) as T;
 }
 
-/**
- * Read and parse an NDJSON file. Blank lines are ignored; file-system and
- * parse errors are propagated.
- */
-export async function readNdjsonFile<T>(filePath: string): Promise<T[]> {
-  const content = await fs.readFile(filePath, "utf-8");
-
-  return content
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .map((line, index) => {
-      try {
-        return JSON.parse(line) as T;
-      } catch (error) {
-        throw new Error(`Invalid NDJSON at line ${index + 1}: ${line}`, {
-          cause: error,
-        });
-      }
-    });
-}
+export { readNdjsonFile };
 
 export async function loadUrls(): Promise<Set<string>> {
   try {
@@ -70,7 +59,7 @@ export async function saveUrls(urlsSet: Set<string>) {
 
 export async function loadJobs(): Promise<Job[]> {
   try {
-    return (await readNdjsonFile<Job>(JOB_PATH)).reverse();
+    return (await loadNdjsonPartitions<Job>(JOB_PATH, ARCHIVE_PATH, "jobs")).reverse();
   } catch {
     return [];
   }
@@ -81,7 +70,7 @@ export async function loadJobs(): Promise<Job[]> {
  */
 export async function loadJobsInFileOrder(): Promise<Job[]> {
   try {
-    return await readNdjsonFile<Job>(JOB_PATH);
+    return await loadNdjsonPartitions<Job>(JOB_PATH, ARCHIVE_PATH, "jobs");
   } catch {
     return [];
   }
@@ -89,16 +78,18 @@ export async function loadJobsInFileOrder(): Promise<Job[]> {
 
 /**
  * Append jobs to the end of the job file, or replace the file when overwrite is set.
+ * Older records are rotated into data/archive once the hot file reaches 1000 rows.
  * @param jobs - The jobs to save.
  */
 export async function saveJob(jobs: Job[], overwrite: boolean = false) {
-  if (jobs.length === 0) return;
-  const lines = jobs.map((job) => JSON.stringify(job)).join("\n");
+  if (!overwrite && jobs.length === 0) return;
+
   if (overwrite) {
-    await fs.writeFile(JOB_PATH, `${lines}\n`, "utf-8");
-  } else {
-    await fs.appendFile(JOB_PATH, `${lines}\n`, "utf-8");
+    await writeNdjsonPartitions(JOB_PATH, ARCHIVE_PATH, "jobs", jobs, JOB_ARCHIVE_CHUNK);
+    return;
   }
+
+  await appendNdjsonPartitions(JOB_PATH, ARCHIVE_PATH, "jobs", jobs, JOB_ARCHIVE_CHUNK);
 }
 
 export async function readJD(id: number): Promise<string | null> {
@@ -141,20 +132,37 @@ export async function saveJD(jd: string, job: Job) {
 
 export async function loadOpportunities(): Promise<Opportunity[]> {
   try {
-    return await readNdjsonFile<Opportunity>(OPPORTUNITIES_PATH);
+    return await loadNdjsonPartitions<Opportunity>(
+      OPPORTUNITIES_PATH,
+      ARCHIVE_PATH,
+      "opportunities"
+    );
   } catch {
     return [];
   }
 }
 
 export async function saveOpportunities(opportunities: Job[], overwrite: boolean = false) {
-  if (opportunities.length === 0) return;
-  const lines = opportunities.map((opportunity) => JSON.stringify(opportunity)).join("\n");
+  if (!overwrite && opportunities.length === 0) return;
+
   if (overwrite) {
-    await fs.writeFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
-  } else {
-    await fs.appendFile(OPPORTUNITIES_PATH, `${lines}\n`, "utf-8");
+    await writeNdjsonPartitions(
+      OPPORTUNITIES_PATH,
+      ARCHIVE_PATH,
+      "opportunities",
+      opportunities,
+      OPPORTUNITY_ARCHIVE_CHUNK
+    );
+    return;
   }
+
+  await appendNdjsonPartitions(
+    OPPORTUNITIES_PATH,
+    ARCHIVE_PATH,
+    "opportunities",
+    opportunities,
+    OPPORTUNITY_ARCHIVE_CHUNK
+  );
 }
 
 export async function loadCompanies(): Promise<Company[]> {
