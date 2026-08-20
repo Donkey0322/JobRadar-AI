@@ -299,6 +299,16 @@
     ]
   },
   {
+    "name": "abundant",
+    "ats": "ashby",
+    "identifier": "abundant",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/abundant",
+    "urls": [
+      "https://jobs.ashbyhq.com/abundant/1ebf7fda-c322-404d-acc3-2757bbd79996/application?embed=true"
+    ]
+  },
+  {
     "name": "acadianassetmanagementllc",
     "ats": "greenhouse",
     "identifier": "acadianassetmanagementllc",
@@ -3241,6 +3251,7 @@
       "https://jobs.apple.com/en-us/details/200677458-0836/systems-software-engineer-platform-architecture?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200677473-0836/hardware-system-integration-engineer-airpods?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200677513-3715/software-development-engineer-in-test-retail-engineering?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200677516-3715/java-backend-engineer?team=CORSV",
       "https://jobs.apple.com/en-us/details/200677529-3278/software-engineer-enterprise-technology-services?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200677530-3715/store-apps-engineering-devops-engineer?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200677537-3715/store-apps-engineering-devops-engineer?team=SFTWR",
@@ -3343,8 +3354,7 @@
       "https://jobs.apple.com/en-us/details/200678755-3543/ai-ml-engineer-genai-wireless-technologies-ecosystems?team=SFTWR",
       "https://jobs.apple.com/en-us/details/200678799-0836/systems-quality-robotics-automation-engineer?team=HRDWR",
       "https://jobs.apple.com/en-us/details/200678814-0836/software-development-engineer-location-technologies-sensing-connectivity?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200679038-3337/machine-learning-engineer-on-device-adaptive-control?team=SFTWR",
-      "https://jobs.apple.com/en-us/details/200677516-3715/java-backend-engineer?team=CORSV"
+      "https://jobs.apple.com/en-us/details/200679038-3337/machine-learning-engineer-on-device-adaptive-control?team=SFTWR"
     ]
   },
   {
@@ -8090,11 +8100,11 @@
       "https://careers.cisco.com/global/en/job/2022783?ph_id=2022783",
       "https://careers.cisco.com/global/en/job/2022891?ph_id=2022891",
       "https://careers.cisco.com/global/en/job/2023009?ph_id=2023009",
+      "https://careers.cisco.com/global/en/job/2023188?ph_id=2023188",
       "https://careers.cisco.com/global/en/job/2023196?ph_id=2023196",
       "https://careers.cisco.com/global/en/job/2023197?ph_id=2023197",
       "https://careers.cisco.com/global/en/job/2023231?ph_id=2023231",
-      "https://careers.cisco.com/global/en/job/2023392?ph_id=2023392",
-      "https://careers.cisco.com/global/en/job/2023188?ph_id=2023188"
+      "https://careers.cisco.com/global/en/job/2023392?ph_id=2023392"
     ]
   },
   {
@@ -8284,6 +8294,7 @@
       "https://careers.hpe.com/us/en/job/1197006?ph_id=1197006",
       "https://careers.hpe.com/us/en/job/1198240?ph_id=1198240",
       "https://careers.hpe.com/us/en/job/1198269?ph_id=1198269",
+      "https://careers.hpe.com/us/en/job/1198468?ph_id=1198468",
       "https://careers.hpe.com/us/en/job/1200127?ph_id=1200127",
       "https://careers.hpe.com/us/en/job/1201044?ph_id=1201044",
       "https://careers.hpe.com/us/en/job/1201607?ph_id=1201607",
@@ -8358,8 +8369,7 @@
       "https://careers.hpe.com/us/en/job/1210905?ph_id=1210905",
       "https://careers.hpe.com/us/en/job/1211067?ph_id=1211067",
       "https://careers.hpe.com/us/en/job/1211171?ph_id=1211171",
-      "https://careers.hpe.com/us/en/job/1211172?ph_id=1211172",
-      "https://careers.hpe.com/us/en/job/1198468?ph_id=1198468"
+      "https://careers.hpe.com/us/en/job/1211172?ph_id=1211172"
     ]
   },
   {
@@ -9112,6 +9122,7 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Carrier-Thailand-Limited-185863-74-Interlink-Tower-Debaratna-Road-Bangna-Tai-Bangna-Bangkok-10260-Thailand/Plan---Spec-Engineer---Data-Center-Solutions_30213282",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Ecospace-Campus-3A-4th-Floor-Outer-Ring-Road-Bellandur-Bengaluru--560103/Associate---AI---Data-Engineering_30213204",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Ecospace-Campus-3A-4th-Floor-Outer-Ring-Road-Bellandur-Bengaluru--560103/Cloud-Microservices-Platform-Engineer_30194669",
+      "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC3254-No3239-Shenjiang-Road-Shanghai-Pudong-New-Area-Shanghai-China/Sr-Embedded-software-engineer_30212311",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC3254-No3239-Shenjiang-Road-Shanghai-Pudong-New-Area-Shanghai-China/System-Engineer_30212278-1",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC3254-No3239-Shenjiang-Road-Shanghai-Pudong-New-Area-Shanghai-China/System-Engineer_30212296-1",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC3254-No3239-Shenjiang-Road-Shanghai-Pudong-New-Area-Shanghai-China/System-Engineer_30212298-1",
@@ -9127,8 +9138,7 @@
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Holding-International-GmbH-Uersfeld-24-52072-Aachen-Germany/Systems-Engineer-fr-IoT-Systeme--m-w-d-_30207957-1",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Holding-International-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Function-Developer-Control-Systems--m-w-d-_30214130",
       "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Holding-International-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Systems-Engineer--m-w-d-_30212752",
-      "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Shared-Service-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Duales-Studium-Embedded-Systems-BEng-2027--m-w-d-_30209070",
-      "https://carrier.wd5.myworkdayjobs.com/jobs/job/LOC3254-No3239-Shenjiang-Road-Shanghai-Pudong-New-Area-Shanghai-China/Sr-Embedded-software-engineer_30212311"
+      "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Shared-Service-GmbH-Viessmannstrae-1-35107-Allendorf-Eder-Germany/Duales-Studium-Embedded-Systems-BEng-2027--m-w-d-_30209070"
     ]
   },
   {
@@ -11971,10 +11981,10 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Bridge-Software-Engineer--BrSE-_51586666",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Bridge-Software-Engineer--BrSE-_51586748",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/DevOps-Engineer_51584835",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Front-end-Developer---Hybrid-Mobile--Ionic-Cordova-_51587411",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Full-stack-Engineer--AngularJs---Java-_51582472",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Fullstack-Engineer_51585703",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51585418",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Front-end-Developer---Hybrid-Mobile--Ionic-Cordova-_51587411"
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51585418"
     ]
   },
   {
@@ -14634,8 +14644,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/generalmatter/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008",
-      "https://job-boards.greenhouse.io/generalmatter/jobs/5051145008"
+      "https://job-boards.greenhouse.io/generalmatter/jobs/5051145008",
+      "https://job-boards.greenhouse.io/generalmatter/jobs/5377118008"
     ]
   },
   {
@@ -19057,8 +19067,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/kikoff/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/kikoff/jobs/4376677009",
-      "https://job-boards.greenhouse.io/kikoff/jobs/4251158009"
+      "https://job-boards.greenhouse.io/kikoff/jobs/4251158009",
+      "https://job-boards.greenhouse.io/kikoff/jobs/4376677009"
     ]
   },
   {
@@ -22265,6 +22275,7 @@
     "domain": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site",
     "page": "https://ngc.wd1.myworkdayjobs.com/wday/cxs/ngc/Northrop_Grumman_External_Site/jobs",
     "urls": [
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/Australia-Springfield-Central/Engineer-Avionics-Systems_R10239776",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/Australia-Symonston/Security-Analyst_R10229927",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/Australia-Symonston/Software-Engineer_R10242806",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-Kingdom-New-Malden/Systems-Engineer_R10237086",
@@ -22457,8 +22468,7 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Deputy-Chief-Engineer---Infrastructure-18955_R10238106",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Software-Configuration-Analyst---18000_R10237177",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/Industrial-Security-Analyst_R10233229",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/Australia-Springfield-Central/Engineer-Avionics-Systems_R10239776"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321"
     ]
   },
   {
@@ -28299,8 +28309,8 @@
       "https://jobs.smartrecruiters.com/Socotec/744000141322430",
       "https://jobs.smartrecruiters.com/Socotec/744000141326319",
       "https://jobs.smartrecruiters.com/Socotec/744000142950934",
-      "https://jobs.smartrecruiters.com/Socotec/744000144449329",
-      "https://jobs.smartrecruiters.com/Socotec/744000144449269"
+      "https://jobs.smartrecruiters.com/Socotec/744000144449269",
+      "https://jobs.smartrecruiters.com/Socotec/744000144449329"
     ]
   },
   {
@@ -29707,14 +29717,14 @@
     "urls": [
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Kuala-Lumpur-Malaysia/Observability-Software-Engineer_2026-16344",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Kuala-Lumpur-Malaysia/Software-Developer---Systems-Engineer_2026-16283",
+      "https://swift.wd3.myworkdayjobs.com/join-swift/job/Kuala-Lumpur-Malaysia/Software-Systems-Engineer---Intern_2026-16387",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Kuala-Lumpur-Malaysia/Test-Engineer_2026-15683",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/London-United-Kingdom/Applied-AI-Security-Engineer_2026-16355",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Associate-Software-Developer-C---Java_2026-16010-1",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Jr-Software-Development-Engineer-in-Test--SDET-_2026-16083",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Jr-Software-Development-Engineer-in-Test--SDET-_2026-16183-1",
       "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Oracle-Devops-Engineer_2026-16362",
-      "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Software-Engineer_2026-15645-1",
-      "https://swift.wd3.myworkdayjobs.com/join-swift/job/Kuala-Lumpur-Malaysia/Software-Systems-Engineer---Intern_2026-16387"
+      "https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Software-Engineer_2026-15645-1"
     ]
   },
   {
