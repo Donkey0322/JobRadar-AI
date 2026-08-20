@@ -3,8 +3,10 @@ run-name: 🔍 Community Sync Pipeline
 
 on:
   schedule:
+    # Cover 07:00-23:40 California time across PST and PDT.
+    # The boundary hour outside the local window is skipped below.
     - cron: "*/20 14-23 * * *"
-    - cron: "*/20 0-4 * * *"
+    - cron: "*/20 0-7 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -12,7 +14,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: community-sync
+  group: job-data-sync
   cancel-in-progress: false
 
 jobs:
@@ -21,8 +23,27 @@ jobs:
     timeout-minutes: 30
 
     steps:
+      - name: Check California sync window
+        id: calendar
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          hour="$(TZ=America/Los_Angeles date +%H)"
+          if (( 10#$hour >= 7 && 10#$hour <= 23 )); then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Skipping community sync outside 07:00-23:40 California time."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       # ✅ Checkout repository
       - name: Checkout repository
+        if: steps.calendar.outputs.should_run == 'true'
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
@@ -30,12 +51,14 @@ jobs:
 
       # ✅ Setup pnpm
       - name: Setup pnpm
+        if: steps.calendar.outputs.should_run == 'true'
         uses: pnpm/action-setup@v6
         with:
           version: 11.7.0
 
       # ✅ Setup Node.js
       - name: Setup Node.js
+        if: steps.calendar.outputs.should_run == 'true'
         uses: actions/setup-node@v6
         with:
           node-version: 22
@@ -43,10 +66,12 @@ jobs:
 
       # ✅ Install dependencies
       - name: Install dependencies
+        if: steps.calendar.outputs.should_run == 'true'
         run: pnpm install --frozen-lockfile
 
       # ✅ Check configuration
       - name: Check configuration
+        if: steps.calendar.outputs.should_run == 'true'
         run: pnpm jobctl setup check-config
 
         env:
@@ -58,6 +83,7 @@ jobs:
 
       # ✅ Run community sync pipeline
       - name: Run community sync pipeline
+        if: steps.calendar.outputs.should_run == 'true'
         id: sync
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
@@ -77,7 +103,7 @@ jobs:
 
       # ✅ Cancel workflow if no changes
       - name: Cancel workflow if no changes
-        if: steps.sync.outputs.has_changes != 'true'
+        if: steps.calendar.outputs.should_run == 'true' && steps.sync.outputs.has_changes != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -85,7 +111,7 @@ jobs:
 
       # ✅ Commit and push updated data
       - name: Commit and push updated data
-        if: steps.sync.outputs.has_changes == 'true'
+        if: steps.calendar.outputs.should_run == 'true' && steps.sync.outputs.has_changes == 'true'
         env:
           PAT: ${{ secrets.PAT }}
         run: |

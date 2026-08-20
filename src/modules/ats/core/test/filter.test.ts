@@ -1,6 +1,17 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
-import { isTechEntryLevel, isTechIntern, isTechMidLevel, isTechSeniorLevel } from "../filter";
+import {
+  isTechEntryLevel,
+  isTechIntern,
+  isTechMidLevel,
+  isTechSeniorLevel,
+  withinDays,
+} from "../filter";
+
+afterEach(() => {
+  vi.unstubAllEnvs();
+  vi.useRealTimers();
+});
 
 describe("isTechIntern", () => {
   it("detects tech interns", () => {
@@ -115,5 +126,20 @@ describe("isTechSeniorLevel", () => {
 
   it("rejects interns", () => {
     expect(isTechSeniorLevel("Software Engineer Intern")).toBe(false);
+  });
+});
+
+describe("withinDays", () => {
+  it("expands source lookbacks during a discovery catch-up", () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-08-17T07:17:00.000Z"));
+
+    const saturdayPosting = "2026-08-15T07:00:00.000Z";
+
+    vi.stubEnv("DISCOVERY_LOOKBACK_DAYS", "1");
+    expect(withinDays(saturdayPosting, 2)).toBe(false);
+
+    vi.stubEnv("DISCOVERY_LOOKBACK_DAYS", "3");
+    expect(withinDays(saturdayPosting, 2)).toBe(true);
   });
 });

@@ -259,6 +259,12 @@ export function isTarget(title: string) {
   return status;
 }
 
+function getDiscoveryLookbackDays() {
+  const days = Number(process.env.DISCOVERY_LOOKBACK_DAYS ?? 1);
+
+  return Number.isInteger(days) && days >= 1 && days <= 7 ? days : 1;
+}
+
 export function withinDays(date: string | number | undefined | null, days = 1) {
   if (date === "" || date === null || date === undefined) return false;
 
@@ -277,8 +283,9 @@ export function withinDays(date: string | number | undefined | null, days = 1) {
 
   if (Number.isNaN(parsedDate.getTime())) return false;
 
+  const lookbackDays = Math.max(days, getDiscoveryLookbackDays());
   const daysAgo = new Date();
-  daysAgo.setDate(daysAgo.getDate() - days);
+  daysAgo.setDate(daysAgo.getDate() - lookbackDays);
 
   return parsedDate >= daysAgo;
 }

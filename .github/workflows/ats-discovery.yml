@@ -3,7 +3,12 @@ run-name: 🔍 ATS Discovery Pipeline
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    # Cover every California weekday hour across PST and PDT.
+    # Minute 10 sits midway between community sync runs at :00, :20, and :40.
+    # One DST boundary run lands on a California weekend and is skipped below.
+    - cron: "10 7-23 * * 1"
+    - cron: "10 8-23 * * 2-5"
+    - cron: "10 0-7 * * 2-6"
   workflow_dispatch: {}
 
 permissions:
@@ -11,7 +16,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: ats-discovery
+  group: job-data-sync
   cancel-in-progress: false
 
 jobs:
@@ -20,27 +25,59 @@ jobs:
     timeout-minutes: 30
 
     steps:
+      - name: Check California weekday
+        id: calendar
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "lookback_days=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          weekday="$(TZ=America/Los_Angeles date +%u)"
+          hour="$(TZ=America/Los_Angeles date +%H)"
+          if (( weekday >= 1 && weekday <= 5 )); then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+
+            if [[ "$weekday" == "1" && "$hour" == "00" ]]; then
+              echo "Using a 3-day lookback for the Monday weekend catch-up."
+              echo "lookback_days=3" >> "$GITHUB_OUTPUT"
+            else
+              echo "lookback_days=1" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "Skipping ATS discovery on the California weekend."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Checkout repository
+        if: steps.calendar.outputs.should_run == 'true'
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
 
       - name: Setup pnpm
+        if: steps.calendar.outputs.should_run == 'true'
         uses: pnpm/action-setup@v6
         with:
           version: 11.7.0
 
       - name: Setup Node.js
+        if: steps.calendar.outputs.should_run == 'true'
         uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: pnpm
 
       - name: Install dependencies
+        if: steps.calendar.outputs.should_run == 'true'
         run: pnpm install --frozen-lockfile
 
       - name: Check configuration
+        if: steps.calendar.outputs.should_run == 'true'
         run: pnpm jobctl setup check-config
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
@@ -48,12 +85,14 @@ jobs:
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
       - name: Run ATS discovery pipeline
+        if: steps.calendar.outputs.should_run == 'true'
         id: sync
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
+          DISCOVERY_LOOKBACK_DAYS: ${{ steps.calendar.outputs.lookback_days }}
         run: |
           pnpm jobctl scan
 
@@ -65,13 +104,13 @@ jobs:
           fi
 
       - name: Cancel workflow if no changes
-        if: steps.sync.outputs.has_changes != 'true'
+        if: steps.calendar.outputs.should_run == 'true' && steps.sync.outputs.has_changes != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh run cancel ${{ github.run_id }}
 
       - name: Commit and push updated data
-        if: steps.sync.outputs.has_changes == 'true'
+        if: steps.calendar.outputs.should_run == 'true' && steps.sync.outputs.has_changes == 'true'
         env:
           PAT: ${{ secrets.PAT }}
         run: |
