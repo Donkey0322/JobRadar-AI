@@ -141,7 +141,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning MLOps Intern - Global Site Reliability Engineering</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7670875283026053381"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -183,7 +183,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Data Engineer Intern (Data Platform Global Live) 2027 Summer</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7674032146438162693"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -225,7 +225,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">NVIDIA 2027 Internships: Software Engineering</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -305,7 +305,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern 🎓</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675847556668295429"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -333,7 +333,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672934842451577141"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -638,7 +638,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer, Amazon Brand Store</td>
       <td width="180" align="left" valign="top">New York, NY</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10508230"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -659,7 +659,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="./assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer (Java Middleware), eBusiness</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678154-3956/software-engineer-java-middleware-ebusiness?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -673,7 +673,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">System Software Engineer, Engineering Workflow Platform<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -701,7 +701,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Openai</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="OpenAI" src="./assets/featured-badges/openai.svg" /></td>
       <td width="420" align="left" valign="top">Data Scientist, Real Estate &amp; Workplace </td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/3ac187b2-dd75-4acd-b285-51ae6e603dbd"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -837,7 +837,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">System Software Engineer, Distributed Systems<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Distributed-Systems_JR2013472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-20T17:38:15.011Z</code>
+      🕒 Last updated <code>2026-08-20T18:15:10.061Z</code>
     </span>
   </p>
 </div>

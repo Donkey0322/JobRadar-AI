@@ -57,7 +57,7 @@ jobs:
         env:
           PAT: ${{ secrets.PAT }}
         run: |
-          if [[ -z "$(git status --porcelain -- README.md job-postings)" ]]; then
+          if [[ -z "$(git status --porcelain -- README.md job-postings assets/featured-badges)" ]]; then
             echo "No job board changes to commit."
             exit 0
           fi
@@ -65,7 +65,7 @@ jobs:
           git config user.name "actions-bot"
           git config user.email "actions@github.com"
 
-          git add README.md job-postings
+          git add README.md job-postings assets/featured-badges
           git commit -m "docs: update generated job boards"
 
           git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"

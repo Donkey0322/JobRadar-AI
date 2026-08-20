@@ -63,7 +63,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer, Amazon Brand Store</td>
       <td width="180" align="left" valign="top">New York, NY</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10508230"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -84,7 +84,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer (Java Middleware), eBusiness</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678154-3956/software-engineer-java-middleware-ebusiness?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -98,7 +98,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">System Software Engineer, Engineering Workflow Platform<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -126,7 +126,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Openai</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="OpenAI" src="../assets/featured-badges/openai.svg" /></td>
       <td width="420" align="left" valign="top">Data Scientist, Real Estate &amp; Workplace </td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/3ac187b2-dd75-4acd-b285-51ae6e603dbd"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -350,7 +350,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Network Infrastructure Engineer I, Amazon Dedicated Cloud (NIDD)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Broomfield, CO</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10507887"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -385,7 +385,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Electrical Engineer, Platform Realization, Hardware</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/117807186834268870-electrical-engineer-platform-realization-hardware?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -399,14 +399,14 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Network Infrastructure Engineer I, Amazon Dedicated Cloud (NIDD)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Broomfield, CO</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10507888"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer, Agentic AI Systems, Cloud Security</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/138036920247558854-software-engineer-agentic-ai-systems-cloud-security?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -420,7 +420,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer, Embedded Systems/Firmware, Pixel Display</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/123533417621922502-software-engineer-embedded-systemsfirmware-pixel-display?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -434,14 +434,14 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist, Optical Engineering Neutral Atoms, Quantum AI</td>
       <td width="180" align="left" valign="top">Boulder, CO</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/80664283888657094-research-scientist-optical-engineering-neutral-atoms-quantum-ai?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer, Sponsored Products and Brands</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10507716"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -462,7 +462,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">iOS Software Engineer - Creative Apps</td>
       <td width="180" align="left" valign="top">Cary, NC</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678192-1435/ios-software-engineer-creative-apps?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -518,7 +518,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer (Cloud Security), AI &amp; Data Platforms (AiDP)</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678224-3956/software-engineer-cloud-security-ai-data-platforms-aidp?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -574,7 +574,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Openai</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="OpenAI" src="../assets/featured-badges/openai.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer, Trainium </td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/2bf44c13-a463-4ec7-b152-b8367075246c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -623,7 +623,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">AI/ML Engineer (GenAI), Wireless Technologies &amp; Ecosystems</td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678755-3543/ai-ml-engineer-genai-wireless-technologies-ecosystems?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -637,7 +637,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">Field Applications Engineer, Embedded Systems - NALA</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Field-Applications-Engineer--Embedded-Systems---NALA_JR2014493"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -658,7 +658,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SpaceX</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer (Application Software)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hawthorne, CA</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8731256002?gh_jid=8731256002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -693,7 +693,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Product Data Scientist, Employee Experience &amp; Productivity, IS&amp;T</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677976-3956/product-data-scientist-employee-experience-productivity-is-t?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T17:38:15.011Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:15:10.061Z</code></sub>

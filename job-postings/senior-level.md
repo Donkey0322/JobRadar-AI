@@ -105,7 +105,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">System Software Engineer, Distributed Systems<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Distributed-Systems_JR2013472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -231,7 +231,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Meta</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
       <td width="420" align="left" valign="top">Security Engineer - Security Risk Management</td>
       <td width="180" align="left" valign="top">Menlo Park, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1549391699984519"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -280,7 +280,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Packaging Design Engineer, Platforms Infrastructure Engineering</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/115155164788073158-packaging-design-engineer-platforms-infrastructure-engineering?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -364,7 +364,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">UX Engineer, Google Home</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/85892186800825030-ux-engineer-google-home?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -385,7 +385,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Google</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Google" src="../assets/featured-badges/google.svg" /></td>
       <td width="420" align="left" valign="top">Photonic Engineer, Machine Learning</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/132866347196392134-photonic-engineer-machine-learning?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -399,7 +399,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">ML and Agentic Systems Engineer</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ML-and-Agentic-Systems-Engineer_JR2023952"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -413,7 +413,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Sr iOS Software Engineer - Creative Apps</td>
       <td width="180" align="left" valign="top">Cary, NC</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678194-3543/sr-ios-software-engineer-creative-apps?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T17:38:15.011Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:15:10.061Z</code></sub>

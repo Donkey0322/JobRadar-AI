@@ -42,7 +42,7 @@
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning MLOps Intern - Global Site Reliability Engineering</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7670875283026053381"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -84,7 +84,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Data Engineer Intern (Data Platform Global Live) 2027 Summer</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7674032146438162693"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -126,7 +126,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Nvidia</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
       <td width="420" align="left" valign="top">NVIDIA 2027 Internships: Software Engineering</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
       <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -210,7 +210,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - TikTok Search Data Infra</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7675128776856029445"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -308,7 +308,7 @@
       <td width="100" align="left" valign="top">August 17</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">ByteDance</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - Global Payment</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.bytedance.com/en/position/7668650945276168453/detail"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -518,7 +518,7 @@
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">ByteDance</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer Intern - Global Payment Infra and SRE</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.bytedance.com/en/position/7668315137242351925/detail"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -581,7 +581,7 @@
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Tiktok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Research Engineer Intern (Agentic Systems &amp; AI Infrastructure - TikTok-Generalized Arch) - 2027 Start (PhD)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7667935568626043141"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -623,7 +623,7 @@
       <td width="100" align="left" valign="top">August 14</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Tiktok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Mobile Software Engineer Intern - Global E-Commerce</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7673663349758675205"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -644,7 +644,7 @@
       <td width="100" align="left" valign="top">August 13</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Tiktok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Design Engineering Intern (Design System &amp; AI Workflow - TikTok-Design) - 2027 Summer</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7667857406611343621"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T17:38:15.011Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:15:10.061Z</code></sub>

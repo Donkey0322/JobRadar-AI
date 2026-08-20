@@ -280,14 +280,14 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SpaceX</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
       <td width="420" align="left" valign="top">Automation Build Engineer, Development (Starlink) <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Bastrop, TX</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8696881002?gh_jid=8696881002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">TikTok</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Graduate (E-Commerce Recommendation Foundation)- 2027 Start (PhD)</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
       <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7672877778696407301"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -336,7 +336,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apply.careers.microsoft.com</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer - CTJ - Poly<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Reston, VA</td>
       <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556860973?domain=microsoft.com&amp;8fold_id=1970393556860973"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -364,7 +364,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Controls Integration Engineer, One MHS | Systems Integration and Flow</td>
       <td width="180" align="left" valign="top">Atlanta, GA</td>
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10507357"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -385,7 +385,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SpaceX</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
       <td width="420" align="left" valign="top">New Graduate Engineer, Software (Application Software)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hawthorne, CA</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8730567002?gh_jid=8730567002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -399,7 +399,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apply.careers.microsoft.com</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
       <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Remote, USA</td>
       <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556928331?domain=microsoft.com&amp;8fold_id=1970393556928331"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -427,7 +427,7 @@
       <td width="100" align="left" valign="top">August 19</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Apple</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Cloud Media Engineer</td>
       <td width="180" align="left" valign="top">Cupertino, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678579-0836/cloud-media-engineer?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -588,7 +588,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SpaceX</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
       <td width="420" align="left" valign="top">New Graduate Engineer, Software (Starship)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Starbase, TX</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8729121002?gh_jid=8729121002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -602,7 +602,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Adobe</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="Adobe" src="../assets/featured-badges/adobe.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer</td>
       <td width="180" align="left" valign="top">Lehi, UT</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -700,7 +700,7 @@
       <td width="100" align="left" valign="top">August 18</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SpaceX</td>
+      <td width="180" align="left" valign="top"><img height="20" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
       <td width="420" align="left" valign="top">Automation &amp; Controls Engineer, Infrastructure &amp; Utility (Starship)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Starbase, TX</td>
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8727906002?gh_jid=8727906002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -719,4 +719,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T17:38:15.011Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-20T18:15:10.061Z</code></sub>

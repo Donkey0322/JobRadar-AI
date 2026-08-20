@@ -21,6 +21,7 @@ const ROOT = process.cwd();
 
 const README_PATH = path.join(ROOT, "README.md");
 const JOB_POSTINGS_DIR = path.join(ROOT, "job-postings");
+const FEATURED_BADGES_DIR = path.join(ROOT, "assets", "featured-badges");
 
 const REPO_OWNER = "Donkey0322";
 const REPO_NAME = "JobRadar-AI";
@@ -41,6 +42,37 @@ const APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white";
 const EXPIRED_APPLY_BUTTON_SRC =
   "https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white";
+
+type FeaturedCompany = {
+  slug: string;
+  label: string;
+  aliases: string[];
+};
+
+/** High-signal companies rendered as holographic name badges in generated boards. */
+const FEATURED_COMPANIES: FeaturedCompany[] = [
+  { slug: "google", label: "Google", aliases: ["google", "alphabet"] },
+  { slug: "amazon", label: "Amazon", aliases: ["amazon"] },
+  { slug: "apple", label: "Apple", aliases: ["apple"] },
+  { slug: "meta", label: "Meta", aliases: ["meta", "facebook"] },
+  { slug: "netflix", label: "Netflix", aliases: ["netflix"] },
+  { slug: "tiktok", label: "TikTok", aliases: ["tiktok", "bytedance"] },
+  { slug: "microsoft", label: "Microsoft", aliases: ["microsoft"] },
+  { slug: "amd", label: "AMD", aliases: ["amd"] },
+  { slug: "nvidia", label: "NVIDIA", aliases: ["nvidia"] },
+  { slug: "openai", label: "OpenAI", aliases: ["openai"] },
+  { slug: "spacex", label: "SpaceX", aliases: ["spacex"] },
+  { slug: "stripe", label: "Stripe", aliases: ["stripe"] },
+  { slug: "salesforce", label: "Salesforce", aliases: ["salesforce"] },
+  { slug: "adobe", label: "Adobe", aliases: ["adobe"] },
+  { slug: "snowflake", label: "Snowflake", aliases: ["snowflake"] },
+];
+
+const FEATURED_COMPANY_BY_ALIAS = new Map(
+  FEATURED_COMPANIES.flatMap((company) =>
+    company.aliases.map((alias) => [alias, company] as const)
+  )
+);
 
 /** Job keys inferred as in-place reopen (fresher postedAt than rows appended after them). */
 let reopenedJobKeys = new Set<string>();
@@ -89,6 +121,7 @@ async function main() {
     generatedAt,
   });
 
+  await writeFeaturedCompanyBadges();
   await writeCategoryPages(allGrouped, generatedAt);
   await fs.writeFile(README_PATH, markdown, "utf-8");
 
@@ -320,10 +353,14 @@ function buildOutsideTargetCategoryToggle(grouped: Map<string, Opportunity[]>): 
 }
 
 function buildOpportunityTable(jobs: Opportunity[]): string[] {
-  return buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_README_SECTION);
+  return buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_README_SECTION, ".");
 }
 
-function buildLimitedOpportunityTable(jobs: Opportunity[], limit: number): string[] {
+function buildLimitedOpportunityTable(
+  jobs: Opportunity[],
+  limit: number,
+  assetBasePath: string
+): string[] {
   const visibleJobs = jobs.slice(0, limit);
 
   const rows: TableRow[] = [];
@@ -331,11 +368,12 @@ function buildLimitedOpportunityTable(jobs: Opportunity[], limit: number): strin
 
   for (const job of visibleJobs) {
     const company = normalizeCompany(job.company);
-    const companyCell = company === previousCompany ? "↳" : company;
+    const companyCell =
+      company === previousCompany ? "↳" : formatCompanyCell(company, assetBasePath);
     previousCompany = company;
 
     rows.push([
-      escapeHtml(companyCell),
+      companyCell,
       formatRoleCell(job),
       escapeHtml(formatLocation(job)),
       formatApplyButton(job),
@@ -393,7 +431,7 @@ function buildCategoryPage(category: string, jobs: Opportunity[], generatedAt: D
     ``,
     `[← Back to the main job board](../README.md)`,
     ``,
-    ...buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_CATEGORY_PAGE),
+    ...buildLimitedOpportunityTable(jobs, MAX_JOBS_PER_CATEGORY_PAGE, ".."),
     ``,
     `---`,
     ``,
@@ -718,6 +756,69 @@ function normalizeCountry(value?: string | null): string {
 
 function normalizeCompany(value: string): string {
   return value.trim().replace(/\s+/g, " ");
+}
+
+function formatCompanyCell(company: string, assetBasePath: string): string {
+  const featured = matchFeaturedCompany(company);
+
+  if (!featured) return escapeHtml(company);
+
+  return `<img height="20" alt="${escapeHtmlAttr(
+    featured.label
+  )}" src="${assetBasePath}/assets/featured-badges/${featured.slug}.svg" />`;
+}
+
+function matchFeaturedCompany(company: string): FeaturedCompany | null {
+  const key = company.trim().toLowerCase().replace(/[^a-z0-9]+/g, "");
+
+  if (!key) return null;
+
+  const exact = FEATURED_COMPANY_BY_ALIAS.get(key);
+  if (exact) return exact;
+
+  return (
+    FEATURED_COMPANIES.find((featured) =>
+      featured.aliases.some((alias) => alias.length >= 6 && key.includes(alias))
+    ) ?? null
+  );
+}
+
+async function writeFeaturedCompanyBadges(): Promise<void> {
+  await fs.mkdir(FEATURED_BADGES_DIR, { recursive: true });
+
+  await Promise.all(
+    FEATURED_COMPANIES.map((company) =>
+      fs.writeFile(
+        path.join(FEATURED_BADGES_DIR, `${company.slug}.svg`),
+        buildHolographicBadgeSvg(company.label),
+        "utf-8"
+      )
+    )
+  );
+}
+
+function buildHolographicBadgeSvg(label: string): string {
+  const width = Math.max(56, Math.ceil(label.length * 8 + 20));
+  const escaped = escapeHtml(label);
+
+  return `<!-- generated by scripts/readme.ts -->
+<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="20" role="img" aria-label="${escaped}">
+  <title>${escaped}</title>
+  <defs>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="16%" stop-color="#c084fc"/>
+      <stop offset="33%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="66%" stop-color="#34d399"/>
+      <stop offset="83%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="${width}" height="20" rx="4" fill="url(#holo)"/>
+  <text x="${width / 2}" y="14.5" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" font-weight="700" fill="#ffffff" stroke="#0f172a" stroke-width="2.5" stroke-opacity="0.28" paint-order="stroke">${escaped}</text>
+</svg>
+`;
 }
 
 function escapeHtmlAttr(value: string): string {
