@@ -43,7 +43,7 @@ describe("complex ATS adapters", () => {
     expect(Object.keys(phenomFetcher)).toEqual(["ats"]);
   });
 
-  it("keeps Workday pagination behavior without applying a within-days filter", async () => {
+  it("keeps Workday pagination for jobs posted today", async () => {
     const company: Company = {
       name: "acme",
       ats: "workday",
@@ -54,20 +54,26 @@ describe("complex ATS adapters", () => {
     };
     const jobPostings = Array.from({ length: 20 }, (_, index) => ({
       title: `Software Engineer ${index}`,
-      postedOn: "Posted 30+ Days Ago",
+      postedOn: "Posted Today",
       locationsText: "Remote",
       externalPath: `/job/${index}`,
     }));
 
-    mockFetch.mockResolvedValueOnce(jsonResponse({ jobPostings }, company.page));
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings }, company.page))
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: [] }, company.page));
 
     const jobs = await workdayFetcher.fetch(company, new Set(), AbortSignal.timeout(1000));
 
     expect(jobs).toHaveLength(20);
-    expect(mockFetch).toHaveBeenCalledTimes(1);
+    expect(mockFetch).toHaveBeenCalledTimes(2);
     expect(JSON.parse(String(mockFetch.mock.calls[0][1]?.body))).toMatchObject({
       limit: 20,
       offset: 0,
+    });
+    expect(JSON.parse(String(mockFetch.mock.calls[1][1]?.body))).toMatchObject({
+      limit: 20,
+      offset: 20,
     });
   });
 

@@ -2,51 +2,102 @@ import type { Job } from "@/types";
 
 import { cleanLink, getToday, HREF_RE } from "@/utils/string";
 
-export default function parseMarkdown(md: string): Job[] {
-  const ROW_START = /^\s*\|/; // regex to match the start of a row: "|"
+function normalizeText(s: string): string {
+  const normalized = s.replace(/\*\*/g, "").normalize("NFKC").trim();
+  return normalized.replace(/^[🔥⭐→↳·•\-–—\s]+/u, "").trim();
+}
+
+function parseCells(line: string): string[] {
+  return line
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((part) => part.trim());
+}
+
+function isSeparator(cells: string[]): boolean {
+  return cells.length > 0 && cells.every((cell) => /^:?-{2,}:?$/.test(cell));
+}
+
+function getColumnIndexes(headers: string[]) {
+  // Summer:     Company | Role | Location | Application/Link | Date Posted
+  // Off-season: Company | Role | Location | Terms | Application/Link | Date Posted
+  const normalized = headers.map((header) => header.toLowerCase());
+  const indexOf = (...names: string[]) =>
+    normalized.findIndex((header) => names.some((name) => header.includes(name)));
+
+  return {
+    company: indexOf("company"),
+    role: indexOf("role"),
+    location: indexOf("location"),
+    application: indexOf("application", "link"),
+    date: indexOf("date", "age"),
+  };
+}
+
+function isHeader(cells: string[]): boolean {
+  const columns = getColumnIndexes(cells);
+  return (
+    columns.company >= 0 &&
+    columns.role >= 0 &&
+    columns.location >= 0 &&
+    columns.application >= 0 &&
+    columns.date >= 0
+  );
+}
+
+export default function parseMarkdown(md: string, today = getToday()): Job[] {
   const jobs: Job[] = [];
-
   let lastCompany: string | null = null;
-  const today = getToday();
+  let columns: ReturnType<typeof getColumnIndexes> | null = null;
+
   for (const rawLine of md.split("\n")) {
-    // remove trailing whitespace in the right side of the line
     const line = rawLine.replace(/\s+$/, "");
+    if (!/^\s*\|/.test(line)) continue;
 
-    if (!ROW_START.test(line)) continue;
+    const cells = parseCells(line);
+    if (cells.length < 5) continue;
 
-    // after filtering, we get the line like this:
-    // | Company | Role | Location | Application/Link | Date Posted |
-    const jobData = line
-      .trim()
-      .replace(/^\|/, "")
-      .replace(/\|$/, "") // remove the start and end |
-      .split("|")
-      .map((p) => p.trim());
-    if (jobData.length < 5) continue;
+    if (isSeparator(cells)) continue;
 
-    const [company, role, location, linkTag, date] = jobData;
+    if (isHeader(cells)) {
+      columns = getColumnIndexes(cells);
+      lastCompany = null;
+      continue;
+    }
 
-    // only get the jobs posted today
-    if (date !== today) continue;
+    if (!columns) continue;
 
-    /* ======= deal with the link ======== */
-    const link = linkTag.match(HREF_RE)?.[1];
+    const required = Math.max(
+      columns.company,
+      columns.role,
+      columns.location,
+      columns.application,
+      columns.date
+    );
+    if (cells.length <= required) continue;
+
+    if (cells[columns.date] !== today) continue;
+
+    const link = cells[columns.application].match(HREF_RE)?.[1];
     if (!link) continue;
     const cleanedLink = cleanLink(link);
 
-    /* ======= deal with the company ======== */
-    let current = company;
-    if (company.includes("↳")) {
+    const company = cells[columns.company];
+    let current: string;
+    if (company === "↳") {
       current = lastCompany ?? "Unknown";
     } else {
+      current = normalizeText(company);
       lastCompany = current;
     }
 
     jobs.push({
       company: current,
-      role,
+      role: cells[columns.role],
+      location: cells[columns.location],
       link: cleanedLink,
-      location,
     });
   }
 

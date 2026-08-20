@@ -26,7 +26,7 @@ async function fetchSource(source: Source): Promise<Job[]> {
     case "markdown":
       return parseMarkdown(text);
     case "html":
-      return parseHtml(text, source);
+      return parseHtml(text);
     default:
       source.format satisfies never;
       throw new Error(`Unsupported format: ${source.format}`);

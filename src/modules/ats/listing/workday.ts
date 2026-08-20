@@ -236,7 +236,6 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
           (!rawJobs[rawJobs.length - 1]?.postedOn ||
             rawJobs[rawJobs.length - 1]?.postedOn === "Posted Today");
       }
-      console.log(results);
 
       // infinite pagination protection
       if (page >= MAX_PAGES) {

@@ -1,67 +1,73 @@
 import * as cheerio from "cheerio";
 
-import { SEASONS } from "@/constants";
-
-import type { Job, Source } from "@/types";
+import type { Job } from "@/types";
 
 import { cleanLink } from "@/utils/string";
-import { JobCategory } from "@/validation/config";
 
 function normalizeText(s: string): string {
-  // remove the whitespace, common decoration emoji and extra whitespace
   const normalized = s.normalize("NFKC").trim();
-
-  // remove the prefix symbols (🔥、↳ etc.)
   return normalized.replace(/^[🔥⭐→↳·•\-–—\s]+/u, "").trim();
 }
 
-function findSoftwareTable($: cheerio.CheerioAPI) {
-  // find the h2/h3 contains "Software Engineering Internship Roles"
-  const headings = $("h2, h3");
+function getColumnIndexes($: cheerio.CheerioAPI, table: ReturnType<typeof $>) {
+  // Summer:     Company | Role | Location | Application | Age
+  // Off-season: Company | Role | Location | Terms | Application | Age
+  const headers = table
+    .find("thead th")
+    .map((_, th) => $(th).text().trim().toLowerCase())
+    .get();
 
-  for (let i = 0; i < headings.length; i++) {
-    const el = headings.eq(i);
-    const text = el.text().toLowerCase();
+  const indexOf = (...names: string[]) =>
+    headers.findIndex((header) => names.some((name) => header.includes(name)));
 
-    if (text.includes("software engineering internship roles")) {
-      const table = el.nextAll("table").first();
-      if (table.length) return table;
-    }
-  }
-
-  // fallback: the first table
-  return $("table").first();
+  return {
+    company: indexOf("company"),
+    role: indexOf("role"),
+    location: indexOf("location"),
+    application: indexOf("application", "link"),
+    age: indexOf("age"),
+  };
 }
 
-export default function parseHtml(html: string, source: Source): Job[] {
+function parseTable($: cheerio.CheerioAPI, table: ReturnType<typeof $>): Job[] {
   const items: Job[] = [];
-
-  const $ = cheerio.load(html);
-  const table = findSoftwareTable($);
-  if (!table || table.length === 0) return items;
-
   const tbody = table.find("tbody");
-  if (!tbody || tbody.length === 0) return items;
+  if (!tbody.length) return items;
+
+  const columns = getColumnIndexes($, table);
+  if (
+    columns.company < 0 ||
+    columns.role < 0 ||
+    columns.location < 0 ||
+    columns.application < 0 ||
+    columns.age < 0
+  ) {
+    return items;
+  }
 
   let lastCompany: string | null = null;
 
   tbody.find("tr").each((_, tr) => {
     const tds = $(tr).find("td");
-    if (tds.length < 5) return;
-
-    // after filtering, we get the line like this:
-    // | Company | Role | Location | Season | Application/Link | Age |
-    const cols = tds.map((_, td) => $(td).text().trim()).get();
-
-    // summer intern and new grad did not have season column
-    if (cols.length === 5) {
-      const season = source.type === JobCategory.ENTRY_LEVEL ? "Entry Level" : SEASONS.summer;
-      cols.splice(3, 0, season);
-      tds.splice(3, 0, `<td>${season}</td>`);
+    if (
+      tds.length <=
+      Math.max(columns.company, columns.role, columns.location, columns.application, columns.age)
+    ) {
+      return;
     }
-    const [company, role, location, , , age] = cols;
 
-    /* ======= deal with the company ======== */
+    const company = tds.eq(columns.company).text().trim();
+    const role = tds.eq(columns.role).text().trim();
+    const location = tds.eq(columns.location).text().trim();
+    const age = tds.eq(columns.age).text().trim().toLowerCase();
+
+    if (age !== "0d") return;
+
+    const appCell = tds.eq(columns.application);
+    const aTag = appCell.find("a[href]").first();
+    if (!aTag.length) return;
+    const cleanedLink = cleanLink(aTag.attr("href")!.trim());
+
     let current: string;
     if (company === "↳") {
       current = lastCompany ?? "Unknown";
@@ -70,30 +76,25 @@ export default function parseHtml(html: string, source: Source): Job[] {
       lastCompany = current;
     }
 
-    // /* ======= deal with the season ======== */
-    // const normalizedSeason = normalizeSeason(season);
-    // const seasonParsed = SeasonSchema.safeParse(normalizedSeason);
-    // if (!seasonParsed.success) {
-    //   return;
-    // }
-
-    /* ======= deal with the link ======== */
-    const appCell = tds.eq(4);
-    const aTag = appCell.find("a[href]").first();
-    if (!aTag.length) return;
-    const cleanedLink = cleanLink(aTag.attr("href")!.trim());
-
-    /* ======= deal with the age ======== */
-    const ageText = age.toLowerCase();
-    if (ageText !== "0d") return;
-
     items.push({
       company: current,
       role,
-      link: cleanedLink,
       location,
+      link: cleanedLink,
     });
   });
 
   return items;
+}
+
+export default function parseHtml(html: string): Job[] {
+  const $ = cheerio.load(html);
+  const jobs: Job[] = [];
+
+  $("table").each((_, table) => {
+    const opportunities = parseTable($, $(table));
+    jobs.push(...opportunities);
+  });
+
+  return jobs;
 }
