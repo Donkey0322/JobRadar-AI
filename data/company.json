@@ -1795,14 +1795,14 @@
       "https://amazon.jobs/en/jobs/10509717",
       "https://amazon.jobs/en/jobs/10509775",
       "https://amazon.jobs/en/jobs/10509781",
+      "https://amazon.jobs/en/jobs/10509821",
+      "https://amazon.jobs/en/jobs/10509822",
+      "https://amazon.jobs/en/jobs/10509840",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10509840",
-      "https://amazon.jobs/en/jobs/10509822",
-      "https://amazon.jobs/en/jobs/10509821"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -1815,7 +1815,14 @@
       "https://careers.amd.com/careers-home/jobs/87541?lang=en-us",
       "https://careers.amd.com/careers-home/jobs/87543?lang=en-us",
       "https://careers.amd.com/careers-home/jobs/87544?lang=en-us",
-      "https://careers.amd.com/careers-home/jobs?lang=en-us/87669"
+      "https://careers.amd.com/careers-home/jobs?lang=en-us/87669",
+      "https://careers.amd.com/jobs/91176?icims=1",
+      "https://careers.amd.com/jobs/90947?icims=1",
+      "https://careers.amd.com/jobs/90891?icims=1",
+      "https://careers.amd.com/jobs/90895?icims=1",
+      "https://careers.amd.com/jobs/91183?icims=1",
+      "https://careers.amd.com/jobs/91175?icims=1",
+      "https://careers.amd.com/jobs/91179?icims=1"
     ]
   },
   {
@@ -3397,6 +3404,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556953173?domain=microsoft.com&8fold_id=1970393556953173",
       "https://apply.careers.microsoft.com/careers/job/1970393556953590?domain=microsoft.com&8fold_id=1970393556953590",
       "https://apply.careers.microsoft.com/careers/job/1970393556953781?domain=microsoft.com&8fold_id=1970393556953781",
+      "https://apply.careers.microsoft.com/careers/job/1970393556955529?domain=microsoft.com&8fold_id=1970393556955529",
       "https://apply.careers.microsoft.com/careers/job/1970393556955755?domain=microsoft.com&8fold_id=1970393556955755",
       "https://apply.careers.microsoft.com/careers/job/1970393556956154?domain=microsoft.com&8fold_id=1970393556956154",
       "https://apply.careers.microsoft.com/careers/job/1970393556956398?domain=microsoft.com&8fold_id=1970393556956398",
@@ -3430,8 +3438,7 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556971798?domain=microsoft.com&8fold_id=1970393556971798",
       "https://apply.careers.microsoft.com/careers/job/1970393556971829?domain=microsoft.com&8fold_id=1970393556971829",
       "https://apply.careers.microsoft.com/careers/job/1970393556972166?domain=microsoft.com&8fold_id=1970393556972166",
-      "https://apply.careers.microsoft.com/careers/job/1970393556978214?domain=microsoft.com&8fold_id=1970393556978214",
-      "https://apply.careers.microsoft.com/careers/job/1970393556955529?domain=microsoft.com&8fold_id=1970393556955529"
+      "https://apply.careers.microsoft.com/careers/job/1970393556978214?domain=microsoft.com&8fold_id=1970393556978214"
     ]
   },
   {
@@ -11850,6 +11857,7 @@
     "page": "https://eaton.eightfold.ai/api/pcsx/search?domain=eaton.com",
     "urls": [
       "https://eaton.eightfold.ai/careers/job/687236754298?domain=eaton.com&8fold_id=687236754298",
+      "https://eaton.eightfold.ai/careers/job/687237233116?domain=eaton.com&8fold_id=687237233116",
       "https://eaton.eightfold.ai/careers/job/687237589376?8fold_id=687237589376",
       "https://eaton.eightfold.ai/careers/job/687237594059?domain=eaton.com&8fold_id=687237594059",
       "https://eaton.eightfold.ai/careers/job/687237627997?8fold_id=687237627997",
@@ -11883,8 +11891,7 @@
       "https://eaton.eightfold.ai/careers/job/687238534770?domain=eaton.com&8fold_id=687238534770",
       "https://eaton.eightfold.ai/careers/job/687238562311?domain=eaton.com&8fold_id=687238562311",
       "https://eaton.eightfold.ai/careers/job/687238586488?domain=eaton.com&8fold_id=687238586488",
-      "https://eaton.eightfold.ai/careers/job/687238613548?domain=eaton.com&8fold_id=687238613548",
-      "https://eaton.eightfold.ai/careers/job/687237233116?domain=eaton.com&8fold_id=687237233116"
+      "https://eaton.eightfold.ai/careers/job/687238613548?domain=eaton.com&8fold_id=687238613548"
     ]
   },
   {
@@ -16845,10 +16852,10 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/incidentiq/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/incidentiq/jobs/7824038003",
+      "https://job-boards.greenhouse.io/incidentiq/jobs/7498237003",
       "https://job-boards.greenhouse.io/incidentiq/jobs/7789294003",
       "https://job-boards.greenhouse.io/incidentiq/jobs/7813118003",
-      "https://job-boards.greenhouse.io/incidentiq/jobs/7498237003"
+      "https://job-boards.greenhouse.io/incidentiq/jobs/7824038003"
     ]
   },
   {
@@ -17535,6 +17542,7 @@
     "page": "https://jda.wd5.myworkdayjobs.com/wday/cxs/jda/jda_careers/jobs",
     "urls": [
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/BYDS-Dallas/Information-Security-Analyst--Vulnerability-Management-_262455",
+      "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Bangalore/Sr-Business-Analytics-Analyst---Data-Analyst_261777",
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Bangalore/Sr-Software-Engineer---C-----Python--Shell-scripting---Azure-Cloud_262324",
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Hamburg/Software-Engineer-I_262360",
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Hyderabad/DevOps-Engineer_262499",
@@ -17543,8 +17551,7 @@
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/IND---Coimbatore-708/Support-Engineer-1---WMS-Warehouse-management-System_262169-1",
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Monterrey/Sr-Consulting-Software-Engineer_262335",
       "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Palo-Alto/DevOps--Security-Engineer---US-Citizen-_261579",
-      "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Paris/AI-Engineer---Reinforcement-Learning_260513",
-      "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Bangalore/Sr-Business-Analytics-Analyst---Data-Analyst_261777"
+      "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Paris/AI-Engineer---Reinforcement-Learning_260513"
     ]
   },
   {
@@ -19900,6 +19907,7 @@
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Boston-Massachusetts/AI-Engineer---Hyrbid_JR26080140",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/CAN-Quebec-Montreal-900-Boulevard-de-Maisonneuve-Ouest/Back-end-Software-Engineer_JR26050821",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Dist7-Ho-Chi-Minh/AI-Engineer_JR26080600",
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Hong-Kong/Full-stack-Software-Engineer_JR26071268-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Lapu-Lapu-City/Full-Stack-Software-Engineer_JR26071276",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Lapu-Lapu-City/Full-Stack-Software-Engineer_JR26071537",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Lapu-Lapu-City/Test-Automation-Engineer_JR26071464",
@@ -19921,8 +19929,7 @@
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Backend-Software-Engineer_JR26040693",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Cloud-DevOps-Engineer--Manulife-Bank-Technology_JR26061657-1",
       "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Site-Reliability-Engineer---Cloud---Platform-Engineering--Manulife-Bank-Technology_JR26080164-1",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Software-Engineer--Java--Cloud---Microservices-_JR26032159-1",
-      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Hong-Kong/Full-stack-Software-Engineer_JR26071268-1"
+      "https://manulife.wd3.myworkdayjobs.com/mfcjh_jobs/job/Waterloo-Ontario/Software-Engineer--Java--Cloud---Microservices-_JR26032159-1"
     ]
   },
   {
