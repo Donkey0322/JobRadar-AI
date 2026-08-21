@@ -14,6 +14,55 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Amat</td>
+      <td width="420" align="left" valign="top">FIB TEM Systems Engineer</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Electrical-Engineer_R2626829"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Bostonscientific</td>
+      <td width="420" align="left" valign="top">AI Solutions Delivery Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Arden Hills, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://bostonscientific.eightfold.ai/careers/job/563602813407938?domain=bostonscientific.com&amp;8fold_id=563602813407938"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Citi</td>
+      <td width="420" align="left" valign="top">Agentic AI Engineer (AVP)</td>
+      <td width="180" align="left" valign="top">Tampa, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Agentic-AI-Engineer--AVP-_26984351"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Disney</td>
+      <td width="420" align="left" valign="top">Data Engineer</td>
+      <td width="180" align="left" valign="top">Lake Buena Vista, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.disneycareers.com/job/lake-buena-vista/data-engineer/391/96936930048"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Neuralink</td>
+      <td width="420" align="left" valign="top">Quality Systems Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/neuralink/jobs/7386953003?gh_jid=7386953003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Peraton</td>
+      <td width="420" align="left" valign="top">Cloud Software Engineer – AI/ML Project Top Secret/SCI w/Poly<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Laurel, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/169922/cloud-software-engineer-%e2%80%93-ai-ml-project-top-secret-sci-w-poly/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Abbott</td>
+      <td width="420" align="left" valign="top">Software Cybersecurity Engineer</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---California---San-Diego/Software-Cyber-Security-Engineer_31159447-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Tmobile</td>
       <td width="420" align="left" valign="top">Software Engineer- Billing Platform<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Overland Park, KS</td>
@@ -664,59 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8737393002?gh_jid=8737393002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ntst</td>
-      <td width="420" align="left" valign="top">RPA(Automations)  Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Overland Park, KS</td>
-      <td width="120" align="left" valign="top"><a href="https://ntst.wd1.myworkdayjobs.com/careers/job/Overland-Park-KS/RPA-Automations---Software-Engineer_R015582"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">Systems Integration &amp; Test Engineer I – Test Engineer and Scripting - Space Vehicles<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Broomfield, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/128764BR?ph_id=128764BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Greenlawn, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/128932BR?ph_id=128932BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kiongroup</td>
-      <td width="420" align="left" valign="top">Software Support Engineer</td>
-      <td width="180" align="left" valign="top">Grand Rapids, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://kiongroup.wd3.myworkdayjobs.com/KION_SCS/job/Grand-Rapids-MI-United-States/Software-Support-Engineer_JR-0091456"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nationwide</td>
-      <td width="420" align="left" valign="top">Consultant, Data Engineer | Databricks<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Columbus, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-Three-Nationwide-Plaza/Consultant--Data-Engineer---Databricks_099719"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Systems Engineer - Air to Ground<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Linthicum, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Systems-Engineer---Air-to-Ground_R10246472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="SpaceX" src="../assets/featured-badges/spacex.svg" /></td>
-      <td width="420" align="left" valign="top">Structural Engineer, Launch Infrastructure (Starship)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cape Canaveral, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8737416002?gh_jid=8737416002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 6,258 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 6,265 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:13:43.602Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:41:12.719Z</code></sub>

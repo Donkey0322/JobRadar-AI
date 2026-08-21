@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Avnet</td>
+      <td width="420" align="left" valign="top">Business Systems Analyst I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tempe, AZ</td>
+      <td width="120" align="left" valign="top"><a href="https://avnet.wd1.myworkdayjobs.com/external/job/Tempe-Arizona-United-States-Of-America/Business-Systems-Analyst-I_JR-023983"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Stewart</td>
       <td width="420" align="left" valign="top">Copilot Systems Engineer I</td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://modmed.wd501.myworkdayjobs.com/modmed12/job/Boca-Raton-FL/Software-Engineer-1_R4917"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Associate Computer Systems Analyst - Linux - Pathways Program - Melbourne FL<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Associate-Computer-Systems-Analyst---Linux---Pathways-Program---Melbourne-FL_R10246706"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 1,974 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 1,975 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:13:43.602Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:41:12.719Z</code></sub>

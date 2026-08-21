@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Zebra</td>
+      <td width="420" align="left" valign="top">Data Platform Engineer (Oracle EBS Application DBA)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Lincolnshire, IL</td>
+      <td width="120" align="left" valign="top"><a href="https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Data-Platform-Engineer--Oracle-EBS-Application-DBA-_110820-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Icf</td>
+      <td width="420" align="left" valign="top">Full Stack Engineer (Node/React) - Remote USA<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/Full-Stack-Engineer--Node-React----Remote-USA_R2602147"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Campbellsoup</td>
+      <td width="420" align="left" valign="top">Platform Engineer - Security</td>
+      <td width="180" align="left" valign="top">Camden, NJ</td>
+      <td width="120" align="left" valign="top"><a href="https://campbellsoup.wd5.myworkdayjobs.com/externalcareers_globalsite/job/USA---NJ---Camden/Platform-Engineer---Security_Req-67269"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Mckesson</td>
+      <td width="420" align="left" valign="top">HR AI Process Engineer</td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://mckesson.wd3.myworkdayjobs.com/external_careers/job/USA-TX-Irving/HR-AI-Process-Engineer_JR0152534"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="OpenAI" src="../assets/featured-badges/openai.svg" /></td>
       <td width="420" align="left" valign="top">Data Center Physical Security Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -685,38 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/southlake/software-development-engineer-in-test-sdet-data-quality-and-automation-engineering/33727/99405215856"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Front End .NET Engineer Southlake, TX; Austin, TX Requisition ID: 2026-120097 Application deadline: 2026-08-21 Save for Later</td>
-      <td width="180" align="left" valign="top">Southlake, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/southlake/front-end-net-engineer/33727/93014111312"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Java Software Engineer Southlake, TX; Austin, TX Requisition ID: 2026-123912 Application deadline: 2026-08-24 Save for Later</td>
-      <td width="180" align="left" valign="top">Southlake, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/southlake/java-software-engineer/33727/97762271888"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Full Stack Java Engineer - Workplace Services Engineering Southlake, TX Requisition ID: 2026-121421 Application deadline: 2026-08-25 Save for Later</td>
-      <td width="180" align="left" valign="top">Southlake, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/southlake/sr-full-stack-java-engineer-workplace-services-engineering/33727/94451277232"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thetorocompany</td>
-      <td width="420" align="left" valign="top">Exmark Electrical Systems Engineer - Exmark Engineering - Electrical Beatrice, NE<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Beatrice, NE</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.thetorocompany.com/job/beatrice/electrical-systems-engineer-exmark/40062/96358546624"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,930 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,932 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:13:43.602Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T21:41:12.719Z</code></sub>
