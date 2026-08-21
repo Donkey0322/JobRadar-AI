@@ -1851,13 +1851,13 @@
       "https://amazon.jobs/en/jobs/10510680",
       "https://amazon.jobs/en/jobs/10510684",
       "https://amazon.jobs/en/jobs/10510816",
+      "https://amazon.jobs/en/jobs/10510854",
+      "https://amazon.jobs/en/jobs/10510858",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10510854",
-      "https://amazon.jobs/en/jobs/10510858"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -4218,6 +4218,16 @@
       "https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-USA/Software-Engineer_JR102614",
       "https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-USA/Software-QA-Engineer--Supervisory-Control-Platform_JR102622",
       "https://autostore.wd3.myworkdayjobs.com/autostore/job/Oslo-Norway/Security-Risk-and-Compliance-Analyst_JR102567"
+    ]
+  },
+  {
+    "name": "availity",
+    "ats": "workday",
+    "identifier": "availity-availity_careers_us",
+    "domain": "https://availity.wd1.myworkdayjobs.com/availity_careers_us",
+    "page": "https://availity.wd1.myworkdayjobs.com/wday/cxs/availity/availity_careers_us/jobs",
+    "urls": [
+      "https://availity.wd1.myworkdayjobs.com/availity_careers_us/job/Remote---United-States/Software-Engineering-Intern_R0008436"
     ]
   },
   {
@@ -18107,6 +18117,7 @@
       "https://jobs.baesystems.com/global/en/job/127910BR?ph_id=127910BR",
       "https://jobs.baesystems.com/global/en/job/127920BR?ph_id=127920BR",
       "https://jobs.baesystems.com/global/en/job/127952BR?ph_id=127952BR",
+      "https://jobs.baesystems.com/global/en/job/128010BR?ph_id=128010BR",
       "https://jobs.baesystems.com/global/en/job/128054BR?ph_id=128054BR",
       "https://jobs.baesystems.com/global/en/job/128055BR?ph_id=128055BR",
       "https://jobs.baesystems.com/global/en/job/128098BR?ph_id=128098BR",
@@ -18140,8 +18151,7 @@
       "https://jobs.baesystems.com/global/en/job/128887BR?ph_id=128887BR",
       "https://jobs.baesystems.com/global/en/job/128901BR?ph_id=128901BR",
       "https://jobs.baesystems.com/global/en/job/128932BR?ph_id=128932BR",
-      "https://jobs.baesystems.com/global/en/job/129035BR?ph_id=129035BR",
-      "https://jobs.baesystems.com/global/en/job/128010BR?ph_id=128010BR"
+      "https://jobs.baesystems.com/global/en/job/129035BR?ph_id=129035BR"
     ]
   },
   {
@@ -22420,9 +22430,11 @@
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Woodland-Hills/Systems-Engineer---Integration---Test---SkillBridge_R10241465",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-4--AHT-_R10244515",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-4--AHT-_R10244951",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Staff-DevOps-Engineer_R10234962",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Systems-Engineer---Level-5_R10243429-1",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/DevOps-Engineer---Level-5_R10245629",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Modeling---Simulation-Systems-Engineer---Level-4--AHT-_R10246671",
+      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-4---Space-AHT_R10247162",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-4_R10239773",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-5_R10242454",
       "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer--26-360-_R10242804",
@@ -22536,9 +22548,7 @@
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Deputy-Chief-Engineer---Infrastructure-18955_R10238106",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/Sentinel-Software-Configuration-Analyst---18000_R10237177",
       "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Chantilly/Industrial-Security-Analyst_R10233229",
-      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Staff-DevOps-Engineer_R10234962",
-      "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/Software-Engineer---Level-4---Space-AHT_R10247162"
+      "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/Engineer-Systems_R10239321"
     ]
   },
   {
@@ -26020,8 +26030,8 @@
       "https://jobs.ashbyhq.com/rivianvw.tech/89feb2fe-c28c-4dad-846f-09594632ba55",
       "https://jobs.ashbyhq.com/rivianvw.tech/8c659332-b5b2-4968-aa5d-d1352c36a2ae",
       "https://jobs.ashbyhq.com/rivianvw.tech/988d2bf1-caf8-4a16-892d-bb726dc832ec",
-      "https://jobs.ashbyhq.com/rivianvw.tech/c33a0b0e-4266-4a1d-9ca7-ce454a7e158d",
-      "https://jobs.ashbyhq.com/rivianvw.tech/bede70c1-9c88-4772-aa0d-fccfc7b3994b"
+      "https://jobs.ashbyhq.com/rivianvw.tech/bede70c1-9c88-4772-aa0d-fccfc7b3994b",
+      "https://jobs.ashbyhq.com/rivianvw.tech/c33a0b0e-4266-4a1d-9ca7-ce454a7e158d"
     ]
   },
   {
@@ -27272,8 +27282,8 @@
       "https://job-boards.greenhouse.io/scopely/jobs/5301857008?gh_jid=5301857008",
       "https://job-boards.greenhouse.io/scopely/jobs/5360705008?gh_jid=5360705008",
       "https://job-boards.greenhouse.io/scopely/jobs/5397611008?gh_jid=5397611008",
-      "https://job-boards.greenhouse.io/scopely/jobs/5397639008?gh_jid=5397639008",
-      "https://job-boards.greenhouse.io/scopely/jobs/5397634008?gh_jid=5397634008"
+      "https://job-boards.greenhouse.io/scopely/jobs/5397634008?gh_jid=5397634008",
+      "https://job-boards.greenhouse.io/scopely/jobs/5397639008?gh_jid=5397639008"
     ]
   },
   {
@@ -27717,6 +27727,7 @@
       "https://jobs.ashbyhq.com/Sierra/5ae78769-a3a1-491c-8b4b-95472f1fb36c",
       "https://jobs.ashbyhq.com/Sierra/611a6f2c-b6f8-4dfd-9ae8-4b0b986ac258",
       "https://jobs.ashbyhq.com/Sierra/61bb1eca-b416-4e6d-a0ac-5f418b35a8f3",
+      "https://jobs.ashbyhq.com/Sierra/742020b7-5a2a-495d-8ac9-d74d31dc91c6",
       "https://jobs.ashbyhq.com/Sierra/78c5dce4-3670-4c9b-a666-98f435c56324",
       "https://jobs.ashbyhq.com/Sierra/802d17c5-fe47-4b44-90e5-65e5e731ff88",
       "https://jobs.ashbyhq.com/Sierra/8cca0a0d-7359-410b-81ed-331a0bb4667f",
@@ -27728,8 +27739,7 @@
       "https://jobs.ashbyhq.com/Sierra/ae8840cd-f46e-4c96-87b1-53fedf40f94d",
       "https://jobs.ashbyhq.com/Sierra/b37a6f9e-53c7-4c47-beb5-1ab4451f3001",
       "https://jobs.ashbyhq.com/Sierra/e2d3e1f5-03cb-4e18-9f3d-a32f0bb6ff91",
-      "https://jobs.ashbyhq.com/Sierra/f51d6c09-d767-4e86-bc62-216b2051e318",
-      "https://jobs.ashbyhq.com/Sierra/742020b7-5a2a-495d-8ac9-d74d31dc91c6"
+      "https://jobs.ashbyhq.com/Sierra/f51d6c09-d767-4e86-bc62-216b2051e318"
     ]
   },
   {
@@ -28129,6 +28139,7 @@
       "https://jobs.ashbyhq.com/snowflake/08ba6a41-fb63-4b51-aee7-be5501668909",
       "https://jobs.ashbyhq.com/snowflake/1bad12df-f443-426f-9d09-e96fc780d698",
       "https://jobs.ashbyhq.com/snowflake/227b8c06-b6de-4f3a-ae37-7e0c015e5b7a",
+      "https://jobs.ashbyhq.com/snowflake/267d8514-2580-4ade-b5d1-0ea41d11cf62",
       "https://jobs.ashbyhq.com/snowflake/29356289-aa62-4cbb-b0ef-e779ccc7173a",
       "https://jobs.ashbyhq.com/snowflake/2b3e7582-84c9-4fd1-969c-16ae1a4f61e6",
       "https://jobs.ashbyhq.com/snowflake/41e65c6c-a01e-4f40-af14-ae75d3b95e27",
@@ -28143,8 +28154,7 @@
       "https://jobs.ashbyhq.com/snowflake/d23bc607-27d8-48a9-8c12-a455b3c6a820",
       "https://jobs.ashbyhq.com/snowflake/db1375f0-ea5d-404a-b640-259f94dbc995",
       "https://jobs.ashbyhq.com/snowflake/dd0b29a3-6bc8-4d6c-8fa6-79da445c70bd",
-      "https://jobs.ashbyhq.com/snowflake/fc1923c1-b151-4458-a792-40d58331a5be",
-      "https://jobs.ashbyhq.com/snowflake/267d8514-2580-4ade-b5d1-0ea41d11cf62"
+      "https://jobs.ashbyhq.com/snowflake/fc1923c1-b151-4458-a792-40d58331a5be"
     ]
   },
   {
@@ -29368,6 +29378,7 @@
       "https://stripe.com/jobs/search?gh_jid=8044924",
       "https://stripe.com/jobs/search?gh_jid=8055050",
       "https://stripe.com/jobs/search?gh_jid=8062305",
+      "https://stripe.com/jobs/search?gh_jid=8062708",
       "https://stripe.com/jobs/search?gh_jid=8069941",
       "https://stripe.com/jobs/search?gh_jid=8070572",
       "https://stripe.com/jobs/search?gh_jid=8073092",
@@ -29392,8 +29403,7 @@
       "https://stripe.com/jobs/search?gh_jid=8137972",
       "https://stripe.com/jobs/search?gh_jid=8137997",
       "https://stripe.com/jobs/search?gh_jid=8142302",
-      "https://stripe.com/jobs/search?gh_jid=8142764",
-      "https://stripe.com/jobs/search?gh_jid=8062708"
+      "https://stripe.com/jobs/search?gh_jid=8142764"
     ]
   },
   {
@@ -33136,6 +33146,16 @@
     "urls": []
   },
   {
+    "name": "weave",
+    "ats": "ashby",
+    "identifier": "weave",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/weave",
+    "urls": [
+      "https://jobs.ashbyhq.com/weave/1318e017-3ea6-4a1f-aac7-1c11a46cda8d/application?embed=true"
+    ]
+  },
+  {
     "name": "webfx",
     "ats": "lever",
     "identifier": "webfx",
@@ -33327,12 +33347,12 @@
     "domain": "https://wfscorp.wd5.myworkdayjobs.com/wfscareers",
     "page": "https://wfscorp.wd5.myworkdayjobs.com/wday/cxs/wfscorp/wfscareers/jobs",
     "urls": [
+      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22896",
+      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22898",
+      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22899",
       "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Systems-Engineer-I_R22857",
       "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Systems-Engineer-I_R22858",
-      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Systems-Engineer-I_R22859",
-      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22899",
-      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22896",
-      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Software-Engineer-I_R22898"
+      "https://wfscorp.wd5.myworkdayjobs.com/wfscareers/job/SAN-JOSE-COSTA-RICA/IT-Systems-Engineer-I_R22859"
     ]
   },
   {
