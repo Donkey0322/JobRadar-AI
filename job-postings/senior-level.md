@@ -15,6 +15,13 @@
   <tbody>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Customer Engineer IV, Platform, FinServ, Google Cloud</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/113919107560022726-customer-engineer-iv-platform-finserv-google-cloud?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Embedded Systems Engineer, High Speed DSP</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/88073437481706182-embedded-systems-engineer-high-speed-dsp?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443151519267?domain=caci.com&amp;8fold_id=1443151519267"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Zebra</td>
-      <td width="420" align="left" valign="top">SW Engineer / AI Enterprise Systems Analyst</td>
-      <td width="180" align="left" valign="top">Lincolnshire, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Sw-SW-Engineer---AI-Enterprise-Systems-Analyst_JR102865"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 4,856 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 4,857 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T07:57:53.316Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-21T08:59:17.059Z</code></sub>

@@ -92,8 +92,8 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 345 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 352 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,934 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 6,135 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 4,856 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 6,136 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 4,857 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,934 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (10,991)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (10,993)</b></summary>
 
   <br />
 
-  <h3>Mid Level (6,135)</h3>
+  <h3>Mid Level (6,136)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Hitachi</td>
+      <td width="420" align="left" valign="top">Customer System Security Engineer</td>
+      <td width="180" align="left" valign="top">Raleigh, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Raleigh-North-Carolina-United-States/Customer-System-Security-Engineer_R0139489"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Incident IQ</td>
       <td width="420" align="left" valign="top">AI DevEx Engineer</td>
@@ -721,18 +728,11 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8731959002?gh_jid=8731959002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer - Simulation &amp; Flight Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Hawthorne, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8735368002?gh_jid=8735368002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 6,135 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 6,136 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (4,856)</h3>
+  <h3>Senior Level (4,857)</h3>
 
 <table width="100%">
   <thead>
@@ -747,6 +747,13 @@ Each category page shows up to 100 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Google" src="./assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Customer Engineer IV, Platform, FinServ, Google Cloud</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/113919107560022726-customer-engineer-iv-platform-finserv-google-cloud?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Embedded Systems Engineer, High Speed DSP</td>
       <td width="180" align="left" valign="top">Sunnyvale, CA</td>
       <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/88073437481706182-embedded-systems-engineer-high-speed-dsp?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -878,16 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/99491637072"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Data Analyst Disney Entertainment and ESPN Product &amp; Technology New York, New York / Santa Monica, California / San Francisco, California Aug. 19, 2026</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/new-york/sr-data-analyst/391/99463935072"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,856 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,857 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-21T07:57:53.316Z</code>
+      🕒 Last updated <code>2026-08-21T08:59:17.059Z</code>
     </span>
   </p>
 </div>
