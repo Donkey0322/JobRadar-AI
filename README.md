@@ -746,6 +746,13 @@ Each category page shows up to 100 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Spgi</td>
+      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/New-York-NY/Engineer-III--Software-Development_316138-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Incident IQ</td>
       <td width="420" align="left" valign="top">Site Reliability Engineer</td>
       <td width="180" align="left" valign="top">Alpharetta, GA</td>
@@ -878,13 +885,6 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/santa-monica/sr-data-engineer/391/94781454624"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Mgr Product Software Engineering Disney Entertainment and ESPN Product &amp; Technology Glendale, California / Bristol, Connecticut Aug. 17, 2026</td>
-      <td width="180" align="left" valign="top">Glendale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/glendale/sr-mgr-product-software-engineering/391/99352768464"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
 <p><sub>Showing 20 of 4,855 opportunities in this section.</sub></p>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-21T06:47:35.634Z</code>
+      🕒 Last updated <code>2026-08-21T07:08:37.314Z</code>
     </span>
   </p>
 </div>
