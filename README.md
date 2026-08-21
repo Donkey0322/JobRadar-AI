@@ -92,8 +92,8 @@ Each category page shows up to 100 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 344 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 346 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 1,934 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 6,126 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 4,851 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 6,133 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 4,854 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,11 +571,11 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 1,934 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (10,977)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (10,987)</b></summary>
 
   <br />
 
-  <h3>Mid Level (6,126)</h3>
+  <h3>Mid Level (6,133)</h3>
 
 <table width="100%">
   <thead>
@@ -588,6 +588,62 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Geaerospace</td>
+      <td width="420" align="left" valign="top">Data Analyst- Insurance Claims<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Operations-Data-Analyst--Insurance_R5035881-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Radar Modeling Simulation Analysis Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Baltimore, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Radar-Modeling-Simulation-Analysis-Systems-Engineer_R10246973"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Varda Space Industries</td>
+      <td width="420" align="left" valign="top">Spaceship Avionics Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7922764003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Spaceship Electrical Engineer, HITL &amp; Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7922766003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Spaceship Systems Engineer, Electrical<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/vardaspace/jobs/7922767003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Applied</td>
+      <td width="420" align="left" valign="top">Software Engineer (Drone Stack)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Walton Beach, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/applied/b7a499d8-d2a3-4458-baf6-4b43c2165558"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer (Drone Stack)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Arlington, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/applied/f1808a1f-6952-4d34-a1bb-bf35aec29936"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cnoinc</td>
+      <td width="420" align="left" valign="top">IT Security Engineer - REMOTE from any EST or CST US-based location</td>
+      <td width="180" align="left" valign="top">Remote (EST or CST US-based)</td>
+      <td width="120" align="left" valign="top"><a href="https://cnoinc.wd5.myworkdayjobs.com/careers/job/Carmel-IN/IT-Security-Engineer---REMOTE-from-any-EST-or-CST-US-based-location_JR170450"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Thales</td>
       <td width="420" align="left" valign="top">Biometrics and AI Research Scientist<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -672,67 +728,11 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.thetorocompany.com/job/tomah/automation-mechatronics-engineer-the-toro-company/40062/85002838016"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tower Research Capital</td>
-      <td width="420" align="left" valign="top">Machine Learning Performance Engineer (Inference)</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.tower-research.com/open-positions/?gh_jid=8095924"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Dexcom</td>
-      <td width="420" align="left" valign="top">Business Systems Analyst<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://dexcom.wd1.myworkdayjobs.com/dexcom/job/Remote-Arizona/Business-Systems-Analyst_JR118126-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Disney</td>
-      <td width="420" align="left" valign="top">Security Engineer - Software Engineer The Walt Disney Company (Corporate) Seattle, Washington / Burbank, California / Orlando, Florida Aug. 18, 2026</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/seattle/security-engineer-software-engineer/391/94227392704"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Specialist, Systems Engineer Engineering Waco, TX<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Waco, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/waco/specialist-systems-engineer/4832/99504281152"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Associate, Software Engineering Engineering|New, Grads Rochester, NY<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Rochester, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/rochester/associate-software-engineering/4832/99494034976"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="OpenAI" src="./assets/featured-badges/openai.svg" /></td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer, Multimodal Perception and Authentication</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/1b268692-70d8-46c2-a347-2f7705b5c174"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Polaris</td>
-      <td width="420" align="left" valign="top">Data Scientist<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Plymouth, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://polaris.wd5.myworkdayjobs.com/polarisjobs/job/Plymouth-MN-USA/Data-Scientist_R30967"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Schwab</td>
-      <td width="420" align="left" valign="top">Full Stack Java/Angular Engineer Austin, TX Requisition ID: 2026-121461 Application deadline: 2026-09-03 Save for Later</td>
-      <td width="180" align="left" valign="top">Austin, Texas</td>
-      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/austin/full-stack-java-angular-engineer/33727/94493378896"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 6,126 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 6,133 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (4,851)</h3>
+  <h3>Senior Level (4,854)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,27 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="./assets/featured-badges/apple.svg" /></td>
+      <td width="420" align="left" valign="top">Wireless System Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677637-1697/wireless-system-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Wireless System Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677637-0836/wireless-system-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Wireless System Engineer</td>
+      <td width="180" align="left" valign="top">Cupertino, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200677637-3543/wireless-system-engineer?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 20</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Photon career site</td>
       <td width="420" align="left" valign="top">Full Stack Developer - Advanced | Columbus, US | JPMC</td>
@@ -864,30 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/new-york/sr-software-engineer/391/92822792160"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 20</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Scientist, Systems Engineer Engineering Palm Bay, Brevard, FL<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Palm Bay, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/palm-bay/scientist-systems-engineer/4832/99504281504"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Sr Associate, Mechanical Engineer - Structural Analyst (Space Systems) 1 Engineering Multiple Locations<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Rochester, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/rochester/sr-associate-mechanical-engineer-structural-analyst-space-systems-1/4832/99504281328"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Scientist, System Integration and Test Engineering Engineering Palm Bay, Brevard, FL<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Palm Bay, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/palm-bay/scientist-system-integration-and-test-engineering/4832/99478804240"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 20</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 4,851 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 4,854 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-21T03:18:24.337Z</code>
+      🕒 Last updated <code>2026-08-21T05:00:50.539Z</code>
     </span>
   </p>
 </div>
