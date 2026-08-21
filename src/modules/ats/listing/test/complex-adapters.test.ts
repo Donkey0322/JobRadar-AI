@@ -200,7 +200,7 @@ describe("complex ATS adapters", () => {
     ]);
 
     expect(company).toEqual({
-      name: "careers.arm.com",
+      name: "arm",
       ats: "radancy",
       identifier: "careers.arm.com",
       domain: "https://careers.arm.com",
@@ -237,7 +237,7 @@ describe("complex ATS adapters", () => {
 
     expect(jobs).toEqual([
       {
-        company: "Careers.arm.com",
+        company: "Arm",
         role: "IP Verification Engineer",
         link: jobUrl,
         location: "Bengaluru, India",

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  getRadancyCompanyName,
   getRadancyJobId,
   getRadancyLocalePrefix,
   getRadancyResultsPostUrl,
@@ -32,6 +33,25 @@ describe("Radancy URL classification", () => {
     "https://jobs.example.com/careers",
   ])("rejects %s", (url) => {
     expect(isRadancyUrl(new URL(url))).toBe(false);
+  });
+});
+
+describe("Radancy company names", () => {
+  it.each([
+    ["https://careers.arm.com/job/bengaluru/ip-verification-engineer/33099/1", "arm"],
+    ["https://jobs.citi.com/job/warsaw/wealth-analyst/287/1", "citi"],
+    ["https://www.capitalonecareers.com/job/plano/project-manager/1732/1", "capitalone"],
+    ["https://jobs.disneycareers.com/job/orlando/engineer/391/1", "disney"],
+    ["https://disneycareers.com/job/glendale/engineer/391/1", "disney"],
+    ["https://retailcareers.staples.com/job/framingham/associate/49589/1", "staples"],
+    ["https://careers.staples.com/en/job/-/-/44412/1", "staples"],
+    ["https://kaiserpermanentejobs.org/job/oakland/analyst/1/1", "kaiserpermanente"],
+    ["https://schwabjobs.com/job/austin/engineer/1/1", "schwab"],
+    ["https://santandercareers.com/job/boston/analyst/1/1", "santander"],
+    ["https://jobs.thetorocompany.com/job/bloomington/engineer/1/1", "thetorocompany"],
+    ["https://careers.l3harris.com/job/melbourne/engineer/1/1", "l3harris"],
+  ])("uses %s as %s", (url, name) => {
+    expect(getRadancyCompanyName(new URL(url))).toBe(name);
   });
 });
 

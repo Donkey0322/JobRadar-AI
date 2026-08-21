@@ -7,7 +7,11 @@ import type { Company, Job } from "@/types";
 import { ATSFetcher } from "../core/fetcher";
 import { isTarget } from "../core/filter";
 
-import { getRadancyResultsPostUrl, parseRadancyJobs } from "@/modules/ats/shared/radancy";
+import {
+  getRadancyCompanyName,
+  getRadancyResultsPostUrl,
+  parseRadancyJobs,
+} from "@/modules/ats/shared/radancy";
 import { appendErrorLog } from "@/utils/data";
 import { isAbortError } from "@/utils/http";
 import { logger } from "@/utils/logger";
@@ -82,7 +86,7 @@ export class RadancyFetcher extends ATSFetcher<RadancyJob> {
     const identifier = getHostnameWithoutWww(url);
 
     return {
-      name: identifier,
+      name: getRadancyCompanyName(url),
       ats: this.ats,
       identifier,
       domain: url.origin,

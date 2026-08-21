@@ -5,6 +5,7 @@ import { getCompanyKey } from "./company";
 import { classifyATS, getATSFetcher } from "@/modules/ats/core";
 import { loadJobsInFileOrder, loadOpportunities, saveJob, saveOpportunities } from "@/utils/data";
 import { capitalize } from "@/utils/string";
+import { getHostnameWithoutWww } from "@/utils/url";
 
 export interface RemapStoredCompanyNamesResult {
   jobs: number;
@@ -43,8 +44,12 @@ function remapRecord<T extends { company: string; link: string }>(
     const storedLower = record.company.toLowerCase();
     const isUrlTenant = Boolean(tenant && storedLower === tenant.toLowerCase());
     const isCanonicalSlug = storedLower === company.name.toLowerCase();
+    const isIdentifier = Boolean(
+      company.identifier && storedLower === company.identifier.toLowerCase()
+    );
+    const isHostname = storedLower === getHostnameWithoutWww(url).toLowerCase();
 
-    if (!isUrlTenant && !isCanonicalSlug) {
+    if (!isUrlTenant && !isCanonicalSlug && !isIdentifier && !isHostname) {
       return record;
     }
 

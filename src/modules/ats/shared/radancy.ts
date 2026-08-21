@@ -2,6 +2,7 @@ import * as cheerio from "cheerio";
 
 import { decodeHtmlEntities } from "@/utils/html";
 import { cleanText } from "@/utils/string";
+import { getHostnameWithoutWww } from "@/utils/url";
 
 const LOCALE_PREFIX = "^(?:/([a-z]{2}(?:-[a-z]{2})?))?";
 const RADANCY_JOB_PATH = new RegExp(`${LOCALE_PREFIX}/job/[^/]+/[^/]+/\\d+/\\d+/?$`, "i");
@@ -52,6 +53,38 @@ export function getRadancyJobId(url: URL): string | null {
 export function getRadancyResultsPostUrl(url: URL): string {
   const locale = getRadancyLocalePrefix(url);
   return `${url.origin}${locale}/search-jobs/resultspost`;
+}
+
+const CAREER_HOST_LABELS = new Set([
+  "career",
+  "careers",
+  "corporatecareers",
+  "job",
+  "jobs",
+  "retailcareers",
+  "www",
+]);
+
+const CAREER_LABEL_SUFFIX = /(?:careers|career|jobs|job)$/i;
+const SECOND_LEVEL_TLDS = new Set(["ac", "co", "com", "edu", "gov", "net", "org"]);
+
+export function getRadancyCompanyName(url: URL): string {
+  const host = getHostnameWithoutWww(url);
+  const parts = host.split(".").filter(Boolean);
+
+  if (parts.length === 0) return host;
+
+  parts.pop();
+
+  if (parts.length > 1 && SECOND_LEVEL_TLDS.has(parts[parts.length - 1] ?? "")) {
+    parts.pop();
+  }
+
+  const labels = parts.filter((part) => !CAREER_HOST_LABELS.has(part.toLowerCase()));
+  const candidate = labels.at(-1) ?? parts.at(-1) ?? host;
+  const stripped = candidate.replace(CAREER_LABEL_SUFFIX, "");
+
+  return (stripped || candidate).toLowerCase();
 }
 
 export function parseRadancyJobs(html: string, baseUrl: string): RadancyJob[] {

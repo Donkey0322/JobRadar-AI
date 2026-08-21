@@ -3630,6 +3630,16 @@
     "urls": []
   },
   {
+    "name": "arm",
+    "ats": "radancy",
+    "identifier": "careers.arm.com",
+    "domain": "https://careers.arm.com",
+    "page": "https://careers.arm.com/search-jobs/resultspost",
+    "urls": [
+      "https://careers.arm.com/job/cambridge/analytics-app-developer-12-month-ftc/33099/93494555328"
+    ]
+  },
+  {
     "name": "arrcusinc.applytojob.com",
     "ats": "custom",
     "identifier": "arrcusinc.applytojob.com",
@@ -7319,6 +7329,16 @@
     ]
   },
   {
+    "name": "capitalone",
+    "ats": "radancy",
+    "identifier": "capitalonecareers.com",
+    "domain": "https://www.capitalonecareers.com",
+    "page": "https://www.capitalonecareers.com/search-jobs/resultspost",
+    "urls": [
+      "https://www.capitalonecareers.com/job/plano/senior-associate-project-manager-dealer/1732/97189632496"
+    ]
+  },
+  {
     "name": "capitalonecareers.com",
     "ats": "custom",
     "identifier": "capitalonecareers.com",
@@ -7664,16 +7684,6 @@
     "domain": "https://careers.blizzard.com",
     "page": "https://careers.blizzard.com",
     "urls": []
-  },
-  {
-    "name": "careers.cargill.com",
-    "ats": "custom",
-    "identifier": "careers.cargill.com",
-    "domain": "https://careers.cargill.com",
-    "page": "",
-    "urls": [
-      "https://careers.cargill.com/en/job/atlanta/software-engineer-intern-summer-2026-atlanta-ga/23251/85180324464"
-    ]
   },
   {
     "name": "careers.cboe.com",
@@ -8658,16 +8668,6 @@
     ]
   },
   {
-    "name": "careers.staples.com",
-    "ats": "custom",
-    "identifier": "careers.staples.com",
-    "domain": "https://careers.staples.com",
-    "page": "",
-    "urls": [
-      "https://careers.staples.com/en/job/-/-/44412/86032290864"
-    ]
-  },
-  {
     "name": "careers.thredup.com",
     "ats": "phenom",
     "identifier": "careers.thredup.com",
@@ -8848,6 +8848,17 @@
     "domain": "https://careersus-maxlinear.icims.com",
     "page": "https://careersus-maxlinear.icims.com/jobs/3049/job?mobile=true&needsRedirect=false",
     "urls": []
+  },
+  {
+    "name": "cargill",
+    "ats": "radancy",
+    "identifier": "careers.cargill.com",
+    "domain": "https://careers.cargill.com",
+    "page": "https://careers.cargill.com/en/search-jobs/resultspost",
+    "urls": [
+      "https://careers.cargill.com/en/job/atlanta/software-engineer-intern-summer-2026-atlanta-ga/23251/85180324464",
+      "https://careers.cargill.com/en/job/jakarta/software-engineering-ag-and-trading/23251/88819679248"
+    ]
   },
   {
     "name": "carollo",
@@ -9603,6 +9614,16 @@
     ]
   },
   {
+    "name": "citi",
+    "ats": "radancy",
+    "identifier": "jobs.citi.com",
+    "domain": "https://jobs.citi.com",
+    "page": "https://jobs.citi.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.citi.com/job/chennai/gen-ai-python-developer/287/97223903952"
+    ]
+  },
+  {
     "name": "clarios",
     "ats": "workday",
     "identifier": "clarios-clarioscareers",
@@ -10002,6 +10023,16 @@
       "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/IL---Chicago-350-N-Orleans-St-1300N/GoLang-Software-Engineer--Identity-Service--Freewheel_R438773",
       "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/PA---Philadelphia-1800-Arch-St/Android-Engineer---Connected-Living_R439937-1",
       "https://comcast.wd5.myworkdayjobs.com/comcast_careers/job/PA---Philadelphia-1800-Arch-St/Backend-NET-Engineer_R438793-1"
+    ]
+  },
+  {
+    "name": "comcast",
+    "ats": "radancy",
+    "identifier": "jobs.comcast.com",
+    "domain": "https://jobs.comcast.com",
+    "page": "https://jobs.comcast.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.comcast.com/job/philadelphia/software-release-and-triage-engineer/45483/99451141888"
     ]
   },
   {
@@ -11216,6 +11247,26 @@
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Santa-Monica-CA-USA/Sr-Software-Engineer_10149914",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Senior-Software-Engineer_10145076-1",
       "https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Seattle-WA-USA/Sr-Machine-Learning-Engineer_10156068"
+    ]
+  },
+  {
+    "name": "disney",
+    "ats": "radancy",
+    "identifier": "disneycareers.com",
+    "domain": "https://www.disneycareers.com",
+    "page": "https://www.disneycareers.com/search-jobs/resultspost",
+    "urls": [
+      "https://www.disneycareers.com/job/glendale/software-engineer-i/391/99449458976"
+    ]
+  },
+  {
+    "name": "disney",
+    "ats": "radancy",
+    "identifier": "jobs.disneycareers.com",
+    "domain": "https://jobs.disneycareers.com",
+    "page": "https://jobs.disneycareers.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/99497040272"
     ]
   },
   {
@@ -17022,6 +17073,16 @@
     ]
   },
   {
+    "name": "intuit",
+    "ats": "radancy",
+    "identifier": "jobs.intuit.com",
+    "domain": "https://jobs.intuit.com",
+    "page": "https://jobs.intuit.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.intuit.com/job/london/staff-product-manager-tax-international/27595/99203723504"
+    ]
+  },
+  {
     "name": "intuitive",
     "ats": "smartrecruiters",
     "identifier": "intuitive",
@@ -18310,6 +18371,16 @@
     ]
   },
   {
+    "name": "kaiserpermanente",
+    "ats": "radancy",
+    "identifier": "kaiserpermanentejobs.org",
+    "domain": "https://www.kaiserpermanentejobs.org",
+    "page": "https://www.kaiserpermanentejobs.org/search-jobs/resultspost",
+    "urls": [
+      "https://www.kaiserpermanentejobs.org/job/decatur/medical-social-work-associate-ii-decatur-24-hours/641/99499746224"
+    ]
+  },
+  {
     "name": "kaiserpermanentejobs.org",
     "ats": "custom",
     "identifier": "kaiserpermanentejobs.org",
@@ -18806,6 +18877,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/kustomer",
     "urls": [
       "https://jobs.ashbyhq.com/kustomer/50bf7508-e199-4136-a11f-705f06b834c4"
+    ]
+  },
+  {
+    "name": "l3harris",
+    "ats": "radancy",
+    "identifier": "careers.l3harris.com",
+    "domain": "https://careers.l3harris.com",
+    "page": "https://careers.l3harris.com/search-jobs/resultspost",
+    "urls": [
+      "https://careers.l3harris.com/job/rochester/associate-software-engineering/4832/99494035056"
     ]
   },
   {
@@ -26186,6 +26267,16 @@
     ]
   },
   {
+    "name": "santander",
+    "ats": "radancy",
+    "identifier": "santandercareers.com",
+    "domain": "https://www.santandercareers.com",
+    "page": "https://www.santandercareers.com/search-jobs/resultspost",
+    "urls": [
+      "https://www.santandercareers.com/job/new-york/financial-control-and-analysis-cost-control-associate/1771/99172257952"
+    ]
+  },
+  {
     "name": "santandercareers.com",
     "ats": "custom",
     "identifier": "santandercareers.com",
@@ -26404,6 +26495,16 @@
       "https://job-boards.greenhouse.io/schonfeld/jobs/7958235",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8031499",
       "https://job-boards.greenhouse.io/schonfeld/jobs/8081878"
+    ]
+  },
+  {
+    "name": "schwab",
+    "ats": "radancy",
+    "identifier": "schwabjobs.com",
+    "domain": "https://www.schwabjobs.com",
+    "page": "https://www.schwabjobs.com/search-jobs/resultspost",
+    "urls": [
+      "https://www.schwabjobs.com/job/austin/sr-java-software-engineer/33727/94189441648"
     ]
   },
   {
@@ -26777,6 +26878,16 @@
     "domain": "https://shakeshack.wd5.myworkdayjobs.com/external",
     "page": "https://shakeshack.wd5.myworkdayjobs.com/wday/cxs/shakeshack/external/jobs",
     "urls": []
+  },
+  {
+    "name": "sharkninja",
+    "ats": "radancy",
+    "identifier": "careers.sharkninja.com",
+    "domain": "https://careers.sharkninja.com",
+    "page": "https://careers.sharkninja.com/search-jobs/resultspost",
+    "urls": [
+      "https://careers.sharkninja.com/job/london/principle-mobile-software-engineer/47204/99484680912"
+    ]
   },
   {
     "name": "sharkninjaoperatingllc",
@@ -27860,6 +27971,16 @@
     "urls": []
   },
   {
+    "name": "spectrum",
+    "ats": "radancy",
+    "identifier": "jobs.spectrum.com",
+    "domain": "https://jobs.spectrum.com",
+    "page": "https://jobs.spectrum.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.spectrum.com/job/montrose/business-account-executive/4673/98766254272"
+    ]
+  },
+  {
     "name": "spectrumhealth",
     "ats": "workday",
     "identifier": "spectrumhealth-corewellhealthcareers",
@@ -28077,6 +28198,27 @@
     "domain": "https://cva.fa.us1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job",
     "page": "https://cva.fa.us1.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_3%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": []
+  },
+  {
+    "name": "staples",
+    "ats": "radancy",
+    "identifier": "careers.staples.com",
+    "domain": "https://careers.staples.com",
+    "page": "https://careers.staples.com/en/search-jobs/resultspost",
+    "urls": [
+      "https://careers.staples.com/en/job/-/-/44412/86032290864",
+      "https://careers.staples.com/en/job/framingham/associate-manager-digital-experience/44412/99207316656"
+    ]
+  },
+  {
+    "name": "staples",
+    "ats": "radancy",
+    "identifier": "retailcareers.staples.com",
+    "domain": "https://retailcareers.staples.com",
+    "page": "https://retailcareers.staples.com/search-jobs/resultspost",
+    "urls": [
+      "https://retailcareers.staples.com/job/smyrna/retail-sales-associate-smyrna-tn/49589/94707632400"
+    ]
   },
   {
     "name": "starburst",
@@ -29471,6 +29613,16 @@
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Uppsala-Sweden/Software-Developer---Olink-NPX_R-01360063",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Uppsala-Sweden/Systems---Infrastructure-Engineer_R-01359473",
       "https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Vilnius-Lithuania/System-Analyst_R-01358667"
+    ]
+  },
+  {
+    "name": "thetorocompany",
+    "ats": "radancy",
+    "identifier": "jobs.thetorocompany.com",
+    "domain": "https://jobs.thetorocompany.com",
+    "page": "https://jobs.thetorocompany.com/search-jobs/resultspost",
+    "urls": [
+      "https://jobs.thetorocompany.com/job/pune/mobile-app-developer/40062/96775057952"
     ]
   },
   {

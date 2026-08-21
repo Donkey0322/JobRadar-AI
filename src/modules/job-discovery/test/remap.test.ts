@@ -95,4 +95,54 @@ describe("remapStoredCompanyNames", () => {
     expect(dataMocks.saveJob).not.toHaveBeenCalled();
     expect(dataMocks.saveOpportunities).not.toHaveBeenCalled();
   });
+
+  it("rewrites hostname company names after a Radancy display-name remap", async () => {
+    const arm: Company = {
+      name: "arm",
+      ats: "radancy",
+      identifier: "careers.arm.com",
+      domain: "https://careers.arm.com",
+      page: "https://careers.arm.com/search-jobs/resultspost",
+      urls: [],
+    };
+    const armJob =
+      "https://careers.arm.com/job/cambridge/analytics-app-developer-12-month-ftc/33099/93494555328";
+
+    dataMocks.loadJobsInFileOrder.mockResolvedValue([
+      { company: "careers.arm.com", role: "Engineer", link: armJob, location: "Cambridge" },
+    ]);
+    dataMocks.loadOpportunities.mockResolvedValue([
+      {
+        company: "careers.arm.com",
+        role: "Engineer",
+        link: armJob,
+        location: "Cambridge",
+        postedAt: "2026-08-20T20:13:26.154Z",
+        expired: false,
+      },
+    ]);
+
+    await expect(remapStoredCompanyNames([arm])).resolves.toEqual({
+      jobs: 1,
+      opportunities: 1,
+    });
+
+    expect(dataMocks.saveJob).toHaveBeenCalledWith(
+      [{ company: "Arm", role: "Engineer", link: armJob, location: "Cambridge" }],
+      true
+    );
+    expect(dataMocks.saveOpportunities).toHaveBeenCalledWith(
+      [
+        {
+          company: "Arm",
+          role: "Engineer",
+          link: armJob,
+          location: "Cambridge",
+          postedAt: "2026-08-20T20:13:26.154Z",
+          expired: false,
+        },
+      ],
+      true
+    );
+  });
 });
