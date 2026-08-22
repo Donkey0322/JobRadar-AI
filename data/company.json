@@ -18423,6 +18423,7 @@
       "https://jobs.jobvite.com/blackboard/job/ouk3zfwa?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/careers/idtus/job/oiEfyfwt/apply",
       "https://jobs.jobvite.com/careers/tylertech/job/oreVxfwR",
+      "https://jobs.jobvite.com/emoneyadvisor-review/job/oD9hxfwk",
       "https://jobs.jobvite.com/idtus/job/oFNfyfwZ?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/idtus/job/oN7iyfwu?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/idtus/job/oY6myfwI?nl=1&nl=1&fr=false",
@@ -18443,8 +18444,7 @@
       "https://jobs.jobvite.com/sews/job/oYlrAfw4?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/src-inc/job/ohUjyfwM",
       "https://jobs.jobvite.com/visionist/job/oEBdAfwM?nl=1&nl=1&fr=false",
-      "https://jobs.jobvite.com/windriver/job/ooShxfwO",
-      "https://jobs.jobvite.com/emoneyadvisor-review/job/oD9hxfwk"
+      "https://jobs.jobvite.com/windriver/job/ooShxfwO"
     ]
   },
   {
@@ -28828,6 +28828,17 @@
       "https://jobs.lever.co/spotify/308d127c-e765-4895-9264-3765ddbfc620",
       "https://jobs.lever.co/spotify/5089cbe3-5e62-4c24-89a2-9a1487eb5034/apply",
       "https://jobs.lever.co/spotify/b4ad9572-e20f-4185-a284-99d9740d04f0/apply"
+    ]
+  },
+  {
+    "name": "springswindowfashions",
+    "ats": "icims",
+    "identifier": "springswindowfashions",
+    "domain": "https://careers-springswindowfashions.icims.com",
+    "page": "https://careers-springswindowfashions.icims.com/jobs/search",
+    "urls": [
+      "https://careers-springswindowfashions.icims.com/jobs/12874/job?mobile=true&needsRedirect=false",
+      "https://careers-springswindowfashions.icims.com/jobs/12875/job?mobile=true&needsRedirect=false"
     ]
   },
   {
