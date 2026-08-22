@@ -3418,7 +3418,9 @@
       "https://jobs.apple.com/en-us/details/200679268-3337/machine-learning-research-engineer-ase-search?team=MLAI",
       "https://jobs.apple.com/en-us/details/200679390-6482/enterprise-education-system-engineer?team=SLDEV",
       "https://jobs.apple.com/en-us/details/200679391-3715/full-stack-engineer-apple-store-online-rapid-application-development?team=APPST",
-      "https://jobs.apple.com/en-us/details/200679461-0836/hardware-systems-design-integration-engineer-airpods?team=HRDWR"
+      "https://jobs.apple.com/en-us/details/200679461-0836/hardware-systems-design-integration-engineer-airpods?team=HRDWR",
+      "https://jobs.apple.com/en-us/details/200679482-0836/ux-designer-xcode-ai-developer-tools?team=SFTWR",
+      "https://jobs.apple.com/en-us/details/200679352-0836/software-engineer-accessibility?team=SFTWR"
     ]
   },
   {
@@ -8186,11 +8188,11 @@
       "https://careers.cisco.com/global/en/job/2023231?ph_id=2023231",
       "https://careers.cisco.com/global/en/job/2023307?ph_id=2023307",
       "https://careers.cisco.com/global/en/job/2023389?ph_id=2023389",
+      "https://careers.cisco.com/global/en/job/2023390?ph_id=2023390",
       "https://careers.cisco.com/global/en/job/2023392?ph_id=2023392",
       "https://careers.cisco.com/global/en/job/2023508?ph_id=2023508",
       "https://careers.cisco.com/global/en/job/2023625?ph_id=2023625",
-      "https://careers.cisco.com/global/en/job/2023758?ph_id=2023758",
-      "https://careers.cisco.com/global/en/job/2023390?ph_id=2023390"
+      "https://careers.cisco.com/global/en/job/2023758?ph_id=2023758"
     ]
   },
   {
@@ -22204,7 +22206,8 @@
       "https://explore.jobs.netflix.net/careers/job/790317960786",
       "https://explore.jobs.netflix.net/careers/job/790318040862",
       "https://explore.jobs.netflix.net/careers/job/790318041034",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
+      "https://explore.jobs.netflix.net/careers/job/790317592200"
     ]
   },
   {
@@ -23833,6 +23836,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Mission-Design-Tools-Software-Engineer_R0164448-6",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Mission-Design-Tools-Software-Engineer_R0164451-9",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Research-Software-Engineer_R0164557-6",
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Spaceflight-Hardware-Systems-Engineer_R0166072",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Systems-Engineer---ECTS_R0164453-11",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Systems-Engineer_R0168645",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Test-System-Safety-Engineer_R0166113-3",
@@ -23857,8 +23861,7 @@
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Fort-Belvoir/Systems-Engineer_R0168615",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Hampton/C--Net-and-Microsoft-Power-Platform-Developer_R0162058",
       "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-McLean/Data-Analyst_R0162741",
-      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Vienna/Web-Software-Developer--UI-_R0164537",
-      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Spaceflight-Hardware-Systems-Engineer_R0166072"
+      "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Vienna/Web-Software-Developer--UI-_R0164537"
     ]
   },
   {
@@ -27241,7 +27244,8 @@
       "https://www.schwabjobs.com/job/southlake/software-development-engineer-in-test-sdet-data-quality-and-automation-engineering/33727/99405215856",
       "https://www.schwabjobs.com/job/southlake/software-integration-support-engineer/33727/99466795232",
       "https://www.schwabjobs.com/job/southlake/software-integration-support-engineer/33727/99466795248",
-      "https://www.schwabjobs.com/job/southlake/sr-full-stack-java-engineer-workplace-services-engineering/33727/94451277232"
+      "https://www.schwabjobs.com/job/southlake/sr-full-stack-java-engineer-workplace-services-engineering/33727/94451277232",
+      "https://www.schwabjobs.com/job/hyderabad/specialist-software-development-and-engineering/33995/98403135264"
     ]
   },
   {
@@ -31480,6 +31484,14 @@
     "identifier": "tri",
     "domain": "https://jobs.lever.co",
     "page": "https://api.lever.co/v0/postings/tri?mode=json",
+    "urls": []
+  },
+  {
+    "name": "triafed",
+    "ats": "greenhouse",
+    "identifier": "triafed",
+    "domain": "https://triafed.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/triafed/jobs",
     "urls": []
   },
   {
