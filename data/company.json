@@ -7865,6 +7865,16 @@
     ]
   },
   {
+    "name": "careers.adobe.com",
+    "ats": "custom",
+    "identifier": "careers.adobe.com",
+    "domain": "https://careers.adobe.com",
+    "page": "",
+    "urls": [
+      "https://careers.adobe.com/us/en/job/ADOBUSR158632EXTERNALENUS/2026-University-Graduate-Machine-Learning-Engineer"
+    ]
+  },
+  {
     "name": "careers.aflac.com",
     "ats": "custom",
     "identifier": "careers.aflac.com",
