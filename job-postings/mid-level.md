@@ -14,6 +14,48 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Smithnephew</td>
+      <td width="420" align="left" valign="top">Software Development Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://smithnephew.wd5.myworkdayjobs.com/external/job/Pittsburgh-PA/Software-Development-Engineer_R90731"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Dexcom</td>
+      <td width="420" align="left" valign="top">Business System Analyst<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://dexcom.wd1.myworkdayjobs.com/dexcom/job/San-Diego-California/Business-System-Analyst_JR120582"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
+      <td width="420" align="left" valign="top">Data Analyst</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200679761-0157/data-analyst?team=HRDWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Disney</td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
+      <td width="180" align="left" valign="top">Orlando, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.disneycareers.com/job/orlando/software-engineer/391/99688867296"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Gnw</td>
+      <td width="420" align="left" valign="top">AI Solutions Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Stamford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://gnw.wd1.myworkdayjobs.com/GNW/job/Stamford-Connecticut/AI-Solutions-Engineer_REQ-260351-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Software Engineer (BM/SRM) (26-383)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Huntsville, AL</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/Software-Engineer--BM-SRM---26-383-_R10247192"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
       <td width="420" align="left" valign="top">Electrical Engineer - Embedded Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Aberdeen Proving Ground, MD</td>
@@ -671,52 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/VeoliaEnvironnementSA/744000145304307"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Clarity Innovations</td>
-      <td width="420" align="left" valign="top">Data Scientist<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Bragg, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/clarityinnovates/jobs/5167161007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Asml</td>
-      <td width="420" align="left" valign="top">Cloud Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Wilton, CT</td>
-      <td width="120" align="left" valign="top"><a href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Senior-Cloud-Engineer_J-00341708-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BILL</td>
-      <td width="420" align="left" valign="top">Strategy Data Scientist - Compliance<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://www.bill.com/job?6142609004&amp;gh_jid=6142609004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer, Amazon WorkSpaces</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10512148"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Development Engineer, Brand Measurement</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10512044"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Autodesk</td>
-      <td width="420" align="left" valign="top">Software Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://autodesk.wd1.myworkdayjobs.com/ext/job/San-Francisco-CA-USA/Software-Engineer_26WD100611-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 6,423 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 6,427 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-24T22:47:10.589Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-24T23:38:32.145Z</code></sub>
