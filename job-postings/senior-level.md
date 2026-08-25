@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">DoorDash USA</td>
+      <td width="420" align="left" valign="top">Hardware Systems Engineer</td>
+      <td width="180" align="left" valign="top">Oakland, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/8156042"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 25</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Parsons</td>
       <td width="420" align="left" valign="top">Full Stack Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Annapolis Junction, MD</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.comcast.com/job/plano/engineer-4-soc-comcast-business/45483/99167469632"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Cloud Infrastructure/DevSecOps Engineer &amp; Subject Matter Expert<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Orlando, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/74377/cloud-infrastructure-devsecops-engineer-%26-subject-matter-expert/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 5,067 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 5,068 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-25T09:01:01.052Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-25T09:53:15.009Z</code></sub>
