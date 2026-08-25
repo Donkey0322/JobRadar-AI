@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">System Hardware Reliability Engineer</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/75712985460286150-system-hardware-reliability-engineer?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 25</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">DoorDash USA</td>
       <td width="420" align="left" valign="top">Hardware Systems Engineer</td>
       <td width="180" align="left" valign="top">Oakland, CA</td>
@@ -706,17 +713,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.comcast.com/job/philadelphia/ios-engineer-connected-living/45483/98756117776"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Engineer 4, SOC, Comcast Business Plano, TX Network Engineering Security Computer Engineering 08/24/2026</td>
-      <td width="180" align="left" valign="top">Plano, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.comcast.com/job/plano/engineer-4-soc-comcast-business/45483/99167469632"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 100 of 5,068 opportunities in this section.</sub></p>
+<p><sub>Showing 100 of 5,069 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-25T09:53:15.009Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-25T10:51:36.017Z</code></sub>

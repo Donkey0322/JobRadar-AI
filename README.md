@@ -93,7 +93,7 @@ Each category page shows up to 100 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 419 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,057 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 6,435 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 5,068 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 5,069 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 100 of the latest opportunities.
 <p><sub>Showing 20 of 2,057 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (11,503)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (11,504)</b></summary>
 
   <br />
 
@@ -588,6 +588,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Hp</td>
+      <td width="420" align="left" valign="top">PageWide Web Press CA&amp;G Mechanical Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Corvallis, OR</td>
+      <td width="120" align="left" valign="top"><a href="https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Corvallis-Oregon-United-States-of-America/PageWide-Web-Press-CA-G-Mechanical-Engineer_3161979-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 25</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Pearson candidate experience site</td>
       <td width="420" align="left" valign="top">Specialist, Data Scientist</td>
@@ -721,18 +728,11 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Monterey-CA/Data-Visualization-Engineer_R0247761"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Benchling</td>
-      <td width="420" align="left" valign="top"> Software Engineer, Model Evaluation and Improvement</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/benchling/3fbb23bd-c06c-49da-8834-4da67200275e"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
 <p><sub>Showing 20 of 6,435 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (5,068)</h3>
+  <h3>Senior Level (5,069)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,13 @@ Each category page shows up to 100 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="./assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">System Hardware Reliability Engineer</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/75712985460286150-system-hardware-reliability-engineer?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">August 25</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">DoorDash USA</td>
       <td width="420" align="left" valign="top">Hardware Systems Engineer</td>
@@ -878,16 +885,9 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200679763-0836/gpu-kernel-firmware-engineer-graphics-games-ml?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
-      <td width="420" align="left" valign="top">Optical Engineer, RTP, Test Automation and Optics NPI</td>
-      <td width="180" align="left" valign="top">Menlo Park, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1363095085539189"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,068 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,069 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-25T09:53:15.009Z</code>
+      🕒 Last updated <code>2026-08-25T10:51:36.017Z</code>
     </span>
   </p>
 </div>
