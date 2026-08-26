@@ -30,7 +30,7 @@ const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
 const MAX_JOBS_PER_README_SECTION = 20;
-const MAX_JOBS_PER_CATEGORY_PAGE = 100;
+const MAX_JOBS_PER_CATEGORY_PAGE = 200;
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
@@ -69,9 +69,7 @@ const FEATURED_COMPANIES: FeaturedCompany[] = [
 ];
 
 const FEATURED_COMPANY_BY_ALIAS = new Map(
-  FEATURED_COMPANIES.flatMap((company) =>
-    company.aliases.map((alias) => [alias, company] as const)
-  )
+  FEATURED_COMPANIES.flatMap((company) => company.aliases.map((alias) => [alias, company] as const))
 );
 
 /** Job keys inferred as in-place reopen (fresher postedAt than rows appended after them). */
@@ -679,7 +677,7 @@ function formatHumanList(values: string[]): string {
 }
 
 function buildHtmlTable(headers: TableRow, rows: TableRow[]): string[] {
-  const columnWidths = ["180", "420", "180", "120", "100"];
+  const columnWidths = ["180", "420", "180", "120", "120"];
 
   const lines: string[] = [];
 
@@ -771,7 +769,10 @@ function formatCompanyCell(company: string, assetBasePath: string): string {
 }
 
 function matchFeaturedCompany(company: string): FeaturedCompany | null {
-  const key = company.trim().toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const key = company
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
 
   if (!key) return null;
 
