@@ -8009,14 +8009,6 @@
     ]
   },
   {
-    "name": "capitalonecareers.com",
-    "ats": "custom",
-    "identifier": "capitalonecareers.com",
-    "domain": "https://www.capitalonecareers.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "capitaltg",
     "ats": "greenhouse",
     "identifier": "capitaltg",
@@ -8326,14 +8318,6 @@
     "ats": "custom",
     "identifier": "careers.amperecomputing.com",
     "domain": "https://careers.amperecomputing.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.arm.com",
-    "ats": "custom",
-    "identifier": "careers.arm.com",
-    "domain": "https://careers.arm.com",
     "page": "",
     "urls": []
   },
@@ -9076,14 +9060,6 @@
     ]
   },
   {
-    "name": "careers.l3harris.com",
-    "ats": "custom",
-    "identifier": "careers.l3harris.com",
-    "domain": "https://careers.l3harris.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "careers.leggett.com",
     "ats": "custom",
     "identifier": "careers.leggett.com",
@@ -9440,14 +9416,6 @@
     "ats": "custom",
     "identifier": "careers.roblox.com",
     "domain": "https://careers.roblox.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "careers.sharkninja.com",
-    "ats": "custom",
-    "identifier": "careers.sharkninja.com",
-    "domain": "https://careers.sharkninja.com",
     "page": "",
     "urls": []
   },
@@ -12363,14 +12331,6 @@
       "https://www.disneycareers.com/job/santa-monica/sr-data-engineer/391/94781454624",
       "https://www.disneycareers.com/job/seattle/security-engineer-software-engineer/391/94227392704"
     ]
-  },
-  {
-    "name": "disneycareers.com",
-    "ats": "custom",
-    "identifier": "disneycareers.com",
-    "domain": "https://www.disneycareers.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "ditto",
@@ -16542,9 +16502,9 @@
     "domain": "https://grnh.se",
     "page": "",
     "urls": [
+      "https://grnh.se/abfli75k1us",
       "https://grnh.se/p32j1zwl5us",
-      "https://grnh.se/rw14eooo5us",
-      "https://grnh.se/abfli75k1us"
+      "https://grnh.se/rw14eooo5us"
     ]
   },
   {
@@ -19221,22 +19181,6 @@
     ]
   },
   {
-    "name": "jobs.citi.com",
-    "ats": "custom",
-    "identifier": "jobs.citi.com",
-    "domain": "https://jobs.citi.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "jobs.comcast.com",
-    "ats": "custom",
-    "identifier": "jobs.comcast.com",
-    "domain": "https://jobs.comcast.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "jobs.commscope.com",
     "ats": "custom",
     "identifier": "jobs.commscope.com",
@@ -19372,14 +19316,6 @@
     "ats": "custom",
     "identifier": "jobs.hilton.com",
     "domain": "https://jobs.hilton.com",
-    "page": "",
-    "urls": []
-  },
-  {
-    "name": "jobs.intuit.com",
-    "ats": "custom",
-    "identifier": "jobs.intuit.com",
-    "domain": "https://jobs.intuit.com",
     "page": "",
     "urls": []
   },
@@ -19580,14 +19516,6 @@
     "urls": []
   },
   {
-    "name": "jobs.spectrum.com",
-    "ats": "custom",
-    "identifier": "jobs.spectrum.com",
-    "domain": "https://jobs.spectrum.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "jobs.supermicro.com",
     "ats": "custom",
     "identifier": "jobs.supermicro.com",
@@ -19596,14 +19524,6 @@
     "urls": [
       "https://jobs.supermicro.com/job/San-Jose-Generative-AI-Software-Engineer-Co-Op-Cali/1364254900/?ats=successfactors"
     ]
-  },
-  {
-    "name": "jobs.thetorocompany.com",
-    "ats": "custom",
-    "identifier": "jobs.thetorocompany.com",
-    "domain": "https://jobs.thetorocompany.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "jobs.ubs.com",
@@ -19921,14 +19841,6 @@
       "https://www.kaiserpermanentejobs.org/job/greensboro/ui-extraordinaire-developer-it-applications-engineer-iv-greensboro-nc/641/99734162032",
       "https://www.kaiserpermanentejobs.org/job/oakland/data-analyst-iv-medicare-medicaid-aca-risk-adjustment-sql-python/641/89614336528"
     ]
-  },
-  {
-    "name": "kaiserpermanentejobs.org",
-    "ats": "custom",
-    "identifier": "kaiserpermanentejobs.org",
-    "domain": "https://www.kaiserpermanentejobs.org",
-    "page": "",
-    "urls": []
   },
   {
     "name": "kar",
@@ -28436,14 +28348,6 @@
     ]
   },
   {
-    "name": "santandercareers.com",
-    "ats": "custom",
-    "identifier": "santandercareers.com",
-    "domain": "https://www.santandercareers.com",
-    "page": "",
-    "urls": []
-  },
-  {
     "name": "sargentlundy",
     "ats": "icims",
     "identifier": "sargentlundy",
@@ -28701,14 +28605,6 @@
       "https://www.schwabjobs.com/job/southlake/sr-full-stack-java-engineer-workplace-services-engineering/33727/94451277232",
       "https://www.schwabjobs.com/job/westlake/data-engineering/33727/99718067344"
     ]
-  },
-  {
-    "name": "schwabjobs.com",
-    "ats": "custom",
-    "identifier": "schwabjobs.com",
-    "domain": "https://www.schwabjobs.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "scires",
