@@ -93,7 +93,7 @@ Each category page shows up to 200 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 456 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,113 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 6,575 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 5,157 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 5,158 opportunities
 
 ## The List 🚴‍♂️
 
@@ -571,7 +571,7 @@ Each category page shows up to 200 of the latest opportunities.
 <p><sub>Showing 20 of 2,113 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (11,732)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (11,733)</b></summary>
 
   <br />
 
@@ -732,7 +732,7 @@ Each category page shows up to 200 of the latest opportunities.
 </table>
 <p><sub>Showing 20 of 6,575 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (5,157)</h3>
+  <h3>Senior Level (5,158)</h3>
 
 <table width="100%">
   <thead>
@@ -745,6 +745,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Astronomer</td>
+      <td width="420" align="left" valign="top">Customer Reliability Engineer, Infrastructure</td>
+      <td width="180" align="left" valign="top">Remote (United States)</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/astronomer/c9261f1a-8f90-4d9e-a5b2-2123bfd6e77b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 26</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="./assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Security Platform Automation Engineer</td>
@@ -878,16 +885,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/Full-Stack-Developer_R0247901"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 25</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Application Security Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Meade, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Meade-MD/Application-Security-Engineer_R0247897"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 25</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,157 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,158 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-26T08:00:32.931Z</code>
+      🕒 Last updated <code>2026-08-26T09:03:29.611Z</code>
     </span>
   </p>
 </div>

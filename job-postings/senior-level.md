@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Astronomer</td>
+      <td width="420" align="left" valign="top">Customer Reliability Engineer, Infrastructure</td>
+      <td width="180" align="left" valign="top">Remote (United States)</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/astronomer/c9261f1a-8f90-4d9e-a5b2-2123bfd6e77b"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 26</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
       <td width="420" align="left" valign="top">Security Platform Automation Engineer</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://becu.wd1.myworkdayjobs.com/external/job/Remote-WA/Sr-Data-Engineer_R-13686-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">PNC</td>
-      <td width="420" align="left" valign="top">Software Engineering Mgr - Site Reliability Center<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Phoenix, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.pnc.com/global/en/job/R228435?ph_id=R228435"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 5,157 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 5,158 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-26T08:00:32.931Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-26T09:03:29.611Z</code></sub>
