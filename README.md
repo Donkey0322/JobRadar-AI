@@ -333,7 +333,7 @@ Each category page shows up to 100 of the latest opportunities.
       <td width="100" align="left" valign="top">August 25</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">CSL</td>
+      <td width="180" align="left" valign="top">Csl</td>
       <td width="420" align="left" valign="top">Data Engineering Co-op</td>
       <td width="180" align="left" valign="top">King of Prussia, PA</td>
       <td width="120" align="left" valign="top"><a href="https://csl.wd1.myworkdayjobs.com/CSL_External/job/Americas-US-PA-King-of-Prussia-CSL-Behring/Data-Engineering-Co-op_R-276316"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -908,7 +908,7 @@ Each category page shows up to 100 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-26T02:43:26.105Z</code>
+      🕒 Last updated <code>2026-08-26T03:19:21.276Z</code>
     </span>
   </p>
 </div>
