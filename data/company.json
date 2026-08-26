@@ -280,11 +280,11 @@
       "https://jobs.smartrecruiters.com/AbbVie/3743990014818246",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014850927",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014853226",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990014860391",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990014860456",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014860211",
+      "https://jobs.smartrecruiters.com/AbbVie/3743990014860306",
       "https://jobs.smartrecruiters.com/AbbVie/3743990014860386",
-      "https://jobs.smartrecruiters.com/AbbVie/3743990014860306"
+      "https://jobs.smartrecruiters.com/AbbVie/3743990014860391",
+      "https://jobs.smartrecruiters.com/AbbVie/3743990014860456"
     ]
   },
   {
@@ -1952,14 +1952,14 @@
       "https://amazon.jobs/en/jobs/10514850",
       "https://amazon.jobs/en/jobs/10515064",
       "https://amazon.jobs/en/jobs/10515085",
+      "https://amazon.jobs/en/jobs/10515148",
+      "https://amazon.jobs/en/jobs/10515149",
+      "https://amazon.jobs/en/jobs/10515150",
       "https://amazon.jobs/en/jobs/3116030",
       "https://amazon.jobs/en/jobs/3127861",
       "https://amazon.jobs/en/jobs/3179209",
       "https://amazon.jobs/en/jobs/3188438/software-development-engineer-apprentice-military-veterans",
-      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1",
-      "https://amazon.jobs/en/jobs/10515150",
-      "https://amazon.jobs/en/jobs/10515149",
-      "https://amazon.jobs/en/jobs/10515148"
+      "https://www.amazon.jobs/en/jobs/3136266/robotics-software-development-engineer-intern-co-op-2026?no_int_redir=1"
     ]
   },
   {
@@ -3639,6 +3639,7 @@
     "urls": [
       "https://apply.careers.microsoft.com/careers/job/1970393556629151?domain=microsoft.com&8fold_id=1970393556629151",
       "https://apply.careers.microsoft.com/careers/job/1970393556633312?domain=microsoft.com&8fold_id=1970393556633312",
+      "https://apply.careers.microsoft.com/careers/job/1970393556641776?domain=microsoft.com&8fold_id=1970393556641776",
       "https://apply.careers.microsoft.com/careers/job/1970393556752268?domain=microsoft.com&8fold_id=1970393556752268",
       "https://apply.careers.microsoft.com/careers/job/1970393556847455?domain=microsoft.com&8fold_id=1970393556847455",
       "https://apply.careers.microsoft.com/careers/job/1970393556855340?domain=microsoft.com&8fold_id=1970393556855340",
@@ -3734,13 +3735,12 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556972160?domain=microsoft.com&8fold_id=1970393556972160",
       "https://apply.careers.microsoft.com/careers/job/1970393556972166?domain=microsoft.com&8fold_id=1970393556972166",
       "https://apply.careers.microsoft.com/careers/job/1970393556972956?domain=microsoft.com&8fold_id=1970393556972956",
+      "https://apply.careers.microsoft.com/careers/job/1970393556977374?domain=microsoft.com&8fold_id=1970393556977374",
       "https://apply.careers.microsoft.com/careers/job/1970393556978214?domain=microsoft.com&8fold_id=1970393556978214",
       "https://apply.careers.microsoft.com/careers/job/1970393556978345?domain=microsoft.com&8fold_id=1970393556978345",
       "https://apply.careers.microsoft.com/careers/job/1970393556978753?domain=microsoft.com&8fold_id=1970393556978753",
       "https://apply.careers.microsoft.com/careers/job/1970393556978993?domain=microsoft.com&8fold_id=1970393556978993",
-      "https://apply.careers.microsoft.com/careers/job/1970393556979054?domain=microsoft.com&8fold_id=1970393556979054",
-      "https://apply.careers.microsoft.com/careers/job/1970393556977374?domain=microsoft.com&8fold_id=1970393556977374",
-      "https://apply.careers.microsoft.com/careers/job/1970393556641776?domain=microsoft.com&8fold_id=1970393556641776"
+      "https://apply.careers.microsoft.com/careers/job/1970393556979054?domain=microsoft.com&8fold_id=1970393556979054"
     ]
   },
   {
@@ -8571,6 +8571,7 @@
       "https://careers.cisco.com/global/en/job/2021020?ph_id=2021020",
       "https://careers.cisco.com/global/en/job/2021021?ph_id=2021021",
       "https://careers.cisco.com/global/en/job/2021073?ph_id=2021073",
+      "https://careers.cisco.com/global/en/job/2021084?ph_id=2021084",
       "https://careers.cisco.com/global/en/job/2021104?ph_id=2021104",
       "https://careers.cisco.com/global/en/job/2021105?ph_id=2021105",
       "https://careers.cisco.com/global/en/job/2021167?ph_id=2021167",
@@ -8657,8 +8658,7 @@
       "https://careers.cisco.com/global/en/job/2023625?ph_id=2023625",
       "https://careers.cisco.com/global/en/job/2023628?ph_id=2023628",
       "https://careers.cisco.com/global/en/job/2023633?ph_id=2023633",
-      "https://careers.cisco.com/global/en/job/2023758?ph_id=2023758",
-      "https://careers.cisco.com/global/en/job/2021084?ph_id=2021084"
+      "https://careers.cisco.com/global/en/job/2023758?ph_id=2023758"
     ]
   },
   {
@@ -9050,7 +9050,8 @@
     "page": "",
     "urls": [
       "https://careers.jhuapl.edu/jobs/59654?icims=1",
-      "https://careers.jhuapl.edu/jobs/59800?icims=1"
+      "https://careers.jhuapl.edu/jobs/59800?icims=1",
+      "https://careers.jhuapl.edu/jobs/59818?icims=1"
     ]
   },
   {
@@ -10129,8 +10130,8 @@
     "urls": [
       "https://cra.com/job-listings/job?gh_jid=7811876",
       "https://cra.com/job-listings/job?gh_jid=8055290",
-      "https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8082740",
-      "https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8055254"
+      "https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8055254",
+      "https://job-boards.greenhouse.io/charlesriveranalytics90/jobs/8082740"
     ]
   },
   {
@@ -15321,6 +15322,7 @@
       "https://careers-gdms.icims.com/jobs/74416/front-end-gaiaa-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/74417/entry-level-software-engineer/job",
       "https://careers-gdms.icims.com/jobs/74456/advanced-systems-engineer/job",
+      "https://careers-gdms.icims.com/jobs/74466/systems-engineer-%e2%80%93-entry-level/job",
       "https://careers-gdms.icims.com/jobs/74470/systems-engineer-%e2%80%93-entry-level/job",
       "https://careers-gdms.icims.com/jobs/74471/software-engineer-%e2%80%93-entry-level/job",
       "https://careers-gdms.icims.com/jobs/74473/software-engineer/job",
@@ -15330,9 +15332,8 @@
       "https://careers-gdms.icims.com/jobs/74485/advanced-cybersecurity-systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/74521/entry-level-software-systems-engineer/job",
       "https://careers-gdms.icims.com/jobs/74522/entry-level-software-systems-engineer/job",
-      "https://careers-gdms.icims.com/jobs/74561/software-engineer/job",
-      "https://careers-gdms.icims.com/jobs/74466/systems-engineer-%e2%80%93-entry-level/job",
-      "https://careers-gdms.icims.com/jobs/74548/infrastructure-engineer%3a-hands-on-solutions-for-naval-missions/job"
+      "https://careers-gdms.icims.com/jobs/74548/infrastructure-engineer%3a-hands-on-solutions-for-naval-missions/job",
+      "https://careers-gdms.icims.com/jobs/74561/software-engineer/job"
     ]
   },
   {
@@ -16542,7 +16543,8 @@
     "page": "",
     "urls": [
       "https://grnh.se/p32j1zwl5us",
-      "https://grnh.se/rw14eooo5us"
+      "https://grnh.se/rw14eooo5us",
+      "https://grnh.se/abfli75k1us"
     ]
   },
   {
@@ -17794,6 +17796,7 @@
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Gurgaon-Haryna-India/Presales-Systems-Engineer---Networking_1209001-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Heredia-Heredia-Costa-Rica/Network-Security-Technical-Support-Engineer_1205251-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Heredia-Heredia-Costa-Rica/Systems-Software-Engineer_1212379",
+      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Houston-Texas/Cloud-Developer_1212916",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/London-London-United-Kingdom/Security-Presales-Systems-Engineer_1208930-3",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Mumbai-Maharashtra-India/AI-ML-Engineer_1203718-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Mumbai-Maharashtra-India/Presales-System-Engineer---Networking_1207170-2",
@@ -17822,8 +17825,7 @@
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California-United-States-of-America/Sr-Staff-Software-Engineer--Networking---C-C--_1193121-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Taipei-Taipei-City-Taiwan/SW-Test-Engineer---Synergy-Networking--Automation-Test-Engineer-_1209667-2",
       "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Taipei-Taipei-City-Taiwan/Software-Developer-Cloud---Distributed-Systems_1209970",
-      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Westford-Massachusetts-United-States-of-America/Networking-Software-Quality-Assurance-Engineer_1202481-2",
-      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Houston-Texas/Cloud-Developer_1212916"
+      "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Westford-Massachusetts-United-States-of-America/Networking-Software-Quality-Assurance-Engineer_1202481-2"
     ]
   },
   {
@@ -19916,8 +19918,8 @@
     "urls": [
       "https://www.kaiserpermanentejobs.org/job/decatur/medical-social-work-associate-ii-decatur-24-hours/641/99499746224",
       "https://www.kaiserpermanentejobs.org/job/greensboro/it-infrastructure-engineer-vi/641/99558341184",
-      "https://www.kaiserpermanentejobs.org/job/oakland/data-analyst-iv-medicare-medicaid-aca-risk-adjustment-sql-python/641/89614336528",
-      "https://www.kaiserpermanentejobs.org/job/greensboro/ui-extraordinaire-developer-it-applications-engineer-iv-greensboro-nc/641/99734162032"
+      "https://www.kaiserpermanentejobs.org/job/greensboro/ui-extraordinaire-developer-it-applications-engineer-iv-greensboro-nc/641/99734162032",
+      "https://www.kaiserpermanentejobs.org/job/oakland/data-analyst-iv-medicare-medicaid-aca-risk-adjustment-sql-python/641/89614336528"
     ]
   },
   {
@@ -22388,6 +22390,7 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/ENGINEER---PROBE-SOFTWARE---ANALYTICAL_JR105266",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/ENGINEER--F10-DAST-AUTOMATION_JR105265",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/Engineer---QEM-Process-Control-System-PCS-_JR105278",
+      "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/Engineer--Probe-Software_JR102768",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/F10-PROBE-AUTOMATION-ENGINEER_JR105267",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/Global-Front-End-Planning-SG-Satellite-Scenario-and-Capital-Engineer_JR107614",
       "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/Intern---ML-AI-Engineer--Product-Engineering--STPG-_JR93102",
@@ -22441,8 +22444,7 @@
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/IT-Software-Engineer---MES-systems_JR94195",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/OI-Data-Engineer--TY-_JR106418",
       "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/RDA---Metrology-Data-Platform-Engineer_JR104627",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/Software-Development-Engineer---AI-Enabled-Full-Stack-Developer_JR108412",
-      "https://micron.wd1.myworkdayjobs.com/external/job/Fab-10NX-Singapore/Engineer--Probe-Software_JR102768"
+      "https://micron.wd1.myworkdayjobs.com/external/job/Taoyuan---Fab-11-Taiwan/Software-Development-Engineer---AI-Enabled-Full-Stack-Developer_JR108412"
     ]
   },
   {
@@ -24228,6 +24230,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/DL-Performance-Software-Engineer---LLM-Inference_JR2022713",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Beijing/Deep-Learning-Performance-Software-Engineer_JR2021626",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/CUDA-Full-Stack---AI-Test-Dev-Intern---2027_JR2023666-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023639",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023641",
@@ -24327,6 +24330,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer---Trusted-Firmware_JR2023340",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Distributed-Systems_JR2013472",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371",
+      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Speed-and-Reliability-Co-Design-Engineer_JR2018911-1",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Test-Engineer_JR2018095",
       "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Test-Engineer_JR2021175",
@@ -24360,9 +24364,7 @@
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/System-Software-Engineer--GPU-Development-Tools_JR2016197",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Systems-Quality-and-Reliability-Engineer---LPU_JR2018660",
       "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-MA-Westford/Software-Engineer---DPU-Platform_JR2015949-1",
-      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684",
-      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Applied-AI-Engineer---Silicon-Co-Design-Group_JR2023526",
-      "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--UEFI-Firmware_JR2023314"
+      "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Ukraine-Remote/DevOps-Engineer_JR2020684"
     ]
   },
   {
@@ -28759,10 +28761,10 @@
       "https://job-boards.greenhouse.io/scopely/jobs/5261506008?gh_jid=5261506008",
       "https://job-boards.greenhouse.io/scopely/jobs/5301857008?gh_jid=5301857008",
       "https://job-boards.greenhouse.io/scopely/jobs/5360705008?gh_jid=5360705008",
+      "https://job-boards.greenhouse.io/scopely/jobs/5395475008?gh_jid=5395475008",
       "https://job-boards.greenhouse.io/scopely/jobs/5397611008?gh_jid=5397611008",
       "https://job-boards.greenhouse.io/scopely/jobs/5397634008?gh_jid=5397634008",
-      "https://job-boards.greenhouse.io/scopely/jobs/5397639008?gh_jid=5397639008",
-      "https://job-boards.greenhouse.io/scopely/jobs/5395475008?gh_jid=5395475008"
+      "https://job-boards.greenhouse.io/scopely/jobs/5397639008?gh_jid=5397639008"
     ]
   },
   {
@@ -30025,6 +30027,7 @@
       "https://boards.greenhouse.io/spacex/jobs/8621649002?gh_jid=8621649002",
       "https://boards.greenhouse.io/spacex/jobs/8621756002?gh_jid=8621756002",
       "https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002",
+      "https://boards.greenhouse.io/spacex/jobs/8623125002?gh_jid=8623125002",
       "https://boards.greenhouse.io/spacex/jobs/8623383002?gh_jid=8623383002",
       "https://boards.greenhouse.io/spacex/jobs/8623675002?gh_jid=8623675002",
       "https://boards.greenhouse.io/spacex/jobs/8624761002?gh_jid=8624761002",
@@ -30168,7 +30171,6 @@
       "https://boards.greenhouse.io/spacex/jobs/8738708002?gh_jid=8738708002",
       "https://boards.greenhouse.io/spacex/jobs/8741940002?gh_jid=8741940002",
       "https://boards.greenhouse.io/spacex/jobs/8746439002?gh_jid=8746439002",
-      "https://boards.greenhouse.io/spacex/jobs/8623125002?gh_jid=8623125002",
       "https://boards.greenhouse.io/spacex/jobs/8748827002?gh_jid=8748827002"
     ]
   },
