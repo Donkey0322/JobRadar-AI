@@ -89,9 +89,9 @@
 
 Each category page shows up to 200 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 451 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 495 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,219 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 452 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 496 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,221 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 6,888 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,385 opportunities
 
@@ -112,6 +112,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">TELUS Digital</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - US - Summer 2027<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Charlottesville, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Booz Allen</td>
       <td width="420" align="left" valign="top">Software Developer Intern - Summer Games<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -245,16 +252,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University--2027-Summer-Games-Software-Developer-Intern_R0248029"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">RTX</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Software-Engineering-Intern-Summer-2027-_01870349-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 451 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 452 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -269,6 +269,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Blockhouse</td>
+      <td width="420" align="left" valign="top">Applied AI Engineer Intern</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/blockhouse/2e9fbde8-709c-4c1f-b908-cd51a53c8529/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Fab2</td>
       <td width="420" align="left" valign="top">Embedded Software Engineering Intern - Winter<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -402,16 +409,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/northampton/intern-software-engineer/4832/99780428464"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Intern, Software Engineer Engineering|Co Op/Intern Northampton, MA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Northampton, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/northampton/intern-software-engineer/4832/99780428448"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 495 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 496 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,20 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Inductive Automation</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Folsom, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/inductive-automation-llc/5413d62b-1f0c-4592-9ce6-b6f261674ecb/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 27</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris Technologies</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad - Software Engineering</td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Salt-Lake-City-Assoc,-Software-Engineer-(New-Grad-Salt-Lake-City,-UT)-1-1-1-UT-84117/1424142200/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 27</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Rivianvw.tech</td>
       <td width="420" align="left" valign="top">Systems Architecture Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -552,23 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bostonscientific.eightfold.ai/careers/job/563602813465233?domain=bostonscientific.com&amp;8fold_id=563602813465233"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Citi</td>
-      <td width="420" align="left" valign="top">Junior Generative AI Application Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Jersey City, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.citi.com/job/jersey-city/junior-generative-ai-application-developer/287/94846498976"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Junior Generative AI Application Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.citi.com/job/new-york/junior-generative-ai-application-developer/287/94846498960"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,219 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,221 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (12,273)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-28T03:39:08.110Z</code>
+      🕒 Last updated <code>2026-08-28T06:58:44.005Z</code>
     </span>
   </p>
 </div>

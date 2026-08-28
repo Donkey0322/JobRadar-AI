@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Blockhouse</td>
+      <td width="420" align="left" valign="top">Applied AI Engineer Intern</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/blockhouse/2e9fbde8-709c-4c1f-b908-cd51a53c8529/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 27</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Fab2</td>
       <td width="420" align="left" valign="top">Embedded Software Engineering Intern - Winter<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/RegDeskInc/92145731"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sightcall</td>
-      <td width="420" align="left" valign="top">Web Developer Intern</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/SightCall/80298252"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 495 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 496 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-28T03:39:08.110Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-28T06:58:44.005Z</code></sub>
