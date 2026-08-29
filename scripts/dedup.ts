@@ -6,7 +6,7 @@ import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 import type { Opportunity } from "@/types";
 
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
-import { deduplicate, getJobKey, toJobKeySet } from "@/utils/job-key";
+import { deduplicate, getJobKey, groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 function shouldReplace(existing: Opportunity, candidate: Opportunity): boolean {
@@ -17,7 +17,7 @@ function shouldReplace(existing: Opportunity, candidate: Opportunity): boolean {
   return new Date(candidate.postedAt).getTime() > new Date(existing.postedAt).getTime();
 }
 
-function deduplicateOpportunities(opportunities: Opportunity[]): Opportunity[] {
+export function deduplicateOpportunities(opportunities: Opportunity[]): Opportunity[] {
   const unique = new Map<string, Opportunity>();
 
   for (const opportunity of opportunities) {
@@ -32,20 +32,46 @@ function deduplicateOpportunities(opportunities: Opportunity[]): Opportunity[] {
   return [...unique.values()];
 }
 
-function syncExpiredFlags(
+function resolveLiveUrl(
+  currentLink: string,
+  liveUrls: readonly string[] | undefined
+): string | undefined {
+  if (!liveUrls || liveUrls.length === 0) {
+    return undefined;
+  }
+
+  if (liveUrls.includes(currentLink)) {
+    return currentLink;
+  }
+
+  return liveUrls[0];
+}
+
+/**
+ * Liveness is keyed by job identity, not the exact opportunity URL.
+ * If the stored link died but a sibling URL for the same key is still live,
+ * keep the row active and point Apply at the live URL.
+ */
+export function syncExpiredFlags(
   opportunities: Opportunity[],
-  activeKeys: ReadonlySet<string>
+  liveUrlsByKey: ReadonlyMap<string, readonly string[]>
 ): Opportunity[] {
   return opportunities.map((opportunity) => {
-    const expired = !activeKeys.has(getJobKey(opportunity.link));
+    const liveUrl = resolveLiveUrl(
+      opportunity.link,
+      liveUrlsByKey.get(getJobKey(opportunity.link))
+    );
+    const expired = liveUrl === undefined;
+    const link = liveUrl ?? opportunity.link;
 
-    if (opportunity.expired === expired) {
+    if (opportunity.expired === expired && opportunity.link === link) {
       return opportunity;
     }
 
     return {
       ...opportunity,
       expired,
+      link,
     };
   });
 }
@@ -53,12 +79,11 @@ function syncExpiredFlags(
 export default async function main() {
   const urls = await loadUrls();
   const dedupedUrls = deduplicate(urls);
-  const activeKeys = toJobKeySet(dedupedUrls);
 
   const opportunities = await loadOpportunities();
   const dedupedOpportunities = syncExpiredFlags(
     deduplicateOpportunities(opportunities),
-    activeKeys
+    groupUrlsByKey(dedupedUrls)
   );
 
   await Promise.all([

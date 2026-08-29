@@ -3,9 +3,9 @@ import pLimit from "p-limit";
 import { GREEN_CHECKMARK, RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult, JDFetchStatus } from "@/modules/ats/detail";
-import type { Job } from "@/types";
+import type { Opportunity } from "@/types";
 
-import deduplicate from "./dedup";
+import deduplicate, { syncExpiredFlags } from "./dedup";
 
 import { isTarget } from "@/modules/ats/core/filter";
 import { HttpStatusCode, NETWORK_ERROR_CODE } from "@/modules/ats/detail/fetch";
@@ -13,6 +13,7 @@ import { getRawJD } from "@/modules/job-analysis";
 import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
+import { groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
 
 const CONCURRENCY = 10;
@@ -48,7 +49,7 @@ async function main() {
   const urls = Array.from(sent);
 
   const untargetedOpportunities = new Set<string>();
-  const targetedOpportunities: Job[] = [];
+  const targetedOpportunities: Opportunity[] = [];
   const jobs = await loadOpportunities();
   for (const job of jobs) {
     if (!isTarget(job.role)) {
@@ -92,10 +93,7 @@ async function main() {
   console.log({ validUrls: validUrls.length }, `${GREEN_CHECKMARK} Successfully cleaned urls`);
 
   await saveUrls(new Set(validUrls));
-  await saveOpportunities(
-    targetedOpportunities.map((job) => ({ ...job, expired: !validUrls.includes(job.link) })),
-    true
-  );
+  await saveOpportunities(syncExpiredFlags(targetedOpportunities, groupUrlsByKey(validUrls)), true);
 
   return validUrls;
 }

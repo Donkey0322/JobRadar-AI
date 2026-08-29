@@ -1,9 +1,10 @@
 import pLimit from "p-limit";
 
+import { RED_CROSS } from "@/constants/log";
+
 import type { Job } from "@/types";
 import type { Opportunity } from "@/types/jobs";
 
-import { HttpStatusCode } from "@/modules/ats/detail";
 import getJD, { isEligibleJD } from "@/modules/job-analysis";
 import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
@@ -120,6 +121,7 @@ export async function processJobs({
 
   let totalCost = 0;
   let skipped = 0;
+  let failed = 0;
   let forceStopped = false;
 
   const limit = pLimit(AI_CONCURRENCY);
@@ -162,17 +164,9 @@ export async function processJobs({
 
         const result = await getJD(job);
 
-        if (HttpStatusCode.isError(result.error.code)) {
+        if (!result.jd) {
           return {
             type: "invalid" as const,
-            job,
-            ...result,
-          };
-        }
-
-        if (result.error.code === HttpStatusCode.TOO_MANY_REQUESTS) {
-          return {
-            type: "too_many_requests" as const,
             job,
             ...result,
           };
@@ -187,8 +181,6 @@ export async function processJobs({
     )
   );
 
-  const jdSaves: Promise<unknown>[] = [];
-
   for (const result of results) {
     if (result.type === "deadline") {
       forceStopped = true;
@@ -196,15 +188,16 @@ export async function processJobs({
     }
 
     if (result.type === "invalid") {
-      skipped += 1;
+      failed += 1;
       logger.error(
         {
           company: result.job.company,
           role: result.job.role,
           url: result.job.link,
-          reason: result.error.desc,
+          code: result.error.code,
+          reason: result.error.desc || "No JD returned",
         },
-        "⚠️ Invalid JD"
+        `${RED_CROSS} Failed to fetch JD`
       );
       continue;
     }
@@ -231,41 +224,48 @@ export async function processJobs({
     }
 
     const { job, jd, cost } = result;
+
+    if (!jd) {
+      failed += 1;
+      logger.error(
+        {
+          company: job.company,
+          role: job.role,
+          url: job.link,
+          reason: "No JD returned",
+        },
+        `${RED_CROSS} Failed to fetch JD`
+      );
+      continue;
+    }
+
     job.jd = jd;
     totalCost += cost;
 
-    if (jd) {
-      const [eligible, reason] = isEligibleJD(jd);
+    const [eligible, reason] = isEligibleJD(jd);
 
-      if (!eligible) {
-        markAsSeen(job);
-        skipped += 1;
+    if (!eligible) {
+      markAsSeen(job);
+      skipped += 1;
 
-        logger.info(
-          {
-            company: job.company,
-            role: job.role,
-            url: job.link,
-            reason,
-          },
-          "⏭️ Skipped by eligibility filter"
-        );
+      logger.info(
+        {
+          company: job.company,
+          role: job.role,
+          url: job.link,
+          reason,
+        },
+        "⏭️ Skipped by eligibility filter"
+      );
 
-        continue;
-      }
-
-      currentId += 1;
-
-      job.id = currentId;
-
-      // jdSaves.push(saveJd(rawJD, job));
+      continue;
     }
 
+    currentId += 1;
+    job.id = currentId;
     markAsSeen(job);
     jobs.push(job);
   }
-
-  await Promise.all(jdSaves);
 
   await saveUrls(urls);
   await saveJob(jobs);
@@ -303,12 +303,12 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped },
+      { cost: totalCost, skipped, failed },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
     logger.info(
-      { cost: totalCost, skipped },
+      { cost: totalCost, skipped, failed },
       "💰 Currently no newly found jobs that match your criteria"
     );
   }
@@ -317,6 +317,7 @@ export async function processJobs({
     jobs,
     count: jobs.length,
     skipped,
+    failed,
     totalCost,
     forceStopped,
   };
