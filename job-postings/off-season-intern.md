@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Clerkie</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="http://getfiber.ai/careers?gh_jid=5225258007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Schweitzer Engineering Laboratories</td>
+      <td width="420" align="left" valign="top">Engineering Intern - Protection Systems Forensics</td>
+      <td width="180" align="left" valign="top">Pullman, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2025-18137"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Disney</td>
       <td width="420" align="left" valign="top">System App Dev &amp; Sustainment Intern, Spring 2027</td>
       <td width="180" align="left" valign="top">Orlando, Florida</td>
@@ -1399,24 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 19</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Specialisterne.applytojob.com</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - Neurodiversity Hiring Initiative<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dallas, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://specialisterne.applytojob.com/apply/gOkVN8zGTL/Software-Engineer-Intern-Neurodiversity-Hiring-Initiative"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 19</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aero</td>
-      <td width="420" align="left" valign="top">2026 AFRL System Engineer Graduate Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Albuquerque, NM</td>
-      <td width="120" align="left" valign="top"><a href="https://aero.wd5.myworkdayjobs.com/external/job/Kirtland-AFB-NM/XMLNAME-2026-AFRL-System-Engineer-Graduate-Intern_R016128"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 19</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 516 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 518 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-29T03:18:41.086Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-08-29T04:12:57.011Z</code></sub>

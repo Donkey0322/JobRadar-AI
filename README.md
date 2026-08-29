@@ -89,8 +89,8 @@
 
 Each category page shows up to 200 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 470 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 516 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 472 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 518 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,258 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 7,020 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,485 opportunities
@@ -112,6 +112,20 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Charles Schwab</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern - Technology<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://career-schwab.icims.com/jobs/126228/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Engineering Intern - Data Engineering<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://career-schwab.icims.com/jobs/126227/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Philips</td>
       <td width="420" align="left" valign="top">Intern – Data AI/ML Engineering – Plymouth, MN – Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -238,23 +252,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Software-Developer-Intern_R0248130"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">TELUS Digital</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - US - Summer 2027<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Charlottesville, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/telus-digital/32ee6ede-d3cf-4827-b7af-f8d64f2bca11/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Booz Allen</td>
-      <td width="420" align="left" valign="top">Software Developer Intern - Summer Games<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/El-Segundo-CA/University---2027-Summer-Games-Software-Developer-Intern---El-Segundo--CA_R0248046"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 470 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 472 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -269,6 +269,20 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Clerkie</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="http://getfiber.ai/careers?gh_jid=5225258007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Schweitzer Engineering Laboratories</td>
+      <td width="420" align="left" valign="top">Engineering Intern - Protection Systems Forensics</td>
+      <td width="180" align="left" valign="top">Pullman, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/SEL/job/Washington---Pullman/Engineering-Intern_2025-18137"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 28</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Disney</td>
       <td width="420" align="left" valign="top">System App Dev &amp; Sustainment Intern, Spring 2027</td>
@@ -395,23 +409,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Orange-OH-Ohio-United-States/Co-op---Software-Test-Automation-Engineer---Orange--OH---January-2027_581888"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Jupiter, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/Systems-Engineering-Intern--Onsite-_01868002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Intern - Systems Engineer (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-193--1120-Collins-Rd-NE--BLDG193/Intern---Systems-Engineer--Onsite-_01868046"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 516 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 518 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-08-29T03:18:41.086Z</code>
+      🕒 Last updated <code>2026-08-29T04:12:57.011Z</code>
     </span>
   </p>
 </div>
