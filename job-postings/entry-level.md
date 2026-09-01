@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Everlaw</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Oakland, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/everlaw/jobs/4705236006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris Technologies</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad 🎓</td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1425107000/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Katalyst Space Technologies</td>
       <td width="420" align="left" valign="top">Recent Graduate - Software Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Broomfield, CO</td>
@@ -1399,24 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.mitre.org/us/en/job/R117342?ph_id=R117342"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 26</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Citi</td>
-      <td width="420" align="left" valign="top">Security and Derivatives Intermediate Associate Analyst</td>
-      <td width="180" align="left" valign="top">Tampa, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Security-and-Derivatives-Intermediate-Associate-Analyst_26988717"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
-      <td width="420" align="left" valign="top">Systems Engineer</td>
-      <td width="180" align="left" valign="top">Cupertino, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200680183-0836/systems-engineer?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,323 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,325 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T00:39:11.553Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T02:03:29.305Z</code></sub>

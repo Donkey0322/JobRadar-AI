@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Aerotech</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern Co-op - Enterprise Development Team - Application Development Team<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Katalyst Space Technologies</td>
       <td width="420" align="left" valign="top">Engineering Intern (Electrical / Mechanical / GNC / Software) <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Broomfield, CO</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/audaxgroup/jobs/4722801005"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gulfstream</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern - Innovation, Engineering and Flight<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Savannah, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421676700/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 564 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 565 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T00:39:11.553Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T02:03:29.305Z</code></sub>

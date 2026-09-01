@@ -89,9 +89,9 @@
 
 Each category page shows up to 200 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 521 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 564 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,323 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 523 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 565 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,325 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 7,184 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,601 opportunities
 
@@ -112,6 +112,20 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Westinghouse Electric Company</td>
+      <td width="420" align="left" valign="top">Computer Engineering / Software Engineering Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Rock Hill, SC</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.westinghousenuclear.com/job/Rock-Hill-Summer-Intern-Computer-Engineering-Software-Engineering-SC-29730/1425163200/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cvent</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern - Summer 2027<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Tysons Corner, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.cvent.com/jobs/10806?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">IntegraFEC</td>
       <td width="420" align="left" valign="top">(SUMMER) Data Analyst Intern <br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
@@ -238,23 +252,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/hpiq/jobs/6140119004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern, Cloud Services (Summer 2027)</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/hpiq/jobs/6111955004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">IntegraFEC - Internships</td>
-      <td width="420" align="left" valign="top">(SUMMER) Data Analyst Intern <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/integrainterns/jobs/5406110008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 521 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 523 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -269,6 +269,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Aerotech</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern Co-op - Enterprise Development Team - Application Development Team<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Pittsburgh, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://aerotech.applytojob.com/apply/OFIYSpO0HW/Software-Engineering-Internship-Or-Coop-2027"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Katalyst Space Technologies</td>
       <td width="420" align="left" valign="top">Engineering Intern (Electrical / Mechanical / GNC / Software) <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -402,16 +409,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.tranetechnologies.com/global/en/job/JR-8912?ph_id=JR-8912"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cibc</td>
-      <td width="420" align="left" valign="top">2027 Spring Term Software Engineer Co-op - Chicago (Northeastern University)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://cibc.wd3.myworkdayjobs.com/search/job/Chicago-IL/XMLNAME-2027-Spring-Term-Software-Engineer-Co-op---Chicago--Northeastern-University-_2617782-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 564 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 565 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,20 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Everlaw</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Oakland, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/everlaw/jobs/4705236006"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3Harris Technologies</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad 🎓</td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Salt-Lake-City-Sr-Associate,-Software-Engineer-UT-84116/1425107000/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">August 31</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Katalyst Space Technologies</td>
       <td width="420" align="left" valign="top">Recent Graduate - Software Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -552,23 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10523031"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Alation</td>
-      <td width="420" align="left" valign="top">UX Software Engineer 1 - Contractor</td>
-      <td width="180" align="left" valign="top">Redwood City, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://alation.wd503.myworkdayjobs.com/ExternalSite/job/USA-CA-REDWOOD-CITY/UX-Software-Engineer-I--Contractor-_R10000770"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Strata Decision Technology</td>
-      <td width="420" align="left" valign="top">Analyst, Data Integration<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/stratacareers/jobs/7784495003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,323 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,325 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (12,785)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-01T00:39:11.553Z</code>
+      🕒 Last updated <code>2026-09-01T02:03:29.305Z</code>
     </span>
   </p>
 </div>
