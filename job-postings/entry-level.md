@@ -14,6 +14,41 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Huntington Ingalls Industries</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - CVN 21 Design<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Newport News, Virginia</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425127900/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1 - CVN 21 Design<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Newport News, Virginia</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.huntingtoningalls.com/job/Newport-News-ENGINEER-SOFTWARE-1-Virg/1425126300/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Capco</td>
+      <td width="420" align="left" valign="top">Junior AI / Data Engineering Analyst - Technology &amp; Engineering</td>
+      <td width="180" align="left" valign="top">Orlando, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/capco/jobs/8164958"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Siemens</td>
+      <td width="420" align="left" valign="top">Junior Software Development Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Grand Prairie, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://siemens.avature.net/en_US/externaljobs/JobDetail/520535"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ciena</td>
+      <td width="420" align="left" valign="top">Software Developer New Grad</td>
+      <td width="180" align="left" valign="top">Alpharetta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Highmarkhealth</td>
       <td width="420" align="left" valign="top">Associate Business Systems Analyst</td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -1378,45 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/burbank/analyst-distribution-planning-and-analysis/391/99774260736"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 26</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Mpc</td>
-      <td width="420" align="left" valign="top">Refining Engineer - Process Control Systems</td>
-      <td width="180" align="left" valign="top">Texas City, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://mpc.wd1.myworkdayjobs.com/mpccareers/job/Texas-City-Texas/Refining-Engineer---Process-Control-Systems_00023384"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ontic</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer - Full Stack<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Austin, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Ontic/d50b6bea-876f-43fc-afb9-716efe9eca02"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Everpure</td>
-      <td width="420" align="left" valign="top">Associate Systems Engineer</td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McKinney, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Boeing</td>
-      <td width="420" align="left" valign="top">Product Security Engineer (Product Security Engineer)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Berkeley, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Product-Security-Engineer--Product-Security-Engineer-_JR2026516106-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 26</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,331 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,336 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T13:33:58.731Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-01T17:34:51.943Z</code></sub>
