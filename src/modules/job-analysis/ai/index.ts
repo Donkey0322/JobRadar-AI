@@ -63,26 +63,33 @@ const JD_SCHEMA = {
   additionalProperties: false,
 };
 
+export function formatJDPrompt(rawJD: string) {
+  return `---BEGIN JD TEXT---\n${rawJD}\n---END JD TEXT---`;
+}
+
+export async function getAnalyzeJDConfig() {
+  const template = await readPromptFile(import.meta.dirname, "spec.txt");
+
+  return {
+    schema: JD_SCHEMA,
+    systemInstruction: buildPrompt(template, {
+      COUNTRIES: toBulletList(COUNTRIES),
+      JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
+      SEASONS: toBulletList(SEASON_VALUES),
+    }),
+  };
+}
+
 export default async function analyzeJD(context: string): Promise<AIResponse> {
   if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
 
   try {
-    const template = await readPromptFile(import.meta.dirname, "spec.txt");
-    const systemInstruction = buildPrompt(template, {
-      COUNTRIES: toBulletList(COUNTRIES),
-      JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
-      SEASONS: toBulletList(SEASON_VALUES),
+    const { schema, systemInstruction } = await getAnalyzeJDConfig();
+    const response = await callAIModel(formatJDPrompt(context), schema, {
+      systemInstruction,
     });
-
-    const response = await callAIModel(
-      `---BEGIN JD TEXT---\n${context}\n---END JD TEXT---`,
-      JD_SCHEMA,
-      {
-        systemInstruction,
-      }
-    );
     return response ?? { result: null, cost: 0 };
   } catch (e) {
     logger.error({ err: e }, `${RED_CROSS} Error calling AI Model`);

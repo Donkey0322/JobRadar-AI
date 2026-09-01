@@ -1,12 +1,21 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 
+import { CONFIG } from "@/constants";
+
 import {
+  isNotifyCandidate,
+  isNotifyTarget,
+  isTarget,
   isTechEntryLevel,
   isTechIntern,
   isTechMidLevel,
   isTechSeniorLevel,
+  isUnspecifiedTechLevel,
+  shouldBatchAnalyze,
   withinDays,
 } from "../filter";
+
+import { JobCategory } from "@/validation/config";
 
 afterEach(() => {
   vi.unstubAllEnvs();
@@ -47,10 +56,10 @@ describe("isTechEntryLevel", () => {
     expect(isTechEntryLevel("New Grad SWE")).toBe(true);
   });
 
-  it("accepts generic full time tech roles", () => {
-    expect(isTechEntryLevel("Software Engineer")).toBe(true);
-    expect(isTechEntryLevel("Frontend Developer")).toBe(true);
-    expect(isTechEntryLevel("Platform Engineer")).toBe(true);
+  it("rejects unspecified level titles", () => {
+    expect(isTechEntryLevel("Software Engineer")).toBe(false);
+    expect(isTechEntryLevel("Frontend Developer")).toBe(false);
+    expect(isTechEntryLevel("Platform Engineer")).toBe(false);
   });
 
   it("rejects mid level roles", () => {
@@ -80,9 +89,9 @@ describe("isTechMidLevel", () => {
     expect(isTechMidLevel("Mid Level Backend Engineer")).toBe(true);
   });
 
-  it("accepts generic full time tech roles", () => {
-    expect(isTechMidLevel("Software Engineer")).toBe(true);
-    expect(isTechMidLevel("Frontend Developer")).toBe(true);
+  it("rejects unspecified level titles", () => {
+    expect(isTechMidLevel("Software Engineer")).toBe(false);
+    expect(isTechMidLevel("Frontend Developer")).toBe(false);
   });
 
   it("rejects entry level roles", () => {
@@ -109,9 +118,9 @@ describe("isTechSeniorLevel", () => {
     expect(isTechSeniorLevel("Sr. Spclst , Software Engineering")).toBe(true);
   });
 
-  it("accepts generic full time tech roles", () => {
-    expect(isTechSeniorLevel("Software Engineer")).toBe(true);
-    expect(isTechSeniorLevel("Frontend Developer")).toBe(true);
+  it("rejects unspecified level titles", () => {
+    expect(isTechSeniorLevel("Software Engineer")).toBe(false);
+    expect(isTechSeniorLevel("Frontend Developer")).toBe(false);
   });
 
   it("rejects entry level roles", () => {
@@ -126,6 +135,104 @@ describe("isTechSeniorLevel", () => {
 
   it("rejects interns", () => {
     expect(isTechSeniorLevel("Software Engineer Intern")).toBe(false);
+  });
+});
+
+describe("isUnspecifiedTechLevel", () => {
+  it("accepts tech titles with no level signal", () => {
+    expect(isUnspecifiedTechLevel("Software Engineer")).toBe(true);
+    expect(isUnspecifiedTechLevel("Frontend Developer")).toBe(true);
+    expect(isUnspecifiedTechLevel("Platform Engineer")).toBe(true);
+  });
+
+  it("rejects intern and explicit level titles", () => {
+    expect(isUnspecifiedTechLevel("Software Engineer Intern")).toBe(false);
+    expect(isUnspecifiedTechLevel("Junior Backend Engineer")).toBe(false);
+    expect(isUnspecifiedTechLevel("Software Engineer II")).toBe(false);
+    expect(isUnspecifiedTechLevel("Senior Software Engineer")).toBe(false);
+  });
+
+  it("rejects non-tech roles", () => {
+    expect(isUnspecifiedTechLevel("Sales Associate")).toBe(false);
+  });
+});
+
+describe("isTarget", () => {
+  it("keeps intern and unspecified titles when includeAllTechJobs is enabled", () => {
+    expect(isTarget("Software Engineer Intern", true)).toBe(true);
+    expect(isTarget("Software Engineer", true)).toBe(true);
+    expect(isTarget("Junior Backend Engineer", true)).toBe(true);
+    expect(isTarget("Software Engineer II", true)).toBe(
+      isNotifyTarget("Software Engineer II")
+    );
+    expect(isTarget("Senior Software Engineer", true)).toBe(
+      isNotifyTarget("Senior Software Engineer")
+    );
+  });
+
+  it("keeps notify matches and unspecified titles when includeAllTechJobs is off", () => {
+    expect(isTarget("Software Engineer Intern", false)).toBe(
+      isNotifyCandidate("Software Engineer Intern")
+    );
+    expect(isTarget("Junior Backend Engineer", false)).toBe(true);
+    expect(isTarget("Software Engineer", false)).toBe(true);
+    expect(isTarget("Software Engineer II", false)).toBe(false);
+    expect(isTarget("Senior Software Engineer", false)).toBe(false);
+  });
+
+  it("rejects non-tech roles", () => {
+    expect(isTarget("Marketing Intern")).toBe(false);
+    expect(isTarget("Sales Associate")).toBe(false);
+  });
+});
+
+describe("shouldBatchAnalyze", () => {
+  it("batches intern and unspecified titles when includeAllTechJobs is enabled", () => {
+    expect(shouldBatchAnalyze("Software Engineer", true)).toBe(true);
+    expect(shouldBatchAnalyze("Software Engineer Intern", true)).toBe(
+      !isNotifyTarget("Software Engineer Intern")
+    );
+    expect(shouldBatchAnalyze("Junior Backend Engineer", true)).toBe(false);
+    expect(shouldBatchAnalyze("Software Engineer II", true)).toBe(false);
+    expect(shouldBatchAnalyze("Senior Software Engineer", true)).toBe(false);
+  });
+
+  it("only batches unspecified titles when includeAllTechJobs is off", () => {
+    expect(shouldBatchAnalyze("Software Engineer", false)).toBe(true);
+    expect(shouldBatchAnalyze("Frontend Developer", false)).toBe(true);
+    expect(shouldBatchAnalyze("Software Engineer II", false)).toBe(false);
+    expect(shouldBatchAnalyze("Senior Software Engineer", false)).toBe(false);
+    expect(shouldBatchAnalyze("Junior Backend Engineer", false)).toBe(false);
+  });
+});
+
+describe("isNotifyCandidate", () => {
+  it("matches notify titles and unspecified tech titles regardless of dashboard mode", () => {
+    expect(isNotifyCandidate("Junior Backend Engineer")).toBe(true);
+    expect(isNotifyCandidate("Software Engineer")).toBe(true);
+    expect(isNotifyCandidate("Software Engineer Intern")).toBe(
+      isNotifyTarget("Software Engineer Intern")
+    );
+    expect(isNotifyCandidate("Software Engineer II")).toBe(false);
+    expect(isNotifyCandidate("Senior Software Engineer")).toBe(false);
+  });
+});
+
+describe("isNotifyTarget", () => {
+  it("keeps intern and explicit entry-level tech titles when those categories are configured", () => {
+    expect(isNotifyTarget("Junior Backend Engineer")).toBe(true);
+    expect(isNotifyTarget("Software Engineer Intern")).toBe(
+      Boolean(
+        CONFIG.target.intern?.includes(JobCategory.SUMMER_INTERN) ||
+          CONFIG.target.intern?.includes(JobCategory.OFF_SEASON_INTERN)
+      )
+    );
+  });
+
+  it("rejects unspecified and explicit mid/senior titles when those categories are not configured", () => {
+    expect(isNotifyTarget("Software Engineer")).toBe(false);
+    expect(isNotifyTarget("Software Engineer II")).toBe(false);
+    expect(isNotifyTarget("Senior Software Engineer")).toBe(false);
   });
 });
 

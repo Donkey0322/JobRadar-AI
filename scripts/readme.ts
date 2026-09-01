@@ -7,9 +7,11 @@ import { getSeasonYears } from "@/constants/season";
 import type { JD, Opportunity } from "@/types/jobs";
 import type { Config } from "@/validation/config";
 
+import { includeAllTechJobs } from "@/modules/ats/core/filter";
 import { loadOpportunities } from "@/utils/data";
 import { escapeHtml } from "@/utils/html";
 import { getJobKey } from "@/utils/job-key";
+import { JobCategory } from "@/validation/config";
 
 type TableRow = [string, string, string, string, string];
 
@@ -31,6 +33,16 @@ const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
 const MAX_JOBS_PER_README_SECTION = 20;
 const MAX_JOBS_PER_CATEGORY_PAGE = 200;
+
+/**
+ * Expanded dashboards keep this intern/entry layout even if config later
+ * adds mid/senior for email notify. Template users still follow config.
+ */
+const EXPANDED_BOARD_CATEGORIES = [
+  JobCategory.SUMMER_INTERN,
+  JobCategory.OFF_SEASON_INTERN,
+  JobCategory.ENTRY_LEVEL,
+];
 
 const BADGE_CITIZENSHIP = `<img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" />`;
 
@@ -80,7 +92,7 @@ async function main() {
   reopenedJobKeys = detectReopenedKeys(opportunities);
 
   const allowedCountries = new Set(CONFIG.target.countries.map(normalizeCountry));
-  const targetCategories = new Set(buildTargetCategories(CONFIG));
+  const targetCategories = new Set(buildDisplayCategories(CONFIG));
   const categoryOrder = buildCategoryOrder(CONFIG);
   const generatedAt = new Date();
 
@@ -107,14 +119,25 @@ async function main() {
     outsideTargetCategoryOpportunities,
     categoryOrder
   );
-  const allGrouped = groupByCategory(countryMatched, categoryOrder);
+  const extraCategoryOpportunities = includeAllTechJobs()
+    ? outsideTargetCategoryOpportunities
+    : [];
+  const extraCategoryGrouped = includeAllTechJobs()
+    ? outsideTargetCategoryGrouped
+    : new Map<string, Opportunity[]>();
+  const allGrouped = includeAllTechJobs()
+    ? withCategorySlots(
+        groupByCategory(countryMatched, categoryOrder),
+        JOB_CATEGORIES.map(normalizeCategory)
+      )
+    : grouped;
 
   const markdown = buildReadme({
     config: CONFIG,
     targetOpportunities,
     grouped,
-    outsideTargetCategoryOpportunities,
-    outsideTargetCategoryGrouped,
+    outsideTargetCategoryOpportunities: extraCategoryOpportunities,
+    outsideTargetCategoryGrouped: extraCategoryGrouped,
     allGrouped,
     generatedAt,
   });
@@ -127,8 +150,16 @@ async function main() {
   console.log(`Category pages generated: ${allGrouped.size}`);
   console.log(`Target opportunities included: ${targetOpportunities.length}`);
   console.log(
-    `Same-country opportunities outside target categories included in toggle: ${outsideTargetCategoryOpportunities.length}`
+    `Same-country opportunities outside target categories included in toggle: ${extraCategoryOpportunities.length}`
   );
+}
+
+function buildDisplayCategories(config: Config): string[] {
+  if (includeAllTechJobs()) {
+    return EXPANDED_BOARD_CATEGORIES.map(normalizeCategory);
+  }
+
+  return buildTargetCategories(config);
 }
 
 function buildTargetCategories(config: Config): string[] {
@@ -139,7 +170,7 @@ function buildTargetCategories(config: Config): string[] {
 }
 
 function buildCategoryOrder(config: Config): string[] {
-  return unique([...buildTargetCategories(config), ...JOB_CATEGORIES.map(normalizeCategory)]);
+  return unique([...buildDisplayCategories(config), ...JOB_CATEGORIES.map(normalizeCategory)]);
 }
 
 function groupByCategory(
@@ -177,6 +208,21 @@ function sortCategoryGroups(
       return categoryA.localeCompare(categoryB);
     })
   );
+}
+
+function withCategorySlots(
+  groups: Map<string, Opportunity[]>,
+  categories: string[]
+): Map<string, Opportunity[]> {
+  const next = new Map(groups);
+
+  for (const category of categories) {
+    if (!next.has(category)) {
+      next.set(category, []);
+    }
+  }
+
+  return sortCategoryGroups(next, categories);
 }
 
 function buildReadme(input: {

@@ -73,6 +73,17 @@ const AISchema = z.discriminatedUnion("enabled", [
 export const ConfigSchema = z.object({
   target: TargetSchema,
 
+  /**
+   * Owner-only expanded dashboard. Omitted from the setup issue form.
+   * When true, intern titles still run for the board even if intern is not
+   * in notify config. Mid/senior only run when those categories are configured.
+   */
+  dashboard: z
+    .object({
+      includeAllTechJobs: z.boolean().optional(),
+    })
+    .optional(),
+
   ai: AISchema,
 
   sender: z.object({

@@ -19,6 +19,25 @@ export interface GenerateOptions {
   systemInstruction?: string;
 }
 
+export interface BatchGenerateRequest {
+  key: string;
+  prompt: string;
+  schema: Schema;
+  systemInstruction?: string;
+}
+
+export interface BatchGenerateResult {
+  key: string;
+  result: string | null;
+  cost: number;
+  error?: string;
+}
+
+export type BatchJobStatus =
+  | { state: "pending" }
+  | { state: "succeeded"; results: BatchGenerateResult[] }
+  | { state: "failed"; error: string };
+
 export interface AIProvider {
   generate(
     prompt: string,
@@ -27,6 +46,11 @@ export interface AIProvider {
     options?: GenerateOptions
   ): Promise<AIResponse>;
   validateModel(model: string): Promise<void>;
+  submitBatch?(
+    requests: BatchGenerateRequest[],
+    model: string
+  ): Promise<{ name: string } | null>;
+  getBatch?(name: string): Promise<BatchJobStatus>;
 }
 
 type RetryableFn<T> = () => Promise<T>;

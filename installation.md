@@ -16,7 +16,7 @@ flowchart TD
   C[ATS / company discovery] --> D[Crawl job pages]
   B --> E[Normalize jobs]
   D --> E
-  E --> F[Optional AI JD analysis]
+  E --> F[Real-time or batch AI analysis]
   F --> G[Filter by config.json]
   E --> G
   G --> H[Write data files]
@@ -30,6 +30,7 @@ The important pieces are:
 - `config.json` controls target roles, countries, keywords, AI provider/model, SMTP sender, and receiver email.
 - GitHub Actions runs the sync/discovery workflows on a schedule.
 - Newly discovered jobs are committed into `data/`.
+- Titles that match your notify config are analyzed in real time. Unspecified-level titles go through cheaper batch analysis. On an expanded dashboard, intern titles also batch even if intern is not in notify config.
 - A notification workflow sends emails only for newly updated job data.
 - A README update workflow regenerates the job board when config or job data changes.
 
@@ -373,6 +374,28 @@ pnpm jobctl scan
 
 It discovers jobs from supported ATS/company sources and commits new job data if anything changed.
 
+### Batch Analysis Pipeline
+
+Workflow file:
+
+```text
+.github/workflows/batch-analysis.yml
+```
+
+Manual run:
+
+```text
+Actions → Batch Analysis Pipeline → Run workflow
+```
+
+This runs:
+
+```bash
+pnpm jobctl batch
+```
+
+It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), collects finished results, and writes them to `data/`. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
+
 ### Notify Latest Jobs
 
 Workflow file:
@@ -484,6 +507,23 @@ schedule:
   - cron: "0 13,23 * * *"
 ```
 
+### Batch Analysis Pipeline
+
+File:
+
+```text
+.github/workflows/batch-analysis.yml
+```
+
+Current schedule:
+
+```yaml
+schedule:
+  - cron: "50 * * * *"
+```
+
+This runs once per hour at minute 50, after ATS discovery and between community syncs. A job queued in one hour is typically submitted the next hour and collected after that.
+
 ### Notify Latest Jobs
 
 File:
@@ -557,6 +597,7 @@ AI cost depends on:
 - Output size
 - Selected model
 - Whether AI is enabled
+- Whether a job used real-time analysis or the cheaper Batch API (about 50% of real-time price)
 
 The default model in the issue form is:
 
@@ -799,6 +840,7 @@ Try:
 - Reduce target countries.
 - Reduce keywords.
 - Check provider dashboard usage.
+- Confirm non-notify titles are going through `pnpm jobctl batch` instead of real-time analysis.
 
 ---
 
@@ -834,6 +876,12 @@ Run ATS discovery:
 pnpm jobctl scan
 ```
 
+Collect and submit batch analysis:
+
+```bash
+pnpm jobctl batch
+```
+
 Update README:
 
 ```bash
@@ -861,4 +909,5 @@ pnpm preview-email
 - [ ] Setup issue closed successfully
 - [ ] Manually ran Community Sync once
 - [ ] Manually ran ATS Discovery once
+- [ ] Manually ran Batch Analysis once
 - [ ] Confirmed notification email works

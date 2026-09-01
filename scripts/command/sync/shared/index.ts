@@ -3,9 +3,11 @@ import pLimit from "p-limit";
 import { RED_CROSS } from "@/constants/log";
 
 import type { Job } from "@/types";
-import type { Opportunity } from "@/types/jobs";
+import type { JD, Opportunity } from "@/types/jobs";
 
+import { isNotifyCandidate, shouldBatchAnalyze } from "@/modules/ats/core/filter";
 import getJD, { isEligibleJD } from "@/modules/job-analysis";
+import { enqueueBatchJobs } from "@/modules/job-analysis/batch-queue";
 import { buildCompanyList } from "@/modules/job-discovery/company";
 import { loadJobs, loadOpportunities, loadUrls, saveOpportunities } from "@/utils/data";
 import { saveJob, saveUrls } from "@/utils/data";
@@ -118,10 +120,12 @@ export async function processJobs({
   logger.info({ count: incomingJobs.length }, "👑 Finalizing jobs...");
 
   const jobs: Job[] = [];
+  const batchedJobs: Job[] = [];
 
   let totalCost = 0;
   let skipped = 0;
   let failed = 0;
+  let batched = 0;
   let forceStopped = false;
 
   const limit = pLimit(AI_CONCURRENCY);
@@ -159,6 +163,13 @@ export async function processJobs({
             type: "skip" as const,
             job,
             reason: "filter",
+          };
+        }
+
+        if (shouldBatchAnalyze(job.role)) {
+          return {
+            type: "batch" as const,
+            job,
           };
         }
 
@@ -223,6 +234,23 @@ export async function processJobs({
       continue;
     }
 
+    if (result.type === "batch") {
+      markAsSeen(result.job);
+      batchedJobs.push(result.job);
+      batched += 1;
+
+      logger.info(
+        {
+          company: result.job.company,
+          role: result.job.role,
+          url: result.job.link,
+        },
+        "📦 Queued for batch analysis"
+      );
+
+      continue;
+    }
+
     const { job, jd, cost } = result;
 
     if (!jd) {
@@ -261,10 +289,30 @@ export async function processJobs({
       continue;
     }
 
+    if (!isNotifyCandidate(job.role)) {
+      markAsSeen(job);
+      skipped += 1;
+
+      logger.info(
+        {
+          company: job.company,
+          role: job.role,
+          url: job.link,
+        },
+        "⏭️ Dashboard-only job; notify follows config titles"
+      );
+
+      continue;
+    }
+
     currentId += 1;
     job.id = currentId;
     markAsSeen(job);
     jobs.push(job);
+  }
+
+  if (batchedJobs.length > 0) {
+    await enqueueBatchJobs(batchedJobs);
   }
 
   await saveUrls(urls);
@@ -303,12 +351,12 @@ export async function processJobs({
 
   if (jobs.length > 0) {
     logger.info(
-      { cost: totalCost, skipped, failed },
+      { cost: totalCost, skipped, failed, batched },
       `💰 Processed jobs!!! We found ${jobs.length} jobs that match your criteria`
     );
   } else {
     logger.info(
-      { cost: totalCost, skipped, failed },
+      { cost: totalCost, skipped, failed, batched },
       "💰 Currently no newly found jobs that match your criteria"
     );
   }
@@ -318,7 +366,139 @@ export async function processJobs({
     count: jobs.length,
     skipped,
     failed,
+    batched,
     totalCost,
     forceStopped,
+  };
+}
+
+export async function persistAnalyzedJobs(
+  analyzed: Array<{ job: Job; jd: JD; cost: number }>
+) {
+  if (analyzed.length === 0) {
+    return {
+      jobs: [] as Job[],
+      count: 0,
+      skipped: 0,
+      totalCost: 0,
+    };
+  }
+
+  const { currentId: startingId } = await createSyncContext();
+  let currentId = startingId;
+  const existingOpportunities = await loadOpportunities();
+  const opportunityIndexByKey = new Map<string, number>();
+
+  for (let index = 0; index < existingOpportunities.length; index++) {
+    const key = getJobKey(existingOpportunities[index]!.link);
+
+    if (!opportunityIndexByKey.has(key)) {
+      opportunityIndexByKey.set(key, index);
+    }
+  }
+
+  let opportunitiesMutated = false;
+  const appendedOpportunities: Opportunity[] = [];
+  const jobs: Job[] = [];
+  let skipped = 0;
+  let totalCost = 0;
+
+  function markAsSeen(job: Job) {
+    const key = getJobKey(job.link);
+    const existingIndex = opportunityIndexByKey.get(key);
+    const nextOpportunity: Opportunity = {
+      ...job,
+      postedAt:
+        existingIndex !== undefined
+          ? existingOpportunities[existingIndex]!.postedAt
+          : new Date().toISOString(),
+      expired: false,
+    };
+
+    if (existingIndex !== undefined) {
+      existingOpportunities[existingIndex] = nextOpportunity;
+      opportunitiesMutated = true;
+    } else {
+      opportunityIndexByKey.set(key, existingOpportunities.length + appendedOpportunities.length);
+      appendedOpportunities.push(nextOpportunity);
+    }
+  }
+
+  for (const item of analyzed) {
+    const job = item.job;
+    job.jd = item.jd;
+    totalCost += item.cost;
+
+    const [eligible, reason] = isEligibleJD(item.jd);
+
+    if (!eligible) {
+      markAsSeen(job);
+      skipped += 1;
+
+      logger.info(
+        {
+          company: job.company,
+          role: job.role,
+          url: job.link,
+          reason,
+        },
+        "⏭️ Skipped by eligibility filter"
+      );
+      continue;
+    }
+
+    if (!isNotifyCandidate(job.role)) {
+      markAsSeen(job);
+      skipped += 1;
+
+      logger.info(
+        {
+          company: job.company,
+          role: job.role,
+          url: job.link,
+        },
+        "⏭️ Dashboard-only job; notify follows config titles"
+      );
+      continue;
+    }
+
+    currentId += 1;
+    job.id = currentId;
+    markAsSeen(job);
+    jobs.push(job);
+  }
+
+  await saveJob(jobs);
+
+  if (opportunitiesMutated) {
+    const seenKeys = new Set<string>();
+    const merged = [...existingOpportunities, ...appendedOpportunities].filter((opportunity) => {
+      const key = getJobKey(opportunity.link);
+
+      if (seenKeys.has(key)) {
+        return false;
+      }
+
+      seenKeys.add(key);
+      return true;
+    });
+
+    await saveOpportunities(merged, true);
+  } else if (appendedOpportunities.length > 0) {
+    await saveOpportunities(appendedOpportunities);
+  }
+
+  if (jobs.length > 0) {
+    logger.info(
+      { cost: totalCost, skipped },
+      `💰 Batch analysis found ${jobs.length} jobs that match your criteria`
+    );
+  }
+
+  return {
+    jobs,
+    count: jobs.length,
+    skipped,
+    totalCost,
   };
 }

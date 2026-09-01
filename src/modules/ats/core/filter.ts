@@ -193,19 +193,9 @@ export function isTechEntryLevel(title: string) {
   if (!isTech(t)) return false;
   if (isNonTech(t)) return false;
   if (isIntern(t)) return false;
+  if (isMid(t) || isSenior(t)) return false;
 
-  const entry = isEntry(t);
-  const mid = isMid(t);
-  const senior = isSenior(t);
-
-  // explicitly mid/senior
-  if (mid || senior) return false;
-
-  // explicitly entry
-  if (entry) return true;
-
-  // unspecified level => allow
-  return true;
+  return isEntry(t);
 }
 
 export function isTechMidLevel(title: string) {
@@ -215,15 +205,7 @@ export function isTechMidLevel(title: string) {
   if (isNonTech(t)) return false;
   if (isIntern(t)) return false;
 
-  const entry = isEntry(t);
-  const mid = isMid(t);
-  const senior = isSenior(t);
-
-  if (mid) return true;
-
-  if (entry || senior) return false;
-
-  return true;
+  return isMid(t);
 }
 
 export function isTechSeniorLevel(title: string) {
@@ -233,18 +215,71 @@ export function isTechSeniorLevel(title: string) {
   if (isNonTech(t)) return false;
   if (isIntern(t)) return false;
 
-  const entry = isEntry(t);
-  const mid = isMid(t);
-  const senior = isSenior(t);
+  return isSenior(t);
+}
 
-  if (senior) return true;
+/**
+ * Owner-only: keep intern titles on the dashboard even if intern is not in
+ * notify config. Country scope still comes from `target.countries`.
+ * Mid/senior are only crawled when those categories are configured.
+ * Template users omit this flag.
+ */
+export function includeAllTechJobs() {
+  return CONFIG.dashboard?.includeAllTechJobs === true;
+}
 
-  if (entry || mid) return false;
+/**
+ * Tech role with no intern / entry / mid / senior signal in the title.
+ * These are queued for batch analysis instead of real-time notify.
+ */
+export function isUnspecifiedTechLevel(title: string) {
+  const t = normalize(title);
+
+  if (!isTech(t)) return false;
+  if (isNonTech(t)) return false;
+  if (isIntern(t) || isEntry(t) || isMid(t) || isSenior(t)) return false;
 
   return true;
 }
 
-export function isTarget(title: string) {
+/**
+ * Titles that can produce email notify. Dashboard mode does not change this:
+ * configured intern/full-time titles, plus unspecified-level tech titles
+ * whose JD may later match config.
+ */
+export function isNotifyCandidate(title: string) {
+  return isNotifyTarget(title) || isUnspecifiedTechLevel(title);
+}
+
+/**
+ * Listing / discovery filter.
+ * Always keep notify titles and unspecified-level tech titles.
+ * Expanded dashboards also keep intern titles when intern is not in config.
+ * Mid/senior stay off unless those categories are configured.
+ */
+export function isTarget(title: string, expanded = includeAllTechJobs()) {
+  if (isNotifyCandidate(title)) return true;
+  return expanded && isTechIntern(title);
+}
+
+/**
+ * Real-time vs batch routing after discovery.
+ * Notify titles stay on the real-time path.
+ * Unspecified titles always batch.
+ * Expanded dashboards also batch intern titles that are not in notify config.
+ */
+export function shouldBatchAnalyze(title: string, expanded = includeAllTechJobs()) {
+  if (isNotifyTarget(title)) return false;
+  if (isUnspecifiedTechLevel(title)) return true;
+  return expanded && isTechIntern(title);
+}
+
+/**
+ * Notification-priority heuristic from title + configured intern/full-time
+ * categories. Only explicit level signals count; unspecified titles are not
+ * treated as a match. Matching jobs use the original real-time analysis path.
+ */
+export function isNotifyTarget(title: string) {
   const status =
     (CONFIG.target?.intern?.includes(JobCategory.SUMMER_INTERN) && isTechIntern(title)) ||
     (CONFIG.target?.intern?.includes(JobCategory.OFF_SEASON_INTERN) && isTechIntern(title)) ||

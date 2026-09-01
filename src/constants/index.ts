@@ -21,12 +21,15 @@ export const OPPORTUNITY_ARCHIVE_CHUNK = 5000;
 export const JD_PATH = path.join(DATA_PATH, "jd");
 export const COMPANY_PATH = path.join(DATA_PATH, "company.json");
 export const ERROR_LOG_PATH = path.join(DATA_PATH, "discover-errors.log");
+export const BATCH_QUEUE_PATH = path.join(DATA_PATH, "batch-queue.ndjson");
+export const BATCH_INFLIGHT_PATH = path.join(DATA_PATH, "batch-inflight.json");
 
 export { default as SEASONS } from "./season";
 export { default as COUNTRIES } from "./country";
 
 export const CONFIG: Config & { sender: { pass: string } } = {
   target: parsedConfig.target,
+  dashboard: parsedConfig.dashboard,
   ai: parsedConfig.ai,
   sender: {
     host: parsedConfig.sender.host,

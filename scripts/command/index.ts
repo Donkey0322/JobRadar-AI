@@ -50,6 +50,17 @@ notify
     await notifyCommit(commit);
   });
 
+program
+  .command("batch")
+  .description("Submit and collect cheaper batch analysis for queued jobs")
+  .action(async () => {
+    const { default: checkConfig } = await import("./setup/checkConfig");
+    await checkConfig();
+
+    const { default: runBatch } = await import("./batch");
+    await runBatch();
+  });
+
 const setup = program.command("setup");
 
 setup.command("check-config").action(async () => {

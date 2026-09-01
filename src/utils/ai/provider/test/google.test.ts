@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { calculateGoogleCost } from "../google";
+import { calculateGoogleCost, GOOGLE_BATCH_DISCOUNT } from "../google";
 
 describe("calculateGoogleCost", () => {
   it("returns 0 when usage metadata is missing", () => {
@@ -21,5 +21,17 @@ describe("calculateGoogleCost", () => {
       (262 + 1644) * (2.5 / 1_000_000);
 
     expect(cost).toBeCloseTo(expected, 10);
+  });
+
+  it("discounts batch analysis at 50% of real-time cost", () => {
+    const usage = {
+      promptTokenCount: 1000,
+      candidatesTokenCount: 200,
+    };
+
+    expect(calculateGoogleCost(usage) * GOOGLE_BATCH_DISCOUNT).toBeCloseTo(
+      calculateGoogleCost(usage) / 2,
+      10
+    );
   });
 });

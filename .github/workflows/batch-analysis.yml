@@ -1,0 +1,81 @@
+name: Batch Analysis Pipeline
+run-name: 📦 Batch Analysis Pipeline
+
+on:
+  schedule:
+    # After ATS discovery at :10 and between community syncs.
+    - cron: "50 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: job-data-sync
+  cancel-in-progress: false
+
+jobs:
+  batch-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: 11.7.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check configuration
+        run: pnpm jobctl setup check-config
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+
+      - name: Run batch analysis
+        id: batch
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          PAT: ${{ secrets.PAT }}
+          LOG_PRETTY: "1"
+        run: |
+          pnpm jobctl batch
+
+          if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No batch analysis changes."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push updated data
+        if: steps.batch.outputs.has_changes == 'true'
+        env:
+          PAT: ${{ secrets.PAT }}
+        run: |
+          git config user.name "actions-bot"
+          git config user.email "actions@github.com"
+
+          git add data/
+          git commit -m "chore(batch): collect and submit batch analysis"
+
+          git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:${{ github.ref_name }}
