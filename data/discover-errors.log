@@ -105,3 +105,29 @@
 2026-09-01T22:31:42.011Z Workday: vhr-genband - 422 - Unprocessable Entity
 2026-09-01T22:31:42.427Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-09-01T22:31:43.602Z Workday: walmart - 422 - Unprocessable Entity
+2026-09-01T22:51:47.082Z Workday: acehardware - 500 - Internal Server Error
+2026-09-01T22:52:12.455Z Workday: cff - 422 - Unprocessable Entity
+2026-09-01T22:52:14.654Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-09-01T22:52:15.377Z Workday: cmu - 422 - Unprocessable Entity
+2026-09-01T22:52:16.147Z Workday: comcast - 410 - Gone
+2026-09-01T22:52:24.591Z Workday: elkay - 500 - Internal Server Error
+2026-09-01T22:52:34.254Z Workday: geico - 500 - Internal Server Error
+2026-09-01T22:52:34.529Z Greenhouse: glossgenius - 404 - Not Found
+2026-09-01T22:52:36.526Z Workday: gtsgbu - 403 - Forbidden
+2026-09-01T22:52:44.352Z Workday: idexx - 422 - Unprocessable Entity
+2026-09-01T22:52:48.084Z Greenhouse: jobs - 404 - Not Found
+2026-09-01T22:52:50.207Z Workday: kar - 422 - Unprocessable Entity
+2026-09-01T22:52:59.759Z Eightfold: mlp - 403 - FORBIDDEN
+2026-09-01T22:53:00.805Z Greenhouse: mqreferrals - 404 - Not Found
+2026-09-01T22:53:04.737Z Workday: nordstrom - 500 - Internal Server Error
+2026-09-01T22:53:06.936Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-09-01T22:53:07.083Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-09-01T22:53:07.313Z Workday: otis - 422 - Unprocessable Entity
+2026-09-01T22:53:09.536Z Workday: plexus - 422 - Unprocessable Entity
+2026-09-01T22:53:14.106Z Workday: regions - 500 - Internal Server Error
+2026-09-01T22:53:25.717Z Lever: SprinterHealth - 404 - Not Found
+2026-09-01T22:53:28.595Z Workday: symbotic - 422 - Unprocessable Entity
+2026-09-01T22:53:34.565Z Workday: truist - 500 - Internal Server Error
+2026-09-01T22:53:38.526Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-09-01T22:53:38.639Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-09-01T22:53:39.790Z Workday: walmart - 422 - Unprocessable Entity
