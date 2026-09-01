@@ -4442,6 +4442,7 @@
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Birmingham-GBR/Software-Engineer--Education_26WD99981-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Birmingham-GBR/Software-Engineer_26WD99922-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Bucharest-ROU/Software-Quality-Assurance-Engineer---Software-Engineer-in-Test_26WD100450-2",
+      "https://autodesk.wd1.myworkdayjobs.com/ext/job/California-USA---Remote/Data-Scientist--FP-A-Solutions_26WD100824-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Dublin-IRL/Software-Engineer_26WD95861-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/EMEA---Poland---Krakw---Lubomirskiego/Full-Stack-Software-Development-Engineer_26WD100101-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/EMEA---Poland---Krakw---Lubomirskiego/Full-Stack-Software-Development-Engineer_26WD100347",
@@ -4466,8 +4467,7 @@
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Software-Developer--MCP-AI_26WD99364-1",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Software-Developer_26WD100579",
       "https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Software-Developer_26WD100821-1",
-      "https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Software-Engineer_26WD100762-1",
-      "https://autodesk.wd1.myworkdayjobs.com/ext/job/California-USA---Remote/Data-Scientist--FP-A-Solutions_26WD100824-1"
+      "https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/Software-Engineer_26WD100762-1"
     ]
   },
   {
@@ -12344,7 +12344,10 @@
       "https://www.disneycareers.com/job/glendale/sr-mgr-product-software-engineering/391/99352768464",
       "https://www.disneycareers.com/job/new-york/sr-software-engineer/391/92822792160",
       "https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/99491637072",
-      "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer/391/95339265088"
+      "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer/391/95339265088",
+      "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-ios/391/100046596368",
+      "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-roku-engineering/391/100046596304",
+      "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/88160109024"
     ]
   },
   {
@@ -14128,10 +14131,10 @@
       "https://jobs.ashbyhq.com/fab2/3c7fd0f1-b25f-413c-8e62-6ef00a9d47da",
       "https://jobs.ashbyhq.com/fab2/4e3958f5-4e0d-4acc-9072-e40822ddf904",
       "https://jobs.ashbyhq.com/fab2/4e4f8c44-2f9b-4cb4-9e44-01d24b367b2f",
-      "https://jobs.ashbyhq.com/fab2/a38a0787-aeb3-491f-8a21-eff8975a4c32",
-      "https://jobs.ashbyhq.com/fab2/f38b33e7-149e-45b2-b03f-fb8c1b437765",
+      "https://jobs.ashbyhq.com/fab2/73ea74f8-e72a-432a-92aa-5f90f77679ed",
       "https://jobs.ashbyhq.com/fab2/8a5418ba-b893-47aa-b503-483129111325",
-      "https://jobs.ashbyhq.com/fab2/73ea74f8-e72a-432a-92aa-5f90f77679ed"
+      "https://jobs.ashbyhq.com/fab2/a38a0787-aeb3-491f-8a21-eff8975a4c32",
+      "https://jobs.ashbyhq.com/fab2/f38b33e7-149e-45b2-b03f-fb8c1b437765"
     ]
   },
   {
@@ -15379,7 +15382,8 @@
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Lynn/T408-Systems-Engineer_R5038704-2",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/AI-Process-Engineer_R5036399-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Sr-AI-Data-Engineer_R5039157-1",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1"
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1",
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Fluid-Systems-Engineering-Intern---GE9X-LEAP-Accessories_R5037675-1"
     ]
   },
   {
@@ -15620,10 +15624,10 @@
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Vehicle-Mass-Systems---Tools-Engineer_JR-202619332-1",
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Vehicle-Systems-Engineer--ADAS-and-Chassis_JR-202616242",
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Vehicle-Systems-Engineer_JR-202618088",
+      "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Engineering--Global-Propulsion-Systems_JR-202619351",
       "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Engineering-Global-Automation_JR-202619348",
       "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Milford-Michigan-United-States-of-America/Entry-Level-Software-Engineer_JR-202618501",
-      "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level-Software-Engineer_JR-202618756",
-      "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Manufacturing-Engineering--Global-Propulsion-Systems_JR-202619351"
+      "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level-Software-Engineer_JR-202618756"
     ]
   },
   {
@@ -21016,7 +21020,8 @@
       "https://jobs.smartrecruiters.com/LLNL/3743990014883026",
       "https://jobs.smartrecruiters.com/LLNL/3743990014934566",
       "https://jobs.smartrecruiters.com/LLNL/3743990014949434",
-      "https://jobs.smartrecruiters.com/LLNL/3743990014977291"
+      "https://jobs.smartrecruiters.com/LLNL/3743990014977291",
+      "https://jobs.smartrecruiters.com/LLNL/3743990015004456"
     ]
   },
   {
@@ -23332,7 +23337,8 @@
       "https://explore.jobs.netflix.net/careers/job/790318126309",
       "https://explore.jobs.netflix.net/careers/job/790318140112",
       "https://explore.jobs.netflix.net/careers/job/790318161607",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
+      "https://explore.jobs.netflix.net/careers/job/790318313236"
     ]
   },
   {
@@ -30066,7 +30072,8 @@
     "urls": [
       "https://jobs.spectrum.com/job/allendale/data-center-engineer-i/4673/99985942176",
       "https://jobs.spectrum.com/job/charlotte/business-intelligence-app-developer-iv/6612/99695206704",
-      "https://jobs.spectrum.com/job/greenwood-village/data-scientist-iv/4673/99874997168"
+      "https://jobs.spectrum.com/job/greenwood-village/data-scientist-iv/4673/99874997168",
+      "https://jobs.spectrum.com/job/stamford/data-scientist/4673/98486255872"
     ]
   },
   {
