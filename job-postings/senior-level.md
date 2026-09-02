@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Specialist, Software Engineering 1 Engineering Salt Lake City, UT<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/salt-lake-city/specialist-software-engineering-1/4832/100051411584"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Vanguard</td>
       <td width="420" align="left" valign="top">Cloud Engineer, Specialist<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Wayne, PA</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://nwis.wd12.myworkdayjobs.com/nw/job/Sterling-VA/Systems-Implementation-Engineer_JR101993"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="OpenAI" src="../assets/featured-badges/openai.svg" /></td>
-      <td width="420" align="left" valign="top">Systems Integration Engineer, Build Systems | Consumer Devices</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/9104a37c-6ae0-499b-a2f7-2785e63b5f0c"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 5,709 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 5,710 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T00:37:25.353Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T04:29:01.805Z</code></sub>
