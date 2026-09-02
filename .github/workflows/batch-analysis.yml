@@ -3,8 +3,9 @@ run-name: 📦 Batch Analysis Pipeline
 
 on:
   schedule:
-    # After ATS discovery at :10 and between community syncs.
-    - cron: "50 * * * *"
+    # GitHub's shortest schedule is every 5 minutes. The job no-ops until
+    # data/batch-schedule.json says the next adaptive check is due.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -16,7 +17,55 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      due: ${{ steps.check.outputs.due }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.PAT }}
+
+      - name: Check whether the adaptive batch interval is due
+        id: check
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" != "schedule" ]]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run; skipping due-date gate."
+            exit 0
+          fi
+
+          python3 <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+
+          path = "data/batch-schedule.json"
+          due = True
+
+          if os.path.exists(path):
+              payload = json.load(open(path))
+              next_check = payload.get("nextCheckAt")
+              if isinstance(next_check, str) and next_check:
+                  due = datetime.now(timezone.utc) >= datetime.fromisoformat(
+                      next_check.replace("Z", "+00:00")
+                  )
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"due={'true' if due else 'false'}\n")
+
+          print("Batch check is due." if due else "Batch check is not due yet.")
+          PY
+
   batch-analysis:
+    needs: gate
+    if: needs.gate.outputs.due == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -56,8 +105,13 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          pnpm jobctl batch
+          if [[ "$EVENT_NAME" == "schedule" ]]; then
+            pnpm jobctl batch --if-due
+          else
+            pnpm jobctl batch
+          fi
 
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT

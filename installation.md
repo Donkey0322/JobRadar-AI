@@ -519,10 +519,12 @@ Current schedule:
 
 ```yaml
 schedule:
-  - cron: "50 * * * *"
+  - cron: "*/5 * * * *"
 ```
 
-This runs once per hour at minute 50, after ATS discovery and between community syncs. A job queued in one hour is typically submitted the next hour and collected after that.
+GitHub will not run scheduled workflows more often than every 5 minutes. The workflow itself is a cheap gate plus a full run: it checks `data/batch-schedule.json` and exits immediately when the next check is not due. After a batch finishes, the next interval is that batch's actual duration (floored at 5 minutes, capped at 1 hour). If a check happens too early, the wait doubles. Manual **Run workflow** always runs.
+
+Idle runs (nothing inflight or queued) fall back to one hour.
 
 ### Notify Latest Jobs
 

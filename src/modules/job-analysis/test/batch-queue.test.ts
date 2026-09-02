@@ -145,6 +145,7 @@ describe("batch-queue", () => {
     getAIProviderMock.mockReturnValue({
       getBatch: vi.fn().mockResolvedValue({
         state: "succeeded",
+        durationMs: 240_000,
         results: [
           {
             key: getJobKey(job.link),
@@ -155,9 +156,10 @@ describe("batch-queue", () => {
       }),
     });
 
-    const { analyzed, remaining } = await collectInflightBatches();
+    const { analyzed, remaining, completedDurationMs } = await collectInflightBatches();
 
     expect(remaining).toEqual([]);
+    expect(completedDurationMs).toBe(240_000);
     expect(analyzed).toEqual([
       expect.objectContaining({
         job,

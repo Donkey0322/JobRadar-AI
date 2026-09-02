@@ -3,14 +3,37 @@ import { persistAnalyzedJobs } from "./index";
 import {
   collectInflightBatches,
   loadBatchQueue,
+  loadInflightBatches,
   submitQueuedJobs,
 } from "@/modules/job-analysis/batch-queue";
+import {
+  isBatchCheckDue,
+  loadBatchSchedule,
+  planNextBatchCheck,
+  saveBatchSchedule,
+} from "@/modules/job-analysis/batch-schedule";
 import { logger } from "@/utils/logger";
 
 const DEFAULT_SOFT_DEADLINE_MS = 20 * 60 * 1000;
 const MIN_TIME_TO_SUBMIT_MS = 60 * 1000;
 
-export default async function processBatchQueue(softDeadlineMs = DEFAULT_SOFT_DEADLINE_MS) {
+export default async function processBatchQueue(
+  softDeadlineMs = DEFAULT_SOFT_DEADLINE_MS,
+  options: { ifDue?: boolean } = {}
+) {
+  const schedule = await loadBatchSchedule();
+
+  if (options.ifDue && !isBatchCheckDue(schedule)) {
+    logger.info({ nextCheckAt: schedule.nextCheckAt }, "📦 Batch check not due yet");
+    return {
+      collected: 0,
+      submitted: 0,
+      notified: 0,
+      totalCost: 0,
+      skippedDue: true,
+    };
+  }
+
   const startedAt = Date.now();
 
   function remainingMs() {
@@ -46,14 +69,26 @@ export default async function processBatchQueue(softDeadlineMs = DEFAULT_SOFT_DE
     submitted += result.submitted;
   }
 
+  const inflight = await loadInflightBatches();
+  const nextSchedule = planNextBatchCheck({
+    previous: schedule,
+    checkedTooEarly: collected.remaining.length > 0,
+    hasInflight: inflight.length > 0,
+    submitted,
+    completedDurationMs: collected.completedDurationMs ?? null,
+  });
+  await saveBatchSchedule(nextSchedule);
+
   logger.info(
     {
       collected: collected.analyzed.length,
       submitted,
       notified: notifyCount,
-      inflight: collected.remaining.length,
+      inflight: inflight.length,
       queued: (await loadBatchQueue()).length,
       cost: totalCost,
+      intervalMs: nextSchedule.intervalMs,
+      nextCheckAt: nextSchedule.nextCheckAt,
     },
     "📦 Batch analysis pass finished"
   );
@@ -63,5 +98,8 @@ export default async function processBatchQueue(softDeadlineMs = DEFAULT_SOFT_DE
     submitted,
     notified: notifyCount,
     totalCost,
+    skippedDue: false,
+    nextCheckAt: nextSchedule.nextCheckAt,
+    intervalMs: nextSchedule.intervalMs,
   };
 }

@@ -35,7 +35,7 @@ export interface BatchGenerateResult {
 
 export type BatchJobStatus =
   | { state: "pending" }
-  | { state: "succeeded"; results: BatchGenerateResult[] }
+  | { state: "succeeded"; results: BatchGenerateResult[]; durationMs?: number }
   | { state: "failed"; error: string };
 
 export interface AIProvider {

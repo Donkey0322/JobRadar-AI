@@ -146,11 +146,12 @@ async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
 export async function collectInflightBatches(): Promise<{
   analyzed: AnalyzedBatchJob[];
   remaining: InflightBatch[];
+  completedDurationMs: number | null;
 }> {
   const inflight = await loadInflightBatches();
 
   if (inflight.length === 0) {
-    return { analyzed: [], remaining: [] };
+    return { analyzed: [], remaining: [], completedDurationMs: null };
   }
 
   const provider = getAIProvider();
@@ -159,12 +160,13 @@ export async function collectInflightBatches(): Promise<{
     logger.warn("⚠️ Current AI provider cannot collect batch jobs; re-queuing inflight jobs");
     await enqueueBatchJobs(inflight.flatMap((batch) => batch.jobs));
     await saveInflightBatches([]);
-    return { analyzed: [], remaining: [] };
+    return { analyzed: [], remaining: [], completedDurationMs: null };
   }
 
   const analyzed: AnalyzedBatchJob[] = [];
   const remaining: InflightBatch[] = [];
   const requeue: Job[] = [];
+  const completedDurations: number[] = [];
 
   for (const batch of inflight) {
     const status = await provider.getBatch(batch.name);
@@ -181,6 +183,12 @@ export async function collectInflightBatches(): Promise<{
       );
       requeue.push(...batch.jobs);
       continue;
+    }
+
+    const durationMs = status.durationMs ?? durationFromSubmittedAt(batch.submittedAt);
+
+    if (durationMs !== undefined) {
+      completedDurations.push(durationMs);
     }
 
     const jobsByKey = new Map(batch.jobs.map((job) => [getJobKey(job.link), job]));
@@ -219,7 +227,21 @@ export async function collectInflightBatches(): Promise<{
     logger.info({ count: analyzed.length }, "📦 Collected batch analysis results");
   }
 
-  return { analyzed, remaining };
+  return {
+    analyzed,
+    remaining,
+    completedDurationMs: completedDurations.length > 0 ? Math.max(...completedDurations) : null,
+  };
+}
+
+function durationFromSubmittedAt(submittedAt: string) {
+  const started = Date.parse(submittedAt);
+
+  if (!Number.isFinite(started)) {
+    return undefined;
+  }
+
+  return Math.max(0, Date.now() - started);
 }
 
 export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promise<{

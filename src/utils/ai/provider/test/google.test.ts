@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { calculateGoogleCost, GOOGLE_BATCH_DISCOUNT } from "../google";
+import { calculateGoogleCost, GOOGLE_BATCH_DISCOUNT, googleBatchDurationMs } from "../google";
 
 describe("calculateGoogleCost", () => {
   it("returns 0 when usage metadata is missing", () => {
@@ -33,5 +33,13 @@ describe("calculateGoogleCost", () => {
       calculateGoogleCost(usage) / 2,
       10
     );
+  });
+});
+
+describe("googleBatchDurationMs", () => {
+  it("uses createTime and endTime from the Google batch job", () => {
+    expect(
+      googleBatchDurationMs("2026-09-01T22:59:52.756Z", "2026-09-01T23:03:33.624Z")
+    ).toBe(220868);
   });
 });

@@ -20,6 +20,19 @@ const PRICE_IN = 0.3 / 1_000_000;
 const PRICE_CACHED = 0.03 / 1_000_000;
 const PRICE_OUT = 2.5 / 1_000_000;
 export const GOOGLE_BATCH_DISCOUNT = 0.5;
+export function googleBatchDurationMs(
+  createTime: string | undefined,
+  endTime: string | undefined
+) {
+  const start = createTime ? Date.parse(createTime) : Number.NaN;
+  const end = endTime ? Date.parse(endTime) : Date.now();
+
+  if (!Number.isFinite(start) || !Number.isFinite(end)) {
+    return undefined;
+  }
+
+  return Math.max(0, end - start);
+}
 
 export function calculateGoogleCost(
   usage: GenerateContentResponse["usageMetadata"] | undefined
@@ -134,6 +147,7 @@ export class GoogleProvider implements AIProvider {
 
         return {
           state: "succeeded",
+          durationMs: googleBatchDurationMs(job.createTime, job.endTime),
           results: responses.map((item, index) => ({
             key: item.metadata?.key ?? String(index),
             result: item.response?.text ?? null,
