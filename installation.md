@@ -394,7 +394,7 @@ This runs:
 pnpm jobctl batch
 ```
 
-It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), waits in the same run until those jobs finish (polling every 20 seconds), then writes results to `data/`. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
+It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), checkpoints `data/batch/inflight.json` immediately, then waits in the same run (polling every 20 seconds) until those jobs finish. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
 
 ### Notify Latest Jobs
 
@@ -527,7 +527,7 @@ on:
     - cron: "47 * * * *"
 ```
 
-Discovery commits that add queued jobs start a batch run immediately. The job submits work, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit.
+Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Canceling during the wait no longer loses the batch mapping.
 
 The hourly cron is only a safety net (timeouts, leftover inflight). If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
 

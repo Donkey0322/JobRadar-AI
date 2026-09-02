@@ -163,4 +163,34 @@ describe("processBatchQueue", () => {
       inflight: 0,
     });
   });
+
+  it("exits after submit without polling when wait is disabled", async () => {
+    const sleep = vi.fn().mockResolvedValue(undefined);
+    const inflight = [
+      {
+        name: "batches/abc",
+        submittedAt: "2026-09-02T00:00:00.000Z",
+        jobs: [makeJob()],
+      },
+    ];
+    collectInflightBatchesMock.mockResolvedValue({ analyzed: [], remaining: [] });
+    loadBatchQueueMock.mockResolvedValueOnce([makeJob()]).mockResolvedValue([]);
+    submitQueuedJobsMock.mockResolvedValue({ submitted: 1, analyzed: [] });
+    loadInflightBatchesMock.mockResolvedValue(inflight);
+
+    const result = await processBatchQueue(120_000, {
+      pollIntervalMs: 1,
+      sleep,
+      wait: false,
+    });
+
+    expect(sleep).not.toHaveBeenCalled();
+    expect(submitQueuedJobsMock).toHaveBeenCalledOnce();
+    expect(collectInflightBatchesMock).toHaveBeenCalledOnce();
+    expect(result).toMatchObject({
+      collected: 0,
+      submitted: 1,
+      inflight: 1,
+    });
+  });
 });

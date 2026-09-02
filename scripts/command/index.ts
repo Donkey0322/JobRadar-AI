@@ -53,12 +53,13 @@ notify
 program
   .command("batch")
   .description("Submit and collect cheaper batch analysis for queued jobs")
-  .action(async () => {
+  .option("--submit-only", "Submit queued jobs, then exit without waiting for results")
+  .action(async (options: { submitOnly?: boolean }) => {
     const { default: checkConfig } = await import("./setup/checkConfig");
     await checkConfig();
 
     const { default: runBatch } = await import("./batch");
-    await runBatch();
+    await runBatch({ submitOnly: Boolean(options.submitOnly) });
   });
 
 const setup = program.command("setup");

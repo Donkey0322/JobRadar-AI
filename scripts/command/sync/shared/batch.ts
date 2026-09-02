@@ -23,10 +23,12 @@ export default async function processBatchQueue(
   options: {
     pollIntervalMs?: number;
     sleep?: (ms: number) => Promise<void>;
+    wait?: boolean;
   } = {}
 ) {
   const pollIntervalMs = options.pollIntervalMs ?? BATCH_POLL_INTERVAL_MS;
   const sleep = options.sleep ?? defaultSleep;
+  const wait = options.wait ?? true;
   const startedAt = Date.now();
 
   function remainingMs() {
@@ -73,6 +75,10 @@ export default async function processBatchQueue(
 
       submitted += result.submitted;
       submittedThisRound += result.submitted;
+    }
+
+    if (!wait) {
+      break;
     }
 
     while (remainingMs() > pollIntervalMs) {
