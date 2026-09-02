@@ -46,20 +46,37 @@ export function isEligibleJD(jd: JD) {
     return [true, null];
   }
 
-  const rule = filters[jd.country];
+  const rules = [];
+
+  if (jd.country === "Unsure") {
+    for (const country of CONFIG.target.countries) {
+      const rule = filters[country];
+      if (rule) {
+        rules.push(rule);
+      }
+    }
+  } else {
+    const rule = filters[jd.country];
+    if (rule) {
+      rules.push(rule);
+    }
+  }
 
   // no rule for this country, so it's eligible
-  if (!rule) {
+  if (rules.length === 0) {
     return [true, null];
   }
 
-  if (rule.allow_citizenship_required === false && jd.citizenship === true) {
-    return [false, "citizenship is required"];
+  for (const rule of rules) {
+    if (rule.allow_citizenship_required === false && jd.citizenship === true) {
+      return [false, "citizenship is required"];
+    }
+
+    if (rule.allow_no_sponsorship === false && jd.sponsorship === false) {
+      return [false, "sponsorship is not available"];
+    }
   }
 
-  if (rule.allow_no_sponsorship === false && jd.sponsorship === false) {
-    return [false, "sponsorship is not available"];
-  }
   return [true, null];
 }
 
