@@ -133,7 +133,7 @@ export async function fetchCustomJD(
         const html = await res.text();
         const jd = extractFallbackJD(html);
 
-        if (jd?.toLowerCase().includes("not found")) {
+        if (!jd || jd.toLowerCase().includes("not found")) {
           return { jd: null, error: JD_FETCH_ERROR.noData() };
         }
 
