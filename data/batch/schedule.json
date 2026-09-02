@@ -1,5 +1,5 @@
 {
-  "intervalMs": 300000,
-  "lastDurationMs": 136155,
-  "nextCheckAt": "2026-09-02T20:00:32.320Z"
+  "intervalMs": 3600000,
+  "lastDurationMs": 350827,
+  "nextCheckAt": "2026-09-02T21:06:05.668Z"
 }
