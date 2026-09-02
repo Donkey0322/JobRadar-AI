@@ -62,6 +62,7 @@ jobs:
 
           git add .
           git commit -m "data: add job from issue #${{ github.event.issue.number }}"
+          git pull --rebase origin "${{ github.ref_name }}"
           git push
 
       - name: Comment success

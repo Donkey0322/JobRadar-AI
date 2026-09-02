@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       # ✅ Setup pnpm
       - name: Setup pnpm
@@ -59,4 +59,5 @@ jobs:
           git commit -m "chore(clean-outdated-url): clean outdated url"
 
           git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
+          git pull --rebase origin "${{ github.ref_name }}"
           git push origin HEAD:${{ github.ref_name }}

@@ -54,6 +54,7 @@ jobs:
             echo "No config changes to commit."
           else
             git commit -m "chore: update config from setup issue #${{ github.event.issue.number }}"
+            git pull --rebase origin "${{ github.ref_name }}"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
