@@ -13,13 +13,15 @@ export async function sendEmail(job: Job, mailer: Transporter) {
 
   const { subject, html, text, title } = generateEmailContent(job);
 
-  await mailer.sendMail({
-    from: `${title} <${fromEmail}>`,
-    to: toEmails,
-    subject,
-    text,
-    html,
-  });
+  for (const toEmail of toEmails) {
+    await mailer.sendMail({
+      from: `${title} <${fromEmail}>`,
+      to: toEmail,
+      subject,
+      text,
+      html,
+    });
+  }
 
   logger.info(
     {
