@@ -174,6 +174,45 @@ describe("batch-queue", () => {
     );
   });
 
+  it("re-queues jobs whose succeeded batch result is empty or unparseable", async () => {
+    const job = makeJob();
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/abc",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        jobs: [job],
+      },
+    ]);
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 240_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: null,
+            cost: 0,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed, remaining } = await collectInflightBatches();
+
+    expect(analyzed).toEqual([]);
+    expect(remaining).toEqual([]);
+    expect(writeFileMock).toHaveBeenCalledWith(
+      expect.stringContaining("batch-queue.ndjson"),
+      `${JSON.stringify({
+        company: job.company,
+        role: job.role,
+        link: job.link,
+        location: job.location,
+      })}\n`,
+      "utf-8"
+    );
+  });
+
   it("leaves the queue untouched when AI_MODE is DOWN", async () => {
     vi.stubEnv("AI_MODE", "DOWN");
     readNdjsonFileIfExistsMock.mockResolvedValue([makeJob()]);

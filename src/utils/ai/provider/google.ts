@@ -34,6 +34,27 @@ export function googleBatchDurationMs(
   return Math.max(0, end - start);
 }
 
+export function googleResponseText(response: GenerateContentResponse | undefined) {
+  if (!response) {
+    return null;
+  }
+
+  try {
+    if (typeof response.text === "string" && response.text.length > 0) {
+      return response.text;
+    }
+  } catch {
+    // Batch inlined responses are plain JSON; `.text` is an SDK getter.
+  }
+
+  const parts = response.candidates?.[0]?.content?.parts ?? [];
+  const texts = parts
+    .map((part) => ("text" in part ? part.text : undefined))
+    .filter((text): text is string => typeof text === "string" && text.length > 0);
+
+  return texts.length > 0 ? texts.join("") : null;
+}
+
 export function calculateGoogleCost(
   usage: GenerateContentResponse["usageMetadata"] | undefined
 ): number {
@@ -89,7 +110,7 @@ export class GoogleProvider implements AIProvider {
       );
 
       return {
-        result: response.text ?? null,
+        result: googleResponseText(response),
         cost: calculateGoogleCost(response.usageMetadata),
       };
     } catch (error) {
@@ -150,7 +171,7 @@ export class GoogleProvider implements AIProvider {
           durationMs: googleBatchDurationMs(job.createTime, job.endTime),
           results: responses.map((item, index) => ({
             key: item.metadata?.key ?? String(index),
-            result: item.response?.text ?? null,
+            result: googleResponseText(item.response),
             cost: calculateGoogleCost(item.response?.usageMetadata) * GOOGLE_BATCH_DISCOUNT,
             error: item.error?.message,
           })),

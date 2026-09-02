@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 
-import { calculateGoogleCost, GOOGLE_BATCH_DISCOUNT, googleBatchDurationMs } from "../google";
+import {
+  calculateGoogleCost,
+  GOOGLE_BATCH_DISCOUNT,
+  googleBatchDurationMs,
+  googleResponseText,
+} from "../google";
 
 describe("calculateGoogleCost", () => {
   it("returns 0 when usage metadata is missing", () => {
@@ -41,5 +46,31 @@ describe("googleBatchDurationMs", () => {
     expect(
       googleBatchDurationMs("2026-09-01T22:59:52.756Z", "2026-09-01T23:03:33.624Z")
     ).toBe(220868);
+  });
+});
+
+describe("googleResponseText", () => {
+  it("reads JSON from candidate parts when the SDK text getter is empty", () => {
+    expect(
+      googleResponseText({
+        text: undefined,
+        candidates: [
+          {
+            content: {
+              parts: [{ text: '{"category":"entry level"}' }],
+            },
+          },
+        ],
+      } as never)
+    ).toBe('{"category":"entry level"}');
+  });
+
+  it("prefers the SDK text getter when it is populated", () => {
+    expect(
+      googleResponseText({
+        text: '{"ok":true}',
+        candidates: [{ content: { parts: [{ text: "ignored" }] } }],
+      } as never)
+    ).toBe('{"ok":true}');
   });
 });

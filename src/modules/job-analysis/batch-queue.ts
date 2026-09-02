@@ -192,6 +192,7 @@ export async function collectInflightBatches(): Promise<{
     }
 
     const jobsByKey = new Map(batch.jobs.map((job) => [getJobKey(job.link), job]));
+    const handled = new Set<string>();
 
     status.results.forEach((result, index) => {
       const job = jobsByKey.get(result.key) ?? batch.jobs[index];
@@ -199,6 +200,9 @@ export async function collectInflightBatches(): Promise<{
       if (!job) {
         return;
       }
+
+      const key = getJobKey(job.link);
+      handled.add(key);
 
       if (result.error && !result.result) {
         logger.warn(
@@ -213,8 +217,21 @@ export async function collectInflightBatches(): Promise<{
 
       if (parsed) {
         analyzed.push(parsed);
+        return;
       }
+
+      logger.warn(
+        { company: job.company, url: job.link },
+        "⚠️ Batch result missing or unparseable; re-queuing"
+      );
+      requeue.push(job);
     });
+
+    for (const job of batch.jobs) {
+      if (!handled.has(getJobKey(job.link))) {
+        requeue.push(job);
+      }
+    }
   }
 
   if (requeue.length > 0) {
