@@ -27,7 +27,7 @@ flowchart TD
 
 The important pieces are:
 
-- `config.json` controls target roles, countries, keywords, AI provider/model, SMTP sender, and receiver email.
+- `config.json` controls target roles, countries, keywords, AI provider/model, SMTP sender, and receiver emails.
 - GitHub Actions runs the sync/discovery workflows on a schedule.
 - Newly discovered jobs are committed into `data/`.
 - Titles that match your notify config are analyzed in real time. Unspecified-level titles go through cheaper batch analysis. On an expanded dashboard, intern titles also batch even if intern is not in notify config.
@@ -213,11 +213,11 @@ SMTP port: 587
 
 The sender email is the account that sends job alerts.
 
-#### Email receiver
+#### Email receivers
 
-The receiver email is where job alerts are sent.
+Receiver emails are where job alerts are sent. You can list more than one address.
 
-You can use the same email for sender and receiver, but using a separate sender account is cleaner.
+You can use the same email for sender and a receiver, but using a separate sender account is cleaner.
 
 ---
 
@@ -680,7 +680,7 @@ Official references:
 
 Gmail SMTP itself is usually free, but Gmail is not designed for high-volume bulk email.
 
-For personal use, this project should usually stay low-volume because it sends alerts to your own receiver email.
+For personal use, this project should usually stay low-volume because it sends alerts to your own receiver emails.
 
 If you plan to send alerts to many subscribers, use a dedicated email service such as Amazon SES, SendGrid, Mailgun, or Resend instead of Gmail SMTP.
 

@@ -18,7 +18,7 @@ export function createValidConfig(overrides: Partial<Config> = {}): Config {
       email: "test@example.com",
     },
     receiver: {
-      email: "receiver@example.com",
+      emails: ["receiver@example.com"],
     },
     ...overrides,
   };

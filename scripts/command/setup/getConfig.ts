@@ -11,6 +11,23 @@ type AIProvider = "openai" | "google" | "anthropic";
 
 const AI_ENABLED_LABEL = "Enable AI JD analysis";
 
+function parseReceiverEmails(lines: string[]): string[] {
+  const emails = [
+    ...new Set(
+      lines
+        .flatMap((line) => line.split(/[,;]/))
+        .map((email) => email.trim())
+        .filter(Boolean)
+    ),
+  ];
+
+  if (emails.length === 0) {
+    throw new Error("Missing required field: Receiver emails");
+  }
+
+  return emails;
+}
+
 function buildCountryFilter(
   countries: Country[],
   allowCitizenshipRequired: boolean,
@@ -74,7 +91,7 @@ function buildConfig(issueBody: string): Config {
       email: senderEmail,
     },
     receiver: {
-      email: issue.required("Receiver email"),
+      emails: parseReceiverEmails(issue.lines("Receiver emails")),
     },
   };
 }

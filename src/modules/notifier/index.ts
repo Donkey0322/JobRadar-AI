@@ -9,13 +9,13 @@ import { logger } from "@/utils/logger";
 
 export async function sendEmail(job: Job, mailer: Transporter) {
   const fromEmail = CONFIG.sender.email;
-  const toEmail = CONFIG.receiver.email;
+  const toEmails = CONFIG.receiver.emails;
 
   const { subject, html, text, title } = generateEmailContent(job);
 
   await mailer.sendMail({
     from: `${title} <${fromEmail}>`,
-    to: toEmail,
+    to: toEmails,
     subject,
     text,
     html,

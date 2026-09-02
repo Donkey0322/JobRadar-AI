@@ -56,7 +56,7 @@
     "email": "donkey@ntu.im"
   },
   "receiver": {
-    "email": "donkey.leelee@gmail.com"
+    "emails": ["donkey.leelee@gmail.com", "ntuimb09705004@ntu.im"]
   },
   "dashboard": {
     "includeAllTechJobs": true

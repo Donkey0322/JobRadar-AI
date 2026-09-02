@@ -62,8 +62,8 @@ export async function checkSMTPConfig(): Promise<boolean> {
       return false;
     }
 
-    if (!CONFIG.receiver.email) {
-      logger.error(`${RED_CROSS} receiver.email is not set`);
+    if (!CONFIG.receiver.emails.length) {
+      logger.error(`${RED_CROSS} receiver.emails is not set`);
       return false;
     }
 

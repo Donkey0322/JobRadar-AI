@@ -94,7 +94,7 @@ export const ConfigSchema = z.object({
   }),
 
   receiver: z.object({
-    email: z.email(),
+    emails: z.array(z.email()).min(1, "at least one receiver email is required"),
   }),
 });
 

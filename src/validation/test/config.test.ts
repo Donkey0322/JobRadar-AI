@@ -55,6 +55,36 @@ describe("ConfigSchema", () => {
     expect(result.success).toBe(false);
   });
 
+  it("should pass with multiple receiver emails", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        receiver: {
+          emails: ["receiver@example.com", "teammate@example.com"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should fail if receiver emails is empty", () => {
+    const config = createValidConfig();
+    config.receiver.emails = [];
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
+  it("should fail if a receiver email is invalid", () => {
+    const config = createValidConfig();
+    config.receiver.emails = ["invalid-email"];
+
+    const result = ConfigSchema.safeParse(config);
+
+    expect(result.success).toBe(false);
+  });
+
   it("should fail if countries is missing", () => {
     const config = createValidConfig();
     Reflect.deleteProperty(config.target, "countries");

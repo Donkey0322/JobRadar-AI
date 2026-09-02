@@ -2,7 +2,6 @@ name: Setup JobRadar-AI
 description: Generate a config.json for your own JobRadar-AI workflow
 title: "Setup JobRadar-AI"
 labels: ["setup"]
-assignees: []
 
 body:
   - type: markdown
@@ -169,7 +168,7 @@ body:
         - google
         - anthropic
         - openai
-      default: google
+      default: 0
 
   - type: input
     id: ai_model
@@ -234,13 +233,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Email Receiver
+        ## Email Receivers
 
-  - type: input
-    id: receiver_email
+  - type: textarea
+    id: receiver_emails
     attributes:
-      label: Receiver email
-      description: Email address that receives job alerts.
-      placeholder: your.email@gmail.com
+      label: Receiver emails
+      description: Email addresses that receive job alerts. One address per line.
+      placeholder: |
+        your.email@gmail.com
+        teammate@gmail.com
     validations:
       required: true
