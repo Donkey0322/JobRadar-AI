@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/fjevmpyq1yttlj5j5lwqg30kq01j3sfij3oc",
+    "submittedAt": "2026-09-02T00:29:48.616Z",
+    "jobs": [
+      {
+        "company": "Disney",
+        "role": "Sr Product Software Engineer (iOS) Disney Entertainment and ESPN Product & Technology New York, New York / Glendale, California Sep. 01, 2026",
+        "link": "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-ios/391/100046596368",
+        "location": "New York, New York / Glendale, California"
+      },
+      {
+        "company": "Disney",
+        "role": "Sr Product Software Engineer (Roku Engineering) Disney Entertainment and ESPN Product & Technology New York, New York / Glendale, California Sep. 01, 2026",
+        "link": "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-roku-engineering/391/100046596304",
+        "location": "New York, New York / Glendale, California"
+      },
+      {
+        "company": "Disney",
+        "role": "Sr Software Engineer Disney Entertainment and ESPN Product & Technology Glendale, California / Bristol, Connecticut / New York, New York Sep. 01, 2026",
+        "link": "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/88160109024",
+        "location": "Glendale, California / Bristol, Connecticut / New York, New York"
+      },
+      {
+        "company": "Llnl",
+        "role": "Data Scientist",
+        "link": "https://jobs.smartrecruiters.com/LLNL/3743990015004456",
+        "location": "Livermore, CA, United States"
+      },
+      {
+        "company": "Netflix",
+        "role": "Full Stack Software Engineer 4 - Localization Engineering",
+        "link": "https://explore.jobs.netflix.net/careers/job/790318313236",
+        "location": "Los Gatos,California,United States of America"
+      },
+      {
+        "company": "Spectrum",
+        "role": "Data Scientist Stamford, CT 09/01/2026",
+        "link": "https://jobs.spectrum.com/job/stamford/data-scientist/4673/98486255872",
+        "location": "Stamford, CT"
+      }
+    ]
+  }
+]
