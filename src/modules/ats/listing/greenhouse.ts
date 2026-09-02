@@ -64,7 +64,7 @@ export const GreenhouseJobSchema = z.object({
   absolute_url: z.string(),
   first_published: z.string().nullish(),
   updated_at: z.string(),
-  location: z.object({ name: z.string() }).optional(),
+  location: z.object({ name: z.string().nullish() }).optional(),
 });
 
 export type GreenhouseJob = z.infer<typeof GreenhouseJobSchema>;
@@ -107,16 +107,13 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
     const host = getHostnameWithoutWww(url);
 
     if (isGreenhouseJobBoardHost(host) && parts[0] === "embed" && parts[1] === "job_app") {
-      let identifier: string | null = null;
-
       try {
         const response = await fetch(url.href);
-        identifier = new URL(response.url).searchParams.get("for");
+        const identifier = new URL(response.url).searchParams.get("for");
+        return this.buildCompany(url, identifier || getSubdomainIdentifier(url));
       } catch {
-        identifier = null;
+        return this.buildCompany(url, getSubdomainIdentifier(url));
       }
-
-      return this.buildCompany(url, identifier || getSubdomainIdentifier(url));
     }
 
     // Case 4: scrape embedded Greenhouse identifier from careers HTML
