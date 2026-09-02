@@ -10,8 +10,6 @@ const loadBatchQueueMock = vi.hoisted(() => vi.fn());
 const loadInflightBatchesMock = vi.hoisted(() => vi.fn());
 const submitQueuedJobsMock = vi.hoisted(() => vi.fn());
 const persistAnalyzedJobsMock = vi.hoisted(() => vi.fn());
-const loadBatchScheduleMock = vi.hoisted(() => vi.fn());
-const saveBatchScheduleMock = vi.hoisted(() => vi.fn());
 
 vi.mock("@/modules/job-analysis/batch-queue", () => ({
   collectInflightBatches: collectInflightBatchesMock,
@@ -20,15 +18,6 @@ vi.mock("@/modules/job-analysis/batch-queue", () => ({
   submitQueuedJobs: submitQueuedJobsMock,
 }));
 
-vi.mock("@/modules/job-analysis/batch-schedule", async (importOriginal) => {
-  const actual = await importOriginal<typeof import("@/modules/job-analysis/batch-schedule")>();
-  return {
-    ...actual,
-    loadBatchSchedule: loadBatchScheduleMock,
-    saveBatchSchedule: saveBatchScheduleMock,
-  };
-});
-
 vi.mock("../index", () => ({
   persistAnalyzedJobs: persistAnalyzedJobsMock,
 }));
@@ -36,8 +25,6 @@ vi.mock("../index", () => ({
 vi.mock("@/utils/logger", () => ({
   logger: { info: vi.fn(), warn: vi.fn(), error: vi.fn() },
 }));
-
-import { defaultBatchSchedule } from "@/modules/job-analysis/batch-schedule";
 
 import processBatchQueue from "../batch";
 
@@ -60,15 +47,20 @@ function makeJob(): Job {
   };
 }
 
+const emptyPersist = {
+  jobs: [],
+  count: 0,
+  skipped: 0,
+  totalCost: 0,
+};
+
 describe("processBatchQueue", () => {
   beforeEach(() => {
     collectInflightBatchesMock.mockReset();
     loadBatchQueueMock.mockReset().mockResolvedValue([]);
     loadInflightBatchesMock.mockReset().mockResolvedValue([]);
     submitQueuedJobsMock.mockReset();
-    persistAnalyzedJobsMock.mockReset();
-    loadBatchScheduleMock.mockReset().mockResolvedValue(defaultBatchSchedule());
-    saveBatchScheduleMock.mockReset().mockResolvedValue(undefined);
+    persistAnalyzedJobsMock.mockReset().mockResolvedValue(emptyPersist);
   });
 
   it("persists collected results even when there is no time left to submit", async () => {
@@ -94,19 +86,11 @@ describe("processBatchQueue", () => {
       submitted: 0,
       notified: 1,
       totalCost: 0.002,
-      skippedDue: false,
     });
-    expect(saveBatchScheduleMock).toHaveBeenCalled();
   });
 
   it("submits queued jobs after collecting inflight results", async () => {
     collectInflightBatchesMock.mockResolvedValue({ analyzed: [], remaining: [] });
-    persistAnalyzedJobsMock.mockResolvedValue({
-      jobs: [],
-      count: 0,
-      skipped: 0,
-      totalCost: 0,
-    });
     loadBatchQueueMock.mockResolvedValueOnce([makeJob()]).mockResolvedValue([]);
     submitQueuedJobsMock.mockResolvedValue({ submitted: 1, analyzed: [] });
 
@@ -118,7 +102,6 @@ describe("processBatchQueue", () => {
       submitted: 1,
       notified: 0,
       totalCost: 0,
-      skippedDue: false,
     });
   });
 
@@ -126,12 +109,7 @@ describe("processBatchQueue", () => {
     const analyzed = [{ job: makeJob(), jd: usaJd, cost: 0.01 }];
     collectInflightBatchesMock.mockResolvedValue({ analyzed: [], remaining: [] });
     persistAnalyzedJobsMock
-      .mockResolvedValueOnce({
-        jobs: [],
-        count: 0,
-        skipped: 0,
-        totalCost: 0,
-      })
+      .mockResolvedValueOnce(emptyPersist)
       .mockResolvedValueOnce({
         jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
         count: 1,
@@ -149,22 +127,40 @@ describe("processBatchQueue", () => {
       submitted: 0,
       notified: 1,
       totalCost: 0.01,
-      skippedDue: false,
     });
   });
 
-  it("skips collect and submit when --if-due and the next check is in the future", async () => {
-    loadBatchScheduleMock.mockResolvedValue({
-      intervalMs: 5 * 60 * 1000,
-      nextCheckAt: "2099-01-01T00:00:00.000Z",
-      lastDurationMs: 240_000,
+  it("polls inflight batches until Gemini finishes, then persists the results", async () => {
+    const analyzed = [{ job: makeJob(), jd: usaJd, cost: 0.002 }];
+    const sleep = vi.fn().mockResolvedValue(undefined);
+    collectInflightBatchesMock
+      .mockResolvedValueOnce({ analyzed: [], remaining: [] })
+      .mockResolvedValueOnce({ analyzed, remaining: [], completedDurationMs: 240_000 });
+    persistAnalyzedJobsMock
+      .mockResolvedValueOnce(emptyPersist)
+      .mockResolvedValueOnce({
+        jobs: analyzed.map(({ job, jd }) => ({ ...job, jd })),
+        count: 1,
+        skipped: 0,
+        totalCost: 0.002,
+      });
+    loadBatchQueueMock.mockResolvedValueOnce([makeJob()]).mockResolvedValue([]);
+    submitQueuedJobsMock.mockResolvedValue({ submitted: 1, analyzed: [] });
+    loadInflightBatchesMock
+      .mockResolvedValueOnce([{ name: "batches/abc", submittedAt: "2026-09-02T00:00:00.000Z", jobs: [makeJob()] }])
+      .mockResolvedValue([]);
+
+    const result = await processBatchQueue(120_000, { pollIntervalMs: 1, sleep });
+
+    expect(sleep).toHaveBeenCalledOnce();
+    expect(collectInflightBatchesMock).toHaveBeenCalledTimes(2);
+    expect(persistAnalyzedJobsMock).toHaveBeenNthCalledWith(2, analyzed);
+    expect(result).toMatchObject({
+      collected: 1,
+      submitted: 1,
+      notified: 1,
+      totalCost: 0.002,
+      inflight: 0,
     });
-
-    const result = await processBatchQueue(undefined, { ifDue: true });
-
-    expect(result.skippedDue).toBe(true);
-    expect(collectInflightBatchesMock).not.toHaveBeenCalled();
-    expect(submitQueuedJobsMock).not.toHaveBeenCalled();
-    expect(saveBatchScheduleMock).not.toHaveBeenCalled();
   });
 });

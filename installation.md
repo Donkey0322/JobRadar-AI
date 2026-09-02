@@ -394,7 +394,7 @@ This runs:
 pnpm jobctl batch
 ```
 
-It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), collects finished results, and writes them to `data/`. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
+It submits queued job descriptions to the provider Batch API (about 50% of real-time cost), waits in the same run until those jobs finish (polling every 20 seconds), then writes results to `data/`. Notify still follows `config.json`. On an expanded dashboard this queue includes intern titles even when intern is not configured.
 
 ### Notify Latest Jobs
 
@@ -518,13 +518,18 @@ File:
 Current schedule:
 
 ```yaml
-schedule:
-  - cron: "*/5 * * * *"
+on:
+  push:
+    paths:
+      - "data/batch/queue.ndjson"
+      - "data/batch/inflight.json"
+  schedule:
+    - cron: "47 * * * *"
 ```
 
-GitHub will not run scheduled workflows more often than every 5 minutes. The workflow itself is a cheap gate plus a full run: it checks `data/batch/schedule.json` and exits immediately when the next check is not due. After a batch finishes, the next interval is that batch's actual duration (floored at 5 minutes, capped at 1 hour). If a check happens too early, the wait doubles. Manual **Run workflow** always runs.
+Discovery commits that add queued jobs start a batch run immediately. The job submits work, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit.
 
-Idle runs (nothing inflight or queued) fall back to one hour.
+The hourly cron is only a safety net (timeouts, leftover inflight). If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
 
 ### Notify Latest Jobs
 

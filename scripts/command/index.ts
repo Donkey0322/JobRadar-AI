@@ -53,13 +53,12 @@ notify
 program
   .command("batch")
   .description("Submit and collect cheaper batch analysis for queued jobs")
-  .option("--if-due", "Skip when the adaptive next check time has not been reached")
-  .action(async (options: { ifDue?: boolean }) => {
+  .action(async () => {
     const { default: checkConfig } = await import("./setup/checkConfig");
     await checkConfig();
 
     const { default: runBatch } = await import("./batch");
-    await runBatch({ ifDue: Boolean(options.ifDue) });
+    await runBatch();
   });
 
 const setup = program.command("setup");

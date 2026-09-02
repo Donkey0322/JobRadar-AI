@@ -2,10 +2,13 @@ name: Batch Analysis Pipeline
 run-name: 📦 Batch Analysis Pipeline
 
 on:
+  push:
+    paths:
+      - "data/batch/queue.ndjson"
+      - "data/batch/inflight.json"
   schedule:
-    # GitHub's shortest schedule is every 5 minutes. The job no-ops until
-    # data/batch/schedule.json says the next adaptive check is due.
-    - cron: "*/5 * * * *"
+    # Safety net if a run times out while batches are still inflight.
+    - cron: "47 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -30,37 +33,41 @@ jobs:
           fetch-depth: 1
           token: ${{ secrets.PAT }}
 
-      - name: Check whether the adaptive batch interval is due
+      - name: Check whether queued or inflight work exists
         id: check
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [[ "$EVENT_NAME" != "schedule" ]]; then
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
             echo "due=true" >> "$GITHUB_OUTPUT"
-            echo "Manual run; skipping due-date gate."
+            echo "Manual run; skipping idle gate."
             exit 0
           fi
 
           python3 <<'PY'
           import json
           import os
-          from datetime import datetime, timezone
 
-          path = "data/batch/schedule.json"
-          due = True
+          def queue_has_jobs(path: str) -> bool:
+              if not os.path.exists(path):
+                  return False
+              with open(path, encoding="utf-8") as handle:
+                  return any(line.strip() for line in handle)
 
-          if os.path.exists(path):
-              payload = json.load(open(path))
-              next_check = payload.get("nextCheckAt")
-              if isinstance(next_check, str) and next_check:
-                  due = datetime.now(timezone.utc) >= datetime.fromisoformat(
-                      next_check.replace("Z", "+00:00")
-                  )
+          def inflight_has_jobs(path: str) -> bool:
+              if not os.path.exists(path):
+                  return False
+              payload = json.load(open(path, encoding="utf-8"))
+              return isinstance(payload, list) and len(payload) > 0
+
+          due = queue_has_jobs("data/batch/queue.ndjson") or inflight_has_jobs(
+              "data/batch/inflight.json"
+          )
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"due={'true' if due else 'false'}\n")
 
-          print("Batch check is due." if due else "Batch check is not due yet.")
+          print("Batch work is pending." if due else "No queued or inflight batch work.")
           PY
 
   batch-analysis:
@@ -105,13 +112,8 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
-          EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [[ "$EVENT_NAME" == "schedule" ]]; then
-            pnpm jobctl batch --if-due
-          else
-            pnpm jobctl batch
-          fi
+          pnpm jobctl batch
 
           if [[ -n "$(git status --porcelain data/ 2>/dev/null)" ]]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
