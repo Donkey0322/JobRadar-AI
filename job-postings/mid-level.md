@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Capitalone</td>
+      <td width="420" align="left" valign="top">Applied Researcher I (AI Foundations, VLM)</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Applied-Researcher-I--AI-Foundations--VLM-_R999796-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Toyota</td>
       <td width="420" align="left" valign="top">Safety Control Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Liberty, NC</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Software-Engineer--WIS-to-Domestic-_JR-025312"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">September 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Stoke Space</td>
-      <td width="420" align="left" valign="top">Vehicle Software Engineer – Rust Controls<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Kent, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://stokespace.com/careers/current-openings?gh_jid=6176777004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">September 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 7,455 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 7,454 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T20:06:39.235Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T20:30:18.763Z</code></sub>
