@@ -3787,7 +3787,8 @@
       "https://apply.careers.microsoft.com/careers/job/1970393556980093?domain=microsoft.com&8fold_id=1970393556980093",
       "https://apply.careers.microsoft.com/careers/job/1970393556981792?domain=microsoft.com&8fold_id=1970393556981792",
       "https://apply.careers.microsoft.com/careers/job/1970393556982805?domain=microsoft.com&8fold_id=1970393556982805",
-      "https://apply.careers.microsoft.com/careers/job/1970393556984390?domain=microsoft.com&8fold_id=1970393556984390"
+      "https://apply.careers.microsoft.com/careers/job/1970393556984390?domain=microsoft.com&8fold_id=1970393556984390",
+      "https://apply.careers.microsoft.com/careers/job/1970393556982928"
     ]
   },
   {
@@ -3827,7 +3828,8 @@
       "https://apply.workable.com/texas-sports-academy-main/j/2132C3AB96/apply",
       "https://apply.workable.com/texas-sports-academy-main/j/CC2A1186D4/apply",
       "https://apply.workable.com/trycaddi/j/9D1291C697/apply",
-      "https://apply.workable.com/western-magnetics/j/E366930F3F/apply"
+      "https://apply.workable.com/western-magnetics/j/E366930F3F/apply",
+      "https://apply.workable.com/twgai/j/772CD136FF/apply"
     ]
   },
   {
@@ -9764,7 +9766,8 @@
     "domain": "https://www.careers.zurich.com",
     "page": "",
     "urls": [
-      "https://www.careers.zurich.com/job/Schaumburg-Digital-Transformation-Intern-(Summer-2026)-IL-60159/1330698057/?ats=successfactors"
+      "https://www.careers.zurich.com/job/Schaumburg-Digital-Transformation-Intern-(Summer-2026)-IL-60159/1330698057/?ats=successfactors",
+      "https://www.careers.zurich.com/job/Toronto-Data-Engineering-Intern-ON/1370995557/?ats=successfactors"
     ]
   },
   {
@@ -12342,12 +12345,12 @@
       "https://www.disneycareers.com/job/buenos-aires/software-engineer/391/100040925344",
       "https://www.disneycareers.com/job/burbank/analyst-distribution-planning-and-analysis/391/99774260736",
       "https://www.disneycareers.com/job/glendale/sr-mgr-product-software-engineering/391/99352768464",
-      "https://www.disneycareers.com/job/new-york/sr-software-engineer/391/92822792160",
-      "https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/99491637072",
-      "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer/391/95339265088",
+      "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/88160109024",
       "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-ios/391/100046596368",
       "https://www.disneycareers.com/job/new-york/sr-product-software-engineer-roku-engineering/391/100046596304",
-      "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/88160109024"
+      "https://www.disneycareers.com/job/new-york/sr-software-engineer/391/92822792160",
+      "https://www.disneycareers.com/job/orlando/sr-machine-learning-engineer/391/99491637072",
+      "https://www.disneycareers.com/job/santa-monica/sr-product-software-engineer/391/95339265088"
     ]
   },
   {
@@ -15380,10 +15383,10 @@
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Lynn/T408-Systems-Engineer_R5038704-2",
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Fluid-Systems-Engineering-Intern---GE9X-LEAP-Accessories_R5037675-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/AI-Process-Engineer_R5036399-1",
       "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Sr-AI-Data-Engineer_R5039157-1",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1",
-      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Queretaro/Fluid-Systems-Engineering-Intern---GE9X-LEAP-Accessories_R5037675-1"
+      "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Saint-George-UT-US-1/Engineer----Thermal-Dynamics_R5036260-1"
     ]
   },
   {
@@ -17505,6 +17508,16 @@
     "urls": [
       "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5248280008",
       "https://job-boards.greenhouse.io/horizonindustrieslimited/jobs/5343943008"
+    ]
+  },
+  {
+    "name": "hottopic",
+    "ats": "lever",
+    "identifier": "hottopic",
+    "domain": "https://jobs.lever.co",
+    "page": "https://api.lever.co/v0/postings/hottopic?mode=json",
+    "urls": [
+      "https://jobs.lever.co/hottopic/b006fecc-6662-4e8d-8f93-eff444c2b6e3/apply"
     ]
   },
   {
@@ -23337,8 +23350,8 @@
       "https://explore.jobs.netflix.net/careers/job/790318126309",
       "https://explore.jobs.netflix.net/careers/job/790318140112",
       "https://explore.jobs.netflix.net/careers/job/790318161607",
-      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5",
-      "https://explore.jobs.netflix.net/careers/job/790318313236"
+      "https://explore.jobs.netflix.net/careers/job/790318313236",
+      "https://explore.jobs.netflix.net/careers/job?domain=netflix.com&pid=790313310824&location=any&domain=netflix.com&sort_by=new&job_index=5"
     ]
   },
   {
@@ -26618,6 +26631,16 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/radixuniversity/jobs",
     "urls": []
+  },
+  {
+    "name": "ragleinc.applytojob.com",
+    "ats": "custom",
+    "identifier": "ragleinc.applytojob.com",
+    "domain": "https://ragleinc.applytojob.com",
+    "page": "",
+    "urls": [
+      "https://ragleinc.applytojob.com/apply/bOx8uiciOs/Data-Engineering-Intern-Summer-2027"
+    ]
   },
   {
     "name": "rakuten",
@@ -31207,6 +31230,16 @@
     ]
   },
   {
+    "name": "tebra",
+    "ats": "greenhouse",
+    "identifier": "tebra",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/tebra/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/tebra/jobs/4726985005"
+    ]
+  },
+  {
     "name": "tekton",
     "ats": "lever",
     "identifier": "tekton",
@@ -31392,7 +31425,13 @@
     "identifier": "tesla.com",
     "domain": "https://www.tesla.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://www.tesla.com/careers/search/job/281936",
+      "https://www.tesla.com/careers/search/job/281921",
+      "https://www.tesla.com/careers/search/job/281462",
+      "https://www.tesla.com/careers/search/job/281951",
+      "https://www.tesla.com/careers/search/job/281940"
+    ]
   },
   {
     "name": "tessera-labs",
@@ -33632,6 +33671,17 @@
     ]
   },
   {
+    "name": "Valon",
+    "ats": "ashby",
+    "identifier": "Valon",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/Valon",
+    "urls": [
+      "https://jobs.ashbyhq.com/Valon/b5a62c0c-823c-42dd-8cb5-e4b1455bcc64/application?embed=true",
+      "https://jobs.ashbyhq.com/Valon/e08ad09a-4408-4210-8c1b-da6510f83324/application?embed=true"
+    ]
+  },
+  {
     "name": "valstad",
     "ats": "ashby",
     "identifier": "valstad",
@@ -34838,6 +34888,16 @@
       "https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Associate-Data-Engineer_JR-025987",
       "https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Data-Analyst---Institutional-Research-and-Analytics--IAR-_JR-025962",
       "https://wgu.wd5.myworkdayjobs.com/external/job/Salt-Lake-City-UT/Software-Engineer--WIS-to-Domestic-_JR-025312"
+    ]
+  },
+  {
+    "name": "whatnot",
+    "ats": "ashby",
+    "identifier": "whatnot",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/whatnot",
+    "urls": [
+      "https://jobs.ashbyhq.com/whatnot/928ffdca-b316-40ce-b82b-94b570919bcd/application?embed=true"
     ]
   },
   {
