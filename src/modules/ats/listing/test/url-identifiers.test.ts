@@ -17,6 +17,17 @@ describe("ATS URL hostname normalization", () => {
     expect(company.identifier).toBe("majorleaguebaseball");
   });
 
+  it("maps career subdomains to hardcoded Greenhouse slugs without scraping", async () => {
+    const url = new URL("https://jobs.solarwinds.com/job-detail/?gh_jid=4716665005");
+
+    expect(greenhouseFetcher.companyKeyFromUrl(url)).toBe("greenhouse:solarwinds");
+
+    const company = await greenhouseFetcher.formCompany(url);
+
+    expect(company.identifier).toBe("solarwinds");
+    expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/solarwinds/jobs");
+  });
+
   it("maps generic Workday tenants to the real company identifier", () => {
     const company = workdayFetcher.formCompany(
       new URL(

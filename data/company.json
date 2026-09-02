@@ -18977,14 +18977,6 @@
     ]
   },
   {
-    "name": "jobs",
-    "ats": "greenhouse",
-    "identifier": "jobs",
-    "domain": "https://jobs.solarwinds.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/jobs/jobs",
-    "urls": []
-  },
-  {
     "name": "jobs-bylight",
     "ats": "icims",
     "identifier": "jobs-bylight",

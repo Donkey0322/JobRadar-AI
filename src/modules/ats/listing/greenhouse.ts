@@ -38,6 +38,17 @@ const identifierMap: Record<string, string> = {
   "domino-data-lab": "dominodatalab",
 };
 
+function mappedIdentifier(host: string): string | undefined {
+  const exact = identifierMap[host];
+  if (exact) return exact;
+
+  for (const [domain, identifier] of Object.entries(identifierMap)) {
+    if (domain.includes(".") && host.endsWith(`.${domain}`)) {
+      return identifier;
+    }
+  }
+}
+
 function isGreenhouseJobBoardHost(host: string) {
   return (
     host === "boards.greenhouse.io" ||
@@ -126,9 +137,10 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
     const parts = url.pathname.split("/").filter(Boolean);
     const host = getHostnameWithoutWww(url);
 
-    // Case 0:
-    if (identifierMap[host]) {
-      return identifierMap[host];
+    // Case 0: exact host or subdomain of a mapped domain (jobs.solarwinds.com → solarwinds.com)
+    const mapped = mappedIdentifier(host);
+    if (mapped) {
+      return mapped;
     }
 
     // Case 1: embed with explicit `for=`
