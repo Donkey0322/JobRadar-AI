@@ -4,7 +4,7 @@ run-name: 📦 Batch Analysis Pipeline
 on:
   schedule:
     # GitHub's shortest schedule is every 5 minutes. The job no-ops until
-    # data/batch-schedule.json says the next adaptive check is due.
+    # data/batch/schedule.json says the next adaptive check is due.
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
@@ -46,7 +46,7 @@ jobs:
           import os
           from datetime import datetime, timezone
 
-          path = "data/batch-schedule.json"
+          path = "data/batch/schedule.json"
           due = True
 
           if os.path.exists(path):

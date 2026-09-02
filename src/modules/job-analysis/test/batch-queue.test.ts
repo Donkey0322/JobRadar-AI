@@ -1,3 +1,5 @@
+import path from "node:path";
+
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import type { Job } from "@/types";
@@ -122,7 +124,7 @@ describe("batch-queue", () => {
     await enqueueBatchJobs([job, job]);
 
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-queue.ndjson"),
+      expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
       `${JSON.stringify({
         company: job.company,
         role: job.role,
@@ -168,7 +170,7 @@ describe("batch-queue", () => {
       }),
     ]);
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-inflight.json"),
+      expect.stringContaining(`${path.sep}batch${path.sep}inflight.json`),
       `${JSON.stringify([], null, 2)}\n`,
       "utf-8"
     );
@@ -202,7 +204,7 @@ describe("batch-queue", () => {
     expect(analyzed).toEqual([]);
     expect(remaining).toEqual([]);
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-queue.ndjson"),
+      expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
       `${JSON.stringify({
         company: job.company,
         role: job.role,
@@ -247,12 +249,12 @@ describe("batch-queue", () => {
       expect.any(String)
     );
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-inflight.json"),
+      expect.stringContaining(`${path.sep}batch${path.sep}inflight.json`),
       expect.stringContaining("batches/xyz"),
       "utf-8"
     );
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-queue.ndjson"),
+      expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
       "",
       "utf-8"
     );
@@ -303,7 +305,7 @@ describe("batch-queue", () => {
 
     expect(result).toEqual({ submitted: 0, analyzed: [] });
     expect(writeFileMock).toHaveBeenCalledWith(
-      expect.stringContaining("batch-queue.ndjson"),
+      expect.stringContaining(`${path.sep}batch${path.sep}queue.ndjson`),
       `${JSON.stringify({
         company: retryJob.company,
         role: retryJob.role,

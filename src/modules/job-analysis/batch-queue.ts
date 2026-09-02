@@ -60,6 +60,7 @@ export async function loadInflightBatches(): Promise<InflightBatch[]> {
 }
 
 export async function saveInflightBatches(batches: InflightBatch[]) {
+  await fs.mkdir(path.dirname(BATCH_INFLIGHT_PATH), { recursive: true });
   await fs.writeFile(BATCH_INFLIGHT_PATH, `${JSON.stringify(batches, null, 2)}\n`, "utf-8");
 }
 
