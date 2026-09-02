@@ -1,187 +1,115 @@
 [
   {
-    "name": "batches/sze63khsq6b68qvn0ztc9xi2cd8w4r0o1s96",
-    "submittedAt": "2026-09-02T11:14:42.152Z",
+    "name": "batches/8c4axxgvvez7ewwk9ztxjhqnw0qa86wjl9xr",
+    "submittedAt": "2026-09-02T13:51:17.389Z",
     "jobs": [
       {
-        "company": "Amazon",
-        "role": "Data Engineer, PXT Central Science",
-        "link": "https://amazon.jobs/en/jobs/10521258",
-        "location": "US, VA, Arlington"
-      },
-      {
-        "company": "American express",
-        "role": "Managers, Software Engineering",
-        "link": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013399",
-        "location": "Phoenix, AZ, United States"
-      },
-      {
-        "company": "Apple",
-        "role": "iOS Engineer, Apple Pay Security",
-        "link": "https://jobs.apple.com/en-us/details/200681216-0836/ios-engineer-apple-pay-security?team=SFTWR",
-        "location": ""
-      },
-      {
-        "company": "Apple",
-        "role": "Software Engineer, Apple Pay — Wallet, Payments & Commerce (WPC)",
-        "link": "https://jobs.apple.com/en-us/details/200681309-1435/software-engineer-apple-pay-wallet-payments-commerce-wpc?team=SFTWR",
-        "location": ""
-      },
-      {
-        "company": "Apple",
-        "role": "iPhone System HW Electrical Engineer-Shenzhen",
-        "link": "https://jobs.apple.com/en-us/details/200681107-3435/iphone-system-hw-electrical-engineer-shenzhen?team=HRDWR",
-        "location": ""
-      },
-      {
-        "company": "Bah",
-        "role": "Embedded Software Engineer",
-        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-Park-MD/Embedded-Software-Engineer_R0243573",
-        "location": "Lexington Park, MD"
-      },
-      {
-        "company": "Barclays",
-        "role": "Full Stack Engineer",
-        "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/Site-Reliability-Engineer--SRE-_JR-0000102279-1",
+        "company": "Bmo",
+        "role": "Software Developer – Java, AWS & PL/SQL (AI-Assisted Development)",
+        "link": "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Software-Developer---Java--AWS---PL-SQL--AI-Assisted-Development-_R260018539",
         "location": "2 Locations"
       },
       {
-        "company": "BTI360 Website",
-        "role": "Backend Java Engineer - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7779559",
-        "location": "Herndon, VA & Chantilly, VA"
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Backend Python Engineer - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7254785",
-        "location": "Tysons Corner, Chantilly, & Herndon,VA "
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Data Scientist - Polygraph Required ",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7571993",
-        "location": "Herndon, VA & Chantilly, VA"
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Full Stack Engineer  - Polygraph Required ",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/8074667",
-        "location": "Herndon, VA "
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Knowledge Graph Software Engineer  - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/8023370",
-        "location": "Herndon, VA "
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Platform Engineer - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7785588",
-        "location": "Chantilly, VA & Herndon, VA"
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "Software Engineer, Applied AI - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7536995",
-        "location": "Chantilly, VA & Herndon, VA"
-      },
-      {
-        "company": "BTI360 Website",
-        "role": "UI React Engineer - Clearance Required",
-        "link": "https://job-boards.greenhouse.io/bti36021/jobs/7673349",
-        "location": "Herndon, VA & Chantilly, VA"
-      },
-      {
-        "company": "Crowdstrike",
-        "role": "Sr Backend Engineer, Falcon NG-SIEM, Global Serverless Platform",
-        "link": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Austin-TX/Backend-Engineer-III--Falcon-NG-SIEM--Global-Serverless-Platform--Remote--East-Coast-_R25320",
-        "location": "USA - Austin, TX"
-      },
-      {
-        "company": "Crowe",
-        "role": "Forward Deployed Engineering Leader- Microsoft AI Business Solutions",
-        "link": "https://crowe.wd12.myworkdayjobs.com/external_careers/job/Noida-Uttar-Pradesh-India/Forward-Deployed-Engineering-Leader--Microsoft-AI-Business-Solutions_R-51921",
+        "company": "Carrier",
+        "role": "Data Engineer – Specialist",
+        "link": "https://carrier.wd5.myworkdayjobs.com/jobs/job/Ecospace-Campus-3A-4th-Floor-Outer-Ring-Road-Bellandur-Bengaluru--560103/Data-Engineer---Specialist_30200657",
         "location": "2 Locations"
       },
       {
-        "company": "Gevernova",
-        "role": "Software Engineer",
-        "link": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Hyderabad/Software-Engineer_R5051115-2",
+        "company": "Cat",
+        "role": "Software Engineer-Java",
+        "link": "https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Chennai-Tamil-Nadu/Senior-Software-Engineer-Java_R0000367740",
         "location": "2 Locations"
+      },
+      {
+        "company": "Cerebras",
+        "role": "Application Security Engineer",
+        "link": "https://jobs.ashbyhq.com/cerebras/91bc61c1-29db-4a47-817d-30e921064af5",
+        "location": "Sunnyvale, CA"
       },
       {
         "company": "Google",
-        "role": "Device Layout and Simulation Engineer, Quantum AI",
-        "link": "https://www.google.com/about/careers/applications/jobs/results/84902942015922886-device-layout-and-simulation-engineer-quantum-ai?sort_by=date&page=1",
-        "location": "Goleta, CA, USA; Mountain View, CA, USA"
+        "role": "Software Developer, XR System Interaction Frameworks",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/101217083232002758-software-developer-xr-system-interaction-frameworks?sort_by=date&page=2",
+        "location": "Kitchener, ON, Canada; San Jose, CA, USA; +2 more; +1 more"
       },
       {
-        "company": "Here",
-        "role": "Sr DevOps Engineer",
-        "link": "https://careers-here.icims.com/jobs/83466/sr-devops-engineer/job",
+        "company": "Google",
+        "role": "Research Data Scientist, Merchant Shopping",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/100897949982040774-research-data-scientist-merchant-shopping?sort_by=date&page=3",
+        "location": "Mountain View, CA, USA"
+      },
+      {
+        "company": "Hitachi",
+        "role": "Control Center System Engineer",
+        "link": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Genoa-Ligura-Italy/Control-Center-System-Engineer_R0115434-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Ing",
+        "role": "Azure Cloud Engineer",
+        "link": "https://ing.wd3.myworkdayjobs.com/icsgblcor/job/Katowice-Zabrska-19/Azure-Cloud-Engineer_REQ-10120874-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Jda",
+        "role": "Software Engineer – Python, SQL, Microservices, Kafka/Rabbit MQ, Azure",
+        "link": "https://jda.wd5.myworkdayjobs.com/jda_careers/job/Bangalore/Software-Engineer---Python--SQL--Microservices--Kafka-Rabbit-MQ--Azure_262278",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Medline",
+        "role": "Sr Analyst IT Security",
+        "link": "https://medline.wd5.myworkdayjobs.com/Medline/job/Pune/Sr-Assoc-IT-Security_R2610239-1",
+        "location": "Pune"
+      },
+      {
+        "company": "Ngc",
+        "role": "Configuration Data Management Analyst",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Configuration-Data-Management-Analyst_R10248899",
+        "location": "United States-Virginia-Dulles"
+      },
+      {
+        "company": "Pae",
+        "role": "C/C++ Software Developer",
+        "link": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-VA-Dahlgren/C-C---Software-Developer_R0169599-1",
+        "location": "US-VA-Dahlgren"
+      },
+      {
+        "company": "Peraton",
+        "role": "Information Systems Security Engineer (ISSE)",
+        "link": "https://careers-peraton.icims.com/jobs/170231/information-systems-security-engineer-%28isse%29/job",
         "location": "Unsure"
       },
       {
-        "company": "Lyft",
-        "role": "Business Systems Engineer",
-        "link": "https://app.careerpuck.com/job-board/lyft/job/8772602002?gh_jid=8772602002",
-        "location": "San Francisco, CA"
+        "company": "Peraton",
+        "role": "Cloud Software Engineer-TS/SCI with Poly",
+        "link": "https://careers-peraton.icims.com/jobs/170205/cloud-software-engineer-ts-sci-with-poly/job",
+        "location": "Unsure"
       },
       {
-        "company": "Lyft",
-        "role": "Data Scientist ",
-        "link": "https://app.careerpuck.com/job-board/lyft/job/8772592002?gh_jid=8772592002",
-        "location": "Seattle, WA"
-      },
-      {
-        "company": "Lyft",
-        "role": "Software Engineer",
-        "link": "https://app.careerpuck.com/job-board/lyft/job/8772594002?gh_jid=8772594002",
-        "location": "Seattle, WA"
-      },
-      {
-        "company": "Lyft",
-        "role": "Software Engineer",
-        "link": "https://app.careerpuck.com/job-board/lyft/job/8772571002?gh_jid=8772571002",
-        "location": "San Francisco, CA"
-      },
-      {
-        "company": "Nvidia",
-        "role": "QA and Automation Engineer",
-        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Raanana/QA-and-Automation-Engineer_JR2024858-1",
-        "location": "2 Locations"
-      },
-      {
-        "company": "Nvidia",
-        "role": "Software QA Engineer, Networking",
-        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-QA-Engineer--Networking_JR2024852",
-        "location": "2 Locations"
-      },
-      {
-        "company": "Ptc",
-        "role": "Cloud Services Ops, Associate Engineer",
-        "link": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Remote-USA/Cloud-Services-Ops--Associate-Engineer_JR112675-1",
-        "location": "2 Locations"
-      },
-      {
-        "company": "Rockwellautomation",
-        "role": "Analyst Technology (Cloud & Power BI)",
-        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/India-New-Delhi-Noida/Analyst-Technology_R26-6338",
+        "company": "Proofpoint",
+        "role": "Machine Learning Engineer",
+        "link": "https://proofpoint.wd5.myworkdayjobs.com/proofpointcareers/job/India/Machine-Learning-Engineer_R14232",
         "location": "3 Locations"
       },
       {
-        "company": "Rockwellautomation",
-        "role": "Cloud Engineer",
-        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/India-New-Delhi-Noida/Cloud-Engineer_R26-6337",
+        "company": "Statestreet",
+        "role": "Alpha Account Services Data Analyst, hybrid, Officer",
+        "link": "https://statestreet.wd1.myworkdayjobs.com/global/job/Krakow-Poland/Alpha-Account-Services-Data-Analyst--hybrid--Officer_R-794975-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Steeldynamics",
+        "role": "Software Development Internship",
+        "link": "https://careers-steeldynamics.icims.com/jobs/7994/software-development-internship/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Usbank",
+        "role": "Data Scientist",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Data-Scientist_2026-0026449",
         "location": "4 Locations"
-      },
-      {
-        "company": "Verizon",
-        "role": "Dist Engr-AI/ML Engineering",
-        "link": "https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Chennai-India/Dist-Engr-AI-ML-Engineering_R-1100291-2",
-        "location": "3 Locations"
       }
     ]
   }
