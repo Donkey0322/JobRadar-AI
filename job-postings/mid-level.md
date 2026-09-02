@@ -288,6 +288,13 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Scientist</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200678478-3337/data-scientist?team=OPMFG"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 2</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer, Real-Time Video Streaming</td>
       <td width="180" align="left" valign="top">Cupertino, CA</td>
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200681395-0836/software-engineer-real-time-video-streaming?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://databricks.com/company/careers/open-positions/job?gh_jid=8760332002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">September 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Elekta</td>
-      <td width="420" align="left" valign="top">Associate Field Service Engineer - Mobile, Alabama</td>
-      <td width="180" align="left" valign="top">Mobile, AL</td>
-      <td width="120" align="left" valign="top"><a href="https://elekta.wd3.myworkdayjobs.com/elekta_careers/job/Georgia--Home-Based/Associate-Field-Service-Engineer---Mobile--Alabama_R2026-1307"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">September 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 7,409 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 7,410 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T19:52:33.706Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-02T19:58:44.690Z</code></sub>
