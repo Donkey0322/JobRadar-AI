@@ -53,8 +53,10 @@ jobs:
         run: pnpm tsx scripts/add-job-from-issue.ts
 
       - name: Commit changes
+        id: commit
         run: |
           if git diff --quiet; then
+            echo "has_commit=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit."
             exit 0
           fi
@@ -64,8 +66,14 @@ jobs:
 
           git add .
           git commit -m "data: add job from issue #${{ github.event.issue.number }}"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push
+          echo "has_commit=true" >> "$GITHUB_OUTPUT"
+
+      - name: Rebase and push
+        if: steps.commit.outputs.has_commit == 'true'
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
 
       - name: Comment success
         if: success()

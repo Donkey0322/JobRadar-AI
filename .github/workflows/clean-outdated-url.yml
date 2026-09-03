@@ -51,8 +51,6 @@ jobs:
         run: pnpm clean-url
 
       - name: Commit and push updated data
-        env:
-          PAT: ${{ secrets.PAT }}
         run: |
           git config user.name "actions-bot"
           git config user.email "actions@github.com"
@@ -60,6 +58,8 @@ jobs:
           git add data/
           git commit -m "chore(clean-outdated-url): clean outdated url"
 
-          git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push origin HEAD:${{ github.ref_name }}
+      - name: Rebase and push
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}

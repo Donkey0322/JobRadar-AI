@@ -522,14 +522,13 @@ on:
   push:
     paths:
       - "data/batch/queue.ndjson"
-      - "data/batch/inflight.json"
   schedule:
     - cron: "47 * * * *"
 ```
 
-Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Canceling during the wait no longer loses the batch mapping.
+Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Checkpointing inflight does not start another batch run. Canceling during the wait no longer loses the batch mapping; the hourly cron collects leftover inflight.
 
-The hourly cron is only a safety net (timeouts, leftover inflight). If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
+If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
 
 ### Notify Latest Jobs
 

@@ -1,0 +1,41 @@
+name: Rebase and push
+description: Pull --rebase then push, retrying when another job moved the branch.
+
+inputs:
+  token:
+    description: Token used to fetch and push
+    required: true
+  ref:
+    description: Branch name to update
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Rebase onto the remote branch and push
+      shell: bash
+      env:
+        TOKEN: ${{ inputs.token }}
+        BRANCH: ${{ inputs.ref }}
+        REPOSITORY: ${{ github.repository }}
+      run: |
+        set -euo pipefail
+        git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git"
+
+        attempt=1
+        max=8
+        while true; do
+          git pull --rebase origin "$BRANCH"
+          if git push origin "HEAD:${BRANCH}"; then
+            exit 0
+          fi
+
+          if (( attempt >= max )); then
+            echo "Push failed after ${max} attempts."
+            exit 1
+          fi
+
+          echo "Remote branch moved; retrying rebase+push (${attempt}/${max})..."
+          sleep $((attempt * 2))
+          attempt=$((attempt + 1))
+        done

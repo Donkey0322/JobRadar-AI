@@ -56,10 +56,10 @@ jobs:
 
       # ✅ Commit generated job board changes
       - name: Commit generated job board changes
-        env:
-          PAT: ${{ secrets.PAT }}
+        id: commit
         run: |
           if [[ -z "$(git status --porcelain -- README.md job-postings assets/featured-badges)" ]]; then
+            echo "has_commit=false" >> "$GITHUB_OUTPUT"
             echo "No job board changes to commit."
             exit 0
           fi
@@ -69,7 +69,11 @@ jobs:
 
           git add README.md job-postings assets/featured-badges
           git commit -m "docs: update generated job boards"
+          echo "has_commit=true" >> "$GITHUB_OUTPUT"
 
-          git remote set-url origin "https://x-access-token:${PAT}@github.com/${{ github.repository }}.git"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push origin HEAD:${{ github.ref_name }}
+      - name: Rebase and push
+        if: steps.commit.outputs.has_commit == 'true'
+        uses: ./.github/actions/rebase-push
+        with:
+          token: ${{ secrets.PAT }}
+          ref: ${{ github.ref_name }}
