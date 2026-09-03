@@ -92,7 +92,7 @@ Each category page shows up to 200 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 619 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 628 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,427 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,518 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,517 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,815 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 200 of the latest opportunities.
 <p><sub>Showing 20 of 2,427 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (13,333)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (13,332)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,518)</h3>
+  <h3>Mid Level (7,517)</h3>
 
 <table width="100%">
   <thead>
@@ -730,7 +730,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,518 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,517 opportunities in this section.</sub></p>
 
   <h3>Senior Level (5,815)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-03T05:56:14.779Z</code>
+      🕒 Last updated <code>2026-09-03T09:47:43.754Z</code>
     </span>
   </p>
 </div>
