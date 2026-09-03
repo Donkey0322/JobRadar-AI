@@ -90,10 +90,10 @@
 Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 655 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 644 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,448 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,614 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 5,881 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 643 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,447 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,611 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 5,877 opportunities
 
 ## The List 🚴‍♂️
 
@@ -411,7 +411,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 644 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 643 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -426,6 +426,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Dickssportinggoods</td>
+      <td width="420" align="left" valign="top">BI Data &amp; Reporting Developer I</td>
+      <td width="180" align="left" valign="top">Customer Support Center, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Customer-Support-Center/BI-Data---Reporting-Developer-I_202634905-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 3</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Torc Robotics</td>
       <td width="420" align="left" valign="top">Software Engineer, I - Data Engineering</td>
@@ -559,23 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/twosixtechnologies/jobs/6179900004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Wustl</td>
-      <td width="420" align="left" valign="top">Systems Engineer I (Hybrid) - WashU IT, Cloud and Endpoint Security</td>
-      <td width="180" align="left" valign="top">Saint Louis, MO</td>
-      <td width="120" align="left" valign="top"><a href="https://wustl.wd1.myworkdayjobs.com/external/job/Washington-University-Medical-Campus/Systems-Engineer-I--Hybrid----WashU-IT--Cloud-and-Endpoint-Security_JR96898-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,448 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,447 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (13,495)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (13,488)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,614)</h3>
+  <h3>Mid Level (7,611)</h3>
 
 <table width="100%">
   <thead>
@@ -730,9 +730,9 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,614 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,611 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (5,881)</h3>
+  <h3>Senior Level (5,877)</h3>
 
 <table width="100%">
   <thead>
@@ -887,7 +887,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 5,881 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 5,877 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-03T20:05:13.578Z</code>
+      🕒 Last updated <code>2026-09-03T22:44:18.165Z</code>
     </span>
   </p>
 </div>
