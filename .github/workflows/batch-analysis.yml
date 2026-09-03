@@ -130,7 +130,7 @@ jobs:
           git config user.email "actions@github.com"
 
           git add data/
-          git commit -m "chore(batch): checkpoint inflight submissions"
+          git commit -m "chore(batch): checkpoint inflight submissions [skip ci]"
 
       - name: Push inflight checkpoint
         if: steps.submit.outputs.has_changes == 'true'
