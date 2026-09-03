@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Trulioo</td>
+      <td width="420" align="left" valign="top">Junior Software Engineer 🎓</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/trulioo/51347dfe-5ba8-4480-a225-ffd7f641613e/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aramark</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer</td>
+      <td width="180" align="left" valign="top">Rockville, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://aramarkcareers.com/UnitedStates/job/Rockville-Jr_-Data-Engineer-MD-20850/1426145000/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">N1</td>
+      <td width="420" align="left" valign="top">New Grad Software Engineer - Backend Rust</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/n1/a3e25c84-0846-454a-b2fc-a356c2a713bd/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Philips</td>
       <td width="420" align="left" valign="top">Full Time- Graduate Development Program-AI &amp; Analytics Associate-Nashville, TN or Cambridge, MA-2027<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Nashville, TN</td>
@@ -1392,31 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Huntsville-AL_R10247580-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">August 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Cyber Systems Engineer - Secret<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Cyber-Systems-Engineer---Secret_R10247292"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Peraton</td>
-      <td width="420" align="left" valign="top">Entry-Level Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fort Meade, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/170126/entry-level-systems-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Selinc</td>
-      <td width="420" align="left" valign="top">PE I - Automation Engineer</td>
-      <td width="180" align="left" valign="top">King of Prussia, PA</td>
-      <td width="120" align="left" valign="top"><a href="https://selinc.wd1.myworkdayjobs.com/SEL/job/Pennsylvania---King-of-Prussia/PE-I---Automation-Engineer_2026-22741"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">August 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,436 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,439 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-03T17:21:27.812Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-03T17:24:22.864Z</code></sub>

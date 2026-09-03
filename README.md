@@ -91,7 +91,7 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 624 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 634 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,436 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,439 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 7,576 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,861 opportunities
 
@@ -427,6 +427,27 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Trulioo</td>
+      <td width="420" align="left" valign="top">Junior Software Engineer 🎓</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/trulioo/51347dfe-5ba8-4480-a225-ffd7f641613e/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aramark</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer</td>
+      <td width="180" align="left" valign="top">Rockville, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://aramarkcareers.com/UnitedStates/job/Rockville-Jr_-Data-Engineer-MD-20850/1426145000/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">N1</td>
+      <td width="420" align="left" valign="top">New Grad Software Engineer - Backend Rust</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/n1/a3e25c84-0846-454a-b2fc-a356c2a713bd/application"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">September 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Philips</td>
       <td width="420" align="left" valign="top">Full Time- Graduate Development Program-AI &amp; Analytics Associate-Nashville, TN or Cambridge, MA-2027<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Nashville, TN</td>
@@ -545,30 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Software-Quality-Engineer_JR002901"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">September 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Arch</td>
-      <td width="420" align="left" valign="top">Software Engineer | Early Careers, 2027 Start</td>
-      <td width="180" align="left" valign="top">New York City, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/arch.co/9fde8d03-9f47-44ac-bd14-53829722c06d"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">September 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kikoff</td>
-      <td width="420" align="left" valign="top">Software Engineer - Recent Grad</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/kikoff/jobs/4393822009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">September 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">2027 Associate Systems Engineer/Systems Engineer - Azusa CA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Azusa, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Azusa/XMLNAME-2027-Associate-Systems-Engineer-Systems-Engineer---Azusa-CA_R10249121-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">September 2</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,436 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,439 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (13,437)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-03T17:21:27.812Z</code>
+      🕒 Last updated <code>2026-09-03T17:24:22.864Z</code>
     </span>
   </p>
 </div>
