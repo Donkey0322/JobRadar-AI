@@ -676,7 +676,7 @@ function formatDate(value: string): string {
   }
 
   return date.toLocaleDateString("en-US", {
-    month: "long",
+    month: "short",
     day: "numeric",
     timeZone: "America/Los_Angeles",
   });
