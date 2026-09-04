@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "batches/cqm4zzkx0tys3k820pvnqu4foyymjm9zsvuz",
+    "submittedAt": "2026-09-04T01:22:45.126Z",
+    "jobs": [
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Systems Engineer - Video Greenwood Village, CO 09/03/2026",
+        "link": "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-systems-engineer-video/4673/100143765520",
+        "location": "Greenwood Village, CO"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Software Engineer Englewood, CO 09/03/2026",
+        "link": "https://jobs.spectrum.com/job/englewood/2027-summer-intern-software-engineer/4673/100143764320",
+        "location": "Englewood, CO"
+      },
+      {
+        "company": "Spectrum",
+        "role": "2027 Summer Intern: Software Engineer Greenwood Village, CO 09/03/2026",
+        "link": "https://jobs.spectrum.com/job/greenwood-village/2027-summer-intern-software-engineer/4673/100143758944",
+        "location": "Greenwood Village, CO"
+      }
+    ]
+  }
+]
