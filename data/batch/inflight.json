@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "name": "batches/seywhdq19ttce9r6bdiapcbejpilzp2xpeuq",
+    "submittedAt": "2026-09-04T17:15:38.803Z",
+    "jobs": [
+      {
+        "company": "Principal Financial Group",
+        "role": "Software Engineer Intern - Summer 2027",
+        "link": "https://careers.principal.com/jobs/52513?icims=1",
+        "location": "Charlotte, NC"
+      },
+      {
+        "company": "Primer",
+        "role": "Software Engineer Intern - Full Stack",
+        "link": "https://jobs.ashbyhq.com/primer/edd1667b-6323-444a-adc1-40bae5b9a3b0/application?embed=true",
+        "location": "SF"
+      },
+      {
+        "company": "Innovative Systems",
+        "role": "Software Engineer Intern/Co-op",
+        "link": "http://innovativesystems.applytojob.com/apply/nPMqeNSQOo/InternCoop-Summer-2027-Software-Engineering",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "The Exploration Company",
+        "role": "Engineering Intern - Software",
+        "link": "https://jobs.ashbyhq.com/the-exploration-company/86270058-8eec-4692-b49d-97ce59fd54ac/application?embed=true",
+        "location": "LA"
+      },
+      {
+        "company": "Waymo",
+        "role": "Software Engineering Intern - Behavior Test - MS 🎓",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8174504",
+        "location": "SF"
+      },
+      {
+        "company": "Innovative Systems",
+        "role": "Software Engineering Intern/Co-op",
+        "link": "http://innovativesystems.applytojob.com/apply/wJuSCjOOqx/InternCoopSpring-2027-Software-Engineering",
+        "location": "Pittsburgh, PA"
+      },
+      {
+        "company": "Visionist",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.jobvite.com/visionist/job/oTxGAfwq?nl=1&nl=1&fr=false",
+        "location": "Columbia, MD"
+      },
+      {
+        "company": "Microsoft",
+        "role": "Data Scientist PhD Intern 🎓",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393556986137",
+        "location": "Redmond, WA"
+      },
+      {
+        "company": "Hitachi",
+        "role": "Embedded Systems Engineer Intern - IoT",
+        "link": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---Texas-United-States/I3X-Intern_R0143621",
+        "location": "Texas"
+      }
+    ]
+  }
+]
