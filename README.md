@@ -91,8 +91,8 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 692 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 650 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,454 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,665 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,456 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,664 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,908 opportunities
 
 ## The List 🚴‍♂️
@@ -427,6 +427,20 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="./assets/featured-badges/snowflake.svg" /></td>
+      <td width="420" align="left" valign="top">AI Research Scientist, New Grad – Agents &amp; Reinforcement Learning</td>
+      <td width="180" align="left" valign="top">Bellevue, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.snowflake.com/us/en/job/cbb9e570-d930-4dd1-a91d-14ee0c952429?ph_id=cbb9e570-d930-4dd1-a91d-14ee0c952429"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 3</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer, Amazon Dedicated Cloud, Early Career - 2026<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Arlington, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10529546"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
       <td width="420" align="left" valign="top">Research Scientist Graduate (Conversational AI)- 2027 Start (PhD)</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
@@ -552,30 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers-iridium.icims.com/jobs/5095/cloud-engineer-i/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Trulioo</td>
-      <td width="420" align="left" valign="top">Junior Software Engineer 🎓</td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/trulioo/51347dfe-5ba8-4480-a225-ffd7f641613e/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aramark</td>
-      <td width="420" align="left" valign="top">Junior Data Engineer</td>
-      <td width="180" align="left" valign="top">Rockville, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://aramarkcareers.com/UnitedStates/job/Rockville-Jr_-Data-Engineer-MD-20850/1426145000/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,454 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,456 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (13,573)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (13,572)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,665)</h3>
+  <h3>Mid Level (7,664)</h3>
 
 <table width="100%">
   <thead>
@@ -730,7 +730,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,665 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,664 opportunities in this section.</sub></p>
 
   <h3>Senior Level (5,908)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-04T01:26:54.543Z</code>
+      🕒 Last updated <code>2026-09-04T04:31:19.764Z</code>
     </span>
   </p>
 </div>
