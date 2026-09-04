@@ -21,6 +21,13 @@
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Cadence</td>
+      <td width="420" align="left" valign="top">Software Engineer  (new college grad Dec 2026)</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://cadence.wd1.myworkdayjobs.com/univ_careers/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 3</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Ngc</td>
       <td width="420" align="left" valign="top">2027 Associate Systems Engineer/ Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Melbourne, FL</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/XMLNAME-2026-Associate-Cyber-Systems-Engineer---Chantilly-VA_R10246293-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Aug 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Nidec</td>
-      <td width="420" align="left" valign="top">Software Development Engineer</td>
-      <td width="180" align="left" valign="top">St. Charles, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://nidec.wd1.myworkdayjobs.com/nidec/job/North-AmericaUSAIllinoisSt-Charles-IL/Software-Development-Engineer_R0017456"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Aug 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,453 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,454 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-04T01:03:44.196Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-04T01:14:07.888Z</code></sub>
