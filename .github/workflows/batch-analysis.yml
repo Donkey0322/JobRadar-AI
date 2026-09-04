@@ -20,6 +20,9 @@ concurrency:
 
 jobs:
   gate:
+    # Collect may write failed jobs back to queue.ndjson. That push still
+    # updates README / notify, but must not start another batch immediately.
+    if: "${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(batch): collect') }}"
     runs-on: ubuntu-latest
     timeout-minutes: 5
     outputs:
