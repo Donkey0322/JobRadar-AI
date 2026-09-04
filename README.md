@@ -91,7 +91,7 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 695 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 651 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,460 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,461 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 7,672 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,917 opportunities
 
@@ -427,6 +427,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">DoorDash USA</td>
+      <td width="420" align="left" valign="top">Software Engineer I, Entry-Level (Graduation Date: Fall 2026-Summer 2027) - US</td>
+      <td width="180" align="left" valign="top">Los Angeles, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/doordashusa/jobs/8163709"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 4</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="./assets/featured-badges/snowflake.svg" /></td>
       <td width="420" align="left" valign="top">AI Research Scientist, New Grad – Agents &amp; Reinforcement Learning</td>
       <td width="180" align="left" valign="top">Bellevue, WA</td>
@@ -559,16 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/344360"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Skyward</td>
-      <td width="420" align="left" valign="top">Data Migration Engineer - Entry Level</td>
-      <td width="180" align="left" valign="top">Stevens Point, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/Skyward1/744000147336520"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,460 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,461 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (13,589)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-04T09:46:43.933Z</code>
+      🕒 Last updated <code>2026-09-04T12:47:16.798Z</code>
     </span>
   </p>
 </div>
