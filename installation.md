@@ -526,7 +526,7 @@ on:
     - cron: "47 * * * *"
 ```
 
-Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint with `[skip ci]`, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Emptying the queue in that checkpoint does not start another batch run. Canceling during the wait no longer loses the batch mapping; the hourly cron collects leftover inflight.
+Discovery commits that add queued jobs start a batch run immediately. The job submits work, commits the inflight checkpoint with `[skip ci]`, then polls the provider every 20 seconds until the batch finishes or the 20-minute soft deadline is hit. Emptying the queue in that checkpoint does not start another batch run. Collect may write failed jobs back onto the queue; that commit still updates the README and notify workflows, but Batch ignores `chore(batch): collect` pushes so retries wait for the next scan or the hourly cron. Canceling during the wait no longer loses the batch mapping; the hourly cron also collects leftover inflight.
 
 If both the queue and inflight files are empty, the workflow exits before installing Node. Manual **Run workflow** always runs.
 
