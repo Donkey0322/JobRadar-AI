@@ -1052,6 +1052,16 @@
     ]
   },
   {
+    "name": "aiprise",
+    "ats": "ashby",
+    "identifier": "aiprise",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+    "urls": [
+      "https://jobs.ashbyhq.com/aiprise/baf8a79b-d035-4bc1-8b12-4ef48e0257ba/application?embed=true"
+    ]
+  },
+  {
     "name": "airbnb",
     "ats": "greenhouse",
     "identifier": "airbnb",
@@ -1391,7 +1401,8 @@
     "page": "",
     "urls": [
       "https://www.alticeusacareers.com/job/Bethpage-Intern-Network-Planning-&-Engineering-NY-11714/1332899600/?ats=successfactors",
-      "https://www.alticeusacareers.com/job/Bethpage-Intern-Product-Manager-NY-11714/1333305700/?ats=successfactors"
+      "https://www.alticeusacareers.com/job/Bethpage-Intern-Product-Manager-NY-11714/1333305700/?ats=successfactors",
+      "https://www.alticeusacareers.com/job/Bethpage-Software-Dev-Engineer-I-NY-11714/1322496900/?ats=successfactors"
     ]
   },
   {
@@ -8937,7 +8948,8 @@
     "domain": "https://careers.aflac.com",
     "page": "",
     "urls": [
-      "https://careers.aflac.com/job/2026-Summer-Aflac-Corporate-Intern-GA/1320690100/?ats=successfactors"
+      "https://careers.aflac.com/job/2026-Summer-Aflac-Corporate-Intern-GA/1320690100/?ats=successfactors",
+      "https://careers.aflac.com/job/Software-Engineer-I-GA-31999/1323022100/?ats=successfactors"
     ]
   },
   {
@@ -11354,6 +11366,7 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Application-Support-Analyst-with-SRE_26985646",
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Apps-Support-Intmd-Analyst---C11---PUNE_26976585",
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Backend-Java-developer_26983788",
+      "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Analytics-Analyst_26988543",
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Integration-Engineer_26982303",
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/DevOps-Engineer---C11---PUNE_26988156",
       "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Devops-Engineer_26990689-1",
@@ -11388,8 +11401,7 @@
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Security-Derivatives-Intermediate-Associate-Analyst_26982178",
       "https://citi.wd5.myworkdayjobs.com/2/job/Tampa-Florida-United-States/Security-and-Derivatives-Intermediate-Associate-Analyst_26988717",
       "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Site-Reliability-Engineer--SRE-_26985194",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Software-Engineer-with-Russian_26960333",
-      "https://citi.wd5.myworkdayjobs.com/2/job/Pune-Maharashtra-India/Data-Analytics-Analyst_26988543"
+      "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Software-Engineer-with-Russian_26960333"
     ]
   },
   {
@@ -13786,6 +13798,7 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/UK875---DXC-Farnborough-UK875/Software-Developer_51584323",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---CT---ANY-CITY/Mainframe-Software-Engineering_51586932",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---FL---TAMPA/Dynatrace-Software-Engineering_51588481",
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---ANY-CITY/App-DevOps-AI-Enterprise-Solution-Executive--NJ-NY-CHI-or-TX_51588257",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---PLANO/Sr-Analyst-I-Software-Engineering_51587227",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---VA---ARLINGTON/AI-Platform-Engineer--OCI-Security---On-site-_51588312-1",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---VA---FALLS-CHURCH/Test-Automation-Engineer_51582549",
@@ -13798,8 +13811,7 @@
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Frontend-Developer--Angular-_51587806-1",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Full-stack-Engineer--AngularJs---Java-_51582472",
       "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Fullstack-Engineer_51585703",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51585418",
-      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---TX---ANY-CITY/App-DevOps-AI-Enterprise-Solution-Executive--NJ-NY-CHI-or-TX_51588257"
+      "https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/VNM---HO-CHI-MINH-CITY/Software-Engineer_51585418"
     ]
   },
   {
@@ -14128,6 +14140,16 @@
     "domain": "https://elkay.wd1.myworkdayjobs.com/elkay_external",
     "page": "https://elkay.wd1.myworkdayjobs.com/wday/cxs/elkay/elkay_external/jobs",
     "urls": []
+  },
+  {
+    "name": "ellipsislabs",
+    "ats": "ashby",
+    "identifier": "ellipsislabs",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/ellipsislabs",
+    "urls": [
+      "https://jobs.ashbyhq.com/ellipsislabs/caa49297-d5a3-4d03-b8c9-bdc7b77fb0bb/application"
+    ]
   },
   {
     "name": "elwoodtechnologies",
@@ -21431,6 +21453,7 @@
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Cyber---Cross-Domain-Solution--CDS--Systems-Engineer_R2128786",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Frontend-Developer_R2123031-1",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Strategic-Requirements-Systems-Engineer_R2123988",
+      "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Strategic-Requirements-Systems-Engineer_R2129490-1",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/System-Safety-Engineer_R2128699",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Systems-Engineer_R2124307",
       "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Systems-Engineering---Acquisition-Program-Manager_R2128286",
@@ -21490,8 +21513,7 @@
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Lexington-Massachusetts/Network-Software-Developer_R2123152",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/McLean-Virginia/Full-Stack-Developer_R2124665",
       "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Saint-Louis/Chief-Systems-Engineer_R2123566",
-      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Sydney-New-South-Wales-Australia/Systems-Safety-Engineer_R2125837-1",
-      "https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/El-Segundo-California/Strategic-Requirements-Systems-Engineer_R2129490-1"
+      "https://kbr.wd5.myworkdayjobs.com/kbr_careers/job/Sydney-New-South-Wales-Australia/Systems-Safety-Engineer_R2125837-1"
     ]
   },
   {
@@ -21921,6 +21943,7 @@
       "https://careers.l3harris.com/job/northampton/intern-software-engineer/4832/99780428464",
       "https://careers.l3harris.com/job/offutt-air-force-base/rc-135-network-systems-engineer/4832/99978303040",
       "https://careers.l3harris.com/job/offutt-air-force-base/specialist-systems-engineer-rc-135-computer-systems-administrator/4832/98772042752",
+      "https://careers.l3harris.com/job/ottawa/intermediate-systems-engineer-defence-communication-systems/4832/95954640704",
       "https://careers.l3harris.com/job/palm-bay/scientist-system-integration-and-test-engineering/4832/99478804240",
       "https://careers.l3harris.com/job/palm-bay/scientist-systems-engineer/4832/99715686336",
       "https://careers.l3harris.com/job/palm-bay/specialist-software-engineering/4832/99850263728",
@@ -21949,8 +21972,7 @@
       "https://careers.l3harris.com/job/west-palm-beach/specialist-system-analysis/4832/100124887696",
       "https://careers.l3harris.com/job/wilmington/intern-d-software-engineer/4832/99676177360",
       "https://careers.l3harris.com/job/wilmington/intern-software-engineer/4832/100038774576",
-      "https://careers.l3harris.com/job/wilmington/specialist-embedded-software-engineer-aerospace-flight-sign-on-bonus-15k-max/4832/100102043968",
-      "https://careers.l3harris.com/job/ottawa/intermediate-systems-engineer-defence-communication-systems/4832/95954640704"
+      "https://careers.l3harris.com/job/wilmington/specialist-embedded-software-engineer-aerospace-flight-sign-on-bonus-15k-max/4832/100102043968"
     ]
   },
   {
@@ -23448,6 +23470,7 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/mercor",
     "urls": [
       "https://jobs.ashbyhq.com/mercor/160c8177-765b-4bdc-a5be-5f646dccc98a",
+      "https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d",
       "https://jobs.ashbyhq.com/mercor/2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702",
       "https://jobs.ashbyhq.com/mercor/2d252cf2-649b-4cbd-a943-baf6a042dde1",
       "https://jobs.ashbyhq.com/mercor/3750ee8a-64d1-46ac-b4f9-6a823f949034",
@@ -23465,8 +23488,7 @@
       "https://jobs.ashbyhq.com/mercor/cf6fcf5a-6348-4d60-beb3-43333a2c2bb9",
       "https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f",
       "https://jobs.ashbyhq.com/mercor/f6035e89-f820-482c-9500-efb70226b134",
-      "https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7",
-      "https://jobs.ashbyhq.com/mercor/296c4031-5e98-4772-95f5-a9eb5bd7746d"
+      "https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7"
     ]
   },
   {
@@ -23857,9 +23879,11 @@
     "name": "metrostarsystems",
     "ats": "greenhouse",
     "identifier": "metrostarsystems",
-    "domain": "https://metrostar.com",
+    "domain": "https://www.metrostar.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/metrostarsystems/jobs",
-    "urls": []
+    "urls": [
+      "https://www.metrostar.com/job-post/?gh_jid=6667276003"
+    ]
   },
   {
     "name": "mfs",
@@ -32108,8 +32132,8 @@
       "https://boards.greenhouse.io/spacex/jobs/8783281002?gh_jid=8783281002",
       "https://boards.greenhouse.io/spacex/jobs/8783284002?gh_jid=8783284002",
       "https://boards.greenhouse.io/spacex/jobs/8784792002?gh_jid=8784792002",
-      "https://boards.greenhouse.io/spacex/jobs/8784864002?gh_jid=8784864002",
-      "https://boards.greenhouse.io/spacex/jobs/8784863002?gh_jid=8784863002"
+      "https://boards.greenhouse.io/spacex/jobs/8784863002?gh_jid=8784863002",
+      "https://boards.greenhouse.io/spacex/jobs/8784864002?gh_jid=8784864002"
     ]
   },
   {
@@ -36001,8 +36025,8 @@
     "domain": "https://valmont.wd1.myworkdayjobs.com/valmontcareers",
     "page": "https://valmont.wd1.myworkdayjobs.com/wday/cxs/valmont/valmontcareers/jobs",
     "urls": [
-      "https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/Omaha-NE/IT-Advanced-AI-Programmer-Analyst--AI-Solutions-_R28324",
-      "https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/Omaha-NE/Controls-Engineer_R28258"
+      "https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/Omaha-NE/Controls-Engineer_R28258",
+      "https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/Omaha-NE/IT-Advanced-AI-Programmer-Analyst--AI-Solutions-_R28324"
     ]
   },
   {
