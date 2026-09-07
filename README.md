@@ -91,8 +91,8 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 722 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 677 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,491 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,805 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,492 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,804 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 5,999 opportunities
 
 ## The List 🚴‍♂️
@@ -427,6 +427,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
+      <td width="420" align="left" valign="top">Data Engineer Graduate (Data Platfrom TikTok BP) - 2027 Start</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7681779180341709109"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">AiPrise</td>
       <td width="420" align="left" valign="top">Software Engineer 1</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -559,23 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://paypal.eightfold.ai/careers/job/274922260675?domain=paypal.com&amp;8fold_id=274922260675"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 4</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer, Early Careers </td>
-      <td width="180" align="left" valign="top">Cambridge, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10530257"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,491 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,492 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (13,804)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (13,803)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,805)</h3>
+  <h3>Mid Level (7,804)</h3>
 
 <table width="100%">
   <thead>
@@ -730,7 +730,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,805 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,804 opportunities in this section.</sub></p>
 
   <h3>Senior Level (5,999)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-07T18:32:56.471Z</code>
+      🕒 Last updated <code>2026-09-07T18:47:31.086Z</code>
     </span>
   </p>
 </div>
