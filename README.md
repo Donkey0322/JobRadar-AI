@@ -92,7 +92,7 @@ Each category page shows up to 200 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 777 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 713 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,529 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,900 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,901 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,073 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 200 of the latest opportunities.
 <p><sub>Showing 20 of 2,529 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (13,973)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (13,974)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,900)</h3>
+  <h3>Mid Level (7,901)</h3>
 
 <table width="100%">
   <thead>
@@ -722,15 +722,15 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top">Sep 8</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">Cfins</td>
-      <td width="420" align="left" valign="top">Financial Systems Analyst, Financial Reporting - Morristown, NJ/Hybrid</td>
-      <td width="180" align="left" valign="top">Morristown, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-cfins.icims.com/jobs/5120/financial-systems-analyst%2c-financial-reporting---morristown%2c--nj-hybrid/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="180" align="left" valign="top">U.S. Bank</td>
+      <td width="420" align="left" valign="top">Fraud Strategy Data Analyst<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fargo, ND</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0027147?ph_id=2026-0027147"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 8</td>
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,900 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,901 opportunities in this section.</sub></p>
 
   <h3>Senior Level (6,073)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-08T21:20:04.332Z</code>
+      🕒 Last updated <code>2026-09-08T21:30:29.156Z</code>
     </span>
   </p>
 </div>
