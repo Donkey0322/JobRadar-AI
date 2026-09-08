@@ -5,7 +5,7 @@ import { RED_CROSS } from "@/constants/log";
 
 import type { JDFetchResult } from "../index";
 
-import { JD_FETCH_ERROR, JD_FETCH_OK } from "../index";
+import { JD_FETCH_ERROR, JD_FETCH_OK, jdFetchErrorFromResponse } from "../index";
 import {
   extractJobPostingFromJsonLd,
   extractRelevantJDWindow,
@@ -126,7 +126,7 @@ export async function fetchCustomJD(
           logger.error({ url, status: res.status }, `${RED_CROSS} Failed to fetch text`);
           return {
             jd: null,
-            error: JD_FETCH_ERROR.http(res.status, res.statusText),
+            error: jdFetchErrorFromResponse(res),
           };
         }
 

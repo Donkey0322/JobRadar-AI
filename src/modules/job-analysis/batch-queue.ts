@@ -11,7 +11,7 @@ import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 import analyzeJD, { formatJDPrompt, getAnalyzeJDConfig } from "./ai";
 import { parseAIJDResult } from "./response";
 
-import { HttpStatusCode, NETWORK_ERROR_CODE } from "@/modules/ats/detail";
+import { isRetryableJDFetch } from "@/modules/ats/detail";
 import { getRawJD } from "@/modules/job-analysis";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { readJsonFile } from "@/utils/data";
@@ -96,10 +96,6 @@ export async function enqueueBatchJobs(jobs: Job[]) {
   await saveBatchQueue([...queued, ...appended]);
 
   logger.info({ count: appended.length }, "📦 Queued jobs for batch analysis");
-}
-
-function isRetryableFetch(code: number) {
-  return code === NETWORK_ERROR_CODE || code === HttpStatusCode.TOO_MANY_REQUESTS;
 }
 
 function parseAnalyzedResult(
@@ -294,7 +290,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
 
   for (const { job, rawJD, error } of fetchResults) {
     if (!rawJD) {
-      if (isRetryableFetch(error.code)) {
+      if (isRetryableJDFetch(error)) {
         retry.push(job);
       } else {
         logger.warn(

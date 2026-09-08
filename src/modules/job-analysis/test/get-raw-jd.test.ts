@@ -106,4 +106,32 @@ describe("getRawJD", () => {
     expect(fetchGreenhouseJDMock).toHaveBeenCalledOnce();
     expect(fetchCustomJDMock).toHaveBeenCalledOnce();
   });
+
+  it("does not fall back to HTML on a 429 ATS fetch", async () => {
+    fetchAshbyJDMock.mockResolvedValue({
+      jd: null,
+      error: JD_FETCH_ERROR.http(HttpStatusCode.TOO_MANY_REQUESTS, "Too Many Requests"),
+    });
+
+    const result = await getRawJD(ASHBY_URL);
+
+    expect(result.jd).toBeNull();
+    expect(result.error.code).toBe(HttpStatusCode.TOO_MANY_REQUESTS);
+    expect(fetchCustomJDMock).not.toHaveBeenCalled();
+    expect(loggerWarnMock).not.toHaveBeenCalled();
+  });
+
+  it("does not fall back to HTML on a network error", async () => {
+    fetchAshbyJDMock.mockResolvedValue({
+      jd: null,
+      error: JD_FETCH_ERROR.fetch("socket hang up"),
+    });
+
+    const result = await getRawJD(ASHBY_URL);
+
+    expect(result.jd).toBeNull();
+    expect(result.error.code).toBe(0);
+    expect(fetchCustomJDMock).not.toHaveBeenCalled();
+    expect(loggerWarnMock).not.toHaveBeenCalled();
+  });
 });

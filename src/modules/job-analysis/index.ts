@@ -19,6 +19,7 @@ import {
   fetchOracleJD,
   fetchSmartRecruitersJD,
   fetchWorkdayJD,
+  isRetryableJDFetch,
   JD_FETCH_ERROR,
   JD_FETCH_OK,
 } from "@/modules/ats/detail";
@@ -124,7 +125,7 @@ export async function getRawJD(
     const ats = classifyATS(new URL(url));
     const result = finishRawJD(await fetchAtsJD(ats, url, signal));
 
-    if (result.jd || HTML_JD_SOURCES.has(ats)) {
+    if (result.jd || HTML_JD_SOURCES.has(ats) || isRetryableJDFetch(result.error)) {
       return result;
     }
 

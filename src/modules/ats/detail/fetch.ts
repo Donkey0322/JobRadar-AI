@@ -61,12 +61,40 @@ export class HttpStatusCode {
 }
 
 export const NETWORK_ERROR_CODE = 0;
+const MAX_RETRY_AFTER_MS = 60_000;
 
 export type HttpStatus = number;
 
 export interface JDFetchStatus {
   code: HttpStatus | typeof NETWORK_ERROR_CODE;
   desc: string;
+  retryAfterMs?: number;
+}
+
+export function isRetryableJDFetch(error: Pick<JDFetchStatus, "code">): boolean {
+  return error.code === HttpStatusCode.TOO_MANY_REQUESTS || error.code === NETWORK_ERROR_CODE;
+}
+
+export function parseRetryAfter(header: string | null): number | undefined {
+  if (!header) {
+    return undefined;
+  }
+
+  const trimmed = header.trim();
+  if (!trimmed) {
+    return undefined;
+  }
+
+  if (/^\d+$/.test(trimmed)) {
+    return Math.min(Number(trimmed) * 1000, MAX_RETRY_AFTER_MS);
+  }
+
+  const date = Date.parse(trimmed);
+  if (Number.isNaN(date)) {
+    return undefined;
+  }
+
+  return Math.min(Math.max(0, date - Date.now()), MAX_RETRY_AFTER_MS);
 }
 
 export interface JDFetchResult {
@@ -85,9 +113,10 @@ export const JD_FETCH_ERROR = {
     desc,
   }),
 
-  http: (status: HttpStatus, statusText: string): JDFetchStatus => ({
+  http: (status: HttpStatus, statusText: string, retryAfterMs?: number): JDFetchStatus => ({
     code: status,
     desc: statusText,
+    ...(retryAfterMs !== undefined ? { retryAfterMs } : {}),
   }),
 
   internal: (desc = "Internal server error"): JDFetchStatus => ({
@@ -106,6 +135,18 @@ export const JD_FETCH_ERROR = {
   }),
 } as const;
 
+function retryAfterMsFrom(res: Response): number | undefined {
+  if (res.status !== HttpStatusCode.TOO_MANY_REQUESTS) {
+    return undefined;
+  }
+
+  return parseRetryAfter(res.headers.get("retry-after"));
+}
+
+export function jdFetchErrorFromResponse(res: Response): JDFetchStatus {
+  return JD_FETCH_ERROR.http(res.status, res.statusText, retryAfterMsFrom(res));
+}
+
 type FetchATSJDOptions = {
   transform?: (data: unknown) => string | null;
   logContext?: Record<string, unknown>;
@@ -120,10 +161,13 @@ export async function fetchJD(
   const { transform, logContext = {}, logLabel = "ATS JD" } = options;
 
   try {
-    const res = await fetch(apiUrl, { signal });
+    const res = await fetch(apiUrl, {
+      signal,
+      headers: { Accept: "application/json" },
+    });
 
     if (!res.ok) {
-      const error = JD_FETCH_ERROR.http(res.status, res.statusText);
+      const error = jdFetchErrorFromResponse(res);
 
       logger.error(
         {
