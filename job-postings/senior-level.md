@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Cerebras</td>
+      <td width="420" align="left" valign="top">Distributed Software Engineer</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/cerebras/ada45357-f6bb-452c-a9db-acd9ec33f0aa"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Harman</td>
       <td width="420" align="left" valign="top">AI Governance &amp; Risk Analyst</td>
       <td width="180" align="left" valign="top">Novi, MI</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/170280/sr-cyber-systems-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Statestreet</td>
-      <td width="420" align="left" valign="top">Software Supply Chain Security Engineer</td>
-      <td width="180" align="left" valign="top">Quincy, Massachusetts</td>
-      <td width="120" align="left" valign="top"><a href="https://statestreet.wd1.myworkdayjobs.com/global/job/Quincy-Massachusetts/Software-Supply-Chain-Security-Engineer_R-794912"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 6,003 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 6,004 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:41:38.619Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:47:34.039Z</code></sub>

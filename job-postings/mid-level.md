@@ -14,6 +14,27 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
+      <td width="420" align="left" valign="top">Software Solution Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556982470?domain=microsoft.com&amp;8fold_id=1970393556982470"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Customer Engineer, Cloud AI, AI Natives, Google Cloud</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/75192738219205318-customer-engineer-cloud-ai-ai-natives-google-cloud?sort_by=date&amp;page=3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aerovect</td>
+      <td width="420" align="left" valign="top">Software Engineer, Platform</td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/AeroVect/819ca85d-a972-4671-af37-5150cc1ce7f6"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Jabil</td>
       <td width="420" align="left" valign="top">Automation Controls Engineer</td>
       <td width="180" align="left" valign="top">Devens, MA</td>
@@ -1392,31 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/cloudflare/jobs/8175620?gh_jid=8175620"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 3</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Draper</td>
-      <td width="420" align="left" valign="top">Test and Product Development Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cambridge, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://draper.wd5.myworkdayjobs.com/draper_careers/job/Cambridge-MA/Test-and-Product-Development-Systems-Engineer_JR000359"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fis</td>
-      <td width="420" align="left" valign="top">Quality Automation Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-IL-CHI-222-STE-1700/Quality-Engineer-II_JR0308343"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gehc</td>
-      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Bellevue, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/WA07-01-Bellevue-1100-112th-Avenue-NE/Software-Engineer_R4045428-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 3</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 7,811 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 7,814 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:41:38.619Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:47:34.039Z</code></sub>

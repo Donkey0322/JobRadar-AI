@@ -21,6 +21,20 @@
       <td width="120" align="left" valign="top">Sep 8</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer, Search Ads in AI Experiences</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/99532077367468742-software-engineer-search-ads-in-ai-experiences?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">BAE Systems</td>
+      <td width="420" align="left" valign="top">Engineering Leadership Development Program - Embedded Software<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Sterling Heights, MI</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/128617BR?ph_id=128617BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cat</td>
       <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Chicago, IL</td>
@@ -1399,24 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://ciena.wd5.myworkdayjobs.com/Careers/job/Atlanta/WaveLogic-Software-Developer---New-Grad_R031608"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Highmarkhealth</td>
-      <td width="420" align="left" valign="top">Associate Business Systems Analyst</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Associate-Business-Systems-Analyst_J286284"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 1</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">DigitalOcean</td>
-      <td width="420" align="left" valign="top">Software Engineer I<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.digitalocean.com/careers/position/apply/?gh_jid=8101988"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,496 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,498 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:41:38.619Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:47:34.039Z</code></sub>

@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Micron</td>
+      <td width="420" align="left" valign="top">Intern - Software Engineer</td>
+      <td width="180" align="left" valign="top">Boise, ID</td>
+      <td width="120" align="left" valign="top"><a href="https://micron.wd1.myworkdayjobs.com/external/job/Boise-ID---Main-Site/Intern---Software-Engineer_JR108550"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Msd</td>
       <td width="420" align="left" valign="top">2027 Future Talent Program - Computer Scientist - Agentic &amp; Augmented Authoring Systems - Co-op</td>
       <td width="180" align="left" valign="top">West Point, PA</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://leidos.wd5.myworkdayjobs.com/External/job/Bethesda-MD/Software-Developer-Co-op_R-00190766"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Aug 27</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Hitachi</td>
-      <td width="420" align="left" valign="top">Data Platform Engineering, Student</td>
-      <td width="180" align="left" valign="top">Remote - United States</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Aug 27</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 681 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 682 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:41:38.619Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-08T09:47:34.039Z</code></sub>
