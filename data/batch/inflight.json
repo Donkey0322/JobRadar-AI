@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "name": "batches/rs79ge8ef1lere6gd8d6g0d9quqe28xkqbk6",
+    "submittedAt": "2026-09-08T04:33:36.815Z",
+    "jobs": [
+      {
+        "company": "Apple",
+        "role": "RCC Data Scientist",
+        "link": "https://jobs.apple.com/en-us/details/200681903-3715/rcc-data-scientist?team=APPST",
+        "location": ""
+      },
+      {
+        "company": "Cox",
+        "role": "Data Scientist Intern - Summer 2027 (Atlanta, GA)",
+        "link": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Data-Scientist-Intern---Summer-2027--Atlanta--GA-_R202682164",
+        "location": "Atlanta GA"
+      },
+      {
+        "company": "Cox",
+        "role": "Software Engineering Intern - Summer 2027 (Atlanta, GA)",
+        "link": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Software-Engineering-Intern---Summer-2027--Atlanta--GA-_R202682166",
+        "location": "Atlanta GA"
+      },
+      {
+        "company": "Cox",
+        "role": "Software Engineering Intern - Summer 2027 (Burlington, VT)",
+        "link": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Burlington-VT/Software-Engineering-Intern---Summer-2027--Burlington--VT-_R202682172-1",
+        "location": "Burlington VT"
+      },
+      {
+        "company": "Dickssportinggoods",
+        "role": "Software Engineering - Summer 2027 Corporate Internship",
+        "link": "https://dickssportinggoods.wd1.myworkdayjobs.com/dsg/job/Customer-Support-Center/Software-Engineering---Summer-2027-Corporate-Internship_202608792-1",
+        "location": "Customer Support Center"
+      },
+      {
+        "company": "Harman",
+        "role": "AI Governance & Risk Analyst",
+        "link": "https://harman.wd3.myworkdayjobs.com/harman/job/Novi---Michigan-USA---Cabot-Drive/AI-Governance---Risk-Analyst_R-55582-2026",
+        "location": "Novi - Michigan, USA - Cabot Drive"
+      },
+      {
+        "company": "Jabil",
+        "role": "Automation Controls Engineer",
+        "link": "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/Devens-MA/Automation-Controls-Engineer_J2462880-1",
+        "location": "Devens, MA"
+      },
+      {
+        "company": "Msd",
+        "role": "2027 Future Talent Program - Computer Scientist - Agentic & Augmented Authoring Systems - Co-op",
+        "link": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Computer-Scientist---Agentic---Augmented-Authoring-Systems---Co-op_R412857",
+        "location": "USA - Pennsylvania - West Point"
+      },
+      {
+        "company": "Msd",
+        "role": "2027 Future Talent Program - Medical Data Scientist - Intern",
+        "link": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Medical-Data-Scientist---Intern_R412403",
+        "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)"
+      },
+      {
+        "company": "Msd",
+        "role": "2027 Future Talent Program - Nonclinical Drug Safety Data Scientist - Intern",
+        "link": "https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Boston-MA-Parcel-B-Laboratory/XMLNAME-2027-Future-Talent-Program---Nonclinical-Drug-Safety-Data-Scientist---Intern_R412861",
+        "location": "USA - Massachusetts - Boston (MA Parcel B Laboratory)"
+      },
+      {
+        "company": "Nvidia",
+        "role": "DevOps Engineer, DOCA",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/DevOps-Engineer--DOCA_JR2023758",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Software Engineer, Cloud Platforms",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineer--Cloud-Platforms_JR2025037",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Salesforce",
+        "role": "Forward Deployed Engineer - Public Sector, Nonprofit & Education",
+        "link": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Australia---Sydney/Forward-Deployed-Engineer---Public-Sector--Nonprofit---Education_JR353713-1",
+        "location": "5 Locations"
+      }
+    ]
+  }
+]
