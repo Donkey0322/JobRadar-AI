@@ -91,8 +91,8 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 794 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 725 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,540 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 7,941 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,542 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 7,939 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,096 opportunities
 
 ## The List 🚴‍♂️
@@ -428,6 +428,41 @@ Each category page shows up to 200 of the latest opportunities.
   <tbody>
     <tr>
       <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">2026- Fulltime- Systems Engineer I- Onsite<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/XMLNAME-2026--Fulltime--Systems-Electronic-Engineer-I--Onsite_01825190"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">2026 Raytheon Full Time - Systems Engineer I - Electronic Warfare - Fort Wayne, IN (Onsite)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IN-FT-WAYNE-150A--1010-Production-Rd--BLDG-150A/XMLNAME-2026-Raytheon-Full-Time---Systems-Engineer-I---Electronic-Warfare---Fort-Wayne--IN--Onsite-_01840051"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lplfinancial</td>
+      <td width="420" align="left" valign="top">New Grad 2027 – Foundational Analyst Rotational Program (FAR) – Data Analytics<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Mill/Charlotte, NC</td>
+      <td width="120" align="left" valign="top"><a href="https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/New-Grad-2027---Foundational-Analyst-Rotational-Program--FAR----Data-Analytics_R-052057-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Systems Engineer I- Onsite Portsmouth, RI<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Portsmouth, RI</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-RI-PORTSMOUTH-PS1--1847-W-Main-Rd--NIMITZ-BLDG/Systems-Engineer-I--Onsite-Portsmouth--RI_01872102"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McKinney, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WM--2501-W-University-Dr--WING-M-BLDG/Systems-Engineer-I_01869891"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 9</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Embedded Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">McKinney, TX</td>
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Embedded-Software-Engineer-I--Onsite-_01871867"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -531,51 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineer-I--Onsite-_01872860"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thermofisher</td>
-      <td width="420" align="left" valign="top">FSP Associate Scientist - Separations and Automation, HPLC</td>
-      <td width="180" align="left" valign="top">Worcester, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Worcester-Massachusetts-USA/FSP-Associate-Scientist---Separations-and-Automation--HPLC_R-01367375"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Tmobile</td>
-      <td width="420" align="left" valign="top">Front-End Developer, Dynamic Ad Creative<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/New-York-New-York/Front-End-Developer--Dynamic-Ad-Creative_REQ368337"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Overland Park, KS</td>
-      <td width="120" align="left" valign="top"><a href="https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Associate-Software-Engineer_REQ367954-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">True Anomaly</td>
-      <td width="420" align="left" valign="top">Software Engineer I, Elixir (New Grad)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Denver, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/trueanomalyinc/jobs/5232802007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Kbr</td>
-      <td width="420" align="left" valign="top">Jr. Systems Engineer (Digital Engineering Course Development)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chantilly, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Chantilly-Virginia/Systems-Engineer--Digital-Engineering-Course-Development-_R2125981"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,540 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,542 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (14,037)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (14,035)</b></summary>
 
   <br />
 
-  <h3>Mid Level (7,941)</h3>
+  <h3>Mid Level (7,939)</h3>
 
 <table width="100%">
   <thead>
@@ -730,7 +730,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 7,941 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 7,939 opportunities in this section.</sub></p>
 
   <h3>Senior Level (6,096)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-09T09:50:58.178Z</code>
+      🕒 Last updated <code>2026-09-09T13:03:05.556Z</code>
     </span>
   </p>
 </div>
