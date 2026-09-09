@@ -1292,6 +1292,16 @@
     ]
   },
   {
+    "name": "allen-control-systems",
+    "ats": "ashby",
+    "identifier": "allen-control-systems",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/allen-control-systems",
+    "urls": [
+      "https://jobs.ashbyhq.com/allen-control-systems/9945f76d-6d03-45f0-b431-fc69d31f5476/application?embed=true"
+    ]
+  },
+  {
     "name": "alliance",
     "ats": "workday",
     "identifier": "alliance-nissanjobs",
@@ -4741,6 +4751,16 @@
     "page": "https://api.ashbyhq.com/posting-api/job-board/astronomer",
     "urls": [
       "https://jobs.ashbyhq.com/astronomer/c9261f1a-8f90-4d9e-a5b2-2123bfd6e77b"
+    ]
+  },
+  {
+    "name": "asuresoftware.bamboohr.com",
+    "ats": "custom",
+    "identifier": "asuresoftware.bamboohr.com",
+    "domain": "https://asuresoftware.bamboohr.com",
+    "page": "",
+    "urls": [
+      "https://asuresoftware.bamboohr.com/careers/1094/"
     ]
   },
   {
@@ -8624,6 +8644,16 @@
     ]
   },
   {
+    "name": "canada-secure",
+    "ats": "icims",
+    "identifier": "canada-secure",
+    "domain": "https://careers-canada-secure.icims.com",
+    "page": "https://careers-canada-secure.icims.com/jobs/search",
+    "urls": [
+      "https://careers-canada-secure.icims.com/jobs/1934/job?mobile=true&needsRedirect=false"
+    ]
+  },
+  {
     "name": "canadiantirecorporation",
     "ats": "workday",
     "identifier": "canadiantirecorporation-enterprise_external_careers_site",
@@ -12182,6 +12212,18 @@
       "https://cohesity.wd5.myworkdayjobs.com/cohesity_careers/job/Bangalore---India-Office/Software-Engineer_R04234",
       "https://cohesity.wd5.myworkdayjobs.com/cohesity_careers/job/Cork---Ireland-Office/Physical-Security-Application-Engineer_R04579",
       "https://cohesity.wd5.myworkdayjobs.com/cohesity_careers/job/Pune---Panchshil---India-Office/Security-Software-Engineer_R03750"
+    ]
+  },
+  {
+    "name": "coinbase",
+    "ats": "greenhouse",
+    "identifier": "coinbase",
+    "domain": "https://boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs",
+    "urls": [
+      "https://boards.greenhouse.io/embed/job_app?token=8168315",
+      "https://boards.greenhouse.io/embed/job_app?token=8175441",
+      "https://boards.greenhouse.io/embed/job_app?token=8175459"
     ]
   },
   {
@@ -16618,6 +16660,17 @@
     ]
   },
   {
+    "name": "gallup",
+    "ats": "greenhouse",
+    "identifier": "gallup",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/gallup/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/gallup/jobs/4395897009",
+      "https://job-boards.greenhouse.io/gallup/jobs/4395454009"
+    ]
+  },
+  {
     "name": "gamechanger",
     "ats": "ashby",
     "identifier": "gamechanger",
@@ -20467,6 +20520,16 @@
     ]
   },
   {
+    "name": "interstates",
+    "ats": "greenhouse",
+    "identifier": "interstates",
+    "domain": "https://www.interstates.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/interstates/jobs",
+    "urls": [
+      "https://www.interstates.com/careers/jobs?gh_jid=4398703009&gh_jid=4398703009"
+    ]
+  },
+  {
     "name": "intersystems",
     "ats": "greenhouse",
     "identifier": "intersystems",
@@ -21437,6 +21500,7 @@
     "domain": "https://jobs.jobvite.com",
     "page": "",
     "urls": [
+      "https://jobs.jobvite.com/aarete/job/otGLAfwe?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/altamiracorps/job/o0kUxfwv?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/altamiracorps/job/oDD8zfwH?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/altamiracorps/job/oMqCAfw8?nl=1&nl=1&fr=false",
@@ -21468,8 +21532,7 @@
       "https://jobs.jobvite.com/src-inc/job/ohUjyfwM",
       "https://jobs.jobvite.com/visionist/job/oEBdAfwM?nl=1&nl=1&fr=false",
       "https://jobs.jobvite.com/visionist/job/oTxGAfwq?nl=1&nl=1&fr=false",
-      "https://jobs.jobvite.com/windriver/job/ooShxfwO",
-      "https://jobs.jobvite.com/aarete/job/otGLAfwe?nl=1&nl=1&fr=false"
+      "https://jobs.jobvite.com/windriver/job/ooShxfwO"
     ]
   },
   {
