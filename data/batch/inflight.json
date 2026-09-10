@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "name": "batches/efmek5iiyfqgxh7xwmyagwdtq3s727eimk44",
+    "submittedAt": "2026-09-10T03:05:41.431Z",
+    "jobs": [
+      {
+        "company": "Candidate experience site",
+        "role": "Summer 2027 SRE - Observability Engineering Internship",
+        "link": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301917",
+        "location": "Jersey City, NJ, United States"
+      },
+      {
+        "company": "Tradeweb",
+        "role": "Software Developer Intern - STP",
+        "link": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301914",
+        "location": "Jersey City, NJ"
+      },
+      {
+        "company": "Shield AI",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.lever.co/shieldai/8c850c75-081d-4d09-bebf-096379a93010/apply",
+        "location": "San Diego, CA"
+      },
+      {
+        "company": "Dell Technologies",
+        "role": "Software Engineer Intern - Client Solutions Group Engineering",
+        "link": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/298217",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "Rocket Lab USA",
+        "role": "Electrical Engineer Intern - Space Systems Division",
+        "link": "https://job-boards.greenhouse.io/rocketlab/jobs/7990043003",
+        "location": "Toronto, ON, Canada"
+      }
+    ]
+  }
+]
