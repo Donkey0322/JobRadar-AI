@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Entegris</td>
+      <td width="420" align="left" valign="top">Lab Automation &amp; AI Engineering Co-Op<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Billerica, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://entegris.wd1.myworkdayjobs.com/entegriscareers/job/Billerica-MA/Lab-Automation---AI-Engineering-Co-Op_REQ-14498-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 10</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rocket Lab Corporation</td>
       <td width="420" align="left" valign="top">Systems Engineering Intern Spring 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Long Beach, CA</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://nike.wd1.myworkdayjobs.com/nke/job/Beaverton-Oregon/NIKE--Inc-Artificial-Intelligence--Data----Machine-Learning-Engineering-Undergraduate-Internship_R-91110"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Aug 31</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Stripe" src="../assets/featured-badges/stripe.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer, Intern (Summer or Winter)</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://stripe.com/jobs/search?gh_jid=8128745"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Aug 31</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 753 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 754 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-10T12:59:21.463Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-10T13:04:35.133Z</code></sub>
