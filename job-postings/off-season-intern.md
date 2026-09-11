@@ -1419,4 +1419,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T17:22:51.141Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T19:22:17.517Z</code></sub>

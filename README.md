@@ -89,10 +89,10 @@
 
 Each category page shows up to 200 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 912 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 913 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 886 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,657 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 8,334 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 8,335 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,359 opportunities
 
 ## The List 🚴‍♂️
@@ -226,6 +226,13 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Undergrad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Undergrad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Remote</td>
       <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -245,16 +252,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">University - Summer 2027, Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Fayetteville, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/University---Summer-2027--Software-Engineer-Intern_R0249225"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 912 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 913 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -571,11 +571,11 @@ Each category page shows up to 200 of the latest opportunities.
 <p><sub>Showing 20 of 2,657 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (14,693)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (14,694)</b></summary>
 
   <br />
 
-  <h3>Mid Level (8,334)</h3>
+  <h3>Mid Level (8,335)</h3>
 
 <table width="100%">
   <thead>
@@ -730,7 +730,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 8,334 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 8,335 opportunities in this section.</sub></p>
 
   <h3>Senior Level (6,359)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-11T17:22:51.141Z</code>
+      🕒 Last updated <code>2026-09-11T19:22:17.517Z</code>
     </span>
   </p>
 </div>

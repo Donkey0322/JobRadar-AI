@@ -169,6 +169,13 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Peraton</td>
+      <td width="420" align="left" valign="top">.Net/Angular Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">UNAVAILABLE, UNAVAILABLE</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/170510/.net-angular-software-developer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Data Scientist<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Herndon, VA</td>
       <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/170507/data-scientist/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/spotify/56ea6f2e-f20b-4e46-ab94-d3eb0a89482d"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Swift</td>
-      <td width="420" align="left" valign="top">Associate Dev/Systems Engineer</td>
-      <td width="180" align="left" valign="top">Manassas, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://swift.wd3.myworkdayjobs.com/join-swift/job/Manassas-United-States/Associate-Dev-Systems-Engineer_2026-16475"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 8,334 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 8,335 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T17:22:51.141Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T19:22:17.517Z</code></sub>

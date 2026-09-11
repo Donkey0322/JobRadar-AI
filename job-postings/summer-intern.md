@@ -127,6 +127,13 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Undergrad Intern – Software Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Software-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255719"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 11</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Undergrad Intern – Machine Learning Engineer – Amgen’s Technology &amp; Medical Organizations (Summer 2027)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Remote</td>
       <td width="120" align="left" valign="top"><a href="https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Data-Analytics-Engineer-Intern---Summer-2027_R-10065538"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Solidigm</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern - Firmware &amp; AI Engineering 🎓</td>
-      <td width="180" align="left" valign="top">Rancho Cordova, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/Solidigm/744000147613769"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 4</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 912 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 913 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T17:22:51.141Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-11T19:22:17.517Z</code></sub>
