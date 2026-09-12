@@ -134,8 +134,8 @@
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--5505-Endeavor-Ln/AI-Platform-Engineer_31160332",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--5505-Endeavor-Ln/Automation-Engineer-I--R-D_35000179-2",
       "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--650-Forward-Dr/Instrumentation-Automation-Service-Engineer-I----OS_31159728",
-      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Redwood-City--301-Penobscot-Dr/Instrumentation-Automation-Service-Engineer-I_31158608-1",
-      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Phoenix--445-North-5th-St/Supervisor--Laboratory-Service-Engineering_31161243"
+      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Phoenix--445-North-5th-St/Supervisor--Laboratory-Service-Engineering_31161243",
+      "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Redwood-City--301-Penobscot-Dr/Instrumentation-Automation-Service-Engineer-I_31158608-1"
     ]
   },
   {
@@ -9055,6 +9055,16 @@
     ]
   },
   {
+    "name": "career4.successfactors.com",
+    "ats": "custom",
+    "identifier": "career4.successfactors.com",
+    "domain": "https://career4.successfactors.com",
+    "page": "",
+    "urls": [
+      "https://career4.successfactors.com/careers?career_ns=job_listing&company=colgate&selected_lang=nl-NL&career_job_req_id=169295"
+    ]
+  },
+  {
     "name": "career41.sapsf.com",
     "ats": "custom",
     "identifier": "career41.sapsf.com",
@@ -9546,6 +9556,7 @@
       "https://careers.cisco.com/global/en/job/2023869?ph_id=2023869",
       "https://careers.cisco.com/global/en/job/2023871?ph_id=2023871",
       "https://careers.cisco.com/global/en/job/2023876?ph_id=2023876",
+      "https://careers.cisco.com/global/en/job/2023913?ph_id=2023913",
       "https://careers.cisco.com/global/en/job/2023919?ph_id=2023919",
       "https://careers.cisco.com/global/en/job/2023927?ph_id=2023927",
       "https://careers.cisco.com/global/en/job/2023939?ph_id=2023939",
@@ -9603,8 +9614,7 @@
       "https://careers.cisco.com/global/en/job/2025014?ph_id=2025014",
       "https://careers.cisco.com/global/en/job/2025067?ph_id=2025067",
       "https://careers.cisco.com/global/en/job/2025073?ph_id=2025073",
-      "https://careers.cisco.com/global/en/job/2025180?ph_id=2025180",
-      "https://careers.cisco.com/global/en/job/2023913?ph_id=2023913"
+      "https://careers.cisco.com/global/en/job/2025180?ph_id=2025180"
     ]
   },
   {
@@ -14475,6 +14485,16 @@
     "page": "https://boards-api.greenhouse.io/v1/boards/elevationscreditunion/jobs",
     "urls": [
       "https://job-boards.greenhouse.io/elevationscreditunion/jobs/4725755005"
+    ]
+  },
+  {
+    "name": "eliseai",
+    "ats": "ashby",
+    "identifier": "eliseai",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/eliseai",
+    "urls": [
+      "https://jobs.ashbyhq.com/eliseai/1ffbd278-a5fe-443c-984f-521d61a97353"
     ]
   },
   {
@@ -20804,6 +20824,10 @@
       "https://jj.wd5.myworkdayjobs.com/JJ/job/PENJERLA-Telangana-India/Sr-Mgr--Forward-Deployed-Engineer--Research-Systems_R-097593",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Raynham-Massachusetts-United-States-of-America/R-082172-MFG-Systems-Business-Applications-Engineer-Orthopaedics_R-096227-2",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Raynham-Massachusetts-United-States-of-America/Technology-Mgr--Quality-Systems--Analyst_R-093339-1",
+      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Associate-Laboratory-Automation-Scientist_R-097666",
+      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Automation-and-Robotics-Engineer_R-097673-1",
+      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Job-Title--Experienced-Automation-and-Robotics-Engineer_R-097677",
+      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Laboratory-Automation-Scientist_R-097663-1",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Wilson-North-Carolina-United-States-of-America/Exp-Engineer--Process-Engineering-System-Owner_R-097061-1",
       "https://jj.wd5.myworkdayjobs.com/JJ/job/Wokingham-Berkshire-United-Kingdom/Regional-Systems-Analyst_R-096591-1",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Bogot-Distrito-Capital-Colombia/DS-Global-Payroll-Automation-Sr-Analyst_R-086425-1",
@@ -20816,11 +20840,7 @@
       "https://jj.wd5.myworkdayjobs.com/jj/job/Hyderabad-Andhra-Pradesh-India/Mgr-Forward-Deployed-Engineer--Software-Engineering_R-090549",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Santa-Clara-California-United-States-of-America/DevOps-Engineer_R-092117",
       "https://jj.wd5.myworkdayjobs.com/jj/job/Santa-Clara-California-United-States-of-America/Software-Engineer-DevOps_R-095632",
-      "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/Translational-Post-Doctoral-Researcher---Agentic-AI-for-Neurodegeneration_R-074853-1",
-      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Automation-and-Robotics-Engineer_R-097673-1",
-      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Job-Title--Experienced-Automation-and-Robotics-Engineer_R-097677",
-      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Laboratory-Automation-Scientist_R-097663-1",
-      "https://jj.wd5.myworkdayjobs.com/JJ/job/Spring-House-Pennsylvania-United-States-of-America/Associate-Laboratory-Automation-Scientist_R-097666"
+      "https://jj.wd5.myworkdayjobs.com/jj/job/Titusville-New-Jersey-United-States-of-America/Translational-Post-Doctoral-Researcher---Agentic-AI-for-Neurodegeneration_R-074853-1"
     ]
   },
   {
@@ -21141,6 +21161,17 @@
       "https://jobs.commscope.com/job/Catawba-Intern-Field-Application-Engineering-Nort/1352606600/?ats=successfactors",
       "https://jobs.commscope.com/job/Shakopee-Intern,-Software-Developer-Minn/1348768800/?ats=successfactors",
       "https://jobs.commscope.com/job/Shakopee-Intern-Software-Engineer-Minn/1346617800/?ats=successfactors"
+    ]
+  },
+  {
+    "name": "jobs.constellationenergy.com",
+    "ats": "custom",
+    "identifier": "jobs.constellationenergy.com",
+    "domain": "https://jobs.constellationenergy.com",
+    "page": "",
+    "urls": [
+      "https://jobs.constellationenergy.com/jobs/138708?icims=1",
+      "https://jobs.constellationenergy.com/jobs/138716?icims=1"
     ]
   },
   {
@@ -21836,8 +21867,8 @@
     "domain": "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
     "page": "https://etyy.fa.ap2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&finder=findReqs%3BsiteNumber%3DCX_1%2Climit%3D25%2CsortBy%3DPOSTING_DATES_DESC&expand=requisitionList.secondaryLocations%2CrequisitionList.otherWorkLocations",
     "urls": [
-      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11649",
-      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11648"
+      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11648",
+      "https://etyy.fa.ap2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11649"
     ]
   },
   {
@@ -22449,6 +22480,8 @@
       "https://careers.l3harris.com/job/brisbane/specialist-systems-engineer/4832/99468972832",
       "https://careers.l3harris.com/job/bristol/software-engineering-intern/4832/100436665344",
       "https://careers.l3harris.com/job/carlsbad/software-engineering-intern/4832/100436665456",
+      "https://careers.l3harris.com/job/carlsbad/sr-associate-software-engineer/4832/100511557632",
+      "https://careers.l3harris.com/job/carlsbad/sr-associate-systems-engineer/4832/99983726864",
       "https://careers.l3harris.com/job/clifton/associate-software-engineering/4832/100443672240",
       "https://careers.l3harris.com/job/clifton/intern-software-engineer/4832/100436629392",
       "https://careers.l3harris.com/job/clifton/intern-software-engineer/4832/100436629424",
@@ -22565,6 +22598,7 @@
       "https://careers.l3harris.com/job/salt-lake-city/systems-engineering-intern/4832/100436628864",
       "https://careers.l3harris.com/job/salt-lake-city/systems-engineering-intern/4832/100436628880",
       "https://careers.l3harris.com/job/salt-lake-city/systems-engineering-intern/4832/100436628896",
+      "https://careers.l3harris.com/job/san-diego/associate-software-engineer/4832/100511557792",
       "https://careers.l3harris.com/job/san-diego/software-engineering-intern/4832/100436665312",
       "https://careers.l3harris.com/job/schriever-afb/specialist-systems-engineering-battlespace-awareness-operator/4832/97898032336",
       "https://careers.l3harris.com/job/state-college/specialist-systems-engineering/4832/98544143568",
@@ -22579,10 +22613,7 @@
       "https://careers.l3harris.com/job/wilmington/intern-software-engineer/4832/100038774576",
       "https://careers.l3harris.com/job/wilmington/specialist-embedded-software-engineer-aerospace-flight-sign-on-bonus-15k-max/4832/100102043968",
       "https://careers.l3harris.com/job/wilmington/sr-specialist-iptl-mechanical-engineer-space-systems-sign-on-bonus-20k-max/4832/100393551840",
-      "https://careers.l3harris.com/job/yorba-linda/associate-software-engineer/4832/100357864816",
-      "https://careers.l3harris.com/job/san-diego/associate-software-engineer/4832/100511557792",
-      "https://careers.l3harris.com/job/carlsbad/sr-associate-systems-engineer/4832/99983726864",
-      "https://careers.l3harris.com/job/carlsbad/sr-associate-software-engineer/4832/100511557632"
+      "https://careers.l3harris.com/job/yorba-linda/associate-software-engineer/4832/100357864816"
     ]
   },
   {
@@ -27094,6 +27125,7 @@
       "https://jobs.ashbyhq.com/openai/b08126cc-8134-45f0-aeb3-4b00e96547de",
       "https://jobs.ashbyhq.com/openai/b15442c5-8e3c-4370-9abf-4b9c63f56de0",
       "https://jobs.ashbyhq.com/openai/b46ffd99-f9f2-440c-ac13-448eb7911ad6",
+      "https://jobs.ashbyhq.com/openai/b60d3040-38e4-4abe-8af8-881286b10d50",
       "https://jobs.ashbyhq.com/openai/b6a86e39-8059-4ccf-8d33-1bf5bd92fa86",
       "https://jobs.ashbyhq.com/openai/bd2b8228-bb0f-42e0-94bd-c853cdd56140",
       "https://jobs.ashbyhq.com/openai/be7b1bf5-37ab-40f7-9ec1-e9732244f12a",
@@ -27128,8 +27160,7 @@
       "https://jobs.ashbyhq.com/openai/f7d155c9-06e8-44f0-b2eb-bfa88707f2c1",
       "https://jobs.ashbyhq.com/openai/f8b84ae5-743b-41c9-8432-02dff9993d6b",
       "https://jobs.ashbyhq.com/openai/fcb0ed1a-9329-4e8f-8aab-92bb626d8141",
-      "https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db",
-      "https://jobs.ashbyhq.com/openai/b60d3040-38e4-4abe-8af8-881286b10d50"
+      "https://jobs.ashbyhq.com/openai/fff02c39-1185-427c-bf89-70d7eaa5e3db"
     ]
   },
   {
@@ -28995,6 +29026,7 @@
       "https://qualcomm.eightfold.ai/careers/job/446720123177?domain=qualcomm.com&8fold_id=446720123177",
       "https://qualcomm.eightfold.ai/careers/job/446720174470?domain=qualcomm.com&8fold_id=446720174470",
       "https://qualcomm.eightfold.ai/careers/job/446720179498?domain=qualcomm.com&8fold_id=446720179498",
+      "https://qualcomm.eightfold.ai/careers/job/446720179723?domain=qualcomm.com&8fold_id=446720179723",
       "https://qualcomm.eightfold.ai/careers/job/446720188443?domain=qualcomm.com&8fold_id=446720188443",
       "https://qualcomm.eightfold.ai/careers/job/446720194707?domain=qualcomm.com&8fold_id=446720194707",
       "https://qualcomm.eightfold.ai/careers/job/446720202486?domain=qualcomm.com&8fold_id=446720202486",
@@ -29015,6 +29047,7 @@
       "https://qualcomm.eightfold.ai/careers/job/446720358225?domain=qualcomm.com&8fold_id=446720358225",
       "https://qualcomm.eightfold.ai/careers/job/446720361954?domain=qualcomm.com&8fold_id=446720361954",
       "https://qualcomm.eightfold.ai/careers/job/446720377373?domain=qualcomm.com&8fold_id=446720377373",
+      "https://qualcomm.eightfold.ai/careers/job/446720388798?domain=qualcomm.com&8fold_id=446720388798",
       "https://qualcomm.eightfold.ai/careers/job/446720401405?domain=qualcomm.com&8fold_id=446720401405",
       "https://qualcomm.eightfold.ai/careers/job/446720415661?domain=qualcomm.com&8fold_id=446720415661",
       "https://qualcomm.eightfold.ai/careers/job/446720426705?domain=qualcomm.com&8fold_id=446720426705",
@@ -29063,9 +29096,7 @@
       "https://qualcomm.eightfold.ai/careers/job/446721063770?domain=qualcomm.com&8fold_id=446721063770",
       "https://qualcomm.eightfold.ai/careers/job/446721064018?domain=qualcomm.com&8fold_id=446721064018",
       "https://qualcomm.eightfold.ai/careers/job/446721064094?domain=qualcomm.com&8fold_id=446721064094",
-      "https://qualcomm.eightfold.ai/careers/job/446721064463?domain=qualcomm.com&8fold_id=446721064463",
-      "https://qualcomm.eightfold.ai/careers/job/446720388798?domain=qualcomm.com&8fold_id=446720388798",
-      "https://qualcomm.eightfold.ai/careers/job/446720179723?domain=qualcomm.com&8fold_id=446720179723"
+      "https://qualcomm.eightfold.ai/careers/job/446721064463?domain=qualcomm.com&8fold_id=446721064463"
     ]
   },
   {
@@ -29802,12 +29833,12 @@
     "domain": "https://jobs.ashbyhq.com",
     "page": "https://api.ashbyhq.com/posting-api/job-board/retell-ai",
     "urls": [
+      "https://jobs.ashbyhq.com/retell-ai/161bcfc9-56dd-4d0c-869d-e5de1431a940",
       "https://jobs.ashbyhq.com/retell-ai/1fcd6e82-2a31-4e2f-abcf-be069ebb6e8c",
       "https://jobs.ashbyhq.com/retell-ai/46400d61-feca-45f9-9000-563b8994f60f",
       "https://jobs.ashbyhq.com/retell-ai/7a23a933-cc70-43c9-a0d8-9f0c08ea4fd9",
       "https://jobs.ashbyhq.com/retell-ai/9515b331-91af-401b-a6dd-569ef40c5b48",
-      "https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463/application?embed=true",
-      "https://jobs.ashbyhq.com/retell-ai/161bcfc9-56dd-4d0c-869d-e5de1431a940"
+      "https://jobs.ashbyhq.com/retell-ai/ea775189-0496-43d8-a386-df8148265463/application?embed=true"
     ]
   },
   {
@@ -38245,7 +38276,9 @@
     "identifier": "workatastartup.com",
     "domain": "https://www.workatastartup.com",
     "page": "",
-    "urls": []
+    "urls": [
+      "https://www.workatastartup.com/jobs/81444"
+    ]
   },
   {
     "name": "workday",
