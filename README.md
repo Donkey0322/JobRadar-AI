@@ -90,7 +90,7 @@
 Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 932 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 914 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 915 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,691 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 8,426 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,416 opportunities
@@ -270,6 +270,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Autostore</td>
+      <td width="420" align="left" valign="top">Software Engineering Co-op<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://autostore.wd3.myworkdayjobs.com/autostore/job/Atlanta-GA-USA/Co-Op---Software-Engineering_JR102692"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 13</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Klaviyo</td>
       <td width="420" align="left" valign="top">Software Engineer Co-op<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Boston, MA</td>
@@ -402,16 +409,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Software-Engineer--SWE-_R_1509773"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 11</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Analyst Co-op - Global Technology &amp; Solutions</td>
-      <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
-      <td width="120" align="left" valign="top"><a href="https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Mount-Laurel-New-Jersey/XMLNAME-2027-Spring-Co-op---Global-Technology---Solutions---Data-Analyst_R_1510236"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 11</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 914 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 915 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-13T19:31:07.524Z</code>
+      🕒 Last updated <code>2026-09-13T19:35:16.487Z</code>
     </span>
   </p>
 </div>
