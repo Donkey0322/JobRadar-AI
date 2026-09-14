@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Sentinel - Industrial Security Analyst - 15474-1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Roy, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Utah-Roy/Sentinel---Industrial-Security-Analyst---15474-1_R10250608"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Adtran</td>
+      <td width="420" align="left" valign="top">Software Development Engineer I</td>
+      <td width="180" align="left" valign="top">Huntsville, AL</td>
+      <td width="120" align="left" valign="top"><a href="https://adtran.wd3.myworkdayjobs.com/adtran/job/Adtran-Huntsville-HQ/Software-Development-Engineer-I_R005903"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Data Engineer I, Business Data Technologies</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10539106"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Data Engineer I, Business Data Technologies</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10539104"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">SMX</td>
       <td width="420" align="left" valign="top">Cleared Data Analyst (5553)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">United States</td>
@@ -1385,38 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200679268-3337/machine-learning-research-engineer-ase-search?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning Research Engineer, ASE Search</td>
-      <td width="180" align="left" valign="top">Cupertino, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200679268-0836/machine-learning-research-engineer-ase-search?team=MLAI"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Wireless Analytics &amp; Intelligence Software Engineer</td>
-      <td width="180" align="left" valign="top">San Francisco Bay Area, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200679300-3401/wireless-analytics-intelligence-software-engineer?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Applied</td>
-      <td width="420" align="left" valign="top">Forward Deployed Software Engineer</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/applied/fc347a26-172c-42e9-86c9-b662d0fbe0c4"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Boeing</td>
-      <td width="420" align="left" valign="top">Autonomy Engineer - Millennium Space Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Autonomy-Engineer---Millennium-Space-Systems_JR2026524384-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 8,443 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 8,433 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-14T19:08:41.796Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-14T19:30:26.018Z</code></sub>

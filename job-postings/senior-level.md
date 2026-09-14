@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Crowe</td>
+      <td width="420" align="left" valign="top">Power Platform Engineering Specialist 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Indianapolis, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://crowe.wd12.myworkdayjobs.com/external_careers/job/Indianapolis-IN-USA/Power-Platform-Engineering-Specialist-1_R-52193-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Sierraspace</td>
       <td width="420" align="left" valign="top">Sr Data Analyst- Supply Chain Management</td>
       <td width="180" align="left" valign="top">Louisville, CO</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.disneycareers.com/job/seattle/sr-product-software-engineer/391/100441807936"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">DLH</td>
-      <td width="420" align="left" valign="top">Security Assessment &amp; Authorization (SA&amp;A) Analyst (Job 1458)</td>
-      <td width="180" align="left" valign="top">Bethesda, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/dlhcorporation/jobs/5234182007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 6,428 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 6,422 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-14T19:08:41.796Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-14T19:30:26.018Z</code></sub>
