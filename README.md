@@ -92,7 +92,7 @@ Each category page shows up to 200 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 983 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 940 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,734 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 8,521 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 8,522 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,476 opportunities
 
 ## The List 🚴‍♂️
@@ -571,11 +571,11 @@ Each category page shows up to 200 of the latest opportunities.
 <p><sub>Showing 20 of 2,734 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (14,997)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (14,998)</b></summary>
 
   <br />
 
-  <h3>Mid Level (8,521)</h3>
+  <h3>Mid Level (8,522)</h3>
 
 <table width="100%">
   <thead>
@@ -652,6 +652,13 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Software Developer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Software-Engineer_R10243905"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Test Engineering - Software Engineer (Hybrid)</td>
       <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
@@ -721,16 +728,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://metrostar.com/job-post/?gh_jid=7994192003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Motorolasolutions</td>
-      <td width="420" align="left" valign="top">Systems Engineer RF  - MARYLAND, DELAWARE OR Washington, D.C.<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Maryland, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Maryland-US-Offsite/Senior-System-Engineer---Maryland_R65468-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 8,521 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 8,522 opportunities in this section.</sub></p>
 
   <h3>Senior Level (6,476)</h3>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-14T19:32:30.226Z</code>
+      🕒 Last updated <code>2026-09-14T19:45:32.481Z</code>
     </span>
   </p>
 </div>
