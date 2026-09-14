@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "name": "batches/v02sqvy8ry36hf7eg6feqn71pl45bwmfblx2",
+    "submittedAt": "2026-09-14T22:13:59.339Z",
+    "jobs": [
+      {
+        "company": "OpenGov",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/opengov/c31622c1-be01-4d4a-b7cf-d116be84cc08/application?embed=true",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "OpenGov",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/opengov/d036cfd6-5a01-41ed-af73-78fc32854849/application?embed=true",
+        "location": "Atlanta, GA"
+      },
+      {
+        "company": "EquipmentShare",
+        "role": "Software Engineer Intern",
+        "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=8188926",
+        "location": "Columbia, MO"
+      },
+      {
+        "company": "EquipmentShare",
+        "role": "Software Engineer Intern",
+        "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=8188474",
+        "location": "Columbia, MO"
+      },
+      {
+        "company": "EquipmentShare",
+        "role": "Software Engineer Intern",
+        "link": "https://www.equipmentshare.com/careers/openings/?gh_jid=8188802",
+        "location": "Columbia, MO"
+      },
+      {
+        "company": "Tive",
+        "role": "Software Engineer Co-op",
+        "link": "https://ats.rippling.com/tive-careers/jobs/c88ab3d3-a8e7-4639-b95b-d6c9b5290dd0",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "North Atlantic Industries",
+        "role": "Full Stack Software Engineer Intern - Summer 2027",
+        "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501054",
+        "location": "Bohemia, NY"
+      },
+      {
+        "company": "Wex",
+        "role": "Full-Stack Software Engineer Intern - Undergraduate",
+        "link": "https://wexinc.wd5.myworkdayjobs.com/en-US/WEXInc/job/US---Remote/Backend-Software-Engineer-Intern--Undergraduate-_R22593",
+        "location": "Remote in USA"
+      },
+      {
+        "company": "Lowe's",
+        "role": "Software Engineer Intern",
+        "link": "https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Software-Engineer---Undergrad-Internship---Summer-2027_JR-02623576",
+        "location": "Charlotte, NC"
+      },
+      {
+        "company": "Lowe's",
+        "role": "Exploratory Software Engineer Intern",
+        "link": "https://lowes.wd5.myworkdayjobs.com/en-US/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Exploratory-Software-Engineering---Undergrad-Internship---Summer-2027_JR-02623542",
+        "location": "Charlotte, NC"
+      },
+      {
+        "company": "Baird",
+        "role": "Software Developer Intern",
+        "link": "https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Internship---Software-Developer--Year-Round-_R20261024-1",
+        "location": "Madison, WIMilwaukee, WI"
+      },
+      {
+        "company": "Intuit",
+        "role": "AI Scientist Intern",
+        "link": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
+        "location": "4 locationsNYCMountain View, CAAtlanta, GASan Diego, CA"
+      },
+      {
+        "company": "Constellation Energy",
+        "role": "PMO/Data Analyst Intern",
+        "link": "https://jobs.constellationenergy.com/jobs/138735?icims=1",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Royal Bank of Canada",
+        "role": "AI Engineer Co-op - Global Equities",
+        "link": "https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Capital-Markets--Global-Equities--AI-Engineer--16-Months--Co-op-_R-0000187401-1",
+        "location": "Toronto, ON, Canada"
+      },
+      {
+        "company": "North Atlantic Industries",
+        "role": "Software Engineer Intern",
+        "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4501273",
+        "location": "Bohemia, NY"
+      },
+      {
+        "company": "Charta Health",
+        "role": "Forward Deployed AI Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/chartahealth/0c76d54d-0ca8-4ab6-b360-c2dbae7b17cf/application?embed=true",
+        "location": "SFNYC"
+      },
+      {
+        "company": "SPAICE Technology",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/spaice-tech/16468d27-11e9-498c-87b6-3469f5f4ee12/application?embed=true",
+        "location": "London, UK"
+      },
+      {
+        "company": "GSK",
+        "role": "Web App Developer Co-op",
+        "link": "https://gsk-us-earlytalent.icims.com/jobs/11013/job?mobile=true&needsRedirect=false",
+        "location": "Cambridge, MA"
+      },
+      {
+        "company": "Chemours",
+        "role": "Data Visualization Analyst Intern",
+        "link": "https://chemours.wd103.myworkdayjobs.com/Chemours/job/US---Remote/Data-Visualization-Analyst-Spring-Intern_JR15000",
+        "location": "Remote in USAWilmington, DE"
+      },
+      {
+        "company": "DEKA Research & Development Corp.",
+        "role": "Software Engineer Co-op",
+        "link": "https://deka.applytojob.com/apply/ulNhn2xOvG/Software-Engineering-CoOp-Spring-2027",
+        "location": "Manchester, NH"
+      }
+    ]
+  }
+]
