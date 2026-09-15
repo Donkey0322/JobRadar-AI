@@ -1,7 +1,7 @@
 [
   {
-    "name": "batches/wsvjnwrv8l6ldmucn7djb38fyw8r3aiyvupf",
-    "submittedAt": "2026-09-15T10:08:09.401Z",
+    "name": "batches/fsc2jh7sztzkr55cohxtm49j8y2di3kkwhdb",
+    "submittedAt": "2026-09-15T12:10:33.203Z",
     "jobs": [
       {
         "company": "Garmin",
@@ -281,12 +281,6 @@
       },
       {
         "company": "Rollsroyce",
-        "role": "LibertyWorks Mechanical Systems Design Engineer",
-        "link": "https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Indianapolis/LibertyWorks-Mechanical-Systems-Design-Engineer_JR6160146",
-        "location": "Indianapolis"
-      },
-      {
-        "company": "Rollsroyce",
         "role": "LibertyWorks Thermofluids Systems Engineer",
         "link": "https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Indianapolis/LibertyWorks-Thermofluids-Systems-Engineer_JR6160145",
         "location": "Indianapolis"
@@ -306,8 +300,8 @@
     ]
   },
   {
-    "name": "batches/yj64126fwhqqekwazgr1wp7tvp1fz1a2wv1o",
-    "submittedAt": "2026-09-15T10:08:17.099Z",
+    "name": "batches/ryvmnbb615q0qadobeopd0ium8edlnxjbmkh",
+    "submittedAt": "2026-09-15T12:10:40.734Z",
     "jobs": [
       {
         "company": "Tive",
@@ -612,8 +606,8 @@
     ]
   },
   {
-    "name": "batches/25ue7hoxqnzvabpyptm8l1tpj3p08ko5w6ya",
-    "submittedAt": "2026-09-15T10:08:23.359Z",
+    "name": "batches/77sc0swpzjcnaaeeprn2ycn5cxu7qmkk37e8",
+    "submittedAt": "2026-09-15T12:10:46.736Z",
     "jobs": [
       {
         "company": "TikTok",
@@ -722,12 +716,6 @@
         "role": "Sr Product Software Engineer, Avails Management",
         "link": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Sr-Product-Software-Engineer--Avails-Management_10158549",
         "location": "Glendale, CA, USA"
-      },
-      {
-        "company": "Disney",
-        "role": "Sr Software Engineer Disney Entertainment and ESPN Product & Technology Glendale, California Sep. 14, 2026",
-        "link": "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/100634904656",
-        "location": "Glendale, California"
       },
       {
         "company": "Disney",
@@ -918,9 +906,15 @@
     ]
   },
   {
-    "name": "batches/11gld33e65fneuu0rg19odudfm1ac3o82y83",
-    "submittedAt": "2026-09-15T10:08:30.502Z",
+    "name": "batches/ui3qkbvqk8l96mpmcr1bubu4xytl7eo7eb5r",
+    "submittedAt": "2026-09-15T12:10:53.945Z",
     "jobs": [
+      {
+        "company": "Disney",
+        "role": "Sr Software Engineer Disney Entertainment and ESPN Product & Technology Glendale, California Sep. 14, 2026",
+        "link": "https://www.disneycareers.com/job/glendale/sr-software-engineer/391/100634904656",
+        "location": "Glendale, California"
+      },
       {
         "company": "Schwab",
         "role": "Quantitative Software Engineer - Research Data and Models (PL) San Francisco, CA; Chicago, IL Requisition ID: 2026-126798 Application deadline: 2026-09-21 Save for Later",
@@ -1214,19 +1208,19 @@
         "role": "Software Engineer Intern - Core OS",
         "link": "https://jobs.apple.com/en-us/details/200683709-3950/software-engineer-intern-core-os?team=SFTWR",
         "location": ""
-      },
+      }
+    ]
+  },
+  {
+    "name": "batches/gao5vn08kx9oopileks1vb09whavqg09y54l",
+    "submittedAt": "2026-09-15T12:10:57.556Z",
+    "jobs": [
       {
         "company": "Bakerhughes",
         "role": "Power System Engineer (Modeling Engineer)",
         "link": "https://bakerhughes.wd5.myworkdayjobs.com/bakerhughes/job/IN-TG-HYDERABAD-SKYVIEW-BUILDING/Power-System-Engineer--Modeling-Engineer-_R162622",
         "location": "2 Locations"
-      }
-    ]
-  },
-  {
-    "name": "batches/8r70x0y0v3mfgn1u1jyq5uqeini4as58mc8w",
-    "submittedAt": "2026-09-15T10:08:33.706Z",
-    "jobs": [
+      },
       {
         "company": "Barclays",
         "role": "Software Engineer",
