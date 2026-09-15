@@ -1468,5 +1468,95 @@
         "location": "Dallas, TX, United States"
       }
     ]
+  },
+  {
+    "name": "batches/paj51sxmwmsndy8jhkm4mmrgva2ymmymvqyz",
+    "submittedAt": "2026-09-15T17:51:21.343Z",
+    "jobs": [
+      {
+        "company": "General Dynamics Information Technology",
+        "role": "Software Development Intern",
+        "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228405",
+        "location": "Falls Church, VA"
+      },
+      {
+        "company": "General Dynamics Information Technology",
+        "role": "Software Development Intern",
+        "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228404",
+        "location": "Falls Church, VA"
+      },
+      {
+        "company": "General Dynamics Information Technology",
+        "role": "Software Development Intern",
+        "link": "https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Falls-Church/Summer-2027-Software-Development-Internship_RQ228406",
+        "location": "Falls Church, VA"
+      },
+      {
+        "company": "CAI",
+        "role": "Software Developer Intern",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Software-Developer-Intern_R8451",
+        "location": "Pennsylvania"
+      },
+      {
+        "company": "CAI",
+        "role": "Software Developer Intern",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Software-Developer-Intern_R8462",
+        "location": "Pennsylvania"
+      },
+      {
+        "company": "Waymo",
+        "role": "Software Engineering Intern - Commercialization",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8198218",
+        "location": "SFMountain View, CA"
+      },
+      {
+        "company": "CAI",
+        "role": "Data Engineer Intern",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Data-Engineering-Intern_R8481",
+        "location": "Pennsylvania"
+      },
+      {
+        "company": "CAI",
+        "role": "Data Analyst Intern",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Data-Analyst-Intern_R8452",
+        "location": "Pennsylvania"
+      },
+      {
+        "company": "Nokia",
+        "role": "Software Tools Development Co-op Intern",
+        "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39230",
+        "location": "Ottawa, ON, Canada"
+      },
+      {
+        "company": "General Dynamics Mission Systems",
+        "role": "Engineer Intern - Software Engineering",
+        "link": "https://careers-gdms.icims.com/jobs/74953/job?mobile=true&needsRedirect=false",
+        "location": "Bloomington, MN"
+      },
+      {
+        "company": "Intelcom | Dragonfly",
+        "role": "Back-end Developer Intern - Mobile Application",
+        "link": "https://intelcomgroup.wd3.myworkdayjobs.com/Intelcom/job/Canada-Quebec-Montreal/Back-end-Developer-Intern---Mobile-Application_JR111747",
+        "location": "Montreal, QC, Canada"
+      },
+      {
+        "company": "Autodesk",
+        "role": "Software Developer Intern",
+        "link": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Montreal-QC-CAN/Intern--Software-Developer--Stagiaire-en-Dveloppement-Logiciel_26WD101101-2",
+        "location": "Montreal, QC, Canada"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1415358400/?ats=successfactors",
+        "location": "Salt Lake City, UT"
+      },
+      {
+        "company": "Oshkosh",
+        "role": "Software Engineer Intern",
+        "link": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/San-Francisco-California-United-States/Software-Engineering-Intern_R49493",
+        "location": "SF"
+      }
+    ]
   }
 ]
