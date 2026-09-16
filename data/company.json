@@ -3054,6 +3054,17 @@
     ]
   },
   {
+    "name": "aperaaiinc",
+    "ats": "greenhouse",
+    "identifier": "aperaaiinc",
+    "domain": "https://job-boards.greenhouse.io",
+    "page": "https://boards-api.greenhouse.io/v1/boards/aperaaiinc/jobs",
+    "urls": [
+      "https://job-boards.greenhouse.io/aperaaiinc/jobs/5239394007",
+      "https://job-boards.greenhouse.io/aperaaiinc/jobs/5239440007"
+    ]
+  },
+  {
     "name": "apex-technology-inc",
     "ats": "ashby",
     "identifier": "apex-technology-inc",
@@ -9165,13 +9176,13 @@
     "name": "careers",
     "ats": "greenhouse",
     "identifier": "careers",
-    "domain": "https://careers.withwaymo.com",
+    "domain": "https://careers.duolingo.com",
     "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
     "urls": [
-      "https://careers.withwaymo.com/jobs?gh_jid=8174504",
-      "https://careers.withwaymo.com/jobs?gh_jid=8198218",
       "https://careers.duolingo.com/jobs/8805925002?gh_jid=8805925002",
-      "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002"
+      "https://careers.duolingo.com/jobs/8806114002?gh_jid=8806114002",
+      "https://careers.withwaymo.com/jobs?gh_jid=8174504",
+      "https://careers.withwaymo.com/jobs?gh_jid=8198218"
     ]
   },
   {
@@ -14712,7 +14723,8 @@
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010346",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010370",
       "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010597",
-      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738"
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738",
+      "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010928"
     ]
   },
   {
@@ -21500,7 +21512,8 @@
     "domain": "https://jobs.entergy.com",
     "page": "",
     "urls": [
-      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors"
+      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Summer-2027-Loui/1430182400/?ats=successfactors",
+      "https://jobs.entergy.com/job/New-Orleans-Student-Intern-AI-Developer-Spring-2027-Loui/1430299700/?ats=successfactors"
     ]
   },
   {
