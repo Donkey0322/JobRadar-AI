@@ -1015,6 +1015,13 @@
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">DevOps Engineer, Claris</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200647673-3956/devops-engineer-claris?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 14</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Disney</td>
       <td width="420" align="left" valign="top">Sr Software Engineer Disney Entertainment and ESPN Product &amp; Technology Glendale, California Sep. 14, 2026</td>
       <td width="180" align="left" valign="top">Glendale, CA</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.usbank.com/global/en/job/2026-0026740?ph_id=2026-0026740"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Centene</td>
-      <td width="420" align="left" valign="top">Data Analyst IV<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Remote-MO, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/Data-Analyst-IV_1655693"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 6,615 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 6,616 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-16T04:58:49.078Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-16T06:49:52.581Z</code></sub>

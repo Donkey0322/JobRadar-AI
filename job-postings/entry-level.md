@@ -56,6 +56,13 @@
       <td width="120" align="left" valign="top">Sep 15</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Werfen</td>
+      <td width="420" align="left" valign="top">Associate Systems Engineer</td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-werfen.icims.com/jobs/10977/associate-systems-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 15</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Wyetechllc</td>
       <td width="420" align="left" valign="top">Software Engineer 0/1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Ft. Meade, MD</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.jhuapl.edu/jobs/59817?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 10</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Texas instruments</td>
-      <td width="420" align="left" valign="top">Career Accelerator Program - Systems Engineer (SEM) Aerospace &amp; Defense<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dallas, TX</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 10</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,813 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,814 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-16T04:58:49.078Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-16T06:49:52.581Z</code></sub>
