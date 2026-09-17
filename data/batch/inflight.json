@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "name": "batches/fnnt7zfxd7ckryh0mgg2yrid8dx9b3n2nsue",
+    "submittedAt": "2026-09-17T23:08:34.813Z",
+    "jobs": [
+      {
+        "company": "Geneva Trading",
+        "role": "AI Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/genevatrading/jobs/5240107007",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Honeywell",
+        "role": "Software Engineer Co-op",
+        "link": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158088",
+        "location": "Pittsford, NY"
+      },
+      {
+        "company": "Church & Dwight",
+        "role": "AI Developer Co-op - Graduate Program 🎓",
+        "link": "https://churchdwight.wd1.myworkdayjobs.com/chdcareers/job/USA-Ewing-NJ/AI-Developer-Co-op---Graduate-Program--9-Months-_R2026-15686",
+        "location": "Ewing Township, NJ"
+      },
+      {
+        "company": "Waymo",
+        "role": "Software Engineering Intern - Multiple Teams 🎓",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8208465",
+        "location": "London, UK"
+      },
+      {
+        "company": "Lennox International",
+        "role": "AI Engineering Intern - Summer 2027 🎓",
+        "link": "https://uscareers-lennox.icims.com/jobs/54897/job?mobile=true&needsRedirect=false",
+        "location": "Richardson, TX"
+      },
+      {
+        "company": "JP Morgan Chase",
+        "role": "Machine Learning Engineer Summer Associate Intern - Asset and Wealth Management 🎓",
+        "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210790885",
+        "location": "Jersey City, NJ"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "Firmware Engineer Intern - Embedded Software Engineering - Embedded Firmware and SDK Development",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721141411",
+        "location": "Toronto, ON, Canada"
+      },
+      {
+        "company": "REV Robotics",
+        "role": "Software Engineer Intern",
+        "link": "https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba",
+        "location": "Carrollton, TX"
+      },
+      {
+        "company": "Lennox International",
+        "role": "Full-Stack Software Engineering Intern 🎓",
+        "link": "https://uscareers-lennox.icims.com/jobs/54888/job?mobile=true&needsRedirect=false",
+        "location": "Richardson, TX"
+      },
+      {
+        "company": "Keysight Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.keysight.com/jobs/54329?icims=1",
+        "location": "Santa Rosa, CA"
+      },
+      {
+        "company": "Keysight Technologies",
+        "role": "Software Engineer Intern - R&D",
+        "link": "https://jobs.keysight.com/jobs/54327?icims=1",
+        "location": "Colorado Springs, CO"
+      },
+      {
+        "company": "Navy Federal",
+        "role": "Data Analyst Intern - Workplace Infrastructure & Analytics",
+        "link": "https://fa-etbx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/nfcu/job/32376",
+        "location": "Vienna, VA"
+      },
+      {
+        "company": "Garmin",
+        "role": "Data Engineering Intern",
+        "link": "https://careers.garmin.com/jobs/20188?icims=1",
+        "location": "Olathe, KS"
+      }
+    ]
+  }
+]
