@@ -91,7 +91,7 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,080 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,036 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,871 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,872 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 8,916 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,763 opportunities
 
@@ -427,6 +427,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">BAE Systems</td>
+      <td width="420" align="left" valign="top">Entry Level Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Hudson, NH</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/129314BR?ph_id=129314BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Lucid Motors</td>
       <td width="420" align="left" valign="top">Automation Engineer I</td>
       <td width="180" align="left" valign="top">Phoenix, AZ</td>
@@ -559,16 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000149938259"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ngc</td>
-      <td width="420" align="left" valign="top">Embedded Software Engineer (San Diego)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Embedded-Software-Engineer--San-Diego-_R10233098"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,871 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,872 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (15,679)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-17T04:56:25.055Z</code>
+      🕒 Last updated <code>2026-09-17T10:02:44.523Z</code>
     </span>
   </p>
 </div>
