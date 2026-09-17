@@ -92,8 +92,8 @@ Each category page shows up to 200 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,080 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,037 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,872 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 8,917 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 6,764 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 8,915 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 6,762 opportunities
 
 ## The List 🚴‍♂️
 
@@ -427,6 +427,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Gdms</td>
+      <td width="420" align="left" valign="top">Junior Embedded Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Dedham, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/74967/junior-embedded-software-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Entry Level Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hudson, NH</td>
@@ -559,23 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/greenville/associate-software-engineering/4832/100730290800"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Linkedin</td>
-      <td width="420" align="left" valign="top">Associate Engineer, Data Center</td>
-      <td width="180" align="left" valign="top">Manassas, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LinkedIn3/744000149938259"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
   </tbody>
 </table>
 <p><sub>Showing 20 of 2,872 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (15,681)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (15,677)</b></summary>
 
   <br />
 
-  <h3>Mid Level (8,917)</h3>
+  <h3>Mid Level (8,915)</h3>
 
 <table width="100%">
   <thead>
@@ -730,9 +730,9 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 8,917 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 8,915 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (6,764)</h3>
+  <h3>Senior Level (6,762)</h3>
 
 <table width="100%">
   <thead>
@@ -887,7 +887,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 6,764 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 6,762 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-17T10:06:17.224Z</code>
+      🕒 Last updated <code>2026-09-17T13:30:05.091Z</code>
     </span>
   </p>
 </div>
