@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">BAE Systems</td>
+      <td width="420" align="left" valign="top">Software Engineer I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Hudson, NH</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/130128BR?ph_id=130128BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Llnl</td>
       <td width="420" align="left" valign="top">Full Stack Web Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -1406,17 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Indianapolis/LibertyWorks-Thermofluids-Systems-Engineer_JR6160145"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">LibertyWorks Electrical Systems Design Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Indianapolis, IN</td>
-      <td width="120" align="left" valign="top"><a href="https://rollsroyce.wd3.myworkdayjobs.com/intern_graduate/job/Indianapolis/LibertyWorks-Electrical-Systems-Design-Engineer_JR6160143"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,918 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,919 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-18T03:15:26.880Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-18T04:42:57.306Z</code></sub>
