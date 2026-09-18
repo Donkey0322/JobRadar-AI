@@ -90,7 +90,7 @@
 Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,103 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,068 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,069 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,918 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 9,074 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 6,866 opportunities
@@ -298,6 +298,13 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top">Sep 17</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">REV Robotics</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Carrollton, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://ats.rippling.com/rev-robotics/jobs/9f4e5d99-0bba-4e03-8018-e312810a3dba"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 17</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Lennox International</td>
       <td width="420" align="left" valign="top">Full-Stack Software Engineering Intern 🎓</td>
       <td width="180" align="left" valign="top">Richardson, TX</td>
@@ -402,16 +409,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2024561?ph_id=2024561"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Embedded Software Engineer – Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Boise, ID</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75013/embedded-software-engineer-%e2%80%93-intern/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 1,068 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 1,069 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-18T00:26:46.985Z</code>
+      🕒 Last updated <code>2026-09-18T01:43:06.660Z</code>
     </span>
   </p>
 </div>
