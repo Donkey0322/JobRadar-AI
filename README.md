@@ -91,9 +91,9 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,112 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,082 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,925 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 9,146 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 6,924 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,927 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 9,140 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 6,923 opportunities
 
 ## The List 🚴‍♂️
 
@@ -427,6 +427,34 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Steerbridge</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Vienna, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/steerbridge/a49cfd8c-c7ec-4378-9233-412eb16dd96a"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Toyota</td>
+      <td width="420" align="left" valign="top">Software Engineer (Early Career Professional)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Plano, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ffive</td>
+      <td width="420" align="left" valign="top">Software Development Engineer I (Former Summer 2026 Interns)</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Seattle/Software-Development-Engineer-I--Former-Summer-2026-Interns-_RP1038795"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">AI and Machine Learning Engineer I Graduate</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/AI-and-Machine-Learning-Engineer-I-Graduate_1211881"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Together AI</td>
       <td width="420" align="left" valign="top">Software Engineer, New Grad (2027)</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -538,44 +566,16 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/meow/56e3b840-11a0-4e98-baca-44e8e26b5218/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 17</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Radiant</td>
-      <td width="420" align="left" valign="top">Software Engineer New Grad<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/radiant-industries/1ec29cec-d18f-417d-adc6-31adda87c687/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">Entry Level Systems Requirements Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Hill AFB, UT</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/129363BR?ph_id=129363BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Entry Level Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/129336BR?ph_id=129336BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 17</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Associate, IT Business Security Analyst Information, Technology|New, Grads Melbourne, FL<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Melbourne, FL</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/melbourne/associate-it-business-security-analyst/4832/100774912480"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 17</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,925 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,927 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (16,070)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (16,063)</b></summary>
 
   <br />
 
-  <h3>Mid Level (9,146)</h3>
+  <h3>Mid Level (9,140)</h3>
 
 <table width="100%">
   <thead>
@@ -730,9 +730,9 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 9,146 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 9,140 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (6,924)</h3>
+  <h3>Senior Level (6,923)</h3>
 
 <table width="100%">
   <thead>
@@ -887,7 +887,7 @@ Each category page shows up to 200 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 6,924 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 6,923 opportunities in this section.</sub></p>
 
 </details>
 
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-18T17:20:43.249Z</code>
+      🕒 Last updated <code>2026-09-18T19:39:31.955Z</code>
     </span>
   </p>
 </div>

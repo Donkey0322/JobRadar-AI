@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Steerbridge</td>
+      <td width="420" align="left" valign="top">Junior Data Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Vienna, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/steerbridge/a49cfd8c-c7ec-4378-9233-412eb16dd96a"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Toyota</td>
+      <td width="420" align="left" valign="top">Software Engineer (Early Career Professional)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Plano, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ffive</td>
+      <td width="420" align="left" valign="top">Software Development Engineer I (Former Summer 2026 Interns)</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://ffive.wd5.myworkdayjobs.com/f5jobs/job/Seattle/Software-Development-Engineer-I--Former-Summer-2026-Interns-_RP1038795"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">AI and Machine Learning Engineer I Graduate</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/AI-and-Machine-Learning-Engineer-I-Graduate_1211881"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 18</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Together AI</td>
       <td width="420" align="left" valign="top">Software Engineer, New Grad (2027)</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
@@ -1385,38 +1413,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/da5e147c-f957-4ba1-9712-1b2dde377cb0"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 14</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
-      <td width="420" align="left" valign="top">Research Scientist/Software Engineer, Neural Graphics and World Models - Global Frontier Tech Recruitment Program - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7668854153882011957"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Usbank</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer (C#, .NET Core)</td>
-      <td width="180" align="left" valign="top">Hopkins, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Hopkins-MN/Associate-Software-Engineer--C---NET-Core-_2026-0028472"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Itron</td>
-      <td width="420" align="left" valign="top">Software Quality Assurance Engineer</td>
-      <td width="180" align="left" valign="top">Liberty Lake, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Software-Quality-Assurance-Engineer_JR102923"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Jci</td>
-      <td width="420" align="left" valign="top">NextGen Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Glendale, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://jci.wd5.myworkdayjobs.com/jci/job/Glendale-Wisconsin-United-States-of-America/NextGen-Software-Engineer_WD30279373"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 14</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 200 of 2,925 opportunities in this section.</sub></p>
+<p><sub>Showing 200 of 2,927 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-18T17:20:43.249Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-18T19:39:31.955Z</code></sub>
