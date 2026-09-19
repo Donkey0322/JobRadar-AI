@@ -91,7 +91,7 @@ Each category page shows up to 200 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,125 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,098 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 2,946 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 2,947 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 9,227 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 7,027 opportunities
 
@@ -427,6 +427,13 @@ Each category page shows up to 200 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Perseus Group</td>
+      <td width="420" align="left" valign="top">Software Engineer 1</td>
+      <td width="180" align="left" valign="top">Sharon, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://talentmanagementsolution.wd3.myworkdayjobs.com/en-US/perseus-careers/job/Sharon-Pennsylvania---USA/Software-Engineer-I_R54341"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 19</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Wolverine Trading</td>
       <td width="420" align="left" valign="top">Entry Level C++ Software Engineer</td>
       <td width="180" align="left" valign="top">Chicago, IL</td>
@@ -559,16 +566,9 @@ Each category page shows up to 200 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 18</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Caci</td>
-      <td width="420" align="left" valign="top">Virtual Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dahlgren, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Dahlgren-VA-US/Virtual-Systems-Engineer_324645"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 18</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,946 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,947 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (16,254)</b></summary>
@@ -908,7 +908,7 @@ Each category page shows up to 200 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-19T01:41:30.589Z</code>
+      🕒 Last updated <code>2026-09-19T16:53:18.033Z</code>
     </span>
   </p>
 </div>
