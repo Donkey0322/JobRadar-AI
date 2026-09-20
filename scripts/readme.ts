@@ -31,8 +31,8 @@ const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 const TEMPLATE_URL = `https://github.com/new?template_name=${REPO_NAME}&template_owner=${REPO_OWNER}`;
 const ISSUE_TEMPLATE_URL = `${REPO_URL}/issues/new/choose`;
 
-const MAX_JOBS_PER_README_SECTION = 20;
-const MAX_JOBS_PER_CATEGORY_PAGE = 200;
+const MAX_JOBS_PER_README_SECTION = 30;
+const MAX_JOBS_PER_CATEGORY_PAGE = 300;
 
 /**
  * Expanded dashboards keep this intern/entry layout even if config later
@@ -119,9 +119,7 @@ async function main() {
     outsideTargetCategoryOpportunities,
     categoryOrder
   );
-  const extraCategoryOpportunities = includeAllTechJobs()
-    ? outsideTargetCategoryOpportunities
-    : [];
+  const extraCategoryOpportunities = includeAllTechJobs() ? outsideTargetCategoryOpportunities : [];
   const extraCategoryGrouped = includeAllTechJobs()
     ? outsideTargetCategoryGrouped
     : new Map<string, Opportunity[]>();
