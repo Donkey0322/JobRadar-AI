@@ -93,7 +93,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,102 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 2,957 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 9,236 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 7,048 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 7,049 opportunities
 
 ## The List 🚴‍♂️
 
@@ -781,7 +781,7 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 2,957 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (16,284)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (16,285)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 9,236 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (7,048)</h3>
+  <h3>Senior Level (7,049)</h3>
 
 <table width="100%">
   <thead>
@@ -1166,6 +1166,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">100938343168 09/21/2026 Full-Stack Engineer 4 (Golang, AWS) McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-golang-aws/1732/100938343168"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 21</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Cisco</td>
       <td width="420" align="left" valign="top">Software Engineering Technical Leader</td>
       <td width="180" align="left" valign="top">San Jose, CA</td>
@@ -1228,16 +1235,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Sr-Data-Scientist--Online-Experimentation_Req192778-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 18</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">Sr Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Nashua, NH</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/130219BR?ph_id=130219BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 18</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 7,048 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 7,049 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-21T14:11:46.648Z</code>
+      🕒 Last updated <code>2026-09-21T17:16:10.724Z</code>
     </span>
   </p>
 </div>
