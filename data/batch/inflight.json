@@ -1,1 +1,356 @@
-[]
+[
+  {
+    "name": "batches/lpjm6ug8imanmsbwfnh2bkk6x2lsiocloma3",
+    "submittedAt": "2026-09-22T04:53:55.788Z",
+    "jobs": [
+      {
+        "company": " ALO",
+        "role": "Systems Engineer ",
+        "link": "https://boards.greenhouse.io/aloyoga/jobs/6201170004?gh_jid=6201170004",
+        "location": "Beverly Hills LAND, Beverly Hills, CA (HQ-L)"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, 3P Measurement Tech ",
+        "link": "https://amazon.jobs/en/jobs/10555703",
+        "location": "US, NY, New York"
+      },
+      {
+        "company": "Amazon",
+        "role": "Applied Scientist, AWS Applied AI Solutions - Life Sciences",
+        "link": "https://amazon.jobs/en/jobs/10555716",
+        "location": "US, WA, Seattle"
+      },
+      {
+        "company": "Amazon",
+        "role": "Applied Scientist, Responsible AI",
+        "link": "https://amazon.jobs/en/jobs/10555696",
+        "location": "US, WA, Seattle"
+      },
+      {
+        "company": "Apple",
+        "role": "Analog Mixed-Signal Design Software Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200684916-0836/analog-mixed-signal-design-software-engineer?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Systems Engineer, Platform Architecture",
+        "link": "https://jobs.apple.com/en-us/details/200684920-0836/systems-engineer-platform-architecture?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Software Development Engineer in Test - Charging & Inductive Power",
+        "link": "https://jobs.apple.com/en-us/details/200684820-3543/software-development-engineer-in-test-charging-inductive-power?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Machine Learning Research Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200684346-0836/machine-learning-research-engineer?team=MLAI",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Systems Software Engineer, Platform Architecture",
+        "link": "https://jobs.apple.com/en-us/details/200684973-0157/systems-software-engineer-platform-architecture?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Systems Software Engineer, Platform Architecture",
+        "link": "https://jobs.apple.com/en-us/details/200684973-0836/systems-software-engineer-platform-architecture?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Data Engineer, Apple Ads",
+        "link": "https://jobs.apple.com/en-us/details/200684964-0836/data-engineer-apple-ads?team=MLAI",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Software Engineer, Employee Experience & Productivity",
+        "link": "https://jobs.apple.com/en-us/details/200671481-0670/software-engineer-employee-experience-productivity?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Software Engineer, Employee Experience & Productivity",
+        "link": "https://jobs.apple.com/en-us/details/200652948-0670/software-engineer-employee-experience-productivity?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apply.careers.microsoft.com",
+        "role": "Software Engineer",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393556998698?domain=microsoft.com&8fold_id=1970393556998698",
+        "location": "United States, Washington, Redmond"
+      },
+      {
+        "company": "Apply.careers.microsoft.com",
+        "role": "Software Development Engineer",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557002478?domain=microsoft.com&8fold_id=1970393557002478",
+        "location": "United States, Washington, Redmond, United States, Texas, Austin, United States, California, Mountain View"
+      },
+      {
+        "company": "Bosch group",
+        "role": "AI Research Scientist- Multimodal Foundational Models ",
+        "link": "https://jobs.smartrecruiters.com/BoschGroup/744000150800309",
+        "location": "Sunnyvale, CA, United States"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Full-stack-Engineer-4_R1001265-1",
+        "location": "Richmond, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100966268176 09/21/2026 Full-stack Engineer 4 Richmond, VA",
+        "link": "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/100966268176",
+        "location": "Richmond, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100963429632 09/21/2026 Machine Learning Engineer 4 (Python, AWS, SQL, GenAI) (Enterprise Platforms Technology) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-4-python-aws-sql-genai-enterprise-platforms-technology/1732/100963429632",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100963429088 09/21/2026 Machine Learning Engineer 4 (Python, AWS, SQL, GenAI) (Enterprise Platforms Technology) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-4-python-aws-sql-genai-enterprise-platforms-technology/1732/100963429088",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Cisco",
+        "role": "Security Engineer",
+        "link": "https://careers.cisco.com/global/en/job/2022493?ph_id=2022493",
+        "location": "Research Triangle Park, North Carolina, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer",
+        "link": "https://careers.cisco.com/global/en/job/2020606?ph_id=2020606",
+        "location": "Research Triangle Park, North Carolina, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer",
+        "link": "https://careers.cisco.com/global/en/job/2019741?ph_id=2019741",
+        "location": "Research Triangle Park, North Carolina, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Data & AI I (Intern) – United States",
+        "link": "https://careers.cisco.com/global/en/job/2026306?ph_id=2026306",
+        "location": "San Jose, California, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Embedded Systems I (Intern) – United States",
+        "link": "https://careers.cisco.com/global/en/job/2025926?ph_id=2025926",
+        "location": "San Jose, California, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineer Full Stack / Backend I (Intern) – United States",
+        "link": "https://careers.cisco.com/global/en/job/2025924?ph_id=2025924",
+        "location": "San Jose, California, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Intermediate Software Developer",
+        "link": "https://careers.mitre.org/us/en/job/R116564?ph_id=R116564",
+        "location": "McLean, Virginia, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "IC Data Engineer",
+        "link": "https://careers.mitre.org/us/en/job/R117572?ph_id=R117572",
+        "location": "McLean, Virginia, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Intermediate Systems Engineer",
+        "link": "https://careers.mitre.org/us/en/job/R117567?ph_id=R117567",
+        "location": "Bedford, Massachusetts, United States of America"
+      },
+      {
+        "company": "PNC",
+        "role": "Infrastructure Engineer Sr (ETL Administrator)",
+        "link": "https://careers.pnc.com/global/en/job/R233440?ph_id=R233440",
+        "location": "Dallas, Texas, United States of America"
+      },
+      {
+        "company": "Trane Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://careers.tranetechnologies.com/global/en/job/JR-16160?ph_id=JR-16160",
+        "location": "La Crosse, Wisconsin, United States of America"
+      },
+      {
+        "company": "Jj",
+        "role": "Exp, Analyst, Security Engineer Product",
+        "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Brunswick-New-Jersey-United-States-of-America/Exp--Analyst--Security-Engineer-Product_R-097913-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "Riverbed Subject Matter Expert (SME) System Engineer",
+        "link": "https://jobs.baesystems.com/global/en/job/130318BR?ph_id=130318BR",
+        "location": "MacDill AFB, Florida, United States"
+      },
+      {
+        "company": "BAE Systems",
+        "role": "System Engineer",
+        "link": "https://jobs.baesystems.com/global/en/job/130338BR?ph_id=130338BR",
+        "location": "Hill AFB, Utah, United States"
+      },
+      {
+        "company": "L3harris",
+        "role": "Cyber Security Engineer Engineering Rochester, NY",
+        "link": "https://careers.l3harris.com/job/rochester/cyber-security-engineer/4832/100965892784",
+        "location": "Rochester, NY"
+      },
+      {
+        "company": "L3harris",
+        "role": "Associate, Systems Engineer Engineering|New, Grads Colorado Springs, CO",
+        "link": "https://careers.l3harris.com/job/colorado-springs/associate-systems-engineer/4832/100965892720",
+        "location": "Colorado Springs, CO"
+      },
+      {
+        "company": "L3harris",
+        "role": "Associate, Systems Engineer Engineering|New, Grads Colorado Springs, CO",
+        "link": "https://careers.l3harris.com/job/colorado-springs/associate-systems-engineer/4832/100965892688",
+        "location": "Colorado Springs, CO"
+      },
+      {
+        "company": "Llnl",
+        "role": "Energy System Modeling - Postdoctoral Researcher",
+        "link": "https://jobs.smartrecruiters.com/LLNL/3743990015543786",
+        "location": "Livermore, CA, United States"
+      },
+      {
+        "company": "Lucid Motors",
+        "role": "System Validation Engineer, Vehicle Access Controls",
+        "link": "https://lucidmotors.com/careers/search/5215449007?gh_jid=5215449007",
+        "location": "Newark, CA"
+      },
+      {
+        "company": "Meta",
+        "role": "Product Quality Engineer, Hardware Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/2353582282118556",
+        "location": "Singapore, Taipei, Taiwan"
+      },
+      {
+        "company": "Meta",
+        "role": "AI Research Scientist, FAIR Security, Privacy, and Reliability",
+        "link": "https://www.metacareers.com/profile/job_details/1414134214191432",
+        "location": "San Francisco, CA"
+      },
+      {
+        "company": "Meta",
+        "role": "Production Systems Engineer",
+        "link": "https://www.metacareers.com/profile/job_details/1977588726255706",
+        "location": "Menlo Park, CA"
+      },
+      {
+        "company": "Nationwide",
+        "role": "Investment Data Analyst",
+        "link": "https://nationwide.wd1.myworkdayjobs.com/nationwide_career/job/Ohio---Columbus-One-Nationwide-Plaza/Investment-Data-Analyst_100294",
+        "location": ""
+      },
+      {
+        "company": "Newton Research",
+        "role": "Data Scientist",
+        "link": "https://job-boards.greenhouse.io/newtonresearch/jobs/5430842008",
+        "location": "Greater Boston Area"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Data and Platform Engineer",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Data-and-Platform-Engineer_JR2025619",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Data Application Engineer, Enterprise Data Management",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Data-Application-Engineer--Enterprise-Data-Management_JR2024551",
+        "location": "US, CA, Santa Clara"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Full Stack Engineer, Launch Software",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829698002?gh_jid=8829698002",
+        "location": "Hawthorne, CA"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Network Engineer, AI Infrastructure (Starshield)",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829675002?gh_jid=8829675002",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Simulation Software Engineer (Vehicle Engineering) ",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829312002?gh_jid=8829312002",
+        "location": "Hawthorne, CA"
+      }
+    ]
+  },
+  {
+    "name": "batches/cvujtei4st09qo64qloxqzu5mbuh4v0bq2f8",
+    "submittedAt": "2026-09-22T04:54:00.504Z",
+    "jobs": [
+      {
+        "company": "Apple",
+        "role": "Systems Engineer, Platform Architecture",
+        "link": "https://jobs.apple.com/en-us/details/200684920-0157/systems-engineer-platform-architecture?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "SpaceX",
+        "role": "Site Reliability Engineer, AI Infrastructure (Starshield)",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829681002?gh_jid=8829681002",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Software Engineer, C++ (Simulations) ",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829309002?gh_jid=8829309002",
+        "location": "Hawthorne, CA"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Software Engineer, Simulations (Vehicle Engineering) ",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8829307002?gh_jid=8829307002",
+        "location": "Hawthorne, CA"
+      },
+      {
+        "company": "Starfish",
+        "role": "IV&V Software Engineer",
+        "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Huntsville-AL/IV-V-Software-Engineer_R1908",
+        "location": "Huntsville, AL"
+      },
+      {
+        "company": "Stripe",
+        "role": "Data Scientist",
+        "link": "https://stripe.com/jobs/search?gh_jid=8222149",
+        "location": "Seattle, WA"
+      },
+      {
+        "company": "Tessera-labs",
+        "role": "Software Engineer, Full Stack",
+        "link": "https://jobs.ashbyhq.com/tessera-labs/202be46b-0d9d-4277-b8b2-719c3321a352",
+        "location": "San Jose Office (HQ)"
+      },
+      {
+        "company": "Texascapitalbank",
+        "role": "Data & Business Intelligence Analyst",
+        "link": "https://texascapitalbank.wd12.myworkdayjobs.com/careers/job/Richardson-TX/Data---Business-Intelligence-Analyst_JR106025",
+        "location": "Richardson, TX"
+      }
+    ]
+  }
+]
