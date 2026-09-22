@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "name": "batches/90ycwbvttpmev8u66en0rtm665nrbravll7i",
+    "submittedAt": "2026-09-22T03:18:20.065Z",
+    "jobs": [
+      {
+        "company": "Tyler Technologies",
+        "role": "Software Development Intern - Summer 2027",
+        "link": "https://jobs.jobvite.com/tylertech/job/oxAPAfwg?nl=1&nl=1&fr=false",
+        "location": "Yarmouth, MEOrono, MEFalmouth, ME"
+      },
+      {
+        "company": "Waymo",
+        "role": "Software Engineer Intern - MS/PhD - Simulation 🎓",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8221851",
+        "location": "Mountain View, CA"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Co-op Intern - Product Development Portal",
+        "link": "https://careers.rivian.com/jobs/33745?icims=1",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "Cowboy Space",
+        "role": "Software Engineering Intern",
+        "link": "https://jobs.ashbyhq.com/cowboyspace/56d1d7e4-fa7e-4c25-aa8b-6828447fc64a/application?embed=true",
+        "location": "San Carlos, CA"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Intern Co-op - Product Lifecycle Management",
+        "link": "https://careers.rivian.com/jobs/33746?icims=1",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Co-op Intern - Enterprise Applications",
+        "link": "https://careers.rivian.com/jobs/33803?icims=1",
+        "location": "Normal, IL"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Co-op Intern - Enterprise Applications",
+        "link": "https://careers.rivian.com/jobs/33804?icims=1",
+        "location": "Plymouth, MI"
+      },
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Intern Co-op - Design Automation",
+        "link": "https://careers.rivian.com/jobs/33748?icims=1",
+        "location": "Palo Alto, CA"
+      }
+    ]
+  }
+]
