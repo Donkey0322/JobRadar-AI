@@ -1,1 +1,920 @@
-[]
+[
+  {
+    "name": "batches/2jfxxs8zaq7y17vfy1qgj54fj6podgl68xzr",
+    "submittedAt": "2026-09-22T18:10:01.515Z",
+    "jobs": [
+      {
+        "company": "Abcfinancial",
+        "role": "Workday Systems Analyst - Financials",
+        "link": "https://abcfinancial.wd5.myworkdayjobs.com/abcfinancialservices/job/Ontario-Canada/Workday-Financial-Analyst_REQ-1520",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Accenture",
+        "role": "AI Native Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/AI-Native-Engineer_R00358999-1",
+        "location": ""
+      },
+      {
+        "company": "Accenture",
+        "role": "Data Scientist",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Cluj-Napoca/Full-Stack-Developer---Java---Angular-with-Cloud-Expertise_R00298206-1",
+        "location": ""
+      },
+      {
+        "company": "Accenture",
+        "role": "DevOps Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/avanadecareers/job/Sao-Paulo-Torre-Paineira/DevOps-Engineer_R00358335",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Accenture",
+        "role": "Infrastructure & Capital Projects -Project Engineer, ANS (Must Relo. to Houston, TX Area)",
+        "link": "https://jobs.lever.co/InfrastructureandCapitalProjects/53df5fc6-85ee-475a-890f-b7258e2649e9",
+        "location": "Houston, TX"
+      },
+      {
+        "company": "Aero",
+        "role": "Space Systems Engineering Leader",
+        "link": "https://aero.wd5.myworkdayjobs.com/external/job/Wright-Patterson-AFB-OH/Space-Systems-Engineering-Leader_R016650",
+        "location": "Wright-Patterson AFB, OH"
+      },
+      {
+        "company": "Allegion",
+        "role": "Summer Intern - Software Engineer",
+        "link": "https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Software-Engineer_JR37747-2",
+        "location": "Carmel, IN"
+      },
+      {
+        "company": "Altera",
+        "role": "AI Engineer – Cloud Software & AI Platforms",
+        "link": "https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms_R02859",
+        "location": "San Jose, California, United States"
+      },
+      {
+        "company": "Amazon",
+        "role": "Front-End Engineer, Luna Omni",
+        "link": "https://amazon.jobs/en/jobs/10556675",
+        "location": "US, WA, Seattle"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, STRADA",
+        "link": "https://amazon.jobs/en/jobs/10556156",
+        "location": "US, MN, Minneapolis"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer , Leo Regulus ",
+        "link": "https://amazon.jobs/en/jobs/10556579",
+        "location": "US, WA, Redmond"
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Conversational Ads Experience",
+        "link": "https://amazon.jobs/en/jobs/10554916",
+        "location": "US, WA, Seattle"
+      },
+      {
+        "company": "Amazon",
+        "role": "Data Center Controls Engineer, Dallas, TX",
+        "link": "https://amazon.jobs/en/jobs/10556333",
+        "location": "US, TX, Dallas"
+      },
+      {
+        "company": "Amazon",
+        "role": "System Development Engineer, STRADA",
+        "link": "https://amazon.jobs/en/jobs/10556257",
+        "location": "US, MN, Minneapolis"
+      },
+      {
+        "company": "Apple",
+        "role": "Machine Learning Algorithm Engineer - Auto Focus",
+        "link": "https://jobs.apple.com/en-us/details/200684834-0836/machine-learning-algorithm-engineer-auto-focus?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Data Scientist, Audio Telemetry Intelligence",
+        "link": "https://jobs.apple.com/en-us/details/200652696-3543/data-scientist-audio-telemetry-intelligence?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Graphics Software Engineer",
+        "link": "https://jobs.apple.com/en-us/details/200685051-0157/graphics-software-engineer?team=HRDWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Sr Software Engineer, Applied AI and Test Automation - Camera Software",
+        "link": "https://jobs.apple.com/en-us/details/200684530-0836/sr-software-engineer-applied-ai-and-test-automation-camera-software?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Modem System Test Engineer - Wireless Technologies and Ecosystems",
+        "link": "https://jobs.apple.com/en-us/details/200684982-3956/modem-system-test-engineer-wireless-technologies-and-ecosystems?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Apple",
+        "role": "Sr Mechanical Cx Engineer, Data Center Engineering",
+        "link": "https://jobs.apple.com/en-us/details/200683644-1902/sr-mechanical-cx-engineer-data-center-engineering?team=CORSV",
+        "location": ""
+      },
+      {
+        "company": "Applied",
+        "role": "Technical Sourcer, Gen SWE",
+        "link": "https://jobs.ashbyhq.com/applied/e10dc74a-12f8-42a3-94db-cf7e7ace9f61",
+        "location": "Sunnyvale"
+      },
+      {
+        "company": "Apply.careers.microsoft.com",
+        "role": "Software Engineering IC2",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393556962504?domain=microsoft.com&8fold_id=1970393556962504",
+        "location": "United States, Washington, Redmond"
+      },
+      {
+        "company": "Apply.careers.microsoft.com",
+        "role": "Postdoctoral Researcher, Experimental Data Generation & CRO Strategy",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557006390?domain=microsoft.com&8fold_id=1970393557006390",
+        "location": "Germany, Berlin, Berlin, United Kingdom, Cambridgeshire, Cambridge"
+      },
+      {
+        "company": "Asana",
+        "role": "Software Engineer, AI Teammates Experience",
+        "link": "https://www.asana.com/jobs/apply/8155344?gh_jid=8155344",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Avav",
+        "role": "Software Engineer - Cloud-based Software",
+        "link": "https://avav.wd1.myworkdayjobs.com/avav/job/Arsenal-Alabama/Software-Engineer---Cloud-based-Software_8869",
+        "location": "Arsenal Alabama"
+      },
+      {
+        "company": "Bah",
+        "role": "Systems Engineer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Albuquerque-NM/Systems-Engineer_R0247213",
+        "location": "Albuquerque, NM"
+      },
+      {
+        "company": "Bah",
+        "role": "Cybersecurity Software Engineer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Warner-Robins-GA/Cybersecurity-Software-Engineer_R0250062",
+        "location": "Warner Robins, GA"
+      },
+      {
+        "company": "Bah",
+        "role": "Databricks Platform Engineer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Databricks-Platform-Engineer_R0250061",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Bah",
+        "role": "Data Scientist, Mid",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Arlington-VA/Data-Scientist--Mid_R0250083",
+        "location": "Arlington, VA"
+      },
+      {
+        "company": "Bah",
+        "role": "Information System Security Engineer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Information-System-Security-Engineer_R0240977",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Bah",
+        "role": "Data Analyst",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Camp-Lejeune-NC/Data-Analyst_R0241239",
+        "location": "Camp Lejeune, NC"
+      },
+      {
+        "company": "Bah",
+        "role": "Illumio Zero Trust Platform Engineer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Reston-VA/Illumio-Zero-Trust-Platform-Engineer_R0250065",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Blueorigin",
+        "role": "Software Engineer",
+        "link": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Software-Engineer_R72382",
+        "location": "Greater Seattle Area"
+      },
+      {
+        "company": "Boeing",
+        "role": "Associate Systems Engineering Support Analyst",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Associate-Systems-Engineering-Support-Analyst_JR2026520609",
+        "location": "USA - Berkeley, MO"
+      },
+      {
+        "company": "Boeing",
+        "role": "Experienced Systems Engineer",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Saint-Charles-MO/Experienced-Systems-Engineer_JR2026525017-2",
+        "location": "USA - Saint Charles, MO"
+      },
+      {
+        "company": "Boeing",
+        "role": "Associate Software Engineer",
+        "link": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Associate-Software-Engineer_JR2026516706-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Bosch group",
+        "role": "System Engineer - Power Electronics ",
+        "link": "https://jobs.smartrecruiters.com/BoschGroup/744000151050998",
+        "location": "Farmington Hills, MI, United States"
+      },
+      {
+        "company": "Broadridge",
+        "role": "AI Prompt Engineer(Contract)",
+        "link": "https://broadridge.wd5.myworkdayjobs.com/careers/job/Newark-NJ/AI-Prompt-Engineer-Contract-_JR1084335",
+        "location": "3 Locations"
+      },
+      {
+        "company": "Broadridge",
+        "role": "Software Engineer– Tungsten TotalAgility (Hybrid - Newark, NJ or Edgewood, NY)",
+        "link": "https://broadridge.wd5.myworkdayjobs.com/careers/job/Newark-NJ/Software-Engineer--Tungsten-TotalAgility--Hybrid---Newark--NJ-or-Edgewood--NY-_JR1085882",
+        "location": "3 Locations"
+      },
+      {
+        "company": "Caci",
+        "role": "E-Discovery Systems Analyst",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/E-Discovery-Systems-Analyst_332449",
+        "location": "Washington, DC, US"
+      },
+      {
+        "company": "Caci",
+        "role": "Software Test Engineer",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Chantilly-VA-US/Software-Test-Engineer_332393",
+        "location": "Chantilly, VA, US"
+      },
+      {
+        "company": "Caci",
+        "role": "NASA Moon Base Flight Software Development Engineer",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Houston-TX-US/NASA-Moon-Base-Flight-Software-Development-Engineer_332414",
+        "location": "Houston, TX, US"
+      },
+      {
+        "company": "Caci",
+        "role": "Software Engineer - Kubernetes/DevSecOps",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Hanover-MD-US/Software-Engineer---Kubernetes-DevSecOps_332366",
+        "location": "Hanover, MD, US"
+      },
+      {
+        "company": "Caci",
+        "role": "Software Engineer - Windows Integration",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Hanover-MD-US/Software-Engineer---Windows-Integration_332350",
+        "location": "Hanover, MD, US"
+      },
+      {
+        "company": "Cae",
+        "role": "Weapons Aero Software Engineer",
+        "link": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Weapons-Aero-Software-Engineer_123874-1",
+        "location": "Arlington, TX"
+      },
+      {
+        "company": "Cai",
+        "role": "Data Analyst Intern",
+        "link": "https://cai.wd5.myworkdayjobs.com/computer_aid/job/PA-CLIENT-STATE/Data-Analyst-Intern_R8551",
+        "location": "PA-CLIENT-STATE"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-stack-Engineer-4_R1001684-1",
+        "location": "Plano, TX"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 - Intelligent Foundations and Experiences (IFX)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001609-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 (Golang, Java, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Full-stack-Engineer-5--Golang--Java--AWS-_R1001479-1",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 (Java, Scala, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5--Java--Scala--AWS-_R1001474-1",
+        "location": "McLean, VA"
+      }
+    ]
+  },
+  {
+    "name": "batches/u7g44atr7av44latagudh3fnffub22xivnd8",
+    "submittedAt": "2026-09-22T18:10:06.220Z",
+    "jobs": [
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 - Intelligent Foundations and Experiences (IFX)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001596-1",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 - Intelligent Foundations and Experiences (IFX)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001580-1",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4, Enterprise CI/CD (AWS, Python, Groovy)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Full-Stack-Engineer-4--Enterprise-CI-CD--AWS--Python--Groovy-_R1001453-1",
+        "location": "Plano, TX"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 5 (IC)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-5--IC-_R1001512-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 5 (IC)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-5--IC-_R1001515-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Data Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Engineer-4_R1001244-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5_R1001629-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Machine-Learning-Engineer-4_R1001227-1",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 5 (GenAI Platform, Agentic Infrastructure)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-5--GenAI-Platform--Agentic-Infrastructure-_R1001418-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Applied Researcher 4 (AI Foundations, VLM)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/Applied-Researcher-4--AI-Foundations--VLM-_R1001487-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 4 (AI Foundations, LLM Customization and Finetuning)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-4--AI-Foundations--LLM-Customization-and-Finetuning-_R1001409",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-5--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001405-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001587-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Machine-Learning-Engineer-4_R1001335",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Data Engineer 5",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Engineer-5_R1001237-2",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 5",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Machine-Learning-Engineer-5_R1001338-1",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001238-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Cloud Engineer 5",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Cloud-Engineer-5_R1001243-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Machine-Learning-Engineer-4_R1001177-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Data Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Data-Engineer-4_R1001458-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Full-stack-Engineer-4_R1001462",
+        "location": "Richmond, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (React, TypeScript, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--React--TypeScript--AWS-_R1001273-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001457-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001466-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001468-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Cambridge-MA/Machine-Learning-Engineer-4_R1001240-1",
+        "location": "3 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Mobile Engineer 4 (Android, Kotlin, JetPack Compose)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Mobile-Engineer-4--Android--Kotlin--JetPack-Compose-_R1001287-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/AI-Engineer-5--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001402",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (GoLang)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Full-stack-Engineer-4--GoLang-_R1001278-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (JavaScript, React)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Full-stack-Engineer-4--Java--Go-_R1001272-1",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/AI-Engineer-4--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001398-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Mobile Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Plano-TX/Mobile-Engineer-4_R1001486-1",
+        "location": "Plano, TX"
+      },
+      {
+        "company": "Capitalone",
+        "role": "AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Jose-CA/AI-Engineer-4--MLX--Agentic-AI--Gen-AI-platform-Services-_R1001413-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Go, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Go--AWS-_R1001309-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 (Go/Java, Angular, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Full-stack-Engineer-5--Go-Java--Angular--AWS-_R1001292-1",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Golang, Python, Java, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Golang--Python--Java--AWS-_R1001314-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4 (Go, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--Go--AWS-_R1001156-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001613-1",
+        "location": "3 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 (Golang, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5--Golang--AWS-_R1001291-1",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Scala, React, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4--Scala--React--AWS-_R1001325-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Scala, React, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4--Scala--React--AWS-_R1001321-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Java, Scala, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Full-stack-Engineer-4--Java--Scala--AWS-_R1001303-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 - Shopping (Remote-Eligible)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5---Shopping--Remote-Eligible-_R1001308-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 - Shopping (Remote-Eligible)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4---Shopping--Remote-Eligible-_R1001310",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Mobile Engineer 4 - Android (Remote-Eligible)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Mobile-Engineer-4---Android--Remote-Eligible-_R1001320-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4 - Mainframe Engineer",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Riverwoods-IL/Full-Stack-Engineer-4---Mainframe-Engineer_R1001443",
+        "location": "Riverwoods, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-Stack Engineer 4 (Automation Quality Engineer)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Riverwoods-IL/Full-Stack-Engineer-4--Automation-Quality-Engineer-_R1001415-1",
+        "location": "5 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4 (Python, AWS)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Python--AWS-_R1001336-2",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4 - Mainframe DB2 DBA",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Riverwoods-IL/Full-Stack-Engineer-4---Mainframe-DB2-DBA_R1001438-1",
+        "location": "Riverwoods, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Data Engineer 5 (Enterprise Platforms Technology)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/Data-Engineer-5--Enterprise-Platforms-Technology-_R1001543-1",
+        "location": "4 Locations"
+      }
+    ]
+  },
+  {
+    "name": "batches/xxi8pv5w0ombd5eao5gjw4lrj6zxyhborudh",
+    "submittedAt": "2026-09-22T18:10:11.389Z",
+    "jobs": [
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Machine-Learning-Engineer-4_R1001563-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Machine Learning Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Machine-Learning-Engineer-4_R1001564-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994302384 09/22/2026 Full-stack Engineer 4 (Golang, Python, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-golang-python-aws/1732/100994302384",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994302320 09/22/2026 Full-stack Engineer 4 - Intelligent Foundations and Experiences (IFX) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-intelligent-foundations-and-experiences-ifx/1732/100994302320",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994302288 09/22/2026 Full-stack Engineer 5 (Golang, Java, AWS) Chicago, IL",
+        "link": "https://www.capitalonecareers.com/job/chicago/full-stack-engineer-5-golang-java-aws/1732/100994302288",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994302080 09/22/2026 Full Stack Engineer 4, Enterprise CI/CD (AWS, Python, Groovy) Plano, TX",
+        "link": "https://www.capitalonecareers.com/job/plano/full-stack-engineer-4-enterprise-ci-cd-aws-python-groovy/1732/100994302080",
+        "location": "Plano, TX"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301968 09/22/2026 Machine Learning Engineer 5 (IC) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-5-ic/1732/100994301968",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301888 09/22/2026 Full-stack Engineer 5 (Java, Scala, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-java-scala-aws/1732/100994301888",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301856 09/22/2026 Full-stack Engineer 4 - Intelligent Foundations and Experiences (IFX) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-intelligent-foundations-and-experiences-ifx/1732/100994301856",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301728 09/22/2026 Full-stack Engineer 5 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5/1732/100994301728",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301648 09/22/2026 Data Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/data-engineer-4/1732/100994301648",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301472 09/22/2026 AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services) San Jose, CA",
+        "link": "https://www.capitalonecareers.com/job/san-jose/ai-engineer-5-mlx-agentic-ai-gen-ai-platform-services/1732/100994301472",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301440 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994301440",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301360 09/22/2026 AI Engineer 5 (GenAI Platform, Agentic Infrastructure) San Jose, CA",
+        "link": "https://www.capitalonecareers.com/job/san-jose/ai-engineer-5-genai-platform-agentic-infrastructure/1732/100994301360",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301232 09/22/2026 Data Engineer 5 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/data-engineer-5/1732/100994301232",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301184 09/22/2026 Machine Learning Engineer 5 (IC) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-5-ic/1732/100994301184",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301152 09/22/2026 AI Engineer 4 (AI Foundations, LLM Customization and Finetuning) San Jose, CA",
+        "link": "https://www.capitalonecareers.com/job/san-jose/ai-engineer-4-ai-foundations-llm-customization-and-finetuning/1732/100994301152",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301088 09/22/2026 Machine Learning Engineer 5 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/machine-learning-engineer-5/1732/100994301088",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301040 09/22/2026 Full-stack Engineer 4 (React, TypeScript, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-react-typescript-aws/1732/100994301040",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994301008 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994301008",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300944 09/22/2026 Full-stack Engineer 4 Richmond, VA",
+        "link": "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/100994300944",
+        "location": "Richmond, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300896 09/22/2026 Machine Learning Engineer 4 Cambridge, MA",
+        "link": "https://www.capitalonecareers.com/job/cambridge/machine-learning-engineer-4/1732/100994300896",
+        "location": "Cambridge, MA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300816 09/22/2026 Machine Learning Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/machine-learning-engineer-4/1732/100994300816",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300736 09/22/2026 AI Engineer 5 (MLX, Agentic AI, Gen AI platform Services) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/ai-engineer-5-mlx-agentic-ai-gen-ai-platform-services/1732/100994300736",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300688 09/22/2026 Machine Learning Engineer 4 New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/machine-learning-engineer-4/1732/100994300688",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300640 09/22/2026 Cloud Engineer 5 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/cloud-engineer-5/1732/100994300640",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300624 09/22/2026 Full-stack Engineer 4 (JavaScript, React) Chicago, IL",
+        "link": "https://www.capitalonecareers.com/job/chicago/full-stack-engineer-4-javascript-react/1732/100994300624",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300592 09/22/2026 AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/ai-engineer-4-mlx-agentic-ai-gen-ai-platform-services/1732/100994300592",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300560 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994300560",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300528 09/22/2026 Machine Learning Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/machine-learning-engineer-4/1732/100994300528",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300512 09/22/2026 Applied Researcher 4 (AI Foundations, VLM) San Jose, CA",
+        "link": "https://www.capitalonecareers.com/job/san-jose/applied-researcher-4-ai-foundations-vlm/1732/100994300512",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300496 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994300496",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300480 09/22/2026 Full-stack Engineer 4 (GoLang) Chicago, IL",
+        "link": "https://www.capitalonecareers.com/job/chicago/full-stack-engineer-4-golang/1732/100994300480",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300464 09/22/2026 Mobile Engineer 4 Plano, TX",
+        "link": "https://www.capitalonecareers.com/job/plano/mobile-engineer-4/1732/100994300464",
+        "location": "Plano, TX"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300448 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994300448",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300416 09/22/2026 Full-stack Engineer 4 (Go, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-go-aws/1732/100994300416",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300400 09/22/2026 Full-stack Engineer 4 (Golang, Python, Java, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-golang-python-java-aws/1732/100994300400",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300384 09/22/2026 AI Engineer 4 (MLX, Agentic AI, Gen AI platform Services) San Jose, CA",
+        "link": "https://www.capitalonecareers.com/job/san-jose/ai-engineer-4-mlx-agentic-ai-gen-ai-platform-services/1732/100994300384",
+        "location": "San Jose, CA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300320 09/22/2026 Full-stack Engineer 5 (Go/Java, Angular, AWS) Chicago, IL",
+        "link": "https://www.capitalonecareers.com/job/chicago/full-stack-engineer-5-go-java-angular-aws/1732/100994300320",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300304 09/22/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/100994300304",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300256 09/22/2026 Full Stack Engineer 4 (Go, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-go-aws/1732/100994300256",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300224 09/22/2026 Full-stack Engineer 5 (Golang, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-golang-aws/1732/100994300224",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300160 09/22/2026 Mobile Engineer 4 (Android, Kotlin, JetPack Compose) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/mobile-engineer-4-android-kotlin-jetpack-compose/1732/100994300160",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300128 09/22/2026 Data Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/data-engineer-4/1732/100994300128",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994300032 09/22/2026 Full-stack Engineer 4 (Java, Scala, AWS) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-java-scala-aws/1732/100994300032",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994299760 09/22/2026 Full-stack Engineer 4 (Scala, React, AWS) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-scala-react-aws/1732/100994299760",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994299632 09/22/2026 Full-stack Engineer 5 - Shopping (Remote-Eligible) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-shopping-remote-eligible/1732/100994299632",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994299584 09/22/2026 Full-Stack Engineer 4 (Automation Quality Engineer) Riverwoods, IL",
+        "link": "https://www.capitalonecareers.com/job/riverwoods/full-stack-engineer-4-automation-quality-engineer/1732/100994299584",
+        "location": "Riverwoods, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994299552 09/22/2026 Full Stack Engineer 4 - Mainframe DB2 DBA Riverwoods, IL",
+        "link": "https://www.capitalonecareers.com/job/riverwoods/full-stack-engineer-4-mainframe-db2-dba/1732/100994299552",
+        "location": "Riverwoods, IL"
+      },
+      {
+        "company": "Capitalone",
+        "role": "100994299504 09/22/2026 Full-stack Engineer 4 (Scala, React, AWS) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-scala-react-aws/1732/100994299504",
+        "location": "New York, NY"
+      }
+    ]
+  }
+]
