@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "name": "batches/8maeqw0xp0yg0037byve1zvk7kenpulvdq7m",
+    "submittedAt": "2026-09-23T23:45:07.701Z",
+    "jobs": [
+      {
+        "company": "Illinois Tool Works",
+        "role": "Software Engineer Intern",
+        "link": "https://careers.itw.com/global/en/job/JR10261",
+        "location": "Eden Prairie, MN"
+      },
+      {
+        "company": "Qumulo",
+        "role": "Software Development Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/qumulo/43855947-3a85-4d1c-8b8e-e0c0ddcaf183/application?embed=true",
+        "location": "Seattle, WA"
+      },
+      {
+        "company": "AMD",
+        "role": "AI Engineering Intern 🎓",
+        "link": "https://careers.amd.com/jobs/91005?icims=1",
+        "location": "Santa Clara, CA"
+      },
+      {
+        "company": "AMD",
+        "role": "Applied Artificial Intelligence Engineering Intern - Hardware AI 🎓",
+        "link": "https://careers.amd.com/jobs/90997?icims=1",
+        "location": "Santa Clara, CA"
+      },
+      {
+        "company": "State Farm",
+        "role": "Software Developer Intern - HR&D",
+        "link": "https://jobs.statefarm.com/jobs/45689?icims=1",
+        "location": "4 locationsTempe, AZDunwoody, GARichardson, TXBloomington, IL"
+      },
+      {
+        "company": "Waymo",
+        "role": "Machine Learning Engineer Intern - Road Understanding 🎓",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8224746",
+        "location": "Mountain View, CA"
+      },
+      {
+        "company": "AMD",
+        "role": "ML Systems Research Engineering Intern 🎓",
+        "link": "https://careers.amd.com/jobs/90993?icims=1",
+        "location": "Santa Clara, CA"
+      },
+      {
+        "company": "Coram AI",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/coram-ai/0c4bb1e4-0d05-40b5-a61c-6db475e21640/application?embed=true",
+        "location": "London, UK"
+      },
+      {
+        "company": "Symbotic",
+        "role": "Software Engineer Co-op",
+        "link": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Co-op---Software-Engineer_R8111",
+        "location": "Wilmington, MA"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.l3harris.com/job/Melbourne-Intern,-Software-Engineer-FL-32904/1433003500/?ats=successfactors",
+        "location": "Melbourne, FL"
+      },
+      {
+        "company": "Johnson & Johnson",
+        "role": "Software Engineer Co-op",
+        "link": "https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393",
+        "location": "Halethorpe, MD"
+      }
+    ]
+  }
+]
