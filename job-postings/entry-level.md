@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">IPT Global</td>
+      <td width="420" align="left" valign="top">Junior Data Scientist - Petroleum Engineering &amp; Well Integrity</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/IPTGlobal/744000151598799"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Caci</td>
       <td width="420" align="left" valign="top">Software Engineer - Early Career - Cloud<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hanover, MD</td>
@@ -2107,17 +2114,10 @@ Machine Learning for Monetization (PhD)</td>
       <td width="120" align="left" valign="top"><a href="https://careers-bruno.icims.com/jobs/3336/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 15</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">PROS Holdings, Inc.</td>
-      <td width="420" align="left" valign="top">Software Engineer 1</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://pros.wd5.myworkdayjobs.com/pros_careers/job/USA-TX-Houston-Office/Software-Engineer-I_R3608"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 15</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,070 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,071 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-24T13:44:38.027Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-24T18:21:29.660Z</code></sub>
