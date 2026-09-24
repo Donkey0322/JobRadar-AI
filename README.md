@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--09--23-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--09--24-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -91,9 +91,9 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,256 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,184 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,066 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,068 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 9,686 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 7,652 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 7,651 opportunities
 
 ## The List 🚴‍♂️
 
@@ -567,6 +567,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Huntsville, AL</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-AL-HUNTSVILLE-401--401-Jan-Davis-Dr-NW--JAN-DAVIS-401/Systems-Engineer-I--Onsite-_01877154"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Graphcore</td>
+      <td width="420" align="left" valign="top">Graduate Systems Engineer</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/graphcore/jobs/8842006002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 23</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">SeatGeek</td>
       <td width="420" align="left" valign="top">Software Engineer New Grad</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -763,26 +777,12 @@ Machine Learning for Monetization (PhD)</td>
       <td width="120" align="left" valign="top"><a href="https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site/job/Louisville-KY/Data-Engineer---Platform-Innovation-and-Engineering_R-423155"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Homedepot</td>
-      <td width="420" align="left" valign="top">Associate Data Scientist - People Analytics<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Associate-Data-Scientist---People-Analytics_Req194104"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Intuitive</td>
-      <td width="420" align="left" valign="top">RISE Software Engineer</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/intuitive/744000151442254"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,066 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,068 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,338)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,337)</b></summary>
 
   <br />
 
@@ -1013,7 +1013,7 @@ Machine Learning for Monetization (PhD)</td>
 </table>
 <p><sub>Showing 30 of 9,686 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (7,652)</h3>
+  <h3>Senior Level (7,651)</h3>
 
 <table width="100%">
   <thead>
@@ -1238,7 +1238,7 @@ Machine Learning for Monetization (PhD)</td>
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 7,652 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 7,651 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1259,7 +1259,7 @@ Machine Learning for Monetization (PhD)</td>
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-23T23:48:16.389Z</code>
+      🕒 Last updated <code>2026-09-24T01:25:17.725Z</code>
     </span>
   </p>
 </div>
