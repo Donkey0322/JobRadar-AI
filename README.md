@@ -92,7 +92,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,256 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,193 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,068 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 9,700 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 9,701 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 7,679 opportunities
 
 ## The List 🚴‍♂️
@@ -782,11 +782,11 @@ Machine Learning for Monetization (PhD)</td>
 <p><sub>Showing 30 of 3,068 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,379)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,380)</b></summary>
 
   <br />
 
-  <h3>Mid Level (9,700)</h3>
+  <h3>Mid Level (9,701)</h3>
 
 <table width="100%">
   <thead>
@@ -832,6 +832,13 @@ Machine Learning for Monetization (PhD)</td>
       <td width="420" align="left" valign="top">Software Test Engineer - Azurion Eye (Plymouth, MN)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Plymouth, MN</td>
       <td width="120" align="left" valign="top"><a href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Software-Test-Engineer---Azurion-Eye--Plymouth--MN-_592302"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 23</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer - C++, Azurion Eye (Plymouth, MN)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Plymouth, MN</td>
+      <td width="120" align="left" valign="top"><a href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Software-Engineer---C----Azurion-Eye--Plymouth--MN-_592303"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 23</td>
     </tr>
     <tr>
@@ -1002,16 +1009,9 @@ Machine Learning for Monetization (PhD)</td>
       <td width="120" align="left" valign="top"><a href="https://nwis.wd12.myworkdayjobs.com/nw/job/Sterling-VA/Systems-Engineer---Dev-Engineer---DevOps-Engineer_JR102110"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Pae</td>
-      <td width="420" align="left" valign="top">Aerospace Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Huntsville, AL</td>
-      <td width="120" align="left" valign="top"><a href="https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-AL-Huntsville/Aerospace-Systems-Engineer_R0171417-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 9,700 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 9,701 opportunities in this section.</sub></p>
 
   <h3>Senior Level (7,679)</h3>
 
@@ -1259,7 +1259,7 @@ Machine Learning for Monetization (PhD)</td>
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-24T01:33:20.762Z</code>
+      🕒 Last updated <code>2026-09-24T01:44:30.231Z</code>
     </span>
   </p>
 </div>
