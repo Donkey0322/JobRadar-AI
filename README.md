@@ -92,7 +92,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,275 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,220 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,096 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 9,853 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 9,855 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 7,832 opportunities
 
 ## The List 🚴‍♂️
@@ -781,11 +781,11 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,096 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,685)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,687)</b></summary>
 
   <br />
 
-  <h3>Mid Level (9,853)</h3>
+  <h3>Mid Level (9,855)</h3>
 
 <table width="100%">
   <thead>
@@ -925,6 +925,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">My7elevenhr</td>
+      <td width="420" align="left" valign="top">Cyber Security Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://my7elevenhr.wd12.myworkdayjobs.com/careers/job/SSC-Irving-TX/Cyber-Security-Engineer_R26_5680"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Neuralink</td>
       <td width="420" align="left" valign="top">Network and Systems Engineer</td>
       <td width="180" align="left" valign="top">South San Francisco, CA</td>
@@ -1001,16 +1008,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153658780?domain=caci.com&amp;8fold_id=1443153658780"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ypsilanti, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153658896?domain=caci.com&amp;8fold_id=1443153658896"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 9,853 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 9,855 opportunities in this section.</sub></p>
 
   <h3>Senior Level (7,832)</h3>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-24T22:37:30.359Z</code>
+      🕒 Last updated <code>2026-09-24T23:37:59.344Z</code>
     </span>
   </p>
 </div>
