@@ -90,9 +90,9 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,257 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,195 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,069 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 9,711 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,196 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,070 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 9,707 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 7,688 opportunities
 
 ## The List 🚴‍♂️
@@ -340,6 +340,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer I, Annapurna Labs, Early Career - 2027</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10558915"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">L3harris</td>
       <td width="420" align="left" valign="top">Intern, Systems Engineering|Co Op/Intern Plano, TX<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Plano, TX</td>
@@ -542,16 +549,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 22</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (C++, Unix)</td>
-      <td width="180" align="left" valign="top">Milpitas, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 22</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,195 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,196 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -566,6 +566,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Caci</td>
+      <td width="420" align="left" valign="top">Software Engineer - Early Career - Cloud<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Hanover, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Hanover-MD-US/Software-Engineer---Early-Career---Cloud_330679"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Cloud Hardware Development Engineer I, Annapurna Labs, Early Career - 2027</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10558923"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 24</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Parallel Systems</td>
       <td width="420" align="left" valign="top">Full Stack Software Engineer 1 - Interfaces</td>
@@ -763,30 +777,16 @@ Machine Learning for Monetization (PhD)</td>
       <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153642610?domain=caci.com&amp;8fold_id=1443153642610"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Toshiba Global Commerce Solutions - External</td>
-      <td width="420" align="left" valign="top">Associate Software Engineer <br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Durham, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5247010007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Generalmotors</td>
-      <td width="420" align="left" valign="top">Software Engineer AV HIL Platform and Services (Early Career))<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/Software-Engineer-AV-HIL-Platform-and-Services--University-Grad-_JR-202604577"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,069 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,070 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,399)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,395)</b></summary>
 
   <br />
 
-  <h3>Mid Level (9,711)</h3>
+  <h3>Mid Level (9,707)</h3>
 
 <table width="100%">
   <thead>
@@ -1011,7 +1011,7 @@ Machine Learning for Monetization (PhD)</td>
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 9,711 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 9,707 opportunities in this section.</sub></p>
 
   <h3>Senior Level (7,688)</h3>
 
@@ -1259,7 +1259,7 @@ Machine Learning for Monetization (PhD)</td>
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-24T10:06:09.213Z</code>
+      🕒 Last updated <code>2026-09-24T13:38:14.691Z</code>
     </span>
   </p>
 </div>
