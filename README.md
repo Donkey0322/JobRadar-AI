@@ -89,11 +89,11 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,299 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,300 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,250 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,129 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 9,977 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 7,958 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 7,959 opportunities
 
 ## The List 🚴‍♂️
 
@@ -166,6 +166,13 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="420" align="left" valign="top">2027 Summer Intern, Data Scientist (Reston, VA; Denver, CO; Remote)</td>
       <td width="180" align="left" valign="top">Reston, VA</td>
       <td width="120" align="left" valign="top"><a href="https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Data-Scientist--Reston--VA--Denver--CO--Remote-_R2603252"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 25</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Aero</td>
+      <td width="420" align="left" valign="top">2027 Cloud Solutions Engineer / Site Reliability Grad Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Cloud-Solutions-Engineer---Site-Reliability-Grad-Intern_R016715"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 25</td>
     </tr>
     <tr>
@@ -315,16 +322,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers-gdeb.icims.com/jobs/20737/engineering%2c-propulsion-plant-and-ship-systems-%e2%80%93-columbia---summer-internship-2027/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Lexington Medical, Inc.</td>
-      <td width="420" align="left" valign="top">Quality Systems Engineering Intern </td>
-      <td width="180" align="left" valign="top">Bedford, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/lexingtonmedical/jobs/5434143008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,299 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,300 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -781,7 +781,7 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,129 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,935)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,936)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 9,977 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (7,958)</h3>
+  <h3>Senior Level (7,959)</h3>
 
 <table width="100%">
   <thead>
@@ -1237,7 +1237,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 7,958 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 7,959 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-25T22:29:25.922Z</code>
+      🕒 Last updated <code>2026-09-25T22:55:51.555Z</code>
     </span>
   </p>
 </div>
