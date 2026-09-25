@@ -92,7 +92,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,277 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,233 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,106 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 9,874 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 9,875 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 7,858 opportunities
 
 ## The List 🚴‍♂️
@@ -781,11 +781,11 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,106 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (17,732)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (17,733)</b></summary>
 
   <br />
 
-  <h3>Mid Level (9,874)</h3>
+  <h3>Mid Level (9,875)</h3>
 
 <table width="100%">
   <thead>
@@ -798,6 +798,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="./assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Workspace Customer Engineer I, New Business, Google Cloud</td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/74152049389773510-workspace-customer-engineer-i-new-business-google-cloud?sort_by=date&amp;page=3"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 25</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="./assets/featured-badges/microsoft.svg" /></td>
       <td width="420" align="left" valign="top">Cloud Network Engineer - CTJ - Poly<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
@@ -1001,16 +1008,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/75167/embedded-software-engineer/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="./assets/featured-badges/google.svg" /></td>
-      <td width="420" align="left" valign="top">Financial Analyst, Data Center Infrastructure Design</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/143288378471654086-financial-analyst-data-center-infrastructure-design?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 9,874 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 9,875 opportunities in this section.</sub></p>
 
   <h3>Senior Level (7,858)</h3>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-25T05:01:41.347Z</code>
+      🕒 Last updated <code>2026-09-25T10:14:27.201Z</code>
     </span>
   </p>
 </div>
