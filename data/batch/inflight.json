@@ -1,1 +1,356 @@
-[]
+[
+  {
+    "name": "batches/awkxdva7psg8mdi39b085zo6r5zbbh63f22s",
+    "submittedAt": "2026-09-25T01:32:59.950Z",
+    "jobs": [
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer, Amazon Leo",
+        "link": "https://amazon.jobs/en/jobs/10560115",
+        "location": "US, WA, Redmond"
+      },
+      {
+        "company": "Anavationllc",
+        "role": "ETL Software Engineer",
+        "link": "https://jobs.lever.co/anavationllc/9ec5e5f9-fcc0-4782-8633-6507a32ac768",
+        "location": "Chantilly, VA"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer- Infrastructure ",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5248872007?gh_jid=5248872007",
+        "location": "Waltham, Massachusetts, United States"
+      },
+      {
+        "company": "Anduril Industries",
+        "role": "Software Engineer- Machine Learning",
+        "link": "https://boards.greenhouse.io/andurilindustries/jobs/5248869007?gh_jid=5248869007",
+        "location": "Waltham, Massachusetts, United States"
+      },
+      {
+        "company": "Apple",
+        "role": "Software Engineer, Music Search",
+        "link": "https://jobs.apple.com/en-us/details/200685742-0670/software-engineer-music-search?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Bah",
+        "role": "Backend Node Developer",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Alexandria-VA/Backend-Node-Developer_R0250335",
+        "location": "Alexandria, VA"
+      },
+      {
+        "company": "Cadmusgroup",
+        "role": "Energy Data Analyst",
+        "link": "https://careers-cadmusgroup.icims.com/jobs/3242/energy-data-analyst/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Mobile Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Wilmington-DE/Mobile-Engineer-4_R1001659",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1002039-2",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4- People Tech- GenAI & Agentic Systems (LangChain, LangGraph)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--People-Tech--GenAI---Agentic-Systems--LangChain--LangGraph-_R1001896-1",
+        "location": "7 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4- People Tech- GenAI & Agentic Systems (LangChain, LangGraph)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--People-Tech--GenAI---Agentic-Systems--LangChain--LangGraph-_R1001898",
+        "location": "7 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101107274288 09/24/2026 Full Stack Engineer 4- People Tech- GenAI & Agentic Systems (LangChain, LangGraph) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-people-tech-genai-and-agentic-systems-langchain-langgraph/1732/101107274288",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101107274272 09/24/2026 Full-stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/101107274272",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101107274144 09/24/2026 Full Stack Engineer 4- People Tech- GenAI & Agentic Systems (LangChain, LangGraph) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-people-tech-genai-and-agentic-systems-langchain-langgraph/1732/101107274144",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101107273440 09/24/2026 Mobile Engineer 4 Wilmington, DE",
+        "link": "https://www.capitalonecareers.com/job/wilmington/mobile-engineer-4/1732/101107273440",
+        "location": "Wilmington, DE"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102399360 09/24/2026 Full Stack Engineer 4 Richmond, VA",
+        "link": "https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/101102399360",
+        "location": "Richmond, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102399104 09/24/2026 Full-stack Engineer 5 New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-5/1732/101102399104",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102399024 09/24/2026 AI Engineer 4 (Vision model (VLM) customization experience) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/ai-engineer-4-vision-model-vlm-customization-experience/1732/101102399024",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398896 09/24/2026 AI Engineer 5 (FM Hosting, LLM Inference) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/ai-engineer-5-fm-hosting-llm-inference/1732/101102398896",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398832 09/24/2026 Full-stack Engineer 4 (Node, TypeScript, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-node-typescript-aws/1732/101102398832",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398816 09/24/2026 Full-stack Engineer 5 (Java, Python, AWS) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-java-python-aws/1732/101102398816",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398752 09/24/2026 Full Stack Engineer 5 New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/full-stack-engineer-5/1732/101102398752",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398736 09/24/2026 AI Engineer 4 (Gen AI Platform Services) New York, NY",
+        "link": "https://www.capitalonecareers.com/job/new-york/ai-engineer-4-gen-ai-platform-services/1732/101102398736",
+        "location": "New York, NY"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398464 09/24/2026 Full Stack Engineer 5 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5/1732/101102398464",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101102398112 09/24/2026 Full Stack Engineer 4 McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/101102398112",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Adobe",
+        "role": "Data Scientist, Adobe.com",
+        "link": "https://careers.adobe.com/us/en/job/R171757?ph_id=R171757",
+        "location": "San Francisco, California, United States of America"
+      },
+      {
+        "company": "Adobe",
+        "role": "Software Development Engineer",
+        "link": "https://careers.adobe.com/us/en/job/R171594?ph_id=R171594",
+        "location": "Lehi, Utah, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Associate Embedded Software Engineer - Summer 2027",
+        "link": "https://careers.mitre.org/us/en/job/R117606?ph_id=R117606",
+        "location": "Bedford, Massachusetts, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Associate Systems Engineer",
+        "link": "https://careers.mitre.org/us/en/job/R117621?ph_id=R117621",
+        "location": "McLean, Virginia, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Software Engineer",
+        "link": "https://careers.mitre.org/us/en/job/R117614?ph_id=R117614",
+        "location": "McLean, Virginia, United States of America"
+      },
+      {
+        "company": "The MITRE Corporation",
+        "role": "Associate Data Scientist",
+        "link": "https://careers.mitre.org/us/en/job/R116281?ph_id=R116281",
+        "location": "McLean, Virginia, United States of America"
+      },
+      {
+        "company": "Goldbeltapex",
+        "role": "Supervisory Data Analyst",
+        "link": "https://careers-goldbeltapex.icims.com/jobs/20719/supervisory-data-analyst/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Goldbeltapex",
+        "role": "Data Analyst - Mid",
+        "link": "https://careers-goldbeltapex.icims.com/jobs/20715/data-analyst---mid/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "DeepMind",
+        "role": "Power Systems Research Engineer, DeepMind",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/79664588374581958-power-systems-research-engineer-deepmind?sort_by=date&page=1",
+        "location": "New York, NY, USA; San Francisco, CA, USA"
+      },
+      {
+        "company": "Llnl",
+        "role": "Computational Biologist (ML) Postdoctoral Researcher",
+        "link": "https://jobs.smartrecruiters.com/LLNL/3743990015663086",
+        "location": "Livermore, CA, United States"
+      },
+      {
+        "company": "Lucid Motors",
+        "role": "Sr Automation Engineer, Test and Validation ",
+        "link": "https://lucidmotors.com/careers/search/5242866007?gh_jid=5242866007",
+        "location": "Newark, CA"
+      },
+      {
+        "company": "Ngc",
+        "role": "Modeling & Simulation Systems Engineer",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/Modeling---Simulation-Systems-Engineer_R10253054",
+        "location": "United States-Florida-Melbourne"
+      },
+      {
+        "company": "Ngc",
+        "role": "Configurable On-Board Router (COR) Team - Software Engineer (AHT)",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Manhattan-Beach/Configurable-On-Board-Router--COR--Team---Software-Engineer--AHT-_R10247177",
+        "location": "United States-California-Manhattan Beach"
+      },
+      {
+        "company": "Ngc",
+        "role": "Systems Modeling and Simulation Engineer",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-San-Diego/Systems-Modeling-and-Simulation-Engineer_R10253044",
+        "location": "2 Locations"
+      },
+      {
+        "company": "OKX",
+        "role": "Software Engineer, Mobile",
+        "link": "https://job-boards.greenhouse.io/okx/jobs/7786383003",
+        "location": "San Jose, California, United States"
+      },
+      {
+        "company": "Oneapp",
+        "role": "Software Engineer, Product",
+        "link": "https://jobs.ashbyhq.com/oneapp/d76e6639-a175-4085-af02-f96a4c1c5093",
+        "location": "United States (Remote)"
+      },
+      {
+        "company": "Openai",
+        "role": "Software Engineer, Search Infrastructure",
+        "link": "https://jobs.ashbyhq.com/openai/7caed1e8-c6f6-4569-9d45-2d7a7a56a025",
+        "location": "San Francisco"
+      },
+      {
+        "company": "Philips",
+        "role": "Field Service Engineer - Imaging Systems (Field: Shreveport, LA)",
+        "link": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shreveport-Louisiana-United-States/Field-Service-Engineer---Imaging-Systems--Field--Shreveport--LA-_591283",
+        "location": "Shreveport, Louisiana, United States"
+      },
+      {
+        "company": "Reflect-orbital",
+        "role": "Ground Software Engineering Intern",
+        "link": "https://jobs.ashbyhq.com/reflect-orbital/c394615d-26c6-4435-ad84-3ca3269c2952",
+        "location": "Hawthorne, CA"
+      },
+      {
+        "company": "Rockwellautomation",
+        "role": "Co-op, Embedded Software Engineer (Spring or Fall 2027)",
+        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Milwaukee-Wisconsin-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineering Intern (Summer 2027)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Systems-Engineering-Intern--Summer-2027-_01873116",
+        "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineering Co-Op (Summer/Fall 2027)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Systems-Engineering-Co-Op--Summer-Fall-2027-_01873117",
+        "location": "US-IA-CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105"
+      },
+      {
+        "company": "Ryder",
+        "role": "Warehouse Automation Engineer (remote)",
+        "link": "https://ryder.wd5.myworkdayjobs.com/rydercareers/job/USA---Nationwide-Remote-USA/Warehouse-Automation-Engineer--remote-_R184983",
+        "location": "USA - Nationwide Remote USA"
+      },
+      {
+        "company": "Ryder",
+        "role": "Warehouse Automation Engineer (remote)",
+        "link": "https://ryder.wd5.myworkdayjobs.com/rydercareers/job/USA---Nationwide-Remote-USA/Warehouse-Automation-Engineer--remote-_R184986",
+        "location": "USA - Nationwide Remote USA"
+      },
+      {
+        "company": "Schwab",
+        "role": "Data Engineer Austin, TX; Southlake, TX Requisition ID: 2026-120367 Application deadline: 2026-09-29 Save for Later",
+        "link": "https://www.schwabjobs.com/job/austin/data-engineer/33727/93425305520",
+        "location": "Austin, TX; Southlake, TX"
+      }
+    ]
+  },
+  {
+    "name": "batches/ftf4bba491x33p0yas3f4blyif0pllht67th",
+    "submittedAt": "2026-09-25T01:33:02.674Z",
+    "jobs": [
+      {
+        "company": "Schwab",
+        "role": "Platform Support Data Engineer Southlake, TX; Austin, TX Requisition ID: 2026-124368 Application deadline: 2026-10-02 Save for Later",
+        "link": "https://www.schwabjobs.com/job/southlake/platform-support-data-engineer/33727/98102690752",
+        "location": "Southlake, TX; Austin, TX"
+      },
+      {
+        "company": "Schwab",
+        "role": "Software Engineer Southlake, TX; Orlando, FL; Chicago, IL Requisition ID: 2026-127302 Application deadline: 2026-10-01 Save for Later",
+        "link": "https://www.schwabjobs.com/job/southlake/software-engineer/33727/101102737200",
+        "location": "Southlake, TX; Orlando, FL; Chicago, IL"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (Database Engineering) - Spring 2027",
+        "link": "https://jobs.ashbyhq.com/snowflake/7bd393df-67d7-4009-ba4f-1cd79a82b0be",
+        "location": "US-CA-Menlo Park"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027",
+        "link": "https://jobs.ashbyhq.com/snowflake/5315b6f6-2c14-4cb9-a884-c2bae69f2c69",
+        "location": "US-CA-Menlo Park"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (AI / ML) - Spring 2027",
+        "link": "https://jobs.ashbyhq.com/snowflake/4be290ae-dd9d-488c-9d90-56fcd69101ca",
+        "location": "US-CA-Menlo Park"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Software Engineer (AI Data Engineering)",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8843640002?gh_jid=8843640002",
+        "location": "Hawthorne, CA"
+      },
+      {
+        "company": "Veralto",
+        "role": "Quality Data Analyst (onsite in Loveland, CO)",
+        "link": "https://veralto.wd1.myworkdayjobs.com/hachjobs/job/Loveland-Colorado-United-States/Quality-Data-Analyst--onsite-in-Loveland--CO-_R10268487",
+        "location": "Loveland, Colorado, United States"
+      }
+    ]
+  }
+]
