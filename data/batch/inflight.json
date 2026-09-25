@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "name": "batches/eviys3r1ozhtqzwhh49safg1ucmajgepfq7y",
+    "submittedAt": "2026-09-25T04:55:52.375Z",
+    "jobs": [
+      {
+        "company": "Apply.careers.microsoft.com",
+        "role": "Cloud Network Engineer - CTJ - Poly",
+        "link": "https://apply.careers.microsoft.com/careers/job/1970393557002747?domain=microsoft.com&8fold_id=1970393557002747",
+        "location": "United States, Maryland, Annapolis Junction"
+      },
+      {
+        "company": "Autodesk",
+        "role": "Software Developer",
+        "link": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/Toronto-ON-CAN/Software-Developer_26WD100537",
+        "location": "3 Locations"
+      },
+      {
+        "company": "Baird",
+        "role": "Software Developer",
+        "link": "https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Software-Developer_R20261069-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (Database Engineering) - Spring 2027",
+        "link": "https://careers.snowflake.com/us/en/job/c3cfbee9-0bdd-4320-b540-44ee31d945a0?ph_id=c3cfbee9-0bdd-4320-b540-44ee31d945a0",
+        "location": "Menlo Park, California, United States"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027",
+        "link": "https://careers.snowflake.com/us/en/job/b497fa45-a044-49c9-a9b8-2749beb58e69?ph_id=b497fa45-a044-49c9-a9b8-2749beb58e69",
+        "location": "Menlo Park, California, United States"
+      },
+      {
+        "company": "Snowflake",
+        "role": "Software Engineer Intern (AI / ML) - Spring 2027",
+        "link": "https://careers.snowflake.com/us/en/job/8f474d88-1b9a-4957-b018-9633a5434752?ph_id=8f474d88-1b9a-4957-b018-9633a5434752",
+        "location": "Menlo Park, California, United States"
+      },
+      {
+        "company": "Heartflow",
+        "role": "Software Engineer – Frontend",
+        "link": "https://job-boards.greenhouse.io/heartflowinc/jobs/6207212004",
+        "location": "San Francisco, California"
+      },
+      {
+        "company": "Ilitch",
+        "role": "Identity Security Engineer",
+        "link": "https://ilitch.wd5.myworkdayjobs.com/lc/job/Detroit-MI/Identity-Security-Engineer_R9461",
+        "location": "Detroit, MI"
+      },
+      {
+        "company": "L3harris",
+        "role": "Specialist, Software Engineer - Application Infrastructure & Embedded Systems Engineering Multiple Locations",
+        "link": "https://careers.l3harris.com/job/yorba-linda/specialist-software-engineer-application-infrastructure-and-embedded-systems/4832/101109854688",
+        "location": "Multiple Locations"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Site Reliability Engineer, Kubernetes Platform (Top Secret Clearance)",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8843951002?gh_jid=8843951002",
+        "location": "Hawthorne, CA"
+      }
+    ]
+  }
+]
