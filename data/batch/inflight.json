@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "batches/u7xsa8ii6rqldk16236e3nn5gwyzhimw9kfi",
+    "submittedAt": "2026-09-26T00:10:26.443Z",
+    "jobs": [
+      {
+        "company": "Waymo",
+        "role": "Software Engineer Intern - Driver Refinement Foundations",
+        "link": "https://careers.withwaymo.com/jobs?gh_jid=8224900",
+        "location": "Mountain View, CA"
+      },
+      {
+        "company": "Western National Insurance",
+        "role": "Data Engineering Intern - Data & Integrations",
+        "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4537849",
+        "location": "Edina, MN"
+      },
+      {
+        "company": "DoorDash",
+        "role": "Machine Learning Engineer Intern - Masters 🎓",
+        "link": "https://job-boards.greenhouse.io/doordashusa/jobs/8204111",
+        "location": "4 locationsSeattle, WASFNYCSunnyvale, CA"
+      },
+      {
+        "company": "Metropolitan Transportation Authority",
+        "role": "Software Analyst / Developer Intern",
+        "link": "https://jobs.jobvite.com/metropolitantransportationauthority/job/o4WRAfwb?nl=1&nl=1&fr=false",
+        "location": "NYC"
+      },
+      {
+        "company": "Metropolitan Transportation Authority",
+        "role": "Software Analyst / Developer Intern - Fall",
+        "link": "https://jobs.jobvite.com/metropolitantransportationauthority/job/o6WRAfwd?nl=1&nl=1&fr=false",
+        "location": "NYC"
+      },
+      {
+        "company": "Keysight Technologies",
+        "role": "Software Developer Intern",
+        "link": "https://jobs.keysight.com/jobs/54638?icims=1",
+        "location": "Austin, TXRaleigh, NC"
+      },
+      {
+        "company": "Keysight Technologies",
+        "role": "Software Engineer Intern - Factory Automation",
+        "link": "https://jobs.keysight.com/jobs/54274?icims=1",
+        "location": "Santa Rosa, CA"
+      }
+    ]
+  }
+]
