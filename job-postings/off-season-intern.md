@@ -14,6 +14,62 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Bostonscientific</td>
+      <td width="420" align="left" valign="top">Software Development Engineer Co-op (May- Dec)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Waltham, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://bostonscientific.eightfold.ai/careers/job/563602813674232?domain=bostonscientific.com&amp;8fold_id=563602813674232"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Hermeus</td>
+      <td width="420" align="left" valign="top">Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring &amp; Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Los Angeles, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Ngc</td>
+      <td width="420" align="left" valign="top">Safety Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Linthicum, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Safety-Systems-Engineer_R10253378"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rhoda-ai</td>
+      <td width="420" align="left" valign="top">Robot Software Engineer Internship</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/rhoda-ai/9a57c8ff-dd2b-4547-a46a-44658a699ba5"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Display Systems Engineering Co-Op (Summer/Fall 2027) - Onsite<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-Op--Summer-Fall-2027----Onsite_01868917"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Display Systems Engineering Co-op (Spring/Summer 2027) - Onsite<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01870090"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineer - Spring/Summer Co-op 2027 - (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Spring-Summer-Co-op-2027----Onsite-_01871506"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Systems Engineer - Summer/Fall Co-op 2027 - (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Summer-Fall-Co-op-2027----Onsite-_01871508"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">GITAI</td>
       <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Torrance, CA</td>
@@ -2057,66 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Northwood-Ohio-US/Automation-Engineering-Co-Op_R00261906"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 16</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Marmon</td>
-      <td width="420" align="left" valign="top">Forward Deployed Engineer Intern</td>
-      <td width="180" align="left" valign="top">Charlotte, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Charlotte-NC/Forward-Deployment-Engineer-Intern_JR0000045825"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Tucson, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/Software-Engineer-Intern_01874282"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineering Co-op (Winter/Spring 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Co-op--Winter-Spring-2027-_01875464"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Vermeer</td>
-      <td width="420" align="left" valign="top">IT Data Engineer Intern</td>
-      <td width="180" align="left" valign="top">Pella, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/IT-Data-Engineer-Intern_REQ-22171"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Cartesian Systems</td>
-      <td width="420" align="left" valign="top">IAP Software Engineering Intern 2027</td>
-      <td width="180" align="left" valign="top">Cambridge, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/cartesiansystems/jobs/4408204009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Clockwork.io</td>
-      <td width="420" align="left" valign="top">Software Engineer Intern</td>
-      <td width="180" align="left" valign="top">Palo Alto, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/clockworksystems/jobs/6174230004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Gdms</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern</td>
-      <td width="180" align="left" valign="top">Dedham, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/74993/software-engineering-intern/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Intern Engineer for Crypto and Cross Domain Solutions<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Scottsdale, AZ</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-gdms.icims.com/jobs/74785/software-intern-engineer-for-crypto-and-cross-domain-solutions/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 16</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,287 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,295 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-29T06:15:35.411Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-29T12:51:51.612Z</code></sub>

@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Bosch group</td>
+      <td width="420" align="left" valign="top">Research Scientist- Robotics AI </td>
+      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/BoschGroup/744000152321949"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Specialist, Systems Engineer Engineering Palm Bay, Brevard, FL<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Palm Bay, FL</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/palm-bay/specialist-systems-engineer/4832/101292622800"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Lease Connectivity Engineer, Data Center Infrastructure</td>
+      <td width="180" align="left" valign="top">New Albany, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/2700820770367153"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
+      <td width="420" align="left" valign="top">Growth Engineer, Developer Platform</td>
+      <td width="180" align="left" valign="top">Santa Clara, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Growth-Engineer--Developer-Platform_JR2026245-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Systems Security Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
       <td width="180" align="left" valign="top">Mount Laurel, NJ</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/new-york/full-stack-engineer-5/1732/101102399104"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101102399024 09/24/2026 AI Engineer 4 (Vision model (VLM) customization experience) New York, NY</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/new-york/ai-engineer-4-vision-model-vlm-customization-experience/1732/101102399024"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101102398896 09/24/2026 AI Engineer 5 (FM Hosting, LLM Inference) McLean, VA</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/ai-engineer-5-fm-hosting-llm-inference/1732/101102398896"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101102398832 09/24/2026 Full-stack Engineer 4 (Node, TypeScript, AWS) McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-node-typescript-aws/1732/101102398832"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101102398816 09/24/2026 Full-stack Engineer 5 (Java, Python, AWS) McLean, VA</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-java-python-aws/1732/101102398816"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 8,127 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 8,131 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-29T06:15:35.411Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-09-29T12:51:51.612Z</code></sub>
