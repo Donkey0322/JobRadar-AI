@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "batches/qqbukzabj2n7xzh49h58304k0pyn0yj53uia",
+    "submittedAt": "2026-09-29T04:12:48.102Z",
+    "jobs": [
+      {
+        "company": "Neighbor",
+        "role": "Data Scientist Intern - Current PhD 🎓",
+        "link": "https://jobs.lever.co/neighbor/b5f73774-1d5a-4edc-a184-d1734731cd9c/apply",
+        "location": "Lehi, UT"
+      },
+      {
+        "company": "GITAI",
+        "role": "Software Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/gitai/jobs/5437128008",
+        "location": "LA"
+      },
+      {
+        "company": "Garmin",
+        "role": "Software Engineering Intern",
+        "link": "https://careers.garmin.com/jobs/20255?icims=1",
+        "location": "Boulder, CO"
+      }
+    ]
+  }
+]
