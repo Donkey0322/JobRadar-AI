@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--09--28-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--09--29-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -93,7 +93,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,281 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,164 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,096 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,103 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,104 opportunities
 
 ## The List 🚴‍♂️
 
@@ -781,7 +781,7 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,164 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (18,199)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (18,200)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 10,096 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,103)</h3>
+  <h3>Senior Level (8,104)</h3>
 
 <table width="100%">
   <thead>
@@ -1237,7 +1237,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,103 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,104 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-28T22:12:11.288Z</code>
+      🕒 Last updated <code>2026-09-29T01:21:20.044Z</code>
     </span>
   </p>
 </div>
