@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "name": "batches/6egl8b682mbr4zxlii1p4zjfxyh57rkkolt9",
+    "submittedAt": "2026-09-29T06:16:13.635Z",
+    "jobs": [
+      {
+        "company": "Apple",
+        "role": "Software Devlopment Engineer - Kubernetes",
+        "link": "https://jobs.apple.com/en-us/details/200686299-0157/software-devlopment-engineer-kubernetes?team=SFTWR",
+        "location": ""
+      },
+      {
+        "company": "Bosch group",
+        "role": "Research Scientist- Robotics AI ",
+        "link": "https://jobs.smartrecruiters.com/BoschGroup/744000152321949",
+        "location": "Sunnyvale, CA, United States"
+      },
+      {
+        "company": "Bostonscientific",
+        "role": "Software Development Engineer Co-op (May- Dec)",
+        "link": "https://bostonscientific.eightfold.ai/careers/job/563602813674232?domain=bostonscientific.com&8fold_id=563602813674232",
+        "location": "Waltham, US-MA, USA"
+      },
+      {
+        "company": "Trane Technologies",
+        "role": "Business Systems Analyst Internship",
+        "link": "https://careers.tranetechnologies.com/global/en/job/JR-13688?ph_id=JR-13688",
+        "location": "La Crosse, Wisconsin, United States of America"
+      },
+      {
+        "company": "Field-ai",
+        "role": "Research / Software Engineer - Humanoid Whole Body Learning",
+        "link": "https://jobs.lever.co/field-ai/09def7d8-26bf-451f-a4f2-bd8fd4c5f5cf",
+        "location": "Boston, MA"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Data Scientist",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Data-Scientist_JR-202620897",
+        "location": "Warren, Michigan, United States of America"
+      },
+      {
+        "company": "Hermeus",
+        "role": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+        "link": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd",
+        "location": "Los Angeles, CA"
+      },
+      {
+        "company": "L3harris",
+        "role": "Specialist, Systems Engineer - Integrated Protection Strategy Analyst Engineering Springfield, Fairfax, VA",
+        "link": "https://careers.l3harris.com/job/springfield/specialist-systems-engineer-integrated-protection-strategy-analyst/4832/101292622960",
+        "location": "Springfield, Fairfax, VA"
+      },
+      {
+        "company": "L3harris",
+        "role": "Specialist, Systems Engineer Engineering Palm Bay, Brevard, FL",
+        "link": "https://careers.l3harris.com/job/palm-bay/specialist-systems-engineer/4832/101292622800",
+        "location": "Palm Bay, Brevard, FL"
+      },
+      {
+        "company": "Linkedin",
+        "role": "Software Engineer - Applications ",
+        "link": "https://jobs.smartrecruiters.com/LinkedIn3/744000152324259",
+        "location": "Mountain View, CA, United States"
+      },
+      {
+        "company": "Meta",
+        "role": "Lease Connectivity Engineer, Data Center Infrastructure",
+        "link": "https://www.metacareers.com/profile/job_details/2700820770367153",
+        "location": "New Albany, OH"
+      },
+      {
+        "company": "Micron",
+        "role": "SR Data Engineer, Smart MFG & AI",
+        "link": "https://micron.wd1.myworkdayjobs.com/External/job/Taichung---AATT-Taiwan/SR-Data-Engineer--Smart-MFG---AI_JR112591-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Ngc",
+        "role": "Safety Systems Engineer",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/Safety-Systems-Engineer_R10253378",
+        "location": "United States-Maryland-Linthicum"
+      },
+      {
+        "company": "Nvidia",
+        "role": "SAP MM/PP Master Data Engineer - Enterprise Data Management",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Gurugram/SAP-MM-PP-Master-Data-Engineer---Enterprise-Data-Management_JR2026497",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Nvidia",
+        "role": "Growth Engineer, Developer Platform",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Growth-Engineer--Developer-Platform_JR2026245-1",
+        "location": "US, CA, Santa Clara"
+      },
+      {
+        "company": "Parsons",
+        "role": "Signaling Engineer (Systems)",
+        "link": "https://parsons.wd5.myworkdayjobs.com/search/job/SA---Riyadh/Signaling-Engineer--Systems-_R182105",
+        "location": ""
+      },
+      {
+        "company": "Rhoda-ai",
+        "role": "Robot Software Engineer Internship",
+        "link": "https://jobs.ashbyhq.com/rhoda-ai/9a57c8ff-dd2b-4547-a46a-44658a699ba5",
+        "location": "Mountain View"
+      },
+      {
+        "company": "Rtx",
+        "role": "Display Systems Engineering Co-Op (Summer/Fall 2027) - Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-Op--Summer-Fall-2027----Onsite_01868917",
+        "location": "US-IA-CEDAR RAPIDS-106 ~ 400 Collins Rd NE ~ BLDG 106"
+      },
+      {
+        "company": "Rtx",
+        "role": "Display Systems Engineering Co-op (Spring/Summer 2027) - Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-106--400-Collins-Rd-NE--BLDG-106/Display-Systems-Engineering-Co-op--Spring-Summer-2027----Onsite_01870090",
+        "location": "US-IA-CEDAR RAPIDS-106 ~ 400 Collins Rd NE ~ BLDG 106"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer - Spring/Summer Co-op 2027 - (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Spring-Summer-Co-op-2027----Onsite-_01871506",
+        "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer - Summer/Fall Co-op 2027 - (Onsite)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineer---Summer-Fall-Co-op-2027----Onsite-_01871508",
+        "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131"
+      },
+      {
+        "company": "Slihrms",
+        "role": "Offshore Renewables Software Engineer",
+        "link": "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBristolThe-Hub/Offshore-Renewables-Software-Engineer_R-160232",
+        "location": "2 Locations"
+      },
+      {
+        "company": "SpaceX",
+        "role": "Security Engineer",
+        "link": "https://boards.greenhouse.io/spacex/jobs/8854707002?gh_jid=8854707002",
+        "location": "Redmond, WA"
+      },
+      {
+        "company": "Stripe",
+        "role": "Full Stack Engineer, Enterprise Engineering",
+        "link": "https://stripe.com/jobs/search?gh_jid=8214616",
+        "location": "N/A"
+      },
+      {
+        "company": "Stripe",
+        "role": "Full Stack Engineer, Enterprise Engineering",
+        "link": "https://stripe.com/jobs/search?gh_jid=8214618",
+        "location": "N/A"
+      },
+      {
+        "company": "Zeissgroup",
+        "role": "Electrical Design and Automation Engineer (f/m/x)",
+        "link": "https://zeissgroup.wd3.myworkdayjobs.com/external/job/Oberkochen/Electrical-Design-and-Automation-Engineer--m-w-x-_JR_1052837-1",
+        "location": "2 Locations"
+      }
+    ]
+  }
+]
