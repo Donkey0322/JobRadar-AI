@@ -1,1 +1,392 @@
-[]
+[
+  {
+    "name": "batches/rbdk20srjwlmcyefuv0m8we4lp6vmk2ze88u",
+    "submittedAt": "2026-09-30T15:05:06.381Z",
+    "jobs": [
+      {
+        "company": "Rtx",
+        "role": "Software Security Engineer, Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Software-Security-Engineer--Onsite_01878774",
+        "location": "US-CA-EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01"
+      },
+      {
+        "company": "Accenture",
+        "role": "Software Engineer Intern",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ebene/Software-Engineer-Intern_R00342918-1",
+        "location": ""
+      },
+      {
+        "company": "Accenture",
+        "role": "AGBG Full Stack Engineer - Google Deployed Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/AGBG-Full-Stack-Engineer---Google-Deployed-Engineer_R00359168",
+        "location": ""
+      },
+      {
+        "company": "Accenture",
+        "role": "AGBG Full Stack Engineer - Google Deployed Engineer",
+        "link": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Roma/AGBG-Full-Stack-Engineer---Google-Deployed-Engineer_R00359161",
+        "location": ""
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Development Engineer - AgentCore, AWS Agentic AI",
+        "link": "https://amazon.jobs/en/jobs/10565536",
+        "location": "US, NY, New York"
+      },
+      {
+        "company": "Avav",
+        "role": "Software Engineer",
+        "link": "https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Software-Engineer_9005",
+        "location": "Melbourne, FL"
+      },
+      {
+        "company": "Bah",
+        "role": "AI and ML Engineer and Data Scientist",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fayetteville-NC/AI-and-ML-Engineer-and-Data-Scientist_R0250643",
+        "location": "Fayetteville, NC"
+      },
+      {
+        "company": "Bah",
+        "role": "Salesforce Platform Engineer, Mid",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Salesforce-Platform-Engineer--Mid_R0250616",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Broadridge",
+        "role": "P1066210 TDSEP201 P2 - Software Engineering",
+        "link": "https://broadridge.wd5.myworkdayjobs.com/careers/job/Hyderabad-Hi-Tec-City/P1066210-TDSEP201-P2---Software-Engineering_JR1086165",
+        "location": "Hyderabad-Hi-Tec City"
+      },
+      {
+        "company": "Caci",
+        "role": "Software/Network Engineering Intern - Summer 2027",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Florham-Park-NJ-US/Software-Network-Engineering-Intern---Summer-2027_332895",
+        "location": "Florham Park, NJ, US"
+      },
+      {
+        "company": "Caci",
+        "role": "Business Systems Analyst IV",
+        "link": "https://caci.wd1.myworkdayjobs.com/external/job/Millington-TN-US/Business-Systems-Analyst-IV_332861",
+        "location": "Millington, TN, US"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full Stack Engineer 4",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Chicago-IL/Full-Stack-Engineer-4_R1002591-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "Full-stack Engineer 5 (Python, AWS, Typescript)",
+        "link": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5--Python--AWS--Typescript-_R1001999-1",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Capitalone",
+        "role": "101351638096 09/30/2026 Full-stack Engineer 5 (Python, AWS, Typescript) McLean, VA",
+        "link": "https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5-python-aws-typescript/1732/101351638096",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Cboe Global Markets",
+        "role": "Data Center Engineer",
+        "link": "https://careers.cboe.com/us/en/job/R-4515?ph_id=R-4515",
+        "location": "Secaucus, New Jersey, United States of America"
+      },
+      {
+        "company": "Cboe Global Markets",
+        "role": "Sr Platform Engineer",
+        "link": "https://careers.cboe.com/us/en/job/R-4443?ph_id=R-4443",
+        "location": "Overland Park, Kansas, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Data Engineering Technical Leader - CX AI",
+        "link": "https://careers.cisco.com/global/en/job/2019469?ph_id=2019469",
+        "location": "San Jose, California, United States of America"
+      },
+      {
+        "company": "Cisco",
+        "role": "Software Engineering Technical Leader (Hybrid)",
+        "link": "https://careers.cisco.com/global/en/job/2023407?ph_id=2023407",
+        "location": "San Jose, California, United States of America"
+      },
+      {
+        "company": "Trane Technologies",
+        "role": "Systems Engineer Intern",
+        "link": "https://careers.tranetechnologies.com/global/en/job/JR-16745?ph_id=JR-16745",
+        "location": "St Paul, Minnesota, United States of America"
+      },
+      {
+        "company": "Carrier",
+        "role": "Building Automation Systems Controls Engineer",
+        "link": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN05-CCS-Charlotte-5900-Northwoods-Business-Parkway-Charlotte-NC-28269-USA/Controls-Engineer_30212931",
+        "location": "CAN05: CCS-Charlotte, 5900 Northwoods Business Parkway, Charlotte, NC, 28269 USA"
+      },
+      {
+        "company": "Cboe",
+        "role": "Sr Platform Engineer",
+        "link": "https://cboe.wd1.myworkdayjobs.com/external_career_cboe/job/Overland-Park-OPX/Senior-Linux-Engineer_R-4443",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Cboe",
+        "role": "Data Center Engineer",
+        "link": "https://cboe.wd1.myworkdayjobs.com/external_career_cboe/job/Secaucus-NJ/Data-Center-Engineer_R-4515",
+        "location": "Secaucus, NJ"
+      },
+      {
+        "company": "Citi",
+        "role": "Data Center Service Delivery Infrastructure Technical Analyst",
+        "link": "https://citi.wd5.myworkdayjobs.com/2/job/Georgetown-Texas-United-States/Data-Center-Service-Delivery-Infrastructure-Technical-Analyst_26998885",
+        "location": "Georgetown Texas United States"
+      },
+      {
+        "company": "Citi",
+        "role": "Threat & Exposure Management Platform Engineer",
+        "link": "https://jobs.citi.com/job/irving/threat-and-exposure-management-platform-engineer/287/101350295312",
+        "location": "Irving, Texas, United States"
+      },
+      {
+        "company": "Countryfinancial",
+        "role": "Offensive Application Security Analyst",
+        "link": "https://countryfinancial.wd5.myworkdayjobs.com/countrycorporateexternal/job/Bloomington-IL/Offensive-Application-Security-Analyst_R26_0000001117-1",
+        "location": "Bloomington, IL"
+      },
+      {
+        "company": "Decisionpointcorp",
+        "role": "JAVA Backend Developer",
+        "link": "https://careers-decisionpointcorp.icims.com/jobs/3796/java-backend-developer/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Dfwairport",
+        "role": "Sr System Integration Dev",
+        "link": "https://dfwairport.wd5.myworkdayjobs.com/external/job/Airport-Headquarters/Sr-System-Integration-Dev_JR102148",
+        "location": "Airport Headquarters"
+      },
+      {
+        "company": "DoorDash USA",
+        "role": "Software Engineer, Machine Learning (All Levels / All Teams)",
+        "link": "https://job-boards.greenhouse.io/doordashusa/jobs/5635021",
+        "location": "Sunnyvale, CA; San Francisco, CA; Seattle, WA; New York, NY"
+      },
+      {
+        "company": "Firstnational",
+        "role": "Software Engineer",
+        "link": "https://firstnational.wd12.myworkdayjobs.com/fnbocareers/job/Omaha---FN-Tower/Software-Engineer_R-20261773",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Gdms",
+        "role": "Software Systems Engineer",
+        "link": "https://careers-gdms.icims.com/jobs/75210/software-systems-engineer/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Gdms",
+        "role": "Cyber Security Engineer",
+        "link": "https://careers-gdms.icims.com/jobs/74990/cyber-security-engineer/job",
+        "location": "Unsure"
+      },
+      {
+        "company": "Generalmotors",
+        "role": "Instrumentation Integration Engineer- Infrastructure Software",
+        "link": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Milford-Michigan-United-States-of-America/Instrumentation-Integration-Engineer--Infrastructure-Software_JR-202616781",
+        "location": "Milford, Michigan, United States of America"
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer, Envoy AI Foundations",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/109558222179705542-software-engineer-envoy-ai-foundations?sort_by=date&page=3",
+        "location": "Cambridge, MA, USA"
+      },
+      {
+        "company": "Google",
+        "role": "Customer Engineer, AI Infrastructure, Google Public Sector",
+        "link": "https://www.google.com/about/careers/applications/jobs/results/110372410540073670-customer-engineer-ai-infrastructure-google-public-sector?sort_by=date&page=3",
+        "location": "Reston, VA, USA; Washington D.C., DC, USA"
+      },
+      {
+        "company": "Interstates",
+        "role": "Sr Control Systems Developer",
+        "link": "https://www.interstates.com/careers/jobs?gh_jid=4425759009&gh_jid=4425759009",
+        "location": "Omaha, NE"
+      },
+      {
+        "company": "Interstates",
+        "role": "Sr Control Systems Developer",
+        "link": "https://www.interstates.com/careers/jobs?gh_jid=4425764009&gh_jid=4425764009",
+        "location": "Sioux Center, IA"
+      },
+      {
+        "company": "Interstates",
+        "role": "Sr Control Systems Developer ",
+        "link": "https://www.interstates.com/careers/jobs?gh_jid=4425716009&gh_jid=4425716009",
+        "location": "Sioux Falls, SD"
+      },
+      {
+        "company": "Jci",
+        "role": "HVAC Building Controls Systems Engineer Leader",
+        "link": "https://jci.wd5.myworkdayjobs.com/jci/job/Indianapolis-Indiana-United-States-of-America/HVAC-Building-Controls-Systems-Engineer-Leader_WD30280535",
+        "location": "Indianapolis-Indiana-United States of America"
+      },
+      {
+        "company": "Kla",
+        "role": "Software Engineering Intern",
+        "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2641581",
+        "location": "Milpitas, CA"
+      },
+      {
+        "company": "Kla",
+        "role": "Software Engineering Intern",
+        "link": "https://kla.wd1.myworkdayjobs.com/ur/job/Milpitas-CA/Software-Engineering-Intern_2641572",
+        "location": "Milpitas, CA"
+      },
+      {
+        "company": "Lowes",
+        "role": "Sr Software Engineer - Search Platform (Data Ingestion)",
+        "link": "https://lowes.wd5.myworkdayjobs.com/LWS_External_CS/job/Lowes-Charlotte-Technology-Hub-3505/Sr-Software-Engineer---Search-Platform--Data-Ingestion-_JR-02596329",
+        "location": "Lowe's Charlotte Technology Hub 3505"
+      },
+      {
+        "company": "Maxar",
+        "role": "Software Engineer (TS/SCI)",
+        "link": "https://maxar.wd1.myworkdayjobs.com/Vantor/job/Melbourne-FL/Software-Engineer--TS-SCI-_R24439-1",
+        "location": "Melbourne, FL"
+      },
+      {
+        "company": "Mfs",
+        "role": "Spring 2027 Jr Software Engineer Co-op (January - June)",
+        "link": "https://mfs.wd1.myworkdayjobs.com/mfs-careers/job/Boston/Spring-2027-Jr-Software-Engineer-Co-op--January---June-_MFS-231979",
+        "location": "Boston"
+      },
+      {
+        "company": "Mfs",
+        "role": "Spring 2027 Investment Data Engineer Co-op (January - June)",
+        "link": "https://mfs.wd1.myworkdayjobs.com/mfs-careers/job/Boston/Spring-2027-Investment-Data-Engineer-Co-op--January---June-_MFS-231978",
+        "location": "Boston"
+      },
+      {
+        "company": "Ngc",
+        "role": "2027 Associate Systems Engineer - Huntsville (AL)",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Systems-Engineer---Huntsville--AL-_R10253699",
+        "location": "United States-Alabama-Huntsville"
+      },
+      {
+        "company": "Ngc",
+        "role": "Industrial Security Analyst - Level 4",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Industrial-Security-Analyst---Level-4_R10242876",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Ngc",
+        "role": "Systems Engineer (AHT)",
+        "link": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Dulles/Systems-Engineer--AHT-_R10253675",
+        "location": "United States-Virginia-Dulles"
+      },
+      {
+        "company": "Nokia",
+        "role": "Optical System Engineer Co-Op",
+        "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40648",
+        "location": "United States"
+      },
+      {
+        "company": "Nvidia",
+        "role": "DevOps Engineer - Build & CI/CD",
+        "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Germany-Berlin/DevOps-Engineer---Build---CI-CD_JR2026439",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Qualcomm",
+        "role": "#Embedded Software Engineer",
+        "link": "https://qualcomm.eightfold.ai/careers/job/446721342586?domain=qualcomm.com&8fold_id=446721342586",
+        "location": "San Diego, California, United States of America"
+      }
+    ]
+  },
+  {
+    "name": "batches/0icdoxvga5hgfa6vjmuy38wss483oglccx31",
+    "submittedAt": "2026-09-30T15:05:10.295Z",
+    "jobs": [
+      {
+        "company": "Rockwellautomation",
+        "role": "Component Engineer – Wiring and Connection Systems",
+        "link": "https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Milwaukee-Wisconsin-United-States/Component-Engineer---Wiring-and-Connection-Systems_R26-3702",
+        "location": "2 Locations"
+      },
+      {
+        "company": "Rtx",
+        "role": "Embedded Software Security Eng. Intern - S3E",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-AZ-TUCSON-801--1151-E-Hermans-Rd--BLDG-801-External-Site/Embedded-Software-Security-Eng-Intern---S3E_01878712",
+        "location": "US-AZ-TUCSON-801 ~ 1151 E Hermans Rd ~ BLDG 801 (External Site)"
+      },
+      {
+        "company": "Rtx",
+        "role": "DevOps Software Engineer (On-Site)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-PA-STATE-COLLEGE-5A--302-Science-Park-Rd--BLDG-5A/DevOps-Software-Engineer--On-Site-_01878933",
+        "location": "US-PA-STATE COLLEGE-5A ~ 302 Science Park Rd ~ BLDG 5A"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineer - Intern- Onsite",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Systems-Engineer---Intern--Onsite_01879053",
+        "location": "US-MA-TEWKSBURY-TB3 ~ 50 Apple Hill Dr ~ CONCORD BLDG, Tewksbury Tb3 300 Concord"
+      },
+      {
+        "company": "Rtx",
+        "role": "Systems Engineering Co-op - Boeing Platforms Displays (Summer/Fall)",
+        "link": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Systems-Engineering-Co-op---Boeing-Platforms-Displays--Summer-Fall-_01871761",
+        "location": "US-IA-CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131"
+      },
+      {
+        "company": "Searchcareers.caci.com",
+        "role": "Business Systems Analyst IV",
+        "link": "https://searchcareers.caci.com/careers/job/1443153752030?domain=caci.com&8fold_id=1443153752030",
+        "location": "Millington, TN, US"
+      },
+      {
+        "company": "Searchcareers.caci.com",
+        "role": "Data Scientist/Analyst - Advana/Jupiter/Databricks",
+        "link": "https://searchcareers.caci.com/careers/job/1443153752472?domain=caci.com&8fold_id=1443153752472",
+        "location": "Remote (Any State)"
+      },
+      {
+        "company": "Searchcareers.caci.com",
+        "role": "Software/Network Engineering Intern - Summer 2027",
+        "link": "https://searchcareers.caci.com/careers/job/1443153753668?domain=caci.com&8fold_id=1443153753668",
+        "location": "Florham Park, NJ, US"
+      },
+      {
+        "company": "Sparksoft Corporation",
+        "role": "Quality Engineer (Automation Tester)",
+        "link": "https://job-boards.greenhouse.io/sparksoftcorporation/jobs/5248105007",
+        "location": "Remote/Onsite if local to Maryland"
+      },
+      {
+        "company": "Starfish",
+        "role": "AEDC Software Analyst (Arnold AFB)",
+        "link": "https://starfish.wd501.myworkdayjobs.com/careers/job/Arnold-AFB/AEDC-Software-Analyst--Arnold-AFB-_R1948",
+        "location": "Arnold AFB"
+      },
+      {
+        "company": "Usbank",
+        "role": "Data Scientist",
+        "link": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Data-Scientist_2026-0026449",
+        "location": "4 Locations"
+      },
+      {
+        "company": "Wellmark, inc.",
+        "role": "Security Analyst Internship",
+        "link": "https://jobs.smartrecruiters.com/WellmarkInc/744000152694203",
+        "location": "Des Moines, IA, United States"
+      },
+      {
+        "company": "Wellmark, inc.",
+        "role": "Software Engineer Internship – Metadata Enablement Team",
+        "link": "https://jobs.smartrecruiters.com/WellmarkInc/744000152679699",
+        "location": "Des Moines, IA, United States"
+      }
+    ]
+  }
+]
