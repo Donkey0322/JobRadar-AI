@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "batches/yt817dndkt92u7h91viakp3jwmghgkhvjof0",
+    "submittedAt": "2026-09-30T22:37:59.034Z",
+    "jobs": [
+      {
+        "company": "Patch My PC",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.lever.co/patchmypc/e2bbd0a9-5810-4cf0-bb71-3fd2e1125341/apply",
+        "location": "Castle Rock, CO"
+      },
+      {
+        "company": "SOTI",
+        "role": "Software Developer Intern",
+        "link": "https://soti.wd3.myworkdayjobs.com/Careers/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551",
+        "location": "Mississauga, ON, Canada"
+      },
+      {
+        "company": "Rivian",
+        "role": "Engineering Intern Co-op - Machine Learning Hardware",
+        "link": "https://careers.rivian.com/jobs/33820?icims=1",
+        "location": "Palo Alto, CA"
+      }
+    ]
+  }
+]
