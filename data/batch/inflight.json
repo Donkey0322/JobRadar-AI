@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "batches/sgoq6rexpbcnix6jwl1y31litl8uik39z06b",
+    "submittedAt": "2026-09-30T01:43:18.207Z",
+    "jobs": [
+      {
+        "company": "Bah",
+        "role": "Salesforce Platform Engineer, Mid",
+        "link": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/Salesforce-Platform-Engineer--Mid_R0250615",
+        "location": "McLean, VA"
+      },
+      {
+        "company": "Zoox",
+        "role": "Software Engineer - Embedded Linux Operating Systems",
+        "link": "https://jobs.lever.co/zoox/63307a27-f2b1-43dc-8e78-a2e09d0eba2b",
+        "location": "Foster City, CA"
+      },
+      {
+        "company": "Enova",
+        "role": "Software Engineer Intern",
+        "link": "https://job-boards.greenhouse.io/enova/jobs/8239619",
+        "location": "Chicago, IL"
+      },
+      {
+        "company": "Westinghouse Electric Company",
+        "role": "Software Developer Intern - Tools & Apps",
+        "link": "https://careers.westinghousenuclear.com/job/Warrendale-Summer-Intern-Tools-&-Apps-OR/1434869300/?ats=successfactors",
+        "location": "Warrendale, PA"
+      },
+      {
+        "company": "Honeywell",
+        "role": "Software Engineering Co-op",
+        "link": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957",
+        "location": "United States"
+      },
+      {
+        "company": "L3Harris Technologies",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.l3harris.com/job/Sunrise-Software-Engineering-Intern-FL-33323/1435085400/?ats=successfactors",
+        "location": "Sunrise, FL"
+      }
+    ]
+  }
+]
