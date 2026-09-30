@@ -91,8 +91,8 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,343 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,319 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,204 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 10,280 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,205 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 10,279 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,258 opportunities
 
 ## The List 🚴‍♂️
@@ -567,6 +567,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Systems Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fulton, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-FULTON-8170--8170-Maple-Lawn-Blvd--MAPLE-LAWN-Ste-190-200--300/Systems-Engineer-I--Onsite-_01876828"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">BAE Systems</td>
       <td width="420" align="left" valign="top">Systems Verification Engineer I<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hill AFB, UT</td>
@@ -769,23 +776,16 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/intuitive/744000152472854"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">L3harris</td>
-      <td width="420" align="left" valign="top">Associate, Software Engineer Engineering|New, Grads Yorba Linda, CA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Yorba Linda, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/yorba-linda/associate-software-engineer/4832/101318759936"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,204 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,205 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (18,538)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (18,537)</b></summary>
 
   <br />
 
-  <h3>Mid Level (10,280)</h3>
+  <h3>Mid Level (10,279)</h3>
 
 <table width="100%">
   <thead>
@@ -1010,7 +1010,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 10,280 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 10,279 opportunities in this section.</sub></p>
 
   <h3>Senior Level (8,258)</h3>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-09-30T01:48:27.356Z</code>
+      🕒 Last updated <code>2026-09-30T05:32:05.025Z</code>
     </span>
   </p>
 </div>
