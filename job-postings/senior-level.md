@@ -14,10 +14,66 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Cigna</td>
+      <td width="420" align="left" valign="top">Software Engineering Advisor- Hybrid</td>
+      <td width="180" align="left" valign="top">Bloomfield, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Software-Engineering-Advisor--Hybrid_26012237"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Citi</td>
+      <td width="420" align="left" valign="top">Microservices Digital Software Engineer (Citi Retail Services)</td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.citi.com/job/irving/microservices-digital-software-engineer-citi-retail-services/287/101394331088"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Dxctechnology</td>
       <td width="420" align="left" valign="top">Sr Analyst I Software Engineering</td>
       <td width="180" align="left" valign="top">Chicago, IL</td>
       <td width="120" align="left" valign="top"><a href="https://dxctechnology.wd1.myworkdayjobs.com/dxcjobs/job/USA---IL---CHICAGO/Sr-Analyst-I-Software-Engineering_51589918"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Google" src="../assets/featured-badges/google.svg" /></td>
+      <td width="420" align="left" valign="top">Agentic Data Cloud Customer Engineer, Startups, Google Cloud</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/97003042783535814-agentic-data-cloud-customer-engineer-startups-google-cloud?sort_by=date&amp;page=2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">DeepMind</td>
+      <td width="420" align="left" valign="top">Robotics Platform Software Engineer, DeepMind</td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/101314227876045510-robotics-platform-software-engineer-deepmind?sort_by=date&amp;page=4"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Philips</td>
+      <td width="420" align="left" valign="top">Global Systems Engineering Leader, SRC</td>
+      <td width="180" align="left" valign="top">Murrysville, Pennsylvania</td>
+      <td width="120" align="left" valign="top"><a href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Global-Systems-Engineering-Leader--SRC_590956-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Searchcareers.caci.com</td>
+      <td width="420" align="left" valign="top">Power Platform &amp; Copilot Studio Developer</td>
+      <td width="180" align="left" valign="top">Ashburn, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153762592?domain=caci.com&amp;8fold_id=1443153762592"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Caci</td>
+      <td width="420" align="left" valign="top">Power Platform &amp; Copilot Studio Developer</td>
+      <td width="180" align="left" valign="top">Ashburn, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Power-Platform---Copilot-Studio-Developer_332901"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 1</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Capitalone</td>
+      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Richmond, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Full-stack-Engineer-4_R1002500-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -2057,66 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/101318746576"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318746496 09/29/2026 Full-stack Engineer 4 Richmond, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richmond, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4/1732/101318746496"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318746320 09/29/2026 Full-stack Engineer 4 (Claude, Node JS, Typescript, Python) New York, NY<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-claude-node-js-typescript-python/1732/101318746320"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318746240 09/29/2026 Full-stack Engineer 5 McLean, VA</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-5/1732/101318746240"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318746032 09/29/2026 Data Engineer 5 Wilmington, DE</td>
-      <td width="180" align="left" valign="top">Wilmington, DE</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/wilmington/data-engineer-5/1732/101318746032"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318745984 09/29/2026 Full-stack Engineer 4, Agentic Orchestration New York, NY<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/new-york/full-stack-engineer-4-agentic-orchestration/1732/101318745984"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318745952 09/29/2026 Full-stack Engineer 4, Agentic Technology McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4-agentic-technology/1732/101318745952"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318745904 09/29/2026 Machine Learning Engineer 4 (IC) San Jose, CA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/san-jose/machine-learning-engineer-4-ic/1732/101318745904"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">101318745808 09/29/2026 Data Engineer 4 McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/data-engineer-4/1732/101318745808"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 8,447 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 8,455 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-01T13:16:41.036Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-01T13:23:47.839Z</code></sub>
