@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "batches/acprdzd790j7l3fa8mjm8ft8j8fplzvhrdgp",
+    "submittedAt": "2026-10-01T04:08:10.463Z",
+    "jobs": [
+      {
+        "company": "Rivian",
+        "role": "Software Engineer Intern Co-op - Applied AI 🎓",
+        "link": "https://careers.rivian.com/jobs/33984?icims=1",
+        "location": "Palo Alto, CA"
+      },
+      {
+        "company": "Rivian",
+        "role": "Engineer Intern Co-op - ML Compilers 🎓",
+        "link": "https://careers.rivian.com/jobs/33829?icims=1",
+        "location": "Palo Alto, CA"
+      }
+    ]
+  }
+]
