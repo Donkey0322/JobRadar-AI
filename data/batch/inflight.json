@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "batches/bne38siz6nhv25f01eg69z18k7yi9lktw557",
+    "submittedAt": "2026-10-01T01:32:43.200Z",
+    "jobs": [
+      {
+        "company": "Electronic Arts",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216263",
+        "location": "Orlando, FL"
+      },
+      {
+        "company": "GenScript",
+        "role": "AI Intern – Enterprise Agent Development 🎓",
+        "link": "https://job-boards.greenhouse.io/genscript/jobs/5253581007",
+        "location": "Piscataway, NJ"
+      },
+      {
+        "company": "Clay",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa/application?embed=true",
+        "location": "NYC"
+      }
+    ]
+  }
+]
