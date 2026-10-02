@@ -93,7 +93,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,411 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,305 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,694 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,585 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,587 opportunities
 
 ## The List 🚴‍♂️
 
@@ -781,7 +781,7 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,305 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (19,279)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (19,281)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 10,694 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,585)</h3>
+  <h3>Senior Level (8,587)</h3>
 
 <table width="100%">
   <thead>
@@ -1025,6 +1025,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Marqeta</td>
+      <td width="420" align="left" valign="top">Assistant General Counsel, Corporate</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/marqeta-inc/e0948ad4-4957-47d1-a903-4f7eae10a8ce"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="./assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer, Systems</td>
+      <td width="180" align="left" valign="top">Remote</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1104959738740874"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Regional Automation Engineer</td>
@@ -1221,23 +1235,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---CO-Aurora/Systems-Engineer---TS-SCI-w-Poly_R186822"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Peraton</td>
-      <td width="420" align="left" valign="top">Information Security Systems Engineer (ISSE)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chantilly, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-peraton.icims.com/jobs/171594/information-security-systems-engineer-%28isse%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Quality Engineer onsite Woburn, MA<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Woburn, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB1--235-Presidential-Way--SPENCER-BLDG/Software-Quality-Engineer-onsite-Woburn--MA_01879419"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,585 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,587 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T10:04:39.073Z</code>
+      🕒 Last updated <code>2026-10-02T10:11:44.298Z</code>
     </span>
   </p>
 </div>
