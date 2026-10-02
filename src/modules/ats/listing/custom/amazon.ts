@@ -44,7 +44,7 @@ const REQUEST = {
   body: JSON.stringify({
     size: 500,
     start: 0,
-    sort: { sortOrder: "DESCENDING", sortType: "CREATED_DATE" },
+    sort: { sortOrder: "DESCENDING", sortType: "UPDATED_DATE" },
   }),
 };
 
