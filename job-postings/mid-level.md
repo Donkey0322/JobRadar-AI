@@ -661,7 +661,7 @@
       <td width="180" align="left" valign="top">Coinbase</td>
       <td width="420" align="left" valign="top">Software Engineer, Backend - Payments Platform</td>
       <td width="180" align="left" valign="top">Remote - USA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.coinbase.com/careers/positions/8247397?gh_jid=8247397"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -1282,9 +1282,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Kla</td>
-      <td width="420" align="left" valign="top">Data Scientist - Palantir Developer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Data Scientist - Palantir Developer</td>
       <td width="180" align="left" valign="top">Ann Arbor, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://kla.wd1.myworkdayjobs.com/annarbor/job/Ann-Arbor-MI/Data-Scientist---Palantir-Developer_2638928"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1396,7 +1396,7 @@
       <td width="180" align="left" valign="top">Resmed</td>
       <td width="420" align="left" valign="top">Data Analyst, Supply Chain Performance &amp; Insights</td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/San-Diego-CA-United-States/Data-Analyst--Supply-Chain-Performance---Insights_JR_053807-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1431,7 +1431,7 @@
       <td width="180" align="left" valign="top">Thomsonreuters</td>
       <td width="420" align="left" valign="top">Software Engineer-1</td>
       <td width="180" align="left" valign="top">Eagan, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://thomsonreuters.wd5.myworkdayjobs.com/external_career_site/job/United-States-of-America-Eagan-Minnesota/Software-Engineer-1_JREQ203998"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1450,9 +1450,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="../assets/featured-badges/microsoft.svg" /></td>
-      <td width="420" align="left" valign="top">Critical Environment Industrial Control Systems Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Critical Environment Industrial Control Systems Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Charlotte, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556986820?domain=microsoft.com&amp;8fold_id=1970393556986820"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1655,7 +1655,7 @@
       <td width="180" align="left" valign="top">Mmc</td>
       <td width="420" align="left" valign="top">Market Data Analyst</td>
       <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://mmc.wd1.myworkdayjobs.com/MMC/job/Boston---High-St/Market-Data-Analyst_R_366827-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1886,7 +1886,7 @@
       <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineering Intern III, Fall 2026<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Hudson, New Hampshire</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/130697BR?ph_id=130697BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1940,9 +1940,9 @@
     </tr>
     <tr>
       <td width="180" align="left" valign="top">Cisco</td>
-      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Software Engineer</td>
       <td width="180" align="left" valign="top">Glendale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.cisco.com/global/en/job/2019448?ph_id=2019448"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -1963,7 +1963,7 @@
       <td width="180" align="left" valign="top">Baird</td>
       <td width="420" align="left" valign="top">Data &amp; Analytics Analyst</td>
       <td width="180" align="left" valign="top">Milwaukee, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Data---Analytics-Analyst_R20261094-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -2103,7 +2103,7 @@
       <td width="180" align="left" valign="top">Axon</td>
       <td width="420" align="left" valign="top">AI Research Scientist I</td>
       <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/axon/jobs/8003133003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T05:44:52.173Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T08:15:29.320Z</code></sub>

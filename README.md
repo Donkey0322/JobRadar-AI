@@ -137,7 +137,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">Waymo</td>
       <td width="420" align="left" valign="top">AI-driven ML Performance Engineering Intern - MS/PhD 🎓</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://careers.withwaymo.com/jobs?gh_jid=8248060"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -348,9 +348,9 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Microsoft" src="./assets/featured-badges/microsoft.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer- CoreAI<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="420" align="left" valign="top">Software Engineer- CoreAI<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://apply.careers.microsoft.com/careers/job/1970393556989020?domain=microsoft.com&amp;8fold_id=1970393556989020"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -696,7 +696,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">Medtronic</td>
       <td width="420" align="left" valign="top">Software Automation Test Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Mounds View, MN</td>
-      <td width="120" align="left" valign="top"><a href="https://medtronic.wd1.myworkdayjobs.com/medtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Software-Automation-Test-Engineer-I_R72211-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -745,7 +745,7 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="180" align="left" valign="top">Esri</td>
       <td width="420" align="left" valign="top">Software Development Engineer in Test I (SDET) – ArcGIS Enterprise </td>
       <td width="180" align="left" valign="top">Redlands, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://www.esri.com/careers/5250524007?gh_jid=5250524007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T05:44:52.173Z</code>
+      🕒 Last updated <code>2026-10-02T08:15:29.320Z</code>
     </span>
   </p>
 </div>
