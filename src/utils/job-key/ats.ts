@@ -60,8 +60,16 @@ function getWorkdayTenant(url: string): string | null {
   }
 }
 
+export function getAshbyJobId(url: URL): string | null {
+  const fromQuery = url.searchParams.get("ashby_jid");
+  if (fromQuery) return fromQuery;
+
+  // jobs.ashbyhq.com/{board}/{id}
+  return url.pathname.split("/")[2] || null;
+}
+
 export function getAshbyKey(url: URL): string | null {
-  return getPathSegmentKey(url, "ashby", 2);
+  return toATSKey("ashby", getAshbyJobId(url)?.toLowerCase());
 }
 
 export function getLeverKey(url: URL): string | null {

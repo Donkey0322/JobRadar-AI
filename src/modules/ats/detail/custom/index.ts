@@ -21,6 +21,8 @@ import { parseCustomCompanyIdentifier } from "@/modules/ats/listing/custom";
 import { logger } from "@/utils/logger";
 import { normalizeRawText } from "@/utils/string";
 
+const CLOSED_JD_PHRASES = ["not found", "no longer available"];
+
 const JD_KEYWORDS = [
   "minimum qualifications",
   "preferred qualifications",
@@ -136,8 +138,9 @@ export async function fetchCustomJD(
 
         const html = await res.text();
         const jd = extractFallbackJD(html);
+        const normalized = jd?.toLowerCase();
 
-        if (!jd || jd.toLowerCase().includes("not found")) {
+        if (!normalized || CLOSED_JD_PHRASES.some((phrase) => normalized.includes(phrase))) {
           return { jd: null, error: JD_FETCH_ERROR.noData() };
         }
 

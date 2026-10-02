@@ -11,6 +11,22 @@ describe("ATS URL hostname normalization", () => {
     expect(company.identifier).toBe("Superhuman%20Platform%20Inc");
   });
 
+  it("maps Skyscanner career pages to the Ashby board id", async () => {
+    const url = new URL(
+      "https://www.skyscanner.com/jobs/job/49b878de-f727-4164-b306-4a4bc1b1b701?ashby_jid=49b878de-f727-4164-b306-4a4bc1b1b701"
+    );
+
+    expect(ashbyFetcher.companyKeyFromUrl(url)).toBe("ashby:eb485598-6bf3-40a5-8560-d70150131305");
+
+    const company = await ashbyFetcher.formCompany(url);
+
+    expect(company.name).toBe("skyscanner");
+    expect(company.identifier).toBe("eb485598-6bf3-40a5-8560-d70150131305");
+    expect(company.page).toBe(
+      "https://api.ashbyhq.com/posting-api/job-board/eb485598-6bf3-40a5-8560-d70150131305"
+    );
+  });
+
   it("retains Greenhouse identifiers for www-prefixed override hosts", async () => {
     const company = await greenhouseFetcher.formCompany(new URL("https://www.mlb.com/careers"));
 

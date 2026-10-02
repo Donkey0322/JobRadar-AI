@@ -182,6 +182,14 @@ describe("getAshbyKey", () => {
     expect(result).toBe(expected);
   });
 
+  it("prefers ashby_jid over the pathname", () => {
+    const url = new URL(
+      "https://www.skyscanner.com/jobs/job/49b878de-f727-4164-b306-4a4bc1b1b701?ashby_jid=49b878de-f727-4164-b306-4a4bc1b1b701"
+    );
+
+    expect(getAshbyKey(url)).toBe("ashby:49b878de-f727-4164-b306-4a4bc1b1b701");
+  });
+
   it("returns null when id segment does not exist", () => {
     // Arrange
     const url = new URL("https://jobs.ashbyhq.com/acme");

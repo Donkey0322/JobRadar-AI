@@ -14,8 +14,15 @@ import { logger } from "@/utils/logger";
 import { capitalize } from "@/utils/string";
 import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
-const identifierMap: Record<string, string> = {
-  "superhuman.com": "Superhuman%20Platform%20Inc",
+const identifierMap: Record<string, { identifier: string; name: string }> = {
+  "superhuman.com": {
+    identifier: "Superhuman%20Platform%20Inc",
+    name: "Superhuman%20Platform%20Inc",
+  },
+  "skyscanner.com": {
+    identifier: "eb485598-6bf3-40a5-8560-d70150131305",
+    name: "skyscanner",
+  },
 };
 
 const ASHBY_HOSTS = new Set(["jobs.ashbyhq.com", "job-boards.ashbyhq.com"]);
@@ -24,9 +31,9 @@ function isAshbyJobBoardHost(host: string) {
   return host === "jobs.ashbyhq.com" || host === "job-boards.ashbyhq.com" || ASHBY_HOSTS.has(host);
 }
 
-function buildCompany(url: URL, identifier: string): Company {
+function buildCompany(url: URL, identifier: string, name = identifier): Company {
   return {
-    name: identifier,
+    name,
     ats: "ashby",
     identifier,
     domain: url.origin,
@@ -126,6 +133,11 @@ export class AshbyFetcher extends ATSFetcher<AshbyJob> {
   }
 
   async formCompany(url: URL): Promise<Company> {
+    const override = identifierMap[getHostnameWithoutWww(url)];
+    if (override) {
+      return buildCompany(url, override.identifier, override.name);
+    }
+
     const syncIdentifier = this.getSyncIdentifier(url);
 
     if (syncIdentifier) {
@@ -151,7 +163,7 @@ export class AshbyFetcher extends ATSFetcher<AshbyJob> {
 
     // Case 0: known manual overrides
     if (identifierMap[host]) {
-      return identifierMap[host];
+      return identifierMap[host].identifier;
     }
 
     // Case 1: Ashby job board hosts
