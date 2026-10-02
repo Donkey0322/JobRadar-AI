@@ -14,6 +14,7 @@ import {
 } from "../text";
 
 import { fetchAppleJD } from "./apple";
+import { fetchMetaJD } from "./meta";
 import { fetchNetflixJD } from "./netflix";
 
 import { parseCustomCompanyIdentifier } from "@/modules/ats/listing/custom";
@@ -109,10 +110,13 @@ export async function fetchCustomJD(
       case "apple": {
         return await fetchAppleJD(url, signal);
       }
+      case "meta": {
+        return await fetchMetaJD(url, signal);
+      }
       case "netflix": {
         return await fetchNetflixJD(url, signal);
       }
-      // TODO: meta, google, amazon
+      // TODO: google, amazon
       default: {
         const res = await fetch(url, {
           signal,

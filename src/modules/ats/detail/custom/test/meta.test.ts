@@ -57,4 +57,28 @@ describe("fetchMetaJD", () => {
     expect(result.jd).toContain("- Experience with distributed systems");
     expect(result.jd).toContain("US: $183,997/year - $257,000/year");
   });
+
+  it("loads a session from the careers page when the job page is not ready", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (input: string) => {
+        const target = String(input);
+
+        if (target.includes("/api/graphql")) {
+          return new Response(JSON.stringify(GRAPHQL), { status: 200 });
+        }
+
+        if (target.includes("/profile/job_details/")) {
+          return new Response("not found", { status: 404 });
+        }
+
+        return new Response(PAGE_HTML, { status: 200 });
+      })
+    );
+
+    const result = await fetchCustomJD(JOB_URL);
+
+    expect(result.error).toEqual(JD_FETCH_OK);
+    expect(result.jd).toContain("Build integrity systems.");
+  });
 });
