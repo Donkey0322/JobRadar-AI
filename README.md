@@ -93,7 +93,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,411 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,305 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,695 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,587 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,589 opportunities
 
 ## The List 🚴‍♂️
 
@@ -781,7 +781,7 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,305 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (19,282)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (19,284)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 10,695 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,587)</h3>
+  <h3>Senior Level (8,589)</h3>
 
 <table width="100%">
   <thead>
@@ -1025,6 +1025,27 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Duolingo</td>
+      <td width="420" align="left" valign="top">Ad Sales Lead, Programmatic</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.duolingo.com/jobs/8851677002?gh_jid=8851677002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Genius AI</td>
+      <td width="420" align="left" valign="top">Design Systems Designer</td>
+      <td width="180" align="left" valign="top">New York, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/geniusai/e6bb10bc-6c62-4688-a1b0-b8643cf26052?utm_source=jobs.bvp.com"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Stoke</td>
+      <td width="420" align="left" valign="top">Avionics - Stage Integration &amp; Test Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Kent, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6119783004"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Marqeta</td>
       <td width="420" align="left" valign="top">Assistant General Counsel, Corporate</td>
@@ -1214,30 +1235,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1736395254252473"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="NVIDIA" src="./assets/featured-badges/nvidia.svg" /></td>
-      <td width="420" align="left" valign="top">AP Systems and Automation Analyst</td>
-      <td width="180" align="left" valign="top">Santa Clara, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AP-Systems-and-Automation-Analyst_JR2026679"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Parsons</td>
-      <td width="420" align="left" valign="top">Software Engineer, Sr<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Centreville, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---VA-Centreville/Software-Engineer--Sr_R186828"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Systems Engineer - TS/SCI w/Poly<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aurora, CO</td>
-      <td width="120" align="left" valign="top"><a href="https://parsons.wd5.myworkdayjobs.com/search/job/US---CO-Aurora/Systems-Engineer---TS-SCI-w-Poly_R186822"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,587 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,589 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T10:50:20.919Z</code>
+      🕒 Last updated <code>2026-10-02T11:17:48.823Z</code>
     </span>
   </p>
 </div>
