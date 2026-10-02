@@ -91,9 +91,9 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,414 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,411 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,305 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 10,696 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,590 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,304 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 10,690 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,588 opportunities
 
 ## The List 🚴‍♂️
 
@@ -778,14 +778,14 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,305 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,304 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (19,286)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (19,278)</b></summary>
 
   <br />
 
-  <h3>Mid Level (10,696)</h3>
+  <h3>Mid Level (10,690)</h3>
 
 <table width="100%">
   <thead>
@@ -1010,9 +1010,9 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 10,696 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 10,690 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,590)</h3>
+  <h3>Senior Level (8,588)</h3>
 
 <table width="100%">
   <thead>
@@ -1237,7 +1237,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,590 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,588 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T11:22:13.383Z</code>
+      🕒 Last updated <code>2026-10-02T11:47:43.393Z</code>
     </span>
   </p>
 </div>
