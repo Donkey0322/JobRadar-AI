@@ -14,26 +14,27 @@ import { logger } from "@/utils/logger";
 import { getHostnameWithoutWww, getSubdomainIdentifier } from "@/utils/url";
 
 const identifierMap: Record<string, string> = {
-  "mlb.com": "majorleaguebaseball",
-  "digitalocean.com": "digitalocean98",
-  "dltrading.io": "confidentialsportstradingfirm",
-  "pinterestcareers.com": "pinterest",
-  "rentptr.com": "premiertruckrental",
-  "zipline.com": "flyzipline",
-  "squarepoint-capital.com": "squarepointcapital",
-  "corporate.trustpilot.com": "trustpilot",
-  "c3.ai": "c3iot",
-  "solarwinds.com": "solarwinds",
   "8am.com": "affinipay1",
-  "cra.com": "charlesriveranalytics90",
-  "precisely.com": "preciselyusjobs",
-  "tower-research.com": "towerresearchcapital",
+  "airbnb.com": "airbnb",
+  "boomi.com": "boomilp",
+  "c3.ai": "c3iot",
   "careers.airbnb.com": "airbnb",
   "careers.dat.com": "datsolutions",
-  "boomi.com": "boomilp",
-  "airbnb.com": "airbnb",
-  "verition.com": "veritiongroupllc",
+  "corporate.trustpilot.com": "trustpilot",
+  "cra.com": "charlesriveranalytics90",
+  "digitalocean.com": "digitalocean98",
+  "dltrading.io": "confidentialsportstradingfirm",
+  "duolingo.com": "duolingo",
   "getfiber.ai": "clerkie",
+  "mlb.com": "majorleaguebaseball",
+  "pinterestcareers.com": "pinterest",
+  "precisely.com": "preciselyusjobs",
+  "rentptr.com": "premiertruckrental",
+  "solarwinds.com": "solarwinds",
+  "squarepoint-capital.com": "squarepointcapital",
+  "tower-research.com": "towerresearchcapital",
+  "verition.com": "veritiongroupllc",
+  "zipline.com": "flyzipline",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
@@ -300,7 +301,9 @@ export class GreenhouseFetcher extends ATSFetcher<GreenhouseJob> {
       const match = html.match(
         /(?:boards|job-boards)(?:\.[a-z]+)?\.greenhouse\.io\/embed\/job_board\/(?:js)?\?for=([^"'&\s]+)/i
       );
-      return match?.[1] ?? null;
+      if (match?.[1]) return match[1];
+
+      return html.match(/boards-api\.greenhouse\.io\/v1\/boards\/([^/"'?#\s]+)/i)?.[1] ?? null;
     } catch {
       return null;
     }

@@ -33,6 +33,17 @@ describe("ATS URL hostname normalization", () => {
     expect(company.identifier).toBe("majorleaguebaseball");
   });
 
+  it("maps Duolingo career pages to the duolingo Greenhouse board", async () => {
+    const url = new URL("https://careers.duolingo.com/jobs/8851677002?gh_jid=8851677002");
+
+    expect(greenhouseFetcher.companyKeyFromUrl(url)).toBe("greenhouse:duolingo");
+
+    const company = await greenhouseFetcher.formCompany(url);
+
+    expect(company.identifier).toBe("duolingo");
+    expect(company.page).toBe("https://boards-api.greenhouse.io/v1/boards/duolingo/jobs");
+  });
+
   it("maps career subdomains to hardcoded Greenhouse slugs without scraping", async () => {
     const url = new URL("https://jobs.solarwinds.com/job-detail/?gh_jid=4716665005");
 

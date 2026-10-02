@@ -6682,6 +6682,7 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/IMS-Mainframe-Systems-Programmer_JR-0000086783",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Oracle-Site-Reliability-Engineer_JR-0000080274",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Product-Engineer---M365-Unified-Collaboration---Gen-AI_JR-0000093097-1",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Product-Engineer---M365-Unified-Collaboration---Gen-AI_JR-0000093099-1",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Knutsford-Radbroke-Hall/Product-Owner---Salesforce-Platform-engineer_JR-0000119275-1",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Mumbai-Nirlon-Knowledge-Park-BX-9th--11-12-floor/Data-Engineer---Analyst_JR-0000110756",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/New-York-745-7th-Avenue/Web-Portal-Developer_JR-0000133464",
@@ -8502,7 +8503,8 @@
       "https://job-boards.greenhouse.io/boxinc/jobs/8096813",
       "https://job-boards.greenhouse.io/boxinc/jobs/8109677",
       "https://job-boards.greenhouse.io/boxinc/jobs/8163987",
-      "https://job-boards.greenhouse.io/boxinc/jobs/8173685"
+      "https://job-boards.greenhouse.io/boxinc/jobs/8173685",
+      "https://job-boards.greenhouse.io/boxinc/jobs/8238596"
     ]
   },
   {
@@ -10562,14 +10564,6 @@
     ]
   },
   {
-    "name": "careers",
-    "ats": "greenhouse",
-    "identifier": "careers",
-    "domain": "https://careers.duolingo.com",
-    "page": "https://boards-api.greenhouse.io/v1/boards/careers/jobs",
-    "urls": []
-  },
-  {
     "name": "Careers at Atlantic Health System",
     "ats": "oraclecloud",
     "identifier": "erqh.fa.us2.oraclecloud.com",
@@ -10647,7 +10641,8 @@
       "https://careers.adobe.com/us/en/job/R172083?ph_id=R172083",
       "https://careers.adobe.com/us/en/job/R172085?ph_id=R172085",
       "https://careers.adobe.com/us/en/job/R172109?ph_id=R172109",
-      "https://careers.adobe.com/us/en/job/R172248?ph_id=R172248"
+      "https://careers.adobe.com/us/en/job/R172248?ph_id=R172248",
+      "https://careers.adobe.com/us/en/job/R172296?ph_id=R172296"
     ]
   },
   {
@@ -15818,6 +15813,16 @@
     ]
   },
   {
+    "name": "duolingo",
+    "ats": "greenhouse",
+    "identifier": "duolingo",
+    "domain": "https://careers.duolingo.com",
+    "page": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs",
+    "urls": [
+      "https://careers.duolingo.com/jobs/8851677002?gh_jid=8851677002"
+    ]
+  },
+  {
     "name": "duolingounirecruitment",
     "ats": "greenhouse",
     "identifier": "duolingounirecruitment",
@@ -19227,6 +19232,16 @@
     ]
   },
   {
+    "name": "geniusai",
+    "ats": "ashby",
+    "identifier": "geniusai",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/geniusai",
+    "urls": [
+      "https://jobs.ashbyhq.com/geniusai/e6bb10bc-6c62-4688-a1b0-b8643cf26052?utm_source=jobs.bvp.com"
+    ]
+  },
+  {
     "name": "genpt",
     "ats": "workday",
     "identifier": "genpt-careers",
@@ -19521,14 +19536,6 @@
       "https://globusmedical.wd5.myworkdayjobs.com/gmed_careers/job/California---Redwood-City/Sr-Software-Engineer--Mobile-Applications-_JR105524",
       "https://globusmedical.wd5.myworkdayjobs.com/gmed_careers/job/Methuen-MA/Software-Engineer_JR107534"
     ]
-  },
-  {
-    "name": "glossgenius",
-    "ats": "greenhouse",
-    "identifier": "glossgenius",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/glossgenius/jobs",
-    "urls": []
   },
   {
     "name": "GM Financial United States",
@@ -23336,6 +23343,7 @@
       "https://jobs.baesystems.com/global/en/job/130658BR?ph_id=130658BR",
       "https://jobs.baesystems.com/global/en/job/130747BR?ph_id=130747BR",
       "https://jobs.baesystems.com/global/en/job/130748BR?ph_id=130748BR",
+      "https://jobs.baesystems.com/global/en/job/130770BR?ph_id=130770BR",
       "https://jobs.baesystems.com/global/en/job/130787BR?ph_id=130787BR",
       "https://jobs.baesystems.com/global/en/job/130811BR?ph_id=130811BR"
     ]
@@ -31927,6 +31935,7 @@
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Junior-Power-Apps-Developer_763454WD",
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lviv/Software-Engineer_753859WD",
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/AI-Full-Stack-Developer-Junior---Milano--IFS-_759946WD",
+      "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Software-Engineer-Intern---Milano--DIG-_765582WD",
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-data-analyst---Deals--M-A----Janvier-2027---F-H_762891WD",
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Analyst---Financial-Crime-team_755532WD-2",
       "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Analyst-Intern---Technology-Consulting_765323WD",
@@ -34613,6 +34622,7 @@
       "https://www.schwabjobs.com/job/austin/cloud-engineer/33727/100948111856",
       "https://www.schwabjobs.com/job/austin/data-engineer/33727/100738780800",
       "https://www.schwabjobs.com/job/austin/data-engineer/33727/93425305520",
+      "https://www.schwabjobs.com/job/austin/data-engineer/33727/95593502240",
       "https://www.schwabjobs.com/job/austin/data-engineer/33727/99231496432",
       "https://www.schwabjobs.com/job/austin/full-stack-developer/33727/100815725904",
       "https://www.schwabjobs.com/job/austin/full-stack-developer/33727/97434893616",
@@ -35838,6 +35848,7 @@
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBristolThe-Hub/Engineer---Nuclear-System-Engineer_R-158706",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBristolThe-Hub/Offshore-Renewables-Software-Engineer_R-160232",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBBristolThe-Hub/Systems-Engineer_R-165213",
+      "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBEpsomWoodcote-Grove/Junior-Full-Stack-Engineer_R-165326",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBGlasgow2-Atlantic-Square-York-Street/Building-Energy-Management-System-Engineer_R-161943",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/GBLondonNova-North/Data-Analyst_R-162634-1",
       "https://slihrms.wd3.myworkdayjobs.com/careers/job/INBangaloreRMZ-Galleria/Automation-Engineer_R-162284",
@@ -36187,6 +36198,7 @@
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6186536004",
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6186540004",
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6191600004",
+      "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6208573004",
       "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6208608004"
     ]
   },
@@ -37249,7 +37261,8 @@
     "domain": "https://job-boards.greenhouse.io",
     "page": "https://boards-api.greenhouse.io/v1/boards/stokespacetechnologies/jobs",
     "urls": [
-      "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/5555819004"
+      "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/5555819004",
+      "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6119783004"
     ]
   },
   {
