@@ -202,6 +202,38 @@ export class IcimsFetcher extends ATSFetcher<IcimsJob> {
     };
   }
 
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<IcimsJob[] | null> {
+    const jobs: IcimsJob[] = [];
+
+    try {
+      const searchPage = await resolveSearchPage(company, signal);
+
+      for (let page = 0; page < MAX_PAGES; page++) {
+        const pageUrl = new URL(searchPage);
+        pageUrl.searchParams.set("pr", String(page));
+
+        const html = await fetchHtml(pageUrl.toString(), signal);
+        if (!html) {
+          return jobs.length > 0 ? jobs : null;
+        }
+
+        const rawJobs = this.getJobsFromResponse({ html, pageUrl });
+        if (rawJobs.length === 0) {
+          break;
+        }
+
+        jobs.push(...rawJobs);
+      }
+
+      return jobs;
+    } catch {
+      return jobs.length > 0 ? jobs : null;
+    }
+  }
+
   async fetch(
     company: Company,
     knownKeys: ReadonlySet<string>,

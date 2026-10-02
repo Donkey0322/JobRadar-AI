@@ -12,8 +12,19 @@ import { classifyATS } from "@/modules/ats/core/classifier";
 import { isTarget } from "@/modules/ats/core/filter";
 import { HttpStatusCode, isRetryableJDFetch, NETWORK_ERROR_CODE } from "@/modules/ats/detail/fetch";
 import { getRawJD } from "@/modules/job-analysis";
-import { buildCompanyList } from "@/modules/job-discovery/company";
-import { loadOpportunities, loadUrls, saveOpportunities, saveUrls } from "@/utils/data";
+import {
+  buildCompanyList,
+  getCompanyKey,
+  groupUrlsByCompanyKey,
+} from "@/modules/job-discovery/company";
+import { checkUrlsAgainstListing } from "@/modules/job-discovery/listing-liveness";
+import {
+  loadCompanies,
+  loadOpportunities,
+  loadUrls,
+  saveOpportunities,
+  saveUrls,
+} from "@/utils/data";
 import { renderProgress, startProgress } from "@/utils/dev";
 import { groupUrlsByKey } from "@/utils/job-key";
 import { logger } from "@/utils/logger";
@@ -21,17 +32,22 @@ import { logger } from "@/utils/logger";
 // Node's fetch adds a `terminated` listener per redirect; Workday chains exceed the default of 10.
 setMaxListeners(32);
 
-const OTHER_CONCURRENCY = 6;
-const WORKDAY_CONCURRENCY = 2;
+const LISTING_OTHER_CONCURRENCY = 12;
+const LISTING_WORKDAY_CONCURRENCY = 6;
+const JD_OTHER_CONCURRENCY = 8;
+const JD_WORKDAY_CONCURRENCY = 3;
 const WORKDAY_HOST_CONCURRENCY = 1;
-const WORKDAY_GAP_MS = 300;
+const WORKDAY_JD_GAP_MS = 100;
 const MAX_RETRIES = 6;
 const INITIAL_DELAY_MS = 2000;
 const MAX_DELAY_MS = 60_000;
 const FETCH_TIMEOUT_MS = 5 * 60 * 1000;
+const LISTING_TIMEOUT_MS = 2 * 60 * 1000;
 
-const otherLimit = pLimit(OTHER_CONCURRENCY);
-const workdayLimit = pLimit(WORKDAY_CONCURRENCY);
+const listingOtherLimit = pLimit(LISTING_OTHER_CONCURRENCY);
+const listingWorkdayLimit = pLimit(LISTING_WORKDAY_CONCURRENCY);
+const jdOtherLimit = pLimit(JD_OTHER_CONCURRENCY);
+const jdWorkdayLimit = pLimit(JD_WORKDAY_CONCURRENCY);
 const workdayHostLimits = new Map<string, ReturnType<typeof pLimit>>();
 const hostCooldownUntil = new Map<string, number>();
 
@@ -78,17 +94,20 @@ async function getRawJDWithRetry(url: string, host: string): Promise<JDFetchResu
   return result;
 }
 
-function scheduleUrl<T>(url: string, fn: () => Promise<T>): Promise<T> {
+function schedule<T>(url: string, kind: "listing" | "jd", fn: () => Promise<T>): Promise<T> {
   if (classifyATS(new URL(url)) !== "workday") {
-    return otherLimit(fn);
+    return (kind === "listing" ? listingOtherLimit : jdOtherLimit)(fn);
   }
 
   const host = new URL(url).hostname;
+  const pool = kind === "listing" ? listingWorkdayLimit : jdWorkdayLimit;
   return getWorkdayHostLimit(host)(() =>
-    workdayLimit(async () => {
+    pool(async () => {
       await waitForHostCooldown(host);
       const result = await fn();
-      await sleep(WORKDAY_GAP_MS);
+      if (kind === "jd") {
+        await sleep(WORKDAY_JD_GAP_MS);
+      }
       return result;
     })
   );
@@ -110,27 +129,58 @@ async function main() {
     }
   }
 
+  const urlsToCheck = urls.filter((url) => !untargetedOpportunities.has(url));
+  const companiesByKey = new Map(
+    (await loadCompanies()).map((company) => [getCompanyKey(company), company])
+  );
+  const groups = groupUrlsByCompanyKey(urlsToCheck);
+
   let completed = 0;
   let dropped = 0;
+  let listed = 0;
   let rateLimited = 0;
   let networkFailed = 0;
-  const total = urls.length;
+  const total = urlsToCheck.length;
+  const listedUrls: string[] = [];
+  const unverifiedUrls: string[] = [];
 
   startProgress(total);
 
-  const validUrls = (
+  await Promise.all(
+    Array.from(groups.entries()).map(([key, groupUrls]) =>
+      schedule(groupUrls[0], "listing", async () => {
+        const company = companiesByKey.get(key);
+        const result = company?.page
+          ? await checkUrlsAgainstListing(
+              company,
+              groupUrls,
+              AbortSignal.timeout(LISTING_TIMEOUT_MS)
+            )
+          : { listed: [], unverified: groupUrls };
+
+        listedUrls.push(...result.listed);
+        unverifiedUrls.push(...result.unverified);
+        listed += result.listed.length;
+        completed += result.listed.length;
+        renderProgress(completed, total);
+      })
+    )
+  );
+
+  console.log(
+    { listed, remaining: unverifiedUrls.length },
+    `${GREEN_CHECKMARK} Listing pass finished`
+  );
+
+  const verifiedFromJd = (
     await Promise.all(
-      urls.map((url) =>
-        scheduleUrl(url, async () => {
+      unverifiedUrls.map((url) =>
+        schedule(url, "jd", async () => {
           const host = new URL(url).hostname;
           const { error } = await getRawJDWithRetry(url, host);
 
           completed++;
           renderProgress(completed, total);
-
-          if (untargetedOpportunities.has(url)) {
-            return null;
-          }
 
           if (HttpStatusCode.isError(error.code)) {
             dropped++;
@@ -153,8 +203,10 @@ async function main() {
     )
   ).filter((url): url is string => url !== null);
 
+  const validUrls = [...listedUrls, ...verifiedFromJd];
+
   console.log(
-    { validUrls: validUrls.length, dropped, rateLimited, networkFailed },
+    { validUrls: validUrls.length, listed, dropped, rateLimited, networkFailed },
     `${GREEN_CHECKMARK} Successfully cleaned urls`
   );
 

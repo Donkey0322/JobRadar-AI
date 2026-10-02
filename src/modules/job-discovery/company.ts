@@ -51,7 +51,7 @@ async function resolveExistingCompany(
   }
 }
 
-function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
+export function groupUrlsByCompanyKey(urls: string[]): Map<string, string[]> {
   const groups = new Map<string, string[]>();
 
   for (const urlStr of urls) {

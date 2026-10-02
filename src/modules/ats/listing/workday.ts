@@ -14,6 +14,7 @@ import { capitalize } from "@/utils/string";
 
 const PAGE_SIZE = 20;
 const MAX_PAGES = 20;
+const MAX_LIST_PAGES = 80;
 
 const identifierMap = {
   talentmanagementsolution: "jonas",
@@ -141,22 +142,50 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
     };
   }
 
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<WorkdayJob[] | null> {
+    return this.paginateJobPostings(company, signal, {
+      recentOnly: false,
+      maxPages: MAX_LIST_PAGES,
+    });
+  }
+
   async fetch(
     company: Company,
     knownKeys: ReadonlySet<string>,
     signal: AbortSignal
   ): Promise<Job[]> {
+    const results = await this.paginateJobPostings(company, signal, {
+      recentOnly: true,
+      maxPages: MAX_PAGES,
+    });
+
+    if (!results) {
+      return [];
+    }
+
+    return results
+      .filter(
+        (job) => isTarget(job.title) && !this.isKnownJob(this.getJobLink(job, company), knownKeys)
+      )
+      .map((job) => this.normalizeJob(job, company));
+  }
+
+  private async paginateJobPostings(
+    company: Company,
+    signal: AbortSignal,
+    options: { recentOnly: boolean; maxPages: number }
+  ): Promise<WorkdayJob[] | null> {
+    const { recentOnly, maxPages } = options;
     let offset = 0;
-
     let page = 0;
-
     let hasMore = true;
-
     const results: WorkdayJob[] = [];
 
     try {
-      while (hasMore && page < MAX_PAGES) {
-        // already aborted
+      while (hasMore && page < maxPages) {
         if (signal.aborted) {
           logger.warn(
             {
@@ -165,35 +194,31 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
             "⚠️ Workday aborted before fetch"
           );
 
-          return [];
+          return recentOnly ? null : results.length > 0 ? results : null;
         }
 
         const res = await fetch(company.page, {
           method: "POST",
-
           headers: {
             "Content-Type": "application/json",
           },
-
           body: JSON.stringify({
             appliedFacets: {},
             limit: PAGE_SIZE,
             offset,
           }),
-
           signal,
         });
 
         if (!res.ok) {
           await appendErrorLog(`Workday: ${company.name} - ${res.status} - ${res.statusText}`);
-
-          return [];
+          if (!recentOnly && results.length > 0) {
+            return results;
+          }
+          return null;
         }
 
-        // JSON parse profiling
         const jsonStart = Date.now();
-
-        // parse JSON error handling
         let data;
         try {
           data = await res.json();
@@ -202,12 +227,13 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
             { company: company.name, url: company.page },
             `${RED_CROSS} Workday JSON parse error`
           );
-          return [];
+          if (!recentOnly && results.length > 0) {
+            return results;
+          }
+          return null;
         }
 
         const jsonDuration = Date.now() - jsonStart;
-
-        // detect huge JSON parse stalls
         if (jsonDuration > 5000) {
           logger.warn(
             {
@@ -221,24 +247,28 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
         }
 
         const rawJobs = this.getJobsFromResponse(data);
-
-        // empty page
         if (rawJobs.length === 0) {
           break;
         }
 
-        results.push(...rawJobs.filter((job) => !job.postedOn || job.postedOn === "Posted Today"));
+        if (recentOnly) {
+          results.push(
+            ...rawJobs.filter((job) => !job.postedOn || job.postedOn === "Posted Today")
+          );
+        } else {
+          results.push(...rawJobs);
+        }
 
         offset += PAGE_SIZE;
         page++;
         hasMore =
           rawJobs.length === PAGE_SIZE &&
-          (!rawJobs[rawJobs.length - 1]?.postedOn ||
+          (!recentOnly ||
+            !rawJobs[rawJobs.length - 1]?.postedOn ||
             rawJobs[rawJobs.length - 1]?.postedOn === "Posted Today");
       }
 
-      // infinite pagination protection
-      if (page >= MAX_PAGES) {
+      if (page >= maxPages) {
         logger.warn(
           {
             company: company.name,
@@ -247,8 +277,9 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
           "⚠️ Workday hit MAX_PAGES limit"
         );
       }
+
+      return results;
     } catch (error) {
-      // timeout / abort
       if (
         error instanceof Error &&
         (error.name === "TimeoutError" || error.name === "AbortError")
@@ -261,19 +292,7 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
           "⚠️ Workday request aborted"
         );
 
-        return [];
-      }
-
-      if (error instanceof Error && error.message === "Workday JSON parse error") {
-        // logger.error(
-        //   {
-        //     company: company.name,
-        //     url: company.page,
-        //   },
-        //   "⚠️ Workday JSON parse error"
-        // );
-
-        return [];
+        return recentOnly ? null : results.length > 0 ? results : null;
       }
 
       logger.error(
@@ -285,16 +304,8 @@ export class WorkdayFetcher extends ATSFetcher<WorkdayJob> {
         `${RED_CROSS} Error fetching workday jobs`
       );
 
-      return [];
+      return recentOnly ? null : results.length > 0 ? results : null;
     }
-
-    const opportunities = results
-      .filter(
-        (job) => isTarget(job.title) && !this.isKnownJob(this.getJobLink(job, company), knownKeys)
-      )
-      .map((job) => this.normalizeJob(job, company));
-
-    return opportunities;
   }
 }
 

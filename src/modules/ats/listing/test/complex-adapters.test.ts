@@ -80,6 +80,41 @@ describe("complex ATS adapters", () => {
     });
   });
 
+  it("lists all Workday jobs rather than only posts from today", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "workday",
+      identifier: "acme-external",
+      domain: "https://acme.wd1.myworkdayjobs.com/en-US/external",
+      page: "https://acme.wd1.myworkdayjobs.com/wday/cxs/acme/external/jobs",
+      urls: [],
+    };
+    const today = Array.from({ length: 20 }, (_, index) => ({
+      title: `Software Engineer ${index}`,
+      postedOn: "Posted Today",
+      locationsText: "Remote",
+      externalPath: `/job/Engineer_R${1000 + index}`,
+    }));
+    const older = Array.from({ length: 5 }, (_, index) => ({
+      title: `Older Engineer ${index}`,
+      postedOn: "Posted 3 Days Ago",
+      locationsText: "Remote",
+      externalPath: `/job/Older_R${2000 + index}`,
+    }));
+
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: today }, company.page))
+      .mockResolvedValueOnce(jsonResponse({ jobPostings: older }, company.page));
+
+    const keys = await workdayFetcher.listJobKeys(company, AbortSignal.timeout(1000));
+
+    expect(keys?.size).toBe(25);
+    expect(keys?.has("workday:acme:R1000")).toBe(true);
+    expect(keys?.has("workday:acme:R2004")).toBe(true);
+    expect(mockFetch).toHaveBeenCalledTimes(2);
+    expect(mockFetch.mock.calls[0][1]).toMatchObject({ method: "POST" });
+  });
+
   it("parses iCIMS HTML without mutating the caller's key set", async () => {
     const company: Company = {
       name: "acme",

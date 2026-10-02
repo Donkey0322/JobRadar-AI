@@ -107,6 +107,38 @@ describe("ATSFetcher pilot adapters", () => {
     ]);
   });
 
+  it("lists Greenhouse job keys without discover filters", async () => {
+    const company: Company = {
+      name: "acme",
+      ats: "greenhouse",
+      identifier: "acme",
+      domain: "https://acme.example",
+      page: "https://boards-api.greenhouse.io/v1/boards/acme/jobs",
+      urls: [],
+    };
+
+    mockFetch.mockResolvedValueOnce(
+      jsonResponse({
+        jobs: [
+          {
+            title: "Software Engineer",
+            absolute_url: "https://boards.greenhouse.io/acme/jobs/1",
+            updated_at: new Date().toISOString(),
+          },
+          {
+            title: "Platform Engineer",
+            absolute_url: "https://boards.greenhouse.io/acme/jobs/2",
+            updated_at: new Date().toISOString(),
+          },
+        ],
+      })
+    );
+
+    await expect(
+      greenhouseFetcher.listJobKeys(company, AbortSignal.timeout(1000))
+    ).resolves.toEqual(new Set(["greenhouse:1", "greenhouse:2"]));
+  });
+
   it("keeps Eightfold company formation compatible with Apply fallback", async () => {
     mockFetch.mockResolvedValueOnce(
       jsonResponse({ message: "PCSX is not enabled for this user." })

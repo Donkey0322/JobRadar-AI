@@ -141,6 +141,53 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
     };
   }
 
+  protected async collectListingJobs(
+    company: Company,
+    signal: AbortSignal
+  ): Promise<EightfoldJob[] | null> {
+    const jobs: EightfoldJob[] = [];
+
+    try {
+      for (let page = 0; page < MAX_PAGES; page++) {
+        const start = page * PAGE_SIZE;
+        const url = new URL(company.page);
+        url.searchParams.set("query", "");
+        url.searchParams.set("location", "");
+        url.searchParams.set("start", String(start));
+        url.searchParams.set("sort_by", "timestamp");
+
+        const response = await fetch(url.toString(), {
+          signal,
+          headers: {
+            accept: "application/json, text/plain, */*",
+            "accept-language": "en-US,en;q=0.9",
+            referer: `${company.domain}/careers?start=${start}&sort_by=timestamp`,
+            "user-agent":
+              "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          },
+        });
+
+        if (!response.ok) {
+          return jobs.length > 0 ? jobs : null;
+        }
+
+        const rawJobs = this.getJobsFromResponse(await response.json());
+        if (rawJobs.length === 0) {
+          break;
+        }
+
+        jobs.push(...rawJobs);
+        if (rawJobs.length < PAGE_SIZE) {
+          break;
+        }
+      }
+
+      return jobs;
+    } catch {
+      return jobs.length > 0 ? jobs : null;
+    }
+  }
+
   async fetch(
     company: Company,
     knownKeys: ReadonlySet<string>,
