@@ -90,8 +90,8 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,414 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,411 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,304 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,412 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,303 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,690 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,588 opportunities
 
@@ -340,6 +340,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">StepStone Group</td>
+      <td width="420" align="left" valign="top">Junior Analyst - AI Solutions, R&amp;D &amp; Coding<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">La Jolla, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.stepstonegroup.com/current-opportunities/?gh_jid=8171272"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Graphcore</td>
       <td width="420" align="left" valign="top">Machine Learning and Data Science Engineering Intern</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -542,16 +549,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40681"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI R&amp;D Engineer Co-op</td>
-      <td width="180" align="left" valign="top">Sunnyvale, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40682"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,411 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,412 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -566,6 +566,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">StepStone Group</td>
+      <td width="420" align="left" valign="top">Junior Analyst - AI Solutions, Learning &amp; Development<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">La Jolla, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.stepstonegroup.com/current-opportunities/?gh_jid=8168381"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer - 2026 (US)</td>
@@ -769,16 +776,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/richardson/associate-software-engineer/4832/101400174128"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
-      <td width="420" align="left" valign="top">Computational Biologist (ML) Postdoctoral Researcher<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Livermore, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990015843956"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,304 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,303 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (19,278)</b></summary>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T11:47:43.393Z</code>
+      🕒 Last updated <code>2026-10-02T12:31:38.708Z</code>
     </span>
   </p>
 </div>

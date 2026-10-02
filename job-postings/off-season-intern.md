@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">StepStone Group</td>
+      <td width="420" align="left" valign="top">Junior Analyst - AI Solutions, R&amp;D &amp; Coding<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">La Jolla, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.stepstonegroup.com/current-opportunities/?gh_jid=8171272"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Graphcore</td>
       <td width="420" align="left" valign="top">Machine Learning and Data Science Engineering Intern</td>
       <td width="180" align="left" valign="top">Austin, TX</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aero</td>
-      <td width="420" align="left" valign="top">2027 Machine Learning Engineer Undergrad Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,411 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,412 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T11:47:43.393Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T12:31:38.708Z</code></sub>
