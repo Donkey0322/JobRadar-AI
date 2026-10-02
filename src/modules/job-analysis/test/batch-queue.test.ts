@@ -176,6 +176,47 @@ describe("batch-queue", () => {
     );
   });
 
+  it("retries a spilled batch result once and keeps the cleaned retry", async () => {
+    const job = makeJob();
+    const spilled = {
+      ...usaJd,
+      qualifications: [`Bachelor${"\n".repeat(40)}---END JD TEXT---`],
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/abc",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        jobs: [job],
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    analyzeJDMock.mockResolvedValue({ result: JSON.stringify(usaJd), cost: 0.02 });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(spilled),
+            cost: 0.001,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzeJDMock).toHaveBeenCalledWith("raw jd", false);
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        job,
+        jd: usaJd,
+        cost: 0.021,
+      }),
+    ]);
+  });
+
   it("re-queues jobs whose succeeded batch result is empty or unparseable", async () => {
     const job = makeJob();
     readJsonFileMock.mockResolvedValue([

@@ -9,10 +9,10 @@ import type { JD, Job } from "@/types";
 import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
 import analyzeJD, { formatJDPrompt, getAnalyzeJDConfig } from "./ai";
-import { parseAIJDResult } from "./response";
+import { getRawJD } from "./index";
+import { jdResponseSpilled, parseAIJDResult } from "./response";
 
 import { isRetryableJDFetch } from "@/modules/ats/detail";
-import { getRawJD } from "@/modules/job-analysis";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
 import { readJsonFile } from "@/utils/data";
 import { getJobKey } from "@/utils/job-key";
@@ -125,6 +125,32 @@ function parseAnalyzedResult(
   return { job, jd: parsed.jd, cost };
 }
 
+async function resolveAnalyzedResult(
+  job: Job,
+  result: string | null,
+  cost: number
+): Promise<AnalyzedBatchJob | null> {
+  if (!result || !jdResponseSpilled(result)) {
+    return parseAnalyzedResult(job, result, cost);
+  }
+
+  logger.warn(
+    { company: job.company, url: job.link },
+    "⚠️ AI response spilled; retrying once"
+  );
+
+  const { jd: rawJD } = await getRawJD(job.link);
+
+  if (rawJD) {
+    const retry = await analyzeJD(rawJD, false);
+    if (retry.result) {
+      return parseAnalyzedResult(job, retry.result, cost + retry.cost);
+    }
+  }
+
+  return parseAnalyzedResult(job, result, cost);
+}
+
 async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
   const analyzed: AnalyzedBatchJob[] = [];
 
@@ -191,11 +217,11 @@ export async function collectInflightBatches(): Promise<{
     const jobsByKey = new Map(batch.jobs.map((job) => [getJobKey(job.link), job]));
     const handled = new Set<string>();
 
-    status.results.forEach((result, index) => {
+    for (const [index, result] of status.results.entries()) {
       const job = jobsByKey.get(result.key) ?? batch.jobs[index];
 
       if (!job) {
-        return;
+        continue;
       }
 
       const key = getJobKey(job.link);
@@ -207,14 +233,14 @@ export async function collectInflightBatches(): Promise<{
           "⚠️ Batch request failed"
         );
         requeue.push(job);
-        return;
+        continue;
       }
 
-      const parsed = parseAnalyzedResult(job, result.result, result.cost);
+      const parsed = await resolveAnalyzedResult(job, result.result, result.cost);
 
       if (parsed) {
         analyzed.push(parsed);
-        return;
+        continue;
       }
 
       logger.warn(
@@ -222,7 +248,7 @@ export async function collectInflightBatches(): Promise<{
         "⚠️ Batch result missing or unparseable; re-queuing"
       );
       requeue.push(job);
-    });
+    }
 
     for (const job of batch.jobs) {
       if (!handled.has(getJobKey(job.link))) {

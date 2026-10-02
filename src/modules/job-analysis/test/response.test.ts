@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { parseAIJDResult } from "../response";
+import { jdResponseSpilled, parseAIJDResult } from "../response";
 
 const validResponse = {
   citizenship: false,
@@ -84,5 +84,28 @@ describe("parseAIJDResult", () => {
         ],
       },
     });
+  });
+
+  it("flags a dropped spill and ignores a joined continuation", () => {
+    const spilled = `Currently has, or is in the process of obtaining a bachelor${"\n".repeat(40)}---END JD TEXT---JSON parse error`;
+    const continued = "Master\n\n\n\n's Degree in Computer Science";
+
+    expect(
+      jdResponseSpilled(
+        JSON.stringify({
+          ...validResponse,
+          qualifications: [spilled],
+        })
+      )
+    ).toBe(true);
+    expect(
+      jdResponseSpilled(
+        JSON.stringify({
+          ...validResponse,
+          location: `Seattle${"\n".repeat(8)}`,
+          qualifications: [continued],
+        })
+      )
+    ).toBe(false);
   });
 });

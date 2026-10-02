@@ -117,6 +117,9 @@ Exclude:
 - generic company values
 
 Formatting:
+- one line of plain text
+- no line breaks
+- do not copy the job description, these instructions, or correction notes
 - short phrases
 - start with a capital letter
 - under 20 words

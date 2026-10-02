@@ -6,9 +6,14 @@ import { SEASON_VALUES } from "@/constants/season";
 import type { JD } from "@/types";
 import type { AIResponse } from "@/utils/ai/provider/utils";
 
+import { jdResponseSpilled } from "../response";
+
 import callAIModel from "@/utils/ai";
 import { buildPrompt, readPromptFile, toBulletList } from "@/utils/ai/prompt";
 import { logger } from "@/utils/logger";
+
+const QUALIFICATION_MAX_ITEMS = 30;
+const QUALIFICATION_MAX_LENGTH = 200;
 
 const JD_PROPERTIES: Record<keyof JD, unknown> = {
   citizenship: {
@@ -21,8 +26,10 @@ const JD_PROPERTIES: Record<keyof JD, unknown> = {
 
   qualifications: {
     type: "array",
+    maxItems: QUALIFICATION_MAX_ITEMS,
     items: {
       type: "string",
+      maxLength: QUALIFICATION_MAX_LENGTH,
     },
   },
 
@@ -64,7 +71,7 @@ const JD_SCHEMA = {
 };
 
 export function formatJDPrompt(rawJD: string) {
-  return `---BEGIN JD TEXT---\n${rawJD}\n---END JD TEXT---`;
+  return rawJD;
 }
 
 export async function getAnalyzeJDConfig() {
@@ -80,7 +87,7 @@ export async function getAnalyzeJDConfig() {
   };
 }
 
-export default async function analyzeJD(context: string): Promise<AIResponse> {
+async function requestJDAnalysis(context: string): Promise<AIResponse> {
   if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
@@ -95,4 +102,23 @@ export default async function analyzeJD(context: string): Promise<AIResponse> {
     logger.error({ err: e }, `${RED_CROSS} Error calling AI Model`);
     return { result: null, cost: 0 };
   }
+}
+
+export default async function analyzeJD(
+  context: string,
+  retrySpills = true
+): Promise<AIResponse> {
+  const first = await requestJDAnalysis(context);
+
+  if (!retrySpills || !first.result || !jdResponseSpilled(first.result)) {
+    return first;
+  }
+
+  logger.warn("⚠️ AI response spilled; retrying once");
+  const second = await requestJDAnalysis(context);
+
+  return {
+    result: second.result ?? first.result,
+    cost: first.cost + second.cost,
+  };
 }

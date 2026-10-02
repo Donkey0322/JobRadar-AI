@@ -122,6 +122,63 @@ export function cleanAIString(value: string): string {
   return cleanText(stripSpills(value));
 }
 
+function droppedNewlineSpill(text: string): boolean {
+  const newlineRun = text.search(/\n{3,}/);
+
+  if (newlineRun < 0) {
+    return false;
+  }
+
+  const prefix = text.slice(0, newlineRun).replace(/\nR\s*$/, "");
+  const suffix = text.slice(newlineRun).replace(/^\n+/, "");
+
+  if (!suffix.trim()) {
+    return false;
+  }
+
+  if (!isContinuation(suffix)) {
+    return true;
+  }
+
+  return droppedNewlineSpill(joinContinuation(prefix, suffix));
+}
+
+function droppedSpill(value: string): boolean {
+  const cut = cutLeakMarkers(value);
+
+  if (cut !== value && value.slice(cut.length).trim().length > 0) {
+    return true;
+  }
+
+  return droppedNewlineSpill(cut);
+}
+
+export function jdResponseSpilled(result: string): boolean {
+  try {
+    const parsed = JSON.parse(result) as {
+      location?: unknown;
+      qualifications?: unknown;
+    };
+    const fields: string[] = [];
+
+    if (typeof parsed.location === "string") {
+      fields.push(parsed.location);
+    }
+
+    if (Array.isArray(parsed.qualifications)) {
+      for (const item of parsed.qualifications) {
+        if (typeof item === "string") {
+          fields.push(item);
+        }
+      }
+    }
+
+    return fields.some(droppedSpill);
+  } catch {
+    return false;
+  }
+}
+
 function cleanAIStringOrNull(value: string | null): string | null {
   if (value == null) return null;
 
