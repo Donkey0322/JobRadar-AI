@@ -19296,14 +19296,6 @@
     "urls": []
   },
   {
-    "name": "getfiber",
-    "ats": "greenhouse",
-    "identifier": "getfiber",
-    "domain": "http://getfiber.ai",
-    "page": "https://boards-api.greenhouse.io/v1/boards/getfiber/jobs",
-    "urls": []
-  },
-  {
     "name": "gevernova",
     "ats": "workday",
     "identifier": "gevernova-only_confidential_executive_recruiting",

@@ -33,6 +33,7 @@ const identifierMap: Record<string, string> = {
   "boomi.com": "boomilp",
   "airbnb.com": "airbnb",
   "verition.com": "veritiongroupllc",
+  "getfiber.ai": "clerkie",
 
   // careerpuck.com
   "domino-data-lab": "dominodatalab",
