@@ -92,7 +92,7 @@ Each category page shows up to 300 of the latest opportunities.
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,414 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,411 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,305 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 10,694 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 10,695 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,587 opportunities
 
 ## The List 🚴‍♂️
@@ -781,11 +781,11 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,305 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (19,281)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (19,282)</b></summary>
 
   <br />
 
-  <h3>Mid Level (10,694)</h3>
+  <h3>Mid Level (10,695)</h3>
 
 <table width="100%">
   <thead>
@@ -798,6 +798,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Postman</td>
+      <td width="420" align="left" valign="top">Account Development Representative (Portuguese &amp; Spanish Speaking)</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://postman.wd108.myworkdayjobs.com/careers/job/Boston-MA-US/Account-Development-Representative--Portuguese---Spanish-Speaking-_JR1000008-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer, Ads DTx Bifröst</td>
@@ -1001,16 +1008,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10516096"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 2</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Embedded Software Engineer, Leo Payload Radio<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Redmond, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10372635"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 2</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 10,694 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 10,695 opportunities in this section.</sub></p>
 
   <h3>Senior Level (8,587)</h3>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-02T10:11:44.298Z</code>
+      🕒 Last updated <code>2026-10-02T10:50:20.919Z</code>
     </span>
   </p>
 </div>

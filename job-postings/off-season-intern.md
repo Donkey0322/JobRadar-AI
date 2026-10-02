@@ -399,7 +399,7 @@
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">GenScript</td>
+      <td width="180" align="left" valign="top">Genscript</td>
       <td width="420" align="left" valign="top">AI Intern – Enterprise Agent Development 🎓</td>
       <td width="180" align="left" valign="top">Piscataway, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/genscript/jobs/5253581007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -882,7 +882,7 @@
       <td width="120" align="left" valign="top">Sep 28</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">GITAI</td>
+      <td width="180" align="left" valign="top">Gitai</td>
       <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Torrance, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/gitai/jobs/5437128008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2051,7 +2051,7 @@
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">SingleStore</td>
+      <td width="180" align="left" valign="top">Singlestore</td>
       <td width="420" align="left" valign="top">MIT- Software Engineer Intern | Engine</td>
       <td width="180" align="left" valign="top">San Francisco, CA</td>
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:11:44.298Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:50:20.919Z</code></sub>

@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Postman</td>
+      <td width="420" align="left" valign="top">Account Development Representative (Portuguese &amp; Spanish Speaking)</td>
+      <td width="180" align="left" valign="top">Boston, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://postman.wd108.myworkdayjobs.com/careers/job/Boston-MA-US/Account-Development-Representative--Portuguese---Spanish-Speaking-_JR1000008-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
       <td width="420" align="left" valign="top">Software Development Engineer, Ads DTx Bifröst</td>
       <td width="180" align="left" valign="top">New York, NY</td>
@@ -868,7 +875,7 @@
       <td width="120" align="left" valign="top">Oct 1</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">EarnIn</td>
+      <td width="180" align="left" valign="top">Earnin</td>
       <td width="420" align="left" valign="top">Machine Learning Engineer</td>
       <td width="180" align="left" valign="top">Mountain View, CA</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/earnin/jobs/8243705"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -1848,7 +1855,7 @@
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">GenScript</td>
+      <td width="180" align="left" valign="top">Genscript</td>
       <td width="420" align="left" valign="top">Automation Engineer</td>
       <td width="180" align="left" valign="top">Piscataway, NJ</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/genscript/jobs/5220214007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/China-Lake-CA/Model-Based-Systems-Engineer_R0250733"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Network and Systems Lab Engineer, Mid<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Aberdeen Proving Ground, MD</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Aberdeen-Proving-Ground-MD/Network-and-Systems-Lab-Engineer--Mid_R0250716-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 30</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 10,694 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 10,695 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:11:44.298Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:50:20.919Z</code></sub>

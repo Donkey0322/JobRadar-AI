@@ -1757,7 +1757,7 @@
       <td width="120" align="left" valign="top">Sep 30</td>
     </tr>
     <tr>
-      <td width="180" align="left" valign="top">LaunchDarkly</td>
+      <td width="180" align="left" valign="top">Launchdarkly</td>
       <td width="420" align="left" valign="top">Backend Engineer (Multiple Positions)</td>
       <td width="180" align="left" valign="top">Remote</td>
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/launchdarkly/jobs/8007080003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:11:44.298Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T10:50:20.919Z</code></sub>
