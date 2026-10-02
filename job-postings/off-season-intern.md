@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">xAI</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern Co-op</td>
+      <td width="180" align="left" valign="top">Palo Alto, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/xai/jobs/5252108007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">InComm Payments</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Sandy, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.incommpayments.com/jobs/22268?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 2</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Solidigm</td>
       <td width="420" align="left" valign="top">Talent Acquisition Data Engineering &amp; Analytics Graduate Intern</td>
       <td width="180" align="left" valign="top">Remote</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.incommpayments.com/jobs/22186?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Eaton</td>
-      <td width="420" align="left" valign="top">Internship: Software Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Franksville, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://eaton.eightfold.ai/careers/job/687239256127?domain=eaton.com&amp;8fold_id=687239256127"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Fmr</td>
-      <td width="420" align="left" valign="top">Quantitative Development &amp; Data Science Internship<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Boston, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Development---Data-Science-Internship_2134404"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,423 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,425 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T22:44:55.210Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-02T22:49:12.549Z</code></sub>
