@@ -6665,6 +6665,7 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Data-Integration-Developer_JR-0000129099",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Equities-Valuations-C---Software-Engineer_JR-0000117799",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Full-Stack-Software-Engineer_JR-0000118738",
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Software-Engineer---Adoption_JR-0000040582",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/AI-Platform-Engineer_JR-0000083798",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/Adoption-Software-Engineer_JR-0000040152",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Glasgow-Campus/Assistant-Vice-President-Transaction-Monitoring-Analyst-_JR-0000101710",
@@ -6732,8 +6733,7 @@
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Software-Engineer_JR-0000128354-5",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer_JR-0000118741",
       "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer_JR-0000127770",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer_JR-0000127772",
-      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Gemini-Building-A-Prague/Software-Engineer---Adoption_JR-0000040582"
+      "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Test-Automation-Engineer_JR-0000127772"
     ]
   },
   {
@@ -20505,6 +20505,7 @@
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/New-Jersey-United-States/Expert-Systems-Engineer_R0045715",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Baroda-India/Sr-Systems-Support-Engineer_R0045633-1",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Blair/XMLNAME--Remote--Software-Developer_R0044815-6",
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Magaliessig/Junior-Software-Engineer_R0045756-2",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Mumbai-Vikroli/Junior-UI-Developer_R0044371-3",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---India/Software-Engineer--Data-Systems-ETL-_R0046433-3",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote---Missouri/Software-Developer_R0045664",
@@ -20519,8 +20520,7 @@
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote-Pune-Baroda-India/Sr-Manager-Client-Technology_R0039437-2",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote-Pune-Baroda-India/Sr-Software-Engineer--Servicenow-Developer-_R0044165-1",
       "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Remote-Pune-Baroda-India/Sr-Software-Engineer_R0043879-1",
-      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Tennessee-United-States/Associate-Software-Engineer--RPG_R0045601-1",
-      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Office---Magaliessig/Junior-Software-Engineer_R0045756-2"
+      "https://harriscomputer.wd3.myworkdayjobs.com/1/job/Tennessee-United-States/Associate-Software-Engineer--RPG_R0045601-1"
     ]
   },
   {
@@ -26391,6 +26391,16 @@
     ]
   },
   {
+    "name": "marqeta-inc",
+    "ats": "ashby",
+    "identifier": "marqeta-inc",
+    "domain": "https://jobs.ashbyhq.com",
+    "page": "https://api.ashbyhq.com/posting-api/job-board/marqeta-inc",
+    "urls": [
+      "https://jobs.ashbyhq.com/marqeta-inc/e0948ad4-4957-47d1-a903-4f7eae10a8ce"
+    ]
+  },
+  {
     "name": "marvell",
     "ats": "workday",
     "identifier": "marvell-marvellcareers",
@@ -26930,9 +26940,11 @@
       "https://www.metacareers.com/profile/job_details/1100609969057950",
       "https://www.metacareers.com/profile/job_details/1102464902292466",
       "https://www.metacareers.com/profile/job_details/1103187105395312",
+      "https://www.metacareers.com/profile/job_details/1104959738740874",
       "https://www.metacareers.com/profile/job_details/1108965594796722",
       "https://www.metacareers.com/profile/job_details/1112309651311277",
       "https://www.metacareers.com/profile/job_details/1116279877825234",
+      "https://www.metacareers.com/profile/job_details/1124065870041690",
       "https://www.metacareers.com/profile/job_details/1139345932588438",
       "https://www.metacareers.com/profile/job_details/1144181248272927",
       "https://www.metacareers.com/profile/job_details/1154738753397824",
@@ -27148,9 +27160,7 @@
       "https://www.metacareers.com/profile/job_details/990953733995858",
       "https://www.metacareers.com/profile/job_details/994881556459825",
       "https://www.metacareers.com/profile/job_details/996030293506644",
-      "https://www.metacareers.com/profile/job_details/998357492128826",
-      "https://www.metacareers.com/profile/job_details/1104959738740874",
-      "https://www.metacareers.com/profile/job_details/1124065870041690"
+      "https://www.metacareers.com/profile/job_details/998357492128826"
     ]
   },
   {
@@ -27889,14 +27899,6 @@
       "https://careers-mpr.icims.com/jobs/1479/data-platform-engineer/job",
       "https://careers-mpr.icims.com/jobs/1480/embedded-system-software-engineer/job"
     ]
-  },
-  {
-    "name": "mqreferrals",
-    "ats": "greenhouse",
-    "identifier": "mqreferrals",
-    "domain": "https://job-boards.greenhouse.io",
-    "page": "https://boards-api.greenhouse.io/v1/boards/mqreferrals/jobs",
-    "urls": []
   },
   {
     "name": "mrocorp",
@@ -40046,6 +40048,7 @@
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/ALPHARETTA-GEORGIA/Information-Security-Assurance-Analyst-I_R0074710",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/ATLANTA-GEORGIA/Business-Data-Analyst_R0074716",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/AUCKLAND--NEW-ZEALAND/PHP-Software-Engineer_R0074142",
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/BUCHAREST--ROMANIA/Java-Software-Engineer-I_R0075459-1",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/HYDERABAD--INDIA/Oracle-Cloud-ERP-Technical-Analyst_R0074213",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PRAGUE--CZECHIA/AWS-DevOps-Engineer-_R0074424",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PRAGUE--CZECHIA/Android-Software-Engineer_R0071150",
@@ -40055,8 +40058,7 @@
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PUNE--INDIA/Information-Security-Analyst_R0075026-1",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PUNE--INDIA/Software-Engineer_R0073884-1",
       "https://tsys.wd1.myworkdayjobs.com/tsys/job/PUNE--INDIA/Systems-Engineer-Specialist_R0074103-2",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/WARSAW--POLAND/Java-Developer_R0072433",
-      "https://tsys.wd1.myworkdayjobs.com/tsys/job/BUCHAREST--ROMANIA/Java-Software-Engineer-I_R0075459-1"
+      "https://tsys.wd1.myworkdayjobs.com/tsys/job/WARSAW--POLAND/Java-Developer_R0072433"
     ]
   },
   {

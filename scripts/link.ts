@@ -11,6 +11,44 @@ import { HttpStatusCode } from "@/modules/ats/detail";
 import { analyzeLink, getRawJD } from "@/modules/job-analysis";
 import { logger } from "@/utils/logger";
 
+function isJob(value: unknown): value is Job {
+  if (!value || typeof value !== "object") return false;
+
+  const job = value as Record<string, unknown>;
+  return (
+    typeof job.company === "string" &&
+    job.company.length > 0 &&
+    typeof job.role === "string" &&
+    job.role.length > 0 &&
+    typeof job.location === "string" &&
+    job.location.length > 0 &&
+    typeof job.link === "string"
+  );
+}
+
+function parseJobs(content: string): Job[] {
+  const parsed: unknown = JSON.parse(content);
+  const items = Array.isArray(parsed) ? parsed : [parsed];
+
+  if (items.length === 0) {
+    throw new Error("Job file is empty");
+  }
+
+  return items.map((item, index) => {
+    if (!isJob(item)) {
+      throw new Error(`Invalid job at index ${index}`);
+    }
+
+    try {
+      new URL(item.link);
+    } catch {
+      throw new Error(`Invalid URL at index ${index}`);
+    }
+
+    return item;
+  });
+}
+
 export async function promptJob(): Promise<Job> {
   const job = await inquirer.prompt<Job>([
     {
@@ -105,14 +143,31 @@ async function main() {
   if (file !== undefined) {
     const filePath = file ?? "scripts/job.json";
     const content = await fs.readFile(filePath, "utf8");
-    const job: Job = JSON.parse(content);
 
-    const { error } = await getRawJD(job.link);
-    if (HttpStatusCode.isError(error.code)) {
+    let jobs: Job[];
+    try {
+      jobs = parseJobs(content);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Invalid job file";
+      logger.error(`${RED_CROSS} ${message}`);
       process.exit(1);
     }
 
-    await processJobs({ jobs: [job], ...context });
+    const ready: Job[] = [];
+    for (const job of jobs) {
+      const { error } = await getRawJD(job.link);
+      if (HttpStatusCode.isError(error.code)) {
+        logger.error(`${RED_CROSS} ${job.company} — ${job.role}`);
+        continue;
+      }
+      ready.push(job);
+    }
+
+    if (ready.length === 0) {
+      process.exit(1);
+    }
+
+    await processJobs({ jobs: ready, ...context });
     return;
   }
 
