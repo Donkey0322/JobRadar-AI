@@ -176,6 +176,33 @@ ui
 ux
 ```
 
+#### Priority keywords
+
+Use one keyword per line. These outrank exclude keywords.
+
+A title that contains `software` is kept even when it also says `hardware`, such as `Software Engineering Intern – AI Tools for Hardware Engineering`.
+
+```text
+software
+swe
+```
+
+#### Exclude keywords
+
+Use one keyword per line. These words drop a title unless a priority keyword is also present.
+
+Matching is case-insensitive and whole-word, so `hardware` drops `Hardware Systems Engineer` and `Backend Engineer, Hardware`, and keeps a title that contains `software`.
+
+```text
+hardware
+firmware
+mechanical
+electrical
+pcb
+asic
+fpga
+```
+
 #### AI enabled
 
 Check **Enable AI JD analysis** if you want JobRadar-AI to send crawled job descriptions to the configured AI model.

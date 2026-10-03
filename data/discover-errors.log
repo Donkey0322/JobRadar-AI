@@ -67,3 +67,8 @@
 2026-10-02T11:20:10.837Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-10-02T11:20:13.451Z Ashby: whatnot - 404 - Not Found
 2026-10-02T11:20:14.207Z Greenhouse: x - 404 - Not Found
+2026-10-03T01:34:07.669Z Workday: blueorigin - 502 - Bad Gateway
+2026-10-03T01:41:18.924Z Workday: jj - 429 - Too Many Requests
+2026-10-03T01:41:18.999Z Workday: keybank - 429 - Too Many Requests
+2026-10-03T01:41:48.911Z Workday: liveramp - 403 - Forbidden
+2026-10-03T01:43:00.541Z Workday: medtronic - 502 - Bad Gateway

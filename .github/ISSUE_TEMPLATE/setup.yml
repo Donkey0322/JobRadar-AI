@@ -145,6 +145,46 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: priority_keywords
+    attributes:
+      label: Priority keywords
+      description: One keyword per line. These outrank exclude keywords. A title containing one of them is kept even when an exclude word is also present.
+      value: |
+        software
+        swe
+
+  - type: textarea
+    id: exclude_keywords
+    attributes:
+      label: Exclude keywords
+      description: One keyword per line. These drop a title unless a priority keyword is also present.
+      value: |
+        hardware
+        firmware
+        mechanical
+        electrical
+        electronics
+        pcb
+        asic
+        fpga
+        analog
+        rf
+        antenna
+        semiconductor
+        vlsi
+        rtl
+        verilog
+        vhdl
+        circuit
+        photonics
+        optical
+        manufacturing
+        technician
+        civil
+        chemical
+        biomedical
+
   - type: markdown
     attributes:
       value: |

@@ -42,6 +42,33 @@
       "automation",
       "ui",
       "ux"
+    ],
+    "priorityKeywords": ["software", "swe"],
+    "excludeKeywords": [
+      "hardware",
+      "firmware",
+      "mechanical",
+      "electrical",
+      "electronics",
+      "pcb",
+      "asic",
+      "fpga",
+      "analog",
+      "rf",
+      "antenna",
+      "semiconductor",
+      "vlsi",
+      "rtl",
+      "verilog",
+      "vhdl",
+      "circuit",
+      "photonics",
+      "optical",
+      "manufacturing",
+      "technician",
+      "civil",
+      "chemical",
+      "biomedical"
     ]
   },
   "ai": {

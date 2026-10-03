@@ -40,6 +40,18 @@ export const TargetSchema = z
     filter: z.partialRecord(CountrySchema, CountryFilterSchema).optional(),
 
     keywords: z.array(z.string()).optional(),
+
+    /**
+     * Title words that outrank excludeKeywords. A matching title is kept even
+     * when an exclude word is also present. Matching is case-insensitive and whole-word.
+     */
+    priorityKeywords: z.array(z.string()).optional(),
+
+    /**
+     * Title words that reject a role unless a priority keyword is also present.
+     * Matching is case-insensitive and whole-word.
+     */
+    excludeKeywords: z.array(z.string()).optional(),
   })
   .superRefine((target, ctx) => {
     if (!target.filter) {

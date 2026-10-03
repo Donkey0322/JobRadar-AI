@@ -22,7 +22,15 @@ const ENGINEERING_WORDS = [
   "analyst",
 ];
 
-const TECH_DOMAIN_WORDS = CONFIG.target.keywords ?? ["software", "swe", "fde"];
+function cleanWords(words: readonly string[] | undefined) {
+  return (words ?? []).map((word) => word.trim()).filter((word) => word.length > 0);
+}
+
+const PRIORITY_WORDS = cleanWords(CONFIG.target.priorityKeywords);
+const TECH_DOMAIN_WORDS = [
+  ...new Set([...cleanWords(CONFIG.target.keywords ?? ["software", "swe", "fde"]), ...PRIORITY_WORDS]),
+];
+const EXCLUDE_WORDS = cleanWords(CONFIG.target.excludeKeywords);
 
 // const STRONG_TECH_PHRASES = [
 //   "software engineer",
@@ -125,6 +133,8 @@ function buildPatterns(words: string[]) {
 
 const ENGINEERING_PATTERNS = buildPatterns(ENGINEERING_WORDS);
 const TECH_DOMAIN_PATTERNS = buildPatterns(TECH_DOMAIN_WORDS);
+const PRIORITY_PATTERNS = buildPatterns(PRIORITY_WORDS);
+const EXCLUDE_PATTERNS = buildPatterns(EXCLUDE_WORDS);
 // const STRONG_TECH_PATTERNS = buildPatterns(STRONG_TECH_PHRASES);
 
 const INTERN_PATTERNS = buildPatterns(INTERN_WORDS);
@@ -154,8 +164,20 @@ function isTechDomain(title: string) {
 //   return hasPattern(STRONG_TECH_PATTERNS, title);
 // }
 
+function isPriority(title: string) {
+  return hasPattern(PRIORITY_PATTERNS, title);
+}
+
+function isExcluded(title: string) {
+  return hasPattern(EXCLUDE_PATTERNS, title);
+}
+
 function isTech(title: string) {
-  return isEngineering(title) && isTechDomain(title);
+  if (!isEngineering(title)) return false;
+  if (isPriority(title)) return true;
+  if (isExcluded(title)) return false;
+
+  return isTechDomain(title);
 }
 
 function isNonTech(title: string) {

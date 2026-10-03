@@ -109,6 +109,34 @@ describe("ConfigSchema", () => {
     expect(result.success).toBe(true);
   });
 
+  it("should allow optional priority keywords", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        target: {
+          intern: [JobCategory.SUMMER_INTERN],
+          countries: ["USA"],
+          priorityKeywords: ["software", "swe"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
+  it("should allow optional exclude keywords", () => {
+    const result = ConfigSchema.safeParse(
+      createValidConfig({
+        target: {
+          intern: [JobCategory.SUMMER_INTERN],
+          countries: ["USA"],
+          excludeKeywords: ["hardware", "firmware"],
+        },
+      })
+    );
+
+    expect(result.success).toBe(true);
+  });
+
   it("should allow an optional expanded dashboard flag", () => {
     const result = ConfigSchema.safeParse(
       createValidConfig({

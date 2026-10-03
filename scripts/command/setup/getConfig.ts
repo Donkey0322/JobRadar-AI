@@ -70,6 +70,8 @@ function buildConfig(issueBody: string): Config {
 
   const senderEmail = issue.required("Sender email");
   const senderUser = issue.required("SMTP user");
+  const priorityKeywords = issue.lines("Priority keywords");
+  const excludeKeywords = issue.lines("Exclude keywords");
 
   return {
     target: {
@@ -78,6 +80,8 @@ function buildConfig(issueBody: string): Config {
       countries,
       filter: buildCountryFilter(countries, allowCitizenshipRequired, allowNoSponsorship),
       keywords: issue.lines("Keywords"),
+      ...(priorityKeywords.length > 0 ? { priorityKeywords } : {}),
+      ...(excludeKeywords.length > 0 ? { excludeKeywords } : {}),
     },
     ai: {
       enabled: issue.checkboxEnabled("AI enabled", AI_ENABLED_LABEL),

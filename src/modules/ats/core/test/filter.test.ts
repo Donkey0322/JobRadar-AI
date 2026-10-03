@@ -184,6 +184,25 @@ describe("isTarget", () => {
     expect(isTarget("Marketing Intern")).toBe(false);
     expect(isTarget("Sales Associate")).toBe(false);
   });
+
+  it("lets priority keywords outrank exclude keywords", () => {
+    const word = CONFIG.target.excludeKeywords?.[0];
+    const priority = CONFIG.target.priorityKeywords?.[0];
+
+    expect(word).toBeTruthy();
+    expect(priority).toBeTruthy();
+    expect(isTarget(`${word} Systems Engineer`)).toBe(false);
+    expect(isTarget(`Backend Engineer, ${word}`)).toBe(false);
+    expect(isTarget(`${priority} Engineer, ${word}`)).toBe(true);
+    expect(isUnspecifiedTechLevel(`${word} Systems Engineer`)).toBe(false);
+    expect(isUnspecifiedTechLevel(`Software Engineer, ${word}`)).toBe(true);
+    expect(isTechEntryLevel(`Junior Software Engineer, ${word}`)).toBe(true);
+    expect(isTechIntern(`Software Engineer Intern, ${word}`)).toBe(true);
+    expect(isTarget("Software Engineering Intern – AI Tools for Hardware Engineering")).toBe(true);
+    expect(isTechIntern("Software Engineering Intern – AI Tools for Hardware Engineering")).toBe(true);
+    expect(isTarget("Systems Engineer")).toBe(true);
+    expect(isTarget("Software Engineer")).toBe(true);
+  });
 });
 
 describe("shouldBatchAnalyze", () => {
