@@ -4,7 +4,7 @@ import { RED_CROSS } from "@/constants/log";
 import { SEASON_VALUES } from "@/constants/season";
 
 import type { JD } from "@/types";
-import type { AIResponse } from "@/utils/ai/provider/utils";
+import type { AIResponse, Schema } from "@/utils/ai/provider/utils";
 
 import { jdResponseSpilled } from "../response";
 
@@ -53,48 +53,72 @@ const JD_PROPERTIES: Record<keyof JD, unknown> = {
   },
 };
 
-const JD_REQUIRED = [
+const SCREEN_FIELDS = [
   "citizenship",
   "sponsorship",
-  "qualifications",
   "country",
   "location",
   "category",
   "season",
-] satisfies Array<keyof JD>;
+] as const satisfies ReadonlyArray<keyof JD>;
 
-const JD_SCHEMA = {
-  type: "object",
-  properties: JD_PROPERTIES,
-  required: JD_REQUIRED,
-  additionalProperties: false,
-};
+const QUALIFICATION_PROMPT_SUFFIX = "\n\nExtract qualifications only.";
+
+function schemaFor(fields: ReadonlyArray<keyof JD>) {
+  return {
+    type: "object",
+    properties: Object.fromEntries(fields.map((field) => [field, JD_PROPERTIES[field]])),
+    required: [...fields],
+    additionalProperties: false,
+  };
+}
+
+const SCREEN_SCHEMA = schemaFor(SCREEN_FIELDS);
+const QUALIFICATION_SCHEMA = schemaFor(["qualifications"]);
 
 export function formatJDPrompt(rawJD: string) {
   return rawJD;
 }
 
-export async function getAnalyzeJDConfig() {
+export function formatQualificationPrompt(rawJD: string) {
+  return `${rawJD}${QUALIFICATION_PROMPT_SUFFIX}`;
+}
+
+async function getSystemInstruction() {
   const template = await readPromptFile(import.meta.dirname, "spec.txt");
 
+  return buildPrompt(template, {
+    COUNTRIES: toBulletList(COUNTRIES),
+    JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
+    SEASONS: toBulletList(SEASON_VALUES),
+  });
+}
+
+export async function getAnalyzeJDConfig() {
   return {
-    schema: JD_SCHEMA,
-    systemInstruction: buildPrompt(template, {
-      COUNTRIES: toBulletList(COUNTRIES),
-      JOB_CATEGORIES: toBulletList(JOB_CATEGORIES),
-      SEASONS: toBulletList(SEASON_VALUES),
-    }),
+    schema: SCREEN_SCHEMA,
+    systemInstruction: await getSystemInstruction(),
   };
 }
 
-async function requestJDAnalysis(context: string): Promise<AIResponse> {
+export async function getQualificationConfig() {
+  return {
+    schema: QUALIFICATION_SCHEMA,
+    systemInstruction: await getSystemInstruction(),
+  };
+}
+
+async function requestAnalysis(
+  prompt: string,
+  loadConfig: () => Promise<{ schema: Schema; systemInstruction: string }>
+): Promise<AIResponse> {
   if (process.env.AI_MODE === "DOWN") {
     return { result: null, cost: 0 };
   }
 
   try {
-    const { schema, systemInstruction } = await getAnalyzeJDConfig();
-    const response = await callAIModel(formatJDPrompt(context), schema, {
+    const { schema, systemInstruction } = await loadConfig();
+    const response = await callAIModel(prompt, schema, {
       systemInstruction,
     });
     return response ?? { result: null, cost: 0 };
@@ -104,21 +128,35 @@ async function requestJDAnalysis(context: string): Promise<AIResponse> {
   }
 }
 
-export default async function analyzeJD(
+async function analyzeWithRetry(
+  promptFor: (context: string) => string,
+  loadConfig: () => Promise<{ schema: Schema; systemInstruction: string }>,
   context: string,
-  retrySpills = true
+  retrySpills: boolean
 ): Promise<AIResponse> {
-  const first = await requestJDAnalysis(context);
+  const prompt = promptFor(context);
+  const first = await requestAnalysis(prompt, loadConfig);
 
   if (!retrySpills || !first.result || !jdResponseSpilled(first.result)) {
     return first;
   }
 
   logger.warn("⚠️ AI response spilled; retrying once");
-  const second = await requestJDAnalysis(context);
+  const second = await requestAnalysis(prompt, loadConfig);
 
   return {
     result: second.result ?? first.result,
     cost: first.cost + second.cost,
   };
+}
+
+export default async function analyzeJD(context: string, retrySpills = true): Promise<AIResponse> {
+  return analyzeWithRetry(formatJDPrompt, getAnalyzeJDConfig, context, retrySpills);
+}
+
+export async function analyzeQualifications(
+  context: string,
+  retrySpills = true
+): Promise<AIResponse> {
+  return analyzeWithRetry(formatQualificationPrompt, getQualificationConfig, context, retrySpills);
 }

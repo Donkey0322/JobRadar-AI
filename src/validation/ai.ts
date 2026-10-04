@@ -8,7 +8,7 @@ export const JDResponseSchema = z.object({
   sponsorship: z.boolean().nullable(),
   country: z.enum(COUNTRIES),
   location: z.string().nullable(),
-  qualifications: z.array(z.string()),
+  qualifications: z.array(z.string()).nullish(),
   category: z.enum(JOB_CATEGORIES),
   season: z.enum(SEASONS),
 });

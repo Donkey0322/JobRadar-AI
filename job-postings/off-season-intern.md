@@ -931,6 +931,13 @@
       <td width="120" align="left" valign="top">Sep 29</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="NVIDIA" src="../assets/featured-badges/nvidia.svg" /></td>
+      <td width="420" align="left" valign="top">Software CAD Engineer, VLSI (RDSS Intern)</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Taiwan-Taipei/Software-CAD-Engineer--VLSI--RDSS-Intern-_JR2026181"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 29</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Bostonscientific</td>
       <td width="420" align="left" valign="top">Software Development Engineer Co-op (May- Dec)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Waltham, MA</td>
@@ -1166,6 +1173,13 @@
       <td width="420" align="left" valign="top">Presales Systems Engineer - 2027 Internship<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Linthicum, MD</td>
       <td width="120" align="left" valign="top"><a href="https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Sep 28</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Philips</td>
+      <td width="420" align="left" valign="top">Intern Data Scientist</td>
+      <td width="180" align="left" valign="top">Taipei, Taiwan</td>
+      <td width="120" align="left" valign="top"><a href="https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Taipei/Intern-Data-Scientist_592526"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 28</td>
     </tr>
     <tr>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.rivian.com/jobs/33748?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">InComm Payments</td>
-      <td width="420" align="left" valign="top">Data Analyst Intern</td>
-      <td width="180" align="left" valign="top">Atlanta, GA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.incommpayments.com/jobs/22186?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Eaton</td>
-      <td width="420" align="left" valign="top">Internship: Software Engineering<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Franksville, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://eaton.eightfold.ai/careers/job/687239256127?domain=eaton.com&amp;8fold_id=687239256127"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,403 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,408 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-04T23:40:47.895Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-04T23:54:32.516Z</code></sub>

@@ -6,10 +6,11 @@ import type { JDFetchResult, JDFetchStatus } from "@/modules/ats/detail";
 import type { ATS } from "@/modules/ats/type";
 import type { JD, Job } from "@/types/jobs";
 
-import analyzeJD from "./ai";
-import { parseAIJDResult } from "./response";
+import analyzeJD, { analyzeQualifications } from "./ai";
+import { parseAIJDResult, parseQualificationResult } from "./response";
 
 import { classifyATS } from "@/modules/ats/core/classifier";
+import { isNotifyCandidate } from "@/modules/ats/core/filter";
 import {
   fetchAshbyJD,
   fetchCustomJD,
@@ -79,6 +80,43 @@ export function isEligibleJD(jd: JD) {
   }
 
   return [true, null];
+}
+
+export function needsQualificationExtraction(jd: JD, role?: string) {
+  if (jd.qualifications != null) {
+    return false;
+  }
+
+  const [eligible] = isEligibleJD(jd);
+
+  if (!eligible) {
+    return false;
+  }
+
+  if (role !== undefined && !isNotifyCandidate(role)) {
+    return false;
+  }
+
+  return true;
+}
+
+export async function attachQualifications(rawJD: string, jd: JD, cost: number, role?: string) {
+  if (!needsQualificationExtraction(jd, role)) {
+    return { jd, cost };
+  }
+
+  const second = await analyzeQualifications(rawJD);
+  const qualifications = second.result ? parseQualificationResult(second.result) : null;
+
+  if (!qualifications) {
+    logger.warn("⚠️ Qualification extraction failed");
+    return { jd, cost: cost + second.cost };
+  }
+
+  return {
+    jd: { ...jd, qualifications },
+    cost: cost + second.cost,
+  };
 }
 
 function finishRawJD(result: JDFetchResult): JDFetchResult {
@@ -175,10 +213,12 @@ export default async function getJD(job: Job): Promise<{
   const parsedResult = parseAIJDResult(result);
 
   if (parsedResult.status === "ok") {
+    const finished = await attachQualifications(rawJD, parsedResult.jd, cost, job.role);
+
     return {
-      jd: parsedResult.jd,
+      jd: finished.jd,
       rawJD,
-      cost,
+      cost: finished.cost,
       error: JD_FETCH_OK,
     };
   }
@@ -234,7 +274,8 @@ export async function analyzeLink(link: string): Promise<JD | null> {
   const parsedResult = parseAIJDResult(result);
 
   if (parsedResult.status === "ok") {
-    return parsedResult.jd;
+    const finished = await attachQualifications(rawJD, parsedResult.jd, 0);
+    return finished.jd;
   }
 
   logger.warn(

@@ -1,8 +1,14 @@
+import { z } from "zod";
+
 import type { JD } from "@/types/jobs";
 import type { JDResponse } from "@/validation/ai";
 
 import { cleanText } from "@/utils/string";
 import { JDResponseSchema } from "@/validation/ai";
+
+const QualificationResponseSchema = z.object({
+  qualifications: z.array(z.string()),
+});
 
 const AI_TEXT_LEAK_MARKERS = [
   "---END JD TEXT---",
@@ -193,10 +199,28 @@ export function normalizeJD(response: JDResponse): JD {
     sponsorship: response.sponsorship,
     country: response.country,
     location: cleanAIStringOrNull(response.location),
-    qualifications: response.qualifications.map(cleanAIString).filter((item) => item.length > 0),
+    qualifications:
+      response.qualifications == null
+        ? null
+        : response.qualifications.map(cleanAIString).filter((item) => item.length > 0),
     category: response.category,
     season: response.season,
   };
+}
+
+export function parseQualificationResult(result: string): string[] | null {
+  try {
+    const parsed: unknown = JSON.parse(result);
+    const validated = QualificationResponseSchema.safeParse(parsed);
+
+    if (!validated.success) {
+      return null;
+    }
+
+    return validated.data.qualifications.map(cleanAIString).filter((item) => item.length > 0);
+  } catch {
+    return null;
+  }
 }
 
 export function parseAIJDResult(result: string): AIJDParseResult {

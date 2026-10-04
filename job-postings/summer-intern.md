@@ -2119,4 +2119,4 @@
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-04T23:40:47.895Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-04T23:54:32.516Z</code></sub>

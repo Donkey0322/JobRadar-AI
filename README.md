@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
-  <img src="https://img.shields.io/badge/Countries-USA-green" />
+  <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Taiwan%20%C2%B7%20Singapore-green" />
   <img src="https://img.shields.io/badge/Updated-2026--10--04-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
@@ -90,10 +90,10 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,417 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,403 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,230 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 10,329 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,329 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,408 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,240 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 10,361 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,344 opportunities
 
 ## The List 🚴‍♂️
 
@@ -551,7 +551,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,403 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,408 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -778,14 +778,14 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,230 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,240 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (18,658)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (18,705)</b></summary>
 
   <br />
 
-  <h3>Mid Level (10,329)</h3>
+  <h3>Mid Level (10,361)</h3>
 
 <table width="100%">
   <thead>
@@ -1010,9 +1010,9 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 10,329 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 10,361 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,329)</h3>
+  <h3>Senior Level (8,344)</h3>
 
 <table width="100%">
   <thead>
@@ -1237,7 +1237,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,329 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,344 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-04T23:40:47.895Z</code>
+      🕒 Last updated <code>2026-10-04T23:54:32.516Z</code>
     </span>
   </p>
 </div>

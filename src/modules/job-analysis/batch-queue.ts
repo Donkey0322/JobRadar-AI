@@ -8,9 +8,15 @@ import { RED_CROSS } from "@/constants/log";
 import type { JD, Job } from "@/types";
 import type { BatchGenerateRequest } from "@/utils/ai/provider/utils";
 
-import analyzeJD, { formatJDPrompt, getAnalyzeJDConfig } from "./ai";
-import { getRawJD } from "./index";
-import { jdResponseSpilled, parseAIJDResult } from "./response";
+import analyzeJD, {
+  analyzeQualifications,
+  formatJDPrompt,
+  formatQualificationPrompt,
+  getAnalyzeJDConfig,
+  getQualificationConfig,
+} from "./ai";
+import { attachQualifications, getRawJD, needsQualificationExtraction } from "./index";
+import { jdResponseSpilled, parseAIJDResult, parseQualificationResult } from "./response";
 
 import { isRetryableJDFetch } from "@/modules/ats/detail";
 import { AI_DEFAULT_MODEL, getAIProvider } from "@/utils/ai";
@@ -22,7 +28,9 @@ import { readNdjsonFileIfExists } from "@/utils/ndjson-archive";
 export interface InflightBatch {
   name: string;
   submittedAt: string;
+  phase?: "screen" | "qualifications";
   jobs: Job[];
+  screenCosts?: Record<string, number>;
 }
 
 export interface AnalyzedBatchJob {
@@ -125,6 +133,10 @@ function parseAnalyzedResult(
   return { job, jd: parsed.jd, cost };
 }
 
+function batchPhase(batch: InflightBatch) {
+  return batch.phase ?? "screen";
+}
+
 async function resolveAnalyzedResult(
   job: Job,
   result: string | null,
@@ -134,10 +146,7 @@ async function resolveAnalyzedResult(
     return parseAnalyzedResult(job, result, cost);
   }
 
-  logger.warn(
-    { company: job.company, url: job.link },
-    "⚠️ AI response spilled; retrying once"
-  );
+  logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
 
   const { jd: rawJD } = await getRawJD(job.link);
 
@@ -151,6 +160,140 @@ async function resolveAnalyzedResult(
   return parseAnalyzedResult(job, result, cost);
 }
 
+async function resolveQualificationResult(
+  job: Job,
+  result: string | null,
+  cost: number
+): Promise<AnalyzedBatchJob | null> {
+  const screen = job.jd;
+
+  if (!screen) {
+    return null;
+  }
+
+  const spilled = Boolean(result && jdResponseSpilled(result));
+  let qualifications = result && !spilled ? parseQualificationResult(result) : null;
+  let totalCost = cost;
+
+  if (!qualifications) {
+    if (spilled) {
+      logger.warn({ company: job.company, url: job.link }, "⚠️ AI response spilled; retrying once");
+    }
+
+    const { jd: rawJD } = await getRawJD(job.link);
+
+    if (rawJD) {
+      const retry = await analyzeQualifications(rawJD, false);
+      totalCost += retry.cost;
+      qualifications = retry.result ? parseQualificationResult(retry.result) : null;
+    }
+  }
+
+  if (!qualifications) {
+    return { job, jd: screen, cost: totalCost };
+  }
+
+  return {
+    job,
+    jd: { ...screen, qualifications },
+    cost: totalCost,
+  };
+}
+
+async function submitQualificationBatches(
+  pending: Array<{ job: Job; jd: JD; cost: number }>
+): Promise<{ analyzed: AnalyzedBatchJob[]; inflight: InflightBatch[] }> {
+  if (pending.length === 0) {
+    return { analyzed: [], inflight: [] };
+  }
+
+  const provider = getAIProvider();
+  const fetchLimit = pLimit(FETCH_CONCURRENCY);
+  const ready: Array<{ job: Job; jd: JD; cost: number; rawJD: string }> = [];
+  const analyzed: AnalyzedBatchJob[] = [];
+  const requeue: Job[] = [];
+
+  const fetched = await Promise.all(
+    pending.map((item) =>
+      fetchLimit(async () => {
+        const { jd: rawJD, error } = await getRawJD(item.job.link);
+        return { ...item, rawJD, error };
+      })
+    )
+  );
+
+  for (const item of fetched) {
+    if (!item.rawJD) {
+      if (isRetryableJDFetch(item.error)) {
+        requeue.push(item.job);
+      } else {
+        analyzed.push({ job: item.job, jd: item.jd, cost: item.cost });
+      }
+      continue;
+    }
+
+    ready.push({
+      job: item.job,
+      jd: item.jd,
+      cost: item.cost,
+      rawJD: item.rawJD,
+    });
+  }
+
+  if (requeue.length > 0) {
+    await enqueueBatchJobs(requeue);
+  }
+
+  if (ready.length === 0 || !provider?.submitBatch) {
+    for (const item of ready) {
+      const finished = await attachQualifications(item.rawJD, item.jd, item.cost, item.job.role);
+      analyzed.push({ job: item.job, jd: finished.jd, cost: finished.cost });
+    }
+
+    return { analyzed, inflight: [] };
+  }
+
+  const { schema, systemInstruction } = await getQualificationConfig();
+  const inflight: InflightBatch[] = [];
+
+  for (let offset = 0; offset < ready.length; offset += BATCH_CHUNK_SIZE) {
+    const chunk = ready.slice(offset, offset + BATCH_CHUNK_SIZE);
+    const requests: BatchGenerateRequest[] = chunk.map((item) => ({
+      key: getJobKey(item.job.link),
+      prompt: formatQualificationPrompt(item.rawJD),
+      schema,
+      systemInstruction,
+    }));
+    const submitted = await provider.submitBatch(requests, AI_DEFAULT_MODEL);
+
+    if (!submitted) {
+      for (const item of chunk) {
+        const finished = await attachQualifications(item.rawJD, item.jd, item.cost, item.job.role);
+        analyzed.push({ job: item.job, jd: finished.jd, cost: finished.cost });
+      }
+      continue;
+    }
+
+    const screenCosts: Record<string, number> = {};
+
+    for (const item of chunk) {
+      screenCosts[getJobKey(item.job.link)] = item.cost;
+    }
+
+    inflight.push({
+      name: submitted.name,
+      submittedAt: new Date().toISOString(),
+      phase: "qualifications",
+      jobs: chunk.map((item) => ({ ...item.job, jd: item.jd })),
+      screenCosts,
+    });
+
+    logger.info({ name: submitted.name, count: chunk.length }, "📦 Submitted qualification batch");
+  }
+
+  return { analyzed, inflight };
+}
+
 async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
   const analyzed: AnalyzedBatchJob[] = [];
 
@@ -158,9 +301,12 @@ async function analyzeJobsRealtime(jobs: Array<{ job: Job; rawJD: string }>) {
     const { result, cost } = await analyzeJD(rawJD);
     const parsed = parseAnalyzedResult(job, result, cost);
 
-    if (parsed) {
-      analyzed.push(parsed);
+    if (!parsed) {
+      continue;
     }
+
+    const finished = await attachQualifications(rawJD, parsed.jd, parsed.cost, job.role);
+    analyzed.push({ job, jd: finished.jd, cost: finished.cost });
   }
 
   return analyzed;
@@ -189,6 +335,7 @@ export async function collectInflightBatches(): Promise<{
   const analyzed: AnalyzedBatchJob[] = [];
   const remaining: InflightBatch[] = [];
   const requeue: Job[] = [];
+  const pendingQualifications: Array<{ job: Job; jd: JD; cost: number }> = [];
   const completedDurations: number[] = [];
 
   for (const batch of inflight) {
@@ -204,7 +351,22 @@ export async function collectInflightBatches(): Promise<{
         { name: batch.name, error: status.error, count: batch.jobs.length },
         `${RED_CROSS} Batch job failed; re-queuing`
       );
-      requeue.push(...batch.jobs);
+
+      if (batchPhase(batch) === "qualifications") {
+        for (const job of batch.jobs) {
+          if (job.jd) {
+            pendingQualifications.push({
+              job,
+              jd: job.jd,
+              cost: batch.screenCosts?.[getJobKey(job.link)] ?? 0,
+            });
+          } else {
+            requeue.push(job);
+          }
+        }
+      } else {
+        requeue.push(...batch.jobs);
+      }
       continue;
     }
 
@@ -236,11 +398,28 @@ export async function collectInflightBatches(): Promise<{
         continue;
       }
 
-      const parsed = await resolveAnalyzedResult(job, result.result, result.cost);
+      if (batchPhase(batch) === "qualifications") {
+        const parsed = await resolveQualificationResult(job, result.result, result.cost);
 
-      if (parsed) {
-        analyzed.push(parsed);
-        continue;
+        if (parsed) {
+          analyzed.push({
+            ...parsed,
+            cost: parsed.cost + (batch.screenCosts?.[key] ?? 0),
+          });
+          continue;
+        }
+      } else {
+        const parsed = await resolveAnalyzedResult(job, result.result, result.cost);
+
+        if (parsed && needsQualificationExtraction(parsed.jd, job.role)) {
+          pendingQualifications.push({ job, jd: parsed.jd, cost: parsed.cost });
+          continue;
+        }
+
+        if (parsed) {
+          analyzed.push(parsed);
+          continue;
+        }
       }
 
       logger.warn(
@@ -260,6 +439,10 @@ export async function collectInflightBatches(): Promise<{
   if (requeue.length > 0) {
     await enqueueBatchJobs(requeue);
   }
+
+  const qualificationBatch = await submitQualificationBatches(pendingQualifications);
+  analyzed.push(...qualificationBatch.analyzed);
+  remaining.push(...qualificationBatch.inflight);
 
   await saveInflightBatches(remaining);
 
@@ -367,6 +550,7 @@ export async function submitQueuedJobs(limit = Number.POSITIVE_INFINITY): Promis
   inflight.push({
     name: submitted.name,
     submittedAt: new Date().toISOString(),
+    phase: "screen",
     jobs: fetched.map(({ job }) => job),
   });
   await saveInflightBatches(inflight);

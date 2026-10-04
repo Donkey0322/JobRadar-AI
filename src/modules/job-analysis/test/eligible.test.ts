@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { isEligibleJD } from "../index";
+import { isEligibleJD, needsQualificationExtraction } from "../index";
 
 import { JobCategory } from "@/validation/config";
 
@@ -42,5 +42,41 @@ describe("isEligibleJD", () => {
         country: "Unsure",
       })
     ).toEqual([true, null]);
+  });
+});
+
+describe("needsQualificationExtraction", () => {
+  const eligible = {
+    ...baseJd,
+    qualifications: null,
+    citizenship: null,
+    country: "USA" as const,
+    sponsorship: null,
+  };
+
+  it("asks for qualifications only when the screened job would be notified", () => {
+    expect(needsQualificationExtraction(eligible, "Junior Software Engineer")).toBe(true);
+  });
+
+  it("skips qualifications that were already extracted", () => {
+    expect(
+      needsQualificationExtraction(
+        { ...eligible, qualifications: ["TypeScript"] },
+        "Junior Software Engineer"
+      )
+    ).toBe(false);
+  });
+
+  it("skips jobs the title filter will not notify", () => {
+    expect(needsQualificationExtraction(eligible, "Senior Software Engineer")).toBe(false);
+  });
+
+  it("skips jobs that fail the JD filter", () => {
+    expect(
+      needsQualificationExtraction(
+        { ...eligible, category: JobCategory.SENIOR_LEVEL },
+        "Junior Software Engineer"
+      )
+    ).toBe(false);
   });
 });

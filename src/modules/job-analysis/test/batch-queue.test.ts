@@ -15,8 +15,15 @@ const mkdirMock = vi.hoisted(() => vi.fn().mockResolvedValue(undefined));
 const getAIProviderMock = vi.hoisted(() => vi.fn());
 const getRawJDMock = vi.hoisted(() => vi.fn());
 const analyzeJDMock = vi.hoisted(() => vi.fn());
+const analyzeQualificationsMock = vi.hoisted(() => vi.fn());
 const getAnalyzeJDConfigMock = vi.hoisted(() =>
   vi.fn().mockResolvedValue({ schema: { type: "object" }, systemInstruction: "sys" })
+);
+const getQualificationConfigMock = vi.hoisted(() =>
+  vi.fn().mockResolvedValue({
+    schema: { type: "object", properties: { qualifications: {} } },
+    systemInstruction: "sys",
+  })
 );
 
 vi.mock("node:fs", async (importOriginal) => {
@@ -68,8 +75,11 @@ vi.mock("@/modules/job-analysis", async (importOriginal) => {
 
 vi.mock("../ai", () => ({
   default: analyzeJDMock,
+  analyzeQualifications: analyzeQualificationsMock,
   formatJDPrompt: (rawJD: string) => rawJD,
+  formatQualificationPrompt: (rawJD: string) => `${rawJD}\n\nExtract qualifications only.`,
   getAnalyzeJDConfig: getAnalyzeJDConfigMock,
+  getQualificationConfig: getQualificationConfigMock,
 }));
 
 vi.mock("@/utils/logger", () => ({
@@ -108,8 +118,13 @@ describe("batch-queue", () => {
     getAIProviderMock.mockReset();
     getRawJDMock.mockReset();
     analyzeJDMock.mockReset();
+    analyzeQualificationsMock.mockReset();
     getAnalyzeJDConfigMock.mockReset().mockResolvedValue({
       schema: { type: "object" },
+      systemInstruction: "sys",
+    });
+    getQualificationConfigMock.mockReset().mockResolvedValue({
+      schema: { type: "object", properties: { qualifications: {} } },
       systemInstruction: "sys",
     });
   });
@@ -355,5 +370,142 @@ describe("batch-queue", () => {
       })}\n`,
       "utf-8"
     );
+  });
+
+  it("submits a qualification batch for screened jobs that will be notified", async () => {
+    const job = { ...makeJob(), role: "Junior Software Engineer" };
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/screen",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        phase: "screen",
+        jobs: [job],
+      },
+    ]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    const submitBatch = vi.fn().mockResolvedValue({ name: "batches/quals" });
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify(screen),
+            cost: 0.001,
+          },
+        ],
+      }),
+      submitBatch,
+    });
+
+    const { analyzed, remaining } = await collectInflightBatches();
+
+    expect(analyzed).toEqual([]);
+    expect(submitBatch).toHaveBeenCalledWith(
+      [
+        expect.objectContaining({
+          key: getJobKey(job.link),
+          prompt: "raw jd\n\nExtract qualifications only.",
+          systemInstruction: "sys",
+        }),
+      ],
+      expect.any(String)
+    );
+    expect(remaining).toEqual([
+      expect.objectContaining({
+        name: "batches/quals",
+        phase: "qualifications",
+        jobs: [expect.objectContaining({ role: job.role, jd: screen })],
+        screenCosts: { [getJobKey(job.link)]: 0.001 },
+      }),
+    ]);
+  });
+
+  it("merges a qualification batch onto the screened JD", async () => {
+    const job = makeJob();
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    readJsonFileMock.mockResolvedValue([
+      {
+        name: "batches/quals",
+        submittedAt: "2026-09-01T00:00:00.000Z",
+        phase: "qualifications",
+        jobs: [{ ...job, jd: screen }],
+        screenCosts: { [getJobKey(job.link)]: 0.001 },
+      },
+    ]);
+    getAIProviderMock.mockReturnValue({
+      getBatch: vi.fn().mockResolvedValue({
+        state: "succeeded",
+        durationMs: 1_000,
+        results: [
+          {
+            key: getJobKey(job.link),
+            result: JSON.stringify({ qualifications: ["TypeScript"] }),
+            cost: 0.004,
+          },
+        ],
+      }),
+    });
+
+    const { analyzed } = await collectInflightBatches();
+
+    expect(analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.005,
+        jd: expect.objectContaining({
+          category: JobCategory.ENTRY_LEVEL,
+          qualifications: ["TypeScript"],
+        }),
+      }),
+    ]);
+  });
+
+  it("extracts qualifications in real time when the screened job will be notified", async () => {
+    const job = { ...makeJob(), role: "Junior Software Engineer" };
+    const screen: JD = {
+      citizenship: false,
+      sponsorship: true,
+      qualifications: null,
+      country: "USA",
+      location: "Austin, TX",
+      category: JobCategory.ENTRY_LEVEL,
+      season: "None",
+    };
+    readNdjsonFileIfExistsMock.mockResolvedValue([job]);
+    getRawJDMock.mockResolvedValue({ jd: "raw jd", error: JD_FETCH_OK });
+    getAIProviderMock.mockReturnValue({});
+    analyzeJDMock.mockResolvedValue({ result: JSON.stringify(screen), cost: 0.01 });
+    analyzeQualificationsMock.mockResolvedValue({
+      result: JSON.stringify({ qualifications: ["TypeScript"] }),
+      cost: 0.02,
+    });
+
+    const result = await submitQueuedJobs();
+
+    expect(analyzeQualificationsMock).toHaveBeenCalledWith("raw jd");
+    expect(result.analyzed).toEqual([
+      expect.objectContaining({
+        cost: 0.03,
+        jd: expect.objectContaining({ qualifications: ["TypeScript"] }),
+      }),
+    ]);
   });
 });

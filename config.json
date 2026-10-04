@@ -1,9 +1,13 @@
 {
   "target": {
     "full-time": ["entry level"],
-    "countries": ["USA"],
+    "countries": ["USA", "Taiwan", "Singapore"],
     "filter": {
       "USA": {
+        "allow_citizenship_required": false,
+        "allow_no_sponsorship": false
+      },
+      "Singapore": {
         "allow_citizenship_required": false,
         "allow_no_sponsorship": false
       }
