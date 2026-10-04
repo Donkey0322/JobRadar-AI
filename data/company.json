@@ -31178,6 +31178,16 @@
     ]
   },
   {
+    "name": "primient",
+    "ats": "workday",
+    "identifier": "primient-external_careers",
+    "domain": "https://primient.wd1.myworkdayjobs.com/External_Careers",
+    "page": "https://primient.wd1.myworkdayjobs.com/wday/cxs/primient/External_Careers/jobs",
+    "urls": [
+      "https://primient.wd1.myworkdayjobs.com/External_Careers/job/Schaumburg-IL/AI-Analyst-Intern---Summer-2027_JREQ7056"
+    ]
+  },
+  {
     "name": "priscorp.applicantpro.com",
     "ats": "custom",
     "identifier": "priscorp.applicantpro.com",
