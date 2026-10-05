@@ -466,6 +466,15 @@ export async function persistAnalyzedJobs(
     job.id = currentId;
     markAsSeen(job);
     jobs.push(job);
+
+    logger.info(
+      {
+        company: job.company,
+        role: job.role,
+        url: job.link,
+      },
+      "✅ Job matches notification criteria"
+    );
   }
 
   await saveJob(jobs);

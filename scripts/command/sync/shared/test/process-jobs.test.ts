@@ -246,6 +246,14 @@ describe("processJobs", () => {
 
     expect(result.count).toBe(1);
     expect(result.jobs[0]).toMatchObject({ id: 8, jd: usaJd });
+    expect(loggerMocks.info).toHaveBeenCalledWith(
+      {
+        company: job.company,
+        role: job.role,
+        url: job.link,
+      },
+      "✅ Job matches notification criteria"
+    );
     expect(dataMocks.saveJob).toHaveBeenCalledWith([
       expect.objectContaining({ link: job.link, jd: usaJd, id: 8 }),
     ]);
