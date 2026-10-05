@@ -72,3 +72,36 @@
 2026-10-03T01:41:18.999Z Workday: keybank - 429 - Too Many Requests
 2026-10-03T01:41:48.911Z Workday: liveramp - 403 - Forbidden
 2026-10-03T01:43:00.541Z Workday: medtronic - 502 - Bad Gateway
+2026-10-05T00:12:37.163Z Workday: acehardware - 500 - Internal Server Error
+2026-10-05T00:12:49.863Z Lever: calstart - 404 - Not Found
+2026-10-05T00:12:51.168Z Greenhouse: careers - 404 - Not Found
+2026-10-05T00:12:55.953Z Workday: cff - 422 - Unprocessable Entity
+2026-10-05T00:12:57.830Z Workday: cliftonlarsonallen - 422 - Unprocessable Entity
+2026-10-05T00:12:58.089Z Workday: cmu - 422 - Unprocessable Entity
+2026-10-05T00:12:58.880Z Workday: comcast - 422 - Unprocessable Entity
+2026-10-05T00:13:02.305Z Workday: dell - 422 - Unprocessable Entity
+2026-10-05T00:13:05.276Z Workday: elkay - 500 - Internal Server Error
+2026-10-05T00:13:05.930Z Greenhouse: equipmentshare - 404 - Not Found
+2026-10-05T00:13:11.083Z Workday: geico - 500 - Internal Server Error
+2026-10-05T00:13:12.615Z Workday: gtsgbu - 403 - Forbidden
+2026-10-05T00:13:16.536Z Greenhouse: hudsonrivertrading - 404 - Not Found
+2026-10-05T00:13:17.771Z Workday: idexx - 422 - Unprocessable Entity
+2026-10-05T00:13:21.099Z Workday: kar - 422 - Unprocessable Entity
+2026-10-05T00:13:24.269Z Workday: liveramp - 403 - Forbidden
+2026-10-05T00:13:24.879Z Ashby: luma-ai - 404 - Not Found
+2026-10-05T00:13:28.864Z Eightfold: mlp - 403 - FORBIDDEN
+2026-10-05T00:13:32.534Z Workday: nio - 422 - Unprocessable Entity
+2026-10-05T00:13:33.060Z Workday: nordstrom - 500 - Internal Server Error
+2026-10-05T00:13:34.488Z Workday: otis - 422 - Unprocessable Entity
+2026-10-05T00:13:34.493Z Workday: osv-tifec - 422 - Unprocessable Entity
+2026-10-05T00:13:34.631Z Workday: osv-rubicon - 422 - Unprocessable Entity
+2026-10-05T00:13:36.593Z Workday: plexus - 422 - Unprocessable Entity
+2026-10-05T00:13:40.714Z Workday: regions - 500 - Internal Server Error
+2026-10-05T00:13:44.138Z Lever: saronic - 404 - Not Found
+2026-10-05T00:13:49.447Z Lever: SprinterHealth - 404 - Not Found
+2026-10-05T00:13:50.932Z Greenhouse: stepstonegroup - 404 - Not Found
+2026-10-05T00:13:57.973Z Workday: truist - 500 - Internal Server Error
+2026-10-05T00:14:01.073Z Workday: vhr-genband - 422 - Unprocessable Entity
+2026-10-05T00:14:01.128Z Workday: vhr-otsuka - 422 - Unprocessable Entity
+2026-10-05T00:14:03.528Z Ashby: whatnot - 404 - Not Found
+2026-10-05T00:14:04.722Z Greenhouse: x - 404 - Not Found
