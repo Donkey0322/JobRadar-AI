@@ -18,6 +18,12 @@ const domainMap = {
   "apply.careers.microsoft.com": "microsoft.com",
 };
 
+/** Brand slug from an Eightfold company domain, e.g. microsoft.com → microsoft. */
+function companySlug(domain: string): string {
+  const host = domain.trim().toLowerCase().replace(/^www\./, "");
+  return host.split(".")[0] || host;
+}
+
 export const EightfoldJobSchema = z.object({
   id: z.number(),
   name: z.string(),
@@ -62,10 +68,7 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
 
   async formCompany(url: URL): Promise<Company> {
     const identifier = this.getIdentifier(url);
-    const domain =
-      url.searchParams.get("domain") ??
-      domainMap[url.hostname as keyof typeof domainMap] ??
-      `${identifier}.com`;
+    const domain = this.getDomain(url, identifier);
 
     let page = `${url.origin}/api/pcsx/search?domain=${domain}`;
     const response = await fetch(page);
@@ -85,13 +88,34 @@ export class EightfoldFetcher extends ATSFetcher<EightfoldJob> {
     }
 
     return {
-      name: identifier,
+      name: this.getCompanyName(url, domain, identifier),
       ats: this.ats,
       identifier,
       domain,
       page,
       urls: [],
     };
+  }
+
+  private getDomain(url: URL, identifier: string): string {
+    return (
+      url.searchParams.get("domain") ??
+      domainMap[url.hostname as keyof typeof domainMap] ??
+      `${identifier}.com`
+    );
+  }
+
+  /**
+   * *.eightfold.ai hosts already use the company slug as the subdomain.
+   * Custom career hosts keep that hostname as the identifier, and take the
+   * display name from the company domain instead.
+   */
+  private getCompanyName(url: URL, domain: string, identifier: string): string {
+    if (url.hostname.endsWith(".eightfold.ai")) {
+      return identifier;
+    }
+
+    return companySlug(domain);
   }
 
   private getIdentifier(url: URL): string {

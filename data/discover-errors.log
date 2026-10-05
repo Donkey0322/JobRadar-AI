@@ -105,3 +105,7 @@
 2026-10-05T00:14:01.128Z Workday: vhr-otsuka - 422 - Unprocessable Entity
 2026-10-05T00:14:03.528Z Ashby: whatnot - 404 - Not Found
 2026-10-05T00:14:04.722Z Greenhouse: x - 404 - Not Found
+2026-10-05T16:32:51.941Z Workday: cardinalhealth - 502 - Bad Gateway
+2026-10-05T16:35:56.360Z Workday: flir - 502 - Bad Gateway
+2026-10-05T16:39:59.752Z Workday: liveramp - 403 - Forbidden
+2026-10-05T16:46:03.674Z Workday: sbdinc - 502 - Bad Gateway

@@ -139,6 +139,37 @@ describe("ATSFetcher pilot adapters", () => {
     ).resolves.toEqual(new Set(["greenhouse:1", "greenhouse:2"]));
   });
 
+  it("names custom Eightfold career hosts from the company domain", async () => {
+    mockFetch
+      .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }))
+      .mockResolvedValueOnce(jsonResponse({ data: { positions: [] } }));
+
+    const microsoft = await eightfoldFetcher.formCompany(
+      new URL(
+        "https://apply.careers.microsoft.com/careers/job/1?domain=microsoft.com&8fold_id=1"
+      )
+    );
+    const caci = await eightfoldFetcher.formCompany(
+      new URL("https://searchcareers.caci.com/careers/job/1?8fold_id=1")
+    );
+
+    expect(microsoft).toMatchObject({
+      name: "microsoft",
+      identifier: "apply.careers.microsoft.com",
+      domain: "microsoft.com",
+    });
+    expect(caci).toMatchObject({
+      name: "caci",
+      identifier: "searchcareers.caci.com",
+      domain: "caci.com",
+    });
+    expect(
+      eightfoldFetcher.companyKeyFromUrl(
+        new URL("https://apply.careers.microsoft.com/careers/job/2?8fold_id=2")
+      )
+    ).toBe("eightfold:apply.careers.microsoft.com");
+  });
+
   it("keeps Eightfold company formation compatible with Apply fallback", async () => {
     mockFetch.mockResolvedValueOnce(
       jsonResponse({ message: "PCSX is not enabled for this user." })

@@ -4390,7 +4390,7 @@
     ]
   },
   {
-    "name": "apply.careers.microsoft.com",
+    "name": "microsoft",
     "ats": "eightfold",
     "identifier": "apply.careers.microsoft.com",
     "domain": "microsoft.com",
@@ -4602,14 +4602,6 @@
       "https://apply.careers.microsoft.com/careers/job/1970393557022501?domain=microsoft.com&8fold_id=1970393557022501",
       "https://apply.careers.microsoft.com/careers/job/1970393557022788?domain=microsoft.com&8fold_id=1970393557022788"
     ]
-  },
-  {
-    "name": "apply.careers.microsoft.com",
-    "ats": "custom",
-    "identifier": "apply.careers.microsoft.com",
-    "domain": "https://apply.careers.microsoft.com",
-    "page": "",
-    "urls": []
   },
   {
     "name": "apply.edisoncareers.com",
@@ -34539,7 +34531,7 @@
     ]
   },
   {
-    "name": "searchcareers.caci.com",
+    "name": "caci",
     "ats": "eightfold",
     "identifier": "searchcareers.caci.com",
     "domain": "caci.com",
