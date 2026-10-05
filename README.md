@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
   <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Taiwan%20%C2%B7%20Singapore-green" />
-  <img src="https://img.shields.io/badge/Updated-2026--10--04-orange" />
+  <img src="https://img.shields.io/badge/Updated-2026--10--05-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
@@ -91,9 +91,9 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,417 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,408 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,240 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,242 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,361 opportunities
-- [Senior Level](./job-postings/senior-level.md) — 8,344 opportunities
+- [Senior Level](./job-postings/senior-level.md) — 8,339 opportunities
 
 ## The List 🚴‍♂️
 
@@ -567,6 +567,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer Graduate (Global E-Commerce) - 2027 Start (PhD)</td>
+      <td width="180" align="left" valign="top">Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7665942671233206533"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 4</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">AI Agent Machine Learning Engineer Graduate (Global E-Commerce, Supply Chain and Logistics) - 2027 Start (PhD)</td>
+      <td width="180" align="left" valign="top">Singapore, Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7667944966433737013"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 4</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Parasail</td>
       <td width="420" align="left" valign="top">Software Engineer New Grad - Forward Deploy</td>
       <td width="180" align="left" valign="top">San Mateo, CA</td>
@@ -762,26 +776,12 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 2</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="./assets/featured-badges/amazon.svg" /></td>
-      <td width="420" align="left" valign="top">Software Development Engineer - 2026 (US)</td>
-      <td width="180" align="left" valign="top">Seattle</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/3177934"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 2</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richardson, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875418"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 1</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,240 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,242 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (18,705)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (18,700)</b></summary>
 
   <br />
 
@@ -1012,7 +1012,7 @@ Each category page shows up to 300 of the latest opportunities.
 </table>
 <p><sub>Showing 30 of 10,361 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (8,344)</h3>
+  <h3>Senior Level (8,339)</h3>
 
 <table width="100%">
   <thead>
@@ -1237,7 +1237,7 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 8,344 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 8,339 opportunities in this section.</sub></p>
 
 </details>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-04T23:56:35.642Z</code>
+      🕒 Last updated <code>2026-10-05T00:17:05.402Z</code>
     </span>
   </p>
 </div>
