@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,439 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,438 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,278 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,280 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,535 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,484 opportunities
 
@@ -567,6 +567,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Varsity Brands</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Farmers Branch, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.varsitybrands.com/us/en/job/JR113366?ph_id=JR113366"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">East Hartford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Software-Engineer-I--Onsite-_01874537"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 5</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pae</td>
       <td width="420" align="left" valign="top">Entry Level Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Fredericksburg, VA</td>
@@ -762,23 +776,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://www.esri.com/careers/5251035007?gh_jid=5251035007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">C++ Software Engineer, Junior<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Beavercreek, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Beavercreek-OH/C---Software-Engineer--Junior_R0240412"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aoins</td>
-      <td width="420" align="left" valign="top">COBOL Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Lansing, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/COBOL-Software-Developer_R_14568"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,278 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,280 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (19,019)</b></summary>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-06T03:07:57.350Z</code>
+      🕒 Last updated <code>2026-10-06T06:19:29.383Z</code>
     </span>
   </p>
 </div>

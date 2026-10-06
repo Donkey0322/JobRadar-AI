@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Varsity Brands</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Farmers Branch, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.varsitybrands.com/us/en/job/JR113366?ph_id=JR113366"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 5</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineer I (Onsite)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">East Hartford, CT</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Software-Engineer-I--Onsite-_01874537"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 5</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Pae</td>
       <td width="420" align="left" valign="top">Entry Level Software Engineer<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Fredericksburg, VA</td>
@@ -2099,24 +2113,10 @@
       <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 24</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Ipt global</td>
-      <td width="420" align="left" valign="top">Junior Data Scientist, Petroleum Engineering &amp; Well Integrity</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/IPTGlobal/744000151691148"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Llnl</td>
-      <td width="420" align="left" valign="top">Automation Materials Chemist - Postdoctoral Researcher<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Livermore, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/LLNL/3743990015660447"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 24</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,278 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,280 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T03:07:57.350Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T06:19:29.383Z</code></sub>
