@@ -14,6 +14,34 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">D&#39;Addario</td>
+      <td width="420" align="left" valign="top">Junior Full Stack Engineer</td>
+      <td width="180" align="left" valign="top">Farmingdale, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-daddario.icims.com/jobs/2680/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TaxRise</td>
+      <td width="420" align="left" valign="top">Junior Software Developer</td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/taxrise/jobs/4434618009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Deloitte</td>
+      <td width="420" align="left" valign="top">Data Scientist - AI and Data Science Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New Jersey, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.deloitte.com/en_US/careers/JobDetail/Data-Scientist-AI-and-Data-Science-Engineer-I/369586"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Shield AI</td>
+      <td width="420" align="left" valign="top">Software Development Engineer New Grad<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Everpure</td>
       <td width="420" align="left" valign="top">Software Engineer Grad 2027</td>
       <td width="180" align="left" valign="top">Santa Clara, CA</td>
@@ -2085,38 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153704983?domain=caci.com&amp;8fold_id=1443153704983"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="../assets/featured-badges/tiktok.svg" /></td>
-      <td width="420" align="left" valign="top">Multi-Cloud CDN Access Platform Engineer</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7681126649950505221"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Medtronic</td>
-      <td width="420" align="left" valign="top">Software Automation Test Engineer I<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Mounds View, MN</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Pae</td>
-      <td width="420" align="left" valign="top">Systems Engineer</td>
-      <td width="180" align="left" valign="top">Houston, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TX-Houston/Systems-Engineer_R0171526"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rsm</td>
-      <td width="420" align="left" valign="top">Endpoint Infrastructure and AVD Engineer - Associate<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://rsm.wd1.myworkdayjobs.com/rsmcareers/job/Chicago/Endpoint-Infrastructure-and-AVD-Engineer---Associate_JR121569"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,320 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,324 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T20:28:16.953Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T23:07:21.466Z</code></sub>

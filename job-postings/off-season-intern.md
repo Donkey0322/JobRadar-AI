@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Sierra Nevada Corporation</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Dayton, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rockwellautomation</td>
       <td width="420" align="left" valign="top">Intern, Firmware and Software Test Development<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Milwaukee, WI</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/ramp/acf6b28d-767f-483f-8ff2-114620cd7e04/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 23</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">BAE Systems</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern for Combat Vehicles/Weapon Systems - Summer 2026</td>
-      <td width="180" align="left" valign="top">Sterling Heights, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.baesystems.com/global/en/job/127509BR?ph_id=127509BR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 23</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,462 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,463 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T20:28:16.953Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-06T23:07:21.466Z</code></sub>

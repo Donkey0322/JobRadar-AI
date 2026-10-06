@@ -90,8 +90,8 @@
 Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,462 opportunities
-- [Off Season Intern](./job-postings/off-season-intern.md) — 1,462 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,320 opportunities
+- [Off Season Intern](./job-postings/off-season-intern.md) — 1,463 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,324 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,656 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,567 opportunities
 
@@ -340,6 +340,13 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Sierra Nevada Corporation</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Dayton, OH</td>
+      <td width="120" align="left" valign="top"><a href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Dayton-OH/Software-Engineer-I--For-2026-Interns-Only-_R0030889"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rockwellautomation</td>
       <td width="420" align="left" valign="top">Intern, Firmware and Software Test Development<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
       <td width="180" align="left" valign="top">Milwaukee, WI</td>
@@ -542,16 +549,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1213401?ph_id=1213401"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 5</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Hpe</td>
-      <td width="420" align="left" valign="top">Cloud Developer Intern</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/Cloud-Developer-Intern_1214950"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 5</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,462 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,463 opportunities in this section.</sub></p>
 
 ### Entry Level
 
@@ -566,6 +566,34 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">D&#39;Addario</td>
+      <td width="420" align="left" valign="top">Junior Full Stack Engineer</td>
+      <td width="180" align="left" valign="top">Farmingdale, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://careers-daddario.icims.com/jobs/2680/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">TaxRise</td>
+      <td width="420" align="left" valign="top">Junior Software Developer</td>
+      <td width="180" align="left" valign="top">Irvine, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/taxrise/jobs/4434618009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Deloitte</td>
+      <td width="420" align="left" valign="top">Data Scientist - AI and Data Science Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">New Jersey, USA</td>
+      <td width="120" align="left" valign="top"><a href="https://apply.deloitte.com/en_US/careers/JobDetail/Data-Scientist-AI-and-Data-Science-Engineer-I/369586"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Shield AI</td>
+      <td width="420" align="left" valign="top">Software Development Engineer New Grad<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Diego, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583/apply"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 6</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Everpure</td>
       <td width="420" align="left" valign="top">Software Engineer Grad 2027</td>
@@ -748,37 +776,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/Software-Engineer_R0251176"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">University - Full-Stack Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Huntsville, AL</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---Full-Stack-Developer_R0251336"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Caci</td>
-      <td width="420" align="left" valign="top">AI Prompt Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ashburn, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/AI-Prompt-Engineer_333190-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI Prompt Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ashburn, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://searchcareers.caci.com/careers/job/1443153839439?domain=caci.com&amp;8fold_id=1443153839439"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Abbvie</td>
-      <td width="420" align="left" valign="top">Associate Engineer, Quality Systems</td>
-      <td width="180" align="left" valign="top">North Chicago, IL</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.smartrecruiters.com/AbbVie/3743990015920416"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,320 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,324 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (19,223)</b></summary>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-06T20:28:16.953Z</code>
+      🕒 Last updated <code>2026-10-06T23:07:21.466Z</code>
     </span>
   </p>
 </div>
