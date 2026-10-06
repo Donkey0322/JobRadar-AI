@@ -46,7 +46,37 @@ const identifierMap: Record<string, string> = {
   "edix.fa.us2.oraclecloud.com": "CORSAIR",
   "ebwb.fa.us2.oraclecloud.com": "HOLOGIC",
   "eofe.fa.us2.oraclecloud.com": "BNY",
+  "jpmc.fa.oraclecloud.com": "JP Morgan Chase",
+  "hcgn.fa.us2.oraclecloud.com": "Citizens",
 };
+
+/**
+ * Oracle site titles are often the career page, not the company:
+ * "JPMC Candidate Experience page", "Akamai Career Site".
+ */
+const CAREER_PAGE_TITLE =
+  /^(?:(?<brand>.+?)\s+)?(?:minimal\s+)?(?:candidate experience(?:\s+(?:page|site))?|external careers site|career site|external)$/i;
+
+export function oracleCompanyName(siteName: string | undefined, hostname: string): string {
+  const mapped = identifierMap[hostname];
+  const trimmed = siteName?.trim() ?? "";
+  const pageTitle = trimmed.match(CAREER_PAGE_TITLE);
+
+  if (pageTitle) {
+    return mapped ?? pageTitle.groups?.brand?.trim() ?? hostname.replace(/^www\./, "");
+  }
+
+  if (trimmed) return trimmed;
+
+  return mapped ?? hostname.replace(/^www\./, "");
+}
+
+/** Keep display names that already have capitals. Only title-case plain slugs. */
+function formatOracleCompanyName(name: string): string {
+  const trimmed = name.trim();
+  if (trimmed === trimmed.toLowerCase()) return capitalize(trimmed);
+  return trimmed;
+}
 
 export async function getSiteSettings(url: URL) {
   const parts = url.pathname.split("/").filter(Boolean);
@@ -70,10 +100,11 @@ export async function getSiteSettings(url: URL) {
   try {
     const res = await fetch(apiUrl);
     const data = await res.json();
-    return { companyName: data.app.siteName as string, siteNumber };
+    const siteName = typeof data?.app?.siteName === "string" ? data.app.siteName : "";
+    return { companyName: oracleCompanyName(siteName, url.hostname), siteNumber };
   } catch {
     return {
-      companyName: identifierMap[url.hostname] ?? (url.hostname.replace("www.", "") as string),
+      companyName: oracleCompanyName(undefined, url.hostname),
       siteNumber,
     };
   }
@@ -143,7 +174,7 @@ export class OracleCloudFetcher extends ATSFetcher<OracleCloudJob> {
 
   protected normalizeJob(job: OracleCloudJob, company: Company): Job {
     return {
-      company: capitalize(company.name),
+      company: formatOracleCompanyName(company.name),
       role: job.Title,
       link: this.getJobLink(job, company),
       location: job.PrimaryLocation ?? "",

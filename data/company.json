@@ -1178,7 +1178,7 @@
     ]
   },
   {
-    "name": "Akamai Career Site",
+    "name": "Akamai",
     "ats": "oraclecloud",
     "identifier": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
@@ -6635,7 +6635,7 @@
     ]
   },
   {
-    "name": "BC Pensions Career Site",
+    "name": "BC Pensions",
     "ats": "oraclecloud",
     "identifier": "fa-exby-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1013/job",
@@ -6866,7 +6866,7 @@
     ]
   },
   {
-    "name": "BHE Career Site",
+    "name": "BHE",
     "ats": "oraclecloud",
     "identifier": "fa-essf-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-essf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
@@ -9416,7 +9416,7 @@
     ]
   },
   {
-    "name": "Candidate Experience site",
+    "name": "Tradeweb",
     "ats": "oraclecloud",
     "identifier": "ecnf.fa.us2.oraclecloud.com",
     "domain": "https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
@@ -9433,7 +9433,7 @@
     ]
   },
   {
-    "name": "Candidate Experience site",
+    "name": "Fortinet",
     "ats": "oraclecloud",
     "identifier": "edel.fa.us2.oraclecloud.com",
     "domain": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
@@ -9543,7 +9543,7 @@
     ]
   },
   {
-    "name": "Candidate Experience site",
+    "name": "Citizens",
     "ats": "oraclecloud",
     "identifier": "hcgn.fa.us2.oraclecloud.com",
     "domain": "https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
@@ -13096,7 +13096,7 @@
     ]
   },
   {
-    "name": "Chubb External",
+    "name": "Chubb",
     "ats": "oraclecloud",
     "identifier": "fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job",
@@ -16530,7 +16530,7 @@
     ]
   },
   {
-    "name": "Emerson Career Site",
+    "name": "Emerson",
     "ats": "oraclecloud",
     "identifier": "hdjq.fa.us2.oraclecloud.com",
     "domain": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job",
@@ -24312,7 +24312,7 @@
     "urls": []
   },
   {
-    "name": "JPMC Candidate Experience page",
+    "name": "JP Morgan Chase",
     "ats": "oraclecloud",
     "identifier": "jpmc.fa.oraclecloud.com",
     "domain": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
@@ -31351,7 +31351,7 @@
     ]
   },
   {
-    "name": "Pearson Candidate Experience Site",
+    "name": "Pearson",
     "ats": "oraclecloud",
     "identifier": "hccz.fa.em3.oraclecloud.com",
     "domain": "https://hccz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
@@ -31766,7 +31766,7 @@
     ]
   },
   {
-    "name": "Photon Career Site",
+    "name": "Photon",
     "ats": "oraclecloud",
     "identifier": "fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com",
     "domain": "https://fa-ertb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job",
@@ -33692,7 +33692,7 @@
     "urls": []
   },
   {
-    "name": "Rheem Career Site",
+    "name": "Rheem",
     "ats": "oraclecloud",
     "identifier": "hdde.fa.us2.oraclecloud.com",
     "domain": "https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job",
@@ -34590,7 +34590,7 @@
     ]
   },
   {
-    "name": "S&C Minimal Career Site",
+    "name": "S&C",
     "ats": "oraclecloud",
     "identifier": "ejia.fa.us6.oraclecloud.com",
     "domain": "https://ejia.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job",
@@ -42619,7 +42619,7 @@
     ]
   },
   {
-    "name": "WTW External Careers Site",
+    "name": "WTW",
     "ats": "oraclecloud",
     "identifier": "eedu.fa.em3.oraclecloud.com",
     "domain": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job",
