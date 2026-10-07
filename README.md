@@ -89,10 +89,10 @@
 
 Each category page shows up to 300 of the latest opportunities.
 
-- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,485 opportunities
+- [2027 Summer Intern](./job-postings/summer-intern.md) — 1,487 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,488 opportunities
 - [Entry Level](./job-postings/entry-level.md) — 3,382 opportunities
-- [Mid Level](./job-postings/mid-level.md) — 10,849 opportunities
+- [Mid Level](./job-postings/mid-level.md) — 10,850 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,706 opportunities
 
 ## The List 🚴‍♂️
@@ -112,6 +112,20 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">IDEMIA</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Reston, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://uscareers-idemia.icims.com/jobs/8657/job?mobile=true&amp;needsRedirect=false"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">McKesson</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Irving, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Persona</td>
       <td width="420" align="left" valign="top">Software Engineer, Intern (Summer 2027) <br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -308,23 +322,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/rivet/03fcb078-7371-4cfd-89a9-368e5b60d914"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Rtx</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McKinney, TX</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/Software-Engineering-Intern--Summer-2027-_01879520"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cedar Rapids, IA</td>
-      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-124--400-Collins-Rd-NE--BLDG-124/Software-Engineering-Intern--Summer-2027-_01871884"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 1,485 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 1,487 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -781,11 +781,11 @@ Each category page shows up to 300 of the latest opportunities.
 <p><sub>Showing 30 of 3,382 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (19,555)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (19,556)</b></summary>
 
   <br />
 
-  <h3>Mid Level (10,849)</h3>
+  <h3>Mid Level (10,850)</h3>
 
 <table width="100%">
   <thead>
@@ -798,6 +798,13 @@ Each category page shows up to 300 of the latest opportunities.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">State Affairs</td>
+      <td width="420" align="left" valign="top">Software Engineer Intern</td>
+      <td width="180" align="left" valign="top">Washington, DC</td>
+      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/stateaffairs/jobs/4437430009"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">Rivianvw.tech</td>
       <td width="420" align="left" valign="top">Software Engineer, Connectivity Cloud<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
@@ -1001,16 +1008,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/handshake/b434ac30-8288-417a-96b0-29fa8dac7d58"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 7</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Healthfirst</td>
-      <td width="420" align="left" valign="top">Engineer, Systems Admin and Monitoring</td>
-      <td width="180" align="left" valign="top">Remote - NY, USA</td>
-      <td width="120" align="left" valign="top"><a href="https://healthfirst.wd1.myworkdayjobs.com/healthfirst/job/Remote---NY/Engineer--Systems-Admin-and-Monitoring_R022626"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 7</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 10,849 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 10,850 opportunities in this section.</sub></p>
 
   <h3>Senior Level (8,706)</h3>
 
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-07T23:48:44.506Z</code>
+      🕒 Last updated <code>2026-10-07T23:54:23.534Z</code>
     </span>
   </p>
 </div>
