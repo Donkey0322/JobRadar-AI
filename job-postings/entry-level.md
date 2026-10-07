@@ -14,6 +14,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Schwab</td>
+      <td width="420" align="left" valign="top">AI Security Engineer Southlake, TX; Austin, TX; Phoenix, AZ Requisition ID: 2026-122280 Application deadline: 2026-10-14 Save for Later<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Southlake, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://www.schwabjobs.com/job/southlake/ai-security-engineer/33727/95597966320"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Associate, Systems Engineering Engineering|New, Grads Palm Bay, Brevard, FL<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Fort Wayne, IN</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/palm-bay/associate-systems-engineering/4832/99693730032"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Caci</td>
       <td width="420" align="left" valign="top">Web Application Developer – Early Career</td>
       <td width="180" align="left" valign="top">Chantilly, VA</td>
@@ -32,6 +46,13 @@
       <td width="420" align="left" valign="top">Software Engineer I</td>
       <td width="180" align="left" valign="top">O&#39;Fallon, MO</td>
       <td width="120" align="left" valign="top"><a href="https://mastercard.wd1.myworkdayjobs.com/corporatecareers/job/OFallon-Missouri/Software-Engineer-I_R-292618-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Nelnet</td>
+      <td width="420" align="left" valign="top">IT Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Lincoln, NE</td>
+      <td width="120" align="left" valign="top"><a href="https://nelnet.wd1.myworkdayjobs.com/mynelnet/job/Lincoln-NE/IT-Software-Engineer_R23145"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 7</td>
     </tr>
     <tr>
@@ -2092,31 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8854394002?gh_jid=8854394002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 28</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aero</td>
-      <td width="420" align="left" valign="top">IC 2027 Data Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">El Segundo, CA</td>
-      <td width="120" align="left" valign="top"><a aria-disabled="true"><img height="28" alt="apply (expired)" src="https://img.shields.io/badge/Apply-9ca3af?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Anduril Industries</td>
-      <td width="420" align="left" valign="top">Data Analyst, Quality<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ashville, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/andurilindustries/jobs/5251234007?gh_jid=5251234007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Verizon</td>
-      <td width="420" align="left" valign="top">Junior Data Security Engineer</td>
-      <td width="180" align="left" valign="top">Remote</td>
-      <td width="120" align="left" valign="top"><a href="https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Alpharetta-Georgia/Junior-Data-Security-Engineer_R-1101423-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 28</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,345 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,348 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-07T15:37:49.926Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-07T15:44:46.953Z</code></sub>
