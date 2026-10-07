@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,471 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,469 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,339 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,340 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 10,710 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,622 opportunities
 
@@ -567,6 +567,20 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Disney</td>
+      <td width="420" align="left" valign="top">Product Software Engineer I<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Glendale, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://disney.wd5.myworkdayjobs.com/disneycareerdc/job/Glendale-CA-USA/Product-Software-Engineer-I_10151599-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">HPE</td>
+      <td width="420" align="left" valign="top">Systems/Software Engineer I - Graduate</td>
+      <td width="180" align="left" valign="top">Houston, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.hpe.com/us/en/job/1213648?ph_id=1213648"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 7</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Rtx</td>
       <td width="420" align="left" valign="top">Radar Systems Test Engineer I (Onsite)<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">El Segundo, CA</td>
@@ -762,23 +776,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://boards.greenhouse.io/spacex/jobs/8871006002?gh_jid=8871006002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Thermofisher</td>
-      <td width="420" align="left" valign="top">Assistant Scientist - Automation</td>
-      <td width="180" align="left" valign="top">Richmond, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://thermofisher.wd5.myworkdayjobs.com/thermofishercareers/job/Richmond-Virginia-USA/Assistant-Scientist---Automation_R-01368289"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Torc Robotics</td>
-      <td width="420" align="left" valign="top">Commissioning - Systems Engineer I</td>
-      <td width="180" align="left" valign="top">Ann Arbor, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/torcrobotics/jobs/8864848002"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,339 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,340 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (19,332)</b></summary>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-07T06:05:14.826Z</code>
+      🕒 Last updated <code>2026-10-07T13:21:10.537Z</code>
     </span>
   </p>
 </div>
