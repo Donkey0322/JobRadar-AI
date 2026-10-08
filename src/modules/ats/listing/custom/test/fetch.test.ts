@@ -15,6 +15,7 @@ import type { ZodType } from "zod";
 import { AmazonCompany, AmazonResponseSchema } from "../amazon";
 import { AMDCompany, AMDResponseSchema } from "../amd";
 import { AppleCompany, parseAppleJobs } from "../apple";
+import { ByteDanceCompany, ByteDanceResponseSchema } from "../bytedance";
 import { GoogleCompany, GoogleJobSchema } from "../google";
 import { MetaCompany, MetaResponseSchema } from "../meta";
 import { NetflixCompany, NetflixResponseSchema } from "../netflix";
@@ -130,6 +131,45 @@ describe("TikTok", () => {
           origin: TikTokCompany.domain,
           referer: `${TikTokCompany.domain}/`,
           "website-path": "tiktok",
+        },
+        body: JSON.stringify({
+          recruitment_id_list: [],
+          job_category_id_list: [],
+          subject_id_list: [],
+          location_code_list: [],
+          keyword: "",
+          limit: 1,
+          offset: 0,
+        }),
+      });
+
+      expect(data.code, "expected success code 0").toBe(0);
+      expect(
+        data.data?.job_post_list?.length ?? 0,
+        "expected at least one job post in response"
+      ).toBeGreaterThan(0);
+    },
+    TIMEOUT
+  );
+});
+
+// ---------------------------------------------------------------------------
+// ByteDance
+// ---------------------------------------------------------------------------
+
+describe("ByteDance", () => {
+  it(
+    "response matches ByteDanceResponseSchema",
+    async () => {
+      const data = await fetchJsonContract(ByteDanceCompany.page, ByteDanceResponseSchema, {
+        method: "POST",
+        headers: {
+          accept: "*/*",
+          "accept-language": "en-US",
+          "content-type": "application/json",
+          origin: ByteDanceCompany.domain,
+          referer: `${ByteDanceCompany.domain}/`,
+          "website-path": "en",
         },
         body: JSON.stringify({
           recruitment_id_list: [],

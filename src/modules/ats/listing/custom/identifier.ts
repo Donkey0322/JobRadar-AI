@@ -5,6 +5,7 @@ export type CustomCompanyIdentifier =
   | "apple"
   | "netflix"
   | "tiktok"
+  | "bytedance"
   | "amd";
 
 export const CUSTOM_COMPANY_DOMAINS = {
@@ -14,6 +15,7 @@ export const CUSTOM_COMPANY_DOMAINS = {
   apple: "jobs.apple.com",
   netflix: "netflix.net",
   tiktok: "tiktok.com",
+  bytedance: "bytedance.com",
   amd: "amd.com",
 } satisfies Record<CustomCompanyIdentifier, string>;
 

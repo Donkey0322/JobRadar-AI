@@ -1,4 +1,4 @@
-// Amazon, Google, Apple, Meta, TikTok, Uber
+// Amazon, Google, Apple, Meta, TikTok, ByteDance, Uber
 
 import { RED_CROSS } from "@/constants/log";
 
@@ -9,6 +9,7 @@ import { ATSFetcher } from "../../core/fetcher";
 import { AmazonCompany, fetchAmazon } from "./amazon";
 import { AMDCompany, fetchAMD } from "./amd";
 import { AppleCompany, fetchApple } from "./apple";
+import { ByteDanceCompany, fetchByteDance } from "./bytedance";
 import { fetchGoogle, GoogleCompany } from "./google";
 import { parseCustomCompanyIdentifier } from "./identifier";
 import { fetchMeta, MetaCompany } from "./meta";
@@ -46,6 +47,8 @@ export class CustomFetcher extends ATSFetcher<Job> {
         return NetflixCompany;
       case "tiktok":
         return TikTokCompany;
+      case "bytedance":
+        return ByteDanceCompany;
       case "amd":
         return AMDCompany;
       default: {
@@ -124,6 +127,9 @@ export class CustomFetcher extends ATSFetcher<Job> {
         }
         case "tiktok": {
           return await fetchTikTok(company, knownKeys, signal);
+        }
+        case "bytedance": {
+          return await fetchByteDance(company, knownKeys, signal);
         }
         case "amd": {
           return await fetchAMD(company, knownKeys, signal);

@@ -49,6 +49,21 @@ describe("CustomFetcher", () => {
     expect(fetchAmazonMock).toHaveBeenCalledWith(company, urls, signal);
   });
 
+  it("forms ByteDance from both career hosts", () => {
+    const fromSearch = customFetcher.formCompany(new URL("https://joinbytedance.com/search/1"));
+    const fromDetail = customFetcher.formCompany(
+      new URL("https://jobs.bytedance.com/en/position/1/detail")
+    );
+
+    expect(fromSearch).toMatchObject({
+      name: "ByteDance",
+      identifier: "bytedance",
+      page: "https://jobs.bytedance.com/api/v1/public/supplier/search/job/posts",
+    });
+    expect(fromDetail.identifier).toBe("bytedance");
+    expect(fromDetail.page).toBe(fromSearch.page);
+  });
+
   it("forms a fallback company and skips its empty page", async () => {
     const company = customFetcher.formCompany(new URL("https://www.example.com/careers"));
 

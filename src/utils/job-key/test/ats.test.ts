@@ -430,6 +430,18 @@ describe("getIcimsKey", () => {
 });
 
 describe("getCustomKey", () => {
+  it("uses the bytedance id from joinbytedance search urls", () => {
+    expect(getCustomKey("https://joinbytedance.com/search/7535953226975054098")).toBe(
+      "bytedance:7535953226975054098"
+    );
+  });
+
+  it("uses the bytedance id from jobs.bytedance.com detail urls", () => {
+    expect(getCustomKey("https://jobs.bytedance.com/en/position/7417891515852900617/detail")).toBe(
+      "bytedance:7417891515852900617"
+    );
+  });
+
   it("uses custom company identifier with numeric pathname id", () => {
     // Arrange
     const url =
