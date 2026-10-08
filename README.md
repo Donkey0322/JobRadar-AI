@@ -91,7 +91,7 @@ Each category page shows up to 300 of the latest opportunities.
 
 - [2027 Summer Intern](./job-postings/summer-intern.md) — 1,531 opportunities
 - [Off Season Intern](./job-postings/off-season-intern.md) — 1,582 opportunities
-- [Entry Level](./job-postings/entry-level.md) — 3,573 opportunities
+- [Entry Level](./job-postings/entry-level.md) — 3,577 opportunities
 - [Mid Level](./job-postings/mid-level.md) — 11,243 opportunities
 - [Senior Level](./job-postings/senior-level.md) — 8,858 opportunities
 
@@ -567,6 +567,34 @@ Each category page shows up to 300 of the latest opportunities.
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Sierra Nevada Corporation</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Lone Tree, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-I_R0031014"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Software Engineer 1<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Lone Tree, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Lone-Tree-CO/Software-Engineer-I_R0031025"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Cencora</td>
+      <td width="420" align="left" valign="top">Engineer 1 - Systems Software Engineering</td>
+      <td width="180" align="left" valign="top">Remote, PA</td>
+      <td width="120" align="left" valign="top"><a href="https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-Pennsylvania/Engineer-I--Systems-Software-Engineering_R2614401"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="TikTok" src="./assets/featured-badges/tiktok.svg" /></td>
+      <td width="420" align="left" valign="top">Machine Learning Engineer New Grad - E-Commerce User Growth</td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lifeattiktok.com/search/7694352871949682997"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="ByteDance" src="./assets/featured-badges/bytedance.svg" /></td>
       <td width="420" align="left" valign="top">Backend Engineer Graduate (Recommendation Architecture) - 2026 Start (PhD)</td>
       <td width="180" align="left" valign="top">Singapore, Singapore</td>
@@ -748,37 +776,9 @@ Each category page shows up to 300 of the latest opportunities.
       <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7509266973236152583"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Research Scientist - Recommendation Modeling &amp; Large-scale Computing Infrastructure - Global Frontier Tech Recruitment Program - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">San Jose, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7631317232770500869"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Research Scientist - Compute AI Infra - Global Frontier Tech Recruitment Program - 2027 Start (PhD)</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7629125488116451637"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning Engineer Graduate (Global E-Commerce, Search) - 2026 Start (PhD)</td>
-      <td width="180" align="left" valign="top">Singapore, Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7607032328640071941"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Machine Learning System Engineer - Data AML - Soaring Star Talent Program</td>
-      <td width="180" align="left" valign="top">Singapore</td>
-      <td width="120" align="left" valign="top"><a href="https://joinbytedance.com/search/7508727792475162887"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 8</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 30 of 3,573 opportunities in this section.</sub></p>
+<p><sub>Showing 30 of 3,577 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (20,101)</b></summary>
@@ -1258,7 +1258,7 @@ Each category page shows up to 300 of the latest opportunities.
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-10-08T22:31:16.716Z</code>
+      🕒 Last updated <code>2026-10-08T23:57:31.559Z</code>
     </span>
   </p>
 </div>
