@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "name": "batches/b94zoqpfugsojrhsjvg5v7guxhzib45nizeq",
+    "submittedAt": "2026-10-09T23:19:45.200Z",
+    "phase": "screen",
+    "jobs": [
+      {
+        "company": "Electronic Arts",
+        "role": "Software Engineer Intern",
+        "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-Months-Sports-Technology/216225",
+        "location": "Vancouver, BC, Canada"
+      },
+      {
+        "company": "Electronic Arts",
+        "role": "Software Engineer Co-op",
+        "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231",
+        "location": "Vancouver, BC, Canada"
+      },
+      {
+        "company": "Electronic Arts",
+        "role": "Gameplay Software Engineer Co-op",
+        "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230",
+        "location": "Vancouver, BC, Canada"
+      },
+      {
+        "company": "Tenet3",
+        "role": "Software Developer Intern - Full Stack",
+        "link": "https://job-boards.greenhouse.io/tenet3/jobs/8878874002",
+        "location": "Dayton, OH"
+      },
+      {
+        "company": "Electronic Arts",
+        "role": "C++ Software Engineer Intern",
+        "link": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-months-UFC/216226",
+        "location": "Vancouver, BC, Canada"
+      },
+      {
+        "company": "Faire",
+        "role": "Applied AI/ML Scientist Intern 🎓",
+        "link": "https://boards.greenhouse.io/faire/jobs/8870975002",
+        "location": "SF"
+      }
+    ]
+  }
+]
