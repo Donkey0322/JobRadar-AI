@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Rtx</td>
+      <td width="420" align="left" valign="top">Software Engineering Intern (Summer 2027)<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Annapolis Junction, MD</td>
+      <td width="120" align="left" valign="top"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-ANNAPOLIS-JUNCTION-339--306-Sentinel-Dr--339-BLDG/Software-Engineering-Intern--Summer-2027-_01880895"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Westinghouse Electric Company</td>
       <td width="420" align="left" valign="top">Fuel Engineering Data Analyst Intern<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">Cranberry Township, PA</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://careers.jhuapl.edu/jobs/60223?icims=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 25</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Abb</td>
-      <td width="420" align="left" valign="top">Systems Engineering Intern – Summer 2027<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cleveland, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-OH-Cleveland/Systems-Engineering-Intern---Summer-2027_JR00047388"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 25</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,533 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,534 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:11:45.815Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:18:58.772Z</code></sub>

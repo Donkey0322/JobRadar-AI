@@ -14,6 +14,13 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Globalfoundries</td>
+      <td width="420" align="left" valign="top">Automation &amp; AI Engineer Intern, Quality (Jan-Jun 2027)</td>
+      <td width="180" align="left" valign="top">Woodlands, Singapore</td>
+      <td width="120" align="left" valign="top"><a href="https://globalfoundries.wd1.myworkdayjobs.com/External/job/SGP---Woodlands/XMLNAME---Engineer-Quality-QMS-Intern--Jan-Jun-2027-_JR-2604510-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="ByteDance" src="../assets/featured-badges/bytedance.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer Intern (Global E-Commerce, Search) - 2027 Start</td>
       <td width="180" align="left" valign="top">Singapore, Singapore</td>
@@ -2106,17 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://jobs.l3harris.com/job/Clifton-Intern,-Software-Engineer-NJ-07014/1434802800/?ats=successfactors"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Sep 29</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Modernatx</td>
-      <td width="420" align="left" valign="top">Co-Op, Research Engineering and AI Integration<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cambridge, MA</td>
-      <td width="120" align="left" valign="top"><a href="https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Co-Op--Research-Engineering-and-AI-Integration_R19893"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Sep 29</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 1,582 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 1,583 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:11:45.815Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:18:58.772Z</code></sub>

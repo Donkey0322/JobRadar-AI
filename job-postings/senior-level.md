@@ -14,6 +14,104 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Capitalone</td>
+      <td width="420" align="left" valign="top">101715989232 10/08/2026 Front-end Engineer 4 McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/front-end-engineer-4/1732/101715989232"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">101715988960 10/08/2026 Full-stack Engineer 4 McLean, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">McLean, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/mclean/full-stack-engineer-4/1732/101715988960"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">101715988656 10/08/2026 Full-Stack Engineer 4 (Python, React, AWS) Cambridge, MA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/cambridge/full-stack-engineer-4-python-react-aws/1732/101715988656"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">101715988384 10/08/2026 Full-stack Engineer 4 (Python/AWS) Cambridge, MA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Cambridge, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/cambridge/full-stack-engineer-4-python-aws/1732/101715988384"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">101715988080 10/08/2026 Full-stack Engineer 4 (Python/AWS) Richmond, VA<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Richmond, VA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.capitalonecareers.com/job/richmond/full-stack-engineer-4-python-aws/1732/101715988080"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">DeepMind</td>
+      <td width="420" align="left" valign="top">Forward Deployed Engineer, Kaggle, DeepMind</td>
+      <td width="180" align="left" valign="top">Mountain View, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.google.com/about/careers/applications/jobs/results/88371816375952070-forward-deployed-engineer-kaggle-deepmind?sort_by=date&amp;page=1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Specialist, FRACAS Systems Engineer Engineering Salt Lake City, UT<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Salt Lake City, UT</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/salt-lake-city/specialist-fracas-systems-engineer/4832/101721998400"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Meta" src="../assets/featured-badges/meta.svg" /></td>
+      <td width="420" align="left" valign="top">Production Systems Engineer, Fleet Strategy</td>
+      <td width="180" align="left" valign="top">Menlo Park, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://www.metacareers.com/profile/job_details/1858344791964854"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="OpenAI" src="../assets/featured-badges/openai.svg" /></td>
+      <td width="420" align="left" valign="top">Data Scientist, FinEng</td>
+      <td width="180" align="left" valign="top">San Francisco, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/openai/082f4d82-499f-4150-892f-0b0d1105fffe"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Boeing</td>
+      <td width="420" align="left" valign="top">Full Stack Data Scientist<br /><img height="18" alt="reopen" src="https://img.shields.io/badge/reopen-eab308?style=plastic" /> <img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Full-Stack-Data-Scientist_JR2026511989-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Altera</td>
+      <td width="420" align="left" valign="top">ML/AI Timing and Power Flow Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">San Jose, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://altera.wd1.myworkdayjobs.com/altera/job/San-Jose-California-United-States/ML-AI-Timing-and-Power-Flow-Engineer_R03301"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Amazon" src="../assets/featured-badges/amazon.svg" /></td>
+      <td width="420" align="left" valign="top">Software Development Engineer — Storage</td>
+      <td width="180" align="left" valign="top">Austin, TX</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10440288"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
+      <td width="420" align="left" valign="top">Commissioning Engineer, AWS Data Center Commissioning<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Atlanta, GA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10459418"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Boeing</td>
+      <td width="420" align="left" valign="top">Ground Systems Engineer - Millennium Space Systems<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
+      <td width="180" align="left" valign="top">El Segundo, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Ground-Systems-Engineer---Millennium-Space-Systems_JR2026525676"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top"><img height="28" alt="ByteDance" src="../assets/featured-badges/bytedance.svg" /></td>
       <td width="420" align="left" valign="top">Machine Learning Engineer - AI Search (ByteDance Singapore)</td>
       <td width="180" align="left" valign="top">Singapore</td>
@@ -2015,108 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10499383"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Development Engineer, Amazon Shopping</td>
-      <td width="180" align="left" valign="top">Seattle, WA</td>
-      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10461536"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top"><img height="28" alt="Apple" src="../assets/featured-badges/apple.svg" /></td>
-      <td width="420" align="left" valign="top">Software Engineer, Observability</td>
-      <td width="180" align="left" valign="top">Cupertino, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://jobs.apple.com/en-us/details/200686823-0836/software-engineer-observability?team=SFTWR"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Avav</td>
-      <td width="420" align="left" valign="top">Infrastructure Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Dayton, OH</td>
-      <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Dayton-OH/Infrastructure-Engineer_8961"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Baird</td>
-      <td width="420" align="left" valign="top">Salesforce Platform Engineer<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Milwaukee, WI</td>
-      <td width="120" align="left" valign="top"><a href="https://baird.wd1.myworkdayjobs.com/careers/job/WI-Milwaukee/Salesforce-Platform-Engineer_R20261001"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Capitalone</td>
-      <td width="420" align="left" valign="top">Mobile Engineer 5 (Android)</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Mobile-Engineer-5--Android-_R1003075"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Data Engineer 4 - Intelligent Foundations and Experiences (IFX)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Richmond, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Richmond-VA/Data-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1003010-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Manager-IC-_R1001258-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Manager-IC-_R1001257-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Manager-IC-_R1001256-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Manager-IC-_R1001253-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 5</td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-5--Sr-Manager-IC-_R1001484-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Full-stack Engineer 4<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">McLean, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Manager-IC-_R1001254"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI Engineer 4 (Gen AI Platform Services: Agentic AI, Agent Guardrails, Agent Evaluation, Agent Memory)</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/San-Francisco--CA/AI-Engineer-4--Gen-AI-Platform-Services--Agentic-AI--Agent-Guardrails--Agent-Evaluation--Agent-Memory-_R1003193-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">AI Engineer 5 (Gen AI Platform Services: Agentic AI, Guardrails, Evaluation)</td>
-      <td width="180" align="left" valign="top">New York, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/New-York-NY/AI-Engineer-5--Gen-AI-Platform-Services--Agentic-AI--Guardrails--Evaluation-_R1003152-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 8,858 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 8,872 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:11:45.815Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:18:58.772Z</code></sub>

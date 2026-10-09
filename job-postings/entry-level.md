@@ -28,7 +28,42 @@
       <td width="120" align="left" valign="top">Oct 8</td>
     </tr>
     <tr>
+      <td width="180" align="left" valign="top">Hpe</td>
+      <td width="420" align="left" valign="top">Storage Systems/Software Engineer</td>
+      <td width="180" align="left" valign="top">Andover, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Andover-Massachusetts-United-States-of-America/Storage-Systems-Software-Engineer_1215626-2"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">L3harris</td>
+      <td width="420" align="left" valign="top">Associate, Software Engineer Engineering|New, Grads Colorado Springs, CO<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Colorado Springs, CO</td>
+      <td width="120" align="left" valign="top"><a href="https://careers.l3harris.com/job/colorado-springs/associate-software-engineer/4832/101721998048"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Lucid Motors</td>
+      <td width="420" align="left" valign="top">Software Engineer, ADAS Behavior Planning and Integration</td>
+      <td width="180" align="left" valign="top">Newark, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://lucidmotors.com/careers/search/5242854007?gh_jid=5242854007"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top"><img height="28" alt="Snowflake" src="../assets/featured-badges/snowflake.svg" /></td>
+      <td width="420" align="left" valign="top">Software Engineer - Customer Experience Engineering</td>
+      <td width="180" align="left" valign="top">Menlo Park, CA</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/snowflake/5ca0fa74-9e43-4468-8f1c-0a3aa0a993ec"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">Avav</td>
+      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
+      <td width="180" align="left" valign="top">Albuquerque, NM</td>
+      <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Albuquerque-NM/Software-Engineer_9081"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="120" align="left" valign="top">Oct 8</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">↳</td>
       <td width="420" align="left" valign="top">Software Engineer (Apps), I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
       <td width="180" align="left" valign="top">San Diego, CA</td>
       <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/7540-Metropolitan-Dr-San-Diego-CA/Software-Engineer--Apps---I_8655"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
@@ -2078,45 +2113,10 @@
       <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Associate-Software-Engineer_9016"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="120" align="left" valign="top">Oct 6</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer (EMB), I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Moorpark, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer--EMB---I_9055"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">Software Engineer (EMB) I<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Moorpark, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://avav.wd1.myworkdayjobs.com/avav/job/Moorpark-CA/Software-Engineer--EMB--I_9054"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Bah</td>
-      <td width="420" align="left" valign="top">Software Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Rome, NY</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/Software-Engineer_R0251176"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">↳</td>
-      <td width="420" align="left" valign="top">University - Full-Stack Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Huntsville, AL</td>
-      <td width="120" align="left" valign="top"><a href="https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---Full-Stack-Developer_R0251336"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Caci</td>
-      <td width="420" align="left" valign="top">AI Prompt Engineer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Ashburn, VA</td>
-      <td width="120" align="left" valign="top"><a href="https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/AI-Prompt-Engineer_333190-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="120" align="left" valign="top">Oct 6</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 300 of 3,580 opportunities in this section.</sub></p>
+<p><sub>Showing 300 of 3,585 opportunities in this section.</sub></p>
 
 ---
 
-<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:11:45.815Z</code></sub>
+<sub>Generated from <code>data/opportunities.ndjson</code> · Last updated <code>2026-10-09T02:18:58.772Z</code></sub>
