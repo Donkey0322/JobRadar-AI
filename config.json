@@ -39,11 +39,6 @@
       "cloud",
       "infra",
       "infrastructure",
-      "devops",
-      "sre",
-      "site reliability",
-      "security",
-      "automation",
       "ui",
       "ux"
     ],
@@ -72,7 +67,8 @@
       "technician",
       "civil",
       "chemical",
-      "biomedical"
+      "biomedical",
+      "research"
     ]
   },
   "ai": {
