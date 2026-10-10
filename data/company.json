@@ -28926,10 +28926,10 @@
     "urls": [
       "https://jobs.lever.co/magnetforensics/450d6c28-ac1d-4411-a176-3eb5655c5545",
       "https://jobs.lever.co/magnetforensics/454d7903-cb1b-40ff-b7a8-5bc2e87e7329",
+      "https://jobs.lever.co/magnetforensics/6eba87dc-f110-47b2-8015-31311ca60f52/apply",
       "https://jobs.lever.co/magnetforensics/7a86a5a7-79a6-41fd-8ac4-e668ae34665f",
       "https://jobs.lever.co/magnetforensics/8d402b0c-12b6-4114-bfc9-4ef95f4742e1",
-      "https://jobs.lever.co/magnetforensics/b9398342-bc38-4ade-b37d-2d7f660ffa09",
-      "https://jobs.lever.co/magnetforensics/6eba87dc-f110-47b2-8015-31311ca60f52/apply"
+      "https://jobs.lever.co/magnetforensics/b9398342-bc38-4ade-b37d-2d7f660ffa09"
     ]
   },
   {
@@ -39161,6 +39161,16 @@
       "https://jobs.ashbyhq.com/simple-ai/1dbaca6f-92cd-4ad9-ac3f-8fe6dce7e20c",
       "https://jobs.ashbyhq.com/simple-ai/652b88c5-199e-41d1-86f6-c367d737a84e",
       "https://jobs.ashbyhq.com/simple-ai/9a5f5694-e066-4087-9a13-b1a62d8d8025"
+    ]
+  },
+  {
+    "name": "simplify.jobs",
+    "ats": "custom",
+    "identifier": "simplify.jobs",
+    "domain": "https://simplify.jobs",
+    "page": "",
+    "urls": [
+      "https://simplify.jobs/p/bdc069d8-947d-4e4c-8a1c-78356f9b366f"
     ]
   },
   {
